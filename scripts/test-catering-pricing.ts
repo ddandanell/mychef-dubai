@@ -58,6 +58,11 @@ eq('labels', [formatFrom(150), formatTypical(180, 350), formatEstimate(150)], [
   'Indicative market AED 180–350',
   'From AED 150 per person',
 ])
+eq('collapsed typical is hidden', formatTypical(90, 90), '')
+const dropHub = hubPriceRows().find((row) => row.href === '/drop-off-catering-dubai')
+eq('drop-off hub price is the floor only', dropHub?.price, 'From AED 90 per person.')
+eq('drop-off hub typical is empty', dropHub?.typical, '')
+eq('drop-off hub does not print 90–90', /90–90/.test(dropHub?.price ?? ''), false)
 
 const below = quoteCatering({ formatId: 'buffet', guests: 10, staffId: 'none' })
 eq('buffet at 10 guests is refused', below.ok, false)

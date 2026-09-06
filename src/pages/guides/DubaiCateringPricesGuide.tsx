@@ -28,6 +28,7 @@ import {
   CATERING_FORMATS,
   formatFrom,
   formatTypical,
+  formatTypicalCell,
 } from '@/content/cateringPricing'
 
 
@@ -179,15 +180,21 @@ const breadcrumbSchema = {
   ],
 }
 
-const formatOffers = priceTable.map((row) => ({
-  '@type': 'Offer',
-  name: `${row.format} — Dubai`,
-  description: `${formatFrom(row.from)}. ${formatTypical(row.typicalMin, row.typicalMax)} (indicative market, not a myCHEF floor). Final quote depends on guest count, menu, venue, and service level.`,
-  url: 'https://www.mychef.ae/dubai-catering-prices-guide',
-  price: String(row.from),
-  priceCurrency: 'AED',
-  availability: 'https://schema.org/InStock',
-}))
+const formatOffers = priceTable.map((row) => {
+  const typical = formatTypical(row.typicalMin, row.typicalMax)
+  const description = typical
+    ? `${formatFrom(row.from)}. ${typical} (not a myCHEF floor). Final quote depends on guest count, menu, venue, and service level.`
+    : `${formatFrom(row.from)}. Final quote depends on guest count, menu, venue, and service level.`
+  return {
+    '@type': 'Offer',
+    name: `${row.format} — Dubai`,
+    description,
+    url: 'https://www.mychef.ae/dubai-catering-prices-guide',
+    price: String(row.from),
+    priceCurrency: 'AED',
+    availability: 'https://schema.org/InStock',
+  }
+})
 
 const aggregateOfferSchema = {
   '@type': 'AggregateOffer',
@@ -354,7 +361,7 @@ export default function DubaiCateringPricesGuide() {
                   <tr key={i} className="price-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">{formatTypicalCell(row.typicalMin, row.typicalMax)}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}

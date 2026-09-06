@@ -267,8 +267,20 @@ export function formatFrom(n: number): string {
   return `From ${formatAed(n)} per person`
 }
 
+/** A market band is only a band when max sits above min. Floor = market → hide. */
+export function hasIndicativeMarket(min: number, max: number): boolean {
+  return max > min
+}
+
 export function formatTypical(min: number, max: number): string {
+  if (!hasIndicativeMarket(min, max)) return ''
   return `Indicative market ${formatAed(min)}–${max.toLocaleString('en-US')}`
+}
+
+/** Table cell for the indicative-market column. Em dash when there is no band. */
+export function formatTypicalCell(min: number, max: number): string {
+  if (!hasIndicativeMarket(min, max)) return '—'
+  return `${formatAed(min)}–${max.toLocaleString('en-US')}`
 }
 
 export function formatEstimate(n: number): string {

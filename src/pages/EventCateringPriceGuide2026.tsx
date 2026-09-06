@@ -25,7 +25,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
-import { CATERING_FORMATS } from '@/content/cateringPricing'
+import { CATERING_FORMATS, formatTypicalCell } from '@/content/cateringPricing'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I read your Dubai event catering price guide and would like a custom quote for my event.")
@@ -444,7 +444,7 @@ export default function EventCateringPriceGuide2026() {
                   <tr key={i} className="event-price-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">{formatTypicalCell(row.typicalMin, row.typicalMax)}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}
