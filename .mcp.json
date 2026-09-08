@@ -6,6 +6,12 @@
         "shadcn@latest",
         "mcp"
       ]
+    },
+    "gohighlevel": {
+      "command": "python3",
+      "args": [
+        "docs/seo/keyword-map/ghl-mcp.py"
+      ]
     }
   }
 }

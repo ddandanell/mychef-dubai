@@ -48,7 +48,7 @@ const programmes = [
   {
     icon: Scale,
     title: 'Weight Management',
-    description: 'Calorie-controlled, balanced meals designed to support fat loss or healthy weight gain without sacrificing flavour.',
+    description: 'A structured weight loss meal plan Dubai clients rely on for portion control, balanced macros, and chef-cooked dishes without sacrificing flavour.',
     price: 'from AED 1,400/week',
   },
   {
@@ -121,7 +121,7 @@ const benefits = [
   {
     icon: ChefHat,
     title: 'Private Chef Convenience',
-    description: <>A chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-dubai/pricing" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
+    description: <>A dedicated healthy food chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-dubai/pricing" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
   },
 ]
 

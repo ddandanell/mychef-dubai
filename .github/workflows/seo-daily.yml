@@ -1,0 +1,48 @@
+name: SEO daily harvest
+
+# Fires on demand from the Actions tab, or every day at 04:00 UTC.
+# Harvest never edits page copy. A later push to main publishes the JSON
+# onto https://www.mychef.ae/seo/e
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: CRM PII gates
+        run: |
+          python3 docs/seo/keyword-map/test_harvest_ghl.py
+          python3 docs/seo/keyword-map/test_crm_lib.py
+          python3 docs/seo/keyword-map/test_ghl_mcp.py
+      - name: Harvest Frog, GoHighLevel, evidence
+        env:
+          GHL_API_KEY: ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID: ${{ secrets.GHL_LOCATION_ID }}
+        run: |
+          python3 docs/seo/keyword-map/harvest-frog.py
+          python3 docs/seo/keyword-map/harvest-ghl.py
+          python3 docs/seo/keyword-map/build-crm.py
+          python3 docs/seo/keyword-map/build-evidence.py
+          python3 scripts/verify-url-stability.py
+      - name: Commit board JSON if it moved
+        run: |
+          git config user.name "seo-daily"
+          git config user.email "seo-daily@users.noreply.github.com"
+          git add docs/seo/keyword-map/frog.json docs/seo/keyword-map/ghl.json docs/seo/keyword-map/crm.json docs/seo/keyword-map/evidence.json docs/seo/url-inventory.json || true
+          if git diff --cached --quiet; then
+            echo "no harvest changes"
+          else
+            git commit -m "chore(seo): daily harvest for /seo/e"
+            git push
+          fi

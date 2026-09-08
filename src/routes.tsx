@@ -86,6 +86,11 @@ const BusinessLunchCatering: PreloadableComponent = lazyPreloadable(() => import
 const CorporateEventCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateEventCatering'))
 const ConferenceCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ConferenceCatering'))
 const StaffMealsCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/StaffMealsCatering'))
+const InstitutionalCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/InstitutionalCatering'))
+const NurseryCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/NurseryCatering'))
+const SchoolCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/SchoolCatering'))
+const HospitalCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HospitalCatering'))
+const CanteenManagement: PreloadableComponent = lazyPreloadable(() => import('./pages/CanteenManagement'))
 const ProductionCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ProductionCatering'))
 const RamadanCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/RamadanCatering'))
 const EidCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/EidCatering'))
@@ -246,6 +251,11 @@ export const routes: AppRoute[] = [
   { path: "/corporate-event-catering-dubai", element: <CorporateEventCatering />, preload: CorporateEventCatering.preload },
   { path: "/conference-catering-dubai", element: <ConferenceCatering />, preload: ConferenceCatering.preload },
   { path: "/staff-meals-catering-dubai", element: <StaffMealsCatering />, preload: StaffMealsCatering.preload },
+  { path: "/institutional-catering-dubai", element: <InstitutionalCatering />, preload: InstitutionalCatering.preload },
+  { path: "/nursery-catering-dubai", element: <NurseryCatering />, preload: NurseryCatering.preload },
+  { path: "/school-catering-dubai", element: <SchoolCatering />, preload: SchoolCatering.preload },
+  { path: "/hospital-catering-dubai", element: <HospitalCatering />, preload: HospitalCatering.preload },
+  { path: "/canteen-management-dubai", element: <CanteenManagement />, preload: CanteenManagement.preload },
   { path: "/production-catering-dubai", element: <ProductionCatering />, preload: ProductionCatering.preload },
   { path: "/ramadan-catering-dubai", element: <RamadanCatering />, preload: RamadanCatering.preload },
   { path: "/eid-catering-dubai", element: <EidCatering />, preload: EidCatering.preload },
@@ -327,6 +337,9 @@ export const routes: AppRoute[] = [
   { path: "/blog/grazing-table-vs-buffet-dubai", element: <HandoffPage /> },
   { path: "/blog/how-far-ahead-book-caterer-dubai", element: <HandoffPage /> },
   { path: "/blog/how-to-hire-a-private-chef-dubai", element: <HandoffPage /> },
+  { path: "/blog/nut-free-halal-nursery-meals-dubai", element: <HandoffPage /> },
+  { path: "/blog/nursery-meals-vs-packed-lunch-dubai", element: <HandoffPage /> },
+  { path: "/blog/dubai-school-food-rules-2026", element: <HandoffPage /> },
   { path: "/blog/iftar-at-home-dubai", element: <HandoffPage /> },
   { path: "/blog/nye-party-catering-dubai", element: <HandoffPage /> },
   { path: "/blog/private-chef-date-night-dubai", element: <HandoffPage /> },

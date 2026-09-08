@@ -1,0 +1,68 @@
+{
+ "generated": "2026-09-08 23:20",
+ "intro": "The CRM engine reads GoHighLevel. Success is how many new contacts land and what conversations are actually about — not rankings alone. A hot topic maps to the contract owner. It never mints a URL.",
+ "optimize_for": [
+  "new contacts created in GoHighLevel",
+  "what conversations are actually about",
+  "won opportunities — not rankings alone"
+ ],
+ "connected": false,
+ "error": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
+ "reason": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
+ "required_scopes": [
+  "contacts.readonly",
+  "opportunities.readonly",
+  "conversations.readonly",
+  "conversations/message.readonly"
+ ],
+ "credential": "~/.config/claude-seo/gohighlevel.env",
+ "mcp": "gohighlevel — ghl_connect, ghl_contacts_summary, ghl_conversation_topics, ghl_opportunities, ghl_seo_signals, ghl_harvest",
+ "tiles": [
+  {
+   "value": "—",
+   "label": "New contacts (30d)"
+  },
+  {
+   "value": "—",
+   "label": "Conversations"
+  },
+  {
+   "value": "—",
+   "label": "Won opportunities"
+  },
+  {
+   "value": "—",
+   "label": "Topic signals"
+  }
+ ],
+ "north_star": {
+  "new_contacts": 0,
+  "conversations": 0,
+  "won": 0,
+  "google_contacts": 0
+ },
+ "contacts_total": 0,
+ "contacts_new": 0,
+ "contacts_google": 0,
+ "conversations_total": 0,
+ "conversations_unread": 0,
+ "won": 0,
+ "open_opportunities": 0,
+ "sources": [],
+ "channels": [],
+ "signals": [],
+ "proposals": [],
+ "locations": [
+  {
+   "name": "myCHEF Bali | Private Chefs & Catering",
+   "country": "ID",
+   "city": "Denpasar"
+  },
+  {
+   "name": "myCHEF Dubai | Private Chefs & Catering",
+   "country": "AE",
+   "city": "Dubai"
+  }
+ ],
+ "window_days": 30
+}

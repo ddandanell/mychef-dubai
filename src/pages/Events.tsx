@@ -168,7 +168,10 @@ export default function Events() {
             >
               festive catering Dubai
             </Link>
-            .
+            . Private event catering Dubai is this hub: one brief for the night, not a standing household chef. Event
+            caterers Dubai working through myCHEF send a named cook and service team. Event catering packages Dubai
+            start from the published floors on this page; small event catering Dubai and outdoor event catering Dubai
+            use the same brief with a different setting.
           </p>
         </Container>
       </Section>

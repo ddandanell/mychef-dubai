@@ -376,7 +376,7 @@ export default function CanapeCatering() {
             our chefs build menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            If the occasion is more relaxed than a reception, the same team runs finger food catering in Dubai — larger, more casual bites and sharing platters for offices, house parties and mixers — and we will tell you honestly which of the two fits your event.
+            If the occasion is more relaxed than a reception, the same team runs finger food catering Dubai — larger, more casual bites and sharing platters for offices, house parties and mixers — and we will tell you honestly which of the two fits your event.
           </p>
         </div>
       </section>
@@ -387,7 +387,7 @@ export default function CanapeCatering() {
             <SectionLabel>FINGER FOOD</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-6">Finger food is this page, not a second URL</h2>
             <p className="font-inter text-body text-gray-600 leading-relaxed mb-5">
-              Finger food catering in Dubai is the same team as canapés, with a different brief: no cutlery, food people can hold while they talk. Kids versus adults changes the menu — smaller, blander, labelled for a child; more heat and spice for a standing adult room.
+              Finger food catering Dubai is the same team as canapés, with a different brief: no cutlery, food people can hold while they talk. Kids versus adults changes the menu — smaller, blander, labelled for a child; more heat and spice for a standing adult room.
             </p>
             <p className="font-inter text-body text-gray-600 leading-relaxed">
               Tray versus passed is a staffing decision. A tray on a table needs less movement. Passed service needs hands in the room. Finger food catering price per person follows the same published band as premium standing food: from AED 150. This block uses its own image; it does not reuse the canapé hero.

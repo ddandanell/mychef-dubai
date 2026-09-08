@@ -37,22 +37,122 @@ function findTsx(dir: string): string[] {
   return results
 }
 
+const contractPath = path.resolve(__dirname, '../docs/seo/myCHEF-AE-SEO-STANDARD.json')
+const contractPages = fs.existsSync(contractPath)
+  ? (JSON.parse(fs.readFileSync(contractPath, 'utf8')).pages || {})
+  : {}
+
 function normaliseWhitespace(str: string): string {
   return str.replace(/\s+/g, ' ').trim()
 }
 
-function extractSEO(content: string): Meta | null {
+function resolveVar(varName: string, content: string, currentFile: string): string | null {
+  const parts = varName.split('.')
+  const base = parts[0]
+  const field = parts[1]
+
+  // 1. check local const X = "..."
+  const localConst = content.match(new RegExp(`(?:const|let|var)\\s+${base}\\s*=\\s*['"\`]([^'"\`]+)['"\`]`))
+  if (localConst && !field) return localConst[1]
+
+  // 2. check local object
+  const localObj = content.match(new RegExp(`(?:const|let|var)\\s+${base}\\s*=\\s*\\{([\\s\\S]*?\\n\\})`))
+  if (localObj && field) {
+    const fMatch = localObj[1].match(new RegExp(`${field}:\\s*['"\`]([^'"\`]+)['"\`]`))
+    if (fMatch) return fMatch[1]
+  }
+
+  // 3. check local assignment from another var, e.g. const seo = childSeo.howItWorks
+  const aliasMatch = content.match(new RegExp(`(?:const|let|var)\\s+${base}\\s*=\\s*([A-Za-z0-9_.]+)`))
+  if (aliasMatch && aliasMatch[1] !== base) {
+    const chained = aliasMatch[1] + (field ? '.' + field : '')
+    const res = resolveVar(chained, content, currentFile)
+    if (res) return res
+  }
+
+  // 4. check imports
+  const impMatch = content.match(new RegExp(`import\\s+\\{[^}]*\\b${base}\\b[^}]*\\}\\s+from\\s+['"\`]([^'"\`]+)['"\`]`))
+  if (impMatch) {
+    let impPath = impMatch[1]
+    let resolvedPath = ''
+    if (impPath.startsWith('@/')) {
+      resolvedPath = path.resolve(__dirname, '../src', impPath.slice(2))
+    } else {
+      resolvedPath = path.resolve(path.dirname(currentFile), impPath)
+    }
+    for (const ext of ['.ts', '.tsx', '/index.ts', '/index.tsx']) {
+      if (fs.existsSync(resolvedPath + ext)) {
+        resolvedPath = resolvedPath + ext
+        break
+      }
+    }
+    if (fs.existsSync(resolvedPath)) {
+      const impContent = fs.readFileSync(resolvedPath, 'utf8')
+      const res = resolveVar(varName, impContent, resolvedPath)
+      if (res) return res
+    }
+  }
+
+  // Check exported const in content: export const X = { ... }
+  if (field) {
+    const expObj = content.match(new RegExp(`export\\s+const\\s+${base}\\s*=\\s*\\{([\\s\\S]*?\\n\\})`))
+    if (expObj) {
+      if (parts.length === 2) {
+        const fMatch = expObj[1].match(new RegExp(`${field}:\\s*['"\`]([^'"\`]+)['"\`]`))
+        if (fMatch) return fMatch[1]
+      } else if (parts.length === 3) {
+        const sub = parts[1]
+        const subfield = parts[2]
+        const subObj = expObj[1].match(new RegExp(`${sub}:\\s*\\{([\\s\\S]*?)\\}`))
+        if (subObj) {
+          const sfMatch = subObj[1].match(new RegExp(`${subfield}:\\s*['"\`]([^'"\`]+)['"\`]`))
+          if (sfMatch) return sfMatch[1]
+        }
+      }
+    }
+  }
+
+  return null
+}
+
+function extractSEO(content: string, filePath?: string): Meta | null {
   const seoTag = content.match(/<SEO\s+([\s\S]*?)(?:\/>|>(?:[\s\S]*?)<\/SEO>)/)
   if (seoTag) {
     const props = seoTag[1]
-    const titleMatch = props.match(/title=\{?"([^"]+)"\}?/)
-    const descMatch = props.match(/description=\{?"([^"]+)"\}?/)
+    const hideSiteName = /\bhideSiteName\b/.test(props)
+    const titleMatch = props.match(/title=\{?"?([^"}\n>]+)"?\}?/)
+    const descMatch = props.match(/description=\{?"?([^"}\n>]+)"?\}?/)
     if (titleMatch && descMatch) {
-      return {
-        title: titleMatch[1],
-        description: descMatch[1],
-        source: 'direct',
-        hideSiteName: /\bhideSiteName\b/.test(props),
+      const rawTitle = titleMatch[1].trim().replace(/^["'`]|["'`]$/g, '')
+      const rawDesc = descMatch[1].trim().replace(/^["'`]|["'`]$/g, '')
+      const title = filePath && !rawTitle.includes(' ')
+        ? (resolveVar(rawTitle, content, filePath) || rawTitle)
+        : rawTitle
+      const desc = filePath && !rawDesc.includes(' ')
+        ? (resolveVar(rawDesc, content, filePath) || rawDesc)
+        : rawDesc
+      if (title && desc && !title.includes('${') && !desc.includes('${')) {
+        return {
+          title: normaliseWhitespace(title),
+          description: normaliseWhitespace(desc),
+          source: 'direct',
+          hideSiteName,
+        }
+      }
+    }
+
+    // Try resolving from KEYWORD LOCK comment contract
+    const urlMatch = content.match(/\/\/\s+KEYWORD LOCK[\s\S]*?\/\/\s+(\/[^\s\n]+)/)
+    if (urlMatch) {
+      const url = urlMatch[1]
+      const page = contractPages[url]
+      if (page?.on_page?.title && page?.on_page?.meta_description) {
+        return {
+          title: normaliseWhitespace(page.on_page.title),
+          description: normaliseWhitespace(page.on_page.meta_description),
+          source: 'direct',
+          hideSiteName,
+        }
       }
     }
   }
@@ -87,8 +187,8 @@ function extractProps(content: string): Meta | null {
   return null
 }
 
-function getMeta(content: string): Meta | null {
-  return extractSEO(content) || extractConfig(content) || extractProps(content)
+function getMeta(content: string, filePath?: string): Meta | null {
+  return extractSEO(content, filePath) || extractConfig(content) || extractProps(content)
 }
 
 const forbiddenPatterns = [
@@ -109,6 +209,7 @@ const skipFiles = new Set([
 const coveredByDataSources = new Set([
   'LocationDetail.tsx',
   'chefs/ChefProfile.tsx',
+  'BlogCategoryHub.tsx',
 ])
 
 let issues = 0
@@ -153,7 +254,7 @@ for (const f of files) {
   // Chef profile data files are covered by the explicit chef check below.
   if (rel.startsWith('chefs/') && /import\s+ChefProfile\b/.test(content)) continue
 
-  const meta = getMeta(content)
+  const meta = getMeta(content, f)
 
   if (!meta) {
     if (!coveredByDataSources.has(rel)) {

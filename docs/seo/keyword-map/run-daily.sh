@@ -8,11 +8,17 @@ cd "$(dirname "$0")/../../.."
 echo "== search (Search Console)"; python3 docs/seo/keyword-map/harvest-gsc.py || true
 echo "== traffic (Vercel Web Analytics)"; python3 docs/seo/keyword-map/harvest-vercel-analytics.py || true
 echo "== behaviour (first-party)"; python3 docs/seo/keyword-map/harvest-firstparty.py || true
+echo "== crawl (Screaming Frog inbox)"; python3 docs/seo/keyword-map/harvest-frog.py || true
+echo "== CRM (GoHighLevel)"; python3 docs/seo/keyword-map/harvest-ghl.py || true
+echo "== evidence (/seo/e)"; python3 docs/seo/keyword-map/build-evidence.py || true
 echo "== integrations"; python3 docs/seo/keyword-map/check-integrations.py --quiet || true
 python3 docs/seo/keyword-map/build-status.py >/dev/null || true
-echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== experiments"; python3 docs/seo/keyword-map/close-experiments.py || true
 python3 docs/seo/keyword-map/build-experiments.py >/dev/null || true
+echo "== voice"; python3 docs/seo/keyword-map/build-voice.py || true
+echo "== snippets"; python3 docs/seo/keyword-map/build-snippets.py || true
+echo "== CRM engine"; python3 docs/seo/keyword-map/build-crm.py || true
+echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== rules"; python3 docs/seo/keyword-map/build-rules.py --quick || true
 echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
 python3 docs/seo/keyword-map/heartbeat.py --kind daily --mode live --phase idle || true

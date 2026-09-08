@@ -38,6 +38,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://www.mychef.ae"
 VERCEL = ROOT / "vercel.json"
+
+# Pages are never deleted and URLs are never changed. Parking is the allowed
+# alternative (docs/seo/parked-urls.json). This script remains as a record of
+# the old procedure; it refuses to run.
+sys.exit(
+    "retire-url.py is blocked. Pages are never deleted and URLs are never renamed. "
+    "Park the URL instead: add it to docs/seo/parked-urls.json and run "
+    "python3 scripts/generate-parked.py."
+)
 CONTRACT = ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json"
 ROUTES_JSON = ROOT / "src/content/seo/routes.json"
 SEO_INDEX = ROOT / "src/content/seo/index.ts"

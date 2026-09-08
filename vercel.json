@@ -187,17 +187,7 @@
     },
     {
       "source": "/healthcare-catering-dubai",
-      "destination": "/luxury-dining-experiences",
-      "statusCode": 301
-    },
-    {
-      "source": "/school-catering-dubai",
-      "destination": "/luxury-dining-experiences",
-      "statusCode": 301
-    },
-    {
-      "source": "/nursery-catering-dubai",
-      "destination": "/luxury-dining-experiences",
+      "destination": "/hospital-catering-dubai",
       "statusCode": 301
     },
     {

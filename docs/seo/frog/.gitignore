@@ -1,0 +1,5 @@
+inbox/*
+!inbox/.gitkeep
+crawls/**/all_inlinks.csv
+crawls/**/*inlinks.csv
+crawls/**/internal_all.csv

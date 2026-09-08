@@ -76,6 +76,56 @@ CREATE TABLE IF NOT EXISTS seo_integrations (
   error TEXT,
   PRIMARY KEY (checked_at, service)
 );
+
+CREATE TABLE IF NOT EXISTS seo_voice_scores (
+  scored_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  url TEXT NOT NULL,
+  persona TEXT,
+  title TEXT,
+  description TEXT,
+  score INT,
+  passed BOOL,
+  failures JSONB,
+  PRIMARY KEY (scored_at, url)
+);
+CREATE INDEX IF NOT EXISTS seo_voice_url ON seo_voice_scores(url, scored_at DESC);
+
+CREATE TABLE IF NOT EXISTS seo_snippet_tests (
+  id TEXT PRIMARY KEY,
+  url TEXT NOT NULL,
+  keyword TEXT,
+  status TEXT,
+  control_title TEXT,
+  control_description TEXT,
+  variant_title TEXT,
+  variant_description TEXT,
+  variant_kind TEXT,
+  voice_score INT,
+  voice_passed BOOL,
+  predicted_ctr_gap NUMERIC,
+  gsc_impr INT,
+  gsc_ctr NUMERIC,
+  gsc_pos NUMERIC,
+  experiment_id INT,
+  reason TEXT,
+  created_at TIMESTAMPTZ DEFAULT now(),
+  decided_at TIMESTAMPTZ
+);
+CREATE INDEX IF NOT EXISTS seo_snippet_tests_url ON seo_snippet_tests(url);
+CREATE INDEX IF NOT EXISTS seo_snippet_tests_status ON seo_snippet_tests(status);
+
+CREATE TABLE IF NOT EXISTS seo_crm_snapshots (
+  snapped_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  connected BOOL,
+  contacts_total INT,
+  contacts_new INT,
+  conversations_total INT,
+  won INT,
+  signals JSONB,
+  error TEXT,
+  PRIMARY KEY (snapped_at)
+);
+CREATE INDEX IF NOT EXISTS seo_crm_snapped ON seo_crm_snapshots(snapped_at DESC);
 """
 
 # seo_proposals belongs to the parallel session. The spec's vocabulary is added beside its own:
@@ -104,6 +154,8 @@ CLASS_TO_TYPE = {
     "retire": "retire_or_redirect",
     "new_page": "create_page",
     "move": "move_content",
+    "snippet_test": "snippet_test",
+    "crm_signal": "crm_signal",
 }
 
 TYPES = ("fill_title_h1", "place_subkeyword", "add_internal_link", "reassign_primary",

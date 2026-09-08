@@ -33,7 +33,14 @@
     "seo:breadcrumbs": "python3 scripts/generate-breadcrumbs.py",
     "verify:breadcrumbs": "python3 scripts/generate-breadcrumbs.py --check",
     "seo:parked": "python3 scripts/generate-parked.py",
-    "verify:parked": "python3 scripts/verify-parked.py"
+    "verify:parked": "python3 scripts/verify-parked.py",
+    "verify:urls": "python3 scripts/verify-url-stability.py",
+    "seo:frog": "python3 docs/seo/keyword-map/harvest-frog.py",
+    "seo:ghl": "python3 docs/seo/keyword-map/harvest-ghl.py",
+    "seo:evidence": "python3 docs/seo/keyword-map/build-evidence.py",
+    "seo:voice": "python3 docs/seo/keyword-map/build-voice.py",
+    "seo:snippets": "python3 docs/seo/keyword-map/build-snippets.py",
+    "seo:crm": "python3 docs/seo/keyword-map/build-crm.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

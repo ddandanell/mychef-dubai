@@ -12,9 +12,9 @@
   "Do not hand-write a sibling list. Add the URL to the keyword map and regenerate."
  ],
  "stats": {
-  "pages": 179,
-  "linkable": 129,
-  "contextual_edges": 1481,
+  "pages": 181,
+  "linkable": 131,
+  "contextual_edges": 1494,
   "orphans": 0,
   "silos": 14
  },
@@ -115,7 +115,6 @@
   "/mocktail-bar-catering-dubai",
   "/mothers-day-catering-dubai",
   "/mystery-dining-dubai",
-  "/nursery-catering-dubai",
   "/nut-free-catering-dubai",
   "/oyster-bar-dubai",
   "/party-catering-dubai",
@@ -135,7 +134,6 @@
   "/production-catering-dubai",
   "/ramadan-catering-guide-dubai",
   "/reunion-catering-dubai",
-  "/school-catering-dubai",
   "/seo/actions.html",
   "/seo/ai-visibility.html",
   "/seo/analytics.html",
@@ -4006,16 +4004,16 @@
      "silo": "Catering"
     },
     {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/villas-private-residences",
      "label": "Villas Private Residences",
      "keyword": "villa chef dubai",
      "silo": "Catering"
+    },
+    {
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
+     "silo": "Private Events"
     },
     {
      "url": "/menus",
@@ -4312,16 +4310,16 @@
      "silo": "Catering"
     },
     {
+     "url": "/school-catering-dubai",
+     "label": "School Catering",
+     "keyword": "school catering dubai",
+     "silo": null
+    },
+    {
      "url": "/conference-catering-dubai",
      "label": "Conference Catering",
      "keyword": "conference catering dubai",
      "silo": "Corporate Catering"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
     }
    ],
    "featured_children": [],
@@ -4443,9 +4441,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/blog/corporate-catering-full-service-vs-drop-off",
-     "label": "Corporate Catering Full Service vs Drop Off",
-     "keyword": "full service vs drop off catering dubai",
+     "url": "/blog/corporate-event-catering-ideas-dubai",
+     "label": "Corporate Event Catering Ideas",
+     "keyword": "corporate event catering ideas dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -5499,15 +5497,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/al-barsha",
      "label": "Al Barsha",
      "keyword": "private chef al barsha",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/difc",
+     "label": "DIFC",
+     "keyword": "private chef difc",
      "silo": "Locations"
     }
    ]
@@ -5630,16 +5628,16 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/business-lunch-catering-dubai",
-     "label": "Business Lunch Catering",
-     "keyword": "business lunch catering dubai",
-     "silo": "Corporate Catering"
-    },
-    {
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
      "silo": "Catering"
+    },
+    {
+     "url": "/business-lunch-catering-dubai",
+     "label": "Business Lunch Catering",
+     "keyword": "business lunch catering dubai",
+     "silo": "Corporate Catering"
     },
     {
      "url": "/private-party-catering-dubai",
@@ -7770,10 +7768,10 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/full-time-private-chef-dubai",
-     "label": "Full Time Private Chef",
-     "keyword": "full time private chef dubai",
-     "silo": "Private Chef"
+     "url": "/nursery-catering-dubai",
+     "label": "Nursery Catering",
+     "keyword": "nursery catering dubai",
+     "silo": null
     }
    ],
    "featured_children": [],
@@ -9152,15 +9150,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/al-barsha",
      "label": "Al Barsha",
      "keyword": "private chef al barsha",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/difc",
+     "label": "DIFC",
+     "keyword": "private chef difc",
      "silo": "Locations"
     }
    ]
@@ -11046,6 +11044,63 @@
     }
    ]
   },
+  "/nursery-catering-dubai": {
+   "url": "/nursery-catering-dubai",
+   "silo": null,
+   "hub": null,
+   "is_hub": false,
+   "page_type": null,
+   "primary_keyword": "nursery catering dubai",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/nursery-catering-dubai",
+     "label": "Nursery Catering"
+    }
+   ],
+   "uplink": null,
+   "siblings": [
+    {
+     "url": "/weekly-meal-prep-dubai",
+     "label": "Weekly Meal Prep",
+     "keyword": "meal prep dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/wellness-meal-prep-dubai",
+     "label": "Wellness Meal Prep",
+     "keyword": "healthy meal prep dubai",
+     "silo": "Private Chef"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [],
+   "areas": [
+    {
+     "url": "/locations/difc",
+     "label": "DIFC",
+     "keyword": "private chef difc",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/jlt",
+     "label": "JLT",
+     "keyword": "private chef jlt",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/al-barsha",
+     "label": "Al Barsha",
+     "keyword": "private chef al barsha",
+     "silo": "Locations"
+    }
+   ]
+  },
   "/office-catering-dubai": {
    "url": "/office-catering-dubai",
    "silo": "Corporate Catering",
@@ -11977,6 +12032,12 @@
      "label": "Wellness Meal Prep",
      "keyword": "healthy meal prep dubai",
      "silo": "Private Chef"
+    },
+    {
+     "url": "/nursery-catering-dubai",
+     "label": "Nursery Catering",
+     "keyword": "nursery catering dubai",
+     "silo": null
     }
    ],
    "featured_children": [],
@@ -13704,6 +13765,63 @@
     }
    ]
   },
+  "/school-catering-dubai": {
+   "url": "/school-catering-dubai",
+   "silo": null,
+   "hub": null,
+   "is_hub": false,
+   "page_type": null,
+   "primary_keyword": "school catering dubai",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/school-catering-dubai",
+     "label": "School Catering"
+    }
+   ],
+   "uplink": null,
+   "siblings": [
+    {
+     "url": "/business-lunch-catering-dubai",
+     "label": "Business Lunch Catering",
+     "keyword": "business lunch catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-event-catering-dubai",
+     "label": "Corporate Event Catering",
+     "keyword": "corporate event catering dubai",
+     "silo": "Corporate Catering"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [],
+   "areas": [
+    {
+     "url": "/locations/difc",
+     "label": "DIFC",
+     "keyword": "private chef difc",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/jlt",
+     "label": "JLT",
+     "keyword": "private chef jlt",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/al-barsha",
+     "label": "Al Barsha",
+     "keyword": "private chef al barsha",
+     "silo": "Locations"
+    }
+   ]
+  },
   "/site-map": {
    "url": "/site-map",
    "silo": "Legal and Utility",
@@ -14216,15 +14334,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/best-catering-companies-dubai",
-     "label": "Best Catering Companies",
-     "keyword": "best catering companies dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/blog/how-to-hire-a-private-chef-dubai",
      "label": "How to Hire a Private Chef",
      "keyword": "how to hire a private chef dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/best-catering-companies-dubai",
+     "label": "Best Catering Companies",
+     "keyword": "best catering companies dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -15066,6 +15184,12 @@
      "silo": "Private Chef"
     },
     {
+     "url": "/nursery-catering-dubai",
+     "label": "Nursery Catering",
+     "keyword": "nursery catering dubai",
+     "silo": null
+    },
+    {
      "url": "/full-time-private-chef-dubai",
      "label": "Full Time Private Chef",
      "keyword": "full time private chef dubai",
@@ -15148,6 +15272,12 @@
      "label": "Weekly Meal Prep",
      "keyword": "meal prep dubai",
      "silo": "Private Chef"
+    },
+    {
+     "url": "/nursery-catering-dubai",
+     "label": "Nursery Catering",
+     "keyword": "nursery catering dubai",
+     "silo": null
     },
     {
      "url": "/full-time-private-chef-dubai",

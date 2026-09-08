@@ -154,7 +154,10 @@ export default function OfficeCatering() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This page owns office catering in Dubai. One-off parties, launches and award nights sit on{' '}
+            This page owns office catering in Dubai. Daily office lunch Dubai and office lunch catering Dubai are the
+            recurring weekday sitting. Team lunch catering Dubai and weekly office catering Dubai are the same brief
+            with a different cadence. Corporate lunch delivery Dubai and office food delivery Dubai are the drop-off
+            version — still this page, not a one-off party. One-off parties, launches and award nights sit on{' '}
             <Link to={CORPORATE_PATHS.events} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               corporate event catering
             </Link>

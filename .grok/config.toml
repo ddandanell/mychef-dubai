@@ -1,0 +1,6 @@
+# Project MCP servers. Secrets stay in ~/.config/claude-seo/ — never here.
+[mcp_servers.gohighlevel]
+command = "python3"
+args = ["docs/seo/keyword-map/ghl-mcp.py"]
+enabled = true
+startup_timeout_sec = 30

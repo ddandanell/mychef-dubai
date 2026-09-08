@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-04 12:33",
+ "generated": "2026-09-08 22:57",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
-   "value": "20",
+   "value": "27",
    "label": "Rules"
   },
   {
@@ -44,8 +44,8 @@
    "why": "The body-sentence optimizer chose the first prose paragraph, which on most templates is the hero subtitle. /bbq-catering-dubai reached 245 words above the fold.",
    "where": "optimize-page.py hero_end() · move-hero-copy.py",
    "needs_build": true,
-   "status": "holds",
-   "evidence": "hero copy OK — 185 pages, median 36 words of hero prose, none over budget",
+   "status": "not checked",
+   "evidence": "",
    "command": "python3 scripts/verify-hero.py"
   },
   {
@@ -54,7 +54,7 @@
    "why": "One FAQ per subkeyword put phrases into h3s and pushed pages to 26 FAQs. The contract's own rule is sentences only; the optimizer enforces it and the map counts violations.",
    "where": "optimize-page.py · the map's sub_violations column",
    "status": "no gate",
-   "evidence": "5 heading collision(s): another page's primary used in a heading here"
+   "evidence": "3 heading collision(s): another page's primary used in a heading here"
   },
   {
    "id": "faq-cap",
@@ -95,7 +95,7 @@
    "why": "A half-retired URL keeps collecting links and splitting authority with its replacement.",
    "where": "scripts/verify-retirements.py",
    "status": "holds",
-   "evidence": "Retirements OK — 71 redirects, all four signals agree.",
+   "evidence": "Retirements OK — 77 redirects, all four signals agree.",
    "command": "python3 scripts/verify-retirements.py"
   },
   {
@@ -104,8 +104,8 @@
    "why": "The unglamorous half of on-page SEO, and the half that silently rots during a redesign.",
    "where": "scripts/audit-onpage.py",
    "needs_build": true,
-   "status": "holds",
-   "evidence": "full report -> /Users/openclaw/Documents/GitHub/mychef-dubai/docs/seo/onpage-audit.txt",
+   "status": "not checked",
+   "evidence": "",
    "command": "python3 scripts/audit-onpage.py"
   },
   {
@@ -122,7 +122,7 @@
    "why": "1,615 edits had been made with no baseline, so none of them could be judged.",
    "where": "backfill-experiments.py · close-experiments.py",
    "status": "no gate",
-   "evidence": "58 experiment(s) recorded"
+   "evidence": "67 experiment(s) recorded"
   },
   {
    "id": "nothing-auto-applies",
@@ -130,7 +130,7 @@
    "why": "The optimizer can edit 155 pages in a minute. That is exactly why it does not get to decide.",
    "where": "build-proposals.py never calls the optimizer · apply-safe.py is not built",
    "status": "no gate",
-   "evidence": "15 proposal(s) waiting for a decision"
+   "evidence": "1 proposal(s) waiting for a decision"
   },
   {
    "id": "commit-the-run",
@@ -188,6 +188,64 @@
    "where": "~/.config/claude-seo (mode 600) · Vercel project env",
    "status": "no gate",
    "evidence": ""
+  },
+  {
+   "id": "never-delete-pages",
+   "rule": "Never delete a page. Park it (noindex, still resolving) if it must leave Google.",
+   "why": "A deleted URL drops the rankings, the links and the history. Parking keeps the URL alive while telling Google not to show it.",
+   "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py · docs/seo/parked-urls.json",
+   "status": "holds",
+   "evidence": "url stability OK — 216 frozen URLs, none deleted, none renamed",
+   "command": "python3 scripts/verify-url-stability.py"
+  },
+  {
+   "id": "voice-before-snippet",
+   "rule": "A title or meta variant must pass the voice gate before it is queued as a snippet test.",
+   "why": "CTR copy that sounds like a hotel brochure gets the wrong click and trains the brand into junk. The writing system already knows who the reader is; the engine enforces it.",
+   "where": "voice_lib.py · build-snippets.py · /seo/voice · /seo/snippets",
+   "status": "no gate",
+   "evidence": "147 of 163 live titles pass the voice gate"
+  },
+  {
+   "id": "snippet-tests-need-impressions",
+   "rule": "Do not test a Google title until Search Console has shown the page. CTR on zero impressions is fiction.",
+   "why": "A title rewrite on a URL Google has never shown cannot be judged, so it is not a test.",
+   "where": "snippet_lib.research_page · 50 impression floor",
+   "status": "no gate",
+   "evidence": "3 snippet tests ready · 93 pages below 50 impressions"
+  },
+  {
+   "id": "crm-is-the-conversion",
+   "rule": "SEO is judged by new GoHighLevel contacts and what conversations are about, not rankings alone.",
+   "why": "A page that ranks and never creates a contact is a vanity win. The CRM is the conversion system the loop optimizes for: new contacts, conversation topics, won opportunities.",
+   "where": "crm_lib.py · harvest-ghl.py · /seo/crm · gohighlevel MCP",
+   "status": "no gate",
+   "evidence": "0 new contacts · 0 conversations · not connected"
+  },
+  {
+   "id": "crm-topics-map-to-owners",
+   "rule": "A conversation topic maps to the contract owner URL. Never mint a URL because chat mentioned a phrase.",
+   "why": "Chat volume is demand evidence for an existing page, not a reason to split the site.",
+   "where": "crm_lib.owner_for_topic · DEFAULT_OWNERS · build-crm.py",
+   "status": "no gate",
+   "evidence": "0 topic signal(s) · 0 backlog (no new URL)"
+  },
+  {
+   "id": "crm-never-pii",
+   "rule": "The board, the public JSON, and the GoHighLevel MCP never return names, emails, phones or message bodies.",
+   "why": "This repo is public. A CRM dump in git is a data-protection incident.",
+   "where": "harvest_ghl_lib.public_payload · ghl_mcp_lib.sanitize · ghl.json · crm.json",
+   "status": "no gate",
+   "evidence": "ghl.json and crm.json are counts and allowlisted topics; MCP sanitize drops names, emails, phones"
+  },
+  {
+   "id": "never-change-urls",
+   "rule": "Never change a live URL. New URLs may be added; a rename is a deletion.",
+   "why": "Changing a path that already ranks is how a page falls out of Google with no 301 anyone remembers to keep. The inventory freezes every contract URL the day it appears.",
+   "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py",
+   "status": "holds",
+   "evidence": "url stability OK — 216 frozen URLs, none deleted, none renamed",
+   "command": "python3 scripts/verify-url-stability.py"
   }
  ]
 }

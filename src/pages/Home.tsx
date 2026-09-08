@@ -38,13 +38,13 @@ export default function Home() {
       <StarterPackagesSection
         campaign="home"
         eyebrow="PRICING"
-        title="How much does a private chef or luxury dining package cost in Dubai?"
+        title="Starting prices for a chef in your kitchen, or for catering"
         subtitle="Real starting prices for the evenings we are asked for most. Tell us your date and guest count and we will shape one around you."
       />
       <TrustSection />
       <HowItWorksSection />
       <LocationsSection />
-      <LocationStrip title="Private chef & luxury dining across Dubai" eyebrow="Areas we cover" />
+      <LocationStrip title="Chefs and catering across Dubai" eyebrow="Areas we cover" />
       <GuidesTeaserSection />
 
       {/* Experience links */}
@@ -53,9 +53,11 @@ export default function Home() {
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Start with{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>
-            {', '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering</Link>
-            {', '}
+            {' for a standing household cook, '}
+            <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chefs Dubai</Link>
+            {' for the named roster, '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering Dubai</Link>
+            {' for an event, '}
             <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">events</Link>
             {' or '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>

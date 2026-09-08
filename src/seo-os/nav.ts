@@ -2,6 +2,7 @@ import type { LucideIcon } from "lucide-react"
 import {
   Activity,
   BarChart3,
+  Bug,
   Database,
   FileClock,
   FlaskConical,
@@ -16,6 +17,7 @@ import {
   Link2,
   ListTodo,
   MessageSquare,
+  Mic,
   Network,
   Plug,
   Scale,
@@ -23,6 +25,8 @@ import {
   Settings,
   Sparkles,
   TrendingUp,
+  Type,
+  Users,
   Zap,
 } from "lucide-react"
 
@@ -45,7 +49,11 @@ export const SEO_NAV: SeoNavGroup[] = [
     items: [
       { href: "/seo/control", label: "Control", description: "Locked, placed, proven — and whether the loop ran", icon: Gauge, file: "control" },
       { href: "/seo/queue", label: "Queue", description: "Ranked proposals, not applied", icon: ListTodo, file: "proposals" },
-      { href: "/seo/experiments", label: "Experiments", description: "Lift, flat, drop, too soon, confounded", icon: FlaskConical, file: "control" },
+      { href: "/seo/experiments", label: "Experiments", description: "Lift, flat, drop, too soon, confounded", icon: FlaskConical, file: "experiments" },
+      { href: "/seo/snippets", label: "Snippets", description: "Title and meta tests for Google clicks", icon: Type, file: "snippets" },
+      { href: "/seo/voice", label: "Voice", description: "Who the reader is, and whether the line sounds like us", icon: Mic, file: "voice" },
+      { href: "/seo/crm", label: "CRM", description: "New contacts, conversation topics, won opportunities", icon: Users, file: "crm" },
+      { href: "/seo/e", label: "Evidence", description: "Frog issues, CRM contacts, page inventory", icon: Bug, file: "evidence" },
       { href: "/seo/status", label: "Status", description: "Is every source connected and feeding data", icon: Activity, file: "status" },
       { href: "/seo/rules", label: "Rules", description: "What the system will and will not do, and whether it holds", icon: Scale, file: "rules" },
       { href: "/seo/keywords", label: "Keywords", description: "One row per keyword, with its score", icon: KeyRound, file: "keywords" },

@@ -16,6 +16,10 @@ import RulesPage from "@/seo-os/pages/RulesPage"
 import ChangesPage from "@/seo-os/pages/ChangesPage"
 import SpeedPage from "@/seo-os/pages/SpeedPage"
 import ExperimentsPage from "@/seo-os/pages/ExperimentsPage"
+import SnippetsPage from "@/seo-os/pages/SnippetsPage"
+import VoicePage from "@/seo-os/pages/VoicePage"
+import CrmPage from "@/seo-os/pages/CrmPage"
+import EvidencePage from "@/seo-os/pages/EvidencePage"
 import QueuePage from "@/seo-os/pages/QueuePage"
 import StatusPage from "@/seo-os/pages/StatusPage"
 import CatalogPage from "@/seo-os/pages/table-pages"
@@ -70,6 +74,10 @@ export default function SeoOs() {
           <Route index element={<BoardPage />} />
           <Route path="control" element={<ControlPage />} />
           <Route path="experiments" element={<ExperimentsPage />} />
+          <Route path="snippets" element={<SnippetsPage />} />
+          <Route path="voice" element={<VoicePage />} />
+          <Route path="crm" element={<CrmPage />} />
+          <Route path="e" element={<EvidencePage />} />
           <Route path="status" element={<StatusPage />} />
                 <Route path="rules" element={<RulesPage />} />
           <Route path="keywords" element={<CatalogPage id="keywords" />} />

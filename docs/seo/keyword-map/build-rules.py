@@ -196,6 +196,54 @@ RULES = [
         "why": "A key in a commit is a key that has to be rotated.",
         "where": "~/.config/claude-seo (mode 600) · Vercel project env",
     },
+    {
+        "id": "never-delete-pages",
+        "rule": "Never delete a page. Park it (noindex, still resolving) if it must leave Google.",
+        "why": "A deleted URL drops the rankings, the links and the history. Parking keeps the URL alive "
+               "while telling Google not to show it.",
+        "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py · docs/seo/parked-urls.json",
+        "check": ["python3", "scripts/verify-url-stability.py"],
+    },
+    {
+        "id": "voice-before-snippet",
+        "rule": "A title or meta variant must pass the voice gate before it is queued as a snippet test.",
+        "why": "CTR copy that sounds like a hotel brochure gets the wrong click and trains the brand into junk. "
+               "The writing system already knows who the reader is; the engine enforces it.",
+        "where": "voice_lib.py · build-snippets.py · /seo/voice · /seo/snippets",
+    },
+    {
+        "id": "snippet-tests-need-impressions",
+        "rule": "Do not test a Google title until Search Console has shown the page. CTR on zero impressions is fiction.",
+        "why": "A title rewrite on a URL Google has never shown cannot be judged, so it is not a test.",
+        "where": "snippet_lib.research_page · 50 impression floor",
+    },
+    {
+        "id": "crm-is-the-conversion",
+        "rule": "SEO is judged by new GoHighLevel contacts and what conversations are about, not rankings alone.",
+        "why": "A page that ranks and never creates a contact is a vanity win. The CRM is the conversion system "
+               "the loop optimizes for: new contacts, conversation topics, won opportunities.",
+        "where": "crm_lib.py · harvest-ghl.py · /seo/crm · gohighlevel MCP",
+    },
+    {
+        "id": "crm-topics-map-to-owners",
+        "rule": "A conversation topic maps to the contract owner URL. Never mint a URL because chat mentioned a phrase.",
+        "why": "Chat volume is demand evidence for an existing page, not a reason to split the site.",
+        "where": "crm_lib.owner_for_topic · DEFAULT_OWNERS · build-crm.py",
+    },
+    {
+        "id": "crm-never-pii",
+        "rule": "The board, the public JSON, and the GoHighLevel MCP never return names, emails, phones or message bodies.",
+        "why": "This repo is public. A CRM dump in git is a data-protection incident.",
+        "where": "harvest_ghl_lib.public_payload · ghl_mcp_lib.sanitize · ghl.json · crm.json",
+    },
+    {
+        "id": "never-change-urls",
+        "rule": "Never change a live URL. New URLs may be added; a rename is a deletion.",
+        "why": "Changing a path that already ranks is how a page falls out of Google with no 301 anyone "
+               "remembers to keep. The inventory freezes every contract URL the day it appears.",
+        "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py",
+        "check": ["python3", "scripts/verify-url-stability.py"],
+    },
 ]
 
 
@@ -224,6 +272,24 @@ def main():
                                              f"against {m.get('prior', {}).get('from', '?')} to {m.get('prior', {}).get('to', '?')}")(data("movers.json")),
         "name-the-reason-honestly": f"{data('movers.json').get('attributed', 0)} of the movers this week are "
                                     "attributed to a change on that page",
+        "voice-before-snippet": (
+            f"{data('voice.json').get('counts', {}).get('passed', 0)} of "
+            f"{data('voice.json').get('counts', {}).get('pages', 0)} live titles pass the voice gate"
+        ),
+        "snippet-tests-need-impressions": (
+            f"{data('snippets.json').get('counts', {}).get('proposed', 0)} snippet tests ready · "
+            f"{data('snippets.json').get('counts', {}).get('too_few', 0)} pages below 50 impressions"
+        ),
+        "crm-is-the-conversion": (
+            f"{data('crm.json').get('contacts_new', 0)} new contacts · "
+            f"{data('crm.json').get('conversations_total', 0)} conversations · "
+            f"{'connected' if data('crm.json').get('connected') else 'not connected'}"
+        ),
+        "crm-topics-map-to-owners": (
+            f"{len(data('crm.json').get('signals') or [])} topic signal(s) · "
+            f"{sum(1 for s in (data('crm.json').get('signals') or []) if s.get('action') == 'backlog')} backlog (no new URL)"
+        ),
+        "crm-never-pii": "ghl.json and crm.json are counts and allowlisted topics; MCP sanitize drops names, emails, phones",
     }
 
     out = []

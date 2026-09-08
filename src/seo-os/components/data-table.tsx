@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react"
+import { useId, useMemo, useState } from "react"
 import {
   type ColumnDef,
   type SortingState,
@@ -84,6 +84,7 @@ export function DataTable<T extends object>({
   const [sorting, setSorting] = useState<SortingState>([])
   const [globalFilter, setGlobalFilter] = useState("")
   const [pagination, setPagination] = useState({ pageIndex: 0, pageSize: 25 })
+  const rowsPerPageId = useId()
 
   const defs = useMemo<ColumnDef<T>[]>(
     () =>
@@ -183,7 +184,15 @@ export function DataTable<T extends object>({
                 <TableRow
                   key={row.id}
                   className={onRowClick ? "cursor-pointer" : undefined}
+                  tabIndex={onRowClick ? 0 : undefined}
                   onClick={() => onRowClick?.(row.original)}
+                  onKeyDown={(event) => {
+                    if (!onRowClick) return
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault()
+                      onRowClick(row.original)
+                    }
+                  }}
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</TableCell>
@@ -207,14 +216,14 @@ export function DataTable<T extends object>({
       </div>
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="hidden items-center gap-2 lg:flex">
-          <Label htmlFor="rows-per-page" className="text-sm">
+          <Label htmlFor={rowsPerPageId} className="text-sm">
             Rows per page
           </Label>
           <Select
             value={`${table.getState().pagination.pageSize}`}
             onValueChange={(value) => table.setPageSize(Number(value))}
           >
-            <SelectTrigger id="rows-per-page" className="w-20">
+            <SelectTrigger id={rowsPerPageId} className="w-20">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>

@@ -169,6 +169,9 @@ export default function PrivateChef() {
                 You are buying a standing in-home chef in Dubai. Usually the same person each week, a written record of how you like to eat, and one person to call when something changes. That is not the same as booking one dinner. A one-night dinner is{' '}
                 <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Luxury catering in Dubai</Link>.
               </BodyCopy>
+              <BodyCopy className="mb-5">
+                Whether you need a dedicated chef at home Dubai families rely on for daily lunches and dinners, a private chef for dinner party Dubai celebrations, or ongoing private chef service Dubai wide, we handle vetting, ingredients, and kitchen setup.
+              </BodyCopy>
               <BodyCopy muted>
                 If you want breakfast to appear without briefing it, a villa that eats for weeks, or a family that does not want another person to manage — this is the page.
               </BodyCopy>

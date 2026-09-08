@@ -122,6 +122,8 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/how-it-works',
   '/how-to-choose-caterer-dubai',
   '/iftar-catering-dubai',
+  '/institutional-catering-dubai',
+  '/hospital-catering-dubai',
   '/italian-catering-dubai',
   '/jain-catering-dubai',
   '/kids-nutrition-chef-dubai',
@@ -147,6 +149,7 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/menus',
   '/mystery-dining-dubai',
   '/new-year-catering-dubai',
+  '/nursery-catering-dubai',
   '/office-catering-dubai',
   '/our-chefs',
   '/part-time-private-chef-dubai',
@@ -162,6 +165,8 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/product-launch-catering-dubai',
   '/production-catering-dubai',
   '/proposal-dinner-dubai',
+  '/school-catering-dubai',
+  '/canteen-management-dubai',
   '/ramadan-catering-dubai',
   '/ramadan-catering-guide-dubai',
   '/romantic-dinner-dubai',
@@ -210,15 +215,17 @@ const loaders = import.meta.glob('../seo-pages/*.json', {
 const cache = new Map<string, Promise<SeoPage | null>>()
 
 export function hasSeoContent(url: string): boolean {
-  return Boolean(ROUTES[url])
+  const norm = url === '/' ? '/' : url.replace(/\/$/, '')
+  return Boolean(ROUTES[norm])
 }
 
 export function getSeoContent(url: string): Promise<SeoPage | null> {
-  const existing = cache.get(url)
+  const norm = url === '/' ? '/' : url.replace(/\/$/, '')
+  const existing = cache.get(norm)
   if (existing) return existing
-  const slug = ROUTES[url]
+  const slug = ROUTES[norm]
   const loader = slug ? loaders[`../seo-pages/${slug}.json`] : undefined
   const promise = loader ? loader() : Promise.resolve(null)
-  cache.set(url, promise)
+  cache.set(norm, promise)
   return promise
 }

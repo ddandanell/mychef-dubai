@@ -1,0 +1,2 @@
+Drop a Screaming Frog Issues export here (issues_overview_report.csv plus the per-issue CSVs).
+Then run: npm run seo:daily

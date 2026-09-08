@@ -19,7 +19,7 @@ export const OFFICE_ROOT = '/office-catering-dubai' as const
 
 export const OFFICE_KEYWORD_LOCK = {
   primary: 'office catering dubai',
-  title: 'Office Catering Dubai | myCHEF',
+  title: 'Office Catering Dubai | Daily Lunches and Team Days | myCHEF',
   description:
     'Office Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
   h1: 'Office Catering Dubai',

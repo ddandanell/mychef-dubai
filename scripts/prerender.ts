@@ -18,9 +18,9 @@ const SITEMAP_PATH = path.resolve(__dirname, "../dist/sitemap.xml")
 const SHELL_PATH = path.resolve(__dirname, "../dist/.spa-shell.html")
 const FALLBACK_SITEMAP_PATH = path.resolve(__dirname, "../public/sitemap.xml")
 
-const CONCURRENCY = 10
-const RENDER_TIMEOUT_MS = 30000
-const NAVIGATION_TIMEOUT_MS = 60000
+const CONCURRENCY = 4
+const RENDER_TIMEOUT_MS = 45000
+const NAVIGATION_TIMEOUT_MS = 45000
 
 // --- Inline SEO payload (window.__SEO__) ------------------------------------
 // HandoffPage fetches its copy in a useEffect, so on the client's first paint it
@@ -177,12 +177,34 @@ async function startServer(): Promise<{ server: import("http").Server; url: stri
     next()
   })
 
-  app.use(express.static(DIST_DIR, { index: false, maxAge: 0 }))
+  // Return empty script for /_vercel/* endpoints so analytics don't error during prerender
+  app.get("/_vercel/*", (_req, res) => {
+    res.type("application/javascript").send("// vercel mock")
+  })
+
+  app.use(express.static(DIST_DIR, { index: false, redirect: false, maxAge: 0 }))
 
   // SPA fallback: serve the pristine shell snapshot, never the live
   // dist/index.html — that file gets replaced by the prerendered "/" and would
   // otherwise leak the home page's markup into every route rendered after it.
-  app.get("*", (_req, res) => {
+  app.get("*", (req, res) => {
+    if (path.extname(req.path) && req.path !== "") {
+      res.status(404).end()
+      return
+    }
+
+    const normalizedPath = req.path === "/" ? "/" : req.path.replace(/\/$/, "")
+    const seoScript = inlineSeoScript(normalizedPath)
+    if (seoScript) {
+      let shell = fs.readFileSync(SHELL_PATH, "utf-8")
+      if (shell.includes("</body>")) {
+        shell = shell.replace("</body>", `${seoScript}</body>`)
+      }
+      res.setHeader("Content-Type", "text/html; charset=utf-8")
+      res.send(shell)
+      return
+    }
+
     // dotfiles: "allow" is REQUIRED — the snapshot is called ".spa-shell.html"
     // and send/express default to dotfiles:"ignore", which 404s every route and
     // makes the whole prerender time out. This is what broke the build on bb0cb3a.
@@ -224,7 +246,15 @@ async function launchBrowser(): Promise<Browser> {
   const puppeteer = await import("puppeteer")
   return puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+    timeout: 60000,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-background-timer-throttling",
+      "--disable-backgrounding-occluded-windows",
+      "--disable-renderer-backgrounding",
+    ],
   })
 }
 
@@ -257,7 +287,7 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
   const url = `${baseUrl}${route === "/" ? "/" : route}`
 
   await page.goto(url, {
-    waitUntil: "networkidle0",
+    waitUntil: "domcontentloaded",
     timeout: NAVIGATION_TIMEOUT_MS,
   })
 
@@ -315,18 +345,23 @@ async function renderRoute(
   baseUrl: string,
   route: string,
 ): Promise<{ route: string; outPath: string }> {
-  const html = await renderHtml(page, baseUrl, route)
+  try {
+    const html = await renderHtml(page, baseUrl, route)
 
-  const outDir = route === "/" ? DIST_DIR : path.join(DIST_DIR, route)
-  fs.mkdirSync(outDir, { recursive: true })
+    const outDir = route === "/" ? DIST_DIR : path.join(DIST_DIR, route)
+    fs.mkdirSync(outDir, { recursive: true })
 
-  const outPath = path.join(outDir, "index.html")
-  // Atomic write so a partially-written file is never served
-  const tmpPath = `${outPath}.tmp`
-  fs.writeFileSync(tmpPath, html, "utf-8")
-  fs.renameSync(tmpPath, outPath)
+    const outPath = path.join(outDir, "index.html")
+    // Atomic write so a partially-written file is never served
+    const tmpPath = `${outPath}.tmp`
+    fs.writeFileSync(tmpPath, html, "utf-8")
+    fs.renameSync(tmpPath, outPath)
 
-  return { route, outPath }
+    return { route, outPath }
+  } catch (err) {
+    console.error(`Failed route: ${route}`)
+    throw err
+  }
 }
 
 /**
@@ -342,16 +377,27 @@ async function renderRoutes(
   const queue = [...routes]
 
   async function worker(): Promise<void> {
-    const page = await browser.newPage()
-    try {
-      while (queue.length > 0) {
-        const route = queue.shift()!
-        const result = await renderRoute(page, baseUrl, route)
-        completed += 1
-        console.log(`[${completed}/${total}] ${result.route} -> ${result.outPath}`)
+    while (queue.length > 0) {
+      const route = queue.shift()!
+      let attempts = 0
+      while (attempts < 2) {
+        attempts++
+        const page = await browser.newPage()
+        try {
+          const result = await renderRoute(page, baseUrl, route)
+          completed += 1
+          console.log(`[${completed}/${total}] ${result.route} -> ${result.outPath}`)
+          break
+        } catch (err) {
+          if (attempts >= 2) {
+            throw err
+          }
+          console.warn(`[RETRY] Route ${route} failed on attempt 1, retrying...`)
+          await new Promise((r) => setTimeout(r, 1000))
+        } finally {
+          await page.close()
+        }
       }
-    } finally {
-      await page.close()
     }
   }
 
@@ -364,7 +410,11 @@ async function main(): Promise<void> {
     throw new Error(`dist directory not found at ${DIST_DIR}. Run vite build first.`)
   }
 
-  const routes = readRoutes()
+  let routes = readRoutes()
+  const filter = process.argv[2]
+  if (filter && !filter.startsWith("-")) {
+    routes = routes.filter((r) => r === filter || r.includes(filter))
+  }
   console.log(`Prerendering ${routes.length} routes from sitemap...`)
 
   const { server, url } = await startServer()

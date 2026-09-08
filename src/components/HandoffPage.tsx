@@ -124,7 +124,9 @@ function linkify(text: string, currentPath: string, state: LinkState, keyBase: s
 function readInlineSeo(pathname: string): SeoPage | null {
   if (typeof window === 'undefined') return null
   const inline = window.__SEO__
-  return inline && inline.path === pathname ? inline.data : null
+  if (!inline) return null
+  const norm = pathname === '/' ? '/' : pathname.replace(/\/$/, '')
+  return inline.path === pathname || inline.path === norm ? inline.data : null
 }
 
 /**
@@ -136,7 +138,8 @@ function readInlineSeo(pathname: string): SeoPage | null {
  */
 export default function HandoffPage() {
   const { pathname } = useLocation()
-  const [data, setData] = useState<SeoPage | null>(() => readInlineSeo(pathname))
+  const normalizedPath = pathname === '/' ? '/' : pathname.replace(/\/$/, '')
+  const [data, setData] = useState<SeoPage | null>(() => readInlineSeo(normalizedPath))
   const firstRun = useRef(true)
 
   useEffect(() => {
@@ -144,16 +147,16 @@ export default function HandoffPage() {
     // Keep the inlined copy on the initial route instead of blanking + refetching.
     if (firstRun.current) {
       firstRun.current = false
-      if (readInlineSeo(pathname)) return
+      if (readInlineSeo(normalizedPath)) return
     }
     setData(null)
-    getSeoContent(pathname).then((loaded) => {
+    getSeoContent(normalizedPath).then((loaded) => {
       if (active) setData(loaded)
     })
     return () => {
       active = false
     }
-  }, [pathname])
+  }, [normalizedPath])
 
   if (!data) return null
 

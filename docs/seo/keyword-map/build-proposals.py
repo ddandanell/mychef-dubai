@@ -19,7 +19,7 @@ TODAY = datetime.date.today().isoformat()
 TOP_N = 15
 
 RISK = {"fill_subkeyword": 1, "fix_onpage": 1, "add_link": 1, "experiment": 3,
-        "retarget": 9, "retire": 9, "new_page": 9}
+        "snippet_test": 3, "crm_signal": 3, "retarget": 9, "retire": 9, "new_page": 9}
 
 
 def load(name):
@@ -82,7 +82,7 @@ def main():
             "evidence": evidence,
             "action": action,
             "risk": risk_name,
-            "autonomy": ("L4" if cls == "experiment" else "L2" if cls in ("fill_subkeyword", "fix_onpage", "add_link") and live else "L3"),
+            "autonomy": ("L4" if cls in ("experiment", "snippet_test", "crm_signal") else "L2" if cls in ("fill_subkeyword", "fix_onpage", "add_link") and live else "L3"),
             "impact": impact(demand, gap, conv, risk),
             "demand": "live" if live else "speculative",
             "status": "open",
@@ -151,6 +151,55 @@ def main():
                 {"impr": impr, "pos": pos, "clicks": clicks, "ctr": r.get("gsc_ctr")},
                 "title test: primary at front vs area + price cue. Do not change H1 in the same test.",
                 "medium", 2, conv_rate, demand, True)
+
+    snippets = load("snippets.json") or {}
+    for rec in snippets.get("tests") or []:
+        if rec.get("status") != "proposed" or not rec.get("chosen"):
+            continue
+        chosen = rec["chosen"]
+        add(
+            "snippet_test",
+            rec.get("url"),
+            rec.get("keyword"),
+            rec.get("reason") or "CTR lags the position — voice-passing title ready",
+            {
+                "impr": rec.get("impressions"),
+                "pos": rec.get("position"),
+                "ctr": rec.get("ctr"),
+                "expected_ctr": rec.get("expected_ctr"),
+                "ctr_gap": rec.get("ctr_gap"),
+                "variant_title": chosen.get("title"),
+                "variant_kind": chosen.get("kind"),
+                "voice_score": chosen.get("voice_score"),
+            },
+            f"Apply the {chosen.get('kind')} title (voice {chosen.get('voice_score')}/10). Do not change the H1. Open a 14-day snippet window.",
+            "medium",
+            3,
+            0.05,
+            rec.get("impressions") or 0,
+            True,
+        )
+
+    crm = load("crm.json") or {}
+    for rec in crm.get("proposals") or []:
+        add(
+            "crm_signal",
+            rec.get("url"),
+            rec.get("keyword"),
+            rec.get("reason") or "GoHighLevel conversation demand on this owner",
+            {
+                "conversation_count": rec.get("conversation_count"),
+                "contacts_new": rec.get("contacts_new"),
+                "mint_url": False,
+                "topic": rec.get("topic"),
+            },
+            rec.get("action") or "Watch the owner. Do not mint a URL.",
+            "medium",
+            2,
+            0.1,
+            max(int(rec.get("demand") or rec.get("conversation_count") or 0), 1),
+            True,
+        )
 
     for p in (links.get("profiles") or []):
         status = p.get("status") or ""

@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-04 12:33",
+ "generated": "2026-09-08 22:24",
  "intro": "Every applied change, with the days before it and the days after. A verdict is only written once the window closes, and never turns into an automatic revert — a drop opens a watch proposal for a person.",
  "counts": {
-  "too_soon": 58
+  "too_soon": 67
  },
  "tiles": [
   {
-   "value": "58",
+   "value": "67",
    "label": "Experiments recorded"
   },
   {
-   "value": "58",
+   "value": "67",
    "label": "Waiting on their window"
   },
   {
@@ -39,6 +39,381 @@
  },
  "items": [
   {
+   "id": 67,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/engagement-catering-dubai",
+   "keywords": [
+    "halal engagement catering dubai",
+    "engagement party catering dubai",
+    "best engagement catering dubai",
+    "engagement catering dubai",
+    "engagement catering dubai price",
+    "engagement catering menu dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 1.0,
+    "gsc_impr": 4,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 3
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 66,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/postpartum-meal-prep-dubai",
+   "keywords": [
+    "easy meal prep for after baby",
+    "fitness meal prep delivery",
+    "meal prep food dubai",
+    "meals for new mums dubai",
+    "postpartum meal prep dubai price",
+    "postpartum meal delivery dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": null,
+    "gsc_impr": null,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": null,
+    "days_with_data": 0
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 65,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/full-time-private-chef-dubai",
+   "keywords": [
+    "full time private chef dubai",
+    "private chef for family",
+    "part time chef dubai",
+    "monthly private chef dubai",
+    "best time to hire caterers",
+    "full time private chef cost dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": null,
+    "gsc_impr": null,
+    "sessions": 4,
+    "wa_clicks": 0,
+    "gsc_clicks": null,
+    "days_with_data": 6
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 64,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/weekly-meal-prep-dubai",
+   "keywords": [
+    "meal prep dubai",
+    "meal prep service dubai",
+    "fitness meal prep services",
+    "kids meal prep service",
+    "meal prep chef dubai",
+    "personal chef meal prep dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 76.0,
+    "gsc_impr": 1,
+    "sessions": 3,
+    "wa_clicks": 0,
+    "gsc_clicks": 0,
+    "days_with_data": 5
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 63,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/events",
+   "keywords": [
+    "event catering dubai",
+    "birthday event catering dubai",
+    "brand event catering dubai",
+    "business event catering dubai",
+    "event caterers dubai",
+    "event catering packages dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 42.5,
+    "gsc_impr": 685,
+    "sessions": 12,
+    "wa_clicks": 0,
+    "gsc_clicks": 1,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 62,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/catering-dubai",
+   "keywords": [
+    "catering dubai",
+    "catering service in dubai",
+    "catering services dubai",
+    "catering services in dubai",
+    "catering dubai party",
+    "food catering dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 47.9,
+    "gsc_impr": 963,
+    "sessions": 28,
+    "wa_clicks": 0,
+    "gsc_clicks": 1,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 61,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/our-chefs",
+   "keywords": [
+    "chefs dubai",
+    "private chefs dubai",
+    "hire chef dubai",
+    "looking for chef",
+    "private chef hire",
+    "female private chefs dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 55.3,
+    "gsc_impr": 55,
+    "sessions": 10,
+    "wa_clicks": 1,
+    "gsc_clicks": 1,
+    "days_with_data": 9
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 60,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/office-catering-dubai",
+   "keywords": [
+    "office catering dubai",
+    "small office catering dubai",
+    "team lunch catering dubai",
+    "office lunch catering dubai",
+    "weekly office catering dubai",
+    "ramadan office catering dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": null,
+    "gsc_impr": null,
+    "sessions": 5,
+    "wa_clicks": 0,
+    "gsc_clicks": null,
+    "days_with_data": 6
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 59,
+   "batch_id": "queue-apply-2026-09-08",
+   "url": "/",
+   "keywords": [
+    "my chef dubai",
+    "fine dining at home dubai",
+    "mychef dubai"
+   ],
+   "applied_at": "2026-09-08T14:23+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-23",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-07",
+    "from": "2026-08-25",
+    "edits": 1,
+    "parts": [
+     "body",
+     "title"
+    ],
+    "gsc_pos": 17.4,
+    "gsc_impr": 846,
+    "sessions": 170,
+    "wa_clicks": 6,
+    "gsc_clicks": 10,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
    "id": 41,
    "batch_id": "backfill-2026-08-26",
    "url": "/locations/jlt",
@@ -53,7 +428,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "h1",
@@ -97,7 +472,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -143,7 +518,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -189,7 +564,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "h1",
@@ -233,7 +608,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -283,7 +658,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -333,7 +708,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -379,7 +754,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -427,7 +802,7 @@
    "applied_at": "2026-08-26T10:47+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -473,7 +848,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -521,7 +896,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -565,7 +940,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "faq",
     "title"
@@ -607,7 +982,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -659,7 +1034,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq",
@@ -703,7 +1078,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -751,7 +1126,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -797,7 +1172,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "h1",
@@ -845,7 +1220,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -897,7 +1272,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -947,7 +1322,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq",
@@ -991,7 +1366,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "h1",
@@ -1039,7 +1414,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq",
@@ -1083,7 +1458,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1133,7 +1508,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1181,7 +1556,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq",
@@ -1225,7 +1600,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -1275,7 +1650,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -1319,7 +1694,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "h1",
@@ -1367,7 +1742,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1413,7 +1788,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1461,7 +1836,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -1507,7 +1882,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1555,7 +1930,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1603,7 +1978,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1646,7 +2021,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1696,7 +2071,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1744,7 +2119,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -1790,7 +2165,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1840,7 +2215,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1892,7 +2267,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -1938,7 +2313,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq",
@@ -1982,7 +2357,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2028,7 +2403,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2074,7 +2449,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2122,7 +2497,7 @@
    "applied_at": "2026-08-26T10:44+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2168,7 +2543,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -2216,7 +2591,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq"
@@ -2258,7 +2633,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "faq"
@@ -2300,7 +2675,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "faq"
    ],
@@ -2340,7 +2715,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq",
@@ -2386,7 +2761,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "faq",
     "h2",
@@ -2430,7 +2805,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2478,7 +2853,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "description",
     "faq"
@@ -2520,7 +2895,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2566,7 +2941,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2616,7 +2991,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",
@@ -2662,7 +3037,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "faq"
    ],
@@ -2702,7 +3077,7 @@
    "applied_at": "2026-08-26T10:39+00:00",
    "window_days": 14,
    "closes_on": "2026-09-10",
-   "days_to_go": 6,
+   "days_to_go": 2,
    "parts": [
     "body",
     "description",

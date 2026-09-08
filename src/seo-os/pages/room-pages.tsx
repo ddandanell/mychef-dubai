@@ -131,7 +131,12 @@ const CONNECTIONS = [
   ["Vercel Analytics", "Visitors, pageviews", "vercel.env", "harvest-vercel-analytics.py"],
   ["First-party events", "Dwell, WhatsApp, scroll", "DATABASE_URL", "harvest-firstparty.py"],
   ["GA4", "Engagement", "service-account.json", "harvest-ga4.py — grant pending"],
-  ["PageSpeed / CrUX", "Core Web Vitals", "google-psi.env", "no collector yet"],
+  ["PageSpeed / CrUX", "Core Web Vitals", "google-psi.env", "harvest-psi.py"],
+  ["Screaming Frog", "Crawl issues on /seo/e", "docs/seo/frog/inbox", "harvest-frog.py"],
+  ["GoHighLevel", "Contacts, chats, closes", "gohighlevel.env", "harvest-ghl.py · ghl-mcp.py"],
+  ["CRM engine", "New contacts + conversation topics", "gohighlevel.env", "build-crm.py · /seo/crm"],
+  ["Voice engine", "Persona + tone gate", "writing system", "build-voice.py"],
+  ["Snippet engine", "Title/meta A/B for CTR", "GSC + voice gate", "build-snippets.py"],
 ]
 
 export function ConnectionsPage() {
@@ -168,8 +173,8 @@ export function ConnectionsPage() {
 
 const RUN_STEPS = [
   "Snapshot the site (live fetch or local dist)",
-  "Harvest Search Console, analytics, behaviour",
-  "Rebuild Keywords, Demand, Research, Links, Gaps, Architecture",
+  "Harvest Search Console, analytics, behaviour, Frog inbox, GoHighLevel",
+  "Rebuild Keywords, Demand, Research, Links, Gaps, Architecture, Evidence, CRM engine",
   "Probe integrations · write Status · archive to Postgres",
   "Publish JSON into /seo/data for this shell",
 ]
@@ -194,8 +199,14 @@ export function SettingsPage() {
             ))}
           </ol>
           <p className="text-muted-foreground mt-4 text-sm">
-            <code>docs/seo/keyword-map/run-loop.sh live</code> — nothing on this page edits copy. Optimizer writes are
-            reversible and listed under Agent Runs.
+            <code>npm run seo:daily</code> refreshes GSC, analytics, Frog, GoHighLevel and /seo/e.
+            <code>docs/seo/keyword-map/run-loop.sh live</code> is the full measurement. Nothing on this page
+            edits copy. Optimizer writes are reversible and listed under Agent Runs.
+          </p>
+          <p className="text-muted-foreground mt-2 text-sm">
+            GitHub Action <code>seo-daily.yml</code> can be fired with workflow_dispatch, or it runs at 04:00 UTC.
+            A push to main then publishes the committed JSON. Drop Screaming Frog CSVs in{" "}
+            <code>docs/seo/frog/inbox/</code> first if you have a new crawl.
           </p>
         </CardContent>
       </Card>

@@ -109,7 +109,7 @@ export default function Catering() {
       <PageHero
         eyebrow="Catering Dubai"
         title="Catering Dubai, Built Around Your Event"
-        subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around the event you are actually hosting. Our catering services in Dubai cover weddings, villa events, yachts, private celebrations, offices and corporate events. Home catering Dubai is the 10–20 guest work at a villa or apartment: one chef, one server, your kitchen. Food-only catering starts from AED 90 per person; full service catering with staff, bar and live cooking is priced to the guest count and format."
+        subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around your event. Weddings, villa gatherings, yachts, private celebrations, offices and corporate dining across Dubai. Food-only starts from AED 90 per person; full service with staff and live cooking is tailored to your headcount."
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
         imageWidth={cateringHero.width}
@@ -121,11 +121,7 @@ export default function Catering() {
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="full"
         overlay="dark"
-      >
-        <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share your date, venue and guest count.
-        </p>
-      </PageHero>
+      />
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -170,7 +166,7 @@ export default function Catering() {
             {SAME_PARTNERS}
           </p>
           <p className="mt-4 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
-            Hosts looking for catering services Dubai start here: food only, chefs and waiters, or the whole night from one brief. Christmas, Diwali, Ramadan and National Day sit on{' '}
+            Hosts looking for catering services Dubai start here: food only, chefs and waiters, or the whole night from one brief. Home catering Dubai is the 10–20 guest work at a villa or apartment: one chef, one server, your kitchen. Food catering Dubai can be a drop-off; private catering Dubai is the chef-led dinner in that same home. Christmas, Diwali, Ramadan and National Day sit on{' '}
             <Link
               to="/festive-catering-dubai"
               className="text-gold-ink underline underline-offset-4 hover:text-gold"
@@ -188,6 +184,9 @@ export default function Catering() {
           <DisplayHeading className="text-white mb-6">Catering pricing in Dubai</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
             These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.
+          </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+            Party food catering Dubai is planned around the room and the running order, not a tray left at the door. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-left font-inter text-body-sm text-gray-300">

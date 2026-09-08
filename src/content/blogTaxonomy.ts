@@ -35,6 +35,33 @@ export interface ContextualLink {
 
 const ALL_BLOG_POSTS: BlogPost[] = [
   {
+    "slug": "/blog/dubai-school-food-rules-2026",
+    "title": "Dubai School Food Rules 2026: Municipality and My School Food",
+    "excerpt": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must be able to show you.",
+    "category": "Institutional",
+    "image": "/images/blog/dubai-school-food-rules-2026-hero.webp",
+    "hub": "institutional",
+    "date": "September 2026"
+  },
+  {
+    "slug": "/blog/nut-free-halal-nursery-meals-dubai",
+    "title": "Nut-Free Nursery Meals Dubai: Allergen and Halal Guide",
+    "excerpt": "How nut-free, allergen and halal nursery meals work in Dubai — labelling, kitchens, and what to ask a caterer before you sign.",
+    "category": "Institutional",
+    "image": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp",
+    "hub": "institutional",
+    "date": "September 2026"
+  },
+  {
+    "slug": "/blog/nursery-meals-vs-packed-lunch-dubai",
+    "title": "Nursery Meals vs Packed Lunch Dubai: How to Choose",
+    "excerpt": "Provided nursery meals versus packed lunch in Dubai: nut-free control, parent trust, and when to outsource the kitchen.",
+    "category": "Institutional",
+    "image": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp",
+    "hub": "institutional",
+    "date": "September 2026"
+  },
+  {
     "slug": "/blog/how-to-hire-a-private-chef-dubai",
     "title": "How to Hire a Private Chef Dubai: 2026 Cost & Booking Guide",
     "excerpt": "How to hire a private chef in Dubai: what it costs, how booking works, how chefs are vetted and what to ask before your dinner. From around AED 700 per person.",
@@ -246,6 +273,16 @@ export const BLOG_HUBS: BlogHub[] = [
     "intro": "Everything on hiring a private chef in Dubai — what it costs, how vetting and booking work, and how a chef at home compares to dining out. Start with our private chef service, then dig into the guides below."
   },
   {
+    "slug": "institutional",
+    "title": "Nurseries, Schools & Canteens",
+    "description": "Institutional catering in Dubai: nursery meals, school-food rules, canteens and what a documented kitchen has to show you.",
+    "pillar": {
+      "label": "Institutional Catering Dubai",
+      "url": "/institutional-catering-dubai"
+    },
+    "intro": "Nurseries, schools, hospitals and staff canteens — documented kitchens, municipal school-food rules, and how to brief a caterer. Start with institutional catering, then read the guides below."
+  },
+  {
     "slug": "corporate",
     "title": "Corporate & Team Catering",
     "description": "Corporate catering in Dubai: office lunches, team dinners and galas, drop-off against full service, and the format that fits each.",
@@ -302,6 +339,26 @@ export const BLOG_TOPIC_HUB_PATHS = BLOG_HUBS.map((h) => `/blog/topic/${h.slug}`
 
 /** In-body link phrases, sorted longest-first so specific phrases win over generic ones. */
 const ALL_CONTEXTUAL_LINKS: ContextualLink[] = [
+  {
+    "phrase": "nursery catering Dubai",
+    "url": "/nursery-catering-dubai"
+  },
+  {
+    "phrase": "school catering Dubai",
+    "url": "/school-catering-dubai"
+  },
+  {
+    "phrase": "hospital catering Dubai",
+    "url": "/hospital-catering-dubai"
+  },
+  {
+    "phrase": "canteen management Dubai",
+    "url": "/canteen-management-dubai"
+  },
+  {
+    "phrase": "institutional catering Dubai",
+    "url": "/institutional-catering-dubai"
+  },
   {
     "phrase": "desert dining in Dubai",
     "url": "/desert-dining-dubai"

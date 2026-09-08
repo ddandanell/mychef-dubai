@@ -22,7 +22,7 @@ STATE = {
     "not connected": ("Not connected", "off"),
     "error": ("Error", "bad"),
 }
-STALE_AFTER = {"Search": 7, "Traffic": 2, "Behaviour": 2, "Demand & SERPs": 30, "AI": 60, "Store": 2, "Platform": 7}
+STALE_AFTER = {"Search": 7, "Traffic": 2, "Behaviour": 2, "Demand & SERPs": 30, "AI": 60, "Store": 2, "Platform": 7, "Crawl": 45, "CRM": 2, "Performance": 14}
 
 
 def esc(s):

@@ -188,6 +188,12 @@ export default function OurChefs() {
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 Private chefs Dubai on this page are the named cooks we actually send — interviewed, tasted and background-checked before they cook in a home. Hosts who hire chef Dubai through myCHEF pick from this list, not from an open marketplace. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+                A chef for hire through myCHEF is a named cook from this list, not an open marketplace. Say in the brief if you want a female private chef Dubai, or female private chefs Dubai for a larger table — the match still comes from the same vetted roster. A private BBQ chef Dubai is that cook on a grill, not a second team. Hosts who ask are private chefs in Dubai licensed get a straight answer: we background-check every cook we send, and myCHEF holds the booking. How are private chefs vetted Dubai is the process on this page: interview, tasting, then the background check before they cook in a home.
+              </p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+                If you are looking for chef talent for an intimate dinner, or seeking private chef hire for a villa gathering, we introduce verified professionals with transparent menus. Whether you need a personal chef for weekly family dining or a private cook in Dubai for a single celebration, every chef on our roster is background-checked before they arrive.
+              </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
                 Every chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
               </p>

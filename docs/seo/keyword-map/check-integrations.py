@@ -275,7 +275,43 @@ try:
 except Exception as ex:  # noqa: BLE001
     record("SEO analyst (read-only)", "AI", "error", "could not reach /api/ask", None, str(ex)[:160])
 
-# ---- 9. the loop itself -----------------------------------------------------------------------------
+# ---- 9. Screaming Frog + GoHighLevel --------------------------------------------------------------
+frog_snap = HERE / "frog.json"
+if frog_snap.exists():
+    try:
+        frog = json.loads(frog_snap.read_text())
+        record("Screaming Frog", "Crawl", "connected",
+               f"{frog.get('site') or 'export'} · {frog.get('crawled_on') or 'undated'} · "
+               f"{(frog.get('counts') or {}).get('open', 0)} open issues",
+               datetime.datetime.fromtimestamp(frog_snap.stat().st_mtime))
+    except Exception as ex:  # noqa: BLE001
+        record("Screaming Frog", "Crawl", "error", "frog.json unreadable", None, str(ex)[:160])
+else:
+    record("Screaming Frog", "Crawl", "no data",
+           "drop an Issues export into docs/seo/frog/inbox and run harvest-frog.py")
+
+ghl_env = env_file("gohighlevel.env")
+ghl_snap = HERE / "ghl.json"
+if ghl_env.get("GHL_API_KEY") or os.environ.get("GHL_API_KEY"):
+    if ghl_snap.exists():
+        try:
+            g = json.loads(ghl_snap.read_text())
+            if g.get("connected"):
+                record("GoHighLevel", "CRM", "connected",
+                       f"{(g.get('contacts') or {}).get('total', 0)} contacts · "
+                       f"{(g.get('contacts') or {}).get('new', 0)} new · "
+                       f"{(g.get('opportunities') or {}).get('won', 0)} won",
+                       datetime.datetime.fromtimestamp(ghl_snap.stat().st_mtime))
+            else:
+                record("GoHighLevel", "CRM", "not connected", g.get("error") or "key present, harvest returned empty")
+        except Exception as ex:  # noqa: BLE001
+            record("GoHighLevel", "CRM", "error", "ghl.json unreadable", None, str(ex)[:160])
+    else:
+        record("GoHighLevel", "CRM", "no data", "key present · harvest-ghl.py has not written a snapshot yet")
+else:
+    record("GoHighLevel", "CRM", "not connected", "no token in ~/.config/claude-seo/gohighlevel.env")
+
+# ---- 10. the loop itself -----------------------------------------------------------------------------
 kwf = HERE / "keywords.json"
 record("Board build (run-loop)", "Platform", "connected" if kwf.exists() else "no data",
        "keyword file, research pages and archive rebuilt on every run" if kwf.exists() else "never run",

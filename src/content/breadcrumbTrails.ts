@@ -229,6 +229,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   }
  ],
+ "/blog/dubai-school-food-rules-2026": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Journal"
+  },
+  {
+   "label": "Dubai School Food Rules 2026"
+  }
+ ],
  "/blog/grazing-table-vs-buffet-dubai": [
   {
    "href": "/",
@@ -295,6 +308,32 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "How to hire a private chef"
+  }
+ ],
+ "/blog/nursery-meals-vs-packed-lunch-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Journal"
+  },
+  {
+   "label": "Nursery Meals vs Packed Lunch Dubai"
+  }
+ ],
+ "/blog/nut-free-halal-nursery-meals-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Journal"
+  },
+  {
+   "label": "Nut-Free Nursery Meals Dubai"
   }
  ],
  "/blog/private-chef-palm-jumeirah-guide": [
@@ -437,6 +476,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Canapé catering"
+  }
+ ],
+ "/canteen-management-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/institutional-catering-dubai",
+   "label": "Institutional catering"
+  },
+  {
+   "label": "Canteen management"
   }
  ],
  "/case-studies": [
@@ -738,6 +790,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Catering prices"
   }
  ],
+ "/dubai-event-catering-price-guide-2026": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Event catering price guide 2026"
+  }
+ ],
  "/dubai-food-trends-report-2026": [
   {
    "href": "/",
@@ -917,6 +982,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Halal private dining"
   }
  ],
+ "/hospital-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/institutional-catering-dubai",
+   "label": "Institutional catering"
+  },
+  {
+   "label": "Hospital catering"
+  }
+ ],
  "/how-it-works": [
   {
    "href": "/",
@@ -993,6 +1071,15 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Food influencer partnerships"
+  }
+ ],
+ "/institutional-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "label": "Institutional catering"
   }
  ],
  "/italian-catering-dubai": [
@@ -1167,6 +1254,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "New year catering"
+  }
+ ],
+ "/nursery-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/institutional-catering-dubai",
+   "label": "Institutional catering"
+  },
+  {
+   "label": "Nursery catering"
   }
  ],
  "/office-catering-dubai": [
@@ -1512,6 +1612,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Dinner for two"
   }
  ],
+ "/school-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/institutional-catering-dubai",
+   "label": "Institutional catering"
+  },
+  {
+   "label": "School catering"
+  }
+ ],
  "/site-map": [
   {
    "href": "/",
@@ -1768,12 +1881,15 @@ export const HERO_ROUTES: string[] = [
  "/blog/corporate-event-catering-ideas-dubai",
  "/blog/desert-dinner-party-dubai",
  "/blog/dinner-party-menu-ideas-dubai",
+ "/blog/dubai-school-food-rules-2026",
  "/blog/grazing-table-vs-buffet-dubai",
  "/blog/halal-private-dining-dubai-what-to-ask",
  "/blog/how-far-ahead-book-caterer-dubai",
  "/blog/how-much-does-private-chef-cost-dubai",
  "/blog/how-to-hire-a-private-chef-dubai",
  "/blog/iftar-at-home-dubai",
+ "/blog/nursery-meals-vs-packed-lunch-dubai",
+ "/blog/nut-free-halal-nursery-meals-dubai",
  "/blog/nye-party-catering-dubai",
  "/blog/private-chef-date-night-dubai",
  "/blog/private-chef-palm-jumeirah-guide",
@@ -2178,6 +2294,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   },
   {
+   "href": "/blog/dubai-school-food-rules-2026",
+   "label": "Dubai School Food Rules 2026"
+  },
+  {
    "href": "/blog/grazing-table-vs-buffet-dubai",
    "label": "Grazing table vs buffet"
   },
@@ -2192,6 +2312,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/how-to-hire-a-private-chef-dubai",
    "label": "How to hire a private chef"
+  },
+  {
+   "href": "/blog/nursery-meals-vs-packed-lunch-dubai",
+   "label": "Nursery Meals vs Packed Lunch Dubai"
+  },
+  {
+   "href": "/blog/nut-free-halal-nursery-meals-dubai",
+   "label": "Nut-Free Nursery Meals Dubai"
   },
   {
    "href": "/blog/private-chef-palm-jumeirah-guide",
@@ -2220,6 +2348,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/dubai-catering-prices-guide",
    "label": "Catering prices"
+  },
+  {
+   "href": "/dubai-event-catering-price-guide-2026",
+   "label": "Event catering price guide 2026"
   },
   {
    "href": "/dubai-food-trends-report-2026",
@@ -2256,6 +2388,24 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/yacht-catering-guide-dubai",
    "label": "Yacht catering guide"
+  }
+ ],
+ "/institutional-catering-dubai": [
+  {
+   "href": "/canteen-management-dubai",
+   "label": "Canteen management"
+  },
+  {
+   "href": "/hospital-catering-dubai",
+   "label": "Hospital catering"
+  },
+  {
+   "href": "/nursery-catering-dubai",
+   "label": "Nursery catering"
+  },
+  {
+   "href": "/school-catering-dubai",
+   "label": "School catering"
   }
  ],
  "/locations": [

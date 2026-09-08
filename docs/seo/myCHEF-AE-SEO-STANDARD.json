@@ -160,21 +160,9 @@
   },
   {
    "from": "/healthcare-catering-dubai",
-   "to": "/luxury-dining-experiences",
+   "to": "/hospital-catering-dubai",
    "type": "301",
-   "reason": "Legacy redirect recorded 2026-08-26; internal links now point at the destination"
-  },
-  {
-   "from": "/school-catering-dubai",
-   "to": "/luxury-dining-experiences",
-   "type": "301",
-   "reason": "Legacy redirect recorded 2026-08-26; internal links now point at the destination"
-  },
-  {
-   "from": "/nursery-catering-dubai",
-   "to": "/luxury-dining-experiences",
-   "type": "301",
-   "reason": "Legacy redirect recorded 2026-08-26; internal links now point at the destination"
+   "reason": "Guess-URL now has a live owner: hospital catering dubai"
   },
   {
    "from": "/university-catering-dubai",
@@ -599,9 +587,7 @@
   "/finger-food-catering-dubai": "/canape-catering-dubai",
   "/film-crew-catering-dubai": "/production-catering-dubai",
   "/corporate-catering-dubai": "/corporate",
-  "/healthcare-catering-dubai": "/luxury-dining-experiences",
-  "/school-catering-dubai": "/luxury-dining-experiences",
-  "/nursery-catering-dubai": "/luxury-dining-experiences",
+  "/healthcare-catering-dubai": "/hospital-catering-dubai",
   "/university-catering-dubai": "/luxury-dining-experiences",
   "/government-event-catering-dubai": "/luxury-dining-experiences",
   "/chefs/sofia-pastry-chef": "/chefs/matteo-pastry-chef",
@@ -15755,7 +15741,7 @@
     ]
    },
    "on_page": {
-    "title": "Contact | myCHEF",
+    "title": "Contact myCHEF Dubai — Enquiries",
     "title_max_chars": 65,
     "h1": "Contact",
     "h1_count": 1,
@@ -36370,7 +36356,7 @@
     }
    },
    "on_page": {
-    "title": "Office Catering Dubai | myCHEF",
+    "title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
     "title_max_chars": 65,
     "h1": "Office Catering Dubai",
     "h1_count": 1,
@@ -50812,6 +50798,1514 @@
     "No second page's locked primary in title or H1.",
     "Sibling module matches JSON siblings[] — do not invent cards.",
     "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ]
+  },
+  "/institutional-catering-dubai": {
+   "url": "/institutional-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/institutional-catering-dubai",
+   "silo": "Institutional Catering",
+   "silo_priority": "P2",
+   "page_type": "Hub",
+   "hub": "/institutional-catering-dubai",
+   "is_hub": true,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "institutional catering dubai",
+    "subkeywords": [
+     "education catering dubai",
+     "healthcare catering dubai",
+     "staff canteen dubai",
+     "early years catering dubai",
+     "patient meal services dubai",
+     "corporate canteen catering dubai",
+     "nut-free institutional meals dubai",
+     "documented catering kitchen dubai"
+    ],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Institutional Catering Dubai | Nurseries to Hospitals | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Institutional Catering Dubai",
+    "h1_count": 1,
+    "meta_description": "Institutional catering Dubai for nurseries, schools, hospitals and canteens. Documented kitchens, a quote after we see the site.",
+    "meta_description_max_chars": 160,
+    "og_title": "Institutional Catering Dubai",
+    "og_type": "website"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/institutional-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "Catering",
+     "alt_anchors": [
+      "catering dubai"
+     ]
+    },
+    "siblings": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "alt_anchors": []
+     }
+    ],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/dubai-school-food-rules-2026",
+      "anchor": "Dubai school food rules 2026",
+      "alt_anchors": []
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/downtown-dubai",
+      "anchor": "Downtown Dubai",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/business-bay",
+      "anchor": "Business Bay",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/difc",
+      "anchor": "DIFC",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/nursery-catering-dubai": {
+   "url": "/nursery-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/nursery-catering-dubai",
+   "silo": "Institutional Catering",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/institutional-catering-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "nursery catering dubai",
+    "subkeywords": [
+     "nursery catering companies dubai",
+     "nursery meal plans dubai",
+     "preschool catering dubai",
+     "nursery lunch delivery dubai",
+     "nut-free nursery meals dubai",
+     "halal nursery meals dubai",
+     "healthy meals for nurseries dubai",
+     "early years catering dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Nursery Catering Dubai | Daily Meals for Early Years | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Nursery Catering Dubai",
+    "h1_count": 1,
+    "meta_description": "Nursery catering Dubai for early-years meals. Documented kitchens, allergen lists, a quote after we see the site. WhatsApp the enrolment.",
+    "meta_description_max_chars": 160,
+    "og_title": "Nursery Catering Dubai",
+    "og_type": "website"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/nursery-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering"
+     },
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "alt_anchors": []
+     },
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/nut-free-halal-nursery-meals-dubai",
+      "anchor": "Nut-free, allergen and halal nursery meals",
+      "alt_anchors": []
+     },
+     {
+      "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "anchor": "Provided meals vs packed lunch",
+      "alt_anchors": []
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/arabian-ranches",
+      "anchor": "Arabian Ranches",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/dubai-hills",
+      "anchor": "Dubai Hills",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/jumeirah",
+      "anchor": "Jumeirah",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/school-catering-dubai": {
+   "url": "/school-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/school-catering-dubai",
+   "silo": "Institutional Catering",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/institutional-catering-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "school catering dubai",
+    "subkeywords": [
+     "school catering companies dubai",
+     "school lunch delivery dubai",
+     "school canteen catering dubai",
+     "healthy school lunch dubai",
+     "school meal plans dubai",
+     "khda school catering dubai",
+     "education catering dubai",
+     "canteen catering services dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+    "title_max_chars": 65,
+    "h1": "School Catering Dubai",
+    "h1_count": 1,
+    "meta_description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
+    "meta_description_max_chars": 160,
+    "og_title": "School Catering Dubai",
+    "og_type": "website"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/school-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering"
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "alt_anchors": []
+     },
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/dubai-school-food-rules-2026",
+      "anchor": "Dubai school food rules 2026",
+      "alt_anchors": []
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/arabian-ranches",
+      "anchor": "Arabian Ranches",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/dubai-hills",
+      "anchor": "Dubai Hills",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/jumeirah",
+      "anchor": "Jumeirah",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/hospital-catering-dubai": {
+   "url": "/hospital-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/hospital-catering-dubai",
+   "silo": "Institutional Catering",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/institutional-catering-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "hospital catering dubai",
+    "subkeywords": [
+     "healthcare catering dubai",
+     "hospital catering services dubai",
+     "patient meal services dubai",
+     "therapeutic diet meals dubai",
+     "hospital staff cafeteria catering dubai",
+     "texture-modified meals dubai",
+     "clinic catering dubai",
+     "staff cafeteria dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Hospital Catering Dubai | Patient and Staff Meals | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Hospital Catering Dubai",
+    "h1_count": 1,
+    "meta_description": "Hospital catering Dubai for staff cafeterias first, then patient meals when the kitchen and diet list can be documented. Quote after a site walk.",
+    "meta_description_max_chars": 160,
+    "og_title": "Hospital Catering Dubai",
+    "og_type": "website"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/hospital-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering"
+     },
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/downtown-dubai",
+      "anchor": "Downtown Dubai",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/business-bay",
+      "anchor": "Business Bay",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/difc",
+      "anchor": "DIFC",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/canteen-management-dubai": {
+   "url": "/canteen-management-dubai",
+   "absolute_url": "https://www.mychef.ae/canteen-management-dubai",
+   "silo": "Institutional Catering",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/institutional-catering-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "canteen management dubai",
+    "subkeywords": [
+     "staff canteen management dubai",
+     "canteen setup dubai",
+     "corporate canteen catering dubai",
+     "office cafeteria management dubai",
+     "canteen catering services dubai",
+     "staff canteen dubai",
+     "cashless canteen dubai",
+     "outsource canteen catering dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Canteen Management Dubai | Food, Not Software | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Canteen Management Dubai",
+    "h1_count": 1,
+    "meta_description": "Canteen management Dubai is food, staff and a kitchen — not a POS app. Setup, staffing and a quote after we walk the room.",
+    "meta_description_max_chars": 160,
+    "og_title": "Canteen Management Dubai",
+    "og_type": "website"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/canteen-management-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering"
+     },
+     {
+      "url": "/canteen-management-dubai",
+      "anchor": "Canteen management",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/hospital-catering-dubai",
+      "anchor": "Hospital catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/difc",
+      "anchor": "DIFC",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/business-bay",
+      "anchor": "Business Bay",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/downtown-dubai",
+      "anchor": "Downtown Dubai",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/blog/nut-free-halal-nursery-meals-dubai": {
+   "url": "/blog/nut-free-halal-nursery-meals-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/nut-free-halal-nursery-meals-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/guides",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "nut-free nursery meals dubai",
+    "subkeywords": [
+     "halal nursery meals dubai",
+     "allergen nursery meals dubai",
+     "nursery allergy protocol dubai",
+     "nut-free kitchen dubai",
+     "how dubai nurseries handle food allergies",
+     "what foods are restricted in dubai nurseries",
+     "nursery meal labelling dubai",
+     "preschool allergen matrix dubai"
+    ],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Nut-Free Nursery Meals Dubai | Allergen and Halal Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Nut-Free Nursery Meals Dubai",
+    "h1_count": 1,
+    "meta_description": "How nut-free, allergen and halal nursery meals work in Dubai — labelling, kitchens and what to ask a caterer before you sign.",
+    "meta_description_max_chars": 160,
+    "og_title": "Nut-Free Nursery Meals Dubai",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/nut-free-halal-nursery-meals-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Journal"
+     },
+     {
+      "url": "/blog/nut-free-halal-nursery-meals-dubai",
+      "anchor": "Nut-Free Nursery Meals Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/jumeirah",
+      "anchor": "Jumeirah",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/dubai-hills",
+      "anchor": "Dubai Hills",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/arabian-ranches",
+      "anchor": "Arabian Ranches",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/blog/nursery-meals-vs-packed-lunch-dubai": {
+   "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/nursery-meals-vs-packed-lunch-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/guides",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "nursery provided meals vs packed lunch dubai",
+    "subkeywords": [
+     "do all nurseries in dubai provide meals",
+     "nursery lunch dubai",
+     "packed lunch nursery dubai",
+     "nursery meal plans dubai",
+     "preschool catering dubai",
+     "healthy meals for nurseries dubai",
+     "nursery catering companies dubai",
+     "early years lunch dubai"
+    ],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Nursery Meals vs Packed Lunch Dubai | How to Choose | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Nursery Meals vs Packed Lunch Dubai",
+    "h1_count": 1,
+    "meta_description": "Provided nursery meals versus packed lunch in Dubai: nut-free control, parent trust, cost of running the kitchen, and when to outsource.",
+    "meta_description_max_chars": 160,
+    "og_title": "Nursery Meals vs Packed Lunch Dubai",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/nursery-meals-vs-packed-lunch-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Journal"
+     },
+     {
+      "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "anchor": "Nursery Meals vs Packed Lunch Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/jumeirah",
+      "anchor": "Jumeirah",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/dubai-hills",
+      "anchor": "Dubai Hills",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/arabian-ranches",
+      "anchor": "Arabian Ranches",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
+   ]
+  },
+  "/blog/dubai-school-food-rules-2026": {
+   "url": "/blog/dubai-school-food-rules-2026",
+   "absolute_url": "https://www.mychef.ae/blog/dubai-school-food-rules-2026",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/guides",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "dubai school food rules 2026",
+    "subkeywords": [
+     "my school food dubai",
+     "dubai municipality school food",
+     "national guide school food uae",
+     "school canteen standards dubai",
+     "healthy school lunch dubai",
+     "khda school catering",
+     "dmchecked school catering",
+     "what foods are banned in dubai schools"
+    ],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Dubai School Food Rules 2026 | Municipality Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Dubai School Food Rules 2026",
+    "h1_count": 1,
+    "meta_description": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must be able to show you.",
+    "meta_description_max_chars": 160,
+    "og_title": "Dubai School Food Rules 2026",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/dubai-school-food-rules-2026",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Journal"
+     },
+     {
+      "url": "/blog/dubai-school-food-rules-2026",
+      "anchor": "Dubai School Food Rules 2026",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "Institutional catering",
+     "alt_anchors": []
+    },
+    "siblings": [
+     {
+      "url": "/nursery-catering-dubai",
+      "anchor": "Nursery catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/school-catering-dubai",
+      "anchor": "School catering",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/office-catering-dubai",
+      "anchor": "Office catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/halal-catering-dubai",
+      "anchor": "Halal catering",
+      "alt_anchors": []
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations/jumeirah",
+      "anchor": "Jumeirah",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/dubai-hills",
+      "anchor": "Dubai Hills",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations/arabian-ranches",
+      "anchor": "Arabian Ranches",
+      "alt_anchors": []
+     },
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/healthcare-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/corporate-catering-dubai",
+     "/kids-nutrition-chef-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium",
+    "must_not_claim_until_documented": [
+     "My School Food supplier registration",
+     "HACCP certificate number",
+     "PIC Level 3 roster",
+     "from AED per child per day"
+    ]
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai.",
+    "Do not claim My School Food registration, HACCP certificates or a from-price until src/content/ documents them."
    ]
   }
  }

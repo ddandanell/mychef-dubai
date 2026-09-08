@@ -19,6 +19,9 @@ echo "== traffic (Vercel Web Analytics)"; python3 docs/seo/keyword-map/harvest-v
 echo "== search (Search Console)"; python3 docs/seo/keyword-map/harvest-gsc.py || true
 echo "== behaviour (GA4)"; python3 docs/seo/keyword-map/harvest-ga4.py || true
 echo "== behaviour (first-party)"; python3 docs/seo/keyword-map/harvest-firstparty.py || true
+echo "== crawl (Screaming Frog inbox)"; python3 docs/seo/keyword-map/harvest-frog.py || true
+echo "== CRM (GoHighLevel)"; python3 docs/seo/keyword-map/harvest-ghl.py || true
+echo "== evidence (/seo/e)"; python3 docs/seo/keyword-map/build-evidence.py || true
 echo "== research pages"
 python3 docs/seo/keyword-map/build-backlog.py $SNAP >/dev/null
 python3 docs/seo/keyword-map/build-demand.py >/dev/null
@@ -34,7 +37,6 @@ python3 docs/seo/keyword-map/build-status.py >/dev/null
 cp docs/seo/keyword-map/ask-template.html docs/seo/keyword-map/ask.html
 python3 docs/seo/keyword-map/build-actions.py >/dev/null
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
-echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== gates"
 # The heartbeat records whether these passed, so their result has to be captured, not printed
 # and forgotten. A pipe would hand back tail's exit code, hence the temp file.
@@ -49,10 +51,15 @@ gate python3 scripts/verify-retirements.py
 gate python3 scripts/verify-api-functions.py
 gate python3 scripts/audit-onpage.py
 gate python3 scripts/verify-hero.py
+gate python3 scripts/verify-url-stability.py
 rm -f "$GATE_LOG"
 echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
 echo "== experiments"; python3 docs/seo/keyword-map/close-experiments.py || true
 python3 docs/seo/keyword-map/build-experiments.py >/dev/null || true
+echo "== voice"; python3 docs/seo/keyword-map/build-voice.py || true
+echo "== snippets"; python3 docs/seo/keyword-map/build-snippets.py || true
+echo "== CRM engine"; python3 docs/seo/keyword-map/build-crm.py || true
+echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== rules"; python3 docs/seo/keyword-map/build-rules.py || true
 echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
 # The heartbeat is the only proof this ran. GATES is set by the gate block above.
