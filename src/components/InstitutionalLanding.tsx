@@ -156,22 +156,9 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
           <div className="grid md:grid-cols-2 gap-8">
             {page.difference.blocks.map((block) => (
               <article key={block.title} className="border-t border-gray-200 pt-6">
-                {block.image ? (
-                  <img
-                    src={block.image.src}
-                    alt={block.image.alt}
-                    width={block.image.width}
-                    height={block.image.height}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full aspect-[16/9] object-cover mb-5 bg-gray-100"
-                  />
-                ) : null}
+                {block.image ? <ConceptFigure image={block.image} className="mb-5" /> : null}
                 <h3 className="font-playfair text-h4 text-black mb-3">{block.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{block.body}</p>
-                {block.image ? (
-                  <p className="mt-3 font-inter text-xs text-gray-400">{block.image.caption}</p>
-                ) : null}
               </article>
             ))}
           </div>
