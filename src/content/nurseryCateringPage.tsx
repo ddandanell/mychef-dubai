@@ -47,6 +47,22 @@ export const nurseryPage: InstitutionalPageContent = {
     { href: INSTITUTIONAL_PATHS.canteen, label: 'Canteen management' },
     { href: INSTITUTIONAL_PATHS.hospital, label: 'Hospital catering' },
   ],
+  figures: {
+    afterBrief: {
+      src: '/images/nursery-catering-dubai-room.webp',
+      alt: 'Early-years dining room in Dubai being set with child-sized tables before lunch. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+    afterDifference: {
+      src: '/images/nursery-catering-dubai-plating.webp',
+      alt: 'Chefs plating small early-years portions in a Dubai kitchen, no children in the cook zone. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+  },
   siloNote: (
     <>
       This page owns nursery catering Dubai. Preschool catering Dubai and nursery lunch delivery

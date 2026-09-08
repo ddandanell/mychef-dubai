@@ -47,6 +47,22 @@ export const hospitalPage: InstitutionalPageContent = {
     { href: INSTITUTIONAL_PATHS.school, label: 'School catering' },
     { href: INSTITUTIONAL_PATHS.nursery, label: 'Nursery catering' },
   ],
+  figures: {
+    afterBrief: {
+      src: '/images/hospital-catering-dubai-cafeteria.webp',
+      alt: 'Staff cafeteria in a Dubai hospital with a chef on the servery and colleagues eating. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+    afterDifference: {
+      src: '/images/hospital-catering-dubai-trays.webp',
+      alt: 'Chef checking colour-coded diet trays on a trolley in a Dubai hospital kitchen. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+  },
   siloNote: (
     <>
       This page owns hospital catering Dubai. Healthcare catering Dubai and hospital catering

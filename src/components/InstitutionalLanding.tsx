@@ -15,7 +15,26 @@ import {
   CTAGroup,
 } from './system'
 import { CATERING_INQUIRY_HREF } from '@/content/cateringCluster'
-import type { InstitutionalPageContent } from '@/content/institutionalLandingTypes'
+import type { InstitutionalFigure, InstitutionalPageContent } from '@/content/institutionalLandingTypes'
+
+function ConceptFigure({ image, className = '' }: { image: InstitutionalFigure; className?: string }) {
+  return (
+    <figure className={className}>
+      <div className="overflow-hidden bg-gray-100">
+        <img
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          loading="lazy"
+          decoding="async"
+          className="w-full h-auto aspect-[16/9] object-cover"
+        />
+      </div>
+      <figcaption className="mt-3 font-inter text-sm text-gray-500 leading-relaxed">{image.caption}</figcaption>
+    </figure>
+  )
+}
 
 export default function InstitutionalLanding({ page }: { page: InstitutionalPageContent }) {
   const schema = {
@@ -116,14 +135,17 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
       </Section>
 
       <Section id="brief" tone="white" rhythm="chapter">
-        <Container className="max-w-3xl">
-          <SectionLabel>THE JOB</SectionLabel>
-          <DisplayHeading className="text-black mb-6">{page.problem.h2}</DisplayHeading>
-          {page.problem.paragraphs.map((p) => (
-            <BodyCopy key={p.slice(0, 48)} className="mb-4">
-              {p}
-            </BodyCopy>
-          ))}
+        <Container>
+          <div className="max-w-3xl">
+            <SectionLabel>THE JOB</SectionLabel>
+            <DisplayHeading className="text-black mb-6">{page.problem.h2}</DisplayHeading>
+            {page.problem.paragraphs.map((p) => (
+              <BodyCopy key={p.slice(0, 48)} className="mb-4">
+                {p}
+              </BodyCopy>
+            ))}
+          </div>
+          <ConceptFigure image={page.figures.afterBrief} className="mt-10" />
         </Container>
       </Section>
 
@@ -134,11 +156,28 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
           <div className="grid md:grid-cols-2 gap-8">
             {page.difference.blocks.map((block) => (
               <article key={block.title} className="border-t border-gray-200 pt-6">
+                {block.image ? (
+                  <img
+                    src={block.image.src}
+                    alt={block.image.alt}
+                    width={block.image.width}
+                    height={block.image.height}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full aspect-[16/9] object-cover mb-5 bg-gray-100"
+                  />
+                ) : null}
                 <h3 className="font-playfair text-h4 text-black mb-3">{block.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{block.body}</p>
+                {block.image ? (
+                  <p className="mt-3 font-inter text-xs text-gray-400">{block.image.caption}</p>
+                ) : null}
               </article>
             ))}
           </div>
+          {page.figures.afterDifference ? (
+            <ConceptFigure image={page.figures.afterDifference} className="mt-12" />
+          ) : null}
         </Container>
       </Section>
 

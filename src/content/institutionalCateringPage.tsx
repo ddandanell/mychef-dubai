@@ -46,6 +46,15 @@ export const institutionalHubPage: InstitutionalPageContent = {
     { href: INSTITUTIONAL_PATHS.hospital, label: 'Hospital catering' },
     { href: INSTITUTIONAL_PATHS.canteen, label: 'Canteen management' },
   ],
+  figures: {
+    afterBrief: {
+      src: '/images/institutional-catering-dubai-walk.webp',
+      alt: 'Chef and coordinator reviewing a kitchen pass before service in a Dubai institutional kitchen. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+  },
   siloNote: (
     <>
       This hub owns institutional catering Dubai. Each child page owns its primary. Household chefs
@@ -74,18 +83,46 @@ export const institutionalHubPage: InstitutionalPageContent = {
       {
         title: 'Nurseries',
         body: 'Early years, nut-free production, age-band textures, parents who will call you first if lunch fails.',
+        image: {
+          src: '/images/nursery-catering-dubai-room.webp',
+          alt: 'Early-years dining room in Dubai being set with child-sized tables before lunch. Experience concept shown.',
+          width: 1280,
+          height: 720,
+          caption: 'Experience concept shown.',
+        },
       },
       {
         title: 'Schools',
         body: 'Meal programmes and lunch lines written against municipal school-food rules, not a tuck-shop slogan.',
+        image: {
+          src: '/images/school-catering-dubai-hall.webp',
+          alt: 'Dubai school dining hall being prepared for lunch, service team setting tables. Experience concept shown.',
+          width: 1280,
+          height: 720,
+          caption: 'Experience concept shown.',
+        },
       },
       {
         title: 'Hospitals and clinics',
         body: 'Staff cafeterias first. Patient meals when the diet list is real.',
+        image: {
+          src: '/images/hospital-catering-dubai-cafeteria.webp',
+          alt: 'Staff cafeteria in a Dubai hospital with a chef on the servery and colleagues eating. Experience concept shown.',
+          width: 1280,
+          height: 720,
+          caption: 'Experience concept shown.',
+        },
       },
       {
         title: 'Staff canteens',
         body: 'Food, not a POS app. Setup, staffing, a cycle, optional cashless as a layer.',
+        image: {
+          src: '/images/canteen-management-dubai-dining.webp',
+          alt: 'Workplace canteen in Dubai, a manager seated as a guest while chefs work the line. Experience concept shown.',
+          width: 1280,
+          height: 720,
+          caption: 'Experience concept shown.',
+        },
       },
       {
         title: 'Documented kitchens',

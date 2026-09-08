@@ -47,6 +47,22 @@ export const schoolPage: InstitutionalPageContent = {
     { href: INSTITUTIONAL_PATHS.canteen, label: 'Canteen management' },
     { href: INSTITUTIONAL_PATHS.hospital, label: 'Hospital catering' },
   ],
+  figures: {
+    afterBrief: {
+      src: '/images/school-catering-dubai-hall.webp',
+      alt: 'Dubai school dining hall being prepared for lunch, service team setting tables. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+    afterDifference: {
+      src: '/images/school-catering-dubai-pass.webp',
+      alt: 'Chef finishing roasted vegetables on a school lunch pass while a manager observes the empty hall. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+  },
   siloNote: (
     <>
       This page owns school catering Dubai. School lunch delivery Dubai and school meal plans Dubai

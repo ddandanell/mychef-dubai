@@ -47,6 +47,22 @@ export const canteenPage: InstitutionalPageContent = {
     { href: INSTITUTIONAL_PATHS.school, label: 'School catering' },
     { href: '/office-catering-dubai', label: 'Office catering' },
   ],
+  figures: {
+    afterBrief: {
+      src: '/images/canteen-management-dubai-dining.webp',
+      alt: 'Workplace canteen in Dubai, a manager seated as a guest while chefs work the line. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+    afterDifference: {
+      src: '/images/canteen-management-dubai-kitchen.webp',
+      alt: 'Two chefs in black jackets cooking vegetables and salad at an open Dubai canteen pass. Experience concept shown.',
+      width: 1280,
+      height: 720,
+      caption: 'Experience concept shown.',
+    },
+  },
   siloNote: (
     <>
       This page owns canteen management Dubai. Staff canteen management Dubai and canteen setup

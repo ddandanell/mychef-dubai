@@ -1,5 +1,13 @@
 import type { ReactNode } from 'react'
 
+export type InstitutionalFigure = {
+  src: string
+  alt: string
+  width: number
+  height: number
+  caption: string
+}
+
 export type InstitutionalPageContent = {
   root: string
   eyebrow: string
@@ -12,6 +20,10 @@ export type InstitutionalPageContent = {
     subtitle: string
     micro: string
   }
+  figures: {
+    afterBrief: InstitutionalFigure
+    afterDifference?: InstitutionalFigure
+  }
   whatsapp: string
   primaryCta: string
   breadcrumb: { label: string; href?: string }[]
@@ -19,7 +31,10 @@ export type InstitutionalPageContent = {
   siblings: { href: string; label: string }[]
   siloNote: ReactNode
   problem: { h2: string; paragraphs: string[] }
-  difference: { h2: string; blocks: { title: string; body: string }[] }
+  difference: {
+    h2: string
+    blocks: { title: string; body: string; image?: InstitutionalFigure }[]
+  }
   table?: {
     label: string
     h2: string
