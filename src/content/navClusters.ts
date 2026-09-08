@@ -9,8 +9,8 @@ import { isParked } from '@/content/parkedUrls'
  *                     grazing, live cooking, finger food, drop-off)
  *   Private Events    WHAT private occasion is being planned (birthday, anniversary,
  *                     baby shower, engagement, wedding, parties)
- *   Corporate         WHAT business use case (office, conferences, exhibitions,
- *                     product launches, galas, staff meals)
+ *   Corporate         WHAT business use case (office, conferences,
+ *                     institutions: nursery, school, hospital, canteen)
  *   Cuisines          WHICH cuisine the menu is built from
  *
  * Every href below points at a route that already exists in src/routes.tsx.
@@ -95,6 +95,16 @@ const CORPORATE_NAV_GROUPS_RAW: NavGroup[] = [
     items: [
       { href: '/office-catering-dubai', label: 'Office Catering', description: 'Day-to-day workplace lunches' },
       { href: '/conference-catering-dubai', label: 'Conference Catering', description: 'Delegates, breaks, multi-day' },
+    ],
+  },
+  {
+    heading: 'Institutions',
+    items: [
+      { href: '/institutional-catering-dubai', label: 'Institutional Catering', description: 'Nurseries, schools, hospitals, canteens' },
+      { href: '/nursery-catering-dubai', label: 'Nursery Catering', description: 'Daily meals for early years' },
+      { href: '/school-catering-dubai', label: 'School Catering', description: 'School lunches and canteens' },
+      { href: '/hospital-catering-dubai', label: 'Hospital Catering', description: 'Patient and staff meals' },
+      { href: '/canteen-management-dubai', label: 'Canteen Management', description: 'Kitchen and food, not software' },
     ],
   },
 ]

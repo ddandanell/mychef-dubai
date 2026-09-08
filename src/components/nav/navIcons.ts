@@ -19,6 +19,10 @@ import {
   Baby,
   Building2,
   Sparkles,
+  GraduationCap,
+  HeartPulse,
+  Landmark,
+  CookingPot,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -53,6 +57,11 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/conference-catering-dubai': Presentation,
   '/exhibition-catering-dubai': Building2,
   '/staff-meals-catering-dubai': Users,
+  '/institutional-catering-dubai': Landmark,
+  '/nursery-catering-dubai': Baby,
+  '/school-catering-dubai': GraduationCap,
+  '/hospital-catering-dubai': HeartPulse,
+  '/canteen-management-dubai': CookingPot,
   // Packages
   '/catering-packages-dubai': Package,
   '/birthday-catering-package-dubai': Cake,

@@ -16,7 +16,13 @@ export default function ClusterMegaMenu({
 }) {
   return (
     <div className="pc-mega-card">
-      <div className="grid grid-cols-1 gap-x-6 gap-y-5 min-[900px]:grid-cols-2">
+      <div
+        className={
+          groups.length >= 3
+            ? 'grid grid-cols-1 gap-x-6 gap-y-5 min-[900px]:grid-cols-3'
+            : 'grid grid-cols-1 gap-x-6 gap-y-5 min-[900px]:grid-cols-2'
+        }
+      >
         {groups.map((group) => (
           <div key={group.heading} className="min-w-0">
             <p className="mb-2 px-3.5 font-inter text-caption uppercase tracking-[0.14em] text-gold">
