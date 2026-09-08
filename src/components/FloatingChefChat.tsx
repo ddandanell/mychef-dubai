@@ -128,8 +128,9 @@ export default function FloatingChefChat() {
           alt="myCHEF Dubai chef assistant"
           width={64}
           height={64}
-          className="w-full h-full object-cover"
-          loading="lazy"
+          className="w-full h-full object-cover bg-black"
+          loading="eager"
+          decoding="async"
         />
       </button>
     </div>

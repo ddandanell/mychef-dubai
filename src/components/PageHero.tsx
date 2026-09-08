@@ -206,7 +206,7 @@ export default function PageHero({
     >
       {/* Background */}
       {image ? (
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden bg-black">
           <picture className="absolute inset-0 block h-full w-full">
             {image?.endsWith('.webp') && (
               <source
@@ -223,7 +223,7 @@ export default function PageHero({
               height={imageHeight}
               loading="eager"
               fetchPriority="high"
-              decoding="async"
+              decoding="sync"
               className="h-full w-full object-cover scale-105 will-change-transform"
               style={{ objectPosition: imagePosition }}
             />

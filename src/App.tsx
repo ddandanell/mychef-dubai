@@ -4,7 +4,6 @@ import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
-import PageLoader from './components/PageLoader'
 import RouteErrorBoundary from './components/RouteErrorBoundary'
 import { routes } from './routes'
 import { isSeoOsPath, SeoOsApp } from './seo-os/entry'
@@ -41,7 +40,7 @@ export default function App() {
           path="/seo/*"
           element={
             <RouteErrorBoundary key="seo-os">
-              <Suspense fallback={<PageLoader />}>
+              <Suspense fallback={null}>
                 <SeoOsApp />
               </Suspense>
             </RouteErrorBoundary>
@@ -52,7 +51,7 @@ export default function App() {
           element={
             <Layout>
               <RouteErrorBoundary pathname={pathname}>
-                <Suspense fallback={<PageLoader />}>
+                <Suspense fallback={null}>
                   <Routes>
                     {routes.map((route) => (
                       <Route key={route.path} path={route.path} element={route.element} />

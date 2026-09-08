@@ -16,7 +16,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   useEffect(() => {
-    const onOver = (event: PointerEvent) => {
+    const preload = (event: Event) => {
       const el = event.target
       if (!(el instanceof Element)) return
       const hit = el.closest('a[href^="/"]')
@@ -25,8 +25,12 @@ export default function Layout({ children }: LayoutProps) {
       if (!href || href.startsWith('/seo')) return
       void preloadRoute(href.split('#')[0] ?? href)
     }
-    document.addEventListener('pointerover', onOver)
-    return () => document.removeEventListener('pointerover', onOver)
+    document.addEventListener('pointerover', preload)
+    document.addEventListener('pointerdown', preload)
+    return () => {
+      document.removeEventListener('pointerover', preload)
+      document.removeEventListener('pointerdown', preload)
+    }
   }, [])
 
   return (
