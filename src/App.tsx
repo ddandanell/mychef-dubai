@@ -3,6 +3,7 @@ import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
+import BrandIdentity from './components/BrandIdentity'
 import Analytics from './components/Analytics'
 import RouteErrorBoundary from './components/RouteErrorBoundary'
 import { routes } from './routes'
@@ -32,6 +33,7 @@ export default function App() {
 
   return (
     <>
+      <BrandIdentity />
       <Analytics />
       <VercelAnalytics />
       <SpeedInsights route={pathname} />

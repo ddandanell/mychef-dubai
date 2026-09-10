@@ -70,6 +70,7 @@ export const WEBSITE_SCHEMA = {
   '@id': WEBSITE_ID,
   url: `${SITE_URL}/`,
   name: 'myCHEF',
+  alternateName: ['myCHEF Dubai', 'mychef.ae'],
   inLanguage: 'en-AE',
   publisher: { '@id': ORGANIZATION_ID },
 }

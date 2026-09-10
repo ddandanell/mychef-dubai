@@ -84,6 +84,12 @@ export default function SEO({
       )}
       <html lang="en" />
       <meta name="robots" content={hidden ? 'noindex, follow' : 'index, follow'} />
+      <meta name="application-name" content={SITE_NAME} />
+      <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
+      <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+      <link rel="icon" href="/favicon.ico" sizes="48x48" />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      <link rel="manifest" href="/site.webmanifest" />
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />

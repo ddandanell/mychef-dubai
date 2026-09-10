@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url"
 import express from "express"
 import type { Browser, Page } from "puppeteer"
 import { BLOG_TOPIC_HUB_PATHS } from "../src/content/blogTaxonomy"
+import { auditDist } from "./verify-google-brand.ts"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -449,6 +450,14 @@ async function main(): Promise<void> {
       await notFoundPage.close()
     }
     console.log("Prerender complete.")
+    const brandIssues = auditDist(DIST_DIR)
+    if (brandIssues.length) {
+      for (const issue of brandIssues) {
+        console.error(`GOOGLE BRAND  ${issue.file}  ${issue.problem}`)
+      }
+      throw new Error(`${brandIssues.length} Google brand issue(s) in prerendered HTML`)
+    }
+    console.log("Google brand check passed.")
   } finally {
     await browser.close()
     await new Promise<void>((resolve, reject) => {

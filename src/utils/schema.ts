@@ -192,6 +192,7 @@ export function websiteSchema() {
     '@type': 'WebSite',
     '@id': 'https://www.mychef.ae/#website',
     name: SITE_NAME,
+    alternateName: ['myCHEF Dubai', 'mychef.ae'],
     url: SITE_URL,
     publisher: ORGANIZATION_REF,
     inLanguage: 'en-AE',
