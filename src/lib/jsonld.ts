@@ -22,12 +22,13 @@ const BANNED_TYPES = new Set([
   'LocalBusiness',
 ])
 
-/** FAQPage JSON-LD only on /faq and the three hubs that show a matching accordion. */
+/** FAQPage JSON-LD only where the accordion is on the page and the SEO contract lists FAQPage. */
 const FAQ_JSONLD_PATHS = new Set([
   '/faq',
   '/private-chef-dubai',
   '/private-chef-dubai/pricing',
   '/catering-dubai',
+  '/yachts',
 ])
 
 function typeList(node: Record<string, unknown>): string[] {

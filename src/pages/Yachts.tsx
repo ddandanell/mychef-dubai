@@ -10,6 +10,8 @@ import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
+import FaqAccordion from '../components/FaqAccordion'
+import YachtCateringEstimator from '../components/YachtCateringEstimator'
 import {
   Section,
   Container,
@@ -21,6 +23,18 @@ import {
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { faqPageSchema } from '@/utils/schema'
+import {
+  YACHT_BOOKING_TERMS,
+  YACHT_EXTRAS,
+  YACHT_FAQS,
+  YACHT_INCLUDED,
+  YACHT_MENU_FORMATS,
+  YACHT_NOT_INCLUDED,
+  YACHT_PRICING_DISCLAIMER,
+  YACHT_QUOTE_EXAMPLE_GUESTS,
+  formatYachtAed,
+} from '@/content/yachtCateringQuote'
 
 const PATH = CATERING_PATHS.yachts
 const HERO = '/images/yacht-catering-dubai-hero.webp'
@@ -34,6 +48,7 @@ const SIBLINGS = [
   { href: '/yacht-catering-checklist-dubai', label: 'Yacht catering checklist' },
   { href: '/blog/yacht-party-menu-ideas-dubai', label: 'Yacht party menu ideas' },
   { href: '/bar-services-dubai', label: 'Bar services' },
+  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
 ] as const
 
 const BOARDING = [
@@ -67,6 +82,8 @@ const formats = [
   },
 ] as const
 
+const yachtFaq = faqPageSchema(YACHT_FAQS.map((item) => ({ question: item.q, answer: item.a })))
+
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -89,6 +106,7 @@ const schema = {
         { '@type': 'ListItem', position: 3, name: 'Yacht catering', item: 'https://www.mychef.ae/yachts' },
       ],
     },
+    ...(yachtFaq ? [yachtFaq] : []),
   ],
 }
 
@@ -99,7 +117,7 @@ export default function Yachts() {
     <div>
       <SEO
         title="Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF"
-        description="Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
+        description="Yacht Catering Dubai with indicative pricing from AED 162 per guest: canapés, buffet or live station, extras and written terms. You charter the yacht."
         canonicalPath={PATH}
         ogImage={HERO}
         hideSiteName
@@ -125,7 +143,15 @@ export default function Yachts() {
         ]}
         minHeight="full"
         overlay="dark"
-      />
+      >
+        <p className="mt-6 font-inter text-body-sm text-white/80 max-w-[600px]">
+          Real pricing on this page —{' '}
+          <a href="#estimate" className="text-gold underline underline-offset-4 hover:text-gold-light">
+            see what a charter day costs
+          </a>{' '}
+          before you enquire.
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
       <Section tone="ivory" rhythm="chapter">
@@ -207,7 +233,8 @@ export default function Yachts() {
       </Section>
 
       <Section tone="white" rhythm="chapter">
-        <Container className="max-w-3xl">
+        <Container>
+          <div className="max-w-3xl">
           <SectionLabel>THE QUOTE</SectionLabel>
           <DisplayHeading className="text-black mb-6">What the quote is built from</DisplayHeading>
           <BodyCopy className="mb-5">
@@ -227,10 +254,117 @@ export default function Yachts() {
             </Link>
             {' '}is the longer explanation of galley limits and routes.
           </BodyCopy>
+          </div>
+
+          <div className="mt-14 pt-12 border-t border-gray-200">
+            <SectionLabel>A REAL QUOTE, WITH REAL NUMBERS</SectionLabel>
+            <DisplayHeading className="text-black mb-6">What yacht catering actually costs</DisplayHeading>
+            <BodyCopy className="mb-10">
+              Here is a real quote, client details removed: a corporate charter, {YACHT_QUOTE_EXAMPLE_GUESTS} guests, four hours on board, boarding at Dubai Harbour. Three menus were priced for the same day.
+            </BodyCopy>
+            <div className="grid md:grid-cols-3 gap-px bg-gray-200">
+              {YACHT_MENU_FORMATS.map((format) => (
+                <article key={format.id} className="bg-white p-6 md:p-7">
+                  <h3 className="font-playfair text-h4 text-black mb-3">{format.name}</h3>
+                  <p className="font-playfair text-h3 text-black tabular-nums">
+                    {formatYachtAed(format.perGuestAed)}
+                    <span className="font-inter text-body-sm text-gray-500"> / guest</span>
+                  </p>
+                  <p className="mt-4 font-inter text-body-sm text-gray-600 leading-relaxed">{format.includes}</p>
+                  <p className="mt-6 font-inter text-body-xs text-gray-500 leading-relaxed">
+                    Real total, {YACHT_QUOTE_EXAMPLE_GUESTS} guests incl. VAT: {formatYachtAed(format.quotedTotalInclVat113)}
+                  </p>
+                </article>
+              ))}
+            </div>
+            <p className="mt-8 font-inter text-body-sm text-gray-600 leading-relaxed max-w-[62ch]">
+              Per-guest pricing moves with headcount, menu and hours. A 20-guest birthday and a 113-guest corporate are quoted on the same lines — they just land at different numbers. Indicative only — every event is quoted in writing.
+            </p>
+            <p className="mt-4 font-inter text-body-xs text-gray-500 leading-relaxed max-w-[62ch]">{YACHT_PRICING_DISCLAIMER}</p>
+          </div>
         </Container>
       </Section>
 
       <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT&apos;S IN THE PRICE</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Included, and not included</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16">
+            <div>
+              <h3 className="font-playfair text-h4 text-black mb-4">In the proposal, when it is in the brief</h3>
+              <ul className="space-y-3">
+                {YACHT_INCLUDED.map((item) => (
+                  <li key={item} className="flex gap-3 font-inter text-body-sm text-gray-700 leading-relaxed">
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-playfair text-h4 text-black mb-4">Yours to arrange</h3>
+              <ul className="space-y-3">
+                {YACHT_NOT_INCLUDED.map((item) => (
+                  <li key={item} className="flex gap-3 font-inter text-body-sm text-gray-700 leading-relaxed">
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-gray-400" aria-hidden />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="mt-8 font-inter text-body-xs text-gray-500 leading-relaxed max-w-[62ch]">{YACHT_PRICING_DISCLAIMER}</p>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE EXTRAS</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Optional charges, on the table</DisplayHeading>
+          <BodyCopy className="mb-10">No surprises after the proposal. The extras we get asked about most:</BodyCopy>
+          <ul className="divide-y divide-gray-200 border-y border-gray-200">
+            {YACHT_EXTRAS.map((extra) => (
+              <li key={extra.id} className="flex items-baseline justify-between gap-6 py-4">
+                <span className="font-inter text-body-sm text-gray-700 leading-relaxed">{extra.name}</span>
+                <span className="font-playfair text-h4 text-black tabular-nums shrink-0">{formatYachtAed(extra.aed)}</span>
+              </li>
+            ))}
+            <li className="flex items-baseline justify-between gap-6 py-4">
+              <span className="font-inter text-body-sm text-gray-700 leading-relaxed">Overtime (agreed extension of hours)</span>
+              <span className="font-playfair text-h4 text-black tabular-nums shrink-0">AED 240 / server / hour</span>
+            </li>
+          </ul>
+          <p className="mt-6 font-inter text-body-xs text-gray-500 leading-relaxed">{YACHT_PRICING_DISCLAIMER}</p>
+        </Container>
+      </Section>
+
+      <Section id="estimate" tone="dark" rhythm="chapter">
+        <Container>
+          <SectionLabel tone="dark">ROUGH NUMBERS, BEFORE YOU ASK</SectionLabel>
+          <DisplayHeading className="text-white mb-4">Estimate your charter day</DisplayHeading>
+          <p className="font-inter text-body text-white/70 leading-relaxed mb-12 max-w-[58ch]">
+            Move the guest count and pick a menu. VAT is a separate line. The total is indicative — not an offer.
+          </p>
+          <YachtCateringEstimator />
+        </Container>
+      </Section>
+
+      <Section id="booking" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE TERMS, BEFORE YOU ASK</SectionLabel>
+          <DisplayHeading className="text-black mb-10">How booking works</DisplayHeading>
+          <dl className="divide-y divide-gray-200 border-y border-gray-200">
+            {YACHT_BOOKING_TERMS.map((term) => (
+              <div key={term.title} className="py-5">
+                <dt className="font-playfair text-h4 text-black mb-2">{term.title}</dt>
+                <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{term.body}</dd>
+              </div>
+            ))}
+          </dl>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>BOARDING</SectionLabel>
           <DisplayHeading className="text-black mb-4">Where we board</DisplayHeading>
@@ -289,13 +423,13 @@ export default function Yachts() {
         subtitle={
           <>
             Boarding most often from{' '}
-            
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
               Dubai Marina
-            
+            </Link>
             {', '}
-            
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
               Palm Jumeirah
-            
+            </Link>
             {' '}and{' '}
             <Link to="/locations/jbr" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
               JBR
@@ -304,6 +438,14 @@ export default function Yachts() {
           </>
         }
       />
+
+      <Section id="yacht-faqs" tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>QUESTIONS</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Before you send the brief</DisplayHeading>
+          <FaqAccordion items={[...YACHT_FAQS]} />
+        </Container>
+      </Section>
 
       <Section tone="dark" rhythm="chapter">
         <Container className="max-w-3xl">

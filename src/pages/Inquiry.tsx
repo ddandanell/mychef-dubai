@@ -5,17 +5,22 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useEffect, useRef } from 'react'
-import { Link } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Check, Phone, Mail, MapPin } from 'lucide-react'
 import SEO from '@/components/SEO'
 import TrustBar from '@/components/TrustBar'
 import { breadcrumbSchema } from '@/utils/schema'
+import {
+  clampYachtGuests,
+  isYachtFormatId,
+  yachtWhatsAppMessage,
+} from '@/content/yachtCateringQuote'
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to request a bespoke quote for an upcoming event (via mychef.ae/inquiry)")
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const DEFAULT_WHATSAPP_MESSAGE =
+  "Hi myCHEF Dubai, I'd like to request a bespoke quote for an upcoming event (via mychef.ae/inquiry)"
 
 const breadcrumbs = [
   { name: 'Home', path: '/' },
@@ -36,6 +41,15 @@ const trustBadges = [
 ]
 
 export default function Inquiry() {
+  const [params] = useSearchParams()
+  const formatParam = params.get('format') ?? ''
+  const guestsParam = Number(params.get('guests'))
+  const yachtPrefill = params.get('from') === 'yachts' && isYachtFormatId(formatParam)
+  const whatsappMessage = yachtPrefill
+    ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
+    : DEFAULT_WHATSAPP_MESSAGE
+  const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
+
   useScrollTrigger()
   const heroRef = useRef<HTMLDivElement>(null)
   const heroTitleRef = useRef<HTMLHeadingElement>(null)
@@ -139,7 +153,9 @@ export default function Inquiry() {
             <span className="word inline-block">WhatsApp</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.
+            {yachtPrefill
+              ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
+              : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
           </p>
         </div>
       </section>

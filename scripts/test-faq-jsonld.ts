@@ -1,5 +1,5 @@
 /**
- * FAQ JSON-LD only on /faq + three hubs; questions match on-page FAQs; no dupes.
+ * FAQ JSON-LD only on /faq, three hubs, and /yachts; questions match on-page FAQs; no dupes.
  *
  *   npx tsx scripts/test-faq-jsonld.ts
  */
@@ -68,6 +68,9 @@ eq('pricing path keeps FAQPage', Boolean(faqNode(pricing)), true)
 
 const stripped = assemblePageGraph('/bbq-catering-dubai', { '@graph': [dummyFaq] })
 eq('spoke FAQPage is stripped', faqNode(stripped), null)
+
+const yachts = assemblePageGraph('/yachts', { '@graph': [dummyFaq] })
+eq('yachts path keeps FAQPage', Boolean(faqNode(yachts)), true)
 
 const faqOnly = assemblePageGraph('/faq', { '@graph': [dummyFaq] })
 eq('/faq keeps FAQPage', Boolean(faqNode(faqOnly)), true)
