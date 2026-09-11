@@ -45,7 +45,6 @@ import {
   PRIVATE_EVENTS_CHILDREN,
   PRIVATE_EVENTS_GROUPS,
   PRIVATE_EVENTS_ROOT,
-  YACHTS_NAV_ROOT,
   cateringFormatsActive,
   corporateNavActive,
   cuisinesNavActive,
@@ -128,10 +127,6 @@ const navLinks: NavItem[] = [
     children: CATERING_FORMATS_CHILDREN,
   },
   {
-    label: 'Yacht Catering',
-    href: YACHTS_NAV_ROOT,
-  },
-  {
     label: 'Events',
     href: PRIVATE_EVENTS_ROOT,
     mega: 'private-events',
@@ -186,7 +181,6 @@ function clusterActive(pathname: string) {
 }
 
 function itemIsActive(pathname: string, link: NavItem) {
-  if (link.href === YACHTS_NAV_ROOT) return yachtsNavActive(pathname)
   if (link.mega === 'private-chef') return clusterActive(pathname)
   if (link.mega === 'catering') return cateringFormatsActive(pathname)
   if (link.mega === 'private-events') return privateEventsActive(pathname)

@@ -6,7 +6,7 @@ import { isParked } from '@/content/parkedUrls'
  * Four separate areas, deliberately not mixed:
  *
  *   Catering          HOW the food and service is delivered (BBQ, buffet, canapés,
- *                     grazing, live cooking, finger food, drop-off)
+ *                     grazing, live cooking, finger food, drop-off, yacht)
  *   Private Events    WHAT private occasion is being planned (birthday, anniversary,
  *                     baby shower, engagement, wedding, parties)
  *   Corporate         WHAT business use case (office, conferences,
@@ -39,6 +39,7 @@ const CATERING_FORMATS_GROUPS_RAW: NavGroup[] = [
       { href: '/catering-dubai', label: 'Catering Dubai', description: 'Start here — the full service' },
       { href: '/buffet-catering-dubai', label: 'Buffet Catering', description: 'Relaxed, scales to bigger guest lists' },
       { href: '/canape-catering-dubai', label: 'Canapé Catering', description: 'Passed bites for standing receptions' },
+      { href: '/yachts', label: 'Yacht Catering', description: 'Chef, food and service on the water' },
     ],
   },
   {
@@ -175,7 +176,8 @@ export const yachtsNavActive = (p: string) => {
   return YACHTS_ACTIVE.has(n) || n.startsWith(`${YACHTS_NAV_ROOT}/`)
 }
 
-export const cateringFormatsActive = (p: string) => CATERING_ACTIVE.has(normalize(p))
+export const cateringFormatsActive = (p: string) =>
+  CATERING_ACTIVE.has(normalize(p)) || yachtsNavActive(p)
 export const privateEventsActive = (p: string) =>
   !yachtsNavActive(p) && EVENTS_ACTIVE.has(normalize(p))
 export const corporateNavActive = (p: string) => CORPORATE_ACTIVE.has(normalize(p))
