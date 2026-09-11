@@ -165,4 +165,7 @@
   <url><loc>https://www.mychef.ae/referral-programme</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/trust-and-programs</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/wellness-meal-prep-dubai</loc><lastmod>2026-09-11</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <!-- RYZE:START -->
+  <url><loc>https://www.mychef.ae/blog/ryze-setup-test</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <!-- RYZE:END -->
 </urlset>
