@@ -1,0 +1,28 @@
+{
+  "slug": "ryze-setup-test",
+  "title": "Ryze Publishing Setup Test",
+  "body_markdown": "## Publishing check\n\nThis temporary page proves that a Ryze article becomes a page on the myCHEF site.\n\n- Title and body are present.\n- The featured image is handled correctly.\n- The site build completes.",
+  "body_html": "<h2>Publishing check</h2><p>This temporary page proves that a Ryze article becomes a page on the myCHEF site.</p><ul><li>Title and body are present.</li><li>The featured image is handled correctly.</li><li>The site build completes.</li></ul>",
+  "blocks": [
+    {
+      "type": "ryze-tldr",
+      "data": {
+        "points": [
+          "Ryze can publish into the myCHEF site repository.",
+          "The generated page uses the existing myCHEF design."
+        ]
+      }
+    }
+  ],
+  "meta_title": "Ryze Publishing Setup Test | myCHEF",
+  "meta_description": "Temporary test article used to verify the myCHEF GitHub publishing pipeline.",
+  "excerpt": "Temporary test article used to verify the myCHEF GitHub publishing pipeline.",
+  "primary_keyword": "ryze publishing test",
+  "image": {
+    "url": "https://www.mychef.ae/images/mychef-dubai-blog-hero.webp",
+    "alt": "myCHEF private chef and catering blog"
+  },
+  "published_at": "2026-09-11T09:00:00.000Z",
+  "updated_at": "2026-09-11T09:00:00.000Z",
+  "status": "published"
+}
