@@ -162,7 +162,21 @@ const EVENTS_ACTIVE = activeSet(PRIVATE_EVENTS_GROUPS, PRIVATE_EVENTS_ROOT)
 const CORPORATE_ACTIVE = activeSet(CORPORATE_NAV_GROUPS, CORPORATE_NAV_ROOT)
 const CUISINES_ACTIVE = activeSet(CUISINES_GROUPS, CUISINES_ROOT)
 
+export const YACHTS_NAV_ROOT = '/yachts'
+
+const YACHTS_ACTIVE = new Set([
+  YACHTS_NAV_ROOT,
+  '/yacht-catering-guide-dubai',
+  '/yacht-catering-checklist-dubai',
+])
+
+export const yachtsNavActive = (p: string) => {
+  const n = normalize(p)
+  return YACHTS_ACTIVE.has(n) || n.startsWith(`${YACHTS_NAV_ROOT}/`)
+}
+
 export const cateringFormatsActive = (p: string) => CATERING_ACTIVE.has(normalize(p))
-export const privateEventsActive = (p: string) => EVENTS_ACTIVE.has(normalize(p))
+export const privateEventsActive = (p: string) =>
+  !yachtsNavActive(p) && EVENTS_ACTIVE.has(normalize(p))
 export const corporateNavActive = (p: string) => CORPORATE_ACTIVE.has(normalize(p))
 export const cuisinesNavActive = (p: string) => CUISINES_ACTIVE.has(normalize(p))

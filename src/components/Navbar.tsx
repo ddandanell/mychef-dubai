@@ -45,10 +45,12 @@ import {
   PRIVATE_EVENTS_CHILDREN,
   PRIVATE_EVENTS_GROUPS,
   PRIVATE_EVENTS_ROOT,
+  YACHTS_NAV_ROOT,
   cateringFormatsActive,
   corporateNavActive,
   cuisinesNavActive,
   privateEventsActive,
+  yachtsNavActive,
 } from '@/content/navClusters'
 import { cn } from '@/lib/utils'
 
@@ -126,6 +128,10 @@ const navLinks: NavItem[] = [
     children: CATERING_FORMATS_CHILDREN,
   },
   {
+    label: 'Yacht Catering',
+    href: YACHTS_NAV_ROOT,
+  },
+  {
     label: 'Events',
     href: PRIVATE_EVENTS_ROOT,
     mega: 'private-events',
@@ -180,6 +186,7 @@ function clusterActive(pathname: string) {
 }
 
 function itemIsActive(pathname: string, link: NavItem) {
+  if (link.href === YACHTS_NAV_ROOT) return yachtsNavActive(pathname)
   if (link.mega === 'private-chef') return clusterActive(pathname)
   if (link.mega === 'catering') return cateringFormatsActive(pathname)
   if (link.mega === 'private-events') return privateEventsActive(pathname)
@@ -194,7 +201,8 @@ function itemIsActive(pathname: string, link: NavItem) {
       !privateEventsActive(pathname) &&
       !corporateNavActive(pathname) &&
       !cuisinesNavActive(pathname) &&
-      !experiencesClusterActive(pathname)
+      !experiencesClusterActive(pathname) &&
+      !yachtsNavActive(pathname)
     )
   }
   return isItemActive(pathname, link.href)
@@ -412,7 +420,7 @@ export default function Navbar() {
                 {navLinks.map((link) => {
                   const hasChildren = Boolean(link.children?.length)
                   if (!hasChildren) {
-                    const active = isItemActive(location.pathname, link.href)
+                    const active = itemIsActive(location.pathname, link)
                     return (
                       <Link
                         key={link.href}
