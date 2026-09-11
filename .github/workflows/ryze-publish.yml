@@ -17,8 +17,20 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install site packages
+        run: npm ci
+
       - name: Convert Ryze articles
         run: node scripts/ryze-convert.mjs
+
+      - name: Verify the site builds
+        run: npm run build
 
       - name: Commit generated pages
         run: |
