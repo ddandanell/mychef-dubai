@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-08 22:06",
+ "generated": "2026-09-11 08:34",
  "site": "https://mychef.ae/",
  "crawled_on": "2026-08-26",
- "previous_crawled_on": "2026-08-26",
+ "previous_crawled_on": "",
  "source": "docs/seo/frog/crawls/2026-08-26",
  "tiles": [
   {
@@ -125,7 +125,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 212
+   "previous_url_count": null
   },
   {
    "name": "Canonicals: Canonicalised",
@@ -185,7 +185,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 43
+   "previous_url_count": null
   },
   {
    "name": "Directives: Nofollow",
@@ -208,7 +208,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 6
+   "previous_url_count": null
   },
   {
    "name": "Directives: Noindex",
@@ -231,7 +231,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 6
+   "previous_url_count": null
   },
   {
    "name": "Hreflang: Noindex Return Links",
@@ -254,7 +254,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 6
+   "previous_url_count": null
   },
   {
    "name": "Images: Over 100 KB",
@@ -351,7 +351,7 @@
    "disposition": "accepted",
    "accepted_reason": "Image recompress is not this board's job.",
    "change": "accepted",
-   "previous_url_count": 95
+   "previous_url_count": null
   },
   {
    "name": "Page Titles: Over 60 Characters",
@@ -417,7 +417,7 @@
    "disposition": "accepted",
    "accepted_reason": "Contract titles stay. Character caps are Frog noise.",
    "change": "accepted",
-   "previous_url_count": 49
+   "previous_url_count": null
   },
   {
    "name": "Page Titles: Over 561 Pixels",
@@ -478,7 +478,7 @@
    "disposition": "accepted",
    "accepted_reason": "Contract titles stay. Pixel caps are an approximation.",
    "change": "accepted",
-   "previous_url_count": 44
+   "previous_url_count": null
   },
   {
    "name": "Content: Low Content Pages",
@@ -498,7 +498,7 @@
    "disposition": "accepted",
    "accepted_reason": "Thin blog topic hubs are by design.",
    "change": "accepted",
-   "previous_url_count": 3
+   "previous_url_count": null
   },
   {
    "name": "Page Titles: Below 30 Characters",
@@ -517,7 +517,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 2
+   "previous_url_count": null
   },
   {
    "name": "Page Titles: Below 200 Pixels",
@@ -535,7 +535,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 1
+   "previous_url_count": null
   },
   {
    "name": "Security: Missing Content-Security-Policy Header",
@@ -550,7 +550,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 451
+   "previous_url_count": null
   },
   {
    "name": "Security: Missing Secure Referrer-Policy Header",
@@ -565,7 +565,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 451
+   "previous_url_count": null
   },
   {
    "name": "Security: Missing X-Content-Type-Options Header",
@@ -580,7 +580,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 451
+   "previous_url_count": null
   },
   {
    "name": "Security: Missing X-Frame-Options Header",
@@ -595,7 +595,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 451
+   "previous_url_count": null
   },
   {
    "name": "Hreflang: Missing X-Default",
@@ -610,7 +610,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 262
+   "previous_url_count": null
   },
   {
    "name": "Links: Pages With High External Outlinks",
@@ -707,7 +707,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 257
+   "previous_url_count": null
   },
   {
    "name": "URL: GA Tracking Parameters",
@@ -804,7 +804,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 222
+   "previous_url_count": null
   },
   {
    "name": "H2: Multiple",
@@ -901,7 +901,7 @@
    "disposition": "accepted",
    "accepted_reason": "Multiple H2s are valid HTML when the outline is logical.",
    "change": "accepted",
-   "previous_url_count": 213
+   "previous_url_count": null
   },
   {
    "name": "Search Console: No Search Analytics Data",
@@ -998,7 +998,7 @@
    "disposition": "accepted",
    "accepted_reason": "GSC empty is not a crawl defect.",
    "change": "accepted",
-   "previous_url_count": 213
+   "previous_url_count": null
   },
   {
    "name": "Images: Missing Size Attributes",
@@ -1095,7 +1095,7 @@
    "disposition": "accepted",
    "accepted_reason": "CLS work lives on Speed, not this queue.",
    "change": "accepted",
-   "previous_url_count": 98
+   "previous_url_count": null
   },
   {
    "name": "hreflang missing xdefault",
@@ -1192,7 +1192,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 80
+   "previous_url_count": null
   },
   {
    "name": "security missing contentsecuritypolicy header",
@@ -1289,7 +1289,7 @@
    "disposition": "accepted",
    "accepted_reason": "CSP was skipped on purpose.",
    "change": "accepted",
-   "previous_url_count": 80
+   "previous_url_count": null
   },
   {
    "name": "security missing secure referrerpolicy header",
@@ -1386,7 +1386,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 80
+   "previous_url_count": null
   },
   {
    "name": "security missing xcontenttypeoptions header",
@@ -1483,7 +1483,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 80
+   "previous_url_count": null
   },
   {
    "name": "security missing xframeoptions header",
@@ -1580,7 +1580,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 80
+   "previous_url_count": null
   },
   {
    "name": "Meta Description: Over 155 Characters",
@@ -1636,7 +1636,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 39
+   "previous_url_count": null
   },
   {
    "name": "Images: Alt Text Over 100 Characters",
@@ -1686,7 +1686,7 @@
    "disposition": "accepted",
    "accepted_reason": "Alt length is not an indexation fault.",
    "change": "accepted",
-   "previous_url_count": 33
+   "previous_url_count": null
   },
   {
    "name": "images images with alt text over x characters",
@@ -1736,7 +1736,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 33
+   "previous_url_count": null
   },
   {
    "name": "H2: Duplicate",
@@ -1774,7 +1774,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 21
+   "previous_url_count": null
   },
   {
    "name": "H2: Over 70 Characters",
@@ -1808,7 +1808,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 17
+   "previous_url_count": null
   },
   {
    "name": "H1: Over 70 Characters",
@@ -1840,7 +1840,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 15
+   "previous_url_count": null
   },
   {
    "name": "Meta Description: Over 985 Pixels",
@@ -1871,7 +1871,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 14
+   "previous_url_count": null
   },
   {
    "name": "URL: Parameters",
@@ -1899,7 +1899,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 11
+   "previous_url_count": null
   },
   {
    "name": "URL: Underscores",
@@ -1927,7 +1927,7 @@
    "disposition": "accepted",
    "accepted_reason": "Renaming a live URL is forbidden.",
    "change": "accepted",
-   "previous_url_count": 11
+   "previous_url_count": null
   },
   {
    "name": "URL: Over 115 Characters",
@@ -1950,7 +1950,7 @@
    "disposition": "accepted",
    "accepted_reason": "Renaming a live URL is forbidden.",
    "change": "accepted",
-   "previous_url_count": 6
+   "previous_url_count": null
   },
   {
    "name": "Content: Readability Difficult",
@@ -1972,7 +1972,7 @@
    "disposition": "accepted",
    "accepted_reason": "Readability scores are not a ranking gate.",
    "change": "accepted",
-   "previous_url_count": 5
+   "previous_url_count": null
   },
   {
    "name": "Security: Bad Content Type",
@@ -1993,7 +1993,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 4
+   "previous_url_count": null
   },
   {
    "name": "H2: Non-Sequential",
@@ -2008,7 +2008,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 2
+   "previous_url_count": null
   },
   {
    "name": "Response Codes: Internal Redirection (3xx)",
@@ -2027,7 +2027,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 2
+   "previous_url_count": null
   },
   {
    "name": "h2 nonsequential",
@@ -2046,7 +2046,7 @@
    "disposition": "open",
    "accepted_reason": "",
    "change": "open",
-   "previous_url_count": 2
+   "previous_url_count": null
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "window_days": 30,
- "location": "…pZr7",
+ "location": null,
  "contacts": {
   "total": 0,
   "new": 0,
@@ -20,25 +20,14 @@
   "channels": [],
   "topics": []
  },
- "generated": "2026-09-11 09:48",
+ "generated": "2026-09-11 08:34",
  "connected": false,
- "error": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
+ "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
  "required_scopes": [
   "contacts.readonly",
   "opportunities.readonly",
   "conversations.readonly",
   "conversations/message.readonly"
  ],
- "locations": [
-  {
-   "name": "myCHEF Bali | Private Chefs & Catering",
-   "country": "ID",
-   "city": "Denpasar"
-  },
-  {
-   "name": "myCHEF Dubai | Private Chefs & Catering",
-   "country": "AE",
-   "city": "Dubai"
-  }
- ]
+ "locations": []
 }

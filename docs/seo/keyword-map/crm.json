@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11 09:56",
+ "generated": "2026-09-11 08:34",
  "intro": "The CRM engine reads GoHighLevel. Success is how many new contacts land and what conversations are actually about — not rankings alone. A hot topic maps to the contract owner. It never mints a URL.",
  "optimize_for": [
   "new contacts created in GoHighLevel",
@@ -7,8 +7,8 @@
   "won opportunities — not rankings alone"
  ],
  "connected": false,
- "error": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
- "reason": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
+ "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
+ "reason": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
  "required_scopes": [
   "contacts.readonly",
   "opportunities.readonly",
@@ -52,17 +52,6 @@
  "channels": [],
  "signals": [],
  "proposals": [],
- "locations": [
-  {
-   "name": "myCHEF Bali | Private Chefs & Catering",
-   "country": "ID",
-   "city": "Denpasar"
-  },
-  {
-   "name": "myCHEF Dubai | Private Chefs & Catering",
-   "country": "AE",
-   "city": "Dubai"
-  }
- ],
+ "locations": [],
  "window_days": 30
 }
