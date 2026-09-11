@@ -12,6 +12,7 @@ import FaqAccordion from '../components/FaqAccordion'
 import YachtCateringEstimator from '../components/YachtCateringEstimator'
 import YachtFullService from '../components/yachts/YachtFullService'
 import YachtHero from '../components/yachts/YachtHero'
+import YachtInventory from '../components/yachts/YachtInventory'
 import YachtOccasions from '../components/yachts/YachtOccasions'
 import YachtQuoteForm, { type YachtQuotePrefill } from '../components/yachts/YachtQuoteForm'
 import YachtServiceLevels from '../components/yachts/YachtServiceLevels'
@@ -138,6 +139,7 @@ export default function Yachts() {
       <YachtServiceLevels onSelect={goQuoteStyle} />
       <YachtServiceSelector onSelect={(id) => goQuote({ style: id })} />
       <YachtOccasions onSelect={(occasion) => goQuote({ occasion })} />
+      <YachtInventory />
 
       <Section tone="white" rhythm="chapter">
         <Container>

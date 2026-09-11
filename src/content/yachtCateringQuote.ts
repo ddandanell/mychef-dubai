@@ -199,7 +199,23 @@ export const YACHT_FAQS = [
     q: 'Do you clear everything after service?',
     a: 'Yes. Galley and service areas are cleared according to the agreed plan and the captain’s timing.',
   },
-] as const
+  {
+    q: 'Do you provide an event manager?',
+    a: 'On larger charters, yes — an event or service manager briefs the team, coordinates boarding with the crew, times food around a speech and owns the floor plan. Smaller days may not need a separate manager; the written proposal says who is onboard.',
+  },
+  {
+    q: 'Which live stations can you run on a yacht?',
+    a: 'The 113-guest Harbour quote offered chicken shawarma, Mexican, pasta or burger, with two station chefs as a separate AED 720 line. We also write carving, dessert, coffee, noodle and robata stations when the vessel and captain allow it. Open flame is a captain’s call.',
+  },
+  {
+    q: 'Can you handle vegetarian, vegan or gluten-free guests?',
+    a: 'Yes, when it is in the brief before we write the menu. Halal is the default. Live stations and canapés can be adapted. Corporate days often need labelling and a dietary collection in advance.',
+  },
+  {
+    q: 'Do you provide a DJ or sound?',
+    a: 'Optionally, as part of a full event-management brief, where the yacht operator allows it. It is priced separately. If the yacht already has sound, we coordinate rather than duplicate.',
+  },
+]
 
 export function isYachtFormatId(value: string): value is YachtFormatId {
   return YACHT_MENU_FORMATS.some((format) => format.id === value)

@@ -68,7 +68,14 @@ export const YACHT_FULL_SERVICE = {
 } as const
 
 export type YachtServiceId = 'private-chef' | 'canapes' | 'buffet' | 'live-bbq' | 'seated'
-export type YachtFormStyleId = YachtServiceId | 'not-sure' | 'delivery' | 'catering-service' | 'full-service'
+export type YachtFormStyleId =
+  | YachtServiceId
+  | 'not-sure'
+  | 'delivery'
+  | 'catering-service'
+  | 'full-service'
+  | 'luxury'
+  | 'event-management'
 
 export const YACHT_LEVELS_COPY = {
   label: 'How much we handle',
@@ -103,8 +110,20 @@ export const YACHT_LEVELS: readonly {
   {
     id: 'delivery',
     title: 'Catering delivery',
-    line: 'Food prepared and delivered for your charter.',
+    line: 'Food prepared and delivered for your charter, with basic setup if the brief needs it.',
     bestFor: 'Simple yacht days and smaller groups.',
+  },
+  {
+    id: 'luxury',
+    title: 'Luxury yacht experience',
+    line: 'Premium menu, live stations, full staff, rentals, décor and beverage service including bartenders where the operator permits it.',
+    bestFor: 'VIP charters and hosts who want the room styled as well as fed.',
+  },
+  {
+    id: 'event-management',
+    title: 'Full yacht event management',
+    line: 'Food, beverage, staffing, rentals, décor, logistics, optional entertainment and an event manager coordinating the day.',
+    bestFor: 'Corporate days, speeches, and anyone who does not want to run the event themselves.',
   },
 ]
 
@@ -281,6 +300,8 @@ export const YACHT_MARINAS: readonly { name: string; href: string | null; note: 
 export const YACHT_FORM_STYLES: readonly { id: YachtFormStyleId; label: string }[] = [
   { id: 'not-sure', label: 'Not sure yet' },
   { id: 'full-service', label: 'Full-service yacht event' },
+  { id: 'luxury', label: 'Luxury yacht experience' },
+  { id: 'event-management', label: 'Full yacht event management' },
   { id: 'catering-service', label: 'Catering + service' },
   { id: 'delivery', label: 'Catering delivery' },
   { id: 'private-chef', label: 'Private chef' },

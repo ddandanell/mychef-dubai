@@ -13,7 +13,7 @@ export default function YachtServiceLevels({ onSelect }: Props) {
           {YACHT_LEVELS_COPY.h2}
         </h2>
         <p className="font-inter text-body text-gray-600 mb-10 max-w-[52ch]">{YACHT_LEVELS_COPY.intro}</p>
-        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {YACHT_LEVELS.map((level) => (
             <button
               key={level.id}
