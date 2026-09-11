@@ -24,7 +24,7 @@ export const YACHT_INVENTORY_INTRO = {
   label: 'The full hospitality brief',
   h2: 'One team for the entire yacht hospitality experience',
   body:
-    'Food is only the start. A serious yacht day also needs chefs, waiters, bartenders, live stations, glassware, setup, marina loading and someone coordinating with the crew. We build the brief from what the day actually needs — not from a tray and a hope. Menus and staffing below are what we write into yacht proposals. Your written proposal names the dishes, the team and the price.',
+    'Food is only the start. A serious yacht day also needs chefs, waiters, bartenders, live stations, glassware, setup, marina loading and someone coordinating with the yacht operator. We build the brief from what the day actually needs — not from a tray and a hope. Menus and staffing below are what we write into yacht proposals. The written proposal names the dishes, the team and the price.',
 } as const
 
 export const YACHT_INVENTORY_PILLARS: readonly { href: string; title: string; line: string }[] = [
@@ -36,7 +36,7 @@ export const YACHT_INVENTORY_PILLARS: readonly { href: string; title: string; li
   { href: '#yacht-styling', title: 'Event styling', line: 'Buffet décor, candles, yacht-safe florals' },
   { href: '#yacht-logistics', title: 'Logistics & setup', line: 'Cold chain, marina load, waste, clear-down' },
   { href: '#yacht-entertainment', title: 'Entertainment', line: 'Optional DJ and sound, if the yacht allows' },
-  { href: '#yacht-management', title: 'Event management', line: 'Timeline, crew, speeches, boarding' },
+  { href: '#yacht-management', title: 'Event management', line: 'Timeline, operator, speeches, boarding' },
 ]
 
 export const YACHT_INVENTORY: readonly YachtInvSection[] = [
@@ -46,7 +46,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     label: 'How the day is served',
     h2: 'Service formats built for a moving yacht',
     how:
-      'Guests do not sit still. They move from the aft lounge to the upper deck to the salon. We design the food around that: passed canapés while people arrive, a welcome hour, buffet or bowls once they settle, live stations where the deck allows it, seated-optional dining if a smaller group wants a table. We can pause service for a CEO speech and restart without the room going cold. Corporate yacht catering, private yacht catering and VIP days use the same operating model — different staffing, same coordination with the crew.',
+      'Guests do not sit still. They move from the aft lounge to the upper deck to the salon. We design the food around that: passed canapés while people arrive, a welcome hour, buffet or bowls once they settle, live stations where the deck allows it, seated-optional dining if a smaller group wants a table. We can pause service for a CEO speech and restart without the room going cold. Corporate yacht catering, private yacht catering and VIP days use the same operating model — different staffing, same coordination with the yacht operator.',
     image: '/images/yacht-inv-canapes.webp',
     imageAlt: 'Waiter passing canapés in a yacht salon. Experience concept shown.',
     groups: [
@@ -216,7 +216,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     label: 'Bowl food and lounge',
     h2: 'Bowl food when a formal table will not fit',
     how:
-      'On a yacht, a low lounge table often works better than a long seated dinner. Bowl food is a proper course in a vessel you can hold — short rib, seabass, tagine, risotto, orzo — served by waiters while guests stay in conversation. Vegetarian and vegan bowls are part of the same format, not an afterthought.',
+      'On a yacht, a low lounge table often works better than a long seated dinner. Bowl food is a proper course in a bowl you can hold — short rib, seabass, tagine, risotto, orzo — served by waiters while guests stay in conversation. Vegetarian and vegan bowls are part of the same format, not an afterthought.',
     image: '/images/yacht-inv-lounge.webp',
     imageAlt: 'Waiters serving bowl food in a yacht lounge. Experience concept shown.',
     groups: [
@@ -344,8 +344,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
       {
         heading: 'Support',
         items: [
-          'Logistics and setup crew',
-          'Breakdown crew and equipment handlers',
+          'Logistics and setup team',
+          'Breakdown team and equipment handlers',
           'Waste-removal staff',
           'Cold-chain / refrigeration support',
         ],
@@ -358,7 +358,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     label: 'Running the day',
     h2: 'Someone owns the timeline so you do not have to',
     how:
-      'On larger charters we put an event or service manager on the boat: briefing the team, coordinating boarding with the crew, timing food around a speech, watching guest count, dietaries and the floor plan. That person is the client-facing supervisor. You should not be messaging five suppliers while guests are arriving.',
+      'On larger days we put an event or service manager on the boat: briefing the team, coordinating boarding with the yacht operator, timing food around a speech, watching guest count, dietaries and the floor plan. That person is the client-facing supervisor. You should not be messaging five suppliers while guests are arriving.',
     image: '/images/yacht-inv-coordination.webp',
     imageAlt: 'Event coordinator briefing yacht service team. Experience concept shown.',
     groups: [
@@ -366,7 +366,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
         heading: 'Coordination we handle',
         items: [
           'Service briefing and staff coordination',
-          'Yacht crew and boarding coordination',
+          'Yacht operator and boarding coordination',
           'Service-point and floor-plan planning',
           'Event timeline and food-service timing',
           'CEO speech / service-pause coordination',
@@ -374,7 +374,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
           'Vendor, rental and beverage coordination',
           'Final guest-count and dietary coordination',
           'Marina logistics and disembarkation',
-          'Yacht safety briefing with the crew',
+          'Safety briefing with the yacht operator',
         ],
       },
     ],
@@ -443,7 +443,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     label: 'Getting it onboard',
     h2: 'Marina loading is part of the service, not an extra you invent on the day',
     how:
-      'Food, equipment and staff load in the captain’s window. Cold chain, ice, chillers and waste removal are planned before the van leaves. We set up, run the service, break down and take the kit off. End-of-event clearance is on the crew’s timing. We follow the boat — Dubai Marina, Dubai Harbour, Palm Jumeirah, JBR, and other berths when the vessel is there.',
+      'Food, equipment and staff load in the captain’s window. Cold chain, ice, chillers and waste removal are planned before the van leaves. We set up, run the service, break down and take the kit off. End-of-event clearance is on the captain’s timing. We follow the boat — Dubai Marina, Dubai Harbour, Palm Jumeirah, JBR, and other berths when it is there.',
     image: '/images/yacht-inv-loading.webp',
     imageAlt: 'Catering team loading cold boxes onto a yacht at a Dubai marina. Experience concept shown.',
     groups: [
@@ -516,7 +516,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     label: 'Corporate yacht days',
     h2: 'Corporate charters, speeches and client entertaining',
     how:
-      'The Harbour example was a 113-guest corporate day. That is not a birthday with extra canapés. It needs timed service, dietary management, a pause for a speech, enough waiters to keep 100 people looked after, and a manager who talks to the crew. We also run smaller executive dinners, networking receptions, staff celebrations and spouse-inclusive days. Branded menu signage is available. The food still has to work on a moving deck.',
+      'The Harbour example was a 113-guest corporate day. That is not a birthday with extra canapés. It needs timed service, dietary management, a pause for a speech, enough waiters to keep 100 people looked after, and a manager who talks to the yacht operator. We also run smaller executive dinners, networking receptions, staff celebrations and spouse-inclusive days. Branded menu signage is available. The food still has to work on a moving deck.',
     image: '/images/yacht-inv-coordination.webp',
     imageAlt: 'Service briefing before a corporate yacht event. Experience concept shown.',
     groups: [

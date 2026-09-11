@@ -137,7 +137,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Do you provide the yacht?',
-    a: 'No. You book or own the yacht. We handle the food, chefs, waiters, setup, service, marina loading and clear-down.',
+    a: 'No. We do not supply the yacht. You rent or book it. We do the catering — food, chefs, waiters, setup, service, marina loading and clear-down.',
   },
   {
     q: 'Can you cook onboard?',
@@ -145,7 +145,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Can you provide a private chef?',
-    a: 'Yes. Your chef handles the meal while you stay with your guests. That is a charter-day brief — one day or evening on the water — not a standing household plan.',
+    a: 'Yes. A chef handles the meal while you stay with your guests. That is a party on the water for a day or evening — not a standing household plan.',
   },
   {
     q: 'Can you provide waiters?',
@@ -161,7 +161,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Can you cater a yacht birthday?',
-    a: 'Yes. Birthdays, corporate charters, proposals, family days and client entertaining use the same product: food, chefs, waiters and service on a vessel you charter.',
+    a: 'Yes. Birthdays, corporate days, proposals, family gatherings and client entertaining use the same product: food, chefs, waiters and service on the yacht.',
   },
   {
     q: 'Which Dubai marinas do you serve?',
@@ -181,7 +181,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'What happens if the yacht galley is small?',
-    a: 'We design the menu around the fridge, oven and deck you actually have, so the food works onboard rather than only looking good on paper.',
+    a: 'We design the menu around the fridge, oven and deck on that yacht, so the food works onboard rather than only looking good on paper.',
   },
   {
     q: 'Is there a minimum number of guests?',
@@ -201,7 +201,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Do you provide an event manager?',
-    a: 'On larger charters, yes — an event or service manager briefs the team, coordinates boarding with the crew, times food around a speech and owns the floor plan. Smaller days may not need a separate manager; the written proposal says who is onboard.',
+    a: 'On larger days, yes — an event or service manager briefs the team, coordinates boarding with the yacht operator, times food around a speech and owns the floor plan. Smaller days may not need a separate manager; the written proposal says who is onboard.',
   },
   {
     q: 'Which live stations can you run on a yacht?',

@@ -11,19 +11,19 @@ import {
 export const YACHT_SEO = {
   title: 'Yacht Catering Dubai | Private Chef & Catering | myCHEF',
   description:
-    'Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.',
+    'Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You rent the yacht. Tell us the date, marina and guest count.',
   h1: 'Yacht Catering Dubai',
   ogTitle: 'Yacht Catering Dubai | Private Chef & Catering',
 } as const
 
 export const YACHT_POSITIONING =
-  'You book the yacht. We handle the food, chefs, waiters and onboard service.' as const
+  'Have the party on the water. We do the food, chefs, waiters and onboard service.' as const
 
 export const YACHT_HERO = {
   eyebrow: 'Private chef & full-service yacht catering',
   h1: YACHT_SEO.h1,
   support:
-    'Yacht catering Dubai is the complete food and service experience onboard a vessel you already have. Choose delivered catering, canapés, a private chef, buffet, a live station or a fully staffed yacht event. We coordinate loading, setup, service and clear-down with your crew.',
+    'Yacht catering Dubai is food, chefs, waiters and onboard service for a party on a yacht. You rent the boat. We handle the menu, marina loading, service and clear-down, and we coordinate with the yacht operator.',
   priceLine: `Recent yacht catering menus from ${formatYachtAed(YACHT_MENU_FORMATS[1].perGuestAed)} per guest*`,
   priceNote:
     '*From a 113-guest corporate charter at Dubai Harbour. Pricing varies by guest count, menu, staffing and vessel.',
@@ -110,7 +110,7 @@ export const YACHT_LEVELS: readonly {
   {
     id: 'delivery',
     title: 'Catering delivery',
-    line: 'Food prepared and delivered for your charter, with basic setup if the brief needs it.',
+    line: 'Food prepared and delivered for the yacht day, with basic setup if the brief needs it.',
     bestFor: 'Simple yacht days and smaller groups.',
   },
   {
@@ -137,7 +137,7 @@ export const YACHT_SERVICES: readonly {
   {
     id: 'private-chef',
     title: 'Private chef',
-    line: 'Your chef handles the meal while you stay with your guests. The menu is built around galley, timing and guest count.',
+    line: 'A chef handles the meal while you stay with your guests. The menu is built around galley, timing and guest count.',
     image: '/images/private-chef-dubai-yacht.webp',
     imageAlt: 'Chef plating onboard a Dubai yacht. Experience concept shown.',
   },
@@ -218,14 +218,14 @@ export const YACHT_FORM_COPY = {
 export const YACHT_TRUST = [
   {
     title: 'Vetted chefs',
-    body: 'Identity, right-to-work, skill and references are checked before anyone cooks on your charter.',
+    body: 'Identity, right-to-work, skill and references are checked before anyone cooks onboard.',
   },
   {
     title: 'Waiters from the headcount',
     body: 'Service staff are set in the written proposal from guest count and format — not left for you to guess on the day.',
   },
   {
-    title: 'Menus for the yacht you have',
+    title: 'Menus for the yacht',
     body: 'We design the menu around the galley, route and hours, so the food works onboard rather than only looking good on paper.',
   },
   {
@@ -253,7 +253,7 @@ export const YACHT_TRUST = [
 export const YACHT_OPERATIONS = [
   {
     title: 'Galley',
-    body: 'We plan around actual fridge, oven and preparation space — usually smaller than a villa kitchen, and often already holding crew food.',
+    body: 'We plan around actual fridge, oven and preparation space — usually smaller than a villa kitchen, and often already holding the operator’s stores.',
   },
   {
     title: 'Loading',

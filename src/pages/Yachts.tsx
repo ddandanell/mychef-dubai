@@ -78,7 +78,7 @@ const schema = {
       name: 'Yacht Catering Dubai',
       serviceType: 'Yacht Catering',
       description:
-        'Yacht catering Dubai: food, chefs, waiters and onboard service on a vessel you charter separately. Loading, setup, service and clear-down with your crew.',
+        'Yacht catering Dubai: food, chefs, waiters and onboard service for a party on a yacht you rent. Loading, setup, service and clear-down, coordinated with the yacht operator.',
       url: 'https://www.mychef.ae/yachts',
       provider: { '@id': 'https://www.mychef.ae/#organization' },
       areaServed: { '@type': 'City', name: 'Dubai' },
@@ -275,7 +275,7 @@ export default function Yachts() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>On the water</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-4">We coordinate around your yacht</DisplayHeading>
+          <DisplayHeading className="text-[#1B2A4A] mb-4">We coordinate around the yacht</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[62ch]">
             Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on
             the day. We use them to take worry off you, not to brief you like a supplier.
@@ -357,7 +357,7 @@ export default function Yachts() {
         <Container className="max-w-3xl">
           <SectionLabel>Book the food, not the boat</SectionLabel>
           <DisplayHeading className="text-[#1B2A4A] mb-6">
-            You book the yacht. We handle everything connected to eating and drinking.
+            Have the party on the water. We handle everything connected to eating and drinking.
           </DisplayHeading>
           <p className="font-inter text-body text-gray-600 leading-relaxed mb-8 max-w-[58ch]">
             Send the date, marina and guest count. We will help you build the rest.
