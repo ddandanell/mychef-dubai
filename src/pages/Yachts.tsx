@@ -10,9 +10,11 @@ import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import FaqAccordion from '../components/FaqAccordion'
 import YachtCateringEstimator from '../components/YachtCateringEstimator'
+import YachtFullService from '../components/yachts/YachtFullService'
 import YachtHero from '../components/yachts/YachtHero'
 import YachtOccasions from '../components/yachts/YachtOccasions'
 import YachtQuoteForm, { type YachtQuotePrefill } from '../components/yachts/YachtQuoteForm'
+import YachtServiceLevels from '../components/yachts/YachtServiceLevels'
 import YachtServiceSelector from '../components/yachts/YachtServiceSelector'
 import YachtStickyCta from '../components/yachts/YachtStickyCta'
 import {
@@ -21,7 +23,6 @@ import {
   SectionLabel,
   DisplayHeading,
   BodyCopy,
-  SequenceRail,
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -41,14 +42,17 @@ import {
   type YachtFormatId,
 } from '@/content/yachtCateringQuote'
 import {
+  YACHT_ESTIMATE_COPY,
+  YACHT_FORM_COPY,
   YACHT_HOW,
   YACHT_MARINAS,
   YACHT_OPERATIONS,
-  YACHT_POSITIONING,
+  YACHT_PROOF_COPY,
   YACHT_SEO,
   YACHT_SIBLINGS,
   YACHT_TRUST,
   YACHT_WHATSAPP_BASE,
+  type YachtFormStyleId,
   type YachtServiceId,
 } from '@/content/yachtPage'
 
@@ -73,7 +77,7 @@ const schema = {
       name: 'Yacht Catering Dubai',
       serviceType: 'Yacht Catering',
       description:
-        'Yacht catering Dubai with a myCHEF chef and service team. Menus, marina loading, galley service and clear-down on a vessel you charter separately.',
+        'Yacht catering Dubai: food, chefs, waiters and onboard service on a vessel you charter separately. Loading, setup, service and clear-down with your crew.',
       url: 'https://www.mychef.ae/yachts',
       provider: { '@id': 'https://www.mychef.ae/#organization' },
       areaServed: { '@type': 'City', name: 'Dubai' },
@@ -96,8 +100,17 @@ export default function Yachts() {
 
   const goQuote = (next?: YachtQuotePrefill) => {
     if (next) setPrefill((current) => ({ ...current, ...next }))
-    document.getElementById('yacht-quote')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    document.getElementById('yacht-quote')?.scrollIntoView({
+      behavior: reduceMotion ? 'auto' : 'smooth',
+      block: 'start',
+    })
+    window.requestAnimationFrame(() => {
+      document.getElementById('yacht-quote-style')?.focus()
+    })
   }
+
+  const goQuoteStyle = (style: YachtFormStyleId) => goQuote({ style })
 
   const onEstimate = (estimate: YachtEstimate) => {
     goQuote({
@@ -121,20 +134,19 @@ export default function Yachts() {
 
       <YachtHero image={HERO} quoteHref="#yacht-quote" whatsappHref={WHATSAPP_LINK} />
 
+      <YachtFullService />
+      <YachtServiceLevels onSelect={goQuoteStyle} />
       <YachtServiceSelector onSelect={(id) => goQuote({ style: id })} />
-      <YachtOccasions />
+      <YachtOccasions onSelect={(occasion) => goQuote({ occasion })} />
 
       <Section tone="white" rhythm="chapter">
         <Container>
-          <SectionLabel>Real Dubai charter</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-3">A 113-guest day at Dubai Harbour</DisplayHeading>
-          <BodyCopy className="mb-4 max-w-[62ch]">
-            {YACHT_QUOTE_EXAMPLE_GUESTS} guests · 4 hours · Dubai Harbour · corporate event. Client identity stays private.
-            Three menus were priced for the same day. These are not a general starting price for a smaller birthday.
-          </BodyCopy>
+          <SectionLabel>{YACHT_PROOF_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-3">{YACHT_PROOF_COPY.h2}</DisplayHeading>
+          <BodyCopy className="mb-4 max-w-[62ch]">{YACHT_PROOF_COPY.intro}</BodyCopy>
           <p className="font-inter text-body-sm text-gray-600 mb-10 max-w-[62ch]">
-            Yacht catering Dubai is quoted from the vessel, the headcount and the hours — a yacht chef Dubai brief for ten
-            people is not the same slip as this 113-guest day.
+            Your price depends on guest count, menu, format, chefs, waiters, hours, marina, yacht facilities and optional
+            bar service. This Dubai Harbour charter shows what a large, fully staffed day can look like in writing.
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             {YACHT_MENU_FORMATS.map((format) => (
@@ -195,35 +207,26 @@ export default function Yachts() {
 
       <Section id="estimate" tone="ivory" rhythm="chapter">
         <Container>
-          <SectionLabel>Estimate</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-3">Estimate your yacht catering</DisplayHeading>
-          <BodyCopy className="mb-10 max-w-[58ch]">
-            Choose your guest count and menu style for an indicative estimate. Rates come from the 113-guest Dubai Harbour
-            charter. Get This Quote copies the numbers into the form below.
-          </BodyCopy>
+          <SectionLabel>{YACHT_ESTIMATE_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-3">{YACHT_ESTIMATE_COPY.h2}</DisplayHeading>
+          <BodyCopy className="mb-10 max-w-[58ch]">{YACHT_ESTIMATE_COPY.intro}</BodyCopy>
           <YachtCateringEstimator onRequestQuote={onEstimate} />
         </Container>
       </Section>
 
       <Section id="yacht-quote" tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>Quote</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-4">Tell us the charter</DisplayHeading>
-          <BodyCopy className="mb-8">
-            Date, marina and guest count is enough. You do not need a finished menu. Yacht catering packages Dubai are
-            written proposals, not brochure deals.
-          </BodyCopy>
-          <YachtQuoteForm
-            key={`${prefill.style || ''}-${prefill.guests || ''}-${prefill.estimate || ''}`}
-            prefill={prefill}
-          />
+          <SectionLabel>{YACHT_FORM_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-4">{YACHT_FORM_COPY.h2}</DisplayHeading>
+          <BodyCopy className="mb-8">{YACHT_FORM_COPY.intro}</BodyCopy>
+          <YachtQuoteForm prefill={prefill} />
         </Container>
       </Section>
 
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>Why hosts use myCHEF on the water</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">{YACHT_POSITIONING}</DisplayHeading>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">Food, chefs, waiters and service — written before anyone loads</DisplayHeading>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {YACHT_TRUST.map((item) => (
               <article key={item.title}>
@@ -242,11 +245,19 @@ export default function Yachts() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>How it works</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">How yacht catering Dubai is planned</DisplayHeading>
-          <SequenceRail steps={[...YACHT_HOW]} />
+          <DisplayHeading className="text-[#1B2A4A] mb-10">Four steps from brief to clear-down</DisplayHeading>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {YACHT_HOW.map((step, index) => (
+              <article key={step.title}>
+                <p className="font-playfair text-h4 text-gold-ink mb-3">{String(index + 1).padStart(2, '0')}</p>
+                <h3 className="font-playfair text-h4 text-[#1B2A4A] mb-2">{step.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{step.body}</p>
+              </article>
+            ))}
+          </div>
           <BodyCopy className="mt-12 max-w-[62ch]">
-            A private chef yacht Dubai day is still one charter, not a household plan. If you want the same chef in a
-            home, week after week, that is{' '}
+            A private chef yacht Dubai day is a charter, not a household plan. If you want the same chef at home, week
+            after week, that is{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef Dubai
             </Link>
@@ -262,7 +273,11 @@ export default function Yachts() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>On the water</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Built around the yacht, not a restaurant kitchen</DisplayHeading>
+          <DisplayHeading className="text-[#1B2A4A] mb-4">We coordinate around your yacht</DisplayHeading>
+          <BodyCopy className="mb-10 max-w-[62ch]">
+            Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on
+            the day. We use them to take worry off you, not to brief you like a supplier.
+          </BodyCopy>
           <div className="grid sm:grid-cols-2 gap-10">
             {YACHT_OPERATIONS.map((item) => (
               <article key={item.title}>
@@ -271,11 +286,6 @@ export default function Yachts() {
               </article>
             ))}
           </div>
-          <BodyCopy className="mt-12 max-w-[62ch]">
-            Small yacht catering Dubai and a yacht dinner cruise Dubai use the same rules: the galley, the loading window
-            and the hours you have the vessel. Food to bring on a yacht party is planned against that, not against a
-            restaurant pass. New year yacht catering Dubai is still a charter-day brief.
-          </BodyCopy>
         </Container>
       </Section>
 
@@ -284,8 +294,7 @@ export default function Yachts() {
           <SectionLabel>Boarding</SectionLabel>
           <DisplayHeading className="text-[#1B2A4A] mb-4">Marinas we load from</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[62ch]">
-            Yacht catering Dubai Harbour is one example — we follow the boat. Most charters we cook for board at Dubai
-            Marina, the Harbour, Palm Jumeirah or JBR.
+            We follow the boat. Most charters we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR.
           </BodyCopy>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {YACHT_MARINAS.map((marina) => {
@@ -337,7 +346,7 @@ export default function Yachts() {
       <Section id="yacht-faqs" tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>Questions</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Before you send the brief</DisplayHeading>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">Questions hosts ask before they book</DisplayHeading>
           <FaqAccordion items={[...YACHT_FAQS]} />
         </Container>
       </Section>
@@ -346,10 +355,10 @@ export default function Yachts() {
         <Container className="max-w-3xl">
           <SectionLabel>Book the food, not the boat</SectionLabel>
           <DisplayHeading className="text-[#1B2A4A] mb-6">
-            Tell us your date, marina and guest count. We will build the menu around the yacht.
+            You book the yacht. We handle everything connected to eating and drinking.
           </DisplayHeading>
           <p className="font-inter text-body text-gray-600 leading-relaxed mb-8 max-w-[58ch]">
-            Boat catering Dubai is the same job: food planned for a moving deck, on a vessel you already have.
+            Send the date, marina and guest count. We will help you build the rest.
           </p>
           <CTAGroup>
             <a href="#yacht-quote" className="btn-primary">

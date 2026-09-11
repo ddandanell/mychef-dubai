@@ -25,7 +25,7 @@ export default function YachtStickyCta({ quoteHref, whatsappHref }: Props) {
     >
       <div className="container-custom flex gap-2 py-2">
         <a href={quoteHref} className="btn-primary flex-1 text-center !py-3 text-sm" data-placement="sticky">
-          Get Quote
+          Get a Quote
         </a>
         <a
           href={whatsappHref}

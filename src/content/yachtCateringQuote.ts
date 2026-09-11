@@ -137,19 +137,19 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Do you provide the yacht?',
-    a: 'No. You charter the yacht. We do the food, the chef, the service, marina loading and clear-down.',
+    a: 'No. You book or own the yacht. We handle the food, chefs, waiters, setup, service, marina loading and clear-down.',
   },
   {
     q: 'Can you cook onboard?',
-    a: 'Yes, inside what the galley and the captain allow. Fridge space, oven space and a moving deck decide more than a restaurant menu. Some work is finished on land and loaded in the captain’s window.',
+    a: 'Yes, where the yacht facilities and operator permit it. Some work is finished on land and loaded in the captain’s window so the galley is not asked to do a restaurant’s job.',
   },
   {
     q: 'Can you provide a private chef?',
-    a: 'Yes. A yacht chef is a charter-day brief: one day or evening on the water, not a standing household plan.',
+    a: 'Yes. Your chef handles the meal while you stay with your guests. That is a charter-day brief — one day or evening on the water — not a standing household plan.',
   },
   {
     q: 'Can you provide waiters?',
-    a: 'Yes. The 113-guest examples name the waiters included in those quotes. Your written proposal sets the team for your headcount — it is not copied from a 113-guest day onto a table of ten.',
+    a: 'Yes. Waiters can handle welcome service, canapés, buffet, table service, drinks where booked, clearing and guest support. The 113-guest examples name the waiters included in those quotes. Your written proposal sets the team for your headcount.',
   },
   {
     q: 'Can you provide a bartender?',
@@ -161,7 +161,7 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Can you cater a yacht birthday?',
-    a: 'Yes. Birthdays, corporate days, proposals, family celebrations and client entertaining are the same product: food and service on a vessel you charter.',
+    a: 'Yes. Birthdays, corporate charters, proposals, family days and client entertaining use the same product: food, chefs, waiters and service on a vessel you charter.',
   },
   {
     q: 'Which Dubai marinas do you serve?',
@@ -177,11 +177,11 @@ export const YACHT_FAQS = [
   },
   {
     q: 'What information do you need for a quote?',
-    a: 'Charter date, guest count, boarding marina, and how you want to eat — chef, canapés, buffet, grill or seated dinner. Yacht name or size helps. You do not need a finished menu.',
+    a: 'Date, marina, guest count and the kind of day. How you want to eat helps — delivery, chef, canapés, buffet, grill or seated dinner. Yacht name or size helps. You do not need a finished menu.',
   },
   {
     q: 'What happens if the yacht galley is small?',
-    a: 'The menu shrinks to what the fridge, oven and deck can actually support. That is the point of the brief, not a surprise on the day.',
+    a: 'We design the menu around the fridge, oven and deck you actually have, so the food works onboard rather than only looking good on paper.',
   },
   {
     q: 'Is there a minimum number of guests?',
@@ -190,6 +190,14 @@ export const YACHT_FAQS = [
   {
     q: 'What happens if the sea is rough?',
     a: 'Buffet setups are adjusted or elevated displays removed for safety. The captain’s call beats the table plan.',
+  },
+  {
+    q: 'Do you provide plates, glasses and cutlery?',
+    a: 'Where the proposal includes them, yes — glassware, plates, cutlery and napkins. Setup is part of the service plan, not a separate hunt for suppliers.',
+  },
+  {
+    q: 'Do you clear everything after service?',
+    a: 'Yes. Galley and service areas are cleared according to the agreed plan and the captain’s timing.',
   },
 ] as const
 

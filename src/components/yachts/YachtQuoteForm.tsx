@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import { trackConversion } from '@/lib/track'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
-import { YACHT_FORM_STYLES, yachtQuoteWhatsApp, type YachtServiceId } from '@/content/yachtPage'
+import { YACHT_GUEST_MAX, YACHT_GUEST_MIN } from '@/content/yachtCateringQuote'
+import { YACHT_FORM_STYLES, YACHT_OCCASIONS, yachtQuoteWhatsApp, type YachtFormStyleId } from '@/content/yachtPage'
 
 export type YachtQuotePrefill = {
-  style?: YachtServiceId | 'not-sure' | ''
+  style?: YachtFormStyleId | ''
   guests?: string
   estimate?: string
+  occasion?: string
+}
+
+function isYachtFormStyleId(value: string): value is YachtFormStyleId {
+  return YACHT_FORM_STYLES.some((item) => item.id === value)
 }
 
 type Props = {
@@ -22,15 +28,44 @@ export default function YachtQuoteForm({ prefill }: Props) {
     date: '',
     guests: prefill.guests || '',
     marina: '',
-    style: (prefill.style || 'not-sure') as string,
+    occasion: prefill.occasion || '',
+    style: (prefill.style || 'not-sure') as YachtFormStyleId,
     yacht: '',
     name: '',
     phone: '',
     email: '',
   })
+  const [appliedPrefill, setAppliedPrefill] = useState({
+    style: prefill.style || '',
+    guests: prefill.guests || '',
+    occasion: prefill.occasion || '',
+  })
+  if (
+    (prefill.style || '') !== appliedPrefill.style ||
+    (prefill.guests || '') !== appliedPrefill.guests ||
+    (prefill.occasion || '') !== appliedPrefill.occasion
+  ) {
+    setAppliedPrefill({
+      style: prefill.style || '',
+      guests: prefill.guests || '',
+      occasion: prefill.occasion || '',
+    })
+    setFields((current) => ({
+      ...current,
+      ...(prefill.style ? { style: prefill.style } : {}),
+      ...(prefill.guests ? { guests: prefill.guests } : {}),
+      ...(prefill.occasion ? { occasion: prefill.occasion } : {}),
+    }))
+  }
 
-  const update = (key: keyof typeof fields) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const update = (key: Exclude<keyof typeof fields, 'style'>) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     setFields((current) => ({ ...current, [key]: e.target.value }))
+  }
+
+  const updateStyle = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const style = e.target.value
+    if (!isYachtFormStyleId(style)) return
+    setFields((current) => ({ ...current, style }))
   }
 
   const styleLabel = YACHT_FORM_STYLES.find((item) => item.id === fields.style)?.label || fields.style
@@ -40,6 +75,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
       date: fields.date,
       guests: fields.guests,
       marina: fields.marina,
+      occasion: fields.occasion,
       style: styleLabel,
       yacht: fields.yacht,
       estimate: prefill.estimate,
@@ -55,6 +91,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
       `Date: ${fields.date}`,
       `Guests: ${fields.guests}`,
       `Marina: ${fields.marina}`,
+      fields.occasion ? `Occasion: ${fields.occasion}` : '',
       `Service style: ${styleLabel}`,
       fields.yacht ? `Yacht: ${fields.yacht}` : '',
       prefill.estimate ? `Indicative estimate: ${prefill.estimate}` : '',
@@ -92,8 +129,10 @@ export default function YachtQuoteForm({ prefill }: Props) {
 
   if (status === 'sent') {
     return (
-      <div className="border border-gold/40 bg-white p-8">
-        <p className="font-playfair text-h3 text-[#1B2A4A] mb-2">Brief received.</p>
+      <div className="border border-gold/40 bg-white p-8" role="status">
+        <p tabIndex={-1} className="font-playfair text-h3 text-[#1B2A4A] mb-2">
+          Brief received.
+        </p>
         <p className="font-inter text-body text-gray-600 leading-relaxed">
           A coordinator reads it and comes back with a written proposal — typically within 15 minutes during business hours.
         </p>
@@ -112,8 +151,8 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <input
           required
           type="number"
-          min={2}
-          max={200}
+          min={YACHT_GUEST_MIN}
+          max={YACHT_GUEST_MAX}
           className={field}
           value={fields.guests}
           onChange={update('guests')}
@@ -132,8 +171,27 @@ export default function YachtQuoteForm({ prefill }: Props) {
         />
       </label>
       <label className="block">
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">
+          Type of event (optional)
+        </span>
+        <select className={field} value={fields.occasion} onChange={update('occasion')}>
+          <option value="">Not sure yet</option>
+          {YACHT_OCCASIONS.map((item) => (
+            <option key={item} value={item}>
+              {item}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Service style</span>
-        <select required className={field} value={fields.style} onChange={update('style')}>
+        <select
+          id="yacht-quote-style"
+          required
+          className={field}
+          value={fields.style}
+          onChange={updateStyle}
+        >
           {YACHT_FORM_STYLES.map((item) => (
             <option key={item.id} value={item.id}>
               {item.label}
@@ -141,7 +199,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
           ))}
         </select>
       </label>
-      <label className="block">
+      <label className="block sm:col-span-2">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">
           Yacht name or size (optional)
         </span>
@@ -178,7 +236,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
         </a>
       </div>
       {status === 'error' ? (
-        <p className="sm:col-span-2 font-inter text-body-sm text-red-700">
+        <p className="sm:col-span-2 font-inter text-body-sm text-red-700" role="alert">
           We could not send that just now. Use WhatsApp — the brief is already in the message.
         </p>
       ) : null}

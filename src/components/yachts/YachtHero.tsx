@@ -26,7 +26,9 @@ export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
                 </Link>
               </li>
               <li aria-hidden>/</li>
-              <li className="text-gray-800">Yacht catering</li>
+              <li className="text-gray-800" aria-current="page">
+                Yacht catering
+              </li>
             </ol>
           </nav>
           <p className="font-inter text-caption uppercase tracking-[0.16em] text-gold-ink mb-4">{YACHT_HERO.eyebrow}</p>
@@ -51,6 +53,7 @@ export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
               {YACHT_HERO.secondaryCta}
             </a>
           </div>
+          <p className="font-inter text-body-sm text-gray-700 mb-2">{YACHT_HERO.micro}</p>
           <p className="font-inter text-body-sm text-gray-600 mb-6">{YACHT_HERO.reply}</p>
           <ul className="flex flex-wrap gap-x-4 gap-y-2 font-inter text-caption uppercase tracking-[0.1em] text-gray-600">
             {YACHT_HERO.trust.map((item) => (
