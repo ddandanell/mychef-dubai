@@ -72,7 +72,7 @@ export function placementFromElement(el: HTMLElement): TrackLabel {
 }
 
 export function formLabel(formId: string): TrackLabel {
-  if (formId === 'inquiry-form') return 'inquiry_form'
+  if (formId === 'inquiry-form' || formId === 'yacht-quote-form') return 'inquiry_form'
   if (formId === 'contact-form') return 'contact_form'
   if (formId === 'lead-magnet-form') return 'lead_magnet'
   return 'lead_form'

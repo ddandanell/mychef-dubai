@@ -13,10 +13,10 @@ export const OVERTIME_PER_SERVER_PER_HOUR_AED = 240
 export const YACHT_QUOTE_EXAMPLE_GUESTS = 113
 
 export const YACHT_PRICING_DISCLAIMER =
-  'Indicative only, based on a real 113-guest corporate charter. Every event is quoted in writing from your date, marina, guest count and format.'
+  'These figures are from one 113-guest, four-hour corporate charter at Dubai Harbour. They are not a menu for a table of ten. Staffing in that quote is named on each menu. Extra hours and bartenders are extras. Your written proposal is the only offer.'
 
 export const YACHT_ESTIMATE_DISCLAIMER =
-  'Indicative estimate, based on real pricing from a 113-guest corporate charter. Smaller groups can price differently per head. Your written proposal is the only number that counts — it is valid for one month.'
+  'Indicative estimate using per-guest rates from a 113-guest corporate charter. Smaller groups can price differently per head, and the team is set in writing for your headcount. The written proposal is the only number that counts — valid for one month.'
 
 export type YachtFormatId = 'canape' | 'buffet' | 'canape-live'
 export type YachtExtraGroup = 'bartender' | 'ice'
@@ -36,7 +36,8 @@ export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
     id: 'canape',
     name: 'Premium Canapé Reception',
     perGuestAed: 170,
-    includes: 'Choice of 12 canapés from a 40+ item list, 5 desserts, soft drinks, water, mocktails, 5–6 waiters',
+    includes:
+      'Choice of 12 canapés from a 40+ item list, 5 desserts, soft drinks, water, mocktails. This 113-guest quote included 5–6 waiters.',
     quotedTotalInclVat113: 20218,
     includesLiveStationChefs: false,
   },
@@ -44,7 +45,8 @@ export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
     id: 'buffet',
     name: 'International Premium Buffet',
     perGuestAed: 162,
-    includes: '3 salads, 3 appetizers, 6 main courses, sides, 4 desserts, beverages, 4 waiters',
+    includes:
+      '3 salads, 3 appetizers, 6 main courses, sides, 4 desserts, beverages. This 113-guest quote included 4 waiters.',
     quotedTotalInclVat113: 19221,
     includesLiveStationChefs: false,
   },
@@ -52,7 +54,8 @@ export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
     id: 'canape-live',
     name: 'Canapés + Live Station',
     perGuestAed: 258,
-    includes: 'Full canapé menu, plus one live station (Chicken Shawarma / Mexican / Pasta / Burger), cooked by 2 station chefs',
+    includes:
+      'Full canapé menu, plus one live station (Chicken Shawarma / Mexican / Pasta / Burger). Two station chefs were a separate AED 720 line on this quote.',
     quotedTotalInclVat113: 31368,
     includesLiveStationChefs: true,
   },
@@ -85,7 +88,9 @@ export const YACHT_EXTRAS: readonly {
 ] as const
 
 export const YACHT_INCLUDED = [
-  'The chef and the staff the headcount needs',
+  'Food for the format you book',
+  'The chef team the proposal names',
+  'Waiters listed on that proposal — the 113-guest examples name the number',
   'Glassware, plates, cutlery, napkins',
   'Buffet setup with dish name tags, or pass-around service',
   'Transport and marina loading in the captain’s window',
@@ -127,24 +132,64 @@ export const YACHT_BOOKING_TERMS = [
 
 export const YACHT_FAQS = [
   {
-    q: 'How much does yacht catering in Dubai cost per person?',
-    a: 'Recent menus have run AED 162–258 per guest depending on format — canapé reception, full buffet, or live stations — plus staff, extras and 5% VAT. Every charter is quoted in writing.',
+    q: 'How much does yacht catering in Dubai cost?',
+    a: 'On a 113-guest corporate charter at Dubai Harbour, menus ran AED 162, 170 and 258 per guest. Those example totals include 5% VAT. The canapé example listed 5–6 waiters; the buffet listed 4 waiters; the live-station example added two station chefs at AED 720. Bartenders, extra hours and a different headcount are quoted separately. Every charter is written from your date, marina, guest count and format.',
+  },
+  {
+    q: 'Do you provide the yacht?',
+    a: 'No. You charter the yacht. We do the food, the chef, the service, marina loading and clear-down.',
+  },
+  {
+    q: 'Can you cook onboard?',
+    a: 'Yes, inside what the galley and the captain allow. Fridge space, oven space and a moving deck decide more than a restaurant menu. Some work is finished on land and loaded in the captain’s window.',
+  },
+  {
+    q: 'Can you provide a private chef?',
+    a: 'Yes. A yacht chef is a charter-day brief: one day or evening on the water, not a standing household plan.',
+  },
+  {
+    q: 'Can you provide waiters?',
+    a: 'Yes. The 113-guest examples name the waiters included in those quotes. Your written proposal sets the team for your headcount — it is not copied from a 113-guest day onto a table of ten.',
+  },
+  {
+    q: 'Can you provide a bartender?',
+    a: 'Where the operator allows alcohol, yes. A bartender with a full bar station is AED 1,800; a bartender alone is AED 1,200. That is an extra, not inside the food rate.',
+  },
+  {
+    q: 'Can you arrange BBQ onboard?',
+    a: 'When the vessel and the captain permit a safe patch of deck, yes. If they do not, we do not light a grill.',
+  },
+  {
+    q: 'Can you cater a yacht birthday?',
+    a: 'Yes. Birthdays, corporate days, proposals, family celebrations and client entertaining are the same product: food and service on a vessel you charter.',
+  },
+  {
+    q: 'Which Dubai marinas do you serve?',
+    a: 'Most charters we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR. We also load at Bluewaters or Dubai Creek when the vessel is there and the captain gives a window.',
+  },
+  {
+    q: 'How far in advance should we book?',
+    a: 'Two to four weeks is comfortable. Peak season from November to March, or a large charter, is safer at six to eight weeks. Send the date even if the menu is not finished.',
+  },
+  {
+    q: 'Can you handle dietary requirements?',
+    a: 'Yes. Halal is the default. Allergies and other diets belong in the brief before we write the menu.',
+  },
+  {
+    q: 'What information do you need for a quote?',
+    a: 'Charter date, guest count, boarding marina, and how you want to eat — chef, canapés, buffet, grill or seated dinner. Yacht name or size helps. You do not need a finished menu.',
+  },
+  {
+    q: 'What happens if the yacht galley is small?',
+    a: 'The menu shrinks to what the fridge, oven and deck can actually support. That is the point of the brief, not a surprise on the day.',
   },
   {
     q: 'Is there a minimum number of guests?',
     a: 'Quotes carry a minimum headcount, and the final number is locked 2 days before the event.',
   },
   {
-    q: 'Do you provide the yacht?',
-    a: 'No. You charter the vessel; we handle the food, the chef, the staff, marina loading and clear-down.',
-  },
-  {
-    q: 'Can we have a bar on board?',
-    a: 'Where the operator allows alcohol, yes. A bartender with a full bar station is AED 1,800; a bartender alone is AED 1,200.',
-  },
-  {
     q: 'What happens if the sea is rough?',
-    a: 'Buffet setups are adjusted or elevated displays removed for safety. The menu is planned around the galley and the route from the start.',
+    a: 'Buffet setups are adjusted or elevated displays removed for safety. The captain’s call beats the table plan.',
   },
 ] as const
 
@@ -253,8 +298,27 @@ export function yachtInquiryHref(input: { guests: number; formatId: YachtFormatI
   return `/inquiry?from=yachts&guests=${guests}&format=${format}`
 }
 
-export function yachtWhatsAppMessage(input: { guests: number; formatId: YachtFormatId }): string {
+export function yachtWhatsAppMessage(input: {
+  guests: number
+  formatId: YachtFormatId
+  date?: string
+  marina?: string
+  totalAed?: number
+}): string {
   const guests = clampYachtGuests(input.guests)
   const format = yachtFormatById(input.formatId)
-  return `Hi myCHEF Dubai, I'd like a written yacht catering quote. Guests: ${guests}. Format: ${format.name}. Charter date: __, Marina: __. (via mychef.ae/yachts)`
+  const lines = [
+    'Hi myCHEF, I would like a quote for yacht catering in Dubai.',
+    '',
+    `Date: ${input.date || ''}`,
+    `Guest count: ${guests}`,
+    `Marina: ${input.marina || ''}`,
+    `Service style: ${format.name}`,
+    'Yacht already booked: Yes / No',
+  ]
+  if (typeof input.totalAed === 'number') {
+    lines.push(`Indicative estimate: ${formatYachtAed(input.totalAed)} incl. VAT`)
+  }
+  lines.push('', '(via mychef.ae/yachts)')
+  return lines.join('\n')
 }

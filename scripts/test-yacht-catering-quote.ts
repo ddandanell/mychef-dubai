@@ -6,6 +6,7 @@
 import {
   LIVE_STATION_CHEFS_AED,
   OVERTIME_PER_SERVER_PER_HOUR_AED,
+  YACHT_FAQS,
   YACHT_GUEST_DEFAULT,
   YACHT_GUEST_MAX,
   YACHT_GUEST_MIN,
@@ -68,6 +69,16 @@ const canape113 = estimateYachtCatering({
 eq('canapé 113 food', canape113.food, 113 * 170)
 eq('canapé 113 no live chefs', canape113.liveChefs, 0)
 eq('canapé 113 uses formula not a guessed extra', canape113.total, 113 * 170 + Math.round(113 * 170 * 0.05))
+
+const costFaq = YACHT_FAQS.find((item) => item.q.includes('How much does yacht catering'))
+eq('cost FAQ exists', Boolean(costFaq), true)
+eq(
+  'cost FAQ does not treat staff as always extra',
+  costFaq ? /plus staff/i.test(costFaq.a) : true,
+  false,
+)
+eq('cost FAQ names the 113-guest example', costFaq ? /113-guest/.test(costFaq.a) : false, true)
+eq('yacht is not included', YACHT_FAQS.some((item) => item.q === 'Do you provide the yacht?' && /No/.test(item.a)), true)
 
 const extras = estimateYachtCatering({
   guests: 40,

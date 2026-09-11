@@ -18,6 +18,7 @@ const LEAD_FORM_IDS = new Set([
   'inquiry-form',
   'contact-form',
   'lead-magnet-form',
+  'yacht-quote-form',
 ])
 
 function pathFromHref(href: string): string {

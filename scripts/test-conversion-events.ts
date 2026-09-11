@@ -60,6 +60,7 @@ eq('seo gate is not a lead', shouldGenerateLead('/seo', 'lead_form'), false)
 eq('seo analyst is not a lead', shouldGenerateLead('/seo/analyst', 'x'), false)
 eq('unlabelled form is not a lead', shouldGenerateLead('/private-chef-dubai/pricing', ''), false)
 eq('plan form is a lead', shouldGenerateLead('/private-chef-dubai/pricing', 'private-chef-plan'), true)
+eq('yacht quote form is a lead', shouldGenerateLead('/yachts', 'yacht-quote-form'), true)
 
 if (fails > 0) {
   console.error(`\n${fails} failing check(s)`)
