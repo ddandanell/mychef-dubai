@@ -166,15 +166,15 @@
   },
   {
    "from": "/university-catering-dubai",
-   "to": "/luxury-dining-experiences",
+   "to": "/institutional-catering-dubai",
    "type": "301",
-   "reason": "Legacy redirect recorded 2026-08-26; internal links now point at the destination"
+   "reason": "Guess-URL now has a live owner: institutional catering dubai (re-pointed 2026-09-11 from luxury dining)"
   },
   {
    "from": "/government-event-catering-dubai",
-   "to": "/luxury-dining-experiences",
+   "to": "/corporate",
    "type": "301",
-   "reason": "Legacy redirect recorded 2026-08-26; internal links now point at the destination"
+   "reason": "Guess-URL now has a live owner: corporate catering dubai (re-pointed 2026-09-11 from luxury dining)"
   },
   {
    "from": "/catering",
@@ -588,8 +588,8 @@
   "/film-crew-catering-dubai": "/production-catering-dubai",
   "/corporate-catering-dubai": "/corporate",
   "/healthcare-catering-dubai": "/hospital-catering-dubai",
-  "/university-catering-dubai": "/luxury-dining-experiences",
-  "/government-event-catering-dubai": "/luxury-dining-experiences",
+  "/university-catering-dubai": "/institutional-catering-dubai",
+  "/government-event-catering-dubai": "/corporate",
   "/chefs/sofia-pastry-chef": "/chefs/matteo-pastry-chef",
   "/catering": "/catering-dubai",
   "/yacht-catering-dubai": "/yachts",

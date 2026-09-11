@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08 22:37",
+ "generated": "2026-09-11 09:56",
  "intro": "The voice engine reads every live title and meta against the myCHEF writing system. Household pages talk to a family that does not want to become HR. Event pages talk to a host whose night cannot fail. A variant that fails this gate never reaches the snippet queue.",
  "personas": {
   "household": {
@@ -23,15 +23,15 @@
  },
  "tiles": [
   {
-   "value": "163",
+   "value": "171",
    "label": "Live pages scored"
   },
   {
-   "value": "147",
+   "value": "154",
    "label": "Voice passing"
   },
   {
-   "value": "16",
+   "value": "17",
    "label": "Voice failing"
   },
   {
@@ -40,13 +40,13 @@
   }
  ],
  "counts": {
-  "pages": 163,
-  "passed": 147,
-  "failed": 16,
+  "pages": 171,
+  "passed": 154,
+  "failed": 17,
   "by_persona": {
    "household": 49,
-   "event_host": 76,
-   "planner": 38
+   "event_host": 81,
+   "planner": 41
   }
  },
  "pages": [
@@ -75,6 +75,20 @@
    "score": 8,
    "failures": [
     "title length under 28 characters"
+   ],
+   "warnings": []
+  },
+  {
+   "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+   "keyword": "nursery provided meals vs packed lunch dubai",
+   "silo": "Blog and Guides",
+   "persona": "planner",
+   "title": "Nursery Meals vs Packed Lunch Dubai | How to Choose | myCHEF",
+   "description": "Provided nursery meals versus packed lunch in Dubai: nut-free control, parent trust, cost of running the kitchen, and when to outsource.",
+   "passed": false,
+   "score": 8,
+   "failures": [
+    "primary missing from title"
    ],
    "warnings": []
   },
@@ -506,6 +520,18 @@
    "warnings": []
   },
   {
+   "url": "/blog/dubai-school-food-rules-2026",
+   "keyword": "dubai school food rules 2026",
+   "silo": "Blog and Guides",
+   "persona": "planner",
+   "title": "Dubai School Food Rules 2026 | Municipality Guide | myCHEF",
+   "description": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must be able to show you.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
    "url": "/blog/grazing-table-vs-buffet-dubai",
    "keyword": "grazing table vs buffet dubai",
    "silo": "Blog and Guides",
@@ -560,6 +586,18 @@
    "persona": "planner",
    "title": "Iftar at Home Dubai | myCHEF Journal",
    "description": "A clear take on iftar at home dubai — what to ask, what it costs, and when to book. Written for people hosting in Dubai, not for a keyword list.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
+   "url": "/blog/nut-free-halal-nursery-meals-dubai",
+   "keyword": "nut-free nursery meals dubai",
+   "silo": "Blog and Guides",
+   "persona": "planner",
+   "title": "Nut-Free Nursery Meals Dubai | Allergen and Halal Guide | myCHEF",
+   "description": "How nut-free, allergen and halal nursery meals work in Dubai — labelling, kitchens and what to ask a caterer before you sign.",
    "passed": true,
    "score": 10,
    "failures": [],
@@ -764,6 +802,18 @@
    "persona": "event_host",
    "title": "Canape Catering Dubai | myCHEF",
    "description": "Canape Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
+   "url": "/canteen-management-dubai",
+   "keyword": "canteen management dubai",
+   "silo": "Institutional Catering",
+   "persona": "event_host",
+   "title": "Canteen Management Dubai | Food, Not Software | myCHEF",
+   "description": "Canteen management Dubai is food, staff and a kitchen — not a POS app. Setup, staffing and a quote after we walk the room.",
    "passed": true,
    "score": 10,
    "failures": [],
@@ -1226,6 +1276,18 @@
    "warnings": []
   },
   {
+   "url": "/hospital-catering-dubai",
+   "keyword": "hospital catering dubai",
+   "silo": "Institutional Catering",
+   "persona": "event_host",
+   "title": "Hospital Catering Dubai | Patient and Staff Meals | myCHEF",
+   "description": "Hospital catering Dubai for staff cafeterias first, then patient meals when the kitchen and diet list can be documented. Quote after a site walk.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
    "url": "/how-to-choose-caterer-dubai",
    "keyword": "how to choose a caterer dubai",
    "silo": "Blog and Guides",
@@ -1280,6 +1342,18 @@
    "persona": "household",
    "title": "Food Influencer Partnerships Dubai | myCHEF",
    "description": "Food Influencer Partnerships Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
+   "url": "/institutional-catering-dubai",
+   "keyword": "institutional catering dubai",
+   "silo": "Institutional Catering",
+   "persona": "event_host",
+   "title": "Institutional Catering Dubai | Nurseries to Hospitals | myCHEF",
+   "description": "Institutional catering Dubai for nurseries, schools, hospitals and canteens. Documented kitchens, a quote after we see the site.",
    "passed": true,
    "score": 10,
    "failures": [],
@@ -1562,6 +1636,18 @@
    "warnings": []
   },
   {
+   "url": "/nursery-catering-dubai",
+   "keyword": "nursery catering dubai",
+   "silo": "Institutional Catering",
+   "persona": "event_host",
+   "title": "Nursery Catering Dubai | Daily Meals for Early Years | myCHEF",
+   "description": "Nursery catering Dubai for early-years meals. Documented kitchens, allergen lists, a quote after we see the site. WhatsApp the enrolment.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
    "url": "/office-catering-dubai",
    "keyword": "office catering dubai",
    "silo": "Corporate Catering",
@@ -1826,6 +1912,18 @@
    "warnings": []
   },
   {
+   "url": "/school-catering-dubai",
+   "keyword": "school catering dubai",
+   "silo": "Institutional Catering",
+   "persona": "event_host",
+   "title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+   "description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
+   "passed": true,
+   "score": 10,
+   "failures": [],
+   "warnings": []
+  },
+  {
    "url": "/staff-meals-catering-dubai",
    "keyword": "staff meals catering dubai",
    "silo": "Corporate Catering",
@@ -2035,7 +2133,7 @@
    "silo": "Private Chef",
    "persona": "event_host",
    "title": "Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF",
-   "description": "Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "description": "Yacht Catering Dubai with indicative pricing from AED 162 per guest: canapés, buffet or live station, extras and written terms. You charter the yacht.",
    "passed": true,
    "score": 10,
    "failures": [],

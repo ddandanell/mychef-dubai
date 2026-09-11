@@ -61,6 +61,35 @@ class VoiceLib(unittest.TestCase):
             V.persona_for("Private Chef", "Commercial landing", url="/yachts", primary="yacht catering dubai"),
             "event_host",
         )
+        self.assertEqual(
+            V.persona_for(
+                "Institutional Catering",
+                "Commercial landing",
+                url="/school-catering-dubai",
+                primary="school catering dubai",
+            ),
+            "institution",
+        )
+        # URL wins even if the silo is the party one — "catering" in the path is not enough.
+        self.assertEqual(
+            V.persona_for(
+                "Catering",
+                "Commercial landing",
+                url="/school-catering-dubai",
+                primary="school catering dubai",
+            ),
+            "institution",
+        )
+
+    def test_event_night_copy_fails_on_institution(self):
+        r = V.score_snippet(
+            title="School Catering Dubai | Chef, Service, Clear-down | myCHEF",
+            description="Chefs, service staff and clear-down in one brief. Date, headcount, how the night should feel.",
+            primary="school catering dubai",
+            persona="institution",
+        )
+        self.assertFalse(r["passed"])
+        self.assertTrue(any("event-night" in f for f in r["failures"]))
 
     def test_competitor_generic_is_scored_down(self):
         r = V.score_snippet(

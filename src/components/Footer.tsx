@@ -14,6 +14,7 @@ const serviceLinks = [
   { label: 'Catering Dubai', href: '/catering-dubai' },
   { label: 'Weddings', href: '/wedding-catering-dubai' },
   { label: 'Corporate Events', href: '/corporate-event-catering-dubai' },
+  { label: 'Institutional Catering', href: '/institutional-catering-dubai' },
   { label: 'Birthdays & Celebrations', href: '/birthday-catering-dubai' },
   { label: 'Private Events', href: '/private-party-catering-dubai' },
   { label: 'Villa Catering', href: '/villas-private-residences' },

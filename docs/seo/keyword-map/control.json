@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-04 12:41",
- "run_id": 17,
- "banner": null,
+ "generated": "2026-09-11 09:57",
+ "run_id": 18,
+ "banner": "Not feeding: GoHighLevel",
  "heartbeat": {
-  "id": 5,
-  "ran_at": "2026-09-04T04:33+00:00",
+  "id": 7,
+  "ran_at": "2026-09-11T01:55+00:00",
   "kind": "full",
   "mode": "live",
-  "git_commit": "07db376",
+  "git_commit": "9028c96",
   "phase": "idle",
   "sources_ok": [
    "Neon Postgres",
@@ -21,42 +21,45 @@
    "PageSpeed / CrUX",
    "Claude AI visibility",
    "SEO analyst (read-only)",
+   "Screaming Frog",
    "Board build (run-loop)"
   ],
-  "sources_stale": [],
-  "pages_scored": 132,
-  "keywords_scored": 1694,
+  "sources_stale": [
+   "GoHighLevel"
+  ],
+  "pages_scored": 179,
+  "keywords_scored": 1752,
   "proposals_opened": null,
   "edits_applied": null,
-  "gates_pass": true,
+  "gates_pass": null,
   "error": null,
-  "age_hours": 0.1
+  "age_hours": 0.0
  },
  "counts": {
-  "locked": 1694,
-  "placed": 837,
-  "proven": 95,
-  "locked_unproven": 1599,
-  "primaries_locked": 163,
-  "primaries_placed": 138,
-  "primaries_proven": 26
+  "locked": 1752,
+  "placed": 913,
+  "proven": 98,
+  "locked_unproven": 1654,
+  "primaries_locked": 171,
+  "primaries_placed": 139,
+  "primaries_proven": 27
  },
  "sources": [
   {
    "service": "Bing Webmaster",
    "status": "connected",
-   "detail": "https://www.mychef.ae/ · 31 daily rows returned",
+   "detail": "https://www.mychef.ae/ · 38 daily rows returned",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Board build (run-loop)",
    "status": "connected",
    "detail": "keyword file, research pages and archive rebuilt on every run",
-   "last_success": "2026-09-04T12:32+00:00",
+   "last_success": "2026-09-08T17:03+00:00",
    "error": "runs by hand — no scheduler is configured yet, so freshness depends on someone starting it",
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Claude AI visibility",
@@ -64,47 +67,55 @@
    "detail": "16 buyer prompts, answers stored",
    "last_success": "2026-08-26T10:07+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "DataForSEO",
    "status": "connected",
-   "detail": "balance $33.89 · 41,635 SERP rows stored",
+   "detail": "balance $34.58 · 41,635 SERP rows stored",
    "last_success": "2026-08-26T10:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "First-party tracking",
    "status": "connected",
-   "detail": "endpoint live · 2,606 events recorded",
-   "last_success": "2026-09-04T00:58+00:00",
+   "detail": "endpoint live · 4,966 events recorded",
+   "last_success": "2026-09-11T01:52+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
+  },
+  {
+   "service": "GoHighLevel",
+   "status": "not connected",
+   "detail": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
+   "last_success": null,
+   "error": null,
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Google Analytics 4",
    "status": "connected",
-   "detail": "543704202 · 31 landing pages · 70 sessions in 30d · 50 day-rows stored",
-   "last_success": "2026-09-04T12:23+00:00",
+   "detail": "543704202 · 37 landing pages · 88 sessions in 30d · 60 day-rows stored",
+   "last_success": "2026-09-11T09:48+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Google Search Console",
    "status": "connected",
-   "detail": "2 property · 54 clicks in the last 10 days",
-   "last_success": "2026-09-01T00:00+00:00",
+   "detail": "2 property · 65 clicks in the last 10 days",
+   "last_success": "2026-09-08T00:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Neon Postgres",
    "status": "connected",
-   "detail": "14 runs · 64 MB · 116,300 rows across 15 tables",
+   "detail": "14 runs · 65 MB · 118,975 rows across 15 tables",
    "last_success": "2026-09-04T04:32+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "PageSpeed / CrUX",
@@ -112,7 +123,7 @@
    "detail": "key present · not pulled into the board yet",
    "last_success": null,
    "error": "no collector writes CWV into the archive",
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "SEO analyst (read-only)",
@@ -120,15 +131,23 @@
    "detail": "deployed and password-gated · run with --probe-ai to test the answer path",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
+  },
+  {
+   "service": "Screaming Frog",
+   "status": "connected",
+   "detail": "https://mychef.ae/ · 2026-08-26 · 29 open issues",
+   "last_success": "2026-09-08T22:06+00:00",
+   "error": null,
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Vercel Web Analytics",
    "status": "connected",
-   "detail": "245 visitors in the last 7 days",
-   "last_success": "2026-09-04T12:22+00:00",
+   "detail": "271 visitors in the last 7 days",
+   "last_success": "2026-09-11T09:47+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   },
   {
    "service": "Vercel project",
@@ -136,7 +155,7 @@
    "detail": "mychef-dubai-vite · web analytics on · git integration linked",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:41+00:00"
+   "checked_at": "2026-09-11T09:53+00:00"
   }
  ],
  "queue": [
@@ -146,14 +165,24 @@
    "count": 29
   },
   {
+   "type": "reassign_primary",
+   "status": "open",
+   "count": 8
+  },
+  {
+   "type": "snippet_test",
+   "status": "open",
+   "count": 8
+  },
+  {
+   "type": "watch",
+   "status": "open",
+   "count": 7
+  },
+  {
    "type": "watch",
    "status": "accepted",
    "count": 5
-  },
-  {
-   "type": "reassign_primary",
-   "status": "accepted",
-   "count": 4
   },
   {
    "type": "add_internal_link",
@@ -166,13 +195,33 @@
    "count": 4
   },
   {
+   "type": "reassign_primary",
+   "status": "accepted",
+   "count": 4
+  },
+  {
    "type": "place_subkeyword",
    "status": "rejected",
    "count": 3
   },
   {
+   "type": "experiment",
+   "status": "open",
+   "count": 3
+  },
+  {
+   "type": "fill_subkeyword",
+   "status": "open",
+   "count": 2
+  },
+  {
    "type": "watch",
    "status": "rejected",
+   "count": 2
+  },
+  {
+   "type": "retarget",
+   "status": "open",
    "count": 2
   },
   {
@@ -183,206 +232,263 @@
  ],
  "top5": [
   {
-   "id": "2026-09-04-058",
-   "type": "place_subkeyword",
-   "url": "/locations/palm-jumeirah",
-   "keyword": "business lunch palm jumeirah",
-   "reason": "assigned to /locations/palm-jumeirah but the live copy does not say it",
+   "id": "2026-09-11-001",
+   "type": "fill_subkeyword",
+   "url": "/catering-dubai",
+   "keyword": "catering service in dubai",
+   "reason": "assigned to /catering-dubai but the live copy does not say it",
    "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-11-002",
+   "type": "experiment",
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "reason": "225 GSC impressions — enough to test a title template",
+   "risk": "medium",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-08-002",
+   "type": "watch",
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "reason": "150 GSC impressions — enough to test a title template",
+   "risk": "medium",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-08-011",
+   "type": "watch",
+   "url": "/corporate",
+   "keyword": "corporate catering dubai",
+   "reason": "210 GSC impressions — enough to test a title template",
+   "risk": "medium",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-11-062",
+   "type": "snippet_test",
+   "url": "/wedding-catering-dubai",
+   "keyword": "wedding catering dubai",
+   "reason": "262 impressions at pos 38.6, CTR 0.00% vs expected 1.20% — test a voice-passing title",
+   "risk": "medium",
    "auto_eligible": false,
    "status": "open"
   }
  ],
  "experiments": {
   "verdicts": {
-   "too_soon": 58
+   "confounded": 55,
+   "lift": 3,
+   "too_soon": 9
   },
   "open": [
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/locations/al-barsha",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/",
     "keywords": [
-     "catering services al quoz",
-     "iftar buffet dubai al barsha",
-     "catering al barsha",
-     "party catering al barsha",
-     "personal chef al barsha",
-     "private dining al barsha",
-     "private chef al barsha",
-     "chef at home al barsha"
+     "my chef dubai",
+     "fine dining at home dubai",
+     "mychef dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/locations/jlt",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/office-catering-dubai",
     "keywords": [
-     "business lunch in jlt",
-     "iftar buffet dubai jlt",
-     "indian food company jlt",
-     "chef at home jlt",
-     "catering jlt",
-     "private chef jlt",
-     "private dining jlt",
-     "party catering jlt",
-     "personal chef jlt",
-     "office catering jlt"
+     "office catering dubai",
+     "small office catering dubai",
+     "team lunch catering dubai",
+     "office lunch catering dubai",
+     "weekly office catering dubai",
+     "ramadan office catering dubai",
+     "catering for office meeting dubai",
+     "corporate lunch delivery dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/blog/how-far-ahead-book-caterer-dubai",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/our-chefs",
     "keywords": [
-     "best time to hire cooking caterer",
-     "how early to book a private chef dubai",
-     "best time to hire meal caterer",
-     "best time to hire event caterer",
-     "how far ahead book caterer dubai",
-     "how far in advance to order catering",
-     "how to choose a caterer in dubai",
-     "best time to hire catering in advance",
-     "how far in advance to book a caterer dubai"
+     "chefs dubai",
+     "private chefs dubai",
+     "hire chef dubai",
+     "looking for chef",
+     "private chef hire",
+     "female private chefs dubai",
+     "private cook in dubai",
+     "are private chefs in dubai licensed"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/blog/how-to-hire-a-private-chef-dubai",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/catering-dubai",
     "keywords": [
-     "chef hire",
-     "hiring a private chef",
-     "private chef for a day",
-     "how to hire a private chef dubai",
-     "how do you hire a private chef",
-     "how do i hire a personal chef",
-     "do private chefs bring their own equipment dubai",
-     "chef at home in dubai",
-     "how to find a private chef in dubai"
+     "catering dubai",
+     "catering service in dubai",
+     "catering services dubai",
+     "catering services in dubai",
+     "catering dubai party",
+     "food catering dubai",
+     "home catering dubai",
+     "party food catering dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/locations/difc",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/events",
     "keywords": [
-     "fine dining in difc",
-     "party catering difc",
-     "personal chef difc",
-     "private dining difc",
-     "office catering difc",
-     "private chef difc",
-     "business lunch in difc",
-     "catering difc",
-     "chef at home difc",
-     "corporate catering difc"
+     "event catering dubai",
+     "birthday event catering dubai",
+     "brand event catering dubai",
+     "business event catering dubai",
+     "event caterers dubai",
+     "event catering packages dubai",
+     "launch event catering dubai",
+     "networking event catering dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/locations/jbr",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/weekly-meal-prep-dubai",
     "keywords": [
-     "iftar buffet dubai jbr",
-     "chef at home jbr",
-     "private chef jbr",
-     "private dining jbr",
-     "personal chef jbr",
-     "party catering jbr",
-     "catering jbr"
+     "meal prep dubai",
+     "meal prep service dubai",
+     "fitness meal prep services",
+     "kids meal prep service",
+     "meal prep chef dubai",
+     "personal chef meal prep dubai",
+     "private chef meal prep dubai",
+     "batch cooking service dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/blog/grazing-table-vs-buffet-dubai",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/full-time-private-chef-dubai",
     "keywords": [
-     "grazing table ideas",
-     "grazing table for 50 guests",
-     "what is buffet catering",
-     "grazing table examples",
-     "grazing table catering",
-     "what is a grazing table dubai",
-     "average cost of grazing table",
-     "cost of grazing table for wedding",
-     "grazing table vs buffet dubai"
+     "full time private chef dubai",
+     "private chef for family",
+     "part time chef dubai",
+     "monthly private chef dubai",
+     "best time to hire caterers",
+     "full time private chef cost dubai",
+     "hire a full time chef dubai",
+     "household chef dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/blog/brunch-at-home-dubai",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/postpartum-meal-prep-dubai",
     "keywords": [
-     "brunch ideas at home easy",
-     "how to host brunch at home dubai",
-     "private chef brunch dubai",
-     "what is a dubai style brunch",
-     "what is a good at home brunch menu",
-     "brunch party dubai",
-     "brunch at home cost dubai",
-     "brunch at home dubai",
-     "brunch ideas at home dubai"
+     "easy meal prep for after baby",
+     "fitness meal prep delivery",
+     "meal prep food dubai",
+     "meals for new mums dubai",
+     "postpartum meal prep dubai price",
+     "postpartum meal delivery dubai",
+     "postpartum meal prep dubai",
+     "best meal prep companies in dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/blog/corporate-event-catering-ideas-dubai",
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/engagement-catering-dubai",
     "keywords": [
-     "event catering menu ideas",
-     "corporate catering in dubai",
-     "what is event catering",
-     "best catering format for corporate event dubai",
-     "office party food ideas dubai",
-     "event catering ideas",
-     "corporate event catering ideas dubai",
-     "corporate lunch ideas dubai",
-     "small corporate event catering ideas dubai"
+     "halal engagement catering dubai",
+     "engagement party catering dubai",
+     "best engagement catering dubai",
+     "engagement catering dubai",
+     "engagement catering dubai price",
+     "engagement catering menu dubai",
+     "engagement catering packages dubai",
+     "engagement dinner catering dubai"
     ],
-    "applied_at": "2026-08-26T10:47+00:00",
-    "window_days": 14,
-    "verdict": "too_soon"
-   },
-   {
-    "batch_id": "backfill-2026-08-26",
-    "url": "/allergy-safe-catering-dubai",
-    "keywords": [
-     "best catering service in dubai",
-     "allergy safe catering menu dubai",
-     "allergy safe catering packages dubai",
-     "best allergy safe catering dubai",
-     "catering for guests with food allergies dubai",
-     "catering services availability in dubai",
-     "event catering",
-     "allergy safe catering dubai price",
-     "most reliable catering in dubai",
-     "allergy safe catering cost per person dubai",
-     "allergy safe catering dubai",
-     "food safety in dubai"
-    ],
-    "applied_at": "2026-08-26T10:44+00:00",
+    "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    }
   ]
  },
  "actions": [
+  {
+   "url": "/engagement-catering-dubai",
+   "where": "faq",
+   "how": "+2 (engagementPage.ts:engagementFaqs, page had 6) · engagement catering dubai price, engagement party catering cost per person dubai, engagement catering packages dubai",
+   "after": "What goes into the engagement catering Dubai price? · Do you offer engagement catering packages Dubai?",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/postpartum-meal-prep-dubai",
+   "where": "body",
+   "how": "+1 sentences (PostpartumMealPrep.tsx) · meal prep food dubai, fitness meal prep delivery, postpartum meal delivery dubai, confinement food delivery dubai, meals for new mums dubai, easy meal prep for after baby",
+   "after": "Meal prep food Dubai, fitness meal prep delivery, postpartum meal delivery Dubai, confinement food delivery Dubai, meals for new mums Dubai and easy meal prep for after baby are the same service under",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/full-time-private-chef-dubai",
+   "where": "body",
+   "how": "+1 sentences (FullTimePrivateChef.tsx) · household chef dubai, part time chef dubai, private chef for family, monthly private chef dubai, hire a full time chef dubai",
+   "after": "Household chef Dubai, part time chef Dubai, private chef for family, monthly private chef Dubai and hire a full time chef Dubai are the same booking: a vetted chef, matched to your kitchen and your me",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/weekly-meal-prep-dubai",
+   "where": "body",
+   "how": "+4 sentences (WeeklyMealPrep.tsx) · best meal prep delivery dubai, is weekly meal prep healthy, meal prep chef dubai, batch cooking service dubai, private chef meal prep dubai, personal chef meal prep dubai, family meal prep dubai, fitness meal prep services",
+   "after": "If you are weighing up best meal prep delivery Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Is weekly meal prep healthy is planned into the fir",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/catering-dubai",
+   "where": "body",
+   "how": "+3 sentences (Catering.tsx) · party food catering dubai, small catering dubai party, full service catering dubai, bespoke catering dubai, outdoor catering dubai",
+   "after": "Party food catering Dubai and small catering Dubai party are planned around the room and the running order, with chefs, service staff and clear-down included. Full service catering Dubai is the same b",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/our-chefs",
+   "where": "faq",
+   "how": "no FAQ array found",
+   "after": "how are private chefs vetted dubai",
+   "at": "2026-09-08T22:20+00:00"
+  },
+  {
+   "url": "/our-chefs",
+   "where": "body",
+   "how": "+1 sentences (OurChefs.tsx) · chef for hire, private bbq chef dubai, female private chef dubai, female private chefs dubai, are private chefs in dubai licensed",
+   "after": "Chef for hire, private BBQ chef Dubai, female private chef Dubai, female private chefs Dubai and are private chefs in Dubai licensed are the same booking: a vetted chef, matched to your kitchen and yo",
+   "at": "2026-09-08T22:20+00:00"
+  },
   {
    "url": "/mystery-dining-dubai",
    "where": "body",
@@ -473,72 +579,23 @@
    "how": "+1 (blog-vegan-catering-dubai-guide.json)",
    "after": "how to cater for vegan guests dubai",
    "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/vegan-catering-dubai-guide",
-   "where": "body",
-   "how": "+4 sentences (blog-vegan-catering-dubai-guide.json:add_block)",
-   "after": "vegan menu plan, best vegan food in dubai, vegan party food ideas dubai, vegan fine dining ideas, vegan meal service dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/private-chef-vs-restaurant-dubai",
-   "where": "faq",
-   "how": "+1 (blog-private-chef-vs-restaurant-dubai.json)",
-   "after": "what is a private chef",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/private-chef-vs-restaurant-dubai",
-   "where": "body",
-   "how": "+2 sentences (blog-private-chef-vs-restaurant-dubai.json:add_block)",
-   "after": "cost of a private chef, private chef vs restaurant cost dubai, catering vs private chef, private chef vs personal chef",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/private-chef-date-night-dubai",
-   "where": "body",
-   "how": "+5 sentences (blog-private-chef-date-night-dubai.json:add_block)",
-   "after": "personal chef rates dubai, private chef date night cost dubai, best date night dinner in dubai, best personal chef for date night, romantic dinner ideas at home dubai, private chef for two dubai, priv",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/nye-party-catering-dubai",
-   "where": "body",
-   "how": "+5 sentences (blog-nye-party-catering-dubai.json:add_block)",
-   "after": "nye party catering cost dubai, bachelor party catering menu dubai, bachelorette party catering menu dubai, new years eve party food ideas dubai, new years eve at home dubai, new years eve dinner at ho",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/iftar-at-home-dubai",
-   "where": "body",
-   "how": "+4 sentences (blog-iftar-at-home-dubai.json:add_block)",
-   "after": "iftar at home cost dubai, iftar at home dubai offers, iftar buffet menu dubai, iftar menu at home dubai, iftar ideas at home dubai, family iftar at home dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/how-to-hire-a-private-chef-dubai",
-   "where": "faq",
-   "how": "+3 (blog-how-to-hire-a-private-chef-dubai.json)",
-   "after": "how do i hire a personal chef, how do you hire a private chef, how to find a private chef in dubai",
-   "at": "2026-08-26T13:42+00:00"
   }
  ],
  "tiles": [
   {
-   "value": "1694",
+   "value": "1752",
    "label": "Locked in the contract"
   },
   {
-   "value": "837",
+   "value": "913",
    "label": "Placed in the built HTML"
   },
   {
-   "value": "95",
+   "value": "98",
    "label": "Proven in Search Console"
   },
   {
-   "value": "1599",
+   "value": "1654",
    "label": "Locked but never seen"
   },
   {
@@ -546,7 +603,7 @@
    "label": "Since the last run"
   },
   {
-   "value": "1",
+   "value": "31",
    "label": "Proposals waiting"
   }
  ]

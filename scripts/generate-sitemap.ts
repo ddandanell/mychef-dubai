@@ -60,10 +60,10 @@ const EXCLUDED_PATHS = new Set([
   '/terms',
   '/site-map',
   '/gift-cards',
+  // Guess-URLs that still 301. School and nursery were in this list until
+  // 2026-09-09, when they became live LOCKED owners — do not exclude them.
   '/government-event-catering-dubai',
   '/healthcare-catering-dubai',
-  '/school-catering-dubai',
-  '/nursery-catering-dubai',
   '/university-catering-dubai',
   ...redirectSources(),
   ...PARKED,
@@ -115,6 +115,9 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
   { pattern: /^\/(office|business-lunch|corporate-event)-catering-dubai$/, priority: 0.8, changefreq: 'weekly', section: 'Corporate & institutional' },
   { pattern: /^\/(conference|staff-meals|film-crew|production)-catering-dubai$/, priority: 0.7, changefreq: 'weekly', section: 'Corporate & institutional' },
   { pattern: /^\/corporate-meal-prep-dubai$/, priority: 0.7, changefreq: 'weekly', section: 'Corporate & institutional' },
+  { pattern: /^\/institutional-catering-dubai$/, priority: 0.9, changefreq: 'weekly', section: 'Corporate & institutional' },
+  { pattern: /^\/(school|nursery|hospital)-catering-dubai$/, priority: 0.8, changefreq: 'weekly', section: 'Corporate & institutional' },
+  { pattern: /^\/canteen-management-dubai$/, priority: 0.8, changefreq: 'weekly', section: 'Corporate & institutional' },
   { pattern: /^\/festive-catering-dubai$/, priority: 0.8, changefreq: 'weekly', section: 'Seasonal & themed' },
   { pattern: /^\/romantic-dinner-dubai$/, priority: 0.8, changefreq: 'weekly', section: 'Seasonal & themed' },
   { pattern: /^\/(valentines-day|mothers-day|uae-national-day|easter|halloween|ramadan|iftar|suhoor|eid|diwali|christmas|new-year|brunch|breakfast|drop-off|tasting-menu)-catering-dubai$/, priority: 0.7, changefreq: 'weekly', section: 'Seasonal & themed' },
@@ -246,8 +249,6 @@ function main() {
   const expectedQuarantined = [
     '/government-event-catering-dubai',
     '/healthcare-catering-dubai',
-    '/school-catering-dubai',
-    '/nursery-catering-dubai',
     '/university-catering-dubai',
   ]
   for (const q of expectedQuarantined) {

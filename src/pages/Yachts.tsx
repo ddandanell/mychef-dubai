@@ -280,6 +280,9 @@ export default function Yachts() {
             <p className="mt-8 font-inter text-body-sm text-gray-600 leading-relaxed max-w-[62ch]">
               Per-guest pricing moves with headcount, menu and hours. A 20-guest birthday and a 113-guest corporate are quoted on the same lines — they just land at different numbers. Indicative only — every event is quoted in writing.
             </p>
+            <p className="mt-8 font-inter text-body-sm text-gray-600 leading-relaxed max-w-[62ch]">
+              Yacht dinner cruise Dubai and small yacht catering Dubai use the same crew model as a larger day. Yacht catering Dubai Harbour and new year yacht catering Dubai are still a charter-day brief. Food to bring on a yacht party is planned against the galley and the hours you have the vessel.
+            </p>
             <p className="mt-4 font-inter text-body-xs text-gray-500 leading-relaxed max-w-[62ch]">{YACHT_PRICING_DISCLAIMER}</p>
           </div>
         </Container>

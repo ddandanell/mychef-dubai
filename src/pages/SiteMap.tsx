@@ -106,6 +106,11 @@ export default function SiteMap() {
               <li><Link to="/business-lunch-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/business-lunch-catering-dubai</Link></li>
               <li><Link to="/corporate-event-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-event-catering-dubai</Link></li>
               <li><Link to="/conference-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/conference-catering-dubai</Link></li>
+              <li><Link to="/institutional-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/institutional-catering-dubai</Link></li>
+              <li><Link to="/nursery-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/nursery-catering-dubai</Link></li>
+              <li><Link to="/school-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/school-catering-dubai</Link></li>
+              <li><Link to="/hospital-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/hospital-catering-dubai</Link></li>
+              <li><Link to="/canteen-management-dubai" className="text-gray-600 hover:text-gold transition-colors">/canteen-management-dubai</Link></li>
               <li>/staff-meals-catering-dubai</li>
               <li>/production-catering-dubai</li>
             </ul>

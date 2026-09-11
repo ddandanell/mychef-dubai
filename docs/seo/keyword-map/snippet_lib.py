@@ -18,19 +18,24 @@ MECHANISM = {
     "household": "Matched, Vetted, Backed Up",
     "event_host": "Chef, Service, Clear-down",
     "planner": "How to Decide",
+    "institution": "Documented Kitchen",
 }
 
 RELIEF = {
     "household": "You Stay Out of HR",
     "event_host": "You Stay a Guest",
     "planner": "Then Pick the Owner Page",
+    "institution": "Quote After the Site Walk",
 }
 
 DESC_RELIEF = {
     "household": "Named cook, itemised quote, backup from a record — not a marketplace listing.",
     "event_host": "Chefs, service staff and clear-down in one brief. Date, headcount, how the night should feel.",
     "planner": "The decision first, then the commercial page that owns the booking.",
+    "institution": "Documented kitchen, labelled cycle, a quote after we see the site. Not a party menu.",
 }
+
+DESC_MAX = 160
 
 
 def expected_ctr(position: float | int | None) -> float:
@@ -147,18 +152,45 @@ def propose_variants(
     return out
 
 
+def _trim_desc(text: str) -> str:
+    """Fit a meta description into 160 characters without a mid-sentence stump."""
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if len(text) <= DESC_MAX:
+        return text
+    cut = text[:DESC_MAX].rsplit(" ", 1)[0].rstrip(".,;:—-")
+    cut = re.sub(r"\b(and|or|the|a|an|with|for|to|of|in|from|per)$", "", cut, flags=re.I).strip(" .,;:—-")
+    return (cut or text[: DESC_MAX - 1]).rstrip(".") + "."
+
+
+def _owns_primary(text: str, primary_t: str) -> bool:
+    t = re.sub(r"\s+", " ", (text or "").lower())
+    p = re.sub(r"\s+", " ", (primary_t or "").lower())
+    if not t or not p:
+        return False
+    if p in t:
+        return True
+    tokens = p.split()
+    if len(tokens) < 2:
+        return False
+    pat = r"\s+(?:in|for|at|across)?\s*".join(re.escape(tok) for tok in tokens)
+    return re.search(pat, t) is not None
+
+
 def _lead_desc(current: str, relief: str, primary_t: str) -> str:
-    current = (current or "").strip()
-    if current and primary_t.lower() in current.lower():
-        text = current
-    else:
-        text = f"{primary_t}. {relief}"
-    if relief.split(",")[0].lower() not in text.lower():
-        text = f"{text.rstrip('.')} {relief}"
-    text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > 160:
-        text = text[:157].rsplit(" ", 1)[0] + "."
-    return text
+    """Keep a finished live description. Never append a second sentence then chop it.
+
+    The old path concatenated event-host relief onto a complete meta, then sliced
+    at 160 characters: '...table Chefs, service staff and.'
+    """
+    current = re.sub(r"\s+", " ", (current or "").strip())
+    relief = (relief or "").strip()
+    if current and (_owns_primary(current, primary_t) or len(current) >= 70):
+        return _trim_desc(current)
+    if relief:
+        return _trim_desc(f"{primary_t}. {relief}")
+    if current:
+        return _trim_desc(f"{primary_t}. {current}")
+    return _trim_desc(primary_t)
 
 
 def research_page(
@@ -173,6 +205,7 @@ def research_page(
     clicks: int,
     position: float | None,
     open_experiment: bool,
+    google_ranks_elsewhere: bool = False,
 ) -> dict[str, Any]:
     persona = V.persona_for(silo, page_type, url=url, primary=primary)
     control_voice = V.score_snippet(title=title, description=description, primary=primary, persona=persona)
@@ -198,6 +231,12 @@ def research_page(
     if open_experiment:
         rec["status"] = "blocked"
         rec["reason"] = "open experiment on this URL — another snippet would confound it"
+        return rec
+    if google_ranks_elsewhere:
+        rec["status"] = "blocked"
+        rec["reason"] = (
+            "Google is ranking a different URL for this query — a title test on the owner will not be seen"
+        )
         return rec
     if impressions < 50:
         rec["status"] = "too_few_impressions"

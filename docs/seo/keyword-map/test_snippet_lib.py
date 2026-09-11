@@ -53,6 +53,86 @@ class SnippetLib(unittest.TestCase):
         blob = " ".join(v["title"] + " " + v["description"] for v in variants)
         self.assertNotIn("AED", blob)
 
+    def test_school_page_is_not_an_event_host_snippet(self):
+        variants = S.propose_variants(
+            url="/school-catering-dubai",
+            primary="school catering dubai",
+            title="School Catering Dubai | Lunches Built to the Rules | myCHEF",
+            description=(
+                "School catering Dubai for lunches and canteens. Built around Dubai Municipality "
+                "school-food rules. Quote after we see the kitchen and the roll."
+            ),
+            silo="Institutional Catering",
+            page_type="Commercial landing",
+        )
+        self.assertTrue(variants)
+        blob = " ".join(v["title"] + " " + v["description"] for v in variants).lower()
+        self.assertNotIn("clear-down", blob)
+        self.assertNotIn("you stay a guest", blob)
+        self.assertNotIn("chef, service", blob)
+        for v in variants:
+            self.assertEqual(v["persona"], "institution")
+            self.assertLessEqual(len(v["description"]), 160)
+            self.assertFalse(v["description"].rstrip(".").endswith(" and"))
+            self.assertFalse(v["description"].endswith(" Chefs, service staff and."))
+
+    def test_in_dubai_variant_keeps_the_live_description(self):
+        live = (
+            "Book corporate catering in Dubai for offices, boardrooms, client lunches and "
+            "company events. Drop-off, buffet or plated service—from AED 90 per person."
+        )
+        variants = S.propose_variants(
+            url="/corporate",
+            primary="corporate catering dubai",
+            title="Corporate Catering Dubai | Offices, Boards & Events | myCHEF",
+            description=live,
+            silo="Corporate Catering",
+            page_type="Commercial landing",
+        )
+        self.assertTrue(variants)
+        for v in variants:
+            self.assertEqual(v["description"], live)
+            self.assertNotIn("service—from.", v["description"])
+            self.assertIn("AED 90", v["description"])
+
+    def test_lead_desc_does_not_append_relief_then_chop(self):
+        live = (
+            "Wedding Catering Dubai with a vetted myCHEF team. Menus, service and clear-down "
+            "handled so you stay a guest at your own table."
+        )
+        variants = S.propose_variants(
+            url="/wedding-catering-dubai",
+            primary="wedding catering dubai",
+            title="Wedding Catering Dubai | From AED 700 a Guest | myCHEF",
+            description=live,
+            silo="Private Events",
+            page_type="Commercial landing",
+        )
+        self.assertTrue(variants)
+        for v in variants:
+            self.assertLessEqual(len(v["description"]), 160)
+            self.assertNotIn("staff and.", v["description"])
+            self.assertNotEqual(v["description"][-20:], "Chefs, service staff and.")
+            if v["kind"] != "proof":
+                self.assertEqual(v["description"], live)
+
+    def test_blocked_when_google_ranks_a_different_url(self):
+        rec = S.research_page(
+            url="/school-catering-dubai",
+            primary="school catering dubai",
+            title="School Catering Dubai | Lunches Built to the Rules | myCHEF",
+            description="School catering Dubai for lunches and canteens.",
+            silo="Institutional Catering",
+            page_type="Commercial landing",
+            impressions=59,
+            clicks=0,
+            position=58.9,
+            open_experiment=False,
+            google_ranks_elsewhere=True,
+        )
+        self.assertEqual(rec["status"], "blocked")
+        self.assertIn("different URL", rec["reason"])
+
     def test_blocked_when_an_experiment_is_already_open(self):
         rec = S.research_page(
             url="/corporate",

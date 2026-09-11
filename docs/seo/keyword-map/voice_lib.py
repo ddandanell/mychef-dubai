@@ -62,6 +62,12 @@ PERSONAS = {
         "next": "Learn the decision, then follow the link to the owner page.",
         "tone": "Useful first. Link to the owner. Do not steal a commercial primary.",
     },
+    "institution": {
+        "who": "An operations manager at a Dubai nursery, school, hospital or staff canteen.",
+        "fear": "A kitchen that fails an inspection, a parent complaint, or a programme that cannot be documented.",
+        "next": "See the papers, the cycle, then a quote after a site walk.",
+        "tone": "Documented kitchen. No party-night copy. No 'you stay a guest.'",
+    },
 }
 
 HOUSEHOLD_SILOS = {"private chef", "packages", "brand / homepage"}
@@ -73,6 +79,19 @@ EVENT_SILOS = {
     "dining experiences",
     "cuisines and dietary",
 }
+INSTITUTION_SILOS = {"institutional catering"}
+INSTITUTION_MARKERS = (
+    "institutional catering",
+    "school catering",
+    "nursery catering",
+    "hospital catering",
+    "canteen management",
+)
+EVENT_NIGHT_COPY = (
+    "you stay a guest",
+    "chef, service, clear-down",
+    "clear-down in one brief",
+)
 
 
 def _norm(s: str) -> str:
@@ -91,9 +110,11 @@ def _has_phrase(text: str, phrase: str) -> bool:
 def persona_for(silo: str | None, page_type: str | None, url: str | None = None, primary: str | None = None) -> str:
     silo_n = _norm(silo or "")
     ptype = _norm(page_type or "")
-    extra = _norm(f"{url or ''} {primary or ''}")
+    extra = _norm(f"{url or ''} {primary or ''}").replace("-", " ")
     if "guide" in ptype or "blog" in ptype or "blog" in silo_n or extra.startswith("/blog") or "/guide" in extra:
         return "planner"
+    if any(s in silo_n for s in INSTITUTION_SILOS) or any(m in extra for m in INSTITUTION_MARKERS):
+        return "institution"
     if "yacht" in extra or ("catering" in extra and "private chef" not in extra):
         return "event_host"
     if any(s in silo_n for s in EVENT_SILOS):
@@ -139,6 +160,10 @@ def score_snippet(
         r"\b(villa|yacht|household|apartment)\b", _norm(title or "")
     ):
         warnings.append("luxury as an empty adjective")
+    if persona == "institution":
+        for phrase in EVENT_NIGHT_COPY:
+            if _has_phrase(blob, phrase):
+                failures.append("event-night copy on an institutional page")
 
     score = 10
     score -= 3 * len([f for f in failures if f.startswith("prohibited")])

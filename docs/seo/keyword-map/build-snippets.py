@@ -70,6 +70,7 @@ def main() -> int:
             clicks=int(row.get("gsc_clicks") or 0),
             position=row.get("gsc_position") or row.get("current_position"),
             open_experiment=url in open_ex,
+            google_ranks_elsewhere="Google ranks" in (row.get("next_action") or ""),
         )
         researched.append(rec)
 

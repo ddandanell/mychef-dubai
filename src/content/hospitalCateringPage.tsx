@@ -87,7 +87,7 @@ export const hospitalPage: InstitutionalPageContent = {
     blocks: [
       {
         title: 'Staff cafeteria as the first contract',
-        body: 'Covers per day you can count. A servery you can walk. A cycle the night shift will actually eat. That is how hospital catering services Dubai start with us.',
+        body: 'Covers per day you can count. A servery you can walk. A cycle the night shift will actually eat. A staff cafeteria Dubai contract is how hospital catering services Dubai start with us.',
       },
       {
         title: 'Visitor dining that is still a kitchen',

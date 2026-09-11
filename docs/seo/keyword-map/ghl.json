@@ -20,7 +20,7 @@
   "channels": [],
   "topics": []
  },
- "generated": "2026-09-08 22:06",
+ "generated": "2026-09-11 09:48",
  "connected": false,
  "error": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
  "required_scopes": [

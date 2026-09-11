@@ -1,6 +1,13 @@
 
-===== KW_NOT_IN_H1 =====
-/                                                    "mychef dubai" | Private Chef and Catering Dubai — Brought to Your Villa, Y
+===== KW_NOT_IN_DESC =====
+/                                                    "mychef dubai"
+/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai"
 
-===== NO_HTML =====
-/private-chef-dubai/pricing                          prerender produced no file
+===== DESC_LENGTH =====
+/review                                              90 chars
+
+===== KW_NOT_IN_TITLE =====
+/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai" | Nursery Meals vs Packed Lunch Dubai | How to Choose | myCH
+
+===== KW_NOT_IN_H1 =====
+/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai" | Nursery Meals vs Packed Lunch Dubai

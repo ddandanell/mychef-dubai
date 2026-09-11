@@ -73,7 +73,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
     h2: 'Institutional catering Dubai is a documented kitchen',
     paragraphs: [
       'Nurseries, schools, hospitals and staff canteens buy food the same way a household does not. They buy a kitchen they can inspect, a matrix a nurse or a manager can read, and an invoice finance can compare. Education catering Dubai and healthcare catering Dubai fail in public when those papers are missing.',
-      'The market is large and the SERPs are thin. Competitors still ship 400-word pages with no FAQs and no quote path. We built four owned pages instead of stuffing this hub with every phrase.',
+      'The market is large and the SERPs are thin. Competitors still ship 400-word pages with no FAQs and no quote path. We built four owned pages instead of stuffing this hub with every phrase. A staff canteen Dubai or corporate canteen catering Dubai brief belongs on canteen management; early years catering Dubai on nursery catering; patient meal services Dubai on hospital catering. Nut-free institutional meals Dubai and a documented catering kitchen Dubai are the standard on every child page, not a badge on this hub.',
       'We do not publish a from-price on this hub. We do not claim My School Food registration or a named HACCP number here. Those sentences live on the child page only when src/content/ can show them.',
     ],
   },

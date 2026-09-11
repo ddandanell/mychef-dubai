@@ -83,6 +83,7 @@ export const schoolPage: InstitutionalPageContent = {
       'A school canteen in Dubai is no longer a tuck shop with a microwave. It is inspected like any other food business, with extra rules on what may be sold to children. Dubai has 220 or more private schools. Exclusive canteen contracts are large, long, and awarded to kitchens that can show papers — not to the first WhatsApp cook who can do a pasta day.',
       'Two things changed the brief. My School Food, launched in November 2025, put hundreds of thousands of students onto a registered-supplier model. The 2026 national guide for food in the school environment bans sugary and energy drinks, confectionery, fried food, nuts and processed meats in UAE schools. Healthy school lunch Dubai is now a compliance sentence, not a slogan on a menu board.',
       'School catering companies in Dubai that still sell “yummy variety” without a labelled cycle will not survive a parent committee. You need a kitchen that can be inspected, a matrix a nurse can read, and a quote finance can compare.',
+      'School catering companies Dubai are hired for papers, not a pasta day. KHDA school catering Dubai is wellbeing language, not a food licence; education catering Dubai on this page is the meal programme, and canteen catering services Dubai for a full room sit on canteen management.',
     ],
   },
   difference: {

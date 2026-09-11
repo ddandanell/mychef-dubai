@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-08 22:37",
+ "generated": "2026-09-11 12:31",
  "intro": "The snippet agent tests Google titles and descriptions for clicks, not folklore. A test is only proposed when Search Console shows the page, CTR lags the position, the variant passes the voice gate, and no experiment is already open. The queue still needs a person. The agent never writes the live title itself.",
  "tiles": [
   {
-   "value": "3",
+   "value": "2",
    "label": "Ready to test"
   },
   {
-   "value": "67",
+   "value": "17",
    "label": "Blocked (open window)"
   },
   {
@@ -15,16 +15,16 @@
    "label": "CTR in line"
   },
   {
-   "value": "10",
+   "value": "13",
    "label": "Pages with 50+ impr"
   }
  ],
  "counts": {
-  "researched": 163,
-  "proposed": 3,
-  "blocked": 67,
+  "researched": 171,
+  "proposed": 2,
+  "blocked": 17,
   "ctr_ok": 0,
-  "too_few": 93
+  "too_few": 152
  },
  "tests": [
   {
@@ -49,8 +49,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.04,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/grazing-table-dubai",
@@ -74,8 +74,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.04,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/afternoon-tea-catering-dubai",
@@ -99,8 +99,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.04,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/festive-catering-dubai",
@@ -124,8 +124,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.02,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/ramadan-catering-dubai",
@@ -178,62 +178,6 @@
    "reason": "open experiment on this URL — another snippet would confound it"
   },
   {
-   "url": "/guide/private-dining-dubai",
-   "keyword": "private dining dubai",
-   "persona": "planner",
-   "control_title": "Private Dining Dubai | Planning Guide | myCHEF",
-   "control_description": "Private Dining Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-   "control_voice": {
-    "passed": true,
-    "score": 10,
-    "failures": [],
-    "warnings": [],
-    "persona": "planner",
-    "title_len": 46,
-    "description_len": 124
-   },
-   "impressions": 227,
-   "clicks": 0,
-   "position": 44.4,
-   "ctr": 0.0,
-   "expected_ctr": 0.012,
-   "ctr_gap": 0.012,
-   "variants": [
-    {
-     "kind": "mechanism",
-     "title": "Private Dining Dubai | How to Decide | myCHEF",
-     "description": "Private Dining Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table The decision first, then the.",
-     "persona": "planner",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    },
-    {
-     "kind": "relief",
-     "title": "Private Dining Dubai | Then Pick the Owner Page | myCHEF",
-     "description": "Private Dining Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table The decision first, then the.",
-     "persona": "planner",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    }
-   ],
-   "status": "proposed",
-   "reason": "227 impressions at pos 44.4, CTR 0.00% vs expected 1.20% — test a voice-passing title",
-   "chosen": {
-    "kind": "mechanism",
-    "title": "Private Dining Dubai | How to Decide | myCHEF",
-    "description": "Private Dining Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table The decision first, then the.",
-    "persona": "planner",
-    "voice_passed": true,
-    "voice_score": 10,
-    "voice_failures": [],
-    "voice_warnings": []
-   }
-  },
-  {
    "url": "/wedding-catering-dubai",
    "keyword": "wedding catering dubai",
    "persona": "event_host",
@@ -248,15 +192,15 @@
     "title_len": 54,
     "description_len": 126
    },
-   "impressions": 226,
+   "impressions": 262,
    "clicks": 0,
-   "position": 39.8,
+   "position": 38.6,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
    "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/corporate",
@@ -273,42 +217,17 @@
     "title_len": 60,
     "description_len": 151
    },
-   "impressions": 210,
+   "impressions": 253,
    "clicks": 0,
-   "position": 42.2,
-   "ctr": 0.0,
-   "expected_ctr": 0.012,
-   "ctr_gap": 0.012,
-   "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
-  },
-  {
-   "url": "/yachts",
-   "keyword": "yacht catering dubai",
-   "persona": "event_host",
-   "control_title": "Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF",
-   "control_description": "Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-   "control_voice": {
-    "passed": true,
-    "score": 10,
-    "failures": [],
-    "warnings": [],
-    "persona": "event_host",
-    "title_len": 60,
-    "description_len": 124
-   },
-   "impressions": 209,
-   "clicks": 0,
-   "position": 28.0,
+   "position": 41.5,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [
     {
      "kind": "mechanism",
-     "title": "Yacht Catering Dubai | Chef, Service, Clear-down | myCHEF",
-     "description": "Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
+     "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
+     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
      "persona": "event_host",
      "voice_passed": true,
      "voice_score": 10,
@@ -317,8 +236,18 @@
     },
     {
      "kind": "relief",
-     "title": "Yacht Catering Dubai | You Stay a Guest | myCHEF",
-     "description": "Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
+     "title": "Corporate Catering Dubai | You Stay a Guest | myCHEF",
+     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+     "persona": "event_host",
+     "voice_passed": true,
+     "voice_score": 10,
+     "voice_failures": [],
+     "voice_warnings": []
+    },
+    {
+     "kind": "proof",
+     "title": "Corporate Catering Dubai | From AED 90 | myCHEF",
+     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
      "persona": "event_host",
      "voice_passed": true,
      "voice_score": 10,
@@ -327,11 +256,11 @@
     }
    ],
    "status": "proposed",
-   "reason": "209 impressions at pos 28.0, CTR 0.00% vs expected 1.20% — test a voice-passing title",
+   "reason": "253 impressions at pos 41.5, CTR 0.00% vs expected 1.20% — test a voice-passing title",
    "chosen": {
     "kind": "mechanism",
-    "title": "Yacht Catering Dubai | Chef, Service, Clear-down | myCHEF",
-    "description": "Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
+    "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
+    "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
     "persona": "event_host",
     "voice_passed": true,
     "voice_score": 10,
@@ -354,15 +283,40 @@
     "title_len": 60,
     "description_len": 125
    },
-   "impressions": 198,
+   "impressions": 247,
    "clicks": 0,
-   "position": 41.3,
+   "position": 39.5,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
    "status": "blocked",
    "reason": "open experiment on this URL — another snippet would confound it"
+  },
+  {
+   "url": "/guide/private-dining-dubai",
+   "keyword": "private dining dubai",
+   "persona": "planner",
+   "control_title": "Private Dining Dubai | Planning Guide | myCHEF",
+   "control_description": "Private Dining Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "planner",
+    "title_len": 46,
+    "description_len": 124
+   },
+   "impressions": 227,
+   "clicks": 0,
+   "position": 44.4,
+   "ctr": 0.0,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.012,
+   "variants": [],
+   "status": "blocked",
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/catering-dubai",
@@ -379,9 +333,37 @@
     "title_len": 57,
     "description_len": 149
    },
-   "impressions": 150,
+   "impressions": 225,
    "clicks": 0,
-   "position": 59.1,
+   "position": 56.6,
+   "ctr": 0.0,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.012,
+   "variants": [],
+   "status": "blocked",
+   "reason": "open experiment on this URL — another snippet would confound it"
+  },
+  {
+   "url": "/events",
+   "keyword": "event catering dubai",
+   "persona": "event_host",
+   "control_title": "Event Catering Dubai | Weddings, Parties & Corporate Events | myCHEF",
+   "control_description": "Book bespoke event catering in Dubai for weddings, birthdays, private parties and corporate events. Menus, chefs, staffing, setup and cleanup—from AED 120 per person.",
+   "control_voice": {
+    "passed": false,
+    "score": 8,
+    "failures": [
+     "title length over 65 characters",
+     "description over 165 characters"
+    ],
+    "warnings": [],
+    "persona": "event_host",
+    "title_len": 68,
+    "description_len": 166
+   },
+   "impressions": 126,
+   "clicks": 0,
+   "position": 44.0,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -412,7 +394,7 @@
    "ctr_gap": 0.012,
    "variants": [],
    "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/breakfast-catering-dubai",
@@ -435,62 +417,53 @@
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
-   "variants": [
-    {
-     "kind": "mechanism",
-     "title": "Breakfast Catering Dubai | Chef, Service, Clear-down | myCHEF",
-     "description": "Breakfast Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    },
-    {
-     "kind": "relief",
-     "title": "Breakfast Catering Dubai | You Stay a Guest | myCHEF",
-     "description": "Breakfast Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    }
-   ],
-   "status": "proposed",
-   "reason": "72 impressions at pos 27.5, CTR 0.00% vs expected 1.20% — test a voice-passing title",
-   "chosen": {
-    "kind": "mechanism",
-    "title": "Breakfast Catering Dubai | Chef, Service, Clear-down | myCHEF",
-    "description": "Breakfast Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table Chefs, service staff and.",
-    "persona": "event_host",
-    "voice_passed": true,
-    "voice_score": 10,
-    "voice_failures": [],
-    "voice_warnings": []
-   }
+   "variants": [],
+   "status": "blocked",
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
-   "url": "/events",
-   "keyword": "event catering dubai",
-   "persona": "event_host",
-   "control_title": "Event Catering Dubai | Weddings, Parties & Corporate Events | myCHEF",
-   "control_description": "Book bespoke event catering in Dubai for weddings, birthdays, private parties and corporate events. Menus, chefs, staffing, setup and cleanup—from AED 120 per person.",
+   "url": "/school-catering-dubai",
+   "keyword": "school catering dubai",
+   "persona": "institution",
+   "control_title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+   "control_description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
    "control_voice": {
-    "passed": false,
-    "score": 8,
-    "failures": [
-     "title length over 65 characters",
-     "description over 165 characters"
-    ],
+    "passed": true,
+    "score": 10,
+    "failures": [],
     "warnings": [],
-    "persona": "event_host",
-    "title_len": 68,
-    "description_len": 166
+    "persona": "institution",
+    "title_len": 59,
+    "description_len": 143
    },
-   "impressions": 62,
+   "impressions": 59,
    "clicks": 0,
-   "position": 42.9,
+   "position": 58.9,
+   "ctr": 0.0,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.012,
+   "variants": [],
+   "status": "blocked",
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
+  },
+  {
+   "url": "/our-chefs",
+   "keyword": "private chefs dubai",
+   "persona": "household",
+   "control_title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
+   "control_description": "Private Chefs Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "household",
+    "title_len": 56,
+    "description_len": 123
+   },
+   "impressions": 58,
+   "clicks": 0,
+   "position": 38.8,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -513,40 +486,36 @@
     "title_len": 38,
     "description_len": 133
    },
-   "impressions": 49,
+   "impressions": 56,
    "clicks": 0,
-   "position": 29.0,
+   "position": 28.1,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
-   "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
-  },
-  {
-   "url": "/our-chefs",
-   "keyword": "private chefs dubai",
-   "persona": "household",
-   "control_title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
-   "control_description": "Private Chefs Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-   "control_voice": {
-    "passed": true,
-    "score": 10,
-    "failures": [],
-    "warnings": [],
-    "persona": "household",
-    "title_len": 56,
-    "description_len": 123
-   },
-   "impressions": 40,
-   "clicks": 0,
-   "position": 37.1,
-   "ctr": 0.0,
-   "expected_ctr": 0.012,
-   "ctr_gap": 0.012,
-   "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "variants": [
+    {
+     "kind": "relief",
+     "title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+     "description": "Cocktail Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+     "persona": "event_host",
+     "voice_passed": true,
+     "voice_score": 10,
+     "voice_failures": [],
+     "voice_warnings": []
+    }
+   ],
+   "status": "proposed",
+   "reason": "56 impressions at pos 28.1, CTR 0.00% vs expected 1.20% — test a voice-passing title",
+   "chosen": {
+    "kind": "relief",
+    "title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+    "description": "Cocktail Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+    "persona": "event_host",
+    "voice_passed": true,
+    "voice_score": 10,
+    "voice_failures": [],
+    "voice_warnings": []
+   }
   },
   {
    "url": "/buffet-catering-dubai",
@@ -563,9 +532,9 @@
     "title_len": 30,
     "description_len": 125
    },
-   "impressions": 32,
+   "impressions": 43,
    "clicks": 0,
-   "position": 32.6,
+   "position": 32.4,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -596,7 +565,7 @@
    "ctr_gap": 0.012,
    "variants": [],
    "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/baby-shower-catering-dubai",
@@ -645,8 +614,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/diwali-catering-dubai",
@@ -695,8 +664,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/corporate-event-catering-dubai",
@@ -713,9 +682,9 @@
     "title_len": 39,
     "description_len": 134
    },
-   "impressions": 4,
+   "impressions": 6,
    "clicks": 0,
-   "position": 37.2,
+   "position": 39.3,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -745,8 +714,33 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/yachts",
+   "keyword": "yacht catering dubai",
+   "persona": "event_host",
+   "control_title": "Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF",
+   "control_description": "Yacht Catering Dubai with indicative pricing from AED 162 per guest: canapés, buffet or live station, extras and written terms. You charter the yacht.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "event_host",
+    "title_len": 60,
+    "description_len": 150
+   },
+   "impressions": 260,
+   "clicks": 1,
+   "position": 28.5,
+   "ctr": 0.0038,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.0082,
+   "variants": [],
    "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/private-chef-dubai",
@@ -763,15 +757,15 @@
     "title_len": 52,
     "description_len": 157
    },
-   "impressions": 434,
-   "clicks": 4,
-   "position": 30.0,
-   "ctr": 0.0092,
+   "impressions": 483,
+   "clicks": 5,
+   "position": 29.2,
+   "ctr": 0.0104,
    "expected_ctr": 0.012,
-   "ctr_gap": 0.0028,
+   "ctr_gap": 0.0016,
    "variants": [],
    "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
    "url": "/romantic-dinner-dubai",
@@ -922,8 +916,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/best-catering-companies-dubai",
@@ -1099,8 +1093,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/vegetarian-catering-dubai",
@@ -1149,8 +1143,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/",
@@ -1199,8 +1193,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/allergy-safe-catering-dubai",
@@ -1224,8 +1218,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/apartment-private-dining-dubai",
@@ -1249,8 +1243,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/asian-catering-dubai",
@@ -1301,8 +1295,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/birthday-catering-package-dubai",
@@ -1376,8 +1370,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/corporate-catering-full-service-vs-drop-off",
@@ -1426,8 +1420,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/desert-dinner-party-dubai",
@@ -1480,6 +1474,31 @@
    "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
+   "url": "/blog/dubai-school-food-rules-2026",
+   "keyword": "dubai school food rules 2026",
+   "persona": "planner",
+   "control_title": "Dubai School Food Rules 2026 | Municipality Guide | myCHEF",
+   "control_description": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must be able to show you.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "planner",
+    "title_len": 58,
+    "description_len": 152
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
    "url": "/blog/grazing-table-vs-buffet-dubai",
    "keyword": "grazing table vs buffet dubai",
    "persona": "planner",
@@ -1501,8 +1520,8 @@
    "expected_ctr": 0.11,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/halal-private-dining-dubai-what-to-ask",
@@ -1553,8 +1572,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/how-much-does-private-chef-cost-dubai",
@@ -1578,8 +1597,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/how-to-hire-a-private-chef-dubai",
@@ -1603,8 +1622,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/iftar-at-home-dubai",
@@ -1620,6 +1639,60 @@
     "persona": "planner",
     "title_len": 36,
     "description_len": 144
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+   "keyword": "nursery provided meals vs packed lunch dubai",
+   "persona": "planner",
+   "control_title": "Nursery Meals vs Packed Lunch Dubai | How to Choose | myCHEF",
+   "control_description": "Provided nursery meals versus packed lunch in Dubai: nut-free control, parent trust, cost of running the kitchen, and when to outsource.",
+   "control_voice": {
+    "passed": false,
+    "score": 8,
+    "failures": [
+     "primary missing from title"
+    ],
+    "warnings": [],
+    "persona": "planner",
+    "title_len": 60,
+    "description_len": 136
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/blog/nut-free-halal-nursery-meals-dubai",
+   "keyword": "nut free nursery meals dubai",
+   "persona": "planner",
+   "control_title": "Nut-Free Nursery Meals Dubai | Allergen and Halal Guide | myCHEF",
+   "control_description": "How nut-free, allergen and halal nursery meals work in Dubai — labelling, kitchens and what to ask a caterer before you sign.",
+   "control_voice": {
+    "passed": false,
+    "score": 8,
+    "failures": [
+     "primary missing from title"
+    ],
+    "warnings": [],
+    "persona": "planner",
+    "title_len": 64,
+    "description_len": 125
    },
    "impressions": 0,
    "clicks": 0,
@@ -1703,8 +1776,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/private-chef-vs-restaurant-dubai",
@@ -1803,8 +1876,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
@@ -1928,8 +2001,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/buffet-vs-plated-dubai",
@@ -1945,6 +2018,31 @@
     "persona": "planner",
     "title_len": 31,
     "description_len": 126
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/canteen-management-dubai",
+   "keyword": "canteen management dubai",
+   "persona": "institution",
+   "control_title": "Canteen Management Dubai | Food, Not Software | myCHEF",
+   "control_description": "Canteen management Dubai is food, staff and a kitchen — not a POS app. Setup, staffing and a quote after we walk the room.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "institution",
+    "title_len": 54,
+    "description_len": 122
    },
    "impressions": 0,
    "clicks": 0,
@@ -1978,8 +2076,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/catering-cost-calculator-dubai",
@@ -2128,8 +2226,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/corporate-catering-checklist-dubai",
@@ -2153,8 +2251,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/corporate-dinner-package-dubai",
@@ -2278,8 +2376,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/drop-off-catering-dubai",
@@ -2378,8 +2476,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/eid-catering-dubai",
@@ -2405,8 +2503,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/engagement-catering-dubai",
@@ -2507,8 +2605,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/fitness-meal-prep-dubai",
@@ -2607,8 +2705,8 @@
    "expected_ctr": 0.15,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/halal-catering-dubai",
@@ -2632,8 +2730,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/halal-private-dining-dubai",
@@ -2657,8 +2755,33 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/hospital-catering-dubai",
+   "keyword": "hospital catering dubai",
+   "persona": "institution",
+   "control_title": "Hospital Catering Dubai | Patient and Staff Meals | myCHEF",
+   "control_description": "Hospital catering Dubai for staff cafeterias first, then patient meals when the kitchen and diet list can be documented. Quote after a site walk.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "institution",
+    "title_len": 58,
+    "description_len": 145
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/how-it-works",
@@ -2734,8 +2857,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/influencer-partnerships",
@@ -2751,6 +2874,31 @@
     "persona": "household",
     "title_len": 43,
     "description_len": 138
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/institutional-catering-dubai",
+   "keyword": "institutional catering dubai",
+   "persona": "institution",
+   "control_title": "Institutional Catering Dubai | Nurseries to Hospitals | myCHEF",
+   "control_description": "Institutional catering Dubai for nurseries, schools, hospitals and canteens. Documented kitchens, a quote after we see the site.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "institution",
+    "title_len": 62,
+    "description_len": 128
    },
    "impressions": 0,
    "clicks": 0,
@@ -2834,8 +2982,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/locations/al-barsha",
@@ -2859,8 +3007,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/locations/arabian-ranches",
@@ -2961,8 +3109,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/locations/downtown-dubai",
@@ -3088,8 +3236,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/locations/jlt",
@@ -3115,8 +3263,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/locations/jumeirah",
@@ -3267,8 +3415,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/luxury-dinner-planning-guide-dubai",
@@ -3319,8 +3467,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/menus",
@@ -3446,8 +3594,33 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
+  },
+  {
+   "url": "/nursery-catering-dubai",
+   "keyword": "nursery catering dubai",
+   "persona": "institution",
+   "control_title": "Nursery Catering Dubai | Daily Meals for Early Years | myCHEF",
+   "control_description": "Nursery catering Dubai for early-years meals. Documented kitchens, allergen lists, a quote after we see the site. WhatsApp the enrolment.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "institution",
+    "title_len": 61,
+    "description_len": 137
+   },
+   "impressions": 0,
+   "clicks": 0,
+   "position": null,
+   "ctr": 0.0,
+   "expected_ctr": 0.02,
+   "ctr_gap": 0.0,
+   "variants": [],
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/part-time-private-chef-dubai",
@@ -3496,8 +3669,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/partners/concierge-services-dubai",
@@ -3648,8 +3821,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/private-chef-dubai/pricing",
@@ -3725,8 +3898,8 @@
    "expected_ctr": 0.012,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/private-jet-catering-dubai",
@@ -3775,8 +3948,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/product-launch-catering-dubai",
@@ -3850,8 +4023,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/quality-guarantee-dubai",
@@ -4050,8 +4223,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/villa-catering-ideas-dubai",
@@ -4102,8 +4275,8 @@
    "expected_ctr": 0.04,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/vip-club",
@@ -4127,8 +4300,8 @@
    "expected_ctr": 0.28,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/wedding-catering-checklist-dubai",
@@ -4177,8 +4350,8 @@
    "expected_ctr": 0.28,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   },
   {
    "url": "/yacht-catering-checklist-dubai",
@@ -4227,8 +4400,8 @@
    "expected_ctr": 0.02,
    "ctr_gap": 0.0,
    "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
+   "status": "too_few_impressions",
+   "reason": "need 50+ Search Console impressions before a snippet test is honest"
   }
  ]
 }

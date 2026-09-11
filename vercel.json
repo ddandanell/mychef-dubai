@@ -192,12 +192,12 @@
     },
     {
       "source": "/university-catering-dubai",
-      "destination": "/luxury-dining-experiences",
+      "destination": "/institutional-catering-dubai",
       "statusCode": 301
     },
     {
       "source": "/government-event-catering-dubai",
-      "destination": "/luxury-dining-experiences",
+      "destination": "/corporate",
       "statusCode": 301
     },
     {

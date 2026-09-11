@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08 23:20",
+ "generated": "2026-09-11 09:48",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "216",
+   "value": "224",
    "label": "Contract URLs"
   }
  ],
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-09-08 22:06",
+  "generated": "2026-09-11 09:48",
   "connected": false,
   "error": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
   "required_scopes": [
@@ -2123,10 +2123,10 @@
   ]
  },
  "pages": {
-  "contract": 216,
-  "board": 216,
-  "routes": 166,
-  "frozen": 216,
+  "contract": 224,
+  "board": 224,
+  "routes": 174,
+  "frozen": 224,
   "missing_from_board": [],
   "missing_from_routes": [
    "/anniversary-catering-dubai",

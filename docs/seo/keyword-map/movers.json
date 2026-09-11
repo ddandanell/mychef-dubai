@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-04 12:31",
+ "generated": "2026-09-11 09:53",
  "window_days": 7,
  "recent": {
+  "from": "2026-09-02",
+  "to": "2026-09-08"
+ },
+ "prior": {
   "from": "2026-08-26",
   "to": "2026-09-01"
  },
- "prior": {
-  "from": "2026-08-19",
-  "to": "2026-08-25"
- },
- "lag_note": "Search Console reports 3 day(s) behind, so the week compared ends 2026-09-01. Comparing a part-reported day invents a fall that is not there.",
- "verdict": "Impressions up 754 (+13%) against the same days last week",
+ "lag_note": "Search Console reports 3 day(s) behind, so the week compared ends 2026-09-08. Comparing a part-reported day invents a fall that is not there.",
+ "verdict": "Impressions up 439 (+7%) against the same days last week",
  "totals": [
   {
    "metric": "impressions",
    "label": "Times shown in Google",
-   "recent": 6417,
-   "prior": 5663,
-   "delta": 754,
-   "pct": 13.3,
+   "recent": 6856,
+   "prior": 6417,
+   "delta": 439,
+   "pct": 6.8,
    "better": "up",
    "direction": "up",
    "verdict": "good"
@@ -26,10 +26,10 @@
   {
    "metric": "clicks",
    "label": "Clicks from Google",
-   "recent": 51,
-   "prior": 27,
-   "delta": 24,
-   "pct": 88.9,
+   "recent": 55,
+   "prior": 51,
+   "delta": 4,
+   "pct": 7.8,
    "better": "up",
    "direction": "up",
    "verdict": "good"
@@ -37,21 +37,21 @@
   {
    "metric": "position",
    "label": "Average position",
-   "recent": 33.5,
-   "prior": 33.1,
-   "delta": 0.4,
+   "recent": 32.8,
+   "prior": 33.5,
+   "delta": -0.7,
    "pct": null,
    "better": "down",
-   "direction": "up",
-   "verdict": "bad"
+   "direction": "down",
+   "verdict": "good"
   },
   {
    "metric": "sessions",
    "label": "Sessions (GA4)",
-   "recent": 28,
-   "prior": 37,
+   "recent": 19,
+   "prior": 28,
    "delta": -9,
-   "pct": -24.3,
+   "pct": -32.1,
    "better": "up",
    "direction": "down",
    "verdict": "bad"
@@ -59,66 +59,16 @@
   {
    "metric": "contacts",
    "label": "WhatsApp, calls and forms",
-   "recent": 13,
-   "prior": 0,
-   "delta": 13,
-   "pct": 100.0,
+   "recent": 17,
+   "prior": 13,
+   "delta": 4,
+   "pct": 30.8,
    "better": "up",
    "direction": "up",
-   "verdict": "new source",
-   "note": "nothing was recorded for this in the earlier week — the source started collecting since, so this is not a real week-on-week rise"
+   "verdict": "good"
   }
  ],
  "series": [
-  {
-   "day": "2026-08-19",
-   "clicks": 4,
-   "impressions": 975,
-   "position": 37.1,
-   "sessions": 0
-  },
-  {
-   "day": "2026-08-20",
-   "clicks": 5,
-   "impressions": 882,
-   "position": 40.9,
-   "sessions": 0
-  },
-  {
-   "day": "2026-08-21",
-   "clicks": 5,
-   "impressions": 710,
-   "position": 37.6,
-   "sessions": 0
-  },
-  {
-   "day": "2026-08-22",
-   "clicks": 4,
-   "impressions": 550,
-   "position": 29.3,
-   "sessions": 1
-  },
-  {
-   "day": "2026-08-23",
-   "clicks": 1,
-   "impressions": 593,
-   "position": 31.1,
-   "sessions": 5
-  },
-  {
-   "day": "2026-08-24",
-   "clicks": 5,
-   "impressions": 817,
-   "position": 32.2,
-   "sessions": 12
-  },
-  {
-   "day": "2026-08-25",
-   "clicks": 3,
-   "impressions": 1136,
-   "position": 24.2,
-   "sessions": 19
-  },
   {
    "day": "2026-08-26",
    "clicks": 5,
@@ -167,6 +117,55 @@
    "impressions": 1051,
    "position": 29.4,
    "sessions": 1
+  },
+  {
+   "day": "2026-09-02",
+   "clicks": 11,
+   "impressions": 977,
+   "position": 29.2,
+   "sessions": 4
+  },
+  {
+   "day": "2026-09-03",
+   "clicks": 6,
+   "impressions": 1008,
+   "position": 34.4,
+   "sessions": 1
+  },
+  {
+   "day": "2026-09-04",
+   "clicks": 3,
+   "impressions": 990,
+   "position": 28.9,
+   "sessions": 4
+  },
+  {
+   "day": "2026-09-05",
+   "clicks": 9,
+   "impressions": 867,
+   "position": 30.7,
+   "sessions": 0
+  },
+  {
+   "day": "2026-09-06",
+   "clicks": 10,
+   "impressions": 896,
+   "position": 31.9,
+   "sessions": 1
+  },
+  {
+   "day": "2026-09-07",
+   "clicks": 6,
+   "impressions": 1197,
+   "position": 38.6,
+   "sessions": 0
+  },
+  {
+   "day": "2026-09-08",
+   "clicks": 10,
+   "impressions": 921,
+   "position": 34.3,
+   "sessions": 9
   }
  ],
  "pages_up": [
@@ -174,25 +173,25 @@
    "url": "/catering-dubai",
    "primary": "catering dubai",
    "clicks_recent": 1,
-   "clicks_prior": 0,
-   "clicks_delta": 1,
-   "impr_recent": 963,
-   "impr_prior": 0,
-   "impr_delta": 963,
-   "impr_pct": 100.0,
-   "pos_recent": 48.9,
-   "pos_prior": null,
-   "pos_delta": null,
-   "ctr_recent": 0.001,
-   "ctr_prior": null,
+   "clicks_prior": 1,
+   "clicks_delta": 0,
+   "impr_recent": 1659,
+   "impr_prior": 963,
+   "impr_delta": 696,
+   "impr_pct": 72.3,
+   "pos_recent": 49.5,
+   "pos_prior": 48.9,
+   "pos_delta": 0.6,
+   "ctr_recent": 0.0006,
+   "ctr_prior": 0.001,
    "sessions_recent": 0,
-   "sessions_prior": 2,
-   "contacts_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 1,
    "contacts_prior": 0,
    "why": {
-    "shape": "new",
-    "headline": "New in search — Google started showing this page",
-    "detail": "+963 impressions · +1 clicks",
+    "shape": "demand",
+    "headline": "More people searched for this — the position barely moved",
+    "detail": "+696 impressions",
     "confidence": "possible",
     "cause": {
      "day": "2026-08-26",
@@ -206,237 +205,33 @@
    "direction": "up"
   },
   {
-   "url": "/events",
-   "primary": "event catering dubai",
-   "clicks_recent": 1,
-   "clicks_prior": 0,
-   "clicks_delta": 1,
-   "impr_recent": 685,
-   "impr_prior": 0,
-   "impr_delta": 685,
-   "impr_pct": 100.0,
-   "pos_recent": 42.7,
-   "pos_prior": null,
-   "pos_delta": null,
-   "ctr_recent": 0.0015,
-   "ctr_prior": null,
-   "sessions_recent": 0,
-   "sessions_prior": 1,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "new",
-    "headline": "New in search — Google started showing this page",
-    "detail": "+685 impressions · +1 clicks",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-09-04",
-     "kind": "page",
-     "summary": "fix(seo): place remaining exact-phrase fills and festive inlinks",
-     "ref": "07db376",
-     "source": "git"
-    },
-    "changes": 23
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/corporate",
-   "primary": "corporate catering dubai",
+   "url": "/corporate-event-catering-dubai",
+   "primary": "corporate event catering dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 1137,
-   "impr_prior": 740,
-   "impr_delta": 397,
-   "impr_pct": 53.6,
-   "pos_recent": 34.6,
-   "pos_prior": 34.6,
-   "pos_delta": -0.1,
+   "impr_recent": 232,
+   "impr_prior": 1,
+   "impr_delta": 231,
+   "impr_pct": 23100.0,
+   "pos_recent": 64.8,
+   "pos_prior": 97.0,
+   "pos_delta": -32.2,
    "ctr_recent": 0.0,
    "ctr_prior": 0.0,
    "sessions_recent": 0,
-   "sessions_prior": 1,
-   "contacts_recent": 1,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "demand",
-    "headline": "More people searched for this — the position barely moved",
-    "detail": "+397 impressions",
-    "confidence": "possible",
-    "cause": {
-     "day": "2026-08-31",
-     "kind": "copy",
-     "summary": "fix: homepage copy, info@ email, rounded prep prices, and paid-review removal",
-     "ref": "4d4e02c",
-     "source": "git"
-    },
-    "changes": 31
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/private-chef-dubai/pricing",
-   "primary": null,
-   "clicks_recent": 7,
-   "clicks_prior": 1,
-   "clicks_delta": 6,
-   "impr_recent": 432,
-   "impr_prior": 76,
-   "impr_delta": 356,
-   "impr_pct": 468.4,
-   "pos_recent": 12.1,
-   "pos_prior": 12.9,
-   "pos_delta": -0.8,
-   "ctr_recent": 0.0162,
-   "ctr_prior": 0.0132,
-   "sessions_recent": 0,
-   "sessions_prior": 1,
-   "contacts_recent": 1,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
    "contacts_prior": 0,
    "why": {
     "shape": "ranking",
     "headline": "Ranking higher, so it is shown more",
-    "detail": "position 12.9 → 12.1 · +356 impressions · +6 clicks",
-    "confidence": "unattributed",
-    "cause": null,
-    "changes": 0
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/yacht-catering-checklist-dubai",
-   "primary": "yacht catering checklist dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 64,
-   "impr_prior": 0,
-   "impr_delta": 64,
-   "impr_pct": 100.0,
-   "pos_recent": 26.0,
-   "pos_prior": null,
-   "pos_delta": null,
-   "ctr_recent": 0.0,
-   "ctr_prior": null,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "new",
-    "headline": "New in search — Google started showing this page",
-    "detail": "+64 impressions",
-    "confidence": "possible",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "15 edit(s) on /yacht-catering-checklist-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 1
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/wedding-catering-menu-planning-dubai",
-   "primary": "wedding menu planning dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 230,
-   "impr_prior": 175,
-   "impr_delta": 55,
-   "impr_pct": 31.4,
-   "pos_recent": 29.4,
-   "pos_prior": 29.0,
-   "pos_delta": 0.4,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "demand",
-    "headline": "More people searched for this — the position barely moved",
-    "detail": "+55 impressions",
-    "confidence": "possible",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "9 edit(s) on /wedding-catering-menu-planning-dubai: 6× faq, 1× opening, 1× h1, 1× description",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 3
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/our-chefs",
-   "primary": "private chefs dubai",
-   "clicks_recent": 1,
-   "clicks_prior": 0,
-   "clicks_delta": 1,
-   "impr_recent": 55,
-   "impr_prior": 0,
-   "impr_delta": 55,
-   "impr_pct": 100.0,
-   "pos_recent": 58.4,
-   "pos_prior": null,
-   "pos_delta": null,
-   "ctr_recent": 0.0182,
-   "ctr_prior": null,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 1,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "new",
-    "headline": "New in search — Google started showing this page",
-    "detail": "+55 impressions · +1 clicks",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-09-03",
-     "kind": "page",
-     "summary": "fix(seo): place five remaining exact-phrase subkeywords",
-     "ref": "fe7230d",
-     "source": "git"
-    },
-    "changes": 25
-   },
-   "direction": "up"
-  },
-  {
-   "url": "/yacht-catering-guide-dubai",
-   "primary": "yacht catering guide dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 228,
-   "impr_prior": 183,
-   "impr_delta": 45,
-   "impr_pct": 24.6,
-   "pos_recent": 45.6,
-   "pos_prior": 29.0,
-   "pos_delta": 16.6,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown more, but further down — the new impressions are arriving below the old ones, which drags the average position down",
-    "detail": "position 29.0 → 45.6 · +45 impressions",
+    "detail": "position 97.0 → 64.8 · +231 impressions",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-26",
      "kind": "copy",
-     "summary": "14 edit(s) on /yacht-catering-guide-dubai: 6× faq, 5× body, 1× h2, 1× h1, 1× description",
+     "summary": "5 edit(s) on /corporate-event-catering-dubai: 3× faq, 2× h2",
      "ref": "",
      "source": "optimizer"
     },
@@ -445,72 +240,60 @@
    "direction": "up"
   },
   {
-   "url": "/wedding-catering-checklist-dubai",
-   "primary": "wedding catering checklist dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 35,
-   "impr_prior": 0,
-   "impr_delta": 35,
-   "impr_pct": 100.0,
-   "pos_recent": 12.9,
-   "pos_prior": null,
-   "pos_delta": null,
-   "ctr_recent": 0.0,
-   "ctr_prior": null,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
+   "url": "/",
+   "primary": "mychef dubai",
+   "clicks_recent": 19,
+   "clicks_prior": 10,
+   "clicks_delta": 9,
+   "impr_recent": 771,
+   "impr_prior": 637,
+   "impr_delta": 134,
+   "impr_pct": 21.0,
+   "pos_recent": 13.8,
+   "pos_prior": 16.8,
+   "pos_delta": -3.0,
+   "ctr_recent": 0.0246,
+   "ctr_prior": 0.0157,
+   "sessions_recent": 2,
+   "sessions_prior": 2,
+   "contacts_recent": 6,
+   "contacts_prior": 5,
    "why": {
-    "shape": "new",
-    "headline": "New in search — Google started showing this page",
-    "detail": "+35 impressions",
-    "confidence": "possible",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "9 edit(s) on /wedding-catering-checklist-dubai: 7× faq, 1× h1, 1× description",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 1
+    "shape": "ranking",
+    "headline": "Ranking higher, so it is shown more",
+    "detail": "position 16.8 → 13.8 · click rate 1.6% → 2.5% · +134 impressions · +9 clicks",
+    "confidence": "unattributed",
+    "cause": null,
+    "changes": 0
    },
    "direction": "up"
   },
   {
-   "url": "/yachts",
-   "primary": "yacht catering dubai",
-   "clicks_recent": 0,
+   "url": "/chefs/marco-italian-chef",
+   "primary": "italian private chef dubai",
+   "clicks_recent": 2,
    "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 316,
-   "impr_prior": 285,
-   "impr_delta": 31,
-   "impr_pct": 10.9,
-   "pos_recent": 43.3,
-   "pos_prior": 45.0,
-   "pos_delta": -1.6,
-   "ctr_recent": 0.0,
+   "clicks_delta": 2,
+   "impr_recent": 102,
+   "impr_prior": 1,
+   "impr_delta": 101,
+   "impr_pct": 10100.0,
+   "pos_recent": 6.7,
+   "pos_prior": 7.0,
+   "pos_delta": -0.3,
+   "ctr_recent": 0.0196,
    "ctr_prior": 0.0,
    "sessions_recent": 0,
    "sessions_prior": 0,
    "contacts_recent": 0,
    "contacts_prior": 0,
    "why": {
-    "shape": "ranking",
-    "headline": "Moved up the results page",
-    "detail": "position 45.0 → 43.3 · +31 impressions",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-31",
-     "kind": "copy",
-     "summary": "fix(seo): stop homepage ranking for private chef dubai",
-     "ref": "5119e88",
-     "source": "git"
-    },
-    "changes": 20
+    "shape": "demand",
+    "headline": "More people searched for this — the position barely moved",
+    "detail": "click rate 0.0% → 2.0% · +101 impressions · +2 clicks",
+    "confidence": "no change on this page",
+    "cause": null,
+    "changes": 0
    },
    "direction": "up"
   },
@@ -520,23 +303,23 @@
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 40,
-   "impr_prior": 14,
-   "impr_delta": 26,
-   "impr_pct": 185.7,
-   "pos_recent": 52.2,
-   "pos_prior": 12.5,
-   "pos_delta": 39.6,
+   "impr_recent": 86,
+   "impr_prior": 40,
+   "impr_delta": 46,
+   "impr_pct": 115.0,
+   "pos_recent": 41.1,
+   "pos_prior": 52.2,
+   "pos_delta": -11.1,
    "ctr_recent": 0.0,
    "ctr_prior": 0.0,
    "sessions_recent": 0,
-   "sessions_prior": 1,
+   "sessions_prior": 0,
    "contacts_recent": 0,
    "contacts_prior": 0,
    "why": {
-    "shape": "coverage",
-    "headline": "Shown more, but further down — the new impressions are arriving below the old ones, which drags the average position down",
-    "detail": "position 12.5 → 52.2 · +26 impressions",
+    "shape": "ranking",
+    "headline": "Ranking higher, so it is shown more",
+    "detail": "position 52.2 → 41.1 · +46 impressions",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-28",
@@ -550,20 +333,160 @@
    "direction": "up"
   },
   {
-   "url": "/wellness-meal-prep-dubai",
-   "primary": "healthy meal prep dubai",
-   "clicks_recent": 4,
+   "url": "/cuisines-dubai",
+   "primary": "multi cuisine catering dubai",
+   "clicks_recent": 1,
+   "clicks_prior": 0,
+   "clicks_delta": 1,
+   "impr_recent": 42,
+   "impr_prior": 6,
+   "impr_delta": 36,
+   "impr_pct": 600.0,
+   "pos_recent": 20.6,
+   "pos_prior": 3.7,
+   "pos_delta": 16.9,
+   "ctr_recent": 0.0238,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 1,
+   "contacts_recent": 0,
+   "contacts_prior": 1,
+   "why": {
+    "shape": "coverage",
+    "headline": "Shown more, but further down — the new impressions are arriving below the old ones, which drags the average position down",
+    "detail": "position 3.7 → 20.6 · click rate 0.0% → 2.4% · +36 impressions · +1 clicks",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "7 edit(s) on /cuisines-dubai: 5× body, 1× faq, 1× h2",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 7
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/our-chefs",
+   "primary": "private chefs dubai",
+   "clicks_recent": 2,
    "clicks_prior": 1,
-   "clicks_delta": 3,
-   "impr_recent": 32,
-   "impr_prior": 14,
-   "impr_delta": 18,
-   "impr_pct": 128.6,
-   "pos_recent": 10.6,
-   "pos_prior": 12.1,
-   "pos_delta": -1.5,
-   "ctr_recent": 0.125,
-   "ctr_prior": 0.0714,
+   "clicks_delta": 1,
+   "impr_recent": 89,
+   "impr_prior": 55,
+   "impr_delta": 34,
+   "impr_pct": 61.8,
+   "pos_recent": 43.7,
+   "pos_prior": 58.4,
+   "pos_delta": -14.7,
+   "ctr_recent": 0.0225,
+   "ctr_prior": 0.0182,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 1,
+   "why": {
+    "shape": "ranking",
+    "headline": "Ranking higher, so it is shown more",
+    "detail": "position 58.4 → 43.7 · +34 impressions · +1 clicks",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-09-09",
+     "kind": "copy",
+     "summary": "feat(seo): institutional catering cluster, CRM engine, and SEO OS rooms",
+     "ref": "32399e3",
+     "source": "git"
+    },
+    "changes": 26
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/locations/al-barsha",
+   "primary": "private chef al barsha",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 53,
+   "impr_prior": 20,
+   "impr_delta": 33,
+   "impr_pct": 165.0,
+   "pos_recent": 12.0,
+   "pos_prior": 11.6,
+   "pos_delta": 0.4,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "demand",
+    "headline": "More people searched for this — the position barely moved",
+    "detail": "+33 impressions",
+    "confidence": "possible",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "3 edit(s) on /locations/al-barsha: 1× h1, 1× description, 1× title",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 3
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/yacht-catering-checklist-dubai",
+   "primary": "yacht catering checklist dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 90,
+   "impr_prior": 64,
+   "impr_delta": 26,
+   "impr_pct": 40.6,
+   "pos_recent": 26.7,
+   "pos_prior": 26.0,
+   "pos_delta": 0.7,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "coverage",
+    "headline": "Shown more, but further down — the new impressions are arriving below the old ones, which drags the average position down",
+    "detail": "position 26.0 → 26.7 · +26 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "15 edit(s) on /yacht-catering-checklist-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 1
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/bbq-catering-dubai",
+   "primary": "bbq catering dubai",
+   "clicks_recent": 1,
+   "clicks_prior": 0,
+   "clicks_delta": 1,
+   "impr_recent": 67,
+   "impr_prior": 45,
+   "impr_delta": 22,
+   "impr_pct": 48.9,
+   "pos_recent": 17.3,
+   "pos_prior": 16.8,
+   "pos_delta": 0.6,
+   "ctr_recent": 0.0149,
+   "ctr_prior": 0.0,
    "sessions_recent": 0,
    "sessions_prior": 0,
    "contacts_recent": 0,
@@ -571,7 +494,143 @@
    "why": {
     "shape": "snippet",
     "headline": "Same searches, more clicks — the title and description are winning more of them",
-    "detail": "position 12.1 → 10.6 · click rate 7.1% → 12.5% · +18 impressions · +3 clicks",
+    "detail": "click rate 0.0% → 1.5% · +22 impressions · +1 clicks",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "22 edit(s) on /bbq-catering-dubai: 7× body, 3× faq, 4× h2, 4× h1, 4× description",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 3
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/canape-catering-dubai",
+   "primary": "canape catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 42,
+   "impr_prior": 20,
+   "impr_delta": 22,
+   "impr_pct": 110.0,
+   "pos_recent": 14.5,
+   "pos_prior": 7.1,
+   "pos_delta": 7.3,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Slipped down the results page",
+    "detail": "position 7.1 → 14.5 · +22 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "23 edit(s) on /canape-catering-dubai: 6× body, 4× faq, 4× h2, 4× h1, 4× description, 1× title",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 4
+   },
+   "direction": "up"
+  },
+  {
+   "url": "/corporate-catering-dubai",
+   "primary": null,
+   "clicks_recent": 0,
+   "clicks_prior": 1,
+   "clicks_delta": -1,
+   "impr_recent": 34,
+   "impr_prior": 12,
+   "impr_delta": 22,
+   "impr_pct": 183.3,
+   "pos_recent": 20.7,
+   "pos_prior": 54.9,
+   "pos_delta": -34.2,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0833,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "snippet",
+    "headline": "Same searches, fewer clicks — the snippet is losing them",
+    "detail": "position 54.9 → 20.7 · click rate 8.3% → 0.0% · +22 impressions · -1 clicks",
+    "confidence": "unattributed",
+    "cause": null,
+    "changes": 0
+   },
+   "direction": "up"
+  }
+ ],
+ "pages_down": [
+  {
+   "url": "/events",
+   "primary": "event catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 1,
+   "clicks_delta": -1,
+   "impr_recent": 251,
+   "impr_prior": 685,
+   "impr_delta": -434,
+   "impr_pct": -63.4,
+   "pos_recent": 57.3,
+   "pos_prior": 42.7,
+   "pos_delta": 14.5,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0015,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Ranking lower, so it is shown less",
+    "detail": "position 42.7 → 57.3 · -434 impressions · -1 clicks",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-09-09",
+     "kind": "copy",
+     "summary": "feat(seo): institutional catering cluster, CRM engine, and SEO OS rooms",
+     "ref": "32399e3",
+     "source": "git"
+    },
+    "changes": 24
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/corporate",
+   "primary": "corporate catering dubai",
+   "clicks_recent": 2,
+   "clicks_prior": 0,
+   "clicks_delta": 2,
+   "impr_recent": 978,
+   "impr_prior": 1137,
+   "impr_delta": -159,
+   "impr_pct": -14.0,
+   "pos_recent": 32.3,
+   "pos_prior": 34.6,
+   "pos_delta": -2.3,
+   "ctr_recent": 0.002,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 1,
+   "why": {
+    "shape": "ranking",
+    "headline": "Moved up the results page",
+    "detail": "position 34.6 → 32.3 · -159 impressions · +2 clicks",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-31",
@@ -580,332 +639,33 @@
      "ref": "4d4e02c",
      "source": "git"
     },
-    "changes": 4
-   },
-   "direction": "up"
-  }
- ],
- "pages_down": [
-  {
-   "url": "/private-party-catering-dubai",
-   "primary": "private party catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 1,
-   "clicks_delta": -1,
-   "impr_recent": 5,
-   "impr_prior": 208,
-   "impr_delta": -203,
-   "impr_pct": -97.6,
-   "pos_recent": 58.6,
-   "pos_prior": 55.1,
-   "pos_delta": 3.5,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0048,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "ranking",
-    "headline": "Ranking lower, so it is shown less",
-    "detail": "position 55.1 → 58.6 · -203 impressions · -1 clicks",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "3 edit(s) on /private-party-catering-dubai: 3× faq",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 4
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/kids-birthday-catering-dubai",
-   "primary": null,
-   "clicks_recent": 0,
-   "clicks_prior": 1,
-   "clicks_delta": -1,
-   "impr_recent": 7,
-   "impr_prior": 196,
-   "impr_delta": -189,
-   "impr_pct": -96.4,
-   "pos_recent": 12.4,
-   "pos_prior": 41.2,
-   "pos_delta": -28.8,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0051,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 41.2 → 12.4 · -189 impressions · -1 clicks",
-    "confidence": "unattributed",
-    "cause": null,
-    "changes": 0
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/blog/corporate-event-catering-ideas-dubai",
-   "primary": "corporate event catering ideas dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 0,
-   "impr_prior": 160,
-   "impr_delta": -160,
-   "impr_pct": -100.0,
-   "pos_recent": null,
-   "pos_prior": 53.3,
-   "pos_delta": null,
-   "ctr_recent": null,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "gone",
-    "headline": "Disappeared from search — no impressions at all this week",
-    "detail": "-160 impressions",
-    "confidence": "possible",
-    "cause": {
-     "day": "2026-08-28",
-     "kind": "copy",
-     "summary": "feat(seo): restore nested prices URL, stop homepage stealing hub queries",
-     "ref": "f76907c",
-     "source": "git"
-    },
-    "changes": 10
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/business-lunch-catering-dubai",
-   "primary": "business lunch catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 19,
-   "impr_prior": 177,
-   "impr_delta": -158,
-   "impr_pct": -89.3,
-   "pos_recent": 10.8,
-   "pos_prior": 38.6,
-   "pos_delta": -27.8,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 1,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 38.6 → 10.8 · -158 impressions",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "11 edit(s) on /business-lunch-catering-dubai: 6× body, 3× faq, 1× description, 1× h2",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 2
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/party-catering-dubai",
-   "primary": null,
-   "clicks_recent": 2,
-   "clicks_prior": 0,
-   "clicks_delta": 2,
-   "impr_recent": 17,
-   "impr_prior": 159,
-   "impr_delta": -142,
-   "impr_pct": -89.3,
-   "pos_recent": 44.1,
-   "pos_prior": 45.9,
-   "pos_delta": -1.8,
-   "ctr_recent": 0.1176,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 45.9 → 44.1 · -142 impressions · +2 clicks",
-    "confidence": "unattributed",
-    "cause": null,
-    "changes": 0
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/cocktail-party-catering-dubai",
-   "primary": "cocktail party catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 30,
-   "impr_prior": 169,
-   "impr_delta": -139,
-   "impr_pct": -82.2,
-   "pos_recent": 13.9,
-   "pos_prior": 16.6,
-   "pos_delta": -2.7,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 16.6 → 13.9 · -139 impressions",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "9 edit(s) on /cocktail-party-catering-dubai: 5× body, 1× faq, 1× h2, 1× h1, 1× description",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 4
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/arabic-catering-dubai",
-   "primary": "arabic catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 3,
-   "clicks_delta": -3,
-   "impr_recent": 5,
-   "impr_prior": 107,
-   "impr_delta": -102,
-   "impr_pct": -95.3,
-   "pos_recent": 9.0,
-   "pos_prior": 24.8,
-   "pos_delta": -15.8,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.028,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 24.8 → 9.0 · -102 impressions · -3 clicks",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "7 edit(s) on /arabic-catering-dubai: 5× body, 1× faq, 1× h2",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 4
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/brunch-catering-dubai",
-   "primary": "brunch catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 1,
-   "clicks_delta": -1,
-   "impr_recent": 1,
-   "impr_prior": 97,
-   "impr_delta": -96,
-   "impr_pct": -99.0,
-   "pos_recent": 7.0,
-   "pos_prior": 37.3,
-   "pos_delta": -30.3,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0103,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 37.3 → 7.0 · -96 impressions · -1 clicks",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "15 edit(s) on /brunch-catering-dubai: 6× body, 6× faq, 1× h2, 1× h1, 1× description",
-     "ref": "",
-     "source": "optimizer"
-    },
-    "changes": 3
-   },
-   "direction": "down"
-  },
-  {
-   "url": "/",
-   "primary": "private chef and catering dubai",
-   "clicks_recent": 10,
-   "clicks_prior": 7,
-   "clicks_delta": 3,
-   "impr_recent": 637,
-   "impr_prior": 726,
-   "impr_delta": -89,
-   "impr_pct": -12.3,
-   "pos_recent": 16.8,
-   "pos_prior": 21.3,
-   "pos_delta": -4.5,
-   "ctr_recent": 0.0157,
-   "ctr_prior": 0.0096,
-   "sessions_recent": 2,
-   "sessions_prior": 9,
-   "contacts_recent": 5,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "snippet",
-    "headline": "Same searches, more clicks — the title and description are winning more of them",
-    "detail": "position 21.3 → 16.8 · click rate 1.0% → 1.6% · -89 impressions · +3 clicks",
-    "confidence": "unattributed",
-    "cause": null,
-    "changes": 0
+    "changes": 31
    },
    "direction": "down"
   },
   {
    "url": "/luxury-dining-experiences",
    "primary": "private dining experience dubai",
-   "clicks_recent": 1,
-   "clicks_prior": 2,
+   "clicks_recent": 0,
+   "clicks_prior": 1,
    "clicks_delta": -1,
-   "impr_recent": 234,
-   "impr_prior": 307,
-   "impr_delta": -73,
-   "impr_pct": -23.8,
-   "pos_recent": 32.2,
-   "pos_prior": 31.2,
-   "pos_delta": 1.0,
-   "ctr_recent": 0.0043,
-   "ctr_prior": 0.0065,
+   "impr_recent": 76,
+   "impr_prior": 234,
+   "impr_delta": -158,
+   "impr_pct": -67.5,
+   "pos_recent": 20.9,
+   "pos_prior": 32.2,
+   "pos_delta": -11.3,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0043,
    "sessions_recent": 0,
-   "sessions_prior": 2,
+   "sessions_prior": 0,
    "contacts_recent": 0,
    "contacts_prior": 0,
    "why": {
-    "shape": "ranking",
-    "headline": "Ranking lower, so it is shown less",
-    "detail": "position 31.2 → 32.2 · -73 impressions · -1 clicks",
+    "shape": "coverage",
+    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
+    "detail": "position 32.2 → 20.9 · -158 impressions · -1 clicks",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-26",
@@ -919,18 +679,152 @@
    "direction": "down"
   },
   {
-   "url": "/canape-catering-dubai",
-   "primary": "canape catering dubai",
+   "url": "/private-chef-dubai/pricing",
+   "primary": "private chef dubai price",
+   "clicks_recent": 6,
+   "clicks_prior": 7,
+   "clicks_delta": -1,
+   "impr_recent": 310,
+   "impr_prior": 432,
+   "impr_delta": -122,
+   "impr_pct": -28.2,
+   "pos_recent": 10.1,
+   "pos_prior": 12.1,
+   "pos_delta": -2.0,
+   "ctr_recent": 0.0194,
+   "ctr_prior": 0.0162,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 1,
+   "why": {
+    "shape": "coverage",
+    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
+    "detail": "position 12.1 → 10.1 · -122 impressions · -1 clicks",
+    "confidence": "unattributed",
+    "cause": null,
+    "changes": 0
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/festive-catering-dubai",
+   "primary": "festive catering dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 20,
-   "impr_prior": 91,
-   "impr_delta": -71,
-   "impr_pct": -78.0,
-   "pos_recent": 7.1,
-   "pos_prior": 21.4,
-   "pos_delta": -14.2,
+   "impr_recent": 0,
+   "impr_prior": 97,
+   "impr_delta": -97,
+   "impr_pct": -100.0,
+   "pos_recent": null,
+   "pos_prior": 26.9,
+   "pos_delta": null,
+   "ctr_recent": null,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "gone",
+    "headline": "Disappeared from search — no impressions at all this week",
+    "detail": "-97 impressions",
+    "confidence": "possible",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "10 edit(s) on /festive-catering-dubai: 8× faq, 1× h2, 1× description",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 3
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/catering-packages-dubai",
+   "primary": "catering packages dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 18,
+   "impr_prior": 92,
+   "impr_delta": -74,
+   "impr_pct": -80.4,
+   "pos_recent": 83.0,
+   "pos_prior": 73.0,
+   "pos_delta": 10.0,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Ranking lower, so it is shown less",
+    "detail": "position 73.0 → 83.0 · -74 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-31",
+     "kind": "copy",
+     "summary": "fix: homepage copy, info@ email, rounded prep prices, and paid-review removal",
+     "ref": "4d4e02c",
+     "source": "git"
+    },
+    "changes": 6
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/private-chef-dubai",
+   "primary": "private chef dubai",
+   "clicks_recent": 5,
+   "clicks_prior": 9,
+   "clicks_delta": -4,
+   "impr_recent": 203,
+   "impr_prior": 241,
+   "impr_delta": -38,
+   "impr_pct": -15.8,
+   "pos_recent": 19.6,
+   "pos_prior": 22.1,
+   "pos_delta": -2.5,
+   "ctr_recent": 0.0246,
+   "ctr_prior": 0.0373,
+   "sessions_recent": 1,
+   "sessions_prior": 10,
+   "contacts_recent": 2,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "coverage",
+    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
+    "detail": "position 22.1 → 19.6 · click rate 3.7% → 2.5% · -38 impressions · -4 clicks",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-28",
+     "kind": "copy",
+     "summary": "feat(seo): restore nested prices URL, stop homepage stealing hub queries",
+     "ref": "f76907c",
+     "source": "git"
+    },
+    "changes": 9
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/corporate-catering-checklist-dubai",
+   "primary": "corporate catering checklist dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 68,
+   "impr_prior": 99,
+   "impr_delta": -31,
+   "impr_pct": -31.3,
+   "pos_recent": 42.8,
+   "pos_prior": 47.7,
+   "pos_delta": -4.9,
    "ctr_recent": 0.0,
    "ctr_prior": 0.0,
    "sessions_recent": 0,
@@ -940,300 +834,609 @@
    "why": {
     "shape": "coverage",
     "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 21.4 → 7.1 · -71 impressions",
+    "detail": "position 47.7 → 42.8 · -31 impressions",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-26",
      "kind": "copy",
-     "summary": "23 edit(s) on /canape-catering-dubai: 4× faq, 6× body, 4× h2, 4× h1, 4× description, 1× title",
+     "summary": "15 edit(s) on /corporate-catering-checklist-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
      "ref": "",
      "source": "optimizer"
     },
-    "changes": 4
+    "changes": 1
    },
    "direction": "down"
   },
   {
-   "url": "/buffet-catering-dubai",
-   "primary": "buffet catering dubai",
+   "url": "/wedding-catering-menu-planning-dubai",
+   "primary": "wedding menu planning dubai",
    "clicks_recent": 0,
-   "clicks_prior": 1,
-   "clicks_delta": -1,
-   "impr_recent": 2,
-   "impr_prior": 66,
-   "impr_delta": -64,
-   "impr_pct": -97.0,
-   "pos_recent": 6.5,
-   "pos_prior": 36.8,
-   "pos_delta": -30.3,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 203,
+   "impr_prior": 230,
+   "impr_delta": -27,
+   "impr_pct": -11.7,
+   "pos_recent": 25.5,
+   "pos_prior": 29.4,
+   "pos_delta": -3.9,
    "ctr_recent": 0.0,
-   "ctr_prior": 0.0152,
+   "ctr_prior": 0.0,
    "sessions_recent": 0,
    "sessions_prior": 0,
    "contacts_recent": 0,
    "contacts_prior": 0,
    "why": {
-    "shape": "coverage",
-    "headline": "Shown less, on fewer queries — the average position only looks better because the deep long-tail impressions are gone",
-    "detail": "position 36.8 → 6.5 · -64 impressions · -1 clicks",
+    "shape": "ranking",
+    "headline": "Moved up the results page",
+    "detail": "position 29.4 → 25.5 · -27 impressions",
     "confidence": "likely",
     "cause": {
      "day": "2026-08-26",
      "kind": "copy",
-     "summary": "feat(seo): site-wide keyword optimizer pass, ownership file, /seo publication and Neon store",
-     "ref": "b221ac8",
+     "summary": "9 edit(s) on /wedding-catering-menu-planning-dubai: 6× faq, 1× opening, 1× h1, 1× description",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 3
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/wedding-catering-checklist-dubai",
+   "primary": "wedding catering checklist dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 17,
+   "impr_prior": 35,
+   "impr_delta": -18,
+   "impr_pct": -51.4,
+   "pos_recent": 20.7,
+   "pos_prior": 12.9,
+   "pos_delta": 7.7,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Slipped down the results page",
+    "detail": "position 12.9 → 20.7 · -18 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "9 edit(s) on /wedding-catering-checklist-dubai: 7× faq, 1× h1, 1× description",
+     "ref": "",
+     "source": "optimizer"
+    },
+    "changes": 1
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/yachts",
+   "primary": "yacht catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 303,
+   "impr_prior": 316,
+   "impr_delta": -13,
+   "impr_pct": -4.1,
+   "pos_recent": 33.7,
+   "pos_prior": 43.3,
+   "pos_delta": -9.6,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Moved up the results page",
+    "detail": "position 43.3 → 33.7 · -13 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-09-10",
+     "kind": "copy",
+     "summary": "feat: add indicative yacht catering prices and estimator",
+     "ref": "9028c96",
      "source": "git"
+    },
+    "changes": 21
+   },
+   "direction": "down"
+  },
+  {
+   "url": "/cocktail-party-catering-dubai",
+   "primary": "cocktail party catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 20,
+   "impr_prior": 30,
+   "impr_delta": -10,
+   "impr_pct": -33.3,
+   "pos_recent": 11.4,
+   "pos_prior": 13.9,
+   "pos_delta": -2.5,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Moved up the results page",
+    "detail": "position 13.9 → 11.4 · -10 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "9 edit(s) on /cocktail-party-catering-dubai: 5× body, 1× faq, 1× h2, 1× h1, 1× description",
+     "ref": "",
+     "source": "optimizer"
     },
     "changes": 4
    },
-   "direction": "down"
+   "direction": "flat"
   }
  ],
  "queries_up": [
   {
-   "query": "home chef",
+   "query": "catering company",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 225,
-   "impr_prior": 31,
-   "impr_delta": 194,
-   "impr_pct": 625.8,
-   "pos_recent": 9.1,
-   "pos_prior": 7.5,
-   "pos_delta": 1.6
-  },
-  {
-   "query": "event catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 62,
+   "impr_recent": 38,
    "impr_prior": 0,
-   "impr_delta": 62,
+   "impr_delta": 38,
    "impr_pct": 100.0,
-   "pos_recent": 42.9,
+   "pos_recent": 62.1,
    "pos_prior": null,
    "pos_delta": null
   },
   {
-   "query": "catering services dubai",
+   "query": "chef",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 62,
-   "impr_prior": 0,
-   "impr_delta": 62,
-   "impr_pct": 100.0,
-   "pos_recent": 47.6,
-   "pos_prior": null,
-   "pos_delta": null
+   "impr_recent": 30,
+   "impr_prior": 3,
+   "impr_delta": 27,
+   "impr_pct": 900.0,
+   "pos_recent": 12.1,
+   "pos_prior": 30.3,
+   "pos_delta": -18.3
   },
   {
    "query": "catering in dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 61,
-   "impr_prior": 0,
-   "impr_delta": 61,
-   "impr_pct": 100.0,
-   "pos_recent": 46.8,
-   "pos_prior": null,
-   "pos_delta": null
+   "impr_recent": 78,
+   "impr_prior": 61,
+   "impr_delta": 17,
+   "impr_pct": 27.9,
+   "pos_recent": 47.7,
+   "pos_prior": 46.8,
+   "pos_delta": 0.9
   },
   {
-   "query": "catering services",
+   "query": "catering uae",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 51,
-   "impr_prior": 0,
-   "impr_delta": 51,
-   "impr_pct": 100.0,
-   "pos_recent": 59.7,
-   "pos_prior": null,
-   "pos_delta": null
+   "impr_recent": 35,
+   "impr_prior": 22,
+   "impr_delta": 13,
+   "impr_pct": 59.1,
+   "pos_recent": 75.2,
+   "pos_prior": 65.2,
+   "pos_delta": 10.0
+  },
+  {
+   "query": "catering services in dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 26,
+   "impr_prior": 14,
+   "impr_delta": 12,
+   "impr_pct": 85.7,
+   "pos_recent": 51.4,
+   "pos_prior": 48.6,
+   "pos_delta": 2.8
+  },
+  {
+   "query": "catering services dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 74,
+   "impr_prior": 62,
+   "impr_delta": 12,
+   "impr_pct": 19.4,
+   "pos_recent": 48.8,
+   "pos_prior": 47.6,
+   "pos_delta": 1.2
   },
   {
    "query": "catering company dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 48,
-   "impr_prior": 0,
-   "impr_delta": 48,
-   "impr_pct": 100.0,
-   "pos_recent": 55.3,
-   "pos_prior": null,
-   "pos_delta": null
+   "impr_recent": 60,
+   "impr_prior": 48,
+   "impr_delta": 12,
+   "impr_pct": 25.0,
+   "pos_recent": 56.6,
+   "pos_prior": 55.3,
+   "pos_delta": 1.3
   },
   {
-   "query": "wedding catering services",
+   "query": "catering services",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 46,
-   "impr_prior": 5,
-   "impr_delta": 41,
-   "impr_pct": 820.0,
-   "pos_recent": 33.8,
-   "pos_prior": 30.8,
-   "pos_delta": 3.0
+   "impr_recent": 62,
+   "impr_prior": 51,
+   "impr_delta": 11,
+   "impr_pct": 21.6,
+   "pos_recent": 60.4,
+   "pos_prior": 59.7,
+   "pos_delta": 0.8
   },
   {
-   "query": "corporate catering dubai",
+   "query": "catering companies in dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 65,
-   "impr_prior": 38,
-   "impr_delta": 27,
-   "impr_pct": 71.1,
-   "pos_recent": 36.2,
-   "pos_prior": 39.8,
-   "pos_delta": -3.6
+   "impr_recent": 25,
+   "impr_prior": 16,
+   "impr_delta": 9,
+   "impr_pct": 56.2,
+   "pos_recent": 51.4,
+   "pos_prior": 51.8,
+   "pos_delta": -0.3
   },
   {
-   "query": "event catering services",
+   "query": "food catering dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 27,
-   "impr_prior": 0,
-   "impr_delta": 27,
-   "impr_pct": 100.0,
-   "pos_recent": 49.7,
-   "pos_prior": null,
-   "pos_delta": null
-  },
-  {
-   "query": "private catering",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 71,
-   "impr_prior": 49,
-   "impr_delta": 22,
-   "impr_pct": 44.9,
-   "pos_recent": 16.9,
-   "pos_prior": 24.7,
-   "pos_delta": -7.8
-  },
-  {
-   "query": "yacht catering",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 79,
-   "impr_prior": 58,
-   "impr_delta": 21,
-   "impr_pct": 36.2,
-   "pos_recent": 28.8,
-   "pos_prior": 33.8,
-   "pos_delta": -5.0
-  },
-  {
-   "query": "corporate catering",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 81,
-   "impr_prior": 63,
-   "impr_delta": 18,
-   "impr_pct": 28.6,
-   "pos_recent": 34.6,
-   "pos_prior": 41.0,
-   "pos_delta": -6.5
-  }
- ],
- "queries_down": [
-  {
-   "query": "birthday party catering",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 0,
-   "impr_prior": 34,
-   "impr_delta": -34,
-   "impr_pct": -100.0,
-   "pos_recent": null,
-   "pos_prior": 49.0,
-   "pos_delta": null
-  },
-  {
-   "query": "private dining dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 52,
-   "impr_prior": 65,
-   "impr_delta": -13,
-   "impr_pct": -20.0,
-   "pos_recent": 43.6,
-   "pos_prior": 44.7,
-   "pos_delta": -1.1
+   "impr_recent": 28,
+   "impr_prior": 20,
+   "impr_delta": 8,
+   "impr_pct": 40.0,
+   "pos_recent": 48.0,
+   "pos_prior": 43.5,
+   "pos_delta": 4.5
   },
   {
    "query": "mixed grill catering dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 28,
-   "impr_prior": 38,
-   "impr_delta": -10,
-   "impr_pct": -26.3,
-   "pos_recent": 20.7,
-   "pos_prior": 21.0,
-   "pos_delta": -0.3
+   "impr_recent": 35,
+   "impr_prior": 28,
+   "impr_delta": 7,
+   "impr_pct": 25.0,
+   "pos_recent": 21.7,
+   "pos_prior": 20.7,
+   "pos_delta": 1.0
+  },
+  {
+   "query": "buffet catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 26,
+   "impr_prior": 21,
+   "impr_delta": 5,
+   "impr_pct": 23.8,
+   "pos_recent": 24.2,
+   "pos_prior": 31.3,
+   "pos_delta": -7.1
+  }
+ ],
+ "queries_down": [
+  {
+   "query": "home chef",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 109,
+   "impr_prior": 225,
+   "impr_delta": -116,
+   "impr_pct": -51.6,
+   "pos_recent": 8.7,
+   "pos_prior": 9.1,
+   "pos_delta": -0.5
+  },
+  {
+   "query": "private dining dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 0,
+   "impr_prior": 52,
+   "impr_delta": -52,
+   "impr_pct": -100.0,
+   "pos_recent": null,
+   "pos_prior": 43.6,
+   "pos_delta": null
   },
   {
    "query": "private dinner dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 27,
-   "impr_prior": 35,
-   "impr_delta": -8,
-   "impr_pct": -22.9,
-   "pos_recent": 46.6,
-   "pos_prior": 43.9,
-   "pos_delta": 2.6
+   "impr_recent": 0,
+   "impr_prior": 27,
+   "impr_delta": -27,
+   "impr_pct": -100.0,
+   "pos_recent": null,
+   "pos_prior": 46.6,
+   "pos_delta": null
   },
   {
-   "query": "boat party catering",
+   "query": "corporate catering dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 25,
-   "impr_prior": 32,
-   "impr_delta": -7,
-   "impr_pct": -21.9,
-   "pos_recent": 32.6,
-   "pos_prior": 35.1,
-   "pos_delta": -2.5
+   "impr_recent": 43,
+   "impr_prior": 65,
+   "impr_delta": -22,
+   "impr_pct": -33.8,
+   "pos_recent": 38.2,
+   "pos_prior": 36.2,
+   "pos_delta": 1.9
+  },
+  {
+   "query": "private catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 51,
+   "impr_prior": 71,
+   "impr_delta": -20,
+   "impr_pct": -28.2,
+   "pos_recent": 24.9,
+   "pos_prior": 16.9,
+   "pos_delta": 8.0
+  },
+  {
+   "query": "business meeting catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 17,
+   "impr_prior": 36,
+   "impr_delta": -19,
+   "impr_pct": -52.8,
+   "pos_recent": 19.4,
+   "pos_prior": 23.6,
+   "pos_delta": -4.3
   },
   {
    "query": "cocktail party catering",
    "clicks_recent": 0,
    "clicks_prior": 0,
    "clicks_delta": 0,
-   "impr_recent": 27,
-   "impr_prior": 31,
-   "impr_delta": -4,
-   "impr_pct": -12.9,
-   "pos_recent": 27.9,
-   "pos_prior": 8.0,
-   "pos_delta": 19.9
+   "impr_recent": 9,
+   "impr_prior": 27,
+   "impr_delta": -18,
+   "impr_pct": -66.7,
+   "pos_recent": 60.4,
+   "pos_prior": 27.9,
+   "pos_delta": 32.6
+  },
+  {
+   "query": "wedding catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 53,
+   "impr_prior": 70,
+   "impr_delta": -17,
+   "impr_pct": -24.3,
+   "pos_recent": 22.5,
+   "pos_prior": 26.8,
+   "pos_delta": -4.2
+  },
+  {
+   "query": "private chef dubai",
+   "clicks_recent": 1,
+   "clicks_prior": 1,
+   "clicks_delta": 0,
+   "impr_recent": 49,
+   "impr_prior": 64,
+   "impr_delta": -15,
+   "impr_pct": -23.4,
+   "pos_recent": 22.3,
+   "pos_prior": 38.0,
+   "pos_delta": -15.7
+  },
+  {
+   "query": "yacht catering dubai",
+   "clicks_recent": 1,
+   "clicks_prior": 0,
+   "clicks_delta": 1,
+   "impr_recent": 51,
+   "impr_prior": 63,
+   "impr_delta": -12,
+   "impr_pct": -19.0,
+   "pos_recent": 30.3,
+   "pos_prior": 28.6,
+   "pos_delta": 1.7
+  },
+  {
+   "query": "private catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 15,
+   "impr_prior": 27,
+   "impr_delta": -12,
+   "impr_pct": -44.4,
+   "pos_recent": 41.2,
+   "pos_prior": 43.4,
+   "pos_delta": -2.2
+  },
+  {
+   "query": "yacht catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 67,
+   "impr_prior": 79,
+   "impr_delta": -12,
+   "impr_pct": -15.2,
+   "pos_recent": 31.5,
+   "pos_prior": 28.8,
+   "pos_delta": 2.7
   }
  ],
- "attributed": 14,
+ "attributed": 17,
  "changes_in_window": [
+  {
+   "day": "2026-09-10",
+   "kind": "image",
+   "summary": "fix(seo): ship a crawlable myCHEF favicon and site-name tags",
+   "ref": "a967482",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-10",
+   "kind": "copy",
+   "summary": "feat: add indicative yacht catering prices and estimator",
+   "ref": "9028c96",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "copy",
+   "summary": "feat(seo): institutional catering cluster, CRM engine, and SEO OS rooms",
+   "ref": "32399e3",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "copy",
+   "summary": "feat: add institutional pages to Corporate nav",
+   "ref": "ebd769c",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "copy",
+   "summary": "feat: unique documentary images on institutional pages",
+   "ref": "fdece5c",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "design",
+   "summary": "fix: stop the flash of chrome on load and route change",
+   "ref": "be1eb70",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "image",
+   "summary": "fix: tie hub card captions to photos and clear cafeteria devices",
+   "ref": "3821366",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-09",
+   "kind": "design",
+   "summary": "fix: add Bali (mychef.id) to world footer",
+   "ref": "b70137c",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "copy",
+   "summary": "fix(seo): hub floors on Menus/calculator, five package cards, NAP polish",
+   "ref": "b541efb",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "copy",
+   "summary": "fix(seo): one catering price table, packages AED in HTML, calculator mins",
+   "ref": "9fc5099",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "structure",
+   "summary": "fix(seo): 301 guess-URLs and return real 404s instead of empty 200s",
+   "ref": "b1ed790",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "page",
+   "summary": "fix(seo): complete NYE and chef-table metas; FAQ JSON-LD on hubs",
+   "ref": "fe4d676",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "copy",
+   "summary": "fix(seo): hide collapsed drop-off indicative market 90–90",
+   "ref": "ad8e99b",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "copy",
+   "summary": "fix(seo): keep quiet H1s clean and noindex thin blog topic hubs",
+   "ref": "f338891",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "design",
+   "summary": "fix(analytics): strip WhatsApp text from GA4 and skip /seo generate_lead",
+   "ref": "b3045ed",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-06",
+   "kind": "design",
+   "summary": "feat(analytics): fire GA4 conversion events on WhatsApp, quote, phone, email",
+   "ref": "ad76d8f",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-04",
+   "kind": "design",
+   "summary": "fix: show all myCHEF locations in the shared footer",
+   "ref": "c5982ac",
+   "source": "git"
+  },
   {
    "day": "2026-09-04",
    "kind": "page",
    "summary": "fix(seo): place remaining exact-phrase fills and festive inlinks",
    "ref": "07db376",
+   "source": "git"
+  },
+  {
+   "day": "2026-09-04",
+   "kind": "structure",
+   "summary": "chore(seo): refresh full live harvest for the /seo board",
+   "ref": "d8d2516",
    "source": "git"
   },
   {
@@ -1249,7 +1452,9 @@
    "summary": "fix(seo): apply the 15 open /seo/queue proposals",
    "ref": "500f13c",
    "source": "git"
-  },
+  }
+ ],
+ "changes_before_window": [
   {
    "day": "2026-09-01",
    "kind": "copy",
@@ -1280,16 +1485,16 @@
   },
   {
    "day": "2026-08-31",
-   "kind": "copy",
-   "summary": "fix: one header on load and scroll, no empty homepage guide slot",
-   "ref": "51313fe",
+   "kind": "other",
+   "summary": "fix: fill homepage area photos with the four live neighbourhoods",
+   "ref": "47b7d74",
    "source": "git"
   },
   {
    "day": "2026-08-31",
-   "kind": "other",
-   "summary": "fix: fill homepage area photos with the four live neighbourhoods",
-   "ref": "47b7d74",
+   "kind": "copy",
+   "summary": "fix: one header on load and scroll, no empty homepage guide slot",
+   "ref": "51313fe",
    "source": "git"
   },
   {
@@ -1302,15 +1507,15 @@
   {
    "day": "2026-08-30",
    "kind": "other",
-   "summary": "Merge pull request #12 from ddandanell/cursor/web-grower-tracker-e61e",
-   "ref": "cbd2368",
+   "summary": "feat: install existing Web Grower first-party tracker",
+   "ref": "d3aeb71",
    "source": "git"
   },
   {
    "day": "2026-08-30",
    "kind": "other",
-   "summary": "feat: install existing Web Grower first-party tracker",
-   "ref": "d3aeb71",
+   "summary": "Merge pull request #12 from ddandanell/cursor/web-grower-tracker-e61e",
+   "ref": "cbd2368",
    "source": "git"
   },
   {
@@ -1330,15 +1535,15 @@
   {
    "day": "2026-08-27",
    "kind": "copy",
-   "summary": "fix(catering): one ladder, the real split, and who employs the cooks",
-   "ref": "e338a62",
+   "summary": "fix(private-chef): one ladder, one price, one paper across the household silo",
+   "ref": "34fe3e5",
    "source": "git"
   },
   {
    "day": "2026-08-27",
    "kind": "copy",
-   "summary": "fix(private-chef): one ladder, one price, one paper across the household silo",
-   "ref": "34fe3e5",
+   "summary": "fix(seo): the site now says one thing, and says it top-down",
+   "ref": "1bfe6cf",
    "source": "git"
   },
   {
@@ -1351,1045 +1556,9 @@
   {
    "day": "2026-08-27",
    "kind": "copy",
-   "summary": "fix(seo): the site now says one thing, and says it top-down",
-   "ref": "1bfe6cf",
+   "summary": "fix(catering): one ladder, the real split, and who employs the cooks",
+   "ref": "e338a62",
    "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /yacht-catering-checklist-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /dessert-table-catering-dubai: 7× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /corporate-catering-checklist-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /brunch-catering-dubai: 6× body, 6× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /baby-shower-catering-dubai: 6× body, 6× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "16 edit(s) on /afternoon-tea-catering-dubai: 7× body, 6× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /mystery-dining-dubai: 6× body, 6× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /italian-catering-dubai: 6× body, 6× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /iftar-catering-dubai: 7× faq, 6× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "21 edit(s) on /how-to-choose-caterer-dubai: 8× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /wedding-catering-checklist-dubai: 7× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "16 edit(s) on /uae-national-day-catering-dubai: 7× faq, 6× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /sushi-catering-dubai: 7× body, 6× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /ramadan-catering-guide-dubai: 7× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /proposal-dinner-dubai: 6× body, 6× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /new-year-catering-dubai: 6× body, 6× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "24 edit(s) on /our-chefs: 6× body, 8× faq, 2× title, 2× h1, 2× h2, 2× opening, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): subkeywords in body sentences, not one FAQ each — coverage 21% → 74%",
-   "ref": "e13d6ff",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /fitness-meal-prep-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /exhibition-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /eid-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /dubai-food-trends-report-2026: 6× faq, 5× body, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /dubai-event-catering-price-guide-2026: 6× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "11 edit(s) on /drop-off-catering-dubai: 6× faq, 5× body",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /diwali-catering-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /desert-dining-dubai: 5× body, 1× faq, 1× h2, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /cuisines-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /corporate-retainer-dubai: 5× body, 5× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /cocktail-party-catering-dubai: 5× body, 1× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /christmas-catering-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /chefs-table-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /catering-cost-calculator-dubai: 5× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /case-studies: 5× body, 1× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /buffet-vs-plated-dubai: 6× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /breakfast-catering-dubai: 6× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /brand-activation-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /blog/yacht-party-menu-ideas-dubai: 5× faq, 5× body, 1× h2, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /blog/weekly-meal-prep-vs-full-time-chef-dubai: 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /blog/wedding-catering-cost-dubai: 6× faq, 1× h1, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /blog/ramadan-iftar-catering-trends-2026: 5× faq, 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /blog/private-chef-palm-jumeirah-guide: 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /blog/how-much-does-private-chef-cost-dubai: 5× faq, 5× body, 1× h2, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /blog/halal-private-dining-dubai-what-to-ask: 5× faq, 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /blog/corporate-catering-full-service-vs-drop-off: 5× faq, 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /blog/best-private-chef-birthday-dinner-dubai: 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /become-a-mychef: 5× body, 1× faq, 2× h2, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /bar-services-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /asian-catering-dubai: 6× faq, 5× body, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /arabic-catering-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /apartment-private-dining-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /allergy-safe-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /about: 1× body, 2× opening, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /locations/business-bay: 2× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /yacht-catering-guide-dubai: 6× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /wedding-catering-menu-planning-dubai: 6× faq, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /vip-club: 6× faq, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /villa-catering-ideas-dubai: 6× faq, 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /venue-partners: 5× faq, 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /vegetarian-catering-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /vegan-catering-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /tourist-villa-chef-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /tasting-menu-dubai: 6× faq, 5× body, 1× h2, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /staff-meals-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /referral-programme: 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /ramadan-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /production-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /product-launch-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /private-cooking-classes-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /private-chef-vs-catering-dubai: 5× body, 1× faq, 2× h2, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /postpartum-meal-prep-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /partner-with-us: 5× body, 4× faq, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /part-time-private-chef-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /mychef-membership: 5× body, 1× faq, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "16 edit(s) on /mychef-certified: 7× faq, 5× body, 2× h2, 2× h1",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /mediterranean-catering-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /luxury-dinner-planning-guide-dubai: 6× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /loyalty-programme: 5× body, 1× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /kids-nutrition-chef-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /jain-catering-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /influencer-partnerships: 6× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /indian-catering-dubai: 6× faq, 5× body, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /halal-catering-dubai: 5× body, 1× faq, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /guide/private-dining-dubai: 5× body, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /gift-cards: 5× body, 4× faq, 2× h2, 2× h1, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /gala-dinner-catering-dubai: 6× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /full-time-private-chef-dubai: 5× body, 1× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /founding-customer-offer: 5× body, 1× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /private-party-catering-dubai: 3× faq",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "11 edit(s) on /private-chef-dubai: 3× faq, 3× description, 3× title, 2× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /office-catering-dubai: 3× faq",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "7 edit(s) on /luxury-dining-experiences: 3× faq, 2× h2, 2× opening",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /events: 1× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /corporate-event-catering-dubai: 3× faq, 2× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /corporate: 3× faq, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /birthday-catering-dubai: 3× faq",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(seo): on-page audit clean — contract owns the primary keyword, three titles under 65",
-   "ref": "05069c8",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): site-wide keyword optimizer pass, ownership file, /seo publication and Neon store",
-   "ref": "b221ac8",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/palm-jumeirah: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/jumeirah: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/jbr: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/emirates-hills: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /locations/dubai-marina: 2× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/dubai-hills: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /locations/downtown-dubai: 2× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /locations/difc: 1× faq, 2× h1, 2× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /locations/jvc: 1× title, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /locations/jlt: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /locations/bluewaters-island: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /locations/arabian-ranches: 1× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /locations/al-barsha: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /romantic-dinner-dubai: 3× h2, 2× title, 2× faq, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "8 edit(s) on /menus: 2× h2, 2× opening, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /locations: 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /faq: 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /private-chef-dubai/how-it-works: 1× title, 1× h2, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /private-jet-catering-dubai: 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /partners/yacht-charters-dubai: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /partners/villa-rentals-dubai: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /partners/event-planners-dubai: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /partners/concierge-services-dubai: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /how-it-works: 1× h2, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /wellness-meal-prep-dubai: 2× faq, 2× h2, 2× opening, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "chore(seo): restore two handoff JSONs that slipped into b21ab97",
-   "ref": "6b5f0d0",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(app): recover from a stale tab after a deploy instead of showing an empty page",
-   "ref": "b21ab97",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): remove the duplicate page digest, retire 3 URLs, finish the pricing consolidation, close 60 links through 301s",
-   "ref": "c1d7535",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(seo): close the on-page audit — 0 issues, 44 recorded exemptions",
-   "ref": "c99c95d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "design",
-   "summary": "fix(home): quieter hero H1, and stop the 1.2 MB intro video costing the load",
-   "ref": "619c561",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "page",
-   "summary": "feat(seo): SEO standard contract, schema playbook, service-area helpers",
-   "ref": "046ccf8",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(seo): one business entity, and the last 18 titles inside the SERP cap",
-   "ref": "78c9635",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "design",
-   "summary": "Press-and-shine also targets the current header Chat markup",
-   "ref": "e991349",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "other",
-   "summary": "Load CTA motion stylesheet after the design baseline",
-   "ref": "5a94b6f",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "design",
-   "summary": "Add luxury press and shine motion to header Chat pill and site CTAs",
-   "ref": "15f1968",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): a hero sells — keyword copy moves below the fold, and a gate keeps it there",
-   "ref": "5a380a9",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): restore engagement, honest gift cards, and a gated zinc board",
-   "ref": "fc608f7",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(api): the tracking function must be self-contained, or it 500s",
-   "ref": "37edbf4",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): V2 Slice A — heartbeats, Control, and a fix for the dead tracking endpoint",
-   "ref": "5948249",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "page",
-   "summary": "feat(seo): shadcn board at /seo, and a Queue that does not apply itself",
-   "ref": "ff2d69d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): the analyst falls back to a free-tier model, and says which one answered",
-   "ref": "cacd58d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "docs(seo): full system documentation, and read the OIDC token from the request header",
-   "ref": "b544b37",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(seo): the analyst needs a real model endpoint, not the DataForSEO relay",
-   "ref": "25a941b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(seo): the analyst's relay rejects long prompts - send a digest, not raw JSON",
-   "ref": "17da0a4",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): system status page and a read-only SEO analyst",
-   "ref": "5d93d1d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "other",
-   "summary": "chore(seo): verify the board's service account as a second site owner",
-   "ref": "71bbfff",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "design",
-   "summary": "feat(analytics): first-party event collector, joined to the keyword tables",
-   "ref": "3b76947",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "other",
-   "summary": "feat: add Vercel Speed Insights for Core Web Vitals",
-   "ref": "262bb12",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): two more places subkeywords can live — package intro prop and handoff blocks",
-   "ref": "0050b9c",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /family-feast-package-dubai: 2× h1, 1× faq, 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /blog/grazing-table-vs-buffet-dubai: 1× body, 1× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
   },
   {
    "day": "2026-08-26",
@@ -2415,13 +1584,6 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
-   "summary": "4 edit(s) on /blog/brunch-at-home-dubai: 1× faq, 1× body, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
    "summary": "2 edit(s) on /best-catering-companies-dubai: 1× body, 1× opening",
    "ref": "",
    "source": "optimizer"
@@ -2429,354 +1591,9 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
-   "summary": "3 edit(s) on /date-night-package-dubai: 1× faq, 1× body, 1× h1",
+   "summary": "5 edit(s) on /family-feast-package-dubai: 1× faq, 1× body, 2× h1, 1× description",
    "ref": "",
    "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /corporate-dinner-package-dubai: 1× body, 1× h1",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /birthday-catering-package-dubai: 1× faq, 1× body, 2× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/vegan-catering-dubai-guide: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /blog/private-chef-vs-restaurant-dubai: 1× faq, 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /blog/private-chef-date-night-dubai: 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /blog/nye-party-catering-dubai: 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /blog/iftar-at-home-dubai: 1× body, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/how-to-hire-a-private-chef-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/how-far-ahead-book-caterer-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(seo): no FAQ answer is repeated across pages; 254 boilerplate FAQs removed",
-   "ref": "4c654a1",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /live-cooking-stations-dubai: 6× body, 3× faq, 2× h2, 2× h1, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "21 edit(s) on /grazing-table-dubai: 6× body, 3× faq, 4× h2, 4× h1, 4× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "10 edit(s) on /festive-catering-dubai: 8× faq, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /dubai-catering-prices-guide: 3× faq, 1× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "13 edit(s) on /conference-catering-dubai: 6× body, 3× faq, 2× h2, 2× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /chef-training-academy: 7× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /catering-dubai: 7× body, 3× faq, 2× h1",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "23 edit(s) on /canape-catering-dubai: 4× faq, 6× body, 4× h2, 4× h1, 4× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "17 edit(s) on /wedding-catering-dubai: 7× body, 10× faq",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "21 edit(s) on /bbq-catering-dubai: 6× body, 3× faq, 4× h2, 4× h1, 4× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "14 edit(s) on /booking-protection-insurance: 7× faq, 5× body, 1× h2, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "11 edit(s) on /business-lunch-catering-dubai: 6× body, 3× faq, 1× description, 1× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "19 edit(s) on /private-chef-prices-dubai: 4× faq, 3× h2, 3× opening, 3× h1, 3× description, 3× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "9 edit(s) on /villas-private-residences: 6× body, 3× faq",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /quality-guarantee-dubai: 7× faq, 5× body, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "12 edit(s) on /weekly-meal-prep-dubai: 7× body, 3× faq, 2× h2",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "20 edit(s) on /how-we-vet-our-chefs: 6× body, 6× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "15 edit(s) on /halal-private-dining-dubai: 6× body, 6× faq, 1× h2, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "17 edit(s) on /guides: 7× faq, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  }
- ],
- "changes_before_window": [
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(seo): put the locked keyword back in 18 drifted titles",
-   "ref": "b08a33a",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "other",
-   "summary": "chore(seo): add Google + Bing site verification tokens for mychef.ae",
-   "ref": "a49ee70",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat: site-wide design pass, keyword-locked Private Chef cluster, catering redesign, nav + hero system",
-   "ref": "20f1f56",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix: ship single-scene cluster heroes and a company contact hub",
-   "ref": "a77a161",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(pricing): rebuild private chef pricing as a single-engine calculator + plain-English plan terms",
-   "ref": "6590fa5",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(experiences): Dining Experiences cluster — nav, IA and rebuilt pillar page",
-   "ref": "e0c8d81",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "design",
-   "summary": "feat(seo): rebuild the details digest, rewrite siblings by intent",
-   "ref": "ce4d39b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "refactor(seo): expose the silo contract exactly as specified",
-   "ref": "3f41e15",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(seo): 11 H1s back on the term their page owns",
-   "ref": "39c3b18",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(seo): descriptions carry their keyword, pillar titles fit the SERP",
-   "ref": "e550d4f",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(seo): silo modules replace the same twelve links on every page",
-   "ref": "f836e68",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(seo): end the two private-chef cannibalisations",
-   "ref": "4203d12",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(seo): silo link contract, sitemap topic hubs, kill links into a 301",
-   "ref": "762359b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(wedding): flatten the catering mega and deepen the wedding cluster",
-   "ref": "6c8955b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "design",
-   "summary": "feat(nav): mobile drawer ends with one WhatsApp CTA",
-   "ref": "2ef3b59",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(nav): rename Events/Dinner, swap Packages for Cuisines, add two About hubs",
-   "ref": "f8783c3",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(nav): split the top level into Catering, Private Events, Corporate and Packages",
-   "ref": "f7b96d2",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "page",
-   "summary": "feat(birthday): complete the interlinking across the four-page cluster",
-   "ref": "c4b2157",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(birthday): de-duplicate the birthday-dinner article and tighten kids claims",
-   "ref": "bcc33f6",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "page",
-   "summary": "fix(birthday): narrow the package page to its actual offer",
-   "ref": "ba70f7b",
-   "source": "git"
   }
  ]
 }

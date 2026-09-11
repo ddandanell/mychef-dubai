@@ -62,7 +62,11 @@ def store_compact_copy(source: pathlib.Path, crawled_on: str) -> pathlib.Path | 
             continue
         if csv_path.stat().st_size > 750_000:
             continue
-        shutil.copy2(csv_path, dest / csv_path.name)
+        target = dest / csv_path.name
+        if csv_path.resolve() == target.resolve():
+            copied += 1
+            continue
+        shutil.copy2(csv_path, target)
         copied += 1
     return dest if copied else None
 
