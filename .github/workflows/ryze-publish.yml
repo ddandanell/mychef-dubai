@@ -1,0 +1,33 @@
+name: Ryze publish
+
+on:
+  push:
+    paths:
+      - "blog/data/**"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Convert Ryze articles
+        run: node scripts/ryze-convert.mjs
+
+      - name: Commit generated pages
+        run: |
+          git add src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts public/sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Publish Ryze articles [skip ci]"
+          git push
