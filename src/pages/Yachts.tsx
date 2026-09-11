@@ -26,6 +26,7 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { appendAdAttribution } from '@/lib/adAttribution'
 import { CATERING_PATHS } from '@/content/cateringCluster'
 import { faqPageSchema } from '@/utils/schema'
 import {
@@ -58,7 +59,6 @@ import {
 
 const PATH = CATERING_PATHS.yachts
 const HERO = '/images/yacht-catering-dubai-hero.webp'
-const WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeURIComponent(YACHT_WHATSAPP_BASE)}`
 
 const FORMAT_TO_STYLE: Record<YachtFormatId, YachtServiceId> = {
   canape: 'canapes',
@@ -96,7 +96,9 @@ const schema = {
 
 export default function Yachts() {
   const [prefill, setPrefill] = useState<YachtQuotePrefill>({ style: 'not-sure' })
-  useWhatsAppMessage(YACHT_WHATSAPP_BASE)
+  const whatsappMessage = appendAdAttribution(YACHT_WHATSAPP_BASE)
+  const whatsappLink = `https://wa.me/971551744849?text=${encodeURIComponent(whatsappMessage)}`
+  useWhatsAppMessage(whatsappMessage)
 
   const goQuote = (next?: YachtQuotePrefill) => {
     if (next) setPrefill((current) => ({ ...current, ...next }))
@@ -132,7 +134,7 @@ export default function Yachts() {
         schema={schema}
       />
 
-      <YachtHero image={HERO} quoteHref="#yacht-quote" whatsappHref={WHATSAPP_LINK} />
+      <YachtHero image={HERO} quoteHref="#yacht-quote" whatsappHref={whatsappLink} />
 
       <YachtFullService />
       <YachtServiceLevels onSelect={goQuoteStyle} />
@@ -364,7 +366,7 @@ export default function Yachts() {
             <a href="#yacht-quote" className="btn-primary">
               Get a Yacht Catering Quote
             </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary !text-[#1B2A4A] !border-[#1B2A4A]/25">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-secondary !text-[#1B2A4A] !border-[#1B2A4A]/25">
               WhatsApp myCHEF
             </a>
           </CTAGroup>
@@ -384,7 +386,7 @@ export default function Yachts() {
         </Container>
       </Section>
 
-      <YachtStickyCta quoteHref="#yacht-quote" whatsappHref={WHATSAPP_LINK} />
+      <YachtStickyCta quoteHref="#yacht-quote" whatsappHref={whatsappLink} />
     </div>
   )
 }
