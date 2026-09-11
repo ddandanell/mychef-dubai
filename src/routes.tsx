@@ -3,6 +3,7 @@
 import type { ReactElement } from 'react'
 import { lazyPreloadable, type PreloadableComponent } from './lib/lazyPreloadable'
 import HandoffPage from './components/HandoffPage'
+import { RYZE_BLOG_PATHS } from './content/ryzeBlogPaths'
 
 // Preloadable lazy components (one per unique page module)
 const Home: PreloadableComponent = lazyPreloadable(() => import('./pages/Home'))
@@ -165,6 +166,7 @@ const EventPlannersPartner: PreloadableComponent = lazyPreloadable(() => import(
 const ConciergeServicesPartner: PreloadableComponent = lazyPreloadable(() => import('./pages/partners/ConciergeServicesPartner'))
 const Press: PreloadableComponent = lazyPreloadable(() => import('./pages/Press'))
 const SiteMap: PreloadableComponent = lazyPreloadable(() => import('./pages/SiteMap'))
+const RyzeArticlePage: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/RyzeArticlePage'))
 const NotFound: PreloadableComponent = lazyPreloadable(() => import('./pages/NotFound'))
 
 export interface AppRoute { path: string; element: ReactElement; preload?: () => Promise<void> }
@@ -346,6 +348,7 @@ export const routes: AppRoute[] = [
   { path: "/blog/private-chef-vs-restaurant-dubai", element: <HandoffPage /> },
   { path: "/blog/vegan-catering-dubai-guide", element: <HandoffPage /> },
   { path: "/blog/wedding-catering-cost-dubai", element: <WeddingCateringCost />, preload: WeddingCateringCost.preload },
+  ...RYZE_BLOG_PATHS.map((path) => ({ path, element: <RyzeArticlePage />, preload: RyzeArticlePage.preload })),
   { path: "*", element: <NotFound />, preload: NotFound.preload },
 ]
 
