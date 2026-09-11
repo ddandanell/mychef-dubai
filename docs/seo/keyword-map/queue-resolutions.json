@@ -1,0 +1,121 @@
+{
+  "note": "Durable accept/reject overlay. Key is class|url|keyword. build-proposals.py applies these so a rebuilt queue does not reopen a decided item.",
+  "resolutions": {
+    "fill_subkeyword|/catering-dubai|catering service in dubai": {
+      "status": "rejected",
+      "resolution": "Open experiment window on /catering-dubai until 2026-09-23. A body fill would confound the verdict."
+    },
+    "experiment|/catering-dubai|catering dubai": {
+      "status": "rejected",
+      "resolution": "Open experiment window until 2026-09-23. Live title already leads with the locked primary."
+    },
+    "snippet_test|/corporate|corporate catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected Chef, Service, Clear-down. Live title already leads with the primary and names offices, boards and events."
+    },
+    "experiment|/corporate|corporate catering dubai": {
+      "status": "rejected",
+      "resolution": "Live title already has the primary at the front plus a specific support cue. Changing it is churn."
+    },
+    "experiment|/private-chef-dubai|private chef dubai": {
+      "status": "rejected",
+      "resolution": "Title already leads with the locked primary. Do not change H1. Do not 301 onto the homepage."
+    },
+    "retarget|/our-chefs|private chefs dubai": {
+      "status": "rejected",
+      "resolution": "Kept /our-chefs as owner. Pages are never deleted. Homepage must not use this phrase in a heading."
+    },
+    "retarget|/private-chef-dubai|private chef dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301 of a live owner onto /. Keep the owner; do not put the primary in homepage headings."
+    },
+    "snippet_test|/cocktail-party-catering-dubai|cocktail party catering dubai": {
+      "status": "accepted",
+      "resolution": "Applied relief title You Stay a Guest. H1 unchanged. 14-day snippet window opened 2026-09-11."
+    },
+    "fill_subkeyword|/locations/palm-jumeirah|business lunch palm jumeirah": {
+      "status": "accepted",
+      "resolution": "Placed the exact phrase in a body sentence on the Palm Jumeirah location page."
+    },
+    "fix_onpage|/school-catering-dubai|school catering dubai": {
+      "status": "rejected",
+      "resolution": "False missing-H1. Live HTML already has School Catering Dubai in title and H1. The snapshot missed the page while it was out of the sitemap."
+    },
+    "experiment|/wedding-catering-dubai|wedding catering dubai": {
+      "status": "rejected",
+      "resolution": "Live title already leads with the primary and the published AED 700 cue. Changing it is churn."
+    },
+    "experiment|/yachts|yacht catering dubai": {
+      "status": "accepted",
+      "resolution": "Applied proof title From AED 162 (already in the live snippet). H1 unchanged. 14-day window opened 2026-09-11."
+    },
+    "experiment|/office-catering-dubai|office catering dubai": {
+      "status": "rejected",
+      "resolution": "Open experiment window until 2026-09-23."
+    },
+    "experiment|/guide/private-dining-dubai|private dining dubai": {
+      "status": "rejected",
+      "resolution": "Guide title already names the decision. A commercial-style title test would steal the owner page's job."
+    },
+    "retarget|/wedding-catering-dubai|wedding catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301. The menu-planning guide already uplinks with the exact anchor wedding catering Dubai."
+    },
+    "retarget|/yachts|yacht catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301 of /yachts. The guide now links with the exact anchor yacht catering Dubai. Title test From AED 162 is the live experiment."
+    },
+    "experiment|/events|event catering dubai": {
+      "status": "rejected",
+      "resolution": "Open experiment window until 2026-09-23."
+    },
+    "retarget|/events|event catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301 of a live hub. Open experiment window until 2026-09-23."
+    },
+    "retarget|/office-catering-dubai|office catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301. Open experiment window until 2026-09-23."
+    },
+    "retarget|/guide/private-dining-dubai|private dining dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301 of a guide onto a commercial page. Keep the guide; do not steal the owner."
+    },
+    "retarget|/breakfast-catering-dubai|breakfast catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301. Brunch no longer uses breakfast catering Dubai in a heading; it now links to the owner with that exact anchor."
+    },
+    "fill_subkeyword|/blog/vegan-catering-dubai-guide|vegan menu plan": {
+      "status": "rejected",
+      "resolution": "Page is parked. Do not write new copy onto a URL we asked Google to forget."
+    },
+    "fill_subkeyword|/locations/dubai-hills|dubai hills business lunch": {
+      "status": "rejected",
+      "resolution": "Page is parked. Do not write new copy onto a URL we asked Google to forget."
+    },
+    "fill_subkeyword|/luxury-dinner-planning-guide-dubai|luxury dinner cruise dubai marina": {
+      "status": "rejected",
+      "resolution": "Page is parked. Do not write new copy onto a URL we asked Google to forget."
+    },
+    "fill_subkeyword|/corporate-retainer-dubai|corporate catering companies in dubai": {
+      "status": "rejected",
+      "resolution": "Page is parked. Do not write new copy onto a URL we asked Google to forget."
+    },
+    "fill_subkeyword|/exhibition-catering-dubai|dubai food exhibition 2026": {
+      "status": "rejected",
+      "resolution": "Page is parked. Do not write new copy onto a URL we asked Google to forget."
+    },
+    "retarget|/christmas-catering-dubai|christmas catering dubai": {
+      "status": "rejected",
+      "resolution": "Rejected 301 of a live seasonal owner. Festive and Christmas are related, not the same URL."
+    },
+    "fill_subkeyword|/apartment-private-dining-dubai|chef to chef dubai": {
+      "status": "rejected",
+      "resolution": "Unplaceable / off-brief. Do not write another brand's name into apartment dining copy."
+    },
+    "fill_subkeyword|/about|chef recruitment agencies in dubai": {
+      "status": "rejected",
+      "resolution": "About is not a recruitment page. Do not park a hiring phrase on it."
+    }
+  }
+}

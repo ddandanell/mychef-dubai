@@ -88,7 +88,7 @@ const weatherTips = [
 ]
 
 const internalLinks = [
-  { title: 'Yachts Catering', link: '/yachts', description: 'myCHEF yacht catering services and packages.' },
+  { title: 'Yacht catering Dubai', link: '/yachts', description: 'Book the chef and crew for the charter day.' },
   { title: 'Canapé Catering Dubai', link: '/canape-catering-dubai', description: 'Bite-sized menus ideal for yacht receptions.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill menus for outdoor and deck events.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-experiences', description: 'Elegant seated dinner experiences.' },
@@ -291,7 +291,11 @@ export default function YachtCateringGuide() {
             The yacht food ideas and yacht party food ideas are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Yacht dinner in Dubai, catering for yacht party and small yacht catering guide Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            This guide covers the practical side of yacht catering so you can choose a menu and service plan that works beautifully at sea.
+            This guide covers the practical side of yacht catering so you can choose a menu and service plan that works at sea. To hire the team, go to{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4">
+              yacht catering Dubai
+            </Link>
+            .
           </p>
         </div>
       </section>

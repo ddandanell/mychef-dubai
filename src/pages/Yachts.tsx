@@ -116,7 +116,7 @@ export default function Yachts() {
   return (
     <div>
       <SEO
-        title="Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF"
+        title="Yacht Catering Dubai | From AED 162 | myCHEF"
         description="Yacht Catering Dubai with indicative pricing from AED 162 per guest: canapés, buffet or live station, extras and written terms. You charter the yacht."
         canonicalPath={PATH}
         ogImage={HERO}

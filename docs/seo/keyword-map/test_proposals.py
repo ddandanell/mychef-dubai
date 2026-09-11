@@ -27,6 +27,17 @@ def test_live_means_any_measured_demand():
     assert bp.demand_of(0, 0) == 0
 
 
+def test_resolution_key_matches_the_overlay_file():
+    assert bp.resolution_key("snippet_test", "/yachts", "yacht catering dubai") == (
+        "snippet_test|/yachts|yacht catering dubai"
+    )
+    overlay = bp.load_resolutions()
+    yachts = overlay.get("experiment|/yachts|yacht catering dubai")
+    assert yachts and yachts["status"] == "accepted"
+    school = overlay.get("fix_onpage|/school-catering-dubai|school catering dubai")
+    assert school and school["status"] == "rejected"
+
+
 if __name__ == "__main__":
     test_demand_prefers_the_larger_signal()
     test_impact_ranks_high_demand_low_risk_first()

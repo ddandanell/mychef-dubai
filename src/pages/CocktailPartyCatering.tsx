@@ -297,7 +297,7 @@ export default function CocktailPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Cocktail Party Catering Dubai | Canapés & Bar | myCHEF"
+        title="Cocktail Party Catering Dubai | You Stay a Guest | myCHEF"
         description="Cocktail party catering Dubai with mixologists, canapés & full bar service. Rooftop, yacht, villa & corporate receptions. Get a quote in 15 min."
         canonicalPath="/cocktail-party-catering-dubai"
         ogImage="/menu-cocktails.webp"

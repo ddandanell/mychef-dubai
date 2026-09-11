@@ -369,7 +369,11 @@ export default function BrunchCatering() {
             Start the Day Exceptionally
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A great brunch sets the tone for the entire day. At myCHEF Dubai, we design brunch and breakfast catering that feels relaxed, abundant, and completely effortless. From a slow weekend gathering at your villa to a polished corporate breakfast before a big meeting, we bring the menu, a partner chef, and the service to you.
+            A great brunch sets the tone for the entire day. At myCHEF Dubai, we design brunch catering that feels relaxed, abundant, and completely effortless. From a slow weekend gathering at your villa to a polished morning meeting, we bring the menu, a partner chef, and the service to you. Weekday first-meal catering sits on{' '}
+            <Link to="/breakfast-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+              breakfast catering Dubai
+            </Link>
+            .
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Birthday brunch catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.

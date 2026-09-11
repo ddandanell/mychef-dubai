@@ -517,7 +517,7 @@ const allLocations: LocationData[] = [
     intro: [
       'Private chef and catering in Palm Jumeirah revolves around privacy, space and exceptional homes. The Fronds are lined with large villas and private beaches where residents entertain family, friends and clients without leaving the property. myCHEF Dubai designs menus that suit the scale and discretion these events require.',
       'Service covers everything from menu development and ingredient sourcing to on-site preparation, table styling and post-event cleanup. Our chefs understand Nakheel access procedures, beach setups and the logistics of serving multi-course meals in private residences.',
-      'Available for Dubai events, our Palm Jumeirah private chef and villa catering service is designed for hosts who value fine dining, flexibility and a quiet, professional presence.'
+      'Available for Dubai events, our Palm Jumeirah private chef and villa catering service is designed for hosts who value fine dining, flexibility and a quiet, professional presence. Business lunch Palm Jumeirah is the same kitchen on a weekday: a villa or apartment table, not a restaurant booking.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Palm Jumeirah',

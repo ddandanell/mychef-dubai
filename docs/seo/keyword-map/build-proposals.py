@@ -21,6 +21,17 @@ TOP_N = 15
 RISK = {"fill_subkeyword": 1, "fix_onpage": 1, "add_link": 1, "experiment": 3,
         "snippet_test": 3, "crm_signal": 3, "retarget": 9, "retire": 9, "new_page": 9}
 
+RESOLUTIONS_FILE = HERE / "queue-resolutions.json"
+
+
+def load_resolutions():
+    raw = load("queue-resolutions.json") or {}
+    return raw.get("resolutions") or {}
+
+
+def resolution_key(cls, url, keyword):
+    return f"{cls}|{url}|{keyword}"
+
 
 def load(name):
     for p in (HERE / name, HERE / ".live/research" / name):
@@ -67,13 +78,14 @@ def main():
 
     proposals = []
     seq = 0
+    resolutions = load_resolutions()
 
 
     def add(cls, url, keyword, reason, evidence, action, risk_name, gap, conv, demand, live):
         nonlocal seq
         seq += 1
         risk = RISK[cls]
-        proposals.append({
+        item = {
             "id": f"{TODAY}-{seq:03d}",
             "class": cls,
             "url": url,
@@ -86,7 +98,13 @@ def main():
             "impact": impact(demand, gap, conv, risk),
             "demand": "live" if live else "speculative",
             "status": "open",
-        })
+        }
+        decided = resolutions.get(resolution_key(cls, url, keyword))
+        if decided and decided.get("status") in ("accepted", "rejected"):
+            item["status"] = decided["status"]
+            item["resolution"] = decided.get("resolution")
+            item["resolved_at"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+        proposals.append(item)
 
 
     for r in primaries:
@@ -260,12 +278,14 @@ def main():
         seen.add(key)
         deduped.append(p)
     proposals = deduped
-    chosen, deferred = proposals[:TOP_N], proposals[TOP_N:]
+    open_items = [p for p in proposals if p.get("status") == "open"]
+    decided_items = [p for p in proposals if p.get("status") in ("accepted", "rejected")]
+    chosen, deferred = open_items[:TOP_N], open_items[TOP_N:]
 
     payload = {
         "generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Agent does not apply.",
-        "proposals": chosen,
+        "proposals": chosen + decided_items,
         "deferred": len(deferred),
         "deferred_classes": {},
     }

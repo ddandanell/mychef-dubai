@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-11 09:56",
+ "generated": "2026-09-11 13:01",
  "intro": "Every applied change, with the days before it and the days after. A verdict is only written once the window closes, and never turns into an automatic revert — a drop opens a watch proposal for a person.",
  "counts": {
-  "too_soon": 9,
+  "too_soon": 11,
   "lift": 3,
   "confounded": 55
  },
  "tiles": [
   {
-   "value": "67",
+   "value": "69",
    "label": "Experiments recorded"
   },
   {
-   "value": "9",
+   "value": "11",
    "label": "Waiting on their window"
   },
   {
@@ -40,6 +40,76 @@
   "confounded": "another edit landed in the window, or there were no readings to compare"
  },
  "items": [
+  {
+   "id": 69,
+   "batch_id": "queue-apply-2026-09-11",
+   "url": "/cocktail-party-catering-dubai",
+   "keywords": [
+    "cocktail party catering dubai"
+   ],
+   "applied_at": "2026-09-11T12:58+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-26",
+   "days_to_go": 15,
+   "parts": [
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-10",
+    "from": "2026-08-28",
+    "edits": 1,
+    "parts": [
+     "title"
+    ],
+    "gsc_pos": 12.4,
+    "gsc_impr": 38,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 12
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 68,
+   "batch_id": "queue-apply-2026-09-11",
+   "url": "/yachts",
+   "keywords": [
+    "yacht catering dubai"
+   ],
+   "applied_at": "2026-09-11T12:58+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-26",
+   "days_to_go": 15,
+   "parts": [
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-10",
+    "from": "2026-08-28",
+    "edits": 1,
+    "parts": [
+     "title"
+    ],
+    "gsc_pos": 36.4,
+    "gsc_impr": 512,
+    "sessions": 10,
+    "wa_clicks": 0,
+    "gsc_clicks": 0,
+    "days_with_data": 14
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
   {
    "id": 67,
    "batch_id": "queue-apply-2026-09-08",
