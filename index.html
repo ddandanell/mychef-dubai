@@ -47,6 +47,66 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (() => {
+        const storageKey = 'mychef_google_ads_attribution'
+        const labels = {
+          'yacht-catering': 'Yacht Catering',
+          'yacht-chef': 'Yacht Chef',
+          'yacht-party-catering': 'Yacht Party Catering',
+        }
+
+        const readAttribution = () => {
+          const params = new URLSearchParams(window.location.search)
+          const current = {
+            source: params.get('utm_source') || '',
+            medium: params.get('utm_medium') || '',
+            campaign: params.get('utm_campaign') || '',
+            content: params.get('utm_content') || '',
+            term: params.get('utm_term') || '',
+            gclid: params.get('gclid') || '',
+          }
+          const isGoogleAd = current.source === 'google' || current.medium === 'cpc' || Boolean(current.gclid)
+          if (isGoogleAd) {
+            try { sessionStorage.setItem(storageKey, JSON.stringify(current)) } catch {}
+            return current
+          }
+          try {
+            return JSON.parse(sessionStorage.getItem(storageKey) || 'null')
+          } catch {
+            return null
+          }
+        }
+
+        const enrichWhatsAppLinks = () => {
+          const attribution = readAttribution()
+          if (!attribution || (!attribution.source && !attribution.gclid)) return
+          document.querySelectorAll('a[href*="wa.me/"]').forEach((link) => {
+            try {
+              const url = new URL(link.href)
+              const message = url.searchParams.get('text') || ''
+              if (message.includes('Source: Google Ads')) return
+              const detail = [
+                '',
+                'Source: Google Ads',
+                attribution.content ? `Ad group: ${labels[attribution.content] || attribution.content}` : '',
+                attribution.term ? `Search: ${attribution.term}` : '',
+                attribution.gclid ? `Google reference: ${attribution.gclid}` : '',
+              ].filter(Boolean).join('\n')
+              url.searchParams.set('text', `${message}\n${detail}`)
+              link.href = url.toString()
+            } catch {}
+          })
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', enrichWhatsAppLinks, { once: true })
+        } else {
+          enrichWhatsAppLinks()
+        }
+        new MutationObserver(enrichWhatsAppLinks).observe(document.documentElement, { childList: true, subtree: true })
+      })()
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
