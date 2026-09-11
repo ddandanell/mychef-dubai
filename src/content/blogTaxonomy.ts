@@ -1,4 +1,5 @@
 import { isParked } from '@/content/parkedUrls'
+import { RYZE_BLOG_POSTS } from './ryzeBlogPosts'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
@@ -257,7 +258,7 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * are built from this table, so filtering here is what stops a link surviving in the one place
  * that lists everything.
  */
-export const BLOG_POSTS: BlogPost[] = ALL_BLOG_POSTS.filter(
+export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS].filter(
   (post) => !isParked(post.slug.startsWith("/") ? post.slug : `/blog/${post.slug}`),
 )
 
