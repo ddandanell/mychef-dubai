@@ -45,6 +45,15 @@
     <link rel="manifest" href="/site.webmanifest" />
     <script src="https://web-grower.vercel.app/wg.js" data-wg-key="c2222222-2222-4222-8222-222222222222" data-wg-origin="https://web-grower.vercel.app" defer></script>
     <script async src="https://px.get-ryze.ai/px.js" data-key="rz_pk_62845a9403981b30e4e0af47f93ec6e2"></script>
+
+    <!-- Google Analytics: records page visits and WhatsApp enquiry starts. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-26YM3CE8CB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag(){dataLayer.push(arguments)}
+      gtag('js', new Date())
+      gtag('config', 'G-26YM3CE8CB')
+    </script>
   </head>
   <body>
     <div id="root"></div>
@@ -99,6 +108,26 @@
             } catch {}
           })
         }
+
+        const trackWhatsAppClick = (event) => {
+          const link = event.target.closest?.('a[href*="wa.me/"]')
+          if (!link || typeof window.gtag !== 'function') return
+          const attribution = readAttribution() || {}
+          window.gtag('event', 'whatsapp_click', {
+            link_url: link.href,
+            page_location: window.location.href,
+            page_path: window.location.pathname,
+            traffic_source: attribution.source || '',
+            traffic_medium: attribution.medium || '',
+            campaign_name: attribution.campaign || '',
+            ad_group: attribution.content || '',
+            search_term: attribution.term || '',
+            has_google_reference: Boolean(attribution.gclid),
+            transport_type: 'beacon',
+          })
+        }
+
+        document.addEventListener('click', trackWhatsAppClick, { capture: true })
 
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', enrichWhatsAppLinks, { once: true })
