@@ -288,7 +288,7 @@ export default function BusinessLunchCatering() {
         title="Business Lunch Catering Dubai | Boardroom & Client | myCHEF"
         description="Business lunch catering Dubai for boardrooms and client lunches. Drop-off from AED 90 per person. Plated client lunch AED 700 to 950 per person. Itemised VAT invoice."
         canonicalPath="/business-lunch-catering-dubai"
-        ogImage="/service-corporate.webp"
+        ogImage="/images/business-lunch-catering-dubai-hero.webp"
         hideSiteName
         schema={schema}
       />
@@ -297,7 +297,7 @@ export default function BusinessLunchCatering() {
       <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/office-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/business-lunch-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

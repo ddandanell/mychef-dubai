@@ -172,7 +172,7 @@ export const CORPORATE_SIBLING_LINKS = [
 
 export const corporateHero = {
   src: '/images/corporate-catering-dubai-hero.webp',
-  alt: 'Corporate catering in Dubai — canapés and service staff in a polished venue. Experience concept shown.',
+  alt: 'Company dinner in a Dubai private dining room, with a chef and service team. Experience concept shown.',
   width: 1683,
   height: 935,
 } as const

@@ -283,7 +283,7 @@ export default function ProductionCatering() {
         title="Production Catering Dubai | Film, TV & Photo Crews | myCHEF"
         description="Production catering Dubai for film, photo and event crews. Craft services and crew lunch from AED 90 per person, timed to the call sheet."
         canonicalPath="/production-catering-dubai"
-        ogImage="/service-catering.webp"
+        ogImage="/images/film-production-catering-dubai-hero.webp"
         hideSiteName
         schema={schema}
       />

@@ -172,8 +172,8 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     h2: 'Coffee breaks, delegate lunch and multi-day conferences',
     how:
       'Conference catering is meals and refreshments around the agenda. Breaks are timed to the slot. Lunch is boxed or buffet. On a staffed day, tea, coffee and water continue between sessions. Room hire and presentation equipment stay with the venue or your planner.',
-    image: '/images/breakfast-catering-dubai-hero.webp',
-    imageAlt: 'Conference break with coffee and pastry. Experience concept shown.',
+    image: '/images/conference-catering-dubai-hero.webp',
+    imageAlt: 'Conference coffee break with hospitality staff. Experience concept shown.',
     paths: ['/corporate', '/conference-catering-dubai', '/exhibition-catering-dubai', '/business-lunch-catering-dubai'],
     groups: [
       {
@@ -215,7 +215,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     h2: 'Staff parties, networking and launches',
     how:
       'A company celebration is quoted per event. Food can pause for a speech or a product reveal. Seasonal gatherings, including Diwali corporate catering, use the same event operation.',
-    image: '/images/corporate-catering-dubai-hero.webp',
+    image: '/images/corporate-event-catering-dubai-hero.webp',
     imageAlt: 'Canapés passed at a company reception. Experience concept shown.',
     paths: [
       '/corporate',

@@ -18,13 +18,13 @@ const config: ServicePageConfig = {
   metaDescription:
     'Exhibition catering Dubai for stand hospitality and exhibitor meals. Drop-off from AED 90 per person. No kitchen assumed. Hall access quoted separately.',
   canonicalPath: '/exhibition-catering-dubai',
-  ogImage: '/service-events.webp',
+  ogImage: '/images/exhibition-catering-dubai-hero.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
   hideSiteName: true,
   h1: 'Exhibition Catering Dubai: DWTC, Expo City & Trade Show Stands',
   heroSub:
     'Reliable, high-volume catering for exhibitors, organisers and trade show visitors at Dubai World Trade Centre, Expo City and major exhibition venues across the emirate.',
-  heroImage: '/service-events.webp',
+  heroImage: '/images/exhibition-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like a quote for exhibition and trade show catering in Dubai (via mychef.ae/exhibition-catering-dubai)",
   eyebrow: 'EXHIBITION & TRADE SHOW CATERING IN DUBAI',

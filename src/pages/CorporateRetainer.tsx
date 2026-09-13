@@ -160,7 +160,7 @@ export default function CorporateRetainer() {
         title="Corporate Catering Contract Dubai | myCHEF"
         description="Corporate catering contract Dubai: a written account for regular bookings. Fees, credit and expiry are set in the agreement, not as a shop price."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/service-corporate.webp"
+        ogImage="/images/corporate-retainer-dubai-hero.webp"
         hideSiteName
         schema={schema}
       />
@@ -169,7 +169,7 @@ export default function CorporateRetainer() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/service-corporate.webp)' }}
+          style={{ backgroundImage: 'url(/images/corporate-retainer-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

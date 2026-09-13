@@ -258,7 +258,7 @@ export default function CorporateCateringChecklist() {
         title="Corporate Catering Checklist Dubai"
         description="Corporate catering checklist Dubai: what to lock before you brief. Headcount, format, access, dietary notes and an itemised proposal."
         canonicalPath="/corporate-catering-checklist-dubai"
-        ogImage="/service-corporate.webp"
+        ogImage="/images/corporate-catering-checklist-dubai-hero.webp"
         schema={schema}
       />
 
@@ -266,7 +266,7 @@ export default function CorporateCateringChecklist() {
       <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/corporate-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/corporate-catering-checklist-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

@@ -19,7 +19,7 @@ export default function CorporateDinnerPackage() {
       description="Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, with a private chef and service team. Boardroom dinners, client entertainment and VAT invoicing."
       intro="A corporate dinner package for 10–15 guests, with a private chef and service team, is AED 4,500. That figure is a fixed package price for this guest range, not multiplied by headcount. Chef-led plated dining at AED 700–950 per person is a different menu and service, used when the table is smaller or larger than 15, or when you want fully plated courses. If you are comparing dubai dinner cruise deals or a private dinner cruise dubai price, this package is a dinner in your office or venue, not a boat hire."
       canonicalPath="/corporate-dinner-package-dubai"
-      ogImage="/images/corporate-catering-dubai-hero.webp"
+      ogImage="/images/corporate-dinner-package-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"
       eyebrow="CORPORATE DINING PACKAGE"
       subheadline="AED 4,500 for 10 to 15 guests. Private chef and service team sized to the table. Setup, service and kitchen cleanup included."
@@ -95,7 +95,7 @@ export default function CorporateDinnerPackage() {
           link: '/corporate-retainer-dubai',
         },
       ]}
-      heroImage="/images/corporate-catering-dubai-hero.webp"
+      heroImage="/images/corporate-dinner-package-dubai-hero.webp"
       breadcrumbLabel="Corporate Dinner Package Dubai"
       campaign="corporate-dinner-package-dubai"
       hideSiteName

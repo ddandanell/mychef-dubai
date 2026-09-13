@@ -43,7 +43,7 @@ import {
   type Block,
 } from '@/content/corporateEventPage'
 
-const HERO_IMAGE = '/images/corporate-catering-dubai-hero.webp'
+const HERO_IMAGE = '/images/corporate-event-catering-dubai-hero.webp'
 
 const schema = {
   '@context': 'https://schema.org',

@@ -287,7 +287,7 @@ export default function ConferenceCatering() {
         title="Conference Catering Dubai | Breaks & Working Lunches | myCHEF"
         description="Conference catering Dubai: coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person."
         canonicalPath="/conference-catering-dubai"
-        ogImage="/service-corporate.webp"
+        ogImage="/images/conference-catering-dubai-hero.webp"
         hideSiteName
         schema={schema}
       />
@@ -296,7 +296,7 @@ export default function ConferenceCatering() {
       <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/office-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/conference-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

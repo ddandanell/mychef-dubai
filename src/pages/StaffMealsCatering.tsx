@@ -288,7 +288,7 @@ export default function StaffMealsCatering() {
         title="Staff Meals Catering Dubai | Daily Team Meals & Canteens | myCHEF"
         description="Staff meals catering Dubai for daily team meals. Drop-off from AED 90 per person. Halal by default. Billed on the meals we deliver."
         canonicalPath="/staff-meals-catering-dubai"
-        ogImage="/service-corporate.webp"
+        ogImage="/images/staff-meals-catering-dubai-hero.webp"
         hideSiteName
         schema={schema}
       />
