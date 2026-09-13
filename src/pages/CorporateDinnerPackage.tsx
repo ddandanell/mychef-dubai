@@ -5,22 +5,24 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
 import { eventPackageById, formatPriceAed } from '@/content/cateringPricing'
 
 const pkg = eventPackageById('corporate-dinner')
 
 export default function CorporateDinnerPackage() {
   return (
+    <>
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
       description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing."
-      intro="Dinner set price in UAE, private dinner cruise Dubai price, corporate dinner package Dubai price, private chef dinner for 2 cost and corporate dinner package Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dubai dinner cruise deals, company dinner package Dubai, corporate catering package Dubai and corporate dinner package menu Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Business dinner in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Team dinner catering Dubai and private chef corporate dinner Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person."
+      intro="The corporate dinner package is AED 4,500 for 10–15 guests, including a chef, service staff sized to the table, tableware, setup and cleanup. That total is not multiplied by headcount. It is not the same product as chef-led plated dining at AED 700–950 per person, which is quoted per guest for tables outside this range. It is not a dinner cruise and it does not include AV or staging."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"
       eyebrow="CORPORATE DINING PACKAGE"
-      subheadline="Impress clients and reward teams with a polished private dinner delivered to your office or venue in Dubai."
+      subheadline="AED 4,500 for 10 to 15 guests. Chef and service staff sized to the table. Not a dinner cruise. Not the plated per-person band."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
@@ -38,11 +40,10 @@ export default function CorporateDinnerPackage() {
         'Dessert: Chocolate fondant and seasonal fruit tartlets',
       ]}
       addOns={[
-        'Additional courses or canapé reception',
-        'Bar service, mocktails, or wine pairing',
-        'Branded menus and place cards',
-        'AV support and presentation setup',
-        'Recurring monthly retainer options',
+        'Arrival canapés',
+        'Mocktails, or wine service where the venue is licensed',
+        'Printed menus and place cards',
+        'A plated per-person dinner if the table is outside 10–15 guests',
       ]}
       faqs={[
         {
@@ -51,11 +52,11 @@ export default function CorporateDinnerPackage() {
         },
         {
           q: 'Can you invoice my company?',
-          a: 'Yes. We provide detailed VAT invoices and TRN-ready documentation for corporate accounts. Monthly retainer arrangements are also available.',
+          a: 'Yes. We issue TRN-ready VAT invoices. An LPO or consolidated invoice does not by itself create credit terms.',
         },
         {
           q: 'Can the menu accommodate dietary requirements?',
-          a: 'Absolutely. We handle halal, vegetarian, vegan, gluten-free, dairy-free, nut-free, and allergy-aware menus for corporate guests.',
+          a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. This is not a medical or allergen-free promise.',
         },
         {
           q: 'Do you cater at offices across Dubai?',
@@ -94,5 +95,7 @@ export default function CorporateDinnerPackage() {
       hideSiteName
       ctaLabel="Plan My Corporate Dinner"
     />
+    <CorporateInventory path="/corporate-dinner-package-dubai" quoteHref="/inquiry" />
+    </>
   )
 }

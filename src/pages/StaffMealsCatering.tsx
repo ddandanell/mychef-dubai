@@ -28,6 +28,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -39,49 +42,49 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const staffFormats = [
   {
     icon: UtensilsCrossed,
-    title: 'Daily Team Meals',
-    description: 'Hearty, balanced meals delivered each day to keep your whole team well fed and productive throughout the working week.',
+    title: 'Daily team meals',
+    description: 'A hot main, carbohydrate, salad and fruit. Drop-off from AED 90 per person. Billed on sittings, not empty calendar days.',
     link: '/office-catering-dubai',
   },
   {
     icon: HandPlatter,
-    title: 'Staff Canteen Service',
-    description: 'A managed canteen-style buffet for larger workforces, with hot mains, sides, and salads served on-site at scale.',
+    title: 'Canteen sitting',
+    description: 'A line for a larger workforce. Staffed if someone has to run it. This is volume food, not a gala.',
     link: '/corporate',
   },
   {
     icon: CalendarClock,
-    title: 'Recurring Retainers',
-    description: 'A standing weekly or monthly meal contract with a planned rotation, predictable invoicing, and one point of contact.',
-    link: '/corporate',
+    title: 'Written account',
+    description: 'A contract for regular bookings. Fees and credit are set in writing. Not a shop-window monthly fee.',
+    link: '/corporate-retainer-dubai',
   },
   {
     icon: ChefHat,
-    title: 'Halal Menus',
-    description: 'Fully halal menus prepared to a high standard, suitable for diverse teams across your organisation.',
-    link: '/catering-dubai',
+    title: 'Halal as default',
+    description: 'Halal ingredients are the starting point. Additional dietary lines are planned when named.',
+    link: '/halal-catering-dubai',
   },
   {
     icon: Users,
-    title: 'Shift & Site Catering',
-    description: 'Reliable meals for shift workers and operational sites, scheduled around your rosters and delivery windows.',
-    link: '/corporate',
+    title: 'Shift meals',
+    description: 'Food that holds. Timed to the roster. If the shift moves, the sitting moves.',
+    link: '/production-catering-dubai',
   },
   {
     icon: Leaf,
-    title: 'Healthy & Dietary Options',
-    description: 'Balanced, lighter choices alongside vegetarian, vegan, and gluten-free options so every colleague is catered for.',
+    title: 'Named dietary lines',
+    description: 'Vegetarian, vegan and gluten-free when you send the list. Not waiter hire. Not a medical kitchen.',
     link: '/cuisines-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Planned Meal Rotation', description: 'A varied weekly rotation that keeps daily team meals interesting.' },
-  { title: 'Halal Preparation', description: 'Fully halal menus prepared to a consistently high standard.' },
-  { title: 'Reliable Daily Delivery', description: 'Dependable, on-time delivery scheduled around your operating hours.' },
-  { title: 'Dietary Inclusivity', description: 'Vegetarian, vegan, gluten-free, and balanced options as standard.' },
-  { title: 'Canteen-Style Service', description: 'Buffet set-up and service for larger workforces, handled on-site.' },
-  { title: 'Single Point of Contact', description: 'One account contact who knows your team, rosters, and preferences.' },
+  { title: 'Rotation', description: 'Mains change through the week so the same tray does not appear twice in two days.' },
+  { title: 'Halal default', description: 'Halal ingredients unless the brief says otherwise.' },
+  { title: 'Named delivery window', description: 'The sitting time is in the booking. Late changes after the kitchen deadline are quoted again.' },
+  { title: 'Labels', description: 'Vegetarian, vegan, gluten-free marked when those lines are booked.' },
+  { title: 'Coverage named', description: 'Drop-off is food and delivery. A canteen line that needs people is staffed and billed that way.' },
+  { title: 'One contact', description: 'One person who already knows the roster. You are not re-briefing every Monday.' },
   { title: 'Predictable Invoicing', description: 'Consolidated billing on a weekly or monthly retainer cycle.' },
   { title: 'Scalable Headcount', description: 'Daily covers scaled smoothly as your workforce grows or shifts.' },
 ]
@@ -89,11 +92,11 @@ const includedItems = [
 const useCases = [
   {
     title: 'Daily Workforce Meals',
-    description: 'When teams are on-site all day, a reliable daily meal keeps people fuelled, focused, and looked after. We run a planned rotation of hearty, balanced meals so staff have something good to count on each day — far more sustainable and cost-effective than ad-hoc ordering across a large workforce.',
+    description: 'When teams are on-site all day, a reliable daily meal keeps people fuelled, focused, and looked after. We run a planned rotation of hearty, balanced meals so staff have something good to count on each day: far more sustainable and cost-effective than ad-hoc ordering across a large workforce.',
   },
   {
     title: 'Staff Canteens at Scale',
-    description: 'For larger organisations, a managed canteen-style service is the efficient way to feed many people well. We set up buffet stations with hot mains, sides, and salads, serve on-site, and clear away — giving your workforce a proper meal without you running an in-house kitchen.',
+    description: 'For larger organisations, a managed canteen-style service is the efficient way to feed many people well. We set up buffet stations with hot mains, sides, and salads, serve on-site, and clear away: giving your workforce a proper meal without you running an in-house kitchen.',
   },
   {
     title: 'Recurring Retainers',
@@ -149,7 +152,7 @@ const faqs = [
   },
   {
     q: 'Can you cater large workforces with a canteen service?',
-    a: 'We can. For larger organisations we provide a managed canteen-style buffet — hot mains, sides, and salads set up and served on-site at scale, then cleared away. It gives your team a proper meal without you needing to run an in-house kitchen.',
+    a: 'We can. For larger organisations we provide a managed canteen-style buffet: hot mains, sides, and salads set up and served on-site at scale, then cleared away. It gives your team a proper meal without you needing to run an in-house kitchen.',
   },
   {
     q: 'Can you work around shift patterns and delivery windows?',
@@ -283,7 +286,7 @@ export default function StaffMealsCatering() {
     <div ref={containerRef}>
       <SEO
         title="Staff Meals Catering Dubai | Daily Team Meals & Canteens | myCHEF"
-        description="Staff meals catering Dubai with daily team meals, canteens & retainers. Halal menus, VAT/TRN invoicing, account management. Get a quote."
+        description="Staff meals catering Dubai for workforce sittings. Drop-off from AED 90 per person. Halal by default. Not waiter hire. Actual sittings billed."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -308,13 +311,13 @@ export default function StaffMealsCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 staff-hero-h1">
-            Staff Meals Catering Dubai — Daily Meals, Canteens & Retainers
+            Staff Meals Catering Dubai: Daily Meals, Canteens & Retainers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
-            Daily team meals, canteen service, and recurring retainers — with fully halal menus, reliable delivery, and predictable billing for workforces across Dubai.
+            Daily team meals, canteen service, and recurring retainers: with fully halal menus, reliable delivery, and predictable billing for workforces across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Get My Staff Meals Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -338,16 +341,29 @@ export default function StaffMealsCatering() {
             A Reliable Meal for Every Shift
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
+            Staff meals catering in Dubai is volume food for a known workforce. The job is consistency, a cost per head finance can check, and a sitting that actually arrives. It is not waiter recruitment. It is not a gala. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Staff meals catering Dubai price and staff meals catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. If you are weighing up best veg meals in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Halal staff meals catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Staff meals Dubai, event catering staff, chief of staff catering, staff lunch catering Dubai, catering with service staff and catering staff hire for private catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Ready to cook meals Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
+            Staff meals catering in Dubai is volume food for a workforce: repeating sittings, a rotating main, and a cost per head finance can check. It is not waiter recruitment and it is not a gala. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900. Actual service sittings are billed. Halal ingredients are the default. Vegetarian and vegan lines are planned when named in the brief.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our corporate meal prep for portioned workplace programmes.
+            Daily sittings, shift meals and a written account if you book often. Explore the formats below, or see the wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> hub and <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link> for smaller repeating teams.
           </p>
         </div>
       </section>
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/staff-meals-catering-dubai')}
+            heading="Daily and shift meals"
+            intro="Workforce meals use the advertised drop-off floor. This is not a page for hiring waiters. Feeding staff and supplying hospitality staff are different jobs."
+          />
+        </div>
+      </section>
+
+      <CorporateInventory path="/staff-meals-catering-dubai" quoteHref="/inquiry" />
+
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -522,10 +538,10 @@ export default function StaffMealsCatering() {
             Feed Your Team, Every Day
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your headcount, schedule, and dietary needs and we'll build a reliable staff meals plan — daily, canteen, or recurring retainer — with halal menus and clear, predictable pricing.
+            Tell us your headcount, schedule, and dietary needs and we'll build a reliable staff meals plan: daily, canteen, or recurring retainer: with halal menus and clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Staff Meals Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

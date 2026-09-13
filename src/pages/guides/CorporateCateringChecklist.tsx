@@ -20,6 +20,9 @@ import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
 import { SectionLabel } from '../../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packageById } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -253,7 +256,7 @@ export default function CorporateCateringChecklist() {
     <div ref={containerRef}>
       <SEO
         title="Corporate Catering Checklist Dubai"
-        description="A corporate catering checklist Dubai businesses: headcount, dietary needs, format, timing, budget, menu options, service flow, and post-event follow-up."
+        description="Corporate catering checklist Dubai: what to lock before you brief. Headcount, format, access, dietary notes and an itemised proposal."
         canonicalPath="/corporate-catering-checklist-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}
@@ -459,6 +462,23 @@ export default function CorporateCateringChecklist() {
         </div>
       </section>
 
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={[
+              packageById('corp-office-lunch-dropoff')!,
+              packageById('corp-conf-full-day')!,
+              packageById('corp-event-networking')!,
+              packageById('corp-dinner-package')!,
+            ]}
+            heading="Match the occasion to a package"
+            intro="Use this checklist with the advertised floors. The written proposal is the offer."
+          />
+        </div>
+      </section>
+
+      <CorporateInventory path="/corporate-catering-checklist-dubai" quoteHref="/inquiry" />
+
       {/* ═══════════════ FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
@@ -477,7 +497,7 @@ export default function CorporateCateringChecklist() {
             Plan Your Next Corporate Event
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Send us your headcount, date, and format. We will return an itemised corporate catering proposal within 15 minutes during business hours.
+            Send the headcount, date, area and format. You get an itemised proposal: food, staff, delivery, equipment and 5% VAT as separate lines.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>

@@ -8,17 +8,20 @@ import { Link } from 'react-router'
 import { Users, Coffee, Truck, Utensils } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
 import type { ServicePageConfig } from './shared/ServiceLandingPage'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
   seoTitle: 'Exhibition Catering Dubai | DWTC & Expo City | myCHEF',
   metaDescription:
-    'Exhibition catering Dubai for DWTC, Expo City & trade show stands. Branded counters, canapés, coffee stations & halal menus. VAT/TRN invoicing. Get a quote.',
+    'Exhibition catering Dubai for stand hospitality and exhibitor meals. Drop-off from AED 90 per person. No kitchen assumed. Hall access quoted separately.',
   canonicalPath: '/exhibition-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
   hideSiteName: true,
-  h1: 'Exhibition Catering Dubai — DWTC, Expo City & Trade Show Stands',
+  h1: 'Exhibition Catering Dubai: DWTC, Expo City & Trade Show Stands',
   heroSub:
     'Reliable, high-volume catering for exhibitors, organisers and trade show visitors at Dubai World Trade Centre, Expo City and major exhibition venues across the emirate.',
   heroImage: '/service-events.webp',
@@ -32,7 +35,7 @@ const config: ServicePageConfig = {
         Trade shows and exhibitions in Dubai move fast. Whether you are hosting a stand at Dubai World Trade Centre, organising a pavilion at Expo City, or running a corporate showcase at a hotel ballroom, your catering needs to keep pace with long hours, high footfall and back-to-back meetings. Our exhibition catering service is built around reliability, speed and presentation that reflects your brand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Exhibition catering Dubai price and exhibition catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Exhibition catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The exhibition catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.
+        Exhibition catering in Dubai is hospitality without a kitchen. Drop-off food that holds starts from AED 90 per person. Hall rules, power and replenishment matter more than a plated menu.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
@@ -47,9 +50,9 @@ const config: ServicePageConfig = {
           luxury catering in Dubai
         </Link>{' '}
         offering. For product launches and brand activations, see our{' '}
-        
+        <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brand activation catering
-        {' '}
+        </Link>{' '}
         service, or explore{' '}
         <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           canapé catering Dubai
@@ -63,7 +66,7 @@ const config: ServicePageConfig = {
     {
       Icon: Coffee,
       title: 'Coffee & Refreshment Stations',
-      description: 'Barista coffee, tea, cold juices and water stations to keep your team and visitors energised throughout the day.',
+      description: 'Coffee, tea, water and juice on the stand. Power and hall rules checked first. Barista labour is not a full coffee cart unless named.',
       link: '/bar-services-dubai',
     },
     {
@@ -101,7 +104,7 @@ const config: ServicePageConfig = {
     {
       title: 'Product Launches at Trade Shows',
       description:
-        'Coordinate catering with your launch moment — from champagne-style mocktail toasts to themed tasting plates that mirror your product story.',
+        'Time food to the launch moment: passed bites, labelled dietary plates, service that can pause for the reveal.',
     },
     {
       title: 'Multi-Day Conferences & Expos',
@@ -137,7 +140,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can you brand the catering counter to match our stand?',
-      a: 'Yes. We can dress the counter, signage and serveware to align with your stand design and colour scheme, helping your food offering feel like a seamless part of the visitor experience.',
+      a: 'Counter cloths, labelled trays and napkins can follow a colour brief. That is not a full stand build. Hall rules still apply.',
     },
     {
       q: 'Do you provide staff for exhibition stands?',
@@ -172,9 +175,23 @@ const config: ServicePageConfig = {
   ],
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
-    'Tell us your venue, stand size and visitor numbers. We will design an exhibition catering package that keeps your team energised and your guests impressed.',
-  primaryCta: 'Get My Exhibition Catering Quote',
+    'Send the hall, the stand, the hours and the headcount. You get an itemised proposal. Hall access and power are quoted when they are not standard.',
+  primaryCta: 'Request a proposal',
   showTrustSignalStrip: true,
+  afterIntro: (
+    <>
+    <section className="bg-cream section-padding">
+      <div className="container-custom">
+        <CorporatePackageCompare
+          packages={packagesForOwner('/exhibition-catering-dubai')}
+          heading="Stand hospitality and exhibitor meals"
+          intro="Exhibition work uses the advertised drop-off floor unless the stand is staffed. Hall access and power are quoted separately when they are not standard."
+        />
+      </div>
+    </section>
+    <CorporateInventory path="/exhibition-catering-dubai" quoteHref="/inquiry" />
+    </>
+  ),
 }
 
 export default function ExhibitionCatering() {

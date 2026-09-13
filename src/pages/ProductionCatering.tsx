@@ -27,6 +27,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -91,7 +94,7 @@ const useCases = [
   },
   {
     title: 'Night Shoots & Wrap Meals',
-    description: 'Twelve-hour days and overnight shoots need food at the right moments, not just at noon. We plan warm second meals and late wrap catering around your shooting blocks so the unit stays fuelled however far the schedule runs — desert, beach, industrial backlot or studio.',
+    description: 'Twelve-hour days and overnight shoots need food at the right moments, not just at noon. We plan warm second meals and late wrap catering around your shooting blocks so the unit stays fuelled however far the schedule runs: desert, beach, industrial backlot or studio.',
   },
 ]
 
@@ -278,7 +281,7 @@ export default function ProductionCatering() {
     <div ref={containerRef}>
       <SEO
         title="Production Catering Dubai | Film, TV & Photo Crews | myCHEF"
-        description="Production catering Dubai for TV, photo & event crews — daily meals, craft services, early calls & dietary coverage. Timed to your schedule. Get a quote."
+        description="Production catering Dubai for film, photo and event crews. Craft services and crew lunch from AED 90 per person, timed to the call sheet."
         canonicalPath="/production-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
@@ -303,13 +306,13 @@ export default function ProductionCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 prod-hero-h1">
-            Production Catering Dubai — TV, Photo & Event Crew Meals
+            Production Catering Dubai: TV, Photo & Event Crew Meals
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 prod-hero-sub">
-            On-location catering for TV, photo, and event productions across Dubai — daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
+            On-location catering for TV, photo, and event productions across Dubai: daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Get My Production Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -333,16 +336,30 @@ export default function ProductionCatering() {
             Reliable Food for Demanding Schedules
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A production runs on its schedule, and catering is part of how that schedule holds. Hot meals served at the right moment, craft tables kept stocked between setups, and dietary needs handled without fuss all add up to a unit that stays focused and on time. At myCHEF Dubai, we plan production catering as part of the operation — timed to your call sheet, scaled to your headcount, and consistent across every day of the shoot.
+            A production runs on its schedule, and catering is part of how that schedule holds. Hot meals served at the right moment, craft tables kept stocked between setups, and dietary needs handled without fuss all add up to a unit that stays focused and on time. At myCHEF Dubai, we plan production catering as part of the operation: timed to your call sheet, scaled to your headcount, and consistent across every day of the shoot.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Production catering Dubai price and production catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Production catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The production catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Production catering companies Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+            Production catering in Dubai follows the call sheet: craft services and crew lunch, moved if the day moves. Drop-off starts from AED 90 per person. This is crew food, not a client gala.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From television and broadcast crews to photo shoots, branded content, and live event productions, we keep cast, talent, and technical teams looked after from the first setup to the final wrap. Film crews, television units, photo shoots and event productions are one page here because the problem is the same: a moving team, a call sheet, and food that has to arrive hot at the right moment. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
+
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/production-catering-dubai')}
+            heading="Craft services and crew lunch"
+            intro="Call-sheet food from the drop-off floor. Moved if the day moves."
+          />
+        </div>
+      </section>
+
+      <CorporateInventory path="/production-catering-dubai" quoteHref="/inquiry" />
+
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -517,10 +534,10 @@ export default function ProductionCatering() {
             Let's Plan Your Production Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your shoot — the dates, locations, headcount, and dietary needs — and we'll build a catering plan that keeps your production fed, focused, and on schedule.
+            Tell us about your shoot: the dates, locations, headcount, and dietary needs: and we'll build a catering plan that keeps your production fed, focused, and on schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Production Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

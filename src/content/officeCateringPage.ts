@@ -21,7 +21,7 @@ export const OFFICE_KEYWORD_LOCK = {
   primary: 'office catering dubai',
   title: 'Office Catering Dubai | Daily Lunches and Team Days | myCHEF',
   description:
-    'Office Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+    'Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.',
   h1: 'Office Catering Dubai',
 } as const
 
@@ -34,7 +34,16 @@ export const OFFICE_WHATSAPP_LINK = `https://wa.me/${OFFICE_WHATSAPP_NUMBER}?tex
 export const OFFICE_SIBLING_LINKS = [
   { href: '/business-lunch-catering-dubai', label: 'Business lunch catering' },
   { href: '/drop-off-catering-dubai', label: 'Drop-off catering' },
+  { href: '/staff-meals-catering-dubai', label: 'Staff meals' },
   { href: '/breakfast-catering-dubai', label: 'Breakfast catering' },
+] as const
+
+export const officeMenuCycle = [
+  { day: 'Sunday', lunch: 'Grilled chicken, rice, mixed salad, yoghurt' },
+  { day: 'Monday', lunch: 'Fish or paneer, grains, slaw, fruit' },
+  { day: 'Tuesday', lunch: 'Slow lamb or lentil stew, bread, greens' },
+  { day: 'Wednesday', lunch: 'Asian-style bowls with a vegetarian line' },
+  { day: 'Thursday', lunch: 'Wraps, fattoush, cut fruit' },
 ] as const
 
 export const officeHero = {
@@ -47,6 +56,7 @@ export const officeHero = {
 export const jumpNav = [
   { href: '#services', label: 'Services' },
   { href: '#pricing', label: 'Prices' },
+  { href: '#packages', label: 'Packages' },
   { href: '#formats', label: 'Delivery or staffed' },
   { href: '#quote', label: 'How a quote is built' },
   { href: '#how-it-works', label: 'How it works' },
@@ -167,10 +177,10 @@ export const quoting = {
 }
 
 export const startSteps = [
-  'Send the headcount, the days or the date, dietary needs, and whether you want it delivered or staffed.',
-  'We typically reply within 15 minutes during business hours to confirm whether a chef and kitchen are free.',
-  'An itemised proposal follows within one business day: menu, format, per-head rate, staff, delivery, equipment and VAT as separate lines.',
-  'Confirm numbers. We deliver, set up and clear to the timetable you approved.',
+  'Send the headcount, the days or the date, and whether you want it delivered or staffed.',
+  'We confirm whether a kitchen slot is free for those days.',
+  'An itemised proposal follows: menu, format, per-head rate, staff, delivery, equipment and VAT as separate lines.',
+  'Confirm numbers. We deliver, set up and clear to the timetable you approved. Headcount changes after the kitchen deadline are quoted again.',
 ] as const
 
 export const siblingCards = [
@@ -221,7 +231,7 @@ export const proofItems = [
   },
   {
     title: 'Written proposals',
-    body: 'Days, office, headcount, format and dietary requirements shape the first proposal. The written booking is the contract. We typically reply within 15 minutes during business hours.',
+    body: 'Days, office, headcount, format and dietary requirements shape the first proposal. The written booking is the contract.',
     href: `${OFFICE_ROOT}#quote`,
     linkLabel: 'How an office quote is built',
   },

@@ -17,6 +17,7 @@ import {
   isYachtFormatId,
   yachtWhatsAppMessage,
 } from '@/content/yachtCateringQuote'
+import { corporateWhatsAppMessage, packageById } from '@/content/corporatePackages'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -45,9 +46,12 @@ export default function Inquiry() {
   const formatParam = params.get('format') ?? ''
   const guestsParam = Number(params.get('guests'))
   const yachtPrefill = params.get('from') === 'yachts' && isYachtFormatId(formatParam)
+  const corporatePkg = params.get('from') === 'corporate' ? packageById(params.get('package') ?? '') : undefined
   const whatsappMessage = yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
-    : DEFAULT_WHATSAPP_MESSAGE
+    : corporatePkg
+      ? corporateWhatsAppMessage(corporatePkg, Number.isFinite(guestsParam) && guestsParam > 0 ? guestsParam : undefined)
+      : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
 
   useScrollTrigger()
@@ -155,7 +159,9 @@ export default function Inquiry() {
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
             {yachtPrefill
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
-              : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
+              : corporatePkg
+                ? `Package selected: ${corporatePkg.name}. Add the date, area and guest count, then send.`
+                : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
           </p>
         </div>
       </section>

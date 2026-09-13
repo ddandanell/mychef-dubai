@@ -28,6 +28,10 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -39,57 +43,55 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const conferenceFormats = [
   {
     icon: Coffee,
-    title: 'Coffee Breaks',
-    description: 'Refreshing morning and afternoon breaks with barista-style coffee, teas, and pastries to keep delegates sharp between sessions.',
+    title: 'Coffee breaks',
+    description: 'Timed to the slot. Coffee, tea, water, a pastry or savoury bite. Barista labour is not a full coffee cart unless named.',
     link: '/corporate',
   },
   {
     icon: Utensils,
-    title: 'Working Lunches',
-    description: 'Efficient buffet or boxed lunches designed to feed a full room quickly and get delegates back on schedule.',
+    title: 'Delegate lunch',
+    description: 'Boxed if the agenda is tight. Buffet if you have 45 minutes. From AED 90 drop-off or AED 120 staffed.',
     link: '/business-lunch-catering-dubai',
   },
   {
     icon: CalendarRange,
-    title: 'Multi-Day Programmes',
-    description: 'Varied rotating menus across multi-day conferences so the food stays fresh and interesting from day one to close.',
+    title: 'Multi-day',
+    description: 'Each service day is billed. Lunch rotates. The dietary map carries across days. No automatic volume discount.',
     link: '/corporate',
   },
   {
     icon: Cookie,
-    title: 'All-Day Refreshments',
-    description: 'Continuous refreshment stations with drinks, snacks, and energy bites available throughout the conference day.',
-    link: '/catering-dubai',
+    title: 'Holding through the day',
+    description: 'Water and fruit that stay up between sessions. Staffed if it has to be replenished. Not a second lunch.',
+    link: '/drop-off-catering-dubai',
   },
   {
     icon: Users,
-    title: 'Networking Receptions',
-    description: 'Closing canapé receptions and drinks-friendly bites to round off a conference and keep delegates connecting.',
+    title: 'Closing reception',
+    description: 'Canapés after the last session. That sitting belongs on corporate event catering, not on this page.',
     link: '/corporate-event-catering-dubai',
   },
   {
     icon: Leaf,
-    title: 'Dietary-Inclusive Menus',
-    description: 'Vegetarian, vegan, gluten-free, and halal options clearly labelled and available across every break and meal.',
-    link: '/cuisines-dubai',
+    title: 'Dietary marks',
+    description: 'Halal default. Vegetarian, vegan and gluten-free labelled on every break and meal when named.',
+    link: '/halal-catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Timed Service', description: 'Breaks and lunches delivered precisely around your conference agenda.' },
-  { title: 'Efficient Set-Up', description: 'Fast, organised station set-up that feeds large delegate numbers quickly.' },
-  { title: 'Rotating Menus', description: 'Varied menus across multi-day events so the food never repeats.' },
-  { title: 'Dietary Labelling', description: 'Clear labelling for vegetarian, vegan, gluten-free, and halal options.' },
-  { title: 'Refreshment Stations', description: 'Coffee, tea, water, and snack stations maintained through the day.' },
-  { title: 'On-Site Service Staff', description: 'Service staff to manage stations, replenishment, and tidy clearing.' },
-  { title: 'Venue Coordination', description: 'We coordinate logistics and access with your conference venue.' },
-  { title: 'Scalable Headcount', description: 'Catering scaled smoothly from small seminars to large conferences.' },
+  { title: 'The agenda owns the clock', description: 'Breaks and lunch sit in named slots. We hold and clear so the next session can start.' },
+  { title: 'Stations that feed a room', description: 'Enough points so a queue does not eat the break. Power and flame checked first.' },
+  { title: 'Rotation on multi-day', description: 'Lunch changes by day. The same grain bowl does not appear twice in a row.' },
+  { title: 'Labels', description: 'Halal, vegetarian, vegan, gluten-free marked on the tray when those lines are booked.' },
+  { title: 'Staff when the format needs them', description: 'Drop-off has no one in the room. A staffed day includes setup, replenishment and clearance.' },
+  { title: 'Venue access', description: 'Lift, bay and security list. Unusual access is a separate line. We do not hire the room or run AV.' },
 ]
 
 const useCases = [
   {
     title: 'Coffee Breaks That Re-Energise',
-    description: 'The break is where a conference recovers its energy. Well-timed coffee breaks with proper coffee, fresh pastries, and a few healthy bites keep delegates alert through long programmes — and a smooth, fast service means people return to the room on schedule rather than drifting.',
+    description: 'The break is where a conference recovers its energy. Well-timed coffee breaks with proper coffee, fresh pastries, and a few healthy bites keep delegates alert through long programmes: and a smooth, fast service means people return to the room on schedule rather than drifting.',
   },
   {
     title: 'Working Lunches at Pace',
@@ -97,7 +99,7 @@ const useCases = [
   },
   {
     title: 'Multi-Day Conferences',
-    description: 'Across a multi-day programme, repetition is the enemy. We plan rotating menus so each day feels fresh, manage refreshments from open to close, and keep the service rhythm consistent — so organisers can focus on the agenda rather than the catering logistics.',
+    description: 'Across a multi-day programme, repetition is the enemy. We plan rotating menus so each day feels fresh, manage refreshments from open to close, and keep the service rhythm consistent: so organisers can focus on the agenda rather than the catering logistics.',
   },
   {
     title: 'Seminars & Training Days',
@@ -141,7 +143,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Can you cater large conferences and small seminars alike?',
-    a: 'Yes. We scale the same standard across the full range — from intimate seminars and training days to large multi-day conferences with hundreds of delegates. The format and logistics change with the numbers, but the quality and timing stay consistent.',
+    a: 'Yes. We scale the same standard across the full range: from intimate seminars and training days to large multi-day conferences with hundreds of delegates. The format and logistics change with the numbers, but the quality and timing stay consistent.',
   },
   {
     q: 'How do you keep coffee breaks and lunches on schedule?',
@@ -283,7 +285,7 @@ export default function ConferenceCatering() {
     <div ref={containerRef}>
       <SEO
         title="Conference Catering Dubai | Breaks & Working Lunches | myCHEF"
-        description="Conference catering Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, account manager. Ge"
+        description="Conference catering Dubai: coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90. Staffed buffet from AED 120. Not AV or venue hire."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -308,13 +310,13 @@ export default function ConferenceCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 conf-hero-h1">
-            Conference Catering Dubai — Coffee Breaks, Working Lunches & Multi-Day
+            Conference Catering Dubai: Coffee Breaks, Working Lunches & Multi-Day
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
-            Coffee breaks, working lunches, and multi-day refreshments — timed precisely around your agenda to keep delegates energised across conferences and seminars in Dubai.
+            Coffee breaks, lunch and multi-day holding, timed to the agenda. Drop-off from AED 90. Staffed buffet from AED 120. We do not hire the room or run the slides.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Get My Conference Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -338,19 +340,79 @@ export default function ConferenceCatering() {
             Keeping Delegates Sharp All Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters — but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
+            Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters: but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference catering Dubai price and conference catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Conference catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The conference catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Catering conference 2025, conference lunch catering Dubai, conference catering companies Dubai and catering & conference services coordinator are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference food catering, catering conference 2026, conference room catering and eisenhower conference & catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+            Conference catering in Dubai is priced from the same advertised floors as other corporate work: drop-off food from AED 90 per person, a staffed buffet from AED 120, live stations and canapés from AED 150. A complete day that includes breaks, lunch, staff, standard equipment, setup and clearance is quoted as one operation. Unusual venue costs sit on their own line. We do not supply AV, staging, entertainment or the room itself.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From barista-style coffee breaks and efficient working lunches to all-day refreshments and rotating multi-day menus, we keep delegates energised from the opening session to the closing remarks. Organisers who run regular events find a standing relationship invaluable — we already understand your format and standards, so each conference is quicker to plan. Explore the formats below, or see our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            Conference catering is the food operation under the run of show. Breaks are 15 to 30 minutes. Lunch is boxed or buffet. Multi-day work rotates the menu and bills each service day. A closing reception is a different page. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/conference-catering-dubai')}
+            heading="Coffee break, half-day, full-day and multi-day"
+            intro="Public figures are advertised floors. A multi-day complete-operation rate is proposed in writing, not published as a shop price. Each service day is billed. There is no automatic volume discount."
+          />
+          <div className="mt-12">
+            <CorporateWorkedBudgets
+              heading="Conference catering packages, worked totals"
+              intro="Conference lunch catering in Dubai is quoted around the agenda. Coffee breaks use the drop-off floor unless a barista cart is named. A full day uses the staffed buffet floor unless you choose boxed lunch."
+              examples={[
+                {
+                  title: '40-person morning break',
+                  packageId: 'corp-conf-coffee',
+                  guests: 40,
+                  note: 'Coffee, pastry, fruit. Barista labour is not a full coffee cart.',
+                },
+                {
+                  title: '40-person half day',
+                  packageId: 'corp-conf-half-day',
+                  guests: 40,
+                  note: 'Arrival coffee, one break, working lunch.',
+                },
+                {
+                  title: '40-person full day',
+                  packageId: 'corp-conf-full-day',
+                  guests: 40,
+                  note: 'Two breaks and lunch. Unusual venue costs extra.',
+                },
+              ]}
+            />
+          </div>
+          <p className="mt-8 max-w-[65ch] font-inter text-body text-gray-600">
+            Conference food catering is the operation around the agenda, not the conference itself. We do not hire the room, run AV or stage the speakers. A closing reception is corporate event catering. A repeating office week is office catering.
+          </p>
+          <div className="mt-12 overflow-x-auto">
+            <h3 className="font-playfair text-h4 text-black mb-4">Sample agenda</h3>
+            <table className="w-full min-w-[560px] text-left font-inter text-body-sm text-gray-700">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="py-3 pr-4 font-medium text-black">Time</th>
+                  <th className="py-3 pr-4 font-medium text-black">Session</th>
+                  <th className="py-3 font-medium text-black">Food</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100"><td className="py-3 pr-4">08:00</td><td className="py-3 pr-4">Registration</td><td className="py-3">Coffee, tea, water, light pastry</td></tr>
+                <tr className="border-b border-gray-100"><td className="py-3 pr-4">10:30</td><td className="py-3 pr-4">Morning break</td><td className="py-3">Coffee refresh, savoury bite, fruit</td></tr>
+                <tr className="border-b border-gray-100"><td className="py-3 pr-4">13:00</td><td className="py-3 pr-4">Lunch</td><td className="py-3">Buffet or boxed lunch, 45 minutes</td></tr>
+                <tr className="border-b border-gray-100"><td className="py-3 pr-4">15:30</td><td className="py-3 pr-4">Afternoon break</td><td className="py-3">Tea, sweet, water</td></tr>
+                <tr><td className="py-3 pr-4">17:30</td><td className="py-3 pr-4">Close</td><td className="py-3">Clearance. Optional networking canapés on the event page</td></tr>
+              </tbody>
+            </table>
+            <p className="mt-4 font-inter text-body-sm text-gray-500 max-w-[65ch]">
+              Meal allowances follow the package: one break sitting, or breaks plus lunch. Stations are planned to the room, power and holding time, not to a stage plot.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <CorporateInventory path="/conference-catering-dubai" quoteHref="/inquiry" />
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -525,10 +587,10 @@ export default function ConferenceCatering() {
             Plan Your Conference Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your agenda, delegate numbers, and venue, and we'll build a timed catering plan — coffee breaks, working lunches, and multi-day menus — that keeps your conference running smoothly.
+            Share your agenda, delegate numbers and venue. We will build a timed catering plan: coffee breaks, working lunches and multi-day menus that keep the conference on the agenda.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Conference Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

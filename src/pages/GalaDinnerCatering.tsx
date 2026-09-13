@@ -31,6 +31,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -63,7 +66,7 @@ const galaFormats = [
   {
     icon: Wine,
     title: 'Wine & Beverage Pairing',
-    description: 'Curated wine, champagne, and bespoke beverage service selected to complement each course of the gala menu.',
+    description: 'Soft drinks as standard. Wine or champagne only where the venue is licensed and it is agreed in writing.',
   },
 ]
 
@@ -76,12 +79,12 @@ const galaTypes = [
   {
     icon: HeartHandshake,
     title: 'Charity Balls & Fundraisers',
-    description: 'Elegant catering that reflects the cause, with menus and service designed to impress donors and supporters.',
+    description: 'Seated service with a clock. Courses timed to speeches. Headcount and dietary marks confirmed in the proposal.',
   },
   {
     icon: Building2,
     title: 'Corporate Anniversary Galas',
-    description: 'Landmark celebrations for companies that want a refined dining experience befitting their brand and achievements.',
+    description: 'A company anniversary dinner is still a gala clock: plated or staffed buffet, staff sized to the room, wine only where licensed.',
   },
   {
     icon: Users,
@@ -91,13 +94,13 @@ const galaTypes = [
 ]
 
 const includedItems = [
-  { title: 'Bespoke Menu Development & Tasting', description: 'A tailored menu built around your theme, with private tasting where required.' },
-  { title: 'Executive Chef & Kitchen Team', description: 'Senior culinary leadership and a full brigade to execute every course flawlessly.' },
-  { title: 'White-Glove Service Staff & Captains', description: 'Polished waiters, event captains, and front-of-house managers for seamless service.' },
-  { title: 'Premium Tableware, Glassware & Linens', description: 'Elegant crockery, crystal, and linens selected to suit the gala setting.' },
-  { title: 'Bar & Sommelier Service', description: 'Curated beverage lists, champagne service, and skilled bartenders for the evening.' },
-  { title: 'Timed Service Coordination', description: 'Service run in step with speeches, awards, and entertainment for a smooth flow.' },
-  { title: 'Full Setup & Clear-Down', description: 'Complete kitchen build, styling, and post-event removal so the venue is left pristine.' },
+  { title: 'Menu and tasting', description: 'Courses named in the proposal. A tasting when the sitting is large enough to need one.' },
+  { title: 'Chef and kitchen team', description: 'Chef plus kitchen support sized to the headcount. Not a fixed brigade for every room.' },
+  { title: 'Waiters and a floor lead', description: 'Staff to carry, clear and hold timing around speeches. Extra roles are extra lines.' },
+  { title: 'Tableware', description: 'Crockery, glass and linen for the seated format. Unusual hire is quoted separately.' },
+  { title: 'Bar service where licensed', description: 'Soft drinks as standard. Wine or champagne only where the venue licence allows it and the proposal names it.' },
+  { title: 'Timed to the run of show', description: 'Service pauses for awards and speeches. We do not run the stage or the AV.' },
+  { title: 'Setup and pack-down', description: 'Kitchen and floor built and cleared. The venue is left as we found it.' },
 ]
 
 const galleryImages = [
@@ -126,7 +129,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater large gala dinners in Dubai?',
-    a: 'Yes. We coordinate catering for gala dinners from 50 to several hundred guests, with menus and staffing scaled to the venue and event format.',
+    a: 'Yes. Headcount is confirmed in the proposal and staffing is sized to that room. We do not publish a maximum as a marketing number.',
   },
   {
     q: 'Can you create a multi-course plated menu for a formal dinner?',
@@ -134,7 +137,7 @@ const faqs = [
   },
   {
     q: 'Do you provide service staff and bar service for galas?',
-    a: 'Yes. Our gala packages include professional waiters, captains, bartenders, and event managers to ensure seamless service.',
+    a: 'Waiters and a floor lead are part of a staffed gala. A bartender is a separate line, and only where the venue is licensed. We do not supply an event manager for production, AV or staging.',
   },
   {
     q: 'Can you cater at hotels and ballrooms?',
@@ -171,7 +174,7 @@ const relatedServices = [
   },
   {
     title: 'Oyster & Seafood Bar',
-    description: 'Premium oyster and shellfish bar for an impressive gala reception or dinner finale.',
+    description: 'Shellfish station if the venue allows it and the brief names it. Not a default on every gala.',
     image: '/images/sushi-catering-dubai-hero.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -274,7 +277,7 @@ export default function GalaDinnerCatering() {
     <div ref={containerRef}>
       <SEO
         title="Gala Dinner Catering Dubai | Awards & Charity Balls | myCHEF"
-        description="Gala dinner catering Dubai for awards nights, charity balls & formal celebrations. Multi-course menus, white-glove service & VAT invoicing. Get a quote."
+        description="Gala dinner catering Dubai for seated awards and banquets. Staffed buffet from AED 120. Plated AED 700 to 950. Wine only where the venue is licensed."
         canonicalPath="/gala-dinner-catering-dubai"
         ogImage="/images/gala-dinner-catering-dubai-hero.webp"
         hideSiteName
@@ -299,13 +302,13 @@ export default function GalaDinnerCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 gala-hero-h1">
-            Gala Dinner Catering Dubai — Awards, Charity Balls & Formal Celebrations
+            Gala Dinner Catering Dubai: Awards, Charity Balls & Formal Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
             Refined catering for awards nights, charity galas, and formal celebrations across distinguished Dubai venues.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Get My Gala Dinner Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -329,10 +332,10 @@ export default function GalaDinnerCatering() {
             The Importance of Gala Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Chefs in our network design multi-course menus and curate sommelier-style beverage service, while polished front-of-house teams trained for black-tie occasions handle service.
+            A gala is judged on timing. Courses have to land around speeches. Staff have to hold a room that is watching a stage, not a buffet. Gala dinner catering in Dubai is a seated night: staffed buffet from AED 120 per person, or plated AED 700 to 950. Wine only where the venue is licensed. We do not run AV, staging or the awards script.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Gala dinner catering Dubai price and gala dinner catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Gala dinner catering packages Dubai and office dinner catering package Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best gala dinner catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The gala food menu ideas and gala dinner catering menu Dubai are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal gala dinner catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
+            Gala dinner catering in Dubai is a seated night with a clock. A staffed buffet starts from AED 120 per person. Chef-led plated service is AED 700–950 per person. Wine is only where the venue licence allows it. This is not a wedding and not a 10–15 guest board dinner.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}
@@ -345,6 +348,20 @@ export default function GalaDinnerCatering() {
           </p>
         </div>
       </section>
+
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/gala-dinner-catering-dubai')}
+            heading="Seated galas"
+            intro="A staffed banquet uses the advertised buffet or plated floors. Wine only where the venue is licensed."
+          />
+        </div>
+      </section>
+
+      <CorporateInventory path="/gala-dinner-catering-dubai" quoteHref="/inquiry" />
+
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -531,7 +548,7 @@ export default function GalaDinnerCatering() {
             Tell us about your awards night, charity ball, or formal celebration and we will design a gala menu and service plan worthy of the occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Gala Dinner Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

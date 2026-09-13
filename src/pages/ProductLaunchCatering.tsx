@@ -33,6 +33,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -45,13 +48,13 @@ const launchFormats = [
   {
     icon: Wine,
     title: 'Canapé & Champagne Reception',
-    description: 'A standing reception with passed canapés, flutes, and circulating service — ideal for unveilings and pre-launch networking.',
+    description: 'A standing reception with passed canapés, flutes, and circulating service: ideal for unveilings and pre-launch networking.',
     link: '/canape-catering-dubai',
   },
   {
     icon: Newspaper,
     title: 'Media & Press Lunch',
-    description: 'Seated or buffet lunches designed for journalists, creators, and PR teams, with photogenic plating and seamless timing.',
+    description: 'Press hour: canapés or a short lunch, labelled plates, service that can pause for the reveal.',
     link: '/business-lunch-catering-dubai',
   },
   {
@@ -69,7 +72,7 @@ const launchFormats = [
   {
     icon: CakeSlice,
     title: 'Branded Dessert & Coffee Bar',
-    description: 'Custom desserts, petit fours, and specialty coffee finished with brand accents for a memorable final impression.',
+    description: 'A sweet canapé and coffee if the hour needs a close. Brand colour on napkins if you send a brief.',
     link: '/dessert-table-catering-dubai',
   },
 ]
@@ -270,7 +273,7 @@ export default function ProductLaunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Product Launch Catering Dubai | Media & Press | myCHEF"
-        description="Product launch catering Dubai for media events, press briefings & unveilings. Branded canapés, live stations & VAT invoicing. Get a quote in 15 min."
+        description="Product launch catering Dubai: canapé receptions from AED 150 per person, timed to the reveal. Not a seated dinner. Itemised proposal."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"
         hideSiteName
@@ -295,13 +298,13 @@ export default function ProductLaunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 plc-hero-h1">
-            Product Launch Catering Dubai — Media Launches, Press Events & Unveilings
+            Product Launch Catering Dubai: Media Launches, Press Events & Unveilings
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 plc-hero-sub">
             Catering that matches the moment. Bespoke menus and flawless service for product launches, press events, and brand unveilings across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Get My Product Launch Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -325,10 +328,10 @@ export default function ProductLaunchCatering() {
             Why Launch Catering Matters
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A product launch is more than a presentation — it is the first impression your market will have of something new. The food, the drinks, and the service all signal the quality and attention to detail behind your brand. At myCHEF Dubai, we design product launch catering around your product, your audience, and your venue, so every bite reinforces the story you are telling.
+            Product launch catering in Dubai is standing food timed to the reveal. Canapés from AED 150 per person. The team can pause. Food does not sit on laptops and does not compete with the product. This is not a seated gala and not event production.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Product launch catering Dubai price and product launch catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Product launch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The product launch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Launch party catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            Product launch catering in Dubai is standing food timed to the reveal. Canapé receptions start from AED 150 per person. The team can pause for the product moment. This is not a seated dinner and not event production.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, our chefs plan menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.
@@ -338,6 +341,20 @@ export default function ProductLaunchCatering() {
           </p>
         </div>
       </section>
+
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/product-launch-catering-dubai')}
+            heading="Launch receptions"
+            intro="Canapé receptions start from AED 150 per person. Food pauses for the reveal."
+          />
+        </div>
+      </section>
+
+      <CorporateInventory path="/product-launch-catering-dubai" quoteHref="/inquiry" />
+
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -540,10 +557,10 @@ export default function ProductLaunchCatering() {
             Ready to Launch?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Plan launch catering that leaves an impression. Tell us about your product, guests, and venue and we will build a proposal tailored to your moment.
+            Send the date, the room, the headcount and the reveal time. You get an itemised proposal. Dietary notes can follow.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Product Launch Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

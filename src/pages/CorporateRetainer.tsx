@@ -10,13 +10,10 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import {
-  Building2,
   CalendarClock,
   Headphones,
   Phone,
   ArrowRight,
-  Check,
-  Briefcase,
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -25,51 +22,13 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a corporate retainer (via mychef.ae/corporate-retainer-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/corporate-retainer-dubai'
-
-const tiers = [
-  {
-    name: 'Essential',
-    price: 'From AED 3,500',
-    period: '/month',
-    description: 'For SMEs and teams that need reliable monthly catering without the overhead of a full-service contract.',
-    icon: Building2,
-    features: [
-      'Monthly catering credit pool',
-      'Priority 14-day booking window',
-      'Dedicated WhatsApp account contact',
-      'Consolidated monthly VAT invoice',
-      'Standard menu consultation',
-      'Backup chef cover for retainer events',
-    ],
-    cta: 'Discuss Essential',
-    highlighted: false,
-  },
-  {
-    name: 'Enterprise',
-    price: 'From AED 8,000',
-    period: '/month',
-    description: 'For companies with regular boardroom dining, client entertainment, and multi-site catering needs.',
-    icon: Briefcase,
-    features: [
-      'Everything in Essential, plus:',
-      'Larger monthly credit pool',
-      'Priority 30-day booking window',
-      'Named account manager',
-      'Custom menu development',
-      'Quarterly usage reporting',
-      'On-call chef availability for urgent meetings',
-      'Multi-location coordination across Dubai',
-    ],
-    cta: 'Discuss Enterprise',
-    highlighted: true,
-  },
-]
 
 const benefits = [
   {
@@ -78,7 +37,7 @@ const benefits = [
   },
   {
     title: 'Priority Scheduling',
-    description: 'Retainer clients reserve dates before they are released to the public — critical for board meetings and peak seasons.',
+    description: 'Retainer clients reserve dates before they are released to the public: critical for board meetings and peak seasons.',
   },
   {
     title: 'Single Invoice',
@@ -97,11 +56,11 @@ const faqs = [
   },
   {
     q: 'How does the monthly credit work?',
-    a: 'You choose a monthly tier. Each event you run is charged against that credit. Unused credit typically rolls over for one month, depending on your agreement. Any overage is billed at the end of the month.',
+    a: 'If the agreement includes credit, bookings deduct from it at the advertised rate for that job. Rollover, expiry and overages are named in writing. They are not a default shop rule.',
   },
   {
     q: 'Is there a minimum commitment?',
-    a: 'Retainers are offered on a 3-month minimum commitment. This gives us enough runway to learn your preferences and allocate chef capacity reliably.',
+    a: 'Commitment length is set in the written agreement. Nothing on this page creates a three-month term by itself.',
   },
   {
     q: 'Can the retainer cover multiple office locations?',
@@ -199,7 +158,7 @@ export default function CorporateRetainer() {
     <div ref={containerRef}>
       <SEO
         title="Corporate Catering Contract Dubai | myCHEF"
-        description="Corporate Catering Contract Dubai — myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated…"
+        description="Corporate catering contract Dubai: a written account for regular bookings. Fees, credit and expiry are set in the agreement, not as a shop price."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -227,10 +186,10 @@ export default function CorporateRetainer() {
             Corporate Catering Contract Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
-            Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.
+            A written account for companies that book often. Each sitting still uses the advertised floors. Fees, credit and expiry are named in the agreement. An LPO does not create credit terms by itself.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Get My Corporate Retainer Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -256,13 +215,10 @@ export default function CorporateRetainer() {
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our corporate retainer gives your Dubai company one reliable catering partner, predictable monthly spend, and priority access to vetted chefs. Tell us about your monthly rhythm — boardroom lunches, client dinners, team events — and we will design a written retainer proposal within 24 hours.
+              A corporate catering account is a written arrangement for companies that book often. It is not a shop-window monthly price. Fees, spendable credit, tax, deductions, expiry, overages and commitment are set only in the agreement you sign.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Corporate catering contract Dubai cost depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate meal prep packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. For catering contract with cancellation policy, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Iftar Dubai for corporate, corporate catering DIFC Dubai, monthly corporate catering Dubai, corporate catering supplier Dubai, catering services company in Dubai and corporate catering companies in Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              For a fixed monthly fee, your team gets a pre-allocated catering credit, priority booking, a dedicated contact, and one consolidated VAT invoice. The process is simple: brief us, confirm the date, and we handle chef selection, ingredients, service, and cleanup.
+              Each booking still uses the advertised floors on the office, lunch and event pages. The account does not invent a cheaper per-person rate. An LPO or a consolidated invoice does not by itself create credit terms.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Learn more about <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>, <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>, <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunches</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate events</Link>.
@@ -275,62 +231,34 @@ export default function CorporateRetainer() {
       <section className="cr-tiers bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">RETAINER PLANS</SectionLabel>
+            <SectionLabel align="center">HOW AN ACCOUNT WORKS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Choose Your Monthly Tier
+              Fees, credit and what still gets quoted
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-[900px] mx-auto">
-            {tiers.map((tier, i) => {
-              const Icon = tier.icon
-              return (
-                <div
-                  key={i}
-                  className={`cr-tier-card relative p-8 opacity-0 translate-y-10 ${tier.highlighted ? 'bg-black text-white border-2 border-gold' : 'bg-white text-black'}`}
-                >
-                  {tier.highlighted && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-black font-inter text-xs uppercase tracking-wider px-4 py-1">
-                      Most Popular
-                    </span>
-                  )}
-                  <div className="flex items-center gap-3 mb-4">
-                    <Icon size={28} className="text-gold" />
-                    <h3 className="font-playfair text-h3">{tier.name}</h3>
-                  </div>
-                  <div className="flex items-baseline gap-1 mb-2">
-                    <span className={`font-playfair text-3xl font-semibold ${tier.highlighted ? 'text-white' : 'text-black'}`}>{tier.price}</span>
-                    <span className="font-inter text-body-sm text-gray-500">{tier.period}</span>
-                  </div>
-                  <p className="font-inter text-body-sm text-gray-500 mb-6 leading-relaxed">
-                    {tier.description}
-                  </p>
-                  <ul className="space-y-3 mb-8">
-                    {tier.features.map((feature, fi) => (
-                      <li key={fi} className="flex items-start gap-3">
-                        <Check size={18} className="text-gold flex-shrink-0 mt-0.5" />
-                        <span className="font-inter text-body-sm text-gray-500">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <a
-                    href={WHATSAPP_LINK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`block text-center w-full py-3 font-inter text-sm uppercase tracking-wider transition-colors ${tier.highlighted ? 'bg-gold text-black hover:bg-gold-light' : 'bg-black text-white hover:bg-charcoal'}`}
-                  >
-                    {tier.cta}
-                  </a>
-                </div>
-              )
-            })}
+            <div className="cr-tier-card bg-white p-8">
+              <h3 className="font-playfair text-h3 text-black mb-4">Spendable credit</h3>
+              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">
+                If the agreement includes credit, each booking is deducted from that pool at the advertised package or per-person rate for that job. Unused credit, expiry and overages are named in the agreement. They are not published here as a shop rule.
+              </p>
+            </div>
+            <div className="cr-tier-card bg-white p-8">
+              <h3 className="font-playfair text-h3 text-black mb-4">Account fee</h3>
+              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">
+                A fee, if any, is separate from food. Tax sits on its own line. Commitment length is not a three-month shop promise. It is whatever the signed agreement says.
+              </p>
+            </div>
           </div>
 
           <p className="text-center font-inter text-body-sm text-gray-500 mt-8 max-w-[700px] mx-auto">
-            Starting prices are indicative; final retainer terms, credit rollover, and event inclusions are agreed in a written proposal tailored to your company after a short briefing.
+            Fees, credit, expiry and overages are named only in the written agreement. Nothing on this page is a shop-window monthly price.
           </p>
         </div>
       </section>
+
+      <CorporateInventory path="/corporate-retainer-dubai" quoteHref="/inquiry" />
 
       {/* ═══════════════ Section 4: Benefits ═══════════════ */}
       <section className="bg-black section-padding">
@@ -416,7 +344,7 @@ export default function CorporateRetainer() {
             Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and delivers consistent quality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Get My Corporate Retainer Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

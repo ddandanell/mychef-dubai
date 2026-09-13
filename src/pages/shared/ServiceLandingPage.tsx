@@ -68,6 +68,7 @@ export interface ServicePageConfig {
   eyebrow: string
   introH2: string
   introNodes: ReactNode
+  afterIntro?: ReactNode
   noindex?: boolean
   hideSiteName?: boolean
   showTrustSignalStrip?: boolean
@@ -268,6 +269,8 @@ export default function ServiceLandingPage({ config }: Props) {
           {config.introNodes}
         </div>
       </section>
+
+      {config.afterIntro}
 
       {/* Formats */}
       <section className="bg-black section-padding">
