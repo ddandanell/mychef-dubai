@@ -21,6 +21,8 @@ export type BirthdayExtra = {
   occasions: readonly BirthdayOccasion[]
   requiresCatering: boolean
   minQty?: number
+  image?: string
+  imageAlt?: string
 }
 
 export const BIRTHDAY_EXTRAS_DISCLAIMER =
@@ -54,6 +56,8 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     amountKind: 'from',
     occasions: ['children', 'adult', 'mixed'],
     requiresCatering: false,
+    image: '/images/birthday-catering-dubai-cake-balloons.webp',
+    imageAlt: 'Chef finishing a buttercream birthday cake beside balloon clusters. Experience concept shown.',
   },
   {
     id: 'cake-themed',
@@ -98,6 +102,8 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     amountKind: 'from',
     occasions: ['children', 'mixed'],
     requiresCatering: false,
+    image: '/images/birthday-catering-dubai-cake-balloons.webp',
+    imageAlt: 'Balloon clusters and an age number beside a villa dining table. Experience concept shown.',
   },
   {
     id: 'backdrop',
@@ -121,6 +127,8 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     occasions: ['children', 'mixed'],
     requiresCatering: true,
     minQty: 10,
+    image: '/images/birthday-catering-dubai-meal-boxes.webp',
+    imageAlt: 'Children’s meal boxes being laid on a garden table. Experience concept shown.',
   },
   {
     id: 'cupcake-decorating',

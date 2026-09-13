@@ -106,8 +106,20 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
                 return (
                   <li
                     key={item.id}
-                    className={`border p-6 ${selectedItem ? 'border-gold bg-cream/40' : 'border-gray-200'}`}
+                    className={`border ${selectedItem ? 'border-gold bg-cream/40' : 'border-gray-200'}`}
                   >
+                    {item.image ? (
+                      <img
+                        src={item.image}
+                        alt={item.imageAlt ?? ''}
+                        width={1344}
+                        height={752}
+                        loading="lazy"
+                        decoding="async"
+                        className="aspect-[16/9] w-full object-cover"
+                      />
+                    ) : null}
+                    <div className="p-6">
                     <div className="flex items-start justify-between gap-4 mb-2">
                       <h4 className="font-playfair text-h4 text-black">{item.name}</h4>
                       <p className="font-inter text-caption uppercase tracking-[0.08em] text-gold-ink whitespace-nowrap">
@@ -130,6 +142,7 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
                     >
                       {selectedItem ? 'Added to my birthday enquiry' : 'Add to my birthday enquiry'}
                     </button>
+                    </div>
                   </li>
                 )
               })}

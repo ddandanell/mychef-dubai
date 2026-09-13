@@ -18,9 +18,9 @@ import { BIRTHDAY_BUDGET_EXAMPLE } from './birthdayExtras'
 
 export const birthdayHero = {
   src: '/images/birthday-catering-dubai-hero.webp',
-  alt: 'A birthday table laid for guests in a Dubai home, with a chef finishing a dish in the background. Experience concept shown.',
-  width: 2688,
-  height: 1504,
+  alt: 'A host seated at a birthday dinner in a Dubai villa while a chef and server work behind the table. Experience concept shown.',
+  width: 1344,
+  height: 752,
 } as const
 
 export const birthdayHeroCopy = {
@@ -42,6 +42,7 @@ export const siloIntro = {
 
 export const jumpNav = [
   { href: '#kinds', label: 'Kinds of birthday' },
+  { href: '#photos', label: 'Photos' },
   { href: '#pricing', label: 'Prices' },
   { href: '#included', label: 'Included' },
   { href: '#menus', label: 'Food' },
@@ -59,8 +60,8 @@ export const birthdayKinds = [
     body: 'Familiar food, portions a child can finish, and allergy notes in the brief before anyone cooks. Add meal boxes, a cake and one activity if you want the afternoon held together.',
     href: '#kids',
     linkLabel: 'Kids birthday catering',
-    image: '/images/kids-birthday-catering-dubai-hero.webp',
-    imageAlt: 'Food laid out for a children’s birthday party in a Dubai home. Experience concept shown.',
+    image: '/images/birthday-catering-dubai-kids.webp',
+    imageAlt: 'A parent and chef checking children’s meal boxes at a garden table before guests arrive. Experience concept shown.',
   },
   {
     id: 'milestones',
@@ -68,8 +69,8 @@ export const birthdayKinds = [
     body: 'A buffet, canapés or a seated dinner for a 30th, 40th, 50th or any night that needs a running order. Cake, flowers and a photographer finish the room without a production.',
     href: '#milestones',
     linkLabel: 'Adult birthday catering',
-    image: '/images/celebration-catering-dubai-hero.webp',
-    imageAlt: 'Guests seated at a birthday dinner table in a Dubai home. Experience concept shown.',
+    image: '/images/birthday-catering-dubai-adult.webp',
+    imageAlt: 'Adult guests at a seated birthday dinner in a Dubai villa, chef waiting at the edge of the table. Experience concept shown.',
   },
   {
     id: 'family',
@@ -77,8 +78,8 @@ export const birthdayKinds = [
     body: 'Adult catering as the main event, children’s meals served earlier, one cake and one entertainment choice. The garden stays one party.',
     href: '#family',
     linkLabel: 'Mixed-age parties',
-    image: '/images/party-catering-dubai-hero.webp',
-    imageAlt: 'A family birthday gathering around a shared table in a Dubai garden. Experience concept shown.',
+    image: '/images/birthday-catering-dubai-mixed.webp',
+    imageAlt: 'A mixed-age villa birthday: adults eating at one table, children at a smaller table, chef cooking to the side. Experience concept shown.',
   },
 ] as const
 
@@ -273,6 +274,42 @@ export const extrasIntro = [
 
 export const extrasH2 = 'Cakes, balloons and extras around the food'
 
+export const birthdayGalleryNote =
+  'Documentary frames of how birthday catering looks in a Dubai home, villa or yacht. Experience concept shown. They are not photographs from a named client booking.'
+
+export const birthdayGallery = [
+  {
+    src: '/images/birthday-catering-dubai-villa.webp',
+    alt: 'Villa terrace birthday with guests seated and chefs at a side station. Experience concept shown.',
+    caption: 'Villa terrace, host seated',
+  },
+  {
+    src: '/images/birthday-catering-dubai-yacht.webp',
+    alt: 'Yacht birthday with passed plates and a chef serving on deck. Experience concept shown.',
+    caption: 'Yacht birthday, Dubai water',
+  },
+  {
+    src: '/images/birthday-catering-dubai-buffet.webp',
+    alt: 'Birthday buffet being maintained in a villa while guests serve themselves. Experience concept shown.',
+    caption: 'Buffet, guests already sitting',
+  },
+  {
+    src: '/images/birthday-catering-dubai-cake-balloons.webp',
+    alt: 'Chef finishing a buttercream birthday cake beside balloon clusters. Experience concept shown.',
+    caption: 'Cake and balloons as extras',
+  },
+  {
+    src: '/images/birthday-catering-dubai-meal-boxes.webp',
+    alt: 'Children’s meal boxes being laid on a garden table. Experience concept shown.',
+    caption: 'Children’s meal boxes',
+  },
+  {
+    src: '/images/birthday-catering-dubai-afterglow.webp',
+    alt: 'After the birthday meal, the kitchen team packs equipment while candles burn low. Experience concept shown.',
+    caption: 'Clear-down after the cake',
+  },
+] as const
+
 export const moreExtrasIntro =
   'These are quoted when the brief needs them. We publish a price once the specification is repeatable.'
 
@@ -348,6 +385,8 @@ export const exampleEvents = [
     outcome: 'Passed bites, grills and alcohol-free craft drinks served as the yacht cruised the marina.',
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht event catering in Dubai',
+    image: '/images/birthday-catering-dubai-yacht.webp',
+    imageAlt: 'Passed plates and a chef serving on a Dubai yacht at golden hour. Experience concept shown.',
   },
   {
     title: 'Seated dinner at home',
@@ -357,6 +396,8 @@ export const exampleEvents = [
     outcome: 'Quoted as chef-led plated dining, not as a scaled-down buffet.',
     href: BIRTHDAY_PATHS.dinnerArticle,
     linkLabel: 'Private chef for birthday dinner',
+    image: '/images/birthday-catering-dubai-adult.webp',
+    imageAlt: 'A seated birthday dinner in a Dubai villa with the chef at the edge of the table. Experience concept shown.',
   },
   {
     title: 'Mixed-age villa afternoon',
@@ -366,6 +407,8 @@ export const exampleEvents = [
     outcome: 'Staffed when the guest list outgrows one kitchen.',
     href: BIRTHDAY_SUPPORT.villas,
     linkLabel: 'Villa catering in Dubai',
+    image: '/images/birthday-catering-dubai-mixed.webp',
+    imageAlt: 'Adult catering and a children’s table in a Dubai villa garden. Experience concept shown.',
   },
 ] as const
 
