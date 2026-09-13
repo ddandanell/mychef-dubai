@@ -87,15 +87,23 @@ const CORPORATE_NAV_GROUPS_RAW: NavGroup[] = [
   {
     heading: 'Company events',
     items: [
-      { href: '/corporate', label: 'Corporate Catering', description: 'Start here — the full picture' },
-      { href: '/corporate-event-catering-dubai', label: 'Corporate Events', description: 'Company parties, launches, awards' },
+      { href: '/corporate', label: 'Corporate Catering', description: 'Start here. The full company brief' },
+      { href: '/corporate-event-catering-dubai', label: 'Corporate Events', description: 'Parties, launches, networking' },
+      { href: '/product-launch-catering-dubai', label: 'Product Launch', description: 'Reveal, press, showroom' },
+      { href: '/gala-dinner-catering-dubai', label: 'Gala Dinner', description: 'Seated awards and banquets' },
+      { href: '/exhibition-catering-dubai', label: 'Exhibition Catering', description: 'Stand hospitality, no kitchen' },
+      { href: '/corporate-dinner-package-dubai', label: 'Corporate Dinner', description: 'AED 4,500 for 10 to 15 guests' },
     ],
   },
   {
-    heading: 'Workplace & venues',
+    heading: 'Workplace',
     items: [
-      { href: '/office-catering-dubai', label: 'Office Catering', description: 'Day-to-day workplace lunches' },
-      { href: '/conference-catering-dubai', label: 'Conference Catering', description: 'Delegates, breaks, multi-day' },
+      { href: '/office-catering-dubai', label: 'Office Catering', description: 'Daily and weekly lunches' },
+      { href: '/business-lunch-catering-dubai', label: 'Business Lunch', description: 'Boardroom and client sittings' },
+      { href: '/conference-catering-dubai', label: 'Conference Catering', description: 'Breaks, lunch, multi-day' },
+      { href: '/staff-meals-catering-dubai', label: 'Staff Meals', description: 'Workforce sittings, not waiter hire' },
+      { href: '/production-catering-dubai', label: 'Production Catering', description: 'Crew meals and craft services' },
+      { href: '/corporate-catering-checklist-dubai', label: 'Planning Checklist', description: 'What to lock before you brief' },
     ],
   },
   {
