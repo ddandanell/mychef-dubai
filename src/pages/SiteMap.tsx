@@ -284,6 +284,8 @@ export default function SiteMap() {
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/privacy-policy" className="text-gray-600 hover:text-gold transition-colors">/privacy-policy</Link></li>
               <li><Link to="/terms" className="text-gray-600 hover:text-gold transition-colors">/terms</Link></li>
+              <li><Link to="/private-client-booking-terms" className="text-gray-600 hover:text-gold transition-colors">/private-client-booking-terms</Link></li>
+              <li><Link to="/corporate-booking-terms" className="text-gray-600 hover:text-gold transition-colors">/corporate-booking-terms</Link></li>
             </ul>
           </div>
           </div>

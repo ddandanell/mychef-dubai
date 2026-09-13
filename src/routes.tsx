@@ -55,6 +55,8 @@ const Inquiry: PreloadableComponent = lazyPreloadable(() => import('./pages/Inqu
 const ThankYou: PreloadableComponent = lazyPreloadable(() => import('./pages/ThankYou'))
 const Privacy: PreloadableComponent = lazyPreloadable(() => import('./pages/Privacy'))
 const Terms: PreloadableComponent = lazyPreloadable(() => import('./pages/Terms'))
+const PrivateClientBookingTerms: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateClientBookingTerms'))
+const CorporateBookingTerms: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateBookingTerms'))
 const Locations: PreloadableComponent = lazyPreloadable(() => import('./pages/Locations'))
 const LocationDetail: PreloadableComponent = lazyPreloadable(() => import('./pages/LocationDetail'))
 const BabyShowerCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BabyShowerCatering'))
@@ -220,6 +222,8 @@ export const routes: AppRoute[] = [
   { path: "/thank-you", element: <ThankYou />, preload: ThankYou.preload },
   { path: "/privacy-policy", element: <Privacy />, preload: Privacy.preload },
   { path: "/terms", element: <Terms />, preload: Terms.preload },
+  { path: "/private-client-booking-terms", element: <PrivateClientBookingTerms />, preload: PrivateClientBookingTerms.preload },
+  { path: "/corporate-booking-terms", element: <CorporateBookingTerms />, preload: CorporateBookingTerms.preload },
   { path: "/locations", element: <Locations />, preload: Locations.preload },
   { path: "/locations/:slug", element: <LocationDetail />, preload: LocationDetail.preload },
   { path: "/baby-shower-catering-dubai", element: <BabyShowerCatering />, preload: BabyShowerCatering.preload },

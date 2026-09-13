@@ -988,6 +988,338 @@
   "primary_collisions": 0
  },
  "pages": {
+
+ "/private-client-booking-terms": {
+  "url": "/private-client-booking-terms",
+  "absolute_url": "https://www.mychef.ae/private-client-booking-terms",
+  "silo": "Trust / Utility",
+  "silo_priority": "P3",
+  "page_type": "Utility / untargeted",
+  "hub": "/terms",
+  "is_hub": false,
+  "status": "UNTARGETED — locked",
+  "intent_owner": {
+   "primary_keyword": null,
+   "subkeywords": [],
+   "subkeyword_cap": 8,
+   "primary_may_appear_in": [
+    "title",
+    "h1",
+    "first_100_words",
+    "one_subheading"
+   ],
+   "subkeywords_may_appear_in": [
+    "body_sentences_only"
+   ],
+   "subkeywords_must_not_appear_in": [
+    "h1",
+    "h2",
+    "h3",
+    "title"
+   ]
+  },
+  "on_page": {
+   "title": "Private Client Booking Terms | myCHEF",
+   "title_max_chars": 65,
+   "h1": "Private Client Booking Terms & Privacy Policy",
+   "h1_count": 1,
+   "meta_description": "Booking, payment, cancellation, privacy and recording rules for private myCHEF Dubai occasions.",
+   "meta_description_max_chars": 160,
+   "og_title": "Private Client Booking Terms & Privacy Policy",
+   "og_type": "website"
+  },
+  "indexation": {
+   "robots": {
+    "index": false,
+    "follow": true,
+    "googlebot": "noindex, follow"
+   },
+   "canonical": "https://www.mychef.ae/private-client-booking-terms",
+   "redirect_to": null,
+   "in_sitemap": false
+  },
+  "schema": [
+   "WebPage"
+  ],
+  "internal_linking": {
+   "breadcrumb": [
+    {
+     "url": "/",
+     "anchor": "Home"
+    },
+    {
+     "url": "/terms",
+     "anchor": "Terms"
+    },
+    {
+     "url": "/private-client-booking-terms",
+     "anchor": "Private booking terms",
+     "current": true
+    }
+   ],
+   "uplink_hub": {
+    "url": "/terms",
+    "anchor": "Terms of Service",
+    "alt_anchors": []
+   },
+   "siblings": [
+    {
+     "url": "/corporate-booking-terms",
+     "anchor": "Corporate booking terms",
+     "alt_anchors": []
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [],
+   "cross_silo": [
+    {
+     "url": "/privacy-policy",
+     "anchor": "Privacy Policy",
+     "alt_anchors": []
+    }
+   ],
+   "locations": [],
+   "do_not_link": [
+    "/private-chef-dubai/our-chefs",
+    "/chefs/sofia-pastry-chef",
+    "/staff-meals-catering-dubai",
+    "/private-party-catering-dubai",
+    "/canape-catering-dubai",
+    "/production-catering-dubai",
+    "/corporate-catering-dubai",
+    "/healthcare-catering-dubai",
+    "/school-catering-dubai",
+    "/nursery-catering-dubai",
+    "/university-catering-dubai",
+    "/government-event-catering-dubai",
+    "/catering",
+    "/yacht-catering-dubai",
+    "/villa-catering-dubai",
+    "/event-catering-dubai",
+    "/luxury-dining-dubai",
+    "/private-dining-dubai",
+    "/dessert-table-dubai",
+    "/live-cooking-station-dubai",
+    "/locations/jumeirah-islands",
+    "/locations/mirdif",
+    "/locations/dubai-internet-city",
+    "/locations/meydan",
+    "/locations/dubai-harbour",
+    "/locations/al-barari",
+    "/locations/dubai-media-city",
+    "/locations/dubai-creek-harbour",
+    "/locations/jumeirah-golf-estates",
+    "/locations/mall-of-the-emirates",
+    "/locations/dwtc",
+    "/locations/dubai-mall",
+    "/locations/city-walk",
+    "/case-studies/corporate-gala-dinner-downtown-dubai",
+    "/case-studies/product-launch-difc",
+    "/case-studies/family-eid-gathering-arabian-ranches",
+    "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+    "/case-studies/villa-wedding-reception-emirates-hills",
+    "/case-studies/yacht-birthday-celebration-dubai-marina",
+    "/private-chef-prices-dubai",
+    "/dubai-catering-prices",
+    "/catering-cost-calculator",
+    "/event-catering-prices-2026",
+    "/guides/event-catering-prices-2026",
+    "/jbr",
+    "/luxury-catering-dubai"
+   ]
+  },
+  "claims": {
+   "may_name_chefs": [
+    "Ahmed Al-Rashid",
+    "Marco Rossi",
+    "Layla Hassan",
+    "Matteo Moretti"
+   ],
+   "must_not_name": [
+    "Thomas Chen",
+    "Marco Adriano",
+    "Elena Vasquez"
+   ],
+   "must_not_claim_years_of_experience": true,
+   "price_tier": "premium"
+  },
+  "qa_gates": [
+   "Exactly one H1.",
+   "Locked primary is not used as an H2 farm.",
+   "No banned term from invariants.banned_terms.",
+   "No second page's locked primary in title or H1.",
+   "Sibling module matches JSON siblings[] — do not invent cards.",
+   "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+  ]
+ },
+
+ "/corporate-booking-terms": {
+  "url": "/corporate-booking-terms",
+  "absolute_url": "https://www.mychef.ae/corporate-booking-terms",
+  "silo": "Trust / Utility",
+  "silo_priority": "P3",
+  "page_type": "Utility / untargeted",
+  "hub": "/terms",
+  "is_hub": false,
+  "status": "UNTARGETED — locked",
+  "intent_owner": {
+   "primary_keyword": null,
+   "subkeywords": [],
+   "subkeyword_cap": 8,
+   "primary_may_appear_in": [
+    "title",
+    "h1",
+    "first_100_words",
+    "one_subheading"
+   ],
+   "subkeywords_may_appear_in": [
+    "body_sentences_only"
+   ],
+   "subkeywords_must_not_appear_in": [
+    "h1",
+    "h2",
+    "h3",
+    "title"
+   ]
+  },
+  "on_page": {
+   "title": "Corporate Booking Terms | myCHEF",
+   "title_max_chars": 65,
+   "h1": "Corporate & Business Booking Terms",
+   "h1_count": 1,
+   "meta_description": "Booking, invoicing, cancellation, confidentiality and recording rules for company catering with myCHEF Dubai.",
+   "meta_description_max_chars": 160,
+   "og_title": "Corporate & Business Booking Terms",
+   "og_type": "website"
+  },
+  "indexation": {
+   "robots": {
+    "index": false,
+    "follow": true,
+    "googlebot": "noindex, follow"
+   },
+   "canonical": "https://www.mychef.ae/corporate-booking-terms",
+   "redirect_to": null,
+   "in_sitemap": false
+  },
+  "schema": [
+   "WebPage"
+  ],
+  "internal_linking": {
+   "breadcrumb": [
+    {
+     "url": "/",
+     "anchor": "Home"
+    },
+    {
+     "url": "/terms",
+     "anchor": "Terms"
+    },
+    {
+     "url": "/corporate-booking-terms",
+     "anchor": "Corporate booking terms",
+     "current": true
+    }
+   ],
+   "uplink_hub": {
+    "url": "/terms",
+    "anchor": "Terms of Service",
+    "alt_anchors": []
+   },
+   "siblings": [
+    {
+     "url": "/private-client-booking-terms",
+     "anchor": "Private booking terms",
+     "alt_anchors": []
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [],
+   "cross_silo": [
+    {
+     "url": "/privacy-policy",
+     "anchor": "Privacy Policy",
+     "alt_anchors": []
+    }
+   ],
+   "locations": [],
+   "do_not_link": [
+    "/private-chef-dubai/our-chefs",
+    "/chefs/sofia-pastry-chef",
+    "/staff-meals-catering-dubai",
+    "/private-party-catering-dubai",
+    "/canape-catering-dubai",
+    "/production-catering-dubai",
+    "/corporate-catering-dubai",
+    "/healthcare-catering-dubai",
+    "/school-catering-dubai",
+    "/nursery-catering-dubai",
+    "/university-catering-dubai",
+    "/government-event-catering-dubai",
+    "/catering",
+    "/yacht-catering-dubai",
+    "/villa-catering-dubai",
+    "/event-catering-dubai",
+    "/luxury-dining-dubai",
+    "/private-dining-dubai",
+    "/dessert-table-dubai",
+    "/live-cooking-station-dubai",
+    "/locations/jumeirah-islands",
+    "/locations/mirdif",
+    "/locations/dubai-internet-city",
+    "/locations/meydan",
+    "/locations/dubai-harbour",
+    "/locations/al-barari",
+    "/locations/dubai-media-city",
+    "/locations/dubai-creek-harbour",
+    "/locations/jumeirah-golf-estates",
+    "/locations/mall-of-the-emirates",
+    "/locations/dwtc",
+    "/locations/dubai-mall",
+    "/locations/city-walk",
+    "/case-studies/corporate-gala-dinner-downtown-dubai",
+    "/case-studies/product-launch-difc",
+    "/case-studies/family-eid-gathering-arabian-ranches",
+    "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+    "/case-studies/villa-wedding-reception-emirates-hills",
+    "/case-studies/yacht-birthday-celebration-dubai-marina",
+    "/private-chef-prices-dubai",
+    "/dubai-catering-prices",
+    "/catering-cost-calculator",
+    "/event-catering-prices-2026",
+    "/guides/event-catering-prices-2026",
+    "/jbr",
+    "/luxury-catering-dubai"
+   ]
+  },
+  "claims": {
+   "may_name_chefs": [
+    "Ahmed Al-Rashid",
+    "Marco Rossi",
+    "Layla Hassan",
+    "Matteo Moretti"
+   ],
+   "must_not_name": [
+    "Thomas Chen",
+    "Marco Adriano",
+    "Elena Vasquez"
+   ],
+   "must_not_claim_years_of_experience": true,
+   "price_tier": "premium"
+  },
+  "qa_gates": [
+   "Exactly one H1.",
+   "Locked primary is not used as an H2 farm.",
+   "No banned term from invariants.banned_terms.",
+   "No second page's locked primary in title or H1.",
+   "Sibling module matches JSON siblings[] — do not invent cards.",
+   "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+  ]
+ },
   "/": {
    "url": "/",
    "absolute_url": "https://www.mychef.ae",

@@ -411,7 +411,7 @@ export const cateringFaqs = [
   },
   {
     q: 'What is the cancellation window?',
-    a: 'For an event, 48 hours before the date: cancel or move it with more notice than that and nothing is charged beyond costs already committed — ingredients ordered, equipment reserved, staff released late. Inside 48 hours the booking stands, because the team and the food are already bought. A standing household visit runs on a shorter clock, 24 hours, and the supplier who employs the chefs works to the same two numbers, so nobody is told a different rule to the one you were told.',
+    a: 'Cancel in writing. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4. Recurring household chef plans follow their own written service agreement.',
   },
   {
     q: 'What happens if the party runs late?',

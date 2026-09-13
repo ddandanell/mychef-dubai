@@ -46,12 +46,12 @@ const protections = [
   {
     icon: Banknote,
     title: 'Deposit & Payment Structure',
-    description: 'Most bookings require a 50% deposit to confirm the date, ingredients, and staffing. The remaining balance is typically due before or on the day of the event. Exact payment terms are stated in your proposal and invoice.',
+    description: 'A 50% deposit is required to confirm the event. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation. The account on the official invoice is the payment route.',
   },
   {
     icon: FileCheck,
     title: 'Cancellation & Refund Policy',
-    description: 'Cancellations made more than 48 hours before an event are generally eligible for a full refund. Cancellations within 48 hours may incur a fee to cover ingredients and staffing already committed. Last-minute cancellations may forfeit the deposit.',
+    description: 'Cancel in writing. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4.',
   },
   {
     icon: MessageCircleWarning,
@@ -80,7 +80,7 @@ const policyNotes = [
   },
   {
     title: 'Cancellations are handled fairly',
-    description: 'We do not promise "no fees ever." Instead, we apply a reasonable policy that respects both client flexibility and the costs we commit on your behalf.',
+    description: 'The refund schedule is written in the booking terms: no refund at seven days or more, a full refund at six days or less if you cancel before service starts.',
   },
 ]
 
@@ -95,11 +95,11 @@ const faqs = [
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Cancellations more than 48 hours before the event are generally eligible for a full refund. Cancellations within 48 hours may incur a fee to cover committed ingredients and staffing. Last-minute cancellations may forfeit the deposit.',
+    a: 'Cancel in writing to info@mychef.ae or the official WhatsApp used for the booking. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4. The full wording is in the private client booking terms and the corporate booking terms.',
   },
   {
     q: 'How does the deposit work?',
-    a: 'Most bookings require a 50% deposit to confirm the date and reserve resources. The balance is due before or on the day of the event. Exact terms are included in your written proposal.',
+    a: 'A 50% deposit confirms the date. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation.',
   },
   {
     q: 'How do you handle complaints?',
@@ -259,7 +259,7 @@ export default function BookingProtectionInsurance() {
           </h2>
           <div className="bpi-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Booking a private chef or luxury catering service should feel exciting, not uncertain. At myCHEF Dubai, we have built clear protection policies around the questions clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
+              The written catering cancellation policy Dubai is in the <Link to="/private-client-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private client booking terms</Link> and the <Link to="/corporate-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate booking terms</Link>. Booking a private chef or catering service should feel clear, not uncertain. The questions below are the ones clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               For catering deposit refund Dubai, moes catering cancellation policy, catering cancellation policy sample, catering booking cancellation policy, maggianos catering cancellation policy and cancellation policy for catering events, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Event catering insurance Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Caterer liability insurance Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.

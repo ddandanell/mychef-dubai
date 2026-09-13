@@ -15,6 +15,7 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { faqPageSchema, breadcrumbSchema } from '@/utils/schema'
+import { CANCELLATION_FAQ_ANSWER, DEPOSIT_FAQ_ANSWER } from '@/content/bookingTerms'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/faq)')
@@ -38,7 +39,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'How do I book a private chef in Dubai?', a: 'Contact us via WhatsApp or our online /inquiry form. Tell us about your event, and we will respond within 15 minutes during business hours with a bespoke proposal.' },
     { q: 'How far in advance should I book?', a: 'We recommend 48 hours for private chef bookings and 1–2 weeks for larger catering events. Last-minute requests are accommodated when possible.' },
     { q: 'Can I make changes after booking?', a: 'Yes. Contact us as soon as possible and we will adjust your booking. Changes made within 24 hours of the event may be subject to limitations.' },
-    { q: 'Do I need to pay a deposit?', a: 'Most bookings require a 50% deposit to confirm the date, ingredients, and staffing. The balance is typically due before or on the day of service.' },
+    { q: 'Do I need to pay a deposit?', a: DEPOSIT_FAQ_ANSWER },
     { q: 'Can I book a private chef for tonight?', a: 'We accommodate last-minute requests whenever possible. Contact us on WhatsApp at +971 55 174 4849 and we will confirm availability quickly.' },
     { q: 'How do I change the number of guests?', a: 'Let us know as soon as your guest count changes. We adjust ingredients, staffing, and seating up to 24 hours before the event when possible.' },
     { q: 'Can I schedule a menu tasting before my event?', a: 'Yes. Tastings can be arranged for weddings, large galas, and corporate events. Ask your event manager for availability.' },
@@ -75,10 +76,10 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'Can you serve at multiple venues during one event?', a: 'Yes. We can coordinate multi-venue events such as welcome receptions, main dinners, and after-parties with tailored menus at each location.' },
   ],
   'Cancellations & insurance': [
-    { q: 'What is your cancellation policy?', a: 'Cancellations more than 48 hours before generally receive a full refund. Cancellations within 48 hours may incur a fee. Last-minute cancellations may forfeit the deposit. See /booking-protection-insurance for details.' },
+    { q: 'What is your cancellation policy?', a: CANCELLATION_FAQ_ANSWER },
     { q: 'What happens if a chef is unavailable?', a: 'We choose a qualified backup chef from our network for you, and let you know as early as possible. Read our backup chef policy at /booking-protection-insurance.' },
     { q: 'Are you insured?', a: 'The licensed culinary partners who prepare your food carry appropriate food-handling and personal liability coverage, which we verify as part of vetting before they work an event.' },
-    { q: 'How do deposits work?', a: 'Most bookings require a 50% deposit to confirm. The balance is due before or on the day of the event. Exact terms are included in your proposal.' },
+    { q: 'How do deposits work?', a: DEPOSIT_FAQ_ANSWER },
     { q: 'How are complaints handled?', a: 'Complaints are escalated to an event manager, investigated promptly, and resolved fairly through refund, credit, or explanation depending on the situation.' },
     { q: 'Will I receive written booking terms?', a: 'Yes. Every booking is confirmed in writing with menu, pricing, deposit, balance due date, and cancellation terms.' },
   ],

@@ -400,6 +400,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Catering cancellation policy"
   }
  ],
+ "/brand-activation-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Brand activation catering"
+  }
+ ],
  "/breakfast-catering-dubai": [
   {
    "href": "/",
@@ -690,6 +703,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate dining"
   }
  ],
+ "/corporate-booking-terms": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/terms",
+   "label": "Terms"
+  },
+  {
+   "label": "Corporate booking terms"
+  }
+ ],
  "/corporate-catering-checklist-dubai": [
   {
    "href": "/",
@@ -703,6 +729,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate catering checklist"
   }
  ],
+ "/corporate-dinner-package-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Corporate dinner package"
+  }
+ ],
  "/corporate-event-catering-dubai": [
   {
    "href": "/",
@@ -714,6 +753,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Corporate event catering"
+  }
+ ],
+ "/corporate-retainer-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Corporate catering contract"
   }
  ],
  "/cuisines-dubai": [
@@ -851,6 +903,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Events"
   }
  ],
+ "/exhibition-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Exhibition catering"
+  }
+ ],
  "/faq": [
   {
    "href": "/",
@@ -893,6 +958,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Full-time private chef"
+  }
+ ],
+ "/gala-dinner-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Gala dinner catering"
   }
  ],
  "/gallery": [
@@ -1508,6 +1586,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Private chef or catering"
   }
  ],
+ "/private-client-booking-terms": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/terms",
+   "label": "Terms"
+  },
+  {
+   "label": "Private booking terms"
+  }
+ ],
  "/private-cooking-classes-dubai": [
   {
    "href": "/",
@@ -1532,6 +1623,32 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private party catering"
+  }
+ ],
+ "/product-launch-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Product launch catering"
+  }
+ ],
+ "/production-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Production catering"
   }
  ],
  "/proposal-dinner-dubai": [
@@ -1636,6 +1753,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Site map"
+  }
+ ],
+ "/staff-meals-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate dining"
+  },
+  {
+   "label": "Staff meals catering"
   }
  ],
  "/sushi-catering-dubai": [
@@ -1863,6 +1993,7 @@ export const TRAILS: Record<string, Crumb[]> = {
 
 /** Routes whose own hero already draws a breadcrumb — the shared bar stays out of their way. */
 export const HERO_ROUTES: string[] = [
+ "/",
  "/about",
  "/allergy-safe-catering-dubai",
  "/apartment-private-dining-dubai",
@@ -1874,6 +2005,7 @@ export const HERO_ROUTES: string[] = [
  "/become-a-mychef",
  "/best-catering-companies-dubai",
  "/birthday-catering-dubai",
+ "/birthday-catering-package-dubai",
  "/blog",
  "/blog/best-private-chef-birthday-dinner-dubai",
  "/blog/brunch-at-home-dubai",
@@ -1902,26 +2034,35 @@ export const HERO_ROUTES: string[] = [
  "/blog/yacht-party-menu-ideas-dubai",
  "/booking-protection-insurance",
  "/brand-activation-catering-dubai",
+ "/breakfast-catering-dubai",
  "/brunch-catering-dubai",
  "/buffet-catering-dubai",
  "/buffet-vs-plated-dubai",
  "/business-lunch-catering-dubai",
  "/canape-catering-dubai",
+ "/canteen-management-dubai",
  "/case-studies",
  "/catering-cost-calculator-dubai",
  "/catering-dubai",
  "/catering-packages-dubai",
  "/chef-training-academy",
  "/chefs-table-dubai",
+ "/chefs/ahmed-executive-chef",
+ "/chefs/layla-middle-eastern-chef",
+ "/chefs/marco-italian-chef",
+ "/chefs/matteo-pastry-chef",
  "/christmas-catering-dubai",
  "/cocktail-party-catering-dubai",
  "/conference-catering-dubai",
  "/contact",
  "/corporate",
+ "/corporate-booking-terms",
  "/corporate-catering-checklist-dubai",
+ "/corporate-dinner-package-dubai",
  "/corporate-event-catering-dubai",
  "/corporate-retainer-dubai",
  "/cuisines-dubai",
+ "/date-night-package-dubai",
  "/dessert-table-catering-dubai",
  "/diwali-catering-dubai",
  "/drop-off-catering-dubai",
@@ -1931,6 +2072,8 @@ export const HERO_ROUTES: string[] = [
  "/eid-catering-dubai",
  "/engagement-catering-dubai",
  "/events",
+ "/exhibition-catering-dubai",
+ "/family-feast-package-dubai",
  "/faq",
  "/festive-catering-dubai",
  "/fitness-meal-prep-dubai",
@@ -1943,6 +2086,8 @@ export const HERO_ROUTES: string[] = [
  "/guide/private-dining-dubai",
  "/guides",
  "/halal-catering-dubai",
+ "/halal-private-dining-dubai",
+ "/hospital-catering-dubai",
  "/how-it-works",
  "/how-to-choose-caterer-dubai",
  "/how-we-vet-our-chefs",
@@ -1950,6 +2095,7 @@ export const HERO_ROUTES: string[] = [
  "/indian-catering-dubai",
  "/influencer-partnerships",
  "/inquiry",
+ "/institutional-catering-dubai",
  "/italian-catering-dubai",
  "/kids-nutrition-chef-dubai",
  "/live-cooking-stations-dubai",
@@ -1964,11 +2110,16 @@ export const HERO_ROUTES: string[] = [
  "/mychef-membership",
  "/mystery-dining-dubai",
  "/new-year-catering-dubai",
+ "/nursery-catering-dubai",
  "/office-catering-dubai",
  "/our-chefs",
  "/part-time-private-chef-dubai",
  "/partner-with-us",
  "/partners",
+ "/partners/concierge-services-dubai",
+ "/partners/event-planners-dubai",
+ "/partners/villa-rentals-dubai",
+ "/partners/yacht-charters-dubai",
  "/postpartum-meal-prep-dubai",
  "/press",
  "/privacy-policy",
@@ -1980,6 +2131,7 @@ export const HERO_ROUTES: string[] = [
  "/private-chef-dubai/privacy-security",
  "/private-chef-dubai/quality-training",
  "/private-chef-vs-catering-dubai",
+ "/private-client-booking-terms",
  "/private-cooking-classes-dubai",
  "/private-jet-catering-dubai",
  "/private-party-catering-dubai",
@@ -1992,9 +2144,11 @@ export const HERO_ROUTES: string[] = [
  "/referral-programme",
  "/review",
  "/romantic-dinner-dubai",
+ "/school-catering-dubai",
  "/site-map",
  "/staff-meals-catering-dubai",
  "/sushi-catering-dubai",
+ "/tasting-menu-dubai",
  "/terms",
  "/tourist-villa-chef-dubai",
  "/trust-and-programs",
@@ -2100,6 +2254,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/corporate": [
   {
+   "href": "/brand-activation-catering-dubai",
+   "label": "Brand activation catering"
+  },
+  {
    "href": "/business-lunch-catering-dubai",
    "label": "Business lunch catering"
   },
@@ -2108,12 +2266,40 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Conference catering"
   },
   {
+   "href": "/corporate-dinner-package-dubai",
+   "label": "Corporate dinner package"
+  },
+  {
    "href": "/corporate-event-catering-dubai",
    "label": "Corporate event catering"
   },
   {
+   "href": "/corporate-retainer-dubai",
+   "label": "Corporate catering contract"
+  },
+  {
+   "href": "/exhibition-catering-dubai",
+   "label": "Exhibition catering"
+  },
+  {
+   "href": "/gala-dinner-catering-dubai",
+   "label": "Gala dinner catering"
+  },
+  {
    "href": "/office-catering-dubai",
    "label": "Office catering"
+  },
+  {
+   "href": "/product-launch-catering-dubai",
+   "label": "Product launch catering"
+  },
+  {
+   "href": "/production-catering-dubai",
+   "label": "Production catering"
+  },
+  {
+   "href": "/staff-meals-catering-dubai",
+   "label": "Staff meals catering"
   }
  ],
  "/cuisines-dubai": [
@@ -2558,6 +2744,16 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/yachts",
    "label": "Yacht catering"
+  }
+ ],
+ "/terms": [
+  {
+   "href": "/corporate-booking-terms",
+   "label": "Corporate booking terms"
+  },
+  {
+   "href": "/private-client-booking-terms",
+   "label": "Private booking terms"
   }
  ]
 } as const

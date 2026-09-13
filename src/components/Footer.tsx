@@ -316,6 +316,18 @@ export default function Footer() {
                 Privacy Policy
               </Link>
               <Link
+                to="/private-client-booking-terms"
+                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+              >
+                Private booking terms
+              </Link>
+              <Link
+                to="/corporate-booking-terms"
+                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+              >
+                Corporate booking terms
+              </Link>
+              <Link
                 to="/terms"
                 className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
               >

@@ -58,6 +58,8 @@ const EXCLUDED_PATHS = new Set([
   '/private-chef-dubai/quality-training',
   '/privacy-policy',
   '/terms',
+  '/private-client-booking-terms',
+  '/corporate-booking-terms',
   '/site-map',
   '/gift-cards',
   // Guess-URLs that still 301. School and nursery were in this list until

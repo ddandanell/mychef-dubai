@@ -117,7 +117,8 @@ SILO_OVERRIDES = {
 # Pages that render no siblings at all. Legal, forms, media and the nested
 # household modules have no next step to sell.
 NO_SIBLINGS = {
-    '/privacy-policy', '/terms', '/site-map', '/contact', '/inquiry', '/thank-you',
+    '/privacy-policy', '/terms', '/private-client-booking-terms', '/corporate-booking-terms',
+    '/site-map', '/contact', '/inquiry', '/thank-you',
     '/gallery', '/press', '/review', '/faq', '/blog', '/guides',
     '/private-chef-dubai/how-it-works', '/private-chef-dubai/our-chefs',
     '/private-chef-dubai/quality-training',
@@ -457,7 +458,7 @@ def main():
                 inbound[t] += 1
     # Legal and utility pages live in the global footer by design. They are not
     # part of any silo and must not be padded into a contextual module.
-    footer_only = {'/privacy-policy', '/terms', '/site-map'}
+    footer_only = {'/privacy-policy', '/terms', '/private-client-booking-terms', '/corporate-booking-terms', '/site-map'}
     orphans = sorted(u for u in linkable if inbound[u] == 0 and u not in footer_only)
 
     doc = {

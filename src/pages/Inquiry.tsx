@@ -307,6 +307,10 @@ export default function Inquiry() {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4 font-inter text-body-sm text-gray-400">
             <Link to="/privacy-policy" className="hover:text-gold transition-colors underline underline-offset-4">Privacy Policy</Link>
             <span className="hidden sm:inline">·</span>
+            <Link to="/private-client-booking-terms" className="hover:text-gold transition-colors underline underline-offset-4">Private booking terms</Link>
+            <span className="hidden sm:inline">·</span>
+            <Link to="/corporate-booking-terms" className="hover:text-gold transition-colors underline underline-offset-4">Corporate booking terms</Link>
+            <span className="hidden sm:inline">·</span>
             <Link to="/terms" className="hover:text-gold transition-colors underline underline-offset-4">Terms of Service</Link>
           </div>
         </div>

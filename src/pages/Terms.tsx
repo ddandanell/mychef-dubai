@@ -11,8 +11,7 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-
-// PENDING LEGAL REVIEW — do not publish until lawyer approves
+import { BOOKING_TERMS_UPDATED } from '@/content/bookingTerms'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/terms)')
@@ -27,206 +26,26 @@ const breadcrumbSchema = {
   ],
 }
 
-const sections = [
+const documents = [
   {
-    title: 'Acceptance of Terms',
-    content: (
-      <p>By booking the Services, you agree to be bound by these terms of service. If you do not agree to these terms, please do not use the Services. These terms apply to the private-dining and event-experience design, coordination, and chef-matching services provided by myCHEF Dubai, and to the culinary services performed by the independent licensed chefs and catering professionals you engage through us.</p>
-    ),
+    href: '/private-client-booking-terms',
+    title: 'Private client booking terms',
+    text: 'Personal occasions, private dining, celebrations and one-off catering. Includes privacy, confidentiality and the default no-recording rule.',
   },
   {
-    title: 'The Services',
-    content: (
-      <p>myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation, food service, and on-site hospitality are performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment and does not employ the chefs.</p>
-    ),
+    href: '/corporate-booking-terms',
+    title: 'Corporate and business booking terms',
+    text: 'Company catering, meetings, conferences, staff events and one-off functions. Includes confidentiality and publicity restrictions.',
   },
   {
-    title: 'Booking & Confirmation',
-    content: (
-      <>
-        <p className="mb-4">All bookings are subject to the following conditions:</p>
-        <ul className="space-y-2">
-          {[
-            'Bookings are confirmed upon receipt of the required deposit payment',
-            'Quotes are valid for 14 days unless otherwise stated',
-            'A booking is not considered confirmed until the deposit has been received',
-            'We reserve the right to decline any booking at our discretion',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
+    href: '/privacy-policy',
+    title: 'Website privacy policy',
+    text: 'How we collect and use information when you visit the site, send an inquiry or book.',
   },
   {
-    title: 'Payment Terms',
-    content: (
-      <>
-        <p className="mb-4">Payment for the Services is structured as follows:</p>
-        <ul className="space-y-2">
-          {[
-            'A deposit is required to confirm your booking',
-            'The balance is due on or before the event date',
-            'Payment methods include bank transfer or as otherwise agreed',
-            'All prices are quoted in UAE Dirhams (AED) unless otherwise specified',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Cancellation Policy',
-    content: (
-      <>
-        <p className="mb-4">Cancellations and refunds are handled as follows:</p>
-        <ul className="space-y-2">
-          {[
-            'Cancellation 48+ hours before event: full refund of deposit',
-            'Cancellation 24–48 hours before event: 50% refund of deposit',
-            'Cancellation less than 24 hours before event: no refund',
-            'Postponement requests are considered on a case-by-case basis',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Changes to Booking',
-    content: (
-      <>
-        <p className="mb-4">Changes to confirmed bookings are subject to the following:</p>
-        <ul className="space-y-2">
-          {[
-            'Guest count changes must be communicated at least 24 hours in advance',
-            'Significant increases in guest count may require menu adjustments',
-            'Menu changes are subject to ingredient availability',
-            'Last-minute changes may incur additional costs',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Experience Delivery',
-    content: (
-      <>
-        <p className="mb-4">Our delivery standards include:</p>
-        <ul className="space-y-2">
-          {[
-            'We coordinate arrival at the agreed time and location with your chef and service team',
-            'The client must provide access to kitchen facilities and basic utilities',
-            'Menus may be adjusted based on ingredient availability in consultation with your chef',
-            'Setup, service, and cleanup are coordinated as part of the experience',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Dietary Requirements',
-    content: (
-      <>
-        <p className="mb-4">Dietary requirements are coordinated directly with your chef:</p>
-        <ul className="space-y-2">
-          {[
-            'All dietary requirements must be communicated at the time of booking',
-            'Your chef handles allergies with strict protocols to prevent cross-contamination',
-            'While every precaution is taken, we cannot guarantee completely allergen-free environments',
-            'Last-minute dietary requests may have limited accommodation options',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Liability',
-    content: (
-      <>
-        <p className="mb-4">Liability is governed by the following terms:</p>
-        <ul className="space-y-2">
-          {[
-            'myCHEF Dubai maintains public liability insurance for its coordination services',
-            'We are not liable for issues arising from undisclosed allergies or dietary restrictions',
-            'We are not responsible for damage to existing kitchen equipment due to pre-existing conditions',
-            'Our total liability shall not exceed the total value of the booking',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Photography',
-    content: (
-      <>
-        <p className="mb-4">Photography at events is handled as follows:</p>
-        <ul className="space-y-2">
-          {[
-            'We may take photographs for our portfolio with client consent',
-            'Clients may request no photography at any time',
-            'Any photographs shared publicly will not identify clients without explicit permission',
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Private Chef Household Plans',
-    content: (
-      <p>
-        Recurring private chef plans (3 days or more) follow their own plain-English rules — rescheduling, groceries, guests and assistants, replacement, access, billing and more. Read{' '}
-        <a href="/private-chef-dubai/how-your-plan-works" className="text-gold hover:underline">how your plan works</a>. The full detail is set out in your service agreement.
-      </p>
-    ),
-  },
-  {
-    title: 'Governing Law',
-    content: (
-      <p>These terms of service are governed by and construed in accordance with the laws of the United Arab Emirates. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts of Dubai.</p>
-    ),
-  },
-  {
-    title: 'Contact',
-    content: (
-      <p>For questions about these terms, please contact us at <a href="mailto:info@mychef.ae" className="text-gold hover:underline">info@mychef.ae</a> or via WhatsApp.</p>
-    ),
+    href: '/private-chef-dubai/how-your-plan-works',
+    title: 'Household chef plans',
+    text: 'Recurring private chef service follows its own written agreement. This page explains the plan in plain English.',
   },
 ]
 
@@ -248,39 +67,50 @@ export default function Terms() {
     <div ref={containerRef}>
       <SEO
         title="Terms of Service"
-        description="myCHEF Dubai terms of service for private dining experience design, chef matching, and event coordination request."
+        description="myCHEF Dubai booking terms for private occasions and company catering. Read the document that matches your booking before you pay a deposit."
         canonicalPath="/terms"
         noindex
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}
       />
 
-      {/* Section 1: Header */}
       <PageHero
         eyebrow="LEGAL"
         title="Terms of Service"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Terms of Service' }]}
         minHeight="short"
         overlay="dark"
-        children={<p className="font-inter text-body-sm text-gray-500 mt-4">Last updated: January 2025</p>}
-      />
+      >
+        <p className="font-inter text-body-sm text-white/70 mt-4">Last updated: {BOOKING_TERMS_UPDATED}</p>
+      </PageHero>
 
-      {/* Section 2: Terms Content */}
       <section className="terms-content bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <article className="font-inter text-body text-gray-500" style={{ lineHeight: '1.8' }}>
-            {sections.map((section, i) => (
-              <div key={section.title} className="terms-section mb-12">
-                <h2 className="font-playfair text-[1.75rem] text-black mb-4" style={{ lineHeight: '1.2' }}>{i + 1}. {section.title}</h2>
-                <div>{section.content}</div>
-              </div>
-            ))}
+          <article className="font-inter text-body text-gray-500 terms-section" style={{ lineHeight: '1.8' }}>
+            <h2 className="font-playfair text-[1.75rem] text-black mb-4" style={{ lineHeight: '1.2' }}>
+              Which terms apply
+            </h2>
+            <p className="mb-4">
+              myCHEF Dubai is the customer-facing brand of Numini FZC. The booking terms for a confirmed event are the two documents below. Read the one that matches the booking before you pay a deposit.
+            </p>
+            <p className="mb-6">
+              Cancellation uses calendar days in Dubai time (UTC+4). Seven or more days before the event date, amounts already paid are not refunded except where required by law. Six days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. The full wording is in each document.
+            </p>
+            <ul className="space-y-5">
+              {documents.map((item) => (
+                <li key={item.href}>
+                  <Link to={item.href} className="font-playfair text-xl text-black hover:text-gold">
+                    {item.title}
+                  </Link>
+                  <p className="mt-1">{item.text}</p>
+                </li>
+              ))}
+            </ul>
           </article>
 
-          {/* CTA */}
           <div className="mt-16 pt-10 border-t border-gray-200 text-center">
             <p className="font-inter text-body text-gray-500 mb-6">
-              Have questions about these terms? We are happy to clarify.
+              Questions about a booking? Write to us before you pay.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">Chat on WhatsApp</a>

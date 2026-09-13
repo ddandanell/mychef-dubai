@@ -46,7 +46,7 @@ const faqs = [
   { q: 'How long does a private chef dinner typically last?', a: 'A standard multi-course dinner service lasts 3–4 hours from arrival to departure. This includes setup, cooking, service, and cleanup. We adjust timing based on your schedule.' },
   { q: 'Can I see sample menus?', a: 'Yes — visit our Menus page to explore the types of cuisine and dishes on offer. Keep in mind that every menu is bespoke and designed specifically for your event.' },
   { q: 'Is your service insured?', a: 'Every partner chef and service professional we work with is required to carry their own food-handling and personal liability protection and to be background-checked before an event. We verify this as part of vetting, so the licensed professionals preparing your food are properly covered.' },
-  { q: 'What is your cancellation policy?', a: 'Cancellations made more than 48 hours before the event receive a full refund. Cancellations within 48 hours may be subject to a cancellation fee. Contact us for details.' },
+  { q: 'What is your cancellation policy?', a: 'Cancel in writing. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. See /private-client-booking-terms and /corporate-booking-terms.' },
   { q: 'Do you cook, or do you bring a chef?', a: 'We design and run your entire private-dining experience; the cooking is done by an independent, licensed chef we handpick, vet, and stand behind. One standard, one point of contact — you deal only with us.' },
 ]
 

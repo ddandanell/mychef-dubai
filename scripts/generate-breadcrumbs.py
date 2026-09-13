@@ -69,15 +69,28 @@ def hero_routes() -> list[str]:
         # PageHero draws the trail over the photo. Many pages hand-roll the same
         # trail in a custom hero (often without aria-label). Either one must keep
         # the shared bar off the page, or two navigations stack under the main menu.
-        if _page_draws_own_trail(text):
+        if _page_draws_own_trail(text, f):
             out.append(path)
     return sorted(set(out))
 
 
 _OWN_TRAIL_NAV = re.compile(r"<nav\b([^>]*)>([\s\S]*?)</nav>", re.I)
+_IMPORT_FROM = re.compile(r"from\s+['\"](@/[^'\"]+|\.\.?/[^'\"]+)['\"]")
 
 
-def _page_draws_own_trail(text: str) -> bool:
+def _resolve_local_import(spec: str, page_file: pathlib.Path) -> pathlib.Path | None:
+    if spec.startswith("@/"):
+        base = ROOT / "src" / spec[2:]
+    else:
+        base = (page_file.parent / spec).resolve()
+    candidates = [base] if base.suffix else [base.with_suffix(".tsx"), base.with_suffix(".ts"), base / "index.tsx"]
+    for cand in candidates:
+        if cand.exists() and cand.is_file():
+            return cand
+    return None
+
+
+def _text_draws_own_trail(text: str) -> bool:
     if "PageHero" in text:
         return True
     if 'aria-label="Breadcrumb"' in text or "aria-label='Breadcrumb'" in text:
@@ -88,6 +101,20 @@ def _page_draws_own_trail(text: str) -> bool:
         if "Breadcrumb" in blob or "hero-h1" in blob:
             return True
         if 'to="/"' in body and "Home" in body:
+            return True
+    return False
+
+
+def _page_draws_own_trail(text: str, page_file: pathlib.Path | None = None) -> bool:
+    if _text_draws_own_trail(text):
+        return True
+    if page_file is None:
+        return False
+    for spec in _IMPORT_FROM.findall(text):
+        if spec.startswith("@/components/ui") or spec.startswith("@/components/SEO"):
+            continue
+        child = _resolve_local_import(spec, page_file)
+        if child and _text_draws_own_trail(child.read_text(encoding="utf-8")):
             return True
     return False
 
