@@ -14,6 +14,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import BirthdayExtrasPicker from '@/components/birthday/BirthdayExtrasPicker'
+import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
 import {
   Section,
   Container,
@@ -31,7 +32,6 @@ import {
 } from '@/content/birthdayCluster'
 import {
   birthdayInquiryHref,
-  birthdayWhatsAppLink,
   birthdayWhatsAppMessage,
 } from '@/content/birthdayExtras'
 import {
@@ -61,6 +61,24 @@ import {
   siloIntro,
   startSteps,
 } from '@/content/birthdayPage'
+import {
+  BIRTHDAY_PRIVATE_INQUIRY_HREF,
+  discretion,
+  dualPath,
+  eveningActs,
+  eveningActsH2,
+  eveningActsIntro,
+  privateEveningBands,
+  privateEveningBandsH2,
+  privateEveningBandsIntro,
+  statementH2,
+  statementIntro,
+  statementScenarios,
+  venueStages,
+  venueStagesH2,
+  whatWeDont,
+  whatWeDontH2,
+} from '@/content/birthdayStatement'
 
 const schema = {
   '@context': 'https://schema.org',
@@ -100,7 +118,6 @@ const schema = {
 export default function BirthdayCatering() {
   const [extraIds, setExtraIds] = useState<string[]>([])
   const inquiryHref = birthdayInquiryHref(extraIds)
-  const whatsappHref = birthdayWhatsAppLink(extraIds)
   useWhatsAppMessage(birthdayWhatsAppMessage(extraIds))
 
   return (
@@ -125,7 +142,7 @@ export default function BirthdayCatering() {
         imageHeight={birthdayHero.height}
         align="left"
         cta={{ label: 'Request my itemised birthday proposal', href: inquiryHref }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: whatsappHref, external: true }}
+        secondaryCta={{ label: 'Plan a private milestone birthday', href: '#private-brief' }}
         breadcrumb={[
           { label: 'Home', href: '/' },
           { label: 'Events', href: '/events' },
@@ -188,6 +205,80 @@ export default function BirthdayCatering() {
             </Link>
             .
           </p>
+        </Container>
+      </Section>
+
+      <Section id="start" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>{dualPath.label}</SectionLabel>
+          <DisplayHeading className="text-black mb-4">{dualPath.h2}</DisplayHeading>
+          <BodyCopy className="mb-10">{dualPath.lead}</BodyCopy>
+          <div className="grid md:grid-cols-2 gap-8">
+            <article className="border border-gray-200 p-8">
+              <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.catalogue.title}</h3>
+              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.catalogue.body}</p>
+              <Link to={dualPath.catalogue.href} className="btn-primary" data-track="inquiry_form">
+                {dualPath.catalogue.label}
+              </Link>
+            </article>
+            <article className="border border-gray-200 p-8 bg-cream">
+              <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.private.title}</h3>
+              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.private.body}</p>
+              <a href={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
+                {dualPath.private.label}
+              </a>
+            </article>
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="statement" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>PRIVATE EVENINGS</SectionLabel>
+          <DisplayHeading className="text-black mb-4">{statementH2}</DisplayHeading>
+          <BodyCopy className="mb-10">{statementIntro}</BodyCopy>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {statementScenarios.map((item) => (
+              <article key={item.id} className="border border-gray-200 bg-white">
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={1344}
+                  height={752}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[16/10] w-full object-cover"
+                />
+                <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
+                <div className="p-6 pt-3">
+                  <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
+                  <Link
+                    to={birthdayInquiryHref(extraIds, { lane: 'private', scenario: item.id })}
+                    data-track="inquiry_form"
+                    className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                  >
+                    Request this style of proposal <ArrowRight size={14} aria-hidden />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="discretion" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">{discretion.label}</SectionLabel>
+          <DisplayHeading className="text-white mb-6">{discretion.h2}</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">{discretion.body}</p>
+          <ul className="space-y-3">
+            {discretion.points.map((item) => (
+              <li key={item} className="font-inter text-body-sm text-gray-300">
+                {item}
+              </li>
+            ))}
+          </ul>
         </Container>
       </Section>
 
@@ -343,6 +434,73 @@ export default function BirthdayCatering() {
             >
               Get an itemised quote <ArrowRight size={14} aria-hidden />
             </Link>
+          </div>
+
+          <div className="border-t border-white/15 mt-12 pt-10">
+            <h3 className="font-playfair text-h4 text-white mb-4">{privateEveningBandsH2}</h3>
+            <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-8 max-w-[65ch]">{privateEveningBandsIntro}</p>
+            <div className="grid md:grid-cols-3 gap-8">
+              {privateEveningBands.map((item) => (
+                <div key={item.title}>
+                  <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold mb-2">{item.who}</p>
+                  <p className="font-playfair text-h4 text-white mb-2">{item.title}</p>
+                  <p className="font-inter text-body-sm text-white mb-3">{item.figure}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{item.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="limits" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>TRUST</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{whatWeDontH2}</DisplayHeading>
+          <ul className="space-y-3">
+            {whatWeDont.map((item) => (
+              <li key={item} className="font-inter text-body text-gray-600 leading-relaxed">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section id="acts" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>THE RUNNING ORDER</SectionLabel>
+          <DisplayHeading className="text-black mb-4">{eveningActsH2}</DisplayHeading>
+          <BodyCopy className="mb-12">{eveningActsIntro}</BodyCopy>
+          <ol className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+            {eveningActs.map((item) => (
+              <li key={item.act}>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">{item.act}</p>
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
+              </li>
+            ))}
+          </ol>
+        </Container>
+      </Section>
+
+      <Section id="venues" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHERE IT HAPPENS</SectionLabel>
+          <DisplayHeading className="text-black mb-10">{venueStagesH2}</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {venueStages.map((item) => (
+              <article key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.label} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
+            ))}
           </div>
         </Container>
       </Section>
@@ -577,25 +735,26 @@ export default function BirthdayCatering() {
         }
       />
 
+      <Section id="private-brief" tone="ivory" rhythm="chapter">
+        <Container>
+          <BirthdayPrivateBrief extraIds={extraIds} />
+        </Container>
+      </Section>
+
       <Section id="get-quote" tone="dark" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel tone="dark">PLAN YOUR BIRTHDAY WITH MYCHEF</SectionLabel>
           <DisplayHeading className="text-white mb-6">Date, guest count and extras are enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            Event buffets start from AED 120 per person. If you already have a theme or an inspiration photograph, include it. If you are still deciding, start with the food. We typically reply within 15 minutes during business hours.
+            Event buffets start from AED 120 per person. If the evening needs a running order or a surprise, use the private brief. We typically reply within 15 minutes during business hours.
           </p>
           <CTAGroup>
             <Link to={inquiryHref} className="btn-primary">
               Request my itemised birthday proposal
             </Link>
-            <a
-              href={whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Chat on WhatsApp
-            </a>
+            <Link to={BIRTHDAY_PRIVATE_INQUIRY_HREF} className="btn-secondary">
+              Plan a private milestone birthday
+            </Link>
           </CTAGroup>
         </Container>
       </Section>

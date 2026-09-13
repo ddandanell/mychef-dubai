@@ -255,10 +255,61 @@ export function planningTotalLabel(total: { amountAed: number; kind: 'from' | 'f
   return total.kind === 'from' ? `From ${n}` : n
 }
 
-export function birthdayInquiryHref(extraIds: readonly string[] = []): string {
-  const params = new URLSearchParams({ from: 'birthday' })
+export type BirthdayInquiryLane = 'birthday' | 'private'
+
+export function birthdayInquiryHref(
+  extraIds: readonly string[] = [],
+  opts?: { lane?: BirthdayInquiryLane; scenario?: string },
+): string {
+  const from = opts?.lane === 'private' ? 'birthday-private' : 'birthday'
+  const params = new URLSearchParams({ from })
   if (extraIds.length) params.set('extras', extraIds.join(','))
+  if (opts?.scenario) params.set('scenario', opts.scenario)
   return `/inquiry?${params.toString()}`
+}
+
+export type BirthdayPrivateBriefInput = {
+  date?: string
+  venue?: string
+  adults?: string
+  children?: string
+  ages?: string
+  vibe?: string
+  budgetBand?: string
+  surprise?: string
+  moodboard?: string
+  scenario?: string
+  extraIds?: readonly string[]
+}
+
+export function birthdayPrivateWhatsAppMessage(brief: BirthdayPrivateBriefInput = {}): string {
+  const extras = extrasFromIds(brief.extraIds ?? [])
+  const extraBit = extras.length
+    ? `Extras to quote: ${extras.map((item) => item.name).join(', ')}. `
+    : ''
+  const scenarioBit = brief.scenario ? `Style: ${brief.scenario}. ` : ''
+  return [
+    'Hi myCHEF Dubai, I want a private milestone birthday designed around the food.',
+    `Date: ${brief.date || '__'}.`,
+    `Venue: ${brief.venue || 'villa / yacht / penthouse / other'}.`,
+    `Adults: ${brief.adults || '__'}. Children: ${brief.children || '__'}. Ages: ${brief.ages || '__'}.`,
+    `Vibe: ${brief.vibe || '__'}.`,
+    `Budget band: ${brief.budgetBand || '__'}.`,
+    `Surprise: ${brief.surprise || 'yes / no'}.`,
+    brief.moodboard ? `Moodboard: ${brief.moodboard}.` : 'Moodboard: __.',
+    `${scenarioBit}${extraBit}(via mychef.ae/birthday-catering-dubai)`,
+  ].join(' ')
+}
+
+export function birthdayPrivateWhatsAppLink(brief: BirthdayPrivateBriefInput = {}): string {
+  return `https://wa.me/971551744849?text=${encodeURIComponent(birthdayPrivateWhatsAppMessage(brief))}`
+}
+
+export function birthdayPrivateInquirySubtitle(brief: BirthdayPrivateBriefInput = {}): string {
+  const extras = extrasFromIds(brief.extraIds ?? [])
+  const extraBit = extras.length ? ` Extras: ${extras.map((item) => item.name).join(', ')}.` : ''
+  const styleBit = brief.scenario ? ` Style: ${brief.scenario}.` : ''
+  return `Private milestone birthday.${styleBit}${extraBit} Add the date, venue type, adults, children, vibe, budget band and whether it is a surprise, then send.`
 }
 
 export function birthdayWhatsAppMessage(extraIds: readonly string[] = []): string {

@@ -13,6 +13,7 @@ import {
   BIRTHDAY_EXTRAS_DISCLAIMER,
   birthdayInquiryHref,
   birthdayInquirySubtitle,
+  birthdayPrivateWhatsAppMessage,
   birthdayWhatsAppMessage,
   bundlePlanningTotal,
   extraById,
@@ -22,6 +23,7 @@ import {
   toggleExtraId,
   unionExtraIds,
 } from '../src/content/birthdayExtras'
+import { BIRTHDAY_PRIVATE_INQUIRY_HREF, isStatementScenarioId, privateEveningBands, statementScenarios, whatWeDont } from '../src/content/birthdayStatement'
 
 let fails = 0
 const eq = (name: string, got: unknown, want: unknown) => {
@@ -47,6 +49,25 @@ eq('parse drops junk', parseBirthdayExtraIds('cake-standard,not-real,balloons,ca
 eq('parse empty', parseBirthdayExtraIds(null), [])
 
 eq('inquiry without extras', birthdayInquiryHref(), '/inquiry?from=birthday')
+eq('private lane href', birthdayInquiryHref([], { lane: 'private' }), '/inquiry?from=birthday-private')
+eq(
+  'private scenario href',
+  birthdayInquiryHref(['cake-standard'], { lane: 'private', scenario: 'palm-villa' }),
+  '/inquiry?from=birthday-private&extras=cake-standard&scenario=palm-villa',
+)
+eq('private inquiry constant', BIRTHDAY_PRIVATE_INQUIRY_HREF, '/inquiry?from=birthday-private')
+eq('five statement scenarios', statementScenarios.length, 5)
+eq('palm villa is a scenario', isStatementScenarioId('palm-villa'), true)
+eq('junk scenario rejected', isStatementScenarioId('not-real'), false)
+eq(
+  'private whatsapp asks surprise',
+  birthdayPrivateWhatsAppMessage({ surprise: 'yes' }).includes('Surprise: yes'),
+  true,
+)
+eq('yacht scenario says you arrange the boat', statementScenarios.some((item) => item.body.includes('You own or charter the boat')), true)
+eq('do not hire yachts', whatWeDont.some((item) => item.includes('do not hire yachts')), true)
+eq('3600 band is published', privateEveningBands[0].figure.includes('3,600'), true)
+eq('villa band is typical not floor', privateEveningBands[1].note.includes('not a published floor'), true)
 eq(
   'inquiry with extras',
   birthdayInquiryHref(['cake-standard', 'balloons']),

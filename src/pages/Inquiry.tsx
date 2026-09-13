@@ -20,9 +20,13 @@ import {
 import { corporateWhatsAppMessage, packageById } from '@/content/corporatePackages'
 import {
   birthdayInquirySubtitle,
+  birthdayPrivateInquirySubtitle,
+  birthdayPrivateWhatsAppMessage,
   birthdayWhatsAppMessage,
   parseBirthdayExtraIds,
 } from '@/content/birthdayExtras'
+import { scenarioById } from '@/content/birthdayStatement'
+import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -52,15 +56,23 @@ export default function Inquiry() {
   const guestsParam = Number(params.get('guests'))
   const yachtPrefill = params.get('from') === 'yachts' && isYachtFormatId(formatParam)
   const corporatePkg = params.get('from') === 'corporate' ? packageById(params.get('package') ?? '') : undefined
-  const birthdayExtraIds = params.get('from') === 'birthday' ? parseBirthdayExtraIds(params.get('extras')) : []
-  const birthdayPrefill = params.get('from') === 'birthday'
+  const birthdayLane = params.get('from') === 'birthday-private' ? 'private' : params.get('from') === 'birthday' ? 'catalogue' : null
+  const birthdayExtraIds = birthdayLane ? parseBirthdayExtraIds(params.get('extras')) : []
+  const birthdayScenario = scenarioById(params.get('scenario'))
+  const birthdayPrefill = birthdayLane === 'catalogue'
+  const birthdayPrivatePrefill = birthdayLane === 'private'
   const whatsappMessage = yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
     : corporatePkg
       ? corporateWhatsAppMessage(corporatePkg, Number.isFinite(guestsParam) && guestsParam > 0 ? guestsParam : undefined)
-      : birthdayPrefill
-        ? birthdayWhatsAppMessage(birthdayExtraIds)
-        : DEFAULT_WHATSAPP_MESSAGE
+      : birthdayPrivatePrefill
+        ? birthdayPrivateWhatsAppMessage({
+            extraIds: birthdayExtraIds,
+            scenario: birthdayScenario?.title,
+          })
+        : birthdayPrefill
+          ? birthdayWhatsAppMessage(birthdayExtraIds)
+          : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
 
   useScrollTrigger()
@@ -170,9 +182,14 @@ export default function Inquiry() {
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
                 ? `Package selected: ${corporatePkg.name}. Add the date, area and guest count, then send.`
-                : birthdayPrefill
-                  ? birthdayInquirySubtitle(birthdayExtraIds)
-                  : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
+                : birthdayPrivatePrefill
+                  ? birthdayPrivateInquirySubtitle({
+                      extraIds: birthdayExtraIds,
+                      scenario: birthdayScenario?.title,
+                    })
+                  : birthdayPrefill
+                    ? birthdayInquirySubtitle(birthdayExtraIds)
+                    : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
           </p>
         </div>
       </section>
@@ -183,6 +200,11 @@ export default function Inquiry() {
           <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-y-12 lg:gap-x-12">
             {/* Left Column — WhatsApp CTA */}
             <div ref={ctaRef}>
+              {birthdayPrivatePrefill ? (
+                <div className="mb-12">
+                  <BirthdayPrivateBrief extraIds={birthdayExtraIds} scenarioId={params.get('scenario')} />
+                </div>
+              ) : null}
               <h2 className="font-playfair text-fluid-h3 text-black mb-4">
                 Get Your Tailored Quote on WhatsApp
               </h2>

@@ -29,7 +29,7 @@ export const birthdayHeroCopy = {
   subtitle:
     'Birthday catering Dubai for a seated dinner, a villa party or a children’s gathering. Choose the food, see published prices, and add a cake or balloons to the same enquiry so you know the likely cost before you confirm.',
   priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 3,600.',
-  replyLine: 'Share the date, location, adults, children and ages. We typically reply within 15 minutes during business hours.',
+  replyLine: 'Share the date, location, adults, children and ages. For a private milestone, start a private brief. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
@@ -41,14 +41,14 @@ export const siloIntro = {
 } as const
 
 export const jumpNav = [
+  { href: '#start', label: 'How to start' },
+  { href: '#statement', label: 'Statement' },
   { href: '#kinds', label: 'Kinds of birthday' },
   { href: '#photos', label: 'Photos' },
   { href: '#pricing', label: 'Prices' },
-  { href: '#included', label: 'Included' },
-  { href: '#menus', label: 'Food' },
+  { href: '#acts', label: 'Evening acts' },
   { href: '#extras', label: 'Extras' },
-  { href: '#budget', label: 'Budget' },
-  { href: '#how-it-works', label: 'How it works' },
+  { href: '#private-brief', label: 'Private brief' },
   { href: '#faqs', label: 'FAQs' },
   { href: '#get-quote', label: 'Quote' },
 ] as const
@@ -107,7 +107,7 @@ export const kindDetail = {
     paragraphs: [
       'Kids birthday catering Dubai is planned around when children actually eat, not around an adult dinner copied down in size. Write ages and allergy notes into the brief before the menu is written. Portions should be small enough to finish. Labels on the food matter more than a themed name on the dish.',
       'A table for six-year-olds is not a table for twelve-year-olds. Vegetarian, gluten-aware and dairy-free guests are straightforward when they are named early. For a severe allergy, tell us which child and which allergen. Allergy aware birthday catering Dubai still means a working kitchen: we do not describe a menu as allergen-free.',
-      'Children’s meal boxes attach to an eligible catering booking. A cake, a balloon arrangement and one activity (face painting or cupcake decorating) are usually enough. Live fire and children in the same garden needs a named adult on the grill, or no grill.',
+      'A children’s programme attaches to the adult catering: earlier timing, food they will finish, one activity, and cake as its own moment. Meal boxes are one option, not the whole brief. Live fire and children in the same garden needs a named adult on the grill, or no grill.',
     ],
   },
   milestones: {
@@ -454,7 +454,19 @@ export const birthdayFaqs = [
   },
   {
     q: 'Can you help organise a surprise birthday?',
-    a: 'We plan load-in around the reveal, keep contact to one person and stay off the family group chat. Getting the guest of honour out of the house stays with whoever is running the surprise.',
+    a: 'We plan load-in around the reveal, keep contact to one person and stay off the family group chat. Getting the guest of honour out of the house stays with whoever is running the surprise. We do not post photographs without your permission.',
+  },
+  {
+    q: 'Do you hire the yacht, the DJ or a soft-play venue?',
+    a: 'No. You arrange the boat, the compound or any play equipment. We design the food and the service, and we coordinate the extras written on the proposal so you are not running the vendor group.',
+  },
+  {
+    q: 'Can you work at short notice?',
+    a: 'Often, if the date is still open. Peak season (November–March) and holiday weekends fill faster. Rush production, extra journeys and last-minute headcount changes are quoted as their own lines. Message the date.',
+  },
+  {
+    q: 'Will you post photos of my party?',
+    a: 'Not unless you have agreed that in writing. Private residences and gated communities stay off our channels by default.',
   },
   {
     q: 'Do you cater children’s birthdays?',
