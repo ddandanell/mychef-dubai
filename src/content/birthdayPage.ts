@@ -61,7 +61,7 @@ export const birthdayKinds = [
     href: '#kids',
     linkLabel: 'Kids birthday catering',
     image: '/images/birthday-catering-dubai-kids.webp',
-    imageAlt: 'A parent and chef checking children’s meal boxes at a garden table before guests arrive. Experience concept shown.',
+    imageAlt: 'Children at a properly dressed villa table, seen from behind, while a chef speaks with the host. Experience concept shown.',
   },
   {
     id: 'milestones',
@@ -79,7 +79,7 @@ export const birthdayKinds = [
     href: '#family',
     linkLabel: 'Mixed-age parties',
     image: '/images/birthday-catering-dubai-mixed.webp',
-    imageAlt: 'A mixed-age villa birthday: adults eating at one table, children at a smaller table, chef cooking to the side. Experience concept shown.',
+    imageAlt: 'A mixed-age birthday in a Dubai villa: adults at the main table, children at a smaller linen table, chef serving. Experience concept shown.',
   },
 ] as const
 
@@ -295,17 +295,17 @@ export const birthdayGallery = [
   },
   {
     src: '/images/birthday-catering-dubai-cake-balloons.webp',
-    alt: 'Chef finishing a buttercream birthday cake beside balloon clusters. Experience concept shown.',
+    alt: 'Chef placing a white buttercream birthday cake beside a dressed villa table and cream balloon clusters. Experience concept shown.',
     caption: 'Cake and balloons as extras',
   },
   {
     src: '/images/birthday-catering-dubai-meal-boxes.webp',
-    alt: 'Children’s meal boxes being laid on a garden table. Experience concept shown.',
-    caption: 'Children’s meal boxes',
+    alt: 'Chefs setting a children’s birthday table on a villa terrace with ceramic plates and fruit. Experience concept shown.',
+    caption: 'Children’s table, villa terrace',
   },
   {
     src: '/images/birthday-catering-dubai-afterglow.webp',
-    alt: 'After the birthday meal, the kitchen team packs equipment while candles burn low. Experience concept shown.',
+    alt: 'After a villa birthday dinner, the kitchen team packs equipment while candles burn low. Experience concept shown.',
     caption: 'Clear-down after the cake',
   },
 ] as const
@@ -408,7 +408,7 @@ export const exampleEvents = [
     href: BIRTHDAY_SUPPORT.villas,
     linkLabel: 'Villa catering in Dubai',
     image: '/images/birthday-catering-dubai-mixed.webp',
-    imageAlt: 'Adult catering and a children’s table in a Dubai villa garden. Experience concept shown.',
+    imageAlt: 'Adults and children at separate tables in a Dubai villa, chef serving. Experience concept shown.',
   },
 ] as const
 

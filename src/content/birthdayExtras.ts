@@ -57,7 +57,7 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     occasions: ['children', 'adult', 'mixed'],
     requiresCatering: false,
     image: '/images/birthday-catering-dubai-cake-balloons.webp',
-    imageAlt: 'Chef finishing a buttercream birthday cake beside balloon clusters. Experience concept shown.',
+    imageAlt: 'Chef placing a white buttercream birthday cake in a villa dining room. Experience concept shown.',
   },
   {
     id: 'cake-themed',
@@ -103,7 +103,7 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     occasions: ['children', 'mixed'],
     requiresCatering: false,
     image: '/images/birthday-catering-dubai-cake-balloons.webp',
-    imageAlt: 'Balloon clusters and an age number beside a villa dining table. Experience concept shown.',
+    imageAlt: 'Cream balloon clusters beside a dressed villa dining table. Experience concept shown.',
   },
   {
     id: 'backdrop',
@@ -128,7 +128,7 @@ export const BIRTHDAY_EXTRAS: readonly BirthdayExtra[] = [
     requiresCatering: true,
     minQty: 10,
     image: '/images/birthday-catering-dubai-meal-boxes.webp',
-    imageAlt: 'Children’s meal boxes being laid on a garden table. Experience concept shown.',
+    imageAlt: 'Chefs setting a children’s birthday table on a villa terrace. Experience concept shown.',
   },
   {
     id: 'cupcake-decorating',
