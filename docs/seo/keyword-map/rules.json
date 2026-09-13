@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11 09:57",
+ "generated": "2026-09-13 20:52",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
@@ -26,7 +26,7 @@
    "why": "Two pages targeting one phrase is the cheapest way to lose both. The contract is the only place ownership is written, and a verifier fails the build if it contradicts itself.",
    "where": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
    "status": "holds",
-   "evidence": "SEO contract OK — 224 URLs, 171 unique primaries, 0 collisions.",
+   "evidence": "SEO contract OK — 226 URLs, 171 unique primaries, 0 collisions.",
    "command": "python3 scripts/verify-seo-contract.py"
   },
   {
@@ -35,7 +35,7 @@
    "why": "A page and the contract drifting apart is invisible until a rewrite quietly re-targets a page. The lock header makes the intent readable where the copy is edited.",
    "where": "src/**/*.tsx headers · src/content/keywordLocks.ts",
    "status": "holds",
-   "evidence": "keyword locks OK — 158 page files + 187 module entries match the contract",
+   "evidence": "keyword locks OK — 160 page files + 189 module entries match the contract",
    "command": "python3 scripts/verify-keyword-locks.py"
   },
   {
@@ -45,7 +45,7 @@
    "where": "optimize-page.py hero_end() · move-hero-copy.py",
    "needs_build": true,
    "status": "holds",
-   "evidence": "hero copy OK — 194 pages, median 37 words of hero prose, none over budget",
+   "evidence": "hero copy OK — 0 pages, median 0 words of hero prose, none over budget",
    "command": "python3 scripts/verify-hero.py"
   },
   {
@@ -122,7 +122,7 @@
    "why": "1,615 edits had been made with no baseline, so none of them could be judged.",
    "where": "backfill-experiments.py · close-experiments.py",
    "status": "no gate",
-   "evidence": "67 experiment(s) recorded"
+   "evidence": "69 experiment(s) recorded"
   },
   {
    "id": "nothing-auto-applies",
@@ -130,7 +130,7 @@
    "why": "The optimizer can edit 155 pages in a minute. That is exactly why it does not get to decide.",
    "where": "build-proposals.py never calls the optimizer · apply-safe.py is not built",
    "status": "no gate",
-   "evidence": "1 proposal(s) waiting for a decision"
+   "evidence": "31 proposal(s) waiting for a decision"
   },
   {
    "id": "commit-the-run",
@@ -146,7 +146,7 @@
    "why": "108 URLs rendered no breadcrumb and 37 rendered one that disagreed with the contract, so Google was told a different hierarchy from the one the keyword map enforces — and 74 children never linked up to their own hub, which is authority spent and not collected.",
    "where": "scripts/generate-breadcrumbs.py → src/content/breadcrumbTrails.ts · SiloTrail · SiloChildren",
    "status": "holds",
-   "evidence": "breadcrumb trails OK — 223 URLs compiled from the contract",
+   "evidence": "breadcrumb trails OK — 225 URLs compiled from the contract",
    "command": "python3 scripts/generate-breadcrumbs.py --check"
   },
   {
@@ -155,7 +155,7 @@
    "why": "A rise or a fall is unreadable without what was done. The record used to be split across a Postgres table, git and a JSON map, so a number could never be joined to the edit that caused it.",
    "where": "build-changelog.py → seo_changelog · the Changes page",
    "status": "no gate",
-   "evidence": "566 change(s) logged over the last 120 days"
+   "evidence": "600 change(s) logged over the last 120 days"
   },
   {
    "id": "compare-like-with-like",
@@ -163,7 +163,7 @@
    "why": "Search Console reports two to three days late. Comparing today with last Tuesday invents a crash that is only the reporting lag, and a weekend against a weekday invents a trend that is only the weekend.",
    "where": "build-movers.py windows · the Control page",
    "status": "no gate",
-   "evidence": "2026-09-02 to 2026-09-08 against 2026-08-26 to 2026-09-01"
+   "evidence": "2026-09-04 to 2026-09-10 against 2026-08-28 to 2026-09-03"
   },
   {
    "id": "name-the-reason-honestly",
@@ -171,7 +171,7 @@
    "why": "Blaming every move on the most recent edit is how a dashboard starts lying. And an average position that improves while impressions fall is a page losing its long tail, not a page winning.",
    "where": "build-movers.py explain()",
    "status": "no gate",
-   "evidence": "17 of the movers this week are attributed to a change on that page"
+   "evidence": "15 of the movers this week are attributed to a change on that page"
   },
   {
    "id": "push-is-release",
@@ -195,7 +195,7 @@
    "why": "A deleted URL drops the rankings, the links and the history. Parking keeps the URL alive while telling Google not to show it.",
    "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py · docs/seo/parked-urls.json",
    "status": "holds",
-   "evidence": "url stability OK — 224 frozen URLs, none deleted, none renamed",
+   "evidence": "url stability OK — 226 frozen URLs, none deleted, none renamed",
    "command": "python3 scripts/verify-url-stability.py"
   },
   {
@@ -212,7 +212,7 @@
    "why": "A title rewrite on a URL Google has never shown cannot be judged, so it is not a test.",
    "where": "snippet_lib.research_page · 50 impression floor",
    "status": "no gate",
-   "evidence": "8 snippet tests ready · 153 pages below 50 impressions"
+   "evidence": "1 snippet tests ready · 152 pages below 50 impressions"
   },
   {
    "id": "crm-is-the-conversion",
@@ -244,7 +244,7 @@
    "why": "Changing a path that already ranks is how a page falls out of Google with no 301 anyone remembers to keep. The inventory freezes every contract URL the day it appears.",
    "where": "docs/seo/url-inventory.json · scripts/verify-url-stability.py",
    "status": "holds",
-   "evidence": "url stability OK — 224 frozen URLs, none deleted, none renamed",
+   "evidence": "url stability OK — 226 frozen URLs, none deleted, none renamed",
    "command": "python3 scripts/verify-url-stability.py"
   }
  ]

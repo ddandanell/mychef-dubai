@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-11 12:31",
+ "generated": "2026-09-13 20:52",
  "intro": "The snippet agent tests Google titles and descriptions for clicks, not folklore. A test is only proposed when Search Console shows the page, CTR lags the position, the variant passes the voice gate, and no experiment is already open. The queue still needs a person. The agent never writes the live title itself.",
  "tiles": [
   {
-   "value": "2",
+   "value": "1",
    "label": "Ready to test"
   },
   {
-   "value": "17",
+   "value": "18",
    "label": "Blocked (open window)"
   },
   {
@@ -21,8 +21,8 @@
  ],
  "counts": {
   "researched": 171,
-  "proposed": 2,
-  "blocked": 17,
+  "proposed": 1,
+  "blocked": 18,
   "ctr_ok": 0,
   "too_few": 152
  },
@@ -192,9 +192,9 @@
     "title_len": 54,
     "description_len": 126
    },
-   "impressions": 262,
+   "impressions": 274,
    "clicks": 0,
-   "position": 38.6,
+   "position": 38.1,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -207,7 +207,7 @@
    "keyword": "corporate catering dubai",
    "persona": "event_host",
    "control_title": "Corporate Catering Dubai | Offices, Boards & Events | myCHEF",
-   "control_description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+   "control_description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -215,11 +215,11 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 60,
-    "description_len": 151
+    "description_len": 155
    },
-   "impressions": 253,
+   "impressions": 268,
    "clicks": 0,
-   "position": 41.5,
+   "position": 41.3,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -227,7 +227,7 @@
     {
      "kind": "mechanism",
      "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
-     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
      "persona": "event_host",
      "voice_passed": true,
      "voice_score": 10,
@@ -237,7 +237,7 @@
     {
      "kind": "relief",
      "title": "Corporate Catering Dubai | You Stay a Guest | myCHEF",
-     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
      "persona": "event_host",
      "voice_passed": true,
      "voice_score": 10,
@@ -247,7 +247,7 @@
     {
      "kind": "proof",
      "title": "Corporate Catering Dubai | From AED 90 | myCHEF",
-     "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
      "persona": "event_host",
      "voice_passed": true,
      "voice_score": 10,
@@ -256,11 +256,11 @@
     }
    ],
    "status": "proposed",
-   "reason": "253 impressions at pos 41.5, CTR 0.00% vs expected 1.20% — test a voice-passing title",
+   "reason": "268 impressions at pos 41.3, CTR 0.00% vs expected 1.20% — test a voice-passing title",
    "chosen": {
     "kind": "mechanism",
     "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
-    "description": "Book corporate catering in Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.",
+    "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
     "persona": "event_host",
     "voice_passed": true,
     "voice_score": 10,
@@ -273,7 +273,7 @@
    "keyword": "office catering dubai",
    "persona": "event_host",
    "control_title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
-   "control_description": "Office Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -281,11 +281,36 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 60,
-    "description_len": 125
+    "description_len": 139
    },
-   "impressions": 247,
+   "impressions": 259,
    "clicks": 0,
-   "position": 39.5,
+   "position": 39.2,
+   "ctr": 0.0,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.012,
+   "variants": [],
+   "status": "blocked",
+   "reason": "open experiment on this URL — another snippet would confound it"
+  },
+  {
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "persona": "event_host",
+   "control_title": "Catering Dubai | Food Only to Full Event Support | myCHEF",
+   "control_description": "Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "event_host",
+    "title_len": 57,
+    "description_len": 149
+   },
+   "impressions": 251,
+   "clicks": 0,
+   "position": 56.3,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -319,31 +344,6 @@
    "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
-   "url": "/catering-dubai",
-   "keyword": "catering dubai",
-   "persona": "event_host",
-   "control_title": "Catering Dubai | Food Only to Full Event Support | myCHEF",
-   "control_description": "Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.",
-   "control_voice": {
-    "passed": true,
-    "score": 10,
-    "failures": [],
-    "warnings": [],
-    "persona": "event_host",
-    "title_len": 57,
-    "description_len": 149
-   },
-   "impressions": 225,
-   "clicks": 0,
-   "position": 56.6,
-   "ctr": 0.0,
-   "expected_ctr": 0.012,
-   "ctr_gap": 0.012,
-   "variants": [],
-   "status": "blocked",
-   "reason": "open experiment on this URL — another snippet would confound it"
-  },
-  {
    "url": "/events",
    "keyword": "event catering dubai",
    "persona": "event_host",
@@ -361,9 +361,9 @@
     "title_len": 68,
     "description_len": 166
    },
-   "impressions": 126,
+   "impressions": 149,
    "clicks": 0,
-   "position": 44.0,
+   "position": 44.1,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
@@ -422,6 +422,31 @@
    "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
+   "url": "/our-chefs",
+   "keyword": "private chefs dubai",
+   "persona": "household",
+   "control_title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
+   "control_description": "Private Chefs Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_voice": {
+    "passed": true,
+    "score": 10,
+    "failures": [],
+    "warnings": [],
+    "persona": "household",
+    "title_len": 56,
+    "description_len": 123
+   },
+   "impressions": 61,
+   "clicks": 0,
+   "position": 37.7,
+   "ctr": 0.0,
+   "expected_ctr": 0.012,
+   "ctr_gap": 0.012,
+   "variants": [],
+   "status": "blocked",
+   "reason": "open experiment on this URL — another snippet would confound it"
+  },
+  {
    "url": "/school-catering-dubai",
    "keyword": "school catering dubai",
    "persona": "institution",
@@ -447,75 +472,29 @@
    "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
   },
   {
-   "url": "/our-chefs",
-   "keyword": "private chefs dubai",
-   "persona": "household",
-   "control_title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
-   "control_description": "Private Chefs Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "url": "/cocktail-party-catering-dubai",
+   "keyword": "cocktail party catering dubai",
+   "persona": "event_host",
+   "control_title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+   "control_description": "Cocktail party catering in Dubai: passed canapés from AED 150 per person, standing service, setup and clear-down. Tell us the date, headcount and room.",
    "control_voice": {
     "passed": true,
     "score": 10,
     "failures": [],
     "warnings": [],
-    "persona": "household",
-    "title_len": 56,
-    "description_len": 123
+    "persona": "event_host",
+    "title_len": 57,
+    "description_len": 151
    },
    "impressions": 58,
    "clicks": 0,
-   "position": 38.8,
+   "position": 27.9,
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
    "variants": [],
    "status": "blocked",
    "reason": "open experiment on this URL — another snippet would confound it"
-  },
-  {
-   "url": "/cocktail-party-catering-dubai",
-   "keyword": "cocktail party catering dubai",
-   "persona": "event_host",
-   "control_title": "Cocktail Party Catering Dubai | myCHEF",
-   "control_description": "Cocktail Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-   "control_voice": {
-    "passed": true,
-    "score": 10,
-    "failures": [],
-    "warnings": [],
-    "persona": "event_host",
-    "title_len": 38,
-    "description_len": 133
-   },
-   "impressions": 56,
-   "clicks": 0,
-   "position": 28.1,
-   "ctr": 0.0,
-   "expected_ctr": 0.012,
-   "ctr_gap": 0.012,
-   "variants": [
-    {
-     "kind": "relief",
-     "title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
-     "description": "Cocktail Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    }
-   ],
-   "status": "proposed",
-   "reason": "56 impressions at pos 28.1, CTR 0.00% vs expected 1.20% — test a voice-passing title",
-   "chosen": {
-    "kind": "relief",
-    "title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
-    "description": "Cocktail Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
-    "persona": "event_host",
-    "voice_passed": true,
-    "voice_score": 10,
-    "voice_failures": [],
-    "voice_warnings": []
-   }
   },
   {
    "url": "/buffet-catering-dubai",
@@ -532,7 +511,7 @@
     "title_len": 30,
     "description_len": 125
    },
-   "impressions": 43,
+   "impressions": 47,
    "clicks": 0,
    "position": 32.4,
    "ctr": 0.0,
@@ -546,16 +525,16 @@
    "url": "/birthday-catering-dubai",
    "keyword": "birthday catering dubai",
    "persona": "event_host",
-   "control_title": "Birthday Catering Dubai | myCHEF",
-   "control_description": "Birthday Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_title": "Private Birthday Catering Dubai | Villa & Home Parties",
+   "control_description": "Private birthday catering Dubai for villa and home parties. Food, staff and clear-down. Published floors or a private brief. You stay with your guests.",
    "control_voice": {
     "passed": true,
     "score": 10,
     "failures": [],
     "warnings": [],
     "persona": "event_host",
-    "title_len": 32,
-    "description_len": 127
+    "title_len": 54,
+    "description_len": 151
    },
    "impressions": 25,
    "clicks": 0,
@@ -597,7 +576,7 @@
    "keyword": "business lunch catering dubai",
    "persona": "event_host",
    "control_title": "Business Lunch Catering Dubai | myCHEF",
-   "control_description": "Business Lunch Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Business lunch catering Dubai for boardrooms and client sittings. Drop-off from AED 90. Plated client lunch AED 700 to 950. Itemised VAT invoice.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -605,7 +584,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 38,
-    "description_len": 133
+    "description_len": 145
    },
    "impressions": 16,
    "clicks": 0,
@@ -672,7 +651,7 @@
    "keyword": "corporate event catering dubai",
    "persona": "event_host",
    "control_title": "Corporate Event Catering Dubai | myCHEF",
-   "control_description": "Corporate Event Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Corporate event catering Dubai for company parties, launches and networking. Canapés from AED 150. Staffed buffet from AED 120. Not AV or venue hire.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -680,7 +659,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 39,
-    "description_len": 134
+    "description_len": 149
    },
    "impressions": 6,
    "clicks": 0,
@@ -721,26 +700,26 @@
    "url": "/yachts",
    "keyword": "yacht catering dubai",
    "persona": "event_host",
-   "control_title": "Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF",
-   "control_description": "Yacht Catering Dubai with indicative pricing from AED 162 per guest: canapés, buffet or live station, extras and written terms. You charter the yacht.",
+   "control_title": "Yacht Catering Dubai | Private Chef & Catering | myCHEF",
+   "control_description": "Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.",
    "control_voice": {
     "passed": true,
     "score": 10,
     "failures": [],
     "warnings": [],
     "persona": "event_host",
-    "title_len": 60,
-    "description_len": 150
+    "title_len": 55,
+    "description_len": 157
    },
-   "impressions": 260,
+   "impressions": 273,
    "clicks": 1,
-   "position": 28.5,
-   "ctr": 0.0038,
+   "position": 28.7,
+   "ctr": 0.0037,
    "expected_ctr": 0.012,
-   "ctr_gap": 0.0082,
+   "ctr_gap": 0.0083,
    "variants": [],
    "status": "blocked",
-   "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
+   "reason": "open experiment on this URL — another snippet would confound it"
   },
   {
    "url": "/private-chef-dubai",
@@ -757,12 +736,12 @@
     "title_len": 52,
     "description_len": 157
    },
-   "impressions": 483,
+   "impressions": 497,
    "clicks": 5,
-   "position": 29.2,
-   "ctr": 0.0104,
+   "position": 29.4,
+   "ctr": 0.0101,
    "expected_ctr": 0.012,
-   "ctr_gap": 0.0016,
+   "ctr_gap": 0.0019,
    "variants": [],
    "status": "blocked",
    "reason": "Google is ranking a different URL for this query — a title test on the owner will not be seen"
@@ -1378,7 +1357,7 @@
    "keyword": "full service vs drop off catering dubai",
    "persona": "planner",
    "control_title": "Full Service vs Drop Off Catering Dubai | myCHEF Journal",
-   "control_description": "A clear take on full service vs drop off catering dubai — what to ask, what it costs, and when to book. Written for people hosting in Dubai, not for a keyword list.",
+   "control_description": "Full service vs drop off catering Dubai: drop-off is food and delivery from AED 90 per person. Full service adds staff, setup and clearance from AED 120.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -1386,7 +1365,7 @@
     "warnings": [],
     "persona": "planner",
     "title_len": 56,
-    "description_len": 164
+    "description_len": 153
    },
    "impressions": 0,
    "clicks": 0,
@@ -1403,7 +1382,7 @@
    "keyword": "corporate event catering ideas dubai",
    "persona": "planner",
    "control_title": "Corporate Event Catering Ideas Dubai | myCHEF Journal",
-   "control_description": "A clear take on corporate event catering ideas dubai — what to ask, what it costs, and when to book. Written for people hosting in Dubai, not for a keyword list.",
+   "control_description": "Corporate event catering ideas Dubai: match the day to drop-off, canapés, buffet or a seated dinner, with advertised floors and the page that owns each job.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -1411,7 +1390,7 @@
     "warnings": [],
     "persona": "planner",
     "title_len": 53,
-    "description_len": 161
+    "description_len": 156
    },
    "impressions": 0,
    "clicks": 0,
@@ -1959,7 +1938,7 @@
    "keyword": "brand activation catering dubai",
    "persona": "event_host",
    "control_title": "Brand Activation Catering Dubai | myCHEF",
-   "control_description": "Brand Activation Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Brand activation catering Dubai: signature bites and passed food around the brand moment, from AED 150 per person. Food does not sit on laptops.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -1967,7 +1946,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 40,
-    "description_len": 135
+    "description_len": 144
    },
    "impressions": 0,
    "clicks": 0,
@@ -2209,7 +2188,7 @@
    "keyword": "conference catering dubai",
    "persona": "event_host",
    "control_title": "Conference Catering Dubai | myCHEF",
-   "control_description": "Conference Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Conference catering Dubai: coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90. Staffed buffet from AED 120. Not AV or venue hire.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2217,7 +2196,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 34,
-    "description_len": 129
+    "description_len": 161
    },
    "impressions": 0,
    "clicks": 0,
@@ -2234,7 +2213,7 @@
    "keyword": "corporate catering checklist dubai",
    "persona": "planner",
    "control_title": "Corporate Catering Checklist Dubai | myCHEF",
-   "control_description": "Corporate Catering Checklist Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Corporate catering checklist Dubai: what to lock before you brief. Headcount, format, access, dietary notes and an itemised proposal.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2242,7 +2221,7 @@
     "warnings": [],
     "persona": "planner",
     "title_len": 43,
-    "description_len": 138
+    "description_len": 133
    },
    "impressions": 0,
    "clicks": 0,
@@ -2259,7 +2238,7 @@
    "keyword": "corporate dinner package dubai",
    "persona": "event_host",
    "control_title": "Corporate Dinner Package Dubai | myCHEF",
-   "control_description": "Corporate Dinner Package Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, chef and service staff sized to the table. Not a dinner cruise. Not the plated per-person band.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2267,7 +2246,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 39,
-    "description_len": 134
+    "description_len": 158
    },
    "impressions": 0,
    "clicks": 0,
@@ -2284,7 +2263,7 @@
    "keyword": "corporate catering contract dubai",
    "persona": "event_host",
    "control_title": "Corporate Catering Contract Dubai | myCHEF",
-   "control_description": "Corporate Catering Contract Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Corporate catering contract Dubai: a written account for regular bookings. Fees, credit and expiry are set in the agreement, not as a shop price.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2292,7 +2271,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 42,
-    "description_len": 137
+    "description_len": 145
    },
    "impressions": 0,
    "clicks": 0,
@@ -2536,7 +2515,7 @@
    "keyword": "exhibition catering dubai",
    "persona": "event_host",
    "control_title": "Exhibition Catering Dubai | myCHEF",
-   "control_description": "Exhibition Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Exhibition catering Dubai for stand hospitality and exhibitor meals. Drop-off from AED 90 per person. No kitchen assumed. Hall access quoted separately.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2544,7 +2523,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 34,
-    "description_len": 129
+    "description_len": 152
    },
    "impressions": 0,
    "clicks": 0,
@@ -2663,7 +2642,7 @@
    "keyword": "gala dinner catering dubai",
    "persona": "event_host",
    "control_title": "Gala Dinner Catering Dubai | myCHEF",
-   "control_description": "Gala Dinner Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Gala dinner catering Dubai for seated awards and banquets. Staffed buffet from AED 120. Plated AED 700 to 950. Wine only where the venue is licensed.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -2671,7 +2650,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 35,
-    "description_len": 130
+    "description_len": 149
    },
    "impressions": 0,
    "clicks": 0,
@@ -3956,7 +3935,7 @@
    "keyword": "product launch catering dubai",
    "persona": "event_host",
    "control_title": "Product Launch Catering Dubai | myCHEF",
-   "control_description": "Product Launch Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Product launch catering Dubai: canapé receptions from AED 150 per person, timed to the reveal. Not a seated dinner. Itemised proposal.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -3964,7 +3943,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 38,
-    "description_len": 133
+    "description_len": 134
    },
    "impressions": 0,
    "clicks": 0,
@@ -3981,7 +3960,7 @@
    "keyword": "production catering dubai",
    "persona": "event_host",
    "control_title": "Production Catering Dubai | myCHEF",
-   "control_description": "Production Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Production catering Dubai for film, photo and event crews. Craft services and crew lunch from AED 90 per person, timed to the call sheet.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -3989,7 +3968,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 34,
-    "description_len": 129
+    "description_len": 137
    },
    "impressions": 0,
    "clicks": 0,
@@ -4106,7 +4085,7 @@
    "keyword": "staff meals catering dubai",
    "persona": "event_host",
    "control_title": "Staff Meals Catering Dubai | myCHEF",
-   "control_description": "Staff Meals Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+   "control_description": "Staff meals catering Dubai for workforce sittings. Drop-off from AED 90 per person. Halal by default. Not waiter hire. Actual sittings billed.",
    "control_voice": {
     "passed": true,
     "score": 10,
@@ -4114,7 +4093,7 @@
     "warnings": [],
     "persona": "event_host",
     "title_len": 35,
-    "description_len": 130
+    "description_len": 142
    },
    "impressions": 0,
    "clicks": 0,

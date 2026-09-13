@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-11 09:57",
- "run_id": 18,
+ "generated": "2026-09-13 20:52",
+ "run_id": 19,
  "banner": "Not feeding: GoHighLevel",
  "heartbeat": {
-  "id": 7,
-  "ran_at": "2026-09-11T01:55+00:00",
+  "id": 9,
+  "ran_at": "2026-09-13T12:51+00:00",
   "kind": "full",
   "mode": "live",
-  "git_commit": "9028c96",
+  "git_commit": "225c44f",
   "phase": "idle",
   "sources_ok": [
    "Neon Postgres",
@@ -37,29 +37,29 @@
  },
  "counts": {
   "locked": 1752,
-  "placed": 913,
-  "proven": 98,
-  "locked_unproven": 1654,
+  "placed": 920,
+  "proven": 101,
+  "locked_unproven": 1651,
   "primaries_locked": 171,
-  "primaries_placed": 139,
+  "primaries_placed": 145,
   "primaries_proven": 27
  },
  "sources": [
   {
    "service": "Bing Webmaster",
    "status": "connected",
-   "detail": "https://www.mychef.ae/ · 38 daily rows returned",
+   "detail": "https://www.mychef.ae/ · 41 daily rows returned",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Board build (run-loop)",
    "status": "connected",
    "detail": "keyword file, research pages and archive rebuilt on every run",
-   "last_success": "2026-09-08T17:03+00:00",
+   "last_success": "2026-09-11T09:54+00:00",
    "error": "runs by hand — no scheduler is configured yet, so freshness depends on someone starting it",
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Claude AI visibility",
@@ -67,23 +67,23 @@
    "detail": "16 buyer prompts, answers stored",
    "last_success": "2026-08-26T10:07+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "DataForSEO",
    "status": "connected",
-   "detail": "balance $34.58 · 41,635 SERP rows stored",
+   "detail": "balance $30.79 · 41,635 SERP rows stored",
    "last_success": "2026-08-26T10:00+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "First-party tracking",
    "status": "connected",
-   "detail": "endpoint live · 4,966 events recorded",
-   "last_success": "2026-09-11T01:52+00:00",
+   "detail": "endpoint live · 6,069 events recorded",
+   "last_success": "2026-09-13T11:47+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "GoHighLevel",
@@ -91,31 +91,31 @@
    "detail": "Private Integration Token reached the Dubai location but is missing CRM scopes. In GoHighLevel → Settings → Private Integrations, enable contacts.readonly, opportunities.readonly, conversations.readonly, conversations/message.readonly and re-run npm run seo:ghl.",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Google Analytics 4",
    "status": "connected",
-   "detail": "543704202 · 37 landing pages · 88 sessions in 30d · 60 day-rows stored",
-   "last_success": "2026-09-11T09:48+00:00",
+   "detail": "543704202 · 44 landing pages · 126 sessions in 30d · 78 day-rows stored",
+   "last_success": "2026-09-13T20:43+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Google Search Console",
    "status": "connected",
-   "detail": "2 property · 65 clicks in the last 10 days",
-   "last_success": "2026-09-08T00:00+00:00",
+   "detail": "2 property · 61 clicks in the last 10 days",
+   "last_success": "2026-09-10T00:00+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Neon Postgres",
    "status": "connected",
-   "detail": "14 runs · 65 MB · 118,975 rows across 15 tables",
-   "last_success": "2026-09-04T04:32+00:00",
+   "detail": "15 runs · 71 MB · 128,551 rows across 15 tables",
+   "last_success": "2026-09-11T01:54+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "PageSpeed / CrUX",
@@ -123,7 +123,7 @@
    "detail": "key present · not pulled into the board yet",
    "last_success": null,
    "error": "no collector writes CWV into the archive",
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "SEO analyst (read-only)",
@@ -131,23 +131,23 @@
    "detail": "deployed and password-gated · run with --probe-ai to test the answer path",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Screaming Frog",
    "status": "connected",
    "detail": "https://mychef.ae/ · 2026-08-26 · 29 open issues",
-   "last_success": "2026-09-08T22:06+00:00",
+   "last_success": "2026-09-13T20:43+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Vercel Web Analytics",
    "status": "connected",
-   "detail": "271 visitors in the last 7 days",
-   "last_success": "2026-09-11T09:47+00:00",
+   "detail": "264 visitors in the last 7 days",
+   "last_success": "2026-09-13T20:41+00:00",
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   },
   {
    "service": "Vercel project",
@@ -155,7 +155,7 @@
    "detail": "mychef-dubai-vite · web analytics on · git integration linked",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-11T09:53+00:00"
+   "checked_at": "2026-09-13T20:50+00:00"
   }
  ],
  "queue": [
@@ -165,12 +165,17 @@
    "count": 29
   },
   {
-   "type": "reassign_primary",
+   "type": "place_subkeyword",
    "status": "open",
-   "count": 8
+   "count": 16
   },
   {
-   "type": "snippet_test",
+   "type": "fill_subkeyword",
+   "status": "open",
+   "count": 14
+  },
+  {
+   "type": "reassign_primary",
    "status": "open",
    "count": 8
   },
@@ -185,6 +190,11 @@
    "count": 5
   },
   {
+   "type": "reassign_primary",
+   "status": "accepted",
+   "count": 4
+  },
+  {
    "type": "add_internal_link",
    "status": "accepted",
    "count": 4
@@ -195,24 +205,9 @@
    "count": 4
   },
   {
-   "type": "reassign_primary",
-   "status": "accepted",
-   "count": 4
-  },
-  {
    "type": "place_subkeyword",
    "status": "rejected",
    "count": 3
-  },
-  {
-   "type": "experiment",
-   "status": "open",
-   "count": 3
-  },
-  {
-   "type": "fill_subkeyword",
-   "status": "open",
-   "count": 2
   },
   {
    "type": "watch",
@@ -220,37 +215,12 @@
    "count": 2
   },
   {
-   "type": "retarget",
-   "status": "open",
-   "count": 2
-  },
-  {
-   "type": "place_subkeyword",
+   "type": "fix_onpage",
    "status": "open",
    "count": 1
   }
  ],
  "top5": [
-  {
-   "id": "2026-09-11-001",
-   "type": "fill_subkeyword",
-   "url": "/catering-dubai",
-   "keyword": "catering service in dubai",
-   "reason": "assigned to /catering-dubai but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-11-002",
-   "type": "experiment",
-   "url": "/catering-dubai",
-   "keyword": "catering dubai",
-   "reason": "225 GSC impressions — enough to test a title template",
-   "risk": "medium",
-   "auto_eligible": false,
-   "status": "open"
-  },
   {
    "id": "2026-09-08-002",
    "type": "watch",
@@ -272,12 +242,32 @@
    "status": "open"
   },
   {
-   "id": "2026-09-11-062",
-   "type": "snippet_test",
-   "url": "/wedding-catering-dubai",
-   "keyword": "wedding catering dubai",
-   "reason": "262 impressions at pos 38.6, CTR 0.00% vs expected 1.20% — test a voice-passing title",
-   "risk": "medium",
+   "id": "2026-09-08-003",
+   "type": "reassign_primary",
+   "url": "/our-chefs",
+   "keyword": "private chefs dubai",
+   "reason": "GSC ranks / for this phrase, not the contract owner",
+   "risk": "high",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-08-001",
+   "type": "reassign_primary",
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "reason": "GSC ranks /catering-packages-dubai for this phrase, not the contract owner",
+   "risk": "high",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-08-010",
+   "type": "reassign_primary",
+   "url": "/corporate",
+   "keyword": "corporate catering dubai",
+   "reason": "GSC ranks /blog/corporate-event-catering-ideas-dubai for this phrase, not the contract owner",
+   "risk": "high",
    "auto_eligible": false,
    "status": "open"
   }
@@ -286,35 +276,26 @@
   "verdicts": {
    "confounded": 55,
    "lift": 3,
-   "too_soon": 9
+   "too_soon": 11
   },
   "open": [
    {
-    "batch_id": "queue-apply-2026-09-08",
-    "url": "/",
+    "batch_id": "queue-apply-2026-09-11",
+    "url": "/yachts",
     "keywords": [
-     "my chef dubai",
-     "fine dining at home dubai",
-     "mychef dubai"
+     "yacht catering dubai"
     ],
-    "applied_at": "2026-09-08T14:23+00:00",
+    "applied_at": "2026-09-11T12:58+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
    {
-    "batch_id": "queue-apply-2026-09-08",
-    "url": "/office-catering-dubai",
+    "batch_id": "queue-apply-2026-09-11",
+    "url": "/cocktail-party-catering-dubai",
     "keywords": [
-     "office catering dubai",
-     "small office catering dubai",
-     "team lunch catering dubai",
-     "office lunch catering dubai",
-     "weekly office catering dubai",
-     "ramadan office catering dubai",
-     "catering for office meeting dubai",
-     "corporate lunch delivery dubai"
+     "cocktail party catering dubai"
     ],
-    "applied_at": "2026-09-08T14:23+00:00",
+    "applied_at": "2026-09-11T12:58+00:00",
     "window_days": 14,
     "verdict": "too_soon"
    },
@@ -371,16 +352,11 @@
    },
    {
     "batch_id": "queue-apply-2026-09-08",
-    "url": "/weekly-meal-prep-dubai",
+    "url": "/",
     "keywords": [
-     "meal prep dubai",
-     "meal prep service dubai",
-     "fitness meal prep services",
-     "kids meal prep service",
-     "meal prep chef dubai",
-     "personal chef meal prep dubai",
-     "private chef meal prep dubai",
-     "batch cooking service dubai"
+     "my chef dubai",
+     "fine dining at home dubai",
+     "mychef dubai"
     ],
     "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
@@ -436,10 +412,55 @@
     "applied_at": "2026-09-08T14:23+00:00",
     "window_days": 14,
     "verdict": "too_soon"
+   },
+   {
+    "batch_id": "queue-apply-2026-09-08",
+    "url": "/weekly-meal-prep-dubai",
+    "keywords": [
+     "meal prep dubai",
+     "meal prep service dubai",
+     "fitness meal prep services",
+     "kids meal prep service",
+     "meal prep chef dubai",
+     "personal chef meal prep dubai",
+     "private chef meal prep dubai",
+     "batch cooking service dubai"
+    ],
+    "applied_at": "2026-09-08T14:23+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
    }
   ]
  },
  "actions": [
+  {
+   "url": "/locations/palm-jumeirah",
+   "where": "body",
+   "how": "fill subkeyword business lunch palm jumeirah",
+   "after": "Business lunch Palm Jumeirah is the same kitchen on a weekday: a villa or apartment table, not a restaurant booking.",
+   "at": "2026-09-11T12:58+00:00"
+  },
+  {
+   "url": "/cocktail-party-catering-dubai",
+   "where": "title",
+   "how": "snippet relief — You Stay a Guest, H1 unchanged",
+   "after": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+   "at": "2026-09-11T12:58+00:00"
+  },
+  {
+   "url": "/yachts",
+   "where": "title",
+   "how": "snippet proof — From AED 162, H1 unchanged",
+   "after": "Yacht Catering Dubai | From AED 162 | myCHEF",
+   "at": "2026-09-11T12:58+00:00"
+  },
+  {
+   "url": "/yachts",
+   "where": "body",
+   "how": "+1 sentences (Yachts.tsx) · yacht dinner cruise dubai, small yacht catering dubai, yacht catering dubai harbour, new year yacht catering dubai, food to bring on a yacht party",
+   "after": "Yacht dinner cruise Dubai, small yacht catering Dubai, yacht catering Dubai Harbour, new year yacht catering Dubai and food to bring on a yacht party are run at the address you give us: we bring the e",
+   "at": "2026-09-11T09:57+00:00"
+  },
   {
    "url": "/engagement-catering-dubai",
    "where": "faq",
@@ -551,34 +572,6 @@
    "how": "moved 1 paragraph(s) out of the hero",
    "after": "Corporate catering contract Dubai cost depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate meal prep packages Dubai start from a",
    "at": "2026-08-26T23:48+00:00"
-  },
-  {
-   "url": "/brunch-catering-dubai",
-   "where": "body",
-   "how": "moved 2 paragraph(s) out of the hero",
-   "after": "Birthday brunch catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Brunch catering Dubai price and brunch catering price per person Dub",
-   "at": "2026-08-26T23:48+00:00"
-  },
-  {
-   "url": "/bbq-catering-dubai",
-   "where": "body",
-   "how": "moved 2 paragraph(s) out of the hero",
-   "after": "BBQ catering Dubai price and BBQ catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. BBQ catering packages ",
-   "at": "2026-08-26T23:48+00:00"
-  },
-  {
-   "url": "/arabic-catering-dubai",
-   "where": "body",
-   "how": "moved 1 paragraph(s) out of the hero",
-   "after": "Arabic catering Dubai price and Arabic catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Arabic catering p",
-   "at": "2026-08-26T23:48+00:00"
-  },
-  {
-   "url": "/blog/vegan-catering-dubai-guide",
-   "where": "faq",
-   "how": "+1 (blog-vegan-catering-dubai-guide.json)",
-   "after": "how to cater for vegan guests dubai",
-   "at": "2026-08-26T13:42+00:00"
   }
  ],
  "tiles": [
@@ -587,15 +580,15 @@
    "label": "Locked in the contract"
   },
   {
-   "value": "913",
+   "value": "920",
    "label": "Placed in the built HTML"
   },
   {
-   "value": "98",
+   "value": "101",
    "label": "Proven in Search Console"
   },
   {
-   "value": "1654",
+   "value": "1651",
    "label": "Locked but never seen"
   },
   {
@@ -603,7 +596,7 @@
    "label": "Since the last run"
   },
   {
-   "value": "31",
+   "value": "46",
    "label": "Proposals waiting"
   }
  ]

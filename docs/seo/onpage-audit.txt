@@ -1,13 +1,153 @@
 
-===== KW_NOT_IN_DESC =====
-/                                                    "mychef dubai"
-/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai"
+===== NO_HTML =====
+/about                                               prerender produced no file
+/afternoon-tea-catering-dubai                        prerender produced no file
+/allergy-safe-catering-dubai                         prerender produced no file
+/apartment-private-dining-dubai                      prerender produced no file
+/arabic-catering-dubai                               prerender produced no file
+/baby-shower-catering-dubai                          prerender produced no file
+/bar-services-dubai                                  prerender produced no file
+/bbq-catering-dubai                                  prerender produced no file
+/become-a-mychef                                     prerender produced no file
+/best-catering-companies-dubai                       prerender produced no file
+/birthday-catering-dubai                             prerender produced no file
+/blog                                                prerender produced no file
+/blog/best-private-chef-birthday-dinner-dubai        prerender produced no file
+/blog/brunch-at-home-dubai                           prerender produced no file
+/blog/corporate-catering-full-service-vs-drop-off    prerender produced no file
+/blog/corporate-event-catering-ideas-dubai           prerender produced no file
+/blog/dubai-school-food-rules-2026                   prerender produced no file
+/blog/grazing-table-vs-buffet-dubai                  prerender produced no file
+/blog/how-far-ahead-book-caterer-dubai               prerender produced no file
+/blog/how-much-does-private-chef-cost-dubai          prerender produced no file
+/blog/how-to-hire-a-private-chef-dubai               prerender produced no file
+/blog/nursery-meals-vs-packed-lunch-dubai            prerender produced no file
+/blog/nut-free-halal-nursery-meals-dubai             prerender produced no file
+/blog/private-chef-palm-jumeirah-guide               prerender produced no file
+/blog/wedding-catering-cost-dubai                    prerender produced no file
+/blog/yacht-party-menu-ideas-dubai                   prerender produced no file
+/booking-protection-insurance                        prerender produced no file
+/brand-activation-catering-dubai                     prerender produced no file
+/breakfast-catering-dubai                            prerender produced no file
+/brunch-catering-dubai                               prerender produced no file
+/buffet-catering-dubai                               prerender produced no file
+/buffet-vs-plated-dubai                              prerender produced no file
+/business-lunch-catering-dubai                       prerender produced no file
+/canape-catering-dubai                               prerender produced no file
+/canteen-management-dubai                            prerender produced no file
+/case-studies                                        prerender produced no file
+/catering-cost-calculator-dubai                      prerender produced no file
+/catering-dubai                                      prerender produced no file
+/catering-packages-dubai                             prerender produced no file
+/chef-training-academy                               prerender produced no file
+/chefs-table-dubai                                   prerender produced no file
+/chefs/ahmed-executive-chef                          prerender produced no file
+/chefs/layla-middle-eastern-chef                     prerender produced no file
+/chefs/marco-italian-chef                            prerender produced no file
+/chefs/matteo-pastry-chef                            prerender produced no file
+/christmas-catering-dubai                            prerender produced no file
+/cocktail-party-catering-dubai                       prerender produced no file
+/conference-catering-dubai                           prerender produced no file
+/contact                                             prerender produced no file
+/corporate                                           prerender produced no file
+/corporate-catering-checklist-dubai                  prerender produced no file
+/corporate-dinner-package-dubai                      prerender produced no file
+/corporate-event-catering-dubai                      prerender produced no file
+/corporate-retainer-dubai                            prerender produced no file
+/cuisines-dubai                                      prerender produced no file
+/desert-dining-dubai                                 prerender produced no file
+/dessert-table-catering-dubai                        prerender produced no file
+/diwali-catering-dubai                               prerender produced no file
+/drop-off-catering-dubai                             prerender produced no file
+/dubai-catering-prices-guide                         prerender produced no file
+/dubai-event-catering-price-guide-2026               prerender produced no file
+/dubai-food-trends-report-2026                       prerender produced no file
+/eid-catering-dubai                                  prerender produced no file
+/engagement-catering-dubai                           prerender produced no file
+/events                                              prerender produced no file
+/exhibition-catering-dubai                           prerender produced no file
+/faq                                                 prerender produced no file
+/festive-catering-dubai                              prerender produced no file
+/founding-customer-offer                             prerender produced no file
+/full-time-private-chef-dubai                        prerender produced no file
+/gala-dinner-catering-dubai                          prerender produced no file
+/gallery                                             prerender produced no file
+/grazing-table-dubai                                 prerender produced no file
+/guide/private-dining-dubai                          prerender produced no file
+/guides                                              prerender produced no file
+/halal-catering-dubai                                prerender produced no file
+/halal-private-dining-dubai                          prerender produced no file
+/hospital-catering-dubai                             prerender produced no file
+/how-it-works                                        prerender produced no file
+/how-to-choose-caterer-dubai                         prerender produced no file
+/how-we-vet-our-chefs                                prerender produced no file
+/iftar-catering-dubai                                prerender produced no file
+/indian-catering-dubai                               prerender produced no file
+/influencer-partnerships                             prerender produced no file
+/institutional-catering-dubai                        prerender produced no file
+/italian-catering-dubai                              prerender produced no file
+/live-cooking-stations-dubai                         prerender produced no file
+/locations                                           prerender produced no file
+/locations/al-barsha                                 prerender produced no file
+/locations/difc                                      prerender produced no file
+/locations/jbr                                       prerender produced no file
+/locations/jlt                                       prerender produced no file
+/loyalty-programme                                   prerender produced no file
+/luxury-dining-experiences                           prerender produced no file
+/mediterranean-catering-dubai                        prerender produced no file
+/menus                                               prerender produced no file
+/mychef-certified                                    prerender produced no file
+/mychef-membership                                   prerender produced no file
+/new-year-catering-dubai                             prerender produced no file
+/nursery-catering-dubai                              prerender produced no file
+/office-catering-dubai                               prerender produced no file
+/our-chefs                                           prerender produced no file
+/part-time-private-chef-dubai                        prerender produced no file
+/partner-with-us                                     prerender produced no file
+/partners                                            prerender produced no file
+/partners/concierge-services-dubai                   prerender produced no file
+/partners/event-planners-dubai                       prerender produced no file
+/partners/villa-rentals-dubai                        prerender produced no file
+/partners/yacht-charters-dubai                       prerender produced no file
+/press                                               prerender produced no file
+/private-chef-dubai                                  prerender produced no file
+/private-chef-dubai/how-it-works                     prerender produced no file
+/private-chef-dubai/pricing                          prerender produced no file
+/private-chef-vs-catering-dubai                      prerender produced no file
+/private-cooking-classes-dubai                       prerender produced no file
+/private-party-catering-dubai                        prerender produced no file
+/product-launch-catering-dubai                       prerender produced no file
+/production-catering-dubai                           prerender produced no file
+/proposal-dinner-dubai                               prerender produced no file
+/quality-guarantee-dubai                             prerender produced no file
+/ramadan-catering-dubai                              prerender produced no file
+/referral-programme                                  prerender produced no file
+/review                                              prerender produced no file
+/romantic-dinner-dubai                               prerender produced no file
+/school-catering-dubai                               prerender produced no file
+/staff-meals-catering-dubai                          prerender produced no file
+/sushi-catering-dubai                                prerender produced no file
+/trust-and-programs                                  prerender produced no file
+/vegan-catering-dubai                                prerender produced no file
+/vegetarian-catering-dubai                           prerender produced no file
+/venue-partners                                      prerender produced no file
+/villa-catering-ideas-dubai                          prerender produced no file
+/villas-private-residences                           prerender produced no file
+/vip-club                                            prerender produced no file
+/wedding-catering-checklist-dubai                    prerender produced no file
+/wedding-catering-dubai                              prerender produced no file
+/wedding-catering-menu-planning-dubai                prerender produced no file
+/weekly-meal-prep-dubai                              prerender produced no file
+/wellness-meal-prep-dubai                            prerender produced no file
+/yacht-catering-checklist-dubai                      prerender produced no file
+/yacht-catering-guide-dubai                          prerender produced no file
+/yachts                                              prerender produced no file
 
-===== DESC_LENGTH =====
-/review                                              90 chars
+===== DESC_MISSING =====
+/                                                    
 
-===== KW_NOT_IN_TITLE =====
-/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai" | Nursery Meals vs Packed Lunch Dubai | How to Choose | myCH
+===== H1_MISSING =====
+/                                                    
 
-===== KW_NOT_IN_H1 =====
-/blog/nursery-meals-vs-packed-lunch-dubai            "nursery provided meals vs packed lunch dubai" | Nursery Meals vs Packed Lunch Dubai
+===== CANONICAL_MISSING =====
+/                                                    

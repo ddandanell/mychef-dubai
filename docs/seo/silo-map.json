@@ -13,9 +13,9 @@
  ],
  "stats": {
   "pages": 181,
-  "linkable": 131,
-  "contextual_edges": 1494,
-  "orphans": 0,
+  "linkable": 139,
+  "contextual_edges": 1509,
+  "orphans": 1,
   "silos": 14
  },
  "do_not_link": [
@@ -36,7 +36,6 @@
   "/blog/ramadan-iftar-catering-trends-2026",
   "/blog/vegan-catering-dubai-guide",
   "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
-  "/brand-activation-catering-dubai",
   "/case-studies/corporate-gala-dinner-downtown-dubai",
   "/case-studies/family-eid-gathering-arabian-ranches",
   "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
@@ -49,9 +48,7 @@
   "/chinese-new-year-catering-dubai",
   "/coffee-tea-service-dubai",
   "/corporate-catering-dubai",
-  "/corporate-dinner-package-dubai",
   "/corporate-meal-prep-dubai",
-  "/corporate-retainer-dubai",
   "/dairy-free-catering-dubai",
   "/date-night-package-dubai",
   "/dessert-cart-dubai",
@@ -60,7 +57,6 @@
   "/easter-catering-dubai",
   "/event-catering-dubai",
   "/event-catering-prices-2026",
-  "/exhibition-catering-dubai",
   "/family-feast-package-dubai",
   "/farewell-catering-dubai",
   "/fathers-day-catering-dubai",
@@ -68,7 +64,6 @@
   "/finger-food-catering-dubai",
   "/fitness-meal-prep-dubai",
   "/fodmap-catering-dubai",
-  "/gala-dinner-catering-dubai",
   "/gluten-free-catering-dubai",
   "/government-event-catering-dubai",
   "/graduation-catering-dubai",
@@ -130,8 +125,6 @@
   "/private-chef-prices-dubai",
   "/private-dining-dubai",
   "/private-jet-catering-dubai",
-  "/product-launch-catering-dubai",
-  "/production-catering-dubai",
   "/ramadan-catering-guide-dubai",
   "/reunion-catering-dubai",
   "/seo/actions.html",
@@ -156,7 +149,6 @@
   "/seo/settings.html",
   "/seo/status.html",
   "/shawarma-station-dubai",
-  "/staff-meals-catering-dubai",
   "/sugar-free-catering-dubai",
   "/suhoor-catering-dubai",
   "/tasting-menu-dubai",
@@ -168,7 +160,9 @@
   "/villa-catering-dubai",
   "/yacht-catering-dubai"
  ],
- "orphans": [],
+ "orphans": [
+  "/school-catering-dubai"
+ ],
  "silos": {
   "Blog and Guides": [
    "/best-catering-companies-dubai",
@@ -1534,6 +1528,12 @@
      "label": "Birthday Catering",
      "keyword": "birthday catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
     },
     {
      "url": "/private-party-catering-dubai",
@@ -4304,22 +4304,22 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/menus",
      "label": "Menus",
      "keyword": "catering menus dubai",
      "silo": "Catering"
-    },
-    {
-     "url": "/school-catering-dubai",
-     "label": "School Catering",
-     "keyword": "school catering dubai",
-     "silo": null
-    },
-    {
-     "url": "/conference-catering-dubai",
-     "label": "Conference Catering",
-     "keyword": "conference catering dubai",
-     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
@@ -4877,6 +4877,12 @@
    "uplink": null,
    "siblings": [
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
@@ -4899,12 +4905,6 @@
      "label": "Canape Catering",
      "keyword": "canape catering dubai",
      "silo": "Catering"
-    },
-    {
-     "url": "/corporate-event-catering-dubai",
-     "label": "Corporate Event Catering",
-     "keyword": "corporate event catering dubai",
-     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [
@@ -4912,6 +4912,12 @@
      "url": "/business-lunch-catering-dubai",
      "label": "Business Lunch Catering",
      "keyword": "business lunch catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
      "silo": "Corporate Catering"
     }
    ],
@@ -5755,6 +5761,18 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/business-lunch-catering-dubai",
      "label": "Business Lunch Catering",
      "keyword": "business lunch catering dubai",
@@ -5765,18 +5783,6 @@
      "label": "Office Catering",
      "keyword": "office catering dubai",
      "silo": "Corporate Catering"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/canape-catering-dubai",
-     "label": "Canape Catering",
-     "keyword": "canape catering dubai",
-     "silo": "Catering"
     }
    ],
    "featured_children": [
@@ -5793,9 +5799,51 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/exhibition-catering-dubai",
+     "label": "Exhibition Catering",
+     "keyword": "exhibition catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/product-launch-catering-dubai",
+     "label": "Product Launch Catering",
+     "keyword": "product launch catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/conference-catering-dubai",
      "label": "Conference Catering",
      "keyword": "conference catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/staff-meals-catering-dubai",
+     "label": "Staff Meals Catering",
+     "keyword": "staff meals catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/gala-dinner-catering-dubai",
+     "label": "Gala Dinner Catering",
+     "keyword": "gala dinner catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/brand-activation-catering-dubai",
+     "label": "Brand Activation Catering",
+     "keyword": "brand activation catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/production-catering-dubai",
+     "label": "Production Catering",
+     "keyword": "production catering dubai",
      "silo": "Corporate Catering"
     }
    ],
@@ -5804,6 +5852,12 @@
      "url": "/business-lunch-catering-dubai",
      "label": "Business Lunch Catering",
      "keyword": "business lunch catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
      "silo": "Corporate Catering"
     }
    ],
@@ -5979,6 +6033,18 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/gala-dinner-catering-dubai",
+     "label": "Gala Dinner Catering",
+     "keyword": "gala dinner catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/romantic-dinner-dubai",
      "label": "Romantic Dinner",
      "keyword": "romantic dinner dubai",
@@ -5988,18 +6054,6 @@
      "url": "/office-catering-dubai",
      "label": "Office Catering",
      "keyword": "office catering dubai",
-     "silo": "Corporate Catering"
-    },
-    {
-     "url": "/proposal-dinner-dubai",
-     "label": "Proposal Dinner",
-     "keyword": "proposal dinner dubai",
-     "silo": "Dining Experiences"
-    },
-    {
-     "url": "/business-lunch-catering-dubai",
-     "label": "Business Lunch Catering",
-     "keyword": "business lunch catering dubai",
      "silo": "Corporate Catering"
     }
    ],
@@ -6075,6 +6129,18 @@
    },
    "siblings": [
     {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/office-catering-dubai",
      "label": "Office Catering",
      "keyword": "office catering dubai",
@@ -6091,18 +6157,6 @@
      "label": "Business Lunch Catering",
      "keyword": "business lunch catering dubai",
      "silo": "Corporate Catering"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/case-studies",
-     "label": "Case Studies",
-     "keyword": "catering case studies dubai",
-     "silo": "Trust and About"
     }
    ],
    "featured_children": [],
@@ -6183,6 +6237,12 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/office-catering-dubai",
      "label": "Office Catering",
      "keyword": "office catering dubai",
@@ -6195,16 +6255,10 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
+     "url": "/gala-dinner-catering-dubai",
+     "label": "Gala Dinner Catering",
+     "keyword": "gala dinner catering dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
@@ -6421,6 +6475,12 @@
     "keyword": "catering packages dubai"
    },
    "siblings": [
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
     {
      "url": "/romantic-dinner-dubai",
      "label": "Romantic Dinner",
@@ -7512,6 +7572,12 @@
    },
    "siblings": [
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/menus",
      "label": "Menus",
      "keyword": "catering menus dubai",
@@ -7981,6 +8047,12 @@
    },
    "siblings": [
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/romantic-dinner-dubai",
      "label": "Romantic Dinner",
      "keyword": "romantic dinner dubai",
@@ -7999,16 +8071,10 @@
      "silo": "Dining Experiences"
     },
     {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
@@ -10910,6 +10976,12 @@
      "silo": "Dining Experiences"
     },
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/apartment-private-dining-dubai",
      "label": "Apartment Private Dining",
      "keyword": "private chef for apartment dubai",
@@ -11135,6 +11207,12 @@
      "silo": "Corporate Catering"
     },
     {
+     "url": "/corporate-retainer-dubai",
+     "label": "Corporate Retainer",
+     "keyword": "corporate catering contract dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/corporate-event-catering-dubai",
      "label": "Corporate Event Catering",
      "keyword": "corporate event catering dubai",
@@ -11147,16 +11225,10 @@
      "silo": "Seasonal and Occasions"
     },
     {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
@@ -13270,6 +13342,18 @@
      "silo": "Dining Experiences"
     },
     {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/gala-dinner-catering-dubai",
+     "label": "Gala Dinner Catering",
+     "keyword": "gala dinner catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -13715,10 +13799,10 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
