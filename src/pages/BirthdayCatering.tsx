@@ -152,12 +152,9 @@ export default function BirthdayCatering() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
-          {birthdayHeroCopy.catalogueLine}
+          {birthdayHeroCopy.pageLine}
         </p>
-        <p className="mt-2 font-inter text-body-sm text-white/90 max-w-[58ch]">
-          {birthdayHeroCopy.privateLine}
-        </p>
-        <p className="mt-4 font-inter text-body-sm text-white/70 max-w-[58ch]">
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
           {birthdayHeroCopy.priceLine}
         </p>
       </PageHero>

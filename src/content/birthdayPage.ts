@@ -25,17 +25,17 @@ export const birthdayHero = {
 
 export const birthdayHeroCopy = {
   eyebrow: 'Villa and home parties',
-  title: 'Private Birthday Catering Dubai',
+  title: 'Private Birthday Catering in Dubai',
   subtitle:
-    'Food, staff and clear-down for villa and home parties. Itemised proposal or private brief. You stay with your guests.',
-  catalogueLine: 'Itemised proposal: formats and extras. You see the lines before you confirm.',
-  privateLine: 'Private brief: date, venue, vibe, surprise. We design the sequence.',
+    'Food, staff and clear-down for villa and home parties. Published floors or a private brief. You stay with your guests.',
+  pageLine:
+    'See formats, published prices, extras, and how the quote is built, or send a private milestone brief.',
   priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 3,600.',
 } as const
 
 export const siloIntro = {
   lead:
-    'Food sits at the centre. Cakes, balloons and entertainment are optional extras around it.',
+    'See formats, published prices, extras, and how the quote is built, or send a private milestone brief. Food sits at the centre. Cakes, balloons and entertainment are optional extras around it.',
   cateringLabel: 'Luxury catering in Dubai',
   chefLabel: 'private chef services in Dubai',
   cuisinesLabel: 'Cuisines',

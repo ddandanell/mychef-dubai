@@ -131,12 +131,15 @@ eq('ladder has birthday food delivery', formatLadder.some((row) => row.format ==
 eq('ladder has no stacked market', formatLadder.every((row) => !row.price.includes('Indicative market')), true)
 eq('primary in one H2', pricingH2.toLowerCase().includes('birthday catering dubai'), true)
 eq('title keeps primary n-gram', BIRTHDAY_KEYWORD_LOCK.title.toLowerCase().includes('birthday catering dubai'), true)
-eq('title is private/villa/itemised', BIRTHDAY_KEYWORD_LOCK.title.startsWith('Private Birthday Catering Dubai'), true)
+eq('title is private/villa/home', BIRTHDAY_KEYWORD_LOCK.title, 'Private Birthday Catering Dubai | Villa & Home Parties')
 eq('title under 65', BIRTHDAY_KEYWORD_LOCK.title.length <= 65, true)
 eq('meta under 160', BIRTHDAY_KEYWORD_LOCK.description.length <= 160, true)
-eq('h1 exact', BIRTHDAY_KEYWORD_LOCK.h1, 'Private Birthday Catering Dubai')
-eq('h1 keeps primary n-gram', BIRTHDAY_KEYWORD_LOCK.h1.toLowerCase().includes('birthday catering dubai'), true)
+eq('h1 exact', BIRTHDAY_KEYWORD_LOCK.h1, 'Private Birthday Catering in Dubai')
 eq('no five-things lead', !siloIntro.lead.toLowerCase().includes('five things'), true)
+eq('page line replaces five things', birthdayHeroCopy.pageLine.startsWith('See formats, published prices'), true)
+eq('hero sub published floors', birthdayHeroCopy.subtitle.includes('Published floors or a private brief'), true)
+eq('dual CTAs itemised', dualPath.catalogue.label, 'Request my itemised birthday proposal')
+eq('dual CTAs private', dualPath.private.label, 'Plan a private milestone birthday')
 
 eq(
   'siblings match contract order',
