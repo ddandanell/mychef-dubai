@@ -22,6 +22,11 @@ const contentLabels: Record<string, string> = {
   'yacht-catering': 'Yacht Catering',
   'yacht-chef': 'Yacht Chef',
   'yacht-party-catering': 'Yacht Party Catering',
+  'birthday-core': 'Birthday Catering',
+  'birthday-private': 'Private Milestone Birthday',
+  'birthday-villa': 'Villa Birthday',
+  'birthday-yacht': 'Yacht Birthday Catering',
+  'birthday-kids': 'Kids Birthday Catering',
 }
 
 function fromParams(params: URLSearchParams): AdAttribution {

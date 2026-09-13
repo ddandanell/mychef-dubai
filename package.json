@@ -20,6 +20,7 @@
     "test:yacht-quote": "tsx scripts/test-yacht-catering-quote.ts",
     "test:corporate-packages": "tsx scripts/test-corporate-packages.ts",
     "test:birthday-extras": "tsx scripts/test-birthday-extras.ts",
+    "test:birthday-rsa": "tsx scripts/test-birthday-rsa.ts",
     "test:booking-terms": "tsx scripts/test-booking-terms.ts",
     "test:seo-g-h": "tsx scripts/test-seo-g-h.ts",
     "test:faq-jsonld": "tsx scripts/test-faq-jsonld.ts",

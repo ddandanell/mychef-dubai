@@ -1,0 +1,318 @@
+{
+  "page": "/birthday-catering-dubai",
+  "final_url_base": "https://www.mychef.ae/birthday-catering-dubai",
+  "notes": [
+    "RSA limits: 15 headlines x 30 chars, 4 descriptions x 90 chars, path fields x 15 chars.",
+    "Do not bid [yacht catering dubai] on this campaign. That primary belongs to /yachts.",
+    "Do not lead the private-milestone group with AED 90 delivery.",
+    "AED 120 and AED 3,600 are published floors only. The 5k-15k villa band is typical quoted spend, not a floor: keep it off ads.",
+    "Claims must match the live page: no yacht hire, no named chef, no allergen-free, host sources alcohol, extras are planning figures.",
+    "Land private groups on #statement or #private-brief. Land core/price groups on the page root."
+  ],
+  "campaign": {
+    "name": "Search | Birthday catering Dubai",
+    "geo": "United Arab Emirates, presence: Dubai and neighbouring emirates",
+    "language": "English",
+    "negatives_campaign": [
+      "cheap",
+      "affordable",
+      "budget",
+      "jobs",
+      "salary",
+      "vacancy",
+      "recipe",
+      "diy",
+      "restaurant",
+      "buffet restaurant",
+      "hiring yacht",
+      "yacht rental",
+      "bouncy castle hire",
+      "soft play hire"
+    ]
+  },
+  "shared_assets": {
+    "sitelinks": [
+      {
+        "title": "Private Brief",
+        "url": "https://www.mychef.ae/birthday-catering-dubai#private-brief",
+        "desc1": "Date, house, vibe, surprise.",
+        "desc2": "We design the running order."
+      },
+      {
+        "title": "Itemised Proposal",
+        "url": "https://www.mychef.ae/inquiry?from=birthday",
+        "desc1": "Formats, floors, extras.",
+        "desc2": "See the lines before you confirm."
+      },
+      {
+        "title": "Birthday Prices",
+        "url": "https://www.mychef.ae/birthday-catering-dubai#pricing",
+        "desc1": "Published starting prices.",
+        "desc2": "VAT shown as its own line."
+      },
+      {
+        "title": "Villa Catering",
+        "url": "https://www.mychef.ae/villas-private-residences",
+        "desc1": "Homes, gardens, gated compounds.",
+        "desc2": "You stay a guest at the table."
+      },
+      {
+        "title": "Yacht Catering",
+        "url": "https://www.mychef.ae/yachts",
+        "desc1": "You arrange the boat.",
+        "desc2": "We cater the birthday."
+      },
+      {
+        "title": "Evening Acts",
+        "url": "https://www.mychef.ae/birthday-catering-dubai#acts",
+        "desc1": "Food first, then cake, then extras.",
+        "desc2": "Optional lines on one proposal."
+      }
+    ],
+    "callouts": [
+      "Reply in 15 Minutes",
+      "One Coordinator",
+      "You Stay a Guest",
+      "Itemised Proposal",
+      "Surprise Load-In",
+      "No Unapproved Posts",
+      "Halal-First Menus",
+      "You Arrange the Boat"
+    ],
+    "structured_snippets": {
+      "header": "Types",
+      "values": [
+        "Villa birthdays",
+        "Yacht catering",
+        "Seated dinners",
+        "Kids then adults",
+        "Surprise load-in"
+      ]
+    }
+  },
+  "ad_groups": [
+    {
+      "id": "birthday-core",
+      "name": "Birthday catering | itemised",
+      "utm_content": "birthday-core",
+      "landing": "https://www.mychef.ae/birthday-catering-dubai?utm_source=google&utm_medium=cpc&utm_campaign=birthday-catering&utm_content=birthday-core",
+      "path1": "Birthday",
+      "path2": "Catering",
+      "pin": { "1": "Birthday Catering Dubai" },
+      "keywords": {
+        "exact": [
+          "[birthday catering dubai]",
+          "[birthday party catering dubai]",
+          "[birthday catering dubai prices]"
+        ],
+        "phrase": [
+          "\"birthday catering dubai\"",
+          "\"birthday party catering dubai\"",
+          "\"birthday catering packages dubai\""
+        ]
+      },
+      "headlines": [
+        "Birthday Catering Dubai",
+        "Itemised Birthday Proposal",
+        "Published Prices, Clear Lines",
+        "Food, Staff and Clear-Down",
+        "Kids, Adults or Mixed Ages",
+        "From AED 120 Per Person",
+        "Celebration From AED 3,600",
+        "Reply Within 15 Minutes",
+        "Choose Extras, See the Quote",
+        "Stay a Guest at Your Table",
+        "Halal-First Event Menus",
+        "Villa, Home or Yacht",
+        "Request a Written Proposal",
+        "Cakes and Party Extras",
+        "One Coordinator, One Night"
+      ],
+      "descriptions": [
+        "Birthday catering in Dubai. Published floors and extras. Request an itemised proposal.",
+        "Buffets from AED 120 a person. Seated 8-12 from AED 3,600. VAT on its own line.",
+        "Kids, adults or mixed-age. Food, staff, clear-down. Add cake to the same quote.",
+        "Send the date, place and guest mix. Reply in 15 minutes during business hours."
+      ]
+    },
+    {
+      "id": "birthday-private",
+      "name": "Private milestone | running order",
+      "utm_content": "birthday-private",
+      "landing": "https://www.mychef.ae/birthday-catering-dubai?utm_source=google&utm_medium=cpc&utm_campaign=birthday-catering&utm_content=birthday-private#statement",
+      "path1": "Private",
+      "path2": "Milestone",
+      "pin": { "1": "Private Milestone Birthday" },
+      "keywords": {
+        "exact": [
+          "[private birthday catering dubai]",
+          "[milestone birthday catering dubai]",
+          "[surprise birthday catering dubai]"
+        ],
+        "phrase": [
+          "\"private birthday catering dubai\"",
+          "\"milestone birthday dubai catering\"",
+          "\"surprise birthday catering dubai\""
+        ]
+      },
+      "headlines": [
+        "Private Milestone Birthday",
+        "We Design the Running Order",
+        "Stay a Guest at Your Table",
+        "One Contact for the Evening",
+        "Villa Birthday, Held Quiet",
+        "Surprise Load-In, One Brief",
+        "Food First. Then the Night.",
+        "Gated Homes and Compounds",
+        "Kids Afternoon, Adult Dinner",
+        "No Posting Without Consent",
+        "Plan a Private Brief",
+        "Itemised Lines, Not a Bundle",
+        "Timed Cake, Then Clear-Down",
+        "Birthday Catering Dubai",
+        "You Arrange the Boat"
+      ],
+      "descriptions": [
+        "Tell us the date, house and vibe. We design food and the running order.",
+        "Villa, penthouse or yacht catering. One coordinator. No unapproved posts.",
+        "Surprise load-in, gated access, timed cake. Extras as lines, not a bundle.",
+        "You arrange the boat or compound. We cater. Send a private brief."
+      ]
+    },
+    {
+      "id": "birthday-villa",
+      "name": "Villa birthday | stay a guest",
+      "utm_content": "birthday-villa",
+      "landing": "https://www.mychef.ae/birthday-catering-dubai?utm_source=google&utm_medium=cpc&utm_campaign=birthday-catering&utm_content=birthday-villa#venues",
+      "path1": "Villa",
+      "path2": "Birthday",
+      "pin": { "1": "Villa Birthday Catering" },
+      "keywords": {
+        "exact": [
+          "[villa birthday catering dubai]",
+          "[birthday catering at home dubai]",
+          "[home birthday catering dubai]"
+        ],
+        "phrase": [
+          "\"villa birthday catering dubai\"",
+          "\"birthday catering at home dubai\"",
+          "\"private villa birthday catering\""
+        ]
+      },
+      "headlines": [
+        "Villa Birthday Catering",
+        "Birthday Catering at Home",
+        "Stay a Guest at Your Table",
+        "Gated Villa, We Cater It",
+        "Palm and Emirates Hills",
+        "Garden, Pool or Dining Room",
+        "Food, Staff and Clear-Down",
+        "One Coordinator for Gates",
+        "Private Milestone Birthday",
+        "We Design the Running Order",
+        "Request an Itemised Quote",
+        "Birthday Catering Dubai",
+        "Kids and Adults, One Night",
+        "No Posting Without Consent",
+        "Reply Within 15 Minutes"
+      ],
+      "descriptions": [
+        "Birthday catering in a Dubai villa or home. Gates and load-in go in the brief.",
+        "Stay seated with your guests. We handle food, staff and clear-down.",
+        "Garden, pool or dining room. Children earlier, adults later, one order.",
+        "Request an itemised proposal or send a private brief. Reply in 15 minutes."
+      ]
+    },
+    {
+      "id": "birthday-yacht",
+      "name": "Yacht birthday | catering only",
+      "utm_content": "birthday-yacht",
+      "landing": "https://www.mychef.ae/birthday-catering-dubai?utm_source=google&utm_medium=cpc&utm_campaign=birthday-catering&utm_content=birthday-yacht#statement",
+      "path1": "Yacht",
+      "path2": "Birthday",
+      "pin": { "1": "Yacht Birthday Catering" },
+      "keywords": {
+        "exact": [
+          "[yacht birthday catering dubai]",
+          "[birthday catering on a yacht]"
+        ],
+        "phrase": [
+          "\"yacht birthday catering dubai\"",
+          "\"birthday catering on a yacht\"",
+          "\"yacht birthday food dubai\""
+        ],
+        "do_not_bid": [
+          "[yacht catering dubai]",
+          "\"yacht catering dubai\""
+        ]
+      },
+      "headlines": [
+        "Yacht Birthday Catering",
+        "You Arrange the Boat",
+        "We Cater the Birthday",
+        "Marina-Safe Loading",
+        "Canapes, Grill and Cake",
+        "Compact Galley Menus",
+        "Stay a Guest on Board",
+        "Birthday Catering Dubai",
+        "Food First. Then the Night.",
+        "One Coordinator On Deck",
+        "Request an Itemised Quote",
+        "We Do Not Hire Yachts",
+        "Sunset Service, Clear-Down",
+        "Reply Within 15 Minutes",
+        "Private Milestone Birthday"
+      ],
+      "descriptions": [
+        "You own or charter the yacht. We plan loading, canapes, grill and cake.",
+        "Yacht birthday catering, not yacht hire. Compact galleys decide the menu.",
+        "Stay a guest on board. One coordinator for food. Request an itemised quote.",
+        "Sunset canapes, a grill if the deck allows, cake, then clear-down."
+      ]
+    },
+    {
+      "id": "birthday-kids",
+      "name": "Kids birthday | then adult dinner",
+      "utm_content": "birthday-kids",
+      "landing": "https://www.mychef.ae/birthday-catering-dubai?utm_source=google&utm_medium=cpc&utm_campaign=birthday-catering&utm_content=birthday-kids#kinds",
+      "path1": "Kids",
+      "path2": "Birthday",
+      "pin": { "1": "Kids Birthday Catering" },
+      "keywords": {
+        "exact": [
+          "[kids birthday catering dubai]",
+          "[children's birthday catering dubai]",
+          "[kids party food dubai]"
+        ],
+        "phrase": [
+          "\"kids birthday catering dubai\"",
+          "\"children's birthday catering dubai\"",
+          "\"kids party catering dubai\""
+        ]
+      },
+      "headlines": [
+        "Kids Birthday Catering",
+        "Children Eat Earlier",
+        "Adult Dinner Later",
+        "One Running Order",
+        "Kids Birthday in Dubai",
+        "Attached to Adult Catering",
+        "Cake as Its Own Moment",
+        "Allergy Notes in the Brief",
+        "Stay a Guest at Your Table",
+        "Birthday Catering Dubai",
+        "Meal Boxes or a Menu",
+        "Request an Itemised Quote",
+        "Villa Garden Afternoons",
+        "We Design the Running Order",
+        "Reply Within 15 Minutes"
+      ],
+      "descriptions": [
+        "Kids birthday catering in Dubai on the adult booking. They eat earlier.",
+        "One activity and cake as its own moment. Meal boxes are one option.",
+        "Allergy notes go in before anyone cooks. We do not claim allergen-free.",
+        "Children earlier, adults later, one running order. Request a proposal."
+      ]
+    }
+  ]
+}
