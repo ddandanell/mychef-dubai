@@ -53,6 +53,18 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
 
   return (
     <div className="max-w-3xl">
+      <figure className="mb-8">
+        <img
+          src={privateBriefCopy.image}
+          alt={privateBriefCopy.imageAlt}
+          width={1344}
+          height={752}
+          loading="lazy"
+          decoding="async"
+          className="aspect-[16/10] w-full object-cover"
+        />
+        <figcaption className="font-inter text-caption text-gray-400 mt-3">Experience concept shown</figcaption>
+      </figure>
       <SectionLabel>{privateBriefCopy.label}</SectionLabel>
       <DisplayHeading className="text-black mb-4">{privateBriefCopy.h2}</DisplayHeading>
       <BodyCopy className="mb-8">{privateBriefCopy.lead}</BodyCopy>

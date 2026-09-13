@@ -19,12 +19,18 @@ export const dualPath = {
     body: 'Formats, published floors, optional extras. You see the lines before you confirm.',
     href: birthdayInquiryHref(),
     label: 'Request my itemised birthday proposal',
+    image: '/images/birthday-catering-dubai-buffet.webp',
+    imageAlt:
+      'A birthday buffet in a Dubai residence, chef carving while guests already sit. Experience concept shown.',
   },
   private: {
     title: 'Private milestone brief',
     body: 'Date, venue type, guest mix, vibe, budget band, surprise. We design the sequence and quote it as lines.',
     href: '#private-brief',
     label: 'Plan a private milestone birthday',
+    image: '/images/birthday-catering-dubai-welcome.webp',
+    imageAlt:
+      'Welcome canapés in the limestone foyer of a Palm villa as guests arrive for a private birthday. Experience concept shown.',
   },
 } as const
 
@@ -38,15 +44,17 @@ export const statementScenarios = [
     id: 'palm-villa',
     title: 'Palm villa garden for about 40',
     body: 'Welcome canapés, grill or live stations, a timed cake moment, then mocktail service. Gates, shade and load-in belong in the brief.',
-    image: '/images/birthday-catering-dubai-villa.webp',
-    imageAlt: 'Villa terrace birthday with guests seated and chefs at a side station. Experience concept shown.',
+    image: '/images/birthday-catering-dubai-garden.webp',
+    imageAlt:
+      'A long birthday table beside a garden rill in a high-end Dubai villa, chef finishing plates. Experience concept shown.',
   },
   {
     id: 'tasting-50th',
     title: 'Seated tasting for a 50th, about 10 covers',
     body: 'Courses timed to a toast. The cake is its own act, not a collision with dessert. A chef cooking in the kitchen has no volume minimum.',
-    image: '/images/birthday-catering-dubai-adult.webp',
-    imageAlt: 'Seated birthday dinner in a Dubai villa with the chef at the edge of the table. Experience concept shown.',
+    image: '/images/birthday-catering-dubai-penthouse.webp',
+    imageAlt:
+      'A seated birthday dinner in a Dubai penthouse with the city at night and chefs cooking at the island. Experience concept shown.',
   },
   {
     id: 'two-audience',
@@ -83,26 +91,41 @@ export const eveningActs = [
     act: 'Act 1',
     title: 'Food, staff and clear-down',
     body: 'The core booking. Delivery, buffet, live stations or a seated dinner, sized to the room.',
+    image: '/images/birthday-catering-dubai-live-station.webp',
+    imageAlt:
+      'A chef cooking at a live station beside a pool while birthday guests sit at a dressed table. Experience concept shown.',
   },
   {
     act: 'Act 2',
     title: 'Cake, flowers or balloons, photographer',
     body: 'The reveal and the record. Quoted after supplier confirmation. Not inside the catering floor.',
+    image: '/images/birthday-catering-dubai-cake-balloons.webp',
+    imageAlt:
+      'A chef placing a white botanical birthday cake on a villa table beside a lit pool. Experience concept shown.',
   },
   {
     act: 'Act 3',
     title: 'Live station, dessert table, mocktail service',
     body: 'When the room should move. Power, queue space and bar equipment belong in the brief. Alcohol at a private residence is sourced by the host.',
+    image: '/images/birthday-catering-dubai-mocktails.webp',
+    imageAlt:
+      'A chef preparing mocktails at a villa bar while birthday guests wait at the table. Experience concept shown.',
   },
   {
     act: 'Act 4',
     title: 'Entertainment',
     body: 'Musician, DJ, or one children’s activity, written into the same running order. Duration and staffing are named before you confirm.',
+    image: '/images/birthday-catering-dubai-musician.webp',
+    imageAlt:
+      'An acoustic musician at a villa birthday dinner while the chef works in the kitchen. Experience concept shown.',
   },
   {
     act: 'Act 5',
     title: 'Coordination of the selected vendors',
     body: 'So you are not running the WhatsApp group. We coordinate what is on the proposal. We do not hire the yacht or book a soft-play venue.',
+    image: '/images/birthday-catering-dubai-discretion.webp',
+    imageAlt:
+      'A coordinator speaking with compound security at a gated Dubai villa before a private birthday. Experience concept shown.',
   },
 ] as const
 
@@ -110,6 +133,9 @@ export const discretion = {
   label: 'DISCRETION',
   h2: 'One contact. The house stays private.',
   body: 'Private residences, gated communities and surprises need a single point of contact, load-in timed to the brief, and no posting without your permission. We stay off the family group chat. Written privacy instructions go in the proposal when you ask for them.',
+  image: '/images/birthday-catering-dubai-discretion.webp',
+  imageAlt:
+    'A coordinator speaking with compound security at a gated Dubai villa before a private birthday. Experience concept shown.',
   points: [
     'One coordinator for food, service and the extras on the proposal',
     'Surprise load-in planned around the guest of honour',
@@ -126,24 +152,35 @@ export const venueStages = [
     body: 'Kitchen access, gates, shade and community rules belong in the brief.',
     href: BIRTHDAY_SUPPORT.villas,
     label: 'Villa catering',
+    image: '/images/birthday-catering-dubai-hero.webp',
+    imageAlt:
+      'A host seated at a birthday dinner in a double-height Dubai villa while a chef and server work. Experience concept shown.',
   },
   {
     title: 'Yacht',
     body: 'You arrange the boat. We cater it: compact menus, marina loading, on-board service.',
     href: BIRTHDAY_SUPPORT.yachts,
     label: 'Yacht catering',
+    image: '/images/birthday-catering-dubai-yacht.webp',
+    imageAlt: 'Passed plates and a chef serving on a Dubai yacht at golden hour. Experience concept shown.',
   },
   {
     title: 'Penthouse or apartment kitchen',
     body: 'A seated dinner for a small table is a normal booking. Lift and load-in decide the format.',
     href: BIRTHDAY_SUPPORT.privateChef,
     label: 'Private chef services',
+    image: '/images/birthday-catering-dubai-penthouse.webp',
+    imageAlt:
+      'A seated birthday dinner in a Dubai penthouse with the city at night and chefs at the island. Experience concept shown.',
   },
   {
     title: 'Garden or pool',
     body: 'Staffed service when the guest list outgrows one stove. Children stay away from any grill.',
     href: BIRTHDAY_SUPPORT.villas,
     label: 'Home celebrations',
+    image: '/images/birthday-catering-dubai-live-station.webp',
+    imageAlt:
+      'A live cooking station beside a villa pool while birthday guests sit at a dressed table. Experience concept shown.',
   },
 ] as const
 
@@ -187,6 +224,9 @@ export const privateBriefCopy = {
   label: 'PRIVATE BRIEF',
   h2: 'Plan a private milestone birthday',
   lead: 'Date, venue type, adults, children, vibe, budget band and whether it is a surprise. A moodboard link helps if you have one. Menu questions can wait.',
+  image: '/images/birthday-catering-dubai-penthouse.webp',
+  imageAlt:
+    'A seated birthday dinner in a Dubai penthouse with the city at night. Experience concept shown.',
 } as const
 
 export const VENUE_TYPES = [

@@ -214,19 +214,43 @@ export default function BirthdayCatering() {
           <DisplayHeading className="text-black mb-4">{dualPath.h2}</DisplayHeading>
           <BodyCopy className="mb-10">{dualPath.lead}</BodyCopy>
           <div className="grid md:grid-cols-2 gap-8">
-            <article className="border border-gray-200 p-8">
-              <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.catalogue.title}</h3>
-              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.catalogue.body}</p>
-              <Link to={dualPath.catalogue.href} className="btn-primary" data-track="inquiry_form">
-                {dualPath.catalogue.label}
-              </Link>
+            <article className="border border-gray-200 bg-white">
+              <img
+                src={dualPath.catalogue.image}
+                alt={dualPath.catalogue.imageAlt}
+                width={1344}
+                height={752}
+                loading="lazy"
+                decoding="async"
+                className="aspect-[16/10] w-full object-cover"
+              />
+              <p className="font-inter text-caption text-gray-400 px-8 pt-3">Experience concept shown</p>
+              <div className="p-8 pt-3">
+                <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.catalogue.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.catalogue.body}</p>
+                <Link to={dualPath.catalogue.href} className="btn-primary" data-track="inquiry_form">
+                  {dualPath.catalogue.label}
+                </Link>
+              </div>
             </article>
-            <article className="border border-gray-200 p-8 bg-cream">
-              <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.private.title}</h3>
-              <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.private.body}</p>
-              <a href={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
-                {dualPath.private.label}
-              </a>
+            <article className="border border-gray-200 bg-cream">
+              <img
+                src={dualPath.private.image}
+                alt={dualPath.private.imageAlt}
+                width={1344}
+                height={752}
+                loading="lazy"
+                decoding="async"
+                className="aspect-[16/10] w-full object-cover"
+              />
+              <p className="font-inter text-caption text-gray-400 px-8 pt-3">Experience concept shown</p>
+              <div className="p-8 pt-3">
+                <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.private.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.private.body}</p>
+                <a href={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
+                  {dualPath.private.label}
+                </a>
+              </div>
             </article>
           </div>
         </Container>
@@ -268,17 +292,33 @@ export default function BirthdayCatering() {
       </Section>
 
       <Section id="discretion" tone="charcoal" rhythm="chapter">
-        <Container className="max-w-3xl">
-          <SectionLabel tone="dark">{discretion.label}</SectionLabel>
-          <DisplayHeading className="text-white mb-6">{discretion.h2}</DisplayHeading>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">{discretion.body}</p>
-          <ul className="space-y-3">
-            {discretion.points.map((item) => (
-              <li key={item} className="font-inter text-body-sm text-gray-300">
-                {item}
-              </li>
-            ))}
-          </ul>
+        <Container>
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <SectionLabel tone="dark">{discretion.label}</SectionLabel>
+              <DisplayHeading className="text-white mb-6">{discretion.h2}</DisplayHeading>
+              <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">{discretion.body}</p>
+              <ul className="space-y-3">
+                {discretion.points.map((item) => (
+                  <li key={item} className="font-inter text-body-sm text-gray-300">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <figure>
+              <img
+                src={discretion.image}
+                alt={discretion.imageAlt}
+                width={1344}
+                height={752}
+                loading="lazy"
+                decoding="async"
+                className="aspect-[16/10] w-full object-cover"
+              />
+              <figcaption className="font-inter text-caption text-gray-500 mt-3">Experience concept shown</figcaption>
+            </figure>
+          </div>
         </Container>
       </Section>
 
@@ -472,9 +512,19 @@ export default function BirthdayCatering() {
           <SectionLabel>THE RUNNING ORDER</SectionLabel>
           <DisplayHeading className="text-black mb-4">{eveningActsH2}</DisplayHeading>
           <BodyCopy className="mb-12">{eveningActsIntro}</BodyCopy>
-          <ol className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <ol className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {eveningActs.map((item) => (
               <li key={item.act}>
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={1344}
+                  height={752}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[16/10] w-full object-cover mb-3"
+                />
+                <p className="font-inter text-caption text-gray-400 mb-3">Experience concept shown</p>
                 <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">{item.act}</p>
                 <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
@@ -490,15 +540,27 @@ export default function BirthdayCatering() {
           <DisplayHeading className="text-black mb-10">{venueStagesH2}</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {venueStages.map((item) => (
-              <article key={item.title} className="border-t border-gray-200 pt-6">
-                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
-                <Link
-                  to={item.href}
-                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-                >
-                  {item.label} <ArrowRight size={14} aria-hidden />
-                </Link>
+              <article key={item.title} className="border border-gray-200 bg-white">
+                <img
+                  src={item.image}
+                  alt={item.imageAlt}
+                  width={1344}
+                  height={752}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[16/10] w-full object-cover"
+                />
+                <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
+                <div className="p-6 pt-3">
+                  <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
+                  <Link
+                    to={item.href}
+                    className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                  >
+                    {item.label} <ArrowRight size={14} aria-hidden />
+                  </Link>
+                </div>
               </article>
             ))}
           </div>
@@ -570,13 +632,27 @@ export default function BirthdayCatering() {
         const block = kindDetail[key]
         return (
           <Section key={key} id={key} tone={i % 2 === 0 ? 'ivory' : 'white'} rhythm="chapter">
-            <Container className="max-w-3xl">
-              <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
-              {block.paragraphs.map((p) => (
-                <BodyCopy key={p.slice(0, 40)} className="mb-4 last:mb-0">
-                  {p}
-                </BodyCopy>
-              ))}
+            <Container>
+              <figure className="mb-8 max-w-4xl">
+                <img
+                  src={block.image}
+                  alt={block.imageAlt}
+                  width={1344}
+                  height={752}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[16/10] w-full object-cover"
+                />
+                <figcaption className="font-inter text-caption text-gray-400 mt-3">Experience concept shown</figcaption>
+              </figure>
+              <div className="max-w-3xl">
+                <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
+                {block.paragraphs.map((p) => (
+                  <BodyCopy key={p.slice(0, 40)} className="mb-4 last:mb-0">
+                    {p}
+                  </BodyCopy>
+                ))}
+              </div>
             </Container>
           </Section>
         )
