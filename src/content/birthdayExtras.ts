@@ -278,15 +278,39 @@ export function planningTotalLabel(total: { amountAed: number; kind: 'from' | 'f
 
 export type BirthdayInquiryLane = 'birthday' | 'private'
 
+const BRIEF_QUERY_KEYS = ['date', 'venue', 'adults', 'children', 'ages', 'vibe', 'budgetBand', 'surprise', 'moodboard'] as const
+
 export function birthdayInquiryHref(
   extraIds: readonly string[] = [],
-  opts?: { lane?: BirthdayInquiryLane; scenario?: string },
+  opts?: { lane?: BirthdayInquiryLane; scenario?: string } & BirthdayPrivateBriefInput,
 ): string {
   const from = opts?.lane === 'private' ? 'birthday-private' : 'birthday'
   const params = new URLSearchParams({ from })
-  if (extraIds.length) params.set('extras', extraIds.join(','))
+  const extras = extraIds.length ? extraIds : opts?.extraIds ?? []
+  if (extras.length) params.set('extras', extras.join(','))
   if (opts?.scenario) params.set('scenario', opts.scenario)
+  if (opts?.lane === 'private') {
+    for (const key of BRIEF_QUERY_KEYS) {
+      const value = opts[key]?.trim()
+      if (value) params.set(key, value)
+    }
+  }
   return `/inquiry?${params.toString()}`
+}
+
+export function birthdayBriefFromSearchParams(params: {
+  get(name: string): string | null
+}): BirthdayPrivateBriefInput {
+  const extraIds = parseBirthdayExtraIds(params.get('extras'))
+  const scenario = params.get('scenario') ?? undefined
+  const brief: BirthdayPrivateBriefInput = {}
+  if (extraIds.length) brief.extraIds = extraIds
+  if (scenario) brief.scenario = scenario
+  for (const key of BRIEF_QUERY_KEYS) {
+    const value = params.get(key)?.trim()
+    if (value) brief[key] = value
+  }
+  return brief
 }
 
 export type BirthdayPrivateBriefInput = {
@@ -330,6 +354,15 @@ export function birthdayPrivateInquirySubtitle(brief: BirthdayPrivateBriefInput 
   const extras = extrasFromIds(brief.extraIds ?? [])
   const extraBit = extras.length ? ` Extras: ${extras.map((item) => item.name).join(', ')}.` : ''
   const styleBit = brief.scenario ? ` Style: ${brief.scenario}.` : ''
+  const filled = [
+    brief.date,
+    brief.venue,
+    brief.adults ? `${brief.adults} adults` : '',
+    brief.surprise ? `surprise ${brief.surprise}` : '',
+  ].filter(Boolean)
+  if (filled.length) {
+    return `Private milestone birthday.${styleBit}${extraBit} ${filled.join(', ')}. Send on WhatsApp, or change the notes below.`
+  }
   return `Private milestone birthday.${styleBit}${extraBit} Add the date, venue type, adults, children, vibe, budget band and whether it is a surprise, then send.`
 }
 

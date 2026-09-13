@@ -5,12 +5,13 @@
  */
 import { CATERING_FORMAT_BY_ID, eventPackageById } from '../src/content/cateringPricing'
 import { BIRTHDAY_KEYWORD_LOCK, BIRTHDAY_PACKAGE, BIRTHDAY_SIBLING_LINKS } from '../src/content/birthdayCluster'
-import { formatLadder, packagePointer, pricingH2 } from '../src/content/birthdayPage'
+import { birthdayHeroCopy, formatLadder, packagePointer, pricingH2, siloIntro } from '../src/content/birthdayPage'
 import {
   BIRTHDAY_BUNDLES,
   BIRTHDAY_BUDGET_EXAMPLE,
   BIRTHDAY_EXTRAS,
   BIRTHDAY_EXTRAS_DISCLAIMER,
+  birthdayBriefFromSearchParams,
   birthdayInquiryHref,
   birthdayInquirySubtitle,
   birthdayPrivateWhatsAppMessage,
@@ -23,7 +24,7 @@ import {
   toggleExtraId,
   unionExtraIds,
 } from '../src/content/birthdayExtras'
-import { BIRTHDAY_PRIVATE_INQUIRY_HREF, isStatementScenarioId, privateEveningBands, statementScenarios, whatWeDont } from '../src/content/birthdayStatement'
+import { BIRTHDAY_PRIVATE_INQUIRY_HREF, dualPath, isStatementScenarioId, privateEveningBands, statementScenarios, whatWeDont } from '../src/content/birthdayStatement'
 
 let fails = 0
 const eq = (name: string, got: unknown, want: unknown) => {
@@ -56,6 +57,18 @@ eq(
   '/inquiry?from=birthday-private&extras=cake-standard&scenario=palm-villa',
 )
 eq('private inquiry constant', BIRTHDAY_PRIVATE_INQUIRY_HREF, '/inquiry?from=birthday-private')
+eq('dual path private hits inquiry', dualPath.private.href, '/inquiry?from=birthday-private')
+eq(
+  'private href carries brief fields',
+  birthdayInquiryHref([], { lane: 'private', date: '2026-10-02', venue: 'Villa or garden', adults: '24', surprise: 'yes' }),
+  '/inquiry?from=birthday-private&date=2026-10-02&venue=Villa+or+garden&adults=24&surprise=yes',
+)
+eq(
+  'brief from params',
+  birthdayBriefFromSearchParams(new URLSearchParams('from=birthday-private&date=2026-10-02&adults=24&surprise=yes')),
+  { date: '2026-10-02', adults: '24', surprise: 'yes' },
+)
+eq('hero title matches lock', birthdayHeroCopy.title, BIRTHDAY_KEYWORD_LOCK.h1)
 eq('five statement scenarios', statementScenarios.length, 5)
 eq('palm villa is a scenario', isStatementScenarioId('palm-villa'), true)
 eq('junk scenario rejected', isStatementScenarioId('not-real'), false)
@@ -117,10 +130,13 @@ eq('budget illustrative total', BIRTHDAY_BUDGET_EXAMPLE.illustrativeTotalIncludi
 eq('ladder has birthday food delivery', formatLadder.some((row) => row.format === 'Birthday food delivery'), true)
 eq('ladder has no stacked market', formatLadder.every((row) => !row.price.includes('Indicative market')), true)
 eq('primary in one H2', pricingH2.toLowerCase().includes('birthday catering dubai'), true)
-eq('title keeps primary first', BIRTHDAY_KEYWORD_LOCK.title.startsWith('Birthday Catering Dubai'), true)
+eq('title keeps primary n-gram', BIRTHDAY_KEYWORD_LOCK.title.toLowerCase().includes('birthday catering dubai'), true)
+eq('title is private/villa/itemised', BIRTHDAY_KEYWORD_LOCK.title.startsWith('Private Birthday Catering Dubai'), true)
 eq('title under 65', BIRTHDAY_KEYWORD_LOCK.title.length <= 65, true)
 eq('meta under 160', BIRTHDAY_KEYWORD_LOCK.description.length <= 160, true)
-eq('h1 exact', BIRTHDAY_KEYWORD_LOCK.h1, 'Birthday Catering Dubai')
+eq('h1 exact', BIRTHDAY_KEYWORD_LOCK.h1, 'Private Birthday Catering Dubai')
+eq('h1 keeps primary n-gram', BIRTHDAY_KEYWORD_LOCK.h1.toLowerCase().includes('birthday catering dubai'), true)
+eq('no five-things lead', !siloIntro.lead.toLowerCase().includes('five things'), true)
 
 eq(
   'siblings match contract order',

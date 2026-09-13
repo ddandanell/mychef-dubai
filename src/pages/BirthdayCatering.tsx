@@ -142,7 +142,7 @@ export default function BirthdayCatering() {
         imageHeight={birthdayHero.height}
         align="left"
         cta={{ label: 'Request my itemised birthday proposal', href: inquiryHref }}
-        secondaryCta={{ label: 'Plan a private milestone birthday', href: '#private-brief' }}
+        secondaryCta={{ label: 'Plan a private milestone birthday', href: BIRTHDAY_PRIVATE_INQUIRY_HREF }}
         breadcrumb={[
           { label: 'Home', href: '/' },
           { label: 'Events', href: '/events' },
@@ -152,61 +152,16 @@ export default function BirthdayCatering() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
-          {birthdayHeroCopy.priceLine}
+          {birthdayHeroCopy.catalogueLine}
         </p>
-        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          {birthdayHeroCopy.replyLine}
+        <p className="mt-2 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {birthdayHeroCopy.privateLine}
+        </p>
+        <p className="mt-4 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {birthdayHeroCopy.priceLine}
         </p>
       </PageHero>
       <TrustSignalStrip />
-
-      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
-        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
-          {jumpNav.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-      </nav>
-
-      <Section tone="ivory" rhythm="connected">
-        <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also useful</p>
-          <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {BIRTHDAY_SIBLING_LINKS.filter((item) => !isParked(item.href)).map((item) => (
-              <li key={item.href}>
-                <Link
-                  to={item.href}
-                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            {siloIntro.lead} Birthday party catering Dubai for a children’s afternoon or an adult dinner uses this page.
-            Broader food-only through full event support sits on{' '}
-            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.cateringLabel}
-            </Link>
-            . Intimate chef-led dinners belong on{' '}
-            <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.chefLabel}
-            </Link>
-            . Cuisine direction lives on{' '}
-            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.cuisinesLabel}
-            </Link>
-            .
-          </p>
-        </Container>
-      </Section>
 
       <Section id="start" tone="white" rhythm="chapter">
         <Container>
@@ -224,8 +179,7 @@ export default function BirthdayCatering() {
                 decoding="async"
                 className="aspect-[16/10] w-full object-cover"
               />
-              <p className="font-inter text-caption text-gray-400 px-8 pt-3">Experience concept shown</p>
-              <div className="p-8 pt-3">
+              <div className="p-8">
                 <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.catalogue.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.catalogue.body}</p>
                 <Link to={dualPath.catalogue.href} className="btn-primary" data-track="inquiry_form">
@@ -243,18 +197,31 @@ export default function BirthdayCatering() {
                 decoding="async"
                 className="aspect-[16/10] w-full object-cover"
               />
-              <p className="font-inter text-caption text-gray-400 px-8 pt-3">Experience concept shown</p>
-              <div className="p-8 pt-3">
+              <div className="p-8">
                 <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.private.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.private.body}</p>
-                <a href={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
+                <Link to={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
                   {dualPath.private.label}
-                </a>
+                </Link>
               </div>
             </article>
           </div>
         </Container>
       </Section>
+
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
       <Section id="statement" tone="ivory" rhythm="chapter">
         <Container>
@@ -273,8 +240,7 @@ export default function BirthdayCatering() {
                   decoding="async"
                   className="aspect-[16/10] w-full object-cover"
                 />
-                <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
-                <div className="p-6 pt-3">
+                <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
                   <Link
@@ -316,7 +282,6 @@ export default function BirthdayCatering() {
                 decoding="async"
                 className="aspect-[16/10] w-full object-cover"
               />
-              <figcaption className="font-inter text-caption text-gray-500 mt-3">Experience concept shown</figcaption>
             </figure>
           </div>
         </Container>
@@ -343,8 +308,7 @@ export default function BirthdayCatering() {
                     className="h-full w-full object-cover"
                   />
                 </a>
-                <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
-                <div className="p-6 pt-3">
+                <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
                   <a
@@ -395,7 +359,7 @@ export default function BirthdayCatering() {
                   className="aspect-[16/10] w-full object-cover"
                 />
                 <figcaption className="font-inter text-caption text-gray-500 px-1 pt-2 pb-3">
-                  {item.caption}. Experience concept shown.
+                  {item.caption}
                 </figcaption>
               </figure>
             ))}
@@ -524,7 +488,6 @@ export default function BirthdayCatering() {
                   decoding="async"
                   className="aspect-[16/10] w-full object-cover mb-3"
                 />
-                <p className="font-inter text-caption text-gray-400 mb-3">Experience concept shown</p>
                 <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">{item.act}</p>
                 <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
@@ -550,8 +513,7 @@ export default function BirthdayCatering() {
                   decoding="async"
                   className="aspect-[16/10] w-full object-cover"
                 />
-                <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
-                <div className="p-6 pt-3">
+                <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
                   <Link
@@ -643,7 +605,6 @@ export default function BirthdayCatering() {
                   decoding="async"
                   className="aspect-[16/10] w-full object-cover"
                 />
-                <figcaption className="font-inter text-caption text-gray-400 mt-3">Experience concept shown</figcaption>
               </figure>
               <div className="max-w-3xl">
                 <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
@@ -749,7 +710,6 @@ export default function BirthdayCatering() {
                       decoding="async"
                       className="aspect-[16/10] w-full object-cover"
                     />
-                    <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
                   </>
                 ) : null}
                 <div className="p-6 pt-3">
@@ -790,6 +750,40 @@ export default function BirthdayCatering() {
               </div>
             ))}
           </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also useful</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {BIRTHDAY_SIBLING_LINKS.filter((item) => !isParked(item.href)).map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead} Birthday party catering Dubai for a children’s afternoon or an adult dinner uses this page.
+            Broader food-only through full event support sits on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cateringLabel}
+            </Link>
+            . Intimate chef-led dinners belong on{' '}
+            <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.chefLabel}
+            </Link>
+            . Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cuisinesLabel}
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 

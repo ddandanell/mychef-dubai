@@ -109,18 +109,15 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
                     className={`border ${selectedItem ? 'border-gold bg-cream/40' : 'border-gray-200'}`}
                   >
                     {item.image ? (
-                      <>
-                        <img
-                          src={item.image}
-                          alt={item.imageAlt ?? ''}
-                          width={1344}
-                          height={752}
-                          loading="lazy"
-                          decoding="async"
-                          className="aspect-[16/9] w-full object-cover"
-                        />
-                        <p className="font-inter text-caption text-gray-400 px-6 pt-3">Experience concept shown</p>
-                      </>
+                      <img
+                        src={item.image}
+                        alt={item.imageAlt ?? ''}
+                        width={1344}
+                        height={752}
+                        loading="lazy"
+                        decoding="async"
+                        className="aspect-[16/9] w-full object-cover"
+                      />
                     ) : null}
                     <div className="p-6">
                     <div className="flex items-start justify-between gap-4 mb-2">

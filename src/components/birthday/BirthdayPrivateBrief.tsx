@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import { Link } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import { trackConversion } from '@/lib/track'
 import {
+  birthdayBriefFromSearchParams,
   birthdayInquiryHref,
   birthdayPrivateWhatsAppLink,
   type BirthdayPrivateBriefInput,
@@ -23,17 +24,19 @@ type Props = {
 }
 
 export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null }: Props) {
-  const scenario = scenarioById(scenarioId ?? '')
+  const [params] = useSearchParams()
+  const fromUrl = birthdayBriefFromSearchParams(params)
+  const scenario = scenarioById(scenarioId ?? fromUrl.scenario ?? '')
   const [fields, setFields] = useState({
-    date: '',
-    venue: '',
-    adults: '',
-    children: '',
-    ages: '',
-    vibe: '',
-    budgetBand: '',
-    surprise: '',
-    moodboard: '',
+    date: fromUrl.date ?? '',
+    venue: fromUrl.venue ?? '',
+    adults: fromUrl.adults ?? '',
+    children: fromUrl.children ?? '',
+    ages: fromUrl.ages ?? '',
+    vibe: fromUrl.vibe ?? '',
+    budgetBand: fromUrl.budgetBand ?? '',
+    surprise: fromUrl.surprise ?? '',
+    moodboard: fromUrl.moodboard ?? '',
   })
 
   const update = (key: keyof typeof fields) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -48,7 +51,8 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
   const whatsappHref = birthdayPrivateWhatsAppLink(brief)
   const inquiryHref = birthdayInquiryHref(extraIds, {
     lane: 'private',
-    scenario: scenarioId ?? undefined,
+    scenario: scenarioId ?? fromUrl.scenario,
+    ...fields,
   })
 
   return (
@@ -63,7 +67,6 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
           decoding="async"
           className="aspect-[16/10] w-full object-cover"
         />
-        <figcaption className="font-inter text-caption text-gray-400 mt-3">Experience concept shown</figcaption>
       </figure>
       <SectionLabel>{privateBriefCopy.label}</SectionLabel>
       <DisplayHeading className="text-black mb-4">{privateBriefCopy.h2}</DisplayHeading>

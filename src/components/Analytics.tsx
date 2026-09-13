@@ -66,6 +66,11 @@ export default function Analytics() {
         if (conversion.event === 'whatsapp_click') {
           trackConversion('cta_click', placement)
           trackConversion('whatsapp_click', placement)
+          trackEvent('generate_lead', {
+            method: 'whatsapp',
+            page_path: pagePath,
+            cta_location: ctaLocation,
+          })
         } else if (conversion.event === 'email_click') {
           trackConversion('email_click', placement)
         } else if (conversion.event === 'phone_click') {

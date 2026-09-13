@@ -24,17 +24,18 @@ export const birthdayHero = {
 } as const
 
 export const birthdayHeroCopy = {
-  eyebrow: 'Birthday planning and catering',
-  title: 'Birthday Catering Dubai',
+  eyebrow: 'Villa and home parties',
+  title: 'Private Birthday Catering Dubai',
   subtitle:
-    'Birthday catering Dubai for a seated dinner, a villa party or a children’s gathering. Choose the food, see published prices, and add a cake or balloons to the same enquiry so you know the likely cost before you confirm.',
+    'Food, staff and clear-down for villa and home parties. Itemised proposal or private brief. You stay with your guests.',
+  catalogueLine: 'Itemised proposal: formats and extras. You see the lines before you confirm.',
+  privateLine: 'Private brief: date, venue, vibe, surprise. We design the sequence.',
   priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 3,600.',
-  replyLine: 'Share the date, location, adults, children and ages. For a private milestone, start a private brief. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
   lead:
-    'Five things this page answers: what you can book, what it costs, what is included, what you can add, and how the itemised quote is built. Food sits at the centre. Cakes, balloons and entertainment are optional extras around it.',
+    'Food sits at the centre. Cakes, balloons and entertainment are optional extras around it.',
   cateringLabel: 'Luxury catering in Dubai',
   chefLabel: 'private chef services in Dubai',
   cuisinesLabel: 'Cuisines',
@@ -286,7 +287,7 @@ export const extrasIntro = [
 export const extrasH2 = 'Cakes, balloons and extras around the food'
 
 export const birthdayGalleryNote =
-  'Documentary frames of how birthday catering looks in a Dubai home, villa or yacht. Experience concept shown. They are not photographs from a named client booking.'
+  'Documentary frames of how birthday catering looks in a Dubai home, villa or yacht. They are concept visuals, not photographs from a named client booking.'
 
 export const birthdayGallery = [
   {

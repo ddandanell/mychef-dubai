@@ -13,7 +13,7 @@ export const dualPath = {
   label: 'TWO WAYS TO START',
   h2: 'A clear quote, or a private brief',
   lead:
-    'If you want to choose a format and extras, use the itemised proposal. If the evening needs a running order, a surprise, or a gated house, send a private brief. Food stays at the centre either way.',
+    'Birthday catering Dubai is food, staff and clear-down in the house you already have. If you want to choose a format and extras, use the itemised proposal. If the evening needs a running order, a surprise, or a gated house, send a private brief.',
   catalogue: {
     title: 'Itemised birthday proposal',
     body: 'Formats, published floors, optional extras. You see the lines before you confirm.',
@@ -26,7 +26,7 @@ export const dualPath = {
   private: {
     title: 'Private milestone brief',
     body: 'Date, venue type, guest mix, vibe, budget band, surprise. We design the sequence and quote it as lines.',
-    href: '#private-brief',
+    href: BIRTHDAY_PRIVATE_INQUIRY_HREF,
     label: 'Plan a private milestone birthday',
     image: '/images/birthday-catering-dubai-welcome.webp',
     imageAlt:

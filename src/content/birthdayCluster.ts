@@ -47,10 +47,10 @@ export const BIRTHDAY_SUPPORT = {
 /** pages["/birthday-catering-dubai"].intent_owner + on_page */
 export const BIRTHDAY_KEYWORD_LOCK = {
   primary: 'birthday catering dubai',
-  title: 'Birthday Catering Dubai | Packages, Cakes & Party Extras',
+  title: 'Private Birthday Catering Dubai | Itemised Villa',
   description:
-    "Birthday Catering Dubai with published prices, children's menus and a planning list of cakes, balloons and extras. Request an itemised quote.",
-  h1: 'Birthday Catering Dubai',
+    'Private birthday catering Dubai for villa and home parties. Food, staff and clear-down. Itemised proposal or a private brief. You stay with your guests.',
+  h1: 'Private Birthday Catering Dubai',
 } as const
 
 /** pages["/birthday-catering-dubai"].internal_linking.siblings — render exactly. Parked URLs are filtered at render. */

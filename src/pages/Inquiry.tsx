@@ -19,6 +19,7 @@ import {
 } from '@/content/yachtCateringQuote'
 import { corporateWhatsAppMessage, packageById } from '@/content/corporatePackages'
 import {
+  birthdayBriefFromSearchParams,
   birthdayInquirySubtitle,
   birthdayPrivateInquirySubtitle,
   birthdayPrivateWhatsAppMessage,
@@ -27,6 +28,7 @@ import {
 } from '@/content/birthdayExtras'
 import { scenarioById } from '@/content/birthdayStatement'
 import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -61,19 +63,24 @@ export default function Inquiry() {
   const birthdayScenario = scenarioById(params.get('scenario'))
   const birthdayPrefill = birthdayLane === 'catalogue'
   const birthdayPrivatePrefill = birthdayLane === 'private'
+  const birthdayPrivateBrief = birthdayPrivatePrefill
+    ? {
+        ...birthdayBriefFromSearchParams(params),
+        extraIds: birthdayExtraIds,
+        scenario: birthdayScenario?.title,
+      }
+    : null
   const whatsappMessage = yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
     : corporatePkg
       ? corporateWhatsAppMessage(corporatePkg, Number.isFinite(guestsParam) && guestsParam > 0 ? guestsParam : undefined)
-      : birthdayPrivatePrefill
-        ? birthdayPrivateWhatsAppMessage({
-            extraIds: birthdayExtraIds,
-            scenario: birthdayScenario?.title,
-          })
+      : birthdayPrivateBrief
+        ? birthdayPrivateWhatsAppMessage(birthdayPrivateBrief)
         : birthdayPrefill
           ? birthdayWhatsAppMessage(birthdayExtraIds)
           : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
+  useWhatsAppMessage(whatsappMessage)
 
   useScrollTrigger()
   const heroRef = useRef<HTMLDivElement>(null)
@@ -182,11 +189,8 @@ export default function Inquiry() {
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
                 ? `Package selected: ${corporatePkg.name}. Add the date, area and guest count, then send.`
-                : birthdayPrivatePrefill
-                  ? birthdayPrivateInquirySubtitle({
-                      extraIds: birthdayExtraIds,
-                      scenario: birthdayScenario?.title,
-                    })
+                : birthdayPrivateBrief
+                  ? birthdayPrivateInquirySubtitle(birthdayPrivateBrief)
                   : birthdayPrefill
                     ? birthdayInquirySubtitle(birthdayExtraIds)
                     : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
