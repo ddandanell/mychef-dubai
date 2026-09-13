@@ -18,6 +18,11 @@ import {
   yachtWhatsAppMessage,
 } from '@/content/yachtCateringQuote'
 import { corporateWhatsAppMessage, packageById } from '@/content/corporatePackages'
+import {
+  birthdayInquirySubtitle,
+  birthdayWhatsAppMessage,
+  parseBirthdayExtraIds,
+} from '@/content/birthdayExtras'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -47,11 +52,15 @@ export default function Inquiry() {
   const guestsParam = Number(params.get('guests'))
   const yachtPrefill = params.get('from') === 'yachts' && isYachtFormatId(formatParam)
   const corporatePkg = params.get('from') === 'corporate' ? packageById(params.get('package') ?? '') : undefined
+  const birthdayExtraIds = params.get('from') === 'birthday' ? parseBirthdayExtraIds(params.get('extras')) : []
+  const birthdayPrefill = params.get('from') === 'birthday'
   const whatsappMessage = yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
     : corporatePkg
       ? corporateWhatsAppMessage(corporatePkg, Number.isFinite(guestsParam) && guestsParam > 0 ? guestsParam : undefined)
-      : DEFAULT_WHATSAPP_MESSAGE
+      : birthdayPrefill
+        ? birthdayWhatsAppMessage(birthdayExtraIds)
+        : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
 
   useScrollTrigger()
@@ -161,7 +170,9 @@ export default function Inquiry() {
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
                 ? `Package selected: ${corporatePkg.name}. Add the date, area and guest count, then send.`
-                : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
+                : birthdayPrefill
+                  ? birthdayInquirySubtitle(birthdayExtraIds)
+                  : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
           </p>
         </div>
       </section>

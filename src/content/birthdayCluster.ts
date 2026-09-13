@@ -47,14 +47,15 @@ export const BIRTHDAY_SUPPORT = {
 /** pages["/birthday-catering-dubai"].intent_owner + on_page */
 export const BIRTHDAY_KEYWORD_LOCK = {
   primary: 'birthday catering dubai',
-  title: 'Birthday Catering Dubai | myCHEF',
+  title: 'Birthday Catering Dubai | Packages, Cakes & Party Extras',
   description:
-    'Birthday Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+    "Birthday Catering Dubai with published prices, children's menus and a planning list of cakes, balloons and extras. Request an itemised quote.",
   h1: 'Birthday Catering Dubai',
 } as const
 
-/** pages["/birthday-catering-dubai"].internal_linking.siblings — render exactly. */
+/** pages["/birthday-catering-dubai"].internal_linking.siblings — render exactly. Parked URLs are filtered at render. */
 export const BIRTHDAY_SIBLING_LINKS = [
+  { href: '/birthday-catering-package-dubai', label: 'Birthday catering packages' },
   { href: '/blog/best-private-chef-birthday-dinner-dubai', label: 'Private chef for birthday dinner' },
   { href: '/private-party-catering-dubai', label: 'Private party catering' },
 ] as const
@@ -69,11 +70,11 @@ export const BIRTHDAY_PACKAGE = {
   perPerson: 'AED 300–450 per person',
 } as const
 
-export const BIRTHDAY_INQUIRY_HREF = '/inquiry'
+export const BIRTHDAY_INQUIRY_HREF = '/inquiry?from=birthday'
 
 export const BIRTHDAY_WHATSAPP_NUMBER = '971551744849'
 export const BIRTHDAY_WHATSAPP_MESSAGE =
-  "Hi myCHEF Dubai, I'm planning a birthday and need catering. Date: __, Guests: __, Venue: __, Kind of birthday: __ (via mychef.ae/birthday-catering-dubai)"
+  'Hi myCHEF Dubai, I am planning a birthday and need catering. Date: __. Location: __. Adults: __. Children: __. Ages: __. Food: __. Budget: __. Extras: __. (via mychef.ae/birthday-catering-dubai)'
 export const BIRTHDAY_WHATSAPP_LINK = `https://wa.me/${BIRTHDAY_WHATSAPP_NUMBER}?text=${encodeURIComponent(
   BIRTHDAY_WHATSAPP_MESSAGE,
 )}`

@@ -4,6 +4,7 @@
 //     subkeywords: "birthday catering dubai price" · "birthday catering cost per person dubai" · "best birthday catering dubai" · "birthday catering menu dubai" · "halal birthday catering dubai" · "birthday party catering dubai" · "full service birthday catering dubai" · "kids birthday catering dubai" · "adult birthday catering dubai" · "allergy aware birthday catering dubai" · "bespoke birthday catering dubai" · "birthday catering dubai for adults"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import { useState } from 'react'
 import { Link } from 'react-router'
 import { isParked } from '@/content/parkedUrls'
 import { ArrowRight } from 'lucide-react'
@@ -12,6 +13,7 @@ import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
+import BirthdayExtrasPicker from '@/components/birthday/BirthdayExtrasPicker'
 import {
   Section,
   Container,
@@ -22,30 +24,34 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { CATERING_INQUIRY_HREF } from '@/content/cateringCluster'
 import {
-  BIRTHDAY_INQUIRY_HREF,
   BIRTHDAY_PATHS,
   BIRTHDAY_SIBLING_LINKS,
-  BIRTHDAY_WHATSAPP_LINK,
-  BIRTHDAY_WHATSAPP_MESSAGE,
   BIRTHDAY_KEYWORD_LOCK,
 } from '@/content/birthdayCluster'
+import {
+  birthdayInquiryHref,
+  birthdayWhatsAppLink,
+  birthdayWhatsAppMessage,
+} from '@/content/birthdayExtras'
 import {
   birthdayFaqs,
   birthdayHero,
   birthdayHeroCopy,
   birthdayKinds,
+  budgetH2,
+  budgetIntro,
   decisionModule,
   exampleEvents,
   exampleNote,
+  formatLadder,
   includedItems,
   jumpNav,
   kindDetail,
   menuFormats,
+  optionalItems,
   otherBirthdays,
   packagePointer,
-  priceRows,
   pricingH2,
   pricingIntro,
   pricingNotes,
@@ -68,6 +74,17 @@ const schema = {
       areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
     },
     {
+      '@type': 'FAQPage',
+      mainEntity: birthdayFaqs.map((item) => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.a.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'),
+        },
+      })),
+    },
+    {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
@@ -79,7 +96,10 @@ const schema = {
 }
 
 export default function BirthdayCatering() {
-  useWhatsAppMessage(BIRTHDAY_WHATSAPP_MESSAGE)
+  const [extraIds, setExtraIds] = useState<string[]>([])
+  const inquiryHref = birthdayInquiryHref(extraIds)
+  const whatsappHref = birthdayWhatsAppLink(extraIds)
+  useWhatsAppMessage(birthdayWhatsAppMessage(extraIds))
 
   return (
     <div>
@@ -102,8 +122,8 @@ export default function BirthdayCatering() {
         imageWidth={birthdayHero.width}
         imageHeight={birthdayHero.height}
         align="left"
-        cta={{ label: 'Get an itemised birthday quote', href: BIRTHDAY_INQUIRY_HREF }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: BIRTHDAY_WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Request my itemised birthday proposal', href: inquiryHref }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: whatsappHref, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
           { label: 'Events', href: '/events' },
@@ -137,7 +157,7 @@ export default function BirthdayCatering() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also useful</p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             {BIRTHDAY_SIBLING_LINKS.filter((item) => !isParked(item.href)).map((item) => (
               <li key={item.href}>
@@ -151,7 +171,8 @@ export default function BirthdayCatering() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            {siloIntro.lead} Birthday party catering Dubai for a children’s afternoon or an adult dinner uses this page.
+            Broader food-only through full event support sits on{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.cateringLabel}
             </Link>
@@ -171,9 +192,9 @@ export default function BirthdayCatering() {
       <Section id="kinds" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Three kinds of birthday. The food has to match the room.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Three kinds of birthday. Start with the one you are hosting.</DisplayHeading>
           <BodyCopy className="mb-12">
-            Adult, children’s and mixed-age parties need different timings and different plates. Start with the one closest to the night you are planning.
+            Adult, children’s and mixed-age parties need different timings and different plates. Choose the food first, then the extras that belong with it.
           </BodyCopy>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {birthdayKinds.map((item) => (
@@ -222,22 +243,6 @@ export default function BirthdayCatering() {
         </Container>
       </Section>
 
-      {(Object.keys(kindDetail) as Array<keyof typeof kindDetail>).map((key, i) => {
-        const block = kindDetail[key]
-        return (
-          <Section key={key} id={key} tone={i % 2 === 0 ? 'ivory' : 'white'} rhythm="chapter">
-            <Container className="max-w-3xl">
-              <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
-              {block.paragraphs.map((p) => (
-                <BodyCopy key={p.slice(0, 40)} className="mb-4 last:mb-0">
-                  {p}
-                </BodyCopy>
-              ))}
-            </Container>
-          </Section>
-        )
-      })}
-
       <Section id="pricing" tone="charcoal" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
@@ -258,7 +263,7 @@ export default function BirthdayCatering() {
                 </tr>
               </thead>
               <tbody>
-                {priceRows.map((row) => (
+                {formatLadder.map((row) => (
                   <tr key={row.format} className="border-b border-white/10">
                     <td className="py-3 pr-4 text-white">
                       <Link to={row.href} data-track="price_table" className="hover:text-gold">
@@ -282,18 +287,28 @@ export default function BirthdayCatering() {
           </ul>
           <div className="border-t border-white/15 pt-8 mb-8">
             <p className="font-playfair text-h4 text-white mb-2">{packagePointer.title}</p>
-            <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-4 max-w-[62ch]">{packagePointer.body}</p>
+            <p className="font-inter text-body-sm text-white mb-3">
+              {packagePointer.price} · {packagePointer.perPerson}, before 5% VAT.
+            </p>
+            <ul className="mb-4 space-y-1">
+              {packagePointer.included.map((item) => (
+                <li key={item} className="font-inter text-body-sm text-gray-300">
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="font-inter text-body-sm text-gray-300 leading-relaxed max-w-[62ch]">{packagePointer.vsPlated}</p>
           </div>
           <div className="flex flex-wrap gap-6">
             <Link
-              to="/buffet-vs-plated-dubai"
+              to="/dubai-catering-prices-guide"
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
-              Compare catering formats <ArrowRight size={14} aria-hidden />
+              Catering prices guide <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
-              to={CATERING_INQUIRY_HREF}
+              to={inquiryHref}
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
@@ -303,7 +318,110 @@ export default function BirthdayCatering() {
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="standard">
+      <Section id="included" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT THE CATERING PRICE COVERS</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Included on a staffed booking, optional around it</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Cake, drinks, children’s boxes and decoration are not hidden inside the per-person floor. They are listed so you can see what you are actually buying.
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
+          <h3 className="font-playfair text-h4 text-black mb-6">Optional, quoted when you ask</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            {optionalItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="menus" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
+          <DisplayHeading className="text-black mb-4">From birthday food delivery to plated service</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Pick a format. The specialist page owns the full explanation. Birthday party food delivery is the delivered option on this list.
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {menuFormats.map((style) => (
+              <Link
+                key={style.title}
+                to={style.href}
+                className="group flex items-start gap-5 border-b border-gray-200 py-6"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-4">
+                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
+                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                  </span>
+                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="extras" tone="white" rhythm="chapter">
+        <Container>
+          <BirthdayExtrasPicker selectedIds={extraIds} onChange={setExtraIds} />
+        </Container>
+      </Section>
+
+      {(Object.keys(kindDetail) as Array<keyof typeof kindDetail>).map((key, i) => {
+        const block = kindDetail[key]
+        return (
+          <Section key={key} id={key} tone={i % 2 === 0 ? 'ivory' : 'white'} rhythm="chapter">
+            <Container className="max-w-3xl">
+              <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
+              {block.paragraphs.map((p) => (
+                <BodyCopy key={p.slice(0, 40)} className="mb-4 last:mb-0">
+                  {p}
+                </BodyCopy>
+              ))}
+            </Container>
+          </Section>
+        )
+      })}
+
+      <Section id="budget" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">UNDERSTAND YOUR BUDGET</SectionLabel>
+          <DisplayHeading className="text-white mb-6">{budgetH2}</DisplayHeading>
+          {budgetIntro.map((p) => (
+            <p key={p.slice(0, 40)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <Link
+            to="/dubai-catering-prices-guide"
+            className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+          >
+            Catering prices guide <ArrowRight size={14} aria-hidden />
+          </Link>
+        </Container>
+      </Section>
+
+      <Section id="how-it-works" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps to an itemised proposal</DisplayHeading>
+          <SequenceRail steps={[...startSteps]} />
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="standard">
         <Container className="max-w-3xl">
           <SectionLabel>PRIVATE CHEF OR EVENT CATERING</SectionLabel>
           <DisplayHeading className="text-black mb-6">{decisionModule.h2}</DisplayHeading>
@@ -341,61 +459,6 @@ export default function BirthdayCatering() {
               {decisionModule.diningLabel} <ArrowRight size={14} aria-hidden />
             </Link>
           </div>
-        </Container>
-      </Section>
-
-      <Section tone="ivory" rhythm="chapter">
-        <Container>
-          <SectionLabel>WHAT IS INCLUDED</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Menu, chefs, staff, cake, bar, setup and cleanup</DisplayHeading>
-          <div className="grid md:grid-cols-2 gap-8">
-            {includedItems.map((item) => (
-              <div key={item.title} className="border-t border-gray-200 pt-6">
-                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </Section>
-
-      <Section id="menus" tone="white" rhythm="chapter">
-        <Container>
-          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
-          <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
-          <BodyCopy className="mb-12">
-            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
-            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Cuisines
-            </Link>
-            .
-          </BodyCopy>
-          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
-            {menuFormats.map((style) => (
-              <Link
-                key={style.title}
-                to={style.href}
-                className="group flex items-start gap-5 border-b border-gray-200 py-6"
-              >
-                <span className="min-w-0 flex-1">
-                  <span className="flex items-center justify-between gap-4">
-                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
-                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
-                  </span>
-                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
-                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
-                </span>
-              </Link>
-            ))}
-          </div>
-        </Container>
-      </Section>
-
-      <Section id="how-it-works" tone="ivory" rhythm="chapter">
-        <Container>
-          <SectionLabel>HOW IT STARTS</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
-          <SequenceRail steps={[...startSteps]} />
         </Container>
       </Section>
 
@@ -463,12 +526,7 @@ export default function BirthdayCatering() {
         title="Birthday catering across Dubai"
         subtitle={
           <>
-            Available across Dubai including{' '}
-            Palm Jumeirah,{' '}
-            Dubai Marina
-            {' '}and{' '}
-            Downtown Dubai
-            . See{' '}
+            Available across Dubai including Palm Jumeirah, Dubai Marina and Downtown Dubai. See{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
           </>
         }
@@ -476,17 +534,17 @@ export default function BirthdayCatering() {
 
       <Section id="get-quote" tone="dark" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
-          <DisplayHeading className="text-white mb-6">Date, guest count and the kind of birthday is enough to start</DisplayHeading>
+          <SectionLabel tone="dark">PLAN YOUR BIRTHDAY WITH MYCHEF</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, guest count and extras are enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            Event buffets start from AED 120 per person. You do not need to build the party before contacting us. We typically reply within 15 minutes during business hours.
+            Event buffets start from AED 120 per person. If you already have a theme or an inspiration photograph, include it. If you are still deciding, start with the food. We typically reply within 15 minutes during business hours.
           </p>
           <CTAGroup>
-            <Link to={BIRTHDAY_INQUIRY_HREF} className="btn-primary">
-              Get an itemised birthday quote
+            <Link to={inquiryHref} className="btn-primary">
+              Request my itemised birthday proposal
             </Link>
             <a
-              href={BIRTHDAY_WHATSAPP_LINK}
+              href={whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
