@@ -1,5 +1,6 @@
 import {
   Briefcase,
+  CalendarClock,
   Clapperboard,
   ClipboardList,
   Cake,
@@ -25,6 +26,7 @@ import {
   GraduationCap,
   HeartPulse,
   Landmark,
+  Megaphone,
   CookingPot,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -55,6 +57,7 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/corporate': Briefcase,
   '/corporate-event-catering-dubai': PartyPopper,
   '/product-launch-catering-dubai': Presentation,
+  '/brand-activation-catering-dubai': Megaphone,
   '/gala-dinner-catering-dubai': Sparkles,
   '/office-catering-dubai': Building2,
   '/business-lunch-catering-dubai': Handshake,
@@ -62,6 +65,7 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/exhibition-catering-dubai': Building2,
   '/staff-meals-catering-dubai': Users,
   '/production-catering-dubai': Clapperboard,
+  '/corporate-retainer-dubai': CalendarClock,
   '/corporate-catering-checklist-dubai': ClipboardList,
   '/institutional-catering-dubai': Landmark,
   '/nursery-catering-dubai': Baby,
