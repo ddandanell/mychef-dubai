@@ -277,7 +277,7 @@ export default function GalaDinnerCatering() {
     <div ref={containerRef}>
       <SEO
         title="Gala Dinner Catering Dubai | Awards & Charity Balls | myCHEF"
-        description="Gala dinner catering Dubai for seated awards and banquets. Staffed buffet from AED 120. Plated AED 700 to 950. Wine only where the venue is licensed."
+        description="Gala dinner catering Dubai for seated awards and banquets. Staffed buffet from AED 120 per person. Plated AED 700 to 950 per person. Wine only where the venue is licensed."
         canonicalPath="/gala-dinner-catering-dubai"
         ogImage="/images/gala-dinner-catering-dubai-hero.webp"
         hideSiteName
@@ -305,10 +305,10 @@ export default function GalaDinnerCatering() {
             Gala Dinner Catering Dubai: Awards, Charity Balls & Formal Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
-            Refined catering for awards nights, charity galas, and formal celebrations across distinguished Dubai venues.
+            A formal dinner with each course timed around your speeches and awards. Staffed buffet from AED 120 per person, or plated from AED 700 to 950 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -329,13 +329,13 @@ export default function GalaDinnerCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Formal Event Catering</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The Importance of Gala Catering
+            Buffet or plated, timed to the programme
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A gala is judged on timing. Courses have to land around speeches. Staff have to hold a room that is watching a stage, not a buffet. Gala dinner catering in Dubai is a seated night: staffed buffet from AED 120 per person, or plated AED 700 to 950. Wine only where the venue is licensed. We do not run AV, staging or the awards script.
+            Gala dinner catering in Dubai is a seated night. A staffed buffet starts from AED 120 per person, with service replenishing the line. Chef-led plated service is AED 700 to 950 per person, with courses landed around speeches. Wine is only where the venue licence allows it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Gala dinner catering in Dubai is a seated night with a clock. A staffed buffet starts from AED 120 per person. Chef-led plated service is AED 700–950 per person. Wine is only where the venue licence allows it. This is not a wedding and not a 10–15 guest board dinner.
+            Choose the format that matches the room. Buffet suits a larger banquet. Plated service suits a formal awards table. A 10 to 15 guest board dinner is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}
@@ -355,7 +355,7 @@ export default function GalaDinnerCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/gala-dinner-catering-dubai')}
             heading="Seated galas"
-            intro="A staffed banquet uses the advertised buffet or plated floors. Wine only where the venue is licensed."
+            intro="A staffed banquet uses the buffet starting price from AED 120 per person, or plated dining at AED 700 to 950 per person. Wine only where the venue is licensed."
           />
         </div>
       </section>
@@ -548,7 +548,7 @@ export default function GalaDinnerCatering() {
             Tell us about your awards night, charity ball, or formal celebration and we will design a gala menu and service plan worthy of the occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

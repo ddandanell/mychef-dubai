@@ -126,7 +126,7 @@ export default function Corporate() {
       <PageHero
         eyebrow="Corporate Catering Dubai"
         title="Corporate Catering Dubai for Offices, Boards and Events"
-        subtitle="Corporate catering in Dubai for offices, boardrooms, client lunches and company events. Start with drop-off food from AED 90 per person, or add chefs, service staff and plated dining when the occasion needs it. Recurring workplace catering, one-off company events and production catering are different operations. Pick the page that matches the day you are planning."
+        subtitle="Menus, chefs and service for offices, boardrooms and company events. Drop-off food from AED 90 per person, or add a staffed buffet, canapés or plated dining when the occasion needs it. Choose the page that matches the day you are planning."
         image={corporateHero.src}
         imageAlt={corporateHero.alt}
         imageWidth={corporateHero.width}
@@ -267,7 +267,7 @@ export default function Corporate() {
           <CorporatePackageCompare
             packages={hubPackages}
             heading="Which package fits the occasion"
-            intro="These are advertised starting points, not 30 shop-window SKUs. Each owner page lists the menu, minimums and what the headline actually covers. Unusual venue costs sit on their own line."
+            intro="Published starting prices for defined formats. Each service page lists the menu, minimums and what the figure covers. Unusual venue costs sit on their own line. The written quote confirms the event total."
           />
         </Container>
       </Section>
@@ -277,7 +277,7 @@ export default function Corporate() {
       <Section id="budgets" tone="white" rhythm="chapter">
         <Container>
           <CorporateWorkedBudgets
-            heading="Worked totals from advertised floors"
+            heading="Example budgets from published starting prices"
             intro="These examples use the public package record. They are planning numbers, not a booking. Corporate catering price per head in Dubai moves with format more than with a slogan."
             examples={hubWorkedExamples}
           />

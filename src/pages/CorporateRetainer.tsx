@@ -186,10 +186,10 @@ export default function CorporateRetainer() {
             Corporate Catering Contract Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
-            A written account for companies that book often. Each sitting still uses the advertised floors. Fees, credit and expiry are named in the agreement. An LPO does not create credit terms by itself.
+            One written account for companies that book often. You keep a named contact, a monthly invoice if you want it, and the same starting prices as the office, lunch and event pages. Fees, credit and expiry are named in the agreement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request a proposal</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -211,14 +211,14 @@ export default function CorporateRetainer() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">B2B CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering Without the Admin Overhead
+            A regular account, with prices you already know
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A corporate catering account is a written arrangement for companies that book often. It is not a shop-window monthly price. Fees, spendable credit, tax, deductions, expiry, overages and commitment are set only in the agreement you sign.
+              A corporate catering contract in Dubai is a written account for companies that book office lunches, staff meals or events often. You get one contact, clearer billing and priority on the dates you already use. Monthly fees, spendable credit, tax, expiry and overages are set only in the agreement you sign. They are not published as a shop price here.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Each booking still uses the advertised floors on the office, lunch and event pages. The account does not invent a cheaper per-person rate. An LPO or a consolidated invoice does not by itself create credit terms.
+              Each booking still uses the published starting prices on the office, lunch and event pages. The account does not invent a cheaper per-person rate. An LPO or a consolidated invoice does not by itself create credit terms.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Learn more about <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>, <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>, <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunches</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate events</Link>.
@@ -241,7 +241,7 @@ export default function CorporateRetainer() {
             <div className="cr-tier-card bg-white p-8">
               <h3 className="font-playfair text-h3 text-black mb-4">Spendable credit</h3>
               <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">
-                If the agreement includes credit, each booking is deducted from that pool at the advertised package or per-person rate for that job. Unused credit, expiry and overages are named in the agreement. They are not published here as a shop rule.
+                If the agreement includes credit, each booking is deducted from that pool at the published package or per-person rate for that job. Unused credit, expiry and overages are named in the agreement.
               </p>
             </div>
             <div className="cr-tier-card bg-white p-8">
@@ -253,7 +253,7 @@ export default function CorporateRetainer() {
           </div>
 
           <p className="text-center font-inter text-body-sm text-gray-500 mt-8 max-w-[700px] mx-auto">
-            Fees, credit, expiry and overages are named only in the written agreement. Nothing on this page is a shop-window monthly price.
+            Fees, credit, expiry and overages are named only in the written agreement. Nothing on this page is a published monthly fee.
           </p>
         </div>
       </section>
@@ -344,7 +344,7 @@ export default function CorporateRetainer() {
             Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and delivers consistent quality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Request a proposal</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

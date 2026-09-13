@@ -43,7 +43,7 @@ const staffFormats = [
   {
     icon: UtensilsCrossed,
     title: 'Daily team meals',
-    description: 'A hot main, carbohydrate, salad and fruit. Drop-off from AED 90 per person. Billed on sittings, not empty calendar days.',
+    description: 'A hot main, carbohydrate, salad and fruit. Drop-off from AED 90 per person. Billed on the meals we deliver.',
     link: '/office-catering-dubai',
   },
   {
@@ -55,7 +55,7 @@ const staffFormats = [
   {
     icon: CalendarClock,
     title: 'Written account',
-    description: 'A contract for regular bookings. Fees and credit are set in writing. Not a shop-window monthly fee.',
+    description: 'A contract for regular bookings. Fees and credit are set in writing, not as a published monthly fee.',
     link: '/corporate-retainer-dubai',
   },
   {
@@ -286,7 +286,7 @@ export default function StaffMealsCatering() {
     <div ref={containerRef}>
       <SEO
         title="Staff Meals Catering Dubai | Daily Team Meals & Canteens | myCHEF"
-        description="Staff meals catering Dubai for workforce sittings. Drop-off from AED 90 per person. Halal by default. Not waiter hire. Actual sittings billed."
+        description="Staff meals catering Dubai for daily team meals. Drop-off from AED 90 per person. Halal by default. Billed on the meals we deliver."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -314,10 +314,10 @@ export default function StaffMealsCatering() {
             Staff Meals Catering Dubai: Daily Meals, Canteens & Retainers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
-            Daily team meals, canteen service, and recurring retainers: with fully halal menus, reliable delivery, and predictable billing for workforces across Dubai.
+            Dependable meal deliveries scheduled around your team’s working day. Drop-off from AED 90 per person. Halal menus, rotating mains and billing on the meals we deliver.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -341,13 +341,10 @@ export default function StaffMealsCatering() {
             A Reliable Meal for Every Shift
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Staff meals catering in Dubai is volume food for a known workforce. The job is consistency, a cost per head finance can check, and a sitting that actually arrives. It is not waiter recruitment. It is not a gala. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Staff meals catering in Dubai is volume food for a workforce: repeating sittings, a rotating main, and a cost per head finance can check. It is not waiter recruitment and it is not a gala. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900. Actual service sittings are billed. Halal ingredients are the default. Vegetarian and vegan lines are planned when named in the brief.
+            Staff meals catering in Dubai is volume food for a known workforce: a rotating hot main, a cost per head finance can check, and meals that arrive on schedule. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900. You are billed for the meals we deliver, not empty calendar days.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Daily sittings, shift meals and a written account if you book often. Explore the formats below, or see the wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> hub and <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link> for smaller repeating teams.
+            Halal ingredients are the default. Vegetarian and vegan options are planned when named in the brief. Smaller repeating office teams sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A written account is on <Link to="/corporate-retainer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering contracts</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>.
           </p>
         </div>
       </section>
@@ -357,7 +354,7 @@ export default function StaffMealsCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/staff-meals-catering-dubai')}
             heading="Daily and shift meals"
-            intro="Workforce meals use the advertised drop-off floor. This is not a page for hiring waiters. Feeding staff and supplying hospitality staff are different jobs."
+            intro="Workforce meals start from AED 90 per person, delivered and laid out. Feeding your team and hiring waiters are different jobs."
           />
         </div>
       </section>
@@ -541,7 +538,7 @@ export default function StaffMealsCatering() {
             Tell us your headcount, schedule, and dietary needs and we'll build a reliable staff meals plan: daily, canteen, or recurring retainer: with halal menus and clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

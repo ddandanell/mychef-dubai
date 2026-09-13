@@ -29,7 +29,7 @@ export default function CorporatePackageCompare({ packages, heading, intro }: Pr
               <th className="py-3 pr-4 font-medium text-black">Package</th>
               <th className="py-3 pr-4 font-medium text-black">Best for</th>
               <th className="py-3 pr-4 font-medium text-black">What you get</th>
-              <th className="py-3 pr-4 font-medium text-black">Coverage</th>
+              <th className="py-3 pr-4 font-medium text-black">What's included</th>
               <th className="py-3 pr-4 font-medium text-black">Minimum</th>
               <th className="py-3 font-medium text-black">Price</th>
             </tr>
@@ -63,7 +63,9 @@ export default function CorporatePackageCompare({ packages, heading, intro }: Pr
           <li key={`${pkg.id}-card`} className="border border-gray-200 p-6">
             <h3 className="font-playfair text-h4 text-black mb-2">{pkg.name}</h3>
             <p className="font-inter text-body-sm text-gray-600 mb-3">{pkg.sampleMenu.join(' · ')}</p>
-            <p className="font-inter text-body-sm text-gray-500 mb-4">{pkg.exclusions[0]}</p>
+            {pkg.exclusions[0] ? (
+              <p className="font-inter text-body-sm text-gray-500 mb-4">Not included: {pkg.exclusions[0]}.</p>
+            ) : null}
             <div className="flex flex-wrap gap-4">
               <Link
                 to={corporateInquiryHref(pkg)}
@@ -71,7 +73,7 @@ export default function CorporatePackageCompare({ packages, heading, intro }: Pr
                 onClick={() => trackConversion('cta_click', 'price_table')}
                 className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
               >
-                Request this proposal
+                Request a quote for this package
               </Link>
               <a
                 href={corporateWhatsAppLink(pkg)}

@@ -36,6 +36,7 @@ import {
   scope,
   seo,
   siblingLinks,
+  eventRelatedLinks,
   specialities,
   steps,
   uplinks,
@@ -158,7 +159,7 @@ export default function CorporateEventCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/corporate-event-catering-dubai')}
             heading="Staff parties, networking and seasonal gatherings"
-            intro="Company celebrations use the advertised buffet and canapé floors. A seated gala or a 10–15 guest dinner lives on its own page. We do not add AV, staging or venue hire."
+            intro="Published starting prices for defined formats: staffed buffet from AED 120 per person, canapés from AED 150 per person. A seated gala or a 10–15 guest dinner has its own page. The written quote confirms the event total."
           />
         </Container>
       </Section>
@@ -167,7 +168,7 @@ export default function CorporateEventCatering() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <CorporateSiblings items={siblingLinks} />
+          <CorporateSiblings items={[...siblingLinks, ...eventRelatedLinks]} />
         </Container>
       </Section>
 

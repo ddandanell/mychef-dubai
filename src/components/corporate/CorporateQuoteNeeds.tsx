@@ -15,7 +15,7 @@ type Props = {
 }
 
 export default function CorporateQuoteNeeds({
-  heading = 'What we need for a proposal',
+  heading = 'What we need for a quote',
   inquiryHref,
   whatsappHref,
 }: Props) {
@@ -38,7 +38,7 @@ export default function CorporateQuoteNeeds({
       </p>
       <div className="flex flex-wrap gap-4">
         <a href={inquiryHref} className="btn-primary" data-track="inquiry_form">
-          Request a proposal
+          Request a corporate catering quote
         </a>
         <a
           href={whatsappHref}

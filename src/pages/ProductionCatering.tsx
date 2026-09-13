@@ -309,10 +309,10 @@ export default function ProductionCatering() {
             Production Catering Dubai: TV, Photo & Event Crew Meals
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 prod-hero-sub">
-            On-location catering for TV, photo, and event productions across Dubai: daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
+            On-location catering for TV, photo and event productions. Craft services and crew lunch are separate purchases, both from AED 90 per person, timed to the call sheet.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -336,13 +336,10 @@ export default function ProductionCatering() {
             Reliable Food for Demanding Schedules
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A production runs on its schedule, and catering is part of how that schedule holds. Hot meals served at the right moment, craft tables kept stocked between setups, and dietary needs handled without fuss all add up to a unit that stays focused and on time. At myCHEF Dubai, we plan production catering as part of the operation: timed to your call sheet, scaled to your headcount, and consistent across every day of the shoot.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Production catering in Dubai follows the call sheet: craft services and crew lunch, moved if the day moves. Drop-off starts from AED 90 per person. This is crew food, not a client gala.
+            Production catering in Dubai, including film crew catering, follows the call sheet. Craft services are snacks, fruit and hot drinks through the call hours. Crew lunch is a hot meal for each name on the sheet. They are separate purchases. Both start from AED 90 per person. Meals move if the day moves.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From television and broadcast crews to photo shoots, branded content, and live event productions, we keep cast, talent, and technical teams looked after from the first setup to the final wrap. Film crews, television units, photo shoots and event productions are one page here because the problem is the same: a moving team, a call sheet, and food that has to arrive hot at the right moment. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Television, photo, branded content and live event crews use the same operation: a moving team, a call sheet, and food that has to arrive hot at the right moment. Exhibition stand meals sit on <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -353,7 +350,7 @@ export default function ProductionCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/production-catering-dubai')}
             heading="Craft services and crew lunch"
-            intro="Call-sheet food from the drop-off floor. Moved if the day moves."
+            intro="Craft services and crew lunch are separate drop-off purchases, each from AED 90 per person. Craft services run through the call hours. Crew lunch is one hot meal per person named on the sheet."
           />
         </div>
       </section>
@@ -537,7 +534,7 @@ export default function ProductionCatering() {
             Tell us about your shoot: the dates, locations, headcount, and dietary needs: and we'll build a catering plan that keeps your production fed, focused, and on schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

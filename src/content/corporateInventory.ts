@@ -41,9 +41,9 @@ const ALL = [
 
 export const CORPORATE_INVENTORY_INTRO = {
   label: 'The full company brief',
-  h2: 'Everything a corporate sitting actually needs',
+  h2: 'What a corporate catering day includes',
   body:
-    'Food is only the start. A company day also needs chefs or a drop-off kitchen, service staff when the room requires them, equipment that fits a tower pantry, labelled dietary plates, a loading-bay window and one person who owns the timeline. The lists below are what we write into corporate proposals. The written proposal names the dishes, the team and the price.',
+    'Food is only the start. A company day also needs chefs or a drop-off kitchen, service staff when the room requires them, equipment that fits an office pantry, clearly labelled dietary options, a loading-bay window and one person who owns the timeline. The lists below are what we write into corporate quotes. The written quote names the dishes, the team and the price.',
 } as const
 
 export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
@@ -54,13 +54,13 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'How the room is served',
     h2: 'Service formats for a Dubai office or venue',
     how:
-      'The format is the decision that moves the price. Drop-off is food and delivery. A staffed buffet adds people for setup, replenishing and clearance. Canapés keep a standing room moving. Plated service is courses at a table. We do not fold those four into one per-head slogan.',
+      'Choose delivered lunches, a staffed buffet, passed canapés or individually plated service to suit the meeting. Drop-off is food, delivery and layout. A staffed buffet adds people for setup, replenishing and clearance. Canapés keep a standing room moving. Plated service is courses at a table. Each format has its own starting price.',
     image: '/images/drop-off-catering-dubai-hero.webp',
     imageAlt: 'Drop-off lunch laid out on a cleared meeting table. Experience concept shown.',
     paths: ALL,
     groups: [
       {
-        heading: 'Coverage',
+        heading: "What's included",
         items: [
           'Drop-off, laid out, you serve',
           'Drop-off plus collection of empties',
@@ -133,11 +133,11 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
   {
     id: 'corp-inv-lunch',
     nav: 'Boardroom',
-    line: 'Working lunch, client sitting',
+    line: 'Working lunch, client meal',
     label: 'Meetings that stay in the room',
     h2: 'Boardroom catering and client lunches',
     how:
-      'A working lunch keeps the agenda in the room. A client lunch is a different product: plated courses, staff in the room, devices off the table. Do not price those two as if they were the same sandwich.',
+      'A working lunch keeps the agenda in the room. A client lunch is plated courses with staff at the table, so guests can talk without leaving for a restaurant. The two are priced as different formats.',
     image: '/images/blog/corporate-event-catering-ideas-dubai-2.webp',
     imageAlt: 'Drop-off boxes on a cleared Dubai meeting table. Experience concept shown.',
     paths: ['/corporate', '/business-lunch-catering-dubai', '/office-catering-dubai', '/conference-catering-dubai'],
@@ -153,7 +153,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
         ],
       },
       {
-        heading: 'Client sitting',
+        heading: 'Client lunch',
         items: [
           'Starter, main, dessert',
           'Chef and service sized to the table',
@@ -169,9 +169,9 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     nav: 'Conference',
     line: 'Breaks, half day, full day',
     label: 'Around the agenda',
-    h2: 'Coffee breaks, delegate lunch and multi-day holding',
+    h2: 'Coffee breaks, delegate lunch and multi-day conferences',
     how:
-      'Conference catering is the food operation under the run of show. Breaks are timed to the slot. Lunch is boxed or buffet. Holding across sessions is a staffed job. We do not hire the room or run the slides.',
+      'Conference catering is meals and refreshments around the agenda. Breaks are timed to the slot. Lunch is boxed or buffet. On a staffed day, tea, coffee and water continue between sessions. Room hire and presentation equipment stay with the venue or your planner.',
     image: '/images/breakfast-catering-dubai-hero.webp',
     imageAlt: 'Conference break with coffee and pastry. Experience concept shown.',
     paths: ['/corporate', '/conference-catering-dubai', '/exhibition-catering-dubai', '/business-lunch-catering-dubai'],
@@ -199,7 +199,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       {
         heading: 'Room conditions',
         items: [
-          'Power for urns and holding',
+          'Power for urns and hot-holding equipment',
           'Service lift booking',
           'No open flame unless the venue writes it',
           'Clearance before the next session',
@@ -214,7 +214,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'One-off company nights',
     h2: 'Staff parties, networking and launches',
     how:
-      'A company celebration is quoted per event. Food can pause for a speech or a product reveal. Devices are stacked, not used as placemats. Seasonal sittings, including Diwali, use the same event operation.',
+      'A company celebration is quoted per event. Food can pause for a speech or a product reveal. Seasonal gatherings, including Diwali corporate catering, use the same event operation.',
     image: '/images/corporate-catering-dubai-hero.webp',
     imageAlt: 'Canapés passed at a company reception. Experience concept shown.',
     paths: [
@@ -239,7 +239,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
         heading: 'Seated',
         items: [
           'Staff party buffet, minimum 20 guests',
-          'Gala banquet with a clock',
+          'Gala banquet with courses timed to the programme',
           '10 to 15 guest corporate dinner package',
           'Executive plated dinner outside that range',
         ],
@@ -253,7 +253,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'Call-sheet food',
     h2: 'Shoots, crews and craft services',
     how:
-      'Production catering follows the call sheet. Meals move if the day moves. This is crew food, not a client gala. Film-crew searches that still 301 to the event page are a known mismatch. Brief production here.',
+      'Production catering, including film crew catering, follows the call sheet. Meals move if the day moves. Craft services (snacks and drinks through the call) and crew lunch are separate purchases. Brief production work here.',
     image: '/images/film-production-catering-dubai-hero.webp',
     imageAlt: 'Crew meals for a production day. Experience concept shown.',
     paths: ['/corporate', '/production-catering-dubai', '/staff-meals-catering-dubai'],
@@ -275,15 +275,15 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     nav: 'Workforce',
     line: 'Canteen rhythm, shift meals',
     label: 'Feeding the team',
-    h2: 'Staff meals that repeat without becoming a gala',
+    h2: 'Staff meals that arrive on schedule',
     how:
-      'Volume food for a known workforce. Rotating mains, labelled dietary lines, billed on sittings. This is not waiter recruitment and not a page for hiring hospitality staff.',
+      'Dependable meal deliveries for a known workforce. Rotating mains, clearly labelled dietary options, billed on the meals we deliver. This page is food for your team, not waiter hire.',
     image: '/images/staff-meals-catering-dubai-hero.webp',
     imageAlt: 'Staff meals in a workplace canteen. Experience concept shown.',
     paths: ['/corporate', '/staff-meals-catering-dubai', '/office-catering-dubai', '/corporate-retainer-dubai'],
     groups: [
       {
-        heading: 'Sittings',
+        heading: 'Meals',
         items: [
           'Daily hot main, rice or bread, salad, fruit',
           'Shift meals that hold temperature',
@@ -296,7 +296,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
   {
     id: 'corp-inv-menu',
     nav: 'Menus',
-    line: 'Mains, stations, dietary lines',
+    line: 'Mains, stations, dietary options',
     label: 'What goes on the table',
     h2: 'Corporate catering food that survives a mixed room',
     how:
@@ -316,7 +316,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
         ],
       },
       {
-        heading: 'Cold and holding',
+        heading: 'Cold and make-ahead',
         items: [
           'Fattoush, slaw, mixed salad',
           'Mezze that holds without a kitchen',
@@ -341,9 +341,9 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     nav: 'Staff',
     line: 'Chefs, waiters, runners, supervisor',
     label: 'Who is in the room',
-    h2: 'Catering staff for a company sitting',
+    h2: 'Catering staff for a company meal or event',
     how:
-      'Drop-off has no staff in the room. A staffed buffet includes 1 to 2 people for the line. Canapés need passers. Plated service needs a chef plus a floor team sized to the table. Extra roles are extra lines. We do not double-charge included waiters.',
+      'Drop-off has no staff remaining in the room. A staffed buffet includes one to two people for the line. Canapés need service staff to pass plates. Plated service needs a chef plus a floor team sized to the table. Extra roles are extra lines. Included waiters are not charged twice.',
     image: '/images/live-cooking-stations-dubai-hero.webp',
     imageAlt: 'Chef at a live station. Experience concept shown.',
     paths: ALL,
@@ -382,7 +382,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
   {
     id: 'corp-inv-kit',
     nav: 'Equipment',
-    line: 'Chafers, trays, holding, glass',
+    line: 'Chafers, trays, hot boxes, glass',
     label: 'What we bring',
     h2: 'Equipment that fits a tower pantry',
     how:
@@ -406,7 +406,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
           'Chafing dishes',
           'Linen for the line',
           'Trays and stands',
-          'Holding boxes',
+          'Hot boxes',
           'Tableware for plated service',
           'Place settings on the dinner package',
         ],
@@ -465,14 +465,14 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
           'Loading-bay window',
           'Service-lift booking',
           'Security name list',
-          'Power for holding',
+          'Power for hot-holding equipment',
           'Open-flame permission in writing, or we drop flame from the menu',
         ],
       },
       {
         heading: 'Clearance',
         items: [
-          'Pack-down after the last sitting',
+          'Pack-down after the last meal',
           'Collection of empties on drop-off, if asked',
           'Waste handled to the building rule',
           'Pantry left as found on staffed jobs',
@@ -496,7 +496,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
         heading: 'On every proposal',
         items: [
           'TRN-ready VAT invoice',
-          'Itemised food line',
+          'Itemised food or package subtotal',
           'Staff only when not already inside the package',
           'Equipment hire if it is extra',
           'Delivery if it is extra',
@@ -509,7 +509,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
           'Consolidated invoice when you book more than one service in a period',
           'Written contract for regular bookings',
           'Credit, fees, expiry and overages only if the agreement names them',
-          'No shop-window monthly fee',
+          'No published monthly fee until the agreement names it',
         ],
       },
     ],
@@ -521,7 +521,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'What stays with you',
     h2: 'What myCHEF does not supply',
     how:
-      'We coordinate with your planner, production team and venue. We would rather say no than let you discover a gap two days before the sitting.',
+      'We coordinate with your planner, production team and venue. Room hire, audiovisual equipment, staging and entertainment stay with those specialists unless the quote names them.',
     image: '/images/events-catering-dubai-hero.webp',
     imageAlt: 'A dressed event room without staging equipment as the hero. Experience concept shown.',
     paths: ALL,

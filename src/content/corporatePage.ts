@@ -13,8 +13,6 @@
  * when the published catering numbers change.
  */
 
-import { hubPriceRows } from './cateringPricing'
-
 export interface FormatRow {
   format: string
   what: string
@@ -22,36 +20,57 @@ export interface FormatRow {
   price: string
 }
 
-/** The corporate service-format price ladder — same source as Catering hub. */
-export const formatLadder: FormatRow[] = hubPriceRows().map((row) => ({
-  format: row.format,
-  what: row.what,
-  staff: row.staff,
-  price: row.price,
-}))
+/** myCHEF published starting prices only. Market ranges stay on the prices guide. */
+export const formatLadder: FormatRow[] = [
+  {
+    format: 'Drop-off food',
+    what: 'Delivered and laid out. Your team serves itself.',
+    staff: 'None remaining',
+    price: 'From AED 90 per person',
+  },
+  {
+    format: 'Staffed buffet',
+    what: 'Setup, replenishing and clearance.',
+    staff: '1–2',
+    price: 'From AED 120 per person',
+  },
+  {
+    format: 'Canapés or live stations',
+    what: 'Passed food or cooking in the room.',
+    staff: '2–4',
+    price: 'From AED 150 per person',
+  },
+  {
+    format: 'Chef-led plated dining',
+    what: 'Courses at the table.',
+    staff: 'Chef plus service team',
+    price: 'AED 700–950 per person',
+  },
+]
 
 export const pricingNotes = [
+  'These are myCHEF starting prices per person, except the plated band which is a typical range.',
   'Volume formats start at 10 guests, a full buffet at 20.',
   'Minimum order value is AED 900 on dropped-off formats.',
-  'A chef cooking on site has no minimum headcount — a board dinner for six is a normal booking.',
-  'All figures are before 5% VAT, which is shown as its own line.',
-  'Recurring work is priced against the weekly or monthly schedule instead.',
+  'A chef cooking on site has no minimum headcount. A board dinner for six is a normal booking.',
+  'All figures are before 5% VAT, shown as its own line.',
+  'A typical Dubai market range for a full buffet sits higher. That comparison lives on the prices guide, not in the offer cell.',
 ]
 
 export const pricingIntro = [
   'Corporate catering in Dubai opens at AED 90 per person and moves with headcount, menu and how much service you want in the room. The format decides most of it: the same guests cost very different amounts dropped off versus plated.',
-  'Every quote is itemised — food, staffing, equipment, delivery and VAT as separate lines — so your finance team can see exactly what is being approved, and you can compare it fairly against another quote. A quote that hides those lines is not cheaper, it is less complete.',
+  'Every quote is itemised: food, staffing, equipment, delivery and VAT as separate lines, so your finance team can see exactly what is being approved, and you can compare it fairly against another quote. A quote that hides those lines is not cheaper, it is less complete.',
 ]
 
 /** Routing prose: the hub's real job is sending people to the right service. */
 export const routing = {
-  h2: 'Which Corporate Service Do You Actually Need?',
+  h2: 'Which corporate catering service do you need?',
   paragraphs: [
-    'Corporate catering is not one product. The three things companies ask us for run on different operations, different lead times and different pricing, and putting them on one page is how people end up with the wrong quote.',
-    'The first is recurring workplace catering: office lunches, boardroom meetings, daily staff meals, portioned meal prep. These are planned around a weekly rhythm and a headcount you already know. Consistency and timing matter more than presentation, and cost per head is the number that gets scrutinised.',
-    'The second is one-off company events: parties, launches, award nights, networking receptions. These are planned around a date, a venue and a format. They need service staff, setup and pack-down, and they are quoted per event rather than per week.',
-    'The third is production catering — film crews and shoots — where the schedule is unpredictable, meals move with the call sheet, and feeding people properly on a long day matters more than styling.',
-    'If you are not sure which one you are planning, describe the day rather than the category. We will tell you which service fits and what it should cost.',
+    'Corporate catering in Dubai covers three kinds of day, each with its own menu, team and quote.',
+    'Workplace catering is the repeating week: office lunches, boardroom meetings and daily staff meals for a headcount you already know. Consistency and timing matter more than presentation.',
+    'Company events are one-off parties, launches, award nights and networking receptions. They are planned around a date and a room, with service staff, setup and pack-down, and they are quoted per event.',
+    'Production catering feeds film, photo and event crews. Meals move with the call sheet. Feeding people well on a long day matters more than styling.',
+    'If you are not sure which you are planning, describe the day. We will tell you which service fits and what it should cost.',
   ],
 }
 
@@ -67,9 +86,9 @@ export const whatWeHandle = {
 export const meetingRouting = {
   h2: 'Company lunch, boardroom catering and business meetings',
   paragraphs: [
-    'Google often shows this hub for business meeting catering and business lunch searches. Those jobs have owner pages. This page is the centre: corporate catering Dubai as a supplier comparison, then a route to the right operation.',
-    'Company lunch catering in Dubai for a repeating team is office catering. Boardroom catering for a client sitting is business lunch catering. Recurring corporate catering is a weekly or monthly rhythm on the office or staff-meals pages. A VIP table is still a plated dinner or the 10 to 15 guest package, not a different product name.',
-    'A Diwali gathering or other seasonal company sitting is quoted as an event. Price per head moves with format more than with the calendar. Tell us the day. We will put it on the page that owns it.',
+    'Use this hub to compare corporate catering companies and services in Dubai, then open the page for the meal you are planning.',
+    'Company lunch catering in Dubai for a repeating team is office catering. Boardroom catering for a client lunch is business lunch catering. Recurring corporate catering is a weekly or monthly rhythm on the office or staff-meals pages. A VIP table is a plated dinner or the corporate dinner package for 10 to 15 guests.',
+    'A Diwali gathering or other seasonal company meal is quoted as an event. Price per head moves with format more than with the calendar. Tell us the day and we will route it.',
   ],
 } as const
 
@@ -124,7 +143,7 @@ export const hubWorkedExamples = [
 export const quoting = {
   h2: 'How a Corporate Quote Is Built',
   paragraphs: [
-    'A useful proposal needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary requirements and a budget position help, and telling us the budget early is not a trap — it means the first proposal is realistic rather than the third one.',
+    'A useful quote needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary requirements and a budget position help, and telling us the budget early is not a trap. It means the first quote is realistic rather than the third one.',
     'From there we scope the format against the room. What a space can physically support changes what can be cooked and served in it: a floor with no service lift, a venue that will not allow open flame, or an office kitchen with one power point each rule out options that look fine on paper.',
     'What comes back is itemised. Where service staff, equipment hire or delivery are needed, they appear as their own lines rather than being folded into a per-head figure that is impossible to compare.',
   ],
@@ -218,19 +237,22 @@ export const moreCorporate = [
   { href: '/exhibition-catering-dubai', label: 'Exhibition catering' },
   { href: '/staff-meals-catering-dubai', label: 'Staff meals' },
   { href: '/production-catering-dubai', label: 'Production catering' },
+  { href: '/brand-activation-catering-dubai', label: 'Brand activation catering' },
   { href: '/corporate-retainer-dubai', label: 'Corporate catering account' },
   { href: '/corporate-catering-checklist-dubai', label: 'Corporate catering checklist' },
+  { href: '/blog/corporate-event-catering-ideas-dubai', label: 'Corporate event catering ideas' },
+  { href: '/blog/corporate-catering-full-service-vs-drop-off', label: 'Full service versus drop-off' },
 ] as const
 
 export const startSteps = [
   'Send the date, venue or office, headcount and what kind of occasion it is.',
   'We scope the format against the room: access, power, open-flame rules and service flow.',
-  'You get an itemised proposal — food, staffing, equipment, delivery and 5% VAT as separate lines.',
+  'You get an itemised quote: food, staffing, equipment, delivery and 5% VAT as separate lines.',
   'On the day the team runs setup, service and clear-down to the timetable you approved.',
 ] as const
 
 export const quoteNeedsNote =
-  'An LPO or consolidated invoice does not by itself create credit terms. We issue TRN-ready VAT invoices. Payment and cancellation follow the written booking, not a shop-window promise.'
+  'An LPO or consolidated invoice does not by itself create credit terms. We issue TRN-ready VAT invoices. Payment and cancellation follow the written booking.'
 
 export const proofItems = [
   {
@@ -269,7 +291,7 @@ export const exampleEvents = [
     guests: 'Standing reception',
     venue: 'Showroom or office floor',
     setup: 'Passed canapés that can pause for the reveal. Live cooking only if the room allows it.',
-    outcome: 'Food supports the product moment. It does not sit on laptops or compete with the brief.',
+    outcome: 'Canapés and small plates that guests can enjoy while they meet around the product.',
     href: '/product-launch-catering-dubai',
     linkLabel: 'Product launch catering',
   },
@@ -291,7 +313,7 @@ export const corporateFaqs = [
   },
   {
     q: 'What is the minimum guest count?',
-    a: 'Volume drop-off starts from 10 guests with a minimum order of AED 900. A full buffet starts from 20 guests. A chef cooking on site has no minimum headcount — a board dinner for six is a normal booking.',
+    a: 'Volume drop-off starts from 10 guests with a minimum order of AED 900. A full buffet starts from 20 guests. A chef cooking on site has no minimum headcount. A board dinner for six is a normal booking.',
   },
   {
     q: 'Can you handle both daily office catering and one-off events?',
@@ -311,7 +333,7 @@ export const corporateFaqs = [
   },
   {
     q: 'How do corporate lunch packages in Dubai work for a small team?',
-    a: 'Small corporate catering still uses the same floors. Below ten guests, drop-off hits the AED 900 minimum order. A chef cooking on site has no headcount minimum. Recurring weeks are billed on actual service days.',
+    a: 'Small corporate catering still uses the same starting prices. Below ten guests, drop-off hits the AED 900 minimum order. A chef cooking on site has no headcount minimum. Recurring weeks are billed on actual service days.',
   },
   {
     q: 'Is invoicing available for corporate accounts?',

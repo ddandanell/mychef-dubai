@@ -49,19 +49,19 @@ const breadcrumbSchema = {
 
 const comparison = [
   { label: 'Food delivery', dropOff: true, fullService: true },
-  { label: 'Set-up at venue', dropOff: false, fullService: true },
-  { label: 'Service staff on site', dropOff: false, fullService: true },
-  { label: 'Tableware & linens included', dropOff: false, fullService: true },
-  { label: 'Real-time replenishment', dropOff: false, fullService: true },
-  { label: 'Kitchen clear-down', dropOff: false, fullService: true },
-  { label: 'Food-only coverage', dropOff: true, fullService: false },
-  { label: 'Best for formal events', dropOff: false, fullService: true },
+  { label: 'Laid out on arrival', dropOff: true, fullService: true },
+  { label: 'Staff remaining in the room', dropOff: false, fullService: true },
+  { label: 'Tableware and linens included', dropOff: false, fullService: true },
+  { label: 'Replenishment during service', dropOff: false, fullService: true },
+  { label: 'Clearance after the meal', dropOff: false, fullService: true },
+  { label: 'Your team serves itself', dropOff: true, fullService: false },
+  { label: 'Best for client-facing events', dropOff: false, fullService: true },
 ]
 
 const faqs = [
   {
     q: 'What is the difference between drop-off and full-service corporate catering?',
-    a: 'Drop-off catering delivers prepared food to your office in trays; your team handles set-up and clean-up. Full-service catering includes delivery, set-up, on-site staff, replenishment, clear-down, and often tableware and linens.',
+    a: 'Drop-off catering delivers prepared food and lays it out. Your team serves itself. Collection of empties is on request. Full-service catering includes delivery, setup, staff remaining in the room, replenishment, clearance, and often tableware and linens.',
   },
   {
     q: 'When should I choose full-service catering over drop-off?',
@@ -148,34 +148,34 @@ export default function CorporateCateringFullServiceVsDropOff() {
           </div>
 
           <KeyFactsBox
-            answer="Drop-off is food and delivery from AED 90 per person. Full service adds staff, setup and clearance. A staffed buffet starts from AED 120. Canapés start from AED 150. Choose the coverage the room actually needs."
+            answer="Drop-off is food delivered and laid out from AED 90 per person. Full service adds staff remaining in the room, replenishment and clearance. A staffed buffet starts from AED 120 per person. Canapés start from AED 150 per person."
             facts={[
-              { label: 'Drop-off floor', value: 'From AED 90 per person, min 10 guests, AED 900 min order' },
-              { label: 'Staffed buffet floor', value: 'From AED 120 per person, min 20 guests' },
+              { label: 'Drop-off starting price', value: 'From AED 90 per person, min 10 guests, AED 900 min order' },
+              { label: 'Staffed buffet starting price', value: 'From AED 120 per person, min 20 guests' },
               { label: 'Canapé / live station', value: 'From AED 150 per person' },
-              { label: 'Best for drop-off', value: 'Repeating office lunches and training sittings' },
+              { label: 'Best for drop-off', value: 'Repeating office lunches and training days' },
               { label: 'Best for full service', value: 'Client lunches, launches, awards, staff parties' },
             ]}
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Full service vs drop off catering in Dubai is a coverage question. Drop-off is food delivered and laid out. Your team serves itself and facilities clears. Full service is food plus people in the room: setup, replenishment and clearance. The food can be the same. The labour is not.
+              Full service vs drop off catering in Dubai is a service question. Drop-off is food delivered and laid out. Your team serves itself. Collection of empties is on request. Full service is food plus people remaining in the room: replenishment and clearance. The food can be the same. The labour is not.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               What is drop off catering in Dubai, in practice: sealed trays or boxes, tongs, labels, a delivery window. Do you need serving staff for office catering in Dubai? Only if someone has to run a line, pass canapés or clear a client room. A Tuesday team lunch usually does not. A launch usually does.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Private chef versus catering is a different split: a household chef visit is not this page. Wedding food is not this page. BBQ drop-off is still drop-off if nobody stays. This article is for office managers, EAs and event organisers choosing coverage for a corporate sitting.
+              Private chef versus catering is a different split: a household chef visit is not this page. Wedding food is not this page. BBQ drop-off catering is still drop-off if nobody stays. This article is for office managers, EAs and event organisers choosing a format for a company meal.
             </p>
           </section>
 
           <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="what-is-drop-off-catering" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Is Drop-Off Catering?</h2>
-            <h3 className="font-playfair text-h3 text-black mb-3">Food arrives. Your team runs the room.</h3>
+            <h3 className="font-playfair text-h3 text-black mb-3">Food arrives laid out. Your team serves itself.</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Drop-off catering delivers prepared food to your office or venue in disposable or returnable trays. Your team sets it out, guests serve themselves, and you handle the clean-up. It is the most straightforward option for working lunches, training sessions, and casual team meetings.
+              Drop-off catering delivers prepared food to your office or venue and lays it out. Guests serve themselves. Collection of empties is on request. It is the most straightforward option for working lunches, training sessions and casual team meetings.
             </p>
             <h3 className="font-playfair text-h3 text-black mb-3">When drop-off works best</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed">

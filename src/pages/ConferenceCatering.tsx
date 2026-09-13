@@ -285,7 +285,7 @@ export default function ConferenceCatering() {
     <div ref={containerRef}>
       <SEO
         title="Conference Catering Dubai | Breaks & Working Lunches | myCHEF"
-        description="Conference catering Dubai: coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90. Staffed buffet from AED 120. Not AV or venue hire."
+        description="Conference catering Dubai: coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -313,10 +313,10 @@ export default function ConferenceCatering() {
             Conference Catering Dubai: Coffee Breaks, Working Lunches & Multi-Day
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
-            Coffee breaks, lunch and multi-day holding, timed to the agenda. Drop-off from AED 90. Staffed buffet from AED 120. We do not hire the room or run the slides.
+            Meals and refreshments throughout your conference, timed to the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry?from=corporate" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -340,13 +340,13 @@ export default function ConferenceCatering() {
             Keeping Delegates Sharp All Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters: but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
+            Conference catering in Dubai is planned around your agenda. Delegates need coffee, water and a proper lunch without losing the day. We time breaks to the slot, keep lunch inside 45 minutes when the programme is tight, and rotate menus on multi-day work.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference catering in Dubai is priced from the same advertised floors as other corporate work: drop-off food from AED 90 per person, a staffed buffet from AED 120, live stations and canapés from AED 150. A complete day that includes breaks, lunch, staff, standard equipment, setup and clearance is quoted as one operation. Unusual venue costs sit on their own line. We do not supply AV, staging, entertainment or the room itself.
+            Drop-off food starts from AED 90 per person. A staffed buffet starts from AED 120 per person. Live stations and canapés start from AED 150 per person. Half-day and full-day packages both use that staffed buffet starting price. The difference is the meal plan: a half day includes arrival coffee, one break and lunch; a full day includes two breaks and lunch. The quote lists the trays, hours and team. Room hire and presentation equipment stay with the venue.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Conference catering is the food operation under the run of show. Breaks are 15 to 30 minutes. Lunch is boxed or buffet. Multi-day work rotates the menu and bills each service day. A closing reception is a different page. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            A closing reception is <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. A repeating office week is <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -356,12 +356,12 @@ export default function ConferenceCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/conference-catering-dubai')}
             heading="Coffee break, half-day, full-day and multi-day"
-            intro="Public figures are advertised floors. A multi-day complete-operation rate is proposed in writing, not published as a shop price. Each service day is billed. There is no automatic volume discount."
+            intro="Half-day and full-day packages both start from AED 120 per person on the staffed buffet rate. The half day covers arrival coffee, one break and lunch. The full day covers two breaks and lunch. Multi-day programmes are quoted in writing, billed per service day."
           />
           <div className="mt-12">
             <CorporateWorkedBudgets
               heading="Conference catering packages, worked totals"
-              intro="Conference lunch catering in Dubai is quoted around the agenda. Coffee breaks use the drop-off floor unless a barista cart is named. A full day uses the staffed buffet floor unless you choose boxed lunch."
+              intro="Conference lunch catering in Dubai is quoted around the agenda. Coffee breaks use the drop-off starting price unless a barista cart is named. Half-day and full-day rows use the staffed buffet starting price; the package subtotal includes that food and the included service."
               examples={[
                 {
                   title: '40-person morning break',
@@ -385,7 +385,7 @@ export default function ConferenceCatering() {
             />
           </div>
           <p className="mt-8 max-w-[65ch] font-inter text-body text-gray-600">
-            Conference food catering is the operation around the agenda, not the conference itself. We do not hire the room, run AV or stage the speakers. A closing reception is corporate event catering. A repeating office week is office catering.
+            Conference food catering is the hospitality around the agenda. Room hire, audiovisual equipment and speaker production stay with those specialists. A closing reception is corporate event catering. A repeating office week is office catering.
           </p>
           <div className="mt-12 overflow-x-auto">
             <h3 className="font-playfair text-h4 text-black mb-4">Sample agenda</h3>
@@ -406,7 +406,7 @@ export default function ConferenceCatering() {
               </tbody>
             </table>
             <p className="mt-4 font-inter text-body-sm text-gray-500 max-w-[65ch]">
-              Meal allowances follow the package: one break sitting, or breaks plus lunch. Stations are planned to the room, power and holding time, not to a stage plot.
+              Meal allowances follow the package: one break plus lunch, or two breaks plus lunch. Stations are planned to the room, power and how long food needs to stay at temperature.
             </p>
           </div>
         </div>
@@ -590,7 +590,7 @@ export default function ConferenceCatering() {
             Share your agenda, delegate numbers and venue. We will build a timed catering plan: coffee breaks, working lunches and multi-day menus that keep the conference on the agenda.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

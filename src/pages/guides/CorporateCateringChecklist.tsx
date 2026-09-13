@@ -472,7 +472,7 @@ export default function CorporateCateringChecklist() {
               packageById('corp-dinner-package')!,
             ]}
             heading="Match the occasion to a package"
-            intro="Use this checklist with the advertised floors. The written proposal is the offer."
+            intro="Use this checklist with the published starting prices. The written quote is the offer."
           />
         </div>
       </section>

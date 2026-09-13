@@ -26,7 +26,7 @@ export default function CorporateWorkedBudgets({ heading, intro, examples }: Pro
               <th className="py-3 pr-4 font-medium text-black">Example</th>
               <th className="py-3 pr-4 font-medium text-black">Guests</th>
               <th className="py-3 pr-4 font-medium text-black">Headline</th>
-              <th className="py-3 pr-4 font-medium text-black">Food line</th>
+              <th className="py-3 pr-4 font-medium text-black">Package subtotal</th>
               <th className="py-3 pr-4 font-medium text-black">VAT 5%</th>
               <th className="py-3 font-medium text-black">Indicative total</th>
             </tr>
@@ -60,7 +60,7 @@ export default function CorporateWorkedBudgets({ heading, intro, examples }: Pro
         </table>
       </div>
       <p className="mt-4 font-inter text-body-sm text-gray-500 max-w-[65ch]">
-        Totals use advertised floors only. Per-person figures assume the guest count in that row. A whole-event package is not multiplied by headcount. Unusual venue costs are extra. The written proposal is the offer.
+        These totals use published starting prices. Per-person figures use the guest count in that row. A whole-event package is not multiplied by headcount. Unusual venue costs are extra. The written quote is the offer.
       </p>
     </div>
   )

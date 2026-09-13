@@ -38,6 +38,12 @@ export const OFFICE_SIBLING_LINKS = [
   { href: '/breakfast-catering-dubai', label: 'Breakfast catering' },
 ] as const
 
+export const OFFICE_RELATED_LINKS = [
+  { href: '/corporate', label: 'Corporate catering hub' },
+  { href: '/conference-catering-dubai', label: 'Explore our conference catering packages' },
+  { href: '/corporate-retainer-dubai', label: 'Discuss regular office catering' },
+] as const
+
 export const officeMenuCycle = [
   { day: 'Sunday', lunch: 'Grilled chicken, rice, mixed salad, yoghurt' },
   { day: 'Monday', lunch: 'Fish or paneer, grains, slaw, fruit' },
@@ -66,11 +72,11 @@ export const jumpNav = [
 ] as const
 
 export const routing = {
-  h2: 'Which service do you actually need?',
+  h2: 'Dependable breakfast and lunch for a known team',
   paragraphs: [
-    'Office catering is not a party and it is not a canteen. It is the repeating week: the same people, the same days, food that lands before the room fills. Consistency and timing matter more than theatre, and cost per head is the number finance will scrutinise.',
-    'Most offices already know the headcount. A daily office lunch in Dubai then runs on a weekly rhythm — same days, same delivery window, a menu that rotates. Team lunch catering in Dubai for a department of ten is still that job, not a buffet line built for a hundred.',
-    'One-off company events — parties, launches, award nights — are a different operation. They are quoted per event, they need setup and pack-down, and they live on their own page. Volume meals for a workforce are a third operation. If you describe the day rather than the category, we will tell you which page fits.',
+    'Office catering Dubai is the repeating week: the same people, the same days, food that lands before the room fills. Consistency, menu variety and a delivery window you can trust matter more than theatre.',
+    'Most offices already know the headcount. A daily office lunch in Dubai then runs on a weekly rhythm. Team lunch catering in Dubai for a department of ten is still that job: labelled meals, a rotating menu, one monthly invoice if you want it.',
+    'If the day is a one-off party, a client lunch or workforce meals at canteen volume, we will point you to the matching page after we hear the brief.',
   ],
 }
 
@@ -154,7 +160,7 @@ export const formats = {
   paragraphs: [
     'This is the choice that sets the budget. Decide it before you shortlist anyone.',
     'Drop-off is the AED 90 tier — corporate lunch delivery in Dubai to the floor. Office food delivery of that kind arrives hot or chilled as the dish needs, in sealed single portions or on shared platters, with serving tongs, napkins and labels. We lay it out. Your team helps itself. Facilities clears the trays. That covers most weekday office lunches.',
-    'Staffed service: the team arrives ahead of the sitting, builds the line with chafing dishes and linen, keeps hot food hot and cold food cold, serves or replenishes, then clears and wipes down so the room is usable for the next meeting. That is where the AED 120 and AED 150 tiers sit.',
+    'Staffed service: the team arrives ahead of the meal, builds the line with chafing dishes and linen, keeps hot food hot and cold food cold, serves or replenishes, then clears and wipes down so the room is usable for the next meeting. That is where the AED 120 and AED 150 tiers sit.',
     'A chef cooking on site is cooking and plating in front of your guests. That is the AED 700–950 band, priced for a board dinner or a client evening. If a quote does not tell you which of those three you are getting, it is not a quote yet.',
   ],
 }

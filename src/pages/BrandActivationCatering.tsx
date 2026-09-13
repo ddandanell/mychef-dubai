@@ -270,7 +270,7 @@ export default function BrandActivationCatering() {
     <div ref={containerRef}>
       <SEO
         title="Brand Activation Catering Dubai | Pop-Ups & Sampling | myCHEF"
-        description="Brand activation catering Dubai: signature bites and passed food around the brand moment, from AED 150 per person. Food does not sit on laptops."
+        description="Brand activation catering Dubai: signature bites and passed food around the brand moment, from AED 150 per person."
         canonicalPath="/brand-activation-catering-dubai"
         ogImage="/images/brand-activation-catering-dubai-hero.webp"
         hideSiteName
@@ -298,10 +298,10 @@ export default function BrandActivationCatering() {
             Brand Activation Catering Dubai: Pop-Ups, Sampling & Experiential
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bda-hero-sub">
-            Food that stops the scroll. Experiential catering for brand activations, pop-ups, sampling campaigns, and influencer events across Dubai.
+            Canapés and small plates that guests can enjoy while they meet and mingle. Brand activations, pop-ups and sampling from AED 150 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -322,13 +322,13 @@ export default function BrandActivationCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">EXPERIENTIAL CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Why Experiential Catering Works
+            Hospitality around the brand moment
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Taste, theatre, and shareability are the three ingredients that make a brand activation memorable. When guests can see their food being prepared, interact with your team, and post a moment that looks as good as it tastes, your brand stays with them long after the event ends. At myCHEF Dubai, we create food experiences that align with campaign goals, audience demographics, and the premium expectations of the Dubai market.
+            Brand activation catering in Dubai is a signature bite and passed food around the brand moment. Canapé service starts from AED 150 per person. Guests can eat while they talk, sample and move.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Brand activation catering in Dubai is a signature bite and passed food around the brand moment. Canapé service starts from AED 150 per person. Food does not sit on laptops and does not replace the product.
+            Live stations, sampling trays and labelled dietary options are planned to the space you actually have. Food supports the product. It does not replace it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From product launch catering Dubai to mall pop-ups and influencer events, our brand activation catering turns tastings into talk-of-the-town moments. Explore our formats below, or see how it fits within our <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> and wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, and how live chef theatre complements our <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station hire</Link>.
@@ -342,7 +342,7 @@ export default function BrandActivationCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/brand-activation-catering-dubai')}
             heading="Activation hospitality"
-            intro="A signature bite and passed food around the brand moment. Not a product-on-a-desk lunch."
+            intro="A signature bite and passed food around the brand moment, from AED 150 per person."
           />
         </div>
       </section>
@@ -527,7 +527,7 @@ export default function BrandActivationCatering() {
             Tell us about your campaign, audience, and venue. We'll design an experiential catering concept that turns guests into advocates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

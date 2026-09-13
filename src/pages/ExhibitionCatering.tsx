@@ -32,10 +32,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Trade shows and exhibitions in Dubai move fast. Whether you are hosting a stand at Dubai World Trade Centre, organising a pavilion at Expo City, or running a corporate showcase at a hotel ballroom, your catering needs to keep pace with long hours, high footfall and back-to-back meetings. Our exhibition catering service is built around reliability, speed and presentation that reflects your brand.
-      </p>
-      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Exhibition catering in Dubai is hospitality without a kitchen. Drop-off food that holds starts from AED 90 per person. Hall rules, power and replenishment matter more than a plated menu.
+        Exhibition catering in Dubai is hospitality without a kitchen: visitor food at the stand, and separate meals for the exhibitor team. Drop-off starts from AED 90 per person. Hall rules, power and replenishment matter more than a plated menu.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
@@ -152,7 +149,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'What is the minimum order for exhibition catering?',
-      a: 'There is no fixed minimum, but exhibition logistics are most cost-effective for stands expecting 50 or more guests per day. Contact us with your stand size and footfall projections for a tailored proposal.',
+      a: 'Drop-off starts from 10 guests with a minimum order of AED 900. Tell us the stand, the hours and the headcount and we will quote visitor hospitality and exhibitor meals separately.',
     },
     {
       q: 'How far in advance should we book exhibition catering?',
@@ -176,7 +173,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
     'Send the hall, the stand, the hours and the headcount. You get an itemised proposal. Hall access and power are quoted when they are not standard.',
-  primaryCta: 'Request a proposal',
+  primaryCta: 'Request a corporate catering quote',
   showTrustSignalStrip: true,
   afterIntro: (
     <>
@@ -185,7 +182,7 @@ const config: ServicePageConfig = {
         <CorporatePackageCompare
           packages={packagesForOwner('/exhibition-catering-dubai')}
           heading="Stand hospitality and exhibitor meals"
-          intro="Exhibition work uses the advertised drop-off floor unless the stand is staffed. Hall access and power are quoted separately when they are not standard."
+          intro="Visitor hospitality at the stand and exhibitor crew meals are listed separately. Both use the drop-off starting price from AED 90 per person unless the stand is staffed. Hall access and power are quoted separately when they are not standard."
         />
       </div>
     </section>

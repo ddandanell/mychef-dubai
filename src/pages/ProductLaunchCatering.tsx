@@ -273,7 +273,7 @@ export default function ProductLaunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Product Launch Catering Dubai | Media & Press | myCHEF"
-        description="Product launch catering Dubai: canapé receptions from AED 150 per person, timed to the reveal. Not a seated dinner. Itemised proposal."
+        description="Product launch catering Dubai: canapé receptions from AED 150 per person, timed to the reveal. Itemised quote."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"
         hideSiteName
@@ -301,10 +301,10 @@ export default function ProductLaunchCatering() {
             Product Launch Catering Dubai: Media Launches, Press Events & Unveilings
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 plc-hero-sub">
-            Catering that matches the moment. Bespoke menus and flawless service for product launches, press events, and brand unveilings across Dubai.
+            Attractive, easy-to-eat food timed around the reveal. Canapé receptions from AED 150 per person for product launches, press events and unveilings.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -325,16 +325,13 @@ export default function ProductLaunchCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">B2B EVENT CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Why Launch Catering Matters
+            Food timed to the reveal
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Product launch catering in Dubai is standing food timed to the reveal. Canapés from AED 150 per person. The team can pause. Food does not sit on laptops and does not compete with the product. This is not a seated gala and not event production.
+            Product launch catering in Dubai is standing food timed to the reveal. Canapé receptions start from AED 150 per person. Service can pause for speeches, then continue so guests keep moving around the product.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Product launch catering in Dubai is standing food timed to the reveal. Canapé receptions start from AED 150 per person. The team can pause for the product moment. This is not a seated dinner and not event production.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, our chefs plan menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.
+            From investor rooms in DIFC to larger unveilings in Downtown Dubai, menus are planned for the tone of the event: canapés, a press lunch, or a dessert station. Dietary notes are labelled. Presentation is considered, without competing with the product.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Explore our launch formats below, or see how we support wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering</Link>, <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>, and <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link>.
@@ -560,7 +557,7 @@ export default function ProductLaunchCatering() {
             Send the date, the room, the headcount and the reveal time. You get an itemised proposal. Dietary notes can follow.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

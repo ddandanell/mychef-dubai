@@ -34,6 +34,7 @@ import {
   OFFICE_KEYWORD_LOCK,
   OFFICE_ROOT,
   OFFICE_SIBLING_LINKS,
+  OFFICE_RELATED_LINKS,
   OFFICE_WHATSAPP_LINK,
   OFFICE_WHATSAPP_MESSAGE,
   boundaries,
@@ -148,7 +149,7 @@ export default function OfficeCatering() {
       <Section tone="ivory" rhythm="connected">
         <Container>
           <CorporateSiblings
-            items={OFFICE_SIBLING_LINKS}
+            items={[...OFFICE_SIBLING_LINKS, ...OFFICE_RELATED_LINKS]}
             note="This page is the repeating workplace week: breakfast and lunch for a known headcount. One-off parties sit on corporate event catering. Boardroom client lunches sit on business lunch catering."
           />
         </Container>
@@ -415,7 +416,7 @@ export default function OfficeCatering() {
       <Section id="examples" tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Three common office sittings</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Three common office meals</DisplayHeading>
           <BodyCopy className="mb-12">
             Guest counts and rates below are the published format rules, not named client stories. We do not publish office logos without written permission.
           </BodyCopy>

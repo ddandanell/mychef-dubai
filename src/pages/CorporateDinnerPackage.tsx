@@ -16,13 +16,13 @@ export default function CorporateDinnerPackage() {
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
-      description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing."
-      intro="The corporate dinner package is AED 4,500 for 10–15 guests, including a chef, service staff sized to the table, tableware, setup and cleanup. That total is not multiplied by headcount. It is not the same product as chef-led plated dining at AED 700–950 per person, which is quoted per guest for tables outside this range. It is not a dinner cruise and it does not include AV or staging."
+      description="Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, with a private chef and service team. Boardroom dinners, client entertainment and VAT invoicing."
+      intro="A corporate dinner package for 10–15 guests, with a private chef and service team, is AED 4,500. That figure is a fixed package price for this guest range, not multiplied by headcount. Chef-led plated dining at AED 700–950 per person is a different menu and service, used when the table is smaller or larger than 15, or when you want fully plated courses. If you are comparing dubai dinner cruise deals or a private dinner cruise dubai price, this package is a dinner in your office or venue, not a boat hire."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"
       eyebrow="CORPORATE DINING PACKAGE"
-      subheadline="AED 4,500 for 10 to 15 guests. Chef and service staff sized to the table. Not a dinner cruise. Not the plated per-person band."
+      subheadline="AED 4,500 for 10 to 15 guests. Private chef and service team sized to the table. Setup, service and kitchen cleanup included."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
@@ -83,10 +83,16 @@ export default function CorporateDinnerPackage() {
           link: '/business-lunch-catering-dubai',
         },
         {
-          title: 'Catering Packages Dubai',
-          description: 'See all starter packages and starting prices.',
-          image: '/images/catering-packages-dubai-hero.webp',
-          link: '/catering-packages-dubai',
+          title: 'Gala Dinner Catering',
+          description: 'Seated awards and banquets with buffet or plated service.',
+          image: '/images/gala-dinner-catering-dubai-hero.webp',
+          link: '/gala-dinner-catering-dubai',
+        },
+        {
+          title: 'Corporate Catering Contract',
+          description: 'A written account if you book dinners and lunches often.',
+          image: '/service-corporate.webp',
+          link: '/corporate-retainer-dubai',
         },
       ]}
       heroImage="/images/corporate-catering-dubai-hero.webp"

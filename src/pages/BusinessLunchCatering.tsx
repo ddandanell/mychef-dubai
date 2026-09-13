@@ -286,7 +286,7 @@ export default function BusinessLunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Business Lunch Catering Dubai | Boardroom & Client | myCHEF"
-        description="Business lunch catering Dubai for boardrooms and client sittings. Drop-off from AED 90. Plated client lunch AED 700 to 950. Itemised VAT invoice."
+        description="Business lunch catering Dubai for boardrooms and client lunches. Drop-off from AED 90 per person. Plated client lunch AED 700 to 950 per person. Itemised VAT invoice."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -314,10 +314,10 @@ export default function BusinessLunchCatering() {
             Business Lunch Catering Dubai: Boardroom, Client & Working Lunches
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 blun-hero-sub">
-            Boardroom, client and working lunches in the office. Drop-off from AED 90. Plated client lunch AED 700 to 950. The format is the decision.
+            Thoughtful food and discreet service in the office. Choose delivered lunches from AED 90 per person, a sharing table, or individually plated service from AED 700 to 950 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a quote for this package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -342,13 +342,10 @@ export default function BusinessLunchCatering() {
             Lunches That Keep Business Moving
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background: arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
+            Business lunch catering in Dubai is food in your boardroom, timed to the agenda. A working lunch arrives labelled and ready, so the meeting stays in the room. A client lunch is plated and staffed, so the table feels looked after without anyone leaving for a restaurant.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A working lunch is drop-off from AED 90 per person. A plated client lunch is the chef-led band of AED 700–950 per person. Those are different products. This page is not a restaurant listing and it is not a view. It is food in your boardroom, timed to the agenda, with an itemised invoice.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            A working lunch keeps the agenda in the room. A client lunch is plated and staffed. Do not price those two as the same sandwich. Recurring Tuesdays belong on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A party belongs on <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. The hub for the whole company operation is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            Delivered working lunches start from AED 90 per person. Chef-led plated client lunches are AED 700 to 950 per person. Choose the format that suits the meeting. Recurring team days sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A seated evening for 10 to 15 guests is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -358,12 +355,12 @@ export default function BusinessLunchCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/business-lunch-catering-dubai')}
             heading="Boardroom, working lunch and client lunch"
-            intro="A boxed or sharing lunch uses the AED 90 drop-off floor. A plated client lunch uses the AED 700–950 chef-led band. Do not compare those two as if they were the same product."
+            intro="A boxed or sharing lunch starts from AED 90 per person, delivered and laid out. A plated client lunch is AED 700 to 950 per person with a chef and service team. Each format has its own starting price."
           />
           <div className="mt-12">
             <CorporateWorkedBudgets
               heading="Business lunch catering Dubai, worked totals"
-              intro="Business lunch delivery in Dubai is usually drop-off. A plated client sitting is a different product. These totals use advertised floors only."
+              intro="Business lunch delivery in Dubai is usually drop-off. A plated client lunch is a staffed service. These totals use published starting prices."
               examples={[
                 {
                   title: '6-person boxed working lunch',
@@ -381,7 +378,7 @@ export default function BusinessLunchCatering() {
                   title: '8-person client lunch, plated',
                   packageId: 'corp-lunch-client',
                   guests: 8,
-                  note: 'Chef-led plated band. This is not a restaurant with a view.',
+                  note: 'Chef-led plated lunch in the boardroom. AED 700 to 950 per person.',
                 },
               ]}
             />
@@ -576,7 +573,7 @@ export default function BusinessLunchCatering() {
             Send the date, the floor, the headcount and whether anyone should stay in the room. You get an itemised proposal. Dietary notes can follow.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
