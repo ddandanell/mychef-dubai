@@ -47,8 +47,8 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const launchFormats = [
   {
     icon: Wine,
-    title: 'Canapé & Champagne Reception',
-    description: 'A standing reception with passed canapés, flutes, and circulating service: ideal for unveilings and pre-launch networking.',
+    title: 'Canapé reception',
+    description: 'Standing food guests can hold. Service that can pause for the reveal, then continue. Alcohol only where the venue is licensed and the proposal names it.',
     link: '/canape-catering-dubai',
   },
   {
@@ -59,19 +59,19 @@ const launchFormats = [
   },
   {
     icon: Crown,
-    title: 'Investor Dinner',
-    description: 'Plated multi-course dining in a private venue, with discreet service and a menu that reflects the ambition of your round.',
+    title: 'Investor dinner',
+    description: 'A seated table for a known guest list. Courses timed to the conversation. Not a standing reception copied down in size.',
     link: '/luxury-dining-experiences',
   },
   {
     icon: Flame,
-    title: 'Live Station Theatre',
-    description: 'partner-chef-led stations that create energy and shareable moments around your product, from carving to made-to-order small plates.',
+    title: 'Live cooking station',
+    description: 'Cooking in the room when power, space and venue rules allow it. Quoted as a staffed line, not assumed.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: CakeSlice,
-    title: 'Branded Dessert & Coffee Bar',
+    title: 'Dessert and coffee close',
     description: 'A sweet canapé and coffee if the hour needs a close. Brand colour on napkins if you send a brief.',
     link: '/dessert-table-catering-dubai',
   },
@@ -96,12 +96,12 @@ const planningChecklist = [
 ]
 
 const includedItems = [
-  { title: 'Bespoke menu design', description: 'A tailored menu built around your product, audience, and venue.' },
-  { title: 'Premium ingredients', description: 'Seasonal produce, imported specialties, and trusted local suppliers.' },
-  { title: 'Chef and service team', description: 'Experienced chefs, captains, and front-of-house staff for your event.' },
-  { title: 'Bar and beverage service', description: 'Curated drinks, bartenders, and optional mobile bar setup.' },
-  { title: 'Tableware, linens, and styling', description: 'Elegant crockery, glassware, and presentation details.' },
-  { title: 'Setup, service, and clear-down', description: 'Full logistics from kitchen build to final breakdown.' },
+  { title: 'Menu written for the room', description: 'Canapés, a short lunch or a dessert close, planned around the reveal, the headcount and the venue rules.' },
+  { title: 'Chef and service staff', description: 'People in the room sized to the format. Drop-off is food only. Staffed service is quoted as its own line.' },
+  { title: 'Drinks as agreed', description: 'Soft drinks as standard. Alcohol only where the venue is licensed and it is named in the proposal.' },
+  { title: 'Service that can pause', description: 'Food holds for speeches and the reveal, then continues so guests keep moving around the product.' },
+  { title: 'Tableware for the format', description: 'Crockery, glass and napkins for the chosen service. Unusual hire is a separate line.' },
+  { title: 'Setup, service and clear-down', description: 'The team builds, serves and packs down. Your staff stay with guests.' },
 ]
 
 const galleryImages = [
@@ -110,7 +110,7 @@ const galleryImages = [
   { src: '/images/live-cooking-stations-dubai-hero.webp', alt: 'Live cooking station theatre at a Dubai media event' },
   { src: '/images/cocktail-party-catering-dubai-hero.webp', alt: 'Drinks service for a brand launch in Dubai' },
   { src: '/images/dessert-table-catering-dubai-hero.webp', alt: 'Branded dessert display for a product launch' },
-  { src: '/images/events-catering-dubai-hero.webp', alt: 'Premium event catering setup in Dubai' },
+  { src: '/images/events-catering-dubai-hero.webp', alt: 'Product launch catering setup in Dubai' },
 ]
 
 const locations = [
@@ -136,23 +136,23 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater small product launches in Dubai?',
-    a: 'Yes. We coordinate catering intimate press previews through to large-scale public launches, scaling the menu and team to your guest count.',
+    a: 'Yes. A press preview for a small room is a normal booking. The menu and staff are sized to the guest list, not copied from a ballroom template.',
   },
   {
     q: 'Can the menu reflect our brand or product theme?',
-    a: 'Absolutely. We design custom menus, named dishes, branded desserts, and themed presentation to align with your launch narrative.',
+    a: 'Colour, napkins and named dishes can follow a brief you send. That is quoted as part of the event, not assumed.',
   },
   {
     q: 'Do you provide service staff and bartenders?',
-    a: 'Yes. Every launch package includes professional service staff, event captains, and optional bartenders or mobile bar service.',
+    a: 'Staffed service is quoted when you need people in the room. Bartenders and alcohol only where the venue is licensed and the proposal names them. Drop-off is food and layout only.',
   },
   {
     q: 'How far in advance should I book launch catering?',
-    a: 'We recommend 2–4 weeks for large launches to allow menu development and venue coordination. Shorter timelines can often be accommodated.',
+    a: 'Send the date, venue, headcount and reveal time as soon as you have them. We typically reply within 15 minutes during business hours. Larger rooms need venue access checked before the menu is final.',
   },
   {
     q: 'Can you cater at venues, showrooms, or offices?',
-    a: 'Yes. We coordinate catering at offices, showrooms, hotels, yachts, and partner venues across Dubai, and can coordinate directly with your venue team.',
+    a: 'Yes. Offices, showrooms, hotels and partner venues across Dubai. We work to the venue’s access rules. Yacht hire stays with you; we cater the boat if you arrange it.',
   },
 ]
 
@@ -298,10 +298,10 @@ export default function ProductLaunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 plc-hero-h1">
-            Product Launch Catering Dubai: Media Launches, Press Events & Unveilings
+            Product Launch Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 plc-hero-sub">
-            Attractive, easy-to-eat food timed around the reveal. Canapé receptions from AED 150 per person for product launches, press events and unveilings.
+            Standing food timed to the reveal. Canapé receptions from AED 150 per person. Service can pause for speeches, then continue so guests stay around the product.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a corporate catering quote</Link>
@@ -325,7 +325,7 @@ export default function ProductLaunchCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">B2B EVENT CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Food timed to the reveal
+            Product launch catering Dubai, timed to the reveal
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Product launch catering in Dubai is standing food timed to the reveal. Canapé receptions start from AED 150 per person. Service can pause for speeches, then continue so guests keep moving around the product.

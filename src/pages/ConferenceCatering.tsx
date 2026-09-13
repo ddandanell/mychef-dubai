@@ -155,7 +155,7 @@ const faqs = [
   },
   {
     q: 'Can you cater for delegates’ dietary requirements?',
-    a: 'Absolutely. Vegetarian, vegan, gluten-free, and halal options are available across every break and meal, and we label them clearly so delegates can choose with confidence. Share any specific requirements in advance and we will plan accordingly.',
+    a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free lines are labelled when you name them. We do not describe a conference menu as allergen-free.',
   },
   {
     q: 'Do you work with conference venues across Dubai?',
@@ -310,10 +310,10 @@ export default function ConferenceCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 conf-hero-h1">
-            Conference Catering Dubai: Coffee Breaks, Working Lunches & Multi-Day
+            Conference Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
-            Meals and refreshments throughout your conference, timed to the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person.
+            Coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person. We hold and clear so the next session can start.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?from=corporate" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a corporate catering quote</Link>
@@ -337,7 +337,7 @@ export default function ConferenceCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CATERING FOR CONFERENCES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Keeping Delegates Sharp All Day
+            Conference catering Dubai around the agenda
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Conference catering in Dubai is planned around your agenda. Delegates need coffee, water and a proper lunch without losing the day. We time breaks to the slot, keep lunch inside 45 minutes when the programme is tight, and rotate menus on multi-day work.

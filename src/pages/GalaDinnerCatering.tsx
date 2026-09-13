@@ -46,7 +46,7 @@ const galaFormats = [
   {
     icon: UtensilsCrossed,
     title: 'Plated Banquet',
-    description: 'Multi-course seated dinner with synchronized service, elegant plate presentation, and captain-led floor coordination.',
+    description: 'Courses at the table, timed to speeches. Staff sized to the sitting. Extra roles are extra lines.',
   },
   {
     icon: Soup,
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: 'Can you create a multi-course plated menu for a formal dinner?',
-    a: 'Absolutely. We design multi-course plated menus with tasting options and can accommodate dietary, halal, and cultural requirements.',
+    a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. A tasting is quoted when the sitting is large enough to need one.',
   },
   {
     q: 'Do you provide service staff and bar service for galas?',
@@ -302,10 +302,10 @@ export default function GalaDinnerCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 gala-hero-h1">
-            Gala Dinner Catering Dubai: Awards, Charity Balls & Formal Celebrations
+            Gala Dinner Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
-            A formal dinner with each course timed around your speeches and awards. Staffed buffet from AED 120 per person, or plated from AED 700 to 950 per person.
+            Seated awards and banquets. Courses hold for speeches. Staffed buffet from AED 120 per person, or plated from AED 700 to 950 per person. We do not run the stage or the AV.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a corporate catering quote</Link>
@@ -329,7 +329,7 @@ export default function GalaDinnerCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Formal Event Catering</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Buffet or plated, timed to the programme
+            Gala dinner catering Dubai, timed to the programme
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Gala dinner catering in Dubai is a seated night. A staffed buffet starts from AED 120 per person, with service replenishing the line. Chef-led plated service is AED 700 to 950 per person, with courses landed around speeches. Wine is only where the venue licence allows it.

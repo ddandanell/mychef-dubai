@@ -42,7 +42,7 @@ const productionFormats = [
   {
     icon: Camera,
     title: 'Photo & Editorial Shoots',
-    description: 'Lighter, elegant catering for photographic and editorial productions, where presentation matters and talent need fresh, considered food on hand.',
+    description: 'Lighter trays for photo and editorial days. Food is not placed next to cameras, laptops or monitors.',
     link: '/catering-dubai',
   },
   {
@@ -99,14 +99,12 @@ const useCases = [
 ]
 
 const includedItems = [
-  { title: 'Daily Production Service', description: 'Breakfast, lunch, and craft tables timed to the production schedule.' },
-  { title: 'Craft Services', description: 'Continuously stocked snacks, fruit, pastries, and hot drinks on set.' },
-  { title: 'Early & Late Catering', description: 'Pre-call breakfasts and wrap meals for extended shooting hours.' },
-  { title: 'Full Dietary Coverage', description: 'Vegetarian, vegan, gluten-free, halal, and allergy-aware meals as needed.' },
-  { title: 'Considered Presentation', description: 'Catering styled to suit photo, editorial, and brand-conscious shoots.' },
-  { title: 'Mobile Equipment', description: 'Self-sufficient kitchen setups for studio, warehouse, and remote sites.' },
-  { title: 'On-Location Service Staff', description: 'A discreet team that works around the rhythm of the production.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away with minimal footprint.' },
+  { title: 'Timed to the call sheet', description: 'Breakfast, lunch and wrap meals sit in named windows. Late changes after the kitchen deadline are quoted again.' },
+  { title: 'Craft services', description: 'Snacks, fruit and hot drinks kept stocked on set while you shoot.' },
+  { title: 'Early and late sittings', description: 'Pre-call breakfasts and wrap meals when the day overruns. Hours are named in the booking.' },
+  { title: 'Named dietary lines', description: 'Halal by default. Vegetarian, vegan and gluten-free when you name them. We do not describe a menu as allergen-free.' },
+  { title: 'Kitchen that can travel', description: 'Studio, warehouse or remote site. Power and access are checked before the menu is locked.' },
+  { title: 'Staff who stay off camera', description: 'The team sets, serves and clears around the shoot. They do not join the set.' },
 ]
 
 const galleryImages = [
@@ -306,10 +304,10 @@ export default function ProductionCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 prod-hero-h1">
-            Production Catering Dubai: TV, Photo & Event Crew Meals
+            Production Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 prod-hero-sub">
-            On-location catering for TV, photo and event productions. Craft services and crew lunch are separate purchases, both from AED 90 per person, timed to the call sheet.
+            Film, photo and event crews. Craft services and crew lunch are separate purchases, both from AED 90 per person, timed to the call sheet.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a corporate catering quote</Link>
@@ -333,7 +331,7 @@ export default function ProductionCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CATERING THAT KEEPS PRODUCTION ON TIME</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Reliable Food for Demanding Schedules
+            Production catering Dubai, timed to the call sheet
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Production catering in Dubai, including film crew catering, follows the call sheet. Craft services are snacks, fruit and hot drinks through the call hours. Crew lunch is a hot meal for each name on the sheet. They are separate purchases. Both start from AED 90 per person. Meals move if the day moves.

@@ -329,10 +329,10 @@ export default function CorporateMealPrep() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">GOOD FOOD, ON A SCHEDULE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Managed Programme, Not a One-Off
+            Corporate meal prep Dubai on a named schedule
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Feeding a team well, consistently, is a logistics challenge as much as a culinary one. The value of corporate meal prep is that it removes the organising entirely — balanced, individually portioned meals arrive on a reliable schedule, so your people stay energised and good nutrition becomes a quiet, dependable part of the working week. Tell us about your team size, office days, and dietary priorities, and we will design a tailored programme and confirm availability within 24 hours.
+            Corporate meal prep Dubai is portioned meals for a known team, delivered on days you already run. Headcount, office days and dietary notes go in the brief. We typically reply within 15 minutes during business hours. Recurring days are billed as they run.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you want a <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring weekly meal plan</Link>, a <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness retainer</Link> focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.

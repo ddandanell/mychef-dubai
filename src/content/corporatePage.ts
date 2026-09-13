@@ -66,8 +66,8 @@ export const pricingIntro = [
 export const routing = {
   h2: 'Which corporate catering service do you need?',
   paragraphs: [
-    'Corporate catering in Dubai covers three kinds of day, each with its own menu, team and quote.',
-    'Workplace catering is the repeating week: office lunches, boardroom meetings and daily staff meals for a headcount you already know. Consistency and timing matter more than presentation.',
+    'Corporate catering in Dubai is food for a company, not a household dinner copied into an office. It covers three kinds of day, each with its own menu, team and quote.',
+    'Workplace catering is the repeating week: office lunches, boardroom meetings and daily staff meals for a headcount you already know. Consistency and a delivery window you can put in the calendar matter more than presentation.',
     'Company events are one-off parties, launches, award nights and networking receptions. They are planned around a date and a room, with service staff, setup and pack-down, and they are quoted per event.',
     'Production catering feeds film, photo and event crews. Meals move with the call sheet. Feeding people well on a long day matters more than styling.',
     'If you are not sure which you are planning, describe the day. We will tell you which service fits and what it should cost.',
@@ -75,7 +75,7 @@ export const routing = {
 }
 
 export const whatWeHandle = {
-  h2: 'What corporate catering services in Dubai include',
+  h2: 'What the catering team runs on a company day',
   paragraphs: [
     'myCHEF runs the food and hospitality operation: menus, food preparation or supply, chefs, catering service staff, beverages, food-service equipment, setup, service and clearance. Corporate catering food is planned for the room you actually have, not for a restaurant floor plan.',
     'Corporate catering services in Dubai cover office meals, meetings, conferences, staff parties, launches, exhibitions, executive dinners and productions. Conference support means the catering operation around the agenda. We do not add AV, staging, entertainment or venue hire.',
@@ -141,11 +141,11 @@ export const hubWorkedExamples = [
 ] as const
 
 export const quoting = {
-  h2: 'How a Corporate Quote Is Built',
+  h2: 'How a corporate quote is built',
   paragraphs: [
-    'A useful quote needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary requirements and a budget position help, and telling us the budget early is not a trap. It means the first quote is realistic rather than the third one.',
-    'From there we scope the format against the room. What a space can physically support changes what can be cooked and served in it: a floor with no service lift, a venue that will not allow open flame, or an office kitchen with one power point each rule out options that look fine on paper.',
-    'What comes back is itemised. Where service staff, equipment hire or delivery are needed, they appear as their own lines rather than being folded into a per-head figure that is impossible to compare.',
+    'A useful quote needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary notes and a budget band help. Telling us the budget early is not a trap. It means the first quote is realistic rather than the third one.',
+    'From there we scope the format against the room. A floor with no service lift, a venue that will not allow open flame, or an office kitchen with one power point each rule out options that look fine on paper.',
+    'What comes back is itemised. Food, staffing, equipment, delivery and 5% VAT appear as their own lines, so finance can approve a number they can compare.',
   ],
 }
 
@@ -248,7 +248,7 @@ export const startSteps = [
   'Send the date, venue or office, headcount and what kind of occasion it is.',
   'We scope the format against the room: access, power, open-flame rules and service flow.',
   'You get an itemised quote: food, staffing, equipment, delivery and 5% VAT as separate lines.',
-  'On the day the team runs setup, service and clear-down to the timetable you approved.',
+  'On the day the team runs setup, service and clear-down. You stay with your guests or the agenda.',
 ] as const
 
 export const quoteNeedsNote =

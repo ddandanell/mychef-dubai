@@ -85,8 +85,8 @@ const includedItems = [
   { title: 'Labels', description: 'Vegetarian, vegan, gluten-free marked when those lines are booked.' },
   { title: 'Coverage named', description: 'Drop-off is food and delivery. A canteen line that needs people is staffed and billed that way.' },
   { title: 'One contact', description: 'One person who already knows the roster. You are not re-briefing every Monday.' },
-  { title: 'Predictable Invoicing', description: 'Consolidated billing on a weekly or monthly retainer cycle.' },
-  { title: 'Scalable Headcount', description: 'Daily covers scaled smoothly as your workforce grows or shifts.' },
+  { title: 'One invoice for the sittings', description: 'Weekly or monthly billing for the meals that ran. An LPO does not create credit terms by itself.' },
+  { title: 'Headcount as it actually sits', description: 'Covers follow the roster you send. Extra sittings after the kitchen deadline are quoted again.' },
 ]
 
 const useCases = [
@@ -311,10 +311,10 @@ export default function StaffMealsCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 staff-hero-h1">
-            Staff Meals Catering Dubai: Daily Meals, Canteens & Retainers
+            Staff Meals Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
-            Dependable meal deliveries scheduled around your team’s working day. Drop-off from AED 90 per person. Halal menus, rotating mains and billing on the meals we deliver.
+            Workforce sittings on a named timetable. Drop-off from AED 90 per person. Halal by default. You are billed for the meals we deliver, not a shop retainer.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a corporate catering quote</Link>
@@ -338,7 +338,7 @@ export default function StaffMealsCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CATERING FOR YOUR WORKFORCE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Reliable Meal for Every Shift
+            Staff meals catering Dubai for a known workforce
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Staff meals catering in Dubai is volume food for a known workforce: a rotating hot main, a cost per head finance can check, and meals that arrive on schedule. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900. You are billed for the meals we deliver, not empty calendar days.

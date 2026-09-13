@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     q: 'Can you accommodate dietary requirements for guests?',
-    a: 'Absolutely. Vegetarian, vegan, gluten-free, and halal options are arranged as standard, and we can build lighter, balanced choices into any lunch. Share your guests’ needs in advance and we will make sure everyone at the table is looked after.',
+    a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. Labels go on the plate. This is not a medical or allergen-free promise.',
   },
   {
     q: 'Do you deliver to offices across the Dubai business districts?',
@@ -311,10 +311,10 @@ export default function BusinessLunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 blun-hero-h1">
-            Business Lunch Catering Dubai: Boardroom, Client & Working Lunches
+            Business Lunch Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 blun-hero-sub">
-            Thoughtful food and discreet service in the office. Choose delivered lunches from AED 90 per person, a sharing table, or individually plated service from AED 700 to 950 per person.
+            Boardrooms and client sittings. Drop-off from AED 90 per person. Plated client lunch AED 700 to 950. Staff, when booked, set, replenish and leave. They do not join the meeting.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a quote for this package</Link>
@@ -339,7 +339,7 @@ export default function BusinessLunchCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CATERING FOR MEETINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Lunches That Keep Business Moving
+            Business lunch catering Dubai that stays in the room
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Business lunch catering in Dubai is food in your boardroom, timed to the agenda. A working lunch arrives labelled and ready, so the meeting stays in the room. A client lunch is plated and staffed, so the table feels looked after without anyone leaving for a restaurant.

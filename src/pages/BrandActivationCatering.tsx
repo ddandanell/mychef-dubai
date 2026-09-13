@@ -42,43 +42,42 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const activationFormats = [
   {
     icon: UtensilsCrossed,
-    title: 'Sampling Stations',
-    description: 'Bite-sized tastings for product sampling or market activations, served by staff who know how to start conversations and drive trial.',
+    title: 'Sampling stations',
+    description: 'Small tastes at a counter. Staff serve and replenish. The brand moment stays with your team.',
     link: '/canape-catering-dubai',
   },
   {
     icon: Store,
-    title: 'Themed Pop-Up Kitchen',
-    description: 'A fully branded food station in malls, hotels, or public spaces, designed to match your campaign identity and stop foot traffic.',
+    title: 'Pop-up food station',
+    description: 'A staffed food point in a mall, hotel or public space. Power, access and venue rules are checked before the menu is final.',
     link: '/catering-dubai',
   },
   {
     icon: Flame,
-    title: 'Live Chef Theatre',
-    description: 'partner-chef-led cooking demos that draw crowds, create social content, and turn passers-by into engaged audiences.',
+    title: 'Live cooking',
+    description: 'Cooking in view when the venue allows flame or power. Quoted as a staffed station, not as entertainment hire.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: ShoppingCart,
-    title: 'Branded Food & Beverage Carts',
-    description: 'Custom carts serving signature items with brand messaging, ideal for high-traffic activations and outdoor event spaces.',
+    title: 'Food and drink carts',
+    description: 'Mobile service for a high-traffic floor. Cart hire, if needed, is a separate line. Alcohol only where licensed.',
     link: '/bar-services-dubai',
   },
   {
     icon: Users,
-    title: 'Canapé Networking Reception',
-    description: 'Elegant bites for press, influencers, and VIPs, served in a format that keeps guests moving, mingling, and posting.',
+    title: 'Canapé reception',
+    description: 'Passed food guests can hold. Service keeps moving so people can talk. Not a seated dinner.',
     link: '/cocktail-party-catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Creative Menu Concept', description: 'A menu designed around your brand identity, campaign message, and target audience.' },
-  { title: 'Branded Presentation', description: 'Servingware, signage, and staff uniforms aligned with your activation look and feel where required.' },
-  { title: 'Chef & Brand Ambassador Staff', description: 'Professional chefs and service staff trained to engage guests and represent your brand.' },
-  { title: 'Ingredient Sourcing & Logistics', description: 'Quality ingredients, reliable logistics, and timely delivery across Dubai venues.' },
-  { title: 'Health, Safety & Venue Compliance', description: 'Support with Dubai food safety guidelines and coordination with venue management.' },
-  { title: 'Setup, Service & Breakdown', description: 'Full event-day execution from build to clear-down, so your team can focus on the campaign.' },
+  { title: 'Menu around the brand moment', description: 'Signature bites or passed food planned for the campaign, the headcount and the venue rules.' },
+  { title: 'Presentation you brief', description: 'Napkins, trays and staff dress follow a brief you send. Unusual branding is quoted, not assumed.' },
+  { title: 'Chef and service staff', description: 'People at the station sized to the format. They serve food. They do not replace your brand team.' },
+  { title: 'Venue rules first', description: 'Loading, power, open flame and hall access are checked before the menu is locked.' },
+  { title: 'Setup, service and pack-down', description: 'The catering team builds, serves and clears. Your team stays on the campaign.' },
 ]
 
 const campaignTypes = [
@@ -87,12 +86,12 @@ const campaignTypes = [
     description: 'Put your product directly into guests\' hands with tastings, samples, and pairing moments that build instant familiarity and social proof.',
   },
   {
-    title: 'Luxury Brand Activations',
-    description: 'Polished, premium food experiences for high-end brands that need every touchpoint to feel considered and Instagram-worthy.',
+    title: 'High-end brand activations',
+    description: 'Quiet service and a menu that does not compete with the product. Food is not placed next to laptops or screens.',
   },
   {
-    title: 'Influencer & Media Events',
-    description: 'Visually striking menus and interactive stations that give creators something worth capturing and sharing.',
+    title: 'Press and media events',
+    description: 'Food that can pause for photographs. We do not post pictures of your guests or the house unless you have agreed that in writing.',
   },
   {
     title: 'Mall & Retail Pop-Ups',
@@ -295,10 +294,10 @@ export default function BrandActivationCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bda-hero-h1">
-            Brand Activation Catering Dubai: Pop-Ups, Sampling & Experiential
+            Brand Activation Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bda-hero-sub">
-            Canapés and small plates that guests can enjoy while they meet and mingle. Brand activations, pop-ups and sampling from AED 150 per person.
+            Signature bites and passed food around the brand moment, from AED 150 per person. Your team runs the campaign. We run the food.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Request a corporate catering quote</Link>
@@ -322,7 +321,7 @@ export default function BrandActivationCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">EXPERIENTIAL CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Hospitality around the brand moment
+            Brand activation catering Dubai around the brand moment
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Brand activation catering in Dubai is a signature bite and passed food around the brand moment. Canapé service starts from AED 150 per person. Guests can eat while they talk, sample and move.
@@ -521,10 +520,10 @@ export default function BrandActivationCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center bda-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Make Your Next Activation Unforgettable
+            Send the brief for the brand moment
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your campaign, audience, and venue. We'll design an experiential catering concept that turns guests into advocates.
+            Date, venue, headcount and the brand moment. You get an itemised quote for the food and the staff.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Request a corporate catering quote</Link>

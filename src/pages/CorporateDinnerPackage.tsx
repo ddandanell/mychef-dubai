@@ -20,19 +20,18 @@ export default function CorporateDinnerPackage() {
       intro="A corporate dinner package for 10–15 guests, with a private chef and service team, is AED 4,500. That figure is a fixed package price for this guest range, not multiplied by headcount. Chef-led plated dining at AED 700–950 per person is a different menu and service, used when the table is smaller or larger than 15, or when you want fully plated courses. If you are comparing dubai dinner cruise deals or a private dinner cruise dubai price, this package is a dinner in your office or venue, not a boat hire."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-dinner-package-dubai-hero.webp"
-      headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"
+      headline="Corporate Dinner Package Dubai"
       eyebrow="CORPORATE DINING PACKAGE"
-      subheadline="AED 4,500 for 10 to 15 guests. Private chef and service team sized to the table. Setup, service and kitchen cleanup included."
+      subheadline="AED 4,500 for 10 to 15 guests. Chef and service staff sized to the table. Setup, service and kitchen cleanup included. Not a dinner cruise."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
       included={[
-        'Bespoke multi-course or buffet menu for 10–15 guests',
-        'Professional private chef and service staff',
-        'Premium ingredients and elegant presentation',
-        'Tableware, linens, and place settings',
-        'Setup, service, and full kitchen cleanup',
-        'VAT invoice and corporate documentation',
+        'Menu for 10 to 15 guests, written for the table',
+        'Chef and service staff sized to the sitting',
+        'Tableware, linen and place settings for this format',
+        'Setup, service and kitchen cleanup',
+        'TRN-ready VAT invoice. An LPO does not create credit terms by itself',
       ]}
       sampleMenu={[
         'Starter: Burrata and heirloom tomato salad with basil pesto',

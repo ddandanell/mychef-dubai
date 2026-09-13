@@ -72,7 +72,7 @@ export const jumpNav = [
 ] as const
 
 export const routing = {
-  h2: 'Dependable breakfast and lunch for a known team',
+  h2: 'Office catering Dubai for a known team',
   paragraphs: [
     'Office catering Dubai is the repeating week: the same people, the same days, food that lands before the room fills. Consistency, menu variety and a delivery window you can trust matter more than theatre.',
     'Most offices already know the headcount. A daily office lunch in Dubai then runs on a weekly rhythm. Team lunch catering in Dubai for a department of ten is still that job: labelled meals, a rotating menu, one monthly invoice if you want it.',

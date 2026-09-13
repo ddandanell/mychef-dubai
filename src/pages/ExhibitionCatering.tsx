@@ -21,14 +21,14 @@ const config: ServicePageConfig = {
   ogImage: '/images/exhibition-catering-dubai-hero.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
   hideSiteName: true,
-  h1: 'Exhibition Catering Dubai: DWTC, Expo City & Trade Show Stands',
+  h1: 'Exhibition Catering Dubai',
   heroSub:
-    'Reliable, high-volume catering for exhibitors, organisers and trade show visitors at Dubai World Trade Centre, Expo City and major exhibition venues across the emirate.',
+    'Stand hospitality and exhibitor meals without assuming a kitchen. Drop-off from AED 90 per person. Hall access, power and replenishment are quoted as their own lines.',
   heroImage: '/images/exhibition-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like a quote for exhibition and trade show catering in Dubai (via mychef.ae/exhibition-catering-dubai)",
   eyebrow: 'EXHIBITION & TRADE SHOW CATERING IN DUBAI',
-  introH2: 'Keep Your Stand, Staff and Visitors Well Fed',
+  introH2: 'Exhibition catering Dubai for the stand, not a restaurant floor',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -81,7 +81,7 @@ const config: ServicePageConfig = {
     {
       Icon: Users,
       title: 'VIP Hospitality Catering',
-      description: 'Premium plated and buffet options for private meeting rooms, hospitality suites and executive lounges.',
+      description: 'Plated or buffet service for hospitality suites and private rooms, quoted separately from stand drop-off.',
       link: '/corporate-event-catering-dubai',
     },
   ],
@@ -145,7 +145,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can you handle dietary requirements for a large crowd?',
-      a: 'Absolutely. We build halal, vegetarian, vegan, gluten-free and dairy-free options into exhibition menus as standard, with clear labelling so every guest can choose confidently.',
+      a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free items are labelled when you name them. We do not describe an exhibition menu as allergen-free.',
     },
     {
       q: 'What is the minimum order for exhibition catering?',

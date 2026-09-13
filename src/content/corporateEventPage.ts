@@ -58,12 +58,12 @@ export const areaLinks = [
 
 export const hero = {
   eyebrow: 'Corporate Event Catering',
-  h1: 'Corporate Event Catering Dubai for Company Parties and Award Nights',
+  h1: 'Corporate Event Catering Dubai',
   subtitle:
-    'Celebrations, receptions and award nights with menus, chefs and service staff. Canapés from AED 150 per person. Staffed buffet from AED 120 per person. An itemised quote before anything is confirmed.',
-  primaryCta: 'Request a corporate catering quote',
-  secondaryCta: 'Chat on WhatsApp',
-  utility: 'Offices · Venues · Villas · Rooftops · Across Dubai',
+    'Corporate event catering Dubai for company parties, launches and award nights. Menus, chefs and service staff. Canapés from AED 150 per person. Staffed buffet from AED 120 per person. You host. We run the food and the room around it.',
+  primaryCta: 'Request an itemised event quote',
+  secondaryCta: 'Send the brief on WhatsApp',
+  utility: 'Offices · Venues · Hotels · Rooftops · Across Dubai',
 }
 
 /** Section 2 — scope. The single most important section: it prevents mismatched enquiries. */
@@ -71,7 +71,7 @@ export const scope: Block = {
   id: 'what-we-handle',
   h2: 'What you receive on the night',
   paragraphs: [
-    'For a corporate event, myCHEF runs the catering: menu design, sourcing, cooking, service staff, equipment, setup, service and pack-down. One person owns it, and you get an itemised quote before you approve anything.',
+    'Corporate event catering Dubai is the one-off company night: menu, chefs, service staff, equipment, setup, service and pack-down. One person owns it. You get an itemised quote before you approve anything.',
     'We coordinate with your venue, planner and production team. Room hire, audiovisual equipment, staging and entertainment stay with those specialists. Where you already have them, we work to their schedule.',
     'Catering has its own timeline under your run sheet: when food arrives, when service starts and how long a room takes to clear. Our job is to make that timeline fit yours.',
   ],
@@ -115,7 +115,7 @@ export const blocks: Block[] = [
   },
   {
     id: 'formats',
-    h2: 'The Format Does More Than the Menu',
+    h2: 'The format does more than the menu',
     paragraphs: [
       'The format decision does more to shape a corporate event than the menu does. It sets the cost, the staffing, the floor plan and how the evening feels.',
       'Buffets and grazing tables suit larger headcounts and mixed schedules, because people can eat when they are free rather than when service dictates. Canapés and finger food suit standing receptions, launches and networking, where nobody should need a table or two hands. Live stations add movement and something to gather around, which works when a room needs energy. Plated service suits seated dinners and award nights, where the timing is fixed and the impression is formal.',
@@ -133,7 +133,7 @@ export const blocks: Block[] = [
   },
   {
     id: 'menus',
-    h2: 'Menus for a Room You Do Not Fully Know',
+    h2: 'Menus for a room you do not fully know',
     paragraphs: [
       'A corporate event catering menu in Dubai has to work for a mixed room. Halal corporate event catering in Dubai is the default in our kitchens, not a side request, and vegetarian, vegan and gluten-free options are planned into the menu rather than added as a separate tray at the end.',
       'Send us the dietary breakdown you have, even an approximate one, and it changes how the menu is built rather than how it is patched. Where guests have specific allergies, tell us which guest and which allergen, and we plan labelling and separation around it. We describe what we do rather than promising an allergen-free environment, because a working event kitchen is a shared space.',
@@ -143,7 +143,7 @@ export const blocks: Block[] = [
   },
   {
     id: 'logistics',
-    h2: 'Venue, Access and the Parts Nobody Sees',
+    h2: 'Venue, access and the parts nobody sees',
     paragraphs: [
       'Most catering problems at corporate events are logistics problems. A service lift booked by another supplier, a venue that will not allow open flame, a loading bay that closes at six, a rooftop with no back-of-house at all: each of these changes what can be cooked and how it can be served.',
       'We check these before the menu is finalised, because it is cheaper to change a dish than to discover on site that it cannot be produced. If your venue has a preferred-supplier list or requires catering documentation before access, tell us early and we will handle that directly with them.',
@@ -152,7 +152,7 @@ export const blocks: Block[] = [
   },
   {
     id: 'pricing',
-    h2: 'Starting prices, then a quote for the night',
+    h2: 'Corporate event catering Dubai: starting prices, then a quote',
     paragraphs: [
       'Published starting prices cover defined formats: a staffed buffet from AED 120 per person, canapés from AED 150 per person, and chef-led plated dining at AED 700 to 950 per person. A hundred people at a standing reception and a hundred people at a seated award dinner are still different jobs, so the final quote confirms the event total.',
       'Corporate event catering packages in Dubai on this page show the menu, minimums and what the figure includes. What you receive next is an itemised quote: food, staffing, equipment, delivery and VAT as separate lines, so finance can see what they are approving.',
@@ -162,7 +162,7 @@ export const blocks: Block[] = [
   },
   {
     id: 'how-it-works',
-    h2: 'Send the Brief. Get a Proposal.',
+    h2: 'Send the brief. Get a proposal.',
     paragraphs: [
       'The fastest way to a useful proposal is a complete brief. Date, venue, headcount, event type, format if you know it, dietary requirements, and what you can approve if you already know it. Telling us early means the first proposal is realistic rather than the third one.',
     ],

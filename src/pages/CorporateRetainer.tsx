@@ -32,27 +32,27 @@ const CANONICAL_PATH = '/corporate-retainer-dubai'
 
 const benefits = [
   {
-    title: 'Predictable Monthly Spend',
-    description: 'Set a monthly catering budget and draw down against it. No surprise invoices, no per-event haggling.',
+    title: 'A written account, not a shop price',
+    description: 'Regular bookings sit on one agreement. Fees, credit and expiry are named in writing. They are not a default shop rule.',
   },
   {
-    title: 'Priority Scheduling',
-    description: 'Retainer clients reserve dates before they are released to the public: critical for board meetings and peak seasons.',
+    title: 'Dates held in the agreement',
+    description: 'Board lunches and peak weeks are booked against the account. Nothing on this page reserves a date by itself.',
   },
   {
-    title: 'Single Invoice',
-    description: 'All events consolidated into one monthly VAT-compliant invoice, simplifying your finance team\'s workflow.',
+    title: 'One VAT invoice',
+    description: 'Food, staffing, delivery and 5% VAT as separate lines, on one invoice if you want it. An LPO does not create credit terms by itself.',
   },
   {
-    title: 'Account Management',
-    description: 'A dedicated contact who knows your preferences, dietary policies, and recurring event calendar.',
+    title: 'One named contact',
+    description: 'Someone who already knows the dietary policy and the usual rooms. You are not re-briefing from a blank email each week.',
   },
 ]
 
 const faqs = [
   {
-    q: 'What is a corporate retainer?',
-    a: 'A corporate retainer is a monthly agreement that pre-allocates catering credit and gives your company priority booking, consolidated invoicing, and dedicated account support. It is designed for businesses that book private chef or catering services regularly.',
+    q: 'What is a corporate catering contract?',
+    a: 'A written account for companies that book often. If credit is included, bookings deduct from it at the rate for that job. Rollover, expiry and overages are named in the agreement. This page is catering for a company, not a household chef plan.',
   },
   {
     q: 'How does the monthly credit work?',
@@ -211,7 +211,7 @@ export default function CorporateRetainer() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">B2B CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A regular account, with prices you already know
+            Corporate catering contract Dubai for regular bookings
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

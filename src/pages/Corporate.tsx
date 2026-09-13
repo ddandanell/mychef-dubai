@@ -126,20 +126,20 @@ export default function Corporate() {
       <PageHero
         eyebrow="Corporate Catering Dubai"
         title="Corporate Catering Dubai for Offices, Boards and Events"
-        subtitle="Menus, chefs and service for offices, boardrooms and company events. Drop-off food from AED 90 per person, or add a staffed buffet, canapés or plated dining when the occasion needs it. Choose the page that matches the day you are planning."
+        subtitle="Corporate catering Dubai for offices, boardrooms and company events. You stay in the meeting. We run the food, the staff and the clear-down. Drop-off from AED 90 per person. Every proposal is itemised so finance can approve a real number."
         image={corporateHero.src}
         imageAlt={corporateHero.alt}
         imageWidth={corporateHero.width}
         imageHeight={corporateHero.height}
         align="left"
-        cta={{ label: 'Get a corporate catering quote', href: CATERING_INQUIRY_HREF }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: CORPORATE_WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Request an itemised corporate quote', href: CATERING_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Send the brief on WhatsApp', href: CORPORATE_WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate dining' }]}
         minHeight="full"
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share the date, venue, headcount and whether you need drop-off or staffed service.
+          Date, office or venue, headcount, and whether you need drop-off or staff in the room.
         </p>
       </PageHero>
       <TrustSignalStrip />
@@ -256,7 +256,7 @@ export default function Corporate() {
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
-              Get a corporate catering quote <ArrowRight size={14} aria-hidden />
+              Request an itemised corporate quote <ArrowRight size={14} aria-hidden />
             </Link>
           </div>
         </Container>
@@ -478,7 +478,7 @@ export default function Corporate() {
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
-              Get a corporate catering quote
+              Request an itemised corporate quote
             </Link>
             <a
               href={CORPORATE_WHATSAPP_LINK}
