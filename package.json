@@ -18,6 +18,7 @@
     "verify:soft-404": "python3 scripts/verify-soft-404.py",
     "test:catering-pricing": "tsx scripts/test-catering-pricing.ts",
     "test:yacht-quote": "tsx scripts/test-yacht-catering-quote.ts",
+    "test:corporate-packages": "tsx scripts/test-corporate-packages.ts",
     "test:seo-g-h": "tsx scripts/test-seo-g-h.ts",
     "test:faq-jsonld": "tsx scripts/test-faq-jsonld.ts",
     "test:conversion-events": "tsx scripts/test-conversion-events.ts",

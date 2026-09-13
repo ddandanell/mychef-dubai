@@ -22,8 +22,14 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
+import CorporateSiblings from '@/components/corporate/CorporateSiblings'
+import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
 import { CORPORATE_PATHS } from '@/content/corporateCluster'
+import { packagesForOwner } from '@/content/corporatePackages'
 import {
   OFFICE_KEYWORD_LOCK,
   OFFICE_ROOT,
@@ -40,6 +46,7 @@ import {
   pricingIntro,
   pricingNotes,
   proofItems,
+  officeMenuCycle,
   quoting,
   recurring,
   routing,
@@ -99,7 +106,7 @@ export default function OfficeCatering() {
       <PageHero
         eyebrow="Office catering"
         title={OFFICE_KEYWORD_LOCK.h1}
-        subtitle="Office Catering Dubai for daily lunches, breakfasts and weekly workplace service. Start with drop-off food from AED 90 per person, or add chefs and service staff when the sitting needs it. Recurring workplace catering and one-off company events are different operations — pick the page that matches the day you are planning."
+        subtitle="Office catering Dubai for daily lunches, breakfasts and weekly workplace service. Start with drop-off food from AED 90 per person, or add chefs and service staff when the sitting needs it. Recurring workplace catering and one-off company events are different operations. Pick the page that matches the day you are planning."
         image={officeHero.src}
         imageAlt={officeHero.alt}
         imageWidth={officeHero.width}
@@ -116,7 +123,7 @@ export default function OfficeCatering() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share the days, office and headcount. We typically reply within 15 minutes during business hours.
+          Share the days, office, headcount and whether you want drop-off or staffed service.
         </p>
       </PageHero>
       <TrustSignalStrip />
@@ -140,37 +147,10 @@ export default function OfficeCatering() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
-          <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {OFFICE_SIBLING_LINKS.map((item) => (
-              <li key={item.href}>
-                <Link
-                  to={item.href}
-                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This page owns office catering in Dubai. Daily office lunch Dubai and office lunch catering Dubai are the
-            recurring weekday sitting. Team lunch catering Dubai and weekly office catering Dubai are the same brief
-            with a different cadence. Corporate lunch delivery Dubai and office food delivery Dubai are the drop-off
-            version — still this page, not a one-off party. One-off parties, launches and award nights sit on{' '}
-            <Link to={CORPORATE_PATHS.events} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              corporate event catering
-            </Link>
-            . The wider brief sits on{' '}
-            <Link to={CORPORATE_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Corporate dining
-            </Link>
-            . Broader catering sits on{' '}
-            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Luxury catering in Dubai
-            </Link>
-            .
-          </p>
+          <CorporateSiblings
+            items={OFFICE_SIBLING_LINKS}
+            note="This page is the repeating workplace week: breakfast and lunch for a known headcount. One-off parties sit on corporate event catering. Boardroom client lunches sit on business lunch catering."
+          />
         </Container>
       </Section>
 
@@ -266,6 +246,67 @@ export default function OfficeCatering() {
         </Container>
       </Section>
 
+      <Section id="packages" tone="ivory" rhythm="chapter">
+        <Container>
+          <CorporatePackageCompare
+            packages={packagesForOwner('/office-catering-dubai')}
+            heading="Office breakfast, lunch and meeting packages"
+            intro="Drop-off food starts from AED 90 per person, minimum 10 guests and AED 900. A staffed buffet starts from AED 120 and 20 guests. Recurring weeks are billed on the actual service days. No automatic volume discount."
+          />
+          <div className="mt-12">
+            <CorporateWorkedBudgets
+              heading="Office catering packages, worked totals"
+              intro="Daily office lunch in Dubai is usually drop-off. Weekly office catering is the same food on named days. Catering for an office meeting that needs a line in the room is the staffed buffet."
+              examples={[
+                {
+                  title: '12-person breakfast drop-off',
+                  packageId: 'corp-office-breakfast-dropoff',
+                  guests: 12,
+                  note: 'Laid out before the floor fills.',
+                },
+                {
+                  title: '12-person weekday lunch',
+                  packageId: 'corp-office-lunch-dropoff',
+                  guests: 12,
+                  note: 'Corporate lunch delivery. You clear trays.',
+                },
+                {
+                  title: '15 people, four days',
+                  packageId: 'corp-office-weekly-lunch',
+                  guests: 15,
+                  days: 4,
+                  note: 'Actual service days. No automatic volume discount.',
+                },
+              ]}
+            />
+          </div>
+          <div className="mt-12 overflow-x-auto">
+            <h3 className="font-playfair text-h4 text-black mb-4">Sample lunch cycle</h3>
+            <p className="font-inter text-body-sm text-gray-600 mb-4 max-w-[65ch]">
+              A repeating week rotates so the same grain bowl does not appear twice in two weeks. This is a sample, not a locked menu.
+            </p>
+            <table className="w-full min-w-[480px] text-left font-inter text-body-sm text-gray-700">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="py-3 pr-4 font-medium text-black">Day</th>
+                  <th className="py-3 font-medium text-black">Lunch</th>
+                </tr>
+              </thead>
+              <tbody>
+                {officeMenuCycle.map((row) => (
+                  <tr key={row.day} className="border-b border-gray-100">
+                    <td className="py-3 pr-4 text-black">{row.day}</td>
+                    <td className="py-3">{row.lunch}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Container>
+      </Section>
+
+      <CorporateInventory path={OFFICE_ROOT} quoteHref="#quote" />
+
       <Section id="formats" tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE FORMAT</SectionLabel>
@@ -303,9 +344,9 @@ export default function OfficeCatering() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>IF THE BRIEF IS SLIGHTLY DIFFERENT</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Open the page that owns the brief</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">If the brief is slightly different</DisplayHeading>
           <BodyCopy className="mb-12">
-            This page does not replace breakfast, drop-off, business lunch or workforce meals. It sends you there.
+            Breakfast, drop-off mechanics, a client lunch and workforce canteen meals have their own pages. Use those when that is the actual job.
           </BodyCopy>
           <div className="grid md:grid-cols-2 gap-8">
             {siblingCards.map((item) => (
@@ -357,6 +398,9 @@ export default function OfficeCatering() {
             </Link>
             .
           </p>
+          <div className="mt-10">
+            <CorporateQuoteNeeds inquiryHref={CATERING_INQUIRY_HREF} whatsappHref={OFFICE_WHATSAPP_LINK} />
+          </div>
         </Container>
       </Section>
 
@@ -442,7 +486,7 @@ export default function OfficeCatering() {
           <SectionLabel tone="dark">TELL US THE WEEK</SectionLabel>
           <DisplayHeading className="text-white mb-6">Days, office and headcount is enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            Drop-off starts from AED 90 per person. You do not need a finished brief. We typically reply within 15 minutes during business hours.
+            Drop-off starts from AED 90 per person. Days, office and headcount is enough to start. Dietary notes can follow.
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">

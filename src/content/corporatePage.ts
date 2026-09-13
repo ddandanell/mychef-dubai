@@ -55,6 +55,72 @@ export const routing = {
   ],
 }
 
+export const whatWeHandle = {
+  h2: 'What corporate catering services in Dubai include',
+  paragraphs: [
+    'myCHEF runs the food and hospitality operation: menus, food preparation or supply, chefs, catering service staff, beverages, food-service equipment, setup, service and clearance. Corporate catering food is planned for the room you actually have, not for a restaurant floor plan.',
+    'Corporate catering services in Dubai cover office meals, meetings, conferences, staff parties, launches, exhibitions, executive dinners and productions. Conference support means the catering operation around the agenda. We do not add AV, staging, entertainment or venue hire.',
+    'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. That is not a medical or allergen-free promise. Alcohol is only where the venue is licensed and it is agreed in writing.',
+  ],
+} as const
+
+export const meetingRouting = {
+  h2: 'Company lunch, boardroom catering and business meetings',
+  paragraphs: [
+    'Google often shows this hub for business meeting catering and business lunch searches. Those jobs have owner pages. This page is the centre: corporate catering Dubai as a supplier comparison, then a route to the right operation.',
+    'Company lunch catering in Dubai for a repeating team is office catering. Boardroom catering for a client sitting is business lunch catering. Recurring corporate catering is a weekly or monthly rhythm on the office or staff-meals pages. A VIP table is still a plated dinner or the 10 to 15 guest package, not a different product name.',
+    'A Diwali gathering or other seasonal company sitting is quoted as an event. Price per head moves with format more than with the calendar. Tell us the day. We will put it on the page that owns it.',
+  ],
+} as const
+
+export const dietaryAtScale = {
+  h2: 'Corporate catering, halal, and mixed rooms',
+  paragraphs: [
+    'Corporate catering that is halal-first still has to work for a mixed room: colleagues who eat meat, guests who do not, and named allergens. Labels go on the tray. Separation is planned when you name the guest and the allergen.',
+    'You do not need a full dietary list to start a proposal. Headcount and format first. Dietary notes can follow before the kitchen deadline in the booking.',
+  ],
+} as const
+
+export const hubWorkedExamples = [
+  {
+    title: '12-person weekday company lunch',
+    packageId: 'corp-office-lunch-dropoff',
+    guests: 12,
+    note: 'Drop-off. Food and delivery. Your team serves itself.',
+  },
+  {
+    title: '15 people, four office days',
+    packageId: 'corp-office-weekly-lunch',
+    guests: 15,
+    days: 4,
+    note: 'Recurring week. Actual service days. No automatic volume discount.',
+  },
+  {
+    title: '8-person client lunch, plated',
+    packageId: 'corp-lunch-client',
+    guests: 8,
+    note: 'Boardroom client lunch. Chef-led plated band, not AED 90 drop-off.',
+  },
+  {
+    title: '40-person conference day',
+    packageId: 'corp-conf-full-day',
+    guests: 40,
+    note: 'Staffed buffet floor for a full day. Venue extras sit on their own line.',
+  },
+  {
+    title: '60-person networking reception',
+    packageId: 'corp-event-networking',
+    guests: 60,
+    note: 'Canapé reception. A business event, not a seated gala.',
+  },
+  {
+    title: '12-person corporate dinner package',
+    packageId: 'corp-dinner-package',
+    guests: 12,
+    note: 'Whole-event AED 4,500. Not multiplied by 12.',
+  },
+] as const
+
 export const quoting = {
   h2: 'How a Corporate Quote Is Built',
   paragraphs: [
@@ -70,7 +136,7 @@ export const CORPORATE_KEYWORD_LOCK = {
   primary: 'corporate catering dubai',
   title: 'Corporate Catering Dubai | Offices, Boards & Events | myCHEF',
   description:
-    'Book corporate catering Dubai for offices, boardrooms, client lunches and company events. Drop-off, buffet or plated service—from AED 90 per person.',
+    'Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.',
 } as const
 
 export const CORPORATE_WHATSAPP_NUMBER = '971551744849'
@@ -95,6 +161,10 @@ export const corporateHero = {
 export const jumpNav = [
   { href: '#services', label: 'Services' },
   { href: '#pricing', label: 'Prices' },
+  { href: '#packages', label: 'Packages' },
+  { href: '#inventory', label: 'Full brief' },
+  { href: '#budgets', label: 'Worked totals' },
+  { href: '#meetings', label: 'Lunch and boardroom' },
   { href: '#quote', label: 'How a quote is built' },
   { href: '#how-it-works', label: 'How it works' },
   { href: '#examples', label: 'Examples' },
@@ -142,6 +212,14 @@ export const moreCorporate = [
   { href: '/business-lunch-catering-dubai', label: 'Business lunch catering' },
   { href: '/conference-catering-dubai', label: 'Conference catering' },
   { href: '/corporate-event-catering-dubai', label: 'Corporate event catering' },
+  { href: '/corporate-dinner-package-dubai', label: 'Corporate dinner package' },
+  { href: '/product-launch-catering-dubai', label: 'Product launch catering' },
+  { href: '/gala-dinner-catering-dubai', label: 'Gala dinner catering' },
+  { href: '/exhibition-catering-dubai', label: 'Exhibition catering' },
+  { href: '/staff-meals-catering-dubai', label: 'Staff meals' },
+  { href: '/production-catering-dubai', label: 'Production catering' },
+  { href: '/corporate-retainer-dubai', label: 'Corporate catering account' },
+  { href: '/corporate-catering-checklist-dubai', label: 'Corporate catering checklist' },
 ] as const
 
 export const startSteps = [
@@ -150,6 +228,9 @@ export const startSteps = [
   'You get an itemised proposal — food, staffing, equipment, delivery and 5% VAT as separate lines.',
   'On the day the team runs setup, service and clear-down to the timetable you approved.',
 ] as const
+
+export const quoteNeedsNote =
+  'An LPO or consolidated invoice does not by itself create credit terms. We issue TRN-ready VAT invoices. Payment and cancellation follow the written booking, not a shop-window promise.'
 
 export const proofItems = [
   {
@@ -184,22 +265,22 @@ export const proofItems = [
 
 export const exampleEvents = [
   {
-    title: 'Product launch, DIFC',
-    guests: '60 guests',
-    venue: 'Venue, DIFC',
-    setup: 'Branded canapés, a live chef station, timed guest flow around the reveal.',
-    outcome: 'Service timed to the product reveal, with interactive cooking in the room.',
-    href: '/corporate-event-catering-dubai',
-    linkLabel: 'Corporate event catering in Dubai',
+    title: 'How a product launch is usually run',
+    guests: 'Standing reception',
+    venue: 'Showroom or office floor',
+    setup: 'Passed canapés that can pause for the reveal. Live cooking only if the room allows it.',
+    outcome: 'Food supports the product moment. It does not sit on laptops or compete with the brief.',
+    href: '/product-launch-catering-dubai',
+    linkLabel: 'Product launch catering',
   },
   {
-    title: 'Corporate gala dinner, Downtown Dubai',
-    guests: '200 guests',
-    venue: 'Ballroom, Downtown Dubai',
-    setup: 'Four-course plated service, timed courses, full front-of-house staffing.',
-    outcome: 'Seated dinner held timing, dietary coverage and service across a large room.',
-    href: '/corporate-event-catering-dubai',
-    linkLabel: 'Corporate event catering in Dubai',
+    title: 'How a seated company dinner is usually run',
+    guests: 'A known table, not an unnamed ballroom',
+    venue: 'Office dining room or hired venue kitchen',
+    setup: 'Courses timed to speeches. Staff sized to the table. Dietary plates labelled.',
+    outcome: 'The room stays on the agenda. We do not publish client names or venue details unless you agree in writing.',
+    href: '/corporate-dinner-package-dubai',
+    linkLabel: 'Corporate dinner package',
   },
 ] as const
 
@@ -218,7 +299,19 @@ export const corporateFaqs = [
   },
   {
     q: 'Do you offer a standing corporate arrangement?',
-    a: 'Yes. A written contract suits organisations catering regularly through the year. It removes the briefing from every booking. See corporate catering contracts.',
+    a: 'Yes. A written corporate catering contract suits organisations that book often. Fees, credit and expiry are set in that agreement, not as a shop price. See [corporate catering contracts](/corporate-retainer-dubai).',
+  },
+  {
+    q: 'Is this the page for business lunch or a business meeting?',
+    a: 'This hub is corporate catering in Dubai as a whole. A client or boardroom sitting is [business lunch catering](/business-lunch-catering-dubai). A repeating team lunch is [office catering](/office-catering-dubai). A party or launch is [corporate event catering](/corporate-event-catering-dubai).',
+  },
+  {
+    q: 'What does a corporate catering company in Dubai actually run?',
+    a: 'Menus, food preparation or supply, chefs, service staff, beverages, food-service equipment, setup, service and clearance. Not AV, staging, entertainment or venue hire. Halal ingredients are the default.',
+  },
+  {
+    q: 'How do corporate lunch packages in Dubai work for a small team?',
+    a: 'Small corporate catering still uses the same floors. Below ten guests, drop-off hits the AED 900 minimum order. A chef cooking on site has no headcount minimum. Recurring weeks are billed on actual service days.',
   },
   {
     q: 'Is invoicing available for corporate accounts?',
@@ -230,7 +323,7 @@ export const corporateFaqs = [
   },
   {
     q: 'How far in advance should we book?',
-    a: 'A few days is usually enough for regular office catering. For larger company events, two to four weeks is comfortable, and earlier between November and March. We typically reply within 15 minutes during business hours.',
+    a: 'A few days is usually enough for regular office catering. For larger company events, two to four weeks is comfortable, and earlier between November and March.',
   },
   {
     q: 'Which areas of Dubai do you cover?',

@@ -32,11 +32,12 @@ export interface Block {
 export const seo = {
   title: 'Corporate Event Catering Dubai | myCHEF',
   description:
-    'Corporate Event Catering Dubai for company parties, launches and award nights. Menu, chefs, staff, setup and pack-down — itemised before you confirm.',
+    'Corporate event catering Dubai for company parties, launches and networking. Canapés from AED 150. Staffed buffet from AED 120. Not AV or venue hire.',
 } as const
 
 /** STANDARD internal_linking.siblings — render exactly. */
 export const siblingLinks = [
+  { href: '/gala-dinner-catering-dubai', label: 'Gala dinner catering' },
   { href: '/corporate', label: 'Corporate dining' },
   { href: '/blog/corporate-event-catering-ideas-dubai', label: 'Corporate event catering ideas' },
   { href: '/live-cooking-stations-dubai', label: 'Live cooking stations' },
@@ -51,7 +52,7 @@ export const hero = {
   eyebrow: 'Corporate Event Catering',
   h1: 'Corporate Event Catering Dubai for Company Parties and Award Nights',
   subtitle:
-    'Corporate event catering Dubai is the one-off company night — parties, launches, award dinners and networking — with menu, chefs, service staff, setup and pack-down handled, and an itemised proposal before anything is confirmed.',
+    'Corporate event catering Dubai is the one-off company night: parties, launches, award dinners and networking. Menu, chefs, service staff, setup and pack-down. An itemised proposal before anything is confirmed.',
   primaryCta: 'Request a proposal',
   secondaryCta: 'Chat on WhatsApp',
   utility: 'Offices · Venues · Villas · Rooftops · Across Dubai',
@@ -63,7 +64,7 @@ export const scope: Block = {
   h2: 'What myCHEF Handles, and What Stays With You',
   paragraphs: [
     'For a corporate event, myCHEF runs the catering operation: menu design, sourcing, cooking, service staff, equipment, setup, service on the night and pack-down afterwards. One person owns it, and you get an itemised proposal showing what each part costs before you approve anything.',
-    'We coordinate that operation with your venue, your event planner and your production team. We are not an event production company — we do not supply AV, staging, entertainment or decor, and we would rather say so than let you discover it two days before the event. Where you already have those suppliers, we work to their schedule.',
+    'We coordinate that operation with your venue, your event planner and your production team. We are not an event production company. We do not supply AV, staging, entertainment or decor, and we would rather say so than let you discover it two days before the event. Where you already have those suppliers, we work to their schedule.',
     'That split matters most on the day. Catering has its own timeline running underneath your run sheet: when food arrives, when it can be held, when service starts and how long a room takes to clear. Our job is to make that timeline fit yours without you having to manage it.',
   ],
 }

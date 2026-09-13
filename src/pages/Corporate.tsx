@@ -22,7 +22,13 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
+import CorporateSiblings from '@/components/corporate/CorporateSiblings'
+import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { packageById } from '@/content/corporatePackages'
 import {
   CORPORATE_KEYWORD_LOCK,
   CORPORATE_ROOT,
@@ -33,6 +39,9 @@ import {
   corePathways,
   corporateFaqs,
   corporateHero,
+  dietaryAtScale,
+  hubWorkedExamples,
+  meetingRouting,
   exampleEvents,
   formatLadder,
   jumpNav,
@@ -43,7 +52,16 @@ import {
   quoting,
   routing,
   startSteps,
+  whatWeHandle,
 } from '@/content/corporatePage'
+
+const hubPackages = [
+  packageById('corp-office-lunch-dropoff'),
+  packageById('corp-lunch-client'),
+  packageById('corp-conf-full-day'),
+  packageById('corp-event-networking'),
+  packageById('corp-dinner-package'),
+].filter((pkg): pkg is NonNullable<typeof pkg> => Boolean(pkg))
 
 const schema = {
   '@context': 'https://schema.org',
@@ -68,6 +86,17 @@ const schema = {
           { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Staff Meals Catering', url: 'https://www.mychef.ae/staff-meals-catering-dubai' } },
         ],
       },
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: corporateFaqs.map((item) => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.a.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'),
+        },
+      })),
     },
     {
       '@type': 'BreadcrumbList',
@@ -97,7 +126,7 @@ export default function Corporate() {
       <PageHero
         eyebrow="Corporate Catering Dubai"
         title="Corporate Catering Dubai for Offices, Boards and Events"
-        subtitle="Corporate catering in Dubai for offices, boardrooms, client lunches and company events. Start with drop-off food from AED 90 per person, or add chefs, service staff and plated dining when the occasion needs it. Recurring workplace catering, one-off company events and production catering are different operations — pick the page that matches the day you are planning."
+        subtitle="Corporate catering in Dubai for offices, boardrooms, client lunches and company events. Start with drop-off food from AED 90 per person, or add chefs, service staff and plated dining when the occasion needs it. Recurring workplace catering, one-off company events and production catering are different operations. Pick the page that matches the day you are planning."
         image={corporateHero.src}
         imageAlt={corporateHero.alt}
         imageWidth={corporateHero.width}
@@ -110,7 +139,7 @@ export default function Corporate() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share the date, venue and headcount. We typically reply within 15 minutes during business hours.
+          Share the date, venue, headcount and whether you need drop-off or staffed service.
         </p>
       </PageHero>
       <TrustSignalStrip />
@@ -134,30 +163,10 @@ export default function Corporate() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
-          <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {CORPORATE_SIBLING_LINKS.map((item) => (
-              <li key={item.href}>
-                <Link
-                  to={item.href}
-                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This page owns corporate catering in Dubai. Broader catering sits on{' '}
-            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Luxury catering in Dubai
-            </Link>
-            . Weddings, birthdays and private parties sit on{' '}
-            <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              event catering in Dubai
-            </Link>
-            .
-          </p>
+          <CorporateSiblings
+            items={CORPORATE_SIBLING_LINKS}
+            note="This page is the corporate hub: offices, boardrooms, conferences and company events. Weddings, birthdays, yachts and private parties are quoted on their own pages."
+          />
         </Container>
       </Section>
 
@@ -253,12 +262,70 @@ export default function Corporate() {
         </Container>
       </Section>
 
+      <Section id="packages" tone="ivory" rhythm="chapter">
+        <Container>
+          <CorporatePackageCompare
+            packages={hubPackages}
+            heading="Which package fits the occasion"
+            intro="These are advertised starting points, not 30 shop-window SKUs. Each owner page lists the menu, minimums and what the headline actually covers. Unusual venue costs sit on their own line."
+          />
+        </Container>
+      </Section>
+
+      <CorporateInventory path={CORPORATE_ROOT} quoteHref="#quote" />
+
+      <Section id="budgets" tone="white" rhythm="chapter">
+        <Container>
+          <CorporateWorkedBudgets
+            heading="Worked totals from advertised floors"
+            intro="These examples use the public package record. They are planning numbers, not a booking. Corporate catering price per head in Dubai moves with format more than with a slogan."
+            examples={hubWorkedExamples}
+          />
+        </Container>
+      </Section>
+
+      <Section id="included" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE OPERATION</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{whatWeHandle.h2}</DisplayHeading>
+          {whatWeHandle.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 40)} className="mb-4">
+              {p}
+            </BodyCopy>
+          ))}
+        </Container>
+      </Section>
+
+      <Section id="meetings" tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>LUNCH AND BOARDROOM</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{meetingRouting.h2}</DisplayHeading>
+          {meetingRouting.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 40)} className="mb-4">
+              {p}
+            </BodyCopy>
+          ))}
+        </Container>
+      </Section>
+
+      <Section id="dietary" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>MIXED ROOMS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{dietaryAtScale.h2}</DisplayHeading>
+          {dietaryAtScale.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 40)} className="mb-4">
+              {p}
+            </BodyCopy>
+          ))}
+        </Container>
+      </Section>
+
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>THE RANGE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Open the page that owns the brief</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Pick the page that matches the day</DisplayHeading>
           <BodyCopy className="mb-12">
-            This hub does not replace office, event, conference or staff-meal pages. It sends you there.
+            Recurring lunches, one-off parties, conferences and crew meals run on different operations. Use the page for the day you are planning.
           </BodyCopy>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {corePathways.map((item) => (
@@ -314,6 +381,9 @@ export default function Corporate() {
               {p}
             </BodyCopy>
           ))}
+          <div className="mt-10">
+            <CorporateQuoteNeeds inquiryHref={CATERING_INQUIRY_HREF} whatsappHref={CORPORATE_WHATSAPP_LINK} />
+          </div>
         </Container>
       </Section>
 
@@ -404,7 +474,7 @@ export default function Corporate() {
           <SectionLabel tone="dark">TELL US THE DAY</SectionLabel>
           <DisplayHeading className="text-white mb-6">Date, venue and headcount is enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            Drop-off starts from AED 90 per person. You do not need a finished brief. We typically reply within 15 minutes during business hours.
+            Drop-off starts from AED 90 per person. Date, venue and headcount is enough to start. Dietary notes can follow.
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">

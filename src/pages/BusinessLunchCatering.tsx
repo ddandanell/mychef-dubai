@@ -29,6 +29,10 @@ import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
+import { packagesForOwner } from '@/content/corporatePackages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -40,69 +44,67 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const lunchFormats = [
   {
     icon: Presentation,
-    title: 'Boardroom Lunches',
-    description: 'Discreet, polished lunches delivered and set up in your boardroom so meetings flow without breaking for an off-site.',
+    title: 'Boardroom lunch',
+    description: 'Food in the room so the meeting does not break for a restaurant. Drop-off from AED 90, or plated if the table is a client sitting.',
     link: '/corporate',
   },
   {
     icon: Handshake,
-    title: 'Client Meeting Catering',
-    description: 'Impressive plated or shared menus for hosting clients and partners — the kind of detail that reflects well on your firm.',
-    link: '/conference-catering-dubai',
+    title: 'Client lunch',
+    description: 'Plated courses, staff in the room, devices off the table. AED 700 to 950 per person. Not a view, not a restaurant listing.',
+    link: '/corporate-dinner-package-dubai',
   },
   {
     icon: Clock,
-    title: 'Working Lunches',
-    description: 'Efficient, hand-friendly menus designed to keep a session moving — eaten at the table, with minimal disruption.',
+    title: 'Working lunch',
+    description: 'Boxed or sharing platters that can be eaten with one hand. Delivered before the agenda slot. No staff remaining unless you ask.',
     link: '/office-catering-dubai',
   },
   {
     icon: Briefcase,
-    title: 'Executive Lunches',
-    description: 'Elevated menus for leadership lunches, partner meetings, and investor sessions where presentation matters.',
+    title: 'Leadership sitting',
+    description: 'A small senior table. Same floors as above. The difference is headcount, timing and whether anyone stays in the room.',
     link: '/corporate',
   },
   {
     icon: Utensils,
-    title: 'Plated & Buffet Service',
-    description: 'Choose individually plated lunches for formal settings or a tidy buffet for larger groups and flexible timing.',
-    link: '/catering-dubai',
+    title: 'Plated or buffet',
+    description: 'Plated is courses. Buffet is a line, from AED 120 and 20 guests. Choose the one the room can physically support.',
+    link: '/buffet-catering-dubai',
   },
   {
     icon: Leaf,
-    title: 'Dietary-Inclusive Menus',
-    description: 'Vegetarian, vegan, gluten-free, and lighter options built in, so every guest at the table is well looked after.',
-    link: '/cuisines-dubai',
+    title: 'Dietary lines',
+    description: 'Halal by default. Vegetarian, vegan and gluten-free when named in the brief. Labels on the tray. Not a medical promise.',
+    link: '/halal-catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Refined Presentation', description: 'Menus styled and served to a standard that reflects well on your business.' },
-  { title: 'Punctual Delivery', description: 'On-time arrival and set-up timed precisely around your meeting agenda.' },
-  { title: 'Discreet On-Site Service', description: 'Quiet, professional set-up and clearing that never interrupts the room.' },
-  { title: 'Dietary Inclusivity', description: 'Vegetarian, vegan, gluten-free, and halal options arranged on request.' },
-  { title: 'Plated or Buffet', description: 'Formal individual plating or a flexible buffet, suited to your setting.' },
-  { title: 'Flexible Group Sizes', description: 'From an intimate boardroom of six to large client gatherings.' },
-  { title: 'Single Point of Contact', description: 'One contact to plan menus, timings, and recurring meeting catering.' },
-  { title: 'Quality Ingredients', description: 'Fresh produce and proteins prepared to a consistently high standard.' },
+  { title: 'Timed to the agenda', description: 'Arrival window named in the proposal. Setup before the slot. Clearance after it.' },
+  { title: 'Coverage named', description: 'Drop-off is food and delivery. Staffed service is food plus people in the room. VAT 5% as its own line.' },
+  { title: 'Quiet in the room', description: 'Staff, when booked, set, replenish and leave. They do not join the meeting.' },
+  { title: 'Dietary marks', description: 'Halal default. Named vegetarian, vegan, gluten-free and allergen plates when you send the list.' },
+  { title: 'One contact', description: 'One person owns the brief. Recurring lunches do not start from a blank email each week.' },
+  { title: 'Itemised invoice', description: 'Food, staff, delivery, equipment and VAT as separate lines. An LPO does not create credit terms by itself.' },
 ]
 
 const useCases = [
   {
-    title: 'Boardroom & Partner Meetings',
-    description: 'When a meeting runs through lunch, stepping out costs momentum. A boardroom lunch keeps everyone in the room and the agenda on track. We deliver, set up discreetly, and clear away just as quietly, so the focus stays on the conversation rather than the catering.',
+    title: 'The meeting that cannot leave the floor',
+    description: 'If people walk out for lunch, the sitting is over. We deliver, lay out, and either leave or stay only if you booked staff. The agenda keeps its slot.',
   },
   {
-    title: 'Hosting Clients & Investors',
-    description: 'A considered lunch is part of how you present your firm. For client pitches, partner negotiations, and investor sessions, we provide refined, well-styled menus that make hosting effortless and leave the right impression — without you needing to leave the building.',
+    title: 'A client at the table',
+    description: 'A pitch lunch is plated, not boxed. Chef and service sized to the table. You are not asked to plate it, and you are not asked to leave the building.',
   },
   {
-    title: 'Recurring Meeting Catering',
-    description: 'Firms that host regular client lunches or weekly leadership sessions benefit from a standing arrangement. We keep your preferences, dietary notes, and timings on file, so each booking takes a single message and the quality stays consistent meeting after meeting.',
+    title: 'The same lunch every Tuesday',
+    description: 'Preferences, dietary notes and the delivery window stay on file. Each week is a confirmation, not a new brief. Recurring days are billed as they run.',
   },
   {
-    title: 'Working Lunches Under Pressure',
-    description: 'Some sessions cannot pause. For deal rooms, planning days, and back-to-back agendas, we design efficient, hand-friendly menus that can be eaten at the table with minimal disruption — fuelling the team without breaking the flow of work.',
+    title: 'A deal room that does not pause',
+    description: 'Boxed or sharing food that can be eaten at the table. No knife work. No queue. Headcount can move until the kitchen deadline in the booking.',
   },
 ]
 
@@ -162,7 +164,7 @@ const faqs = [
   },
   {
     q: 'How much notice do you need for a business lunch?',
-    a: 'For a standard business lunch, a few working days’ notice is usually sufficient. For larger client events or bespoke executive menus, we recommend a little more lead time. If you cater regularly, a standing arrangement makes last-minute bookings far simpler.',
+    a: 'A few days is usually enough for a repeating drop-off. A plated client sitting needs more notice. Recurring Tuesdays are a confirmation, not a new brief.',
   },
 ]
 
@@ -284,7 +286,7 @@ export default function BusinessLunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Business Lunch Catering Dubai | Boardroom & Client | myCHEF"
-        description="Business lunch catering Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal menus. Get a quote in 15 min."
+        description="Business lunch catering Dubai for boardrooms and client sittings. Drop-off from AED 90. Plated client lunch AED 700 to 950. Itemised VAT invoice."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -309,13 +311,13 @@ export default function BusinessLunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 blun-hero-h1">
-            Business Lunch Catering Dubai — Boardroom, Client & Working Lunches
+            Business Lunch Catering Dubai: Boardroom, Client & Working Lunches
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 blun-hero-sub">
-            Boardroom lunches, client meeting catering, and efficient working lunches — refined, punctual, and delivered to your office across Dubai.
+            Boardroom, client and working lunches in the office. Drop-off from AED 90. Plated client lunch AED 700 to 950. The format is the decision.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Get My Business Lunch Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -340,19 +342,63 @@ export default function BusinessLunchCatering() {
             Lunches That Keep Business Moving
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background — arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
+            A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background: arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Business lunch catering Dubai price and Business lunch catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Business lunch offers in Dubai and Business lunch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The Business lunch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Office lunch delivery Dubai and Business lunch delivery Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            If you are weighing up best Business lunch Dubai with a view, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Business lunch buffet Dubai, Business lunch options Dubai and Business lunch Downtown Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+            A working lunch is drop-off from AED 90 per person. A plated client lunch is the chef-led band of AED 700–950 per person. Those are different products. This page is not a restaurant listing and it is not a view. It is food in your boardroom, timed to the agenda, with an itemised invoice.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From discreet boardroom lunches and polished client hosting to fast, hand-friendly working lunches, we tailor each menu to the setting and the agenda. Firms that host regularly find a standing arrangement saves time and keeps quality consistent, booking after booking. Explore the formats below, or see how business lunches sit within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or scale up to <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>.
+            A working lunch keeps the agenda in the room. A client lunch is plated and staffed. Do not price those two as the same sandwich. Recurring Tuesdays belong on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A party belongs on <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. The hub for the whole company operation is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <CorporatePackageCompare
+            packages={packagesForOwner('/business-lunch-catering-dubai')}
+            heading="Boardroom, working lunch and client lunch"
+            intro="A boxed or sharing lunch uses the AED 90 drop-off floor. A plated client lunch uses the AED 700–950 chef-led band. Do not compare those two as if they were the same product."
+          />
+          <div className="mt-12">
+            <CorporateWorkedBudgets
+              heading="Business lunch catering Dubai, worked totals"
+              intro="Business lunch delivery in Dubai is usually drop-off. A plated client sitting is a different product. These totals use advertised floors only."
+              examples={[
+                {
+                  title: '6-person boxed working lunch',
+                  packageId: 'corp-lunch-boxed',
+                  guests: 6,
+                  note: 'Billed at the 10-guest minimum and AED 900 order floor.',
+                },
+                {
+                  title: '12-person boardroom sharing lunch',
+                  packageId: 'corp-lunch-boardroom',
+                  guests: 12,
+                  note: 'Platters on the table. No staff remaining in the room.',
+                },
+                {
+                  title: '8-person client lunch, plated',
+                  packageId: 'corp-lunch-client',
+                  guests: 8,
+                  note: 'Chef-led plated band. This is not a restaurant with a view.',
+                },
+              ]}
+            />
+          </div>
+          <div className="mt-12 max-w-[65ch] font-inter text-body text-gray-600 space-y-4">
+            <h3 className="font-playfair text-h4 text-black">Working lunch versus a client sitting</h3>
+            <p>
+              Business meeting catering that has to stay in the room is a working lunch: labelled boxes or sharing platters, timed to the agenda, devices off the table. Business lunch options in Dubai for a client pitch are plated. Downtown and Business Bay buildings change lift and loading times, so name the tower early.
+            </p>
+            <p>
+              Recurring company lunch belongs on office catering. A multi-session day belongs on conference catering. This page is the sitting that has a start time and a conversation attached.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <CorporateInventory path="/business-lunch-catering-dubai" quoteHref="/inquiry" />
 
       {/* ═══════════════ Section 3: Formats ═══════════════ */}
       <section className="bg-black section-padding">
@@ -527,10 +573,10 @@ export default function BusinessLunchCatering() {
             Plan Your Business Lunch
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your meeting, your guests, and your timings, and we'll arrange a refined business lunch — one-off or recurring — that keeps the room on track and impresses every guest.
+            Send the date, the floor, the headcount and whether anyone should stay in the room. You get an itemised proposal. Dietary notes can follow.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Business Lunch Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request a proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

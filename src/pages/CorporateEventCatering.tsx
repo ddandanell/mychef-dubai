@@ -15,12 +15,17 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Section, Container, SectionLabel, DisplayHeading, BodyCopy } from '../components/system'
+import CorporatePackageCompare from '@/components/corporate/CorporatePackageCompare'
+import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
+import CorporateSiblings from '@/components/corporate/CorporateSiblings'
+import CorporateInventory from '@/components/corporate/CorporateInventory'
 import {
   CORPORATE_INQUIRY_HREF,
   CORPORATE_PATHS,
   CORPORATE_WHATSAPP_LINK,
   CORPORATE_WHATSAPP_MESSAGE,
 } from '@/content/corporateCluster'
+import { packagesForOwner } from '@/content/corporatePackages'
 import {
   areaLinks,
   blocks,
@@ -148,21 +153,21 @@ export default function CorporateEventCatering() {
         </Container>
       </Section>
 
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <CorporatePackageCompare
+            packages={packagesForOwner('/corporate-event-catering-dubai')}
+            heading="Staff parties, networking and seasonal gatherings"
+            intro="Company celebrations use the advertised buffet and canapé floors. A seated gala or a 10–15 guest dinner lives on its own page. We do not add AV, staging or venue hire."
+          />
+        </Container>
+      </Section>
+
+      <CorporateInventory path={CORPORATE_PATHS.events} quoteHref={CORPORATE_INQUIRY_HREF} />
+
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
-          <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {siblingLinks.map((item) => (
-              <li key={item.href}>
-                <Link
-                  to={item.href}
-                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <CorporateSiblings items={siblingLinks} />
         </Container>
       </Section>
 
@@ -320,6 +325,9 @@ export default function CorporateEventCatering() {
         <div className="container-custom max-w-[800px]">
           <h2 className="mb-10 font-playfair text-fluid-h2 text-black">Corporate Event Catering Dubai: Questions that come up before a company event</h2>
           <FaqAccordion items={[...faqs]} defaultOpen={-1} />
+          <div className="mt-12">
+            <CorporateQuoteNeeds inquiryHref={CORPORATE_INQUIRY_HREF} whatsappHref={CORPORATE_WHATSAPP_LINK} />
+          </div>
           <p className="mt-8 font-inter text-body-sm text-gray-500">
             Planning the wider programme?{' '}
             <Link to={CORPORATE_PATHS.checklist} className="text-gold-ink underline underline-offset-4 hover:text-gold">
