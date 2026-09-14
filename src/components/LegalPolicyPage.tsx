@@ -103,7 +103,9 @@ export default function LegalPolicyPage({
         minHeight="short"
         overlay="dark"
       >
-        <p className="font-inter text-body-sm text-white/70 mt-4">Last updated: {doc.lastUpdated}</p>
+        <p className="font-inter text-body-sm text-white/70 mt-4">
+          Version {doc.version}. Last updated: {doc.lastUpdated}
+        </p>
       </PageHero>
 
       <section className="bg-white py-20">

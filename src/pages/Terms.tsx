@@ -11,7 +11,7 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-import { BOOKING_TERMS_UPDATED } from '@/content/bookingTerms'
+import { BOOKING_TERMS_UPDATED, BOOKING_TERMS_VERSION } from '@/content/bookingTerms'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/terms)')
@@ -81,7 +81,9 @@ export default function Terms() {
         minHeight="short"
         overlay="dark"
       >
-        <p className="font-inter text-body-sm text-white/70 mt-4">Last updated: {BOOKING_TERMS_UPDATED}</p>
+        <p className="font-inter text-body-sm text-white/70 mt-4">
+          Version {BOOKING_TERMS_VERSION}. Last updated: {BOOKING_TERMS_UPDATED}
+        </p>
       </PageHero>
 
       <section className="terms-content bg-white py-20">
@@ -91,10 +93,10 @@ export default function Terms() {
               Which terms apply
             </h2>
             <p className="mb-4">
-              myCHEF Dubai is the customer-facing brand of Numini FZC. The booking terms for a confirmed event are the two documents below. Read the one that matches the booking before you pay a deposit.
+              myCHEF Dubai is the customer-facing brand of Numini FZC. The booking terms for a confirmed event are the two documents below. They are provided with every quotation. Payment of the deposit confirms the booking and accepts the quotation and those terms. Read the document that matches the booking before you pay.
             </p>
             <p className="mb-6">
-              Cancellation uses calendar days in Dubai time (UTC+4). Seven or more days before the event date, amounts already paid are not refunded except where required by law. Six days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. The full wording is in each document.
+              Cancellation uses calendar dates in Dubai time (UTC+4). The deposit is 50%. The remaining 50% is due seven days before the first service. The cancellation ladder, committed costs and liability cap are in each document. Current version: {BOOKING_TERMS_VERSION}, {BOOKING_TERMS_UPDATED}.
             </p>
             <ul className="space-y-5">
               {documents.map((item) => (

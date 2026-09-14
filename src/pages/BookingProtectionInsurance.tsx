@@ -25,6 +25,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
+import { CANCELLATION_FAQ_ANSWER, DEPOSIT_FAQ_ANSWER } from '@/content/bookingTerms'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to understand your booking protection and insurance policies (via mychef.ae/booking-protection-insurance)')
@@ -46,12 +47,12 @@ const protections = [
   {
     icon: Banknote,
     title: 'Deposit & Payment Structure',
-    description: 'A 50% deposit is required to confirm the event. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation. The account on the official invoice is the payment route.',
+    description: DEPOSIT_FAQ_ANSWER,
   },
   {
     icon: FileCheck,
     title: 'Cancellation & Refund Policy',
-    description: 'Cancel in writing. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4.',
+    description: CANCELLATION_FAQ_ANSWER,
   },
   {
     icon: MessageCircleWarning,
@@ -80,7 +81,7 @@ const policyNotes = [
   },
   {
     title: 'Cancellations are handled fairly',
-    description: 'The refund schedule is written in the booking terms: no refund at seven days or more, a full refund at six days or less if you cancel before service starts.',
+    description: 'The refund schedule is written in the booking terms: earlier notice returns more of the deposit; later notice retains more, together with committed costs. Less than 48 hours can mean up to the full booking value.',
   },
 ]
 
@@ -95,11 +96,11 @@ const faqs = [
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Cancel in writing to info@mychef.ae or the official WhatsApp used for the booking. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4. The full wording is in the private client booking terms and the corporate booking terms.',
+    a: CANCELLATION_FAQ_ANSWER,
   },
   {
     q: 'How does the deposit work?',
-    a: 'A 50% deposit confirms the date. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation.',
+    a: DEPOSIT_FAQ_ANSWER,
   },
   {
     q: 'How do you handle complaints?',
@@ -111,7 +112,7 @@ const faqs = [
   },
   {
     q: 'When is the remaining balance due?',
-    a: 'A 50% deposit confirms the date. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation. That is the same rule as the private client and corporate booking terms.',
+    a: DEPOSIT_FAQ_ANSWER,
   },
 ]
 

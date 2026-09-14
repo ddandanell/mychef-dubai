@@ -305,7 +305,7 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
     elif cls == "menu":
         a = f"The {k1} is written for your event, not picked off a list: we start from what you are hosting, the season and any dietary needs, then send a draft you can change before anything is confirmed. Tell us the date and headcount and you get a first draft to react to.{alt}"
     elif cls == "booking":
-        a = f"For {k1}, two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A 50% deposit holds the date and the remaining 50% is due 24 hours before the first scheduled service.{alt}"
+        a = f"For {k1}, two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A 50% deposit holds the date and the remaining 50% is due seven days before the first scheduled service.{alt}"
     elif cls == "dietary":
         a = f"Yes. For {k1} the requirement is planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.{alt}"
     elif cls == "home":

@@ -1,5 +1,6 @@
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from './cateringCluster'
 import { cateringCostSummary, cateringPricingNotes, hubPriceRows } from './cateringPricing'
+import { CANCELLATION_FAQ_ANSWER } from './bookingTerms'
 
 export const cateringHero = {
   src: '/images/catering-dubai-hero.webp',
@@ -411,7 +412,7 @@ export const cateringFaqs = [
   },
   {
     q: 'What is the cancellation window?',
-    a: 'Cancel in writing. Seven or more calendar days before the event date, amounts already paid are not refunded except where required by law. Six calendar days or less before the event, and before service starts, amounts paid are refunded in full, including the deposit. Days are calendar dates in Dubai time, UTC+4. Recurring household chef plans follow their own written service agreement.',
+    a: `${CANCELLATION_FAQ_ANSWER} Recurring household chef plans follow their own written service agreement.`,
   },
   {
     q: 'What happens if the party runs late?',
