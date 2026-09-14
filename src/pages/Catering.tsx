@@ -183,7 +183,7 @@ export default function Catering() {
           <SectionLabel tone="dark">PRICING</SectionLabel>
           <DisplayHeading className="text-white mb-6">Catering pricing in Dubai</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.
+            These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated. A catering service in Dubai on this page is that food, the staff and the clear-down in one brief, not a tray left at the door.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
             Party food catering Dubai is planned around the room and the running order, not a tray left at the door. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.

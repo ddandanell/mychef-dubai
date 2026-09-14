@@ -215,7 +215,7 @@ export default function CorporateRetainer() {
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A corporate catering contract in Dubai is a written account for companies that book office lunches, staff meals or events often. You get one contact, clearer billing and priority on the dates you already use. Monthly fees, spendable credit, tax, expiry and overages are set only in the agreement you sign. They are not published as a shop price here.
+              A corporate catering contract in Dubai is a written account for companies that book office lunches, staff meals or events often. You get one contact, clearer billing and priority on the dates you already use. Finance teams comparing corporate catering companies in Dubai usually want that one account, not a new supplier for every lunch. Monthly fees, spendable credit, tax, expiry and overages are set only in the agreement you sign. They are not published as a shop price here.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Each booking still uses the published starting prices on the office, lunch and event pages. The account does not invent a cheaper per-person rate. An LPO or a consolidated invoice does not by itself create credit terms.

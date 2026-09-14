@@ -190,7 +190,7 @@ export default function PrivateChefCostDubai() {
             <h2 id="what-affects-the-cost" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Affects the Cost?</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Group size</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Smaller groups usually have a higher per-person cost because the chef, assistant, and ingredients are divided among fewer guests. Larger groups of twelve or more can benefit from economies of scale, though they may require additional service staff.
+              Smaller groups usually have a higher per-person cost because the chef, assistant, and ingredients are divided among fewer guests. Larger groups of twelve or more can benefit from economies of scale, though they may require additional service staff. How much does a private chef charge follows those same three things: guest count, the menu, and how much of the work happens in front of people.
             </p>
             <h3 className="font-playfair text-h3 text-black mb-3">Menu complexity</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">

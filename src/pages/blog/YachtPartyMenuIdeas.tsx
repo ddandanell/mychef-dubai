@@ -168,7 +168,7 @@ export default function YachtPartyMenuIdeas() {
             </p>
             <h3 className="font-playfair text-h3 text-black mb-3">Handheld food wins on deck</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              On a moving vessel, guests prefer food they can hold in one hand while holding a drink in the other. Canapés, skewers, mini cones, and grazing boxes eliminate the need for cutlery and reduce the risk of spills.
+              On a moving vessel, guests prefer food they can hold in one hand while holding a drink in the other. Canapés, skewers, mini cones, and grazing boxes eliminate the need for cutlery and reduce the risk of spills. What food to bring to a boat party is the same answer: handheld, mostly prepped on land, and cold enough for a moving deck.
             </p>
             <BlogFigure
               image={{

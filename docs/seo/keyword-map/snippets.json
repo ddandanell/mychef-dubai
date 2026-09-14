@@ -206,7 +206,7 @@
    "url": "/corporate",
    "keyword": "corporate catering dubai",
    "persona": "event_host",
-   "control_title": "Corporate Catering Dubai | Offices, Boards & Events | myCHEF",
+   "control_title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
    "control_description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
    "control_voice": {
     "passed": true,
@@ -214,7 +214,7 @@
     "failures": [],
     "warnings": [],
     "persona": "event_host",
-    "title_len": 60,
+    "title_len": 61,
     "description_len": 155
    },
    "impressions": 268,
@@ -223,40 +223,9 @@
    "ctr": 0.0,
    "expected_ctr": 0.012,
    "ctr_gap": 0.012,
-   "variants": [
-    {
-     "kind": "mechanism",
-     "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
-     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    },
-    {
-     "kind": "relief",
-     "title": "Corporate Catering Dubai | You Stay a Guest | myCHEF",
-     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    },
-    {
-     "kind": "proof",
-     "title": "Corporate Catering Dubai | From AED 90 | myCHEF",
-     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
-     "persona": "event_host",
-     "voice_passed": true,
-     "voice_score": 10,
-     "voice_failures": [],
-     "voice_warnings": []
-    }
-   ],
-   "status": "proposed",
-   "reason": "268 impressions at pos 41.3, CTR 0.00% vs expected 1.20% — test a voice-passing title",
+   "variants": [],
+   "status": "blocked",
+   "reason": "Open 14-day snippet window on /corporate (mechanism title). Do not run a second title test until it closes.",
    "chosen": {
     "kind": "mechanism",
     "title": "Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF",
