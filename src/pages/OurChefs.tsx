@@ -30,36 +30,36 @@ const chefs = [
     image: '/team-head-chef.webp',
     name: 'Ahmed Al-Rashid',
     role: 'Executive Chef',
-    experience: '18+ Years',
+    experience: 'Plated dinners',
     slug: '/chefs/ahmed-executive-chef',
-    bio: 'Ahmed brings nearly two decades of luxury dining experience to the myCHEF network. Trained in classical French technique and seasoned in acclaimed fine-dining kitchens across Europe, he is matched to private chef experiences for villas, yachts, and corporate events, delivering calm precision and flawless timing.',
+    bio: 'Classical French technique. Matched to plated villa dinners, tasting menus and corporate tables. The chef who designs the menu is the chef who cooks it.',
     specialties: ['Modern European', 'Fine Dining', 'Menu Design', 'Villa Dining'],
   },
   {
     image: '/team-sous-chef.webp',
     name: 'Marco Rossi',
     role: 'Italian Chef',
-    experience: '15+ Years',
+    experience: 'Italian kitchens',
     slug: '/chefs/marco-italian-chef',
-    bio: 'Born and trained in Tuscany, Marco celebrates the honest flavours of Italian regional cuisine. From handmade pasta to wood-fired grills and coastal seafood, his menus turn every meal into a convivial experience rooted in tradition.',
+    bio: 'Italian regional cooking: handmade pasta, wood-fired grills and coastal seafood. Family-style when the table wants to share, plated when it does not.',
     specialties: ['Italian Cuisine', 'Handmade Pasta', 'Seafood', 'Family Style'],
   },
   {
     image: '/team-pastry-chef.webp',
     name: 'Matteo Moretti',
     role: 'Pastry Chef',
-    experience: '12+ Years',
+    experience: 'Pastry',
     slug: '/chefs/matteo-pastry-chef',
-    bio: 'A Le Cordon Bleu Paris graduate, Matteo creates desserts that are as theatrical as they are delicious. His chocolate work, sugar art, and plated desserts are the finishing touch at weddings, product launches, and intimate dinners across Dubai.',
+    bio: 'Pastry, chocolate and plated desserts for weddings, product launches and small dinners. The last course is planned with the rest of the menu, not added at the end.',
     specialties: ['Pastry', 'Chocolate Work', 'Wedding Cakes', 'Plated Desserts'],
   },
   {
     image: '/images/arabic-catering-dubai-hero.webp',
     name: 'Layla Hassan',
     role: 'Middle Eastern Chef',
-    experience: '14+ Years',
+    experience: 'Arabic kitchens',
     slug: '/chefs/layla-middle-eastern-chef',
-    bio: 'Layla champions the bold, generous flavours of the Middle East. With formal training in Lebanese and Emirati kitchens, she creates refined mezze spreads, grilled meats, and Iftar feasts that honour tradition while delighting modern palates.',
+    bio: 'Lebanese and Emirati kitchens: mezze, grills and Iftar spreads. Live stations when the room needs to move. Halal sourcing is the baseline.',
     specialties: ['Arabic Mezze', 'Grilled Meats', 'Iftar Feasts', 'Live Stations'],
   },
 ]
@@ -68,7 +68,7 @@ const standards = [
   { icon: Shield, label: 'Background-checked, licensed independent chefs' },
   { icon: Award, label: 'Formal culinary training required' },
   { icon: Utensils, label: 'Regular skills assessments' },
-  { icon: Heart, label: 'Hospitality-first mindset' },
+  { icon: Heart, label: 'Matched to the room, not only the CV' },
 ]
 
 export default function OurChefs() {
@@ -152,8 +152,8 @@ export default function OurChefs() {
   return (
     <>
       <SEO
-        title="Private Chefs Dubai | Vetted Chefs"
-        description="Private Chefs Dubai — Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining…"
+        title="Private Chefs Dubai | The Vetted myCHEF Network | myCHEF"
+        description="Private chefs Dubai: independent, licensed cooks. Identity, a cooking assessment, references and a review after the night, before they cook in your home."
         canonicalPath="/our-chefs"
         ogImage="/images/about-mychef-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -162,12 +162,12 @@ export default function OurChefs() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
-        title="Vetted Private Chefs Dubai"
-        subtitle="Private Chefs Dubai by myCHEF — Every chef is interviewed, tasted and background-checked before joining. We bring you the right chef for your occasion — reply within 15 min"
+        title="Private Chefs Dubai: Vetted, Tasted, Matched to Your Table"
+        subtitle="Private chefs Dubai on this page are independent, licensed cooks. Identity, a practical cooking assessment and references happen before anyone enters a home. Tell us the date, the room and what you want cooked. We typically reply within 15 minutes during business hours."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
-        cta={{ label: 'Request a Chef Match', href: '/inquiry' }}
+        cta={{ label: 'Request a chef match', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         minHeight="medium"
         overlay="dark"
@@ -183,40 +183,44 @@ export default function OurChefs() {
             <div className="philosophy-left">
               <SectionLabel>OUR APPROACH</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
-                The Chefs We Choose
+                Finding a chef is easy. Knowing who you are letting into your home is harder.
               </h2>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                Private chefs Dubai on this page are the named cooks we actually send — interviewed, tasted and background-checked before they cook in a home. Hosts who hire chef Dubai through myCHEF pick from this list, not from an open marketplace. We choose the talent. We hold the standard. The artistry is theirs.
+                Private chefs Dubai on this page are independent, licensed professionals, not a marketplace list you have to manage. myCHEF holds the booking. The chef cooks. You approve a named profile before anyone starts.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                A chef for hire through myCHEF is a named cook from this list, not an open marketplace. Say in the brief if you want a female private chef Dubai, or female private chefs Dubai for a larger table — the match still comes from the same vetted roster. A private BBQ chef Dubai is that cook on a grill, not a second team. Hosts who ask are private chefs in Dubai licensed get a straight answer: we background-check every cook we send, and myCHEF holds the booking. How are private chefs vetted Dubai is the process on this page: interview, tasting, then the background check before they cook in a home.
+                Matching is cuisine, format and setting, not whoever is free. A plated dinner for eight is not a live grill for eighty. If you want a female chef in the room, say so in the brief. A BBQ night is the same network on a grill, not a second company.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                If you are looking for chef talent for an intimate dinner, or seeking private chef hire for a villa gathering, we introduce verified professionals with transparent menus. Whether you need a personal chef for weekly family dining or a private cook in Dubai for a single celebration, every chef on our roster is background-checked before they arrive.
+                A standing household chef is a different product: the same person, a Food Profile, backup if they are off. That lives on{' '}
+                <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+                  private chef
+                </Link>
+                . This page is who cooks, and what we check before they do.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
-                Every chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
+                Chefs on the network work to Dubai Municipality food-safety requirements. Partner kitchens hold the food licences. We organise the match, the brief and the review after the night.
               </p>
             </div>
 
             {/* Right Column - Stats */}
             <div className="flex flex-col gap-8 justify-center">
               <div className="stat-block border-l-2 border-gold pl-6">
-                <h4 className="font-playfair text-h4 text-black mb-2">Classically Trained</h4>
+                <h4 className="font-playfair text-h4 text-black mb-2">Identity and licence</h4>
                 <p className="font-inter text-body-sm text-gray-500">
-                  Every chef trained in professional culinary programs
+                  Documents checked before anyone is sent to a client home
                 </p>
               </div>
               <div className="stat-block border-l-2 border-gold pl-6">
-                <h4 className="font-playfair text-h4 text-black mb-2">International Experience</h4>
+                <h4 className="font-playfair text-h4 text-black mb-2">Cooking assessment</h4>
                 <p className="font-inter text-body-sm text-gray-500">
-                  Chefs from Europe, Asia, and the Middle East
+                  A CV is not enough. They cook before they join the network.
                 </p>
               </div>
               <div className="stat-block border-l-2 border-gold pl-6">
-                <h4 className="font-playfair text-h4 text-black mb-2">Continuous Development</h4>
+                <h4 className="font-playfair text-h4 text-black mb-2">Review after the night</h4>
                 <p className="font-inter text-body-sm text-gray-500">
-                  Regular training in new techniques and cuisines
+                  A chef whose standard slips does not keep getting the work
                 </p>
               </div>
             </div>
@@ -230,7 +234,7 @@ export default function OurChefs() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <SectionLabel align="center" tone="dark">MEET THE CHEFS WE WORK WITH</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">Chefs In Our Network</h2>
+            <h2 className="font-playfair text-h2 text-white">The named chefs we actually send</h2>
           </div>
 
           {/* Chef Cards */}
@@ -315,7 +319,7 @@ export default function OurChefs() {
         <div className="hiring-content container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Cook with myCHEF</h3>
           <p className="font-inter text-body text-gray-500 mb-4">
-            If you are an experienced, licensed independent chef with a passion for private dining, we&apos;d love to welcome you to our partner network.
+            If you are a licensed independent chef who already cooks at this standard, read how to join the partner network.
           </p>
           <a
             href="mailto:info@mychef.ae"
@@ -336,15 +340,15 @@ export default function OurChefs() {
           <div className="cta-content">
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Taste the Difference<br />
-              <span className="text-gold">Experience Makes</span>
+              Tell us the table.<br />
+              <span className="text-gold">We match the chef.</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Every dish prepared by carefully selected independent chefs who have trained in respected professional kitchens around the world.
+              Date, guest count, cuisine and where you are hosting. You approve a named profile before anyone is booked.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/inquiry" className="btn-primary">
-                Request My Custom Quote
+                Request a chef match
               </Link>
               <a
                 href={WHATSAPP_LINK}

@@ -50,14 +50,14 @@ export default function CTASection() {
               Date, guest count and area in Dubai. That is enough to start.
             </h2>
             <p className="font-inter text-body-lg text-gray-400 leading-relaxed max-w-[52ch]">
-              Tell us what you need — a chef at home, or catering for your event. We reply within 15 minutes in business hours, then bring you a vetted chef and a proposal built around your food, your guests and your kitchen.
+              Tell us what you need: a chef at home, or catering for your event. We reply within 15 minutes in business hours, then send a vetted chef match and a written proposal built around your food, your guests and your kitchen.
             </p>
           </div>
 
           <div className="lg:col-span-5 lg:pl-16 lg:border-l lg:border-white/10">
             <div className="flex flex-col sm:flex-row lg:flex-col gap-4">
               <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
-                Get a Tailored Quote
+                Request your quote
               </Link>
               <a
                 href={WHATSAPP_LINK}

@@ -132,8 +132,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
       {/* Hero */}
       <PageHero
         eyebrow="Birthday"
-        title="Private Chef for Birthday Dinner Dubai — Menu Ideas, Costs & How to Book"
-        subtitle="Private Chef for Birthday Dinner Dubai by myCHEF — How to host an unforgettable birthday dinner at home or in your villa with a private chef, from menu planning to final toast."
+        title="Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
+        subtitle="How to host a birthday dinner at home or in your villa with a chef: menu, timing and what to send so we can quote."
         image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}

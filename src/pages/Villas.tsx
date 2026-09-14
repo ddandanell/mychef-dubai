@@ -61,7 +61,7 @@ const includedItems = [
 ] as const
 
 const howItRuns = [
-  'Tell us whether this is the household week or one night — plus the community, date and headcount.',
+  'Tell us whether this is the household week or one night, plus the community, date and headcount.',
   'We check the kitchen, the gate, parking and any outdoor constraints.',
   'You get a written household plan or an event proposal before anyone is booked.',
   'The chef cooks in the villa. Service staff join if the list needs them.',
@@ -71,7 +71,7 @@ const howItRuns = [
 const faqItems = [
   {
     q: 'Can a chef cook in my villa kitchen?',
-    a: 'Yes. The chef works in the kitchen you have and brings equipment where it is short. Compact apartments, staff kitchens and large estate kitchens are all briefed before the day — oven, hob, fridge space and where plates leave the pass. If the space cannot support the menu, we say so in the proposal rather than discovering it in service.',
+    a: 'Yes. The chef works in the kitchen you have and brings equipment where it is short. Compact apartments, staff kitchens and large estate kitchens are all briefed before the day: oven, hob, fridge space and where plates leave the pass. If the space cannot support the menu, we say so in the proposal rather than discovering it in service.',
   },
   {
     q: 'Is this a household chef or catering for a party?',
@@ -129,9 +129,9 @@ export default function Villas() {
       <PageHero
         eyebrow="Villas & private residences"
         title="Villa Chef Dubai"
-        subtitle="A chef in your kitchen — standing household days, or one night for guests. Villa chef Dubai covers the gate, the menu and the clear-down so you stay at the table."
+        subtitle="A chef in your kitchen: standing household days, or one night for guests. Villa chef Dubai covers the gate, the kitchen you actually have, and the clear-down so you stay at the table. Tell us which job it is."
         image={HERO_IMAGE}
-        imageAlt="Villa catering in Dubai — outdoor table and service team. Experience concept shown."
+        imageAlt="Villa catering in Dubai: outdoor table and service team. Experience concept shown."
         imageWidth={1344}
         imageHeight={752}
         align="left"
@@ -155,7 +155,7 @@ export default function Villas() {
             The booking is a chef working in your home: the gate, the kitchen you actually have, and a kitchen left as they found it. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF matches the chef, sets the brief and stays the contact when the house changes.
           </BodyCopy>
           <BodyCopy>
-            One dinner is catering. We send that brief there, not into a household plan. A chef who comes back — with a Food Profile behind them — is the other product.
+            One dinner is catering. We send that brief there, not into a household plan. A chef who comes back, with a Food Profile behind them, is the other product.
           </BodyCopy>
         </Container>
       </Section>
@@ -176,10 +176,7 @@ export default function Villas() {
                 A private chef villa Dubai arrangement is a standing rhythm: the same person, a Food Profile of how this house eats, and backup if they are off. Groceries as agreed, at actual receipts when we shop. Priced as working time, not per plate.
               </p>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
-                The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-              </p>
-              <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
-                The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+                One dinner for guests is catering, quoted from headcount and format. Do not buy a monthly plan as a workaround for a party.
               </p>
               <Link
                 to="/private-chef-dubai"
@@ -221,7 +218,7 @@ export default function Villas() {
               <SectionLabel>ON THE NIGHT, AND IN THE WEEK</SectionLabel>
               <DisplayHeading className="text-black mb-6">What villa chef Dubai includes</DisplayHeading>
               <BodyCopy className="mb-8">
-                The villa is the constraint. The menu, the staff and the kit are built around it — then written down before anyone arrives.
+                The villa is the constraint. The menu, the staff and the kit are built around it, then written down before anyone arrives.
               </BodyCopy>
               <ul className="space-y-8">
                 {includedItems.map((item) => (
@@ -265,7 +262,7 @@ export default function Villas() {
           <SectionLabel tone="dark">WHERE THE VILLA IS</SectionLabel>
           <DisplayHeading className="text-white mb-4">The compound changes the job</DisplayHeading>
           <BodyCopy tone="dark" className="mb-10">
-            The operating detail changes with the compound — beach access on the Palm is not a garden in the Hills. Other communities are listed with{' '}
+            The operating detail changes with the compound: beach access on the Palm is not a garden in the Hills. Other communities are listed with{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4">
               areas we serve
             </Link>

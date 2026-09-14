@@ -72,7 +72,7 @@ export default function TrustSection() {
             Finding a chef in Dubai is easy. Knowing who you are letting into your home is harder.
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            myCHEF was built by people who have run kitchens and floors. Every chef is chosen against one standard, then scored by the homes and events they cook in — month after month, for as long as they work with us. One person looks after you from your first message to the last plate.
+            myCHEF was built by people who have run kitchens and floors. Every chef is chosen against one standard, then scored by the homes and events they cook in, month after month, for as long as they work with us. One person looks after you from your first message to the last plate.
           </p>
 
           {/* Numbered editorial rows — recognition list, not badges */}

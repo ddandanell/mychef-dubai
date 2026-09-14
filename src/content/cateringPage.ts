@@ -4,7 +4,7 @@ import { CANCELLATION_FAQ_ANSWER } from './bookingTerms'
 
 export const cateringHero = {
   src: '/images/catering-dubai-hero.webp',
-  alt: 'A private dinner about to begin on a Dubai villa terrace at night — a long table set, one chef plating, city lights across the water. Experience concept shown.',
+  alt: 'A private dinner about to begin on a Dubai villa terrace at night: a long table set, one chef plating, city lights across the water. Experience concept shown.',
   width: 2560,
   height: 1440,
 } as const
@@ -39,13 +39,13 @@ export const serviceLevelChoices = [
   {
     label: 'Full event catering',
     href: CATERING_INQUIRY_HREF,
-    hint: 'Menu, staffing, service flow, equipment and supplier coordination for complex events.',
+    hint: 'Menu, staffing, service flow and equipment. Supplier coordination only if you ask for it.',
   },
 ] as const
 
 /** The one sentence that keeps the two doors the same company. */
 export const SAME_PARTNERS =
-  'The partner houses behind an event are the ones behind the household plans: the same licensed suppliers, the same visas we have asked to see, the same score after the work. A chef who holds a house together is who we want running your night — which is why the good ones stay.'
+  'The partner houses behind an event are the ones behind the household plans: the same licensed suppliers, the same visas we have asked to see, the same score after the work. A chef who holds a house together is who we want running your night, which is why the good ones stay.'
 
 export const quoteFactors =
   'Guest count, menu, service format, staffing, venue and kitchen access, equipment, and timing. 5% VAT is shown separately on the written proposal.'
@@ -54,7 +54,7 @@ export const scopeSteps = [
   {
     id: 'food-only',
     title: 'Food Only',
-    body: 'We prepare the food and deliver it to you. Ideal when you already have the venue, staff and setup handled.',
+    body: 'We cook and deliver the food. You already have the room, the tables and anyone serving.',
     bestFor: 'Best for venues or households that already have staff, tables and service covered.',
     href: CATERING_PATHS.dropOff,
     linkLabel: 'Food delivery and drop-off catering',
@@ -62,91 +62,91 @@ export const scopeSteps = [
   {
     id: 'food-setup',
     title: 'Food + Setup',
-    body: 'We deliver the food and help arrange the serving area, buffet or presentation. You handle the event from there.',
+    body: 'We deliver the food and help set the serving area, buffet or presentation. You run the rest of the night.',
     bestFor: 'Best for buffet-style gatherings where you need presentation but not a staffed event.',
   },
   {
     id: 'food-service',
     title: 'Food + Service',
-    body: 'Add the people needed to run it properly: chefs, waiters, bartenders, service staff, kitchen assistants.',
+    body: 'Add the people the room actually needs: chefs, waiters, bartenders, service staff, kitchen assistants.',
     bestFor: 'Best for events that need professional chefs, waiters, bartenders or kitchen support.',
   },
   {
     id: 'full-service',
     title: 'Full-Service Catering',
-    body: 'We coordinate the food, team, equipment, setup and service flow around your event.',
+    body: 'Food, team, equipment, setup and service flow in one brief. That is catering, not a planner.',
     bestFor: 'Best when one catering team should coordinate food, equipment, staff and service flow.',
   },
   {
     id: 'complete',
     title: 'Complete Event Support',
-    body: 'Need more? We can also help coordinate tables and chairs, tableware, glassware, linen, flowers, bar setup, entertainment, photography, décor and event coordination. You choose how far we go.',
-    bestFor: 'Best for larger or more complex events that need suppliers beyond food and service.',
+    body: 'Optional. If you choose this layer, we can help coordinate hire and other suppliers around the food: tables, chairs, tableware, glassware, linen, flowers, bar setup, entertainment, photography or décor. You pick which. We do not plan the whole event, own the venue or run the wedding.',
+    bestFor: 'Best when you want extra suppliers coordinated around the catering, and you have asked for that work.',
   },
 ] as const
 
 export const eventPathways = [
   {
     title: 'Wedding',
-    body: 'From an intimate wedding dinner to a larger reception. We can help with the menu, tasting, chefs, service team, bar, tables, equipment and the flow of the meal.',
+    body: 'The wedding meal: menu, tasting, chefs, service team, bar and the flow of food. We do not plan the ceremony, florals or the rest of the day unless you add optional coordination.',
     href: CATERING_PATHS.weddings,
     linkLabel: 'Wedding catering in Dubai',
     image: '/images/wedding-catering-dubai-hero.webp',
-    imageAlt: 'Wedding dinner table in a Dubai villa — candlelight, set places, service in the background. Experience concept shown.',
+    imageAlt: 'Wedding dinner table in a Dubai villa: candlelight, set places, service in the background. Experience concept shown.',
   },
   {
     title: 'Corporate Event',
-    body: 'Board meetings, launches, office events, networking, conferences and client dinners. Start with food delivery or build a fully serviced corporate event.',
+    body: 'Board meetings, launches, office events, networking, conferences and client dinners. Start with food delivery, or add chefs and waiters for a staffed sitting.',
     href: CATERING_PATHS.corporateEvents,
     linkLabel: 'Corporate catering for Dubai events',
     image: '/images/corporate-catering-dubai-hero.webp',
-    imageAlt: 'Corporate reception in Dubai — canapés and service staff in a polished venue. Experience concept shown.',
+    imageAlt: 'Corporate reception in Dubai: canapés and service staff in a polished venue. Experience concept shown.',
   },
   {
     title: 'Birthday or Celebration',
-    body: 'A dinner at home, a villa party, anniversary, engagement or larger celebration. We build the food and service around the atmosphere you want rather than forcing the event into a fixed package.',
+    body: 'A dinner at home, a villa party, anniversary, engagement or larger celebration. We build the food and service around how you want the room to feel, not a fixed package.',
     href: CATERING_PATHS.birthdays,
     linkLabel: 'Birthday catering in Dubai',
     image: '/images/birthday-catering-dubai-hero.webp',
-    imageAlt: 'A birthday dinner in a Dubai home — guests at the table, chef finishing plates. Experience concept shown.',
+    imageAlt: 'A birthday dinner in a Dubai home: guests at the table, chef finishing plates. Experience concept shown.',
   },
   {
     title: 'Private Event or Party',
-    body: 'You have the guest list and the location. We help build everything else around it. Small dinners, large parties, receptions, cocktail evenings and private gatherings.',
+    body: 'You have the guest list and the location. We build the food and service around it: small dinners, large parties, receptions, cocktail evenings and private gatherings.',
     href: CATERING_PATHS.privateEvents,
     linkLabel: 'Private party catering in Dubai',
     image: '/images/party-catering-dubai-hero.webp',
-    imageAlt: 'A private party in a Dubai villa garden — standing guests, passed food, warm lighting. Experience concept shown.',
+    imageAlt: 'A private party in a Dubai villa garden: standing guests, passed food, warm lighting. Experience concept shown.',
   },
 ] as const
 
 export const venuePathways = [
   {
     title: 'Villas & Private Homes',
-    body: 'Food only, private dinners, parties, birthdays, weddings or complete villa events. We plan around the kitchen, access, guest count and space available.',
+    body: 'Food only, private dinners, parties, birthdays or a wedding meal in a home you already have. We plan around the kitchen, access, guest count and space. We do not provide the house.',
     href: CATERING_PATHS.villas,
     linkLabel: 'Villa catering in Dubai',
     image: '/images/villa-catering-dubai-hero.webp',
-    imageAlt: 'Villa catering in Dubai — outdoor table, kitchen access, service team at work. Experience concept shown.',
+    imageAlt: 'Villa catering in Dubai: outdoor table, kitchen access, service team at work. Experience concept shown.',
   },
   {
     title: 'Yachts',
-    body: 'Yacht catering requires a different approach to timing, delivery, storage, setup and service. We can arrange anything from prepared food and canapés to staffed yacht events.',
+    body: 'Yacht catering is food, chefs and onboard service on a yacht you charter. Loading, storage, galley limits and timing are different from a villa. We do not operate the boat.',
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht catering in Dubai',
     image: '/images/yacht-catering-dubai-hero.webp',
-    imageAlt: 'Yacht catering in Dubai — canapés and service on deck at dusk. Experience concept shown.',
+    imageAlt: 'Yacht catering in Dubai: canapés and service on deck at dusk. Experience concept shown.',
   },
 ] as const
 
 export const jetPathway = {
   title: 'Private Jets',
-  body: 'A much more focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey — ask for it in the brief.',
+  body: 'A tighter brief. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey. Ask for it in the enquiry.',
 } as const
 
 export const officePathway = {
   title: 'Offices & Event Venues',
-  body: 'From delivered meals to full event catering. We adapt the service to your building, venue, timetable and guest flow.',
+  body: 'Delivered meals or staffed catering in a building you already use. We adapt to access, timetable and guest flow. We do not hire the venue.',
   href: CATERING_PATHS.corporateEvents,
   secondaryHref: CATERING_PATHS.office,
   linkLabel: 'Corporate catering for Dubai events',
@@ -155,7 +155,7 @@ export const officePathway = {
 export const serviceStyles = [
   {
     title: 'Plated Dining',
-    body: 'Individual courses served to seated guests. Best when timing, presentation and table service are important.',
+    body: 'Individual courses cooked and served to seated guests. Use it when timing and table service matter.',
     href: '/buffet-vs-plated-dubai',
   },
   {
@@ -165,7 +165,7 @@ export const serviceStyles = [
   },
   {
     title: 'Buffet',
-    body: 'A practical format for larger groups and events where guests should have more choice.',
+    body: 'A staffed self-serve line for larger groups who want more choice, with heat held and trays replenished.',
     href: '/buffet-catering-dubai',
   },
   {
@@ -175,7 +175,7 @@ export const serviceStyles = [
   },
   {
     title: 'Canapés & Cocktail Food',
-    body: 'Designed for standing events, receptions, launches and social occasions.',
+    body: 'One-bite food for standing receptions, launches and arrivals. Passed, displayed, or both.',
     href: '/canape-catering-dubai',
   },
   {
@@ -195,12 +195,12 @@ export const serviceStyles = [
   },
   {
     title: 'Breakfast & Brunch',
-    body: 'For private mornings, corporate events, villa gatherings and daytime celebrations.',
+    body: 'Private mornings, company breakfasts, villa gatherings and daytime celebrations.',
     href: '/brunch-catering-dubai',
   },
   {
     title: 'Drop-Off',
-    body: 'Prepared food delivered ready for your event without a full service team.',
+    body: 'Prepared food delivered ready to serve. Nobody from the catering team stays in the room.',
     href: CATERING_PATHS.dropOff,
   },
 ] as const
@@ -224,20 +224,20 @@ export const eventLayers = [
   },
   {
     name: 'Atmosphere',
-    items: ['Flowers', 'Candles', 'Styling', 'Decor'],
+    items: ['Optional hire: flowers', 'Candles', 'Styling', 'Decor'],
   },
   {
     name: 'Event',
-    items: ['Music', 'Entertainment', 'Photography', 'Additional suppliers', 'Event coordination'],
+    items: ['Optional coordination you choose', 'Music', 'Entertainment', 'Photography', 'Other suppliers'],
   },
 ] as const
 
 export const startSteps = [
   'Tell us about the event: date, location, guest count, type of event, anything you already know.',
-  'We build the structure: food, service style, team, equipment, any additional support.',
+  'We build the structure: food, service style, team, equipment, and any extra coordination you have asked for.',
   'You review it. You can remove things, add things, change the menu, adjust the scope.',
-  'Once the structure is agreed, a 50% deposit holds the date and the team, and we confirm the operational plan. For a wedding or a large event, the tasting happens here — quoted as its own line, before the menu is locked.',
-  'On the day, everyone knows what they are responsible for. You can spend more time with your guests.',
+  'Once the structure is agreed, a 50% deposit holds the date and the team, and we confirm the operational plan. For a wedding or a large event, the tasting happens here, quoted as its own line, before the menu is locked.',
+  'On the day the team runs the food, service and clear-down. You stay with your guests.',
 ] as const
 
 export const unsureLinks = [
@@ -249,14 +249,14 @@ export const unsureLinks = [
   { prompt: 'I am hosting on a yacht', href: CATERING_PATHS.yachts, label: 'Yacht catering in Dubai' },
   { prompt: 'I only need food delivered', href: CATERING_PATHS.dropOff, label: 'Food delivery and drop-off catering' },
   { prompt: 'I am comparing caterers first', href: '/best-catering-companies-dubai', label: 'Compare catering companies in Dubai on published prices' },
-  { prompt: 'I need help with most of the event', href: CATERING_INQUIRY_HREF, label: 'Get a tailored catering quote' },
+  { prompt: 'I need help with most of the event', href: CATERING_INQUIRY_HREF, label: 'Request your catering quote' },
 ] as const
 
 export const proofItems = [
   {
     title: 'How culinary partners are selected',
     claim: 'Vetted chef and culinary-partner network.',
-    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client, and the partner house employs them on a visa we have seen. On an event no chef is guaranteed by name — we match the night. That is the honest difference from the household service, where the whole point is that the same person comes back.',
+    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client, and the partner house employs them on a visa we have seen. On an event no chef is guaranteed by name: we match the night. That is the honest difference from the household service, where the whole point is that the same person comes back.',
     href: '/how-we-vet-our-chefs',
     linkLabel: 'How myCHEF quality standards work',
   },
@@ -270,14 +270,14 @@ export const proofItems = [
   {
     title: 'Food safety and who cooks',
     claim: 'Food safety and licensed-partner operating standards.',
-    body: 'Culinary preparation is performed by licensed culinary partners working to Dubai Municipality food-safety standards. Those partners employ the cooks, on visas we have asked to see; myCHEF takes the brief, matches the event, scores the work and pays. The booking is with us — you are not putting anyone on your payroll, and nobody invoices your villa personally.',
+    body: 'Culinary preparation is performed by licensed culinary partners working to Dubai Municipality food-safety standards. Those partners employ the cooks, on visas we have asked to see; myCHEF takes the brief, matches the event, scores the work and pays. The booking is with us. You are not putting anyone on your payroll, and nobody invoices your villa personally.',
     href: '/how-it-works',
     linkLabel: 'How booking works',
   },
   {
     title: 'Staffing and event flow',
     claim: 'Staffing, equipment and event-flow coordination available when required.',
-    body: 'Chefs, waiters, bartenders, setup, equipment and live stations are added when the event needs them. You do not buy a full event package to get the food right.',
+    body: 'Chefs, waiters, bartenders, setup, equipment and live stations are added when the event needs them. You do not buy a full event package, or a planner, to get the food right.',
     href: `${CATERING_PATHS.overview}#options`,
     linkLabel: 'Catering options and service layers',
   },
@@ -364,7 +364,7 @@ export const cuisinesLine = [
 export const cateringFaqs = [
   {
     q: 'Do I need to know the format before I contact you?',
-    a: 'No. Date, location, guest count and what you are organising is enough to begin. We start with the event and build the catering around it — food only, food plus service, or fuller support.',
+    a: 'No. Date, location, guest count and what you are organising is enough to begin. We start with the event and build the catering around it: food only, food plus service, or optional extra coordination if you ask for it.',
   },
   {
     q: 'Can you do food only, without staff or setup?',
@@ -372,15 +372,15 @@ export const cateringFaqs = [
   },
   {
     q: 'How is myCHEF different from a traditional catering company?',
-    a: 'Many Dubai caterers present a package of menus, buffets and staff. myCHEF starts with the event you are actually planning. You add only the layers that make it work — food, kitchen, service, table, atmosphere, event support. Licensed culinary partners employ the cooks and do the cooking; we take the brief, match the event, score the work and carry the booking. You do not have to buy a complete event package to get the food right.',
+    a: 'Many Dubai caterers present a package of menus, buffets and staff. myCHEF starts with the event you are actually planning. You add only the layers that make it work: food, kitchen, service, then table hire or extra suppliers if you choose them. Licensed culinary partners employ the cooks and do the cooking; we take the brief, match the event, score the work and carry the booking. You do not have to buy a complete event package, or a planner, to get the food right.',
   },
   {
     q: 'What is the minimum number of guests?',
-    a: 'From about 10 guests upward, and small parties of 10 to 20 at home are a large part of what we do — that is not a reluctant minimum. The one case where we send you elsewhere is a *seated* dinner under about 20: a [private chef](/private-chef-dubai/pricing) is priced per visit rather than per person, which is usually both cheaper and a better evening. Anything with a buffet, a bar, passed food or a running order is catering at any headcount.',
+    a: 'Drop-off starts from 10 guests. A standard event buffet starts from 20 guests. Small parties of 10 to 20 at home are a large part of what we do; that is not a reluctant minimum. A seated dinner under about 20 is often a better fit as a [private chef](/private-chef-dubai) visit, which is priced per visit rather than per person. Anything with a buffet, a bar, passed food or a running order is catering at that headcount.',
   },
   {
     q: 'How much does catering cost in Dubai?',
-    a: `It depends on guest count, menu, service style, staffing and venue — not on a single package price. ${cateringCostSummary()} Guest count and staff move it from there. Every quote is itemised in writing, with 5% VAT shown separately. From, typical range and calculator estimate are labelled on the [catering prices guide](/dubai-catering-prices-guide) and the [cost calculator](/catering-cost-calculator-dubai).`,
+    a: `It depends on guest count, menu, service style, staffing and venue, not on a single package price. ${cateringCostSummary()} Guest count and staff move it from there. Every quote is itemised in writing, with 5% VAT shown separately. From, typical range and calculator estimate are labelled on the [catering prices guide](/dubai-catering-prices-guide) and the [cost calculator](/catering-cost-calculator-dubai).`,
   },
   {
     q: 'Do you provide waiters, bartenders and tableware?',
@@ -391,24 +391,24 @@ export const cateringFaqs = [
     a: 'Halal ingredients are sourced by default for myCHEF catering menus in Dubai. Mixed guest lists and specific certification requirements should be told to us when we build the menu. More detail on [halal catering](/halal-catering-dubai).',
   },
   {
-    q: 'Who cooks — does myCHEF employ the chefs?',
+    q: 'Who cooks? Does myCHEF employ the chefs?',
     a: 'Culinary preparation is performed by licensed culinary partners working to Dubai Municipality food-safety standards. Those partner houses employ the cooks on proper visas; myCHEF designs and coordinates the catering around your event, and the contract and the invoice are with myCHEF. You are not hiring a stranger off an app, and you are not employing anyone.',
   },
   {
     q: 'How far in advance should I book?',
-    a: 'For events under 50 guests, a week ahead is typical. Larger events: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible — message the date via [contact](/contact). During business hours, 9am to 9pm, a reply typically comes back within 15 minutes; a message sent overnight is answered first thing.',
+    a: 'For events under 50 guests, a week ahead is typical. Larger events: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible: message the date via [contact](/contact). During business hours, 9am to 9pm, a reply typically comes back within 15 minutes; a message sent overnight is answered first thing.',
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',
-    a: 'Yes. For a party of 10 to 20 at home, home catering Dubai is most of what we do: a birthday, a dinner for twelve on a villa terrace, a family lunch with one chef and one server. Under about 20 guests you can also book a [private chef](/private-chef-dubai) to cook in your kitchen — often the better fit for a seated dinner. Either way the food is cooked for your date, not pulled from a standing buffet menu.',
+    a: 'Yes. For a party of 10 to 20 at home, home catering Dubai is most of what we do: a birthday, a dinner for twelve on a villa terrace, a family lunch with one chef and one server. Under about 20 guests, a seated dinner is often a better fit as a [private chef](/private-chef-dubai) cooking in your kitchen. Either way the food is cooked for your date, not pulled from a standing buffet menu.',
   },
   {
     q: 'Do you provide grazing tables, live stations, gala dinners and waiters?',
-    a: 'All four, as layers on the same booking. [Grazing tables](/grazing-table-dubai) and [live cooking stations](/live-cooking-stations-dubai) suit standing events; a gala dinner is plated with a full service team; waiters, hosts and bartenders are added by guest count. Tell us the format and we size the team — you never pay for staff the format does not need.',
+    a: 'All four, as layers on the same booking. [Grazing tables](/grazing-table-dubai) and [live cooking stations](/live-cooking-stations-dubai) suit standing events; a gala dinner is plated with a full service team; waiters, hosts and bartenders are added by guest count. Tell us the format and we size the team. You never pay for staff the format does not need.',
   },
   {
     q: 'How do I compare catering companies in Dubai?',
-    a: 'On what they publish. We keep a page that compares the [best catering companies in Dubai](/best-catering-companies-dubai) on 102 per-person prices, minimum orders and notice periods, all taken from their own menus and source-linked — including where myCHEF is not the cheapest. Read it before you ask anyone for a quote.',
+    a: 'On what they publish. We keep a page that compares the [best catering companies in Dubai](/best-catering-companies-dubai) on 102 per-person prices, minimum orders and notice periods, all taken from their own menus and source-linked, including where myCHEF is not the cheapest. Read it before you ask anyone for a quote.',
   },
   {
     q: 'What is the cancellation window?',
@@ -416,7 +416,7 @@ export const cateringFaqs = [
   },
   {
     q: 'What happens if the party runs late?',
-    a: 'Extra time is charged at the hourly rate of that job plus 50%, agreed on the night before anyone stays. The 50% goes to the partner house that employs the team; the cooks and waiters stay on their normal rate, so nobody on the floor has a reason to make a night run long. It is the same rule as the household service — one paper for both doors.',
+    a: 'Extra time is charged at the hourly rate of that job plus 50%, agreed on the night before anyone stays. The 50% goes to the partner house that employs the team; the cooks and waiters stay on their normal rate, so nobody on the floor has a reason to make a night run long. It is the same rule as the household service: one paper for both doors.',
   },
   {
     q: 'Is there a tasting?',
@@ -428,6 +428,6 @@ export const cateringFaqs = [
   },
   {
     q: 'I already have a planner, florist or rental company. Can you still help?',
-    a: 'Yes. We do not need to replace them. We coordinate our part of the catering around the suppliers you already have. The objective is for the event to work.',
+    a: 'Yes. We do not need to replace them. We coordinate our part of the catering around the suppliers you already have. The objective is for the food and service to work, not for myCHEF to own every supplier.',
   },
 ] as const

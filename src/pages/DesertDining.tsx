@@ -11,30 +11,30 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'desert-dining-dubai',
-  seoTitle: "Desert Dining Dubai | Luxury Outdoor Feasts",
+  seoTitle: 'Desert Dining Dubai | myCHEF',
   metaDescription:
-    'Desert Dining Dubai — Desert dining and camp catering in Dubai: private dune dinners, Bedouin-style feasts, live grills and full-service outdoor events…',
+    'Desert dining Dubai with a vetted myCHEF team. Menus, service and clear-down at a camp or dune site you have booked, so you stay a guest at the table.',
   canonicalPath: '/desert-dining-dubai',
   ogImage: '/images/desert-dining-dubai-hero.webp',
   breadcrumbLabel: 'Desert Dining & Camp Catering Dubai',
-  h1: 'Desert Dining Dubai — Camp Catering',
+  h1: 'Desert Dining Dubai',
   heroSub:
-    'Desert Dining Dubai by myCHEF — Private dune dinners, Bedouin-style feasts and luxury camp catering across Dubai’s desert — live grills, Arabic sharing menus and service under the stars.',
+    'Desert dining Dubai: private dune dinners, Bedouin-style sharing menus and camp catering. Live grills, Arabic plates and service at a site you have booked.',
   heroImage: '/images/desert-dining-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan desert dining or camp catering in Dubai (via mychef.ae/desert-dining-dubai)",
   eyebrow: 'DESERT CATERING IN DUBAI',
-  introH2: 'A Feast Under the Desert Sky',
+  introH2: 'The kitchen travels. The camp is yours.',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dubai’s desert is one of the most dramatic places to host a meal. Whether you are planning a private dune dinner, a corporate retreat, a romantic proposal or a Bedouin-style celebration, our desert dining catering travels to the sand. We design menus that feel authentic to the setting — Arabic sharing plates, live grills, fragrant rice dishes and slow-cooked meats — while keeping logistics, safety and guest comfort front of mind.
+        Desert dining Dubai is catering at a licensed camp, a private setup or a dune site you have already booked. We do not run the camp. We bring the chef, the food, the service team and the pack-down. Menus that hold up outdoors: Arabic sharing plates, live grills, rice dishes and slow-cooked meats, planned around heat, wind and the time the sun goes down.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        our chefs handle transport, on-site cooking, service styling and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
+        Chefs in our network handle transport, on-site cooking, service and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
         <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Arabic catering Dubai
         </Link>{' '}
@@ -50,14 +50,14 @@ const config: OccasionPageConfig = {
   formats: [
     {
       Icon: Utensils,
-      title: 'Bedouin Sharing Feasts',
-      description: 'Large communal platters of Arabic mezze, grilled meats and rice, served in traditional style around low tables or carpets.',
+      title: 'Bedouin sharing feasts',
+      description: 'Communal platters of Arabic mezze, grilled meats and rice, served around low tables or carpets.',
       link: '/arabic-catering-dubai',
     },
     {
       Icon: Flame,
-      title: 'Live Desert Grill',
-      description: 'Chefs grill lamb, chicken, seafood and vegetables over open flames as the sun sets over the dunes.',
+      title: 'Live desert grill',
+      description: 'Chefs grill lamb, chicken, seafood and vegetables over open flames as the sun sets.',
       link: '/bbq-catering-dubai',
     },
     {
@@ -68,14 +68,14 @@ const config: OccasionPageConfig = {
     },
     {
       Icon: Moon,
-      title: 'Sunset & Starlight Dinners',
-      description: 'Timed service at sunset or under the stars, with lanterns, candles and warm service for an unforgettable atmosphere.',
+      title: 'Sunset and starlight dinners',
+      description: 'Service timed to sunset or later, with lanterns, candles and a team that can work in wind and sand.',
       link: '/luxury-dining-experiences',
     },
     {
       Icon: Home,
-      title: 'Private Desert Camps',
-      description: 'fully-coordinated catering at licensed desert camps and private setups arranged by your event planner.',
+      title: 'Private desert camps',
+      description: 'Catering at licensed desert camps and private setups arranged by you or your event planner.',
       link: '/events',
     },
     {
@@ -85,13 +85,13 @@ const config: OccasionPageConfig = {
       link: '/corporate',
     },
   ],
-  useCasesEyebrow: 'WHERE DESERT DINING COMES ALIVE',
-  useCasesH2: 'Memorable Outdoor Experiences',
+  useCasesEyebrow: 'WHERE THE CATERING HAPPENS',
+  useCasesH2: 'Tables we cook for in the desert',
   useCases: [
     {
-      title: 'Private Dune Dinners',
+      title: 'Private dune dinners',
       description:
-        'For proposals, anniversaries or VIP guests, a private table on the dunes with a dedicated chef and server creates a once-in-a-lifetime experience.',
+        'For proposals, anniversaries or a small guest list: a table on the dunes with a chef and server, at a site you have booked.',
     },
     {
       title: 'Bedouin-Style Celebrations',
@@ -101,7 +101,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Corporate Desert Retreats',
       description:
-        'Team-building days and incentive trips often end with a desert dinner. We scale the menu and service to match the group size and brand tone.',
+        'Team-building days and incentive trips often end with a desert dinner. We scale the menu and service to the group size and the brief.',
     },
     {
       title: 'Cultural & Seasonal Events',
@@ -109,18 +109,18 @@ const config: OccasionPageConfig = {
         'Desert dining is especially popular during Ramadan, Eid and cooler months. We adapt timings, menus and service style for each occasion.',
     },
   ],
-  includedH2: "What's Included in Our Desert Dining Catering",
+  includedH2: 'What desert dining catering includes',
   includedItems: [
     { title: 'Arabic & Mediterranean Menus', description: 'Sharing platters, mezze, grilled meats and rice dishes suited to the desert setting.' },
-    { title: 'Live Grill Stations', description: 'On-site grilling over charcoal or open flame for aroma and theatre.' },
+    { title: 'Live grill stations', description: 'On-site grilling over charcoal or open flame, cooked in front of guests.' },
     { title: 'Desert-Safe Logistics', description: 'Insulated transport, covered prep areas and wind-aware serving setups.' },
     { title: 'Ambient Styling Support', description: 'Coordination with your camp or planner on lanterns, low tables and service flow.' },
     { title: 'Dietary Adaptations', description: 'Vegetarian, vegan, halal and allergy-conscious options available.' },
-    { title: 'Dedicated Service Staff', description: 'Experienced outdoor service team for sand-based events.' },
+    { title: 'Dedicated service staff', description: 'An outdoor service team used to sand, wind and timed sunset service.' },
     { title: 'Timed Sunset Service', description: 'Service planned around sunset, temperature and guest arrival.' },
     { title: 'Full Pack-Down', description: 'We clear the catering area and leave no trace on the dunes.' },
   ],
-  galleryH2: 'A Taste of Our Desert Dining',
+  galleryH2: 'Desert dining setups',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Arabic appetisers for desert dining in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Desert camp canapé selection' },
@@ -133,15 +133,15 @@ const config: OccasionPageConfig = {
   faqs: [
     {
       q: 'Can you cater at any desert camp in Dubai?',
-      a: 'we coordinate catering at licensed desert camps and private setups arranged by event planners. If you already have a camp or location, we coordinate directly with them on access, power and service areas.',
+      a: 'We coordinate catering at licensed desert camps and private setups arranged by event planners. If you already have a camp or location, we work with them on access, power and service areas. We do not operate the camp.',
     },
     {
       q: 'What food is best for desert dining?',
-      a: 'Arabic sharing menus work beautifully: hot and cold mezze, grilled meats, spiced rice, flatbreads and fresh salads. We also offer Mediterranean and fusion options on request.',
+      a: 'Arabic sharing menus hold up outdoors: hot and cold mezze, grilled meats, spiced rice, flatbreads and salads. Mediterranean and other menus are available on request.',
     },
     {
       q: 'Do you provide the camp setup or just the food?',
-      a: 'We specialise in the catering, but we can coordinate closely with your camp provider or event planner on tables, cushions, lighting and service flow.',
+      a: 'We handle the catering. Tables, cushions, lighting and camp hire sit with your camp provider or event planner. We can coordinate timings and service flow with them.',
     },
     {
       q: 'Is desert dining available year-round?',
@@ -171,14 +171,14 @@ const config: OccasionPageConfig = {
     },
     {
       title: 'Luxury Dining Experiences',
-      description: 'Bespoke private dining for unforgettable moments in Dubai.',
+      description: 'Chef-led dinners at a villa, yacht or venue you have booked.',
       image: '/service-villa.webp',
       link: '/luxury-dining-experiences',
     },
   ],
-  ctaH2: 'Plan a Desert Dining Experience',
+  ctaH2: 'Plan the dinner on the sand',
   ctaP:
-    'Tell us about your camp, group size and vision. We will design a Bedouin-inspired menu and service plan that makes the dunes feel like an unforgettable private dining room.',
+    'Tell us the camp or site, group size and date. We will send a menu and service plan for cooking on the sand, with the chef named and the quote itemised.',
   showTrustSignalStrip: true,
 }
 

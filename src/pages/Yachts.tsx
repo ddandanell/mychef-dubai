@@ -148,7 +148,8 @@ export default function Yachts() {
           <BodyCopy className="mb-4 max-w-[62ch]">{YACHT_PROOF_COPY.intro}</BodyCopy>
           <p className="font-inter text-body-sm text-gray-600 mb-10 max-w-[62ch]">
             Your price depends on guest count, menu, format, chefs, waiters, hours, marina, yacht facilities and optional
-            bar service. This Dubai Harbour charter shows what a large, fully staffed day can look like in writing.
+            bar service. The Dubai Harbour figures below are a catering proposal for 113 guests on a yacht the client
+            chartered. We did not rent the boat.
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             {YACHT_MENU_FORMATS.map((format) => (
@@ -227,8 +228,8 @@ export default function Yachts() {
 
       <Section tone="ivory" rhythm="chapter">
         <Container>
-          <SectionLabel>Why hosts use myCHEF on the water</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Food, chefs, waiters and service — written before anyone loads</DisplayHeading>
+          <SectionLabel>Catering, not the charter</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">Food, chefs, waiters and service, written before anyone loads</DisplayHeading>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {YACHT_TRUST.map((item) => (
               <article key={item.title}>
@@ -258,8 +259,8 @@ export default function Yachts() {
             ))}
           </div>
           <BodyCopy className="mt-12 max-w-[62ch]">
-            A private chef yacht Dubai day is a charter, not a household plan. If you want the same chef at home, week
-            after week, that is{' '}
+            A private chef yacht Dubai day is catering on a yacht you charter. It is not a household plan and it is not
+            a boat we operate. If you want the same chef at home, week after week, that is{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef Dubai
             </Link>
@@ -296,7 +297,8 @@ export default function Yachts() {
           <SectionLabel>Boarding</SectionLabel>
           <DisplayHeading className="text-[#1B2A4A] mb-4">Marinas we load from</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[62ch]">
-            We follow the boat. Most charters we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR.
+            We follow the boat. Most yachts we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR. The
+            host or their operator books the charter.
           </BodyCopy>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {YACHT_MARINAS.map((marina) => {

@@ -6,13 +6,13 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 const config: OccasionPageConfig = {
   slug: 'halloween-catering-dubai',
   seoTitle: 'Halloween Catering Dubai | Spooky Party Menus',
-  metaDescription: 'Halloween catering in Dubai. Spooky, stylish menus for home parties, kids events and venue celebrations. Private chef service, themed treats and full.',
+  metaDescription: 'Halloween catering in Dubai for home parties, kids events and venue celebrations. Themed food, a chef and service staff. You stay with the party.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/halloween-catering-dubai-hero.webp',
   breadcrumbLabel: 'Halloween Catering Dubai',
   h1: 'Halloween Catering in Dubai',
   heroSub:
-    'Turn your Halloween celebration into an unforgettable night with bespoke catering, eerie styling and imaginative treats — served by a private chef in your Dubai home or venue.',
+    'Halloween catering in your Dubai home or venue: themed food, a chef and service staff sized to the guest list. You stay with the party.',
   heroImage: '/images/halloween-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book Halloween catering in Dubai (via mychef.ae/halloween-catering-dubai)",

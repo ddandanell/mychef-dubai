@@ -269,7 +269,7 @@ export default function LuxuryDinnerPlanningGuide() {
             How to Plan a Luxury Dinner Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lux-hero-sub">
-            How to design an unforgettable private dining experience, from menu and tablescape to lighting, service, and hosting.
+            How to plan a private dinner: menu, table, lighting, service and what you still do as host.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lux-hero-cta">Get My Custom Quote</Link>
@@ -490,7 +490,7 @@ export default function LuxuryDinnerPlanningGuide() {
             Design Your Luxury Dinner
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your occasion, guest list, and vision. We will create a tailored menu, tablescape, and service plan for an unforgettable evening.
+            Tell us the occasion and guest list. We send a menu and service plan for the room you already have.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>

@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <SEO
         title="myCHEF Dubai | A Chef for Your Kitchen and Events"
-        description="A chef who cooks in your kitchen, or catering for events of any size in Dubai. Every chef is vetted before they cook for you."
+        description="A standing chef for your home, or catering for a night with guests in Dubai. Every chef is vetted before they cook for you."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"

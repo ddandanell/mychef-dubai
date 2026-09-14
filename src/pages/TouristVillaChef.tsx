@@ -45,10 +45,10 @@ const packages = [
     ],
   },
   {
-    name: '5-Day Culinary Journey',
+    name: '5-Day Villa Dinners',
     duration: '5 dinners',
     price: 'From AED 4,500',
-    description: 'A deeper experience across cuisines, ending with a celebratory Arabic feast by the pool or terrace.',
+    description: 'Five dinners across cuisines, ending with an Arabic feast by the pool or terrace.',
     features: [
       '5 private chef dinners for 2–8 guests',
       'Rotating cuisines: Italian, Indian, Japanese, seafood, Arabic',
@@ -59,7 +59,7 @@ const packages = [
     highlighted: true,
   },
   {
-    name: 'Bespoke Villa Residence',
+    name: 'Custom villa stay',
     duration: 'Custom',
     price: 'On request',
     description: 'For longer stays or larger groups. A dedicated chef plan tailored to your villa, your itinerary, and your guest list.',
@@ -80,7 +80,7 @@ const whyBook = [
   },
   {
     title: 'Authentic Local Flavours',
-    description: 'Experience Middle Eastern hospitality and Dubai\'s multicultural food scene from the comfort of your rental.',
+    description: 'Arabic, Mediterranean, Indian and other menus cooked in the villa kitchen, so you are not booking a different restaurant every night.',
   },
   {
     title: 'Flexible Around Your Holiday',
@@ -88,7 +88,7 @@ const whyBook = [
   },
   {
     title: 'Trusted by Villa Managers',
-    description: 'We coordinate directly with your villa rental agency, concierge, or property manager for seamless access.',
+    description: 'We coordinate directly with your villa rental agency, concierge or property manager on access and timing.',
   },
 ]
 
@@ -111,18 +111,18 @@ const faqs = [
   },
   {
     q: 'Is this available outside Dubai?',
-    a: 'Our primary coverage is Dubai. Abu Dhabi and select Emirates may be possible for premium bespoke packages with transport logistics included.',
+    a: 'Our coverage is Dubai. If the villa is in Dubai, we can cook there. We do not currently take bookings outside Dubai.',
   },
   {
-    q: 'Is villa with private chef thailand part of what you offer?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown Dubai this is our most common booking.',
+    q: 'Do you cook in holiday villas in Dubai, or only in private homes?',
+    a: 'We cook in holiday villas, rental houses and serviced apartments in Dubai, including Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown. We bring what the kitchen needs, serve and leave it as we found it. This is a stay of days, not a monthly household chef plan.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Villas & Residences',
-    description: 'Private dining and event catering for luxury villas across Dubai.',
+    description: 'Private dining and event catering for villas across Dubai.',
     image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
@@ -134,7 +134,7 @@ const relatedServices = [
   },
   {
     title: 'Desert Dining Dubai',
-    description: 'Premium chef-prepared dining experiences in desert settings.',
+    description: 'Chef-cooked dinners at a desert camp or dune site you have booked.',
     image: '/images/desert-dining-dubai-hero.webp',
     link: '/desert-dining-dubai',
   },
@@ -145,7 +145,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Tourist Villa Chef',
-      'Tourist villa chef packages in Dubai: multi-day private chef service for luxury villa rentals, featuring themed dinners and an Arabic feast finale.',
+      'Holiday villa chef Dubai: multi-day private chef service for villa rentals, with themed dinners and an Arabic feast finale.',
       'Catering Service',
       'Dubai',
     ),
@@ -204,8 +204,8 @@ export default function TouristVillaChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Holiday Villa Chef Dubai | Multi-Day Private Dining | myCHEF"
-        description="Holiday Villa Chef Dubai — Holiday villa chef service in Dubai. Multi-day private chef packages for luxury villa rentals, with themed dinners and an Arabic…"
+        title="Holiday Villa Chef Dubai | myCHEF"
+        description="Holiday villa chef Dubai: multi-day dinners in a rental villa. The chef shops, cooks, serves and clears. From AED 2,500 for three dinners."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-villa.webp"
         hideSiteName
@@ -230,10 +230,10 @@ export default function TouristVillaChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 tvc-hero-h1">
-            Holiday Villa Chef Dubai: Multi-Day Private Dining
+            Holiday Villa Chef Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 tvc-hero-sub">
-            Multi-day villa chef packages for visitors who want restaurant-quality dining without leaving their luxury rental. Themed dinners, Arabic feast finale, and zero logistics.
+            Holiday villa chef Dubai: multi-day dinners in a rental villa. The chef shops, cooks, serves and clears. Themed dinners and an Arabic feast if you want one. This is a stay of days, not a monthly household plan.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 tvc-hero-cta">Plan My Villa Chef Package</Link>
@@ -257,17 +257,17 @@ export default function TouristVillaChef() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">VISITOR EXPERIENCES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Dubai Dining, Delivered to Your Villa
+            Holiday villa chef Dubai: dinners for the dates you are here
           </h2>
           <div className="tvc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us your villa location, travel dates, and group size, and we will bring you a vetted private chef within 24 hours. Our tourist villa chef service gives visitors a curated multi-day dining programme — a private chef shops, cooks, serves, and cleans so you can spend your holiday actually on holiday.
+              Tell us the villa location, travel dates and group size, and we will match a vetted private chef within 24 hours. A holiday villa chef shops, cooks, serves and clears, so the stay is not spent in the kitchen. Three dinners start from AED 2,500; five dinners from AED 4,500. This is catering across a short stay, not a household chef on a monthly plan.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell. We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless.
+              Menus can rotate through Mediterranean, Asian, Indian and Arabic cooking, and can end with an Arabic feast. We coordinate with villa rental agencies, concierges and property managers on access and timing.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Looking for more ways to dine? Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>, or our full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> while you are in Dubai.
@@ -282,7 +282,7 @@ export default function TouristVillaChef() {
           <div className="text-center mb-12">
             <SectionLabel align="center">VILLA CHEF PACKAGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Choose Your Stay Experience
+              Three dinners, five dinners, or a custom stay
             </h2>
           </div>
 
@@ -336,7 +336,7 @@ export default function TouristVillaChef() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHY BOOK A VILLA CHEF</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              The Smarter Way to Dine on Holiday
+              Why visitors book a chef for the villa
             </h2>
           </div>
 
@@ -362,7 +362,7 @@ export default function TouristVillaChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Holiday Villa Chef Dubai: the questions we get before a booking
+            The questions we get before a villa-chef booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -408,10 +408,10 @@ export default function TouristVillaChef() {
         <div className="container-custom text-center tvc-cta opacity-0 translate-y-8">
           <Palmtree size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Your Villa Chef Experience
+            Send the villa, the dates and the headcount
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your villa location, dates, and group size. We will design a multi-day chef package that turns your Dubai stay into a culinary journey.
+            Share the villa location, dates and group size. We will send a multi-day chef plan for the nights you are in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Villa Chef Package</Link>

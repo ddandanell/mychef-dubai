@@ -218,7 +218,7 @@ export default function Cuisines() {
       <PageHero
         eyebrow="Cuisines"
         title="Multi Cuisine Catering Dubai"
-        subtitle="Multi cuisine catering Dubai is for mixed tables: more than one kitchen, one team on the night. You choose the cuisines. We match chefs who cook those menus, then staff, setup and clear-down. Format and price sit on Catering — this page is the cuisine index."
+        subtitle="Multi cuisine catering Dubai is for mixed tables: more than one kitchen, one team on the night. You choose the cuisines. We match chefs who cook those menus, then staff, setup and clear-down. Format and price sit on Catering. This page is the cuisine index."
         image={HERO.src}
         imageAlt={HERO.alt}
         imageWidth={HERO.width}
@@ -270,7 +270,7 @@ export default function Cuisines() {
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
-            . Named nights — weddings, birthdays, private parties — sit on{' '}
+            . Named nights (weddings, birthdays, private parties) sit on{' '}
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Events
             </Link>

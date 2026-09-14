@@ -317,7 +317,7 @@ export default function BachelorPartyCatering() {
             Bachelor Party Catering Dubai: Yacht, Villa & BBQ
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
-            Live grills, premium cuts, and full cocktail service for the send-off. Catering built for yacht charters, villa takeovers, and unforgettable nights across Dubai.
+            Live grills, cuts and cocktail service for the send-off. Catering for villas and yachts you already have booked. We do not charter the yacht.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Plan My Bachelor Party</Link>

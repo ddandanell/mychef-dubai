@@ -34,7 +34,7 @@ export const PRIVATE_PARTY_SIBLING_LINKS = [
 
 export const partyHero = {
   src: '/images/party-catering-dubai-hero.webp',
-  alt: 'A private party in a Dubai villa garden — standing guests, passed food, warm lighting. Experience concept shown.',
+  alt: 'A private party in a Dubai villa garden: standing guests, passed food, warm lighting. Experience concept shown.',
   width: 1344,
   height: 752,
 } as const
@@ -43,19 +43,19 @@ export const partyHeroCopy = {
   eyebrow: 'Private events',
   title: 'Private Party Catering Dubai',
   subtitle:
-    'Private party catering Dubai for a house, villa, garden or apartment — the night you are actually hosting, not a wedding catalogue and not a company event. Drop-off, a buffet from AED 120 per person, live stations, or a chef plating at the table. Menu, chefs, staff, setup and clear-down, scoped to the room.',
+    'Private party catering Dubai is the house night: friends in, family in, a date on the calendar. Not a wedding catalogue and not a company event. Menu, chefs, staff, setup and clear-down, scoped to the room. Drop-off, a buffet from AED 120 per person, live stations, or a chef plating at the table. Send the date, address and guest count.',
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share your date, address and guest count. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
   lead:
-    'This page is the unnamed house night: friends in, family in, a date on the calendar. Two families and a toast belong on engagement. Wedding, birthday and company-event searches have their own pages.',
+    'This page is the unnamed house night: friends in, family in, a date on the calendar. Hosts searching party catering Dubai usually mean this brief. Two families and a toast belong on engagement. Wedding, birthday and company-event searches have their own pages.',
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   cateringHref: '/catering-dubai',
   cateringLabel: 'Luxury catering in Dubai',
-  eventsNote: 'is the occasion hub — use it when the night is still unnamed.',
+  eventsNote: 'is the occasion hub. Use it when the night is still unnamed.',
   cateringNote: 'is the format catalogue: food-only through full service.',
 } as const
 
@@ -157,7 +157,7 @@ export const uniqueOccasionCards = [
     href: CATERING_PATHS.villas,
     linkLabel: 'Villa catering in Dubai',
     image: '/images/villa-catering-dubai-hero.webp',
-    imageAlt: 'Villa catering in Dubai — outdoor table and service team. Experience concept shown.',
+    imageAlt: 'Villa catering in Dubai: outdoor table and service team. Experience concept shown.',
   },
   {
     title: 'Yacht party catering',
@@ -233,7 +233,7 @@ export const includedItems = [
   },
   {
     title: 'Staff',
-    body: 'Waiters, bartenders and runners sized to the format — added when the room needs them.',
+    body: 'Waiters, bartenders and runners sized to the format, added when the room needs them.',
   },
   {
     title: 'Equipment',
@@ -299,7 +299,7 @@ export const decisionModule = {
   h2: 'A chef at the table, or a team in the house',
   privateChefLead: 'Private chef:',
   privateChefBody:
-    'best when everyone sits at one table and dinner is the event — cooked in your kitchen, at the pace of the conversation.',
+    'best when everyone sits at one table and dinner is the event: cooked in your kitchen, at the pace of the conversation.',
   partyLead: 'Private party catering:',
   partyBody:
     'best when the guest list outgrows one stove, people stand, or the kitchen cannot plate the room at once. That is this page.',
@@ -356,7 +356,7 @@ export const exampleEvents = [
     title: 'Intimate anniversary dinner, Palm Jumeirah',
     guests: '8 guests',
     venue: 'Private villa, Palm Jumeirah',
-    setup: 'Seven-course tasting with a private chef — a table this small is usually a chef night, not a staffed party.',
+    setup: 'Seven-course tasting with a private chef. A table this small is usually a chef night, not a staffed party.',
     outcome: 'Paired courses and discreet service for a milestone at home.',
     href: '/private-chef-dubai',
     linkLabel: 'Private chef services in Dubai',
@@ -375,7 +375,7 @@ export const exampleEvents = [
 export const partyFaqs = [
   {
     q: 'Is this the same as event catering, luxury catering or an engagement?',
-    a: 'No. This page is the unnamed house night — friends, family, an anniversary with friends, a graduation, a pool gathering, a housewarming. Two families and a toast sit on [engagement party catering](/engagement-catering-dubai). [Event catering in Dubai](/events) is the occasion hub. [Luxury catering in Dubai](/catering-dubai) is food-only through full service.',
+    a: 'No. This page is the unnamed house night: friends, family, an anniversary with friends, a graduation, a pool gathering, a housewarming. Two families and a toast sit on [engagement party catering](/engagement-catering-dubai). [Event catering in Dubai](/events) is the occasion hub. [Luxury catering in Dubai](/catering-dubai) is food-only through full service.',
   },
   {
     q: 'How is a house party priced?',
@@ -391,7 +391,7 @@ export const partyFaqs = [
   },
   {
     q: 'Do you cater graduations?',
-    a: 'Yes, as a daytime mixed-ages table on this page — not as a separate URL. Earlier service, a menu that does not assume a night out, and a guest list that usually spans three generations.',
+    a: 'Yes, as a daytime mixed-ages table on this page, not as a separate URL. Earlier service, a menu that does not assume a night out, and a guest list that usually spans three generations.',
   },
   {
     q: 'Is the food halal?',

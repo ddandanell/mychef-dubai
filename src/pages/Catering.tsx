@@ -109,14 +109,14 @@ export default function Catering() {
       <PageHero
         eyebrow="Catering Dubai"
         title="Catering Dubai, Built Around Your Event"
-        subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around your event. Weddings, villa gatherings, yachts, private celebrations, offices and corporate dining across Dubai. Food-only starts from AED 90 per person; full service with staff and live cooking is tailored to your headcount."
+        subtitle="Catering Dubai is food for a night you already have a room for. Drop-off from AED 90 per person (10 guests, AED 900 minimum). A staffed buffet from AED 120, from 20 guests. Canapés from AED 150. Chef-led plated dining from AED 700. Yacht catering from AED 280. Add chefs, waiters and setup only when the room needs them. Complete event support is optional coordination you choose."
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
         imageWidth={cateringHero.width}
         imageHeight={cateringHero.height}
         imagePosition="100% 50%"
         align="left"
-        cta={{ label: 'Get a tailored catering quote', href: CATERING_INQUIRY_HREF }}
+        cta={{ label: 'Request your catering quote', href: CATERING_INQUIRY_HREF }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: CATERING_WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="full"
@@ -224,10 +224,10 @@ export default function Catering() {
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             Which band you are in is decided by the format, not by the word you searched for: a party, a buffet, a
             bar or anything with a running order is priced per person here. A seated dinner under about twenty
-            people is usually cheaper as a household visit — twelve guests at AED 700 a head is AED 8,400 of plated
+            people is usually cheaper as a household visit: twelve guests at AED 700 a head is AED 8,400 of plated
             dining with a service team, while one Full-Day{' '}
             <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
-            is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs — pick the
+            is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs: pick the
             one that matches the night, not the smaller number.
           </p>
           <div className="flex flex-wrap gap-6">
@@ -258,7 +258,7 @@ export default function Catering() {
           <SectionLabel>PRIVATE CHEF OR CATERING</SectionLabel>
           <DisplayHeading className="text-black mb-6">Two doors: the house, or the night</DisplayHeading>
           <BodyCopy className="mb-4">
-            <strong className="text-black">Private chef:</strong> the same person comes back — most weeks, with a Food
+            <strong className="text-black">Private chef:</strong> the same person comes back most weeks, with a Food
             Profile of how your house eats and backup when they are off. Priced per visit, from AED 750.
           </BodyCopy>
           <BodyCopy className="mb-4">
@@ -269,14 +269,14 @@ export default function Catering() {
             The split is not guest count. A Tuesday and Thursday for a family of five is a private chef; a birthday
             for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count only
             decides how big the team is. As a rule of thumb: for a seated dinner under about 20, start on{' '}
-            <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4">private chef prices</Link>{' '}
-            — you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a
+            <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4">private chef prices</Link>
+            : you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a
             running order, you are in the right place.
           </BodyCopy>
           <BodyCopy className="mb-5">
             The arithmetic is worth knowing before you choose. Twelve people at AED 700 a head is AED 8,400 of
             chef-led plated dining, designed and staffed for the evening. One Full-Day private chef is AED 1,500 plus
-            groceries, cooking for the household — no service team, no plating for a room, no running order. They are
+            groceries, cooking for the household: no service team, no plating for a room, no running order. They are
             different jobs, and the cheaper number is not automatically the right one.
           </BodyCopy>
           <Link
@@ -564,7 +564,7 @@ export default function Catering() {
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
-              Get a tailored catering quote
+              Request your catering quote
             </Link>
             <a
               href={CATERING_WHATSAPP_LINK}

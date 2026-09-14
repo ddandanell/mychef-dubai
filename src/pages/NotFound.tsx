@@ -21,14 +21,14 @@ export default function NotFound() {
             Page Not Found
           </h1>
           <p className="mt-5 md:mt-6 font-inter text-base md:text-body-lg text-white/70 leading-relaxed">
-            Sorry, the page you're looking for doesn't exist or has been moved. Let us help you plan an unforgettable dining experience instead.
+            This page is not here. Start from the homepage, or send the date, guest count and area for a quote.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/" className="btn-primary text-center">
               Back to Home
             </Link>
             <Link to="/inquiry" className="btn-secondary text-center">
-              Request a Proposal
+              Request your quote
             </Link>
           </div>
         </div>

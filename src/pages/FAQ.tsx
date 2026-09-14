@@ -313,12 +313,12 @@ export default function FAQ() {
       {/* Section 6: CTA */}
       <section className="faq-cta bg-black section-padding">
         <div className="faq-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Catering Faq Dubai: Ready to Book?</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Catering FAQ Dubai: what to send so we can quote</h2>
           <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
-            Your bespoke dining experience is just a message away.
+            Date, guest count and area are enough. We send a written plan, not a brochure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>

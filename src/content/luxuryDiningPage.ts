@@ -25,9 +25,9 @@ export const hero = {
   eyebrow: 'Dining Experiences',
   h1: 'Private dining experience Dubai, designed around the moment',
   subtitle:
-    'A private dining experience in Dubai starts with the moment, then the chef, the menu and the room. Romantic dinners, tasting menus, cooking classes and desert tables — planned around you, not a restaurant slot.',
-  primaryCta: 'Explore Experiences',
-  secondaryCta: 'Plan Something Custom',
+    'A private dining experience in Dubai is for a table you actually care about: two people, a tasting, a class, a desert dinner. The chef, the menu and the service are planned around that moment, not a restaurant slot. Tell us who it is for, where and when.',
+  primaryCta: 'See the experiences',
+  secondaryCta: 'Plan something custom',
   utility: 'Dubai-wide · Private homes · Villas · Selected venues · Special locations',
 } as const
 
@@ -36,7 +36,7 @@ export const whatItIs: ProseSection = {
   id: 'what-is-a-dining-experience',
   h2: 'What a private dining experience Dubai actually is',
   paragraphs: [
-    'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. People looking for unique dining experiences Dubai usually mean this: a night built around one table, not a restaurant slot. A myCHEF dining experience starts with what you want the evening to feel like, then builds the food, the chef and the service around that.',
+    'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. People looking for unique dining experiences in Dubai usually mean this: a night built around one table, not a restaurant slot. A myCHEF dining experience starts with what you want the evening to feel like, then builds the food, the chef and the service around that.',
     'It might happen at home, in a villa, on a yacht, in the desert, at a private venue, or somewhere else that suits what you have in mind. Sometimes the chef stays almost invisible and the evening belongs to your guests. Sometimes the chef introduces every course. Sometimes you are in the kitchen cooking alongside them. Sometimes the location is the whole reason for the evening.',
     'What all of them share is the direction of the planning. You are not fitting into a restaurant\'s normal service. The experience is built around you.',
   ],
@@ -49,7 +49,7 @@ export const experienceFinder = [
     title: 'Romantic Dinner',
     text: 'For proposals, anniversaries, date nights, or simply an evening you want to make different from a normal dinner out.',
     href: EXPERIENCES_PATHS.romantic,
-    cta: 'Explore Romantic Dinner',
+    cta: 'See romantic dinner',
     image: '/images/romantic-dinner-dubai-hero.webp',
     alt: 'A couple dining privately by candlelight at a table set for two in a Dubai villa. Experience concept shown.',
   },  {
@@ -57,7 +57,7 @@ export const experienceFinder = [
     title: 'Private Cooking Class',
     text: 'Cook alongside a professional chef in a private, hands-on session built around your group and the cuisine you want to learn.',
     href: EXPERIENCES_PATHS.cookingClasses,
-    cta: 'Explore Cooking Classes',
+    cta: 'See cooking classes',
     image: '/images/private-cooking-classes-dubai-hero.webp',
     alt: 'Guests preparing ingredients around a kitchen island while a chef demonstrates a technique. Experience concept shown.',
   },
@@ -66,7 +66,7 @@ export const experienceFinder = [
     title: 'Desert Dining',
     text: 'A chef-led private meal where the setting becomes part of the memory.',
     href: EXPERIENCES_PATHS.desert,
-    cta: 'Explore Desert Dining',
+    cta: 'See desert dining',
     image: '/images/desert-dining-dubai-hero.webp',
     alt: 'A private dining table set in the Dubai desert at dusk. Experience concept shown.',
   },
@@ -98,9 +98,9 @@ export const prose: ProseSection[] = [
     id: 'tasting-menus',
     h2: 'When Dinner Becomes a Progression',
     paragraphs: [
-      'A tasting menu is not a starter, a main and a dessert made smaller. It is a sequence built deliberately, where each course is planned in relation to the ones on either side of it — lighter before heavier, sharper after richer, texture changing often enough that attention never drops.',
+      'A tasting menu is not a starter, a main and a dessert made smaller. It is a sequence built deliberately, where each course is planned in relation to the ones on either side of it: lighter before heavier, sharper after richer, texture changing often enough that attention never drops.',
       'That structure is what makes it an experience rather than a meal. Courses arrive in a planned rhythm. The chef has room to cook with more technique than a single main course allows. And because the menu is designed for your table specifically, it can be built around what your guests actually eat.',
-      'Direction is a choice made during planning rather than picked off a list. Modern European, Japanese-influenced, Mediterranean, Asian, plant-based, or a chef-led concept built around a particular idea are all possible starting points — the honest answer for any given date depends on which chefs are available and what they genuinely cook well. We would rather tell you that than promise every cuisine.',
+      'Direction is a choice made during planning rather than picked off a list. Modern European, Japanese-influenced, Mediterranean, Asian, plant-based, or a chef-led concept built around a particular idea are all possible starting points. The honest answer for any given date depends on which chefs are available and what they genuinely cook well. We would rather tell you that than promise every cuisine.',
       'Dietary requirements are part of the menu design, not an exception handled at the end. Allergies, vegetarian and vegan guests, gluten requirements and halal requirements all change how a progression is built, and it is far easier to design around them than to substitute around them later.',
       'Tasting menus work especially well for smaller groups, where the dinner itself is the evening rather than the backdrop to it.',
     ],
@@ -110,12 +110,12 @@ export const prose: ProseSection[] = [
     id: 'cooking-classes',
     h2: 'Sometimes You Should Be in the Kitchen Too',
     paragraphs: [
-      'A private cooking class is not a demonstration where a chef cooks while everybody sits and watches. The point is that your group is doing the work — handling the ingredients, making the mistakes, and eating the result.',
+      'A private cooking class is not a demonstration where a chef cooks while everybody sits and watches. The point is that your group is doing the work: handling the ingredients, making the mistakes, and eating the result.',
       'That changes who it suits. It works for couples who want to do something together rather than sit opposite each other again, for families, for groups of friends, for visitors who want to take something home that is not a souvenir, and for teams who need an activity that is not another dinner.',
       'A session usually moves through the same shape: agree the cuisine and the dishes beforehand, meet the ingredients, watch the chef demonstrate the techniques that matter, cook the dishes yourselves with the chef working alongside you, and then sit down and eat what you made.',
-      'What can be taught depends entirely on the chef, which is the point of the next section. Pasta, Japanese cooking and sushi, wider Asian cooking, Mediterranean and pastry are the kinds of subjects a specialist chef teaches well — but the class is only as good as the person teaching it, so the subject is confirmed against a specific chef rather than promised in advance.',
+      'What can be taught depends entirely on the chef, which is the point of the next section. Pasta, Japanese cooking and sushi, wider Asian cooking, Mediterranean and pastry are the kinds of subjects a specialist chef teaches well. The class is only as good as the person teaching it, so the subject is confirmed against a specific chef rather than promised in advance.',
     ],
-    link: { href: EXPERIENCES_PATHS.cookingClasses, label: 'Explore Private Cooking Classes' },
+    link: { href: EXPERIENCES_PATHS.cookingClasses, label: 'See private cooking classes' },
   },
   {
     id: 'specialist-experiences',
@@ -123,7 +123,7 @@ export const prose: ProseSection[] = [
     paragraphs: [
       'A chef who cooks beautifully for a household every day is not automatically the right person to teach sushi. Those are different skills, and pretending otherwise is how experiences disappoint people.',
       'Some experiences depend on depth in one thing: sushi and Japanese knife technique, pastry, Italian pasta made by hand, French technique, regional Indian cooking, live fire and barbecue. Depth like that takes years and it does not transfer sideways.',
-      'So when an experience depends on specialist knowledge, the chef is selected around the experience rather than assigned from whoever is free that evening. If the right specialist is not available for your date, the honest answer is to say so and offer a different date or a different experience — not to send someone who will get through it.',
+      'So when an experience depends on specialist knowledge, the chef is selected around the experience rather than assigned from whoever is free that evening. If the right specialist is not available for your date, the honest answer is to say so and offer a different date or a different experience, not to send someone who will get through it.',
     ],
     link: { href: CROSS_CATEGORY_PATHS.ourChefs, label: 'How we select our chefs' },
   },
@@ -160,7 +160,7 @@ export const prose: ProseSection[] = [
     h2: 'Some Dates Deserve More Than a Reservation',
     paragraphs: [
       'Proposals, anniversaries, Valentine\'s Day, milestone birthdays, honeymoons, engagements and family milestones have one thing in common: the date is fixed, and doing something forgettable on it is the one outcome nobody wants.',
-      'These are the evenings where a private experience earns its place, because the whole thing can be built backwards from the moment that matters — the reveal, the toast, the course where the ring appears — instead of being fitted around a restaurant\'s service.',
+      'These are the evenings where a private experience earns its place, because the whole thing can be built backwards from the moment that matters: the reveal, the toast, the course where the ring appears. Not fitted around a restaurant\'s service.',
       'Birthdays split in two, and it is worth being clear about which one you are planning. A small chef-led dinner for a milestone birthday is a dining experience. A birthday party with a guest list, service staff and event logistics is catering, and it is planned by a different team with a different brief.',
     ],
     link: { href: EXPERIENCES_PATHS.valentines, label: "Valentine's Day in Dubai" },
@@ -174,11 +174,11 @@ export const prose: ProseSection[] = [
       'Not every experience needs every layer. A tasting menu might need the chef, the food and service, and nothing more. A proposal might add flowers, candles and photography. A cooking class needs the chef, the ingredients and the right equipment. A desert dinner needs the food plus the location logistics and the service setup that make the location possible at all.',
     ],
     bullets: [
-      'Food — menu, ingredients, chef',
-      'Service — waiters, course service, drinks support',
-      'Table — tableware, linen, candles, flowers',
-      'Atmosphere — music, styling, lighting, special setup',
-      'Memory — photography, video, additional elements',
+      'Food: menu, ingredients, chef',
+      'Service: waiters, course service, drinks support',
+      'Table: tableware, linen, candles, flowers',
+      'Atmosphere: music, styling, lighting, special setup',
+      'Memory: photography, video, additional elements',
     ],
   },
   {
@@ -197,7 +197,7 @@ export const prose: ProseSection[] = [
     paragraphs: [
       'Saying "we have the best chefs" tells you nothing, because every company says it. What is worth explaining is how a chef gets matched to an evening.',
       'A romantic dinner for two, a sushi lesson for six and a Mediterranean tasting menu for eight do not need the same person. The match is made on cuisine and technical level, but also on the format of the experience, the number of guests, the location, and how much interaction the evening asks for.',
-      'A cooking-class chef has to be able to teach — to explain a technique clearly to someone holding a knife badly, and stay patient while they do it again. A tasting-menu chef needs course planning and precise timing across a sequence. A private romantic dinner often needs a quieter service style, where the chef is present but the evening is not about them. A specialist session needs genuine specialist ability.',
+      'A cooking-class chef has to be able to teach: to explain a technique clearly to someone holding a knife badly, and stay patient while they do it again. A tasting-menu chef needs course planning and precise timing across a sequence. A private romantic dinner often needs a quieter service style, where the chef is present but the evening is not about them. A specialist session needs genuine specialist ability.',
     ],
     link: { href: CROSS_CATEGORY_PATHS.ourChefs, label: 'How chefs are selected and matched' },
   },
@@ -206,7 +206,7 @@ export const prose: ProseSection[] = [
     h2: 'Your Table Does Not Need a Restaurant Address',
     paragraphs: [
       'Experiences happen in private homes, villas, apartments and penthouses, at selected event venues, on yachts, in the desert, and in other private settings that suit what you have planned.',
-      'We work across Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Jumeirah, JBR, DIFC, Dubai Hills and Arabian Ranches. Where you are affects planning more than most people expect — access, kitchen facilities, parking for equipment and travel time for the team all feed into what an evening needs.',
+      'We work across Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Jumeirah, JBR, DIFC, Dubai Hills and Arabian Ranches. Where you are affects planning more than most people expect: access, kitchen facilities, parking for equipment and travel time for the team all feed into what an evening needs.',
     ],
     link: { href: CROSS_CATEGORY_PATHS.locations, label: 'Areas we cover' },
   },
@@ -216,7 +216,7 @@ export const prose: ProseSection[] = [
     paragraphs: [
       'The experiences above are the ones people ask for most often. They are not the limit of what can be arranged, and it would be a shame to assume otherwise because a website only had room for five tiles.',
       'People have asked for surprise dinners, specialist masterclasses, themed tastings, proposal concepts built around a specific place, guest-chef evenings, family cooking activities, private brunches and dinners in venues that had never hosted one before.',
-      'Tell us what you are imagining, how many people, where, when, and anything that genuinely matters to you. We will tell you what is realistic — including when it is not, and what would work better.',
+      'Tell us what you are imagining, how many people, where, when, and anything that genuinely matters to you. We will tell you what is realistic, including when it is not, and what would work better.',
     ],
   },
   {
@@ -232,7 +232,7 @@ export const prose: ProseSection[] = [
     id: 'vip-club',
     h2: 'For Clients Who Come Back',
     paragraphs: [
-      'Some households book myCHEF regularly rather than once. The VIP Club exists for them — returning clients who want easier access to future experiences and priority when they are planning.',
+      'Some households book myCHEF regularly rather than once. The VIP Club exists for them: returning clients who want easier access to future experiences and priority when they are planning.',
       'What it includes is set out on its own page rather than summarised here.',
     ],
     link: { href: EXPERIENCES_PATHS.vipClub, label: 'Explore the VIP Club' },
@@ -293,9 +293,9 @@ export const finalDirectory = [
 ] as const
 
 export const finalCta = {
-  h2: 'Tell Us What You Want the Evening to Feel Like',
-  body: 'You do not need to know the menu, the chef or the exact format yet. Tell us who it is for, where you are, when you are planning it, and what you want the experience to feel like.',
-  primary: 'Plan My Experience',
+  h2: 'Tell us what you want the evening to feel like',
+  body: 'You do not need the menu, the chef or the exact format yet. Tell us who it is for, where you are, when you are planning it, and what the evening should feel like. We reply with what is realistic.',
+  primary: 'Plan this evening',
   secondary: 'Chat on WhatsApp',
 } as const
 
@@ -311,7 +311,7 @@ export const experienceFaqs = [
   },
   {
     q: 'How is a private dining experience different from hiring a private chef?',
-    a: 'A dining experience is an occasion — one evening, built around something you are marking or want to do. A private chef is a household service, where a chef cooks for you regularly over days, weeks or months. If you want someone cooking for the house on an ongoing basis, that is Private Chef.',
+    a: 'A dining experience is an occasion: one evening, built around something you are marking or want to do. A private chef is a household service, where a chef cooks for you regularly over days, weeks or months. If you want someone cooking for the house on an ongoing basis, that is Private Chef.',
   },
   {
     q: 'Where can I book a private dining experience in Dubai?',
@@ -335,7 +335,7 @@ export const experienceFaqs = [
   },
   {
     q: 'Do you offer private cooking classes?',
-    a: 'Yes — hands-on private sessions where your group cooks alongside a professional chef, rather than watching a demonstration.',
+    a: 'Yes. Hands-on private sessions where your group cooks alongside a professional chef, rather than watching a demonstration.',
   },
   {
     q: 'Can children join a cooking class?',
@@ -395,7 +395,7 @@ export const experienceFaqs = [
   },
   {
     q: 'Can you create something that is not listed on this page?',
-    a: 'Yes. Tell us what you are imagining, how many people, where and when. We will tell you what is realistic — including when something would work better a different way.',
+    a: 'Yes. Tell us what you are imagining, how many people, where and when. We will tell you what is realistic, including when something would work better a different way.',
   },
   {
     q: 'Who actually cooks the food?',

@@ -160,7 +160,7 @@ export default function WeddingCatering() {
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
             {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
             <Link to={siloIntro.cateringHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.cateringLabel}
+              Catering
             </Link>
             . Other named nights sit on{' '}
             <Link to={siloIntro.eventsHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
@@ -178,20 +178,20 @@ export default function WeddingCatering() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What does the wedding meal through myCHEF actually mean?</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Wedding catering Dubai is the meal, not the rest of the day</DisplayHeading>
           <BodyCopy className="mb-5">
-            For one couple it is an intimate dinner for twenty around one table. For another it is a hundred guests arriving for canapés, then a buffet, live stations and dessert. A third needs a plated menu, waiters on every table, a bar team and someone holding the timing between the food and the rest of the celebration.
+            Wedding catering Dubai is the food: menu, tasting, chefs, service team and the flow of the meal. For twenty around one table it can be a plated dinner. For a hundred it can be canapés, then a buffet or live stations. You choose how far the catering goes.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            That is why we do not begin by asking you to choose Package A, B or C. We begin with the wedding. This page is the wedding brief; the wider operation sits on{' '}
+            We do not begin by asking you to choose Package A, B or C. We begin with the sitting you actually have. The wider catering ladder sits on{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Luxury catering in Dubai
+              Catering
             </Link>
             .
           </BodyCopy>
           <BodyCopy className="mb-5">{WEDDING_IDENTITY}</BodyCopy>
           <BodyCopy>
-            We are not a wedding planner. If you are comparing wedding caterers in Dubai, that distinction matters more than a brochure list of inclusions.
+            We are not a wedding planner. Venue, ceremony, florals, entertainment and photography stay with you or your planner. If you are comparing wedding caterers in Dubai, that distinction matters more than a brochure list of inclusions.
           </BodyCopy>
         </Container>
       </Section>

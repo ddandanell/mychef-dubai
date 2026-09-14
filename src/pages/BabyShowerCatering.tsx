@@ -45,7 +45,7 @@ const showerFormats = [
   {
     icon: Sparkles,
     title: 'Canapé Selections',
-    description: 'Delicate passed and displayed canapés — light, refined, and easy to enjoy while guests mingle and celebrate.',
+    description: 'Passed and displayed canapés, light enough to eat while guests are standing and talking.',
   },
   {
     icon: Coffee,
@@ -60,19 +60,19 @@ const showerFormats = [
   {
     icon: GlassWater,
     title: 'Mocktails & Drinks',
-    description: 'Refreshing mocktails, fruit coolers, and infused waters — celebratory, alcohol-free, and beautifully presented.',
+    description: 'Mocktails, fruit coolers and infused waters. Alcohol-free, set up as a drinks station.',
   },
   {
     icon: Flower,
     title: 'Themed Styling',
-    description: 'Soft pastels, florals, gender-reveal palettes, or modern neutrals — we style the spread to match your theme.',
+    description: 'Soft pastels, florals, gender-reveal palettes or neutrals. We style the spread to match the theme you have chosen.',
   },
 ]
 
 const includedItems = [
-  { title: 'Bespoke Shower Menu', description: 'A menu designed around your theme, palette, and guests’ tastes.' },
+  { title: 'Shower menu written for the table', description: 'A menu designed around your theme, palette, and guests’ tastes.' },
   { title: 'Grazing & Dessert Styling', description: 'Photogenic tables styled with boards, stands, florals, and props.' },
-  { title: 'Light, Elegant Bites', description: 'Refined canapés and afternoon-tea fare that feels celebratory but effortless.' },
+  { title: 'Light bites', description: 'Canapés and afternoon-tea fare that people can eat while standing.' },
   { title: 'Mocktail Bar', description: 'A non-alcoholic drinks station with fresh mocktails and infusions.' },
   { title: 'Tableware & Linens', description: 'Soft, considered tableware and linens to complete the look.' },
   { title: 'Gentle Service Staff', description: 'Discreet, warm hosts who keep the table replenished throughout.' },
@@ -83,11 +83,11 @@ const includedItems = [
 const useCases = [
   {
     title: 'Intimate Home Showers',
-    description: 'A grazing table in the living room, a dessert display by the window, and mocktails for everyone. We bring a polished, magazine-worthy spread to your home without taking over your kitchen.',
+    description: 'A grazing table in the living room, a dessert display by the window, and mocktails for everyone. We style the spread in your home and leave the kitchen as we found it.',
   },
   {
     title: 'Garden & Villa Celebrations',
-    description: 'Soft pastels against greenery make for unforgettable baby showers. We style outdoor grazing tables and afternoon-tea setups across villas and gardens throughout Dubai.',
+    description: 'Outdoor grazing tables and afternoon-tea setups across villas and gardens in Dubai, styled to the palette you have chosen.',
   },
   {
     title: 'Gender Reveals',
@@ -95,7 +95,7 @@ const useCases = [
   },
   {
     title: 'Elegant Afternoon Gatherings',
-    description: 'For a calmer, refined celebration, our afternoon-tea format brings finger sandwiches, scones, and petit fours together in a timeless, graceful spread.',
+    description: 'An afternoon-tea format: finger sandwiches, scones and petit fours, for a quieter sitting.',
   },
 ]
 
@@ -135,7 +135,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What food works best for a baby shower?',
-    a: 'Light, elegant fare tends to suit baby showers best — grazing tables, delicate canapés, afternoon-tea bites, and a beautiful dessert display. We keep portions easy to enjoy while guests mingle and celebrate.',
+    a: 'Light fare tends to suit baby showers: grazing tables, canapés, afternoon-tea bites and a dessert display. Portions are easy to eat while guests are standing.',
   },
   {
     q: 'Can you match the menu to our theme or colour palette?',
@@ -151,7 +151,7 @@ const faqs = [
   },
   {
     q: 'Can you accommodate dietary requirements?',
-    a: 'Yes. We routinely provide vegetarian, vegan, halal, gluten-free, and allergy-friendly options. Just share any requirements when planning and we will build them into the menu seamlessly.',
+    a: 'Yes. We routinely provide vegetarian, vegan, halal, gluten-free and allergy-friendly options. Share requirements when planning and we build them into the menu.',
   },
   {
     q: 'How far in advance should we book?',
@@ -165,16 +165,16 @@ const faqs = [
   { q: "Is the food halal?", a: "Yes, our baby shower menus are halal sourced by default, which suits the vast majority of gatherings in Dubai. If you have specific requirements beyond that, just mention them when we plan and we'll confirm every item. Non-halal is not something we offer as standard." },
   { q: "How do I book, and how quickly will I hear back?", a: "You can book by sending an inquiry with your date, guest count, and theme, and we typically reply within 15 minutes during business hours. From there we confirm the menu, styling, and quote, and lock in your date. Start your request on our [contact page](/contact) and we'll take it from there." },
   { q: "Can you provide serving staff and hosts for the shower?", a: "Yes, serving staff are an optional add-on for baby showers. A discreet host can keep the grazing and dessert tables replenished, top up mocktails, and clear away throughout, so the mum-to-be and guests never have to lift a finger. If you'd prefer a simpler drop-and-style setup, that works too, and we'll price accordingly." },
-  { q: "Can you provide the baby shower cake and dessert table too?", a: "Yes, we design statement dessert tables with cakes, macarons, tarts, cupcakes, and themed sweets styled around your colour scheme. Whether you want a subtle pastel display or a bold gender-reveal centrepiece, the desserts are coordinated with the rest of the spread. It's part of our wider [dessert table catering](/dessert-table-catering-dubai) service." },
+  { q: "Can you provide the baby shower cake and dessert table too?", a: "Yes, we design dessert tables with cakes, macarons, tarts, cupcakes and themed sweets styled around your colour scheme, including a gender-reveal centrepiece if that is the brief. Desserts are coordinated with the rest of the spread. It is part of our wider [dessert table catering](/dessert-table-catering-dubai) service." },
   { q: "Can you cater a gender reveal as part of the shower?", a: "Absolutely. We coordinate the desserts, canapes, and mocktails around your reveal colour, from pink-and-blue dessert tables to a cake with a coloured centre. We keep everything photogenic and timed so the reveal moment lands beautifully. Just share your plan and we'll build the menu around it." },
   { q: "Do you cater baby showers in villas, apartments, and gardens?", a: "Yes, we cater baby showers across homes, villas, gardens, and apartments throughout Dubai, and we style each space to suit. Garden and villa showers work wonderfully with outdoor grazing tables, while apartments and living rooms suit a compact dessert-and-mocktail display. Tell us your venue and we'll plan a setup that fits the space and flow." },
-  { q: "Do you handle the setup and styling, or just drop off the food?", a: "We handle the full setup and styling as standard, arriving early to build your grazing boards, dessert stands, mocktail station, florals, and props. The goal is a magazine-worthy spread that's ready before your first guest arrives. After the celebration we pack down and leave your space spotless." },
+  { q: "Do you handle the setup and styling, or just drop off the food?", a: "We handle the full setup and styling as standard, arriving early to build grazing boards, dessert stands, a mocktail station, florals and props, so the table is ready before the first guest. After the sitting we pack down and leave the space as we found it." },
   { q: "How far in advance should I book during peak season?", a: "During Dubai's peak season from November to March, we recommend booking two to three weeks ahead, as dates fill quickly for showers and celebrations. Outside peak season, one to two weeks is usually comfortable for most baby showers. If your date is close, still reach out, we'll always try to accommodate." },
-  { q: "Can baby shower catering be combined with other party services?", a: "Yes, many clients pair a baby shower with a wider celebration or upgrade to a fuller spread. Baby showers sit within our broader [party catering](/private-party-catering-dubai) offering, so it's easy to scale up to a bigger event or add a live station, canapes, or a grazing table. Just tell us the vibe you want and we'll shape one seamless menu." },
-  { q: "What makes myCHEF different from booking a venue package for a baby shower?", a: "We come to your chosen space and build the entire experience around you, rather than fitting your celebration into a fixed venue slot and menu. That means your theme, palette, guest list, and dietary needs shape everything, from the grazing table to the mocktail bar. You get a private, personal shower at home with full-service catering and cleanup handled by our team." },
+  { q: "Can baby shower catering be combined with other party services?", a: "Yes, many clients pair a baby shower with a wider celebration or a fuller spread. Baby showers sit within our broader [party catering](/private-party-catering-dubai) offering, so you can add a live station, canapés or a grazing table. Tell us the format and we shape one menu." },
+  { q: "How is this different from booking a venue package for a baby shower?", a: "We come to the space you already have. Theme, palette, guest list and dietary needs shape the grazing table and the mocktail bar. You are not fitted into a fixed venue slot and menu. The team caters and clears; we do not sell the room." },
   {
     q: 'Can you cater baby shower food and drinks catering?',
-    a: 'For baby shower food and drinks catering the format follows the room and the running order — canapés while people arrive, a seated main, a station people come back to. Tell us the timings and the guest count and we send the shape we would use and why.',
+    a: 'For baby shower food and drinks catering the format follows the room and the running order: canapés while people arrive, a seated main, a station people come back to. Tell us the timings and the guest count and we send the shape we would use and why.',
   },
 ]
 
@@ -187,13 +187,13 @@ const relatedServices = [
   },
   {
     title: 'Luxury Catering',
-    description: 'Bespoke menus and full service for events of every size in Dubai.',
+    description: 'Menus and full service for events of every size in Dubai.',
     image: '/menu-canapes.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Luxury Dining Experiences',
-    description: 'Refined, chef-led dining experiences for intimate special occasions.',
+    description: 'Chef-led dinners for a small table, when a shower spread is not the format.',
     image: '/menu-dessert.webp',
     link: '/luxury-dining-experiences',
   },
@@ -304,8 +304,8 @@ export default function BabyShowerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Baby Shower Catering Dubai | Grazing Tables & Mocktails | myCHEF"
-        description="Book baby shower catering Dubai. Grazing tables, afternoon tea, canapés, dessert displays and mocktails styled to your theme. Get a quote in 15 minutes."
+        title="Baby Shower Catering Dubai | myCHEF"
+        description="Baby shower catering Dubai: grazing tables, afternoon tea, canapés, dessert displays and mocktails, styled to your theme. Then we clear down."
         canonicalPath="/baby-shower-catering-dubai"
         ogImage="/menu-dessert.webp"
         hideSiteName
@@ -332,10 +332,10 @@ export default function BabyShowerCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bsc-hero-h1">
-            Baby Shower Catering Dubai: Grazing Tables, Tea & Mocktails
+            Baby Shower Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bsc-hero-sub">
-            Elegant grazing tables, delicate canapés, afternoon-tea menus, dessert displays, and fresh mocktails — beautifully styled to your theme for a baby shower to remember.
+            Baby shower catering Dubai: grazing tables, canapés, afternoon-tea menus, dessert displays and mocktails, styled to your theme. Alcohol-free by default. You host; we cook, style and clear down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Plan My Baby Shower</Link>
@@ -359,19 +359,16 @@ export default function BabyShowerCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CELEBRATING NEW BEGINNINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Gentle, Beautiful Spread for Your Shower
+            Baby shower catering Dubai: light food, styled to the theme
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            A baby shower is a daytime sitting. The food should be easy to eat while people are talking: grazing tables, canapés, afternoon-tea bites and a dessert display, styled around the colours you have chosen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>, and matches perfectly with a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.
+            Drinks are alcohol-free by default, with a mocktail bar if you want one. Chefs in our network handle styling, service and cleanup, so the mum-to-be stays with her guests. Baby shower catering sits in our wider <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, next to <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link> and a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.
           </p>
         </div>
       </section>
@@ -382,7 +379,7 @@ export default function BabyShowerCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">HOW WE STYLE IT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Baby Shower Catering Formats
+              Grazing, tea, canapés and dessert tables
             </h2>
           </div>
 
@@ -452,7 +449,7 @@ export default function BabyShowerCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Styled to Celebrate
+            How the table is set
           </h2>
 
           <div className="bsc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -473,7 +470,7 @@ export default function BabyShowerCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Baby Shower Catering Dubai: the questions we get before a booking
+            The questions we get before a baby shower booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -542,10 +539,10 @@ export default function BabyShowerCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center bsc-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan a Beautiful Baby Shower
+            Send the date, the theme and the headcount
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your theme, palette, and guest count, and we'll craft a grazing, dessert, and mocktail experience to match.
+            Share the theme, palette and guest count. We will send a grazing, dessert and mocktail plan for the sitting.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Plan My Baby Shower</Link>

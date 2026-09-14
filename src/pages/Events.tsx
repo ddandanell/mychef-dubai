@@ -98,7 +98,7 @@ export default function Events() {
       <PageHero
         eyebrow={eventsHeroCopy.eyebrow}
         title={eventsHeroCopy.title}
-        subtitle={eventsHeroCopy.subtitle}
+        subtitle="Event catering in Dubai for a named night: a birthday dinner, a wedding reception or a company event. Delivered food, a buffet from AED 120 per person, live stations, canapés or chef-led plated dining. Menus, chefs, staffing, setup and clear-down are scoped to that night. We do not own the venue."
         image={eventsHero.src}
         imageAlt={eventsHero.alt}
         imageWidth={eventsHero.width}
@@ -149,9 +149,10 @@ export default function Events() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            This page is the hub for the occasion, not a standing household chef and not the catering format catalogue.
+            Open the night you are hosting below. Broader food-only through full-service catering sits on{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.cateringLabel}
+              Catering
             </Link>
             . Intimate chef-led dinners belong on{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
@@ -168,10 +169,8 @@ export default function Events() {
             >
               festive catering Dubai
             </Link>
-            . Private event catering Dubai is this hub: one brief for the night, not a standing household chef. Event
-            caterers Dubai working through myCHEF send a named cook and service team. Event catering packages Dubai
-            start from the published floors on this page; small event catering Dubai and outdoor event catering Dubai
-            use the same brief with a different setting.
+            . Private event catering in Dubai here is one brief for that night: food, chefs and service sized to the
+            room you already have.
           </p>
         </Container>
       </Section>

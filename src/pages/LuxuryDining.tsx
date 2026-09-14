@@ -204,7 +204,7 @@ export default function LuxuryDining() {
               What Would You Like to Experience?
             </DisplayHeading>
             <BodyCopy tone="muted">
-              Five starting points. None of them is a fixed package — each one is the beginning of a conversation
+              Five starting points. None of them is a fixed package. Each one is the beginning of a conversation
               about what the evening actually needs.
             </BodyCopy>
           </div>

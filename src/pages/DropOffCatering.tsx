@@ -272,7 +272,7 @@ export default function DropOffCatering() {
 
       <PageHero
         eyebrow="Drop-off catering"
-        title="Drop Off Catering Dubai — Food That Arrives Without a Team"
+        title="Drop Off Catering Dubai: Food That Arrives Without a Team"
         subtitle="Licensed partner kitchens cook, pack and deliver labelled meals and platters. You unpack. Nobody stays to serve."
         image={HERO.src}
         imageAlt={HERO.alt}
@@ -315,12 +315,12 @@ export default function DropOffCatering() {
           <BodyCopy className="mb-5">
             It is the unstaffed format inside{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Luxury catering in Dubai
+              Catering
             </Link>
             . From AED 90 per person, ten guests minimum, AED 900 minimum order. 5% VAT is shown as its own line. That is catering delivery in Dubai without waiters, without a buffet line, and without a chef finishing plates in your kitchen.
           </BodyCopy>
           <BodyCopy>
-            One dinner with a chef in the house is still catering of a different kind — send that brief to a{' '}
+            One dinner with a chef in the house is still catering of a different kind. Send that brief to a{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef
             </Link>

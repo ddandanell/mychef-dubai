@@ -93,7 +93,7 @@ const useCases = [
   },
   {
     title: 'Yacht Countdown',
-    description: 'Watch Dubai\'s famous fireworks from the water with yacht-friendly menus, compact setups, and seamless service from our experienced marine catering team.',
+    description: 'Watch the fireworks from a yacht you have chartered, with galley-friendly menus, compact setups and a marine catering team.',
   },
   {
     title: 'Corporate Gala Dinner',
@@ -111,7 +111,7 @@ const howItWorks = [
   { step: '03', title: 'Receive a Proposal', description: 'You get a detailed proposal covering food, drinks, staff, timing, and logistics for the evening.' },
   { step: '04', title: 'Confirm & Reserve', description: 'Approve the details and secure your date. We coordinate with your venue or yacht crew as needed.' },
   { step: '05', title: 'Team Prep & Arrival', description: 'Chefs in our network and the event team arrive early with ingredients, equipment, and a clear service timeline.' },
-  { step: '06', title: 'Countdown & Clear-Down', description: 'We serve through midnight, manage the toast, and clear down afterwards so your evening ends effortlessly.' },
+  { step: '06', title: 'Countdown & Clear-Down', description: 'We serve through midnight, manage the toast, and clear down afterwards.' },
 ]
 
 const faqs = [
@@ -121,7 +121,7 @@ const faqs = [
   },
   {
     q: 'Do you provide a midnight toast service?',
-    a: 'Yes. We structure the service around the countdown moment, providing glassware, bubbles, mocktails, or your chosen toast so the midnight celebration feels seamless.',
+    a: 'Yes. We structure the service around the countdown moment, providing glassware, bubbles, mocktails or your chosen toast so the glasses are ready at midnight.',
   },
   {
     q: 'Can you handle large villa parties on New Year\'s Eve?',
@@ -152,7 +152,7 @@ const faqs = [
   { q: "How do you handle guests with allergies or special diets on the night?", a: "We build your New Year's Eve menu around any allergies, intolerances, or dietary preferences you share in advance, from vegan and vegetarian to gluten-free and nut-free requests. Because our chefs cook on-site and source ingredients themselves, we keep tight control over what goes into each dish. Just flag every requirement when you enquire so we can plan safe, delicious options for every guest." },
   { q: "How does the timing work so food is ready for the countdown?", a: "We plan a detailed service timeline around your countdown, arriving early to set up, prep, and cook so courses land at the right moments through the evening. Canapés and early courses keep energy high, the main service is timed before midnight, and the toast is structured for the exact countdown moment. Our team then manages the clear-down afterwards, so your night ends without any cleanup on your part." },
   { q: "Do you charge a deposit, and what happens if plans change?", a: "We confirm your New Year's Eve date with a booking arrangement covered in your proposal, and because this is a peak-demand night, terms are set out clearly before you commit. If your guest count or details shift, let us know as early as possible and we do our best to adapt the menu and staffing. Reach out through our [contact page](/contact) and we will walk you through the specifics for your event." },
-  { q: "Why choose full-service catering over a restaurant package for New Year's Eve?", a: "Full-service catering brings the chefs, menu, and hospitality to your own villa, yacht, or venue, so you skip crowded restaurants, minimum spends, and fixed set menus and celebrate on your own terms. You get a bespoke menu, your own space, and a private view of the fireworks, with our team handling cooking, service, and cleanup. It is the difference between queuing for a table and hosting an effortless private countdown at home." },
+  { q: "How is full-service catering different from a restaurant package on New Year's Eve?", a: "Full-service catering brings the chefs, menu and service to a villa, yacht or venue you already have, so you are not in a restaurant queue on a fixed set menu. The team cooks, serves and clears. You host the countdown at your own address." },
   {
     q: 'Do you also do new year dinner Dubai?',
     a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
@@ -162,7 +162,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Party Catering',
-    description: 'fully-coordinated catering for celebrations of every size, from intimate dinners to large villa parties.',
+    description: 'Catering for celebrations of every size, from a small dinner to a large villa party.',
     image: '/service-events.webp',
     link: '/private-party-catering-dubai',
   },
@@ -280,7 +280,7 @@ export default function NewYearCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="New Year Catering Dubai | New Year's Eve Catering Dubai | myCHEF"
+        title="New Year Catering Dubai | myCHEF"
         description="New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast, then we clear down."
         canonicalPath="/new-year-catering-dubai"
         ogImage="/service-luxury-dining.webp"
@@ -308,10 +308,10 @@ export default function NewYearCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 nye-hero-h1">
-            New Year Catering Dubai — Gala, Yacht & Villa Countdowns
+            New Year Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 nye-hero-sub">
-            Gala dinners, yacht countdowns, villa parties, and midnight toast service across Dubai. Custom menus and full-service hospitality for the biggest night of the year.
+            New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast. Then we clear down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Get a New Year Quote</Link>
@@ -334,7 +334,7 @@ export default function NewYearCatering() {
       <section className="bg-gold py-4">
         <div className="container-custom text-center">
           <p className="font-inter text-sm font-medium text-black">
-            Book early — New Year's Eve dates fill up quickly. Limited availability for 31 December countdown events.
+            Book early. 31 December fills first.
           </p>
         </div>
       </section>
@@ -344,19 +344,16 @@ export default function NewYearCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Dubai's Biggest Night</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A New Year's Eve Worth Remembering
+            New Year catering Dubai: timed to midnight, not to a restaurant sitting
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            New Year's Eve in Dubai is one of the most anticipated nights of the year. From private villa parties with views of the fireworks to elegant yacht countdowns and corporate galas, the right catering sets the tone for the entire evening. At myCHEF Dubai, we create New Year's Eve catering experiences that match the energy and style of your celebration.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            New Year's Eve in Dubai is a villa party, a yacht countdown or a corporate gala, at an address you already have. The catering has to hit midnight. myCHEF staffs the kitchen, the service and the toast. We do not run the venue or the yacht.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Chefs in our network and our event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
+            Chefs in our network and the event team write menus from a plated gala dinner to canapés and live stations, with staffing, bar service and a structured midnight toast. You share the brief; we send the plan. See how this sits with our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -366,10 +363,10 @@ export default function NewYearCatering() {
         <div className="container-custom max-w-[900px] text-center">
           <SectionLabel align="center">Who Our NYE Catering Is For</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Hosts Who Want a Seamless Countdown
+            Hosts who do not want to run the kitchen at midnight
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on chefs in our network. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
+            New Year catering Dubai is for villa countdown parties, family tables, year-end galas and yachts you have chartered. We also cook in hotel suites, rooftop terraces and boardrooms. Menu, format and staffing follow the occasion and the room. You host; the team cooks, serves and clears after midnight.
           </p>
         </div>
       </section>
@@ -451,18 +448,18 @@ export default function NewYearCatering() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 7: Why Choose myCHEF ═══════════════ */}
+      {/* ═══════════════ Section 7: What the team does on the night ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">Why Choose myCHEF</SectionLabel>
+          <SectionLabel align="center">What the team does on the night</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            End-to-End NYE Hospitality
+            Arrival, courses, toast, clear-down
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            New Year's Eve events demand precision, timing, and calm execution. At myCHEF Dubai, we plan every phase of the evening, from guest arrival through the midnight toast to final clear-down. Our teams are available for Dubai events in private villas, homes, offices, yachts, and event spaces, and we design each menu around your venue, guest profile, and celebration style.
+            New Year's Eve is a timing job. We plan guest arrival, the main service, the midnight toast and the clear-down. Teams cook in private villas, homes, offices, yachts and event spaces. The menu follows the venue you have, who is eating and how formal the night is.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            We do not use off-the-shelf packages. Instead, we build a custom proposal that covers food, drinks, staffing, and timing, with menus adapted to guest count, dietary needs, and event style. That means your New Year's Eve celebration feels personal, polished, and completely under control.
+            We do not sell a single off-the-shelf NYE package. You get a written proposal covering food, drinks, staffing and timing. Guest count, dietary notes and format go into that draft before you confirm.
           </p>
         </div>
       </section>
@@ -473,7 +470,7 @@ export default function NewYearCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">Dubai New Year's Eve Celebrations</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Where we coordinate catering for the Countdown Across Dubai
+              Addresses we cook the countdown at
             </h2>
           </div>
 
@@ -496,7 +493,7 @@ export default function NewYearCatering() {
             Explore Related Services & Locations
           </h2>
           <p className="font-inter text-body text-gray-400 text-center mb-8 leading-relaxed">
-            New Year's Eve catering connects to our wider event, yacht, and luxury dining services. Browse these related pages to plan your full countdown experience across Dubai.
+            New Year's Eve catering sits next to our other event, yacht and dining pages. Use these if the brief is a party, a yacht you have chartered, or a plated dinner.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link to="/events" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Events</Link>
@@ -532,7 +529,7 @@ export default function NewYearCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            New Year Catering Dubai: the questions we get before a booking
+            The questions we get before a New Year booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -579,10 +576,10 @@ export default function NewYearCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center nye-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan My New Year's Eve Catering
+            Send the date, the headcount and the address
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your venue, guest count, and vision. We will design a menu, service plan, and midnight countdown experience that lets you ring in the new year without a worry.
+            Tell us the venue, guest count and how you want midnight to run. We will send a menu and service plan, including the toast and the clear-down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a New Year Quote</Link>

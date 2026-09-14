@@ -35,7 +35,7 @@ const CANONICAL_PATH = '/proposal-dinner-dubai'
 const inclusions = [
   {
     icon: Heart,
-    title: 'Bespoke Menu Design',
+    title: 'Menu written for the table',
     description: 'A menu built around your partner\'s favourite cuisines, dietary preferences, and the story of your relationship. Personalised printed menus available.',
   },
   {
@@ -46,7 +46,7 @@ const inclusions = [
   {
     icon: Flower2,
     title: 'Floral & Tablescaping',
-    description: 'We coordinate with trusted florists and stylists to create the right atmosphere — candles, flowers, linens, and ambient lighting.',
+    description: 'We coordinate with florists and stylists on candles, flowers, linens and lighting. We do not run the full event as a planner.',
   },
   {
     icon: Clock,
@@ -82,15 +82,15 @@ const packages = [
     highlighted: true,
   },
   {
-    name: 'Fully Bespoke',
+    name: 'Custom brief',
     price: 'On request',
-    description: 'Yacht, desert, rooftop, or destination proposals with full production support.',
+    description: 'Yacht, desert, rooftop or destination proposals. You book the venue; we cook and coordinate the dinner.',
     features: [
-      'Custom venue and logistics',
+      'Catering at a yacht, desert table or rooftop you have booked',
       'Multi-course tasting menu',
-      'Florist, photographer, and musician coordination',
-      'Private dining setup in unique locations',
-      'Dedicated event manager',
+      'Florist, photographer and musician coordination',
+      'Private dining setup at the address you have',
+      'A named coordinator for the dinner',
     ],
   },
 ]
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'Can the chef hide the ring or work with my plan?',
-    a: 'Yes. We coordinate the exact moment with you — whether the ring comes out with dessert, between courses, or during a surprise toast. Your event manager will confirm every detail in advance.',
+    a: 'Yes. We coordinate the exact moment with you: the ring with dessert, between courses, or during a toast. Your coordinator confirms the plan in advance.',
   },
   {
     q: 'Do you arrange photographers and florists?',
@@ -110,11 +110,11 @@ const faqs = [
   },
   {
     q: 'What if my partner has dietary requirements?',
-    a: 'We design the menu around them. Allergies, intolerances, halal, kosher-style, vegan, and other requirements are accommodated without compromising the experience.',
+    a: 'We design the menu around them. Allergies, intolerances, halal, kosher-style, vegan and other requirements go into the first draft.',
   },
   {
     q: 'Can you do proposals outside a home or villa?',
-    a: 'Yes. We can arrange private dining in yachts, desert settings, rooftops, and select venues. These require additional planning and permits, so book as early as possible.',
+    a: 'Yes. We can cook a proposal dinner on a yacht you have chartered, at a desert site you have booked, on a rooftop or at a venue that allows outside catering. Extra planning and permits can apply, so book as early as possible.',
   },
   {
     q: 'Is marriage proposal dinner Dubai the same as proposal dinner Dubai?',
@@ -131,7 +131,7 @@ const relatedServices = [
   },
   {
     title: 'Villas & Residences',
-    description: 'Private dining and celebrations in Dubai luxury villas.',
+    description: 'Private dining and celebrations in Dubai villas.',
     image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
@@ -148,7 +148,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Proposal Dinner',
-      'Proposal dinner planning in Dubai: private chef, menu design, floral styling, photography coordination, and precise timing for an unforgettable proposal.',
+      'Proposal dinner Dubai: private chef, menu design, floral styling, photography coordination and timing for the question, then we clear down.',
       'Catering Service',
       'Dubai',
     ),
@@ -208,7 +208,7 @@ export default function ProposalDinner() {
     <div ref={containerRef}>
       <SEO
         title="Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF"
-        description="Plan a proposal dinner Dubai with a private chef, personalised menu, floral styling, photography coordination and perfect timing. Get a quote in 15 min."
+        description="Proposal dinner Dubai with a private chef, a menu written for two, floral and photography coordination, and timing for the question. Then we clear down."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/romantic-dinner-dubai-hero.webp"
         hideSiteName
@@ -233,10 +233,10 @@ export default function ProposalDinner() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pd-hero-h1">
-            Proposal Dinner Dubai — Planning
+            Proposal Dinner Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            Private chef, personalised menu, flowers, candles, and perfect timing — so you can focus on the question while your chef handles everything else.
+            Proposal dinner Dubai: a private chef, a menu written for the table, flowers, candles and timing for the question. You ask; the team runs the dinner.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
@@ -260,20 +260,17 @@ export default function ProposalDinner() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE BIG MOMENT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Every Detail, Choreographed
+            Proposal dinner Dubai: you ask, we run the table
           </h2>
           <div className="pd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will reply within 15 minutes during business hours to start shaping your perfect "yes". We then bring you a vetted private chef and event manager for your date.
+              A proposal dinner is a timed sitting. Tell us about your partner, the venue you have and how you want the question to land. We typically reply within 15 minutes during business hours, then match a vetted private chef and a coordinator for the date. Intimate Proposal starts from AED 3,000; Villa Celebration from AED 6,000. The written quote confirms the total.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.
+              From the first course to the moment you ask, we manage pacing, styling and coordination with photographers and florists you have booked, or with partners we introduce. You arrive as a guest. We do not replace a full event planner.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>, or <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> for more private celebration ideas.
@@ -288,7 +285,7 @@ export default function ProposalDinner() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              More Than Just Dinner
+              What we handle besides the food
             </h2>
           </div>
 
@@ -358,7 +355,7 @@ export default function ProposalDinner() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Proposal Dinner Dubai: the questions we get before a booking
+            The questions we get before a proposal dinner booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -404,10 +401,10 @@ export default function ProposalDinner() {
         <div className="container-custom text-center pd-cta opacity-0 translate-y-8">
           <Sparkles size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan the Perfect "Yes"
+            Send the date and how you want to ask
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your story, your partner's tastes, and your dream setting. We will design a proposal dinner worthy of the moment.
+            Tell us the venue, your partner's tastes and the timing for the question. We will send a menu and a service plan for the dinner.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan Proposal Dinner</Link>

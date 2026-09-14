@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          myCHEF Dubai — a chef for your kitchen, catering for your event
+          myCHEF Dubai: a chef for your kitchen, catering for your event
         </h1>
 
         {/* Subtext */}
@@ -244,16 +244,16 @@ export default function HeroSection() {
           ref={subtextRef}
           className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
-          A chef who cooks in your kitchen, or catering for events of any size. The food is designed around you, and every chef is vetted before they cook.
+          A standing chef for your home, or catering for a night with guests. The food is designed around you. Every chef is vetted before they cook.
         </p>
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
           <Link to="/private-chef-dubai" className="btn-primary text-center">
-            Private chef
+            Plan a household chef
           </Link>
           <Link to="/catering-dubai" className="btn-secondary text-center">
-            Catering
+            Request catering
           </Link>
         </div>
         <p className="mt-3 font-inter text-body-sm text-white/75 text-center md:text-left">

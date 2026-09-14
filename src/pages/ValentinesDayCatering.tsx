@@ -169,7 +169,7 @@ const config: OccasionPageConfig = {
   ],
   ctaH2: "Plan a Valentine's Dinner They'll Never Forget",
   ctaP:
-    "Tell us about your plans, venue and dietary preferences. We will design a romantic Valentine's dinner that feels effortless, intimate and unforgettable.",
+    "Tell us about your plans, venue and dietary preferences. We will design a Valentine's dinner around the table you already have.",
   showTrustSignalStrip: true,
 }
 

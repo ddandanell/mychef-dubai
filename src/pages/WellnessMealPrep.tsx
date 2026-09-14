@@ -42,26 +42,26 @@ const programmes = [
   {
     icon: Dumbbell,
     title: 'Fitness & Performance',
-    description: 'High-protein, macro-calculated meals for athletes, gym-goers, and anyone training for a specific goal.',
-    price: 'from AED 1,500/week',
+    description: 'High-protein, macro-calculated meals for training days. Macros labelled on the container.',
+    price: 'from AED 900 / session',
   },
   {
     icon: Scale,
     title: 'Weight Management',
-    description: 'A structured weight loss meal plan Dubai clients rely on for portion control, balanced macros, and chef-cooked dishes without sacrificing flavour.',
-    price: 'from AED 1,400/week',
+    description: 'Portioned meals for a household that wants the calories decided in the kitchen, not at 9pm.',
+    price: 'from AED 900 / session',
   },
   {
     icon: HeartPulse,
     title: 'Clinical & Medical Diets',
-    description: 'Diabetic-friendly, low-sodium, low-cholesterol, and heart-healthy meals prepared with care.',
-    price: 'from AED 1,600/week',
+    description: 'Diabetic-friendly, low-sodium or heart-led plates when the brief is clinical. Optional nutritionist review.',
+    price: 'from AED 900 / session',
   },
   {
     icon: Baby,
     title: 'Postpartum & Recovery',
-    description: 'Nourishing, easy-to-digest meals for new mothers, recovery, and healing-focused nutrition.',
-    price: 'from AED 1,800/week',
+    description: 'Meals that reheat well, for the weeks after birth. The standing brief sits on postpartum meal prep if that is the whole job.',
+    price: 'from AED 900 / session',
   },
 ]
 
@@ -70,25 +70,25 @@ const howItWorks = [
     icon: Calendar,
     step: '01',
     title: 'Nutrition Consultation',
-    description: 'We start with your goals, body metrics, dietary restrictions, and preferences. Optional nutritionist review available.',
+    description: 'Goals, allergies, what this house will actually eat, and any clinical notes. Optional nutritionist review if you want it.',
   },
   {
     icon: ChefHat,
     step: '02',
     title: 'Macro-Designed Menu',
-    description: 'Your chef designs meals with balanced protein, carbs, and fats — aligned to your calorie and macro targets.',
+    description: 'The chef writes the week around those targets. You approve the menu before the first session.',
   },
   {
     icon: ShoppingBag,
     step: '03',
-    title: 'Premium Ingredient Sourcing',
-    description: 'We source lean proteins, whole grains, fresh produce, and healthy fats from trusted suppliers.',
+    title: 'Ingredient sourcing',
+    description: 'Shopping as agreed, at actual receipts when we shop. Groceries are not inside the chef rate.',
   },
   {
     icon: Package,
     step: '04',
     title: 'Prep, Portion & Label',
-    description: 'Meals are cooked in your kitchen, portioned into containers, and labelled with macros, calories, and reheating instructions.',
+    description: 'Cooked in your kitchen, portioned, labelled, fridge stacked. The kitchen is left as it was found.',
   },
 ]
 
@@ -96,17 +96,17 @@ const benefits = [
   {
     icon: Apple,
     title: 'Nutritionist-Aligned',
-    description: 'Menus can be reviewed or designed in consultation with a qualified nutritionist for clinical or performance goals.',
+    description: 'A nutritionist can review or write the plan when the goal is clinical or performance. That is optional, not a default.',
   },
   {
     icon: Scale,
     title: 'Macro Tracking Made Easy',
-    description: 'Every container lists protein, carbohydrates, fats, and total calories so you stay on target.',
+    description: 'Every container lists protein, carbohydrates, fats and total calories so you can track intake.',
   },
   {
     icon: Leaf,
     title: 'Whole Food Ingredients',
-    description: 'No processed shortcuts. Fresh vegetables, lean proteins, whole grains, and healthy fats in every meal.',
+    description: 'Vegetables, proteins, grains and fats as the brief defines “healthy” in this house. Not a generic programme.',
   },
   {
     icon: HeartPulse,
@@ -116,12 +116,12 @@ const benefits = [
   {
     icon: Check,
     title: 'Halal & Allergen Aware',
-    description: 'Halal-certified proteins and strict allergen protocols with clear labelling on every container.',
+    description: 'Halal proteins as standard. Allergen notes in the brief, labelled on the container.',
   },
   {
     icon: ChefHat,
     title: 'Private Chef Convenience',
-    description: <>A dedicated healthy food chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-dubai/pricing" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
+    description: <>A chef cooks in your kitchen, clears up, and leaves the fridge stocked. This is household prep, not a one-night catering job. Rates sit on <Link to="/private-chef-dubai/pricing" className="text-gold underline hover:no-underline">private chef prices</Link>.</>,
   },
 ]
 
@@ -136,7 +136,7 @@ const faqs = [
   },
   {
     q: 'Do you support keto, paleo, and other diets?',
-    a: 'Absolutely. We offer keto, paleo, low-carb, high-protein, vegan, vegetarian, and many other wellness-focused approaches.',
+    a: 'Yes, when the brief says so: keto, paleo, low-carb, high-protein, vegan or vegetarian. Tell us what “healthy” means in this house.',
   },
   {
     q: 'Is this suitable for medical conditions like diabetes?',
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     q: 'How much does wellness meal prep cost in Dubai?',
-    a: 'Wellness meal prep starts from AED 1,400 per week depending on the programme, frequency, and dietary complexity. Final quotes are tailored to your goals.',
+    a: 'Healthy meal prep is the Food Prep job: four hours, AED 900 a session. Once a week is AED 3,600 a month. Groceries sit on top, at receipts, if we shop. Add 5% VAT. See [weekly meal prep](/weekly-meal-prep-dubai) for the same rate without the health-goal brief.',
   },
 ]
 
@@ -153,7 +153,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Wellness Meal Prep Dubai',
-      'Nutritionist-aligned private chef meal prep in Dubai. Macro-calculated, fitness-focused, and medical-condition-friendly meals prepared in your home.',
+      'Healthy meal prep Dubai: a private chef cooks a week of food in your kitchen, portions it, and leaves the fridge stocked. Food Prep from AED 900 a session.',
       'Catering Service',
       'Dubai',
     ),
@@ -192,8 +192,8 @@ export default function WellnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Healthy Meal Prep Dubai | Nutritionist-Aligned Chefs | myCHEF"
-        description="Healthy meal prep Dubai by a private chef. Macro-calculated, fitness-focused and medical-condition-friendly meals, with optional nutritio"
+        title="Healthy Meal Prep Dubai | myCHEF"
+        description="Healthy meal prep Dubai: a chef cooks a week of food in your kitchen, AED 900 a session. Labelled, fridge stacked, kitchen cleared. Tell us the household and the goal."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -202,11 +202,11 @@ export default function WellnessMealPrep() {
 
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
-        title="Healthy Meal Prep Dubai, Nutritionist-Aligned"
-        subtitle="Healthy Meal Prep Dubai by myCHEF — nutritionist-aligned, macro-calculated meals cooked in your kitchen. A healthy meal plan Dubai households actually follow is labelled with macros and left in the fridge. Tell us your household and goals — we send a tailored quote within 24 hours."
+        title="Healthy Meal Prep Dubai"
+        subtitle="Healthy meal prep Dubai is a chef in your kitchen, cooking a week of food this household will actually eat. Labelled, fridge stacked, kitchen cleared. Food Prep is AED 900 a session. Tell us the household and the goal."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
-        cta={{ label: 'Plan My Wellness Menu', href: `/inquiry` }}
+        cta={{ label: 'Request a meal prep quote', href: `/inquiry` }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Wellness Meal Prep Dubai' }]}
         minHeight="tall"
@@ -219,7 +219,7 @@ export default function WellnessMealPrep() {
         <div className="container-custom">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
             <SectionLabel align="center">Programmes</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black">Wellness Meal Prep Programmes</h2>
+            <h2 className="font-playfair text-h2 text-black">Healthy meal prep Dubai, by goal</h2>
           </div>
           <div className="wm-cards grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {programmes.map((p, i) => {
@@ -243,7 +243,7 @@ export default function WellnessMealPrep() {
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
             <SectionLabel align="center" tone="dark">The Process</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">How Wellness Meal Prep Works</h2>
+            <h2 className="font-playfair text-h2 text-white">Consultation, menu, shop, portion</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {howItWorks.map((item, i) => {
@@ -269,8 +269,8 @@ export default function WellnessMealPrep() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
-            <SectionLabel align="center">Why Choose Us</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black">Built for Health, Performance & Recovery</h2>
+            <SectionLabel align="center">What goes in the fridge</SectionLabel>
+            <h2 className="font-playfair text-h2 text-black">Macros on the label. Cleanup in the kitchen.</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((b, i) => {
@@ -294,7 +294,7 @@ export default function WellnessMealPrep() {
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10 wm-fade opacity-0 translate-y-8">
             <SectionLabel align="center">FAQ</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black">Wellness Meal Prep Questions</h2>
+            <h2 className="font-playfair text-h2 text-black">The questions we get before a meal-prep booking</h2>
           </div>
           <div className="wm-faq-list space-y-3">
             {faqs.map((faq, i) => (
@@ -323,13 +323,13 @@ export default function WellnessMealPrep() {
       {/* CTA */}
       <section className="bg-gradient-to-b from-black to-charcoal py-24">
         <div className="container-custom text-center wm-fade opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">Healthy Meal Prep Dubai: Start Your Wellness Meal Plan</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4">Send the household, the goals and the week</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours. Also explore <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
+            Who is eating, what “healthy” means here, and how many days you want cooked. We send an itemised Food Prep quote. See <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">
-              Get a Meal Prep Quote
+              Request a meal prep quote
             </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2">
               <Phone size={16} />

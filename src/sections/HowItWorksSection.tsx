@@ -8,23 +8,23 @@ import { SectionLabel } from '@/components/system'
 const steps = [
   {
     number: '01',
-    title: 'Tell us about the evening',
-    description: 'The occasion, your guest count, the address, and how you like to eat. Send it by form or WhatsApp.',
+    title: 'Tell us the job',
+    description: 'Household rhythm or one event, guest count, the address, and how you like to eat. Form or WhatsApp.',
   },
   {
     number: '02',
-    title: 'We design the menu and choose your chef',
+    title: 'We match a chef and send a written plan',
     description: 'The menu is shaped around your tastes and your guests. Then we choose the chef whose cooking fits it.',
   },
   {
     number: '03',
-    title: 'Your chef arrives early and cooks in your kitchen',
-    description: 'Everything cooked to order in your own kitchen, with the service running around it.',
+    title: 'They cook in your kitchen',
+    description: 'Food is cooked in the kitchen you already have, with the service sized to the night or the week.',
   },
   {
     number: '04',
-    title: 'You sit down. We clear up.',
-    description: 'Courses are plated, your guests are looked after all evening, and the kitchen is left exactly as we found it.',
+    title: 'You stay with your people. We leave it handled.',
+    description: 'Guests or family are looked after, and the kitchen is left as we found it.',
   },
 ]
 
@@ -72,10 +72,10 @@ export default function HowItWorksSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel>How It Works</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-black mb-5">
-            Tell us about the evening. We build the menu, the chef and the service around it.
+            Tell us the job. We build the menu, the chef and the service around it.
           </h2>
           <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
-            Booking a private chef in Dubai, from your first message to the kitchen left clean.
+            A household chef or event catering in Dubai, from the first message to the kitchen left clean.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function HowItWorksSection() {
         {/* CTA — sits with the argument, not centered beneath it */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
           <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-cream">
-            Request a Proposal
+            Request your quote
           </Link>
           <p className="font-inter text-body-sm text-gray-500">The price is agreed in your proposal, before the day.</p>
         </div>

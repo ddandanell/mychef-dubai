@@ -334,10 +334,12 @@ export default function CanapeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 can-hero-h1">
-            Canapé Catering Dubai — Passed, Hot & Cold Bites
+            Canapé Catering Dubai: Passed, Hot and Cold Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
-            Passed canapés, tray service and standing food for receptions, openings and launches in Dubai. Premium standing food from AED 150 per person.
+            Canapé catering Dubai is one-bite food for a standing room: passed trays, displays, or both. From AED 150
+            per person. Chefs finish in the kitchen you have; waiters keep the bites moving; we clear down. This is not
+            a seated dinner.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
@@ -359,24 +361,26 @@ export default function CanapeCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">DUBAI CANAPÉ SPECIALISTS</SectionLabel>
+          <SectionLabel align="center">WHAT THIS IS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Small Bites, Lasting Impressions
+            Canapé catering Dubai is standing food, not a dinner
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A great canapé does a lot of work in a single bite. It sets the tone of a reception, keeps guests mingling, and looks as considered as it tastes. At myCHEF Dubai, we treat canapé catering as precision work — each piece designed for balance, elegance, and the way it photographs on the tray.
+            Guests hold a glass and take a bite. Servers move through the room, or the food sits on a styled tray, or
+            both. Hot and cold pieces are planned around the venue, the hour and how long people will stand.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            From AED 150 per person. Ten guests minimum. 5% VAT is shown as its own line. The figure moves with how
+            many pieces per person, whether the bites are hot, and how many people you need in the room. Halal
+            ingredients are the default.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            our chefs build menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            If the occasion is more relaxed than a reception, the same team runs finger food catering Dubai — larger, more casual bites and sharing platters for offices, house parties and mixers — and we will tell you honestly which of the two fits your event.
+            Finger food catering Dubai is the same team with a more casual brief: larger pieces, no cutlery, often on a
+            table rather than a passing tray. We will tell you which fits. The wider catering ladder sits on{' '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              Catering
+            </Link>
+            .
           </p>
         </div>
       </section>

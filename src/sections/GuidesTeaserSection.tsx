@@ -71,7 +71,7 @@ export default function GuidesTeaserSection() {
               What it costs, what to plan, and what is changing in Dubai this year.
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
-              Practical guides for Dubai hosts — budgets, checklists, and the food and catering trends shaping events this year.
+              Practical guides for Dubai hosts: budgets, checklists, and the food and catering trends shaping events this year.
             </p>
           </div>
           <Link

@@ -40,25 +40,25 @@ const menuHighlights = [
   {
     icon: Soup,
     title: 'Mezze Spreads',
-    description: 'Hummus, moutabal, tabbouleh, fattoush, vine leaves, and warm flatbreads — a generous cold and hot mezze table that sets the tone for an Arabic feast.',
+    description: 'Hummus, moutabal, tabbouleh, fattoush, vine leaves and warm flatbreads. Cold and hot mezze as the opening table, not a side dish.',
     link: '/grazing-table-dubai',
   },
   {
     icon: Flame,
     title: 'Charcoal Grills',
-    description: 'Shish taouk, lamb kofta, kebab halabi, and lamb chops cooked over open charcoal — smoky, succulent, and grilled to order at a partner-chef-led station.',
+    description: 'Shish taouk, lamb kofta, kebab halabi and lamb chops over charcoal, grilled to order at a partner-chef station.',
     link: '/catering-dubai',
   },
   {
     icon: ChefHat,
     title: 'Ouzi & Whole Lamb',
-    description: 'A showpiece ouzi — slow-roasted lamb over spiced rice with nuts and raisins — carved at the table for weddings and grand celebrations.',
+    description: 'Slow-roasted lamb over spiced rice with nuts and raisins, carved at the table when the guest list needs a centrepiece.',
     link: '/catering-dubai',
   },
   {
     icon: UtensilsCrossed,
     title: 'Emirati Specialities',
-    description: 'Local favourites such as machboos, harees, and balaleet, prepared in the traditional Emirati style for an authentic taste of the UAE.',
+    description: 'Machboos, harees and balaleet when the brief is Emirati, not only Levantine mezze.',
     link: '/iftar-catering-dubai',
   },
   {
@@ -70,7 +70,7 @@ const menuHighlights = [
   {
     icon: Users,
     title: 'Arabic Sweets',
-    description: 'Kunafa, baklava, basbousa, and Arabic coffee with dates — a traditional sweet finish styled as a dessert table or passed service.',
+    description: 'Kunafa, baklava, basbousa, and Arabic coffee with dates. A dessert table or passed service, timed after the mains.',
     link: '/catering-dubai',
   },
 ]
@@ -78,31 +78,31 @@ const menuHighlights = [
 const useCases = [
   {
     title: 'Weddings & Engagements',
-    description: 'From the welcome mezze to a carved ouzi centrepiece and a flowing Arabic sweets table, we build banquets that honour tradition and scale gracefully to hundreds of guests across Dubai.',
+    description: 'Welcome mezze, a carved ouzi if the table needs a centrepiece, then sweets and coffee. Staffing and stations follow the guest count, not a fixed banquet package.',
   },
   {
     title: 'Majlis & Villa Gatherings',
-    description: 'For family majlis evenings and villa celebrations, our chefs recreates the warmth of a home feast — charcoal grills, sharing platters, and abundant mezze served the way hospitality demands.',
+    description: 'Family majlis and villa nights: charcoal grills, sharing platters and mezze that keeps coming. The kitchen you have is checked before the night.',
   },
   {
     title: 'Iftar & Ramadan Events',
-    description: 'During Ramadan, we coordinate catering for iftar and suhoor gatherings with dates, soups, mezze, mains, and Arabic sweets, timed and styled for the occasion at homes, hotels, and corporate venues.',
+    description: 'Iftar and suhoor: dates, soups, mezze, mains and sweets, timed to Maghrib rather than to a restaurant slot. Homes, hotels and offices.',
   },
   {
     title: 'Corporate & National Day',
-    description: 'For corporate functions and National Day celebrations, an authentic Arabic and Emirati spread brings a sense of place and generosity that resonates with local and international guests alike.',
+    description: 'Corporate functions and National Day: mezze, grills and Arabic coffee at the office or venue, with setup and pack-down included.',
   },
 ]
 
 const includedItems = [
-  { title: 'Mezze Menu Design', description: 'A balanced spread of cold and hot mezze tailored to your guests and occasion.' },
-  { title: 'Live Charcoal Grills', description: 'partner-chef-led grilling stations searing kebabs, taouk, and lamb to order.' },
-  { title: 'Ouzi & Carving', description: 'Slow-roasted whole lamb ouzi carved at the table as a centrepiece.' },
-  { title: 'Emirati & Levantine', description: 'Authentic regional dishes from Emirati machboos to Levantine fatteh.' },
-  { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
-  { title: 'Vegetarian & Vegan', description: 'Plentiful plant-based mezze and mains arranged for every guest.' },
-  { title: 'Arabic Sweets & Coffee', description: 'Kunafa, baklava, dates, and traditional Arabic coffee service.' },
-  { title: 'Full Setup & Service', description: 'Styling, waiters, warmers, on-site coordination, and full pack-down.' },
+  { title: 'Mezze menu', description: 'Cold and hot mezze written around who is eating and whether they sit or stand.' },
+  { title: 'Live charcoal grills', description: 'Partner-chef stations for kebabs, taouk and lamb, grilled to order.' },
+  { title: 'Ouzi and carving', description: 'Slow-roasted lamb ouzi carved at the table when the guest list needs a centrepiece.' },
+  { title: 'Emirati and Levantine', description: 'Machboos and harees, or fattoush, fatteh and mashawi, or both on the same spread.' },
+  { title: 'Halal sourcing', description: 'Halal meat and poultry as standard. Specific certification belongs in the brief.' },
+  { title: 'Vegetarian and vegan', description: 'Plant-based mezze and mains designed in, not substituted at the pass.' },
+  { title: 'Sweets and coffee', description: 'Kunafa, baklava, dates and Arabic coffee, timed after the mains.' },
+  { title: 'Setup and service', description: 'Waiters, warmers, on-site coordination and pack-down. You stay with your guests.' },
 ]
 
 const galleryImages = [
@@ -141,11 +141,11 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What does your Arabic catering menu cover?',
-    a: 'Our menus span the region — Levantine mezze and grills, Emirati specialities like machboos and harees, and showpiece dishes such as ouzi. We build a spread that balances cold and hot mezze, charcoal mains, and traditional Arabic sweets.',
+    a: 'Levantine mezze and grills, Emirati dishes such as machboos and harees, and ouzi when the table needs a centrepiece. Cold and hot mezze, charcoal mains, and Arabic sweets.',
   },
   {
     q: 'Can you prepare a whole-lamb ouzi for a wedding?',
-    a: 'Yes. A slow-roasted whole-lamb ouzi over spiced rice with nuts is a popular centrepiece for weddings and grand celebrations. It can be carved at the table for a memorable serving moment.',
+    a: 'Yes. Slow-roasted whole-lamb ouzi over spiced rice with nuts can be carved at the table. Say so in the brief; it changes staffing and timing.',
   },
   {
     q: 'Is the meat halal?',
@@ -157,7 +157,7 @@ const faqs = [
   },
   {
     q: 'Do you offer vegetarian and vegan options?',
-    a: 'Absolutely. Arabic cuisine is rich in plant-based dishes, so we build generous vegetarian and vegan mezze and mains — from hummus and moutabal to stuffed vegetables and grilled halloumi alternatives — on request.',
+    a: 'Yes. Hummus, moutabal, stuffed vegetables and grilled halloumi sit as menus in their own right, not as a plate swapped at the pass. Flag vegetarian and vegan guests when you enquire.',
   },
   {
     q: 'How far in advance should I book Arabic catering?',
@@ -169,13 +169,13 @@ const faqs = [
   { q: "Is your Arabic catering fully licensed and food-safety compliant?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your Arabic catering is prepared, transported, and held at the correct temperatures throughout. We follow proper hygiene and cold-chain practices from sourcing to serving, which matters especially for grilled meats and mezze served over a long event. You can read more about how [we work](/how-it-works) before you book." },
   { q: "Is all the meat in your Arabic menus halal?", a: "Yes, halal meat and poultry are the default across all our Arabic catering in Dubai, sourced from trusted suppliers. Because Arabic cuisine centres on lamb, chicken, and kofta, halal sourcing is built into everything we prepare, and we're always happy to confirm the details when you plan. If you need a fully halal-certified event, explore our dedicated [halal catering](/halal-catering-dubai) menus." },
   { q: "What is the minimum number of guests for Arabic catering?", a: "We cater Arabic menus for a wide range of gatherings, from an intimate family majlis to weddings of several hundred guests, and we'll tailor the spread to your headcount rather than force a fixed minimum. Smaller villa dinners work beautifully with a focused mezze-and-grill selection, while larger celebrations can add ouzi, live stations, and a full sweets table. Give us your guest count and we'll advise the right menu scale." },
-  { q: "Can you cater a large Arabic wedding banquet in Dubai?", a: "Absolutely, Arabic weddings are one of our specialities, and we scale gracefully from welcome mezze through a carved whole-lamb ouzi centrepiece to a flowing Arabic sweets and coffee table. We coordinate the timing, staffing, and stations so hundreds of guests are served warm, generous food without bottlenecks. See how it fits within our full [wedding catering](/wedding-catering-dubai) service." },
+  { q: "Can you cater a large Arabic wedding banquet in Dubai?", a: "Yes. Welcome mezze, a carved ouzi if the table needs it, then sweets and coffee. Timing, staffing and stations follow the guest count. The marriage itself sits on [wedding catering](/wedding-catering-dubai)." },
   { q: "Do you offer live cooking stations like shawarma and charcoal grills?", a: "Yes, live stations are a highlight of our Arabic catering, from a shawarma carving station to open charcoal grills searing shish taouk, kofta, and lamb chops to order. Interactive stations add theatre and keep food hot and fresh throughout the event, which guests love at weddings, majlis nights, and corporate functions. Ask about pairing a [shawarma station](/live-cooking-stations-dubai) with a mezze grazing table." },
   { q: "Should we choose buffet or plated service for Arabic catering?", a: "It depends on your occasion: a buffet or station spread suits the sharing, abundant spirit of Arabic hospitality and works well for majlis evenings and large gatherings, while plated service gives a more formal, controlled experience for weddings and gala dinners. Arabic mezze naturally lends itself to a generous buffet, but we can plate courses elegantly when the setting calls for it. We'll recommend the format that best fits your guests and venue." },
-  { q: "Can you accommodate vegetarian, vegan, and dietary requirements alongside the meat dishes?", a: "Yes, Arabic cuisine is naturally rich in plant-based dishes, so we build generous vegetarian and vegan mezze and mains — hummus, moutabal, stuffed vine leaves, grilled vegetables, and more — right alongside the grills. We also handle gluten-free, nut-free, and other requirements when you flag them in advance so every guest is looked after. Just share any allergies or preferences and we'll design the spread around them." },
+  { q: "Can you accommodate vegetarian, vegan, and dietary requirements alongside the meat dishes?", a: "Yes. Hummus, moutabal, stuffed vine leaves and grilled vegetables sit alongside the grills as proper plates, not a last-minute swap. Flag gluten-free, nut-free and other notes when you enquire." },
   { q: "Do you cater iftar, suhoor, and Ramadan gatherings?", a: "Yes, we cater iftar and suhoor throughout Ramadan with dates, soups, mezze, grilled mains, and Arabic sweets, timed and styled for the occasion at homes, hotels, and corporate venues. Ramadan is one of our busiest periods, so we plan the menu and serving flow carefully around your break-fast time. Book early and see our dedicated [iftar catering](/iftar-catering-dubai) menus." },
   { q: "Which areas of Dubai do you cover for Arabic catering?", a: "We cater Arabic feasts across Dubai, including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, Business Bay, Arabian Ranches, and beyond, bringing the full kitchen and setup to your location. Whether it's a villa, apartment, hotel ballroom, or outdoor majlis, we plan the logistics around your venue's access and facilities. Tell us where you're hosting and we'll confirm coverage and setup details." },
-  { q: "How far in advance should I book Arabic catering in Dubai?", a: "For smaller gatherings, one to two weeks is usually enough, while weddings and large functions are best booked three to four weeks ahead so we can secure your menu, staffing, and stations. During Ramadan and the November-to-March peak season, dates fill quickly, so earlier is always safer. If your event is soon, message us anyway — we often accommodate shorter notice." },
+  { q: "How far in advance should I book Arabic catering in Dubai?", a: "For smaller gatherings, one to two weeks is usually enough. Weddings and large functions: three to four weeks. During Ramadan and November to March, book earlier. Short notice is assessed against live partner availability." },
   { q: "Do you provide serving staff and waiters for Arabic events?", a: "Yes, serving staff are optional and easy to add, from waiters passing mezze and Arabic coffee to station chefs manning the grills and shawarma. For formal weddings and corporate dinners, a full service team keeps the flow smooth, while relaxed villa gatherings may need only setup and grill staff. We'll recommend the right number of staff for your guest count and service style." },
   { q: "What is the difference between Emirati and Levantine dishes on your Arabic menu?", a: "Emirati dishes like machboos, harees, and balaleet are local UAE specialities built on spiced rice, slow cooking, and regional flavours, while Levantine classics such as fattoush, manakish, fatteh, and charcoal mashawi draw from Lebanese, Syrian, and Palestinian kitchens. Our Arabic menus can lean into one tradition or blend both for a broad, crowd-pleasing spread. We'll help you balance the two based on your guests and occasion." },
   { q: "Can you build a corporate or National Day Arabic spread for our office?", a: "Yes, an authentic Arabic and Emirati spread is a favourite for corporate functions, National Day celebrations, and client events, bringing a genuine sense of place and generous hospitality. We handle everything from mezze grazing tables to live grill stations and Arabic coffee service at your office or venue, with setup and cleanup included. Explore our [corporate catering](/corporate-event-catering-dubai) options to plan your event." },
@@ -184,7 +184,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
+    description: 'Food-only through full service: drop-off, buffet, stations or a chef at the table.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -196,7 +196,7 @@ const relatedServices = [
   },
   {
     title: 'Grazing Tables',
-    description: 'Artisan grazing spreads styled corner to corner as a striking centrepiece.',
+    description: 'A styled table of cheeses, breads, fruit and mezze, set up and packed down.',
     image: '/menu-appetizer.webp',
     link: '/grazing-table-dubai',
   },
@@ -305,7 +305,7 @@ export default function ArabicCatering() {
     <div ref={containerRef}>
       <SEO
         title="Arabic Catering Dubai | Mezze, Grills & Ouzi"
-        description="Arabic catering Dubai for weddings, majlis, villas & corporate events. Mezze, charcoal grills, ouzi, Emirati & Levantine dishes. Quote in ~15 mins."
+        description="Arabic catering Dubai: mezze, charcoal grills, ouzi, Emirati and Levantine dishes. Chefs cook on site, staff serve, the room is cleared. Send date, guest count and venue."
         canonicalPath="/arabic-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}
@@ -332,10 +332,10 @@ export default function ArabicCatering() {
             Arabic Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 arab-hero-sub">
-            Abundant mezze, open charcoal grills, carved ouzi, and Emirati and Levantine classics — the warmth of an authentic Arabic feast brought to weddings, majlis, and events across Dubai.
+            Arabic catering Dubai for a majlis, a villa, a wedding or an office. Mezze, charcoal grills, ouzi if the table needs a centrepiece, sweets and coffee. Halal meat as standard. Chefs cook on site, staff serve, the room is cleared. Send the date, guest count and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 arab-hero-cta">Get My Arabic Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 arab-hero-cta">Get an Arabic catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -355,16 +355,16 @@ export default function ArabicCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">AUTHENTIC ARABIC CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The Generous Heart of Arabic Hospitality
+            Shared plates, then the grill
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Arabic cuisine is built on generosity — a table that overflows, dishes meant to be shared, and the unhurried ritual of breaking bread together. It begins with mezze: hummus, moutabal, tabbouleh, vine leaves, and warm flatbread arriving in abundance. It builds through smoky charcoal grills and slow-cooked classics, and it closes with kunafa, baklava, and cardamom-scented Arabic coffee. Lebanese catering Dubai is the mezze-and-grill brief most hosts mean by Levantine, and it is this menu, not a separate cuisine. At myCHEF Dubai, your chef prepares this cuisine the way it is meant to be served — warm, plentiful, and rooted in tradition.
+            Arabic catering Dubai starts with mezze: hummus, moutabal, tabbouleh, vine leaves and warm flatbread. It moves through charcoal grills and slow-cooked dishes, and it closes with kunafa, baklava and Arabic coffee. Lebanese catering in Dubai is usually this mezze-and-grill brief, not a separate cuisine. The chef cooks on site. Staff serve. The room is cleared.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Format decides most of the price: a mezze table, live grills, or a carved ouzi. Guest count, staffing and 5% VAT still move the total. Dietary notes go into the first menu draft. The written proposal itemises food, chefs, staff and hire.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus are shaped by <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>, and suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and our chefs handle the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. For related flavours, explore our <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> menus.
+            Emirati dishes such as machboos and harees, Levantine grills and fatteh, and a whole-lamb ouzi when the table needs a centrepiece. Menus are often shaped with <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>. Halal sourcing is the baseline. Vegetarian and vegan mezze are designed in. See how it sits inside <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>, <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link>.
           </p>
         </div>
       </section>
@@ -409,7 +409,7 @@ export default function ArabicCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHO your chef prepares FOR</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Arabic Catering for Every Occasion
+              Who this menu is for
             </h2>
           </div>
 
@@ -428,7 +428,7 @@ export default function ArabicCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Arabic Catering Includes
+            What Arabic catering Dubai includes
           </h2>
 
           <div className="arab-inc-grid grid md:grid-cols-2 gap-6">
@@ -539,13 +539,13 @@ export default function ArabicCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center arab-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Arabic Feast
+            Send the date, guest count and venue
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design an Arabic menu that suits your guests, dietary needs, and the scale of your occasion.
+            Majlis, villa, wedding or office. Tell us who is eating and whether you want mezze, grills or an ouzi. We send an itemised proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Arabic Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get an Arabic catering quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

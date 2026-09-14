@@ -40,68 +40,68 @@ const grazingFormats = [
   {
     icon: Grape,
     title: 'Classic Grazing Tables',
-    description: 'Generous artisan spreads of cured meats, aged cheeses, fruits, dips, and warm breads, styled as an abundant centrepiece for your gathering.',
+    description: 'Cured meats, aged cheeses, fruit, dips and warm breads, built on site as the table guests come back to.',
     link: '/catering-dubai',
   },
   {
     icon: Sparkles,
     title: 'Grazing Boards & Boxes',
-    description: 'Compact, beautifully arranged boards and individual boxes — perfect for smaller groups, gifting, or distanced seating at intimate events.',
+    description: 'Smaller boards and individual boxes for a compact guest list, a gift, or seating that is spread out.',
     link: '/canape-catering-dubai',
   },
   {
     icon: Heart,
     title: 'Bridal & Hen Grazing',
-    description: 'Soft palettes, florals, and sweet-and-savoury pairings designed for bridal showers, hen afternoons, and engagement celebrations.',
+    description: 'A styled table for a bridal shower, hen afternoon or engagement: sweet and savoury, built around how long people stay standing.',
     link: '/private-party-catering-dubai',
   },
   {
     icon: Baby,
     title: 'Baby Shower Spreads',
-    description: 'Pastel grazing tables with delicate canapés, fresh fruit, and dessert touches, styled to suit gentle baby shower themes.',
+    description: 'Fruit, canapés and a dessert line for a baby shower. Daytime food, usually no alcohol.',
     link: '/baby-shower-catering-dubai',
   },
   {
     icon: Home,
     title: 'Villa & Garden Grazing',
-    description: 'Full-scale grazing installations for villa terraces, gardens, and rooftops across Dubai, with on-site styling and replenishment.',
+    description: 'A full table on a terrace, garden or rooftop, built on site and replenished while guests graze.',
     link: '/catering-dubai',
   },
   {
     icon: Users,
     title: 'Corporate Grazing',
-    description: 'Elegant grazing stations for launches, networking receptions, and office celebrations that keep guests mingling and grazing throughout.',
+    description: 'A station for a launch, a reception or an office celebration, so the room keeps moving.',
     link: '/canape-catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Artisan Charcuterie', description: 'Cured meats, aged and soft cheeses, and accompaniments sourced for quality.' },
-  { title: 'Seasonal Fruit & Produce', description: 'Fresh seasonal fruits, berries, and crudités for colour and balance.' },
-  { title: 'Breads, Crackers & Dips', description: 'Warm breads, artisan crackers, and house-made dips and preserves.' },
-  { title: 'Bespoke Styling', description: 'On-trend grazing styling with boards, vessels, foliage, and florals.' },
-  { title: 'Sweet & Savoury Mix', description: 'A considered balance of savoury bites and sweet touches across the table.' },
-  { title: 'On-Site Set-Up', description: 'our chefs build and arranges the grazing table at your venue.' },
-  { title: 'Dietary Options', description: 'Vegetarian, vegan, halal, and gluten-free elements arranged on request.' },
-  { title: 'Full Pack-Down', description: 'We clear, pack down, and leave your space spotless after the event.' },
+  { title: 'Charcuterie and cheese', description: 'Cured meats, aged and soft cheeses, and the accompaniments they need.' },
+  { title: 'Fruit and produce', description: 'Seasonal fruit, berries and crudités, so the table is not only meat and cheese.' },
+  { title: 'Breads, crackers and dips', description: 'Warm breads, crackers, dips and preserves, replenished while people graze.' },
+  { title: 'Styling', description: 'Boards, vessels, foliage and florals as the brief requires. Not a second product.' },
+  { title: 'Sweet and savoury', description: 'Savoury bites and a sweet line on the same table, not a separate dessert room unless you ask.' },
+  { title: 'Built on site', description: 'The chef builds and arranges the table at your venue. It is not dropped as a sealed tray.' },
+  { title: 'Dietary notes', description: 'Vegetarian, vegan, halal and gluten-free elements when you flag them. Labelled.' },
+  { title: 'Pack-down', description: 'The table is cleared. You should still be able to use the room afterwards.' },
 ]
 
 const useCases = [
   {
     title: 'Bridal Showers & Hen Afternoons',
-    description: 'A grazing table is the natural centrepiece of a bridal celebration. We style soft, photogenic spreads with florals and sweet pairings for an afternoon your guests will remember — and photograph.',
+    description: 'A bridal shower or hen afternoon usually stands, so a table they can graze from works better than a seated service. Florals and a sweet line if you want them. Photographing the table is common; the food still has to last the afternoon.',
   },
   {
     title: 'Villa & Garden Gatherings',
-    description: 'For at-home celebrations across Palm Jumeirah, Emirates Hills, and Dubai Hills, we build full grazing installations on your terrace, garden, or rooftop, complete with styling and replenishment.',
+    description: 'Palm Jumeirah, Emirates Hills and Dubai Hills villas: the table is built on the terrace, garden or rooftop, then replenished. Heat, shade and where the team unloads belong in the brief.',
   },
   {
     title: 'Baby Showers & Family Days',
-    description: 'Gentle, pastel grazing tables with fruit, canapés, and dessert touches set the tone for baby showers and relaxed family celebrations where guests graze at their own pace.',
+    description: 'Baby showers and family days: fruit, canapés and a dessert line. People graze at their own pace. Alcohol is usually off the brief.',
   },
   {
     title: 'Shareable, Visual Moments',
-    description: 'Grazing tables are designed to be seen. Abundant, colourful, and styled corner to corner, they become a conversation piece and a backdrop guests gather around all day.',
+    description: 'The table is the service: people stand, talk and come back. It needs a smaller team than plated courses. If everyone sits for a dinner, this is the wrong format.',
   },
 ]
 
@@ -153,7 +153,7 @@ const faqs = [
   },
   {
     q: 'Do you cater for dietary requirements?',
-    a: 'Absolutely. We arrange vegetarian, vegan, halal, and gluten-free elements within the grazing table, and we can build entirely allergy-conscious spreads on request. Let us know your guests’ needs when planning.',
+    a: 'Yes. Vegetarian, vegan, halal and gluten-free elements are designed in when you flag them, and labelled on the table. Tell us the notes when you enquire.',
   },
   {
     q: 'Do you set up the grazing table on-site?',
@@ -176,25 +176,25 @@ const faqs = [
   { q: "Can you cater a grazing table on a yacht?", a: "Yes, we style grazing tables and boards for yacht charters and cruises, adapting the format and presentation to the space and movement on board. Because fridge and surface space is limited at sea, we plan portable, secure displays that still deliver the same abundant, artisan look. See how we approach on-water events on our [yacht catering page](/yachts)." },
   { q: "How far in advance do I need to book a grazing table?", a: "For smaller grazing tables and boards, a week or two is usually enough, while larger, fully styled installations are best confirmed two to four weeks ahead. Peak season runs from November to March, and popular weekend dates book up quickly, so earlier is always safer during those months. If your date is soon, reach out anyway, as we'll always try to accommodate short notice." },
   { q: "Can you match a specific theme, colour palette, or occasion?", a: "Yes, we style each grazing table around your palette, theme, florals, and venue so it feels made for your celebration, whether that's a soft bridal shower, a pastel baby shower, or a branded corporate reception. We coordinate boards, vessels, foliage, and garnishes to your look and can add sweet or savoury emphasis as needed. Share your inspiration or mood board when you [get in touch](/contact) and we'll design to it." },
-  { q: "Can you add hot dishes, live stations, or dessert to a grazing table?", a: "Yes, a grazing table can stand alone or become part of a fuller spread with hot sharing dishes, live cooking stations, or a dessert display alongside it. This works beautifully for larger events where you want the grazing centrepiece plus something more substantial for guests. We'll help you balance the mix so it suits your timing, guest count, and budget." },
+  { q: "Can you add hot dishes, live stations, or dessert to a grazing table?", a: "Yes. A grazing table can sit alone, or with hot sharing dishes, a live station or a dessert line. Say so in the brief; it changes staffing and timing." },
 ]
 
 const relatedServices = [
   {
     title: 'Canapé Catering',
-    description: 'Passed canapés and bite-sized elegance for receptions and cocktail moments.',
+    description: 'Passed canapés for a standing reception, when a table is the wrong format.',
     image: '/menu-canapes.webp',
     link: '/canape-catering-dubai',
   },
   {
     title: 'Bachelorette Catering',
-    description: 'Styled grazing, canapés, and dessert displays for a memorable hen celebration.',
+    description: 'Grazing, canapés and a dessert line for a hen afternoon.',
     image: '/service-villa.webp',
     link: '/private-party-catering-dubai',
   },
   {
     title: 'Baby Shower Catering',
-    description: 'Pastel grazing tables and afternoon-tea menus for an intimate baby shower.',
+    description: 'Daytime food for a baby shower: a grazing table or afternoon tea.',
     image: '/menu-dessert.webp',
     link: '/baby-shower-catering-dubai',
   },
@@ -296,8 +296,8 @@ export default function GrazingTable() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Grazing Table Dubai | Cheese & Charcuterie Spreads | myCHEF"
-        description="Artisan grazing table Dubai. Cheese & charcuterie spreads styled for showers, villas, weddings & corporate events. From AED __ for __ gu"
+        title="Grazing Table Dubai | myCHEF"
+        description="Grazing table Dubai: cheeses, breads, fruit and a styled table, built on site and packed down. Send the date, guest count and venue."
         canonicalPath="/grazing-table-dubai"
         ogImage="/menu-appetizer.webp"
         hideSiteName
@@ -322,10 +322,10 @@ export default function GrazingTable() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 graz-hero-h1">
-            Grazing Table Dubai — Charcuterie Spreads
+            Grazing Table Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 graz-hero-sub">
-            Abundant artisan grazing spreads, styled corner to corner — from bridal showers and villa gatherings to corporate receptions across Dubai.
+            Grazing table Dubai for a shower, a villa, a wedding drinks hour or an office reception. Cheeses, breads, fruit, charcuterie and dips, built on site and packed down. Send the date, guest count and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 graz-hero-cta">Get a Grazing Table Quote</Link>
@@ -349,19 +349,16 @@ export default function GrazingTable() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">ARTISAN GRAZING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Centrepiece Guests Gather Around
+            What a grazing table Dubai booking includes
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A grazing table is more than food on a board — it is a moment. The abundant cascade of cured meats, aged cheeses, seasonal fruits, warm breads, and house-made dips becomes the visual heart of your celebration, the place guests drift back to all afternoon. At myCHEF Dubai, we treat each grazing table as an edible installation, composed and styled corner to corner for both flavour and effect.
+            A grazing table is food people can eat while they stand and talk. Cured meats, cheeses, fruit, warm breads and dips, built on site so the table lasts the afternoon. It is not a plated dinner and it is not a dropped tray. If everyone sits for courses, this is the wrong format.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. From a compact grazing platter Dubai hosts order for private villa gatherings to full-length styling, every layout balances artisan cheeses, charcuterie, and seasonal garnishes.
+            Guest count, how long people stay, and whether you want a compact grazing platter or a full-length table move the quote. Dietary notes go into the first layout. The written proposal itemises food, styling, staffing and 5% VAT.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a soft, floral bridal shower, a pastel baby shower, a relaxed villa gathering, or a polished corporate reception, our chefs build the spread on-site and tailors every element to your palette, theme, and guest count. Explore our grazing formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Bridal showers, baby showers, villa gatherings and office receptions all use the same job: a table guests come back to. The chef builds it at your venue and packs it down. See how it sits inside <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -536,10 +533,10 @@ export default function GrazingTable() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center graz-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Style Your Grazing Table
+            Send the date, guest count and venue
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design a grazing spread that fits your theme, palette, and guest count perfectly.
+            Shower, villa, drinks hour or office. Tell us how many people and how long they stay. We send an itemised proposal for the table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a Grazing Table Quote</Link>

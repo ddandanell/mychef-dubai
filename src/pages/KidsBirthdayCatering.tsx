@@ -7,118 +7,114 @@ const config: OccasionPageConfig = {
   slug: 'kids-birthday-catering-dubai',
   seoTitle: "Kids Birthday Catering Dubai | Safe, Fun Party Food | myCHEF",
   metaDescription:
-    'Kids birthday catering in Dubai: child-friendly menus, allergy planning with clear labelling, fun food stations, themed treats and full setup. Request a quote.',
+    'Kids birthday catering Dubai: child-sized menus, allergy notes in the brief, stations if the party needs them, and an adult table. Setup and pack-down included. Send the age, date and guest count.',
   canonicalPath: '/birthday-catering-dubai',
   ogImage: '/images/kids-birthday-catering-dubai-hero.webp',
   breadcrumbLabel: 'Kids Birthday Catering Dubai',
   h1: 'Kids Birthday Catering Dubai: Safe, Fun Party Food',
   heroSub:
-    'Stress-free kids birthday party catering across Dubai: safe, fun menus, allergy-aware options, interactive food stations and full service so parents can enjoy the party too.',
+    'Kids birthday catering Dubai for villa gardens, apartments and venues. Child-sized menus, allergy notes in the brief, a station if the party needs one, and an adult table so you are not eating leftover pizza. Setup, service and pack-down included. Send the age, date, guest count and any allergies.',
   heroImage: '/images/kids-birthday-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan kids birthday catering in Dubai (via mychef.ae/kids-birthday-catering-dubai)",
   hideSiteName: true,
-  primaryCta: 'Plan My Kids Birthday',
+  primaryCta: 'Plan this kids birthday',
   eyebrow: 'KIDS PARTY CATERING IN DUBAI',
-  introH2: 'Birthday Parties That Parents & Kids Both Enjoy',
+  introH2: 'Kids birthday catering Dubai, without you running the kitchen',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Throwing a children’s birthday party in Dubai should be about laughter, games and memories — not about juggling platters and praying no one has an allergic reaction. Our kids birthday catering is built around the realities of family parties: food that children actually want to eat, menus that account for common allergies, and a setup that lets parents step away from the kitchen and join the celebration.
+        A children’s party in Dubai is a mixed room: small appetites, a cake moment, and adults who still need a proper plate. Kids birthday catering is built around that, not around a restaurant kids’ menu. Food children will actually eat, allergy notes in the brief before anyone cooks, and a team that serves and packs down so you stay with the party.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        From villa garden parties in Emirates Hills to beach club celebrations and at-home gatherings in Jumeirah, we bring child-friendly menus, friendly service staff and clear labelling so every guest knows what is on their plate. We also offer nut-free, gluten-free and dairy-free options so no child is left out. See how this fits with our wider{' '}
+        Villa gardens, apartments and venues all work. Nut-free, gluten-free and dairy-free plates are designed in when you flag them, with clear labelling. Adult guests get a grazing table or canapés at the same time, not leftover pizza. Adult and milestone birthdays sit on{' '}
         <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           birthday catering Dubai
-        </Link>{' '}
-        service, explore safe{' '}
+        </Link>
+        . Allergy-led briefs sit on{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          nut-free catering Dubai
-        </Link>{' '}
-        options for school-age guests, or view our{' '}
-        
-          Birthday Celebration package
-        {' '}
-        and{' '}
+          allergy-safe catering
+        </Link>
+        . Fixed-price bands are on{' '}
         <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           catering packages
         </Link>.
       </p>
     </>
   ),
-  formatsH2: 'Kids Party Catering Formats',
+  formatsH2: 'How the food is served',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Kids’ Menus',
-      description: 'Age-appropriate plated meals with familiar flavours, colourful presentation and portions sized for smaller appetites.',
+      description: 'Plated meals with familiar flavours and portions a child can finish. Colours and shapes follow the brief, not a cartoon plate for its own sake.',
       link: '/catering-dubai',
     },
     {
       Icon: Pizza,
       title: 'Pizza & Pasta Stations',
-      description: 'Live pizza or pasta stations where children can choose toppings — interactive, fun and endlessly popular.',
+      description: 'Live pizza or pasta stations where children choose toppings. Useful when the party should move rather than sit.',
       link: '/live-cooking-stations-dubai',
     },
     {
       Icon: IceCream,
       title: 'Dessert & Sweet Tables',
-      description: 'Cupcakes, cake pops, fruit skewers and themed dessert tables designed to match the party style.',
+      description: 'Cupcakes, cake pops, fruit skewers and a dessert table matched to the theme. Cake timing sits in the run-sheet, not as an afterthought.',
       link: '/dessert-table-catering-dubai',
     },
     {
       Icon: PartyPopper,
       title: 'Themed Party Buffets',
-      description: 'Buffet spreads styled around the birthday theme, from superheroes and princesses to tropical pool parties.',
+      description: 'A buffet for mixed ages, styled to the theme if you want it. Parents and children eat from the same service, with portions labelled.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa & Home Parties',
-      description: 'fully-coordinated catering at your home or villa across Dubai, with setup, service and pack-down handled for you.',
+      description: 'The team works in your home or villa: setup, service and pack-down. You stay with the children.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Venue & Club Parties',
-      description: 'Catering coordination for Dubai party venues, beach clubs and kids’ entertainment centres.',
+      description: 'Food and service at a party venue, beach club or entertainment centre, planned around their kitchen rules and load-in.',
       link: '/events',
     },
   ],
   useCasesEyebrow: 'WHERE KIDS BIRTHDAY CATERING WORKS',
-  useCasesH2: 'Parties Designed Around Children',
+  useCasesH2: 'Where this brief actually sits',
   useCases: [
     {
       title: 'Back Garden Villa Parties',
       description:
-        'Villa gardens across Dubai are perfect for bouncy castles, lawn games and a kids’ buffet. We set up under tents or by the pool, serve the children, and clear away while parents relax.',
+        'A villa garden is usually a mixed list: children eating first, adults after. We set up by the pool or under a tent, serve, and pack down so you are not clearing plates at dusk.',
     },
     {
       title: 'Allergy-Conscious Class Parties',
       description:
-        'Nut allergies, dairy intolerances and gluten-free requirements are common in school classes. We label every dish and can prepare fully allergen-aware menus so every child eats safely.',
+        'Nut, dairy and gluten notes are common in a school class. Flag them when you enquire. Dishes are labelled. Where an allergy is declared, the assigned culinary partner confirms whether the menu can be provided.',
     },
     {
       title: 'Beach & Pool Celebrations',
       description:
-        'For pool parties and beach club birthdays, we serve fresh, light menus that hold up in the heat, with plenty of hydration and treats that are easy to eat in swimwear.',
+        'Pool and beach club birthdays need food that holds in the heat, is easy to eat standing, and does not fight the venue’s kitchen rules. That is in the brief, not discovered on the day.',
     },
     {
       title: 'Themed Celebrations',
       description:
-        'From unicorn tea parties to football-themed lunches, chefs in our network and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
+        'Colours and shapes can follow the theme. The food still has to be something children will eat. Tell us the theme when you enquire; we will say what travels and what does not.',
     },
   ],
   includedH2: "What's Included in Our Kids Birthday Catering",
   includedItems: [
-    { title: 'Child-Friendly Menus', description: 'Familiar favourites, fun presentations and portion sizes designed for kids.' },
-    { title: 'Allergy Awareness', description: 'Nut-free, gluten-free and dairy-free options available with clear labelling.' },
-    { title: 'Sweet & Dessert Tables', description: 'Themed cupcakes, cake pops, cookies and celebration cakes on request.' },
-    { title: 'Interactive Food Stations', description: 'Pizza, pasta, mocktail and ice-cream stations that double as entertainment.' },
-    { title: 'Adult Grazing Options', description: 'Sophisticated canapés and platters for parents and older guests.' },
-    { title: 'Friendly Service Staff', description: 'Patient, experienced staff who know how to serve and engage with children.' },
-    { title: 'Full Setup & Pack-Down', description: 'We bring equipment, serve, clear and leave the venue tidy.' },
-    { title: 'Theme Coordination', description: 'Menu styling and colours aligned with your chosen party theme.' },
+    { title: 'Child-sized menus', description: 'Familiar food, portions a child can finish, written around the age in the room.' },
+    { title: 'Allergy notes in the brief', description: 'Nut-free, gluten-free and dairy-free plates when you flag them, with clear labelling.' },
+    { title: 'Dessert table', description: 'Cupcakes, cake pops, cookies and a celebration cake if you want one.' },
+    { title: 'Stations', description: 'Pizza, pasta, mocktail or ice-cream stations when the party should move.' },
+    { title: 'Adult table', description: 'Canapés or a grazing spread for parents and older guests, not leftover pizza.' },
+    { title: 'Service staff', description: 'Staff sized to the room. Children are served, not performed at.' },
+    { title: 'Setup and pack-down', description: 'Equipment in, service, clear-down. You stay with the party.' },
+    { title: 'Theme, if you want it', description: 'Colours and shapes can follow the brief. The food still has to work.' },
   ],
   galleryH2: 'A Taste of Our Kids Birthday Catering',
   galleryImages: [
@@ -133,11 +129,11 @@ const config: OccasionPageConfig = {
   faqs: [
     {
       q: 'Can you cater for children with allergies?',
-      a: 'Yes. We offer nut-free, gluten-free and dairy-free options and clearly label every dish. For severe allergies, tell us in advance and we will plan prep and service protocols to reduce cross-contact risk.',
+      a: 'Yes. Nut-free, gluten-free and dairy-free plates are designed in when you flag them, and dishes are labelled. For a declared allergy, the assigned culinary partner confirms whether the menu can be provided. Partner kitchens may handle allergens, so cross-contact cannot be completely excluded unless dedicated controls have been confirmed for the booking.',
     },
     {
       q: 'What kind of food do children enjoy at your parties?',
-      a: 'Our kids menus include mini pizzas, pasta, chicken skewers, sliders, fruit platters, cupcakes and themed treats. We balance fun with freshness so the sugar crash is minimised.',
+      a: 'Typical plates are mini pizzas, pasta, chicken skewers, sliders, fruit and cupcakes. Tell us the age and what they will actually eat. The adult table is a separate brief on the same booking.',
     },
     {
       q: 'Do you provide birthday cakes?',
@@ -145,15 +141,15 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Can parents eat too, or is it just for kids?',
-      a: 'Absolutely. We usually prepare an adult-friendly grazing table, canapés or plated options alongside the children’s menu so parents and older siblings enjoy the food as well.',
+      a: 'Yes. An adult grazing table, canapés or plated plates sit alongside the children’s menu. Parents should not be eating leftover pizza.',
     },
     {
       q: 'Do you handle setup and cleanup at the venue?',
-      a: 'Yes. Our chefs arrive early to set up, serves during the party, and packs everything away afterwards. You just need to enjoy the celebration.',
+      a: 'Yes. The team arrives early, serves during the party, and packs down afterwards. You stay with the children.',
     },
     {
       q: 'How far in advance should I book kids birthday catering?',
-      a: 'One to three weeks is ideal, especially for themed dessert tables or busy weekend dates. Last-minute bookings are sometimes possible — contact us on WhatsApp to check availability.',
+      a: 'One to three weeks is typical, especially for a themed dessert table or a weekend date. Short notice is assessed against live partner availability. Message the date on WhatsApp.',
     },
   ],
   relatedServices: [
@@ -177,20 +173,20 @@ const config: OccasionPageConfig = {
     },
     {
       title: 'Dessert Table Catering',
-      description: 'Show-stopping dessert displays and celebration cakes for any theme.',
+      description: 'Dessert displays and celebration cakes, planned with the rest of the menu.',
       image: '/menu-dessert.webp',
       link: '/dessert-table-catering-dubai',
     },
     {
       title: 'Gelato & Dessert Cart',
-      description: 'Fun ice cream, candy and dessert carts that kids love at birthday parties.',
+      description: 'Ice cream and dessert carts when the party needs a station rather than a plated last course.',
       image: '/images/dessert-table-catering-dubai-hero.webp',
       link: '/live-cooking-stations-dubai',
     },
   ],
-  ctaH2: 'Plan a Kids Birthday Party Everyone Will Love',
+  ctaH2: 'Send the age, date and allergies',
   ctaP:
-    'Tell us about the age group, theme, allergies and venue. We will design a safe, fun kids birthday menu that lets you enjoy the party as much as they do.',
+    'Age group, guest count, venue, theme if you have one, and any allergies. We send an itemised proposal. You stay with the party.',
   showTrustSignalStrip: true,
 }
 

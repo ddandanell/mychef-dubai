@@ -40,7 +40,7 @@ const ramadanServices = [
   {
     icon: Moon,
     title: 'Private Family Iftar',
-    description: 'An intimate Iftar at home or in your villa, with traditional dishes, fresh dates, and attentive service for family and close friends.',
+    description: 'An Iftar at home or in your villa, with traditional dishes, fresh dates, and a service team for family and close friends.',
     link: '/private-chef-dubai',
   },
   {
@@ -64,7 +64,7 @@ const ramadanServices = [
 ]
 
 const includedItems = [
-  { title: 'Bespoke Iftar Menu', description: 'A custom menu designed around your guest count, preferences, and any dietary or halal requirements.' },
+  { title: 'Iftar menu written for the table', description: 'A custom menu designed around your guest count, preferences, and any dietary or halal requirements.' },
   { title: 'Traditional Date & Soup Service', description: 'Dates, Arabic coffee, and warming soups served at sunset to break the fast with intention.' },
   { title: 'Hot & Cold Mezze', description: 'A generous selection of freshly prepared mezze, salads, and bread to share around the table.' },
   { title: 'Mains & Grills', description: 'Slow-cooked tagines, grilled meats, seafood, and vegetarian dishes prepared in your kitchen or event space.' },
@@ -89,7 +89,7 @@ const menuHighlights = [
 
 const howItWorks = [
   { title: 'Share Your Iftar Plans', description: 'Tell us your dates, guest count, location in Dubai, and any dietary or halal requirements for the gathering.' },
-  { title: 'Receive a Custom Proposal', description: 'We design a bespoke Iftar menu with traditional and contemporary dishes, service style, and staffing plan.' },
+  { title: 'Receive a Custom Proposal', description: 'We design an Iftar menu with traditional and contemporary dishes, service style, and staffing plan.' },
   { title: 'Confirm Your Booking', description: 'Once the menu and logistics are approved, we lock in your preferred Ramadan dates and confirm every detail.' },
   { title: 'We Source Ingredients', description: 'Chefs in our network shop for fresh produce, premium proteins, dates, and specialty ingredients ahead of the event.' },
   { title: 'Arrive & Prepare On-Site', description: 'Chefs and service staff arrive early to set up, prepare dishes, and be ready the moment the fast is broken.' },
@@ -107,7 +107,7 @@ const useCases = [
   },
   {
     title: 'Community & Embassy Iftars',
-    description: 'we coordinate catering for larger community gatherings with scalable menus, timely service at sunset, and the cultural sensitivity that Ramadan occasions deserve.',
+    description: 'We coordinate catering for larger community gatherings with menus that scale and service timed to sunset.',
   },
   {
     title: 'Suhoor Before Fajr',
@@ -141,7 +141,7 @@ const faqs = [
     a: 'Yes. In addition to Iftar, we offer Suhoor catering before Fajr and festive Eid dining menus for family gatherings and celebrations.',
   },
   { q: "How much does Iftar catering cost per person in Dubai?", a: "Iftar catering in Dubai is quoted per event rather than a fixed per-head rate, because the price depends on your guest count, menu, service style, and location. A relaxed home Iftar buffet sits at a different level than a full villa spread with live stations and staff, so we build a custom quote around exactly what you want. Share your plans through our [contact page](/contact) and we typically send a detailed proposal within about 15 minutes during business hours." },
-  { q: "What exactly is included in the price of your Iftar catering?", a: "Every Iftar quote includes bespoke menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. There are no hidden extras for the core service, and serving staff can be added when you want table or buffet service handled for you. Prices are subject to 5% VAT, and we confirm the full inclusions in writing before you book." },
+  { q: "What exactly is included in the price of your Iftar catering?", a: "Every Iftar quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. There are no hidden extras for the core service, and serving staff can be added when you want table or buffet service handled for you. Prices are subject to 5% VAT, and we confirm the full inclusions in writing before you book." },
   { q: "What is the difference between Iftar catering and just ordering Iftar boxes?", a: "Iftar catering means we design your menu, cook fresh on-site, and serve and clean up, while boxed delivery is simply pre-packed meals dropped off. We are a full-service private chef and catering company, so our chefs prepare everything for your gathering the same evening rather than reheating trays. This is why a catered Iftar feels like a hosted occasion rather than a food order." },
   { q: "Is your Iftar food halal?", a: "Yes, all of our Iftar menus are halal sourced by default, which is essential for authentic Ramadan hospitality. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and we source ingredients from trusted halal suppliers for every dish. If you have specific sourcing or preparation requests, we confirm them in your proposal." },
   { q: "Are you a licensed and food-safe catering company?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your Iftar is prepared and served safely. We handle hot and cold dishes with proper temperature control, timing, and hygiene throughout the event. You can read more [about our team](/about) and how we work before you book." },
@@ -154,17 +154,17 @@ const faqs = [
   { q: "Can you cater Iftar in my villa, apartment, office, or a hotel venue?", a: "Yes, we cook and serve Iftar wherever you are hosting, including villas, apartments, offices, event spaces, and hotel venues across Dubai. Our chefs bring the menu, equipment, and staff to your location and set up around your space. We cater regularly in [villas and private residences](/villas-private-residences) as well as corporate settings." },
   { q: "How far in advance should I book Iftar catering during Ramadan?", a: "Booking two to four weeks ahead is ideal during Ramadan, especially for weekends, Eid, and larger corporate Iftars, since dates fill quickly. Because Ramadan is a peak period alongside the busy November-to-March season, early booking secures your preferred evening and menu. We do accommodate shorter-notice requests when our schedule allows, so it is always worth asking." },
   { q: "Do you also cater Suhoor and Eid meals, not just Iftar?", a: "Yes, alongside Iftar we cater late-night Suhoor gatherings before Fajr and festive Eid celebration menus. Suhoor menus focus on light, energising dishes and coffee, while [Eid catering](/eid-catering-dubai) continues the celebration with grazing tables and family feasts. Many clients book us across the whole holy month and into Eid." },
-  { q: "Why choose a private chef Iftar instead of a restaurant or hotel buffet?", a: "A private chef Iftar brings freshly cooked food, a fully customised menu, and hosted service to your own space, so your family or team breaks the fast in comfort and privacy. Unlike a fixed hotel buffet, we design the menu around your preferences, guest count, and dietary needs. Explore our [private chef service](/private-chef-dubai) to see how a hosted Iftar at home compares." },
+  { q: "How is a hosted Iftar at home different from a hotel buffet?", a: "A hosted Iftar is cooked for your table and served in your own space. A hotel buffet is a fixed menu in a dining room you did not book. We write the menu around your preferences, guest count and dietary needs, then clear down. If you want a standing household chef rather than one night, that sits on our [private chef service](/private-chef-dubai)." },
   {
     q: 'What to eat for iftar?',
-    a: 'For what to eat for iftar we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+    a: 'For what to eat for iftar we plan the menu around the occasion and the room: plated, buffet, canapés or live stations. We bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke dining experiences brought to your home, villa, or event space.',
+    description: 'A standing household chef plan. One Iftar is catering; this page is the night, not the month.',
     image: '/service-catering.webp',
     link: '/private-chef-dubai',
   },
@@ -176,7 +176,7 @@ const relatedServices = [
   },
   {
     title: 'Party Catering',
-    description: 'fully-coordinated catering for celebrations, from intimate dinners to large gatherings.',
+    description: 'Catering for celebrations, from a small table to a large guest list.',
     image: '/service-villa.webp',
     link: '/private-party-catering-dubai',
   },
@@ -311,8 +311,8 @@ export default function RamadanIftar() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Iftar Catering Dubai | Ramadan Private Chef & Buffet | myCHEF"
-        description="Book Iftar catering Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate."
+        title="Iftar Catering Dubai | myCHEF"
+        description="Iftar catering Dubai: dates at Maghrib, mezze and grills after, cooked in your home, villa, office or event space. Itemised quote, then we clear down."
         canonicalPath="/iftar-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
@@ -342,10 +342,10 @@ export default function RamadanIftar() {
             Ramadan Kareem
           </p>
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 iftar-hero-h1">
-            Iftar Catering Dubai: Ramadan Private Chef & Buffet Service
+            Iftar Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
-            Traditional and contemporary Iftar menus prepared in your home, villa, office, or event space. From sunset dates to late-night Suhoor, we honour the spirit of Ramadan with exceptional food and attentive service.
+            Iftar catering Dubai: dates at Maghrib, mezze and grills after, cooked in your home, villa, office or event space. Suhoor if you need it. We cook and serve; you host.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
@@ -369,19 +369,16 @@ export default function RamadanIftar() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">RAMADAN IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Iftar Gatherings Made Meaningful
+            Maghrib is the deadline. The kitchen is not yours to run.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Iftar is a timed meal. Dates, water and soup need to be ready when the fast breaks. At myCHEF Dubai we plan the service around Maghrib, then mezze, grills and desserts after. Family tables, office Iftars and community gatherings all use the same rule: the chef team cooks, serves and clears. You host.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless. Iftar is one night on the{' '}
+            Chefs in our network bring the menu, staff and setup to your villa, apartment, office, hotel or event space. Menus follow guest count, dietary needs and how formal the sitting is. Iftar is one night on the{' '}
             <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
               festive catering Dubai
             </Link>{' '}
@@ -396,7 +393,7 @@ export default function RamadanIftar() {
           <div className="text-center mb-10">
             <SectionLabel align="center">Who We Serve</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Iftar Catering Designed for Every Gathering
+              Family tables, offices and community Iftars
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 text-center">
@@ -413,7 +410,7 @@ export default function RamadanIftar() {
             <div className="bg-white p-8 border border-gray-200">
               <Star className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Communities & Embassies</h3>
-              <p className="font-inter text-body-sm text-gray-500">Large-scale community Iftars with scalable menus, timely service, and cultural sensitivity.</p>
+              <p className="font-inter text-body-sm text-gray-500">Larger community Iftars with a menu that scales, and service timed to sunset.</p>
             </div>
           </div>
         </div>
@@ -480,7 +477,7 @@ export default function RamadanIftar() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">MENU HIGHLIGHTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Flavours of the Holy Month
+              What usually sits on an Iftar table
             </h2>
           </div>
 
@@ -494,7 +491,7 @@ export default function RamadanIftar() {
           </div>
 
           <p className="font-inter text-body text-gray-400 text-center max-w-[700px] mx-auto mt-10 leading-relaxed">
-            Every Iftar menu is built from scratch. We do not use fixed set menus. Instead, we design around your preferences, combining traditional Ramadan staples with contemporary dishes so the spread feels both familiar and fresh.
+            Every Iftar menu is built from scratch. We do not use a fixed set menu. We combine Ramadan staples with dishes that suit this table, so the spread is familiar without being copied from a hotel buffet.
           </p>
         </div>
       </section>
@@ -523,19 +520,19 @@ export default function RamadanIftar() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 8: Why Choose ═══════════════ */}
+      {/* ═══════════════ Section 8: Maghrib timing ═══════════════ */}
       <section className="iftar-why-section bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="iftar-why opacity-0 translate-y-8">
             <h2 className="font-playfair text-h2 text-white mb-8 text-center">
-              Why Choose myCHEF for Ramadan
+              Dates, soup and service ready at Maghrib
             </h2>
             <div className="space-y-5">
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. Chefs in our network and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
+                Ramadan catering in Dubai fails when the food is late. Chefs in our network and the service team arrive early, hold hot and cold dishes at the right temperature, and put dates, water and soup on the table when the fast breaks. The rest of the menu follows without a rush.
               </p>
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and chefs in our network handle setup, service, and clear-down so you can focus on what matters most during the holy month.
+                We plan the Iftar around your schedule, your space and your guests. Menus are written for the table. Dietary notes go into the first draft. Setup, service and clear-down stay with the team so you are not in the kitchen after Maghrib.
               </p>
             </div>
           </div>
@@ -673,10 +670,10 @@ export default function RamadanIftar() {
       <section className="iftar-cta bg-gradient-to-b from-black to-charcoal py-20">
         <div className="container-custom text-center opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Iftar with myCHEF
+            Send the date, the headcount and the address
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Ramadan dates fill quickly. Share your plans and we will design a custom Iftar menu and service plan for your home, office, or event space in Dubai.
+            Ramadan evenings fill quickly. Share the date, guest count and venue and we will send an Iftar menu and service plan for your home, office or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get an Iftar Quote</Link>

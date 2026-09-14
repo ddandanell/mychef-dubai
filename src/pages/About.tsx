@@ -27,7 +27,7 @@ const values = [
   { title: 'Quality', desc: 'Only chefs who meet the standard. Only ingredients that meet the menu. No corners cut on either.' },
   { title: 'Discretion', desc: 'What happens in your home stays in your home. Every chef and service professional we place works to that rule.' },
   { title: 'Hospitality', desc: 'A good dinner is remembered long after the plates are cleared. That feeling is what we design for: warm, attentive, unhurried.' },
-  { title: 'Reliability', desc: 'On time, every time. The plan is written before the day, so the day runs to the plan.' },
+  { title: 'Reliability', desc: 'The plan is written before the day, so the day can run to the plan.' },
 ]
 
 // The split — the chef cooks; myCHEF does the four jobs around the chef.
@@ -39,9 +39,9 @@ const split = [
 ]
 
 const team = [
-  { image: '/team-head-chef.webp', name: 'Marco Adriano', role: 'Executive Chef', bio: 'Classically trained in modern European fine dining across Europe and the Middle East. Two decades of experience shaping menus that balance precision with Mediterranean warmth.', exp: 'Fine Dining Leadership' },
-  { image: '/team-sous-chef.webp', name: 'Elena Vasquez', role: 'Sous Chef', bio: 'Experienced in seafood-led cuisine, modern plating, and kitchen coordination for high-end private events. Brings creativity and calm execution to every service.', exp: 'Private Event Specialist' },
-  { image: '/team-pastry-chef.webp', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Specializes in modern patisserie, chocolate work, and dessert presentation designed to close a meal with impact and elegance.', exp: 'Dessert & Pastry' },
+  { image: '/team-head-chef.webp', name: 'Head chef', role: 'Plated dinners', bio: 'The chef who designs the menu is the chef who cooks it. Independent, licensed, assessed before they enter a house.', exp: 'Plated dinners' },
+  { image: '/team-sous-chef.webp', name: 'Italian kitchen', role: 'Sharing tables', bio: 'Pasta, grills and seafood served family-style when the table wants to share.', exp: 'Italian kitchens' },
+  { image: '/team-pastry-chef.webp', name: 'Pastry', role: 'Last course', bio: 'Pastry, chocolate and plated desserts planned with the rest of the menu, not added at the end.', exp: 'Dessert and pastry' },
 ]
 
 // Communities that have their own page under /locations/:slug (see src/data/locations.ts).
@@ -135,8 +135,8 @@ export default function About() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Company Dubai"
-        description="Private Chef Company Dubai — Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed…"
+        title="Private Chef Company Dubai | myCHEF"
+        description="Private Chef Company Dubai: myCHEF matches, vets and backs up independent chefs for homes and events. You are not putting a chef on payroll."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
         preloadHero="/images/mychef-dubai-about-team-hero.webp"
@@ -147,9 +147,9 @@ export default function About() {
       <PageHero
         eyebrow="ABOUT MYCHEF"
         title="Private Chef Company Dubai: Hiring a chef is the easy part."
-        subtitle="Private Chef Company Dubai by myCHEF — Keeping the standard, covering the day off, remembering how your household eats — that is the work. This is the team that does it, so you ru"
+        subtitle="myCHEF is a private chef company in Dubai. Independent, licensed chefs cook. We match, vet, back up and review, so you are not putting a chef on payroll. Tell us about the household or the night."
         image="/images/mychef-dubai-about-team-hero.webp"
-        imageAlt="The myCHEF Dubai team — chefs, specialists and household managers — in a Dubai kitchen with the skyline behind them"
+        imageAlt="The myCHEF Dubai team of chefs, specialists and household managers in a Dubai kitchen with the skyline behind them"
         imageWidth={1672}
         imageHeight={941}
         minHeight="full"
@@ -157,7 +157,7 @@ export default function About() {
         align="left"
         titleEmphasis
         imagePosition="center 32%"
-        cta={{ label: 'Get a Tailored Quote', href: '/inquiry' }}
+        cta={{ label: 'Request a quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
       />
@@ -174,12 +174,12 @@ export default function About() {
                 Restaurants have a system behind the chef. Homes usually do not.
               </DisplayHeading>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
-                <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder built myCHEF around a simple idea: the guest should own the evening and none of the work — so we design the experience and choose the talent to bring it to life.</p>
+                <p>myCHEF Dubai was built on one idea: the guest should own the evening and none of the work. In a restaurant a system sits behind the chef. In most homes, the host becomes that system. We designed the company so that does not happen.</p>
                 <p>
-                  The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+                  Independent, licensed culinary partners cook. myCHEF matches the chef, checks identity, cooking and references, holds a Food Profile of how the house eats, and stays the contact when something changes. You are not putting a chef on payroll.
                 </p>
-                <p>Today, myCHEF is a private-dining house. We design the experience end to end and run every part of the evening — from the first idea to the final cleared plate. We choose the chef, shape the menu, choreograph the service, and hold it all to one standard, so you're at the table, not managing it.</p>
-                <p>We serve households across Dubai — from Palm Jumeirah to Emirates Hills, Downtown to Dubai Marina — and every engagement is held to the same standard.</p>
+                <p>One dinner is catering. A chef who comes back is the household service. We send each brief to the product that actually fits it, rather than stretching one booking to cover both.</p>
+                <p>We work across Dubai: Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina and the communities listed below. The standard is the same. The kitchen and the gate are not.</p>
               </div>
             </div>
             <div className="story-right">
@@ -206,7 +206,7 @@ export default function About() {
               <SectionLabel>The standard</SectionLabel>
               <DisplayHeading size="h2" className="text-black">The standard we hold every chef to.</DisplayHeading>
               <BodyCopy muted className="mt-5">
-                Four lines, kept short so they can be used. A chef we put forward is held to all four — and so are we.
+                Four lines, kept short so they can be used. A chef we put forward is held to all four, and so are we.
               </BodyCopy>
             </div>
             <ol className="values-grid border-t border-gray-200">
@@ -230,7 +230,7 @@ export default function About() {
           <div className="text-center mb-12 md:mb-16">
             <SectionLabel align="center" tone="dark">The chefs we choose</SectionLabel>
             <DisplayHeading size="h2" className="text-white mb-4">The chef matters. How we choose one matters more.</DisplayHeading>
-            <BodyCopy tone="dark" className="mx-auto">Behind every myCHEF evening is a chef we selected — vetted for credentials, licensing and food safety before they ever cook for a client. We choose the talent. We hold the standard. The cooking is theirs.</BodyCopy>
+            <BodyCopy tone="dark" className="mx-auto">Behind every myCHEF evening is a chef we selected: identity, licensing and food safety checked before they cook for a client. We choose the talent. We hold the standard. The cooking is theirs.</BodyCopy>
           </div>
           <div className="team-grid grid md:grid-cols-3 gap-8 lg:gap-10">
             {team.map((chef, i) => (
@@ -258,7 +258,7 @@ export default function About() {
               <SectionLabel tone="dark">The split</SectionLabel>
               <DisplayHeading size="h2" className="text-white">The chef cooks. We do the other four jobs.</DisplayHeading>
               <BodyCopy tone="dark" className="mt-5">
-                The chef is an independent partner in your kitchen. myCHEF is the system around them — the part that keeps working on their day off.
+                The chef is an independent partner in your kitchen. myCHEF is the system around them: the part that keeps working on their day off.
               </BodyCopy>
             </div>
             <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8 lg:gap-x-6 border-t border-white/10 pt-8">
@@ -284,7 +284,7 @@ export default function About() {
             <SectionLabel align="center">Where we serve</SectionLabel>
             <DisplayHeading size="h2" className="text-black">Twenty Dubai communities. The same standard in each.</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              Communities with their own page are linked. Not listed? Tell us the address — we serve all of Dubai.
+              Communities with their own page are linked. Not listed? Tell us the address. We serve all of Dubai.
             </BodyCopy>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
@@ -326,10 +326,10 @@ export default function About() {
         <div className="about-cta-content container-custom text-center">
           <DisplayHeading size="h2" className="text-white mb-4">Now tell us about your household.</DisplayHeading>
           <BodyCopy tone="dark" className="mx-auto mb-8">
-            The occasion, the house, or the week you need covered — on WhatsApp, or request a quote. Prices and hours are agreed before any work starts.
+            The occasion, the house, or the week you need covered: on WhatsApp, or request a quote. Prices and hours are agreed before any work starts.
           </BodyCopy>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-black">Request a quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>
           </div>
           <p className="mt-6 font-inter text-body-sm text-gray-500">

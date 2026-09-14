@@ -149,7 +149,7 @@ export default function Press() {
         <div className="press-body container-custom max-w-[1000px]">
           <section className="press-section opacity-0 translate-y-8 mb-16 text-center">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
-              myCHEF Dubai is a premium private chef and luxury catering service creating bespoke dining experiences across Dubai. Use the resources below for features, listings, partnerships, and citations.
+              myCHEF Dubai is a private chef company for homes and a caterer for events. Use the resources below for features, listings, partnerships and citations.
             </p>
           </section>
 

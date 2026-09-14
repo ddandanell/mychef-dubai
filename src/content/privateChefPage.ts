@@ -18,7 +18,7 @@ export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rate, 1)
 export const SEO_TITLE = `Private Chef Dubai | From ${formatAed(ENTRY_MONTHLY)} a Month | myCHEF`
 export const SEO_DESCRIPTION =
   `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${formatAed(ENTRY_MONTHLY)} a month. Matched, managed, and replaced if the fit is wrong.`
-export const H1 = 'Private Chef Dubai — a chef who comes back'
+export const H1 = 'Private Chef Dubai: a chef who comes back'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
 export const HERO_IMAGE_WIDTH = 1280
 export const HERO_IMAGE_HEIGHT = 720

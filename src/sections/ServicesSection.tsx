@@ -11,16 +11,16 @@ const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'A chef for your kitchen',
-    description: 'A vetted chef for one evening, a week, or longer. We learn how you like to eat, design the menu with you, and your chef cooks it fresh in your own kitchen.',
+    description: 'A standing private chef for your home: usually the same person each week, cooking in your kitchen. One dinner is catering, not this plan.',
     link: '/private-chef-dubai',
-    cta: 'See private chef',
+    cta: 'See household chef plans',
   },
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
-    description: 'Plated dinners to full buffets, for events of any size. We design the menu with you, then bring in the chefs and the service staff to cook and run it on the day.',
+    description: 'Food only, or chefs and service staff for the night. We design the menu with you, then cook and run it so you can stay with your guests.',
     link: '/catering-dubai',
-    cta: 'See catering',
+    cta: 'See catering options',
   },
 ]
 
@@ -28,14 +28,14 @@ const builtOnServices: { icon: LucideIcon; title: string; description: string; l
   {
     icon: Wine,
     title: 'Luxury Dining Experiences',
-    description: 'Fine dining at home, dinners for two, milestone celebrations — every course designed with you and cooked in your kitchen by the chef we chose for you.',
+    description: 'Fine dining at home, dinners for two and milestone tables. Courses designed with you and cooked in your kitchen by the chef we match.',
     link: '/luxury-dining-experiences',
-    cta: 'Plan a dinner',
+    cta: 'Plan a private dinner',
   },
   {
     icon: PartyPopper,
     title: 'Events & Celebrations',
-    description: 'Small gatherings to large celebrations — we design the menu, bring the chef, the service staff and the styling, and run the evening so you can host it.',
+    description: 'Small gatherings to large celebrations. We design the menu, bring the chef and service staff, and run the evening so you can host it.',
     link: '/events',
     cta: 'Plan an event',
   },
@@ -49,7 +49,7 @@ const builtOnServices: { icon: LucideIcon; title: string; description: string; l
   {
     icon: House,
     title: 'Villas & Residences',
-    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai — a vetted chef in your kitchen, with the dining designed around how your home runs.',
+    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai. A vetted chef in your kitchen, planned around how the house actually runs.',
     link: '/villas-private-residences',
     cta: 'See villa chefs',
   },
@@ -116,7 +116,7 @@ export default function ServicesSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel tone="dark">Private Chef & Catering</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-white mb-5">
-            myCHEF does two things. A chef for your house, or catering for your event. Both start here.
+            myCHEF Dubai does two things. A chef for your house, or catering for your event. Both start here.
           </h2>
           <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[62ch]">
             Two core services, and four more built on them. Whichever you choose, the same standard of chef and the same person looking after you from your first message to the last plate.

@@ -256,12 +256,12 @@ export default function HowItWorks() {
       {/* Section 6: CTA */}
       <section className="hiw-cta bg-black section-padding">
         <div className="hiw-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>How to Book a Private Chef Dubai: Ready to Begin?</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>How to book a private chef Dubai after you send the brief</h2>
           <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
-            Your bespoke dining experience starts with a single message.
+            Date, guest count and area are enough to start. We reply with a written plan.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>

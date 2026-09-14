@@ -43,31 +43,31 @@ const classFormats = [
   {
     icon: Heart,
     title: 'Couples Date Night',
-    description: 'A romantic, hands-on cooking class followed by a candlelit dinner in your own villa or apartment.',
+    description: 'Cook together, then sit down and eat what you made. For two, at home, when dinner out is the wrong format.',
     link: '/romantic-dinner-dubai',
   },
   {
     icon: Users,
     title: 'Family Masterclass',
-    description: 'Fun, interactive sessions designed for adults and children to cook, learn, and eat together.',
+    description: 'Adults and children cooking the same dishes, with the chef working alongside rather than demonstrating from the pass.',
     link: '/villas-private-residences',
   },
   {
     icon: Building2,
     title: 'Team Building',
-    description: 'Collaborative cooking challenges and culinary competitions for corporate groups across Dubai.',
+    description: 'A team in one kitchen, cooking the same menu. For offices that want an activity that is not another dinner.',
     link: '/corporate',
   },
   {
     icon: ChefHat,
     title: 'Cuisine-Focused Class',
-    description: 'Italian pasta, sushi rolling, Middle Eastern mezze, or pastry workshops tailored to your taste.',
+    description: 'Pasta, sushi, mezze or pastry, confirmed against a chef who actually teaches that subject.',
     link: '/italian-catering-dubai',
   },
   {
     icon: Wine,
     title: 'Chef-Led Dinner Party',
-    description: 'Your chef demonstrates refined techniques while guests relax, sip, and enjoy a full dinner.',
+    description: 'The chef cooks and talks through the plates. Guests eat. That is a dinner with teaching, not a class. Different brief.',
     link: '/private-chef-dubai',
   },
 ]
@@ -76,17 +76,17 @@ const howItWorks = [
   {
     icon: Search,
     title: 'Choose Your Cuisine & Group',
-    description: 'Pick a cuisine, date, and group size — from an intimate couple to a full corporate team.',
+    description: 'Cuisine, date and group size: two people, a family, or a team. The kitchen you have is checked before we confirm.',
   },
   {
     icon: ShoppingBag,
     title: 'Chef Designs the Menu & Shops',
-    description: 'Your private chef creates a bespoke menu and sources premium ingredients for the class.',
+    description: 'The chef writes the dishes for this group and shops for them. You approve the menu before the date.',
   },
   {
     icon: Home,
     title: 'Class at Your Villa or Venue',
-    description: 'We bring everything to your kitchen across Dubai — villa, apartment, or event venue.',
+    description: 'The class happens in your villa, apartment or venue kitchen. Equipment the room lacks is brought in.',
   },
   {
     icon: UtensilsCrossed,
@@ -96,26 +96,26 @@ const howItWorks = [
   {
     icon: Sparkles,
     title: 'Chef Handles Cleanup',
-    description: 'Leave the washing up to us. Your kitchen is left spotless after the experience.',
+    description: 'The kitchen is left as it was found. You sit down and eat.',
   },
 ]
 
 const audienceGroups = [
   {
     title: 'Couples & Anniversary Celebrations',
-    description: 'A private cooking class is a memorable date night or anniversary gift — cook together, then enjoy a romantic dinner without leaving home.',
+    description: 'Cook together, then eat what you made, at home. A different night from a restaurant table for two.',
   },
   {
     title: 'Families & Birthday Experiences',
-    description: 'Celebrate a birthday with a hands-on family cooking class where everyone takes part, from kids to grandparents.',
+    description: 'A family class where children and adults cook the same dishes. Tell us the ages so the session is designed properly.',
   },
   {
     title: 'Corporate Team-Building Groups',
-    description: 'Bring colleagues together with collaborative cooking challenges designed to build communication and morale.',
+    description: 'Colleagues in one kitchen, cooking a shared menu. For teams that do not want another seated dinner.',
   },
   {
     title: 'Food-Loving Residents & Visitors',
-    description: 'Whether you live in Dubai or are visiting, enjoy a chef-led culinary experience in the comfort of your own space.',
+    description: 'Residents and visitors: the class is in your kitchen. The subject is confirmed against a chef who teaches it well.',
   },
   {
     title: 'Booked in someone else’s name',
@@ -124,12 +124,12 @@ const audienceGroups = [
 ]
 
 const includedItems = [
-  { title: 'Private Chef / Instructor', description: 'A professional chef who guides you through every step of the class.' },
-  { title: 'All Ingredients & Recipe Cards', description: 'Premium produce, proteins, and printed recipes to take home.' },
-  { title: 'Aprons & Basic Tools', description: 'Everything you need to cook comfortably and safely.' },
-  { title: 'Specialized Equipment', description: 'Pasta machines, sushi mats, and other tools for advanced techniques.' },
-  { title: 'A Full Sit-Down Meal', description: 'Everything prepared during the class is served and enjoyed together.' },
-  { title: 'Complete Cleanup', description: 'Your chef leaves the kitchen spotless after the experience.' },
+  { title: 'Chef who teaches', description: 'A professional chef working alongside you, not a demonstration from the pass.' },
+  { title: 'Ingredients and recipes', description: 'Shopping for the class, plus printed recipes to take home.' },
+  { title: 'Aprons and tools', description: 'What you need to cook in that kitchen without raiding the drawers.' },
+  { title: 'Specialist kit', description: 'Pasta machines, sushi mats and other tools when the subject needs them.' },
+  { title: 'The meal you made', description: 'You sit down and eat what you cooked. That is part of the booking.' },
+  { title: 'Clear-down', description: 'The kitchen is left as it was found.' },
 ]
 
 const galleryImages = [
@@ -172,7 +172,7 @@ const faqs = [
   },
   {
     q: 'Are cooking classes suitable for beginners?',
-    a: 'Absolutely. Classes are tailored to your skill level, from complete beginners to confident home cooks.',
+    a: 'Yes. The session is written for the group in the room, from first-time cooks to people who already cook at home.',
   },
   {
     q: 'Can we choose the cuisine for the class?',
@@ -191,7 +191,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke private chef dining and full-service chef experiences in your home or villa.',
+    description: 'A chef who comes back to the house, not a one-night class.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
@@ -244,7 +244,7 @@ const breadcrumbSchema = {
 const howToSchema = {
   '@type': 'HowTo',
   name: 'How to Book a Private Cooking Class in Dubai',
-  description: 'A simple 5-step guide to booking and enjoying a bespoke private cooking class with a professional chef in your own Dubai home or venue.',
+  description: 'Five steps: choose the cuisine and group, approve the menu, cook in your kitchen, eat what you made, kitchen left as found.',
   totalTime: 'P1D',
   step: howItWorks.map((step, index) => ({
     '@type': 'HowToStep',
@@ -323,8 +323,8 @@ export default function PrivateCookingClassesDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Cooking Classes Dubai | Chef-Led at Home | myCHEF"
-        description="Private Cooking Classes Dubai — Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke…"
+        title="Private Cooking Classes Dubai | myCHEF"
+        description="Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat. Couples, families and teams. Ingredients, kit and clear-down included. Send the group size and cuisine."
         canonicalPath="/private-cooking-classes-dubai"
         ogImage="/images/private-cooking-classes-dubai-hero.webp"
         hideSiteName
@@ -352,10 +352,10 @@ export default function PrivateCookingClassesDubai() {
             Private Cooking Classes Dubai: Chef-Led Lessons at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pcc-hero-sub">
-            Hands-on cooking classes and chef-led dining experiences for couples, families, teams, and special occasions across Dubai.
+            Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat what you made. Couples, families and teams. Ingredients, kit and clear-down included. Send the group size, cuisine and date.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pcc-hero-cta">Get My Cooking Class Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pcc-hero-cta">Get a cooking class quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -376,19 +376,16 @@ export default function PrivateCookingClassesDubai() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Cook, Learn, Dine</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Turn Your Kitchen Into a Private Culinary School
+            What private cooking classes Dubai include
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A private cooking class is more than a meal — it is an experience. Whether you are planning a unique date night, a family celebration, or a corporate team-building activity, myCHEF Dubai brings a professional chef to your villa, apartment, or venue to teach, guide, and serve. You choose the cuisine, roll up your sleeves, and end the evening around the table enjoying the dishes you created.
+            A private cooking class is not a demonstration. Your group handles the ingredients, makes the mistakes, and eats the result. The chef comes to your villa, apartment or venue, shops for the class, teaches, then clears the kitchen. You choose the cuisine. We match a chef who actually teaches it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            For couples, a dedicated couples cooking class Dubai session turns your kitchen into a private culinary date: hand-rolling pasta or slicing sashimi with your chef before dining together at your own table. Sessions are tailored for all backgrounds, from cooking classes in dubai for beginners learning knife skills to interactive cooking classes in dubai for adults and group cooking classes Dubai teams book for shared celebrations. Every bespoke private cooking class Dubai host books includes fresh ingredients and complete cleanup.
+            Two people, a family, or a team: the kitchen you have and how many people one chef can teach well set the limit. Beginners and confident cooks are both fine, as long as the session is written for that group. Ingredients, recipes and clear-down are part of the booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From <Link to="/italian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Italian cooking classes</Link> to sushi rolling and Middle Eastern mezze, every session is bespoke. Pair it with a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic private dinner</Link>, book it <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">in their name</Link>, or explore our full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for an effortless chef-led evening.
+            Pasta, sushi and mezze are common starting points. Pair a class with a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinner</Link> only if you want two different nights. Book it <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">in their name</Link> if they should still choose the cuisine. A standing household chef is a different product: see <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
           </p>
         </div>
       </section>
@@ -399,7 +396,7 @@ export default function PrivateCookingClassesDubai() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">Cooking Class Formats</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              A Chef Experience for Every Occasion
+              Who the class is for
             </h2>
           </div>
 
@@ -589,13 +586,13 @@ export default function PrivateCookingClassesDubai() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center pcc-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Your Private Cooking Class
+            Send the group size, cuisine and date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your group, preferred cuisine, and occasion. We will design a bespoke chef experience in Dubai around you.
+            Couples, family or a team. Tell us the kitchen and what you want to learn. We match a chef who teaches that subject, then send an itemised proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Cooking Class Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a cooking class quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

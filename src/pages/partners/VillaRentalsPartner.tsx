@@ -11,27 +11,27 @@ export default function VillaRentalsPartner() {
   return (
     <PartnerPageTemplate
       name="Villa Rentals"
-      seoTitle="Villa Rentals Partnership Dubai | Chef"
-      description="Villa Rentals Partnership Dubai — Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa…"
+      seoTitle="Villa Rentals Partnership Dubai | myCHEF"
+      description="Villa rentals partnership Dubai: put a myCHEF team in the villa kitchen for guest breakfasts, dinners and BBQs. You keep the house; we cook and clear down."
       canonicalPath="/partners/villa-rentals-dubai"
       ogImage="/images/villa-catering-dubai-hero.webp"
       headline="Villa Rentals Partnership Dubai"
       eyebrow="FOR VILLA RENTAL COMPANIES"
-      subheadline="Give your guests an unforgettable in-villa dining experience with a private chef and full-service dining coordination."
-      intro="Add a Premium Dining Experience to Every Villa Stay"
-      valueProposition="Dubai’s luxury villa rental guests expect more than a beautiful property — they expect memorable experiences. Partner with myCHEF Dubai to offer bespoke private chef dinners, breakfast hampers, BBQs, and celebration dining directly to your guests, managed end-to-end by our coordination team."
+      subheadline="Villa rentals partnership Dubai: a chef for guest breakfasts, dinners and villa BBQs, booked through you, cooked in the house."
+      intro="Villa rentals partnership Dubai: a chef in the house"
+      valueProposition="Guests in Dubai holiday villas often want dinners without leaving the house. A villa rentals partnership Dubai puts myCHEF on the booking: private chef dinners, breakfasts, BBQs and celebration catering, cooked in the villa kitchen. You keep the property. We match the chef, shop, serve and clear down."
       benefits={[
-        { icon: Home, title: 'In-Villa Private Chef', description: 'A private chef prepares breakfast, lunch, dinner, or events in the villa kitchen, so guests never need to leave the property.' },
-        { icon: TrendingUp, title: 'Higher Booking Value', description: 'Differentiate your listings and increase average booking value with an exclusive dining add-on.' },
-        { icon: Shield, title: 'Trusted & Insured', description: 'All chefs and service staff are vetted, insured, and trained for luxury residential environments.' },
-        { icon: Users, title: 'Dedicated Partner Support', description: 'A single point of contact for bookings, menu planning, and last-minute guest requests.' },
-        { icon: Briefcase, title: 'Commission or Referral Model', description: 'Flexible partnership structures including commission, referral fees, or package bundling.' },
+        { icon: Home, title: 'In-villa private chef', description: 'A private chef prepares breakfast, lunch, dinner or events in the villa kitchen, so guests do not need a restaurant reservation.' },
+        { icon: TrendingUp, title: 'A dining add-on on the listing', description: 'Offer chef dinners as an add-on on the villa booking, with the kitchen work sitting with us.' },
+        { icon: Shield, title: 'Vetted and insured', description: 'Chefs and service staff are vetted, insured and briefed for residential kitchens.' },
+        { icon: Users, title: 'One partner contact', description: 'A single point of contact for bookings, menus and last-minute guest requests.' },
+        { icon: Briefcase, title: 'Commission or referral', description: 'Partnership structures including commission, referral fees or package bundling.' },
       ]}
       howItWorks={[
         'We agree a partnership model that suits your villa rental business and guest profile.',
-        'Your guests browse a curated menu or contact us directly through a dedicated partner channel.',
-        'We handle menu planning, chef allocation, grocery sourcing, and in-villa service.',
-        'You receive regular reporting and a seamless guest experience that reflects well on your brand.',
+        'Your guests browse a menu or contact us through a dedicated partner channel.',
+        'We handle menu planning, chef matching, grocery sourcing and in-villa service.',
+        'You receive reporting on the bookings that ran through the partnership.',
       ]}
       ctaText="Discuss Villa Partnership"
       heroImage="/images/villa-catering-dubai-hero.webp"

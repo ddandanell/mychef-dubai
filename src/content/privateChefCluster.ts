@@ -61,7 +61,7 @@ export const CLUSTER_NAV = [
 ] as const
 
 export const INQUIRY_HREF = '/inquiry'
-export const FIND_CHEF_LABEL = 'Find Your Chef'
+export const FIND_CHEF_LABEL = 'Request a household chef'
 
 /** Structural price examples for the parent, computed by the single pricing engine (src/content/privateChefPricing.ts). */
 const preview = (serviceId: 'fresh-meal' | 'autopilot' | 'full-day', daysPerWeek: number) =>
@@ -238,7 +238,7 @@ export const parentSeo = {
   eyebrow: 'Household chef',
   title: `Private Chef Dubai | From ${fmt(pricingPreview[0].monthly)} a Month | myCHEF`,
   description: `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed, and replaced if the fit is wrong.`,
-  h1: 'Private Chef Dubai — a chef who comes back',
+  h1: 'Private Chef Dubai: a chef who comes back',
   subtitle:
     'A private chef Dubai service means one chef cooking for your family regularly. A personal chef Dubai search is the same job: one named cook, not a new person every week. Usually the same person each week, a written record of how you like to eat, and cover when your chef is away. We find the chef, agree the menu with you, and manage everything after that. If you only want one dinner cooked, that is catering.',
 }

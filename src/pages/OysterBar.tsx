@@ -90,7 +90,7 @@ const config: ServicePageConfig = {
     {
       title: 'Wedding Receptions',
       description:
-        'Create an unforgettable reception moment with a beautifully styled seafood bar during cocktail hour or late evening.',
+        'A seafood bar during cocktail hour or late evening, so guests have something to gather around without leaving the reception.',
     },
     {
       title: 'Corporate Galas & Launches',

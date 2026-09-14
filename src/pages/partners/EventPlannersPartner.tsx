@@ -11,27 +11,27 @@ export default function EventPlannersPartner() {
   return (
     <PartnerPageTemplate
       name="Event Planners"
-      seoTitle="Event Planners Partnership Dubai"
-      description="Event Planners Partnership Dubai — Partner with myCHEF Dubai for reliable, premium catering and private chef services for your events across Dubai."
+      seoTitle="Event Planners Partnership Dubai | myCHEF"
+      description="Event planners partnership Dubai: you plan the event and hold the venue. myCHEF supplies chefs, menus, service staff and clear-down."
       canonicalPath="/partners/event-planners-dubai"
       ogImage="/images/events-catering-dubai-hero.webp"
       headline="Event Planners Partnership Dubai"
       eyebrow="FOR EVENT PLANNING COMPANIES"
-      subheadline="A premium catering partner for weddings, corporate events, private parties, and luxury celebrations."
-      intro="Deliver Flawless Catering for Every Event"
-      valueProposition="Event planners need catering partners they can trust. myCHEF Dubai coordinates bespoke menus, professional chefs, service staff, and full event catering — so you can focus on the experience while the chef team handles the food."
+      subheadline="Event planners partnership Dubai: a catering partner for weddings, corporate events and private parties. You plan the event; we run the kitchen."
+      intro="Event planners partnership Dubai: you keep the brief"
+      valueProposition="Event planners partnership Dubai is a catering relationship, not a second planner. myCHEF writes the menu, matches chefs and service staff, and handles service and cleanup. You keep the client, the venue and the run of show."
       benefits={[
-        { icon: Calendar, title: 'End-to-End Event Catering', description: 'From menu design and tasting to service and cleanup, we manage the culinary side of your events end-to-end.' },
-        { icon: TrendingUp, title: 'Win More Bids', description: 'Offer your clients premium private chef and catering options that elevate your event proposals.' },
-        { icon: Shield, title: 'Reliable Execution', description: 'Vetted chefs, professional staff, and backup plans so every event runs smoothly.' },
-        { icon: Users, title: 'Dedicated Event Support', description: 'A single account manager for quotes, logistics, dietary requirements, and on-the-day coordination.' },
-        { icon: Briefcase, title: 'Revenue Share Options', description: 'Transparent commission or referral arrangements for event planners and agencies.' },
+        { icon: Calendar, title: 'Catering from brief to clear-down', description: 'Menu design, tasting, service and cleanup. We manage the food side of the event, not the whole production.' },
+        { icon: TrendingUp, title: 'A kitchen you can put in the bid', description: 'Offer private chef and catering options on your proposals, with our team named and quoted.' },
+        { icon: Shield, title: 'Named chefs and a backup plan', description: 'Vetted chefs, professional staff, and a backup plan so the kitchen still runs if the named chef cannot work the date.' },
+        { icon: Users, title: 'One account manager', description: 'A single contact for quotes, logistics, dietary requirements and on-the-day kitchen coordination.' },
+        { icon: Briefcase, title: 'Commission or referral', description: 'Written commission or referral arrangements for event planners and agencies.' },
       ]}
       howItWorks={[
-        'Share your event brief, guest count, and culinary requirements with our partner team.',
-        'We provide a tailored proposal with menu options, staffing, and pricing.',
-        'Chefs on our team and our service team execute the catering on the day of the event.',
-        'You receive post-event reporting and partner benefits for future bookings.',
+        'Share the event brief, guest count and food requirements with our partner team.',
+        'We send a proposal with menu options, staffing and pricing.',
+        'Chefs on our team and the service team cook and serve on the day.',
+        'You receive post-event reporting and terms for the next booking.',
       ]}
       ctaText="Discuss Event Partnership"
       heroImage="/images/events-catering-dubai-hero.webp"

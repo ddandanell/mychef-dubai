@@ -199,9 +199,9 @@ export default function BuffetCatering() {
           <BodyCopy>
             The format sits inside{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Luxury catering in Dubai
+              Catering
             </Link>
-            . If the brief is a named night — a wedding, a birthday, a company event — start with{' '}
+            . If the brief is a named night (a wedding, a birthday, a company event), start with{' '}
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Event catering in Dubai
             </Link>

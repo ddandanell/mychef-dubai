@@ -12,7 +12,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'tasting-menu-dubai',
   seoTitle: 'Private Tasting Menu Dubai | myCHEF',
-  metaDescription: 'A private tasting menu in Dubai at your table — courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table.',
+  metaDescription: 'A private tasting menu in Dubai at your table: courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table.',
   canonicalPath: '/tasting-menu-dubai',
   ogImage: '/images/tasting-menu-dubai-hero.webp',
   showTrustSignalStrip: true,
@@ -24,17 +24,17 @@ const config: ServicePageConfig = {
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book a tasting menu or chef's table in Dubai (via mychef.ae/tasting-menu-dubai)",
   eyebrow: 'TASTING MENU & CHEF’S TABLE DUBAI',
-  introH2: 'A private tasting menu Dubai at your table',
+  introH2: 'A private tasting menu Dubai, cooked at your table',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A tasting menu is the most intimate way to experience a chef’s creativity. Private chef’s table and tasting menu experiences on our team bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
+        A private tasting menu Dubai is a set of courses cooked in your kitchen and served at your table. The chef plates each course, says what is in it, and times the next one around the conversation. This is not a restaurant chef’s table, and it is not a wedding catalogue. It works in a Palm Jumeirah villa, a Downtown penthouse, a boardroom or a venue you have already booked.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We begin with a consultation to understand your tastes, any dietary requirements and the tone of the evening. The chef then designs a bespoke menu that can span modern European, Japanese, Mediterranean, Middle Eastern or fusion influences. Wine-pairing-style mocktails, amuse-bouches, palate cleansers and petits fours complete the experience, with service that is attentive but never intrusive.
+        We start with what you like to eat, what you cannot eat, and how formal the evening is. The chef then writes a menu that can draw on modern European, Japanese, Mediterranean or Middle Eastern cooking. Non-alcoholic pairings, small opening bites and a last sweet course can sit around the main run. Service stays in the room without hovering.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This is the chef-led, fine-dining side of our{' '}
@@ -45,7 +45,7 @@ const config: ServicePageConfig = {
         <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
-        options, or add drama with{' '}
+        options, or add{' '}
         <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           live cooking stations
         </Link>{' '}
@@ -53,106 +53,106 @@ const config: ServicePageConfig = {
       </p>
     </>
   ),
-  formatsH2: 'Tasting Menu Formats',
+  formatsH2: 'Tasting menu formats',
   formats: [
     {
       Icon: Star,
-      title: 'Multi-Course Tasting Menus',
-      description: 'Six to twelve curated courses served at your table, with chef introductions and refined plating throughout the evening.',
+      title: 'Multi-course tasting menus',
+      description: 'Six to twelve courses at your table, with chef introductions and plating through the evening.',
       link: '/luxury-dining-experiences',
     },
     {
       Icon: ChefHat,
-      title: 'Interactive Chef’s Table',
+      title: 'Interactive chef’s table',
       description: 'Guests sit around the cooking or plating space and watch the chef build each course in real time.',
       link: '/luxury-dining-experiences',
     },
     {
       Icon: Home,
-      title: 'Villa & Residence Tastings',
-      description: 'An intimate tasting menu experience in your home or villa across Emirates Hills, Palm Jumeirah and Dubai Hills.',
+      title: 'Villa and residence tastings',
+      description: 'A tasting menu in your home or villa in Emirates Hills, Palm Jumeirah or Dubai Hills.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
-      title: 'Corporate Chef’s Table',
-      description: 'Impress clients and leadership with a private tasting menu in a boardroom or curated corporate venue.',
+      title: 'Corporate chef’s table',
+      description: 'A tasting menu in a boardroom or a venue you have booked, for clients or leadership.',
       link: '/corporate-event-catering-dubai',
     },
     {
       Icon: PartyPopper,
-      title: 'Celebration Tasting Dinners',
-      description: 'Birthdays, anniversaries and milestones turned into memorable culinary journeys for small groups.',
+      title: 'Celebration tasting dinners',
+      description: 'Birthdays, anniversaries and small milestones as a seated tasting menu, not a buffet.',
       link: '/private-chef-dubai',
     },
     {
       Icon: Users,
-      title: 'Group Tasting Experiences',
-      description: 'Scaled tasting menus for slightly larger groups while keeping the personal, chef-led feel intact.',
+      title: 'Group tasting menus',
+      description: 'A tasting-menu format for a larger table, with extra chefs and service staff when the headcount needs it.',
       link: '/catering-packages-dubai',
     },
   ],
-  useCasesEyebrow: 'WHERE TASTING MENUS WORK BEST',
-  useCasesH2: 'Designed for Special Occasions',
+  useCasesEyebrow: 'WHERE A TASTING MENU FITS',
+  useCasesH2: 'When a tasting menu is the right format',
   useCases: [
     {
-      title: 'Intimate Anniversary Dinners',
+      title: 'Anniversary dinners at home',
       description:
-        'Mark a milestone with a private tasting menu where every course reflects a favourite flavour or shared memory, served at your own table.',
+        'A private tasting menu where courses can follow a favourite flavour or a shared memory, served at your own table.',
     },
     {
-      title: 'Client & Executive Hospitality',
+      title: 'Client and leadership dinners',
       description:
-        'A chef’s table creates a talking point and a sense of exclusivity for high-value client dinners, board retreats and leadership evenings.',
+        'A chef’s table gives the evening a clear shape: courses, introductions and a table that stays together, without booking a restaurant.',
     },
     {
-      title: 'Milestone Celebrations',
+      title: 'Small milestone tables',
       description:
-        'Birthdays, engagements and family reunions become truly memorable when the meal is the entertainment and the chef is part of the evening.',
+        'Birthdays, engagements and family reunions for a small group, where the meal is plated and paced rather than laid out as a buffet.',
     },
     {
-      title: 'Culinary Exploration at Home',
+      title: 'Trying a cuisine at home',
       description:
-        'For food-loving hosts who want to try new cuisines and techniques without leaving home, a tasting menu is the ultimate private restaurant experience.',
+        'For hosts who want a set of courses they would not cook themselves, without leaving the house or booking a chef’s table in a restaurant.',
     },
   ],
-  includedH2: "What's Included in Our Tasting Menu Experience",
+  includedH2: 'What a tasting menu booking includes',
   includedItems: [
-    { title: 'Bespoke Menu Design', description: 'A personalised tasting menu created after a detailed consultation with the chef.' },
-    { title: 'Premium Ingredients', description: 'Seasonal produce, quality proteins and speciality ingredients chosen for each course.' },
-    { title: 'Private Chef & Team', description: 'A dedicated partner chef and service staff focused entirely on your table for the evening.' },
-    { title: 'Course Introductions', description: 'Each course presented with context, ingredients and inspiration for a richer experience.' },
-    { title: 'Mocktail & Beverage Pairing', description: 'Non-alcoholic pairings, juices and tonics selected to complement the menu.' },
-    { title: 'Table Styling & Plating', description: 'Restaurant-quality crockery, glassware and presentation arranged to suit the setting.' },
-    { title: 'Dietary Adaptation', description: 'Vegetarian, vegan, halal, gluten-free and allergy-conscious courses available on request.' },
-    { title: 'Full Setup & Pack-Down', description: 'We bring equipment, prep, serve and clear away so you only need to enjoy the evening.' },
+    { title: 'Menu written for the table', description: 'A tasting menu drafted after a consultation with the chef, then revised before the night.' },
+    { title: 'Ingredients for each course', description: 'Seasonal produce, proteins and speciality items chosen for the run of dishes.' },
+    { title: 'Private chef and team', description: 'A partner chef and service staff focused on your table for the evening.' },
+    { title: 'Course introductions', description: 'Each course presented with what is in it and why it is on the menu.' },
+    { title: 'Mocktail and beverage pairing', description: 'Non-alcoholic pairings, juices and tonics chosen against the menu.' },
+    { title: 'Table styling and plating', description: 'Crockery, glassware and presentation arranged to suit the room you have.' },
+    { title: 'Dietary adaptation', description: 'Vegetarian, vegan, halal, gluten-free and allergy-conscious courses available on request.' },
+    { title: 'Setup and pack-down', description: 'We bring equipment, prep, serve and clear away. You stay at the table.' },
   ],
-  galleryH2: 'A Taste of Our Tasting Menu Experiences',
+  galleryH2: 'From the table',
   galleryImages: [
-    { src: '/images/tasting-menu-dubai-hero.webp', alt: 'Private tasting menu experience in Dubai' },
-    { src: '/menu-appetizer.webp', alt: 'Artistic appetiser course from a tasting menu' },
+    { src: '/images/tasting-menu-dubai-hero.webp', alt: 'Private tasting menu in a Dubai dining room' },
+    { src: '/menu-appetizer.webp', alt: 'Appetiser course from a tasting menu' },
     { src: '/menu-meat.webp', alt: 'Plated main course at a chef’s table dinner' },
-    { src: '/menu-dessert.webp', alt: 'Refined dessert course for a private tasting menu' },
-    { src: '/service-luxury-dining.webp', alt: 'Luxury private dining service in Dubai' },
+    { src: '/menu-dessert.webp', alt: 'Dessert course for a private tasting menu' },
+    { src: '/service-luxury-dining.webp', alt: 'Private dining service in Dubai' },
     { src: '/service-villa.webp', alt: 'Villa tasting dinner setting' },
   ],
-  faqsH2: 'Private Chef Tasting Menu Dubai: the questions we get before a booking',
+  faqsH2: 'The questions we get before a tasting menu booking',
   faqs: [
     {
       q: 'How many courses are in a typical tasting menu?',
-      a: 'Most private tasting menus range from five to ten courses, depending on the occasion, appetite and time available. We design the pacing around your evening so it never feels rushed.',
+      a: 'Most private tasting menus range from five to ten courses, depending on the occasion, appetite and time available. We set the pacing around your evening so courses do not stack.',
     },
     {
       q: 'Can the menu be customised to my preferences?',
-      a: 'Yes. Every tasting menu is bespoke. We discuss your favourite cuisines, ingredients, dislikes and any dietary requirements before the chef finalises the courses.',
+      a: 'Yes. Every tasting menu is written for the table. We discuss your favourite cuisines, ingredients, dislikes and any dietary requirements before the chef finalises the courses.',
     },
     {
       q: 'Where can a chef’s table take place?',
-      a: 'We host chef’s tables and tasting menus in private villas, apartments, penthouses, corporate boardrooms and selected venues across Dubai. A suitable kitchen or prep space is helpful but not essential.',
+      a: 'We cook tasting menus in private villas, apartments, penthouses, corporate boardrooms and venues you have booked across Dubai. A usable kitchen or prep space helps. It is not always essential.',
     },
     {
       q: 'How many guests can a chef’s table accommodate?',
-      a: 'Chef’s tables are ideal for 2 to 16 guests. Larger groups can still enjoy a tasting-menu format with additional chefs and service staff, though the experience becomes more event-style than intimate.',
+      a: 'Chef’s tables work well for 2 to 16 guests. Larger groups can still use a tasting-menu format with extra chefs and service staff. At that size it reads more like an event than a small table.',
     },
     {
       q: 'Do you provide drinks pairing?',
@@ -160,7 +160,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How far in advance should I book a tasting menu?',
-      a: 'Two to four weeks is ideal, especially for complex menus or peak-season dates. Last-minute bookings are sometimes possible — contact us on WhatsApp to check chef availability.',
+      a: 'Two to four weeks is ideal, especially for complex menus or peak-season dates. Last-minute bookings are sometimes possible. Contact us on WhatsApp to check chef availability.',
     },
   {
     q: 'How is the private chef set menu Dubai put together?',
@@ -170,26 +170,26 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Luxury Dining Experiences',
-      description: 'Private chef-led fine dining in your home, villa or chosen venue across Dubai.',
+      description: 'Chef-led dinners in your home, villa or a venue you have booked across Dubai.',
       image: '/service-luxury-dining.webp',
       link: '/luxury-dining-experiences',
     },
     {
       title: 'Live Cooking Stations',
-      description: 'Interactive stations that add theatre and energy to larger private events.',
+      description: 'Stations cooked in front of guests, used when a tasting menu is not the right format for the room.',
       image: '/service-events.webp',
       link: '/live-cooking-stations-dubai',
     },
     {
       title: 'Private Dining Dubai',
-      description: 'Bespoke private dinners and intimate celebrations designed around your occasion.',
+      description: 'Household chef service for standing plans. One dinner is catering; we send that brief there.',
       image: '/service-villa.webp',
       link: '/private-chef-dubai',
     },
   ],
-  ctaH2: 'Design a Tasting Menu Your Guests Will Never Forget',
+  ctaH2: 'Send the date, the headcount and how you eat',
   ctaP:
-    'Tell us about your occasion, guest count and culinary preferences. We will create a chef’s table or tasting menu experience in Dubai that feels personal, polished and completely unforgettable.',
+    'Tell us the occasion, guest count and what you like to eat. We will send a tasting-menu or chef’s table plan for your kitchen in Dubai, with the chef named and the quote itemised.',
 }
 
 export default function TastingMenu() {

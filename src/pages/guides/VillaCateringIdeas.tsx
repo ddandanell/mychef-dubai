@@ -269,7 +269,7 @@ export default function VillaCateringIdeas() {
             Villa Catering Ideas Dubai Homes and Residences
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 villa-hero-sub">
-            Menu formats, setup tips, and staffing guidance for unforgettable villa parties across Dubai, from poolside BBQs to elegant seated dinners.
+            Menu formats, setup tips and staffing guidance for villa parties across Dubai, from poolside BBQs to seated dinners.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 villa-hero-cta">Get My Custom Quote</Link>

@@ -28,21 +28,21 @@ const partnerCategories = [
     id: 'yachts',
     title: 'Yachts',
     icon: Anchor,
-    description: 'Set sail with a private chef on board. We work with leading yacht charter companies in Dubai to deliver refined dining at sea.',
+    description: 'A private chef on a yacht you have chartered. We work with charter companies in Dubai on dining at sea. We do not operate the yacht.',
     partners: [
       {
         name: 'Xclusive Yachts',
-        description: 'A well-known private yacht charter fleet, offering luxury vessels for intimate dinners and celebrations on the water.',
+        description: 'A private yacht charter fleet used for dinners and celebrations on the water.',
         location: 'Dubai Marina',
       },
       {
         name: 'Royal Yachts',
-        description: 'Ultra-luxury superyacht charters with premium catering and event-hosting capabilities across the Arabian Gulf.',
+        description: 'Superyacht charters where we can cook and serve, if the operator allows outside catering.',
         location: 'Palm Jumeirah',
       },
       {
         name: 'Mala Yachts',
-        description: 'Elegant yacht experiences with panoramic Dubai skyline views, ideal for private parties and corporate events.',
+        description: 'Yacht charters with Dubai skyline views, used for private parties and corporate events.',
         location: 'Dubai Marina',
       },
     ],
@@ -51,21 +51,21 @@ const partnerCategories = [
     id: 'villas',
     title: 'Villas & Residences',
     icon: Building2,
-    description: 'From beachfront estates to hillside retreats, our villa partners provide the perfect backdrop for bespoke private dining.',
+    description: 'Beachfront houses and hillside villas used as the dining room. You or the rental manager hold the property. We bring the kitchen team.',
     partners: [
       {
         name: 'Emirates Hills Villa Management',
-        description: 'Exclusive collection of high-end villas and estates in Dubai’s most prestigious residential community.',
+        description: 'Villas and estates in Emirates Hills used for private dinners and celebrations.',
         location: 'Emirates Hills',
       },
       {
         name: 'Palm Jumeirah Residences',
-        description: 'Luxury waterfront homes and penthouses with private pools, gardens, and stunning sea views.',
+        description: 'Waterfront homes and penthouses with private pools and gardens, used as the dining room.',
         location: 'Palm Jumeirah',
       },
       {
         name: 'Jumeirah Luxury Villas',
-        description: 'Boutique selection of designer villas ideal for intimate dinners, family celebrations, and VIP gatherings.',
+        description: 'Villas in Jumeirah used for dinners, family celebrations and small guest lists.',
         location: 'Jumeirah',
       },
     ],
@@ -74,26 +74,26 @@ const partnerCategories = [
     id: 'hotels',
     title: 'Hotels & Event Spaces',
     icon: Hotel,
-    description: 'Iconic hotels and unique event venues where our catering teams deliver refined cuisine and impeccable service.',
+    description: 'Hotels and event spaces where outside catering is allowed, or where we can be put on an approved list.',
     partners: [
       {
         name: 'One&Only The Palm',
-        description: 'An intimate beachfront resort on Palm Jumeirah, renowned for elegant private events and exceptional service.',
+        description: 'A beachfront resort on Palm Jumeirah, used for private events when the venue allows outside catering.',
         location: 'Palm Jumeirah',
       },
       {
         name: 'Armani Hotel Dubai',
-        description: 'Sophisticated events in the heart of Downtown Dubai, with sleek interiors and attentive hospitality.',
+        description: 'Event spaces in Downtown Dubai, used when the hotel permits an outside catering team.',
         location: 'Burj Khalifa, Downtown Dubai',
       },
       {
         name: 'Dubai Opera',
-        description: 'A stunning performing arts venue with versatile spaces for gala dinners, receptions, and corporate events.',
+        description: 'A performing arts venue with spaces used for gala dinners, receptions and corporate events.',
         location: 'Downtown Dubai',
       },
       {
         name: 'Museum of the Future',
-        description: 'One of the world’s most iconic landmarks, offering futuristic spaces for launches, dinners, and private tours.',
+        description: 'A venue on Sheikh Zayed Road used for launches, dinners and private tours, subject to the operator’s catering rules.',
         location: 'Sheikh Zayed Road',
       },
     ],
@@ -102,21 +102,21 @@ const partnerCategories = [
     id: 'corporate',
     title: 'Corporate Venues',
     icon: Briefcase,
-    description: 'Professional spaces for meetings, conferences, and corporate entertaining — all supported by tailored catering solutions.',
+    description: 'Meeting rooms, conference centres and offices. We cater. The venue is the client’s.',
     partners: [
       {
         name: 'Dubai World Trade Centre',
-        description: 'The region’s leading exhibition and conference venue, hosting large-scale corporate events and galas.',
+        description: 'Exhibition and conference spaces used for large corporate events and galas.',
         location: 'Trade Centre',
       },
       {
         name: 'DIFC Conference Centre',
-        description: 'Premium business venue in Dubai’s financial district, ideal for board lunches, seminars, and networking events.',
+        description: 'A business venue in DIFC used for board lunches, seminars and networking.',
         location: 'Dubai International Financial Centre',
       },
       {
         name: 'Emirates Towers Business Centre',
-        description: 'Landmark business address offering refined event spaces and executive dining facilities.',
+        description: 'Event spaces and executive dining rooms at a business address on Sheikh Zayed Road.',
         location: 'Sheikh Zayed Road',
       },
     ],
@@ -198,7 +198,7 @@ export default function VenuePartners() {
     <>
       <SEO
         title="Preferred Caterer Dubai | Venue Partners | myCHEF"
-        description="Preferred Caterer Dubai — Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event…"
+        description="Preferred Caterer Dubai: myCHEF cooks at yachts, villas, hotels and event spaces you have booked. Menus, service and clear-down. The venue stays yours."
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"
         schema={schema as Record<string, unknown>}
@@ -207,12 +207,12 @@ export default function VenuePartners() {
       <PageHero
         eyebrow="PARTNER NETWORK"
         title="Preferred Caterer Dubai: Venue Partners"
-        subtitle="Preferred Caterer Dubai by myCHEF — Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
+        subtitle="Preferred Caterer Dubai means we cook at a venue you already have. Yacht charters, villas, hotels and event spaces. The venue stays yours; we bring the kitchen team."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"
         overlay="dark"
         image="/images/locations-dubai-hero.webp"
-        imageAlt="Trusted venue partners for luxury catering dubai"
+        imageAlt="Venue dining room in Dubai where myCHEF caters"
       />
 
       <TrustSignalStrip />
@@ -222,29 +222,29 @@ export default function VenuePartners() {
         <div className="container-custom max-w-4xl">
           <div className="text-center mb-16">
             <span className="reveal font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              WHY PARTNER WITH MYCHEF
+              WHAT A PREFERRED CATERER DOES
             </span>
             <h2 className="reveal font-playfair text-h2 text-white mb-6">
-              Preferred Caterer Dubai: Preferred Catering Partners for Distinguished Dubai Venues
+              Preferred Caterer Dubai: we cook at your venue
             </h2>
             <p className="reveal font-inter text-body text-gray-400">
-              Our venue partner program brings together the best locations in Dubai with bespoke culinary
-              experiences. Whether you are a yacht charter, a luxury villa manager, a hotel events team, or a
-              corporate venue, we bring you a vetted chef you engage and catering services that elevate every guest
-              experience.
+              A preferred caterer agreement puts myCHEF on a venue’s approved list, or lets a host bring us in where
+              outside catering is allowed. We supply the chef, the menu and the service team. Yacht charters, villa
+              managers, hotel events teams and corporate venues use this when they need a kitchen they did not have
+              to staff themselves.
             </p>
             <p className="reveal font-inter text-body-sm text-gray-500 mt-4">
               We are an independent private chef and catering service. Venue names shown are examples of
-              distinguished Dubai locations where we regularly provide service; they do not imply an official
+              Dubai locations where we regularly provide service; they do not imply an official
               partnership unless explicitly agreed in writing.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { title: 'Seamless Coordination', text: 'We work directly with venue teams on logistics, timings, and service flow.' },
-              { title: 'Bespoke Menus', text: 'Every menu is tailored to the venue, the occasion, and the guest profile.' },
-              { title: 'Premium Presentation', text: 'Styling and service standards that match the prestige of your location.' },
+              { title: 'Logistics with the venue team', text: 'We work with venue teams on access, timings and service flow.' },
+              { title: 'Menus written for the room', text: 'The menu follows the venue, the occasion and who is eating.' },
+              { title: 'Service that matches the room', text: 'Styling and service planned against the space you already have.' },
             ].map((item) => (
               <div key={item.title} className="reveal p-6 border border-gold/20">
                 <h4 className="font-playfair text-h4 text-gold mb-3">{item.title}</h4>
@@ -317,11 +317,11 @@ export default function VenuePartners() {
           <div className="cta-content">
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Want to Become a<br />
-              <span className="text-gold">myCHEF Venue Partner?</span>
+              Want your venue on an<br />
+              <span className="text-gold">approved caterer list?</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Joon our team of leading Dubai venues and offer your guests an unforgettable private chef experience.
+              Talk to us about a preferred caterer programme. Your guests get a chef and a service team. You keep the venue.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
