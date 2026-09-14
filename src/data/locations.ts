@@ -322,7 +322,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Service and clear-down',
           description:
-            'We serve to your clock and restore the space before the building's next slot.',
+            'We serve to your clock and restore the space before the building\'s next slot.',
         },
       ],
     },
@@ -549,7 +549,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Island gates, parking and beach setups',
       paragraphs: [
-        'Palm entry is controlled. We confirm names, vehicle details and the villa's preferred gate before the day. Beach service only where the house and the rules allow it. We bring what the kitchen does not have rather than assuming a hotel store cupboard.',
+        'Palm entry is controlled. We confirm names, vehicle details and the villa\'s preferred gate before the day. Beach service only where the house and the rules allow it. We bring what the kitchen does not have rather than assuming a hotel store cupboard.',
       ],
     },
     nearbyLocations: [
@@ -647,7 +647,7 @@ const allLocations: LocationData[] = [
         'One night: chef, service staff as needed, setup and clear-down',
         'Garden, poolside or indoor setup as the plot allows',
         'Ingredient sourcing; groceries at receipt cost when we shop',
-        'Family and children's plates when the brief asks for them',
+        'Family and children\'s plates when the brief asks for them',
         'Halal sourcing as the default unless you ask otherwise',
         'Kitchen and garden reset',
       ],
@@ -721,17 +721,17 @@ const allLocations: LocationData[] = [
         {
           title: 'Family weekend lunch',
           description:
-            'Sharing food, children's plates, and a kitchen that is reset before Monday.',
+            'Sharing food, children\'s plates, and a kitchen that is reset before Monday.',
         },
         {
-          title: 'Children's birthday at home',
+          title: 'Children\'s birthday at home',
           description:
             'One-night catering in the villa, not a restaurant party room.',
         },
         {
           title: 'Standing household chef',
           description:
-            'The same chef back each week, with the house's timing already written down.',
+            'The same chef back each week, with the house\'s timing already written down.',
         },
       ],
     },
@@ -784,7 +784,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you cook for children as well as adults?',
-        a: 'Yes, when the brief says so. Children's plates are planned, not an afterthought from the adult menu.',
+        a: 'Yes, when the brief says so. Children\'s plates are planned, not an afterthought from the adult menu.',
       },
       {
         q: 'Is cleanup included?',
@@ -974,7 +974,7 @@ const allLocations: LocationData[] = [
         a: 'Yes. The apartment kitchen is reset before we leave.',
       },
       {
-        q: 'Can you handle a children's birthday in the building?',
+        q: 'Can you handle a children\'s birthday in the building?',
         a: 'Yes, as one-night catering, with the menu and timing written for the age mix.',
       },
       {
@@ -1477,14 +1477,14 @@ const allLocations: LocationData[] = [
         {
           title: 'Standing household chef',
           description:
-            'The same chef back each week. Golf-club events are only with the club's approval. We do not own the club.',
+            'The same chef back each week. Golf-club events are only with the club\'s approval. We do not own the club.',
         },
       ],
     },
     logistics: {
       title: 'Gated entry, named vehicles, quiet exits',
       paragraphs: [
-        'Emirates Hills is gated. We arrange passes in advance, arrive at the agreed time and follow the villa's preferred route. We bring what we need and we take it away. Privacy is the method, not a claim that the community is closed to everyone else.',
+        'Emirates Hills is gated. We arrange passes in advance, arrive at the agreed time and follow the villa\'s preferred route. We bring what we need and we take it away. Privacy is the method, not a claim that the community is closed to everyone else.',
       ],
     },
     nearbyLocations: [
@@ -1534,7 +1534,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you cater at the golf club?',
-        a: 'Only with the club's approval. We do not own the club and we do not treat it as our venue.',
+        a: 'Only with the club\'s approval. We do not own the club and we do not treat it as our venue.',
       },
       {
         q: 'How fast is a reply?',
@@ -1581,7 +1581,7 @@ const allLocations: LocationData[] = [
         'One night: chef, service staff as needed, setup and clear-down',
         'Community gate coordination',
         'Outdoor equipment and surface protection for garden service',
-        'Children's plates when the brief asks for them',
+        'Children\'s plates when the brief asks for them',
         'Ingredient sourcing; groceries at receipt cost when we shop',
         'Kitchen and garden reset',
       ],
@@ -1589,7 +1589,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a garden, a grill and a family table',
       paragraphs: [
-        'Sharing food, grills, and a seated dinner all work if the garden power and the guest mix agree. We plan children's plates with the adult menu, not after it.',
+        'Sharing food, grills, and a seated dinner all work if the garden power and the guest mix agree. We plan children\'s plates with the adult menu, not after it.',
       ],
       cuisines: [
         'Mediterranean',
@@ -1653,7 +1653,7 @@ const allLocations: LocationData[] = [
             'A grill in the garden, with surfaces protected and the kit taken away after.',
         },
         {
-          title: 'Children's birthday',
+          title: 'Children\'s birthday',
           description:
             'One-night catering with timing that fits younger guests.',
         },
@@ -1757,7 +1757,7 @@ const allLocations: LocationData[] = [
     targetAudience: {
       title: 'Families who moved here for space, and still host at home',
       paragraphs: [
-        'Households in Sidra, Maple and the other villa clusters, townhouses, and apartments in buildings such as Park Ridge. Birthdays, brunches and the occasional golf-day lunch, the last only with the club's approval.',
+        'Households in Sidra, Maple and the other villa clusters, townhouses, and apartments in buildings such as Park Ridge. Birthdays, brunches and the occasional golf-day lunch, the last only with the club\'s approval.',
       ],
     },
     serviceInclusions: {
@@ -1768,7 +1768,7 @@ const allLocations: LocationData[] = [
         'One night: chef, service staff as needed, setup and clear-down',
         'The right community gate and parking plan',
         'Garden or terrace equipment when quoted',
-        'Children's plates when the brief asks for them',
+        'Children\'s plates when the brief asks for them',
         'Ingredient sourcing; groceries at receipt cost when we shop',
         'Kitchen and outdoor areas reset',
       ],
@@ -1837,12 +1837,12 @@ const allLocations: LocationData[] = [
         {
           title: 'Villa garden birthday',
           description:
-            'One-night catering in the garden, with children's timing when needed.',
+            'One-night catering in the garden, with children\'s timing when needed.',
         },
         {
           title: 'Golf-day lunch',
           description:
-            'Only with the club's approval, or at a private house nearby. We do not own the club.',
+            'Only with the club\'s approval, or at a private house nearby. We do not own the club.',
         },
         {
           title: 'Weekend brunch at home',
@@ -1892,7 +1892,7 @@ const allLocations: LocationData[] = [
     faqs: [
       {
         q: 'Do you cook at Dubai Hills Golf Club?',
-        a: 'Only with the club's approval. We do not own the club. Many golf-day tables are simply hosted at a nearby villa.',
+        a: 'Only with the club\'s approval. We do not own the club. Many golf-day tables are simply hosted at a nearby villa.',
       },
       {
         q: 'Can you serve villa gardens in Sidra or Maple?',
@@ -1955,7 +1955,7 @@ const allLocations: LocationData[] = [
         'One night: chef, service staff as needed, setup and clear-down',
         'Portable equipment when the apartment kitchen is thin',
         'Community gate coordination',
-        'Children's plates when the brief asks for them',
+        'Children\'s plates when the brief asks for them',
         'Ingredient sourcing; groceries at receipt cost when we shop',
         'Kitchen reset',
       ],
@@ -2022,7 +2022,7 @@ const allLocations: LocationData[] = [
       title: 'What JVC actually books',
       cases: [
         {
-          title: 'Children's birthday at home',
+          title: 'Children\'s birthday at home',
           description:
             'One-night catering scaled to an apartment or townhouse, not a hotel ballroom.',
         },
@@ -2220,7 +2220,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Team celebration in the tower',
           description:
-            'One-night catering in the office, cleared before the building's next slot.',
+            'One-night catering in the office, cleared before the building\'s next slot.',
         },
         {
           title: 'Standing household chef',
@@ -2515,7 +2515,7 @@ const allLocations: LocationData[] = [
         'One night: chef, service staff as needed, setup and clear-down',
         'Garden, poolside or indoor setup as the plot allows',
         'Outdoor kit that can handle wind and sand',
-        'Family and children's plates when the brief asks for them',
+        'Family and children\'s plates when the brief asks for them',
         'Ingredient sourcing; groceries at receipt cost when we shop',
         'Kitchen and outdoor areas reset',
       ],
