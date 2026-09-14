@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-13 20:51",
+ "generated": "2026-09-14 11:41",
  "intro": "Every applied change, with the days before it and the days after. A verdict is only written once the window closes, and never turns into an automatic revert — a drop opens a watch proposal for a person.",
  "counts": {
-  "too_soon": 11,
+  "too_soon": 12,
   "lift": 3,
   "confounded": 55
  },
  "tiles": [
   {
-   "value": "69",
+   "value": "70",
    "label": "Experiments recorded"
   },
   {
-   "value": "11",
+   "value": "12",
    "label": "Waiting on their window"
   },
   {
@@ -41,6 +41,41 @@
  },
  "items": [
   {
+   "id": 70,
+   "batch_id": "snippet-2026-09-14-corporate",
+   "url": "/corporate",
+   "keywords": [
+    "corporate catering dubai"
+   ],
+   "applied_at": "2026-09-14T03:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-29",
+   "days_to_go": 15,
+   "parts": [
+    "title"
+   ],
+   "edits": 1,
+   "baseline": {
+    "to": "2026-09-13",
+    "from": "2026-08-31",
+    "edits": 1,
+    "parts": [
+     "title"
+    ],
+    "gsc_pos": 33.1,
+    "gsc_impr": 1537,
+    "sessions": 24,
+    "wa_clicks": 1,
+    "gsc_clicks": 2,
+    "days_with_data": 14
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
    "id": 69,
    "batch_id": "queue-apply-2026-09-11",
    "url": "/cocktail-party-catering-dubai",
@@ -50,7 +85,7 @@
    "applied_at": "2026-09-11T12:58+00:00",
    "window_days": 14,
    "closes_on": "2026-09-26",
-   "days_to_go": 13,
+   "days_to_go": 12,
    "parts": [
     "title"
    ],
@@ -85,7 +120,7 @@
    "applied_at": "2026-09-11T12:58+00:00",
    "window_days": 14,
    "closes_on": "2026-09-26",
-   "days_to_go": 13,
+   "days_to_go": 12,
    "parts": [
     "title"
    ],
@@ -125,7 +160,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -167,7 +202,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -209,7 +244,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -251,7 +286,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -293,7 +328,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -335,7 +370,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -377,7 +412,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -419,7 +454,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
@@ -458,7 +493,7 @@
    "applied_at": "2026-09-08T14:23+00:00",
    "window_days": 14,
    "closes_on": "2026-09-23",
-   "days_to_go": 10,
+   "days_to_go": 9,
    "parts": [
     "body",
     "title"
