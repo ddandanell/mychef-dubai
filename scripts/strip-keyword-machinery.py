@@ -17,6 +17,18 @@ INFLUENCER_REPLACEMENT = (
     "Partnerships are scoped around the shoot or post, not a shop price list. "
     "Tell us the date, the format and what you need on camera. We match a chef and send a written plan."
 )
+HOUSEHOLD_REPLACEMENT = (
+    "The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. "
+    "We start from a standing plan and shape it around the household. "
+    "What to check: the named chef, an itemised figure, and who buys the ingredients. "
+    "Dietary notes go into the first draft week."
+)
+HOUSEHOLD_MARKERS = (
+    "depends on the household",
+    "depend on the household",
+    "standing weekly format",
+    "how many people eat at home",
+)
 FAQ_FALLBACK = (
     "Send the date, guest count and area. We match a chef, send a menu draft, "
     "and quote food, staff and 5% VAT on separate lines."
@@ -39,12 +51,12 @@ TAIL_RES = [
     re.compile(r"Yes — same service as [^.]{3,120} under another name\. "),
 ]
 
-STUFF_CHUNK = re.compile(
-    r"[A-Z][^\n<\"]*depend on the same three things:[^\n<\"]+"
-)
+# Any customer-facing run of optimizer template sentences (plural or singular).
+STUFF_CHUNK = re.compile(r"[A-Z][^\n<\"]{40,}")
 
 TEMPLATE_NEEDLES = (
     "depend on the same three things",
+    "depends on the same three things",
     "start from a set format and get adjusted",
     "get adjusted to your date rather than sold as a fixed box",
     "get shaped around the household rather than sold as a fixed box",
@@ -61,7 +73,11 @@ TEMPLATE_NEEDLES = (
     "planned around the week rather than a single evening",
     "run in your own kitchen, on the days you choose",
     "depend on the household: how many people eat at home",
+    "depends on the household: how many people eat at home",
     "start from a standing weekly format",
+    "starts from a standing weekly format",
+    "two to three weeks is comfortable, and december, ramadan and new year fill earlier",
+    "planned around what your household actually eats",
 )
 
 SKIP_PARTS = {".git", "node_modules", "dist", "build"}
@@ -88,10 +104,19 @@ def destuff_chunk(text: str, replacement: str) -> str:
 
 
 def clean(text: str, influencer: bool) -> str:
-    replacement = INFLUENCER_REPLACEMENT if influencer else STUFF_REPLACEMENT
+    def pick_replacement(chunk: str) -> str:
+        if influencer:
+            return INFLUENCER_REPLACEMENT
+        low = chunk.lower()
+        if any(n in low for n in HOUSEHOLD_MARKERS):
+            return HOUSEHOLD_REPLACEMENT
+        return STUFF_REPLACEMENT
 
     def stuff_sub(m: re.Match[str]) -> str:
-        return destuff_chunk(m.group(0), replacement)
+        chunk = m.group(0)
+        if not any(n in chunk.lower() for n in TEMPLATE_NEEDLES):
+            return chunk
+        return destuff_chunk(chunk, pick_replacement(chunk))
 
     out = STUFF_CHUNK.sub(stuff_sub, text)
     for rx in TAIL_RES:

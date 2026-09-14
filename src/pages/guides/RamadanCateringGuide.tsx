@@ -283,7 +283,7 @@ export default function RamadanCateringGuide() {
             Ramadan is the most meaningful month of the year in Dubai, and the gatherings that mark it deserve careful planning. Whether you are hosting an intimate family iftar, a corporate suhoor, or a large community celebration, the catering should honour the rhythm of fasting, prayer, and hospitality.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The Ramadan catering menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering checklist Dubai and Ramadan iftar catering trends Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the etiquette, menu formats, timing, and practical considerations that make Ramadan catering run smoothly.

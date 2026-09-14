@@ -272,7 +272,7 @@ export default function FullTimePrivateChef() {
               A household chef Dubai is a standing cook for the people who live there. A private chef for family meals, or a monthly private chef Dubai on a set number of days, is that same match with a different calendar. Hire a full time chef Dubai when most dinners need covering; a part time chef Dubai is the lighter version of the same brief.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Full time private chef cost Dubai depends on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. For best time to hire caterers, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. If you are weighing up top personal chef providers in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients.
+              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.

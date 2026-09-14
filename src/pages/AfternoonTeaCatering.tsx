@@ -30,7 +30,7 @@ const config: OccasionPageConfig = {
         There is something undeniably elegant about a well-executed afternoon tea: tiered stands of delicate sandwiches, warm scones with cream, and small cakes arranged like jewellery. Our afternoon tea catering brings that hotel-lounge experience to your home, villa, office or event venue across Dubai — without the formality of a fixed venue.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Birthday afternoon tea Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

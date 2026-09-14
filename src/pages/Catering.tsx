@@ -186,7 +186,7 @@ export default function Catering() {
             These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated. A catering service in Dubai on this page is that food, the staff and the clear-down in one brief, not a tray left at the door.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Party food catering Dubai is planned around the room and the running order, not a tray left at the door. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-left font-inter text-body-sm text-gray-300">

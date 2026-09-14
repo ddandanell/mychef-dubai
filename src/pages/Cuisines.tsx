@@ -402,7 +402,7 @@ export default function Cuisines() {
             Food-only catering starts from AED 90 per person. A standard event buffet starts from AED 120. Premium buffet, BBQ or live stations start from AED 150. Chef-led plated dining starts from AED 700. 5% VAT is shown on the written proposal.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            If you are weighing up best food catering in Dubai, top catering providers in Dubai, top 10 catering companies in UAE and top rated catering services in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Catering companies in UAE, largest catering companies in UAE and biggest catering companies in UAE are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             There is no separate multi cuisine catering packages Dubai product. Packages are event packages; cuisine is the menu direction inside them. Guest count, format, staffing, venue access and timing move the total — not which cuisine you pick.

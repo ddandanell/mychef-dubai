@@ -176,10 +176,10 @@ export default function Villas() {
                 A private chef villa Dubai arrangement is a standing rhythm: the same person, a Food Profile of how this house eats, and backup if they are off. Groceries as agreed, at actual receipts when we shop. Priced as working time, not per plate.
               </p>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
-                The villa catering Dubai menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Palm Jumeirah villa dining and private dining at villa Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+                The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
               </p>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
-                Chef villa klope, chef villa heanor, chef villa orsini, chef villa navarre, chef villa lorraine and chef villa in the sky are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+                The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
               </p>
               <Link
                 to="/private-chef-dubai"

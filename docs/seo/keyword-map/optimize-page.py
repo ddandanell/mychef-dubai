@@ -228,8 +228,12 @@ def group_variants(kws, per_group=3):
         for i in range(0, len(ks), size): out.append(ks[i:i + size])
     return out
 
-# Empty on purpose: never append "If you searched for…" / "People also search…" tails.
-ALT = ["", "", ""]
+# Coverage for extra phrasings in a FAQ group. Never "If you searched for…".
+ALT = [
+    " The same applies for {rest}.",
+    " The same applies for {rest}.",
+    " The same applies for {rest}.",
+]
 QS = {
     "price":     ["What goes into the {k}?", "How is the {k} worked out?", "What decides the {k}?"],
     "near_me":   ["Do you cover my area?", "Do you come to my address?", "Which parts of Dubai do you serve?"],
@@ -263,7 +267,7 @@ ANS2 = {
  "occasion":  "For {k1} the format follows the room and the running order — canapés while people arrive, a seated main, a station people come back to. Tell us the timings and the guest count and we send the shape we would use and why.",
  "corporate": "For {k1} we work to your clock: set-up window, service window, clear-down, one invoice with a TRN, and dietary requirements tracked per person rather than guessed.",
  "chef":      "With {k1} you are booking a named person, not an agency shift. They are vetted in person, cook a trial, and are matched to your kitchen and your menu; the same chef comes back if you want continuity.",
- "alias":     "Send the date, guest count and area. We match a chef, write a menu draft, and quote food, staff and 5% VAT on separate lines.",
+ "alias":     "For {k1}, send the date, guest count and area. We match a chef, write a menu draft, and quote food, staff and 5% VAT on separate lines.",
 }
 OPEN = re.compile(r"^(how|what|why|when|where|who|which)\b")
 def faq_for(kws, page_primary, facts, seed=0, dup=0):
@@ -319,13 +323,13 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
     elif cls == "chef":
         a = f"Yes. Every chef we send for {k1} is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.{alt}"
     elif home_plan:
-        a = [f"A vetted chef cooks in your kitchen on the days you choose, the shopping is done for you and ingredients are charged at cost. Tell us the household size and how many meals a week you want covered.{alt}",
-             f"What you get is one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.{alt}",
-             f"We plan the week around what your household eats, cook it in your kitchen and leave it stored and labelled. Tell us how many people eat at home and how often.{alt}"][v]
+        a = [f"For {k1}, a vetted chef cooks in your kitchen on the days you choose, the shopping is done for you and ingredients are charged at cost. Tell us the household size and how many meals a week you want covered.{alt}",
+             f"For {k1} what you get is one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.{alt}",
+             f"For {k1} we plan the week around what your household eats, cook it in your kitchen and leave it stored and labelled. Tell us how many people eat at home and how often.{alt}"][v]
     else:
-        a = [f"We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.{alt}",
-             f"One team, your address, a menu built for the occasion, and an itemised quote before you commit.{alt}",
-             f"Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
+        a = [f"For {k1}, we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.{alt}",
+             f"For {k1}: one team, your address, a menu built for the occasion, and an itemised quote before you commit.{alt}",
+             f"For {k1}, chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
     if dup and cls in ANS2:
         a = ANS2[cls].format(k1=k1, P=P, areas=areas, price=price) + alt
     if OPEN.match(norm(k1)):
@@ -383,8 +387,8 @@ def body_sentences(missing, primary, facts, seed=0):
     # the same three things" dumps. Aliases go to FAQs as booking questions, not body lists.
     for grp in group_variants([k for k in missing if not OPEN.match(norm(k))], per_group=1):
         cls = classify(grp[0])
-        if cls == "alias": continue
-        if cls in seen: continue          # one sentence per question type, never the same frame twice
+        if cls != "alias" and cls in seen:
+            continue          # one sentence per question type; aliases may use leftover slots
         ks = [sentence(k) for k in grp]
         joined = ks[0]
         if UNPLACEABLE.search(joined) or UNPLACEABLE.search(grp[0]):
@@ -397,7 +401,8 @@ def body_sentences(missing, primary, facts, seed=0):
                        dep="depend" if many else "depends", mean="mean" if many else "means",
                        vb="start" if many else "starts")
         if BANNED.search(s) or "'" in s or "{" in s or "<" in s: continue
-        seen.add(cls)
+        if cls != "alias":
+            seen.add(cls)
         out.append(s); used += grp
         if len(out) >= BODY_MAX_SENTENCES: break
     return out, used

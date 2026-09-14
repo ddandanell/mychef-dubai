@@ -299,7 +299,7 @@ export default function LuxuryDinnerPlanningGuide() {
             A luxury dinner is not only about fine food. It is the combination of a considered menu, beautiful surroundings, attentive service, and a host who can relax and enjoy the evening. In Dubai, private villas, penthouses, yachts, and exclusive spaces provide the perfect canvas for an intimate, restaurant-quality experience at home.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Luxury dinner set in Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. For Dubai cruise dinner booking, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. If you are weighing up luxury dinner cruise Dubai Marina and luxury dinner party planning Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Dinner party planning checklist Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide walks you through the key decisions, from defining the occasion to designing the menu, tablescape, ambience, and service flow.

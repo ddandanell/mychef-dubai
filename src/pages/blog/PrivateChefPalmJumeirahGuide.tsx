@@ -163,7 +163,7 @@ export default function PrivateChefPalmJumeirahGuide() {
               Privacy is the most common reason. A villa on the fronds or an apartment with a marina view gives you a setting that no restaurant can replicate. Add a chef, and the evening becomes entirely yours: no reservations, no fixed closing times, and no shared dining room.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              The chef travels to the villa or apartment. What to check is the named chef, the itemised quote and who buys the ingredients. The menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. The chef travels to the villa or apartment. What to check is the named chef, the itemised quote and who buys the ingredients.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Families with children, couples celebrating quietly, and groups of friends who want to linger over conversation all benefit from the flexibility. You control the music, dress code, guest list, and menu. The chef simply handles the food.

@@ -375,7 +375,7 @@ export default function RamadanIftar() {
             Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Iftar buffet catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

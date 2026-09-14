@@ -365,7 +365,7 @@ export default function BBQCatering() {
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Desert BBQ catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Grill our chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.

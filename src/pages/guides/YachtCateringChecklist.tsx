@@ -362,7 +362,7 @@ export default function YachtCateringChecklist() {
             A yacht charter is one of the most memorable ways to entertain in Dubai — but catering on water is not the same as catering on land. Space is tighter, timing is stricter, and the vessel's movement affects everything from plating to refrigeration.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Yacht catering package Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. The catering menu checklist is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Catering checklist example and catering service checklist comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist walks you through the full timeline, from six weeks before the cruise to the moment your guests step back onto the dock. Use it to coordinate with your charter company, captain, event planner, and catering team so nothing is left to chance.

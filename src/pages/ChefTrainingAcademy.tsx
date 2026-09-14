@@ -263,7 +263,7 @@ export default function ChefTrainingAcademy() {
               Private dining is a different discipline from restaurant service. This is the culinary academy Dubai chefs use when they want villa and household training, not a hotel kitchen course. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Tell us about your experience and goals, and we will recommend the right programme and help you enrol for the next intake.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              If you are weighing up best chef school in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               You will learn how to design menus for real households, manage dietary requirements with confidence, plate under pressure, and run a villa kitchen from prep to final course. Instructors are experienced private-dining chefs who understand what families, hosts, and guests expect. Graduates who meet our standards are also invited to join the <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF Dubai chef network</Link>.

@@ -350,7 +350,7 @@ export default function NewYearCatering() {
             New Year's Eve in Dubai is one of the most anticipated nights of the year. From private villa parties with views of the fireworks to elegant yacht countdowns and corporate galas, the right catering sets the tone for the entire evening. At myCHEF Dubai, we create New Year's Eve catering experiences that match the energy and style of your celebration.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            New year party food Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

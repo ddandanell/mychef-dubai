@@ -15,7 +15,7 @@ export default function DateNightPackage() {
       name={pkg.name}
       seoTitle="Date Night Package Dubai | Private Chef for Two | myCHEF"
       description="Date Night Package Dubai: private chef dinner for two from AED 1,200. Bespoke 3-course menu, elegant plating, and full cleanup. Get a quote in 15 minutes."
-      intro="Date night package Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private dinner package Dubai, couples dinner package Dubai, dinner package for two Dubai and best date night package Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The date night dinner menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal date night Dubai is planned into the first draft of the menu rather than bolted on at the end. Date night at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it."
+      intro="The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft."
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"
       headline="Date Night Package Dubai: Private Chef Dinner for Two"

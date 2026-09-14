@@ -267,7 +267,7 @@ export default function ProposalDinner() {
               A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will reply within 15 minutes during business hours to start shaping your perfect "yes". We then bring you a vetted private chef and event manager for your date.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private chef proposal dinner Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

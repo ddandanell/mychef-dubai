@@ -255,7 +255,7 @@ export default function HowWeVetOurChefs() {
               When you invite a private chef into your home, villa, or yacht, you are trusting more than their cooking. You are trusting their professionalism, their hygiene habits, their punctuality, and their judgment around your family, guests, and property. That is why myCHEF Dubai does not treat vetting as a one-time checkbox. It is a continuous process built around verification, assessment, reference checks, and real-world observation.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Personal chefs on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up top personal chef services policies, the things worth checking are the named chef, the itemised quote and who buys the ingredients.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We are also honest about what vetting means. No system can eliminate every risk, and no chef is automatically guaranteed work. We match each event to the best available chef based on cuisine expertise, availability, and client requirements. Our commitment is that every chef who represents myCHEF Dubai has met the standards below — and continues to meet them through regular feedback and review.

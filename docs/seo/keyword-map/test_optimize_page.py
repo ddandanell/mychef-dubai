@@ -63,6 +63,18 @@ def test_alias_question_is_a_booking_question():
     assert "i searched" not in q.lower()
     assert "same as" not in q.lower()
     assert "if you searched for" not in a.lower()
+    assert "foo bar baz" in a.lower()
+
+
+def test_faq_rest_phrasings_are_named_without_search_tails():
+    q, a = op.faq_for(
+        ["brunch catering dubai price", "brunch catering price per person dubai"],
+        "brunch catering dubai",
+        {},
+        seed=0,
+    )
+    assert "if you searched for" not in a.lower()
+    assert "brunch catering price per person dubai" in a.lower()
 
 
 def test_body_sentences_do_not_join_keyword_lists():

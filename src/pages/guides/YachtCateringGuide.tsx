@@ -288,7 +288,7 @@ export default function YachtCateringGuide() {
             A yacht charter in Dubai offers some of the most memorable settings for a celebration: the Marina skyline, the Palm, the open Gulf. But catering on board comes with unique constraints. Galleys are compact, decks move, storage is limited, and service must integrate with the crew and route.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The yacht food ideas and yacht party food ideas are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Yacht dinner in Dubai, catering for yacht party and small yacht catering guide Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the practical side of yacht catering so you can choose a menu and service plan that works at sea. To hire the team, go to{' '}

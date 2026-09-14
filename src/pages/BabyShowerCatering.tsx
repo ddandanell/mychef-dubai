@@ -365,7 +365,7 @@ export default function BabyShowerCatering() {
             A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Baby shower food Dubai, small party catering in Dubai and baby shower grazing table Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

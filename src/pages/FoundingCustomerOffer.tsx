@@ -259,7 +259,7 @@ export default function FoundingCustomerOffer() {
               Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and bring you a vetted private chef in Dubai within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyCHEF Dubai offer, meal plan Dubai offer and catering services on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               In return for joining early, we reserve priority access to our most experienced, vetted chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.

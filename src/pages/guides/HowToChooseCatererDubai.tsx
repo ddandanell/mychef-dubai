@@ -298,7 +298,7 @@ export default function HowToChooseCatererDubai() {
             Choosing a caterer is one of the most important decisions for any event. The right partner will ask the right questions, offer a clear proposal, and handle the details so you can focus on hosting. The wrong one can create stress on the day through poor communication, hidden costs, or mismatched service.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            If you are weighing up best caterers in Dubai and best catering companies in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Questions to ask a caterer Dubai comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Preferred caterer list is the same booking: a vetted chef, matched to your kitchen and your menu.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans.

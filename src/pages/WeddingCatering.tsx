@@ -271,13 +271,7 @@ export default function WeddingCatering() {
             A wedding catering price per person Dubai figure only means something once the format is named. Hotels sell wedding catering packages Dubai as a room-and-food bundle. We send an itemised plan instead: food, staff, rentals, extras, VAT.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Wedding food packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box.
-          </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Wedding caterers Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
-          </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Event catering for wedding, wedding catering blog Dubai and catering checklist for wedding are planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             Wedding buffet catering Dubai for a larger reception usually sits below plated service per guest, because the team is sized differently.

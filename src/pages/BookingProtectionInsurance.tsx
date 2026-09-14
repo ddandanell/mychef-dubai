@@ -258,9 +258,6 @@ export default function BookingProtectionInsurance() {
               The written catering cancellation policy Dubai is in the <Link to="/private-client-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private client booking terms</Link> and the <Link to="/corporate-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate booking terms</Link>. Booking a private chef or catering service should feel clear, not uncertain. The questions below are the ones clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              For catering deposit refund Dubai, moes catering cancellation policy, catering cancellation policy sample, catering booking cancellation policy, maggianos catering cancellation policy and cancellation policy for catering events, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Event catering insurance Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Caterer liability insurance Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The answers below are honest and practical. We do not promise that problems never happen — no service can. What we promise is that we have thought about them in advance, documented our terms clearly, and trained our chefs to respond quickly and fairly when they do. That is what booking protection means to us.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

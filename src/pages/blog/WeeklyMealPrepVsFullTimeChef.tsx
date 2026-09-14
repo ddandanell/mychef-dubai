@@ -216,7 +216,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
               A private chef arrives at your home for scheduled prep sessions — usually two per week — and prepares multiple meals in advance. Dishes are portioned, labelled, and stored in your refrigerator or freezer. You simply reheat and eat when it suits you.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Personal chef for meal prep cost depends on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. Healthy meal prep ideas for the week are planned into the first draft of the menu rather than bolted on at the end. Private vs personal chef and weekly meal prep vs private chef Dubai comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
+              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Menus rotate based on your preferences, dietary goals, and family schedule. Because the chef prepares several meals at once, the cost per dish drops compared with a chef cooking one meal at a time.
