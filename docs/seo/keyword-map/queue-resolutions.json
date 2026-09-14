@@ -37,6 +37,10 @@
       "status": "accepted",
       "resolution": "Placed the exact phrase in a body sentence on the Palm Jumeirah location page."
     },
+    "fix_onpage|/birthday-catering-dubai|birthday catering dubai": {
+      "status": "rejected",
+      "resolution": "Owner 2026-09-14: keep ads H1 Private Birthday Catering in Dubai. Do not strip in to restore the exact n-gram. Primary stays in title, first 100 words, and one H2."
+    },
     "fix_onpage|/school-catering-dubai|school catering dubai": {
       "status": "rejected",
       "resolution": "False missing-H1. Live HTML already has School Catering Dubai in title and H1. The snapshot missed the page while it was out of the sitemap."

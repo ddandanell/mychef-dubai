@@ -36,6 +36,9 @@ def test_resolution_key_matches_the_overlay_file():
     assert yachts and yachts["status"] == "accepted"
     school = overlay.get("fix_onpage|/school-catering-dubai|school catering dubai")
     assert school and school["status"] == "rejected"
+    birthday = overlay.get("fix_onpage|/birthday-catering-dubai|birthday catering dubai")
+    assert birthday and birthday["status"] == "rejected"
+    assert "ads H1" in birthday["resolution"]
 
 
 if __name__ == "__main__":

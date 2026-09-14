@@ -70,8 +70,11 @@ def keep_spelling(rep, span):
         if d != w.lower() or (w[:1].isupper() and len(w) > 2 and d not in ("and", "for", "the", "with", "in", "at", "of", "to")):
             rep = re.sub(r"(?<![A-Za-zÀ-ÿ])" + re.escape(d) + r"(?![A-Za-zÀ-ÿ])", lambda m: w if (w[:1].isupper() and m.group(0)[:1].isupper()) or d != w.lower() else m.group(0), rep, flags=re.I)
     return rep
-def place_primary(text, k, mode):
+def place_primary(text, k, mode, locked=None):
     if has(text, k): return text, "already"
+    # Contract on_page copy wins. An ads H1 that inserts "in" is not a miss to "fix".
+    if locked and norm(text) == norm(locked):
+        return text, "already"
     flat = deaccent(text)  # same length as text → spans line up
     m = variant_re(k).search(flat)
     if not m:
@@ -471,13 +474,21 @@ def plan(url):
     def text_of(path): return edits.get(path, path.read_text(encoding="utf-8"))
     def set_text(path, t): edits[path] = t
     changes = []; row = rowmap.get(url) or {}; pp = row.get("primary_place") or {}
+    on = p.get("on_page") or {}
+    def lock(mode):
+        return {
+            "title": on.get("title"),
+            "h1": on.get("h1"),
+            "description": on.get("meta_description"),
+            "opening": on.get("hero_subtitle") or on.get("subtitle"),
+        }.get(mode)
 
     def fix_string(attr, mode, tag=r"<SEO\b"):
         """attr="title" on the tag: literal → rewrite in page; {obj.field} → rewrite in module."""
         s = text_of(f)
         m = re.search(r"(" + tag + r"[^>]*?\b" + attr + r'=")([^"]+)(")', s, flags=re.S)
         if m:
-            new, how = place_primary(m.group(2), pk, mode)
+            new, how = place_primary(m.group(2), pk, mode, locked=lock(mode))
             if how != "already": set_text(f, s[:m.start(2)] + new + s[m.end(2):]); changes.append((mode, how, m.group(2), new))
             return True
         m = re.search(r"(" + tag + r"[^>]*?\b" + attr + r"=\{)(\w+)\.(\w+)(\})", s, flags=re.S)
@@ -494,7 +505,7 @@ def plan(url):
                     elif re.search(r"(?m)^\s*" + re.escape(m.group(3)) + r":\s*`", ms[m2.end():]): changes.append((mode, f"template literal {m.group(2)}.{m.group(3)} — edit by hand", "", "")); return True
                 if hit2:
                     a, b, val, quote = hit2
-                    new, how = place_primary(val.replace("\\'", "'"), pk, mode)
+                    new, how = place_primary(val.replace("\\'", "'"), pk, mode, locked=lock(mode))
                     if how != "already":
                         new_esc = new.replace("'", "\\'") if quote == "'" else new.replace('"', '\\"')
                         set_text(mf, ms[:a] + new_esc + ms[b:]); changes.append((mode, how + f" ({mf.name}:{m.group(2)}.{m.group(3)})", val, new))
@@ -509,7 +520,7 @@ def plan(url):
             m = re.search(r"(?m)^( {2}" + key + r":\s*)([\"'])((?:\\.|(?!\2).)*)\2", s)
             if m:
                 val = m.group(3).replace("\\'", "'").replace('\\"', '"')
-                new, how = place_primary(val, pk, mode)
+                new, how = place_primary(val, pk, mode, locked=lock(mode))
                 if how != "already":
                     q = m.group(2); new_esc = new.replace(q, "\\" + q)
                     set_text(f, s[:m.start(3)] + new_esc + s[m.end(3):]); changes.append((mode, how + f" (config.{key})", val, new))
@@ -533,7 +544,7 @@ def plan(url):
             inner = m.group(2)
             tm = re.search(r">?\s*([^<{}]{6,})", inner)  # first text node
             if tm:
-                new, how = place_primary(tm.group(1).strip(), pk, "h1")
+                new, how = place_primary(tm.group(1).strip(), pk, "h1", locked=lock("h1"))
                 if how != "already":
                     inner2 = inner[:tm.start(1)] + tm.group(1).replace(tm.group(1).strip(), new) + inner[tm.end(1):]
                     set_text(f, s[:m.start(2)] + inner2 + s[m.end(2):]); changes.append(("h1", how, tm.group(1).strip(), new))
@@ -544,7 +555,7 @@ def plan(url):
         s = text_of(f); fa = s.find("<FaqAccordion")
         h2s = [x for x in re.finditer(r"(<h2\b[^>]*>)\s*([^<{]+?)\s*(</h2>)", s, flags=re.S) if fa < 0 or x.start() < fa]
         if h2s:
-            m = h2s[-1]; new, how = place_primary(m.group(2), pk, "h2")
+            m = h2s[-1]; new, how = place_primary(m.group(2), pk, "h2", locked=lock("h2"))
             if how != "already": set_text(f, s[:m.start(2)] + new + s[m.end(2):]); changes.append(("h2", how, m.group(2), new))
     # ---- subkeywords: body sentences first, FAQs only for what reads as a question ---------
     missing = [x["kw"] for x in row.get("subs", []) if x.get("place") and not x["place"].get("body")] if row.get("subs") else list(io.get("subkeywords") or [])
@@ -619,17 +630,18 @@ def revert(url):
                 for a, b in ((ch["after"], ch["before"]), (ch["after"].replace("'", "\\'"), ch["before"].replace("'", "\\'"))):
                     if a and a in t: path.write_text(t.replace(a, b, 1), encoding="utf-8"); n += 1; break
     return n
-if "--revert" in sys.argv:
-    for u in [a for a in sys.argv[1:] if a.startswith("/")]: print(f"revert {u}: {revert(u)} strings restored")
-    sys.exit(0)
-args = [a for a in sys.argv[1:] if not a.startswith("--") and not a.isdigit()]
-limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 10**9
-urls = args
-if "--all" in sys.argv:
-    urls = [u for u, p in pages.items() if not (p.get("indexation") or {}).get("redirect_to") and ((p.get("indexation") or {}).get("robots") or {}).get("index", True) and (p.get("intent_owner") or {}).get("primary_keyword")][:limit]
-out = [plan(u) for u in urls]
-for r in out:
-    if r.get("skip"): print(f"  skip {r['url']}: {r['skip']}"); continue
-    print(f"{'APPLIED' if r['applied'] else 'PLAN'} {r['url']} · {r['file']} · primary={r['primary']!r}")
-    for c in r["changes"]: print(f"    {c['where']:<12} {c['how']:<44} {('→ ' + c['after']) if c['after'] else ''}"[:230])
-print(f"{sum(1 for r in out if r.get('applied'))} applied · {sum(1 for r in out if not r.get('skip') and not r.get('applied'))} planned · {sum(1 for r in out if r.get('skip'))} skipped")
+if __name__ == "__main__":
+    if "--revert" in sys.argv:
+        for u in [a for a in sys.argv[1:] if a.startswith("/")]: print(f"revert {u}: {revert(u)} strings restored")
+        sys.exit(0)
+    args = [a for a in sys.argv[1:] if not a.startswith("--") and not a.isdigit()]
+    limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 10**9
+    urls = args
+    if "--all" in sys.argv:
+        urls = [u for u, p in pages.items() if not (p.get("indexation") or {}).get("redirect_to") and ((p.get("indexation") or {}).get("robots") or {}).get("index", True) and (p.get("intent_owner") or {}).get("primary_keyword")][:limit]
+    out = [plan(u) for u in urls]
+    for r in out:
+        if r.get("skip"): print(f"  skip {r['url']}: {r['skip']}"); continue
+        print(f"{'APPLIED' if r['applied'] else 'PLAN'} {r['url']} · {r['file']} · primary={r['primary']!r}")
+        for c in r["changes"]: print(f"    {c['where']:<12} {c['how']:<44} {('→ ' + c['after']) if c['after'] else ''}"[:230])
+    print(f"{sum(1 for r in out if r.get('applied'))} applied · {sum(1 for r in out if not r.get('skip') and not r.get('applied'))} planned · {sum(1 for r in out if r.get('skip'))} skipped")
