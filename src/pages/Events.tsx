@@ -179,7 +179,7 @@ export default function Events() {
       <Section id="event-types" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Six event types. The specialist page owns the rest.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Six event types. Open the page for the night you are hosting.</DisplayHeading>
           <BodyCopy className="mb-12">
             Wedding, birthday, corporate, villa, yacht and cocktail searches belong on those pages. This hub sends you there with the right brief.
           </BodyCopy>
@@ -353,7 +353,7 @@ export default function Events() {
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
           <BodyCopy className="mb-12">
-            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
+            Pick a format. Each card opens the page that explains it. Cuisine direction lives on{' '}
             <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Cuisines
             </Link>

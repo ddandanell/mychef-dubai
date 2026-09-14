@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: 'Which is better buffet or plated?',
-    a: 'Same service as buffet vs plated Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for which is cheaper, buffet or plated and which is better, ala carte or buffet, this is the same service.',
+    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 

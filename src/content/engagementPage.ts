@@ -216,7 +216,7 @@ export const engagementFaqs = [
   },
   {
     q: 'What goes into the engagement catering Dubai price?',
-    a: 'There is no single number for engagement catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 90 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for engagement party catering cost per person Dubai, this is the same service.',
+    a: 'There is no single number for engagement catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 90 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
   {
     q: 'Do you offer engagement catering packages Dubai?',

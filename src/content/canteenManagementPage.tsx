@@ -65,8 +65,8 @@ export const canteenPage: InstitutionalPageContent = {
   },
   siloNote: (
     <>
-      This page owns canteen management Dubai. Staff canteen management Dubai and canteen setup
-      Dubai are this brief. A weekday office lunch without a room sits on{' '}
+      Canteen management Dubai is this brief. Staff canteen management Dubai and canteen setup
+      Dubai are the same job. A weekday office lunch without a room sits on{' '}
       <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
         office catering
       </Link>

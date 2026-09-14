@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: 'Is villa with private chef thailand part of what you offer?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown Dubai this is our most common booking. Exclusive villa chef & heated pool land on this page too; it is one service.',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown Dubai this is our most common booking.',
   },
 ]
 

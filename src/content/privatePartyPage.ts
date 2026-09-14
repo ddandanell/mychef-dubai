@@ -89,7 +89,7 @@ export const hostedHereIntro =
   'The occasion name changes. The job does not: a guest list, a kitchen that may be small, a clock, and a house you still have to live in tomorrow. Those nights stay on this page. They are not separate products.'
 
 export const uniqueCardsIntro =
-  'If the night already has its own page — an engagement, a cocktail reception, a baby shower, a BBQ — that page owns the brief. What follows are those pages, not another copy of this one.'
+  'If the night already has its own page (an engagement, a cocktail reception, a baby shower, a BBQ), use that brief. What follows are those pages, not another copy of this one.'
 
 export const anniversaryBlock = {
   h2: 'An anniversary with friends at the table',
@@ -113,7 +113,7 @@ export const graduationBlock = {
 export const uniqueOccasionCards = [
   {
     title: 'Engagement party catering',
-    body: 'Two families, a toast, a night that is not yet a wedding. The engagement page owns that brief.',
+    body: 'Two families, a toast, a night that is not yet a wedding. Open engagement catering for that brief.',
     href: '/engagement-catering-dubai',
     linkLabel: 'Engagement party catering in Dubai',
     image: '/images/engagement-catering-dubai-hero.webp',
@@ -121,7 +121,7 @@ export const uniqueOccasionCards = [
   },
   {
     title: 'Cocktail party catering',
-    body: 'Standing food, a bar and a room that has to keep moving. The cocktail page owns the drinks brief.',
+    body: 'Standing food, a bar and a room that has to keep moving. Open cocktail catering for the drinks brief.',
     href: '/cocktail-party-catering-dubai',
     linkLabel: 'Cocktail party catering in Dubai',
     image: '/images/cocktail-party-catering-dubai-hero.webp',
@@ -153,7 +153,7 @@ export const uniqueOccasionCards = [
   },
   {
     title: 'Villa party catering',
-    body: 'Gates, kitchen access, outdoor power and where the team unloads. The villa page owns the operating detail.',
+    body: 'Gates, kitchen access, outdoor power and where the team unloads. Open villa catering for the operating detail.',
     href: CATERING_PATHS.villas,
     linkLabel: 'Villa catering in Dubai',
     image: '/images/villa-catering-dubai-hero.webp',

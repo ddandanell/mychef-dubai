@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     q: 'Is catering event checklist something you take on?',
-    a: 'Yes. For catering event checklist we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. Event catering planning Dubai and event planning food checklist Dubai land on this page too; it is one service.',
+    a: 'Yes. For catering event checklist we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
   },
 ]
 

@@ -240,7 +240,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Dubai Marina?',
-        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Dubai Marina?',
@@ -260,11 +260,11 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer fine dining in Dubai Marina?',
-        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you offer iftar buffet Dubai Marina?',
-        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
 ],
     uniqueAngle:
@@ -469,7 +469,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Downtown Dubai?',
-        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Downtown Dubai?',
@@ -485,11 +485,11 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer fine dining in Downtown Dubai?',
-        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you offer iftar buffet Dubai Downtown?',
-        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
 ],
     uniqueAngle:
@@ -694,7 +694,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Palm Jumeirah?',
-        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Palm Jumeirah?',
@@ -706,7 +706,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dinner Palm Jumeirah?',
-        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you handle Business lunch Palm Jumeirah?',
@@ -718,11 +718,11 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer iftar buffet Dubai Palm Jumeirah?',
-        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you offer catering Jumeirah Dubai?',
-        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
 ],
     uniqueAngle:
@@ -927,7 +927,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Jumeirah?',
-        a: 'Yes. It sits inside the same service as private chef Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Jumeirah?',
@@ -947,7 +947,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer iftar buffet Dubai Jumeirah?',
-        a: 'Yes. It sits inside the same service as private chef Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
 ],
     uniqueAngle:
@@ -1151,7 +1151,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining JBR?',
-        a: 'Yes. It sits inside the same service as private chef JBR: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering JBR?',
@@ -1163,7 +1163,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer iftar buffet Dubai JBR?',
-        a: 'Yes. It sits inside the same service as private chef JBR: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
 ],
     uniqueAngle:
@@ -1584,7 +1584,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining DIFC?',
-        a: 'Yes. It sits inside the same service as private chef DIFC: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering DIFC?',
@@ -1600,7 +1600,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer fine dining in DIFC?',
-        a: 'Yes. It sits inside the same service as private chef DIFC: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you handle Business lunch in DIFC?',
@@ -1803,7 +1803,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Emirates Hills?',
-        a: 'Yes. It sits inside the same service as private chef Emirates Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Emirates Hills?',
@@ -2017,7 +2017,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Arabian Ranches?',
-        a: 'Yes. It sits inside the same service as private chef Arabian Ranches: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Arabian Ranches?',
@@ -2227,7 +2227,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer private dining Dubai Hills?',
-        a: 'Yes. It sits inside the same service as private chef Dubai Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you cater party catering Dubai Hills?',
@@ -2243,7 +2243,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Do you offer iftar buffet Dubai Hills?',
-        a: 'Yes. It sits inside the same service as private chef Dubai Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+        a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
       },
       {
         q: 'Do you handle Dubai Hills Business lunch?',

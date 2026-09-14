@@ -180,7 +180,7 @@ const faqs = [
   { q: "Can a dessert table be part of full-service catering for my event?", a: "Yes. Our dessert tables slot seamlessly into full-service catering, so you can have canapés, a plated or buffet meal, and a styled sweet finish all handled by one team. Booking everything together keeps the styling cohesive and the logistics simple. See how it fits within our wider [catering in Dubai](/catering-dubai)." },
   {
     q: 'What goes into the dessert table catering Dubai price?',
-    a: 'There is no single number for dessert table catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for dessert table catering price per person Dubai, this is the same service.',
+    a: 'There is no single number for dessert table catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
   {
     q: 'What is included in dessert table catering packages Dubai?',

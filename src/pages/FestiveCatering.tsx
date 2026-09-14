@@ -153,7 +153,7 @@ const faqs = [
   { q: "Can you match a festive theme, styling and presentation to my party?", a: "Yes — we style festive menus and presentation to match your theme, whether that's a classic Christmas table, a glamorous New Year reception, an Eid feast or a Diwali celebration. Beyond the food, we can coordinate table styling, tableware and décor through trusted partners so the whole setup feels cohesive. Share your theme and colour palette and we'll design a menu and look that fits the occasion." },
   {
     q: 'How is the festive catering Dubai price worked out?',
-    a: 'There is no single number for festive catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as festive catering cost per person Dubai — same team, same booking.',
+    a: 'There is no single number for festive catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
   {
     q: 'Do you offer festive catering packages Dubai?',

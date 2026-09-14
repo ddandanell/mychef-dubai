@@ -70,7 +70,7 @@ export const coreEvents = [
   },
   {
     title: 'Wedding Catering',
-    body: 'Receptions, rehearsal dinners and next-day brunches. The wedding page owns the tasting, timing and guest-list brief.',
+    body: 'Receptions, rehearsal dinners and next-day brunches. Open wedding catering for the tasting, timing and guest-list brief.',
     href: '/wedding-catering-dubai',
     linkLabel: 'Wedding catering in Dubai',
     image: '/images/wedding-catering-dubai-hero.webp',

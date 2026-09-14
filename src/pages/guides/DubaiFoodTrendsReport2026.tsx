@@ -127,7 +127,7 @@ const faqs = [
   },
   {
     q: 'What are the big food trends for 2026?',
-    a: 'Same service as Dubai food trends 2026, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for what are the food design trends in 2026, this is the same service.',
+    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 

@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     q: 'Do you provide small villa catering ideas Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking. If you searched for outdoor villa catering ideas Dubai and birthday catering for villa party Dubai, this is the same service.',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
   },
   {
     q: 'Can you do villa and yacht catering partners Dubai?',

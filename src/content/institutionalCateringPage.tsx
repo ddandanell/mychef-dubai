@@ -57,7 +57,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
   },
   siloNote: (
     <>
-      This hub owns institutional catering Dubai. Each child page owns its primary. Household chefs
+      Institutional catering Dubai is this hub. Each child page is the brief for that site. Household chefs
       stay on{' '}
       <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
         private chef
@@ -173,7 +173,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
   quoting: {
     h2: 'How an institutional quote is built',
     paragraphs: [
-      'The child page owns the number. This hub does not average four different kitchens into one from-price.',
+      'The figure lives on the child page. This hub does not average four different kitchens into one from-price.',
       'Food, staff, equipment, delivery and 5% VAT stay on separate lines.',
     ],
   },

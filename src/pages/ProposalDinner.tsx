@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     q: 'Is marriage proposal dinner Dubai the same as proposal dinner Dubai?',
-    a: 'Yes — same service as proposal dinner Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for romantic proposal dinner Dubai and dinner for couples in Dubai, this is the same service.',
+    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 
@@ -270,7 +270,7 @@ export default function ProposalDinner() {
               Private chef proposal dinner Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Proposal dinner Dubai price and dinner set price in Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dinner offers in Dubai and proposal dinner packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best proposal dinner Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The proposal dinner menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal proposal dinner Dubai is planned into the first draft of the menu rather than bolted on at the end. Yacht proposal dinner Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.

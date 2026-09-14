@@ -44,7 +44,7 @@ const SIBLING_LINKS = [
   {
     href: '/indian-catering-dubai',
     label: 'Indian catering',
-    body: 'Regional Indian menus for mixed tables. The Indian page owns the split.',
+    body: 'Regional Indian menus for mixed tables. Open Indian catering for the split.',
     image: '/images/indian-catering-dubai-hero.webp',
     imageAlt: 'Indian catering service in a Dubai villa. Experience concept shown.',
   },
@@ -83,7 +83,7 @@ const cuisineKitchens = [
   {
     href: '/arabic-catering-dubai',
     title: 'Arabic catering',
-    body: 'Mezze, charcoal grills and sharing rice dishes. The Arabic page owns the menu and how it is served.',
+    body: 'Mezze, charcoal grills and sharing rice dishes. Open Arabic catering for the menu and how it is served.',
     linkLabel: 'Arabic catering',
     image: '/images/arabic-catering-dubai-hero.webp',
     imageAlt: 'Arabic sharing table in a Dubai home. Experience concept shown.',
@@ -266,7 +266,7 @@ export default function Cuisines() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This page owns the cuisine index. Broader food-only through full-service catering sits on{' '}
+            This is the cuisine index. Broader food-only through full-service catering sits on{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
@@ -314,11 +314,11 @@ export default function Cuisines() {
             We do not send two competing caterers into your villa kitchen. We match the chefs, then run them as one team: one briefing, one timeline, one person you talk to.
           </BodyCopy>
           <BodyCopy>
-            Halal sourcing is the default across these kitchens. If you need the sourcing rules written out, that lives on{' '}
+            Halal sourcing is the default across these kitchens. If you need the sourcing rules written out, open{' '}
             <Link to="/halal-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Halal catering
             </Link>
-            — this page does not own it.
+            .
           </BodyCopy>
         </Container>
       </Section>
@@ -326,7 +326,7 @@ export default function Cuisines() {
       <Section id="kitchens" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>THE KITCHENS</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Pick the kitchen. The specialist page owns the menu.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Pick the kitchen. Open that page for the menu.</DisplayHeading>
           <BodyCopy className="mb-12">
             Open the cuisine you already know you want. Stay here only if the table needs more than one.
           </BodyCopy>

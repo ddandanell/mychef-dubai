@@ -155,7 +155,7 @@ const faqs = [
   { q: "Why choose full-service catering over a restaurant package for New Year's Eve?", a: "Full-service catering brings the chefs, menu, and hospitality to your own villa, yacht, or venue, so you skip crowded restaurants, minimum spends, and fixed set menus and celebrate on your own terms. You get a bespoke menu, your own space, and a private view of the fireworks, with our team handling cooking, service, and cleanup. It is the difference between queuing for a table and hosting an effortless private countdown at home." },
   {
     q: 'Do you also do new year dinner Dubai?',
-    a: 'Yes. It is the same booking as new year catering Dubai under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit. People also search this as Chinese new year catering Dubai buffet — same team, same booking.',
+    a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
   },
 ]
 
@@ -353,7 +353,7 @@ export default function NewYearCatering() {
             New year party food Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            New year catering Dubai price and new year catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. New year catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best new year catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The new year catering menu Dubai and Chinese new year set menu Dubai are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal new year catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Chinese new year dinner at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Chefs in our network and our event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.

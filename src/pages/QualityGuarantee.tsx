@@ -96,7 +96,7 @@ const faqs = [
   },
   {
     q: 'What if catering goes wrong Dubai?',
-    a: 'Same service as catering quality guarantee Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
   {
     q: 'How to complain about a caterer Dubai?',

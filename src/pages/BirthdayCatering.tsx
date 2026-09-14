@@ -558,7 +558,7 @@ export default function BirthdayCatering() {
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">From birthday food delivery to plated service</DisplayHeading>
           <BodyCopy className="mb-12">
-            Pick a format. The specialist page owns the full explanation. Birthday party food delivery is the delivered option on this list.
+            Pick a format. Each card opens the page that explains it. Birthday party food delivery is the delivered option on this list.
           </BodyCopy>
           <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
             {menuFormats.map((style) => (

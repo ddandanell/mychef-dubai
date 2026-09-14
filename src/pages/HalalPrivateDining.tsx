@@ -31,7 +31,7 @@ const config: ServicePageConfig = {
         Some occasions call for more than a restaurant reservation. Halal private dining in Dubai brings a dedicated chef, curated menu and professional service team into your home, villa or chosen venue, so you can host with confidence and without compromise. Every dish is prepared to trusted halal standards, using halal-sourced proteins and ingredients, and served with the polish of a fine-dining establishment.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Halal private dining Dubai price and halal private dining cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dining near me halal is covered across the whole city, because the chef travels to your address rather than the other way round. Halal private dining packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best halal private dining Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The halal private dining menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal private chef Dubai and halal fine dining at home Dubai are planned into the first draft of the menu rather than bolted on at the end.
+        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Whether you are planning an intimate anniversary dinner in Emirates Hills, a family celebration in Palm Jumeirah, a Ramadan iftar at home, or a corporate hospitality evening in Downtown Dubai, we design the experience around your guests, your space and your tastes. The menu can lean Arabic, Mediterranean, Asian or contemporary international — always fully halal, always beautifully presented.
@@ -171,7 +171,7 @@ const config: ServicePageConfig = {
     },
   {
     q: 'Is hutong Dubai private dining the same as halal private dining Dubai?',
-    a: 'Yes — hutong Dubai private dining is this service under another name. Same team, same booking route, same itemised quote.',
+    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
   },
 ],
   relatedServices: [

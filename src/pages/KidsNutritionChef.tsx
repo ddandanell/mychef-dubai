@@ -118,11 +118,11 @@ const faqs = [
   },
   {
     q: 'Do you also do coles meal prep Dubai?',
-    a: 'Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost. People also search this as meal prep Dubai delivery and practical meal prep Dubai — same team, same booking.',
+    a: 'Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.',
   },
   {
     q: 'Does meal prep for 5 year old mean this service?',
-    a: 'Yes — meal prep for 5 year old is this service under another name. Same team, same booking route, same itemised quote. How to meal prep for school land on this page too; it is one service.',
+    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
   },
 ]
 

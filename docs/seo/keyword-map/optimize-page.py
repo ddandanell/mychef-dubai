@@ -228,14 +228,11 @@ def group_variants(kws, per_group=3):
         for i in range(0, len(ks), size): out.append(ks[i:i + size])
     return out
 
-ALT = [
-    " If you searched for {rest}, this is the same service.",
-    " People also search this as {rest} — same team, same booking.",
-    " {rest_cap} land on this page too; it is one service.",
-]
+# Empty on purpose: never append "If you searched for…" / "People also search…" tails.
+ALT = ["", "", ""]
 QS = {
     "price":     ["What goes into the {k}?", "How is the {k} worked out?", "What decides the {k}?"],
-    "near_me":   ["I searched '{k}' — do you cover my area?", "Is there {k}?", "Do you serve my part of Dubai — I looked for {k}?"],
+    "near_me":   ["Do you cover my area?", "Do you come to my address?", "Which parts of Dubai do you serve?"],
     "packages":  ["What is included in {k}?", "Do you offer {k}?", "How do {k} work?"],
     "best":      ["What makes myCHEF a strong choice for {k}?", "Why book myCHEF for {k}?", "What should I look for in {k}?"],
     "menu":      ["What is on the {k}?", "Can I see the {k}?", "How is the {k} put together?"],
@@ -246,8 +243,8 @@ QS = {
     "occasion":  ["Do you do {k}?", "Can you cater {k}?", "Is {k} something you take on?"],
     "equipment": ["What does {k} involve?", "How does {k} work in my kitchen?", "What do you bring for {k}?"],
     "choose":    ["What should I check on {k}?", "How do I judge {k}?", "What separates a good {k} from a bad one?"],
-    "chef":      ["Is {k} the same service as {P}?", "Do you arrange {k}?", "Can I book {k}?"],
-    "alias":     ["Is {k} the same as {P}?", "Do you also do {k}?", "Does {k} mean this service?"],
+    "chef":      ["How do you match a chef?", "Do you arrange the chef?", "Can I book a chef for this?"],
+    "alias":     ["How does this booking work?", "What do I send to get a quote?", "What is included in the first proposal?"],
 }
 
 HOUSEHOLD = re.compile(r"\b(meal prep|meal plan|meal delivery|weekly|monthly|household|live in|full time|part time|postpartum|confinement|tiffin|daily|family chef|nanny|meals for)\b")
@@ -266,7 +263,7 @@ ANS2 = {
  "occasion":  "For {k1} the format follows the room and the running order — canapés while people arrive, a seated main, a station people come back to. Tell us the timings and the guest count and we send the shape we would use and why.",
  "corporate": "For {k1} we work to your clock: set-up window, service window, clear-down, one invoice with a TRN, and dietary requirements tracked per person rather than guessed.",
  "chef":      "With {k1} you are booking a named person, not an agency shift. They are vetted in person, cook a trial, and are matched to your kitchen and your menu; the same chef comes back if you want continuity.",
- "alias":     "Yes — {k1} is this service under another name. Same team, same booking route, same itemised quote.",
+ "alias":     "Send the date, guest count and area. We match a chef, write a menu draft, and quote food, staff and 5% VAT on separate lines.",
 }
 OPEN = re.compile(r"^(how|what|why|when|where|who|which)\b")
 def faq_for(kws, page_primary, facts, seed=0, dup=0):
@@ -322,13 +319,13 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
     elif cls == "chef":
         a = f"Yes. Every chef we send for {k1} is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.{alt}"
     elif home_plan:
-        a = [f"Yes — same service as {P} under another name. A vetted chef cooks in your kitchen on the days you choose, the shopping is done for you and ingredients are charged at cost. Tell us the household size and how many meals a week you want covered.{alt}",
-             f"Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.{alt}",
-             f"Yes — different words, one service. We plan the week around what your household eats, cook it in your kitchen and leave it stored and labelled. Tell us how many people eat at home and how often.{alt}"][v]
+        a = [f"A vetted chef cooks in your kitchen on the days you choose, the shopping is done for you and ingredients are charged at cost. Tell us the household size and how many meals a week you want covered.{alt}",
+             f"What you get is one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.{alt}",
+             f"We plan the week around what your household eats, cook it in your kitchen and leave it stored and labelled. Tell us how many people eat at home and how often.{alt}"][v]
     else:
-        a = [f"Yes — same service as {P}, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.{alt}",
-             f"Yes. It is the same booking as {P} under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit.{alt}",
-             f"Yes — {k1} and this page are the same service, reached by different words. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
+        a = [f"We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.{alt}",
+             f"One team, your address, a menu built for the occasion, and an itemised quote before you commit.{alt}",
+             f"Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
     if dup and cls in ANS2:
         a = ANS2[cls].format(k1=k1, P=P, areas=areas, price=price) + alt
     if OPEN.match(norm(k1)):
@@ -341,25 +338,25 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
 # caps a page at 5-8 FAQs. So missing subs go into a prose paragraph in the page's own intro
 # section, not into one FAQ each: it keeps them out of headings and leaves FAQ counts alone.
 SENT = {
-    "price":     "{K} {dep} on the same three things: the guest count, the menu, and how much of the work happens in front of people.",
-    "packages":  "{K} {vb} from a set format and get adjusted to your date rather than sold as a fixed box.",
-    "menu":      "The {k} {be} drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.",
-    "best":      "If you are weighing up {k}, the things worth checking are the named chef, the itemised quote and who buys the ingredients.",
-    "dietary":   "{K} {be} planned into the first draft of the menu rather than bolted on at the end.",
-    "home":      "{K} {be} run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.",
+    "price":     "There is no single number for {k}. Guest count, the menu, and how much of the work happens in the room move the quote.",
+    "packages":  "{K} {vb} as a published format. We adjust it to your date rather than selling a fixed box.",
+    "menu":      "The {k} is drafted around the occasion, the season and the dietary list. You change it before anything is confirmed.",
+    "best":      "If you are weighing up {k}, check the named chef, the itemised quote and who buys the ingredients.",
+    "dietary":   "{K} {be} planned into the first draft of the menu, not added at the end.",
+    "home":      "{K} {be} run at the address you give us. We bring the equipment, cook on site and leave the space as we found it.",
     "corporate": "{K} {be} run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.",
     "occasion":  "{K} {be} planned around the room and the running order, with chefs, service staff and clear-down included.",
     "booking":   "For {k}, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that.",
-    "near_me":   "{K} {be} covered across the whole city, because the chef travels to your address rather than the other way round.",
-    "equipment": "{K} {mean} the chef arriving with knives and any specialist kit, and working with the kitchen you already have.",
+    "near_me":   "{K} {be} covered across the city because the chef travels to your address.",
+    "equipment": "For {k}, the chef arrives with knives and any specialist kit, and works with the kitchen you already have.",
     "choose":    "{K} comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.",
-    "chef":      "{K} {be} the same booking: a vetted chef, matched to your kitchen and your menu.",
-    "alias":     "{K} {be} the same service under another name.",
+    "chef":      "For {k} you book a vetted chef, matched to your kitchen and your menu.",
+    "alias":     "For {k}, send the date, guest count and area. We send a written plan.",
 }
 SENT_HOME = {
-    "price":     "{K} {dep} on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes.",
-    "packages":  "{K} {vb} from a standing weekly format and get shaped around the household rather than sold as a fixed box.",
-    "menu":      "The {k} {be} planned around what your household actually eats, with a draft week you change before anything is confirmed.",
+    "price":     "There is no single number for {k}. How many people eat at home, how many meals a week you want covered, and how often the chef comes all move it.",
+    "packages":  "{K} {vb} as a standing weekly format. We shape it around the household rather than selling a fixed box.",
+    "menu":      "The {k} is planned around what your household actually eats, with a draft week you change before anything is confirmed.",
     "occasion":  "{K} {be} planned around the week rather than a single evening, with the food cooked in your kitchen and left labelled.",
     "home":      "{K} {be} run in your own kitchen, on the days you choose, with the shopping done for you.",
 }
@@ -371,7 +368,7 @@ UNPLACEABLE = re.compile(r"\b(home chef|green chef|blue apron|hello ?fresh|marle
                          r"brisbane|darwin|umanitoba|sydney|melbourne|perth|auckland|london|manchester|dublin|ireland|toronto|vancouver|"
                          r"new york|chicago|houston|dallas|atlanta|seattle|singapore|bangkok|mumbai|delhi|karachi|riyadh|jeddah|doha|"
                          r"beirut|istanbul|paris|berlin|madrid|barcelona|milan|amsterdam|bali|jakarta|colombo|nairobi|lagos|"
-                         r"fsai|log ?in|my account|customer support)\b", re.I)
+                         r"fsai|log ?in|my account|customer support|cat food|dog food|paul catering)\b", re.I)
 
 def body_sentences(missing, primary, facts, seed=0):
     """One sentence per question type, the phrasings joined inside it. Plain text only — no
@@ -382,12 +379,16 @@ def body_sentences(missing, primary, facts, seed=0):
     """
     home_plan = household(primary)
     out, used, seen = [], [], set()
-    for grp in group_variants([k for k in missing if not OPEN.match(norm(k))], per_group=6):
+    # One keyword per sentence. Joining six synonyms produced the "X and Y and Z depend on
+    # the same three things" dumps. Aliases go to FAQs as booking questions, not body lists.
+    for grp in group_variants([k for k in missing if not OPEN.match(norm(k))], per_group=1):
         cls = classify(grp[0])
+        if cls == "alias": continue
         if cls in seen: continue          # one sentence per question type, never the same frame twice
-        seen.add(cls)
         ks = [sentence(k) for k in grp]
-        joined = " and ".join([", ".join(ks[:-1]), ks[-1]]) if len(ks) > 1 else ks[0]
+        joined = ks[0]
+        if UNPLACEABLE.search(joined) or UNPLACEABLE.search(grp[0]):
+            continue
         tpl = (SENT_HOME.get(cls) if home_plan else None) or SENT[cls]
         # "sushi catering packages Dubai" is one phrase but a plural subject — agree with the noun,
         # not with how many phrasings happen to be in the sentence.
@@ -396,6 +397,7 @@ def body_sentences(missing, primary, facts, seed=0):
                        dep="depend" if many else "depends", mean="mean" if many else "means",
                        vb="start" if many else "starts")
         if BANNED.search(s) or "'" in s or "{" in s or "<" in s: continue
+        seen.add(cls)
         out.append(s); used += grp
         if len(out) >= BODY_MAX_SENTENCES: break
     return out, used

@@ -118,12 +118,12 @@ const pricingTiers = MENU_FORMAT_IDS.map((id) => {
 
 const pricingFaqs = [
   {
-    q: 'How much does a private chef cost in Dubai?',
+    q: 'How are catering menus Dubai priced?',
     a: 'Chef-led plated dining starts from AED 700 per person on this page and on the Catering hub. Indicative market for staffed dinners sits around AED 700–950. Household chef visit rates are separate.',
   },
   {
     q: 'Is there a minimum guest count?',
-    a: 'we coordinate catering for events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
+    a: 'We coordinate catering for events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
   },
   {
     q: 'Can we customize the menu?',
@@ -253,7 +253,7 @@ export default function Menus() {
     <>
       <SEO
         title="Catering Menus Dubai | Chef Inspiration & Cuisines"
-        description="Catering menus Dubai from myCHEF: fine dining, Mediterranean, Middle Eastern and Asian fusion. Every menu is designed around your event a"
+        description="Catering Menus Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -263,7 +263,7 @@ export default function Menus() {
       <PageHero
         eyebrow="CULINARY OFFERINGS"
         title="Catering Menus Dubai"
-        subtitle="Catering Menus Dubai by myCHEF — Tell us your occasion and we will bring you a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what w"
+        subtitle="Catering menus Dubai start as samples. Tell us the occasion, the guest list and the kitchen. We rewrite the menu, match a chef, and send an itemised quote."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"

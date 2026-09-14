@@ -149,7 +149,7 @@ const faqs = [
   },
   {
     q: 'What is gala dinner?',
-    a: 'Same service as gala dinner catering Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 

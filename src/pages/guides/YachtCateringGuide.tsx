@@ -123,7 +123,7 @@ const faqs = [
   },
   {
     q: 'How yacht catering works Dubai?',
-    a: 'Cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Jumeirah this is our most common booking. If you searched for what to serve on a yacht Dubai, this is the same service.',
+    a: 'Cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Jumeirah this is our most common booking.',
   },
 ]
 

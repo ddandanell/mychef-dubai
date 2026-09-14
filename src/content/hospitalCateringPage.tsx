@@ -65,8 +65,8 @@ export const hospitalPage: InstitutionalPageContent = {
   },
   siloNote: (
     <>
-      This page owns hospital catering Dubai. Healthcare catering Dubai and hospital catering
-      services Dubai are the same brief. Staff dining that is really a workplace canteen also sits
+      Hospital catering Dubai is this brief. Healthcare catering Dubai and hospital catering
+      services Dubai are the same job. Staff dining that is really a workplace canteen also sits
       on{' '}
       <Link to={INSTITUTIONAL_PATHS.canteen} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         canteen management

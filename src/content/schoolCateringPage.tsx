@@ -65,8 +65,8 @@ export const schoolPage: InstitutionalPageContent = {
   },
   siloNote: (
     <>
-      This page owns school catering Dubai. School lunch delivery Dubai and school meal plans Dubai
-      are this brief. A full canteen fit-out sits on{' '}
+      School catering Dubai is this brief. School lunch delivery Dubai and school meal plans Dubai
+      are the same job. A full canteen fit-out sits on{' '}
       <Link to={INSTITUTIONAL_PATHS.canteen} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         canteen management
       </Link>

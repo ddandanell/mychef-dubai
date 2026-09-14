@@ -159,7 +159,7 @@ const faqs = [
   },
   {
     q: 'Do you also do catering delivery Dubai?',
-    a: 'Yes. It is the same booking as drop off catering Dubai under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit.',
+    a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
   },
 ] as const
 
@@ -371,7 +371,7 @@ export default function DropOffCatering() {
               <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
                 Office catering
               </Link>
-              — that page owns the weekly rhythm. This page owns the single drop.
+              . That is the weekly rhythm. This page is the single drop.
             </BodyCopy>
           </div>
           <EditorialImage
@@ -461,7 +461,7 @@ export default function DropOffCatering() {
             The published drop off catering price per person in Dubai starts from AED 90 for a working-lunch spread. Guest count, menu and delivery move it. The quote is itemised so you can see food, delivery and 5% VAT as separate lines.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Drop off catering Dubai price and drop off catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Meal plans delivery Dubai and drop off catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up luxury food delivery Dubai and best drop off catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The drop off catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Healthy food delivery Dubai, healthy meal delivery Dubai and halal drop off catering Dubai are planned into the first draft of the menu rather than bolted on at the end. Party food delivery Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full min-w-[28rem] text-left font-inter text-body-sm">

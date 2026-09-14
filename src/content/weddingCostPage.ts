@@ -74,7 +74,7 @@ export const costFaqs = [
   },
   {
     q: 'How is the halal wedding catering prices worked out?',
-    a: 'There is no single number for halal wedding catering prices: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as catering services rates Dubai, small wedding catering cost Dubai and catering cost for 200 person wedding — same team, same booking.',
+    a: 'There is no single number for halal wedding catering prices: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
 ] as const
 

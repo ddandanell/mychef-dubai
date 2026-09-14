@@ -65,12 +65,12 @@ export const nurseryPage: InstitutionalPageContent = {
   },
   siloNote: (
     <>
-      This page owns nursery catering Dubai. Preschool catering Dubai and nursery lunch delivery
-      Dubai are the same brief with a different age band or drop-off window. School canteens sit on{' '}
+      Nursery catering Dubai is this brief. Preschool catering Dubai and nursery lunch delivery
+      Dubai are the same job with a different age band or drop-off window. School canteens sit on{' '}
       <Link to={INSTITUTIONAL_PATHS.school} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         school catering
       </Link>
-      . The silo sits on{' '}
+      . Related sites sit on{' '}
       <Link to={INSTITUTIONAL_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         institutional catering Dubai
       </Link>
