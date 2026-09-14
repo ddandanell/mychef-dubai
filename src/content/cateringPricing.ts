@@ -79,9 +79,9 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     typicalMin: 220,
     typicalMax: 420,
     calculatorEstimate: 120,
-    minGuests: 15,
+    minGuests: 20,
     hubMinGuests: 20,
-    note: 'myCHEF floor from AED 120. Calculator minimum 15 guests; a standard event buffet on the hub starts from 20.',
+    note: 'myCHEF floor from AED 120. A standard event buffet starts from 20 guests on the hub, the calculator and Menus.',
   },
   {
     id: 'canapes',
@@ -114,7 +114,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
   {
     id: 'plated-chef',
     label: 'Chef-led plated dining',
-    calculatorLabel: 'Private Chef Experience',
+    calculatorLabel: 'Chef-led plated dining',
     what: 'Courses cooked and served at the table',
     staff: '3 and above',
     href: '/buffet-vs-plated-dubai',

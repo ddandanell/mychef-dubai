@@ -9,6 +9,7 @@ export interface StarterPackage {
   perPerson: string
   included: string
   recurring: boolean
+  period?: string
 }
 
 const eventStarterPackages: StarterPackage[] = EVENT_PACKAGES.map((pkg) => ({
@@ -20,23 +21,25 @@ const eventStarterPackages: StarterPackage[] = EVENT_PACKAGES.map((pkg) => ({
   recurring: false,
 }))
 
-/** Household weekly prep — not catering per-person floors. */
+/** Household weekly prep — Food Prep job on /weekly-meal-prep-dubai, not a separate tariff. */
 const weeklyPrepPackages: StarterPackage[] = [
   {
-    name: 'Weekly Prep Lite',
-    guests: '2–3 guests, weekly',
-    price: '1,900',
-    perPerson: '~949/session',
-    included: 'Two prep sessions a week, a menu built around how you eat, meals portioned and labelled, kitchen left clean.',
+    name: 'Weekly meal prep — one session',
+    guests: 'Up to 8 people',
+    price: '900',
+    perPerson: 'AED 900 / 4-hour session',
+    included: 'The Food Prep job: four hours in your kitchen, meals portioned and labelled, kitchen left clean. Groceries at receipt cost.',
     recurring: true,
+    period: '/ session',
   },
   {
-    name: 'Weekly Prep Standard',
-    guests: '4–6 guests, weekly',
-    price: '2,700',
-    perPerson: '~899/session',
-    included: 'Two prep sessions a week for a larger household, rotating menus, every dietary need covered, kitchen left clean.',
+    name: 'Weekly meal prep — two sessions',
+    guests: 'Up to 8 people',
+    price: '1,800',
+    perPerson: 'AED 1,800 / week',
+    included: 'Two Food Prep sessions a week at AED 900 each. Groceries at receipt cost, no markup.',
     recurring: true,
+    period: '/ week',
   },
 ]
 

@@ -68,7 +68,9 @@ export default function StarterPackagesSection({
                 <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">From AED</span>
                 <p className="font-playfair text-3xl text-gold">
                   {pkg.price}
-                  {pkg.recurring && <span className="font-inter text-sm text-gray-500 ml-1">/ week</span>}
+                  {pkg.recurring && (
+                    <span className="font-inter text-sm text-gray-500 ml-1">{pkg.period || '/ week'}</span>
+                  )}
                 </p>
               </div>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed flex-1 mb-6">

@@ -84,6 +84,10 @@ export default function YachtQuoteForm({ prefill }: Props) {
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!fields.phone.trim() && !fields.email.trim()) {
+      setStatus('error')
+      return
+    }
     setStatus('sending')
     trackConversion('inquiry_start', 'inquiry_form')
     const message = [
@@ -210,12 +214,12 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <input required className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
       </label>
       <label className="block">
-        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp / phone</span>
-        <input required type="tel" className={field} autoComplete="tel" value={fields.phone} onChange={update('phone')} />
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp / phone (optional if you gave an email)</span>
+        <input type="tel" className={field} autoComplete="tel" value={fields.phone} onChange={update('phone')} />
       </label>
       <label className="block sm:col-span-2">
-        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Email</span>
-        <input required type="email" className={field} autoComplete="email" value={fields.email} onChange={update('email')} />
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Email (optional if you gave a phone)</span>
+        <input type="email" className={field} autoComplete="email" value={fields.email} onChange={update('email')} />
       </label>
       {prefill.estimate ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">

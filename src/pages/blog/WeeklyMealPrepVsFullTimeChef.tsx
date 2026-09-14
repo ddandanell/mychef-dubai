@@ -30,7 +30,7 @@ const SLUG = 'weekly-meal-prep-vs-full-time-chef-dubai'
 const faqs = [
   {
     q: 'Is weekly meal prep cheaper than a full-time chef in Dubai?',
-    a: 'Yes, for most households. A weekly meal prep service typically costs AED 1,900–2,700 per week for two prep sessions, while a full-time private chef costs AED 18,000–35,000+ per month plus benefits, accommodation, and visa sponsorship.',
+    a: 'Yes, for most households. Weekly meal prep is the Food Prep job: AED 900 for one four-hour session, or AED 1,800 a week for two sessions. Groceries are charged at receipt cost. A standing household chef is priced per visit on the private chef pricing page, for example a weekly Fresh Meal at AED 3,000 a month before VAT.',
   },
   {
     q: 'Who should hire a full-time private chef instead of meal prep?',
@@ -137,9 +137,9 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </div>
 
           <KeyFactsBox
-            answer="Weekly meal prep in Dubai usually costs AED 1,900–2,700 per week and suits busy households wanting flexibility; a full-time private chef costs AED 18,000–35,000+ per month and suits households needing daily on-call cooking."
+            answer="Weekly meal prep is AED 900 a session or AED 1,800 a week for two sessions. A standing household chef is priced per visit; a weekly Fresh Meal is AED 3,000 a month before VAT."
             facts={[
-              { label: 'Weekly meal prep', value: 'AED 1,900–2,700 / week' },
+              { label: 'Weekly meal prep', value: 'AED 900 / session' },
               { label: 'Full-time private chef', value: 'AED 18,000–35,000+ / month + benefits' },
               { label: 'Meal prep commitment', value: 'Weekly or monthly plan' },
               { label: 'Full-time commitment', value: 'Annual contract typical' },
@@ -171,8 +171,8 @@ export default function WeeklyMealPrepVsFullTimeChef() {
                 <tbody className="text-gray-500">
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Typical cost</td>
-                    <td className="py-3 pr-4">AED 1,900–2,700 / week</td>
-                    <td className="py-3">AED 18,000–35,000+ / month</td>
+                    <td className="py-3 pr-4">AED 900 / session, AED 1,800 / week for two</td>
+                    <td className="py-3">Priced per visit; weekly Fresh Meal AED 3,000 / month before VAT</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Salary + benefits</td>

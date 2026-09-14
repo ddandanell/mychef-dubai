@@ -128,7 +128,7 @@ const faqs = [
   },
   {
     q: 'When to hire a caterer?',
-    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day. If you searched for how far ahead to book a caterer Dubai, this is the same service.',
+    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A 50% deposit holds the date and the remaining 50% is due 24 hours before the first scheduled service.',
   },
   {
     q: 'What to look for in a catering company?',

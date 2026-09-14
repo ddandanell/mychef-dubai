@@ -110,12 +110,8 @@ const faqs = [
     a: 'Yes. Every booking is confirmed in writing with menu details, guest count, pricing, deposit, balance due date, cancellation terms, and any special arrangements.',
   },
   {
-    q: 'When should I sort out mission BBQ catering cancellation policy?',
-    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day. Catering hall contract cancellation policy and catering contract wedding cancellation policy land on this page too; it is one service.',
-  },
-  {
-    q: 'What happens if my chef cancels Dubai?',
-    a: 'Every chef we send for what happens if my chef cancels Dubai is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+    q: 'When is the remaining balance due?',
+    a: 'A 50% deposit confirms the date. The remaining 50% is due 24 hours before the first scheduled service. Bookings confirmed inside that window are paid in full at confirmation. That is the same rule as the private client and corporate booking terms.',
   },
 ]
 

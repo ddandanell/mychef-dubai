@@ -120,7 +120,7 @@ export default function PrivateChef() {
         imageHeight={HERO_IMAGE_HEIGHT}
         videoSrc="/videos/private-chef-hero.mp4"
         cta={{ label: FIND_CHEF_LABEL, href: INQUIRY_HREF }}
-        secondaryCta={{ label: 'How It Works', href: CLUSTER_PATHS.howItWorks }}
+        secondaryCta={{ label: 'Planning a dinner party?', href: '/catering-dubai' }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private chef' }]}
         minHeight="full"
         overlay="cinematic"

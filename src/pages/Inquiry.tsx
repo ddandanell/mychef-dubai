@@ -28,6 +28,7 @@ import {
 } from '@/content/birthdayExtras'
 import { scenarioById } from '@/content/birthdayStatement'
 import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
+import QuoteRequestForm from '@/components/inquiry/QuoteRequestForm'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -37,12 +38,6 @@ const DEFAULT_WHATSAPP_MESSAGE =
 const breadcrumbs = [
   { name: 'Home', path: '/' },
   { name: 'Request a Quote', path: '/inquiry' },
-]
-
-const valueBullets = [
-  'Custom menu designed around your event',
-  'Vetted, licensed chefs matched to your occasion',
-  'Reply within 15 minutes during business hours',
 ]
 
 const trustBadges = [
@@ -70,7 +65,10 @@ export default function Inquiry() {
         scenario: birthdayScenario?.title,
       }
     : null
-  const whatsappMessage = yachtPrefill
+  const chefPref = params.get('chef')
+  const whatsappMessage = chefPref
+    ? `Hi myCHEF Dubai, I would like to enquire about chef ${chefPref.replace(/-/g, ' ')} as a preference. Availability to be confirmed. (via mychef.ae/inquiry)`
+    : yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
     : corporatePkg
       ? corporateWhatsAppMessage(corporatePkg, Number.isFinite(guestsParam) && guestsParam > 0 ? guestsParam : undefined)
@@ -180,9 +178,7 @@ export default function Inquiry() {
             <span className="word inline-block">Free,</span>{' '}
             <span className="word inline-block">Tailored</span>
             <br className="hidden sm:block" />
-            <span className="word inline-block">Quote</span>{' '}
-            <span className="word inline-block">on</span>{' '}
-            <span className="word inline-block">WhatsApp</span>
+            <span className="word inline-block">Quote</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
             {yachtPrefill
@@ -210,41 +206,27 @@ export default function Inquiry() {
                 </div>
               ) : null}
               <h2 className="font-playfair text-fluid-h3 text-black mb-4">
-                Get Your Tailored Quote on WhatsApp
+                Send a short brief
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Tap the button below to start a WhatsApp chat. A coordinator will review your event and send a tailored proposal fast.
+                Date, headcount and area are enough to start. Choose WhatsApp or email. A coordinator replies with a written proposal, typically within 15 minutes during business hours.
               </p>
-
-              <ul className="flex flex-col gap-4 mb-8">
-                {valueBullets.map((bullet) => (
-                  <li key={bullet} className="flex items-start gap-3 font-inter text-body text-black">
-                    <Check size={20} className="text-gold flex-shrink-0 mt-0.5" aria-hidden="true" />
-                    {bullet}
-                  </li>
-                ))}
-              </ul>
-
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-white"
-              >
-                <Phone size={18} aria-hidden="true" />
-                Get My Free Quote on WhatsApp
-              </a>
-
-              <p className="font-inter text-body-sm text-gray-600 mt-4 flex items-center gap-2">
-                <Check size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
-                We reply within 15 minutes during business hours
-              </p>
-
+              <QuoteRequestForm />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
-                Prefer email?{' '}
+                Or skip the form and{' '}
+                <a
+                  href={WHATSAPP_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
+                >
+                  open WhatsApp with this page already attached
+                </a>
+                . You can also write to{' '}
                 <a href="mailto:info@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
                   info@mychef.ae
                 </a>
+                .
               </p>
             </div>
 

@@ -13,15 +13,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const formId = body.formId || 'lead_form'
 
     const isLeadMagnet = formId === 'lead-magnet-form'
+    const isQuote = formId === 'quote_request'
 
-    // Lead magnet only requires a phone number; full forms require name/email/service
     const requiredFields = isLeadMagnet
       ? ['phone']
-      : ['name', 'email', 'phone', 'serviceType']
+      : isQuote
+        ? ['serviceType']
+        : ['name', 'email', 'phone', 'serviceType']
 
     for (const field of requiredFields) {
       if (!body[field] || typeof body[field] !== 'string' || !body[field].trim()) {
         return res.status(400).json({ error: `Missing required field: ${field}` })
+      }
+    }
+
+    if (isQuote) {
+      const emailOk = typeof body.email === 'string' && body.email.trim() && body.email !== 'not given'
+      const phoneOk = typeof body.phone === 'string' && body.phone.trim() && body.phone !== 'not given'
+      if (!emailOk && !phoneOk) {
+        return res.status(400).json({ error: 'Provide an email or a phone number' })
       }
     }
 
@@ -47,7 +57,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const port = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : 587
     const user = process.env.SMTP_USER
     const pass = process.env.SMTP_PASS
-    const to = process.env.LEAD_EMAIL_TO || 'info@mychef.id'
+    const to = process.env.LEAD_EMAIL_TO || 'info@mychef.ae'
     const from = process.env.SMTP_FROM || user || 'leads@mychef.ae'
 
     let emailSent = false

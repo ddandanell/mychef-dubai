@@ -106,8 +106,8 @@ export default function PrivateChefCostDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How Much Does Private Chef Cost Dubai — a?"
-        description="How Much Does Private Chef Cost Dubai — How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get…"
+        title="How Much Does a Private Chef Cost in Dubai? | myCHEF"
+        description="How much a private chef costs in Dubai: household visit rates from AED 750, dinner pricing, and what changes the figure. Itemised quotes, 5% VAT shown separately."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         schema={schema}
@@ -116,8 +116,8 @@ export default function PrivateChefCostDubai() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Private Chef"
-        title="How Much Does Private Chef Cost Dubai — a?"
-        subtitle="How Much Does Private Chef Cost Dubai by myCHEF — Understand what goes into private chef pricing so you can budget confidently for an intimate dinner, family celebration, or special occasion."
+        title="How Much Does a Private Chef Cost in Dubai?"
+        subtitle="Household visits start at AED 750. A dinner for guests is catering, quoted per person. This page explains the difference so you can budget before you enquire."
         image="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         imageAlt="Host and coordinator reviewing an itemised private chef proposal at a dining table"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Cost Dubai' }]}
@@ -149,10 +149,10 @@ export default function PrivateChefCostDubai() {
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hiring a private chef in Dubai is one of the easiest ways to turn a regular evening into a memorable dining experience. Whether you want a romantic dinner for two, a family celebration in your villa, or a refined tasting menu for friends, a private chef brings restaurant-quality food and service directly to your home.
+              How much does private chef cost Dubai depends on the job. A household visit is priced by the hours the chef is in your kitchen. A dinner for guests is catering, quoted per person. Those are different products.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private chef cost dc, average private chef cost, private chef cost per day, private chef cost per person Dubai and private chef cost for 6 people Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Is a private chef worth it Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
+              Published household visits start at AED 750 for a three-hour Fresh Meal. Food Prep is AED 900 for four hours. A dinner party is not that visit multiplied: it is a catering quote with staff and a running order.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Pricing varies based on group size, menu complexity, ingredients, and staffing. This guide explains typical private chef costs in Dubai and what to ask when requesting a quote.

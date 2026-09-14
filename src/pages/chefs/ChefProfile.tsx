@@ -9,6 +9,7 @@ import { SectionLabel } from '@/components/system'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
 import { ORGANIZATION_REF } from '@/lib/organizationSchema'
+import { chefInquiryHref } from '@/lib/chefInquiry'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -48,7 +49,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
   const detailsRef = useRef<HTMLDivElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
 
-  const inquiryLink = `/inquiry'/chefs/', '')}`
+  const inquiryLink = chefInquiryHref(chef.slug)
   const whatsappMessage = encodeURIComponent(
     `Hi myCHEF Dubai, I would like to inquire about Chef ${chef.name} (via mychef.ae${chef.slug})`
   )
@@ -336,7 +337,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
               Book Chef {firstName}
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Bring {chef.name} to your next event for a fully custom menu and flawless service.
+              Ask for {chef.name} as a preference. We confirm availability in the written proposal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={inquiryLink} className="btn-primary">

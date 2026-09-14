@@ -252,7 +252,7 @@ export default function CateringCostCalculator() {
               and we will respond within 15 minutes during business hours.
             </p>
             <p className="font-inter text-body-sm text-gray-500">
-              Estimate catering cost Dubai, catering calculator per person, small catering cost calculator Dubai, wedding catering cost calculator Dubai and birthday catering cost calculator Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people.
+              The figure moves with guest count, the menu and how much of the work happens in front of people. If the headcount sits below a format minimum, request a tailored quote instead of forcing the calculator.
             </p>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function CateringCostCalculator() {
               },
               {
                 q: 'Is there a minimum guest count?',
-                a: 'Yes. The calculator will not total a format below its minimum: 2 guests for plated chef dining, 10 for canapés, 15 for buffet and BBQ, 8 for yacht catering, 20 for wedding catering. A standard event buffet on the catering hub starts from 20 guests.',
+                a: 'Yes. The calculator will not total a format below its minimum: 2 guests for plated chef dining, 10 for canapés, 20 for a standard event buffet, 15 for BBQ, 8 for yacht catering, 20 for wedding catering. Those are the same floors as the catering hub.',
               },
               {
                 q: 'What is included in the price?',

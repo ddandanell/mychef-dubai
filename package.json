@@ -22,6 +22,7 @@
     "test:birthday-extras": "tsx scripts/test-birthday-extras.ts",
     "test:birthday-rsa": "tsx scripts/test-birthday-rsa.ts",
     "test:booking-terms": "tsx scripts/test-booking-terms.ts",
+    "test:chef-inquiry": "tsx scripts/test-chef-inquiry.ts",
     "test:seo-g-h": "tsx scripts/test-seo-g-h.ts",
     "test:faq-jsonld": "tsx scripts/test-faq-jsonld.ts",
     "test:conversion-events": "tsx scripts/test-conversion-events.ts",

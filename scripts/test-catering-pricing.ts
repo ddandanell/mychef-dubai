@@ -40,7 +40,7 @@ const buffet = CATERING_FORMATS.find((f) => f.id === 'buffet')
 eq('buffet from (hub floor)', buffet?.fromPerPerson, 120)
 eq('buffet typical', [buffet?.typicalMin, buffet?.typicalMax], [220, 420])
 eq('buffet calculator start matches hub floor', buffet?.calculatorEstimate, 120)
-eq('buffet min guests (calculator label)', buffet?.minGuests, 15)
+eq('buffet min guests (calculator and hub)', buffet?.minGuests, 20)
 eq('buffet hub event min', buffet?.hubMinGuests, 20)
 
 const plated = CATERING_FORMATS.find((f) => f.id === 'plated-chef')
@@ -66,20 +66,23 @@ eq('drop-off hub does not print 90–90', /90–90/.test(dropHub?.price ?? ''), 
 
 const below = quoteCatering({ formatId: 'buffet', guests: 10, staffId: 'none' })
 eq('buffet at 10 guests is refused', below.ok, false)
-if (!below.ok) eq('buffet refusal min', below.minGuests, 15)
+if (!below.ok) eq('buffet refusal min', below.minGuests, 20)
 
-const atMin = quoteCatering({ formatId: 'buffet', guests: 15, staffId: 'none' })
-eq('buffet at 15 is quoted', atMin.ok, true)
+const atFifteen = quoteCatering({ formatId: 'buffet', guests: 15, staffId: 'none' })
+eq('buffet at 15 is refused', atFifteen.ok, false)
+
+const atMin = quoteCatering({ formatId: 'buffet', guests: 20, staffId: 'none' })
+eq('buffet at 20 is quoted', atMin.ok, true)
 if (atMin.ok) {
   eq('buffet start per person', atMin.perPerson, 120)
-  eq('buffet total low', atMin.totalLow, 120 * 15)
+  eq('buffet total low', atMin.totalLow, 120 * 20)
 }
 
 const canapeTen = quoteCatering({ formatId: 'canapes', guests: 10, staffId: 'none' })
 eq('canapés at 10 is quoted', canapeTen.ok, true)
 if (canapeTen.ok) eq('canapé start per person', canapeTen.perPerson, 150)
 
-eq('clamp 10 on buffet → 15', clampGuests('buffet', 10), 15)
+eq('clamp 10 on buffet → 20', clampGuests('buffet', 10), 20)
 eq('clamp 20 on buffet stays 20', clampGuests('buffet', 20), 20)
 
 eq(
