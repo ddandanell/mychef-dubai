@@ -95,10 +95,10 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Identity & background</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Only checks we actually run</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Someone is coming into your home. We check identity and right to work, run a practical cooking assessment, take references, and require food-hygiene awareness. That is the list. We ask to see the visa and the right-to-work document before anyone cooks in your kitchen. Not a tick on a form — the document itself.
+            Someone is coming into your home. We check identity and right to work, run a practical cooking assessment, take references, and require food-hygiene awareness. That is the list. We ask to see the visa and the right-to-work document before anyone cooks in your kitchen. Not a tick on a form: the document itself.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            We are not an agency. Nobody sends you a stack of CVs and then disappears once someone is hired. We stay in the assignment — the checks below are ours to run, and ours to stand behind for as long as the chef is in your family’s home.
+            We are not an agency. Nobody sends you a stack of CVs and then disappears once someone is hired. We stay in the assignment. The checks below are ours to run, and ours to stand behind for as long as the chef is in your family’s home.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
             Said plainly, because it decides what lands on you. We match the person to your home, manage the arrangement, score the work, and stand behind the standard. You never put a chef on your payroll, and there is no visa or sponsorship for you to arrange.
@@ -132,7 +132,7 @@ export default function PrivateChefPrivacySecurity() {
             })}
           </ol>
           <BodyCopy muted className="mt-8 max-w-[760px]">
-            New chefs start on supervised or smaller bookings, and placements are reviewed after service. Those are operating habits, not extra credentials. How feedback is used — and when we change the match — is on{' '}
+            New chefs start on supervised or smaller bookings, and placements are reviewed after service. Those are operating habits, not extra credentials. How feedback is used, and when we change the match, is on{' '}
             <Link to={CLUSTER_PATHS.quality} className="text-gold-ink underline underline-offset-4">Quality & Training</Link>.
           </BodyCopy>
         </Container>
@@ -158,7 +158,7 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Discretion</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Information boundaries</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[760px]">
-            Discretion is not a slogan. It is a line. On one side, what a chef must know to cook safely in your home. On the other, everything that is none of their business. The Food Profile holds the first of those — see{' '}
+            Discretion is not a slogan. It is a line. On one side, what a chef must know to cook safely in your home. On the other, everything that is none of their business. The Food Profile holds the first of those. See{' '}
             <Link to={CLUSTER_PATHS.howItWorks} className="text-gold-ink underline underline-offset-4">how that record is built</Link>.
           </BodyCopy>
           <div className="grid md:grid-cols-2 gap-6">
@@ -184,10 +184,10 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow tone="dark">Dedicated contact</Eyebrow>
           <DisplayHeading size="h2" className="text-white mb-4">You should not have to manage every issue directly with the chef</DisplayHeading>
           <BodyCopy tone="dark" className="mb-5 max-w-[760px]">
-            myCHEF stays in the middle of it. Anything that was not right goes to your household manager — a change of chef, a specialist for Friday, a chef who cannot come.
+            myCHEF stays in the middle of it. Anything that was not right goes to your household manager: a change of chef, a specialist for Friday, a chef who cannot come.
           </BodyCopy>
           <BodyCopy tone="dark-strong" className="max-w-[760px]">
-            When an assignment ends, so does the access. Your Food Profile stays with you, and the next chef is briefed from that record — not from a hurried handover at your door. We only describe procedures we actually run.
+            When an assignment ends, so does the access. Your Food Profile stays with you, and the next chef is briefed from that record, not from a hurried handover at your door. We only describe procedures we actually run.
           </BodyCopy>
         </Container>
       </Section>
@@ -199,7 +199,7 @@ export default function PrivateChefPrivacySecurity() {
               <h3 className="font-playfair text-h3 text-black mb-5">What we do not promise</h3>
               <ul className="space-y-3">
                 {dontPromise.map((item) => (
-                  <li key={item} className="font-inter text-body-sm text-gray-500 leading-relaxed">— {item}</li>
+                  <li key={item} className="font-inter text-body-sm text-gray-500 leading-relaxed">{item}</li>
                 ))}
               </ul>
             </div>
@@ -216,7 +216,7 @@ export default function PrivateChefPrivacySecurity() {
             </div>
           </div>
           <BodyCopy muted className="mt-8 max-w-[760px]">
-            Those are operating commitments — a match, a contact, a travelling Food Profile — not extra background-check products.
+            Those are operating commitments: a match, a contact, a travelling Food Profile. They are not extra background-check products.
           </BodyCopy>
         </Container>
       </Section>
@@ -248,7 +248,7 @@ export default function PrivateChefPrivacySecurity() {
         </div>
       </section>
 
-      <ClusterCTA title="A chef in your home, with a standard around them" body="A private chef for family life means guests, children and the school week. Tell us about your family. We match the chef, run the checks above, and manage the arrangement — you are not left running it yourself." />
+      <ClusterCTA title="A chef in your home, with a standard around them" body="A private chef for family life means guests, children and the school week. Tell us about your family. We match the chef, run the checks above, and manage the arrangement. You are not left running it yourself." />
     </div>
   )
 }

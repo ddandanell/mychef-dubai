@@ -5,47 +5,47 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'coffee-tea-service-dubai',
-  seoTitle: "Coffee & Tea Service Dubai | Receptions",
+  seoTitle: 'Coffee & Tea Service Dubai | myCHEF',
   metaDescription:
-    'Coffee and tea service in Dubai: barista-style coffee, specialty teas, pastries and light bites for corporate receptions, meetings, breakfasts and events.',
+    'Coffee and tea service in Dubai: barista coffee, teas and labelled bites for meetings and receptions. Quoted with the catering. Canonical: catering hub.',
   canonicalPath: '/catering-dubai',
   ogImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Coffee & Tea Service Dubai',
   h1: 'Coffee & Tea Service in Dubai',
   heroSub:
-    'Elevate your reception, meeting or break with professional coffee and tea service across Dubai — from barista-brewed coffee and specialty teas to fresh pastries, healthy bites and full breakfast spreads.',
+    'Coffee and tea service in Dubai is a drinks station: barista coffee, teas, Arabic coffee if you ask, and labelled bites. It is quoted with the catering. Breakfast and afternoon tea own their own pages.',
   heroImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange coffee and tea service in Dubai (via mychef.ae/coffee-tea-service-dubai)',
   eyebrow: 'COFFEE & TEA SERVICE IN DUBAI',
-  introH2: 'A Better Break Starts Here',
+  introH2: 'A drinks station, not a breakfast menu',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Great coffee and tea can transform a ordinary meeting, conference break or welcome reception into something people remember. Our coffee and tea service in Dubai delivers barista-quality drinks, curated tea selections, fresh pastries and light snacks wherever you are hosting — offices, venues, showrooms and private homes across the city.
+        Coffee and tea service in Dubai is cups, a station and someone to pour: espresso drinks, Arabic coffee, teas and labelled pastries. There is no published per-person floor for the station alone. It is quoted with the catering, or as an add-on. This URL is not the catering hub.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We set up elegant service stations staffed by professional teams who keep cups full and guests happy. Choose from espresso-based coffees, Arabic coffee, cold brew, flavoured teas, matcha and wellness infusions, paired with croissants, muffins, sandwiches and grazing boards. Everything is tailored to your schedule, guest profile and dietary requirements.
+        Timed refills for a meeting. A welcome table for a reception. Plant milks and named diets on the first draft. Gahwa with dates if that is the brief.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service works as a stand-alone reception offering or as an add-on to our{' '}
+        A full morning spread lives on{' '}
         <Link to="/breakfast-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          breakfast catering Dubai
-        </Link>{' '}
-        and{' '}
-        <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          corporate event catering Dubai
-        </Link>{' '}
-        packages, and complements{' '}
+          breakfast catering
+        </Link>
+        . A seated tea lives on{' '}
+        <Link to="/afternoon-tea-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          afternoon tea catering
+        </Link>
+        . Recurring office food lives on{' '}
         <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          office catering Dubai
-        </Link>{' '}
-        for regular meetings and team days.
+          office catering
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Coffee & Tea Service Formats',
+  formatsH2: 'How the station is staffed',
   formats: [
     {
       Icon: Coffee,
@@ -79,7 +79,7 @@ const config: ServicePageConfig = {
     },
   ],
   useCasesEyebrow: 'WHERE COFFEE & TEA SERVICE WORKS',
-  useCasesH2: 'Built for Every Kind of Gathering',
+  useCasesH2: 'Meetings, receptions, a morning brief',
   useCases: [
     {
       title: 'Corporate Receptions',
@@ -102,7 +102,7 @@ const config: ServicePageConfig = {
         'Add a touch of hospitality to brunches, baby showers and family gatherings with a dedicated drinks station.',
     },
   ],
-  includedH2: "What's Included in Our Coffee & Tea Service",
+  includedH2: 'What the coffee and tea quote lists',
   includedItems: [
     { title: 'Barista-Style Coffee', description: 'Espresso-based drinks prepared fresh by trained service staff.' },
     { title: 'Curated Tea Selection', description: 'Black, green, herbal, matcha and Arabic coffee options to suit every guest.' },
@@ -158,7 +158,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Corporate Event Catering',
-      description: 'fully-coordinated catering for conferences, product launches and company celebrations.',
+      description: 'Conferences, launches and company nights. Coffee can sit as a station on that brief.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },
@@ -169,9 +169,9 @@ const config: ServicePageConfig = {
       link: '/office-catering-dubai',
     },
   ],
-  ctaH2: 'Book Coffee & Tea Service for Your Next Event',
+  ctaH2: 'Send the time window and the headcount',
   ctaP:
-    'Tell us about your event, guest count, timings and drink preferences. We will design a coffee and tea service that keeps everyone refreshed and impressed.',
+    'Date, guest count, area and whether you need Arabic coffee, plant milks or a full breakfast instead. We typically reply within 15 minutes during business hours.',
 }
 
 export default function CoffeeTeaService() {

@@ -36,63 +36,63 @@ const CANONICAL_PATH = '/booking-protection-insurance'
 const protections = [
   {
     icon: UserX,
-    title: 'Backup Chef Policy',
-    description: 'If your confirmed chef becomes unavailable due to illness, emergency, or another unavoidable issue, we activate our backup chef network immediately. Our goal is always to supply a qualified replacement who matches your event cuisine and scale, with as much notice as possible.',
+    title: 'If the chef cannot attend',
+    description: 'If a confirmed chef is ill or otherwise unavailable, we send a replacement from the same network and brief them from the booking. You should not have to re-explain the house at the door.',
   },
   {
     icon: ShieldCheck,
-    title: 'Insurance Requirements',
-    description: 'We require every culinary partner to maintain appropriate food-handling and personal liability arrangements, and we verify this before they work an event. This means the licensed professionals preparing your food carry their own cover for food-related incidents during service.',
+    title: 'Insurance on the people who cook',
+    description: 'Culinary partners must carry appropriate food-handling and personal liability cover. We verify this before they work a booking. myCHEF remains your contracting party for refunds.',
   },
   {
     icon: Banknote,
-    title: 'Deposit & Payment Structure',
+    title: 'Deposit and payment',
     description: DEPOSIT_FAQ_ANSWER,
   },
   {
     icon: FileCheck,
-    title: 'Cancellation & Refund Policy',
+    title: 'Cancellation and refund',
     description: CANCELLATION_FAQ_ANSWER,
   },
   {
     icon: MessageCircleWarning,
-    title: 'Complaint Handling',
-    description: 'If something does not meet expectations, we want to know. Complaints are escalated to an event manager, investigated promptly, and resolved fairly — whether through partial refund, service credit, or a detailed explanation of what happened.',
+    title: 'If the night falls short',
+    description: 'Write to info@mychef.ae or the WhatsApp used for the booking. Failure credits follow the booking terms: not delivered, severe, material, or a minor shortfall. This page does not invent a second schedule.',
   },
   {
     icon: ClipboardList,
-    title: 'Clear Written Terms',
-    description: 'Every client receives a written proposal or booking confirmation outlining the menu, guest count, price, deposit, balance due date, cancellation terms, and any special arrangements. Clarity protects both sides.',
+    title: 'The written booking is the contract',
+    description: 'Menu, guest count, price, deposit, balance due date, cancellation terms and any special arrangements are confirmed in writing. Payment of the deposit is acceptance.',
   },
 ]
 
 const policyNotes = [
   {
-    title: 'Backup chefs are pre-qualified',
-    description: 'Replacement chefs are drawn from the same professional team and briefed on your menu before arrival.',
+    title: 'Backup is briefed from the record',
+    description: 'Replacement chefs come from the same network and are briefed on the menu, headcount and dietary notes before they arrive.',
   },
   {
-    title: 'Insurance is active, not aspirational',
-    description: 'We confirm that the licensed chefs preparing your food carry appropriate food-handling and personal liability protection.',
+    title: 'Insurance is checked, not assumed',
+    description: 'We confirm that the licensed people preparing your food carry food-handling and personal liability cover.',
   },
   {
-    title: 'Deposits secure resources',
-    description: 'Your deposit allows us to reserve staff, block the chef\'s calendar, and pre-order premium ingredients for your event.',
+    title: 'A 50% deposit confirms the date',
+    description: 'The remaining 50% is due seven days before the first service. Bookings made inside seven days are payable in full on confirmation.',
   },
   {
-    title: 'Cancellations are handled fairly',
-    description: 'The refund schedule is written in the booking terms: earlier notice returns more of the deposit; later notice retains more, together with committed costs. Less than 48 hours can mean up to the full booking value.',
+    title: 'Cancellation follows the calendar',
+    description: 'Fifteen or more days, 8 to 14 days, 48 hours to 7 days, under 48 hours. Days are calendar dates in Dubai time, UTC+4. There is no six-day full-refund rule.',
   },
 ]
 
 const faqs = [
   {
     q: 'What happens if my chef cancels?',
-    a: 'If your confirmed chef becomes unavailable, we activate a qualified backup chef from our professional team. The replacement is briefed on your menu, guest count, and dietary requirements, and we notify you as early as possible.',
+    a: 'If the confirmed chef cannot attend, we send a replacement from the same network and brief them from the booking: menu, guest count and dietary notes. We tell you as soon as we know.',
   },
   {
     q: 'Are you insured?',
-    a: 'The licensed culinary partners who prepare your food carry appropriate food-handling and personal liability coverage, which we verify before they work with you. This protects against incidents during preparation and service.',
+    a: 'The licensed culinary partners who prepare your food carry food-handling and personal liability cover, which we verify before they work a booking. myCHEF remains your contracting party for refunds.',
   },
   {
     q: 'What is your cancellation policy?',
@@ -104,7 +104,7 @@ const faqs = [
   },
   {
     q: 'How do you handle complaints?',
-    a: 'Complaints are escalated to an event manager, investigated promptly, and resolved fairly. Depending on the situation, this may include a partial refund, service credit, or a clear explanation of the resolution.',
+    a: 'Write to info@mychef.ae or the WhatsApp used for the booking. We measure the night against the written proposal. Credits follow the failure bands in the booking terms.',
   },
   {
     q: 'Will I receive written booking terms?',
@@ -125,7 +125,7 @@ const relatedServices = [
   },
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke private chef dinners and experiences in your home, villa, or yacht.',
+    description: 'A standing chef for the house, managed for you. One dinner is catering.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
@@ -201,7 +201,7 @@ export default function BookingProtectionInsurance() {
       <SEO
         title="Catering Cancellation Policy Dubai | myCHEF"
         hideSiteName
-        description="Catering Cancellation Policy Dubai — Learn how myCHEF Dubai protects your booking with backup chefs, liability insurance, fair cancellation terms, deposit…"
+        description="Catering cancellation policy Dubai: 15 days or more, 8 to 14 days, 48 hours to 7 days, under 48 hours. Deposit 50%. Balance due 7 days before service."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/booking-protection-insurance-dubai-hero.webp"
         schema={schema}
@@ -228,10 +228,10 @@ export default function BookingProtectionInsurance() {
             Catering Cancellation Policy Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bpi-hero-sub">
-            Clear policies, backup chef cover, liability insurance, and fair cancellation terms — so you can book your private chef or catering event with confidence.
+            A 50% deposit confirms the booking. The balance is due seven days before. Cancellation follows 15 days, 8 to 14 days, 48 hours to 7 days, and under 48 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -250,19 +250,19 @@ export default function BookingProtectionInsurance() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">BOOK WITH CONFIDENCE</SectionLabel>
+          <SectionLabel align="center">THE WRITTEN RULES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Protection Built Into Every Booking
+            Catering cancellation policy Dubai is already in the terms
           </h2>
           <div className="bpi-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The written catering cancellation policy Dubai is in the <Link to="/private-client-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private client booking terms</Link> and the <Link to="/corporate-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate booking terms</Link>. Booking a private chef or catering service should feel clear, not uncertain. The questions below are the ones clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
+              The catering cancellation policy Dubai lives in the <Link to="/private-client-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private client booking terms</Link> and the <Link to="/corporate-booking-terms" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate booking terms</Link>. This page explains them in plain English. It does not replace them.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The answers below are honest and practical. We do not promise that problems never happen — no service can. What we promise is that we have thought about them in advance, documented our terms clearly, and trained our chefs to respond quickly and fairly when they do. That is what booking protection means to us.
+              Cancel in writing. Fifteen or more days before: the deposit is refunded less committed costs; we may retain 5% of the booking value for administration. Eight to 14 days: half the deposit is refunded, less committed costs. Forty-eight hours to seven days: the deposit is retained in full, together with committed costs. Less than 48 hours: up to 100% of the booking value may be payable. Days are calendar dates in Dubai time, UTC+4.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              For additional reassurance, read about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>, explore our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or view our <Link to="/venue-partners" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">venue partners</Link> for trusted locations across Dubai.
+              Also read <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs are checked</Link> and <Link to="/quality-guarantee-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">what happens if the service falls short</Link>.
             </p>
           </div>
         </div>
@@ -274,7 +274,7 @@ export default function BookingProtectionInsurance() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WHAT IS COVERED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              How We Protect Your Event
+              What the booking actually protects
             </h2>
           </div>
 
@@ -376,7 +376,7 @@ export default function BookingProtectionInsurance() {
             Get a clear written proposal with deposit, cancellation, and insurance details for your private chef or catering event in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

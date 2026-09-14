@@ -147,15 +147,15 @@ const faqs = [
     a: 'Yes. Memberships can be purchased as gifts. Contact us for gift packaging and recipient onboarding.',
   },
   {
-    q: 'Is VIP dining club Dubai the same as myCHEF VIP club?',
-    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+    q: 'Is VIP dining club Dubai the same as myCHEF VIP Club?',
+    a: 'Yes. This page is the myCHEF VIP Club. Gold is 5% off the quoted service. Platinum is 10%, with a named account manager. The chef and the food are still quoted as a booking.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke in-home dining with a private chef for every occasion across Dubai.',
+    description: 'A standing chef for the house, managed for you. One dinner is catering.',
     image: '/images/private-chef-dubai-hero.webp',
     link: '/private-chef-dubai',
   },
@@ -295,10 +295,10 @@ export default function VIPClub() {
             myCHEF VIP Club
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vip-hero-sub">
-            Priority access, exclusive menus, and member-only perks for Dubai’s most discerning hosts.
+            Gold and Platinum membership for hosts who book often. Priority windows, member rates and a named contact. The chef is still quoted separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vip-hero-cta">Get a Tailored Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vip-hero-cta">Ask about membership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -317,15 +317,15 @@ export default function VIPClub() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">MEMBERSHIP</SectionLabel>
+          <SectionLabel align="center">FOR HOSTS WHO BOOK OFTEN</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Why Join the myCHEF VIP Club?
+            myCHEF VIP Club is a priority line, not a restaurant
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            For hosts who entertain often, the myCHEF VIP Club transforms dining from a series of one-off bookings into a curated, year-round culinary relationship. Membership gives you priority access to Dubai’s most experienced private chefs, exclusive menus, and member-only rates across every service — from <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa private dining</Link> to <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering Dubai</Link> and <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dining</Link>.
+            Gold is 5% off the quoted service. Platinum is 10%, with a named account manager. Neither tier includes the chef, the groceries or the event. Those are still quoted as a booking. Use it for <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dinners</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> or <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company nights</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            As a member, you skip the queue. Last-minute villa dinner? A fully-staffed yacht lunch? A board dinner in DIFC? Your request is handled first by a dedicated account manager who knows your preferences. Explore our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service Dubai</Link>, browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or apply today and discover why Dubai’s most discerning hosts choose myCHEF.
+            If you host once a year, membership is the wrong product. If you book often and want the date held first, send how many nights you actually run. Also see <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> and <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>.
           </p>
         </div>
       </section>

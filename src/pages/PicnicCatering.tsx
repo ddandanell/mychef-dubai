@@ -5,120 +5,120 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'picnic-catering-dubai',
-  seoTitle: "Picnic Catering Dubai | Outdoor Baskets & Grazing",
+  seoTitle: 'Picnic Catering Dubai | myCHEF',
   metaDescription:
-    'Picnic catering in Dubai: beautifully styled outdoor baskets, grazing boxes, fresh sandwiches and salads delivered to parks, beaches, deserts and villas.',
+    'Picnic catering Dubai: baskets and boxes delivered to a park, beach, garden or desert site you have access to. Drop-off from AED 90. We do not own the land.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/beach-catering-dubai-hero.webp',
   breadcrumbLabel: 'Picnic Catering Dubai',
-  h1: 'Picnic Catering in Dubai',
+  h1: 'Picnic Catering Dubai',
   heroSub:
-    'Enjoy effortless outdoor dining with picnic catering across Dubai — from curated grazing boxes and gourmet baskets to full beach, park and desert setups for families, couples and groups.',
+    'Picnic catering Dubai for a park, beach, villa garden or desert meeting point you can access. Boxes and baskets that travel. We do not own the land.',
   heroImage: '/images/beach-catering-dubai-hero.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange picnic catering in Dubai (via mychef.ae/picnic-catering-dubai)',
   eyebrow: 'PICNIC CATERING IN DUBAI',
-  introH2: 'Outdoor Dining, Delivered Beautifully',
+  introH2: 'Picnic catering Dubai that can leave the kitchen',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dubai’s outdoors are made for picnics — sunny beaches, landscaped parks, desert dunes and villa gardens all call for relaxed, shareable food served without the hassle. Our picnic catering in Dubai provides beautifully prepared baskets and boxes filled with fresh sandwiches, salads, charcuterie, pastries, fruits and treats, ready to enjoy wherever you choose to lay your blanket.
+        Picnic catering Dubai is food packed to travel to a beach, park, garden or desert site you have access to. Sandwiches, salads, fruit and things that hold without a pass. We do not own beaches, parks or camps. Permits sit with the host.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        we design and manage the experience, presentation and delivery so you can focus on the moment. Choose from individual picnic boxes for corporate outings, generous grazing baskets for friends, or fully styled setups with rugs, low tables and tableware for special celebrations. Every menu can be tailored for dietary preferences, group size and location.
+        Most picnic orders are drop-off, from AED 90 per person, with a 10-guest and AED 900 minimum, before 5% VAT. A staffed garden picnic uses the buffet or grazing format instead. Halal picnic catering Dubai is the default sourcing.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Picnic catering pairs naturally with our{' '}
+        A shoreline sitting with staff is{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           beach catering Dubai
-        </Link>{' '}
-        and{' '}
+        </Link>
+        . Boxes without a picnic brief sit on{' '}
         <Link to="/drop-off-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           drop-off catering Dubai
-        </Link>{' '}
-        services, and with{' '}
+        </Link>
+        . A garden party with people in the house is{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
-        </Link>{' '}
-        for intimate garden gatherings.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Picnic Catering Formats',
+  formatsH2: 'How picnic food is packed',
   formats: [
     {
       Icon: ShoppingBasket,
-      title: 'Gourmet Picnic Baskets',
-      description: 'Curated baskets with sandwiches, salads, charcuterie, cheese, fruit, dips and sweet treats for easy sharing.',
+      title: 'Picnic baskets',
+      description: 'Sandwiches, salads, cheese, fruit, dips and sweets packed to share.',
       link: '/grazing-table-dubai',
     },
     {
       Icon: Sun,
-      title: 'Beach & Park Picnics',
-      description: 'Delivery-friendly menus designed for sandy beaches, waterfront lawns and shaded parks across Dubai.',
+      title: 'Beach and park picnics',
+      description: 'Menus that travel to a beach or lawn you can access, with holding that matches the heat.',
       link: '/private-party-catering-dubai',
     },
     {
       Icon: Car,
-      title: 'Desert Safari Picnics',
-      description: 'Rugged yet refined boxes and baskets for desert drives, dune dinners and outdoor adventures.',
+      title: 'Desert meeting-point picnics',
+      description: 'Boxes for a desert site you have booked. We cook for that site. We do not run the camp.',
       link: '/desert-dining-dubai',
     },
     {
       Icon: TreePine,
-      title: 'Villa Garden Picnics',
-      description: 'Styled garden setups with low tables, cushions, tableware and a full grazing spread at your villa.',
+      title: 'Villa garden picnics',
+      description: 'A staffed garden setup at your villa, with tableware if the brief needs it.',
       link: '/villas-private-residences',
     },
     {
       Icon: Coffee,
-      title: 'Corporate Picnic Boxes',
-      description: 'Branded individual boxes for team outings, wellness days and company park events.',
+      title: 'Corporate picnic boxes',
+      description: 'Individual boxes for a team outing. Labels and a count that matches the bus.',
       link: '/office-catering-dubai',
     },
     {
       Icon: Leaf,
-      title: 'Vegan & Healthy Picnics',
-      description: 'Plant-based, gluten-free and light picnic menus for health-conscious guests.',
+      title: 'Vegan and healthy picnics',
+      description: 'Plant-based, gluten-free and lighter boxes when those notes are in the brief.',
       link: '/cuisines-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE PICNIC CATERING WORKS',
-  useCasesH2: 'Made for Dubai’s Outdoor Lifestyle',
+  useCasesH2: 'Beach, park, garden, desert site',
   useCases: [
     {
-      title: 'Family Days at the Beach',
+      title: 'Family days at the beach',
       description:
-        'Spend the day at Kite Beach, JBR or La Mer with a ready-to-eat picnic basket delivered to your spot.',
+        'Food delivered to a beach you can use. We do not reserve the sand.',
     },
     {
-      title: 'Park Gatherings with Friends',
+      title: 'Park gatherings with friends',
       description:
-        'Casual catch-ups in Safa Park, Zabeel Park or Al Barsha Pond Park with fresh food and no cooking.',
+        'Safa, Zabeel or Al Barsha Pond Park. Access notes and a meeting point belong in the order.',
     },
     {
-      title: 'Romantic Couples Picnics',
+      title: 'Two-person picnics',
       description:
-        'Elegant two-person baskets with bubbles, cheeses and desserts for proposals, anniversaries or date nights.',
+        'A smaller basket. Drop-off still has a 10-guest and AED 900 minimum unless the brief is a staffed chef sitting.',
     },
     {
-      title: 'Corporate Team Outings',
+      title: 'Corporate team outings',
       description:
-        'Branded boxes and group grazing boards for team-building days, away days and company picnics.',
+        'Boxed counts, dietary labels and a delivery window that matches the coach.',
     },
   ],
-  includedH2: "What's Included in Our Picnic Catering",
+  includedH2: 'What picnic catering includes',
   includedItems: [
-    { title: 'Curated Picnic Menu', description: 'Seasonal, travel-friendly dishes chosen to stay fresh and delicious outdoors.' },
-    { title: 'Grazing Boxes & Baskets', description: 'Beautifully arranged boxes with cheeses, meats, crackers, fruits and nibbles.' },
-    { title: 'Fresh Sandwiches & Wraps', description: 'Gourmet sandwiches, wraps and rolls with premium fillings and breads.' },
-    { title: 'Salads & Light Mains', description: 'Refreshing salads, grain bowls and cold plates perfect for warm-weather dining.' },
-    { title: 'Desserts & Fresh Fruit', description: 'Brownies, pastries, seasonal fruit and sweet bites to finish the picnic.' },
-    { title: 'Drinks & Cooler Add-Ons', description: 'Chilled lemonades, iced teas, sparkling water and coolers on request.' },
-    { title: 'Eco-Friendly Packaging', description: 'Practical, presentable packaging that travels well and simplifies cleanup.' },
-    { title: 'Delivery to Your Location', description: 'Direct delivery to beaches, parks, villas and desert meeting points across Dubai.' },
+    { title: 'A menu that travels', description: 'Dishes chosen because they hold outdoors, not because they photograph as a restaurant plate.' },
+    { title: 'Boxes and baskets', description: 'Packed to the guest count. Empties collected when you ask.' },
+    { title: 'Sandwiches and wraps', description: 'Fillings that do not collapse in the heat.' },
+    { title: 'Salads and cold plates', description: 'Held cold until handover.' },
+    { title: 'Fruit and sweets', description: 'Sized to the order, not a dessert table.' },
+    { title: 'Drinks', description: 'Chilled drinks quoted as an add-on. Coolers when the brief needs them.' },
+    { title: 'Packaging', description: 'Named in the quote. We do not claim a packaging brand we do not use.' },
+    { title: 'Delivery', description: 'To a beach, park, villa or desert meeting point you can access.' },
   ],
-  galleryH2: 'A Taste of Our Picnic Catering',
+  galleryH2: 'How picnic catering looks in Dubai',
   galleryImages: [
     { src: '/service-events.webp', alt: 'Styled picnic catering set-up in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Grazing box with cheeses and charcuterie' },
@@ -127,56 +127,56 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa garden picnic catering styling' },
     { src: '/menu-meat.webp', alt: 'Gourmet sandwich and wrap platter for picnics' },
   ],
-  faqsH2: 'Picnic Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What kind of food comes in a picnic catering basket?',
-      a: 'Baskets typically include a mix of sandwiches, wraps, salads, cheeses, charcuterie, dips, crackers, fresh fruit and sweet treats. We can tailor the contents to your group size, dietary needs and occasion.',
+      a: 'Sandwiches, wraps, salads, cheese, dips, fruit and sweets, cut to dietary notes. We do not pack dishes that wilt in thirty minutes of sun.',
     },
     {
       q: 'Can you deliver picnic catering to a beach or park?',
-      a: 'Yes. We deliver picnic catering to beaches, parks, villas and desert locations across Dubai. Just share the location, time and any access notes when booking.',
+      a: 'Yes, to a location you can access. Share the pin, time and any gate notes. Permits sit with the host.',
     },
     {
       q: 'Do you provide styling, rugs and tableware?',
-      a: 'We focus on the food and packaging, but can coordinate styling, rugs, low tables and tableware through our partners on request.',
+      a: 'Food and packaging are the default. Rugs, low tables and extra styling are quoted through partners when you ask. We do not own a picnic-styling product.',
     },
     {
       q: 'Can picnic catering be vegetarian, vegan or gluten-free?',
-      a: 'Absolutely. We offer plant-based, vegan, vegetarian, gluten-free, dairy-free and nut-free picnic options.',
+      a: 'Yes, when named in the brief. Dishes are labelled.',
     },
     {
       q: 'How many people can you cater for a picnic?',
-      a: 'From intimate two-person baskets up to large corporate group orders of 100 or more.',
+      a: 'Drop-off starts from 10 guests and AED 900. Smaller tables are a chef sitting, quoted as plated or a household visit, not as a picnic box below the minimum.',
     },
     {
       q: 'How far in advance should I book picnic catering?',
-      a: 'Two to three days is ideal for most picnic orders. For large events or styled setups, one week ahead is recommended.',
+      a: 'Two to three days for most drop-off orders. Staffed garden setups need about a week.',
     },
   ],
   relatedServices: [
     {
       title: 'Beach Catering Dubai',
-      description: 'Relaxed coastal menus, grazing boxes and drinks for beach gatherings across Dubai.',
+      description: 'Staffed shoreline food at a beach you have access to.',
       image: '/images/beach-catering-dubai-hero.webp',
       link: '/private-party-catering-dubai',
     },
     {
       title: 'Drop-Off Catering Dubai',
-      description: 'Convenient delivered menus for home, office and outdoor events with no on-site staff needed.',
+      description: 'Food delivered and laid out, no team remaining on site.',
       image: '/service-events.webp',
       link: '/drop-off-catering-dubai',
     },
     {
       title: 'Private Party Catering',
-      description: 'Intimate home and villa parties with personalised menus and full service.',
+      description: 'A house night, if the picnic is really a garden party.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },
   ],
-  ctaH2: 'Plan Your Perfect Dubai Picnic',
+  ctaH2: 'Send the pin, guest count and dietary notes',
   ctaP:
-    'Tell us where you are heading, how many guests you have and any dietary preferences. We will prepare a picnic catering basket that makes the day effortless and delicious.',
+    'Tell us beach, park, garden or desert site, how many people and the handover time. We send an itemised picnic catering Dubai quote.',
   showTrustSignalStrip: true,
 }
 

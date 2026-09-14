@@ -5,119 +5,118 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'gluten-free-catering-dubai',
-  seoTitle: 'Gluten-Free Catering Dubai | Coeliac-Safe Events | myCHEF',
-  metaDescription: 'Book gluten-free catering in Dubai. Coeliac-safe menus for weddings, villas and offices, with clear labelling and full service. Get a tailored quote.',
+  seoTitle: 'Gluten Free Catering Dubai | myCHEF',
+  metaDescription:
+    'Gluten Free Catering Dubai with a vetted myCHEF team. Wheat, barley and rye off the written menu. Service and clear-down so you stay a guest at your table.',
   canonicalPath: '/allergy-safe-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/gluten-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Gluten-Free Catering Dubai',
-  h1: 'Gluten-Free Catering Dubai',
-  primaryCta: 'Get My Gluten-Free Catering Quote',
+  h1: 'Gluten Free Catering Dubai',
   heroSub:
-    'Coeliac-safe menus, clearly labelled dishes and kitchen-aware preparation for weddings, villa dinners, corporate events and family celebrations across Dubai.',
+    'Gluten Free Catering Dubai starts with a named guest and a written menu. Wheat, barley and rye stay off that line. We cook at your address and pack down after service.',
   heroImage: '/images/gluten-free-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan gluten-free catering in Dubai (via mychef.ae/gluten-free-catering-dubai)",
   eyebrow: 'COELIAC-SAFE CATERING IN DUBAI',
-  introH2: 'Gluten-Free Dining Without Compromise',
+  introH2: 'Wheat off the plate, with an honest kitchen note',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Eating gluten-free in Dubai should never mean settling for a plain salad while everyone else enjoys a full menu. Our gluten-free catering is built around the simple idea that a dietary requirement is an invitation to cook more creatively, not less. We design complete spreads — canapés, mains, sides, breads and desserts — where every element is prepared without gluten, clearly labelled, and served with the same luxury finish as every other myCHEF Dubai menu.
+        Coeliac disease and a wheat preference are not the same brief. Tell us which you are hosting. For coeliac-risk guests we verify labels, keep a separate prep path where the room allows, and say clearly if a home kitchen cannot support that separation. Dietary notes go into the first menu draft.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Partner chefs cook in shared kitchens and in your home. We do not call that an allergen-free kitchen. Cross-contact risk remains, especially around flour, bread baskets and shared fryers. Guests who carry emergency medication should still bring it.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Whether you are managing coeliac disease, a wheat intolerance, or simply want a fully gluten-free celebration, strict processes reduce cross-contamination risk and chefs in our network plan the service around your guests’ needs. Explore how this sits alongside our{' '}
-        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          healthy catering Dubai
-        </Link>{' '}
-        options, browse our{' '}
+        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. See our{' '}
         <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           cuisine collection
-        </Link>{' '}
-        for mixed-diet inspiration, or see our{' '}
+        </Link>
+        {' '}for mixed-diet tables, or the wider{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           allergy-safe catering
-        </Link>{' '}
-        approach for events with multiple dietary requirements.
+        </Link>
+        {' '}brief when more than gluten is involved.
       </p>
     </>
   ),
-  formatsH2: 'Gluten-Free Formats for Every Event',
+  formatsH2: 'Formats that keep gluten off the pass',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Gluten-Free Dinners',
-      description: 'Elegant multi-course plated menus where every dish, sauce and garnish is gluten-free by design — ideal for weddings, anniversaries and private villa dinners.',
+      description: 'Courses, sauces and garnishes written without wheat, barley or rye. Useful when one table must eat the same meal.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
       title: 'Gluten-Free Buffet & Stations',
-      description: 'Self-serve buffets and live stations with clearly separated gluten-free options so guests can plate confidently without endless questions.',
+      description: 'Labelled dishes and, where the space allows, separate utensils. Guests should not have to interrogate the buffet.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: WheatOff,
       title: 'Gluten-Free Canapés',
-      description: 'Bite-sized gluten-free canapés for receptions and cocktail parties — crisp tartlets, skewers, spoons and wraps that feel anything but restricted.',
+      description: 'Passed bites without pastry cases made of wheat. Bases are planned on the draft so the canapé line is not an afterthought.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Cake,
       title: 'Gluten-Free Desserts & Cakes',
-      description: 'Coeliac-safe celebration cakes, tarts and dessert tables made with alternative flours so the sweet course is just as memorable.',
+      description: 'Cakes and tarts using alternative flours when the brief asks. A celebration cake is specified up front, not hoped for.',
       link: '/dessert-table-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa & Home Gluten-Free Menus',
-      description: 'Full-service gluten-free dining at home across Palm Jumeirah, Emirates Hills and Dubai Hills, cooked and served on-site.',
+      description: 'Cooking in Palm Jumeirah, Emirates Hills, Dubai Hills and similar homes. We check the kitchen before we promise a separate prep path.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Gluten-Free Lunches',
-      description: 'Inclusive office lunches and boardroom catering with individually packed gluten-free meals or clearly labelled buffet lines.',
+      description: 'Packed meals or a labelled buffet for offices. The gluten-free line is a proper main, not a side salad.',
       link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE GLUTEN-FREE CATERING HELPS',
-  useCasesH2: 'Designed for Real Dietary Needs',
+  useCasesH2: 'Name the risk, then we write the menu',
   useCases: [
     {
-      title: 'Coeliac-Safe Celebrations',
+      title: 'Coeliac-risk guests',
       description:
-        'For guests with coeliac disease, even trace gluten is a problem. We plan gluten-free menus with separate prep awareness, clear labelling and serving protocols so hosts can relax and guests can eat safely.',
+        'Trace gluten matters. We plan a separate path where the venue allows it, and we tell you if it does not. That conversation happens before you book, not at the pass.',
     },
     {
-      title: 'Weddings with Dietary Guests',
+      title: 'Weddings with mixed diets',
       description:
-        'Wedding guest lists often include coeliac, wheat-intolerant or health-conscious attendees. A dedicated gluten-free menu or station ensures no one is served an afterthought on your big day.',
+        'A gluten-free guest should not be served a different plate that looks like an apology. Either the whole menu is gluten-free, or the gluten-free line is designed as a full course.',
     },
     {
-      title: 'Corporate Wellness & Inclusive Offices',
+      title: 'Office lunches',
       description:
-        'Modern Dubai offices increasingly cater to diverse diets. Gluten-free lunch options signal attentiveness and help teams eat well without leaving anyone out.',
+        'Packed gluten-free meals or a labelled buffet. Staff are briefed. You stay in the meeting.',
     },
     {
-      title: 'Family Gatherings at Home',
+      title: 'Family tables at home',
       description:
-        'From birthday brunches to Eid lunches, our villa gluten-free service means the whole family enjoys one menu together, with no separate “special” plate in the corner.',
+        'Birthdays and family lunches work when everyone can eat from the same spread. The gluten-free dishes are written in, not plated in a corner.',
     },
   ],
-  includedH2: "What's Included in Our Gluten-Free Catering",
+  includedH2: 'What a gluten-free booking actually covers',
   includedItems: [
-    { title: '100% Gluten-Free Menu Design', description: 'Every dish on the gluten-free menu is planned without wheat, barley, rye or cross-contaminated ingredients.' },
-    { title: 'Clear Labelling', description: 'Buffet cards, menu notes and staff briefings make it easy for guests to identify safe options.' },
-    { title: 'Alternative Breads & Pastry', description: 'Gluten-free breads, tart cases and pastry elements where the menu calls for them.' },
-    { title: 'Cross-Contamination Awareness', description: 'Prep, plating and service workflows designed to minimise cross-contact risks.' },
-    { title: 'Custom Mains & Sides', description: 'Hearty, balanced mains built on rice, quinoa, vegetables, pulses and certified gluten-free grains.' },
-    { title: 'Gluten-Free Desserts', description: 'Cakes, mousses, tarts and fruit-based desserts prepared with alternative flours.' },
-    { title: 'Full On-Site Service', description: 'Service staff, plating and styling handled at your venue from arrival to pack-down.' },
-    { title: 'Mixed-Diet Planning', description: 'We can run a fully gluten-free event or integrate safe options within a broader menu.' },
+    { title: 'Menu without wheat, barley or rye', description: 'The gluten-free line is planned without those grains. Soy sauce, stocks and coatings are checked, not assumed.' },
+    { title: 'Clear labelling', description: 'Cards and staff briefings so guests can identify safe dishes without a speech from the host.' },
+    { title: 'Alternative breads and pastry', description: 'Gluten-free breads and tart cases where the menu needs them. Ordered on the draft, not improvised.' },
+    { title: 'Cross-contact honesty', description: 'We reduce contact where the room allows. We do not promise a dedicated allergen-free kitchen.' },
+    { title: 'Mains that fill a plate', description: 'Rice, quinoa, vegetables, pulses and gluten-free grains as the base, not a pile of leaves.' },
+    { title: 'Desserts on the same brief', description: 'Cakes and fruit desserts using alternative flours when requested.' },
+    { title: 'On-site service', description: 'Partner chefs, service staff, plating and pack-down at your address.' },
+    { title: 'Mixed-diet planning', description: 'A fully gluten-free event, or gluten-free dishes inside a wider menu. Say which you want.' },
   ],
-  galleryH2: 'A Taste of Our Gluten-Free Catering',
+  galleryH2: 'What gluten-free service looks like',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Gluten-free appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Gluten-free canapé selection' },
@@ -126,68 +125,68 @@ const config: DietaryPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa gluten-free dinner styling' },
     { src: '/service-events.webp', alt: 'Gluten-free event catering in Dubai' },
   ],
-  faqsH2: 'Gluten-Free Catering Questions',
+  faqsH2: 'Gluten Free Catering Dubai: the questions we get before a booking',
   faqs: [
     {
-      q: 'Is your gluten-free catering safe for coeliacs?',
-      a: 'We design gluten-free menus without wheat, barley or rye and follow preparation and serving protocols to reduce cross-contamination. If a guest has severe coeliac disease, tell us during planning so we can advise on the safest service format.',
+      q: 'Is this safe for coeliac guests?',
+      a: 'We write menus without wheat, barley and rye and we separate prep where the kitchen allows. We cannot guarantee zero exposure in every home or hired space. For severe coeliac risk, tell us during planning so we can say yes, or say no, before you book.',
     },
     {
-      q: 'Can gluten-free dishes be served alongside regular dishes?',
-      a: 'Yes. We can create a fully gluten-free spread or integrate clearly labelled gluten-free options within a mixed menu. Separate stations, serving utensils and buffet lines keep things straightforward for guests.',
+      q: 'Can gluten-free dishes sit beside regular dishes?',
+      a: 'Yes. Separate utensils and labels help. Flour in the air and shared fryers still matter. If that risk is too high for your guest, a fully gluten-free menu is the cleaner format.',
     },
     {
       q: 'Do you offer gluten-free bread, pastry and cakes?',
-      a: 'We do. Alternative flours and certified gluten-free ingredients let us build bread baskets, tart shells and celebration cakes that feel generous rather than restricted.',
+      a: 'When the brief asks. Alternative flours and checked ingredients are used for bread baskets, tart shells and celebration cakes. They are specified on the first draft.',
     },
     {
-      q: 'What grains and starches do you use instead of wheat?',
-      a: 'Chefs in our network use rice, quinoa, polenta, buckwheat, lentils, potatoes and seasonal vegetables as the base for gluten-free mains and sides, keeping menus varied and satisfying.',
+      q: 'What do you use instead of wheat?',
+      a: 'Rice, quinoa, polenta, buckwheat, lentils, potatoes and seasonal vegetables. The chef chooses from that list against the rest of the brief, including dairy-free or nut-free if needed.',
     },
     {
-      q: 'Can the whole menu be gluten-free for an event?',
-      a: 'Absolutely. Many hosts choose a fully gluten-free menu so every guest can eat everything without question. We will recommend the best format based on your guest count and occasion.',
+      q: 'How is gluten-free catering Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. Alternative bakery and extra separation can change staffing. You see that on an itemised proposal with 5% VAT shown separately.',
     },
     {
-      q: 'How far in advance should I book gluten-free catering?',
-      a: 'Two to four weeks is ideal, especially for weddings or large villa events where alternative ingredients and bakery items need advance ordering. During peak season, earlier is better.',
+      q: 'How far in advance should I book?',
+      a: 'Two to four weeks is the usual window for villa dinners and larger tables. Peak season from November to March fills earlier. Short notice is assessed against live partner availability, not promised as a rule.',
     },
   ],
   relatedServices: [
     {
       title: 'Healthy Catering',
-      description: 'Balanced, nutrition-conscious menus for wellness-focused events and corporate lunches.',
+      description: 'Balanced menus for tables that want lighter food as well as gluten-free dishes.',
       image: '/service-corporate.webp',
       link: '/cuisines-dubai',
     },
     {
       title: 'Sugar-Free Catering',
-      description: 'Reduced-sugar and diabetic-friendly menus that can be combined with gluten-free options.',
+      description: 'Reduced-sugar menus that can sit on the same brief as gluten-free when you say so.',
       image: '/images/healthy-catering-dubai-hero.webp',
       link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'FODMAP-Friendly Catering',
-      description: 'Low-FODMAP menus that also work well alongside gluten-free requirements.',
+      description: 'Low-FODMAP is a different rule set. It can overlap with gluten-free. It is not the same thing.',
       image: '/images/healthy-catering-dubai-hero.webp',
       link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'Vegan Catering',
-      description: 'Fully plant-based menus that also happen to be naturally gluten-free friendly.',
+      description: 'Plant-based menus. Gluten-free is extra, not automatic.',
       image: '/menu-appetizer.webp',
       link: '/vegan-catering-dubai',
     },
     {
       title: 'Buffet Catering',
-      description: 'Elegant buffet formats that can include dedicated gluten-free stations.',
+      description: 'Buffet formats that can include a labelled gluten-free station.',
       image: '/service-events.webp',
       link: '/buffet-catering-dubai',
     },
   ],
-  ctaH2: 'Plan a Gluten-Free Menu Everyone Will Enjoy',
+  ctaH2: 'Send the gluten brief with the date',
   ctaP:
-    'Tell us about your event and dietary needs. We will design a coeliac-aware, delicious gluten-free spread that lets every guest eat with confidence.',
+    'Name coeliac risk, wheat preference, and any other allergens. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function GlutenFreeCatering() {

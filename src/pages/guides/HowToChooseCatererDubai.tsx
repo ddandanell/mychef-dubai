@@ -128,7 +128,7 @@ const faqs = [
   },
   {
     q: 'When to hire a caterer?',
-    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A 50% deposit holds the date and the remaining 50% is due seven days before the first scheduled service.',
+    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest: a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A 50% deposit holds the date and the remaining 50% is due seven days before the first scheduled service.',
   },
   {
     q: 'What to look for in a catering company?',
@@ -271,7 +271,7 @@ export default function HowToChooseCatererDubai() {
             A practical 10-point checklist to help you compare caterers, spot red flags, and book a team that matches your event, venue, and guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 choose-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 choose-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -298,7 +298,7 @@ export default function HowToChooseCatererDubai() {
             Choosing a caterer is one of the most important decisions for any event. The right partner will ask the right questions, offer a clear proposal, and handle the details so you can focus on hosting. The wrong one can create stress on the day through poor communication, hidden costs, or mismatched service.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            What to check on any caterer: the named chef, an itemised quote (food, staff, hire, 5% VAT), who buys the ingredients, and the cancellation bands. A 50% deposit confirms the date. The balance is due seven days before.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans.
@@ -450,7 +450,7 @@ export default function HowToChooseCatererDubai() {
             Ask us anything on your checklist. We will answer honestly, share a clear itemised quote, and help you decide if we are the right fit.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

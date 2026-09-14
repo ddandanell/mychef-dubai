@@ -107,7 +107,7 @@ export default function RamadanIftarTrends2026() {
     <div ref={containerRef}>
       <SEO
         title="Ramadan Catering Trends Dubai 2026 | myCHEF"
-        description="Ramadan Catering Trends Dubai 2026 — Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes…"
+        description="Ramadan Catering Trends Dubai 2026: Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         schema={schema}
@@ -117,7 +117,7 @@ export default function RamadanIftarTrends2026() {
       <PageHero
         eyebrow="Ramadan 2026"
         title="Ramadan Catering Trends Dubai 2026"
-        subtitle="Ramadan Catering Trends Dubai 2026 by myCHEF — What Dubai hosts are requesting this Holy Month — and how to design an Iftar that feels generous, modern, and deeply memorable."
+        subtitle="What hosts are asking for this Ramadan: sharing tables, lighter Emirati staples, and drinks that hydrate first. Not a forecast dressed as fact."
         image="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         imageAlt="Ramadan Iftar catering trends Dubai 2026"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Ramadan Iftar Trends 2026' }]}
@@ -152,7 +152,7 @@ export default function RamadanIftarTrends2026() {
               Ramadan in Dubai is more than a month of fasting; it is a season of gathering, generosity, and carefully planned hospitality. In 2026, Iftar catering is moving away from predictable buffet lines toward curated, visually striking tables that honour tradition while embracing modern dining habits. Hosts want menus that feel abundant without being wasteful, and service that lets guests focus on prayer, family, and conversation.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Iftar is timed to Maghrib, not to a restaurant slot. What to check: the named chef, the itemised quote, who buys the ingredients, and whether alcohol is excluded in writing.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Whether you are organising an intimate family Iftar or a corporate gathering for several hundred guests, understanding the latest trends helps you plan an event that feels timely and thoughtful.
@@ -164,11 +164,11 @@ export default function RamadanIftarTrends2026() {
             <h2 id="modern-emirati-flavours-with-a-contemporary-touch" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Modern Emirati Flavours with a Contemporary Touch</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Reinterpreting classic dishes</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              This year, hosts are requesting Emirati staples — lamb ouzi, harees, machboos, and balaleet — presented in lighter, more refined formats. Think mini ouzi portions, individually plated harees, or machboos served from live cooking stations where guests can choose their proteins and garnishes. The flavours remain authentic, but the presentation suits contemporary tables.
+              This year, hosts are requesting Emirati staples: lamb ouzi, harees, machboos, and balaleet: presented in lighter, more refined formats. Think mini ouzi portions, individually plated harees, or machboos served from live cooking stations where guests can choose their proteins and garnishes. The flavours remain authentic, but the presentation suits contemporary tables.
             </p>
             <h3 className="font-playfair text-h3 text-black mb-3">Mezze as a conversation starter</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Shared mezze boards are replacing rigid starters. A mix of hot and cold Arabic appetisers — falafel bites, kibbeh, labneh, muhammara, and stuffed vine leaves — encourages guests to graze naturally after Maghrib.
+              Shared mezze boards are replacing rigid starters. A mix of hot and cold Arabic appetisers: falafel bites, kibbeh, labneh, muhammara, and stuffed vine leaves: encourages guests to graze naturally after Maghrib.
             </p>
           </section>
 
@@ -219,7 +219,7 @@ export default function RamadanIftarTrends2026() {
                 alt: 'Mocktail and water station at an iftar, citrus and jugs, no alcohol',
                 width: 1920,
                 height: 1280,
-                caption: 'Drinks at iftar are hydration first. Juice, water, citrus — not a bar as the product.',
+                caption: 'Drinks at iftar are hydration first. Juice, water, citrus: not a bar as the product.',
               }}
             />
           </section>
@@ -236,8 +236,8 @@ export default function RamadanIftarTrends2026() {
 
           <SourcesBlock
             sources={[
-              { label: 'Dubai Municipality Food Code 2.0 — food safety, allergen controls, and catering guidance' },
-              { label: 'UAE Government Portal (u.ae) — Ramadan customs, working hours, and public observance' },
+              { label: 'Dubai Municipality Food Code 2.0: food safety, allergen controls, and catering guidance' },
+              { label: 'UAE Government Portal (u.ae): Ramadan customs, working hours, and public observance' },
             ]}
             note="Cultural and culinary trends described reflect current Dubai hospitality practices and commonly requested Iftar formats; they are not official decrees."
           />

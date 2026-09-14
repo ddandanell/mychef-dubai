@@ -15,8 +15,8 @@ export default function CorporateDinnerPackage() {
     <>
     <PackagePageTemplate
       name={pkg.name}
-      seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
-      description="Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, with a private chef and service team. Boardroom dinners, client entertainment and VAT invoicing."
+      seoTitle="Corporate Dinner Package Dubai | myCHEF"
+      description="Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, chef and service staff sized to the table. Not a dinner cruise. VAT invoice. Not the plated per-person band."
       intro="A corporate dinner package for 10–15 guests, with a private chef and service team, is AED 4,500. That figure is a fixed package price for this guest range, not multiplied by headcount. Chef-led plated dining at AED 700–950 per person is a different menu and service, used when the table is smaller or larger than 15, or when you want fully plated courses. If you are comparing dubai dinner cruise deals or a private dinner cruise dubai price, this package is a dinner in your office or venue, not a boat hire."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-dinner-package-dubai-hero.webp"
@@ -47,7 +47,7 @@ export default function CorporateDinnerPackage() {
       faqs={[
         {
           q: 'Is this package suitable for boardroom dinners?',
-          a: 'Yes. The Corporate Dinner package is designed for boardroom dinners, executive dining, and client entertainment with discreet, professional service.',
+          a: 'Yes. AED 4,500 for 10–15 guests in a boardroom, office dining room or private venue. Service is sized to the table. It is not a gala and not a dinner cruise.',
         },
         {
           q: 'Can you invoice my company?',
@@ -64,32 +64,32 @@ export default function CorporateDinnerPackage() {
       ]}
       relatedServices={[
         {
-          title: 'Corporate Event Catering',
-          description: 'Company parties, launches, galas and networking events.',
+          title: 'Corporate event catering',
+          description: 'Company parties, launches and networking when the room is larger than 15.',
           image: '/service-corporate.webp',
           link: '/corporate-event-catering-dubai',
         },
         {
-          title: 'Corporate Catering Dubai',
-          description: 'Boardroom lunches, client dinners, and team events.',
+          title: 'Corporate dining',
+          description: 'The corporate hub: lunches, retainers and dinners as a programme.',
           image: '/service-corporate.webp',
           link: '/corporate',
         },
         {
-          title: 'Business Lunch Catering',
-          description: 'Working lunches for teams and executive meetings.',
+          title: 'Business lunch catering',
+          description: 'A working lunch. This package is a dinner sitting.',
           image: '/service-corporate.webp',
           link: '/business-lunch-catering-dubai',
         },
         {
-          title: 'Gala Dinner Catering',
-          description: 'Seated awards and banquets with buffet or plated service.',
+          title: 'Gala dinner catering',
+          description: 'Awards and banquets. Not the 10–15 guest package.',
           image: '/images/gala-dinner-catering-dubai-hero.webp',
           link: '/gala-dinner-catering-dubai',
         },
         {
-          title: 'Corporate Catering Contract',
-          description: 'A written account if you book dinners and lunches often.',
+          title: 'Corporate catering contract',
+          description: 'A written account if you book dinners and lunches often. Not this package’s H1.',
           image: '/service-corporate.webp',
           link: '/corporate-retainer-dubai',
         },

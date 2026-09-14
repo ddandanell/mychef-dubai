@@ -13,24 +13,24 @@ export default function FamilyFeastPackage() {
   return (
     <PackagePageTemplate
       name={pkg.name}
-      seoTitle="Family Catering Dubai | Feast Package, Private Chef | myCHEF"
-      description="Family catering Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
-      intro="The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft."
+      seoTitle="Family Catering Dubai | myCHEF"
+      description="Family catering Dubai: AED 2,400 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
+      intro="Family catering Dubai on this page is a published package: AED 2,400 for 6–8 guests, sharing plates, a chef and service so nobody leaves the table to plate. That is a total, not a per-person buffet floor. Extra guests move the quote. Dietary notes go into the first draft. Halal is the default. A standing household family chef is a different URL."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
-      headline="Family Catering Dubai: Private Chef Dinner for 6–8"
-      eyebrow="FAMILY DINING PACKAGE"
-      subheadline="A generous sharing-style dinner for family and friends — prepared in your home and served without the stress."
+      headline="Family Catering Dubai"
+      eyebrow="FAMILY TABLE"
+      subheadline="AED 2,400 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
       included={[
-        'Bespoke sharing-style menu for 6–8 guests',
-        'Private chef and service support',
-        'Premium ingredients and preparation',
-        'Table setting and family-style plating',
-        'Setup, service, and full kitchen cleanup',
-        'Customisable for children and dietary needs',
+        'A sharing-style menu written for 6–8 guests',
+        'Chef and service staff sized to the table',
+        'Ingredients for that menu',
+        'Table setting and sharing platters',
+        'Setup, service and kitchen clear-down',
+        'Children and named diets planned in the first draft',
       ]}
       sampleMenu={[
         'Starters: Hummus, baba ganoush, fresh breads, and olives',
@@ -38,46 +38,46 @@ export default function FamilyFeastPackage() {
         'Dessert: Fresh fruit platter and rosewater panna cotta',
       ]}
       addOns={[
-        'Additional courses or dessert table',
-        'Children’s menu and kid-friendly options',
-        'BBQ or live cooking station',
-        'Mocktail and soft-drink station',
-        'Extra service staff for larger groups',
+        'Extra courses or a dessert table',
+        'A separate children’s menu',
+        'A BBQ or live station, from the live-station floor',
+        'A mocktail and soft-drink station',
+        'Extra service staff if the table grows',
       ]}
       faqs={[
         {
           q: 'Is the Family Feast package suitable for children?',
-          a: 'Yes. We can design a family-friendly menu with options for children, from mild flavours to interactive dishes, while keeping adult options refined.',
+          a: 'Yes. Milder plates for children sit on the same sharing table. Tell us ages and we write the menu around them.',
         },
         {
           q: 'Can this package be adapted for dietary restrictions?',
-          a: 'Absolutely. We accommodate halal, vegetarian, vegan, gluten-free, dairy-free, nut-free, and other requirements across the menu.',
+          a: 'Halal is the default. Vegetarian, vegan, gluten-free and named allergies go into the first draft. This is not a medical allergen-free claim.',
         },
         {
           q: 'How much space do you need in my kitchen?',
-          a: 'Chefs in our network are experienced in working in Dubai apartment and villa kitchens of all sizes. We bring any specialised equipment needed.',
+          a: 'Apartment and villa kitchens both work. Specialised kit travels with the chef. We will say if the kitchen cannot hold the brief.',
         },
         {
           q: 'Can I increase the guest count?',
-          a: 'Yes. The package scales beyond 8 guests. We will adjust the menu, ingredients, and service team and provide a tailored quote.',
+          a: 'Yes. Beyond 8 guests the total moves. We adjust the menu, ingredients and staff and send a new figure. AED 2,400 stays the published floor for 6–8.',
         },
       ]}
       relatedServices={[
         {
           title: 'Catering Dubai',
-          description: 'Fully-coordinated catering for family celebrations of any size.',
+          description: 'Family tables larger than this package, or a different format.',
           image: '/service-events.webp',
           link: '/catering-dubai',
         },
         {
-          title: 'Private Chef Dubai',
-          description: 'Bespoke in-home dining for families and celebrations.',
+          title: 'Private chef Dubai',
+          description: 'A standing household chef. One family dinner is this package.',
           image: '/service-private-chef.webp',
           link: '/private-chef-dubai',
         },
         {
-          title: 'Catering Packages Dubai',
-          description: 'See all starter packages and starting prices.',
+          title: 'Catering packages',
+          description: 'Date Night, Birthday and Corporate Dinner as published totals.',
           image: '/images/catering-packages-dubai-hero.webp',
           link: '/catering-packages-dubai',
         },

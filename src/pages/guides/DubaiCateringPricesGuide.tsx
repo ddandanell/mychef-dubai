@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: 'How much does catering cost in Dubai?',
-    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. The published floor on this page is drop-off from AED 90; staffed formats typically sit from AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. The published floor on this page is drop-off from AED 90; staffed formats typically sit from AED 180. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
   },
 ]
 
@@ -187,7 +187,7 @@ const formatOffers = priceTable.map((row) => {
     : `${formatFrom(row.from)}. Final quote depends on guest count, menu, venue, and service level.`
   return {
     '@type': 'Offer',
-    name: `${row.format} — Dubai`,
+    name: `${row.format}: Dubai`,
     description,
     url: 'https://www.mychef.ae/dubai-catering-prices-guide',
     price: String(row.from),
@@ -298,7 +298,7 @@ export default function DubaiCateringPricesGuide() {
             A practical breakdown of Dubai catering costs per person, the factors that move the price, and how to request a custom quote that fits your event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 price-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 price-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -325,7 +325,7 @@ export default function DubaiCateringPricesGuide() {
             Catering prices in Dubai vary widely depending on the format, guest count, cuisine, and venue. A private chef dinner for ten will be priced very differently from a buffet for eighty or a yacht cruise for thirty. Understanding the range for each format helps you set a realistic budget and compare quotes on equal terms.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Drop-off from AED 90. Staffed buffet from AED 120. Canapés and stations from AED 150. Plated AED 700 to 950. Yacht from AED 280. 5% VAT as its own line. The written quote is the event total.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains typical per-person costs for the most popular Dubai catering formats and the key factors that affect your final quote. For a precise figure, we always recommend a custom proposal based on your specific event details.
@@ -428,7 +428,7 @@ export default function DubaiCateringPricesGuide() {
               <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-6">
                 Fixed packages can look simple, but they often force you into a predetermined menu, guest count band, or service style that does not match your event. A custom quote starts from your brief and builds outward.
               </p>
-              <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+              <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             </div>
             <div className="space-y-4">
               {whyCustom.map((item, i) => (
@@ -509,7 +509,7 @@ export default function DubaiCateringPricesGuide() {
             Tell us about your event and we will send an itemised custom proposal that matches your menu, guest count, and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

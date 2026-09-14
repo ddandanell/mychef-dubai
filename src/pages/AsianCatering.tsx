@@ -40,13 +40,13 @@ const menuHighlights = [
   {
     icon: Flame,
     title: 'Live Wok Stations',
-    description: 'A partner-chef-led wok station firing noodles, fried rice, and stir-fries to order — high heat, fresh ingredients, and a plate served sizzling to every guest.',
+    description: 'A partner-chef-led wok station firing noodles, fried rice, and stir-fries to order, high heat, fresh ingredients, and a plate served sizzling to every guest.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: ChefHat,
     title: 'Dim Sum',
-    description: 'Steamed and pan-fried dumplings, bao buns, and siu mai, freshly prepared and served from bamboo baskets — a hands-on, shareable favourite.',
+    description: 'Steamed and pan-fried dumplings, bao buns, and siu mai, freshly prepared and served from bamboo baskets, a hands-on, shareable favourite.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -64,13 +64,13 @@ const menuHighlights = [
   {
     icon: Fish,
     title: 'Sushi & Sashimi',
-    description: 'Maki, nigiri, and sashimi rolled by hand at a live counter — the perfect pan-Asian complement, with vegetarian rolls for every guest.',
+    description: 'A sushi counter is a sibling brief, not this page. Link through when the night needs ice time and a raw pass.',
     link: '/sushi-catering-dubai',
   },
   {
     icon: Leaf,
     title: 'Pan-Asian Fusion',
-    description: 'Vietnamese, Malaysian, and Korean accents — bao, satay, bulgogi, and fresh herb salads — blended into a vibrant, modern pan-Asian spread.',
+    description: 'Vietnamese, Malaysian, and Korean accents, bao, satay, bulgogi, and fresh herb salads, blended into a vibrant, modern pan-Asian spread.',
     link: '/indian-catering-dubai',
   },
 ]
@@ -82,7 +82,7 @@ const useCases = [
   },
   {
     title: 'Villa & Garden Gatherings',
-    description: 'Pan-Asian sharing menus suit relaxed villa days perfectly — abundant stir-fries, curries, sushi platters, and noodles laid out for guests to graze on at their own pace.',
+    description: 'Pan-Asian sharing menus suit relaxed villa days perfectly, abundant stir-fries, curries, sushi platters, and noodles laid out for guests to graze on at their own pace.',
   },
   {
     title: 'Weddings & Large Celebrations',
@@ -159,22 +159,22 @@ const faqs = [
     q: 'Do you offer sushi and vegetarian options?',
     a: 'Yes. We provide a live sushi counter with hand-rolled maki, nigiri, and sashimi, including vegetarian rolls. Asian cuisine is rich in plant-based dishes, so we build generous vegetarian and vegan menus on request.',
   },
-  { q: "How much does Asian catering in Dubai cost per person?", a: "Asian catering in Dubai is priced by custom quote, because the cost depends on your menu, guest count, number of live stations, and level of service. Once you tell us your date, headcount, and whether you want wok, dim sum, or sushi stations, we build a transparent, itemised proposal — usually within 15 minutes during business hours. You can also browse our [catering packages](/catering-packages-dubai) to see how full-service pricing is structured." },
-  { q: "What exactly is included when I book your Asian catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards — you are left with nothing to tidy. Live wok, dim sum, and sushi stations are handled by our own chefs, and serving staff can be added when you want a fully waited service. In short, we handle the whole Asian feast from planning to pack-down so you can enjoy your own event." },
+  { q: "How much does Asian catering in Dubai cost per person?", a: "Asian catering in Dubai is priced by custom quote, because the cost depends on your menu, guest count, number of live stations, and level of service. Once you tell us your date, headcount, and whether you want wok, dim sum, or sushi stations, we build a transparent, itemised proposal, during business hours. You can also browse our [catering packages](/catering-packages-dubai) to see how full-service pricing is structured." },
+  { q: "What exactly is included when I book your Asian catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards, you are left with nothing to tidy. Live wok, dim sum, and sushi stations are handled by our own chefs, and serving staff can be added when you want a fully waited service. In short, we handle the whole Asian feast from planning to pack-down so you can enjoy your own event." },
   { q: "Is there a minimum number of guests for Asian catering?", a: "We cater Asian menus for intimate villa dinners of a handful of guests right up to large weddings and corporate functions of several hundred. Live stations like wok and dim sum work best with a slightly larger group so the theatre and flow feel right, but we scale the format to your numbers. Just share your guest count and we will recommend the best setup for the size of your gathering." },
-  { q: "Do you cater authentic Asian cuisine or fusion?", a: "Both — we can deliver authentic regional cooking such as Cantonese roast meats, Szechuan stir-fries, and classic Thai curries, or a modern pan-Asian fusion spread blending Japanese, Korean, Vietnamese, and Malaysian accents. Our chefs tailor the balance to your taste, whether you want a traditional single-cuisine banquet or a vibrant mixed-continent menu. Tell us the mood you are after and we design the menu around it." },
+  { q: "Do you cater authentic Asian cuisine or fusion?", a: "Both, we can deliver authentic regional cooking such as Cantonese roast meats, Szechuan stir-fries, and classic Thai curries, or a modern pan-Asian fusion spread blending Japanese, Korean, Vietnamese, and Malaysian accents. Our chefs tailor the balance to your taste, whether you want a traditional single-cuisine banquet or a vibrant mixed-continent menu. Tell us the mood you are after and we design the menu around it." },
   { q: "Are your kitchens and chefs food-safety certified?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, with careful temperature control and hygienic handling throughout cooking and service. This matters especially for raw items like sushi and sashimi, which we prepare fresh on site at a live counter rather than leaving to sit. You can read more about our approach on our [about page](/about)." },
-  { q: "Will the sushi and stir-fries actually be fresh, not sitting out?", a: "Yes — this is the biggest advantage of our live-station approach: sushi is hand-rolled to order at the counter, and noodles and stir-fries are fired fresh in the wok as guests come up. Nothing is pre-cooked hours ahead and left to go soggy or dry out. Dishes reach your guests hot, crisp, and at their peak, which is exactly why interactive Asian catering is so popular." },
+  { q: "Will the sushi and stir-fries actually be fresh, not sitting out?", a: "Yes, this is the biggest advantage of our live-station approach: sushi is hand-rolled to order at the counter, and noodles and stir-fries are fired fresh in the wok as guests come up. Nothing is pre-cooked hours ahead and left to go soggy or dry out. Dishes reach your guests hot, crisp, and at their peak, which is exactly why interactive Asian catering is so popular." },
   { q: "Can you cater for guests with allergies and gluten-free needs?", a: "Yes. We routinely adapt Asian menus for gluten, nut, shellfish, and soy sensitivities, using tamari in place of wheat-based soy sauce and preparing allergy-safe dishes with separate handling where possible. Because Asian cooking uses shared ingredients like soy and sesame, we ask you to flag every allergy in advance so our chefs can plan safely. See our [allergy-safe catering](/allergy-safe-catering-dubai) approach for more detail." },
-  { q: "Do you provide serving staff and waiters for the event?", a: "Serving staff are optional and can be added to any Asian catering booking — from station chefs and servers to a fully waited buffet or plated experience. For receptions and weddings we recommend service staff to pass dim sum, satay, and bao smoothly and keep stations flowing. For relaxed villa gatherings, a lighter setup often works just as well, and we will advise the right level for your event." },
+  { q: "Do you provide serving staff and waiters for the event?", a: "Serving staff are optional and can be added to any Asian catering booking, from station chefs and servers to a fully waited buffet or plated experience. For receptions and weddings we recommend service staff to pass dim sum, satay, and bao smoothly and keep stations flowing. For relaxed villa gatherings, a lighter setup often works just as well, and we will advise the right level for your event." },
   { q: "Do you need a full kitchen, or can you cook in a villa or venue?", a: "We bring our own equipment and set up live wok, dim sum, and sushi stations in villas, gardens, rooftops, and event venues without needing a full commercial kitchen. Our team assesses power, water, and space when planning so setup is smooth on the day. We regularly cater [villas and private residences](/villas-private-residences) as well as marquees, yachts, and corporate spaces across Dubai." },
   { q: "Can you set up on a yacht or outdoor venue?", a: "Yes. We cater Asian menus on yachts, beaches, desert setups, and open-air gardens, adapting our stations to the space, power, and access available. Compact wok and sushi setups work beautifully on a [yacht charter](/yachts), where interactive stations keep guests gathered on deck. Share your venue details and we will plan the logistics around it." },
-  { q: "How much notice do you need to confirm a large Asian event?", a: "For large weddings and corporate functions with multiple live stations, two to four weeks lets us secure your date and refine the menu, while smaller gatherings can often be arranged in one to two weeks. During peak season from November to March, dates fill quickly, so earlier is always safer. If your event is soon, message us anyway — we will always try to make it work." },
-  { q: "Can Asian catering suit both spice lovers and mild palates at one event?", a: "Absolutely — we prepare dishes across a range of heat levels so bold Szechuan and Thai fans and spice-sensitive guests are all comfortable at the same table. Our chefs can also serve chilli and sauces on the side and label the heat of each dish. This makes pan-Asian catering ideal for mixed corporate and family crowds where tastes vary widely." },
-  { q: "How does your Asian catering compare to ordering from a restaurant?", a: "Unlike a restaurant takeaway that arrives packed and cooling, our chefs cook everything live at your venue, so food is fresh, hot, and served as an experience rather than delivered in boxes. You also get full menu design, setup, serving, and cleanup as one coordinated service. It is the difference between a delivery order and a genuine event — see how it works on our [how it works](/how-it-works) page." },
+  { q: "How much notice do you need to confirm a large Asian event?", a: "For large weddings and corporate functions with multiple live stations, two to four weeks lets us secure your date and refine the menu, while smaller gatherings can often be arranged in one to two weeks. During peak season from November to March, dates fill quickly, so earlier is always safer. If your event is soon, message us anyway, we will always try to make it work." },
+  { q: "Can Asian catering suit both spice lovers and mild palates at one event?", a: "Absolutely, we prepare dishes across a range of heat levels so bold Szechuan and Thai fans and spice-sensitive guests are all comfortable at the same table. Our chefs can also serve chilli and sauces on the side and label the heat of each dish. This makes pan-Asian catering ideal for mixed corporate and family crowds where tastes vary widely." },
+  { q: "How does your Asian catering compare to ordering from a restaurant?", a: "Unlike a restaurant takeaway that arrives packed and cooling, our chefs cook everything live at your venue, so food is fresh, hot, and served as an experience rather than delivered in boxes. You also get full menu design, setup, serving, and cleanup as one coordinated service. It is the difference between a delivery order and a genuine event, see how it works on our [how it works](/how-it-works) page." },
   { q: "Can you combine Asian food with other cuisines for a mixed menu?", a: "Yes. Many clients pair pan-Asian stations with Arabic, Mediterranean, or Indian dishes for a multi-cuisine spread that suits a diverse Dubai guest list. We design the full menu as one balanced experience so the flavours and formats complement each other rather than compete. Explore our wider range on the [cuisines](/cuisines-dubai) page and we will craft the right blend for your occasion." },
   { q: "Is VAT included in the price you quote?", a: "Our quotes are clear about pricing, and the standard 5% UAE VAT applies to catering services. When we send your itemised proposal, you will see exactly what is included so there are no surprises later. If anything about the quote is unclear, just ask and we will walk you through every line before you confirm." },
-  { q: "Do you offer vegetarian and vegan Asian menus for the whole event?", a: "Yes — Asian cuisine is naturally rich in plant-based cooking, so we can build entirely vegetarian or vegan spreads with tofu stir-fries, vegetable dumplings, fresh spring rolls, and veggie sushi rolls. We can also run a fully plant-based station alongside your main menu for mixed groups. Tell us your numbers and we will make the vegetarian and vegan options generous, not an afterthought." },
+  { q: "Do you offer vegetarian and vegan Asian menus for the whole event?", a: "Yes, Asian cuisine is naturally rich in plant-based cooking, so we can build entirely vegetarian or vegan spreads with tofu stir-fries, vegetable dumplings, fresh spring rolls, and veggie sushi rolls. We can also run a fully plant-based station alongside your main menu for mixed groups. Tell us your numbers and we will make the vegetarian and vegan options generous, not an afterthought." },
   {
     q: 'Do you also do Chinese catering Dubai?',
     a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
@@ -184,7 +184,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
+    description: 'Drop-off, buffet, stations or a chef at the table. Food, service and pack-down at your address.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -298,10 +298,11 @@ export default function AsianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Asian Catering Dubai | Thai, Chinese, Sushi & Wok"
-        description="Asian catering Dubai for weddings, villas & corporate events. Thai, Chinese & pan-Asian fusion with live wok, dim sum & sushi stations. Quote in ~15 mins."
+        title="Asian Catering Dubai | myCHEF"
+        description="Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Sushi is a sibling brief. You stay a guest at your table."
         canonicalPath="/asian-catering-dubai"
         ogImage="/menu-seafood.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -326,10 +327,10 @@ export default function AsianCatering() {
             Asian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asia-hero-sub">
-            Thai, Chinese, and pan-Asian fusion with live wok, dim sum, and sushi stations — vibrant, interactive menus brought to weddings, villas, and events across Dubai.
+            Asian Catering Dubai is regional: Thai curries, Chinese woks, dim sum, Vietnamese and Korean plates. Live wok heat when the space allows. Sushi has its own page.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 asia-hero-cta">Get My Asian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 asia-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -349,16 +350,16 @@ export default function AsianCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">VIBRANT ASIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            One Continent, Endless Flavour
+            Wok heat, dim sum, regional menus. Sushi next door.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Asian cuisine is a world of contrasts — the sweet-sour-salty-spicy balance of a Thai curry, the high-heat char of a Cantonese wok, the precision of hand-rolled sushi, and the comfort of steaming dim sum. It is built for sharing, for movement, and for moments of theatre. At myCHEF Dubai, we bring those moments to your event with live stations and freshly cooked plates, drawing on Thai, Chinese, Japanese, and fusion traditions across the continent.
+            Asian Catering Dubai is a regional split, not a single tray. Thai curries, Cantonese woks, dim sum, Vietnamese herbs, Korean grills. Live wok stations need power, extraction and space. Apartment kitchens and yachts have limits. We check first. A raw counter belongs on <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From live wok and dim sum stations to a <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link> counter with hand-rolled maki and sashimi, our pan-Asian menus suit receptions, villa gatherings, weddings, and themed corporate nights. Halal sourcing is the baseline, spice levels are tailored to your guests, and vegetarian and vegan dishes are plentiful — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Halal meat is the default. Pork is not assumed. Spice is written to the room, not guessed. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Indian kitchens have their own page.
           </p>
         </div>
       </section>
@@ -533,13 +534,13 @@ export default function AsianCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center asia-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Asian Feast
+            Send the regional split with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design a pan-Asian menu — with live wok, dim sum, or sushi stations — that suits your guests, dietary needs, and the scale of your occasion.
+            Name Thai, Chinese, mixed, and whether a wok station fits the room. Sushi is a separate brief. We put dietary notes on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Asian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -91,20 +91,20 @@ const includedItems = [
 
 const useCases = [
   {
-    title: 'Daily Workforce Meals',
-    description: 'When teams are on-site all day, a reliable daily meal keeps people fuelled, focused, and looked after. We run a planned rotation of hearty, balanced meals so staff have something good to count on each day: far more sustainable and cost-effective than ad-hoc ordering across a large workforce.',
+    title: 'Daily team meals',
+    description: 'A hot main, carbohydrate, salad and fruit on a rotation. Drop-off from AED 90 per person. Billed on the meals we deliver, not on a guessed month.',
   },
   {
-    title: 'Staff Canteens at Scale',
-    description: 'For larger organisations, a managed canteen-style service is the efficient way to feed many people well. We set up buffet stations with hot mains, sides, and salads, serve on-site, and clear away: giving your workforce a proper meal without you running an in-house kitchen.',
+    title: 'A canteen sitting',
+    description: 'A line for a larger workforce. Staffed if someone has to run it. This is volume food, not a gala. If you need the room run as a canteen, that job sits on canteen management.',
   },
   {
-    title: 'Recurring Retainers',
-    description: 'A standing meal retainer is the backbone of dependable staff catering. We agree a rotation, schedule, and headcount, then deliver consistently week after week, with consolidated invoicing and a single contact. It removes the daily admin and locks in a reliable standard for the whole team.',
+    title: 'A written account',
+    description: 'Regular sittings on one agreement. Fees, credit and expiry are named in writing. An LPO does not create credit terms by itself.',
   },
   {
-    title: 'Shift & Operational Sites',
-    description: 'Shift work and operational sites need catering that fits the roster, not the other way around. We schedule meals around your shift patterns and delivery windows, so teams working early, late, or around the clock are reliably fed at the right times.',
+    title: 'Shift meals',
+    description: 'Food that holds. Timed to the roster. If the shift moves after the kitchen deadline, the sitting is quoted again.',
   },
 ]
 
@@ -144,19 +144,19 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you offer recurring daily staff meals?',
-    a: 'Yes. A recurring retainer is our most popular staff catering arrangement. We agree a weekly or monthly rotation, a delivery schedule, and a headcount, then deliver consistently. You get a planned menu, a single point of contact, and predictable invoicing instead of ad-hoc daily ordering.',
+    a: 'Yes. Recurring sittings run on a weekly or monthly rotation, a named delivery window and a headcount. You get one contact and one invoice for the meals that ran.',
   },
   {
     q: 'Are your staff menus halal?',
-    a: 'Yes. your chef prepares fully halal menus to a high standard, which makes them suitable for diverse teams. If your workforce has additional requirements, share them when planning and we will build the rotation to suit everyone.',
+    a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free lines are planned when you name them. Labels go on the tray. This is not a medical kitchen.',
   },
   {
     q: 'Can you cater large workforces with a canteen service?',
-    a: 'We can. For larger organisations we provide a managed canteen-style buffet: hot mains, sides, and salads set up and served on-site at scale, then cleared away. It gives your team a proper meal without you needing to run an in-house kitchen.',
+    a: 'A larger workforce sitting is a line: hot mains, sides and salad. Staffed if someone has to run it. If you need the room itself operated as a canteen, that is canteen management, not this page.',
   },
   {
     q: 'Can you work around shift patterns and delivery windows?',
-    a: 'Yes. For shift workers and operational sites, we schedule meals around your rosters and preferred delivery windows, so teams working early, late, or around the clock are reliably fed at the right times rather than catered to a standard schedule.',
+    a: 'Yes. The sitting time is in the booking. If the roster moves after the kitchen deadline, the sitting is quoted again.',
   },
   {
     q: 'How does pricing work for a staff meals retainer?',

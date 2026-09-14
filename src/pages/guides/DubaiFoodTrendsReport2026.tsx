@@ -36,7 +36,7 @@ const trends = [
   {
     icon: Leaf,
     title: 'Hyper-Local and Seasonal Sourcing',
-    description: 'Dubai hosts increasingly expect menus that highlight regional flavours — dates, saffron, za’atar, camel milk, local fish and Gulf herbs — alongside seasonal produce. Caterers who can source responsibly and tell the story behind each ingredient are winning trust and press coverage.',
+    description: 'Dubai hosts increasingly expect menus that highlight regional flavours: dates, saffron, za’atar, camel milk, local fish and Gulf herbs: alongside seasonal produce. Caterers who can source responsibly and tell the story behind each ingredient are winning trust and press coverage.',
   },
   {
     icon: ChefHat,
@@ -46,7 +46,7 @@ const trends = [
   {
     icon: Users,
     title: 'Inclusive Dining by Default',
-    description: 'Vegetarian, vegan, Jain, halal, gluten-free and allergen-aware menus are no longer special requests — they are baseline expectations. The best Dubai caterers build inclusive options into every proposal rather than treating them as afterthoughts.',
+    description: 'Vegetarian, vegan, Jain, halal, gluten-free and allergen-aware menus are no longer special requests: they are baseline expectations. The best Dubai caterers build inclusive options into every proposal rather than treating them as afterthoughts.',
   },
   {
     icon: Globe,
@@ -88,7 +88,7 @@ const howToUse = [
   'Review the trends above and identify which matter most for your guest list.',
   'Discuss dietary requirements, cultural considerations and any must-have dishes with your caterer.',
   'Ask for a tasting so you can experience the menu before committing.',
-  'Plan service style — plated, family-style, stations, or a mix — around the flow of your event.',
+  'Plan service style: plated, family-style, stations, or a mix: around the flow of your event.',
   'Build in one “signature moment” such as a live station, local-ingredient course, or mocktail pairing.',
 ]
 
@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     q: 'How do I make a menu inclusive for mixed dietary needs?',
-    a: 'Start by collecting dietary requirements with your RSVP, then ask your caterer to design a base menu that is naturally inclusive — for example, a Mediterranean or Indian spread that offers vegetarian, vegan, Jain, halal and gluten-free options without feeling like a separate menu.',
+    a: 'Start by collecting dietary requirements with your RSVP, then ask your caterer to design a base menu that is naturally inclusive: for example, a Mediterranean or Indian spread that offers vegetarian, vegan, Jain, halal and gluten-free options without feeling like a separate menu.',
   },
   {
     q: 'Are live cooking stations worth the extra cost?',
@@ -134,7 +134,7 @@ const faqs = [
 const articleSchema = {
   '@type': 'Article',
   headline: 'Dubai Food Trends Report 2026: What Hosts and Caterers Need to Know',
-  description: 'A practical look at the Dubai catering trends shaping events in 2026 — local sourcing, inclusive menus, live stations, global-Dubai cuisine and non-alcoholic experiences.',
+  description: 'A practical look at the Dubai catering trends shaping events in 2026: local sourcing, inclusive menus, live stations, global-Dubai cuisine and non-alcoholic experiences.',
   image: 'https://www.mychef.ae/images/dubai-food-trends-report-hero.webp',
   author: {
     '@type': 'Organization',
@@ -226,8 +226,8 @@ export default function DubaiFoodTrendsReport2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Food Trends 2026 — Report"
-        description="Dubai Food Trends 2026 — The Dubai food trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine…"
+        title="Dubai Food Trends 2026 | myCHEF"
+        description="Dubai Food Trends 2026: The Dubai food trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine…"
         canonicalPath="/dubai-food-trends-report-2026"
         ogImage="/images/dubai-food-trends-report-hero.webp"
         schema={schema}
@@ -251,10 +251,10 @@ export default function DubaiFoodTrendsReport2026() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 trends-hero-h1">
-            Dubai Food Trends 2026 — Report
+            Dubai Food Trends 2026
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
-            The catering and private-dining movements shaping Dubai events this year — from hyper-local ingredients and inclusive menus to chef-led tasting experiences and non-alcoholic beverage programmes.
+            What we are seeing hosts ask for in 2026: local produce, inclusive menus, live stations, and drinks that are not a bar as the product. Observation, not a survey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">

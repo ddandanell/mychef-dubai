@@ -20,7 +20,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const faqs = [
   {
     q: 'How much does a romantic dinner for two with a private chef cost in Dubai?',
-    a: 'A private chef romantic dinner Dubai couples book through myCHEF starts from AED 1,200 for two, which covers a three-course menu, the chef, ingredients, table styling and a full kitchen clean. Premium ingredients such as wagyu, lobster or caviar, extra courses, a sommelier or a florist are quoted on top. Proposal evenings with a planner and photographer start from AED 3,000.',
+    a: 'A private chef romantic dinner Dubai couples book through myCHEF starts from AED 1,200 for two: three courses, the chef, ingredients, table styling and a full kitchen clean. That is the published Date Night package. Extra courses, a sommelier or a florist are quoted on top. VAT at 5%. Proposal evenings are quoted on the proposal dinner page.',
   },
   {
     q: 'Can you set up a romantic dinner at our home rather than a restaurant?',
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: 'Is this the same as your date night package?',
-    a: 'The date night package is our fixed-format, fixed-price version of the same idea, ideal when you want a quick decision. This page is the bespoke version: choose the setting, the number of courses, the styling and the extras. Either way the same vetted chefs cook.',
+    a: 'The date night package is the fixed-format, fixed-price version of the same idea, when you want a quick decision. This page is the open brief: setting, courses, styling and extras. Either way the same chefs cook. One night is catering, not a household plan.',
   },
 ]
 
@@ -93,12 +93,12 @@ const settings = [
   {
     icon: Heart,
     title: 'At home or in your villa',
-    desc: 'The setting couples choose most. We bring the linen, candles and flowers, cook in your kitchen and clear everything away. A romantic dinner at home Dubai couples host this way costs less than a comparable restaurant evening and nobody is watching the clock.',
+    desc: 'The setting couples choose most. We bring the linen, candles and flowers, cook in your kitchen and clear everything away. A romantic dinner at home Dubai couples host this way is Date Night from AED 1,200 for two. Nobody is watching the clock.',
   },
   {
     icon: MapPin,
     title: 'Beach and desert',
-    desc: 'For a romantic dinner Dubai beach villas on Palm Jumeirah and licensed beach clubs give you sand under the table without breaking public-beach rules. For a romantic dinner Dubai desert evenings, we work with licensed dune camps near Al Qudra where the chef cooks over fire as the light goes.',
+    desc: 'For a romantic dinner Dubai beach villas on Palm Jumeirah and licensed beach clubs give you sand under the table without breaking public-beach rules. For a romantic dinner Dubai desert evenings, we work with licensed dune camps near Al Qudra. The chef cooks as the light goes.',
   },
   {
     icon: Sparkles,
@@ -175,8 +175,8 @@ export default function RomanticDinner() {
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Every romantic dinner Dubai couples book with myCHEF starts with one conversation about the two of you: the
-            occasion, the setting and the dishes that mean something. A vetted private chef then cooks it where you are,
-            at home, in a villa, on a yacht or under the desert sky, from AED 1,200 for two.
+            occasion, the setting and the dishes that mean something. A private chef then cooks it where you are,
+            at home, in a villa, on a yacht or under the desert sky, from AED 1,200 for two. VAT at 5%.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link to="/inquiry" className="btn-primary">Plan Our Dinner for Two</Link>
@@ -189,7 +189,7 @@ export default function RomanticDinner() {
 
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 gsap-reveal">
-          <h2 className="font-playfair text-3xl text-white mb-6">Why Couples Skip the Restaurant</h2>
+          <h2 className="font-playfair text-3xl text-white mb-6">Why couples skip the restaurant</h2>
           <p className="text-gray-400 mb-4">
             Restaurants seat you at 8:30, turn the table by 10:30 and put a stranger&apos;s conversation eighteen inches from
             your anniversary. A private dinner for two Dubai couples host with us is the opposite: the chef arrives, cooks in
@@ -197,17 +197,17 @@ export default function RomanticDinner() {
           </p>
           <p className="text-gray-400 mb-4">
             The menu is written for the two of you rather than pulled from a card. If your first date was a bowl of
-            hand-cut pasta in Bologna, that is course two. If one of you is pregnant, halal, vegan or allergic to shellfish,
-            the whole menu is built around it rather than worked around it. This is what private dining for two Dubai
-            residents actually want: a restaurant-grade kitchen with nobody else in the room.
+            pasta, that is course two. If one of you is pregnant, halal, vegan or allergic to shellfish,
+            the whole menu is built around it. This is what private dining for two Dubai
+            residents actually want: a kitchen with nobody else in the room.
           </p>
           <p className="text-gray-400">
-            It is also, per head, better value than a comparable restaurant evening once you count parking, valet, service
-            charge and the bottle you would not have chosen. See the{' '}
+            Date night private chef Dubai and a romantic dinner at home Dubai are the same night, quoted from AED 1,200 for two.
+            See the{' '}
             <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private dining guide</Link>{' '}
             for how the format compares, or the wider{' '}
             <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4">luxury dining experiences</Link>{' '}
-            we run for couples and small groups.
+            we run for couples and small groups. A standing household chef is a different product.
           </p>
         </div>
       </section>
@@ -255,8 +255,8 @@ export default function RomanticDinner() {
           <p className="text-gray-400 max-w-3xl mx-auto text-center mt-12 gsap-reveal">
             The chefs are the same people who cook for our{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private chef</Link>{' '}
-            households week to week, interviewed, tasted and background-checked before they cook for anyone. A private chef
-            romantic dinner Dubai couples book with us is never a caterer&apos;s tray reheated at the door.
+            households week to week, checked before they cook for anyone. A private chef
+            romantic dinner Dubai couples book with us is cooked in the kitchen that night, not reheated at the door.
           </p>
         </div>
       </section>
@@ -299,23 +299,22 @@ export default function RomanticDinner() {
                   <td className="py-4">AED 1,200</td>
                 </tr>
                 <tr>
-                  <td className="py-4 pr-4 text-white">Five-course tasting for two</td>
-                  <td className="py-4 pr-4">As above, with amuse-bouche and pre-dessert; optional pairing</td>
-                  <td className="py-4">AED 1,900</td>
+                  <td className="py-4 pr-4 text-white">Longer plated dinner for two</td>
+                  <td className="py-4 pr-4">Chef-led plated dining, from AED 700 a person. Extra courses quoted</td>
+                  <td className="py-4">From AED 700 / person</td>
                 </tr>
                 <tr>
                   <td className="py-4 pr-4 text-white">Proposal evening</td>
-                  <td className="py-4 pr-4">Planner, florist, photographer timing, ring choreography</td>
-                  <td className="py-4">AED 3,000</td>
+                  <td className="py-4 pr-4">Planner, florist and photographer timing, quoted on the proposal page</td>
+                  <td className="py-4">Quoted</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-gray-500 text-sm mt-6">
-            Prices are for Dubai addresses and exclude VAT. Desert and beach sites add venue and transport fees, quoted per
-            location. Premium ingredients such as wagyu, truffle and caviar are itemised, never hidden in a service charge.
-            The fixed-price{' '}
-            date night package{' '}
+            Prices are for Dubai addresses. VAT at 5% is shown on its own line. Desert and beach sites add venue and transport fees, quoted per
+            location. Ingredients above the Date Night menu are itemised. The fixed-price{' '}
+            <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">date night package</Link>{' '}
             is the fastest way to book the three-course format.
           </p>
         </div>
@@ -323,7 +322,7 @@ export default function RomanticDinner() {
 
       <section className="py-24 bg-charcoal">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-playfair text-3xl text-white text-center mb-12 gsap-reveal">Frequently Asked Questions</h2>
+          <h2 className="font-playfair text-3xl text-white text-center mb-12 gsap-reveal">Questions before a dinner for two</h2>
           <div className="space-y-8">
             {faqs.map((f) => (
               <div key={f.q} className="border-b border-charcoal-light pb-8 gsap-reveal">
@@ -334,7 +333,7 @@ export default function RomanticDinner() {
           </div>
           <p className="text-gray-500 text-sm text-center mt-10 gsap-reveal">
             Still deciding? Read how a{' '}
-            private chef date night{' '}
+            <Link to="/blog/private-chef-date-night-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private chef date night</Link>{' '}
             actually unfolds, hour by hour.
           </p>
         </div>
@@ -342,7 +341,7 @@ export default function RomanticDinner() {
 
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-4 text-center gsap-reveal">
-          <h2 className="font-playfair text-3xl text-white mb-6">Romantic Dinner Dubai: Tell Us About the Two of You</h2>
+          <h2 className="font-playfair text-3xl text-white mb-6">Tell us about the two of you</h2>
           <p className="text-gray-400 mb-8">
             Date, area, dietary notes and the occasion. We send a menu draft and a firm price within 24 hours, and hold the
             chef once you say yes.

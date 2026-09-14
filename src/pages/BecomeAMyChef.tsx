@@ -37,33 +37,33 @@ const CANONICAL_PATH = '/become-a-mychef'
 const requirements = [
   {
     icon: ChefHat,
-    title: 'Professional Cooking Experience',
-    description: 'You have worked as a private chef, restaurant chef, event chef, pastry chef, or in a similar professional kitchen role. We look for proven ability to cook to a high standard under pressure.',
+    title: 'You can cook the job',
+    description: 'Private chef, restaurant, events or pastry. A CV is not enough. You will cook in a kitchen we can watch.',
   },
   {
     icon: ShieldCheck,
-    title: 'UAE Visa & Right to Work',
-    description: 'You must hold a valid UAE visa that permits work, or a freelance permit relevant to culinary services. We verify right-to-work documents during onboarding.',
+    title: 'Right to work, on paper',
+    description: 'A valid UAE visa that permits work, or a freelance permit for culinary services. We ask to see the document, not a declaration.',
   },
   {
     icon: Car,
-    title: 'Reliable Transport',
-    description: 'Events happen across Dubai — Palm Jumeirah, Downtown, Marina, Emirates Hills, and beyond. Reliable transport and punctuality are essential.',
+    title: 'You can get there on time',
+    description: 'Bookings run across Dubai: Palm Jumeirah, Downtown, Marina, Emirates Hills and beyond. Transport and punctuality are part of the job.',
   },
   {
     icon: UtensilsCrossed,
-    title: 'Food-Hygiene Awareness',
-    description: 'You must demonstrate safe food handling, temperature control, cross-contamination prevention, and allergen awareness. PIC certification is preferred.',
+    title: 'Food hygiene, not a slogan',
+    description: 'Safe handling, temperature control, cross-contamination and allergen practice. PIC is preferred. We do not claim every chef holds a named certificate.',
   },
   {
     icon: Moon,
-    title: 'Halal Knowledge',
-    description: 'Knowledge of halal ingredients and preparation is a strong advantage in the Dubai market. We source halal-certified proteins for most events.',
+    title: 'Halal as default',
+    description: 'Halal ingredients are the starting point for most bookings. You need to know how to keep that line clean.',
   },
   {
     icon: Award,
-    title: 'Presentation & Professionalism',
-    description: 'Beyond cooking, we value chefs who communicate clearly, present food beautifully, respect client homes, and leave kitchens clean.',
+    title: 'The house is not a restaurant',
+    description: 'Clear communication, respect for the home, and a kitchen left as found. Presentation matters. Behaviour matters more.',
   },
 ]
 
@@ -110,8 +110,8 @@ const faqs = [
     a: 'We welcome experienced private chefs, restaurant chefs, event chefs, pastry chefs, and hospitality professionals who can demonstrate strong cooking skills, professionalism, and legal right to work in the UAE.',
   },
   {
-    q: 'Do I need food-safety-certified (partner-held) certification?',
-    a: 'food-safety-certified (partner-held) is not mandatory, but food-hygiene awareness and safe handling practices are required. PIC (Person in Charge) certification is preferred.',
+    q: 'Do I need a named food-safety certificate?',
+    a: 'A named certificate is not mandatory. Safe handling is. PIC (Person in Charge) is preferred.',
   },
   {
     q: 'What cuisines are in demand?',
@@ -226,8 +226,8 @@ export default function BecomeAMyChef() {
   return (
     <div>
       <SEO
-        title="Become a myCHEF | Private Chef Jobs Dubai"
-        description="Private Chef Jobs Dubai — Join the myCHEF Dubai private chef network. Experienced chefs, pastry chefs, and event chefs can apply via WhatsApp. Flexible…"
+        title="Private Chef Jobs Dubai | Join myCHEF | myCHEF"
+        description="Private chef jobs Dubai: apply on WhatsApp with visa status, cuisines and a CV or portfolio. A licensed supplier employs you. Work is matched, not guaranteed."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/become-a-mychef-dubai-hero.webp"
         schema={schema}
@@ -251,10 +251,10 @@ export default function BecomeAMyChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bmc-hero-h1">
-            Private Chef Jobs Dubai: Join the myCHEF Dubai Chef Network
+            Private Chef Jobs Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bmc-hero-sub">
-            Experienced private chefs, pastry chefs, and event chefs — work with Dubai's trusted luxury catering brand on flexible, premium events.
+            Independent licensed partners cook. A supplier employs you on a proper visa. We match the work. No chef is guaranteed a schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -357,10 +357,10 @@ export default function BecomeAMyChef() {
             <div>
               <SectionLabel>WHY JOIN</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
-                Cook More. Worry Less.
+                You cook. We match the work.
               </h2>
               <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-6">
-                Joining myCHEF Dubai means spending more time doing what you love — cooking — and less time marketing, negotiating, or chasing payments. We handle client acquisition, menu coordination, and logistics so you can focus on the food.
+                A licensed supplier employs you on a proper visa. We match the booking, run the checks and pay on the terms you see in writing. No chef is guaranteed a schedule.
               </p>
             </div>
             <div className="bmc-why space-y-4">
@@ -385,7 +385,7 @@ export default function BecomeAMyChef() {
                 Apply to Become a myCHEF
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Tap the button below and send us your details on WhatsApp. Include your experience, cuisines, visa status, certifications, and a link to your portfolio or CV — the more detail, the faster we can assess your fit.
+                Tap the button below and send us your details on WhatsApp. Include your experience, cuisines, visa status, certifications, and a link to your portfolio or CV: the more detail, the faster we can assess your fit.
               </p>
               <a
                 href={WHATSAPP_LINK}
@@ -403,7 +403,7 @@ export default function BecomeAMyChef() {
                 </div>
                 <div className="flex items-start gap-3">
                   <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                  <span className="font-inter text-body-sm text-gray-500">No account or app download needed — just WhatsApp.</span>
+                  <span className="font-inter text-body-sm text-gray-500">No account or app download needed: just WhatsApp.</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Check size={16} className="text-gold mt-1 flex-shrink-0" />
@@ -435,7 +435,7 @@ export default function BecomeAMyChef() {
                 </div>
                 <div className="flex items-start gap-3">
                   <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                  <span className="font-inter text-body text-gray-400">No chef is guaranteed events — work is matched by fit and availability.</span>
+                  <span className="font-inter text-body text-gray-400">No chef is guaranteed events: work is matched by fit and availability.</span>
                 </div>
               </div>
               <div className="mt-10 pt-8 border-t border-charcoal-light">

@@ -16,7 +16,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/institutional-catering-dubai-hero.webp',
-    alt: 'Institutional catering Dubai — a calm service line being set, labelled trays, no devices on the food. Experience concept shown.',
+    alt: 'Institutional catering Dubai: a calm service line being set, labelled trays, no devices on the food. Experience concept shown.',
     width: 1344,
     height: 752,
     subtitle:
@@ -72,9 +72,9 @@ export const institutionalHubPage: InstitutionalPageContent = {
   problem: {
     h2: 'Institutional catering Dubai is a documented kitchen',
     paragraphs: [
-      'Nurseries, schools, hospitals and staff canteens buy food the same way a household does not. They buy a kitchen they can inspect, a matrix a nurse or a manager can read, and an invoice finance can compare. Education catering Dubai and healthcare catering Dubai fail in public when those papers are missing.',
-      'The market is large and the SERPs are thin. Competitors still ship 400-word pages with no FAQs and no quote path. We built four owned pages instead of stuffing this hub with every phrase. A staff canteen Dubai or corporate canteen catering Dubai brief belongs on canteen management; early years catering Dubai on nursery catering; patient meal services Dubai on hospital catering. Nut-free institutional meals Dubai and a documented catering kitchen Dubai are the standard on every child page, not a badge on this hub.',
-      'We do not publish a from-price on this hub. We do not claim My School Food registration or a named HACCP number here. Those sentences live on the child page only when src/content/ can show them.',
+      'Nurseries, schools, hospitals and staff canteens do not buy food the way a household does. They buy a kitchen they can inspect, a matrix a nurse or a manager can read, and an invoice finance can compare. Education catering and healthcare catering fail in public when those papers are missing.',
+      'A staff canteen or corporate canteen brief belongs on canteen management. Early years belongs on nursery catering. Patient meals belong on hospital catering. Nut-free production and a documented kitchen are the standard on every child page, not a badge on this hub.',
+      'We do not publish a from-price on this hub. We do not claim My School Food registration or a named HACCP number here. Those sentences live on the child page only when we can show the papers.',
     ],
   },
   difference: {

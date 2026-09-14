@@ -55,7 +55,7 @@ export default function TrustAndPrograms() {
         variant="quiet"
         eyebrow="About myCHEF"
         title={trustAndProgramsSeo.h1}
-        subtitle="How the standards, protection and programmes behind a myCHEF booking actually work — each one explained on its own page."
+        subtitle="How the standards, protection and programmes behind a myCHEF booking actually work. Each one has its own page."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="A private chef working in a Dubai kitchen. Experience concept shown."
         imageWidth={1683}

@@ -117,7 +117,7 @@ export default function YachtPartyMenuIdeas() {
       <PageHero
         eyebrow="Yacht Catering"
         title="Yacht Party Menu Ideas Dubai"
-        subtitle="Yacht Party Menu Ideas Dubai by myCHEF — How to build a menu that looks elegant, travels well, and tastes incredible while cruising Dubai Marina or the Palm."
+        subtitle="Menus that travel: canapés, a grill if the vessel allows it, boxed food that holds. Yacht catering starts from AED 280 per person. Galley size decides the rest."
         image="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         imageAlt="Canapés being passed on a Dubai yacht deck at golden hour"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Yacht Party Menu Ideas' }]}
@@ -152,7 +152,7 @@ export default function YachtPartyMenuIdeas() {
               A yacht party in Dubai is one of the most memorable ways to celebrate a birthday, anniversary, corporate milestone, or simply a sunset among friends. But the best yacht menus are not just smaller versions of a land-based banquet. They need to account for compact galleys, movement on the water, limited plating space, and guests who want to socialise without juggling heavy plates.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Yacht catering starts from AED 280 per person. What to check: galley size, boarding, holding, and whether a grill is allowed. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               This guide shares menu ideas that work beautifully on a yacht, from handheld canapés to fresh seafood and desserts that hold up in the marina breeze.

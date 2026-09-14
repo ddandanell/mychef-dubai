@@ -49,8 +49,8 @@ export interface TermGroup {
 
 export const PROPOSAL_VALIDITY_DAYS = 14
 
-const bands = ASSISTANT_BANDS.map((b) => `${b.min} to ${b.max} people — ${b.assistants === 0 ? 'chef only' : `+${b.assistants} assistant${b.assistants > 1 ? 's' : ''}`}`)
-  .concat([`${CUSTOM_STAFFING_FROM}+ — custom staffing plan`])
+const bands = ASSISTANT_BANDS.map((b) => `${b.min} to ${b.max} people: ${b.assistants === 0 ? 'chef only' : `+${b.assistants} assistant${b.assistants > 1 ? 's' : ''}`}`)
+  .concat([`${CUSTOM_STAFFING_FROM}+: custom staffing plan`])
 
 export const PLAN_TERMS: TermGroup[] = [
   {
@@ -62,7 +62,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'chef-is-part-of-the-service',
         title: 'A chef is only part of the service.',
         paragraphs: [
-          'Hiring a chef directly may look less expensive because you are paying primarily for one person’s time. With myCHEF, the chef is part of a managed household service.',
+          'Hiring a chef directly may look less expensive because you are paying primarily for one person’s time. With myCHEF, the chef is part of a managed household service. One dinner is catering; this plan is for a chef who comes back.',
           'Your plan can include chef matching, household onboarding, your Food Profile, ongoing quality follow-up, schedule management, support when requirements change, and access to replacement or additional culinary staff where needed.',
           'You still get the consistency of a regular chef, without having to build and manage the operating system around them yourself.',
         ],
@@ -94,7 +94,7 @@ export const PLAN_TERMS: TermGroup[] = [
         title: 'One price for the job. The level is what the chef earns.',
         paragraphs: [
           'There is one word for the person who cooks in your home: a professional chef. Nobody is placed until we have checked identity and right to work, passed them on a practical cooking assessment, taken references and confirmed food-hygiene awareness. The entry level is a pass, not a budget option.',
-          'Three levels, and they describe the standard a chef is working to — not what you pay. Everyone starts at Level 1, and the price you see is the price. Consistently strong service across a month moves a chef to Level 2, and holding that standard for three months reaches Level 3. A chef whose work slips moves back down, and one who keeps slipping is taken off household work.',
+          'Three levels, and they describe the standard a chef is working to, not what you pay. Everyone starts at Level 1, and the price you see is the price. Consistently strong service across a month moves a chef to Level 2, and holding that standard for three months reaches Level 3. A chef whose work slips moves back down, and one who keeps slipping is taken off household work.',
           'The extra is paid by us, and your figure does not move when they move up. There is no more expensive grade of chef for us to move you up to.',
         ],
         decisionRelevant: true,
@@ -168,7 +168,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'groceries',
         title: 'Two ways to manage groceries.',
         paragraphs: [
-          'We do not add a percentage markup to your groceries. You pay the actual grocery cost plus any direct transport or delivery expense. The additional service cost comes from the chef time allocated to managing the kitchen.',
+          'We do not add a percentage markup to your groceries. You pay the actual grocery cost plus any direct transport or delivery expense. VAT at 5% is shown on the service, not on the supermarket receipt. The additional service cost comes from the chef time allocated to managing the kitchen.',
           'Some weeks require more shopping time than others. The service is therefore priced around an overall time allocation rather than charging you separately every time someone visits a supermarket.',
         ],
         twoUp: {
@@ -184,7 +184,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'guests',
         title: 'Your household plan covers normal household use.',
         paragraphs: [
-          `Standard chef plans include cooking for up to ${ASSISTANT_BANDS[0].max} people. Having friends or family over occasionally is not a problem, but a bigger table usually needs extra hands — the guide below shows how many.`,
+          `Standard chef plans include cooking for up to ${ASSISTANT_BANDS[0].max} people. Having friends or family over occasionally is not a problem, but a bigger table usually needs extra hands. The guide below shows how many.`,
           'If you are planning a larger dinner, birthday, reception or event, your account manager can also move that service into our Catering team where appropriate.',
         ],
         bullets: bands,
@@ -336,7 +336,7 @@ export const PLAN_TERMS: TermGroup[] = [
   {
     id: 'people',
     title: 'People in your home',
-    intro: 'Continuity, replacement, and what the chef is — and is not — there to do.',
+    intro: 'Continuity, replacement, and what the chef is, and is not, there to do.',
     items: [
       {
         id: 'chef-unavailable',
@@ -363,7 +363,7 @@ export const PLAN_TERMS: TermGroup[] = [
         title: 'Either side can decide the match is not working.',
         paragraphs: [
           'You may ask myCHEF to change the chef. The chef may also tell myCHEF that they no longer wish to continue with a household. That is normal.',
-          'If either the client or chef wishes to end the assignment, myCHEF should be informed as soon as possible. We will first try to understand whether the issue can be resolved through communication, schedule adjustments or service changes. If the match should end, we coordinate the transition and, where appropriate, begin arranging a replacement — client → myCHEF → solution, never arrangements made privately between client and chef.',
+          'If either the client or chef wishes to end the assignment, myCHEF should be informed as soon as possible. We will first try to understand whether the issue can be resolved through communication, schedule adjustments or service changes. If the match should end, we coordinate the transition and, where appropriate, begin arranging a replacement. Client to myCHEF to solution, never arrangements made privately between client and chef.',
         ],
         decisionRelevant: false,
       },
@@ -410,7 +410,7 @@ export const PLAN_TERMS: TermGroup[] = [
   {
     id: 'when-something-goes-wrong',
     title: 'When something goes wrong',
-    intro: 'A route for every problem — through your account manager, early.',
+    intro: 'A route for every problem, through your account manager, early.',
     items: [
       {
         id: 'accidents',
@@ -440,7 +440,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'scope',
         title: 'Changes to the job.',
         paragraphs: [
-          'Your chef is assigned according to an agreed culinary scope. If your household requirements materially change — housekeeping, driving, childcare, personal assistance, event organising — speak with your account manager and we will adjust the service or staffing where appropriate.',
+          'Your chef is assigned according to an agreed culinary scope. If your household requirements materially change (housekeeping, driving, childcare, personal assistance, event organising), speak with your account manager and we will adjust the service or staffing where appropriate.',
         ],
         decisionRelevant: false,
       },
@@ -486,7 +486,7 @@ export const PLAN_TERMS: TermGroup[] = [
         title: 'Structured staffing, not a handshake hire.',
         paragraphs: [
           'Having someone work regularly inside your home takes more than finding a good cook. We build the arrangement around documented, professionally managed staffing, rather than leaving you to find somebody informally and hope it holds.',
-          'We ask to see the visa and the right-to-work document for every chef before they cook in your home — and none of it is yours to arrange, file or sponsor.',
+          'We ask to see the visa and the right-to-work document for every chef before they cook in your home, and none of it is yours to arrange, file or sponsor.',
         ],
         decisionRelevant: false,
         legalReview: 'UAE counsel to review before any specific employment/visa claims are published (MOHRE domestic-worker and temporary-employment frameworks).',

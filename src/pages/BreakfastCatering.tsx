@@ -11,123 +11,117 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'breakfast-catering-dubai',
-  seoTitle: "Breakfast Catering Dubai | Office & Home",
-  metaDescription: 'Breakfast catering Dubai for offices, villas and hotels. Fresh pastries, hot dishes, healthy bowls, coffee and juice, delivered or fully served.',
+  seoTitle: 'Breakfast Catering Dubai | myCHEF',
+  metaDescription:
+    'Breakfast catering Dubai for offices, villas and hotel suites. Pastries, hot dishes, coffee. Drop-off from AED 90, buffet from AED 120. Itemised quote.',
   canonicalPath: '/breakfast-catering-dubai',
   ogImage: '/images/breakfast-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Breakfast Catering Dubai',
   h1: 'Breakfast Catering Dubai',
   heroSub:
-    'Morning menus delivered fresh to offices, villas and hotels across Dubai — from light continental spreads to hot breakfast buffets, barista coffee and healthy grab-and-go options.',
+    'Breakfast catering Dubai for an office, villa or hotel suite. Pastries, eggs, fruit and coffee, delivered or staffed, then cleared before the next slot.',
   heroImage: '/images/breakfast-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange breakfast catering in Dubai (via mychef.ae/breakfast-catering-dubai)",
   eyebrow: 'BREAKFAST CATERING IN DUBAI',
-  introH2: 'Start the Day With a Well-Planned Breakfast',
+  introH2: 'Breakfast catering Dubai, ready before the meeting starts',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        The first meal of the day sets the tone for everything that follows. Our breakfast catering in Dubai is designed for busy teams, hotel groups, villa guests and early-morning events who want fresh food, reliable service and a setup that feels effortless. We deliver and serve across Dubai from Business Bay and DIFC to Palm Jumeirah, Jumeirah and Dubai Marina.
+        Breakfast catering Dubai is the first meal of the day at your office, villa or suite. Office breakfast catering Dubai and corporate breakfast catering Dubai use the same rule: food that arrives on time, is labelled, and is gone before the agenda starts. A late morning table is brunch, not this page.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-      </p>
-      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Menus range from continental pastries, seasonal fruit and granola bowls to hot buffets with eggs, pancakes, Arabic breads and grilled proteins. We also provide barista-style coffee, fresh juices and mocktails so guests have everything they need in one place. Dietary options — including vegan, gluten-free, dairy-free and low-sugar — are clearly labelled and easy to request.
+        Breakfast platters Dubai, boxed drops and hot buffets are formats, not packages. Drop-off starts from AED 90 per person (10 guests and AED 900 minimum). A staffed buffet from AED 120. All before 5% VAT. A breakfast catering menu Dubai is written around how long people stay and whether they sit. Halal breakfast catering Dubai is the default sourcing. Dietary notes go into the first draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Breakfast catering pairs naturally with our{' '}
+        Breakfast food in Dubai for a team morning sits next to{' '}
         <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           office catering Dubai
-        </Link>{' '}
-        service for corporate mornings, and with{' '}
+        </Link>
+        . When the sitting runs past midday, use{' '}
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering Dubai
-        </Link>{' '}
-        when you want the meal to extend past midday. For healthier starts, see our{' '}
-        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          healthy catering Dubai
-        </Link>{' '}
-        options.
+        </Link>
+        . For a standing household chef who cooks breakfast every day, that is private chef, not catering.
       </p>
     </>
   ),
-  formatsH2: 'Breakfast Catering Formats',
+  formatsH2: 'How breakfast is served',
   formats: [
     {
       Icon: Coffee,
-      title: 'Continental Breakfast Boxes',
-      description: 'Pastries, muffins, fresh fruit, yoghurt and granola in individual boxes — ideal for offices and hotel room drops.',
+      title: 'Continental breakfast boxes',
+      description: 'Pastries, fruit, yoghurt and granola in individual boxes for offices and hotel room drops.',
       link: '/office-catering-dubai',
     },
     {
       Icon: Sun,
-      title: 'Hot Breakfast Buffets',
-      description: 'Eggs, pancakes, Arabic breads, grilled halloumi, sausages and warm sides served from a styled buffet station.',
+      title: 'Hot breakfast buffets',
+      description: 'Eggs, pancakes, Arabic breads, halloumi and warm sides held on a buffet, replenished while people arrive.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Building,
-      title: 'Corporate Breakfast Meetings',
-      description: 'Timed, tidy breakfast spreads for boardrooms, training days and morning conferences with coffee and juice service.',
+      title: 'Corporate breakfast meetings',
+      description: 'A timed spread for a boardroom, training day or morning conference, with coffee and juice.',
       link: '/business-lunch-catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa & Residence Breakfasts',
-      description: 'Relaxed at-home breakfast catering for house guests, family gatherings and weekend villas across Dubai.',
+      title: 'Villa and residence breakfasts',
+      description: 'A staffed morning table for house guests. You stay at the table. We cook and clear.',
       link: '/villas-private-residences',
     },
     {
       Icon: PartyPopper,
-      title: 'Celebration Breakfasts',
-      description: 'Special-occasion morning spreads for birthdays, baby showers, Eid mornings and post-wedding brunches.',
+      title: 'Celebration breakfasts',
+      description: 'A birthday morning, an Eid breakfast or a post-wedding table. Daytime pacing, not an evening menu served early.',
       link: '/brunch-catering-dubai',
     },
     {
       Icon: Utensils,
-      title: 'Healthy & Dietary Breakfasts',
-      description: 'Low-sugar, gluten-free, dairy-free and vegan breakfast options that keep energy steady through the morning.',
+      title: 'Healthy and dietary breakfasts',
+      description: 'Low-sugar, gluten-free, dairy-free and vegan dishes, labelled, when they are named in the brief.',
       link: '/cuisines-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE BREAKFAST CATERING HELPS',
-  useCasesH2: 'Morning Events Made Simple',
+  useCasesH2: 'Mornings that have a clock',
   useCases: [
     {
-      title: 'Office Early Starts',
+      title: 'Office early starts',
       description:
-        'Fuel morning meetings, training sessions and product launches with a breakfast spread that arrives on time, is set up quickly and clears away before the workday begins.',
+        'Meetings, training and launches. The food arrives, is set, and is packed before the workday takes the room back.',
     },
     {
-      title: 'Hotel & Short-Stay Guests',
+      title: 'Hotel and short-stay guests',
       description:
-        'Offer arriving guests or groups a fresh breakfast experience in a villa, serviced apartment or hotel suite without relying on restaurant schedules.',
+        'A villa, serviced apartment or suite breakfast that does not depend on a restaurant opening time.',
     },
     {
-      title: 'Weekend Villa Gatherings',
+      title: 'Weekend villa mornings',
       description:
-        'Let guests wake up to the smell of coffee and a laid-out breakfast in Palm Jumeirah, Emirates Hills or Dubai Hills — no one has to cook or leave the house.',
+        'Coffee and a laid-out table in Palm Jumeirah, Emirates Hills or Dubai Hills. Nobody in the house has to cook.',
     },
     {
-      title: 'Post-Event Recovery Brunches',
+      title: 'The morning after an event',
       description:
-        'After weddings, galas or late celebrations, a gentle breakfast or recovery brunch helps guests recharge before the day continues.',
+        'A gentler table after a late sitting. If it runs long and social, that is brunch.',
     },
   ],
-  includedH2: "What's Included in Our Breakfast Catering",
+  includedH2: 'What breakfast catering includes',
   includedItems: [
-    { title: 'Fresh Pastries & Breads', description: 'Croissants, muffins, Arabic breads and artisan toast delivered fresh on the morning.' },
-    { title: 'Hot & Cold Dishes', description: 'Eggs, pancakes, warm grains, grilled proteins and chilled fruit platters to suit every appetite.' },
-    { title: 'Barista Coffee & Tea', description: 'Freshly brewed coffee, tea and barista-style service available for larger corporate bookings.' },
-    { title: 'Fresh Juices & Mocktails', description: 'Orange juice, green blends and morning mocktails to complement the spread.' },
-    { title: 'Healthy & Dietary Options', description: 'Vegan, gluten-free, dairy-free and low-sugar choices clearly labelled and kept separate.' },
-    { title: 'Individual Boxes & Buffets', description: 'Choose boxed service for safety and convenience, or a shared buffet for a more social start.' },
-    { title: 'On-Time Delivery & Setup', description: 'We coordinate arrival with your schedule and set up before guests arrive.' },
-    { title: 'Disposable or Reusable Serveware', description: 'Options for elegant reusable platters or practical disposables depending on the venue.' },
+    { title: 'Pastries and breads', description: 'Croissants, muffins, Arabic breads and toast, shopped for the morning of service.' },
+    { title: 'Hot and cold dishes', description: 'Eggs, pancakes, fruit and grilled proteins, chosen for how long the room stays.' },
+    { title: 'Coffee and tea', description: 'Brewed coffee and tea. Barista-style service when the guest count justifies a station.' },
+    { title: 'Juices', description: 'Orange juice and other morning drinks. Mocktails if you want them.' },
+    { title: 'Dietary options', description: 'Vegan, gluten-free, dairy-free and low-sugar items, labelled and kept separate when needed.' },
+    { title: 'Boxes or a buffet', description: 'Individual boxes for a drop-and-go morning, or a shared buffet if people sit.' },
+    { title: 'On-time setup', description: 'Arrival timed to your slot, not to our convenience.' },
+    { title: 'Serveware', description: 'Reusable platters or practical disposables, named in the quote.' },
   ],
-  galleryH2: 'A Taste of Our Breakfast Catering',
+  galleryH2: 'How breakfast catering looks in Dubai',
   galleryImages: [
     { src: '/images/breakfast-catering-dubai-hero.webp', alt: 'Breakfast catering spread in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Morning appetisers and pastries' },
@@ -136,70 +130,70 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa breakfast catering in Dubai' },
     { src: '/service-events.webp', alt: 'Event breakfast buffet service' },
   ],
-  faqsH2: 'Breakfast Catering Dubai: the questions we get before a booking',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What time do you deliver breakfast catering?',
-      a: 'We schedule delivery and setup to match your event start time, typically arriving 30 to 60 minutes before service. Early-morning office breakfasts can be arranged from 6:30am onwards across Dubai.',
+      a: 'We time arrival to your start, usually 30 to 60 minutes before service. Early office breakfasts can be arranged from 6:30am across Dubai.',
     },
     {
       q: 'Can you cater breakfast for a large office?',
-      a: 'Yes. We regularly provide breakfast for teams from 10 to 200+ people, with buffet stations, individual boxes and dietary options clearly labelled.',
+      a: 'Yes. Boxed drops, platters and buffets scale with the room. A standard buffet starts from 20 guests. Drop-off starts from 10 guests and AED 900.',
     },
     {
       q: 'Do you serve hot breakfast dishes?',
-      a: 'Yes. Our hot breakfast options include eggs, pancakes, French toast, Arabic breads, grilled halloumi and warm sides. We can also keep dishes warm on chafing dishes for buffet service.',
+      a: 'Yes. Eggs, pancakes, Arabic breads, halloumi and warm sides, held on chafing dishes when the format is a buffet.',
     },
     {
       q: 'Are healthy and dietary options available?',
-      a: 'Absolutely. We offer vegan, gluten-free, dairy-free and low-sugar breakfast items, from chia pots and smoothie bowls to gluten-free pastries and dairy-free yoghurt.',
+      a: 'Yes, when they are named in the brief. Vegan, gluten-free, dairy-free and low-sugar dishes can sit on the same table, labelled.',
     },
     {
       q: 'Can breakfast be served at a villa or hotel suite?',
-      a: 'Yes. We deliver and serve breakfast in villas, apartments, hotel suites and serviced residences across Dubai, with full setup and cleanup included.',
+      a: 'Yes. We cook or drop at villas, apartments, hotel suites and serviced residences. Staffed service includes clear-down.',
     },
     {
       q: 'How far in advance should I book breakfast catering?',
-      a: 'For smaller orders, 48 hours is usually enough. For large corporate breakfasts or hotel group orders, we recommend one to two weeks. During busy periods, earlier is better.',
+      a: 'Smaller orders: about 48 hours. Large corporate breakfasts: one to two weeks. Peak weeks need longer.',
     },
-  {
-    q: 'Do you also do breakfast platters Dubai?',
-    a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
-  },
-  {
-    q: 'Does Arabic breakfast catering Dubai mean this service?',
-    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
-  },
-],
+    {
+      q: 'Do you also do breakfast platters Dubai?',
+      a: 'Yes. Platters are one format. Boxes and a hot buffet are others. The quote names which one you are buying.',
+    },
+    {
+      q: 'Does Arabic breakfast catering Dubai mean this service?',
+      a: 'It can. Foul, eggs, Arabic breads, labneh and cheese sit on this page when they are a morning catering brief. A standing household cook is private chef.',
+    },
+  ],
   relatedServices: [
     {
       title: 'Office Catering Dubai',
-      description: 'Full office catering for meetings, lunches and all-day team events.',
+      description: 'Meetings, lunches and all-day team food, not only the first meal.',
       image: '/service-corporate.webp',
       link: '/office-catering-dubai',
     },
     {
       title: 'Brunch Catering Dubai',
-      description: 'Relaxed late-morning and midday spreads that extend breakfast into brunch.',
+      description: 'A late morning or midday table. Different pacing than breakfast.',
       image: '/service-events.webp',
       link: '/brunch-catering-dubai',
     },
     {
       title: 'Healthy Catering Dubai',
-      description: 'Balanced, nutrition-conscious menus that pair naturally with morning meals.',
+      description: 'Menus written around dietary notes, not a separate product.',
       image: '/service-catering.webp',
       link: '/cuisines-dubai',
     },
     {
       title: 'Coffee & Tea Service',
-      description: 'Barista-style coffee, specialty teas and pastries to complete any morning event.',
+      description: 'Coffee, tea and pastry as part of a catering brief.',
       image: '/images/afternoon-tea-catering-dubai-hero.webp',
       link: '/catering-dubai',
     },
   ],
-  ctaH2: 'Book Breakfast Catering That Gets the Morning Right',
+  ctaH2: 'Send the slot, headcount and address',
   ctaP:
-    'Tell us your guest count, location and preferred menu style. We will deliver a fresh, well-organised breakfast catering experience anywhere in Dubai.',
+    'Tell us the start time, guest count and whether you need drop-off or staff. We send an itemised breakfast catering Dubai quote, with 5% VAT on its own line.',
 }
 
 export default function BreakfastCatering() {

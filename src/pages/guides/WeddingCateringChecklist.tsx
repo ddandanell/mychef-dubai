@@ -195,7 +195,7 @@ export default function WeddingCateringChecklist() {
           <SectionLabel>WEDDING FOOD CHECKLIST</SectionLabel>
           <DisplayHeading className="text-black mb-6">The meal, named in order</DisplayHeading>
           <BodyCopy className="mb-8">
-            This is the wedding food checklist. Tick what is in the brief. Leave the rest off — optional lines should stay optional.
+            This is the wedding food checklist. Tick what is in the brief. Leave the rest off: optional lines should stay optional.
           </BodyCopy>
           <ul className="space-y-3">
             {foodChecklist.map((item) => (
@@ -213,7 +213,7 @@ export default function WeddingCateringChecklist() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WEDDING CATERING TIMELINE</SectionLabel>
-          <DisplayHeading className="text-black mb-12">When to book a wedding caterer — and what happens after</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">When to book a wedding caterer: and what happens after</DisplayHeading>
           <ol className="space-y-10">
             {checklistPhases.map((phase, index) => (
               <li key={phase.phase} className="border-t border-gray-200 pt-8">

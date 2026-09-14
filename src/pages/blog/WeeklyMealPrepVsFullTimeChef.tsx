@@ -107,7 +107,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
     <div ref={containerRef}>
       <SEO
         title="Meal Prep vs Private Chef Dubai | myCHEF"
-        description="Meal Prep vs Private Chef Dubai — Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so…"
+        description="Meal Prep vs Private Chef Dubai: Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         schema={schema}
@@ -117,7 +117,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
       <PageHero
         eyebrow="Meal Prep"
         title="Meal Prep vs Private Chef Dubai"
-        subtitle="Meal Prep vs Private Chef Dubai by myCHEF — Which option fits your lifestyle, budget, and household? A side-by-side comparison for Dubai families, couples, and busy professionals."
+        subtitle="Weekly meal prep is visits that stock the fridge. A full-time chef is a standing person in the house. They are different products and different prices."
         image="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         imageAlt="Weekly meal prep versus full-time private chef in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Meal Prep vs Full-Time Chef' }]}
@@ -205,7 +205,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           <SourcesBlock
             sources={[
               { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
-              { label: 'u.ae — federal labour and household-employer responsibilities overview' },
+              { label: 'u.ae: federal labour and household-employer responsibilities overview' },
             ]}
             note="Cost ranges are indicative. Full-time employment costs include salary, accommodation or transport allowance, health insurance, visa sponsorship, annual leave, and end-of-service benefits where applicable."
           />
@@ -213,7 +213,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="how-weekly-meal-prep-works" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How Weekly Meal Prep Works</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              A private chef arrives at your home for scheduled prep sessions — usually two per week — and prepares multiple meals in advance. Dishes are portioned, labelled, and stored in your refrigerator or freezer. You simply reheat and eat when it suits you.
+              A private chef arrives at your home for scheduled prep sessions: usually two per week: and prepares multiple meals in advance. Dishes are portioned, labelled, and stored in your refrigerator or freezer. You simply reheat and eat when it suits you.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.

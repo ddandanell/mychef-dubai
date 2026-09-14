@@ -33,68 +33,68 @@ const healthyFormats = [
   {
     icon: Salad,
     title: 'Balanced Plated Menus',
-    description: 'Nutrition-focused plated meals built on lean proteins, whole grains, and seasonal vegetables — satisfying, considered, and full of flavour.',
+    description: 'Plated meals built on the proteins, grains and vegetables this table actually eats. The definition of healthy is yours, written on the draft.',
     link: '/catering-dubai',
   },
   {
     icon: Fish,
     title: 'Low-Carb & Keto',
-    description: 'Low-carb and keto-friendly dishes for guests watching their macros, from grilled proteins and salads to vegetable-forward sides.',
+    description: 'A carbohydrate cap when you ask for one. Grilled proteins, salads and vegetable sides. Keto is a stricter brief than low-carb. Name which.',
     link: '/mediterranean-catering-dubai',
   },
   {
     icon: Apple,
     title: 'Salad Bars & Grain Bowls',
-    description: 'Build-your-own salad bars and pre-styled grain bowls that keep lunches light, fresh, and genuinely energising.',
+    description: 'Build-your-own salad bars and pre-styled bowls for lunches that need to stay light through the afternoon.',
     link: '/mediterranean-catering-dubai',
   },
   {
     icon: Dumbbell,
     title: 'Corporate Wellness',
-    description: 'Healthy reception menus and working lunches for wellness days, team events, and offices that care about how their people eat.',
+    description: 'Working lunches and receptions for offices. You stay in the meeting. We cook, label and pack down.',
     link: '/corporate',
   },
   {
     icon: Home,
     title: 'Villa & Family Healthy Menus',
-    description: 'Wholesome, balanced catering for villa gatherings and family days across Dubai, with on-site service and pack-down.',
+    description: 'Family tables at home. We cook in your kitchen or garden, serve, and leave the space handled.',
     link: '/catering-dubai',
   },
   {
     icon: Salad,
     title: 'Meal Prep & Boxes',
-    description: 'Portioned, balanced meal boxes for retreats, fitness events, and multi-day gatherings where consistency and nutrition matter.',
+    description: 'Portioned boxes for multi-day gatherings when the same brief has to hold for more than one sitting.',
     link: '/corporate',
   },
 ]
 
 const includedItems = [
-  { title: 'Nutrition-Focused Menus', description: 'Balanced dishes built on lean proteins, whole grains, and vegetables.' },
-  { title: 'Low-Carb & Keto Options', description: 'Macro-conscious dishes for guests following low-carb or keto plans.' },
-  { title: 'Fresh Seasonal Produce', description: 'Seasonal vegetables, fruits, and herbs sourced from trusted suppliers.' },
-  { title: 'Lean Proteins', description: 'Grilled fish, poultry, and plant proteins prepared with minimal added fat.' },
-  { title: 'Salad Bars & Bowls', description: 'Build-your-own salad bars and pre-styled grain bowls on request.' },
-  { title: 'Dietary Inclusivity', description: 'Vegetarian, vegan, gluten-free, and dairy-free elements arranged as needed.' },
-  { title: 'On-Site Service', description: 'Plating, service staff, and styling handled at your venue.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so you can simply host.' },
+  { title: 'Menus written to this table', description: 'Healthy here means the brief you send: lighter sauces, more vegetables, a carb cap, or all three.' },
+  { title: 'Low-carb when you ask', description: 'Keto and low-carb are extra lines, not automatic. They live on the same draft if you list them.' },
+  { title: 'Seasonal produce', description: 'Vegetables, fruit and herbs from trusted suppliers for the date.' },
+  { title: 'Proteins that fill a plate', description: 'Fish, poultry and plant proteins cooked as mains, not as a garnish on starch.' },
+  { title: 'Salad bars and bowls', description: 'On request. Labelled so guests are not guessing.' },
+  { title: 'Other diets on the same brief', description: 'Vegetarian, vegan, gluten-free and dairy-free when you list them. Shared kitchens still carry cross-contact risk.' },
+  { title: 'On-site service', description: 'Partner chefs, plating and service staff at your address. We are not the venue.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and clear. You stay a guest at your own table.' },
 ]
 
 const useCases = [
   {
-    title: 'Corporate Wellness Days',
-    description: 'For wellness days, team off-sites, and health-conscious offices, we design balanced reception menus and working lunches that leave people energised rather than sluggish, pairing naturally with our wider corporate catering.',
+    title: 'Corporate wellness days',
+    description: 'Working lunches that do not dump a heavy tray on an afternoon of meetings. The menu follows the brief, not a slogan.',
   },
   {
-    title: 'Fitness Events & Retreats',
-    description: 'For fitness gatherings, retreats, and multi-day events, portioned and macro-conscious menus keep nutrition consistent. We can plan low-carb, keto, and high-protein options around the goals of the group.',
+    title: 'Fitness gatherings',
+    description: 'If the programme already limits carbohydrates or sugar, the catering should match it. Put the rule on the enquiry.',
   },
   {
-    title: 'Villa & Family Gatherings',
-    description: 'For at-home events across Palm Jumeirah, Emirates Hills, and Dubai Hills, we bring wholesome, balanced menus to your terrace or garden, cooking and serving on-site so healthy never means dull.',
+    title: 'Villa and family tables',
+    description: 'Palm Jumeirah, Emirates Hills and Dubai Hills homes. We cook on site so a lighter menu still feels like a proper dinner.',
   },
   {
-    title: 'Light Receptions & Lunches',
-    description: 'Salad bars, grain bowls, and Mediterranean-inspired plates make beautiful, light spreads for daytime receptions and summer gatherings, when guests want food that feels fresh rather than heavy.',
+    title: 'Daytime receptions',
+    description: 'Salad bars, grain bowls and vegetable-forward plates for lunches when guests still have the rest of the day ahead.',
   },
 ]
 
@@ -133,59 +133,59 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 
 const faqs = [
   {
-    q: 'What makes your catering "healthy"?',
-    a: 'Our healthy menus are built around balance — lean proteins, whole grains, plenty of vegetables, and considered portioning, with less reliance on heavy sauces and added fats. The aim is food that tastes generous and leaves guests energised rather than weighed down.',
+    q: 'What does healthy mean on this page?',
+    a: 'It means the brief you send: more vegetables, lighter sauces, a carbohydrate cap, or a sugar rule. We are not a clinic. We cook to how this table eats.',
   },
   {
     q: 'Do you offer low-carb and keto options?',
-    a: 'Yes. We regularly prepare low-carb and keto-friendly dishes, from grilled proteins and salads to vegetable-forward sides. If your guests are following a specific plan, let us know and we will design the menu around it.',
+    a: 'Yes, when you ask. Keto is stricter than low-carb. Name the cap. Those dishes are written on the first draft, not swapped at the pass.',
   },
   {
-    q: 'Can you handle corporate wellness events and meal prep?',
-    a: 'We do. For wellness days, team events, retreats, and multi-day gatherings, we design balanced reception menus, working lunches, and portioned meal boxes that keep nutrition consistent across the event.',
+    q: 'Can you handle office lunches and multi-day boxes?',
+    a: 'Yes. Working lunches, receptions and portioned boxes for multi-day gatherings. The same brief holds across sittings when you say so.',
   },
   {
-    q: 'Will healthy menus still feel satisfying?',
-    a: 'Absolutely. A well-built healthy menu is filling and flavourful — the focus is on quality ingredients and balance, not restriction. Guests leave satisfied, just without the heaviness of richer catering.',
+    q: 'Will a lighter menu still fill a plate?',
+    a: 'Yes, if the proteins and vegetables are designed as mains. Restriction without a proper plate is a poor brief. We would rather write a full meal.',
   },
   {
-    q: 'Do you cater for other dietary needs alongside healthy menus?',
-    a: 'Yes. Vegetarian, vegan, gluten-free, and dairy-free elements can all be arranged within a healthy menu. Share your guests’ requirements when planning and we will build the spread to suit everyone.',
+    q: 'Can other diets sit on the same menu?',
+    a: 'Vegetarian, vegan, gluten-free and dairy-free can sit alongside if you list them. Shared kitchens still carry cross-contact risk. Dietary notes go into the first menu draft.',
   },
   {
-    q: 'How far in advance should I book healthy catering?',
-    a: 'For smaller gatherings, one to two weeks is ideal. For larger events, retreats, or meal-prep programmes, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
+    q: 'How is healthy catering Dubai priced?',
+    a: 'By custom quote. Guest count, the menu and service in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and what healthy means for this table.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Gluten-Free Catering',
-    description: 'Coeliac-safe menus and clearly labelled dishes for guests avoiding gluten.',
+    description: 'Wheat, barley and rye off the written menu, with honest limits in shared kitchens.',
     image: '/images/gluten-free-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
   {
     title: 'Keto & Low-Carb Catering',
-    description: 'High-protein, low-carb menus designed for macro-conscious guests and wellness events.',
+    description: 'A carbohydrate cap on a written menu. Keto is stricter than low-carb. Name which.',
     image: '/images/keto-catering-dubai-hero.webp',
     link: '/cuisines-dubai',
   },
   {
     title: 'Breakfast Catering Dubai',
-    description: 'Fresh, balanced morning menus with healthy bowls, fruit and light proteins.',
+    description: 'Morning menus with bowls, fruit and proteins, written to the same household brief.',
     image: '/images/breakfast-catering-dubai-hero.webp',
     link: '/breakfast-catering-dubai',
   },
   {
     title: 'Sugar-Free Catering',
-    description: 'Diabetic-friendly and reduced-sugar menus for health-conscious events.',
+    description: 'Reduced-sugar menus when sugar is a separate line on the brief, not a slogan.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
   {
     title: 'FODMAP-Friendly Catering',
-    description: 'Low-FODMAP menus designed for IBS-sensitive guests and gentle digestion.',
+    description: 'Onion, garlic and other high-FODMAP foods off the build when you send that list.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
@@ -287,10 +287,11 @@ export default function HealthyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Healthy Catering Dubai | Corporate Wellness Menus"
-        description="Healthy catering Dubai for corporate wellness & nutritionist-led menus. Balanced dishes, low-carb & keto options, salad bars. Quote in ~15 mins."
+        title="Healthy Catering Dubai | myCHEF"
+        description="Healthy Catering Dubai with a vetted myCHEF team. Menus written to how this table eats. Service and clear-down so you stay a guest at your table."
         canonicalPath="/cuisines-dubai"
         ogImage="/menu-seafood.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -315,10 +316,10 @@ export default function HealthyCatering() {
             Healthy Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 hlth-hero-sub">
-            Nutrition-focused, balanced menus — with low-carb and keto options — for corporate wellness days, fitness events, and gatherings across Dubai.
+            Healthy Catering Dubai is a brief, not a slogan. Tell us what this table should eat. We cook at your address, serve, and pack down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 hlth-hero-cta">Get My Healthy Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 hlth-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -338,13 +339,16 @@ export default function HealthyCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">BALANCED DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Food That Leaves You Energised
+            Healthy means how this table eats
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Healthy catering should never feel like a sacrifice. The best balanced menus are built on quality ingredients and thoughtful composition — lean proteins, whole grains, vibrant vegetables, and just enough indulgence — so guests finish a meal feeling light and energised rather than weighed down. At myCHEF Dubai, we treat nutrition and flavour as partners, not trade-offs, crafting menus that look generous and eat well.
+            We do not sell a medical diet. Healthy Catering Dubai is proteins, vegetables and sauces written to your rule: lighter, lower carb, less sugar, or simply more plants. Dietary notes go into the first menu draft. The plate still has to be a proper meal.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our chefs design menus around your goals. Explore dedicated <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            For a carbohydrate cap see <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link>. For wheat off the plate see <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link>. The catering formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -355,7 +359,7 @@ export default function HealthyCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">HEALTHY FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Balanced for Every Occasion
+              Formats for a lighter table
             </h2>
           </div>
 
@@ -389,7 +393,7 @@ export default function HealthyCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE HEALTHY SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Moment
+              Offices, homes and daytime rooms
             </h2>
           </div>
 
@@ -408,7 +412,7 @@ export default function HealthyCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Healthy Catering Includes
+            What a healthy booking actually covers
           </h2>
 
           <div className="hlth-inc-grid grid md:grid-cols-2 gap-6">
@@ -429,7 +433,7 @@ export default function HealthyCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Healthy Catering
+            What healthy service looks like
           </h2>
 
           <div className="hlth-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -450,7 +454,7 @@ export default function HealthyCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Healthy Catering Questions
+            Healthy Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -519,13 +523,13 @@ export default function HealthyCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center hlth-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Design Your Healthy Menu
+            Send what healthy means for this table
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your event and goals and we'll create a balanced, nutrition-focused menu — low-carb, keto, or wholesome — that leaves every guest feeling their best.
+            Name the carb cap, the sugar rule, and any allergens. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Healthy Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

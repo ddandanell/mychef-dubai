@@ -5,120 +5,120 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'fathers-day-catering-dubai',
-  seoTitle: "Father's Day Catering Dubai | Brunch & BBQ",
+  seoTitle: "Father's Day Catering Dubai | myCHEF",
   metaDescription:
-    "Father's Day catering in Dubai from AED 700pp — a BBQ and grill spread, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+    "Father's Day catering Dubai at home or in the garden: brunch, BBQ or a family dinner. BBQ from AED 150, buffet from AED 120. Itemised quote.",
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: "Father's Day Catering Dubai",
-  h1: "Father's Day Catering in Dubai",
+  h1: "Father's Day Catering Dubai",
   heroSub:
-    "Celebrate Dad with Father's Day catering across Dubai — from relaxed brunches and BBQs to private family dinners and sharing-style feasts he'll actually enjoy.",
+    "Father's Day catering Dubai for a family brunch, a garden BBQ or a seated dinner at home. We cook, serve and clear down. Dad stays at the table.",
   heroImage: '/service-events.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange Father's Day catering in Dubai (via mychef.ae/fathers-day-catering-dubai)",
   eyebrow: "FATHER'S DAY CATERING IN DUBAI",
-  introH2: "A Father's Day Feast Worthy of the Occasion",
+  introH2: "Father's Day catering Dubai so nobody is stuck on the grill",
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Father's Day is the perfect excuse to gather the family around a table of great food and let Dad relax. Our Father's Day catering in Dubai is designed for families who want to celebrate at home, in a villa, or at a venue without the stress of cooking, shopping or washing up.
+        Father's Day catering Dubai is a family sitting at home, in a villa garden or at a table you already have. Brunch, a BBQ or a quieter dinner. The point is that Dad is not shopping, cooking or washing up.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We create menus that lean into what many Dads love: generous portions, quality meats, bold flavours, fresh seafood and laid-back presentation. Whether that means a Father's Day brunch with eggs and grills, a BBQ lunch by the pool, or a private dinner with his favourite cuisine, we tailor the day to your father and your family.
+        BBQ catering starts from AED 150 per person. A staffed buffet from AED 120. Drop-off from AED 90. Chef-led plated dining is AED 700–950. All before 5% VAT. Dietary notes go into the first draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service pairs naturally with our{' '}
+        A late morning table can sit on{' '}
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering Dubai
-        </Link>{' '}
-        and{' '}
+        </Link>
+        . A grill-led afternoon sits on{' '}
         <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           BBQ catering Dubai
-        </Link>{' '}
-        options, and with{' '}
+        </Link>
+        . An unnamed house night belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
-        </Link>{' '}
-        for intimate celebrations at home.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: "Father's Day Catering Formats",
+  formatsH2: "How Father's Day is served",
   formats: [
     {
       Icon: Coffee,
-      title: "Father's Day Brunch",
-      description: 'Late-morning spreads with eggs, pastries, grilled proteins, fresh juices and coffee served family-style.',
+      title: "Father's Day brunch",
+      description: 'Eggs, pastries, grilled proteins, juice and coffee, served family-style.',
       link: '/brunch-catering-dubai',
     },
     {
       Icon: Flame,
-      title: 'BBQ & Grill Lunch',
-      description: 'Poolside or garden BBQ with premium meats, seafood, salads and all the smoky flavours Dad enjoys.',
+      title: 'BBQ and grill lunch',
+      description: 'Garden or poolside grilling, planned around heat, smoke and how long people stay outside.',
       link: '/bbq-catering-dubai',
     },
     {
       Icon: Utensils,
-      title: 'Plated Family Dinner',
-      description: "Elegant multi-course dinner at home or in a villa for a more refined Father's Day celebration.",
+      title: 'Plated family dinner',
+      description: 'Courses at the table when the guest list fits one sitting.',
       link: '/catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa & Home Celebrations',
-      description: 'fully-coordinated catering in your home or villa across Dubai with setup, service and cleanup.',
+      title: 'Villa and home celebrations',
+      description: 'Setup, service and clear-down in the house you already live in.',
       link: '/villas-private-residences',
     },
     {
       Icon: Beef,
-      title: 'Carving & Live Stations',
-      description: 'Live carving, shawarma or grill stations that add theatre and keep the food hot and fresh.',
+      title: 'Carving and live stations',
+      description: 'A carving or grill station when the room should move rather than sit.',
       link: '/live-cooking-stations-dubai',
     },
     {
       Icon: Heart,
-      title: 'Themed Dessert & Cake',
-      description: "Personalised Father's Day cakes, desserts and sweet tables to finish the meal on a high note.",
+      title: 'Dessert and cake',
+      description: 'A cake or sweet course quoted when you want us to supply it.',
       link: '/dessert-table-catering-dubai',
     },
   ],
   useCasesEyebrow: "WHERE FATHER'S DAY CATERING WORKS",
-  useCasesH2: "Built Around What Dad Loves",
+  useCasesH2: 'Brunch, BBQ, a quieter dinner',
   useCases: [
     {
-      title: 'Family Villa Lunches',
+      title: 'Family villa lunches',
       description:
-        "Gather the extended family in a villa in Emirates Hills, Palm Jumeirah or Dubai Hills for a relaxed Father's Day lunch that Dad does not have to lift a finger for.",
+        'Extended family in Emirates Hills, Palm Jumeirah or Dubai Hills. Mixed ages, one running order.',
     },
     {
-      title: 'Poolside BBQ Celebrations',
+      title: 'Poolside BBQ celebrations',
       description:
-        'Fire up the grill by the pool with a BBQ menu that keeps everyone happy, from kids to grandparents.',
+        'A named adult on the brief for the grill, or we staff the grill. Children and live fire need that line written down.',
     },
     {
-      title: 'Intimate Home Dinners',
+      title: 'Intimate home dinners',
       description:
-        "For smaller families, a private chef-style dinner at home makes Father's Day feel personal and special.",
+        'A smaller table. If it is two covers only, that is a romantic dinner, not this page.',
     },
     {
-      title: 'Multi-Generational Gatherings',
+      title: 'Multi-generational gatherings',
       description:
-        "Menus designed to suit grandfathers, fathers and sons alike, with variety, generous portions and easy-to-share dishes.",
+        'Grandfathers, fathers and children. Portions and spice levels named before anyone cooks.',
     },
   ],
-  includedH2: "What's Included in Our Father's Day Catering",
+  includedH2: "What a staffed Father's Day sitting includes",
   includedItems: [
-    { title: "Dad-Focused Menu Design", description: "Menus built around hearty proteins, bold flavours and relaxed presentation Dad will appreciate." },
-    { title: 'Brunch, Lunch or Dinner', description: 'Flexible timings and formats to suit your family schedule and Dad’s preferences.' },
-    { title: 'Premium Meats & Seafood', description: 'Quality steaks, ribs, burgers, prawns and fish prepared to order.' },
-    { title: 'Live BBQ & Grill Stations', description: 'partner-chef-led grills and smokers for poolside or garden celebrations.' },
-    { title: 'Fresh Sides & Salads', description: 'Balanced sides, breads and salads to complement the main dishes.' },
-    { title: 'Desserts & Celebration Cake', description: "Father's Day cakes, chocolate desserts and sweet stations for the whole family." },
-    { title: 'Service Staff & Setup', description: 'Friendly team to serve, clear and keep the celebration running smoothly.' },
-    { title: 'Full Pack-Down & Cleanup', description: 'We leave the venue tidy so the family can enjoy the rest of the day.' },
+    { title: 'Menu written around Dad', description: 'Proteins, sides and a dessert he will eat, not a stock “men’s menu”.' },
+    { title: 'Brunch, lunch or dinner', description: 'The clock is part of the brief. Format follows it.' },
+    { title: 'Meats and seafood', description: 'Steaks, ribs, burgers, prawns or fish, sized to the guest list.' },
+    { title: 'Live BBQ', description: 'A partner chef on the grill when that is the format.' },
+    { title: 'Sides and salads', description: 'Breads and salads so the grill is not the only food.' },
+    { title: 'Dessert', description: 'Cake or a sweet course, quoted when requested.' },
+    { title: 'Staff', description: 'A team to serve and clear. Drop-off is food only.' },
+    { title: 'Pack-down', description: 'The garden or kitchen is left usable the same evening.' },
   ],
-  galleryH2: "A Taste of Our Father's Day Catering",
+  galleryH2: "How Father's Day catering looks in Dubai",
   galleryImages: [
     { src: '/service-events.webp', alt: "Father's Day catering set-up in Dubai" },
     { src: '/menu-meat.webp', alt: "Grilled meats for a Father's Day feast" },
@@ -127,56 +127,56 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: "Villa Father's Day lunch styling" },
     { src: '/service-catering.webp', alt: "Father's Day catering service in Dubai" },
   ],
-  faqsH2: "Father's Day Catering Questions",
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: "What kind of food works best for Father's Day catering?",
-      a: "Menus usually centre on Dad's favourites: grilled meats, BBQ, seafood, hearty sides and indulgent desserts. We tailor the cuisine to your father's tastes and the family style.",
+      a: 'Whatever Dad actually eats: a grill, a roast, seafood or a quieter plated dinner. Tell us his dishes. We write the menu around that, not a stereotype.',
     },
     {
       q: "Can you cater Father's Day at our home or villa?",
-      a: 'Yes. We provide fully-coordinated catering across Dubai, including setup, service and cleanup, so the family can focus on Dad.',
+      a: 'Yes. We cook at your address. Staffed bookings include setup, service and clear-down.',
     },
     {
       q: 'Do you offer brunch as well as lunch and dinner?',
-      a: 'Absolutely. Father’s Day brunch is a popular option, with eggs, pastries, grilled proteins, fresh juices and coffee served family-style.',
+      a: 'Yes. Eggs, pastries, grilled proteins, juice and coffee. If the date is not Father’s Day, that sitting is brunch catering.',
     },
     {
       q: 'Can you include a custom cake or dessert for Dad?',
-      a: 'Yes. We can arrange a personalised Father’s Day cake, themed dessert table or selection of his favourite sweets.',
+      a: 'Yes, quoted as its own line, or we plate a cake you bring.',
     },
     {
       q: 'How many guests can you cater for Father’s Day?',
-      a: 'we coordinate catering intimate family dinners from around 8 guests up to large family gatherings of 100 or more in a villa or venue.',
+      a: 'Drop-off from 10 guests. Buffet from 20. A chef cooking on site has no minimum headcount.',
     },
     {
       q: 'How far in advance should I book Father’s Day catering?',
-      a: "One to two weeks is ideal, especially for villa BBQs or custom menus. During Father's Day weekend, earlier booking is strongly recommended.",
+      a: 'One to two weeks is the usual window. The weekend itself books earlier.',
     },
   ],
   relatedServices: [
     {
       title: 'BBQ Catering Dubai',
-      description: 'Relaxed outdoor grilling menus that are always a Father’s Day favourite.',
+      description: 'Grill-led service when the garden is the room.',
       image: '/menu-meat.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Brunch Catering Dubai',
-      description: 'Late-morning spreads perfect for a celebratory Father’s Day brunch.',
+      description: 'A late morning table when the date is not Father’s Day.',
       image: '/service-events.webp',
       link: '/brunch-catering-dubai',
     },
     {
       title: 'Private Party Catering',
-      description: 'Intimate home and villa parties with personalised menus and full service.',
+      description: 'The house night this sitting redirects into.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },
   ],
-  ctaH2: "Make This Father's Day One to Remember",
+  ctaH2: 'Send the date, guest count and what Dad eats',
   ctaP:
-    "Tell us about Dad, your family size, venue and preferred style. We will create a Father's Day catering menu that lets him relax and enjoy the celebration.",
+    "Tell us brunch, BBQ or dinner, how many people and the address. We send an itemised Father's Day catering Dubai quote.",
   showTrustSignalStrip: true,
 }
 

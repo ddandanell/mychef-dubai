@@ -209,8 +209,8 @@ export default function BuffetVsPlated() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet vs Plated Dubai — Service | Guide"
-        description="Buffet vs Plated Dubai — Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or…"
+        title="Buffet vs Plated Dubai | myCHEF"
+        description="Buffet vs plated Dubai: a line from AED 120, courses at the table AED 700 to 950. The room and the clock decide, not a vibe."
         canonicalPath="/buffet-vs-plated-dubai"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -236,13 +236,13 @@ export default function BuffetVsPlated() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bp-hero-h1">
-            Buffet vs Plated Dubai — Choosing the Right Format in Dubai
+            Buffet vs Plated Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
-            Compare the two most popular catering formats and learn which suits your event style, guest count, and venue.
+            A buffet is a line, from AED 120 and 20 guests. Plated is courses at the table, AED 700 to 950. The room has to support the one you pick.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -263,13 +263,13 @@ export default function BuffetVsPlated() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">FORMAT COMPARISON</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Match the Service Style to Your Event
+            The format is the decision that moves the price
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Buffet and plated service are the two most common formats for Dubai events, and each creates a different atmosphere. Buffets encourage guests to move, choose, and socialise. Plated service delivers a refined, paced experience where every dish arrives at the table.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Staffed buffet starts from AED 120 per person. Chef-led plated dining is typically AED 700 to 950. Live stations and canapés start from AED 150. 5% VAT is its own line. The written quote is the event total.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds.
@@ -446,7 +446,7 @@ export default function BuffetVsPlated() {
             Tell us about your guest count, venue, and occasion. We will recommend a format and build a menu that fits.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -33,74 +33,74 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const formats = [
   {
     icon: Heart,
-    title: 'Romantic Private Dinners',
+    title: 'Dinner for two',
     description:
-      'An intimate dinner for two at home, plated and served with quiet attention. The romance of a fine restaurant, in the comfort of your own space.',
+      'Two covers marking a year belong on a romantic dinner page. That is a different brief from a house night with friends.',
   },
   {
     icon: ChefHat,
-    title: 'Private Chef at Home',
+    title: 'Chef at the table',
     description:
-      'A dedicated chef cooking course by course in your kitchen, so the evening unfolds in private with no reservations, no crowds, and no rushing.',
+      'A partner chef cooking in your kitchen when everyone sits at one table and dinner is the event.',
   },
   {
     icon: UtensilsCrossed,
-    title: 'Multi-Course Tasting Menus',
+    title: 'Courses at the table',
     description:
-      'Considered tasting menus that move gracefully from canape to dessert, each course paced to let the conversation breathe.',
+      'A paced menu from canapé to dessert when the guest list fits one sitting.',
   },
   {
     icon: Cake,
-    title: 'Dessert & Sweet Finishes',
+    title: 'Dessert',
     description:
-      'A patisserie-led finale with a celebration dessert to mark the occasion, plated and presented to make the moment feel special.',
+      'A cake or sweet course quoted when you want us to supply it, or we plate a cake you bring.',
   },
   {
     icon: Wine,
-    title: 'Pairings & Toasts',
+    title: 'Drinks and a toast',
     description:
-      'Thoughtful drink pairings and toast-ready service, with cocktails or refined alcohol-free options to suit the evening.',
+      'Pairings, cocktails or alcohol-free options. Alcohol at a private residence is sourced by the host.',
   },
   {
     icon: Home,
-    title: 'Villa & Home Settings',
+    title: 'Villa and home settings',
     description:
-      'Full-service dining brought to your villa or home across Dubai. We set the table, serve each course, and clear away after.',
+      'We set the table, serve and clear at the address you give us. We do not own the house.',
   },
 ]
 
 const useCases = [
   {
-    title: 'Dinner for Two at Home',
+    title: 'Dinner for two at home',
     description:
-      'A private chef prepares a romantic multi-course dinner in your kitchen, plated and served just for the two of you. Intimate, unhurried, and entirely yours.',
+      'Two people, one table. That brief sits on romantic dinner, not this house-night page.',
   },
   {
-    title: 'Milestone Anniversary Dinners',
+    title: 'Anniversary with friends at the table',
     description:
-      'A larger gathering to mark a significant anniversary, with a seated menu, attentive service, and a celebration dessert for the family or close friends.',
+      'A mixed guest list, a toast, a kitchen that may not plate everyone at once. That is private party catering.',
   },
   {
-    title: 'Villa Tasting Menu Evenings',
+    title: 'Villa sittings',
     description:
-      'A multi-course tasting menu served at a private villa, paced course by course with thoughtful pairings for a refined, relaxed evening.',
+      'Courses at a villa table you control. Access, the kitchen and how many sit decide the crew.',
   },
   {
-    title: 'Surprise Celebration Dinners',
+    title: 'Surprise dinners',
     description:
-      'A surprise dinner planned in advance and delivered seamlessly, so you can focus entirely on the moment while we handle every detail.',
+      'Arrival timed so the table is set before they walk in. Who lets the team in belongs in the brief.',
   },
 ]
 
 const includedItems = [
-  { title: 'Bespoke Menu Design', description: 'A multi-course menu designed around your tastes, the occasion, and any dietary needs, planned in advance.' },
-  { title: 'Premium Ingredients', description: 'Fresh, high-quality produce and ingredients sourced from trusted Dubai suppliers.' },
-  { title: 'Dedicated Private Chef', description: 'An experienced chef cooking and plating each course in your home or villa.' },
-  { title: 'Course-by-Course Service', description: 'Discreet, attentive service paced to let the evening unfold at its own rhythm.' },
-  { title: 'Table Setting & Styling', description: 'Elegant tableware, linens, and presentation to set a romantic, considered scene.' },
-  { title: 'Celebration Dessert', description: 'A patisserie-led dessert to mark the anniversary and close the evening on a sweet note.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, prepare in your kitchen, serve throughout, and leave it spotless after.' },
-  { title: 'Drink Pairings', description: 'Thoughtful pairings, cocktails, or refined alcohol-free options to complement each course.' },
+  { title: 'Menu written for the table', description: 'Courses, dietary notes and who is eating, approved before the date.' },
+  { title: 'Ingredients', description: 'Sourced for this sitting. Named in the quote, not marked up as a mystery line.' },
+  { title: 'Chef', description: 'A licensed culinary partner matched to the night. No chef is guaranteed by name.' },
+  { title: 'Service', description: 'Courses paced to the table. Staff sized to the format.' },
+  { title: 'Tableware', description: 'Linen and serving kit brought in and taken out.' },
+  { title: 'Dessert', description: 'Quoted when you want us to supply it.' },
+  { title: 'Setup and cleanup', description: 'We cook in your kitchen and leave it as we found it.' },
+  { title: 'Drinks', description: 'Pairings or alcohol-free options. Alcohol at a private residence is sourced by the host.' },
 ]
 
 const galleryImages = [
@@ -158,7 +158,7 @@ const faqs = [
   { q: "How much does anniversary dinner catering in Dubai cost?", a: "Anniversary dinner catering in Dubai is priced by custom quote, because the cost depends on your guest count, the number of courses, and the ingredients you choose. An intimate private-chef dinner for two carries a higher per-head figure than a larger gathering, since the chef and service are shared across fewer people, while everything is quoted transparently upfront with 5% VAT applied. Share your date and tastes and we typically reply within 15 minutes during business hours with a tailored proposal." },
   { q: "What is included in the price, and are there any hidden fees?", a: "Every anniversary booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and course-by-course service, and full cleanup afterwards, so there are no surprise add-ons. Serving staff are optional and quoted separately if you want them, and 5% VAT is shown clearly on your quote. You can see exactly [how it works](/how-it-works) before you commit to anything." },
   { q: "Is your food halal and prepared to Dubai food-safety standards?", a: "Yes. We source halal ingredients by default and our chefs and kitchens operate to Dubai Municipality food-safety standards, so your anniversary dinner is both compliant and safe. If you have specific requirements around sourcing or preparation, just tell us when we design your menu and we will confirm everything in advance." },
-  { q: "Why choose a private chef at home over a restaurant for our anniversary?", a: "A private chef at home gives you a restaurant-quality multi-course dinner with none of the crowds, no reservation window, and no table to vacate, so the evening unfolds entirely at your pace. We cook fresh in your own kitchen, plate each course, and clear away after, turning your villa or apartment into the most personal setting of the year. Explore our full [private chef in Dubai](/private-chef-dubai) service to see how it compares." },
+  { q: "When is a chef at home a better brief than a restaurant for an anniversary?", a: "When you want the clock, the guest list and the kitchen to stay yours. We cook in your kitchen, plate, and clear down. Two covers belong on [romantic dinner](/romantic-dinner-dubai). Friends at the table belong on [private party catering](/private-party-catering-dubai). Compare a household visit on [private chef in Dubai](/private-chef-dubai)." },
   { q: "Can you plan a surprise anniversary dinner for my partner?", a: "Absolutely. Surprise anniversary dinners are one of our most-loved requests, and we plan every detail in advance so the evening is delivered seamlessly while you focus on the moment. We coordinate the arrival timing, menu, and table styling quietly with you, so all your partner sees is a beautifully set table and a chef ready to cook." },
   { q: "How many guests can you cater for an anniversary celebration?", a: "There is no strict minimum, so we cater everything from an intimate dinner for two to a larger milestone gathering for family and close friends. For bigger celebrations we scale the menu, service, and celebration dessert to your guest count, and can add optional serving staff to keep everything flowing smoothly." },
   { q: "Do you bring everything, or do we need to provide anything?", a: "We bring the ingredients and cook in your own kitchen, needing only a standard setup with an oven, hob, and worktop space to work from. If your menu calls for any special tableware, glassware, or equipment, we will confirm the details with you in advance so nothing is left to chance on the night. You simply relax while we handle setup, service, and cleanup." },
@@ -174,19 +174,19 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'fully-coordinated catering across Dubai for celebrations of every size and style.',
+    description: 'Format catalogue: drop-off through full service.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Private Chef',
-    description: 'A dedicated chef cooking an intimate, bespoke menu in your home or villa.',
+    description: 'A household chef visit when dinner is one table and a workable kitchen.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Luxury Dining',
-    description: 'Bespoke fine-dining experiences for a truly memorable evening.',
+    description: 'A tasting menu sitting, if that is the product rather than a house night.',
     image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
@@ -288,8 +288,8 @@ export default function AnniversaryCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Anniversary Dinner Catering Dubai | Private Chef Menus | myCHEF"
-        description="Book anniversary dinner catering in Dubai. Romantic private-chef menus, multi-course tasting dinners and celebration desserts at home. Get a quote in 15."
+        title="Anniversary Catering Dubai | myCHEF"
+        description="Anniversary catering Dubai: two covers belong on a romantic dinner; friends at the table is a house night. Cooked at your address. Itemised quote."
         canonicalPath="/private-party-catering-dubai"
         ogImage="/service-luxury-dining.webp"
         hideSiteName
@@ -314,10 +314,10 @@ export default function AnniversaryCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 an-hero-h1">
-            Anniversary Dinner Catering Dubai: Private Chef & Tasting Menus
+            Anniversary Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 an-hero-sub">
-            Romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Intimate anniversary dining brought to your villa or home across Dubai.
+            Anniversary catering Dubai for a house night with friends, or a pointer to dinner for two. We cook at your address. We do not own the table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Plan My Anniversary</Link>
@@ -341,19 +341,20 @@ export default function AnniversaryCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CELEBRATE THE YEARS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Dinner Worthy of the Milestone
+            Anniversary catering Dubai: two covers, or friends at the table
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            An anniversary deserves more than another night out. There is something quietly special about celebrating in your own space, with a chef cooking just for you and no table to vacate by a certain hour. Our anniversary dinner catering brings a dedicated private chef to your home or villa, preparing a romantic multi-course menu and serving it course by course while you simply enjoy the evening together.
+            Anniversary catering Dubai is either dinner for two or a house night with friends. Two covers marking a year sit on{' '}
+            <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">romantic dinner Dubai</Link>
+            . Friends at the table, a toast, a kitchen that may not plate everyone at once: that is this sitting, and it redirects into private party catering.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. Chefs in our network handle the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
-            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>,{' '}
-            <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">romantic dinner Dubai</Link>{' '}
-            or{' '}
-            <Link to="/proposal-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">proposal dinner Dubai</Link>{' '}
-            options, or request a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Anniversary</Link>.
+            A staffed buffet starts from AED 120 per person. Chef-led plated dining is AED 700–950. The date-night package for two is AED 1,200. All before 5% VAT. A proposal dinner is a different brief on{' '}
+            <Link to="/proposal-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">proposal dinner Dubai</Link>
+            . A tasting as the product sits on{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>
+            . Send the date through{' '}
+            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">inquiry</Link>.
           </p>
         </div>
       </section>
@@ -364,7 +365,7 @@ export default function AnniversaryCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHAT WE CREATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Dining Crafted for the Occasion
+              How the sitting is served
             </h2>
           </div>
 
@@ -394,7 +395,7 @@ export default function AnniversaryCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WAYS TO CELEBRATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              How we coordinate catering for Anniversary Dinners
+              Two covers, or a house night
             </h2>
           </div>
 
@@ -418,7 +419,7 @@ export default function AnniversaryCatering() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Your Dinner Includes
+            What a staffed anniversary sitting includes
           </h2>
 
           <div className="an-inc-grid grid md:grid-cols-2 gap-6">
@@ -439,7 +440,7 @@ export default function AnniversaryCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of the Evening
+            How anniversary catering looks in Dubai
           </h2>
 
           <div className="an-gallery grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -460,7 +461,7 @@ export default function AnniversaryCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Anniversary Dinner Catering Questions
+            Questions before you book
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -521,8 +522,8 @@ export default function AnniversaryCatering() {
             ))}
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
-            Marking the start of the journey instead? Explore our{' '}
-            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">engagement party catering</Link>.
+            An unnamed house night sits on{' '}
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">private party catering</Link>.
           </p>
         </div>
       </section>
@@ -536,7 +537,7 @@ export default function AnniversaryCatering() {
             Plan Your Anniversary Dinner
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share the date and your tastes — we will bring the chef, the menu, and the celebration to your table.
+            Share the date, guest count and whether it is two covers or friends at the table. We send an itemised quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Plan My Anniversary</Link>

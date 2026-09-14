@@ -154,7 +154,7 @@ export default function BlogCategoryHub() {
             Tell us the date, the guest count and the venue — you&apos;ll have a written proposal back promptly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               <Phone size={16} className="mr-2" />
               Chat on WhatsApp

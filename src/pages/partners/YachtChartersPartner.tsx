@@ -11,27 +11,27 @@ export default function YachtChartersPartner() {
   return (
     <PartnerPageTemplate
       name="Yacht Charters"
-      seoTitle="Yacht Charters Partnership Dubai | Chef"
-      description="Yacht Charters Partnership Dubai — Partner with myCHEF Dubai to offer private chef and catering services on your yacht charters across Dubai Marina, Palm…"
+      seoTitle="Yacht Charters Partnership Dubai | myCHEF"
+      description="Yacht charters partnership Dubai: add a chef or catering to a charter. Galley, boarding and holding planned with the crew. Terms in writing."
       canonicalPath="/partners/yacht-charters-dubai"
       ogImage="/images/yacht-catering-dubai-hero.webp"
       headline="Yacht Charters Partnership Dubai"
       eyebrow="FOR YACHT CHARTER COMPANIES"
-      subheadline="Elevate every charter with onboard private chef dining, canapés, BBQs, and tailored menus."
-      intro="Turn Every Charter Into a Culinary Experience"
-      valueProposition="Guests chartering yachts in Dubai expect the food to match the boat. Partner with myCHEF Dubai to add a private chef or catering package to every voyage — dinner on a yacht, sunset canapés, a deck BBQ, or a multi-course service in the saloon."
+      subheadline="A chef or a catering package on the charter, planned around the galley and boarding, not copied from a villa menu."
+      intro="The food has to match the boat, not a restaurant floor plan."
+      valueProposition="Guests chartering in Dubai Marina, Dubai Harbour or Palm Jumeirah often want dinner on a yacht, sunset canapés or a deck grill. We plan around galley size, boarding and holding. You sell the charter. We run the food. Commission or a packaged rate is agreed in writing."
       benefits={[
-        { icon: Ship, title: 'Onboard Private Chef', description: 'Experienced maritime chefs who understand yacht galleys and deliver restaurant-quality dining at sea.' },
-        { icon: TrendingUp, title: 'Premium Upsell', description: 'Add a high-margin culinary experience to your charter packages and increase overall revenue per booking.' },
-        { icon: Shield, title: 'Maritime-Ready Team', description: 'Chefs and service staff experienced in dock-to-deck logistics across Dubai Marina, Dubai Harbour, and Palm Jumeirah.' },
-        { icon: Users, title: 'White-Label Service', description: 'We can operate under your brand or as a recommended partner, whichever suits your client relationship.' },
-        { icon: Briefcase, title: 'Flexible Commercial Terms', description: 'Choose from commission-based referrals or integrated charter-and-catering packages.' },
+        { icon: Ship, title: 'Onboard cooking that fits the galley', description: 'Menus written for limited oven, grill and fridge space. Much of the work is done on land before boarding.' },
+        { icon: TrendingUp, title: 'A food line you can add to the charter', description: 'Canapés, a grill, or a seated sitting in the saloon. Quoted as its own line, not hidden in the boat rate.' },
+        { icon: Shield, title: 'Dock-to-deck logistics', description: 'Arrival, security, parking and loading agreed with the crew. Unusual access is a separate line.' },
+        { icon: Users, title: 'Your brand or ours', description: 'We can sit as a recommended partner or work under your name, as the agreement says.' },
+        { icon: Briefcase, title: 'Terms before the first cruise', description: 'Referral commission or an integrated charter-and-catering package. Nothing starts on a handshake.' },
       ]}
       howItWorks={[
-        'We design a yacht catering menu and service level to match your fleet and typical charters.',
-        'Your team offers the dining package during the charter booking process.',
-        'We coordinate provisioning, chef boarding, and onboard service for the scheduled cruise.',
-        'Guests enjoy a seamless dining experience and you receive partner reporting and remuneration.',
+        'We agree a menu and service level that fits your fleet and typical charters.',
+        'Your team offers the food package when the charter is booked.',
+        'We coordinate provisioning, boarding and onboard service with the crew.',
+        'You receive the reporting and payment named in the agreement.',
       ]}
       ctaText="Discuss Yacht Partnership"
       heroImage="/images/yacht-catering-dubai-hero.webp"

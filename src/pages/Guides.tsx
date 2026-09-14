@@ -151,16 +151,16 @@ const faqs = [
     a: 'Our Private Chef vs Catering guide compares the two options by group size, occasion and budget so you can choose the right service model.',
   },
   {
-    q: 'How is the catering guides Dubai price worked out?',
-    a: 'There is no single number for catering guides Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    q: 'How is a catering price worked out?',
+    a: 'Guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately.',
   },
   {
-    q: 'How to plan catering for an event Dubai?',
-    a: 'How to plan catering for an event Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+    q: 'How do I plan catering for an event in Dubai?',
+    a: 'Start with date, headcount, venue and how people eat. Format, staff and equipment follow that brief. Open the checklist that matches the occasion, then send the enquiry.',
   },
   {
-    q: 'Is catering event checklist something you take on?',
-    a: 'Yes. For catering event checklist we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+    q: 'Do you take on the catering as well as the checklist?',
+    a: 'Yes. The guides help you brief. The commercial pages sell the work. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
   },
 ]
 
@@ -224,8 +224,8 @@ export default function Guides() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Checklist Dubai | Catering Guides Dubai | myCHEF"
-        description="Catering Checklist Dubai — Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef…"
+        title="Catering Checklist Dubai | myCHEF"
+        description="Catering checklists and planning guides for Dubai: prices, wedding, corporate, yacht, Ramadan and how to choose a caterer."
         canonicalPath="/guides"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -235,7 +235,7 @@ export default function Guides() {
       <PageHero
         eyebrow="Free Planning Resources"
         title="Catering Checklist Dubai"
-        subtitle="Catering Checklist Dubai by myCHEF — Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and che"
+        subtitle="Planning lists for prices, weddings, company days, yachts and Ramadan. The commercial pages sell the work. These pages help you brief it."
         image="/images/guides-hub-dubai-hero.webp"
         imageAlt="Dubai catering guides"
         cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}

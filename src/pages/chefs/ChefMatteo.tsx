@@ -9,14 +9,14 @@ import ChefProfile, { type ChefProfileData } from './ChefProfile'
 const chef: ChefProfileData = {
   slug: '/chefs/matteo-pastry-chef',
   name: 'Matteo Moretti',
-  title: 'Pastry Chef',
+  title: 'Independent partner pastry chef',
   seoPhrase: 'Private Pastry Chef Dubai',
   partnerLabel: 'Partner chef · employed by a licensed supplier',
-  experience: '12+ Years',
-  cuisine: 'Modern Patisserie & Dessert Design',
+  experience: '',
+  cuisine: 'Patisserie and plated desserts',
   image: '/team-pastry-chef.webp',
   imageAlt: 'Chef Matteo Moretti, independent partner pastry chef in the myCHEF Dubai network',
-  bio: 'Matteo Moretti is a classically trained independent pastry chef whose desserts are as theatrical as they are delicious. After graduating from Le Cordon Bleu Paris, he spent years in boutique patisseries and luxury hotel pastry departments across Europe before joining the myCHEF Dubai network of partner chefs. Matteo believes the final course should leave the strongest impression, and he approaches every dessert as edible art. His chocolate work, sugar sculptures, and plated desserts have become a signature of wedding receptions, product launches, and intimate dinner parties throughout the city. Beyond technique, he brings a deep understanding of flavour balance and dietary adaptation, ensuring every guest experiences a memorable sweet finish. Whether designing an elaborate dessert table or a single show-stopping cake, Matteo delivers precision, creativity, and unmistakable elegance.',
+  bio: 'Matteo Moretti is a private pastry chef Dubai hosts book through myCHEF: an independent partner chef, employed by a licensed supplier. Hire a pastry chef Dubai for plated desserts, a dessert chef for private event Dubai nights, or a pastry chef for events Dubai when the brief is a dessert table or a wedding cake. Dessert chef Dubai, here, is the last course cooked in your kitchen or plated for a party, then clear-down. You approve the profile before anyone starts. We do not publish years of experience.',
   specialties: [
     'Chocolate Work',
     'Sugar Art',

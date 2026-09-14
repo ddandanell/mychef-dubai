@@ -216,11 +216,11 @@ export default function LocationDetail() {
             {loc.heroSubtitle}
           </p>
           <p className="font-inter text-base text-gold max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
-            Tell us your occasion and we will bring you a vetted chef in this area within 24 hours.
+            Tell us the date, guest count and this area. We send a written plan.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
-              Check Availability
+              Request your quote
             </Link>
             <a
               href={whatsappLink}
@@ -356,7 +356,7 @@ export default function LocationDetail() {
         </div>
       </section>
 
-      {/* Why Choose */}
+      {/* Distinction / proof */}
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="loc-section opacity-0 translate-y-8">
@@ -445,7 +445,7 @@ export default function LocationDetail() {
           <div className="loc-section opacity-0 translate-y-8 text-center mb-12">
             <h2 className="font-playfair text-h2 text-white">Services in {loc.name}</h2>
             <p className="font-inter text-body text-gray-400 max-w-[600px] mx-auto mt-4">
-              Discover premium chef and catering services available across {loc.name}.
+              A standing household chef or one-night catering, both at your address in {loc.name}.
             </p>
           </div>
           <div className="loc-links grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -511,7 +511,7 @@ export default function LocationDetail() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="loc-section opacity-0 translate-y-8 text-center mb-12">
-            <h2 className="font-playfair text-h2 text-white">Explore Our Services</h2>
+            <h2 className="font-playfair text-h2 text-white">Chef, catering and event pages</h2>
           </div>
           <div className="loc-links grid grid-cols-2 md:grid-cols-4 gap-4">
             {loc.relatedServices.map((service, i) => {
@@ -573,7 +573,7 @@ export default function LocationDetail() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">
-              Check Availability
+              Request your quote
             </Link>
             <a
               href={whatsappLink}

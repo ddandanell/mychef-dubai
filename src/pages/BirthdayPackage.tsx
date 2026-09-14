@@ -13,24 +13,24 @@ export default function BirthdayPackage() {
   return (
     <PackagePageTemplate
       name={pkg.name}
-      seoTitle="Birthday Catering Packages Dubai | Private Chef for 8–12 | myCHEF"
-      description="A fixed birthday catering packages Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
-      intro="The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft."
+      seoTitle="Birthday Catering Packages Dubai | myCHEF"
+      description="Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
+      intro="Birthday catering packages Dubai start at a published total: AED 3,600 for 8–12 guests. Canapés or a starter, a main, dessert, a cake option, a chef and service staff, setup and clear-down. That is a package price, not a per-person buffet floor. Larger rooms are quoted on the birthday catering page. Dietary notes go into the first draft. Halal is the default."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
-      headline="Birthday Catering Packages Dubai for 8–12 Guests"
-      eyebrow="BIRTHDAY PARTY PACKAGE"
-      subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
+      headline="Birthday Catering Packages Dubai"
+      eyebrow="BIRTHDAY PACKAGE"
+      subheadline="AED 3,600 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
       included={[
-        'Bespoke birthday menu for 8–12 guests',
-        'Canapés or starter, main course, and dessert',
-        'Private chef and service staff',
-        'Premium ingredient sourcing',
-        'Custom birthday cake or dessert option',
-        'Setup, service, and full clear-down',
+        'A menu written for 8–12 guests',
+        'Canapés or a starter, main course and dessert',
+        'Chef and service staff sized to the table',
+        'Ingredients for that menu',
+        'A birthday cake or dessert option',
+        'Setup, service and clear-down',
       ]}
       sampleMenu={[
         'Canapés: Tuna tartare spoons, truffle arancini, mini brioche sliders',
@@ -38,46 +38,46 @@ export default function BirthdayPackage() {
         'Dessert: Birthday cake and assorted mini desserts',
       ]}
       addOns={[
-        'Custom birthday cake design',
-        'Dessert table and grazing spread',
-        'Mocktail, cocktail, or champagne bar',
-        'Themed table styling and decorations',
-        'DJ, photographer, or live entertainment',
+        'A more detailed cake design, quoted as a line',
+        'A dessert table or grazing spread',
+        'A mocktail bar. Cocktails or champagne only where the venue is licensed',
+        'Table styling, quoted separately',
+        'A DJ or photographer if you want one introduced. Not inside AED 3,600',
       ]}
       faqs={[
         {
           q: 'Can this package cater both kids and adults?',
-          a: 'Yes. We design menus that work for mixed-age groups, with kid-friendly options alongside refined dishes for adults.',
+          a: 'Yes. Mixed-age tables are written as such: milder plates for children, the same kitchen for adults. Kids birthday catering packages Dubai hosts ask about sit on this page when the guest count is still 8–12.',
         },
         {
           q: 'Do you provide a birthday cake?',
-          a: 'Yes. The package includes a custom birthday cake designed around your theme, flavour preferences, and any dietary requirements.',
+          a: 'Yes. A cake option is in the package. Flavour and diets are named before the night.',
         },
         {
           q: 'Can the party be at a villa or venue?',
-          a: 'Absolutely. We coordinate private chefs and caterers at homes, villas, gardens, rooftops, and private venues across Dubai, handling setup and cleanup.'
+          a: 'Yes. Home, villa, garden, rooftop or a private venue in Dubai. Setup and clear-down are in the total. Building access is yours to confirm.',
         },
         {
           q: 'How far in advance should I book?',
-          a: 'We recommend two to four weeks for themed or larger parties. Smaller gatherings can often be arranged with one week’s notice.',
+          a: 'Two to four weeks when the cake and staffing need time. A week can work for a simpler table. Peak weekends from November to March fill first.',
         },
       ]}
       relatedServices={[
         {
-          title: 'Birthday Catering Dubai',
-          description: 'Full-service birthday dining coordination for all ages and venues.',
+          title: 'Birthday catering',
+          description: 'Birthdays larger than 12, or a different format. This package is the 8–12 total.',
           image: '/service-events.webp',
           link: '/birthday-catering-dubai',
         },
         {
-          title: 'Kids Birthday Catering',
-          description: "Children's menus, party boxes and allergy planning for a younger guest list.",
+          title: 'Kids birthday catering',
+          description: 'Younger guest lists, party boxes and allergy planning. Same URL as birthday catering.',
           image: '/images/kids-birthday-catering-dubai-hero.webp',
           link: '/birthday-catering-dubai',
         },
         {
-          title: 'Catering Packages Dubai',
-          description: 'Explore all starter packages and starting prices.',
+          title: 'Catering packages',
+          description: 'The other published totals: Date Night, Family and Corporate Dinner.',
           image: '/images/catering-packages-dubai-hero.webp',
           link: '/catering-packages-dubai',
         },

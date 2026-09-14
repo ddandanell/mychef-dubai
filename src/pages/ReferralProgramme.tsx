@@ -45,7 +45,7 @@ const howItWorks = [
 const benefits = [
   'AED 100 credit for every friend who books',
   'Your friend also receives AED 100 off their first booking',
-  'No limit on referrals — share as often as you like',
+  'No limit on referrals. Share as often as you like',
   'Credit applies to any private chef or catering booking',
   'Track your referrals via WhatsApp with your account manager',
 ]
@@ -93,8 +93,8 @@ export default function ReferralProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="myCHEF Referral Programme | Referral Programme Dubai | myCHEF"
-        description="myCHEF Referral Programme — Refer friends to myCHEF Dubai and earn AED 100 credit for every booking. Your friend also receives AED 100 off their first…"
+        title="myCHEF Referral Programme | myCHEF"
+        description="myCHEF referral programme: AED 100 credit when a new client books, and AED 100 off their first booking. Named at enquiry. Paid after the booking is confirmed."
         canonicalPath="/referral-programme"
         ogImage="/images/celebration-catering-dubai-hero.webp"
         schema={schema}
@@ -102,8 +102,8 @@ export default function ReferralProgramme() {
 
       <PageHero
         eyebrow="REFER & REWARD"
-        title="myCHEF Referral Programme: Give AED 100, Get AED 100"
-        subtitle="myCHEF Referral Programme by myCHEF — Share myCHEF Dubai with friends and family. They save on their first booking, and you earn credit towards your next experience."
+        title="myCHEF Referral Programme"
+        subtitle="A new client books, names you at enquiry, and both of you receive AED 100. Credit is issued after the booking is confirmed and paid."
         image="/images/celebration-catering-dubai-hero.webp"
         imageAlt="myCHEF Dubai referral programme"
         cta={{ label: 'Join the Referral Programme', href: WHATSAPP_LINK, external: true }}

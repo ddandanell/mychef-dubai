@@ -166,7 +166,7 @@ const faqs = [
   { q: "Can you cater sushi alongside cooked dishes and other cuisines?", a: "Absolutely. Sushi works beautifully as one part of a wider spread, and we can pair it with tempura, teriyaki, hot Asian dishes, or a completely different cuisine at the same event. Many clients use a sushi station as a showpiece next to a fuller menu. Browse our Asian catering options to see how it all comes together." },
   { q: "Do you provide serving staff for sushi events?", a: "Serving staff are available as an optional addition, whether you want a sushi chef at a live station, waiters passing canapes, or a team to replenish and tend the display. For a plated sashimi centrepiece you may need very few hands, while a large reception benefits from a full team. We'll recommend the right staffing when we quote." },
   { q: "Which areas of Dubai do you cover for sushi catering?", a: "We cater sushi across Dubai, including Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina, Dubai Hills, and the wider city, as well as villas, apartments, yachts, and event venues. Waterfront and outdoor settings are planned carefully so chilled sushi stays at its best. Wherever you're hosting, we bring the full set-up to you." },
-  { q: "How do I get a quote and how quickly will you reply?", a: "Share your date, guest count, venue, and the sushi style you have in mind, and we'll come back with a tailored quote, typically within about 15 minutes during business hours. Prices are quoted per event and include our full service, with 5% VAT applied. You can [get in touch here](/contact) to start planning." },
+  { q: "How do I get a quote and how quickly will you reply?", a: "Share your date, guest count, venue, and the sushi style you have in mind, and we'll come back with a tailored quote, typically during business hours. Prices are quoted per event and include our full service, with 5% VAT applied. You can [get in touch here](/contact) to start planning." },
   { q: "Can you build a live sushi station or omakase-style experience?", a: "Yes. Beyond platters, we can create a live sushi station where a chef slices and rolls in front of your guests, or a more intimate omakase-style progression for a seated dinner. It turns the food itself into part of the entertainment. Explore our [live cooking stations](/live-cooking-stations-dubai) to see the format in action." },
   { q: "Can I taste the sushi before booking a large event?", a: "For larger events and weddings, a tasting can often be arranged so you can experience the fish quality and finalise your selections before the day. It's a good way to fine-tune the menu when the stakes and guest numbers are high. Ask us about a tasting menu when you enquire and we'll advise what's possible." },
   { q: "Should I choose a sushi station over restaurant delivery or takeaway?", a: "A live sushi station or freshly prepared platters give you restaurant-level quality at your own venue, with fish sliced on-site rather than sitting in a delivery box. You get the freshness, presentation, and theatre of a sushi counter without leaving your event. It's the difference between catering built for the occasion and food that simply arrives." },
@@ -289,10 +289,11 @@ export default function SushiCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Sushi Catering Dubai | Live Sushi Chef & Platters"
-        description="Sushi catering Dubai for villas, yachts & corporate events. Sashimi & nigiri platters, signature maki, live sushi chef. Quote in ~15 mins."
+        title="Sushi Catering Dubai | myCHEF"
+        description="Sushi Catering Dubai with a vetted myCHEF team. Live counter or chilled platters. Ice time, service and clear-down so you stay a guest at your table."
         canonicalPath="/sushi-catering-dubai"
         ogImage="/menu-seafood.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -317,10 +318,10 @@ export default function SushiCatering() {
             Sushi Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 sush-hero-sub">
-            Premium sashimi and nigiri platters, signature maki, and a live sushi chef — from villa gatherings and yacht parties to corporate receptions across Dubai.
+            Sushi Catering Dubai is a live counter or a chilled platter. Ice time matters. Villas, yachts and offices each change how the fish is held. We cook and pack down at your address.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Get My Sushi Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -340,19 +341,16 @@ export default function SushiCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">ARTISAN SUSHI IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Sushi, Crafted for the Occasion
+            Counter, platter, or both. Ice time is the brief.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Few things draw a room together like a beautifully composed sushi spread. The clean lines of hand-cut sashimi, the gloss of fresh nigiri, the careful balance of a well-built maki roll — sushi is as much about presentation as it is about flavour. At myCHEF Dubai, we treat each platter as a piece of edible craft, slicing premium fish to order and arranging every element with intention so it looks as considered as it tastes.
+            Sushi Catering Dubai is raw fish held cold, then cut close to service. A live counter rolls in the room. A platter is built and replenished on ice. Yachts need a compact, chilled setup. Villas can take a full station. Dietary notes go into the first menu draft, including shellfish, gluten in soy, and vegetarian rolls.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our chefs can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and Asian catering menus.
+            Wok, dim sum and Thai plates sit on <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering Dubai</Link>. A cooked fish table without a sushi counter sits with <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Halal fish is the default. Cooking alcohol stays off unless you ask in writing.
           </p>
         </div>
       </section>
@@ -527,13 +525,13 @@ export default function SushiCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center sush-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Sushi Experience
+            Send counter or platter with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your event and we'll design a sushi menu — and, if you wish, a live sushi chef — built around your guests, venue, and occasion.
+            Name the headcount, villa or yacht, and any shellfish or soy notes. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Sushi Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

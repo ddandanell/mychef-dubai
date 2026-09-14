@@ -34,72 +34,72 @@ const CANONICAL_PATH = '/allergy-safe-catering-dubai'
 const protocols = [
   {
     icon: ClipboardList,
-    title: 'Detailed Allergen Briefing',
-    description: 'Before any booking, we collect a complete allergen and dietary profile: specific allergens, severity, cross-contact risks, religious or lifestyle requirements, and any certified ingredient needs. This briefing travels with the booking to the matched chef.',
+    title: 'Allergen briefing before a chef is matched',
+    description: 'You name the allergens, the severity, and any religious or lifestyle rules. That list travels with the booking. Dietary notes go into the first menu draft. We do not discover a gap two days before service.',
   },
   {
     icon: UtensilsCrossed,
-    title: 'Ingredient Verification',
-    description: 'Chefs verify ingredient labels and supplier declarations. Where required, we source from trusted suppliers and keep packaging available for client review. No substituted ingredient is used without client approval.',
+    title: 'Labels checked before they hit the pot',
+    description: 'Partner chefs check ingredient labels and supplier notes. If a listed ingredient is unavailable, they contact you before substituting. Packaging can be kept for review when you ask.',
   },
   {
     icon: ShieldAlert,
-    title: 'Cross-Contact Controls',
-    description: 'For severe allergies, chefs prepare allergen-free dishes first, use cleaned or dedicated equipment, and segregate storage and plating. We communicate honestly about what can and cannot be guaranteed in your specific kitchen or venue.',
+    title: 'Cross-contact controls, with honest limits',
+    description: 'For severe allergies we cook the restricted dishes first, use cleaned equipment, and separate storage and plating where the room allows. Shared kitchens still carry residual risk. We say what your kitchen or hired space can and cannot support.',
   },
   {
     icon: Leaf,
-    title: 'Dietary & Lifestyle Alignment',
-    description: 'Beyond allergens, we handle halal, kosher-style, vegan, vegetarian, gluten-free, dairy-free, nut-free, keto, Jain, low-FODMAP, and diabetic-friendly requirements — always matched to chefs with relevant experience.',
+    title: 'Diets on the same brief',
+    description: 'Halal, vegan, vegetarian, gluten-free, dairy-free, nut-free, keto, Jain, low-FODMAP and sugar-aware lines sit on the same draft when you list them. Jain and halal are different systems. We never combine them as one label.',
   },
 ]
 
 const commitments = [
   {
-    title: 'No hidden ingredient substitutions',
-    description: 'If a requested ingredient is unavailable, the chef contacts you before making any change.',
+    title: 'No silent substitutions',
+    description: 'If an ingredient on the draft cannot be sourced, the chef contacts you before changing it.',
   },
   {
-    title: 'Severity-sensitive workflow',
-    description: 'Anaphylaxis-risk events are flagged and handled with enhanced separation and communication protocols.',
+    title: 'Severity is flagged early',
+    description: 'Anaphylaxis-risk bookings are marked before matching. Extra separation is planned. We still cannot call a shared kitchen allergen-free.',
   },
   {
-    title: 'Chef experience matching',
-    description: 'We prioritise chefs who have demonstrable experience with the specific allergen or dietary protocol you require.',
+    title: 'Chef matching to the brief',
+    description: 'We match a partner chef who has cooked this kind of brief. We do not publish years of experience we cannot evidence.',
   },
   {
-    title: 'Transparent limitations',
-    description: 'We tell you upfront if a requested menu cannot be made safely in your venue or with available supply.',
+    title: 'We would rather say no',
+    description: 'If the menu cannot be made safely in your kitchen or with available supply, we tell you before you book.',
   },
 ]
 
 const faqs = [
   {
-    q: 'Do you guarantee a 100% allergen-free environment?',
-    a: 'We cannot guarantee absolute zero exposure in every private kitchen or venue, because home and event environments vary. What we guarantee is a rigorous protocol: detailed briefing, ingredient verification, cross-contact controls, and honest communication about what is achievable in your specific setting.',
+    q: 'Do you guarantee a 100% allergen-free kitchen?',
+    a: 'No. Partner chefs cook in shared kitchens and in your home. We brief, verify labels, and separate prep where the room allows. Residual cross-contact risk remains. Guests who carry emergency medication should still bring it.',
   },
   {
     q: 'Can you handle anaphylaxis-level allergies?',
-    a: 'Yes, but with clear boundaries. We flag high-severity allergies, match the booking to experienced chefs, and apply enhanced separation protocols. Clients must still carry their own emergency medication and inform guests of residual risk.',
+    a: 'We can take the booking when the space and the brief support it. High-severity allergies are flagged, the chef is matched accordingly, and we apply tighter separation. We will say no if the kitchen cannot support that. Carry prescribed medication.',
   },
   {
-    q: 'Are chefs in your network certified in allergen training?',
-    a: 'Chefs in our network are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
+    q: 'Are chefs certified in allergen training?',
+    a: 'Chefs in our network must show food-safety awareness, including allergen handling. We do not invent a named certificate we cannot show. For high-risk bookings we match chefs who have cooked that brief before.',
   },
   {
     q: 'What allergens can you accommodate?',
-    a: 'We regularly handle gluten, dairy, eggs, nuts, peanuts, shellfish, fish, soy, sesame, and sulphites, as well as lifestyle diets including vegan, vegetarian, halal, kosher-style, keto, Jain, and low-FODMAP.',
+    a: 'Gluten, dairy, eggs, nuts, peanuts, shellfish, fish, soy, sesame and sulphites are common lines. Lifestyle diets such as vegan, vegetarian, halal, keto, Jain and low-FODMAP sit on the same draft when you list them.',
   },
   {
-    q: 'Do you charge extra for allergy-safe catering?',
-    a: 'Standard allergen accommodation is included in most menus. Complex protocols, certified ingredient sourcing, or dedicated equipment may incur a supplement, which is quoted transparently before booking.',
+    q: 'How is allergy safe catering Dubai priced?',
+    a: 'By custom quote. Guest count, the menu and how much of the work happens in the room move the figure. Extra separation or named-ingredient sourcing is itemised when it applies. 5% VAT is shown separately. Send the date, headcount and the allergen list.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Cuisines Dubai',
-    description: 'Indian, Arabic, Italian, vegan, vegetarian, Jain and more — built around how your guests eat.',
+    description: 'Indian, Arabic, Italian, vegan, vegetarian, Jain and more, built around how your guests eat.',
     image: '/images/cuisines-hub-dubai-hero.webp',
     link: '/cuisines-dubai',
   },
@@ -141,7 +141,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Allergy-Safe Catering',
-      'Allergy-safe private chef and catering service in Dubai with allergen briefing, ingredient verification, cross-contact controls, and dietary accommodation.',
+      'Allergy Safe Catering Dubai: allergen briefing, label checks, cross-contact controls, and honest limits in shared kitchens.',
       'Catering Service',
       'Dubai',
     ),
@@ -200,8 +200,8 @@ export default function AllergySafeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Allergy-Safe Catering Dubai | Gluten, Dairy & Nut-Free | myCHEF"
-        description="Allergy Safe Catering Dubai — Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls…"
+        title="Allergy Safe Catering Dubai | myCHEF"
+        description="Allergy Safe Catering Dubai with a vetted myCHEF team. Briefing, label checks and honest cross-contact limits. You stay a guest at your own table."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -226,13 +226,13 @@ export default function AllergySafeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 asc-hero-h1">
-            Allergy-Safe Catering Dubai: Gluten, Dairy & Nut-Free Menus
+            Allergy Safe Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asc-hero-sub">
-            Private chef and event catering in Dubai with rigorous allergen protocols, ingredient verification, and cross-contact controls — so every guest can eat with confidence.
+            Allergy Safe Catering Dubai is a written brief, a named chef, and an honest note about shared kitchens. We cook at your address. Cross-contact risk remains. We say so before you book.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Get My Allergy-Safe Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -253,17 +253,17 @@ export default function AllergySafeCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">ALLERGEN-AWARE PRIVATE DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Safe Menus Every Guest Can Enjoy
+            The brief first. Then the kitchen.
           </h2>
           <div className="asc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your guests' allergies, intolerances, and dietary needs, and we will bring you a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
+              Send the guest list of allergens, the severity, and anything else that cannot hit the plate. We match a partner chef, write the menu, and check labels before shopping. Partner kitchens are shared. We do not call that an allergen-free kitchen. Residual cross-contact risk remains. Guests who carry emergency medication should still bring it.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore dedicated <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
+              Gluten, dairy and nut lines are written on this brief. See <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> notes here, or the wider <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cuisine collection</Link> when the table also wants a cuisine, not only a restriction.
             </p>
           </div>
         </div>
@@ -275,7 +275,7 @@ export default function AllergySafeCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center">OUR PROTOCOL</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Four Steps to Safer Catering
+              Four checks before we cook
             </h2>
           </div>
 
@@ -298,7 +298,7 @@ export default function AllergySafeCatering() {
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
             <SectionLabel align="center">REQUIREMENTS WE BUILD FOR</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black">Gluten, dairy, nuts and special menus</h2>
+            <h2 className="font-playfair text-h2 text-black">Gluten, dairy, nuts and the menus that follow</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {requirementSections.map((item) => (
@@ -317,7 +317,7 @@ export default function AllergySafeCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHAT SETS US APART</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Our Allergy-Safe Commitments
+              What we will and will not claim
             </h2>
           </div>
 
@@ -333,7 +333,7 @@ export default function AllergySafeCatering() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">Important:</strong> While we apply rigorous protocols, clients with severe allergies must still carry emergency medication and communicate all risks clearly. We will always be honest about the limits of what can be guaranteed in a given environment.
+              <strong className="text-white">Important:</strong> Shared kitchens and home kitchens are not dedicated allergen-free rooms. Carry prescribed medication. Tell every guest the residual risk. We will be honest about what your space can support.
             </p>
           </div>
         </div>
@@ -389,13 +389,13 @@ export default function AllergySafeCatering() {
         <div className="container-custom text-center asc-cta opacity-0 translate-y-8">
           <ShieldAlert size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Protect Every Guest at Your Table
+            Send the allergen list with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and bring you a chef who knows how to execute it.
+            Name the guests, the severity, and the kitchen you have. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Get My Allergy-Safe Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

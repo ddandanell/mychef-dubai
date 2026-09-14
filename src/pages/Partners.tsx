@@ -55,7 +55,7 @@ export default function Partners() {
         variant="quiet"
         eyebrow="About myCHEF"
         title={partnersSeo.h1}
-        subtitle="myCHEF works alongside the businesses whose clients already expect good food — concierge teams, event planners, villa rentals and yacht charters."
+        subtitle="myCHEF works alongside the businesses whose clients already expect good food: concierge teams, event planners, villa rentals and yacht charters."
         image="/images/luxury-dining-experiences-dubai-hero.webp"
         imageAlt="A chef-led dinner being served to guests in a Dubai residence. Experience concept shown."
         imageWidth={1683}

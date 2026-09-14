@@ -38,8 +38,8 @@ const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 const EMAIL = 'info@mychef.ae'
 const INQUIRY_LINK = '/inquiry'
-const PRESS_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Press enquiry — myCHEF Dubai')}`
-const GENERAL_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Contact — myCHEF Dubai')}`
+const PRESS_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Press enquiry: myCHEF Dubai')}`
+const GENERAL_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Contact: myCHEF Dubai')}`
 
 const routes = [
   {
@@ -102,7 +102,7 @@ const clientBrief = [
 ]
 
 const partnerExamples = [
-  'Luxury villa managers',
+  'Villa managers',
   'Concierge companies',
   'Hotels and serviced residences',
   'Yacht operators',
@@ -142,7 +142,7 @@ export default function Contact() {
   return (
     <div>
       <SEO
-        title="Contact myCHEF Dubai — Enquiries"
+        title="Contact myCHEF Dubai | Enquiries"
         hideSiteName
         description="Contact myCHEF Dubai for a private chef, catering, partnership or press enquiry. WhatsApp is usually fastest. We typically reply within 15 minutes during business hours."
         canonicalPath="/contact"

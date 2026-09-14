@@ -246,7 +246,7 @@ export default function Press() {
               to="/inquiry"
               className="btn-primary inline-flex items-center gap-2"
             >
-              Get a Tailored Quote
+              Request your quote
             </Link>
             <a
               href={WHATSAPP_LINK}

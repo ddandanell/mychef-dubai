@@ -39,69 +39,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const diwaliFormats = [
   {
     icon: Flame,
-    title: 'Indian Festive Menus',
-    description: 'Vibrant, celebratory menus of North and South Indian classics — rich curries, biryanis, breads, and aromatic rice dishes for the festival of lights.',
+    title: 'Indian festive menus',
+    description: 'North and South Indian dishes for Diwali: curries, biryanis, breads and rice, written for this guest list.',
     link: '/indian-catering-dubai',
   },
   {
     icon: Leaf,
-    title: 'Vegetarian & Jain Spreads',
-    description: 'Fully vegetarian and Jain-friendly spreads built for Diwali, with paneer, dals, sabzis, and chaat prepared to suit your guests and traditions.',
+    title: 'Vegetarian and Jain spreads',
+    description: 'Meat-free Diwali tables with paneer, dals, sabzis and chaat. Jain notes belong in the first draft. Halal and Jain are never combined as one line.',
     link: '/vegetarian-catering-dubai',
   },
   {
     icon: ChefHat,
-    title: 'Live Chaat Stations',
-    description: 'Interactive live chaat and dosa stations that bring theatre to your celebration, freshly assembled in front of your guests.',
+    title: 'Live chaat stations',
+    description: 'Chaat and dosa finished in front of guests. Power and queue space belong in the brief.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Cake,
-    title: 'Mithai & Sweet Tables',
-    description: 'Traditional Diwali mithai — laddoo, barfi, jalebi, and gulab jamun — styled into generous sweet tables to mark the occasion.',
+    title: 'Mithai and sweet tables',
+    description: 'Laddoo, barfi, jalebi and gulab jamun, sized to the guest count, or a wider sweet table when you ask.',
     link: '/dessert-table-catering-dubai',
   },
   {
     icon: Home,
-    title: 'Home & Family Diwali',
-    description: 'Warm, abundant catering for Diwali gatherings at home, with on-site cooking and service so the hosts can celebrate alongside their guests.',
+    title: 'Home and family Diwali',
+    description: 'Cooking and service at your address so the hosts can stay with the table.',
     link: '/catering-dubai',
   },
   {
     icon: Home,
-    title: 'Corporate & Villa Diwali',
-    description: 'fully-coordinated catering for offices and villa celebrations across Dubai — setup, cooking, service, and pack-down all handled.',
+    title: 'Corporate and villa Diwali',
+    description: 'Setup, cooking, service and pack-down at an office or villa you control.',
     link: '/catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'North & South Indian Menus', description: 'Festive curries, biryanis, breads, dosas, and aromatic rice dishes across regions.' },
-  { title: 'Vegetarian & Jain Options', description: 'Fully vegetarian and Jain-friendly spreads prepared to suit your traditions.' },
-  { title: 'Live Chaat & Dosa Stations', description: 'Interactive stations assembling chaat and dosas fresh in front of your guests.' },
-  { title: 'Mithai & Indian Sweets', description: 'Laddoo, barfi, jalebi, and gulab jamun, or a styled mithai table on request.' },
-  { title: 'Halal Ingredients', description: 'Any non-vegetarian dishes are prepared with halal ingredients from trusted suppliers.' },
-  { title: 'Spice Levels to Taste', description: 'Heat and seasoning adjusted to your guests, from mild to authentically spiced.' },
-  { title: 'Service Staff & Setup', description: 'Waiters, hosts, and styling arranged for your home, office, or villa.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so the celebration runs effortlessly.' },
+  { title: 'North and South Indian menus', description: 'Curries, biryanis, breads, dosas and rice, cut to who is eating.' },
+  { title: 'Vegetarian and Jain options', description: 'Meat-free and Jain dishes when those notes are in the brief.' },
+  { title: 'Live chaat and dosa stations', description: 'Finished in front of guests when the room should move.' },
+  { title: 'Mithai', description: 'Laddoo, barfi, jalebi and gulab jamun, or a wider sweet table when quoted.' },
+  { title: 'Halal ingredients', description: 'Non-vegetarian dishes use halal sourcing by default.' },
+  { title: 'Spice levels', description: 'Heat written into the draft. Mild and hotter dishes can sit side by side, labelled.' },
+  { title: 'Service staff', description: 'Waiters sized to the format. Drop-off is food only.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and leave the kitchen as we found it.' },
 ]
 
 const useCases = [
   {
-    title: 'Home & Family Diwali',
-    description: 'For Diwali gatherings at home, we bring warm, abundant Indian spreads to your table, cooking and serving on-site so the hosts can light the diyas and celebrate with family rather than manage the kitchen.',
+    title: 'Home and family Diwali',
+    description: 'A family table at your address. You light the diyas. We cook and clear.',
   },
   {
-    title: 'Corporate Diwali Functions',
-    description: 'For offices and client celebrations across Dubai, we plan corporate Diwali functions with festive buffets, live chaat stations, and mithai tables, pairing naturally with our wider Indian catering for a memorable event.',
+    title: 'Corporate Diwali functions',
+    description: 'An office or client sitting with a clock: buffet, a chaat station if the brief needs it, mithai, then pack-down.',
   },
   {
-    title: 'Vegetarian & Jain Gatherings',
-    description: 'For guests who keep vegetarian or Jain traditions, we design fully meat-free spreads of paneer, dals, sabzis, and chaat, drawing on our vegetarian catering so everyone shares the same generous, celebratory table.',
+    title: 'Vegetarian and Jain gatherings',
+    description: 'A meat-free table of paneer, dals, sabzis and chaat. Jain rules are a separate brief, not a combined line with halal.',
   },
   {
-    title: 'Villa & Large Celebrations',
-    description: 'For villa parties and large Diwali celebrations, chefs in our network scale menus and add live cooking stations for theatre, keeping quality and presentation consistent however many guests gather.',
+    title: 'Villa and large celebrations',
+    description: 'Guest count, access and live stations decide the crew. Quality is matched to the night, not promised as a slogan.',
   },
 ]
 
@@ -141,54 +141,54 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What kind of Diwali menus do you offer?',
-    a: 'We design vibrant Indian festive menus drawing on North and South Indian cooking — rich curries, biryanis, fresh breads, dosas, and aromatic rice dishes, finished with traditional mithai. Menus are tailored to your guests and the spirit of the festival of lights.',
+    a: 'North and South Indian dishes: curries, biryanis, breads, dosas, rice and mithai. The list is cut to the kitchen and the guest list, including vegetarian Diwali catering Dubai when that is the brief.',
   },
   {
     q: 'Can you cater fully vegetarian and Jain spreads?',
-    a: 'Yes. We regularly prepare fully vegetarian and Jain-friendly Diwali spreads with paneer, dals, sabzis, and chaat. Share your guests’ traditions when planning and we will build the menu to honour them.',
+    a: 'Yes. Vegetarian and Jain notes belong in the first draft. They are different systems. We do not combine them as one line.',
   },
   {
     q: 'Do you offer live chaat and dosa stations?',
-    a: 'We do. Interactive live chaat and dosa stations are a highlight of our Diwali catering, assembled fresh in front of your guests to bring theatre and energy to the celebration.',
+    a: 'Yes. Live stations start from the published floor of AED 150 per person before 5% VAT. Power and queue space sit in the quote.',
   },
   {
     q: 'Do you provide Diwali mithai and sweets?',
-    a: 'Yes. Traditional mithai such as laddoo, barfi, jalebi, and gulab jamun are part of our Diwali menus, and we can style a full sweet table as a generous, festive finish to the meal.',
+    a: 'Yes. Laddoo, barfi, jalebi and gulab jamun, sized to the guest count, or a wider sweet table when you ask.',
   },
   {
     q: 'Can you adjust spice levels for mixed guests?',
-    a: 'Absolutely. We adjust heat and seasoning to your guests, from mild and approachable to authentically spiced, and can prepare different intensities side by side so everyone enjoys the spread.',
+    a: 'Yes. Mild and hotter dishes can sit side by side, labelled.',
   },
   {
     q: 'How far in advance should I book Diwali catering?',
-    a: 'Diwali is a busy festive period in Dubai, so we recommend booking four to six weeks ahead to secure your date. Larger celebrations with live stations in particular benefit from earlier planning.',
+    a: 'Four to six weeks is the usual window. Live stations and larger villas book earlier.',
   },
   {
     q: 'Is Diwali food items the same as Diwali catering Dubai?',
-    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+    a: 'A list of dishes is not a sitting. Diwali catering Dubai is the menu, the team at your address, and an itemised quote: food, staff and 5% VAT on separate lines.',
   },
   {
     q: 'Do you also do Diwali traditional food?',
-    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
+    a: 'Yes, when those dishes fit this table. Send the date, guest count and area. We send a menu draft before anyone cooks.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Indian Catering',
-    description: 'Authentic North and South Indian menus — curries, biryanis, and breads for any event.',
+    description: 'Year-round Indian menus. This page is the Diwali date on that kitchen.',
     image: '/menu-meat.webp',
     link: '/indian-catering-dubai',
   },
   {
     title: 'Vegetarian Catering',
-    description: 'Inventive, fully vegetarian menus — paneer, dals, chaat, and more for inclusive events.',
+    description: 'Meat-free tables, including Jain notes when they are in the brief.',
     image: '/menu-appetizer.webp',
     link: '/vegetarian-catering-dubai',
   },
   {
     title: 'Live Cooking Stations',
-    description: 'Interactive chef stations — chaat, dosa, and more — that bring theatre to your event.',
+    description: 'Chaat, dosa and other stations, quoted as a format.',
     image: '/service-events.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -299,8 +299,8 @@ export default function DiwaliCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Diwali Catering Dubai | Indian Festive Menus & Mithai | myCHEF"
-        description="Book Diwali catering Dubai. Festive Indian menus, vegetarian and Jain spreads, live chaat stations and traditional mithai. Get a tailored quote in 15."
+        title="Diwali Catering Dubai | myCHEF"
+        description="Diwali catering Dubai at your home, office or villa. Vegetarian and Jain notes, chaat stations, mithai. Buffet from AED 120. Itemised quote."
         canonicalPath="/diwali-catering-dubai"
         ogImage="/menu-meat.webp"
         hideSiteName
@@ -325,10 +325,10 @@ export default function DiwaliCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 diw-hero-h1">
-            Diwali Catering Dubai: Indian Festive Menus & Mithai
+            Diwali Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 diw-hero-sub">
-            Festive Indian menus for Diwali celebrations across Dubai — vegetarian and Jain spreads, live chaat stations, and traditional mithai for home, corporate, and villa gatherings.
+            Diwali catering Dubai at your home, office or villa. Vegetarian and Jain notes, chaat stations and mithai. We cook at your address, then clear down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">Get a Diwali Quote</Link>
@@ -352,16 +352,16 @@ export default function DiwaliCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE FESTIVAL OF LIGHTS IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Festive Table to Celebrate Diwali
+            Diwali catering Dubai, cooked at your table
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Diwali is a festival of light, abundance, and togetherness — and the food carries its joy. At myCHEF Dubai, we bring vibrant Indian festive menus to homes, offices, and villas across the city, from rich North and South Indian classics to fully vegetarian and Jain spreads. Live chaat and dosa stations add theatre, while generous tables of mithai bring the celebration to a sweet close.
+            Diwali catering Dubai is a family, office or villa sitting at an address you control. Curries, biryanis, breads, chaat and mithai. Vegetarian Diwali catering Dubai and Jain notes belong in the first draft. We cook there. You stay with your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. The written quote itemises food, staff and VAT.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and is one date on our <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar with Christmas, Eid and New Year. Because the festive period is busy, we recommend booking four to six weeks ahead.
+            Year-round Indian menus sit on <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link>. Meat-free tables sit on <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link>. Chaat and dosa as a format sit on <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link>. This date is one sitting on the <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar. Book four to six weeks ahead.
           </p>
         </div>
       </section>
@@ -372,7 +372,7 @@ export default function DiwaliCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">DIWALI FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Festive Indian for Every Gathering
+              How Diwali food is served
             </h2>
           </div>
 
@@ -406,7 +406,7 @@ export default function DiwaliCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Occasion
+              Home, office, villa
             </h2>
           </div>
 
@@ -425,7 +425,7 @@ export default function DiwaliCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Diwali Catering Includes
+            What a staffed Diwali sitting includes
           </h2>
 
           <div className="diw-inc-grid grid md:grid-cols-2 gap-6">
@@ -446,7 +446,7 @@ export default function DiwaliCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Diwali Catering
+            How Diwali catering looks in Dubai
           </h2>
 
           <div className="diw-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -467,7 +467,7 @@ export default function DiwaliCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Diwali Catering Dubai: the questions we get before a booking
+            Questions before you book
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -536,10 +536,10 @@ export default function DiwaliCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center diw-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Diwali Celebration
+            Send the date, guest count and dietary notes
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your Diwali gathering and we'll design a festive Indian menu — vegetarian or mixed, with live stations and mithai — and handle every detail. Book four to six weeks ahead to secure your date.
+            Tell us home, office or villa, whether the table is vegetarian, and if you want a chaat station. We send an itemised Diwali catering Dubai quote. Book four to six weeks ahead.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a Diwali Quote</Link>

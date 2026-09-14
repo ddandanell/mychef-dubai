@@ -23,6 +23,7 @@ export interface ChefProfileData {
    *  ranks for the person's name and nothing else. */
   seoPhrase?: string
   partnerLabel?: string
+  /** Kept on the data type for existing profiles. Not rendered: years of experience are not evidenced. */
   experience: string
   cuisine: string
   image: string
@@ -178,8 +179,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
   return (
     <>
       <SEO
-        title={`${chef.name} | ${chef.seoPhrase ?? chef.title}`}
-        description={`${chef.name}, ${chef.title} in the myCHEF network. ${chef.experience} of ${chef.cuisine} for private dining in Dubai villas, yachts and homes.`}
+        title={`${chef.name} | ${chef.seoPhrase ?? chef.title} | myCHEF`}
+        description={`${chef.name} is an independent partner chef in the myCHEF Dubai network, cooking ${chef.cuisine} in homes, villas and yachts. You approve the profile before anyone starts.`}
         canonicalPath={chef.slug}
         ogImage={chef.image}
         schema={schema as unknown as Record<string, unknown>}
@@ -187,8 +188,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
       <PageHero
         eyebrow="MEET THE CHEF"
-        title={chef.seoPhrase ? `${chef.name} — ${chef.seoPhrase}` : chef.name}
-        subtitle={`${chef.title} • ${chef.cuisine}`}
+        title={chef.seoPhrase ? `${chef.name}: ${chef.seoPhrase}` : chef.name}
+        subtitle={`${chef.title} · ${chef.cuisine}`}
         image={chef.image}
         imageAlt={chef.imageAlt}
         breadcrumb={[
@@ -219,14 +220,16 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
             <div className="overview-content">
               <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">{chef.title}</span>
-              <h2 className="font-playfair text-h2 text-black mb-2">{chef.name}</h2>
+              <h2 className="font-playfair text-h2 text-black mb-2">
+                {chef.seoPhrase ? `${chef.seoPhrase}, matched to the night` : `How ${firstName} cooks`}
+              </h2>
               {chef.partnerLabel && (
                 <p className="font-inter text-body-sm text-gold mb-4">{chef.partnerLabel}</p>
               )}
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <span className="font-inter text-caption font-medium uppercase tracking-wider bg-charcoal text-gold px-3 py-1">
-                  {chef.experience}
+                  Independent partner chef
                 </span>
                 <span className="font-inter text-caption font-medium uppercase tracking-wider border border-gold/30 text-gold px-3 py-1">
                   {chef.cuisine}
@@ -261,10 +264,10 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
       <section ref={menusRef} className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">SIGNATURE CREATIONS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white mb-4">Sample Menus by {firstName}</h2>
+            <SectionLabel align="center" tone="dark">SAMPLE MENUS</SectionLabel>
+            <h2 className="font-playfair text-h2 text-white mb-4">Sample menus by {firstName}</h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto">
-              Every menu is fully bespoke. These examples show the style and range {firstName} brings to your table.
+              Every menu is written for the night. These examples show the style {firstName} brings to a Dubai table.
             </p>
           </div>
 
@@ -307,7 +310,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
             <div className="details-block">
               <Calendar size={40} className="text-gold mb-4" />
-              <h3 className="font-playfair text-h3 text-black mb-4">Events Served</h3>
+              <h3 className="font-playfair text-h3 text-black mb-4">Nights this kitchen fits</h3>
               <div className="flex flex-wrap gap-2">
                 {chef.eventTypes.map((eventType) => (
                   <span
@@ -334,14 +337,14 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
           <div className="cta-content">
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Book Chef {firstName}
+              Ask for {firstName}
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Ask for {chef.name} as a preference. We confirm availability in the written proposal.
+              Ask for {chef.name} as a preference. We confirm availability in the written proposal, before anyone starts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={inquiryLink} className="btn-primary">
-                Request Custom Quote
+                Request {firstName}
               </Link>
               <a
                 href={whatsappLink}

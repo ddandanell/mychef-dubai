@@ -34,84 +34,84 @@ const CANONICAL_PATH = '/fitness-meal-prep-dubai'
 const features = [
   {
     icon: Target,
-    title: 'Macro-Calculated Meals',
-    description: 'Every dish is built to your protein, carbohydrate, and fat targets. We calculate portions around your body composition goals, training schedule, and dietary preferences.',
+    title: 'The numbers come from you',
+    description: 'Protein, carbohydrate and fat targets sit in the Food Profile. The chef portions to those numbers. We do not invent a fitness meal plan Dubai households did not send.',
   },
   {
     icon: Flame,
-    title: 'Calorie Precision',
-    description: 'Whether you are cutting, bulking, or maintaining, meals are portioned to hit your daily calorie budget without guesswork.',
+    title: 'Calories as written',
+    description: 'Cutting, building or holding: portions follow the daily budget you or your coach set. The chef executes. We do not rewrite the plan.',
   },
   {
     icon: Dumbbell,
-    title: 'Training-Day Nutrition',
-    description: 'Higher carbohydrate meals around heavy training days. Lighter, higher-protein meals on rest days. We sync the menu to your programme.',
+    title: 'Training days vs rest days',
+    description: 'Higher carbohydrate around heavy sessions. Higher protein on rest days, if that is what the brief says. High protein meal prep Dubai is this job with those numbers.',
   },
   {
     icon: Activity,
-    title: 'Trainer Coordination',
-    description: 'Share guidance from your personal trainer or nutritionist and we will build meals that align with their plan. No conflicting advice, just execution.',
+    title: 'Your coach stays the coach',
+    description: 'Share the guidance. We cook to it. No second nutrition opinion from the kitchen, and no medical claims.',
   },
 ]
 
 const programmes = [
   {
-    title: 'Fat Loss',
-    description: 'High-protein, moderate-carbohydrate meals designed to preserve muscle while keeping you full and energised.',
+    title: 'Fat loss weeks',
+    description: 'Higher protein, moderate carbohydrate, if that is the brief. The chef cooks it. The result is not a promise we print.',
   },
   {
-    title: 'Muscle Gain',
-    description: 'Protein-forward menus with sufficient carbohydrates and healthy fats to support hypertrophy and recovery.',
+    title: 'Building weeks',
+    description: 'Protein-forward plates with enough carbohydrate and fat for the sessions you actually do. Bodybuilding meal prep Dubai is this job with those targets.',
   },
   {
-    title: 'Athletic Performance',
-    description: 'Periodised nutrition that matches training load, with emphasis on recovery, glycogen replenishment, and hydration.',
+    title: 'Training load',
+    description: 'Heavier days get more carbohydrate if you asked for it. Rest days stay lighter. Practical meal prep UAE households use is still four hours in the kitchen.',
   },
   {
-    title: 'Body Recomposition',
-    description: 'A balanced approach that supports simultaneous fat loss and muscle preservation through precise macros.',
+    title: 'Holding the line',
+    description: 'Same macros, same containers, same chef. The week does not fall over because nobody shopped.',
   },
 ]
 
 const faqs = [
   {
     q: 'How are macros calculated?',
-    a: 'We start with your goals, body metrics, activity level, and any guidance from your trainer or nutritionist. Your chef then builds a weekly menu that hits your target protein, carbs, and fats per meal.',
+    a: 'They are not calculated by us as a medical service. You or your coach send the targets. The chef builds the week to those numbers and writes them on the containers.',
   },
   {
     q: 'Can I adjust macros as my programme changes?',
-    a: 'Yes. Macros are reviewed weekly or bi-weekly and adjusted based on your progress, training phase, or changes recommended by your coach.',
+    a: 'Yes. When the brief changes, the Food Profile changes. The next visit cooks to the new numbers.',
   },
   {
     q: 'Do you provide nutrition coaching?',
-    a: 'No. Your assigned chef executes the meal plan. If you need a nutrition plan, we recommend working with a licensed nutritionist or certified coach, then the chef prepares the meals to match their guidance.',
+    a: 'No. The chef executes the plan. If you need a nutrition plan, work with a licensed nutritionist or certified coach, then we cook to their guidance.',
   },
   {
-    q: 'What cuisines can be made macro-friendly?',
-    a: 'Almost any. Chefs in our network regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
+    q: 'What cuisines can be made to hit macros?',
+    a: 'Most of the kitchens we cook: Middle Eastern, Mediterranean, Asian, Indian, Western. Recipes are adapted to the numbers, not stripped of flavour.',
   },
   {
-    q: 'How much does fitness meal prep cost?',
-    a: 'Fitness meal prep starts from AED 1,200 per week depending on meal count, portion size, and ingredient quality. Final quote tailored to your targets and household.',
+    q: 'How much does fitness meal prep Dubai price come to?',
+    a: 'It is the Food Prep job: four hours, AED 900 a visit. Once a week is AED 3,600 a month. Groceries at actual receipts, no markup. VAT at 5% on the service. There is no separate fitness tariff and no invented price per meal.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Wellness Meal Prep',
-    description: 'Nutritionist-aligned meals for general health, dietary restrictions, and lifestyle goals.',
+    description: 'When the brief is general health, not a training split.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/wellness-meal-prep-dubai',
   },
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'Recurring private chef visits for households that want fresh meals without daily cooking.',
+    description: 'The same Food Prep job, written for the household rather than the gym.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
   {
     title: 'Healthy Catering Dubai',
-    description: 'Balanced, nutrition-conscious menus for events and family dining.',
+    description: 'One night with guests. Not a week of training food.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/cuisines-dubai',
   },
@@ -181,8 +181,8 @@ export default function FitnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Fitness Meal Prep Dubai | Macro Meals | myCHEF"
-        description="Fitness meal prep Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance. Get a quote."
+        title="Fitness Meal Prep Dubai | Food Prep AED 900 | myCHEF"
+        description="Fitness meal prep Dubai is the Food Prep job: four hours, AED 900, cooked to your macros in your kitchen. Groceries at receipts. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -207,10 +207,10 @@ export default function FitnessMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fm-hero-h1">
-            Fitness Meal Prep Dubai: Macro-Calculated Meals
+            Fitness Meal Prep Dubai: cooked to your numbers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fm-hero-sub">
-            Macro-calculated, calorie-precision meals prepared in your own kitchen — designed around your training programme and body composition goals.
+            Fitness meal prep Dubai is four hours in your kitchen, AED 900 a visit. You or your coach send the macros. The chef cooks them. Groceries at receipts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fm-hero-cta">Plan My Fitness Meals</Link>
@@ -232,22 +232,22 @@ export default function FitnessMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">PERFORMANCE NUTRITION</SectionLabel>
+          <SectionLabel align="center">THE SAME FOOD PREP JOB</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Eat for the Body You Are Building
+            The visit is Food Prep. The numbers are yours.
           </h2>
           <div className="fm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai's fitness culture is serious. Whether you are training for a competition, working through a transformation, or simply want your nutrition to match your discipline, the right meal prep is the lever that makes everything else easier. Tell us about your goals, training schedule, and household and we will bring you a vetted private chef within 24 hours.
+              Fitness meal prep Dubai is the household Food Prep job with training numbers attached. Four hours, AED 900. Halal fitness meal prep Dubai is the default sourcing. Best fitness meal prep Dubai, for us, means a named chef, an itemised figure, and macros written on the lid.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
+              Fitness meal prep packages Dubai are once or twice a week, not a menu card named after a body type. A fitness meal prep menu Dubai week is written from your brief. Personal chef meal prep near me cost is still this visit rate, groceries at receipts, VAT at 5%.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our fitness meal prep service pairs you with a private chef who prepares macro-calculated meals in your own kitchen. No more weighing food, no more bland containers, no more falling off plan because the healthy option was too hard to find. If you need broader nutritionist-aligned support, explore our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">Wellness Meal Prep</Link> programme.
+              We do not write your nutrition plan. We cook it. If you need a broader health brief, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. For the household version without macros, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep Dubai</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not write your nutrition plan — we execute it. Share your targets or your coach's guidance and we will build a weekly menu that hits your numbers and tastes like real food. For recurring household coverage, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">Weekly Meal Prep Dubai</Link> or our full <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
+              Best meal prep companies Dubai is a search. What you get here is a chef in your kitchen, not a production unit. One dinner is catering, not this page.
             </p>
           </div>
         </div>
@@ -259,7 +259,7 @@ export default function FitnessMealPrep() {
           <div className="text-center mb-12">
             <SectionLabel align="center">THE DETAILS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Precision Without Compromise
+              What the chef actually does with the brief
             </h2>
           </div>
 
@@ -282,9 +282,9 @@ export default function FitnessMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">GOAL-SPECIFIC PLANS</SectionLabel>
+            <SectionLabel align="center" tone="dark">HOW THE WEEK IS SHAPED</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Match Meals to Your Goal
+              The goal is yours. The cooking is ours.
             </h2>
           </div>
 
@@ -310,7 +310,7 @@ export default function FitnessMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Fitness Meal Prep Dubai: the questions we get before a booking
+            Fitness Meal Prep Dubai: questions before we cook
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -321,7 +321,7 @@ export default function FitnessMealPrep() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="fm-rel-grid grid md:grid-cols-3 gap-6">
@@ -356,10 +356,10 @@ export default function FitnessMealPrep() {
         <div className="container-custom text-center fm-cta opacity-0 translate-y-8">
           <Dumbbell size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Start Training With Your Food
+            Send the numbers. We will cook them.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your macros, your goals, and your schedule. We will design a weekly fitness meal prep plan that keeps you on track without the boredom.
+            Macros, days, and who else eats in the house. Fitness meal prep Dubai price per meal is not a published tariff. The visit is AED 900 for four hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Fitness Meals</Link>

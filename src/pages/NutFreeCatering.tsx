@@ -5,113 +5,113 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'nut-free-catering-dubai',
-  seoTitle: 'Nut-Free Catering Dubai | Allergy-Safe Events | myCHEF',
-  metaDescription: 'Book nut-free catering in Dubai. Allergy-safe menus for schools, birthdays, corporate events and family gatherings with clear labelling. Get a tailored.',
+  seoTitle: 'Nut Free Catering Dubai | myCHEF',
+  metaDescription:
+    'Nut Free Catering Dubai with a vetted myCHEF team. Peanuts and tree nuts off the written menu. Service and clear-down so you stay a guest at your table.',
   canonicalPath: '/allergy-safe-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/nut-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Nut-Free Catering Dubai',
-  h1: 'Nut-Free Catering Dubai',
-  primaryCta: 'Get My Nut-Free Catering Quote',
+  h1: 'Nut Free Catering Dubai',
   heroSub:
-    'Allergy-aware nut-free catering for schools, birthday parties, corporate lunches and family celebrations across Dubai — safe, labelled and delicious.',
+    'Nut Free Catering Dubai treats the whole menu, not one dish. Peanuts, tree nuts, nut oils and garnishes come off the brief. We cook at your address and pack down after.',
   heroImage: '/images/nut-free-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan nut-free catering in Dubai (via mychef.ae/nut-free-catering-dubai)",
   eyebrow: 'NUT-FREE CATERING IN DUBAI',
-  introH2: 'Safe, Delicious Catering Without Nuts',
+  introH2: 'Peanuts and tree nuts off the whole spread',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Nut allergies demand more than a simple ingredient swap — they require clear communication, controlled prep and service processes that reduce risk. Our nut-free catering is designed for hosts who need peace of mind, whether they are planning a school event, a children’s party, a corporate lunch or a family celebration. Every menu is built without tree nuts and peanuts, with staff trained to serve and answer guest questions confidently.
+        A nut allergy is not a garnish swap. Oils, pestos, baklava, almond flour and hidden pastes all count. For Nut Free Catering Dubai we treat peanuts and tree nuts as a whole-menu brief. Severe allergy is flagged before a chef is matched. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We know that nut-free food still needs to feel exciting. Chefs in our network use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Explore our wider{' '}
-        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          event catering Dubai
-        </Link>{' '}
-        options, browse our{' '}
-        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          cuisine collection
-        </Link>{' '}
-        for menu inspiration, or see our{' '}
+        Partner chefs cook in shared kitchens and in your home. We separate prep where the room allows. We do not call that an allergen-free kitchen. Cross-contact risk remains. Guests who carry emergency medication should still bring it. For other allergens see{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           allergy-safe catering
-        </Link>{' '}
-        approach for gatherings with multiple allergies.
+        </Link>
+        . For mixed occasions see{' '}
+        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          event catering Dubai
+        </Link>
+        {' '}and our{' '}
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          cuisine collection
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Nut-Free Formats for Every Setting',
+  formatsH2: 'Formats that keep nuts off the pass',
   formats: [
     {
       Icon: Utensils,
       title: 'Nut-Free Plated Dinners',
-      description: 'Refined plated menus for weddings, anniversaries and private dinners where every course is guaranteed nut-free from prep to plate.',
+      description: 'Courses written without peanuts or tree nuts, including oils and garnishes. The chef cooks and plates at your address.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
       title: 'Nut-Free Buffets',
-      description: 'Clearly labelled buffet spreads with separate serving protocols, ideal for mixed groups and larger celebrations.',
+      description: 'Labelled dishes and briefed staff. Desserts and salads are checked, not assumed safe because they look plain.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: NutOff,
       title: 'Nut-Free Canapés',
-      description: 'Elegant bite-sized options for receptions and cocktail parties without nuts, pestos or hidden nut oils.',
+      description: 'Passed bites without pestos, nut oils or crushed-nut coatings. Bases and garnishes are specified on the draft.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Cake,
       title: 'Nut-Free Desserts',
-      description: 'Celebration cakes, cupcakes and dessert tables baked in a nut-aware environment with beautiful presentation.',
+      description: 'Cakes and dessert tables without nut flours, pastes or garnishes. Say so if a birthday cake is required.',
       link: '/dessert-table-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Family & Home Events',
-      description: 'Safe nut-free dining for birthdays, Eid, Diwali and family gatherings at home across Dubai.',
+      description: 'Birthdays and family tables at home. The nut-free line is the menu, not a separate plate in the kitchen.',
       link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE NUT-FREE CATERING MATTERS',
-  useCasesH2: 'Built for Safety and Confidence',
+  useCasesH2: 'Name the allergy, then we write the shopping list',
   useCases: [
     {
-      title: 'Children’s Parties & Schools',
+      title: 'Children’s parties',
       description:
-        'Nut allergies are especially common among children. Our nut-free menus give parents, teachers and hosts confidence that every child can eat safely.',
+        'Nut allergy is common in younger guests. The brief covers the cake, the canapés and the buffet, not only the main. Parents should still bring prescribed medication.',
     },
     {
-      title: 'Corporate Inclusive Dining',
+      title: 'Office lunches',
       description:
-        'Offices and conference venues increasingly need allergy-aware catering. Nut-free options with clear labelling keep team lunches simple and safe.',
+        'A labelled nut-free line keeps a working lunch simple. Staff are briefed. You stay in the meeting.',
     },
     {
-      title: 'Weddings with Allergic Guests',
+      title: 'Weddings with allergic guests',
       description:
-        'Wedding guest lists often include at least one nut allergy. A dedicated nut-free menu or event removes stress for the guest and the host.',
+        'One nut-allergic guest is enough to change the dessert and the mezze. We would rather redesign the spread than discover baklava on the night.',
     },
     {
-      title: 'Multi-Generational Family Events',
+      title: 'Family tables',
       description:
-        'From Diwali gatherings to Eid lunches, nut-free catering means grandparents, children and everyone in between can share the same spread safely.',
+        'Diwali, Eid and birthdays often mix generations. A nut-free menu lets the table eat together. Seeds and spices carry flavour when nuts are off.',
     },
   ],
-  includedH2: "What's Included in Our Nut-Free Catering",
+  includedH2: 'What a nut-free booking actually covers',
   includedItems: [
-    { title: 'No Peanuts or Tree Nuts', description: 'Every dish is prepared without peanuts, almonds, cashews, pistachios, walnuts or other tree nuts.' },
-    { title: 'Nut-Free Oils & Ingredients', description: 'We use seed oils and other nut-free alternatives so flavour and texture are never compromised.' },
-    { title: 'Clear Labelling', description: 'Menu cards, buffet tags and staff are briefed so guests can identify safe choices instantly.' },
-    { title: 'Allergy-Aware Prep', description: 'Preparation and service workflows are planned to reduce cross-contact risk.' },
-    { title: 'Nut-Free Bakery', description: 'Cakes, pastries and desserts made without nut flours, pastes or garnishes.' },
-    { title: 'School-Policy Friendly', description: 'Menus designed to align with common nursery and school nut-free policies.' },
-    { title: 'On-Site Service', description: 'Trained service staff manage plating, serving and guest questions throughout your event.' },
-    { title: 'Full Setup & Pack-Down', description: 'We handle delivery, setup, service and clearance at your chosen venue.' },
+    { title: 'No peanuts or tree nuts', description: 'Almonds, cashews, pistachios, walnuts, hazelnuts, pine nuts and peanuts stay off the written menu.' },
+    { title: 'Nut-free oils and pastes', description: 'Seed oils and other alternatives. Pesto and nut milks are not slipped in as a shortcut.' },
+    { title: 'Clear labelling', description: 'Cards and a briefed team so guests can choose without a speech from the host.' },
+    { title: 'Honest prep limits', description: 'We reduce cross-contact where the room allows. Shared kitchens still carry residual risk.' },
+    { title: 'Nut-free bakery', description: 'Cakes and pastry without nut flours or garnishes when the brief asks.' },
+    { title: 'School-policy notes', description: 'If a children’s event follows a nut-free house rule, put that rule on the enquiry. We write the menu to it.' },
+    { title: 'On-site service', description: 'Partner chefs and service staff at your address. Questions at the pass go to the briefed team, not to you.' },
+    { title: 'Setup and pack-down', description: 'We bring equipment, serve, and clear. You stay with your guests.' },
   ],
-  galleryH2: 'A Taste of Our Nut-Free Catering',
+  galleryH2: 'What nut-free service looks like',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Nut-free appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Nut-free canapé selection' },
@@ -120,50 +120,50 @@ const config: DietaryPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa nut-free dinner styling' },
     { src: '/service-events.webp', alt: 'Nut-free event catering in Dubai' },
   ],
-  faqsH2: 'Nut-Free Catering Questions',
+  faqsH2: 'Nut Free Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Is the catering completely free of peanuts and tree nuts?',
-      a: 'Yes. Our nut-free menus are prepared without peanuts and all tree nuts, including almonds, cashews, pistachios, walnuts, hazelnuts and pine nuts. We also avoid nut oils, nut milks and nut-based pastes.',
+      a: 'On a nut-free booking, the written menu excludes peanuts and tree nuts, including oils, milks and pastes. Seeds are not nuts. Tell us if sesame or other seeds are also off.',
     },
     {
       q: 'Can you guarantee a nut-free environment?',
-      a: 'We follow strict prep and service protocols to minimise cross-contact, and we communicate clearly about ingredients. For guests with severe anaphylaxis, we recommend discussing the event format with us directly so we can advise on the safest approach.',
+      a: 'No. Shared kitchens and home kitchens carry cross-contact risk. We brief, separate where the room allows, and label. For anaphylaxis-level allergy we say what the venue can and cannot support before you book. Carry prescribed medication.',
     },
     {
       q: 'Do you offer nut-free birthday cakes?',
-      a: 'Yes. We bake celebration cakes, cupcakes and dessert tables without nuts, using seeds, fruit, chocolate and other safe ingredients for decoration and texture.',
+      a: 'Yes, when the brief asks. Fruit, chocolate and seeds can carry decoration. Nut flours and pastes stay off that cake.',
     },
     {
-      q: 'Is nut-free catering suitable for schools and nurseries?',
-      a: 'Absolutely. We design nut-free menus that align with common school allergy policies, using child-friendly formats and clear labelling.',
+      q: 'Is this suitable for schools and nurseries?',
+      a: 'We can write a nut-free menu to a house policy. We are a caterer, not the school. Send the policy with the date and headcount.',
     },
     {
-      q: 'Can nut-free catering also be vegan or gluten-free?',
-      a: 'We can combine multiple dietary requirements in one menu. Just share the full list of allergies and preferences during planning and we will design accordingly.',
+      q: 'Can nut-free also be vegan or gluten-free?',
+      a: 'Those are extra lines on the same brief. We combine them when you list them. We do not invent a second diet on the night.',
     },
     {
-      q: 'How far in advance should I book nut-free catering?',
-      a: 'Two to four weeks is ideal, especially for school programmes or large events. This gives us time to source verified nut-free ingredients and brief the service team thoroughly.',
+      q: 'How is nut-free catering Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and venue.',
     },
   ],
   relatedServices: [
     {
       title: 'Birthday Catering',
-      description: 'Safe, fun catering for children’s and adult birthday celebrations.',
+      description: 'Birthday tables at home, including children’s parties that need a nut-free line.',
       image: '/menu-dessert.webp',
       link: '/birthday-catering-dubai',
     },
     {
       title: 'Healthy Catering',
-      description: 'Balanced, inclusive menus for wellness-focused events.',
+      description: 'Balanced menus that can sit alongside a nut-free brief.',
       image: '/service-events.webp',
       link: '/cuisines-dubai',
     },
   ],
-  ctaH2: 'Plan a Safe, Nut-Free Event',
+  ctaH2: 'Send the nut brief with the date',
   ctaP:
-    'Tell us about your guests and venue. We will design an allergy-aware, nut-free menu that everyone can enjoy with complete confidence.',
+    'Name peanuts, tree nuts, oils and any seeds that are also off. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function NutFreeCatering() {

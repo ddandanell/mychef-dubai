@@ -40,7 +40,7 @@ const WHATSAPP_LINK = `https://wa.me/${CATERING_WHATSAPP_NUMBER}?text=${encodeUR
 
 const includedItems = [
   'Menu written for the occasion and the table',
-  'Chef on the night — service staff on Family Feast, Birthday and Corporate Dinner',
+  'Chef on the night. Service staff on Family Feast, Birthday and Corporate Dinner',
   'Ingredients for that menu',
   'Setup, service and clear-down',
   'Dietary needs confirmed before the night, including halal',
@@ -97,7 +97,7 @@ export default function CateringPackages() {
 
       <PageHero
         title={PACKAGE_HUB_SEO.h1}
-        subtitle="Catering packages Dubai hosts use when they want a starting figure before the menu is written. Date Night, Family Feast, Birthday and Corporate Dinner each publish a typical guest count and what the chef and service team do on the night."
+        subtitle="Catering packages Dubai: four published totals before the menu is written. Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Each names a typical guest count and what the chef and service team do on the night."
         image={HERO}
         imageAlt="A private chef dinner table in a Dubai home, service in the background. Experience concept shown."
         imageWidth={1344}
@@ -148,12 +148,12 @@ export default function CateringPackages() {
         <Container>
           <SectionLabel>THE FIVE PACKAGES</SectionLabel>
           <DisplayHeading className="text-black mb-5 max-w-[22ch]">
-            Five catering packages Dubai actually publishes
+            Four published totals, plus The Full Experience
           </DisplayHeading>
           <BodyCopy className="mb-12 max-w-[62ch]">
             Same cards and AED as Home: Date Night, Family Feast, Birthday, Corporate Dinner and The Full Experience.
             Headcount, menu and venue move the quote. The number on the card is the published floor for that typical
-            table.
+            table. 5% VAT is shown on the proposal.
           </BodyCopy>
         </Container>
       </Section>
@@ -162,7 +162,7 @@ export default function CateringPackages() {
         eventOnly
         eyebrow="FROM AED"
         title="Starter packages"
-        subtitle="Date Night, Family Feast, Birthday Celebration, Corporate Dinner and The Full Experience — the same published floors as Home."
+        subtitle="Date Night, Family Feast, Birthday Celebration, Corporate Dinner and The Full Experience. The same published floors as Home."
       />
       <Section tone="white" rhythm="connected">
         <Container>
@@ -221,8 +221,8 @@ export default function CateringPackages() {
             AED 300–450 on the larger dinners.
           </BodyCopy>
           <BodyCopy className="mb-4">
-            The best catering packages Dubai hosts actually use are the ones that match the table — guest count and
-            service — not a ranking.
+            The best catering packages Dubai hosts actually use are the ones that match the table: guest count and
+            service, not a ranking.
           </BodyCopy>
           <BodyCopy className="mb-4">
             Date Night and Family Feast can be written as halal catering packages in Dubai. The starting price does not

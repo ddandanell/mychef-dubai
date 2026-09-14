@@ -90,20 +90,20 @@ const includedItems = [
 
 const useCases = [
   {
-    title: 'Coffee Breaks That Re-Energise',
-    description: 'The break is where a conference recovers its energy. Well-timed coffee breaks with proper coffee, fresh pastries, and a few healthy bites keep delegates alert through long programmes: and a smooth, fast service means people return to the room on schedule rather than drifting.',
+    title: 'The break has a clock',
+    description: 'Coffee, tea, water, a pastry or a savoury bite, ready when the session ends. Enough stations so the queue does not eat the slot. Barista labour is not a full coffee cart unless named.',
   },
   {
-    title: 'Working Lunches at Pace',
-    description: 'Lunch at a conference has one job: feed a full room quickly and get everyone back for the afternoon. Whether buffet stations or grab-and-go boxes, we design lunches that move large numbers efficiently without feeling rushed or cutting corners on quality.',
+    title: 'Lunch that returns the room',
+    description: 'Boxed if the agenda is tight. Buffet if you have 45 minutes. Drop-off from AED 90. Staffed buffet from AED 120. The job is to feed the room and start the next session on time.',
   },
   {
-    title: 'Multi-Day Conferences',
-    description: 'Across a multi-day programme, repetition is the enemy. We plan rotating menus so each day feels fresh, manage refreshments from open to close, and keep the service rhythm consistent: so organisers can focus on the agenda rather than the catering logistics.',
+    title: 'Multi-day without the same tray twice',
+    description: 'Each service day is billed. Lunch rotates. The dietary map carries across days. There is no automatic volume discount.',
   },
   {
-    title: 'Seminars & Training Days',
-    description: 'Smaller seminars, workshops, and training days still deserve considered catering. We scale the same standard down to intimate groups, with all-day refreshments and a working lunch that keeps a focused session running comfortably from start to finish.',
+    title: 'Seminars and training days',
+    description: 'A smaller room still needs a named slot for lunch. All-day water and fruit if you book holding. We do not hire the room or run AV.',
   },
 ]
 
@@ -170,19 +170,19 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Corporate Event Catering',
-    description: 'Product launches, galas, and networking receptions, styled and coordinated end to end.',
+    description: 'One-off company nights: parties, launches and award dinners. Quoted per event.',
     image: '/service-events.webp',
     link: '/corporate-event-catering-dubai',
   },
   {
     title: 'Business Lunch Catering',
-    description: 'Boardroom lunches, client meetings, and working lunches presented to a professional standard.',
+    description: 'Boardroom and client sittings. Drop-off from AED 90. Plated client lunch AED 700 to 950.',
     image: '/menu-appetizer.webp',
     link: '/business-lunch-catering-dubai',
   },
   {
     title: 'Corporate Catering',
-    description: 'Professional corporate dining, from working lunches to large company functions.',
+    description: 'The hub for company food: office weeks, lunches, conferences and events.',
     image: '/service-corporate.webp',
     link: '/corporate',
   },

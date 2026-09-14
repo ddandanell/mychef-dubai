@@ -16,7 +16,7 @@ export const hospitalPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/hospital-catering-dubai-hero.webp',
-    alt: 'Hospital catering Dubai — staff cafeteria with a dressed servery, labelled hot line, no devices on the tables. Experience concept shown.',
+    alt: 'Hospital catering Dubai: staff cafeteria with a dressed servery, labelled hot line, no devices on the tables. Experience concept shown.',
     width: 1344,
     height: 752,
     subtitle:
@@ -78,12 +78,12 @@ export const hospitalPage: InstitutionalPageContent = {
     h2: 'Hospital catering Dubai is won in the staff cafeteria first',
     paragraphs: [
       'Patient meal programmes in Dubai are awarded to kitchens that already hold the papers: HACCP, dietitian cover, texture-modified production, ward timing. The incumbents are entrenched. A new supplier who leads with “therapeutic excellence” and no staff-dining track record does not get the ward.',
-      'The honest entry is hospital staff cafeteria catering Dubai — visitor cafés and staff dining at clinics and second-tier hospitals, run as a documented canteen. Healthcare catering Dubai of that kind is still hospital work: health cards, temperature, labelling. It is not a villa dinner in a white corridor.',
+      'The honest entry is hospital staff cafeteria catering Dubai: visitor cafés and staff dining at clinics and second-tier hospitals, run as a documented canteen. Healthcare catering Dubai of that kind is still hospital work: health cards, temperature, labelling. It is not a villa dinner in a white corridor.',
       'When the site is ready for patient meal services Dubai, the diet list has to be real: diabetic, renal, cardiac, IDDSI texture-modified. We will not print a from-price for that work. We will not claim a DHA-licensed dietitian on our payroll on this page. The proposal names who writes the diets, or it does not go out.',
     ],
   },
   difference: {
-    h2: 'Staff dining, then wards — not the other way round',
+    h2: 'Staff dining, then wards: not the other way round',
     blocks: [
       {
         title: 'Staff cafeteria as the first contract',
@@ -113,7 +113,7 @@ export const hospitalPage: InstitutionalPageContent = {
   },
   table: {
     label: 'DIETS',
-    h2: 'Therapeutic diet meals Dubai — what the card has to say',
+    h2: 'Therapeutic diet meals Dubai: what the card has to say',
     intro:
       'Names a hospital already uses. We do not invent diet titles. The live card is written with whoever owns clinical nutrition on that site.',
     columns: ['Diet', 'What it usually means', 'What we need from you'],

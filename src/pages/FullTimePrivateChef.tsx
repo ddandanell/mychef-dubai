@@ -35,23 +35,23 @@ const CANONICAL_PATH = '/full-time-private-chef-dubai'
 const inclusions = [
   {
     icon: ClipboardList,
-    title: 'Household Menu Planning',
-    description: 'Weekly menus designed around your family\'s preferences, nutritional goals, and social calendar. Rotated seasonally so meals never feel repetitive.',
+    title: 'The week, written down',
+    description: 'Menus from the Food Profile: what this family eats, when, and what they refuse. A household chef Dubai plan is not a printed rotation.',
   },
   {
     icon: ChefHat,
-    title: 'Daily Meal Preparation',
-    description: 'A vetted chef in your kitchen preparing breakfast, lunch, dinner, and snacks to your household\'s schedule — fresh, organised, and ready to serve.',
+    title: 'Most days in the kitchen',
+    description: 'Breakfast through dinner on the days you book. Full-Day is nine hours, AED 1,500. Kitchen on Autopilot is five hours, AED 1,050. Groceries at receipts.',
   },
   {
     icon: Users,
-    title: 'Event & Entertainment Support',
-    description: 'Your residential chef can extend service for family dinners, brunches, and small gatherings without the need to bring in outside catering.',
+    title: 'Guests stay on this brief, until they do not',
+    description: 'Family dinners and small tables sit in the household plan. A birthday or a villa full of guests is catering, quoted per person, not added silently to the month.',
   },
   {
     icon: ShieldCheck,
-    title: 'Dietary & Allergy Management',
-    description: 'Strict allergen protocols, halal sourcing, and tailored nutrition plans for children, athletes, clinical needs, or weight-management goals.',
+    title: 'Allergies in the profile',
+    description: 'Halal sourcing is the default. Children’s food, training food and refusals sit in the Food Profile and travel with a backup chef.',
   },
 ]
 
@@ -90,7 +90,7 @@ const packages = [
   {
     name: 'Six days a week',
     price: 'AED 31,680/mo',
-    description: 'A Full-Day chef, 24 visits a month — as close to resident as this service goes.',
+    description: 'A Full-Day chef, 24 visits a month. As close to resident as this service goes, without you becoming an employer.',
     features: [
       'Six days of full-day cover',
       'All meals, snacks and household events',
@@ -104,42 +104,42 @@ const packages = [
 const faqs = [
   {
     q: 'How do I hire a full-time private chef through myCHEF Dubai?',
-    a: 'Start with a brief consultation: household size, cuisine preferences, schedule, dietary needs and how many days a week the kitchen should be staffed. We match a chef from the network, you approve the profile before anything starts, and the plan is priced per visit — there is no placement fee and no salary to negotiate.',
+    a: 'Start with a brief: household size, cuisine, schedule, dietary needs and how many days a week the kitchen should be staffed. We match a chef, you approve the profile before anything starts, and the plan is priced per visit. There is no placement fee and no salary to negotiate.',
   },
   {
     q: 'What is the notice period for a full-time private chef?',
-    a: 'Plans begin at 30 days, and the first month is where the match is tested rather than assumed — we call you separately from the chef after about two days, and again through the month. A wrong match is changed, not argued about. Nothing auto-renews into a longer term than you agreed, and either side can end the plan with a month’s notice.',
+    a: 'Plans begin at 30 days, and the first month is where the match is tested rather than assumed. We call you separately from the chef after about two days, and again through the month. A wrong match is changed, not argued about. Nothing auto-renews into a longer term than you agreed.',
   },
   {
     q: 'Can the chef live in?',
-    a: 'No — we do not place live-in staff, and we are clearer about that than the rest of the market. A live-in chef is an employment relationship between your household and a person, with the visa, accommodation, rest days and end-of-service that come with it. Our model is the opposite: a licensed supplier employs the chef on a proper visa, and the house buys days of cooking. Six days a week of full-day cover is as close to resident as this gets, without you becoming an employer.',
+    a: 'No. We do not place live-in staff. A live-in chef is an employment relationship between your household and a person, with the visa, accommodation, rest days and end-of-service that come with it. Our model is the opposite: a licensed supplier employs the chef on a proper visa, and the house buys days of cooking. Six days a week of full-day cover is as close to resident as this gets, without you becoming an employer.',
   },
   {
     q: 'What if the chef is sick or leaves?',
-    a: 'myCHEF Dubai maintains a roster of vetted replacement chefs. If your chef is unavailable, we arrange temporary coverage so your household routine continues without disruption.',
+    a: 'Cover is part of the fee. The next chef is briefed from your Food Profile. If an equivalent chef is not available, we tell you and give you the options. We do not fill the slot with whoever is free.',
   },
   {
     q: 'What cuisines can they cook?',
-    a: 'Chefs in our network cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
+    a: 'Cuisine is matched with the role: Arabic, Mediterranean, Italian, Indian, Asian, sushi, and the rest of the network. Specialists can sit alongside the regular chef for one meal. They are an add-on, not a second hire.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Part-Time Private Chef Dubai',
-    description: 'Flexible chef support a few days per week for busy households.',
+    description: 'The same household plan on fewer days. One dinner is still catering.',
     image: '/images/private-chef-dubai-hero.webp',
     link: '/part-time-private-chef-dubai',
   },
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'Planned, prepared, and delivered meals designed around your week.',
+    description: 'Four hours, once or twice a week, when you do not need a chef most days.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
   {
     title: 'Private Chef Dubai',
-    description: 'On-demand private chefs for dinners, events, and special occasions.',
+    description: 'The standing household chef, explained once. This page is the most-days end of it.',
     image: '/images/private-chef-dubai-hero.webp',
     link: '/private-chef-dubai',
   },
@@ -150,7 +150,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Full-Time Private Chef Dubai',
-      'A full-time private chef in Dubai for daily household meal preparation, menu planning and dietary management — priced per visit, four to six days a week, with the chef employed by a licensed supplier rather than by your household.',
+      'Full time private chef Dubai: four to six days a week, priced per visit, with the chef employed by a licensed supplier rather than by your household.',
       'Catering Service',
       'Dubai',
     ),
@@ -209,8 +209,8 @@ export default function FullTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Full-Time Private Chef Dubai | Live-In & Live-Out | myCHEF"
-        description="Hire a full time private chef Dubai. myCHEF Dubai sources vetted residential chefs for villas, families, and HNWI households. Get a quote in 15 minutes."
+        title="Full Time Private Chef Dubai | Most Days, No Payroll | myCHEF"
+        description="Full time private chef Dubai: four to six days a week, priced per visit. You do not employ the chef. Groceries at receipts. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"
         hideSiteName
@@ -235,10 +235,10 @@ export default function FullTimePrivateChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fp-hero-h1">
-            Full-Time Private Chef Dubai: Live-In & Live-Out Chefs
+            Full Time Private Chef Dubai: most days, without employing anyone
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fp-hero-sub">
-            A dedicated chef for your household, matched to your family's tastes, schedule, and dietary needs. Vetted, experienced, and ready to move in.
+            A household chef Dubai plan for four, five or six days a week. The chef is employed by a licensed supplier. You buy the days. Groceries at receipts. VAT 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Get My Full-Time Chef Quote</Link>
@@ -260,25 +260,19 @@ export default function FullTimePrivateChef() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">RESIDENTIAL CHEF PLACEMENT</SectionLabel>
+          <SectionLabel align="center">MOST DAYS, NOT ON PAYROLL</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Chef Who Becomes Part of Your Home
+            Full time private chef Dubai is days of cooking, not a person on payroll
           </h2>
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us your household size, cuisine preferences and schedule, and we come back with the match, the start date and the monthly figure in writing before anything begins.
+              Hire a full time chef Dubai when most dinners need covering. We do not place live-in staff. A licensed supplier employs the chef. You buy four, five or six days a week. Full time private chef cost Dubai is the visit rate times the days, groceries at receipts, VAT at 5%.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A household chef Dubai is a standing cook for the people who live there. A private chef for family meals, or a monthly private chef Dubai on a set number of days, is that same match with a different calendar. Hire a full time chef Dubai when most dinners need covering; a part time chef Dubai is the lighter version of the same brief.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.
+              A household chef Dubai is a standing cook for the people who live there. A private chef for family meals, or a monthly private chef Dubai on a set number of days, is that same match with a different calendar. A part time chef Dubai is the lighter version of this brief. Best time to hire caterers is a different search: one night is catering.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link>, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">on-demand private chef</Link> options, or see <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> for more flexibility.
+              See <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link>, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, or the parent <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link> page. Build the month on <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices</Link>.
             </p>
           </div>
         </div>
@@ -288,9 +282,9 @@ export default function FullTimePrivateChef() {
       <section className="fp-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
+            <SectionLabel align="center">WHAT THE DAYS COVER</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Complete Household Culinary Support
+              The kitchen, most days, with a system behind it
             </h2>
           </div>
 
@@ -313,9 +307,9 @@ export default function FullTimePrivateChef() {
       <section className="fp-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">RESIDENTIAL CHEF PACKAGES</SectionLabel>
+            <SectionLabel align="center" tone="dark">WORKED MONTHS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Choose Your Arrangement
+              Four, five or six days. Same price list.
             </h2>
           </div>
 
@@ -364,7 +358,7 @@ export default function FullTimePrivateChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Full Time Private Chef Dubai: the questions we get before a booking
+            Questions before a most-days household plan
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -375,7 +369,7 @@ export default function FullTimePrivateChef() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="fp-rel-grid grid md:grid-cols-3 gap-6">
@@ -410,10 +404,10 @@ export default function FullTimePrivateChef() {
         <div className="container-custom text-center fp-cta opacity-0 translate-y-8">
           <Home size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Find Your Household Chef
+            Build the most-days plan
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your household, schedule, and cuisine preferences. We will bring you a vetted full-time private chef who fits your home.
+            Days, meals, and the area. We match the chef, you approve the profile, and the month is in writing before anyone starts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Get My Full-Time Chef Quote</Link>

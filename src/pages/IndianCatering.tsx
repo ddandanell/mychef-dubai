@@ -39,31 +39,31 @@ const menuHighlights = [
   {
     icon: Soup,
     title: 'Biryani & Rice',
-    description: 'Slow-cooked Hyderabadi and Lucknowi biryanis layered with saffron, whole spices, and tender meats — alongside fragrant pulao and lemon rice for South Indian tables.',
+    description: 'Slow-cooked Hyderabadi and Lucknowi biryanis layered with saffron, whole spices, and tender meats, alongside fragrant pulao and lemon rice for South Indian tables.',
     link: '/catering-dubai',
   },
   {
     icon: Flame,
     title: 'Tandoor Live Stations',
-    description: 'A partner-chef-led clay-oven station searing kebabs, tikka, paneer, and fresh naan to order — theatre and aroma brought straight to your guests.',
+    description: 'A partner-chef-led clay-oven station searing kebabs, tikka, paneer, and fresh naan to order, theatre and aroma brought straight to your guests.',
     link: '/buffet-catering-dubai',
   },
   {
     icon: UtensilsCrossed,
     title: 'North Indian Curries',
-    description: 'Rich, layered gravies — butter chicken, rogan josh, dal makhani, and palak paneer — simmered the traditional way and balanced for every palate.',
+    description: 'Rich, layered gravies, butter chicken, rogan josh, dal makhani, and palak paneer, simmered the traditional way and balanced for every palate.',
     link: '/catering-dubai',
   },
   {
     icon: Leaf,
     title: 'Jain & Vegetarian',
-    description: 'Considered Jain, pure-vegetarian, and vegan menus — no onion or garlic on request — so every guest is catered for without compromise.',
+    description: 'Jain, pure-vegetarian and vegan lines written as first-class menus. No onion or garlic when you ask. Not a side plate.',
     link: '/catering-dubai',
   },
   {
     icon: Users,
     title: 'Street Food & Chaat',
-    description: 'Interactive chaat counters with pani puri, bhel, and tikki — playful, shareable bites that keep guests mingling at receptions and parties.',
+    description: 'Interactive chaat counters with pani puri, bhel, and tikki, playful, shareable bites that keep guests mingling at receptions and parties.',
     link: '/arabic-catering-dubai',
   },
 ]
@@ -75,7 +75,7 @@ const useCases = [
   },
   {
     title: 'Villa & Home Celebrations',
-    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, our chefs come to your villa fully equipped — cooking, serving, and clearing so you can host without lifting a finger.',
+    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, our chefs come to your villa fully equipped, cooking, serving, and clearing so you can host without lifting a finger.',
   },
   {
     title: 'Corporate & Cultural Events',
@@ -83,7 +83,7 @@ const useCases = [
   },
   {
     title: 'Intimate Dinners at Home',
-    description: 'For smaller gatherings, a private chef can prepare a curated regional tasting in your kitchen — perfect when you want depth of flavour without a full buffet.',
+    description: 'For smaller gatherings, a private chef can prepare a curated regional tasting in your kitchen, perfect when you want depth of flavour without a full buffet.',
   },
 ]
 
@@ -134,7 +134,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater both North and South Indian cuisine?',
-    a: 'Yes. We build menus across regions — from North Indian tandoor, biryani, and rich curries to South Indian dosa, idli, sambar, and coconut-based dishes. Many clients choose a blended spread so guests enjoy the best of both.',
+    a: 'Yes. We build menus across regions, from North Indian tandoor, biryani, and rich curries to South Indian dosa, idli, sambar, and coconut-based dishes. Many clients choose a blended spread so guests enjoy the best of both.',
   },
   {
     q: 'Can you provide Jain and pure-vegetarian menus?',
@@ -156,24 +156,24 @@ const faqs = [
     q: 'How far in advance should I book Indian catering?',
     a: 'For smaller gatherings, one to two weeks is ideal. For weddings and large functions, we recommend three to four weeks. During peak wedding and festival season, earlier booking is strongly advised.',
   },
-  { q: "How much does Indian catering in Dubai cost per person?", a: "Indian catering in Dubai is priced by custom quote, because the per-head cost depends on your menu, guest count, and whether you add live tandoor or chaat stations. Buffet-style spreads are the most economical, while plated multi-course dinners and premium dishes like Hyderabadi biryani or lamb rogan josh sit higher. Share your date and numbers and we'll send a clear, itemised proposal — usually within 15 minutes during business hours." },
+  { q: "How much does Indian catering in Dubai cost per person?", a: "Indian catering in Dubai is priced by custom quote, because the per-head cost depends on your menu, guest count, and whether you add live tandoor or chaat stations. Buffet-style spreads are the most economical, while plated multi-course dinners and premium dishes like Hyderabadi biryani or lamb rogan josh sit higher. Share your date and numbers and we'll send a clear, itemised proposal, during business hours." },
   { q: "What's included in the price of your Indian catering?", a: "Every quote covers menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. Live tandoor and chaat counters, warmers, buffet styling, and coordination are built in, so there are no surprise add-ons. See exactly what a booking includes on our [how it works](/how-it-works) page." },
-  { q: "Are there any hidden charges like VAT or service fees?", a: "No hidden charges — your proposal itemises everything, and the only statutory addition is 5% VAT as required in the UAE. Optional extras like additional serving staff or specialty live stations are quoted transparently up front so you can decide what to include. You approve the full menu and price before anything is confirmed." },
+  { q: "Are there any hidden charges like VAT or service fees?", a: "No hidden charges, your proposal itemises everything, and the only statutory addition is 5% VAT as required in the UAE. Optional extras like additional serving staff or specialty live stations are quoted transparently up front so you can decide what to include. You approve the full menu and price before anything is confirmed." },
   { q: "Do you have a minimum number of guests for Indian catering?", a: "We cater Indian menus for a wide range of gatherings, from an intimate villa dinner to a wedding banquet for several hundred. For very small groups a private chef preparing a regional tasting in your kitchen is often the better fit, while buffets and live stations suit larger celebrations. Tell us your headcount and we'll recommend the right format." },
-  { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes — our chefs and kitchens operate to Dubai Municipality food-safety standards, with proper hygiene and temperature control from prep through to serving. This matters especially for large Indian spreads with rich gravies and dairy-based dishes that need careful handling on the day. You can read more about our team and standards on our [about](/about) page." },
+  { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, with proper hygiene and temperature control from prep through to serving. This matters especially for large Indian spreads with rich gravies and dairy-based dishes that need careful handling on the day. You can read more about our team and standards on our [about](/about) page." },
   { q: "Can I taste the food before booking a large event?", a: "Yes, tasting sessions can be arranged for larger events such as weddings and corporate functions so you can confirm dishes, spice levels, and portion sizes before you commit. It's a good chance to fine-tune your menu across starters, mains, breads, and sweets. Ask about a tasting menu when you request your proposal." },
   { q: "Do you provide waiters and serving staff for Indian events?", a: "Yes, professional serving staff and waiters are available for buffets, plated dinners, and live-station setups. Staffing is optional and scaled to your guest count and service style, so a relaxed villa buffet can run lighter while a formal reception gets full front-of-house support. We'll suggest the right number of staff for a smooth service." },
-  { q: "Can you cater a fully Jain menu with no onion or garlic?", a: "Yes — we prepare complete Jain menus with no onion, no garlic, and no root vegetables, cooked as a full spread rather than a stripped-back version. Pure-vegetarian, satvik, and vegan dishes are handled with the same care, and veg and non-veg are kept separate during preparation. Explore our dedicated Jain catering options for festivals and family gatherings." },
+  { q: "Can you cater a fully Jain menu with no onion or garlic?", a: "Yes, we prepare complete Jain menus with no onion, no garlic, and no root vegetables, cooked as a full spread rather than a stripped-back version. Pure-vegetarian, satvik, and vegan dishes are handled with the same care, and veg and non-veg are kept separate during preparation. Explore our dedicated Jain catering options for festivals and family gatherings." },
   { q: "Do you cater Indian food at home villas and apartments across Dubai?", a: "Yes, our chefs come fully equipped to villas, apartments, and private residences across Dubai and cook, serve, and clear on-site. For a Diwali dinner, a birthday, or a family celebration, we bring the tandoor, chaat counter, and buffet to you so you can host without lifting a finger. We cater in [villas and private residences](/villas-private-residences) throughout the city." },
-  { q: "Can you handle Indian mithai, desserts, and a sweets table?", a: "Yes, we prepare traditional Indian sweets and mithai — from gulab jamun and jalebi to kheer and barfi — and can style a dedicated dessert or sweets table for weddings and festivals. Low-sugar and vegan dessert options are available on request so every guest is looked after. It pairs beautifully with a [dessert table](/dessert-table-catering-dubai) setup for larger celebrations." },
+  { q: "Can you handle Indian mithai, desserts, and a sweets table?", a: "Yes, we prepare traditional Indian sweets and mithai, from gulab jamun and jalebi to kheer and barfi, and can style a dedicated dessert or sweets table for weddings and festivals. Low-sugar and vegan dessert options are available on request so every guest is looked after. It pairs beautifully with a [dessert table](/dessert-table-catering-dubai) setup for larger celebrations." },
   { q: "Do you offer live chaat and street-food counters for parties?", a: "Yes, interactive chaat counters with pani puri, bhel, and tikki are among our most-booked party formats, cooked fresh in front of your guests. They keep people mingling and add real theatre to receptions, birthdays, and festival evenings alongside a live tandoor. See our full range of [live cooking stations](/live-cooking-stations-dubai) to build your spread." },
   { q: "How far in advance should I book Indian catering for a wedding?", a: "For a wedding or large function we recommend booking three to four weeks ahead, and earlier during peak season from November to March when dates fill quickly. Smaller villa dinners can often be arranged with one to two weeks' notice. The sooner you reach out, the more flexibility you have on menu, staffing, and live stations." },
   { q: "Can you cater a large Indian wedding for several hundred guests?", a: "Yes, we regularly build multi-course Indian menus for large weddings and sangeets, flowing from chaat counters to live tandoor stations and a sweeping main buffet. We scale kitchen capacity, staffing, and logistics to match your guest count without compromising on freshness or authenticity. Plan the full celebration through our [wedding catering](/wedding-catering-dubai) service." },
-  { q: "Is Indian catering cheaper as a buffet or a plated dinner?", a: "A buffet is generally the more economical choice because it needs less serving staff and lets guests help themselves, while plated and multi-course service costs more due to higher staffing. For weddings, many hosts combine both — live stations and a buffet for the crowd, with plated courses for a head table. We'll advise the best value format for your occasion and can compare a [buffet](/buffet-catering-dubai) against plated service in your quote." },
-  { q: "How do I get a quote and how quickly will you reply?", a: "Send us your event date, guest count, and any dietary needs and we'll reply with a tailored Indian catering proposal, typically within 15 minutes during business hours. There's no obligation — you review the menu and pricing before anything is confirmed. Start by reaching out through our [contact](/contact) page or WhatsApp." },
+  { q: "Is Indian catering cheaper as a buffet or a plated dinner?", a: "A buffet is generally the more economical choice because it needs less serving staff and lets guests help themselves, while plated and multi-course service costs more due to higher staffing. For weddings, many hosts combine both, live stations and a buffet for the crowd, with plated courses for a head table. We'll advise the best value format for your occasion and can compare a [buffet](/buffet-catering-dubai) against plated service in your quote." },
+  { q: "How do I get a quote and how quickly will you reply?", a: "Send us your event date, guest count, and any dietary needs and we'll reply with a tailored Indian catering proposal, during business hours. There's no obligation, you review the menu and pricing before anything is confirmed. Start by reaching out through our [contact](/contact) page or WhatsApp." },
   {
     q: 'How much Indian food cost in Dubai?',
-    a: 'There is no single number for how much Indian food cost in Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number for how much Indian food cost in Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal, food, chefs, staff, hire and 5% VAT shown separately, usually within a working day.',
   },
   {
     q: 'Is north Indian catering Dubai the same as Indian catering Dubai?',
@@ -184,7 +184,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
+    description: 'Drop-off, buffet, stations or a chef at the table. Food, service and pack-down at your address.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -298,10 +298,11 @@ export default function IndianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Indian Catering Dubai | Wedding, Party & Corporate"
-        description="Indian catering Dubai for weddings, parties, villas & corporate events. North & South Indian menus, live tandoor, biryani, halal & Jain options. Get a quote."
+        title="Indian Catering Dubai | myCHEF"
+        description="Indian Catering Dubai with a vetted myCHEF team. Regional kitchens, tandoor and chaat. Service and clear-down so you stay a guest at your table."
         canonicalPath="/indian-catering-dubai"
         ogImage="/menu-meat.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -326,10 +327,10 @@ export default function IndianCatering() {
             Indian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ind-hero-sub">
-            North and South Indian feasts, live tandoor and chaat stations, and considered Jain and vegetarian menus — authentic flavour brought to villas, weddings, and events across Dubai.
+            Indian Catering Dubai is region first: North Indian tandoor and biryani, South Indian dosa and coconut curries, chaat when the room wants a station. Vegetarian and Jain are first-class, not a side plate.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ind-hero-cta">Get My Indian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ind-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -349,16 +350,16 @@ export default function IndianCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">AUTHENTIC INDIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The Depth of Indian Cuisine, Done Properly
+            Region, tandoor and chaat. Then the rest of the table.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Indian food is built on layers — of spice, of region, of ritual. A great Indian menu is not a single cuisine but dozens, from the smoky tandoors and saffron biryanis of the north to the coconut curries, dosa, and tangy chutneys of the south. At myCHEF Dubai, we treat each menu as a journey across that map, cooking the way each dish is meant to be cooked and seasoning it with respect for tradition rather than shortcuts.
+            Indian Catering Dubai is not one gravy. North Indian tandoor, Hyderabadi biryani and slow curries sit beside South Indian dosa, sambar and coconut dishes. Vegetarian, vegan and Jain lines are written on the first draft, not converted at the pass. Halal meat is the default. Pork is not assumed.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, our chefs, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.
+            Partner chefs, including <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ahmed Al-Rashid</Link> when the match fits, cook at your address. Tandoor and chaat stations need outdoor room. Apartment balconies and yachts have fire limits. We check first. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Festival tables can use a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering</Link> brief.
           </p>
         </div>
       </section>
@@ -533,13 +534,13 @@ export default function IndianCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ind-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Indian Feast
+            Send the region and the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design an Indian menu that suits your guests, dietary needs, and the scale of your occasion.
+            Name North, South or mixed, and whether Jain or vegetarian lines apply. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Indian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

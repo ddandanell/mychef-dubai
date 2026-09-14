@@ -206,7 +206,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     guests: '2 guests',
     priceAed: 1200,
     perPerson: '600',
-    description: 'An intimate three-course private chef dinner for two, cooked and served at home.',
+    description: 'A three-course dinner for two, cooked in your kitchen, served at the table and cleared after.',
     included: 'A three-course menu for two, cooked in your kitchen, served at your table, and the kitchen left exactly as we found it.',
   },
   {
@@ -218,7 +218,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     guests: '6–8 guests',
     priceAed: 2400,
     perPerson: '300–400',
-    description: 'A relaxed sharing-style dinner built around family and friends at one table.',
+    description: 'Sharing plates for 6–8, with a chef and service staff so nobody leaves the table.',
     included: 'Generous sharing plates and premium ingredients, with a chef and service staff so nobody has to leave the table.',
   },
   {
@@ -230,7 +230,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     guests: '8–12 guests',
     priceAed: 3600,
     perPerson: '300–450',
-    description: 'A private chef birthday celebration for 8–12 guests, with a tailored menu, cake option and full service.',
+    description: 'A birthday sitting for 8–12: menu, cake option, chef and service staff.',
     included: 'Canapés or a starter, main course and dessert, with service staff looking after your guests all evening.',
   },
   {
@@ -242,7 +242,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     guests: '10–15 guests',
     priceAed: 4500,
     perPerson: '300–450',
-    description: 'Professional dinner catering for boardrooms and teams, sized for a smaller senior group.',
+    description: 'A boardroom or team dinner for 10–15 guests. Not a dinner cruise. VAT invoice.',
     included: 'A multi-course or buffet menu with service staff, presented to the standard the room expects.',
   },
   {

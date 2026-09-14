@@ -74,7 +74,7 @@ const whyJoin = [
   },
   {
     title: 'Real Credit Back',
-    description: 'Quarterly dining credits offset the membership cost — Lite members earn back AED 200/year, Premium members AED 600/year.',
+    description: 'Quarterly dining credits offset the membership cost: Lite members earn back AED 200/year, Premium members AED 600/year.',
   },
   {
     title: 'Concierge Line',
@@ -192,8 +192,8 @@ export default function MyChefMembership() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="myCHEF Membership Dubai | Priority Booking"
-        description="myCHEF Membership — Join myCHEF Dubai membership for priority booking, quarterly dining credits, member-only pricing, and concierge support. Plans start…"
+        title="myCHEF Membership | myCHEF"
+        description="myCHEF membership: Lite AED 99 a month, Premium AED 199. Priority booking and quarterly dining credits. The chef and the food are billed separately."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -220,7 +220,7 @@ export default function MyChefMembership() {
             myCHEF Membership
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 mem-hero-sub">
-            Priority booking, quarterly dining credits, member-only pricing, and a dedicated concierge line — designed for Dubai hosts who love great food without the friction.
+            Lite AED 99 a month. Premium AED 199. Priority booking and quarterly dining credits. The chef and the food are billed separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mem-hero-cta">Join MyChef Membership</Link>
@@ -242,19 +242,19 @@ export default function MyChefMembership() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">MEMBERSHIP PERKS</SectionLabel>
+          <SectionLabel align="center">AN ACCESS PASS, NOT A MEAL PLAN</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            More Value for Frequent Hosts
+            myCHEF membership sits beside the booking, not inside it
           </h2>
           <div className="mem-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us how often you host and what you value most, and we will recommend the right membership tier within one business day. myCHEF Membership is not a meal subscription — it is an access pass that unlocks priority dates, real dining credits, member pricing, and a direct concierge line.
+              Membership is billed monthly. It does not include the chef, the groceries or the event. Lite is AED 99 with AED 50 credit a quarter. Premium is AED 199 with AED 150 credit a quarter. Credits expire if unused in the quarter.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Whether you host monthly dinner parties, run a busy household with weekly meal prep, or simply want first access to seasonal menus and chef experiences, membership gives you a smoother, more rewarding way to dine.
+              If you host once a year, do not buy this. If you book often and want a priority window and a named WhatsApp line, it can pay for itself in credits. Cancel before the next billing date.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Compare with our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link> and <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link> programmes, or explore <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link> in Dubai.
+              Also see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, the <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
             </p>
           </div>
         </div>

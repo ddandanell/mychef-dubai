@@ -5,113 +5,113 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'beach-catering-dubai',
-  seoTitle: "Beach Catering Dubai | Seafood Menus",
+  seoTitle: 'Beach Catering Dubai | myCHEF',
   metaDescription:
-    'Beach catering in Dubai for private gatherings, beach clubs and shoreline events. Fresh seafood, grilled meats, salads and full service by the water.',
+    'Beach catering Dubai at a shoreline you have booked: seafood, grills, salads and staff. We cook at your venue. We do not own the beach. Itemised quote.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/beach-catering-dubai-hero.webp',
   breadcrumbLabel: 'Beach Catering Dubai',
-  h1: 'Beach Catering in Dubai',
+  h1: 'Beach Catering Dubai',
   heroSub:
-    'Fresh, coastal-inspired catering for Dubai beach clubs, private shoreline gatherings and sandy celebrations — seafood, grills, salads and chilled service by the water.',
+    'Beach catering Dubai at a private shoreline, club or beachfront villa you have access to. Seafood, grills and chilled service. We cook there. We do not own the beach.',
   heroImage: '/images/beach-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan beach catering in Dubai (via mychef.ae/beach-catering-dubai)",
   eyebrow: 'SHORELINE CATERING IN DUBAI',
-  introH2: 'Dining with Your Feet in the Sand',
+  introH2: 'Beach catering Dubai at a shoreline you control',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dubai’s coastline offers some of the most beautiful settings for a celebration — private beaches, beach clubs and shoreline villas where the water is the backdrop. Our beach catering is designed for the environment: fresh seafood, grilled meats, crisp salads and plenty of chilled refreshments, all served in a way that handles sand, breeze and sunshine with ease.
+        Beach catering Dubai is food and service at a beach, club or shoreline villa you have booked. Sand, wind and heat decide the menu more than a pretty plate. We bring chilled holding, covered stations and a team that can work outside. We do not own beaches, clubs or camps.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We work with beach clubs, private villa estates and event planners to deliver menus that feel relaxed but refined. Whether it is a family day, a brand activation or an intimate sunset dinner, we bring the service to the shore. Pair beach catering with our{' '}
+        A beach BBQ catering Dubai sitting starts from the published BBQ floor of AED 150 per person. Canapés from AED 150. A staffed buffet from AED 120. Drop-off from AED 90. All before 5% VAT. Permits for public sand sit with the host. Pair this with{' '}
         <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           yacht catering Dubai
         </Link>{' '}
-        for a full weekend of waterside dining, or explore{' '}
+        if the same weekend is on a boat you have chartered, or{' '}
         <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           BBQ catering Dubai
         </Link>{' '}
-        for live grilling on the sand.
+        when the grill is the centre of the afternoon.
       </p>
     </>
   ),
-  formatsH2: 'Beach Catering Formats',
+  formatsH2: 'Formats that hold up in sand and wind',
   formats: [
     {
       Icon: Utensils,
-      title: 'Beach Canapés & Platters',
-      description: 'Elegant passed canapés and sharing platters designed for sandy feet and casual mingling.',
+      title: 'Beach canapés and platters',
+      description: 'Passed bites and sharing platters that can be eaten without a full table setting.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Fish,
-      title: 'Fresh Seafood Stations',
-      description: 'Chilled seafood displays, grilled fish and shellfish prepared with coastal flavours and citrus.',
+      title: 'Fresh seafood stations',
+      description: 'Chilled displays and grilled fish, timed so seafood is not sitting in the heat.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
-      title: 'Coastal Salad & Grain Bars',
-      description: 'Cool, refreshing salads and grains that hold up beautifully in beach temperatures.',
+      title: 'Coastal salad and grain bars',
+      description: 'Salads and grains that hold in warm weather, replenished rather than left to wilt.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Sun,
-      title: 'Sunset Beach BBQ',
-      description: 'Live grills on the sand at golden hour — meats, seafood and vegetables with smoky, beachside flavour.',
+      title: 'Sunset beach BBQ',
+      description: 'Portable grills for meats, seafood and vegetables, planned around smoke, wind and holding.',
       link: '/bbq-catering-dubai',
     },
     {
       Icon: Umbrella,
-      title: 'Beach Club Catering',
-      description: 'fully-coordinated catering coordination for Dubai beach clubs, cabanas and waterfront venues.',
+      title: 'Beach club catering',
+      description: 'Cooking and service at a club you have booked. Their rules, our kitchen team.',
       link: '/events',
     },
     {
       Icon: Home,
-      title: 'Private Beach Villas',
-      description: 'Bespoke beachfront dining at private villas and estates along Dubai’s coastline.',
+      title: 'Private beach villas',
+      description: 'A shoreline villa dinner: kitchen access, outdoor power and where the team unloads, written into the brief.',
       link: '/villas-private-residences',
     },
   ],
   useCasesEyebrow: 'WHERE BEACH CATERING WORKS',
-  useCasesH2: 'From Casual Days to Sunset Dinners',
+  useCasesH2: 'Family days, sunset dinners, club weekends',
   useCases: [
     {
-      title: 'Family Beach Days',
+      title: 'Family beach days',
       description:
-        'Keep the whole family fed with a mix of adult and child-friendly dishes, from grilled chicken and salads to fruit skewers and cookies.',
+        'Adult food and a simpler plate for children, with fruit and drinks that can be carried to a towel.',
     },
     {
-      title: 'Sunset Brand Activations',
+      title: 'Sunset brand activations',
       description:
-        'Beach activations need food that photographs well and tastes better. Our coastal menus and styled stations create shareable moments for guests and social media.',
+        'Food that can be eaten standing, labelled, and timed to a run-of-show. Photography is a by-product, not the brief.',
     },
     {
-      title: 'Intimate Shoreline Dinners',
+      title: 'Intimate shoreline dinners',
       description:
-        'For proposals, anniversaries or small celebrations, a private beach dinner with candles, grilled seafood and attentive service is hard to beat.',
+        'A small table at a villa beach you control. Two covers marking a year belong on a romantic dinner page, not here.',
     },
     {
-      title: 'Beach Club Weekends',
+      title: 'Beach club weekends',
       description:
-        'Dubai beach clubs rely on fast, consistent, beautiful food service. We coordinate with venue teams to deliver menus that match the club’s pace and style.',
+        'We work to the club’s access, power and pack-down rules. The club remains the venue owner.',
     },
   ],
-  includedH2: "What's Included in Our Beach Catering",
+  includedH2: 'What a staffed beach sitting includes',
   includedItems: [
-    { title: 'Coastal Menu Design', description: 'Menus built around seafood, grills, citrus and fresh produce.' },
-    { title: 'Chilled Service Equipment', description: 'Ice baths, covered stations and temperature control for beach conditions.' },
-    { title: 'Live Grilling Options', description: 'Beach BBQ stations with chefs grilling meats, fish and vegetables to order.' },
-    { title: 'Hydrating Drinks', description: 'Mocktails, infused waters and chilled juices to keep guests refreshed.' },
-    { title: 'Sturdy Beach Setup', description: 'Weighted, wind-resistant serving stations and tableware suitable for sand.' },
-    { title: 'Seafood Sourcing', description: 'Fresh, responsibly sourced seafood prepared simply and elegantly.' },
-    { title: 'On-Site Service Team', description: 'Experienced outdoor service staff who handle beach logistics smoothly.' },
-    { title: 'Pack-Down & Clearance', description: 'We leave the beach area clean and tidy after service.' },
+    { title: 'Menu written for the shore', description: 'Seafood, grills and cold dishes chosen because they hold outside.' },
+    { title: 'Chilled holding', description: 'Ice, covered stations and timed replenishment so salads and seafood stay safe.' },
+    { title: 'Live grilling', description: 'Portable BBQ when the brief needs cooking in front of guests.' },
+    { title: 'Drinks', description: 'Mocktails, infused water and chilled juices. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Kit that works on sand', description: 'Weighted stations and serveware that does not blow into the water.' },
+    { title: 'Seafood sourcing', description: 'Fresh fish and shellfish, handled to Dubai Municipality food-safety standards by licensed partners.' },
+    { title: 'Outdoor service team', description: 'Staff who can work heat, wind and a changing headcount.' },
+    { title: 'Pack-down', description: 'The sand or terrace is left tidy. Public-beach rules still sit with the host.' },
   ],
-  galleryH2: 'A Taste of Our Beach Catering',
+  galleryH2: 'How beach catering looks in Dubai',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Beach appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Beach canapé selection' },
@@ -120,56 +120,56 @@ const config: OccasionPageConfig = {
     { src: '/service-villa.webp', alt: 'Beach villa dinner styling' },
     { src: '/service-events.webp', alt: 'Beach event catering in Dubai' },
   ],
-  faqsH2: 'Beach Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'Can you cater on any Dubai beach?',
-      a: 'we coordinate catering at private beaches, beach clubs and villa beachfronts. Public beach events may require permits; we can advise on requirements once we know your location.',
+      a: 'We cook at private beaches, beach clubs and villa beachfronts you have access to. Public beach events may need permits. Those sit with the host. We can flag what we need to know once we have the location.',
     },
     {
       q: 'How do you keep food fresh on the beach?',
-      a: 'We use chilled transport, ice baths, covered serving stations and strict timing so seafood, salads and drinks stay fresh and safe throughout the event.',
+      a: 'Chilled transport, ice baths, covered stations and timed replenishment. Seafood and salads are not left on an open table in midday sun.',
     },
     {
       q: 'Do you offer beach BBQs?',
-      a: 'Yes. Live beach BBQs are one of our most popular formats — chefs grill meats, seafood and vegetables on portable equipment right on the sand.',
+      a: 'Yes. Chefs grill on portable kit at the site you have booked. BBQ catering starts from AED 150 per person before 5% VAT, subject to guest count and access.',
     },
     {
       q: 'Can you provide tableware that works on sand?',
-      a: 'Yes. We use sturdy, wind-resistant serveware and can provide casual tableware that feels appropriate for a beach setting while still looking polished.',
+      a: 'Yes. We bring kit that can take wind and wet feet. Fine china on open sand is usually the wrong brief.',
     },
     {
       q: 'What happens if the weather changes?',
-      a: 'We plan for Dubai’s weather with covered stations, backup service timing and contingency structures where possible. Communication on the day ensures we adapt smoothly.',
+      a: 'Covered stations and a backup running order are planned in the proposal. On the day we follow the host’s call on whether the sitting stays outside.',
     },
     {
       q: 'How far in advance should I book beach catering?',
-      a: 'Two to four weeks is recommended, especially for seafood-heavy menus or beach club coordination. For private villa beaches, we can sometimes accommodate shorter notice.',
+      a: 'Two to four weeks is the usual window, longer if seafood is the centre of the menu or a club has to approve access.',
     },
   ],
   relatedServices: [
     {
       title: 'Yacht Catering',
-      description: 'Waterside dining for yachts and marina events across Dubai.',
+      description: 'Galley-friendly menus on a yacht you have chartered. We do not own the boat.',
       image: '/images/yacht-catering-dubai-hero.webp',
       link: '/yachts',
     },
     {
       title: 'BBQ Catering',
-      description: 'Live grilling stations ideal for beach and garden settings.',
+      description: 'Live grilling for a garden, terrace or shoreline you control.',
       image: '/images/bbq-catering-dubai-hero.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Event Catering',
-      description: 'fully-coordinated catering for celebrations of any size and venue.',
+      description: 'The occasion hub when the night is still unnamed.',
       image: '/service-events.webp',
       link: '/events',
     },
   ],
-  ctaH2: 'Plan Your Beach Celebration',
+  ctaH2: 'Send the shoreline, date and guest count',
   ctaP:
-    'Tell us about your beach, guest count and vision. We will create a fresh, coastal menu that makes the most of Dubai’s beautiful shoreline.',
+    'Tell us the address or club, how many people and whether you need a grill. We send an itemised proposal. We cook at your venue.',
   showTrustSignalStrip: true,
 }
 

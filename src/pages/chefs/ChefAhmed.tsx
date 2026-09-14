@@ -9,13 +9,13 @@ import ChefProfile, { type ChefProfileData } from './ChefProfile'
 const chef: ChefProfileData = {
   slug: '/chefs/ahmed-executive-chef',
   name: 'Ahmed Al-Rashid',
-  title: 'Executive Chef',
+  title: 'Independent partner chef',
   partnerLabel: 'Partner chef · employed by a licensed supplier',
-  experience: '18+ Years',
-  cuisine: 'Modern European & Fine Dining',
+  experience: '',
+  cuisine: 'Modern European and French technique',
   image: '/team-head-chef.webp',
   imageAlt: 'Chef Ahmed Al-Rashid, independent partner chef in the myCHEF Dubai network',
-  bio: 'Ahmed Al-Rashid is an independent partner chef in the myCHEF Dubai network, with nearly two decades of experience shaping luxury dining across Dubai, London, and Paris. Trained in classical French technique, he refined his craft in acclaimed fine-dining kitchens before returning to the UAE, where he is matched to myCHEF experiences at high-end villas, yachts, and corporate events. His philosophy is simple: the best ingredients, treated with precision, should tell a story on every plate. Ahmed designs each menu as a personal collaboration with the host, balancing elegant presentation with the warmth of genuine hospitality. From intimate anniversary dinners to multi-course gala receptions, he ensures every course is timed, seasoned, and served to exacting standards. His calm kitchen leadership and obsessive attention to detail have made him the chef of choice for clients who expect nothing less than restaurant-quality dining in their own space.',
+  bio: 'Ahmed Al-Rashid is an independent partner chef in the myCHEF Dubai network. Classical French technique, cooked in Dubai homes, villas and yachts, and on corporate dinners when the brief is plated. He writes the menu with the host: what this table eats, how the courses should land, and how the kitchen is left. Anniversary dinners, villa celebrations and boardroom lunches are the usual nights. You approve the profile before anyone starts. We do not publish years of experience.',
   specialties: [
     'French Technique',
     'Menu Design',
@@ -26,7 +26,7 @@ const chef: ChefProfileData = {
   sampleMenus: [
     {
       title: 'Modern European Tasting',
-      description: 'A refined seven-course journey built around seasonal produce and premium proteins.',
+      description: 'Seven courses built around seasonal produce and the proteins this table asked for.',
       items: [
         'Amuse-bouche of chilled cucumber and yuzu',
         'Seared scallop with cauliflower purée',

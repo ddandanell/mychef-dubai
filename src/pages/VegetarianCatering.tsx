@@ -40,13 +40,13 @@ const vegFormats = [
   {
     icon: Soup,
     title: 'Indian & Jain Vegetarian',
-    description: 'Rich, aromatic vegetarian Indian menus, including Jain-friendly options prepared without onion and garlic, from curries and dals to dosa and chaat.',
+    description: 'Indian vegetarian menus, including a Jain line without onion and garlic when you ask. Curries, dals, dosa and chaat as first-class dishes, not a side.',
     link: '/indian-catering-dubai',
   },
   {
     icon: Salad,
     title: 'Mezze & Mediterranean',
-    description: 'Generous spreads of hummus, moutabel, falafel, vine leaves, fattoush, and warm breads — a vegetarian table built for sharing and grazing.',
+    description: 'Hummus, moutabal, falafel, vine leaves, fattoush and warm breads as a sharing table. Levantine mezze in more depth sits on Arabic catering.',
     link: '/catering-dubai',
   },
   {
@@ -58,13 +58,13 @@ const vegFormats = [
   {
     icon: Flame,
     title: 'Vegetarian Live Stations',
-    description: 'Interactive stations — pasta, dosa, stir-fry, or grill — prepared fresh in front of your guests for a touch of theatre.',
+    description: 'Pasta, dosa, stir-fry or grill stations cooked in front of guests. Fire still has to match the space. We check first.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Home,
     title: 'Villa & Garden Menus',
-    description: 'fully-coordinated catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'Villa dinners and garden tables. Partner chefs cook on site, serve, and pack down. We are not the venue.',
     link: '/catering-dubai',
   },
   {
@@ -141,7 +141,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What styles of vegetarian food do you cater?',
-    a: 'We span a wide range — Indian and Jain vegetarian, Mediterranean and Levantine mezze, modern salads and grain bowls, and live vegetarian stations. We can build a single-cuisine menu or a global spread, depending on your guests and occasion.',
+    a: 'We span a wide range, Indian and Jain vegetarian, Mediterranean and Levantine mezze, modern salads and grain bowls, and live vegetarian stations. We can build a single-cuisine menu or a global spread, depending on your guests and occasion.',
   },
   {
     q: 'Can you prepare Jain food without onion and garlic?',
@@ -157,7 +157,7 @@ const faqs = [
   },
   {
     q: 'Can you provide live vegetarian cooking stations?',
-    a: 'Absolutely. Pasta, dosa, stir-fry, and grill stations can be set up to cook fresh in front of your guests, adding a sense of theatre and keeping the food at its best throughout the event.',
+    a: 'Yes. Pasta, dosa, stir-fry and grill stations cook in front of guests when the space allows. Apartment balconies and yachts have fire limits. We check first.',
   },
   {
     q: 'How far in advance should I book vegetarian catering?',
@@ -276,10 +276,11 @@ export default function VegetarianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegetarian Catering Dubai | Indian & Mediterranean"
-        description="Vegetarian catering Dubai for weddings, villas & corporate events. Indian, Mediterranean & global plant-based menus. Quote in ~15 mins."
+        title="Vegetarian Catering Dubai | myCHEF"
+        description="Vegetarian Catering Dubai with a vetted myCHEF team. Menus, service and clear-down so you stay a guest at your own table."
         canonicalPath="/vegetarian-catering-dubai"
         ogImage="/menu-appetizer.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -304,10 +305,10 @@ export default function VegetarianCatering() {
             Vegetarian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 veg-hero-sub">
-            Global vegetarian menus — Indian and Jain, Mediterranean mezze, garden salads, and live stations — for inclusive, generous celebrations across Dubai.
+            Vegetarian Catering Dubai is a full table without meat or fish. Dairy and eggs stay on unless you remove them. Jain is a tighter brief. We cook at your address.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 veg-hero-cta">Get My Vegetarian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 veg-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -327,16 +328,16 @@ export default function VegetarianCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">VEGETARIAN DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A World of Vegetarian Flavour
+            Meat off. Dairy on, unless you say otherwise.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Vegetarian food is some of the most varied and characterful cooking in the world. From the spice and depth of Indian and Jain kitchens to the bright, shareable abundance of a Mediterranean mezze, there is no shortage of colour, texture, or generosity when meat is left off the plate. At myCHEF Dubai, we draw on that breadth to build vegetarian menus that feel complete and celebratory, never like a compromise.
+            Vegetarian Catering Dubai is Indian, mezze and modern vegetable cooking written as the main event. Eggs and dairy stay on unless the brief removes them. Jain food rules are tighter: no onion, no garlic, no roots. That belongs on the Jain page if the whole table follows it. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a festival or family gathering, a mezze-style reception, a villa dinner, or an inclusive corporate lunch, our chefs design and serves a menu suited to your guests — including Jain-friendly dishes without onion and garlic. For a fully plant-based version, see our <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link> menus. Explore our vegetarian formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            For no animal products at all, see <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link>. For no onion or garlic, see <Link to="/jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain catering Dubai</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -347,7 +348,7 @@ export default function VegetarianCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">VEGETARIAN FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Vegetarian for Every Occasion
+              Formats for a meat-free table
             </h2>
           </div>
 
@@ -381,7 +382,7 @@ export default function VegetarianCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE VEGETARIAN SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Moment
+              Festivals, villas and office lunches
             </h2>
           </div>
 
@@ -400,7 +401,7 @@ export default function VegetarianCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Vegetarian Catering Includes
+            What a vegetarian booking actually covers
           </h2>
 
           <div className="veg-inc-grid grid md:grid-cols-2 gap-6">
@@ -421,7 +422,7 @@ export default function VegetarianCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Vegetarian Catering
+            What vegetarian service looks like
           </h2>
 
           <div className="veg-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -511,13 +512,13 @@ export default function VegetarianCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center veg-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Design Your Vegetarian Menu
+            Send the vegetarian brief with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll create a vegetarian menu — global or single-cuisine, Jain-friendly if needed — that delights every guest at your table.
+            Name Indian, mezze or mixed, and whether Jain rules apply. We put dietary notes on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Vegetarian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

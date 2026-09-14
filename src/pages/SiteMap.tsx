@@ -21,7 +21,7 @@ export default function SiteMap() {
       <PageHero
         eyebrow="Navigation"
         title="Site Map"
-        subtitle="Every page on myCHEF Dubai, organized by topic."
+        subtitle="Every page on myCHEF Dubai, organised by topic."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Site Map' }]}
         minHeight="short"
       />

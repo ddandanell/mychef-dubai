@@ -47,7 +47,7 @@ export default function PartnerPageTemplate({
   ogImage,
   headline,
   eyebrow = 'PARTNERSHIP',
-  subheadline = 'Partner with myCHEF Dubai to offer your clients premium private chef and catering experiences.',
+  subheadline = 'You keep the client. We run the kitchen. Terms in writing before the first introduction.',
   intro,
   valueProposition,
   benefits,

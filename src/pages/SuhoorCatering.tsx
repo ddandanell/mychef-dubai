@@ -33,69 +33,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const suhoorFormats = [
   {
     icon: Sunrise,
-    title: 'Pre-Dawn Suhoor Menus',
-    description: 'Sustaining late-night menus designed for the hours before Fajr — slow-release dishes, hydrating sides, and comforting flavours to carry guests through the fasting day.',
+    title: 'Pre-dawn suhoor menus',
+    description: 'Food for the hours before Fajr: dishes that hold, hydrating sides, served quietly.',
     link: '/ramadan-catering-dubai',
   },
   {
     icon: Home,
-    title: 'Home & Majlis Suhoor',
-    description: 'Intimate suhoor gatherings in your home or majlis, with on-site cooking and quiet, attentive service into the early hours so you can host without interruption.',
+    title: 'Home and majlis suhoor',
+    description: 'On-site cooking in your home or majlis. Quiet service. You host.',
     link: '/catering-dubai',
   },
   {
     icon: Building,
-    title: 'Corporate Suhoor',
-    description: 'Late-night suhoor functions for teams, clients, and night-shift offices across Dubai — buffet stations or plated service, fully coordinated around your schedule.',
+    title: 'Corporate suhoor',
+    description: 'A late sitting for a team or night shift: buffet or plated, timed to your hours.',
     link: '/corporate',
   },
   {
     icon: Coffee,
-    title: 'Light Savoury & Pastries',
-    description: 'Lighter suhoor spreads of savoury pastries, eggs, labneh, and fresh fruit for guests who prefer to keep the pre-dawn meal simple and easy to digest.',
+    title: 'Light savoury and pastries',
+    description: 'Pastries, eggs, labneh and fruit when the table wants a lighter pre-dawn meal.',
     link: '/arabic-catering-dubai',
   },
   {
     icon: Moon,
-    title: 'Hot Comfort Dishes',
-    description: 'Warming, slow-cooked plates — foul, shakshuka, grilled proteins, and traditional mains — for a hearty suhoor that holds well through the fast.',
+    title: 'Hot dishes',
+    description: 'Foul, shakshuka, grills and slow-cooked plates when the table wants more.',
     link: '/arabic-catering-dubai',
   },
   {
     icon: Home,
-    title: 'Villa Suhoor Service',
-    description: 'fully-coordinated catering for villa gatherings across Dubai, with setup, cooking, service, and pack-down handled quietly so the night runs smoothly.',
+    title: 'Villa suhoor service',
+    description: 'Setup, cooking, service and pack-down at a villa you control, kept quiet.',
     link: '/catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Pre-Dawn Suhoor Menus', description: 'Sustaining menus built for the hours before Fajr, balanced to hold through the fast.' },
-  { title: 'Hot & Cold Options', description: 'Warming comfort dishes alongside lighter savoury plates, pastries, and fresh fruit.' },
-  { title: 'Halal Ingredients', description: 'Every dish is prepared with halal ingredients sourced from trusted suppliers.' },
-  { title: 'Hydrating Sides & Drinks', description: 'Laban, fresh juices, and hydrating accompaniments to support the fasting day ahead.' },
-  { title: 'Quiet Late-Night Service', description: 'Discreet, attentive staff who serve calmly into the early hours.' },
-  { title: 'Buffet & Plated Service', description: 'Buffet stations, family-style platters, or plated service to suit your gathering.' },
-  { title: 'Timing Around Fajr', description: 'Service planned so the meal is ready and cleared before the call to Fajr.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so you can simply host.' },
+  { title: 'Pre-dawn menus', description: 'Written for the hours before Fajr, not copied from an iftar buffet.' },
+  { title: 'Hot and cold options', description: 'Pastries and fruit, or foul, shakshuka and grills, as the table wants.' },
+  { title: 'Halal ingredients', description: 'Halal sourcing is the default.' },
+  { title: 'Drinks', description: 'Laban, juice and water, named in the draft.' },
+  { title: 'Quiet service', description: 'Staff who can work early hours without turning it into a party.' },
+  { title: 'Buffet or plated', description: 'A maintained spread or plates, sized to the room.' },
+  { title: 'Timing around Fajr', description: 'Ready late, cleared before the call to prayer.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and leave the kitchen as we found it.' },
 ]
 
 const useCases = [
   {
-    title: 'Home & Majlis Suhoor',
-    description: 'For family and majlis suhoor, we bring sustaining late-night spreads to your home, cooking and serving on-site with quiet, attentive staff so you can gather before Fajr without managing the kitchen yourself.',
+    title: 'Home and majlis suhoor',
+    description: 'Family suhoor at your address. You gather. We cook and clear before Fajr.',
   },
   {
-    title: 'Corporate & Night-Shift Suhoor',
-    description: 'For teams, clients, and night-shift offices across Dubai, we plan corporate suhoor functions with buffet stations or plated service, fully coordinated around your hours, pairing naturally with our wider corporate catering.',
+    title: 'Corporate and night-shift suhoor',
+    description: 'A team sitting timed to night hours. Buffet or plated, then pack-down.',
   },
   {
-    title: 'Light Pre-Dawn Spreads',
-    description: 'For guests who prefer to keep suhoor simple, we design lighter spreads of savoury pastries, eggs, labneh, and fresh fruit — easy to digest and gentle, yet still balanced enough to carry the fasting day.',
+    title: 'Light pre-dawn spreads',
+    description: 'Pastries, eggs, labneh and fruit when the table does not want a heavy plate.',
   },
   {
-    title: 'Hearty Comfort Suhoor',
-    description: 'For a more substantial pre-dawn meal, warming dishes such as foul, shakshuka, and grilled proteins anchor the table, drawing on our Arabic catering to keep guests sustained well into the morning.',
+    title: 'Heartier suhoor',
+    description: 'Foul, shakshuka and grills when the table wants more. Drawn from Arabic catering when that kitchen is the right match.',
   },
 ]
 
@@ -135,46 +135,46 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What is suhoor catering?',
-    a: 'Suhoor catering is the pre-dawn meal eaten before Fajr during Ramadan, prepared and served to your gathering. We design late-night menus that are sustaining and balanced, so guests are nourished and ready for the fasting day ahead, with quiet service into the early hours.',
+    a: 'Suhoor catering Dubai is the pre-dawn meal before Fajr, cooked and served at your address. It is quieter than iftar. This URL redirects into the Ramadan hub, which owns the month.',
   },
   {
     q: 'Do you offer light and hearty suhoor options?',
-    a: 'Both. Some guests prefer a light pre-dawn meal of savoury pastries, eggs, labneh, and fresh fruit, while others want hearty comfort dishes like foul, shakshuka, and grilled proteins. We can build either, or combine the two across one table.',
+    a: 'Yes. Pastries, eggs, labneh and fruit, or foul, shakshuka and grills. The table can hold both, labelled.',
   },
   {
     q: 'Is your suhoor catering halal?',
-    a: 'Always. Every dish across our suhoor and Ramadan menus is prepared with halal ingredients sourced from trusted suppliers. This is our standard throughout the holy month and the rest of the year.',
+    a: 'Yes. Halal sourcing is the default.',
   },
   {
     q: 'Can you cater corporate and night-shift suhoor?',
-    a: 'Yes. For teams, clients, and night-shift offices across Dubai, we plan corporate suhoor functions with buffet stations or plated service, fully coordinated around your hours so the meal is ready when your people need it.',
+    a: 'Yes. Buffet or plated, timed to the hours you give us.',
   },
   {
     q: 'How is suhoor service timed?',
-    a: 'We plan service so the meal is ready in the late-night hours and cleared before the call to Fajr. our service team work quietly and attentively, keeping the table replenished without disrupting the calm of the gathering.',
+    a: 'Ready in the late hours, cleared before Fajr. Staff work quietly.',
   },
   {
     q: 'How far in advance should I book suhoor catering?',
-    a: 'Ramadan is our busiest season, so we recommend booking six to eight weeks ahead to secure your preferred dates. Late-night service in particular requires careful scheduling, and earlier booking gives us the most time to tailor your menu.',
+    a: 'Six to eight weeks is the usual window. Late-night staffing books earlier.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Ramadan Catering',
-    description: 'The full Ramadan hub — iftar, suhoor, corporate, and villa gatherings across Dubai.',
+    description: 'The month this suhoor sitting belongs to.',
     image: '/service-events.webp',
     link: '/ramadan-catering-dubai',
   },
   {
     title: 'Iftar Catering',
-    description: 'Generous iftar spreads to break the fast — dates, soups, grills, and Arabic mains.',
+    description: 'The Maghrib sitting, if that is the brief instead.',
     image: '/menu-meat.webp',
     link: '/iftar-catering-dubai',
   },
   {
     title: 'Arabic Catering',
-    description: 'Authentic Arabic menus — mezze, grills, and slow-cooked classics for any gathering.',
+    description: 'Year-round Arabic menus, when the date is not Ramadan.',
     image: '/menu-appetizer.webp',
     link: '/arabic-catering-dubai',
   },
@@ -285,8 +285,8 @@ export default function SuhoorCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Suhoor Catering Dubai | Pre-Dawn Ramadan Menus | myCHEF"
-        description="Book Suhoor catering in Dubai. Halal pre-dawn menus, light and hearty options, home, majlis and corporate service. Get a tailored quote in 15 minutes."
+        title="Suhoor Catering Dubai | myCHEF"
+        description="Suhoor catering Dubai before Fajr at your home, majlis or office. Halal menus, quiet service. Quoted on the Ramadan hub. Itemised quote."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/menu-appetizer.webp"
         hideSiteName
@@ -311,10 +311,10 @@ export default function SuhoorCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 suh-hero-h1">
-            Suhoor Catering Dubai: Pre-Dawn Ramadan Menus
+            Suhoor Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 suh-hero-sub">
-            Halal pre-dawn suhoor menus for home, majlis, and corporate gatherings across Dubai — light or hearty, sustaining, and served quietly into the early hours before Fajr.
+            Suhoor catering Dubai is the pre-dawn sitting before Fajr, at your home, majlis or office. Halal menus, quiet service, then pack-down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 suh-hero-cta">Get a Suhoor Quote</Link>
@@ -338,13 +338,13 @@ export default function SuhoorCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE PRE-DAWN MEAL IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Sustaining Suhoor, Served with Calm
+            Suhoor catering Dubai, before Fajr
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Suhoor is the quiet meal of Ramadan — eaten before Fajr to carry you through the fasting day. At myCHEF Dubai, we bring that pre-dawn moment the same care we give any gathering, designing halal menus that are balanced, sustaining, and easy on the early-morning appetite. From light savoury pastries and labneh to warming dishes of foul, shakshuka, and grilled proteins, we build the suhoor your guests will actually want at that hour.
+            Suhoor catering Dubai is the pre-dawn meal at your home, majlis or office. Halal menus. Pastries and labneh, or foul, shakshuka and grills. We cook there. Service stays quiet. This URL redirects into Ramadan catering, which owns the month.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family suhoor at home, a majlis gathering, or a late-night function for your team, chefs in our network cook on-site and our service team serve quietly into the early hours. Suhoor sits within our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, alongside <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus — and slots naturally into our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            A staffed buffet starts from AED 120 per person. Drop-off from AED 90. All before 5% VAT. Book through <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>. Iftar is a different sitting on <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link>. Year-round dishes sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> and <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Book six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -389,7 +389,7 @@ export default function SuhoorCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Occasion
+              Home, majlis, night shift
             </h2>
           </div>
 
@@ -408,7 +408,7 @@ export default function SuhoorCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Suhoor Catering Includes
+            What a staffed suhoor sitting includes
           </h2>
 
           <div className="suh-inc-grid grid md:grid-cols-2 gap-6">
@@ -429,7 +429,7 @@ export default function SuhoorCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Suhoor Catering
+            How suhoor catering looks in Dubai
           </h2>
 
           <div className="suh-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -519,10 +519,10 @@ export default function SuhoorCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center suh-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Suhoor
+            Send the Fajr time, guest count and address
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your pre-dawn gathering and we'll design a halal menu — light or hearty — time the service before Fajr, and handle every detail. Book six to eight weeks ahead to secure your dates.
+            Tell us home, majlis or office, how many people and whether the table wants a light plate or a hot one. We send an itemised quote. Book six to eight weeks ahead.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a Suhoor Quote</Link>

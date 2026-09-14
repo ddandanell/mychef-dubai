@@ -5,47 +5,43 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'shawarma-station-dubai',
-  seoTitle: "Live Shawarma & Kebab Station Dubai",
+  seoTitle: 'Live Shawarma & Kebab Station Dubai | myCHEF',
   metaDescription:
-    'Live shawarma and kebab station hire in Dubai: freshly carved meats, grilled skewers, Arabic breads and salads for weddings, parties and corporate events.',
+    'A live shawarma station in Dubai is a cooking counter: spit, breads, sauces, a chef. Canonical: live cooking stations. From AED 150 per person, from 15 guests.',
   canonicalPath: '/live-cooking-stations-dubai',
   ogImage: '/images/arabic-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Live Shawarma & Kebab Station Dubai',
   h1: 'Live Shawarma & Kebab Station in Dubai',
   heroSub:
-    'Bring the sizzle of the Middle East to your event with a live shawarma and kebab station in Dubai — fresh meats carved to order, smoky grills, Arabic breads and vibrant salads for any celebration.',
+    'A live shawarma station is a spit, a chef, breads, pickles and sauces. It sits on live cooking stations, not as a second catering company. Halal meat by default.',
   heroImage: '/images/arabic-catering-dubai-hero.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange a live shawarma and kebab station in Dubai (via mychef.ae/shawarma-station-dubai)',
   eyebrow: 'LIVE SHAWARMA & KEBAB STATION IN DUBAI',
-  introH2: 'Theatre, Smoke and Authentic Flavour',
+  introH2: 'A spit on the live-station floor',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Few catering stations draw a crowd like a live shawarma spit. The aroma of slowly roasted meat, the theatre of the chef carving thin slices into warm Arabic bread, and the custom toppings guests choose themselves make it a highlight of any event. Our live shawarma and kebab station in Dubai brings this experience to weddings, corporate events, private parties and community celebrations across the city.
+        A live shawarma station in Dubai is chicken or beef on a vertical spit, carved to order, with bread, pickles and sauces. Live stations start from AED 150 per person, from 15 guests. This page canonicalises to live cooking stations. It is not a separate product.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We offer a complete Arabic street-food setup: vertical shawarma spits for chicken and beef, charcoal or grill-fired kebab skewers, fresh khubz and saj bread, mezze dips, pickles, garlic sauce, tahini and chopped salads. Everything is prepared fresh on site and served hot by experienced partner chefs at the station who keep the line moving and the energy high.
+        Kebabs, mezze and falafel sit next to the cone when the brief needs them. Halal meat is the default. Vegetarian plates are written as dishes. Flame follows the venue’s rules.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This station fits naturally within our{' '}
+        A wider Arabic menu lives on{' '}
         <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          Arabic catering Dubai
-        </Link>{' '}
-        and{' '}
+          Arabic catering
+        </Link>
+        . Other counters live on{' '}
         <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          live cooking stations Dubai
-        </Link>{' '}
-        offerings, and works as a crowd-pleasing addition to{' '}
-        <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          corporate event catering Dubai
-        </Link>{' '}
-        receptions and team events.
+          live cooking stations
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Shawarma & Kebab Station Formats',
+  formatsH2: 'How the station is built',
   formats: [
     {
       Icon: Flame,
@@ -85,7 +81,7 @@ const config: ServicePageConfig = {
     },
   ],
   useCasesEyebrow: 'WHERE SHAWARMA STATIONS WORK',
-  useCasesH2: 'A Crowd Magnet for Any Occasion',
+  useCasesH2: 'When a spit is the right counter',
   useCases: [
     {
       title: 'Wedding Receptions',
@@ -108,7 +104,7 @@ const config: ServicePageConfig = {
         'Ideal for Eid, National Day, Iftar and cultural events where authentic Arabic flavours are expected.',
     },
   ],
-  includedH2: "What's Included in Our Shawarma & Kebab Station",
+  includedH2: 'What the shawarma quote lists',
   includedItems: [
     { title: 'Vertical Shawarma Spit', description: 'Chicken and/or beef shawarma cooked on a traditional vertical rotisserie.' },
     { title: 'Charcoal or Grill Kebabs', description: 'Skewers of lamb, chicken or kofta grilled fresh to order.' },
@@ -144,7 +140,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can one station serve?',
-      a: 'A single station comfortably serves around 80–100 guests per hour. For larger events we can add additional spits and grills.',
+      a: 'We add spits and chefs so the queue does not stall. Live stations start from 15 guests. We will not publish an invented per-hour capacity.',
     },
     {
       q: 'Can the station be branded for a corporate event?',
@@ -164,20 +160,20 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Live Cooking Stations',
-      description: 'Interactive partner-chef-led stations including pasta, wok, tandoor and BBQ stations.',
+      description: 'Carving, pasta, grill, shawarma and dessert counters. This spit lives there.',
       image: '/service-events.webp',
       link: '/live-cooking-stations-dubai',
     },
     {
       title: 'Corporate Event Catering',
-      description: 'fully-coordinated catering for conferences, launches and company celebrations across Dubai.',
+      description: 'Conferences, launches and company nights. A shawarma station is optional.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },
   ],
-  ctaH2: 'Book a Live Shawarma & Kebab Station',
+  ctaH2: 'Send the headcount and which meats',
   ctaP:
-    'Tell us about your event, guest count, venue and preferred meats. We will bring a live shawarma and kebab station that becomes the highlight of the evening.',
+    'Date, guest count, venue and chicken, beef or both. We typically reply within 15 minutes during business hours.',
 }
 
 export default function ShawarmaStation() {

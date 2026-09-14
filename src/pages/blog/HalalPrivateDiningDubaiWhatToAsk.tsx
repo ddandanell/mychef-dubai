@@ -107,7 +107,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
     <div ref={containerRef}>
       <SEO
         title="What to Ask a Halal Caterer Dubai | myCHEF"
-        description="What to Ask a Halal Caterer Dubai — A guide for Dubai hosts booking halal private dining: certification, cross-contamination, alcohol policy, sourcing, and…"
+        description="What to ask a halal caterer in Dubai: sourcing, cross-contamination, alcohol, certificates. Halal ingredients are the default. Not a medical promise."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         schema={schema}
@@ -116,8 +116,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
       {/* Hero */}
       <PageHero
         eyebrow="Halal"
-        title="What to Ask a Halal Caterer Dubai — Halal Private Dining in Dubai"
-        subtitle="What to Ask a Halal Caterer Dubai by myCHEF — The questions every host should ask to ensure a fully halal, stress-free private dining experience at home or in a villa."
+        title="What to Ask a Halal Caterer Dubai"
+        subtitle="Sourcing, certificates, cross-contamination and alcohol. Halal-friendly is not a regulated phrase. Ask for the papers."
         image="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         imageAlt="Halal private dining setup in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Halal Private Dining Dubai' }]}
@@ -140,19 +140,19 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             answer="When booking halal private dining in Dubai, ask for written confirmation of halal sourcing, cross-contamination controls, alcohol policy, and supplier certification before confirming the chef."
             facts={[
               { label: 'Halal oversight', value: 'MoIAT regulates halal certification under UAE Cabinet Decree 10/2014' },
-              { label: 'Multi-course dinner', value: 'AED 350–750 per person' },
-              { label: 'Buffet / family-style', value: 'AED 180–350 per person' },
-              { label: 'Full-time private chef', value: 'AED 18,000–35,000+ per month plus employment costs' },
+              { label: 'Staffed buffet', value: 'From AED 120 per person' },
+              { label: 'Chef-led plated', value: 'AED 700–950 per person' },
+              { label: 'Household visit', value: 'From AED 750 for a three-hour Fresh Meal' },
               { label: 'Key framework', value: 'Dubai Municipality Food Code 2.0' },
             ]}
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai is home to some of the finest halal dining experiences in the world, but bringing that experience into a private home, villa, or yacht adds a layer of responsibility. When you book <strong>halal private dining</strong>, you are not just choosing a cuisine; you are choosing how ingredients are sourced, how a kitchen is managed, and how guests are served.
+              What to ask a halal caterer in Dubai is not a tasting question. It is a paper question. When you book halal private dining, you are choosing how meat is sourced, how a kitchen is kept, and whether alcohol is in the room.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              This guide walks you through the questions every host should ask before confirming a booking, so your event is both memorable and aligned with halal principles.
+              Halal ingredients are the default on myCHEF menus. That is not a medical or allergen-free promise. Ask for certificates that match the proteins, and for how the line is kept if the same kitchen also handles other work.
             </p>
           </section>
 
@@ -163,7 +163,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
               At its core, halal private dining means every dish is prepared, handled, and served in line with Islamic dietary law. That usually includes halal-certified meat and poultry, the absence of pork and non-halal animal by-products, and careful attention to alcohol, cross-contamination, and overall kitchen hygiene.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              The quote still moves with headcount, menu and staff in the room. What to check on a halal brief is the named chef, the itemised quote, who buys the ingredients, and whether alcohol is excluded in writing.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               However, &ldquo;halal-friendly&rdquo; is not a regulated phrase. One chef may simply avoid pork and alcohol, while another works only with certified suppliers and dedicated equipment. Always ask for specifics rather than assuming.

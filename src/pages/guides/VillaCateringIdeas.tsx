@@ -272,7 +272,7 @@ export default function VillaCateringIdeas() {
             Menu formats, setup tips and staffing guidance for villa parties across Dubai, from poolside BBQs to seated dinners.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 villa-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 villa-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -482,7 +482,7 @@ export default function VillaCateringIdeas() {
             Tell us about your villa, guest count, and preferred format. We will design a menu and setup plan that fits your space and your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

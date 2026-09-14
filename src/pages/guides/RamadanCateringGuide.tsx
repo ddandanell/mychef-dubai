@@ -114,7 +114,7 @@ const faqs = [
   },
   {
     q: 'How much food per person for iftar Dubai?',
-    a: 'There is no single number for how much food per person for iftar Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number for how much food per person for iftar Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
   },
   {
     q: 'How to plan iftar catering Dubai?',
@@ -256,7 +256,7 @@ export default function RamadanCateringGuide() {
             Plan respectful, abundant Ramadan gatherings with guidance on iftar, suhoor, Eid menus, halal requirements, and service timing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -283,7 +283,7 @@ export default function RamadanCateringGuide() {
             Ramadan is the most meaningful month of the year in Dubai, and the gatherings that mark it deserve careful planning. Whether you are hosting an intimate family iftar, a corporate suhoor, or a large community celebration, the catering should honour the rhythm of fasting, prayer, and hospitality.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Iftar catering is timed to Maghrib. What to check: the named chef, the itemised quote, who buys the ingredients, and whether the menu is sharing or plated. Alcohol is only where the venue is licensed and it is agreed in writing.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the etiquette, menu formats, timing, and practical considerations that make Ramadan catering run smoothly.
@@ -450,7 +450,7 @@ export default function RamadanCateringGuide() {
             Share your iftar, suhoor, or Eid plans and we will design a respectful, abundant menu delivered with precise timing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

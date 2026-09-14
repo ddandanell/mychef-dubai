@@ -54,7 +54,7 @@ export const officeMenuCycle = [
 
 export const officeHero = {
   src: '/images/office-catering-dubai-hero.webp',
-  alt: 'Office catering in a Dubai workplace — a dressed meeting table, devices stacked away, service setting lunch. Experience concept shown.',
+  alt: 'Office catering in a Dubai workplace: a dressed meeting table, devices stacked away, service setting lunch. Experience concept shown.',
   width: 1344,
   height: 752,
 } as const
@@ -144,13 +144,13 @@ export const formatLadder: FormatRow[] = [
 
 export const pricingIntro = [
   'Office catering in Dubai starts at AED 90 per person for a delivered working lunch, laid out, with no extras folded into the per-head figure. An office event buffet starts at AED 120. A premium spread with a BBQ or live station starts at AED 150. A chef who cooks and serves on site is AED 700–950 per person. Add 5% VAT.',
-  'The AED 700–950 band is a board dinner or a client evening, not feeding the floor on a Tuesday. Two things move the number inside each band: how big the room is, and how much labour the format needs. Every quote is itemised — food, staffing, equipment, delivery and VAT as separate lines — so finance can see what is being approved.',
+  'The AED 700–950 band is a board dinner or a client evening, not feeding the floor on a Tuesday. Two things move the number inside each band: how big the room is, and how much labour the format needs. Every quote is itemised: food, staffing, equipment, delivery and VAT as separate lines, so finance can see what is being approved.',
 ]
 
 export const pricingNotes = [
   'Delivered formats start at 10 guests. A buffet starts at 20.',
   'Minimum order value is AED 900 on dropped-off formats.',
-  'A chef cooking on site has no minimum headcount — a board dinner for six is a normal booking.',
+  'A chef cooking on site has no minimum headcount: a board dinner for six is a normal booking.',
   'All figures are before 5% VAT, which is shown as its own line.',
   'Recurring work is priced against the weekly or monthly schedule instead.',
 ]
@@ -159,7 +159,7 @@ export const formats = {
   h2: 'Delivery, staffed service, or a chef in the room',
   paragraphs: [
     'This is the choice that sets the budget. Decide it before you shortlist anyone.',
-    'Drop-off is the AED 90 tier — corporate lunch delivery in Dubai to the floor. Office food delivery of that kind arrives hot or chilled as the dish needs, in sealed single portions or on shared platters, with serving tongs, napkins and labels. We lay it out. Your team helps itself. Facilities clears the trays. That covers most weekday office lunches.',
+    'Drop-off is the AED 90 tier: corporate lunch delivery in Dubai to the floor. Office food delivery of that kind arrives hot or chilled as the dish needs, in sealed single portions or on shared platters, with serving tongs, napkins and labels. We lay it out. Your team helps itself. Facilities clears the trays. That covers most weekday office lunches.',
     'Staffed service: the team arrives ahead of the meal, builds the line with chafing dishes and linen, keeps hot food hot and cold food cold, serves or replenishes, then clears and wipes down so the room is usable for the next meeting. That is where the AED 120 and AED 150 tiers sit.',
     'A chef cooking on site is cooking and plating in front of your guests. That is the AED 700–950 band, priced for a board dinner or a client evening. If a quote does not tell you which of those three you are getting, it is not a quote yet.',
   ],
@@ -176,7 +176,7 @@ export const recurring = {
 export const quoting = {
   h2: 'How an office quote is built',
   paragraphs: [
-    'A useful proposal needs four things: the days or the date, the office, how many people, and whether you want it delivered or staffed. Dietary requirements and a budget position help. Telling us the budget early is not a trap — it means the first proposal is realistic rather than the third one.',
+    'A useful proposal needs four things: the days or the date, the office, how many people, and whether you want it delivered or staffed. Dietary requirements and a budget position help. Telling us the budget early is not a trap: it means the first proposal is realistic rather than the third one.',
     'Access, parking and lift timing change when food can arrive at temperature. Mention the building early. Headcounts move on the morning; we will tell you the last point at which the kitchen can still change the order.',
     'What comes back is itemised. Food, staff, delivery, equipment and 5% VAT sit on separate lines rather than being folded into a per-head figure that is impossible to compare.',
   ],

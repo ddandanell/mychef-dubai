@@ -45,7 +45,7 @@ import { SectionLabel } from '../components/system'
 
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a private chef quote for my event (via mychef.ae/private-chef-dubai/pricing)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a household private chef quote (via mychef.ae/private-chef-dubai/pricing)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /**
@@ -63,7 +63,7 @@ const jobTable = HOUSEHOLD_JOBS.map((job) => ({
 
 const includedItems = [
   'The same chef, matched to how your home eats',
-  'The Food Profile — what is loved, refused, allergic, and how the kitchen is left',
+  'The Food Profile: what is loved, refused, allergic, and how the kitchen is left',
   'Backup when your chef is off, briefed from that profile before they arrive',
   'The review after service, and a new match if the fit is wrong',
   'Kitchen handed back the way it was found, every visit',
@@ -88,7 +88,7 @@ const costFactors = [
   {
     icon: Users,
     title: 'People in your home',
-    description: 'Up to eight are in the chef price. From nine an assistant joins automatically — one to 19, two to 29, three to 39.',
+    description: 'Up to eight are in the chef price. From nine an assistant joins automatically: one to 19, two to 29, three to 39.',
   },
   {
     icon: Clock,
@@ -103,32 +103,32 @@ const costFactors = [
 ]
 
 const relatedLinks = [
-  { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },
-  { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Per-person budgets for every catering format.' },
-  { title: 'Catering Cost Calculator', link: '/catering-cost-calculator-dubai', description: 'Estimate your event catering budget in minutes.' },
-  { title: 'How to Choose a Caterer', link: '/how-to-choose-caterer-dubai', description: 'A checklist for comparing caterers in Dubai.' },
+  { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'What a standing household chef is, and how it differs from one dinner.' },
+  { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Per-person figures when the brief is one night, not a standing cook.' },
+  { title: 'Catering Cost Calculator', link: '/catering-cost-calculator-dubai', description: 'Build a one-night catering figure. Household plans stay on this page.' },
+  { title: 'How to Choose a Caterer', link: '/how-to-choose-caterer-dubai', description: 'A checklist for a party or dinner, not a household chef.' },
 ]
 
 const faqs = [
   {
     q: 'What is the private chef Dubai price for a household?',
-    a: `One price per job, whoever cooks it: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, and a Full-Day Private Chef (9h) AED 1,500. There is no more expensive grade of chef to be upgraded to — what has levels is the chef’s own pay. Anyone comparing private chef Dubai rates or the cost of private chef Dubai will find those four numbers and nothing hidden underneath them.`,
+    a: `One price per job, whoever cooks it: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, and a Full-Day Private Chef (9h) AED 1,500. There is no more expensive grade of chef to be upgraded to. What has levels is the chef’s own pay. Anyone comparing private chef Dubai rates or the cost of private chef Dubai will find those four numbers and nothing hidden underneath them. VAT at 5% is shown on its own line. Groceries are charged at receipts.`,
   },
   {
     q: 'How much is a private chef in Dubai per month?',
-    a: 'One day a week is AED 3,000 a month for a weekly Fresh Meal. Five days a week of Kitchen on Autopilot is AED 18,500 a month, and a full-day chef five days a week is AED 26,400. Four days a week is sixteen visits in four weeks, and a long month sometimes lands a seventeenth — we bill that only when it happens. The calculator on this page gives you the figure for the days you actually want, and there is no second set of numbers for the brochure.',
+    a: 'One day a week is AED 3,000 a month for a weekly Fresh Meal. Five days a week of Kitchen on Autopilot is AED 18,500 a month, and a full-day chef five days a week is AED 26,400. Four days a week is sixteen visits in four weeks, and a long month sometimes lands a seventeenth. We bill that only when it happens. The calculator on this page gives you the figure for the days you actually want, and there is no second set of numbers for the brochure.',
   },
   {
     q: 'What does the private chef Dubai price per day cover?',
-    a: 'The chef’s hours for that job, the menu work around them, the Food Profile, backup when they are off, the review after service, and the kitchen left the way it was found. Groceries are separate and charged at the actual receipts. VAT at 5% is shown on its own line. People search this as the average cost of personal chef in Dubai or personal chef services rates Dubai — same service, same four prices.',
+    a: 'The chef’s hours for that job, the menu work around them, the Food Profile, backup when they are off, the review after service, and the kitchen left the way it was found. Groceries are separate and charged at the actual receipts. VAT at 5% is shown on its own line. People search this as the average cost of personal chef in Dubai or personal chef services rates Dubai. Same service, same four prices.',
   },
   {
-    q: 'Is a part-time cook for home in Dubai cheaper than a full-time hire?',
-    a: 'Usually, yes. You pay for the days you actually need, instead of a full salary, a visa, and the hours you spend finding someone when your chef cannot come. A part time cook for home Dubai cost starts at AED 3,000 a month — one Fresh Meal a week — and goes up with the days you book. Hiring someone directly looks cheaper by the hour. It stops looking cheaper the first week they are ill.',
+    q: 'Is a part-time cook for home in Dubai less than a full-time hire?',
+    a: 'Usually, yes. You pay for the days you actually need, instead of a full salary, a visa, and the hours you spend finding someone when your chef cannot come. A part time cook for home Dubai cost starts at AED 3,000 a month (one Fresh Meal a week) and goes up with the days you book. Hiring someone directly looks lower by the hour. It stops looking lower the first week they are ill.',
   },
   {
     q: 'What if I want a private chef for a dinner party?',
-    a: 'That is catering, and it is priced per person rather than per visit — from AED 90 for drop-off to AED 700–950 for a chef-led plated dinner. A private chef for dinner party evenings, private chef catering for a birthday, or a part time private chef catering Dubai price for one night all live on [catering](/catering-dubai). This page is for a chef who comes back.',
+    a: 'That is catering, and it is priced per person rather than per visit: from AED 90 for drop-off to AED 700–950 for a chef-led plated dinner. A private chef for dinner party evenings, private chef catering for a birthday, or a part time private chef catering Dubai price for one night all live on [catering](/catering-dubai). This page is for a chef who comes back.',
   },
   {
     q: 'Do I have to employ the chef?',
@@ -136,7 +136,7 @@ const faqs = [
   },
   {
     q: 'Can I move or cancel a visit?',
-    a: `Yes — and you can cancel one on the same notice. With at least ${CANCEL_NOTICE_HOURS} hours’ notice a scheduled visit moves within the same billing month, subject to availability, or is cancelled without charge. Inside 24 hours it stays chargeable, because the chef’s day was already held for you. Terms and conditions apply.`,
+    a: `Yes, and you can cancel one on the same notice. With at least ${CANCEL_NOTICE_HOURS} hours’ notice a scheduled visit moves within the same billing month, subject to availability, or is cancelled without charge. Inside 24 hours it stays chargeable, because the chef’s day was already held for you. Terms and conditions apply.`,
   },
   {
     q: 'What happens when a day runs long?',
@@ -148,15 +148,15 @@ const faqs = [
   },
   {
     q: 'Can I change my chef?',
-    a: 'Yes. If the match is wrong we change the chef, and your Food Profile stays with you, so the next one is not starting from nothing. A chef whose scores fall below the standard stops being sent to homes — it is the same ladder they are paid on.',
+    a: 'Yes. If the match is wrong we change the chef, and your Food Profile stays with you, so the next one is not starting from nothing. A chef whose scores fall below the standard stops being sent to homes. It is the same ladder they are paid on.',
   },
   {
     q: 'How long is the commitment?',
     a: 'Long-term plans begin at 30 days and at least four visits a month. A short stay of 3–29 days is possible at a higher daily rate, because trained staff are reserved for a short, less stable period. Nothing auto-renews into a longer term than you agreed.',
   },
   {
-    q: 'Is weekly meal prep cheaper per meal than cooking every day?',
-    a: 'Per plate, yes. [Weekly meal prep](/weekly-meal-prep-dubai) is the Food Prep job — four hours, AED 900 — used once or twice a week to cook forward, which spreads the chef’s time across more meals than a fresh dinner every night. If the goal is healthy daily eating rather than a table full of guests, that is the cheapest shape of this service.',
+    q: 'Is weekly meal prep lower per meal than cooking every day?',
+    a: 'Per plate, often. [Weekly meal prep](/weekly-meal-prep-dubai) is the Food Prep job (four hours, AED 900) used once or twice a week to cook forward, which spreads the chef’s time across more meals than a fresh dinner every night. If the goal is healthy daily eating rather than a table full of guests, that is the lighter shape of this service.',
   },
 ]
 
@@ -183,7 +183,7 @@ const breadcrumbSchema = {
 /** Standing household plans (3+ days) — calculator on this URL at #calculator. */
 const householdServiceSchema = {
   '@type': 'Service',
-  name: 'Private chef — household plans (3+ days)',
+  name: 'Private chef, household plans (3+ days)',
   url: 'https://www.mychef.ae/private-chef-dubai/pricing#calculator',
   provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
@@ -198,7 +198,7 @@ const householdServiceSchema = {
 
 const aggregateOfferSchema = {
   '@type': 'AggregateOffer',
-  name: 'Private Chef Prices Dubai — household plans',
+  name: 'Private Chef Prices Dubai, household plans',
   description:
     'Household private chef prices in Dubai: one price per job, from AED 750 for a 3-hour Fresh Meal to AED 1,500 for a full day. Groceries at actual cost. One night with guests is catering.',
   url: 'https://www.mychef.ae/private-chef-dubai/pricing',
@@ -221,7 +221,7 @@ const schema = {
   '@graph': [serviceSchema, aggregateOfferSchema, householdServiceSchema, ...(faqSchema ? [faqSchema] : []), breadcrumbSchema],
 }
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like private chef prices for my event in Dubai. Date: __ Guests: __ Area: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like household private chef prices in Dubai. Days per week: __ Area: __"
 export default function PrivateChefPrices() {
   useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
@@ -254,7 +254,7 @@ export default function PrivateChefPrices() {
     <div ref={containerRef}>
       <SEO
         title="Private Chef Dubai Price | AED 750–1,500 a Visit | myCHEF"
-        description="2026 private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day, groceries at cost. Build your month. "
+        description="Private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day. Groceries at receipts. VAT 5%. Build your month."
         canonicalPath="/private-chef-dubai/pricing"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
@@ -311,10 +311,10 @@ export default function PrivateChefPrices() {
             <p className="font-inter text-body-sm text-gray-600 mb-3">In September, the more days you book in a month, the less each day costs:</p>
             <ul className="space-y-2 mb-6">
               {[
-                '5 to 9 days a month — 5% off — AED 1,235 a day',
-                '10 to 14 days a month — 10% off — AED 1,170 a day',
-                '15 to 19 days a month — 15% off — AED 1,105 a day',
-                '20 days or more a month — 20% off — AED 1,040 a day',
+                '5 to 9 days a month: 5% off, AED 1,235 a day',
+                '10 to 14 days a month: 10% off, AED 1,170 a day',
+                '15 to 19 days a month: 15% off, AED 1,105 a day',
+                '20 days or more a month: 20% off, AED 1,040 a day',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Check size={16} className="text-gold flex-shrink-0 mt-1" />
@@ -323,10 +323,10 @@ export default function PrivateChefPrices() {
               ))}
             </ul>
             <p className="font-inter text-body-sm text-gray-600 mb-4 max-w-[760px]">
-              You are not locked into anything. Start with a paid trial and carry on only if the chef is right for your home. If the match is wrong we change the chef and your Food Profile stays with you. You can pause or cancel with 24 hours' notice before your next visit.
+              You are not locked into anything. Start with a paid trial and carry on only if the chef is right for your home. If the match is wrong we change the chef and your Food Profile stays with you. You can pause or cancel with 24 hours’ notice before your next visit.
             </p>
             <p className="font-inter text-body-sm text-gray-600 mb-6 max-w-[760px]">
-              Here is the part worth knowing. You are not subscribing to food — you are reserving one chef's time. A full-day plan takes most of a chef's month, which is why there are six places this September. When those six households are matched, the September rate closes with them.
+              Here is the part worth knowing. You are not subscribing to food. You are reserving one chef’s time. A full-day plan takes most of a chef’s month, which is why there are six places this September. When those six households are matched, the September rate closes with them.
             </p>
             <p className="font-inter text-body-sm text-gray-600 max-w-[760px]">
               Agree your plan this month and we hold the rate for three months.{' '}
@@ -338,7 +338,7 @@ export default function PrivateChefPrices() {
               >
                 WhatsApp us now for more info
               </a>
-              {' '}— tell us your days and we will come back with the exact figure for your month, before you commit to anything.
+              {' '}Tell us your days and we will come back with the exact figure for your month, before you commit to anything.
             </p>
           </div>
           <div className="prices-section opacity-0 translate-y-8 mt-10">
@@ -347,7 +347,7 @@ export default function PrivateChefPrices() {
               Everything is paid in advance. You settle the first month before your chef starts.
             </p>
             <p className="font-inter text-body-sm text-gray-600 mb-4 max-w-[760px]">
-              After that, the next month is taken on the last day of service in the current one — so there is no gap in the service and no invoice you were not expecting.
+              After that, the next month is taken on the last day of service in the current one, so there is no gap in the service and no invoice you were not expecting.
             </p>
             <p className="font-inter text-body-sm text-gray-500 max-w-[760px]">
               Where you are affects the price. A chef travelling further out takes longer to get to you, so the day rate can vary with location. Your figure is confirmed in writing before anything starts.
@@ -365,7 +365,7 @@ export default function PrivateChefPrices() {
               The private chef Dubai price is one number per job
             </h2>
             <p className="font-inter text-body text-gray-500 max-w-[760px]">
-              A private chef is a standing arrangement: the same person comes back to your home. Catering is one night — a dinner, a party, an event, a team that arrives and leaves. This page prices the first one. Choose the job your home needs; the price is the same whoever we send, because a chef’s level changes what the chef earns, not what you pay.
+              A private chef is a standing arrangement: the same person comes back to your home. Catering is one night: a dinner, a party, an event, a team that arrives and leaves. This page prices the first one. Choose the job your home needs. The price is the same whoever we send, because a chef’s level changes what the chef earns, not what you pay.
             </p>
           </div>
 
@@ -432,7 +432,7 @@ export default function PrivateChefPrices() {
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <SectionLabel align="center">What's Included</SectionLabel>
+              <SectionLabel align="center">What is included</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 What the price covers, every visit
               </h2>
@@ -451,8 +451,8 @@ export default function PrivateChefPrices() {
                 One price, one person, no upgrade path
               </h3>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-                There is no premium grade of chef to be sold up to. You choose the job and the days; we match the
-                person. A chef who scores well is recognised by us — you are never asked to pay more for the
+                There is no second grade of chef to be sold up to. You choose the job and the days; we match the
+                person. A chef who scores well is recognised by us. You are never asked to pay more for the
                 person you already like.
               </p>
               <Link
@@ -501,12 +501,12 @@ export default function PrivateChefPrices() {
           <div className="max-w-[760px] mb-12">
             <SectionLabel>Household Plans</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">
-              A chef in your home several days a week — build the plan and see the monthly figure
+              A chef in your home several days a week. Build the plan and see the monthly figure
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Choose the job and the days, and the calculator shows the figure before you enquire — the same figure
+              Choose the job and the days, and the calculator shows the figure before you enquire: the same figure
               the table above quotes, from AED {SERVICES[0].rate} a visit, with groceries charged at the actual
-              receipts and no markup. Long-term plans start at 30 days; short stays of 3–29 days carry a higher daily
+              receipts and no markup. VAT at 5% is shown on its own line. Long-term plans start at 30 days; short stays of 3–29 days carry a higher daily
               rate. A single night with guests is priced per person on{' '}
               <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">catering</Link>.
             </p>
@@ -555,9 +555,9 @@ export default function PrivateChefPrices() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
-            <SectionLabel align="center">Explore More</SectionLabel>
+            <SectionLabel align="center">Next steps</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Related Planning Resources
+              If the brief is one night, start here
             </h2>
           </div>
 
@@ -602,10 +602,10 @@ export default function PrivateChefPrices() {
         <div className="container-custom text-center opacity-0 translate-y-8">
           <Banknote size={40} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Get an Exact Private Chef Quote
+            Get an exact household figure
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your date, guest count, venue, and menu ideas. We’ll send a tailored proposal with clear itemisation and no hidden charges.
+            Tell us the days, the job, and the area. We send a written proposal with the visit rate, groceries at receipts, and VAT at 5% on its own line.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">

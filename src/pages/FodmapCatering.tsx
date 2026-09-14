@@ -5,120 +5,121 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'fodmap-catering-dubai',
-  seoTitle: "FODMAP-Friendly Catering Dubai | Low-FODMAP",
-  metaDescription: 'Low-FODMAP catering in Dubai for IBS-friendly events, wellness retreats and private dinners. Gentle menus without onion, garlic and high-FODMAP.',
+  seoTitle: 'Fodmap Catering Dubai | myCHEF',
+  metaDescription:
+    'Fodmap Catering Dubai with a vetted myCHEF team. Onion, garlic and other high-FODMAP ingredients off the written menu. You stay a guest at your table.',
   canonicalPath: '/allergy-safe-catering-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/healthy-catering-dubai-hero.webp',
   breadcrumbLabel: 'FODMAP-Friendly Catering Dubai',
-  h1: 'FODMAP-Friendly Catering in Dubai',
+  h1: 'Fodmap Catering Dubai',
   heroSub:
-    'Thoughtful low-FODMAP event catering across Dubai — gentle on digestion, full on flavour, and free from the usual trigger ingredients that can spoil a good meal.',
+    'Fodmap Catering Dubai is a written list of trigger foods, not a bland plate. Onion, garlic and other high-FODMAP items come off the build. We cook at your address.',
   heroImage: '/images/healthy-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange low-FODMAP catering in Dubai (via mychef.ae/fodmap-catering-dubai)",
   eyebrow: 'LOW-FODMAP CATERING IN DUBAI',
-  introH2: 'Event Catering for Sensitive Digestive Systems',
+  introH2: 'Onion and garlic off, flavour still on the plate',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Following a low-FODMAP diet in Dubai does not mean missing out on beautifully catered events. Our FODMAP-friendly catering is designed for guests who need to avoid fermentable carbohydrates — particularly excess onion, garlic, wheat, certain dairy products and some fruits — without feeling like they are eating a stripped-back plate while everyone else enjoys a feast.
+        Low-FODMAP is a chef brief, not a diagnosis. We are not your clinician. Send the foods this guest is avoiding in this phase: onion, garlic, wheat, some dairy, certain fruit. We write the menu from that list. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We build flavour with FODMAP-safe ingredients: fresh herbs, citrus, ginger, spring onion greens, tolerated spices, quality proteins and low-FODMAP vegetables. Every menu is planned with care, clearly labelled, and prepared with attention to cross-contact so guests can relax and eat with confidence.
+        Depth comes from herbs, citrus, ginger, spring-onion greens, tolerated spices, good protein and low-FODMAP vegetables. Low-FODMAP is not the same as gluten-free. Many dishes overlap. The rules differ. Partner kitchens are shared. We reduce cross-contact where the room allows. We do not call that an allergen-free kitchen.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service complements our broader{' '}
+        The quote moves with guest count, the menu, and how much of the work happens in the room. See{' '}
         <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
-        </Link>{' '}
-        range and can be combined with{' '}
+        </Link>
+        {' '}for broader balance,{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           gluten-free catering Dubai
-        </Link>{' '}
-        for wheat-sensitive guests. For events that also need reduced sugar, see our{' '}
+        </Link>
+        {' '}when wheat is also off, and{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           sugar-free catering Dubai
-        </Link>{' '}
-        options.
+        </Link>
+        {' '}when refined sugar is a separate line.
       </p>
     </>
   ),
-  formatsH2: 'FODMAP-Friendly Catering Formats',
+  formatsH2: 'How a low-FODMAP night is served',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Low-FODMAP Dinners',
-      description: 'Elegant plated menus where every course is built around gentle, flavourful, low-FODMAP ingredients.',
+      description: 'Courses built from the tolerated list. The whole table can eat the same meal, or only named guests follow the stricter line.',
       link: '/catering-dubai',
     },
     {
       Icon: Leaf,
       title: 'Wellness Retreat Catering',
-      description: 'Multi-day retreat programmes with low-FODMAP breakfasts, lunches and dinners that support digestive wellbeing.',
+      description: 'Multi-day breakfasts, lunches and dinners written to the same brief so the cook does not reset every morning.',
       link: '/cuisines-dubai',
     },
     {
       Icon: Home,
       title: 'Private Villa Dining',
-      description: 'Relaxed at-home low-FODMAP meals for family dinners, small celebrations and houseguests across Dubai.',
+      description: 'Family dinners at home. We check the kitchen, cook, serve and pack down. You stay with your guests.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Wellness Events',
-      description: 'Office lunches and wellness days with gentle menus that keep teams comfortable and energised.',
+      description: 'Office lunches with a gentle line labelled on the buffet. You stay in the room. We handle the pass.',
       link: '/corporate-event-catering-dubai',
     },
     {
       Icon: Coffee,
       title: 'Low-FODMAP Brunches',
-      description: 'Late-morning spreads featuring tolerated fruits, eggs, oats, rice dishes and herb-infused drinks.',
+      description: 'Eggs, oats, rice dishes, tolerated fruit and herb drinks. Wheat bread is not assumed.',
       link: '/brunch-catering-dubai',
     },
     {
       Icon: Heart,
       title: 'IBS-Friendly Celebration Menus',
-      description: 'Birthdays, anniversaries and family gatherings where low-FODMAP guests can celebrate without compromise.',
+      description: 'Birthdays and family tables where one guest should not be left with a side salad while everyone else eats.',
       link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE FODMAP-FRIENDLY CATERING HELPS',
-  useCasesH2: 'Built for Comfortable, Confident Dining',
+  useCasesH2: 'Send the food list, not a diet name',
   useCases: [
     {
-      title: 'IBS-Managed Guests',
+      title: 'Guests managing IBS',
       description:
-        'Guests following a low-FODMAP approach can enjoy a full menu designed around tolerated ingredients, rather than picking at side dishes.',
+        'The menu follows the foods they currently tolerate. Elimination and reintroduction are different phases. Name the phase.',
     },
     {
-      title: 'Wellness Retreats & Spa Days',
+      title: 'Retreat days',
       description:
-        'Retreat leaders choose low-FODMAP catering to align meals with digestive health, mindfulness and overall wellness goals.',
+        'If the programme asks for low-FODMAP meals, we write breakfast through dinner to that list. We do not add a medical claim on top.',
     },
     {
-      title: 'Family Gatherings',
+      title: 'Family gatherings',
       description:
-        'When one or more relatives have sensitive digestion, a FODMAP-friendly menu lets everyone share the same dishes without fuss.',
+        'One relative on a low-FODMAP plan should still sit at the same table. We either convert the whole menu or run a labelled line.',
     },
     {
-      title: 'Post-Medical Recovery Events',
+      title: 'Quieter celebrations',
       description:
-        'Gentle, low-FODMAP meals are ideal for recovery celebrations, post-procedure gatherings or events hosted by healthcare practices.',
+        'Gentle menus for recovery gatherings work when onion and garlic are off the stock, not scraped off a finished sauce.',
     },
   ],
-  includedH2: "What's Included in Our FODMAP-Friendly Catering",
+  includedH2: 'What a FODMAP booking actually covers',
   includedItems: [
-    { title: 'Low-FODMAP Menu Design', description: 'Dishes planned around ingredients that are gentle on digestion and naturally flavourful.' },
-    { title: 'Onion- & Garlic-Free Cooking', description: 'We avoid high-FODMAP alliums and build depth with herbs, spices and infused oils instead.' },
-    { title: 'Clear Ingredient Labelling', description: 'Every dish is labelled so guests can see exactly what is safe and what to avoid.' },
-    { title: 'Cross-Contact Awareness', description: 'Prep and service protocols designed to reduce cross-contact with high-FODMAP ingredients.' },
-    { title: 'Tolerated Carbohydrates', description: 'Rice, quinoa, oats and sourdough-style options chosen for easier digestion.' },
-    { title: 'Customisable Combinations', description: 'Combine low-FODMAP with gluten-free, dairy-free, halal or sugar-free requirements.' },
-    { title: 'On-Site Chefs & Service', description: 'Food cooked and served at your venue by a team briefed on dietary needs.' },
-    { title: 'Full Setup & Pack-Down', description: 'Equipment, styling, service and cleanup handled from start to finish.' },
+    { title: 'Menu from a tolerated list', description: 'You send the foods. We write dishes around them. We do not guess a standard low-FODMAP template.' },
+    { title: 'Onion- and garlic-free cooking', description: 'High-FODMAP alliums stay off. Herbs, citrus, ginger and infused oils carry savoury depth.' },
+    { title: 'Clear labelling', description: 'Guests can see what is on the plate. Staff are briefed from the same list.' },
+    { title: 'Cross-contact awareness', description: 'Shared kitchens carry risk. We separate where the room allows and we say when it does not.' },
+    { title: 'Tolerated carbohydrates', description: 'Rice, quinoa, oats and potatoes are the usual bases. Wheat is not assumed.' },
+    { title: 'Other diets on the same brief', description: 'Gluten-free, dairy-free or sugar-free can sit alongside if you list them. They are not automatic.' },
+    { title: 'On-site chefs and service', description: 'Partner chefs cook at your address. Service staff run the room. Pack-down is included.' },
+    { title: 'Setup and pack-down', description: 'Equipment in, service, then the kitchen left handled.' },
   ],
-  galleryH2: 'A Taste of Our FODMAP-Friendly Catering',
+  galleryH2: 'What FODMAP-friendly service looks like',
   galleryImages: [
     { src: '/images/healthy-catering-dubai-hero.webp', alt: 'FODMAP-friendly catering spread in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Low-FODMAP appetisers and salads' },
@@ -127,56 +128,56 @@ const config: ServicePageConfig = {
     { src: '/service-corporate.webp', alt: 'Corporate wellness lunch setup' },
     { src: '/service-villa.webp', alt: 'Villa low-FODMAP dinner styling' },
   ],
-  faqsH2: 'FODMAP-Friendly Catering Questions',
+  faqsH2: 'Fodmap Catering Dubai: the questions we get before a booking',
   faqs: [
     {
-      q: 'What does FODMAP-friendly catering mean?',
-      a: 'It means catering that avoids or limits high-FODMAP ingredients — such as onion, garlic, certain wheat products, some dairy and specific fruits — that can trigger digestive discomfort in sensitive individuals.',
+      q: 'What does FODMAP-friendly catering mean here?',
+      a: 'It means the written menu avoids or limits the high-FODMAP foods you name, commonly onion, garlic, some wheat products, some dairy and specific fruit. It is not a medical service.',
     },
     {
-      q: 'Can you provide completely onion- and garlic-free food?',
-      a: 'Yes. We routinely prepare onion- and garlic-free menus, replacing their savoury depth with herbs, infused oils, citrus, ginger, spring onion greens and tolerated spices.',
+      q: 'Can you cook completely onion- and garlic-free?',
+      a: 'Yes, when the brief says so. We replace that savoury depth with herbs, citrus, ginger, spring-onion greens and tolerated spices, not with a powder that still contains onion.',
     },
     {
-      q: 'Is low-FODMAP catering the same as gluten-free?',
-      a: 'Not exactly. Many low-FODMAP dishes happen to be gluten-free, but the two diets have different rules. We can combine both, or keep them separate, depending on your guest list.',
+      q: 'Is low-FODMAP the same as gluten-free?',
+      a: 'No. Many low-FODMAP dishes happen to be gluten-free. The two lists are not identical. We can combine them if you ask.',
     },
     {
-      q: 'Can you accommodate the elimination and reintroduction phases?',
-      a: 'We can tailor menus to stricter elimination-phase ingredients or provide more flexible reintroduction-phase options. Share the specific foods your guests are avoiding and we will design accordingly.',
+      q: 'Can you follow elimination or reintroduction?',
+      a: 'Send the foods that are currently off. We cook to that list. We do not decide which phase a guest is in.',
     },
     {
       q: 'What proteins and starches do you use?',
-      a: 'We favour rice, quinoa, oats, potatoes and sourdough-style breads alongside poultry, fish, eggs, firm tofu and tolerated legumes in small portions. Every menu is adjusted to the guest list.',
+      a: 'Poultry, fish, eggs, firm tofu, rice, quinoa, oats and potatoes are the usual base. Legumes only in the portions you confirm as tolerated.',
     },
     {
-      q: 'How far in advance should I book FODMAP-friendly catering?',
-      a: 'Two to four weeks is ideal, especially for multi-day retreats or large events where ingredient sourcing and staff briefing need extra planning. Smaller dinners can often be arranged with one week’s notice.',
+      q: 'How is fodmap catering Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and the food list.',
     },
   ],
   relatedServices: [
     {
       title: 'Healthy Catering Dubai',
-      description: 'Balanced, nutrition-focused menus that pair naturally with low-FODMAP requirements.',
+      description: 'Balanced menus when the brief is lighter eating, not a FODMAP list.',
       image: '/service-catering.webp',
       link: '/cuisines-dubai',
     },
     {
       title: 'Gluten-Free Catering Dubai',
-      description: 'Coeliac-safe menus that can be combined with low-FODMAP ingredients.',
+      description: 'Wheat, barley and rye off the plate. Combine with low-FODMAP when both apply.',
       image: '/images/gluten-free-catering-dubai-hero.webp',
       link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'Sugar-Free Catering Dubai',
-      description: 'Reduced-sugar menus for guests managing blood sugar alongside digestive health.',
+      description: 'Reduced-sugar menus when blood sugar is a separate line on the same brief.',
       image: '/images/healthy-catering-dubai-hero.webp',
       link: '/allergy-safe-catering-dubai',
     },
   ],
-  ctaH2: 'Plan Low-FODMAP Catering That Works for Everyone',
+  ctaH2: 'Send the food list with the date',
   ctaP:
-    'Tell us about your guests, event and any specific food triggers. We will create a flavourful, low-FODMAP menu that lets everyone enjoy the occasion.',
+    'Name onion, garlic and every other trigger that is off this month. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function FodmapCatering() {

@@ -23,33 +23,33 @@ const SLUG = 'partner-with-us'
 const partnerTypes = [
   {
     icon: Building2,
-    title: 'Villa & Estate Managers',
-    description: 'Offer your guests a private chef or catered welcome dinner as an optional add-on. We handle the menu, service, and clean-up — you handle the booking.',
+    title: 'Villa and estate managers',
+    description: 'A chef or a welcome dinner as an add-on to a stay. We run the menu, service and clear-down. You keep the guest relationship.',
   },
   {
     icon: Ship,
-    title: 'Yacht Charter Operators',
-    description: 'Upgrade your charter packages with a dedicated chef or curated menu for day cruises, sunset dinners, and special celebrations on the water.',
+    title: 'Yacht charter operators',
+    description: 'Onboard food for a day cruise, a sunset sitting or a deck grill, planned around the galley and boarding, not copied from a villa menu.',
   },
   {
     icon: HeartHandshake,
-    title: 'Wedding & Event Planners',
-    description: 'Add a reliable private chef and catering partner to your vendor list for intimate weddings, rehearsal dinners, and luxury celebrations.',
+    title: 'Wedding and event planners',
+    description: 'A catering partner for weddings, rehearsal dinners and private celebrations. One contact, an itemised quote, staff sized to the room.',
   },
   {
     icon: Briefcase,
-    title: 'Corporate Concierge & HR',
-    description: 'Provide boardroom dining, team lunches, and executive entertaining with a single, vetted catering partner across Dubai business districts.',
+    title: 'Corporate concierge and HR',
+    description: 'Board lunches, team meals and company nights on one account. Recurring weeks sit on office catering. One-off nights sit on corporate events.',
   },
 ]
 
 const benefits = [
-  'Commission or referral credit on every confirmed booking',
-  'Co-branded menu proposals for your clients',
-  'Dedicated point of contact and fast quote turnaround',
-  'Vetted chefs with background checks and insurance',
-  'Flexible service styles: plated, buffet, canapés, live stations',
-  'Coverage across Dubai, including Palm Jumeirah, Marina, Downtown, Emirates Hills',
+  'Commission or referral credit, agreed in writing before any introduction',
+  'Proposals your client can approve: food, staff, hire and 5% VAT as separate lines',
+  'One named contact. We typically reply within 15 minutes during business hours',
+  'Chefs checked before they enter a house: identity, right to work, cooking assessment, references',
+  'Formats named: drop-off, buffet, canapés, stations, plated',
+  'Palm Jumeirah, Marina, Downtown, Emirates Hills and the wider city, subject to access',
 ]
 
 const faqs = [
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: 'How does the partnership work?',
-    a: 'You introduce clients who need private chef or catering services. A our chef prepares a tailored proposal, executes the event, and you receive a commission or credit on confirmed bookings.',
+    a: 'You introduce a client who needs a chef or catering. We send an itemised proposal, run the booking, and pay the commission or credit agreed in writing.',
   },
   {
     q: 'What is the commission structure?',
@@ -127,8 +127,8 @@ export default function PartnerWithUs() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Partnerships Dubai | Partner With Us Dubai | myCHEF"
-        description="Catering Partnerships Dubai — Partner with myCHEF Dubai to offer private chef and luxury catering services to villa guests, yacht charter clients, wedding…"
+        title="Catering Partnerships Dubai | myCHEF"
+        description="Catering partnerships Dubai for villa managers, yacht charters, planners and concierge teams. You keep the client. We run the kitchen."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/case-studies-hero.webp"
         schema={schema}
@@ -136,8 +136,8 @@ export default function PartnerWithUs() {
 
       <PageHero
         eyebrow="Partnerships"
-        title="Catering Partnerships Dubai: Partner With myCHEF Dubai"
-        subtitle="Catering Partnerships Dubai by myCHEF — Give your guests, clients, and members access to Dubai's most discreet private chef and luxury catering service — and earn commission on eve"
+        title="Catering Partnerships Dubai"
+        subtitle="You keep the client. We run the kitchen. Commission or referral credit is agreed in writing before any introduction."
         image="/images/case-studies-hero.webp"
         imageAlt="myCHEF Dubai partnership opportunities"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Partner With Us' }]}
@@ -150,16 +150,16 @@ export default function PartnerWithUs() {
       <div className="bg-white section-padding">
         <div className="partner-body container-custom max-w-[1000px]">
           <section className="partner-section opacity-0 translate-y-8 mb-12 text-center">
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
-              Whether you manage luxury villas, charter yachts, plan weddings, or run corporate concierge services, myCHEF Dubai can become the private chef partner your clients expect. We bring the culinary team, the menus, and the service standards — you bring the relationship.
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto mb-5">
+              Catering partnerships in Dubai are for businesses whose clients already ask for a chef: villa managers, yacht charters, planners, concierge desks. You bring the relationship. We bring the team, the menu and the clear-down.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Terms are written before the first introduction. We do not publish a shop rate for commission. Volume, client type and the job decide it.
             </p>
           </section>
 
           <section className="partner-section opacity-0 translate-y-8 mb-16">
-            <h2 className="font-playfair text-h2 text-black text-center mb-10">Who We Partner With</h2>
+            <h2 className="font-playfair text-h2 text-black text-center mb-10">Who this page is for</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {partnerTypes.map((type) => (
                 <div key={type.title} className="bg-cream p-6 md:p-8">
@@ -172,7 +172,7 @@ export default function PartnerWithUs() {
           </section>
 
           <section className="partner-section opacity-0 translate-y-8 mb-16">
-            <h2 className="font-playfair text-h2 text-black text-center mb-10">Why Partners Choose myCHEF Dubai</h2>
+            <h2 className="font-playfair text-h2 text-black text-center mb-10">How the arrangement actually runs</h2>
             <div className="grid sm:grid-cols-2 gap-4 max-w-[800px] mx-auto">
               {benefits.map((benefit, i) => (
                 <div key={i} className="flex items-start gap-3">

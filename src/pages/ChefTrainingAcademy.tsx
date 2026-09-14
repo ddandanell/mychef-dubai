@@ -116,8 +116,8 @@ const faqs = [
     a: 'Theory modules can be completed online, but all practical assessments and live-service practice take place in Dubai under instructor supervision.',
   },
   {
-    q: 'How to become a chef in Dubai?',
-    a: 'Every chef we send for how to become a chef in Dubai is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+    q: 'Does the academy place me in a job?',
+    a: 'No. Completing a course does not guarantee work. Graduates who meet identity, right-to-work, cooking and reference checks may apply to join the network. Work is matched, not promised.',
   },
 ]
 
@@ -204,8 +204,8 @@ export default function ChefTrainingAcademy() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Chef Training Dubai — Academy | Certified"
-        description="Chef Training Dubai — Train with myCHEF Dubai's chef academy. Master private dining standards, food safety, plating, and halal competency for high-end home…"
+        title="Chef Training Dubai | myCHEF"
+        description="Chef training Dubai for private dining: villa kitchens, food safety, plating and halal practice. Foundation from AED 2,500. Apply for the next intake."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -232,7 +232,7 @@ export default function ChefTrainingAcademy() {
             Chef Training Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
-            A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city&apos;s most distinguished homes.
+            Private dining is not restaurant service. Foundation from AED 2,500, Professional from AED 6,500, Master from AED 12,000. Joining the network is separate and not guaranteed.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>
@@ -254,22 +254,19 @@ export default function ChefTrainingAcademy() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">ELEVATE YOUR CRAFT</SectionLabel>
+          <SectionLabel align="center">A HOUSE IS NOT A RESTAURANT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Training Built for Private Dining
+            Chef training Dubai for villas, not hotel kitchens
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private dining is a different discipline from restaurant service. This is the culinary academy Dubai chefs use when they want villa and household training, not a hotel kitchen course. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Tell us about your experience and goals, and we will recommend the right programme and help you enrol for the next intake.
+              A restaurant cook can run a pass. A private chef has to understand how this household eats, how to leave the kitchen, and how to behave in someone else’s home. That is what these courses are for.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              You will learn how to design menus for real households, manage dietary requirements with confidence, plate under pressure, and run a villa kitchen from prep to final course. Instructors are experienced private-dining chefs who understand what families, hosts, and guests expect. Graduates who meet our standards are also invited to join the <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF Dubai chef network</Link>.
+              Foundation is two days from AED 2,500. Professional is five days from AED 6,500. Master is ten days from AED 12,000. Completing a course does not guarantee work. Graduates who meet the checks may apply to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join the network</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">joining the myCHEF chef network</Link>, <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">the vetting process</Link>, or <Link to="/mychef-certified" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF certification</Link> to see how the academy connects to our platform.
+              Also read <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs are checked</Link> and what <Link to="/mychef-certified" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF certified</Link> actually means.
             </p>
           </div>
         </div>

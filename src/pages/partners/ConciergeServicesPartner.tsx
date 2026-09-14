@@ -12,26 +12,26 @@ export default function ConciergeServicesPartner() {
     <PartnerPageTemplate
       name="Concierge Services"
       seoTitle="Concierge Services Partnership Dubai | myCHEF"
-      description="Concierge Services Partnership Dubai — Partner with myCHEF Dubai to offer your concierge clients exclusive private chef and luxury catering experiences…"
+      description="Concierge services partnership Dubai: a chef or a catered night for your members. You keep the relationship. We run the kitchen. Terms in writing."
       canonicalPath="/partners/concierge-services-dubai"
       ogImage="/images/luxury-dining-dubai-hero.webp"
       headline="Concierge Services Partnership Dubai"
-      eyebrow="FOR CONCIERGE & LIFESTYLE SERVICES"
-      subheadline="Provide your clients with private chefs, in-villa dining, yacht catering, and exclusive culinary experiences."
-      intro="A Culinary Partner for Discerning Clients"
-      valueProposition="Luxury concierge clients expect access to the extraordinary. Partner with myCHEF Dubai to deliver private chefs, bespoke dinners, yacht catering, and celebration dining — all coordinated discreetly and professionally for your members."
+      eyebrow="FOR CONCIERGE TEAMS"
+      subheadline="A chef at home, a villa dinner, or yacht catering, quoted for the member you already look after."
+      intro="You already have the client. We run the kitchen."
+      valueProposition="Concierge members ask for a chef, a dinner at home, or food on a yacht. We send an itemised proposal, check the chef, and run the night. You keep the relationship. Commission or a retainer is agreed in writing before the first introduction."
       benefits={[
-        { icon: ConciergeBell, title: 'Bespoke Experiences', description: 'From private chef dinners to surprise celebrations, we design culinary experiences around each client.' },
-        { icon: TrendingUp, title: 'Premium Service Layer', description: 'Add a high-value dining service to your concierge membership or per-request offering.' },
-        { icon: Shield, title: 'Discreet & Professional', description: 'Confidentiality, punctuality, and polished service for VIPs, celebrities, and high-net-worth individuals.' },
-        { icon: Users, title: 'Priority Concierge Desk', description: 'A dedicated WhatsApp line and account manager for fast quotes and last-minute requests.' },
-        { icon: Briefcase, title: 'Flexible Arrangements', description: 'Commission, retainer, or referral models tailored to your concierge business.' },
+        { icon: ConciergeBell, title: 'The night they asked for', description: 'A household chef visit, a dinner for guests, or a yacht sitting. The brief names the job. We do not guess it.' },
+        { icon: TrendingUp, title: 'A service you can add without building a kitchen', description: 'You take the request. We quote food, staff, hire and 5% VAT as separate lines.' },
+        { icon: Shield, title: 'Discretion as default', description: 'We do not publish member names. Chefs are checked before they enter a house.' },
+        { icon: Users, title: 'One line for your desk', description: 'A named contact and WhatsApp. We typically reply within 15 minutes during business hours.' },
+        { icon: Briefcase, title: 'Terms before the first booking', description: 'Commission, retainer or referral credit. Nothing starts on a handshake.' },
       ]}
       howItWorks={[
-        'We set up a partner agreement and dedicated communication channel for your concierge team.',
-        'Your clients request private chef or catering experiences through your usual workflow.',
-        'We deliver a tailored proposal, confirm details, and execute the experience.',
-        'You receive regular partner updates and preferred access for high-demand dates.',
+        'We agree the commercial terms and a contact line for your desk.',
+        'Your member asks through your usual workflow.',
+        'We send an itemised proposal and run the booking if they approve.',
+        'You receive the credit or commission named in the agreement.',
       ]}
       ctaText="Discuss Concierge Partnership"
       heroImage="/images/luxury-dining-dubai-hero.webp"

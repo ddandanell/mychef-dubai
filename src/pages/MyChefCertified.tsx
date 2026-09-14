@@ -56,48 +56,48 @@ const inclusions = [
 
 const packages = [
   {
-    name: 'Standard Certification',
-    price: 'Entry Level',
-    description: 'For chefs starting their private-dining journey with myCHEF Dubai.',
+    name: 'Level 1',
+    price: 'Starting',
+    description: 'Every chef starts here. The house pays the published rate for the job.',
     features: [
-      'In-person culinary audition',
-      'Identity verification',
-      'Food safety knowledge review',
-      'Halal awareness check',
-      'Platform standards briefing',
+      'Identity and right-to-work seen, not declared',
+      'A cooking assessment in a kitchen we can watch',
+      'References called',
+      'Food-hygiene awareness required; PIC preferred',
+      'Supervised or smaller first visits',
     ],
   },
   {
-    name: 'Premium Certification',
-    price: 'Advanced Level',
-    description: 'For experienced chefs ready to deliver elevated home dining and events.',
+    name: 'Level 2',
+    price: 'Good work',
+    description: 'A month of consistently strong household scores. Extra is paid to the cook, not added to the house rate.',
     features: [
-      'Enhanced practical skills assessment',
-      'Verified professional kitchen experience',
-      'Current food safety credential review',
-      'Halal competency evaluation',
-      'Service and communication review',
+      'The four review questions, scored after visits',
+      'Consistently strong: climbs a level',
+      'Food comments go to the house as a menu change',
+      'Person comments go to the person, in private',
+      'Safety is a stop, not a score',
     ],
     highlighted: true,
   },
   {
-    name: 'Master Certification',
-    price: 'Expert Level',
-    description: 'For senior chefs capable of leading complex menus and high-end experiences.',
+    name: 'Level 3',
+    price: 'Kept good work',
+    description: 'That standard held for three months. Catering work opens up first for a person who holds a house together.',
     features: [
-      'Master-level practical examination',
-      'Extensive private-dining experience review',
-      'Advanced allergen and food safety validation',
-      'Specialist halal and dietary verification',
-      'Peer and client feedback review',
+      'Three months of the standard, not a badge',
+      'Catering nights assigned on fit, not as a right',
+      'Still no guaranteed schedule',
+      'Wrong match: the chef changes, the Food Profile stays',
+      'Well under, twice: we stop sending that chef to homes',
     ],
   },
 ]
 
 const faqs = [
   {
-    q: 'What does MyChef Certified mean?',
-    a: 'MyChef Certified is our internal quality standard. It means a chef has passed our in-person audition, background verification, food-safety review, and halal-competency screening before being matched with clients.',
+    q: 'What does myCHEF certified mean?',
+    a: 'It means the chef passed identity and right-to-work checks, a cooking assessment, references, food-hygiene awareness, and a supervised first visit. It is not a government licence.',
   },
   {
     q: 'How often is certification renewed?',
@@ -116,8 +116,8 @@ const faqs = [
     a: 'We assess each chef\'s practical understanding of halal preparation, ingredient sourcing, and cross-contamination prevention. This helps us match chefs appropriately with households that observe halal requirements.',
   },
   {
-    q: 'How much do private chefs charge?',
-    a: 'There is no single number for how much do private chefs charge: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    q: 'Does certification change what the house pays?',
+    a: 'No. The house pays the published rate for the job. Quality extra is paid to the cook. Displayed household prices live on private chef pricing. One dinner is catering.',
   },
 ]
 
@@ -204,8 +204,8 @@ export default function MyChefCertified() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="MyChef Certified Chefs Dubai | Quality"
-        description="Only MyChef Certified chefs make it to your table. Learn our audition, background-check, food-safety and halal competency standards for Dubai."
+        title="Mychef Certified Chefs | myCHEF"
+        description="myCHEF certified chefs: identity, right to work, a cooking assessment, references, then a supervised first visit. Not a government licence."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -232,7 +232,7 @@ export default function MyChefCertified() {
             myCHEF Certified Chefs
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 mc-hero-sub">
-            A certification that means something. Every chef on our platform passes in-person auditions, background checks, food-safety verification, and halal-competency screening.
+            Identity, right to work, a cooking assessment, references, then a supervised first visit. The house pays the published rate. Quality extra is paid to the cook.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mc-hero-cta">Book a Certified Chef</Link>
@@ -254,19 +254,19 @@ export default function MyChefCertified() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">TRUST BUILT IN, NOT ADDED ON</SectionLabel>
+          <SectionLabel align="center">A CV IS NOT ENOUGH</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Standard You Can Taste
+            myCHEF certified chefs are checked, then scored
           </h2>
           <div className="mc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will bring you a vetted chef within 24 hours.
+              myCHEF certified means identity and right to work were seen, the chef cooked in a kitchen we can watch, references were called, and the first visits were supervised or small. It is not a government licence. PIC is preferred. We do not claim every chef holds a named certificate.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.
+              The house pays the published rate for the job. Quality extra is paid to the cook. Level 1 is starting. Level 2 is a month of consistently strong scores. Level 3 is that standard held for three months. Safety is a stop, not a score.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet partner chefs</Link>, <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">apply as a chef</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">book a private chef</Link> for your next occasion.
+              Read <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs are checked</Link>, <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs apply</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> if the job is a household.
             </p>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function MyChefCertified() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Four Pillars of Certification
+              What we actually check
             </h2>
           </div>
 

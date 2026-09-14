@@ -5,117 +5,116 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'farewell-catering-dubai',
-  seoTitle: 'Farewell Party Catering Dubai | Retirement Send-Offs',
-  metaDescription: 'Farewell and retirement party catering in Dubai for office send-offs, retirement celebrations and goodbye gatherings. Buffets, canapés, live stations and more.',
+  seoTitle: 'Farewell Catering Dubai | myCHEF',
+  metaDescription:
+    'Farewell catering Dubai for office send-offs, retirements and leaving parties. Buffet from AED 120, canapés from AED 150. Itemised quote.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Farewell & Retirement Catering Dubai',
-  h1: 'Farewell & Retirement Party Catering in Dubai',
+  h1: 'Farewell Catering Dubai',
   heroSub:
-    'Send off colleagues, friends and loved ones in style with farewell and retirement catering across Dubai — from office lunches and rooftop receptions to private villa parties.',
+    'Farewell catering Dubai for an office lunch, a retirement dinner or a villa send-off. Menu, staff, setup and clear-down. You stay with the guest of honour.',
   heroImage: '/service-events.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange farewell or retirement catering in Dubai (via mychef.ae/farewell-catering-dubai)",
   eyebrow: 'FAREWELL & RETIREMENT CATERING IN DUBAI',
-  introH2: 'A Thoughtful Farewell Deserves Great Food',
+  introH2: 'Farewell catering Dubai that lets you stay in the room',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Saying goodbye is never easy, but the right food and atmosphere can turn a farewell into a celebration of everything that has been achieved. Our farewell and retirement catering in Dubai is designed for office send-offs, retirement dinners, leaving parties and recognition events where colleagues, friends and family come together to honour a milestone.
+        Farewell catering Dubai is a send-off with a guest of honour, a clock and a room that may have to work again afterwards. An office lunch in DIFC, a rooftop reception, or a family retirement at home. Speeches need a gap in the food, not a buffet that never stops.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        we coordinate catering across Dubai for corporate farewells in DIFC and Business Bay, relaxed rooftop receptions in Dubai Marina, and intimate villa gatherings in Emirates Hills and Palm Jumeirah. Menus range from refined canapés and grazing tables to plated dinners, BBQ live stations and themed dessert displays. Our chefs handle setup, service and cleanup so hosts can focus on speeches, memories and the guest of honour.
+        A staffed buffet starts from AED 120 per person. Canapés from AED 150. Drop-off from AED 90. All before 5% VAT. The written quote itemises food, staff and VAT. Dietary notes go into the first draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service sits between our{' '}
+        A company send-off can sit next to{' '}
         <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           corporate event catering Dubai
-        </Link>{' '}
-        and{' '}
-        party catering Dubai{' '}
-        services. For a more private family celebration, explore our{' '}
+        </Link>
+        . A family night at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
-        </Link>{' '}
-        options.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Farewell & Retirement Catering Formats',
+  formatsH2: 'How a send-off is served',
   formats: [
     {
       Icon: Building,
-      title: 'Office Farewell Lunches',
-      description: 'Timed, tidy lunch spreads for boardrooms, staff canteens and office break-out areas across Dubai.',
+      title: 'Office farewell lunches',
+      description: 'A timed lunch for a boardroom or break-out space, packed before the next meeting.',
       link: '/office-catering-dubai',
     },
     {
       Icon: PartyPopper,
-      title: 'Rooftop & Venue Receptions',
-      description: 'Canapés, grazing tables and mocktail bars for venue-based leaving parties and retirement receptions.',
+      title: 'Rooftop and venue receptions',
+      description: 'Canapés and a drinks station for a standing leaving party.',
       link: '/events',
     },
     {
       Icon: Utensils,
-      title: 'Plated Retirement Dinners',
-      description: 'Elegant multi-course meals for intimate retirement celebrations with family and close colleagues.',
+      title: 'Plated retirement dinners',
+      description: 'A seated meal for family and close colleagues when the table is the event.',
       link: '/catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Private Villa Farewells',
-      description: 'fully-coordinated catering at home or in a villa for family-focused goodbye gatherings.',
+      title: 'Private villa farewells',
+      description: 'A house night: setup, service and clear-down so the hosts stay with their guest.',
       link: '/villas-private-residences',
     },
     {
       Icon: Briefcase,
-      title: 'Corporate Send-Off Buffets',
-      description: 'Styled buffets for larger company send-offs, department recognitions and long-service awards.',
+      title: 'Corporate send-off buffets',
+      description: 'A maintained spread for a larger team recognition or long-service sitting.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Heart,
-      title: 'Themed Cake & Dessert Tables',
-      description: 'Personalised cakes, memory-themed dessert tables and sweet stations that reflect the guest of honour.',
+      title: 'Cake and dessert tables',
+      description: 'A cake moment that does not collide with speeches. Quoted when you want us to supply it.',
       link: '/dessert-table-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE FAREWELL CATERING WORKS',
-  useCasesH2: 'Designed for Every Kind of Goodbye',
+  useCasesH2: 'Office, family, expat leaving dos',
   useCases: [
     {
-      title: 'Corporate Retirement Parties',
+      title: 'Corporate retirement parties',
       description:
-        'Celebrate decades of service with a polished corporate event that respects the retiree and brings teams together.',
+        'A team in the room, a speech, and food that can pause. Timing is part of the brief.',
     },
     {
-      title: 'Office Leaving Dos',
+      title: 'Office leaving dos',
       description:
-        'From casual Friday afternoon send-offs to formal leaving lunches, we make office goodbyes feel special without disrupting the workday.',
+        'Friday afternoon or a sit-down lunch. The kitchen should not keep the host away from the person leaving.',
     },
     {
-      title: 'Family Retirement Celebrations',
+      title: 'Family retirement celebrations',
       description:
-        'Host a relaxed family dinner at home to honour a parent or grandparent stepping into retirement.',
+        'A parent or grandparent at home. Mixed ages, a quieter table than an office reception.',
     },
     {
-      title: 'Expat Farewell Gatherings',
+      title: 'Expat farewell gatherings',
       description:
-        'Dubai is a transient city. We coordinate catering for expat leaving parties with menus that suit mixed nationalities and dietary preferences.',
+        'A mixed-nationality guest list. Dietary notes belong in the first draft, not on the night.',
     },
   ],
-  includedH2: "What's Included in Our Farewell & Retirement Catering",
+  includedH2: 'What a staffed farewell includes',
   includedItems: [
-    { title: 'Personalised Menu Planning', description: 'Menus tailored to the guest of honour, event tone and guest mix.' },
-    { title: 'Canapés & Grazing Tables', description: 'Stylish arrival bites and share platters perfect for mingling and speeches.' },
-    { title: 'Live Cooking Stations', description: 'Optional pasta, BBQ, carving or dessert stations that add theatre to the event.' },
-    { title: 'Mocktails & Soft Bars', description: 'Non-alcoholic drinks, fresh juices and themed beverages for all guests.' },
-    { title: 'Themed Dessert & Cakes', description: 'Farewell cakes, memory boards and dessert displays personalised for the occasion.' },
-    { title: 'Dietary Accommodations', description: 'Vegetarian, vegan, gluten-free, halal and allergy-aware options available.' },
-    { title: 'Professional Service Staff', description: 'Experienced chefs, servers and hosts who understand the tone of farewell events.' },
-    { title: 'Setup, Service & Cleanup', description: 'We manage the full event flow so hosts can be present with their guests.' },
+    { title: 'Menu written for the guest of honour', description: 'Dishes and a running order that leave space for speeches.' },
+    { title: 'Canapés and grazing', description: 'Standing food when people will mingle rather than sit.' },
+    { title: 'Live stations', description: 'Optional, when the room should move. Power and queue space belong in the brief.' },
+    { title: 'Drinks', description: 'Mocktails, juice, tea and coffee. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Cake', description: 'Quoted when you want us to supply it, or we plate a cake you bring.' },
+    { title: 'Dietary notes', description: 'Vegetarian, vegan, gluten-free, halal and allergy notes, labelled.' },
+    { title: 'Staff', description: 'Chefs and waiters sized to the format. Drop-off has no team remaining on site.' },
+    { title: 'Setup and cleanup', description: 'The office or house has to be usable in the morning.' },
   ],
-  galleryH2: 'A Taste of Our Farewell & Retirement Catering',
+  galleryH2: 'How farewell catering looks in Dubai',
   galleryImages: [
     { src: '/service-events.webp', alt: 'Farewell party catering set-up in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Canapés for a retirement celebration' },
@@ -124,50 +123,50 @@ const config: ServicePageConfig = {
     { src: '/service-corporate.webp', alt: 'Corporate farewell lunch setup' },
     { src: '/service-villa.webp', alt: 'Villa farewell party styling' },
   ],
-  faqsH2: 'Farewell & Retirement Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What types of farewell events do you cater?',
-      a: 'we coordinate catering for retirement parties, office leaving lunches, corporate send-offs, expat goodbye gatherings and private family farewell dinners across Dubai.',
+      a: 'Office leaving lunches, retirements, corporate send-offs, expat goodbyes and family dinners at home.',
     },
     {
       q: 'Can the menu reflect the guest of honour?',
-      a: 'Yes. We can incorporate favourite cuisines, themed desserts, branded signage and personal touches that celebrate the retiree or departing colleague.',
+      a: 'Yes. Favourite dishes and a cake moment can be written in. We still have to work with the kitchen and the clock.',
     },
     {
       q: 'Do you provide non-alcoholic drinks?',
-      a: 'Absolutely. We offer mocktails, fresh juices, flavoured waters, teas and coffees suitable for office and family events.',
+      a: 'Yes. Mocktails, juice, tea and coffee. Alcohol at a private residence is sourced by the host.',
     },
     {
       q: 'Can you cater at our office or venue?',
-      a: 'Yes. We provide office catering across Dubai as well as venue and villa-based farewell events with full setup and service.',
+      a: 'Yes. We cook at the office, venue or villa you have booked. Access and pack-down times belong in the brief.',
     },
     {
       q: 'How formal or casual can the event be?',
-      a: 'As formal or relaxed as you need. We provide everything from refined plated dinners to casual BBQs, grazing tables and buffet spreads.',
+      a: 'Drop-off, a buffet, canapés or a plated dinner. Format decides most of the price, not a mood word.',
     },
     {
       q: 'How far in advance should I book farewell catering?',
-      a: 'Two to four weeks is ideal, especially for venue events or custom menus. Office lunches can often be arranged with shorter notice — contact us on WhatsApp to check availability.',
+      a: 'Two to four weeks is the usual window. Office lunches can sometimes be arranged with shorter notice.',
     },
   ],
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'fully-coordinated catering for company events, award ceremonies and team gatherings.',
+      description: 'Company events where the brief is the business, not a personal send-off.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },
     {
       title: 'Private Party Catering',
-      description: 'Intimate home and villa parties with personalised menus and full service.',
+      description: 'The house night this farewell sitting redirects into.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },
   ],
-  ctaH2: 'Send Them Off With Catering Worth Remembering',
+  ctaH2: 'Send the date, guest of honour and room',
   ctaP:
-    'Tell us about the guest of honour, venue, guest count and preferred style. We will create a farewell or retirement menu that honours the moment and lets everyone celebrate together.',
+    'Tell us office or home, guest count and whether there are speeches. We send an itemised farewell catering Dubai quote.',
   showTrustSignalStrip: true,
 }
 

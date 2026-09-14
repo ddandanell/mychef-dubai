@@ -5,119 +5,122 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'dairy-free-catering-dubai',
-  seoTitle: 'Dairy-Free Catering Dubai | Lactose-Free Menus | myCHEF',
-  metaDescription: 'Book dairy-free catering in Dubai. Lactose-free menus with creamy plant-based alternatives for weddings, villas, offices and parties. Get a tailored.',
+  seoTitle: 'Dairy Free Catering Dubai | myCHEF',
+  metaDescription:
+    'Dairy Free Catering Dubai with a vetted myCHEF team. Menus without milk, cream, butter or cheese. Service and clear-down so you stay a guest at your table.',
   canonicalPath: '/allergy-safe-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/dairy-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Dairy-Free Catering Dubai',
-  h1: 'Dairy-Free Catering Dubai',
-  primaryCta: 'Get My Dairy-Free Catering Quote',
+  h1: 'Dairy Free Catering Dubai',
   heroSub:
-    'Lactose-free menus, dairy-free desserts and creamy alternatives for weddings, villa dinners, corporate events and celebrations across Dubai.',
+    'Dairy Free Catering Dubai is a written brief, not a last-minute swap. We take milk, cream, butter and cheese off the build, then cook and serve at your address.',
   heroImage: '/images/dairy-free-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan dairy-free catering in Dubai (via mychef.ae/dairy-free-catering-dubai)",
   eyebrow: 'LACTOSE-FREE CATERING IN DUBAI',
-  introH2: 'Dairy-Free Menus That Still Feel Indulgent',
+  introH2: 'Menus built without milk, cream, butter or cheese',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dairy-free catering has moved far beyond omission. With the right oils, nut milks, coconut creams and cultured alternatives, chefs in our network build menus that are every bit as rich, rounded and satisfying as their dairy-based equivalents. Whether your guests are lactose intolerant, vegan, or simply avoiding dairy, we create events where no one feels they are missing out.
+        Lactose-free and dairy-free are not the same brief. Tell us which you need. A lactose-free guest may still eat some aged cheese. A dairy-free guest needs milk, cream, butter, yoghurt and cheese off every course, including pastry and finishing sauces. Dietary notes go into the first menu draft.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Chefs in our network rebuild richness with olive oil, stocks, coconut cream and nut milks where nuts are allowed. If a guest is also nut-allergic, that goes on the brief before shopping. Partner kitchens are shared. We separate prep where the room allows and label the pass. We do not call that an allergen-free kitchen.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        From dairy-free wedding cakes to creamy risottos and luscious desserts, every course is designed without milk, cream, butter or cheese. Browse how this connects with our{' '}
+        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. For plant-based events see{' '}
         <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           vegan catering Dubai
-        </Link>{' '}
-        offering, see our full{' '}
+        </Link>
+        . For mixed diets see our{' '}
         <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           cuisine collection
-        </Link>{' '}
-        for mixed-diet inspiration, or read about our{' '}
+        </Link>
+        . For gluten, nuts and other allergens, start with{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           allergy-safe catering
-        </Link>{' '}
-        approach for events with multiple dietary needs.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Dairy-Free Formats for Every Occasion',
+  formatsH2: 'How dairy-free service runs in the room',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Dairy-Free Dinners',
-      description: 'Multi-course plated menus where creamy sauces, reductions and finishes are rebuilt using dairy-free techniques without losing depth.',
+      description: 'Courses written without milk, cream, butter or cheese. Sauces and finishes are rebuilt on the draft, not at the pass.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
       title: 'Dairy-Free Buffets',
-      description: 'Generous buffet lines with clearly labelled dairy-free mains, sides and salads, perfect for mixed groups and large celebrations.',
+      description: 'Labelled mains, sides and salads. Staff are briefed on what is dairy-free and what is not, so guests are not left guessing.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: MilkOff,
       title: 'Dairy-Free Canapés',
-      description: 'Elegant passed canapés and bowl food with no hidden butter or cream — ideal for receptions and cocktail events.',
+      description: 'Passed bites without hidden butter or cream. Useful when people stand and eat, and when one course has to work for the whole room.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Cake,
       title: 'Dairy-Free Desserts & Cakes',
-      description: 'Celebration cakes, mousses, tarts and patisserie made with plant-based creams and alternative milks.',
+      description: 'Cakes, tarts and mousses made with plant creams and alternative milks. Say so in the brief if a celebration cake is required.',
       link: '/dessert-table-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa Dairy-Free Dining',
-      description: 'At-home dairy-free dining across Dubai’s premium neighbourhoods, cooked and served on-site with full styling.',
+      description: 'Cooking and service in your kitchen or garden. We check the space before the night, then pack down so you stay with your guests.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Dairy-Free Lunches',
-      description: 'Inclusive office catering with individually packed dairy-free meals or labelled buffet options for boardroom wellness days.',
+      description: 'Packed meals or a labelled buffet for offices. The menu is written for the brief, not assembled from leftover dairy dishes.',
       link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE DAIRY-FREE CATERING WORKS',
-  useCasesH2: 'Built Around Real Guest Needs',
+  useCasesH2: 'Tell us the guest, not a slogan',
   useCases: [
     {
-      title: 'Lactose-Intolerant Guests',
+      title: 'Lactose-intolerant guests',
       description:
-        'Lactose intolerance is common, and a thoughtfully planned dairy-free menu means those guests can enjoy every course instead of navigating ingredient questions all evening.',
+        'Name the guest and the severity. We write a lactose-free or fully dairy-free line so they are not left asking the waiter all evening.',
     },
     {
-      title: 'Vegan & Plant-Forward Events',
+      title: 'Plant-forward tables',
       description:
-        'Dairy-free menus pair naturally with vegan catering. We can design a fully plant-based spread or simply remove dairy while keeping other proteins on the table.',
+        'Dairy-free can sit inside a vegan menu or beside other proteins. We do not assume vegan unless you say so. Eggs and honey stay on unless the brief removes them.',
     },
     {
-      title: 'Weddings & Milestone Celebrations',
+      title: 'Weddings and family tables',
       description:
-        'No one wants a wedding cake that only half the room can eat. Dairy-free desserts, canapés and mains let every guest participate fully in the celebration.',
+        'A cake only half the room can eat is a poor host moment. If the dessert must be dairy-free, it is designed as the dessert, not a side plate.',
     },
     {
-      title: 'Corporate Wellness Programs',
+      title: 'Office lunches',
       description:
-        'Offices running wellness weeks or inclusive lunch programs benefit from dairy-free options that feel contemporary rather than restrictive.',
+        'Inclusive lunches work when the dairy-free option is a proper main. Packed or buffet, it is labelled. You stay in the meeting.',
     },
   ],
-  includedH2: "What's Included in Our Dairy-Free Catering",
+  includedH2: 'What a dairy-free booking actually covers',
   includedItems: [
-    { title: 'No Milk, Cream, Butter or Cheese', description: 'Every element of the dairy-free menu is built without lactose-containing ingredients.' },
-    { title: 'Creamy Alternatives', description: 'Nut milks, coconut cream, olive oil and cultured plant-based ingredients recreate richness.' },
-    { title: 'Dairy-Free Bakery', description: 'Cakes, tarts and pastries made with alternative fats and milks for texture and flavour.' },
-    { title: 'Clear Menu Labelling', description: 'Guests know exactly which dishes are dairy-free, with staff briefed to answer questions.' },
-    { title: 'Custom Menu Design', description: 'Menus tailored to your occasion, guest count and any other dietary overlaps.' },
-    { title: 'On-Site Cooking & Service', description: 'Food cooked and finished at your venue by chefs in our network, served with full front-of-house support.' },
-    { title: 'Mixed-Diet Solutions', description: 'We can serve a fully dairy-free event or integrate options within a wider menu.' },
-    { title: 'Setup & Pack-Down', description: 'We bring equipment, serve and clear away, leaving your venue tidy.' },
+    { title: 'No milk, cream, butter or cheese', description: 'The dairy-free line is built without those ingredients, including hidden stocks and pastry fats.' },
+    { title: 'Creamy alternatives', description: 'Olive oil, coconut cream and nut milks where nuts are allowed. Nut allergy is a separate line on the brief.' },
+    { title: 'Dairy-free bakery', description: 'Cakes and pastry using alternative fats and milks. Texture is planned, not hoped for on the day.' },
+    { title: 'Clear labelling', description: 'Guests can see which dishes are dairy-free. Staff are briefed to answer, not to guess.' },
+    { title: 'Menu on the first draft', description: 'Dietary notes go into the first menu draft. You do not discover a gap two days before service.' },
+    { title: 'On-site cooking and service', description: 'Partner chefs cook and finish at your address. Front of house serves. The room is cleared.' },
+    { title: 'Mixed-diet tables', description: 'A fully dairy-free event, or dairy-free dishes inside a wider menu. Say which you want.' },
+    { title: 'Setup and pack-down', description: 'Equipment in, service, then pack-down. You stay a guest at your own table.' },
   ],
-  galleryH2: 'A Taste of Our Dairy-Free Catering',
+  galleryH2: 'What dairy-free service looks like',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Dairy-free appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Dairy-free canapé selection' },
@@ -126,56 +129,56 @@ const config: DietaryPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa dairy-free dinner styling' },
     { src: '/service-events.webp', alt: 'Dairy-free event catering in Dubai' },
   ],
-  faqsH2: 'Dairy-Free Catering Questions',
+  faqsH2: 'Dairy Free Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Is the menu completely free of milk, cream, butter and cheese?',
-      a: 'Yes. When you book dairy-free catering, every dish is prepared without milk, cream, butter, cheese or other dairy derivatives. We use alternative fats, milks and creams to maintain flavour and texture.',
+      a: 'On a dairy-free booking, yes. Those ingredients come off the written menu, including pastry and finishing sauces. Lactose-free is a different brief. Name which you need.',
     },
     {
-      q: 'Can you make dairy-free food taste rich and creamy?',
-      a: 'Absolutely. We use olive oil, coconut cream, cashew cream, nut milks and other techniques to create the same richness you would expect from traditional dairy-based sauces and desserts.',
+      q: 'Can dairy-free food still taste rich?',
+      a: 'It can, if the chef rebuilds the sauce rather than leaving a gap. Olive oil, stocks, coconut cream and nut milks are the usual tools. If nuts are also off, we write that before shopping.',
     },
     {
       q: 'Do you offer dairy-free celebration cakes?',
-      a: 'Yes. Our pastry team bakes dairy-free celebration cakes, tarts and dessert displays using plant-based butters and milks, so the sweet course is just as special.',
+      a: 'Yes, when the brief asks for one. Plant butters and milks are used for cakes, tarts and dessert tables. Say so on the first draft, not the night before.',
     },
     {
-      q: 'Can dairy-free catering also be vegan or gluten-free?',
-      a: 'We regularly combine dietary requirements. Let us know the full list of needs when planning and we will design a menu that covers dairy-free, vegan, gluten-free, nut-free or any other restrictions safely.',
+      q: 'Can dairy-free also be vegan or gluten-free?',
+      a: 'Those are extra lines on the same brief. Vegan also removes eggs and honey. Gluten-free removes wheat, barley and rye. Shared kitchens still carry cross-contact risk. We say so honestly.',
     },
     {
-      q: 'Is dairy-free catering suitable for lactose-intolerant guests?',
-      a: 'Yes. Because our dairy-free menus contain no lactose, they are suitable for lactose-intolerant guests. We also label dishes clearly so guests can choose confidently.',
+      q: 'Is this suitable for lactose-intolerant guests?',
+      a: 'A fully dairy-free menu contains no lactose. If the guest only needs lactose-free, tell us. We will not over-restrict the rest of the table unless you ask.',
     },
     {
-      q: 'How much notice do you need for dairy-free catering?',
-      a: 'One to three weeks is typical. Complex bakery items, tasting menus and peak-season dates benefit from earlier booking so we can source the best alternative ingredients.',
+      q: 'How is dairy-free catering Dubai priced?',
+      a: 'There is no single per-person figure. Guest count, the menu and how much of the work happens in the room move the quote. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and venue.',
     },
   ],
   relatedServices: [
     {
       title: 'Vegan Catering',
-      description: 'Fully plant-based menus that are naturally dairy-free and elegantly executed.',
+      description: 'Plant-based menus with no animal products, including dairy, eggs and honey.',
       image: '/menu-appetizer.webp',
       link: '/vegan-catering-dubai',
     },
     {
       title: 'Healthy Catering',
-      description: 'Nutrition-conscious menus for corporate wellness and balanced events.',
+      description: 'Balanced menus written around how this table actually eats.',
       image: '/service-corporate.webp',
       link: '/cuisines-dubai',
     },
     {
       title: 'Dessert Table Catering',
-      description: 'Show-stopping dessert displays, including dairy-free and alternative options.',
+      description: 'Dessert displays that can include a dairy-free line when the brief asks for it.',
       image: '/menu-dessert.webp',
       link: '/dessert-table-catering-dubai',
     },
   ],
-  ctaH2: 'Design Your Dairy-Free Menu',
+  ctaH2: 'Send the dairy brief with the date',
   ctaP:
-    'Share your event details and dietary needs. We will build a luscious dairy-free menu that every guest can enjoy without compromise.',
+    'Name the guests, what they cannot eat, and whether the whole table is dairy-free or only some plates. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function DairyFreeCatering() {

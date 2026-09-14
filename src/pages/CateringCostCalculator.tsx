@@ -105,8 +105,8 @@ export default function CateringCostCalculator() {
   return (
     <>
       <SEO
-        title="Catering Cost Calculator Dubai | Instant Price Estimate"
-        description="A catering cost calculator Dubai. Instant per-person pricing for villas, yachts, weddings and corporate events, plus private chef estimates."
+        title="Catering Cost Calculator Dubai | myCHEF"
+        description="Catering cost calculator Dubai: same published floors as the Catering hub. Pick format, guests and staff. Estimate only. Itemised quote follows."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -115,7 +115,7 @@ export default function CateringCostCalculator() {
       <PageHero
         eyebrow="PRICING TOOL"
         title="Catering Cost Calculator Dubai"
-        subtitle="Get an instant estimate for private chef and luxury catering services based on your guest count and service style."
+        subtitle="A catering cost calculator Dubai uses the same floors as the Catering hub. Choose format, guest count and staff level. The figure is an estimate. The written quote is the total."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cost Calculator' }]}
         minHeight="medium"
         overlay="dark"
@@ -128,7 +128,7 @@ export default function CateringCostCalculator() {
             <div className="bg-cream p-8 md:p-10">
               <div className="flex items-center gap-3 mb-8">
                 <Calculator className="text-gold" size={28} />
-                <h2 className="font-playfair text-h3 text-black">Estimate Your Event</h2>
+                <h2 className="font-playfair text-h3 text-black">Catering cost calculator Dubai</h2>
               </div>
 
               <div className="space-y-6">
@@ -198,7 +198,7 @@ export default function CateringCostCalculator() {
             {/* Result */}
             <div ref={resultRef} className="bg-black p-8 md:p-10 text-center md:text-left">
               <UtensilsCrossed className="text-gold mx-auto md:mx-0 mb-6" size={32} />
-              <h3 className="font-playfair text-h3 text-white mb-2">Estimated Investment</h3>
+              <h3 className="font-playfair text-h3 text-white mb-2">Working estimate</h3>
               <p className="font-inter text-body-sm text-gray-400 mb-8">
                 {`${formatFrom(selectedFormat.fromPerPerson).replace(' per person', '')} for ${selectedService.label.toLowerCase()} with ${selectedStaff.label.toLowerCase()}`}
               </p>
@@ -262,14 +262,14 @@ export default function CateringCostCalculator() {
       <section ref={faqRef} className="bg-cream section-padding">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-12">
-            Common Pricing Questions
+            What this calculator will not invent
           </h2>
 
           <div className="space-y-6">
             {[
               {
                 q: 'How much does a private chef cost in Dubai?',
-                a: 'Chef-led plated dining starts from AED 700 per person, the same floor as the Catering hub. Staffing can raise it. Household chef visit rates are separate, on the private chef pricing page.',
+                a: 'Chef-led plated dining starts from AED 700 per person, the same floor as the Catering hub. Staffing can raise it. Household chef visit rates are separate, on the private chef pricing page. This calculator is catering, not a monthly plan.',
               },
               {
                 q: 'Is there a minimum guest count?',
@@ -277,11 +277,11 @@ export default function CateringCostCalculator() {
               },
               {
                 q: 'What is included in the price?',
-                a: 'Most quotes include menu design, premium ingredients, chef travel, preparation, service, and basic cleanup. Staffing, glassware, tableware, and venue rentals are quoted separately based on your needs.',
+                a: 'The estimate is food plus the staff multiplier you picked. Glassware, extra hire, drinks and 5% VAT are confirmed on the written quote. Ingredients are not a hidden markup line.',
               },
               {
-                q: 'Can we customize the menu?',
-                a: 'Absolutely. Every menu is bespoke. We accommodate dietary requirements, cuisine preferences, and theme requests during the consultation process.',
+                q: 'Can we customise the menu?',
+                a: 'Yes. The calculator does not write dishes. The proposal does, from the occasion, the guest list and named diets.',
               },
             ].map((item) => (
               <div key={item.q} className="faq-item bg-white p-6 md:p-8">
@@ -299,16 +299,16 @@ export default function CateringCostCalculator() {
       <section className="bg-black py-20 md:py-28">
         <div className="container-custom text-center">
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            Catering Cost Calculator Dubai: Ready for Your Exact Quote?
+            Ready for the written figure?
           </h2>
           <p className="font-inter text-body text-gray-400 max-w-[600px] mx-auto mb-10">
-            Tell us about your event and we will craft a bespoke proposal tailored to your vision and budget.
+            Send the date, guest count and format. The calculator is a start. The itemised quote is the figure you book against.
           </p>
           <Link
             to="/inquiry"
             className="btn-primary inline-flex items-center gap-2"
           >
-            Get a Tailored Quote <ArrowRight size={16} />
+            Request your quote <ArrowRight size={16} />
           </Link>
         </div>
       </section>

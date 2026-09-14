@@ -39,69 +39,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const dessertFormats = [
   {
     icon: Cake,
-    title: 'Celebration Cakes',
-    description: 'Bespoke layered and tiered cakes designed around your theme, from elegant wedding cakes to playful birthday centrepieces.',
+    title: 'Centrepiece cake',
+    description: 'A cake written for the table: flavour, size and how it is cut. Wedding tiers and birthday cakes sit on the same kitchen.',
     link: '/catering-dubai',
   },
   {
     icon: Cookie,
-    title: 'French Patisserie',
-    description: 'Macarons, éclairs, tarts, and petits fours arranged into a refined patisserie display for sophisticated celebrations.',
+    title: 'Patisserie',
+    description: 'Macarons, éclairs, tarts and petits fours, counted to the guest list, not piled for a photograph.',
     link: '/catering-dubai',
   },
   {
     icon: Heart,
-    title: 'Wedding Dessert Tables',
-    description: 'Curated sweet tables and dessert stations styled to complement your wedding palette, florals, and venue.',
+    title: 'Wedding sweet table',
+    description: 'A dessert display next to the wedding catering, styled to the palette you already chose. The meal is a different page.',
     link: '/wedding-catering-dubai',
   },
   {
     icon: PartyPopper,
-    title: 'Birthday Sweet Tables',
-    description: 'Cakes, cupcakes, cookies, and themed confections that bring colour and delight to birthday celebrations of every age.',
+    title: 'Birthday sweet table',
+    description: 'Cake plus mini sweets for a mixed-age table. Children and adults are named in the brief.',
     link: '/birthday-catering-dubai',
   },
   {
     icon: Baby,
-    title: 'Baby Shower Desserts',
-    description: 'Soft, pastel dessert tables with delicate sweets, cake pops, and mini treats for a gentle baby shower celebration.',
+    title: 'Baby shower sweets',
+    description: 'A smaller table: cake, cake pops and labelled mini desserts. Diets go on the first draft.',
     link: '/baby-shower-catering-dubai',
   },
   {
     icon: Coffee,
-    title: 'Dessert & Coffee Stations',
-    description: 'Live dessert stations and barista-style coffee service to close corporate events and private dinners on a sweet note.',
+    title: 'Dessert and coffee',
+    description: 'A finish after a seated dinner. Coffee is an add-on, quoted, not assumed. Live dessert carts sit on live stations.',
     link: '/catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Bespoke Cake Design', description: 'A signature cake designed around your theme, palette, and flavour.' },
-  { title: 'Patisserie Selection', description: 'Macarons, tarts, éclairs, and petits fours from the pastry our chefs.' },
-  { title: 'Mini Sweets & Treats', description: 'Cupcakes, cake pops, cookies, and bite-sized confections.' },
-  { title: 'Styled Display', description: 'Tiered stands, cake plinths, glassware, and themed styling.' },
-  { title: 'Themed Presentation', description: 'Colour palettes, florals, and signage matched to your celebration.' },
-  { title: 'On-Site Set-Up', description: 'We build and style the dessert table at your venue.' },
-  { title: 'Dietary Options', description: 'Vegetarian, eggless, and gluten-free sweets arranged on request.' },
-  { title: 'Full Pack-Down', description: 'We clear and pack down the dessert table after your event.' },
+  { title: 'Cake', description: 'Flavour, size and design named on the quote. Matteo can lead pastry when the brief needs a pastry chef.' },
+  { title: 'Patisserie selection', description: 'Macarons, tarts, éclairs and petits fours counted to headcount.' },
+  { title: 'Mini sweets', description: 'Cupcakes, cake pops and cookies if the table needs them.' },
+  { title: 'Stands and plinths', description: 'We bring the display kit. You do not source it unless you want to.' },
+  { title: 'Styling to the brief', description: 'Colour and florals follow what you already planned, not a separate theme we invent.' },
+  { title: 'On-site build', description: 'We set the table at the villa or venue, timed to the running order.' },
+  { title: 'Dietary pieces', description: 'Eggless, gluten-free and other named needs labelled, not mixed through unmarked trays.' },
+  { title: 'Pack-down', description: 'We clear the table. Leftovers are packed if you want them.' },
 ]
 
 const useCases = [
   {
-    title: 'Wedding Sweet Tables',
-    description: 'A dessert table is one of the most photographed moments of a wedding. We curate cakes, patisserie, and sweet displays styled to your palette and florals, set up beautifully at your villa or venue across Dubai.',
+    title: 'Wedding sweet tables',
+    description: 'A dessert display beside the wedding meal. Cake and patisserie are counted to the guest list. Heat and air-conditioning decide what can sit out.',
   },
   {
-    title: 'Birthday Celebrations',
-    description: 'From first birthdays to milestone parties, our sweet tables bring colour, theme, and a centrepiece cake that becomes the heart of the celebration. We tailor flavours and styling to the guest of honour.',
+    title: 'Birthdays',
+    description: 'A centrepiece cake plus mini sweets. Mixed-age tables need both. The birthday catering page owns the rest of the night.',
   },
   {
-    title: 'Baby Showers & Gender Reveals',
-    description: 'Soft, pastel dessert tables with cake pops, mini treats, and a delicate centrepiece cake set the perfect tone for baby showers and reveal moments where presentation matters as much as taste.',
+    title: 'Baby showers',
+    description: 'A smaller sweet table. Pastel is a brief, not a promise. Diets and nut rules are written first.',
   },
   {
-    title: 'Corporate & Private Dinners',
-    description: 'Close a corporate event or private dinner with a refined dessert and coffee station. Live finishes, elegant patisserie, and barista-style service leave a lasting final impression on your guests.',
+    title: 'After a seated dinner',
+    description: 'Patisserie and coffee as a finish, not a second meal. A live cart belongs on live cooking stations if you want gelato or crepes cooked in front of guests.',
   },
 ]
 
@@ -180,7 +180,7 @@ const faqs = [
   { q: "Can a dessert table be part of full-service catering for my event?", a: "Yes. Our dessert tables slot seamlessly into full-service catering, so you can have canapés, a plated or buffet meal, and a styled sweet finish all handled by one team. Booking everything together keeps the styling cohesive and the logistics simple. See how it fits within our wider [catering in Dubai](/catering-dubai)." },
   {
     q: 'What goes into the dessert table catering Dubai price?',
-    a: 'There is no single number for dessert table catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no published per-person floor for the table alone. Guest count, cake, patisserie and staffing move the figure. Send the date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
   },
   {
     q: 'What is included in dessert table catering packages Dubai?',
@@ -190,26 +190,26 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Wedding Catering',
-    description: 'Full-service wedding dining, from canapés to sweet tables for your special day.',
+    title: 'Wedding catering',
+    description: 'The meal, the team and the clear-down. A sweet table is an add-on, not the wedding.',
     image: '/service-events.webp',
     link: '/wedding-catering-dubai',
   },
   {
-    title: 'Birthday Catering',
-    description: 'Custom cakes, themed menus, and full service for birthdays of every age.',
+    title: 'Birthday catering',
+    description: 'The rest of a birthday night. Cake can sit on this table or on that menu.',
     image: '/menu-dessert.webp',
     link: '/birthday-catering-dubai',
   },
   {
-    title: 'Baby Shower Catering',
-    description: 'Pastel dessert tables and afternoon-tea menus for an intimate baby shower.',
+    title: 'Baby shower catering',
+    description: 'Food for a shorter sitting. Sweets are optional and labelled.',
     image: '/menu-canapes.webp',
     link: '/baby-shower-catering-dubai',
   },
   {
-    title: 'Gelato & Dessert Cart',
-    description: 'Mobile gelato, crepe, candy and mini dessert carts for events of any size.',
+    title: 'Dessert cart',
+    description: 'Gelato or crepes as a live station, not a second dessert-table URL.',
     image: '/images/dessert-table-catering-dubai-hero.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -311,8 +311,8 @@ export default function DessertTableCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dessert Table Catering Dubai | Wedding & Birthday | myCHEF"
-        description="Bespoke dessert table catering Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote."
+        title="Dessert Table Catering Dubai | myCHEF"
+        description="Dessert table catering Dubai: cake, patisserie and a styled sweet table, built on site and packed down. Quoted with the rest of the catering, not as a shop price."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"
         hideSiteName
@@ -337,10 +337,10 @@ export default function DessertTableCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 des-hero-h1">
-            Dessert Table Catering Dubai — Weddings, Birthdays & Events
+            Dessert Table Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 des-hero-sub">
-            Custom cakes, French patisserie, and styled sweet tables for weddings, birthdays, and baby showers — designed to look as good as they taste.
+            Dessert table catering Dubai is a cake, counted patisserie and a table we build at the venue, then pack down. Quoted as catering, not as a bakery counter.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 des-hero-cta">Get a Dessert Table Quote</Link>
@@ -362,15 +362,15 @@ export default function DessertTableCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">PATISSERIE & SWEET TABLES</SectionLabel>
+          <SectionLabel align="center">CAKE, PATISSERIE, A TABLE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The Sweetest Moment of the Day
+            What dessert table catering Dubai is
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, pastry our chefs — including <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Matteo</Link> — build dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
+            Dessert table catering Dubai is a centrepiece cake, counted sweets and a display we build on site. There is no published per-person floor for the table alone. It is quoted with the rest of the catering, or as a defined add-on. <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry chef Matteo Moretti</Link> leads pastry when the brief needs that kitchen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an elegant <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding sweet table</Link>, a colourful <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday dessert display</Link>, a pastel baby shower, or a refined dessert and coffee station to close a dinner, our chefs design, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            A <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding</Link> sweet table sits next to the meal, not instead of it. Birthdays, baby showers and a finish after dinner use the same method: guest count, heat, diets, pack-down. A gelato cart is a live station, not this page. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the rest of the night.
           </p>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function DessertTableCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">DESSERT FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Sweet Tables for Every Occasion
+              How the table is built
             </h2>
           </div>
 
@@ -415,7 +415,7 @@ export default function DessertTableCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE DESSERT TABLES SHINE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Styled for Every Celebration
+              When a sweet table is enough
             </h2>
           </div>
 
@@ -434,7 +434,7 @@ export default function DessertTableCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Dessert Tables Include
+            What the dessert table quote lists
           </h2>
 
           <div className="des-inc-grid grid md:grid-cols-2 gap-6">
@@ -455,7 +455,7 @@ export default function DessertTableCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Dessert Tables
+            Cake and patisserie in the room
           </h2>
 
           <div className="des-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -545,10 +545,10 @@ export default function DessertTableCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center des-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Design Your Dessert Table
+            Send the occasion, the headcount and the cake brief
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll create a cake and dessert table styled to your theme, palette, and guest count.
+            Date, guest count and whether this is a table on its own or a finish after the meal. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a Dessert Table Quote</Link>

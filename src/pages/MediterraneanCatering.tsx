@@ -40,19 +40,19 @@ const menuHighlights = [
   {
     icon: Fish,
     title: 'Fresh Seafood',
-    description: 'Grilled sea bass, octopus, prawns, and whole fish dressed simply with lemon, herbs, and good olive oil — the coastal heart of the Mediterranean table.',
+    description: 'Grilled sea bass, octopus, prawns, and whole fish dressed simply with lemon, herbs, and good olive oil, the coastal heart of the Mediterranean table.',
     link: '/catering-dubai',
   },
   {
     icon: Soup,
     title: 'Greek Mezze',
-    description: 'Tzatziki, melitzanosalata, dolmades, spanakopita, and warm pita — a bright, generous spread of small plates to open the meal.',
+    description: 'Tzatziki, melitzanosalata, dolmades, spanakopita and warm pita. A Greek opening table, not Levantine mashawi.',
     link: '/grazing-table-dubai',
   },
   {
     icon: Salad,
     title: 'Garden Salads & Grains',
-    description: 'Horiatiki village salad, tabbouleh, roasted vegetables, and freekeh or bulgur bowls — fresh, colourful, and naturally light.',
+    description: 'Horiatiki village salad, tabbouleh, roasted vegetables, and freekeh or bulgur bowls, fresh, colourful, and naturally light.',
     link: '/cuisines-dubai',
   },
   {
@@ -64,7 +64,7 @@ const menuHighlights = [
   {
     icon: Droplet,
     title: 'Olive Oil & Herbs',
-    description: 'Cold-pressed olive oils, fresh herbs, capers, and lemon define every plate — a cuisine that lets pristine ingredients speak for themselves.',
+    description: 'Cold-pressed olive oils, fresh herbs, capers, and lemon define every plate, a cuisine that lets pristine ingredients speak for themselves.',
     link: '/catering-dubai',
   },
   {
@@ -82,7 +82,7 @@ const useCases = [
   },
   {
     title: 'Wellness-Minded Celebrations',
-    description: 'For hosts who want their guests to feel good after eating, the Mediterranean diet — olive oil, seafood, vegetables, and grains — delivers a meal that is as healthy as it is satisfying.',
+    description: 'For hosts who want their guests to feel good after eating, the Mediterranean diet, olive oil, seafood, vegetables, and grains, delivers a meal that is as healthy as it is satisfying.',
   },
   {
     title: 'Villa & Family Gatherings',
@@ -97,10 +97,10 @@ const useCases = [
 const includedItems = [
   { title: 'Coastal Menu Design', description: 'Seafood-led or plant-forward menus built around your guests and the season.' },
   { title: 'Fresh Seafood', description: 'Grilled fish, prawns, and shellfish sourced for quality and prepared simply.' },
-  { title: 'Greek & Levantine Mezze', description: 'A bright spread of dips, salads, and small plates to open the meal.' },
+  { title: 'Greek mezze', description: 'Tzatziki, dolmades, spanakopita and pita to open the meal. Levantine mashawi sits on Arabic catering.' },
   { title: 'Chargrilled Mains', description: 'Souvlaki, lamb, halloumi, and herb-grilled vegetables cooked over flame.' },
   { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
-  { title: 'Vegetarian & Vegan', description: 'Plentiful plant-based dishes — a natural strength of Mediterranean cuisine.' },
+  { title: 'Vegetarian & Vegan', description: 'Plentiful plant-based dishes, a natural strength of Mediterranean cuisine.' },
   { title: 'Light, Healthy Balance', description: 'Olive oil, fresh herbs, and vegetables for menus that feel good to eat.' },
   { title: 'Full Setup & Service', description: 'Styling, waiters, on-site coordination, and full pack-down included.' },
 ]
@@ -141,11 +141,11 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What does Mediterranean catering include?',
-    a: 'Our Mediterranean menus draw on Greek and coastal traditions — fresh seafood, generous mezze, garden salads, chargrilled mains, and dishes built on olive oil and herbs. We can lead with seafood, keep it plant-forward, or blend both to suit your event.',
+    a: 'Our Mediterranean menus draw on Greek and coastal traditions, fresh seafood, generous mezze, garden salads, chargrilled mains, and dishes built on olive oil and herbs. We can lead with seafood, keep it plant-forward, or blend both to suit your event.',
   },
   {
     q: 'Is Mediterranean food a healthy choice for guests?',
-    a: 'Yes. The Mediterranean style — olive oil, seafood, vegetables, grains, and fresh herbs — is widely regarded as one of the healthiest ways to eat. It suits wellness-minded hosts and works beautifully for summer and poolside events.',
+    a: 'Yes. The Mediterranean style, olive oil, seafood, vegetables, grains, and fresh herbs, is widely regarded as one of the healthiest ways to eat. It suits wellness-minded hosts and works beautifully for summer and poolside events.',
   },
   {
     q: 'Can you cater for vegetarian and vegan guests?',
@@ -164,27 +164,27 @@ const faqs = [
     a: 'For smaller gatherings, one to two weeks is ideal. For larger or fully styled events, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
   },
   { q: "How much does Mediterranean catering cost per person in Dubai?", a: "Mediterranean catering in Dubai is priced by custom quote, because the cost per head depends on your guest count, menu, format, and whether you want serving staff or live grill stations. A shared mezze-and-grill spread sits at one level, while a fully plated seafood dinner with premium fish sits higher; tell us your numbers and we'll send a clear, itemised proposal with no hidden add-ons. You can compare formats and typical ranges in our [Dubai catering prices guide](/dubai-catering-prices-guide)." },
-  { q: "Is there a minimum number of guests for Mediterranean catering?", a: "No, we cater Mediterranean menus for everything from an intimate villa dinner for two to large events of several hundred guests. Many Dubai caterers impose a 50-guest minimum, but we design around your actual party size — smaller gatherings simply get a menu scaled to suit. Just [tell us your guest count](/contact) and we'll build the right menu and quote." },
+  { q: "Is there a minimum number of guests for Mediterranean catering?", a: "No, we cater Mediterranean menus for everything from an intimate villa dinner for two to large events of several hundred guests. Many Dubai caterers impose a 50-guest minimum, but we design around your actual party size, smaller gatherings simply get a menu scaled to suit. Just [tell us your guest count](/contact) and we'll build the right menu and quote." },
   { q: "What exactly is included in the price you quote?", a: "Every Mediterranean catering quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. Unlike food-only drop-off caterers, we handle the whole experience end to end, so there are no surprise charges for setup or pack-down. Serving staff are optional and 5% VAT applies to the final quote." },
-  { q: "Do you charge an extra service charge on top of the quote?", a: "No, we don't add a separate 10–20% service charge like many Dubai caterers do — the price we quote is the price you pay, plus the standard 5% VAT. Your proposal spells out food, cooking, service, and cleanup as one transparent figure so you can budget with confidence. If anything changes, we re-quote openly rather than surprising you on the day." },
+  { q: "Do you charge an extra service charge on top of the quote?", a: "No, we don't add a separate 10–20% service charge like many Dubai caterers do, the price we quote is the price you pay, plus the standard 5% VAT. Your proposal spells out food, cooking, service, and cleanup as one transparent figure so you can budget with confidence. If anything changes, we re-quote openly rather than surprising you on the day." },
   { q: "Are your chefs and kitchens licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, which matters most for Mediterranean menus built around fresh seafood and raw salads. We handle cold-chain sourcing, safe handling, and hygienic on-site preparation as a matter of routine. You can read more about our team and standards on our [about page](/about)." },
   { q: "Can I taste the Mediterranean menu before I book a large event?", a: "Yes, for larger events and weddings we can arrange a tasting so you can experience the mezze, grills, and seafood before committing. It's the best way to fine-tune flavours, portion sizes, and presentation to match your celebration. See how a curated multi-course tasting works on our tasting menu Dubai page, then let us set one up." },
-  { q: "Do you offer buffet, sharing platters, or plated Mediterranean service?", a: "We offer all three — a generous mezze buffet, relaxed sharing platters, or an elegant plated seafood dinner, depending on the mood of your event. Buffets and sharing styles suit villa lunches and poolside parties, while plated courses bring polish to corporate and refined dining. We'll recommend the format that fits your guests, venue, and budget." },
+  { q: "Do you offer buffet, sharing platters, or plated Mediterranean service?", a: "We offer all three, a generous mezze buffet, relaxed sharing platters, or an elegant plated seafood dinner, depending on the mood of your event. Buffets and sharing styles suit villa lunches and poolside parties, while plated courses bring polish to corporate and refined dining. We'll recommend the format that fits your guests, venue, and budget." },
   { q: "Can you set up a live grill or souvlaki station at my event?", a: "Yes, a live charcoal grill is one of the most popular ways to serve Mediterranean food, with souvlaki, whole fish, halloumi, and lamb cooked in front of your guests. It adds theatre and keeps everything hot and fresh from flame to plate. Explore the format on our [live cooking stations Dubai](/live-cooking-stations-dubai) page." },
   { q: "Do you provide serving staff and waiters for Mediterranean catering?", a: "Yes, professional serving staff and waiters are optional and easy to add to any Mediterranean booking. For a relaxed sharing lunch you may not need them, but for plated dinners, corporate receptions, or larger parties they keep service smooth and let you host without lifting a finger. We'll suggest the right staffing level for your guest count and format." },
   { q: "How do you handle guests with allergies or gluten-free and dairy-free needs?", a: "We build around dietary needs carefully, and Mediterranean cuisine is naturally friendly to gluten-free, dairy-free, and nut-free eating with grilled fish, vegetables, salads, and olive-oil-based dishes. Tell us about any allergies when you plan and we'll flag safe dishes and prepare them with care to avoid cross-contact. See more on our [allergy-safe catering Dubai](/allergy-safe-catering-dubai) page." },
   { q: "Do you cater Mediterranean menus at villas, rooftops, and beach or poolside venues?", a: "Yes, we cater Mediterranean events at private villas, rooftops, gardens, beaches, and poolsides across Dubai, and light coastal menus are especially suited to outdoor and warm-weather settings. Our chefs bring the equipment to cook on-site wherever you are, then handle full cleanup afterwards. Learn how we work in homes on our [villas and private residences](/villas-private-residences) page." },
-  { q: "Can you cater a Mediterranean menu on a yacht?", a: "Yes, fresh, light Mediterranean food is a natural fit for a day on the water — seafood platters, mezze, salads, and chilled dishes that travel and serve beautifully at sea. We plan the menu and logistics around your charter's galley space and guest count so everything arrives fresh and ready. See our [yacht catering](/yachts) page for how we handle events afloat." },
-  { q: "How far in advance should I book Mediterranean catering in Dubai?", a: "For smaller gatherings, one to two weeks is usually enough, while larger or fully styled events are best booked two to four weeks ahead. During peak season from November to March, dates fill quickly, so earlier is always safer. If your event is soon, message us anyway — we'll always try to make it work." },
-  { q: "How quickly will I hear back after I send an enquiry?", a: "We typically reply within about 15 minutes during business hours, so you can plan your Mediterranean event without waiting days for a quote. Send us your date, guest count, and venue and we'll come back with menu ideas and a clear proposal. Start on our [inquiry page](/inquiry) or message us on WhatsApp for the fastest response." },
+  { q: "Can you cater a Mediterranean menu on a yacht?", a: "Yes, fresh, light Mediterranean food is a natural fit for a day on the water, seafood platters, mezze, salads, and chilled dishes that travel and serve beautifully at sea. We plan the menu and logistics around your charter's galley space and guest count so everything arrives fresh and ready. See our [yacht catering](/yachts) page for how we handle events afloat." },
+  { q: "How far in advance should I book Mediterranean catering in Dubai?", a: "For smaller gatherings, one to two weeks is usually enough, while larger or fully styled events are best booked two to four weeks ahead. During peak season from November to March, dates fill quickly, so earlier is always safer. If your event is soon, message us anyway, we'll always try to make it work." },
+  { q: "How quickly will I hear back after I send an enquiry?", a: "We typically reply during business hours, so you can plan your Mediterranean event without waiting days for a quote. Send us your date, guest count, and venue and we'll come back with menu ideas and a clear proposal. Start on our [inquiry page](/inquiry) or message us on WhatsApp for the fastest response." },
   { q: "What's the difference between hiring you and booking a restaurant's Mediterranean catering?", a: "With us, your chef cooks fresh on-site at your venue, so seafood and grills are served straight from the flame rather than reheated after transport. A restaurant delivers pre-made trays, while we bring menu design, live cooking, plating, service, and cleanup as one seamless experience. It's the difference between food dropped off and a proper Mediterranean event hosted for you." },
-  { q: "Is Mediterranean catering suitable for a corporate lunch or company event?", a: "Yes, Mediterranean menus work beautifully for corporate dining — light, healthy, and broadly appealing across mixed teams and dietary preferences. We can serve an elegant plated lunch, a shared mezze spread, or a live grill station depending on the tone of your event. See our [corporate event catering Dubai](/corporate-event-catering-dubai) options for the full range." },
+  { q: "Is Mediterranean catering suitable for a corporate lunch or company event?", a: "Yes, Mediterranean menus work beautifully for corporate dining, light, healthy, and broadly appealing across mixed teams and dietary preferences. We can serve an elegant plated lunch, a shared mezze spread, or a live grill station depending on the tone of your event. See our [corporate event catering Dubai](/corporate-event-catering-dubai) options for the full range." },
 ]
 
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
+    description: 'Drop-off, buffet, stations or a chef at the table. Food, service and pack-down at your address.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -298,10 +298,11 @@ export default function MediterraneanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Mediterranean Catering Dubai | Greek, Lebanese & Seafood"
-        description="Mediterranean catering Dubai for villas, summer events & corporate dining. Greek mezze, fresh seafood, chargrilled mains & olive-oil-led menus. Get a quote."
+        title="Mediterranean Catering Dubai | myCHEF"
+        description="Mediterranean Catering Dubai with a vetted myCHEF team. Greek, coastal and vegetable-forward menus. You stay a guest at your own table."
         canonicalPath="/mediterranean-catering-dubai"
         ogImage="/menu-seafood.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -326,10 +327,10 @@ export default function MediterraneanCatering() {
             Mediterranean Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 med-hero-sub">
-            Fresh seafood, Greek mezze, chargrilled mains, and bright, olive-oil-led dishes — light, healthy, sun-soaked menus brought to villas, summer events, and refined dining across Dubai.
+            Mediterranean Catering Dubai is Greek mezze, grilled fish and vegetable-forward plates. Not Levantine mashawi. That brief sits on Arabic catering. We cook at your address.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 med-hero-cta">Get My Mediterranean Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 med-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -349,16 +350,16 @@ export default function MediterraneanCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">FRESH MEDITERRANEAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Sun, Sea, and the Simplicity of Good Ingredients
+            Greek, coastal, vegetable-forward. Heat when the room allows.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The Mediterranean table is a celebration of restraint — pristine seafood, ripe vegetables, good olive oil, and fresh herbs, allowed to taste of themselves. It is bright, generous, and naturally light: a cuisine that leaves guests satisfied rather than heavy. At myCHEF Dubai, your chef prepares in that spirit, sourcing seafood and produce for quality and dressing each plate with little more than lemon, oil, and care.
+            Mediterranean Catering Dubai is olive oil, grilled fish, Greek mezze, salads and vegetables that fill a plate. Charcoal belongs on an outdoor villa plot. Apartment balconies and yachts have fire limits. Levantine mashawi, ouzi and Arabic coffee sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link>. We do not pretend those are the same kitchen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Spanning Greek mezze, coastal grills, garden salads, and shared seafood platters, our Mediterranean menus — developed alongside <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link> — suit poolside parties, villa lunches, wellness-minded celebrations, and refined corporate dining. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and our chefs handle styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or explore our <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering Dubai</Link> menus. For seafood-focused dining, see <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering in Dubai</Link>.
+            Pasta and risotto belong on <Link to="/italian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Italian catering Dubai</Link>. A fish-led table without red meat sits with <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Halal meat is the default. Pork is not assumed.
           </p>
         </div>
       </section>
@@ -533,13 +534,13 @@ export default function MediterraneanCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center med-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Mediterranean Menu
+            Send the coastal brief with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design a fresh, coastal Mediterranean menu that suits your guests, dietary needs, and the scale of your occasion.
+            Name fish-led or vegetable-forward, and whether the room can take a grill. We put dietary notes on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Mediterranean Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

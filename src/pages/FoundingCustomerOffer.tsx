@@ -50,7 +50,7 @@ const inclusions = [
   {
     icon: Gift,
     title: 'Complimentary Upgrades',
-    description: 'Enjoy periodic upgrades such as extra courses, welcome canapés, premium table styling, or additional service staff — included at no extra charge.',
+    description: 'Enjoy periodic upgrades such as extra courses, welcome canapés, premium table styling, or additional service staff: included at no extra charge.',
   },
 ]
 
@@ -201,7 +201,7 @@ export default function FoundingCustomerOffer() {
     <div ref={containerRef}>
       <SEO
         title="myCHEF Founding Customer Offer | myCHEF"
-        description="myCHEF Founding Customer Offer — Join myCHEF Dubai as a founding customer. Exclusive pricing, priority booking, and premium perks for early members who…"
+        description="myCHEF founding customer offer: Silver from AED 2,500 a year, Gold from AED 5,500, Platinum from AED 12,000. Rate locked 12 months. Chef still quoted separately."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/home-hero.webp"
         schema={schema}
@@ -228,7 +228,7 @@ export default function FoundingCustomerOffer() {
             myCHEF Founding Customer Offer
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fc-hero-sub">
-            Be among the first to experience myCHEF Dubai. Founding customers lock in exclusive pricing, priority chef matching, and premium perks for 12 months.
+            Silver from AED 2,500 a year, Gold from AED 5,500, Platinum from AED 12,000. The founding rate is locked for 12 months. The chef and the food are still quoted as a booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fc-hero-cta">Join as a Founding Customer</Link>
@@ -250,22 +250,19 @@ export default function FoundingCustomerOffer() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">LIMITED FOUNDING MEMBERSHIP</SectionLabel>
+          <SectionLabel align="center">A 12-MONTH RATE, NOT A MEAL</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Premium Perks for Early Believers
+            myCHEF founding customer offer is a locked rate for a year
           </h2>
           <div className="fc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and bring you a vetted private chef in Dubai within 24 hours.
+              Founding membership locks the published founding rate for 12 months from the date you join. It does not include the chef, the groceries or the event. Those are still quoted as bookings.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              In return for joining early, we reserve priority access to our most experienced, vetted chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.
+              After the year you can renew at the then-current membership rate, or book as a guest. We do not promise a chef within 24 hours. We match the brief to who is available.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore more ways to dine with us: <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>, <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.
+              Also see <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>, the <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
             </p>
           </div>
         </div>

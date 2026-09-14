@@ -13,24 +13,24 @@ export default function DateNightPackage() {
   return (
     <PackagePageTemplate
       name={pkg.name}
-      seoTitle="Date Night Package Dubai | Private Chef for Two | myCHEF"
-      description="Date Night Package Dubai: private chef dinner for two from AED 1,200. Bespoke 3-course menu, elegant plating, and full cleanup. Get a quote in 15 minutes."
-      intro="The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft."
+      seoTitle="Date Night Package Dubai | myCHEF"
+      description="Date night package Dubai: AED 1,200 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately."
+      intro="Date night package Dubai is a published total for two: AED 1,200 for a three-course dinner cooked in your kitchen, served at your table and cleared after. That is a package price, not chef-led plated dining at AED 700–950 per person. Dietary notes go into the first menu draft. Halal is the default. Wine or cocktails only where the quotation says so."
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"
-      headline="Date Night Package Dubai: Private Chef Dinner for Two"
-      eyebrow="ROMANTIC DINING PACKAGE"
-      subheadline="An intimate private chef dinner for two — designed around your tastes and served in the comfort of your own space."
+      headline="Date Night Package Dubai"
+      eyebrow="DINNER FOR TWO"
+      subheadline="AED 1,200 for two guests. Three courses, a chef in the kitchen, the table set, the kitchen left as we found it."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
       included={[
-        'Bespoke 3-course menu designed for two',
-        'Private chef and in-home preparation',
-        'Table setting and elegant plating',
-        'Premium ingredients sourced for the occasion',
-        'Full kitchen cleanup after the meal',
-        'Optional wine or mocktail pairing suggestions',
+        'A three-course menu written for two',
+        'Chef cooking in your kitchen',
+        'Table setting and plating',
+        'Ingredients for that menu',
+        'Kitchen clear-down after the meal',
+        'Mocktail pairing notes if you ask. Wine only where the quotation says so',
       ]}
       sampleMenu={[
         'Starter: Burrata with heirloom tomatoes and basil oil',
@@ -38,46 +38,46 @@ export default function DateNightPackage() {
         'Dessert: Warm chocolate fondant with vanilla bean ice cream',
       ]}
       addOns={[
-        'Wine pairing consultation and sourcing',
-        'Fresh flower arrangement and table styling',
-        'Live musician or saxophonist',
-        'Photographer to capture the evening',
-        'Signature mocktail or cocktail bar',
+        'Wine pairing, only where the venue is licensed or the quotation says so',
+        'Flowers and table styling, quoted separately',
+        'A musician, if you want one introduced. Not included in AED 1,200',
+        'A photographer, quoted separately if you ask us to introduce one',
+        'A mocktail bar. Cocktails only where licensed',
       ]}
       faqs={[
         {
           q: 'Where can the Date Night package be served?',
-          a: 'Anywhere in Dubai — your apartment, villa, hotel suite, or a private venue. The chef brings ingredients and equipment, prepares the meal on-site, and cleans up afterwards.',
+          a: 'Your apartment, villa, hotel suite or a private venue in Dubai. The chef brings ingredients and kit, cooks on site and clears. Access rules are yours to confirm with the building.',
         },
         {
           q: 'Can the menu be customised for dietary restrictions?',
-          a: 'Yes. Every Date Night menu is bespoke. We accommodate halal, vegetarian, vegan, gluten-free, dairy-free, nut-free, and other requirements.',
+          a: 'Yes. Halal is the default. Vegetarian, vegan, gluten-free and named allergies go into the first draft.',
         },
         {
           q: 'How far in advance should I book?',
-          a: 'We recommend booking at least one week in advance. Last-minute requests are sometimes possible depending on chef availability.',
+          a: 'A week is comfortable. Sooner is possible when a chef is free. We will not invent availability.',
         },
         {
           q: 'Is the AED 1,200 price fixed?',
-          a: 'AED 1,200 is the starting price for a 3-course menu for two. Premium ingredients such as wagyu, truffles, or caviar, or additional courses and services, will affect the final quote.',
+          a: 'AED 1,200 is the published package total for a three-course dinner for two. Extra courses, named luxury ingredients and drinks sit on the quote as extra lines. 5% VAT is shown separately.',
         },
       ]}
       relatedServices={[
         {
-          title: 'Private Chef Dubai',
-          description: 'Fully bespoke private dining experiences for any occasion.',
+          title: 'Private chef Dubai',
+          description: 'A standing household chef is a different product. One dinner for two is this package.',
           image: '/service-private-chef.webp',
           link: '/private-chef-dubai',
         },
         {
-          title: 'Luxury Dining Experiences',
-          description: 'Multi-course tasting menus and celebration dining.',
+          title: 'Luxury dining',
+          description: 'Tasting menus and celebration dinners when the table is larger than two.',
           image: '/service-luxury-dining.webp',
           link: '/luxury-dining-experiences',
         },
         {
-          title: 'Catering Packages Dubai',
-          description: 'Explore all our starter packages and starting prices.',
+          title: 'Catering packages',
+          description: 'Date Night, Family, Birthday and Corporate Dinner as published totals.',
           image: '/images/catering-packages-dubai-hero.webp',
           link: '/catering-packages-dubai',
         },

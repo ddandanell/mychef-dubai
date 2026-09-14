@@ -44,67 +44,67 @@ const categories = ['All', 'Weddings', 'Yachts', 'Villas', 'Corporate', 'Private
 const caseStudies = [
   {
     slug: 'villa-wedding-reception-emirates-hills',
-    title: 'Villa Wedding Reception, Emirates Hills',
+    title: 'Villa wedding reception',
     category: 'Weddings',
-    guests: 80,
-    menu: 'Arabic-Mediterranean fusion, plated + live stations',
-    outcome: 'A seamless evening of roaming canapés, live grilling, and family-style sharing plates that kept guests moving and the dance floor full.',
+    guests: 'Typical villa sitting',
+    menu: 'Canapés, then plated or stations, sized to the kitchen',
+    outcome: 'We do not publish named client results. A villa wedding is usually run as canapés, a seated or station meal, then clear-down. Alcohol only where the house allows it.',
     image: '/images/villa-catering-dubai-hero.webp',
   },
   {
     slug: 'yacht-birthday-celebration-dubai-marina',
-    title: 'Yacht Birthday Celebration, Dubai Marina',
+    title: 'Yacht birthday',
     category: 'Yachts',
-    guests: 25,
-    menu: 'Sunset canapés, BBQ, signature mocktails',
-    outcome: 'A sunset deck reception with passed bites, fresh grills, and alcohol-free craft drinks served as the yacht cruised the marina.',
+    guests: 'Typical deck sitting',
+    menu: 'Passed food, grill if the vessel allows it, soft drinks as standard',
+    outcome: 'We do not publish named client results. Yacht catering is planned around galley size, boarding and holding. The commercial page is yacht catering.',
     image: '/images/yacht-catering-dubai-hero.webp',
   },
   {
     slug: 'corporate-gala-dinner-downtown-dubai',
-    title: 'Corporate Gala Dinner, Downtown Dubai',
+    title: 'Company gala dinner',
     category: 'Corporate',
-    guests: 200,
-    menu: 'Four-course plated menu with sommelier service',
-    outcome: 'A polished seated dinner executed across a large ballroom with precise timing, dietary coverage, and full front-of-house staffing.',
+    guests: 'Seated awards night',
+    menu: 'Courses timed to speeches. Wine only where the venue is licensed.',
+    outcome: 'We do not publish named client results. A gala is a seated night with a clock. The commercial page is gala dinner catering.',
     image: '/images/corporate-catering-dubai-hero.webp',
   },
   {
     slug: 'intimate-anniversary-dinner-palm-jumeirah',
-    title: 'Intimate Anniversary Dinner, Palm Jumeirah',
+    title: 'Small villa dinner',
     category: 'Villas',
-    guests: 8,
-    menu: 'Seven-course tasting menu with a private chef',
-    outcome: 'A chef-hosted evening in a private villa with paired courses, personal menu notes, and discreet service for a milestone celebration.',
+    guests: 'A known table',
+    menu: 'Chef-led plated courses in the house kitchen',
+    outcome: 'We do not publish named client results. A small dinner at home is catering, quoted as a night, not a household plan.',
     image: '/images/romantic-dinner-dubai-hero.webp',
   },
   {
     slug: 'product-launch-difc',
-    title: 'Product Launch, DIFC',
+    title: 'Product launch reception',
     category: 'Corporate',
-    guests: 60,
-    menu: 'Branded canapés and live chef station',
-    outcome: 'A high-energy launch with logo-etched bites, interactive cooking, and timed service aligned to the product reveal moment.',
+    guests: 'Standing crowd',
+    menu: 'Canapés that can pause for the reveal',
+    outcome: 'We do not publish named client results. Food does not sit on laptops. The commercial page is product launch catering.',
     image: '/images/cocktail-party-catering-dubai-hero.webp',
   },
   {
     slug: 'family-eid-gathering-arabian-ranches',
-    title: 'Family Eid Gathering, Arabian Ranches',
+    title: 'Family Eid gathering',
     category: 'Private Parties',
-    guests: 40,
-    menu: 'Buffet with Arabic grills, salads, and desserts',
-    outcome: 'A warm family buffet with live Arabic grill service, fresh breads, and a dessert table that carried guests from lunch into the evening.',
+    guests: 'A family table, not a ballroom',
+    menu: 'Sharing buffet, Arabic grills when the brief asks for them',
+    outcome: 'We do not publish named client results. A family sitting is planned around the house, the headcount and the dietary list you send.',
     image: '/images/arabic-catering-dubai-hero.webp',
   },
 ]
 
 const whatsIncluded = [
-  { title: 'The Client Brief', description: 'How the event started: guest count, venue, theme, and what the host wanted to achieve.' },
-  { title: 'Menu Concept & Cuisine', description: 'The cuisine style, signature dishes, and how the menu reflected the occasion.' },
-  { title: 'Service Style & Staffing', description: 'Plated, buffet, live stations, or family-style — and the team that made it happen.' },
-  { title: 'Dietary & Cultural Care', description: 'How halal, allergen, and cultural requirements were handled without compromise.' },
-  { title: 'Execution Highlights', description: 'Key moments, logistics, and design details that defined the event experience.' },
-  { title: 'Outcome & Guest Feedback', description: 'Anonymized results and reflections on what made the event a success.' },
+  { title: 'The brief', description: 'Date, venue, headcount, how people eat, and any dietary notes. That is the start of every quote.' },
+  { title: 'The menu', description: 'Written for the room and the kitchen that actually exists, not for a restaurant floor plan.' },
+  { title: 'The format', description: 'Plated, buffet, stations or sharing. Staff sized to that format. Extra roles are extra lines.' },
+  { title: 'Dietary notes', description: 'Halal ingredients by default. Vegetarian, vegan and gluten-free when named. Labels on the tray. Not a medical kitchen.' },
+  { title: 'The night', description: 'Setup, service, replenishment, clear-down. We do not hire the room or run AV.' },
+  { title: 'What we do not publish', description: 'Named clients, invented guest counts, or scores we cannot show. If a host agrees in writing, we can feature a night. Until then, these cards are formats, not testimonials.' },
 ]
 
 const galleryImages = [
@@ -142,35 +142,35 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 
 const faqs = [
   {
-    q: 'What types of events are featured in your case studies?',
-    a: 'Our case studies cover weddings, yacht celebrations, villa dinners, corporate galas, product launches, and private parties across Dubai.',
+    q: 'Are these named client stories?',
+    a: 'No. We do not publish client names, invented guest counts or results we cannot show. The cards on this page are typical formats: villa wedding, yacht birthday, gala, small dinner, launch, family Eid.',
   },
   {
-    q: 'Can I see menus from past events?',
-    a: 'Each case study includes the menu concept and service style. For bespoke proposals, contact us with your event details.',
+    q: 'Can I see a menu from a past event?',
+    a: 'Send the date, headcount and venue. You get an itemised proposal for your night, not a recycled menu from someone else.',
   },
   {
-    q: 'Do you share real client names in case studies?',
-    a: 'We respect client privacy. Case studies use anonymized event descriptions unless explicit permission has been given.',
+    q: 'Do you share real client names?',
+    a: 'Only with written permission. Until then, this page stays structural.',
   },
   {
-    q: 'Can my event be featured as a case study?',
-    a: 'If you are happy to share details and images, we would love to feature your event. Discuss this with your event manager.',
+    q: 'Can my event be featured?',
+    a: 'If you agree in writing to share details and images, we can feature a night. Ask when you book.',
   },
   {
-    q: 'How can I plan an event similar to one in your case studies?',
-    a: 'Contact us via WhatsApp or the inquiry form. We will use the case study as inspiration and design a bespoke plan for your event.',
+    q: 'How do I plan something in this shape?',
+    a: 'Open the commercial page for that format, or send the brief. We quote the night you are actually running.',
   },
   {
-    q: 'Do the case studies reflect your actual service standards?',
-    a: 'Yes. Each story is based on real event execution, menu planning, staffing, and logistics — and reflects the standard we bring to every booking.',
+    q: 'Why not publish results?',
+    a: 'Because invented testimonials are a trust problem. The standard lives in how we vet chefs, how a quote is built, and what the booking terms do when a night falls short.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Wedding Catering Dubai',
-    description: 'Bespoke wedding menus, tasting sessions, and full-service teams for celebrations across Dubai.',
+    description: 'The wedding catering page: formats, tasting, and how a quote is built.',
     image: '/service-events.webp',
     link: '/wedding-catering-dubai',
   },
@@ -182,7 +182,7 @@ const relatedServices = [
   },
   {
     title: 'Corporate Event Catering',
-    description: 'Polished dining and seamless logistics for galas, launches, and board events in Dubai.',
+    description: 'One-off company nights: parties, launches and award dinners. Quoted per event.',
     image: '/service-corporate.webp',
     link: '/corporate-event-catering-dubai',
   },
@@ -329,8 +329,8 @@ export default function CaseStudies() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Case Studies Dubai | Event Case Studies | myCHEF"
-        description="Catering Case Studies Dubai — See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus…"
+        title="Catering Case Studies Dubai | myCHEF"
+        description="Catering case studies Dubai: typical formats for villas, yachts, galas and launches. We do not publish named clients or invented results."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/case-studies-hero.webp"
         schema={schema}
@@ -357,10 +357,10 @@ export default function CaseStudies() {
             Catering Case Studies Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cs-hero-sub">
-            Events we're proud of — from villa weddings and yacht birthdays to corporate galas and intimate private dinners across Dubai.
+            Typical formats we run in Dubai: villa weddings, yacht birthdays, company galas, small dinners and launches. We do not publish named clients or invented results.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cs-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cs-hero-cta">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -379,19 +379,16 @@ export default function CaseStudies() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">PROOF, NOT PROMISES</SectionLabel>
+          <SectionLabel align="center">FORMATS, NOT TESTIMONIALS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            See How We Bring Dubai Events to Life
+            Catering case studies Dubai without invented names
           </h2>
           <div className="cs-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Planning a high-stakes event in Dubai means needing proof that every detail will be handled with precision. Our case studies show how myCHEF Dubai approaches menu design, logistics, staffing, and service — from intimate villa dinners to large-scale corporate galas. Each story highlights the brief, the cuisine, the execution, and the outcome, so you can picture what is possible for your own celebration.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Most “case study” pages invent a guest count, a venue and a glowing outcome. This one does not. Until a host agrees in writing, we show how a night is usually run: the brief, the format, the team, the clear-down.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Whether you are organizing <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering Dubai</Link>, a <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht event</Link>, <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa private dining</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>, these anonymized event stories offer a clear look at how we deliver. Browse the cases below, or visit our <Link to="/gallery" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event gallery</Link> for more inspiration.
+              For the commercial pages, open <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>, <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. Send the date and headcount when you want a quote for your night.
             </p>
           </div>
         </div>
@@ -403,7 +400,7 @@ export default function CaseStudies() {
           <div className="text-center mb-10">
             <SectionLabel align="center" tone="dark">EVENT PORTFOLIO</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mb-8">
-              Events We're Proud Of
+              How these nights are usually run
             </h2>
 
             <div className="cs-tabs flex flex-wrap items-center justify-center gap-3">
@@ -449,7 +446,7 @@ export default function CaseStudies() {
                     <h3 className="font-playfair text-h4 text-white mb-3">{cs.title}</h3>
                     <div className="flex flex-wrap gap-3 mb-4">
                       <span className="inline-flex items-center gap-1 font-inter text-body-xs text-gray-400">
-                        <Users size={14} /> {cs.guests} guests
+                        <Users size={14} /> {cs.guests}
                       </span>
                       <span className="inline-flex items-center gap-1 font-inter text-body-xs text-gray-400">
                         <UtensilsCrossed size={14} /> {cs.category}
@@ -470,7 +467,7 @@ export default function CaseStudies() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What You'll Find in Every Case Study
+            What a real brief contains
           </h2>
 
           <div className="cs-inc-grid grid md:grid-cols-2 gap-6">

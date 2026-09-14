@@ -34,23 +34,23 @@ const CANONICAL_PATH = '/postpartum-meal-prep-dubai'
 const features = [
   {
     icon: Heart,
-    title: 'Nutrient-Dense Recovery Menus',
-    description: 'Menus designed around the postpartum period: iron-rich proteins, healthy fats, complex carbohydrates, hydration-supporting dishes, and ingredients traditionally associated with recovery across cultures.',
+    title: 'Recovery food, written down',
+    description: 'Iron-rich proteins, fats, slower carbohydrates, soups and warm dishes if that is how this house eats after birth. The Food Profile holds it. We do not write medical advice.',
   },
   {
     icon: Leaf,
-    title: 'Culturally Appropriate Options',
-    description: 'We understand that postpartum nutrition is deeply cultural. Chefs in our network can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
+    title: 'The kitchen this family already knows',
+    description: 'Arabic, South Asian, East Asian, Mediterranean or Western recovery food, if that is the tradition here. Confinement food delivery Dubai, on this page, is still cooked in your kitchen.',
   },
   {
     icon: Moon,
-    title: 'Flexible As Needs Change',
-    description: 'Recovery is not linear. Pause, intensify, or shift the menu as your energy, appetite, and schedule evolve. Weekly check-ins let us adjust portion sizes and flavour profiles.',
+    title: 'The week can change',
+    description: 'Pause, add a visit, or shift portions when appetite and sleep change. Easy meal prep for after baby is the same four hours, used around this house.',
   },
   {
     icon: Baby,
-    title: 'Breastfeeding-Friendly Choices',
-    description: 'We prioritise whole-food ingredients, limit common irritants on request, and can coordinate with your lactation consultant or nutritionist if you share their guidance.',
+    title: 'Feeding notes, if you send them',
+    description: 'Whole-food ingredients, irritants limited on request, and your lactation consultant or nutritionist’s notes if you share them. The chef cooks. They do not diagnose.',
   },
 ]
 
@@ -76,42 +76,42 @@ const menuFocus = [
 const faqs = [
   {
     q: 'When can postpartum meal prep start?',
-    a: 'Most families begin in the first or second week after birth, but you can book in advance during pregnancy and activate the service when you are ready. We also support families through the extended "fourth trimester."',
+    a: 'Most households begin in the first or second week after birth. You can agree the plan during pregnancy and start when you are ready. The fourth trimester is a standing Food Prep plan, not a one-night dinner.',
   },
   {
     q: 'Do you provide medical or clinical nutrition advice?',
-    a: 'No. Chefs in our network prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
+    a: 'No. The chef cooks from your preferences and any guidance you send from a doctor or licensed nutritionist. For clinical conditions, that professional stays the professional.',
   },
   {
     q: 'Can meals be adapted for the whole family?',
-    a: 'Yes. We can prepare larger portions or dual menus so that partners, older children, and visiting family can eat well alongside the new mother.',
+    a: 'Yes. Meals for new mums Dubai can be the same pots, larger portions, or a second set for partners, older children and visiting family. Up to eight people are in the chef price.',
   },
   {
     q: 'How often does the chef visit?',
-    a: 'Most postpartum clients choose 1–2 visits per week to prepare 3–5 days of meals. Frequency is adjusted to your household size, storage space, and appetite.',
+    a: 'Usually once or twice a week. Each visit is Food Prep: four hours, AED 900. Groceries at receipts. VAT at 5% on the service.',
   },
   {
     q: 'What if I have allergies or food aversions?',
-    a: 'We collect detailed dietary information before the first visit and adjust every menu accordingly. Aversions, allergies, and religious dietary requirements are all accommodated.',
+    a: 'They go into the Food Profile before the first visit. Aversions, allergies and religious requirements are cooked around, not discovered on the day.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'Recurring private chef visits for busy households who want fresh meals without daily cooking.',
+    description: 'The same Food Prep job when the brief is the whole household, not recovery weeks.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
   {
     title: 'Wellness Meal Prep',
-    description: 'Nutritionist-aligned, macro-calculated meals for health and fitness goals.',
+    description: 'When the brief is general health rather than the weeks after birth.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/wellness-meal-prep-dubai',
   },
   {
     title: 'Allergy-Safe Catering',
-    description: 'Rigorous allergen protocols for households with dietary restrictions.',
+    description: 'One-night catering with allergen notes. Not a standing recovery week.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
@@ -181,8 +181,8 @@ export default function PostpartumMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Postpartum Meal Prep Dubai | Recovery Meals | myCHEF"
-        description="Postpartum meal prep Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester. Get a quote."
+        title="Postpartum Meal Prep Dubai | Food Prep AED 900 | myCHEF"
+        description="Postpartum meal prep Dubai is four hours in your kitchen, AED 900 a visit. Recovery food, cooked here. Groceries at receipts. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName
@@ -207,10 +207,10 @@ export default function PostpartumMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppm-hero-h1">
-            Postpartum Meal Prep Dubai: Recovery Meals for New Mothers
+            Postpartum Meal Prep Dubai: recovery food, cooked at home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppm-hero-sub">
-            Nourishing, culturally sensitive recovery meals prepared in your own kitchen — so you can focus on your baby while eating well through the fourth trimester.
+            Postpartum meal prep Dubai is the Food Prep job: four hours, AED 900, in your kitchen. Warm food for the weeks after birth. Groceries at receipts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ppm-hero-cta">Plan My Postpartum Meals</Link>
@@ -232,25 +232,22 @@ export default function PostpartumMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">NEW MOTHER NUTRITION</SectionLabel>
+          <SectionLabel align="center">THE FOURTH TRIMESTER, IN THE KITCHEN</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Recovery Meals Made With Care
+            Postpartum meal prep Dubai, without becoming the cook
           </h2>
           <div className="ppm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weeks after birth are demanding. Sleep is scarce, routines are new, and nutrition often becomes an afterthought — yet it is precisely when the body needs steady, wholesome support. Tell us about your household and we will bring you a vetted chef who prepares postpartum recovery meals in your own kitchen, usually within 24 hours.
+              The weeks after birth are short on sleep and long on meals. Postpartum meal prep Dubai is a standing Food Prep visit, not a courier brand. A postpartum chef Dubai households book cooks in your kitchen, portions the food, and leaves the surfaces as found.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Postpartum meal delivery Dubai and confinement food delivery Dubai are cooked in your kitchen, not couriered from a kitchen you never see. Meals for new mums Dubai and easy meal prep for after baby are the same standing week, planned around recovery. Meal prep food Dubai on this page is that week of portions; fitness meal prep delivery only enters the brief if you asked for training meals alongside it.
+              Postpartum meal delivery Dubai and confinement food delivery Dubai, on this page, are cooked here. Meals for new mums Dubai and easy meal prep for after baby are the same week of Food Prep. Meal prep food Dubai here is those portions. Fitness meal prep delivery only enters if you asked for training food alongside recovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. If your needs continue beyond the fourth trimester, our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> service can keep your household fed without the daily effort.
+              Postpartum meal prep Dubai price is AED 900 a visit (four hours). Packages are once or twice a week, not a named medical menu. Groceries at receipts. VAT at 5%. We do not give medical advice. Your doctor or nutritionist’s notes, if you send them, go into the Food Profile.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support. Also see <Link to="/cuisines-dubai" className="text-gold hover:underline">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
+              When the fourth trimester is over, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> is the same job without the recovery brief. For general health, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>. One dinner is catering.
             </p>
           </div>
         </div>
@@ -260,9 +257,9 @@ export default function PostpartumMealPrep() {
       <section className="ppm-features bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">HOW WE SUPPORT YOU</SectionLabel>
+            <SectionLabel align="center">HOW THE VISIT RUNS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              What Makes Our Service Different
+              What the chef is there to do
             </h2>
           </div>
 
@@ -285,9 +282,9 @@ export default function PostpartumMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">MENU PHILOSOPHY</SectionLabel>
+            <SectionLabel align="center" tone="dark">WHAT GOES IN THE POTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Built Around Recovery
+              Built around recovery, not a generic week
             </h2>
           </div>
 
@@ -303,7 +300,7 @@ export default function PostpartumMealPrep() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">Pricing guide:</strong> Postpartum meal prep starts from AED 1,500 per week. Final quote tailored to your household based on visit frequency, portion count, and menu complexity — we provide a fixed quote after a brief consultation.
+              <strong className="text-white">The rate:</strong> Postpartum meal prep Dubai price is the Food Prep job, AED 900 for four hours. Once a week is AED 3,600 a month. Groceries at actual receipts. VAT at 5% on the service. Best meal prep companies in Dubai is a search. This is a chef in your kitchen.
             </p>
           </div>
         </div>
@@ -313,7 +310,7 @@ export default function PostpartumMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Postpartum Meal Prep Dubai: the questions we get before a booking
+            Questions before a recovery Food Prep booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -324,7 +321,7 @@ export default function PostpartumMealPrep() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="ppm-rel-grid grid md:grid-cols-3 gap-6">
@@ -359,10 +356,10 @@ export default function PostpartumMealPrep() {
         <div className="container-custom text-center ppm-cta opacity-0 translate-y-8">
           <Baby size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Nourish the New Mother
+            Start the recovery week in the kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Book a postpartum meal prep consultation and give yourself or a loved one the gift of warm, recovery-focused meals at home.
+            Tell us who eats, any feeding notes, and which days the chef should come. AED 900 a visit. Groceries at receipts. VAT at 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Postpartum Meals</Link>

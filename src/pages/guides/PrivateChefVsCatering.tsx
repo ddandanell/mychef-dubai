@@ -231,13 +231,13 @@ export default function PrivateChefVsCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pvc-hero-h1">
-            Private Chef vs Catering Dubai — What Works Best in Dubai?
+            Private Chef vs Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pvc-hero-sub">
-            A clear comparison to help you choose between a private chef and full catering for your Dubai home, villa, or event.
+            A private chef is a standing arrangement. Catering is one night. Guest count only decides when a house night has grown into an event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -264,7 +264,7 @@ export default function PrivateChefVsCatering() {
             Private chefs and catering teams both bring restaurant-quality food to your location, but they serve different needs. A private chef is ideal when you want close collaboration and an intimate experience. Catering is the better fit when you need a full team to manage a larger event with service, rentals, and clear-down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            The split is not guest count. It is whether the chef comes back. A household visit is working time from AED 750. One dinner is catering, quoted as a night.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below is a side-by-side comparison, plus guidance on hybrid options and how cost changes with scale.
@@ -439,7 +439,7 @@ export default function PrivateChefVsCatering() {
             Tell us about your guest count, venue, and the experience you want. We will recommend the right service and send a tailored quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

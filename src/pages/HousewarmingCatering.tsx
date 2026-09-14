@@ -5,189 +5,190 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'housewarming-catering-dubai',
-  seoTitle: "Housewarming Catering Dubai | New Home",
-  metaDescription: 'Housewarming party catering in Dubai: relaxed, delicious menus for new homes and villas across the city. From canapés to BBQ buffets, we design and more.',
+  seoTitle: 'Housewarming Catering Dubai | myCHEF',
+  metaDescription:
+    'Housewarming catering Dubai for a new villa or apartment. Grazing, buffet or BBQ. Drop-off from AED 90, buffet from AED 120. You stay with your guests.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-villa.webp',
   breadcrumbLabel: 'Housewarming Catering Dubai',
-  h1: 'Housewarming Catering in Dubai',
+  h1: 'Housewarming Catering Dubai',
   heroSub:
-    'Celebrate your new Dubai home with stress-free catering: shareable menus, friendly service and full setup so you can focus on welcoming friends, family and neighbours.',
+    'Housewarming catering Dubai for a new villa or apartment. Shareable food, staff if you need them, and a kitchen left usable when people leave.',
   heroImage: '/service-villa.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange housewarming catering in Dubai (via mychef.ae/housewarming-catering-dubai)",
   eyebrow: 'HOUSEWARMING CATERING IN DUBAI',
-  introH2: 'Make Your New House Feel Like Home',
+  introH2: 'Housewarming catering Dubai so you can show the house',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Moving into a new home in Dubai is a milestone worth celebrating. Whether you have settled into a villa in Arabian Ranches, an apartment in Downtown Dubai, or a townhouse in Dubai Hills, our housewarming catering takes care of the food so you can spend the evening showing guests around, not stuck in the kitchen.
+        Housewarming catering Dubai is food for a new address: a villa in Arabian Ranches, an apartment in Downtown, a townhouse in Dubai Hills. Guests arrive in waves. You should be at the door, not in the kitchen.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We design relaxed, crowd-pleasing menus that suit an open-house atmosphere: grazing tables, mezze platters, sliders and skewers, fresh salads, live stations and indulgent desserts. Service can be as simple as a drop-off spread or as polished as a fully staffed buffet with chefs and front-of-house team on site.
+        Drop-off starts from AED 90 per person. A staffed buffet from AED 120. Canapés, BBQ and live stations from AED 150. All before 5% VAT. An open house usually wants food that holds, not a plated dinner for a guest list that never sits down together.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Housewarming catering pairs naturally with our{' '}
+        Gardens and pools sit next to{' '}
         <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           villa dining
-        </Link>{' '}
-        service for homes with gardens and pools, and with{' '}
+        </Link>
+        {' '}and{' '}
         <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           BBQ catering Dubai
-        </Link>{' '}
-        when you want a laid-back outdoor gathering. For a more formal touch, explore our{' '}
+        </Link>
+        . A standing welcome is{' '}
         <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           canapé catering Dubai
-        </Link>{' '}
-        options.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Housewarming Catering Formats',
+  formatsH2: 'How a housewarming is served',
   formats: [
     {
       Icon: Home,
-      title: 'Open-House Grazing Tables',
-      description: 'Beautiful, abundant grazing spreads that guests can pick at throughout the afternoon or evening.',
+      title: 'Open-house grazing tables',
+      description: 'A spread guests can pick at as they arrive, replenished rather than plated all at once.',
       link: '/grazing-table-dubai',
     },
     {
       Icon: PartyPopper,
-      title: 'Garden & Terrace Parties',
-      description: 'Outdoor housewarming menus for villas and townhouses with pools, lawns and terraces.',
+      title: 'Garden and terrace parties',
+      description: 'Outdoor food for a new villa: shade, power and where the team unloads, written into the brief.',
       link: '/villas-private-residences',
     },
     {
       Icon: Utensils,
-      title: 'Buffet & Family-Style Dining',
-      description: 'Self-serve buffets and shared platters that keep the mood relaxed and sociable.',
+      title: 'Buffet and family-style dining',
+      description: 'A maintained buffet or shared platters when people will sit in groups, not all at one time.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Users,
-      title: 'Canapé & Drinks Receptions',
-      description: 'Elegant bite-sized dishes and mocktails for a more refined housewarming reception.',
+      title: 'Canapé and drinks receptions',
+      description: 'Passed bites for a smaller apartment or a standing welcome.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Star,
-      title: 'Live Cooking Stations',
-      description: 'Interactive grills, pasta and shawarma stations that bring energy to your new home.',
+      title: 'Live cooking stations',
+      description: 'Grill, pasta or shawarma when the room should move. Power and ventilation belong in the quote.',
       link: '/live-cooking-stations-dubai',
     },
     {
       Icon: Heart,
-      title: 'Dessert & Sweet Tables',
-      description: 'Celebration cakes, cupcakes and sweet tables to round off the housewarming in style.',
+      title: 'Dessert and sweet tables',
+      description: 'Cake and sweets quoted when you want them, not assumed on a drop-off.',
       link: '/dessert-table-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE HOUSEWARMING CATERING WORKS',
-  useCasesH2: 'Designed for New-Home Celebrations',
+  useCasesH2: 'Villas, apartments, neighbours in waves',
   useCases: [
     {
-      title: 'Villa Housewarmings',
+      title: 'Villa housewarmings',
       description:
-        'Welcome guests to your new villa with a garden buffet, BBQ or grazing table that makes the most of your outdoor space across Palm Jumeirah, Emirates Hills or Dubai Hills.',
+        'A garden buffet, BBQ or grazing table in Palm Jumeirah, Emirates Hills or Dubai Hills. Outdoor holding is part of the brief.',
     },
     {
-      title: 'Apartment & Penthouse Gatherings',
+      title: 'Apartment and penthouse gatherings',
       description:
-        'Compact but stylish menus for apartment entertaining, with easy-to-serve canapés, bowl food and drinks that suit a balcony or open-plan living area.',
+        'A compact kitchen. Canapés and bowl food that do not need a dining table for twenty.',
     },
     {
-      title: 'Family Open Houses',
+      title: 'Family open houses',
       description:
-        'A steady flow of neighbours, friends and family calls for flexible, all-day grazing and replenished platters rather than a single sit-down meal.',
+        'People coming and going. Replenished platters, not one sitting that punishes late arrivals.',
     },
     {
-      title: 'Neighbourhood Meet-and-Greets',
+      title: 'Neighbourhood meet-and-greets',
       description:
-        'Break the ice with neighbours over shared food. A friendly, generous spread makes your new house feel like part of the community from day one.',
+        'A mixed guest list you may not know well. Labels on the food matter more than a theme name.',
     },
   ],
-  includedH2: "What's Included in Our Housewarming Catering",
+  includedH2: 'What housewarming catering includes',
   includedItems: [
-    { title: 'Relaxed, Crowd-Pleasing Menus', description: 'Menus designed for mixing and mingling rather than formal seating.' },
-    { title: 'Grazing & Sharing Platters', description: 'Mezze, cheeses, charcuterie, salads and breads arranged for easy self-service.' },
-    { title: 'Live Stations on Request', description: 'Grills, pasta and shawarma stations that add theatre and freshness.' },
-    { title: 'Canapés & Bowl Food', description: 'Elegant bite-sized options for standing receptions and smaller spaces.' },
-    { title: 'Mocktails & Soft Drinks', description: 'Refreshing non-alcoholic drinks, juices and infused waters.' },
-    { title: 'Dessert & Celebration Touches', description: 'Sweet tables, cakes and treats to mark the occasion.' },
-    { title: 'Setup, Service & Cleanup', description: 'We arrive early, serve your guests and clear away so your home is tidy afterwards.' },
-    { title: 'Flexible Dietary Options', description: 'Vegetarian, vegan, halal, gluten-free and dairy-free choices available.' },
+    { title: 'Food that can be eaten standing', description: 'Grazing, mezze, sliders and salads unless you ask for a seated dinner.' },
+    { title: 'Sharing platters', description: 'Cheeses, breads, mezze and salads arranged for self-service.' },
+    { title: 'Live stations', description: 'Optional. Quoted when the kitchen and the garden can support them.' },
+    { title: 'Canapés and bowl food', description: 'The usual apartment format when there is no dining table for the whole list.' },
+    { title: 'Drinks', description: 'Mocktails, juice and water. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Dessert', description: 'Quoted when you want a cake moment.' },
+    { title: 'Setup, service and cleanup', description: 'Staffed bookings include clear-down. Drop-off is food and layout.' },
+    { title: 'Dietary notes', description: 'Vegetarian, vegan, halal, gluten-free and dairy-free dishes when named.' },
   ],
-  galleryH2: 'A Taste of Our Housewarming Catering',
+  galleryH2: 'How housewarming catering looks in Dubai',
   galleryImages: [
     { src: '/service-villa.webp', alt: 'Housewarming catering at a Dubai villa' },
     { src: '/menu-appetizer.webp', alt: 'Appetisers for a housewarming party' },
     { src: '/menu-meat.webp', alt: 'Shared main dishes for a housewarming celebration' },
     { src: '/service-events.webp', alt: 'Housewarming event catering setup' },
     { src: '/menu-dessert.webp', alt: 'Dessert table for a housewarming party' },
-    { src: '/service-luxury-dining.webp', alt: 'Elegant private dining for a housewarming' },
+    { src: '/service-luxury-dining.webp', alt: 'Private dining for a housewarming' },
   ],
-  faqsH2: 'Housewarming Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What kind of food works best for a housewarming party?',
-      a: 'Sharing-style food is ideal. Grazing tables, mezze, sliders, salads and desserts let guests help themselves while they mingle. Live stations and BBQs are popular for villa housewarmings.',
+      a: 'Sharing food. Grazing, mezze, sliders, salads. Live stations and BBQs suit villas. Apartments usually need canapés or drop-off.',
     },
     {
       q: 'Can you cater a housewarming in an apartment?',
-      a: 'Yes. We adapt the menu and service style to apartment and penthouse spaces, with compact canapés, bowl food and easy-to-serve platters that work in open-plan living areas.',
+      a: 'Yes. We adapt to the kitchen and the lift. Compact canapés and platters are the usual brief.',
     },
     {
       q: 'Do you provide staff and cleanup?',
-      a: 'We can provide chefs and service staff for larger housewarmings, or deliver a ready-to-serve drop-off spread for smaller, more casual gatherings. Cleanup is included with staffed service.',
+      a: 'Staffed bookings include chefs, service and clear-down. Drop-off is food delivered and laid out. You host, you clear, unless collection is arranged.',
     },
     {
       q: 'Can the menu reflect a theme or cuisine?',
-      a: 'Absolutely. We can design a Mediterranean, Middle Eastern, Asian or international spread to match your tastes and the style of your new home.',
+      a: 'Yes. Mediterranean, Middle Eastern, Asian or a mix. The kitchen still has to hold it.',
     },
     {
       q: 'How many guests can you cater for a housewarming?',
-      a: 'From intimate dinners for 8 to open-house parties for 100 or more. We scale the menu, service and equipment to your guest count and space.',
+      a: 'Drop-off from 10 guests. Buffet from 20. A chef cooking on site has no minimum headcount.',
     },
     {
       q: 'How far in advance should I book housewarming catering?',
-      a: 'One to two weeks is usually enough. During busy periods or for live stations and custom menus, two to three weeks is recommended.',
+      a: 'One to two weeks is the usual window. Live stations need longer.',
     },
   ],
   relatedServices: [
     {
       title: 'Villa Dining Dubai',
-      description: 'Private chef and catering experiences designed for villas and residences.',
+      description: 'Kitchen access, gates and outdoor power for a villa sitting.',
       image: '/service-villa.webp',
       link: '/villas-private-residences',
     },
     {
       title: 'BBQ Catering Dubai',
-      description: 'Relaxed outdoor grilling menus perfect for garden housewarmings.',
+      description: 'Grill-led service for a new garden.',
       image: '/menu-meat.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Canapé Catering Dubai',
-      description: 'Elegant bite-sized food for standing receptions and welcome drinks.',
+      description: 'Passed food for a standing welcome.',
       image: '/menu-canapes.webp',
       link: '/canape-catering-dubai',
     },
     {
       title: 'Graduation Party Catering',
-      description: 'Celebrate school and university milestones with themed menus and full service.',
+      description: 'A daytime mixed-ages table, if that is the real brief.',
       image: '/service-events.webp',
       link: '/private-party-catering-dubai',
     },
     {
       title: 'Reunion Catering',
-      description: 'Bring family and friends back together with generous shared menus.',
+      description: 'A house night for people who already know each other.',
       image: '/service-events.webp',
       link: '/private-party-catering-dubai',
     },
   ],
-  ctaH2: 'Host a Housewarming Your Guests Will Remember',
+  ctaH2: 'Send the new address, guest count and format',
   ctaP:
-    'Tell us about your new home, guest count and preferred style. We will design a housewarming catering menu that lets you relax and enjoy your celebration.',
+    'Tell us villa or apartment, how many people and whether you want drop-off or staff. We send an itemised housewarming catering Dubai quote.',
   showTrustSignalStrip: true,
 }
 

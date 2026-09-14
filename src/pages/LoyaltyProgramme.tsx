@@ -199,8 +199,8 @@ export default function LoyaltyProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="myCHEF Loyalty Programme | Loyalty Programme Dubai | myCHEF"
-        description="myCHEF Loyalty Programme — Earn rewards every time you book a private chef or catering with myCHEF Dubai. Our loyalty programme turns repeat dining into…"
+        title="myCHEF Loyalty Programme | myCHEF"
+        description="myCHEF loyalty programme: points on completed bookings. Silver 1x, Gold 1.25x, Platinum 1.5x. Credits, not cash."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -227,7 +227,7 @@ export default function LoyaltyProgramme() {
             myCHEF Loyalty Programme
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lp-hero-sub">
-            Every booking earns you closer to credits, chef upgrades, and exclusive experiences. The more you dine with myCHEF Dubai, the more we give back.
+            Points on completed bookings. Silver 1x, Gold 1.25x, Platinum 1.5x. Redeem as dining credit. Not cash.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 lp-hero-cta">Join the Loyalty Programme</Link>
@@ -249,19 +249,19 @@ export default function LoyaltyProgramme() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">EAT WELL, EARN MORE</SectionLabel>
+          <SectionLabel align="center">POINTS ON COMPLETED BOOKINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Rewards That Taste Better
+            myCHEF loyalty programme is a ledger, not a club night
           </h2>
           <div className="lp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Join the myCHEF Dubai loyalty programme and turn every private chef dinner, catering event, and weekly meal-prep plan into credits, complimentary upgrades, and member-only experiences. Tell us how you like to dine and our concierge team will enrol you and bring you a vetted chef within 24 hours.
+              You earn points on the booking value before discounts. Silver starts at the first completed booking. Gold and Platinum unlock as lifetime spend grows; the thresholds are confirmed when you enrol, not guessed on this page.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              As you move through Silver, Gold and Platinum tiers, you unlock higher points multipliers, priority booking windows, and invitations to exclusive tastings and previews. There are no hidden fees or complicated rules: just dine well, earn more, and enjoy the perks.
+              Points convert to dining credit, or to an upgrade named in the booking. They stay active if you complete at least one qualifying booking every 24 months. They cannot be sold or transferred.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Combine loyalty rewards with our <Link to="/referral-programme" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">referral programme</Link> for even faster earnings, or explore <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">MyChef Membership</Link> for standing reservations and a dedicated account manager.
+              Also see the <Link to="/referral-programme" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">referral programme</Link> and <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>.
             </p>
           </div>
         </div>

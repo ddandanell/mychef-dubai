@@ -40,68 +40,68 @@ const veganFormats = [
   {
     icon: Salad,
     title: 'Plant-Based Fine Dining',
-    description: 'Multi-course vegan menus plated with care — seasonal vegetables, grains, and pulses transformed into refined dishes worthy of any celebration.',
+    description: 'Courses built from vegetables, grains and pulses. No meat, fish, dairy, eggs or honey. The plate is a full meal, not a side salad.',
     link: '/catering-dubai',
   },
   {
     icon: Sparkles,
     title: 'Vegan Canapés',
-    description: 'Bite-sized plant-based canapés for receptions and cocktail evenings, from crisp tartlets to delicate spoons that never feel like an afterthought.',
+    description: 'Passed bites written as vegan from the draft. Tartlets, spoons and skewers that do not rely on a hidden butter pastry.',
     link: '/grazing-table-dubai',
   },
   {
     icon: Leaf,
     title: 'Vegan Grazing Tables',
-    description: 'Abundant plant-based grazing spreads of vegan cheeses, dips, marinated vegetables, fruits, and breads, styled as a generous centrepiece.',
+    description: 'Plant cheeses, dips, marinated vegetables, fruit and breads. Styled as the centre of the table, then packed down after.',
     link: '/grazing-table-dubai',
   },
   {
     icon: Cake,
     title: 'Vegan Desserts & Cakes',
-    description: 'Dairy-free and egg-free patisserie, tarts, and celebration cakes that close the meal without compromise on texture or flavour.',
+    description: 'Dairy-free and egg-free cakes and tarts when the brief asks for a sweet course. Honey stays off.',
     link: '/catering-dubai',
   },
   {
     icon: Home,
     title: 'Villa & Garden Vegan Menus',
-    description: 'fully-coordinated catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'Cooking in your kitchen or garden. Partner chefs, service, pack-down. We are not the venue.',
     link: '/catering-dubai',
   },
   {
     icon: Building,
     title: 'Corporate Vegan Catering',
-    description: 'Inclusive plant-based lunches and reception menus for offices and events where dietary choice matters and presentation still counts.',
+    description: 'Office lunches and receptions with a plant-based line that is a proper main. You stay in the meeting.',
     link: '/cuisines-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Fully Plant-Based Menus', description: 'Entirely vegan dishes with no animal-derived ingredients across the spread.' },
-  { title: 'Seasonal Produce', description: 'Fresh seasonal vegetables, fruits, and herbs sourced from trusted suppliers.' },
-  { title: 'Creative Mains', description: 'Considered plant-based mains built on pulses, grains, mushrooms, and vegetables.' },
-  { title: 'Vegan Canapés & Bites', description: 'Elegant passed canapés and finger food designed for plant-based menus.' },
-  { title: 'Dairy-Free Desserts', description: 'Patisserie and celebration cakes made without dairy or eggs.' },
-  { title: 'Allergen Awareness', description: 'Gluten-free and nut-free elements arranged on request for mixed groups.' },
-  { title: 'On-Site Service', description: 'Plating, service staff, and styling handled at your venue.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so you can simply host.' },
+  { title: 'No animal products', description: 'Meat, fish, dairy, eggs, honey and gelatin stay off the written menu.' },
+  { title: 'Seasonal produce', description: 'Vegetables, fruit and herbs sourced for the date.' },
+  { title: 'Mains that fill a plate', description: 'Pulses, grains, mushrooms and vegetables as the centre, not a garnish.' },
+  { title: 'Vegan canapés', description: 'Passed bites designed as vegan, not converted from a dairy pastry at the pass.' },
+  { title: 'Dairy-free desserts', description: 'Cakes and tarts without dairy or eggs when you want a sweet course.' },
+  { title: 'Other allergens on the same brief', description: 'Gluten-free and nut-free when you list them. Shared kitchens still carry cross-contact risk.' },
+  { title: 'On-site service', description: 'Plating and service staff at your address.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and clear. You stay with your guests.' },
 ]
 
 const useCases = [
   {
-    title: 'Dietary-Inclusive Celebrations',
-    description: 'Hosting a mixed group where some guests are vegan and others are not? We design plant-based menus that stand confidently on their own, so vegan guests feel considered rather than catered to as an afterthought.',
+    title: 'Mixed tables',
+    description: 'A vegan line that stands as a full meal, or a fully vegan table. Say which. Non-vegan guests do not get a better plate by default.',
   },
   {
-    title: 'Villa & Garden Dinners',
-    description: 'For at-home gatherings across Palm Jumeirah, Emirates Hills, and Dubai Hills, we bring a full plant-based menu to your terrace or garden, cooking and serving on-site with the same polish as any fine-dining event.',
+    title: 'Villa and garden dinners',
+    description: 'Palm Jumeirah, Emirates Hills and Dubai Hills homes. We cook on site so the plant-based menu is the dinner, not a delivery tray.',
   },
   {
-    title: 'Corporate Wellness Events',
-    description: 'Plant-based reception menus and working lunches suit wellness days, launches, and inclusive office events. They pair naturally with our wider healthy catering offering for teams who care about what they eat.',
+    title: 'Office lunches',
+    description: 'Working lunches and receptions. The vegan option is labelled and filling. You stay in the room.',
   },
   {
-    title: 'Receptions & Showers',
-    description: 'Vegan grazing tables, canapés, and dessert displays make beautiful, photogenic spreads for bridal showers, baby showers, and engagement celebrations — colourful, abundant, and entirely plant-based.',
+    title: 'Receptions and showers',
+    description: 'Grazing tables, canapés and dessert displays that are vegan throughout, so no guest is left checking labels all evening.',
   },
 ]
 
@@ -141,11 +141,11 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Is the entire menu fully vegan?',
-    a: 'Yes. When you book vegan catering, every dish is built without animal-derived ingredients — no meat, fish, dairy, eggs, or honey. We design the full menu, from canapés to desserts, to be entirely plant-based while still feeling generous and refined.',
+    a: 'Yes. When you book vegan catering, every dish is built without animal-derived ingredients, no meat, fish, dairy, eggs, or honey. We design the full menu, from canapés to desserts, to be entirely plant-based while still feeling generous and refined.',
   },
   {
     q: 'Will the food feel substantial, not just side dishes?',
-    a: 'Absolutely. Our plant-based mains are built around pulses, grains, mushrooms, and seasonal vegetables to be satisfying and complete. We design menus so vegan guests enjoy a full, considered meal rather than a collection of sides.',
+    a: 'Yes. Mains are built from pulses, grains, mushrooms and vegetables so the plate is a meal, not a pile of sides.',
   },
   {
     q: 'Can you cater a mixed group of vegan and non-vegan guests?',
@@ -163,7 +163,7 @@ const faqs = [
     q: 'How far in advance should I book vegan catering?',
     a: 'For smaller gatherings, one to two weeks is ideal. For larger events or fully styled menus, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
   },
-  { q: "How much does vegan catering cost in Dubai?", a: "Vegan catering in Dubai is priced by custom quote, shaped by your guest count, menu style, and level of service rather than a fixed per-head rate. Fully plant-based menus can involve more specialist ingredients and preparation, but we build the spread to your budget so you know exactly what you are paying for. Share your date and headcount and we will send a clear, itemised proposal, usually within 15 minutes during business hours." },
+  { q: "How much does vegan catering cost in Dubai?", a: "By custom quote. Guest count, the menu and how much of the work happens in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and venue." },
   { q: "What is included in your vegan catering price?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. In practice you get a complete plant-based experience from first canapé to final dessert, with our team handling setup and pack-down so you simply host. Serving staff can be added when you want table service, and you can review sample menus on our [menus](/menus) page." },
   { q: "Is VAT included in the vegan catering quote?", a: "The standard 5% UAE VAT applies to catering services and is shown clearly on your quote. We keep pricing transparent with no hidden charges, so the figure you approve is the figure you pay. Any optional extras like additional serving staff are itemised separately before you confirm." },
   { q: "Do you cook the vegan food fresh on-site or deliver it prepared?", a: "For most events our chefs cook and plate your vegan menu fresh on-site, so dishes arrive at their best rather than sitting in transit. We bring the equipment we need and work cleanly in your kitchen or a suitable prep area, then clear everything away when service ends. For simpler gatherings, prepared drop-off options can also be arranged if you prefer." },
@@ -179,7 +179,7 @@ const faqs = [
   { q: "Should I choose a vegan buffet or plated service?", a: "A vegan buffet suits relaxed, sociable events and lets guests sample a wide plant-based spread, while plated service gives a more formal, refined dining experience with courses brought to the table. Both work beautifully for vegan menus, and the right choice depends on your venue, guest count, and the mood you want. We will recommend the best format once we know more about your celebration." },
   { q: "Can we arrange a tasting before booking a large vegan event?", a: "For larger and fully styled vegan events, a tasting can often be arranged so you can approve the menu with confidence before the day. It is a good chance to refine flavours, presentation, and portion sizes to your taste. Get in touch via our [contact](/contact) page and we will let you know what is possible for your booking." },
   { q: "How is vegan catering different from your vegetarian menus?", a: "Vegan catering excludes every animal product, including dairy, eggs, and honey, while vegetarian menus can include cheese, yoghurt, and other dairy items. If your guest list is mixed, we can build a fully vegan spread that pleases everyone or blend the two thoughtfully. For groups that eat dairy, our [vegetarian catering Dubai](/vegetarian-catering-dubai) menus offer even more variety." },
-  { q: "How quickly can you respond and confirm a vegan catering booking?", a: "During business hours we typically reply within 15 minutes with next steps and an initial quote once we have your date, headcount, and menu style. Confirming the booking is quick once you approve the proposal, though popular dates in peak season from November to March fill early. Reach out as soon as your date is set so we can secure it for you." },
+  { q: "How quickly can you respond and confirm a vegan catering booking?", a: "Send the date, headcount and venue. We reply with an itemised proposal during business hours. Peak season from November to March fills earlier. Short notice is assessed against live partner availability." },
 ]
 
 const relatedServices = [
@@ -299,10 +299,11 @@ export default function VeganCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegan Catering Dubai | Plant-Based Events & Dining"
-        description="Vegan catering Dubai for plant-based events & private dining. Creative fine dining, canapés, grazing tables & dairy-free desserts. Quote in ~15 mins."
+        title="Vegan Catering Dubai | myCHEF"
+        description="Vegan Catering Dubai with a vetted myCHEF team. Plant-based menus, service and clear-down so you stay a guest at your own table."
         canonicalPath="/vegan-catering-dubai"
         ogImage="/menu-appetizer.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -327,10 +328,10 @@ export default function VeganCatering() {
             Vegan Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vgn-hero-sub">
-            Creative plant-based fine dining, vegan canapés, grazing tables, and dairy-free desserts — designed for inclusive, beautiful celebrations across Dubai.
+            Vegan Catering Dubai is a written menu with no animal products. We cook at your address, serve, and pack down. Honey, gelatin and dairy stay off.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vgn-hero-cta">Get My Vegan Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vgn-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -350,16 +351,16 @@ export default function VeganCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">PLANT-BASED DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Vegan Menus Worth Celebrating
+            No animal products. A full plate anyway.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Plant-based food has come a long way from the side salad. Done well, vegan catering is vivid, generous, and genuinely exciting — seasonal vegetables, grains, pulses, and herbs coaxed into dishes that feel complete in their own right. At myCHEF Dubai, we approach vegan menus with the same creativity and finish we bring to every event, so plant-based guests are never an afterthought and the food earns its place at the centre of the table.
+            Vegan Catering Dubai means meat, fish, dairy, eggs, honey and gelatin stay off the written menu. Partner chefs cook in shared kitchens and in your home. We separate dairy and vegan lines where the room allows. We do not call that an allergen-free kitchen. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a fully vegan dinner, a dietary-inclusive celebration with mixed guests, a corporate wellness day, or a styled reception, our chefs design and serves menus tailored to your occasion. From canapés to dairy-free desserts, every course is considered. For events where some guests prefer vegetarian dishes, you can also explore our <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering Dubai</Link> menus, or browse our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link> and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free catering</Link> options. Explore our vegan formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            If dairy is allowed, see <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering Dubai</Link>. For dairy-free or nut-free lines that are not fully vegan, start with <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -370,7 +371,7 @@ export default function VeganCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">VEGAN FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Plant-Based for Every Occasion
+              Formats for a plant-based table
             </h2>
           </div>
 
@@ -404,7 +405,7 @@ export default function VeganCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE VEGAN SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Moment
+              Homes, offices and mixed guest lists
             </h2>
           </div>
 
@@ -423,7 +424,7 @@ export default function VeganCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Vegan Catering Includes
+            What a vegan booking actually covers
           </h2>
 
           <div className="vgn-inc-grid grid md:grid-cols-2 gap-6">
@@ -444,7 +445,7 @@ export default function VeganCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Vegan Catering
+            What vegan service looks like
           </h2>
 
           <div className="vgn-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -534,13 +535,13 @@ export default function VeganCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center vgn-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Design Your Vegan Menu
+            Send the vegan brief with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll create a plant-based menu that delights every guest — vegan and otherwise — from the first canapé to the final dessert.
+            Name the headcount, whether the whole table is vegan, and any other allergens. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Vegan Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

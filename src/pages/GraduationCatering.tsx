@@ -5,118 +5,116 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'graduation-catering-dubai',
-  seoTitle: 'Graduation Catering Dubai | School & University Parties',
+  seoTitle: 'Graduation Catering Dubai | myCHEF',
   metaDescription:
-    'Graduation party catering in Dubai for schools, universities and private celebrations. Buffet, canapés, live stations and full event service. Request a quote.',
+    'Graduation catering Dubai for school, university and family parties. Daytime food, mixed ages. Buffet from AED 120. Itemised quote.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Graduation Party Catering Dubai',
-  h1: 'Graduation Party Catering in Dubai',
+  h1: 'Graduation Catering Dubai',
   heroSub:
-    'Celebrate every cap, gown and milestone with graduation party catering across Dubai — from school leavers and university grads to postgraduate achievements and family parties.',
+    'Graduation catering Dubai for a school leaver party, a university lunch or a family table at home. Mixed ages, earlier service, then clear-down.',
   heroImage: '/service-events.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange graduation party catering in Dubai (via mychef.ae/graduation-catering-dubai)",
   eyebrow: 'GRADUATION PARTY CATERING IN DUBAI',
-  introH2: 'A Celebration Worthy of the Achievement',
+  introH2: 'Graduation catering Dubai is usually a daytime mixed-ages table',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Graduation marks the end of years of hard work and the start of something new. Whether you are planning a school prom after-party, a university graduation lunch, or an intimate family dinner at home, our graduation party catering brings the food, styling and service needed to match the occasion.
+        Graduation catering Dubai is lunch or a late afternoon more often than an evening party. Grandparents, classmates and siblings eat at different speeds. The brief is daytime food, earlier service, and a menu that does not assume a night out.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        we coordinate catering across Dubai for graduating classes, parent-hosted villa parties, faculty events and mixed-age celebrations. Menus range from relaxed grazing tables and BBQ live stations to elegant plated dinners and themed dessert displays. Our chefs handle setup, service and cleanup so graduates and their families can focus on photographs, speeches and making memories.
+        A staffed buffet starts from AED 120 per person. Canapés from AED 150. Drop-off from AED 90. All before 5% VAT. Dietary notes go into the first draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service fits naturally within our wider{' '}
-        party catering Dubai{' '}
-        range and pairs well with{' '}
+        A house sitting belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
-        </Link>{' '}
-        for at-home celebrations. For a more formal graduate dinner, explore our{' '}
+        </Link>
+        . A more formal seated dinner can be quoted from{' '}
         <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           luxury catering Dubai
-        </Link>{' '}
-        options.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Graduation Party Catering Formats',
+  formatsH2: 'How a graduation sitting is served',
   formats: [
     {
       Icon: PartyPopper,
-      title: 'Themed Graduation Buffets',
-      description: 'Styled buffet spreads with school colours, branded signage and crowd-pleasing dishes for grads and guests.',
+      title: 'Graduation buffets',
+      description: 'A maintained spread for mixed guest lists. School colours if you want them. Food still has to hold.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Utensils,
-      title: 'Plated Celebration Dinners',
-      description: 'Elegant multi-course plated meals for intimate graduate dinners and family recognition events.',
+      title: 'Plated celebration dinners',
+      description: 'Courses at the table when the guest list fits one sitting.',
       link: '/catering-dubai',
     },
     {
       Icon: Camera,
-      title: 'Canapé & Cocktail Receptions',
-      description: 'Bite-sized canapés and mocktail service ideal for photo-friendly arrivals and mingling.',
+      title: 'Canapé receptions',
+      description: 'Passed bites for arrivals and photographs, then a main when people actually eat.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa & Home Graduation Parties',
-      description: 'fully-coordinated catering at your home or villa across Dubai, with setup, service and pack-down included.',
+      title: 'Villa and home graduation parties',
+      description: 'Setup, service and pack-down at the house. Gates and kitchen access belong in the brief.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
-      title: 'School & University Events',
-      description: 'Catering for campus halls, school courtyards, auditoriums and graduation venues with scalable service.',
+      title: 'School and university events',
+      description: 'A hall, courtyard or auditorium you have booked. Their rules, our kitchen team.',
       link: '/events',
     },
     {
       Icon: GraduationCap,
-      title: 'Dessert & Cake Stations',
-      description: 'Celebration cakes, cupcakes, themed dessert tables and sweet stations to mark the milestone.',
+      title: 'Dessert and cake stations',
+      description: 'Cake as its own moment, not colliding with the main. Quoted when you want us to supply it.',
       link: '/dessert-table-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE GRADUATION CATERING WORKS',
-  useCasesH2: 'Designed for Every Kind of Graduate Celebration',
+  useCasesH2: 'School leavers, university, family villas',
   useCases: [
     {
-      title: 'School Leaver Parties',
+      title: 'School leaver parties',
       description:
-        'From prom after-parties to Year 13 farewells, we create safe, age-appropriate menus that students enjoy and parents trust.',
+        'Age-appropriate food, labelled, with a running order parents can see in the quote.',
     },
     {
-      title: 'University Graduation Events',
+      title: 'University graduation events',
       description:
-        'Celebrate bachelor’s, master’s and doctoral milestones with catering that suits mixed-age groups of classmates, professors and family.',
+        'Classmates, professors and family at the same table. Spice levels and dietary notes named early.',
     },
     {
-      title: 'Family Villa Celebrations',
+      title: 'Family villa celebrations',
       description:
-        'Host a relaxed graduation lunch or dinner at home in Emirates Hills, Palm Jumeirah or Dubai Hills with full service and cleanup.',
+        'A lunch or dinner at home in Emirates Hills, Palm Jumeirah or Dubai Hills. You stay with the graduate.',
     },
     {
-      title: 'Institutional Ceremonies',
+      title: 'Institutional ceremonies',
       description:
-        'Schools and universities can book timed, tidy catering for award ceremonies, convocation receptions and faculty gatherings.',
+        'A reception with a clock. Food that holds, then a room that has to empty.',
     },
   ],
-  includedH2: "What's Included in Our Graduation Party Catering",
+  includedH2: 'What a staffed graduation sitting includes',
   includedItems: [
-    { title: 'Celebration Menu Design', description: 'Menus tailored to the graduate, school colours, theme and guest age range.' },
-    { title: 'Live Cooking Stations', description: 'Optional pasta, BBQ, shawarma or dessert stations that add energy to the party.' },
-    { title: 'Canapés & Grazing Tables', description: 'Stylish arrival bites and share platters perfect for mingling and photos.' },
-    { title: 'Themed Dessert Tables', description: 'Cakes, cupcakes and sweet displays personalised for the graduate and institution.' },
-    { title: 'Mocktails & Soft Bars', description: 'Non-alcoholic drink stations, fresh juices and celebratory mocktails for all ages.' },
-    { title: 'Dietary Accommodations', description: 'Vegetarian, vegan, gluten-free, halal and allergy-aware options available.' },
-    { title: 'Event Setup & Service', description: 'Tables, linens, serveware and friendly staff to run the event smoothly.' },
-    { title: 'Full Pack-Down & Cleanup', description: 'We leave the venue clean so the celebration can continue without interruption.' },
+    { title: 'Menu written for mixed ages', description: 'The graduate, the grandparents and any children, named in the brief.' },
+    { title: 'Live stations', description: 'Optional pasta, BBQ or dessert stations. Power and supervision belong in the quote.' },
+    { title: 'Canapés and grazing', description: 'Arrival food while photographs happen.' },
+    { title: 'Cake', description: 'Quoted when you want us to supply it, or we plate a cake you bring.' },
+    { title: 'Drinks', description: 'Mocktails, juice and soft drinks. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Dietary notes', description: 'Vegetarian, vegan, gluten-free, halal and allergy notes, labelled.' },
+    { title: 'Setup and service', description: 'Tables, linen and staff sized to the format.' },
+    { title: 'Pack-down', description: 'The house or hall is left usable.' },
   ],
-  galleryH2: 'A Taste of Our Graduation Party Catering',
+  galleryH2: 'How graduation catering looks in Dubai',
   galleryImages: [
     { src: '/service-events.webp', alt: 'Graduation party catering set-up in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Canapés for a graduation celebration' },
@@ -125,50 +123,50 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa graduation party styling' },
     { src: '/service-catering.webp', alt: 'Graduation catering service in Dubai' },
   ],
-  faqsH2: 'Graduation Party Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What types of graduation events do you cater?',
-      a: 'we coordinate catering for school leaver parties, university graduation celebrations, postgraduate dinners, family villa gatherings, and institutional receptions across Dubai.',
+      a: 'School leaver parties, university lunches, postgraduate dinners, family villa gatherings and institutional receptions.',
     },
     {
       q: 'Can you match the school or university colours and theme?',
-      a: 'Yes. We can coordinate menu styling, dessert colours, signage and table decor to reflect the graduate’s school, university or chosen theme.',
+      a: 'We can match dessert colours and a few table details. The food still has to hold and eat cleanly.',
     },
     {
       q: 'Do you provide non-alcoholic drinks and mocktails?',
-      a: 'Absolutely. We offer mocktails, fresh juices, soft drinks and themed non-alcoholic beverages suitable for all ages.',
+      a: 'Yes. Mocktails, juice and soft drinks. Alcohol at a private residence is sourced by the host.',
     },
     {
       q: 'Can graduation catering be held at home or in a villa?',
-      a: 'Yes. We provide fully-coordinated catering across Dubai, including setup, service and cleanup, so families can celebrate without stress.',
+      a: 'Yes. We cook at your address. Staffed bookings include setup, service and clear-down.',
     },
     {
       q: 'Do you cater for mixed-age groups including children and grandparents?',
-      a: 'Yes. We design menus with variety and portion sizes to suit younger guests, adults and older relatives, with dietary options clearly labelled.',
+      a: 'Yes. That is the usual graduation brief. Serve children earlier if you want one party, not two.',
     },
     {
       q: 'How far in advance should I book graduation party catering?',
-      a: 'Two to four weeks is ideal, especially during graduation season and peak event months. Last-minute bookings may be possible — contact us on WhatsApp to check availability.',
+      a: 'Two to four weeks is the usual window, longer in graduation season.',
     },
   ],
   relatedServices: [
     {
       title: 'Private Party Catering',
-      description: 'Intimate home and villa parties with personalised menus and full service.',
+      description: 'The house night this graduation sitting redirects into.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },
     {
       title: 'Dessert Table Catering',
-      description: 'Show-stopping dessert displays and celebration cakes for milestone events.',
+      description: 'A styled sweet display when cake needs its own table.',
       image: '/menu-dessert.webp',
       link: '/dessert-table-catering-dubai',
     },
   ],
-  ctaH2: 'Celebrate the Graduate With Catering They Will Remember',
+  ctaH2: 'Send the graduate, the guest list and the time of day',
   ctaP:
-    'Tell us about the graduate, guest count, venue and preferred style. We will create a graduation party menu that matches the achievement and the mood.',
+    'Tell us school, university or family, how many people and whether it is lunch or evening. We send an itemised quote.',
   showTrustSignalStrip: true,
 }
 

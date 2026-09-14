@@ -28,7 +28,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import { CATERING_FORMAT_BY_ID } from '@/content/cateringPricing'
 
+const CANAPES = CATERING_FORMAT_BY_ID.canapes
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan cocktail party catering in Dubai (via mychef.ae/cocktail-party-catering-dubai)')
@@ -39,69 +41,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const cocktailFormats = [
   {
     icon: Martini,
-    title: 'Mixology Bar Service',
-    description: 'Professional mixologists crafting signature cocktails at a styled bar, tailored to your theme, palette, and guest preferences.',
+    title: 'Bar service, where licensed',
+    description: 'Bartenders at a bar we bring. Cocktails only when the venue is licensed or the quotation says so. Mocktails otherwise.',
     link: '/catering-dubai',
   },
   {
     icon: Sparkles,
-    title: 'Passed Canapés',
-    description: 'Elegant bite-sized canapés circulated by service staff throughout the reception, designed to pair with the cocktail menu.',
+    title: 'Passed canapés',
+    description: 'One-bite food moved through a standing room. From AED 150 per person, from 10 guests. Detail lives on the canapé page.',
     link: '/canape-catering-dubai',
   },
   {
     icon: Building2,
-    title: 'Rooftop Receptions',
-    description: 'Polished cocktail receptions for rooftop venues and terraces, with compact menus that look striking against the Dubai skyline.',
+    title: 'Rooftop receptions',
+    description: 'Compact canapés and a small bar footprint for a terrace. Wind, lift access and the building’s drinks rules decide the kit.',
     link: '/catering-dubai',
   },
   {
     icon: Ship,
-    title: 'Yacht & Marina Parties',
-    description: 'Chilled cocktails, sparkling service, and mess-free canapés designed for yacht receptions around Dubai Marina.',
+    title: 'Yacht and marina',
+    description: 'Mess-free canapés and a bar the operator will accept. Alcohol follows the charter rules, not a hope.',
     link: '/yachts',
   },
   {
     icon: Wine,
-    title: 'Champagne & Wine Service',
-    description: 'Sparkling reception service, curated wine pairings, and elegant pours delivered by attentive, well-presented staff.',
+    title: 'Wine and sparkling, if permitted',
+    description: 'Pours listed on the quote. We do not assume a champagne reception in a private home.',
     link: '/catering-dubai',
   },
   {
     icon: Users,
-    title: 'Corporate Cocktails',
-    description: 'Sophisticated cocktail receptions for launches, networking evenings, and client entertaining that keep guests mingling.',
+    title: 'Corporate standing receptions',
+    description: 'Launches and networking where people stay on their feet. Food is passed. The agenda does not stop for a buffet queue.',
     link: '/corporate',
   },
 ]
 
 const includedItems = [
-  { title: 'Signature Cocktail Menu', description: 'A bespoke cocktail list designed around your theme and tastes.' },
-  { title: 'Professional Mixologists', description: 'Skilled bartenders crafting drinks at a styled, fully-stocked bar.' },
-  { title: 'Passed Canapés', description: 'Elegant canapés circulated throughout the reception by service staff.' },
-  { title: 'Premium Spirits & Mixers', description: 'Quality spirits, fresh mixers, garnishes, and glassware.' },
-  { title: 'Mobile Bar Set-Up', description: 'A styled bar built for villas, rooftops, yachts, and venues.' },
-  { title: 'Mocktail Options', description: 'Crafted alcohol-free cocktails so every guest is looked after.' },
-  { title: 'Service & Bar Staff', description: 'Bartenders, hosts, and waiters scaled to your guest count.' },
-  { title: 'Full Set-Up & Clear-Down', description: 'We arrive early, run the bar, and leave the space spotless.' },
+  { title: 'Drinks list', description: 'Cocktails where licensed, mocktails as standard. Written before the night.' },
+  { title: 'Bartenders', description: 'Staff behind the bar, sized to the guest count.' },
+  { title: 'Passed canapés', description: 'Servers moving bites through the room. Quantities follow how long people stand.' },
+  { title: 'Spirits, mixers or BYO', description: 'Supplied by us or by you. Named on the proposal so setup is not a surprise.' },
+  { title: 'Mobile bar', description: 'Counter, glassware, ice and garnishes for a villa, rooftop, yacht or venue.' },
+  { title: 'Mocktails', description: 'Alcohol-free drinks for mixed tables and dry rooms. Same bar, same staff.' },
+  { title: 'Service staff', description: 'Bartenders and waiters scaled to headcount. Not assumed if you only want the chef.' },
+  { title: 'Setup and clear-down', description: 'We build the bar, run the window and leave the room as we found it.' },
 ]
 
 const useCases = [
   {
-    title: 'Rooftop & Skyline Receptions',
-    description: 'Cocktail receptions are made for Dubai’s rooftops and terraces. We design compact, striking menus and a styled bar that hold their own against the skyline, with mixologists shaking drinks to order all evening.',
+    title: 'Rooftop and terrace',
+    description: 'A standing hour on a terrace: compact canapés, a small bar, and a drinks list that matches the building’s rules. Downtown and Marina rooftops are typical.',
   },
   {
-    title: 'Yacht & Marina Gatherings',
-    description: 'For receptions on the water around Dubai Marina, we bring chilled cocktails, sparkling service, and mess-free canapés engineered for deck life — elegant, easy to hold, and beautiful to photograph.',
+    title: 'Yacht and marina',
+    description: 'Canapés that hold on a deck, and a bar the operator will load. Alcohol is the charter’s decision. We pack to their window.',
   },
   {
-    title: 'Private Villa Soirées',
-    description: 'Transform your villa, garden, or pool deck into a sophisticated cocktail lounge. We bring the bar, the mixologists, the canapés, and the styling, then handle every detail from set-up to clear-down.',
+    title: 'Villa receptions',
+    description: 'A standing party at home. We bring the bar and the trays. You stay with guests. Open flame and alcohol still follow the house and the quotation.',
   },
   {
-    title: 'Corporate & Networking Evenings',
-    description: 'Launches, client entertaining, and networking receptions call for drinks that impress and canapés that travel. Our cocktail service keeps guests circulating and conversation flowing throughout the event.',
+    title: 'Corporate networking',
+    description: 'A launch or client hour where people need a glass and a bite in one hand. Passed food from AED 150 per person. Drinks only where the venue is licensed.',
   },
 ]
 
@@ -141,61 +143,106 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'What does cocktail party catering include?',
-    a: 'It typically includes a styled bar with professional mixologists, a bespoke cocktail menu, passed canapés, premium spirits and mixers, glassware, and full service staff. We tailor the bar and canapé selection to your theme and guest count.',
+    a: 'Passed canapés, a bar we bring, bartenders, glassware and a drinks list. Cocktails only where the venue is licensed or the quotation says so. Mocktails otherwise. Setup and clear-down are in the booking.',
   },
   {
     q: 'Do you provide the bar, glassware, and bartenders?',
-    a: 'Yes. We bring a fully-stocked mobile bar, glassware, garnishes, and professional mixologists. The bar is styled to suit your venue, whether that is a villa, rooftop, yacht, or corporate space.',
+    a: 'Yes. Counter, glassware, ice, garnishes and bartenders. The quote names how many people stand behind the bar.',
   },
   {
     q: 'Can you create signature and alcohol-free cocktails?',
-    a: 'Absolutely. We design signature cocktails around your theme and tastes, and we always offer crafted mocktails so non-drinking guests are equally looked after. Ask us about a dedicated mocktail bar as well.',
+    a: 'Mocktails are standard. Named cocktails sit on the proposal only when alcohol is allowed. The mocktail bar is [bar services](/bar-services-dubai), not a second product.',
   },
   {
     q: 'How many canapés do you serve per guest?',
-    a: 'For a cocktail reception, we typically recommend six to eight canapés per guest for a few hours of service, more if it replaces a meal. We advise on quantities based on your timing and whether dinner follows.',
+    a: 'Six to eight pieces per guest for a standing hour or two. More if the canapés replace a meal. Timing decides the count, not a slogan.',
   },
   {
     q: 'Do you cater cocktail parties on yachts and rooftops?',
-    a: 'Yes. We regularly cater cocktail receptions on yachts around Dubai Marina and on rooftops and terraces across the city, with compact, mess-free menus designed for those settings.',
+    a: 'Yes, when access and the operator or building allow it. Compact canapés, a small bar footprint, and drinks rules written into the quote.',
   },
   {
     q: 'How far in advance should I book?',
-    a: 'For smaller receptions, one to two weeks is ideal. For larger or fully styled cocktail events, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
+    a: 'One to two weeks for a smaller reception. Two to four weeks for a larger standing night, especially November to March. If the date is soon, ask; we will say what we can staff.',
   },
-  { q: "How much does cocktail party catering cost in Dubai?", a: "Cocktail party catering in Dubai is priced by custom quote, because the cost depends on your guest count, the cocktail and canapé selection, the number of bartenders and service staff, and your venue. We build every proposal around your specific reception rather than a fixed menu, and all quotes include 5% VAT. Tell us your date, headcount, and venue and we usually reply with pricing within 15 minutes during business hours." },
-  { q: "What is the minimum number of guests for cocktail catering?", a: "We cater cocktail receptions across a wide range of sizes, from intimate villa gatherings to large corporate evenings, and we scale the bar, mixologists, and canapé service to fit. Rather than a rigid minimum, we design the format to suit your headcount so the drinks and food feel abundant, not stretched. Share your expected guest count and we will recommend the right setup and quote it for you on our [contact page](/contact)." },
-  { q: "Can you serve alcohol legally at a private party in Dubai?", a: "Yes, alcohol can be served responsibly at private cocktail parties in Dubai when the event is held on private property such as a villa, apartment, or licensed venue. We advise you on how the drinks side works for your setting, and where the venue has its own arrangements we build the cocktail service around them. Every reception is planned to stay respectful of Dubai regulations and community rules." },
-  { q: "Do I need to supply my own spirits, or do you provide everything?", a: "We can provide a fully-stocked bar with premium spirits, mixers, garnishes, and glassware, so you do not have to source anything yourself. If you prefer to supply your own spirits for a home reception, our mixologists will happily craft cocktails using what you provide and bring the mixers, tools, ice, and styling. We will confirm exactly what is included when we build your quote." },
-  { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so every canapé is prepared, transported, and served safely. This matters even more for cocktail receptions where food sits out during passed service, and our team manages timing and handling carefully. You can read more about how we work on our [how it works](/how-it-works) page." },
-  { q: "Is the food halal?", a: "Yes, our ingredients are halal sourced by default, so your canapés and bites are suitable for all your guests without any special request. If you have particular sourcing needs or certificates required for corporate events, just let us know when you enquire. We build the canapé menu around your preferences and dietary requirements from the start." },
-  { q: "How many bartenders and service staff will I need?", a: "As a general guide, one bartender comfortably serves around 40 to 50 guests, and we add mixologists and waiters as your headcount and cocktail complexity grow. We scale the whole team so drinks keep flowing and canapés reach every corner of the room without long queues. When we quote, we recommend the exact bar and service staffing for your reception." },
-  { q: "Can you accommodate vegetarian, vegan, and allergy needs in the canapés?", a: "Absolutely, we design canapé menus around vegetarian, vegan, gluten-free, nut-free, and other dietary requirements so every guest is looked after. Just share the details when you enquire and we build them into the selection rather than treating them as afterthoughts. For allergy-sensitive events we take extra care with labelling and handling." },
-  { q: "How much space do you need to set up the bar?", a: "We can set up a styled cocktail bar in a surprisingly compact footprint, whether that is a corner of a villa lounge, a rooftop terrace, a pool deck, or a yacht deck. Our mobile bar is built to be self-contained, so we bring the structure, glassware, and kit and adapt it to your space. Share a photo or description of your venue and we will confirm the setup that works best." },
-  { q: "How early do you arrive to set up, and do you clean up afterwards?", a: "Our team arrives well ahead of your reception to build and style the bar, prep the canapés, and be pouring the moment your first guests arrive. A full booking includes set-up, on-site service, and complete clear-down, so we run the bar all evening and leave the space spotless. You get to host and enjoy your own party while we handle everything behind the scenes." },
-  { q: "Do you cater cocktail parties in apartments and smaller venues, not just villas?", a: "Yes, we regularly cater cocktail receptions in apartments and compact spaces, adapting the bar and passed canapé service to work beautifully in tighter settings. For [apartment private dining](/apartment-private-dining-dubai) and smaller gatherings we keep the setup neat and the menu focused so the space never feels crowded. Tell us your venue and we will design a format that fits." },
-  { q: "Can you match the cocktails and canapés to a specific theme or colour palette?", a: "Yes, we design signature cocktails and canapés around your theme, colour palette, and the mood you want for the evening, from a sleek corporate launch to a playful birthday reception. Our mixologists tailor the drinks list and garnishes, and our chefs style the canapés to match. Just share your vision and any inspiration when you enquire and we bring it to life." },
-  { q: "What is the difference between a cocktail reception and a buffet or seated dinner?", a: "A cocktail reception is a standing, flowing event built around passed canapés and crafted drinks rather than a plated meal, keeping guests mingling and mobile. It suits launches, networking evenings, and pre-dinner receptions, while a buffet or seated dinner is better when guests will settle to eat a full meal. If you are weighing the options, our guide on [private chef versus catering](/private-chef-vs-catering-dubai) can help you decide the right format." },
-  { q: "Can a cocktail reception replace a full meal, or does dinner usually follow?", a: "A cocktail reception can absolutely stand in for a meal if you increase the number and substance of the canapés, and we design a heartier passed menu when that is the plan. If drinks and canapés are a prelude to dinner, we keep the bites lighter so guests arrive at the table with an appetite. Tell us how the evening flows and we will scale the food accordingly." },
-  { q: "How far in advance should I confirm my cocktail party?", a: "We recommend confirming as early as you can, especially during peak season from November to March when weekend dates book up quickly. Earlier confirmation gives us the most room to design a bespoke cocktail menu, secure the right bar team, and coordinate styling for your venue. If your date is soon, still reach out, as we will always tell you honestly what we can deliver in the time available." },
+  {
+    q: 'How much does cocktail party catering cost in Dubai?',
+    a: `Passed canapés start from AED ${CANAPES.fromPerPerson} per person, from ${CANAPES.minGuests} guests, the same floor as the Catering hub. The bar is quoted as staff and kit, not as a second invented food floor. 5% VAT is a separate line.`,
+  },
+  {
+    q: 'What is the minimum number of guests for cocktail catering?',
+    a: `Canapés start at ${CANAPES.minGuests} guests. Below that we will say so rather than stretch a standing service. Share the headcount on [contact](/contact).`,
+  },
+  {
+    q: 'Can you serve alcohol legally at a private party in Dubai?',
+    a: 'Only where the venue is licensed, the operator allows it, or the quotation records a lawful private arrangement. We will not pour against the paper. A dry brief still gets a mocktail bar.',
+  },
+  {
+    q: 'Do I need to supply my own spirits, or do you provide everything?',
+    a: 'Either. We can supply spirits where permitted, or run BYO. Mixers, ice, tools and glassware travel with us either way. The quote says which.',
+  },
+  {
+    q: 'Are your kitchens and chefs licensed and food-safe?',
+    a: 'Independent licensed culinary partners cook. Kitchens follow Dubai Municipality food-safety rules. Passed food is timed so it does not sit out as a guess. See [how it works](/how-it-works).',
+  },
+  {
+    q: 'Is the food halal?',
+    a: 'Halal ingredients are the default. Corporate certificates, if needed, are requested in the enquiry and shown on the proposal.',
+  },
+  {
+    q: 'How many bartenders and service staff will I need?',
+    a: 'The quote sizes the team to headcount and how complex the drinks list is. We do not publish a rigid bartender-to-guest ratio as a promise.',
+  },
+  {
+    q: 'Can you accommodate vegetarian, vegan, and allergy needs in the canapés?',
+    a: 'Yes. Named diets go into the first canapé list, labelled on the tray. They are not an afterthought plate.',
+  },
+  {
+    q: 'How much space do you need to set up the bar?',
+    a: 'A compact counter. Villa lounge, terrace, pool deck or yacht deck. Send a photo and we confirm the footprint before the night.',
+  },
+  {
+    q: 'How early do you arrive to set up, and do you clean up afterwards?',
+    a: 'We arrive before guests, run the window and pack down. Clear-down is in the booking.',
+  },
+  {
+    q: 'Do you cater cocktail parties in apartments and smaller venues, not just villas?',
+    a: 'Yes. A smaller bar and a focused canapé list. See [apartment private dining](/apartment-private-dining-dubai) when the night is seated instead of standing.',
+  },
+  {
+    q: 'Can you match the cocktails and canapés to a specific theme or colour palette?',
+    a: 'Garnishes and canapé styling can follow a brief. We will not invent a drinks list that the licence does not allow.',
+  },
+  {
+    q: 'What is the difference between a cocktail reception and a buffet or seated dinner?',
+    a: 'This format is standing: passed bites and a bar. A buffet or plated dinner is for a room that sits. Compare formats on [private chef versus catering](/private-chef-vs-catering-dubai).',
+  },
+  {
+    q: 'Can a cocktail reception replace a full meal, or does dinner usually follow?',
+    a: 'It can replace a meal if the piece count and substance go up. If dinner follows, the canapés stay lighter. Tell us the running order.',
+  },
+  {
+    q: 'How far in advance should I confirm my cocktail party?',
+    a: 'As soon as the date is real. Peak weekends from November to March fill first. If the date is close, we will say what we can actually deliver.',
+  },
 ]
 
 const relatedServices = [
   {
-    title: 'Canapé Catering',
-    description: 'Passed canapés and bite-sized elegance for receptions and cocktail moments.',
+    title: 'Canapé catering',
+    description: 'Passed bites from AED 150 per person, from 10 guests. The food side of a standing hour.',
     image: '/menu-canapes.webp',
     link: '/canape-catering-dubai',
   },
   {
-    title: 'Mocktail Bar Catering',
-    description: 'A crafted alcohol-free bar with signature mocktails for every guest.',
+    title: 'Bar services',
+    description: 'Bartender hire and a mocktail bar. Cocktails only where the venue is licensed.',
     image: '/menu-cocktails.webp',
     link: '/bar-services-dubai',
   },
   {
-    title: 'Yacht Catering',
-    description: 'Chilled cocktails and elegant canapés for receptions on the water.',
+    title: 'Yacht catering',
+    description: 'Food coordinated to the galley and the operator. Drinks follow the charter rules.',
     image: '/service-luxury-dining.webp',
     link: '/yachts',
   },
@@ -323,10 +370,10 @@ export default function CocktailPartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cock-hero-h1">
-            Cocktail Party Catering Dubai — Mixologists, Canapés & Bar Service
+            Cocktail Party Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cock-hero-sub">
-            Professional mixologists, signature cocktails, and elegant passed canapés — styled for rooftop receptions, yacht parties, and villa soirées across Dubai.
+            Cocktail party catering Dubai is a standing reception: passed canapés from AED {CANAPES.fromPerPerson} per person, bartenders, setup and clear-down. Alcohol only where the venue is licensed or the quotation says so.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 cock-hero-cta">Plan My Cocktail Reception</Link>
@@ -348,18 +395,18 @@ export default function CocktailPartyCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">MIXOLOGY & CANAPÉS</SectionLabel>
+          <SectionLabel align="center">STANDING FOOD AND A BAR</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Reception That Keeps Guests Mingling
+            How cocktail party catering Dubai is built
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A great cocktail party has a rhythm of its own — the clink of a styled bar, a signature drink that becomes the talk of the evening, a tray of canapés arriving at exactly the right moment. At myCHEF Dubai, we design cocktail receptions as a complete experience, pairing professional mixologists and a bespoke drinks list with elegant, perfectly-timed canapés that keep your guests circulating.
+            Cocktail party catering Dubai is a standing hour: trays of canapés, a bar we bring, and staff who keep both moving. Passed canapés start from AED {CANAPES.fromPerPerson} per person, from {CANAPES.minGuests} guests. That is the food floor. The bar is staff and kit on the same proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A hands-on cocktail making class Dubai hosts arrange can also be incorporated into the evening, letting guests shake signature drinks alongside our mixologists.
+            Alcohol is poured only where the venue is licensed, the operator allows it, or the quotation records a lawful private arrangement. Mocktails run either way. A cocktail-making class can sit in the brief if you want guests behind the bar; it is not a default.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a rooftop reception against the skyline, a yacht party around Dubai Marina, an intimate villa soirée, or a corporate networking evening, our chefs bring the bar, the staff, and the styling to you. Explore our cocktail formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Rooftop, yacht, villa or office: the format is the same. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the other formats when the room should sit.
           </p>
         </div>
       </section>
@@ -370,7 +417,7 @@ export default function CocktailPartyCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">COCKTAIL FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Cocktail Catering for Every Setting
+              Standing service, not a seated dinner
             </h2>
           </div>
 
@@ -404,7 +451,7 @@ export default function CocktailPartyCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE POUR</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Receptions for Every Venue
+              Where a standing hour actually works
             </h2>
           </div>
 
@@ -423,7 +470,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Cocktail Catering Includes
+            What the reception quote lists
           </h2>
 
           <div className="cock-inc-grid grid md:grid-cols-2 gap-6">
@@ -444,7 +491,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Cocktail Catering
+            Trays and a bar in the room
           </h2>
 
           <div className="cock-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -534,10 +581,10 @@ export default function CocktailPartyCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center cock-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Cocktail Party
+            Send the date, the headcount and whether alcohol is allowed
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your reception and we'll design a cocktail menu, bar, and canapé service that fits your venue and guest count perfectly.
+            We typically reply within 15 minutes during business hours with the format that fits the room.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Plan My Cocktail Reception</Link>

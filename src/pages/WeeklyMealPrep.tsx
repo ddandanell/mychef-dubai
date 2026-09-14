@@ -41,32 +41,32 @@ const howItWorks = [
   {
     icon: Calendar,
     step: '01',
-    title: 'Free Consultation',
-    description: 'We discuss your household size, dietary goals, preferred cuisines, and any allergies or restrictions. This can happen by WhatsApp, call, or a brief video chat.',
+    title: 'Tell us how the house eats',
+    description: 'Household size, what people will actually eat, allergies, and which days the chef should come. WhatsApp, a call, or a short video is enough to start.',
   },
   {
     icon: ChefHat,
     step: '02',
-    title: 'Menu Plan',
-    description: 'Your chef designs a rotating weekly menu that balances flavour, nutrition, and seasonality. You approve every dish before we shop.',
+    title: 'Menu from the Food Profile',
+    description: 'The chef writes the week from how this house eats, not from a rotating card. You see the dishes before anyone shops.',
   },
   {
     icon: ShoppingBag,
     step: '03',
-    title: 'Shop & Prep',
-    description: 'The chef sources fresh, premium ingredients and arrives at your home for a scheduled prep session — typically once or twice per week depending on your plan.',
+    title: 'Shop and cook in your kitchen',
+    description: 'One Food Prep visit is four hours, AED 900. Once or twice a week is the usual rhythm. Groceries are yours, or ours at the actual receipts.',
   },
   {
     icon: Package,
     step: '04',
-    title: 'Package & Label',
-    description: 'Meals are portioned into premium containers, clearly labelled with contents, date, and reheating instructions. Everything is ready to enjoy.',
+    title: 'Portion and label',
+    description: 'Meals go into reusable containers, labelled with contents, date and how to reheat. You open the fridge, not a courier bag.',
   },
   {
     icon: Sparkles,
     step: '05',
-    title: 'Clean Up',
-    description: 'Before leaving, the chef wipes down surfaces, packs away food, and leaves your kitchen exactly as it was — except now it is full of fresh meals.',
+    title: 'Kitchen handed back',
+    description: 'Surfaces wiped, food packed, kitchen left the way it was found, now with the week’s food in it.',
   },
 ]
 
@@ -112,52 +112,52 @@ const tiers = [
 const benefits = [
   {
     icon: Clock,
-    title: 'Hours Back Every Week',
-    description: 'No more grocery runs, recipe planning, or kitchen clean-up. A private chef handles the full workflow so you can reclaim your evenings.',
+    title: 'The week is cooked, then the chef leaves',
+    description: 'Planning, shopping if agreed, cooking, packing and clear-down sit in the four hours. You are not running a second kitchen in the evenings.',
   },
   {
     icon: HeartPulse,
-    title: 'Health Goals, Maintained',
-    description: 'Portion-controlled, balanced meals designed around your macros, fitness targets, or medical dietary needs.',
+    title: 'Healthy means this house’s version',
+    description: 'What “healthy” is here (protein, spice, what the children will eat) goes into the Food Profile and is cooked against it.',
   },
   {
     icon: Leaf,
-    title: 'Fresh, Not Frozen',
-    description: 'Dishes are prepared from scratch with premium ingredients sourced for that week — not pulled from a freezer.',
+    title: 'Cooked here, not shipped frozen',
+    description: 'A meal prep chef Dubai households book cooks in your kitchen that week. The food is not pulled from a production freezer.',
   },
   {
     icon: Users,
-    title: 'Halal & Allergen Aware',
-    description: 'We source halal-certified proteins and follow strict allergen protocols, with clear labelling on every container.',
+    title: 'Halal by default, allergens labelled',
+    description: 'Halal sourcing is the default. Allergies sit in the profile, and every container is labelled so you can see what is inside.',
   },
   {
     icon: Sparkles,
-    title: 'Rotating Menus',
-    description: 'Indian one week, Mediterranean the next, Asian fusion after that. Your chef keeps the weekly line-up exciting.',
+    title: 'The menu changes with the house',
+    description: 'Indian one week, Mediterranean the next, if that is how you eat. Family meal prep Dubai follows the household, not a printed rotation.',
   },
   {
     icon: Check,
-    title: 'Full Kitchen Cleanup',
-    description: 'Prep, cooking, packaging, and clear-down are all included. You simply open the fridge and choose what to eat.',
+    title: 'Kitchen left as found',
+    description: 'Prep, cooking, packing and clear-down are in the visit. You open the fridge and choose what to eat.',
   },
 ]
 
 const forWhom = [
   {
-    title: 'Busy Families',
-    description: 'Juggling school runs, work, and after-school activities is easier when dinner is already made and waiting in the fridge.',
+    title: 'Families who want the week cooked',
+    description: 'School runs and late returns are easier when dinner is already in the fridge, labelled, and safe for the people who live here.',
   },
   {
-    title: 'Professionals & Executives',
-    description: 'Long hours and back-to-back meetings make home cooking hard. Weekly prep ensures you eat well without sacrificing time.',
+    title: 'Households that do not want a chef all day',
+    description: 'Four hours, once or twice a week, is enough for a batch cooking service Dubai homes use without staffing the kitchen every evening.',
   },
   {
-    title: 'Athletes & Fitness-Focused Households',
-    description: 'High-protein, macro-counted meals designed to support training goals — whether you are preparing for an event or maintaining a routine.',
+    title: 'Training weeks',
+    description: 'High-protein food planned for the week is a fitness meal prep service when the brief says so. The job is still Food Prep. The numbers come from you or your coach.',
   },
   {
-    title: 'Dietary Restrictions',
-    description: 'Gluten-free, dairy-free, nut-free, keto, low-sodium, diabetic-friendly — we design menus that work around your needs, not despite them.',
+    title: 'Allergies and refusals',
+    description: 'Gluten-free, dairy-free, nut-free, keto, low-sodium: the Food Profile holds it. We cook around it, not despite it.',
   },
 ]
 
@@ -173,40 +173,40 @@ const galleryImages = [
 const faqs = [
   {
     q: 'What is included in weekly meal prep?',
-    a: 'Weekly meal prep includes a bespoke menu consultation, grocery shopping, in-home cooking and prep, portioning into containers, labelling, and full kitchen cleanup. You receive fresh meals ready to refrigerate and reheat.',
+    a: 'The Food Prep job: four hours in your kitchen, a menu from the Food Profile, cooking, packing, labelling and the kitchen left as found. Groceries are yours, or ours at actual receipts. VAT at 5% is shown on the service.',
   },
   {
     q: 'How much does weekly meal prep cost in Dubai?',
-    a: 'Meal prep is the Food Prep job: four hours, AED 900 a session. Once a week is AED 3,600 a month, twice a week AED 1,800 a week or AED 7,200 a month. Up to eight people are in that price; groceries are charged at the actual receipts with no markup. There is no separate meal-prep tariff.',
+    a: 'Meal prep is the Food Prep job: four hours, AED 900 a session. Once a week is AED 3,600 a month, twice a week AED 1,800 a week or AED 7,200 a month. Up to eight people are in that price. There is no separate meal-prep tariff.',
   },
   {
     q: 'Can I choose the cuisines each week?',
-    a: 'Yes. Menus are fully bespoke and can rotate across Indian, Arabic, Mediterranean, Italian, Asian, healthy, and other cuisines based on your preferences.',
+    a: 'Yes. The weekly meal plan Dubai households use is written from how you eat: Indian, Arabic, Mediterranean, Italian, Asian, or a mix. You see the dishes before the visit.',
   },
   {
     q: 'Is the food halal and suitable for allergies?',
-    a: 'We source halal-certified proteins and follow strict allergen protocols. Every container is clearly labelled so you know exactly what is inside.',
+    a: 'Halal sourcing is the default. Allergies sit in the Food Profile. Every container is labelled so you know what is inside.',
   },
   {
     q: 'Do I need to be home during the prep session?',
-    a: 'Not necessarily. Many clients provide entry instructions or are home for the first session. We can agree on a routine that works for your household.',
+    a: 'Not necessarily. Many households give access instructions, or are home for the first visit. We agree a routine that works for this house.',
   },
   {
-    q: 'How far in advance should I book weekly meal prep?',
-    a: 'We recommend booking at least one week in advance so the chef can plan menus and source ingredients. For recurring clients, schedules are agreed monthly.',
+    q: 'Is weekly meal prep healthy?',
+    a: 'It is as healthy as the brief you give us. “Healthy” is written into the Food Profile for this house, then cooked and labelled. It is not a slogan on a tray.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Private Chef Dubai',
-    description: 'Fully bespoke private chef dinners and experiences in your home or villa.',
+    description: 'A standing household chef, not one dinner. Same chef, Food Profile, backup.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Healthy Catering Dubai',
-    description: 'Nutrition-focused catering with balanced menus and dietary flexibility.',
+    description: 'One-night catering when the brief is guests, not a week of packed meals.',
     image: '/menu-seafood.webp',
     link: '/cuisines-dubai',
   },
@@ -320,7 +320,7 @@ export default function WeeklyMealPrep() {
             Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
-            Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
+            Meal prep Dubai households book is four hours in your kitchen, AED 900 a visit: breakfast cooked fresh, the rest packed for later. Groceries at receipts. VAT 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get My Meal Prep Quote</Link>
@@ -342,32 +342,25 @@ export default function WeeklyMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">FRESH MEALS, MADE FOR YOUR WEEK</SectionLabel>
+          <SectionLabel align="center">THE FOOD PREP JOB</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Meal Prep Dubai, Cooked Fresh in Your Own Kitchen
+            Meal Prep Dubai, cooked in your kitchen
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. The meal prep service Dubai households book puts that chef in your kitchen once or twice a week to cook fresh, portioned meals around your tastes, schedule and diet — so you get the evenings back and skip the takeout cycle.
+              Meal prep Dubai is not a courier brand. A private chef meal prep Dubai visit is the Food Prep job: four hours, AED 900, in your kitchen. Breakfast cooked fresh if you want it, then lunch, dinner and the rest packed for later. Groceries at actual receipts. VAT at 5% on the service.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              If you are weighing up best meal prep delivery Dubai, check for a named chef, an itemised quote and who buys the ingredients. Hosts who ask is weekly meal prep healthy get the answer in the first menu draft, not as a slogan. A meal prep chef Dubai or batch cooking service Dubai is that cook in your kitchen once or twice a week. Private chef meal prep Dubai and personal chef meal prep Dubai are the same booking. Family meal prep Dubai follows the household; fitness meal prep services follows the training plan you sent.
+              If you are comparing a best meal prep delivery Dubai tray, check three things: a named chef, an itemised figure, and who buys the ingredients. A meal prep chef Dubai, a batch cooking service Dubai, and personal chef meal prep Dubai are the same booking. Family meal prep Dubai follows this house. A kids meal prep service sits on the children’s page when the brief is school boxes.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A meal prep chef cooks in your kitchen rather than shipping trays from a production unit, which is
-              why the food tastes like it was made in a house — because it was.
+              Hosts who ask is weekly meal prep healthy get the answer in the first menu draft, not as a slogan. Fitness meal prep services only enter the brief if you sent a training plan. A weekly meal plan Dubai households keep is written into the Food Profile, then cooked here, because it was made in a house.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
+              For strict allergen protocols, see our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>. For a standing cook most days, start at <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>. One dinner is catering, not this page.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, corporate meal prep programmes, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-              Deciding between weekly prep and a full-time chef? Read our comparison of weekly meal prep vs full-time chef in Dubai.
+              Comparing weekly prep with a chef five days a week? Read <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
             </p>
           </div>
         </div>
@@ -377,9 +370,9 @@ export default function WeeklyMealPrep() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center">THE PROCESS</SectionLabel>
+            <SectionLabel align="center">THE VISIT</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              How Weekly Meal Prep Works
+              How the chef uses the four hours
             </h2>
           </div>
 
@@ -409,12 +402,12 @@ export default function WeeklyMealPrep() {
       <section className="wmp-tiers bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">STARTING PRICES</SectionLabel>
+            <SectionLabel align="center" tone="dark">THE SAME FOUR HOURS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Weekly Meal Prep Plans
+              Once a week, or twice
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              Starting prices for recurring weekly service. Final quotes depend on menu selection, dietary needs, ingredients, and frequency.
+              There is no separate meal-prep tariff. This is Food Prep at AED 900 a visit. Groceries at receipts. VAT at 5%.
             </p>
           </div>
 
@@ -447,7 +440,7 @@ export default function WeeklyMealPrep() {
           </div>
 
           <p className="font-inter text-body-sm text-gray-500 text-center max-w-[700px] mx-auto mt-10">
-            Prices are indicative starting points. Final quotes depend on guest count, menu selection, ingredients, service level, and any special dietary requirements.
+            Up to eight people are in the chef price. From nine, an assistant is added. Groceries stay on the receipts. The written proposal confirms the month.
           </p>
         </div>
       </section>
@@ -457,9 +450,9 @@ export default function WeeklyMealPrep() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHY PRIVATE CHEF MEAL PREP</SectionLabel>
+            <SectionLabel align="center">WHY COOK HERE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Benefits of Weekly Meal Prep
+              A fridge full of this house’s food
             </h2>
           </div>
 
@@ -482,9 +475,9 @@ export default function WeeklyMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">MADE FOR</SectionLabel>
+            <SectionLabel align="center" tone="dark">WHO IT FITS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Who Weekly Meal Prep Is For
+              When four hours a week is enough
             </h2>
           </div>
 
@@ -503,7 +496,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-cream py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            A Taste of Our Meal Prep
+            Food cooked for the week, not for a photograph
           </h2>
 
           <div className="wmp-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -524,7 +517,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Meal Prep Dubai: Weekly Meal Prep Questions
+            Questions before a weekly Food Prep booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -535,7 +528,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
+            If the week needs more than prep
           </h3>
 
           <div className="wmp-rel-grid grid md:grid-cols-3 gap-6">
@@ -571,10 +564,10 @@ export default function WeeklyMealPrep() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center wmp-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Start Your Weekly Meal Prep Plan
+            Start the weekly Food Prep plan
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your household, dietary needs, and preferred cuisines, and we will design a private chef meal prep plan that fits your week.
+            Tell us who eats, what they refuse, and which days the chef should come. The figure is AED 900 a visit, groceries at receipts, VAT at 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Get My Meal Prep Quote</Link>

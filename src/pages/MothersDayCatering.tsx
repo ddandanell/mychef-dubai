@@ -5,171 +5,171 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'mothers-day-catering-dubai',
-  seoTitle: "Mother's Day Catering Dubai | Brunch & Lunch",
+  seoTitle: "Mother's Day Catering Dubai | myCHEF",
   metaDescription:
-    "Mother's Day catering in Dubai from AED 700pp — a brunch spread or afternoon tea, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+    "Mother's Day catering Dubai at home: brunch, lunch or afternoon tea. Buffet from AED 120. We cook at your venue. Itemised quote.",
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/mothers-day-catering-dubai-hero.webp',
   breadcrumbLabel: "Mother's Day Catering Dubai",
-  h1: "Mother's Day Catering in Dubai",
+  h1: "Mother's Day Catering Dubai",
   heroSub:
-    "Celebrate Mum with a beautifully catered Mother's Day brunch, lunch or high tea in your Dubai home, villa or venue — bespoke menus, fresh flowers and zero stress.",
+    "Mother's Day catering Dubai for a family brunch, lunch or tea at home. We cook, serve and clear down. Mum stays a guest.",
   heroImage: '/images/mothers-day-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan Mother's Day catering in Dubai (via mychef.ae/mothers-day-catering-dubai)",
   eyebrow: "MOTHER'S DAY CATERING IN DUBAI",
-  introH2: "A Mother's Day Celebration She Actually Deserves",
+  introH2: "Mother's Day catering Dubai so Mum is not in the kitchen",
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Mother's Day should feel effortless for the person who usually does everything. Instead of packing the family into a busy restaurant, bring the celebration home with a private chef and catering team who handle every detail. From a leisurely brunch spread to an elegant afternoon tea or a multi-course lunch, we create a relaxed, beautiful experience centred around her.
+        Mother's Day catering Dubai is a family sitting at your villa, apartment or a room you have booked. Brunch, lunch or tea. The person who usually cooks should not be plating. We bring the team. You stay at the table.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        we coordinate catering for Mother's Day gatherings across Dubai — villas in Emirates Hills and Arabian Ranches, penthouses in Downtown, beachfront homes in Jumeirah and venues across the city. Pair this with our{' '}
+        A staffed buffet starts from AED 120 per person. Canapés from AED 150. Drop-off from AED 90. Chef-led plated dining is AED 700–950. All before 5% VAT. There is no separate Mother’s Day floor. Pair a classic tea with{' '}
         <Link to="/afternoon-tea-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           afternoon tea catering Dubai
-        </Link>{' '}
-        for a classic high-tea experience, or explore{' '}
+        </Link>
+        , or a longer morning table with{' '}
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering Dubai
-        </Link>{' '}
-        for a more casual family feast.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: "Mother's Day Catering Formats",
+  formatsH2: "How Mother's Day is served",
   formats: [
     {
       Icon: Coffee,
-      title: 'Mother\'s Day Brunch',
-      description: 'A relaxed family brunch with fresh pastries, eggs, salads, fruits and sparkling refreshments — served at your table or as a grazing buffet.',
+      title: "Mother's Day brunch",
+      description: 'Pastries, eggs, salads, fruit and coffee, at the table or as a grazing buffet.',
       link: '/brunch-catering-dubai',
     },
     {
       Icon: Cake,
-      title: 'High Tea & Cake Stands',
-      description: 'Elegant tiered stands with finger sandwiches, scones, preserves and delicate cakes for a refined Mother\'s Day afternoon.',
+      title: 'High tea and cake stands',
+      description: 'Tiered stands with sandwiches, scones and cakes for a shorter afternoon sitting.',
       link: '/afternoon-tea-catering-dubai',
     },
     {
       Icon: Home,
-      title: 'At-Home Family Lunch',
-      description: 'A private multi-course lunch prepared in your kitchen and served to the whole family, with cleanup handled afterwards.',
+      title: 'At-home family lunch',
+      description: 'Courses cooked in your kitchen and served to the family, then cleared.',
       link: '/private-chef-dubai',
     },
     {
       Icon: Gift,
-      title: 'Surprise Celebration Setup',
-      description: 'We coordinate timing, flowers and table styling so the moment she walks in feels instantly special.',
+      title: 'Surprise celebration setup',
+      description: 'Arrival timed so the table is set before she walks in. Flowers quoted when you want them.',
       link: '/private-party-catering-dubai',
     },
     {
       Icon: Building,
-      title: 'Venue & Restaurant-Style Dining',
-      description: 'Catering delivered to a private venue, clubhouse or restaurant space for larger multi-generational gatherings.',
+      title: 'Venue dining',
+      description: 'Catering at a clubhouse or private room you have booked. Their rules, our kitchen team.',
       link: '/events',
     },
     {
       Icon: Heart,
-      title: 'Grandmother & Multi-Gen Feasts',
-      description: 'Menus designed to please every generation — light options for grandparents, playful dishes for children and indulgent treats for Mum.',
+      title: 'Multi-generational feasts',
+      description: 'Grandparents, children and Mum at one table. Spice levels and portions named in the brief.',
       link: '/catering-dubai',
     },
   ],
   useCasesEyebrow: "WHERE MOTHER'S DAY CATERING WORKS",
-  useCasesH2: "Celebrations Built Around Family",
+  useCasesH2: 'Garden brunch, apartment lunch, mixed ages',
   useCases: [
     {
-      title: 'Villa Garden Brunches',
+      title: 'Villa garden brunches',
       description:
-        "Dubai villas with pools and gardens make the perfect backdrop for a Mother's Day brunch. We set up shaded grazing tables, live cooking stations and floral table styling while the family relaxes.",
+        'Shade, a grazing table and a running order so photographs do not collide with hot food.',
     },
     {
-      title: 'Intimate Apartment Gatherings',
+      title: 'Intimate apartment gatherings',
       description:
-        'Even in smaller Downtown or Marina apartments, a private chef can create a restaurant-quality lunch without anyone leaving the sofa. We bring equipment, ingredients and a friendly server.',
+        'A Downtown or Marina kitchen. We bring kit. A restaurant-scale production is the wrong brief.',
     },
     {
-      title: 'Multi-Generational Celebrations',
+      title: 'Multi-generational celebrations',
       description:
-        'Grandmothers, mothers, daughters and children often celebrate together. We balance cuisines, spice levels and portion sizes so every generation enjoys the same meal.',
+        'Grandmothers, mothers, daughters and children. One menu with labelled options, not two events.',
     },
     {
-      title: 'Surprise Homecoming Meals',
+      title: 'Surprise homecoming meals',
       description:
-        'If the plan is to surprise Mum with a beautifully set table and her favourite dishes, we coordinate arrival, styling and service so the reveal is picture-perfect.',
+        'Timing, access and who lets the team in belong in the brief. The reveal is yours.',
     },
   ],
-  includedH2: "What's Included in Our Mother's Day Catering",
+  includedH2: "What a staffed Mother's Day sitting includes",
   includedItems: [
-    { title: 'Bespoke Brunch or Lunch Menu', description: 'A menu designed around Mum\'s favourite cuisines, dietary needs and the family\'s tastes.' },
-    { title: 'Fresh Flowers & Table Styling', description: 'Soft linens, floral arrangements and elegant tableware to set a celebratory mood.' },
-    { title: 'Pastries, Cakes & Sweet Displays', description: 'Fresh pastries, celebration cakes and patisserie arranged beautifully for the occasion.' },
-    { title: 'Private Chef & Service Staff', description: 'A discreet chef and attentive staff to cook, serve and clear away throughout the meal.' },
-    { title: 'Dietary Accommodation', description: 'Vegetarian, vegan, gluten-free, dairy-free and halal options available for the whole family.' },
-    { title: 'Drinks & Bubbly Service', description: 'Fresh juices, teas, coffee and sparkling mocktails or champagne service on request.' },
-    { title: 'Full Setup & Cleanup', description: 'We arrive early, prepare, serve and leave the kitchen and dining space spotless.' },
-    { title: 'Flexible Locations', description: 'Service at homes, villas, venues and clubhouses anywhere in Dubai.' },
+    { title: 'Menu written around Mum', description: 'Her dishes, the family’s dietary notes, the time of day.' },
+    { title: 'Tableware', description: 'Linen and serving kit. Flowers quoted as their own line when you want them.' },
+    { title: 'Pastries and cake', description: 'Morning pastry or a cake moment, named in the quote.' },
+    { title: 'Chef and staff', description: 'Licensed partners and waiters sized to the format.' },
+    { title: 'Dietary notes', description: 'Vegetarian, vegan, gluten-free, dairy-free and halal dishes when named.' },
+    { title: 'Drinks', description: 'Juice, tea, coffee and mocktails. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Setup and cleanup', description: 'The kitchen is left as we found it.' },
+    { title: 'Location', description: 'Homes, villas and rooms you have booked across Dubai.' },
   ],
-  galleryH2: "A Taste of Our Mother's Day Catering",
+  galleryH2: "How Mother's Day catering looks in Dubai",
   galleryImages: [
     { src: '/images/mothers-day-catering-dubai-hero.webp', alt: "Mother's Day brunch catering setup in Dubai" },
     { src: '/menu-appetizer.webp', alt: 'Elegant appetisers for a family brunch' },
     { src: '/menu-canapes.webp', alt: "Canapés for a Mother's Day gathering" },
     { src: '/menu-dessert.webp', alt: 'Celebration cakes and pastries for Mum' },
-    { src: '/service-luxury-dining.webp', alt: 'Luxury family dining experience in Dubai' },
+    { src: '/service-luxury-dining.webp', alt: 'Family dining experience in Dubai' },
     { src: '/service-events.webp', alt: 'Family event catering in Dubai' },
   ],
-  faqsH2: "Mother's Day Catering Questions",
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: "Can you cater Mother's Day at my home or villa?",
-      a: 'Yes. We bring everything needed for a beautiful brunch, lunch or high tea in your home, villa or private venue across Dubai.',
+      a: 'Yes. Brunch, lunch or tea at your address. Staffed bookings include setup, service and clear-down.',
     },
     {
       q: 'Do you provide flowers and table styling?',
-      a: 'Yes. We can include fresh flowers, linens, candles and elegant tableware as part of the setup, styled around the occasion.',
+      a: 'Tableware is part of a staffed sitting. Flowers and extra styling are quoted as their own line when you ask for them.',
     },
     {
       q: "What kind of menu works best for Mother's Day?",
-      a: 'Brunch and high tea are the most popular formats, but we also create relaxed lunches and grazing spreads. The menu is always tailored to Mum\'s preferences.',
+      a: 'Brunch and tea are the usual formats. A seated lunch if the table is the event. We write it around what she eats.',
     },
     {
       q: 'Can you accommodate large multi-generational families?',
-      a: 'Absolutely. We regularly cater multi-generational gatherings and design menus with varied spice levels, textures and dietary needs in mind.',
+      a: 'Yes. That is the usual brief. Portions, spice and dietary notes belong in the first draft.',
     },
     {
       q: 'How far in advance should I book?',
-      a: "Mother's Day is a popular date. We recommend booking two to four weeks ahead to secure your preferred time, menu and styling.",
+      a: 'Two to four weeks is the usual window. The date itself fills earlier.',
     },
     {
       q: 'Do you offer alcohol-free options?',
-      a: 'Yes. We offer elegant mocktails, fresh juices, sparkling non-alcoholic options and specialty teas and coffees for the whole family.',
+      a: 'Yes. Mocktails, juice, tea and coffee. Alcohol at a private residence is sourced by the host.',
     },
   ],
   relatedServices: [
     {
       title: 'Afternoon Tea Catering',
-      description: 'Elegant high tea with tiered stands — a classic way to celebrate Mum.',
+      description: 'Tiered tea when the sitting is shorter than a brunch.',
       image: '/images/afternoon-tea-catering-dubai-hero.webp',
       link: '/afternoon-tea-catering-dubai',
     },
     {
       title: 'Brunch Catering',
-      description: 'Relaxed, generous brunch spreads perfect for family gatherings.',
+      description: 'A late morning table when the date is not Mother’s Day.',
       image: '/service-luxury-dining.webp',
       link: '/brunch-catering-dubai',
     },
     {
       title: 'Private Chef Dubai',
-      description: 'A dedicated chef in your home for an intimate, restaurant-quality meal.',
+      description: 'A household chef visit, if the brief is one table and a workable kitchen.',
       image: '/service-private-chef.webp',
       link: '/private-chef-dubai',
     },
   ],
-  ctaH2: "Give Mum the Mother's Day She Deserves",
+  ctaH2: 'Send the date, guest count and what Mum eats',
   ctaP:
-    "Tell us about your family, venue and how you want to spoil her. We will design a beautiful Mother's Day menu and experience that lets everyone relax and celebrate together.",
+    "Tell us brunch, lunch or tea, how many people and the address. We send an itemised Mother's Day catering Dubai quote.",
   showTrustSignalStrip: true,
 }
 

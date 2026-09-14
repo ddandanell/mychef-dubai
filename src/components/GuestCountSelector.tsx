@@ -146,7 +146,7 @@ export default function GuestCountSelector() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link to={rec.ctaPath} className="btn-primary text-center text-sm">
-                  Get a Tailored Quote
+                  Request your quote
                 </Link>
                 <a
                   href={whatsappLink}

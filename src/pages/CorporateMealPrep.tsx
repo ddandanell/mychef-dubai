@@ -40,51 +40,51 @@ const mealPrepFormats = [
   {
     icon: Repeat,
     title: 'Recurring Programmes',
-    description: 'Weekly and monthly meal schedules on a reliable rotation, so your people always know good food is arriving without any organising on their part.',
+    description: 'Weekly or monthly sittings on a named rotation. Recurring days are billed as they run.',
     link: '/weekly-meal-prep-dubai',
   },
   {
     icon: HeartPulse,
     title: 'Wellness Retainers',
-    description: 'Ongoing wellness-focused menus on a retainer basis, pairing balanced nutrition with the convenience of a managed, repeatable service.',
+    description: 'A written account for wellness-led menus. Fees and expiry sit in the agreement, not as a shop price.',
     link: '/wellness-meal-prep-dubai',
   },
   {
     icon: Salad,
     title: 'Balanced & Dietary Menus',
-    description: 'Nutrition-led menus with low-carb, high-protein, vegetarian, and other options, prepared side by side so every preference is covered.',
+    description: 'Halal by default. Vegetarian, vegan and gluten-free when named. Labels on the tray. Not a medical kitchen.',
     link: '/cuisines-dubai',
   },
   {
     icon: CalendarClock,
     title: 'Flexible Scheduling',
-    description: 'Programmes that flex with headcount, office days, and changing needs, scaling up or down without disrupting the routine you rely on.',
+    description: 'Headcount follows the roster you send. Extra sittings after the kitchen deadline are quoted again.',
     link: '/corporate',
   },
   {
     icon: Building2,
     title: 'Office & Workplace Delivery',
-    description: 'Coordinated delivery to offices and workplaces across Dubai, timed around your working day and set up with minimal disruption.',
+    description: 'A named delivery window. Access, parking and building rules affect timing, so mention the office early.',
     link: '/office-catering-dubai',
   },
 ]
 
 const useCases = [
   {
-    title: 'Recurring Team Meal Plans',
-    description: 'For companies that want their people fed well without the daily logistics, we run recurring meal programmes — weekly or monthly — delivering individually portioned, balanced meals on a dependable schedule that simply runs in the background.',
+    title: 'Recurring team meals',
+    description: 'Portioned meals for a known headcount, on days you already run. This page is workplace food. A household meal-prep plan sits on weekly meal prep.',
   },
   {
-    title: 'Corporate Wellness Retainers',
-    description: 'For organisations investing in employee wellbeing, our wellness retainers provide ongoing nutrition-focused menus on a managed basis, keeping balanced food a consistent part of the working week rather than a one-off initiative.',
+    title: 'A written wellness account',
+    description: 'If the brief is nutrition-led menus on a retainer, fees and expiry are named in writing. Nothing on this page creates a monthly fee by itself.',
   },
   {
-    title: 'Hybrid & Office-Day Programmes',
-    description: 'For hybrid teams, we align meal prep with office days and changing headcounts, scaling portions to who is in and keeping the programme efficient, predictable, and easy to manage.',
+    title: 'Office days, not a guessed month',
+    description: 'Hybrid teams send the days people are in. Covers follow that roster. Recurring days are billed as they run.',
   },
   {
-    title: 'Multi-Site & Departmental Plans',
-    description: 'For larger businesses, we coordinate portioned meal programmes across departments and sites, with menus and quantities tailored to each location while keeping the overall service consistent and simple to oversee.',
+    title: 'More than one site',
+    description: 'Each office is a delivery window and an access note. Multi-site is quoted in writing, not as a discount off a shop price.',
   },
 ]
 
@@ -277,7 +277,7 @@ export default function CorporateMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Corporate Meal Prep Dubai | Portioned Team Meals | myCHEF"
-        description="Corporate meal prep in Dubai — recurring portioned meals, wellness retainers & balanced menus delivered to your workplace. VAT/TRN invoicing. Get a quote."
+        description="Corporate meal prep Dubai: portioned team meals on a named schedule. Recurring days billed as they run. Itemised VAT invoice."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -302,10 +302,10 @@ export default function CorporateMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cmp-hero-h1">
-            Corporate Meal Prep Dubai — Portioned Meals, Wellness & Retainers
+            Corporate Meal Prep Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cmp-hero-sub">
-            Recurring, portioned meal programmes and wellness retainers for teams across Dubai — balanced menus delivered on a reliable schedule, so your people stay energised and good food becomes part of the working week.
+            Portioned meals for a known team, on days you already run. Recurring days billed as they run. This URL now lives with staff meals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 cmp-hero-cta">Get My Corporate Meal Prep Quote</Link>
@@ -335,7 +335,7 @@ export default function CorporateMealPrep() {
             Corporate meal prep Dubai is portioned meals for a known team, delivered on days you already run. Headcount, office days and dietary notes go in the brief. We typically reply within 15 minutes during business hours. Recurring days are billed as they run.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you want a <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring weekly meal plan</Link>, a <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness retainer</Link> focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.
+            A household fridge plan is <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>. A nutrition-led account is <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>. The company hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>. Halal is the default. Named dietary lines are labelled.
           </p>
         </div>
       </section>
@@ -513,7 +513,7 @@ export default function CorporateMealPrep() {
             Let's Set Up Your Meal Prep Programme
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your team, your office days, and any dietary needs, and we'll design a recurring, portioned meal programme — wellness-focused and fully managed — that keeps your people well fed week after week.
+            Tell us about your team, your office days, and any dietary needs, and we'll design a recurring, portioned meal programme: wellness-focused and fully managed: that keeps your people well fed week after week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get My Corporate Meal Prep Quote</Link>

@@ -167,7 +167,7 @@ export default function WeddingCateringCost() {
               <Link to="/catering-cost-calculator-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
                 catering cost calculator
               </Link>
-              — then treat that output as a sketch, not a contract.
+             : then treat that output as a sketch, not a contract.
             </BodyCopy>
           </Container>
         </Section>
@@ -180,7 +180,7 @@ export default function WeddingCateringCost() {
               Do not mix a drop-off buffet with a chef-led villa dinner
             </h2>
             <BodyCopy className="mb-5">
-              The live market — and most websites — collapse wedding catering cost in Dubai into one fake range. “From AED 120 to AED 750.” That sentence is how a couple books the wrong product and then feels overcharged.
+              The live market: and most websites: collapse wedding catering cost in Dubai into one fake range. “From AED 120 to AED 750.” That sentence is how a couple books the wrong product and then feels overcharged.
             </BodyCopy>
             <BodyCopy className="mb-5">
               There are three buys. Independent food-led catering: drop-off or a staffed buffet, priced mainly on food and the team that stands behind it. A hotel package: food plus a building, often a room night, sometimes a cake and a tasting. A chef-led plated villa dinner: a named chef and service team cooking on site. myCHEF’s core product is the third. We also design the first. We are not the hotel.
@@ -270,7 +270,7 @@ export default function WeddingCateringCost() {
               A note on hotel invoices
             </h2>
             <BodyCopy className="mb-5">
-              This is where transparent sites earn the word. A five-star wedding package at AED 450 per guest for 200 people is AED 90,000 before you blink — and it may include the ballroom, a night for the couple, a tasting for four, and a cake. An independent buffet at AED 180 for the same 200 is AED 36,000 and does not include the room.
+              This is where transparent sites earn the word. A five-star wedding package at AED 450 per guest for 200 people is AED 90,000 before you blink: and it may include the ballroom, a night for the couple, a tasting for four, and a cake. An independent buffet at AED 180 for the same 200 is AED 36,000 and does not include the room.
             </BodyCopy>
             <BodyCopy className="mb-8">
               Ask every quote the same questions. Is the room inside? Is the cake inside? Is the tasting inside? How many waiters? What time does overtime start? If one invoice is a building and the other is a kitchen, they are not competitors. They are different products.

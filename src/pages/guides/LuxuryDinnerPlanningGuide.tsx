@@ -272,7 +272,7 @@ export default function LuxuryDinnerPlanningGuide() {
             How to plan a private dinner: menu, table, lighting, service and what you still do as host.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lux-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lux-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -493,7 +493,7 @@ export default function LuxuryDinnerPlanningGuide() {
             Tell us the occasion and guest list. We send a menu and service plan for the room you already have.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

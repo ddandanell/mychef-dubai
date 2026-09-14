@@ -16,7 +16,7 @@ export const nurseryPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/nursery-catering-dubai-hero.webp',
-    alt: 'Nursery catering Dubai — a chef in a black jacket setting child-sized plates in a calm early-years dining room. Experience concept shown.',
+    alt: 'Nursery catering Dubai: a chef in a black jacket setting child-sized plates in a calm early-years dining room. Experience concept shown.',
     width: 1344,
     height: 752,
     subtitle:
@@ -81,7 +81,7 @@ export const nurseryPage: InstitutionalPageContent = {
     h2: 'Why nursery catering Dubai is a different job',
     paragraphs: [
       'If you run a nursery in Dubai, lunch is the part of the day with the least margin for error. You are feeding children as young as one. Parents chose you because they wanted a professional standard, not a packed box that may or may not survive the car. Dubai has hundreds of licensed early-childhood centres and tens of thousands of children in them. Enrolment has been growing faster than school enrolment. For most of those children, the nursery lunch is most of what they eat, five days a week.',
-      'Nurseries here split two ways: meals inside the fee, or parents pack. More centres are moving to provided meals because it removes the packed-lunch lottery and lets you hold a nut-free rule. It also means the food becomes your reputation. When a third-party kitchen fails, parents still call the nursery first. That is the job nursery catering companies in Dubai are actually being hired to do — not a pretty menu card.',
+      'Nurseries here split two ways: meals inside the fee, or parents pack. More centres are moving to provided meals because it removes the packed-lunch lottery and lets you hold a nut-free rule. It also means the food becomes your reputation. When a third-party kitchen fails, parents still call the nursery first. That is the job nursery catering companies in Dubai are actually being hired to do: not a pretty menu card.',
       'Regulation has tightened around that fact. Dubai Municipality’s My School Food platform, launched in late 2025, covers schools, nurseries and universities with a registered-supplier model, labelling rules and allergy protocols. Food businesses supplying educational settings need a valid permit from the Food Safety Department. Menus are reviewed. Daily monitoring runs through municipal channels. A kitchen someone recommended is no longer enough. You should be able to see the paperwork.',
       'Nursery catering companies Dubai are hired to hold that standard every sitting. Nursery meal plans Dubai sit in the written cycle, with nut-free nursery meals Dubai and halal nursery meals Dubai as production rules, not tasting-card extras. Healthy meals for nurseries Dubai and early years catering Dubai are this page; school canteens are not.',
     ],
@@ -91,7 +91,7 @@ export const nurseryPage: InstitutionalPageContent = {
     blocks: [
       {
         title: 'Chef-led cooking, not a tray line',
-        body: 'myCHEF started as a private-chef and event kitchen. Culinary partners are matched, vetted and backed up. Early-years meals are cooked from whole ingredients — vegetables, grains, lean halal proteins, fruit — not a reheated production tray. Children eat with their eyes. Food that looks like food is how fussy eaters become willing ones.',
+        body: 'myCHEF started as a private-chef and event kitchen. Culinary partners are matched, vetted and backed up. Early-years meals are cooked from whole ingredients: vegetables, grains, lean halal proteins, fruit: not a reheated production tray. Children eat with their eyes. Food that looks like food is how fussy eaters become willing ones.',
       },
       {
         title: 'Menus written for the age band',
@@ -99,7 +99,7 @@ export const nurseryPage: InstitutionalPageContent = {
       },
       {
         title: 'Nut-free as a kitchen rule',
-        body: 'Nut-free nursery meals in Dubai are the expected baseline, including “may contain traces” in many centres. We treat that as a production rule, not a menu filter. Every meal leaves with allergen labelling. Your team gets a written matrix for the cycle, so any staff member — not only the manager — can answer a parent without guessing.',
+        body: 'Nut-free nursery meals in Dubai are the expected baseline, including “may contain traces” in many centres. We treat that as a production rule, not a menu filter. Every meal leaves with allergen labelling. Your team gets a written matrix for the cycle, so any staff member: not only the manager: can answer a parent without guessing.',
       },
       {
         title: 'Halal-first, documented',
@@ -107,7 +107,7 @@ export const nurseryPage: InstitutionalPageContent = {
       },
       {
         title: 'Temperature on the van, not only in the kitchen',
-        body: 'Nursery lunch delivery in Dubai fails in the last kilometre as often as it fails on the pass. Cold food has to stay cold; hot food has to stay hot. Probe logs travel with the run. If a centre cannot receive at a loading bay, say so in the brief — that changes the pack, not the promise.',
+        body: 'Nursery lunch delivery in Dubai fails in the last kilometre as often as it fails on the pass. Cold food has to stay cold; hot food has to stay hot. Probe logs travel with the run. If a centre cannot receive at a loading bay, say so in the brief: that changes the pack, not the promise.',
       },
       {
         title: 'A quote after the walk, not a from-price on the internet',
@@ -160,7 +160,7 @@ export const nurseryPage: InstitutionalPageContent = {
   quoting: {
     h2: 'How a nursery quote is built',
     paragraphs: [
-      'A useful proposal needs four things: the centre, how many children eat, the age bands, and the days. The diet list and whether parents currently pack lunch help. Telling us a budget band is not a trap — it means the first proposal is realistic.',
+      'A useful proposal needs four things: the centre, how many children eat, the age bands, and the days. The diet list and whether parents currently pack lunch help. Telling us a budget band is not a trap: it means the first proposal is realistic.',
       'Access, parking and the time the children actually sit down change when food can arrive at temperature. Mention the building early. Headcounts move; we will tell you the last point at which the kitchen can still change the order.',
       'Published competitor meal plans in Dubai often sit in a band parents already know. That is market context, not our from-price. myCHEF quotes after the walk. 5% VAT is its own line.',
     ],

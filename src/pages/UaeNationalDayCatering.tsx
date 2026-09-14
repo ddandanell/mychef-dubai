@@ -11,32 +11,33 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'uae-national-day-catering-dubai',
-  seoTitle: 'UAE National Day Catering Dubai | Emirati Menus',
-  metaDescription: 'UAE national day catering Dubai. Celebrate 2 December with bespoke Emirati menus, live grills and elegant buffets at home, villas, offices or venues.',
+  seoTitle: 'UAE National Day Catering Dubai | myCHEF',
+  metaDescription:
+    'UAE National Day catering Dubai on 2 December: Emirati dishes, grills and buffets at a home, office or venue you control. Buffet from AED 120. Itemised quote.',
   canonicalPath: '/uae-national-day-catering-dubai',
   ogImage: '/images/uae-national-day-catering-dubai-hero.webp',
   breadcrumbLabel: 'UAE National Day Catering Dubai',
   h1: 'UAE National Day Catering Dubai',
   heroSub:
-    'Celebrate the spirit of the Union with a bespoke National Day menu crafted by a private chef — authentic Emirati flavours, modern canapés and seamless service at your villa, office or venue.',
+    'UAE National Day catering Dubai for a family villa, an office reception or a community sitting on 2 December. Emirati dishes, cooked at your venue, then cleared.',
   heroImage: '/images/uae-national-day-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book UAE National Day catering in Dubai (via mychef.ae/uae-national-day-catering-dubai)",
   eyebrow: 'UAE NATIONAL DAY CATERING IN DUBAI',
-  introH2: 'A National Day Feast Worthy of the Occasion',
+  introH2: 'UAE National Day catering Dubai, cooked at your address',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        UAE National Day is one of the most joyful occasions in Dubai — a time to come together, honour heritage and celebrate progress. Whether you are hosting an intimate family gathering, a villa party for friends or a corporate reception for colleagues, our National Day catering service brings the flavours of the Emirates to your chosen setting. We combine traditional Emirati dishes with contemporary presentation, so every buffet feels both rooted and refined.
+        UAE National Day catering Dubai is food for 2 December at a home, office or hall you have booked. National day catering Dubai uses the same rule as any other staffed sitting: ouzi, machboos, khameer, dates and a grill if the room can take it. We cook there. We do not own the venue, the beach or a desert camp.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+        A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. Halal sourcing is the default. Dietary notes go into the first draft. No chef is guaranteed by name.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        our chefs design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. we design and manage the experience from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
+        Menus are written for this guest list: lamb ouzi, machboos, khameer, luqaimat, a shawarma or kebab station if the brief needs it. Setup, service and pack-down sit in the quote.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        we coordinate catering for UAE National Day events across Dubai, from Palm Jumeirah villas and Emirates Hills homes to Downtown offices and desert camps. Pair this with our{' '}
+        Pair this date with{' '}
         <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Eid catering
         </Link>{' '}
@@ -44,155 +45,147 @@ const config: OccasionPageConfig = {
         <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           festive catering Dubai
         </Link>
-        , or explore{' '}
+        , or{' '}
         <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           corporate event catering
         </Link>{' '}
-        for large office gatherings.
+        for a workplace reception. Mother’s Day brunch, a Valentine’s dinner at home and New Year’s Day catering each have their own pages. They are not this brief.
       </p>
     </>
   ),
-  formatsH2: 'National Day Celebration Formats',
+  formatsH2: 'How National Day is served',
   formats: [
     {
       Icon: Flag,
-      title: 'National Day Buffet',
-      description: 'A styled buffet of Emirati classics and modern dishes, perfect for villa parties, community gatherings and family celebrations.',
+      title: 'National Day buffet',
+      description: 'Emirati dishes and a few modern plates, maintained as a spread for a villa or community sitting.',
       link: '/private-party-catering-dubai',
     },
     {
       Icon: Flame,
-      title: 'Live Grill & Shawarma Station',
-      description: 'An interactive station serving fresh grills, shawarma and Arabic breads cooked in front of your guests.',
+      title: 'Live grill and shawarma station',
+      description: 'Grills, shawarma and breads finished in front of guests. Power and smoke belong in the brief.',
       link: '/live-cooking-stations-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa & Home Celebrations',
-      description: 'Transform your garden, terrace or dining room into a National Day venue with full setup, service and cleanup.',
+      title: 'Villa and home celebrations',
+      description: 'Garden, terrace or dining room. Kitchen access and pack-down written into the quote.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building2,
-      title: 'Office & Corporate Receptions',
-      description: 'Elegant grazing tables, boxed menus and buffet setups for workplace National Day events across Dubai.',
+      title: 'Office and corporate receptions',
+      description: 'A timed workplace sitting: grazing, boxed food or a buffet, then a room that has to work again.',
       link: '/corporate-event-catering-dubai',
     },
     {
       Icon: Users,
-      title: 'Community & Large Gatherings',
-      description: 'Scalable catering for large guest lists, with multiple service points and efficient flow management.',
+      title: 'Community and large gatherings',
+      description: 'More than one service point when the guest list will not fit a single table.',
       link: '/events',
     },
     {
       Icon: UtensilsCrossed,
-      title: 'Emirati Tasting Menu',
-      description: 'A curated multi-course journey through UAE flavours, ideal for intimate dinners or VIP hospitality.',
+      title: 'Emirati tasting menu',
+      description: 'A seated sequence of UAE dishes when the guest list fits one table. Not a hotel product name.',
       link: '/luxury-dining-experiences',
     },
   ],
   useCasesEyebrow: 'WHERE NATIONAL DAY CATERING SHINES',
-  useCasesH2: 'Heritage, Hospitality & Hassle-Free Service',
+  useCasesH2: 'Family villas, offices, community halls',
   useCases: [
     {
-      title: 'Family Villa Gatherings',
+      title: 'Family villa gatherings',
       description:
-        'Celebrate at home with a buffet that feels like a five-star hotel spread. We bring chefs, service staff, tableware and décor tailored to the occasion.',
+        'Chefs, staff and tableware at your home. You stay with your guests. We do not dress the house as a hotel.',
     },
     {
-      title: 'Corporate National Day Receptions',
+      title: 'Corporate National Day receptions',
       description:
-        'Show appreciation for your team with an elegant office reception, complete with branded touches, grazing tables and Emirati-inspired dishes.',
+        'A team sitting with a clock. Labels, timing and pack-down before the next working day.',
     },
     {
-      title: 'Community & Embassy Events',
+      title: 'Community and embassy events',
       description:
-        'From large majlises to community halls, we design service plans that keep long queues moving and every guest well fed.',
+        'A majlis or hall you have booked. Flow and holding matter more than a colour palette.',
     },
     {
-      title: 'Desert & Outdoor Celebrations',
+      title: 'Outdoor sittings',
       description:
-        'Take the celebration into the dunes or a beachside setup with menus that travel beautifully and service that adapts to the outdoors.',
+        'If you have booked a desert camp, beach or garden, we cook there. We do not own those sites.',
     },
   ],
-  includedH2: "What's Included in Our UAE National Day Catering",
+  includedH2: 'What a staffed National Day sitting includes',
   includedItems: [
-    { title: 'Bespoke Emirati Menu', description: 'A personalised menu blending traditional UAE dishes with modern canapés and crowd favourites.' },
-    { title: 'Live Cooking Stations', description: 'Optional live grill, shawarma or Arabic bread stations to add theatre and freshness.' },
-    { title: 'Partner Chefs & Staff', description: 'Experienced chefs, servers and event support who deliver polished hospitality throughout your event.' },
-    { title: 'Styling & Theming', description: 'Subtle National Day colour accents, linens, serving ware and décor that suit the occasion.' },
-    { title: 'Halal & Dietary Options', description: 'All menus are halal by default; vegetarian, vegan and allergy-aware options available.' },
-    { title: 'Setup, Service & Cleanup', description: 'We arrive early, manage service, and leave your venue spotless after the celebration.' },
-    { title: 'Flexible Guest Counts', description: 'From intimate family dinners to large community events, we scale the team and menu accordingly.' },
-    { title: 'All Dubai Locations', description: 'Service at villas, apartments, offices, venues, yachts and outdoor sites across the emirate.' },
+    { title: 'Emirati menu written for the table', description: 'Ouzi, machboos, breads and dates, cut to who is eating.' },
+    { title: 'Live stations', description: 'Grill, shawarma or bread stations when the brief needs them.' },
+    { title: 'Chefs and staff', description: 'Licensed partners and waiters sized to the format.' },
+    { title: 'Tableware', description: 'Linen and serving kit. Extra décor quoted as its own line.' },
+    { title: 'Halal and dietary notes', description: 'Halal by default. Vegetarian, vegan and allergy notes in the first draft.' },
+    { title: 'Setup, service and cleanup', description: 'The venue is left usable.' },
+    { title: 'Guest count', description: 'Drop-off from 10. Buffet from 20. A chef on site has no minimum headcount.' },
+    { title: 'Locations', description: 'Homes, offices and venues you control. Yachts you have chartered. Outdoor sites you have booked.' },
   ],
-  galleryH2: 'A Taste of Our UAE National Day Catering',
+  galleryH2: 'How UAE National Day catering looks in Dubai',
   galleryImages: [
     { src: '/images/uae-national-day-catering-dubai-hero.webp', alt: 'UAE National Day catering setup in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Canapés and appetisers for a National Day event' },
     { src: '/menu-meat.webp', alt: 'Emirati-inspired main dishes for a celebration' },
     { src: '/menu-dessert.webp', alt: 'Date and Arabic desserts for National Day' },
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
-    { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },
+    { src: '/service-luxury-dining.webp', alt: 'Private dining for National Day in Dubai' },
   ],
-  faqsH2: 'UAE National Day Catering Dubai: the questions we get before a booking',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'Can you cater UAE National Day at my home or villa?',
-      a: 'Yes. We specialise in villa and home catering, bringing chefs, staff, equipment and tableware so you can host without lifting a finger.',
+      a: 'Yes. We cook at your address: chefs, staff, equipment and tableware on a staffed booking.',
     },
     {
       q: 'Do you offer traditional Emirati dishes for National Day?',
-      a: 'Absolutely. Our menus can feature ouzi, machboos, harees, thareed, khameer, luqaimat and date-based desserts, prepared with authentic flavours and modern presentation.',
+      a: 'Yes. Ouzi, machboos, harees, thareed, khameer, luqaimat and date desserts, written for this table.',
     },
     {
       q: 'Can you handle large corporate National Day events?',
-      a: 'Yes. We coordinate catering for office receptions, large corporate gatherings and community events with scalable buffets, live stations and efficient service flow.',
+      a: 'Yes. Buffets, live stations and a running order that matches the office clock.',
     },
     {
       q: 'Do you provide live cooking stations?',
-      a: 'We offer live grill, shawarma, kebab and Arabic bread stations that add energy and freshness to your National Day celebration.',
+      a: 'Yes. Grill, shawarma, kebab and bread stations start from the published live-station floor of AED 150 per person before 5% VAT.',
     },
     {
       q: 'How far in advance should I book National Day catering?',
-      a: 'National Day is a busy date. We recommend booking two to four weeks ahead, especially for large events, live stations and prime time slots.',
+      a: 'Two to four weeks is the usual window. 2 December fills earlier.',
     },
     {
       q: 'Are your National Day menus halal?',
-      a: 'Yes. All our catering is halal by default, and we can accommodate vegetarian, vegan, gluten-free and other dietary requirements on request.',
+      a: 'Yes. Halal sourcing is the default. Vegetarian, vegan and gluten-free dishes when named.',
     },
-  {
-    q: 'Can you do mothers day lunch at home Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you also do new years day catering?',
-    a: 'One team, your address, menu built for the occasion, and an itemised quote before you commit.',
-  },
-],
+  ],
   relatedServices: [
     {
       title: 'Eid Catering Dubai',
-      description: 'Festive halal catering for Eid al-Fitr and Eid al-Adha celebrations at home or venue.',
+      description: 'Eid al-Fitr and Eid al-Adha at home or in a majlis.',
       image: '/images/eid-suhoor-catering-dubai-hero.webp',
       link: '/eid-catering-dubai',
     },
     {
       title: 'Corporate Event Catering',
-      description: 'Polished catering for office events, product launches and team celebrations across Dubai.',
+      description: 'Workplace sittings when the date is not National Day.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },
     {
       title: 'Live Cooking Station Dubai',
-      description: 'Interactive food stations that bring theatre and freshness to any celebration.',
+      description: 'Grill and shawarma stations, quoted as a format.',
       image: '/service-events.webp',
       link: '/live-cooking-stations-dubai',
     },
   ],
-  ctaH2: 'Book Your UAE National Day Catering',
+  ctaH2: 'Send the 2 December brief',
   ctaP:
-    'Tell us about your guest count, venue and vision. We will design a National Day menu and service plan that celebrates the occasion beautifully.',
+    'Tell us home, office or community hall, guest count and whether you want ouzi or a grill. We send an itemised UAE National Day catering Dubai quote.',
   showTrustSignalStrip: true,
 }
 

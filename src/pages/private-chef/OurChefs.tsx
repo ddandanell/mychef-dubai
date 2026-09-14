@@ -117,7 +117,7 @@ export default function PrivateChefOurChefsPage() {
             />
             <div>
               <Eyebrow>Chef levels</Eyebrow>
-              <DisplayHeading size="h2" className="text-black mb-4">One chef, three levels — that is the whole system</DisplayHeading>
+              <DisplayHeading size="h2" className="text-black mb-4">One chef, three levels. That is the whole system</DisplayHeading>
               {chefLevelIntro.map((para) => (
                 <BodyCopy key={para.slice(0, 48)} className="mb-4">{para}</BodyCopy>
               ))}
@@ -140,7 +140,7 @@ export default function PrivateChefOurChefsPage() {
             <h3 className="font-playfair text-h4 text-white mb-2">{specialistChefs.name}</h3>
             <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-3">{specialistChefs.body}</p>
             <p className="font-inter text-body text-white">
-              A chef leading a team for a party is a catering job with a running order — that is quoted on{' '}
+              A chef leading a team for a party is a catering job with a running order. That is quoted on{' '}
               <Link to="/catering-dubai" className="text-gold underline underline-offset-4">catering</Link>, not here.
             </p>
           </div>
@@ -180,9 +180,9 @@ export default function PrivateChefOurChefsPage() {
       <Section tone="ivory">
         <Container>
           <Eyebrow>Before anyone is put forward</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">Selection includes four entry checks — then the match</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">Selection includes four entry checks, then the match</DisplayHeading>
           <BodyCopy className="mb-8 max-w-[760px]">
-            Identity and right to work, a practical cooking test, references, and food-hygiene awareness. That is the list, and we run it before we match anyone. We do not add certificates, clearances or guarantees we cannot stand behind. The procedure — and what we do not claim — is on{' '}
+            Identity and right to work, a practical cooking test, references, and food-hygiene awareness. That is the list, and we run it before we match anyone. We do not add certificates, clearances or guarantees we cannot stand behind. The procedure, and what we do not claim, is on{' '}
             <Link to={CLUSTER_PATHS.privacy} className="text-gold-ink underline underline-offset-4">Privacy & Security</Link>
             {' '}and{' '}
             <Link to="/how-we-vet-our-chefs" className="text-gold-ink underline underline-offset-4">how we vet our chefs</Link>.
@@ -228,7 +228,7 @@ export default function PrivateChefOurChefsPage() {
             ))}
           </div>
           <BodyCopy className="mb-12 max-w-[760px]">
-            Once the chef is in your home, that same record is how we keep the standard honest — coaching, a new match, or a chef who does not come back. That loop is on{' '}
+            Once the chef is in your home, that same record is how we keep the standard honest: coaching, a new match, or a chef who does not come back. That loop is on{' '}
             <Link to={CLUSTER_PATHS.quality} className="text-gold-ink underline underline-offset-4">Quality & Training</Link>.
           </BodyCopy>
           <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-3">{evidenceChain.eyebrow}</p>
@@ -259,7 +259,7 @@ export default function PrivateChefOurChefsPage() {
           <div className="max-w-[760px] mt-12">
             <DisplayHeading as="h3" size="h3" className="text-black mb-4">And if the chef is not right for your home?</DisplayHeading>
             <BodyCopy className="mb-4">
-              We change them. A wrong match is our problem to fix, not yours to live with — tell your household manager and we find someone who fits better.
+              We change them. A wrong match is our problem to fix, not yours to live with. Tell your household manager and we find someone who fits better.
             </BodyCopy>
             <BodyCopy>
               Your Food Profile stays exactly where it is, so the next chef arrives already knowing how you eat. You are not starting again, and you are not paying twice.
@@ -271,9 +271,9 @@ export default function PrivateChefOurChefsPage() {
       <Section tone="ivory">
         <Container>
           <Eyebrow id="matching" className="scroll-mt-24">Matching</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">The right personal chef in Dubai depends on your home</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">The chef is matched to this house, not picked from a list</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[760px]">
-            We do not say “here is our best chef.” When you hire a chef in Dubai yourself, you get whoever replied first and one interview to judge them on. Here it works the other way round: a family who wants simple high-protein meals does not get the same person as a household entertaining every weekend. You describe your home, we work out the job, and the job decides which chef fits it. Every chef costs you the same — a chef’s level changes what they earn, not what you pay. Specialists are for the meal that needs one.
+            We do not say “here is our best chef.” When you hire a chef in Dubai yourself, you get whoever replied first and one interview to judge them on. Here it works the other way round: a family who wants simple high-protein meals does not get the same person as a household entertaining every weekend. You describe your home, we work out the job, and the job decides which chef fits it. Every chef costs you the same. A chef’s level changes what they earn, not what you pay. Specialists are for the meal that needs one.
           </BodyCopy>
           <SequenceRail steps={matchingSteps} className="mb-10" />
           <div className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-start mb-16">
@@ -298,7 +298,7 @@ export default function PrivateChefOurChefsPage() {
           </div>
           <h3 className="font-playfair text-h3 text-black mb-4">Chefs in the network</h3>
           <BodyCopy className="mb-8 max-w-[760px]">
-            Cuisine is half of most briefs — an Indian chef in Dubai for the family’s everyday food, a Japanese specialist for Friday, an Italian for the season. Specialty is matched alongside level, personality and household fit.
+            Cuisine is half of most briefs: an Indian kitchen for the family’s everyday food, a Japanese specialist for Friday, an Italian for the season. Specialty is matched alongside level, personality and household fit. The named chefs you can read about are Ahmed Al-Rashid, Marco Rossi, Layla Hassan and Matteo Moretti. Matching is not limited to them.
           </BodyCopy>
           <BodyCopy muted className="mb-8">Matching is not limited to the chefs shown here.</BodyCopy>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -347,7 +347,7 @@ export default function PrivateChefOurChefsPage() {
         </div>
       </section>
 
-      <ClusterCTA title="See the chef matched to your home" body="Tell us how you live and what you eat. We work out the job and match the chef to it — or add a specialist for the meal that needs one. You approve the profile before anyone starts, and the price does not change with the chef’s level." />
+      <ClusterCTA title="See the chef matched to your home" body="Tell us how you live and what you eat. We work out the job and match the chef to it, or add a specialist for the meal that needs one. You approve the profile before anyone starts, and the price does not change with the chef’s level." />
     </div>
   )
 }

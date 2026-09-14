@@ -34,78 +34,78 @@ const CANONICAL_PATH = '/apartment-private-dining-dubai'
 const features = [
   {
     icon: Home,
-    title: 'Designed for Apartments',
-    description: 'Compact kitchen? No problem. Chefs in our network are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
+    title: 'Built for a compact kitchen',
+    description: 'Marina, Downtown, JBR, Business Bay and DIFC apartments are the usual rooms. The chef brings what the kitchen does not have, and works cleanly in the space that is there.',
   },
   {
     icon: Users,
-    title: 'Intimate Groups of 2–8',
-    description: 'The perfect format for date nights, small celebrations, dinner with friends, or impressing clients without leaving your building.',
+    title: 'Two to eight guests',
+    description: 'Date night, a small table of friends, or a client dinner that should not leave the building. Larger groups belong on villa catering.',
   },
   {
     icon: ChefHat,
-    title: 'Full-Service Experience',
-    description: 'The chef shops, cooks, serves, and cleans. You provide the table and the company; your chef handles everything that happens in the kitchen.'
+    title: 'One night, then clear-down',
+    description: 'The chef shops if agreed, cooks, serves, and leaves the kitchen as found. This is catering in an apartment, not a standing household chef.',
   },
   {
     icon: Sparkles,
-    title: 'Restaurant Quality at Home',
-    description: 'Multi-course menus, beautiful plating, and professional service — without the taxi, the reservation, or the noisy dining room.',
+    title: 'Courses at your table',
+    description: 'Chef-led plated dining, from AED 700 a person. Date Night for two is AED 1,200. You stay a guest. Nobody books a restaurant table.',
   },
 ]
 
 const menus = [
   {
-    title: 'Date Night for Two',
-    description: '3–4 courses with candlelit presentation. From AED 296 per person — final quote tailored to your menu.',
+    title: 'Date Night for two',
+    description: 'Three courses, cooked and served at home. AED 1,200 for two, the published Date Night package. VAT at 5%.',
   },
   {
-    title: 'Dinner with Friends',
-    description: 'Shared plates and family-style service for 4–6 guests. From AED 250 per person — final quote tailored to your event.',
+    title: 'Dinner with friends',
+    description: 'Chef-led plated dining for a small table. From AED 700 a person, two guests minimum. Groceries in the quote.',
   },
   {
-    title: 'Celebration Menu',
-    description: '4–5 courses with dessert and celebration touches for birthdays and anniversaries. From AED 300 per person — final quote tailored to your event.',
+    title: 'A celebration at the apartment table',
+    description: 'Birthday or anniversary, still one night. From AED 700 a person plated, or Family Feast AED 2,400 for 6–8 if the table is sharing plates.',
   },
   {
-    title: 'Tasting Menu',
-    description: '5–7 courses for guests who want a refined, restaurant-style progression. From AED 450 per person — final quote tailored to your event.',
+    title: 'A longer tasting',
+    description: 'More courses, same format: chef-led plated, from AED 700 a person. The written quote confirms the night.',
   },
 ]
 
 const faqs = [
   {
     q: 'Will the chef fit in my apartment kitchen?',
-    a: 'Yes. Chefs in our network are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
+    a: 'Yes. We cook in Dubai Marina, Downtown, JBR, Business Bay and DIFC apartments as a normal brief. The chef uses what is there and brings what is missing.',
   },
   {
-    q: 'How many guests can an apartment dinner accommodate?',
-    a: 'Typically 2–8 guests, depending on your dining area and kitchen size. For larger groups, we recommend villa private dining or event catering formats.',
+    q: 'How many guests can an apartment dinner take?',
+    a: 'Typically 2–8, depending on the dining area and the kitchen. Larger groups belong on villa catering.',
   },
   {
     q: 'Do I need special equipment?',
-    a: 'No. Chefs bring specialty tools and ingredients. We only ask that your oven, stovetop, and basic cookware are functional.',
+    a: 'No. We ask that the oven, hob and basic cookware work. Specialty tools come with the chef.',
   },
   {
-    q: 'Is there a minimum spend?',
-    a: 'Most apartment private dinners start from AED 1,200 total for two guests, depending on menu and cuisine. We provide a fixed, tailored quote before booking.',
+    q: 'What is a private chef apartment Dubai price?',
+    a: 'Date Night for two is AED 1,200. Chef-led plated dining starts from AED 700 a person. Groceries sit in the quote. VAT at 5% is shown on its own line. The figure is in writing before the night.',
   },
   {
-    q: 'Can the chef cater to dietary requirements?',
-    a: 'Absolutely. Halal, vegetarian, vegan, gluten-free, dairy-free, and allergy-specific menus are all available.',
+    q: 'Can the chef cook around dietary requirements?',
+    a: 'Halal, vegetarian, vegan, gluten-free, dairy-free and allergy notes go into the menu draft. Safety comes before preference if a request is professionally unsafe.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Romantic Dinner Dubai',
-    description: 'Intimate dining for two with candles, flowers, and a personalised menu.',
+    description: 'Dinner for two when the brief is the evening, not the apartment itself.',
     image: '/images/romantic-dinner-dubai-hero.webp',
     link: '/romantic-dinner-dubai',
   },
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke private chef services for homes, villas, and yachts across Dubai.',
+    description: 'A standing household chef. One apartment dinner is catering, and stays on this page.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
@@ -116,7 +116,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Apartment Private Dining',
-      'Apartment private dining in Dubai: restaurant-quality multi-course meals prepared by a private chef in your apartment for 2–8 guests.',
+      'Private chef for apartment Dubai: one night, two to eight guests, cooked in your kitchen. Date Night AED 1,200 for two, or chef-led plated from AED 700 a person.',
       'Catering Service',
       'Dubai',
     ),
@@ -175,8 +175,8 @@ export default function ApartmentPrivateDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef for Apartment Dubai | Dining for 2–8 | myCHEF"
-        description="Private Chef for Apartment Dubai — Restaurant-quality private dining in your Dubai apartment. A private chef shops, cooks, serves, and cleans for intimate…"
+        title="Private Chef for Apartment Dubai | From AED 1,200 | myCHEF"
+        description="Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
         hideSiteName
@@ -200,10 +200,10 @@ export default function ApartmentPrivateDining() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 apd-hero-h1">
-            Private Chef for Apartment Dubai: Restaurant-Quality at Home
+            Private Chef for Apartment Dubai: one night in your kitchen
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 apd-hero-sub">
-            Restaurant-quality multi-course dining for 2–8 guests, prepared in your own kitchen. No reservations, no travel, no compromise.
+            A private chef for apartment Dubai nights is catering: two to eight guests, courses at your table, kitchen left as found. Date Night AED 1,200 for two.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
@@ -224,22 +224,19 @@ export default function ApartmentPrivateDining() {
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">INTIMATE DINING</SectionLabel>
+          <SectionLabel align="center">ONE NIGHT, NOT A STANDING CHEF</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Your Apartment, Your Private Restaurant
+            Private chef for apartment Dubai is catering in a compact kitchen
           </h2>
           <div className="apd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your apartment location, guest count, and occasion. We will bring you a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
+              An apartment dinner party Dubai is one evening: the chef in your kitchen, then clear-down. A private dinner in Dubai that fits two to eight guests is this format. Personal chef availability in Dubai still needs a date, a headcount and a menu draft. A private dining chef for a standing week belongs on the household pages.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A private dinner in Dubai that fits an apartment is this format: two to eight guests, the chef in your kitchen, then the kitchen left as found.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Chefs in our network are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
+              Best private chef for apartment Dubai, for us, means a named chef, an itemised quote, and who buys the ingredients. Apartment private dining packages Dubai start at Date Night AED 1,200 for two, or chef-led plated from AED 700 a person. VAT at 5%. Chef to chef Dubai is not a product name. The booking is with myCHEF.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, date night packages, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link> arrangements.
+              See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, the <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private dining guide</Link>, or the standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link> household plan if the chef should come back.
             </p>
           </div>
         </div>
@@ -248,9 +245,9 @@ export default function ApartmentPrivateDining() {
       <section className="apd-features bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHY IT WORKS</SectionLabel>
+            <SectionLabel align="center">WHY THE APARTMENT WORKS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Apartment Dining, Elevated
+              Compact kitchen, full clear-down
             </h2>
           </div>
 
@@ -272,9 +269,9 @@ export default function ApartmentPrivateDining() {
       <section className="apd-menus bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">MENU IDEAS</SectionLabel>
+            <SectionLabel align="center" tone="dark">PUBLISHED STARTING POINTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Formats for Every Occasion
+              Two published numbers. Then the quote.
             </h2>
           </div>
 
@@ -293,7 +290,7 @@ export default function ApartmentPrivateDining() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Private Chef for Apartment Dubai: the questions we get before a booking
+            Questions before an apartment dinner
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -303,7 +300,7 @@ export default function ApartmentPrivateDining() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="apd-rel-grid grid md:grid-cols-3 gap-6">
@@ -337,10 +334,10 @@ export default function ApartmentPrivateDining() {
         <div className="container-custom text-center apd-cta opacity-0 translate-y-8">
           <ChefHat size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Apartment Private Dining
+            Book the apartment night
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your apartment location, guest count, and occasion. We will bring you a chef who turns your home into the best dining room in Dubai.
+            Date, area, guest count and dietary notes. Date Night is AED 1,200 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Get My Apartment Dining Quote</Link>

@@ -46,19 +46,19 @@ const menuHighlights = [
   {
     icon: ChefHat,
     title: 'Live Pasta Station',
-    description: 'A partner-chef-led station tossing pasta to order in a wheel of parmesan or a pan of fresh sauce — theatre, aroma, and a plate served warm to every guest.',
+    description: 'A partner-chef-led station tossing pasta to order in a wheel of parmesan or a pan of fresh sauce, theatre, aroma, and a plate served warm to every guest.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Soup,
     title: 'Risotto',
-    description: 'Creamy risotto cooked the proper way — saffron Milanese, wild mushroom, or seasonal vegetable — stirred to order for that signature texture.',
+    description: 'Creamy risotto cooked the proper way, saffron Milanese, wild mushroom, or seasonal vegetable, stirred to order for that signature texture.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Salad,
     title: 'Antipasti',
-    description: 'Cured meats, marinated vegetables, buffalo mozzarella, bruschetta, and olives — an abundant Italian opening spread to share.',
+    description: 'Marinated vegetables, mozzarella, bruschetta and olives. Cured pork is not assumed. Halal meats only if the brief asks for them.',
     link: '/grazing-table-dubai',
   },
   {
@@ -70,7 +70,7 @@ const menuHighlights = [
   {
     icon: Cake,
     title: 'Dolci & Tiramisu',
-    description: 'Tiramisu, panna cotta, cannoli, and affogato — classic Italian desserts and an espresso bar to close the meal.',
+    description: 'Tiramisu, panna cotta, cannoli, and affogato, classic Italian desserts and an espresso bar to close the meal.',
     link: '/dessert-table-catering-dubai',
   },
 ]
@@ -78,7 +78,7 @@ const menuHighlights = [
 const useCases = [
   {
     title: 'Weddings & Receptions',
-    description: 'Italian menus bring romance and warmth to weddings — antipasti to welcome, a live pasta or risotto station as a talking point, and a tiramisu and espresso finish that guests remember long after the night.',
+    description: 'Italian menus bring romance and warmth to weddings, antipasti to welcome, a live pasta or risotto station as a talking point, and a tiramisu and espresso finish that guests remember long after the night.',
   },
   {
     title: 'Villa Dinners & Family Days',
@@ -90,7 +90,7 @@ const useCases = [
   },
   {
     title: 'Intimate Plated Dinners',
-    description: 'For refined celebrations, a private chef can serve a multi-course Italian dinner — antipasto, primo, secondo, and dolce — plated with restaurant-level care in your own home.',
+    description: 'For refined celebrations, a private chef can serve a multi-course Italian dinner, antipasto, primo, secondo, and dolce, plated with restaurant-level care in your own home.',
   },
 ]
 
@@ -145,7 +145,7 @@ const faqs = [
   },
   {
     q: 'Can you set up a live pasta station?',
-    a: 'Yes. A partner-chef-led live pasta station — tossing fresh pasta to order, sometimes in a wheel of parmesan — is one of our most popular options. We also offer live risotto and wood-fired pizza stations.',
+    a: 'Yes. A partner-chef-led live pasta station, tossing fresh pasta to order, sometimes in a wheel of parmesan, is one of our most popular options. We also offer live risotto and wood-fired pizza stations.',
   },
   {
     q: 'Is the meat halal?',
@@ -159,9 +159,9 @@ const faqs = [
     q: 'Is the pasta really made by hand?',
     a: 'Yes. We make fresh pasta by hand and cook our sauces from scratch, from slow-simmered ragù to simple tomato and basil. The difference in texture and flavour is exactly why guests remember an Italian menu.',
   },
-  { q: "How much does Italian catering in Dubai cost per person?", a: "Italian catering in Dubai is priced by custom quote, because your total depends on guest count, menu, and whether you add live stations or serving staff. We build the menu around your budget rather than a fixed per-head figure, and every proposal is itemised with 5% VAT shown clearly. Share your headcount and date and we usually reply with a tailored quote within about 15 minutes during business hours." },
+  { q: "How much does Italian catering in Dubai cost per person?", a: "Italian catering in Dubai is priced by custom quote, because your total depends on guest count, menu, and whether you add live stations or serving staff. We build the menu around your budget rather than a fixed per-head figure, and every proposal is itemised with 5% VAT shown clearly. Share your headcount and date and we usually reply with a tailored quote during business hours." },
   { q: "What is included in the price of your Italian catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards, so you are not left with pans to scrub or a kitchen to reset. Serving staff can be added when you want table service or a larger buffet run smoothly. You can see how the full package works on our [how it works](/how-it-works) page." },
-  { q: "Are you a real Italian catering company or a booking platform?", a: "We are a full-service private chef and catering company that handles your Italian event end to end — we design the menu, source the ingredients, cook on site, serve, and clean up ourselves. There is no middleman and no marketplace; you deal with one team from first message to final plate. Our Italian menus are developed and led by [Chef Marco, our Italian chef](/chefs/marco-italian-chef)." },
+  { q: "Are you a real Italian catering company or a booking platform?", a: "We are a full-service private chef and catering company that handles your Italian event end to end, we design the menu, source the ingredients, cook on site, serve, and clean up ourselves. There is no middleman and no marketplace; you deal with one team from first message to final plate. Our Italian menus are developed and led by [Chef Marco, our Italian chef](/chefs/marco-italian-chef)." },
   { q: "Is your Italian food prepared to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and we handle sourcing, temperature control, and on-site preparation to those requirements. Halal meat and poultry are sourced by default, and we are happy to confirm supplier details for any dish when you plan your event." },
   { q: "What is the minimum number of guests for Italian catering?", a: "We cater Italian menus for intimate dinners of just a few people right up to weddings and corporate functions for hundreds, so there is no rigid minimum that rules out a small gathering. For very small groups a private chef plated dinner often suits best, while larger numbers work beautifully with buffets and live stations. Tell us your guest count on our [contact](/contact) page and we will recommend the right format." },
   { q: "Do you provide waiters and serving staff for Italian events?", a: "Yes, professional serving staff are available as an optional add-on for buffets, live-station events, and plated dinners where you want guests looked after throughout. For a relaxed sharing-style villa lunch you may prefer just the chef, while a wedding or corporate reception usually runs more smoothly with waiters. We will suggest the right staffing level for your occasion in the proposal." },
@@ -178,7 +178,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
+    description: 'Drop-off, buffet, stations or a chef at the table. Food, service and pack-down at your address.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -292,10 +292,11 @@ export default function ItalianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Italian Catering Dubai | Live Pasta, Pizza & Risotto"
-        description="Italian catering Dubai for weddings, villa dinners & corporate events. Handmade pasta, risotto, antipasti, live pasta & pizza stations. Quote in ~15 mins."
+        title="Italian Catering Dubai | myCHEF"
+        description="Italian Catering Dubai with a vetted myCHEF team. Live pasta or plated primo. Pork not assumed. You stay a guest at your own table."
         canonicalPath="/italian-catering-dubai"
         ogImage="/menu-appetizer.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -320,10 +321,10 @@ export default function ItalianCatering() {
             Italian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
-            Handmade pasta, creamy risotto, abundant antipasti, and live pasta and pizza stations — the warmth and romance of an Italian kitchen brought to weddings, villas, and events across Dubai.
+            Italian Catering Dubai is a choice: live pasta tossed to order, or a plated primo at the table. Antipasti, risotto, pizza if the space allows fire. Pork is not assumed. Halal meat is the default.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Get My Italian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -343,16 +344,16 @@ export default function ItalianCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">AUTHENTIC ITALIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Made by Hand, Served with Warmth
+            Live pasta, or a plated primo. Choose one.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Italian food is the cuisine of generosity and craft — a few good ingredients, treated with patience, turned into something that brings people to the table and keeps them there. Pasta rolled and cut by hand, risotto stirred to that perfect creamy texture, antipasti laid out to share, and dolci to finish slowly over espresso. At myCHEF Dubai, your chef prepares in that tradition, making pasta fresh and simmering sauces from scratch rather than reaching for shortcuts.
+            Italian Catering Dubai is pasta made by hand, sauces cooked from scratch, and a format that matches the room. A live station tosses plates to order. A seated table gets antipasto, primo, secondo and dolce. Cured pork is not on the board unless you ask. Halal meat and poultry are the default.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From antipasti and handmade pasta to wood-fired pizza, live risotto stations, and a tiramisu-and-espresso finish, our Italian menus are developed by <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link>, and suit weddings, villa dinners, corporate receptions, and intimate plated occasions alike. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and a partner-chef-led <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station</Link> can become the centrepiece of your event — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Menus can be led by <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Marco Rossi</Link> when the match fits. Wood-fired pizza and live pasta need space and, for fire, an outdoor plot. Apartment balconies and yachts have limits. We check first. See <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> and <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -527,13 +528,13 @@ export default function ItalianCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ital-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Italian Feast
+            Send live pasta or plated primo with the date
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design an Italian menu — with live stations if you like — that suits your guests, dietary needs, and the scale of your occasion.
+            Name the headcount, the room, and whether pork stays off. We put dietary notes on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Italian Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

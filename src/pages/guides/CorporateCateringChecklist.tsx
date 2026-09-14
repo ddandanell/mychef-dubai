@@ -191,7 +191,7 @@ const howToCorporateSchema = howToSchema(
   'A checklist for planning corporate catering in Dubai, covering pre-event planning, menu formats, service flow, and post-event follow-up.',
   [
     { name: 'Pre-event planning', text: preEvent.map((item) => `${item.title}: ${item.description}`).join(' ') },
-    { name: 'Menu formats', text: menuFormats.map((item) => `${item.title} — ${item.description}`).join(' ') },
+    { name: 'Menu formats', text: menuFormats.map((item) => `${item.title}: ${item.description}`).join(' ') },
     { name: 'Service flow', text: serviceFlow.join(' ') },
     { name: 'Post-event follow-up', text: postEvent.join(' ') },
   ],
@@ -282,7 +282,7 @@ export default function CorporateCateringChecklist() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 corp-hero-h1">
-            Corporate Catering Checklist Dubai Businesses
+            Corporate Catering Checklist Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 corp-hero-sub">
             A practical checklist for office breakfasts, working lunches, boardrooms and company events. To book the service, start on{' '}
@@ -310,10 +310,10 @@ export default function CorporateCateringChecklist() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">OFFICE & BUSINESS EVENTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering That Keeps Business Moving
+            The list before you brief the kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            This page is the planning list — headcount, dietary needs, format, timing, budget and follow-up — so a boardroom of ten and a launch for two hundred both get the same checks. The page that sells the work is{' '}
+            This page is the planning list: headcount, dietary needs, format, timing, budget and follow-up: so a boardroom of ten and a launch for two hundred both get the same checks. The page that sells the work is{' '}
             <Link to="/corporate" className="text-gold-ink underline underline-offset-4 hover:text-gold">corporate catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -500,7 +500,7 @@ export default function CorporateCateringChecklist() {
             Send the headcount, date, area and format. You get an itemised proposal: food, staff, delivery, equipment and 5% VAT as separate lines.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

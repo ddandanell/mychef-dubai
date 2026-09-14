@@ -34,57 +34,57 @@ const CANONICAL_PATH = '/part-time-private-chef-dubai'
 const benefits = [
   {
     icon: Calendar,
-    title: '2–3 Days Per Week',
-    description: 'A regular chef schedule that fits between weekly meal prep and full-time placement. Ideal for families who want fresh cooking without a live-in arrangement.',
+    title: 'Two or three days a week',
+    description: 'A regular chef between weekly Food Prep and a most-days plan. Fresh cooking without staffing the house every evening, and without a live-in hire.',
   },
   {
     icon: Users,
-    title: 'Same Chef, Familiar Taste',
-    description: 'Build a relationship with one chef who learns your household\'s preferences, dietary needs, and routines.',
+    title: 'The same chef, most weeks',
+    description: 'One person who already knows breakfast, the children, and Friday. Backup is briefed from the Food Profile.',
   },
   {
     icon: ChefHat,
-    title: 'Cooking + Meal Planning',
-    description: 'The chef designs weekly menus, shops for ingredients, cooks in your kitchen, portions meals, and leaves the kitchen clean.',
+    title: 'Cook, pack, or stay for dinner',
+    description: 'Fresh Meal is three hours, AED 750. Food Prep is four hours, AED 900. Autopilot is five hours, AED 1,050. The job decides the hours.',
   },
   {
     icon: Wallet,
-    title: 'More Accessible Than Full-Time',
-    description: 'A part-time chef is priced per visit, like every household job: AED 750 for a 3-hour Fresh Meal up to AED 1,500 for a full day. Two dinners a week is AED 6,000 a month; four days on Kitchen on Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts.',
+    title: 'The same price list as every household plan',
+    description: 'Two dinners a week is AED 6,000 a month. Four days on Kitchen on Autopilot is 16 visits at AED 16,800. Groceries at actual receipts. VAT at 5%.',
   },
 ]
 
 const arrangements = [
   {
-    title: 'Dinner-Only Chef',
-    description: 'Chef arrives 3–5 evenings per week to prepare and serve dinner for the family.',
+    title: 'Dinner only',
+    description: 'Fresh Meal visits, two or three evenings a week. The chef cooks, serves the way this house likes, and leaves the kitchen handled.',
   },
   {
-    title: 'Meal Prep + Family Dinner',
-    description: 'Two visits per week to prep multiple meals, plus one dinner service for the family.',
+    title: 'Prep plus one dinner',
+    description: 'Food Prep mid-week, then a Fresh Meal when the table is together. Same chef, same Food Profile.',
   },
   {
-    title: 'Lunch & Dinner Coverage',
-    description: 'Daily part-time coverage for households with busy schedules or specific dietary needs.',
+    title: 'Lunch and dinner on set days',
+    description: 'Kitchen on Autopilot on the days you book: planning, shopping, cooking, cleanup. Groceries at receipts.',
   },
   {
-    title: 'Event + Weekly Cooking',
-    description: 'Regular weekly cooking plus availability for small family celebrations or dinner parties.',
+    title: 'The week, plus one night of guests',
+    description: 'Standing days stay on this plan. A dinner party is catering, quoted per person, not folded into the month.',
   },
 ]
 
 const faqs = [
   {
     q: 'What is a part-time private chef?',
-    a: 'A part-time private chef visits your home on a fixed schedule — typically 2–3 days per week or a set number of hours — to prepare meals, plan menus, and manage kitchen tasks. They do not live in and are not a full-time employee.',
+    a: 'A part-time private chef visits your home on a fixed schedule, typically two or three days a week, to cook, pack or stay for dinner. They do not live in. You do not employ them. The booking is with myCHEF.',
   },
   {
     q: 'How much does a part-time private chef cost in Dubai?',
-    a: 'Part-time is the same price list as every other household plan, counted per visit: from AED 3,000 a month for one Fresh Meal a week, AED 6,000 for two dinners a week, AED 16,800 for four days of Kitchen on Autopilot. There is no separate part-time tariff and no more expensive grade of chef — the levels are what the chef earns, not what you pay.',
+    a: 'Part-time is the same price list as every other household plan, counted per visit: from AED 3,000 a month for one Fresh Meal a week, AED 6,000 for two dinners a week, AED 16,800 for four days of Kitchen on Autopilot. There is no separate part-time tariff. Levels are what the chef earns, not what you pay. VAT at 5% is shown on its own line.',
   },
   {
     q: 'Is the chef employed by myCHEF or by me?',
-    a: 'A licensed supplier employs your chef on a proper visa we have asked to see. myCHEF matches the person to the house, manages the arrangement, scores the work and pays the quality extra to the cook. You never employ or contract the chef yourself, and nobody invoices your villa personally — the booking is with us.',
+    a: 'A licensed supplier employs your chef on a proper visa we have asked to see. myCHEF matches the person to the house, manages the arrangement, scores the work and pays the quality extra to the cook. You never employ or contract the chef yourself. The booking is with us.',
   },
   {
     q: 'Can I try a part-time chef before committing?',
@@ -99,19 +99,19 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'Recurring chef visits to prep multiple days of meals in your kitchen.',
+    description: 'Four hours, once or twice a week, when you do not need a chef at dinner.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
   {
     title: 'Wellness Meal Prep',
-    description: 'Nutritionist-aligned meals for health and fitness goals.',
+    description: 'The Food Prep job with a health brief, not a most-days cook.',
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/wellness-meal-prep-dubai',
   },
   {
     title: 'Private Chef Dubai',
-    description: 'One-off and occasional private chef experiences for dining and events.',
+    description: 'The standing household chef. This page is the two-or-three-days end of it.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
@@ -181,8 +181,8 @@ export default function PartTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Part-Time Private Chef Dubai | 2–3 Days Per Week | myCHEF"
-        description="Hire a part time private chef Dubai for 2–3 days per week. Meal planning, shopping, cooking, and cleanup — regular support without full-time."
+        title="Part Time Private Chef Dubai | 2–3 Days a Week | myCHEF"
+        description="Hire a part time private chef Dubai for two or three days a week. Same price list as every household plan. Groceries at receipts. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
         hideSiteName
@@ -206,10 +206,10 @@ export default function PartTimePrivateChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pt-hero-h1">
-            Part-Time Private Chef Dubai: 2–3 Days Per Week
+            Part Time Private Chef Dubai: two or three days a week
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pt-hero-sub">
-            Regular chef support 2–3 days per week — meal planning, shopping, cooking, and cleanup — without the cost or commitment of a full-time placement.
+            A part time private chef Dubai plan is the same household chef, on fewer days. Fresh Meal AED 750, Food Prep AED 900. Groceries at receipts. VAT 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Get My Part-Time Chef Quote</Link>
@@ -230,25 +230,22 @@ export default function PartTimePrivateChef() {
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">REGULAR SUPPORT</SectionLabel>
+          <SectionLabel align="center">FEWER DAYS, SAME SYSTEM</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The "Regular But Not Full-Time" Solution
+            Part time private chef Dubai is days of cooking, not a salary
           </h2>
           <div className="pt-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will bring you a vetted chef who fits your rhythm — usually within 24 hours.
+              Hire a part time private chef Dubai when two or three days cover the week. A part time cook in Dubai on this page is that standing chef, not a one-night team. Part time private chef Dubai monthly cost is the visit rate times the days. Groceries at receipts. VAT at 5%.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week. Whether you call it a part time cook in Dubai, a family chef or a full time private chef, the booking is the same one: a vetted chef matched to your kitchen, priced by the visit.
+              Two or three days is often enough that the chef stops asking how you like things, and rare enough that the house is not staffed every evening. The same person comes back. The Food Profile carries what they learn. Someone briefed from it covers the weeks they are off.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Two or three days a week is where this service works best for a family: often enough that the chef
-              stops asking how you like things, rare enough that the house is not staffed every day. The same person
-              comes back, the Food Profile carries what they learn, and someone briefed from it covers the weeks they
-              are off.
+              A personal chef near me still needs a match, not a pin. Family chef Dubai full time is the most-days page. The private chef, here, is the person who cooks on your days. One dinner is catering.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services, or see <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> to find the right rhythm for your household.
+              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/full-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">full-time private chef</Link>, or the parent <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link> page. Build the month on <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices</Link>.
             </p>
           </div>
         </div>
@@ -257,9 +254,9 @@ export default function PartTimePrivateChef() {
       <section className="pt-benefits bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHY PART-TIME</SectionLabel>
+            <SectionLabel align="center">WHY TWO OR THREE DAYS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Benefits of a Part-Time Chef
+              Enough days to learn the house
             </h2>
           </div>
 
@@ -281,9 +278,9 @@ export default function PartTimePrivateChef() {
       <section className="pt-arrangements bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">COMMON ARRANGEMENTS</SectionLabel>
+            <SectionLabel align="center" tone="dark">HOW THE WEEK IS BUILT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              How Families Use Part-Time Chefs
+              Dinner, prep, or both
             </h2>
           </div>
 
@@ -302,7 +299,7 @@ export default function PartTimePrivateChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Part Time Private Chef Dubai: the questions we get before a booking
+            Questions before a two-or-three-day plan
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -312,7 +309,7 @@ export default function PartTimePrivateChef() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="pt-rel-grid grid md:grid-cols-3 gap-6">
@@ -346,10 +343,10 @@ export default function PartTimePrivateChef() {
         <div className="container-custom text-center pt-cta opacity-0 translate-y-8">
           <ChefHat size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Find Your Part-Time Chef
+            Build the two-or-three-day plan
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your schedule, household size, and dietary needs. We will bring you a vetted chef who fits your rhythm and your budget.
+            Days, meals, and the area. We match the chef, you approve the profile, and the month is in writing before anyone starts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Get My Part-Time Chef Quote</Link>

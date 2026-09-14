@@ -21,7 +21,7 @@ const PATH = CLUSTER_PATHS.planTerms
 const hero = photos[3]
 const TITLE = 'How Your Private Chef Plan Works | myCHEF'
 const DESCRIPTION =
-  'Every rule that shapes a myCHEF private chef plan in Dubai, in plain English: groceries, guests, rescheduling, billing, replacement and access.'
+  'Every rule that shapes a myCHEF private chef plan in Dubai, in plain English: groceries at receipts, guests, rescheduling, billing, replacement and access. VAT 5%.'
 
 const schema = {
   '@context': 'https://schema.org',
@@ -83,7 +83,7 @@ export default function HowYourPlanWorks() {
         variant="quiet"
         eyebrow="Private Chef Dubai"
         title="How your private chef plan works"
-        subtitle="Every rule that shapes your plan, explained once — so you never have to ask."
+        subtitle="Every rule that shapes your plan, explained once, so you never have to ask."
         image={hero.src}
         imageAlt={hero.alt}
         imageWidth={hero.width}
@@ -158,7 +158,7 @@ export default function HowYourPlanWorks() {
             <div>
               <Eyebrow className="mb-3">What you should now know</Eyebrow>
               <DisplayHeading size="h2" className="text-black mb-4">You are not subscribing to food.</DisplayHeading>
-              <BodyCopy>You are reserving professional chef capacity for your household — and every rule above exists to make that reservation dependable.</BodyCopy>
+              <BodyCopy>You are reserving professional chef capacity for your household, and every rule above exists to make that reservation dependable.</BodyCopy>
             </div>
             <ol className="border-t border-gray-200">
               {PLAN_MENTAL_MODEL.map((line, i) => (
@@ -177,7 +177,7 @@ export default function HowYourPlanWorks() {
         </Container>
       </Section>
 
-      <ClusterCTA title="Design the service. We confirm the chef." body="Build your plan on the pricing page, send it, and a coordinator confirms availability and the exact figure in writing — before anything starts." inquiryLabel="Build my plan" />
+      <ClusterCTA title="Design the service. We confirm the chef." body="Build your plan on the pricing page, send it, and a coordinator confirms availability and the exact figure in writing, before anything starts." inquiryLabel="Build my plan" />
     </div>
   )
 }

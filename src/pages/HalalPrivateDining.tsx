@@ -11,192 +11,190 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'halal-private-dining-dubai',
-  seoTitle: "Halal Private Dining Dubai | Certified",
-  metaDescription: 'Halal private dining Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners.',
+  seoTitle: 'Halal Private Dining Dubai | myCHEF',
+  metaDescription:
+    'Halal Private Dining Dubai with a vetted myCHEF team. A chef at your table, not a restaurant room. Menus, service and clear-down so you stay a guest.',
   canonicalPath: '/halal-private-dining-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/halal-private-dining-dubai-hero.webp',
   breadcrumbLabel: 'Halal Private Dining Dubai',
   h1: 'Halal Private Dining Dubai',
   heroSub:
-    'Bespoke halal menus, private chef service and discreet hospitality for intimate dinners, family celebrations and corporate gatherings across Dubai — all prepared to trusted halal standards.',
+    'Halal Private Dining Dubai is a chef and a small team in your home. Halal meat as standard. Pork is not assumed. You sit with your guests while we cook, serve and pack down.',
   heroImage: '/images/halal-private-dining-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book halal private dining in Dubai (via mychef.ae/halal-private-dining-dubai)",
   eyebrow: 'HALAL PRIVATE DINING IN DUBAI',
-  introH2: 'Halal Dining, Elevated and Personal',
+  introH2: 'Your table. Our chef. Halal as the default.',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Some occasions call for more than a restaurant reservation. Halal private dining in Dubai brings a dedicated chef, curated menu and professional service team into your home, villa or chosen venue, so you can host with confidence and without compromise. Every dish is prepared to trusted halal standards, using halal-sourced proteins and ingredients, and served with the polish of a fine-dining establishment.
+        This is not a restaurant private room and we are not a venue. Halal Private Dining Dubai means a partner chef cooks in your villa, apartment or hired dining space. Meat and poultry are sourced halal as standard. Pork stays off. Cooking alcohol stays off unless you ask for it in writing. Specific certificates belong in the brief.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Whether you are planning an intimate anniversary dinner in Emirates Hills, a family celebration in Palm Jumeirah, a Ramadan iftar at home, or a corporate hospitality evening in Downtown Dubai, we design the experience around your guests, your space and your tastes. The menu can lean Arabic, Mediterranean, Asian or contemporary international — always fully halal, always beautifully presented.
-      </p>
-      <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This is the private, chef-led side of our broader{' '}
+        Intimate anniversary dinners, family tables in Palm Jumeirah, iftar at home, or a client dinner in Downtown: the format is plated courses at your table. Arabic, Mediterranean, Asian or a mixed menu, always on the same halal baseline. Larger guest lists move to{' '}
         <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           halal catering Dubai
-        </Link>{' '}
-        service. For larger guest lists, explore our{' '}
+        </Link>
+        . Wider event formats sit on{' '}
         <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
-        </Link>{' '}
-        options, or pair private dining with a{' '}
+        </Link>
+        . A live station can sit beside the table via{' '}
         <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          live cooking station
-        </Link>{' '}
-        for added theatre.
+          live cooking stations
+        </Link>
+        .
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-        Not sure what to confirm before booking? Read our guide on{' '}
-        
-          halal private dining in Dubai — what to ask
-        {' '}
-        before you plan.
+        Not sure what to confirm before booking? Read{' '}
+        <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          what to ask a halal caterer
+        </Link>
+        {' '}before you plan.
       </p>
     </>
   ),
-  formatsH2: 'Halal Private Dining Formats',
+  formatsH2: 'Small-table formats, still fully staffed',
   formats: [
     {
       Icon: Utensils,
       title: 'Intimate Plated Dinners',
-      description: 'Multi-course halal tasting menus served course by course in your dining room, with personal chef narration and discreet service.',
+      description: 'Courses brought to your dining table. The chef works from your kitchen. You stay seated.',
       link: '/luxury-dining-experiences',
     },
     {
       Icon: Star,
-      title: 'Fine-Dining Halal Experiences',
-      description: 'Elevated halal dishes presented with restaurant-style plating, premium ingredients and wine-pairing-style mocktail accompaniments.',
+      title: 'Chef-led Halal Menus',
+      description: 'A tighter tasting-style sequence when the table is small and the brief wants more courses, not more guests.',
       link: '/luxury-dining-experiences',
     },
     {
       Icon: Moon,
       title: 'Iftar & Suhoor at Home',
-      description: 'Traditional Ramadan private dining with dates, soups, salads, grills and sweets, served for family and close guests.',
+      description: 'Dates, soup, salads, grills and sweets, timed to Maghrib rather than to a restaurant slot.',
       link: '/ramadan-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa & Residence Dining',
-      description: 'Full private dining set-up in your villa or apartment across Dubai, from kitchen prep to table service and clean-up.',
+      description: 'Full setup in your villa or apartment. Prep, table service, pack-down. We are not the landlord and not the venue planner.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Halal Hospitality',
-      description: 'Board dinners, client entertainment and executive hospitality with fully halal menus and professional front-of-house service.',
+      description: 'Board dinners and client tables in a residence or a hired dining room. Halal baseline. Itemised quote.',
       link: '/corporate-event-catering-dubai',
     },
     {
       Icon: PartyPopper,
       title: 'Celebration Private Dining',
-      description: 'Birthdays, anniversaries, engagements and family milestones with bespoke halal menus designed around the occasion.',
+      description: 'Birthdays, engagements and family milestones. The menu is written for the table, not pulled from a restaurant set menu.',
       link: '/private-chef-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE HALAL PRIVATE DINING WORKS',
-  useCasesH2: 'Designed for Meaningful Gatherings',
+  useCasesH2: 'When the guest list is small enough to sit',
   useCases: [
     {
-      title: 'Intimate Anniversary Dinners',
+      title: 'Anniversary dinners',
       description:
-        'A private chef prepares a multi-course halal menu for two or a small group, turning your home or terrace into a candlelit restaurant with every detail handled.',
+        'Two to eight people, courses at your table, the kitchen handled. A restaurant private room is a different product. This is your house.',
     },
     {
-      title: 'Family Celebrations at Home',
+      title: 'Family tables at home',
       description:
-        'For Eid, birthdays and family reunions, a fully halal private dining experience lets you welcome guests without worrying about sourcing, cooking or serving.',
+        'Eid, birthdays and family nights where halal is not a special request. The chef shops to the brief and leaves the kitchen clear.',
     },
     {
-      title: 'Ramadan Iftar Gatherings',
+      title: 'Iftar at home',
       description:
-        'Host iftar or suhoor at home with a chef-led halal menu that respects tradition while feeling special, from dates and soups to grills and kunafa.',
+        'A chef-led iftar or suhoor for the household and close guests. Timing follows Maghrib. Larger iftars belong on catering.',
     },
     {
-      title: 'Corporate Client Entertainment',
+      title: 'Client dinners',
       description:
-        'Impress clients and colleagues with a private halal dinner in a residence, boardroom or curated venue, supported by discreet, professional service.',
+        'A residence or hired dining room, not a restaurant booking in our name. We cook and serve. You host.',
     },
   ],
-  includedH2: "What's Included in Our Halal Private Dining",
+  includedH2: 'What a private dining booking actually covers',
   includedItems: [
-    { title: 'Fully Halal Menus', description: 'All proteins and ingredients sourced and prepared to trusted halal standards from start to finish.' },
-    { title: 'Bespoke Menu Design', description: 'A menu tailored to your tastes, occasion and dietary preferences, from Arabic classics to modern international.' },
-    { title: 'Private Chef & Service Team', description: 'A dedicated chef and front-of-house staff focused entirely on your table and your guests.' },
-    { title: 'In-Home or Venue Service', description: 'Your chef prepares, plates, serves and cleans up at your villa, apartment, office or chosen venue anywhere in Dubai.' },
-    { title: 'Premium Table Presentation', description: 'Restaurant-quality plating, linens, crockery and styling arranged to suit the setting.' },
-    { title: 'Ramadan & Celebration Specials', description: 'Themed menus and service pacing for iftar, suhoor, Eid and other milestone occasions.' },
-    { title: 'Mocktail & Beverage Pairing', description: 'Non-alcoholic drinks, juices and mocktails selected to complement the halal menu.' },
-    { title: 'Full Setup & Pack-Down', description: 'We arrive with ingredients and equipment, then leave the space spotless after service.' },
+    { title: 'Halal as the default', description: 'Halal meat and poultry as standard. Pork off. Cooking alcohol off unless you ask in writing. Certificates belong in the brief.' },
+    { title: 'Menu written for this table', description: 'Arabic, Mediterranean, Asian or mixed. Dietary notes go into the first menu draft.' },
+    { title: 'Chef and service team', description: 'A partner chef and front of house sized to the headcount. You are not putting anyone on payroll.' },
+    { title: 'In-home or hired-space service', description: 'Your villa, apartment, office dining room or a space you have booked. We do not supply the venue.' },
+    { title: 'Table presentation', description: 'Plating and service ware as quoted. Linens and extra hire are itemised when you need them.' },
+    { title: 'Ramadan and celebration pacing', description: 'Iftar, suhoor and milestone nights follow the clock you set, not a restaurant seating.' },
+    { title: 'Drinks without alcohol unless you ask', description: 'Juices and mocktails as quoted. We do not assume a wine pairing.' },
+    { title: 'Setup and pack-down', description: 'We arrive with food and kit, then leave the kitchen handled.' },
   ],
-  galleryH2: 'A Taste of Our Halal Private Dining',
+  galleryH2: 'What private dining looks like at home',
   galleryImages: [
     { src: '/images/halal-private-dining-dubai-hero.webp', alt: 'Halal private dining table in a Dubai villa' },
     { src: '/menu-meat.webp', alt: 'Halal grilled meat main course' },
-    { src: '/menu-appetizer.webp', alt: 'Elegant halal appetiser selection' },
-    { src: '/service-luxury-dining.webp', alt: 'Luxury private dining service in Dubai' },
+    { src: '/menu-appetizer.webp', alt: 'Halal appetiser selection' },
+    { src: '/service-luxury-dining.webp', alt: 'Private dining service in Dubai' },
     { src: '/service-villa.webp', alt: 'Villa private dinner setting' },
-    { src: '/menu-dessert.webp', alt: 'Traditional halal dessert presentation' },
+    { src: '/menu-dessert.webp', alt: 'Halal dessert presentation' },
   ],
   faqsH2: 'Halal Private Dining Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Is everything on the menu halal?',
-      a: 'Yes. All meat, poultry and ingredients are sourced from trusted halal suppliers, and the menu is prepared to halal standards throughout. We can also accommodate vegetarian, vegan and allergen-conscious guests within the same service.',
+      a: 'Meat and poultry are sourced halal as standard. Pork is not used. Cooking alcohol is off unless you request it in writing. If you need a named certificate, put that in the brief before we shop.',
     },
     {
-      q: 'Where can halal private dining take place?',
-      a: 'We serve private dinners in villas, apartments, penthouses, offices and selected venues across Dubai. Popular areas include Palm Jumeirah, Emirates Hills, Downtown Dubai, Dubai Marina and Jumeirah.',
+      q: 'Where does private dining take place?',
+      a: 'Your villa, apartment, penthouse, office dining room or a space you have hired. Popular areas include Palm Jumeirah, Emirates Hills, Downtown Dubai, Dubai Marina and Jumeirah. We cook there. We are not the venue.',
     },
     {
-      q: 'Can I customise the menu?',
-      a: 'Absolutely. Every halal private dining menu is designed around your preferences, from Arabic and Mediterranean flavours to Asian or contemporary international dishes. We discuss your tastes and any guest requirements in advance.',
+      q: 'Can I choose the cuisine?',
+      a: 'Yes. The menu is written around the table: Arabic, Mediterranean, Asian or mixed. Guest allergies sit on the same draft.',
     },
     {
-      q: 'Do you offer halal private dining for Ramadan?',
-      a: 'Yes. We specialise in iftar and suhoor private dining during Ramadan, with menus that respect tradition while adding a refined, chef-led touch for family and corporate gatherings.',
+      q: 'Do you offer iftar and suhoor at home?',
+      a: 'Yes. Timing follows Maghrib. Larger guest lists move to catering rather than a single private table.',
     },
     {
-      q: 'How many guests can you cater for in a private dining setting?',
-      a: 'Private dining is ideal for small to medium groups, typically from 2 to 30 guests. For larger celebrations, we scale into fully-coordinated catering with additional chefs and service staff.',
+      q: 'How many guests does this format hold?',
+      a: 'Private dining is built for small to medium tables, typically around 2 to 30. Above that, we staff it as catering. Send the headcount and we recommend the format.',
     },
     {
-      q: 'How far in advance should I book?',
-      a: 'We recommend booking at least two to four weeks ahead, especially during Ramadan, Eid and the busy winter season from November to March. Last-minute requests are sometimes possible — contact us on WhatsApp to check availability.',
+      q: 'Is this the same as booking a restaurant private room?',
+      a: 'No. Restaurant rooms such as a Gaia or Hutong private dining booking are a different product in someone else’s venue. We bring a chef to your address. You host. They are not us, and we are not them.',
     },
-  {
-    q: 'Is hutong Dubai private dining the same as halal private dining Dubai?',
-    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
-  },
-],
+    {
+      q: 'How is halal private dining Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. Food, staff and 5% VAT sit on separate lines. Send the date, headcount and area.',
+    },
+  ],
   relatedServices: [
     {
       title: 'Halal Catering Dubai',
-      description: 'fully-coordinated catering for events, weddings and corporate functions of any size.',
+      description: 'Larger guest lists, buffets and stations. Same halal baseline, different staffing.',
       image: '/menu-meat.webp',
       link: '/halal-catering-dubai',
     },
     {
       title: 'Luxury Dining Experiences',
-      description: 'Bespoke private chef experiences and tasting menus in your home or villa.',
+      description: 'Chef-led dinners and tasting sequences in your home, written to the table.',
       image: '/service-luxury-dining.webp',
       link: '/luxury-dining-experiences',
     },
     {
       title: 'Live Cooking Stations',
-      description: 'Interactive live grills, pasta and shawarma stations that bring energy to your event.',
+      description: 'A grill or pasta station beside the table when the brief wants theatre as well as courses.',
       image: '/service-events.webp',
       link: '/live-cooking-stations-dubai',
     },
   ],
-  ctaH2: 'Host a Halal Private Dinner Your Guests Will Remember',
+  ctaH2: 'Send the table size with the date',
   ctaP:
-    'Tell us about your occasion, guest count and preferred cuisine. We will design a fully halal private dining experience in Dubai that feels personal, polished and effortlessly hosted.',
+    'Name the headcount, the cuisine lean, and any certificates you need to see. We put dietary notes on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function HalalPrivateDining() {

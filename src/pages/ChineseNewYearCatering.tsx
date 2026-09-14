@@ -5,120 +5,116 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'chinese-new-year-catering-dubai',
-  seoTitle: "Chinese New Year Catering Dubai | Feasts",
+  seoTitle: 'Chinese New Year Catering Dubai | myCHEF',
   metaDescription:
-    'Chinese New Year catering in Dubai: Lunar New Year menus, dim sum, Peking duck, live noodle stations and family banquets at home or venues. Request a quote.',
+    'Chinese New Year catering Dubai at your home, villa or office. Sharing menus, dim sum, live wok. We cook at your venue. Itemised quote.',
   canonicalPath: '/asian-catering-dubai',
   ogImage: '/images/asian-catering-dubai-hero.webp',
   breadcrumbLabel: 'Chinese New Year Catering Dubai',
-  h1: 'Chinese New Year Catering in Dubai',
+  h1: 'Chinese New Year Catering Dubai',
   heroSub:
-    'Ring in the Lunar New Year with Chinese New Year catering across Dubai — from symbolic sharing menus and dim sum brunches to live wok stations and elegant home banquets.',
+    'Chinese New Year catering Dubai for a reunion dinner, dim sum brunch or company sitting. Sharing dishes, cooked at your address, then cleared.',
   heroImage: '/images/asian-catering-dubai-hero.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange Chinese New Year catering in Dubai (via mychef.ae/chinese-new-year-catering-dubai)',
   eyebrow: 'CHINESE NEW YEAR CATERING IN DUBAI',
-  introH2: 'A Lucky Start to the Lunar New Year',
+  introH2: 'Chinese New Year catering Dubai, at the reunion table',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Chinese New Year is one of the most food-centred celebrations of the year. Every dish carries meaning — long noodles for longevity, dumplings for wealth, whole fish for abundance, and sweet rice cakes for a higher year ahead. Our Chinese New Year catering in Dubai translates these traditions into beautifully presented menus for family reunions, corporate dinners, and community gatherings.
+        Chinese New Year catering Dubai is a reunion dinner, a dim sum brunch or a company sitting at your venue. Dishes carry meaning for the hosts who want them: noodles, dumplings, whole fish, rice cakes. We cook at the address you give us. A year-round Asian menu without the date sits on Asian catering.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We design menus that range from classic Cantonese and Sichuan sharing feasts to modern pan-Asian Lunar New Year spreads. Whether you are hosting a multi-generational reunion dinner in a villa, a company lunch in Downtown Dubai, or a casual dim sum brunch with friends, we bring the flavours, symbolism and service to match the occasion.
+        A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. Chef-led plated dining is AED 700–950. All before 5% VAT. Halal Chinese New Year catering Dubai is available when the brief says so. Dietary notes go into the first draft. No chef is guaranteed by name.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        This service complements our broader{' '}
-        
-          Asian catering Dubai
-        {' '}
-        and{' '}
+        This date sits on our{' '}
         <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           festive catering Dubai
         </Link>{' '}
-        options, and pairs perfectly with{' '}
+        calendar. An unnamed house night belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
-        </Link>{' '}
-        for intimate home celebrations.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Chinese New Year Catering Formats',
+  formatsH2: 'How the reunion meal is served',
   formats: [
     {
       Icon: Sparkles,
-      title: 'Reunion Dinner Banquet',
-      description: 'A traditional multi-course sharing menu served family-style, built around lucky dishes and premium ingredients.',
+      title: 'Reunion dinner banquet',
+      description: 'A sharing menu served family-style, built around the dishes this table actually wants.',
       link: '/catering-dubai',
     },
     {
       Icon: Coffee,
-      title: 'Dim Sum Brunch',
-      description: 'Bamboo baskets of dumplings, buns, cheung fun and small plates — ideal for daytime Lunar New Year gatherings.',
+      title: 'Dim sum brunch',
+      description: 'Baskets of dumplings, buns and small plates for a daytime gathering.',
       link: '/brunch-catering-dubai',
     },
     {
       Icon: Flame,
-      title: 'Live Wok & Noodle Station',
-      description: 'Theatre-style cooking with fresh noodles, fried rice, stir-fries and chef-tossed dishes served hot from the pan.',
+      title: 'Live wok and noodle station',
+      description: 'Cooking in front of guests: noodles, fried rice and stir-fries finished to order.',
       link: '/live-cooking-stations-dubai',
     },
     {
       Icon: Utensils,
-      title: 'Plated Corporate Dinner',
-      description: 'Elegant plated or buffet service for company CNY dinners, client receptions and team celebrations.',
+      title: 'Plated corporate dinner',
+      description: 'Plated or buffet service for a company CNY dinner or client sitting.',
       link: '/corporate-event-catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa & Home Celebrations',
-      description: 'fully-coordinated catering in your home or villa across Dubai with setup, service and clear-down included.',
+      title: 'Villa and home celebrations',
+      description: 'Setup, cooking, service and clear-down in the kitchen you already have.',
       link: '/villas-private-residences',
     },
     {
       Icon: Leaf,
-      title: 'Vegetarian & Dietary Menus',
-      description: 'Plant-based Buddhist-friendly options, halal proteins, gluten-free and nut-free adjustments on request.',
+      title: 'Vegetarian and dietary menus',
+      description: 'Plant-based, halal proteins, gluten-free and nut-free adjustments when they are named.',
       link: '/vegetarian-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE CHINESE NEW YEAR CATERING WORKS',
-  useCasesH2: 'Built for Tradition and Togetherness',
+  useCasesH2: 'Family tables, company lunches, community halls',
   useCases: [
     {
-      title: 'Family Reunion Dinners',
+      title: 'Family reunion dinners',
       description:
-        'Gather the generations for a lucky banquet at home or in a villa in Emirates Hills, Palm Jumeirah or Dubai Hills.',
+        'A mixed-age table in a villa in Emirates Hills, Palm Jumeirah or Dubai Hills. Sharing plates, not a tasting for two.',
     },
     {
-      title: 'Corporate CNY Lunches',
+      title: 'Corporate CNY lunches',
       description:
-        'Welcome the new year with staff and clients over symbolic sharing plates, live stations and festive desserts.',
+        'Staff and clients. Timing, labels and a room that has to be a workplace again afterwards.',
     },
     {
-      title: 'Community & Association Events',
+      title: 'Community and association events',
       description:
-        'Large-format buffet or banquet catering for Chinese cultural groups, clubs and embassy celebrations across Dubai.',
+        'A larger buffet or banquet. Guest count, access and how food is held decide the crew size.',
     },
     {
-      title: 'Intimate Dim Sum Brunches',
+      title: 'Intimate dim sum brunches',
       description:
-        'Relaxed daytime celebrations with friends, featuring baskets of dumplings, teas and sweet treats.',
+        'A smaller daytime sitting with baskets, tea and a kitchen that may not plate a banquet.',
     },
   ],
-  includedH2: "What's Included in Our Chinese New Year Catering",
+  includedH2: 'What a staffed CNY sitting includes',
   includedItems: [
-    { title: 'Symbolic Menu Design', description: 'Dishes chosen for prosperity, longevity, abundance and good fortune, adapted to your guest list.' },
-    { title: 'Asian-Inspired Starters', description: 'Spring rolls, dumplings, char siu, salads and cold platters to open the meal auspiciously.' },
-    { title: 'Sharing Mains & Sides', description: 'Whole fish, Peking duck, wok-fried noodles, fried rice, seasonal greens and signature sauces.' },
-    { title: 'Live Cooking Stations', description: 'Optional partner-chef-led wok, noodle and dumpling stations for energy and freshness.' },
-    { title: 'Vegetarian & Halal Options', description: 'Menus adjusted for dietary, halal and allergy requirements without losing authenticity.' },
-    { title: 'Festive Desserts & Tea', description: 'Red bean pastries, sesame balls, rice cakes, fortune cookies and Chinese tea service.' },
-    { title: 'Service Staff & Setup', description: 'Professional team to plate, serve, clear and keep the celebration flowing.' },
-    { title: 'Full Pack-Down & Cleanup', description: 'We leave your venue tidy so you can focus on red envelopes and reunion time.' },
+    { title: 'Menu written for the date', description: 'Symbolic dishes when you want them, adapted to who is eating and what the kitchen can hold.' },
+    { title: 'Starters', description: 'Dumplings, spring rolls, cold plates and salads to open the table.' },
+    { title: 'Sharing mains', description: 'Fish, duck, noodles, rice and greens, served so people can pass.' },
+    { title: 'Live stations', description: 'Wok, noodle or dumpling stations when the room should move.' },
+    { title: 'Halal and dietary notes', description: 'Halal proteins and vegetarian dishes when the brief names them.' },
+    { title: 'Sweets and tea', description: 'Rice cakes, sesame sweets and tea service, sized to the guest list.' },
+    { title: 'Staff', description: 'A team to plate, replenish and clear. Drop-off is food only.' },
+    { title: 'Pack-down', description: 'The kitchen and table are left as we found them.' },
   ],
-  galleryH2: 'A Taste of Our Chinese New Year Catering',
+  galleryH2: 'How a Lunar New Year table looks in Dubai',
   galleryImages: [
     { src: '/service-events.webp', alt: 'Chinese New Year catering set-up in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Dumplings and starters for Lunar New Year catering' },
@@ -127,50 +123,50 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa Chinese New Year reunion dinner styling' },
     { src: '/menu-dessert.webp', alt: 'Lunar New Year dessert table and tea service' },
   ],
-  faqsH2: 'Chinese New Year Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What dishes are traditionally served for Chinese New Year?',
-      a: 'Common symbolic dishes include dumplings for wealth, long noodles for longevity, whole fish for abundance, spring rolls for gold bars, and sweet rice cakes for a prosperous year. We build menus around these traditions.',
+      a: 'Hosts often ask for dumplings, long noodles, whole fish, spring rolls and sweet rice cakes. We build from that list, then cut anything the kitchen or the guest list cannot support.',
     },
     {
       q: 'Can you cater a Chinese New Year reunion dinner at our villa?',
-      a: 'Yes. We provide fully-coordinated catering across Dubai, including table setup, service staff, live stations and cleanup, so your family can focus on the celebration.',
+      a: 'Yes. We cook at your villa or apartment, with setup, service and clear-down included on a staffed booking.',
     },
     {
       q: 'Do you offer halal Chinese New Year catering?',
-      a: 'Absolutely. All meats and ingredients can be sourced and prepared halal, and we can adjust menus for vegetarian, vegan, gluten-free and nut-free guests.',
+      a: 'Yes, when the brief says so. Halal proteins, vegetarian and other dietary notes belong in the first menu draft.',
     },
     {
       q: 'Can you include live cooking stations?',
-      a: 'Yes. Live wok, noodle and dumpling stations are popular for Chinese New Year events, adding theatre and ensuring food is served fresh and hot.',
+      a: 'Yes. Live wok, noodle and dumpling stations start from the published live-station floor of AED 150 per person before 5% VAT.',
     },
     {
       q: 'How many guests can you cater for?',
-      a: 'we coordinate catering intimate reunion dinners from 8 guests up to large corporate or community banquets of 100 or more.',
+      a: 'Drop-off starts from 10 guests. A standard buffet from 20. A chef cooking on site has no minimum headcount. Larger rooms are quoted on access and staffing, not a marketing maximum.',
     },
     {
       q: 'How far in advance should I book Chinese New Year catering?',
-      a: 'Two to three weeks ahead is ideal, especially for reunion weekends and corporate events. Last-minute bookings may be possible depending on availability.',
+      a: 'Two to three weeks is the usual window. Reunion weekends and company dinners book earlier.',
     },
   ],
   relatedServices: [
     {
       title: 'Festive Catering Dubai',
-      description: 'Seasonal menus and themed catering for celebrations throughout the year.',
+      description: 'The seasonal calendar: Christmas, Ramadan, Eid, Diwali and this date.',
       image: '/service-events.webp',
       link: '/festive-catering-dubai',
     },
     {
       title: 'Private Party Catering',
-      description: 'Intimate home and villa parties with personalised menus and full service.',
+      description: 'The unnamed house night, when the date is not Lunar New Year.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },
   ],
-  ctaH2: 'Celebrate the Year Ahead with myCHEF Dubai',
+  ctaH2: 'Send the date, guest count and who is at the table',
   ctaP:
-    'Tell us about your Lunar New Year plans, guest count, venue and menu style. We will create a Chinese New Year catering experience that honours tradition and impresses your guests.',
+    'Tell us the address, how many people and whether you want a banquet, dim sum or a live station. We send an itemised quote.',
   showTrustSignalStrip: true,
 }
 

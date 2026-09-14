@@ -28,7 +28,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import { CATERING_FORMAT_BY_ID } from '@/content/cateringPricing'
 
+const BBQ = CATERING_FORMAT_BY_ID.bbq
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan live cooking stations in Dubai (via mychef.ae/live-cooking-stations-dubai)')
@@ -39,87 +41,87 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const stationFormats = [
   {
     icon: Beef,
-    title: 'Carving Stations',
-    description: 'A chef carves roasts, prime cuts, and whole joints to order, plating each portion with sauces and garnishes in front of your guests.',
+    title: 'Carving',
+    description: 'A chef carves a joint or roast to order and plates it with sauce. One station, one protein, a queue that has to be planned.',
     link: '/bbq-catering-dubai',
   },
   {
     icon: Soup,
-    title: 'Pasta & Risotto',
-    description: 'Made-to-order pasta and risotto finished live in the pan, letting guests choose their sauce and watch each plate come together.',
+    title: 'Pasta and risotto',
+    description: 'Pans finished in front of guests. Sauce and garnish chosen at the counter, not sitting in a chafing dish.',
     link: '/catering-dubai',
   },
   {
     icon: Flame,
-    title: 'Grill & BBQ Stations',
-    description: 'Open-flame grilling of meats, seafood, and vegetables, with the aroma and theatre of live fire cooking at the heart of the room.',
+    title: 'Grill and BBQ',
+    description: 'Open flame where the venue allows it. Same floor as BBQ catering: from AED 150 per person, from 15 guests.',
     link: '/bbq-catering-dubai',
   },
   {
     icon: ChefHat,
-    title: 'Global Street Food',
-    description: 'Interactive stations serving Arabic, Asian, and Mediterranean street-food classics, freshly assembled and full of character.',
+    title: 'Street-food counters',
+    description: 'Arabic, Asian or Mediterranean dishes assembled at the station. Written for the brief, not a world tour for its own sake.',
     link: '/catering-dubai',
   },
   {
     icon: Heart,
-    title: 'Dessert & Sweet Stations',
-    description: 'Live crepes, flambé, ice cream, and plated desserts finished to order — a sweet finale that doubles as entertainment.',
+    title: 'Dessert finish',
+    description: 'Crepes, a small cart or plated sweets finished to order. A dessert table is a different page if you want a styled display.',
     link: '/wedding-catering-dubai',
   },
   {
     icon: Building,
-    title: 'Corporate Showpieces',
-    description: 'Branded, themed stations that become a talking point at launches, conferences, and client events — polished and memorable.',
+    title: 'Corporate stations',
+    description: 'Signage and a menu that match the launch. The cooking is still a station, not a stage set.',
     link: '/corporate',
   },
   {
     icon: Flame,
-    title: 'Shawarma Station',
-    description: 'A live shawarma cone, carved to order, with breads, pickles and sauces. Same kitchen as the other stations — not a separate product page.',
+    title: 'Shawarma station',
+    description: 'A live cone, carved to order, with breads, pickles and sauces. Same kitchen as the other stations. Not a separate product URL.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Soup,
-    title: 'Oyster Bar',
-    description: 'Iced oysters and seafood opened in front of guests. It is a live station with cold-chain and shucking, not a second catering company.',
+    title: 'Oyster bar',
+    description: 'Iced oysters opened in front of guests. Cold-chain and shucking, not a second catering company.',
     link: '/live-cooking-stations-dubai',
   },
   {
     icon: Heart,
-    title: 'Dessert Cart',
-    description: 'Gelato, crepes or a small sweet cart as a station, not a standalone URL. Pair it with the dessert counter when the room needs a finish.',
+    title: 'Dessert cart',
+    description: 'Gelato or crepes as a station, not a standalone URL. Pair it with a dessert table when the room needs a finish.',
     link: '/dessert-table-catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Partner Chef-Led Stations', description: 'Skilled chefs cooking and plating live throughout your event.' },
-  { title: 'Made-to-Order Dishes', description: 'Guests choose their components and watch each plate finished fresh.' },
-  { title: 'Curated Station Menus', description: 'Carving, pasta, grill, street food, and dessert stations, mixed to suit.' },
-  { title: 'Theatre & Interaction', description: 'The cooking becomes part of the entertainment and the conversation.' },
-  { title: 'Station Styling & Setup', description: 'Designed, branded counters with signage, lighting, and presentation.' },
-  { title: 'Professional Service Staff', description: 'Station chefs, runners, and hosts scaled to your guest count.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your space spotless.' },
-  { title: 'Dietary Flexibility', description: 'Halal, vegetarian, vegan, and allergy-aware options at every station.' },
+  { title: 'Chefs at the counter', description: 'Independent licensed partners cook at the station for the window in the quote.' },
+  { title: 'Finished to order', description: 'Guests choose components. The plate is cooked when they are in front of it.' },
+  { title: 'Station mix', description: 'Carving, pasta, grill, shawarma, oyster or dessert: named on the proposal, not guessed on the night.' },
+  { title: 'Power, fuel and ventilation', description: 'What the venue will allow is checked before we promise an open flame.' },
+  { title: 'Counters and kit', description: 'Stations, signage and holding equipment travel with the team.' },
+  { title: 'Runners as quoted', description: 'Station chefs plus extra staff if the queue needs them.' },
+  { title: 'Setup and clear-down', description: 'We build the line, run it and pack it out. You are not washing pans.' },
+  { title: 'Diets at the station', description: 'Halal by default. Vegetarian, vegan and named allergies labelled at the counter.' },
 ]
 
 const useCases = [
   {
-    title: 'Weddings & Receptions',
-    description: 'Live stations turn dining into a moment of theatre at weddings and receptions. Guests gather, watch, and interact, while carving, pasta, and dessert counters keep the celebration moving and memorable.',
+    title: 'Weddings and receptions',
+    description: 'Stations spread a large room so the queue is not one buffet. Carving, pasta or a dessert finish sit next to a seated meal if that is the running order.',
   },
   {
-    title: 'Corporate Events & Launches',
-    description: 'Branded, themed stations create a talking point at product launches, conferences, and client entertaining. The interaction breaks the ice and gives your event a polished, premium edge across DIFC and Business Bay.',
+    title: 'Corporate launches',
+    description: 'A counter people can stand at in DIFC or Business Bay. Branding is signage and a menu, not a performance.',
   },
   {
-    title: 'Villa & Garden Celebrations',
-    description: 'Bring the energy of a live kitchen to your villa terrace, garden, or rooftop. We set up self-contained stations and a chef team across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
+    title: 'Villa and garden',
+    description: 'Self-contained stations on a terrace in Palm Jumeirah, Emirates Hills or Dubai Hills. The house kitchen is not assumed.',
   },
   {
-    title: 'Galas & Large Functions',
-    description: 'For large functions, multiple stations spread guests across the room, shorten queues, and add variety, with each counter offering a different freshly cooked experience.',
+    title: 'Larger functions',
+    description: 'More than one station so the room moves. Headcount sets how many counters, not a wish for theatre.',
   },
 ]
 
@@ -167,7 +169,7 @@ const faqs = [
   },
   {
     q: 'How many guests do live stations work best for?',
-    a: 'Live stations suit gatherings from around 40 guests upward and scale beautifully to large weddings and corporate functions. Multiple stations spread guests across the room and shorten queues.',
+    a: `The published minimum is ${BBQ.minGuests} guests. Multiple stations spread a larger room. We add counters so the queue does not stall.`,
   },
   {
     q: 'Are live cooking stations suitable for weddings and corporate events?',
@@ -181,12 +183,12 @@ const faqs = [
     q: 'How far in advance should I book live cooking stations?',
     a: 'For larger events and weddings, we recommend two to four weeks so we can plan the stations and staffing carefully. During peak season (November to March), earlier booking is strongly advised.',
   },
-  { q: "How much do live cooking stations cost in Dubai?", a: "We price live cooking stations by custom quote, because the cost depends on which stations you choose, your guest count, the menu, and how many chefs and staff we bring. As a guide, live stations typically add a premium over a standard buffet since each counter needs its own chef, equipment, and fresh made-to-order ingredients. Tell us your event details and we'll send a clear, itemised proposal, usually within 15 minutes during business hours." },
+  { q: "How much do live cooking stations cost in Dubai?", a: `Live cooking stations Dubai sit on the BBQ and live-station floor: from AED ${BBQ.fromPerPerson} per person, from ${BBQ.minGuests} guests. Extra counters, waiters and open-flame kit move the total. 5% VAT is a separate line. The calculator uses the same start.` },
   { q: "What's included in the price of a live cooking station?", a: "Every quote includes the full service: menu design, ingredient sourcing and shopping, the styled station counters and equipment, our chefs cooking live on the day, plating and serving, and complete cleanup afterwards. In short, we handle everything end to end so you host without lifting a finger. Serving staff beyond the station chefs are optional and easy to add, and 5% VAT applies to the final quote." },
-  { q: "Is there a minimum spend or minimum guest count for live stations?", a: "Live cooking stations work best from around 40 guests upward, since one chef and counter needs enough demand to keep the theatre flowing. For smaller, more intimate gatherings we often suggest a single signature station paired with a plated or buffet menu, or a full [private chef](/private-chef-dubai) experience instead. Share your numbers and we'll recommend the format that gives the best value for your event." },
+  { q: "Is there a minimum spend or minimum guest count for live stations?", a: `The published floor is ${BBQ.minGuests} guests, the same as BBQ and live stations on the Catering hub. Below that we will say so and point you at plated dining or a package rather than stretching a counter.` },
   { q: "Are your chefs and stations licensed to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and our teams follow proper food-handling, hygiene, and open-flame safety practices on site. This matters especially for live stations, where cooking happens in front of your guests, so everything is prepared and served correctly. You can read more about our standards on our [about](/about) page." },
   { q: "Is the food at your live stations halal?", a: "Yes, we source halal by default across all our live cooking stations, from carving and grill counters to street food and dessert. If your event has specific religious or sourcing requirements, just let us know when you enquire and we'll confirm every detail in your menu. We also cater fully halal private dining if you'd prefer a seated format." },
-  { q: "How many live stations do I need for my guest count?", a: "As a rule of thumb, we plan one station for roughly every 40 to 60 guests so queues stay short and every counter feels lively. For a large wedding or gala we'll spread several stations around the room to move people through smoothly and offer variety. When you share your final numbers, we'll map out the exact station mix and chef count in your proposal." },
+  { q: "How many live stations do I need for my guest count?", a: "Headcount and which dishes you want cooked set the number of counters. We will not publish a rigid guests-per-station promise. The proposal names how many chefs and stations." },
   { q: "Do you provide serving staff and hosts as well as the station chefs?", a: "Yes. Each station comes with its own chef, and we can add runners, hosts, and serving staff scaled to your guest count and venue. Serving staff are optional, so you choose the level of service that fits your event and budget. Just tell us the style you're after and we'll build the right team into your quote." },
   { q: "Can you set up live cooking stations indoors, and do you handle smoke and ventilation?", a: "Yes, we set up live stations both indoors and outdoors, and we plan each format around your venue's ventilation, power, and space. For enclosed indoor spaces we favour stations that produce minimal smoke, or coordinate with your venue on extraction for open-flame grills. Share your venue details or arrange a walkthrough via our [contact](/contact) page and we'll confirm the safest, cleanest setup." },
   { q: "Do live cooking stations need a lot of space and power at the venue?", a: "Each station needs a modest footprint plus access to power, and open-flame or gas counters need proper clearance and ventilation. Our counters are self-contained and compact, so they fit villa terraces, ballrooms, rooftops, and marquees alike. We assess your venue's layout, power supply, and access in advance so setup is smooth on the day." },
@@ -202,25 +204,25 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'fully-coordinated catering for events of every size across Dubai.',
+    description: 'Drop-off, buffet, canapés and plated dining. Stations are one format inside that brief.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
-    title: 'BBQ Catering',
-    description: 'partner-chef-led grills, premium meats, and seafood for villa and yacht events.',
+    title: 'BBQ catering',
+    description: 'A live grill from AED 150 per person, from 15 guests. Same floor as these stations.',
     image: '/service-events.webp',
     link: '/bbq-catering-dubai',
   },
   {
-    title: 'Corporate Catering',
-    description: 'Professional dining for boardroom lunches, conferences, and functions.',
+    title: 'Corporate catering',
+    description: 'Boardrooms, launches and team nights. A station is optional, not assumed.',
     image: '/service-corporate.webp',
     link: '/corporate',
   },
   {
-    title: 'Live Shawarma & Kebab Station',
-    description: 'Arabic shawarma and kebab station with mezze, breads and sauces.',
+    title: 'Shawarma station',
+    description: 'A live cone on this page. Not a separate catering company.',
     image: '/images/arabic-catering-dubai-hero.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -322,8 +324,8 @@ export default function LiveCookingStations() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Live Cooking Stations Dubai | Interactive Food Stations | myCHEF"
-        description="Book interactive live cooking stations Dubai. Pasta, grill, sushi, carving & dessert counters for weddings & corporate events. Get a tail"
+        title="Live Cooking Stations Dubai | myCHEF"
+        description="Live cooking stations Dubai from AED 150 per person, from 15 guests: carving, pasta, grill, shawarma or dessert, cooked at the counter. Itemised quote."
         canonicalPath="/live-cooking-stations-dubai"
         ogImage="/process-2.webp"
         hideSiteName
@@ -348,10 +350,10 @@ export default function LiveCookingStations() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lcs-hero-h1">
-            Live Cooking Stations Dubai — Interactive Food Counters
+            Live Cooking Stations Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
-            Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
+            Live cooking stations Dubai are counters where a chef finishes the dish in front of guests: carving, pasta, grill, shawarma or dessert. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Build My Live Station Package</Link>
@@ -373,21 +375,18 @@ export default function LiveCookingStations() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">DUBAI LIVE STATION SPECIALISTS</SectionLabel>
+          <SectionLabel align="center">A COUNTER, NOT A TRAY LINE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The Theatre of Food, Brought to You
+            What live cooking stations Dubai actually are
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Some of the most memorable moments at an event happen around the food — guests gathering at a counter, watching a chef finish a dish, the aroma rising as it is plated to order. At myCHEF Dubai, live cooking stations turn dining into an experience, where the cooking itself becomes part of the entertainment and the conversation.
+            Live cooking stations Dubai are self-contained counters: a chef, the kit, and a dish finished when the guest is there. The published floor is the same as BBQ and live stations on the Catering hub: from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is not a second start.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            When planning interactive event dining, live station catering Dubai hosts book brings culinary action directly into the reception: from carving counters to sizzling grills where chefs plate fresh in front of your guests.
+            Shawarma, an oyster bar and a dessert cart are stations on this page, not separate products. A live pasta station is a pan and a chef, not a class. Private cooking classes live on their own URL if that is the brief.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            our chefs work at self-contained, beautifully styled counters — carving prime cuts, finishing pasta and risotto in the pan, grilling over open flame, assembling global street food, and flambéing desserts. Stations can be mixed and themed to match your event, spreading guests across the room and offering variety at every turn. Whether it is a wedding, a gala, or a corporate launch, we bring the stations, the chefs, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
+            Independent licensed partners cook. Power, fuel and ventilation are checked before we promise flame. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> when you want a buffet or plated service instead.
           </p>
         </div>
       </section>
@@ -398,7 +397,7 @@ export default function LiveCookingStations() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">STATION TYPES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Choose Your Stations
+              Which counters the room can hold
             </h2>
           </div>
 
@@ -432,7 +431,7 @@ export default function LiveCookingStations() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Stations for Every Occasion
+              When a station is the right format
             </h2>
           </div>
 
@@ -451,7 +450,7 @@ export default function LiveCookingStations() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Live Cooking Stations Include
+            What the station quote lists
           </h2>
 
           <div className="lcs-inc-grid grid md:grid-cols-2 gap-6">
@@ -472,7 +471,7 @@ export default function LiveCookingStations() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Live Stations
+            Counters in the room
           </h2>
 
           <div className="lcs-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -493,7 +492,7 @@ export default function LiveCookingStations() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Live Cooking Stations Dubai: Live Cooking Station Questions
+            Live cooking stations Dubai: questions before we book the kit
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -562,10 +561,10 @@ export default function LiveCookingStations() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center lcs-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Bring Your Event to Life
+            Tell us the headcount and which counters you want
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your event and we'll design a set of live stations and a service plan that fits it perfectly.
+            Date, guest count, venue and whether flame is allowed. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Build My Live Station Package</Link>

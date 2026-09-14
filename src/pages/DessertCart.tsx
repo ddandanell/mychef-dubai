@@ -5,47 +5,43 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'dessert-cart-dubai',
-  seoTitle: "Gelato & Dessert Cart Dubai | Events",
+  seoTitle: 'Gelato & Dessert Cart Dubai | myCHEF',
   metaDescription:
-    'Dessert cart and gelato cart hire in Dubai: ice cream, sorbet, crepes, waffles and sweet treats for weddings, parties, corporate events and kids birthdays.',
+    'A dessert cart in Dubai is a live station: gelato, crepes or mini sweets, staffed and packed down. Canonical: live cooking stations. Quoted with the catering.',
   canonicalPath: '/live-cooking-stations-dubai',
   ogImage: '/images/dessert-table-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Gelato & Dessert Cart Dubai',
   h1: 'Gelato & Dessert Cart in Dubai',
   heroSub:
-    'Bring the fun to your event with a gelato and dessert cart in Dubai — from Italian ice cream and sorbet to crepes, waffles and candy displays for weddings, parties and corporate celebrations.',
+    'A dessert cart is a live station: gelato, crepes or mini sweets, a person to serve, setup and collection. It is not a separate catering company. Live cooking stations own the format.',
   heroImage: '/images/dessert-table-catering-dubai-hero.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange a gelato or dessert cart in Dubai (via mychef.ae/dessert-cart-dubai)',
   eyebrow: 'GELATO & DESSERT CART IN DUBAI',
-  introH2: 'Sweet Moments, Served with Style',
+  introH2: 'A cart is a station, not a second URL',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A dessert cart is one of the simplest ways to make an event feel special. Guests love the theatre of choosing their favourite flavour, watching a crepe being folded or picking from a display of colourful macarons and candies. Our gelato and dessert cart service in Dubai brings that experience to weddings, birthdays, corporate events, school functions and private parties across the city.
+        A dessert cart in Dubai is gelato, sorbet, crepes or mini sweets served from a cart we bring, staff and collect. There is no published per-person floor for the cart alone. Live stations start from AED 150 per person, from 15 guests, on the Catering hub. This page canonicalises to live cooking stations.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We offer a range of cart options to suit your theme and guest list: Italian gelato and sorbet carts, crepe and waffle stations, candy and popcorn carts, mini dessert displays and fully staffed sweet tables. Everything is presented beautifully, portioned elegantly and served by friendly staff who keep the queue moving and the mood light.
+        Heat decides what can sit out. Dairy-free and nut-free pieces are named in the brief. The queue is staffed so you are not scooping.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        A dessert cart works perfectly as a finishing touch to our{' '}
+        A styled cake and patisserie display lives on{' '}
         <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          dessert table catering Dubai
-        </Link>{' '}
-        and as a highlight at{' '}
-        <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          kids birthday catering Dubai
-        </Link>{' '}
-        parties. It also pairs well with{' '}
+          dessert table catering
+        </Link>
+        . Birthdays and{' '}
         <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          wedding catering Dubai
+          wedding catering
         </Link>{' '}
-        for a memorable reception finale.
+        can add the cart as a station, not as a shop.
       </p>
     </>
   ),
-  formatsH2: 'Dessert Cart Formats',
+  formatsH2: 'What can sit on the cart',
   formats: [
     {
       Icon: IceCream2,
@@ -85,7 +81,7 @@ const config: ServicePageConfig = {
     },
   ],
   useCasesEyebrow: 'WHERE DESSERT CARTS WORK',
-  useCasesH2: 'A Crowd-Pleasing Finale for Any Event',
+  useCasesH2: 'A finish, not the whole meal',
   useCases: [
     {
       title: 'Wedding Receptions',
@@ -108,7 +104,7 @@ const config: ServicePageConfig = {
         'Add a playful, indulgent touch to anniversaries, baby showers and family gatherings at home or in a villa.',
     },
   ],
-  includedH2: "What's Included in Our Dessert Cart Service",
+  includedH2: 'What the cart quote lists',
   includedItems: [
     { title: 'Cart Selection & Styling', description: 'Choose from gelato, crepe, candy or mini dessert carts styled to suit your event.' },
     { title: 'Handcrafted Desserts', description: 'Fresh gelato, sorbet, crepes, waffles, macarons, cupcakes and more.' },
@@ -144,7 +140,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can a dessert cart serve?',
-      a: 'Our carts can serve intimate parties of 20 up to large events of several hundred guests, with portion quantities tailored to your numbers.',
+      a: 'We size portions and staff to the guest count. Live stations start from 15 guests on the hub. We will not invent a per-hour capacity.',
     },
     {
       q: 'Can I combine a dessert cart with a dessert table?',
@@ -175,9 +171,9 @@ const config: ServicePageConfig = {
       link: '/wedding-catering-dubai',
     },
   ],
-  ctaH2: 'Sweeten Your Next Event',
+  ctaH2: 'Send the guest count and what you want scooped',
   ctaP:
-    'Tell us about your event, guest count, theme and favourite desserts. We will design a gelato or dessert cart experience that leaves everyone smiling.',
+    'Date, headcount and whether this is gelato, crepes or mini sweets. We typically reply within 15 minutes during business hours.',
 }
 
 export default function DessertCart() {

@@ -5,113 +5,113 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'pool-party-catering-dubai',
-  seoTitle: "Pool Party Catering Dubai | Villa Food",
+  seoTitle: 'Pool Party Catering Dubai | myCHEF',
   metaDescription:
-    'Pool party catering in Dubai for villas and beach clubs. Fresh, light menus, hydration stations, BBQ and sweet treats — full setup and service.',
+    'Pool party catering Dubai at a villa pool you control. Light menus, grill, drinks. BBQ from AED 150. We cook at your venue. Itemised quote.',
   canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/pool-party-catering-dubai-hero.webp',
   breadcrumbLabel: 'Pool Party Catering Dubai',
-  h1: 'Pool Party Catering in Dubai',
+  h1: 'Pool Party Catering Dubai',
   heroSub:
-    'Fresh, light and splash-proof catering for villa pool parties and beach club celebrations across Dubai — from grills and salads to mocktails and ice-cream stations.',
+    'Pool party catering Dubai at a villa or club pool you have access to. Grills, salads, drinks and a team that can work wet feet. We do not own the pool.',
   heroImage: '/images/pool-party-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan pool party catering in Dubai (via mychef.ae/pool-party-catering-dubai)",
   eyebrow: 'POOLSIDE CATERING IN DUBAI',
-  introH2: 'Food That Works in Swimwear and Sunshine',
+  introH2: 'Pool party catering Dubai that survives heat and splash',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A great pool party in Dubai is about cool water, good music and food that survives the heat without weighing guests down. Our pool party catering is designed for exactly that — light, fresh menus that can be eaten casually in swimwear, with plenty of hydration and just enough indulgence to keep the celebration feeling special.
+        Pool party catering Dubai is food beside a pool you already have: a villa day in Palm Jumeirah, a teenagers’ afternoon, or an adults’ sitting. Food has to be eaten in swimwear, held in heat, and cleared without wet cables. We cook at your venue. We do not own the pool or the club.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Whether you are hosting a family villa day in Palm Jumeirah, a teenagers’ birthday by the pool, or an adults-only afternoon with lounge music, we bring live grills, salad bars, canapés and frozen treats to your venue. Explore our{' '}
+        BBQ catering starts from AED 150 per person. Canapés from AED 150. A staffed buffet from AED 120. All before 5% VAT. Live fire and children in the same garden needs a named adult on the grill, or no grill. See{' '}
         <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           BBQ catering Dubai
         </Link>{' '}
-        for live grilling, or see how this fits with our{' '}
+        and{' '}
         <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           villa catering Dubai
-        </Link>{' '}
-        service.
+        </Link>
+        .
       </p>
     </>
   ),
-  formatsH2: 'Pool Party Catering Formats',
+  formatsH2: 'How poolside food is served',
   formats: [
     {
       Icon: Utensils,
-      title: 'Poolside Canapés',
-      description: 'Bite-sized, easy-to-eat canapés passed around the pool — no cutlery, no mess, no one has to leave their lounger.',
+      title: 'Poolside canapés',
+      description: 'Bites that can be eaten from a lounger. No knife work.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Salad,
-      title: 'Fresh Salad & Grain Bars',
-      description: 'Cool, crunchy salads and grain bowls that hold up in the heat and keep guests feeling light.',
+      title: 'Salad and grain bars',
+      description: 'Cold dishes that hold, replenished rather than left to wilt.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Waves,
-      title: 'Live Grill & BBQ Stations',
-      description: 'Beach club-style grilling by the pool: marinated meats, seafood skewers and vegetable kebabs cooked to order.',
+      title: 'Live grill and BBQ stations',
+      description: 'Meats, seafood and vegetables cooked to order, sited away from splash and shade lines.',
       link: '/bbq-catering-dubai',
     },
     {
       Icon: IceCream,
-      title: 'Frozen Dessert Stations',
-      description: 'Ice-cream, sorbet and frozen fruit stations to keep everyone cool during the hottest part of the day.',
+      title: 'Frozen dessert stations',
+      description: 'Ice-cream, sorbet and fruit, quoted when you want a cold finish.',
       link: '/dessert-table-catering-dubai',
     },
     {
       Icon: Home,
-      title: 'Villa Pool Parties',
-      description: 'fully-coordinated catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
+      title: 'Villa pool parties',
+      description: 'Covered stations, outdoor power and pack-down written into the villa brief.',
       link: '/villas-private-residences',
     },
     {
       Icon: Sun,
-      title: 'Beach Club & Venue Parties',
-      description: 'Catering coordination for Dubai beach clubs, hotel pools and licensed venues with outdoor service.',
+      title: 'Beach club and venue parties',
+      description: 'Cooking at a club or hotel pool you have booked. Their rules, our kitchen team.',
       link: '/events',
     },
   ],
   useCasesEyebrow: 'WHERE POOL PARTY CATERING SHINES',
-  useCasesH2: 'Built for Dubai’s Outdoor Lifestyle',
+  useCasesH2: 'Family days, teens, heat',
   useCases: [
     {
-      title: 'Family Villa Days',
+      title: 'Family villa days',
       description:
-        'Villa pools are the heart of Dubai family entertaining. We set up shaded grazing tables, grills and hydration stations so parents and children can graze all afternoon.',
+        'Shaded grazing, a grill if the brief allows it, and drinks that can be carried to the water.',
     },
     {
-      title: 'Teen & Young Adult Parties',
+      title: 'Teen and young adult parties',
       description:
-        'Teenagers want food that feels casual and Instagram-worthy. Think loaded fries, sliders, mocktail bars and dessert stations by the pool.',
+        'Casual food, a mocktail station, and a running order parents can see in the quote.',
     },
     {
-      title: 'Adults-Only Pool Lounges',
+      title: 'Adults-only pool sittings',
       description:
-        'For sophisticated afternoon gatherings, we serve elegant canapés, seafood platters, crisp salads and premium non-alcoholic beverages poolside.',
+        'Canapés, seafood and cold plates. Alcohol at a private residence is sourced by the host.',
     },
     {
-      title: 'Heat-Proof Celebrations',
+      title: 'Heat-proof celebrations',
       description:
-        'Dubai summers demand menus designed for temperature. We use fresh ingredients, chilled service and timed preparation so food tastes great even at midday.',
+        'Chilled holding, covered stations and timed replenishment. Midday sun is a logistics problem, not a mood.',
     },
   ],
-  includedH2: "What's Included in Our Pool Party Catering",
+  includedH2: 'What a staffed pool sitting includes',
   includedItems: [
-    { title: 'Light, Heat-Friendly Menus', description: 'Fresh dishes that taste great in warm weather and do not sit heavily.' },
-    { title: 'Live Grill & BBQ Options', description: 'On-site grilling for that authentic poolside smell and flavour.' },
-    { title: 'Hydration Stations', description: 'Infused waters, mocktails and chilled juices to keep guests hydrated.' },
-    { title: 'Fresh Salads & Grains', description: 'Cool, colourful sides that balance the grilled proteins.' },
-    { title: 'Frozen Treats', description: 'Ice-cream, sorbet and fruit stations for a cooling sweet finish.' },
-    { title: 'Splash-Proof Setup', description: 'Sturdy, covered serving stations designed for wet feet and pool spray.' },
-    { title: 'Poolside Service Staff', description: 'Friendly team experienced in outdoor, casual service.' },
-    { title: 'Full Pack-Down', description: 'We clear and clean the catering area so you can keep the party going.' },
+    { title: 'A menu written for heat', description: 'Dishes that hold outdoors and do not need a full place setting.' },
+    { title: 'Grill options', description: 'On-site BBQ when the brief and the garden can support it.' },
+    { title: 'Drinks', description: 'Infused water, mocktails and juice. Alcohol at a private residence is sourced by the host.' },
+    { title: 'Salads and grains', description: 'Cold sides, replenished.' },
+    { title: 'Frozen treats', description: 'Quoted when you want them, not assumed.' },
+    { title: 'Covered stations', description: 'Kit that can take splash and sun.' },
+    { title: 'Outdoor staff', description: 'A team used to wet feet and a moving guest list.' },
+    { title: 'Pack-down', description: 'The pool deck is left tidy. Pool chemicals and furniture stay yours.' },
   ],
-  galleryH2: 'A Taste of Our Pool Party Catering',
+  galleryH2: 'How pool party catering looks in Dubai',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Pool party appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Poolside canapé selection' },
@@ -120,56 +120,56 @@ const config: OccasionPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa pool party styling' },
     { src: '/service-events.webp', alt: 'Poolside catering in Dubai' },
   ],
-  faqsH2: 'Pool Party Catering Questions',
+  faqsH2: 'Questions before you book',
   faqs: [
     {
       q: 'What food works best for a pool party in Dubai?',
-      a: 'Light, fresh menus work best: grilled meats and seafood, colourful salads, canapés, fruit platters and frozen desserts. Heavy, hot dishes tend to feel out of place by the water.',
+      a: 'Grilled meats and seafood, salads, canapés, fruit and frozen desserts. Heavy hot dishes usually fight the weather.',
     },
     {
       q: 'Can you keep food cool and safe by the pool?',
-      a: 'Yes. We use chilled serving equipment, ice baths, covered stations and timed preparation to keep everything at a safe temperature, even on hot Dubai afternoons.',
+      a: 'Yes. Chilled kit, ice, covered stations and timed replenishment. Food safety sits with the licensed partners cooking, to Dubai Municipality standards.',
     },
     {
       q: 'Do you provide mocktail bars for pool parties?',
-      a: 'Yes. Our mocktail bars are a popular addition for pool parties, serving refreshing, alcohol-free drinks that suit all ages. See our mocktail bar catering page for more.',
+      a: 'Yes, quoted as a drinks line. See bar services for how a drinks station is staffed.',
     },
     {
       q: 'Can you cater at a villa I have rented?',
-      a: 'Absolutely. We coordinate catering at private villas across Palm Jumeirah, Emirates Hills, Dubai Hills and beyond. We work around your pool, garden and kitchen setup.',
+      a: 'Yes. We cook at Palm Jumeirah, Emirates Hills, Dubai Hills and other addresses you have access to. Community rules belong in the brief.',
     },
     {
       q: 'Do you handle setup and cleanup poolside?',
-      a: 'Yes. We bring all equipment, set up the food stations, serve during the party and clear everything away afterwards, leaving the area clean and tidy.',
+      a: 'Staffed bookings include setup, service and clear-down of our kit.',
     },
     {
       q: 'How far in advance should I book pool party catering?',
-      a: 'Two to four weeks is ideal for weekend pool parties, especially during the cooler season. Last-minute bookings are possible depending on availability.',
+      a: 'Two to four weeks is the usual window for weekend sittings in the cooler months.',
     },
   ],
   relatedServices: [
     {
       title: 'BBQ Catering',
-      description: 'Live grilling stations perfect for poolside and garden parties.',
+      description: 'Grill-led service for a garden or pool you control.',
       image: '/images/bbq-catering-dubai-hero.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Mocktail Bar Catering',
-      description: 'Refreshing alcohol-free bars ideal for family pool parties.',
+      description: 'Alcohol-free drinks service, quoted as its own line.',
       image: '/menu-canapes.webp',
       link: '/bar-services-dubai',
     },
     {
       title: 'Villa Catering',
-      description: 'Full-service dining at your Dubai villa, garden or terrace.',
+      description: 'Gates, kitchen access and outdoor power for a villa sitting.',
       image: '/service-villa.webp',
       link: '/villas-private-residences',
     },
   ],
-  ctaH2: 'Plan the Perfect Pool Party Menu',
+  ctaH2: 'Send the pool, guest count and whether you need a grill',
   ctaP:
-    'Tell us about your pool, guest list and timing. We will design a fresh, light menu that keeps everyone cool, fed and in the party mood.',
+    'Tell us the address, how many people and the time of day. We send an itemised pool party catering Dubai quote.',
   showTrustSignalStrip: true,
 }
 

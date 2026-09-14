@@ -35,62 +35,62 @@ const CANONICAL_PATH = '/kids-nutrition-chef-dubai'
 const inclusions = [
   {
     icon: Apple,
-    title: 'Child-Approved Menus',
-    description: 'Dishes that balance flavour and nutrition, designed around textures and tastes children actually enjoy while introducing variety.',
+    title: 'Food children will actually eat',
+    description: 'Textures and flavours this child already accepts, with new dishes added slowly. Meal prep for 5 year old households is written into the Food Profile, not guessed.',
   },
   {
     icon: ShieldCheck,
-    title: 'Allergy-Safe Preparation',
-    description: 'Strict allergen protocols in the kitchen, clear ingredient labelling, and separate prep workflows for gluten, dairy, nuts, and other sensitivities.',
+    title: 'Allergies labelled, not hoped',
+    description: 'Allergen notes in the profile, clear labels on every container, and separate boards when the brief requires it. We do not claim a reaction can never happen.',
   },
   {
     icon: HeartPulse,
-    title: 'Balanced Nutrition Plans',
-    description: 'Menus built with age-appropriate portions, vegetables, whole grains, and quality proteins to support growth, energy, and concentration.',
+    title: 'Portions for this age',
+    description: 'Vegetables, grains and protein in portions that match the child, not an adult plate halved. A kids meal plan Dubai week is this house’s version of healthy.',
   },
   {
     icon: CalendarDays,
-    title: 'Flexible Weekly Schedules',
-    description: 'Choose from school-lunch boxes, family dinners, or full weekly meal prep. Portions and delivery timing adapt to your household routine.',
+    title: 'School boxes or family pots',
+    description: 'How to meal prep for school sits in the same four-hour visit as family dinners. Practical meal prep Dubai for children is still Food Prep, AED 900.',
   },
 ]
 
 const packages = [
   {
-    name: 'School Lunch Plan',
-    price: 'From AED 1,200',
-    description: 'Fresh, balanced lunch boxes delivered weekly for school-age children.',
+    name: 'Once a week',
+    price: 'AED 900 a visit',
+    description: 'One Food Prep session. School boxes, family pots, or both, inside four hours.',
     features: [
-      '5 child-friendly lunches per week',
-      'Allergy-aware ingredient selection',
-      'Reusable or disposable packaging options',
-      'Weekly menu rotation',
-      'Nutrition summary for parents',
+      'Four hours in your kitchen',
+      'Menu from the Food Profile',
+      'Allergies and refusals labelled',
+      'Containers with reheating notes',
+      'Kitchen left as found',
     ],
   },
   {
-    name: 'Family Nutrition Plan',
-    price: 'From AED 2,400',
-    description: 'Shared family meals designed for children and adults, delivered or prepared in your home.',
+    name: 'Once a week, monthly',
+    price: 'AED 3,600 a month',
+    description: 'Four Food Prep visits. The usual standing plan for a kids meal plan Dubai household.',
     features: [
-      'Family-style dinners for 4–6 people',
-      'Balanced adult and child portions',
-      'Allergy and dietary preference support',
-      'Menu review with parents each week',
-      'Optional in-home chef service',
+      'Four visits in four weeks',
+      'Adult and child portions as briefed',
+      'Halal sourcing by default',
+      'Menu reviewed with parents',
+      'Same chef, backup from the profile',
     ],
     highlighted: true,
   },
   {
-    name: 'Full Weekly Meal Prep',
-    price: 'From AED 3,600',
-    description: 'Complete weekly nutrition support: lunches, dinners, and snacks prepared for the whole family.',
+    name: 'Twice a week',
+    price: 'AED 7,200 a month',
+    description: 'Eight Food Prep visits. When school boxes and family dinners both need covering.',
     features: [
-      'Up to 14 meals + healthy snacks',
-      'Custom nutrition goals and allergies',
-      'Halal and dietary-compliant options',
-      'Labelled containers with reheating notes',
-      'Dedicated kids nutrition chef',
+      'Two four-hour visits a week',
+      'Groceries at actual receipts',
+      'VAT at 5% on the service',
+      'Up to eight people in the chef price',
+      'No invented per-lunch tariff',
     ],
   },
 ]
@@ -98,44 +98,40 @@ const packages = [
 const faqs = [
   {
     q: 'Can menus accommodate allergies and intolerances?',
-    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs in our network follow strict cross-contamination protocols and label every container clearly.',
+    a: 'Yes. Allergies, intolerances and religious requirements sit in the Food Profile. Containers are labelled. We do not claim a reaction can never happen.',
   },
   {
     q: 'Do you handle picky eaters?',
-    a: 'Absolutely. We start with familiar flavours and gradually introduce new ingredients. Parents can share likes, dislikes, and textures to avoid, and we adjust each week.',
+    a: 'We start with what they already eat, then add new dishes slowly. Likes, refusals and textures go in the profile and are updated each week.',
   },
   {
-    q: 'What age groups do you cater for?',
-    a: 'We support toddlers through to teenagers, with portion sizes and nutrient balances tailored to each age group and activity level.',
+    q: 'What ages does this cover?',
+    a: 'Toddlers through teenagers. Portions follow the child, not an adult plate. Meal prep for 5 year old households is a common brief on this page.',
   },
   {
     q: 'Is the food halal?',
-    a: 'All meals can be prepared halal by arrangement. We also accommodate vegetarian, vegan, dairy-free, gluten-free, and other dietary frameworks.',
+    a: 'Halal sourcing is the default. Vegetarian, vegan, dairy-free and gluten-free are cooked when they are in the profile.',
   },
   {
     q: 'Can parents review menus weekly?',
-    a: 'Yes. Each weekly plan is shared in advance for feedback, and we welcome changes before the prep day.',
+    a: 'Yes. You see the week before the visit. Changes land before the chef shops.',
   },
   {
-    q: 'Do you also do coles meal prep Dubai?',
-    a: 'Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.',
-  },
-  {
-    q: 'Does meal prep for 5 year old mean this service?',
-    a: 'Send the date, guest count and area. We match a chef, send a menu draft, and quote food, staff and 5% VAT on separate lines.',
+    q: 'Is this meal prep Dubai delivery from a factory?',
+    a: 'No. Dubai food prep service on this page is a chef in your kitchen. People search coles meal prep Dubai and chef meal prep company for a tray. This is four hours, AED 900, groceries at receipts.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'Custom weekly meal plans prepared by vetted chefs for busy households.',
+    description: 'The same Food Prep job when the brief is the whole household, not school boxes.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
   {
     title: 'Allergy-Safe Catering Dubai',
-    description: 'Catering built around strict allergen protocols for every occasion.',
+    description: 'One-night catering with allergen notes. Not a standing children’s week.',
     image: '/images/gluten-free-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
@@ -145,15 +141,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     serviceSchema(
-      'Kids Nutrition Chef Dubai',
-      'Kids nutrition chef and healthy family meal prep in Dubai: child-approved menus, allergy-safe preparation, balanced nutrition plans, and flexible weekly schedules.',
+      'Kids Meal Prep Dubai',
+      'Kids meal prep Dubai: a private chef cooks a week of children’s food in your kitchen. Food Prep, four hours, AED 900. Groceries at receipts. VAT 5%.',
       'Catering Service',
       'Dubai',
     ),
     faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a }))),
     breadcrumbSchema([
       { name: 'Home', path: '/' },
-      { name: 'Kids Nutrition Chef Dubai', path: CANONICAL_PATH },
+      { name: 'Kids Meal Prep Dubai', path: CANONICAL_PATH },
     ]),
   ],
 }
@@ -226,15 +222,15 @@ export default function KidsNutritionChef() {
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Kids Nutrition Chef Dubai</span></li>
+              <li><span className="text-gold">Kids Meal Prep Dubai</span></li>
             </ol>
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 kn-hero-h1">
-            Kids Meal Prep Dubai: Healthy Meals Children Love
+            Kids Meal Prep Dubai: food children will actually eat
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 kn-hero-sub">
-            Healthy, delicious meals designed for children — and approved by parents. From school lunches to family dinners, we make nutrition easy.
+            Kids meal prep Dubai is four hours in your kitchen, AED 900 a visit. School boxes, family pots, allergies labelled. Groceries at receipts. VAT 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Kids' Nutrition Menu</Link>
@@ -256,22 +252,19 @@ export default function KidsNutritionChef() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">NUTRITIOUS MEALS FOR FAMILIES</SectionLabel>
+          <SectionLabel align="center">THE FOOD PREP JOB, FOR CHILDREN</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Meals Kids Love, Parents Trust
+            Kids meal prep Dubai, cooked in your kitchen
           </h2>
           <div className="kn-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Give your children balanced, home-style meals they actually want to eat — and get your evenings back. Tell us about your household, your children's preferences, and any allergies or dietary goals, and we will bring you a vetted kids nutrition chef within 24 hours to build a plan that fits your family.
+              Kids meal prep Dubai is not a factory tray and not an invented job title. It is the Food Prep visit: four hours, AED 900, in your kitchen. Healthy kids meals delivery Dubai, on this page, means packed here, labelled, and left in your fridge.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weekly figure moves with how many people eat at home, how many meals you want covered, and how often the chef comes. We start from a standing plan and shape it around the household. What to check: the named chef, an itemised figure, and who buys the ingredients. Dietary notes go into the first draft week.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.
+              Kids meal prep Dubai price is the visit, not a per-lunch card. An emirates kids meal menu is whatever this child will eat. Meal prep Dubai healthy, for us, is the Food Profile: refusals, allergies, school times. Meal prep Dubai delivery is not a van from a production kitchen.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore more family-friendly options: <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>, family feast packages, or <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>.
+              For the whole household without a children’s brief, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>. For a birthday, that is catering: <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>. Allergen-heavy nights: <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>.
             </p>
           </div>
         </div>
@@ -281,9 +274,9 @@ export default function KidsNutritionChef() {
       <section className="kn-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
+            <SectionLabel align="center">WHAT THE VISIT COVERS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Built Around Your Family
+              Written for this child, not a generic box
             </h2>
           </div>
 
@@ -306,9 +299,9 @@ export default function KidsNutritionChef() {
       <section className="kn-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">KIDS NUTRITION PACKAGES</SectionLabel>
+            <SectionLabel align="center" tone="dark">THE SAME FOUR HOURS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Choose Your Rhythm
+              Once a week, or twice
             </h2>
           </div>
 
@@ -355,7 +348,7 @@ export default function KidsNutritionChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Kids Meal Prep Dubai: the questions we get before a booking
+            Questions before a children’s Food Prep booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -366,7 +359,7 @@ export default function KidsNutritionChef() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="kn-rel-grid grid md:grid-cols-3 gap-6">
@@ -401,10 +394,10 @@ export default function KidsNutritionChef() {
         <div className="container-custom text-center kn-cta opacity-0 translate-y-8">
           <Sparkles size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Make Family Nutrition Effortless
+            Tell us what they will eat
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your children, their preferences, and your weekly routine. We will design a nutrition plan the whole family enjoys.
+            Ages, allergies, refusals, and school times. Kids meal prep Dubai is AED 900 a visit. Groceries at receipts. VAT at 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Kids' Nutrition Menu</Link>

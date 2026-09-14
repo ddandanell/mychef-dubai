@@ -41,74 +41,74 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const barFormats = [
   {
     icon: Wine,
-    title: 'Mobile Bar Hire',
-    description: 'A fully equipped pop-up bar delivered to your villa, yacht, or venue — styled, stocked, and ready to serve.',
+    title: 'Mobile bar',
+    description: 'A bar counter, glassware, ice and mixers delivered to a villa, yacht or venue. Alcohol is poured only where the licence or the quotation says so.',
     link: '/cocktail-party-catering-dubai',
   },
   {
     icon: Users,
-    title: 'Bartender Service',
-    description: 'Professional bartenders and bar backs scaled precisely to your guest count and event flow.',
+    title: 'Bartender hire',
+    description: 'Bartenders and bar backs sized to the guest count. The quote names how many people stand behind the bar.',
     link: '/bar-services-dubai',
   },
   {
     icon: GlassWater,
-    title: 'Mixology & Craft Cocktails',
-    description: 'Signature cocktails designed around your event theme, season, and personal taste by experienced mixologists.',
+    title: 'Cocktails, where permitted',
+    description: 'A drinks list written for the room. Spirits are supplied by us or BYO. The policy is on the proposal before setup.',
     link: '/cocktail-party-catering-dubai',
   },
   {
     icon: Leaf,
-    title: 'Mocktail & Non-Alcoholic Bar',
-    description: 'Elevated zero-proof options so every guest can enjoy beautifully crafted drinks.',
+    title: 'Mocktail bar',
+    description: 'Alcohol-free drinks with the same bar, glassware and staff. This is the mocktail station. It does not live on a second URL.',
     link: '/bar-services-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Menu Consultation & Drink Curation', description: 'A bespoke drinks list built around your theme, preferences, and guest profile.' },
-  { title: 'Bartenders & Bar Backs', description: 'Professional bar staff scaled to your guest count for smooth, attentive service.' },
-  { title: 'Mobile Bar Setup, Glassware & Garnishes', description: 'A styled bar counter, quality glassware, fresh garnishes, and complete presentation.' },
-  { title: 'Premium Spirits, Mixers & Fresh Ingredients', description: 'Quality spirits, hand-picked mixers, and fresh produce for every pour.' },
-  { title: 'Non-Alcoholic Menu Options', description: 'Creative mocktails and zero-proof drinks for inclusive events. Mocktail bars sit here, not on a second URL.' },
-  { title: 'Glassware, Ice & Mixers', description: 'The bar arrives with glassware, ice and mixers. You do not source them separately unless you want to.' },
-  { title: 'Alcohol and BYO', description: 'We can supply the spirits or run a BYO bar you have already bought. The policy is written into the quote so there is no surprise at setup.' },
-  { title: 'Setup, Service & Breakdown', description: 'We handle delivery, installation, service, and clear-down from start to finish.' },
+  { title: 'Drinks list', description: 'Cocktails, mocktails or both, written for the guest list and the licence on the night.' },
+  { title: 'Bartenders and bar backs', description: 'Staff scaled to headcount so the queue does not sit on the host.' },
+  { title: 'Bar, glassware and garnishes', description: 'Counter, glassware, ice, garnishes and tools. You do not hire them separately unless you want to.' },
+  { title: 'Spirits, mixers or BYO', description: 'We can supply the alcohol where the venue is licensed, or run a BYO bar you have already bought. The quote says which.' },
+  { title: 'Mocktails', description: 'Zero-proof drinks for mixed tables, family nights and rooms that do not serve alcohol. Mocktail bars sit here.' },
+  { title: 'Ice and mixers', description: 'Ice, soda, juice and syrups travel with the bar.' },
+  { title: 'Licence on the paper', description: 'Alcohol is only poured where the venue, the operator or the quotation allows it. We will not invent a workaround.' },
+  { title: 'Setup, service and pack-down', description: 'Delivery, build, service window and clear-down. You are not washing glasses at midnight.' },
 ]
 
 const useCases = [
   {
-    title: 'Yacht Parties',
-    description: 'A sleek mobile bar and steady-handed bartenders bring energy to Dubai marina cruises and yacht celebrations without missing a wave.',
+    title: 'Yacht parties',
+    description: 'A compact bar on a charter. The operator’s rules decide alcohol. We work to their loading window and leave the galley clear.',
     link: '/yachts',
   },
   {
-    title: 'Villa Dinners & Private Parties',
-    description: 'From intimate villa dinners to lively private parties, we set up an elegant bar that matches the mood of your home or rental.',
+    title: 'Villa dinners and house parties',
+    description: 'A bar in the home you are hosting in. Mocktails by default if the sitting is mixed. Alcohol only when the quotation says so.',
     link: '/villas-private-residences',
   },
   {
-    title: 'Weddings & Engagement Celebrations',
-    description: 'Toast the occasion with a curated cocktail or mocktail menu served by bartenders who understand the pace of wedding service.',
+    title: 'Weddings and engagements',
+    description: 'A drinks list timed to the ceremony and the meal. Toast service is planned with the wedding catering, not as a surprise add-on.',
     link: '/wedding-catering-dubai',
   },
   {
-    title: 'Corporate Launches & Gala Dinners',
-    description: 'Polished bar service for product launches, gala dinners, and brand activations where first impressions matter.',
+    title: 'Corporate launches and galas',
+    description: 'A bar that can run dry if the brief is dry, or pour where the venue is licensed. First impressions are the drinks arriving on time.',
     link: '/corporate-event-catering-dubai',
   },
   {
-    title: 'Birthdays & Anniversaries',
-    description: 'Celebrate another year with custom drinks, creative garnishes, and a bar team that keeps the party flowing.',
+    title: 'Birthdays',
+    description: 'A bartender for a birthday at home, with a mocktail list for younger guests and a licensed pour only when that is the brief.',
     link: '/birthday-catering-dubai',
   },
 ]
 
 const sampleMenu = [
-  { name: 'Date & Rose Spritz', description: 'A fragrant, lightly floral refresher inspired by local flavours.' },
-  { name: 'Yuzu Basil Smash', description: 'Citrus brightness balanced with fresh basil and a touch of sweetness.' },
-  { name: 'Smoked Old Fashioned', description: 'A classic cocktail finished with aromatic smoke for theatrical presentation.' },
-  { name: 'Passionfruit Nojito', description: 'A tropical zero-proof twist on the mojito, vibrant and alcohol-free.' },
+  { name: 'Date and rose spritz', description: 'A light, alcohol-free refresher. The same glass if the bar later adds a licensed pour.' },
+  { name: 'Yuzu basil smash', description: 'Citrus and basil. Built as a mocktail unless the quote includes spirits.' },
+  { name: 'Smoked old fashioned', description: 'A classic, only when the venue is licensed and the quotation includes spirits.' },
+  { name: 'Passionfruit nojito', description: 'Mint, lime and passionfruit. Alcohol-free.' },
 ]
 
 const galleryImages = [
@@ -147,42 +147,42 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you provide bartenders and a mobile bar for private events in Dubai?',
-    a: 'Yes. We supply trained bartenders, mobile bar counters, glassware, ingredients, and garnishes for villa, yacht, and venue events across Dubai.',
+    a: 'Yes. Bartenders, a bar counter, glassware, ice, mixers and garnishes for villas, yachts and venues. Alcohol is poured only where the licence or the quotation says so.',
   },
   {
     q: 'Can you create a custom cocktail menu for our event?',
-    a: 'Absolutely. Our bartenders design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
+    a: 'Yes. The drinks list is written for the guest list. Cocktails sit on the proposal only when the venue is licensed or you are running a lawful BYO bar.',
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',
-    a: 'Yes. We offer premium mocktail bars with creative, beautifully presented zero-proof drinks suitable for all guests and occasions.',
+    a: 'Yes. The mocktail bar is this page: alcohol-free drinks, the same staff and glassware. There is no second URL for it.',
   },
   {
     q: 'What types of events do you provide bar services for?',
-    a: 'we coordinate catering for weddings, yacht parties, villa dinners, corporate events, gala dinners, birthdays, and brand activations.',
+    a: 'Weddings, yacht charters, villa dinners, corporate nights, galas, birthdays and brand events, when the drinks brief is part of the catering.',
   },
   {
     q: 'Is glassware and bar equipment included?',
-    a: 'Yes. Our bar packages include glassware, bar tools, ice, garnishes, and a styled mobile bar setup unless you prefer to use venue-supplied equipment.',
+    a: 'Yes, unless you ask to use the venue’s kit. Glassware, tools, ice, garnishes and the counter are listed on the quote.',
   },
 ]
 
 const relatedServices = [
   {
-    title: 'Cocktail Party Catering',
-    description: 'Mixologists, signature cocktails, and canapés for receptions across Dubai.',
+    title: 'Cocktail party catering',
+    description: 'Standing receptions: passed canapés from AED 150 per person, plus the bar when the room is licensed.',
     image: '/menu-cocktails.webp',
     link: '/cocktail-party-catering-dubai',
   },
   {
-    title: 'Mocktail Bar Catering',
-    description: 'Alcohol-free craft bars with fresh, theatre-led mocktails for every guest.',
+    title: 'Mocktail bar',
+    description: 'Alcohol-free drinks on this same bar service. Not a second product page.',
     image: '/service-events.webp',
     link: '/bar-services-dubai',
   },
   {
-    title: 'Wedding Catering',
-    description: 'Full wedding dining and bar service tailored to your celebration.',
+    title: 'Wedding catering',
+    description: 'The meal, the team and the clear-down. Drinks sit on the same proposal when you want them.',
     image: '/service-villa.webp',
     link: '/wedding-catering-dubai',
   },
@@ -289,8 +289,8 @@ export default function BarServices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bar Services Dubai | Bartender Hire & Mobile Bars | myCHEF"
-        description="Bar services Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus. Get a quote."
+        title="Bar Services Dubai | myCHEF"
+        description="Bar services Dubai: bartender hire, a mobile bar, mocktails, and cocktails only where the venue is licensed. Setup, service and clear-down on one quote."
         canonicalPath="/bar-services-dubai"
         ogImage="/images/bar-services-dubai-hero.webp"
         hideSiteName
@@ -315,10 +315,10 @@ export default function BarServices() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bar-hero-h1">
-            Bar Services Dubai — Bartender Hire, Mobile Bars & Cocktails
+            Bar Services Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bar-hero-sub">
-            Mobile bartenders, custom cocktails, and full bar setups for villas, yachts, weddings, and corporate events.
+            Bar services Dubai means a bartender, a bar we bring, glassware and a drinks list: mocktails as standard, cocktails only where the venue is licensed or the quotation says so.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bar-hero-cta">Get My Bar Services Quote</Link>
@@ -340,18 +340,18 @@ export default function BarServices() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">MOBILE BARS & BARTENDERS</SectionLabel>
+          <SectionLabel align="center">MOBILE BARS AND BARTENDERS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Bar Service That Sets the Mood
+            What bar services Dubai includes
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Premium bar service is about more than drinks — it shapes the atmosphere of your entire event. At myCHEF Dubai, we bring trained bartenders, curated menus, and elegant mobile bars to villas, yachts, venues, and private residences across the city. Whether your guests prefer classic cocktails, creative mocktails, or a fully alcohol-free bar, we design the experience around them.
+            Bar services Dubai is the drinks side of a catering night: bartenders, a mobile bar, glassware, ice and a written list. Mocktails run on this page. Cocktails run only where the villa, yacht operator or licensed venue allows it, and only when that is on the quotation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            There is no published per-person floor for the bar alone. Staffing can sit inside a catering quote (full service with bartender is a 1.3 multiplier on the food floor). Spirits, BYO and extra hours are named as lines. 5% VAT is shown separately.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From intimate villa dinners to large-scale corporate galas, our bar team delivers polished service, fresh ingredients, and a setup that looks as good as the drinks taste. Explore our formats below, browse our <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link>, or see our dedicated <Link to="/bar-services-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">non-alcoholic mocktail bar catering</Link> for an inclusive, zero-proof option.
+            Pair the bar with <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> when the food is passed canapés. A dry room still gets a mocktail bar on this URL, not a second page.
           </p>
         </div>
       </section>
@@ -362,7 +362,7 @@ export default function BarServices() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">BAR SERVICE FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              A Bar Setup for Every Event
+              Four ways the bar is staffed
             </h2>
           </div>
 
@@ -396,7 +396,7 @@ export default function BarServices() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">EVENTS WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Bar Service for Every Dubai Occasion
+              Rooms we actually pour in
             </h2>
           </div>
 
@@ -429,7 +429,7 @@ export default function BarServices() {
           <div className="text-center mb-12">
             <SectionLabel align="center">SIGNATURE SIPS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              A Taste of Our Drink Menu
+              Sample drinks, then the quote names them
             </h2>
           </div>
 
@@ -448,7 +448,7 @@ export default function BarServices() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What's Included
+            What the bar quote lists
           </h2>
 
           <div className="bar-inc-grid grid md:grid-cols-2 gap-6">
@@ -469,7 +469,7 @@ export default function BarServices() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Bar Service in Action
+            The bar in the room
           </h2>
 
           <div className="bar-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -557,10 +557,10 @@ export default function BarServices() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center bar-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Your Mobile Bar Team
+            Tell us the venue and whether alcohol is allowed
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Add a premium bar to your event. Tell us about your celebration and we'll design a custom bar setup and drinks menu that fits your guests and venue perfectly.
+            Date, guest count, area and drinks brief. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get My Bar Services Quote</Link>

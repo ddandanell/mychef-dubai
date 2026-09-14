@@ -25,7 +25,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
-import { CATERING_FORMATS, formatTypicalCell } from '@/content/cateringPricing'
+import { CATERING_FORMATS, CATERING_FORMAT_BY_ID, EVENT_PACKAGES, formatTypicalCell, formatAed } from '@/content/cateringPricing'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I read your Dubai event catering price guide and would like a custom quote for my event.")
@@ -42,59 +42,67 @@ const eventPriceTable = CATERING_FORMATS.map((format) => ({
   note: format.note,
 }))
 
+const wedding = CATERING_FORMAT_BY_ID.wedding
+const buffet = CATERING_FORMAT_BY_ID.buffet
+const canapes = CATERING_FORMAT_BY_ID.canapes
+const bbq = CATERING_FORMAT_BY_ID.bbq
+const plated = CATERING_FORMAT_BY_ID['plated-chef']
+const dropOff = CATERING_FORMAT_BY_ID['drop-off']
+const corporateDinner = EVENT_PACKAGES.find((p) => p.id === 'corporate-dinner')!
+
 const weddingBudgets = [
   {
-    label: 'Small Wedding',
-    guests: '20–50 guests',
-    budget: 'AED 10,000 – AED 25,000',
-    style: 'Family-style sharing, buffet, or plated three-course menu',
-    bestFor: 'Intimate garden weddings, villa receptions, restaurant buyouts',
+    label: 'Staffed wedding catering',
+    guests: `From ${wedding.minGuests} guests`,
+    budget: `From ${formatAed(wedding.fromPerPerson)} per person`,
+    style: 'Staffed wedding buffet or stations. Same floor as the Catering hub.',
+    bestFor: 'Villa receptions and seated weddings that need a team in the room',
   },
   {
-    label: 'Medium Wedding',
-    guests: '50–120 guests',
-    budget: 'AED 30,000 – AED 75,000',
-    style: 'Buffet with live stations or plated service',
-    bestFor: 'Ballroom venues, beach clubs, luxury tents',
+    label: 'Buffet or live stations',
+    guests: `Buffet from ${buffet.minGuests} guests · BBQ from ${bbq.minGuests}`,
+    budget: `Buffet from ${formatAed(buffet.fromPerPerson)} · live from ${formatAed(bbq.fromPerPerson)} per person`,
+    style: 'A maintained line, or cooking in front of guests.',
+    bestFor: 'Larger rooms that should move, not sit for courses',
   },
   {
-    label: 'Large Wedding',
-    guests: '120+ guests',
-    budget: 'AED 80,000+',
-    style: 'Full banquet catering with multiple stations, dessert tables, and full service team',
-    bestFor: 'Large hotel ballrooms, desert venues, multi-day celebrations',
+    label: 'Chef-led plated',
+    guests: `From ${plated.minGuests} guests`,
+    budget: `${formatAed(plated.typicalMin)}–${plated.typicalMax} per person`,
+    style: 'Courses cooked and served to the table. A different product from a wedding buffet.',
+    bestFor: 'Smaller weddings and dinners where every plate is served',
   },
 ]
 
 const weddingAddOns = [
-  { item: 'Wedding cake', cost: 'AED 1,500 – AED 6,000' },
-  { item: 'Dessert table / grazing station', cost: 'AED 3,000 – AED 10,000' },
-  { item: 'Live cooking station', cost: 'AED 4,000 – AED 12,000' },
-  { item: 'Premium bar service', cost: 'AED 80 – AED 200 per person' },
-  { item: 'Late-night snack station', cost: 'AED 2,000 – AED 6,000' },
+  { item: 'Wedding cake', cost: 'Quoted as a line. No published floor.' },
+  { item: 'Dessert table', cost: 'Quoted with the catering. No published per-person floor.' },
+  { item: 'Live cooking station', cost: `From ${formatAed(bbq.fromPerPerson)} per person, from ${bbq.minGuests} guests` },
+  { item: 'Bar service', cost: 'Staff and kit quoted. Alcohol only where licensed.' },
+  { item: 'Late-night station', cost: 'Quoted as extra service time and food. Not a published total.' },
 ]
 
 const corporatePackages = [
   {
-    label: 'Boardroom Lunch',
-    guests: '10–30 guests',
-    price: 'AED 150 – AED 300 per person',
-    includes: 'Individual boxed lunches or served platters, setup, and cleanup',
-    bestFor: 'Executive meetings, client pitches, working lunches',
+    label: 'Drop-off',
+    guests: `From ${dropOff.minGuests} guests · AED ${dropOff.minOrderAed} minimum order`,
+    price: `From ${formatAed(dropOff.fromPerPerson)} per person`,
+    includes: 'Food delivered ready to serve. No team on site.',
+    bestFor: 'Working lunches where the room serves itself',
   },
   {
-    label: 'Product Launch or Brand Activation',
-    guests: '50–200 guests',
-    price: 'AED 200 – AED 450 per person',
-    includes: 'Canapés, food stations, branded presentation, service staff',
-    bestFor: 'Media events, showroom openings, consumer activations',
+    label: 'Staffed buffet or canapés',
+    guests: `Buffet from ${buffet.minGuests} · canapés from ${canapes.minGuests}`,
+    price: `Buffet from ${formatAed(buffet.fromPerPerson)} · canapés from ${formatAed(canapes.fromPerPerson)} per person`,
+    includes: 'A maintained line, or passed bites. Staff sized to the room.',
+    bestFor: 'Launches and standing receptions',
   },
   {
-    label: 'Gala Dinner',
-    guests: '100–500+ guests',
-    price: 'AED 350 – AED 750+ per person',
-    includes: 'Multi-course plated menu or premium buffet, full front-of-house team, bar service',
-    bestFor: 'Awards ceremonies, annual dinners, charity events',
+    label: 'Corporate dinner package',
+    guests: corporateDinner.guests,
+    price: `${formatAed(corporateDinner.priceAed)} total`,
+    includes: 'Menu, chef and service staff for 10–15 guests. VAT invoice. Not a dinner cruise.',
+    bestFor: 'Boardroom and client dinners in that guest band',
   },
 ]
 
@@ -107,7 +115,7 @@ const costFactors = [
   {
     icon: Utensils,
     title: 'Menu Complexity',
-    description: 'A simple Mediterranean buffet costs less than a Japanese omakase menu with imported fish. Premium proteins raise costs quickly.',
+    description: 'A standard buffet floor is not a plated tasting. Named proteins and extra courses move the written total.',
   },
   {
     icon: ChefHat,
@@ -127,7 +135,7 @@ const costFactors = [
   {
     icon: Calendar,
     title: 'Timing',
-    description: "Peak dates — New Year's Eve, Christmas, Eid, major public holidays, and wedding season weekends (November–March) — often command higher pricing.",
+    description: "Peak dates (New Year's Eve, Christmas, Eid, major public holidays, and wedding-season weekends from November to March) often command higher pricing.",
   },
 ]
 
@@ -174,7 +182,7 @@ const faqs = [
   },
   {
     q: 'How much does wedding catering cost in Dubai?',
-    a: 'Small weddings of 20–50 guests typically start around AED 10,000–25,000, medium weddings of 50–120 guests range from AED 30,000–75,000, and large celebrations of 120+ guests often begin at AED 80,000.',
+    a: 'Staffed wedding catering starts from AED 180 per person, from 20 guests, the same floor as the Catering hub. Multiply by headcount for a working total, then add staff, cake, stations and 5% VAT on the written quote. We do not publish a round lump sum for a “small wedding”.',
   },
   {
     q: 'What information do I need for an accurate quote?',
@@ -182,14 +190,14 @@ const faqs = [
   },
   {
     q: 'How much does catering cost in Dubai 2026?',
-    a: 'There is no single number for how much does catering cost in Dubai 2026: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 10,000. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number. Drop-off from AED 90, buffet from AED 120, canapés, BBQ and live stations from AED 150, wedding from AED 180, yacht from AED 280, plated AED 700–950 per person. Packages start at AED 1,200. Send date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
   },
 ]
 
 const articleSchema = {
   '@type': 'Article',
-  headline: 'Dubai Event Catering Price Guide 2026',
-  description: 'An honest, Dubai-specific overview of event catering prices for 2026. Learn per-person ranges for weddings, corporate events, yacht catering, and the factors that affect cost.',
+  headline: 'Event Catering Price Guide Dubai 2026',
+  description: 'Published myCHEF floors for 2026 event catering: drop-off, buffet, canapés, BBQ, wedding, yacht and plated dining, plus package totals.',
   author: { '@id': 'https://www.mychef.ae/#organization' },
   publisher: { '@id': 'https://www.mychef.ae/#organization' },
 }
@@ -301,7 +309,7 @@ export default function EventCateringPriceGuide2026() {
     <div ref={containerRef}>
       <SEO
         title="Event Catering Price Guide Dubai 2026 | myCHEF"
-        description="Event Catering Price Guide Dubai 2026 — Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ…"
+        description="Event catering price guide Dubai 2026: the same published floors as the Catering hub. Wedding from AED 180, buffet from AED 120, plated AED 700–950. 5% VAT extra."
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"
         schema={schema}
@@ -328,10 +336,10 @@ export default function EventCateringPriceGuide2026() {
             Event Catering Price Guide Dubai 2026
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 event-price-hero-sub">
-            An honest, Dubai-specific overview of event catering prices for 2026. Set a realistic budget, compare quotes fairly, and ask the right questions before booking.
+            Event catering price guide Dubai 2026 uses the same floors as the Catering hub, Menus and the calculator. From is the myCHEF start. Indicative market is a wider band, not a second floor.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 event-price-hero-cta">Get My Custom Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 event-price-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -352,16 +360,16 @@ export default function EventCateringPriceGuide2026() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">PLANNING & BUDGETING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Understand What Catering Really Costs in Dubai
+            What this event catering price guide Dubai 2026 will not do
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Catering is usually the largest line item after the venue when planning an event in Dubai. Yet pricing remains one of the least transparent parts of the process. Couples, corporate event managers, and private hosts often struggle to understand what a realistic budget looks like before requesting quotes.
+            It will not invent a single “average” for Dubai catering prices 2026. Format decides the floor: drop-off from AED 90, a standard event buffet from AED 120, canapés, BBQ and live stations from AED 150, wedding catering from AED 180, yacht from AED 280, chef-led plated at AED 700–950 per person.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Package totals are separate: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Household chef visit rates are not this page.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            This guide provides an honest, Dubai-specific overview of event catering prices for 2026. It is based on current market practices and the variables that genuinely affect cost. Use it to set a budget, compare quotes, and ask the right questions before booking.
+            The wider per-person list, including indicative market bands, lives on <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering prices</Link>. This guide is the 2026 event reading of the same floors.
           </p>
         </div>
       </section>
@@ -452,7 +460,7 @@ export default function EventCateringPriceGuide2026() {
             </table>
           </div>
           <p className="font-inter text-body-sm text-gray-500 text-center mt-6">
-            These ranges reflect mid-to-premium catering in Dubai. Ultra-luxury experiences with rare ingredients, extensive wine pairings, or celebrity chefs can exceed these figures.
+            From = myCHEF published floor. Indicative market is a wider Dubai band, not a myCHEF start. Named ingredients, extra staff and venue access move the written total.
           </p>
         </div>
       </section>
@@ -466,7 +474,7 @@ export default function EventCateringPriceGuide2026() {
               Wedding Catering Costs
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              Realistic budget starting points for Dubai weddings in 2026.
+              Wedding catering from AED {wedding.fromPerPerson} per person, from {wedding.minGuests} guests. Totals scale with headcount. We do not publish a round “small wedding” lump sum.
             </p>
           </div>
 
@@ -503,7 +511,7 @@ export default function EventCateringPriceGuide2026() {
               </table>
             </div>
             <p className="font-inter text-body-sm text-gray-500 text-center mt-6">
-              Alcohol licensing and service should be discussed with your venue and caterer early in the planning process.
+              Alcohol only where the venue is licensed or the quotation says so. Bar service is staff and kit, not a published per-person food floor.
             </p>
           </div>
         </div>
@@ -518,7 +526,7 @@ export default function EventCateringPriceGuide2026() {
               Corporate Catering Costs
             </h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto mt-4">
-              From everyday office lunches to high-end gala dinners — typical 2026 benchmarks.
+              Same floors as the hub. The Corporate Dinner package is AED 4,500 for 10–15 guests, not a cruise.
             </p>
           </div>
 
@@ -534,7 +542,7 @@ export default function EventCateringPriceGuide2026() {
             ))}
           </div>
           <p className="font-inter text-body text-gray-500 text-center mt-10 max-w-[640px] mx-auto">
-            Corporate clients often benefit from package pricing and ongoing partnerships for repeat events.
+            Repeat office catering is quoted as a programme. An LPO does not create credit terms by itself.
           </p>
         </div>
       </section>
@@ -671,13 +679,13 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center event-price-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Get a Transparent Catering Quote
+            Send the date, the headcount and the format
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            At myCHEF Dubai, we provide itemised, transparent quotes for weddings, corporate events, yacht charters, and private celebrations. No hidden fees, no inflated minimums — just a clear plan built around your guests.
+            We typically reply within 15 minutes during business hours with an itemised proposal: food, chefs, staff, hire and 5% VAT on separate lines.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Get My Custom Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

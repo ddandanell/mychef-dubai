@@ -33,74 +33,74 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const formats = [
   {
     icon: Sparkles,
-    title: 'Elegant Canape Receptions',
+    title: 'Canapé receptions',
     description:
-      'Beautifully composed passed canapes and bite-sized plates. Refined, photogenic, and perfectly suited to a stand-up celebration with cocktails in hand.',
+      'Passed bites for a standing sitting. People talk. The food has to eat with one hand.',
   },
   {
     icon: Grape,
-    title: 'Grazing & Charcuterie Tables',
+    title: 'Grazing tables',
     description:
-      'Lavish grazing tables layered with cheeses, fruits, dips, and artisan bites. A centerpiece spread that looks as good as it tastes.',
+      'Cheeses, fruit, dips and breads laid as a spread. Replenished, not left to sit.',
   },
   {
     icon: Martini,
-    title: 'Cocktails & Mocktails',
+    title: 'Cocktails and mocktails',
     description:
-      'Signature cocktails and elegant alcohol-free mocktails poured by professional bartenders, served to suit every guest in the group.',
+      'A drinks station. Alcohol at a private residence is sourced by the host. Mocktails can carry the bar.',
   },
   {
     icon: Cake,
-    title: 'Dessert Tables',
+    title: 'Dessert tables',
     description:
-      'Styled dessert spreads with pastries, petit fours, and a statement cake. The sweet finish that makes the celebration feel complete.',
+      'Pastries, petit fours and a cake moment, quoted when you want us to supply it.',
   },
   {
     icon: Home,
-    title: 'Villa Celebrations',
+    title: 'Villa celebrations',
     description:
-      'fully-coordinated catering for private villa parties across Dubai. We style, serve, and clear away so the group can simply enjoy the day.',
+      'Setup, service and clear-down at a villa you have booked. We do not own the house.',
   },
   {
     icon: Building,
-    title: 'Rooftop & Terrace Soirees',
+    title: 'Rooftop and terrace sittings',
     description:
-      'Catering tailored to rooftop and terrace settings, from sunset canapes to evening cocktails against the Dubai skyline.',
+      'Canapés and drinks at a terrace you control. Wind, access and pack-down belong in the brief.',
   },
 ]
 
 const useCases = [
   {
-    title: 'Villa Brunch Parties',
+    title: 'Villa brunch parties',
     description:
-      'A relaxed villa brunch with grazing tables, fresh canapes, and a free-flowing mocktail bar. We handle the styling and the service while the group celebrates.',
+      'Grazing, canapés and a mocktail station at a villa you have booked. You stay with the group.',
   },
   {
-    title: 'Rooftop Cocktail Evenings',
+    title: 'Rooftop cocktail evenings',
     description:
-      'Sunset on a rooftop terrace with passed canapes, signature cocktails, and a dessert table. Elegant, effortless, and made for photographs.',
+      'Passed food and a drinks line at a terrace you control. Photographs are a by-product, not the brief.',
   },
   {
-    title: 'Spa-Day Send-Offs',
+    title: 'Spa-day send-offs',
     description:
-      'Light, refined bites and refreshing mocktails to complement a pampered spa-day theme, served wherever the group is gathering.',
+      'Lighter bites and mocktails at the address the group is using. We cook there. We do not run the spa.',
   },
   {
-    title: 'Garden & Poolside Gatherings',
+    title: 'Garden and poolside gatherings',
     description:
-      'Daytime garden or poolside celebrations with grazing boards, chilled drinks, and a styled dessert spread, all set up and cleared by chefs in our network.',
+      'Daytime food that holds outside. Setup and clear-down by the team. Heat and splash belong in the brief.',
   },
 ]
 
 const includedItems = [
-  { title: 'Bespoke Menu Design', description: 'A menu styled around the theme, the venue, and the group, planned together in advance.' },
-  { title: 'Premium Ingredients', description: 'Fresh, high-quality produce and ingredients sourced from trusted Dubai suppliers.' },
-  { title: 'Styled Presentation', description: 'Grazing tables, dessert spreads, and canape displays arranged for an elegant, photogenic finish.' },
-  { title: 'Cocktail & Mocktail Bar', description: 'Professional bartenders serving signature cocktails and refined alcohol-free options.' },
-  { title: 'Service Staff', description: 'Hosts and servers to pass canapes, top up drinks, and keep the celebration flowing.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, style the space, serve through the event, and clear it all away.' },
-  { title: 'Flexible Venues', description: 'Villa, rooftop, garden, or terrace — We coordinate catering for wherever the celebration is happening.' },
-  { title: 'On-Site Coordination', description: 'A coordinator keeps the timing, service, and bar running seamlessly throughout.' },
+  { title: 'Menu written for the group', description: 'Theme, venue and dietary notes, approved before the date.' },
+  { title: 'Ingredients', description: 'Sourced for this sitting. Named in the quote.' },
+  { title: 'Grazing and canapés', description: 'Food that can be eaten standing, replenished.' },
+  { title: 'Drinks', description: 'A bar team when quoted. Alcohol at a private residence is sourced by the host.' },
+  { title: 'Service staff', description: 'Waiters to pass food and clear. Drop-off is food only.' },
+  { title: 'Setup and cleanup', description: 'We arrive, serve and leave the room as we found it.' },
+  { title: 'Venues you control', description: 'Villa, rooftop, garden or terrace you have booked. We do not own those sites.' },
+  { title: 'On-site coordination', description: 'Timing, service and the bar, written into the running order.' },
 ]
 
 const galleryImages = [
@@ -163,7 +163,7 @@ const faqs = [
   { q: "Can you serve cocktails, and do you handle the alcohol licensing?", a: "Our professional bartenders serve signature cocktails alongside elegant mocktails, and we discuss the drinks setup with you when planning so everything is arranged correctly for a private event in Dubai. Where you would like alcohol served, we will confirm the right approach for your venue during planning rather than leaving it to guesswork. For groups who prefer to stay dry, a full alcohol-free bar looks and feels just as celebratory." },
   { q: "Do you help with the theme, colours, and styling as well as the food?", a: "Yes, we style the grazing tables, dessert spreads, and canape displays around your bachelorette colour palette and theme so everything looks cohesive and photographs beautifully. Share your inspiration, hashtag colours, or a moodboard and our chefs build the presentation to match. The result is a spread that feels designed for the occasion, not generic platters." },
   { q: "Can you accommodate dietary needs like vegan, gluten-free, or nut allergies?", a: "Absolutely, we design menus around vegan, vegetarian, gluten-free, dairy-free, and allergy-aware needs so every friend in the group is properly catered for. Let us know the requirements when we plan the menu and we will label dishes clearly and keep sensitive ingredients separate. Explore our [vegan catering](/vegan-catering-dubai) options if plant-based is a priority for your celebration." },
-  { q: "Which venues do you cater — villas, rooftops, hotels, or short-term rentals?", a: "We cater bachelorette parties at private villas, rooftop terraces, gardens, poolside settings, and short-term holiday rentals right across Dubai, including Palm Jumeirah and the Marina. Our chefs bring the full setup and service to your chosen location and clear everything away afterwards. If you are hosting at a rented villa, see our [villas and private residences](/villas-private-residences) catering for how we work in those spaces." },
+  { q: "Which venues do you cater. villas, rooftops, hotels, or short-term rentals?", a: "We cater bachelorette parties at private villas, rooftop terraces, gardens, poolside settings, and short-term holiday rentals right across Dubai, including Palm Jumeirah and the Marina. Our chefs bring the full setup and service to your chosen location and clear everything away afterwards. If you are hosting at a rented villa, see our [villas and private residences](/villas-private-residences) catering for how we work in those spaces." },
   { q: "How far in advance do we need to book, and can you handle last-minute?", a: "We recommend booking one to two weeks ahead for most bachelorette parties, and earlier during peak season from November to March when villas and dates fill quickly. That said, we can often accommodate shorter notice, so message us even if your date is close and we will tell you honestly what is possible. Reaching out early simply secures your preferred styling, menu, and staffing." },
   { q: "Can you do a daytime villa brunch and an evening dinner on the same day?", a: "Yes, we can cater a relaxed daytime brunch with grazing tables and mocktails and then transition into an evening dinner or cocktail service for the same group. Many bachelorette celebrations run across a full day, so we plan the timeline and refresh the spread accordingly. If you want a seated dinner to close the night, a [private chef](/private-chef-dubai) can plate a refined multi-course menu at the villa." },
   { q: "Do you provide serving staff, and can they help run the party?", a: "Yes, serving staff are optional and can pass canapes, top up drinks, keep the grazing and dessert tables looking fresh, and clear as they go. For larger bachelorette parties this keeps the celebration flowing so the host is never stuck refilling platters. An on-site coordinator can also manage the timing and bar so the group simply enjoys the day." },
@@ -175,19 +175,19 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'fully-coordinated catering across Dubai for celebrations of every size and style.',
+    description: 'Format catalogue: drop-off through full service.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Private Chef',
-    description: 'A dedicated chef preparing a refined, intimate menu in your villa or home.',
+    description: 'A household chef visit when dinner is one table and a workable kitchen.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Luxury Dining',
-    description: 'Bespoke fine-dining experiences for a truly memorable celebration.',
+    description: 'A tasting menu sitting, if that is the product rather than a hen night.',
     image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
@@ -289,8 +289,8 @@ export default function BachelorettePartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelorette Party Catering Dubai | Canapés & Grazing | myCHEF"
-        description="Book bachelorette party catering in Dubai. Elegant canapés, grazing tables, cocktails and mocktails for villas and rooftops. Get a quote in 15 minutes."
+        title="Bachelorette Party Catering Dubai | myCHEF"
+        description="Bachelorette party catering Dubai at a villa or rooftop you have booked. Canapés, grazing, drinks. We cook at your venue. Itemised quote."
         canonicalPath="/private-party-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -315,10 +315,10 @@ export default function BachelorettePartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bt-hero-h1">
-            Bachelorette Party Catering Dubai: Canapés, Grazing & Cocktails
+            Bachelorette Party Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bt-hero-sub">
-            Elegant canapes, lavish grazing tables, signature cocktails and mocktails, and styled dessert spreads. Refined catering for villa and rooftop celebrations across Dubai.
+            Bachelorette party catering Dubai at a villa, rooftop or garden you have booked. Canapés, grazing, drinks. We cook there. We do not own the venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bt-hero-cta">Plan My Bachelorette Party</Link>
@@ -342,19 +342,20 @@ export default function BachelorettePartyCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CELEBRATE IN STYLE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Celebration Worth Styling
+            Bachelorette party catering Dubai at a venue you control
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A bachelorette party is a moment to gather the closest friends and celebrate properly. Whether the day unfolds across a private villa, a rooftop terrace, or a sunlit garden, the catering should feel as considered as the rest of the plan. Our bachelorette party catering brings styled grazing tables, refined canapes, a polished bar, and a statement dessert spread straight to your chosen venue.
+            Bachelorette party catering Dubai is a hen sitting at a villa, rooftop or garden you have booked. Canapés, a grazing table, drinks. We cook at that address. We do not own the house, the yacht or the club.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Every menu is designed around the theme, the colours, and the group, with elegant alcohol-free mocktails poured alongside signature cocktails so no guest is left out. Chefs in our network style the space, serve throughout, and clear it all away, available for Dubai events of every size. Explore our{' '}
-            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">cocktail party catering</Link>,{' '}
-            <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">yacht catering</Link>,{' '}
-            or full{' '}
-            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>{' '}
-            range, or request a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Bachelorette Party</Link>.
+            Canapés start from AED 150 per person. A staffed buffet from AED 120. Drop-off from AED 90. All before 5% VAT. Alcohol at a private residence is sourced by the host. A standing drinks brief sits on{' '}
+            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">cocktail party catering</Link>
+            . A boat you have chartered sits on{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">yacht catering</Link>
+            . This URL redirects into{' '}
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>
+            . Send the date through{' '}
+            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">inquiry</Link>.
           </p>
         </div>
       </section>
@@ -365,7 +366,7 @@ export default function BachelorettePartyCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHAT WE CREATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Catering Styled for the Occasion
+              How the sitting is served
             </h2>
           </div>
 
@@ -538,7 +539,7 @@ export default function BachelorettePartyCatering() {
             Plan the Celebration
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share the date, the venue, and the theme — we will style the grazing tables, the bar, and the dessert spread around it.
+            Share the date, the venue you have booked and the guest count. We send an itemised bachelorette party catering Dubai quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Plan My Bachelorette Party</Link>

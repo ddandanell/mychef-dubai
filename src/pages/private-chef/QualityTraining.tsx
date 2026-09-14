@@ -30,12 +30,12 @@ const seo = childSeo.quality
 const hero = clusterHeroes.quality
 
 const measure = [
-  'Cooking — flavour, timing, consistency, more than one dish at once',
-  'Organisation — the kitchen handed back in order',
-  'Food handling — temperature, allergens, hygiene',
-  'Communication — what was asked, what was cooked, what changed',
-  'Service — present or invisible, as you prefer',
-  'Household fit — children, staff, guests, the actual rhythm',
+  'Cooking: flavour, timing, consistency, more than one dish at once',
+  'Organisation: the kitchen handed back in order',
+  'Food handling: temperature, allergens, hygiene',
+  'Communication: what was asked, what was cooked, what changed',
+  'Service: present or invisible, as you prefer',
+  'Household fit: children, staff, guests, the actual rhythm',
 ]
 
 const afterRating = [
@@ -114,7 +114,7 @@ export default function PrivateChefQualityTraining() {
             A first dinner is easy to get right. Month four is the test. This page is about what happens once your chef has started: what we keep measuring, what we do with your feedback, and when the answer is not training but a different chef.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            One word matters more than most: “healthy”. It only means anything measured against your version of it — so what healthy means in your home goes into the Food Profile, and is checked like everything else.
+            One word matters more than most: “healthy”. It only means anything measured against your version of it, so what healthy means in your home goes into the Food Profile, and is checked like everything else.
           </BodyCopy>
           <BodyCopy className="mb-8 max-w-[760px]">
             How a chef is selected and levelled sits on{' '}
@@ -138,7 +138,7 @@ export default function PrivateChefQualityTraining() {
           <Eyebrow>Training</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Cooking in a home is a different job</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Cooking in a private home is a different job from a restaurant kitchen. Every chef does a practical assessment, then settles into each home separately — the kitchen, the children, the timing, the preferences, the other staff, the privacy.
+            Cooking in a private home is a different job from a restaurant kitchen. Every chef does a practical assessment, then settles into each home separately: the kitchen, the children, the timing, the preferences, the other staff, the privacy.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
             Structured modules also sit in our{' '}
@@ -154,7 +154,7 @@ export default function PrivateChefQualityTraining() {
       <Section tone="white">
         <Container>
           <Eyebrow>Client feedback</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">Food, service, team, communication — then what happens</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">Food, service, team, communication. Then what happens</DisplayHeading>
           <BodyCopy className="mb-8 max-w-[760px]">{scoreDemo.note}</BodyCopy>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10 max-w-[920px]">
             {scoreDemo.scores.map((s) => (
@@ -203,41 +203,21 @@ export default function PrivateChefQualityTraining() {
                 ))}
               </dl>
               <p className="mt-4 font-inter text-body-sm text-gray-600 leading-relaxed">
-                Four days a week on Kitchen on Autopilot is sixteen visits in four weeks. A chef who works to a consistently high standard is recognised for it, and that recognition comes from us — it is not added to your bill. Chefs who are looked after stay, and a chef who stays is the one who already knows your home.
+                Four days a week on Kitchen on Autopilot is sixteen visits in four weeks. A chef who works to a consistently high standard is recognised for it, and that recognition comes from us. It is not added to your bill. Chefs who are looked after stay, and a chef who stays is the one who already knows your home.
               </p>
             </div>
           </div>
           <div className="max-w-[760px] mb-10">
-            <DisplayHeading as="h3" size="h3" className="text-black mb-4">How We Maintain Service Quality</DisplayHeading>
+            <DisplayHeading as="h3" size="h3" className="text-black mb-4">What the score actually does</DisplayHeading>
             <BodyCopy className="mb-4">
-              Our quality process continues after a chef has been selected for an experience.
-            </BodyCopy>
-            <BodyCopy className="mb-4">
-              We use client feedback, service history and ongoing performance assessment to help us understand how each experience is being delivered.
-            </BodyCopy>
-            <BodyCopy className="mb-3">We look at areas such as:</BodyCopy>
-            <ul className="space-y-2 mb-4">
-              {[
-                'Food quality and presentation',
-                'Professionalism and punctuality',
-                'Cleanliness and kitchen care',
-                'Communication',
-                'Understanding of client preferences',
-                'Consistency across repeat bookings',
-                'Overall client satisfaction',
-              ].map((item) => (
-                <li key={item} className="font-inter text-body-sm text-gray-600 leading-relaxed">— {item}</li>
-              ))}
-            </ul>
-            <BodyCopy className="mb-4">
-              Strong performance is always recognised and incentivised throughout the myCHEF network.
+              We look at the food, the kitchen, the communication, and whether this house still wants this person next week. A consistently strong month moves a chef up a level. A slip moves them down. Two serious misses and we stop sending them to homes.
             </BodyCopy>
             <BodyCopy>
-              The objective is simple: every experience should help us make the next one even better.
+              The extra for a higher level is paid by us. Your visit rate does not move. That is why a chef who already knows your fridge has a reason to keep knowing it.
             </BodyCopy>
           </div>
           <p className="font-inter text-body-sm text-gray-500 mb-10 max-w-[760px]">
-            Anything you say about the food comes back to you as a change to the menu, not to the chef as a complaint. Anything about the person is raised with them in private, never in front of your household. Safety is never scored — it stops the work. Chefs can give feedback too. You are allowed to get it wrong as well. Both sides are expected to learn.
+            Anything you say about the food comes back to you as a change to the menu, not to the chef as a complaint. Anything about the person is raised with them in private, never in front of your household. Safety is never scored. It stops the work. Chefs can give feedback too. You are allowed to get it wrong as well. Both sides are expected to learn.
           </p>
           <h3 className="font-playfair text-h3 text-black mb-3">{feedbackOutputs.title}</h3>
           <BodyCopy className="mb-6">{feedbackOutputs.intro}</BodyCopy>
@@ -291,7 +271,7 @@ export default function PrivateChefQualityTraining() {
           <Eyebrow tone="dark">When training is not the solution</Eyebrow>
           <DisplayHeading size="h2" className="text-white mb-4">Sometimes the match is simply wrong</DisplayHeading>
           <BodyCopy tone="dark" className="mb-5 max-w-[760px]">
-            Then we change the match. Your Food Profile stays where it is — see{' '}
+            Then we change the match. Your Food Profile stays where it is. See{' '}
             <Link to={CLUSTER_PATHS.howItWorks} className="text-gold underline underline-offset-4">how backup uses that record</Link>
             . You are not expected to confront the chef at the stove, and you are not expected to start interviewing again.
           </BodyCopy>

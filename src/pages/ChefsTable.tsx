@@ -24,6 +24,9 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import { CATERING_FORMAT_BY_ID } from '@/content/cateringPricing'
+
+const PLATED = CATERING_FORMAT_BY_ID['plated-chef']
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a chef\'s table experience (via mychef.ae/chefs-table-dubai)')
@@ -36,77 +39,77 @@ const CANONICAL_PATH = '/chefs-table-dubai'
 const formats = [
   {
     icon: UtensilsCrossed,
-    title: 'Omakase at Home',
-    description: 'A multi-course Japanese-style tasting where the chef designs the menu based on the freshest available ingredients and your preferences.',
+    title: 'Omakase at home',
+    description: 'A multi-course Japanese-style tasting when we can match a sushi chef. The menu follows what we can source for that date, not a printed list.',
   },
   {
     icon: Eye,
-    title: 'Open-Kitchen Experience',
-    description: 'Guests watch the chef prepare each course while hearing the story behind the ingredients, techniques, and plating decisions.',
+    title: 'Cooked in sight of the table',
+    description: 'Guests watch courses being finished. The chef talks through the plate if you want that. It is still catering: setup, service and clear-down.',
   },
   {
     icon: Wine,
-    title: 'Wine or Mocktail Pairing',
-    description: 'Optional pairing coordination with sommelier-selected wines or craft mocktails matched to each course.',
+    title: 'Wine or mocktail pairing',
+    description: 'Mocktails as standard. Wine only where the venue is licensed or the quotation says so. We do not assume a cellar.',
   },
   {
     icon: Users,
-    title: '2–12 Guests',
-    description: 'Intimate enough for conversation, special enough for celebrations. The ideal format for food lovers who want more than a meal.',
+    title: '2–12 guests',
+    description: 'This format is a small table. Larger rooms belong on plated catering or a package, not a stretched chef’s table.',
   },
 ]
 
 const menus = [
   {
-    title: '5-Course Chef\'s Table',
-    price: 'From AED 500 per person',
-    description: 'Seasonal starter, seafood, main, cheese, and dessert with narration throughout.',
+    title: 'Five-course chef’s table',
+    price: `AED ${PLATED.typicalMin}–${PLATED.typicalMax} per person`,
+    description: 'Starter, seafood or vegetable course, main, cheese or palate course, dessert. Chef-led plated dining, cooked at the table.',
   },
   {
-    title: '7-Course Omakase',
-    price: 'From AED 700 per person',
-    description: 'Japanese-inspired progression including sashimi, nigiri, hot dishes, and dessert. Sushi-chef dependent.',
+    title: 'Seven-course omakase',
+    price: `AED ${PLATED.typicalMin}–${PLATED.typicalMax} per person`,
+    description: 'Japanese-style progression when a sushi chef is available for the date. Sourcing is confirmed in writing.',
   },
   {
-    title: '9-Course Tasting Journey',
-    price: 'From AED 900 per person',
-    description: 'Fine-dining pacing with premium ingredients, wine pairing-style service, and dedicated front-of-house staff.'
+    title: 'Nine-course tasting',
+    price: `AED ${PLATED.typicalMin}–${PLATED.typicalMax} per person`,
+    description: 'A longer sitting, more courses, more time. Staffing is sized to the table. Same plated floor as the Catering hub.',
   },
 ]
 
 const faqs = [
   {
     q: 'What is a chef\'s table at home?',
-    a: 'It is an intimate dining experience where the chef prepares a multi-course menu in front of or near the guests, explaining each course as it is served. It combines great food with theatre and storytelling.',
+    a: 'A small table, 2–12 guests, with the chef cooking courses in sight of you. Setup, service and clear-down are included. It is catering for one sitting, not a household chef plan.',
   },
   {
     q: 'How is this different from a standard private dinner?',
-    a: 'The focus shifts from pure dining to interaction. The chef is part of the experience, not just behind the scenes. Courses are paced as a tasting journey, and presentation is more elaborate.',
+    a: 'The chef is in the room, not only in the kitchen. Courses are paced as a tasting. If you want a quiet plated dinner without narration, say so: that is still chef-led plated dining.',
   },
   {
     q: 'Can you do sushi omakase at home?',
-    a: 'Yes, when matched with a chef who has specific sushi and sashimi experience. We will confirm availability and sourcing for the date you have in mind.',
+    a: 'When we can match a sushi chef for that date, and when sourcing holds. We confirm both in writing. We will not invent an omakase we cannot staff.',
   },
   {
     q: 'How many guests can attend?',
-    a: 'Chef\'s table experiences work best for 2–12 guests. Larger groups can be accommodated with adjusted formats, but intimacy is part of the appeal.',
+    a: '2–12. Above that we point you at plated catering or a package rather than stretching this format.',
   },
   {
     q: 'Do I need a special kitchen?',
-    a: 'No. The chef designs the menu around your kitchen layout. Some formats benefit from an open-plan kitchen where guests can watch, but it is not essential.',
+    a: 'No. The menu is written for the kitchen you have. An open plan helps guests see the work. It is not required.',
   },
 ]
 
 const relatedServices = [
   {
-    title: 'Sushi Catering Dubai',
-    description: 'Fresh sushi, sashimi, and Japanese-style platters for events and private dining.',
+    title: 'Sushi catering Dubai',
+    description: 'Sushi and sashimi as catering, including when omakase is not the brief.',
     image: '/service-private-chef.webp',
     link: '/sushi-catering-dubai',
   },
   {
-    title: 'Luxury Dining Experiences',
-    description: 'Premium tasting menus and refined private dining for special occasions.',
+    title: 'Luxury dining',
+    description: 'Tasting menus and celebration dinners. A chef’s table is one format inside that silo.',
     image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
@@ -175,8 +178,8 @@ export default function ChefsTable() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Chef's Table Dubai | Omakase at Home | myCHEF"
-        description="Chefs table Dubai at home: a chef cooks a multi-course tasting or omakase in front of 2–12 guests. From AED 500 per person, with setup, service and clear-down."
+        title="Chefs Table Dubai | myCHEF"
+        description="Chefs table Dubai at home: a chef cooks a multi-course tasting or omakase in front of 2–12 guests. Chef-led plated dining at AED 700–950 per person, with setup and clear-down."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-luxury-dining.webp"
         hideSiteName
@@ -200,10 +203,10 @@ export default function ChefsTable() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ct-hero-h1">
-            Chef's Table Dubai: Omakase & Tasting Menus at Home
+            Chefs Table Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
-            Interactive multi-course tasting experiences where the chef becomes part of the evening. For Dubai hosts who want dinner and entertainment in one.
+            Chefs table Dubai is a 2–12 guest sitting at home: the chef cooks a tasting or omakase in front of you. Chef-led plated dining at AED {PLATED.typicalMin}–{PLATED.typicalMax} per person, with setup, service and clear-down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Plan My Chef's Table</Link>
@@ -224,22 +227,19 @@ export default function ChefsTable() {
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">INTERACTIVE DINING</SectionLabel>
+          <SectionLabel align="center">A SMALL TABLE, THE CHEF IN SIGHT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Dinner as Performance
+            What chefs table Dubai is
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. Tell us about your evening and we will bring you a vetted chef within 24 hours.
+              Chefs table Dubai is one cook, close enough to talk to, cooking courses for 2–12 guests in your kitchen. It is chef-led plated dining at AED {PLATED.typicalMin}–{PLATED.typicalMax} per person, the same floor as the Catering hub. It is not a household chef plan, and it is not a claim about famous private chefs.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A chef table experience Dubai hosts remember is not about famous private chefs; it is about one cook, close enough to talk to, cooking the courses in front of you.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.
+              The named chef, the menu and who buys the ingredients sit on the quote. Dietary notes go into the first draft. Wine pairing only where licensed. Omakase only when we can match a sushi chef for that date.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>, tasting menus, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
+              A quieter tasting without narration lives on <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef tasting menu</Link>. Sushi platters without a chef’s table sit on <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>. A standing household chef is <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
             </p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function ChefsTable() {
           <div className="text-center mb-12">
             <SectionLabel align="center">FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Choose Your Experience
+              How the sitting is run
             </h2>
           </div>
 
@@ -274,7 +274,7 @@ export default function ChefsTable() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">TASTING MENU OPTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Sample Chef's Table Menus
+              Course counts, same plated floor
             </h2>
           </div>
 
@@ -294,7 +294,7 @@ export default function ChefsTable() {
             ))}
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-8">
-            Final quote tailored to your group size, menu preferences, and event date.
+            The written quote confirms the chef, the course count and 5% VAT. Date Night at AED 1,200 is a different package for two.
           </p>
         </div>
       </section>
@@ -346,10 +346,10 @@ export default function ChefsTable() {
         <div className="container-custom text-center ct-cta opacity-0 translate-y-8">
           <ChefHat size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Your Chef's Table Experience
+            Send the date, the guest count and the kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your group size, preferred cuisine, and any occasion. We will design a chef's table or omakase evening your guests will talk about for years.
+            Two to twelve guests, what you want cooked, and whether you want narration. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Chef's Table</Link>

@@ -34,99 +34,99 @@ const CANONICAL_PATH = '/mystery-dining-dubai'
 const inclusions = [
   {
     icon: ClipboardList,
-    title: 'Preference Questionnaire',
-    description: 'We capture your favourite cuisines, textures, spice tolerance, and any dislikes before the chef begins designing your surprise menu.',
+    title: 'The boundaries first',
+    description: 'Favourite cuisines, textures, spice, and what must stay off the plate. The chef writes the night inside those lines.',
   },
   {
     icon: Sparkles,
-    title: 'Surprise Menu Design',
-    description: 'Your chef crafts a multi-course menu around your preferences, keeping each course a secret until it is served at the table.',
+    title: 'Courses revealed at the table',
+    description: 'A surprise dinner for two Dubai, or a small table, still gets a menu. Guests see each course when it lands, not before.',
   },
   {
     icon: Leaf,
-    title: 'Dietary Accommodation',
-    description: 'Allergies, intolerances, halal, vegan, vegetarian, and religious requirements are built into the menu without spoiling the surprise.',
+    title: 'Dietary notes stay secret from the table, not from the chef',
+    description: 'Allergies, intolerances, halal, vegan, vegetarian and religious requirements are built in. The surprise is the dish, not the risk.',
   },
   {
     icon: ChefHat,
-    title: 'Full Service',
-    description: 'Chef, ingredients, cooking, plating, table service, and kitchen clean-up are all handled so you can simply enjoy the evening.',
+    title: 'One night, then clear-down',
+    description: 'Chef, ingredients, cooking, plating, service and the kitchen left as found. This is catering, not a standing household chef.',
   },
 ]
 
 const packages = [
   {
-    name: 'Mystery Night for Two',
-    price: 'From AED 2,200',
-    description: 'An intimate surprise dinner for two in your home, apartment, or villa.',
+    name: 'Surprise dinner for two',
+    price: 'From AED 1,200',
+    description: 'Date Night for two, with the courses held back until they are served. Home, apartment or villa.',
     features: [
-      'Private chef for 2 guests',
-      '4-course surprise menu',
-      'Preference questionnaire',
-      'Dietary requirement accommodation',
-      'Table service and clean-up',
+      'Chef for two guests',
+      'Three-course menu, revealed at the table',
+      'Boundaries collected first',
+      'Dietary notes built in',
+      'Table service and clear-down',
     ],
   },
   {
-    name: 'Mystery Dinner Party',
-    price: 'From AED 5,500',
-    description: 'A shared surprise menu for a small group who love trying something new together.',
+    name: 'Surprise dinner for a small table',
+    price: 'From AED 700 a person',
+    description: 'Chef-led plated dining, courses held back. Two guests minimum. The quote confirms the night.',
     features: [
-      'Private chef for up to 10 guests',
-      '5-course shared surprise menu',
-      'Menu reveal ceremony',
-      'Dietary accommodation for all guests',
-      'Server and kitchen clean-up',
+      'Plated service from AED 700 a person',
+      'Courses revealed as they land',
+      'Dietary notes for every guest',
+      'VAT at 5% on the service',
+      'Kitchen left as found',
     ],
     highlighted: true,
   },
   {
-    name: 'Mystery Tasting Menu',
-    price: 'On request',
-    description: 'A multi-course tasting journey with paired non-alcoholic beverages and narration.',
+    name: 'Longer tasting',
+    price: 'Quoted',
+    description: 'More courses, still chef-led plated. Pairing and pacing are in the written proposal.',
     features: [
-      '6–8 course surprise tasting menu',
-      'Chef narration per course',
-      'Mocktail or beverage pairing',
-      'Printed menu reveal at the end',
-      'Fully bespoke setting and pacing',
+      'Chef-led plated dining',
+      'Course notes if you want them',
+      'Mocktail or wine pairing quoted',
+      'Printed menu at the end, if you want it',
+      'One night. Not a standing chef.',
     ],
   },
 ]
 
 const faqs = [
   {
-    q: 'How does mystery dining work?',
-    a: 'You share your preferences and dietary requirements through a short questionnaire. Your chef then designs a surprise menu around those inputs. The courses are revealed only as they are served, creating a sense of discovery throughout the evening.',
+    q: 'How does a surprise dinner experience Dubai night run?',
+    a: 'You send likes, dislikes and dietary notes. The chef writes the menu inside those lines. Guests see each course when it is served. This is one-night catering, not a standing household chef.',
   },
   {
     q: 'Can I avoid certain ingredients?',
-    a: 'Yes. Dislikes, allergies, intolerances, and dietary restrictions are collected in advance and strictly avoided. The menu remains a surprise within the boundaries you set.',
+    a: 'Yes. Dislikes, allergies, intolerances and religious requirements are collected first and avoided. The surprise is the dish, not the risk.',
   },
   {
     q: 'How many courses are included?',
-    a: 'Our Mystery Night for Two includes four courses, the Mystery Dinner Party includes five courses, and the bespoke Mystery Tasting Menu can extend to six to eight courses with beverage pairing.',
+    a: 'Date Night for two is three courses, AED 1,200. A longer plated night is quoted from AED 700 a person. Course count is in the written proposal.',
   },
   {
-    q: 'Is it suitable for special occasions?',
-    a: 'Absolutely. Mystery dining is popular for date nights, birthdays, anniversaries, and small celebrations where hosts want a memorable, conversation-driven experience without choosing every dish themselves.',
+    q: 'Is this for a date, a birthday, or a small table?',
+    a: 'Yes. A dinner experience for couples Dubai, a birthday, or a small celebration all fit, as long as it is one night. A standing week belongs on the household pages.',
   },
   {
-    q: 'Can kids participate?',
-    a: 'Yes, with advance notice. We adapt portion sizes, spice levels, and ingredients for younger guests while keeping the experience playful and age-appropriate.',
+    q: 'Can children sit at the table?',
+    a: 'Yes, with notice. Portions, spice and ingredients are adapted. The boundaries still go in before the chef cooks.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Romantic Dinner Dubai',
-    description: 'Intimate private dining for two, perfect for date nights and anniversaries.',
+    description: 'Dinner for two when you want to choose the dishes, not hold them back.',
     image: '/images/romantic-dinner-dubai-hero.webp',
     link: '/romantic-dinner-dubai',
   },
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke private chef service for dinners, events, and weekly meal prep.',
+    description: 'A standing household chef. A surprise night is catering, and stays here.',
     image: '/images/private-chef-dubai-hero.webp',
     link: '/private-chef-dubai',
   },
@@ -136,15 +136,15 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     serviceSchema(
-      'Mystery Dining Dubai',
-      'Book a mystery dining experience in Dubai. A private chef creates a surprise multi-course menu tailored to your preferences and dietary needs.',
+      'Surprise Dinner Experience Dubai',
+      'Surprise dinner experience Dubai: a private chef writes a multi-course menu around your boundaries and reveals it at the table. One night catering.',
       'Catering Service',
       'Dubai',
     ),
     faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a }))),
     breadcrumbSchema([
       { name: 'Home', path: '/' },
-      { name: 'Mystery Dining Dubai', path: CANONICAL_PATH },
+      { name: 'Surprise Dinner Experience Dubai', path: CANONICAL_PATH },
     ]),
   ],
 }
@@ -194,8 +194,8 @@ export default function MysteryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Surprise Dinner Experience Dubai | Private Chef Menus | myCHEF"
-        description="Book a surprise dinner experience Dubai. A private chef designs a multi-course menu around your preferences and dietary needs, revealed on the night."
+        title="Surprise Dinner Experience Dubai | From AED 1,200 | myCHEF"
+        description="Surprise dinner experience Dubai: courses held back until they are served. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/tasting-menu-dubai-hero.webp"
         hideSiteName
@@ -215,15 +215,15 @@ export default function MysteryDining() {
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Mystery Dining Dubai</span></li>
+              <li><span className="text-gold">Surprise dinner</span></li>
             </ol>
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 md-hero-h1">
-            Surprise Dinner Experience Dubai: Menus Revealed on the Night
+            Surprise Dinner Experience Dubai: courses revealed at the table
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
-            Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
+            You send the boundaries. The chef writes the night. Guests see each course when it lands. Date Night AED 1,200 for two. One night, not a standing chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
@@ -245,22 +245,19 @@ export default function MysteryDining() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">SURPRISE, PERSONALISED DINING</SectionLabel>
+          <SectionLabel align="center">ONE NIGHT, COURSES HELD BACK</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Menu Designed to Surprise You
+            Surprise dinner experience Dubai is catering, with the menu in the chef’s pocket
           </h2>
           <div className="md-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your event and we will bring you a vetted private chef within 24 hours. You share what excites your palate and what must stay off the plate; the chef designs a surprise menu around those boundaries so every course lands as a discovery.
+              A surprise dinner package Dubai night is chef-led plated dining, with the dishes held until they are served. Best surprise dining experience Dubai, for us, means a named chef, an itemised quote, and boundaries collected first. Surprise dinner experience Dubai price starts at Date Night AED 1,200 for two, or AED 700 a person plated.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.
+              People search mystery dinner Dubai for this format. Fine dining experience Dubai and unique dining experience Dubai are not slogans here: it is a private dinner experience Dubai in your kitchen, then clear-down. A chef dining experience Dubai with a surprise cake delivery in Dubai is quoted if you asked for it. VAT at 5%.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, tasting menus, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for more bespoke dining options.
+              See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, or a standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">household chef</Link> if the cook should come back.
             </p>
           </div>
         </div>
@@ -270,9 +267,9 @@ export default function MysteryDining() {
       <section className="md-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
+            <SectionLabel align="center">WHAT THE NIGHT INCLUDES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              How We Build the Surprise
+              Boundaries first. Courses later.
             </h2>
           </div>
 
@@ -295,9 +292,9 @@ export default function MysteryDining() {
       <section className="md-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">MYSTERY DINING PACKAGES</SectionLabel>
+            <SectionLabel align="center" tone="dark">PUBLISHED STARTING POINTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Choose Your Level of Discovery
+              Two, a small table, or a longer tasting
             </h2>
           </div>
 
@@ -344,7 +341,7 @@ export default function MysteryDining() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Surprise Dinner Experience Dubai: the questions we get before a booking
+            Questions before a surprise night
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -355,7 +352,7 @@ export default function MysteryDining() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Related Services
+            Nearby pages
           </h3>
 
           <div className="md-rel-grid grid md:grid-cols-3 gap-6">
@@ -390,10 +387,10 @@ export default function MysteryDining() {
         <div className="container-custom text-center md-cta opacity-0 translate-y-8">
           <SparklesIcon size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let the Chef Surprise You
+            Send the boundaries. We will hold the menu.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away — we reply within 15 minutes during business hours.
+            Date, guest count, likes, dislikes and allergies. Date Night is AED 1,200 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Mystery Dinner</Link>

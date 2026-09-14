@@ -282,12 +282,10 @@ export default function Gallery() {
             INSPIRATION FOR EVERY OCCASION
           </span>
           <h2 className="reveal font-playfair text-h2 text-white mb-6">
-            Where Culinary Art Meets Distinguished Dubai Venues
+            Dinners and events we have cooked in Dubai
           </h2>
           <p className="reveal font-inter text-body text-gray-400">
-            Browse moments from real myCHEF events. Each image reflects our commitment to exquisite
-            presentation, bespoke menus, and flawless service — whether on a yacht, in a villa, or at a
-            corporate gathering.
+            Photos from villas, yachts and company rooms. Concept visuals are labelled. We cook at the address you already have; we do not own the venue.
           </p>
         </div>
       </section>
@@ -367,7 +365,7 @@ export default function Gallery() {
                 to="/inquiry"
                 className="btn-primary"
               >
-                Get a Tailored Quote
+                Request your quote
               </Link>
               <a
                 href={WHATSAPP_LINK}

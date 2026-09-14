@@ -60,8 +60,8 @@ export default function PrivateJetCatering() {
   return (
     <div>
       <SEO
-        title="Private Jet Catering Dubai | Coordinated to the Flight | myCHEF"
-        description="Private Jet Catering Dubai — Private jet catering from Dubai. Tell us the flight, passenger count, timing and dietary requirements. We prepare and…"
+        title="Private Jet Catering Dubai | myCHEF"
+        description="Private jet catering Dubai is food coordinated to the flight: menu, packing and delivery to the FBO. We are not an airline. No published per-person floor."
         canonicalPath={PATH}
         ogImage={HERO}
         hideSiteName
@@ -71,10 +71,10 @@ export default function PrivateJetCatering() {
       <PageHero
         variant="quiet"
         eyebrow="Private Jet Catering"
-        title="Private Jet Catering Dubai, coordinated around the flight."
-        subtitle="Private Jet Catering Dubai by myCHEF — A focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey."
+        title="Private Jet Catering Dubai"
+        subtitle="Private jet catering Dubai is food coordinated around the flight: passenger count, timing, diets, packing and delivery to the handler. We are not an airline kitchen. We do not replace Emirates catering."
         image={HERO}
-        imageAlt="Prepared jet catering packed for boarding in Dubai — labelled trays, quiet galley light, no cabin party. Experience concept shown."
+        imageAlt="Prepared jet catering packed for boarding in Dubai: labelled trays, quiet galley light, no cabin party. Experience concept shown."
         imageWidth={2560}
         imageHeight={1440}
         imagePosition="70% 50%"
@@ -99,7 +99,7 @@ export default function PrivateJetCatering() {
             Yacht and villa catering can scale into a party. Jet catering cannot. Timing is the brief. Storage is limited. There is no spare kitchen on board.
           </BodyCopy>
           <BodyCopy>
-            We treat it as food coordinated around a journey: what can be prepared on the ground, what travels well, what must be labelled, and what dietary requirements cannot be improvised at 35,000 feet.
+            We treat it as food coordinated around a journey: what can be prepared on the ground, what travels well, what must be labelled, and what dietary requirements cannot be improvised in the air. There is no published per-person floor for jet catering on this site. The written quote is the figure.
           </BodyCopy>
         </Container>
       </Section>
@@ -124,7 +124,7 @@ export default function PrivateJetCatering() {
           <SectionLabel>AROUND THE JOURNEY</SectionLabel>
           <DisplayHeading className="text-black mb-6">We coordinate our part. We do not replace your operator</DisplayHeading>
           <BodyCopy className="mb-5">
-            Hangar access, security and loading sit with the aircraft operator or handler. We work around their window. If they already have a preferred receiving point, we use it.
+            Hangar access, security and loading sit with the aircraft operator or handler. We work around their window. If they already have a preferred receiving point, we use it. Odyssey, Aspen, Austin or Farnborough menus you may have seen elsewhere are not our product. This page is Dubai departure food, coordinated to your operator.
           </BodyCopy>
           <BodyCopy className="mb-8">
             This sits inside catering, not household chef. If you need a chef in a villa the night before the flight, that is a separate{' '}

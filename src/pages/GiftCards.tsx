@@ -60,7 +60,7 @@ const nextSteps = [
   },
   {
     title: 'Dining experiences',
-    body: 'Tasting menus, cooking classes, desert tables — pick the night, then we book it in their name.',
+    body: 'Tasting menus, cooking classes, desert tables. Pick the night, then we book it in their name.',
     href: EXPERIENCES_PATHS.hub,
     linkLabel: 'Private dining experience in Dubai',
   },
@@ -109,7 +109,7 @@ export default function GiftCards() {
             A stored-value gift card would be a product we do not currently sell. Pages that pretend otherwise are a trust problem. This one does not.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            If you want to give someone an evening, tell us who it is for, a date range that works, and roughly what the night should be — two people at home, a small tasting, a cooking class. We confirm the booking in their name. They still choose the menu.
+            If you want to give someone an evening, tell us who it is for, a date range that works, and roughly what the night should be: two people at home, a small tasting, a cooking class. We confirm the booking in their name. They still choose the menu.
           </BodyCopy>
           <BodyCopy>
             That is the whole product. No digital voucher, no printed card, no 12-month balance, no corporate bulk SKU.

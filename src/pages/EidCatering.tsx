@@ -39,69 +39,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const eidFormats = [
   {
     icon: Sparkles,
-    title: 'Eid al-Fitr Feasts',
-    description: 'Celebratory spreads to mark the end of Ramadan — generous tables of mezze, grills, and sweets that bring family and friends together after the fast.',
+    title: 'Eid al-Fitr feasts',
+    description: 'Mezze, grills and sweets for the sitting after Ramadan, cooked at your address.',
     link: '/catering-dubai',
   },
   {
     icon: Drumstick,
-    title: 'Eid al-Adha Feasts',
-    description: 'Traditional Eid al-Adha menus built around roasted and slow-cooked lamb, ouzi, and rich mains — a fitting centrepiece for the occasion.',
+    title: 'Eid al-Adha feasts',
+    description: 'Lamb at the centre: ouzi, slow-cooked mains and rice, written for this table.',
     link: '/catering-dubai',
   },
   {
     icon: Home,
-    title: 'Ouzi & Whole-Lamb Roasts',
-    description: 'Showstopping ouzi and whole-lamb roasts on beds of fragrant rice, carved and served at the table for a true Eid celebration.',
+    title: 'Ouzi and whole-lamb roasts',
+    description: 'Ouzi and lamb on rice, carved at the table when the kitchen and guest count can support it.',
     link: '/arabic-catering-dubai',
   },
   {
     icon: Users,
-    title: 'Family Gatherings',
-    description: 'Warm, abundant catering for Eid family gatherings of every size, with on-site cooking and service so the hosts can enjoy the day too.',
+    title: 'Family gatherings',
+    description: 'On-site cooking and service so the hosts stay with the family.',
     link: '/catering-dubai',
   },
   {
     icon: Cake,
-    title: 'Eid Sweets & Dessert Tables',
-    description: 'Traditional Eid sweets, kunafa, baklava, and styled dessert tables to finish the feast on a generous, celebratory note.',
+    title: 'Eid sweets and dessert tables',
+    description: 'Kunafa, baklava and other sweets, or a wider dessert table when quoted.',
     link: '/dessert-table-catering-dubai',
   },
   {
     icon: Home,
-    title: 'Villa Eid Service',
-    description: 'fully-coordinated catering for villa celebrations across Dubai — setup, cooking, service, and pack-down handled so you can simply host.',
+    title: 'Villa Eid service',
+    description: 'Setup, cooking, service and pack-down at a villa you control.',
     link: '/catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Eid al-Fitr & al-Adha Menus', description: 'Celebratory menus tailored to either Eid, built around the spirit of the occasion.' },
-  { title: 'Ouzi & Whole-Lamb Roasts', description: 'Showstopping ouzi and slow-roasted lamb carved and served at the table.' },
-  { title: 'Halal Ingredients', description: 'Every dish is prepared with halal ingredients sourced from trusted suppliers.' },
-  { title: 'Traditional Grills & Mains', description: 'Mixed grills, kebabs, and slow-cooked mains rooted in regional tradition.' },
-  { title: 'Mezze & Salads', description: 'Generous spreads of hot and cold mezze, salads, and fresh accompaniments.' },
-  { title: 'Eid Sweets & Desserts', description: 'Kunafa, baklava, and traditional sweets, or a styled dessert table on request.' },
-  { title: 'Service Staff & Setup', description: 'Waiters, hosts, and styling arranged for your home, majlis, or venue.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so the celebration runs effortlessly.' },
+  { title: 'Eid al-Fitr and al-Adha menus', description: 'Two different sittings. The menu follows which Eid you are hosting.' },
+  { title: 'Ouzi and lamb roasts', description: 'Carved at the table when the kitchen and guest count can support it.' },
+  { title: 'Halal ingredients', description: 'Halal sourcing is the default.' },
+  { title: 'Grills and mains', description: 'Mixed grills, kebabs and slow-cooked dishes written for this table.' },
+  { title: 'Mezze and salads', description: 'Hot and cold mezze, replenished rather than left to sit.' },
+  { title: 'Eid sweets', description: 'Kunafa, baklava and other sweets, or a dessert table when quoted.' },
+  { title: 'Service staff', description: 'Waiters sized to the home, majlis or hall you have booked.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and leave the kitchen as we found it.' },
 ]
 
 const useCases = [
   {
-    title: 'Eid al-Fitr Celebrations',
-    description: 'After a month of fasting, Eid al-Fitr calls for abundance. We design celebratory spreads of mezze, grills, and sweets that bring family and friends together, cooking and serving on-site so the table feels generous from the first plate to the last.',
+    title: 'Eid al-Fitr celebrations',
+    description: 'The sitting after the fast: mezze, grills and sweets, cooked on site so the hosts stay at the table.',
   },
   {
-    title: 'Eid al-Adha Feasts',
-    description: 'For Eid al-Adha, the table centres on roasted and slow-cooked lamb. Our ouzi and whole-lamb roasts, drawn from our Arabic catering, make a fitting centrepiece, carved and served with rice, mezze, and rich traditional mains.',
+    title: 'Eid al-Adha feasts',
+    description: 'Lamb at the centre. Ouzi and slow-cooked mains with rice and mezze, drawn from Arabic catering when that kitchen is the right match.',
   },
   {
-    title: 'Family Gatherings at Home',
-    description: 'For Eid gatherings at home across Palm Jumeirah, Emirates Hills, and Dubai Hills, we bring warm, abundant catering to your villa or majlis, handling the cooking and service so the hosts can enjoy the day alongside their guests.',
+    title: 'Family gatherings at home',
+    description: 'Palm Jumeirah, Emirates Hills and Dubai Hills villas and majlis. You host. We cook and clear.',
   },
   {
-    title: 'Large Eid Celebrations',
-    description: 'For sizeable Eid celebrations and extended-family feasts, chefs in our network scale menus and service while keeping quality and presentation consistent, however many guests gather around the table.',
+    title: 'Large Eid celebrations',
+    description: 'Extended family. Guest count, access and how food is held decide the crew. No chef is guaranteed by name.',
   },
 ]
 
@@ -141,46 +141,46 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater for both Eid al-Fitr and Eid al-Adha?',
-    a: 'Yes. We design celebratory menus for both occasions — abundant mezze, grills, and sweets for Eid al-Fitr after the fast, and lamb-centred feasts with ouzi and slow-cooked mains for Eid al-Adha. We tailor the spread to the spirit of each Eid.',
+    a: 'Yes. Eid al-Fitr catering Dubai is mezze, grills and sweets after the fast. Eid al-Adha catering Dubai is lamb-centred: ouzi and slow-cooked mains. Tell us which Eid.',
   },
   {
     q: 'Can you prepare ouzi and whole-lamb roasts?',
-    a: 'We can. Ouzi and whole-lamb roasts on beds of fragrant rice are a signature of our Eid catering, carved and served at the table. They make a striking centrepiece, especially for Eid al-Adha and larger family gatherings.',
+    a: 'Yes, when the kitchen, timing and guest count can support it. Carved at the table on a staffed booking.',
   },
   {
     q: 'Is all your Eid catering halal?',
-    a: 'Always. Every dish across our Eid and seasonal menus is prepared with halal ingredients sourced from trusted suppliers. This is our standard for the occasion and throughout the year.',
+    a: 'Yes. Halal sourcing is the default on Eid menus.',
   },
   {
     q: 'Do you provide Eid sweets and dessert tables?',
-    a: 'Yes. We include traditional Eid sweets such as kunafa and baklava, and can style a full dessert table to your theme as a generous, celebratory finish to the feast.',
+    a: 'Yes. Kunafa, baklava and other sweets. A full dessert table is quoted when you want it.',
   },
   {
     q: 'Do you handle home and villa Eid gatherings?',
-    a: 'We do. We bring warm, abundant catering to your home, villa, or majlis across Dubai, cooking and serving on-site with our own staff. Setup, service, and pack-down are all handled so the hosts can enjoy the day.',
+    a: 'Yes. We cook at your home, villa or majlis. Staffed bookings include setup, service and pack-down.',
   },
   {
     q: 'How far in advance should I book Eid catering?',
-    a: 'Eid follows immediately after Ramadan and demand is high, so we recommend booking six to eight weeks ahead to secure your dates. Whole-lamb roasts and larger family feasts in particular benefit from earlier planning.',
+    a: 'Six to eight weeks is the usual window. Lamb roasts and larger family tables book earlier.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Ramadan Catering',
-    description: 'The full Ramadan hub — iftar, suhoor, corporate, and villa gatherings across Dubai.',
+    description: 'Iftar and suhoor during the month. Eid is the sitting after it.',
     image: '/service-events.webp',
     link: '/ramadan-catering-dubai',
   },
   {
     title: 'Arabic Catering',
-    description: 'Authentic Arabic menus — mezze, grills, ouzi, and slow-cooked classics for any feast.',
+    description: 'Year-round mezze, grills and ouzi, when the date is not Eid.',
     image: '/menu-meat.webp',
     link: '/arabic-catering-dubai',
   },
   {
     title: 'Dessert Tables',
-    description: 'Styled sweet tables, kunafa, baklava, and patisserie — the perfect finish to any celebration.',
+    description: 'A styled sweet display when cake and kunafa need their own table.',
     image: '/menu-dessert.webp',
     link: '/dessert-table-catering-dubai',
   },
@@ -291,8 +291,8 @@ export default function EidCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Eid Catering Dubai | al-Fitr & al-Adha Feasts | myCHEF"
-        description="Book Eid catering Dubai. Halal feasts for Eid al-Fitr and al-Adha, ouzi and whole-lamb roasts, family gatherings and Eid sweets. Get a tailored quote."
+        title="Eid Catering Dubai | myCHEF"
+        description="Eid catering Dubai for Eid al-Fitr and Eid al-Adha at your home or majlis. Halal menus, ouzi when needed. Buffet from AED 120. Itemised quote."
         canonicalPath="/eid-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -317,10 +317,10 @@ export default function EidCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 eid-hero-h1">
-            Eid Catering Dubai: al-Fitr & al-Adha Family Feasts
+            Eid Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 eid-hero-sub">
-            Halal Eid al-Fitr and Eid al-Adha feasts for family gatherings across Dubai — ouzi and whole-lamb roasts, generous mezze and grills, and traditional Eid sweets.
+            Eid catering Dubai for Eid al-Fitr and Eid al-Adha at your home or majlis. Halal menus, ouzi when the table needs it, then clear-down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Get an Eid Quote</Link>
@@ -344,16 +344,16 @@ export default function EidCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE CELEBRATION IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Feast to Mark the Occasion
+            Eid catering Dubai, cooked at your table
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Eid is a time of abundance, gratitude, and gathering — and the table sits at the heart of it. At myCHEF Dubai, we bring generous, halal feasts to homes, villas, and majlis across the city for both Eid al-Fitr and Eid al-Adha. From mezze and mixed grills to showstopping ouzi and whole-lamb roasts carved at the table, every menu is built to celebrate the occasion and welcome the people you love.
+            Eid catering Dubai is a family sitting at your home, villa or majlis for Eid al-Fitr or Eid al-Adha. Halal menus. Mezze, grills, ouzi when the table needs it, sweets. We cook there. You stay with your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. Dietary notes go into the first draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family gathering or a large extended-family feast, chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can enjoy the day too. Eid follows our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, draws on our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus, finishes with a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link> of traditional sweets, and fits within our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because demand around Eid is high, we recommend booking six to eight weeks ahead.
+            The month before sits on <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>. Year-round mezze and ouzi sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link>. Sweets as a display sit on a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link>. Format choice sits on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Book six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -398,7 +398,7 @@ export default function EidCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Occasion
+              Home, majlis, larger family tables
             </h2>
           </div>
 
@@ -417,7 +417,7 @@ export default function EidCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Eid Catering Includes
+            What a staffed Eid sitting includes
           </h2>
 
           <div className="eid-inc-grid grid md:grid-cols-2 gap-6">
@@ -438,7 +438,7 @@ export default function EidCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Eid Catering
+            How Eid catering looks in Dubai
           </h2>
 
           <div className="eid-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -459,7 +459,7 @@ export default function EidCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Eid Catering Dubai: the questions we get before a booking
+            Questions before you book
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -528,10 +528,10 @@ export default function EidCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center eid-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Eid Feast
+            Send which Eid, the guest count and the address
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your Eid gathering and we'll design a halal feast — ouzi, grills, and sweets — handle the cooking and service, and let you enjoy the day. Book six to eight weeks ahead to secure your dates.
+            Tell us Eid al-Fitr or Eid al-Adha, how many people and whether you want ouzi. We send an itemised Eid catering Dubai quote. Book six to eight weeks ahead.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get an Eid Quote</Link>

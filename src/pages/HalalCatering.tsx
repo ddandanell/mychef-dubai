@@ -40,7 +40,7 @@ const halalFormats = [
   {
     icon: Beef,
     title: 'Halal Grills & Mains',
-    description: 'Slow-cooked and grilled halal meats — lamb, beef, and chicken — prepared as plated mains, sharing platters, or live grill stations.',
+    description: 'Slow-cooked and grilled halal meats, lamb, beef, and chicken, prepared as plated mains, sharing platters, or live grill stations.',
     link: '/arabic-catering-dubai',
   },
   {
@@ -52,19 +52,19 @@ const halalFormats = [
   {
     icon: Heart,
     title: 'Halal Wedding Catering',
-    description: 'Elegant fully halal wedding menus, from canapés and plated dinners to grand buffets, served with the polish your celebration deserves.',
+    description: 'Wedding menus on the same halal baseline: canapés, plated courses or a buffet. The marriage itself sits on wedding catering.',
     link: '/wedding-catering-dubai',
   },
   {
     icon: ShieldCheck,
     title: 'Multi-Cuisine Halal',
-    description: 'Arabic, Indian, Asian, and Continental dishes — all prepared within a fully halal kitchen so every guest can eat with confidence.',
+    description: 'Arabic, Indian, Asian and mixed plates on one halal baseline. Pork off. Cooking alcohol off unless you ask in writing.',
     link: '/arabic-catering-dubai',
   },
   {
     icon: Home,
     title: 'Villa & Garden Halal Menus',
-    description: 'fully-coordinated catering for villa dinners and garden gatherings across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'Villa dinners and garden tables. Partner chefs cook on site, serve and pack down. We are not the venue.',
     link: '/catering-dubai',
   },
   {
@@ -76,9 +76,9 @@ const halalFormats = [
 ]
 
 const includedItems = [
-  { title: 'Fully Halal Sourcing', description: 'Halal meat and ingredients sourced from trusted halal suppliers.' },
-  { title: 'Halal Kitchen Standards', description: 'Menus prepared to halal standards throughout the kitchen and service.' },
-  { title: 'Multi-Cuisine Menus', description: 'Arabic, Indian, Asian, and Continental dishes, all fully halal.' },
+  { title: 'Halal sourcing as standard', description: 'Halal meat and poultry from trusted suppliers. Named certificates belong in the brief.' },
+  { title: 'Pork and cooking alcohol off', description: 'Unless you ask for alcohol in writing. We do not assume a wine pairing.' },
+  { title: 'Multi-cuisine on one baseline', description: 'Arabic, Indian, Asian and mixed plates. The sourcing rule does not change with the cuisine.' },
   { title: 'Live Grill Stations', description: 'Halal grills and live cooking stations on request for a sense of theatre.' },
   { title: 'Iftar & Suhoor Options', description: 'Traditional Ramadan menus designed for iftar and suhoor gatherings.' },
   { title: 'Vegetarian & Dietary', description: 'Vegetarian, vegan, and allergen-conscious elements arranged on request.' },
@@ -93,7 +93,7 @@ const useCases = [
   },
   {
     title: 'Ramadan Iftar & Suhoor',
-    description: 'During Ramadan, your chef prepares generous halal iftar and suhoor spreads — from dates, soups, and salads to mixed grills and traditional sweets — for homes, majlis gatherings, and corporate iftars across Dubai.',
+    description: 'During Ramadan, your chef prepares generous halal iftar and suhoor spreads, from dates, soups, and salads to mixed grills and traditional sweets, for homes, majlis gatherings, and corporate iftars across Dubai.',
   },
   {
     title: 'Villa & Garden Gatherings',
@@ -141,7 +141,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Is all of your catering halal?',
-    a: 'When you book halal catering, the full menu is prepared to halal standards, with halal meat and ingredients sourced from trusted suppliers. Every dish — from canapés to mains and desserts — is designed so all of your guests can eat with confidence.',
+    a: 'Meat and poultry are sourced as halal. Pork stays off. Cooking alcohol stays off unless you ask in writing. If you need a named certificate, put that in the brief before we shop.',
   },
   {
     q: 'Where do you source your halal meat?',
@@ -282,10 +282,11 @@ export default function HalalCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Halal Catering Dubai | Weddings, Events & Corporate"
-        description="Fully halal catering Dubai for weddings, iftar, villa dinners & corporate events. Multi-cuisine menus, certified sourcing, no pork/alcohol. Quote in ~15 mins."
+        title="Halal Catering Dubai | myCHEF"
+        description="Halal Catering Dubai with a vetted myCHEF team. Halal meat as standard. Menus, service and clear-down so you stay a guest at your own table."
         canonicalPath="/halal-catering-dubai"
         ogImage="/menu-meat.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -310,10 +311,10 @@ export default function HalalCatering() {
             Halal Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 hal-hero-sub">
-            Fully halal, multi-cuisine menus prepared with care — for weddings, iftar gatherings, villa dinners, and corporate events across Dubai.
+            Halal Catering Dubai is the default sourcing, not an add-on. Pork is not assumed. Cooking alcohol stays off unless you ask in writing. We cook at your address.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 hal-hero-cta">Get My Halal Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 hal-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -333,19 +334,19 @@ export default function HalalCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">HALAL DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering Every Guest Can Enjoy
+            Halal as the baseline, not a special tray
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            For many gatherings in Dubai, halal catering is not a special request — it is the natural starting point. When the full menu is prepared to halal standards, there are no questions and no exceptions to manage; every guest sits down to the same table and enjoys the same food. At myCHEF Dubai, halal sourcing and preparation run through everything we do, so hosts can plan with confidence and guests can eat with ease.
+            Halal Catering Dubai means meat and poultry sourced as halal, pork off the brief, and cooking alcohol off unless you ask in writing. Specific certificates belong in the enquiry. We do not invent a stamp we cannot show. Partner chefs cook at your villa, office or hired space. We are not the venue.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our halal menus are as varied as they are considered — spanning Arabic grills from our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link> menus, Indian classics, Asian favourites, and Continental plates, all from a fully halal kitchen. Whether you are hosting a wedding, a Ramadan iftar, a villa dinner, or a corporate function, our chefs design and serves a menu suited to your occasion. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Arabic grills sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link>. Indian, Asian and mixed menus use the same halal baseline. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            Hosting an intimate halal dinner? See what to ask when booking halal private dining in Dubai.
+            A small seated table belongs on <Link to="/halal-private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining</Link>. Read <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">what to ask a halal caterer</Link> before you book.
           </p>
         </div>
       </section>
@@ -356,7 +357,7 @@ export default function HalalCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">HALAL FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Halal for Every Occasion
+              Buffets, grills and iftar at your address
             </h2>
           </div>
 
@@ -390,7 +391,7 @@ export default function HalalCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE HALAL SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Moment
+              Weddings, Ramadan, villas and offices
             </h2>
           </div>
 
@@ -409,7 +410,7 @@ export default function HalalCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Halal Catering Includes
+            What a halal booking actually covers
           </h2>
 
           <div className="hal-inc-grid grid md:grid-cols-2 gap-6">
@@ -430,7 +431,7 @@ export default function HalalCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Halal Catering
+            What halal service looks like
           </h2>
 
           <div className="hal-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -520,13 +521,13 @@ export default function HalalCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center hal-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Halal Menu
+            Send the date, headcount and the certificate you need
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your celebration and we'll design a fully halal menu — single-cuisine or multi-cuisine — that brings every guest to the same table.
+            Name the cuisine lean and any extra dietary lines. We put that on the first menu draft and quote the night as an itemised figure.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Halal Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

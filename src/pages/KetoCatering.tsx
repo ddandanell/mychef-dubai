@@ -5,114 +5,114 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'keto-catering-dubai',
-  seoTitle: "Keto & Low-Carb Catering Dubai | High-Protein",
+  seoTitle: 'Keto Catering Dubai | myCHEF',
   metaDescription:
-    'Keto and low-carb catering in Dubai for events, villas, offices and wellness retreats. High-protein menus, healthy fats and zero compromise on flavour.',
+    'Keto Catering Dubai with a vetted myCHEF team. Low-carb menus written to your brief. Service and clear-down so you stay a guest at your table.',
   canonicalPath: '/cuisines-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/keto-catering-dubai-hero.webp',
   breadcrumbLabel: 'Keto & Low-Carb Catering Dubai',
-  h1: 'Keto & Low-Carb Catering in Dubai',
+  h1: 'Keto Catering Dubai',
   heroSub:
-    'High-protein, low-carb menus built around quality proteins, healthy fats and seasonal vegetables for events, villas and corporate wellness days across Dubai.',
+    'Keto Catering Dubai is a carbohydrate cap on a written menu. Proteins, fats and vegetables fill the plate. Bread, pasta and sugar sauces stay off unless you say otherwise.',
   heroImage: '/images/keto-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan keto/low-carb catering in Dubai (via mychef.ae/keto-catering-dubai)",
   eyebrow: 'LOW-CARB CATERING IN DUBAI',
-  introH2: 'Low-Carb Menus That Still Feel Luxurious',
+  introH2: 'A carb cap, written before shopping',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Keto and low-carb diets are no longer a fringe request — they show up on guest lists across Dubai, from fitness-focused corporates to health-conscious families. Our low-carb catering swaps refined carbohydrates for vibrant vegetables, quality proteins and healthy fats, creating plates that are satisfying, beautifully presented and completely on-plan.
+        Keto and low-carb are not the same brief. Keto is stricter. Low-carb may still allow some rice or fruit. Send the rule this table is following. We are not your clinician. We cook to the cap you name. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Whether you need a fully keto wedding menu, a low-carb corporate lunch, or a villa dinner where guests can stay on track without feeling deprived, we design every dish with macros in mind. Pair this with our{' '}
+        Partner chefs build plates from meat, poultry, fish, eggs, cheese where dairy is allowed, and non-starchy vegetables. Sauces are written without hidden sugar. Keto is not automatically gluten-free. Shared kitchens still carry cross-contact risk if coeliac is also on the brief. See{' '}
         <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
-        </Link>{' '}
-        range or explore{' '}
+        </Link>
+        {' '}for broader balance, or{' '}
         <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private chef Dubai
-        </Link>{' '}
-        options for fully personalised low-carb dining.
+        </Link>
+        {' '}when the same household wants this as a standing rhythm rather than one night.
       </p>
     </>
   ),
-  formatsH2: 'Keto & Low-Carb Formats',
+  formatsH2: 'How a keto night is served',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Keto Dinners',
-      description: 'Multi-course plated menus with protein-forward mains, vegetable sides and rich sauces — no bread, pasta or starchy fillers.',
+      description: 'Courses with protein-forward mains and vegetable sides. Bread, pasta and starchy fillers stay off the draft.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
       title: 'Low-Carb Buffets',
-      description: 'Buffet lines centred on grilled meats, seafood, salads, roasted vegetables and low-carb accompaniments.',
+      description: 'Grills, seafood, salads and roasted vegetables. Labels so guests are not hunting for the low-carb tray.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Beef,
       title: 'Protein-Forward BBQ',
-      description: 'Live grilling stations featuring premium cuts, seafood and vegetable skewers with sugar-free marinades.',
+      description: 'Live grilling with marinades written without sugar. Apartment balconies and yachts have fire limits. We check the space first.',
       link: '/bbq-catering-dubai',
     },
     {
       Icon: Flame,
       title: 'Keto Canapés',
-      description: 'Bite-sized low-carb options for receptions — cheese, charcuterie, seafood and vegetable-based bites without pastry or bread.',
+      description: 'Passed bites without pastry cases. Cheese, seafood and vegetable bases when they fit the cap.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa Wellness Dinners',
-      description: 'At-home low-carb dining for fitness retreats, birthday dinners and health-focused gatherings across Dubai.',
+      description: 'At-home dinners where the host wants the table on-plan. We cook, serve and pack down.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Wellness Lunches',
-      description: 'Low-carb office lunch programmes that keep teams energised without the afternoon carb crash.',
+      description: 'Office lunches that do not dump a bread basket on a working afternoon. Packed or buffet, labelled.',
       link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE KETO CATERING FITS',
-  useCasesH2: 'Built for Health-Conscious Hosts',
+  useCasesH2: 'Name the cap, then we write the plate',
   useCases: [
     {
-      title: 'Fitness & Wellness Retreats',
+      title: 'Fitness and retreat days',
       description:
-        'Dubai’s wellness scene expects food that supports the programme. Low-carb catering fits naturally into villa retreats, spa days and fitness-focused events.',
+        'If the programme already limits carbohydrates, the catering should match it. Put the cap on the enquiry.',
     },
     {
-      title: 'Corporate Wellness Days',
+      title: 'Office wellness days',
       description:
-        'Teams increasingly request balanced, low-carb lunch options. Our corporate low-carb menus keep energy steady and sugar crashes at bay.',
+        'A low-carb lunch is useful when the afternoon still has work in it. The sandwich platter is not the default.',
     },
     {
-      title: 'Private Celebrations',
+      title: 'Private celebrations',
       description:
-        'Birthdays, anniversaries and family dinners can stay low-carb without losing the celebratory feel — think premium proteins, abundant sides and elegant desserts.',
+        'Birthdays and family dinners can stay low-carb without looking like a clinic tray. Premium proteins and a designed dessert, or no dessert.',
     },
     {
-      title: 'Weight-Management Guests',
+      title: 'Guests already on a plan',
       description:
-        'Guests following keto, paleo or other low-carb approaches can enjoy a full menu rather than picking around bread baskets and dessert tables.',
+        'One guest on keto should not be left picking around a pasta buffet. Either convert the table or run a labelled line.',
     },
   ],
-  includedH2: "What's Included in Our Keto & Low-Carb Catering",
+  includedH2: 'What a keto booking actually covers',
   includedItems: [
-    { title: 'Low-Carb Menu Design', description: 'Menus built around proteins, healthy fats and non-starchy vegetables.' },
-    { title: 'No Added Sugar Sauces', description: 'Sauces, dressings and marinades made without hidden sugars or starchy thickeners.' },
-    { title: 'Premium Proteins', description: 'Quality meats, poultry, seafood and plant-based proteins as the centrepiece of every plate.' },
-    { title: 'Vegetable-Forward Sides', description: 'Roasted, grilled and raw vegetable dishes that add colour, fibre and flavour.' },
-    { title: 'Low-Carb Desserts', description: 'Sugar-free or naturally low-sugar desserts using alternative sweeteners where appropriate.' },
-    { title: 'Macro Awareness', description: 'Dishes designed with carbohydrate content in mind, with guidance available on request.' },
-    { title: 'On-Site Cooking & Service', description: 'Prepared and finished at your venue by our chefs and service team.' },
-    { title: 'Customisable for Other Diets', description: 'Combine keto, gluten-free, dairy-free or halal requirements in one menu.' },
+    { title: 'Low-carb menu design', description: 'Proteins, fats and non-starchy vegetables. Bread, pasta, rice and potatoes stay off unless you loosen the cap.' },
+    { title: 'Sauces without added sugar', description: 'Marinades and dressings are rewritten. We do not hide syrup in a glaze.' },
+    { title: 'Proteins as the centre', description: 'Meat, poultry, seafood and eggs as the plate, not a garnish on starch.' },
+    { title: 'Vegetable sides', description: 'Roasted, grilled and raw vegetables that fill the table without filling the carb budget.' },
+    { title: 'Low-carb desserts if you want them', description: 'Alternative sweeteners only when you ask for dessert. Otherwise we stop after the main.' },
+    { title: 'Macro notes on request', description: 'A general view of the approach, not a clinical meal plan. Detailed macros only if you ask in the brief.' },
+    { title: 'On-site cooking and service', description: 'Partner chefs cook at your address. Service staff run the room.' },
+    { title: 'Other diets on the same brief', description: 'Gluten-free, dairy-free or nut-free can sit alongside if you list them. They are not automatic.' },
   ],
-  galleryH2: 'A Taste of Our Keto & Low-Carb Catering',
+  galleryH2: 'What keto service looks like',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Low-carb appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Keto-friendly canapé selection' },
@@ -121,62 +121,62 @@ const config: DietaryPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa low-carb dinner styling' },
     { src: '/service-events.webp', alt: 'Low-carb event catering in Dubai' },
   ],
-  faqsH2: 'Keto & Low-Carb Catering Questions',
+  faqsH2: 'Keto Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'What does keto catering include?',
-      a: 'Keto catering focuses on high-quality proteins, healthy fats and low-carbohydrate vegetables. We avoid bread, pasta, rice, potatoes, sugary sauces and most desserts, replacing them with satisfying alternatives.',
+      a: 'High-protein plates, fats and low-carbohydrate vegetables. Bread, pasta, rice, potatoes and sugary sauces stay off. Dessert is designed to the cap, or omitted.',
     },
     {
       q: 'Can you cater a fully keto event?',
-      a: 'Yes. We can design a menu where every dish is keto-friendly, so every guest can eat freely without checking carb counts.',
+      a: 'Yes, when the brief says the whole table follows it. Mixed tables can run a labelled keto line beside other dishes.',
     },
     {
-      q: 'Do you provide macro or calorie information?',
-      a: 'We can provide a general overview of the menu approach and highlight low-carb dishes. Detailed macros per dish are available on request for corporate wellness or retreat clients.',
+      q: 'Do you provide macro information?',
+      a: 'We can outline the approach. Detailed macros per dish are extra work and only if you ask. We are not a dietitian.',
     },
     {
-      q: 'Are your keto menus also gluten-free?',
-      a: 'Keto menus are naturally low in gluten, but they are not automatically coeliac-safe. Let us know if you need both keto and gluten-free so we can plan prep accordingly.',
+      q: 'Are keto menus also gluten-free?',
+      a: 'They are often low in gluten. They are not automatically coeliac-safe. Shared kitchens carry cross-contact risk. Say if both apply.',
     },
     {
-      q: 'What desserts can you offer on a keto menu?',
-      a: 'We create low-carb desserts using alternative sweeteners, dark chocolate, berries, cream and nut-free options where needed. Every menu is tailored to your guests’ preferences.',
+      q: 'What desserts work on keto?',
+      a: 'Dark chocolate, berries, cream and alternative sweeteners when you want a sweet course. Nut-based desserts only if nuts are allowed.',
     },
     {
-      q: 'How far in advance should I book keto catering?',
-      a: 'Two to four weeks is recommended, especially for large events or retreat programmes where daily low-carb menus need advance planning and sourcing.',
+      q: 'How is keto catering Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and the carbohydrate cap.',
     },
   ],
   relatedServices: [
     {
       title: 'Healthy Catering',
-      description: 'Balanced, nutrition-focused menus for wellness events and offices.',
+      description: 'Balanced menus when the brief is lighter eating, not a strict carb cap.',
       image: '/service-corporate.webp',
       link: '/cuisines-dubai',
     },
     {
       title: 'Sugar-Free Catering',
-      description: 'Reduced-sugar menus that align naturally with low-carb goals.',
+      description: 'Reduced-sugar menus when sugar is the rule, not all carbohydrates.',
       image: '/images/healthy-catering-dubai-hero.webp',
       link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'BBQ Catering',
-      description: 'Protein-forward grilling stations perfect for low-carb gatherings.',
+      description: 'Live grilling when the space allows fire. Protein-forward, if the marinade is written without sugar.',
       image: '/service-events.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Private Chef Dubai',
-      description: 'Fully personalised low-carb menus cooked in your home or villa.',
+      description: 'A standing household chef when keto is how this house eats most weeks, not one night.',
       image: '/service-villa.webp',
       link: '/private-chef-dubai',
     },
   ],
-  ctaH2: 'Build Your Keto or Low-Carb Menu',
+  ctaH2: 'Send the carb cap with the date',
   ctaP:
-    'Tell us about your event, guest goals and dietary needs. We will create a satisfying low-carb menu that keeps everyone on track without sacrificing flavour.',
+    'Say keto or low-carb, dairy yes or no, dessert yes or no. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function KetoCatering() {

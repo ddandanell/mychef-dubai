@@ -11,16 +11,16 @@ export const canteenPage: InstitutionalPageContent = {
     primary: 'canteen management dubai',
     title: 'Canteen Management Dubai | Food, Not Software | myCHEF',
     description:
-      'Canteen management Dubai is food, staff and a kitchen — not a POS app. Setup, staffing and a quote after we walk the room.',
+      'Canteen management Dubai is food, staff and a kitchen: not a POS app. Setup, staffing and a quote after we walk the room.',
     h1: 'Canteen Management Dubai',
   },
   hero: {
     src: '/images/canteen-management-dubai-hero.webp',
-    alt: 'Canteen management Dubai — a dressed staff dining room, servery live, laptops stacked away from the food. Experience concept shown.',
+    alt: 'Canteen management Dubai: a dressed staff dining room, servery live, laptops stacked away from the food. Experience concept shown.',
     width: 1344,
     height: 752,
     subtitle:
-      'Canteen management Dubai is a kitchen, a team and a cycle — not a till app. Staff canteen management, setup and catering, quoted after we walk the room.',
+      'Canteen management Dubai is a kitchen, a team and a cycle: not a till app. Staff canteen management, setup and catering, quoted after we walk the room.',
     micro: 'Share the site, covers per day and whether the room already exists. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(
@@ -78,15 +78,15 @@ export const canteenPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Canteen management Dubai is food. The SERP is full of software.',
+    h2: 'Canteen management Dubai is food, not a till app.',
     paragraphs: [
       'Search “canteen management Dubai” and you will land on till systems, cashless apps and workplace-benefit platforms. Useful tools. They do not cook. They do not hold a probe. They do not stand behind a line at 12:10 when the floor empties.',
-      'Staff canteen management Dubai is a food business inside someone else’s building: a kitchen or a finishing servery, people with health cards, a cycle the night shift will eat, and a commercial model finance understands. Canteen setup Dubai means the room as well as the menu — gas, extraction, holding, flow — not a QR code on a dirty microwave.',
+      'Staff canteen management Dubai is a food business inside someone else’s building: a kitchen or a finishing servery, people with health cards, a cycle the night shift will eat, and a commercial model finance understands. Canteen setup Dubai means the room as well as the menu: gas, extraction, holding, flow: not a QR code on a dirty microwave.',
       'Corporate canteen catering Dubai and office cafeteria management Dubai fail when someone buys the app first and the kitchen second. We do the kitchen. If you want cashless, we will say so in the proposal as a layer, not as the product.',
     ],
   },
   difference: {
-    h2: 'Setup, staffing, a cycle — then optional tech',
+    h2: 'Setup, staffing, a cycle: then optional tech',
     blocks: [
       {
         title: 'Walk the room before the deck',

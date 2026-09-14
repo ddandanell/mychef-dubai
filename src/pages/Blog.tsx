@@ -63,8 +63,8 @@ export default function Blog() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Blog | Private Chef & Catering Insights"
-        description="The myCHEF Dubai blog: private chef and catering guides, real prices, menu ideas and the planning detail behind hosting well in Dubai."
+        title="Blog | myCHEF"
+        description="The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
         canonicalPath="/blog"
         ogImage="/images/mychef-dubai-blog-hero.webp"
         preloadHero="/images/mychef-dubai-blog-hero.webp"
@@ -74,8 +74,8 @@ export default function Blog() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="News & Inspiration"
-        title="Private Chef & Catering Blog"
-        subtitle="Expert tips, seasonal trends, and menu inspiration for private dining, yacht parties, Ramadan gatherings, and corporate events across Dubai."
+        title="Blog"
+        subtitle="How a household chef visit is priced, how a catering night is staffed, and what to ask before you book. Written for hosts in Dubai, not for a keyword list."
         image="/images/mychef-dubai-blog-hero.webp"
         imageAlt="Private chef evening in a Dubai villa: the host stays seated with guests while the culinary team finishes service"
         imageWidth={1920}
@@ -148,7 +148,7 @@ export default function Blog() {
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
                     src={post.image}
-                    alt={`${post.title} — experience concept shown`}
+                    alt={`${post.title}. Experience concept shown`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />

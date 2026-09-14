@@ -107,7 +107,7 @@ export default function PrivateChefPalmJumeirahGuide() {
     <div ref={containerRef}>
       <SEO
         title="Private Dining Palm Jumeirah Dubai | myCHEF"
-        description="Private Dining Palm Jumeirah Dubai — A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…"
+        description="Private Dining Palm Jumeirah Dubai: A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         schema={schema}
@@ -116,8 +116,8 @@ export default function PrivateChefPalmJumeirahGuide() {
       {/* Hero */}
       <PageHero
         eyebrow="Private Chef"
-        title="Private Dining Palm Jumeirah Dubai — A Complete Guide to Dining at Home"
-        subtitle="Private Dining Palm Jumeirah Dubai by myCHEF — Everything Dubai hosts need to know about booking a private chef for a Palm Jumeirah villa, apartment, or yacht — from menus and pricing to "
+        title="Private Dining Palm Jumeirah Dubai"
+        subtitle="A chef in a Palm villa, apartment or yacht. Access, parking and the galley change the brief. Household visits start at AED 750. A dinner for guests is catering."
         image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
@@ -163,13 +163,13 @@ export default function PrivateChefPalmJumeirahGuide() {
               Privacy is the most common reason. A villa on the fronds or an apartment with a marina view gives you a setting that no restaurant can replicate. Add a chef, and the evening becomes entirely yours: no reservations, no fixed closing times, and no shared dining room.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. The chef travels to the villa or apartment. What to check is the named chef, the itemised quote and who buys the ingredients.
+              The chef travels to the villa or apartment. What to check is the named chef, the itemised quote, who buys the ingredients, and how access and parking work on the Palm. Household visits start at AED 750. A dinner for guests is catering.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Families with children, couples celebrating quietly, and groups of friends who want to linger over conversation all benefit from the flexibility. You control the music, dress code, guest list, and menu. The chef simply handles the food.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              For residents of Palm Jumeirah, the convenience is hard to beat. There is no valet queue and no late-night taxi arrangement — just a short walk from dining table to sofa.
+              For residents of Palm Jumeirah, the convenience is hard to beat. There is no valet queue and no late-night taxi arrangement: just a short walk from dining table to sofa.
             </p>
           </section>
 
@@ -234,7 +234,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           <SourcesBlock
             sources={[
               { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
-              { label: 'Nakheel — Palm Jumeirah community and access guidelines (general reference)' },
+              { label: 'Nakheel: Palm Jumeirah community and access guidelines (general reference)' },
             ]}
             note="Pricing ranges are indicative and depend on menu complexity, guest count, service style, and ingredient sourcing. Always request an itemised quote before booking."
           />

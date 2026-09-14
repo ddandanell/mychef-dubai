@@ -28,7 +28,9 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
+import { CATERING_FORMAT_BY_ID, formatFrom } from '@/content/cateringPricing'
 
+const BBQ = CATERING_FORMAT_BY_ID.bbq
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan BBQ catering in Dubai (via mychef.ae/bbq-catering-dubai)')
@@ -39,69 +41,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const bbqFormats = [
   {
     icon: Flame,
-    title: 'Partner Chef-Led Grills',
-    description: 'A dedicated partner grill chef works live at your event, cooking each cut to order so every plate arrives hot, charred, and exactly how your guests like it.',
+    title: 'Live grill, cooked to order',
+    description: 'A grill chef cooks at the station: steaks, chops, chicken and burgers finished when the guest is ready, not sitting under a lid.',
     link: '/catering-dubai',
   },
   {
     icon: Beef,
-    title: 'Premium Meat Selection',
-    description: 'Aged steaks, lamb chops, marinated chicken, and gourmet burgers, sourced from trusted suppliers and grilled over open flame for deep, smoky flavour.',
+    title: 'Cuts you name in the brief',
+    description: 'Halal steaks, lamb, chicken and burgers by default. The quote names the proteins. Nothing is swapped on the night without asking you.',
     link: '/private-party-catering-dubai',
   },
   {
     icon: Fish,
-    title: 'Seafood on the Grill',
-    description: 'Whole fish, prawns, and shellfish grilled with herbs and citrus — a lighter, elegant addition that works beautifully for beachside and poolside events.',
+    title: 'Seafood on the grill',
+    description: 'Whole fish, prawns and shellfish with herbs and citrus. Useful at a pool, a beach or anywhere a lighter plate sits next to the red meat.',
     link: '/buffet-catering-dubai',
   },
   {
     icon: Home,
-    title: 'Villa & Garden BBQ',
-    description: 'Full-service grilling for villa terraces, gardens, and rooftops across Dubai, with setup, live cooking, and cleanup all handled by our chefs.',
+    title: 'Villa, garden and rooftop',
+    description: 'We bring the grills, cook through service and pack down. You give us the outdoor space. Apartment balconies are not an open-flame site.',
     link: '/catering-dubai',
   },
   {
     icon: Ship,
-    title: 'Yacht BBQ Catering',
-    description: 'Compact, mess-free grilling and chilled sides designed for the deck — generous, relaxed dining for charters around Dubai Marina and the coast.',
+    title: 'Yacht and marina',
+    description: 'A smaller grill, chilled sides and a deck that has to stay clean. The operator’s rules decide charcoal versus gas.',
     link: '/private-party-catering-dubai',
   },
   {
     icon: Users,
-    title: 'Sharing-Style Feasts',
-    description: 'Grilled platters, mezze, salads, and sides served family-style for a warm, convivial atmosphere that brings guests together around the table.',
+    title: 'Sharing platters',
+    description: 'Grilled meat and fish on boards, with mezze, salads and breads, so people stay at the table instead of queuing at a tray.',
     link: '/grazing-table-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Live Grilling Stations', description: 'Professional grill setup and partner-chef-led cooking throughout your event.' },
-  { title: 'Premium Meats & Seafood', description: 'Quality cuts, marinated proteins, and fresh seafood prepared to order.' },
-  { title: 'Marinades & Rubs', description: 'House marinades, spice rubs, and sauces developed by our chefs.' },
-  { title: 'Sides, Salads & Mezze', description: 'A generous spread of hot sides, fresh salads, breads, and dips.' },
-  { title: 'Professional Service Staff', description: 'Grill chefs, servers, and hosts scaled to your guest count.' },
-  { title: 'Equipment & Setup', description: 'We bring the grills, stations, tableware, and everything needed on site.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your space spotless.' },
-  { title: 'Dietary Flexibility', description: 'Halal, vegetarian, and allergy-aware options built into every menu.' },
+  { title: 'Live grilling stations', description: 'Grills, fuel and a chef at the station for the service window in the quote.' },
+  { title: 'Proteins named in writing', description: 'Cuts, marinades and seafood listed before the night. Halal by default.' },
+  { title: 'Marinades and sauces', description: 'House rubs and sauces written into the menu, not decided at the coals.' },
+  { title: 'Sides, salads and mezze', description: 'Hot sides, salads, breads and dips sized to the guest count.' },
+  { title: 'Service staff as quoted', description: 'Grill chefs, and waiters if you ask for them. Headcount sets the team.' },
+  { title: 'Equipment', description: 'Grills, stations and tableware travel with the team. You do not hire them separately unless you want to.' },
+  { title: 'Setup and clear-down', description: 'We arrive early, run the grill and leave the terrace as we found it.' },
+  { title: 'Diets in the first draft', description: 'Vegetarian, vegan and named allergies sit on the menu, not as a side plate of leaves.' },
 ]
 
 const useCases = [
   {
-    title: 'Villa & Garden Parties',
-    description: 'Turn your villa terrace, garden, or rooftop into an open-air grill house. We bring the stations, the chef, and the styling to you across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
+    title: 'Villa and garden',
+    description: 'Terrace, garden or rooftop with space and ventilation for a grill. Palm Jumeirah, Emirates Hills and Dubai Hills are typical. We place the station so smoke does not sit in the sitting room.',
   },
   {
-    title: 'Yacht & Beach Gatherings',
-    description: 'Relaxed grilled feasts designed for the water and the sand. Compact menus that look spectacular on deck and travel cleanly to beachside events around Dubai Marina and JBR.',
+    title: 'Yacht and beach',
+    description: 'A compact grill and chilled sides for a charter or a beach setup around Dubai Marina and JBR. The handler or venue decides what fuel is allowed.',
   },
   {
-    title: 'Celebrations & Milestones',
-    description: 'Birthdays, bachelor weekends, and family gatherings come alive around a live grill. The aroma, the sizzle, and the shared plates become part of the entertainment.',
+    title: 'Birthdays and family tables',
+    description: 'A live grill for a mixed table: children, adults, one vegetarian, one who only eats fish. The menu is written for that list, not for a generic BBQ.',
   },
   {
-    title: 'Corporate & Team Events',
-    description: 'A partner-chef-led BBQ brings a warm, social energy to company days, client entertaining, and team celebrations — polished enough to impress, relaxed enough to enjoy.',
+    title: 'Company days',
+    description: 'A grill station for a team afternoon or a client sitting outdoors. The same kitchen as the rest of the catering, not a separate hire you have to brief twice.',
   },
 ]
 
@@ -141,67 +143,112 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you bring your own grills and equipment?',
-    a: 'Yes. We arrive with professional grilling stations, all cooking equipment, serving setups, and tableware. You simply provide the space, whether that is a villa garden, rooftop, beach, or yacht deck.',
+    a: 'Yes. Grills, fuel, serving kit and tableware travel with the team. You provide the outdoor space: garden, rooftop, beach or yacht deck, subject to the venue’s fire rules.',
   },
   {
     q: 'What meats and seafood do you offer for BBQ?',
-    a: 'Our grills feature aged steaks, lamb chops, marinated chicken, gourmet burgers, and sausages, alongside grilled prawns, whole fish, and shellfish. Every menu is built around your preferences and guest count.',
+    a: 'The menu is written for your table. Typical proteins are steaks, lamb chops, chicken, burgers, prawns and whole fish. The quote names what is on the grill.',
   },
   {
     q: 'Is your BBQ catering halal?',
-    a: 'Yes. We source halal meats by default and are happy to confirm the specifics of your menu. We also accommodate vegetarian, vegan, and allergy-aware requirements alongside the grill.',
+    a: 'Yes. Halal meat is the default. Vegetarian, vegan and named allergy dishes are planned in the first menu draft, not added as a leftover plate.',
   },
   {
     q: 'Can you cater a BBQ on a yacht or at the beach?',
-    a: 'Absolutely. We design compact, mess-free grilling menus and chilled sides specifically for yacht charters and beachside events around Dubai Marina, JBR, and the wider coastline.',
+    a: 'Yes, when the operator or venue allows a grill. We use a compact setup and chilled sides. Charcoal versus gas is decided with them, not by us on the day.',
   },
   {
     q: 'How many guests can you cater a BBQ for?',
-    a: 'We grill for intimate gatherings of around 10 guests up to large celebrations of several hundred. Our chefs scale the number of grill chefs and stations to match your event size.',
+    a: `The published floor is ${BBQ.minGuests} guests. Above that we add grill chefs and stations so the queue does not stall. Tell us the headcount and we size the line.`,
   },
   {
     q: 'How far in advance should I book BBQ catering?',
-    a: 'For smaller events, one to two weeks is ideal. For larger gatherings, we recommend two to four weeks. During peak season (November to March), earlier booking is strongly advised.',
+    a: 'One to two weeks for a smaller table. Two to four weeks when you need more stations or a peak weekend between November and March. If the date is sooner, ask; we will say what we can actually staff.',
   },
-  { q: "How much does BBQ catering in Dubai cost per person?", a: "BBQ catering in Dubai is priced by custom quote, because the per-person cost depends on your guest count, the cuts and seafood you choose, and how many live grill stations you want. Once you share a few details we build a transparent, all-inclusive proposal covering the food, chefs, equipment, service, and cleanup, with 5% VAT applied. For a fuller picture of what shapes a grill budget, see our [private chef prices in Dubai](/private-chef-dubai/pricing)." },
-  { q: "What is included in the price of your BBQ catering?", a: "Every BBQ package includes menu design, ingredient sourcing and shopping, the grills and stations, on-site live cooking by our chefs, plating and serving, and full cleanup afterwards. In short, we bring everything and leave your villa, garden, or yacht deck spotless. Serving staff can be scaled up or kept minimal depending on your event, and we confirm the exact inclusions in your written quote." },
-  { q: "Is there a minimum number of guests for a BBQ?", a: "We happily grill for small gatherings of around ten guests right up to large celebrations of several hundred, so there is no need for a huge crowd to book us. For very intimate dinners a live grill still works beautifully, and we simply scale the menu and station size to suit. Tell us your headcount and we will recommend the right setup." },
-  { q: "Are your chefs and kitchens licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your grill service is handled by trained professionals working to proper hygiene and handling practices. This matters especially with barbecue, where correct cooking temperatures and safe food handling are essential. You can read more about how we work on our [how it works](/how-it-works) page." },
-  { q: "Can I get a BBQ if I live in an apartment with only a balcony?", a: "Open-flame grilling is not permitted on Dubai apartment balconies for fire-safety reasons, so a full live BBQ needs a suitable outdoor space such as a villa garden, terrace, rooftop, beach, or yacht deck. If you only have an apartment, we can instead design a menu cooked in a compliant setting and served beautifully at your place. Share your venue and we will suggest the best approach for [apartment private dining in Dubai](/apartment-private-dining-dubai)." },
-  { q: "Do you use charcoal or gas grills?", a: "We work with professional charcoal and gas grilling stations, and we recommend the right setup based on your venue, the flavour you want, and any site restrictions. Charcoal delivers that classic smoky char, while gas is cleaner and often better suited to yachts and tighter spaces. We confirm the grill type once we know your location and menu." },
-  { q: "Is your BBQ menu suitable for guests who do not eat meat?", a: "Absolutely, we build vegetarian and vegan options directly into every grill menu, from halloumi and paneer to grilled vegetables, mezze, and hearty salads. No guest is left with just a side plate, and we make sure the non-meat dishes feel like a proper part of the feast. Let us know your numbers and we will balance the spread accordingly." },
-  { q: "Can you handle allergies and dietary restrictions at a BBQ?", a: "Yes, we plan around allergies and dietary needs such as gluten-free, dairy-free, and nut-free requests, and we brief our chefs to avoid cross-contact on the grill. Just tell us the specifics when you enquire and we will adjust marinades, sides, and cooking arrangements to suit. For stricter requirements, see our [allergy-safe catering in Dubai](/allergy-safe-catering-dubai)." },
-  { q: "Do you provide serving staff, or just the grill chef?", a: "Both are available, so you can have a grill chef cooking live plus servers and hosts managing plates, drinks, and clearing, or keep it more relaxed with just the chef at the station. We scale the team to your guest count and the style of event. Serving staff are optional and priced within your quote so there are no surprises." },
-  { q: "How far in advance should I book BBQ catering in Dubai?", a: "For smaller BBQs, one to two weeks is usually enough, while larger events are best booked two to four weeks ahead so we can secure staff and premium cuts. During peak season from November to March, dates fill quickly, so earlier is always safer. If your date is soon, message us anyway and we will do our best to accommodate it." },
-  { q: "How quickly will I get a quote and reply after I enquire?", a: "You will typically hear back from us within 15 minutes during business hours, with a menu direction and next steps for your grill. From there we refine the details together until your proposal fits your guests and budget. The fastest way to start is to reach out through our [contact](/contact) page or WhatsApp." },
-  { q: "Will there be a lot of smoke and mess at my villa?", a: "Our chefs manage the grill professionally to keep smoke controlled and your space clean, positioning stations sensibly and handling all the coals, grease, and waste themselves. We arrive early, run the service tidily, and leave your terrace or garden exactly as we found it. Full cleanup is always part of the package, never an add-on you chase later." },
-  { q: "Is a live BBQ better than a buffet for my event?", a: "A live BBQ adds theatre, aroma, and freshly grilled plates cooked to order, which makes it feel more interactive and social than a static spread. A buffet can serve very large numbers efficiently, and many clients combine a grill station with buffet sides for the best of both. If you are weighing the options, compare with our [buffet catering in Dubai](/buffet-catering-dubai)." },
-  { q: "Can I add other live cooking stations alongside the grill?", a: "Yes, the BBQ pairs beautifully with additional live stations such as a shawarma carvery, mezze spread, or dessert setup to round out the experience. We coordinate the whole service so everything runs smoothly from one team on the day. Explore more options on our [live cooking stations in Dubai](/live-cooking-stations-dubai) page." },
-  { q: "Is your BBQ catering fully halal?", a: "Yes, we source halal meats by default for our grills, and we are happy to confirm the specifics of your chosen menu. This applies across steaks, lamb, chicken, and any additional proteins we prepare on the day. If you have further questions about sourcing, just ask when you request your proposal." },
+  {
+    q: 'How much does BBQ catering in Dubai cost per person?',
+    a: `BBQ and live stations start from AED ${BBQ.fromPerPerson} per person, the same floor as the Catering hub, Menus and the calculator. Indicative market sits around AED ${BBQ.typicalMin}–${BBQ.typicalMax}. Cuts, extra stations and waiters move the total. 5% VAT is a separate line. Household chef visit rates are not this product.`,
+  },
+  {
+    q: 'What is included in the price of your BBQ catering?',
+    a: 'The written quote lists the menu, ingredients, grills, the chef at the station, service if you asked for it, setup and clear-down. Waiters are not assumed. If they are needed, they appear as a line.',
+  },
+  {
+    q: 'Is there a minimum number of guests for a BBQ?',
+    a: `Yes. ${BBQ.minGuests} guests on this format. Below that we will say so and point you at plated dining or a package, rather than stretching a live grill.`,
+  },
+  {
+    q: 'Are your chefs and kitchens licensed and food-safe?',
+    a: 'Independent licensed culinary partners cook. Kitchens follow Dubai Municipality food-safety rules. Grill temperatures and holding are part of that, not a slogan.',
+  },
+  {
+    q: 'Can I get a BBQ if I live in an apartment with only a balcony?',
+    a: 'Open flame is not permitted on typical Dubai apartment balconies. A live BBQ needs a garden, terrace, rooftop, beach or yacht deck that allows it. For an apartment we cook a menu that does not need a fire on the balcony. See [apartment private dining in Dubai](/apartment-private-dining-dubai).',
+  },
+  {
+    q: 'Do you use charcoal or gas grills?',
+    a: 'Both exist in the kit. The venue and the flavour you want decide which. Yachts and tight rooftops often need gas. We confirm it in the quote.',
+  },
+  {
+    q: 'Is your BBQ menu suitable for guests who do not eat meat?',
+    a: 'Yes. Halloumi, paneer, grilled vegetables, mezze and proper salads are written as dishes, not as a garnish next to the steaks. Give us the numbers.',
+  },
+  {
+    q: 'Can you handle allergies and dietary restrictions at a BBQ?',
+    a: 'Named allergies go into the first draft. We keep marinades and grill space separate where that is required. For a stricter protocol see [allergy-safe catering in Dubai](/allergy-safe-catering-dubai).',
+  },
+  {
+    q: 'Do you provide serving staff, or just the grill chef?',
+    a: 'The grill chef is the base. Waiters are added when the table needs them, and priced in the quote. You are not billed for a full front of house you did not ask for.',
+  },
+  {
+    q: 'How far in advance should I book BBQ catering in Dubai?',
+    a: 'Same as above: a week or two for a small grill, longer for peak season and extra stations. Message even if the date is close. We will not invent availability.',
+  },
+  {
+    q: 'How quickly will I get a quote and reply after I enquire?',
+    a: 'During business hours we typically reply within 15 minutes with next steps. The itemised proposal follows once date, headcount, venue and menu direction are clear. Start on [contact](/contact) or WhatsApp.',
+  },
+  {
+    q: 'Will there be a lot of smoke and mess at my villa?',
+    a: 'We place the station for ventilation, manage fuel and take the waste. Clear-down is in the booking. You should not be scraping a grill at midnight.',
+  },
+  {
+    q: 'Is a live BBQ better than a buffet for my event?',
+    a: 'A live grill cooks to order and needs space and a queue plan. A [buffet](/buffet-catering-dubai) holds food for a larger room. Many nights run both: grill for the protein, buffet for the sides.',
+  },
+  {
+    q: 'Can I add other live cooking stations alongside the grill?',
+    a: 'Yes. Shawarma, pasta or a dessert finish sit on [live cooking stations in Dubai](/live-cooking-stations-dubai). One team, one quote, one clear-down.',
+  },
+  {
+    q: 'Is your BBQ catering fully halal?',
+    a: 'Halal meat is the default. If you need certificates for a corporate sitting, say so in the enquiry and we put the sourcing on the proposal.',
+  },
 ]
 
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'fully-coordinated catering for events of every size across Dubai.',
+    description: 'Food, staff and clear-down as one brief, from drop-off through to a staffed night.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
-    title: 'Buffet Catering',
-    description: 'Hot and cold buffet stations for large gatherings and corporate events.',
+    title: 'Buffet catering',
+    description: 'A maintained self-serve line from AED 120 per person, from 20 guests.',
     image: '/service-events.webp',
     link: '/buffet-catering-dubai',
   },
   {
-    title: 'Party Catering',
-    description: 'Bespoke menus, styling, and service for celebrations of every kind.',
+    title: 'Private party catering',
+    description: 'Pool, garden and house parties where the grill is one format, not the whole brief.',
     image: '/service-villa.webp',
     link: '/private-party-catering-dubai',
   },
   {
-    title: "Father's Day Catering",
-    description: "Celebrate Dad with a BBQ or brunch menu he'll love.",
+    title: 'Pool and beach parties',
+    description: 'Outdoor sitting where a grill is allowed. Same kitchen as the rest of the night.',
     image: '/service-events.webp',
     link: '/private-party-catering-dubai',
   },
@@ -303,8 +350,8 @@ export default function BBQCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="BBQ Catering Dubai | Live BBQ Stations & Outdoor Grills | myCHEF"
-        description="Book live BBQ catering Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a "
+        title="BBQ Catering Dubai | myCHEF"
+        description="BBQ catering Dubai from AED 150 per person, from 15 guests: live grill, named proteins, setup and clear-down. Tell us the date, headcount and outdoor space."
         canonicalPath="/bbq-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -329,10 +376,10 @@ export default function BBQCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bbq-hero-h1">
-            BBQ Catering Dubai — Live Barbecue Stations
+            BBQ Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
-            partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
+            BBQ catering Dubai is a live grill at your villa, garden, beach or yacht: named proteins, a chef at the station, setup and clear-down. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
@@ -354,21 +401,18 @@ export default function BBQCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">DUBAI BBQ SPECIALISTS</SectionLabel>
+          <SectionLabel align="center">THE GRILL IS THE FORMAT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Open-Flame Cooking, Brought to You
+            What BBQ catering Dubai actually is
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            There is something timeless about food cooked over fire — the sound of the grill, the aroma drifting across the terrace, the moment guests gather while a chef plates a perfectly charred cut. At myCHEF Dubai, our BBQ catering turns that simple pleasure into a polished, full-service experience, designed around your venue and your guests.
+            BBQ catering Dubai is cooking on site, in front of guests, on a grill we bring. It is not a tray of cold kebabs dropped at the door, and it is not a household chef visit. The published floor is {formatFrom(BBQ.fromPerPerson)}, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is a wider band, not a second myCHEF start.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Independent licensed partners cook. The quote names the chef once the night is scoped, lists the proteins, says who buys the ingredients, and shows 5% VAT on its own line. Dietary notes go into the first menu draft. Apartment balconies are not an open-flame site; we will say so.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Grill our chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
+            Sides sit next to the grill: mezze, salads, breads and sauces. Waiters are added when the table needs them. See how this sits inside <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>, or send the date, headcount and outdoor space.
           </p>
         </div>
       </section>
@@ -379,7 +423,7 @@ export default function BBQCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHAT WE GRILL</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              BBQ Catering, Your Way
+              How the grill is built
             </h2>
           </div>
 
@@ -413,7 +457,7 @@ export default function BBQCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE GRILL</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              BBQ for Every Setting
+              Where a live grill works
             </h2>
           </div>
 
@@ -432,7 +476,7 @@ export default function BBQCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our BBQ Catering Includes
+            What sits in the BBQ quote
           </h2>
 
           <div className="bbq-inc-grid grid md:grid-cols-2 gap-6">
@@ -453,7 +497,7 @@ export default function BBQCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our BBQ Catering
+            Grill service in the room
           </h2>
 
           <div className="bbq-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -543,10 +587,10 @@ export default function BBQCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center bbq-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Fire Up Your Event
+            Send the outdoor space and the headcount
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your gathering and we'll design a grill menu, sides, and service plan that fits it perfectly.
+            Date, guest count, area and whether a grill is allowed. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Get a Tailored BBQ Quote</Link>

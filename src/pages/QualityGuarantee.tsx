@@ -34,73 +34,69 @@ const CANONICAL_PATH = '/quality-guarantee-dubai'
 const guarantees = [
   {
     icon: ShieldCheck,
-    title: 'Vetted Chef Network',
-    description: 'Every chef passes identity, reference and in-person skill checks before they can accept bookings. We verify food safety awareness and professional communication, so the person arriving at your door is qualified.',
+    title: 'The chef is checked before they arrive',
+    description: 'Identity, right to work, a cooking assessment and references. Food-safety awareness is required. PIC is preferred. We do not claim every chef holds a named certificate.',
   },
   {
     icon: RefreshCcw,
-    title: 'Backup Chef Cover',
-    description: 'If your confirmed chef cannot attend due to illness or emergency, we activate a qualified replacement and brief them on your menu, dietary needs, and event details. You are not left searching for a solution at the last minute.',
+    title: 'If the chef cannot attend',
+    description: 'If a confirmed chef is ill or otherwise unavailable, we send a replacement from the same network and brief them from the booking, not from a conversation you have to repeat at the door.',
   },
   {
     icon: MessageCircleWarning,
-    title: 'We Will Make It Right',
-    description: 'If the experience does not match what was agreed, tell us within 24 hours of service. We investigate fairly and offer a practical resolution — whether that is a service credit, a partial refund, or a follow-up arrangement.',
+    title: 'If the service falls short',
+    description: 'Tell us. The written booking terms set the credits: not delivered is a full refund; severe failure 50% to 75%; material failure 10% to 25%; a minor shortfall we put right. We do not invent a second refund rule on this page.',
   },
   {
     icon: ClipboardCheck,
-    title: 'Written Briefing Every Time',
-    description: 'Every booking is confirmed in writing with menu, guest count, dietary requirements, arrival time, inclusions, and pricing. This reduces misunderstanding and gives both sides a clear reference point.',
+    title: 'A written booking, not a handshake',
+    description: 'Menu, guest count, dietary notes, arrival time, inclusions and price are confirmed in writing before you pay. That is the contract.',
   },
 ]
 
 const promisePoints = [
   {
-    title: 'Honest resolution, not excuses',
-    description: 'We do not deflect. If something falls short, we review what happened, identify the gap, and propose a fair fix.',
+    title: 'The terms are already written',
+    description: 'Failure credits sit in the private client and corporate booking terms. This page does not invent a second schedule.',
   },
   {
-    title: 'Fast response when it matters',
-    description: 'During your event you have direct WhatsApp access to our operations team. Issues raised during service are escalated immediately.',
+    title: 'During service you can reach us',
+    description: 'WhatsApp used for the booking is the line. Issues raised during service are escalated, not parked until Monday.',
   },
   {
-    title: 'Clear terms before you pay',
-    description: 'Your written proposal states exactly what is included, what is not, and how any concern will be handled. No hidden clauses.',
+    title: 'The proposal names the job',
+    description: 'What is included, what is not, and the price. Nothing is added afterwards that you did not approve.',
   },
   {
-    title: 'Continuous chef feedback loop',
-    description: 'Client feedback is shared with chefs constructively. Chefs with repeated concerns are retrained or removed from the network.',
+    title: 'The house scores the work',
+    description: 'Food comments go back to the house as a menu change. Comments about the person go to the person, in private. Safety is a stop.',
   },
 ]
 
 const faqs = [
   {
-    q: 'What does "we\'ll make it right" actually mean?',
-    a: 'It means we take responsibility for resolving issues that are within our control. Depending on the situation, this may include a partial refund, a service credit, a replacement chef, or a complimentary follow-up service. We do not promise unlimited compensation, but we do promise a fair, fast response.',
+    q: 'What does the catering quality guarantee actually cover?',
+    a: 'The written booking. If we do not deliver, a full refund. Severe failure: a credit of 50% to 75%. Material failure: 10% to 25%. A minor shortfall we put right, with a goodwill gesture. Full wording is in the booking terms.',
   },
   {
     q: 'What happens if the chef does not show up?',
-    a: 'We maintain backup chef cover. If your confirmed chef cannot attend, we source a replacement from our professional team, brief them on your event, and notify you as early as possible. In the rare case no suitable replacement is available, we refund your payment.',
+    a: 'If the confirmed chef cannot attend, we send a replacement and brief them from the booking. If the service is not delivered, the amounts paid for it are refunded.',
   },
   {
     q: 'How do I report a quality issue?',
-    a: 'You can message us on WhatsApp, call, or email info@mychef.ae. We ask for details and, where possible, photos. Most concerns are acknowledged within hours and resolved within one to two business days.',
+    a: 'Write to info@mychef.ae or the WhatsApp used for the booking. Name the date and what happened. We investigate against the written proposal.',
   },
   {
-    q: 'Is there a guarantee that I will love the food?',
-    a: 'Taste is subjective, so we cannot guarantee personal preference. We do guarantee that the menu, ingredients, and service will match the written proposal, that the chef will be qualified, and that any genuine shortfall will be addressed fairly.',
+    q: 'Do you guarantee that I will like the food?',
+    a: 'No. Taste is personal. We do guarantee that the menu, ingredients and service match the written proposal, and that a genuine shortfall is handled under the booking terms.',
   },
   {
-    q: 'Do you offer refunds?',
-    a: 'Refunds are considered on a case-by-case basis for service failures attributable to us or the chef. Cancellation refunds follow the terms in your written proposal, which depend on how far in advance you cancel.',
+    q: 'How do cancellation refunds work?',
+    a: 'Cancel in writing. Fifteen or more days before: the deposit is refunded less committed costs; we may retain 5% for administration. Eight to 14 days: half the deposit is refunded, less committed costs. Forty-eight hours to seven days: the deposit is retained in full, together with committed costs. Less than 48 hours: up to 100% of the booking value may be payable. A 50% deposit confirms the booking. The balance is due seven days before the first service.',
   },
   {
-    q: 'What if catering goes wrong Dubai?',
-    a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'How to complain about a caterer Dubai?',
-    a: 'Every chef we send for how to complain about a caterer Dubai is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+    q: 'What if catering goes wrong on the night?',
+    a: 'Tell us during service if you can, or in writing afterwards. We measure the night against the written proposal, not against a feeling. Credits follow the failure bands in the booking terms.',
   },
 ]
 
@@ -119,7 +115,7 @@ const relatedServices = [
   },
   {
     title: 'Private Chef Dubai',
-    description: 'Bespoke private dining and event experiences in your home, villa, or yacht.',
+    description: 'A standing chef for the house, managed for you. One dinner is catering.',
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
@@ -187,8 +183,8 @@ export default function QualityGuarantee() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Quality Guarantee Dubai | What We Promise | myCHEF"
-        description="Catering Quality Guarantee Dubai — myCHEF Dubai quality guarantee: vetted chefs, backup cover, written briefings, and fair resolution if your private chef…"
+        title="Catering Quality Guarantee Dubai | myCHEF"
+        description="Catering quality guarantee Dubai: the chef is checked, the booking is written, backup is briefed from the record, and credits follow the booking terms."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -212,13 +208,13 @@ export default function QualityGuarantee() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 qg-hero-h1">
-            Catering Quality Guarantee Dubai: Not Satisfied? We'll Make It Right
+            Catering Quality Guarantee Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 qg-hero-sub">
-            Every myCHEF Dubai booking is backed by vetted chefs, backup cover, clear written terms, and a fair resolution promise — because trust is the real product.
+            The chef is checked. The booking is written. If the night falls short, credits follow the booking terms, not a slogan.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a Guaranteed Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -237,22 +233,19 @@ export default function QualityGuarantee() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">OUR QUALITY PROMISE</SectionLabel>
+          <SectionLabel align="center">WHAT THE BOOKING STANDS ON</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Guarantee Built on Operational Rigor
+            Catering quality guarantee Dubai is the written booking
           </h2>
           <div className="qg-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your event, dietary needs, and preferred style, and we will bring you a vetted private chef in Dubai within 24 hours. Every myCHEF Dubai booking is backed by identity-checked chefs, backup cover, written terms, and a fair resolution promise — because trust is the real product.
+              A guarantee that cannot be measured is advertising. This one is measured against the proposal you approved: the menu, the headcount, the people in the room, the time they arrive, and the way the kitchen is left.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our quality guarantee is not a marketing slogan. It is a set of operational promises: every chef is vetted, every booking is confirmed in writing, backup cover is available, and if something genuinely falls short, we investigate and make it right. We do not claim perfection. We claim accountability.
+              We do not promise that every guest will love every dish. We do promise that the service matches what was written, that the chef was checked before they entered, and that a genuine shortfall is handled under the booking terms. Cancellation is a different page of the same document: 15 days or more, 8 to 14 days, 48 hours to 7 days, and under 48 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>, our <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, or explore <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link> in Dubai.
+              Read <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs are checked</Link>, the <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cancellation policy</Link>, or start with <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> if the job is a household, not a night.
             </p>
           </div>
         </div>
@@ -264,7 +257,7 @@ export default function QualityGuarantee() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WHAT YOU CAN COUNT ON</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Four Pillars of Our Guarantee
+              What you can hold us to
             </h2>
           </div>
 
@@ -366,13 +359,13 @@ export default function QualityGuarantee() {
         <div className="container-custom text-center qg-cta opacity-0 translate-y-8">
           <ChefHat size={48} className="text-gold mx-auto mb-6" />
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Book With Confidence
+            Send the brief. Get a written proposal.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Get a clear written proposal, vetted chef matching, and the backing of our quality guarantee for your next private dining or catering event in Dubai.
+            Date, headcount, venue, and how you want people to eat. The quote is itemised. The terms sit on the booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Request a Guaranteed Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

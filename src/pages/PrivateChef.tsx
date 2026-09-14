@@ -55,7 +55,7 @@ const managedBeats = [
   },
   {
     title: 'Managed',
-    body: 'The match, the feedback, the cover when your chef is away, the replacement if it comes to that — all of it is ours. You are not taking on a second job to manage the person who cooks.',
+    body: 'The match, the feedback, the cover when your chef is away, and the replacement if it comes to that: all of it is ours. You are not taking on a second job to manage the person who cooks.',
   },
   {
     title: 'Backup',
@@ -81,7 +81,7 @@ const schema = {
         { '@id': 'https://www.mychef.ae/#place-jvc' },
       ],
       description:
-        'Private chef Dubai for a standing household: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
+        'Private chef Dubai for a standing household: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed. One dinner is catering.',
       url: 'https://www.mychef.ae/private-chef-dubai',
     },
     ...(faqSchema ? [faqSchema] : []),
@@ -163,17 +163,15 @@ export default function PrivateChef() {
               <Eyebrow>What this is</Eyebrow>
               <DisplayHeading size="h2" className="text-black mb-6">What a private chef Dubai arrangement is</DisplayHeading>
               <BodyCopy className="mb-5">
-                myCHEF is not a list of chefs for you to manage. We organise the chef for you: the match, the Food Profile, and the cover when your chef is away.
+                A private chef Dubai household is a standing cook, not a one-night team. myCHEF is not a list of chefs for you to manage. We organise the chef: the match, the Food Profile, and the cover when your chef is away.
               </BodyCopy>
               <BodyCopy className="mb-5">
-                You are buying a standing in-home chef in Dubai. Usually the same person each week, a written record of how you like to eat, and one person to call when something changes. That is not the same as booking one dinner. A one-night dinner is{' '}
-                <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Luxury catering in Dubai</Link>.
-              </BodyCopy>
-              <BodyCopy className="mb-5">
-                Whether you need a dedicated chef at home Dubai families rely on for daily lunches and dinners, a private chef for dinner party Dubai celebrations, or ongoing private chef service Dubai wide, we handle vetting, ingredients, and kitchen setup.
+                You are buying a chef at home in Dubai who comes back. Usually the same person each week, a written record of how you like to eat, and one person to call when something changes. A private chef for dinner party Dubai nights is catering: one evening, a team, then clear-down.{' '}
+                <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Luxury catering in Dubai</Link>
+                {' '}owns that brief.
               </BodyCopy>
               <BodyCopy muted>
-                If you want breakfast to appear without briefing it, a villa that eats for weeks, or a family that does not want another person to manage — this is the page.
+                If you want breakfast to appear without briefing it, a villa that eats for weeks, or a family that does not want another person to manage, this is the page.
               </BodyCopy>
             </div>
             <EditorialImage
@@ -195,7 +193,7 @@ export default function PrivateChef() {
             <Eyebrow>Which page</Eyebrow>
             <DisplayHeading size="h2" className="text-black mb-4">One night, or a chef who stays</DisplayHeading>
             <BodyCopy muted>
-              A standing household chef stays on this page. A one-night dinner belongs on catering — not here.
+              A standing household chef stays on this page. A one-night dinner belongs on catering, not here.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
@@ -230,10 +228,10 @@ export default function PrivateChef() {
             <Eyebrow align="center">Who it is for</Eyebrow>
             <DisplayHeading size="h2" className="text-black">What would make your week easier?</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              Not which cuisine, and not which evening. A chef at home in Dubai makes sense when the same problem comes back every week — for families, for villas, and for long stays.
+              Not which cuisine, and not which evening. A chef at home in Dubai makes sense when the same problem comes back every week: for families, for villas, and for long stays.
             </BodyCopy>
             <BodyCopy muted className="mt-4 mx-auto">
-              Not everyone comes to this page for a dinner party. If the problem is six o'clock - everyone home late, nobody planned anything, and the same five meals coming round - then the fix is not a better recipe. It is not having to think about it. A standing chef sorts the week, not the evening.
+              Not everyone comes to this page for a dinner party. If the problem is six o'clock, everyone home late, nobody planned anything, and the same five meals coming round, then the fix is not a better recipe. It is not having to think about it. A standing chef sorts the week, not the evening.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-10 md:gap-y-12 max-w-[1060px] mx-auto">
@@ -328,7 +326,7 @@ export default function PrivateChef() {
             </div>
           </div>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[760px] leading-relaxed">
-            Four days a week on Kitchen on Autopilot is sixteen visits in four weeks. A long month sometimes lands a seventeenth, and we bill that only when it happens. What you pay does not change when a chef moves up a level — that side of it is ours to look after, and you are never asked to pay more for the person you already like.
+            Four days a week on Kitchen on Autopilot is sixteen visits in four weeks. A long month sometimes lands a seventeenth, and we bill that only when it happens. What you pay does not change when a chef moves up a level. That side of it is ours to look after, and you are never asked to pay more for the person you already like.
           </p>
         </Container>
       </Section>
@@ -423,7 +421,7 @@ export default function PrivateChef() {
           <div className="max-w-[720px] mx-auto mt-12">
             <DisplayHeading as="h3" size="h3" className="text-black mb-4">You meet the chef before anything starts</DisplayHeading>
             <BodyCopy>
-              Nobody is sent to your door unannounced. You meet the chef first, and the Food Profile is built with them - how your household eats, the allergies, the timings, what the children will and will not touch. Most chefs come and see the kitchen, look at what is there and talk through the groceries before the first cooking day. By the time your chef starts, they will already have visited your kitchen, discussed your household's preferences and reviewed the available equipment and working environment.
+              Nobody is sent to your door unannounced. You meet the chef first, and the Food Profile is built with them: how your household eats, the allergies, the timings, what the children will and will not touch. Most chefs come and see the kitchen, look at what is there and talk through the groceries before the first cooking day. By the time your chef starts, they have already visited the kitchen, discussed how this house eats, and seen the equipment they will work with.
             </BodyCopy>
           </div>
         </Container>
@@ -435,7 +433,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">How often the chef comes</Eyebrow>
             <DisplayHeading size="h2" className="text-black">Choose the household rhythm</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              We build the plan around the days and meals you actually need — not a package named after an occasion.
+              We build the plan around the days and meals you actually need, not a package named after an occasion.
             </BodyCopy>
           </div>
           <div className="flex flex-wrap justify-center gap-3 mb-8 max-w-[880px] mx-auto">
@@ -467,7 +465,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">Trust</Eyebrow>
             <DisplayHeading size="h2" className="text-black">Who we put in your kitchen</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              A personal chef in Dubai is matched to your kitchen, not simply hired. Anyone can check a chef once, on the day they start. We score every visit, so the standard has to hold — not just be reached once.
+              A personal chef in Dubai is matched to your kitchen, not simply hired. Anyone can check a chef once, on the day they start. We score every visit, so the standard has to hold, not just be reached once.
             </BodyCopy>
           </div>
           <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200 mb-10">
@@ -480,21 +478,13 @@ export default function PrivateChef() {
             ))}
           </ol>
           <div className="max-w-[760px] mx-auto mb-10">
-            <DisplayHeading as="h3" size="h3" className="text-black mb-4">How we maintain service quality</DisplayHeading>
+            <DisplayHeading as="h3" size="h3" className="text-black mb-4">After the chef has started</DisplayHeading>
             <BodyCopy className="mb-4">
-              Our quality process continues after a chef has been selected for an experience.
-            </BodyCopy>
-            <BodyCopy className="mb-4">
-              We use client feedback, service history and ongoing performance assessment to help us understand how each experience is being delivered.
-            </BodyCopy>
-            <BodyCopy className="mb-4">
-              We look at areas such as: food quality and presentation; professionalism and punctuality; cleanliness and kitchen care; communication; understanding of client preferences; consistency across repeat bookings; and overall client satisfaction.
-            </BodyCopy>
-            <BodyCopy className="mb-4">
-              Strong performance is recognised and rewarded across the myCHEF network.
+              A first dinner is easy to get right. Month four is the test. About two days after a visit we call you, separately from the chef, and ask about the service, the food, the person, and what would make next week better.
             </BodyCopy>
             <BodyCopy>
-              The objective is simple: every experience should help us make the next one better.
+              Food comments update the Food Profile. Comments about the person go to their record, never in front of your household. If the match is wrong we change the chef. The full loop sits on{' '}
+              <Link to={CLUSTER_PATHS.quality} className="text-gold-ink underline underline-offset-4 hover:text-gold">Quality &amp; Training</Link>.
             </BodyCopy>
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-6 text-center">
@@ -514,7 +504,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">Pricing</Eyebrow>
             <DisplayHeading size="h2" className="text-black">What you pay depends on the chef, the days you need, and the size of your household.</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              Displayed figures are Professional Chef on a long-term plan, before VAT. Groceries are charged at actual cost. Build your own figure on Pricing & Plans.
+              Displayed figures are the household visit rates, before VAT at 5%. Groceries are charged at actual receipts, with no markup. Build your own figure on Pricing &amp; Plans.
             </BodyCopy>
             <DisplayHeading as="h3" size="h3" className="text-black mt-8">Try the service without a long-term commitment</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
@@ -588,7 +578,7 @@ export default function PrivateChef() {
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-white mb-4">How has it been going?</h3>
           <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-            We do not publish invented reviews. If myCHEF already cooks for you, leave a review — it helps the next family decide.
+            We do not publish invented reviews. If myCHEF already cooks for you, leave a review. It helps the next family decide.
           </p>
           <Link to="/review" className="btn-primary">Leave a Review</Link>
         </div>
@@ -609,7 +599,7 @@ export default function PrivateChef() {
       />
 
       <ClusterCTA
-        body={`Book a private chef in Dubai after the figure is in writing. Long-term plans from ${formatAed(pricingPreview[0].monthly)} a month for a weekly Fresh Meal — up to a full-day chef, seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives before anyone starts.`}
+        body={`Book a private chef in Dubai after the figure is in writing. Long-term plans from ${formatAed(pricingPreview[0].monthly)} a month for a weekly Fresh Meal, up to a full-day chef seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives before anyone starts.`}
       />
     </div>
   )

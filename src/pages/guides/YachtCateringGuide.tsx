@@ -261,7 +261,7 @@ export default function YachtCateringGuide() {
             Everything you need to plan catering for a Dubai yacht charter, from menu formats and route timing to crew coordination and onboard service.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -288,7 +288,7 @@ export default function YachtCateringGuide() {
             A yacht charter in Dubai offers some of the most memorable settings for a celebration: the Marina skyline, the Palm, the open Gulf. But catering on board comes with unique constraints. Galleys are compact, decks move, storage is limited, and service must integrate with the crew and route.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Yacht catering starts from AED 280 per person. What to check: galley size, boarding, fridge space, open-flame rules, and the crew briefing. Unusual access is a separate line.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the practical side of yacht catering so you can choose a menu and service plan that works at sea. To hire the team, go to{' '}
@@ -434,7 +434,7 @@ export default function YachtCateringGuide() {
             Share your yacht size, route, and guest count. We will design a sea-ready menu and service plan for your Dubai cruise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request your quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

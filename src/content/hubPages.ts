@@ -22,7 +22,7 @@ export interface HubCard {
 export const PACKAGE_HUB_SEO = {
   title: 'Catering Packages Dubai | myCHEF',
   description:
-    'Catering Packages Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+    'Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, menu, service, setup and clear-down in the published total.',
   h1: 'Catering Packages Dubai',
   canonical: '/catering-packages-dubai',
 } as const

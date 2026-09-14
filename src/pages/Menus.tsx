@@ -61,45 +61,45 @@ const dietaryTags = [
 const pairings = [
   {
     icon: Wine,
-    title: 'Wine Pairing',
-    description: 'Expertly curated wine selections to complement each course. From Old World classics to emerging New World gems.',
+    title: 'Wine pairing',
+    description: 'Wine only where the venue is licensed or the quotation says so. Pairing notes sit on the proposal as a line, not as a default.',
   },
   {
     icon: GlassWater,
-    title: 'Signature Cocktails',
-    description: 'Bespoke cocktail menus crafted by our mixologist. Welcome drinks, palate cleansers, and after-dinner libations.',
+    title: 'Cocktails and mocktails',
+    description: 'Mocktails as standard. Cocktails only where licensed. The bar is staff and kit, quoted with the food.',
   },
   {
     icon: Users,
-    title: 'Service Staff',
-    description: 'Professional waitstaff, bartenders, and hosts to ensure seamless service throughout your event.',
+    title: 'Service staff',
+    description: 'Waiters, bartenders and hosts sized to headcount. Not assumed if you only want the chef.',
   },
 ]
 
 const MENU_FEATURES: Record<string, string[]> = {
   'plated-chef': [
-    'Multi-course bespoke menu designed around your preferences',
-    'Private chef and dedicated service staff',
-    'Premium ingredients and elegant plating',
-    'Ideal for intimate dinners, villas, and celebrations',
+    'A multi-course menu written for the table',
+    'Chef and service staff sized to the sitting',
+    'Ingredients named on the quote',
+    'For 2 guests and up. AED 700–950 per person',
   ],
   canapes: [
-    'Curated selection of hand-passed canapés',
-    'Welcome cocktails and palate cleansers',
-    'Professional service staff included',
-    'Perfect for receptions and networking events',
+    'Hand-passed canapés, counted to the standing hour',
+    'Mocktails as standard. Cocktails only where licensed',
+    'Service staff as quoted',
+    'From AED 150 per person, from 10 guests',
   ],
   buffet: [
-    'Generous shared dishes and live stations',
-    'Hot and cold options to suit all tastes',
-    'Flexible menu design and dietary coverage',
-    'Great for larger gatherings and celebrations',
+    'A maintained hot and cold line',
+    'Labels for diets, not a mixed unmarked tray',
+    'Staff to replenish, not a waiter on every chair',
+    'From AED 120 per person, from 20 guests',
   ],
   bbq: [
-    'Grilled meats, seafood, and vegetable stations',
-    'Live chef cooking and interactive service',
-    'Sides, salads, and condiments included',
-    'Ideal for poolside, garden, and villa events',
+    'A live grill where the venue allows flame',
+    'Named proteins, sides and sauces',
+    'Chef at the station, waiters if you ask',
+    'From AED 150 per person, from 15 guests',
   ],
 }
 
@@ -119,15 +119,15 @@ const pricingTiers = MENU_FORMAT_IDS.map((id) => {
 const pricingFaqs = [
   {
     q: 'How are catering menus Dubai priced?',
-    a: 'Chef-led plated dining starts from AED 700 per person on this page and on the Catering hub. Indicative market for staffed dinners sits around AED 700–950. Household chef visit rates are separate.',
+    a: 'By format, using the same floors as the Catering hub: plated AED 700–950 per person, canapés from AED 150, buffet from AED 120, BBQ and live stations from AED 150. Packages are totals, not per-person floors. Household chef visit rates are separate.',
   },
   {
     q: 'Is there a minimum guest count?',
-    a: 'We coordinate catering for events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
+    a: 'Yes, by format: 2 for plated, 10 for canapés, 15 for BBQ, 20 for a standard event buffet. Below a minimum we will say so rather than stretch the format.',
   },
   {
-    q: 'Can we customize the menu?',
-    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. Our chefs collaborate with you to create a menu that fits your vision.',
+    q: 'Can we customise the menu?',
+    a: 'Yes. The sample dishes on this page are samples. The written menu follows the occasion, the guest list and the kitchen. Diets go into the first draft.',
   },
 ]
 
@@ -252,7 +252,7 @@ export default function Menus() {
   return (
     <>
       <SEO
-        title="Catering Menus Dubai | Chef Inspiration & Cuisines"
+        title="Catering Menus Dubai | myCHEF"
         description="Catering Menus Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"
@@ -279,7 +279,7 @@ export default function Menus() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mb-4">Service Format Pricing</h2>
+            <h2 className="font-playfair text-h2 text-black mb-4">Starts by format, same as the hub</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
               Starts match the Catering hub floors. Indicative market bands on the prices guide are not myCHEF starts. Household chef visit rates stay on the private chef pricing page.
             </p>
@@ -381,10 +381,10 @@ export default function Menus() {
         <div className="container-custom max-w-[1000px]">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">A TASTE OF WHAT WE CREATE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white mb-4">Sample Evening Menu</h2>
+            <SectionLabel align="center" tone="dark">SAMPLE, NOT A FIXED LIST</SectionLabel>
+            <h2 className="font-playfair text-h2 text-white mb-4">A sample evening, not a printed list</h2>
             <p className="font-inter text-body text-gray-400">
-              This is an example of a multi-course private dining experience. Every menu is fully customized.
+              One plated evening, written as an example. Your menu is rewritten for the occasion, the guest list and the kitchen.
             </p>
           </div>
 
@@ -408,7 +408,7 @@ export default function Menus() {
 
           {/* Note + CTA */}
           <p className="font-inter text-body-sm text-gray-400 italic text-center mt-8 mb-8">
-            This is a sample menu for inspiration only. Every menu we create is bespoke.
+            Sample only. The dishes you confirm are the ones on the proposal.
           </p>
           <div className="text-center">
             <Link to="/inquiry" className="btn-primary">
@@ -422,7 +422,7 @@ export default function Menus() {
       <section ref={dietaryRef} className="bg-cream py-20">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Every Dietary Need, Expertly Handled
+            Diets go on the first draft
           </h2>
 
           {/* Dietary Tags */}
@@ -439,7 +439,7 @@ export default function Menus() {
           </div>
 
           <p className="font-inter text-body text-gray-500 text-center max-w-[700px] mx-auto">
-            Have specific requirements? We accommodate all dietary needs without compromising on flavor or presentation.
+            Named diets, including halal by default, sit on the menu as dishes. This is not a medical allergen-free claim.
           </p>
         </div>
       </section>
@@ -449,8 +449,8 @@ export default function Menus() {
         <div className="container-custom">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">ELEVATE YOUR EXPERIENCE</SectionLabel>
-            <h2 className="font-playfair text-fluid-h2 text-white">Wine, Cocktails & Service</h2>
+            <SectionLabel align="center" tone="dark">DRINKS AND STAFF</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 text-white">Wine, cocktails and waiters, quoted as lines</h2>
           </div>
 
           {/* 3-Column Grid */}
@@ -513,11 +513,11 @@ export default function Menus() {
           <div className="cta-content">
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Your Perfect<br />
-              <span className="text-gold">Menu Awaits</span>
+              Send the occasion<br />
+              <span className="text-gold">and the guest list</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Tell us your vision. We will design a menu that exceeds every expectation.
+              We rewrite the sample into a menu for that table and send an itemised quote. We typically reply within 15 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/inquiry" className="btn-primary">

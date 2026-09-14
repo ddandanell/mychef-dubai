@@ -35,83 +35,83 @@ const CANONICAL_PATH = '/how-we-vet-our-chefs'
 const vetSteps = [
   {
     icon: IdCard,
-    title: 'Identity & Right-to-Work Checks',
-    description: 'Before any chef joins our network, we verify government-issued identification, valid UAE visa status, and right-to-work documentation. We do not accept chefs who cannot prove they are legally permitted to work in the UAE.',
+    title: 'Identity and right to work',
+    description: 'We ask to see government-issued identification, a valid UAE visa and the right-to-work document. We do not take a declaration on a form. A licensed supplier employs the chef; the checks are ours to run.',
   },
   {
     icon: ChefHat,
-    title: 'In-Person Skill Assessment',
-    description: 'Every chef completes a practical cook-off in a controlled kitchen environment. We evaluate knife skills, hygiene habits, plating precision, time management, and the ability to cook multiple dishes simultaneously under pressure.',
+    title: 'A cooking assessment, not a CV',
+    description: 'Every chef cooks in a kitchen we can watch. We look at hygiene, timing, how they handle a brief, and whether the food is right for a house rather than a restaurant pass. A CV is not enough.',
   },
   {
     icon: ClipboardCheck,
-    title: 'Reference Checks',
-    description: 'We contact previous employers, clients, or hospitality venues to confirm employment history, reliability, professionalism, and quality of output. Gaps or concerns are investigated before approval.',
+    title: 'References we actually call',
+    description: 'We speak to previous employers, clients or venues. Gaps and concerns are investigated before anyone is sent into a home. Nothing on a chef’s record is invented, imported or guessed.',
   },
   {
     icon: GraduationCap,
-    title: 'Food Safety Training',
-    description: 'Chefs must demonstrate knowledge of safe food handling, temperature control, cross-contamination prevention, and allergen management. PIC (Person in Charge) certification is preferred; basic food hygiene awareness is mandatory.',
+    title: 'Food safety, not a badge on every profile',
+    description: 'Safe handling, temperature control, cross-contamination and allergen practice are required. PIC (Person in Charge) is preferred. We do not claim every chef holds a named certificate.',
   },
   {
     icon: CalendarCheck,
-    title: 'Trial Event Period',
-    description: 'New chefs start Provisional: supervised visits and smaller bookings, in real houses, before anyone cooks for a household on their own or runs a night with guests. A cook-off in a kitchen tells us more than a CV, and a first real visit tells us more than the cook-off.',
+    title: 'A supervised first visit',
+    description: 'New chefs start on smaller or supervised bookings: a household lunch before a household plan, a small night before a large one. A first real visit tells us more than the cook-off.',
   },
   {
     icon: TrendingUp,
-    title: 'Ongoing Performance Reviews',
-    description: 'Vetting does not stop at onboarding. Every household scores the service, the food, the person and what would make next week better. 4.0 and up climbs a level and earns 10% or 20% more; 3.5 to 3.9 holds; under 3.5 drops a level, and under 2.5 twice ends the household work. Safety is never a score — it is a stop.',
+    title: 'The house scores the work',
+    description: 'After visits we ask four questions: the service, the food, the person, and what would make next week better. Consistently strong work climbs a level. Steady holds. Below the standard drops a level. Well under, twice, and we stop sending that chef to homes. Safety is never a score. It is a stop.',
   },
 ]
 
 const standards = [
   {
-    title: 'Legal Verification First',
-    description: 'No chef is activated until identity, visa, and right-to-work documents are checked and recorded.',
+    title: 'Papers before the kitchen',
+    description: 'No chef is sent until identity, visa and right-to-work documents are checked and recorded.',
   },
   {
-    title: 'Practical Cooking Assessment',
-    description: 'Theory alone is not enough. We assess each chef on real dishes, real timing, and real presentation.',
+    title: 'They cook before they enter a house',
+    description: 'Theory is not enough. We watch real dishes, real timing and how they leave a kitchen.',
   },
   {
-    title: 'Verified References',
-    description: 'We speak directly to past employers or clients rather than relying on CV claims.',
+    title: 'References, not testimonials on a website',
+    description: 'We speak to past employers or clients. We do not publish invented reviews.',
   },
   {
-    title: 'Food Safety, Not Just Flavour',
-    description: 'Taste matters, but so does safe handling. Every chef must demonstrate hygiene discipline before working with clients.',
+    title: 'Food safety sits beside flavour',
+    description: 'Taste matters. Safe handling is what stops a booking. PIC is preferred; basic hygiene is required.',
   },
   {
-    title: 'No Guaranteed Placement',
-    description: 'We do not guarantee any chef a fixed amount of work. Household plans and event nights are assigned on availability, skill fit and what the client needs — and a chef holding Level 3 sees the catering work first, because a person who holds a house together is who we want running an event.',
+    title: 'No chef is guaranteed work',
+    description: 'Household plans and event nights are assigned on availability, skill fit and what the client needs. A chef holding Level 3 sees catering work first, because a person who holds a house together is who we want running an event.',
   },
 ]
 
 const faqs = [
   {
     q: 'How do you verify your chefs?',
-    a: 'We verify identity, UAE visa status and right-to-work documents — we ask to see them, not to be told about them. We also run practical skill assessments, reference checks, food-safety evaluations and supervised first visits. A licensed supplier employs the chef; the checks are ours to run and ours to stand behind.',
+    a: 'We verify identity, UAE visa status and right-to-work documents. We ask to see them, not to be told about them. We also run a practical cooking assessment, reference checks, food-safety evaluation and a supervised first visit. A licensed supplier employs the chef; the checks are ours to run and ours to stand behind.',
   },
   {
-    q: 'Are chefs in your network food-safety-certified?',
-    a: 'We do not claim that every our chef holds a specific food-safety certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
+    q: 'Are private chefs licensed in Dubai?',
+    a: 'The chef is employed by a licensed supplier on a proper visa. We are not the employer. We match the person, run the checks, score the work and stand behind the booking.',
   },
   {
     q: 'Do you check references for every chef?',
-    a: 'Yes. Reference checks are a mandatory part of our vetting process. We contact previous employers or clients to confirm skills, reliability, and professionalism.',
+    a: 'Yes. We contact previous employers or clients. A CV is not enough.',
   },
   {
     q: 'What happens on a new chef’s first bookings?',
-    a: 'New chefs are assigned to smaller or supervised visits — a household lunch before a household plan, a small night before a large one — so we can see punctuality, presentation and how they are with the people in the room before anything high-stakes.',
+    a: 'New chefs are assigned to smaller or supervised visits: a household lunch before a household plan, a small night before a large one. We look at punctuality, presentation and how they are with the people in the room before anything high-stakes.',
   },
   {
-    q: 'Is a specific chef guaranteed for my event?',
-    a: 'No. We match each event to the best available chef based on cuisine expertise, availability, location, and event requirements. If your preferred chef is unavailable, we propose a suitable replacement.',
+    q: 'Is a named chef guaranteed?',
+    a: 'No. We match the brief to the best available chef. If a preferred chef is unavailable, we propose a replacement who fits the cuisine, the house and the date.',
   },
   {
-    q: 'How do you maintain quality over time?',
-    a: 'We collect client feedback after every event, monitor punctuality and presentation, and remove chefs from the network if performance falls below our standards.',
+    q: 'How do you keep the standard after the first visit?',
+    a: 'The household scores the service, the food, the person and what would make next week better. Consistently strong work climbs a level. Below the standard drops a level. Well under, twice, and we stop sending that chef to homes. Safety is a stop, not a score.',
   },
 ]
 
@@ -199,7 +199,7 @@ export default function HowWeVetOurChefs() {
     <div ref={containerRef}>
       <SEO
         title="Private Chef Background Checks Dubai | myCHEF"
-        description="Private Chef Background Checks Dubai — See how myCHEF Dubai vets private chefs: ID checks, skill assessments, references, food-safety training, trial…"
+        description="Private chef background checks in Dubai: identity, right to work, a cooking assessment, references, then a supervised first visit. A CV is not enough."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -223,13 +223,13 @@ export default function HowWeVetOurChefs() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 vet-hero-h1">
-            Private Chef Background Checks Dubai: How We Vet Our Private Chefs in Dubai
+            Private Chef Background Checks Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
-            Trust begins with rigorous standards. Every chef in the myCHEF Dubai network passes identity checks, practical assessments, reference verification, and ongoing performance reviews.
+            Finding a chef is easy. Knowing who you are letting into your home is harder. Identity, right to work, a cooking assessment, references, then a supervised first visit.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -246,22 +246,22 @@ export default function HowWeVetOurChefs() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">TRUST & TRANSPARENCY</SectionLabel>
+          <SectionLabel align="center">WHO COOKS IN THE HOUSE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Standards You Can See
+            Private chef background checks Dubai before anyone enters
           </h2>
           <div className="vet-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              When you invite a private chef into your home, villa, or yacht, you are trusting more than their cooking. You are trusting their professionalism, their hygiene habits, their punctuality, and their judgment around your family, guests, and property. That is why myCHEF Dubai does not treat vetting as a one-time checkbox. It is a continuous process built around verification, assessment, reference checks, and real-world observation.
+              When you invite a chef into a home, you are trusting more than their cooking. You are trusting how they behave around your family, your guests and your kitchen. That is why a CV is not enough, and why we do not send someone on a declaration.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              A licensed supplier employs the chef on a proper visa. We match the person to the house, run the checks, score the work and stand behind the booking. We are not an agency that hands you a stack of CVs and disappears. We are not the employer either.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              We are also honest about what vetting means. No system can eliminate every risk, and no chef is automatically guaranteed work. We match each event to the best available chef based on cuisine expertise, availability, and client requirements. Our commitment is that every chef who represents myCHEF Dubai has met the standards below — and continues to meet them through regular feedback and review.
+              No system removes every risk. No chef is guaranteed work. We match the brief to the person who is available and right for it. If the match is wrong, we change the chef. The Food Profile stays with the household so the next visit is not a restart.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are considering a private chef for your next event, you may also want to read about <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, meet our <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">featured chefs</Link>, or see how to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join our chefs</Link>.
+              Also read <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how a booking is protected</Link>, <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">who cooks</Link>, or <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs apply</Link>.
             </p>
           </div>
         </div>
@@ -271,9 +271,9 @@ export default function HowWeVetOurChefs() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center">THE VETTING PROCESS</SectionLabel>
+            <SectionLabel align="center">THE CHECKS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Six Layers of Verification
+              What we check before a chef represents myCHEF
             </h2>
           </div>
 
@@ -296,9 +296,9 @@ export default function HowWeVetOurChefs() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">OUR COMMITMENT</SectionLabel>
+            <SectionLabel align="center" tone="dark">WHAT THIS IS NOT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              What Vetting Means at myCHEF Dubai
+              Vetting is a loop, not a badge
             </h2>
           </div>
 
@@ -318,9 +318,9 @@ export default function HowWeVetOurChefs() {
             <div className="flex items-start gap-4">
               <Users size={28} className="text-gold flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-playfair text-h4 text-white mb-2">No Chef Is Guaranteed</h3>
+                <h3 className="font-playfair text-h4 text-white mb-2">No chef is guaranteed</h3>
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
-                  We do not promise any chef a fixed schedule or a specific number of events. Work is assigned based on availability, skill fit, and client needs. If your preferred chef is unavailable, we will propose a replacement who matches your cuisine, event size, and location.
+                  We do not promise any chef a fixed schedule. Work is assigned on availability, skill fit and what the client needs. If a preferred chef is unavailable, we propose a replacement who matches the cuisine, the house and the date.
                 </p>
               </div>
             </div>
@@ -383,7 +383,7 @@ export default function HowWeVetOurChefs() {
             Every myCHEF Dubai chef is verified, assessed, and reviewed. Tell us about your event and we will bring you the right chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

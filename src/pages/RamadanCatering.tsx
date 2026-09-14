@@ -39,69 +39,69 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const ramadanFormats = [
   {
     icon: Moon,
-    title: 'Iftar Catering',
-    description: 'Generous iftar spreads to break the fast — dates, soups, traditional Arabic mains, and grilled dishes, served with warmth and care for your gathering.',
+    title: 'Iftar catering',
+    description: 'Dates, soup, Arabic mains and grills, timed to Maghrib at the address you give us.',
     link: '/iftar-catering-dubai',
   },
   {
     icon: Sunrise,
-    title: 'Suhoor Catering',
-    description: 'Late-night, pre-dawn suhoor menus designed to sustain the day ahead, from light savoury plates to comforting hot dishes and refreshing drinks.',
+    title: 'Suhoor catering',
+    description: 'A quieter pre-dawn sitting: light plates or hot dishes, served before Fajr.',
     link: '/ramadan-catering-dubai',
   },
   {
     icon: Building,
-    title: 'Corporate Iftar',
-    description: 'Professional iftar functions for offices, clients, and teams across Dubai — buffet stations, plated service, and full coordination for the occasion.',
+    title: 'Corporate iftar',
+    description: 'An office or client iftar with a clock: buffet or plated, packed before the next slot.',
     link: '/corporate',
   },
   {
     icon: Home,
-    title: 'Home & Majlis Iftar',
-    description: 'Intimate iftar and family gatherings in your home or majlis, with on-site cooking, service staff, and a spread styled to welcome your guests.',
+    title: 'Home and majlis iftar',
+    description: 'On-site cooking and service in the kitchen or majlis you already have.',
     link: '/catering-dubai',
   },
   {
     icon: Users,
-    title: 'Large Gatherings',
-    description: 'Iftar and suhoor for sizeable gatherings, charity events, and community evenings, planned and delivered with consistency from first guest to last.',
+    title: 'Large gatherings',
+    description: 'Community and charity iftars. Guest count and holding decide the crew.',
     link: '/catering-dubai',
   },
   {
     icon: Home,
-    title: 'Villa Ramadan Service',
-    description: 'fully-coordinated catering for villa events across Dubai — setup, cooking, service, and pack-down handled so you can simply host.',
+    title: 'Villa Ramadan service',
+    description: 'Setup, cooking, service and pack-down at a villa you control.',
     link: '/catering-dubai',
   },
 ]
 
 const includedItems = [
-  { title: 'Iftar & Suhoor Menus', description: 'Curated menus for breaking the fast and pre-dawn suhoor, built around the occasion.' },
-  { title: 'Traditional Arabic Dishes', description: 'Classic mezze, soups, grills, and slow-cooked mains rooted in regional tradition.' },
-  { title: 'Halal Ingredients', description: 'All dishes are prepared with halal ingredients sourced from trusted suppliers.' },
-  { title: 'Dates & Ramadan Staples', description: 'Premium dates, laban, and seasonal Ramadan favourites included as standard.' },
-  { title: 'Buffet & Plated Service', description: 'Buffet stations, family-style platters, or plated service to suit your gathering.' },
-  { title: 'Service Staff & Setup', description: 'Waiters, hosts, and styling arranged for your home, majlis, or venue.' },
-  { title: 'Timing Around Prayer', description: 'Service planned around Maghrib and your schedule so food is ready when you are.' },
-  { title: 'Full Setup & Pack-Down', description: 'We arrive, set up, serve, and clear away so the evening runs effortlessly.' },
+  { title: 'Iftar and suhoor menus', description: 'Two different sittings. The clock is Maghrib or Fajr, not a dinner slot.' },
+  { title: 'Arabic dishes', description: 'Mezze, soups, grills and slow-cooked mains written for this table.' },
+  { title: 'Halal ingredients', description: 'Halal sourcing is the default.' },
+  { title: 'Dates and staples', description: 'Dates, laban and the opening plates named in the menu draft.' },
+  { title: 'Buffet or plated', description: 'A maintained spread, family-style platters, or courses at the table.' },
+  { title: 'Staff', description: 'Waiters sized to the home, majlis or hall you have booked.' },
+  { title: 'Timing around prayer', description: 'Food hot at Maghrib. Suhoor served quietly before Fajr.' },
+  { title: 'Setup and pack-down', description: 'We arrive, serve and leave the kitchen as we found it.' },
 ]
 
 const useCases = [
   {
-    title: 'Home & Majlis Iftar',
-    description: 'For family iftars and majlis gatherings, we bring traditional Arabic spreads to your home, cooking and serving on-site so you can welcome guests and break the fast together without lifting a finger in the kitchen.',
+    title: 'Home and majlis iftar',
+    description: 'Family iftar at your address. You welcome guests. We cook and clear.',
   },
   {
-    title: 'Corporate Iftar Functions',
-    description: 'For offices, clients, and teams across Dubai, we plan and deliver corporate iftar functions — buffet stations or plated service, full coordination, and timing built around Maghrib, pairing naturally with our wider corporate catering.',
+    title: 'Corporate iftar functions',
+    description: 'Offices, clients and teams. Buffet or plated, timed to Maghrib, then a room that has to work again.',
   },
   {
-    title: 'Suhoor Gatherings',
-    description: 'For late-night suhoor with family, friends, or colleagues, we design pre-dawn menus that sustain the day ahead, from light savoury plates and pastries to comforting hot dishes served quietly into the early hours.',
+    title: 'Suhoor gatherings',
+    description: 'A quieter sitting before Fajr: pastries, eggs, foul, shakshuka or grills, served without a party volume.',
   },
   {
-    title: 'Large & Community Evenings',
-    description: 'For sizeable gatherings, charity iftars, and community evenings, chefs in our network scale menus and service while keeping quality consistent from the first guest to the last, however large the room.',
+    title: 'Large and community evenings',
+    description: 'Charity and community iftars. Guest count and holding decide the crew. No chef is guaranteed by name.',
   },
 ]
 
@@ -141,46 +141,46 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater both iftar and suhoor during Ramadan?',
-    a: 'Yes. We coordinate catering for the full Ramadan calendar — generous iftar spreads to break the fast at Maghrib and quieter, sustaining suhoor menus in the pre-dawn hours. We can design a menu for either, or both across the same gathering.',
+    a: 'Yes. Iftar at Maghrib and suhoor before Fajr. We can quote one sitting or both. Suhoor as a standalone search sits on this Ramadan hub.',
   },
   {
     q: 'Is all your Ramadan catering halal?',
-    a: 'Always. Every dish across our iftar, suhoor, and Ramadan menus is prepared with halal ingredients sourced from trusted suppliers. This is our standard for the season and throughout the year.',
+    a: 'Yes. Halal sourcing is the default on iftar, suhoor and Ramadan menus.',
   },
   {
     q: 'Can you cater corporate iftar functions?',
-    a: 'We do. For offices, clients, and teams across Dubai, we plan corporate iftar functions with buffet stations or plated service, full coordination, and timing built around Maghrib so everything is ready the moment the fast breaks.',
+    a: 'Yes. Buffet or plated, timed to Maghrib, then pack-down. Access times belong in the brief.',
   },
   {
     q: 'Do you handle home and majlis gatherings?',
-    a: 'Yes. We bring traditional Arabic spreads to your home or majlis, cooking and serving on-site with our own staff. Setup, service, and pack-down are all handled so you can focus on welcoming your guests.',
+    a: 'Yes. We cook at your home or majlis. Staffed bookings include setup, service and pack-down.',
   },
   {
     q: 'How is service timed around prayer?',
-    a: 'We plan every iftar around Maghrib and your schedule, with the table ready and the meal hot the moment the fast breaks. For suhoor, we serve quietly into the early hours so guests are sustained for the day ahead.',
+    a: 'Iftar is hot at Maghrib. Suhoor is served quietly before Fajr. The running order is written into the quote.',
   },
   {
     q: 'How far in advance should I book Ramadan catering?',
-    a: 'Ramadan is our busiest season, so we recommend booking six to eight weeks ahead to secure your preferred dates. Corporate functions and larger gatherings in particular fill quickly, and earlier booking gives us the most time to tailor your menu.',
+    a: 'Six to eight weeks is the usual window. Corporate iftars and larger gatherings book earlier.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Iftar Catering',
-    description: 'Generous iftar spreads to break the fast — dates, soups, grills, and Arabic mains.',
+    description: 'The Maghrib sitting: dates, soup, grills and mains.',
     image: '/service-events.webp',
     link: '/iftar-catering-dubai',
   },
   {
     title: 'Suhoor Catering',
-    description: 'Pre-dawn suhoor menus to sustain the day ahead, for home and corporate gatherings.',
+    description: 'The pre-dawn sitting. Quoted on this Ramadan hub.',
     image: '/menu-appetizer.webp',
     link: '/ramadan-catering-dubai',
   },
   {
     title: 'Eid Catering',
-    description: 'Celebratory Eid feasts — ouzi, grills, and sweets for family gatherings across Dubai.',
+    description: 'The sitting after the month: ouzi, grills and sweets.',
     image: '/menu-meat.webp',
     link: '/eid-catering-dubai',
   },
@@ -291,8 +291,8 @@ export default function RamadanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef | myCHEF"
-        description="Book Ramadan catering Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
+        title="Ramadan Catering Dubai | myCHEF"
+        description="Ramadan catering Dubai for iftar and suhoor at home, majlis or office. Halal menus, timed to prayer. Buffet from AED 120. Itemised quote."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -317,10 +317,10 @@ export default function RamadanCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ram-hero-h1">
-            Ramadan Catering Dubai: Iftar, Suhoor & Private Chef Service
+            Ramadan Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ram-hero-sub">
-            Halal iftar and suhoor menus for home, majlis, corporate, and villa gatherings across Dubai — traditional spreads, attentive service, and timing planned around prayer.
+            Ramadan catering Dubai for iftar and suhoor at your home, majlis or office. Halal menus, timed to prayer, cooked at your address, then cleared.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Secure My Ramadan Date</Link>
@@ -343,7 +343,7 @@ export default function RamadanCatering() {
       <section className="bg-gold py-4">
         <div className="container-custom text-center">
           <p className="font-inter text-sm font-medium text-black">
-            Book early — Ramadan dates fill up quickly. Limited availability for Iftar and Suhoor during the Holy Month.
+            Book early. Ramadan dates fill. Iftar and suhoor slots are limited during the month.
           </p>
         </div>
       </section>
@@ -353,16 +353,16 @@ export default function RamadanCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE HOLY MONTH IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering for Every Evening of Ramadan
+            Ramadan catering Dubai, timed to Maghrib and Fajr
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Ramadan is a season of gathering — of breaking the fast together at Maghrib and sharing quiet suhoor before the day begins. At myCHEF Dubai, we treat the holy month with the care it deserves, bringing generous, halal spreads to homes, majlis, offices, and villas across the city. From the first date and bowl of soup to slow-cooked mains and traditional sweets, every menu is built to honour the occasion and welcome your guests.
+            Ramadan catering Dubai is iftar at Maghrib and suhoor before Fajr, at your home, majlis, office or villa. Halal menus. Dates, soup, mains, sweets. We cook at your address. The clock is prayer, not a restaurant sitting.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. Dietary notes go into the first draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, chefs in our network and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or the wider <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            The Maghrib sitting is owned in more detail on <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link>. Suhoor is quoted on this hub. Eid after the month sits on <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link>. The season sits on the <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar. Book six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -373,7 +373,7 @@ export default function RamadanCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">RAMADAN FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Iftar, Suhoor & Everything Between
+              Iftar, suhoor and the sittings between
             </h2>
           </div>
 
@@ -407,7 +407,7 @@ export default function RamadanCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Designed for the Occasion
+              Home, majlis, office, community hall
             </h2>
           </div>
 
@@ -426,7 +426,7 @@ export default function RamadanCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Ramadan Catering Includes
+            What a staffed Ramadan sitting includes
           </h2>
 
           <div className="ram-inc-grid grid md:grid-cols-2 gap-6">
@@ -447,7 +447,7 @@ export default function RamadanCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Ramadan Catering
+            How Ramadan catering looks in Dubai
           </h2>
 
           <div className="ram-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -468,7 +468,7 @@ export default function RamadanCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Ramadan Catering Dubai: the questions we get before a booking
+            Questions before you book
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -554,10 +554,10 @@ export default function RamadanCatering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ram-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Let's Plan Your Ramadan Gathering
+            Send iftar or suhoor, the date and the address
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your iftar or suhoor and we'll design a halal menu, time the service around prayer, and handle every detail. Booking six to eight weeks ahead secures your dates.
+            Tell us Maghrib or Fajr, guest count and whether it is home, majlis or office. We send an itemised Ramadan catering Dubai quote. Book six to eight weeks ahead.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Secure My Ramadan Date</Link>

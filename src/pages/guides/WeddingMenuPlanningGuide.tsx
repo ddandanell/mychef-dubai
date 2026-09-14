@@ -100,8 +100,8 @@ export default function WeddingMenuPlanningGuide() {
       <PageHero
         variant="quiet"
         eyebrow="Wedding Catering Menu Dubai"
-        title="Wedding Menu Planning Dubai — catering"
-        subtitle="Wedding Menu Planning Dubai by myCHEF — How guests eat, which kitchen the day belongs to, what a tasting is for, and three sample shapes — garden, ballroom, yacht. Not a price list."
+        title="Wedding Menu Planning Dubai"
+        subtitle="How guests eat, which kitchen the day belongs to, what a tasting is for, and three sample shapes: garden, ballroom, yacht. Not a price list."
         image={menuHero.src}
         imageAlt={menuHero.alt}
         imageWidth={menuHero.width}
@@ -124,7 +124,7 @@ export default function WeddingMenuPlanningGuide() {
           <SectionLabel>START HERE</SectionLabel>
           <DisplayHeading className="text-black mb-6">Build the menu around the wedding, not a package</DisplayHeading>
           <BodyCopy className="mb-5">
-            This page is for couples who want wedding food menu ideas they can actually serve in Dubai — villas, gardens, hotels, yachts. To hire the team, go to{' '}
+            This page is for couples who want wedding food menu ideas they can actually serve in Dubai: villas, gardens, hotels, yachts. To hire the team, go to{' '}
             <Link to={WEDDING_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               wedding catering Dubai
             </Link>
@@ -141,7 +141,7 @@ export default function WeddingMenuPlanningGuide() {
           <SectionLabel>HOW GUESTS EAT</SectionLabel>
           <DisplayHeading className="text-black mb-6">The format is the first menu decision</DisplayHeading>
           <BodyCopy className="mb-10">
-            A plated wedding menu, a wedding buffet menu, stations, canapés and sharing tables create different evenings. One wedding can use more than one. Grazing versus a proper buffet is its own argument — read{' '}
+            A plated wedding menu, a wedding buffet menu, stations, canapés and sharing tables create different evenings. One wedding can use more than one. Grazing versus a proper buffet is its own argument: read{' '}
             <Link to="/blog/grazing-table-vs-buffet-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               grazing table vs buffet
             </Link>
@@ -193,7 +193,7 @@ export default function WeddingMenuPlanningGuide() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHICH KITCHEN</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Indian, Arabic, Lebanese, fusion — one meal, not a food court</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Indian, Arabic, Lebanese, fusion: one meal, not a food court</DisplayHeading>
           <BodyCopy className="mb-10 max-w-3xl">
             Dubai weddings often hold more than one kitchen in the same family. That can work. It works when someone designs the overlap: spice, richness, vegetarian depth, and what arrives first. It fails when the buffet is a list of greatest hits.
           </BodyCopy>
@@ -256,7 +256,7 @@ export default function WeddingMenuPlanningGuide() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE ROOM CHANGES THE FOOD</SectionLabel>
-          <DisplayHeading className="text-black mb-10">Villa, ballroom, yacht — the menu follows the kitchen</DisplayHeading>
+          <DisplayHeading className="text-black mb-10">Villa, ballroom, yacht: the menu follows the kitchen</DisplayHeading>
           <div className="space-y-8">
             {venueMenuNotes.map((item) => (
               <div key={item.title}>

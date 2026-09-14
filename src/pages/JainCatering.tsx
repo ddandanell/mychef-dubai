@@ -11,127 +11,126 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'jain-catering-dubai',
-  seoTitle: 'Jain Catering Dubai | No-Onion/Garlic Weddings & Events | myCHEF',
+  seoTitle: 'Jain Catering Dubai | myCHEF',
   metaDescription:
-    'Book Jain catering Dubai. No-onion, no-garlic, root-vegetable-free menus for weddings, Paryushan and family celebrations. Get a tailored quote in 15 minutes.',
+    'Jain Catering Dubai with a vetted myCHEF team. No onion, no garlic, no root vegetables. Menus, service and clear-down so you stay a guest at your table.',
   canonicalPath: '/jain-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/jain-catering-dubai-hero.webp',
   breadcrumbLabel: 'Jain Catering Dubai',
   h1: 'Jain Catering Dubai',
-  primaryCta: 'Get My Jain Catering Quote',
   heroSub:
-    'Respectful Jain catering for Dubai weddings, festivals and family gatherings — lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
+    'Jain Catering Dubai is a full lacto-vegetarian menu without onion, garlic, root vegetables, mushrooms or eggs. We cook at your address and pack down after service.',
   heroImage: '/images/jain-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan Jain catering in Dubai (via mychef.ae/jain-catering-dubai)",
   eyebrow: 'JAIN CATERING IN DUBAI',
-  introH2: 'Catering That Honours Jain Dietary Principles',
+  introH2: 'No onion, no garlic, no roots. A proper table anyway.',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Jain catering requires more than simply leaving meat off the plate. It calls for a respectful approach to ingredients — no onion, no garlic, no root vegetables such as potatoes and carrots, no mushrooms, and no eggs. At myCHEF Dubai, we plan Jain menus with the care these traditions deserve, drawing on the depth of Indian vegetarian cooking to create dishes that are aromatic, colourful and completely compliant.
+        Jain food rules are not a vegetarian swap. Meat, fish and eggs are off. So are onion, garlic, mushrooms and root vegetables such as potato, carrot, radish and beetroot. Jain Catering Dubai is written to those rules from the first draft, using pulses, grains, dairy, leafy greens, gourds and spices. Dietary notes go into the first menu draft.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+        Traditional Jain cooking is lacto-vegetarian. Dairy stays on unless you ask for vegan. Jain and halal are different systems. We never combine them as one label. Paryushan and other observances can tighten the list further. Send that list with the date.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Our Jain menus are ideal for weddings, Paryushan, Diwali gatherings, housewarmings and family celebrations across Dubai. We source appropriate ingredients, use separate prep awareness, and design dishes around pulses, grains, dairy, leafy greens, gourds, beans and aromatic spices. See how this connects with our{' '}
+        The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. See{' '}
         <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Indian catering Dubai
-        </Link>{' '}
-        range, explore our wider{' '}
+        </Link>
+        {' '}for regional kitchens,{' '}
         <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           vegetarian catering Dubai
-        </Link>{' '}
-        options, browse our{' '}
+        </Link>
+        {' '}for a wider vegetarian table, our{' '}
         <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           cuisine collection
-        </Link>{' '}
-        for mixed-diet events, or read about our{' '}
+        </Link>
+        , or{' '}
         <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           allergy-safe catering
-        </Link>{' '}
-        approach for complex dietary requirements.
+        </Link>
+        {' '}when allergens sit on the same brief.
       </p>
     </>
   ),
-  formatsH2: 'Jain Catering Formats',
+  formatsH2: 'How a Jain menu is served',
   formats: [
     {
       Icon: Utensils,
       title: 'Plated Jain Dinners',
-      description: 'Elegant multi-course Jain meals for weddings, engagements and milestone celebrations, plated with traditional and contemporary presentation.',
+      description: 'Courses that respect the rules and still read as a celebration. Useful for weddings, engagements and smaller seated tables.',
       link: '/catering-dubai',
     },
     {
       Icon: Salad,
       title: 'Jain Buffets',
-      description: 'Generous vegetarian buffets with a full Jain section, clearly labelled and served with separate utensils where required.',
+      description: 'A labelled Jain section, or a fully Jain buffet. Separate utensils where the room needs them.',
       link: '/buffet-catering-dubai',
     },
     {
       Icon: Leaf,
       title: 'Jain Thali Service',
-      description: 'Traditional thali-style service with small portions of multiple Jain dishes, breads, rice, sweets and accompaniments.',
+      description: 'Small portions of several dishes, breads, rice, sweets and accompaniments on one tray. A clear way to show range without onion or garlic.',
       link: '/indian-catering-dubai',
     },
     {
       Icon: Sprout,
       title: 'Jain Canapés',
-      description: 'Refined bite-sized options for receptions and cocktail events, free from onion, garlic and root vegetables.',
+      description: 'Passed bites without onion, garlic or root vegetables. Reception food that does not break the brief.',
       link: '/canape-catering-dubai',
     },
     {
       Icon: Home,
       title: 'Villa & Home Jain Feasts',
-      description: 'Full-service Jain dining at home for family gatherings and religious occasions across Dubai’s neighbourhoods.',
+      description: 'Family gatherings and religious occasions at home. We cook, serve and pack down in your kitchen.',
       link: '/villas-private-residences',
     },
     {
       Icon: Building,
       title: 'Corporate Jain Lunches',
-      description: 'Inclusive vegetarian lunch options for offices with Jain guests or team members.',
+      description: 'Office lunches with a Jain line that is a proper main, not a side of salad.',
       link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE JAIN CATERING IS ESSENTIAL',
-  useCasesH2: 'Respectful Menus for Meaningful Occasions',
+  useCasesH2: 'The rules first. The menu second.',
   useCases: [
     {
-      title: 'Jain Weddings & Engagements',
+      title: 'Jain weddings and engagements',
       description:
-        'Weddings with Jain families require full menus that respect religious practice while still feeling celebratory and abundant. We plan every course accordingly.',
+        'A Jain wedding catering brief needs every course compliant, including dessert. We would rather write the whole table to the rules than run a hidden non-Jain gravy.',
     },
     {
-      title: 'Paryushan & Religious Observances',
+      title: 'Paryushan and observances',
       description:
-        'During Paryushan and other Jain observances, stricter dietary rules apply. We design simple, sattvic menus that align with these periods.',
+        'Some periods ask for a simpler satvik catering line. Send the extra restrictions. We do not assume last year’s list still applies.',
     },
     {
-      title: 'Diwali & Family Festivals',
+      title: 'Diwali and family festivals',
       description:
-        'Diwali and other family gatherings often include Jain relatives. A dedicated Jain menu ensures everyone can eat together without compromise.',
+        'When Jain relatives sit with a mixed vegetarian table, a dedicated Jain section keeps the gathering honest.',
     },
     {
-      title: 'Mixed Vegetarian Events',
+      title: 'Mixed vegetarian events',
       description:
-        'Even when most guests eat regular vegetarian food, a separate Jain section or thali service keeps the gathering inclusive and respectful.',
+        'Regular vegetarian food still uses onion and garlic. Jain is first-class here, not a note in brackets. Separate prep where the kitchen allows.',
     },
   ],
-  includedH2: "What's Included in Our Jain Catering",
+  includedH2: 'What a Jain booking actually covers',
   includedItems: [
-    { title: 'No Onion or Garlic', description: 'All dishes are prepared without onion, garlic, asafoetida substitutes and related alliums.' },
-    { title: 'No Root Vegetables', description: 'We avoid potatoes, carrots, radishes, beetroot and other underground vegetables as required.' },
-    { title: 'No Mushrooms or Eggs', description: 'Menus are fully free from mushrooms, eggs and non-vegetarian ingredients.' },
-    { title: 'Lacto-Vegetarian Options', description: 'Dairy-based dishes and vegan alternatives are available depending on your community’s practice.' },
-    { title: 'Separate Prep Awareness', description: 'We plan workflows to minimise cross-contact with non-Jain ingredients where needed.' },
-    { title: 'Authentic Spice Blends', description: 'Aromatic Jain masalas, whole spices and fresh herbs create deep flavour without restricted ingredients.' },
-    { title: 'Thali or Plated Service', description: 'Traditional thali service or contemporary plated formats, whichever suits your occasion.' },
-    { title: 'Full Setup & Service', description: 'On-site cooking, service staff, styling and clearance handled end-to-end.' },
+    { title: 'No onion or garlic', description: 'Alliums stay off the pot. We do not hide them in a stock or a powder.' },
+    { title: 'No root vegetables', description: 'Potato, carrot, radish, beetroot and similar stay off unless your community’s practice says otherwise in writing.' },
+    { title: 'No mushrooms or eggs', description: 'The menu is free of those ingredients. Meat and fish are off as a matter of course.' },
+    { title: 'Lacto-vegetarian unless you say vegan', description: 'Dairy is permitted in traditional Jain cooking. Vegan Jain is a separate line on the brief.' },
+    { title: 'Separate prep awareness', description: 'We plan workflows to keep non-Jain ingredients off the Jain line where the kitchen allows.' },
+    { title: 'Spice without the banned list', description: 'Whole spices, fresh herbs and Jain masalas carry flavour. Asafoetida only if your brief allows it.' },
+    { title: 'Thali or plated', description: 'Choose the format that fits the room. Staffing follows that choice.' },
+    { title: 'Setup and service', description: 'On-site cooking, service and pack-down. You stay with your guests.' },
   ],
-  galleryH2: 'A Taste of Our Jain Catering',
+  galleryH2: 'What Jain service looks like',
   galleryImages: [
     { src: '/menu-appetizer.webp', alt: 'Jain appetisers in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Jain canapé selection' },
@@ -143,53 +142,53 @@ const config: DietaryPageConfig = {
   faqsH2: 'Jain Catering Dubai: the questions we get before a booking',
   faqs: [
     {
-      q: 'What ingredients are avoided in Jain catering?',
-      a: 'Jain menus avoid all meat, fish, eggs, onion, garlic, mushrooms and root vegetables such as potatoes, carrots, radishes and beetroot. We design dishes using pulses, grains, dairy, leafy greens, gourds and permitted vegetables.',
+      q: 'What ingredients are avoided?',
+      a: 'Meat, fish, eggs, onion, garlic, mushrooms and root vegetables such as potato, carrot, radish and beetroot. Dishes are built from pulses, grains, dairy, leafy greens, gourds and permitted vegetables.',
     },
     {
       q: 'Is Jain food always vegan?',
-      a: 'Traditional Jain cuisine is lacto-vegetarian, meaning dairy is permitted. We can also provide fully vegan Jain menus on request, depending on your guests’ practices.',
+      a: 'No. Traditional practice is lacto-vegetarian. Dairy is allowed unless you ask for vegan. We will not assume vegan.',
     },
     {
       q: 'Can you provide Jain thali service?',
-      a: 'Yes. Thali service is a beautiful way to present Jain cuisine, with small portions of multiple dishes, breads, rice, sweets and accompaniments served together.',
+      a: 'Yes. Several small dishes, breads, rice, sweets and accompaniments on one tray. It is a clear way to show range without breaking the rules.',
     },
     {
-      q: 'Can Jain dishes be served alongside regular vegetarian food?',
-      a: 'Yes. We can create a fully Jain menu or a separate Jain section within a larger vegetarian spread, with clear labelling and serving protocols.',
+      q: 'Can Jain dishes sit beside regular vegetarian food?',
+      a: 'Yes, with labelling and, where needed, separate utensils. Regular vegetarian cooking usually uses onion and garlic. The Jain line is written separately.',
     },
     {
-      q: 'Do you cater for Paryushan and stricter observances?',
-      a: 'We do. During Paryushan and similar periods we design simpler, sattvic menus that respect the additional restrictions observed by many Jain families.',
+      q: 'Do you cater for Paryushan?',
+      a: 'Yes, when you send the extra restrictions for that period. Satvik catering for observances is a tighter list, not a guess.',
     },
     {
-      q: 'How far in advance should I book Jain catering?',
-      a: 'Two to four weeks is ideal, particularly for weddings and festivals where menu planning, ingredient sourcing and prep workflows need careful coordination.',
+      q: 'How is Jain catering Dubai priced?',
+      a: 'By custom quote. Guest count, the menu and service in the room move the figure. You get an itemised proposal with 5% VAT shown separately. Send the date, headcount and the exact food rules.',
     },
   ],
   relatedServices: [
     {
       title: 'Indian Catering',
-      description: 'Regional Indian menus including fully vegetarian and Jain-compliant options.',
+      description: 'Regional Indian kitchens, including vegetarian and Jain as first-class lines, not an afterthought.',
       image: '/images/indian-catering-dubai-hero.webp',
       link: '/indian-catering-dubai',
     },
     {
       title: 'Vegetarian Catering',
-      description: 'Global vegetarian menus for inclusive celebrations of any size.',
+      description: 'Wider vegetarian tables when Jain rules are not required for the whole room.',
       image: '/menu-appetizer.webp',
       link: '/vegetarian-catering-dubai',
     },
     {
       title: 'Wedding Catering',
-      description: 'fully-coordinated catering that respects every dietary tradition.',
+      description: 'Wedding service at your venue. The Jain menu still belongs on this brief if that is how the family eats.',
       image: '/service-events.webp',
       link: '/wedding-catering-dubai',
     },
   ],
-  ctaH2: 'Plan a Respectful Jain Menu',
+  ctaH2: 'Send the Jain rules with the date',
   ctaP:
-    'Tell us about your occasion and any specific Jain dietary requirements. We will design a flavourful, compliant menu that honours your traditions.',
+    'Name onion, garlic, roots, dairy and any Paryushan extras. We put that on the first menu draft and quote the night as an itemised figure.',
 }
 
 export default function JainCatering() {

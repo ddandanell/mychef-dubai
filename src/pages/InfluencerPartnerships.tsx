@@ -35,7 +35,7 @@ const inclusions = [
   {
     icon: Utensils,
     title: 'Bespoke Dining Experiences',
-    description: 'Private chef menus tailored to your audience and aesthetic — from cinematic tasting courses to relaxed, family-style setups designed for shareable moments.',
+    description: 'Private chef menus tailored to your audience and aesthetic: from cinematic tasting courses to relaxed, family-style setups designed for shareable moments.',
   },
   {
     icon: Camera,
@@ -117,7 +117,7 @@ const faqs = [
   },
   {
     q: 'How to calculate food cost for catering?',
-    a: 'There is no single number for how to calculate food cost for catering: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number for how to calculate food cost for catering: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
   },
 ]
 
@@ -205,7 +205,7 @@ export default function InfluencerPartnerships() {
     <div ref={containerRef}>
       <SEO
         title="Food Influencer Partnerships Dubai | myCHEF"
-        description="Food Influencer Partnerships Dubai — Partner with myCHEF Dubai for private chef experiences, content collaborations, and exclusive dining events across the UAE."
+        description="Food influencer partnerships Dubai: a chef-led night for content, quoted as a booking. Terms in writing. We typically reply within 15 minutes during business hours."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -232,7 +232,7 @@ export default function InfluencerPartnerships() {
             Food Influencer Partnerships Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
-            Tell us about your audience and content goals, and our partnerships team will reply within 15 minutes during business hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
+            A chef-led night for content, or a longer arrangement if it fits. Quoted as a booking. Terms in writing. We typically reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>

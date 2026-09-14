@@ -141,7 +141,7 @@ const timeline = [
 ]
 
 const menuIdeas = [
-  { title: 'Mediterranean Mezze', description: 'Hummus, tabbouleh, grilled halloumi, falafel, and marinated olives — fresh, light, and easy to share.' },
+  { title: 'Mediterranean Mezze', description: 'Hummus, tabbouleh, grilled halloumi, falafel, and marinated olives: fresh, light, and easy to share.' },
   { title: 'Seafood Platter', description: 'Oysters, prawns, crab, and seasonal fish ceviche served on ice for a refined maritime feel.' },
   { title: 'Japanese Selection', description: 'Sushi, sashimi, edamame, and miso soup for an elegant, precise onboard dining experience.' },
   { title: 'BBQ Grill', description: 'Lamb skewers, chicken shish taouk, corn, and grilled vegetables prepared on deck if the yacht allows.' },
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     q: 'How much food for a yacht party Dubai?',
-    a: 'There is no single number for how much food for a yacht party Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'There is no single number for how much food for a yacht party Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
   },
   {
     q: 'How to plan yacht catering Dubai?',
@@ -329,10 +329,10 @@ export default function YachtCateringChecklist() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 yacht-hero-h1">
-            The Ultimate Yacht Catering Checklist Dubai
+            Yacht Catering Checklist Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 yacht-hero-sub">
-            Plan a flawless yacht charter around Dubai Marina, Palm Jumeirah, and the Arabian Gulf — from first enquiry to final cleanup.
+            Galley, boarding, holding and the menu. Yacht catering starts from AED 280 per person. The commercial page is yacht catering.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Plan My Yacht Menu</Link>
@@ -356,13 +356,13 @@ export default function YachtCateringChecklist() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Yacht Event Planning</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering at Sea Demands a Different Playbook
+            The boat is the kitchen. Plan it that way.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A yacht charter is one of the most memorable ways to entertain in Dubai — but catering on water is not the same as catering on land. Space is tighter, timing is stricter, and the vessel's movement affects everything from plating to refrigeration.
+            Catering on water is not catering on land. Space is tighter, timing is stricter, and the vessel's movement affects plating and refrigeration. Much of the work is done on land before boarding.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+            Yacht catering starts from AED 280 per person. What to check: galley size, boarding time, fridge space, and whether open flame is allowed. Unusual access is a separate line.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist walks you through the full timeline, from six weeks before the cruise to the moment your guests step back onto the dock. Use it to coordinate with your charter company, captain, event planner, and catering team so nothing is left to chance.
@@ -466,7 +466,7 @@ export default function YachtCateringChecklist() {
               Download the Yacht Catering Checklist
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[600px] mx-auto mb-8">
-              Want a printable version? Request the full PDF checklist with timeline, menu prompts, galley coordination notes, and day-of service flow — perfect to share with your charter company or event planner.
+              Want a printable version? Request the full PDF checklist with timeline, menu prompts, galley coordination notes, and day-of service flow: perfect to share with your charter company or event planner.
             </p>
             <a
               href={WHATSAPP_LINK}

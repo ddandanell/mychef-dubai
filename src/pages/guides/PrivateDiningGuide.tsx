@@ -48,7 +48,7 @@ const experienceTypes = [
   },
   {
     title: 'Family-Style Celebrations',
-    description: 'Larger groups share platters and bowls at the table — ideal for mixed-age groups, Eid gatherings, birthdays, and relaxed weekend entertaining.',
+    description: 'Larger groups share platters and bowls at the table: ideal for mixed-age groups, Eid gatherings, birthdays, and relaxed weekend entertaining.',
   },
   {
     title: 'Canapé Receptions',
@@ -77,7 +77,7 @@ const chefCriteria = [
   {
     icon: Utensils,
     title: 'Menu Flexibility and Tastings',
-    description: 'A strong private chef will offer a consultation, propose menus, and often provide a tasting before the event — especially important for weddings and milestone celebrations.',
+    description: 'A strong private chef will offer a consultation, propose menus, and often provide a tasting before the event: especially important for weddings and milestone celebrations.',
   },
   {
     icon: Users,
@@ -97,11 +97,11 @@ const chefCriteria = [
 ]
 
 const menuWorkflow = [
-  'Initial enquiry — date, location, guest count, occasion, and any dietary requirements',
-  'Menu proposal — 2–3 menu options tailored to your preferences',
-  'Tasting — sample key dishes before committing to the final menu',
-  'Final confirmation — locked menu, headcount, timing, and service details',
-  'Event day — chef and team arrive, prep, serve, and clear',
+  'Initial enquiry: date, location, guest count, occasion, and any dietary requirements',
+  'Menu proposal: 2–3 menu options tailored to your preferences',
+  'Tasting: sample key dishes before committing to the final menu',
+  'Final confirmation: locked menu, headcount, timing, and service details',
+  'Event day: chef and team arrive, prep, serve, and clear',
 ]
 
 const dietaryAccommodations = [
@@ -121,13 +121,13 @@ const pricingFactors = [
 ]
 
 const occasions = [
-  'Birthdays and anniversaries — fully customised menus and timing',
-  'Proposals and romantic dinners — privacy and personal touches',
-  'Ramadan iftars and Eid gatherings — large-format shared dining',
-  'Wedding-related events — bridal showers, rehearsal dinners, post-wedding brunches',
-  'Corporate dinners and board meetings — discreet, professional service',
-  'Yacht charters — seamless dining while cruising the Arabian Gulf',
-  'Holiday entertaining — Christmas, New Year\'s, and Diwali celebrations at home',
+  'Birthdays and anniversaries: fully customised menus and timing',
+  'Proposals and romantic dinners: privacy and personal touches',
+  'Ramadan iftars and Eid gatherings: large-format shared dining',
+  'Wedding-related events: bridal showers, rehearsal dinners, post-wedding brunches',
+  'Corporate dinners and board meetings: discreet, professional service',
+  'Yacht charters: food planned around the galley and boarding',
+  'Holiday entertaining: Christmas, New Year\'s, and Diwali celebrations at home',
 ]
 
 const comparisonRows = [
@@ -150,7 +150,7 @@ const internalLinks = [
 const faqs = [
   {
     q: 'How far in advance should I book a private chef in Dubai?',
-    a: 'Two to four weeks is typical. For peak dates — public holidays, New Year\'s Eve, and Ramadan — we recommend booking earlier to secure your preferred chef and menu.',
+    a: 'Two to four weeks is typical. For peak dates: public holidays, New Year\'s Eve, and Ramadan: we recommend booking earlier to secure your preferred chef and menu.',
   },
   {
     q: 'Can a private chef cook in any location?',
@@ -305,7 +305,7 @@ export default function PrivateDiningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai: A Complete Guide"
+        title="Private Dining Dubai | Planning Guide | myCHEF"
         description="A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
         ogImage="/images/private-dining-guide-hero.webp"
@@ -332,10 +332,10 @@ export default function PrivateDiningGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pd-hero-h1">
-            The Complete Guide to Private Dining Dubai
+            Private Dining Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            Everything you need to know about hosting chef-led dining experiences in villas, penthouses, yachts, and desert venues across Dubai.
+            A chef in the house, on a yacht, or in the desert. One dinner is catering. A standing chef is a household plan. This page is how to brief either.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Private Dinner</Link>
@@ -365,7 +365,7 @@ export default function PrivateDiningGuide() {
             Dubai&apos;s dining scene has shifted from restaurant reservations to something more intimate: private dining experiences hosted in villas, penthouses, yachts, and desert retreats across the city. It is a practical, flexible, and often more memorable alternative to dining out.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. Romantic private dining Dubai is the same format for two: a named chef, an itemised quote, cooking at the address you give us.
+            What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A dinner for two at home is still catering: a named chef, cooking at the address you give us.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains what private dining means in Dubai, how it works, what it costs, and how to choose the right private chef for your occasion. For guests looking for a curated multi-course journey, our{' '}
