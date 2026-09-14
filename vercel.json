@@ -311,6 +311,11 @@
       "statusCode": 301
     },
     {
+      "source": "/locations/dubai-silicon-oasis",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
       "source": "/case-studies/corporate-gala-dinner-downtown-dubai",
       "destination": "/case-studies",
       "statusCode": 301
