@@ -7,27 +7,44 @@ import { cn } from '../lib/utils'
 
 type OverlayName = 'dark' | 'medium' | 'light' | 'left' | 'cinematic'
 
+type HeroCta = {
+  label: string
+  href: string
+  external?: boolean
+  track?: string
+  ctaLocation?: string
+}
+
+function heroTrackAttrs(cta: HeroCta) {
+  return {
+    ...(cta.track ? { 'data-track': cta.track } : {}),
+    ...(cta.ctaLocation ? { 'data-cta-location': cta.ctaLocation } : {}),
+  }
+}
+
 function HeroAction({
   cta,
   className,
 }: {
-  cta: { label: string; href: string; external?: boolean }
+  cta: HeroCta
   className: string
 }) {
   const isHash = cta.href.startsWith('#')
+  const trackAttrs = heroTrackAttrs(cta)
   if (cta.external || isHash) {
     return (
       <a
         href={cta.href}
         {...(cta.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
         className={className}
+        {...trackAttrs}
       >
         {cta.label}
       </a>
     )
   }
   return (
-    <Link to={cta.href} className={className}>
+    <Link to={cta.href} className={className} {...trackAttrs}>
       {cta.label}
     </Link>
   )
@@ -46,8 +63,8 @@ interface PageHeroProps {
   imageSrcSet?: string
   /** Optional background video (mp4). Lazy-loaded after the page is idle; never render-blocking. */
   videoSrc?: string
-  cta?: { label: string; href: string; external?: boolean }
-  secondaryCta?: { label: string; href: string; external?: boolean }
+  cta?: HeroCta
+  secondaryCta?: HeroCta
   breadcrumb?: { label: string; href?: string }[]
   minHeight?: 'full' | 'tall' | 'large' | 'medium' | 'short'
   align?: 'left' | 'center'

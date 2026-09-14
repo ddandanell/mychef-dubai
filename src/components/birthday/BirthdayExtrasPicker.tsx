@@ -167,7 +167,12 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
           </>
         )}
         <div className="flex flex-wrap gap-4">
-          <Link to={inquiryHref} className="btn-primary" data-track="inquiry_form">
+          <Link
+            to={inquiryHref}
+            className="btn-primary"
+            data-track="inquiry_form"
+            data-cta-location="extras"
+          >
             Request my itemised birthday proposal
           </Link>
           <a
@@ -176,6 +181,7 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
             rel="noopener noreferrer"
             className="btn-secondary"
             data-track="whatsapp_click"
+            data-cta-location="extras"
           >
             WhatsApp this selection
           </a>

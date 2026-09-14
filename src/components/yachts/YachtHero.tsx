@@ -40,7 +40,13 @@ export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
           <p className="font-playfair text-h4 text-[#1B2A4A] mb-1">{YACHT_HERO.priceLine}</p>
           <p className="font-inter text-body-xs text-gray-500 leading-relaxed max-w-[52ch] mb-8">{YACHT_HERO.priceNote}</p>
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
-            <a href={quoteHref} className="btn-primary text-center" data-placement="hero">
+            <a
+              href={quoteHref}
+              className="btn-primary text-center"
+              data-placement="hero"
+              data-track="inquiry_form"
+              data-cta-location="hero"
+            >
               {YACHT_HERO.primaryCta}
             </a>
             <a
@@ -49,6 +55,8 @@ export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
               rel="noopener noreferrer"
               className="btn-secondary text-center !text-[#1B2A4A] !border-[#1B2A4A]/30"
               data-placement="hero"
+              data-track="whatsapp_click"
+              data-cta-location="hero"
             >
               {YACHT_HERO.secondaryCta}
             </a>

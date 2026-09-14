@@ -89,13 +89,38 @@ export function shouldGenerateLead(pathname: string, formId: string | null | und
   return LEAD_FORM_IDS.has(formId)
 }
 
+export function ctaTextParam(raw: string | null | undefined): string | undefined {
+  const text = (raw || '').replace(/\s+/g, ' ').trim()
+  if (!text) return undefined
+  return text.slice(0, 120)
+}
+
 export function conversionParams(
   hit: ConversionHit,
-  extras: { page_path: string; cta_location: string },
+  extras: { page_path: string; cta_location: string; cta_text?: string | null },
 ): Record<string, string> {
-  return {
+  const params: Record<string, string> = {
     link_url: hit.link_url,
     page_path: extras.page_path,
     cta_location: extras.cta_location,
+  }
+  const text = ctaTextParam(extras.cta_text)
+  if (text) params.cta_text = text
+  return params
+}
+
+/** data-track fallback when href is an in-page quote hash (e.g. #yacht-quote). */
+export function classifyTrackedCta(
+  dataTrack: string | null | undefined,
+  href: string | null | undefined,
+): ConversionHit | null {
+  const fromHref = classifyConversionHref(href)
+  if (fromHref) return fromHref
+  if ((dataTrack || '').trim() !== 'inquiry_form' || !href) return null
+  const raw = href.trim()
+  if (!raw) return null
+  return {
+    event: 'quote_click',
+    link_url: raw.startsWith('#') ? raw.split('?')[0] : sanitizeConversionUrl(raw),
   }
 }

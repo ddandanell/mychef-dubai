@@ -5,10 +5,13 @@
  */
 import {
   classifyConversionHref,
+  classifyTrackedCta,
   conversionParams,
+  ctaTextParam,
   sanitizeConversionUrl,
   shouldGenerateLead,
 } from '../src/lib/conversionEvents'
+import { SCROLL_DEPTH_MARKS } from '../src/lib/track'
 
 let fails = 0
 const eq = (name: string, got: unknown, want: unknown) => {
@@ -42,6 +45,37 @@ eq('params values', params, {
   cta_location: 'hero',
 })
 
+const rich = conversionParams(
+  { event: 'quote_click', link_url: '#yacht-quote' },
+  { page_path: '/yachts', cta_location: 'hero', cta_text: '  Get a Yacht Catering Quote  ' },
+)
+eq('rich params include cta_text', rich, {
+  link_url: '#yacht-quote',
+  page_path: '/yachts',
+  cta_location: 'hero',
+  cta_text: 'Get a Yacht Catering Quote',
+})
+eq('cta text collapsed', ctaTextParam('  WhatsApp\nthis selection  '), 'WhatsApp this selection')
+eq('cta text omitted when empty', ctaTextParam('   '), undefined)
+
+eq('hash only is not a conversion', classifyConversionHref('#yacht-quote'), null)
+eq(
+  'inquiry_form + yacht hash is quote_click',
+  classifyTrackedCta('inquiry_form', '#yacht-quote'),
+  { event: 'quote_click', link_url: '#yacht-quote' },
+)
+eq(
+  'inquiry_form + /inquiry still one quote_click',
+  classifyTrackedCta('inquiry_form', '/inquiry?from=birthday'),
+  { event: 'quote_click', link_url: '/inquiry' },
+)
+eq('jump nav hash without data-track is not a conversion', classifyTrackedCta('', '#get-quote'), null)
+eq(
+  'birthday hero inquiry is quote_click',
+  classifyTrackedCta('inquiry_form', '/inquiry?from=birthday'),
+  { event: 'quote_click', link_url: '/inquiry' },
+)
+
 eq(
   'strips WhatsApp text (PII)',
   classifyConversionHref(
@@ -61,6 +95,7 @@ eq('seo analyst is not a lead', shouldGenerateLead('/seo/analyst', 'x'), false)
 eq('unlabelled form is not a lead', shouldGenerateLead('/private-chef-dubai/pricing', ''), false)
 eq('plan form is a lead', shouldGenerateLead('/private-chef-dubai/pricing', 'private-chef-plan'), true)
 eq('yacht quote form is a lead', shouldGenerateLead('/yachts', 'yacht-quote-form'), true)
+eq('scroll depth marks match first-party', [...SCROLL_DEPTH_MARKS], [25, 50, 75, 100])
 
 if (fails > 0) {
   console.error(`\n${fails} failing check(s)`)
