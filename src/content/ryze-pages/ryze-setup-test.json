@@ -1,0 +1,14 @@
+{
+  "slug": "ryze-setup-test",
+  "title": "Ryze publishing test",
+  "body_html": "<p>This temporary page verifies the publishing route.</p>",
+  "body_markdown": "This temporary page verifies the publishing route.",
+  "meta_title": "Ryze publishing test",
+  "meta_description": "Temporary publishing verification page.",
+  "excerpt": "Temporary publishing verification page.",
+  "primary_keyword": null,
+  "image": null,
+  "published_at": "2026-09-15T12:00:00.000Z",
+  "updated_at": "2026-09-15T12:00:00.000Z",
+  "status": "published"
+}
