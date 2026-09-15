@@ -145,7 +145,13 @@ export default function YachtQuoteForm({ prefill }: Props) {
   }
 
   return (
-    <form id="yacht-quote-form" onSubmit={onSubmit} className="grid gap-4 sm:grid-cols-2" data-placement="inquiry_form">
+    <form
+      id="yacht-quote-form"
+      onSubmit={onSubmit}
+      className="grid gap-4 sm:grid-cols-2"
+      data-placement="inquiry_form"
+      data-cta-location="inquiry_form"
+    >
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Charter date</span>
         <input required type="date" className={field} value={fields.date} onChange={update('date')} />
@@ -235,6 +241,8 @@ export default function YachtQuoteForm({ prefill }: Props) {
           target="_blank"
           rel="noopener noreferrer"
           className="btn-secondary text-center !text-[#1B2A4A] !border-[#1B2A4A]/25"
+          data-track="whatsapp_click"
+          data-cta-location="inquiry_form"
         >
           WhatsApp myCHEF
         </a>

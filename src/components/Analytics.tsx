@@ -3,7 +3,7 @@ import { useLocation } from 'react-router'
 import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
 import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
-import { classifyConversionHref, conversionParams, shouldGenerateLead } from '../lib/conversionEvents'
+import { classifyTrackedCta, conversionParams, ctaTextParam, shouldGenerateLead } from '../lib/conversionEvents'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -12,6 +12,8 @@ import { classifyConversionHref, conversionParams, shouldGenerateLead } from '..
  *
  * Conversion events (one per click, markable in GA4 Admin → Events):
  *   whatsapp_click · quote_click · phone_click · email_click · generate_lead (forms)
+ * Engagement (from src/lib/track.ts, also markable as Key events):
+ *   scroll_depth { percent_scrolled, page_path } · engaged_scroll { page_path }
  */
 export default function Analytics() {
   const location = useLocation()
@@ -39,7 +41,7 @@ export default function Analytics() {
 
       const href = a.getAttribute('href') || ''
       const pagePath = window.location.pathname
-      const ctaText = a.innerText?.trim() || a.getAttribute('aria-label') || ''
+      const ctaText = ctaTextParam(a.innerText || a.getAttribute('aria-label')) || ''
       const track = a.getAttribute('data-track') || ''
       const placement = placementFromElement(a)
       const ctaLocation = a.getAttribute('data-cta-location') || placement
@@ -60,9 +62,12 @@ export default function Analytics() {
         })
       }
 
-      const conversion = classifyConversionHref(href)
+      const conversion = classifyTrackedCta(track, href)
       if (conversion) {
-        trackEvent(conversion.event, conversionParams(conversion, { page_path: pagePath, cta_location: ctaLocation }))
+        trackEvent(
+          conversion.event,
+          conversionParams(conversion, { page_path: pagePath, cta_location: ctaLocation, cta_text: ctaText }),
+        )
         if (conversion.event === 'whatsapp_click') {
           trackConversion('cta_click', placement)
           trackConversion('whatsapp_click', placement)
@@ -70,6 +75,7 @@ export default function Analytics() {
             method: 'whatsapp',
             page_path: pagePath,
             cta_location: ctaLocation,
+            ...(ctaText ? { cta_text: ctaText } : {}),
           })
         } else if (conversion.event === 'email_click') {
           trackConversion('email_click', placement)
@@ -107,11 +113,13 @@ export default function Analytics() {
       const formId = (form && form.id) || ''
       if (!shouldGenerateLead(path, formId)) return
       const method = formLabel(formId)
+      const ctaLocation = form?.getAttribute('data-cta-location') || form?.getAttribute('data-placement') || method
 
       trackEvent('generate_lead', {
         form_id: formId,
         method,
         page_path: path,
+        cta_location: ctaLocation,
       })
       trackConversion('form_submit', method)
     }

@@ -67,7 +67,12 @@ export default function YachtInventory() {
                 ))}
               </div>
               <p className="mt-8">
-                <a href="#yacht-quote" className="font-inter text-body-sm text-gold-ink underline underline-offset-4 hover:text-gold">
+                <a
+                  href="#yacht-quote"
+                  className="font-inter text-body-sm text-gold-ink underline underline-offset-4 hover:text-gold"
+                  data-track="inquiry_form"
+                  data-cta-location="inventory"
+                >
                   Add this to a yacht catering quote
                 </a>
               </p>

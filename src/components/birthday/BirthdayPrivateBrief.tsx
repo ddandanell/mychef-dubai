@@ -158,11 +158,17 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
           rel="noopener noreferrer"
           className="btn-primary"
           data-track="whatsapp_click"
+          data-cta-location="private_brief"
           onClick={() => trackConversion('whatsapp_click', 'whatsapp_click')}
         >
           Send the private brief on WhatsApp
         </a>
-        <Link to={inquiryHref} className="btn-secondary" data-track="inquiry_form">
+        <Link
+          to={inquiryHref}
+          className="btn-secondary"
+          data-track="inquiry_form"
+          data-cta-location="private_brief"
+        >
           Open the enquiry with this style
         </Link>
       </div>

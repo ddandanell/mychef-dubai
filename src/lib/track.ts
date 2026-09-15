@@ -15,6 +15,7 @@
 // throws and nothing is retried.
 // =============================================================================
 
+import { trackEvent } from './analytics'
 import { allowLabel, type TrackEventName } from './trackVocab'
 
 const ENDPOINT = '/api/e'
@@ -22,6 +23,7 @@ const KEY_SESSION = 'mc_s'
 const KEY_SEQ = 'mc_q'
 const MAX_EVENTS = 60
 const ENGAGED_AFTER_MS = 15_000
+export const SCROLL_DEPTH_MARKS = [25, 50, 75, 100] as const
 
 let started = 0
 let maxScroll = 0
@@ -119,16 +121,25 @@ function send(event: TrackEventName, extra: { value?: number; label?: string } =
   }
 }
 
+function pagePath(): string {
+  if (currentPath) return currentPath
+  if (typeof location === 'undefined') return '/'
+  return location.pathname.replace(/\/+$/, '') || '/'
+}
+
 function onScroll(): void {
   const doc = document.documentElement
   const height = doc.scrollHeight - window.innerHeight
   if (height <= 0) return
   const pct = Math.min(100, Math.round(((window.scrollY || doc.scrollTop) / height) * 100))
   if (pct > maxScroll) maxScroll = pct
-  for (const mark of [25, 50, 75, 100]) {
+  for (const mark of SCROLL_DEPTH_MARKS) {
     if (pct >= mark && !depthsSent.has(mark)) {
       depthsSent.add(mark)
       send('scroll_depth', { value: mark })
+      if (!optedOut()) {
+        trackEvent('scroll_depth', { percent_scrolled: mark, page_path: pagePath() })
+      }
     }
   }
 }
@@ -159,6 +170,9 @@ export function trackPage(path: string): void {
     if (!engagedSent && currentPath === path && document.visibilityState === 'visible') {
       engagedSent = true
       send('engaged')
+      if (!optedOut()) {
+        trackEvent('engaged_scroll', { page_path: pagePath() })
+      }
     }
   }, ENGAGED_AFTER_MS)
 }

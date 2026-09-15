@@ -365,10 +365,22 @@ export default function Yachts() {
             Send the date, marina and guest count. We will help you build the rest.
           </p>
           <CTAGroup>
-            <a href="#yacht-quote" className="btn-primary">
+            <a
+              href="#yacht-quote"
+              className="btn-primary"
+              data-track="inquiry_form"
+              data-cta-location="footer"
+            >
               Get a Yacht Catering Quote
             </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary !text-[#1B2A4A] !border-[#1B2A4A]/25">
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary !text-[#1B2A4A] !border-[#1B2A4A]/25"
+              data-track="whatsapp_click"
+              data-cta-location="footer"
+            >
               WhatsApp myCHEF
             </a>
           </CTAGroup>

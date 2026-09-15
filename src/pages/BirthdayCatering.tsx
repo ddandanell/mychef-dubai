@@ -141,8 +141,18 @@ export default function BirthdayCatering() {
         imageWidth={birthdayHero.width}
         imageHeight={birthdayHero.height}
         align="left"
-        cta={{ label: 'Request my itemised birthday proposal', href: inquiryHref }}
-        secondaryCta={{ label: 'Plan a private milestone birthday', href: BIRTHDAY_PRIVATE_INQUIRY_HREF }}
+        cta={{
+          label: 'Request my itemised birthday proposal',
+          href: inquiryHref,
+          track: 'inquiry_form',
+          ctaLocation: 'hero',
+        }}
+        secondaryCta={{
+          label: 'Plan a private milestone birthday',
+          href: BIRTHDAY_PRIVATE_INQUIRY_HREF,
+          track: 'inquiry_form',
+          ctaLocation: 'hero',
+        }}
         breadcrumb={[
           { label: 'Home', href: '/' },
           { label: 'Events', href: '/events' },
@@ -179,7 +189,12 @@ export default function BirthdayCatering() {
               <div className="p-8">
                 <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.catalogue.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.catalogue.body}</p>
-                <Link to={dualPath.catalogue.href} className="btn-primary" data-track="inquiry_form">
+                <Link
+                  to={dualPath.catalogue.href}
+                  className="btn-primary"
+                  data-track="inquiry_form"
+                  data-cta-location="start"
+                >
                   {dualPath.catalogue.label}
                 </Link>
               </div>
@@ -197,7 +212,12 @@ export default function BirthdayCatering() {
               <div className="p-8">
                 <h3 className="font-playfair text-h4 text-black mb-3">{dualPath.private.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-6">{dualPath.private.body}</p>
-                <Link to={dualPath.private.href} className="btn-secondary" data-track="inquiry_form">
+                <Link
+                  to={dualPath.private.href}
+                  className="btn-secondary"
+                  data-track="inquiry_form"
+                  data-cta-location="start"
+                >
                   {dualPath.private.label}
                 </Link>
               </div>
@@ -243,6 +263,7 @@ export default function BirthdayCatering() {
                   <Link
                     to={birthdayInquiryHref(extraIds, { lane: 'private', scenario: item.id })}
                     data-track="inquiry_form"
+                    data-cta-location="statement"
                     className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
                   >
                     Request this style of proposal <ArrowRight size={14} aria-hidden />
@@ -430,7 +451,8 @@ export default function BirthdayCatering() {
             </Link>
             <Link
               to={inquiryHref}
-              data-track="price_table"
+              data-track="inquiry_form"
+              data-cta-location="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
               Get an itemised quote <ArrowRight size={14} aria-hidden />
@@ -816,10 +838,15 @@ export default function BirthdayCatering() {
             Event buffets start from AED 120 per person. If the evening needs a running order or a surprise, use the private brief. We typically reply within 15 minutes during business hours.
           </p>
           <CTAGroup>
-            <Link to={inquiryHref} className="btn-primary">
+            <Link to={inquiryHref} className="btn-primary" data-track="inquiry_form" data-cta-location="footer">
               Request my itemised birthday proposal
             </Link>
-            <Link to={BIRTHDAY_PRIVATE_INQUIRY_HREF} className="btn-secondary">
+            <Link
+              to={BIRTHDAY_PRIVATE_INQUIRY_HREF}
+              className="btn-secondary"
+              data-track="inquiry_form"
+              data-cta-location="footer"
+            >
               Plan a private milestone birthday
             </Link>
           </CTAGroup>
