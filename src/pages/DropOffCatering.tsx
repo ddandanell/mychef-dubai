@@ -550,7 +550,7 @@ export default function DropOffCatering() {
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
-                    alt=""
+                    alt={`${svc.label} catering in Dubai`}
                     width={svc.width}
                     height={svc.height}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
