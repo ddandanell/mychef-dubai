@@ -281,6 +281,22 @@ function dedupeHead(html: string): string {
   const canonicals = [...head.matchAll(/<link rel="canonical"[^>]*>/g)].map((m) => m[0])
   for (const c of canonicals.slice(0, -1)) out = out.replace(c, "")
 
+  // Keep route metadata in the static HTML for crawlers, but mark the tags so the
+  // client boot can remove this prerendered copy before Helmet creates its live copy.
+  // These nodes are plain build output and are not owned by React.
+  out = out.replace('<title>', '<title data-prerender-seo="true">')
+  out = out.replace(
+    /<meta (name|property)="([^"]+)"[^>]*>/g,
+    (tag, _attribute, name) =>
+      /^(description|robots|application-name|apple-mobile-web-app-title|og:|twitter:)/.test(name)
+        ? tag.replace('<meta ', '<meta data-prerender-seo="true" ')
+        : tag,
+  )
+  out = out.replace(
+    /<link rel="canonical"/g,
+    '<link data-prerender-seo="true" rel="canonical"',
+  )
+
   return out + html.slice(head.length)
 }
 
