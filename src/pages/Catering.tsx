@@ -52,7 +52,7 @@ import {
   venuePathways,
 } from '@/content/cateringPage'
 import { faqPageSchema } from '@/utils/schema'
-import { christmasMenus, CHRISTMAS_MENU_IMAGE_FALLBACK } from '@/content/christmasMenus'
+import { christmasMenus } from '@/content/christmasMenus'
 
 const faqSchema = faqPageSchema(cateringFaqs.map((f) => ({ question: f.q, answer: f.a })))
 
@@ -375,22 +375,7 @@ export default function Catering() {
                   data-track="christmas_menu_card"
                   className="group block h-full border border-white/10 bg-black/40 transition-colors hover:border-gold/60"
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={menu.image.src}
-                      alt={menu.image.alt}
-                      width={1200}
-                      height={1200}
-                      loading="lazy"
-                      decoding="async"
-                      onError={(e) => {
-                        const img = e.currentTarget
-                        if (!img.src.endsWith(CHRISTMAS_MENU_IMAGE_FALLBACK)) img.src = CHRISTMAS_MENU_IMAGE_FALLBACK
-                      }}
-                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                  </div>
-                  <div className="p-4">
+                  <div className="p-4 border-t-2 border-gold/70">
                     <h3 className="font-playfair text-h4 text-white mb-1">{menu.cardTitle}</h3>
                     <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{menu.cardBlurb}</p>
                   </div>
@@ -400,7 +385,7 @@ export default function Catering() {
           </ul>
           <p className="mt-8 font-inter text-body-sm text-gray-400 max-w-[70ch]">
             No prices are printed on the Christmas menus. Send the date, headcount, area and the menu you have in mind and
-            the proposal lists food, chef, staff and 5% VAT separately. Menu photography shows the concept, not a past event.
+            the proposal lists food, chef, staff and 5% VAT separately.
           </p>
         </Container>
       </Section>

@@ -4,7 +4,7 @@
 //     subkeywords: "christmas catering dubai price" · "christmas catering cost per person dubai" · "best christmas catering dubai" · "christmas catering packages dubai" · "christmas catering menu dubai" · "halal christmas catering dubai" · "christmas dinner catering dubai" · "christmas turkey catering dubai" · "christmas dinner delivery dubai" · "how much does a full christmas dinner cost" · "christmas meals dubai" · "festive catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
-import { useRef, type SyntheticEvent } from 'react'
+import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -16,11 +16,7 @@ import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
-import {
-  christmasMenus,
-  CHRISTMAS_MENU_IMAGE_FALLBACK,
-  type ChristmasMenu,
-} from '@/content/christmasMenus'
+import { christmasMenus, type ChristmasMenu } from '@/content/christmasMenus'
 
 const WHATSAPP_NUMBER = '971551744849'
 const waLink = (message: string) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
@@ -223,32 +219,13 @@ const schema = {
 
 /* ────────────────────── Helpers ────────────────────── */
 
-/** Until the Grok renders exist, fall back to the page hero rather than a broken image. */
-function onMenuImageError(e: SyntheticEvent<HTMLImageElement>) {
-  const img = e.currentTarget
-  if (img.src.endsWith(CHRISTMAS_MENU_IMAGE_FALLBACK)) return
-  img.src = CHRISTMAS_MENU_IMAGE_FALLBACK
-}
-
 function MenuCard({ menu }: { menu: ChristmasMenu }) {
   return (
     <a
       href={`#${menu.id}`}
       className="xmas-menu-card group relative flex w-[72vw] max-w-[320px] min-w-0 shrink-0 snap-start flex-col overflow-hidden border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:w-full sm:max-w-none"
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-charcoal">
-        <img
-          src={menu.image.src}
-          alt={menu.image.alt}
-          width={1200}
-          height={1200}
-          loading="lazy"
-          decoding="async"
-          onError={onMenuImageError}
-          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-      </div>
-      <div className="flex flex-1 flex-col p-5">
+      <div className="flex flex-1 flex-col p-5 border-t-2 border-gold">
         <h3 className="font-playfair text-h4 text-black mb-2">{menu.cardTitle}</h3>
         <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{menu.cardBlurb}</p>
         <span className="mt-auto inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold-ink group-hover:text-gold transition-colors">
@@ -260,9 +237,8 @@ function MenuCard({ menu }: { menu: ChristmasMenu }) {
 }
 
 function MenuSection({ menu, index }: { menu: ChristmasMenu; index: number }) {
-  // Alternate dark / light and image left / right so seven menus read as chapters, not a wall.
+  // Alternate dark / light so seven menus read as chapters, not a wall.
   const dark = index % 2 === 1
-  const reversed = dark
   const total = christmasMenus.length
   return (
     <section
@@ -271,30 +247,9 @@ function MenuSection({ menu, index }: { menu: ChristmasMenu; index: number }) {
       aria-labelledby={`${menu.id}-heading`}
     >
       <div className="container-custom">
-        <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
-          {/* Image */}
-          <div className={`lg:col-span-5 ${reversed ? 'lg:order-2' : ''}`}>
-            <figure className="lg:sticky lg:top-28">
-              <div className="editorial-image relative aspect-[4/5] overflow-hidden lg:aspect-[3/4]">
-                <img
-                  src={menu.image.src}
-                  alt={menu.image.alt}
-                  width={1200}
-                  height={1200}
-                  loading="lazy"
-                  decoding="async"
-                  onError={onMenuImageError}
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              </div>
-              <figcaption className={`mt-3 font-inter text-[12px] uppercase tracking-[0.12em] ${dark ? 'text-gray-500' : 'text-gray-400'}`}>
-                Concept visual · {menu.cardTitle} menu
-              </figcaption>
-            </figure>
-          </div>
-
+        <div className="max-w-[820px]">
           {/* Copy + menu */}
-          <div className={`lg:col-span-7 ${reversed ? 'lg:order-1' : ''}`}>
+          <div>
             <SectionLabel tone={dark ? 'dark' : 'light'}>{`${menu.cardTitle} · Menu ${index + 1} of ${total}`}</SectionLabel>
             <h2 id={`${menu.id}-heading`} className={`font-playfair text-fluid-h2 leading-[1.08] mb-4 ${dark ? 'text-white' : 'text-black'}`}>
               {menu.heading}
@@ -590,7 +545,7 @@ export default function ChristmasCatering() {
           </div>
 
           <p className="mt-8 font-inter text-body-sm text-gray-500 leading-relaxed max-w-[75ch]">
-            Menus are starting points. Dishes and sourcing are confirmed on your written proposal and ingredients change with the season. Sauces made with wine or spirits can be prepared without on request, and halal or pork-free menus are written in from the first draft. Menu photography shows the concept, not a specific past event.
+            Menus are starting points. Dishes and sourcing are confirmed on your written proposal and ingredients change with the season. Sauces made with wine or spirits can be prepared without on request, and halal or pork-free menus are written in from the first draft.
           </p>
         </div>
       </section>
