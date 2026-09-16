@@ -50,6 +50,12 @@ async function boot() {
   // left the old navbar in the document for a frame, so a second menu flashed
   // on every full load and on client navigations that fell back to a reload.
   container.replaceChildren()
+
+  // The build keeps one complete set of SEO tags in the static HTML for crawlers.
+  // Remove that plain prerendered copy before Helmet mounts the live tags so a
+  // JavaScript-rendered audit never sees duplicate titles or descriptions.
+  document.head.querySelectorAll('[data-prerender-seo="true"]').forEach((node) => node.remove())
+
   const root = createRoot(container)
   flushSync(() => {
     root.render(
