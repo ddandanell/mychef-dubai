@@ -2,6 +2,7 @@ import { isParked } from '@/content/parkedUrls'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router'
 import { assemblePageGraph } from '@/lib/jsonld'
+import { SEO_AUDIT_OVERRIDES } from '@/content/seoAuditOverrides'
 
 interface SEOProps {
   title?: string
@@ -37,14 +38,17 @@ export default function SEO({
   const { pathname } = useLocation()
   const path = canonicalPath || pathname
   const jsonLd = assemblePageGraph(path, schema)
+  const auditOverride = SEO_AUDIT_OVERRIDES[path]
+  const effectiveTitle = auditOverride?.title || title
+  const effectiveDescription = auditOverride?.description || description
 
   // Pages that already end in the brand (contract titles are written as
   // "… | myCHEF") must not get a second suffix.
-  const endsWithSiteName = title ? BRAND_SUFFIX_RE.test(title) : false
-  const fullTitle = title
+  const endsWithSiteName = effectiveTitle ? BRAND_SUFFIX_RE.test(effectiveTitle) : false
+  const fullTitle = effectiveTitle
     ? hideSiteName || endsWithSiteName
-      ? title
-      : `${title} | ${SITE_NAME}`
+      ? effectiveTitle
+      : `${effectiveTitle} | ${SITE_NAME}`
     : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
@@ -77,7 +81,7 @@ export default function SEO({
   return (
     <Helmet>
       <title>{fullTitle}</title>
-      <meta name="description" content={description} />
+      <meta name="description" content={effectiveDescription} />
       <link rel="canonical" href={canonicalUrl} />
       {preloadHero && (
         <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" fetchPriority="high" />
@@ -93,7 +97,7 @@ export default function SEO({
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={effectiveDescription} />
       <meta property="og:image" content={`${SITE_URL}${ogImage}`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_AE" />
@@ -102,7 +106,7 @@ export default function SEO({
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:description" content={effectiveDescription} />
       <meta name="twitter:image" content={`${SITE_URL}${ogImage}`} />
 
       {jsonLd && (
