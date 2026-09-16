@@ -52,6 +52,7 @@ import {
   venuePathways,
 } from '@/content/cateringPage'
 import { faqPageSchema } from '@/utils/schema'
+import { christmasMenus, CHRISTMAS_MENU_IMAGE_FALLBACK } from '@/content/christmasMenus'
 
 const faqSchema = faqPageSchema(cateringFaqs.map((f) => ({ question: f.q, answer: f.a })))
 
@@ -172,6 +173,13 @@ export default function Catering() {
               className="text-gold-ink underline underline-offset-4 hover:text-gold"
             >
               festive catering Dubai
+            </Link>
+            . A turkey, goose or prime rib cooked in your kitchen on 25 December is{' '}
+            <Link
+              to="/christmas-catering-dubai"
+              className="text-gold-ink underline underline-offset-4 hover:text-gold"
+            >
+              Christmas catering in Dubai
             </Link>
             .
           </p>
@@ -342,6 +350,58 @@ export default function Catering() {
             Wedding, corporate, birthday and private-party searches belong on those pages. This hub sends you there with the right brief.
           </BodyCopy>
           <EventPathway items={eventPathways} />
+        </Container>
+      </Section>
+
+      <Section id="christmas" tone="charcoal" rhythm="chapter">
+        <Container>
+          <SectionLabel tone="dark">CHRISTMAS DINNERS</SectionLabel>
+          <DisplayHeading className="text-white mb-4">Seven Christmas dinners, cooked in your kitchen</DisplayHeading>
+          <BodyCopy tone="dark-strong" className="mb-10">
+            Christmas Eve, Christmas Day and Orthodox Christmas are catering nights with one difference: the menu is a
+            family tradition, not a format. Pick the table you grew up with, or mix dishes across them. The chef shops,
+            cooks, serves and clears down; the quote follows the guest count and the centrepiece. Full menus, FAQs and
+            the booking path are on{' '}
+            <Link to="/christmas-catering-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">
+              Christmas catering in Dubai
+            </Link>
+            .
+          </BodyCopy>
+          <ul className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6 lg:grid-cols-7">
+            {christmasMenus.map((menu) => (
+              <li key={menu.id}>
+                <Link
+                  to={`/christmas-catering-dubai#${menu.id}`}
+                  data-track="christmas_menu_card"
+                  className="group block h-full border border-white/10 bg-black/40 transition-colors hover:border-gold/60"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src={menu.image.src}
+                      alt={menu.image.alt}
+                      width={1200}
+                      height={1200}
+                      loading="lazy"
+                      decoding="async"
+                      onError={(e) => {
+                        const img = e.currentTarget
+                        if (!img.src.endsWith(CHRISTMAS_MENU_IMAGE_FALLBACK)) img.src = CHRISTMAS_MENU_IMAGE_FALLBACK
+                      }}
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-playfair text-h4 text-white mb-1">{menu.cardTitle}</h3>
+                    <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{menu.cardBlurb}</p>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-8 font-inter text-body-sm text-gray-400 max-w-[70ch]">
+            No prices are printed on the Christmas menus. Send the date, headcount, area and the menu you have in mind and
+            the proposal lists food, chef, staff and 5% VAT separately. Menu photography shows the concept, not a past event.
+          </p>
         </Container>
       </Section>
 

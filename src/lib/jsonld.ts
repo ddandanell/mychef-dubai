@@ -29,6 +29,8 @@ const FAQ_JSONLD_PATHS = new Set([
   '/private-chef-dubai/pricing',
   '/catering-dubai',
   '/yachts',
+  // Seasonal commercial hub: visible 17-question accordion, contract schema[] lists FAQPage.
+  '/christmas-catering-dubai',
 ])
 
 function typeList(node: Record<string, unknown>): string[] {

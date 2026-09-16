@@ -268,6 +268,10 @@ export default function Yachts() {
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Event catering in Dubai
             </Link>
+            . A Christmas Day sitting on a chartered yacht is planned from the galley up on{' '}
+            <Link to="/christmas-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              festive Christmas catering
+            </Link>
             .
           </BodyCopy>
         </Container>

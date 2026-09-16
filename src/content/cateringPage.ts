@@ -14,6 +14,7 @@ export const jumpNav = [
   { href: '#options', label: 'Catering options' },
   { href: '#styles', label: 'Styles' },
   { href: '#events', label: 'Events' },
+  { href: '#christmas', label: 'Christmas' },
   { href: '#venues', label: 'Venues' },
   { href: '#examples', label: 'Examples' },
   { href: '#how-it-works', label: 'How it works' },

@@ -169,6 +169,13 @@ export default function Events() {
             >
               festive catering Dubai
             </Link>
+            ; a Christmas Eve or Christmas Day table cooked at home has its own page,{' '}
+            <Link
+              to="/christmas-catering-dubai"
+              className="text-gold-ink underline underline-offset-4 hover:text-gold"
+            >
+              Christmas dinner catering
+            </Link>
             . Private event catering in Dubai here is one brief for that night: food, chefs and service sized to the
             room you already have.
           </p>

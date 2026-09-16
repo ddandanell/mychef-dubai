@@ -251,6 +251,10 @@ export default function Villas() {
             <Link to="/luxury-dining-experiences" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               luxury dining
             </Link>
+            . A roast cooked in the villa kitchen on 24 or 25 December is{' '}
+            <Link to="/christmas-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Christmas catering in Dubai
+            </Link>
             .
           </BodyCopy>
           <SequenceRail steps={howItRuns} />

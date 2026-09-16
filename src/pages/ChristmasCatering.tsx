@@ -4,231 +4,354 @@
 //     subkeywords: "christmas catering dubai price" · "christmas catering cost per person dubai" · "best christmas catering dubai" · "christmas catering packages dubai" · "christmas catering menu dubai" · "halal christmas catering dubai" · "christmas dinner catering dubai" · "christmas turkey catering dubai" · "christmas dinner delivery dubai" · "how much does a full christmas dinner cost" · "christmas meals dubai" · "festive catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
-import { useRef } from 'react'
+import { useRef, type SyntheticEvent } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import {
-  TreePine,
-  Gift,
-  Flame,
-  UtensilsCrossed,
-  Users,
-  Check,
-  Phone,
-  ArrowRight,
-  Sparkles,
-  Home,
-} from 'lucide-react'
+import { ArrowRight, ArrowUp, Check, Phone, Plus } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { eventSchema } from '../utils/schema'
 import { SectionLabel } from '../components/system'
-
+import {
+  christmasMenus,
+  CHRISTMAS_MENU_IMAGE_FALLBACK,
+  type ChristmasMenu,
+} from '@/content/christmasMenus'
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book Christmas catering in Dubai (via mychef.ae/christmas-catering-dubai)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const waLink = (message: string) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like to plan Christmas dinner at home. Date: __ Guests: __ Area: __ Menu: __"
+const WHATSAPP_LINK = waLink(PAGE_WHATSAPP_MESSAGE)
+
+const HERO_IMAGE = '/images/christmas-catering-dubai-hero.webp'
 
 /* ────────────────────── Data ────────────────────── */
 
-const christmasFormats = [
-  {
-    icon: TreePine,
-    title: 'Traditional Roast Dinner',
-    description: 'Roasted turkey, honey-glazed ham, seasonal vegetables, stuffing, gravy, and cranberry sauce served as a plated or family-style feast.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: Gift,
-    title: 'Christmas Canapé Party',
-    description: 'Festive bite-sized starters and circulating canapés for cocktail-style celebrations, office parties, and pre-dinner receptions.',
-    link: '/canape-catering-dubai',
-  },
-  {
-    icon: Flame,
-    title: 'Festive Outdoor BBQ',
-    description: 'A Dubai-style Christmas BBQ with grilled meats, seafood, festive sides, and live cooking stations in your garden or terrace.',
-    link: '/bbq-catering-dubai',
-  },
-  {
-    icon: UtensilsCrossed,
-    title: 'Christmas Brunch',
-    description: 'Lazy late-morning brunch with pastries, eggs, roast carving station, festive salads, and seasonal desserts for relaxed gatherings.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: Users,
-    title: 'Corporate Christmas Lunch',
-    description: 'End-of-year office lunches, team celebrations, and client entertaining with full setup, service, and seasonal menu design.',
-    link: '/corporate',
-  },
-  {
-    icon: Sparkles,
-    title: 'Vegetarian & Vegan Christmas',
-    description: 'Plant-based festive mains, vegetable terrines, nut roasts, and dairy-free desserts designed for modern dietary needs.',
-    link: '/catering-dubai',
-  },
-]
-
-const includedItems = [
-  { title: 'Festive menu written for the table', description: 'A Christmas menu designed around your guest count, dietary needs, and celebration style.' },
-  { title: 'Roasted Turkey or Ham', description: 'Traditional roast mains with all the trimmings, or a plant-based alternative if preferred.' },
-  { title: 'Canapés & Starters', description: 'Seasonal starters, soups, and circulating canapés to welcome your guests.' },
-  { title: 'Seasonal Sides & Sauces', description: 'Roasted vegetables, potatoes, stuffing, gravies, and festive condiments.' },
-  { title: 'Dessert Table & Christmas Cake', description: 'Styled sweet tables, yule logs, mince pies, and a celebration cake if requested.' },
-  { title: 'Service Staff & Bartenders', description: 'Professional waiters, hosts, and bar staff scaled to the size of your party.' },
-  { title: 'Table Setup & Styling', description: 'Festive tableware, linens, and presentation that complements the occasion.' },
-  { title: 'Kitchen Cleanup & Clear-Down', description: 'We leave your villa, office, or venue clean and tidy after the celebration.' },
-]
-
-const useCases = [
-  {
-    title: 'Villa Christmas Dinner',
-    description: 'Host a warm family Christmas dinner in Emirates Hills, Palm Jumeirah, or Dubai Hills. Chefs in our network arrive with the ingredients, the roast, and the service to your dining room so everyone can gather around the table.',
-  },
-  {
-    title: 'Corporate Christmas Party',
-    description: 'From DIFC offices to Business Bay boardrooms, we coordinate catering for end-of-year lunches, cocktail parties, and client receptions with festive menus, service staff, and seasonal styling.',
-  },
-  {
-    title: 'Christmas Day at Home',
-    description: 'For expat families and friends celebrating away from home, we recreate the traditional Christmas lunch experience in your apartment or villa, complete with turkey, trimmings, and dessert.',
-  },
-  {
-    title: 'Festive Yacht Celebration',
-    description: 'A Christmas sitting on a yacht you have chartered. We provide galley-friendly menus, compact setups and a marine catering team.',
-  },
-]
-
 const howItWorks = [
-  { step: '01', title: 'Share Your Plans', description: 'Tell us your date, guest count, venue, and the kind of Christmas celebration you have in mind.' },
-  { step: '02', title: 'Menu Consultation', description: 'We propose a festive menu with roast options, sides, desserts, and drinks tailored to your group.' },
-  { step: '03', title: 'Receive a Proposal', description: 'You receive a clear, itemised proposal covering food, staffing, styling, and service for the event.' },
-  { step: '04', title: 'Confirm Your Booking', description: 'Once the menu and details are approved, we lock in your date and finalise logistics.' },
-  { step: '05', title: 'Chef & Team Arrive', description: 'Chefs in our network and the service team arrive with ingredients, equipment, and everything needed to prepare the meal.' },
-  { step: '06', title: 'Serve, Celebrate & Clear', description: 'We serve your guests, manage the kitchen, and clear down afterwards so you can simply enjoy the day.' },
+  { step: '01', title: 'Share your plans', description: 'Tell us the date, the guest count, the address and whether it is Christmas Eve, Christmas Day lunch or dinner.' },
+  { step: '02', title: 'Choose a menu direction', description: 'Start from one of the seven Christmas menus below, mix dishes across them, or brief the chef on what Christmas looks like in your family.' },
+  { step: '03', title: 'Receive a written proposal', description: 'Food, chef, service staff and any hire listed line by line, with 5% VAT shown separately. Nothing is confirmed before you have read it.' },
+  { step: '04', title: 'Confirm the date', description: 'Once the menu and details are approved, the date is held and the ingredient order goes in. December fills first, so this is the step to do early.' },
+  { step: '05', title: 'The chef and team arrive', description: 'A chef from our network arrives with the ingredients and equipment and takes over your kitchen for the day.' },
+  { step: '06', title: 'Serve, celebrate, clear down', description: 'Courses are timed, plates are cleared, the kitchen is left as it was found. You stay at the table.' },
+]
+
+const alwaysIncluded = [
+  { title: 'A menu written for your table', description: 'Built around your guest count, dietary notes and how formal the sitting is. Not a fixed package.' },
+  { title: 'Ingredient shopping', description: 'The turkey, goose or prime rib and everything around it is sourced and brought to your address.' },
+  { title: 'Cooking on site', description: 'The roast rests properly, the gravy is made from the tray and the sides come out hot together.' },
+  { title: 'Plating and serving', description: 'Plated or family style, at the pace your table wants.' },
+  { title: 'Kitchen clear-down', description: 'Your kitchen is left the way it was found. No washing-up on Boxing Day morning.' },
+]
+
+const optionalLayers = [
+  { title: 'Waiters and service staff', description: 'Sized to the guest count and the service style.' },
+  { title: 'Bartenders', description: 'For a longer evening or a party rather than a sit-down dinner.' },
+  { title: 'Canapés before dinner', description: 'Festive bites while guests arrive.' },
+  { title: 'Table setup and styling', description: 'Linen, candles and festive tableware where requested.' },
+  { title: 'Crockery, glassware and hire', description: 'Coordinated when your kitchen does not have enough for the headcount.' },
+  { title: 'Dessert table or Christmas cake', description: 'A styled sweet table, yule log or celebration cake if you want one.' },
+]
+
+const settings = [
+  {
+    title: 'Villa Christmas dinner',
+    description: 'A family Christmas dinner in Emirates Hills, Palm Jumeirah or Dubai Hills. The chef arrives with the ingredients and the roast, so the day is spent around the table, not in the kitchen.',
+    link: { to: '/villas-private-residences', label: 'Villa chef service in Dubai' },
+  },
+  {
+    title: 'Christmas Day in an apartment',
+    description: 'For families and friends celebrating away from home, the same Christmas dinner in a Downtown, Marina or DIFC apartment, planned around the kitchen you actually have.',
+    link: { to: '/private-chef-dubai', label: 'Private chef in Dubai' },
+  },
+  {
+    title: 'Corporate Christmas party',
+    description: 'End-of-year lunches, cocktail parties and client receptions in DIFC and Business Bay offices or a private venue, with festive menus and service staff.',
+    link: { to: '/corporate', label: 'Corporate Christmas catering' },
+  },
+  {
+    title: 'Christmas on a chartered yacht',
+    description: 'A Christmas sitting on a yacht you have chartered: galley-friendly menus, a compact setup and a team used to cooking on the water.',
+    link: { to: '/yachts', label: 'Yacht catering in Dubai' },
+  },
+]
+
+const moreServices = [
+  'Private chef in your kitchen',
+  'Waiters and service staff',
+  'Bartenders',
+  'Canapés',
+  'Christmas Eve dinner',
+  'Christmas Day lunch',
+  'Christmas Day dinner',
+  'Boxing Day gatherings',
+  'Orthodox Christmas on 7 January',
+  'Corporate Christmas parties',
+  'Villa Christmas catering',
+  'Yacht Christmas catering',
+  'Table setup where requested',
+  'Crockery and glassware where required',
 ]
 
 const faqs = [
   {
-    q: 'Do you provide traditional Christmas turkey and ham?',
-    a: 'Yes. Our Christmas catering includes roasted turkey, honey-glazed ham, and all the classic trimmings. We can also provide a plant-based festive main for vegetarian or vegan guests.',
+    q: 'Do you provide Christmas catering in Dubai on Christmas Day?',
+    a: 'Yes. Christmas Day lunch and Christmas Day dinner are the two sittings that fill first, so we ask for the date and headcount as early as you have them. The chef arrives in the morning for a lunch sitting or mid-afternoon for dinner, cooks in your kitchen, serves and clears down.',
   },
   {
-    q: 'Can you cater Christmas parties at offices and corporate venues?',
-    a: 'Yes. We coordinate catering for corporate Christmas lunches, cocktail receptions, and end-of-year team events across Dubai offices and event spaces, with full service and seasonal menu design.',
+    q: 'Do you cater Christmas Eve as well as Christmas Day?',
+    a: 'Yes. Christmas Eve dinner, Christmas Day lunch, Christmas Day dinner and Boxing Day gatherings are all bookable, subject to chef availability. Many French, Italian and German families treat Christmas Eve as the main meal; the Réveillon and Natale menus above are written with that in mind.',
   },
   {
-    q: 'Do you offer vegetarian or vegan Christmas menus?',
-    a: 'Yes. We design vegetarian, vegan, and allergen-aware Christmas menus, including nut roasts, vegetable terrines, dairy-free desserts, and plant-based sides.',
+    q: 'Can a private chef cook Christmas dinner in our villa?',
+    a: 'Yes. A standard villa or apartment kitchen is usually all the chef needs; ingredients, tools and any extra equipment come with the team. Tell us about the oven, the hob and the dining space when you enquire and the plan is built around them. For a household chef beyond one dinner, see our [private chef in Dubai](/private-chef-dubai) service.',
   },
   {
-    q: 'Can you cater on Christmas Day or Christmas Eve?',
-    a: 'Yes. We are available for Christmas Eve, Christmas Day, and Boxing Day events across Dubai. Dates fill quickly, so we recommend booking early during the festive season.',
+    q: 'Can we order a traditional British Christmas dinner in Dubai?',
+    a: 'Yes. The British menu above is a full traditional Christmas dinner: herb and butter roasted turkey, goose-fat roast potatoes, pigs in blankets, stuffing, sprouts with chestnuts, proper gravy, bread sauce and Christmas pudding with brandy sauce. Christmas turkey catering in Dubai is the request we get most, so the turkey is ordered as soon as your date is confirmed.',
   },
   {
-    q: 'Do you provide service staff and cleanup?',
-    a: 'Yes. Every Christmas catering package includes professional service staff, hosts, and bartenders as needed, plus full setup, service, and clear-down after the event.',
+    q: 'Can you prepare Christmas turkey with all the trimmings?',
+    a: 'Yes. The trimmings are listed in full on the British menu and can be adjusted: a plant-based main alongside the turkey, a roast ham or beef added as a second centrepiece, or pork-free versions of the pigs in blankets and stuffing.',
   },
   {
-    q: 'How far in advance should I book Christmas catering in Dubai?',
-    a: 'We recommend booking two to four weeks in advance. For Christmas Day itself and large events, earlier is better to secure your preferred menu and staffing.',
+    q: 'Do you offer French, Italian, German or Russian Christmas menus?',
+    a: 'Yes. This page carries seven Christmas menu inspirations: British, French Réveillon, Italian Natale, German Weihnachtsessen, Russian, Swiss Fondue Chinoise and American prime rib. Each is a starting point the chef tailors to your guest count and dietary notes. If your tradition is not listed, tell us what the table usually looks like and we write the menu from there.',
   },
-  { q: "How much does Christmas catering in Dubai cost per person?", a: "Christmas catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu, service style, and whether you want serving staff. Once you share your plans we build a clear, itemised proposal covering food, staffing, and setup, with 5% VAT applied. Prices per head usually come down as your guest list grows, so a larger festive gathering is often more cost-effective. You can get a tailored figure through our [contact page](/contact)." },
-  { q: "What exactly is included in a Christmas catering booking?", a: "Every Christmas catering booking includes festive menu design, all ingredient sourcing and shopping, on-site cooking, plating and serving, and full kitchen cleanup afterwards. Serving staff and bartenders are optional and scaled to your party size. In short, we handle everything from the first turkey order to the final clear-down, so you simply host and enjoy the day." },
-  { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and we prepare, transport and serve with temperature control. Festive menus involve roasts, seafood and dairy, so handling sits with the team, not with the host." },
-  { q: "Is your Christmas food halal?", a: "Yes. We source halal by default, including the turkey, ham alternatives, and all meat used across our festive menus. If you have specific sourcing or certification requests, tell us during your menu consultation and we will accommodate them. We can also design fully vegetarian or seafood-led festive menus where preferred." },
-  { q: "How many guests can you cater for at Christmas?", a: "We cater Christmas celebrations of almost any size, from an intimate family dinner for six to office parties and villa gatherings of fifty or more. Our chefs and service team scale the menu, staffing, and setup to match your numbers. For very large or seated events, sharing your final guest count early helps us plan staffing and portions precisely." },
-  { q: "Do you bring your own equipment, or do you need my kitchen?", a: "We arrive with the ingredients, tools, and cooking equipment needed to prepare your Christmas meal, so a standard home or villa kitchen is usually all we need. For yacht celebrations, terraces, or venues with limited facilities, we bring compact setups and live cooking stations designed for the space. Just describe your location when you enquire and we plan the logistics around it." },
-  { q: "Can you accommodate allergies and special diets at a mixed festive table?", a: "Yes. We regularly build Christmas menus that serve traditional roast lovers alongside vegetarian, vegan, gluten-free, dairy-free, and nut-free guests at the same table. Share every allergy and preference during your menu consultation and we label and separate dishes accordingly. Our goal is that every guest, whatever their diet, gets a proper festive plate. See our [allergy-safe catering](/allergy-safe-catering-dubai) approach for more detail." },
-  { q: "Do you provide a Christmas cake, desserts, and drinks?", a: "Yes. We can include a styled dessert table with a Christmas cake, yule log, mince pies, and seasonal sweets, all designed around your celebration. For drinks, we provide bartenders and beverage service on request, and we will discuss beverage arrangements openly during planning. Everything is tailored, so you choose exactly how festive the spread should be." },
-  { q: "Which areas of Dubai do you cover for Christmas catering?", a: "We cater Christmas celebrations across Dubai, including villa dinners in Palm Jumeirah, Emirates Hills, and Dubai Hills, corporate parties in DIFC and Business Bay, apartment gatherings, and yacht events. Our chefs and team travel to your chosen location with everything needed. Tell us your venue when you enquire and we confirm coverage and any access details." },
-  { q: "How last-minute can I book Christmas catering?", a: "We do take shorter-notice festive bookings when our chefs have availability, but December fills quickly, so earlier is always safer. For Christmas Eve, Christmas Day, and large parties, we recommend confirming well ahead to secure your preferred menu and staffing. If your date is close, message us and we will tell you honestly what we can do." },
-  { q: "How do I book, and how quickly will I hear back?", a: "Booking starts with a quick enquiry about your date, guest count, and venue, after which we send a festive menu proposal and itemised quote. We typically reply within 15 minutes during business hours, and once you approve the details we lock in your date. You can start the process any time through our [inquiry form](/inquiry)." },
-  { q: "Should I choose full-service Christmas catering or a private chef at home?", a: "For a larger festive party with staff, styling, and a buffet or canapes, full-service Christmas catering is ideal, while an intimate seated Christmas dinner often suits a dedicated private chef. Both include menu design, cooking, and cleanup; the difference is scale and service style. If you are unsure, we will recommend the right format for your guest list, or compare our [private chef service](/private-chef-dubai)." },
-  { q: "Can you handle a corporate Christmas party and staff meals together?", a: "Yes. We regularly run end-of-year corporate Christmas events, from boardroom lunches and canape receptions to full team celebrations with service staff and festive styling. We can also arrange separate catering for on-site staff meals during the same period. Our [corporate catering team](/corporate) coordinates menus, timings, and setup around your office schedule." },
-  { q: "What if my guest count or menu changes after I book?", a: "That is completely normal in December, and we build flexibility into festive planning. Tell us as soon as numbers or dietary needs shift and we adjust the menu, portions, staffing, and quote accordingly. We would rather update the plan early than have you worried on the day, so keep us posted as your Christmas guest list firms up." },
+  {
+    q: 'Can you cater for Orthodox Christmas in Dubai?',
+    a: 'Yes. Orthodox Christmas on 7 January is bookable in the same way as 25 December, with the Russian menu above or a menu built around your own family dishes. January dates are usually easier to secure than the last week of December.',
+  },
+  {
+    q: 'Can we combine dishes from different Christmas menus?',
+    a: 'Yes. The seven menus are inspirations, not fixed packages. A British turkey with a French cheese course and an Italian panettone is a normal request. Tell us the dishes that matter and the chef balances the courses, timings and portions.',
+  },
+  {
+    q: 'Can you cater for dietary requirements?',
+    a: 'Yes, where possible. Vegetarian, vegan, gluten-free, dairy-free and nut-free guests are planned into the menu draft rather than added as an afterthought, and dishes are labelled at the table. Share every allergy when you enquire. Cross-contact cannot be completely excluded unless dedicated controls are confirmed for the booking; see our [allergy-safe catering](/allergy-safe-catering-dubai) approach.',
+  },
+  {
+    q: 'Is your Christmas food halal?',
+    a: 'Halal Christmas catering in Dubai is available on request: halal-sourced meat throughout and pork-free versions of dishes such as pigs in blankets, stuffing and the bacon in the American sides. Tell us when you enquire and the menu is written that way from the first draft. Fully vegetarian or seafood-led festive menus are also possible.',
+  },
+  {
+    q: 'Do you provide waiters and bartenders?',
+    a: 'Yes, as optional layers on the booking rather than automatic inclusions. For a small family dinner the chef often serves; for a larger table or a party, waiters and a bartender are added and sized to the headcount. Our [bar services in Dubai](/bar-services-dubai) page explains how the bar side works.',
+  },
+  {
+    q: 'Can you cater a corporate Christmas party?',
+    a: 'Yes. End-of-year lunches, canapé receptions and seated dinners for offices in DIFC, Business Bay and across Dubai, with service staff and festive menus scaled to the headcount. Our [corporate catering](/corporate) team coordinates menus, timings and access around your office schedule.',
+  },
+  {
+    q: 'How early should we book Christmas catering in Dubai?',
+    a: 'As soon as you know the date and a rough headcount. Christmas Eve and Christmas Day fill first, and whole birds such as turkey, goose and capon are ordered ahead. Two to four weeks is comfortable for a family dinner; earlier is safer for large tables and corporate events. If your date is close, message us and we will tell you honestly what is possible.',
+  },
   {
     q: 'How much does a full Christmas dinner cost?',
-    a: 'There is no single number for how much does a full Christmas dinner cost: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately, usually within a working day.',
+    a: 'There is no single answer to how much does a full Christmas dinner cost, because guest count, the menu, the centrepiece and how much service happens in the room all move the figure. We do not publish a price on the seven menus for that reason. Send the date, headcount, area and the menu you have in mind and you receive an itemised proposal: food, chef, staff, hire and 5% VAT shown separately.',
+  },
+  {
+    q: 'Do you deliver Christmas dinner, or does a chef have to come?',
+    a: 'Both are possible. A chef cooking and serving in your kitchen is what this page describes and what we recommend for Christmas Day: nothing reheats or sits under foil. If you want the food only, Christmas dinner delivery in Dubai runs through our [drop-off catering](/drop-off-catering-dubai) format, with the Christmas meals arriving ready to serve and no team on site.',
+  },
+  {
+    q: 'Which areas of Dubai do you cover for Christmas catering?',
+    a: 'Across Dubai: villas in Palm Jumeirah, Emirates Hills, Dubai Hills, Jumeirah and Arabian Ranches, apartments in Downtown, Marina, JBR and DIFC, offices in Business Bay, and chartered yachts. Tell us the address when you enquire and we confirm access details. The communities we serve are listed under [areas we serve](/locations).',
+  },
+  {
+    q: 'Are your chefs and kitchens licensed and food-safe?',
+    a: 'Yes. The chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements, and food is prepared, transported and served with temperature control. Festive menus involve roasts, seafood and dairy, so that handling sits with the team, not with the host.',
   },
 ]
 
-const relatedServices = [
-  {
-    title: 'Party Catering',
-    description: 'Catering for private parties, celebrations and seasonal gatherings across Dubai.',
-    image: '/service-events.webp',
-    link: '/private-party-catering-dubai',
-  },
-  {
-    title: 'Corporate Catering',
-    description: 'Office lunches, boardroom dining, and corporate events with professional service.',
-    image: '/service-catering.webp',
-    link: '/corporate',
-  },
-  {
-    title: 'Private Chef Dubai',
-    description: 'A dedicated chef and team for intimate dinners and special occasions at your location.',
-    image: '/service-luxury-dining.webp',
-    link: '/private-chef-dubai',
-  },
-]
+/* ────────────────────── Schema ────────────────────── */
 
 const faqSchema = {
   '@type': 'FAQPage',
   mainEntity: faqs.map((f) => ({
     '@type': 'Question',
     name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
+    acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') },
   })),
 }
 
 const serviceSchema = {
   '@type': 'Service',
+  '@id': 'https://www.mychef.ae/christmas-catering-dubai#service',
   name: 'Christmas Catering Dubai',
-  serviceType: 'Catering Service',
+  serviceType: 'Christmas catering and private chef Christmas dinner at home',
+  description:
+    'Christmas catering in Dubai with a private chef cooking in your home, villa, office or chartered yacht. Christmas Eve, Christmas Day and Orthodox Christmas sittings with British, French, Italian, German, Russian, Swiss and American Christmas menu inspirations.',
+  url: 'https://www.mychef.ae/christmas-catering-dubai',
   provider: {
     '@type': 'Organization',
     '@id': 'https://www.mychef.ae/#organization',
     name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
   },
-  areaServed: 'Dubai, UAE',
+  areaServed: {
+    '@type': 'City',
+    name: 'Dubai',
+    address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
+  },
+  availableChannel: {
+    '@type': 'ServiceChannel',
+    serviceUrl: 'https://www.mychef.ae/inquiry',
+    servicePhone: '+971-55-174-4849',
+  },
 }
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Christmas Catering Dubai', item: 'https://www.mychef.ae/christmas-catering-dubai' },
+    { '@type': 'ListItem', position: 2, name: 'Festive catering', item: 'https://www.mychef.ae/festive-catering-dubai' },
+    { '@type': 'ListItem', position: 3, name: 'Christmas catering', item: 'https://www.mychef.ae/christmas-catering-dubai' },
   ],
 }
 
-const christmasEventSchema = eventSchema(
-  'Christmas Catering Dubai',
-  'Festive roasts, canapés, and private chef Christmas catering in Dubai for villa, office, and family celebrations.',
-  undefined,
-  undefined,
-  'Dubai',
-  '/christmas-catering-dubai',
-)
-
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, christmasEventSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+}
+
+/* ────────────────────── Helpers ────────────────────── */
+
+/** Until the Grok renders exist, fall back to the page hero rather than a broken image. */
+function onMenuImageError(e: SyntheticEvent<HTMLImageElement>) {
+  const img = e.currentTarget
+  if (img.src.endsWith(CHRISTMAS_MENU_IMAGE_FALLBACK)) return
+  img.src = CHRISTMAS_MENU_IMAGE_FALLBACK
+}
+
+function MenuCard({ menu }: { menu: ChristmasMenu }) {
+  return (
+    <a
+      href={`#${menu.id}`}
+      className="xmas-menu-card group relative flex w-[72vw] max-w-[320px] min-w-0 shrink-0 snap-start flex-col overflow-hidden border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold sm:w-full sm:max-w-none"
+    >
+      <div className="relative aspect-[4/3] overflow-hidden bg-charcoal">
+        <img
+          src={menu.image.src}
+          alt={menu.image.alt}
+          width={1200}
+          height={1200}
+          loading="lazy"
+          decoding="async"
+          onError={onMenuImageError}
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
+      <div className="flex flex-1 flex-col p-5">
+        <h3 className="font-playfair text-h4 text-black mb-2">{menu.cardTitle}</h3>
+        <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{menu.cardBlurb}</p>
+        <span className="mt-auto inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold-ink group-hover:text-gold transition-colors">
+          See the menu <ArrowRight size={14} aria-hidden />
+        </span>
+      </div>
+    </a>
+  )
+}
+
+function MenuSection({ menu, index }: { menu: ChristmasMenu; index: number }) {
+  // Alternate dark / light and image left / right so seven menus read as chapters, not a wall.
+  const dark = index % 2 === 1
+  const reversed = dark
+  const total = christmasMenus.length
+  return (
+    <section
+      id={menu.id}
+      className={`${dark ? 'bg-charcoal text-white' : index % 4 === 0 ? 'bg-white' : 'bg-cream'} section-padding scroll-mt-24`}
+      aria-labelledby={`${menu.id}-heading`}
+    >
+      <div className="container-custom">
+        <div className="grid gap-10 lg:grid-cols-12 lg:gap-14">
+          {/* Image */}
+          <div className={`lg:col-span-5 ${reversed ? 'lg:order-2' : ''}`}>
+            <figure className="lg:sticky lg:top-28">
+              <div className="editorial-image relative aspect-[4/5] overflow-hidden lg:aspect-[3/4]">
+                <img
+                  src={menu.image.src}
+                  alt={menu.image.alt}
+                  width={1200}
+                  height={1200}
+                  loading="lazy"
+                  decoding="async"
+                  onError={onMenuImageError}
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <figcaption className={`mt-3 font-inter text-[12px] uppercase tracking-[0.12em] ${dark ? 'text-gray-500' : 'text-gray-400'}`}>
+                Concept visual · {menu.cardTitle} menu
+              </figcaption>
+            </figure>
+          </div>
+
+          {/* Copy + menu */}
+          <div className={`lg:col-span-7 ${reversed ? 'lg:order-1' : ''}`}>
+            <SectionLabel tone={dark ? 'dark' : 'light'}>{`${menu.cardTitle} · Menu ${index + 1} of ${total}`}</SectionLabel>
+            <h2 id={`${menu.id}-heading`} className={`font-playfair text-fluid-h2 leading-[1.08] mb-4 ${dark ? 'text-white' : 'text-black'}`}>
+              {menu.heading}
+            </h2>
+            <p className={`font-playfair italic text-xl md:text-2xl mb-6 ${dark ? 'text-gold' : 'text-gold-ink'}`}>{menu.lead}</p>
+            {menu.intro.map((p) => (
+              <p key={p} className={`font-inter text-body-lg leading-relaxed mb-4 max-w-[65ch] ${dark ? 'text-gray-300' : 'text-gray-600'}`}>
+                {p}
+              </p>
+            ))}
+
+            <h3 className={`font-playfair text-h3 mt-10 mb-6 pb-4 border-b ${dark ? 'text-white border-gold/25' : 'text-black border-gray-200'}`}>
+              {menu.menuTitle}
+            </h3>
+
+            <dl className="space-y-8">
+              {menu.courses.map((course) => (
+                <div key={course.label}>
+                  <dt className={`font-inter text-[12px] font-medium uppercase tracking-[0.16em] mb-3 ${dark ? 'text-gold' : 'text-gold-ink'}`}>
+                    {course.label}
+                  </dt>
+                  {course.dishes.map((dish) => (
+                    <dd key={dish.name} className="mb-3 last:mb-0">
+                      <p className={`font-playfair text-lg leading-snug ${dark ? 'text-white' : 'text-black'}`}>{dish.name}</p>
+                      {dish.note && (
+                        <p className={`font-inter text-body-sm leading-relaxed mt-1 max-w-[60ch] ${dark ? 'text-gray-400' : 'text-gray-500'}`}>
+                          {dish.note}
+                        </p>
+                      )}
+                    </dd>
+                  ))}
+                </div>
+              ))}
+            </dl>
+
+            <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4">
+              <Link to="/inquiry" className="btn-primary">{menu.cta}</Link>
+              <a href={waLink(menu.whatsapp)} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                <Phone size={16} className="mr-2" aria-hidden />
+                WhatsApp Us
+              </a>
+            </div>
+            <a
+              href="#choose-your-christmas-menu"
+              className={`mt-6 inline-flex items-center gap-1 font-inter text-body-sm underline underline-offset-4 ${dark ? 'text-gray-400 hover:text-gold' : 'text-gray-500 hover:text-gold-ink'}`}
+            >
+              <ArrowUp size={14} aria-hidden /> Back to all Christmas menus
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
 /* ────────────────────── Component ────────────────────── */
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Christmas quote in Dubai. Date: __ Guests: __ Area: __"
 export default function ChristmasCatering() {
   useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
@@ -241,34 +364,19 @@ export default function ChristmasCatering() {
     gsap.to('.xmas-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
     gsap.to('.xmas-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
-    gsap.to('.xmas-fmt-card', {
-      scrollTrigger: { trigger: '.xmas-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.xmas-uc-item', {
-      scrollTrigger: { trigger: '.xmas-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.xmas-inc-item', {
-      scrollTrigger: { trigger: '.xmas-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
-
     gsap.to('.xmas-step-item', {
       scrollTrigger: { trigger: '.xmas-steps', start: 'top 85%', toggleActions: 'play none none none' },
       opacity: 1, y: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
     })
 
-    gsap.to('.xmas-faq-item', {
-      scrollTrigger: { trigger: '.xmas-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+    gsap.to('.xmas-menu-card', {
+      scrollTrigger: { trigger: '.xmas-menu-grid', start: 'top 85%', toggleActions: 'play none none none' },
+      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
     })
 
-    gsap.to('.xmas-rel-card', {
-      scrollTrigger: { trigger: '.xmas-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+    gsap.to('.xmas-setting-item', {
+      scrollTrigger: { trigger: '.xmas-settings-grid', start: 'top 85%', toggleActions: 'play none none none' },
+      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
     })
 
     gsap.to('.xmas-cta', {
@@ -280,49 +388,51 @@ export default function ChristmasCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Christmas Catering Dubai | myCHEF"
-        description="Christmas catering Dubai: roast turkey, ham, canapés and a team in your kitchen. Villa dinners, office parties and family tables, then we clear down."
+        title="Christmas Catering Dubai | Christmas Dinner at Home | myCHEF"
+        description="Christmas catering Dubai: a private chef cooks Christmas dinner at home. British, French, Italian, German, Russian, Swiss & American menus."
         canonicalPath="/christmas-catering-dubai"
-        ogImage="/service-catering.webp"
-        hideSiteName
+        ogImage={HERO_IMAGE}
+        preloadHero={HERO_IMAGE}
         schema={schema}
       />
 
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      {/* ═══════════════ 1. Hero ═══════════════ */}
+      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/christmas-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: `url(${HERO_IMAGE})` }}
+          role="img"
+          aria-label="Private chef in a black jacket serving a roast turkey at a candlelit Christmas dinner table"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/55" />
 
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 xmas-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+        <div className="relative z-10 container-custom text-center max-w-[860px] py-20">
+          <nav aria-label="Breadcrumb" className="mb-6 opacity-0 translate-y-4 xmas-hero-h1">
+            <ol className="flex flex-wrap items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Christmas Catering Dubai</span></li>
+              <li className="text-gray-400" aria-hidden>/</li>
+              <li><Link to="/festive-catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Festive catering</Link></li>
+              <li className="text-gray-400" aria-hidden>/</li>
+              <li><span className="text-gold" aria-current="page">Christmas catering</span></li>
             </ol>
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 xmas-hero-h1">
-            Christmas Catering Dubai
+            Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home
           </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 xmas-hero-sub">
-            Christmas catering Dubai: roast turkey, ham, canapés and a chef team in your kitchen. Villa dinners, office parties and family tables. You host; we cook, serve and clear down.
+          <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 xmas-hero-sub">
+            Spend Christmas with your family, not in the kitchen. Our chefs prepare Christmas Eve, Christmas Day and festive-season dinners in private homes, villas and residences across Dubai, from a traditional British roast to a French Réveillon, an Italian Natale and other international Christmas menus.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Get a Christmas Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Plan My Christmas Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary opacity-0 translate-y-4 xmas-hero-cta"
             >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              <Phone size={16} className="mr-2" aria-hidden />
+              WhatsApp Us
             </a>
           </div>
         </div>
@@ -330,7 +440,7 @@ export default function ChristmasCatering() {
 
       <TrustSignalStrip variant="dark" />
 
-      {/* ═══════════════ Urgency Banner ═══════════════ */}
+      {/* ═══════════════ Urgency banner ═══════════════ */}
       <section className="bg-gold py-4">
         <div className="container-custom text-center">
           <p className="font-inter text-sm font-medium text-black">
@@ -339,107 +449,41 @@ export default function ChristmasCatering() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 2: Opening ═══════════════ */}
+      {/* ═══════════════ 2. What this is ═══════════════ */}
       <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">Festive Catering in Dubai</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            Christmas catering Dubai: the roast, without you in the kitchen
+        <div className="container-custom max-w-[820px]">
+          <SectionLabel>Christmas dinner, cooked at your address</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-6">
+            A chef in your kitchen on the one day you would rather not be in it
           </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Christmas in Dubai is often a table at home, in the office or on a terrace, not a restaurant booking. Cooler evenings make that easier. myCHEF brings the turkey, the trimmings and the service team to the address you already have.
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+            Christmas catering Dubai, the way we run it, is a chef and a service team at the address you already have: a villa in Emirates Hills, an apartment in the Marina, an office in DIFC or a yacht you have chartered. Christmas in Dubai is often a table at home rather than a restaurant booking, and cooler evenings make a long lunch on the terrace easy.
           </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+            Yes, we cook on Christmas Day itself, and on Christmas Eve, Boxing Day and Orthodox Christmas in January. Yes, you choose the menu: start from one of the seven Christmas menus on this page, combine dishes across them, or brief the chef on what Christmas looks like in your family. The chef shops, cooks, serves and clears down. You host.
           </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Roasted turkey and honey-glazed ham, vegetarian mains and a dessert table if you want one. Menus follow the guest list, the venue and how formal the sitting is. Chefs in our network cook, serve and clear, so you stay with the people at the table. See how this sits in our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed">
+            There is no single fixed Christmas catering menu in Dubai from us and no printed Christmas catering packages. You receive a written proposal covering food, chef, service and any hire, with dietary notes worked into the first draft. Christmas dinner catering in Dubai sits inside our wider{' '}
+            <Link to="/catering-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">catering in Dubai</Link>; a seated dinner for a small table is closer to{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">fine dining at home</Link>. Both are booked the same way.
           </p>
         </div>
       </section>
 
-      {/* ═══════════════ Section 3: Target Audience ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[900px] text-center">
-          <SectionLabel align="center">Who Our Christmas Catering Is For</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            Family tables, offices and a yacht you have chartered
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Christmas catering Dubai is for hosts who do not want to cook and clear the kitchen. Families on Christmas Eve or Christmas Day, companies with an end-of-year sitting, villa tables and groups away from home. We also cook Christmas brunch, office lunches and yacht dinners during the holiday dates. Staffing and format follow the headcount, from a small table to fifty guests.
-          </p>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: Formats / Menu Options ═══════════════ */}
+      {/* ═══════════════ 3. How it works ═══════════════ */}
       <section className="bg-black section-padding">
-        <div className="container-custom">
+        <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">Christmas Menus & Formats</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Catering Styles for the Festive Season
-            </h2>
-          </div>
-
-          <div className="xmas-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {christmasFormats.map((fmt, i) => {
-              const Icon = fmt.icon
-              return (
-                <Link
-                  key={i}
-                  to={fmt.link}
-                  className="xmas-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-                >
-                  <Icon size={36} className="text-gold mb-4" />
-                  <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                    {fmt.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Learn More <ArrowRight size={14} />
-                  </span>
-                </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 5: What's Included ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Christmas Catering Includes
-          </h2>
-
-          <div className="xmas-inc-grid grid md:grid-cols-2 gap-6">
-            {includedItems.map((item, i) => (
-              <div key={i} className="xmas-inc-item flex gap-3 opacity-0 -translate-x-5">
-                <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 6: How It Works ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">How It Works</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              From Inquiry to Christmas Dinner
+            <SectionLabel align="center" tone="dark">How Christmas catering works</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-white">
+              From the first message to the last cleared plate
             </h2>
           </div>
 
           <div className="xmas-steps grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {howItWorks.map((step, i) => (
-              <div key={i} className="xmas-step-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <span className="font-playfair text-fluid-h3 text-gold/40 block mb-3">{step.step}</span>
+            {howItWorks.map((step) => (
+              <div key={step.step} className="xmas-step-item bg-charcoal p-8 opacity-0 translate-y-10">
+                <span className="font-playfair text-fluid-h3 text-gold/40 block mb-3" aria-hidden>{step.step}</span>
                 <h3 className="font-playfair text-h3 text-white mb-2">{step.title}</h3>
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{step.description}</p>
               </div>
@@ -448,153 +492,240 @@ export default function ChristmasCatering() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 7: What the team does on the day ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">What the team does on the day</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            The roast is timed. The kitchen is not yours to run.
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Chefs in our network and the service team cook in private villas, homes, offices and event spaces across Dubai. The menu can follow a traditional roast or the way this table actually eats. We do not own the venue. We staff the kitchen.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            We do not use a single fixed Christmas menu. You get a written proposal covering food, drinks, service and styling. Guest count, dietary notes and how formal the sitting is go into that draft before anything is confirmed.
-          </p>
+      {/* ═══════════════ 4. What the booking covers ═══════════════ */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[1100px]">
+          <div className="max-w-[820px] mb-12">
+            <SectionLabel>What is included</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-5">
+              What every Christmas booking covers, and what you add only if the room needs it
+            </h2>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed">
+              Five things are always part of the booking. Everything else is a line you can add. Nothing on the right-hand list is included automatically, so a family dinner for eight is not paying for a bartender it does not need.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-10 lg:gap-14">
+            <div>
+              <h3 className="font-playfair text-h3 text-black mb-6 pb-4 border-b border-gray-200">Part of every Christmas booking</h3>
+              <ul className="space-y-5">
+                {alwaysIncluded.map((item) => (
+                  <li key={item.title} className="flex gap-3">
+                    <Check size={20} className="text-gold-ink flex-shrink-0 mt-0.5" aria-hidden />
+                    <div>
+                      <p className="font-inter text-base font-medium text-black mb-1">{item.title}</p>
+                      <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.description}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-playfair text-h3 text-black mb-6 pb-4 border-b border-gray-200">Add when the room needs it</h3>
+              <ul className="space-y-5">
+                {optionalLayers.map((item) => (
+                  <li key={item.title} className="flex gap-3">
+                    <Plus size={20} className="text-gold-ink flex-shrink-0 mt-0.5" aria-hidden />
+                    <div>
+                      <p className="font-inter text-base font-medium text-black mb-1">{item.title}</p>
+                      <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.description}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* ═══════════════ Section 8: Dubai Use Cases ═══════════════ */}
-      <section className="bg-black section-padding pt-0">
+      {/* ═══════════════ 5. Choose your Christmas menu ═══════════════ */}
+      <section id="choose-your-christmas-menu" className="bg-white section-padding scroll-mt-24">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">Dubai Christmas Celebrations</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Addresses we cook Christmas at
+          <div className="max-w-[820px] mb-12">
+            <SectionLabel>Seven Christmas menus</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-6">
+              Choose Your Christmas Menu
             </h2>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+              Christmas does not taste the same everywhere.
+            </p>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+              For a British family, it may mean roast turkey, pigs in blankets and Christmas pudding. For a French family, oysters, foie gras and Bûche de Noël. German Christmas may mean roast goose and red cabbage, while an Italian Christmas table can begin with handmade tortellini and finish with panettone.
+            </p>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+              Our chefs can recreate the Christmas traditions you know or design a menu combining dishes from several traditions.
+            </p>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed">
+              Choose one of the Christmas menu inspirations below, then we tailor it around your family, dietary requirements, guest count and preferred level of service. No prices are printed on the menus: the quote follows the ingredients and the service level you choose.
+            </p>
           </div>
 
-          <div className="xmas-uc-grid grid md:grid-cols-2 gap-6">
-            {useCases.map((uc, i) => (
-              <div key={i} className="xmas-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <Home size={28} className="text-gold mb-4" />
-                <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
+          <p className="sm:hidden mb-3 font-inter text-[12px] uppercase tracking-[0.12em] text-gray-400">
+            Swipe to see all seven menus →
+          </p>
+          <div
+            className="xmas-menu-grid -mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-6 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-4"
+            role="list"
+          >
+            {christmasMenus.map((menu) => (
+              <div key={menu.id} role="listitem" className="flex shrink-0 sm:min-w-0 sm:shrink">
+                <MenuCard menu={menu} />
               </div>
             ))}
+            <div role="listitem" className="hidden lg:flex">
+              <Link
+                to="/inquiry"
+                className="group flex w-full flex-col justify-between border border-dashed border-gold/50 bg-cream p-6 transition-colors hover:border-gold hover:bg-gold/5"
+              >
+                <div>
+                  <p className="font-inter text-[12px] uppercase tracking-[0.16em] text-gold-ink mb-3">Your own tradition</p>
+                  <h3 className="font-playfair text-h4 text-black mb-2">Something else entirely?</h3>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">Tell us what Christmas looks like at your table and the chef writes the menu from there.</p>
+                </div>
+                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold-ink group-hover:text-gold transition-colors">
+                  Brief the chef <ArrowRight size={14} aria-hidden />
+                </span>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
 
-      {/* ═══════════════ Section 9: Internal Links ═══════════════ */}
-      <section className="bg-charcoal section-padding">
-        <div className="container-custom max-w-[900px]">
-          <h2 className="font-playfair text-h3 text-white text-center mb-8">
-            Explore Related Services & Locations
-          </h2>
-          <p className="font-inter text-body text-gray-400 text-center mb-8 leading-relaxed">
-            Christmas catering sits next to our other event and dining pages. Use these if the brief is a party, an office sitting or a yacht you have already booked.
+          <p className="mt-8 font-inter text-body-sm text-gray-500 leading-relaxed max-w-[75ch]">
+            Menus are starting points. Dishes and sourcing are confirmed on your written proposal and ingredients change with the season. Sauces made with wine or spirits can be prepared without on request, and halal or pork-free menus are written in from the first draft. Menu photography shows the concept, not a specific past event.
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <Link to="/events" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Events</Link>
-            <Link to="/catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Catering Dubai</Link>
-            <Link to="/private-party-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Party Catering</Link>
-            <Link to="/corporate" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Corporate Events</Link>
-            <Link to="/yachts" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Yacht Catering</Link>
-            <Link to="/canape-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Canapé Catering</Link>
-            Palm Jumeirah
-            Downtown Dubai
+        </div>
+      </section>
+
+      {/* ═══════════════ 6–12. The seven menus ═══════════════ */}
+      {christmasMenus.map((menu, i) => (
+        <MenuSection key={menu.id} menu={menu} index={i} />
+      ))}
+
+      {/* ═══════════════ 13. Build your own ═══════════════ */}
+      <section className="bg-white section-padding">
+        <div className="container-custom max-w-[820px]">
+          <SectionLabel>Your own menu</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-6">
+            Prefer to Build Your Own Christmas Menu?
+          </h2>
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+            The menus above are starting points, not fixed packages.
+          </p>
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
+            Tell us what Christmas looks like in your family. You can keep a traditional menu, combine dishes from different countries or ask the chef to create something completely different: a seafood Christmas Eve, a plant-based centrepiece, a roast ham beside the turkey.
+          </p>
+          <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-8">
+            We can accommodate vegetarian, vegan, gluten-free and other dietary requirements where possible. Every allergy you share goes into the first menu draft, and dishes are labelled at the table.
+          </p>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <Link to="/inquiry" className="btn-primary">Create My Christmas Menu</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              <Phone size={16} className="mr-2" aria-hidden />
+              WhatsApp Us
+            </a>
           </div>
         </div>
       </section>
 
-      {/* ═══════════════ Section 9b: Related Seasonal Services ═══════════════ */}
+      {/* ═══════════════ 14. More than Christmas dinner ═══════════════ */}
+      <section className="bg-black section-padding">
+        <div className="container-custom">
+          <div className="max-w-[820px] mb-12">
+            <SectionLabel tone="dark">Around the dinner</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-white mb-6">
+              More Than Christmas Dinner
+            </h2>
+            <p className="font-inter text-body-lg text-gray-300 leading-relaxed mb-5">
+              Christmas dinner is the centre of the booking. Around it, the same team can arrange the pieces below, as separate lines on the proposal or as separate bookings across the festive season. None of them is included automatically.
+            </p>
+          </div>
+
+          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-3 mb-14">
+            {moreServices.map((item) => (
+              <li key={item} className="flex gap-2 font-inter text-body-sm text-gray-300">
+                <Check size={16} className="text-gold flex-shrink-0 mt-1" aria-hidden />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div className="xmas-settings-grid grid md:grid-cols-2 gap-6">
+            {settings.map((item) => (
+              <article key={item.title} className="xmas-setting-item bg-charcoal p-8 opacity-0 translate-y-10">
+                <h3 className="font-playfair text-h3 text-white mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{item.description}</p>
+                <Link to={item.link.to} className="inline-flex items-center gap-1 font-inter text-body-sm text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                  {item.link.label} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
+            ))}
+          </div>
+
+          <p className="mt-12 font-inter text-body text-gray-400 leading-relaxed max-w-[75ch]">
+            Christmas is one date in a longer season. New Year's Eve, Christmas brunch and a festive BBQ on the terrace are planned the same way: see{' '}
+            <Link to="/new-year-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">New Year catering</Link>,{' '}
+            <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">brunch catering in Dubai</Link> and{' '}
+            <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">BBQ catering</Link>. A standing reception with passed bites rather than a seated dinner belongs on{' '}
+            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link>. The whole season, including Diwali, Ramadan and National Day, sits on{' '}
+            <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering</Link>.
+          </p>
+        </div>
+      </section>
+
+      {/* ═══════════════ 15. Related pages (contract siblings) ═══════════════ */}
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px]">
-          <h2 className="font-playfair text-h3 text-black text-center mb-8">
-            Related Seasonal Services
+          <h2 className="font-playfair text-h3 text-black text-center mb-4">
+            Related pages
           </h2>
           <p className="font-inter text-body text-gray-500 text-center mb-8 leading-relaxed">
-            Planning a festive season in Dubai? Explore these related catering services to complete your celebration.
+            Christmas catering sits inside the festive season and next to our wider catering and event pages.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <Link to="/new-year-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">New Year's Eve Catering Dubai</Link>
-            <Link to="/cocktail-party-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Cocktail Party Catering Dubai</Link>
-            <Link to="/brunch-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Brunch Catering Dubai</Link>
+            <Link to="/festive-catering-dubai" className="px-5 py-2.5 border border-gold/40 text-gold-ink font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Festive catering</Link>
+            <Link to="/new-year-catering-dubai" className="px-5 py-2.5 border border-gold/40 text-gold-ink font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">New Year catering</Link>
+            <Link to="/catering-dubai" className="px-5 py-2.5 border border-gold/40 text-gold-ink font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Catering</Link>
+            <Link to="/events" className="px-5 py-2.5 border border-gold/40 text-gold-ink font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Event catering</Link>
+            <Link to="/private-chef-dubai" className="px-5 py-2.5 border border-gold/40 text-gold-ink font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Private chef</Link>
           </div>
         </div>
       </section>
 
-      {/* ═══════════════ Section 10: FAQ ═══════════════ */}
+      {/* ═══════════════ 16. FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            The questions we get before a Christmas booking
+          <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black text-center mb-10">
+            Christmas Catering Dubai FAQs
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
 
-      {/* ═══════════════ Section 11: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
-          <div className="xmas-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="xmas-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    {svc.title} <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <LocationStrip title="Christmas catering across Dubai" />
 
-      {/* ═══════════════ Section 12: Final CTA ═══════════════ */}
+      {/* ═══════════════ 17. Final CTA ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center xmas-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Send the date, the headcount and the address
+          <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-white mb-4 max-w-[20ch] mx-auto">
+            Christmas Dinner, Without Spending Christmas in the Kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us the Christmas sitting and we will send a menu and service plan, so you stay at the table.
+            Tell us your date, number of guests, area in Dubai and the Christmas menu you have in mind. We build the food, chef and service around your celebration and send you a tailored proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get a Christmas Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Christmas Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              <Phone size={16} className="mr-2" aria-hidden />
+              WhatsApp myCHEF
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 15 minutes during business hours.
+            Christmas Eve, Christmas Day and festive-season bookings available subject to chef availability. We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

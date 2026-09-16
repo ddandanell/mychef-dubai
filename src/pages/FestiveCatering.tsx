@@ -39,7 +39,7 @@ const festivePages = [
   {
     slug: '/christmas-catering-dubai',
     title: 'Christmas Catering',
-    description: 'Roasts, canapés and desserts for Christmas Eve, lunch or dinner at your address.',
+    description: 'Christmas Eve, Christmas Day and Orthodox Christmas dinner cooked at your address, with British, French, Italian, German, Russian, Swiss and American menus.',
     icon: TreePine,
   },
   {

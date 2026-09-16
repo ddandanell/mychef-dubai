@@ -231,6 +231,10 @@ export default function CorporateEventCatering() {
             <Link to="/drop-off-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Drop-off catering
             </Link>
+            . Planning the office end-of-year party or a client dinner in December? Festive menus and dates sit on{' '}
+            <Link to="/christmas-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              corporate Christmas catering
+            </Link>
             .
           </p>
         </Container>
