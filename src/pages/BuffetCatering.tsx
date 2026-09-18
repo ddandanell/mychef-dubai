@@ -9,6 +9,7 @@ import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import FaqAccordion from '../components/FaqAccordion'
 import {
   Section,
   Container,
@@ -21,6 +22,7 @@ import {
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { faqPageSchema } from '@/utils/schema'
 
 const HERO = {
   src: '/images/buffet-catering-dubai-hero.webp',
@@ -61,7 +63,7 @@ const SIBLINGS = [
 const INCLUDED = [
   {
     title: 'The menu',
-    body: 'Hot and cold dishes, sides, breads and dessert, sized to the guest count and the diets in the room.',
+    body: 'Hot and cold dishes, sides, breads and dessert. Sized to the guest count and the diets in the room.',
   },
   {
     title: 'The kitchen',
@@ -69,7 +71,7 @@ const INCLUDED = [
   },
   {
     title: 'The line',
-    body: 'Chafing and holding equipment, platters, labels, linen for the spread, and a layout that does not stall at one tray.',
+    body: 'Chafing and holding equipment, platters, labels, linen for the spread. A layout that does not stall at one tray.',
   },
   {
     title: 'The team',
@@ -88,9 +90,9 @@ const INCLUDED = [
 const PRICE_ROWS = [
   {
     format: 'Staffed buffet',
-    what: 'A maintained spread. Typically 1–2 staff.',
+    what: 'A maintained spread with a small team on the line.',
     price: 'From AED 120 per person',
-    note: 'From 20 guests.',
+    note: 'Typically 1–2 staff. From 20 guests.',
     href: null as string | null,
   },
   {
@@ -123,6 +125,33 @@ const STEPS = [
   'The team sets up, holds, replenishes and clears. You stay with your guests.',
 ] as const
 
+const FAQS = [
+  {
+    q: 'How much does buffet catering cost in Dubai?',
+    a: 'A staffed event buffet starts from AED 120 per person, from 20 guests. 5% VAT sits on its own line. Guest count, menu, stations, venue access and timing move the total. Drop-off starts from AED 90. Live finishing from AED 150. Plated dining is AED 700–950 per person — a different product. Every proposal is itemised before you confirm. See the [catering prices guide](/dubai-catering-prices-guide).',
+  },
+  {
+    q: 'What is the minimum number of guests?',
+    a: 'A staffed buffet starts from 20 guests. Below that the line looks thin and dishes cool between visits. Drop-off food starts from 10 guests, with a AED 900 minimum order. A dinner for a handful of people belongs with a [private chef](/private-chef-dubai), which has no minimum headcount.',
+  },
+  {
+    q: 'What is included in the booking?',
+    a: 'The spread and the people who keep it: the menu, a licensed kitchen, holding equipment, labels, station staff, setup, replenishment and clear-down. Halal ingredients by default. Vegetarian, vegan and allergy dishes as separate labelled items. You are not stacking dishes at midnight.',
+  },
+  {
+    q: 'Is the food halal?',
+    a: 'Yes. Halal ingredients are the default unless the brief says otherwise. Vegetarian, vegan and allergy dishes are cooked and labelled as separate items. Specific certificates belong in the brief, not after the fact.',
+  },
+  {
+    q: 'When is a buffet the wrong format?',
+    a: 'Below about twenty guests. When you want courses to the table, read [buffet vs plated](/buffet-vs-plated-dubai). When the food is a styled centrepiece, that is a [grazing table](/grazing-table-dubai). When the cooking is the entertainment, use [live cooking stations](/live-cooking-stations-dubai). When people are standing with a drink in one hand, use [canapé catering](/canape-catering-dubai). Food with no team on site is [drop-off](/drop-off-catering-dubai).',
+  },
+  {
+    q: 'How do I get a quote?',
+    a: 'Send the date, guest count and venue. You do not need a finished menu. We typically reply within 15 minutes during business hours, with an itemised proposal to follow.',
+  },
+] as const
+
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -136,6 +165,7 @@ const schema = {
       provider: { '@id': 'https://www.mychef.ae/#organization' },
       areaServed: { '@type': 'City', name: 'Dubai' },
     },
+    faqPageSchema(FAQS.map((f) => ({ question: f.q, answer: f.a }))),
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
@@ -164,7 +194,7 @@ export default function BuffetCatering() {
 
       <PageHero
         title="Buffet Catering Dubai"
-        subtitle="Buffet catering Dubai is a staffed self-serve line: heat held, labels honest, trays replenished, the queue watched. From 20 guests, from AED 120 per person before 5% VAT. You stay with your guests."
+        subtitle="You want people to eat without sitting them all down at once. Buffet catering Dubai is a staffed self-serve line — heat held, labels honest, trays replenished, the queue watched. From 20 guests, from AED 120 per person before 5% VAT. You stay with your guests."
         image={HERO.src}
         imageAlt={HERO.alt}
         imageWidth={HERO.width}
@@ -191,17 +221,17 @@ export default function BuffetCatering() {
           <SectionLabel>WHAT THIS IS</SectionLabel>
           <DisplayHeading className="text-black mb-6">A buffet is a line that has to keep moving</DisplayHeading>
           <BodyCopy className="mb-5">
-            Guests serve themselves. That only works if hot food stays hot, cold food stays cold, labels stay honest, and someone is watching the queue before it forms. A row of trays left on a table is not a service.
+            Guests serve themselves. That only works if hot food stays hot, cold food stays cold, and someone is watching the queue before it forms. A row of trays left on a table is not a service.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            myCHEF designs the spread and matches licensed culinary partners to the room you actually have. They cook; we coordinate the line, the staffing and the clear-down. You are not the person topping up rice during your own party.
+            Licensed culinary partners cook for the room you actually have. myCHEF designs the spread and coordinates the line, the staffing and the clear-down. You are not the person topping up rice during your own party.
           </BodyCopy>
           <BodyCopy>
             The format sits inside{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
-            . If the brief is a named night (a wedding, a birthday, a company event), start with{' '}
+            . If the brief is a named night — a wedding, a birthday, a company event — start with{' '}
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Event catering in Dubai
             </Link>
@@ -217,7 +247,7 @@ export default function BuffetCatering() {
               <SectionLabel>WHO THIS IS FOR</SectionLabel>
               <DisplayHeading className="text-black mb-6">Mixed guest lists. Rooms that cannot sit everyone at once.</DisplayHeading>
               <BodyCopy className="mb-5">
-                A buffet earns its place when tastes differ, when the count runs from about twenty into the hundreds, and when you want people on their feet between plates. Villa receptions, company lunches, family gatherings — same format, different rooms.
+                A buffet earns its place when tastes differ, when the count runs from about twenty into the hundreds, and when you want people on their feet between plates. A birthday, a company lunch, a Christmas table, an Eid gathering — same format, different rooms.
               </BodyCopy>
               <BodyCopy className="mb-5">
                 It is the wrong tool below about twenty guests. The line looks thin and dishes cool between visits. Food delivered with no team on site starts from 10 guests — that is{' '}
@@ -267,10 +297,10 @@ export default function BuffetCatering() {
           <SectionLabel>THE NIGHT</SectionLabel>
           <DisplayHeading className="text-black mb-6">What buffet catering Dubai has to do on the night</DisplayHeading>
           <BodyCopy className="mb-5">
-            Heat. Replenish. Labels. Queue. That is the job. What people mean by the best buffet catering Dubai can book is not the opening photograph. It is whether the last guests still find hot food, a label they can trust, and a line that moves.
+            Heat. Replenish. Labels. Queue. That is the job. The last guests still have to find hot food, a label they can trust, and a line that moves. That is what people mean by the best buffet catering in Dubai — not the opening photograph.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            Hot pans go into holding equipment, not onto a table to go lukewarm. Fresh trays replace tired ones before the station looks empty. Halal buffet catering Dubai is the default: ingredients are sourced that way unless the brief says otherwise. Vegetarian, vegan and allergy dishes are separate, labelled items — specific certificates belong in the brief, not after the fact.
+            Hot pans go into holding equipment, not onto a table to go lukewarm. Fresh trays replace tired ones before the station looks empty. Halal buffet catering in Dubai is the default: ingredients are sourced that way unless the brief says otherwise. Vegetarian, vegan and allergy dishes are separate, labelled items. Specific certificates belong in the brief, not after the fact.
           </BodyCopy>
           <BodyCopy>
             One long table in a large room becomes a queue. We split the line — more than one point of service — when the count and the layout need it. Independent licensed partners cook to Dubai Municipality food-safety standards. myCHEF coordinates the structure. You engage those professionals for the night.
@@ -281,9 +311,9 @@ export default function BuffetCatering() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT YOU ARE BUYING</SectionLabel>
-          <DisplayHeading className="text-black mb-4">What the booking includes</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">You are buying the spread and the people who keep it</DisplayHeading>
           <BodyCopy className="mb-12">
-            The quote is the spread plus the people who keep it. You do not hire trays and hope someone watches them.
+            The quote is the food plus the team. You do not hire trays and hope someone watches them.
           </BodyCopy>
           <ul className="grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2">
             {INCLUDED.map((item) => (
@@ -301,10 +331,13 @@ export default function BuffetCatering() {
           <SectionLabel>THE SPREAD</SectionLabel>
           <DisplayHeading className="text-black mb-6">The menu has to hold</DisplayHeading>
           <BodyCopy className="mb-5">
-            The buffet catering menu Dubai is built for holding time, not only for a tasting. Curries, grills, rice, salads, breads, a dessert that can sit. Pasta finished in a pan belongs on a live station, not in a tray for an hour.
+            A buffet catering menu in Dubai is built for holding time, not only for a tasting. Curries, grills, rice, salads, breads, a dessert that can sit. Pasta finished in a pan belongs on a live station, not in a tray for an hour.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            Arabic, Indian, Mediterranean, Asian, Italian or a mixed international buffet — chosen because of who is in the room, not because a brochure lists cuisines. We fix the balance of meat, seafood, vegetarian and labelled diets with you before anyone shops.
           </BodyCopy>
           <BodyCopy>
-            Arabic, Indian, Mediterranean, Asian, Italian or a mixed line — chosen because of who is in the room, not because a brochure lists cuisines. We fix the balance of meat, seafood, vegetarian and labelled diets with you before anyone shops.
+            A breakfast buffet is the same job earlier in the day. Holding equipment, labels, a line that does not stall before the first meeting.
           </BodyCopy>
         </Container>
       </Section>
@@ -314,10 +347,10 @@ export default function BuffetCatering() {
           <SectionLabel>THE FIGURE</SectionLabel>
           <DisplayHeading className="text-black mb-6">How the price is built</DisplayHeading>
           <BodyCopy className="mb-5">
-            The buffet catering Dubai price is a per-person band plus staff, equipment and VAT — not a hidden box. Guest count, menu, how many stations, venue access and timing move it. Every proposal is itemised in writing before you confirm.
+            Hosts ask the price first. Fair. A staffed event buffet starts from AED 120 per person, from 20 guests. That is the published buffet catering price per person in Dubai for a maintained spread with a small team. Guest count, menu, how many stations, venue access and timing move it. 5% VAT sits on its own line. Every proposal is itemised in writing before you confirm.
           </BodyCopy>
           <BodyCopy className="mb-12">
-            A staffed event buffet starts from AED 120 per person, from 20 guests — the buffet catering price per person Dubai we publish for a maintained spread with a small team. 5% VAT is shown as its own line. The bands below are already on this site; they are not a quote.
+            The bands below are already on this site. They are not a quote.
           </BodyCopy>
           <div className="overflow-x-auto border border-gray-200">
             <table className="w-full min-w-[36rem] text-left">
@@ -350,7 +383,7 @@ export default function BuffetCatering() {
             </table>
           </div>
           <BodyCopy className="mt-8">
-            Starting points for buffet catering packages Dubai live on{' '}
+            Starting points for buffet catering packages in Dubai live on{' '}
             <Link to={CATERING_PATHS.packages} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               catering packages
             </Link>
@@ -374,23 +407,23 @@ export default function BuffetCatering() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHERE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Where the line is set</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">The line is set in the kitchen you already have</DisplayHeading>
           <BodyCopy className="mb-5">
-            We bring the kit to the kitchen you have — villa, apartment, office floor, garden or licensed venue. Access, power, shade and how far the food travels from the van to the table are part of the brief, especially outdoors in heat.
+            Villa, apartment, office floor, garden or licensed venue. Access, power, shade and how far the food travels from the van to the table are part of the brief, especially outdoors in heat.
           </BodyCopy>
           <BodyCopy>
             Regular rooms include{' '}
-            
+            <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Palm Jumeirah
-            
+            </Link>
             ,{' '}
-            
+            <Link to="/locations/dubai-marina" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Dubai Marina
-            
+            </Link>
             {' '}and{' '}
-            
+            <Link to="/locations/downtown-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Downtown Dubai
-            
+            </Link>
             . The full list is on{' '}
             <Link to="/locations" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Areas we serve
@@ -418,6 +451,14 @@ export default function BuffetCatering() {
               </li>
             ))}
           </ul>
+        </Container>
+      </Section>
+
+      <Section id="questions" tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>STILL OPEN</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Questions the page has not closed yet</DisplayHeading>
+          <FaqAccordion items={[...FAQS]} />
         </Container>
       </Section>
 
