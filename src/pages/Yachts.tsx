@@ -18,6 +18,7 @@ import YachtQuoteForm, { type YachtQuotePrefill } from '../components/yachts/Yac
 import YachtServiceLevels from '../components/yachts/YachtServiceLevels'
 import YachtServiceSelector from '../components/yachts/YachtServiceSelector'
 import YachtStickyCta from '../components/yachts/YachtStickyCta'
+import YachtWorkGallery from '../components/yachts/YachtWorkGallery'
 import {
   Section,
   Container,
@@ -58,7 +59,7 @@ import {
 } from '@/content/yachtPage'
 
 const PATH = CATERING_PATHS.yachts
-const HERO = '/images/yacht-catering-dubai-hero.webp'
+const HERO = '/images/yacht-work/deck-table-skyline.webp'
 const WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeURIComponent(YACHT_WHATSAPP_BASE)}`
 
 const FORMAT_TO_STYLE: Record<YachtFormatId, YachtServiceId> = {
@@ -133,12 +134,18 @@ export default function Yachts() {
         schema={schema}
       />
 
-      <YachtHero image={HERO} quoteHref="#yacht-quote" whatsappHref={WHATSAPP_LINK} />
+      <YachtHero
+        image={HERO}
+        quoteHref="#yacht-quote"
+        whatsappHref={WHATSAPP_LINK}
+        imageAlt="Seated table on a chartered Dubai yacht, with the skyline behind it."
+      />
 
       <YachtFullService />
       <YachtServiceLevels onSelect={goQuoteStyle} />
       <YachtServiceSelector onSelect={(id) => goQuote({ style: id })} />
       <YachtOccasions onSelect={(occasion) => goQuote({ occasion })} />
+      <YachtWorkGallery />
       <YachtInventory />
 
       <Section tone="white" rhythm="chapter">

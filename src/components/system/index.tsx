@@ -160,7 +160,7 @@ export function iconForSectionLabel(label: string): LucideIcon {
   if (/pric|budget|indicative|from aed|rates?/.test(l)) return ReceiptText
   if (/privacy|security/.test(l)) return ShieldCheck
   if (/quality|standard|guarantee|certified/.test(l)) return BadgeCheck
-  if (/gallery/.test(l)) return Images
+  if (/gallery|previous work|photograph/.test(l)) return Images
   if (/client reviews/.test(l)) return Star
   if (/review|testimonial/.test(l)) return MessageSquareQuote
   if (/guide|resource|topic|blog/.test(l)) return BookOpen

@@ -138,22 +138,22 @@ export const YACHT_SERVICES: readonly {
     id: 'private-chef',
     title: 'Private chef',
     line: 'A chef handles the meal while you stay with your guests. The menu is built around galley, timing and guest count.',
-    image: '/images/private-chef-dubai-yacht.webp',
-    imageAlt: 'Chef plating onboard a Dubai yacht. Experience concept shown.',
+    image: '/images/yacht-work/deck-table-marina.webp',
+    imageAlt: 'Seated table set on the upper deck of a chartered Dubai yacht.',
   },
   {
     id: 'canapes',
     title: 'Canapés & pass-around food',
     line: 'For guests moving around the yacht rather than sitting for a formal meal. We prepare the food, bring the service team and keep bites moving.',
-    image: '/images/canape-catering-dubai-hero.webp',
-    imageAlt: 'Canapés prepared for a standing yacht reception. Experience concept shown.',
+    image: '/images/yacht-work/beef-tartlets.webp',
+    imageAlt: 'Beef tartlet canapés prepared for a yacht reception.',
   },
   {
     id: 'buffet',
     title: 'Premium buffet',
     line: 'Guests eat at their own pace while waiters replenish, clear and keep the table looking organised. Strong for larger groups.',
-    image: '/images/buffet-catering-dubai-hero.webp',
-    imageAlt: 'Buffet service set for a larger yacht group. Experience concept shown.',
+    image: '/images/yacht-work/sushi-service.webp',
+    imageAlt: 'Sushi grazing table being set in a yacht salon.',
   },
   {
     id: 'live-bbq',
@@ -166,8 +166,8 @@ export const YACHT_SERVICES: readonly {
     id: 'seated',
     title: 'Seated dinner',
     line: 'Coursed dining for smaller groups when you want a proper table, not a standing party.',
-    image: '/images/tasting-menu-dubai-hero.webp',
-    imageAlt: 'Seated yacht dinner service. Experience concept shown.',
+    image: '/images/yacht-work/seated-table.webp',
+    imageAlt: 'Place settings and flowers on a seated yacht table.',
   },
 ]
 
@@ -193,6 +193,137 @@ export const YACHT_OCCASIONS_COPY = {
   h2: 'Birthday, corporate charter, or a day with family?',
   intro: 'We build the food and staffing around the occasion. Tap one to start the quote — the same team handles chefs, waiters and clear-down, not a different company for each kind of day.',
 } as const
+
+export const YACHT_WORK = {
+  label: 'Previous work',
+  h2: 'See a yacht day we already ran',
+  intro:
+    'These photographs are from a birthday on a yacht the host chartered. We did not rent the boat. We planned the menu, set the upper-deck table, ran a grazing table in the salon, and kept canapés moving. The pictures sit small on the page — tap one to change the view, or open it if you want a closer look.',
+  how: [
+    {
+      title: 'The brief',
+      body: 'A birthday sitting, not a 113-guest corporate charter. A small yacht catering day is often two rooms at once: a dressed table on deck, and food people can pick up inside while they talk.',
+    },
+    {
+      title: 'How we load it',
+      body: 'Most of the cooking happens on land. We load in the captain’s window, set the table and the salon, then finish and serve onboard so you are not managing trays.',
+    },
+    {
+      title: 'What you are looking at',
+      body: 'Gold chargers and low flowers on the upper deck. Sushi, tartlets, sliders and desserts on the salon table. Waiters replenish. We clear on the captain’s timing.',
+    },
+  ],
+  note: 'Photographs from a myCHEF yacht catering day. The host chartered the yacht.',
+  cta: 'Get a quote for a day like this',
+} as const
+
+export const YACHT_WORK_PHOTOS = [
+  {
+    src: '/images/yacht-work/deck-table-skyline.webp',
+    alt: 'Seated table on a yacht upper deck with the Dubai skyline behind it.',
+    caption: 'Upper-deck table',
+  },
+  {
+    src: '/images/yacht-work/deck-table-marina.webp',
+    alt: 'Long dressed table on a yacht deck beside the marina.',
+    caption: 'Deck sitting',
+  },
+  {
+    src: '/images/yacht-work/upper-deck.webp',
+    alt: 'Yacht upper deck lounge with a seated table ready for guests.',
+    caption: 'Upper deck before boarding',
+  },
+  {
+    src: '/images/yacht-work/place-setting.webp',
+    alt: 'Gold charger, napkin and low flowers on a yacht table.',
+    caption: 'Place setting',
+  },
+  {
+    src: '/images/yacht-work/seated-table.webp',
+    alt: 'Overhead view of a seated yacht table with flowers and glassware.',
+    caption: 'Seated table',
+  },
+  {
+    src: '/images/yacht-work/salon-window.webp',
+    alt: 'Yacht salon with birthday balloons and a marina view through the window.',
+    caption: 'Salon before service',
+  },
+  {
+    src: '/images/yacht-work/salon-overview.webp',
+    alt: 'Yacht salon with a round grazing table and birthday styling.',
+    caption: 'Salon overview',
+  },
+  {
+    src: '/images/yacht-work/salon-grazing.webp',
+    alt: 'Sushi and canapé grazing table set in a yacht salon.',
+    caption: 'Grazing table',
+  },
+  {
+    src: '/images/yacht-work/salon-buffet.webp',
+    alt: 'Round buffet table of sushi and canapés in a styled yacht salon.',
+    caption: 'Salon buffet',
+  },
+  {
+    src: '/images/yacht-work/salon-styled.webp',
+    alt: 'Yacht salon styled for a birthday with hanging balloons and a food table.',
+    caption: 'Salon styling',
+  },
+  {
+    src: '/images/yacht-work/birthday-wall.webp',
+    alt: 'Birthday photo wall and florals inside a yacht salon.',
+    caption: 'Birthday wall',
+  },
+  {
+    src: '/images/yacht-work/tartlets-salon.webp',
+    alt: 'Canapé tartlets in front of birthday styling in a yacht salon.',
+    caption: 'Canapés in the salon',
+  },
+  {
+    src: '/images/yacht-work/sushi-service.webp',
+    alt: 'Service staff setting a sushi grazing table onboard a yacht.',
+    caption: 'Sushi service',
+  },
+  {
+    src: '/images/yacht-work/beef-tartlets.webp',
+    alt: 'Beef tartlet canapés lined up for yacht service.',
+    caption: 'Beef tartlets',
+  },
+  {
+    src: '/images/yacht-work/sliders-sandwiches.webp',
+    alt: 'Mini bagels and finger sandwiches prepared for a yacht party.',
+    caption: 'Sliders and sandwiches',
+  },
+  {
+    src: '/images/yacht-work/canape-spread.webp',
+    alt: 'Meatball canapés and sushi rolls on a yacht grazing table.',
+    caption: 'Canapé spread',
+  },
+  {
+    src: '/images/yacht-work/dessert-canapes.webp',
+    alt: 'Éclairs, tartlets and canapés on a yacht dessert table.',
+    caption: 'Desserts and bites',
+  },
+  {
+    src: '/images/yacht-work/tartare.webp',
+    alt: 'Tuna and salmon tartare served in glasses for yacht canapé service.',
+    caption: 'Tartare glasses',
+  },
+  {
+    src: '/images/yacht-work/nigiri.webp',
+    alt: 'Nigiri sushi prepared for a yacht grazing table.',
+    caption: 'Nigiri',
+  },
+  {
+    src: '/images/yacht-work/salmon-sliders.webp',
+    alt: 'Smoked salmon sliders plated for yacht pass-around service.',
+    caption: 'Salmon sliders',
+  },
+  {
+    src: '/images/yacht-work/nut-tartlets.webp',
+    alt: 'Nut tartlets set out on a slate for yacht dessert service.',
+    caption: 'Nut tartlets',
+  },
+] as const
 
 export const YACHT_PROOF_COPY = {
   label: 'Real event pricing',

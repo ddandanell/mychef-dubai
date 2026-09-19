@@ -17,6 +17,7 @@ export type YachtInvSection = {
   how: string
   image: string
   imageAlt: string
+  imageCaption?: string
   groups: readonly YachtInvGroup[]
 }
 
@@ -47,8 +48,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Service formats built for a moving yacht',
     how:
       'Guests do not sit still. They move from the aft lounge to the upper deck to the salon. We design the food around that: passed canapés while people arrive, a welcome hour, buffet or bowls once they settle, live stations where the deck allows it, seated-optional dining if a smaller group wants a table. We can pause service for a CEO speech and restart without the room going cold. Corporate yacht catering, private yacht catering and VIP days use the same operating model — different staffing, same coordination with the yacht operator.',
-    image: '/images/yacht-inv-canapes.webp',
-    imageAlt: 'Waiter passing canapés in a yacht salon. Experience concept shown.',
+    image: '/images/yacht-work/salon-grazing.webp',
+    imageAlt: 'Grazing table set in a yacht salon for a birthday charter.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Reception and movement',
@@ -121,8 +123,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'A proper canapé list — not six anonymous bites',
     how:
       'The Harbour canapé reception offered a choice of 12 from a 40+ item list, plus desserts, soft drinks, water and mocktails, with 5–6 waiters named on that quote. Passed bites have to survive movement, heat and one-hand eating. We prep most of the work on land and finish onboard. The list below is the range we build from. Your written menu is a short selection, not every item on one tray.',
-    image: '/images/yacht-inv-canapes.webp',
-    imageAlt: 'Passed canapés served to guests in a yacht salon. Experience concept shown.',
+    image: '/images/yacht-work/beef-tartlets.webp',
+    imageAlt: 'Beef tartlet canapés prepared for yacht service.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Meat',
@@ -182,8 +185,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'A buffet that waiters actually run',
     how:
       'A professionally managed buffet is how larger yacht groups eat without a restaurant pass. Guests move at their own pace. Waiters replenish, clear and keep the table looking organised. The Harbour buffet quote named 4 waiters, with salads, appetizers, mains, sides, desserts and beverages. Elevations come off if the sea gets rough — that is a captain’s call, written into how we set the table.',
-    image: '/images/yacht-inv-buffet.webp',
-    imageAlt: 'International buffet in a yacht salon with waiters. Experience concept shown.',
+    image: '/images/yacht-work/sushi-service.webp',
+    imageAlt: 'Sushi and canapé buffet being set in a yacht salon.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Cold',
@@ -217,8 +221,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Bowl food when a formal table will not fit',
     how:
       'On a yacht, a low lounge table often works better than a long seated dinner. Bowl food is a proper course in a bowl you can hold — short rib, seabass, tagine, risotto, orzo — served by waiters while guests stay in conversation. Vegetarian and vegan bowls are part of the same format, not an afterthought.',
-    image: '/images/yacht-inv-lounge.webp',
-    imageAlt: 'Waiters serving bowl food in a yacht lounge. Experience concept shown.',
+    image: '/images/yacht-work/salon-window.webp',
+    imageAlt: 'Yacht salon prepared for lounge dining with a marina view.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Bowls we build',
@@ -241,8 +246,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Desserts that survive a moving deck',
     how:
       'Harbour canapé days included five desserts. We favour items that hold: tartlets, shots, baklava, fruit. A live dessert station or tiramisu bar is possible when the yacht has the space and the staff. A chocolate fountain only if the captain and the sea agree — it is not a default.',
-    image: '/images/yacht-inv-dessert.webp',
-    imageAlt: 'Dessert and coffee service on a yacht deck. Experience concept shown.',
+    image: '/images/yacht-work/dessert-canapes.webp',
+    imageAlt: 'Dessert and canapé service on a yacht grazing table.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Sweet service',
@@ -386,8 +392,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Plates, glasses and stations — you should not hunt for rentals',
     how:
       'Glassware, plates, cutlery and napkins were inside the Harbour food quotes. Larger days add charger plates, fabric napkins, buffet risers, chafing or induction, and station signage. We load what the format needs and take it off again. Menu name tags go on the buffet so guests are not guessing.',
-    image: '/images/yacht-inv-tableware.webp',
-    imageAlt: 'Tableware and glassware being set on a yacht table. Experience concept shown.',
+    image: '/images/yacht-work/place-setting.webp',
+    imageAlt: 'Tableware, chargers and napkins set on a yacht table.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Table and glass',
@@ -418,8 +425,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Yacht-safe styling — not a ballroom install',
     how:
       'Décor has to survive movement and a captain’s safety call. We style buffets and stations with elevations that can come off in open water. Candles, low florals, table runners and gold charger settings are available when the brief wants them. Corporate days can take branded menu signage. Nothing is glued to the yacht.',
-    image: '/images/yacht-inv-tableware.webp',
-    imageAlt: 'Yacht table styling with glassware and low candles. Experience concept shown.',
+    image: '/images/yacht-work/salon-styled.webp',
+    imageAlt: 'Yacht salon styled for a birthday with a food table and florals.',
+    imageCaption: 'From a myCHEF yacht catering day.',
     groups: [
       {
         heading: 'Display and décor',

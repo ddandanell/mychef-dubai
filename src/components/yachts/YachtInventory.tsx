@@ -43,7 +43,9 @@ export default function YachtInventory() {
                 decoding="async"
                 className="w-full h-auto aspect-[16/10] object-cover"
               />
-              <figcaption className="font-inter text-body-xs text-gray-500 px-1 pt-2">Experience concept shown</figcaption>
+              <figcaption className="font-inter text-body-xs text-gray-500 px-1 pt-2">
+                {section.imageCaption ?? 'Experience concept shown'}
+              </figcaption>
             </figure>
             <div>
               <p className="font-inter text-caption uppercase tracking-[0.16em] text-gold-ink mb-3">{section.label}</p>

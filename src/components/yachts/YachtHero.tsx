@@ -5,9 +5,15 @@ type Props = {
   image: string
   quoteHref: string
   whatsappHref: string
+  imageAlt?: string
 }
 
-export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
+export default function YachtHero({
+  image,
+  quoteHref,
+  whatsappHref,
+  imageAlt = 'Chef and service on a Dubai yacht deck. Experience concept shown.',
+}: Props) {
   return (
     <section data-hero className="yacht-page bg-[#F4F0E8]" aria-labelledby="yacht-h1">
       <div className="container-custom grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-10 lg:gap-16 items-center py-10 lg:py-16">
@@ -76,7 +82,7 @@ export default function YachtHero({ image, quoteHref, whatsappHref }: Props) {
           <figure className="overflow-hidden bg-gray-100">
             <img
               src={image}
-              alt="Chef and service on a Dubai yacht deck. Experience concept shown."
+              alt={imageAlt}
               width={1344}
               height={752}
               fetchPriority="high"

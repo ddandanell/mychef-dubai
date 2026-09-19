@@ -24,7 +24,7 @@ export default function YachtServiceSelector({ onSelect }: Props) {
             >
               <img
                 src={service.image}
-                alt={`${service.title} yacht catering setup in Dubai`}
+                alt={service.imageAlt}
                 width={640}
                 height={400}
                 loading="lazy"
