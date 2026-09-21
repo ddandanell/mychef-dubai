@@ -253,7 +253,7 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Dubai Price | AED 750–1,500 a Visit | myCHEF"
+        title="Private Chef Dubai Price | AED 750–1,500 | Monthly Plans | myCHEF"
         description="Private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day. Groceries at receipts. VAT 5%. Build your month."
         canonicalPath="/private-chef-dubai/pricing"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
@@ -265,7 +265,7 @@ export default function PrivateChefPrices() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Transparent Pricing"
-        title="Private Chef Dubai Price: What a Chef at Your House Costs"
+        title="Private Chef Dubai Price — AED 750/visit, monthly plans from AED 3,000"
         subtitle="Four jobs, four numbers, one price each. Groceries at cost. Build the month before you enquire."
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
