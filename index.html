@@ -54,6 +54,22 @@
       gtag('js', new Date())
       gtag('config', 'G-26YM3CE8CB')
     </script>
+
+    <!--
+      Microsoft Clarity: session recordings and heatmaps for project ym0dx1ue9z.
+      Same head slot as GA4 and the Ryze pixel, so every route (prerendered
+      pages and the SPA shell) gets one tag. The query check is there because
+      prerender serialises the tag this snippet inserts; without it the saved
+      HTML would load Clarity twice.
+    -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        if (l.querySelector('script[src="https://www.clarity.ms/tag/' + i + '"]')) return;
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ym0dx1ue9z");
+    </script>
   </head>
   <body>
     <div id="root"></div>
