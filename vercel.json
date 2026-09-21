@@ -252,6 +252,16 @@
       "statusCode": 301
     },
     {
+      "source": "/yacht-catering-guide-dubai",
+      "destination": "/yachts",
+      "statusCode": 301
+    },
+    {
+      "source": "/yacht-catering-checklist-dubai",
+      "destination": "/yachts",
+      "statusCode": 301
+    },
+    {
       "source": "/villa-catering-dubai",
       "destination": "/villas-private-residences",
       "statusCode": 301
