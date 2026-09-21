@@ -17,6 +17,7 @@ import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 import { christmasMenus, type ChristmasMenu } from '@/content/christmasMenus'
+import { CHRISTMAS_WORK, CHRISTMAS_WORK_PHOTOS } from '@/content/christmasWork'
 
 const WHATSAPP_NUMBER = '971551744849'
 const waLink = (message: string) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
@@ -319,6 +320,11 @@ export default function ChristmasCatering() {
     gsap.to('.xmas-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
     gsap.to('.xmas-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
+    gsap.to('.xmas-work-item', {
+      scrollTrigger: { trigger: '.xmas-work', start: 'top 85%', toggleActions: 'play none none none' },
+      opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out',
+    })
+
     gsap.to('.xmas-step-item', {
       scrollTrigger: { trigger: '.xmas-steps', start: 'top 85%', toggleActions: 'play none none none' },
       opacity: 1, y: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
@@ -421,6 +427,62 @@ export default function ChristmasCatering() {
             There is no single fixed Christmas catering menu in Dubai from us and no printed Christmas catering packages. You receive a written proposal covering food, chef, service and any hire, with dietary notes worked into the first draft. Christmas dinner catering in Dubai sits inside our wider{' '}
             <Link to="/catering-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">catering in Dubai</Link>; a seated dinner for a small table is closer to{' '}
             <Link to="/luxury-dining-experiences" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">fine dining at home</Link>. Both are booked the same way.
+          </p>
+        </div>
+      </section>
+
+      {/* ═══════════════ Previous work ═══════════════ */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[1100px]">
+          <div className="max-w-[820px] mb-10">
+            <SectionLabel>{CHRISTMAS_WORK.label}</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-5">
+              {CHRISTMAS_WORK.h2}
+            </h2>
+            <p className="font-inter text-body-lg text-gray-600 leading-relaxed">
+              {CHRISTMAS_WORK.intro}
+            </p>
+          </div>
+
+          <div className="xmas-work grid gap-4 md:gap-5">
+            {CHRISTMAS_WORK_PHOTOS.filter((photo) => photo.featured).map((photo) => (
+              <figure key={photo.src} className="xmas-work-item opacity-0 translate-y-8">
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={photo.width}
+                  height={photo.height}
+                  className="w-full aspect-[3/2] object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption className="font-inter text-body-sm text-gray-500 pt-3">
+                  {photo.caption}
+                </figcaption>
+              </figure>
+            ))}
+            <div className="grid md:grid-cols-2 gap-4 md:gap-5">
+              {CHRISTMAS_WORK_PHOTOS.filter((photo) => !photo.featured).map((photo) => (
+                <figure key={photo.src} className="xmas-work-item opacity-0 translate-y-8">
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
+                    className="w-full aspect-[3/2] object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption className="font-inter text-body-sm text-gray-500 pt-3">
+                    {photo.caption}
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+
+          <p className="mt-8 font-inter text-body-sm text-gray-500 leading-relaxed">
+            {CHRISTMAS_WORK.note}
           </p>
         </div>
       </section>
