@@ -209,7 +209,7 @@ export default function FullTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Full Time Private Chef Dubai | Most Days, No Payroll | myCHEF"
+        title="Full Time Private Chef Dubai | No Payroll Job | myCHEF"
         description="Full time private chef Dubai: four to six days a week, priced per visit. You do not employ the chef. Groceries at receipts. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"

@@ -602,12 +602,27 @@
       "statusCode": 301
     },
     {
+      "source": "/pricing/",
+      "destination": "/private-chef-dubai/pricing",
+      "statusCode": 301
+    },
+    {
       "source": "/private-chef-uae",
       "destination": "/private-chef-dubai",
       "statusCode": 301
     },
     {
+      "source": "/private-chef-uae/",
+      "destination": "/private-chef-dubai",
+      "statusCode": 301
+    },
+    {
       "source": "/private-chef/dubai/pricing",
+      "destination": "/private-chef-dubai/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-chef/dubai/pricing/",
       "destination": "/private-chef-dubai/pricing",
       "statusCode": 301
     },
