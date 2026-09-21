@@ -153,7 +153,7 @@ export const CORPORATE_ROOT = '/corporate' as const
 
 export const CORPORATE_KEYWORD_LOCK = {
   primary: 'corporate catering dubai',
-  title: 'Corporate Catering Dubai | Chef, Service, Clear-down | myCHEF',
+  title: 'Corporate Catering Dubai | Offices and Events | myCHEF',
   description:
     'Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.',
 } as const
