@@ -109,7 +109,7 @@ export default function Catering() {
 
       <PageHero
         eyebrow="Catering Dubai"
-        title="Catering Dubai, Built Around Your Event"
+        title="Catering Dubai — buffets, canapés and chef-led service"
         subtitle="Catering Dubai is food for a night you already have a room for. Drop-off from AED 90 per person (10 guests, AED 900 minimum). A staffed buffet from AED 120, from 20 guests. Canapés from AED 150. Chef-led plated dining from AED 700. Yacht catering from AED 280. Add chefs, waiters and setup only when the room needs them. Complete event support is optional coordination you choose."
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
