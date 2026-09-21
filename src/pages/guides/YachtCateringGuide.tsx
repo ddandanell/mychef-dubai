@@ -255,7 +255,7 @@ export default function YachtCateringGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 yacht-hero-h1">
-            Yacht Catering Guide Dubai Cruises and Celebrations
+            Yacht Catering Guide Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 yacht-hero-sub">
             Everything you need to plan catering for a Dubai yacht charter, from menu formats and route timing to crew coordination and onboard service.
@@ -282,7 +282,7 @@ export default function YachtCateringGuide() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">ON THE WATER</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Catering Designed for Yacht Life
+            What this yacht catering guide covers
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A yacht charter in Dubai offers some of the most memorable settings for a celebration: the Marina skyline, the Palm, the open Gulf. But catering on board comes with unique constraints. Galleys are compact, decks move, storage is limited, and service must integrate with the crew and route.
@@ -417,7 +417,7 @@ export default function YachtCateringGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Yacht Catering Guide Dubai: the questions we get before a booking
+            Questions before you book a yacht menu
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -428,7 +428,7 @@ export default function YachtCateringGuide() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center yacht-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Yacht Charter Catering
+            Send the yacht brief to the catering team
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Share your yacht size, route, and guest count. We will design a sea-ready menu and service plan for your Dubai cruise.

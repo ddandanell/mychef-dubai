@@ -87,7 +87,7 @@ function inlineSeoScript(route: string): string {
 }
 
 // Routes that are deliberately SPA-only (vercel.json rewrites them to index.html).
-const SPA_ONLY = new Set(["/inquiry", "/thank-you"])
+const SPA_ONLY = new Set(["/thank-you"])
 
 // Parked pages left the sitemap on purpose, and /locations/:slug expands only from the sitemap —
 // so without this a parked area page ships as the empty SPA shell and its noindex never reaches

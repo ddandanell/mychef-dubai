@@ -265,7 +265,7 @@ export default function DubaiCateringPricesGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Prices Dubai | How Much Does Catering Cost? | myCHEF"
+        title="Catering Prices Dubai 2026 | Cost Guide | myCHEF"
         description="2026 Catering prices Dubai per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised q"
         canonicalPath="/dubai-catering-prices-guide"
         ogImage="/service-catering.webp"
@@ -492,7 +492,7 @@ export default function DubaiCateringPricesGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Catering Prices Dubai: Catering Prices FAQ
+            Catering prices Dubai: questions before you ask for a quote
           </h2>
 
           <FaqAccordion items={faqs} />

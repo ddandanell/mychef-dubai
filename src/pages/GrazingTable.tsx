@@ -369,7 +369,7 @@ export default function GrazingTable() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">GRAZING FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Grazing for Every Occasion
+              How the table is laid
             </h2>
           </div>
 
@@ -403,7 +403,7 @@ export default function GrazingTable() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE GRAZING SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Styled for the Moment
+              When a long table is the format
             </h2>
           </div>
 
@@ -422,7 +422,7 @@ export default function GrazingTable() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Grazing Tables Include
+            What sits on the grazing quote
           </h2>
 
           <div className="graz-inc-grid grid md:grid-cols-2 gap-6">
@@ -443,7 +443,7 @@ export default function GrazingTable() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Grazing Tables
+            The table in the room
           </h2>
 
           <div className="graz-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -475,7 +475,7 @@ export default function GrazingTable() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Catering Across Dubai
+            Grazing tables across Dubai
           </h2>
 
           <div className="graz-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">

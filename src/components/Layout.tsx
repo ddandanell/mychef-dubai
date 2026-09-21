@@ -1,4 +1,6 @@
 import { useEffect, type ReactNode } from 'react'
+import { useLocation } from 'react-router'
+import { rememberServicePage } from '@/lib/inquiry'
 import Navbar from './Navbar'
 import SiloTrail from './SiloTrail'
 import SiloChildren from './SiloChildren'
@@ -15,6 +17,11 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    rememberServicePage(pathname)
+  }, [pathname])
+
   useEffect(() => {
     const preload = (event: Event) => {
       const el = event.target

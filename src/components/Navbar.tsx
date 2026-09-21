@@ -25,7 +25,7 @@ import {
   SheetDescription,
   SheetTitle,
 } from '@/components/ui/sheet'
-import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
+import { GLOBAL_CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
 import {
   EXPERIENCES_NAV_CHILDREN,
   EXPERIENCES_PATHS,
@@ -114,7 +114,7 @@ const navLinks: NavItem[] = [
     label: 'Private Chef',
     href: CLUSTER_PATHS.overview,
     mega: 'private-chef',
-    children: CLUSTER_NAV.map((item) => ({
+    children: GLOBAL_CLUSTER_NAV.map((item) => ({
       href: item.href,
       label: item.label,
       description: item.description,

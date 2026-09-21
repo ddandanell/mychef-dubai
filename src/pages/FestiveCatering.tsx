@@ -228,7 +228,7 @@ export default function FestiveCatering() {
     <div ref={containerRef}>
       <SEO
         title="Festive Catering Dubai | myCHEF"
-        description="Festive catering Dubai for Ramadan, Eid, Diwali, Christmas and New Year. Cooked at your venue. Buffet from AED 120. Itemised quote."
+        description="Festive catering Dubai for Ramadan, Eid, Diwali and New Year. Christmas menus sit on their own page. Cooked at your venue. Buffet from AED 120. Itemised quote."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"
         hideSiteName
@@ -239,7 +239,7 @@ export default function FestiveCatering() {
       <PageHero
         eyebrow="Seasonal Celebrations"
         title="Festive Catering Dubai"
-        subtitle="Festive catering Dubai for Christmas, New Year, Ramadan, Eid and Diwali at a home, office or venue you control. We cook there. We do not own the calendar as a venue."
+        subtitle="Festive catering Dubai for Ramadan, Eid, Diwali and New Year at a home, office or venue you control. Christmas catering has its own page. We cook there. We do not own the calendar as a venue."
         image="/images/festive-catering-dubai-hero.webp"
         imageAlt="Festive catering celebrations in Dubai"
         cta={{ label: 'Get a Festive Quote', href: '/inquiry' }}
@@ -255,7 +255,11 @@ export default function FestiveCatering() {
       <section className="bg-gold py-4">
         <div className="container-custom text-center">
           <p className="font-inter text-sm font-medium text-black">
-            Book early. Peak dates for Christmas, New Year, Ramadan and Eid fill.
+            Book early. Peak dates for{' '}
+            <Link to="/christmas-catering-dubai" className="underline underline-offset-4">
+              Christmas catering Dubai
+            </Link>
+            , New Year, Ramadan and Eid fill.
           </p>
         </div>
       </section>
@@ -305,7 +309,7 @@ export default function FestiveCatering() {
         <div className="container-custom max-w-[900px]">
           <div className="festive-services opacity-0 translate-y-8">
             <h2 className="font-playfair text-h2 text-white text-center mb-10">
-              Explore Our Catering Services
+              Other catering pages
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-3">
               {relatedServices.map((svc, i) => (

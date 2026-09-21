@@ -258,9 +258,17 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * are built from this table, so filtering here is what stops a link surviving in the one place
  * that lists everything.
  */
-export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS].filter(
-  (post) => !isParked(post.slug.startsWith("/") ? post.slug : `/blog/${post.slug}`),
-)
+const RYZE_REDIRECTED = new Set([
+  '/blog/best-meal-prep-services-in-dubai',
+  '/blog/best-private-chefs-in-dubai-for-home-dining',
+  '/blog/best-catering-companies-in-dubai',
+  '/blog/how-much-does-a-private-chef-cost-in-dubai-in',
+])
+
+export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS].filter((post) => {
+  const slug = post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`
+  return !isParked(slug) && !RYZE_REDIRECTED.has(slug)
+})
 
 export const BLOG_HUBS: BlogHub[] = [
   {

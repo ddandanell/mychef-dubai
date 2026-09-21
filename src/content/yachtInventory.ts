@@ -2,7 +2,9 @@
  * Full yacht hospitality inventory for /yachts only.
  * Capability we write into proposals. No invented prices.
  * The 113-guest Harbour quote remains the only public number.
+ * Photographs: only real yacht-work files. Never concept or stock images.
  */
+import { YACHT_PHOTO_CREDIT } from './yachtPage'
 
 export type YachtInvGroup = {
   heading: string
@@ -17,7 +19,7 @@ export type YachtInvSection = {
   how: string
   image: string
   imageAlt: string
-  imageCaption?: string
+  imageCaption: string
   groups: readonly YachtInvGroup[]
 }
 
@@ -25,7 +27,7 @@ export const YACHT_INVENTORY_INTRO = {
   label: 'The full hospitality brief',
   h2: 'One team for the entire yacht hospitality experience',
   body:
-    'Food is only the start. A serious yacht day also needs chefs, waiters, bartenders, live stations, glassware, setup, marina loading and someone coordinating with the yacht operator. We build the brief from what the day actually needs — not from a tray and a hope. Menus and staffing below are what we write into yacht proposals. The written proposal names the dishes, the team and the price.',
+    'Food is only the start. A serious yacht day also needs chefs, waiters, bartenders, live stations, glassware, setup, marina loading and someone talking to the yacht operator. We build the brief from what the day actually needs. The lists below are what we write into proposals. The written proposal names the dishes, the team and the price.',
 } as const
 
 export const YACHT_INVENTORY_PILLARS: readonly { href: string; title: string; line: string }[] = [
@@ -49,8 +51,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'Guests do not sit still. They move from the aft lounge to the upper deck to the salon. We design the food around that: passed canapés while people arrive, a welcome hour, buffet or bowls once they settle, live stations where the deck allows it, seated-optional dining if a smaller group wants a table. We can pause service for a CEO speech and restart without the room going cold. Corporate yacht catering, private yacht catering and VIP days use the same operating model — different staffing, same coordination with the yacht operator.',
     image: '/images/yacht-work/salon-grazing.webp',
-    imageAlt: 'Grazing table set in a yacht salon for a birthday charter.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Grazing table set in a yacht salon on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Reception and movement',
@@ -97,8 +99,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Compact live stations that actually fit the deck',
     how:
       'A yacht is not a hotel ballroom. Stations have to be self-contained, marine-safe and small enough to load in the captain’s window. The 113-guest Harbour quote priced one live station — chicken shawarma, Mexican, pasta or burger — with two station chefs as a separate AED 720 line. We can run more than one station when the vessel and headcount justify it: carving, dessert, coffee, robata, noodle or wok. If the captain will not allow open flame, we do not light a grill.',
-    image: '/images/yacht-inv-live-station.webp',
-    imageAlt: 'Chef at a compact shawarma live station on a yacht deck. Experience concept shown.',
+    image: '/images/yacht-work/tartlets-salon.webp',
+    imageAlt: 'Canapé tartlets set in a yacht salon on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Stations we write into proposals',
@@ -124,8 +127,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'The Harbour canapé reception offered a choice of 12 from a 40+ item list, plus desserts, soft drinks, water and mocktails, with 5–6 waiters named on that quote. Passed bites have to survive movement, heat and one-hand eating. We prep most of the work on land and finish onboard. The list below is the range we build from. Your written menu is a short selection, not every item on one tray.',
     image: '/images/yacht-work/beef-tartlets.webp',
-    imageAlt: 'Beef tartlet canapés prepared for yacht service.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Beef tartlet canapés prepared for yacht service on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Meat',
@@ -186,8 +189,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'A professionally managed buffet is how larger yacht groups eat without a restaurant pass. Guests move at their own pace. Waiters replenish, clear and keep the table looking organised. The Harbour buffet quote named 4 waiters, with salads, appetizers, mains, sides, desserts and beverages. Elevations come off if the sea gets rough — that is a captain’s call, written into how we set the table.',
     image: '/images/yacht-work/sushi-service.webp',
-    imageAlt: 'Sushi and canapé buffet being set in a yacht salon.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Sushi and canapé buffet being set in a yacht salon on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Cold',
@@ -222,8 +225,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'On a yacht, a low lounge table often works better than a long seated dinner. Bowl food is a proper course in a bowl you can hold — short rib, seabass, tagine, risotto, orzo — served by waiters while guests stay in conversation. Vegetarian and vegan bowls are part of the same format, not an afterthought.',
     image: '/images/yacht-work/salon-window.webp',
-    imageAlt: 'Yacht salon prepared for lounge dining with a marina view.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Yacht salon prepared for lounge dining with a marina view, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Bowls we build',
@@ -247,8 +250,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'Harbour canapé days included five desserts. We favour items that hold: tartlets, shots, baklava, fruit. A live dessert station or tiramisu bar is possible when the yacht has the space and the staff. A chocolate fountain only if the captain and the sea agree — it is not a default.',
     image: '/images/yacht-work/dessert-canapes.webp',
-    imageAlt: 'Dessert and canapé service on a yacht grazing table.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Dessert and canapé service on a yacht grazing table, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Sweet service',
@@ -276,8 +279,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Beverage service — mocktails as standard, a bar where the yacht allows it',
     how:
       'Soft drinks, water and mocktails sat inside the Harbour food rates. A bartender with a bar station, glasses and icebox is AED 1,800 on that quote; a bartender alone is AED 1,200. Alcohol is only where the operator permits it. We can run a mobile bar, use the yacht’s existing bar, or keep the day fully non-alcoholic. Continuous beverage service is a staffing decision, written before anyone boards.',
-    image: '/images/yacht-inv-bar.webp',
-    imageAlt: 'Bartender at a compact yacht bar station. Experience concept shown.',
+    image: '/images/yacht-work/salon-overview.webp',
+    imageAlt: 'Yacht salon set for food and drinks on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Non-alcoholic',
@@ -321,8 +325,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Chefs, waiters and bartenders — named in the proposal',
     how:
       'The Harbour canapé quote named 5–6 skilled waiters. The buffet named 4. Live station added two chefs at AED 720. Larger days can scale to an event manager, a head chef, station chefs, waiters, runners and bartenders. We do not copy a 113-guest team onto a table of twelve. Mixed-gender service teams are normal; we can match the brief. A yacht chef Dubai brief is a charter day, not a household plan.',
-    image: '/images/yacht-inv-lounge.webp',
-    imageAlt: 'Yacht waiters serving guests in the lounge. Experience concept shown.',
+    image: '/images/yacht-work/sushi-service.webp',
+    imageAlt: 'Service staff setting the salon table on a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Front of house',
@@ -365,8 +370,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Someone owns the timeline so you do not have to',
     how:
       'On larger days we put an event or service manager on the boat: briefing the team, coordinating boarding with the yacht operator, timing food around a speech, watching guest count, dietaries and the floor plan. That person is the client-facing supervisor. You should not be messaging five suppliers while guests are arriving.',
-    image: '/images/yacht-inv-coordination.webp',
-    imageAlt: 'Event coordinator briefing yacht service team. Experience concept shown.',
+    image: '/images/yacht-work/upper-deck.webp',
+    imageAlt: 'Upper deck set before guests arrived on a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Coordination we handle',
@@ -393,8 +399,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'Glassware, plates, cutlery and napkins were inside the Harbour food quotes. Larger days add charger plates, fabric napkins, buffet risers, chafing or induction, and station signage. We load what the format needs and take it off again. Menu name tags go on the buffet so guests are not guessing.',
     image: '/images/yacht-work/place-setting.webp',
-    imageAlt: 'Tableware, chargers and napkins set on a yacht table.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Tableware, chargers and napkins set on a yacht table, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Table and glass',
@@ -426,8 +432,8 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     how:
       'Décor has to survive movement and a captain’s safety call. We style buffets and stations with elevations that can come off in open water. Candles, low florals, table runners and gold charger settings are available when the brief wants them. Corporate days can take branded menu signage. Nothing is glued to the yacht.',
     image: '/images/yacht-work/salon-styled.webp',
-    imageAlt: 'Yacht salon styled for a birthday with a food table and florals.',
-    imageCaption: 'From a myCHEF yacht catering day.',
+    imageAlt: 'Yacht salon styled for a birthday with a food table and florals, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Display and décor',
@@ -452,8 +458,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Marina loading is part of the service, not an extra you invent on the day',
     how:
       'Food, equipment and staff load in the captain’s window. Cold chain, ice, chillers and waste removal are planned before the van leaves. We set up, run the service, break down and take the kit off. End-of-event clearance is on the captain’s timing. We follow the boat — Dubai Marina, Dubai Harbour, Palm Jumeirah, JBR, and other berths when it is there.',
-    image: '/images/yacht-inv-loading.webp',
-    imageAlt: 'Catering team loading cold boxes onto a yacht at a Dubai marina. Experience concept shown.',
+    image: '/images/yacht-work/deck-table-marina.webp',
+    imageAlt: 'Upper-deck table set after loading on a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'On the pontoon and onboard',
@@ -478,8 +485,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Dietaries collected before we cook — not announced at the gangway',
     how:
       'Halal is the default kitchen. Vegetarian, vegan, gluten-free, dairy-free and allergy adaptations are written into the menu when they are in the brief. Live stations can run a vegetarian or vegan line. Canapés can be adapted. Corporate days often need labelling and a pre-event dietary collection. Tell us before we write the proposal.',
-    image: '/images/vegetarian-catering-dubai-hero.webp',
-    imageAlt: 'Vegetarian dishes prepared for a catering service. Experience concept shown.',
+    image: '/images/yacht-work/nut-tartlets.webp',
+    imageAlt: 'Nut tartlets from a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'What we plan for',
@@ -503,8 +511,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'DJ and sound when the yacht — and the brief — need it',
     how:
       'We are a culinary and service team first. Optional DJ booking, sound system, audio setup and breakdown, background music and speech support can sit in a full event-management brief where the operator allows it. It is priced separately. If the yacht already has a sound system, we coordinate rather than duplicate.',
-    image: '/images/yacht-inv-bar.webp',
-    imageAlt: 'Evening yacht deck with bar and service. Experience concept shown.',
+    image: '/images/yacht-work/birthday-wall.webp',
+    imageAlt: 'Birthday wall and florals in a yacht salon on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Optional production',
@@ -525,8 +534,9 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     h2: 'Corporate charters, speeches and client entertaining',
     how:
       'The Harbour example was a 113-guest corporate day. That is not a birthday with extra canapés. It needs timed service, dietary management, a pause for a speech, enough waiters to keep 100 people looked after, and a manager who talks to the yacht operator. We also run smaller executive dinners, networking receptions, staff celebrations and spouse-inclusive days. Branded menu signage is available. The food still has to work on a moving deck.',
-    image: '/images/yacht-inv-coordination.webp',
-    imageAlt: 'Service briefing before a corporate yacht event. Experience concept shown.',
+    image: '/images/yacht-work/salon-buffet.webp',
+    imageAlt: 'Salon buffet table from a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
     groups: [
       {
         heading: 'Corporate use',

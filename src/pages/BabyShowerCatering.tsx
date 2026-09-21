@@ -428,7 +428,7 @@ export default function BabyShowerCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Baby Shower Catering Includes
+            What the shower quote lists
           </h2>
 
           <div className="bsc-inc-grid grid md:grid-cols-2 gap-6">

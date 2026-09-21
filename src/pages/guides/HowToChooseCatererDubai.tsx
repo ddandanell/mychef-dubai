@@ -265,7 +265,7 @@ export default function HowToChooseCatererDubai() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 choose-hero-h1">
-            How to Choose a Caterer Dubai: How to Choose the Right Caterer in Dubai
+            How to Choose a Caterer Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 choose-hero-sub">
             A practical 10-point checklist to help you compare caterers, spot red flags, and book a team that matches your event, venue, and guests.

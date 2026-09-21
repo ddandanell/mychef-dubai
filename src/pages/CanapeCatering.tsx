@@ -417,7 +417,7 @@ export default function CanapeCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">CANAPÉ SERVICE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Canapés for Every Reception
+              How the tray is built
             </h2>
           </div>
 
@@ -451,7 +451,7 @@ export default function CanapeCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Canapés for Every Setting
+              Rooms that stay standing
             </h2>
           </div>
 
@@ -470,7 +470,7 @@ export default function CanapeCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Canapé Catering Includes
+            What sits in the canapé quote
           </h2>
 
           <div className="can-inc-grid grid md:grid-cols-2 gap-6">
@@ -491,7 +491,7 @@ export default function CanapeCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Canapé Catering
+            Passed food in the room
           </h2>
 
           <div className="can-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">

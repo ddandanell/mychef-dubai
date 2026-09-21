@@ -133,35 +133,35 @@ export const YACHT_BOOKING_TERMS = [
 export const YACHT_FAQS = [
   {
     q: 'How much does yacht catering in Dubai cost?',
-    a: 'On a 113-guest corporate charter at Dubai Harbour, menus ran AED 162, 170 and 258 per guest. Those example totals include 5% VAT. The canapé example listed 5–6 waiters; the buffet listed 4 waiters; the live-station example added two station chefs at AED 720. Bartenders, extra hours and a different headcount are quoted separately. Every charter is written from your date, marina, guest count and format.',
+    a: 'On a 113-guest corporate charter at Dubai Harbour, menus ran AED 162, 170 and 258 per guest including 5% VAT. The canapé example listed 5–6 waiters; the buffet listed 4; the live-station example added two chefs at AED 720. Bartenders, extra hours and a different headcount are quoted separately.',
   },
   {
     q: 'Do you provide the yacht?',
-    a: 'No. We do not supply the yacht. You rent or book it. We do the catering — food, chefs, waiters, setup, service, marina loading and clear-down.',
+    a: 'The host or their operator books the yacht. We do the catering: food, chefs, waiters, setup, service, marina loading and clear-down.',
   },
   {
     q: 'Can you cook onboard?',
-    a: 'Yes, where the yacht facilities and operator permit it. Some work is finished on land and loaded in the captain’s window so the galley is not asked to do a restaurant’s job.',
+    a: 'Cooking onboard happens where the yacht facilities and operator permit it. Some work is finished on land and loaded in the captain’s window so the galley is not asked to do a restaurant’s job.',
   },
   {
     q: 'Can you provide a private chef?',
-    a: 'Yes. A chef handles the meal while you stay with your guests. That is a party on the water for a day or evening — not a standing household plan.',
+    a: 'A chef can handle the meal while you stay with your guests. That is a party on the water for a day or evening — not a standing household plan.',
   },
   {
     q: 'Can you provide waiters?',
-    a: 'Yes. Waiters can handle welcome service, canapés, buffet, table service, drinks where booked, clearing and guest support. The 113-guest examples name the waiters included in those quotes. Your written proposal sets the team for your headcount.',
+    a: 'Waiters can run welcome service, canapés, buffet, table service, drinks where booked, clearing and guest support. The 113-guest examples name the waiters in those quotes. Your written proposal sets the team for your headcount.',
   },
   {
     q: 'Can you provide a bartender?',
-    a: 'Where the operator allows alcohol, yes. A bartender with a full bar station is AED 1,800; a bartender alone is AED 1,200. That is an extra, not inside the food rate.',
+    a: 'A bartender is available where the operator allows alcohol. A bartender with a full bar station is AED 1,800; a bartender alone is AED 1,200. That is an extra, not inside the food rate.',
   },
   {
     q: 'Can you arrange BBQ onboard?',
-    a: 'When the vessel and the captain permit a safe patch of deck, yes. If they do not, we do not light a grill.',
+    a: 'A grill is lit only when the vessel and the captain permit a safe patch of deck. If they do not, we do not light it.',
   },
   {
     q: 'Can you cater a yacht birthday?',
-    a: 'Yes. Birthdays, corporate days, proposals, family gatherings and client entertaining use the same product: food, chefs, waiters and service on the yacht.',
+    a: 'Birthdays, corporate days, proposals, family gatherings and client entertaining use the same product: food, chefs, waiters and service on the yacht.',
   },
   {
     q: 'Which Dubai marinas do you serve?',
@@ -169,11 +169,11 @@ export const YACHT_FAQS = [
   },
   {
     q: 'How far in advance should we book?',
-    a: 'Two to four weeks is comfortable. Peak season from November to March, or a large charter, is safer at six to eight weeks. Send the date even if the menu is not finished.',
+    a: 'Two to four weeks is comfortable. Peak season from November to March, a large charter, or a New Year yacht catering Dubai night is safer at six to eight weeks. Send the date even if the menu is not finished.',
   },
   {
     q: 'Can you handle dietary requirements?',
-    a: 'Yes. Halal is the default. Allergies and other diets belong in the brief before we write the menu.',
+    a: 'Halal is the default. Allergies and other diets belong in the brief before we write the menu.',
   },
   {
     q: 'What information do you need for a quote?',
@@ -181,11 +181,11 @@ export const YACHT_FAQS = [
   },
   {
     q: 'What happens if the yacht galley is small?',
-    a: 'We design the menu around the fridge, oven and deck on that yacht, so the food works onboard rather than only looking good on paper.',
+    a: 'The menu is designed around the fridge, oven and deck on that yacht, so the food works onboard rather than only looking good on paper.',
   },
   {
     q: 'Is there a minimum number of guests?',
-    a: 'Quotes carry a minimum headcount, and the final number is locked 2 days before the event.',
+    a: 'Quotes carry a minimum headcount. The final number is locked 2 days before the event.',
   },
   {
     q: 'What happens if the sea is rough?',
@@ -193,27 +193,27 @@ export const YACHT_FAQS = [
   },
   {
     q: 'Do you provide plates, glasses and cutlery?',
-    a: 'Where the proposal includes them, yes — glassware, plates, cutlery and napkins. Setup is part of the service plan, not a separate hunt for suppliers.',
+    a: 'Glassware, plates, cutlery and napkins are included where the proposal names them. Setup is part of the service plan, not a separate hunt for suppliers.',
   },
   {
     q: 'Do you clear everything after service?',
-    a: 'Yes. Galley and service areas are cleared according to the agreed plan and the captain’s timing.',
+    a: 'Galley and service areas are cleared according to the agreed plan and the captain’s timing.',
   },
   {
     q: 'Do you provide an event manager?',
-    a: 'On larger days, yes — an event or service manager briefs the team, coordinates boarding with the yacht operator, times food around a speech and owns the floor plan. Smaller days may not need a separate manager; the written proposal says who is onboard.',
+    a: 'Larger days can include an event or service manager who briefs the team, coordinates boarding, times food around a speech and owns the floor plan. Smaller days may not need a separate manager. The written proposal says who is onboard.',
   },
   {
     q: 'Which live stations can you run on a yacht?',
-    a: 'The 113-guest Harbour quote offered chicken shawarma, Mexican, pasta or burger, with two station chefs as a separate AED 720 line. We also write carving, dessert, coffee, noodle and robata stations when the vessel and captain allow it. Open flame is a captain’s call.',
+    a: 'The 113-guest Harbour quote offered chicken shawarma, Mexican, pasta or burger, with two station chefs as a separate AED 720 line. Carving, dessert, coffee, noodle and robata stations are written when the vessel and captain allow it. Open flame is a captain’s call.',
   },
   {
     q: 'Can you handle vegetarian, vegan or gluten-free guests?',
-    a: 'Yes, when it is in the brief before we write the menu. Halal is the default. Live stations and canapés can be adapted. Corporate days often need labelling and a dietary collection in advance.',
+    a: 'Vegetarian, vegan and gluten-free guests are planned when they are in the brief before we write the menu. Halal is the default. Live stations and canapés can be adapted. Corporate days often need labelling and a dietary collection in advance.',
   },
   {
     q: 'Do you provide a DJ or sound?',
-    a: 'Optionally, as part of a full event-management brief, where the yacht operator allows it. It is priced separately. If the yacht already has sound, we coordinate rather than duplicate.',
+    a: 'DJ and sound can sit in a full event-management brief where the yacht operator allows it. It is priced separately. If the yacht already has sound, we coordinate rather than duplicate.',
   },
 ]
 

@@ -31,7 +31,8 @@ export default function YachtServiceSelector({ onSelect }: Props) {
                 decoding="async"
                 className="w-full aspect-[16/10] object-cover"
               />
-              <span className="block p-4">
+              <span className="block px-4 pt-2 font-inter text-body-xs text-gray-500">{service.imageCaption}</span>
+              <span className="block p-4 pt-2">
                 <span className="font-playfair text-h4 text-[#1B2A4A] block mb-2">{service.title}</span>
                 <span className="font-inter text-body-sm text-gray-600 leading-relaxed block">{service.line}</span>
               </span>

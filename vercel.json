@@ -52,6 +52,42 @@
       ]
     },
     {
+      "source": "/inquiry",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/inquiry/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seo",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        }
+      ]
+    },
+    {
+      "source": "/seo/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        }
+      ]
+    },
+    {
       "source": "/404.html",
       "headers": [
         {
@@ -357,7 +393,7 @@
     },
     {
       "source": "/film-crew-catering-dubai",
-      "destination": "/corporate-event-catering-dubai",
+      "destination": "/production-catering-dubai",
       "statusCode": 301
     },
     {
@@ -559,17 +595,54 @@
       "source": "/luxury-catering-dubai",
       "destination": "/catering-dubai",
       "statusCode": 301
+    },
+    {
+      "source": "/pricing",
+      "destination": "/private-chef-dubai/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-chef-uae",
+      "destination": "/private-chef-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-chef/dubai/pricing",
+      "destination": "/private-chef-dubai/pricing",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-events-catering/baby-shower-catering",
+      "destination": "/baby-shower-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-events-catering/baby-shower-catering/",
+      "destination": "/baby-shower-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-meal-prep-services-in-dubai",
+      "destination": "/weekly-meal-prep-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-private-chefs-in-dubai-for-home-dining",
+      "destination": "/private-chef-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-catering-companies-in-dubai",
+      "destination": "/best-catering-companies-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+      "destination": "/blog/how-much-does-private-chef-cost-dubai",
+      "statusCode": 301
     }
   ],
   "rewrites": [
-    {
-      "source": "/inquiry",
-      "destination": "/fallback.html"
-    },
-    {
-      "source": "/inquiry/",
-      "destination": "/fallback.html"
-    },
     {
       "source": "/thank-you",
       "destination": "/fallback.html"

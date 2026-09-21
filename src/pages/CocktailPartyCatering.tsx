@@ -523,7 +523,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Catering Across Dubai
+            Standing receptions across Dubai
           </h2>
 
           <div className="cock-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">

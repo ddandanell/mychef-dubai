@@ -230,8 +230,11 @@ export default function Catering() {
             ))}
           </ul>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Which band you are in is decided by the format, not by the word you searched for: a party, a buffet, a
-            bar or anything with a running order is priced per person here. A seated dinner under about twenty
+            Which band you are in is decided by the format, not by the word you searched for:{' '}
+            <Link to="/events" className="text-gold underline underline-offset-4 hover:text-gold-light">event catering Dubai</Link>
+            {', '}
+            <Link to="/buffet-catering-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">buffet catering Dubai</Link>
+            , a bar or anything with a running order is priced per person here. A seated dinner under about twenty
             people is usually cheaper as a household visit: twelve guests at AED 700 a head is AED 8,400 of plated
             dining with a service team, while one Full-Day{' '}
             <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}

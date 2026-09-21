@@ -27,8 +27,8 @@ const categories: Category[] = ['All', 'Pricing & packages', 'Booking process', 
 
 const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
   'Pricing & packages': [
-    { q: 'How much does a private chef cost in Dubai?', a: 'Private chef experiences typically start from AED 950 per person for a bespoke multi-course menu. Final pricing depends on guest count, menu complexity, ingredients, and service level. Visit our /menus page for starter package pricing.' },
-    { q: 'What are your starter packages?', a: 'We offer seven starter packages starting from AED 1,200: Date Night, Family Feast, Birthday Celebration, Weekly Prep Lite, Weekly Prep Standard, Corporate Dinner, and The Full Experience. See /menus for full details and pricing.' },
+    { q: 'How much does a private chef cost in Dubai?', a: 'A standing household chef is priced per visit on the private chef prices page, not as a per-person catering rate. One-night chef-led plated dining starts from AED 700 per person; a standard event buffet starts from AED 120. The written quote names the figure for your headcount and menu.' },
+    { q: 'What are your starter packages?', a: 'We do not sell a shelf of fixed boxes. Drop-off starts from AED 90 per person, a standard event buffet from AED 120, canapés and BBQ from AED 150, and chef-led plated dining from AED 700. See the catering prices guide or send the brief for an itemised quote.' },
     { q: 'Is there a minimum spend?', a: 'Minimums depend on the service style and guest count. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time. Contact us for specific details.' },
     { q: 'What is included in the price?', a: 'Menu design, your chef\'s sourcing and cooking, service, and cleanup — all designed and run by us. Tableware, linens, premium upgrades, and travel outside Dubai may be additional.' },
     { q: 'Are there any hidden fees?', a: 'No. Your written quote includes all agreed costs. We are transparent about pricing, deposits, and any optional add-ons before you confirm.' },
@@ -71,7 +71,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'What areas of Dubai do you cover?', a: 'We serve all areas of Dubai including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, Jumeirah, Arabian Ranches, and more. See /locations.' },
     { q: 'Do you cater on yachts?', a: 'Yes. We design private chef and catering experiences for yachts across Dubai Marina, Palm Jumeirah, and Dubai Harbour. Visit /yachts.' },
     { q: 'Can you cater at hotels?', a: 'In most cases, yes. Some hotels have restrictions on external catering. Contact us and we will coordinate with the venue.' },
-    { q: 'Do you serve outside Dubai?', a: 'We primarily serve Dubai. For Abu Dhabi and other Emirates, contact us to discuss logistics, travel, and minimum requirements.' },
+    { q: 'Do you serve outside Dubai?', a: 'Coverage is Dubai. Send a Sharjah, Ajman or other-emirate address with the enquiry and we tell you before you commit whether the Dubai network can serve it and what the travel adds.' },
     { q: 'Do you cater at beach clubs and pool venues?', a: 'Yes. We coordinate catering at beach clubs, pool venues, and outdoor spaces, working with venue teams to meet their requirements.' },
     { q: 'Can you serve at multiple venues during one event?', a: 'Yes. We can coordinate multi-venue events such as welcome receptions, main dinners, and after-parties with tailored menus at each location.' },
   ],

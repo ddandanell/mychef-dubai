@@ -78,7 +78,11 @@ eq(
   false,
 )
 eq('cost FAQ names the 113-guest example', costFaq ? /113-guest/.test(costFaq.a) : false, true)
-eq('yacht is not included', YACHT_FAQS.some((item) => item.q === 'Do you provide the yacht?' && /No/.test(item.a)), true)
+eq(
+  'yacht is not included',
+  YACHT_FAQS.some((item) => item.q === 'Do you provide the yacht?' && /does not supply|do not supply|host or their operator books/i.test(item.a)),
+  true,
+)
 
 const extras = estimateYachtCatering({
   guests: 40,

@@ -86,7 +86,7 @@ export default function SEO({
       {preloadHero && (
         <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" fetchPriority="high" />
       )}
-      <html lang="en" />
+      <html lang="en-AE" />
       <meta name="robots" content={hidden ? 'noindex, follow' : 'index, follow'} />
       <meta name="application-name" content={SITE_NAME} />
       <meta name="apple-mobile-web-app-title" content={SITE_NAME} />
@@ -105,6 +105,7 @@ export default function SEO({
 
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@mychefdubai" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={effectiveDescription} />
       <meta name="twitter:image" content={`${SITE_URL}${ogImage}`} />

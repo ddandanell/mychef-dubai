@@ -2993,12 +2993,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/asian-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -5282,12 +5282,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/birthday-catering-package-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -6718,12 +6718,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/desert-dinner-party-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -6949,12 +6949,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/dinner-party-menu-ideas-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -7421,12 +7421,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/halal-private-dining-dubai-what-to-ask",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -8353,12 +8353,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/iftar-at-home-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -8581,12 +8581,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/nye-party-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -8811,12 +8811,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/private-chef-date-night-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -9295,12 +9295,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/private-chef-vs-restaurant-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -9527,12 +9527,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/ramadan-iftar-catering-trends-2026",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -9758,12 +9758,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/vegan-catering-dubai-guide",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -10221,12 +10221,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/weekly-meal-prep-vs-full-time-chef-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -18272,12 +18272,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/date-night-package-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -21660,12 +21660,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/family-feast-package-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -23342,12 +23342,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/fitness-meal-prep-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -29158,12 +29158,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/jain-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -29836,12 +29836,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/kids-nutrition-chef-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -30787,12 +30787,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/arabian-ranches",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -31005,12 +31005,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/bluewaters-island",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -31237,12 +31237,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/business-bay",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -31687,12 +31687,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/downtown-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -31910,12 +31910,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/dubai-hills",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -32133,12 +32133,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/dubai-marina",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -32359,12 +32359,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/emirates-hills",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -33031,12 +33031,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/jumeirah",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -33249,12 +33249,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/jvc",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -33478,12 +33478,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/palm-jumeirah",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -33707,12 +33707,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/locations/umm-suqeim",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -34447,12 +34447,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/luxury-dinner-planning-guide-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -36015,12 +36015,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/mystery-dining-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -39859,12 +39859,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/postpartum-meal-prep-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -42726,12 +42726,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/private-jet-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -44284,12 +44284,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/ramadan-catering-guide-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Article",
@@ -44930,12 +44930,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/review",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "WebPage"
@@ -46627,12 +46627,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/tasting-menu-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -47022,12 +47022,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/tourist-villa-chef-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",
@@ -47441,12 +47441,12 @@
    },
    "indexation": {
     "robots": {
-     "index": true,
+     "index": false,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/uae-national-day-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": true
+    "in_sitemap": false
    },
    "schema": [
     "Service",

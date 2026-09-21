@@ -44,15 +44,23 @@ import {
   type YachtFormatId,
 } from '@/content/yachtCateringQuote'
 import {
+  YACHT_BOARDING_COPY,
+  YACHT_CLOSE_COPY,
   YACHT_ESTIMATE_COPY,
+  YACHT_FAQ_COPY,
   YACHT_FORM_COPY,
+  YACHT_HERO,
   YACHT_HOW,
+  YACHT_HOW_COPY,
   YACHT_MARINAS,
+  YACHT_NEXT_COPY,
   YACHT_OPERATIONS,
+  YACHT_OPS_COPY,
   YACHT_PROOF_COPY,
   YACHT_SEO,
   YACHT_SIBLINGS,
   YACHT_TRUST,
+  YACHT_TRUST_COPY,
   YACHT_WHATSAPP_BASE,
   type YachtFormStyleId,
   type YachtServiceId,
@@ -138,7 +146,8 @@ export default function Yachts() {
         image={HERO}
         quoteHref="#yacht-quote"
         whatsappHref={WHATSAPP_LINK}
-        imageAlt="Seated table on a chartered Dubai yacht, with the skyline behind it."
+        imageAlt="Seated table on a chartered Dubai yacht with the skyline behind it, from a previous myCHEF catering day."
+        imageCaption={YACHT_HERO.imageCaption}
       />
 
       <YachtFullService />
@@ -153,11 +162,7 @@ export default function Yachts() {
           <SectionLabel>{YACHT_PROOF_COPY.label}</SectionLabel>
           <DisplayHeading className="text-[#1B2A4A] mb-3">{YACHT_PROOF_COPY.h2}</DisplayHeading>
           <BodyCopy className="mb-4 max-w-[62ch]">{YACHT_PROOF_COPY.intro}</BodyCopy>
-          <p className="font-inter text-body-sm text-gray-600 mb-10 max-w-[62ch]">
-            Your price depends on guest count, menu, format, chefs, waiters, hours, marina, yacht facilities and optional
-            bar service. The Dubai Harbour figures below are a catering proposal for 113 guests on a yacht the client
-            chartered. We did not rent the boat.
-          </p>
+          <p className="font-inter text-body-sm text-gray-600 mb-10 max-w-[62ch]">{YACHT_PROOF_COPY.note}</p>
           <div className="grid md:grid-cols-3 gap-4">
             {YACHT_MENU_FORMATS.map((format) => (
               <article key={format.id} className="border border-gray-200 bg-[#F4F0E8] p-6 md:p-7">
@@ -235,8 +240,8 @@ export default function Yachts() {
 
       <Section tone="ivory" rhythm="chapter">
         <Container>
-          <SectionLabel>Catering, not the charter</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Food, chefs, waiters and service, written before anyone loads</DisplayHeading>
+          <SectionLabel>{YACHT_TRUST_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">{YACHT_TRUST_COPY.h2}</DisplayHeading>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {YACHT_TRUST.map((item) => (
               <article key={item.title}>
@@ -245,17 +250,14 @@ export default function Yachts() {
               </article>
             ))}
           </div>
-          <BodyCopy className="mt-12 max-w-[62ch]">
-            No yacht-specific public reviews are shown here because we do not invent testimonials. The 113-guest Harbour
-            charter above is the commercial proof we can stand behind.
-          </BodyCopy>
+          <BodyCopy className="mt-12 max-w-[62ch]">{YACHT_TRUST_COPY.note}</BodyCopy>
         </Container>
       </Section>
 
       <Section tone="white" rhythm="chapter">
         <Container>
-          <SectionLabel>How it works</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Four steps from brief to clear-down</DisplayHeading>
+          <SectionLabel>{YACHT_HOW_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">{YACHT_HOW_COPY.h2}</DisplayHeading>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {YACHT_HOW.map((step, index) => (
               <article key={step.title}>
@@ -266,8 +268,7 @@ export default function Yachts() {
             ))}
           </div>
           <BodyCopy className="mt-12 max-w-[62ch]">
-            A private chef yacht Dubai day is catering on a yacht you charter. It is not a household plan and it is not
-            a boat we operate. If you want the same chef at home, week after week, that is{' '}
+            {YACHT_HOW_COPY.bridge}{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef Dubai
             </Link>
@@ -286,12 +287,9 @@ export default function Yachts() {
 
       <Section tone="ivory" rhythm="chapter">
         <Container>
-          <SectionLabel>On the water</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-4">We coordinate around the yacht</DisplayHeading>
-          <BodyCopy className="mb-10 max-w-[62ch]">
-            Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on
-            the day. We use them to take worry off you, not to brief you like a supplier.
-          </BodyCopy>
+          <SectionLabel>{YACHT_OPS_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-4">{YACHT_OPS_COPY.h2}</DisplayHeading>
+          <BodyCopy className="mb-10 max-w-[62ch]">{YACHT_OPS_COPY.intro}</BodyCopy>
           <div className="grid sm:grid-cols-2 gap-10">
             {YACHT_OPERATIONS.map((item) => (
               <article key={item.title}>
@@ -305,12 +303,9 @@ export default function Yachts() {
 
       <Section tone="white" rhythm="chapter">
         <Container>
-          <SectionLabel>Boarding</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-4">Marinas we load from</DisplayHeading>
-          <BodyCopy className="mb-10 max-w-[62ch]">
-            We follow the boat. Most yachts we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR. The
-            host or their operator books the charter.
-          </BodyCopy>
+          <SectionLabel>{YACHT_BOARDING_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-4">{YACHT_BOARDING_COPY.h2}</DisplayHeading>
+          <BodyCopy className="mb-10 max-w-[62ch]">{YACHT_BOARDING_COPY.intro}</BodyCopy>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {YACHT_MARINAS.map((marina) => {
               const inner = (
@@ -339,8 +334,8 @@ export default function Yachts() {
 
       <Section tone="ivory" rhythm="standard">
         <Container>
-          <SectionLabel>Next</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-8">Guides and neighbouring pages</DisplayHeading>
+          <SectionLabel>{YACHT_NEXT_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-8">{YACHT_NEXT_COPY.h2}</DisplayHeading>
           <ul className="max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
             {YACHT_SIBLINGS.map((item) => (
               <li key={item.href}>
@@ -360,20 +355,18 @@ export default function Yachts() {
 
       <Section id="yacht-faqs" tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>Questions</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-10">Questions hosts ask before they book</DisplayHeading>
+          <SectionLabel>{YACHT_FAQ_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-10">{YACHT_FAQ_COPY.h2}</DisplayHeading>
           <FaqAccordion items={[...YACHT_FAQS]} />
         </Container>
       </Section>
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>Book the food, not the boat</SectionLabel>
-          <DisplayHeading className="text-[#1B2A4A] mb-6">
-            Have the party on the water. We handle everything connected to eating and drinking.
-          </DisplayHeading>
+          <SectionLabel>{YACHT_CLOSE_COPY.label}</SectionLabel>
+          <DisplayHeading className="text-[#1B2A4A] mb-6">{YACHT_CLOSE_COPY.h2}</DisplayHeading>
           <p className="font-inter text-body text-gray-600 leading-relaxed mb-8 max-w-[58ch]">
-            Send the date, marina and guest count. We will help you build the rest.
+            {YACHT_CLOSE_COPY.intro}
           </p>
           <CTAGroup>
             <a

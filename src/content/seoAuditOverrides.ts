@@ -8,8 +8,8 @@ export interface SeoAuditOverride {
 
 export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   '/events': {
-    title: 'Event Catering Dubai | Weddings & Corporate | myCHEF',
-    description: 'Event catering in Dubai for weddings, birthdays and corporate events. Menus, chefs, staff, setup and clear-down, from AED 120 per person.',
+    title: 'Event Catering Dubai | Weddings & Parties | myCHEF',
+    description: 'Event catering in Dubai for weddings, birthdays and private parties. Menus, chefs, staff, setup and clear-down, from AED 120 per person.',
   },
   '/wedding-catering-menu-planning-dubai': {
     title: 'Wedding Menu Planning Dubai | Tastings | myCHEF',
@@ -25,19 +25,19 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     description: 'Conference catering in Dubai with coffee breaks and working lunches. Drop-off from AED 90 per person; staffed buffets from AED 120.',
   },
   '/locations': {
-    title: 'Catering Across Dubai | Areas We Serve | myCHEF',
+    title: 'Catering Near Me Dubai | Areas We Serve | myCHEF',
   },
   '/faq': {
-    title: 'Private Chef & Catering FAQ Dubai | myCHEF',
+    title: 'Catering FAQ Dubai | myCHEF',
   },
   '/locations/jlt': {
     title: 'Private Chef JLT Dubai | Home & Office | myCHEF',
   },
   '/mediterranean-catering-dubai': {
-    title: 'Mediterranean Catering Dubai | Menus | myCHEF',
+    title: 'Mediterranean Catering Dubai | myCHEF',
   },
   '/wellness-meal-prep-dubai': {
-    title: 'Healthy Meal Prep Dubai | Private Chef | myCHEF',
+    title: 'Healthy Meal Prep Dubai | myCHEF',
   },
   '/blog/wedding-catering-cost-dubai': {
     title: 'Wedding Catering Cost Dubai 2026 | myCHEF',
@@ -49,16 +49,16 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     title: 'New Year Catering Dubai | NYE Parties | myCHEF',
   },
   '/italian-catering-dubai': {
-    title: 'Italian Catering Dubai | Pasta & Pizza | myCHEF',
+    title: 'Italian Catering Dubai | myCHEF',
   },
   '/christmas-catering-dubai': {
-    title: 'Christmas Catering Dubai | Festive Menus | myCHEF',
+    title: 'Christmas Catering Dubai | myCHEF',
   },
   '/engagement-catering-dubai': {
-    title: 'Engagement Party Catering Dubai | myCHEF',
+    title: 'Engagement Catering Dubai | Two Families & a Toast | myCHEF',
   },
   '/allergy-safe-catering-dubai': {
-    title: 'Allergy-Safe Catering Dubai | myCHEF',
+    title: 'Allergy Safe Catering Dubai | myCHEF',
   },
   '/nursery-catering-dubai': {
     title: 'Nursery Catering Dubai | Early Years Meals | myCHEF',
@@ -106,7 +106,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     title: 'Live Cooking Stations Dubai | myCHEF',
   },
   '/partners': {
-    title: 'Dubai Catering Partners | myCHEF',
+    title: 'Partners | myCHEF',
   },
   '/referral-programme': {
     title: 'Referral Programme Dubai | myCHEF',
@@ -115,13 +115,13 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     title: 'myCHEF Standards & Booking Protection',
   },
   '/villas-private-residences': {
-    title: 'Villa Private Chef Dubai | Home Dining | myCHEF',
+    title: 'Villa Chef Dubai | Home Dining | myCHEF',
   },
   '/business-lunch-catering-dubai': {
     description: 'Business lunch catering in Dubai for boardrooms and clients. Drop-off from AED 90 per person; plated dining AED 700–950, with VAT invoicing.',
   },
   '/chefs/marco-italian-chef': {
-    description: 'Italian private chef Marco Rossi brings 15+ years of Italian and Mediterranean cooking to Dubai villas, yachts and homes.',
+    description: 'Italian private chef Marco Rossi cooks Italian and Mediterranean menus in Dubai villas, yachts and homes.',
   },
   '/contact': {
     description: 'Contact myCHEF Dubai for private chefs, catering, partnerships or press. WhatsApp is usually fastest; replies typically arrive within 15 minutes.',

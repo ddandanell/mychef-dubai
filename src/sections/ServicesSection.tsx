@@ -17,7 +17,7 @@ const coreServices = [
   },
   {
     image: '/images/catering-dubai-hero.webp',
-    title: 'Catering Dubai',
+    title: 'Catering for a night',
     description: 'Food only, or chefs and service staff for the night. We design the menu with you, then cook and run it so you can stay with your guests.',
     link: '/catering-dubai',
     cta: 'See catering options',

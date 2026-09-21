@@ -1,0 +1,9 @@
+phrase,owner_url,role,gsc_impr_28d,gsc_top_landing,echo_from,status
+private chef dubai,https://www.mychef.ae/private-chef-dubai,owner,209,/,/,LOCKED
+catering dubai,https://www.mychef.ae/catering-dubai,owner,282,/catering-dubai,/,LOCKED
+event catering dubai,https://www.mychef.ae/events,owner,268,/catering-dubai,/catering-dubai|/,LOCKED
+yacht catering dubai,https://www.mychef.ae/yachts,owner,156,/yacht-catering-guide-dubai,/yacht-catering-guide-dubai|/,LOCKED
+buffet catering dubai,https://www.mychef.ae/buffet-catering-dubai,owner,35,/catering-dubai,/catering-dubai,LOCKED
+christmas catering dubai,https://www.mychef.ae/christmas-catering-dubai,owner,23,/festive-catering-dubai,/festive-catering-dubai,LOCKED
+corporate event catering dubai,https://www.mychef.ae/corporate-event-catering-dubai,owner,6,/corporate,/corporate,LOCKED
+cheap catering dubai,,reject,1,,,REJECTED

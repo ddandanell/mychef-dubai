@@ -455,7 +455,7 @@ export default function BrunchCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Brunch Catering Includes
+            What the brunch quote lists
           </h2>
 
           <div className="brunch-inc-grid grid md:grid-cols-2 gap-6">
@@ -478,7 +478,7 @@ export default function BrunchCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">MENU HIGHLIGHTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Fresh Morning Favourites
+              What goes on the morning table
             </h2>
           </div>
 
@@ -503,7 +503,7 @@ export default function BrunchCatering() {
           <div className="text-center mb-12">
             <SectionLabel align="center">THE PROCESS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              How Brunch Catering Works
+              Arrival, cook, clear-down
             </h2>
           </div>
 
@@ -565,7 +565,7 @@ export default function BrunchCatering() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom max-w-[900px]">
           <h2 className="font-playfair text-h2 text-white text-center mb-10">
-            Explore More from myCHEF Dubai
+            Other morning services
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div>

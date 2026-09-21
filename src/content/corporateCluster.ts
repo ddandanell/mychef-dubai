@@ -121,7 +121,7 @@ export function corporateBreadcrumb(pageName: string, path: string) {
 }
 
 export const CORPORATE_INQUIRY_HREF =
-  '/inquiry'
+  '/inquiry?from=/corporate'
 
 export const CORPORATE_WHATSAPP_MESSAGE =
   "Hi myCHEF, I'd like a proposal for a corporate event"

@@ -60,7 +60,20 @@ export const CLUSTER_NAV = [
   },
 ] as const
 
-export const INQUIRY_HREF = '/inquiry'
+/** Global header only. Household support URLs stay on ClusterNav, not sitewide. */
+export const GLOBAL_CLUSTER_NAV = [
+  CLUSTER_NAV[0],
+  CLUSTER_NAV[1],
+  {
+    href: '/our-chefs',
+    label: 'Our Chefs',
+    description: 'The vetted myCHEF network',
+    owns: 'Private chefs Dubai',
+  },
+  CLUSTER_NAV[5],
+] as const
+
+export const INQUIRY_HREF = '/inquiry?from=/private-chef-dubai'
 export const FIND_CHEF_LABEL = 'Request a household chef'
 
 /** Structural price examples for the parent, computed by the single pricing engine (src/content/privateChefPricing.ts). */
@@ -256,7 +269,7 @@ export const childSeo = {
   },
   // LOCKED: "personal chef dubai" (70/mo). Secondary: "hire a chef", "hire chef dubai", "indian chef dubai".
   ourChefs: {
-    title: 'Personal Chef Dubai | Chef Selection & Matching | myCHEF',
+    title: 'Chef Selection & Matching | myCHEF',
     description:
       'How to hire a chef in Dubai through myCHEF: identity checks, a practical cooking assessment, references and chef levels. Find a personal chef in Dubai matched to your household.',
     h1: 'We do not find a chef. We find your chef.',
@@ -266,7 +279,7 @@ export const childSeo = {
   },
   // LOCKED: "healthy food chef" (30/mo). Secondary: "food chef" (110/mo), "chef cook" (260/mo).
   quality: {
-    title: 'Chef Quality & Training | Healthy Food Standards Dubai | myCHEF',
+    title: 'Chef Quality & Training | myCHEF',
     description:
       'How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, dietary standards, and when the match should change.',
     h1: 'Good on day one is not enough.',
@@ -276,7 +289,7 @@ export const childSeo = {
   },
   // LOCKED: "private chef for family" (20/mo). Secondary: "private chef agency", "hire a chef".
   privacy: {
-    title: 'Private Chef for Family in Dubai | Privacy & Security | myCHEF',
+    title: 'Privacy & Security in Your Home | myCHEF',
     description:
       'Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, and how discretion and household access are handled.',
     h1: 'Your home changes the standard.',

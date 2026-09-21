@@ -3,25 +3,19 @@ import { useSearchParams } from 'react-router'
 import { Mail, MessageCircle } from 'lucide-react'
 import { trackConversion } from '@/lib/track'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
+import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
 
 const field =
   'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-body-sm text-black placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
 
-function serviceFromParams(params: URLSearchParams): string {
-  const from = params.get('from') || ''
-  const chef = params.get('chef')
-  if (chef) return `Chef preference: ${chef.replace(/-/g, ' ')}`
-  if (from === 'birthday' || from === 'birthday-private') return 'Birthday catering'
-  if (from === 'yachts') return 'Yacht catering'
-  if (from === 'corporate') return 'Corporate catering'
-  if (from === 'chef') return 'Private chef'
-  return 'Private chef or catering'
+type Props = {
+  sourcePage?: string
 }
 
-export default function QuoteRequestForm() {
+export default function QuoteRequestForm({ sourcePage }: Props) {
   const [params] = useSearchParams()
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
-  const [contactBy, setContactBy] = useState<'whatsapp' | 'email'>('whatsapp')
+  const [contactBy, setContactBy] = useState<'whatsapp' | 'email'>('email')
   const [fields, setFields] = useState({
     date: params.get('date') || '',
     guests: params.get('guests') || '',
@@ -31,8 +25,11 @@ export default function QuoteRequestForm() {
     email: '',
   })
 
-  const serviceType = serviceFromParams(params)
   const chef = params.get('chef')
+  const fromParam = params.get('from') || ''
+  const remembered = lastServicePage()
+  const sourcePath = sourcePage || fromParam || remembered || '/inquiry'
+  const serviceType = serviceLabelFromSource(fromParam || sourcePath, chef)
 
   const update = (key: keyof typeof fields) => (e: React.ChangeEvent<HTMLInputElement>) => {
     setFields((current) => ({ ...current, [key]: e.target.value }))
@@ -40,6 +37,7 @@ export default function QuoteRequestForm() {
 
   const brief = [
     serviceType,
+    `Came from: ${sourcePath}`,
     chef ? `Chef preference (subject to availability): ${chef}` : '',
     fields.date ? `Date: ${fields.date}` : 'Date: flexible',
     fields.guests ? `Guests / household: ${fields.guests}` : '',
@@ -56,13 +54,7 @@ export default function QuoteRequestForm() {
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (contactBy === 'whatsapp') {
-      trackConversion('inquiry_start', 'inquiry_form')
-      window.open(waHref, '_blank', 'noopener,noreferrer')
-      setStatus('sent')
-      return
-    }
-    if (!fields.email.trim()) {
+    if (!fields.phone.trim() && !fields.email.trim()) {
       setStatus('error')
       return
     }
@@ -76,18 +68,25 @@ export default function QuoteRequestForm() {
           formId: 'quote_request',
           name: fields.name.trim() || 'Website enquiry',
           email: fields.email.trim(),
-          phone: fields.phone.trim() || 'not given',
+          phone: fields.phone.trim(),
           serviceType,
           eventDate: fields.date,
           guests: fields.guests,
           location: fields.area,
+          chef: chef || '',
+          package: params.get('package') || '',
+          extras: params.get('extras') || '',
+          sourcePage: sourcePath,
           message: brief,
-          source: params.get('from') || 'inquiry',
+          source: fromParam || sourcePath,
           page: typeof window !== 'undefined' ? window.location.pathname + window.location.search : '/inquiry',
         }),
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'inquiry_form')
+        if (contactBy === 'whatsapp') {
+          window.open(waHref, '_blank', 'noopener,noreferrer')
+        }
         setStatus('sent')
       } else {
         setStatus('error')
@@ -102,7 +101,8 @@ export default function QuoteRequestForm() {
       <div className="border border-gray-200 bg-white p-8">
         <p className="font-playfair text-h3 text-[#1B2A4A] mb-2">Request sent</p>
         <p className="font-inter text-body text-gray-600 leading-relaxed">
-          A coordinator reads it and comes back with a written proposal, typically within 15 minutes during business hours. If you chose WhatsApp, finish sending the draft in the chat window.
+          A coordinator reads it and comes back with a written proposal, typically within 15 minutes during business hours.
+          {contactBy === 'whatsapp' ? ' If WhatsApp opened, finish sending the draft there as well.' : ''}
         </p>
       </div>
     )
@@ -110,6 +110,10 @@ export default function QuoteRequestForm() {
 
   return (
     <form onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
+      <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
+        This brief is for <span className="text-[#1B2A4A]">{serviceType}</span>
+        {sourcePath && sourcePath !== '/inquiry' ? ` · ${sourcePath}` : ''}.
+      </p>
       {chef ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
           Chef preference: {chef.replace(/-/g, ' ')}. Assignment is confirmed in the proposal, not on this form.
@@ -135,19 +139,19 @@ export default function QuoteRequestForm() {
         <legend className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">How should we reply?</legend>
         <div className="flex gap-4 font-inter text-body-sm text-gray-700 pt-2">
           <label className="inline-flex items-center gap-2">
-            <input type="radio" name="contactBy" checked={contactBy === 'whatsapp'} onChange={() => setContactBy('whatsapp')} />
-            WhatsApp
-          </label>
-          <label className="inline-flex items-center gap-2">
             <input type="radio" name="contactBy" checked={contactBy === 'email'} onChange={() => setContactBy('email')} />
             Email
+          </label>
+          <label className="inline-flex items-center gap-2">
+            <input type="radio" name="contactBy" checked={contactBy === 'whatsapp'} onChange={() => setContactBy('whatsapp')} />
+            WhatsApp
           </label>
         </div>
       </fieldset>
       {contactBy === 'whatsapp' ? (
         <label className="block sm:col-span-2">
-          <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp number (optional)</span>
-          <input className={field} type="tel" autoComplete="tel" value={fields.phone} onChange={update('phone')} />
+          <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp number</span>
+          <input required className={field} type="tel" autoComplete="tel" value={fields.phone} onChange={update('phone')} />
         </label>
       ) : (
         <label className="block sm:col-span-2">
@@ -158,12 +162,12 @@ export default function QuoteRequestForm() {
       <div className="sm:col-span-2 flex flex-col sm:flex-row gap-3 pt-2">
         <button type="submit" disabled={status === 'sending'} className="btn-primary inline-flex items-center justify-center gap-2 disabled:opacity-60">
           {contactBy === 'whatsapp' ? <MessageCircle size={16} aria-hidden /> : <Mail size={16} aria-hidden />}
-          {status === 'sending' ? 'Sending…' : contactBy === 'whatsapp' ? 'Send on WhatsApp' : 'Send by email'}
+          {status === 'sending' ? 'Sending…' : contactBy === 'whatsapp' ? 'Email us and open WhatsApp' : 'Send by email'}
         </button>
       </div>
       {status === 'error' ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-red-700" role="alert">
-          We could not send that just now. Use WhatsApp — the brief is ready in the button above.
+          Add an email or a WhatsApp number. If it still fails, use WhatsApp — the brief is ready in the button above.
         </p>
       ) : null}
     </form>

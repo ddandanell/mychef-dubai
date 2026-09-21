@@ -3,24 +3,20 @@ import {
   ArrowRight,
   Banknote,
   ChefHat,
-  GraduationCap,
   ListChecks,
-  Shield,
   Users,
 } from 'lucide-react'
 import { NavigationMenuLink } from '@/components/ui/navigation-menu'
-import { CLUSTER_NAV, CLUSTER_PATHS, pricingPreview } from '@/content/privateChefCluster'
+import { GLOBAL_CLUSTER_NAV, CLUSTER_PATHS, pricingPreview } from '@/content/privateChefCluster'
 import { formatAed, photos } from '@/content/privateChefPage'
 
-const MAIN = CLUSTER_NAV.slice(0, 3)
-const TRUST = CLUSTER_NAV.slice(3, 6)
+const MAIN = GLOBAL_CLUSTER_NAV.slice(0, 2)
+const TRUST = GLOBAL_CLUSTER_NAV.slice(2, 4)
 
 export const CLUSTER_ICONS = {
   [CLUSTER_PATHS.overview]: ChefHat,
   [CLUSTER_PATHS.howItWorks]: ListChecks,
-  [CLUSTER_PATHS.ourChefs]: Users,
-  [CLUSTER_PATHS.quality]: GraduationCap,
-  [CLUSTER_PATHS.privacy]: Shield,
+  '/our-chefs': Users,
   [CLUSTER_PATHS.pricing]: Banknote,
 } as const
 

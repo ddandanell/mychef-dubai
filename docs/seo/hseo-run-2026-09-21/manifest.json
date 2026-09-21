@@ -1,0 +1,32 @@
+{
+  "run_id": "hseo-mychef-ae-2026-09-21",
+  "profile": "HSEO-1.0",
+  "subprofile": "page_implementation_plus_site_context",
+  "blueprint": "/Users/openclaw/Downloads/Holistic_SEO_Agent_Master_Blueprint.md",
+  "blueprint_version": "1.0",
+  "started_at": "2026-09-21T07:47:00Z",
+  "target": "https://www.mychef.ae",
+  "scope": "site",
+  "mode": "audit_then_fix",
+  "market": {
+    "country": "AE",
+    "city": "Dubai",
+    "language": "en",
+    "currency": "AED"
+  },
+  "source_access": "repository",
+  "preserve_existing_urls": true,
+  "allow_new_urls": false,
+  "preserve_keyword_ownership": true,
+  "keyword_map": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+  "protected_business_facts": "all_unverified_prices_policies_and_claims",
+  "site_type": ["local_service", "javascript_application"],
+  "gsc_window": { "start": "2026-08-24", "end": "2026-09-20", "property": "https://www.mychef.ae/" },
+  "gates": ["G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8"],
+  "page_modules": ["C01", "C02", "C04", "C05", "C06", "C07", "C08", "C09", "C10", "T02", "T03", "T04", "T06", "T07", "T08", "T10", "T11", "T12", "U01", "U02", "U03", "U04", "U05", "U06"],
+  "site_modules": ["C03", "A01", "A03", "A05", "A08", "T01", "T03", "T05", "T07", "T09", "T13", "T14", "U07"],
+  "excluded_this_wave": ["A02", "A04", "A06", "A07", "U08"],
+  "exclusion_reason": "Domain outreach, link-building campaigns and experiment interpretation require separate authorization. Findings stay in the contextual panel.",
+  "wave": 1,
+  "wave_intent": "audit_only_no_edits"
+}

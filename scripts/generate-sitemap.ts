@@ -49,6 +49,7 @@ const PARKED: string[] = (() => {
 const EXCLUDED_PATHS = new Set([
   '/inquiry',
   '/thank-you',
+  '/review',
   // Retired 2026-08-28: Google already indexes the nested cluster URL
   // (/private-chef-dubai/pricing). This flat slug 301s there.
   '/private-chef-prices-dubai',

@@ -11,7 +11,7 @@ import {
 export const YACHT_SEO = {
   title: 'Yacht Catering Dubai | Private Chef & Catering | myCHEF',
   description:
-    'Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You rent the yacht. Tell us the date, marina and guest count.',
+    'Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.',
   h1: 'Yacht Catering Dubai',
   ogTitle: 'Yacht Catering Dubai | Private Chef & Catering',
 } as const
@@ -19,34 +19,37 @@ export const YACHT_SEO = {
 export const YACHT_POSITIONING =
   'Have the party on the water. We do the food, chefs, waiters and onboard service.' as const
 
+export const YACHT_PHOTO_CREDIT = 'From a previous myCHEF yacht catering day.' as const
+
 export const YACHT_HERO = {
   eyebrow: 'Private chef & full-service yacht catering',
   h1: YACHT_SEO.h1,
   support:
-    'Yacht catering Dubai is food, chefs, waiters and onboard service for a party on a yacht. You rent the boat. We handle the menu, marina loading, service and clear-down, and we coordinate with the yacht operator.',
+    'Yacht catering Dubai is food, chefs, waiters and onboard service for a party on a yacht you charter. You rent the boat. We plan the menu, load in the captain’s window, run service, and clear before you dock when that is the brief.',
   priceLine: `Recent yacht catering menus from ${formatYachtAed(YACHT_MENU_FORMATS[1].perGuestAed)} per guest*`,
   priceNote:
     '*From a 113-guest corporate charter at Dubai Harbour. Pricing varies by guest count, menu, staffing and vessel.',
   primaryCta: 'Get a Yacht Catering Quote',
   secondaryCta: 'WhatsApp myCHEF',
-  micro: 'Send us your date, marina and guest count. That is enough to start.',
+  micro: 'Date, marina and guest count is enough to start.',
   reply: 'Typical reply within 15 minutes during business hours.',
   trust: ['Food, chefs and waiters', 'Halal-first', 'Marina coordination', 'Written proposal'],
+  imageCaption: `${YACHT_PHOTO_CREDIT} The host chartered the yacht.`,
 } as const
 
 export const YACHT_FULL_SERVICE = {
   label: 'What you get',
   h2: 'Yacht Catering Dubai — one team for the food experience',
   intro:
-    'A yacht day is more than a menu. Food has to reach the right marina. Equipment has to load on time. Guests may need waiters. A buffet has to be set, replenished and cleared. We handle the culinary side so you are not coordinating separate suppliers on the charter.',
+    'A yacht day fails when trays arrive and nobody owns the rest. The menu has to match the galley. Equipment has to load on time. Waiters have to know the deck. We take the culinary side so you are not running three suppliers from the pontoon.',
   items: [
     {
       title: 'Food',
-      body: 'Menu planning, sourcing, preparation and delivery to the marina — built around how you want to eat.',
+      body: 'Menu, sourcing, prep and delivery to the marina — built around how this group actually eats.',
     },
     {
       title: 'Chefs',
-      body: 'A chef cooks or finishes onboard where the galley allows. You stay with your guests.',
+      body: 'A yacht chef Dubai brief is a charter day. The chef cooks or finishes onboard where the galley allows. You stay with your guests.',
     },
     {
       title: 'Waiters',
@@ -54,11 +57,11 @@ export const YACHT_FULL_SERVICE = {
     },
     {
       title: 'Setup',
-      body: 'Glassware, plates, cutlery, napkins, and buffet or pass-around layout — when the proposal includes them.',
+      body: 'Glassware, plates, cutlery, napkins, and the buffet or pass-around layout — when the proposal includes them.',
     },
     {
       title: 'Service',
-      body: 'The team runs the food on deck or in the saloon so you are not managing trays after they arrive.',
+      body: 'The team runs the food on deck or in the saloon. You are not managing trays after they arrive.',
     },
     {
       title: 'Clear-down',
@@ -79,8 +82,9 @@ export type YachtFormStyleId =
 
 export const YACHT_LEVELS_COPY = {
   label: 'How much we handle',
-  h2: 'Choose how much you want us to handle',
-  intro: 'You choose the type of service. We build the right team around it. Pick a level to pre-fill the quote form.',
+  h2: 'You choose the type of service. We build the team.',
+  intro:
+    'Pick a level. It pre-fills the quote. We do not sell a shelf of yacht catering packages — we write a proposal from guest count, format and the yacht.',
 } as const
 
 export const YACHT_LEVELS: readonly {
@@ -115,8 +119,8 @@ export const YACHT_LEVELS: readonly {
   },
   {
     id: 'luxury',
-    title: 'Luxury yacht experience',
-    line: 'Premium menu, live stations, full staff, rentals, décor and beverage service including bartenders where the operator permits it.',
+    title: 'VIP yacht day',
+    line: 'A tighter menu, live stations, full staff, rentals, décor and beverage service including bartenders where the operator permits it.',
     bestFor: 'VIP charters and hosts who want the room styled as well as fed.',
   },
   {
@@ -133,49 +137,55 @@ export const YACHT_SERVICES: readonly {
   line: string
   image: string
   imageAlt: string
+  imageCaption: string
 }[] = [
   {
     id: 'private-chef',
     title: 'Private chef',
     line: 'A chef handles the meal while you stay with your guests. The menu is built around galley, timing and guest count.',
     image: '/images/yacht-work/deck-table-marina.webp',
-    imageAlt: 'Seated table set on the upper deck of a chartered Dubai yacht.',
+    imageAlt: 'Seated table set on the upper deck of a chartered Dubai yacht, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
   },
   {
     id: 'canapes',
     title: 'Canapés & pass-around food',
     line: 'For guests moving around the yacht rather than sitting for a formal meal. We prepare the food, bring the service team and keep bites moving.',
     image: '/images/yacht-work/beef-tartlets.webp',
-    imageAlt: 'Beef tartlet canapés prepared for a yacht reception.',
+    imageAlt: 'Beef tartlet canapés prepared for a yacht reception, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
   },
   {
     id: 'buffet',
     title: 'Premium buffet',
     line: 'Guests eat at their own pace while waiters replenish, clear and keep the table looking organised. Strong for larger groups.',
     image: '/images/yacht-work/sushi-service.webp',
-    imageAlt: 'Sushi grazing table being set in a yacht salon.',
+    imageAlt: 'Sushi grazing table being set in a yacht salon on a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
   },
   {
     id: 'live-bbq',
     title: 'Live station / BBQ',
     line: 'Interactive cooking where the vessel and captain permit it. If they do not, we do not light a grill.',
-    image: '/images/live-cooking-stations-dubai-hero.webp',
-    imageAlt: 'Live cooking station prepared for a yacht charter. Experience concept shown.',
+    image: '/images/yacht-work/canape-spread.webp',
+    imageAlt: 'Canapés and sushi set out for guests on a previous myCHEF yacht catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
   },
   {
     id: 'seated',
     title: 'Seated dinner',
     line: 'Coursed dining for smaller groups when you want a proper table, not a standing party.',
     image: '/images/yacht-work/seated-table.webp',
-    imageAlt: 'Place settings and flowers on a seated yacht table.',
+    imageAlt: 'Place settings and flowers on a seated yacht table, from a previous myCHEF catering day.',
+    imageCaption: YACHT_PHOTO_CREDIT,
   },
 ]
 
 export const YACHT_FORMATS_COPY = {
   label: 'How you eat',
-  h2: 'Choose how you want to eat on board',
+  h2: 'How do you want to eat on the water?',
   intro:
-    'Brunch, lunch, dinner or a standing party — pick the format. It pre-fills the quote form. You can still change it.',
+    'Brunch, lunch, a standing party or a seated dinner. Pick the format. Boat catering Dubai is the same decision: the food has to work while the deck moves. Food to bring on a yacht party is not a supermarket bag at the gangway.',
 } as const
 
 export const YACHT_OCCASIONS = [
@@ -190,15 +200,16 @@ export const YACHT_OCCASIONS = [
 
 export const YACHT_OCCASIONS_COPY = {
   label: 'Occasions',
-  h2: 'Birthday, corporate charter, or a day with family?',
-  intro: 'We build the food and staffing around the occasion. Tap one to start the quote — the same team handles chefs, waiters and clear-down, not a different company for each kind of day.',
+  h2: 'A birthday, a corporate charter, or dinner with family?',
+  intro:
+    'Yacht party catering in Dubai uses the same team for chefs, waiters and clear-down. The occasion changes the menu and the headcount, not the company. Tap one to start the quote.',
 } as const
 
 export const YACHT_WORK = {
   label: 'Previous work',
   h2: 'See a yacht day we already ran',
   intro:
-    'These photographs are from a birthday on a yacht the host chartered. We did not rent the boat. We planned the menu, set the upper-deck table, ran a grazing table in the salon, and kept canapés moving. The pictures sit small on the page — tap one to change the view, or open it if you want a closer look.',
+    'These photographs are from a birthday the host chartered. We did not rent the boat. We set the upper-deck table, ran a grazing table in the salon, and kept canapés moving. The pictures sit small on the page — tap one to change the view, or open it if you want a closer look.',
   how: [
     {
       title: 'The brief',
@@ -213,115 +224,115 @@ export const YACHT_WORK = {
       body: 'Gold chargers and low flowers on the upper deck. Sushi, tartlets, sliders and desserts on the salon table. Waiters replenish. We clear on the captain’s timing.',
     },
   ],
-  note: 'Photographs from a myCHEF yacht catering day. The host chartered the yacht.',
+  note: 'Every photograph on this page is from a previous myCHEF yacht catering day. The host chartered the yacht.',
   cta: 'Get a quote for a day like this',
 } as const
 
 export const YACHT_WORK_PHOTOS = [
   {
     src: '/images/yacht-work/deck-table-skyline.webp',
-    alt: 'Seated table on a yacht upper deck with the Dubai skyline behind it.',
-    caption: 'Upper-deck table',
+    alt: 'Seated table on a yacht upper deck with the Dubai skyline behind it, from a previous myCHEF catering day.',
+    caption: `Upper-deck table. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/deck-table-marina.webp',
-    alt: 'Long dressed table on a yacht deck beside the marina.',
-    caption: 'Deck sitting',
+    alt: 'Long dressed table on a yacht deck beside the marina, from a previous myCHEF catering day.',
+    caption: `Deck sitting. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/upper-deck.webp',
-    alt: 'Yacht upper deck lounge with a seated table ready for guests.',
-    caption: 'Upper deck before boarding',
+    alt: 'Yacht upper deck lounge with a seated table ready for guests, from a previous myCHEF catering day.',
+    caption: `Upper deck before boarding. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/place-setting.webp',
-    alt: 'Gold charger, napkin and low flowers on a yacht table.',
-    caption: 'Place setting',
+    alt: 'Gold charger, napkin and low flowers on a yacht table, from a previous myCHEF catering day.',
+    caption: `Place setting. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/seated-table.webp',
-    alt: 'Overhead view of a seated yacht table with flowers and glassware.',
-    caption: 'Seated table',
+    alt: 'Overhead view of a seated yacht table with flowers and glassware, from a previous myCHEF catering day.',
+    caption: `Seated table. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salon-window.webp',
-    alt: 'Yacht salon with birthday balloons and a marina view through the window.',
-    caption: 'Salon before service',
+    alt: 'Yacht salon with birthday balloons and a marina view through the window, from a previous myCHEF catering day.',
+    caption: `Salon before service. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salon-overview.webp',
-    alt: 'Yacht salon with a round grazing table and birthday styling.',
-    caption: 'Salon overview',
+    alt: 'Yacht salon with a round grazing table and birthday styling, from a previous myCHEF catering day.',
+    caption: `Salon overview. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salon-grazing.webp',
-    alt: 'Sushi and canapé grazing table set in a yacht salon.',
-    caption: 'Grazing table',
+    alt: 'Sushi and canapé grazing table set in a yacht salon, from a previous myCHEF catering day.',
+    caption: `Grazing table. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salon-buffet.webp',
-    alt: 'Round buffet table of sushi and canapés in a styled yacht salon.',
-    caption: 'Salon buffet',
+    alt: 'Round buffet table of sushi and canapés in a styled yacht salon, from a previous myCHEF catering day.',
+    caption: `Salon buffet. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salon-styled.webp',
-    alt: 'Yacht salon styled for a birthday with hanging balloons and a food table.',
-    caption: 'Salon styling',
+    alt: 'Yacht salon styled for a birthday with hanging balloons and a food table, from a previous myCHEF catering day.',
+    caption: `Salon styling. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/birthday-wall.webp',
-    alt: 'Birthday photo wall and florals inside a yacht salon.',
-    caption: 'Birthday wall',
+    alt: 'Birthday photo wall and florals inside a yacht salon, from a previous myCHEF catering day.',
+    caption: `Birthday wall. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/tartlets-salon.webp',
-    alt: 'Canapé tartlets in front of birthday styling in a yacht salon.',
-    caption: 'Canapés in the salon',
+    alt: 'Canapé tartlets in front of birthday styling in a yacht salon, from a previous myCHEF catering day.',
+    caption: `Canapés in the salon. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/sushi-service.webp',
-    alt: 'Service staff setting a sushi grazing table onboard a yacht.',
-    caption: 'Sushi service',
+    alt: 'Service staff setting a sushi grazing table onboard a yacht, from a previous myCHEF catering day.',
+    caption: `Sushi service. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/beef-tartlets.webp',
-    alt: 'Beef tartlet canapés lined up for yacht service.',
-    caption: 'Beef tartlets',
+    alt: 'Beef tartlet canapés lined up for yacht service, from a previous myCHEF catering day.',
+    caption: `Beef tartlets. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/sliders-sandwiches.webp',
-    alt: 'Mini bagels and finger sandwiches prepared for a yacht party.',
-    caption: 'Sliders and sandwiches',
+    alt: 'Mini bagels and finger sandwiches prepared for a yacht party, from a previous myCHEF catering day.',
+    caption: `Sliders and sandwiches. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/canape-spread.webp',
-    alt: 'Meatball canapés and sushi rolls on a yacht grazing table.',
-    caption: 'Canapé spread',
+    alt: 'Meatball canapés and sushi rolls on a yacht grazing table, from a previous myCHEF catering day.',
+    caption: `Canapé spread. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/dessert-canapes.webp',
-    alt: 'Éclairs, tartlets and canapés on a yacht dessert table.',
-    caption: 'Desserts and bites',
+    alt: 'Éclairs, tartlets and canapés on a yacht dessert table, from a previous myCHEF catering day.',
+    caption: `Desserts and bites. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/tartare.webp',
-    alt: 'Tuna and salmon tartare served in glasses for yacht canapé service.',
-    caption: 'Tartare glasses',
+    alt: 'Tuna and salmon tartare served in glasses for yacht canapé service, from a previous myCHEF catering day.',
+    caption: `Tartare glasses. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/nigiri.webp',
-    alt: 'Nigiri sushi prepared for a yacht grazing table.',
-    caption: 'Nigiri',
+    alt: 'Nigiri sushi prepared for a yacht grazing table, from a previous myCHEF catering day.',
+    caption: `Nigiri. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/salmon-sliders.webp',
-    alt: 'Smoked salmon sliders plated for yacht pass-around service.',
-    caption: 'Salmon sliders',
+    alt: 'Smoked salmon sliders plated for yacht pass-around service, from a previous myCHEF catering day.',
+    caption: `Salmon sliders. ${YACHT_PHOTO_CREDIT}`,
   },
   {
     src: '/images/yacht-work/nut-tartlets.webp',
-    alt: 'Nut tartlets set out on a slate for yacht dessert service.',
-    caption: 'Nut tartlets',
+    alt: 'Nut tartlets set out on a slate for yacht dessert service, from a previous myCHEF catering day.',
+    caption: `Nut tartlets. ${YACHT_PHOTO_CREDIT}`,
   },
 ] as const
 
@@ -330,20 +341,66 @@ export const YACHT_PROOF_COPY = {
   h2: 'A 113-guest day at Dubai Harbour',
   intro:
     '113 guests. Four hours onboard. Dubai Harbour. The client needed a complete food and service solution, so we priced three formats for the same charter. These are not a general starting price for a smaller birthday.',
+  note:
+    'Your price depends on guest count, menu, format, chefs, waiters, hours, marina, yacht facilities and optional bar service. The figures below are from yacht catering at Dubai Harbour for 113 guests on a boat the client chartered. We did not rent the boat.',
 } as const
 
 export const YACHT_ESTIMATE_COPY = {
   label: 'Estimate',
   h2: 'See an indicative number, then send the brief',
   intro:
-    'Choose guest count and menu style. Rates come from the 113-guest Dubai Harbour charter. Get This Quote copies the numbers into the form below. Your written proposal is the only offer.',
+    'Choose guest count and menu style. Rates come from the 113-guest Dubai Harbour charter. Get This Quote copies the numbers into the form. The written proposal is the only offer.',
 } as const
 
 export const YACHT_FORM_COPY = {
   label: 'Quote',
   h2: 'Tell us about the yacht day',
   intro:
-    'You do not need a finished menu. Date, marina, guest count and how you want to eat is enough. We will help you build the rest.',
+    'You do not need a finished menu. Date, marina, guest count and how you want to eat is enough.',
+} as const
+
+export const YACHT_TRUST_COPY = {
+  label: 'Catering, not the charter',
+  h2: 'The food plan is written before anyone loads',
+  note:
+    'No yacht-specific public reviews are shown here because we do not invent testimonials. The 113-guest Harbour charter above is the commercial proof we can stand behind.',
+} as const
+
+export const YACHT_HOW_COPY = {
+  label: 'How it works',
+  h2: 'Tell us the date. We write the food plan.',
+  bridge:
+    'A private chef yacht Dubai day is catering on a yacht you charter. It is not a household plan and it is not a boat we operate. If you want the same chef at home, week after week, that is',
+} as const
+
+export const YACHT_OPS_COPY = {
+  label: 'On the water',
+  h2: 'The yacht decides how the food can work',
+  intro:
+    'Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on the day. A yacht dinner cruise Dubai search usually means a seated meal on a charter route. We still do not operate the boat.',
+} as const
+
+export const YACHT_BOARDING_COPY = {
+  label: 'Boarding',
+  h2: 'We follow the boat to the marina',
+  intro:
+    'Most yachts we cook for board at Dubai Marina, Dubai Harbour, Palm Jumeirah or JBR. The host or their operator books the charter.',
+} as const
+
+export const YACHT_NEXT_COPY = {
+  label: 'Next',
+  h2: 'Guides and neighbouring pages',
+} as const
+
+export const YACHT_FAQ_COPY = {
+  label: 'Questions',
+  h2: 'What hosts ask before they book',
+} as const
+
+export const YACHT_CLOSE_COPY = {
+  label: 'Book the food, not the boat',
+  h2: 'Have the party on the water. We handle the eating and drinking.',
+  intro: 'Send the date, marina and guest count. We will help you build the rest.',
 } as const
 
 export const YACHT_TRUST = [
@@ -406,15 +463,15 @@ export const YACHT_HOW = [
     body: 'Date, marina, guest count and the kind of day. That is enough to start.',
   },
   {
-    title: 'We build the food and service plan',
-    body: 'Menu, chefs, waiters and format — written before anyone loads.',
+    title: 'We write the food and service plan',
+    body: 'Menu, chefs, waiters and format — on paper before anyone loads.',
   },
   {
     title: 'We coordinate with the yacht',
-    body: 'Loading and onboard requirements are aligned with the captain or operator.',
+    body: 'Loading and onboard rules are aligned with the captain or operator.',
   },
   {
-    title: 'You enjoy the charter',
+    title: 'You keep the charter',
     body: 'The team runs the food and service, then clears to the agreed plan.',
   },
 ] as const
@@ -431,7 +488,7 @@ export const YACHT_MARINAS: readonly { name: string; href: string | null; note: 
 export const YACHT_FORM_STYLES: readonly { id: YachtFormStyleId; label: string }[] = [
   { id: 'not-sure', label: 'Not sure yet' },
   { id: 'full-service', label: 'Full-service yacht event' },
-  { id: 'luxury', label: 'Luxury yacht experience' },
+  { id: 'luxury', label: 'VIP yacht day' },
   { id: 'event-management', label: 'Full yacht event management' },
   { id: 'catering-service', label: 'Catering + service' },
   { id: 'delivery', label: 'Catering delivery' },

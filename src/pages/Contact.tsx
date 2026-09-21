@@ -22,6 +22,7 @@ import {
   UtensilsCrossed,
 } from 'lucide-react'
 import SEO from '@/components/SEO'
+import QuoteRequestForm from '@/components/inquiry/QuoteRequestForm'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import {
@@ -240,13 +241,16 @@ export default function Contact() {
                   </li>
                 ))}
               </ul>
-              <p className="font-inter text-body text-gray-600 mb-6">WhatsApp is usually the fastest way to start.</p>
+              <p className="font-inter text-body text-gray-600 mb-6">WhatsApp is usually the fastest way to start. The form emails the same brief to us, with this page attached.</p>
+              <div className="mb-8">
+                <QuoteRequestForm sourcePage="/contact" />
+              </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center justify-center gap-2">
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center justify-center gap-2">
                   <Phone size={18} aria-hidden />
                   Chat on WhatsApp
                 </a>
-                <Link to={INQUIRY_LINK} className="btn-secondary text-center">Request a quote</Link>
+                <Link to={`${INQUIRY_LINK}?from=/contact`} className="btn-secondary text-center">Open the full quote page</Link>
               </div>
             </div>
             <div>

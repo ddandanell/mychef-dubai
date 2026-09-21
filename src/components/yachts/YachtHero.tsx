@@ -1,18 +1,20 @@
 import { Link } from 'react-router'
-import { YACHT_HERO, YACHT_POSITIONING } from '@/content/yachtPage'
+import { YACHT_HERO, YACHT_PHOTO_CREDIT, YACHT_POSITIONING } from '@/content/yachtPage'
 
 type Props = {
   image: string
   quoteHref: string
   whatsappHref: string
   imageAlt?: string
+  imageCaption?: string
 }
 
 export default function YachtHero({
   image,
   quoteHref,
   whatsappHref,
-  imageAlt = 'Chef and service on a Dubai yacht deck. Experience concept shown.',
+  imageAlt = `Seated table on a chartered Dubai yacht, from a previous myCHEF catering day.`,
+  imageCaption = YACHT_HERO.imageCaption,
 }: Props) {
   return (
     <section data-hero className="yacht-page bg-[#F4F0E8]" aria-labelledby="yacht-h1">
@@ -89,6 +91,9 @@ export default function YachtHero({
               decoding="async"
               className="w-full h-auto aspect-[16/10] object-cover"
             />
+            <figcaption className="font-inter text-body-xs text-gray-500 pt-2">
+              {imageCaption || YACHT_PHOTO_CREDIT}
+            </figcaption>
           </figure>
         </div>
       </div>

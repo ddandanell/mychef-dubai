@@ -22,23 +22,6 @@ export type CorporateInvSection = {
   groups: readonly CorporateInvGroup[]
 }
 
-const ALL = [
-  '/corporate',
-  '/office-catering-dubai',
-  '/business-lunch-catering-dubai',
-  '/conference-catering-dubai',
-  '/corporate-event-catering-dubai',
-  '/product-launch-catering-dubai',
-  '/gala-dinner-catering-dubai',
-  '/brand-activation-catering-dubai',
-  '/exhibition-catering-dubai',
-  '/corporate-dinner-package-dubai',
-  '/staff-meals-catering-dubai',
-  '/corporate-retainer-dubai',
-  '/production-catering-dubai',
-  '/corporate-catering-checklist-dubai',
-] as const
-
 export const CORPORATE_INVENTORY_INTRO = {
   label: 'The full company brief',
   h2: 'What a corporate catering day includes',
@@ -57,7 +40,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'Choose delivered lunches, a staffed buffet, passed canapés or individually plated service to suit the meeting. Drop-off is food, delivery and layout. A staffed buffet adds people for setup, replenishing and clearance. Canapés keep a standing room moving. Plated service is courses at a table. Each format has its own starting price.',
     image: '/images/drop-off-catering-dubai-hero.webp',
     imageAlt: 'Drop-off lunch laid out on a cleared meeting table. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: "What's included",
@@ -303,7 +286,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named. Labels go on the tray. We do not promise an allergen-free kitchen.',
     image: '/images/buffet-catering-dubai-hero.webp',
     imageAlt: 'Buffet line with labelled dietary dishes. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'Hot',
@@ -346,7 +329,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'Drop-off has no staff remaining in the room. A staffed buffet includes one to two people for the line. Canapés need service staff to pass plates. Plated service needs a chef plus a floor team sized to the table. Extra roles are extra lines. Included waiters are not charged twice.',
     image: '/images/live-cooking-stations-dubai-hero.webp',
     imageAlt: 'Chef at a live station. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'Roles we book',
@@ -389,7 +372,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'A Dubai office is not a ballroom. We bring what the format needs and check power, flame and lift size before the menu is locked. Unusual hire is a separate line.',
     image: '/images/canape-catering-dubai-hero.webp',
     imageAlt: 'Service trays and canapé setup. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'Drop-off kit',
@@ -423,7 +406,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'Water, coffee and tea are the default. Mocktails can be staffed. Wine or champagne is only where the venue licence allows it and the proposal names it. We do not assume an open bar.',
     image: '/images/bar-services-dubai-hero.webp',
     imageAlt: 'Beverage station for a company event. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'Always available to quote',
@@ -456,7 +439,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'DIFC, Business Bay, Downtown and Media City each have a different desk. Names, vehicle plates and lift slots change when food can arrive at temperature. Mention the building early. Unusual access is quoted separately.',
     image: '/images/blog/corporate-catering-full-service-vs-drop-off-2.webp',
     imageAlt: 'Staffed setup in an office pantry. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'What we need',
@@ -524,7 +507,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
       'We coordinate with your planner, production team and venue. Room hire, audiovisual equipment, staging and entertainment stay with those specialists unless the quote names them.',
     image: '/images/events-catering-dubai-hero.webp',
     imageAlt: 'A dressed event room without staging equipment as the hero. Experience concept shown.',
-    paths: ALL,
+    paths: ['/corporate'],
     groups: [
       {
         heading: 'Not in the catering operation',

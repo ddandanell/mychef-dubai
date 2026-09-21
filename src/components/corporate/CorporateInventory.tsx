@@ -12,6 +12,7 @@ type Props = {
 export default function CorporateInventory({ path, quoteHref = '#quote' }: Props) {
   const sections = inventoryForPath(path)
   if (sections.length === 0) return null
+  const isHub = path === '/corporate'
   const pillars = CORPORATE_INVENTORY_PILLARS.filter((item) =>
     sections.some((section) => `#${section.id}` === item.href),
   )
@@ -20,6 +21,8 @@ export default function CorporateInventory({ path, quoteHref = '#quote' }: Props
     <div id="inventory">
       <section className="bg-white py-16 md:py-24" aria-labelledby="corporate-hospitality">
         <div className="container-custom">
+          {isHub ? (
+            <>
           <p className="font-inter text-caption uppercase tracking-[0.16em] text-gold-ink mb-3">
             {CORPORATE_INVENTORY_INTRO.label}
           </p>
@@ -29,6 +32,12 @@ export default function CorporateInventory({ path, quoteHref = '#quote' }: Props
           <p className="font-inter text-body text-gray-600 leading-relaxed max-w-[62ch] mb-10">
             {CORPORATE_INVENTORY_INTRO.body}
           </p>
+            </>
+          ) : (
+            <h2 id="corporate-hospitality" className="sr-only">
+              What this corporate service includes
+            </h2>
+          )}
           <nav aria-label="Corporate hospitality inventory" className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {pillars.map((item) => (
               <a

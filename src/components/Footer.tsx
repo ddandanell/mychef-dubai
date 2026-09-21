@@ -10,7 +10,7 @@ import SocialLinks from '@/components/SocialLinks'
  * are still linked from inside the plan flow, where they belong.
  */
 const serviceLinks = [
-  { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
+  { label: 'Household chef', href: '/private-chef-dubai' },
   { label: 'Catering Dubai', href: '/catering-dubai' },
   { label: 'Weddings', href: '/wedding-catering-dubai' },
   { label: 'Corporate Events', href: '/corporate-event-catering-dubai' },

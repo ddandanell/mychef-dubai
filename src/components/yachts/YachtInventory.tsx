@@ -44,7 +44,7 @@ export default function YachtInventory() {
                 className="w-full h-auto aspect-[16/10] object-cover"
               />
               <figcaption className="font-inter text-body-xs text-gray-500 px-1 pt-2">
-                {section.imageCaption ?? 'Experience concept shown'}
+                {section.imageCaption}
               </figcaption>
             </figure>
             <div>

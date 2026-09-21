@@ -93,7 +93,7 @@ export function cateringClusterActive(pathname: string) {
 }
 
 export const CATERING_INQUIRY_HREF =
-  '/inquiry'
+  '/inquiry?from=/catering-dubai'
 
 export const CATERING_WHATSAPP_NUMBER = '971551744849'
 export const CATERING_WHATSAPP_MESSAGE =

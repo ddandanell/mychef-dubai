@@ -125,8 +125,8 @@ export default function Corporate() {
 
       <PageHero
         eyebrow="Corporate Catering Dubai"
-        title="Corporate Catering Dubai for Offices, Boards and Events"
-        subtitle="Corporate catering Dubai for offices, boardrooms and company events. You stay in the meeting. We run the food, the staff and the clear-down. Drop-off from AED 90 per person. Every proposal is itemised so finance can approve a real number."
+        title="Corporate Catering Dubai for Offices and Boardrooms"
+        subtitle="Corporate catering Dubai for offices and boardrooms. You stay in the meeting. We run the food, the staff and the clear-down. Drop-off from AED 90 per person. Every proposal is itemised so finance can approve a real number. A one-off company party lives on event catering."
         image={corporateHero.src}
         imageAlt={corporateHero.alt}
         imageWidth={corporateHero.width}
@@ -249,7 +249,7 @@ export default function Corporate() {
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
-              Corporate event catering in Dubai <ArrowRight size={14} aria-hidden />
+              corporate event catering Dubai <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
               to={CATERING_INQUIRY_HREF}

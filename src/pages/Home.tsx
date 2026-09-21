@@ -51,15 +51,17 @@ export default function Home() {
       <section className="bg-white py-12">
         <div className="container-custom max-w-[900px] text-center">
           <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Start with{' '}
+            Start with a{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>
-            {' for a standing household cook, '}
-            <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chefs Dubai</Link>
-            {' for the named roster, '}
+            {' plan for a standing household cook, '}
+            <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">the named roster</Link>
+            {' for who cooks, '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering Dubai</Link>
-            {' for an event, '}
-            <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">events</Link>
-            {' or '}
+            {' for a night, '}
+            <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering Dubai</Link>
+            {', '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering Dubai</Link>
+            {' if the table is on the water, or '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>
             . Fine dining at home Dubai uses the same team as a villa event — one brief, one kitchen, one table.
           </p>

@@ -487,7 +487,7 @@ export default function DessertTableCatering() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Catering Across Dubai
+            Dessert tables across Dubai
           </h2>
 
           <div className="des-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
