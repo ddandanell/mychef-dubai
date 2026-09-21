@@ -102,7 +102,7 @@ export const CATERING_WHATSAPP_LINK = `https://wa.me/${CATERING_WHATSAPP_NUMBER}
 
 export const CATERING_KEYWORD_LOCK = {
   primary: 'catering dubai',
-  title: 'Catering Dubai | Food Only to Full Event Support | myCHEF',
+  title: 'Catering Dubai | Buffet, Canapés & Chef-Led Service | myCHEF',
   description:
     'Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.',
 } as const
