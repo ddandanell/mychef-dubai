@@ -307,7 +307,7 @@ export default function ProductionCatering() {
             Production Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 prod-hero-sub">
-            Film, photo and event crews. Craft services and crew lunch are separate purchases, both from AED 90 per person, timed to the call sheet.
+            Production catering for film, photography and event crews, planned around the call sheet. Craft services and crew lunches are quoted separately, each starting from AED 90 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a corporate catering quote</Link>
@@ -334,7 +334,7 @@ export default function ProductionCatering() {
             Production catering Dubai, timed to the call sheet
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Production catering in Dubai, including film crew catering, follows the call sheet. Craft services are snacks, fruit and hot drinks through the call hours. Crew lunch is a hot meal for each name on the sheet. They are separate purchases. Both start from AED 90 per person. Meals move if the day moves.
+            Production catering in Dubai follows the rhythm of your shoot. Craft services provide snacks, fruit and hot drinks, while crew lunch supplies a complete meal during the agreed break. Each service starts from AED 90 per person and is quoted separately against the call sheet and headcount.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Television, photo, branded content and live event crews use the same operation: a moving team, a call sheet, and food that has to arrive hot at the right moment. Exhibition stand meals sit on <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.

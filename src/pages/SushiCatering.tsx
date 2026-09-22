@@ -318,7 +318,7 @@ export default function SushiCatering() {
             Sushi Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 sush-hero-sub">
-            Sushi Catering Dubai is a live counter or a chilled platter. Ice time matters. Villas, yachts and offices each change how the fish is held. We cook and pack down at your address.
+            Sushi catering in Dubai, from beautifully arranged chilled platters to a live counter at your event. Preparation, chilled storage and replenishment are planned around the venue and service time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Request your quote</Link>
@@ -344,13 +344,13 @@ export default function SushiCatering() {
             Counter, platter, or both. Ice time is the brief.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Sushi Catering Dubai is raw fish held cold, then cut close to service. A live counter rolls in the room. A platter is built and replenished on ice. Yachts need a compact, chilled setup. Villas can take a full station. Dietary notes go into the first menu draft, including shellfish, gluten in soy, and vegetarian rolls.
+            Sushi catering in Dubai can be served from a live counter or as chilled platters, with rolling, presentation and replenishment timed for your guests. We assess the space and refrigeration available at villas, offices and yachts, and discuss shellfish, soy, gluten and other dietary requirements before confirming the menu.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
+            Your proposal sets out the menu, guest count, service team and venue requirements. Review the inclusions, ingredient arrangements and final price before confirming your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Wok, dim sum and Thai plates sit on <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering Dubai</Link>. A cooked fish table without a sushi counter sits with <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Halal fish is the default. Cooking alcohol stays off unless you ask in writing.
+            Wok, dim sum and Thai plates sit on <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering Dubai</Link>. A cooked fish table without a sushi counter sits with <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>. Halal fish is the default. Cooking alcohol stays off unless you ask in writing.
           </p>
         </div>
       </section>

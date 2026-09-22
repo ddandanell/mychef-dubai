@@ -27,68 +27,68 @@ const categories: Category[] = ['All', 'Pricing & packages', 'Booking process', 
 
 const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
   'Pricing & packages': [
-    { q: 'How much does a private chef cost in Dubai?', a: 'A standing household chef is priced per visit on the private chef prices page, not as a per-person catering rate. One-night chef-led plated dining starts from AED 700 per person; a standard event buffet starts from AED 120. The written quote names the figure for your headcount and menu.' },
-    { q: 'What are your starter packages?', a: 'We do not sell a shelf of fixed boxes. Drop-off starts from AED 90 per person, a standard event buffet from AED 120, canapés and BBQ from AED 150, and chef-led plated dining from AED 700. See the catering prices guide or send the brief for an itemised quote.' },
+    { q: 'How much does a private chef cost in Dubai?', a: "Regular household chef plans are priced per visit and schedule. For one-off occasions, bespoke plated dining starts from AED 700 per person and standard event buffets from AED 120. Defined packages such as Date Night have separate prices and inclusions, confirmed in your proposal." },
+    { q: 'What are your starter packages?', a: "Our published packages start at AED 1,200 for Date Night, AED 2,400 for Family Feast, AED 3,600 for Birthday and AED 4,500 for Corporate Dinner. Each has a defined guest range and service scope. Bespoke menus and other catering formats are quoted separately." },
     { q: 'Is there a minimum spend?', a: 'Minimums depend on the service style and guest count. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time. Contact us for specific details.' },
-    { q: 'What is included in the price?', a: 'Menu design, your chef\'s sourcing and cooking, service, and cleanup — all designed and run by us. Tableware, linens, premium upgrades, and travel outside Dubai may be additional.' },
+    { q: 'What is included in the price?', a: "Inclusions depend on the service you choose. Your proposal identifies menu planning, ingredients, chef time, service and clear-down, along with any tableware, linen, upgrades or travel charges." },
     { q: 'Are there any hidden fees?', a: 'No. Your written quote includes all agreed costs. We are transparent about pricing, deposits, and any optional add-ons before you confirm.' },
     { q: 'Can I get a fixed-price menu?', a: 'Yes. Once guest count, format, and cuisine preferences are confirmed, we can propose a fixed-price menu per person or a flat package rate.' },
-    { q: 'How does corporate meal prep pricing work?', a: 'Corporate meal prep is priced as a recurring programme based on headcount, menu complexity, and delivery frequency. Visit /staff-meals-catering-dubai for details.' },
+    { q: 'How does corporate meal prep pricing work?', a: "Recurring staff meals are quoted by headcount, menu and service frequency. Explore our staff meals service or share the schedule you need covered." },
   ],
   'Booking process': [
-    { q: 'How do I book a private chef in Dubai?', a: 'Contact us via WhatsApp or our online /inquiry form. Tell us about your event, and we will respond within 15 minutes during business hours with a bespoke proposal.' },
-    { q: 'How far in advance should I book?', a: 'We recommend 48 hours for private chef bookings and 1–2 weeks for larger catering events. Last-minute requests are accommodated when possible.' },
-    { q: 'Can I make changes after booking?', a: 'Yes. Contact us as soon as possible and we will adjust your booking. Changes made within 24 hours of the event may be subject to limitations.' },
+    { q: 'How do I book a private chef in Dubai?', a: "Contact us through WhatsApp or the enquiry form with your date, location, guest count and preferences. We typically reply within 15 minutes between 9am and 11pm Dubai time. A tailored proposal follows after we review the details and availability." },
+    { q: 'How far in advance should I book?', a: "Enquire as soon as your date is known. Smaller bookings may be possible with shorter notice, while larger events typically benefit from several weeks of planning. Availability is confirmed individually, especially during peak periods." },
+    { q: 'Can I make changes after booking?', a: "Please contact us as soon as your plans change. We will confirm what can be adjusted and any resulting charges under the terms of your booking." },
     { q: 'Do I need to pay a deposit?', a: DEPOSIT_FAQ_ANSWER },
     { q: 'Can I book a private chef for tonight?', a: 'We accommodate last-minute requests whenever possible. Contact us on WhatsApp at +971 55 174 4849 and we will confirm availability quickly.' },
-    { q: 'How do I change the number of guests?', a: 'Let us know as soon as your guest count changes. We adjust ingredients, staffing, and seating up to 24 hours before the event when possible.' },
+    { q: 'How do I change the number of guests?', a: "Send the revised guest count to your booking contact as soon as possible. We will confirm the effect on food, staffing and pricing, subject to the deadlines in your written agreement." },
     { q: 'Can I schedule a menu tasting before my event?', a: 'Yes. Tastings can be arranged for weddings, large galas, and corporate events. Ask your event manager for availability.' },
     { q: 'Can I book multiple event dates at once?', a: 'Yes. We can create a multi-date package with consistent menus, rotating options, and dedicated staffing.' },
   ],
   'Chefs & cuisines': [
-    { q: 'What cuisines do you offer?', a: 'We offer bespoke menus across Arabic, Indian, Mediterranean, Italian, Asian, sushi, vegan, vegetarian, halal, healthy, and fusion cuisines. See /menus for inspiration.' },
-    { q: 'What is the difference between a private chef and catering?', a: 'A private chef prepares meals in your kitchen for smaller, more intimate gatherings. Catering is designed for larger events with buffet stations, service teams, and broader setup.' },
+    { q: 'What cuisines do you offer?', a: "Explore Arabic, Indian, Mediterranean, Italian and Asian menus, including sushi and plant-based options. Menus are adapted to the occasion and agreed dietary requirements." },
+    { q: 'What is the difference between a private chef and catering?', a: "At myCHEF, household chef plans cover regular meals and weekly cooking. One-off private dinners and larger occasions are arranged through catering, with the chef, menu, service and equipment matched to the event." },
     { q: 'Do you provide service staff?', a: 'Yes — we arrange and run a professional service team, matched to your event.' },
     { q: 'Do you handle setup and cleanup?', a: 'Yes — setup, service and cleanup are run end to end as part of every experience.' },
-    { q: 'Can my chef cook a family recipe?', a: 'Yes — share the recipe and the chef we choose will recreate it with the same care and premium ingredients.' },
-    { q: 'How do you vet your chefs?', a: 'Every chef passes identity checks, right-to-work verification, practical skill assessments, reference checks, and supervised trial events. Read more at /how-we-vet-our-chefs.' },
+    { q: 'Can my chef cook a family recipe?', a: "Share the recipe and any details that matter to you. The chef will discuss how it can be prepared with the ingredients and facilities available." },
+    { q: 'How do you vet your chefs?', a: "Selection includes identity and right-to-work checks, practical cooking assessments, references and initial supervised work. Our chef-vetting guide explains the process." },
     { q: 'Can I request a specific chef?', a: 'You can express a preference, but no chef is guaranteed. We match each event to the best available chef based on cuisine expertise, availability, and your requirements.' },
-    { q: 'Do you cook, or do you bring a chef?', a: 'We design and run your entire private-dining experience; the cooking is done by an independent, licensed chef we handpick, vet, and stand behind. One standard, one point of contact — you deal only with us.' },
+    { q: 'Do you cook, or do you bring a chef?', a: "myCHEF coordinates the brief and booking, while licensed culinary partners prepare the food. Your proposal confirms the menu, chef, service requirements and responsibilities, with one point of contact throughout." },
   ],
   'Dietary & halal': [
-    { q: 'Do you accommodate dietary restrictions?', a: 'Yes. We handle vegetarian, vegan, halal, kosher, and many other requirements, including dedicated gluten-free, dairy-free, nut-free, keto and Jain catering options.' },
-    { q: 'Can you prepare halal food?', a: 'Yes — halal-certified proteins are used, and the chefs we choose are trained in halal preparation.' },
-    { q: 'Do you offer vegan menus?', a: 'Yes. The chefs we choose create creative, flavorful, and beautifully presented plant-based menus.' },
-    { q: 'Can you handle severe allergies?', a: 'Yes. We take allergies extremely seriously and follow strict protocols to prevent cross-contamination.' },
-    { q: 'Can you prepare keto or low-carb menus?', a: 'Yes. The chefs we choose design keto, low-carb, and high-protein menus tailored to your preferences and macros. See our keto catering Dubai page for details.' },
-    { q: 'Do you offer gluten-free catering?', a: 'Yes. We coordinate coeliac-aware gluten-free catering in Dubai with clearly labelled dishes and kitchen protocols to reduce cross-contamination.' },
-    { q: 'Do you offer dairy-free or nut-free catering?', a: 'Yes. We coordinate both dairy-free and nut-free catering, ideal for lactose-intolerant guests, school events and family celebrations with allergies.' },
+    { q: 'Do you accommodate dietary restrictions?', a: "Tell us your full requirements before booking. Vegetarian, vegan, halal and Jain menus can be discussed, along with ingredient exclusions. Allergies and requirements for dedicated or certified preparation need a separate assessment and written confirmation." },
+    { q: 'Can you prepare halal food?', a: "Meat and poultry are sourced as halal by default. Share any specific supplier certification, ingredient or preparation requirements so they can be checked before the menu is confirmed." },
+    { q: 'Do you offer vegan menus?', a: "Yes. We plan complete vegetarian and vegan menus with the same attention to flavour, variety and presentation as every other menu." },
+    { q: 'Can you handle severe allergies?', a: "Please disclose severe allergies before confirming. We assess the menu, ingredients and preparation arrangements with the culinary partner. Shared kitchens cannot guarantee an allergen-free environment, and any remaining cross-contact risk must be considered before booking." },
+    { q: 'Can you prepare keto or low-carb menus?', a: "We can discuss lower-carbohydrate and protein-focused menus around the targets you provide. Nutrition preferences and any medically prescribed requirements should be shared before menu planning." },
+    { q: 'Do you offer gluten-free catering?', a: "Gluten-free menu options can be discussed, but suitability for someone with coeliac disease depends on the kitchen and cross-contact controls. Please share the requirement before booking so it can be assessed and confirmed in writing." },
+    { q: 'Do you offer dairy-free or nut-free catering?', a: "Dairy-free and nut-free menu options can be discussed. These ingredient exclusions do not guarantee an allergen-free kitchen; please disclose allergies so the preparation arrangements and remaining risks can be assessed." },
     { q: 'Do you offer Jain catering?', a: 'Yes. Jain catering through myCHEF follows Jain dietary principles — no onion, garlic, root vegetables, mushrooms or eggs — for weddings, festivals and family gatherings.' },
-    { q: 'How do you handle cross-contamination?', a: 'We follow strict allergen protocols, separate preparation areas where possible, and clearly label dishes. Always inform us of severe allergies in advance.' },
+    { q: 'How do you handle cross-contamination?', a: "We review ingredients, dish labels and feasible separation measures with the culinary partner. Kitchens may handle other allergens, so cross-contact cannot be completely excluded. Full allergy details are required before booking." },
     { q: 'Is your food prepared fresh on the day?', a: 'Yes — your chef cooks as close to service as possible, using fresh premium ingredients.' },
   ],
   'Locations & venues': [
-    { q: 'What areas of Dubai do you cover?', a: 'We serve all areas of Dubai including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, Jumeirah, Arabian Ranches, and more. See /locations.' },
-    { q: 'Do you cater on yachts?', a: 'Yes. We design private chef and catering experiences for yachts across Dubai Marina, Palm Jumeirah, and Dubai Harbour. Visit /yachts.' },
+    { q: 'What areas of Dubai do you cover?', a: "We serve homes and venues across Dubai, including Palm Jumeirah, Downtown, Dubai Marina, JBR, DIFC and surrounding communities. Share the exact address so we can confirm access and availability." },
+    { q: 'Do you cater on yachts?', a: "Yes. We arrange menus, chefs and onboard service for yachts you have chartered in Dubai. Loading, storage, galley facilities and timing are coordinated with the operator." },
     { q: 'Can you cater at hotels?', a: 'In most cases, yes. Some hotels have restrictions on external catering. Contact us and we will coordinate with the venue.' },
-    { q: 'Do you serve outside Dubai?', a: 'Coverage is Dubai. Send a Sharjah, Ajman or other-emirate address with the enquiry and we tell you before you commit whether the Dubai network can serve it and what the travel adds.' },
+    { q: 'Do you serve outside Dubai?', a: "Our main service area is Dubai. For another emirate, share the full address so we can confirm availability and any travel costs before you book." },
     { q: 'Do you cater at beach clubs and pool venues?', a: 'Yes. We coordinate catering at beach clubs, pool venues, and outdoor spaces, working with venue teams to meet their requirements.' },
     { q: 'Can you serve at multiple venues during one event?', a: 'Yes. We can coordinate multi-venue events such as welcome receptions, main dinners, and after-parties with tailored menus at each location.' },
   ],
   'Cancellations & insurance': [
     { q: 'What is your cancellation policy?', a: CANCELLATION_FAQ_ANSWER },
-    { q: 'What happens if a chef is unavailable?', a: 'We choose a qualified backup chef from our network for you, and let you know as early as possible. Read our backup chef policy at /booking-protection-insurance.' },
+    { q: 'What happens if a chef is unavailable?', a: "Contact your booking coordinator if a chef becomes unavailable. We assess suitable alternatives and keep you informed under the backup arrangements in your booking terms." },
     { q: 'Are you insured?', a: 'The licensed culinary partners who prepare your food carry appropriate food-handling and personal liability coverage, which we verify as part of vetting before they work an event.' },
     { q: 'How do deposits work?', a: DEPOSIT_FAQ_ANSWER },
     { q: 'How are complaints handled?', a: 'Complaints are escalated to an event manager, investigated promptly, and resolved fairly through refund, credit, or explanation depending on the situation.' },
     { q: 'Will I receive written booking terms?', a: 'Yes. Every booking is confirmed in writing with menu, pricing, deposit, balance due date, and cancellation terms.' },
   ],
   'Bar & VIP': [
-    { q: 'What bar services do you offer?', a: 'We arrange bartenders, mobile bars, craft cocktails, mocktails, wine service, and champagne presentations. Visit /bar-services-dubai.' },
+    { q: 'What bar services do you offer?', a: "We can arrange bartenders, mobile bars, mocktails and an agreed drinks service. Any alcohol service depends on venue permissions and written confirmation in your booking." },
     { q: 'Can I book a mocktail bar for a family event?', a: 'Yes. Our mocktail bar is completely alcohol-free and ideal for family celebrations, kids’ parties, and Ramadan gatherings. See /bar-services-dubai.' },
     { q: 'What is the myCHEF VIP Club?', a: 'The VIP Club is a membership for frequent hosts, offering priority booking, exclusive menus, and dedicated account management. Visit /vip-club.' },
     { q: 'How do I join the VIP Club?', a: 'Contact us via WhatsApp or the /inquiry form and ask about VIP Club membership.' },
-    { q: 'Do you offer gift cards?', a: 'Not as stored value. We can book the evening in their name and hold a date; they still choose the menu. See /gift-cards.' },
+    { q: 'Do you offer gift cards?', a: "We can arrange a dinner, tasting menu or cooking class in someone else’s name, with the menu chosen together. We currently do not issue stored-value gift cards or vouchers." },
   ],
 }
 
@@ -202,7 +202,7 @@ export default function FAQ() {
       <PageHero
         eyebrow="HELP CENTER"
         title="Catering Faq Dubai: Frequently Asked Questions"
-        subtitle="Catering Faq Dubai by myCHEF — Everything you need to know about private chef services, catering, pricing, and bookings in Dubai."
+        subtitle={"Answers to common questions about private chefs, catering, packages and bookings in Dubai. Explore the details or contact us to discuss your plans."}
         image="/images/faq-dubai-hero.webp"
         imageAlt="myCHEF Dubai customer support and FAQ"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]}
@@ -275,7 +275,7 @@ export default function FAQ() {
         <div className="still-questions-content container-custom max-w-[800px] text-center">
           <h2 className="font-playfair text-[2.25rem] text-white mb-4" style={{ lineHeight: '1.15' }}>Still Have Questions?</h2>
           <p className="font-inter text-body text-gray-400 mb-8">
-            We're happy to help. Reach out and we will respond within 15 minutes during business hours.
+            Tell us what you would like to know. We typically reply within 15 minutes between 9am and 11pm Dubai time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">

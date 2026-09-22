@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/school-catering-dubai",
+  "path": "/school-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Institutional Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "school catering dubai",
+    "secondary": [
+      "school catering companies dubai",
+      "school lunch delivery dubai",
+      "school canteen catering dubai",
+      "healthy school lunch dubai",
+      "school meal plans dubai",
+      "khda school catering dubai",
+      "education catering dubai",
+      "canteen catering services dubai"
+    ],
+    "primary_owner": "/school-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+    "description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
+    "h1": [
+      "School Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/school-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/InstitutionalLanding.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/institutionalCluster.ts",
+    "src/content/institutionalLandingTypes.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/schoolCateringPage.tsx",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/SchoolCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1488,
+    "current_word_count": 1495,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "School catering Dubai is a licensed food operation"
+      },
+      {
+        "level": "h2",
+        "text": "Delivery, a line, or a managed canteen"
+      },
+      {
+        "level": "h3",
+        "text": "School lunch delivery"
+      },
+      {
+        "level": "h3",
+        "text": "A staffed lunch line"
+      },
+      {
+        "level": "h3",
+        "text": "A managed canteen"
+      },
+      {
+        "level": "h3",
+        "text": "Written against the rules"
+      },
+      {
+        "level": "h3",
+        "text": "Halal and allergen labelling as default"
+      },
+      {
+        "level": "h3",
+        "text": "A tasting before a term"
+      },
+      {
+        "level": "h2",
+        "text": "Three ways school catering Dubai is actually bought"
+      },
+      {
+        "level": "h2",
+        "text": "The rules a school canteen has to survive"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. The principal sees the papers."
+      },
+      {
+        "level": "h2",
+        "text": "How a school quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "A parent committee can open this"
+      },
+      {
+        "level": "h3",
+        "text": "The 2026 rules, in English"
+      },
+      {
+        "level": "h3",
+        "text": "Early years are a different kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "If you need the room, not only the lunch"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking school catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What are Dubai school canteen nutrition standards?"
+      },
+      {
+        "level": "h3",
+        "text": "How much do school meals cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I choose a school catering company in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you work with KHDA schools?"
+      },
+      {
+        "level": "h3",
+        "text": "Can parents pre-order?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cover allergens and halal?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between this and canteen management?"
+      },
+      {
+        "level": "h3",
+        "text": "How soon can you start?"
+      },
+      {
+        "level": "h3",
+        "text": "School catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Roll, format and days is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "More in myCHEF Dubai"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "Institutional catering"
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "alt_anchors": []
+      },
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/dubai-school-food-rules-2026",
+        "anchor": "Dubai school food rules 2026",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

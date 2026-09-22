@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/faq",
+  "path": "/faq",
+  "role": "indexable page",
+  "page_type": "Brand / utility",
+  "silo": "Trust / Utility",
+  "purpose": "Route customers to the right service and capture a clear enquiry.",
+  "keywords": {
+    "primary": "catering faq dubai",
+    "secondary": [
+      "catering minimum order dubai",
+      "how much notice does a caterer need dubai",
+      "is catering in dubai halal",
+      "does a private chef clean up dubai",
+      "what are common red flags with catering companies",
+      "what questions to ask for a catering service"
+    ],
+    "primary_owner": "/faq",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering FAQ Dubai | Private Chef Questions | myCHEF",
+    "description": "Catering Faq Dubai — Find answers about private chef services, catering, pricing, booking, chefs, halal, locations, and more. myCHEF Dubai's comprehensive…",
+    "h1": [
+      "Catering Faq Dubai: Frequently Asked Questions"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/faq",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/content/bookingTerms.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/FAQ.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1866,
+    "current_word_count": 2008,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Pricing & packages"
+      },
+      {
+        "level": "h2",
+        "text": "Booking process"
+      },
+      {
+        "level": "h2",
+        "text": "Chefs & cuisines"
+      },
+      {
+        "level": "h2",
+        "text": "Dietary & halal"
+      },
+      {
+        "level": "h2",
+        "text": "Locations & venues"
+      },
+      {
+        "level": "h2",
+        "text": "Cancellations & insurance"
+      },
+      {
+        "level": "h2",
+        "text": "Bar & VIP"
+      },
+      {
+        "level": "h2",
+        "text": "Still Have Questions?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering FAQ Dubai: what to send so we can quote"
+      }
+    ],
+    "baseline_findings": [
+      "F02",
+      "F03",
+      "F24"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ",
+        "current": true
+      }
+    ],
+    "uplink_hub": null,
+    "siblings": [
+      {
+        "url": "/how-it-works",
+        "anchor": "How booking works",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "alt_anchors": []
+      },
+      {
+        "url": "/booking-protection-insurance",
+        "anchor": "Catering cancellation policy",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/how-it-works",
+        "anchor": "How booking works",
+        "alt_anchors": [
+          "how to book a private chef"
+        ]
+      },
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "alt_anchors": [
+          "private chef background checks"
+        ]
+      },
+      {
+        "url": "/booking-protection-insurance",
+        "anchor": "Catering cancellation policy",
+        "alt_anchors": []
+      },
+      {
+        "url": "/quality-guarantee-dubai",
+        "anchor": "Catering quality guarantee",
+        "alt_anchors": []
+      },
+      {
+        "url": "/contact",
+        "anchor": "Enquire",
+        "alt_anchors": []
+      },
+      {
+        "url": "/review",
+        "anchor": "Review",
+        "alt_anchors": []
+      }
+    ],
+    "silo_index": [
+      {
+        "url": "/case-studies",
+        "anchor": "Catering case studies",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chef-training-academy",
+        "anchor": "Chef training",
+        "alt_anchors": []
+      },
+      {
+        "url": "/gallery",
+        "anchor": "Gallery",
+        "alt_anchors": []
+      },
+      {
+        "url": "/mychef-certified",
+        "anchor": "Mychef certified chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/trust-and-programs",
+        "anchor": "Trust and programs",
+        "alt_anchors": []
+      }
+    ],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

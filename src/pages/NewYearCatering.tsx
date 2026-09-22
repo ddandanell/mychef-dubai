@@ -311,7 +311,7 @@ export default function NewYearCatering() {
             New Year Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 nye-hero-sub">
-            New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast. Then we clear down.
+            New Year catering in Dubai, from villa dinners to yacht celebrations and rooftop receptions. Plan canapés, live stations, dinner and an agreed midnight drinks service around the countdown.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Get a New Year Quote</Link>
@@ -347,7 +347,7 @@ export default function NewYearCatering() {
             New Year catering Dubai: timed to midnight, not to a restaurant sitting
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            New Year's Eve in Dubai is a villa party, a yacht countdown or a corporate gala, at an address you already have. The catering has to hit midnight. myCHEF staffs the kitchen, the service and the toast. We do not run the venue or the yacht.
+            New Year’s Eve catering brings the meal, service and countdown together. We coordinate kitchen preparation, guest service and the agreed midnight toast with your venue or yacht operator, so the evening follows a clear plan.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

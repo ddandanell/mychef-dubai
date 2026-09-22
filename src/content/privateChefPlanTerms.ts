@@ -62,7 +62,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'chef-is-part-of-the-service',
         title: 'A chef is only part of the service.',
         paragraphs: [
-          'Hiring a chef directly may look less expensive because you are paying primarily for one person’s time. With myCHEF, the chef is part of a managed household service. One dinner is catering; this plan is for a chef who comes back.',
+          "A managed household plan includes more than the chef’s time. myCHEF coordinates selection, scheduling, food preferences and ongoing support for a chef who cooks regularly in your home.",
           'Your plan can include chef matching, household onboarding, your Food Profile, ongoing quality follow-up, schedule management, support when requirements change, and access to replacement or additional culinary staff where needed.',
           'You still get the consistency of a regular chef, without having to build and manage the operating system around them yourself.',
         ],

@@ -264,7 +264,7 @@ export default function TouristVillaChef() {
               Tell us the villa location, travel dates and group size, and we will match a vetted private chef within 24 hours. A holiday villa chef shops, cooks, serves and clears, so the stay is not spent in the kitchen. Three dinners start from AED 2,500; five dinners from AED 4,500. This is catering across a short stay, not a household chef on a monthly plan.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Your quote reflects the menu, guest count, service style and venue requirements. We set out the food, staffing and other inclusions in writing, with dietary needs considered from the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Menus can rotate through Mediterranean, Asian, Indian and Arabic cooking, and can end with an Arabic feast. We coordinate with villa rental agencies, concierges and property managers on access and timing.

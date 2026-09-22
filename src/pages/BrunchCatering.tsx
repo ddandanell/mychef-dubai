@@ -139,7 +139,7 @@ const faqs = [
     q: 'How far in advance should I book brunch catering?',
     a: 'One to two weeks is typical for a house brunch. Large corporate mornings and November to March weekends need longer. Daily household breakfast is a [private chef](/private-chef-dubai) plan, quoted separately.',
   },
-  { q: "How much does brunch catering cost in Dubai?", a: "Brunch catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu, service style and location. A chef cooking in your kitchen is a different number from a hotel dining room you did not book. Tell us your numbers and we send an itemised proposal, typically within 15 minutes during business hours." },
+  { q: "How much does brunch catering cost in Dubai?", a: "Brunch catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu, service style and location. A chef cooking in your kitchen is a different number from a hotel dining room you did not book. Tell us your numbers and we typically acknowledge the enquiry within 15 minutes during business hours, with an itemised proposal to follow." },
   { q: "What exactly is included in a brunch catering booking?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, plus full cleanup afterwards. We also supply the serving equipment, chafing dishes, tableware, and linens, and remove everything once service is finished. Serving staff and additional hosts are optional add-ons depending on your guest count and how hands-off you want the morning to be." },
   { q: "Are your brunch prices inclusive of VAT?", a: "Our quotes clearly show pricing before the 5% VAT that applies to catering services in the UAE, so there are no surprises on your final invoice. Because we build every brunch to order, the proposal itemises the menu, staffing, and any extras before you confirm. You always see exactly what you are paying for before committing." },
   { q: "Is your brunch food halal and prepared to Dubai food-safety standards?", a: "Yes. Our ingredients are halal sourced by default, and our chefs and kitchens operate to Dubai Municipality food-safety standards. We handle temperature control, safe transport, and hygienic on-site preparation as part of every brunch, so you can host with complete confidence. If you have specific certification requirements, just mention them when you request your quote." },
@@ -342,7 +342,7 @@ export default function BrunchCatering() {
             Brunch Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
-            Brunch catering Dubai for a villa, an office or a celebration morning. Pastries, eggs, fruit and coffee, cooked on site, served and cleared. Send the date, guest count and venue.
+            Brunch catering in Dubai, with freshly prepared eggs, pastries, fruit and coffee for relaxed villa gatherings, office occasions and celebration mornings. The menu and service are tailored to your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>
@@ -369,7 +369,7 @@ export default function BrunchCatering() {
             Brunch catering Dubai, cooked in your kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Brunch catering Dubai is a morning sitting at your villa, apartment or office, not a hotel dining room. We bring the menu, a partner chef and the service. A slow weekend table and a morning meeting use the same rule: you host, we cook. Weekday first-meal catering sits on{' '}
+            Brunch catering in Dubai brings a relaxed, generous morning menu to your villa, apartment or office. A chef and service team handle the agreed preparation, presentation and clear-down. For an earlier start to the working day, explore{' '}
             <Link to="/breakfast-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
               breakfast catering Dubai
             </Link>

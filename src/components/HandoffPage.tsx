@@ -208,7 +208,7 @@ export default function HandoffPage() {
       publisher: { '@id': 'https://www.mychef.ae/#organization' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
       datePublished: '2026-08-01',
-      dateModified: '2026-08-24',
+      dateModified: data.updated_at || '2026-08-24',
     })
     graph.push({
       '@type': 'BreadcrumbList',
@@ -295,6 +295,21 @@ export default function HandoffPage() {
             )
           })}
 
+          {data.references && data.references.length > 0 && (
+            <aside className="mb-12 border-l-4 border-gold bg-gray-50 p-6">
+              <h2 className="font-playfair text-h4 text-black mb-4">Sources and further reading</h2>
+              <ul className="space-y-3 font-inter text-body-sm">
+                {data.references.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} className="text-gold-ink underline underline-offset-4 hover:text-black">
+                      {source.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          )}
+
           {/* Money-page / pillar links for this topic */}
           {pillars.length > 0 && (
             <div className="mt-4 border-t border-gray-200 pt-8">
@@ -326,7 +341,7 @@ export default function HandoffPage() {
         <div className="container-custom max-w-[720px] text-center">
           <h2 className="font-playfair text-h2 text-white mb-4">Plan it with myCHEF</h2>
           <p className="font-inter text-body-lg text-gray-400 mb-8">
-            Tell us the date, the guest count and the venue — you&apos;ll have a written proposal back promptly.
+            Share your date, guest count and venue. We will review your requirements and prepare a tailored written proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary">Request a Proposal</Link>

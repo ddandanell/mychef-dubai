@@ -171,7 +171,7 @@ const faqs = [
     q: 'How far in advance should I book canapé catering?',
     a: 'For smaller receptions, one to two weeks is ideal. For larger or branded events, we recommend two to four weeks. During peak season (November to March), earlier booking is strongly advised.',
   },
-  { q: "How much does canapé catering cost per person in Dubai?", a: "Canapé catering in Dubai is priced by custom quote, because the cost depends on your guest count, the number of canapés per head, and whether you add drinks and service staff. Rather than a fixed menu, we build a proposal around your event so you only pay for what your reception actually needs, and 5% VAT applies. Share your details and we typically reply with a tailored quote within 15 minutes during business hours." },
+  { q: "How much does canapé catering cost per person in Dubai?", a: "Canapé service starts from AED 150 per person. The final quote depends on the menu, portion counts, guest numbers, staff and any drinks service, with 5% VAT shown separately. We typically acknowledge enquiries within 15 minutes during business hours and prepare a tailored proposal after reviewing the details." },
   { q: "What exactly is included in a canapé catering booking?", a: "Every canapé booking includes menu design, ingredient sourcing and shopping, on-site cooking or finishing, elegant plating and passing, and full cleanup afterwards. Serving staff, bartenders, cocktails, and styled display platters can be added on top, so you can go from a simple drop-off of chilled bites to a fully staffed reception. See exactly [what's included and how we work](/how-it-works) before you book." },
   { q: "Is there a minimum number of guests for canapé catering?", a: "We cater canapés for intimate gatherings right up to large receptions, and we will tell you honestly what makes sense for your guest count when you enquire. For very small numbers a curated display or a smaller passed selection often works better than full passed service, and we scale staffing and menu to fit. Tell us how many guests you expect and we will shape a proposal to match." },
   { q: "Are your canapés halal and prepared to Dubai food-safety standards?", a: "Yes. Our canapés are halal-sourced by default, and our chefs and kitchens operate to Dubai Municipality food-safety standards, so chilled seafood bites and warm morsels are handled and transported safely. If you need fully halal-certified sourcing for a corporate or branded event, just confirm it in your enquiry and we will document it. You can read more [about myCHEF](/about) and how we operate." },
@@ -337,9 +337,7 @@ export default function CanapeCatering() {
             Canapé Catering Dubai: Passed, Hot and Cold Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
-            Canapé catering Dubai is one-bite food for a standing room: passed trays, displays, or both. From AED 150
-            per person. Chefs finish in the kitchen you have; waiters keep the bites moving; we clear down. This is not
-            a seated dinner.
+            Canapé catering in Dubai, with beautifully prepared bites for receptions, launches and celebrations. Choose passed trays, a styled display or both, from AED 150 per person, with service planned around your venue and timing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
@@ -366,8 +364,7 @@ export default function CanapeCatering() {
             Canapé catering Dubai is standing food, not a dinner
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Guests hold a glass and take a bite. Servers move through the room, or the food sits on a styled tray, or
-            both. Hot and cold pieces are planned around the venue, the hour and how long people will stand.
+            Canapés let guests enjoy food and conversation without a seated meal. We balance hot and cold selections, portion counts and service frequency around the occasion, venue and length of your reception.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             From AED 150 per person. Ten guests minimum. 5% VAT is shown as its own line. The figure moves with how
@@ -389,7 +386,7 @@ export default function CanapeCatering() {
         <div className="container-custom grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
             <SectionLabel>FINGER FOOD</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mb-6">Finger food is this page, not a second URL</h2>
+            <h2 className="font-playfair text-h2 text-black mb-6">Finger food for relaxed receptions</h2>
             <p className="font-inter text-body text-gray-600 leading-relaxed mb-5">
               Finger food catering Dubai is the same team as canapés, with a different brief: no cutlery, food people can hold while they talk. Kids versus adults changes the menu — smaller, blander, labelled for a child; more heat and spice for a standing adult room.
             </p>

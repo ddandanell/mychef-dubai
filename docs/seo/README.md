@@ -31,3 +31,10 @@ npm run verify:seo-contract
 ```
 
 Refuses a ship when the contract has a primary collision, a title/H1 uses a foreign primary or a banned term, or a required redirect is missing from `vercel.json`.
+
+
+## September 2026 page records
+
+`page-records/_index.json` indexes one JSON file per public, support or historical URL. Each file records the primary and secondary keywords, intent, page purpose, source files, canonical/indexation state, rendered metadata and audit references. The ownership authority remains `myCHEF-AE-SEO-STANDARD.json`; the page records are a generated projection.
+
+Run `npm run seo:page-records` after building and prerendering, then `npm run verify:page-records`. Search volumes are explicitly unmeasured, rather than inferred from the copy. The complete audit and change log are in `../editorial-audit/2026-09-22/README.md`.

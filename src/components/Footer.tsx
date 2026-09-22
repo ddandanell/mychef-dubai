@@ -49,7 +49,6 @@ const guideLinks = [
   { label: 'Corporate Checklist', href: '/corporate-catering-checklist-dubai' },
   { label: 'Private Chef vs Catering', href: '/private-chef-vs-catering-dubai' },
   { label: 'Buffet vs Plated', href: '/buffet-vs-plated-dubai' },
-  { label: 'Yacht Catering Guide', href: '/yacht-catering-guide-dubai' },
   { label: 'Food Trends Report 2026', href: '/dubai-food-trends-report-2026' },
 ]
 

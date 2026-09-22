@@ -297,7 +297,7 @@ export default function BrandActivationCatering() {
             Brand Activation Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bda-hero-sub">
-            Signature bites and passed food around the brand moment, from AED 150 per person. Your team runs the campaign. We run the food.
+            Brand activation catering with signature bites and thoughtful presentation, from AED 150 per person. Food and service are coordinated around your campaign, guest flow and key moments.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Request a corporate catering quote</Link>
@@ -324,7 +324,7 @@ export default function BrandActivationCatering() {
             Brand activation catering Dubai around the brand moment
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Brand activation catering in Dubai is a signature bite and passed food around the brand moment. Canapé service starts from AED 150 per person. Guests can eat while they talk, sample and move.
+            Brand activation catering in Dubai brings the food into your brand experience. Choose signature bites, passed canapés and presentation that complements the setting, with service from AED 150 per person and timings agreed around the activation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Live stations, sampling trays and labelled dietary options are planned to the space you actually have. Food supports the product. It does not replace it.

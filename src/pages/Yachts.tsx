@@ -173,7 +173,7 @@ export default function Yachts() {
                 </p>
                 <p className="mt-4 font-inter text-body-sm text-gray-600 leading-relaxed">{format.includes}</p>
                 <p className="mt-6 font-inter text-body-xs text-gray-500 leading-relaxed">
-                  Real total, {YACHT_QUOTE_EXAMPLE_GUESTS} guests incl. VAT: {formatYachtAed(format.quotedTotalInclVat113)}
+                  Calculated example, {YACHT_QUOTE_EXAMPLE_GUESTS} guests incl. VAT: {formatYachtAed(format.exampleTotalInclVat113)}
                 </p>
               </article>
             ))}

@@ -47,10 +47,10 @@ export default function CTASection() {
           <div className="lg:col-span-7">
             <div className="gold-line mb-8" />
             <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-              Date, guest count and area in Dubai. That is enough to start.
+              Tell us what you have in mind.
             </h2>
             <p className="font-inter text-body-lg text-gray-400 leading-relaxed max-w-[52ch]">
-              Tell us what you need: a chef at home, or catering for your event. We reply within 15 minutes in business hours, then send a vetted chef match and a written proposal built around your food, your guests and your kitchen.
+              Share your date, guest count and Dubai location, along with the food and service you would like. We typically reply within 15 minutes between 9am and 11pm Dubai time. Your tailored proposal follows once we have confirmed the details.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function CTASection() {
             </div>
             <p className="mt-5 font-inter text-body-sm text-gray-400 flex items-center gap-2">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-              Typical reply within 15 min during business hours, 9am to 11pm · No obligation
+              Typical reply within 15 minutes · 9am–11pm Dubai time · No obligation
             </p>
           </div>
         </div>

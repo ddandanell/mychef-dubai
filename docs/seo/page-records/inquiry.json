@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/inquiry",
+  "path": "/inquiry",
+  "role": "noindex support page",
+  "page_type": "Supporting route",
+  "silo": "Core & conversion",
+  "purpose": "Route customers to the right service and capture a clear enquiry.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Get a Quote | Private Chef & Catering Dubai | myCHEF",
+    "description": "Get a tailored quote for a private chef or luxury catering in Dubai. Send your event details on WhatsApp and we will reply within 15 minutes.",
+    "h1": [
+      "Get Your Free, Tailored Quote"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/inquiry",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/SEO.tsx",
+    "src/components/TrustBar.tsx",
+    "src/components/birthday/BirthdayPrivateBrief.tsx",
+    "src/components/inquiry/QuoteRequestForm.tsx",
+    "src/components/system/index.tsx",
+    "src/content/birthdayCluster.ts",
+    "src/content/birthdayExtras.ts",
+    "src/content/birthdayStatement.ts",
+    "src/content/cateringCluster.ts",
+    "src/content/cateringPricing.ts",
+    "src/content/corporatePackageCatalog.ts",
+    "src/content/corporatePackages.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/content/yachtCateringQuote.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
+    "src/lib/cateringInquiry.ts",
+    "src/lib/inquiry.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/Inquiry.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 247,
+    "current_word_count": 260,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Send a short brief"
+      },
+      {
+        "level": "h3",
+        "text": "What Happens Next?"
+      },
+      {
+        "level": "h3",
+        "text": "Prefer to Talk Directly?"
+      }
+    ],
+    "baseline_findings": [
+      "F12",
+      "F15",
+      "F16"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

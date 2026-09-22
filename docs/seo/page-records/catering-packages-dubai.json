@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/catering-packages-dubai",
+  "path": "/catering-packages-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Packages / Offers",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "catering packages dubai",
+    "secondary": [
+      "catering packages dubai price",
+      "catering package cost per person dubai",
+      "best catering packages dubai",
+      "halal catering packages dubai",
+      "all inclusive catering package dubai",
+      "food catering packages dubai",
+      "party catering packages dubai",
+      "small catering packages dubai",
+      "bachelor party catering packages dubai",
+      "bachelorette party catering packages dubai",
+      "birthday party catering packages dubai",
+      "finger food catering packages dubai"
+    ],
+    "primary_owner": "/catering-packages-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Packages Dubai | Four Published Totals | myCHEF",
+    "description": "Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, service and clear-down in the total.",
+    "h1": [
+      "Catering Packages Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/catering-packages-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/cateringPricing.ts",
+    "src/content/hubPages.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/starterPackages.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
+    "src/pages/CateringPackages.tsx",
+    "src/sections/StarterPackagesSection.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 760,
+    "current_word_count": 762,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Four published totals, plus The Full Experience"
+      },
+      {
+        "level": "h2",
+        "text": "Starter packages"
+      },
+      {
+        "level": "h3",
+        "text": "Date Night"
+      },
+      {
+        "level": "h3",
+        "text": "Family Feast"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday Celebration"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Dinner"
+      },
+      {
+        "level": "h3",
+        "text": "The Full Experience"
+      },
+      {
+        "level": "h2",
+        "text": "What the starting price includes"
+      },
+      {
+        "level": "h2",
+        "text": "How the quote moves from the published figure"
+      },
+      {
+        "level": "h2",
+        "text": "Point us at the table. We will name the package."
+      },
+      {
+        "level": "h2",
+        "text": "The same packages, wherever you are hosting"
+      },
+      {
+        "level": "h2",
+        "text": "Date, guest count and area is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Everything in Packages"
+      }
+    ],
+    "baseline_findings": [
+      "F02"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages",
+        "current": true
+      }
+    ],
+    "uplink_hub": null,
+    "siblings": [
+      {
+        "url": "/dubai-catering-prices-guide",
+        "anchor": "Catering prices",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/corporate-dinner-package-dubai",
+        "anchor": "Corporate dinner package",
+        "alt_anchors": []
+      },
+      {
+        "url": "/gift-cards",
+        "anchor": "Mychef gift cards",
+        "alt_anchors": []
+      },
+      {
+        "url": "/founding-customer-offer",
+        "anchor": "Mychef founding customer offer",
+        "alt_anchors": []
+      }
+    ],
+    "silo_index": [
+      {
+        "url": "/loyalty-programme",
+        "anchor": "Mychef loyalty programme",
+        "alt_anchors": []
+      },
+      {
+        "url": "/mychef-membership",
+        "anchor": "Mychef membership",
+        "alt_anchors": []
+      },
+      {
+        "url": "/referral-programme",
+        "anchor": "Mychef referral programme",
+        "alt_anchors": []
+      },
+      {
+        "url": "/vip-club",
+        "anchor": "Mychef vip club",
+        "alt_anchors": []
+      }
+    ],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

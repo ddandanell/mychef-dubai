@@ -328,7 +328,7 @@ export default function DiwaliCatering() {
             Diwali Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 diw-hero-sub">
-            Diwali catering Dubai at your home, office or villa. Vegetarian and Jain notes, chaat stations and mithai. We cook at your address, then clear down.
+            Diwali catering in Dubai, with regional Indian menus, chaat stations and mithai for home, office and villa celebrations. Vegetarian and Jain requirements are planned from the first menu conversation.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">Get a Diwali Quote</Link>
@@ -355,7 +355,7 @@ export default function DiwaliCatering() {
             Diwali catering Dubai, cooked at your table
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Diwali catering Dubai is a family, office or villa sitting at an address you control. Curries, biryanis, breads, chaat and mithai. Vegetarian Diwali catering Dubai and Jain notes belong in the first draft. We cook there. You stay with your guests.
+            Diwali catering in Dubai brings curries, biryanis, fresh breads, chaat and mithai to your celebration. We develop the menu around your guests, confirm vegetarian or Jain requirements and coordinate the service at your chosen venue.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. The written quote itemises food, staff and VAT.

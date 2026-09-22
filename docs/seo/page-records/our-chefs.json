@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/our-chefs",
+  "path": "/our-chefs",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "private chefs dubai",
+    "secondary": [
+      "chefs dubai",
+      "how are private chefs vetted dubai",
+      "are private chefs in dubai licensed",
+      "female private chef dubai",
+      "hire chef dubai",
+      "looking for chef",
+      "private chef hire",
+      "personal chef",
+      "chef for hire",
+      "female private chefs dubai",
+      "private bbq chef dubai",
+      "private cook in dubai"
+    ],
+    "primary_owner": "/our-chefs",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
+    "description": "Private chefs Dubai: independent, licensed cooks. Identity, a cooking assessment, references and a review after the night, before they cook in your home.",
+    "h1": [
+      "Private Chefs Dubai: Vetted, Tasted, Matched to Your Table"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/our-chefs",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/OurChefs.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 576,
+    "current_word_count": 544,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Finding a chef is easy. Knowing who you are letting into your home is harder."
+      },
+      {
+        "level": "h2",
+        "text": "The named chefs we actually send"
+      },
+      {
+        "level": "h3",
+        "text": "Ahmed Al-Rashid"
+      },
+      {
+        "level": "h3",
+        "text": "Marco Rossi"
+      },
+      {
+        "level": "h3",
+        "text": "Matteo Moretti"
+      },
+      {
+        "level": "h3",
+        "text": "Layla Hassan"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chefs Dubai: How We Vet Every Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Cook with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us the table. We match the chef."
+      },
+      {
+        "level": "h2",
+        "text": "Everything in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F05",
+      "F13"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/chefs/layla-middle-eastern-chef",
+        "anchor": "Layla — Arabic kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/marco-italian-chef",
+        "anchor": "Marco — Italian kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/matteo-pastry-chef",
+        "anchor": "Matteo — pastry",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

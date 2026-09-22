@@ -1,0 +1,67 @@
+PASS  ten extras: got 10
+PASS  stable ids unique: got 10
+PASS  disclaimer is planning not shop: got true
+PASS  disclaimer includes VAT: got true
+PASS  meal box requires catering: got true
+PASS  meal box min 10: got 10
+PASS  meal box 55: got 55
+PASS  parse drops junk: got ["cake-standard","balloons"]
+PASS  parse empty: got []
+PASS  inquiry without extras: got "/inquiry?from=birthday"
+PASS  private lane href: got "/inquiry?from=birthday-private"
+PASS  private scenario href: got "/inquiry?from=birthday-private&extras=cake-standard&scenario=palm-villa"
+PASS  private inquiry constant: got "/inquiry?from=birthday-private"
+PASS  dual path private hits inquiry: got "/inquiry?from=birthday-private"
+PASS  private href carries brief fields: got "/inquiry?from=birthday-private&date=2026-10-02&venue=Villa+or+garden&adults=24&surprise=yes"
+PASS  brief from params: got {"date":"2026-10-02","adults":"24","surprise":"yes"}
+PASS  hero title matches lock: got "Private Birthday Catering in Dubai"
+PASS  five statement scenarios: got 5
+PASS  palm villa is a scenario: got true
+PASS  junk scenario rejected: got false
+PASS  private whatsapp asks surprise: got true
+PASS  yacht scenario says you arrange the boat: got true
+PASS  do not hire yachts: got true
+PASS  3600 band is published: got true
+PASS  villa band is typical not floor: got true
+PASS  inquiry with extras: got "/inquiry?from=birthday&extras=cake-standard%2Cballoons"
+PASS  cake and colour total: got 700
+PASS  little guests total: got 1500
+PASS  picture perfect total: got 2750
+PASS  cake and colour is from: got "from"
+PASS  toggle add: got ["cake-standard"]
+PASS  toggle remove: got []
+PASS  toggle ignores unknown: got ["cake-standard"]
+PASS  union keeps order unique: got ["cake-standard","balloons"]
+PASS  whatsapp names extras: got true
+PASS  whatsapp asks for children ages: got true
+PASS  inquiry subtitle lists extras: got true
+PASS  buffet floor unchanged: got 120
+PASS  drop-off floor unchanged: got 90
+PASS  drop-off min order: got 900
+PASS  plated band unchanged: got [700,950]
+PASS  birthday package 3600: got 3600
+PASS  birthday package guests: got "8–12 guests"
+PASS  package pointer names cake option: got true
+PASS  budget 20 x 120: got 2400
+PASS  budget VAT 5%: got 120
+PASS  budget catering inc VAT: got 2520
+PASS  budget illustrative total: got 3220
+PASS  ladder has birthday food delivery: got true
+PASS  ladder has no stacked market: got true
+PASS  primary in one H2: got true
+PASS  title keeps primary n-gram: got true
+PASS  title is private/villa/home: got "Private Birthday Catering Dubai | Villa & Home Parties"
+PASS  title under 65: got true
+PASS  meta under 160: got true
+PASS  h1 exact: got "Private Birthday Catering in Dubai"
+PASS  no five-things lead: got true
+PASS  page line replaces five things: got true
+PASS  hero sub published floors: got true
+PASS  dual CTAs itemised: got "Request my itemised birthday proposal"
+PASS  dual CTAs private: got "Plan a private milestone birthday"
+PASS  siblings match contract order: got ["/birthday-catering-package-dubai","/blog/best-private-chef-birthday-dinner-dubai","/private-party-catering-dubai"]
+PASS  planning subtotal empty: got 0
+PASS  extrasFromIds skips unknown: got ["balloons"]
+PASS  disclaimer is not a checkout: got true
+
+ALL PASS

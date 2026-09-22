@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/partner-with-us",
+  "path": "/partner-with-us",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Partners / Recruit",
+  "purpose": "Bring in venue, concierge, planner and referral partners.",
+  "keywords": {
+    "primary": "catering partnerships dubai",
+    "secondary": [
+      "become a catering partner dubai",
+      "chef partnership dubai",
+      "work with mychef dubai",
+      "catering services list",
+      "top catering services providers in dubai",
+      "partnership catering business",
+      "catering requirements for events",
+      "catering services list of menu",
+      "catering examples"
+    ],
+    "primary_owner": "/partner-with-us",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Partnerships Dubai | myCHEF",
+    "description": "Catering partnerships Dubai for villa managers, yacht charters, planners and concierge teams. You keep the client. We run the kitchen.",
+    "h1": [
+      "Catering Partnerships Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/partner-with-us",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/PartnerWithUs.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 540,
+    "current_word_count": 542,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Who this page is for"
+      },
+      {
+        "level": "h3",
+        "text": "Villa and estate managers"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht charter operators"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding and event planners"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate concierge and HR"
+      },
+      {
+        "level": "h2",
+        "text": "How the arrangement actually runs"
+      },
+      {
+        "level": "h2",
+        "text": "How It Works"
+      },
+      {
+        "level": "h3",
+        "text": "Introduce your client"
+      },
+      {
+        "level": "h3",
+        "text": "We design a proposal"
+      },
+      {
+        "level": "h3",
+        "text": "You earn on every booking"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "Who can partner with myCHEF Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How does the partnership work?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the commission structure?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide marketing materials?"
+      },
+      {
+        "level": "h3",
+        "text": "How quickly can you quote?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Partnerships Dubai: Become a myCHEF Partner"
+      },
+      {
+        "level": "h2",
+        "text": "More in Partners"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/partners",
+        "anchor": "Partners"
+      },
+      {
+        "url": "/partner-with-us",
+        "anchor": "Catering partnerships",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/partners",
+      "anchor": "Partners",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/partners",
+        "anchor": "Partners",
+        "alt_anchors": []
+      },
+      {
+        "url": "/venue-partners",
+        "anchor": "Preferred caterer",
+        "alt_anchors": []
+      },
+      {
+        "url": "/become-a-mychef",
+        "anchor": "Work as a myCHEF",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/become-a-mychef",
+        "anchor": "Work as a myCHEF",
+        "alt_anchors": [
+          "private chef jobs"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

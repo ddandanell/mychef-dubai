@@ -117,7 +117,7 @@ export default function YachtPartyMenuIdeas() {
       <PageHero
         eyebrow="Yacht Catering"
         title="Yacht Party Menu Ideas Dubai"
-        subtitle="Menus that travel: canapés, a grill if the vessel allows it, boxed food that holds. Yacht catering starts from AED 280 per person. Galley size decides the rest."
+        subtitle={"Plan a yacht menu around the galley, storage and service time, from canapés to a permitted live grill. Yacht catering starts from AED 280 per person, with the final scope confirmed for your vessel."}
         image="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         imageAlt="Canapés being passed on a Dubai yacht deck at golden hour"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Yacht Party Menu Ideas' }]}

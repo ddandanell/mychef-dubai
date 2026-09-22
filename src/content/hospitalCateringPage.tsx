@@ -20,7 +20,7 @@ export const hospitalPage: InstitutionalPageContent = {
     width: 1344,
     height: 752,
     subtitle:
-      'Hospital catering Dubai starts where we can document the kitchen: staff cafeterias and visitor dining. Patient meal services and therapeutic diet meals follow when the diet list, the ward timing and the papers are real.',
+      "Hospital catering in Dubai begins with a detailed assessment of the site and service requirements. Staff and visitor dining can be discussed first; patient meals and therapeutic diets require confirmation of the appropriate clinical brief, facilities and approvals before any commitment.",
     micro: 'Share the site, covers per day and whether you need staff dining or patient meals. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(
@@ -78,8 +78,8 @@ export const hospitalPage: InstitutionalPageContent = {
     h2: 'Hospital catering Dubai is won in the staff cafeteria first',
     paragraphs: [
       'Patient meal programmes in Dubai are awarded to kitchens that already hold the papers: HACCP, dietitian cover, texture-modified production, ward timing. The incumbents are entrenched. A new supplier who leads with “therapeutic excellence” and no staff-dining track record does not get the ward.',
-      'The honest entry is hospital staff cafeteria catering Dubai: visitor cafés and staff dining at clinics and second-tier hospitals, run as a documented canteen. Healthcare catering Dubai of that kind is still hospital work: health cards, temperature, labelling. It is not a villa dinner in a white corridor.',
-      'When the site is ready for patient meal services Dubai, the diet list has to be real: diabetic, renal, cardiac, IDDSI texture-modified. We will not print a from-price for that work. We will not claim a DHA-licensed dietitian on our payroll on this page. The proposal names who writes the diets, or it does not go out.',
+      "Hospital staff and visitor dining requires a documented service plan, with the kitchen, staff, temperature controls and labelling assessed for the setting. The proposed scope and required approvals must be confirmed before any contract is agreed.",
+      "Patient meal services require a documented clinical brief covering the hospital’s prescribed diets, textures and service windows. The proposal must identify the responsible clinical or dietetic input and confirm that the culinary partner can meet the requirements before any service is agreed.",
     ],
   },
   difference: {
@@ -139,7 +139,7 @@ export const hospitalPage: InstitutionalPageContent = {
       { item: 'Allergen and texture coding', who: 'Hospital policy', see: 'Cards matching ward language' },
       { item: 'Halal supply', who: 'Accredited body', see: 'Certificates for proteins' },
     ],
-    note: 'We do not claim ISO 22000, a dietitian on payroll, or a hospital-panel listing on this page until those sit in src/content/.',
+    note: "Any required certifications, clinical support and approved-provider status must be verified for the proposed partner before a hospital contract is confirmed.",
   },
   process: {
     h2: 'Four steps. Procurement sees the file.',
@@ -163,7 +163,7 @@ export const hospitalPage: InstitutionalPageContent = {
     items: [
       {
         title: 'Canteen management is the sister brief',
-        body: 'If the room needs fit-out and staffing, that is canteen management Dubai, not a ward slogan.',
+        body: "Sites requiring kitchen setup and staffing can discuss a canteen management proposal, with responsibilities and facilities assessed separately from patient meal services.",
         href: INSTITUTIONAL_PATHS.canteen,
         linkLabel: 'Canteen management',
       },
@@ -211,7 +211,7 @@ export const hospitalPage: InstitutionalPageContent = {
     },
     {
       q: 'What about care homes?',
-      a: 'Texture-modified and regular dining can be quoted when the home’s diet policy is written. It is not a copy-paste of a hospital ward.',
+      a: "Dining for a care setting requires the home’s documented diet and service requirements, including any clinically specified textures. Suitability and responsibilities must be confirmed before a proposal is approved.",
     },
     {
       q: 'How do you keep food safe in transit?',
@@ -230,13 +230,13 @@ export const hospitalPage: InstitutionalPageContent = {
   locationSubtitle: (
     <>
       Staff dining and clinic cafés in{' '}
-      <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Downtown Dubai
-      </Link>
+      </span>
       ,{' '}
-      <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Business Bay
-      </Link>
+      </span>
       {' '}and{' '}
       <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4">
         DIFC

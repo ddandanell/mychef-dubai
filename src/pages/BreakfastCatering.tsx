@@ -20,7 +20,7 @@ const config: ServicePageConfig = {
   breadcrumbLabel: 'Breakfast Catering Dubai',
   h1: 'Breakfast Catering Dubai',
   heroSub:
-    'Breakfast catering Dubai for an office, villa or hotel suite. Pastries, eggs, fruit and coffee, delivered or staffed, then cleared before the next slot.',
+    "Breakfast catering in Dubai for offices, villas and hotel suites, with pastries, eggs, fruit and coffee tailored to your morning. Choose delivery or a staffed service that fits your schedule.",
   heroImage: '/images/breakfast-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to arrange breakfast catering in Dubai (via mychef.ae/breakfast-catering-dubai)",
@@ -29,7 +29,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Breakfast catering Dubai is the first meal of the day at your office, villa or suite. Office breakfast catering Dubai and corporate breakfast catering Dubai use the same rule: food that arrives on time, is labelled, and is gone before the agenda starts. A late morning table is brunch, not this page.
+        Breakfast catering in Dubai makes the first meal of the day easy to host. We plan menus, dietary labels and delivery or service around your office meeting, family gathering or morning event, with timings agreed in advance.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Breakfast platters Dubai, boxed drops and hot buffets are formats, not packages. Drop-off starts from AED 90 per person (10 guests and AED 900 minimum). A staffed buffet from AED 120. All before 5% VAT. A breakfast catering menu Dubai is written around how long people stay and whether they sit. Halal breakfast catering Dubai is the default sourcing. Dietary notes go into the first draft.

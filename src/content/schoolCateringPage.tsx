@@ -20,7 +20,7 @@ export const schoolPage: InstitutionalPageContent = {
     width: 1344,
     height: 752,
     subtitle:
-      'School catering Dubai for lunches, meal plans and canteen service. Menus written against municipal school-food rules, labelled for allergens, quoted after we see the roll and the kitchen.',
+      "School catering in Dubai, with lunches, meal plans and canteen service assessed around your pupils and facilities. Menus, allergen information and applicable requirements are reviewed before the service is confirmed.",
     micro: 'Share the school, year groups and whether you want delivery or a managed line. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(
@@ -228,17 +228,17 @@ export const schoolPage: InstitutionalPageContent = {
   locationSubtitle: (
     <>
       Schools in{' '}
-      <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Arabian Ranches
-      </Link>
+      </span>
       ,{' '}
-      <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Dubai Hills
-      </Link>
+      </span>
       {' '}and{' '}
-      <Link to="/locations/jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Jumeirah
-      </Link>
+      </span>
       .
     </>
   ),

@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/christmas-catering-dubai",
+  "path": "/christmas-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Seasonal and Occasions",
+  "purpose": "Capture date-sensitive festive enquiries.",
+  "keywords": {
+    "primary": "christmas catering dubai",
+    "secondary": [
+      "christmas catering dubai price",
+      "christmas catering cost per person dubai",
+      "best christmas catering dubai",
+      "christmas catering packages dubai",
+      "christmas catering menu dubai",
+      "halal christmas catering dubai",
+      "christmas dinner catering dubai",
+      "christmas turkey catering dubai",
+      "christmas dinner delivery dubai",
+      "how much does a full christmas dinner cost",
+      "christmas meals dubai",
+      "festive catering"
+    ],
+    "primary_owner": "/christmas-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Christmas Catering Dubai | myCHEF",
+    "description": "Christmas catering Dubai: a private chef cooks Christmas dinner at home. British, French, Italian, German, Russian, Swiss & American menus.",
+    "h1": [
+      "Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/christmas-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/christmasMenus.ts",
+    "src/content/christmasWork.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/ChristmasCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 3988,
+    "current_word_count": 3969,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A chef in your kitchen on the one day you would rather not be in it"
+      },
+      {
+        "level": "h2",
+        "text": "A Christmas table we already set"
+      },
+      {
+        "level": "h2",
+        "text": "From the first message to the last cleared plate"
+      },
+      {
+        "level": "h3",
+        "text": "Share your plans"
+      },
+      {
+        "level": "h3",
+        "text": "Choose a menu direction"
+      },
+      {
+        "level": "h3",
+        "text": "Receive a written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the date"
+      },
+      {
+        "level": "h3",
+        "text": "The chef and team arrive"
+      },
+      {
+        "level": "h3",
+        "text": "Serve, celebrate, clear down"
+      },
+      {
+        "level": "h2",
+        "text": "What every Christmas booking covers, and what you add only if the room needs it"
+      },
+      {
+        "level": "h3",
+        "text": "Part of every Christmas booking"
+      },
+      {
+        "level": "h3",
+        "text": "Add when the room needs it"
+      },
+      {
+        "level": "h2",
+        "text": "Choose Your Christmas Menu"
+      },
+      {
+        "level": "h3",
+        "text": "British Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "French Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "German Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "Russian Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "Swiss Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "American Christmas"
+      },
+      {
+        "level": "h3",
+        "text": "Something else entirely?"
+      },
+      {
+        "level": "h2",
+        "text": "British Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "British Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "French Christmas Dinner & Réveillon Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "French Réveillon Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Italian Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "German Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "German Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Russian Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Russian Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Swiss Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Swiss Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "American Christmas Dinner Catering in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "American Christmas Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Prefer to Build Your Own Christmas Menu?"
+      },
+      {
+        "level": "h2",
+        "text": "More Than Christmas Dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Christmas dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas Day in an apartment"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Christmas party"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas on a chartered yacht"
+      },
+      {
+        "level": "h2",
+        "text": "Related pages"
+      },
+      {
+        "level": "h2",
+        "text": "Christmas Catering Dubai FAQs"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide Christmas catering in Dubai on Christmas Day?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater Christmas Eve as well as Christmas Day?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a private chef cook Christmas dinner in our villa?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we order a traditional British Christmas dinner in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you prepare Christmas turkey with all the trimmings?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer French, Italian, German or Russian Christmas menus?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater for Orthodox Christmas in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we combine dishes from different Christmas menus?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater for dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your Christmas food halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide waiters and bartenders?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a corporate Christmas party?"
+      },
+      {
+        "level": "h3",
+        "text": "How early should we book Christmas catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a full Christmas dinner cost?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you deliver Christmas dinner, or does a chef have to come?"
+      },
+      {
+        "level": "h3",
+        "text": "Which areas of Dubai do you cover for Christmas catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your chefs and kitchens licensed and food-safe?"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Christmas Dinner, Without Spending Christmas in the Kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "More in Packages"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering"
+      },
+      {
+        "url": "/christmas-catering-dubai",
+        "anchor": "Christmas catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/festive-catering-dubai",
+      "anchor": "Festive catering",
+      "alt_anchors": [
+        "festive catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/new-year-catering-dubai",
+        "anchor": "New year catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

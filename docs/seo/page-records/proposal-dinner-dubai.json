@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/proposal-dinner-dubai",
+  "path": "/proposal-dinner-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Dining Experiences",
+  "purpose": "Sell a distinct private dining or learning occasion.",
+  "keywords": {
+    "primary": "proposal dinner dubai",
+    "secondary": [
+      "proposal dinner dubai price",
+      "best proposal dinner dubai",
+      "proposal dinner packages dubai",
+      "proposal dinner menu dubai",
+      "halal proposal dinner dubai",
+      "marriage proposal dinner dubai",
+      "private chef proposal dinner dubai",
+      "yacht proposal dinner dubai",
+      "romantic proposal dinner dubai",
+      "dinner offers in dubai",
+      "dinner set price in dubai",
+      "dinner for couples in dubai"
+    ],
+    "primary_owner": "/proposal-dinner-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF",
+    "description": "Proposal dinner Dubai with a private chef, a menu written for two, floral and photography coordination, and timing for the question. Then we clear down.",
+    "h1": [
+      "Proposal Dinner Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/proposal-dinner-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/ProposalDinner.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 835,
+    "current_word_count": 804,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Proposal dinner Dubai: you ask, we run the table"
+      },
+      {
+        "level": "h2",
+        "text": "What we handle besides the food"
+      },
+      {
+        "level": "h3",
+        "text": "Menu written for the table"
+      },
+      {
+        "level": "h3",
+        "text": "Photography Coordination"
+      },
+      {
+        "level": "h3",
+        "text": "Floral & Tablescaping"
+      },
+      {
+        "level": "h3",
+        "text": "Precision Timing"
+      },
+      {
+        "level": "h2",
+        "text": "Choose Your Setting"
+      },
+      {
+        "level": "h3",
+        "text": "Intimate Proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Celebration"
+      },
+      {
+        "level": "h3",
+        "text": "Custom brief"
+      },
+      {
+        "level": "h2",
+        "text": "The questions we get before a proposal dinner booking"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a proposal dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef hide the ring or work with my plan?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you arrange photographers and florists?"
+      },
+      {
+        "level": "h3",
+        "text": "What if my partner has dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you do proposals outside a home or villa?"
+      },
+      {
+        "level": "h3",
+        "text": "Is marriage proposal dinner Dubai the same as proposal dinner Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date and how you want to ask"
+      },
+      {
+        "level": "h2",
+        "text": "More in Dining Experiences"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining"
+      },
+      {
+        "url": "/proposal-dinner-dubai",
+        "anchor": "Proposal dinner",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+        "luxury dining experiences dubai",
+        "luxury dining experiences"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/romantic-dinner-dubai",
+        "anchor": "Dinner for two",
+        "alt_anchors": []
+      },
+      {
+        "url": "/engagement-catering-dubai",
+        "anchor": "Engagement party catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

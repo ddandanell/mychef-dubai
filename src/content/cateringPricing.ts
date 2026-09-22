@@ -95,7 +95,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     typicalMax: 350,
     calculatorEstimate: 150,
     minGuests: 10,
-    note: 'myCHEF floor from AED 150. Indicative market AED 180–350 is not a myCHEF start.',
+    note: "myCHEF starts from AED 150 per person. The separate AED 180–350 range is an indicative market comparison.",
   },
   {
     id: 'bbq',
@@ -151,7 +151,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     typicalMax: 350,
     calculatorEstimate: 180,
     minGuests: 20,
-    note: 'myCHEF floor from AED 180. Indicative market AED 180–350 is not a second floor.',
+    note: "myCHEF starts from AED 180 per person. The AED 180–350 range is shown separately as an indicative market comparison.",
   },
 ]
 

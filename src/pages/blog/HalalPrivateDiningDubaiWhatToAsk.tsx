@@ -117,7 +117,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
       <PageHero
         eyebrow="Halal"
         title="What to Ask a Halal Caterer Dubai"
-        subtitle="Sourcing, certificates, cross-contamination and alcohol. Halal-friendly is not a regulated phrase. Ask for the papers."
+        subtitle={"The questions to ask about halal sourcing, supplier certificates, kitchen practices and alcohol before confirming a private dining menu."}
         image="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         imageAlt="Halal private dining setup in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Halal Private Dining Dubai' }]}

@@ -126,7 +126,7 @@ export default function Corporate() {
       <PageHero
         eyebrow="Corporate Catering Dubai"
         title="Corporate Catering Dubai for Offices and Boardrooms"
-        subtitle="Corporate catering Dubai for offices and boardrooms. You stay in the meeting. We run the food, the staff and the clear-down. Drop-off from AED 90 per person. Every proposal is itemised so finance can approve a real number. A one-off company party lives on event catering."
+        subtitle={"Corporate catering in Dubai for offices, meetings and company occasions, with menus and service planned around your working day. Drop-off starts from AED 90 per person, and each proposal itemises the food, staffing and other requirements for clear approval."}
         image={corporateHero.src}
         imageAlt={corporateHero.alt}
         imageWidth={corporateHero.width}
@@ -139,7 +139,7 @@ export default function Corporate() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Date, office or venue, headcount, and whether you need drop-off or staff in the room.
+          Share your date, office or venue, guest count and preferred level of service.
         </p>
       </PageHero>
       <TrustSignalStrip />

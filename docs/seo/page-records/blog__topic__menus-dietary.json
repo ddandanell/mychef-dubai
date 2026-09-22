@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/topic/menus-dietary",
+  "path": "/blog/topic/menus-dietary",
+  "role": "noindex support page",
+  "page_type": "Topic hub",
+  "silo": "Blog topic hubs",
+  "purpose": "Group related articles for navigation.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Menus, Brunch & Dietary in Dubai | myCHEF",
+    "description": "Planning a Dubai menu that fits everyone: brunch, plant-based, halal and allergy-aware, and how to brief a chef on all of it.",
+    "h1": [
+      "Menus, Brunch & Dietary"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/topic/menus-dietary",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/SEO.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BlogCategoryHub.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 675,
+    "current_word_count": 857,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Grazing Table Catering in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Kids Birthday Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Yacht Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Corporate Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Luxury Private Dining Experiences Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Arabic Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Brunch Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Halal Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Chefs for Villas in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Wedding Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Brunch at Home Dubai: A Hosting Guide"
+      },
+      {
+        "level": "h3",
+        "text": "How Far in Advance to Book a Caterer Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [
+      "F12"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

@@ -1,0 +1,5 @@
+✓ source shells + React brand head
+✓ auditor accepts crawlable myCHEF favicon + og:site_name
+✓ auditor rejects Vercel title, missing og:site_name, and data-URI favicon
+
+✓ Google site name + favicon checks passed

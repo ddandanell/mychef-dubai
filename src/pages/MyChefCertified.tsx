@@ -232,7 +232,7 @@ export default function MyChefCertified() {
             myCHEF Certified Chefs
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 mc-hero-sub">
-            Identity, right to work, a cooking assessment, references, then a supervised first visit. The house pays the published rate. Quality extra is paid to the cook.
+            The myCHEF selection standard covers identity, right to work, practical cooking, references and an initial supervised visit. It is our internal assessment process, with household service priced separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mc-hero-cta">Book a Certified Chef</Link>
@@ -260,7 +260,7 @@ export default function MyChefCertified() {
           </h2>
           <div className="mc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              myCHEF certified means identity and right to work were seen, the chef cooked in a kitchen we can watch, references were called, and the first visits were supervised or small. It is not a government licence. PIC is preferred. We do not claim every chef holds a named certificate.
+              myCHEF Certified is an internal selection standard, not a government licence. It includes document checks, a practical cooking assessment, references and supervised or smaller initial assignments. PIC certification is preferred; individual credentials are confirmed during assessment.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The house pays the published rate for the job. Quality extra is paid to the cook. Level 1 is starting. Level 2 is a month of consistently strong scores. Level 3 is that standard held for three months. Safety is a stop, not a score.

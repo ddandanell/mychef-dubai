@@ -119,10 +119,10 @@ export default function ReviewRequest() {
         <div className="review-body container-custom max-w-[820px]">
           <div className="review-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Every review helps us refine our service and helps future Dubai hosts choose the right private chef or catering experience.
+              Your feedback helps us understand what worked well and where the experience can improve.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              There is no form to fill out — tap WhatsApp, tell us about your event, and we will handle the rest.
+              Share your feedback privately through WhatsApp. Include the booking date and any details you would like the team to review.
             </p>
           </div>
 

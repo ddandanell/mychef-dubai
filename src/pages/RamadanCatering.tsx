@@ -320,7 +320,7 @@ export default function RamadanCatering() {
             Ramadan Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ram-hero-sub">
-            Ramadan catering Dubai for iftar and suhoor at your home, majlis or office. Halal menus, timed to prayer, cooked at your address, then cleared.
+            Ramadan catering in Dubai, with halal iftar and suhoor menus for homes, majlis gatherings and offices. Food and service are planned around prayer times, your guests and the setting.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Secure My Ramadan Date</Link>
@@ -356,7 +356,7 @@ export default function RamadanCatering() {
             Ramadan catering Dubai, timed to Maghrib and Fajr
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Ramadan catering Dubai is iftar at Maghrib and suhoor before Fajr, at your home, majlis, office or villa. Halal menus. Dates, soup, mains, sweets. We cook at your address. The clock is prayer, not a restaurant sitting.
+            Ramadan catering in Dubai brings together iftar at Maghrib and suhoor before Fajr, with the menu and service timed accordingly. Choose dates, soups, main dishes and sweets for your home, majlis, office or villa, with halal requirements confirmed during planning.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. Dietary notes go into the first draft.

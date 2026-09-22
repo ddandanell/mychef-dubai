@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-chef-dubai/quality-training",
+  "path": "/private-chef-dubai/quality-training",
+  "role": "noindex support page",
+  "page_type": "Private-chef cluster page",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Chef Quality & Training | myCHEF",
+    "description": "How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, dietary standards, and when the match should change.",
+    "h1": [
+      "Good on day one is not enough."
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-chef-dubai/quality-training",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/FillFrame.tsx",
+    "src/components/private-chef/QuotePair.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
+    "src/content/privateChefPage.ts",
+    "src/content/privateChefPricing.ts",
+    "src/content/privateChefStandard.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/private-chef/QualityTraining.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1335,
+    "current_word_count": 1328,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How the standard holds, month after month"
+      },
+      {
+        "level": "h2",
+        "text": "Cooking in a home is a different job"
+      },
+      {
+        "level": "h2",
+        "text": "Food, service, team, communication. Then what happens"
+      },
+      {
+        "level": "h3",
+        "text": "One score that is off"
+      },
+      {
+        "level": "h3",
+        "text": "A repeated problem"
+      },
+      {
+        "level": "h3",
+        "text": "A pattern"
+      },
+      {
+        "level": "h3",
+        "text": "What the score actually does"
+      },
+      {
+        "level": "h3",
+        "text": "One conversation, two records"
+      },
+      {
+        "level": "h2",
+        "text": "What actually gets adjusted"
+      },
+      {
+        "level": "h3",
+        "text": "Menu"
+      },
+      {
+        "level": "h3",
+        "text": "Seasoning"
+      },
+      {
+        "level": "h3",
+        "text": "Timing"
+      },
+      {
+        "level": "h3",
+        "text": "Communication"
+      },
+      {
+        "level": "h3",
+        "text": "Organisation"
+      },
+      {
+        "level": "h3",
+        "text": "Your first week is calibration"
+      },
+      {
+        "level": "h2",
+        "text": "Sometimes the match is simply wrong"
+      },
+      {
+        "level": "h2",
+        "text": "Questions about quality, feedback and changing the match"
+      },
+      {
+        "level": "h3",
+        "text": "How do you keep quality consistent?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens after a low rating?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I get a healthy food chef in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you train chefs after they join?"
+      },
+      {
+        "level": "h2",
+        "text": "Quality that still holds in month four"
+      }
+    ],
+    "baseline_findings": [
+      "F12"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/private-chef-dubai/quality-training",
+        "anchor": "Quality training",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -218,7 +218,7 @@ export default function Cuisines() {
       <PageHero
         eyebrow="Cuisines"
         title="Multi Cuisine Catering Dubai"
-        subtitle="Multi cuisine catering Dubai is for mixed tables: more than one kitchen, one team on the night. You choose the cuisines. We match chefs who cook those menus, then staff, setup and clear-down. Format and price sit on Catering. This page is the cuisine index."
+        subtitle={"Multi cuisine catering in Dubai brings different culinary traditions together in one considered menu. Combine the dishes your guests enjoy, with chefs, presentation and service coordinated for your occasion."}
         image={HERO.src}
         imageAlt={HERO.alt}
         imageWidth={HERO.width}
@@ -231,7 +231,7 @@ export default function Cuisines() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share the date, guest mix and the kitchens you want. We typically reply within 15 minutes during business hours.
+          Share your date, guest count and preferred cuisines. We typically reply within 15 minutes during our published business hours.
         </p>
       </PageHero>
       <TrustSignalStrip />
@@ -288,7 +288,7 @@ export default function Cuisines() {
           <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
           <DisplayHeading className="text-black mb-6">What multi cuisine catering Dubai actually covers</DisplayHeading>
           <BodyCopy className="mb-4">
-            You land here when the table is mixed. One side wants Arabic grills. The other wants pasta. Someone asked for sushi as a station. That is a cuisine brief, not a format brief.
+            A mixed menu can bring Arabic grills, Italian pasta and a sushi station together without losing the character of each cuisine. We help you select a balanced combination that suits your guests and service style.
           </BodyCopy>
           <BodyCopy className="mb-4">
             International catering in Dubai usually means that guest list — not a buffet of every flag. We write the menus around who is eating, then match chefs who actually cook those kitchens.

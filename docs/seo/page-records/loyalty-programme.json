@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/loyalty-programme",
+  "path": "/loyalty-programme",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Packages / Offers",
+  "purpose": "Convert repeat customers to a benefits or referral programme.",
+  "keywords": {
+    "primary": "mychef loyalty programme",
+    "secondary": [
+      "mychef rewards"
+    ],
+    "primary_owner": "/loyalty-programme",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF Loyalty Programme | myCHEF",
+    "description": "myCHEF loyalty programme: points on completed bookings. Silver 1x, Gold 1.25x, Platinum 1.5x. Credits, not cash.",
+    "h1": [
+      "myCHEF Loyalty Programme"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/loyalty-programme",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LoyaltyProgramme.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 627,
+    "current_word_count": 637,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "myCHEF loyalty programme is a ledger, not a club night"
+      },
+      {
+        "level": "h2",
+        "text": "How You Earn and Grow"
+      },
+      {
+        "level": "h3",
+        "text": "Points on Every Dirham Spent"
+      },
+      {
+        "level": "h3",
+        "text": "Tier Upgrades"
+      },
+      {
+        "level": "h3",
+        "text": "Referral Bonuses"
+      },
+      {
+        "level": "h3",
+        "text": "Member-Only Experiences"
+      },
+      {
+        "level": "h2",
+        "text": "Climb the Tiers"
+      },
+      {
+        "level": "h3",
+        "text": "Silver"
+      },
+      {
+        "level": "h3",
+        "text": "Gold"
+      },
+      {
+        "level": "h3",
+        "text": "Platinum"
+      },
+      {
+        "level": "h2",
+        "text": "myCHEF Loyalty Programme: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "How do I earn points?"
+      },
+      {
+        "level": "h3",
+        "text": "What can points be redeemed for?"
+      },
+      {
+        "level": "h3",
+        "text": "Do points expire?"
+      },
+      {
+        "level": "h3",
+        "text": "How do tiers work?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I transfer points?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h2",
+        "text": "Start Earning Today"
+      },
+      {
+        "level": "h2",
+        "text": "More in Membership and Offers"
+      }
+    ],
+    "baseline_findings": [
+      "F23"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages"
+      },
+      {
+        "url": "/loyalty-programme",
+        "anchor": "Mychef loyalty programme",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-packages-dubai",
+      "anchor": "Catering packages",
+      "alt_anchors": [
+        "catering packages dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/mychef-membership",
+        "anchor": "Mychef membership",
+        "alt_anchors": []
+      },
+      {
+        "url": "/referral-programme",
+        "anchor": "Mychef referral programme",
+        "alt_anchors": []
+      },
+      {
+        "url": "/vip-club",
+        "anchor": "Mychef vip club",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -163,7 +163,7 @@ const faqs = [
     q: 'How far in advance should I book?',
     a: 'For smaller grazing tables, one to two weeks is ideal. For larger or fully styled installations, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
   },
-  { q: "How much does a grazing table cost in Dubai?", a: "Every grazing table is priced by custom quote, because the cost depends on your guest count, the length and abundance of the spread, the ingredients you choose, and any styling or hot elements you add. We build your quote around exactly what your event needs rather than a fixed per-head rate, so you only pay for the spread you actually want. Share your date and numbers and we'll send a clear, itemised proposal, usually within 15 minutes during business hours." },
+  { q: "How much does a grazing table cost in Dubai?", a: "Every grazing table is priced by custom quote, because the cost depends on your guest count, the length and abundance of the spread, the ingredients you choose, and any styling or hot elements you add. We build your quote around exactly what your event needs rather than a fixed per-head rate, so you only pay for the spread you actually want. Share your date and numbers and we typically acknowledge your enquiry within 15 minutes during business hours. An itemised proposal follows once the requirements are reviewed." },
   { q: "What is included in the price of a grazing table?", a: "Your grazing table quote covers menu design, ingredient sourcing and shopping, on-site building and styling of the spread, and full pack-down and cleanup afterwards. That means our team arrives, assembles the entire table at your venue with boards, vessels, foliage, and garnishes, and clears everything away when the event ends. Serving staff can be added if you'd like the table replenished throughout, and a 5% VAT applies to the final total." },
   { q: "Are your grazing tables prepared to food-safety standards?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, and every ingredient is handled, transported, and assembled with proper temperature control in mind. This matters especially for cured meats, soft cheeses, and dairy-based dips, which we style fresh on-site rather than leaving out for hours in advance. You can read more about our team and standards on our [about page](/about)." },
   { q: "Is the food on your grazing tables halal?", a: "Yes, we source halal by default, so your charcuterie, meats, and every element on the table are halal unless you request otherwise. We're happy to confirm sourcing details for specific items when you plan your spread, and we can tailor the selection to suit mixed guest lists. Just tell us your preferences and we'll build the table accordingly." },
@@ -325,7 +325,7 @@ export default function GrazingTable() {
             Grazing Table Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 graz-hero-sub">
-            Grazing table Dubai for a shower, a villa, a wedding drinks hour or an office reception. Cheeses, breads, fruit, charcuterie and dips, built on site and packed down. Send the date, guest count and venue.
+            A grazing table in Dubai, beautifully arranged for a baby shower, wedding reception, villa gathering or office occasion. Choose cheeses, breads, fruit, dips and agreed charcuterie, with quantities and setup planned for your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 graz-hero-cta">Get a Grazing Table Quote</Link>
@@ -352,7 +352,7 @@ export default function GrazingTable() {
             What a grazing table Dubai booking includes
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A grazing table is food people can eat while they stand and talk. Cured meats, cheeses, fruit, warm breads and dips, built on site so the table lasts the afternoon. It is not a plated dinner and it is not a dropped tray. If everyone sits for courses, this is the wrong format.
+            A grazing table creates an inviting focal point for guests to enjoy at their own pace. We arrange cheeses, suitable charcuterie, fruit, breads and dips at the venue, with portion counts, display time and replenishment agreed in advance.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Guest count, how long people stay, and whether you want a compact grazing platter or a full-length table move the quote. Dietary notes go into the first layout. The written proposal itemises food, styling, staffing and 5% VAT.

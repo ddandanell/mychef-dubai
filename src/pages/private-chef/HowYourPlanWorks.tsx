@@ -118,7 +118,7 @@ export default function HowYourPlanWorks() {
                 ))}
               </ol>
               <p className="mt-6 font-inter text-caption text-gray-400 leading-relaxed">
-                Prices and thresholds on this page come from the same source as the calculator. The detail lives in your service agreement.
+                Review the service schedule, pricing and plan conditions below. Your written service agreement confirms the terms that apply to your household.
               </p>
             </nav>
 

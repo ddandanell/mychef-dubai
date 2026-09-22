@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/kids-nutrition-chef-dubai",
+  "path": "/kids-nutrition-chef-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Kids meal prep Dubai by a private chef. Balanced, child-friendly meals designed around allergies, growth and family routines. Get a quote.",
+  "keywords": {
+    "primary": "kids meal prep dubai",
+    "secondary": [
+      "kids meal prep dubai price",
+      "healthy kids meals delivery dubai",
+      "kids meal plan dubai",
+      "emirates kids meal menu",
+      "chef meal prep company",
+      "dubai food prep service",
+      "meal prep for 5 year old",
+      "practical meal prep dubai",
+      "meal prep dubai delivery",
+      "meal prep dubai healthy",
+      "coles meal prep dubai",
+      "how to meal prep for school"
+    ],
+    "primary_owner": "/kids-nutrition-chef-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Kids Meal Prep Dubai | Healthy Meals Children Eat | myCHEF",
+    "description": "Kids meal prep Dubai by a private chef. Balanced, child-friendly meals designed around allergies, growth and family routines. Get a quote.",
+    "h1": [
+      "Kids Meal Prep Dubai: food children will actually eat"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/kids-nutrition-chef-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/KidsNutritionChef.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 764,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Kids meal prep Dubai, cooked in your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Written for this child, not a generic box"
+      },
+      {
+        "level": "h3",
+        "text": "Food children will actually eat"
+      },
+      {
+        "level": "h3",
+        "text": "Allergies labelled, not hoped"
+      },
+      {
+        "level": "h3",
+        "text": "Portions for this age"
+      },
+      {
+        "level": "h3",
+        "text": "School boxes or family pots"
+      },
+      {
+        "level": "h2",
+        "text": "Once a week, or twice"
+      },
+      {
+        "level": "h3",
+        "text": "Once a week"
+      },
+      {
+        "level": "h3",
+        "text": "Once a week, monthly"
+      },
+      {
+        "level": "h3",
+        "text": "Twice a week"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before a children’s Food Prep booking"
+      },
+      {
+        "level": "h3",
+        "text": "Can menus accommodate allergies and intolerances?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you handle picky eaters?"
+      },
+      {
+        "level": "h3",
+        "text": "What ages does this cover?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the food halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Can parents review menus weekly?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this meal prep Dubai delivery from a factory?"
+      },
+      {
+        "level": "h3",
+        "text": "Nearby pages"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what they will eat"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/kids-nutrition-chef-dubai",
+        "anchor": "Kids meal prep",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Kids birthday catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

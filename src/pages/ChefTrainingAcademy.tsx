@@ -232,7 +232,7 @@ export default function ChefTrainingAcademy() {
             Chef Training Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
-            Private dining is not restaurant service. Foundation from AED 2,500, Professional from AED 6,500, Master from AED 12,000. Joining the network is separate and not guaranteed.
+            Develop the culinary and service skills required for private dining. Foundation courses start from AED 2,500, Professional from AED 6,500 and Master from AED 12,000. Course completion does not guarantee a place in the myCHEF network.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>
@@ -260,7 +260,7 @@ export default function ChefTrainingAcademy() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A restaurant cook can run a pass. A private chef has to understand how this household eats, how to leave the kitchen, and how to behave in someone else’s home. That is what these courses are for.
+              Cooking in a private home calls for adaptable technique, careful planning and respect for the household. These courses focus on the practical and service skills that help chefs work confidently in that setting.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Foundation is two days from AED 2,500. Professional is five days from AED 6,500. Master is ten days from AED 12,000. Completing a course does not guarantee work. Graduates who meet the checks may apply to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join the network</Link>.

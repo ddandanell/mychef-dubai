@@ -100,7 +100,7 @@ export default function WeddingCateringChecklist() {
           variant="quiet"
           eyebrow="Wedding Catering Checklist Dubai"
           title="Wedding Catering Checklist Dubai"
-          subtitle="A planning sequence for villas, gardens and venues. When to book, when to taste, what to ask the community office, and what to send seven days out. No prices on this page."
+          subtitle={"A practical wedding catering timeline for villas, gardens and venues, covering booking, tastings, access arrangements and the final guest brief."}
           image={checklistHero.src}
           imageAlt={checklistHero.alt}
           imageWidth={checklistHero.width}
@@ -124,7 +124,7 @@ export default function WeddingCateringChecklist() {
           <SectionLabel>THE JOB OF THIS PAGE</SectionLabel>
           <DisplayHeading className="text-black mb-6">A sequence, not a brochure</DisplayHeading>
           <BodyCopy className="mb-5">
-            Use this wedding catering checklist when the date is real and you need the order of decisions. To hire the team, go to{' '}
+            Use this wedding catering checklist to organise the decisions from your first enquiry to the final service plan. For menu and booking options, explore{' '}
             <Link to={WEDDING_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               wedding catering Dubai
             </Link>

@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/part-time-private-chef-dubai",
+  "path": "/part-time-private-chef-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": "part time private chef dubai",
+    "secondary": [
+      "part time private chef dubai price",
+      "part time private chef dubai monthly cost",
+      "hire part time private chef dubai",
+      "part time private chef packages dubai",
+      "part time cook in dubai",
+      "full time private chef",
+      "the private chef",
+      "personal chef near me",
+      "family chef dubai full time"
+    ],
+    "primary_owner": "/part-time-private-chef-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Part Time Private Chef Dubai | 2–3 Days a Week | myCHEF",
+    "description": "Hire a part time private chef Dubai for two or three days a week. Same price list as every household plan. Groceries at receipts. VAT 5%.",
+    "h1": [
+      "Part Time Private Chef Dubai: two or three days a week"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/part-time-private-chef-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/PartTimePrivateChef.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 826,
+    "current_word_count": 830,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Part time private chef Dubai is days of cooking, not a salary"
+      },
+      {
+        "level": "h2",
+        "text": "Enough days to learn the house"
+      },
+      {
+        "level": "h3",
+        "text": "Two or three days a week"
+      },
+      {
+        "level": "h3",
+        "text": "The same chef, most weeks"
+      },
+      {
+        "level": "h3",
+        "text": "Cook, pack, or stay for dinner"
+      },
+      {
+        "level": "h3",
+        "text": "The same price list as every household plan"
+      },
+      {
+        "level": "h2",
+        "text": "Dinner, prep, or both"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner only"
+      },
+      {
+        "level": "h3",
+        "text": "Prep plus one dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Lunch and dinner on set days"
+      },
+      {
+        "level": "h3",
+        "text": "The week, plus one night of guests"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before a two-or-three-day plan"
+      },
+      {
+        "level": "h3",
+        "text": "What is a part-time private chef?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a part-time private chef cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the chef employed by myCHEF or by me?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I try a part-time chef before committing?"
+      },
+      {
+        "level": "h3",
+        "text": "What if the chef is unavailable one week?"
+      },
+      {
+        "level": "h3",
+        "text": "Nearby pages"
+      },
+      {
+        "level": "h2",
+        "text": "Build the two-or-three-day plan"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/part-time-private-chef-dubai",
+        "anchor": "Part-time private chef",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Full-time private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -25,7 +25,7 @@ export const hero = {
   eyebrow: 'Dining Experiences',
   h1: 'Private dining experience Dubai, designed around the moment',
   subtitle:
-    'A private dining experience in Dubai is for a table you actually care about: two people, a tasting, a class, a desert dinner. The chef, the menu and the service are planned around that moment, not a restaurant slot. Tell us who it is for, where and when.',
+    "A private dining experience in Dubai, created around your occasion. From a quiet dinner for two to a tasting menu, cooking class or desert table, we bring the chef, menu and service together for a memorable meal in your chosen setting.",
   primaryCta: 'See the experiences',
   secondaryCta: 'Plan something custom',
   utility: 'Dubai-wide · Private homes · Villas · Selected venues · Special locations',
@@ -36,9 +36,9 @@ export const whatItIs: ProseSection = {
   id: 'what-is-a-dining-experience',
   h2: 'What a private dining experience Dubai actually is',
   paragraphs: [
-    'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. People looking for unique dining experiences in Dubai usually mean this: a night built around one table, not a restaurant slot. A myCHEF dining experience starts with what you want the evening to feel like, then builds the food, the chef and the service around that.',
-    'It might happen at home, in a villa, on a yacht, in the desert, at a private venue, or somewhere else that suits what you have in mind. Sometimes the chef stays almost invisible and the evening belongs to your guests. Sometimes the chef introduces every course. Sometimes you are in the kitchen cooking alongside them. Sometimes the location is the whole reason for the evening.',
-    'What all of them share is the direction of the planning. You are not fitting into a restaurant\'s normal service. The experience is built around you.',
+    "Private dining gives you the freedom to choose the setting, pace and style of your meal. We begin with the occasion and the people joining you, then develop a menu and service plan that feel right for the evening.",
+    "Host at home, in a villa, on a chartered yacht or at an agreed private venue. Choose discreet table service, a chef who introduces each course, or a hands-on session cooking together. Venue access and facilities are confirmed during planning.",
+    "Every experience is tailored to your preferences, with the menu, service and practical details agreed before you book.",
   ],
 }
 
@@ -73,7 +73,7 @@ export const experienceFinder = [
   {
     id: 'gift',
     title: 'We book the evening in their name',
-    text: 'There is no stored-value card. We hold a date for someone else and they still choose the menu.',
+    text: "Give someone a private dining experience in their name, with the menu chosen together. This is an arranged booking rather than a stored-value gift card.",
     href: EXPERIENCES_PATHS.giftCards,
     cta: 'How gifting actually works',
     image: '/images/gift-cards-hero.webp',
@@ -87,7 +87,7 @@ export const prose: ProseSection[] = [
     h2: 'Romantic Dining in Dubai, Without a Restaurant Around You',
     paragraphs: [
       'Most romantic dinners in Dubai happen in a room full of other people\'s romantic dinners. There is a table turn to respect, a fixed menu to choose from, strangers within arm\'s reach, and a soundtrack nobody in your party picked. For a normal evening out that is fine. For the evening where you propose, or mark ten years, or finally get a night alone after a hard month, it works against you.',
-      'A private romantic dinner removes the room. The chef comes to you, the menu is planned around what the two of you actually like, and the pace belongs to you rather than to a service schedule. There is no queue for the table and no closing time being counted down.',
+      "A private romantic dinner is planned around the two of you: the menu you enjoy, the setting you choose and the pace of the evening. Your chef and service team work within the agreed booking hours, leaving you free to spend time together.",
       'People book these for proposals, anniversaries, a partner\'s birthday, date nights, surprises, honeymoons and private celebrations. The occasion changes what the evening needs, which is why the planning starts with the occasion rather than with a menu.',
       'From there, an evening can be built in layers: the chef and the food first, then service, then the table itself, then the atmosphere around it. Flowers, candles, a specific table setup, music, or photography can all be arranged where they are wanted.',
       'You do not need all of it. If you want a chef and excellent food and nothing else, that is a complete booking. If you want a full proposal setup where every detail is handled before your partner walks in, that is a different conversation and we plan it differently.',
@@ -98,7 +98,7 @@ export const prose: ProseSection[] = [
     id: 'tasting-menus',
     h2: 'When Dinner Becomes a Progression',
     paragraphs: [
-      'A tasting menu is not a starter, a main and a dessert made smaller. It is a sequence built deliberately, where each course is planned in relation to the ones on either side of it: lighter before heavier, sharper after richer, texture changing often enough that attention never drops.',
+      "A tasting menu is a carefully paced sequence of dishes. Flavour, richness and texture are balanced from one course to the next, giving each dish a clear place in the meal.",
       'That structure is what makes it an experience rather than a meal. Courses arrive in a planned rhythm. The chef has room to cook with more technique than a single main course allows. And because the menu is designed for your table specifically, it can be built around what your guests actually eat.',
       'Direction is a choice made during planning rather than picked off a list. Modern European, Japanese-influenced, Mediterranean, Asian, plant-based, or a chef-led concept built around a particular idea are all possible starting points. The honest answer for any given date depends on which chefs are available and what they genuinely cook well. We would rather tell you that than promise every cuisine.',
       'Dietary requirements are part of the menu design, not an exception handled at the end. Allergies, vegetarian and vegan guests, gluten requirements and halal requirements all change how a progression is built, and it is far easier to design around them than to substitute around them later.',
@@ -110,8 +110,8 @@ export const prose: ProseSection[] = [
     id: 'cooking-classes',
     h2: 'Sometimes You Should Be in the Kitchen Too',
     paragraphs: [
-      'A private cooking class is not a demonstration where a chef cooks while everybody sits and watches. The point is that your group is doing the work: handling the ingredients, making the mistakes, and eating the result.',
-      'That changes who it suits. It works for couples who want to do something together rather than sit opposite each other again, for families, for groups of friends, for visitors who want to take something home that is not a souvenir, and for teams who need an activity that is not another dinner.',
+      "A private cooking class is a hands-on session, with your group preparing ingredients, learning techniques and enjoying the meal you make together.",
+      "Classes can be planned for couples, families, friends, visitors and teams, with the cuisine and level of participation matched to the group.",
       'A session usually moves through the same shape: agree the cuisine and the dishes beforehand, meet the ingredients, watch the chef demonstrate the techniques that matter, cook the dishes yourselves with the chef working alongside you, and then sit down and eat what you made.',
       'What can be taught depends entirely on the chef, which is the point of the next section. Pasta, Japanese cooking and sushi, wider Asian cooking, Mediterranean and pastry are the kinds of subjects a specialist chef teaches well. The class is only as good as the person teaching it, so the subject is confirmed against a specific chef rather than promised in advance.',
     ],
@@ -121,7 +121,7 @@ export const prose: ProseSection[] = [
     id: 'specialist-experiences',
     h2: 'Learn From the Right Specialist',
     paragraphs: [
-      'A chef who cooks beautifully for a household every day is not automatically the right person to teach sushi. Those are different skills, and pretending otherwise is how experiences disappoint people.',
+      "We match teaching sessions to chefs with the relevant culinary and instructional skills, so the class suits both the cuisine and your group’s experience.",
       'Some experiences depend on depth in one thing: sushi and Japanese knife technique, pastry, Italian pasta made by hand, French technique, regional Indian cooking, live fire and barbecue. Depth like that takes years and it does not transfer sideways.',
       'So when an experience depends on specialist knowledge, the chef is selected around the experience rather than assigned from whoever is free that evening. If the right specialist is not available for your date, the honest answer is to say so and offer a different date or a different experience, not to send someone who will get through it.',
     ],
@@ -150,7 +150,7 @@ export const prose: ProseSection[] = [
     id: 'halal-dining',
     h2: 'Private Dining That Respects How You Eat',
     paragraphs: [
-      'Halal is not a checkbox added at the end of a menu. Where halal dining is required, it affects where ingredients are bought, how the menu is planned, and how the kitchen is handled on the day. That has to be agreed before the menu is written, not corrected afterwards.',
+      "Halal requirements are considered from the first menu conversation, including ingredient sourcing, preparation and service. Any specific documentation or controls are confirmed before the booking is agreed.",
       'Other requirements matter just as much and are not the same thing. Vegetarian and vegan guests, allergies, gluten requirements and other dietary needs each change the plan in their own way, and collapsing them into one "dietary requirements" line is how mistakes happen. Tell us what applies to which guest and the menu is built from there.',
     ],
     link: { href: EXPERIENCES_PATHS.halal, label: 'Explore Halal Private Dining in Dubai' },

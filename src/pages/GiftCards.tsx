@@ -85,7 +85,7 @@ export default function GiftCards() {
       <PageHero
         eyebrow="Dining experiences"
         title="We book the evening in their name"
-        subtitle="myCHEF does not issue stored-value gift cards, vouchers or a balance you can spend later. What we can do is take the booking for a private dinner, a tasting menu or a cooking class, hold the date, and let them choose the menu."
+        subtitle={"Give someone a private dinner, tasting menu or cooking class arranged in their name. We help coordinate a suitable date and let the recipient choose the menu. myCHEF currently offers arranged experiences rather than stored-value gift cards or vouchers."}
         image="/images/gift-cards-hero.webp"
         imageAlt="Guests at a chef-led dinner at home in Dubai. Experience concept shown."
         align="left"
@@ -106,10 +106,10 @@ export default function GiftCards() {
           <SectionLabel>WHAT WE CAN ISSUE, AND WHAT WE CANNOT</SectionLabel>
           <DisplayHeading className="text-black mb-6">There is no card. There is a booking.</DisplayHeading>
           <BodyCopy className="mb-5">
-            A stored-value gift card would be a product we do not currently sell. Pages that pretend otherwise are a trust problem. This one does not.
+            Choose an experience for the recipient, with the date, menu and price confirmed as part of the booking.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            If you want to give someone an evening, tell us who it is for, a date range that works, and roughly what the night should be: two people at home, a small tasting, a cooking class. We confirm the booking in their name. They still choose the menu.
+            Tell us who the experience is for, a suitable date range and the kind of occasion you have in mind. We can plan a dinner for two, a small tasting menu or a cooking class, then develop the menu with the recipient.
           </BodyCopy>
           <BodyCopy>
             That is the whole product. No digital voucher, no printed card, no 12-month balance, no corporate bulk SKU.

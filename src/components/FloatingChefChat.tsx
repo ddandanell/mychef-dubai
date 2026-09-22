@@ -31,7 +31,6 @@ const topicMap: Record<string, string> = {
   '/dubai-food-trends-report-2026': 'Dubai food trends',
   '/dubai-event-catering-price-guide-2026': 'event catering prices',
   '/guide/private-dining-dubai': 'private dining',
-  '/yacht-catering-checklist-dubai': 'yacht catering',
   '/wedding-catering-menu-planning-dubai': 'wedding menu planning',
   '/inquiry': 'your custom quote',
 }
@@ -99,7 +98,7 @@ export default function FloatingChefChat() {
         className="group relative max-w-[260px] sm:max-w-[300px] bg-white text-black rounded-2xl rounded-br-sm shadow-[0_8px_30px_rgba(0,0,0,0.25)] p-4 text-left cursor-pointer transition-transform hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
       >
         <span className="font-inter text-sm leading-relaxed">
-          Hey, can I help you? You want to know more about{' '}
+          Would you like to know more about{' '}
           <span className="font-medium text-gold-dark">{getTopic(pathname)}</span>?
         </span>
         <span className="block mt-2 font-inter text-xs text-gray-500">

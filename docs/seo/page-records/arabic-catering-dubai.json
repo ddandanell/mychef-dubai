@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/arabic-catering-dubai",
+  "path": "/arabic-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Cuisines and Dietary",
+  "purpose": "Help customers choose a cuisine or communicate dietary constraints.",
+  "keywords": {
+    "primary": "arabic catering dubai",
+    "secondary": [
+      "arabic catering dubai price",
+      "arabic catering cost per person dubai",
+      "best arabic catering dubai",
+      "arabic catering packages dubai",
+      "arabic catering menu dubai",
+      "lebanese catering dubai",
+      "middle eastern catering dubai",
+      "mezze catering dubai",
+      "catering arabic food dubai",
+      "dubai catering company list",
+      "corporate catering",
+      "arabian ranches dining"
+    ],
+    "primary_owner": "/arabic-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Arabic Catering Dubai | Mezze, Grill, Ouzi | myCHEF",
+    "description": "Arabic catering Dubai: mezze, charcoal grills, ouzi, Emirati and Levantine dishes. Chefs cook on site and clear the room. Send date, guests and venue.",
+    "h1": [
+      "Arabic Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/arabic-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/ArabicCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2328,
+    "current_word_count": 2302,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Shared plates, then the grill"
+      },
+      {
+        "level": "h2",
+        "text": "From Mezze to Ouzi"
+      },
+      {
+        "level": "h3",
+        "text": "Mezze Spreads"
+      },
+      {
+        "level": "h3",
+        "text": "Charcoal Grills"
+      },
+      {
+        "level": "h3",
+        "text": "Ouzi & Whole Lamb"
+      },
+      {
+        "level": "h3",
+        "text": "Emirati Specialities"
+      },
+      {
+        "level": "h3",
+        "text": "Levantine Classics"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Sweets"
+      },
+      {
+        "level": "h2",
+        "text": "Who this menu is for"
+      },
+      {
+        "level": "h3",
+        "text": "Weddings & Engagements"
+      },
+      {
+        "level": "h3",
+        "text": "Majlis & Villa Gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Iftar & Ramadan Events"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate & National Day"
+      },
+      {
+        "level": "h2",
+        "text": "What Arabic catering Dubai includes"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of Our Arabic Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Arabic Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What does your Arabic catering menu cover?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you prepare a whole-lamb ouzi for a wedding?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the meat halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater iftar and Ramadan gatherings?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer vegetarian and vegan options?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Arabic catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does Arabic catering cost per person in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in your Arabic catering price?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide the crockery, cutlery, chafing dishes, and setup for Arabic catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your Arabic catering fully licensed and food-safety compliant?"
+      },
+      {
+        "level": "h3",
+        "text": "Is all the meat in your Arabic menus halal?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum number of guests for Arabic catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a large Arabic wedding banquet in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer live cooking stations like shawarma and charcoal grills?"
+      },
+      {
+        "level": "h3",
+        "text": "Should we choose buffet or plated service for Arabic catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate vegetarian, vegan, and dietary requirements alongside the meat dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater iftar, suhoor, and Ramadan gatherings?"
+      },
+      {
+        "level": "h3",
+        "text": "Which areas of Dubai do you cover for Arabic catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Arabic catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide serving staff and waiters for Arabic events?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between Emirati and Levantine dishes on your Arabic menu?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you build a corporate or National Day Arabic spread for our office?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date, guest count and venue"
+      },
+      {
+        "level": "h2",
+        "text": "More in Cuisines and Dietary"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines"
+      },
+      {
+        "url": "/arabic-catering-dubai",
+        "anchor": "Arabic catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/cuisines-dubai",
+      "anchor": "Cuisines",
+      "alt_anchors": [
+        "multi cuisine catering dubai",
+        "multi cuisine catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/chefs/layla-middle-eastern-chef",
+        "anchor": "Layla — Arabic kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/mediterranean-catering-dubai",
+        "anchor": "Mediterranean catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/live-cooking-stations-dubai",
+        "anchor": "Shawarma station",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -110,7 +110,7 @@ export default function Catering() {
       <PageHero
         eyebrow="Catering Dubai"
         title="Catering Dubai — buffets, canapés and chef-led service"
-        subtitle="Catering Dubai is food for a night you already have a room for. Drop-off from AED 90 per person (10 guests, AED 900 minimum). A staffed buffet from AED 120, from 20 guests. Canapés from AED 150. Chef-led plated dining from AED 700. Yacht catering from AED 280. Add chefs, waiters and setup only when the room needs them. Complete event support is optional coordination you choose."
+        subtitle={"Catering in Dubai, tailored to your venue, guests and occasion. Drop-off menus start from AED 90 per person for 10 guests, with a minimum order of AED 900. Staffed buffets start from AED 120 for 20 guests, canapés from AED 150, bespoke plated dining from AED 700 and yacht catering from AED 280. Your proposal confirms staffing, setup and any optional event support."}
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
         imageWidth={cateringHero.width}
@@ -191,7 +191,7 @@ export default function Catering() {
           <SectionLabel tone="dark">PRICING</SectionLabel>
           <DisplayHeading className="text-white mb-6">Catering pricing in Dubai</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated. A catering service in Dubai on this page is that food, the staff and the clear-down in one brief, not a tray left at the door.
+            Compare published starting prices, clearly identified market ranges and the calculator’s indicative estimate. Your chosen format determines the menu and staffing required; the written proposal confirms the complete scope and total.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.
@@ -238,8 +238,7 @@ export default function Catering() {
             people is usually cheaper as a household visit: twelve guests at AED 700 a head is AED 8,400 of plated
             dining with a service team, while one Full-Day{' '}
             <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
-            is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs: pick the
-            one that matches the night, not the smaller number.
+            is AED 1,500 plus groceries for a household service day. Choose the service that matches your needs, with event staffing and presentation quoted separately.
           </p>
           <div className="flex flex-wrap gap-6">
             <Link
@@ -281,14 +280,10 @@ export default function Catering() {
             for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count only
             decides how big the team is. As a rule of thumb: for a seated dinner under about 20, start on{' '}
             <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4">private chef prices</Link>
-            : you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a
-            running order, you are in the right place.
+            covers regular cooking for the household. A party, buffet, bar or timed event uses a separate catering brief.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            The arithmetic is worth knowing before you choose. Twelve people at AED 700 a head is AED 8,400 of
-            chef-led plated dining, designed and staffed for the evening. One Full-Day private chef is AED 1,500 plus
-            groceries, cooking for the household: no service team, no plating for a room, no running order. They are
-            different jobs, and the cheaper number is not automatically the right one.
+            For example, bespoke plated dining for 12 guests at AED 700 per person totals AED 8,400 before VAT and any agreed extras. A Full-Day household chef visit is AED 1,500 plus groceries and has a different scope. Compare the staffing, presentation and service required for your occasion before choosing.
           </BodyCopy>
           <Link
             to="/private-chef-dubai"
@@ -428,7 +423,7 @@ export default function Catering() {
         <Container>
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">You do not need to choose this before speaking with us</DisplayHeading>
-          <BodyCopy className="mb-12">These are formats we can build around your event. Each line opens the page that owns that format.</BodyCopy>
+          <BodyCopy className="mb-12">Explore the menu and service details for each catering format below.</BodyCopy>
           <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
             {serviceStyles.map((style) => (
               <Link
@@ -493,9 +488,9 @@ export default function Catering() {
       <Section id="examples" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Event formats we have run</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Illustrative event formats</DisplayHeading>
           <BodyCopy className="mb-12">
-            Client names stay private. Location, guest range, format and outcome are from events already described on our{' '}
+            These examples show how a menu and service could be arranged. Guest counts and settings are illustrative, rather than documented client results. Explore more on our{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>{' '}
@@ -569,7 +564,7 @@ export default function Catering() {
           <BodyCopy className="mb-5">
             We do not need to replace them. If you already have a venue, wedding planner, event organiser, decorator, AV company, photographer, florist or rental company, we can coordinate our part of the catering around them.
           </BodyCopy>
-          <BodyCopy>The objective is not for myCHEF to own every supplier. The objective is for the event to work.</BodyCopy>
+          <BodyCopy>We coordinate the catering with your chosen suppliers so the agreed food and service plan works smoothly.</BodyCopy>
         </Container>
       </Section>
 

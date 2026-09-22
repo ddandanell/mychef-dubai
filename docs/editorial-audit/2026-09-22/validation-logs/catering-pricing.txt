@@ -1,0 +1,38 @@
+PASS  price kinds: got {"from":"from","typicalRange":"indicative market","calculatorEstimate":"from"}
+PASS  canapé from (hub floor): got 150
+PASS  canapé typical: got [180,350]
+PASS  canapé calculator start matches hub floor: got 150
+PASS  canapé min guests: got 10
+PASS  buffet from (hub floor): got 120
+PASS  buffet typical: got [220,420]
+PASS  buffet calculator start matches hub floor: got 120
+PASS  buffet min guests (calculator and hub): got 20
+PASS  buffet hub event min: got 20
+PASS  plated from: got 700
+PASS  plated typical: got [700,950]
+PASS  plated calculator start matches hub floor: got 700
+PASS  drop-off from: got 90
+PASS  drop-off min guests: got 10
+PASS  drop-off min order: got 900
+PASS  labels: got ["From AED 150 per person","Indicative market AED 180–350","From AED 150 per person"]
+PASS  collapsed typical is hidden: got ""
+PASS  drop-off hub price is the floor only: got "From AED 90 per person."
+PASS  drop-off hub typical is empty: got ""
+PASS  drop-off hub does not print 90–90: got false
+PASS  buffet at 10 guests is refused: got false
+PASS  buffet refusal min: got 20
+PASS  buffet at 15 is refused: got false
+PASS  buffet at 20 is quoted: got true
+PASS  buffet start per person: got 120
+PASS  buffet total low: got 2400
+PASS  canapés at 10 is quoted: got true
+PASS  canapé start per person: got 150
+PASS  clamp 10 on buffet → 20: got 20
+PASS  clamp 20 on buffet stays 20: got 20
+PASS  event package floors: got [["date-night",1200,"2 guests"],["family-feast",2400,"6–8 guests"],["birthday",3600,"8–12 guests"],["corporate-dinner",4500,"10–15 guests"],["full-experience",5500,"6–10 guests"]]
+PASS  household chef rates stay out of catering config: got false
+PASS  premium hub cell is the shared from-floor: got "From AED 150 per person"
+PASS  premium hub cell does not steal canapé estimate 280: got false
+PASS  premium hub cell does not steal canapé typical 180–350: got false
+
+ALL PASS

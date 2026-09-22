@@ -19,7 +19,7 @@ const config: ServicePageConfig = {
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange a gelato or dessert cart in Dubai (via mychef.ae/dessert-cart-dubai)',
   eyebrow: 'GELATO & DESSERT CART IN DUBAI',
-  introH2: 'A cart is a station, not a second URL',
+  introH2: "A dessert station with a distinctive presentation",
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

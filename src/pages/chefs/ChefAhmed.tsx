@@ -15,7 +15,7 @@ const chef: ChefProfileData = {
   cuisine: 'Modern European and French technique',
   image: '/team-head-chef.webp',
   imageAlt: 'Chef Ahmed Al-Rashid, independent partner chef in the myCHEF Dubai network',
-  bio: 'Ahmed Al-Rashid is an independent partner chef in the myCHEF Dubai network. Classical French technique, cooked in Dubai homes, villas and yachts, and on corporate dinners when the brief is plated. He writes the menu with the host: what this table eats, how the courses should land, and how the kitchen is left. Anniversary dinners, villa celebrations and boardroom lunches are the usual nights. You approve the profile before anyone starts. We do not publish years of experience.',
+  bio: "Ahmed Al-Rashid is an independent partner chef in the myCHEF Dubai network, with an approach grounded in classical French technique. His menus suit private dinners, villa celebrations and plated company occasions. The meal is planned with you around your preferences, kitchen and service timing, and his availability is confirmed before booking.",
   specialties: [
     'French Technique',
     'Menu Design',
@@ -26,7 +26,7 @@ const chef: ChefProfileData = {
   sampleMenus: [
     {
       title: 'Modern European Tasting',
-      description: 'Seven courses built around seasonal produce and the proteins this table asked for.',
+      description: 'Six courses combining seasonal produce with a balanced progression of flavours.',
       items: [
         'Amuse-bouche of chilled cucumber and yuzu',
         'Seared scallop with cauliflower purée',

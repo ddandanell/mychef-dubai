@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/institutional-catering-dubai",
+  "path": "/institutional-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Hub",
+  "silo": "Institutional Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "institutional catering dubai",
+    "secondary": [
+      "education catering dubai",
+      "healthcare catering dubai",
+      "staff canteen dubai",
+      "early years catering dubai",
+      "patient meal services dubai",
+      "corporate canteen catering dubai",
+      "nut-free institutional meals dubai",
+      "documented catering kitchen dubai"
+    ],
+    "primary_owner": "/institutional-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Institutional Catering Dubai | Schools & Hospitals | myCHEF",
+    "description": "Institutional catering Dubai for nurseries, schools, hospitals and canteens. Documented kitchens, a quote after we see the site.",
+    "h1": [
+      "Institutional Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/institutional-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/InstitutionalLanding.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/institutionalCateringPage.tsx",
+    "src/content/institutionalCluster.ts",
+    "src/content/institutionalLandingTypes.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/InstitutionalCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 896,
+    "current_word_count": 905,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Institutional catering Dubai is a documented kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Four sites. Four pages. One standard."
+      },
+      {
+        "level": "h3",
+        "text": "Nurseries"
+      },
+      {
+        "level": "h3",
+        "text": "Schools"
+      },
+      {
+        "level": "h3",
+        "text": "Hospitals and clinics"
+      },
+      {
+        "level": "h3",
+        "text": "Staff canteens"
+      },
+      {
+        "level": "h3",
+        "text": "Documented kitchens"
+      },
+      {
+        "level": "h3",
+        "text": "A walk before a number"
+      },
+      {
+        "level": "h2",
+        "text": "Open the page that owns the site"
+      },
+      {
+        "level": "h2",
+        "text": "Papers every institutional kitchen should be able to open"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps on every child page"
+      },
+      {
+        "level": "h2",
+        "text": "How an institutional quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "Read the page that matches the site"
+      },
+      {
+        "level": "h3",
+        "text": "Nursery catering"
+      },
+      {
+        "level": "h3",
+        "text": "School catering"
+      },
+      {
+        "level": "h3",
+        "text": "Hospital catering"
+      },
+      {
+        "level": "h3",
+        "text": "Canteen management"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking institutional catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this the same as office catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you have a from-price?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you on My School Food?"
+      },
+      {
+        "level": "h3",
+        "text": "Which page should a school open?"
+      },
+      {
+        "level": "h3",
+        "text": "Institutional kitchens across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us the kind of site"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "Institutional catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": [
+        "catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "alt_anchors": []
+      }
+    ],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/dubai-school-food-rules-2026",
+        "anchor": "Dubai school food rules 2026",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

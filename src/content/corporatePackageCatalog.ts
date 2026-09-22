@@ -43,7 +43,7 @@ export type CorporatePackage = {
 }
 
 const DIETARY =
-  'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. This is not a medical or allergen-free promise.'
+  "Halal ingredients are the default, with vegetarian, vegan and gluten-free options planned around your brief. Please discuss allergies separately so kitchen controls and any remaining cross-contact risk can be assessed."
 const NOTICE_OFFICE = 'A few days is usually enough for a repeating drop-off. Headcount deadline is confirmed in the proposal.'
 const NOTICE_EVENT = 'Two to four weeks is comfortable for a staffed event. Earlier between November and March.'
 const TAX = '5% VAT is shown as its own line. Figures on this page are before VAT unless labelled.'

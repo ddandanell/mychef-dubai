@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/tasting-menu-dubai",
+  "path": "/tasting-menu-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Dining Experiences",
+  "purpose": "Sell a distinct private dining or learning occasion.",
+  "keywords": {
+    "primary": "private tasting menu dubai",
+    "secondary": [
+      "private chef tasting menu dubai",
+      "tasting menu dubai price",
+      "private chef tasting menu price per person dubai",
+      "tasting menu packages dubai",
+      "halal tasting menu dubai",
+      "tasting menu at home dubai",
+      "private chef set menu dubai",
+      "chef tasting menu dubai",
+      "tasting menu courses",
+      "tasting menu birthday dubai",
+      "degustation menu dubai private",
+      "private jet catering menu prices"
+    ],
+    "primary_owner": "/tasting-menu-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Tasting Menu Dubai | myCHEF",
+    "description": "A private tasting menu in Dubai at your table: courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table.",
+    "h1": [
+      "Private tasting menu Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/tasting-menu-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/TastingMenu.tsx",
+    "src/pages/shared/ServiceLandingPage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1089,
+    "current_word_count": 1068,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A private tasting menu Dubai, cooked at your table"
+      },
+      {
+        "level": "h2",
+        "text": "Tasting menu formats"
+      },
+      {
+        "level": "h3",
+        "text": "Multi-course tasting menus"
+      },
+      {
+        "level": "h3",
+        "text": "Interactive chef’s table"
+      },
+      {
+        "level": "h3",
+        "text": "Villa and residence tastings"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate chef’s table"
+      },
+      {
+        "level": "h3",
+        "text": "Celebration tasting dinners"
+      },
+      {
+        "level": "h3",
+        "text": "Group tasting menus"
+      },
+      {
+        "level": "h2",
+        "text": "When a tasting menu is the right format"
+      },
+      {
+        "level": "h3",
+        "text": "Anniversary dinners at home"
+      },
+      {
+        "level": "h3",
+        "text": "Client and leadership dinners"
+      },
+      {
+        "level": "h3",
+        "text": "Small milestone tables"
+      },
+      {
+        "level": "h3",
+        "text": "Trying a cuisine at home"
+      },
+      {
+        "level": "h2",
+        "text": "What a tasting menu booking includes"
+      },
+      {
+        "level": "h2",
+        "text": "From the table"
+      },
+      {
+        "level": "h2",
+        "text": "The questions we get before a tasting menu booking"
+      },
+      {
+        "level": "h3",
+        "text": "How many courses are in a typical tasting menu?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the menu be customised to my preferences?"
+      },
+      {
+        "level": "h3",
+        "text": "Where can a chef’s table take place?"
+      },
+      {
+        "level": "h3",
+        "text": "How many guests can a chef’s table accommodate?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide drinks pairing?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a tasting menu?"
+      },
+      {
+        "level": "h3",
+        "text": "How is the private chef set menu Dubai put together?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Tasting Menu across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date, the headcount and how you eat"
+      },
+      {
+        "level": "h2",
+        "text": "More in Dining Experiences"
+      }
+    ],
+    "baseline_findings": [
+      "F12"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining"
+      },
+      {
+        "url": "/tasting-menu-dubai",
+        "anchor": "Private chef tasting menu",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+        "luxury dining experiences dubai",
+        "luxury dining experiences"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/chefs-table-dubai",
+        "anchor": "Chefs table",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-cooking-classes-dubai",
+        "anchor": "Private cooking classes",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -157,7 +157,7 @@ const faqs = [
     q: 'How far in advance should we book?',
     a: 'For most baby showers, one to two weeks is ideal. For larger or heavily themed events, we recommend two to three weeks. During peak season (November to March), earlier booking is advised.',
   },
-  { q: "How much does baby shower catering in Dubai cost?", a: "Baby shower catering in Dubai is priced by custom quote, because the cost depends on your guest count, the format you choose (grazing table, canapes, afternoon tea, or dessert display), and how much styling you want. Share your date, guest number, and theme and we'll send a clear, itemised proposal, usually within 15 minutes during business hours. All quotes include 5% VAT so there are no surprises later. For a fuller breakdown you can also read our [private chef prices guide](/private-chef-dubai/pricing)." },
+  { q: "How much does baby shower catering in Dubai cost?", a: "Baby shower catering in Dubai is priced by custom quote, because the cost depends on your guest count, the format you choose (grazing table, canapes, afternoon tea, or dessert display), and how much styling you want. Share your date, guest number, and theme and we typically acknowledge your enquiry within 15 minutes during business hours. An itemised proposal follows once the requirements are reviewed. All quotes include 5% VAT so there are no surprises later. For a fuller breakdown you can also read our [private chef prices guide](/private-chef-dubai/pricing)." },
   { q: "What exactly is included in the price?", a: "Every baby shower package includes menu design, ingredient sourcing and shopping, on-site cooking or assembly, styling and plating, and full cleanup afterwards. In other words, we handle the whole spread from start to finish so the hosts can enjoy the day. Serving staff can be added when you want a fully hosted table, and that's noted separately in your quote." },
   { q: "Is there a minimum spend or minimum guest count?", a: "We cater baby showers of almost any size, from an intimate gathering of around ten guests to larger celebrations of fifty or more. There's no rigid one-size rule; instead we build the menu and quantities around your actual guest list so nothing is wasted. Just tell us your numbers and we'll advise on the right format and portions." },
   { q: "Do you cook fresh on-site or deliver the food?", a: "For most baby showers we arrive early, style the grazing and dessert tables in your space, and prepare fresh where the menu calls for it. Some elegant cold items and dessert displays are beautifully assembled on-site rather than cooked, which keeps everything looking pristine for photos. Either way, our team sets up, replenishes, and cleans up so your kitchen stays untouched." },
@@ -335,7 +335,7 @@ export default function BabyShowerCatering() {
             Baby Shower Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bsc-hero-sub">
-            Baby shower catering Dubai: grazing tables, canapés, afternoon-tea menus, dessert displays and mocktails, styled to your theme. Alcohol-free by default. You host; we cook, style and clear down.
+            Baby shower catering in Dubai, with grazing tables, delicate canapés, afternoon tea and dessert displays coordinated with your theme. Alcohol-free drinks and thoughtful service complete the celebration.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Plan My Baby Shower</Link>
@@ -362,7 +362,7 @@ export default function BabyShowerCatering() {
             Baby shower catering Dubai: light food, styled to the theme
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A baby shower is a daytime sitting. The food should be easy to eat while people are talking: grazing tables, canapés, afternoon-tea bites and a dessert display, styled around the colours you have chosen.
+            A baby shower calls for food that is easy to enjoy while guests mingle. Choose grazing tables, canapés, afternoon tea or a dessert display, with colours, presentation and portions planned around your celebration.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

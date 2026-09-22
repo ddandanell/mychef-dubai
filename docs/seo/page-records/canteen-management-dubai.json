@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/canteen-management-dubai",
+  "path": "/canteen-management-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Institutional Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "canteen management dubai",
+    "secondary": [
+      "staff canteen management dubai",
+      "canteen setup dubai",
+      "corporate canteen catering dubai",
+      "office cafeteria management dubai",
+      "canteen catering services dubai",
+      "staff canteen dubai",
+      "cashless canteen dubai",
+      "outsource canteen catering dubai"
+    ],
+    "primary_owner": "/canteen-management-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Canteen Management Dubai | Food, Not Software | myCHEF",
+    "description": "Canteen management Dubai is food, staff and a kitchen: not a POS app. Setup, staffing and a quote after we walk the room.",
+    "h1": [
+      "Canteen Management Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/canteen-management-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/InstitutionalLanding.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/canteenManagementPage.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/institutionalCluster.ts",
+    "src/content/institutionalLandingTypes.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/CanteenManagement.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1297,
+    "current_word_count": 1307,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Canteen management Dubai is food, not a till app."
+      },
+      {
+        "level": "h2",
+        "text": "Setup, staffing, a cycle: then optional tech"
+      },
+      {
+        "level": "h3",
+        "text": "Walk the room before the deck"
+      },
+      {
+        "level": "h3",
+        "text": "People on the line"
+      },
+      {
+        "level": "h3",
+        "text": "A cycle people finish"
+      },
+      {
+        "level": "h3",
+        "text": "Three commercial models"
+      },
+      {
+        "level": "h3",
+        "text": "Cashless if you want it"
+      },
+      {
+        "level": "h3",
+        "text": "Not a weekday drop-off"
+      },
+      {
+        "level": "h2",
+        "text": "How canteen management Dubai is usually paid for"
+      },
+      {
+        "level": "h2",
+        "text": "A canteen is a food establishment"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. Facilities sees the drawing."
+      },
+      {
+        "level": "h2",
+        "text": "How a canteen quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "The line is the product"
+      },
+      {
+        "level": "h3",
+        "text": "Office lunch without a canteen"
+      },
+      {
+        "level": "h3",
+        "text": "School meal programmes"
+      },
+      {
+        "level": "h3",
+        "text": "Hospital staff dining"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking canteen management in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this a cashless canteen system?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does canteen management cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you set up a staff canteen from an empty room?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this the same as office catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you run school canteens?"
+      },
+      {
+        "level": "h3",
+        "text": "What about outsource vs in-house?"
+      },
+      {
+        "level": "h3",
+        "text": "Will food sit next to laptops?"
+      },
+      {
+        "level": "h3",
+        "text": "How soon can you start?"
+      },
+      {
+        "level": "h3",
+        "text": "Staff canteens across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Site, covers and whether the kitchen exists"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "Institutional catering"
+      },
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

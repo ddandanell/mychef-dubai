@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/trust-and-programs",
+  "path": "/trust-and-programs",
+  "role": "indexable page",
+  "page_type": "Utility / untargeted",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF Service Standards & Support",
+    "description": "How myCHEF works behind the booking: chef certification, quality guarantee, booking protection, membership, loyalty and referral programmes, and how to join us.",
+    "h1": [
+      "Trust and Programs"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/trust-and-programs",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/hubPages.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/TrustAndPrograms.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 288,
+    "current_word_count": 278,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Everything That Sits Behind the Booking"
+      },
+      {
+        "level": "h2",
+        "text": "myCHEF Certified"
+      },
+      {
+        "level": "h2",
+        "text": "Quality Guarantee"
+      },
+      {
+        "level": "h2",
+        "text": "Booking Protection"
+      },
+      {
+        "level": "h2",
+        "text": "myCHEF Membership"
+      },
+      {
+        "level": "h2",
+        "text": "Loyalty Programme"
+      },
+      {
+        "level": "h2",
+        "text": "Referral Programme"
+      },
+      {
+        "level": "h2",
+        "text": "Founding Customer Offer"
+      },
+      {
+        "level": "h2",
+        "text": "Become a myCHEF Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Partner With Us"
+      },
+      {
+        "level": "h2",
+        "text": "Influencer Partnerships"
+      },
+      {
+        "level": "h2",
+        "text": "More in Trust and About"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/trust-and-programs",
+        "anchor": "Trust and programs",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/quality-guarantee-dubai",
+        "anchor": "Catering quality guarantee",
+        "alt_anchors": []
+      },
+      {
+        "url": "/booking-protection-insurance",
+        "anchor": "Catering cancellation policy",
+        "alt_anchors": []
+      },
+      {
+        "url": "/loyalty-programme",
+        "anchor": "Mychef loyalty programme",
+        "alt_anchors": []
+      },
+      {
+        "url": "/mychef-membership",
+        "anchor": "Mychef membership",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

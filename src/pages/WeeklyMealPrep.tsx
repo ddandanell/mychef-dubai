@@ -320,7 +320,7 @@ export default function WeeklyMealPrep() {
             Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
-            Meal prep Dubai households book is four hours in your kitchen, AED 900 a visit: breakfast cooked fresh, the rest packed for later. Groceries at receipts. VAT 5%.
+            Meal prep in Dubai, cooked in your own kitchen. A four-hour Food Prep visit is AED 900, with meals prepared and packed for later and groceries charged at actual cost. The service is subject to 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get My Meal Prep Quote</Link>
@@ -348,7 +348,7 @@ export default function WeeklyMealPrep() {
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Meal prep Dubai is not a courier brand. A private chef meal prep Dubai visit is the Food Prep job: four hours, AED 900, in your kitchen. Breakfast cooked fresh if you want it, then lunch, dinner and the rest packed for later. Groceries at actual receipts. VAT at 5% on the service.
+              Meal prep in Dubai can be prepared at home by a private chef. The four-hour Food Prep service is AED 900 per visit, covering agreed meals for the days ahead and a freshly prepared breakfast if requested. Groceries are charged at actual cost, with 5% VAT on the service.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               If you are comparing a best meal prep delivery Dubai tray, check three things: a named chef, an itemised figure, and who buys the ingredients. A meal prep chef Dubai, a batch cooking service Dubai, and personal chef meal prep Dubai are the same booking. Family meal prep Dubai follows this house. A kids meal prep service sits on the children’s page when the brief is school boxes.
@@ -360,7 +360,7 @@ export default function WeeklyMealPrep() {
               For strict allergen protocols, see our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>. For a standing cook most days, start at <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>. One dinner is catering, not this page.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Comparing weekly prep with a chef five days a week? Read <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
+              Comparing weekly prep with a chef five days a week? Explore <Link to="/full-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">full-time chef plans in Dubai</Link>.
             </p>
           </div>
         </div>

@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/wedding-catering-checklist-dubai",
+  "path": "/wedding-catering-checklist-dubai",
+  "role": "indexable page",
+  "page_type": "Guide / comparison",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "wedding catering checklist dubai",
+    "secondary": [
+      "how to plan wedding catering dubai",
+      "wedding catering questions to ask",
+      "wedding catering timeline dubai",
+      "how much food for a wedding dubai",
+      "catering contract wedding checklist",
+      "checklist for catering event",
+      "wedding catering services in dubai",
+      "afternoon tea wedding catering"
+    ],
+    "primary_owner": "/wedding-catering-checklist-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Wedding Catering Checklist Dubai | myCHEF",
+    "description": "A wedding catering checklist Dubai: when to book, tasting timeline, community gates, hotel rules, alcohol licences and day-of service. Print it. No prices.",
+    "h1": [
+      "Wedding Catering Checklist Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/wedding-catering-checklist-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/content/weddingChecklistPage.ts",
+    "src/content/weddingCluster.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/WeddingCateringChecklist.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2040,
+    "current_word_count": 2035,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A sequence, not a brochure"
+      },
+      {
+        "level": "h2",
+        "text": "What to send so we can answer honestly"
+      },
+      {
+        "level": "h2",
+        "text": "We are not the wedding planner"
+      },
+      {
+        "level": "h2",
+        "text": "The meal, named in order"
+      },
+      {
+        "level": "h2",
+        "text": "When to book a wedding caterer: and what happens after"
+      },
+      {
+        "level": "h2",
+        "text": "As soon as the date is real"
+      },
+      {
+        "level": "h2",
+        "text": "Three to six months before"
+      },
+      {
+        "level": "h2",
+        "text": "Tasting window"
+      },
+      {
+        "level": "h2",
+        "text": "Four to two weeks before"
+      },
+      {
+        "level": "h2",
+        "text": "Seven to fourteen days before"
+      },
+      {
+        "level": "h2",
+        "text": "Day of"
+      },
+      {
+        "level": "h2",
+        "text": "Wedding catering questions to ask before you hold the date"
+      },
+      {
+        "level": "h2",
+        "text": "Gates, hotels, licences"
+      },
+      {
+        "level": "h2",
+        "text": "Gated communities"
+      },
+      {
+        "level": "h2",
+        "text": "Hotels"
+      },
+      {
+        "level": "h2",
+        "text": "Alcohol at a villa"
+      },
+      {
+        "level": "h2",
+        "text": "DET and CID"
+      },
+      {
+        "level": "h2",
+        "text": "Cost, menus, and the commercial page"
+      },
+      {
+        "level": "h2",
+        "text": "Wedding catering timeline questions"
+      },
+      {
+        "level": "h3",
+        "text": "When should I book a wedding caterer in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is a realistic wedding catering timeline in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "When is the wedding tasting?"
+      },
+      {
+        "level": "h3",
+        "text": "What questions should we ask a wedding caterer in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do we need a wedding planner if we use myCHEF?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you work on short notice?"
+      },
+      {
+        "level": "h3",
+        "text": "How much food for a wedding Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How to plan wedding catering Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the brief. We will tell you if the team is free."
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/wedding-catering-checklist-dubai",
+        "anchor": "Wedding catering checklist",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/wedding-catering-dubai",
+        "anchor": "Wedding catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/wedding-catering-menu-planning-dubai",
+        "anchor": "Wedding menu planning",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/wedding-catering-cost-dubai",
+        "anchor": "Wedding catering cost",
+        "alt_anchors": []
+      },
+      {
+        "url": "/buffet-vs-plated-dubai",
+        "anchor": "Buffet vs plated",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/wedding-catering-dubai",
+        "anchor": "Wedding catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

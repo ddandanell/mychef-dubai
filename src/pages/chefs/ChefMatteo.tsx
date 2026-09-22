@@ -16,7 +16,7 @@ const chef: ChefProfileData = {
   cuisine: 'Patisserie and plated desserts',
   image: '/team-pastry-chef.webp',
   imageAlt: 'Chef Matteo Moretti, independent partner pastry chef in the myCHEF Dubai network',
-  bio: 'Matteo Moretti is a private pastry chef Dubai hosts book through myCHEF: an independent partner chef, employed by a licensed supplier. Hire a pastry chef Dubai for plated desserts, a dessert chef for private event Dubai nights, or a pastry chef for events Dubai when the brief is a dessert table or a wedding cake. Dessert chef Dubai, here, is the last course cooked in your kitchen or plated for a party, then clear-down. You approve the profile before anyone starts. We do not publish years of experience.',
+  bio: "Matteo Moretti is a private pastry chef in Dubai, working through a licensed culinary partner. His work includes plated desserts, celebration cakes and dessert tables for private occasions. We develop the selection and presentation around your event, with the chef profile, availability and service requirements confirmed before booking.",
   specialties: [
     'Chocolate Work',
     'Sugar Art',

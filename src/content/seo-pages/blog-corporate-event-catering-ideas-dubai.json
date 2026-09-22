@@ -1,168 +1,61 @@
 {
   "url": "/blog/corporate-event-catering-ideas-dubai",
-  "keyword_strategy": {
-    "main_keyword": "corporate event catering ideas dubai",
-    "main_keyword_placed_in": {
-      "title": true,
-      "h1": true,
-      "meta_description": true,
-      "opening_paragraph": true
-    },
-    "subkeywords_total": 7,
-    "subkeywords_carried": 7,
-    "coverage_percent": 100,
-    "subkeywords_carried_list": [
-      "office party food ideas dubai",
-      "corporate lunch ideas dubai",
-      "small corporate event catering ideas dubai",
-      "event catering menu ideas",
-      "what is event catering",
-      "best catering format for corporate event dubai",
-      "event catering ideas"
-    ],
-    "subkeywords_not_carried": [],
-    "note": "Primary in title, H1, opening and one H2. Subkeywords sit in sentences. Owner URLs are linked, not restated as if this article sold the service.",
-    "focus_keyword": "corporate event catering ideas dubai"
-  },
-  "how_to_apply": "HandoffPage renders head, opening_paragraph, replace_in_block and add_block. Keep image after_heading strings stable.",
   "head": {
-    "title": "Corporate Event Catering Ideas Dubai | myCHEF Journal",
-    "meta_description": "Corporate event catering ideas Dubai: match the day to drop-off, canapés, buffet or a seated dinner, with starting prices and the booking page for each job.",
-    "h1": "Corporate Event Catering Ideas Dubai"
+    "title": "Corporate Event Catering Ideas Dubai | myCHEF",
+    "h1": "Corporate Event Catering Ideas Dubai",
+    "meta_description": "Corporate event catering ideas for Dubai meetings, launches and celebrations. Compare menus, service styles, starting prices and practical venue needs."
   },
   "opening_paragraph": [
-    "Corporate event catering ideas in Dubai start with the job of the day, not a mood board. A working lunch is not a gala. A canapé reception is not a board dinner. Drop-off food starts from AED 90 per person. A staffed buffet starts from AED 120. Canapés and live stations start from AED 150. A chef cooking at the table is AED 700 to 950 per person. Book on the service page that matches the day. This article is the idea list."
+    "Corporate event catering ideas in Dubai work best when they follow the purpose of the day. A working lunch, product launch and awards dinner each need a different rhythm. Choose food that supports the conversation, schedule and level of hospitality you want to offer."
   ],
   "replace_in_block": [
     {
-      "block_on_your_page": "What makes corporate event catering ideas in Dubai work?",
-      "match_confidence": 1,
-      "new_heading": "What makes corporate event catering ideas in Dubai work?",
+      "block_on_your_page": "Working lunches and board meetings",
+      "new_heading": "Working lunches and board meetings",
       "new_paragraphs": [
-        "Name the job before you name the food. Feed people between meetings, get them talking, or mark an occasion. Event catering is the catering operation around that job: menu, chefs, service staff, equipment, setup and clearance. It is not AV, staging, venue hire or entertainment.",
-        "The best catering format for a corporate event in Dubai is the one the room can physically support. A floor with one service lift cannot run the same service as a dining room with a working kitchen. Once the job and the room are clear, headcount, dietary notes and budget follow."
+        "Labelled individual meals or sharing platters can keep a meeting moving. Confirm the break length, where food will be placed and how drinks and used dishes will be managed. For a client lunch, a staffed plated menu offers more structured table service."
       ]
     },
     {
-      "block_on_your_page": "Office catering ideas for team lunches and daily meetings",
-      "match_confidence": 1,
-      "new_heading": "Office catering ideas for team lunches and daily meetings",
+      "block_on_your_page": "Launches and networking receptions",
+      "new_heading": "Launches and networking receptions",
       "new_paragraphs": [
-        "Corporate lunch ideas in Dubai for a known team are usually drop-off: labelled boxes or platters, laid out, your people serve themselves. That is the AED 90 floor, minimum 10 guests and AED 900. Recurring weeks are billed on the actual service days.",
-        "A small corporate event catering idea that still belongs on the office page is a staffed meeting buffet from AED 120 per person, minimum 20 guests. One-off parties are not office catering. They sit on corporate event catering."
+        "Passed canapés let guests move around the room while they talk. Plan a balanced selection, enough service staff to reach the whole space and a pause around any reveal or speech. Live stations can create interest if the venue permits the necessary equipment."
       ]
     },
     {
-      "block_on_your_page": "Ideas for launches, activations and corporate parties",
-      "match_confidence": 1,
-      "new_heading": "Ideas for launches, activations and corporate parties",
+      "block_on_your_page": "Celebrations and awards",
+      "new_heading": "Celebrations and awards",
       "new_paragraphs": [
-        "Office party food ideas in Dubai that keep people standing are passed canapés, about 8 to 12 pieces per guest over 90 minutes, from AED 150 per person. Nothing that needs a knife. The team can pause for a speech or a reveal.",
-        "Event catering ideas for a launch or brand moment use the same canapé starting price. Food supports the product while guests meet and mingle. Alcohol is only where the venue is licensed and it is agreed in writing."
+        "A buffet gives a larger group choice and flexibility. A plated dinner provides a clear sequence of courses, which can be scheduled around presentations. Discuss service aisles, dietary plates and how the kitchen will communicate with the event manager."
       ]
     },
     {
-      "block_on_your_page": "Client dinners, galas and company events",
-      "match_confidence": 1,
-      "new_heading": "Client dinners, galas and company events",
+      "block_on_your_page": "Compare the relevant price format",
+      "new_heading": "Compare the relevant price format",
       "new_paragraphs": [
-        "A table of 10 to 15 is the corporate dinner package: AED 4,500 for the event, not multiplied by headcount, with chef and service staff sized to that table. Outside that range, chef-led plated dining is AED 700 to 950 per person.",
-        "A seated gala is a different clock: courses timed to speeches, staffed buffet or plated service, wine only where the licence allows it. Do not treat a 200-person banquet as if it were the 10 to 15 package."
+        "myCHEF drop-off menus start from AED 90 per person, staffed buffets from AED 120 and canapés or live stations from AED 150. Bespoke chef-led plated dining is AED 700–950 per person. Minimums, staffing, venue requirements and 5% VAT must be checked in the written proposal."
       ]
     },
     {
-      "block_on_your_page": "Corporate catering menu ideas: what to put on the table",
-      "match_confidence": 1,
-      "new_heading": "Event catering menu ideas that survive a mixed room",
+      "block_on_your_page": "Confirm the complete proposal",
+      "new_heading": "Confirm the complete proposal",
       "new_paragraphs": [
-        "Event catering menu ideas that work in Dubai assume a mixed room. Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. This is not a medical or allergen-free promise.",
-        "A working lunch wants one labelled main, a salad and fruit. A reception wants bites that finish in two mouthfuls. A seated dinner wants courses that can pause. Build the menu around the format, not around a cuisine list."
+        "Compare the complete service, including the menu, guest count, preparation, staffing, equipment, delivery and clear-down. A per-person price is useful only when the inclusions are clear. Ask which elements are fixed and which can change if your plans change.",
+        "Share allergies and other dietary requirements before confirming. The culinary partner should explain the preparation arrangements and any remaining cross-contact risk. Review the payment schedule, cancellation terms and change deadlines in your written booking."
       ]
     },
     {
-      "block_on_your_page": "How much does corporate catering cost in Dubai?",
-      "match_confidence": 1,
-      "new_heading": "How much these ideas usually cost",
+      "block_on_your_page": "Prepare a useful enquiry",
+      "new_heading": "Prepare a useful enquiry",
       "new_paragraphs": [
-        "Advertised floors: drop-off from AED 90 per person, staffed buffet from AED 120, canapés and live stations from AED 150, chef-led plated from AED 700 to 950 per person. The AED 4,500 corporate dinner package is a whole-event price for 10 to 15 guests.",
-        "Volume drop-off starts at 10 guests. A buffet starts at 20. Minimum order on drop-off is AED 900. 5% VAT is a separate line. Unusual venue access is quoted separately. A quote that hides staff, delivery or equipment is not cheaper. It is less complete."
-      ]
-    },
-    {
-      "block_on_your_page": "Choosing a corporate catering company and getting logistics right",
-      "match_confidence": 1,
-      "new_heading": "What to lock before you brief",
-      "new_paragraphs": [
-        "Send occasion, date, area, guest count, drop-off or staffed service, meals or breaks, and a budget position if you have one. You do not need a full dietary list to start.",
-        "Ask how chefs are checked. myCHEF vets identity, right-to-work, cooking and references before anyone cooks for a client. No chef is guaranteed by name. Food businesses in Dubai sit under Dubai Municipality food-safety rules. Confirm current requirements before you book.",
-        "A written account for regular bookings is a separate page. Fees, credit, expiry and overages are set only in that agreement. An LPO does not create credit terms by itself."
-      ]
-    },
-    {
-      "block_on_your_page": "Plan it with myCHEF",
-      "match_confidence": 1,
-      "new_heading": "Where to book the idea",
-      "new_paragraphs": [
-        "Office weeks: office catering. Boardroom and client lunches: business lunch catering. Conferences: conference catering. Company parties: corporate event catering. The 10 to 15 dinner: corporate dinner package. Galas, launches, exhibitions and crew meals have their own pages. The checklist is the operational list. Full service versus drop-off is the coverage comparison."
-      ]
-    },
-    {
-      "block_on_your_page": "Corporate formats compared",
-      "match_confidence": 1,
-      "new_heading": "Formats compared",
-      "new_paragraphs": [
-        "Drop-off working lunch. Team meetings. About 45 minutes. From AED 90 per person. Food and delivery. You clear.",
-        "Staffed buffet. Department sitting or staff party. About an hour. From AED 120 per person. Food, staff, setup and clearance. Minimum 20 guests.",
-        "Canapé reception. Launch or networking. About 90 minutes. From AED 150 per person. Passed food, staff, setup and clearance.",
-        "Plated dinner. Client or executive table. Courses at the table. AED 700 to 950 per person, or AED 4,500 as a package for 10 to 15 guests."
-      ]
-    },
-    {
-      "block_on_your_page": "Sources",
-      "match_confidence": 1,
-      "new_heading": "Sources",
-      "new_paragraphs": [
-        "Prices are advertised myCHEF floors from the catering price record: drop-off AED 90, buffet AED 120, canapés AED 150, plated AED 700 to 950, corporate dinner package AED 4,500 for 10 to 15 guests. VAT 5% on catering has applied in the UAE since 1 January 2018. Food safety sits with Dubai Municipality. Confirm current rules before you book."
-      ]
-    },
-    {
-      "block_on_your_page": "Frequently asked questions",
-      "match_confidence": 1,
-      "new_heading": "Frequently asked questions",
-      "new_paragraphs": [
-        "What are good corporate event catering ideas in Dubai?",
-        "Match the format to the day. Drop-off lunch for a known team. Canapés for a standing party. Plated service for a seated client dinner. Open the booking page for that format before you brief.",
-        "How much does corporate catering cost in Dubai?",
-        "Drop-off from AED 90 per person, buffet from AED 120, canapés from AED 150, plated AED 700 to 950. The 10 to 15 guest dinner package is AED 4,500 for the event.",
-        "What is event catering?",
-        "The food and hospitality operation around an agenda: menus, chefs, service staff, equipment, setup and clearance. Not AV, staging or venue hire.",
-        "How far ahead should we book?",
-        "A few days is usually enough for a repeating drop-off. Two to four weeks is comfortable for a staffed event. Earlier between November and March. The headcount deadline is confirmed in the proposal."
+        "Send the date, Dubai address, expected guest count and preferred service time, together with your menu ideas and venue details. Photos of the kitchen or service area can help the team assess what is practical.",
+        "myCHEF typically replies within 15 minutes between 9am and 11pm Dubai time. The tailored proposal follows once the requirements and availability have been reviewed. A first reply is an acknowledgement, rather than confirmation that a chef or date has been secured."
       ]
     }
-  ],
-  "leave_untouched": [
-    "At a Glance",
-    "Key facts",
-    "Related reading",
-    "Ready to plan your event?",
-    "Explore myCHEF Dubai"
   ],
   "add_block": [],
-  "faq": [
-    {
-      "question": "What are good corporate event catering ideas in Dubai?",
-      "answer": [
-        "Match the format to the day. Drop-off lunch for a known team. Canapés for a standing party. Plated service for a seated client dinner."
-      ]
-    },
-    {
-      "question": "How much does corporate catering cost in Dubai?",
-      "answer": [
-        "Drop-off from AED 90 per person, buffet from AED 120, canapés from AED 150, plated AED 700 to 950. The 10 to 15 guest dinner package is AED 4,500 for the event."
-      ]
-    }
-  ],
+  "faq": [],
   "images": [
     {
       "src": "/images/blog/corporate-event-catering-ideas-dubai-hero.webp",
@@ -170,7 +63,7 @@
       "role": "hero",
       "width": 1920,
       "height": 1080,
-      "caption": "Corporate food happens after the devices are put away. Never on the keyboard."
+      "caption": "Give guests a dedicated space to enjoy the meal."
     },
     {
       "src": "/images/blog/corporate-event-catering-ideas-dubai-2.webp",
@@ -178,8 +71,7 @@
       "role": "inline",
       "width": 1920,
       "height": 1280,
-      "after_heading": "Office catering ideas for team lunches and daily meetings",
-      "caption": "Team lunch: drop-off boxes on a cleared table, laptops on the side."
+      "caption": "A working lunch benefits from a clear delivery and serving plan."
     },
     {
       "src": "/images/blog/corporate-event-catering-ideas-dubai-3.webp",
@@ -187,8 +79,7 @@
       "role": "inline",
       "width": 1920,
       "height": 1280,
-      "after_heading": "Client dinners, galas and company events",
-      "caption": "Client dinners are a different room and a different staff count."
+      "caption": "Client dining can call for a more formal service format."
     }
   ],
   "keyword_lock": {
@@ -202,5 +93,16 @@
       "best catering format for corporate event dubai",
       "event catering ideas"
     ]
-  }
+  },
+  "updated_at": "2026-09-22",
+  "references": [
+    {
+      "label": "myCHEF catering prices and inclusions",
+      "url": "/dubai-catering-prices-guide"
+    },
+    {
+      "label": "Request a tailored proposal",
+      "url": "/inquiry"
+    }
+  ]
 }

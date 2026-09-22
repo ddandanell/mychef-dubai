@@ -16,7 +16,7 @@ const chef: ChefProfileData = {
   cuisine: 'Middle Eastern and Arabic',
   image: '/images/chefs/layla-hassan.webp',
   imageAlt: 'Chef Layla Hassan, independent partner chef for myCHEF Dubai, in a professional black chef\'s jacket in a kitchen setting.',
-  bio: 'Layla Hassan is an Arabic private chef Dubai hosts book through myCHEF: an independent partner chef, employed by a licensed supplier. Middle Eastern private chef Dubai, an Arabic chef for home dinner Dubai, and private chef Arabic food Dubai are the same match: mezze, grill, rice and Iftar, cooked in your kitchen. Chef Middle East Dubai for Levantine and Emirati food is the usual brief. Menus are written with you, not pulled from a banquet card. You approve the profile before anyone starts. We do not publish years of experience.',
+  bio: "Layla Hassan is an Arabic private chef in Dubai, working through a licensed culinary partner. Her menus draw on Levantine and Emirati cooking, from generous mezze and grilled dishes to traditional rice courses and iftar tables. Each menu is developed around your household or occasion, with the chef profile and availability confirmed before booking.",
   specialties: [
     'Arabic Mezze',
     'Grilled Meats',

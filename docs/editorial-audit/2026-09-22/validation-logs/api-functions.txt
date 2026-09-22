@@ -1,0 +1,1 @@
+api functions OK — 4 self-contained (ask.ts, e.ts, seo-login.ts, submit-lead.ts)

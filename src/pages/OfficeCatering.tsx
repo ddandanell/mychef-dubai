@@ -107,7 +107,7 @@ export default function OfficeCatering() {
       <PageHero
         eyebrow="Office catering"
         title={OFFICE_KEYWORD_LOCK.h1}
-        subtitle="Office catering Dubai for daily lunches, breakfasts and weekly workplace service. Start with drop-off food from AED 90 per person, or add chefs and service staff when the sitting needs it. Recurring workplace catering and one-off company events are different operations. Pick the page that matches the day you are planning."
+        subtitle={"Office catering in Dubai for daily lunches, breakfasts and regular workplace meals. Choose drop-off menus from AED 90 per person or add the chefs and service staff your office needs, with delivery and presentation arranged around the working day."}
         image={officeHero.src}
         imageAlt={officeHero.alt}
         imageWidth={officeHero.width}
@@ -150,7 +150,7 @@ export default function OfficeCatering() {
         <Container>
           <CorporateSiblings
             items={[...OFFICE_SIBLING_LINKS, ...OFFICE_RELATED_LINKS]}
-            note="This page is the repeating workplace week: breakfast and lunch for a known headcount. One-off parties sit on corporate event catering. Boardroom client lunches sit on business lunch catering."
+            note={"Plan recurring breakfast and lunch service for your team, with menus, headcounts and delivery windows agreed in advance. Dedicated options are also available for client meetings and one-off company events."}
           />
         </Container>
       </Section>
@@ -470,13 +470,10 @@ export default function OfficeCatering() {
               DIFC
             </Link>
             ,{' '}
-            
               Business Bay
             {' '}
             and{' '}
-            
               Downtown Dubai
-            
             .
           </>
         }

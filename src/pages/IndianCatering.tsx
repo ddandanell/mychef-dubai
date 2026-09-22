@@ -327,7 +327,7 @@ export default function IndianCatering() {
             Indian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ind-hero-sub">
-            Indian Catering Dubai is region first: North Indian tandoor and biryani, South Indian dosa and coconut curries, chaat when the room wants a station. Vegetarian and Jain are first-class, not a side plate.
+            Indian catering in Dubai, from fragrant biryanis and tandoor dishes to dosa, regional curries and lively chaat counters. Vegetarian, vegan and Jain menus receive the same care and attention as every other part of the table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ind-hero-cta">Request your quote</Link>
@@ -353,7 +353,7 @@ export default function IndianCatering() {
             Region, tandoor and chaat. Then the rest of the table.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Indian Catering Dubai is not one gravy. North Indian tandoor, Hyderabadi biryani and slow curries sit beside South Indian dosa, sambar and coconut dishes. Vegetarian, vegan and Jain lines are written on the first draft, not converted at the pass. Halal meat is the default. Pork is not assumed.
+            Indian catering in Dubai offers the richness of regional cooking: North Indian tandoor dishes, Hyderabadi biryani, slow-cooked curries and South Indian dosa, sambar and coconut dishes. We plan vegetarian, vegan and Jain requirements from the outset, with halal meat and poultry as standard.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

@@ -101,7 +101,7 @@ export default function WeddingCateringCost() {
         variant="quiet"
         eyebrow="Wedding Catering Cost Dubai"
         title="Wedding Catering Cost Dubai: three products, not one ladder"
-        subtitle="Food-led buffets, hotel packages and chef-led villa dinners are priced differently. These are planning estimates for 2026. The written proposal is the only number that matters."
+        subtitle={"Compare food-led buffets, hotel packages and chef-led villa dinners using indicative 2026 price ranges. The written proposal confirms the inclusions and total for your wedding."}
         image={costHero.src}
         imageAlt={costHero.alt}
         imageWidth={costHero.width}

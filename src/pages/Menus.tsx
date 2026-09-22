@@ -263,7 +263,7 @@ export default function Menus() {
       <PageHero
         eyebrow="CULINARY OFFERINGS"
         title="Catering Menus Dubai"
-        subtitle="Catering menus Dubai start as samples. Tell us the occasion, the guest list and the kitchen. We rewrite the menu, match a chef, and send an itemised quote."
+        subtitle={"Explore catering menus in Dubai, from private dinners to larger celebrations. These sample menus are a starting point: we tailor the dishes, chef and service to your occasion, guests and venue."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"

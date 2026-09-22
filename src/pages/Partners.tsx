@@ -55,7 +55,7 @@ export default function Partners() {
         variant="quiet"
         eyebrow="About myCHEF"
         title={partnersSeo.h1}
-        subtitle="myCHEF works alongside the businesses whose clients already expect good food: concierge teams, event planners, villa rentals and yacht charters."
+        subtitle={"myCHEF partners with concierge teams, event planners, villa managers and yacht operators to bring considered culinary service to their clients."}
         image="/images/luxury-dining-experiences-dubai-hero.webp"
         imageAlt="A chef-led dinner being served to guests in a Dubai residence. Experience concept shown."
         imageWidth={1683}
@@ -80,8 +80,7 @@ export default function Partners() {
               Four Ways We Work With Other Businesses
             </DisplayHeading>
             <BodyCopy tone="muted">
-              Each category works a little differently. Pick the one that describes your business and the
-              page explains how the arrangement runs.
+              Explore the partnership model that suits your business, including how enquiries, bookings and responsibilities are coordinated.
             </BodyCopy>
           </div>
 

@@ -321,7 +321,7 @@ export default function ItalianCatering() {
             Italian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
-            Italian Catering Dubai is a choice: live pasta tossed to order, or a plated primo at the table. Antipasti, risotto, pizza if the space allows fire. Pork is not assumed. Halal meat is the default.
+            Italian catering in Dubai, with handmade pasta, generous antipasti and carefully prepared regional dishes. Choose an interactive pasta station or a relaxed succession of courses at your table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Request your quote</Link>
@@ -347,7 +347,7 @@ export default function ItalianCatering() {
             Live pasta, or a plated primo. Choose one.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Italian Catering Dubai is pasta made by hand, sauces cooked from scratch, and a format that matches the room. A live station tosses plates to order. A seated table gets antipasto, primo, secondo and dolce. Cured pork is not on the board unless you ask. Halal meat and poultry are the default.
+            Italian catering in Dubai celebrates good ingredients and thoughtful preparation. Enjoy antipasti, a pasta or risotto course, a main dish and dessert, or invite guests to a live pasta station. Halal meat and poultry are the default; ingredient preferences are confirmed in your menu.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

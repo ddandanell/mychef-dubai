@@ -140,7 +140,7 @@ const faqs = [
     q: 'Do you also cater Suhoor and Eid celebrations?',
     a: 'Yes. In addition to Iftar, we offer Suhoor catering before Fajr and festive Eid dining menus for family gatherings and celebrations.',
   },
-  { q: "How much does Iftar catering cost per person in Dubai?", a: "Iftar catering in Dubai is quoted per event rather than a fixed per-head rate, because the price depends on your guest count, menu, service style, and location. A relaxed home Iftar buffet sits at a different level than a full villa spread with live stations and staff, so we build a custom quote around exactly what you want. Share your plans through our [contact page](/contact) and we typically send a detailed proposal within about 15 minutes during business hours." },
+  { q: "How much does Iftar catering cost per person in Dubai?", a: "Iftar catering in Dubai is quoted per event rather than a fixed per-head rate, because the price depends on your guest count, menu, service style, and location. A relaxed home Iftar buffet sits at a different level than a full villa spread with live stations and staff, so we build a custom quote around exactly what you want. Share your plans through our [contact page](/contact) and we typically acknowledge enquiries within 15 minutes during business hours. The detailed proposal follows after a review of the brief." },
   { q: "What exactly is included in the price of your Iftar catering?", a: "Every Iftar quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. There are no hidden extras for the core service, and serving staff can be added when you want table or buffet service handled for you. Prices are subject to 5% VAT, and we confirm the full inclusions in writing before you book." },
   { q: "What is the difference between Iftar catering and just ordering Iftar boxes?", a: "Iftar catering means we design your menu, cook fresh on-site, and serve and clean up, while boxed delivery is simply pre-packed meals dropped off. We are a full-service private chef and catering company, so our chefs prepare everything for your gathering the same evening rather than reheating trays. This is why a catered Iftar feels like a hosted occasion rather than a food order." },
   { q: "Is your Iftar food halal?", a: "Yes, all of our Iftar menus are halal sourced by default, which is essential for authentic Ramadan hospitality. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and we source ingredients from trusted halal suppliers for every dish. If you have specific sourcing or preparation requests, we confirm them in your proposal." },
@@ -345,7 +345,7 @@ export default function RamadanIftar() {
             Iftar Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
-            Iftar catering Dubai: dates at Maghrib, mezze and grills after, cooked in your home, villa, office or event space. Suhoor if you need it. We cook and serve; you host.
+            Iftar catering in Dubai, with dates, water and soup ready for Maghrib, followed by mezze, grills and desserts. Menus and service are planned for family tables, office gatherings and larger occasions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
@@ -372,7 +372,7 @@ export default function RamadanIftar() {
             Maghrib is the deadline. The kitchen is not yours to run.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Iftar is a timed meal. Dates, water and soup need to be ready when the fast breaks. At myCHEF Dubai we plan the service around Maghrib, then mezze, grills and desserts after. Family tables, office Iftars and community gatherings all use the same rule: the chef team cooks, serves and clears. You host.
+            Iftar service is planned around the moment the fast breaks. We coordinate dates, water and soup for Maghrib, followed by the main meal and desserts, with the chef and service team briefed on your guest count, setting and timings.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

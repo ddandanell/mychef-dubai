@@ -161,7 +161,7 @@ export const formats = {
     'This is the choice that sets the budget. Decide it before you shortlist anyone.',
     'Drop-off is the AED 90 tier: corporate lunch delivery in Dubai to the floor. Office food delivery of that kind arrives hot or chilled as the dish needs, in sealed single portions or on shared platters, with serving tongs, napkins and labels. We lay it out. Your team helps itself. Facilities clears the trays. That covers most weekday office lunches.',
     'Staffed service: the team arrives ahead of the meal, builds the line with chafing dishes and linen, keeps hot food hot and cold food cold, serves or replenishes, then clears and wipes down so the room is usable for the next meeting. That is where the AED 120 and AED 150 tiers sit.',
-    'A chef cooking on site is cooking and plating in front of your guests. That is the AED 700–950 band, priced for a board dinner or a client evening. If a quote does not tell you which of those three you are getting, it is not a quote yet.',
+    "Chef-led plated dining at AED 700–950 per person is designed for a served board dinner or client occasion. Your proposal should clearly distinguish it from a delivered menu or buffet service.",
   ],
 }
 
@@ -176,7 +176,7 @@ export const recurring = {
 export const quoting = {
   h2: 'How an office quote is built',
   paragraphs: [
-    'A useful proposal needs four things: the days or the date, the office, how many people, and whether you want it delivered or staffed. Dietary requirements and a budget position help. Telling us the budget early is not a trap: it means the first proposal is realistic rather than the third one.',
+    "Share the service days, office address, headcount and whether you need delivery or on-site staff. Dietary requirements and an indicative spending range help us prepare a suitable proposal.",
     'Access, parking and lift timing change when food can arrive at temperature. Mention the building early. Headcounts move on the morning; we will tell you the last point at which the kitchen can still change the order.',
     'What comes back is itemised. Food, staff, delivery, equipment and 5% VAT sit on separate lines rather than being folded into a per-head figure that is impossible to compare.',
   ],

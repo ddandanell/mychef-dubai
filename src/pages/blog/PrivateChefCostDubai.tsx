@@ -117,7 +117,7 @@ export default function PrivateChefCostDubai() {
       <PageHero
         eyebrow="Private Chef"
         title="How Much Does a Private Chef Cost in Dubai?"
-        subtitle="Household visits start at AED 750. A dinner for guests is catering, quoted per person. This page explains the difference so you can budget before you enquire."
+        subtitle={"Household chef visits start at AED 750, while one-off dinners follow event or package pricing. This guide explains the inclusions and cost factors to compare before booking."}
         image="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         imageAlt="Host and coordinator reviewing an itemised private chef proposal at a dining table"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Cost Dubai' }]}

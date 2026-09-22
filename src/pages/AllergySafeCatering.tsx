@@ -229,7 +229,7 @@ export default function AllergySafeCatering() {
             Allergy Safe Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asc-hero-sub">
-            Allergy Safe Catering Dubai is a written brief, a named chef, and an honest note about shared kitchens. We cook at your address. Cross-contact risk remains. We say so before you book.
+            Allergy-aware catering in Dubai starts with a detailed dietary brief and an assessment of what the kitchen can accommodate. We explain preparation controls and any remaining cross-contact risk before you book.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Request your quote</Link>
@@ -257,10 +257,10 @@ export default function AllergySafeCatering() {
           </h2>
           <div className="asc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Send the guest list of allergens, the severity, and anything else that cannot hit the plate. We match a partner chef, write the menu, and check labels before shopping. Partner kitchens are shared. We do not call that an allergen-free kitchen. Residual cross-contact risk remains. Guests who carry emergency medication should still bring it.
+              Share each relevant allergen, the severity of the allergy and any preparation requirements before confirming. We review the menu and ingredient information with the culinary partner. Shared kitchens cannot guarantee the absence of cross-contact; guests should follow their clinician’s advice and keep prescribed emergency medication available.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Your quote reflects the menu, guest count, service style and venue requirements. We set out the food, staffing and other inclusions in writing, with dietary needs considered from the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Gluten, dairy and nut lines are written on this brief. See <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> notes here, or the wider <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cuisine collection</Link> when the table also wants a cuisine, not only a restriction.

@@ -186,7 +186,7 @@ export default function CorporateRetainer() {
             Corporate Catering Contract Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
-            One written account for companies that book often. You keep a named contact, a monthly invoice if you want it, and the same starting prices as the office, lunch and event pages. Fees, credit and expiry are named in the agreement.
+            A coordinated catering account for companies that book regularly, with a dedicated contact and agreed billing arrangements. The written agreement confirms any fees, credit, expiry dates and service commitments.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request a corporate catering quote</Link>
@@ -215,7 +215,7 @@ export default function CorporateRetainer() {
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A corporate catering contract in Dubai is a written account for companies that book office lunches, staff meals or events often. You get one contact, clearer billing and priority on the dates you already use. Finance teams comparing corporate catering companies in Dubai usually want that one account, not a new supplier for every lunch. Monthly fees, spendable credit, tax, expiry and overages are set only in the agreement you sign. They are not published as a shop price here.
+              A corporate catering contract in Dubai brings regular office meals and company events into one coordinated account. A dedicated contact helps manage menus, scheduling and billing. The agreement sets out any monthly fees, credit, tax, expiry dates and additional charges before you commit.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Each booking still uses the published starting prices on the office, lunch and event pages. The account does not invent a cheaper per-person rate. An LPO or a consolidated invoice does not by itself create credit terms.

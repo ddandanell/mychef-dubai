@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/chefs/marco-italian-chef",
+  "path": "/chefs/marco-italian-chef",
+  "role": "indexable page",
+  "page_type": "Chef profile",
+  "silo": "Private Chef",
+  "purpose": "Present a named chef preference and credible culinary specialism.",
+  "keywords": {
+    "primary": "italian private chef dubai",
+    "secondary": [
+      "private chef italian food dubai",
+      "italian chef for dinner party dubai",
+      "italian chef at home dubai",
+      "italian food supplier dubai",
+      "italian catering in dubai",
+      "courses of an italian dinner",
+      "eat italian catering menu"
+    ],
+    "primary_owner": "/chefs/marco-italian-chef",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Marco Rossi | Italian Private Chef Dubai | myCHEF",
+    "description": "Italian private chef Marco Rossi cooks Italian and Mediterranean menus in Dubai villas, yachts and homes.",
+    "h1": [
+      "Marco Rossi: Italian Private Chef Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/chefs/marco-italian-chef",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/chefInquiry.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/chefs/ChefMarco.tsx",
+    "src/pages/chefs/ChefProfile.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 325,
+    "current_word_count": 283,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Italian Private Chef Dubai, matched to the night"
+      },
+      {
+        "level": "h2",
+        "text": "Sample menus by Marco"
+      },
+      {
+        "level": "h3",
+        "text": "Classic Italian Pranzo"
+      },
+      {
+        "level": "h3",
+        "text": "Coastal Seafood Feast"
+      },
+      {
+        "level": "h3",
+        "text": "Tuscan Family Style"
+      },
+      {
+        "level": "h3",
+        "text": "Certifications"
+      },
+      {
+        "level": "h3",
+        "text": "Nights this kitchen fits"
+      },
+      {
+        "level": "h2",
+        "text": "Ask for Marco"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F05"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs"
+      },
+      {
+        "url": "/chefs/marco-italian-chef",
+        "anchor": "Marco — Italian kitchens",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/italian-catering-dubai",
+        "anchor": "Italian catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/layla-middle-eastern-chef",
+        "anchor": "Layla — Arabic kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/matteo-pastry-chef",
+        "anchor": "Matteo — pastry",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -226,7 +226,7 @@ export default function HowWeVetOurChefs() {
             Private Chef Background Checks Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
-            Finding a chef is easy. Knowing who you are letting into your home is harder. Identity, right to work, a cooking assessment, references, then a supervised first visit.
+            A careful selection process for the person cooking in your home: identity and right-to-work checks, a practical assessment, references and a supervised first visit.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Request a quote</Link>
@@ -252,7 +252,7 @@ export default function HowWeVetOurChefs() {
           </h2>
           <div className="vet-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              When you invite a chef into a home, you are trusting more than their cooking. You are trusting how they behave around your family, your guests and your kitchen. That is why a CV is not enough, and why we do not send someone on a declaration.
+              A chef’s work in a private home involves discretion, reliability and respect as well as cooking. We assess those qualities alongside practical ability and references, so the match reflects the needs of your household and guests.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A licensed supplier employs the chef on a proper visa. We match the person to the house, run the checks, score the work and stand behind the booking. We are not an agency that hands you a stack of CVs and disappears. We are not the employer either.

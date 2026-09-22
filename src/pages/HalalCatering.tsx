@@ -311,7 +311,7 @@ export default function HalalCatering() {
             Halal Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 hal-hero-sub">
-            Halal Catering Dubai is the default sourcing, not an add-on. Pork is not assumed. Cooking alcohol stays off unless you ask in writing. We cook at your address.
+            Halal catering in Dubai, with meat and poultry sourced as halal and menus planned around your requirements. Share any certification or preparation requirements before we develop your proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 hal-hero-cta">Request your quote</Link>
@@ -337,7 +337,7 @@ export default function HalalCatering() {
             Halal as the baseline, not a special tray
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Halal Catering Dubai means meat and poultry sourced as halal, pork off the brief, and cooking alcohol off unless you ask in writing. Specific certificates belong in the enquiry. We do not invent a stamp we cannot show. Partner chefs cook at your villa, office or hired space. We are not the venue.
+            Halal catering in Dubai begins with clearly agreed ingredients and preparation requirements. Meat and poultry are sourced as halal, with pork and cooking alcohol excluded from halal menus. Let us know which supplier certificates or kitchen controls you require so these can be confirmed before booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
@@ -346,7 +346,7 @@ export default function HalalCatering() {
             Arabic grills sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link>. Indian, Asian and mixed menus use the same halal baseline. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            A small seated table belongs on <Link to="/halal-private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining</Link>. Read <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">what to ask a halal caterer</Link> before you book.
+            A small seated table belongs on <Link to="/halal-private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining</Link>. Read <Link to="/halal-private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">what to ask a halal caterer</Link> before you book.
           </p>
         </div>
       </section>

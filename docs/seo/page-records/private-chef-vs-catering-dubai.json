@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-chef-vs-catering-dubai",
+  "path": "/private-chef-vs-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Guide / comparison",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "private chef vs catering dubai",
+    "secondary": [
+      "difference between private chef and caterer",
+      "should i hire a chef or a caterer",
+      "private chef or catering for a party",
+      "private chef vs caterer cost dubai",
+      "personal chef vs private chef",
+      "average cost of personal chef vs catering",
+      "comparing personal chef services vs catering",
+      "private chef catering company"
+    ],
+    "primary_owner": "/private-chef-vs-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef vs Catering Dubai | Guide | myCHEF",
+    "description": "Private chef vs catering Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance incl",
+    "h1": [
+      "Private Chef vs Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-chef-vs-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/PrivateChefVsCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 798,
+    "current_word_count": 791,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Choose the Right Service for Your Occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef vs Catering Comparison"
+      },
+      {
+        "level": "h2",
+        "text": "When to Choose Each Option"
+      },
+      {
+        "level": "h3",
+        "text": "Choose a Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Choose Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Hybrid Options"
+      },
+      {
+        "level": "h3",
+        "text": "Private chef + serving staff"
+      },
+      {
+        "level": "h3",
+        "text": "Catering with chef’s table"
+      },
+      {
+        "level": "h3",
+        "text": "Family-style catering"
+      },
+      {
+        "level": "h2",
+        "text": "How Group Size Affects the Decision"
+      },
+      {
+        "level": "h3",
+        "text": "Small groups (2–10)"
+      },
+      {
+        "level": "h3",
+        "text": "Medium groups (15–40)"
+      },
+      {
+        "level": "h3",
+        "text": "Large groups (50+)"
+      },
+      {
+        "level": "h2",
+        "text": "Explore Our Services"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef vs Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Is a private chef or catering better for a dinner party?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a private chef handle more than ten guests?"
+      },
+      {
+        "level": "h3",
+        "text": "What is a hybrid private chef and catering option?"
+      },
+      {
+        "level": "h3",
+        "text": "Which option is more cost-effective?"
+      },
+      {
+        "level": "h3",
+        "text": "Do both options include setup and cleanup?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I decide which is right for my Dubai event?"
+      },
+      {
+        "level": "h2",
+        "text": "Not Sure Which to Choose?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/private-chef-vs-catering-dubai",
+        "anchor": "Private chef or catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-to-choose-caterer-dubai",
+        "anchor": "How to choose a caterer",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

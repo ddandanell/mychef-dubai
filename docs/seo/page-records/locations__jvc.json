@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/locations/jvc",
+  "path": "/locations/jvc",
+  "role": "noindex support page",
+  "page_type": "Location landing",
+  "silo": "Locations",
+  "purpose": "Private chef in JVC for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+  "keywords": {
+    "primary": "private chef jvc",
+    "secondary": [
+      "catering jvc",
+      "chef at home jvc",
+      "private dining jvc",
+      "party catering jvc",
+      "personal chef jvc"
+    ],
+    "primary_owner": "/locations/jvc",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef JVC | myCHEF",
+    "description": "Private chef in JVC for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+    "h1": [
+      "Private Chef JVC"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/locations/jvc",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LocationDetail.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 879,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef JVC for family apartments, townhouses and villas"
+      },
+      {
+        "level": "h2",
+        "text": "Properties We Serve in JVC"
+      },
+      {
+        "level": "h2",
+        "text": "Young families and houses that actually cook at home"
+      },
+      {
+        "level": "h2",
+        "text": "What a JVC home booking includes"
+      },
+      {
+        "level": "h2",
+        "text": "Menus that fit the rooms you have"
+      },
+      {
+        "level": "h2",
+        "text": "Cluster gate, then the size of the kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Send the brief"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm access"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the date"
+      },
+      {
+        "level": "h3",
+        "text": "The chef arrives"
+      },
+      {
+        "level": "h3",
+        "text": "Service and clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "A compact kitchen is still a working kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Ways to enjoy the service"
+      },
+      {
+        "level": "h3",
+        "text": "Children's birthday at home"
+      },
+      {
+        "level": "h3",
+        "text": "Family weekend dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Park gathering"
+      },
+      {
+        "level": "h3",
+        "text": "Standing household chef"
+      },
+      {
+        "level": "h2",
+        "text": "Cluster parking and compact kitchens"
+      },
+      {
+        "level": "h2",
+        "text": "Also Serving Near JVC"
+      },
+      {
+        "level": "h3",
+        "text": "JLT"
+      },
+      {
+        "level": "h3",
+        "text": "Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Services in JVC"
+      },
+      {
+        "level": "h2",
+        "text": "Chef, catering and event pages"
+      },
+      {
+        "level": "h2",
+        "text": "Popular Events in JVC"
+      },
+      {
+        "level": "h2",
+        "text": "Questions About JVC Catering"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook a birthday in a JVC apartment?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook in a JVC park?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum guest count?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a weekly chef the same as a party?"
+      },
+      {
+        "level": "h3",
+        "text": "Is cleanup included?"
+      },
+      {
+        "level": "h3",
+        "text": "How far ahead should I write?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the JVC cluster"
+      },
+      {
+        "level": "h2",
+        "text": "More in Locations"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve"
+      },
+      {
+        "url": "/locations/jvc",
+        "anchor": "JVC",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+        "catering near me dubai",
+        "catering near me"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/locations/al-barsha",
+        "anchor": "Al Barsha",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations/jlt",
+        "anchor": "JLT",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me dubai",
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -10,7 +10,7 @@ import { isParked } from '@/content/parkedUrls'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { BookOpen, ArrowRight, Phone, DollarSign, ClipboardCheck, Home, Heart, Briefcase, Users, UtensilsCrossed, Ship, Moon, Sparkles, FileText, Anchor, ClipboardList, ChefHat, TrendingUp } from 'lucide-react'
+import { BookOpen, ArrowRight, Phone, DollarSign, ClipboardCheck, Home, Heart, Briefcase, Users, UtensilsCrossed, Ship, Moon, Sparkles, FileText, ClipboardList, ChefHat, TrendingUp } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import FaqAccordion from '../components/FaqAccordion'
@@ -83,16 +83,10 @@ const guides = [
     icon: UtensilsCrossed,
   },
   {
-    slug: '/yacht-catering-guide-dubai',
-    title: 'Yacht Catering Guide',
+    slug: '/yachts',
+    title: 'Yacht Catering & Planning',
     description: 'Menus, logistics and serving tips for Dubai Marina and Palm Jumeirah yacht parties and sunset cruises.',
     icon: Ship,
-  },
-  {
-    slug: '/yacht-catering-checklist-dubai',
-    title: 'Yacht Catering Checklist',
-    description: 'A printable week-by-week checklist for catering on Dubai yachts and boats.',
-    icon: Anchor,
   },
   {
     slug: '/guide/private-dining-dubai',
@@ -235,7 +229,7 @@ export default function Guides() {
       <PageHero
         eyebrow="Free Planning Resources"
         title="Catering Checklist Dubai"
-        subtitle="Planning lists for prices, weddings, company days, yachts and Ramadan. The commercial pages sell the work. These pages help you brief it."
+        subtitle={"Practical guides to catering prices, wedding menus, company events, yacht dining and Ramadan gatherings. Use them to prepare a clear brief and make informed booking decisions."}
         image="/images/guides-hub-dubai-hero.webp"
         imageAlt="Dubai catering guides"
         cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}

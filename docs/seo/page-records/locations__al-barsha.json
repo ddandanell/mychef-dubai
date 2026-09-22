@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/locations/al-barsha",
+  "path": "/locations/al-barsha",
+  "role": "indexable page",
+  "page_type": "Location landing",
+  "silo": "Locations",
+  "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
+  "keywords": {
+    "primary": "private chef al barsha",
+    "secondary": [
+      "catering al barsha",
+      "chef at home al barsha",
+      "private dining al barsha",
+      "party catering al barsha",
+      "personal chef al barsha",
+      "iftar buffet dubai al barsha",
+      "catering services al quoz"
+    ],
+    "primary_owner": "/locations/al-barsha",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Al Barsha | myCHEF",
+    "description": "Private chef in Al Barsha for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+    "h1": [
+      "Private Chef Al Barsha"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/locations/al-barsha",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LocationDetail.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 881,
+    "current_word_count": 855,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef Al Barsha for villas, apartments and hotel residences"
+      },
+      {
+        "level": "h2",
+        "text": "Properties We Serve in Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Mixed households, hotel residences and small offices"
+      },
+      {
+        "level": "h2",
+        "text": "What an Al Barsha booking includes"
+      },
+      {
+        "level": "h2",
+        "text": "Menus that follow the property, not a single format"
+      },
+      {
+        "level": "h2",
+        "text": "Property type first, then the kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Send the brief"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm access"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the date"
+      },
+      {
+        "level": "h3",
+        "text": "The chef arrives"
+      },
+      {
+        "level": "h3",
+        "text": "Service and clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "The property type decides the team, not a package name"
+      },
+      {
+        "level": "h2",
+        "text": "Ways to enjoy the service"
+      },
+      {
+        "level": "h3",
+        "text": "Family birthday"
+      },
+      {
+        "level": "h3",
+        "text": "Villa dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Hotel-residence dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Small office lunch"
+      },
+      {
+        "level": "h2",
+        "text": "Sheikh Zayed Road, villa driveways and tower desks"
+      },
+      {
+        "level": "h2",
+        "text": "Also Serving Near Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Services in Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Chef, catering and event pages"
+      },
+      {
+        "level": "h2",
+        "text": "Popular Events in Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Questions About Al Barsha Catering"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook a small apartment dinner in Al Barsha?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook near Mall of the Emirates?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you do office lunches here?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a weekly chef the same as a party?"
+      },
+      {
+        "level": "h3",
+        "text": "Can one sitting mix diets?"
+      },
+      {
+        "level": "h3",
+        "text": "Is cleanup included?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the Al Barsha address"
+      },
+      {
+        "level": "h2",
+        "text": "More in Locations"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve"
+      },
+      {
+        "url": "/locations/al-barsha",
+        "anchor": "Al Barsha",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+        "catering near me dubai",
+        "catering near me"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me dubai",
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

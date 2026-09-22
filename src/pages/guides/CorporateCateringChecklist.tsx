@@ -285,7 +285,7 @@ export default function CorporateCateringChecklist() {
             Corporate Catering Checklist Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 corp-hero-sub">
-            A practical checklist for office breakfasts, working lunches, boardrooms and company events. To book the service, start on{' '}
+            A practical checklist for office breakfasts, working lunches, board meetings and company events. Explore our service options at{' '}
             <Link to="/corporate" className="text-gold underline underline-offset-4 hover:text-gold-light">corporate catering in Dubai</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -313,7 +313,7 @@ export default function CorporateCateringChecklist() {
             The list before you brief the kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            This page is the planning list: headcount, dietary needs, format, timing, budget and follow-up: so a boardroom of ten and a launch for two hundred both get the same checks. The page that sells the work is{' '}
+            Use this checklist to confirm headcount, dietary requirements, format, timings, costs and follow-up. It supports both smaller meetings and larger company occasions. For menus and service options, explore{' '}
             <Link to="/corporate" className="text-gold-ink underline underline-offset-4 hover:text-gold">corporate catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

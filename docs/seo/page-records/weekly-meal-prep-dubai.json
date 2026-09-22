@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/weekly-meal-prep-dubai",
+  "path": "/weekly-meal-prep-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": "meal prep dubai",
+    "secondary": [
+      "weekly meal prep dubai",
+      "meal prep chef dubai",
+      "meal prep service dubai",
+      "private chef meal prep dubai",
+      "batch cooking service dubai",
+      "personal chef meal prep dubai",
+      "family meal prep dubai",
+      "is weekly meal prep healthy",
+      "best meal prep delivery dubai",
+      "weekly meal plan dubai",
+      "fitness meal prep delivery menu",
+      "fitness meal prep services",
+      "kids meal prep service"
+    ],
+    "primary_owner": "/weekly-meal-prep-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Meal Prep Dubai | A Chef in Your Kitchen, AED 900 | myCHEF",
+    "description": "Weekly meal prep in Dubai: a private chef cooks a week of food in your kitchen in four hours, from AED 900. Halal-first and built around your diet.",
+    "h1": [
+      "Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/weekly-meal-prep-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/WeeklyMealPrep.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1316,
+    "current_word_count": 1323,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Meal Prep Dubai, cooked in your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "How the chef uses the four hours"
+      },
+      {
+        "level": "h3",
+        "text": "Tell us how the house eats"
+      },
+      {
+        "level": "h3",
+        "text": "Menu from the Food Profile"
+      },
+      {
+        "level": "h3",
+        "text": "Shop and cook in your kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Portion and label"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen handed back"
+      },
+      {
+        "level": "h2",
+        "text": "Once a week, or twice"
+      },
+      {
+        "level": "h3",
+        "text": "Once a week"
+      },
+      {
+        "level": "h3",
+        "text": "Twice a week"
+      },
+      {
+        "level": "h2",
+        "text": "A fridge full of this house’s food"
+      },
+      {
+        "level": "h3",
+        "text": "The week is cooked, then the chef leaves"
+      },
+      {
+        "level": "h3",
+        "text": "Healthy means this house’s version"
+      },
+      {
+        "level": "h3",
+        "text": "Cooked here, not shipped frozen"
+      },
+      {
+        "level": "h3",
+        "text": "Halal by default, allergens labelled"
+      },
+      {
+        "level": "h3",
+        "text": "The menu changes with the house"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen left as found"
+      },
+      {
+        "level": "h2",
+        "text": "When four hours a week is enough"
+      },
+      {
+        "level": "h3",
+        "text": "Families who want the week cooked"
+      },
+      {
+        "level": "h3",
+        "text": "Households that do not want a chef all day"
+      },
+      {
+        "level": "h3",
+        "text": "Training weeks"
+      },
+      {
+        "level": "h3",
+        "text": "Allergies and refusals"
+      },
+      {
+        "level": "h2",
+        "text": "Food cooked for the week, not for a photograph"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before a weekly Food Prep booking"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in weekly meal prep?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does weekly meal prep cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I choose the cuisines each week?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the food halal and suitable for allergies?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need to be home during the prep session?"
+      },
+      {
+        "level": "h3",
+        "text": "Is weekly meal prep healthy?"
+      },
+      {
+        "level": "h3",
+        "text": "If the week needs more than prep"
+      },
+      {
+        "level": "h3",
+        "text": "Weekly meal prep across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Start the weekly Food Prep plan"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/wellness-meal-prep-dubai",
+        "anchor": "Healthy meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Full-time private chef",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/become-a-mychef",
+  "path": "/become-a-mychef",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Partners / Recruit",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "private chef jobs dubai",
+    "secondary": [
+      "catering jobs dubai",
+      "chef jobs dubai",
+      "work as a private chef dubai",
+      "private chef vacancies dubai",
+      "become a private chef in dubai",
+      "freelance chef work dubai",
+      "private chef and catering"
+    ],
+    "primary_owner": "/become-a-mychef",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Jobs Dubai | Join Our Network | myCHEF",
+    "description": "Private chef jobs Dubai: apply on WhatsApp with visa status, cuisines and a CV or portfolio. A licensed supplier employs you. Work is matched, not guaranteed.",
+    "h1": [
+      "Private Chef Jobs Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/become-a-mychef",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BecomeAMyChef.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 958,
+    "current_word_count": 930,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Cook at Dubai's Most Exciting Private Events"
+      },
+      {
+        "level": "h2",
+        "text": "What We Look For"
+      },
+      {
+        "level": "h3",
+        "text": "You can cook the job"
+      },
+      {
+        "level": "h3",
+        "text": "Right to work, on paper"
+      },
+      {
+        "level": "h3",
+        "text": "You can get there on time"
+      },
+      {
+        "level": "h3",
+        "text": "Food hygiene, not a slogan"
+      },
+      {
+        "level": "h3",
+        "text": "Halal as default"
+      },
+      {
+        "level": "h3",
+        "text": "The house is not a restaurant"
+      },
+      {
+        "level": "h2",
+        "text": "How to Join"
+      },
+      {
+        "level": "h3",
+        "text": "Apply on WhatsApp"
+      },
+      {
+        "level": "h3",
+        "text": "Document Review"
+      },
+      {
+        "level": "h3",
+        "text": "Trial Cook"
+      },
+      {
+        "level": "h3",
+        "text": "Onboarding"
+      },
+      {
+        "level": "h3",
+        "text": "Matched to Events"
+      },
+      {
+        "level": "h2",
+        "text": "You cook. We match the work."
+      },
+      {
+        "level": "h2",
+        "text": "Apply to Become a myCHEF"
+      },
+      {
+        "level": "h3",
+        "text": "Before You Apply"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef Jobs Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Who can apply to become a myCHEF chef?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need a named food-safety certificate?"
+      },
+      {
+        "level": "h3",
+        "text": "What cuisines are in demand?"
+      },
+      {
+        "level": "h3",
+        "text": "How does payment work?"
+      },
+      {
+        "level": "h3",
+        "text": "Will I be an employee of myCHEF Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I increase my bookings?"
+      },
+      {
+        "level": "h2",
+        "text": "You Might Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Join?"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/partners",
+        "anchor": "Partners"
+      },
+      {
+        "url": "/become-a-mychef",
+        "anchor": "Work as a myCHEF",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/partners",
+      "anchor": "Partners",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/chef-training-academy",
+        "anchor": "Chef training",
+        "alt_anchors": []
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/partner-with-us",
+        "anchor": "Catering partnerships",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

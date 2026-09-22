@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/ramadan-iftar-catering-trends-2026",
+  "path": "/blog/ramadan-iftar-catering-trends-2026",
+  "role": "noindex support page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Ramadan Catering Trends Dubai 2026: Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes…",
+  "keywords": {
+    "primary": "ramadan catering trends dubai 2026",
+    "secondary": [
+      "iftar catering ideas dubai",
+      "ramadan iftar catering trends 2026",
+      "what are the event catering trends in 2026",
+      "iftar catering trends",
+      "catering trends for 2026",
+      "what are current trends in the catering industry",
+      "ramadan catering in dubai",
+      "biggest food trends 2026"
+    ],
+    "primary_owner": "/blog/ramadan-iftar-catering-trends-2026",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Ramadan Catering Trends Dubai 2026 | myCHEF",
+    "description": "Ramadan Catering Trends Dubai 2026: Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes…",
+    "h1": [
+      "Ramadan Catering Trends Dubai 2026"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/ramadan-iftar-catering-trends-2026",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RamadanIftarTrends2026.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 1291,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "Modern Emirati Flavours with a Contemporary Touch"
+      },
+      {
+        "level": "h3",
+        "text": "Reinterpreting classic dishes"
+      },
+      {
+        "level": "h3",
+        "text": "Mezze as a conversation starter"
+      },
+      {
+        "level": "h2",
+        "text": "Sustainable, Seasonal Sourcing"
+      },
+      {
+        "level": "h3",
+        "text": "Reducing waste without reducing generosity"
+      },
+      {
+        "level": "h3",
+        "text": "Local and regional ingredients"
+      },
+      {
+        "level": "h2",
+        "text": "Grazing and Sharing-Style Iftar Tables"
+      },
+      {
+        "level": "h2",
+        "text": "Mocktails and Hydration-First Beverage Menus"
+      },
+      {
+        "level": "h3",
+        "text": "Beyond juice jugs"
+      },
+      {
+        "level": "h3",
+        "text": "Hydration throughout the evening"
+      },
+      {
+        "level": "h2",
+        "text": "Smarter Ordering and Dietary Planning"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "Planning Your Iftar with myCHEF Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What are the top Ramadan Iftar catering trends for 2026?"
+      },
+      {
+        "level": "h3",
+        "text": "How can I reduce food waste at a large Iftar?"
+      },
+      {
+        "level": "h3",
+        "text": "What drinks are popular for Iftar in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can Iftar catering accommodate dietary restrictions?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Ramadan catering in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Ramadan Catering Trends Dubai 2026: Ready to Plan Your 2026 Iftar?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/ramadan-iftar-catering-trends-2026",
+        "anchor": "Ramadan catering trends 2026",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/ramadan-catering-dubai",
+        "anchor": "Ramadan catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/iftar-catering-dubai",
+        "anchor": "Iftar catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/ramadan-catering-dubai",
+        "anchor": "Ramadan catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

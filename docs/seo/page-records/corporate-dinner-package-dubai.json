@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/corporate-dinner-package-dubai",
+  "path": "/corporate-dinner-package-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Corporate Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "corporate dinner package dubai",
+    "secondary": [
+      "corporate dinner package dubai price",
+      "corporate dinner package dubai cost per person",
+      "private chef corporate dinner dubai",
+      "corporate dinner package menu dubai",
+      "team dinner catering dubai",
+      "dubai dinner cruise deals",
+      "best business dinner in dubai",
+      "company dinner package dubai",
+      "private dinner cruise dubai price",
+      "corporate catering package dubai",
+      "dinner set price in uae",
+      "private chef dinner for 2 cost"
+    ],
+    "primary_owner": "/corporate-dinner-package-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Corporate Dinner Package Dubai | 10–15 Guests | myCHEF",
+    "description": "A corporate dinner package in Dubai from AED 4,500 for 10–15 guests, with the menu, chef, service and VAT details confirmed in your proposal.",
+    "h1": [
+      "Corporate Dinner Package Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/corporate-dinner-package-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/LocationStrip.tsx",
+    "src/components/PackagePageTemplate.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/corporate/CorporateInventory.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/corporateInventory.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/CorporateDinnerPackage.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 603,
+    "current_word_count": 597,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What is included in the Corporate Dinner package?"
+      },
+      {
+        "level": "h3",
+        "text": "Sample Menu Ideas"
+      },
+      {
+        "level": "h3",
+        "text": "Popular Add-ons"
+      },
+      {
+        "level": "h2",
+        "text": "Common Questions About the Corporate Dinner Package"
+      },
+      {
+        "level": "h3",
+        "text": "Is this package suitable for boardroom dinners?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you invoice my company?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the menu accommodate dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater at offices across Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Dinner packages across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Book the Corporate Dinner Package"
+      },
+      {
+        "level": "h2",
+        "text": "More in Corporate Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate dining"
+      },
+      {
+        "url": "/corporate-dinner-package-dubai",
+        "anchor": "Corporate dinner package",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "Corporate dining",
+      "alt_anchors": [
+        "corporate catering dubai",
+        "corporate catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/corporate-event-catering-dubai",
+        "anchor": "Corporate event catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/gala-dinner-catering-dubai",
+        "anchor": "Gala dinner catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": [
+          "drop off catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

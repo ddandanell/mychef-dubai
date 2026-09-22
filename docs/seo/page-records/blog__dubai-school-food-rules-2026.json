@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/dubai-school-food-rules-2026",
+  "path": "/blog/dubai-school-food-rules-2026",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "dubai school food rules 2026",
+    "secondary": [
+      "my school food dubai",
+      "dubai municipality school food",
+      "national guide school food uae",
+      "school canteen standards dubai",
+      "healthy school lunch dubai",
+      "khda school catering",
+      "dmchecked school catering",
+      "what foods are banned in dubai schools"
+    ],
+    "primary_owner": "/blog/dubai-school-food-rules-2026",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Dubai School Food Rules 2026 | myCHEF",
+    "description": "A practical checklist for verifying Dubai school food requirements, provider approvals, menus, allergen information and responsibilities in 2026.",
+    "h1": [
+      "Dubai School Food Rules 2026"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/dubai-school-food-rules-2026",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/HandoffPage.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo-pages/blog-dubai-school-food-rules-2026.json",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 589,
+    "current_word_count": 489,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Begin with the current official requirements"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the provider’s scope"
+      },
+      {
+        "level": "h2",
+        "text": "Review the menu and dietary process"
+      },
+      {
+        "level": "h2",
+        "text": "Assess the daily operation"
+      },
+      {
+        "level": "h2",
+        "text": "Keep a record of the decision"
+      },
+      {
+        "level": "h2",
+        "text": "Sources and further reading"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Nut-Free Nursery Meals Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Nursery Meals vs Packed Lunch Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/dubai-school-food-rules-2026",
+        "anchor": "Dubai School Food Rules 2026",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/how-we-vet-our-chefs",
+  "path": "/how-we-vet-our-chefs",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "private chef background checks dubai",
+    "secondary": [
+      "are private chefs vetted dubai",
+      "private chef food safety dubai",
+      "are private chefs licensed in dubai",
+      "private chefs in dubai",
+      "personal chefs on offer in dubai",
+      "find a private chef",
+      "top personal chef services policies",
+      "find a personal chef"
+    ],
+    "primary_owner": "/how-we-vet-our-chefs",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Background Checks Dubai | myCHEF",
+    "description": "Private chef background checks in Dubai: identity, right to work, a cooking assessment, references, then a supervised first visit. A CV is not enough.",
+    "h1": [
+      "Private Chef Background Checks Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/how-we-vet-our-chefs",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/HowWeVetOurChefs.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 999,
+    "current_word_count": 987,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef background checks Dubai before anyone enters"
+      },
+      {
+        "level": "h2",
+        "text": "What we check before a chef represents myCHEF"
+      },
+      {
+        "level": "h3",
+        "text": "Identity and right to work"
+      },
+      {
+        "level": "h3",
+        "text": "A cooking assessment, not a CV"
+      },
+      {
+        "level": "h3",
+        "text": "References we actually call"
+      },
+      {
+        "level": "h3",
+        "text": "Food safety, not a badge on every profile"
+      },
+      {
+        "level": "h3",
+        "text": "A supervised first visit"
+      },
+      {
+        "level": "h3",
+        "text": "The house scores the work"
+      },
+      {
+        "level": "h2",
+        "text": "Vetting is a loop, not a badge"
+      },
+      {
+        "level": "h3",
+        "text": "Papers before the kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "They cook before they enter a house"
+      },
+      {
+        "level": "h3",
+        "text": "References, not testimonials on a website"
+      },
+      {
+        "level": "h3",
+        "text": "Food safety sits beside flavour"
+      },
+      {
+        "level": "h3",
+        "text": "No chef is guaranteed work"
+      },
+      {
+        "level": "h3",
+        "text": "No chef is guaranteed"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef Background Checks Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "How do you verify your chefs?"
+      },
+      {
+        "level": "h3",
+        "text": "Are private chefs licensed in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you check references for every chef?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens on a new chef’s first bookings?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a named chef guaranteed?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you keep the standard after the first visit?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Book with Confidence"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F05"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-it-works",
+        "anchor": "How booking works",
+        "alt_anchors": []
+      },
+      {
+        "url": "/quality-guarantee-dubai",
+        "anchor": "Catering quality guarantee",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

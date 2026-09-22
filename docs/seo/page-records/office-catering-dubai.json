@@ -1,0 +1,453 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/office-catering-dubai",
+  "path": "/office-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Corporate Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "office catering dubai",
+    "secondary": [
+      "daily office lunch dubai",
+      "office lunch catering dubai",
+      "team lunch catering dubai",
+      "weekly office catering dubai",
+      "corporate lunch delivery dubai",
+      "office food delivery dubai",
+      "office catering packages dubai",
+      "luxury office catering dubai",
+      "small office catering dubai",
+      "daily office catering dubai",
+      "ramadan office catering dubai",
+      "catering for office meeting dubai"
+    ],
+    "primary_owner": "/office-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
+    "description": "Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.",
+    "h1": [
+      "Office Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/office-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/CorporateTrustStrip.tsx",
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/corporate/CorporateInventory.tsx",
+    "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/corporate/CorporateQuoteNeeds.tsx",
+    "src/components/corporate/CorporateSiblings.tsx",
+    "src/components/corporate/CorporateWorkedBudgets.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/cateringPricing.ts",
+    "src/content/corporateCluster.ts",
+    "src/content/corporateInventory.ts",
+    "src/content/corporatePackageCatalog.ts",
+    "src/content/corporatePackages.ts",
+    "src/content/officeCateringPage.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/analytics.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/OfficeCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 3331,
+    "current_word_count": 3274,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Office catering Dubai for a known team"
+      },
+      {
+        "level": "h3",
+        "text": "A one-off company event?"
+      },
+      {
+        "level": "h3",
+        "text": "A boardroom or client lunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Food delivered, nobody in the room?"
+      },
+      {
+        "level": "h3",
+        "text": "Breakfast before the floor fills?"
+      },
+      {
+        "level": "h2",
+        "text": "Office Catering Dubai, from drop-off lunches to a chef in the room"
+      },
+      {
+        "level": "h2",
+        "text": "Office breakfast, lunch and meeting packages"
+      },
+      {
+        "level": "h3",
+        "text": "Office breakfast drop-off"
+      },
+      {
+        "level": "h3",
+        "text": "Weekday office lunch drop-off"
+      },
+      {
+        "level": "h3",
+        "text": "Recurring weekly office lunch"
+      },
+      {
+        "level": "h3",
+        "text": "Office meeting buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Office live station"
+      },
+      {
+        "level": "h2",
+        "text": "Office catering packages, worked totals"
+      },
+      {
+        "level": "h3",
+        "text": "Sample lunch cycle"
+      },
+      {
+        "level": "h2",
+        "text": "What this corporate service includes"
+      },
+      {
+        "level": "h2",
+        "text": "Office breakfast, lunch and meeting food"
+      },
+      {
+        "level": "h3",
+        "text": "Breakfast"
+      },
+      {
+        "level": "h3",
+        "text": "Weekday lunch"
+      },
+      {
+        "level": "h3",
+        "text": "Ordering"
+      },
+      {
+        "level": "h2",
+        "text": "Boardroom catering and client lunches"
+      },
+      {
+        "level": "h3",
+        "text": "Working lunch"
+      },
+      {
+        "level": "h3",
+        "text": "Client lunch"
+      },
+      {
+        "level": "h2",
+        "text": "Staff meals that arrive on schedule"
+      },
+      {
+        "level": "h3",
+        "text": "Meals"
+      },
+      {
+        "level": "h2",
+        "text": "Itemised invoices, not a blended headline"
+      },
+      {
+        "level": "h3",
+        "text": "On every proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Accounts"
+      },
+      {
+        "level": "h2",
+        "text": "Delivery, staffed service, or a chef in the room"
+      },
+      {
+        "level": "h2",
+        "text": "The repeating week, not a prepaid plan"
+      },
+      {
+        "level": "h2",
+        "text": "If the brief is slightly different"
+      },
+      {
+        "level": "h3",
+        "text": "Business lunch catering"
+      },
+      {
+        "level": "h3",
+        "text": "Drop-off catering"
+      },
+      {
+        "level": "h3",
+        "text": "Breakfast catering"
+      },
+      {
+        "level": "h2",
+        "text": "How an office quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "What we need for a quote"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. Finance sees the lines."
+      },
+      {
+        "level": "h2",
+        "text": "Three common office meals"
+      },
+      {
+        "level": "h3",
+        "text": "Daily floor lunch"
+      },
+      {
+        "level": "h3",
+        "text": "A team of ten to fifteen"
+      },
+      {
+        "level": "h3",
+        "text": "A staffed line when the room needs it"
+      },
+      {
+        "level": "h2",
+        "text": "Standards you can open, not slogans"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h3",
+        "text": "What halal-first means here"
+      },
+      {
+        "level": "h3",
+        "text": "Invoicing"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposals"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking office catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does office catering cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum headcount or minimum order?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between delivery and staffed service?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you run daily or weekly office lunches?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we adjust headcount or pause around holidays?"
+      },
+      {
+        "level": "h3",
+        "text": "How much notice do you need?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater dietary requirements across a whole team?"
+      },
+      {
+        "level": "h3",
+        "text": "Office catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Days, office and headcount is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "More in Corporate Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate dining"
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "Corporate dining",
+      "alt_anchors": [
+        "corporate catering dubai",
+        "corporate catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/business-lunch-catering-dubai",
+        "anchor": "Business lunch catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/staff-meals-catering-dubai",
+        "anchor": "Corporate meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/breakfast-catering-dubai",
+        "anchor": "Breakfast catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/corporate-catering-full-service-vs-drop-off",
+        "anchor": "Full service vs drop off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/corporate-catering-checklist-dubai",
+        "anchor": "Corporate catering checklist",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": [
+          "drop off catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -226,7 +226,7 @@ export default function BecomeAMyChef() {
   return (
     <div>
       <SEO
-        title="Private Chef Jobs Dubai | Join myCHEF | myCHEF"
+        title="Private Chef Jobs Dubai | Join Our Network | myCHEF"
         description="Private chef jobs Dubai: apply on WhatsApp with visa status, cuisines and a CV or portfolio. A licensed supplier employs you. Work is matched, not guaranteed."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/become-a-mychef-dubai-hero.webp"
@@ -254,7 +254,7 @@ export default function BecomeAMyChef() {
             Private Chef Jobs Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bmc-hero-sub">
-            Independent licensed partners cook. A supplier employs you on a proper visa. We match the work. No chef is guaranteed a schedule.
+            Work with myCHEF through a licensed culinary partner, with employment and right-to-work arrangements confirmed before assignments. Opportunities depend on suitability and availability; a fixed schedule is not guaranteed.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -287,7 +287,7 @@ export default function BecomeAMyChef() {
           </h2>
           <div className="bmc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              myCHEF Dubai is always looking for talented, reliable chefs who can deliver exceptional food in private homes, villas, yachts, and venues across the city. Catering jobs Dubai sit on this page too: event chefs, pastry cooks and household chefs apply the same way, on WhatsApp. Whether you are a private chef with years of household experience, a restaurant chef ready for a new challenge, a pastry specialist, or an event chef who thrives under pressure, we want to hear from you.
+              We welcome reliable culinary professionals who enjoy cooking for people in a more personal setting. Household chefs, event chefs and pastry specialists can apply for opportunities in Dubai homes, villas, yachts and private venues. Tell us about your skills, preferred work and current right-to-work arrangements.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.

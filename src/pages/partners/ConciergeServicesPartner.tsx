@@ -17,9 +17,9 @@ export default function ConciergeServicesPartner() {
       ogImage="/images/luxury-dining-dubai-hero.webp"
       headline="Concierge Services Partnership Dubai"
       eyebrow="FOR CONCIERGE TEAMS"
-      subheadline="A chef at home, a villa dinner, or yacht catering, quoted for the member you already look after."
+      subheadline={"Private chefs, villa dining and yacht catering coordinated for the clients your concierge team already serves."}
       intro="You already have the client. We run the kitchen."
-      valueProposition="Concierge members ask for a chef, a dinner at home, or food on a yacht. We send an itemised proposal, check the chef, and run the night. You keep the relationship. Commission or a retainer is agreed in writing before the first introduction."
+      valueProposition={"Support your clients with a private chef, dinner at home or catering aboard a chartered yacht. We prepare an itemised proposal and coordinate the culinary service while you remain their concierge contact. Referral fees or retainers are agreed in writing before the first introduction."}
       benefits={[
         { icon: ConciergeBell, title: 'The night they asked for', description: 'A household chef visit, a dinner for guests, or a yacht sitting. The brief names the job. We do not guess it.' },
         { icon: TrendingUp, title: 'A service you can add without building a kitchen', description: 'You take the request. We quote food, staff, hire and 5% VAT as separate lines.' },

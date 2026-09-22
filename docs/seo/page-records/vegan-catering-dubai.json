@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/vegan-catering-dubai",
+  "path": "/vegan-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Cuisines and Dietary",
+  "purpose": "Help customers choose a cuisine or communicate dietary constraints.",
+  "keywords": {
+    "primary": "vegan catering dubai",
+    "secondary": [
+      "vegan catering dubai price",
+      "vegan catering cost per person dubai",
+      "best vegan catering dubai",
+      "vegan catering packages dubai",
+      "vegan catering menu dubai",
+      "plant based catering dubai",
+      "vegan caterers dubai",
+      "vegan private chef dubai",
+      "vegan cakes in dubai",
+      "vegan food dubai",
+      "vegan ready meals dubai",
+      "vegan christmas dinner dubai"
+    ],
+    "primary_owner": "/vegan-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Vegan Catering Dubai | Plant-Based Menu Night | myCHEF",
+    "description": "Vegan catering Dubai: plant-based menus cooked on site, service and clear-down so you stay a guest at your own table.",
+    "h1": [
+      "Vegan Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/vegan-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/VeganCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2250,
+    "current_word_count": 2223,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "No animal products. A full plate anyway."
+      },
+      {
+        "level": "h2",
+        "text": "Formats for a plant-based table"
+      },
+      {
+        "level": "h3",
+        "text": "Plant-Based Fine Dining"
+      },
+      {
+        "level": "h3",
+        "text": "Vegan Canapés"
+      },
+      {
+        "level": "h3",
+        "text": "Vegan Grazing Tables"
+      },
+      {
+        "level": "h3",
+        "text": "Vegan Desserts & Cakes"
+      },
+      {
+        "level": "h3",
+        "text": "Villa & Garden Vegan Menus"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Vegan Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Homes, offices and mixed guest lists"
+      },
+      {
+        "level": "h3",
+        "text": "Mixed tables"
+      },
+      {
+        "level": "h3",
+        "text": "Villa and garden dinners"
+      },
+      {
+        "level": "h3",
+        "text": "Office lunches"
+      },
+      {
+        "level": "h3",
+        "text": "Receptions and showers"
+      },
+      {
+        "level": "h2",
+        "text": "What a vegan booking actually covers"
+      },
+      {
+        "level": "h2",
+        "text": "What vegan service looks like"
+      },
+      {
+        "level": "h2",
+        "text": "Vegan Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Is the entire menu fully vegan?"
+      },
+      {
+        "level": "h3",
+        "text": "Will the food feel substantial, not just side dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a mixed group of vegan and non-vegan guests?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you handle other dietary needs alongside vegan?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer vegan desserts and celebration cakes?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book vegan catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does vegan catering cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in your vegan catering price?"
+      },
+      {
+        "level": "h3",
+        "text": "Is VAT included in the vegan catering quote?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook the vegan food fresh on-site or deliver it prepared?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your vegan catering prepared to Dubai food-safety standards?"
+      },
+      {
+        "level": "h3",
+        "text": "Is vegan food automatically halal?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you prevent cross-contact between vegan and non-vegan dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Will you use ingredients like honey, gelatin, or wine in the food?"
+      },
+      {
+        "level": "h3",
+        "text": "Where do you get plant-based protein and will guests feel full?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum number of guests for vegan catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide serving staff for a vegan event?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater vegan menus at villas, gardens, and private residences?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a vegan wedding or large celebration?"
+      },
+      {
+        "level": "h3",
+        "text": "Should I choose a vegan buffet or plated service?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we arrange a tasting before booking a large vegan event?"
+      },
+      {
+        "level": "h3",
+        "text": "How is vegan catering different from your vegetarian menus?"
+      },
+      {
+        "level": "h3",
+        "text": "How quickly can you respond and confirm a vegan catering booking?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Vegan catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the vegan brief with the date"
+      },
+      {
+        "level": "h2",
+        "text": "More in Cuisines and Dietary"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines"
+      },
+      {
+        "url": "/vegan-catering-dubai",
+        "anchor": "Vegan catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/cuisines-dubai",
+      "anchor": "Cuisines",
+      "alt_anchors": [
+        "multi cuisine catering dubai",
+        "multi cuisine catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/vegetarian-catering-dubai",
+        "anchor": "Vegetarian catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Healthy catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

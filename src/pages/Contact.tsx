@@ -156,7 +156,7 @@ export default function Contact() {
         variant="quiet"
         eyebrow="Contact myCHEF"
         title="Whatever you are planning, start here."
-        subtitle="Private chef service, catering, partnerships, press or something less ordinary. Tell us what you need and we will route it to the right person."
+        subtitle={"Contact myCHEF for household chef plans, event catering, partnerships or press enquiries. Tell us what you have in mind, and we will connect you with the right person."}
         image="/images/mychef-household-plan-consultation.webp"
         imageAlt="A household sitting with a myCHEF coordinator in a Dubai villa. Experience concept shown."
         imageWidth={1910}
@@ -185,7 +185,7 @@ export default function Contact() {
               Who you should speak to depends on the job.
             </DisplayHeading>
             <BodyCopy muted>
-              One inbox for everything is how messages get lost. Pick the path that matches what you need.
+              Choose the enquiry type below so we can direct your message to the appropriate team.
             </BodyCopy>
           </div>
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200">

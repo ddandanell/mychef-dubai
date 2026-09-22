@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/private-chef-palm-jumeirah-guide",
+  "path": "/blog/private-chef-palm-jumeirah-guide",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "private dining palm jumeirah dubai",
+    "secondary": [
+      "palm jumeirah villa dining menu",
+      "private chef palm springs",
+      "private dining chef near me",
+      "halal private dining menu",
+      "best private dining rooms dubai",
+      "carbone dubai private dining",
+      "coya dubai private dining",
+      "how much does a private chef cost"
+    ],
+    "primary_owner": "/blog/private-chef-palm-jumeirah-guide",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Dining Palm Jumeirah Dubai | myCHEF",
+    "description": "Private Dining Palm Jumeirah Dubai: A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…",
+    "h1": [
+      "Private Dining Palm Jumeirah Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/private-chef-palm-jumeirah-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1683,
+    "current_word_count": 1682,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "Why Palm Jumeirah Hosts Hire Private Chefs"
+      },
+      {
+        "level": "h2",
+        "text": "What the Service Includes"
+      },
+      {
+        "level": "h2",
+        "text": "Indicative Pricing in Palm Jumeirah"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "How to Plan the Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chefs for Yachts and Special Venues"
+      },
+      {
+        "level": "h2",
+        "text": "One-Off Events vs Recurring Private Chef Service"
+      },
+      {
+        "level": "h2",
+        "text": "Booking and Preparation Tips"
+      },
+      {
+        "level": "h2",
+        "text": "What to Expect on the Day"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What does a private chef service include in Palm Jumeirah?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a private chef cost in Palm Jumeirah?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef accommodate halal, vegan, or allergy-specific menus?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need a large villa kitchen to hire a private chef?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a private chef in Palm Jumeirah?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "How to Hire a Private Chef Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "How Much Does a Private Chef Cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Private Dining Palm Jumeirah Dubai: Ready to Book a Private Chef in Palm Jumeirah?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/private-chef-palm-jumeirah-guide",
+        "anchor": "Private dining palm jumeirah",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": [
+          "villa chef"
+        ]
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

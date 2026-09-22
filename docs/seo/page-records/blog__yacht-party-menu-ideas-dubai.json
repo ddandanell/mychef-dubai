@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/yacht-party-menu-ideas-dubai",
+  "path": "/blog/yacht-party-menu-ideas-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "yacht party menu ideas dubai",
+    "secondary": [
+      "yacht party food ideas dubai",
+      "what food to bring on a yacht dubai",
+      "boat party food dubai",
+      "simple yacht party menu ideas",
+      "yacht party menu ideas for adults",
+      "boat party menu ideas",
+      "yacht menu ideas",
+      "what food to bring to a boat party"
+    ],
+    "primary_owner": "/blog/yacht-party-menu-ideas-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Yacht Party Menu Ideas Dubai | myCHEF",
+    "description": "Yacht party menu ideas Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise.",
+    "h1": [
+      "Yacht Party Menu Ideas Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/yacht-party-menu-ideas-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/YachtPartyMenuIdeas.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1391,
+    "current_word_count": 1435,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "Plan Around the Yacht Environment"
+      },
+      {
+        "level": "h3",
+        "text": "Compact kitchens call for smart prep"
+      },
+      {
+        "level": "h3",
+        "text": "Handheld food wins on deck"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "Canapés and Handheld Starters"
+      },
+      {
+        "level": "h2",
+        "text": "Fresh Seafood and Light Mains"
+      },
+      {
+        "level": "h3",
+        "text": "Let the location inspire the menu"
+      },
+      {
+        "level": "h3",
+        "text": "Individual plating for seated courses"
+      },
+      {
+        "level": "h2",
+        "text": "Salads and Sides That Travel Well"
+      },
+      {
+        "level": "h2",
+        "text": "Desserts and Sweet Finishes"
+      },
+      {
+        "level": "h3",
+        "text": "Avoid anything fragile or melty"
+      },
+      {
+        "level": "h3",
+        "text": "A celebratory cake alternative"
+      },
+      {
+        "level": "h2",
+        "text": "Beverages for the Marina"
+      },
+      {
+        "level": "h2",
+        "text": "Let myCHEF Dubai Handle the Details"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What food works best for a yacht party in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you plan a menu for a small yacht galley?"
+      },
+      {
+        "level": "h3",
+        "text": "What desserts survive heat and movement on a yacht?"
+      },
+      {
+        "level": "h3",
+        "text": "Should I serve alcohol or mocktails on a Dubai yacht cruise?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I order yacht catering?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Yacht Party Menu Ideas Dubai: Planning a Yacht Party?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/yacht-party-menu-ideas-dubai",
+        "anchor": "Yacht party menu ideas",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-party-catering-dubai",
+        "anchor": "Bachelor party catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations/jbr",
+        "anchor": "JBR",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -75,7 +75,7 @@ export default function Blog() {
       <PageHero
         eyebrow="News & Inspiration"
         title="Blog"
-        subtitle="How a household chef visit is priced, how a catering night is staffed, and what to ask before you book. Written for hosts in Dubai, not for a keyword list."
+        subtitle={"Practical advice for hosting in Dubai, covering household chefs, event catering, menus and the details to confirm before you book."}
         image="/images/mychef-dubai-blog-hero.webp"
         imageAlt="Private chef evening in a Dubai villa: the host stays seated with guests while the culinary team finishes service"
         imageWidth={1920}

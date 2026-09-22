@@ -129,7 +129,7 @@ export default function Villas() {
       <PageHero
         eyebrow="Villas & private residences"
         title="Villa Chef Dubai"
-        subtitle="A chef in your kitchen: standing household days, or one night for guests. Villa chef Dubai covers the gate, the kitchen you actually have, and the clear-down so you stay at the table. Tell us which job it is."
+        subtitle={"A private chef for your Dubai villa, for regular household meals or a special occasion with guests. Menus and service are planned around your kitchen, preferences and schedule, with clear-down included in the agreed scope."}
         image={HERO_IMAGE}
         imageAlt="Villa catering in Dubai: outdoor table and service team. Experience concept shown."
         imageWidth={1344}
@@ -152,7 +152,7 @@ export default function Villas() {
           <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
           <DisplayHeading className="text-black mb-6">The house is the same. The job is not.</DisplayHeading>
           <BodyCopy className="mb-5">
-            The booking is a chef working in your home: the gate, the kitchen you actually have, and a kitchen left as they found it. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF matches the chef, sets the brief and stays the contact when the house changes.
+            Your villa chef works within the home and facilities you provide. We coordinate the match, food preferences, access arrangements and service plan with the culinary partner, and remain your point of contact as your requirements change.
           </BodyCopy>
           <BodyCopy>
             One dinner is catering. We send that brief there, not into a household plan. A chef who comes back, with a Food Profile behind them, is the other product.

@@ -19,7 +19,7 @@ const config: OccasionPageConfig = {
   breadcrumbLabel: 'Afternoon Tea Catering Dubai',
   h1: 'Afternoon Tea Catering Dubai',
   heroSub:
-    'Afternoon tea catering Dubai at your address: finger sandwiches, warm scones, petit fours and tea poured at the table. We set up, serve and clear down.',
+    "Afternoon tea catering in Dubai, with delicate sandwiches, warm scones, petit fours and tea served at your own table. Enjoy a considered service for a home gathering, celebration or business occasion.",
   heroImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan afternoon tea catering in Dubai (via mychef.ae/afternoon-tea-catering-dubai)",
@@ -28,7 +28,7 @@ const config: OccasionPageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Afternoon tea catering Dubai is a sitting in your home, villa or meeting room, not a hotel lounge you have to vacate. High tea catering Dubai uses the same rule: sandwiches, scones and cakes, tea poured, then the room put back. Send the date, guest count and address.
+        Afternoon tea catering in Dubai brings a classic selection of savouries and sweets to your home, villa or meeting room. We plan the menu, table presentation and service around your guest count and occasion, then take care of the agreed clear-down.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Guest count, the afternoon tea catering menu Dubai and how much service happens in the room move the quote. A staffed buffet starts from AED 120 per person. Canapés from AED 150. Drop-off from AED 90, with a 10-guest and AED 900 minimum. All figures are before 5% VAT. Dietary notes, including a halal afternoon tea catering Dubai brief, go into the first draft. No chef is guaranteed by name.

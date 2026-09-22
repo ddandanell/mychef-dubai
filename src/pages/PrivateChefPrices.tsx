@@ -266,7 +266,7 @@ export default function PrivateChefPrices() {
       <PageHero
         eyebrow="Transparent Pricing"
         title="Private Chef Dubai Price — AED 750/visit, monthly plans from AED 3,000"
-        subtitle="Four jobs, four numbers, one price each. Groceries at cost. Build the month before you enquire."
+        subtitle={"Choose the service and schedule that suit your household. Groceries are charged at actual cost, and your plan is confirmed in writing before you book."}
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
         imageWidth={1344}
@@ -287,7 +287,7 @@ export default function PrivateChefPrices() {
             <SectionLabel>September only</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-3">A full-day chef from AED 1,040 a day</h2>
             <p className="font-inter text-body text-gray-600 mb-6 max-w-[760px]">
-              Nine hours in your kitchen: the planning, the shopping, the cooking and the clearing up. AED 1,300 a day through September, and down to AED 1,040 a day at twenty days or more. Full-day chef only, and the rate moves a little with how far we travel to you.
+              Nine hours of planning, shopping, cooking and kitchen clear-down. The September full-day offer starts at AED 1,300 per day, reducing to AED 1,040 for bookings of 20 days or more. Location may affect the final rate; your proposal confirms the total.
             </p>
             <p className="font-inter text-body-sm text-gray-600 mb-3">A full-day chef is normally AED 1,500 a day. Every day you book, that is:</p>
             <ul className="space-y-2 mb-6">

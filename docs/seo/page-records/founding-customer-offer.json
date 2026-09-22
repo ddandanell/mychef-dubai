@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/founding-customer-offer",
+  "path": "/founding-customer-offer",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Packages / Offers",
+  "purpose": "Convert repeat customers to a benefits or referral programme.",
+  "keywords": {
+    "primary": "mychef founding customer offer",
+    "secondary": [
+      "mychef dubai offer",
+      "catering services on offer in dubai",
+      "meal plan dubai offer"
+    ],
+    "primary_owner": "/founding-customer-offer",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF Founding Customer Offer | Rate Lock | myCHEF",
+    "description": "myCHEF founding customer offer: Silver from AED 2,500 a year, Gold from AED 5,500, Platinum from AED 12,000. Rate locked 12 months. Chef quoted separately.",
+    "h1": [
+      "myCHEF Founding Customer Offer"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/founding-customer-offer",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/FoundingCustomerOffer.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 711,
+    "current_word_count": 715,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "myCHEF founding customer offer is a locked rate for a year"
+      },
+      {
+        "level": "h2",
+        "text": "Built Around You"
+      },
+      {
+        "level": "h3",
+        "text": "Priority Booking"
+      },
+      {
+        "level": "h3",
+        "text": "Locked-In Pricing"
+      },
+      {
+        "level": "h3",
+        "text": "Dedicated Concierge"
+      },
+      {
+        "level": "h3",
+        "text": "Complimentary Upgrades"
+      },
+      {
+        "level": "h2",
+        "text": "Choose Your Tier"
+      },
+      {
+        "level": "h3",
+        "text": "Silver Founding Member"
+      },
+      {
+        "level": "h3",
+        "text": "Gold Founding Member"
+      },
+      {
+        "level": "h3",
+        "text": "Platinum Founding Member"
+      },
+      {
+        "level": "h2",
+        "text": "myCHEF Founding Customer Offer: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What is a founding customer?"
+      },
+      {
+        "level": "h3",
+        "text": "How long is pricing locked in?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I share benefits with family or guests?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens after 12 months?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I sign up?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h2",
+        "text": "Lock In Your Founding Rate"
+      }
+    ],
+    "baseline_findings": [
+      "F23"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages"
+      },
+      {
+        "url": "/founding-customer-offer",
+        "anchor": "Mychef founding customer offer",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-packages-dubai",
+      "anchor": "Catering packages",
+      "alt_anchors": [
+        "catering packages dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/mychef-membership",
+        "anchor": "Mychef membership",
+        "alt_anchors": []
+      },
+      {
+        "url": "/loyalty-programme",
+        "anchor": "Mychef loyalty programme",
+        "alt_anchors": []
+      },
+      {
+        "url": "/gift-cards",
+        "anchor": "Mychef gift cards",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

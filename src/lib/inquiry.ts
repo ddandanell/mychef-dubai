@@ -3,6 +3,7 @@ export const LAST_SERVICE_PAGE_KEY = 'mc_last_service_page'
 const ACRONYMS = new Set(['bbq', 'vip', 'jbr', 'uae', 'nye', 'dj', 'ceo'])
 
 const FROM_LABELS: Record<string, string> = {
+  'catering-calculator': 'Catering calculator enquiry',
   yachts: 'Yacht catering',
   birthday: 'Birthday catering',
   'birthday-private': 'Birthday catering — private brief',

@@ -163,7 +163,7 @@ export default function OurChefs() {
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
         title="Private Chefs Dubai: Vetted, Tasted, Matched to Your Table"
-        subtitle="Private chefs Dubai on this page are independent, licensed cooks. Identity, a practical cooking assessment and references happen before anyone enters a home. Tell us the date, the room and what you want cooked. We typically reply within 15 minutes during business hours."
+        subtitle={"Meet private chefs in Dubai, selected through identity checks, practical cooking assessments and references. Share your preferences and occasion so we can recommend a suitable chef and confirm availability."}
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
@@ -186,17 +186,17 @@ export default function OurChefs() {
                 Finding a chef is easy. Knowing who you are letting into your home is harder.
               </h2>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                Private chefs Dubai on this page are independent, licensed professionals, not a marketplace list you have to manage. myCHEF holds the booking. The chef cooks. You approve a named profile before anyone starts.
+                The private chefs in our Dubai network bring distinct culinary skills to homes and events. myCHEF coordinates the booking and presents a named profile for your approval, with availability and the agreed service confirmed in writing.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                Matching is cuisine, format and setting, not whoever is free. A plated dinner for eight is not a live grill for eighty. If you want a female chef in the room, say so in the brief. A BBQ night is the same network on a grill, not a second company.
+                The chef match reflects the cuisine, service format and setting, together with your household preferences. Tell us what matters to you, and we will recommend a suitable available professional.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 A standing household chef is a different product: the same person, a Food Profile, backup if they are off. That lives on{' '}
                 <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
                   private chef
                 </Link>
-                . This page is who cooks, and what we check before they do.
+                . Explore the profiles and the checks that support each match.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
                 Chefs on the network work to Dubai Municipality food-safety requirements. Partner kitchens hold the food licences. We organise the match, the brief and the review after the night.

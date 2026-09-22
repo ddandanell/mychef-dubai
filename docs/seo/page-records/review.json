@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/review",
+  "path": "/review",
+  "role": "noindex support page",
+  "page_type": "Utility / untargeted",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Leave a Review | myCHEF",
+    "description": "Share your myCHEF Dubai experience. Honest reviews from clients help the next host decide.",
+    "h1": [
+      "Leave a Review"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/review",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
+    "src/pages/ReviewRequest.tsx",
+    "src/sections/ReviewInviteSection.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 319,
+    "current_word_count": 312,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Booked with us? Tell the next client what it was actually like."
+      },
+      {
+        "level": "h2",
+        "text": "How a review works"
+      },
+      {
+        "level": "h3",
+        "text": "1. Send your review"
+      },
+      {
+        "level": "h3",
+        "text": "2. We confirm the booking"
+      },
+      {
+        "level": "h3",
+        "text": "3. It helps the next host"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "How do I leave a review?"
+      },
+      {
+        "level": "h3",
+        "text": "When will you reply?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I leave a review for a past event?"
+      },
+      {
+        "level": "h3",
+        "text": "What should I include in my review?"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to share your feedback?"
+      }
+    ],
+    "baseline_findings": [
+      "F12",
+      "F16",
+      "F21"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/review",
+        "anchor": "Review",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

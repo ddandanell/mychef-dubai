@@ -1,0 +1,645 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/yachts",
+  "path": "/yachts",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "yacht catering dubai",
+    "secondary": [
+      "yacht chef dubai",
+      "private chef yacht dubai",
+      "boat catering dubai",
+      "yacht party catering dubai",
+      "chef for yacht charter dubai",
+      "yacht catering packages dubai",
+      "new year yacht catering dubai",
+      "small yacht catering dubai",
+      "yacht catering dubai harbour",
+      "yacht dinner cruise dubai",
+      "food to bring on a yacht party"
+    ],
+    "primary_owner": "/yachts",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Yacht Catering Dubai | Private Chef & Catering | myCHEF",
+    "description": "Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.",
+    "h1": [
+      "Yacht Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/yachts",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/YachtCateringEstimator.tsx",
+    "src/components/system/index.tsx",
+    "src/components/yachts/YachtFullService.tsx",
+    "src/components/yachts/YachtHero.tsx",
+    "src/components/yachts/YachtInventory.tsx",
+    "src/components/yachts/YachtOccasions.tsx",
+    "src/components/yachts/YachtQuoteForm.tsx",
+    "src/components/yachts/YachtServiceLevels.tsx",
+    "src/components/yachts/YachtServiceSelector.tsx",
+    "src/components/yachts/YachtStickyCta.tsx",
+    "src/components/yachts/YachtWorkGallery.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/content/yachtCateringQuote.ts",
+    "src/content/yachtInventory.ts",
+    "src/content/yachtPage.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/analytics.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/Yachts.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 5602,
+    "current_word_count": 5471,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Yacht Catering Dubai — one team for the food experience"
+      },
+      {
+        "level": "h3",
+        "text": "Food"
+      },
+      {
+        "level": "h3",
+        "text": "Chefs"
+      },
+      {
+        "level": "h3",
+        "text": "Waiters"
+      },
+      {
+        "level": "h3",
+        "text": "Setup"
+      },
+      {
+        "level": "h3",
+        "text": "Service"
+      },
+      {
+        "level": "h3",
+        "text": "Clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "You choose the type of service. We build the team."
+      },
+      {
+        "level": "h2",
+        "text": "How do you want to eat on the water?"
+      },
+      {
+        "level": "h2",
+        "text": "A birthday, a corporate charter, or dinner with family?"
+      },
+      {
+        "level": "h2",
+        "text": "See a yacht day we already ran"
+      },
+      {
+        "level": "h3",
+        "text": "The brief"
+      },
+      {
+        "level": "h3",
+        "text": "How we load it"
+      },
+      {
+        "level": "h3",
+        "text": "What you are looking at"
+      },
+      {
+        "level": "h2",
+        "text": "One team for the entire yacht hospitality experience"
+      },
+      {
+        "level": "h2",
+        "text": "Service formats built for a moving yacht"
+      },
+      {
+        "level": "h3",
+        "text": "Reception and movement"
+      },
+      {
+        "level": "h3",
+        "text": "Tables and lounges"
+      },
+      {
+        "level": "h3",
+        "text": "Who the day is for"
+      },
+      {
+        "level": "h2",
+        "text": "Compact live stations that actually fit the deck"
+      },
+      {
+        "level": "h3",
+        "text": "Stations we write into proposals"
+      },
+      {
+        "level": "h2",
+        "text": "A proper canapé list — not six anonymous bites"
+      },
+      {
+        "level": "h3",
+        "text": "Meat"
+      },
+      {
+        "level": "h3",
+        "text": "Seafood"
+      },
+      {
+        "level": "h3",
+        "text": "Vegetarian"
+      },
+      {
+        "level": "h2",
+        "text": "A buffet that waiters actually run"
+      },
+      {
+        "level": "h3",
+        "text": "Cold"
+      },
+      {
+        "level": "h3",
+        "text": "Mains and sides"
+      },
+      {
+        "level": "h2",
+        "text": "Bowl food when a formal table will not fit"
+      },
+      {
+        "level": "h3",
+        "text": "Bowls we build"
+      },
+      {
+        "level": "h2",
+        "text": "Desserts that survive a moving deck"
+      },
+      {
+        "level": "h3",
+        "text": "Sweet service"
+      },
+      {
+        "level": "h2",
+        "text": "Beverage service — mocktails as standard, a bar where the yacht allows it"
+      },
+      {
+        "level": "h3",
+        "text": "Non-alcoholic"
+      },
+      {
+        "level": "h3",
+        "text": "Where the operator allows alcohol"
+      },
+      {
+        "level": "h3",
+        "text": "Bar equipment"
+      },
+      {
+        "level": "h2",
+        "text": "Chefs, waiters and bartenders — named in the proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Front of house"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Support"
+      },
+      {
+        "level": "h2",
+        "text": "Someone owns the timeline so you do not have to"
+      },
+      {
+        "level": "h3",
+        "text": "Coordination we handle"
+      },
+      {
+        "level": "h2",
+        "text": "Plates, glasses and stations — you should not hunt for rentals"
+      },
+      {
+        "level": "h3",
+        "text": "Table and glass"
+      },
+      {
+        "level": "h3",
+        "text": "Service equipment"
+      },
+      {
+        "level": "h2",
+        "text": "Yacht-safe styling — not a ballroom install"
+      },
+      {
+        "level": "h3",
+        "text": "Display and décor"
+      },
+      {
+        "level": "h2",
+        "text": "Marina loading is part of the service, not an extra you invent on the day"
+      },
+      {
+        "level": "h3",
+        "text": "On the pontoon and onboard"
+      },
+      {
+        "level": "h2",
+        "text": "Dietaries collected before we cook — not announced at the gangway"
+      },
+      {
+        "level": "h3",
+        "text": "What we plan for"
+      },
+      {
+        "level": "h2",
+        "text": "DJ and sound when the yacht — and the brief — need it"
+      },
+      {
+        "level": "h3",
+        "text": "Optional production"
+      },
+      {
+        "level": "h2",
+        "text": "Corporate charters, speeches and client entertaining"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate use"
+      },
+      {
+        "level": "h2",
+        "text": "A 113-guest day at Dubai Harbour"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Canapé Reception"
+      },
+      {
+        "level": "h3",
+        "text": "International Premium Buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Canapés + Live Station"
+      },
+      {
+        "level": "h3",
+        "text": "In that written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Yours to arrange"
+      },
+      {
+        "level": "h2",
+        "text": "See an indicative number, then send the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about the yacht day"
+      },
+      {
+        "level": "h2",
+        "text": "The food plan is written before anyone loads"
+      },
+      {
+        "level": "h3",
+        "text": "Vetted chefs"
+      },
+      {
+        "level": "h3",
+        "text": "Waiters from the headcount"
+      },
+      {
+        "level": "h3",
+        "text": "Menus for the yacht"
+      },
+      {
+        "level": "h3",
+        "text": "Marina loading"
+      },
+      {
+        "level": "h3",
+        "text": "Halal-first kitchen standards"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Clear-down before docking"
+      },
+      {
+        "level": "h3",
+        "text": "Licensed culinary partners"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us the date. We write the food plan."
+      },
+      {
+        "level": "h3",
+        "text": "Send the basics"
+      },
+      {
+        "level": "h3",
+        "text": "We write the food and service plan"
+      },
+      {
+        "level": "h3",
+        "text": "We coordinate with the yacht"
+      },
+      {
+        "level": "h3",
+        "text": "You keep the charter"
+      },
+      {
+        "level": "h2",
+        "text": "The yacht decides how the food can work"
+      },
+      {
+        "level": "h3",
+        "text": "Galley"
+      },
+      {
+        "level": "h3",
+        "text": "Loading"
+      },
+      {
+        "level": "h3",
+        "text": "Service"
+      },
+      {
+        "level": "h3",
+        "text": "Clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "We follow the boat to the marina"
+      },
+      {
+        "level": "h2",
+        "text": "Guides and neighbouring pages"
+      },
+      {
+        "level": "h2",
+        "text": "What hosts ask before they book"
+      },
+      {
+        "level": "h3",
+        "text": "How much does yacht catering in Dubai cost?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide the yacht?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook onboard?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide a private chef?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide waiters?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide a bartender?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you arrange BBQ onboard?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a yacht birthday?"
+      },
+      {
+        "level": "h3",
+        "text": "Which Dubai marinas do you serve?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should we book?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "What information do you need for a quote?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if the yacht galley is small?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum number of guests?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if the sea is rough?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide plates, glasses and cutlery?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you clear everything after service?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide an event manager?"
+      },
+      {
+        "level": "h3",
+        "text": "Which live stations can you run on a yacht?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle vegetarian, vegan or gluten-free guests?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide a DJ or sound?"
+      },
+      {
+        "level": "h2",
+        "text": "Have the party on the water. We handle the eating and drinking."
+      },
+      {
+        "level": "h2",
+        "text": "More in Catering"
+      }
+    ],
+    "baseline_findings": [
+      "F01",
+      "F15",
+      "F20"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/blog/yacht-party-menu-ideas-dubai",
+        "anchor": "Yacht party menu ideas",
+        "alt_anchors": []
+      },
+      {
+        "url": "/bar-services-dubai",
+        "anchor": "Bar services",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/yacht-party-menu-ideas-dubai",
+        "anchor": "Yacht party menu ideas",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/jbr",
+        "anchor": "JBR",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

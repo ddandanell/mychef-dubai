@@ -314,7 +314,7 @@ export default function BusinessLunchCatering() {
             Business Lunch Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 blun-hero-sub">
-            Boardrooms and client sittings. Drop-off from AED 90 per person. Plated client lunch AED 700 to 950. Staff, when booked, set, replenish and leave. They do not join the meeting.
+            Business lunches for boardrooms and client meetings, with discreet service that respects your agenda. Drop-off starts from AED 90 per person; bespoke plated dining is AED 700–950 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a quote for this package</Link>
@@ -342,7 +342,7 @@ export default function BusinessLunchCatering() {
             Business lunch catering Dubai that stays in the room
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Business lunch catering in Dubai is food in your boardroom, timed to the agenda. A working lunch arrives labelled and ready, so the meeting stays in the room. A client lunch is plated and staffed, so the table feels looked after without anyone leaving for a restaurant.
+            Business lunch catering in Dubai keeps the meal aligned with your meeting. Choose a labelled working lunch delivered ready to serve, or a plated client lunch with attentive table service. Menus, access and timings are agreed around your agenda.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Delivered working lunches start from AED 90 per person. Chef-led plated client lunches are AED 700 to 950 per person. Choose the format that suits the meeting. Recurring team days sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A seated evening for 10 to 15 guests is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.

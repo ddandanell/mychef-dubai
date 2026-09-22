@@ -19,7 +19,7 @@ const config: ServicePageConfig = {
   breadcrumbLabel: 'Tasting Menu Dubai',
   h1: 'Private tasting menu Dubai',
   heroSub:
-    'A private tasting menu in Dubai at your table: courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table and not a wedding catalogue.',
+    "A private tasting menu in Dubai, prepared in your kitchen and served at your table. Discover a succession of considered courses, with the pace and style shaped around your occasion.",
   heroImage: '/images/tasting-menu-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book a tasting menu or chef's table in Dubai (via mychef.ae/tasting-menu-dubai)",
@@ -28,7 +28,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A private tasting menu Dubai is a set of courses cooked in your kitchen and served at your table. The chef plates each course, says what is in it, and times the next one around the conversation. This is not a restaurant chef’s table, and it is not a wedding catalogue. It works in a Palm Jumeirah villa, a Downtown penthouse, a boardroom or a venue you have already booked.
+        A private tasting menu in Dubai brings the chef’s craft to your own table. Each course is prepared, plated and introduced for your guests, with time to enjoy the food and conversation. Host in a villa, apartment, boardroom or agreed private venue, with facilities confirmed during planning.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

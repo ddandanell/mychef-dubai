@@ -19,7 +19,7 @@ const config: OccasionPageConfig = {
   breadcrumbLabel: 'Desert Dining & Camp Catering Dubai',
   h1: 'Desert Dining Dubai',
   heroSub:
-    'Desert dining Dubai: private dune dinners, Bedouin-style sharing menus and camp catering. Live grills, Arabic plates and service at a site you have booked.',
+    "Desert dining in Dubai, with private dinners, Arabic sharing menus and live grills at your chosen site. The menu, equipment and service are planned around the setting and the evening light.",
   heroImage: '/images/desert-dining-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan desert dining or camp catering in Dubai (via mychef.ae/desert-dining-dubai)",
@@ -28,7 +28,7 @@ const config: OccasionPageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Desert dining Dubai is catering at a licensed camp, a private setup or a dune site you have already booked. We do not run the camp. We bring the chef, the food, the service team and the pack-down. Menus that hold up outdoors: Arabic sharing plates, live grills, rice dishes and slow-cooked meats, planned around heat, wind and the time the sun goes down.
+        Desert dining in Dubai brings a private catering service to a camp or agreed outdoor site you have booked. We coordinate the chef, menu, service team and clear-down, accounting for access, heat, wind and available facilities. Arabic sharing plates, grills and slow-cooked dishes are well suited to the setting.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

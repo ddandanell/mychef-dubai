@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/dessert-table-catering-dubai",
+  "path": "/dessert-table-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Catering",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "dessert table catering dubai",
+    "secondary": [
+      "dessert table catering dubai price",
+      "dessert table catering price per person dubai",
+      "best dessert table catering dubai",
+      "dessert table catering packages dubai",
+      "dessert table catering menu dubai",
+      "halal dessert table catering dubai",
+      "sweet table dubai",
+      "dessert table setup dubai",
+      "dessert table dubai",
+      "childrens dessert table dubai",
+      "dessert shops in dubai",
+      "wedding catering in dubai"
+    ],
+    "primary_owner": "/dessert-table-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Dessert Table Catering Dubai | Styled Sweet Table | myCHEF",
+    "description": "Dessert table catering Dubai: cake, patisserie and a styled sweet table, built on site and packed down. Quoted with the rest of the catering.",
+    "h1": [
+      "Dessert Table Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/dessert-table-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/DessertTableCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2253,
+    "current_word_count": 2253,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What dessert table catering Dubai is"
+      },
+      {
+        "level": "h2",
+        "text": "How the table is built"
+      },
+      {
+        "level": "h3",
+        "text": "Centrepiece cake"
+      },
+      {
+        "level": "h3",
+        "text": "Patisserie"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding sweet table"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday sweet table"
+      },
+      {
+        "level": "h3",
+        "text": "Baby shower sweets"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert and coffee"
+      },
+      {
+        "level": "h2",
+        "text": "When a sweet table is enough"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding sweet tables"
+      },
+      {
+        "level": "h3",
+        "text": "Birthdays"
+      },
+      {
+        "level": "h3",
+        "text": "Baby showers"
+      },
+      {
+        "level": "h3",
+        "text": "After a seated dinner"
+      },
+      {
+        "level": "h2",
+        "text": "What the dessert table quote lists"
+      },
+      {
+        "level": "h2",
+        "text": "Cake and patisserie in the room"
+      },
+      {
+        "level": "h2",
+        "text": "Dessert Table Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in a dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you make a custom cake for the table?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you style the dessert table to match my theme?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you set up and clear the dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a dessert table cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How many desserts should I order per guest?"
+      },
+      {
+        "level": "h3",
+        "text": "Will the desserts survive Dubai's heat and stay fresh?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your desserts halal and made to Dubai food-safety standards?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you do a dessert table for a small gathering as well as a large event?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a wedding cake included, or is that separate from the dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer a tasting before I confirm the dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you add branded or logo desserts for corporate events?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you match a specific theme or party colour scheme for kids and birthdays?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide the stands, cake plinths, and styling props?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you deliver and set up the dessert table at my villa or venue?"
+      },
+      {
+        "level": "h3",
+        "text": "How long does the dessert table need for set-up on the day?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I add a live dessert or coffee station to the table?"
+      },
+      {
+        "level": "h3",
+        "text": "What's the difference between a dessert table and a grazing table?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a dessert table be part of full-service catering for my event?"
+      },
+      {
+        "level": "h3",
+        "text": "What goes into the dessert table catering Dubai price?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in dessert table catering packages Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Dessert tables across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert tables across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the occasion, the headcount and the cake brief"
+      },
+      {
+        "level": "h2",
+        "text": "More in Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering"
+      },
+      {
+        "url": "/dessert-table-catering-dubai",
+        "anchor": "Dessert table catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": [
+        "catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/live-cooking-stations-dubai",
+        "anchor": "Dessert cart",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/matteo-pastry-chef",
+        "anchor": "Matteo — pastry",
+        "alt_anchors": []
+      },
+      {
+        "url": "/grazing-table-dubai",
+        "anchor": "Grazing tables",
+        "alt_anchors": []
+      },
+      {
+        "url": "/wedding-catering-dubai",
+        "anchor": "Wedding catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

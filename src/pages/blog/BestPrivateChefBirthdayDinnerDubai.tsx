@@ -133,7 +133,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
       <PageHero
         eyebrow="Birthday"
         title="Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
-        subtitle="How to host a birthday dinner at home or in your villa with a chef: menu, timing and what to send so we can quote."
+        subtitle={"Plan a birthday dinner at home or in your Dubai villa, with advice on menus, service timings and the details to include in your enquiry."}
         image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}
@@ -171,7 +171,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
               Whether you are planning an intimate dinner for six or a lively celebration for thirty, this guide covers menu ideas, indicative costs, and the practical steps to book the right chef.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Your quote reflects the menu, guest count, service style and venue requirements. We set out the food, staffing and other inclusions in writing, with dietary needs considered from the first menu draft.
             </p>
           </section>
 

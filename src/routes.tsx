@@ -118,12 +118,10 @@ const WeddingCateringChecklist: PreloadableComponent = lazyPreloadable(() => imp
 const CorporateCateringChecklist: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/CorporateCateringChecklist'))
 const PrivateChefVsCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/PrivateChefVsCatering'))
 const BuffetVsPlated: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/BuffetVsPlated'))
-const YachtCateringGuide: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/YachtCateringGuide'))
 const RamadanCateringGuide: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/RamadanCateringGuide'))
 const LuxuryDinnerPlanningGuide: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/LuxuryDinnerPlanningGuide'))
 const PrivateDiningGuide: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/PrivateDiningGuide'))
 const EventCateringPriceGuide2026: PreloadableComponent = lazyPreloadable(() => import('./pages/EventCateringPriceGuide2026'))
-const YachtCateringChecklist: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/YachtCateringChecklist'))
 const WeddingMenuPlanningGuide: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/WeddingMenuPlanningGuide'))
 const DubaiFoodTrendsReport2026: PreloadableComponent = lazyPreloadable(() => import('./pages/guides/DubaiFoodTrendsReport2026'))
 const BarServices: PreloadableComponent = lazyPreloadable(() => import('./pages/BarServices'))
@@ -285,12 +283,10 @@ export const routes: AppRoute[] = [
   { path: "/corporate-catering-checklist-dubai", element: <CorporateCateringChecklist />, preload: CorporateCateringChecklist.preload },
   { path: "/private-chef-vs-catering-dubai", element: <PrivateChefVsCatering />, preload: PrivateChefVsCatering.preload },
   { path: "/buffet-vs-plated-dubai", element: <BuffetVsPlated />, preload: BuffetVsPlated.preload },
-  { path: "/yacht-catering-guide-dubai", element: <YachtCateringGuide />, preload: YachtCateringGuide.preload },
   { path: "/ramadan-catering-guide-dubai", element: <RamadanCateringGuide />, preload: RamadanCateringGuide.preload },
   { path: "/luxury-dinner-planning-guide-dubai", element: <LuxuryDinnerPlanningGuide />, preload: LuxuryDinnerPlanningGuide.preload },
   { path: "/guide/private-dining-dubai", element: <PrivateDiningGuide />, preload: PrivateDiningGuide.preload },
   { path: "/dubai-event-catering-price-guide-2026", element: <EventCateringPriceGuide2026 />, preload: EventCateringPriceGuide2026.preload },
-  { path: "/yacht-catering-checklist-dubai", element: <YachtCateringChecklist />, preload: YachtCateringChecklist.preload },
   { path: "/wedding-catering-menu-planning-dubai", element: <WeddingMenuPlanningGuide />, preload: WeddingMenuPlanningGuide.preload },
   { path: "/dubai-food-trends-report-2026", element: <DubaiFoodTrendsReport2026 />, preload: DubaiFoodTrendsReport2026.preload },
   { path: "/bar-services-dubai", element: <BarServices />, preload: BarServices.preload },

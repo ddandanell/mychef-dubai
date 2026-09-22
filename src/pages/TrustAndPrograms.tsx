@@ -55,7 +55,7 @@ export default function TrustAndPrograms() {
         variant="quiet"
         eyebrow="About myCHEF"
         title={trustAndProgramsSeo.h1}
-        subtitle="How the standards, protection and programmes behind a myCHEF booking actually work. Each one has its own page."
+        subtitle={"Explore the standards, booking arrangements and programmes that support a myCHEF experience."}
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="A private chef working in a Dubai kitchen. Experience concept shown."
         imageWidth={1683}
@@ -80,8 +80,7 @@ export default function TrustAndPrograms() {
               Everything That Sits Behind the Booking
             </DisplayHeading>
             <BodyCopy tone="muted">
-              Chef certification, quality cover and booking protection on one side; membership, loyalty,
-              referrals and how to work with us on the other. Each page carries its own detail and terms.
+              Learn how chef selection, quality reviews and booking protection work, then explore membership, rewards and partnership opportunities. Each programme has its own scope and terms.
             </BodyCopy>
           </div>
 

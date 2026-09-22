@@ -20,7 +20,7 @@ const config: ServicePageConfig = {
   breadcrumbLabel: 'Halal Private Dining Dubai',
   h1: 'Halal Private Dining Dubai',
   heroSub:
-    'Halal Private Dining Dubai is a chef and a small team in your home. Halal meat as standard. Pork is not assumed. You sit with your guests while we cook, serve and pack down.',
+    "Halal private dining in Dubai, with a chef and service tailored to your home and occasion. Enjoy a thoughtfully prepared menu with halal meat and poultry and your dietary requirements confirmed in advance.",
   heroImage: '/images/halal-private-dining-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book halal private dining in Dubai (via mychef.ae/halal-private-dining-dubai)",
@@ -29,7 +29,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        This is not a restaurant private room and we are not a venue. Halal Private Dining Dubai means a partner chef cooks in your villa, apartment or hired dining space. Meat and poultry are sourced halal as standard. Pork stays off. Cooking alcohol stays off unless you ask for it in writing. Specific certificates belong in the brief.
+        Halal private dining in Dubai takes place in your villa, apartment or agreed private venue. Meat and poultry are sourced as halal, and halal menus exclude pork and cooking alcohol. Share any certification or kitchen preparation requirements so these can be verified before you confirm.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
@@ -51,7 +51,7 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
         Not sure what to confirm before booking? Read{' '}
-        <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           what to ask a halal caterer
         </Link>
         {' '}before you plan.

@@ -95,7 +95,7 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Identity & background</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Only checks we actually run</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Someone is coming into your home. We check identity and right to work, run a practical cooking assessment, take references, and require food-hygiene awareness. That is the list. We ask to see the visa and the right-to-work document before anyone cooks in your kitchen. Not a tick on a form: the document itself.
+            Before a chef cooks in your home, we review identity and right-to-work documents, assess practical cooking ability and take references. Food hygiene awareness is required, and these checks form part of the household matching process.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
             We are not an agency. Nobody sends you a stack of CVs and then disappears once someone is hired. We stay in the assignment. The checks below are ours to run, and ours to stand behind for as long as the chef is in your family’s home.

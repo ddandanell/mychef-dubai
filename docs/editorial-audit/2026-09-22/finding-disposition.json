@@ -1,0 +1,462 @@
+{
+  "date": "2026-09-22",
+  "findings": [
+    {
+      "id": "F01",
+      "priority": "P1",
+      "title": "Yacht example total and calculator disagree",
+      "evidence": "Premium Canapé Reception is AED 170 per guest. For 113 guests, the page publishes AED 20,218 including VAT. Its interactive calculator attaches AED 20,171. Arithmetic is 170 × 113 × 1.05 = AED 20,170.50. The FAQ also describes the per-head rates as VAT-inclusive, while the calculator adds VAT.",
+      "impact": "Two totals for the same illustrated booking undermine price confidence.",
+      "action": "Use one approved unrounded rate and one tax basis for examples, calculator, FAQs and structured offers. Explain any extra line item. Verify 113 guests produces the same final total everywhere.",
+      "urls": [
+        "https://www.mychef.ae/yachts"
+      ],
+      "owner": "Operations + developer",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Yacht examples now use the estimator’s rates and VAT calculation; numeric regressions cover all three formats."
+    },
+    {
+      "id": "F02",
+      "priority": "P1",
+      "title": "Packages and per-person floors need a clear distinction",
+      "evidence": "Menus and homepage offer Date Night for two from AED 1,200, while Menus also offers chef-led plated dining from AED 700 per person for two guests and up. Family Feast and Full Experience use further package totals. FAQ says the business does not sell a shelf of fixed boxes, but packages are prominently named elsewhere.",
+      "impact": "Customers cannot easily tell why a plated dinner for two starts at AED 1,200 in one offer and AED 1,400 in another. These may be different products, but the distinction is not clear.",
+      "action": "Approve a product matrix defining menu level, guest range, staff, ingredients, equipment, hours, minimum spend and VAT basis. Explain the package exception directly beside both prices.",
+      "urls": [
+        "https://www.mychef.ae/",
+        "https://www.mychef.ae/menus",
+        "https://www.mychef.ae/catering-dubai",
+        "https://www.mychef.ae/catering-packages-dubai",
+        "https://www.mychef.ae/faq",
+        "https://www.mychef.ae/date-night-package-dubai"
+      ],
+      "owner": "Content + operations",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "The homepage FAQ reflects the actual packages and separates them from bespoke dining."
+    },
+    {
+      "id": "F03",
+      "priority": "P1",
+      "title": "The private-chef definition changes across pages",
+      "evidence": "The household hub defines private chef as recurring service and says one-night dinners are catering. FAQ defines the difference by small gatherings versus larger events. Catering says the split is not guest count, then suggests starting with household pricing for seated dinners under about 20.",
+      "impact": "People can be routed to the wrong product or compare prices for different services.",
+      "action": "Agree the customer-facing distinction and apply it to all hubs, FAQs, cards and CTAs. Acknowledge that customers may use “private chef” for a one-off dinner, then route them with friendly wording.",
+      "urls": [
+        "https://www.mychef.ae/private-chef-dubai",
+        "https://www.mychef.ae/catering-dubai",
+        "https://www.mychef.ae/faq",
+        "https://www.mychef.ae/how-it-works",
+        "https://www.mychef.ae/villas-private-residences"
+      ],
+      "owner": "Content + operations",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Household cooking, event catering and dining copy now explains the service and price basis."
+    },
+    {
+      "id": "F04",
+      "priority": "P1",
+      "title": "Past-event claims conflict with the case-studies page",
+      "evidence": "Catering lists an Emirates Hills wedding for 80, a DIFC product launch for 60 and a Downtown gala for 200 as events already run, with outcomes. Case Studies says its cards are typical formats without invented counts or named results. Events and private-party pages also use past-work framing.",
+      "impact": "The supporting proof page does not substantiate the claims made on sales pages.",
+      "action": "Match each claim to an actual approved booking record and image permission, or relabel it clearly as an example. Keep illustrative formats separate from completed-event case studies.",
+      "urls": [
+        "https://www.mychef.ae/catering-dubai",
+        "https://www.mychef.ae/events",
+        "https://www.mychef.ae/private-party-catering-dubai",
+        "https://www.mychef.ae/case-studies"
+      ],
+      "owner": "Content + operations",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Unsubstantiated case-style descriptions are explicitly presented as illustrative formats."
+    },
+    {
+      "id": "F05",
+      "priority": "P1",
+      "title": "Operational promises need an evidence register",
+      "evidence": "Pages promise a Food Profile, scoring after visits, reference checks, documented visa/right-to-work checks, practical assessments and backup. Four chef profiles name individuals and list certifications; the vetting page says it does not claim every chef holds a named certificate. An academy publishes paid courses.",
+      "impact": "The website advertises operational systems and credentials that public browsing cannot verify.",
+      "action": "Theo and operations should confirm which services and processes are active, the supporting evidence, responsible owner and exact approved wording. Verify each named chef, portrait permission and qualification; do not infer that profiles are fabricated.",
+      "urls": [
+        "https://www.mychef.ae/private-chef-dubai",
+        "https://www.mychef.ae/private-chef-dubai/our-chefs",
+        "https://www.mychef.ae/how-we-vet-our-chefs",
+        "https://www.mychef.ae/our-chefs",
+        "https://www.mychef.ae/chefs/ahmed-executive-chef",
+        "https://www.mychef.ae/chefs/layla-middle-eastern-chef",
+        "https://www.mychef.ae/chefs/marco-italian-chef",
+        "https://www.mychef.ae/chefs/matteo-pastry-chef",
+        "https://www.mychef.ae/chef-training-academy",
+        "https://www.mychef.ae/mychef-certified"
+      ],
+      "owner": "Theo + operations",
+      "confidence": "Claims observed; delivery unverified",
+      "implementation_status": "business evidence required",
+      "implementation_note": "Credentials, capacity, operating processes, chef certifications and testimonials cannot be authenticated from the website repository."
+    },
+    {
+      "id": "F06",
+      "priority": "P1",
+      "title": "Membership cannot pay for itself in credits alone",
+      "evidence": "Membership says it can pay for itself in credits. Lite costs AED 99/month = AED 1,188/year and grants AED 200/year in credits. Premium costs AED 199/month = AED 2,388/year and grants AED 600/year. Other benefits may add value, but credits alone do not cover either fee.",
+      "impact": "The value claim is mathematically unsupported.",
+      "action": "Replace the claim with accurate annual costs, credit values, expiry and a worked benefit example. Define what Premium’s 10% discount applies to and how it combines with other promotions.",
+      "urls": [
+        "https://www.mychef.ae/mychef-membership"
+      ],
+      "owner": "Operations + content",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Membership annual fees and credit amounts are stated without unsupported break-even claims."
+    },
+    {
+      "id": "F07",
+      "priority": "P1",
+      "title": "Privacy policy contains a placeholder contact",
+      "evidence": "Privacy Policy says “Last updated: January 2025” and lists WhatsApp as +971 50 XXX XXXX. Its disclosure of tracking is generic while several third-party scripts are present.",
+      "impact": "A customer cannot use the stated privacy WhatsApp contact; the policy does not clearly describe the observed current toolset.",
+      "action": "Replace the placeholder, confirm the controller and current data flows, and update the policy to match actual collection, sharing, retention and third-party processing. This is a content/data-flow review, not a finding about legal compliance.",
+      "urls": [
+        "https://www.mychef.ae/privacy-policy",
+        "https://www.mychef.ae/contact"
+      ],
+      "owner": "Operations + privacy owner",
+      "confidence": "Observed",
+      "implementation_status": "partially resolved",
+      "implementation_note": "Corrected the privacy telephone number and disclosed the visible analytics integrations. Entity details, retention and vendor/consent arrangements still need operational confirmation."
+    },
+    {
+      "id": "F08",
+      "priority": "P1",
+      "title": "Internal implementation language is visible to customers",
+      "evidence": "Nursery and hospital pages say documentation must sit in “src/content/”. Canapé, engagement, private-party and bar copy talks about not creating a second URL. The HTML sitemap uses labels such as “Content gaps closed” and “Bluebook trust & service pages”.",
+      "impact": "Internal editorial instructions make the website feel unfinished and distract customers from the service.",
+      "action": "Replace development and SEO terminology with customer-relevant information. Search the full copy for file paths, silo language, “owns this page”, “second URL”, production notes and editorial status labels.",
+      "urls": [
+        "https://www.mychef.ae/nursery-catering-dubai",
+        "https://www.mychef.ae/hospital-catering-dubai",
+        "https://www.mychef.ae/canape-catering-dubai",
+        "https://www.mychef.ae/engagement-catering-dubai",
+        "https://www.mychef.ae/private-party-catering-dubai",
+        "https://www.mychef.ae/bar-services-dubai",
+        "https://www.mychef.ae/site-map"
+      ],
+      "owner": "Content",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Removed internal route, SEO and implementation language from the reviewed customer-facing copy."
+    },
+    {
+      "id": "F09",
+      "priority": "P1",
+      "title": "Comparison page promises source links that are not anchors",
+      "evidence": "Best Catering Companies says each competitor figure carries its source link and lists primary sources. The rendered page contains no competitor source hrefs; the source names are plain text.",
+      "impact": "Readers cannot verify the advertised comparison evidence.",
+      "action": "Restore the exact official page/PDF hyperlinks for each quoted figure, record capture dates and refresh the data. Avoid carrying old competitor prices into new copy without checking them.",
+      "urls": [
+        "https://www.mychef.ae/best-catering-companies-dubai"
+      ],
+      "owner": "Content + developer",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Replaced the unsupported competitor price/ranking table with practical comparison criteria and publisher transparency."
+    },
+    {
+      "id": "F10",
+      "priority": "P2",
+      "title": "Several “best companies” articles compare categories instead",
+      "evidence": "The BBQ comparison ranks myCHEF alongside categories such as hotel in-house catering, boutique BBQ specialist and drop-off caterer. Similar category comparisons recur across the “best” article series.",
+      "impact": "A headline promising a company shortlist leads to a service-format comparison and a self-awarded winner.",
+      "action": "Either research and name real providers with consistent sourced criteria, or retitle these as format-selection guides. Disclose myCHEF authorship and avoid unsupported superiority claims.",
+      "urls": [
+        "https://www.mychef.ae/blog/best-bbq-catering-companies-in-dubai",
+        "https://www.mychef.ae/blog/best-halal-catering-companies-in-dubai",
+        "https://www.mychef.ae/blog/best-wedding-catering-companies-in-dubai"
+      ],
+      "owner": "SEO + content",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Fifteen comparison articles now identify their provider publisher and avoid unsupported independent-winner claims."
+    },
+    {
+      "id": "F11",
+      "priority": "P2",
+      "title": "Six sitemap URLs resolve to other routes",
+      "evidence": "Two yacht guides and four blog articles navigate to consolidated destinations while still appearing in the XML sitemap. Browser final destinations are known; redirect HTTP codes were not measured.",
+      "impact": "The sitemap and navigation retain aliases instead of consistently using intended destination URLs.",
+      "action": "Keep required legacy redirects, point internal links to the destinations, and remove aliases from the sitemap. Verify server-side redirect codes with deployment access.",
+      "urls": [
+        "https://www.mychef.ae/yacht-catering-guide-dubai",
+        "https://www.mychef.ae/yacht-catering-checklist-dubai",
+        "https://www.mychef.ae/blog/best-meal-prep-services-in-dubai",
+        "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
+        "https://www.mychef.ae/blog/best-catering-companies-in-dubai",
+        "https://www.mychef.ae/blog/how-much-does-a-private-chef-cost-in-dubai-in"
+      ],
+      "owner": "SEO + developer",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Sitemap contains 155 unique indexable URLs. All six discovered redirect aliases were removed; redirect records and internal links agree."
+    },
+    {
+      "id": "F12",
+      "priority": "P2",
+      "title": "Indexation is curated, not a complete public-page list",
+      "evidence": "All 33 discovered routes outside the sitemap have noindex, follow. These include policies and forms, but also seven local landing pages, Asian/Jain catering and household detail pages. The four sitemap locations are index, follow.",
+      "impact": "Removing noindex indiscriminately could undo a deliberate consolidation strategy; leaving it unquestioned may exclude useful commercial pages.",
+      "action": "Create an explicit indexation decision per route using distinct search intent, content quality and Search Console data. Preserve utility exclusions until there is a reason to change them.",
+      "urls": [
+        "https://www.mychef.ae/locations",
+        "https://www.mychef.ae/locations/palm-jumeirah",
+        "https://www.mychef.ae/locations/dubai-marina",
+        "https://www.mychef.ae/locations/downtown-dubai",
+        "https://www.mychef.ae/asian-catering-dubai",
+        "https://www.mychef.ae/jain-catering-dubai",
+        "https://www.mychef.ae/private-chef-dubai/quality-training"
+      ],
+      "owner": "SEO",
+      "confidence": "Observed directives; intent requires confirmation",
+      "implementation_status": "existing decision retained",
+      "implementation_note": "Noindex/parked status remains. Residual internal links to parked pages have been removed, while their URLs still resolve."
+    },
+    {
+      "id": "F13",
+      "priority": "P2",
+      "title": "Household matching page canonical points to a different kind of page",
+      "evidence": "/private-chef-dubai/our-chefs is noindex and canonicalises to /our-chefs. The first explains scoring and matching; the second presents four named profiles.",
+      "impact": "The relationship between the two pages needs an explicit content and indexation decision.",
+      "action": "Decide whether to merge, keep the household page as a noindex explainer, or make it a distinct indexable page. Do not change the canonical in isolation.",
+      "urls": [
+        "https://www.mychef.ae/private-chef-dubai/our-chefs",
+        "https://www.mychef.ae/our-chefs"
+      ],
+      "owner": "SEO + content",
+      "confidence": "Observed",
+      "implementation_status": "existing decision retained",
+      "implementation_note": "The household roster page retains its existing noindex/cross-canonical strategy pending a deliberate business decision."
+    },
+    {
+      "id": "F14",
+      "priority": "P1",
+      "title": "Two GA4 loader tags appear in the homepage source",
+      "evidence": "The homepage HTML includes gtag.js twice for the same measurement ID, once as a static script and once with id ga4-src. It also includes an inline whatsapp_click listener, Web Grower, Ryze, Vercel Analytics and Speed Insights.",
+      "impact": "Duplicate instrumentation is possible, but duplicate recorded events are not proven by the presence of two loaders.",
+      "action": "Inspect tag ownership and client navigation in GA4 DebugView/network tools. Keep one loading strategy and verify one event per interaction, consent behaviour and no personal data in event parameters.",
+      "urls": [
+        "https://www.mychef.ae/"
+      ],
+      "owner": "Developer + analytics",
+      "confidence": "Source observation; event duplication unverified",
+      "implementation_status": "resolved",
+      "implementation_note": "Removed the duplicate GA initialisation and WhatsApp listener in the HTML shell; retained the existing SPA analytics implementation."
+    },
+    {
+      "id": "F15",
+      "priority": "P2",
+      "title": "Generic catering calculator CTA lacks visible estimate context",
+      "evidence": "The catering calculator changes estimates, but “Get My Exact Quote” links to /inquiry with no URL parameters. The yacht calculator visibly prefills its on-page form, and the household planner packages its plan.",
+      "impact": "A customer may need to repeat information after calculating. Session-state handoff has not been verified.",
+      "action": "Carry format, headcount, service level and estimate into the enquiry and preserve attribution. Confirm behaviour through navigation before declaring the current handoff broken.",
+      "urls": [
+        "https://www.mychef.ae/catering-cost-calculator-dubai",
+        "https://www.mychef.ae/inquiry",
+        "https://www.mychef.ae/yachts",
+        "https://www.mychef.ae/private-chef-dubai/pricing"
+      ],
+      "owner": "Developer + conversion",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Calculator format, staffing and guest selections now survive into the enquiry; estimates are recalculated and invalid parameters rejected."
+    },
+    {
+      "id": "F16",
+      "priority": "P2",
+      "title": "Response promises mix acknowledgement, proposal and matching",
+      "evidence": "Shared badges promise a typical 15-minute reply in business hours; Inquiry also suggests a proposal or a vetted chef in that period. Review displays a 2-hour proposal response badge.",
+      "impact": "Staff and customers may interpret the response promise differently.",
+      "action": "Use one approved acknowledgement target and a separate realistic proposal/matching expectation. Label business hours in Dubai time.",
+      "urls": [
+        "https://www.mychef.ae/",
+        "https://www.mychef.ae/inquiry",
+        "https://www.mychef.ae/contact",
+        "https://www.mychef.ae/review"
+      ],
+      "owner": "Operations + content",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "The 15-minute target is described as an initial reply, with a proposal following review of the brief and availability."
+    },
+    {
+      "id": "F17",
+      "priority": "P2",
+      "title": "Guide links no longer deliver the advertised guide",
+      "evidence": "Homepage promotes a printable yacht checklist; both yacht guide and checklist routes resolve to the yacht service page. The original guide experience is not delivered by that destination.",
+      "impact": "The promised planning resource turns into a long sales page.",
+      "action": "Restore a distinct useful checklist, or rename the referring links to yacht catering. Ensure downloadable-resource promises have an actual working resource.",
+      "urls": [
+        "https://www.mychef.ae/",
+        "https://www.mychef.ae/guides",
+        "https://www.mychef.ae/yacht-catering-checklist-dubai",
+        "https://www.mychef.ae/yacht-catering-guide-dubai"
+      ],
+      "owner": "Content",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Guide cards and links now describe yacht catering/planning content; no downloadable checklist is promised."
+    },
+    {
+      "id": "F18",
+      "priority": "P2",
+      "title": "Shared navigation is large and repetitive",
+      "evidence": "The desktop homepage footer contains 75 links, including repeated company/planning destinations. Main navigation has seven customer categories plus brand/chat. Related-page blocks frequently repeat commercial hubs.",
+      "impact": "Customers face a large set of choices after long pages, with limited prioritisation.",
+      "action": "Keep the two main service paths, group planning/trust links clearly, trim duplicate footer destinations and use genuinely relevant related pages. Measure clicks before changing established high-value navigation.",
+      "urls": [
+        "https://www.mychef.ae/",
+        "https://www.mychef.ae/contact",
+        "https://www.mychef.ae/site-map"
+      ],
+      "owner": "Design + SEO",
+      "confidence": "Observed",
+      "implementation_status": "future UX work",
+      "implementation_note": "Footer breadth remains a navigation/design optimisation opportunity."
+    },
+    {
+      "id": "F19",
+      "priority": "P2",
+      "title": "The homepage guide modal competes with booking choices",
+      "evidence": "A promotional “Get Our Private Dining Guide” modal appeared over the homepage during the desktop review and closed successfully. Trigger timing and repeat behaviour were not measured.",
+      "impact": "The modal can interrupt people trying to choose household service or catering.",
+      "action": "Test less intrusive placement or a delayed/contextual trigger; verify keyboard focus, dismissal and mobile presentation. Track resulting qualified leads rather than guide clicks alone.",
+      "urls": [
+        "https://www.mychef.ae/"
+      ],
+      "owner": "Design + conversion",
+      "confidence": "Observed appearance; conversion impact unmeasured",
+      "implementation_status": "future UX work",
+      "implementation_note": "Enquiry overlays and their timing need a separate conversion design review; no speculative behavioural change was made."
+    },
+    {
+      "id": "F20",
+      "priority": "P2",
+      "title": "Long sales pages need stronger editing and navigation",
+      "evidence": "Twelve unique destination pages exceed approximately 3,000 extracted main-content words. Yacht is about 5,600, birthday about 4,700 and the comparison guide about 6,000. Counts include visible labels and FAQ copy and are approximate.",
+      "impact": "Useful detail is present, but repeated explanations and policy language can obscure the next decision.",
+      "action": "Lead with service, fit, inclusions, price logic, real proof and enquiry. Use compact anchor navigation and optional detail. Do not remove content solely to meet a word-count target.",
+      "urls": [
+        "https://www.mychef.ae/yachts",
+        "https://www.mychef.ae/birthday-catering-dubai",
+        "https://www.mychef.ae/catering-dubai",
+        "https://www.mychef.ae/corporate",
+        "https://www.mychef.ae/private-chef-dubai/pricing",
+        "https://www.mychef.ae/luxury-dining-experiences"
+      ],
+      "owner": "Content + design",
+      "confidence": "Observed",
+      "implementation_status": "improved",
+      "implementation_note": "Rewrote planning and comparison articles with clearer sections and fewer repeated claims. Further template consolidation can be evaluated against performance data."
+    },
+    {
+      "id": "F21",
+      "priority": "P2",
+      "title": "Review and social destinations need a brand decision",
+      "evidence": "The Review page sends feedback to WhatsApp rather than an external public review platform. The shared homepage social links and organization sameAs contain Facebook, Pinterest, LinkedIn, YouTube, X and Reddit, with no Instagram link.",
+      "impact": "Public reputation-building and the visible brand network may not match the channels the business prioritises.",
+      "action": "Confirm the official Instagram and public review destinations, then distinguish private service feedback from a public review. Use verified links and preserve honest review choice.",
+      "urls": [
+        "https://www.mychef.ae/review",
+        "https://www.mychef.ae/"
+      ],
+      "owner": "Theo + marketing",
+      "confidence": "Observed",
+      "implementation_status": "business evidence required",
+      "implementation_note": "Confirm the official social profile and desired public review destination before replacing or adding external links."
+    },
+    {
+      "id": "F22",
+      "priority": "P1",
+      "title": "September pricing needs one lifecycle and approved rules",
+      "evidence": "Household pricing publishes standard nine-hour full-day service at AED 1,500, September base AED 1,300, four discount bands down to AED 1,040, six available household slots and a three-month rate hold.",
+      "impact": "The site can create commitments about capacity, hours and rate duration unless those are maintained.",
+      "action": "Approve dates, available capacity, qualifying visit counts, location charges, cancellations and stacking rules. Schedule expiry in the content system and keep a single price source for the calculator and copy.",
+      "urls": [
+        "https://www.mychef.ae/private-chef-dubai",
+        "https://www.mychef.ae/private-chef-dubai/pricing"
+      ],
+      "owner": "Theo + operations",
+      "confidence": "Observed",
+      "implementation_status": "business evidence required",
+      "implementation_note": "The founding-customer capacity and promotional availability need confirmation by the offer owner."
+    },
+    {
+      "id": "F23",
+      "priority": "P1",
+      "title": "Rewards and memberships overlap without one clear rules table",
+      "evidence": "The site publishes monthly Lite/Premium membership, Gold/Platinum VIP, annual founding Silver/Gold/Platinum, loyalty multipliers and an AED 100 referral scheme. Founding Platinum offers unlimited upgrades and included florals; thresholds and point-to-credit conversion are not fully published.",
+      "impact": "Overlapping benefits can create unclear liabilities and discount combinations.",
+      "action": "Confirm which programmes are active, owners and fulfilment processes. Publish eligibility, fees, exclusions, caps, conversion values, expiry, cancellation and stacking in one approved programme matrix.",
+      "urls": [
+        "https://www.mychef.ae/mychef-membership",
+        "https://www.mychef.ae/vip-club",
+        "https://www.mychef.ae/founding-customer-offer",
+        "https://www.mychef.ae/loyalty-programme",
+        "https://www.mychef.ae/referral-programme"
+      ],
+      "owner": "Theo + operations",
+      "confidence": "Observed",
+      "implementation_status": "business evidence required",
+      "implementation_note": "Membership and reward fulfilment terms need owner-approved detail before stronger benefit promises are published."
+    },
+    {
+      "id": "F24",
+      "priority": "P1",
+      "title": "Allergen and certification wording is inconsistent in strength",
+      "evidence": "The specialist allergy page acknowledges shared kitchens and residual cross-contact risk. FAQ answers severe-allergy suitability broadly and says protocols prevent cross-contamination. Halal wording varies between sourcing by default and certification claims.",
+      "impact": "Customers with strict requirements need a consistent account of what can actually be confirmed for their booking.",
+      "action": "Use the approved qualified wording across FAQs, menus, schema and service pages; document the kitchen, supplier and controls before confirming a severe-allergy or certification-dependent brief. This audit does not verify safety performance.",
+      "urls": [
+        "https://www.mychef.ae/allergy-safe-catering-dubai",
+        "https://www.mychef.ae/faq",
+        "https://www.mychef.ae/halal-catering-dubai",
+        "https://www.mychef.ae/nursery-catering-dubai"
+      ],
+      "owner": "Operations + content",
+      "confidence": "Observed",
+      "implementation_status": "partially resolved",
+      "implementation_note": "Qualified allergy and institutional food claims and removed unsupported universal rules. Actual sourcing, cross-contact procedures and clinical requirements still need provider confirmation."
+    },
+    {
+      "id": "F25",
+      "priority": "P2",
+      "title": "Sitemap modification dates need verification, not cosmetic priority work",
+      "evidence": "157 sitemap entries use 21 September 2026; four use 16 September 2026. priority and changefreq fields are also present.",
+      "impact": "A common date may be legitimate, but deployment-wide timestamp updates can stop lastmod representing meaningful page edits.",
+      "action": "Check how lastmod is generated and keep it tied to meaningful updates. Focus on canonical URLs and accurate dates; Google ignores priority and changefreq.",
+      "urls": [
+        "https://www.mychef.ae/site-map"
+      ],
+      "owner": "SEO + developer",
+      "confidence": "Observed dates; generator unverified",
+      "implementation_status": "resolved",
+      "implementation_note": "Sitemap generation preserves prior dates and reads authored article timestamps instead of dating every page at build time."
+    },
+    {
+      "id": "F26",
+      "priority": "P2",
+      "title": "An advertised seven-course chef menu lists six items",
+      "evidence": "Ahmed’s Modern European Tasting introduction says seven courses, while the visible list contains six dishes.",
+      "impact": "Small copy inconsistencies weaken the precision of a premium menu.",
+      "action": "Either name the missing course or correct the stated count; confirm all sample menus with the chef and the available service.",
+      "urls": [
+        "https://www.mychef.ae/chefs/ahmed-executive-chef"
+      ],
+      "owner": "Content + culinary",
+      "confidence": "Observed",
+      "implementation_status": "resolved",
+      "implementation_note": "Chef Ahmed’s sample tasting description now correctly describes the six listed courses."
+    }
+  ]
+}

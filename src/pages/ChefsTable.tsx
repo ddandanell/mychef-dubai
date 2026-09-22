@@ -206,7 +206,7 @@ export default function ChefsTable() {
             Chefs Table Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
-            Chefs table Dubai is a 2–12 guest sitting at home: the chef cooks a tasting or omakase in front of you. Chef-led plated dining at AED {PLATED.typicalMin}–{PLATED.typicalMax} per person, with setup, service and clear-down.
+            A chef’s table in Dubai, hosted in your home for 2–12 guests. Enjoy a tasting menu prepared in front of you, with chef-led plated dining at AED {PLATED.typicalMin}–{PLATED.typicalMax} per person, with setup, service and clear-down.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Plan My Chef's Table</Link>
@@ -233,13 +233,13 @@ export default function ChefsTable() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Chefs table Dubai is one cook, close enough to talk to, cooking courses for 2–12 guests in your kitchen. It is chef-led plated dining at AED {PLATED.typicalMin}–{PLATED.typicalMax} per person, the same floor as the Catering hub. It is not a household chef plan, and it is not a claim about famous private chefs.
+              A chef’s table in Dubai brings you closer to the cooking. Your chef prepares and introduces a succession of courses for 2–12 guests, with the menu and pace planned around your table. Chef-led plated dining is AED {PLATED.typicalMin}–{PLATED.typicalMax}  per person. The written proposal confirms the menu, service and any additional requirements for your occasion.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The named chef, the menu and who buys the ingredients sit on the quote. Dietary notes go into the first draft. Wine pairing only where licensed. Omakase only when we can match a sushi chef for that date.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              A quieter tasting without narration lives on <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef tasting menu</Link>. Sushi platters without a chef’s table sit on <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>. A standing household chef is <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
+              A quieter tasting without narration lives on <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef tasting menu</Link>. Sushi platters without a chef’s table sit on <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>. A standing household chef is <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
             </p>
           </div>
         </div>

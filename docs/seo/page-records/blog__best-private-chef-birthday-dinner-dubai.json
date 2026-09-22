@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/best-private-chef-birthday-dinner-dubai",
+  "path": "/blog/best-private-chef-birthday-dinner-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "private chef for birthday dinner dubai",
+    "secondary": [
+      "best private chef birthday dinner dubai",
+      "private chef birthday dinner cost dubai",
+      "birthday dinner ideas at home dubai",
+      "birthday dinner party at home dubai",
+      "private chef dinner menu",
+      "private chef dinner party near me",
+      "book a private chef",
+      "private beach dinner dubai"
+    ],
+    "primary_owner": "/blog/best-private-chef-birthday-dinner-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef for Birthday Dinner Dubai | myCHEF",
+    "description": "Private Chef for Birthday Dinner Dubai — Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the…",
+    "h1": [
+      "Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/best-private-chef-birthday-dinner-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1719,
+    "current_word_count": 1693,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "Why Host a Birthday Dinner with a Private Chef?"
+      },
+      {
+        "level": "h2",
+        "text": "Birthday Dinner Menu Ideas That Work in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Indicative Costs for a Private Chef Birthday Dinner"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "How to Book the Right Private Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Dubai-Specific Considerations"
+      },
+      {
+        "level": "h2",
+        "text": "Making the Evening Memorable"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a private chef birthday dinner cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a private chef handle dietary restrictions at a birthday dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the best menu for a birthday dinner at home in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a private chef for a birthday?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need to provide kitchen equipment or serveware?"
+      },
+      {
+        "level": "h3",
+        "text": "How many guests can a birthday chef cater for?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef make the birthday cake or dessert table?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater kids' birthday dinners?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I get an exact quote?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Catering Cost Dubai: Planning Estimates for 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Grazing Table vs Buffet Dubai: How to Choose"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef for Birthday Dinner Dubai: Ready to Plan Your Birthday Dinner?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [
+      "F10"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/best-private-chef-birthday-dinner-dubai",
+        "anchor": "Private chef for birthday dinner",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Birthday catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Birthday catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

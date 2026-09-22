@@ -1,0 +1,13 @@
+PASS  quiet H1 block found: got true
+PASS  quiet H1 does not wrap eyebrow: got false
+PASS  eyebrow renders outside H1 for every variant: got true
+PASS  topic hub SEO sets noindex: got true
+PASS  sitemap generator excludes topic hub paths: got true
+PASS  sitemap generator does not expand /blog/topic/:hub: got false
+PASS  prerender unique set spreads hubs: got true
+PASS  routes.tsx still has /blog/topic/:hub: got true
+PASS  seven topic hub paths: got 7
+PASS  topic hub path set: got ["/blog/topic/celebrations","/blog/topic/corporate","/blog/topic/institutional","/blog/topic/menus-dietary","/blog/topic/outdoor","/blog/topic/private-chef","/blog/topic/seasonal"]
+PASS  sitemap.xml has no /blog/topic/*: got []
+
+All G+H checks passed

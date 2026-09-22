@@ -137,7 +137,7 @@ export default function PartnerWithUs() {
       <PageHero
         eyebrow="Partnerships"
         title="Catering Partnerships Dubai"
-        subtitle="You keep the client. We run the kitchen. Commission or referral credit is agreed in writing before any introduction."
+        subtitle={"A catering partnership that supports your client relationship, with referral arrangements or commission agreed in writing before introductions."}
         image="/images/case-studies-hero.webp"
         imageAlt="myCHEF Dubai partnership opportunities"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Partner With Us' }]}
@@ -151,7 +151,7 @@ export default function PartnerWithUs() {
         <div className="partner-body container-custom max-w-[1000px]">
           <section className="partner-section opacity-0 translate-y-8 mb-12 text-center">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto mb-5">
-              Catering partnerships in Dubai are for businesses whose clients already ask for a chef: villa managers, yacht charters, planners, concierge desks. You bring the relationship. We bring the team, the menu and the clear-down.
+              Catering partnerships in Dubai support villa managers, yacht operators, event planners and concierge teams whose clients need a chef or event menu. We coordinate the culinary service around your brief, with clear responsibilities and commercial terms.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
               Terms are written before the first introduction. We do not publish a shop rate for commission. Volume, client type and the job decide it.

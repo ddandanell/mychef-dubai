@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/how-to-choose-caterer-dubai",
+  "path": "/how-to-choose-caterer-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "how to choose a caterer dubai",
+    "secondary": [
+      "how to pick a caterer dubai",
+      "questions to ask a caterer dubai",
+      "what to look for in a catering company",
+      "how to compare catering quotes dubai",
+      "how to find a good caterer in dubai",
+      "how far ahead to book a caterer dubai",
+      "best catering companies in dubai",
+      "when to hire a caterer",
+      "how to choose birthday caterer dubai",
+      "best caterers in dubai",
+      "preferred caterer list"
+    ],
+    "primary_owner": "/how-to-choose-caterer-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "How to Choose a Caterer Dubai | myCHEF",
+    "description": "How to choose a caterer Dubai: a 10-point checklist covering tastings, licences, staffing, dietary handling, transparent quotes and venue",
+    "h1": [
+      "How to Choose a Caterer Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/how-to-choose-caterer-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/HowToChooseCatererDubai.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1138,
+    "current_word_count": 1138,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Make Your Decision With Confidence"
+      },
+      {
+        "level": "h2",
+        "text": "What to Check Before You Book"
+      },
+      {
+        "level": "h3",
+        "text": "Menu flexibility"
+      },
+      {
+        "level": "h3",
+        "text": "Tasting policy"
+      },
+      {
+        "level": "h3",
+        "text": "Staffing & service style"
+      },
+      {
+        "level": "h3",
+        "text": "Licenses & insurance"
+      },
+      {
+        "level": "h3",
+        "text": "References & track record"
+      },
+      {
+        "level": "h3",
+        "text": "Dietary handling"
+      },
+      {
+        "level": "h3",
+        "text": "Transparent quoting"
+      },
+      {
+        "level": "h3",
+        "text": "Venue familiarity"
+      },
+      {
+        "level": "h3",
+        "text": "Backup plans"
+      },
+      {
+        "level": "h3",
+        "text": "Communication"
+      },
+      {
+        "level": "h2",
+        "text": "Red Flags to Avoid"
+      },
+      {
+        "level": "h2",
+        "text": "Questions to Ask Every Caterer"
+      },
+      {
+        "level": "h2",
+        "text": "Why Hosts Choose myCHEF Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Related Services & Guides"
+      },
+      {
+        "level": "h2",
+        "text": "How to Choose a Caterer Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What should I look for first when choosing a caterer in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How important is a tasting before booking?"
+      },
+      {
+        "level": "h3",
+        "text": "Should a caterer have insurance and licenses?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I compare catering quotes fairly?"
+      },
+      {
+        "level": "h3",
+        "text": "What are the biggest red flags when hiring a caterer?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book a caterer in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "When to hire a caterer?"
+      },
+      {
+        "level": "h3",
+        "text": "What to look for in a catering company?"
+      },
+      {
+        "level": "h2",
+        "text": "Compare Caterers With Confidence"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/how-to-choose-caterer-dubai",
+        "anchor": "How to choose a caterer",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/dubai-catering-prices-guide",
+        "anchor": "Catering prices",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-vs-catering-dubai",
+        "anchor": "Private chef or catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-far-ahead-book-caterer-dubai",
+        "anchor": "How far in advance to book a caterer",
+        "alt_anchors": []
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

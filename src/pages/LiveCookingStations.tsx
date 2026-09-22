@@ -353,7 +353,7 @@ export default function LiveCookingStations() {
             Live Cooking Stations Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
-            Live cooking stations Dubai are counters where a chef finishes the dish in front of guests: carving, pasta, grill, shawarma or dessert. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
+            Live cooking stations in Dubai bring the chef’s craft into your event, with pasta, grills, carving, shawarma or desserts prepared in front of guests. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Build My Live Station Package</Link>
@@ -380,7 +380,7 @@ export default function LiveCookingStations() {
             What live cooking stations Dubai actually are
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Live cooking stations Dubai are self-contained counters: a chef, the kit, and a dish finished when the guest is there. The published floor is the same as BBQ and live stations on the Catering hub: from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is not a second start.
+            Live cooking stations in Dubai combine a chef, the appropriate equipment and a focused menu at each counter. We plan the layout and service around guest numbers, venue facilities and safe access. Starting prices are from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is not a second start.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Shawarma, an oyster bar and a dessert cart are stations on this page, not separate products. A live pasta station is a pan and a chef, not a class. Private cooking classes live on their own URL if that is the brief.

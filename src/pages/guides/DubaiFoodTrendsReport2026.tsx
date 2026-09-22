@@ -94,7 +94,7 @@ const howToUse = [
 
 const internalLinks = [
   { title: 'Private Dining Dubai', link: '/guide/private-dining-dubai', description: 'How private dining works in Dubai and when it fits your event.' },
-  { title: 'Yacht Catering Checklist', link: '/yacht-catering-checklist-dubai', description: 'A practical checklist for catering on Dubai yachts and boats.' },
+  { title: 'Yacht Catering Checklist', link: '/yachts', description: 'A practical checklist for catering on Dubai yachts and boats.' },
   { title: 'Wedding Menu Planning Guide', link: '/wedding-catering-menu-planning-dubai', description: 'How to plan a wedding catering menu from tasting to table.' },
   { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events, celebrations and corporate functions.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },
@@ -254,7 +254,7 @@ export default function DubaiFoodTrendsReport2026() {
             Dubai Food Trends 2026
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
-            What we are seeing hosts ask for in 2026: local produce, inclusive menus, live stations, and drinks that are not a bar as the product. Observation, not a survey.
+            Menu and service ideas for Dubai hosts in 2026, including seasonal produce, inclusive menus, live cooking and thoughtful alcohol-free drinks. This is an editorial guide rather than a statistical market survey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">
@@ -283,7 +283,7 @@ export default function DubaiFoodTrendsReport2026() {
             Catering in Dubai Is Becoming More Personal, More Local, and More Inclusive
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Dubai’s event scene continues to mature. Hosts are no longer impressed by volume alone; they want menus that tell a story, reflect their guests, and feel considered from the first bite to the final petit four. After planning hundreds of private dinners, villa parties, yacht events and corporate functions, here are the trends we see defining 2026.
+            This guide explores ways to make a Dubai event menu feel considered, from ingredient choices and dietary planning to presentation and service. The ideas below are editorial observations and planning suggestions, rather than findings from a measured survey.
           </p>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Synthesised from culinary showcases like the Dubai Food Expo 2026 and seasonal showcases at the Dubai Food Fair 2026, this Dubai food trends report is intended as a practical planning tool, not a collection of passing fads. Each trend below affects how you brief a caterer, what questions to ask, and what your guests are likely to remember.

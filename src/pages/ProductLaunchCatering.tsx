@@ -301,7 +301,7 @@ export default function ProductLaunchCatering() {
             Product Launch Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 plc-hero-sub">
-            Standing food timed to the reveal. Canapé receptions from AED 150 per person. Service can pause for speeches, then continue so guests stay around the product.
+            Product launch catering with canapés and service planned around your reveal. Receptions start from AED 150 per person, with timings adapted to speeches, demonstrations and guest conversations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a corporate catering quote</Link>
@@ -328,7 +328,7 @@ export default function ProductLaunchCatering() {
             Product launch catering Dubai, timed to the reveal
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Product launch catering in Dubai is standing food timed to the reveal. Canapé receptions start from AED 150 per person. Service can pause for speeches, then continue so guests keep moving around the product.
+            Product launch catering in Dubai keeps guests comfortably hosted while your product takes focus. Canapé receptions start from AED 150 per person, with service paused or resumed around the reveal, speeches and demonstrations.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             From investor rooms in DIFC to larger unveilings in Downtown Dubai, menus are planned for the tone of the event: canapés, a press lunch, or a dessert station. Dietary notes are labelled. Presentation is considered, without competing with the product.

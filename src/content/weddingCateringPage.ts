@@ -50,7 +50,7 @@ export const weddingHeroCopy = {
   eyebrow: 'Weddings',
   title: 'Wedding Catering Dubai',
   subtitle:
-    'Wedding Catering Dubai for a villa dinner, a garden reception or a licensed venue — so you can be guests at your own table.',
+    "Wedding catering in Dubai, with menus and service thoughtfully planned for your villa dinner, garden reception or chosen venue.",
   priceLine:
     'A chef-led plated villa dinner typically sits around AED 700–950 per guest. A staffed wedding buffet often sits around AED 180–350. 5% VAT is shown as its own line.',
   replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',

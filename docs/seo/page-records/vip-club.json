@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/vip-club",
+  "path": "/vip-club",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Packages / Offers",
+  "purpose": "Convert repeat customers to a benefits or referral programme.",
+  "keywords": {
+    "primary": "mychef vip club",
+    "secondary": [
+      "vip dining club dubai",
+      "exclusive dining club dubai",
+      "vip government dining dubai"
+    ],
+    "primary_owner": "/vip-club",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF VIP Club | Private Chef Membership Dubai | myCHEF",
+    "description": "Join the myCHEF VIP Club for priority private chef bookings, exclusive menus, member rates, and concierge dining across Dubai.",
+    "h1": [
+      "myCHEF VIP Club"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/vip-club",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/VIPClub.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 672,
+    "current_word_count": 669,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "myCHEF VIP Club is a priority line, not a restaurant"
+      },
+      {
+        "level": "h2",
+        "text": "Choose Your Level of Access"
+      },
+      {
+        "level": "h3",
+        "text": "Gold Member"
+      },
+      {
+        "level": "h3",
+        "text": "Platinum Member"
+      },
+      {
+        "level": "h2",
+        "text": "Member Benefits"
+      },
+      {
+        "level": "h2",
+        "text": "Built for Dubai’s Most Discerning Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Frequent Villa Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht Owners & Charter Guests"
+      },
+      {
+        "level": "h3",
+        "text": "Busy Executives & Families"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding & Event Planners"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Concierge Teams"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of VIP Life"
+      },
+      {
+        "level": "h2",
+        "text": "VIP Club Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What is the myCHEF VIP Club?"
+      },
+      {
+        "level": "h3",
+        "text": "What benefits do VIP members receive?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the VIP Club available for corporate clients?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I book as a VIP member?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I gift a VIP membership?"
+      },
+      {
+        "level": "h3",
+        "text": "Is VIP dining club Dubai the same as myCHEF VIP Club?"
+      },
+      {
+        "level": "h2",
+        "text": "VIP Service Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "VIP private chef experiences across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Elevate Every Occasion"
+      }
+    ],
+    "baseline_findings": [
+      "F23"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages"
+      },
+      {
+        "url": "/vip-club",
+        "anchor": "Mychef vip club",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-packages-dubai",
+      "anchor": "Catering packages",
+      "alt_anchors": [
+        "catering packages dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/mychef-membership",
+        "anchor": "Mychef membership",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/loyalty-programme",
+        "anchor": "Mychef loyalty programme",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

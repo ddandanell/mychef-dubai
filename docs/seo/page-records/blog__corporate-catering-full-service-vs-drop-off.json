@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/corporate-catering-full-service-vs-drop-off",
+  "path": "/blog/corporate-catering-full-service-vs-drop-off",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "full service vs drop off catering dubai",
+    "secondary": [
+      "what is drop off catering dubai",
+      "do i need serving staff for office catering dubai",
+      "corporate catering full service vs drop off",
+      "drop off vs pick up catering",
+      "bbq drop off catering",
+      "wedding drop off catering",
+      "private chef vs catering",
+      "catering ideas dubai"
+    ],
+    "primary_owner": "/blog/corporate-catering-full-service-vs-drop-off",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Full Service vs Drop Off Catering Dubai | myCHEF",
+    "description": "Full service vs drop off catering Dubai: drop-off is food and delivery from AED 90 per person. Full service adds staff, setup and clearance from AED 120.",
+    "h1": [
+      "Full Service vs Drop Off Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/corporate-catering-full-service-vs-drop-off",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/CorporateCateringFullServiceVsDropOff.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1271,
+    "current_word_count": 1292,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "What Is Drop-Off Catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Food arrives laid out. Your team serves itself."
+      },
+      {
+        "level": "h3",
+        "text": "When drop-off works best"
+      },
+      {
+        "level": "h2",
+        "text": "What Is fully-coordinated catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Everything handled for you"
+      },
+      {
+        "level": "h3",
+        "text": "When full-service is the better choice"
+      },
+      {
+        "level": "h2",
+        "text": "Head-to-Head Comparison"
+      },
+      {
+        "level": "h2",
+        "text": "Budget Beyond the Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Dietary Requirements and Dietary Labels"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "Corporate Catering with myCHEF Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between drop-off and full-service corporate catering?"
+      },
+      {
+        "level": "h3",
+        "text": "When should I choose full-service catering over drop-off?"
+      },
+      {
+        "level": "h3",
+        "text": "Can drop-off catering handle dietary restrictions and allergens?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book corporate catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in full-service corporate catering?"
+      },
+      {
+        "level": "h2",
+        "text": "Also useful"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Event Catering Ideas Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Full Service vs Drop Off Catering Dubai: Plan Your Next Corporate Event"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/corporate-catering-full-service-vs-drop-off",
+        "anchor": "Full service vs drop off catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/corporate-event-catering-ideas-dubai",
+        "anchor": "Corporate event catering ideas",
+        "alt_anchors": []
+      },
+      {
+        "url": "/corporate-catering-checklist-dubai",
+        "anchor": "Corporate catering checklist",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": [
+          "drop off catering"
+        ]
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

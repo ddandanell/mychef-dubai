@@ -863,7 +863,7 @@ export const specialistChefs = {
 }
 
 export const chefLevelIntro = [
-  'One ladder, and it describes the standard rather than the price. Level 1 is where every chef starts, and the price you see is the price. Level 2 is a month of consistently strong service. Level 3 is that standard held for three months. Recognising the chef is our cost — you are never asked to pay more for the person you already like.',
+  "Chef levels recognise consistency of service. Every chef begins at Level 1; Level 2 recognises one month of strong performance, and Level 3 recognises that standard maintained for three months. Progression does not increase the price of the chef already serving your household.",
   'None of these are restaurant titles. A chef’s profile shows both: the professional title they carried before, and the level they earned here through assessment and real household scores. “Previous title: Executive Chef. myCHEF level: 2.” One is history. The other is evidence.',
 ]
 
@@ -1008,7 +1008,7 @@ export const roleQuestions = {
   eyebrow: 'Tell us about your household',
   title: 'We ask about the role — never “what level would you like?”',
   intro:
-    'You should not have to know what level of chef your home needs. That is our job. What we need from you is how your home actually runs:',
+    "We help you choose the right level of support. Start by telling us about your household routine and how you like to eat:",
   groups: [
     {
       label: 'Time',

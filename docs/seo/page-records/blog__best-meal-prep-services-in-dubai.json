@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/best-meal-prep-services-in-dubai",
+  "path": "/blog/best-meal-prep-services-in-dubai",
+  "role": "redirect",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Redirect visitors to /weekly-meal-prep-dubai",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Best Meal Prep Dubai 2026: 5 Options Ranked",
+    "description": "Meal prep Dubai 2026 compared: myCHEF wins for custom halal-first private chef meal prep, apps win on convenience, kits win on budget. Full ranking inside.",
+    "h1": [
+      "Best Meal Prep Dubai 2026: 5 Options Ranked"
+    ]
+  },
+  "metadata_source": "SEO contract; alias or route not prerendered",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/weekly-meal-prep-dubai",
+    "robots": {
+      "index": false,
+      "follow": true
+    },
+    "in_sitemap": false,
+    "redirect_to": "/weekly-meal-prep-dubai"
+  },
+  "source_files": [
+    "blog/data/best-meal-prep-services-in-dubai.json",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/ryze-pages/best-meal-prep-services-in-dubai.json",
+    "src/content/siloMap.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1316,
+    "current_word_count": null,
+    "headings": [],
+    "baseline_findings": [
+      "F11"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Best Meal Prep Dubai 2026: 5 Options Ranked",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": []
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [],
+    "do_not_link": []
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/drop-off-catering-dubai",
+  "path": "/drop-off-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Catering",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "drop off catering dubai",
+    "secondary": [
+      "drop off catering dubai price",
+      "drop off catering price per person dubai",
+      "best drop off catering dubai",
+      "drop off catering packages dubai",
+      "drop off catering menu dubai",
+      "halal drop off catering dubai",
+      "catering delivery dubai",
+      "healthy food delivery dubai",
+      "luxury food delivery dubai",
+      "meal plans delivery dubai",
+      "party food delivery dubai",
+      "healthy meal delivery dubai"
+    ],
+    "primary_owner": "/drop-off-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Drop Off Catering Dubai | myCHEF",
+    "description": "Drop Off Catering Dubai: chef-cooked food delivered ready to serve, no team on site. From AED 90 per person, 10 guests, AED 900 minimum order.",
+    "h1": [
+      "Drop Off Catering Dubai: Food That Arrives Without a Team"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/drop-off-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/DropOffCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1743,
+    "current_word_count": 1749,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Food cooked for a room you already have"
+      },
+      {
+        "level": "h2",
+        "text": "If you still need people in the room, leave here"
+      },
+      {
+        "level": "h2",
+        "text": "Working lunches and houses that do not want a brigade"
+      },
+      {
+        "level": "h2",
+        "text": "Date, headcount, address. Then a written proposal."
+      },
+      {
+        "level": "h2",
+        "text": "What is in the drop — and what is not"
+      },
+      {
+        "level": "h3",
+        "text": "Menu designed to travel"
+      },
+      {
+        "level": "h3",
+        "text": "Cooking in a licensed kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Labelling"
+      },
+      {
+        "level": "h3",
+        "text": "Reheating and serving notes"
+      },
+      {
+        "level": "h3",
+        "text": "Set-out, then leave"
+      },
+      {
+        "level": "h3",
+        "text": "Collection on request"
+      },
+      {
+        "level": "h2",
+        "text": "Boxes, platters and hot drops"
+      },
+      {
+        "level": "h3",
+        "text": "Individual meal boxes"
+      },
+      {
+        "level": "h3",
+        "text": "Shareable platters"
+      },
+      {
+        "level": "h3",
+        "text": "Hot mains that travel"
+      },
+      {
+        "level": "h3",
+        "text": "Cold lunch that holds"
+      },
+      {
+        "level": "h2",
+        "text": "How drop off catering Dubai holds heat without a team"
+      },
+      {
+        "level": "h2",
+        "text": "What the published price is built from"
+      },
+      {
+        "level": "h2",
+        "text": "What a drop looks like"
+      },
+      {
+        "level": "h2",
+        "text": "Questions the page has not closed yet"
+      },
+      {
+        "level": "h3",
+        "text": "What arrives, and what do we still have to do?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does drop off catering cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is delivery free?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you keep hot food hot and cold food cold?"
+      },
+      {
+        "level": "h3",
+        "text": "How much notice do you need?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you deliver only in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you also do catering delivery Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Office catering"
+      },
+      {
+        "level": "h3",
+        "text": "Full service vs drop off catering"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé catering"
+      },
+      {
+        "level": "h3",
+        "text": "Breakfast catering"
+      },
+      {
+        "level": "h3",
+        "text": "Drop-off catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Date, headcount and address is enough"
+      },
+      {
+        "level": "h2",
+        "text": "More in Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering"
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": [
+        "catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/corporate-catering-full-service-vs-drop-off",
+        "anchor": "Full service vs drop off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canape-catering-dubai",
+        "anchor": "Canapé catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/breakfast-catering-dubai",
+        "anchor": "Breakfast catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/corporate-catering-full-service-vs-drop-off",
+        "anchor": "Full service vs drop off catering",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -111,7 +111,7 @@ export default function PrivateChefQualityTraining() {
           <Eyebrow id="standards" className="scroll-mt-24">The standard</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">How the standard holds, month after month</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            A first dinner is easy to get right. Month four is the test. This page is about what happens once your chef has started: what we keep measuring, what we do with your feedback, and when the answer is not training but a different chef.
+            Quality depends on consistency over time. We review the cooking, service and fit with your household after the chef starts, using your feedback to guide support, adjustments or a different match when needed.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
             One word matters more than most: “healthy”. It only means anything measured against your version of it, so what healthy means in your home goes into the Food Profile, and is checked like everything else.

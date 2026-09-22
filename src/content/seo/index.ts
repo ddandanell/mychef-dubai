@@ -38,6 +38,8 @@ export interface SeoFaq {
 
 export interface SeoPage {
   url: string
+  updated_at?: string
+  references?: { label: string; url: string }[]
   head?: { title?: string; meta_description?: string; h1?: string }
   opening_paragraph?: string[]
   replace_in_block?: SeoReplaceBlock[]
@@ -185,7 +187,6 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/wedding-catering-menu-planning-dubai',
   '/weekly-meal-prep-dubai',
   '/wellness-meal-prep-dubai',
-  '/yacht-catering-guide-dubai',
   '/yachts',
 ])
 

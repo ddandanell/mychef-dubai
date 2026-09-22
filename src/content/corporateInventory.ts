@@ -260,7 +260,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'Feeding the team',
     h2: 'Staff meals that arrive on schedule',
     how:
-      'Dependable meal deliveries for a known workforce. Rotating mains, clearly labelled dietary options, billed on the meals we deliver. This page is food for your team, not waiter hire.',
+      "Regular meals for your workforce, with rotating mains and dietary options labelled as agreed. Billing follows the confirmed meals and service schedule.",
     image: '/images/staff-meals-catering-dubai-hero.webp',
     imageAlt: 'Staff meals in a workplace canteen. Experience concept shown.',
     paths: ['/corporate', '/staff-meals-catering-dubai', '/office-catering-dubai', '/corporate-retainer-dubai'],
@@ -270,7 +270,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
         items: [
           'Daily hot main, rice or bread, salad, fruit',
           'Shift meals that hold temperature',
-          'Vegetarian line as a first-class tray',
+          "A considered vegetarian selection",
           'Canteen rhythm, not plated courses',
         ],
       },
@@ -369,7 +369,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     label: 'What we bring',
     h2: 'Equipment that fits a tower pantry',
     how:
-      'A Dubai office is not a ballroom. We bring what the format needs and check power, flame and lift size before the menu is locked. Unusual hire is a separate line.',
+      "We assess the venue’s power, cooking permissions and access before confirming equipment. Specialist hire is identified separately in the proposal.",
     image: '/images/canape-catering-dubai-hero.webp',
     imageAlt: 'Service trays and canapé setup. Experience concept shown.',
     paths: ['/corporate'],

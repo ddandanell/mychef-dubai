@@ -19,7 +19,7 @@ export default function SourcesBlock({ sources, note }: SourcesBlockProps) {
       </div>
 
       <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
-        The regulatory, pricing, and cultural notes in this article are drawn from official or high-trust sources fetched and verified on 2026-07-19. We do not publish claims we cannot verify.
+        Consult the sources below for supporting information. Confirm current requirements and prices directly with the relevant authority or provider before booking.
       </p>
 
       <ul className="space-y-3">

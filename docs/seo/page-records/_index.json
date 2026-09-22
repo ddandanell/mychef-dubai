@@ -1,0 +1,2126 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "counts": {
+    "indexable page": 155,
+    "redirect": 91,
+    "noindex support page": 56
+  },
+  "total": 302,
+  "records": [
+    {
+      "path": "/",
+      "file": "home.json",
+      "primary_keyword": "mychef dubai",
+      "role": "indexable page",
+      "silo": "Brand / Homepage"
+    },
+    {
+      "path": "/about",
+      "file": "about.json",
+      "primary_keyword": "private chef company dubai",
+      "role": "indexable page",
+      "silo": "Brand / Homepage"
+    },
+    {
+      "path": "/afternoon-tea-catering-dubai",
+      "file": "afternoon-tea-catering-dubai.json",
+      "primary_keyword": "afternoon tea catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/allergy-safe-catering-dubai",
+      "file": "allergy-safe-catering-dubai.json",
+      "primary_keyword": "allergy safe catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/anniversary-catering-dubai",
+      "file": "anniversary-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/apartment-private-dining-dubai",
+      "file": "apartment-private-dining-dubai.json",
+      "primary_keyword": "private chef for apartment dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/arabic-catering-dubai",
+      "file": "arabic-catering-dubai.json",
+      "primary_keyword": "arabic catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/asian-catering-dubai",
+      "file": "asian-catering-dubai.json",
+      "primary_keyword": "asian catering dubai",
+      "role": "noindex support page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/baby-shower-catering-dubai",
+      "file": "baby-shower-catering-dubai.json",
+      "primary_keyword": "baby shower catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/bachelor-party-catering-dubai",
+      "file": "bachelor-party-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/bachelorette-party-catering-dubai",
+      "file": "bachelorette-party-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/bar-services-dubai",
+      "file": "bar-services-dubai.json",
+      "primary_keyword": "bar services dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/bbq-catering-dubai",
+      "file": "bbq-catering-dubai.json",
+      "primary_keyword": "bbq catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/beach-catering-dubai",
+      "file": "beach-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/become-a-mychef",
+      "file": "become-a-mychef.json",
+      "primary_keyword": "private chef jobs dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/best-catering-companies-dubai",
+      "file": "best-catering-companies-dubai.json",
+      "primary_keyword": "best catering companies dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/birthday-catering-dubai",
+      "file": "birthday-catering-dubai.json",
+      "primary_keyword": "birthday catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/birthday-catering-package-dubai",
+      "file": "birthday-catering-package-dubai.json",
+      "primary_keyword": "birthday catering packages dubai",
+      "role": "noindex support page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/blog",
+      "file": "blog.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-arabic-catering-companies-in-dubai",
+      "file": "blog__best-arabic-catering-companies-in-dubai.json",
+      "primary_keyword": "best arabic catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-bbq-catering-companies-in-dubai",
+      "file": "blog__best-bbq-catering-companies-in-dubai.json",
+      "primary_keyword": "best bbq catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-brunch-catering-services-in-dubai",
+      "file": "blog__best-brunch-catering-services-in-dubai.json",
+      "primary_keyword": "best brunch catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-catering-companies-in-dubai",
+      "file": "blog__best-catering-companies-in-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-corporate-event-catering-companies-in-dubai",
+      "file": "blog__best-corporate-event-catering-companies-in-dubai.json",
+      "primary_keyword": "best corporate catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
+      "file": "blog__best-corporate-lunch-catering-companies-in-dubai.json",
+      "primary_keyword": "corporate catering lunch",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-grazing-table-catering-companies-in-dubai",
+      "file": "blog__best-grazing-table-catering-companies-in-dubai.json",
+      "primary_keyword": "best grazing table catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-halal-catering-companies-in-dubai",
+      "file": "blog__best-halal-catering-companies-in-dubai.json",
+      "primary_keyword": "best halal catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "file": "blog__best-kids-birthday-party-caterers-in-dubai.json",
+      "primary_keyword": "best kids birthday catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
+      "file": "blog__best-luxury-private-dining-experiences-in-dubai.json",
+      "primary_keyword": "best luxury private dining experiences in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-meal-prep-services-in-dubai",
+      "file": "blog__best-meal-prep-services-in-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-private-chef-birthday-dinner-dubai",
+      "file": "blog__best-private-chef-birthday-dinner-dubai.json",
+      "primary_keyword": "private chef for birthday dinner dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-private-chefs-for-villas-in-dubai",
+      "file": "blog__best-private-chefs-for-villas-in-dubai.json",
+      "primary_keyword": "best private chefs for villas in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
+      "file": "blog__best-private-chefs-in-dubai-for-home-dining.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-private-chefs-in-home-dining",
+      "file": "blog__best-private-chefs-in-home-dining.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/blog/best-private-cooking-class-experiences-in-dubai",
+      "file": "blog__best-private-cooking-class-experiences-in-dubai.json",
+      "primary_keyword": "best private cooking class experiences in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "file": "blog__best-ramadan-iftar-catering-companies-in-dubai.json",
+      "primary_keyword": "best ramadan iftar catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-vegan-catering-services-in-dubai",
+      "file": "blog__best-vegan-catering-services-in-dubai.json",
+      "primary_keyword": "best vegan catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-wedding-catering-companies-in-dubai",
+      "file": "blog__best-wedding-catering-companies-in-dubai.json",
+      "primary_keyword": "best wedding catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-yacht-catering-services-in-dubai",
+      "file": "blog__best-yacht-catering-services-in-dubai.json",
+      "primary_keyword": "best yacht catering companies in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/brunch-at-home-dubai",
+      "file": "blog__brunch-at-home-dubai.json",
+      "primary_keyword": "brunch at home dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/corporate-catering-full-service-vs-drop-off",
+      "file": "blog__corporate-catering-full-service-vs-drop-off.json",
+      "primary_keyword": "full service vs drop off catering dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/corporate-event-catering-ideas-dubai",
+      "file": "blog__corporate-event-catering-ideas-dubai.json",
+      "primary_keyword": "corporate event catering ideas dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/desert-dinner-party-dubai",
+      "file": "blog__desert-dinner-party-dubai.json",
+      "primary_keyword": "desert dinner party dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/dinner-party-menu-ideas-dubai",
+      "file": "blog__dinner-party-menu-ideas-dubai.json",
+      "primary_keyword": "dinner party menu ideas dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/dubai-school-food-rules-2026",
+      "file": "blog__dubai-school-food-rules-2026.json",
+      "primary_keyword": "dubai school food rules 2026",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/grazing-table-vs-buffet-dubai",
+      "file": "blog__grazing-table-vs-buffet-dubai.json",
+      "primary_keyword": "grazing table vs buffet dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/halal-private-dining-dubai-what-to-ask",
+      "file": "blog__halal-private-dining-dubai-what-to-ask.json",
+      "primary_keyword": "what to ask a halal caterer dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-far-ahead-book-caterer-dubai",
+      "file": "blog__how-far-ahead-book-caterer-dubai.json",
+      "primary_keyword": "how far in advance to book a caterer dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+      "file": "blog__how-much-does-a-private-chef-cost-in-dubai-in.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-much-does-private-chef-cost-dubai",
+      "file": "blog__how-much-does-private-chef-cost-dubai.json",
+      "primary_keyword": "how much does private chef cost dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-to-hire-a-private-chef-dubai",
+      "file": "blog__how-to-hire-a-private-chef-dubai.json",
+      "primary_keyword": "how to hire a private chef dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/iftar-at-home-dubai",
+      "file": "blog__iftar-at-home-dubai.json",
+      "primary_keyword": "iftar at home dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "file": "blog__nursery-meals-vs-packed-lunch-dubai.json",
+      "primary_keyword": "nursery provided meals vs packed lunch dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/nut-free-halal-nursery-meals-dubai",
+      "file": "blog__nut-free-halal-nursery-meals-dubai.json",
+      "primary_keyword": "nut-free nursery meals dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/nye-party-catering-dubai",
+      "file": "blog__nye-party-catering-dubai.json",
+      "primary_keyword": "nye party catering dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chef-date-night-dubai",
+      "file": "blog__private-chef-date-night-dubai.json",
+      "primary_keyword": "private chef date night dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chef-palm-jumeirah-guide",
+      "file": "blog__private-chef-palm-jumeirah-guide.json",
+      "primary_keyword": "private dining palm jumeirah dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chef-vs-restaurant-dubai",
+      "file": "blog__private-chef-vs-restaurant-dubai.json",
+      "primary_keyword": "private chef vs restaurant dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/ramadan-iftar-catering-trends-2026",
+      "file": "blog__ramadan-iftar-catering-trends-2026.json",
+      "primary_keyword": "ramadan catering trends dubai 2026",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/topic/celebrations",
+      "file": "blog__topic__celebrations.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/corporate",
+      "file": "blog__topic__corporate.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/institutional",
+      "file": "blog__topic__institutional.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/menus-dietary",
+      "file": "blog__topic__menus-dietary.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/outdoor",
+      "file": "blog__topic__outdoor.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/private-chef",
+      "file": "blog__topic__private-chef.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/topic/seasonal",
+      "file": "blog__topic__seasonal.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Blog topic hubs"
+    },
+    {
+      "path": "/blog/vegan-catering-dubai-guide",
+      "file": "blog__vegan-catering-dubai-guide.json",
+      "primary_keyword": "vegan menu ideas dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/wedding-catering-cost-dubai",
+      "file": "blog__wedding-catering-cost-dubai.json",
+      "primary_keyword": "wedding catering cost dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+      "file": "blog__weekly-meal-prep-vs-full-time-chef-dubai.json",
+      "primary_keyword": "meal prep vs private chef dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/yacht-party-menu-ideas-dubai",
+      "file": "blog__yacht-party-menu-ideas-dubai.json",
+      "primary_keyword": "yacht party menu ideas dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/booking-protection-insurance",
+      "file": "booking-protection-insurance.json",
+      "primary_keyword": "catering cancellation policy dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/brand-activation-catering-dubai",
+      "file": "brand-activation-catering-dubai.json",
+      "primary_keyword": "brand activation catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/breakfast-catering-dubai",
+      "file": "breakfast-catering-dubai.json",
+      "primary_keyword": "breakfast catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/brunch-catering-dubai",
+      "file": "brunch-catering-dubai.json",
+      "primary_keyword": "brunch catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/buffet-catering-dubai",
+      "file": "buffet-catering-dubai.json",
+      "primary_keyword": "buffet catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/buffet-vs-plated-dubai",
+      "file": "buffet-vs-plated-dubai.json",
+      "primary_keyword": "buffet vs plated dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/business-lunch-catering-dubai",
+      "file": "business-lunch-catering-dubai.json",
+      "primary_keyword": "business lunch catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/canape-catering-dubai",
+      "file": "canape-catering-dubai.json",
+      "primary_keyword": "canape catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/canteen-management-dubai",
+      "file": "canteen-management-dubai.json",
+      "primary_keyword": "canteen management dubai",
+      "role": "indexable page",
+      "silo": "Institutional Catering"
+    },
+    {
+      "path": "/case-studies",
+      "file": "case-studies.json",
+      "primary_keyword": "catering case studies dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "file": "case-studies__corporate-gala-dinner-downtown-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/case-studies/family-eid-gathering-arabian-ranches",
+      "file": "case-studies__family-eid-gathering-arabian-ranches.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "file": "case-studies__intimate-anniversary-dinner-palm-jumeirah.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/case-studies/product-launch-difc",
+      "file": "case-studies__product-launch-difc.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/case-studies/villa-wedding-reception-emirates-hills",
+      "file": "case-studies__villa-wedding-reception-emirates-hills.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "file": "case-studies__yacht-birthday-celebration-dubai-marina.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/catering",
+      "file": "catering.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/catering-cost-calculator",
+      "file": "catering-cost-calculator.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/catering-cost-calculator-dubai",
+      "file": "catering-cost-calculator-dubai.json",
+      "primary_keyword": "catering cost calculator dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/catering-dubai",
+      "file": "catering-dubai.json",
+      "primary_keyword": "catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/catering-packages-dubai",
+      "file": "catering-packages-dubai.json",
+      "primary_keyword": "catering packages dubai",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/chef-training-academy",
+      "file": "chef-training-academy.json",
+      "primary_keyword": "chef training dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/chefs-table-dubai",
+      "file": "chefs-table-dubai.json",
+      "primary_keyword": "chefs table dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/chefs/ahmed-executive-chef",
+      "file": "chefs__ahmed-executive-chef.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/chefs/layla-middle-eastern-chef",
+      "file": "chefs__layla-middle-eastern-chef.json",
+      "primary_keyword": "arabic private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/chefs/marco-italian-chef",
+      "file": "chefs__marco-italian-chef.json",
+      "primary_keyword": "italian private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/chefs/matteo-pastry-chef",
+      "file": "chefs__matteo-pastry-chef.json",
+      "primary_keyword": "private pastry chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/chefs/sofia-pastry-chef",
+      "file": "chefs__sofia-pastry-chef.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/chinese-new-year-catering-dubai",
+      "file": "chinese-new-year-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/christmas-catering-dubai",
+      "file": "christmas-catering-dubai.json",
+      "primary_keyword": "christmas catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/cocktail-party-catering-dubai",
+      "file": "cocktail-party-catering-dubai.json",
+      "primary_keyword": "cocktail party catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/coffee-tea-service-dubai",
+      "file": "coffee-tea-service-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/conference-catering-dubai",
+      "file": "conference-catering-dubai.json",
+      "primary_keyword": "conference catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/contact",
+      "file": "contact.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/corporate",
+      "file": "corporate.json",
+      "primary_keyword": "corporate catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/corporate-booking-terms",
+      "file": "corporate-booking-terms.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/corporate-catering-checklist-dubai",
+      "file": "corporate-catering-checklist-dubai.json",
+      "primary_keyword": "corporate catering checklist dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/corporate-catering-dubai",
+      "file": "corporate-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/corporate-dinner-package-dubai",
+      "file": "corporate-dinner-package-dubai.json",
+      "primary_keyword": "corporate dinner package dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/corporate-event-catering-dubai",
+      "file": "corporate-event-catering-dubai.json",
+      "primary_keyword": "corporate event catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/corporate-meal-prep-dubai",
+      "file": "corporate-meal-prep-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/corporate-retainer-dubai",
+      "file": "corporate-retainer-dubai.json",
+      "primary_keyword": "corporate catering contract dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/cuisines-dubai",
+      "file": "cuisines-dubai.json",
+      "primary_keyword": "multi cuisine catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/dairy-free-catering-dubai",
+      "file": "dairy-free-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/date-night-package-dubai",
+      "file": "date-night-package-dubai.json",
+      "primary_keyword": "date night package dubai",
+      "role": "noindex support page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/desert-dining-dubai",
+      "file": "desert-dining-dubai.json",
+      "primary_keyword": "desert dining dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/dessert-cart-dubai",
+      "file": "dessert-cart-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/dessert-table-catering-dubai",
+      "file": "dessert-table-catering-dubai.json",
+      "primary_keyword": "dessert table catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/dessert-table-dubai",
+      "file": "dessert-table-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/diwali-catering-dubai",
+      "file": "diwali-catering-dubai.json",
+      "primary_keyword": "diwali catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/drop-off-catering-dubai",
+      "file": "drop-off-catering-dubai.json",
+      "primary_keyword": "drop off catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/dubai-catering-prices",
+      "file": "dubai-catering-prices.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/dubai-catering-prices-guide",
+      "file": "dubai-catering-prices-guide.json",
+      "primary_keyword": "catering prices dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/dubai-event-catering-price-guide-2026",
+      "file": "dubai-event-catering-price-guide-2026.json",
+      "primary_keyword": "event catering price guide dubai 2026",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/dubai-food-trends-report-2026",
+      "file": "dubai-food-trends-report-2026.json",
+      "primary_keyword": "dubai food trends 2026",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/easter-catering-dubai",
+      "file": "easter-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/eid-catering-dubai",
+      "file": "eid-catering-dubai.json",
+      "primary_keyword": "eid catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/engagement-catering-dubai",
+      "file": "engagement-catering-dubai.json",
+      "primary_keyword": "engagement party catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/event-catering-dubai",
+      "file": "event-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/event-catering-prices-2026",
+      "file": "event-catering-prices-2026.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/events",
+      "file": "events.json",
+      "primary_keyword": "event catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/exhibition-catering-dubai",
+      "file": "exhibition-catering-dubai.json",
+      "primary_keyword": "exhibition catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/family-feast-package-dubai",
+      "file": "family-feast-package-dubai.json",
+      "primary_keyword": "family catering dubai",
+      "role": "noindex support page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/faq",
+      "file": "faq.json",
+      "primary_keyword": "catering faq dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/farewell-catering-dubai",
+      "file": "farewell-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/fathers-day-catering-dubai",
+      "file": "fathers-day-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/festive-catering-dubai",
+      "file": "festive-catering-dubai.json",
+      "primary_keyword": "festive catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/film-crew-catering-dubai",
+      "file": "film-crew-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/finger-food-catering-dubai",
+      "file": "finger-food-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/fitness-meal-prep-dubai",
+      "file": "fitness-meal-prep-dubai.json",
+      "primary_keyword": "fitness meal prep dubai",
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/fodmap-catering-dubai",
+      "file": "fodmap-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/founding-customer-offer",
+      "file": "founding-customer-offer.json",
+      "primary_keyword": "mychef founding customer offer",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/full-time-private-chef-dubai",
+      "file": "full-time-private-chef-dubai.json",
+      "primary_keyword": "full time private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/gala-dinner-catering-dubai",
+      "file": "gala-dinner-catering-dubai.json",
+      "primary_keyword": "gala dinner catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/gallery",
+      "file": "gallery.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/gift-cards",
+      "file": "gift-cards.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/gluten-free-catering-dubai",
+      "file": "gluten-free-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/government-event-catering-dubai",
+      "file": "government-event-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/graduation-catering-dubai",
+      "file": "graduation-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/grazing-table-dubai",
+      "file": "grazing-table-dubai.json",
+      "primary_keyword": "grazing table dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/guide/private-dining-dubai",
+      "file": "guide__private-dining-dubai.json",
+      "primary_keyword": "private dining dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/guides",
+      "file": "guides.json",
+      "primary_keyword": "catering checklist dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/guides/event-catering-prices-2026",
+      "file": "guides__event-catering-prices-2026.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/halal-catering-dubai",
+      "file": "halal-catering-dubai.json",
+      "primary_keyword": "halal catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/halal-private-dining-dubai",
+      "file": "halal-private-dining-dubai.json",
+      "primary_keyword": "halal private dining dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/halloween-catering-dubai",
+      "file": "halloween-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/healthcare-catering-dubai",
+      "file": "healthcare-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/healthy-catering-dubai",
+      "file": "healthy-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/holi-catering-dubai",
+      "file": "holi-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/hospital-catering-dubai",
+      "file": "hospital-catering-dubai.json",
+      "primary_keyword": "hospital catering dubai",
+      "role": "indexable page",
+      "silo": "Institutional Catering"
+    },
+    {
+      "path": "/housewarming-catering-dubai",
+      "file": "housewarming-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/how-it-works",
+      "file": "how-it-works.json",
+      "primary_keyword": "how to book a private chef dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/how-to-choose-caterer-dubai",
+      "file": "how-to-choose-caterer-dubai.json",
+      "primary_keyword": "how to choose a caterer dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/how-we-vet-our-chefs",
+      "file": "how-we-vet-our-chefs.json",
+      "primary_keyword": "private chef background checks dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/iftar-catering-dubai",
+      "file": "iftar-catering-dubai.json",
+      "primary_keyword": "iftar catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/indian-catering-dubai",
+      "file": "indian-catering-dubai.json",
+      "primary_keyword": "indian catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/influencer-partnerships",
+      "file": "influencer-partnerships.json",
+      "primary_keyword": "food influencer partnerships dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/inquiry",
+      "file": "inquiry.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Core & conversion"
+    },
+    {
+      "path": "/institutional-catering-dubai",
+      "file": "institutional-catering-dubai.json",
+      "primary_keyword": "institutional catering dubai",
+      "role": "indexable page",
+      "silo": "Institutional Catering"
+    },
+    {
+      "path": "/italian-catering-dubai",
+      "file": "italian-catering-dubai.json",
+      "primary_keyword": "italian catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/jain-catering-dubai",
+      "file": "jain-catering-dubai.json",
+      "primary_keyword": "jain catering dubai",
+      "role": "noindex support page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/jbr",
+      "file": "jbr.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/keto-catering-dubai",
+      "file": "keto-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/kids-birthday-catering-dubai",
+      "file": "kids-birthday-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/kids-nutrition-chef-dubai",
+      "file": "kids-nutrition-chef-dubai.json",
+      "primary_keyword": "kids meal prep dubai",
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/live-cooking-station-dubai",
+      "file": "live-cooking-station-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/live-cooking-stations-dubai",
+      "file": "live-cooking-stations-dubai.json",
+      "primary_keyword": "live cooking stations dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/locations",
+      "file": "locations.json",
+      "primary_keyword": "catering near me dubai",
+      "role": "indexable page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/al-barari",
+      "file": "locations__al-barari.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/al-barsha",
+      "file": "locations__al-barsha.json",
+      "primary_keyword": "private chef al barsha",
+      "role": "indexable page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/arabian-ranches",
+      "file": "locations__arabian-ranches.json",
+      "primary_keyword": "private chef arabian ranches",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/bluewaters-island",
+      "file": "locations__bluewaters-island.json",
+      "primary_keyword": "private chef bluewaters island",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/business-bay",
+      "file": "locations__business-bay.json",
+      "primary_keyword": "private chef business bay",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/city-walk",
+      "file": "locations__city-walk.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/difc",
+      "file": "locations__difc.json",
+      "primary_keyword": "private chef difc",
+      "role": "indexable page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/downtown-dubai",
+      "file": "locations__downtown-dubai.json",
+      "primary_keyword": "private chef downtown dubai",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/dubai-creek-harbour",
+      "file": "locations__dubai-creek-harbour.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dubai-harbour",
+      "file": "locations__dubai-harbour.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dubai-hills",
+      "file": "locations__dubai-hills.json",
+      "primary_keyword": "private chef dubai hills",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/dubai-internet-city",
+      "file": "locations__dubai-internet-city.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dubai-mall",
+      "file": "locations__dubai-mall.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dubai-marina",
+      "file": "locations__dubai-marina.json",
+      "primary_keyword": "private chef dubai marina",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/dubai-media-city",
+      "file": "locations__dubai-media-city.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dubai-silicon-oasis",
+      "file": "locations__dubai-silicon-oasis.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/dwtc",
+      "file": "locations__dwtc.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/emirates-hills",
+      "file": "locations__emirates-hills.json",
+      "primary_keyword": "private chef emirates hills",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/jbr",
+      "file": "locations__jbr.json",
+      "primary_keyword": "private chef jbr",
+      "role": "indexable page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/jlt",
+      "file": "locations__jlt.json",
+      "primary_keyword": "private chef jlt",
+      "role": "indexable page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/jumeirah",
+      "file": "locations__jumeirah.json",
+      "primary_keyword": "private chef jumeirah",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/jumeirah-golf-estates",
+      "file": "locations__jumeirah-golf-estates.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/jumeirah-islands",
+      "file": "locations__jumeirah-islands.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/jvc",
+      "file": "locations__jvc.json",
+      "primary_keyword": "private chef jvc",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/mall-of-the-emirates",
+      "file": "locations__mall-of-the-emirates.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/meydan",
+      "file": "locations__meydan.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/mirdif",
+      "file": "locations__mirdif.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/locations/palm-jumeirah",
+      "file": "locations__palm-jumeirah.json",
+      "primary_keyword": "private chef palm jumeirah",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/locations/umm-suqeim",
+      "file": "locations__umm-suqeim.json",
+      "primary_keyword": "private chef umm suqeim",
+      "role": "noindex support page",
+      "silo": "Locations"
+    },
+    {
+      "path": "/loyalty-programme",
+      "file": "loyalty-programme.json",
+      "primary_keyword": "mychef loyalty programme",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/luxury-catering-dubai",
+      "file": "luxury-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/luxury-dining-dubai",
+      "file": "luxury-dining-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/luxury-dining-experiences",
+      "file": "luxury-dining-experiences.json",
+      "primary_keyword": "private dining experience dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/luxury-dinner-planning-guide-dubai",
+      "file": "luxury-dinner-planning-guide-dubai.json",
+      "primary_keyword": "how to plan a luxury dinner dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/mediterranean-catering-dubai",
+      "file": "mediterranean-catering-dubai.json",
+      "primary_keyword": "mediterranean catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/menus",
+      "file": "menus.json",
+      "primary_keyword": "catering menus dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/mocktail-bar-catering-dubai",
+      "file": "mocktail-bar-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/mothers-day-catering-dubai",
+      "file": "mothers-day-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/mychef-certified",
+      "file": "mychef-certified.json",
+      "primary_keyword": "mychef certified chefs",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/mychef-membership",
+      "file": "mychef-membership.json",
+      "primary_keyword": "mychef membership",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/mystery-dining-dubai",
+      "file": "mystery-dining-dubai.json",
+      "primary_keyword": "surprise dinner experience dubai",
+      "role": "noindex support page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/new-year-catering-dubai",
+      "file": "new-year-catering-dubai.json",
+      "primary_keyword": "new year catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/nursery-catering-dubai",
+      "file": "nursery-catering-dubai.json",
+      "primary_keyword": "nursery catering dubai",
+      "role": "indexable page",
+      "silo": "Institutional Catering"
+    },
+    {
+      "path": "/nut-free-catering-dubai",
+      "file": "nut-free-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/office-catering-dubai",
+      "file": "office-catering-dubai.json",
+      "primary_keyword": "office catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/our-chefs",
+      "file": "our-chefs.json",
+      "primary_keyword": "private chefs dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/oyster-bar-dubai",
+      "file": "oyster-bar-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/part-time-private-chef-dubai",
+      "file": "part-time-private-chef-dubai.json",
+      "primary_keyword": "part time private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/partner-with-us",
+      "file": "partner-with-us.json",
+      "primary_keyword": "catering partnerships dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/partners",
+      "file": "partners.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/partners/concierge-services-dubai",
+      "file": "partners__concierge-services-dubai.json",
+      "primary_keyword": "concierge services partnership dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/partners/event-planners-dubai",
+      "file": "partners__event-planners-dubai.json",
+      "primary_keyword": "event planners partnership dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/partners/villa-rentals-dubai",
+      "file": "partners__villa-rentals-dubai.json",
+      "primary_keyword": "villa rentals partnership dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/partners/yacht-charters-dubai",
+      "file": "partners__yacht-charters-dubai.json",
+      "primary_keyword": "yacht charters partnership dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/party-catering-dubai",
+      "file": "party-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/pescatarian-catering-dubai",
+      "file": "pescatarian-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/picnic-catering-dubai",
+      "file": "picnic-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/pool-party-catering-dubai",
+      "file": "pool-party-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/postpartum-meal-prep-dubai",
+      "file": "postpartum-meal-prep-dubai.json",
+      "primary_keyword": "postpartum meal prep dubai",
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/press",
+      "file": "press.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/pricing",
+      "file": "pricing.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/pricing/",
+      "file": "pricing.trailing-slash.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/privacy-policy",
+      "file": "privacy-policy.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/private-chef-dubai",
+      "file": "private-chef-dubai.json",
+      "primary_keyword": "private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/how-it-works",
+      "file": "private-chef-dubai__how-it-works.json",
+      "primary_keyword": "managed private chef service dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/how-your-plan-works",
+      "file": "private-chef-dubai__how-your-plan-works.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/our-chefs",
+      "file": "private-chef-dubai__our-chefs.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/pricing",
+      "file": "private-chef-dubai__pricing.json",
+      "primary_keyword": "private chef dubai price",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/privacy-security",
+      "file": "private-chef-dubai__privacy-security.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/quality-training",
+      "file": "private-chef-dubai__quality-training.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-prices-dubai",
+      "file": "private-chef-prices-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-uae",
+      "file": "private-chef-uae.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-chef-uae/",
+      "file": "private-chef-uae.trailing-slash.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-chef-vs-catering-dubai",
+      "file": "private-chef-vs-catering-dubai.json",
+      "primary_keyword": "private chef vs catering dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/private-chef/dubai/pricing",
+      "file": "private-chef__dubai__pricing.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-chef/dubai/pricing/",
+      "file": "private-chef__dubai__pricing.trailing-slash.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-client-booking-terms",
+      "file": "private-client-booking-terms.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/private-cooking-classes-dubai",
+      "file": "private-cooking-classes-dubai.json",
+      "primary_keyword": "private cooking classes dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/private-dining-dubai",
+      "file": "private-dining-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-events-catering/baby-shower-catering",
+      "file": "private-events-catering__baby-shower-catering.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-events-catering/baby-shower-catering/",
+      "file": "private-events-catering__baby-shower-catering.trailing-slash.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/private-jet-catering-dubai",
+      "file": "private-jet-catering-dubai.json",
+      "primary_keyword": "private jet catering dubai",
+      "role": "noindex support page",
+      "silo": "Packages"
+    },
+    {
+      "path": "/private-party-catering-dubai",
+      "file": "private-party-catering-dubai.json",
+      "primary_keyword": "private party catering dubai",
+      "role": "indexable page",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/product-launch-catering-dubai",
+      "file": "product-launch-catering-dubai.json",
+      "primary_keyword": "product launch catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/production-catering-dubai",
+      "file": "production-catering-dubai.json",
+      "primary_keyword": "production catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/proposal-dinner-dubai",
+      "file": "proposal-dinner-dubai.json",
+      "primary_keyword": "proposal dinner dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/quality-guarantee-dubai",
+      "file": "quality-guarantee-dubai.json",
+      "primary_keyword": "catering quality guarantee dubai",
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/ramadan-catering-dubai",
+      "file": "ramadan-catering-dubai.json",
+      "primary_keyword": "ramadan catering dubai",
+      "role": "indexable page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/ramadan-catering-guide-dubai",
+      "file": "ramadan-catering-guide-dubai.json",
+      "primary_keyword": "ramadan catering guide dubai",
+      "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/referral-programme",
+      "file": "referral-programme.json",
+      "primary_keyword": "mychef referral programme",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/reunion-catering-dubai",
+      "file": "reunion-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Private Events"
+    },
+    {
+      "path": "/review",
+      "file": "review.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/romantic-dinner-dubai",
+      "file": "romantic-dinner-dubai.json",
+      "primary_keyword": "romantic dinner dubai",
+      "role": "indexable page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/school-catering-dubai",
+      "file": "school-catering-dubai.json",
+      "primary_keyword": "school catering dubai",
+      "role": "indexable page",
+      "silo": "Institutional Catering"
+    },
+    {
+      "path": "/shawarma-station-dubai",
+      "file": "shawarma-station-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Catering"
+    },
+    {
+      "path": "/site-map",
+      "file": "site-map.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/staff-meals-catering-dubai",
+      "file": "staff-meals-catering-dubai.json",
+      "primary_keyword": "staff meals catering dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
+      "path": "/sugar-free-catering-dubai",
+      "file": "sugar-free-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/suhoor-catering-dubai",
+      "file": "suhoor-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/sushi-catering-dubai",
+      "file": "sushi-catering-dubai.json",
+      "primary_keyword": "sushi catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/tasting-menu-dubai",
+      "file": "tasting-menu-dubai.json",
+      "primary_keyword": "private tasting menu dubai",
+      "role": "noindex support page",
+      "silo": "Dining Experiences"
+    },
+    {
+      "path": "/terms",
+      "file": "terms.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/thank-you",
+      "file": "thank-you.json",
+      "primary_keyword": null,
+      "role": "noindex support page",
+      "silo": null
+    },
+    {
+      "path": "/tourist-villa-chef-dubai",
+      "file": "tourist-villa-chef-dubai.json",
+      "primary_keyword": "holiday villa chef dubai",
+      "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/trust-and-programs",
+      "file": "trust-and-programs.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Trust / Utility"
+    },
+    {
+      "path": "/uae-national-day-catering-dubai",
+      "file": "uae-national-day-catering-dubai.json",
+      "primary_keyword": "uae national day catering dubai",
+      "role": "noindex support page",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/university-catering-dubai",
+      "file": "university-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/valentines-day-catering-dubai",
+      "file": "valentines-day-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Seasonal and Occasions"
+    },
+    {
+      "path": "/vegan-catering-dubai",
+      "file": "vegan-catering-dubai.json",
+      "primary_keyword": "vegan catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/vegetarian-catering-dubai",
+      "file": "vegetarian-catering-dubai.json",
+      "primary_keyword": "vegetarian catering dubai",
+      "role": "indexable page",
+      "silo": "Cuisines and Dietary"
+    },
+    {
+      "path": "/venue-partners",
+      "file": "venue-partners.json",
+      "primary_keyword": "preferred caterer dubai",
+      "role": "indexable page",
+      "silo": "Partners / Recruit"
+    },
+    {
+      "path": "/villa-catering-dubai",
+      "file": "villa-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/villa-catering-ideas-dubai",
+      "file": "villa-catering-ideas-dubai.json",
+      "primary_keyword": "villa catering ideas dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/villas-private-residences",
+      "file": "villas-private-residences.json",
+      "primary_keyword": "villa chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/vip-club",
+      "file": "vip-club.json",
+      "primary_keyword": "mychef vip club",
+      "role": "indexable page",
+      "silo": "Packages / Offers"
+    },
+    {
+      "path": "/wedding-catering-checklist-dubai",
+      "file": "wedding-catering-checklist-dubai.json",
+      "primary_keyword": "wedding catering checklist dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/wedding-catering-dubai",
+      "file": "wedding-catering-dubai.json",
+      "primary_keyword": "wedding catering dubai",
+      "role": "indexable page",
+      "silo": "Catering"
+    },
+    {
+      "path": "/wedding-catering-menu-planning-dubai",
+      "file": "wedding-catering-menu-planning-dubai.json",
+      "primary_keyword": "wedding menu planning dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/weekly-meal-prep-dubai",
+      "file": "weekly-meal-prep-dubai.json",
+      "primary_keyword": "meal prep dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/wellness-meal-prep-dubai",
+      "file": "wellness-meal-prep-dubai.json",
+      "primary_keyword": "healthy meal prep dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/yacht-catering-checklist-dubai",
+      "file": "yacht-catering-checklist-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/yacht-catering-dubai",
+      "file": "yacht-catering-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
+      "path": "/yacht-catering-guide-dubai",
+      "file": "yacht-catering-guide-dubai.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/yachts",
+      "file": "yachts.json",
+      "primary_keyword": "yacht catering dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    }
+  ]
+}

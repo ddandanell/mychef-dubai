@@ -60,7 +60,7 @@ export const hero = {
   eyebrow: 'Corporate Event Catering',
   h1: 'Corporate Event Catering Dubai',
   subtitle:
-    'Corporate event catering Dubai for company parties, launches and award nights. Menus, chefs and service staff. Canapés from AED 150 per person. Staffed buffet from AED 120 per person. You host. We run the food and the room around it.',
+    "Corporate event catering in Dubai for company celebrations, launches and awards. Choose canapés from AED 150 per person or staffed buffets from AED 120, with chefs, service and setup coordinated around your event.",
   primaryCta: 'Request an itemised event quote',
   secondaryCta: 'Send the brief on WhatsApp',
   utility: 'Offices · Venues · Hotels · Rooftops · Across Dubai',
@@ -78,7 +78,7 @@ export const scope: Block = {
 }
 
 export const uplinks = {
-  lead: 'This page is the one-off company night. Recurring workplace catering sits on',
+  lead: "For a one-off company celebration, choose an event menu and service plan. For recurring workplace meals, explore",
   corporateHref: CORPORATE_PATHS.hub,
   corporateLabel: 'Corporate catering in Dubai',
   mid: 'Weddings, villas, yachts and private celebrations sit on',

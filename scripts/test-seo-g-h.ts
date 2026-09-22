@@ -36,13 +36,14 @@ eq('prerender unique set spreads hubs', /\.\.\.BLOG_TOPIC_HUB_PATHS/.test(preren
 const routesSrc = fs.readFileSync(path.join(root, 'src/routes.tsx'), 'utf8')
 eq('routes.tsx still has /blog/topic/:hub', routesSrc.includes('/blog/topic/:hub'), true)
 
-eq('six topic hub paths', BLOG_TOPIC_HUB_PATHS.length, 6)
+eq('seven topic hub paths', BLOG_TOPIC_HUB_PATHS.length, 7)
 eq(
   'topic hub path set',
   [...BLOG_TOPIC_HUB_PATHS].sort(),
   [
     '/blog/topic/celebrations',
     '/blog/topic/corporate',
+    '/blog/topic/institutional',
     '/blog/topic/menus-dietary',
     '/blog/topic/outdoor',
     '/blog/topic/private-chef',

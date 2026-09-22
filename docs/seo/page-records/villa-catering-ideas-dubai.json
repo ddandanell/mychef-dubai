@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/villa-catering-ideas-dubai",
+  "path": "/villa-catering-ideas-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "villa catering ideas dubai",
+    "secondary": [
+      "villa party food ideas dubai",
+      "home entertaining ideas dubai",
+      "villa dinner party ideas dubai",
+      "outdoor villa catering ideas dubai",
+      "small villa catering ideas dubai",
+      "birthday catering for villa party dubai",
+      "dubai self catering holidays",
+      "villa and yacht catering partners dubai",
+      "birthday dinner at villa dubai",
+      "chef for villa",
+      "giuseppe villa chef",
+      "jerry villa chef"
+    ],
+    "primary_owner": "/villa-catering-ideas-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Villa Catering Ideas Dubai | Party Menus | myCHEF",
+    "description": "Villa catering ideas Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and more.",
+    "h1": [
+      "Villa Catering Ideas Dubai Homes and Residences"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/villa-catering-ideas-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/VillaCateringIdeas.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1083,
+    "current_word_count": 1083,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Turn Your Villa Into the Venue"
+      },
+      {
+        "level": "h2",
+        "text": "Villa Catering Ideas That Work"
+      },
+      {
+        "level": "h3",
+        "text": "BBQ by the Pool"
+      },
+      {
+        "level": "h3",
+        "text": "Mezze & Grill"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Brunch"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Party"
+      },
+      {
+        "level": "h3",
+        "text": "Seated Dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Live Cooking Stations"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert Table"
+      },
+      {
+        "level": "h2",
+        "text": "Villa Setup Tips"
+      },
+      {
+        "level": "h2",
+        "text": "Staffing for Villa Events"
+      },
+      {
+        "level": "h2",
+        "text": "Planning Around Dubai's Weather"
+      },
+      {
+        "level": "h3",
+        "text": "November–March"
+      },
+      {
+        "level": "h3",
+        "text": "April–May"
+      },
+      {
+        "level": "h3",
+        "text": "June–September"
+      },
+      {
+        "level": "h2",
+        "text": "Why Villa Hosts Choose Us"
+      },
+      {
+        "level": "h2",
+        "text": "Related Services & Guides"
+      },
+      {
+        "level": "h2",
+        "text": "Villa Catering Ideas Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What is the best catering format for a Dubai villa party?"
+      },
+      {
+        "level": "h3",
+        "text": "How much staff do I need for a villa event?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater in a villa without a full kitchen?"
+      },
+      {
+        "level": "h3",
+        "text": "What works best for summer villa events?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you handle setup and cleanup at villas?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book villa catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide small villa catering ideas Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you do villa and yacht catering partners Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Plan Your Villa Party"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/villa-catering-ideas-dubai",
+        "anchor": "Villa catering ideas",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-party-catering-dubai",
+        "anchor": "Pool party catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/bbq-catering-dubai",
+        "anchor": "BBQ catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": [
+          "villa chef"
+        ]
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

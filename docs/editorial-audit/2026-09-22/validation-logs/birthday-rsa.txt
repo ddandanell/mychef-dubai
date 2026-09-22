@@ -1,0 +1,160 @@
+PASS  five ad groups: got 5
+PASS  birthday-core 15 headlines: got 15
+PASS  birthday-core 4 descriptions: got 4
+PASS  birthday-core H (23/30): Birthday Catering Dubai
+PASS  birthday-core H (26/30): Itemised Birthday Proposal
+PASS  birthday-core H (29/30): Published Prices, Clear Lines
+PASS  birthday-core H (26/30): Food, Staff and Clear-Down
+PASS  birthday-core H (26/30): Kids, Adults or Mixed Ages
+PASS  birthday-core H (23/30): From AED 120 Per Person
+PASS  birthday-core H (26/30): Celebration From AED 3,600
+PASS  birthday-core H (23/30): Reply Within 15 Minutes
+PASS  birthday-core H (28/30): Choose Extras, See the Quote
+PASS  birthday-core H (26/30): Stay a Guest at Your Table
+PASS  birthday-core H (23/30): Halal-First Event Menus
+PASS  birthday-core H (20/30): Villa, Home or Yacht
+PASS  birthday-core H (26/30): Request a Written Proposal
+PASS  birthday-core H (22/30): Cakes and Party Extras
+PASS  birthday-core H (26/30): One Coordinator, One Night
+PASS  birthday-core D (86/90): Birthday catering in Dubai. Published floors and extras. Request an itemised proposal.
+PASS  birthday-core D (79/90): Buffets from AED 120 a person. Seated 8-12 from AED 3,600. VAT on its own line.
+PASS  birthday-core D (79/90): Kids, adults or mixed-age. Food, staff, clear-down. Add cake to the same quote.
+PASS  birthday-core D (78/90): Send the date, place and guest mix. Reply in 15 minutes during business hours.
+PASS  birthday-core path1 (8/15): Birthday
+PASS  birthday-core path2 (8/15): Catering
+PASS  birthday-core lands on birthday URL: got true
+PASS  birthday-core has utm_content: got true
+PASS  birthday-private 15 headlines: got 15
+PASS  birthday-private 4 descriptions: got 4
+PASS  birthday-private H (26/30): Private Milestone Birthday
+PASS  birthday-private H (27/30): We Design the Running Order
+PASS  birthday-private H (26/30): Stay a Guest at Your Table
+PASS  birthday-private H (27/30): One Contact for the Evening
+PASS  birthday-private H (26/30): Villa Birthday, Held Quiet
+PASS  birthday-private H (27/30): Surprise Load-In, One Brief
+PASS  birthday-private H (27/30): Food First. Then the Night.
+PASS  birthday-private H (25/30): Gated Homes and Compounds
+PASS  birthday-private H (28/30): Kids Afternoon, Adult Dinner
+PASS  birthday-private H (26/30): No Posting Without Consent
+PASS  birthday-private H (20/30): Plan a Private Brief
+PASS  birthday-private H (28/30): Itemised Lines, Not a Bundle
+PASS  birthday-private H (27/30): Timed Cake, Then Clear-Down
+PASS  birthday-private H (23/30): Birthday Catering Dubai
+PASS  birthday-private H (20/30): You Arrange the Boat
+PASS  birthday-private D (71/90): Tell us the date, house and vibe. We design food and the running order.
+PASS  birthday-private D (73/90): Villa, penthouse or yacht catering. One coordinator. No unapproved posts.
+PASS  birthday-private D (74/90): Surprise load-in, gated access, timed cake. Extras as lines, not a bundle.
+PASS  birthday-private D (65/90): You arrange the boat or compound. We cater. Send a private brief.
+PASS  birthday-private path1 (7/15): Private
+PASS  birthday-private path2 (9/15): Milestone
+PASS  birthday-private lands on birthday URL: got true
+PASS  birthday-private has utm_content: got true
+PASS  birthday-villa 15 headlines: got 15
+PASS  birthday-villa 4 descriptions: got 4
+PASS  birthday-villa H (23/30): Villa Birthday Catering
+PASS  birthday-villa H (25/30): Birthday Catering at Home
+PASS  birthday-villa H (26/30): Stay a Guest at Your Table
+PASS  birthday-villa H (24/30): Gated Villa, We Cater It
+PASS  birthday-villa H (23/30): Palm and Emirates Hills
+PASS  birthday-villa H (27/30): Garden, Pool or Dining Room
+PASS  birthday-villa H (26/30): Food, Staff and Clear-Down
+PASS  birthday-villa H (25/30): One Coordinator for Gates
+PASS  birthday-villa H (26/30): Private Milestone Birthday
+PASS  birthday-villa H (27/30): We Design the Running Order
+PASS  birthday-villa H (25/30): Request an Itemised Quote
+PASS  birthday-villa H (23/30): Birthday Catering Dubai
+PASS  birthday-villa H (26/30): Kids and Adults, One Night
+PASS  birthday-villa H (26/30): No Posting Without Consent
+PASS  birthday-villa H (23/30): Reply Within 15 Minutes
+PASS  birthday-villa D (78/90): Birthday catering in a Dubai villa or home. Gates and load-in go in the brief.
+PASS  birthday-villa D (67/90): Stay seated with your guests. We handle food, staff and clear-down.
+PASS  birthday-villa D (71/90): Garden, pool or dining room. Children earlier, adults later, one order.
+PASS  birthday-villa D (74/90): Request an itemised proposal or send a private brief. Reply in 15 minutes.
+PASS  birthday-villa path1 (5/15): Villa
+PASS  birthday-villa path2 (8/15): Birthday
+PASS  birthday-villa lands on birthday URL: got true
+PASS  birthday-villa has utm_content: got true
+PASS  birthday-yacht 15 headlines: got 15
+PASS  birthday-yacht 4 descriptions: got 4
+PASS  birthday-yacht H (23/30): Yacht Birthday Catering
+PASS  birthday-yacht H (20/30): You Arrange the Boat
+PASS  birthday-yacht H (21/30): We Cater the Birthday
+PASS  birthday-yacht H (19/30): Marina-Safe Loading
+PASS  birthday-yacht H (23/30): Canapes, Grill and Cake
+PASS  birthday-yacht H (20/30): Compact Galley Menus
+PASS  birthday-yacht H (21/30): Stay a Guest on Board
+PASS  birthday-yacht H (23/30): Birthday Catering Dubai
+PASS  birthday-yacht H (27/30): Food First. Then the Night.
+PASS  birthday-yacht H (23/30): One Coordinator On Deck
+PASS  birthday-yacht H (25/30): Request an Itemised Quote
+PASS  birthday-yacht H (21/30): We Do Not Hire Yachts
+PASS  birthday-yacht H (26/30): Sunset Service, Clear-Down
+PASS  birthday-yacht H (23/30): Reply Within 15 Minutes
+PASS  birthday-yacht H (26/30): Private Milestone Birthday
+PASS  birthday-yacht D (71/90): You own or charter the yacht. We plan loading, canapes, grill and cake.
+PASS  birthday-yacht D (73/90): Yacht birthday catering, not yacht hire. Compact galleys decide the menu.
+PASS  birthday-yacht D (75/90): Stay a guest on board. One coordinator for food. Request an itemised quote.
+PASS  birthday-yacht D (66/90): Sunset canapes, a grill if the deck allows, cake, then clear-down.
+PASS  birthday-yacht path1 (5/15): Yacht
+PASS  birthday-yacht path2 (8/15): Birthday
+PASS  birthday-yacht lands on birthday URL: got true
+PASS  birthday-yacht has utm_content: got true
+PASS  birthday-kids 15 headlines: got 15
+PASS  birthday-kids 4 descriptions: got 4
+PASS  birthday-kids H (22/30): Kids Birthday Catering
+PASS  birthday-kids H (20/30): Children Eat Earlier
+PASS  birthday-kids H (18/30): Adult Dinner Later
+PASS  birthday-kids H (17/30): One Running Order
+PASS  birthday-kids H (22/30): Kids Birthday in Dubai
+PASS  birthday-kids H (26/30): Attached to Adult Catering
+PASS  birthday-kids H (22/30): Cake as Its Own Moment
+PASS  birthday-kids H (26/30): Allergy Notes in the Brief
+PASS  birthday-kids H (26/30): Stay a Guest at Your Table
+PASS  birthday-kids H (23/30): Birthday Catering Dubai
+PASS  birthday-kids H (20/30): Meal Boxes or a Menu
+PASS  birthday-kids H (25/30): Request an Itemised Quote
+PASS  birthday-kids H (23/30): Villa Garden Afternoons
+PASS  birthday-kids H (27/30): We Design the Running Order
+PASS  birthday-kids H (23/30): Reply Within 15 Minutes
+PASS  birthday-kids D (71/90): Kids birthday catering in Dubai on the adult booking. They eat earlier.
+PASS  birthday-kids D (67/90): One activity and cake as its own moment. Meal boxes are one option.
+PASS  birthday-kids D (71/90): Allergy notes go in before anyone cooks. We do not claim allergen-free.
+PASS  birthday-kids D (70/90): Children earlier, adults later, one running order. Request a proposal.
+PASS  birthday-kids path1 (4/15): Kids
+PASS  birthday-kids path2 (8/15): Birthday
+PASS  birthday-kids lands on birthday URL: got true
+PASS  birthday-kids has utm_content: got true
+PASS  yacht does not bid yacht catering dubai exact: got true
+PASS  yacht headlines say we do not hire: got true
+PASS  private group has no AED 90: got true
+PASS  private group has no AED 120: got true
+PASS  no prohibited brochure words: got false
+PASS  kids group refuses allergen-free: got true
+PASS  sitelink Private Brief (13/25): Private Brief
+PASS  sitelink Private Brief d1 (28/35): Date, house, vibe, surprise.
+PASS  sitelink Private Brief d2 (28/35): We design the running order.
+PASS  sitelink Itemised Proposal (17/25): Itemised Proposal
+PASS  sitelink Itemised Proposal d1 (24/35): Formats, floors, extras.
+PASS  sitelink Itemised Proposal d2 (33/35): See the lines before you confirm.
+PASS  sitelink Birthday Prices (15/25): Birthday Prices
+PASS  sitelink Birthday Prices d1 (26/35): Published starting prices.
+PASS  sitelink Birthday Prices d2 (26/35): VAT shown as its own line.
+PASS  sitelink Villa Catering (14/25): Villa Catering
+PASS  sitelink Villa Catering d1 (32/35): Homes, gardens, gated compounds.
+PASS  sitelink Villa Catering d2 (30/35): You stay a guest at the table.
+PASS  sitelink Yacht Catering (14/25): Yacht Catering
+PASS  sitelink Yacht Catering d1 (21/35): You arrange the boat.
+PASS  sitelink Yacht Catering d2 (22/35): We cater the birthday.
+PASS  sitelink Evening Acts (12/25): Evening Acts
+PASS  sitelink Evening Acts d1 (35/35): Food first, then cake, then extras.
+PASS  sitelink Evening Acts d2 (31/35): Optional lines on one proposal.
+PASS  callout Reply in 15 Minutes (19/25): Reply in 15 Minutes
+PASS  callout One Coordinator (15/25): One Coordinator
+PASS  callout You Stay a Guest (16/25): You Stay a Guest
+PASS  callout Itemised Proposal (17/25): Itemised Proposal
+PASS  callout Surprise Load-In (16/25): Surprise Load-In
+PASS  callout No Unapproved Posts (19/25): No Unapproved Posts
+PASS  callout Halal-First Menus (17/25): Halal-First Menus
+PASS  callout You Arrange the Boat (20/25): You Arrange the Boat
+
+ALL PASS

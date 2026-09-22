@@ -7,6 +7,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { trackConversion } from '@/lib/track'
 import { bucketGuests } from '@/lib/trackVocab'
+import { cateringCalculatorHref } from '@/lib/cateringInquiry'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -115,7 +116,7 @@ export default function CateringCostCalculator() {
       <PageHero
         eyebrow="PRICING TOOL"
         title="Catering Cost Calculator Dubai"
-        subtitle="A catering cost calculator Dubai uses the same floors as the Catering hub. Choose format, guest count and staff level. The figure is an estimate. The written quote is the total."
+        subtitle={"Use our catering cost calculator for Dubai to explore an indicative price by format, guest count and staffing. The estimate is a planning guide; your written proposal confirms the complete scope and total."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cost Calculator' }]}
         minHeight="medium"
         overlay="dark"
@@ -218,7 +219,7 @@ export default function CateringCostCalculator() {
                       AED {quote.totalLow.toLocaleString()} – {quote.totalHigh.toLocaleString()}
                     </p>
                     <p className="font-inter text-body-xs text-gray-500 mt-2">
-                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)} is indicative market, not a second myCHEF floor. Final quote depends on menu, ingredients, and location.
+                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)}  is an indicative market range for comparison. Your myCHEF quote depends on the agreed menu, ingredients, staffing and location.
                     </p>
                   </div>
                 </>
@@ -234,7 +235,7 @@ export default function CateringCostCalculator() {
               )}
 
               <Link
-                to="/inquiry"
+                to={cateringCalculatorHref(service, countedGuests, staffLevel)}
                 className="btn-primary inline-flex items-center gap-2 w-full md:w-auto justify-center"
               >
                 Get My Exact Quote <ArrowRight size={16} />

@@ -20,7 +20,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
     width: 1344,
     height: 752,
     subtitle:
-      'Institutional catering Dubai for nurseries, schools, hospitals and staff canteens. One kitchen standard: papers you can open, a quote after we walk the site.',
+      "Institutional catering in Dubai, with service proposals based on your setting, kitchen facilities and operational requirements. Discuss nursery, school, hospital or staff dining needs, with suitability and documentation assessed before confirmation.",
     micro: 'Tell us which kind of site it is. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(

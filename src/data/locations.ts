@@ -55,21 +55,21 @@ const allLocations: LocationData[] = [
     name: 'Dubai Marina',
     title: 'Private Chef Dubai Marina | myCHEF',
     metaDescription:
-      'Private Chef Dubai Marina with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Dubai Marina for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Dubai Marina',
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
-      'A private chef Dubai Marina cooks in your tower kitchen, penthouse or, if you already have the boat, at a marina berth. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Dubai Marina, with menus and service tailored to your apartments, penthouses and chartered yachts. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Dubai Marina is towers, concierge desks and boats at the dock. We cook at your address. We do not charter yachts and we do not own a venue on the water.',
-      'Catering in Dubai Marina is a single sitting: setup, service, clear-down. A chef at home in Dubai Marina on a standing plan is different. That chef returns, works from a Food Profile, and a household manager handles backup when someone is off.',
-      'Private dining in Dubai Marina still needs the same facts: tower, berth or apartment, guest count, and whether this is one night or a weekly rhythm. Party catering in Dubai Marina is quoted as an event. A personal chef in Dubai Marina who comes back is quoted as a household plan. Tell us which one it is.',
+      "Enjoy professional cooking in Dubai Marina, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Tower concierge, loading windows and marina access are confirmed before arrival. For yacht bookings, we coordinate storage, loading and service with your captain or operator.",
     ],
     targetAudience: {
       title: 'Who this kitchen is for in the Marina',
       paragraphs: [
-        'Residents in high-rise apartments and penthouses, visitors in serviced residences, and teams who want a dinner in the building after work. Yacht owners and charter guests use us for the food and service only. You hold the boat. We bring the kitchen team.',
-        'If you want a woman in the kitchen, say so in the brief. Matching includes who you are comfortable having in the house. We do not advertise a separate product for that. It is a match note.',
+        "Apartment residents, visiting guests and yacht hosts can arrange a private dinner or regular cooking, with the service adapted to the kitchen or galley.",
+        "Share any preferences that would help you feel comfortable with the chef in your home. We consider these during matching and confirm availability.",
       ],
     },
     serviceInclusions: {
@@ -88,8 +88,8 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that work in a tower or on a deck',
       paragraphs: [
-        'The menu follows the kitchen you actually have. A penthouse with a full hob is not a yacht galley. Yacht catering in Dubai Marina is planned around space, power and how food moves on deck. Fine dining in Dubai Marina is a plated sitting in your home if that is the brief, not a restaurant we run.',
-        'If the sitting is iftar, we plan the menu and timing around that. It is still a dinner at your address, quoted as catering.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
+        "For iftar or another timed occasion, the menu and service are planned around your schedule, guest requirements and kitchen facilities.",
       ],
       cuisines: [
         'Mediterranean',
@@ -123,7 +123,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'Once you approve, we lock the chef and the team. The date is not held on a verbal yes.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -140,12 +140,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The lift booking and the marina handoff are part of the brief',
       paragraphs: [
-        'A Marina dinner fails on access more often than on the plate. We plan the concierge slot, the valet drop and, on the water, the packing the crew will accept. The chef cooks. myCHEF matches, briefs and backs them up.',
-        'We do not promise a chef within 24 hours. We typically reply within 15 minutes during business hours. The date is confirmed when the brief and the quote are agreed.',
+        "Tower concierge, loading windows and marina access are confirmed before arrival. For yacht bookings, we coordinate storage, loading and service with your captain or operator.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'Nights that actually happen here',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Dinner on a boat you already have',
@@ -172,7 +172,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Concierge, valet and marina loading',
       paragraphs: [
-        'Many Marina towers are valet-only with booked loading. We confirm those windows before the day. For a boat, we pack for a marina handoff and work with your captain or yacht manager. We do not run the charter.',
+        "Tower concierge, loading windows and marina access are confirmed before arrival. For yacht bookings, we coordinate storage, loading and service with your captain or operator.",
       ],
     },
     nearbyLocations: [
@@ -210,7 +210,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a standing chef different from one dinner?',
-        a: 'Yes. One night is [catering](/catering-dubai). A chef who returns is a [household plan](/private-chef-dubai) with a Food Profile and backup. Do not buy a monthly plan to cover a birthday.',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Can you cook in a Marina penthouse?',
@@ -218,7 +218,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How far ahead should I write?',
-        a: 'Give us the date as soon as you have it. Two weeks is comfortable for a larger sitting. We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
       {
         q: 'Is cleanup included?',
@@ -226,7 +226,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Can you match who is in the house?',
-        a: 'Yes. Identity, right-to-work, a cooking check and references sit behind the match. If you want a woman in the kitchen, put that in the brief.',
+        a: "Share your preferences when enquiring. We consider household fit alongside identity checks, right to work, cooking ability and references, and confirm a suitable available match.",
       },
     ],
     uniqueAngle:
@@ -246,20 +246,20 @@ const allLocations: LocationData[] = [
     name: 'Downtown Dubai',
     title: 'Private Chef Downtown Dubai | myCHEF',
     metaDescription:
-      'Private Chef Downtown Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Downtown Dubai for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Downtown Dubai',
     heroImage: '/loc-downtown.webp',
     heroSubtitle:
-      'Private chef Downtown Dubai means a team cleared through concierge and a loading bay, then cooking in your apartment or office kitchen. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Downtown Dubai, with menus and service tailored to your apartments, penthouses and offices. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Downtown is towers, timed service lifts and streets that jam around the Fountain. We cook at your address. We do not own a restaurant here and we do not book Dubai Opera for you.',
-      'Catering in Downtown Dubai is a sitting with a clock: setup, service, out before the next building slot. A chef at home in Downtown Dubai on a standing plan is the same kitchen on a weekly rhythm, with a Food Profile so backup is not a restart.',
-      'Private dining in Downtown Dubai is still your table. Party catering in Downtown Dubai is an event quote. A personal chef in Downtown Dubai who returns is a household quote. Office catering in Downtown Dubai is timed to the meeting, not to a buffet line in a ballroom we run.',
+      "Enjoy professional cooking in Downtown Dubai, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We plan around booked loading bays, service lifts and concierge access. Event traffic and the timing of your meeting or evening plans are included in the arrival schedule.",
     ],
     targetAudience: {
       title: 'Who hosts in these towers',
       paragraphs: [
-        'Residents in Downtown apartments and penthouses, offices that need a lunch or a client dinner in the building, and visitors in hotel residences. Guests are often on a tight clock: a show, a meeting, a fountain window.',
+        "Residents, visitors and office teams can enjoy a private meal with timings adapted to meetings, theatre plans or a relaxed evening at home.",
       ],
     },
     serviceInclusions: {
@@ -278,7 +278,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that survive a service-lift slot',
       paragraphs: [
-        'Event catering in Downtown Dubai has to move through a loading bay and still land hot. Fine dining in Downtown Dubai is a plated sitting in your home or boardroom if the kitchen can support it. If the sitting is iftar, we plan the timing with the building rules, not against them.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'French',
@@ -312,7 +312,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the access slot once you approve the proposal.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -329,12 +329,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Loading-bay hours are written into the plan',
       paragraphs: [
-        'Downtown dinners fail when the van cannot enter. We treat the bay booking as part of the brief, the same as headcount. The chef cooks. We match, time and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We plan around booked loading bays, service lifts and concierge access. Event traffic and the timing of your meeting or evening plans are included in the arrival schedule.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What people actually book here',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Apartment dinner after a show',
@@ -361,7 +361,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Service lifts, bays and Fountain traffic',
       paragraphs: [
-        'Downtown towers usually need a booked loading bay and a named contact at concierge. We arrive in the approved window and use service lifts where the building requires it. We plan around Fountain and Opera traffic rather than hoping the street is empty.',
+        "We plan around booked loading bays, service lifts and concierge access. Event traffic and the timing of your meeting or evening plans are included in the arrival schedule.",
       ],
     },
     nearbyLocations: [
@@ -403,7 +403,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a party?',
-        a: 'No. A party is one night. A weekly chef is a [household plan](/private-chef-dubai). We will send you to the right product.',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'How does pricing work?',
@@ -415,7 +415,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How quickly do you reply?',
-        a: 'We typically reply within 15 minutes during business hours. That is a reply, not a chef at the door.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -434,20 +434,20 @@ const allLocations: LocationData[] = [
     name: 'Palm Jumeirah',
     title: 'Private Chef Palm Jumeirah | myCHEF',
     metaDescription:
-      'Private Chef Palm Jumeirah with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Palm Jumeirah for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Palm Jumeirah',
     heroImage: '/loc-palm-jumeirah.webp',
     heroSubtitle:
-      'A private chef Palm Jumeirah works a Frond villa kitchen or a Trunk apartment, after the gate list is confirmed. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Palm Jumeirah, with menus and service tailored to your Frond villas and Trunk apartments. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'The Palm is villas on the Fronds and apartments on the Trunk. We cook in those kitchens. We do not own a villa here and we do not run a beach club.',
-      'Catering on Palm Jumeirah is one sitting: garden, dining room or, where the house allows it, the beach at the end of the plot. A chef at home on Palm Jumeirah on a standing plan is a villa chef who returns, with a Food Profile so the next chef is not guessing at the door.',
-      'Private dining on Palm Jumeirah is your table. A private dinner on Palm Jumeirah for clients is still catering if it is one night. Party catering on Palm Jumeirah is an event quote. A personal chef on Palm Jumeirah, or a villa chef on Palm Jumeirah who comes back each week, is a household quote. A business lunch on Palm Jumeirah is the same kitchen on a weekday clock.',
+      "Enjoy professional cooking in Palm Jumeirah, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We confirm gate passes, parking and kitchen access before arrival. Outdoor meals are planned around the property’s permissions, facilities and weather conditions.",
     ],
     targetAudience: {
       title: 'Who lives with this access problem',
       paragraphs: [
-        'Households in Frond villas, residents on the Trunk, and guests staying in residences on the island. Dinners here are often family, often mixed diets, and often behind a gate that wants names in advance.',
+        "Villa households, apartment residents and guests staying on the Palm can arrange family meals, celebration dinners or regular chef support.",
       ],
     },
     serviceInclusions: {
@@ -466,7 +466,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a villa kitchen, not a brochure',
       paragraphs: [
-        'The menu follows the kitchen, the weather and who is at the table. Catering in Jumeirah Dubai is a different page if the house is on the beach road rather than on the Palm. If the sitting is iftar, we plan the menu and the Maghrib timing with you.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'French',
@@ -500,7 +500,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and submit guest names for the gate as the house requires.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -517,12 +517,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The Frond gate is the first course',
       paragraphs: [
-        'If the chef cannot get onto the island, the menu does not matter. We treat gate access, parking and the kitchen layout as part of the job. The chef cooks. We match, brief and cover.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We confirm gate passes, parking and kitchen access before arrival. Outdoor meals are planned around the property’s permissions, facilities and weather conditions.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'How the Palm actually uses a chef',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Frond villa dinner',
@@ -549,7 +549,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Island gates, parking and beach setups',
       paragraphs: [
-        'Palm entry is controlled. We confirm names, vehicle details and the villa\'s preferred gate before the day. Beach service only where the house and the rules allow it. We bring what the kitchen does not have rather than assuming a hotel store cupboard.',
+        "We confirm gate passes, parking and kitchen access before arrival. Outdoor meals are planned around the property’s permissions, facilities and weather conditions.",
       ],
     },
     nearbyLocations: [
@@ -591,7 +591,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly villa chef the same as a party?',
-        a: 'No. A party is [catering](/catering-dubai). A chef who returns is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you handle the island gate?',
@@ -603,7 +603,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. That is not a same-day chef guarantee.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -622,21 +622,21 @@ const allLocations: LocationData[] = [
     name: 'Jumeirah',
     title: 'Private Chef Jumeirah | myCHEF',
     metaDescription:
-      'Private Chef Jumeirah with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Jumeirah for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Jumeirah',
     heroImage: '/loc-jumeirah.webp',
     heroSubtitle:
-      'Private chef Jumeirah is a villa kitchen on the beach road, with garden tables and parking that has to be thought about. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Jumeirah, with menus and service tailored to your villas and family homes. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Jumeirah is houses, compounds and gardens, not a marina cluster. We cook in those kitchens. We do not own a beach venue and we do not hold a table at a hotel.',
-      'Catering in Jumeirah is one sitting in the house or garden. A chef at home in Jumeirah on a standing plan is the weekly rhythm: the same kitchen, a Food Profile, cover when the chef is off.',
-      'Private dining in Jumeirah is your dining room. Party catering in Jumeirah is an event quote. A personal chef in Jumeirah who returns is a household quote. If you searched for a private chef near Palm Jumeirah, this page is the beach-road villas; the island has its own page.',
+      "Enjoy professional cooking in Jumeirah, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Driveway access, kitchen facilities and garden service are agreed with the household. Outdoor menus account for available equipment, weather and any property restrictions.",
     ],
     targetAudience: {
       title: 'Families and long-stay houses on the coast',
       paragraphs: [
-        'Households in villas and compounds, often multi-generational, often with children at the table. Visitors in rented villas book a one-night chef. Residents more often want someone who comes back.',
-        'If you want a woman in the kitchen, put it in the brief. That is a match constraint, not a separate brand.',
+        "Families and hosts in Jumeirah can plan regular meals, garden gatherings or a private dinner at home.",
+        "Share any preferences that would help you feel comfortable with the chef in your home. We consider these during matching and confirm availability.",
       ],
     },
     serviceInclusions: {
@@ -655,7 +655,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a garden table and a family kitchen',
       paragraphs: [
-        'Sharing plates, grilled fish, mezze and a seated dinner all work here if the kitchen and the weather agree. If the sitting is iftar, we plan the timing with the household, not against school runs and Maghrib.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -689,7 +689,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the team once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -706,12 +706,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The kitchen is in the villa, not on Beach Road',
       paragraphs: [
-        'Jumeirah service is parking, a garden that may be windy, and a kitchen that was built for a family, not a banquet. We plan those constraints before the shopping list. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "Driveway access, kitchen facilities and garden service are agreed with the household. Outdoor menus account for available equipment, weather and any property restrictions.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What these houses actually book',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Garden dinner',
@@ -738,7 +738,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Gates, parking and Beach Road traffic',
       paragraphs: [
-        'Parking near beachfront villas is often tight. We confirm where the van can stop and how we enter the garden. We plan around Beach Road traffic rather than promising a time we cannot keep.',
+        "Driveway access, kitchen facilities and garden service are agreed with the household. Outdoor menus account for available equipment, weather and any property restrictions.",
       ],
     },
     nearbyLocations: [
@@ -780,7 +780,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a birthday?',
-        a: 'No. A birthday is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you cook for children as well as adults?',
@@ -792,7 +792,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -811,20 +811,20 @@ const allLocations: LocationData[] = [
     name: 'JBR',
     title: 'Private Chef JBR | myCHEF',
     metaDescription:
-      'Private Chef JBR with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in JBR for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef JBR',
     heroImage: '/loc-jbr.webp',
     heroSubtitle:
-      'Private chef JBR is a beachfront apartment kitchen on The Walk, with building loading and parking as the first constraint. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in JBR, with menus and service tailored to your beachfront apartments and residences. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'JBR is apartments, serviced residences and a busy beach road. We cook in those kitchens. We do not own a beach plot and we do not run a restaurant on The Walk.',
-      'Catering in JBR is one sitting in the apartment, or on the beach only where it is permitted. A chef at home in JBR on a standing plan is a weekly cook in the same kitchen, with a Food Profile for backup.',
-      'Private dining in JBR is your table with a sea or marina view. Party catering in JBR is an event quote. A personal chef in JBR who returns is a household quote. If the sitting is iftar, we plan the timing around the building and the household, not a buffet hall we do not run.',
+      "Enjoy professional cooking in JBR, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We coordinate loading, parking and service-lift access with your building. Kitchen capacity and balcony restrictions are checked before the menu and equipment are confirmed.",
     ],
     targetAudience: {
       title: 'Residents, short stays and family tables on The Walk',
       paragraphs: [
-        'People who live in JBR apartments, visitors in serviced residences, and families booking a birthday in the building. The kitchen is often compact. The brief has to say so.',
+        "Apartment residents and visiting guests can enjoy a private dinner or regular chef support, with service suited to the facilities in the residence.",
       ],
     },
     serviceInclusions: {
@@ -843,7 +843,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that fit an apartment kitchen',
       paragraphs: [
-        'Light, serviceable food that can be finished in a residential kitchen. Seafood, Mediterranean sharing plates, canapés and a seated dinner all work if the hob and the lift agree.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -877,7 +877,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the building slot once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -894,12 +894,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The Walk is the access problem, not the brand story',
       paragraphs: [
-        'JBR fails on parking, sand in the lift and a kitchen that is smaller than the guest list. We plan those before we shop. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We coordinate loading, parking and service-lift access with your building. Kitchen capacity and balcony restrictions are checked before the menu and equipment are confirmed.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What JBR actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Apartment birthday',
@@ -926,7 +926,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Loading points, The Walk and beach rules',
       paragraphs: [
-        'The Walk is congested and many buildings restrict loading. We use the approved drop-off and we do not leave a van on the beach road. Beach service only where it is permitted. Sand does not go in the lift.',
+        "We coordinate loading, parking and service-lift access with your building. Kitchen capacity and balcony restrictions are checked before the menu and equipment are confirmed.",
       ],
     },
     nearbyLocations: [
@@ -967,7 +967,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a birthday party?',
-        a: 'No. A party is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Is cleanup included?',
@@ -979,7 +979,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How far ahead should I write?',
-        a: 'As soon as you have the date. Peak season from November to March fills faster. We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -998,20 +998,20 @@ const allLocations: LocationData[] = [
     name: 'Business Bay',
     title: 'Private Chef Business Bay | myCHEF',
     metaDescription:
-      'Private Chef Business Bay with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Business Bay for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Business Bay',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
-      'Private chef Business Bay is a canal-tower kitchen: offices on a weekday clock, apartments after hours. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Business Bay, with menus and service tailored to your canal-side apartments and offices. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Business Bay mixes Grade A offices and residential towers on the canal. We cook in those kitchens. We do not own a canal venue and we do not run a restaurant on the promenade.',
-      'Catering in Business Bay is a sitting with a loading dock and a finish time. A chef at home in Business Bay on a standing plan is weekly cooking in the same apartment, with a Food Profile for backup.',
-      'Private dining in Business Bay is your table. Party catering in Business Bay is an event quote. A personal chef in Business Bay who returns is a household quote. Office catering in Business Bay is food that can be served and cleared inside the meeting. A business dinner in Business Bay is catering, quoted in writing. Business lunches in Dubai that happen in these towers follow the same rule: the window is the brief.',
+      "Enjoy professional cooking in Business Bay, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Building security, loading bays and service lifts are part of the plan. Office meals are timed around the working day, while home dinners follow the household’s schedule.",
     ],
     targetAudience: {
       title: 'Offices by day, apartments after six',
       paragraphs: [
-        'Office managers booking a lunch or a reception, residents in canal-front towers, and teams who want clients fed in the building. If you want a woman in the kitchen, put it in the brief.',
+        "Share any preferences that would help you feel comfortable with the chef in your home. We consider these during matching and confirm availability.",
       ],
     },
     serviceInclusions: {
@@ -1030,7 +1030,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that survive a meeting window',
       paragraphs: [
-        'A working lunch is not a gala. We will say so if the format is wrong for the time you have. Event catering in this district is still your room. If the sitting is iftar, we plan the timing with the tower, not against the lift schedule.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -1064,7 +1064,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the dock slot once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -1081,12 +1081,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The meeting window is the menu constraint',
       paragraphs: [
-        'Business Bay food fails when it is still being plated as people stand up. We design the service to the finish time you give us. The chef cooks. We match, time and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "Building security, loading bays and service lifts are part of the plan. Office meals are timed around the working day, while home dinners follow the household’s schedule.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What these towers actually book',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Boardroom lunch',
@@ -1113,7 +1113,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Loading docks, valet and canal drop-offs',
       paragraphs: [
-        'Towers here run on docks and visitor desks. We book the window, use service lifts where required, and do not leave equipment in a lobby. Canal-front rooms still need a legal drop-off, not a van on the promenade.',
+        "Building security, loading bays and service lifts are part of the plan. Office meals are timed around the working day, while home dinners follow the household’s schedule.",
       ],
     },
     nearbyLocations: [
@@ -1155,7 +1155,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as office catering?',
-        a: 'No. Office catering is [catering](/catering-dubai). A weekly chef in the apartment is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you invoice companies properly?',
@@ -1186,20 +1186,20 @@ const allLocations: LocationData[] = [
     name: 'DIFC',
     title: 'Private Chef DIFC | myCHEF',
     metaDescription:
-      'Private Chef DIFC with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in DIFC for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef DIFC',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
-      'Private chef DIFC is a boardroom or a residence inside the Gate, timed to security and the meeting end. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in DIFC, with menus and service tailored to your residences, offices and boardrooms. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'DIFC is controlled access, office towers and a small number of residences. We cook in those rooms. We do not own a dining room in Gate Village and we do not take over a restaurant kitchen.',
-      'Catering in DIFC is a sitting with a clock and a security desk. A chef at home in DIFC on a standing plan is weekly cooking in a residence such as Index Tower, with a Food Profile for backup.',
-      'Private dining in DIFC is your table. Party catering in DIFC is an event quote. A personal chef in DIFC who returns is a household quote. Office catering in DIFC and a business lunch in DIFC are catering products: billed, timed, cleared. Fine dining in DIFC, if you want a plated sitting, is still your room, not ours.',
+      "Enjoy professional cooking in DIFC, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We confirm building permissions, security registration and delivery access with your contact. Boardroom service is planned around the meeting agenda and agreed finish time.",
     ],
     targetAudience: {
       title: 'Firms, family offices and a few residences',
       paragraphs: [
-        'Banks, advisers, law firms and family offices who need food in the room without turning the meeting into an event. Residents in DIFC buildings who want a chef at home. Discretion is a working method: small teams, named access, no lobby theatre.',
+        "Residents and business hosts can arrange private meals or discreet office hospitality, with the level of service matched to the occasion.",
       ],
     },
     serviceInclusions: {
@@ -1218,7 +1218,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that can be served and cleared on time',
       paragraphs: [
-        'A 60-minute lunch is a constraint, not a slogan. We will cut the menu if the clock cannot hold it. Corporate catering in DIFC is still food plus people in the room, quoted in writing.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'French',
@@ -1252,7 +1252,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and liaise with the building for loading and setup.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -1269,12 +1269,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The lunch has to finish when the meeting does',
       paragraphs: [
-        'DIFC food fails when it ignores the Gate, the lift and the calendar. We treat those as ingredients of the brief. The chef cooks. We match, time and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We confirm building permissions, security registration and delivery access with your contact. Boardroom service is planned around the meeting agenda and agreed finish time.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What DIFC actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Timed working lunch',
@@ -1301,7 +1301,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Gate Village access, bays and quiet exits',
       paragraphs: [
-        'DIFC access is controlled. We arrange entry with building management, use designated bays and service lifts, and arrive on the meeting clock. We carry what we need so we are not borrowing the floor pantry.',
+        "We confirm building permissions, security registration and delivery access with your contact. Boardroom service is planned around the meeting agenda and agreed finish time.",
       ],
     },
     nearbyLocations: [
@@ -1342,7 +1342,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a client lunch?',
-        a: 'No. A client lunch is [catering](/catering-dubai). A weekly chef in a residence is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Can you work in Gate Village event rooms?',
@@ -1350,7 +1350,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -1369,20 +1369,20 @@ const allLocations: LocationData[] = [
     name: 'Emirates Hills',
     title: 'Private Chef Emirates Hills | myCHEF',
     metaDescription:
-      'Private Chef Emirates Hills with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Emirates Hills for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Emirates Hills',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Private chef Emirates Hills is a gated villa kitchen: security passes, house rules, a chef at the door. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Emirates Hills, with menus and service tailored to your private villas and residences. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Emirates Hills is villas behind a gate, around a golf course we do not run. We cook in those houses. We do not own a clubhouse and we do not advertise the residents.',
-      'Catering in Emirates Hills is one sitting in the dining room, garden or pool terrace. A chef at home in Emirates Hills on a standing plan is a private chef for an Emirates Hills villa who returns, with a Food Profile so backup is not a conversation on the driveway.',
-      'Private dining in Emirates Hills is your table. Party catering in Emirates Hills is an event quote. A personal chef in Emirates Hills who comes back is a household quote. Halal sourcing is the default. If you are asking whether food in this community with us is halal, the answer is yes unless you ask otherwise.',
+      "Enjoy professional cooking in Emirates Hills, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Security passes, driveway access and household service arrangements are agreed before arrival. We plan indoor and garden service around the property’s facilities and rules.",
     ],
     targetAudience: {
       title: 'Households that entertain at home on purpose',
       paragraphs: [
-        'Families and principals who would rather host in the villa than in a public room. Client dinners, family tables and the odd larger sitting in a garden. Privacy is a process: named vehicles, a small team, no extra bodies "to help the vibe".',
+        "Villa households can arrange regular cooking or host guests at home, with preferences and household routines reflected in the brief.",
       ],
     },
     serviceInclusions: {
@@ -1401,7 +1401,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a villa kitchen that already exists',
       paragraphs: [
-        'The menu follows the guests and the rooms, not a tasting-menu costume. We cook in your kitchen. If a specialist is needed for one meal, that is quoted separately. Healthy cooking, if that is what this house means by it, is defined in the brief, not as a slogan borrowed from another community.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'French',
@@ -1435,7 +1435,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and submit vehicle details as security requires.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -1452,12 +1452,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The house has rules. We work inside them.',
       paragraphs: [
-        'Emirates Hills service fails when a team treats the villa like a hotel. We take the gate, the entrance the house prefers, and the way the family wants to be served as part of the job. The chef cooks. We match and cover.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "Security passes, driveway access and household service arrangements are agreed before arrival. We plan indoor and garden service around the property’s facilities and rules.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What these villas actually book',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Client dinner at home',
@@ -1484,7 +1484,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Gated entry, named vehicles, quiet exits',
       paragraphs: [
-        'Emirates Hills is gated. We arrange passes in advance, arrive at the agreed time and follow the villa\'s preferred route. We bring what we need and we take it away. Privacy is the method, not a claim that the community is closed to everyone else.',
+        "Security passes, driveway access and household service arrangements are agreed before arrival. We plan indoor and garden service around the property’s facilities and rules.",
       ],
     },
     nearbyLocations: [
@@ -1538,7 +1538,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -1557,20 +1557,20 @@ const allLocations: LocationData[] = [
     name: 'Arabian Ranches',
     title: 'Private Chef Arabian Ranches | myCHEF',
     metaDescription:
-      'Private Chef Arabian Ranches with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Arabian Ranches for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Arabian Ranches',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Private chef Arabian Ranches is a villa kitchen and, often, a garden grill that needs power and a gate pass. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Arabian Ranches, with menus and service tailored to your family villas and garden settings. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Arabian Ranches is villa communities with gardens, parks and a family clock. We cook in those houses. We do not run the community club and we do not book the park for you.',
-      'Catering in Arabian Ranches is one sitting: garden BBQ, dining room, or a community space only where it is permitted. A chef at home in Arabian Ranches on a standing plan is weekly cooking in the same villa, with a Food Profile for backup.',
-      'Private dining in Arabian Ranches is your table. Party catering in Arabian Ranches is an event quote. A personal chef in Arabian Ranches who returns is a household quote. If you want a woman in the kitchen, put it in the brief.',
+      "Enjoy professional cooking in Arabian Ranches, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We confirm community entry, parking, kitchen access and any garden equipment requirements. Grills and outdoor service are included only where the property permits them.",
     ],
     targetAudience: {
       title: 'Families who host in the garden on purpose',
       paragraphs: [
-        'Long-stay families, school-run households and people who chose the Ranches for space. Birthdays, weekend grills and the occasional seated dinner. Children at the table are normal here. The brief should say so.',
+        "Families and villa hosts can plan regular meals, garden gatherings or celebration dining with a chef matched to the household.",
       ],
     },
     serviceInclusions: {
@@ -1589,7 +1589,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a garden, a grill and a family table',
       paragraphs: [
-        'Sharing food, grills, and a seated dinner all work if the garden power and the guest mix agree. We plan children\'s plates with the adult menu, not after it.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -1623,7 +1623,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and equipment once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -1640,8 +1640,8 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Garden power, children, and a grill that actually starts',
       paragraphs: [
-        'A Ranches night fails on an extension lead, a gate list and a menu that ignores bedtimes. We plan those with you. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We confirm community entry, parking, kitchen access and any garden equipment requirements. Grills and outdoor service are included only where the property permits them.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1672,7 +1672,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Community gates, driveways and outdoor kit',
       paragraphs: [
-        'Each sub-community has its own gate. We arrange visitor access when required, park on the driveway where we can, and bring outdoor-safe equipment. Park or club events only with the relevant permission. We do not treat those spaces as ours.',
+        "We confirm community entry, parking, kitchen access and any garden equipment requirements. Grills and outdoor service are included only where the property permits them.",
       ],
     },
     nearbyLocations: [
@@ -1713,7 +1713,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a BBQ party?',
-        a: 'No. A BBQ party is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you cook for children?',
@@ -1725,7 +1725,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How far ahead should I write?',
-        a: 'Weekends fill faster. Give us the date as soon as you have it. We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -1744,20 +1744,20 @@ const allLocations: LocationData[] = [
     name: 'Dubai Hills',
     title: 'Private Chef Dubai Hills | myCHEF',
     metaDescription:
-      'Private Chef Dubai Hills with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Dubai Hills for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Dubai Hills',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Private chef Dubai Hills is a villa, townhouse or apartment kitchen, and the access changes with the cluster. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Dubai Hills, with menus and service tailored to your villas, townhouses and apartments. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Dubai Hills Estate mixes villas, townhouses and apartment towers around a golf course and a park we do not run. We cook in those kitchens. We do not own the clubhouse.',
-      'Catering in Dubai Hills is one sitting in a garden, on a terrace or in a dining room. A chef at home in Dubai Hills on a standing plan is weekly cooking in the same kitchen, with a Food Profile for backup.',
-      'Private dining in Dubai Hills is your table. Party catering in Dubai Hills is an event quote. A personal chef in Dubai Hills who returns is a household quote. A villa here still needs a working kitchen and a gate that opens. A business lunch in Dubai Hills is catering on a weekday clock, not a household plan.',
+      "Enjoy professional cooking in Dubai Hills, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Access arrangements depend on the community and property type. We confirm security, parking and available kitchen equipment before finalising the menu and service.",
     ],
     targetAudience: {
       title: 'Families who moved here for space, and still host at home',
       paragraphs: [
-        'Households in Sidra, Maple and the other villa clusters, townhouses, and apartments in buildings such as Park Ridge. Birthdays, brunches and the occasional golf-day lunch, the last only with the club\'s approval.',
+        "Households in villas, townhouses and apartments can arrange regular cooking, private dinners and family occasions.",
       ],
     },
     serviceInclusions: {
@@ -1776,7 +1776,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a garden, a terrace or a tower kitchen',
       paragraphs: [
-        'The property type decides the format. A villa garden can hold a grill. An apartment terrace cannot pretend to be one. If the sitting is iftar, we plan the timing with the household and the gate hours.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -1810,7 +1810,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and submit visitor details as the community requires.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -1827,12 +1827,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Villa, townhouse or apartment: the access changes the plan',
       paragraphs: [
-        'Dubai Hills is not one address type. A Sidra driveway is not a Park Ridge loading bay. We ask which it is before we write a menu. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "Access arrangements depend on the community and property type. We confirm security, parking and available kitchen equipment before finalising the menu and service.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What Dubai Hills actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Villa garden birthday',
@@ -1859,7 +1859,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Multiple gates, driveways and tower loading',
       paragraphs: [
-        'We need the cluster name, not only "Dubai Hills". Visitor parking, villa driveways and apartment loading are different jobs. Club and park venues are reached through their own drop-offs, and only with permission.',
+        "Access arrangements depend on the community and property type. We confirm security, parking and available kitchen equipment before finalising the menu and service.",
       ],
     },
     nearbyLocations: [
@@ -1904,7 +1904,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a garden party?',
-        a: 'No. A party is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you cook for children?',
@@ -1912,7 +1912,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -1931,20 +1931,20 @@ const allLocations: LocationData[] = [
     name: 'JVC',
     title: 'Private Chef JVC | myCHEF',
     metaDescription:
-      'Private Chef JVC with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in JVC for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef JVC',
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
-      'Private chef JVC is a family apartment, townhouse or villa kitchen, often compact, behind a community gate. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in JVC, with menus and service tailored to your apartments, townhouses and villas. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Jumeirah Village Circle is apartments, townhouses and villas around parks we do not run. We cook in those kitchens. We do not own a community hall.',
-      'Catering in JVC is one sitting at home, or in a park only where it is permitted. A chef at home in JVC on a standing plan is weekly cooking in the same kitchen, with a Food Profile for backup.',
-      'Private dining in JVC is your table. Party catering in JVC is an event quote. A personal chef in JVC who returns is a household quote. A compact kitchen is still a working kitchen if the brief is honest about hob, fridge and lift.',
+      "Enjoy professional cooking in JVC, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We check community access, parking and the size of the kitchen. Menus and any portable equipment are planned to suit the facilities available in your home.",
     ],
     targetAudience: {
       title: 'Young families and houses that actually cook at home',
       paragraphs: [
-        'Households who moved to JVC for space and a park downstairs. Birthdays, baby gatherings and weekend dinners. Short-stay apartments book a one-night chef. Residents more often want someone who comes back.',
+        "Families and residents can arrange everyday chef support or a special meal, with the service adapted to the size of the home and guest list.",
       ],
     },
     serviceInclusions: {
@@ -1963,7 +1963,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that fit the rooms you have',
       paragraphs: [
-        'Family tables, a grill where the plot allows it, and seated dinners in villas with a full kitchen. We scale the menu to the guest list instead of forcing a banquet into a two-bed apartment.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Arabic & Levantine',
@@ -1997,7 +1997,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the equipment once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -2014,12 +2014,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'A compact kitchen is still a working kitchen',
       paragraphs: [
-        'JVC bookings fail when the guest list ignores the hob. We ask about the kitchen before we write a menu. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We check community access, parking and the size of the kitchen. Menus and any portable equipment are planned to suit the facilities available in your home.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What JVC actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Children\'s birthday at home',
@@ -2046,7 +2046,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Cluster parking and compact kitchens',
       paragraphs: [
-        'Some JVC clusters need a gate pass. We ask for that in the brief. For larger sittings we need a place to unload near the entrance. If the kitchen is small, we bring portable kit rather than discovering that on the night.',
+        "We check community access, parking and the size of the kitchen. Menus and any portable equipment are planned to suit the facilities available in your home.",
       ],
     },
     nearbyLocations: [
@@ -2090,7 +2090,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a party?',
-        a: 'No. A party is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Is cleanup included?',
@@ -2098,7 +2098,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How far ahead should I write?',
-        a: 'Give us the date as soon as you have it. Weekends fill faster. We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -2117,20 +2117,20 @@ const allLocations: LocationData[] = [
     name: 'JLT',
     title: 'Private Chef JLT | myCHEF',
     metaDescription:
-      'Private Chef JLT with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in JLT for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef JLT',
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
-      'Private chef JLT is a lakeside apartment or a DMCC office, planned around cluster loading bays and lift bookings. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in JLT, with menus and service tailored to your lakeside apartments and offices. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Jumeirah Lakes Towers is mixed-use clusters: offices, apartments and hotel residences around the lakes. We cook in those kitchens. We do not own a lakeside venue and we do not run JLT Park.',
-      'Catering in JLT is a sitting with a loading bay and a finish time. A chef at home in JLT on a standing plan is weekly cooking in the same apartment, with a Food Profile for backup.',
-      'Private dining in JLT is your table. Party catering in JLT is an event quote. A personal chef in JLT who returns is a household quote. Office catering in JLT and a business lunch in JLT are catering products, timed to the meeting. If the sitting is iftar, we plan it around the tower clock, not a hall we do not run.',
+      "Enjoy professional cooking in JLT, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "Cluster access, loading bays and lift bookings are confirmed with your building contact. Office service is timed around meetings, with clear-down included as agreed.",
     ],
     targetAudience: {
       title: 'DMCC offices by day, lakeside apartments after work',
       paragraphs: [
-        'Companies in the free-zone towers booking lunches and team sittings, and residents hosting in cluster apartments. Short-stay hotel apartments book a one-night chef. The common constraint is access, not appetite.',
+        "Residents and office teams can arrange household cooking, private dinners or meeting catering, with access and timings planned for the relevant cluster.",
       ],
     },
     serviceInclusions: {
@@ -2149,7 +2149,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a meeting room or a lakeside kitchen',
       paragraphs: [
-        'An office lunch is plated or sharing food that can be cleared on time. A home sitting can be longer. We will not write a banquet for a kitchen that cannot hold it.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -2183,7 +2183,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and the bay slot once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -2200,12 +2200,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Lakeside towers run on loading bays and lift slots',
       paragraphs: [
-        'JLT food fails when the van cannot enter the cluster. We treat the bay and the lift as part of the brief. The chef cooks. We match, time and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "Cluster access, loading bays and lift bookings are confirmed with your building contact. Office service is timed around meetings, with clear-down included as agreed.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What JLT actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'DMCC office lunch',
@@ -2232,7 +2232,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Cluster security, bays and lake-edge drop-offs',
       paragraphs: [
-        'JLT towers need a named cluster, a security plan and a loading bay. We ask for a building contact. Park events only where permitted. We do not treat the lakeside as our terrace.',
+        "Cluster access, loading bays and lift bookings are confirmed with your building contact. Office service is timed around meetings, with clear-down included as agreed.",
       ],
     },
     nearbyLocations: [
@@ -2282,7 +2282,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a team lunch?',
-        a: 'No. A team lunch is catering. A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Can you handle mixed diets in an office?',
@@ -2290,7 +2290,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -2309,20 +2309,20 @@ const allLocations: LocationData[] = [
     name: 'Bluewaters',
     title: 'Private Chef Bluewaters Island | myCHEF',
     metaDescription:
-      'Private Chef Bluewaters Island with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Bluewaters for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Bluewaters Island',
     heroImage: '/loc-jbr.webp',
     heroSubtitle:
-      'Private chef Bluewaters Island is an apartment kitchen reached by the bridge, often a serviced residence with a thin hob. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Bluewaters, with menus and service tailored to your apartments and serviced residences. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Bluewaters is an island of apartments and serviced residences. We cook in those kitchens. We do not own a restaurant on the island and we do not run the attractions.',
-      'Catering on Bluewaters Island is one sitting in the apartment. A chef at home on Bluewaters Island on a standing plan is weekly cooking in the same kitchen, with a Food Profile for backup.',
-      'Private dining on Bluewaters Island is your table. Party catering on Bluewaters Island is an event quote. A personal chef on Bluewaters Island who returns is a household quote. Catering on Bluewaters in Dubai still starts with bridge access and a building that will let the team in.',
+      "Enjoy professional cooking in Bluewaters, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We coordinate island entry, parking and loading with you or the concierge. Kitchen equipment is assessed in advance so the menu suits the apartment’s facilities.",
     ],
     targetAudience: {
       title: 'Residents and short stays who would rather eat in',
       paragraphs: [
-        'People who live on the island and visitors in holiday homes who want a chef in the apartment rather than another reservation. Kitchens are often compact. The brief has to say so. If you want a woman in the kitchen, put it in the brief.',
+        "Share any preferences that would help you feel comfortable with the chef in your home. We consider these during matching and confirm availability.",
       ],
     },
     serviceInclusions: {
@@ -2341,7 +2341,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a waterfront apartment kitchen',
       paragraphs: [
-        'Sharing plates, seafood, a seated dinner for a small table. We design to the hob you have. We do not stage a show kitchen we cannot support.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -2375,7 +2375,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef once you approve. Short-stay dates still need a written yes.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -2392,12 +2392,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The island is an access list, not a backdrop',
       paragraphs: [
-        'Bluewaters fails when the team cannot get across the bridge or the kitchen cannot hold the menu. We plan both. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We coordinate island entry, parking and loading with you or the concierge. Kitchen equipment is assessed in advance so the menu suits the apartment’s facilities.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What Bluewaters actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Holiday-home dinner',
@@ -2424,7 +2424,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Bridge, loading route and thin kitchens',
       paragraphs: [
-        'Island access is controlled. We time arrival with you or the concierge and confirm parking or loading. Most serviced apartments need extra kit. We bring it rather than assuming a villa hob.',
+        "We coordinate island entry, parking and loading with you or the concierge. Kitchen equipment is assessed in advance so the menu suits the apartment’s facilities.",
       ],
     },
     nearbyLocations: [
@@ -2464,7 +2464,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a holiday dinner?',
-        a: 'No. A holiday dinner is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'How do you handle island access?',
@@ -2472,7 +2472,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: 'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -2491,20 +2491,20 @@ const allLocations: LocationData[] = [
     name: 'Umm Suqeim',
     title: 'Private Chef Umm Suqeim | myCHEF',
     metaDescription:
-      'Private Chef Umm Suqeim with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Umm Suqeim for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Umm Suqeim',
     heroImage: '/loc-jumeirah.webp',
     heroSubtitle:
-      'Private chef Umm Suqeim is a coastal villa kitchen: garden, pool, parking, and a wind plan. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Umm Suqeim, with menus and service tailored to your coastal villas and family homes. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Umm Suqeim is established beach villas and compounds, near the coast and the hotels we do not run. We cook in those houses. We do not own a beach plot.',
-      'Catering in Umm Suqeim is one sitting in the villa, garden or pool terrace. A chef at home in Umm Suqeim on a standing plan is weekly cooking in the same kitchen, with a Food Profile for backup.',
-      'Private dining in Umm Suqeim is your table. Party catering in Umm Suqeim is an event quote. A personal chef in Umm Suqeim who returns is a household quote. Outdoor service here needs a plan for wind and sand, not a hope that the evening is still.',
+      "Enjoy professional cooking in Umm Suqeim, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We confirm driveway access and the available indoor and outdoor spaces. Garden and poolside service include an agreed plan for wind, heat and changing weather.",
     ],
     targetAudience: {
       title: 'Long-stay coastal households and villa guests',
       paragraphs: [
-        'Families in villas, homeowners who host at the house, and guests in rented coastal villas who want a chef without leaving the plot. Mixed ages at the table are common. The brief should say so.',
+        "Families and guests in coastal villas can arrange regular meals, private dinners or outdoor gatherings within the property’s permissions.",
       ],
     },
     serviceInclusions: {
@@ -2523,7 +2523,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus for a coastal villa, not a hotel terrace',
       paragraphs: [
-        'Mediterranean and Middle Eastern sharing food, grilled fish, and a seated dinner indoors if the wind is up. We decide indoor or outdoor with you, not against the forecast.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Mediterranean',
@@ -2574,8 +2574,8 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Coastal villas need a plan for wind and parking',
       paragraphs: [
-        'Umm Suqeim dinners fail on a blocked driveway and a tablecloth in the wind. We plan both. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We confirm driveway access and the available indoor and outdoor spaces. Garden and poolside service include an agreed plan for wind, heat and changing weather.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -2606,7 +2606,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Villa parking, garden access and coastal weather',
       paragraphs: [
-        'Most Umm Suqeim villas have a driveway. We still confirm where the van stops. Beachfront service only where the house and the rules allow it. We bring weights, shade and a weather plan for outdoor sittings.',
+        "We confirm driveway access and the available indoor and outdoor spaces. Garden and poolside service include an agreed plan for wind, heat and changing weather.",
       ],
     },
     nearbyLocations: [
@@ -2642,7 +2642,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a family party?',
-        a: 'No. A party is [catering](/catering-dubai). A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Do you bring service staff?',
@@ -2654,7 +2654,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How far ahead should I write?',
-        a: 'Give us the date as soon as you have it. Holiday weekends fill faster. We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        a: "Enquire as soon as your date is known, allowing more time for larger occasions and holidays. We typically reply within 15 minutes during business hours; chef availability is confirmed individually.",
       },
     ],
     uniqueAngle:
@@ -2673,20 +2673,20 @@ const allLocations: LocationData[] = [
     name: 'Al Barsha',
     title: 'Private Chef Al Barsha | myCHEF',
     metaDescription:
-      'Private Chef Al Barsha with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      "Private chef in Al Barsha for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
     h1: 'Private Chef Al Barsha',
     heroImage: '/loc-downtown.webp',
     heroSubtitle:
-      'Private chef Al Barsha is a villa, apartment or hotel residence kitchen, decided by the property type, not by a package name. One night is catering. A chef who comes back is a household plan.',
+      "A private chef in Al Barsha, with menus and service tailored to your villas, apartments and hotel residences. Choose regular household cooking or a carefully planned meal for one occasion.",
     intro: [
-      'Al Barsha sits on Sheikh Zayed Road with villas, apartment towers and hotel residences near Mall of the Emirates. We cook in those kitchens. We do not own a venue at the mall.',
-      'Catering in Al Barsha is one sitting at home or in a small office. A chef at home in Al Barsha on a standing plan is weekly cooking in the same kitchen, with a Food Profile for backup.',
-      'Private dining in Al Barsha is your table. Party catering in Al Barsha is an event quote. A personal chef in Al Barsha who returns is a household quote. If the address is over the road in Al Quoz, say so. The brief is still the kitchen, the timing and the guest count.',
+      "Enjoy professional cooking in Al Barsha, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
+      "We confirm the property type, parking and concierge arrangements before arrival. Menus and equipment are adapted to the kitchen, with travel and access included in the plan.",
     ],
     targetAudience: {
       title: 'Mixed households, hotel residences and small offices',
       paragraphs: [
-        'Families in villas and townhouses, professionals in apartments, and guests in hotel residences. Birthdays and family dinners are common. Small offices book a lunch. The property type is the first question.',
+        "Families, apartment residents and visiting guests can arrange household chef support, birthday dinners and smaller gatherings at home.",
       ],
     },
     serviceInclusions: {
@@ -2705,7 +2705,7 @@ const allLocations: LocationData[] = [
     menuOptions: {
       title: 'Menus that follow the property, not a single format',
       paragraphs: [
-        'A villa can hold a grill. A studio cannot. We write the menu after we know the rooms. If the sitting is iftar, we plan the timing with the household. Halal sourcing is the default unless you ask otherwise.',
+        "We develop the menu around your food preferences, the people joining you and the cooking facilities available. Share dietary requirements early, and we will confirm the proposed dishes, preparation arrangements and level of service.",
       ],
       cuisines: [
         'Arabic & Levantine',
@@ -2739,7 +2739,7 @@ const allLocations: LocationData[] = [
         {
           title: 'Confirm the date',
           description:
-            'We lock the chef and any extra staff once you approve.',
+            "Review and approve the proposal, then complete the required booking confirmation and payment to secure the agreed service.",
         },
         {
           title: 'The chef arrives',
@@ -2756,12 +2756,12 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'The property type decides the team, not a package name',
       paragraphs: [
-        'Al Barsha is not one kind of home. We ask what you have before we write a menu. The chef cooks. We match and back them up.',
-        'We typically reply within 15 minutes during business hours. We do not promise a chef within 24 hours.',
+        "We confirm the property type, parking and concierge arrangements before arrival. Menus and equipment are adapted to the kitchen, with travel and access included in the plan.",
+        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
-      title: 'What Al Barsha actually books',
+      title: "Ways to enjoy the service",
       cases: [
         {
           title: 'Family birthday',
@@ -2788,7 +2788,7 @@ const allLocations: LocationData[] = [
     logistics: {
       title: 'Sheikh Zayed Road, villa driveways and tower desks',
       paragraphs: [
-        'The road is fast until it is not. We plan arrival around that. Villas usually have parking. Apartments need a concierge plan. We confirm access in advance and bring portable kit when the kitchen is small.',
+        "We confirm the property type, parking and concierge arrangements before arrival. Menus and equipment are adapted to the kitchen, with travel and access included in the plan.",
       ],
     },
     nearbyLocations: [
@@ -2833,7 +2833,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'Is a weekly chef the same as a party?',
-        a: 'No. A party is catering. A weekly chef is a [household plan](/private-chef-dubai).',
+        a: "Regular weekly cooking is arranged through a [household plan](/private-chef-dubai). A private dinner, birthday or team lunch is quoted as [catering](/catering-dubai), with service tailored to that occasion.",
       },
       {
         q: 'Can one sitting mix diets?',

@@ -3,7 +3,7 @@ import { RYZE_BLOG_POSTS } from './ryzeBlogPosts'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
-// Regenerate via /tmp/gen_taxonomy.mjs if the post set changes.
+// Update article cards when their source titles or descriptions change.
 
 export interface BlogPillar {
   label: string
@@ -37,8 +37,8 @@ export interface ContextualLink {
 const ALL_BLOG_POSTS: BlogPost[] = [
   {
     "slug": "/blog/dubai-school-food-rules-2026",
-    "title": "Dubai School Food Rules 2026: Municipality and My School Food",
-    "excerpt": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must be able to show you.",
+    "title": "Dubai School Food Rules 2026",
+    "excerpt": "A practical checklist for verifying Dubai school food requirements, provider approvals, menus, allergen information and responsibilities in 2026.",
     "category": "Institutional",
     "image": "/images/blog/dubai-school-food-rules-2026-hero.webp",
     "hub": "institutional",
@@ -46,8 +46,8 @@ const ALL_BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "/blog/nut-free-halal-nursery-meals-dubai",
-    "title": "Nut-Free Nursery Meals Dubai: Allergen and Halal Guide",
-    "excerpt": "How nut-free, allergen and halal nursery meals work in Dubai — labelling, kitchens, and what to ask a caterer before you sign.",
+    "title": "Nut-Free Nursery Meals Dubai",
+    "excerpt": "Questions to ask about nut exclusions, allergen controls, halal sourcing and nursery meal documentation in Dubai before confirming a catering service.",
     "category": "Institutional",
     "image": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp",
     "hub": "institutional",
@@ -55,8 +55,8 @@ const ALL_BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "/blog/nursery-meals-vs-packed-lunch-dubai",
-    "title": "Nursery Meals vs Packed Lunch Dubai: How to Choose",
-    "excerpt": "Provided nursery meals versus packed lunch in Dubai: nut-free control, parent trust, and when to outsource the kitchen.",
+    "title": "Nursery Meals vs Packed Lunch Dubai",
+    "excerpt": "Compare provided nursery meals and packed lunches in Dubai, including dietary communication, storage, parent information and service responsibilities.",
     "category": "Institutional",
     "image": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp",
     "hub": "institutional",
@@ -64,30 +64,30 @@ const ALL_BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "/blog/how-to-hire-a-private-chef-dubai",
-    "title": "How to Hire a Private Chef Dubai: 2026 Cost & Booking Guide",
-    "excerpt": "How to hire a private chef in Dubai: what it costs, how booking works, how chefs are vetted and what to ask before your dinner. From around AED 700 per person.",
+    "title": "How to Hire a Private Chef Dubai",
+    "excerpt": "How to hire a private chef in Dubai: define regular household cooking or a private dinner, review the chef match and confirm the written scope.",
     "category": "Private Chef",
     "image": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
     "hub": "private-chef",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/private-chef-vs-restaurant-dubai",
-    "title": "Private Chef vs Restaurant Dubai: Which Wins a Special Occasion?",
-    "excerpt": "Private chef vs restaurant Dubai, compared honestly: privacy and a bespoke menu at home versus zero setup and a fixed menu out. Costs, food safety and how to choose.",
+    "title": "Private Chef vs Restaurant Dubai",
+    "excerpt": "Compare a private chef and restaurant dining in Dubai by setting, menu flexibility, service, preparation and the complete cost of your occasion.",
     "category": "Private Chef",
     "image": "/images/blog/private-chef-vs-restaurant-dubai-hero.webp",
     "hub": "private-chef",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/dinner-party-menu-ideas-dubai",
-    "title": "Dinner Party Menu Ideas Dubai: A Host's 2026 Guide",
-    "excerpt": "Dinner party menu ideas in Dubai, from budgeting and a three-course structure to showpiece stations, dietary planning and whether to hire a private chef.",
+    "title": "Dinner Party Menu Ideas Dubai",
+    "excerpt": "Dinner party menu ideas for Dubai homes: choose a balanced sequence of dishes, plan dietary needs and compare sharing or plated service.",
     "category": "Dinner Party",
     "image": "/images/blog/dinner-party-menu-ideas-dubai-hero.webp",
     "hub": "celebrations",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/wedding-catering-cost-dubai",
@@ -100,84 +100,84 @@ const ALL_BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "/blog/brunch-at-home-dubai",
-    "title": "Brunch at Home Dubai: How to Host a Standout Spread (2026 Guide)",
-    "excerpt": "A practical guide to hosting brunch at home in Dubai: menus, drinks, budgets from around AED 700 per person, dietary planning, and when a private chef is worth it.",
+    "title": "Brunch at Home Dubai: A Hosting Guide",
+    "excerpt": "Plan brunch at home in Dubai with menu ideas, service options, kitchen checks and clear pricing questions for a relaxed morning with guests.",
     "category": "Brunch",
     "image": "/images/blog/brunch-at-home-dubai-hero.webp",
     "hub": "menus-dietary",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/vegan-catering-dubai-guide",
-    "title": "Plant Based Catering Dubai — What to Expect",
-    "excerpt": "Plant based catering in Dubai: what a plant-led menu actually looks like, how it is sourced and priced, and what to ask before you book.",
+    "title": "Vegan Menu Ideas Dubai",
+    "excerpt": "Vegan menu ideas for Dubai events, with balanced dishes, thoughtful service and clear questions about ingredients, allergies and complete pricing.",
     "category": "Vegan",
     "image": "/images/blog/vegan-catering-dubai-guide-hero.webp",
     "hub": "menus-dietary",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/corporate-event-catering-ideas-dubai",
-    "title": "Corporate Event Catering Ideas Dubai (2026 Guide)",
-    "excerpt": "Corporate event catering ideas for Dubai offices: match drop-off lunches, live stations, canapes and plated galas to the occasion, with dietary options and real budgeting.",
+    "title": "Corporate Event Catering Ideas Dubai",
+    "excerpt": "Corporate event catering ideas for Dubai meetings, launches and celebrations. Compare menus, service styles, starting prices and practical venue needs.",
     "category": "Corporate",
     "image": "/images/blog/corporate-event-catering-ideas-dubai-hero.webp",
     "hub": "corporate",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/iftar-at-home-dubai",
-    "title": "Iftar at Home Dubai: Menu, Timing & Cost Guide",
-    "excerpt": "How to host iftar at home in Dubai: the menu order, exact timing to Maghrib, halal and food-safety rules, and what a private chef or caterer costs.",
+    "title": "Iftar at Home Dubai: Menu and Planning Guide",
+    "excerpt": "Plan iftar at home in Dubai with a considered menu, service timed for Maghrib and clear questions about preparation, dietary needs and pricing.",
     "category": "Ramadan",
     "image": "/images/blog/iftar-at-home-dubai-hero.webp",
     "hub": "seasonal",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/nye-party-catering-dubai",
-    "title": "NYE Party Catering Dubai: The Host's Planning Guide",
-    "excerpt": "NYE party catering in Dubai done well: passed canapés and live stations, a styled mocktail or cocktail bar, a midnight dessert, honest per-head prices, and why you book early.",
+    "title": "NYE Party Catering Dubai: Planning Guide",
+    "excerpt": "Plan New Year’s Eve catering in Dubai, from canapés and live stations to midnight service, with venue access and complete pricing confirmed.",
     "category": "New Year",
     "image": "/images/blog/nye-party-catering-dubai-hero.webp",
     "hub": "celebrations",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/private-chef-date-night-dubai",
-    "title": "Private Chef Date Night Dubai: Ideas & Costs for Two",
-    "excerpt": "A private chef date night in Dubai is a plated dinner for two at home, from AED 1,200, with the chef cooking, serving and clearing. Menus, costs and how to book.",
+    "title": "Private Chef Date Night Dubai",
+    "excerpt": "Plan a private chef date night in Dubai with a three-course dinner for two, menu preferences, kitchen checks and clear package inclusions.",
     "category": "Date Night",
     "image": "/images/blog/private-chef-date-night-dubai-hero.webp",
     "hub": "private-chef",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/grazing-table-vs-buffet-dubai",
-    "title": "Grazing Table vs Buffet Dubai: How to Choose (2026 Guide)",
-    "excerpt": "Grazing table vs buffet in Dubai: a grazing table is a styled, shareable centrepiece for mingling parties; a buffet is a full self-serve meal for hungry crowds. Costs, ideas and how to choose.",
+    "title": "Grazing Table vs Buffet Dubai: How to Choose",
+    "excerpt": "Compare grazing tables and buffets for Dubai events, including portions, service time, replenishment and the questions to ask before booking.",
     "category": "Party Food",
     "image": "/images/blog/grazing-table-vs-buffet-dubai-hero.webp",
     "hub": "celebrations",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/how-far-ahead-book-caterer-dubai",
-    "title": "How Far Ahead to Book a Caterer Dubai: 2026 Timeline Guide",
-    "excerpt": "How far ahead to book a caterer in Dubai: lead times by event type, why peak season fills first, and the deadlines that actually cost you money.",
+    "title": "How Far in Advance to Book a Caterer Dubai",
+    "excerpt": "How far ahead should you book a caterer in Dubai? Consider event size, menus, tastings, venue access and peak dates before confirming.",
     "category": "Planning",
     "image": "/images/blog/how-far-ahead-book-caterer-dubai-hero.webp",
     "hub": "menus-dietary",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/desert-dinner-party-dubai",
-    "title": "Desert Dinner Party Dubai: Get-Togethers & Dining in the Dunes",
-    "excerpt": "Planning a desert dinner party in Dubai: licensed camps vs private dune sites, what can be cooked out there, get-together and BBQ formats, season, and honest starting prices.",
+    "title": "Desert Dinner Party Dubai: Planning Guide",
+    "excerpt": "Plan a desert dinner party in Dubai with practical guidance on venue permission, access, cooking facilities, menus and service.",
     "category": "Desert",
     "image": "/images/blog/desert-dinner-party-dubai-hero.webp",
     "hub": "outdoor",
-    "date": "August 2026"
+    "date": "September 2026"
   },
   {
     "slug": "/blog/ramadan-iftar-catering-trends-2026",
@@ -258,16 +258,9 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * are built from this table, so filtering here is what stops a link surviving in the one place
  * that lists everything.
  */
-const RYZE_REDIRECTED = new Set([
-  '/blog/best-meal-prep-services-in-dubai',
-  '/blog/best-private-chefs-in-dubai-for-home-dining',
-  '/blog/best-catering-companies-in-dubai',
-  '/blog/how-much-does-a-private-chef-cost-in-dubai-in',
-])
-
 export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS].filter((post) => {
   const slug = post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`
-  return !isParked(slug) && !RYZE_REDIRECTED.has(slug)
+  return !isParked(slug)
 })
 
 export const BLOG_HUBS: BlogHub[] = [

@@ -54,23 +54,23 @@ export const pricingNotes = [
   'Minimum order value is AED 900 on dropped-off formats.',
   'A chef cooking on site has no minimum headcount. A board dinner for six is a normal booking.',
   'All figures are before 5% VAT, shown as its own line.',
-  'A typical Dubai market range for a full buffet sits higher. That comparison lives on the prices guide, not in the offer cell.',
+  "Compare formats and service inclusions in our catering prices guide before setting your event allowance.",
 ]
 
 export const pricingIntro = [
-  'Corporate catering in Dubai opens at AED 90 per person and moves with headcount, menu and how much service you want in the room. The format decides most of it: the same guests cost very different amounts dropped off versus plated.',
-  'Every quote is itemised: food, staffing, equipment, delivery and VAT as separate lines, so your finance team can see exactly what is being approved, and you can compare it fairly against another quote. A quote that hides those lines is not cheaper, it is less complete.',
+  "Corporate catering in Dubai starts from AED 90 per person. The menu, headcount and service style determine the final price, from delivered working lunches to fully served executive dinners.",
+  "Food, staffing, equipment, delivery and VAT are itemised in the proposal, giving your finance team a clear basis for approval and comparison.",
 ]
 
 /** Routing prose: the hub's real job is sending people to the right service. */
 export const routing = {
   h2: 'Which corporate catering service do you need?',
   paragraphs: [
-    'Corporate catering in Dubai is food for a company, not a household dinner copied into an office. It covers three kinds of day, each with its own menu, team and quote.',
-    'Workplace catering is the repeating week: office lunches, boardroom meetings and daily staff meals for a headcount you already know. Consistency and a delivery window you can put in the calendar matter more than presentation.',
-    'Company events are one-off parties, launches, award nights and networking receptions. They are planned around a date and a room, with service staff, setup and pack-down, and they are quoted per event.',
-    'Production catering feeds film, photo and event crews. Meals move with the call sheet. Feeding people well on a long day matters more than styling.',
-    'If you are not sure which you are planning, describe the day. We will tell you which service fits and what it should cost.',
+    "Corporate catering supports the working day, whether you are feeding a regular team, hosting clients or bringing a larger company event together.",
+    "Workplace catering covers recurring office lunches, meetings and staff meals, with consistent menus and delivery windows agreed around your schedule.",
+    "Company events include launches, awards, receptions and staff celebrations, with catering and service quoted for each occasion.",
+    "Production catering supports film, photography and event crews, with meal breaks and delivery adapted to the call sheet.",
+    "Tell us how the day will run, and we will recommend a suitable menu and service format.",
   ],
 }
 
@@ -78,8 +78,8 @@ export const whatWeHandle = {
   h2: 'What the catering team runs on a company day',
   paragraphs: [
     'myCHEF runs the food and hospitality operation: menus, food preparation or supply, chefs, catering service staff, beverages, food-service equipment, setup, service and clearance. Corporate catering food is planned for the room you actually have, not for a restaurant floor plan.',
-    'Corporate catering services in Dubai cover office meals, meetings, conferences, staff parties, launches, exhibitions, executive dinners and productions. Conference support means the catering operation around the agenda. We do not add AV, staging, entertainment or venue hire.',
-    'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. That is not a medical or allergen-free promise. Alcohol is only where the venue is licensed and it is agreed in writing.',
+    "Corporate catering can cover office meals, meetings, conferences, launches, exhibitions and company dinners. The proposal identifies the food, staff and equipment included; venue hire, staging and audiovisual services are arranged separately unless expressly agreed.",
+    "Halal sourcing is the default, with vegetarian, vegan and gluten-free options discussed during menu planning. Allergies require a separate assessment of preparation and cross-contact risk. Any alcohol service depends on venue permissions and written agreement.",
   ],
 } as const
 
@@ -118,19 +118,19 @@ export const hubWorkedExamples = [
     title: '8-person client lunch, plated',
     packageId: 'corp-lunch-client',
     guests: 8,
-    note: 'Boardroom client lunch. Chef-led plated band, not AED 90 drop-off.',
+    note: "Plated dining and discreet service for a client or boardroom lunch.",
   },
   {
     title: '40-person conference day',
     packageId: 'corp-conf-full-day',
     guests: 40,
-    note: 'Staffed buffet floor for a full day. Venue extras sit on their own line.',
+    note: "Staffed buffet service, with any venue-specific extras itemised separately.",
   },
   {
     title: '60-person networking reception',
     packageId: 'corp-event-networking',
     guests: 60,
-    note: 'Canapé reception. A business event, not a seated gala.',
+    note: "Passed canapés for a company reception or networking event.",
   },
   {
     title: '12-person corporate dinner package',
@@ -143,8 +143,8 @@ export const hubWorkedExamples = [
 export const quoting = {
   h2: 'How a corporate quote is built',
   paragraphs: [
-    'A useful quote needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary notes and a budget band help. Telling us the budget early is not a trap. It means the first quote is realistic rather than the third one.',
-    'From there we scope the format against the room. A floor with no service lift, a venue that will not allow open flame, or an office kitchen with one power point each rule out options that look fine on paper.',
+    "Share the date, office or venue, guest count and type of occasion. Dietary requirements and an indicative spending range help us prepare a relevant first proposal.",
+    "We assess the format against the venue, including service lifts, cooking permissions and available power, before confirming the equipment and menu.",
     'What comes back is itemised. Food, staffing, equipment, delivery and 5% VAT appear as their own lines, so finance can approve a number they can compare.',
   ],
 }
@@ -272,7 +272,7 @@ export const proofItems = [
   {
     title: 'Invoicing',
     claim: 'TRN-ready VAT invoices and itemised lines.',
-    body: 'Food, staffing, equipment, delivery and 5% VAT are shown separately so finance can approve a real number, not a blended headline.',
+    body: "Food, staffing, equipment, delivery and 5% VAT are shown separately for straightforward financial review.",
     href: `${CORPORATE_ROOT}#pricing`,
     linkLabel: 'Corporate catering prices in Dubai',
   },
@@ -297,7 +297,7 @@ export const exampleEvents = [
   },
   {
     title: 'How a seated company dinner is usually run',
-    guests: 'A known table, not an unnamed ballroom',
+    guests: "Hospitality tailored to your guests",
     venue: 'Office dining room or hired venue kitchen',
     setup: 'Courses timed to speeches. Staff sized to the table. Dietary plates labelled.',
     outcome: 'The room stays on the agenda. We do not publish client names or venue details unless you agree in writing.',
@@ -321,7 +321,7 @@ export const corporateFaqs = [
   },
   {
     q: 'Do you offer a standing corporate arrangement?',
-    a: 'Yes. A written corporate catering contract suits organisations that book often. Fees, credit and expiry are set in that agreement, not as a shop price. See [corporate catering contracts](/corporate-retainer-dubai).',
+    a: "Yes. Regular clients can arrange a written catering agreement covering the service, billing and any applicable fees or credits. Explore [corporate catering contracts](/corporate-retainer-dubai).",
   },
   {
     q: 'Is this the page for business lunch or a business meeting?',

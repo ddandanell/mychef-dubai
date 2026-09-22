@@ -20,6 +20,16 @@ Needs dist/ — run npm run build && npm run prerender first.
 from __future__ import annotations
 
 import json, pathlib, re, sys
+from html.parser import HTMLParser
+
+
+class RobotsParser(HTMLParser):
+    content: str | None = None
+
+    def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        if tag == 'meta' and values.get('name') == 'robots':
+            self.content = values.get('content')
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -39,9 +49,10 @@ for url in parked:
         problems.append(f"{url}: not prerendered — a parked page must still resolve, not 404")
         continue
     html = f.read_text(encoding="utf-8", errors="ignore")
-    robots = re.search(r'<meta name="robots" content="([^"]+)"', html)
-    if not robots or "noindex" not in robots.group(1):
-        problems.append(f"{url}: renders '{robots.group(1) if robots else 'no robots tag'}' — expected noindex")
+    robots = RobotsParser()
+    robots.feed(html)
+    if not robots.content or "noindex" not in robots.content:
+        problems.append(f"{url}: renders '{robots.content or 'no robots tag'}' — expected noindex")
 
 # 3 — out of the sitemap
 sitemap = (ROOT / "public/sitemap.xml").read_text(encoding="utf-8")

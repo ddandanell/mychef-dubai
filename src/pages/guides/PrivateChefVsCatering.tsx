@@ -234,7 +234,7 @@ export default function PrivateChefVsCatering() {
             Private Chef vs Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pvc-hero-sub">
-            A private chef is a standing arrangement. Catering is one night. Guest count only decides when a house night has grown into an event.
+            Compare regular household chef plans with catering for a single occasion. Choose ongoing cooking support for your home, or a tailored menu and service team for your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Request your quote</Link>
@@ -261,7 +261,7 @@ export default function PrivateChefVsCatering() {
             Choose the Right Service for Your Occasion
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Private chefs and catering teams both bring restaurant-quality food to your location, but they serve different needs. A private chef is ideal when you want close collaboration and an intimate experience. Catering is the better fit when you need a full team to manage a larger event with service, rentals, and clear-down.
+            Both services bring professional cooking to your setting. At myCHEF, household chef plans cover regular meals and weekly routines. One-off private dinners and larger events are arranged through our catering services, with the chef, staffing and equipment matched to the occasion.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The split is not guest count. It is whether the chef comes back. A household visit is working time from AED 750. One dinner is catering, quoted as a night.

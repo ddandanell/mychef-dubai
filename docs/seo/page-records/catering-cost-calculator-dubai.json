@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/catering-cost-calculator-dubai",
+  "path": "/catering-cost-calculator-dubai",
+  "role": "indexable page",
+  "page_type": "Guide / comparison",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "catering cost calculator dubai",
+    "secondary": [
+      "estimate catering cost dubai",
+      "catering budget calculator dubai",
+      "how much will catering cost dubai",
+      "how much catering do i need for 50 guests dubai",
+      "birthday catering cost calculator dubai",
+      "small catering cost calculator dubai",
+      "wedding catering cost calculator dubai",
+      "catering calculator per person"
+    ],
+    "primary_owner": "/catering-cost-calculator-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Cost Calculator Dubai | myCHEF",
+    "description": "Catering cost calculator Dubai: same published floors as the Catering hub. Pick format, guests and staff. Estimate only. Itemised quote follows.",
+    "h1": [
+      "Catering Cost Calculator Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/catering-cost-calculator-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
+    "src/lib/cateringInquiry.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/inquiry.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/CateringCostCalculator.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 448,
+    "current_word_count": 454,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Catering cost calculator Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Working estimate"
+      },
+      {
+        "level": "h2",
+        "text": "What this calculator will not invent"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a private chef cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum guest count?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in the price?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we customise the menu?"
+      },
+      {
+        "level": "h3",
+        "text": "Catering cost estimates for every Dubai area"
+      },
+      {
+        "level": "h2",
+        "text": "Ready for the written figure?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [
+      "F15"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/catering-cost-calculator-dubai",
+        "anchor": "Catering cost calculator",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/dubai-catering-prices-guide",
+        "anchor": "Catering prices",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages",
+        "alt_anchors": []
+      },
+      {
+        "url": "/dubai-event-catering-price-guide-2026",
+        "anchor": "Event catering price guide 2026",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

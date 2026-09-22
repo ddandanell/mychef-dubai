@@ -43,7 +43,7 @@ export const partyHeroCopy = {
   eyebrow: 'Private events',
   title: 'Private Party Catering Dubai',
   subtitle:
-    'Private party catering Dubai is the house night: friends in, family in, a date on the calendar. Not a wedding catalogue and not a company event. Menu, chefs, staff, setup and clear-down, scoped to the room. Drop-off, a buffet from AED 120 per person, live stations, or a chef plating at the table. Send the date, address and guest count.',
+    "Private party catering in Dubai for birthdays, anniversaries, family gatherings and evenings with friends. Choose delivered food, buffets from AED 120 per person, live stations or a private plated menu, with chefs, service and setup tailored to your home and guest list.",
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share your date, address and guest count. We typically reply within 15 minutes during business hours.',
 } as const
@@ -95,7 +95,7 @@ export const anniversaryBlock = {
   h2: 'An anniversary with friends at the table',
   paragraphs: [
     'Two covers marking a year is a romantic dinner, not this page. An anniversary with friends at the table is a house night: a mixed guest list, a toast, and a kitchen that may not plate everyone at once.',
-    'That is private party catering. The date on the calendar changes the running order; it does not mint a second URL.',
+    "The menu and service are tailored to the occasion, whether you are celebrating a milestone or simply bringing friends and family together.",
   ],
   romanticHref: '/romantic-dinner-dubai',
   romanticLabel: 'Romantic dinner in Dubai',
@@ -348,7 +348,7 @@ export const exampleEvents = [
     guests: '40 guests',
     venue: 'Villa, Arabian Ranches',
     setup: 'Buffet with Arabic grills, salads and desserts.',
-    outcome: 'Live Arabic grill, fresh breads and a dessert table carried the gathering from lunch into the evening.',
+    outcome: "An illustrative Eid gathering with Arabic grills, fresh bread and a dessert table.",
     href: '/eid-catering-dubai',
     linkLabel: 'Eid catering in Dubai',
   },
@@ -366,7 +366,7 @@ export const exampleEvents = [
     guests: '25 guests',
     venue: 'Yacht, Dubai Marina',
     setup: 'Sunset canapés, BBQ and signature mocktails, planned around loading and storage.',
-    outcome: 'Passed bites, grills and alcohol-free craft drinks served as the yacht cruised the marina.',
+    outcome: "An illustrative yacht menu combining passed bites, grilled dishes and alcohol-free drinks.",
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht catering in Dubai',
   },
@@ -387,7 +387,7 @@ export const partyFaqs = [
   },
   {
     q: 'Is an anniversary on this page?',
-    a: 'Friends at the table, yes. Two covers marking a year is a [romantic dinner](/romantic-dinner-dubai). The anniversary-with-friends brief stays here rather than minting a second URL.',
+    a: "Yes. We can plan an anniversary dinner with friends, with a menu and service suited to your gathering. For a private celebration for two, explore our [romantic dinner options](/romantic-dinner-dubai).",
   },
   {
     q: 'Do you cater graduations?',

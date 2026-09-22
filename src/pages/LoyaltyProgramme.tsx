@@ -227,7 +227,7 @@ export default function LoyaltyProgramme() {
             myCHEF Loyalty Programme
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lp-hero-sub">
-            Points on completed bookings. Silver 1x, Gold 1.25x, Platinum 1.5x. Redeem as dining credit. Not cash.
+            Earn points on completed bookings: Silver at 1x, Gold at 1.25x and Platinum at 1.5x. Eligible points can be redeemed as dining credit under the programme terms.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 lp-hero-cta">Join the Loyalty Programme</Link>
@@ -255,7 +255,7 @@ export default function LoyaltyProgramme() {
           </h2>
           <div className="lp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              You earn points on the booking value before discounts. Silver starts at the first completed booking. Gold and Platinum unlock as lifetime spend grows; the thresholds are confirmed when you enrol, not guessed on this page.
+              Points are calculated on the booking value before discounts. Silver begins with the first completed booking; Gold and Platinum depend on qualifying lifetime spend. We confirm the thresholds and redemption terms when you enrol.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Points convert to dining credit, or to an upgrade named in the booking. They stay active if you complete at least one qualifying booking every 24 months. They cannot be sold or transferred.

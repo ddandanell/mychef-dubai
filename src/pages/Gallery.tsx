@@ -265,7 +265,7 @@ export default function Gallery() {
       <PageHero
         eyebrow="PORTFOLIO"
         title="Event Gallery"
-        subtitle="A curated look at the private dinners, yacht celebrations, villa events, and corporate experiences we bring to life across Dubai."
+        subtitle={"Explore private dining, yacht celebrations, villa gatherings and company occasions, with inspiration for menus, presentation and service."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Gallery' }]}
         minHeight="medium"
         overlay="dark"
@@ -285,7 +285,7 @@ export default function Gallery() {
             Dinners and events we have cooked in Dubai
           </h2>
           <p className="reveal font-inter text-body text-gray-400">
-            Photos from villas, yachts and company rooms. Concept visuals are labelled. We cook at the address you already have; we do not own the venue.
+            Browse food and event imagery for Dubai homes, yachts and venues. Concept visuals are labelled where used, and the venue for each booking is arranged separately.
           </p>
         </div>
       </section>

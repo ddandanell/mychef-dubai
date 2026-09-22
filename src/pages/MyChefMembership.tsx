@@ -74,7 +74,7 @@ const whyJoin = [
   },
   {
     title: 'Real Credit Back',
-    description: 'Quarterly dining credits offset the membership cost: Lite members earn back AED 200/year, Premium members AED 600/year.',
+    description: "Lite provides up to AED 200 in annual dining credits against AED 1,188 in annual fees. Premium provides up to AED 600 against AED 2,388. Credits expire quarterly; value depends on using the eligible benefits.",
   },
   {
     title: 'Concierge Line',
@@ -220,7 +220,7 @@ export default function MyChefMembership() {
             myCHEF Membership
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 mem-hero-sub">
-            Lite AED 99 a month. Premium AED 199. Priority booking and quarterly dining credits. The chef and the food are billed separately.
+            Choose Lite at AED 99 per month or Premium at AED 199, with priority booking consideration and quarterly dining credits. Chefs, ingredients and events are quoted separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mem-hero-cta">Join MyChef Membership</Link>
@@ -248,10 +248,10 @@ export default function MyChefMembership() {
           </h2>
           <div className="mem-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Membership is billed monthly. It does not include the chef, the groceries or the event. Lite is AED 99 with AED 50 credit a quarter. Premium is AED 199 with AED 150 credit a quarter. Credits expire if unused in the quarter.
+              Lite costs AED 99 per month and includes AED 50 in credit each quarter. Premium costs AED 199 per month and includes AED 150 each quarter. Credits expire at the end of the quarter; membership does not include the chef, ingredients or event itself.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              If you host once a year, do not buy this. If you book often and want a priority window and a named WhatsApp line, it can pay for itself in credits. Cancel before the next billing date.
+              Membership is designed for regular hosts who value priority booking and ongoing support. Credits alone do not cover the subscription fee: compare the benefits with your expected bookings before joining. Cancel before the next billing date under the membership terms.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Also see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, the <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.

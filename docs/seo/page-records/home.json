@@ -1,0 +1,388 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/",
+  "path": "/",
+  "role": "indexable page",
+  "page_type": "Homepage",
+  "silo": "Brand / Homepage",
+  "purpose": "Route customers to the right service and capture a clear enquiry.",
+  "keywords": {
+    "primary": "mychef dubai",
+    "secondary": [
+      "my chef dubai",
+      "fine dining at home dubai"
+    ],
+    "primary_owner": "/",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF Dubai | Private Chefs & Exceptional Dining",
+    "description": "Private chefs for your home and thoughtful catering for Dubai events. Explore household plans, private dinners and menus tailored to your occasion.",
+    "h1": [
+      "myCHEF Dubai: a private chef for your home and every occasion"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/data/locations.ts",
+    "src/data/starterPackages.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
+    "src/pages/Home.tsx",
+    "src/sections/CTASection.tsx",
+    "src/sections/GuidesTeaserSection.tsx",
+    "src/sections/HeroSection.tsx",
+    "src/sections/HowItWorksSection.tsx",
+    "src/sections/LeadMagnetModal.tsx",
+    "src/sections/LocationsSection.tsx",
+    "src/sections/ServicesSection.tsx",
+    "src/sections/StarterPackagesSection.tsx",
+    "src/sections/TeamSection.tsx",
+    "src/sections/TrustSection.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1321,
+    "current_word_count": 1171,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chefs and catering, shaped around you."
+      },
+      {
+        "level": "h3",
+        "text": "A chef for your home"
+      },
+      {
+        "level": "h3",
+        "text": "Catering for your occasion"
+      },
+      {
+        "level": "h3",
+        "text": "Luxury Dining Experiences"
+      },
+      {
+        "level": "h3",
+        "text": "Events & Celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Dining"
+      },
+      {
+        "level": "h3",
+        "text": "Villas & Residences"
+      },
+      {
+        "level": "h2",
+        "text": "Explore our starting prices"
+      },
+      {
+        "level": "h3",
+        "text": "Date Night"
+      },
+      {
+        "level": "h3",
+        "text": "Family Feast"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday Celebration"
+      },
+      {
+        "level": "h3",
+        "text": "Weekly meal prep — one session"
+      },
+      {
+        "level": "h3",
+        "text": "Weekly meal prep — two sessions"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Dinner"
+      },
+      {
+        "level": "h3",
+        "text": "The Full Experience"
+      },
+      {
+        "level": "h2",
+        "text": "A carefully chosen chef. A clearly planned experience."
+      },
+      {
+        "level": "h2",
+        "text": "From your first idea to a beautifully served meal."
+      },
+      {
+        "level": "h3",
+        "text": "Step 1: Tell us the job"
+      },
+      {
+        "level": "h3",
+        "text": "Step 2: We match a chef and send a written plan"
+      },
+      {
+        "level": "h3",
+        "text": "Step 3: They cook in your kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Step 4: You stay with your people. We leave it handled."
+      },
+      {
+        "level": "h2",
+        "text": "Which areas in Dubai does myCHEF serve?"
+      },
+      {
+        "level": "h3",
+        "text": "JBR"
+      },
+      {
+        "level": "h3",
+        "text": "DIFC"
+      },
+      {
+        "level": "h3",
+        "text": "JLT"
+      },
+      {
+        "level": "h3",
+        "text": "Al Barsha"
+      },
+      {
+        "level": "h3",
+        "text": "Chefs and catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan the details that make an occasion feel effortless."
+      },
+      {
+        "level": "h3",
+        "text": "Event Catering Prices 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Menu Planning"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht Catering Checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Dubai Food Trends 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Good hospitality begins with the right people."
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "More from myCHEF Dubai"
+      }
+    ],
+    "baseline_findings": [
+      "F02",
+      "F14",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F21"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home",
+        "current": true
+      }
+    ],
+    "uplink_hub": null,
+    "siblings": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": []
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate dining",
+        "alt_anchors": [
+          "corporate catering"
+        ]
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": [
+          "villa chef"
+        ]
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines",
+        "alt_anchors": [
+          "multi cuisine catering"
+        ]
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "silo_index": [
+      {
+        "url": "/about",
+        "anchor": "About myCHEF",
+        "alt_anchors": []
+      }
+    ],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -327,7 +327,7 @@ export default function MediterraneanCatering() {
             Mediterranean Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 med-hero-sub">
-            Mediterranean Catering Dubai is Greek mezze, grilled fish and vegetable-forward plates. Not Levantine mashawi. That brief sits on Arabic catering. We cook at your address.
+            Mediterranean catering in Dubai, inspired by Greek mezze, grilled fish, seasonal vegetables and bright, generous sharing plates. Menus and service are planned around your venue and occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 med-hero-cta">Request your quote</Link>
@@ -353,7 +353,7 @@ export default function MediterraneanCatering() {
             Greek, coastal, vegetable-forward. Heat when the room allows.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Mediterranean Catering Dubai is olive oil, grilled fish, Greek mezze, salads and vegetables that fill a plate. Charcoal belongs on an outdoor villa plot. Apartment balconies and yachts have fire limits. Levantine mashawi, ouzi and Arabic coffee sit on <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link>. We do not pretend those are the same kitchen.
+            Mediterranean catering in Dubai combines olive oil, seasonal salads, Greek mezze and grilled fish in a fresh, balanced menu. We confirm cooking facilities and any restrictions on outdoor grills before planning the service. For Levantine grills, ouzi and Arabic coffee, explore <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link>. We do not pretend those are the same kitchen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

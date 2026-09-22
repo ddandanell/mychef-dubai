@@ -1,0 +1,565 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/birthday-catering-dubai",
+  "path": "/birthday-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Events",
+  "purpose": "Convert a specific celebration into a written event brief.",
+  "keywords": {
+    "primary": "birthday catering dubai",
+    "secondary": [
+      "birthday catering dubai price",
+      "birthday catering cost per person dubai",
+      "best birthday catering dubai",
+      "birthday catering menu dubai",
+      "halal birthday catering dubai",
+      "birthday party catering dubai",
+      "full service birthday catering dubai",
+      "kids birthday catering dubai",
+      "adult birthday catering dubai",
+      "allergy aware birthday catering dubai",
+      "bespoke birthday catering dubai",
+      "birthday catering dubai for adults"
+    ],
+    "primary_owner": "/birthday-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Birthday Catering Dubai | Villa & Home Parties",
+    "description": "Private birthday catering Dubai for villa and home parties. Food, staff and clear-down. Published floors or a private brief. You stay with your guests.",
+    "h1": [
+      "Private Birthday Catering in Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/birthday-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/birthday/BirthdayExtrasPicker.tsx",
+    "src/components/birthday/BirthdayPrivateBrief.tsx",
+    "src/components/system/index.tsx",
+    "src/content/birthdayCluster.ts",
+    "src/content/birthdayExtras.ts",
+    "src/content/birthdayPage.ts",
+    "src/content/birthdayStatement.ts",
+    "src/content/cateringCluster.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/analytics.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/BirthdayCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 4717,
+    "current_word_count": 4711,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A clear quote, or a private brief"
+      },
+      {
+        "level": "h3",
+        "text": "Itemised birthday proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Private milestone brief"
+      },
+      {
+        "level": "h2",
+        "text": "Statement birthdays we design around food"
+      },
+      {
+        "level": "h3",
+        "text": "Palm villa garden for about 40"
+      },
+      {
+        "level": "h3",
+        "text": "Seated tasting for a 50th, about 10 covers"
+      },
+      {
+        "level": "h3",
+        "text": "Children’s afternoon, adult dinner later"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht birthday, catering only"
+      },
+      {
+        "level": "h3",
+        "text": "Surprise reveal at home"
+      },
+      {
+        "level": "h2",
+        "text": "One contact. The house stays private."
+      },
+      {
+        "level": "h2",
+        "text": "Three kinds of birthday. Start with the one you are hosting."
+      },
+      {
+        "level": "h3",
+        "text": "Children’s birthdays"
+      },
+      {
+        "level": "h3",
+        "text": "Adult and milestone birthdays"
+      },
+      {
+        "level": "h3",
+        "text": "Mixed-age family parties"
+      },
+      {
+        "level": "h2",
+        "text": "Birthday catering in a home, garden or yacht"
+      },
+      {
+        "level": "h2",
+        "text": "What a birthday catering Dubai quote includes"
+      },
+      {
+        "level": "h3",
+        "text": "Typical private evenings we quote"
+      },
+      {
+        "level": "h2",
+        "text": "What we do not do"
+      },
+      {
+        "level": "h2",
+        "text": "How a private evening scales"
+      },
+      {
+        "level": "h3",
+        "text": "Food, staff and clear-down"
+      },
+      {
+        "level": "h3",
+        "text": "Cake, flowers or balloons, photographer"
+      },
+      {
+        "level": "h3",
+        "text": "Live station, dessert table, mocktail service"
+      },
+      {
+        "level": "h3",
+        "text": "Entertainment"
+      },
+      {
+        "level": "h3",
+        "text": "Coordination of the selected vendors"
+      },
+      {
+        "level": "h2",
+        "text": "The birthday is the stage. We cater it."
+      },
+      {
+        "level": "h3",
+        "text": "Home and villa"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht"
+      },
+      {
+        "level": "h3",
+        "text": "Penthouse or apartment kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Garden or pool"
+      },
+      {
+        "level": "h2",
+        "text": "Included on a staffed booking, optional around it"
+      },
+      {
+        "level": "h3",
+        "text": "Menu"
+      },
+      {
+        "level": "h3",
+        "text": "Chefs"
+      },
+      {
+        "level": "h3",
+        "text": "Staff"
+      },
+      {
+        "level": "h3",
+        "text": "Setup and cleanup"
+      },
+      {
+        "level": "h3",
+        "text": "Optional, quoted when you ask"
+      },
+      {
+        "level": "h3",
+        "text": "Cake"
+      },
+      {
+        "level": "h3",
+        "text": "Drinks"
+      },
+      {
+        "level": "h3",
+        "text": "Children’s meal boxes"
+      },
+      {
+        "level": "h3",
+        "text": "Decoration and entertainment"
+      },
+      {
+        "level": "h2",
+        "text": "From birthday food delivery to plated service"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday food delivery"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Live stations"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert table"
+      },
+      {
+        "level": "h3",
+        "text": "Plated dining"
+      },
+      {
+        "level": "h3",
+        "text": "Home and villa service"
+      },
+      {
+        "level": "h2",
+        "text": "Cakes, balloons and extras around the food"
+      },
+      {
+        "level": "h3",
+        "text": "Convenient combinations"
+      },
+      {
+        "level": "h3",
+        "text": "Cakes and sweets"
+      },
+      {
+        "level": "h3",
+        "text": "Balloons and backdrop"
+      },
+      {
+        "level": "h3",
+        "text": "Children’s food"
+      },
+      {
+        "level": "h3",
+        "text": "Entertainment and photos"
+      },
+      {
+        "level": "h3",
+        "text": "More birthday extras"
+      },
+      {
+        "level": "h2",
+        "text": "When the birthday is for children"
+      },
+      {
+        "level": "h2",
+        "text": "Adult and milestone birthdays"
+      },
+      {
+        "level": "h2",
+        "text": "When the room holds both ages"
+      },
+      {
+        "level": "h2",
+        "text": "See the catering and extras as separate lines"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps to an itemised proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Private chef or a staffed party?"
+      },
+      {
+        "level": "h2",
+        "text": "A birthday we have run, and two common briefs"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht birthday celebration, Dubai Marina"
+      },
+      {
+        "level": "h3",
+        "text": "Seated dinner at home"
+      },
+      {
+        "level": "h3",
+        "text": "Mixed-age villa afternoon"
+      },
+      {
+        "level": "h2",
+        "text": "Standards you can open, not slogans"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h3",
+        "text": "What halal-first means here"
+      },
+      {
+        "level": "h3",
+        "text": "Food safety and who cooks"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposals"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before I book?"
+      },
+      {
+        "level": "h3",
+        "text": "How is a birthday quote built?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a set package?"
+      },
+      {
+        "level": "h3",
+        "text": "Are balloons and cake included in catering prices?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I order children’s food and adult catering together?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I bring my own cake?"
+      },
+      {
+        "level": "h3",
+        "text": "What does each entertainment extra include?"
+      },
+      {
+        "level": "h3",
+        "text": "Are delivery, setup and collection included?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I book extras without catering?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if my guest count changes?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you help organise a surprise birthday?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you hire the yacht, the DJ or a soft-play venue?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you work at short notice?"
+      },
+      {
+        "level": "h3",
+        "text": "Will you post photos of my party?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater children’s birthdays?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum guest count?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle allergies and dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan a private milestone birthday"
+      },
+      {
+        "level": "h2",
+        "text": "Date, guest count and extras are enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Events"
+      }
+    ],
+    "baseline_findings": [
+      "F20"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/events",
+        "anchor": "Events"
+      },
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Birthday catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/events",
+      "anchor": "Events",
+      "alt_anchors": [
+        "event catering dubai",
+        "event catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/blog/best-private-chef-birthday-dinner-dubai",
+        "anchor": "Private chef for birthday dinner",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-party-catering-dubai",
+        "anchor": "Private party catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/best-private-chef-birthday-dinner-dubai",
+        "anchor": "Private chef for birthday dinner",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines",
+        "alt_anchors": [
+          "multi cuisine catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

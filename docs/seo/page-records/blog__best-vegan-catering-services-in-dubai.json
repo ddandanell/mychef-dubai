@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/best-vegan-catering-services-in-dubai",
+  "path": "/blog/best-vegan-catering-services-in-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "best vegan catering companies in dubai",
+    "secondary": [
+      "plant-based catering providers Dubai",
+      "vegan event menu planning",
+      "vegan catering comparison",
+      "plant-based menu proposals"
+    ],
+    "primary_owner": "/blog/best-vegan-catering-services-in-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Best Vegan Catering Companies in Dubai | myCHEF",
+    "description": "Compare vegan catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "h1": [
+      "Best Vegan Catering Companies in Dubai: What to Compare"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/best-vegan-catering-services-in-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/best-vegan-catering-services-in-dubai.json",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/ryze-pages/best-vegan-catering-services-in-dubai.json",
+    "src/content/siloMap.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2437,
+    "current_word_count": 436,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "About this guide"
+      },
+      {
+        "level": "h2",
+        "text": "Review the complete menu"
+      },
+      {
+        "level": "h2",
+        "text": "Check components and preparation"
+      },
+      {
+        "level": "h2",
+        "text": "Separate dietary preference from allergy needs"
+      },
+      {
+        "level": "h2",
+        "text": "Questions to ask before confirming"
+      },
+      {
+        "level": "h2",
+        "text": "Explore the myCHEF service"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [
+      "F10"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog/best-vegan-catering-services-in-dubai",
+        "anchor": "Best Vegan Catering Companies in Dubai: What to Compare",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": []
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [],
+    "do_not_link": []
+  }
+}

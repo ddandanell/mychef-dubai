@@ -88,7 +88,7 @@ export default function Locations() {
       <PageHero
         eyebrow="Areas we serve"
         title="Catering Near Me Dubai"
-        subtitle="Catering near me Dubai is a chef in your kitchen, not a venue we own. These are private chef service areas for a standing household chef or one-night catering. Tell us the address. We typically reply within 15 minutes during business hours."
+        subtitle={"Find private chef and catering services across Dubai. Explore the areas we serve, then share your address and plans so we can confirm availability, access requirements and a suitable service."}
         image="/images/locations-dubai-hero.webp"
         imageAlt="Map of Dubai locations served by myCHEF"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Locations' }]}
@@ -158,7 +158,7 @@ export default function Locations() {
       <section className="py-24 bg-black text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">If your street is not on the cards</h2>
-          <p className="text-gray-400 mb-8">Catering services near me Dubai still start with an address. A birthday, a small table or a standing chef is the same question: can we work this kitchen, this gate, this timing? Message the area. We confirm in writing.</p>
+          <p className="text-gray-400 mb-8">Every booking begins with your location and the service you need. We consider kitchen facilities, building access and timing for private dinners, celebrations and regular household chef plans, then confirm the arrangements in writing.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={WHATSAPP_LINK}

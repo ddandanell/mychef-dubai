@@ -12,9 +12,9 @@
   "Do not hand-write a sibling list. Add the URL to the keyword map and regenerate."
  ],
  "stats": {
-  "pages": 181,
-  "linkable": 139,
-  "contextual_edges": 1509,
+  "pages": 179,
+  "linkable": 137,
+  "contextual_edges": 1484,
   "orphans": 1,
   "silos": 14
  },
@@ -26,9 +26,14 @@
   "/beach-catering-dubai",
   "/become-a-mychef",
   "/birthday-catering-package-dubai",
+  "/blog/best-catering-companies-in-dubai",
+  "/blog/best-meal-prep-services-in-dubai",
+  "/blog/best-private-chefs-in-dubai-for-home-dining",
+  "/blog/best-private-chefs-in-home-dining",
   "/blog/desert-dinner-party-dubai",
   "/blog/dinner-party-menu-ideas-dubai",
   "/blog/halal-private-dining-dubai-what-to-ask",
+  "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
   "/blog/iftar-at-home-dubai",
   "/blog/nye-party-catering-dubai",
   "/blog/private-chef-date-night-dubai",
@@ -93,6 +98,7 @@
   "/locations/dubai-mall",
   "/locations/dubai-marina",
   "/locations/dubai-media-city",
+  "/locations/dubai-silicon-oasis",
   "/locations/dwtc",
   "/locations/emirates-hills",
   "/locations/jumeirah",
@@ -117,13 +123,21 @@
   "/picnic-catering-dubai",
   "/pool-party-catering-dubai",
   "/postpartum-meal-prep-dubai",
+  "/pricing",
+  "/pricing/",
   "/private-chef-dubai/how-it-works",
   "/private-chef-dubai/how-your-plan-works",
   "/private-chef-dubai/our-chefs",
   "/private-chef-dubai/privacy-security",
   "/private-chef-dubai/quality-training",
   "/private-chef-prices-dubai",
+  "/private-chef-uae",
+  "/private-chef-uae/",
+  "/private-chef/dubai/pricing",
+  "/private-chef/dubai/pricing/",
   "/private-dining-dubai",
+  "/private-events-catering/baby-shower-catering",
+  "/private-events-catering/baby-shower-catering/",
   "/private-jet-catering-dubai",
   "/ramadan-catering-guide-dubai",
   "/reunion-catering-dubai",
@@ -158,7 +172,9 @@
   "/university-catering-dubai",
   "/valentines-day-catering-dubai",
   "/villa-catering-dubai",
-  "/yacht-catering-dubai"
+  "/yacht-catering-checklist-dubai",
+  "/yacht-catering-dubai",
+  "/yacht-catering-guide-dubai"
  ],
  "orphans": [
   "/school-catering-dubai"
@@ -202,9 +218,7 @@
    "/ramadan-catering-guide-dubai",
    "/villa-catering-ideas-dubai",
    "/wedding-catering-checklist-dubai",
-   "/wedding-catering-menu-planning-dubai",
-   "/yacht-catering-checklist-dubai",
-   "/yacht-catering-guide-dubai"
+   "/wedding-catering-menu-planning-dubai"
   ],
   "Catering": [
    "/bar-services-dubai",
@@ -1762,18 +1776,6 @@
      "label": "Wedding Catering Menu Planning",
      "keyword": "wedding menu planning dubai",
      "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
     }
    ],
    "commercial_owners": [
@@ -2008,15 +2010,15 @@
    },
    "siblings": [
     {
-     "url": "/corporate-catering-checklist-dubai",
-     "label": "Corporate Catering Checklist",
-     "keyword": "corporate catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/blog/corporate-event-catering-ideas-dubai",
      "label": "Corporate Event Catering Ideas",
      "keyword": "corporate event catering ideas dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/corporate-catering-checklist-dubai",
+     "label": "Corporate Catering Checklist",
+     "keyword": "corporate catering checklist dubai",
      "silo": "Blog and Guides"
     },
     {
@@ -3658,18 +3660,6 @@
    },
    "siblings": [
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/villa-catering-ideas-dubai",
      "label": "Villa Catering Ideas",
      "keyword": "villa catering ideas dubai",
@@ -3685,6 +3675,12 @@
      "url": "/wedding-catering-menu-planning-dubai",
      "label": "Wedding Catering Menu Planning",
      "keyword": "wedding menu planning dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/dubai-catering-prices-guide",
+     "label": "Dubai Catering Prices Guide",
+     "keyword": "catering prices dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -4004,16 +4000,16 @@
      "silo": "Catering"
     },
     {
-     "url": "/villas-private-residences",
-     "label": "Villas Private Residences",
-     "keyword": "villa chef dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/villas-private-residences",
+     "label": "Villas Private Residences",
+     "keyword": "villa chef dubai",
+     "silo": "Catering"
     },
     {
      "url": "/menus",
@@ -5503,15 +5499,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/al-barsha",
-     "label": "Al Barsha",
-     "keyword": "private chef al barsha",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/difc",
      "label": "DIFC",
      "keyword": "private chef difc",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/al-barsha",
+     "label": "Al Barsha",
+     "keyword": "private chef al barsha",
      "silo": "Locations"
     }
    ]
@@ -5943,12 +5939,6 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/wedding-catering-checklist-dubai",
      "label": "Wedding Catering Checklist",
      "keyword": "wedding catering checklist dubai",
@@ -5958,6 +5948,12 @@
      "url": "/best-catering-companies-dubai",
      "label": "Best Catering Companies",
      "keyword": "best catering companies dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/how-to-choose-caterer-dubai",
+     "label": "How to Choose Caterer",
+     "keyword": "how to choose a caterer dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -7027,9 +7023,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
+     "url": "/best-catering-companies-dubai",
+     "label": "Best Catering Companies",
+     "keyword": "best catering companies dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -7857,9 +7853,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
+     "url": "/guides",
+     "label": "Guides",
+     "keyword": "catering checklist dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -8575,18 +8571,6 @@
      "label": "Wedding Catering Menu Planning",
      "keyword": "wedding menu planning dubai",
      "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
     }
    ],
    "commercial_owners": [
@@ -8916,9 +8900,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
+     "url": "/wedding-catering-checklist-dubai",
+     "label": "Wedding Catering Checklist",
+     "keyword": "wedding catering checklist dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -9216,15 +9200,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/al-barsha",
-     "label": "Al Barsha",
-     "keyword": "private chef al barsha",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/difc",
      "label": "DIFC",
      "keyword": "private chef difc",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/al-barsha",
+     "label": "Al Barsha",
+     "keyword": "private chef al barsha",
      "silo": "Locations"
     }
    ]
@@ -10547,9 +10531,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
+     "url": "/wedding-catering-checklist-dubai",
+     "label": "Wedding Catering Checklist",
+     "keyword": "wedding catering checklist dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -13103,10 +13087,10 @@
      "silo": "Dining Experiences"
     },
     {
-     "url": "/full-time-private-chef-dubai",
-     "label": "Full Time Private Chef",
-     "keyword": "full time private chef dubai",
-     "silo": "Private Chef"
+     "url": "/corporate-event-catering-dubai",
+     "label": "Corporate Event Catering",
+     "keyword": "corporate event catering dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "featured_children": [],
@@ -13593,12 +13577,6 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/dubai-food-trends-report-2026",
      "label": "Dubai Food Trends Report 2026",
      "keyword": "dubai food trends 2026",
@@ -13614,6 +13592,12 @@
      "url": "/wedding-catering-menu-planning-dubai",
      "label": "Wedding Catering Menu Planning",
      "keyword": "wedding menu planning dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/corporate-catering-checklist-dubai",
+     "label": "Corporate Catering Checklist",
+     "keyword": "corporate catering checklist dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -13793,16 +13777,16 @@
      "silo": "Private Events"
     },
     {
-     "url": "/private-chef-dubai/pricing",
-     "label": "Pricing",
-     "keyword": "private chef dubai price",
-     "silo": "Private Chef"
-    },
-    {
      "url": "/corporate-dinner-package-dubai",
      "label": "Corporate Dinner Package",
      "keyword": "corporate dinner package dubai",
      "silo": "Corporate Catering"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
+     "silo": "Private Chef"
     }
    ],
    "featured_children": [],
@@ -14418,15 +14402,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/blog/how-to-hire-a-private-chef-dubai",
-     "label": "How to Hire a Private Chef",
-     "keyword": "how to hire a private chef dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/best-catering-companies-dubai",
      "label": "Best Catering Companies",
      "keyword": "best catering companies dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/blog/how-to-hire-a-private-chef-dubai",
+     "label": "How to Hire a Private Chef",
+     "keyword": "how to hire a private chef dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -14641,15 +14625,15 @@
      "silo": "Partners"
     },
     {
-     "url": "/partners/yacht-charters-dubai",
-     "label": "Yacht Charters",
-     "keyword": "yacht charters partnership dubai",
-     "silo": "Partners"
-    },
-    {
      "url": "/partners/concierge-services-dubai",
      "label": "Concierge Services",
      "keyword": "concierge services partnership dubai",
+     "silo": "Partners"
+    },
+    {
+     "url": "/partners/yacht-charters-dubai",
+     "label": "Yacht Charters",
+     "keyword": "yacht charters partnership dubai",
      "silo": "Partners"
     },
     {
@@ -14986,15 +14970,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/dubai-catering-prices-guide",
      "label": "Dubai Catering Prices Guide",
      "keyword": "catering prices dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/best-catering-companies-dubai",
+     "label": "Best Catering Companies",
+     "keyword": "best catering companies dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -15414,198 +15398,6 @@
     }
    ]
   },
-  "/yacht-catering-checklist-dubai": {
-   "url": "/yacht-catering-checklist-dubai",
-   "silo": "Blog and Guides",
-   "hub": "/guides",
-   "is_hub": false,
-   "page_type": "Commercial landing page",
-   "primary_keyword": "yacht catering checklist dubai",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/guides",
-     "label": "Guides"
-    },
-    {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist"
-    }
-   ],
-   "uplink": {
-    "url": "/guides",
-    "label": "Guides",
-    "keyword": "catering checklist dubai"
-   },
-   "siblings": [
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/yacht-party-menu-ideas-dubai",
-     "label": "Yacht Party Menu Ideas",
-     "keyword": "yacht party menu ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/corporate-catering-checklist-dubai",
-     "label": "Corporate Catering Checklist",
-     "keyword": "corporate catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/wedding-catering-checklist-dubai",
-     "label": "Wedding Catering Checklist",
-     "keyword": "wedding catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/how-to-choose-caterer-dubai",
-     "label": "How to Choose Caterer",
-     "keyword": "how to choose a caterer dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [
-    {
-     "url": "/yachts",
-     "label": "Yachts",
-     "keyword": "yacht catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/catering-dubai",
-     "label": "Catering",
-     "keyword": "catering dubai",
-     "silo": "Catering"
-    }
-   ],
-   "supporting_guides": [],
-   "areas": [
-    {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jlt",
-     "label": "JLT",
-     "keyword": "private chef jlt",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/al-barsha",
-     "label": "Al Barsha",
-     "keyword": "private chef al barsha",
-     "silo": "Locations"
-    }
-   ]
-  },
-  "/yacht-catering-guide-dubai": {
-   "url": "/yacht-catering-guide-dubai",
-   "silo": "Blog and Guides",
-   "hub": "/guides",
-   "is_hub": false,
-   "page_type": "Blog / Guide / Tool",
-   "primary_keyword": "yacht catering guide dubai",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/guides",
-     "label": "Guides"
-    },
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide"
-    }
-   ],
-   "uplink": {
-    "url": "/guides",
-    "label": "Guides",
-    "keyword": "catering checklist dubai"
-   },
-   "siblings": [
-    {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/yacht-party-menu-ideas-dubai",
-     "label": "Yacht Party Menu Ideas",
-     "keyword": "yacht party menu ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/dubai-event-catering-price-guide-2026",
-     "label": "Dubai Event Catering Price Guide 2026",
-     "keyword": "event catering price guide dubai 2026",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/best-catering-companies-dubai",
-     "label": "Best Catering Companies",
-     "keyword": "best catering companies dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [
-    {
-     "url": "/yachts",
-     "label": "Yachts",
-     "keyword": "yacht catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/catering-dubai",
-     "label": "Catering",
-     "keyword": "catering dubai",
-     "silo": "Catering"
-    }
-   ],
-   "supporting_guides": [],
-   "areas": [
-    {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jlt",
-     "label": "JLT",
-     "keyword": "private chef jlt",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/al-barsha",
-     "label": "Al Barsha",
-     "keyword": "private chef al barsha",
-     "silo": "Locations"
-    }
-   ]
-  },
   "/yachts": {
    "url": "/yachts",
    "silo": "Catering",
@@ -15651,21 +15443,21 @@
    "commercial_owners": [],
    "supporting_guides": [
     {
-     "url": "/yacht-catering-checklist-dubai",
-     "label": "Yacht Catering Checklist",
-     "keyword": "yacht catering checklist dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/yacht-catering-guide-dubai",
-     "label": "Yacht Catering Guide",
-     "keyword": "yacht catering guide dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/blog/yacht-party-menu-ideas-dubai",
      "label": "Yacht Party Menu Ideas",
      "keyword": "yacht party menu ideas dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/dubai-catering-prices-guide",
+     "label": "Dubai Catering Prices Guide",
+     "keyword": "catering prices dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/best-catering-companies-dubai",
+     "label": "Best Catering Companies",
+     "keyword": "best catering companies dubai",
      "silo": "Blog and Guides"
     }
    ],

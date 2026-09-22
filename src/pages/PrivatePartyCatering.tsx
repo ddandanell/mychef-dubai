@@ -451,7 +451,7 @@ export default function PrivatePartyCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>WHY MYCHEF</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">Clear standards and booking arrangements</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {proofItems.map((item) => (
               <div key={item.title} className="border-t border-gray-200 pt-6">

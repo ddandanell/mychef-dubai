@@ -1,0 +1,353 @@
+{
+  "date": "2026-09-22",
+  "changes": [
+    {
+      "file": "src/content/birthdayPage.ts",
+      "before": "A styled sweets display quoted on its own page. The mini dessert selection on this page is a smaller, priced tray, not that full service.",
+      "after": "A complete dessert display is available as a separate service. The mini dessert selection here is a smaller tray with its own published price.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/canteenManagementPage.tsx",
+      "before": "No. Canteen management Dubai on this page is food, staff and a kitchen. Cashless canteen Dubai tech can sit on top if you want it. It is not the product.",
+      "after": "Canteen management covers the food service, kitchen operation and agreed staffing. Cashless ordering or payment systems can be discussed as an additional requirement.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/canteenManagementPage.tsx",
+      "before": "Office catering is a repeating drop-off or a staffed sitting in a meeting room. This page is an operating canteen.",
+      "after": "Office catering covers delivered meals or service in a meeting space. Canteen management covers the ongoing operation of a dedicated food-service facility.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/canteenManagementPage.tsx",
+      "before": "An existing servery can trial in days once papers and a cycle are agreed. A fit-out follows the building, not a slogan.",
+      "after": "An existing facility may allow a shorter setup period once the documentation and menu cycle are agreed. A kitchen fit-out requires a separate programme based on the building and operational requirements.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/cateringPricing.ts",
+      "before": "myCHEF floor from AED 150. Indicative market AED 180–350 is not a myCHEF start.",
+      "after": "myCHEF starts from AED 150 per person. The separate AED 180–350 range is an indicative market comparison.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/cateringPricing.ts",
+      "before": "myCHEF floor from AED 180. Indicative market AED 180–350 is not a second floor.",
+      "after": "myCHEF starts from AED 180 per person. The AED 180–350 range is shown separately as an indicative market comparison.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporateEventPage.ts",
+      "before": "This page is the one-off company night. Recurring workplace catering sits on",
+      "after": "For a one-off company celebration, choose an event menu and service plan. For recurring workplace meals, explore",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporateInventory.ts",
+      "before": "Dependable meal deliveries for a known workforce. Rotating mains, clearly labelled dietary options, billed on the meals we deliver. This page is food for your team, not waiter hire.",
+      "after": "Regular meals for your workforce, with rotating mains and dietary options labelled as agreed. Billing follows the confirmed meals and service schedule.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporateInventory.ts",
+      "before": "Vegetarian line as a first-class tray",
+      "after": "A considered vegetarian selection",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporateInventory.ts",
+      "before": "A Dubai office is not a ballroom. We bring what the format needs and check power, flame and lift size before the menu is locked. Unusual hire is a separate line.",
+      "after": "We assess the venue’s power, cooking permissions and access before confirming equipment. Specialist hire is identified separately in the proposal.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Corporate catering services in Dubai cover office meals, meetings, conferences, staff parties, launches, exhibitions, executive dinners and productions. Conference support means the catering operation around the agenda. We do not add AV, staging, entertainment or venue hire.",
+      "after": "Corporate catering can cover office meals, meetings, conferences, launches, exhibitions and company dinners. The proposal identifies the food, staff and equipment included; venue hire, staging and audiovisual services are arranged separately unless expressly agreed.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. That is not a medical or allergen-free promise. Alcohol is only where the venue is licensed and it is agreed in writing.",
+      "after": "Halal sourcing is the default, with vegetarian, vegan and gluten-free options discussed during menu planning. Allergies require a separate assessment of preparation and cross-contact risk. Any alcohol service depends on venue permissions and written agreement.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Boardroom client lunch. Chef-led plated band, not AED 90 drop-off.",
+      "after": "Plated dining and discreet service for a client or boardroom lunch.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Staffed buffet floor for a full day. Venue extras sit on their own line.",
+      "after": "Staffed buffet service, with any venue-specific extras itemised separately.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Canapé reception. A business event, not a seated gala.",
+      "after": "Passed canapés for a company reception or networking event.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "A useful quote needs four things from you: the date, the venue or office, how many people, and what kind of occasion it is. Dietary notes and a budget band help. Telling us the budget early is not a trap. It means the first quote is realistic rather than the third one.",
+      "after": "Share the date, office or venue, guest count and type of occasion. Dietary requirements and an indicative spending range help us prepare a relevant first proposal.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "From there we scope the format against the room. A floor with no service lift, a venue that will not allow open flame, or an office kitchen with one power point each rule out options that look fine on paper.",
+      "after": "We assess the format against the venue, including service lifts, cooking permissions and available power, before confirming the equipment and menu.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Food, staffing, equipment, delivery and 5% VAT are shown separately so finance can approve a real number, not a blended headline.",
+      "after": "Food, staffing, equipment, delivery and 5% VAT are shown separately for straightforward financial review.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "A known table, not an unnamed ballroom",
+      "after": "Hospitality tailored to your guests",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/corporatePage.ts",
+      "before": "Yes. A written corporate catering contract suits organisations that book often. Fees, credit and expiry are set in that agreement, not as a shop price. See [corporate catering contracts](/corporate-retainer-dubai).",
+      "after": "Yes. Regular clients can arrange a written catering agreement covering the service, billing and any applicable fees or credits. Explore [corporate catering contracts](/corporate-retainer-dubai).",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "This page is the gathering after the ask and before the marriage. The proposal, the wedding, a dinner for two, and an anniversary with friends each have their own page. Drop-off from AED 90 per person, a buffet from AED 120, live stations, or a chef plating at the table — menu, chefs, staff, setup and clear-down, scoped to the room.",
+      "after": "Bring family and friends together to celebrate your engagement, with catering tailored to the venue and guest list. Choose drop-off from AED 90 per person, a staffed buffet from AED 120, live stations or a private plated menu.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "owns the unnamed house night, including an anniversary with friends.",
+      "after": "offers tailored menus for birthdays, anniversaries and informal gatherings with friends.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "An anniversary with friends is not this page",
+      "after": "Planning an anniversary celebration?",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "The job is a room with two families in it, a toast that has to land, and a kitchen that may not be built for either. Engagement catering Dubai is that night — not a restaurant booking and not a standing household chef.",
+      "after": "Engagement catering in Dubai combines a welcoming menu, a considered service plan and room for both families to enjoy the celebration. We coordinate the food around your venue, guest list and any planned toast.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "Halal ingredients are sourced by default for myCHEF engagement menus in Dubai. Mixed lists and any certification you actually need belong in the brief, not as an assumption after the fact.",
+      "after": "Halal sourcing is the default. Share any certification requirements and dietary needs before the menu is developed so the culinary partner can confirm suitability.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "These are the published bands. Format decides most of an engagement party catering cost per person in Dubai: the same guests cost different amounts dropped off, as a buffet, or plated. Engagement catering packages in Dubai are not a named SKU — the written proposal is the package, with menu, staffing, equipment and 5% VAT as separate lines.",
+      "after": "The service format, menu, guest count and staffing determine your engagement catering price. Your tailored proposal sets out the agreed package, with food, equipment, service and 5% VAT clearly identified.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "Arrival, setup, service and clear-down are part of a staffed booking. You should still be able to use the house in the morning.",
+      "after": "A staffed booking includes the agreed arrival, setup, service and clear-down arrangements, coordinated around your home and celebration.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "No. A proposal is two people and the ask. That sits on [proposal dinner](/proposal-dinner-dubai). This page is two families, a toast, and a gathering before the wedding.",
+      "after": "An engagement party brings family and friends together to celebrate the engagement. For the moment of asking, explore our [proposal dinner service](/proposal-dinner-dubai).",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "Yes, when it is still a gathering — not a table for two. A small engagement dinner at one table is usually a [romantic dinner](/romantic-dinner-dubai) or a [private chef](/private-chef-dubai). If parents and friends are in the house, this page is the right brief.",
+      "after": "Yes. We can plan a smaller engagement gathering with a seated menu and service suited to your home. Share the guest count and setting so we can recommend an appropriate format.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "Wedding catering owns the marriage — tastings, timings, a guest list that is already a seating chart. This page is the night before that work starts. Open [wedding catering](/wedding-catering-dubai) when you are planning the wedding itself.",
+      "after": "Engagement catering covers the gathering that celebrates your engagement. For the wedding day itself, explore [wedding catering](/wedding-catering-dubai), including menu planning, tastings and reception service.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/engagementPage.ts",
+      "before": "There is no single number for engagement catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 90 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.",
+      "after": "Drop-off starts from AED 90 per person. The final engagement catering quote reflects your guest count, menu, service team, equipment and access requirements, with 5% VAT shown separately.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/hospitalCateringPage.tsx",
+      "before": "The honest entry is hospital staff cafeteria catering Dubai: visitor cafés and staff dining at clinics and second-tier hospitals, run as a documented canteen. Healthcare catering Dubai of that kind is still hospital work: health cards, temperature, labelling. It is not a villa dinner in a white corridor.",
+      "after": "Hospital staff and visitor dining requires a documented service plan, with the kitchen, staff, temperature controls and labelling assessed for the setting. The proposed scope and required approvals must be confirmed before any contract is agreed.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/hospitalCateringPage.tsx",
+      "before": "Texture-modified and regular dining can be quoted when the home’s diet policy is written. It is not a copy-paste of a hospital ward.",
+      "after": "Dining for a care setting requires the home’s documented diet and service requirements, including any clinically specified textures. Suitability and responsibilities must be confirmed before a proposal is approved.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "A private romantic dinner removes the room. The chef comes to you, the menu is planned around what the two of you actually like, and the pace belongs to you rather than to a service schedule. There is no queue for the table and no closing time being counted down.",
+      "after": "A private romantic dinner is planned around the two of you: the menu you enjoy, the setting you choose and the pace of the evening. Your chef and service team work within the agreed booking hours, leaving you free to spend time together.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "A tasting menu is not a starter, a main and a dessert made smaller. It is a sequence built deliberately, where each course is planned in relation to the ones on either side of it: lighter before heavier, sharper after richer, texture changing often enough that attention never drops.",
+      "after": "A tasting menu is a carefully paced sequence of dishes. Flavour, richness and texture are balanced from one course to the next, giving each dish a clear place in the meal.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "A private cooking class is not a demonstration where a chef cooks while everybody sits and watches. The point is that your group is doing the work: handling the ingredients, making the mistakes, and eating the result.",
+      "after": "A private cooking class is a hands-on session, with your group preparing ingredients, learning techniques and enjoying the meal you make together.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "That changes who it suits. It works for couples who want to do something together rather than sit opposite each other again, for families, for groups of friends, for visitors who want to take something home that is not a souvenir, and for teams who need an activity that is not another dinner.",
+      "after": "Classes can be planned for couples, families, friends, visitors and teams, with the cuisine and level of participation matched to the group.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "A chef who cooks beautifully for a household every day is not automatically the right person to teach sushi. Those are different skills, and pretending otherwise is how experiences disappoint people.",
+      "after": "We match teaching sessions to chefs with the relevant culinary and instructional skills, so the class suits both the cuisine and your group’s experience.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/luxuryDiningPage.ts",
+      "before": "Halal is not a checkbox added at the end of a menu. Where halal dining is required, it affects where ingredients are bought, how the menu is planned, and how the kitchen is handled on the day. That has to be agreed before the menu is written, not corrected afterwards.",
+      "after": "Halal requirements are considered from the first menu conversation, including ingredient sourcing, preparation and service. Any specific documentation or controls are confirmed before the booking is agreed.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/officeCateringPage.ts",
+      "before": "A chef cooking on site is cooking and plating in front of your guests. That is the AED 700–950 band, priced for a board dinner or a client evening. If a quote does not tell you which of those three you are getting, it is not a quote yet.",
+      "after": "Chef-led plated dining at AED 700–950 per person is designed for a served board dinner or client occasion. Your proposal should clearly distinguish it from a delivered menu or buffet service.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/content/officeCateringPage.ts",
+      "before": "A useful proposal needs four things: the days or the date, the office, how many people, and whether you want it delivered or staffed. Dietary requirements and a budget position help. Telling us the budget early is not a trap: it means the first proposal is realistic rather than the third one.",
+      "after": "Share the service days, office address, headcount and whether you need delivery or on-site staff. Dietary requirements and an indicative spending range help us prepare a suitable proposal.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "\n            These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated. A catering service in Dubai on this page is that food, the staff and the clear-down in one brief, not a tray left at the door.\n          ",
+      "after": "\n            Compare published starting prices, clearly identified market ranges and the calculator’s indicative estimate. Your chosen format determines the menu and staffing required; the written proposal confirms the complete scope and total.\n          ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "\n            is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs: pick the\n            one that matches the night, not the smaller number.\n          ",
+      "after": "\n            is AED 1,500 plus groceries for a household service day. Choose the service that matches your needs, with event staffing and presentation quoted separately.\n          ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "\n            : you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a\n            running order, you are in the right place.\n          ",
+      "after": "\n            covers regular cooking for the household. A party, buffet, bar or timed event uses a separate catering brief.\n          ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "\n            The arithmetic is worth knowing before you choose. Twelve people at AED 700 a head is AED 8,400 of\n            chef-led plated dining, designed and staffed for the evening. One Full-Day private chef is AED 1,500 plus\n            groceries, cooking for the household: no service team, no plating for a room, no running order. They are\n            different jobs, and the cheaper number is not automatically the right one.\n          ",
+      "after": "\n            For example, bespoke plated dining for 12 guests at AED 700 per person totals AED 8,400 before VAT and any agreed extras. A Full-Day household chef visit is AED 1,500 plus groceries and has a different scope. Compare the staffing, presentation and service required for your occasion before choosing.\n          ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "These are formats we can build around your event. Each line opens the page that owns that format.",
+      "after": "Explore the menu and service details for each catering format below.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/Catering.tsx",
+      "before": "The objective is not for myCHEF to own every supplier. The objective is for the event to work.",
+      "after": "We coordinate the catering with your chosen suppliers so the agreed food and service plan works smoothly.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/OurChefs.tsx",
+      "before": "\n                Matching is cuisine, format and setting, not whoever is free. A plated dinner for eight is not a live grill for eighty. If you want a female chef in the room, say so in the brief. A BBQ night is the same network on a grill, not a second company.\n              ",
+      "after": "\n                The chef match reflects the cuisine, service format and setting, together with your household preferences. Tell us what matters to you, and we will recommend a suitable available professional.\n              ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/OurChefs.tsx",
+      "before": "\n                . This page is who cooks, and what we check before they do.\n              ",
+      "after": "\n                . Explore the profiles and the checks that support each match.\n              ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n                You are buying a chef at home in Dubai who comes back. Usually the same person each week, a written record of how you like to eat, and one person to call when something changes. A private chef for dinner party Dubai nights is catering: one evening, a team, then clear-down.",
+      "after": "\n                A regular chef brings continuity to your kitchen, with your preferences recorded and a dedicated contact for changes. For one-off dinner parties, explore our catering and private dining options.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n              A standing household chef stays on this page. A one-night dinner belongs on catering, not here.\n            ",
+      "after": "\n              Explore regular household chef plans here, or choose catering for a one-off dinner or celebration.\n            ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n              Not everyone comes to this page for a dinner party. If the problem is six o'clock, everyone home late, nobody planned anything, and the same five meals coming round, then the fix is not a better recipe. It is not having to think about it. A standing chef sorts the week, not the evening.\n            ",
+      "after": "\n              A regular chef can make busy weeks easier by planning and preparing the meals your household enjoys. The service follows your schedule, helping bring variety and consistency to everyday dining.\n            ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n                Hiring on your own means you handle the matching, the feedback, the cover when someone is away and the replacing. We handle all of that. Your part is telling us what you like to eat.\n              ",
+      "after": "\n                We coordinate chef selection, feedback, cover and any change of match. You share your preferences and work with your contact to shape a service that suits the household.\n              ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n              This page is the overview. There are separate pages on how it works, who the chefs are, how we keep the standard, who comes into your home, and what it costs.\n            ",
+      "after": "\n              Explore how the plan works, meet the chefs, review our selection standards and compare the current service prices.\n            ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "The chef learns how you live. We write it down, so you never have to teach it twice.",
+      "after": "Your preferences are recorded in a Food Profile, helping the chef and any agreed cover understand the household.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n              We build the plan around the days and meals you actually need, not a package named after an occasion.\n            ",
+      "after": "\n              Choose the service days and meals your household needs, with the schedule and scope agreed before you begin.\n            ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n            Short answers. The system, the chefs, privacy and the full price logic each have their own page.\n          ",
+      "after": "\n            Find answers below, with more detail in our guides to matching, household privacy and pricing.\n          ",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    },
+    {
+      "file": "src/pages/PrivateChef.tsx",
+      "before": "\n            A private chef near me in Dubai still needs a match, not a pin on a map.",
+      "after": "\n            A chef matched to your household and Dubai location.",
+      "review": "Second editorial review: remove internal language and clarify service scope"
+    }
+  ]
+}

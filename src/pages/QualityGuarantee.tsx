@@ -211,7 +211,7 @@ export default function QualityGuarantee() {
             Catering Quality Guarantee Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 qg-hero-sub">
-            The chef is checked. The booking is written. If the night falls short, credits follow the booking terms, not a slogan.
+            A carefully selected chef, a clear written brief and a defined process for resolving concerns under your booking terms.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a quote</Link>
@@ -239,7 +239,7 @@ export default function QualityGuarantee() {
           </h2>
           <div className="qg-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A guarantee that cannot be measured is advertising. This one is measured against the proposal you approved: the menu, the headcount, the people in the room, the time they arrive, and the way the kitchen is left.
+              We assess the service against the proposal you approved, including the menu, guest count, staffing, arrival time and clear-down. If something falls short, tell your contact promptly so the issue can be reviewed and addressed under the booking terms.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We do not promise that every guest will love every dish. We do promise that the service matches what was written, that the chef was checked before they entered, and that a genuine shortfall is handled under the booking terms. Cancellation is a different page of the same document: 15 days or more, 8 to 14 days, 48 hours to 7 days, and under 48 hours.

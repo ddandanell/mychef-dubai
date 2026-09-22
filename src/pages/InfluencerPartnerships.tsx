@@ -232,7 +232,7 @@ export default function InfluencerPartnerships() {
             Food Influencer Partnerships Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
-            A chef-led night for content, or a longer arrangement if it fits. Quoted as a booking. Terms in writing. We typically reply within 15 minutes during business hours.
+            Culinary collaborations for content creators, from a single private dining experience to an agreed ongoing partnership. Scope, deliverables and commercial terms are confirmed in writing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>
@@ -260,7 +260,7 @@ export default function InfluencerPartnerships() {
           </h2>
           <div className="ip-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyCHEF Dubai partners with food, lifestyle, and luxury creators who want exceptional food and shareable moments for their audience. Tell us about your content goals and follower profile, and we will bring you a vetted private chef and a collaboration plan that fits your brand.
+              myCHEF Dubai collaborates with food, lifestyle and travel creators whose work suits our dining experiences. Share your audience, content approach and proposal so we can consider an appropriate chef, setting and collaboration plan.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Partnerships are scoped around the shoot or post, not a shop price list. Tell us the date, the format and what you need on camera. We match a chef and send a written plan.

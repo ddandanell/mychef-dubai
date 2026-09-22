@@ -42,7 +42,7 @@ const programmes = [
   {
     icon: Dumbbell,
     title: 'Fitness & Performance',
-    description: 'High-protein, macro-calculated meals for training days. Macros labelled on the container.',
+    description: "Protein-focused meals planned around your training preferences, with agreed portions and nutrition information where available.",
     price: 'from AED 900 / session',
   },
   {
@@ -203,7 +203,7 @@ export default function WellnessMealPrep() {
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
         title="Healthy Meal Prep Dubai"
-        subtitle="Healthy meal prep Dubai is a chef in your kitchen, cooking a week of food this household will actually eat. Labelled, fridge stacked, kitchen cleared. Food Prep is AED 900 a session. Tell us the household and the goal."
+        subtitle={"Healthy meal prep in Dubai, tailored to your household and prepared in your own kitchen. The Food Prep service is AED 900 per session, with meals portioned, labelled and stored for later and the kitchen cleared afterward."}
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
         cta={{ label: 'Request a meal prep quote', href: `/inquiry` }}

@@ -320,7 +320,7 @@ export default function EidCatering() {
             Eid Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 eid-hero-sub">
-            Eid catering Dubai for Eid al-Fitr and Eid al-Adha at your home or majlis. Halal menus, ouzi when the table needs it, then clear-down.
+            Eid catering in Dubai for Eid al-Fitr and Eid al-Adha, with generous halal menus for your home or majlis. Share mezze, grills, traditional rice dishes and sweets with the people joining your celebration.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Get an Eid Quote</Link>
@@ -347,7 +347,7 @@ export default function EidCatering() {
             Eid catering Dubai, cooked at your table
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Eid catering Dubai is a family sitting at your home, villa or majlis for Eid al-Fitr or Eid al-Adha. Halal menus. Mezze, grills, ouzi when the table needs it, sweets. We cook there. You stay with your guests.
+            Eid catering in Dubai centres on the pleasure of gathering around a generous table. Choose mezze, grills, an ouzi centrepiece and traditional sweets, with halal sourcing and service planned around your family and chosen setting.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. Dietary notes go into the first draft.

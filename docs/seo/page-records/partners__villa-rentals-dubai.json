@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/partners/villa-rentals-dubai",
+  "path": "/partners/villa-rentals-dubai",
+  "role": "indexable page",
+  "page_type": "Partner landing",
+  "silo": "Partners / Recruit",
+  "purpose": "Bring in venue, concierge, planner and referral partners.",
+  "keywords": {
+    "primary": "villa rentals partnership dubai",
+    "secondary": [
+      "catering partner for holiday homes dubai",
+      "villa catering package dubai",
+      "villa private chef",
+      "cooks villa near me",
+      "holiday villa with chef",
+      "cooks villa blackburn",
+      "cooks villa raipur",
+      "cooks villa rarotonga"
+    ],
+    "primary_owner": "/partners/villa-rentals-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Villa Rentals Partnership Dubai | myCHEF",
+    "description": "Villa rentals partnership Dubai: put a myCHEF team in the villa kitchen for guest breakfasts, dinners and BBQs. You keep the house; we cook and clear down.",
+    "h1": [
+      "Villa Rentals Partnership Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/partners/villa-rentals-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/partners/PartnerPageTemplate.tsx",
+    "src/pages/partners/VillaRentalsPartner.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 294,
+    "current_word_count": 282,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Villa rentals partnership Dubai: a chef in the house"
+      },
+      {
+        "level": "h2",
+        "text": "What You Gain"
+      },
+      {
+        "level": "h3",
+        "text": "In-villa private chef"
+      },
+      {
+        "level": "h3",
+        "text": "A dining add-on on the listing"
+      },
+      {
+        "level": "h3",
+        "text": "Vetted and insured"
+      },
+      {
+        "level": "h3",
+        "text": "One partner contact"
+      },
+      {
+        "level": "h3",
+        "text": "Commission or referral"
+      },
+      {
+        "level": "h2",
+        "text": "Simple Partnership Workflow"
+      },
+      {
+        "level": "h2",
+        "text": "Become a myCHEF Partner"
+      },
+      {
+        "level": "h2",
+        "text": "More in Partners"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/partners",
+        "anchor": "Partners"
+      },
+      {
+        "url": "/partners/villa-rentals-dubai",
+        "anchor": "Villa rentals partnership",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/partners",
+      "anchor": "Partners",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/partners/concierge-services-dubai",
+        "anchor": "Concierge services partnership",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/become-a-mychef",
+        "anchor": "Work as a myCHEF",
+        "alt_anchors": [
+          "private chef jobs"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

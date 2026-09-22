@@ -1,0 +1,18 @@
+PASS  dedupes duplicate questions: got 2
+PASS  strips markdown from answers: got "See prices."
+PASS  private chef hub FAQ count: got 8
+PASS  private chef hub questions unique: got 8
+PASS  private chef hub questions match on-page: got ["What is a private chef in Dubai?","Can I have the same chef every week?","What happens if my chef is unavailable?","What is the Food Profile?","Can the chef shop, and cook for children?","Can I change chefs or add a specialist?","Can you accommodate allergies?","How much does a household chef cost?"]
+PASS  catering hub FAQ count: got 17
+PASS  catering hub questions unique: got 17
+PASS  catering hub questions match on-page: got ["Do I need to know the format before I contact you?","Can you do food only, without staff or setup?","How is myCHEF different from a traditional catering company?","What is the minimum number of guests?","How much does catering cost in Dubai?","Do you provide waiters, bartenders and tableware?","Is the food halal?","Who cooks? Does myCHEF employ the chefs?","How far in advance should I book?","Do you cater small parties of 10 to 20 guests at home?","Do you provide grazing tables, live stations, gala dinners and waiters?","How do I compare catering companies in Dubai?","What is the cancellation window?","What happens if the party runs late?","Is there a tasting?","Who is on the invoice, and when is the deposit due?","I already have a planner, florist or rental company. Can you still help?"]
+PASS  pricing path keeps FAQPage: got true
+PASS  spoke FAQPage is stripped: got null
+PASS  yachts path keeps FAQPage: got true
+PASS  /faq keeps FAQPage: got true
+PASS  NYE meta length in band: got true
+PASS  chefs-table meta length in band: got true
+PASS  NYE meta is complete (no ellipsis): got false
+PASS  chefs-table meta is complete (no ellipsis): got false
+
+All FAQ JSON-LD checks passed

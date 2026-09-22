@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/locations/umm-suqeim",
+  "path": "/locations/umm-suqeim",
+  "role": "noindex support page",
+  "page_type": "Location landing",
+  "silo": "Locations",
+  "purpose": "Private chef in Umm Suqeim for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+  "keywords": {
+    "primary": "private chef umm suqeim",
+    "secondary": [
+      "catering umm suqeim",
+      "chef at home umm suqeim",
+      "private dining umm suqeim",
+      "party catering umm suqeim",
+      "personal chef umm suqeim"
+    ],
+    "primary_owner": "/locations/umm-suqeim",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Umm Suqeim | myCHEF",
+    "description": "Private chef in Umm Suqeim for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+    "h1": [
+      "Private Chef Umm Suqeim"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/locations/umm-suqeim",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LocationDetail.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 887,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef Umm Suqeim for coastal villas and garden kitchens"
+      },
+      {
+        "level": "h2",
+        "text": "Properties We Serve in Umm Suqeim"
+      },
+      {
+        "level": "h2",
+        "text": "Long-stay coastal households and villa guests"
+      },
+      {
+        "level": "h2",
+        "text": "What an Umm Suqeim villa booking includes"
+      },
+      {
+        "level": "h2",
+        "text": "Menus for a coastal villa, not a hotel terrace"
+      },
+      {
+        "level": "h2",
+        "text": "Parking, wind, then the villa kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Send the brief"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm access"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the date"
+      },
+      {
+        "level": "h3",
+        "text": "The chef arrives"
+      },
+      {
+        "level": "h3",
+        "text": "Service and clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "Coastal villas need a plan for wind and parking"
+      },
+      {
+        "level": "h2",
+        "text": "What these villas actually book"
+      },
+      {
+        "level": "h3",
+        "text": "Garden or pool dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Family birthday at home"
+      },
+      {
+        "level": "h3",
+        "text": "Weekend lunch by the pool"
+      },
+      {
+        "level": "h3",
+        "text": "Standing household chef"
+      },
+      {
+        "level": "h2",
+        "text": "Villa parking, garden access and coastal weather"
+      },
+      {
+        "level": "h2",
+        "text": "Also Serving Near Umm Suqeim"
+      },
+      {
+        "level": "h3",
+        "text": "Al Barsha"
+      },
+      {
+        "level": "h2",
+        "text": "Services in Umm Suqeim"
+      },
+      {
+        "level": "h2",
+        "text": "Chef, catering and event pages"
+      },
+      {
+        "level": "h2",
+        "text": "Popular Events in Umm Suqeim"
+      },
+      {
+        "level": "h2",
+        "text": "Questions About Umm Suqeim Catering"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook at a beachfront villa in Umm Suqeim?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you set up by the pool?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a weekly chef the same as a family party?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you bring service staff?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook for children and mixed diets?"
+      },
+      {
+        "level": "h3",
+        "text": "How far ahead should I write?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the Umm Suqeim villa"
+      },
+      {
+        "level": "h2",
+        "text": "More in Locations"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve"
+      },
+      {
+        "url": "/locations/umm-suqeim",
+        "anchor": "Umm Suqeim",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+        "catering near me dubai",
+        "catering near me"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/locations/al-barsha",
+        "anchor": "Al Barsha",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me dubai",
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog",
+  "path": "/blog",
+  "role": "indexable page",
+  "page_type": "Utility / untargeted",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef and Catering Guides in Dubai | myCHEF",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run. Written for hosts, not a keyword list.",
+    "h1": [
+      "Blog"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/Blog.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1431,
+    "current_word_count": 1548,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Explore Our Guides by Theme"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Guides"
+      },
+      {
+        "level": "h3",
+        "text": "Nurseries, Schools & Canteens"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate & Team Catering"
+      },
+      {
+        "level": "h3",
+        "text": "Weddings, Parties & Celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Ramadan & Seasonal Dining"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor & Destination Dining"
+      },
+      {
+        "level": "h3",
+        "text": "Menus, Brunch & Dietary"
+      },
+      {
+        "level": "h2",
+        "text": "Insights for Dubai Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Grazing Table Catering in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Kids Birthday Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Yacht Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Corporate Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Luxury Private Dining Experiences Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Arabic Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Brunch Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Halal Catering Companies Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Chefs for Villas in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Wedding Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Dubai School Food Rules 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Nut-Free Nursery Meals Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Nursery Meals vs Packed Lunch Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "How to Hire a Private Chef Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Catering Cost Dubai: Planning Estimates for 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Brunch at Home Dubai: A Hosting Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Event Catering Ideas Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Grazing Table vs Buffet Dubai: How to Choose"
+      },
+      {
+        "level": "h3",
+        "text": "How Far in Advance to Book a Caterer Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht Party Menu Ideas in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "How Much Does a Private Chef Cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering: Full-Service vs Drop-Off"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home"
+      },
+      {
+        "level": "h2",
+        "text": "Want a Bespoke Menu?"
+      },
+      {
+        "level": "h2",
+        "text": "Everything in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Blog",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/guides",
+        "anchor": "Guides",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-to-hire-a-private-chef-dubai",
+        "anchor": "How to hire a private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/wedding-catering-cost-dubai",
+        "anchor": "Wedding catering cost",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [
+      {
+        "url": "/blog/best-private-chef-birthday-dinner-dubai",
+        "anchor": "Private chef for birthday dinner",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/brunch-at-home-dubai",
+        "anchor": "Brunch at home",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/corporate-catering-full-service-vs-drop-off",
+        "anchor": "Full service vs drop off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/corporate-event-catering-ideas-dubai",
+        "anchor": "Corporate event catering ideas",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/grazing-table-vs-buffet-dubai",
+        "anchor": "Grazing table vs buffet",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-far-ahead-book-caterer-dubai",
+        "anchor": "How far in advance to book a caterer",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-much-does-private-chef-cost-dubai",
+        "anchor": "What a private chef costs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-to-hire-a-private-chef-dubai",
+        "anchor": "How to hire a private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/private-chef-palm-jumeirah-guide",
+        "anchor": "Private dining palm jumeirah",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/wedding-catering-cost-dubai",
+        "anchor": "Wedding catering cost",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/yacht-party-menu-ideas-dubai",
+        "anchor": "Yacht party menu ideas",
+        "alt_anchors": []
+      }
+    ],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

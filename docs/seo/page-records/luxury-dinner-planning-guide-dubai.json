@@ -1,0 +1,320 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/luxury-dinner-planning-guide-dubai",
+  "path": "/luxury-dinner-planning-guide-dubai",
+  "role": "noindex support page",
+  "page_type": "Guide / comparison",
+  "silo": "Blog and Guides",
+  "purpose": "How to Plan a Luxury Dinner Dubai — Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music…",
+  "keywords": {
+    "primary": "how to plan a luxury dinner dubai",
+    "secondary": [
+      "luxury dinner party planning dubai",
+      "how to host a dinner party dubai",
+      "dinner party planning checklist dubai",
+      "luxury dinner cruise dubai marina",
+      "luxury dinner set in dubai price",
+      "dubai cruise dinner booking",
+      "luxury dinner in dubai",
+      "how much dinner in dubai"
+    ],
+    "primary_owner": "/luxury-dinner-planning-guide-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "How to Plan a Luxury Dinner Dubai | myCHEF",
+    "description": "How to Plan a Luxury Dinner Dubai — Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music…",
+    "h1": [
+      "How to Plan a Luxury Dinner Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/luxury-dinner-planning-guide-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/LuxuryDinnerPlanningGuide.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 1025,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Create an Evening Worth Remembering"
+      },
+      {
+        "level": "h2",
+        "text": "Defining the Occasion"
+      },
+      {
+        "level": "h3",
+        "text": "Purpose"
+      },
+      {
+        "level": "h3",
+        "text": "Guest list"
+      },
+      {
+        "level": "h3",
+        "text": "Setting"
+      },
+      {
+        "level": "h3",
+        "text": "Tone"
+      },
+      {
+        "level": "h2",
+        "text": "Designing the Menu"
+      },
+      {
+        "level": "h3",
+        "text": "Tasting menus"
+      },
+      {
+        "level": "h3",
+        "text": "Wine pairing style service"
+      },
+      {
+        "level": "h3",
+        "text": "Premium ingredients"
+      },
+      {
+        "level": "h3",
+        "text": "Dietary artistry"
+      },
+      {
+        "level": "h2",
+        "text": "Styling the Table"
+      },
+      {
+        "level": "h3",
+        "text": "Linens & tableware"
+      },
+      {
+        "level": "h3",
+        "text": "Florals & candles"
+      },
+      {
+        "level": "h3",
+        "text": "Menu cards & place cards"
+      },
+      {
+        "level": "h3",
+        "text": "Napkin folds & accents"
+      },
+      {
+        "level": "h2",
+        "text": "Lighting, Music & Ambience"
+      },
+      {
+        "level": "h3",
+        "text": "Lighting"
+      },
+      {
+        "level": "h3",
+        "text": "Music"
+      },
+      {
+        "level": "h3",
+        "text": "Scent"
+      },
+      {
+        "level": "h3",
+        "text": "Service timing"
+      },
+      {
+        "level": "h2",
+        "text": "Chef and Service Staff"
+      },
+      {
+        "level": "h2",
+        "text": "Hosting Tips for the Evening"
+      },
+      {
+        "level": "h2",
+        "text": "Related Private Dining Services"
+      },
+      {
+        "level": "h2",
+        "text": "How to Plan a Luxury Dinner Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "How many courses should a luxury dinner have?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a luxury dinner be hosted at home?"
+      },
+      {
+        "level": "h3",
+        "text": "What makes a dinner feel luxurious?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide wine pairing?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I plan a luxury dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "Can dietary requirements be accommodated elegantly?"
+      },
+      {
+        "level": "h3",
+        "text": "How much dinner in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How to host a dinner party Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Design Your Luxury Dinner"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/luxury-dinner-planning-guide-dubai",
+        "anchor": "How to plan a luxury dinner",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/guide/private-dining-dubai",
+        "anchor": "Private dining guide",
+        "alt_anchors": []
+      },
+      {
+        "url": "/romantic-dinner-dubai",
+        "anchor": "Dinner for two",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

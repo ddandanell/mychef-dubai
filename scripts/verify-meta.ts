@@ -245,6 +245,29 @@ function checkMeta(meta: Meta, label: string) {
 // 1. Lint page components
 const files = findTsx(pagesDir).sort()
 
+// Shared page templates can pass metadata through typed content objects that the
+// lightweight source parser cannot resolve. Check the actual production HTML
+// for those routed components; do not classify a parser limitation as missing SEO.
+function renderedMetaForComponent(file: string): Meta | null {
+  const routeSource = fs.readFileSync(path.resolve(__dirname, '../src/routes.tsx'), 'utf8')
+  const modulePath = './pages/' + path.relative(pagesDir, file).replace(/\\/g, '/').replace(/\.tsx$/, '')
+  const binding = [...routeSource.matchAll(/const (\w+):[^\n]*?import\(['"]([^'"]+)['"]\)/g)]
+    .find((match) => match[2] === modulePath)?.[1]
+  if (!binding) return null
+  const route = [...routeSource.matchAll(/\{\s*path:\s*"([^"*:]+)"\s*,\s*element:\s*<(\w+)/g)]
+    .find((match) => match[2] === binding)?.[1]
+  if (!route) return null
+  const rendered = path.resolve(__dirname, '../dist', route.slice(1), 'index.html')
+  if (!fs.existsSync(rendered)) return null
+  const html = fs.readFileSync(rendered, 'utf8')
+  const title = html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1]
+  const descriptionTag = html.match(/<meta\b[^>]*name="description"[^>]*>/i)?.[0]
+  const description = descriptionTag?.match(/content="([^"]*)"/i)?.[1]
+  if (!title || !description) return null
+  const decode = (value: string) => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'")
+  return { title: decode(title), description: decode(description), source: 'config', hideSiteName: true }
+}
+
 for (const f of files) {
   const content = fs.readFileSync(f, 'utf8')
   const rel = path.relative(pagesDir, f)
@@ -254,7 +277,7 @@ for (const f of files) {
   // Chef profile data files are covered by the explicit chef check below.
   if (rel.startsWith('chefs/') && /import\s+ChefProfile\b/.test(content)) continue
 
-  const meta = getMeta(content, f)
+  const meta = getMeta(content, f) ?? renderedMetaForComponent(f)
 
   if (!meta) {
     if (!coveredByDataSources.has(rel)) {

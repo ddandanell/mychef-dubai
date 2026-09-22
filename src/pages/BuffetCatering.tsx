@@ -194,7 +194,7 @@ export default function BuffetCatering() {
 
       <PageHero
         title="Buffet Catering Dubai"
-        subtitle="You want people to eat without sitting them all down at once. Buffet catering Dubai is a staffed self-serve line — heat held, labels honest, trays replenished, the queue watched. From 20 guests, from AED 120 per person before 5% VAT. You stay with your guests."
+        subtitle={"Buffet catering in Dubai gives guests the freedom to choose and mingle. Your service team manages presentation, dish labels, temperatures and replenishment throughout the agreed service. From 20 guests at AED 120 per person, before 5% VAT."}
         image={HERO.src}
         imageAlt={HERO.alt}
         imageWidth={HERO.width}
@@ -413,17 +413,17 @@ export default function BuffetCatering() {
           </BodyCopy>
           <BodyCopy>
             Regular rooms include{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <span>
               Palm Jumeirah
-            </Link>
+            </span>
             ,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <span>
               Dubai Marina
-            </Link>
+            </span>
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <span>
               Downtown Dubai
-            </Link>
+            </span>
             . The full list is on{' '}
             <Link to="/locations" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Areas we serve

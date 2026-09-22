@@ -27,9 +27,9 @@ export const birthdayHeroCopy = {
   eyebrow: 'Villa and home parties',
   title: 'Private Birthday Catering in Dubai',
   subtitle:
-    'Food, staff and clear-down for villa and home parties. Published floors or a private brief. You stay with your guests.',
+    "Thoughtful birthday catering for your home or villa, with menus, service and clear-down planned around your guests.",
   pageLine:
-    'See formats, published prices, extras, and how the quote is built, or send a private milestone brief.',
+    "Explore menus, starting prices and optional extras, or share a brief for a more personal milestone celebration.",
   priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 3,600.',
 } as const
 
@@ -261,7 +261,7 @@ export const menuFormats = [
   },
   {
     title: 'Dessert table',
-    body: 'A styled sweets display quoted on its own page. The mini dessert selection on this page is a smaller, priced tray, not that full service.',
+    body: "A complete dessert display is available as a separate service. The mini dessert selection here is a smaller tray with its own published price.",
     href: '/dessert-table-catering-dubai',
     linkLabel: 'Dessert table catering',
   },
@@ -414,7 +414,7 @@ export const exampleEvents = [
     guests: '25 guests',
     venue: 'Yacht, Dubai Marina',
     setup: 'Sunset canapés, BBQ and signature mocktails, planned around loading and storage.',
-    outcome: 'Passed bites, grills and alcohol-free craft drinks served as the yacht cruised the marina.',
+    outcome: "An illustrative yacht menu combining passed bites, grilled dishes and alcohol-free drinks.",
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht event catering in Dubai',
     image: '/images/birthday-catering-dubai-yacht.webp',

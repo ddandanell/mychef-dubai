@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/locations/dubai-internet-city",
+  "path": "/locations/dubai-internet-city",
+  "role": "redirect",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Redirect visitors to /locations",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": null,
+    "description": null,
+    "h1": []
+  },
+  "metadata_source": "SEO contract; alias or route not prerendered",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/locations",
+    "robots": null,
+    "in_sitemap": false,
+    "redirect_to": "/locations"
+  },
+  "source_files": [],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": null,
+    "headings": [],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

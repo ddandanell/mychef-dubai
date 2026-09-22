@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/eid-catering-dubai",
+  "path": "/eid-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Seasonal and Occasions",
+  "purpose": "Capture date-sensitive festive enquiries.",
+  "keywords": {
+    "primary": "eid catering dubai",
+    "secondary": [
+      "eid catering dubai price",
+      "eid catering cost per person dubai",
+      "best eid catering dubai",
+      "eid catering packages dubai",
+      "eid catering menu dubai",
+      "eid al fitr catering dubai",
+      "eid al adha catering dubai",
+      "eid lunch offers in dubai"
+    ],
+    "primary_owner": "/eid-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Eid Catering Dubai | Home, Majlis and Table | myCHEF",
+    "description": "Eid catering Dubai for Eid al-Fitr and Eid al-Adha at home or a majlis. Halal menus, ouzi when needed. Buffet from AED 120. Itemised quote.",
+    "h1": [
+      "Eid Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/eid-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/EidCatering.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 787,
+    "current_word_count": 797,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Eid catering Dubai, cooked at your table"
+      },
+      {
+        "level": "h2",
+        "text": "Feasts for Eid al-Fitr & al-Adha"
+      },
+      {
+        "level": "h3",
+        "text": "Eid al-Fitr feasts"
+      },
+      {
+        "level": "h3",
+        "text": "Eid al-Adha feasts"
+      },
+      {
+        "level": "h3",
+        "text": "Ouzi and whole-lamb roasts"
+      },
+      {
+        "level": "h3",
+        "text": "Family gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Eid sweets and dessert tables"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Eid service"
+      },
+      {
+        "level": "h2",
+        "text": "Home, majlis, larger family tables"
+      },
+      {
+        "level": "h3",
+        "text": "Eid al-Fitr celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Eid al-Adha feasts"
+      },
+      {
+        "level": "h3",
+        "text": "Family gatherings at home"
+      },
+      {
+        "level": "h3",
+        "text": "Large Eid celebrations"
+      },
+      {
+        "level": "h2",
+        "text": "What a staffed Eid sitting includes"
+      },
+      {
+        "level": "h2",
+        "text": "How Eid catering looks in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before you book"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater for both Eid al-Fitr and Eid al-Adha?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you prepare ouzi and whole-lamb roasts?"
+      },
+      {
+        "level": "h3",
+        "text": "Is all your Eid catering halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide Eid sweets and dessert tables?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you handle home and villa Eid gatherings?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Eid catering?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Eid catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send which Eid, the guest count and the address"
+      },
+      {
+        "level": "h2",
+        "text": "More in Seasonal and Occasions"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering"
+      },
+      {
+        "url": "/eid-catering-dubai",
+        "anchor": "Eid catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/festive-catering-dubai",
+      "anchor": "Festive catering",
+      "alt_anchors": [
+        "festive catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/ramadan-catering-dubai",
+        "anchor": "Ramadan catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/iftar-catering-dubai",
+        "anchor": "Iftar catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

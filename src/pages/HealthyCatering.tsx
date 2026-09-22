@@ -345,7 +345,7 @@ export default function HealthyCatering() {
             We do not sell a medical diet. Healthy Catering Dubai is proteins, vegetables and sauces written to your rule: lighter, lower carb, less sugar, or simply more plants. Dietary notes go into the first menu draft. The plate still has to be a proper meal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
+            Your proposal sets out the menu, guest count, service team and venue requirements. Review the inclusions, ingredient arrangements and final price before confirming your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             For a carbohydrate cap see <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link>. For wheat off the plate see <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link>. The catering formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.

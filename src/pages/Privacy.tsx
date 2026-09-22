@@ -79,7 +79,7 @@ const policySections = [
     ],
     bullets: [
       'We do not sell, trade, or rent your personal data to third parties',
-      'Your information may be shared with members of our chefs solely for the purpose of delivering your service',
+      'Relevant booking information may be shared with the culinary partners and service staff involved in your booking',
       'We may disclose information if required by law or to protect our rights',
       'Any third-party service providers we engage are bound by confidentiality agreements',
     ],
@@ -121,7 +121,7 @@ const policySections = [
     id: 'cookies',
     title: 'Cookies',
     content: [
-      'Our website may use cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and understand where our visitors come from.',
+      'This website uses analytics and similar technologies to understand visits, enquiry activity and site performance. The site integrates Google Analytics, Microsoft Clarity, Vercel Analytics and Speed Insights, Web Grower and Ryze. Booking forms and WhatsApp links may include the page or campaign that led to your enquiry.',
       'You can choose to disable cookies through your browser settings. Please note that disabling cookies may affect the functionality of our website.',
     ],
     bullets: [],
@@ -151,7 +151,7 @@ const policySections = [
     ],
     bullets: [
       'Email: info@mychef.ae',
-      'WhatsApp: +971 50 XXX XXXX',
+      "WhatsApp: +971 55 174 4849",
       'We will respond to all privacy-related inquiries within 48 hours.',
     ],
   },
@@ -191,7 +191,7 @@ export default function Privacy() {
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]}
         minHeight="short"
         overlay="dark"
-        children={<p className="font-inter text-body-sm text-gray-500 mt-4">Last updated: January 2025</p>}
+        children={<p className="font-inter text-body-sm text-gray-500 mt-4">Last updated: 22 September 2026</p>}
       />
 
       {/* Section 2: Policy Content */}

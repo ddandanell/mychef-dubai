@@ -239,7 +239,7 @@ export default function BuffetVsPlated() {
             Buffet vs Plated Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
-            A buffet is a line, from AED 120 and 20 guests. Plated is courses at the table, AED 700 to 950. The room has to support the one you pick.
+            Compare a staffed buffet from AED 120 per person for 20 guests with bespoke plated dining at AED 700–950 per person. Guest flow, service style and venue facilities help determine the right choice.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Request your quote</Link>

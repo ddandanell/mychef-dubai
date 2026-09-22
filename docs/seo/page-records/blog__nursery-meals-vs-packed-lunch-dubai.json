@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/nursery-meals-vs-packed-lunch-dubai",
+  "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "nursery provided meals vs packed lunch dubai",
+    "secondary": [
+      "do all nurseries in dubai provide meals",
+      "nursery lunch dubai",
+      "packed lunch nursery dubai",
+      "nursery meal plans dubai",
+      "preschool catering dubai",
+      "healthy meals for nurseries dubai",
+      "nursery catering companies dubai",
+      "early years lunch dubai"
+    ],
+    "primary_owner": "/blog/nursery-meals-vs-packed-lunch-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Nursery Meals vs Packed Lunch Dubai | myCHEF",
+    "description": "Compare provided nursery meals and packed lunches in Dubai, including dietary communication, storage, parent information and service responsibilities.",
+    "h1": [
+      "Nursery Meals vs Packed Lunch Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/nursery-meals-vs-packed-lunch-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/HandoffPage.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo-pages/blog-nursery-meals-vs-packed-lunch-dubai.json",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 631,
+    "current_word_count": 474,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Understand the packed-lunch arrangement"
+      },
+      {
+        "level": "h2",
+        "text": "Assess a provided-meal service"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the full responsibilities"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare a catering brief"
+      },
+      {
+        "level": "h2",
+        "text": "Keep parents informed"
+      },
+      {
+        "level": "h2",
+        "text": "Sources and further reading"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Dubai School Food Rules 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Nut-Free Nursery Meals Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+        "anchor": "Nursery Meals vs Packed Lunch Dubai",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

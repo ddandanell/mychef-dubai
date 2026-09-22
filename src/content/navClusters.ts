@@ -177,8 +177,7 @@ export const YACHTS_NAV_ROOT = '/yachts'
 
 const YACHTS_ACTIVE = new Set([
   YACHTS_NAV_ROOT,
-  '/yacht-catering-guide-dubai',
-  '/yacht-catering-checklist-dubai',
+  '/yachts',
 ])
 
 export const yachtsNavActive = (p: string) => {

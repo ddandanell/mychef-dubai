@@ -9,6 +9,8 @@ const pathsFile = path.join(root, 'src/content/ryzeBlogPaths.ts')
 const postsFile = path.join(root, 'src/content/ryzeBlogPosts.ts')
 const sitemapFile = path.join(root, 'public/sitemap.xml')
 const site = 'https://www.mychef.ae'
+const deployment = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'))
+const redirectPaths = new Set((deployment.redirects || []).map((item) => item.source))
 
 const validSlug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const xmlEscape = (value) => String(value)
@@ -77,8 +79,9 @@ for (const name of await readdir(pageDir)) {
 }
 
 articles.sort((a, b) => String(b.published_at || '').localeCompare(String(a.published_at || '')))
-const paths = articles.map((article) => '/blog/' + article.slug)
-const posts = articles.map((article) => ({
+const activeArticles = articles.filter((article) => !redirectPaths.has('/blog/' + article.slug))
+const paths = activeArticles.map((article) => '/blog/' + article.slug)
+const posts = activeArticles.map((article) => ({
   slug: '/blog/' + article.slug,
   title: article.title,
   excerpt: article.excerpt,
@@ -101,7 +104,14 @@ await writeFile(
 
 let sitemap = await readFile(sitemapFile, 'utf8')
 sitemap = sitemap.replace(/\n?\s*<!-- RYZE:START -->[\s\S]*?<!-- RYZE:END -->\n?/g, '\n')
-const sitemapRows = articles.map((article) => {
+// The route generator may already have included these articles. Replace that
+// set, so conversion cannot duplicate URLs or reintroduce retired articles.
+const articleUrls = new Set(articles.map((article) => site + '/blog/' + article.slug))
+sitemap = sitemap.replace(/\s*<url>[\s\S]*?<\/url>/g, (block) => {
+  const url = block.match(/<loc>([^<]+)<\/loc>/)?.[1]
+  return articleUrls.has(url) ? '' : block
+})
+const sitemapRows = activeArticles.map((article) => {
   const updated = String(article.updated_at || article.published_at || new Date().toISOString()).slice(0, 10)
   return '  <url><loc>' + xmlEscape(site + '/blog/' + article.slug) + '</loc><lastmod>' +
     xmlEscape(updated) + '</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>'

@@ -273,7 +273,7 @@ export default function DropOffCatering() {
       <PageHero
         eyebrow="Drop-off catering"
         title="Drop Off Catering Dubai: Food That Arrives Without a Team"
-        subtitle="Licensed partner kitchens cook, pack and deliver labelled meals and platters. You unpack. Nobody stays to serve."
+        subtitle={"Freshly prepared meals and platters from licensed partner kitchens, delivered with clear labels and serving guidance for your own team to present."}
         image={HERO.src}
         imageAlt={HERO.alt}
         imageWidth={HERO.width}
@@ -310,7 +310,7 @@ export default function DropOffCatering() {
           <SectionLabel>WHAT THIS IS</SectionLabel>
           <DisplayHeading className="text-black mb-6">Food cooked for a room you already have</DisplayHeading>
           <BodyCopy className="mb-5">
-            Drop off catering Dubai is food cooked by a licensed partner kitchen, packed to travel, and delivered ready to serve. Nobody from the catering team stays in the room. You get labelled boxes or platters, reheating notes where they are needed, and a delivery window that lands close to when people eat.
+            Drop-off catering in Dubai provides prepared food delivered ready for your own team to serve. Your order includes labelled boxes or platters, any necessary reheating guidance and an agreed delivery window. On-site staff can be discussed as a separate service.
           </BodyCopy>
           <BodyCopy className="mb-5">
             It is the unstaffed format inside{' '}
@@ -576,17 +576,11 @@ export default function DropOffCatering() {
         subtitle={
           <>
             Regular runs include{' '}
-            
               Palm Jumeirah
-            
             ,{' '}
-            
               Dubai Marina
-            
             {' '}and{' '}
-            
               Downtown Dubai
-            
             . Full list on{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4">
               Areas we serve
@@ -601,7 +595,7 @@ export default function DropOffCatering() {
           <SectionLabel tone="dark">START WITH THE DROP</SectionLabel>
           <DisplayHeading className="text-white mb-6">Date, headcount and address is enough</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            You do not need a finished menu. We typically reply within 15 minutes during business hours with an itemised proposal — food, delivery and VAT as separate lines.
+            You do not need a finished menu. We typically acknowledge enquiries within 15 minutes during business hours. Your itemised proposal follows after we review the brief — food, delivery and VAT as separate lines.
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">

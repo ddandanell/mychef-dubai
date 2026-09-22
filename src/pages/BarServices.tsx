@@ -60,7 +60,7 @@ const barFormats = [
   {
     icon: Leaf,
     title: 'Mocktail bar',
-    description: 'Alcohol-free drinks with the same bar, glassware and staff. This is the mocktail station. It does not live on a second URL.',
+    description: "Alcohol-free cocktails served with the same attention to presentation, glassware and hospitality as a complete bar service.",
     link: '/bar-services-dubai',
   },
 ]
@@ -155,7 +155,7 @@ const faqs = [
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',
-    a: 'Yes. The mocktail bar is this page: alcohol-free drinks, the same staff and glassware. There is no second URL for it.',
+    a: "Yes. We can arrange an alcohol-free bar with a tailored mocktail menu, bartenders and the agreed glassware and equipment.",
   },
   {
     q: 'What types of events do you provide bar services for?',
@@ -318,7 +318,7 @@ export default function BarServices() {
             Bar Services Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bar-hero-sub">
-            Bar services Dubai means a bartender, a bar we bring, glassware and a drinks list: mocktails as standard, cocktails only where the venue is licensed or the quotation says so.
+            Bar services in Dubai, with professional bartenders, a mobile bar, glassware and a tailored drinks list. Alcohol-free options are available as standard; alcohol service requires a permitted venue and written confirmation.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bar-hero-cta">Get My Bar Services Quote</Link>
@@ -345,7 +345,7 @@ export default function BarServices() {
             What bar services Dubai includes
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Bar services Dubai is the drinks side of a catering night: bartenders, a mobile bar, glassware, ice and a written list. Mocktails run on this page. Cocktails run only where the villa, yacht operator or licensed venue allows it, and only when that is on the quotation.
+            Bar services in Dubai can include bartenders, a mobile setup, glassware, ice and a drinks menu tailored to your event. Mocktails work across family and corporate occasions. Any alcohol service is confirmed with the venue or yacht operator and recorded in your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             There is no published per-person floor for the bar alone. Staffing can sit inside a catering quote (full service with bartender is a 1.3 multiplier on the food floor). Spirits, BYO and extra hours are named as lines. 5% VAT is shown separately.

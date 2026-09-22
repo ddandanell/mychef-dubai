@@ -1,0 +1,1791 @@
+{
+  "release_parent": "9465c4a70e499fd166e03eb5b048bfb498564f27",
+  "date": "2026-09-22",
+  "files": [
+    {
+      "path": "README.md",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "7c06edb96d22e323bbc9d956eee5f8070edcc94e9c42bc4901c29c861f1a4cff",
+      "after_sha256": "41a16576832919bc73f8c7f27d4e722abe08a140db75875fb5fadb600ebb6e22"
+    },
+    {
+      "path": "api/e.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "63bdc6880ed132bc8123831d5c575060666191b803886cb2d806eef5c97eab81",
+      "after_sha256": "71e62364dbbee203bf8cf85e8e96481c49a7cce82d20a88c0eea8d3c12664ff8"
+    },
+    {
+      "path": "blog/data/best-arabic-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "2a000bfb3c6ceffaac71df591266e544892a2c5abbda261da32745b2f1b749f0",
+      "after_sha256": "e38eaeadd6803e08be4fc355ac0f23c1593c477f8aef5b7aa5b28c40a0836f23"
+    },
+    {
+      "path": "blog/data/best-bbq-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "198fac908ce9c8e378970df27f5808c4c434de9eb1ee7e27f98fae7615ff6998",
+      "after_sha256": "c08abaf54247d74562a93b0864322a2332db7f0fe4476b3f8b9e513695236957"
+    },
+    {
+      "path": "blog/data/best-brunch-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "100b8722daca931bb23ea15bb88c7e3f812f57e9446b07674c9f40daad21c4fa",
+      "after_sha256": "75f48c29002762430d50851e2d3e3af92a804b807395475ca69f62e1a7ed373b"
+    },
+    {
+      "path": "blog/data/best-corporate-event-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4de0bbde292bb89311c731dc56d4261af9d723b50eb39b543afbeabb92fa9db5",
+      "after_sha256": "80d8f87e9e65888ac220c6715a6a227e7b1e07d58bdeabc4124d8737576d185b"
+    },
+    {
+      "path": "blog/data/best-corporate-lunch-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3181ef61b3a56fb3e9eb3cd74de287a7287e3ea67f1407dda0796469c3b9a920",
+      "after_sha256": "a402cc196200472eed36e36f20d3a766d9d651bfbf5c3b9934dbd37d9ced4c45"
+    },
+    {
+      "path": "blog/data/best-grazing-table-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d24d1d5067207c991fedf436f31bc7200c43ff239429d4f12345c602a786d444",
+      "after_sha256": "e9ab7ec6f515a53e034c676e4dd72235cbc1207af5dc49b437b36958335a345f"
+    },
+    {
+      "path": "blog/data/best-halal-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8e5a9d816a76c8869d2e5cec20354f7bfcdf044b64a4df9a3a669dd4640680e9",
+      "after_sha256": "fccbb98b5ce180d464bd61b2d5c550ec5e40e8e5696d9b579c4c12ec45959c33"
+    },
+    {
+      "path": "blog/data/best-kids-birthday-party-caterers-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "359d257f90844777fb4ff7e82db5336fd7aea41a4150e9a10d5c8d4c0185959f",
+      "after_sha256": "a464ca79ab94afbd52a82312801bf7f9cf4a9383e85dd7017e769b274475992c"
+    },
+    {
+      "path": "blog/data/best-luxury-private-dining-experiences-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f6ac9606c5b25254faf4c9bc5a8e667a0cb42698788e41e9021f37c320a1bbb8",
+      "after_sha256": "41786d49f55010d850df8cd2ecfa070b338314ade41d70437b24f326fbc295ad"
+    },
+    {
+      "path": "blog/data/best-private-chefs-for-villas-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d35c00d9c350b3d5b58eef8c60b611af126c8720ebf7afb89105cac9cfaf9c34",
+      "after_sha256": "654e77bbfe48c7b5b5d3b9883094b6d93c6eb92b84bea0c62ec73a9b97680481"
+    },
+    {
+      "path": "blog/data/best-private-cooking-class-experiences-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4baded792f0d0676a81e54125fe9ea0106fafe411859a47c2f08e1b17ae25f9a",
+      "after_sha256": "ae5dbc13a0d05e4436cfd8691f38d3ab76ebbdd92b3663775560209b81d69eed"
+    },
+    {
+      "path": "blog/data/best-ramadan-iftar-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "32bd24b1b85e6b133845037553f1f0a8b4fc15b32c8a05adba84a1227640f294",
+      "after_sha256": "4c56404ed7a3482e46dbfc9efc92339268258689814c850641b3ce487f38d706"
+    },
+    {
+      "path": "blog/data/best-vegan-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "377dd33f173278ad79d4fab9fac39ed45cd274de8acbacb699e76a5bda058553",
+      "after_sha256": "b22cf8ed400e81e906b28d670cab7d768140850c537f6b84b527ed83c4dfbdb7"
+    },
+    {
+      "path": "blog/data/best-wedding-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "07eaae6accb6143cb50540a87882c114a3d58227d502ec4561a3c55454d86564",
+      "after_sha256": "afaee67056bee13f11f2104c1e896f1cbb13a25d3536d6e487692c470baae70e"
+    },
+    {
+      "path": "blog/data/best-yacht-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "faa511bc4131ec3c6190db9b8583d7c5aec00a407301fdd4ac7e61cfae8f83e3",
+      "after_sha256": "19e79f9dbffef0d90d2cb6dfb96e962f30517e04c467c0451a5b42187a784d06"
+    },
+    {
+      "path": "docs/seo/README.md",
+      "category": "SEO records and projections",
+      "status": "modified",
+      "before_sha256": "bf1ddafbee4f339c1793a3bc02d2ca059d22f8f016a04611a2408f1a4c95dd75",
+      "after_sha256": "1107140db11e537966e86baa0e6380665379dd486e7a2b0e1e1efad25b1b334d"
+    },
+    {
+      "path": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+      "category": "SEO records and projections",
+      "status": "modified",
+      "before_sha256": "49d03303877e2e653c6999bbf895cc08c518131152dfa64799b6552616b40fb9",
+      "after_sha256": "9aec6ffa1c8b908023177d66d2b643638dc9a82ceb95da78bfb29723421eb9d1"
+    },
+    {
+      "path": "docs/seo/silo-map.json",
+      "category": "SEO records and projections",
+      "status": "modified",
+      "before_sha256": "c179365792980261bc4f448f5762e8b54ef3c63ddbe48c043c12ba56c0856410",
+      "after_sha256": "a345b1f1efdca669b23745839ab1d6780c3675abd70fbf71ff8b47c9e9afaae3"
+    },
+    {
+      "path": "docs/seo/url-inventory.json",
+      "category": "SEO records and projections",
+      "status": "modified",
+      "before_sha256": "3afe260d2b227089725daacce0bd014c12ea846d903cc12f925a0f7487c431a3",
+      "after_sha256": "634f76332c97b0e392afe77528987aaaee2ce3a7105ac7407822b670092a8ed8"
+    },
+    {
+      "path": "index.html",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "69e65f9a02df611e3990e5e386a2833f5fbb62ce70131c036795437e4579e0d1",
+      "after_sha256": "42d86148846123100b4b6b0e5c540b9f93206a6a0adea049ec6b39f4994a6f31"
+    },
+    {
+      "path": "package.json",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "e26e1c9f598b45eaadd8cff7172433cec95f7d8db28a203b57be22b789ab6def",
+      "after_sha256": "51030f08552974f50e2996ca7ae6264543e4a2d567b97f69d784a4a2b68d47ea"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "d574c6a2e30f52ec03382bf49ffac731c88596a25ff4500e00a9ddab823adfa4",
+      "after_sha256": "adebc556706d0612cec8c8133f4907f7f878c6701391136c69339bd8b09f8c18"
+    },
+    {
+      "path": "scripts/copy-inventory.mjs",
+      "category": "implementation and validation",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1b8e72f6f733d8697875aa6c137a70af3ad9a68c3a26dc6f7c061ab7c59b7237"
+    },
+    {
+      "path": "scripts/generate-page-records.py",
+      "category": "implementation and validation",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7a83f97446a4b6544c29b7f2605a04cf0591ab31efabd6ed9eaa74f211b702df"
+    },
+    {
+      "path": "scripts/generate-sitemap.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "ca4c995ca280ccdb0cabe900e84c12831f2dd6136675448604a01e08084ea0d7",
+      "after_sha256": "da64f542963c169aaa5eb2327ac07ff3ae427d0a6374ac1619500026e187c8bf"
+    },
+    {
+      "path": "scripts/prerender.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "df532047cfbce39bd63d07a84b3419b9ff37b5a1c6c59cbf24c52fe3f7072d82",
+      "after_sha256": "4ddbbd9eee6d1314354828d5558099c392a754ac46d58e87b4bcfc784a687b43"
+    },
+    {
+      "path": "scripts/ryze-convert.mjs",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "9ee5208085893a85ca2848b959a98b982d288c1f8b20aa9fd3c8ad7135193a68",
+      "after_sha256": "2c4a1e3afa102ce330fc117e29f251504ec174d0e675a5fd6cb139cf8d3edd01"
+    },
+    {
+      "path": "scripts/test-birthday-extras.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "c1d0de0cc8973706de1de10ec6cf6011fedd6017dd89ec688433c1c62b571457",
+      "after_sha256": "6768cce91d7b14102a59239ea72ead08c767bdf75e062fc296f754b8318057c1"
+    },
+    {
+      "path": "scripts/test-catering-inquiry.ts",
+      "category": "implementation and validation",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d20371b8511e183a8b2e80b63ca05dfaf9d6a538cf5648f50097bbdf8ef4c40f"
+    },
+    {
+      "path": "scripts/test-seo-g-h.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "29e469c9787028d7c86ab83dc27ae3a08d520b730fcbedbb3c79f8b1dbe4503d",
+      "after_sha256": "c1717c55fdd752510d9156e318273fc5fc1b3df2a9b830576f452ca36b60b08e"
+    },
+    {
+      "path": "scripts/test-yacht-catering-quote.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "d4e653f3c8d14da2e5f78a197001baadde42e4d63aa4529b30eb34bb5e0598e2",
+      "after_sha256": "6c4967d95cb7e595bfe5c686481a2ddb7eb26084066185d51c729be384062037"
+    },
+    {
+      "path": "scripts/verify-editorial-build.py",
+      "category": "implementation and validation",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "b2bed19e67252eff03bd8a91e9cfb31a4f5bb979913a6799019282df710eb8cb"
+    },
+    {
+      "path": "scripts/verify-meta.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "f2b1e6b3ae581107e8134bc6049c5774782aa5a218888bf0bf92d7fadc630487",
+      "after_sha256": "6d6fef6d7c6bad72ddd352105b6ad48ff02b836bd9d4d1d0b2824f2ea71758df"
+    },
+    {
+      "path": "scripts/verify-parked.py",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "01a4bf8cd24653b1e50f2938256c47cf4b11fdebb04406bb5285d317aa46b201",
+      "after_sha256": "135a8c415abd6257b33e39e15c198d91380f95388e377e186c907aea89f6c9c6"
+    },
+    {
+      "path": "src/components/FloatingChefChat.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "ac294344c0e3678447ebfd0e0c4de799845cc81f4fa4abf06f073fc96e187861",
+      "after_sha256": "973d78c8a4386a314bdabe954fa806ee0b02738d34031ca509f3d8408af492a7"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "46575f8ab190f735e31982d1192860212b4017372d4a15dc3d331fbad6a2a4ea",
+      "after_sha256": "ecd81263c5a62d5763338858467a63e635992e2ac64110b7310bb227ae4c165a"
+    },
+    {
+      "path": "src/components/HandoffPage.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "c1ea0a0ece405743f766a5485637946f06b90d6d9d7d89051e5d5f4b46997ada",
+      "after_sha256": "6cd935438ba45269fbae7ef6f1c6386e8a6aabfcd32abb2b275c05d4547360bc"
+    },
+    {
+      "path": "src/components/SourcesBlock.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "e6d8778149a227ee492f125cfc5ef1c38cb26393a75ba074e3599981d130d943",
+      "after_sha256": "687f751ac83bd914c02fdb5cd6029530fc68db1238c0b779c35da1dfe1cea09c"
+    },
+    {
+      "path": "src/components/inquiry/QuoteRequestForm.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "4b11038c6cc2b97051786cace0d91a67b4f58aaa7338a10d99c039c0b419f462",
+      "after_sha256": "90964878e65ca6fbdccb9187fd8bc11fa4cd9e891edece3af419795f9163aaa7"
+    },
+    {
+      "path": "src/content/birthdayPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "93bd8cf5a829d68639830f1e8b84f9de9e2e4a012396173c7fe427509cc8f267",
+      "after_sha256": "1991c2ddcfb399eca08cddd3ed2c209abf04078f55948d7f8aa194f7d5efe550"
+    },
+    {
+      "path": "src/content/blogTaxonomy.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4a4fbc00deb5752ed1e785db2e500471b17d4c72a3334cf2c54d2303d7d0609f",
+      "after_sha256": "68e2e012237e8f5221df8a1f8fad50009eeee777ca4bf77a1093412d17b361a0"
+    },
+    {
+      "path": "src/content/breadcrumbTrails.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3499d50ab1b79ee47cce3de7345bb0afbf96f5edee7dc957d1e2fa77720d34c5",
+      "after_sha256": "95fb24068b02ecf833f01864aba05bbf036253db1b50ddf2d4295d98ead43842"
+    },
+    {
+      "path": "src/content/canteenManagementPage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fa68cf8b3c645d78930141fe5f4860734edc0baae864e7c94d9e5b9efa21d977",
+      "after_sha256": "bf459e47a1b595f50cc3bb05a1fcb00c984375f61820c12824ef3e3a66fa54b7"
+    },
+    {
+      "path": "src/content/cateringPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "19dff0d91f3c0b82f6b5071f049a08d430047b2937af891c77201aa0081bbee0",
+      "after_sha256": "53f1271fba78d3a29e34c14447f498424eb3ce114ca27ec120296a863f62106f"
+    },
+    {
+      "path": "src/content/cateringPricing.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8256fba074b71095300736ec58a45077a5afb8bcd2410682fc83f893bc8fbd75",
+      "after_sha256": "97abe8e1f58d7781cb079c45f93a6b49cfc33d3a46be99c2d184f2aee8331826"
+    },
+    {
+      "path": "src/content/corporateEventPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "324a11e0f2a9e5261388ab6356d54a61fe3f31259b01f636f5fb47165841f07e",
+      "after_sha256": "5ed82374cdb68ef6925fc259e5dd427c41bf1af433648817b905047c04e0dd3a"
+    },
+    {
+      "path": "src/content/corporateInventory.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fcdc8d6de3031dbb0242334d07aad53b150304d2751f27e7f884ffddb3070b96",
+      "after_sha256": "efff7a90fa280747cba6aeb3d116116d540e223416eab10def740c414e9ab461"
+    },
+    {
+      "path": "src/content/corporatePackageCatalog.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "a86c8d35db918f81b892f8cc313247f267a3e6f09426ef9cb8f3736db4c327d1",
+      "after_sha256": "22aa2d4ff667570129c0199049370512001f13545e2cab35a0433fed0afbd8c5"
+    },
+    {
+      "path": "src/content/corporatePage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c69bf2b2b3ea53ab7e2e051d47332aecc5e188a23594328dfb0359ffca466e33",
+      "after_sha256": "a0e31a762dabe25023c1965eb6ac00d6d63f4111706e0e43bedfa944124ab24d"
+    },
+    {
+      "path": "src/content/engagementPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "868cb2a893dcb920998e4e4743fa208c922ba8445c2ea75f0990c07eeaf6acee",
+      "after_sha256": "6c6a31bc7c31d3f95436dce3eeff92c370769e0dc947cda68ad9547fb438946a"
+    },
+    {
+      "path": "src/content/eventsPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b43779a688cc32fe75af24e5a3893d30772ef791f253a2641995e0a558d0e4fb",
+      "after_sha256": "ee14d793c622f338bec955b192093abac6aafd6e9fbe659cf7cc0b81f186113f"
+    },
+    {
+      "path": "src/content/hospitalCateringPage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3af88f588b3fcb2119d4e6bc74a49caa212020c00c2c5552ae219dd91ed81db9",
+      "after_sha256": "2026119415405188eff1a078ad80e0b47153ecc39839e2e9b7454837810ff6e0"
+    },
+    {
+      "path": "src/content/institutionalCateringPage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4f3850e8d5e2acb087568a1019527b9d2498215c747be261a36017b34cb75639",
+      "after_sha256": "5c9d5bf9735edc50554fe827064f4f269848711c6a4469eee7548a008a85b8b0"
+    },
+    {
+      "path": "src/content/keywordLocks.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0a7880a96995c564c41e790e1c11369a1f68291fccb96996578ea786b7baa524",
+      "after_sha256": "3bd79e7e6b96f236d011c36728e20ffffeddc2b49c1808c4c9c27ed78caa5720"
+    },
+    {
+      "path": "src/content/luxuryDiningPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "505f2548c3cca8f30cfc75a69c20f631f2dedfc559cde3b782d9d56678cb7d54",
+      "after_sha256": "92eff903cd3ebcc1ac03b025ab5ed6b93f725ac389a2116add86bebf3f505e9f"
+    },
+    {
+      "path": "src/content/navClusters.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9ac27a2dbaec3558d81f75c55b11fb3ff1b4d345150c19c964b267a8b106408b",
+      "after_sha256": "cab75039199eb19bf1b2852cd92aefda99538f62fa6941c62be94d91b21fcd49"
+    },
+    {
+      "path": "src/content/nurseryCateringPage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9e6b69ce82ff9957dcccdce28c719044fbb3fd628c1840e6ac9db475c2563755",
+      "after_sha256": "81c7d8c7f8caa2ae71271f9de7101a698b94d5a78ad2e7cdab09a5810cbcfea2"
+    },
+    {
+      "path": "src/content/officeCateringPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "74c540ad7fab86d1e6370ed9a448f809077bdaf84cbaac2ffdaf4d34ef06ae59",
+      "after_sha256": "9909d770ab584f419e6dcf851956672e251246a73d8fcffcbca419857927198a"
+    },
+    {
+      "path": "src/content/privateChefCluster.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f2f26d68ae4bc92f6d6a895828d1371c8f5b2e9f5546e911d4ebec2604b9c2c2",
+      "after_sha256": "3ae4ae302e67d1f8fc8a52f4f9184431a7e75d13be858517af30db8b7817cb1a"
+    },
+    {
+      "path": "src/content/privateChefPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e0ccfda1367360b6949faf0b123e91d241fb5702c506538976cf3382d6a66010",
+      "after_sha256": "01ceeaf9719d7dd4015a7d097e3e6f8f470adfd7acc82f15994d9d359f5fcc98"
+    },
+    {
+      "path": "src/content/privateChefPlanTerms.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d51533f75998af38540e8773c20be66c69b5750838f900b1d125cde456a23870",
+      "after_sha256": "e6ca9d1ea610c00511a6f7592fdb928e22e8edfca2963c16cd35c46b35b7508c"
+    },
+    {
+      "path": "src/content/privatePartyPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "83b4616c540be986dd121ae2342300996e27f80483a3ccf9255312e1eadd25f9",
+      "after_sha256": "57767269a199cbd5ac2ab408ecbbef404fd0da5f6306beb1a7a60e763eeffec3"
+    },
+    {
+      "path": "src/content/ryze-pages/best-arabic-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "25dbfa71e6d0c2f09b5087fab567f53f45a9c4019d099cb9c34ba1054ab1133e",
+      "after_sha256": "6eb176ae3508805b830a060f2054d81844511290b1880f1e4ab5022e0d92ef1e"
+    },
+    {
+      "path": "src/content/ryze-pages/best-bbq-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "37c6687513f4662936514f1c201be6dc7cef084e43eed52ea10cc3775033219f",
+      "after_sha256": "9113d62dc0f5c5bbc28a30283537e15ddf14f16bf581d0131f9058b3bc14af4b"
+    },
+    {
+      "path": "src/content/ryze-pages/best-brunch-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "be5e9e5fb7eb4ad7659c52453c10d3970a56700181980a13e4f344b5898c48e4",
+      "after_sha256": "80ead825e33ce7ffbaf31eaed9be82d262c453c5ae57d7b9279d4f42573d2c9a"
+    },
+    {
+      "path": "src/content/ryze-pages/best-corporate-event-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4a7fc80de577e61305c339f77531f0006a3cee85275de81e477a5c90cd1f2715",
+      "after_sha256": "869cd85cc2cffb9e01d16f6fab76463af97f950131c66877a6abfc7b5b7c6bdf"
+    },
+    {
+      "path": "src/content/ryze-pages/best-corporate-lunch-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "18620a9b9a143ec5e502c25b67c07eac41eea1945183ca5ff3c9e6332855bae6",
+      "after_sha256": "0f0b31d9dd6d5462eb7e407998c667d5a061230781cc37f3b479699cd903b3f4"
+    },
+    {
+      "path": "src/content/ryze-pages/best-grazing-table-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "445ce6a704892698e6202218814b73785ace2147a5671fe6d9370080e567aa0e",
+      "after_sha256": "6e52bbdabee5bc084e5d8c599764bc8b7486e0207e3205997459d193bca7c190"
+    },
+    {
+      "path": "src/content/ryze-pages/best-halal-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "96f69174d3eefe007efd250adc12bf67d3ccd4ded50c3627d0274502a68eaaab",
+      "after_sha256": "e99d709c296072eae440bf0605b2c07813ce7f8ac7849f6fb0e2d7c607938083"
+    },
+    {
+      "path": "src/content/ryze-pages/best-kids-birthday-party-caterers-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6a994b52096c63ce38b9d3343266a91602f7a65540f5af52148502841de79cd9",
+      "after_sha256": "36c93fced33fe4d030b85723b8b9fed36ff2a51d7a9844a34f88eac6cee4f7d9"
+    },
+    {
+      "path": "src/content/ryze-pages/best-luxury-private-dining-experiences-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "94ef72d9491be556f0cc2e209ac94996e888bead2ee47b5a7a5d6f6e04538abf",
+      "after_sha256": "8633e1eb2550e55064d0d5129a09f8a1e927857e69c7b3487408ffd6cb3e51dd"
+    },
+    {
+      "path": "src/content/ryze-pages/best-private-chefs-for-villas-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "122a30b0609f2a15a6ff2f6b7f592c38a5c8fba984c92ae1a4efd2e14b4bc5b9",
+      "after_sha256": "b83090b32ffc5c7c126ccdc2190d147b128b1814bc78bd55cb5b35ae85740b62"
+    },
+    {
+      "path": "src/content/ryze-pages/best-private-cooking-class-experiences-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9835e456a38d16374d8e5d28dc3a754b311369f54cbc67086d07fbe46489ec07",
+      "after_sha256": "e4a2c1fff7daf953cc6be07f5227a457109d93298580d4890a732d1a30156d09"
+    },
+    {
+      "path": "src/content/ryze-pages/best-ramadan-iftar-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6f2593a295185cfc7182243b6125eb72f23f7d2f25cb42f212c17aa0b6d54c40",
+      "after_sha256": "cd58f647d033e21803b30778eeefbf5b98fb2048fa21fb9dafdce5b11671e1e9"
+    },
+    {
+      "path": "src/content/ryze-pages/best-vegan-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "35efcb3910c2cf6284dcbe60b43ebc0d94f850a07a3f342bc178f8312dc85a2c",
+      "after_sha256": "b2311acd953096d325074c5791838fffbe70330d56884b41009d7be550d828f5"
+    },
+    {
+      "path": "src/content/ryze-pages/best-wedding-catering-companies-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c368b892fa892b7ce7f8e2c22e922fb7b281930efa4080e457747365babc9fe6",
+      "after_sha256": "804d95867da832e4f34c2c4829960458006ff4006f98d1432b679a58f02a628c"
+    },
+    {
+      "path": "src/content/ryze-pages/best-yacht-catering-services-in-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "5a155f47c9ba921ce81b46223bac0135c120a147e861d73b47576e9dee0bea87",
+      "after_sha256": "8296e73cd4b8a95d7aea20052507d0a91718b1d553bf41381d02aeda8c8cc1e0"
+    },
+    {
+      "path": "src/content/ryzeBlogPaths.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "7830f1d9fdbf8064cc0223cae649514287323d7aa653bfbe5721674c31546a71",
+      "after_sha256": "6a2237037a1d4daaac060fc3d246bbe651f3ba75ab1df592cd0e45bc1a758deb"
+    },
+    {
+      "path": "src/content/ryzeBlogPosts.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c6ee3771def4c639c1b4bfc18994f2a5593929f0bde2e22555b2d3f42b1a306b",
+      "after_sha256": "c4c258c105485a99d7fd9f9229e13553f1c2d4af8545756636361077a498cab7"
+    },
+    {
+      "path": "src/content/schoolCateringPage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f398a87de5223fa26cef5c212c861ce053b88f2549010995471470db4b7a1183",
+      "after_sha256": "806806733ec1d831f65c7b4aca979e94e5cd89a19e1621e893ce7b7bcf93156b"
+    },
+    {
+      "path": "src/content/seo-pages/best-catering-companies-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d20f487e62b8d160c8290e001935f8ce7e40390b3e4edc72e884c71687a70f6a",
+      "after_sha256": "6584d64af17ae1b19ee605cdb44449033795cf6dafdf1c49202db8f0cb0a4aa5"
+    },
+    {
+      "path": "src/content/seo-pages/blog-brunch-at-home-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6b1610ce65c482f85ebc2b80dc2bab6cbe61a7a76c0e9555eaff4fbd3da72449",
+      "after_sha256": "5d6ac459c3a80dac1c6187a6dfbe4a5e5f56726d130aa8339fb90b3b0615a2ce"
+    },
+    {
+      "path": "src/content/seo-pages/blog-corporate-event-catering-ideas-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "593ea299277caf0fcc8f1f416657640b74afdae15d4a55224c1ba3da12a9139d",
+      "after_sha256": "0132864d234b41102e6adbc3c4d6cbe1555c7ea9983ade12eed98fba6b5f366e"
+    },
+    {
+      "path": "src/content/seo-pages/blog-desert-dinner-party-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "5a0441ffa3abea2a98f480cee93fa73285c2097fa5483cf2d9404f7b09a87a11",
+      "after_sha256": "b3fa768e894022f9350537769a58f0ad49acb2d71c0039c358bd083465930c6e"
+    },
+    {
+      "path": "src/content/seo-pages/blog-dinner-party-menu-ideas-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b9ec391fc586dae79624a28a8a5f03fbe85b8578b00333e20274d9ffb75d37b3",
+      "after_sha256": "a6abb173c3985adc9317c872d7038b24f371eec27af3892737c77f4eda947675"
+    },
+    {
+      "path": "src/content/seo-pages/blog-dubai-school-food-rules-2026.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "19f20c57951142a041982ecb76040de2ab0c12f57587ab46c3b7fb607855755c",
+      "after_sha256": "7a4d456bfcc1e7ba2315e83188ffbf1a2790e46af99cb97fa511997fbff2d28f"
+    },
+    {
+      "path": "src/content/seo-pages/blog-grazing-table-vs-buffet-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b2446c12506f9e64fd3aa3f8e6f0f6cdb005799e15a04f1d21100d789857b612",
+      "after_sha256": "9fb2ea2f1fe8daead755305e2199578ea429059d395a4de504fb93526b85f479"
+    },
+    {
+      "path": "src/content/seo-pages/blog-how-far-ahead-book-caterer-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "749abed1ce9b4b34a6a2c7701ad7f9e71ee15ef89cc98ffedad81d01101be30c",
+      "after_sha256": "675d8033e08d94a9bd75d0a63703bd4c046071002280ad1457fd88c49d076a95"
+    },
+    {
+      "path": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3308ce15785012565761d533dcbca571643aa6b2df8fa036b8a0390eaeeaccd3",
+      "after_sha256": "2145e3f570f8185391787ed0c80e6400573cd692c3bbc054052984d5937498aa"
+    },
+    {
+      "path": "src/content/seo-pages/blog-iftar-at-home-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "945429291691759e05782b54d915a204aace186f363a07da40cc8f8612d0743e",
+      "after_sha256": "663398cb0f8f91ef87e30f875d1d748072b9d134d983d9a3837a2e21dac6fb1b"
+    },
+    {
+      "path": "src/content/seo-pages/blog-nursery-meals-vs-packed-lunch-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6e93ae5d1564cfcd47379683b7fb04cbab7472827a7de733a5c0ea8eaaa77126",
+      "after_sha256": "02ba5db6341fd6f0cd1509e3b8adea56055299196299ac9d850345452861e7b0"
+    },
+    {
+      "path": "src/content/seo-pages/blog-nut-free-halal-nursery-meals-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4bffe60ffe9455557402f0442a599f18fae75bd07972d2bd64ffa87de05b4a34",
+      "after_sha256": "b07605d41279770372228fafc4534ec2cba423b35909f53e3ee917a65554d4f6"
+    },
+    {
+      "path": "src/content/seo-pages/blog-nye-party-catering-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9bbced5c8c7897cc0241ac677133863731c6cab909896191e7ffaae515179cb7",
+      "after_sha256": "5f123015709ff54086d085fa86c4b9a8f863d9caf7977017498d5cde00be8ba2"
+    },
+    {
+      "path": "src/content/seo-pages/blog-private-chef-date-night-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1917f574e9eba64f1e948cc1ff0e5dec32e455071394326bfaac909ec143b7bd",
+      "after_sha256": "9bbc57432fbfa14534c0b37db8056a1a4a0e5c11ce8ad0ed38de513ce85b58c0"
+    },
+    {
+      "path": "src/content/seo-pages/blog-private-chef-vs-restaurant-dubai.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "60e26535c2a13bada42166c7b267e2041caadbde1e8cd42913d011a6480843b5",
+      "after_sha256": "9bbf9a04969d639afde34c22ce9dae4305160924843849af3137017b7987b699"
+    },
+    {
+      "path": "src/content/seo-pages/blog-vegan-catering-dubai-guide.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "072eed3079fe4a767178cebeba713718c5107d2dff281a3258f0887047548b0e",
+      "after_sha256": "bd417b20dfdf14cb34fcbef6855d0e0f7bf3fc03c9be39424255e139efb62327"
+    },
+    {
+      "path": "src/content/seo-pages/yacht-catering-guide-dubai.json",
+      "category": "editorial content",
+      "status": "deleted",
+      "before_sha256": "d0a5625423a12d514f065d1ebaf09e8b665f22170a11036861ece1a4e794f275",
+      "after_sha256": null
+    },
+    {
+      "path": "src/content/seo/index.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b04f9ebb68a72d4985b809701338e9216bbe86cb96278b0fc5c22d8b2dc568c8",
+      "after_sha256": "986ad185516259984fef986ccde0f30aaee231c76b4d41fd8af34bef46d085a8"
+    },
+    {
+      "path": "src/content/seo/routes.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "df709772f08b63403ea5efa7221feb2d083880cf55bdbe26cdd4cd91b7666013",
+      "after_sha256": "a036ffe3653003b039250b07e0d2eaf2f08c675bfc011d95504d4a65be207e43"
+    },
+    {
+      "path": "src/content/seoAuditOverrides.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c73ba1e8edf9131d248d4f69dd0dd652fdc22a18c27d91c7dc5bda863fce17f0",
+      "after_sha256": "bdaacbfcc4477ed38b2e8b1b20f2e908979cf8875e11b230a02740e6bf14bd9b"
+    },
+    {
+      "path": "src/content/siloMap.json",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "bb10f124bcbfc0463fc7d295685d6561c6242516a43649110ec7d1634eeec56d",
+      "after_sha256": "440ff0a02d5ecd5e6a01f20062fab9eae0d47bc483da62e3db713d1d8f0ba5d0"
+    },
+    {
+      "path": "src/content/weddingCateringPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e2c86c157c8e130d554f60c197f7787954d930a8ececeaf56e9558ccfd3ec139",
+      "after_sha256": "06f8ca266299de145932c2eacd68fa49333b6fbb5798f7cb26419605e3e9534f"
+    },
+    {
+      "path": "src/content/yachtCateringQuote.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "7a585e07bcd2f64545fddf368db940ce5c9a46d816ed49d71f03799020fab063",
+      "after_sha256": "5dc3175acc8d87b200fcbb1959073aebfed86c71a8c5bb0de2211d725446b1f2"
+    },
+    {
+      "path": "src/content/yachtPage.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "20e0f9d07318743646106d4f6198bba9bc8354886effe035b4a08b267d1eb595",
+      "after_sha256": "77daa1700a0140f833fd63b4f2a0e24d3694dd5b7eda368f6f275ddb33183130"
+    },
+    {
+      "path": "src/data/locations.ts",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d9dc405b597863ee79ba007730d269cba6721f54243de80173ca229ae2bdacd0",
+      "after_sha256": "53dc8f2f90db4b742b3902b63a8534cfe68898d54f5bfc28694c5ae56949a14e"
+    },
+    {
+      "path": "src/lib/cateringInquiry.ts",
+      "category": "implementation and validation",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d75cd90386af68817cb8251bb1adb1a48ace75943279ed73a5c9489ec0d3706c"
+    },
+    {
+      "path": "src/lib/inquiry.ts",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "16b0953e0dd200dc0d732910f992c2932a024088422c6ec33bdffec4a538f6e8",
+      "after_sha256": "9f86eee350b7f72266b59261ef53d51609637ed85af53de46ac8c36b1b213475"
+    },
+    {
+      "path": "src/pages/About.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6ef1ca03f0cfdaa029ced0ea3f1111f30c9ac89177cb02e167ddc6beb03913a0",
+      "after_sha256": "6fab546a73dcdce79ce838555672816a93aaba086913281af2113966803868c3"
+    },
+    {
+      "path": "src/pages/AfternoonTeaCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "755f1895cd1afde569ac029ecee404b89116b7764487c805e4eb6a59f7bdb869",
+      "after_sha256": "229191beb09ed5edf5268d2abc50ec4b8e85d9d85a865303ad5170b471b0c093"
+    },
+    {
+      "path": "src/pages/AllergySafeCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "74528aac890902fa2da7abb5a8f8a8bf910a965f4699f8c52281cb85a2d2efc3",
+      "after_sha256": "75704f0f2d7f6f211a1147409a4c9cff472c5540a286977bf2d92ca1be68393a"
+    },
+    {
+      "path": "src/pages/AnniversaryCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "69927fdb8b89414264e1188fb4e828e0ed56237c1742b2e8af6dbe5fd38ba587",
+      "after_sha256": "be4e39559edd5bf4fecb68a9a9518e9fe7f259c5b168053a0bb043d45edaf606"
+    },
+    {
+      "path": "src/pages/ApartmentPrivateDining.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c9fe177f964060f6fa9f530e57e52e78d87c40ee716b6233cb7dd4250458af8c",
+      "after_sha256": "bd6863f7bc153d69ced9d8dc72d0491e286d1ea5d55df9b57ce11ca6c0f6bee2"
+    },
+    {
+      "path": "src/pages/ArabicCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "57397058737e6bab427022ebaaea32db49a883737234bffc716e920cf7a5360b",
+      "after_sha256": "9acc476fc12358a9a2b5e57dc4e7a0cb5e3beb0f9da8ccb51c9988e60e7b0167"
+    },
+    {
+      "path": "src/pages/AsianCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "167f7e95ed85909df8b2812c9932482935ec4f76eb096ecd398fd48654169ba5",
+      "after_sha256": "50b37d497bf128e9236c13afa635f0c33f3a9c8a5c2d3081b701f33a299fccaf"
+    },
+    {
+      "path": "src/pages/BBQCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "a068a041900f459324d9f0f5c76ecb2ded243381bd5ee6c343e065dbc23555df",
+      "after_sha256": "ab2e7966746dce75dfc9f6dfec66f07d1384bbb2587828e3cee446bb30013922"
+    },
+    {
+      "path": "src/pages/BabyShowerCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "90733dba99bf27f4767284d6c408ff06904f1a4545610c6684ed24409856184f",
+      "after_sha256": "67082efd271c257c37ab2d7849ac89d83cbf0407da1dd36915e9e3650322daef"
+    },
+    {
+      "path": "src/pages/BachelorettePartyCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0ec92b3a4d9ed7da7798020650334df185a8e99f9c17889bc6b037725b5305a6",
+      "after_sha256": "615b62aa8530330666d0a764f0994b1705dc538d7232528584bbd68eb5bfa37a"
+    },
+    {
+      "path": "src/pages/BarServices.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "294794a48f6b0d0239227022322a671cee9040310197c675e47b0230fddd372e",
+      "after_sha256": "1f39b336c3e3c0ba9eaf31f32c697b2b8e8ee88594d0fd9863e7ea004d22aab1"
+    },
+    {
+      "path": "src/pages/BecomeAMyChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6e6e5529cdb782b2dd7514a9f9aed1e466a92b9fffd462526a6fb6ba0e22d585",
+      "after_sha256": "bd0516025dce524fc3dfd97efaf2bc7be2ffdd3b52f2e3359f2bae65541e171f"
+    },
+    {
+      "path": "src/pages/Blog.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d4dca09480369cc0e74258e3b20a437b05de471d439d566de35270f14e476aa3",
+      "after_sha256": "62948cca9f5371d889023b361658911f03ecc62f22656f1089b31d4af5fe61bc"
+    },
+    {
+      "path": "src/pages/BrandActivationCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3060e45f6a8ed32353613bb7f8ea47ad212b78936649d18ba11c39459e1da376",
+      "after_sha256": "83fcc95c2d9bf1423c88929572aa5c91b4a79232cf97cf252ae9b1e6f903d5af"
+    },
+    {
+      "path": "src/pages/BreakfastCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "7034b1e213fab29bc3db577a7c1c913543bdf19746df553496162848a74fce69",
+      "after_sha256": "bf01b8db79c16d58872b3513b3892c96d9fae2fc2f5d63f5c4933c6cbadd7884"
+    },
+    {
+      "path": "src/pages/BrunchCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "64e5a6519a4694d57bc176f3105110964697d110fa0981eb0b3eb317e49dc5b2",
+      "after_sha256": "a2cfa03004b07261b8ce1225d480188257377d9d00147b905b7fa81a25301943"
+    },
+    {
+      "path": "src/pages/BuffetCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fd1fabf8260cf26a9fc898180cf30a7656aaa0e75ef3ef6c92c4c1fbc15382ff",
+      "after_sha256": "cfb417f0f63d81d67439267fb412aebc0e99fc803e0c1feacad750b8d169b3d8"
+    },
+    {
+      "path": "src/pages/BusinessLunchCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "6172af1d77b8e2660e77b0897ec3f45ffdc441183208b9b8b20566d3814d7727",
+      "after_sha256": "50437d0a08e051cfe9a257f5ccd2471ac01247304759af8ce1056812aab7ed02"
+    },
+    {
+      "path": "src/pages/CanapeCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "bd5ca862972e4505868835915e0cc8bb572eb60f72ee57d0562de7973c7499a1",
+      "after_sha256": "c797804fc982faa78f444eec3b009588edaa119fa8ec73506a836937fddf0721"
+    },
+    {
+      "path": "src/pages/CaseStudies.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "09c376af91364e858692cdc6b1d40595b2d5f584c1ec67fea44e31a6d734ce3e",
+      "after_sha256": "9280c83731e1b9caed993c554e04c2b3e41edd64fb84268873e8cf289ae62424"
+    },
+    {
+      "path": "src/pages/Catering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b4da9c7bf01b20aaf1c72707b21ff9070180eec1db89a2fa470a91a6c70de13a",
+      "after_sha256": "8063b7ae770bd7edf72ffbfe4277299d6712d7643a98a9c8b016560070d49d57"
+    },
+    {
+      "path": "src/pages/CateringCostCalculator.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "75aa979c00585cb0fa1027735a567e96e7e51cff88f947831098f88be4c02396",
+      "after_sha256": "33cd2be9f92f0d68d907c468d292b6445389141e49e946d98d7350d736a863b7"
+    },
+    {
+      "path": "src/pages/CateringPackages.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8c7fa9bdd84aa353c6652a9ba32baa6cc29e4a4ccd998723296b57108bf9671a",
+      "after_sha256": "7c409ee8f3c094ccce9130b4f0cc026cadd3c7eb516374db0bca5d61a68cf68d"
+    },
+    {
+      "path": "src/pages/ChefTrainingAcademy.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e078b3cb9e10a6d774cecf36ec8171db9b0155c67b0d95bacc5291ea93ea18fb",
+      "after_sha256": "68c1a3fa1307b81e0fcce0e0fc61b305b93384cf11ad8c05ef6a2f4b54c6ab83"
+    },
+    {
+      "path": "src/pages/ChefsTable.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ac2826656e6e4fcc67b0cba43e137aeea5040de21c4fb05862046d28117ca563",
+      "after_sha256": "837009b9f452d70432475a70f72abdef0f08c6879b6f03756b199de8c0cdc81b"
+    },
+    {
+      "path": "src/pages/ChristmasCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "896ee7efbdcbbf8d4e98c4c8488aa164929dfb6ae5e297c731b38c9d333d8422",
+      "after_sha256": "45c41beacf9f9e4c0db5ecfd6384ee1a6831175781512a7678a06ee5166483e6"
+    },
+    {
+      "path": "src/pages/CocktailPartyCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0c183ae497b72b9985c1715560dba18bc3177e38137005bfbd5a3e1aad7fbc52",
+      "after_sha256": "2bba3b90c6ba8f18f4c7d2bc30ac0231dbcb9b77ee233b632ed98c7c14a9906b"
+    },
+    {
+      "path": "src/pages/ConferenceCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "141510573352506a91889377c0e4ae9e7c44a113bcc45dca6757924dd68c37a3",
+      "after_sha256": "7cc5e1a7384202d1f7c29d44b75583fa6db2175e6c09b2cdf5be99e825f9d651"
+    },
+    {
+      "path": "src/pages/Contact.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "26b9363b5e9e7ff2d3ee3963d2ec0f86b351299d4040bbbcececba89cbb59859",
+      "after_sha256": "5a8dab4cdc135d94080ab492cc8a5aa48b9721bad5aefa50c8d76df67fa5e4f3"
+    },
+    {
+      "path": "src/pages/Corporate.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "81dcb56f11340c9d541d9b586cb6a492497ad441bf36e26416253338b819b50f",
+      "after_sha256": "86ae35e07340e4980c33afd54fc26802eee79fc8e53771a4ad74a333daf6341a"
+    },
+    {
+      "path": "src/pages/CorporateDinnerPackage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "17e6b34587668b94d2a73520ddc532d6bd5d24c3ba1f6837ac703b5aec7fdea7",
+      "after_sha256": "0180571d9f90740871bfcfb8d6a61b2da45a470c2887ff14df1969e2d6f475c0"
+    },
+    {
+      "path": "src/pages/CorporateEventCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e1f92aa4b8e43ec8919adc42ccab396fe26ca1d2eaa4ec8deb9a2a29ca67b1f4",
+      "after_sha256": "46a8472036bbc51919ed2bd62da5eb2ef3bdeec5241f3f6995096745b76b32ab"
+    },
+    {
+      "path": "src/pages/CorporateRetainer.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "faa8a55f3623d7a79f457eac1241a6fc476e4bc568c5250c6837585e5cc2fa8f",
+      "after_sha256": "e145a0bad1e395ef9e5e4922055fc5397ad19f87b6f63e59b6b400583490a16b"
+    },
+    {
+      "path": "src/pages/Cuisines.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "dc3a6084687bab6ec91fc452dae75affeae6ba0a961db91210b7b3b1ec34bea8",
+      "after_sha256": "d8de5428f07bfa8d3e355342fb4edf2c414c8f414f29d6686681cc6a0b0746d2"
+    },
+    {
+      "path": "src/pages/DateNightPackage.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "46f9e5e8a3940445d23079fe18601289c5237c934f24e82cce186f93303b3ece",
+      "after_sha256": "845935dcb09de580d884b07fdb3c17748a358b1e574726d75ede819c0b9f3ea5"
+    },
+    {
+      "path": "src/pages/DesertDining.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fb688ad95ed26bf3f7358e5a433aa8c9770494e9ac344e0e148e89670def9c64",
+      "after_sha256": "4c96efd6b83f687e49687fae065ef8b305c568fa0be6dfdfe2e0044ae97555d8"
+    },
+    {
+      "path": "src/pages/DessertCart.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "456df0a5fd5ae3a934ae8d08a1b30bf05550f6c5bf855adf8f81d038d4b8db53",
+      "after_sha256": "5e4fbac74f621e674606a67a63b572c7e49986e2f818ce9d37361a26cbe01cc9"
+    },
+    {
+      "path": "src/pages/DessertTableCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8975568a9e34680e728ea54ad6da70bcbf5add18d0fb8bc508a139d804be9370",
+      "after_sha256": "818922aac6de5b04ff14695ab73051ca4a2ad9ba75defbacaf351d21ad630b82"
+    },
+    {
+      "path": "src/pages/DiwaliCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "cc3bf57ec9883dfbebc6fb3a24e01720b3936b7cd946b72df146fec40e0f154c",
+      "after_sha256": "bb188d298ca24c99bc96d92a8e853ff4021f289377973d76edf32aee18d6143c"
+    },
+    {
+      "path": "src/pages/DropOffCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "286c83571a3f6d06294e8afa2babb1900c3553db0393ac2fa2e9dce714ad2657",
+      "after_sha256": "32695bb52d270d8bb8d1dfcd877255c70f62206da5c503b970b0b42e535a1ae3"
+    },
+    {
+      "path": "src/pages/EidCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "dfddcc4fcc6b6b18d6ce87b670235e21e2992bd924623972efed5cfdb2fe9249",
+      "after_sha256": "51e7988c401e2060082349589da1e2ebf15ca4038e701896c55dca8a1a00aa4d"
+    },
+    {
+      "path": "src/pages/EventCateringPriceGuide2026.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c96ee345f0202e937b23433ec475f9e9efa481cae9ea631631f9d0e801f7952f",
+      "after_sha256": "fd8af1f425808048f3dbad2e017daee55a1910e213eab13b6e6fbe1cec6edc5a"
+    },
+    {
+      "path": "src/pages/Events.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "230d3ac7c16de7d66e099122f58c8ec71afe9be7a4ee270ce4e9e6b8515bf957",
+      "after_sha256": "c2268903e7a299926d0c59a89b0dbc2a15f15d255bb7e959b6b1878810bf3201"
+    },
+    {
+      "path": "src/pages/ExhibitionCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e5b50cdc311258813d497d91495838e26b026fcecadb42a854570603b461d14e",
+      "after_sha256": "de57987bf6e4b2e8fd3cb0746ec7ba4c91dd8ea0bf8ca8ea0295ca82ba7f1db1"
+    },
+    {
+      "path": "src/pages/FAQ.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "cd2bc25ba7327aebd16deb2e44b045ba1045773519097bead8a20ab5fcfac931",
+      "after_sha256": "47e454e0e5544e1b62951d5b0479ada55131c74e6dce12853a56d5b8d4143f88"
+    },
+    {
+      "path": "src/pages/FestiveCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e1c2d9b9f44c92f55b066ba587bc245e03cc587a82e07efe26b3e66d897f9a47",
+      "after_sha256": "0e11d5f7f7c832e36c8def76a5711c2892b0461ca4b8e7f5e5286fb0398f732d"
+    },
+    {
+      "path": "src/pages/FoundingCustomerOffer.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "a046bb042ad68581a9b63a22a69e73d03ae8da2437f71aa816eb16eb1f1f612d",
+      "after_sha256": "cf69ca47751c6f48663c8d552bfa1e3b8439b1c85c905ac9801eb9d1e7925f6f"
+    },
+    {
+      "path": "src/pages/FullTimePrivateChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ffd5dbe8ff3a8496a36994db990cdf7abcb1c98ecada9ca74900ad1884784f89",
+      "after_sha256": "771552cc6bfadf05257fd7048543877002ae127e4416238c8231071c380ef104"
+    },
+    {
+      "path": "src/pages/GalaDinnerCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c63505b9c22abaa5c5673779a30bc1565feb6e30bff02549154310ee04e2c293",
+      "after_sha256": "3a82123733cba0e1e8d7c36e10c566f6e3196291a445755cff85f8b5956050b4"
+    },
+    {
+      "path": "src/pages/Gallery.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f00e57b4712a70bc346d298db41b9acde41ee7f639719b3e9000a29b45a42808",
+      "after_sha256": "be48ceecf7bb406a15b3fcd69418581b977a26ff2ef7dfdedc5a1eb24eb5a247"
+    },
+    {
+      "path": "src/pages/GiftCards.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f5aee4def1c4a8ea8a3c1ab901f7df332ed223de272c2f19ce1c0f988df2f39c",
+      "after_sha256": "3b014dc7e0399b7bee8f9c73f2a72b12629147daf060e34871de5d51dab37b43"
+    },
+    {
+      "path": "src/pages/GrazingTable.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "05dd3517b79183d2b47ea5de4217a256b748709f680dd153e819b1da92e90d33",
+      "after_sha256": "ceddde6259fab0432d7db3247032d4d5589ed53ccdf6239e6f2a00f027823d56"
+    },
+    {
+      "path": "src/pages/Guides.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8687899b1284a9a799709826ba065a17382c9fb26cf8acb27c2b3c273985938b",
+      "after_sha256": "ac1c77c5b9ce95f4cf55bc3eac9f16ce58115529d8e6e59c0cb56170258760a3"
+    },
+    {
+      "path": "src/pages/HalalCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "08ad1c1e77019fbca738fe6fdc1adc1d6de06d14152e0c2b4b0f0bcff5b80ee8",
+      "after_sha256": "9f0f0f4d0d4f2cb2ec1a3b3162ca49f93713ee232888c28a2b97487143d82bf6"
+    },
+    {
+      "path": "src/pages/HalalPrivateDining.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "21bf80f39efd50af740d5a29c36578bf66ffc493a1dc5d3836a6fe43b8e885a3",
+      "after_sha256": "37203ff0729ddfe9b64b477950a1878971e905e189ec4c9454b87ea99470aabe"
+    },
+    {
+      "path": "src/pages/HealthyCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "2f46d4e0858fd5cded701793f99522c82a3733f1c118668de778cb5764f31760",
+      "after_sha256": "4d6f1cb2146775aa9f58fd702d240462aba39c15bb1c6045b9ae9545454bdcbc"
+    },
+    {
+      "path": "src/pages/Home.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "233870f0a1fd17804896a21d3def409658578d82d302ae56a942924b3664addd",
+      "after_sha256": "407ed29a7a4c26cce75842e851cdfc8376e09082a193e2d7236b9af76d821ff9"
+    },
+    {
+      "path": "src/pages/HowItWorks.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d0a33dd726c0c240e82a6fab513ef904c44e43cdb06537e9519fa97ecb743668",
+      "after_sha256": "00808ea028374fd4173c4f54e76725343b870979ef80f15426a1c4658f204669"
+    },
+    {
+      "path": "src/pages/HowWeVetOurChefs.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "773a314fccd4f5b1979a8ff3aff7a7f95088b2402da9cf67c4c5beeddc27aafe",
+      "after_sha256": "f308cba071e706543c81d80573e06a8cf9a60be9e0d947d2bcf89e8a673505b8"
+    },
+    {
+      "path": "src/pages/IndianCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b44f41777a578be311720ae3b3f503970f40dfdb2cd8e2de09527f71e4c3b2bf",
+      "after_sha256": "840a477dd8944b068603c7c40ff59ce77aa789711592b626e29ae037c187fc72"
+    },
+    {
+      "path": "src/pages/InfluencerPartnerships.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ea68bedee3fbdfd5cc3302c54d4ab1b93c78d4914d7283c74d6f9fe77eb2886f",
+      "after_sha256": "084c3f5d4ff96f54b0e952c0e1e79f6f65871e68a728efe9dad943dc51efc619"
+    },
+    {
+      "path": "src/pages/Inquiry.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "77e53b23c409f9384afaa238d8c3de48a7440999f6f0ce19f519f0cd5ce03070",
+      "after_sha256": "2e9752171e2977125ea6ddd9f77fd914a97bdea332d012230f19dfc40dc6c1fa"
+    },
+    {
+      "path": "src/pages/ItalianCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d285512e5abe3196991d7b9ae242bdcf56849d5e07988d10239d5484e1f8fcdb",
+      "after_sha256": "83626315914c49db5d60bd78aac6bf4fda1944a5d20b2ead28782be468cc13ad"
+    },
+    {
+      "path": "src/pages/JainCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "5d56870e10057ce67e03e748997c5c389a1ff8a21106bc5bdd8557dbaa35bcf2",
+      "after_sha256": "44f565af4a3454ee18a466350e492475e1dc294f9644ebffc74e63235900caab"
+    },
+    {
+      "path": "src/pages/LiveCookingStations.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "730079db8b96c26647c8b3cc192de36ad7fccecf5e0be3fbfcf614bca0024751",
+      "after_sha256": "3c96d423c4559fa520447e6756ebf2b6b6e427b8982d5c4d333c38b463aa1756"
+    },
+    {
+      "path": "src/pages/Locations.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "dca37ebdb86aa30944a4d7d19c8dba272cf28b73e42f1002988927677c7de613",
+      "after_sha256": "7ee033d50e4f3a7529f16d62f462e881fd1369a7c83be13d2e6ba867d91d4f84"
+    },
+    {
+      "path": "src/pages/LoyaltyProgramme.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1fd2ab16055ca7a3a0c3a5c9f5ea922a4192b31008df03d00e1a452dd2d9d2ec",
+      "after_sha256": "8d5a472419ed85f855e1f6f91841d7f99f320d581a75471fd1df1a0755aae5bc"
+    },
+    {
+      "path": "src/pages/MediterraneanCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f16eab3f7cb7b5add801555087ba0cd7534f646a9af94091395fe3da45b7d6c0",
+      "after_sha256": "a0e78b7bd607f11e08f322063dd4156cdd5a16abd3e3a73d85d5063053e1779f"
+    },
+    {
+      "path": "src/pages/Menus.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1b42670f5e646130b5c39e175b221003298c4c783c0fbcad77c3b8bd91c6866a",
+      "after_sha256": "1df666ed9cf3f5f98fc9725c86323abee5da421894a1e71c0c2159515e0125b9"
+    },
+    {
+      "path": "src/pages/MocktailBarCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "98ba5f3bd2e991abaa805a46a5e3e1cec8ce752c44f64e5603fcdf593cfe687f",
+      "after_sha256": "3e59b00bc03c09f14b17f49687c9f3c3601e3ca41bf6b7035e51e5fc506ff2ec"
+    },
+    {
+      "path": "src/pages/MyChefCertified.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "f6617f82bab25772e371d33617fcbd70745aa9d0d40c11734b63014e88fd2c81",
+      "after_sha256": "66320d09048c7e2ac7a6be5ae08e4fa50f3cb866beedae7fc4be44509077b21d"
+    },
+    {
+      "path": "src/pages/MyChefMembership.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c00150a5e9b3ba03a2855ae07a217579b5cabf9bcdad2d8be1060923e067ba0e",
+      "after_sha256": "c7b4870161d3ff47cfc2ec8f1db10917ef3992736d8f3632ca8583ef75e4010d"
+    },
+    {
+      "path": "src/pages/MysteryDining.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "81fceee981a1a087ed53b37da7f026a7efb36a612dc9b353fc873d4535d0aa6c",
+      "after_sha256": "36b9d6e0e63dec37e7fffbaa8b98fa7a60e95cbfa136e96bdce5368bb55f9b10"
+    },
+    {
+      "path": "src/pages/NewYearCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "95e4d496ea1925723dc537109eb35aaf3b757b3c8bae6341c58c47f48e27533a",
+      "after_sha256": "64553b8f13003147f1f1ec66e22d362a7193b60c7eeb489ebe31fd3e43635609"
+    },
+    {
+      "path": "src/pages/OfficeCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "2a5e775b04b7aa55dd62a846c3760b5c93e46d425fe40eeea73831af6ca53262",
+      "after_sha256": "ca1cdfd4dbf4424847d8fd32b78bb1cb39341218878ce8a09eaf33a477d467db"
+    },
+    {
+      "path": "src/pages/OurChefs.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "dfa1bdda3639b05c590dbff00f4086a9b7501f65280291558b93c8b623d0ac54",
+      "after_sha256": "369d44a4fb203e11ea28df6b71a9ad9b007b3956f4520ccc234062d5173ce698"
+    },
+    {
+      "path": "src/pages/PartTimePrivateChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "feea4e00dada34079d40bcf9ddc3fd5b4c8455cc55bd56446ea5fe7764983f8f",
+      "after_sha256": "37cde643bcb2902cdde48376b4915304a7650203fdae5c80c86bfb105ccafe57"
+    },
+    {
+      "path": "src/pages/PartnerWithUs.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "cc9da57eba42fdc7d41bc177ad2ada27ab20a48517daa3d1540e6c68fcdbdcc5",
+      "after_sha256": "30af1b62ab0fa276aa3d79401527985ff744259073c8fb8a5baeb5ccd93fa226"
+    },
+    {
+      "path": "src/pages/Partners.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9ba5f12d599f3d1d8e7b9bc6041e6560f7f3a56066448113034d1acf35ee4b6b",
+      "after_sha256": "a956acf4d472c1ebf1bccb871b5c2e51b4af3a84689393964efa1f5a7d00de76"
+    },
+    {
+      "path": "src/pages/Press.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "b6d2081e6220d81082b03fa6357b1928813f532d67f0ee66049a87ba42a41d75",
+      "after_sha256": "e5dcf82837caeeced4bbac05dbc1554ebe742b4eb0daee5a285eabf9cdb13bf0"
+    },
+    {
+      "path": "src/pages/Privacy.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "a0aa27194839f14db15d8605497974f369efe89872798d83d6e96da84903fd55",
+      "after_sha256": "129069b36dfc1f849467324df672323e587e81cb2285fe43626854a5d0db5df7"
+    },
+    {
+      "path": "src/pages/PrivateChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "334da73e5c80691ee22a176d306d33fc490238ead53210bdce06ab63b91f0365",
+      "after_sha256": "276f5cdf6fa8afcc9a647d2db66d1f5b820ccb51467c2db13e9c5056ce4eb86b"
+    },
+    {
+      "path": "src/pages/PrivateChefPrices.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8375309a1c5e6da552ae8e49eb82af36286fafb34f3e5a7d3d4f6650ebd1570b",
+      "after_sha256": "7a7ab00fcf7f85896c3447dd46a18e60749aae6a43511795f0843e65df0ddfb5"
+    },
+    {
+      "path": "src/pages/PrivateCookingClassesDubai.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "43bd055cd85ef2553f20ecae78cd67530d5791a21b0508f3fe3ad521687a097a",
+      "after_sha256": "01ea1bf60ff5454a543eb08f7ea8b98f3d4f93cfabd023b4640ee2f662029e85"
+    },
+    {
+      "path": "src/pages/PrivatePartyCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9b4fd26ca715b955d0bf8a61b951d44b327468d740fc4f1b91f11ab06d3bf17e",
+      "after_sha256": "9de98dee9dd8722d01add781d9e55e632deb0adb019143ada758dbb1f2d1e0f4"
+    },
+    {
+      "path": "src/pages/ProductLaunchCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "270f8b4668f0e5bbf8dbdc29635dcb3eb412449c926ddd7b90bae5e17791edc0",
+      "after_sha256": "ac0e3fa0bb8847149b804ecb0d276ecfad53c1a29d793375242b77ed428cb063"
+    },
+    {
+      "path": "src/pages/ProductionCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d631ee3aaf2118d2a5819fac00e2b36be0aa5022d722b6c7e1d4b1ac1f705be0",
+      "after_sha256": "6f478f0f6e42055f478aad188c2abd15a01c82cd07503198b808a6480acb7374"
+    },
+    {
+      "path": "src/pages/ProposalDinner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "728dafa734ee94681e1c8404d4161135b775f1c0738180fac4a223dd956f4fc2",
+      "after_sha256": "64834aefa9426c2c99e67a64419317b2d4c1d1b8713c87d21589892d2b61e551"
+    },
+    {
+      "path": "src/pages/QualityGuarantee.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3d6018e84f7766ca420e591dd7661df0553c6ab9abf461963843c17d0e01a0e5",
+      "after_sha256": "8d4aa71101220fe1379d4fd493198b4ef4f535d4c26b0efec0ced60acaf4787d"
+    },
+    {
+      "path": "src/pages/RamadanCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "d2e2e3c35b2ca8f278eeaa166165ab420204051d569128be7dc9bd0aee9ce27b",
+      "after_sha256": "497670f0bea1233923b63b448f8eaa824ae79c27888f8b7d1f371803200ee699"
+    },
+    {
+      "path": "src/pages/RamadanIftar.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "67f64ca37698746b9f052852351d2b7aabb3fdb48078ffaee7dc5cb485f11e47",
+      "after_sha256": "c7f8c63c1081f486bc6e4b0ed5f7eae1d817ce5f9bedea18c4e40c34534e067d"
+    },
+    {
+      "path": "src/pages/ReferralProgramme.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "69b5ef913b142eded0e909094f8c311c0b289768ab5415b7f6a8030ac582fead",
+      "after_sha256": "5789d6d6c4bfce94941a5c12576cc370c9425a87b213d2bae79a00c3b600cdd0"
+    },
+    {
+      "path": "src/pages/ReviewRequest.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "bef69e78e7b6639bca883fd841d82241552b06e362b54798953b420959a45891",
+      "after_sha256": "31f3843a7edb2aa7270a91815050efa8bb5d2e6062745bf868bbf11f5b8b4b31"
+    },
+    {
+      "path": "src/pages/RomanticDinner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1f011da5c801c81937471b018c419de7a549e40242ccd9ce7c754558f70e8d25",
+      "after_sha256": "68597ca1a0a38fb07e2d33ae42a18b7e9f82069c269b305bc2891b5d6c7d373e"
+    },
+    {
+      "path": "src/pages/SiteMap.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "601bf847570b80229afacad780231cbf2362bfe0d6587b6949b46a605a325ad0",
+      "after_sha256": "bc3e90f708b600ee907d8db255a17b71c63be71747b35588975d3d2d0531d2f2"
+    },
+    {
+      "path": "src/pages/StaffMealsCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "db33e261624ca492ca89081fe786d1de210fb35b02e85418c302c8293d9937b9",
+      "after_sha256": "70146939a08cf7f37986a207f3696752b6ce46fdebed21387011984407280fb7"
+    },
+    {
+      "path": "src/pages/SushiCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "26b5e68943e043bf6c5dadf09765eed592a1ae43d0f772bc0fd53e73db68cd4b",
+      "after_sha256": "ea3880242ac0bd47aca9e765f2d2c1e3cb05a438a84fd7ad32876989af5c7bf3"
+    },
+    {
+      "path": "src/pages/TastingMenu.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ed89ab90c30b2134b543c494917836fa8501db9555f80222981e379ec55b385e",
+      "after_sha256": "61354dbc13fbe4e6181f25539a970e7ab9b1d01d6f9b5b3b75951158df0e5f20"
+    },
+    {
+      "path": "src/pages/ThankYou.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "3596e040a91047ce12b7d38059401149c7f5ca405e7705c00f50d1de7c6fd14b",
+      "after_sha256": "d111304c4cbcdfc55ec6dbd5335a9ddf8f75796e1ea243527efc0a37a4b84512"
+    },
+    {
+      "path": "src/pages/TouristVillaChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8cb0a009f09be4635fc266e6552b04f6aa480edb2552c493392f5865546d5655",
+      "after_sha256": "e4e8c7a3e783aeb7b8f452776dfe197438a23d1840ee28b730a87ddda59bd5fc"
+    },
+    {
+      "path": "src/pages/TrustAndPrograms.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1403cc34180c8732b3ed4bab730d8bec1458b63e83e6a4a94196b1ec03089b54",
+      "after_sha256": "4f7b6fd2df5e9de31164f2164aab11c7eb3e3676c322998212163e75b2bc42a3"
+    },
+    {
+      "path": "src/pages/VIPClub.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "46b048cfa41f9adaca14c458b4c4184fc850a4c136889d4e4dfdc19e3d89dacd",
+      "after_sha256": "6eaebba91f02505da68ba194b30274f40402ed885a1c1160e37f662e423e28bc"
+    },
+    {
+      "path": "src/pages/VeganCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "422be605281c8e84a922f9579febb23cdd0091ca1960fb5ac8b4aed2b39d0172",
+      "after_sha256": "55b023a92b005a4f2bea16e3948de8f09962e09f264e55e8d945d09b56b80989"
+    },
+    {
+      "path": "src/pages/VegetarianCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "4de106eaab7ff02831092f2a2c4bcc7aacada0a56e733c3a5f458e05c153e0a4",
+      "after_sha256": "77a0fa04657b9a2b130e5356fcfba6e4f3ed679e6e94b2680c95d1a99d214be7"
+    },
+    {
+      "path": "src/pages/VenuePartners.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "2e5f2c0114a751504e59964589cd97a278ae0561decf2cc66be70aec82c4d3ff",
+      "after_sha256": "101cd60700db845b250b9a72c58b6f4f0e0f2e3b7c7da5e8e81510398dfdb7f9"
+    },
+    {
+      "path": "src/pages/Villas.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0587bc38b92e14a9760f4952a3a4503290b948fda6dab58d446dfc4693a3a6c1",
+      "after_sha256": "eddb9b9e038e69b4103d50524d837c4fc74a7da633cb85d53b1ac0bd6e00d508"
+    },
+    {
+      "path": "src/pages/WeeklyMealPrep.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "42245f13b33349a403d420470d1e90f28b8a76e0ab756e64822cd92951e34b66",
+      "after_sha256": "352b026d003c6dd5677b53b327350dc5e801c558e810f85478387edd3320b4c1"
+    },
+    {
+      "path": "src/pages/WellnessMealPrep.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "7f5c728439aceabb83ac9fc4f221a913e8643f546ff75f301e332955375606e9",
+      "after_sha256": "b855f800d49b710b26d0d85944e25ce0568b24b6a44263e845377b7b24dc108d"
+    },
+    {
+      "path": "src/pages/Yachts.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "10b1596412f6275330973ea300d8184fec2a2acf83b336258358b6d3df588bf2",
+      "after_sha256": "9408743b7ad21e446734b1b16d7f85075c4c2baa9c462db5ce94a5b1189f7221"
+    },
+    {
+      "path": "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "14de9a07ee1c7e64c40b0e600a26baff323e51856b64a22dd176505ea689adc9",
+      "after_sha256": "a6f76cf7545aa3e3993ee0b7a6feb7eab91eaaf469c03acb660602f92da95e4a"
+    },
+    {
+      "path": "src/pages/blog/CorporateCateringFullServiceVsDropOff.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "da445bd8113db7776522f8755270c0baae3ff2048fae62da5817f40bd3808abc",
+      "after_sha256": "8832825e7e2a6ec35a5818acf54ef2756831e46fb43d3071a4cc4eeab82c9209"
+    },
+    {
+      "path": "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c0c293e6bfadb370ef27ac8dbaf2e649e5e4b34c274ec996147492c3a98fb450",
+      "after_sha256": "7c79528fb334de5b0b5250583012738d69f2a5e47648056281f0020b6cc4b63f"
+    },
+    {
+      "path": "src/pages/blog/PrivateChefCostDubai.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8278ce86d13696abe462058d9a7a356f98d8239e70529f8dc6431575e28de7a3",
+      "after_sha256": "90b61c57a292671326091135a6c3662f1e9f38fe2e80cb42964bcc2733c49df6"
+    },
+    {
+      "path": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "7372238713be87b596067c95279029642aacf5b14677f705f0d7712a42868fe5",
+      "after_sha256": "bc1d63b27878e6a31489e61c0144ef8027e6f7e6890fd7317e69a67701b08d02"
+    },
+    {
+      "path": "src/pages/blog/WeddingCateringCost.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fe1a1c56738d6fdfa91e982b2eae4583d0d140e1b61f54e9b5e23e64f3ec2213",
+      "after_sha256": "39277931e562bba60d7e73967a93e1d922a4728276fa0f1729f3fb5a093afe0a"
+    },
+    {
+      "path": "src/pages/blog/WeeklyMealPrepVsFullTimeChef.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "695944acbe1ccdd7e008561db36789c7acb891cc16c521c04176d63a35682084",
+      "after_sha256": "f77a0fd2554e5a0dfe8a865dd32654d4ccecc9e71e4e047f1e8c9839659659df"
+    },
+    {
+      "path": "src/pages/blog/YachtPartyMenuIdeas.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0ca888e0e1f4b24549df693605517dcd39bdf5542e5f1ef93bc1c314d2b7d30d",
+      "after_sha256": "7b0d1f875698f8dcfbcb0031f1b1f7db66fbb73bca365cd30783d74b1d7dcba0"
+    },
+    {
+      "path": "src/pages/chefs/ChefAhmed.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1eda32a4914a48d910b7181dbb9817dcc9583d99523ff533779e000e007c4389",
+      "after_sha256": "b5c7a55eadd5270c7dd96b3bc215650582b6f91f5898b77f1af72ceae0d61a10"
+    },
+    {
+      "path": "src/pages/chefs/ChefLayla.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0e5d637a0bf9fa3cebd0f5576d1b53e896f36a8f214643336778179616bfc15f",
+      "after_sha256": "a32d5a73b11ccae96605ca4e9eefc2209a6a7250234b531a71c45f08d74e6f15"
+    },
+    {
+      "path": "src/pages/chefs/ChefMarco.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "426eaf0118b4eca54ee3a1e59767c8af01e2c98c86df2ba809720dcc5f8dc1f8",
+      "after_sha256": "3d24c5a81f560ec9009de9bf49a7d6fb38325ef28de797c808376931c7516b88"
+    },
+    {
+      "path": "src/pages/chefs/ChefMatteo.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ce17fe16e40e976e2167ed4ab355a9e62da9085d9b476c71994ad462d31b3a7f",
+      "after_sha256": "7383531e901e09b4d777363347f689b9b14b66c66f33b774b308057295ca9ec5"
+    },
+    {
+      "path": "src/pages/guides/BuffetVsPlated.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "fde2f64694852c6704bc0b0598943deec2b71ce28204809392c177d76683b7a6",
+      "after_sha256": "ed0203ae86a269a583f3e4aa66bcda99fe553a631a0536795bf8f79c472c8b22"
+    },
+    {
+      "path": "src/pages/guides/CorporateCateringChecklist.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "5cebe4aa53277f4b001e2cbe6df2ee450b3e2da05cb82a5e8a4ab152d6155fea",
+      "after_sha256": "a1b7f266d240972bf303be6b62ceead002174fb99c067cb8c6280d5f5d0638ac"
+    },
+    {
+      "path": "src/pages/guides/DubaiFoodTrendsReport2026.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "0d11e00cfdc036b78a1874365a1939448e1ca89f1201c92a401057b88577198e",
+      "after_sha256": "41d4d5f72077cc13ed72a673deb6964a32082b12df5b95725fe3a0c9cff6642f"
+    },
+    {
+      "path": "src/pages/guides/PrivateChefVsCatering.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "ff0a04c11afe4508e3347e97550c177e42d975ca4d7509076794ef8e9bea659e",
+      "after_sha256": "0f23a45349d5a20d02f81fa8b31fd5dab6a0974b25480f9978052c4543187920"
+    },
+    {
+      "path": "src/pages/guides/PrivateDiningGuide.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9e9b4e7d15cf9692e2a1ee5ac9127812e6a238c0aa2ad6609a7e63bf5434d199",
+      "after_sha256": "67fe2d77a6c3e2d395f6b8829bb20c0053b2d5eb29375fad19ab901c20ebd0f2"
+    },
+    {
+      "path": "src/pages/guides/WeddingCateringChecklist.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "1d8f77501b4e1456c827b85587637683991183f538be886fc19e47fb7d443aa3",
+      "after_sha256": "ccc389231a306eeaa599e4b7a5f6b4f6b4a95c14c8949d08b2217633354ec417"
+    },
+    {
+      "path": "src/pages/guides/WeddingMenuPlanningGuide.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e35f2d0ebe435814eb6a3185ee234e7f151d27e22b1381ec403100bea369e3cf",
+      "after_sha256": "cc208988b0f126f8489c96eb75d32d79551044ea10d57c98ab6f2c65e4d5a927"
+    },
+    {
+      "path": "src/pages/guides/YachtCateringChecklist.tsx",
+      "category": "editorial content",
+      "status": "deleted",
+      "before_sha256": "9e2b60df616a7345e03332fc5e738b2a3a7f17126e87620cfe73d46997aa00cd",
+      "after_sha256": null
+    },
+    {
+      "path": "src/pages/guides/YachtCateringGuide.tsx",
+      "category": "editorial content",
+      "status": "deleted",
+      "before_sha256": "d8017ed48aa6da23f8443e9d3256a24c74f377f9b77bb1b34d1c24a786f64be9",
+      "after_sha256": null
+    },
+    {
+      "path": "src/pages/partners/ConciergeServicesPartner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "367b433ed971e553b626007ff9efa5699777eeff76e122bc23c43d541701c675",
+      "after_sha256": "4aa86234836a07c468285c6cba803d86aa1caeeaaa27dc3fd5658ef3ce251444"
+    },
+    {
+      "path": "src/pages/partners/EventPlannersPartner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "19678bce2b654541115f2297f6a7b0fcc635b8b1d8fa8bb8ca7e5a1fbf2c5971",
+      "after_sha256": "cecc435a85107c9a130b615a9949d6816ee5359a07e5755e50309a08a2eee684"
+    },
+    {
+      "path": "src/pages/partners/VillaRentalsPartner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "966d210f0c9bb0f97c02b2188b9863a35539a45ec778ad13d878b947729bd194",
+      "after_sha256": "4f7090c3eb2fd8c246890f6952eb9982eec8d32596b0e277bb6c4ed5a0c7bac6"
+    },
+    {
+      "path": "src/pages/partners/YachtChartersPartner.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c5d41003f7128296f6f33bccdf9478f74965b9d72d6bb6fdeb1af00d02385106",
+      "after_sha256": "f06513dc1af356c394ddd61e81c981118fde9e4868f372d16f2b8c9609847562"
+    },
+    {
+      "path": "src/pages/private-chef/HowYourPlanWorks.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "c15868858f877a803f2136f6668fb82296abe54d20387ffd7147ec4aa9e22594",
+      "after_sha256": "c50576b1a50b2fbb66a78370bd009f64ae9a526c7ae9c459f2561479d2f02dda"
+    },
+    {
+      "path": "src/pages/private-chef/PrivacySecurity.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9ddcc71b23e6523824d3a50005240078f659fa9e2acfa23f40489d9564cbffe7",
+      "after_sha256": "9fbf9c84b7dd4347d1f7d2bb66f3771cf1660a1373a47c4aea2e65bfdc963609"
+    },
+    {
+      "path": "src/pages/private-chef/QualityTraining.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "cb8fa71d4cf7432a5137c3f73baa49ee4e942a6c0cbe3137f466b4408173b3b7",
+      "after_sha256": "22d4694ab7b6614d1d8242d1fc79e26a86e059cb9440508ff6109a07b1a6003b"
+    },
+    {
+      "path": "src/routes.tsx",
+      "category": "implementation and validation",
+      "status": "modified",
+      "before_sha256": "170d343aa58a014e5b9f35bd35b025512ffb1b9d093e0fb9fe9a6146949b15cf",
+      "after_sha256": "b79887fc337dd0d14046e6763efb5905042978c34fac1a08bba7f4cd473c2377"
+    },
+    {
+      "path": "src/sections/CTASection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "98040ef3061c63e381d0ae251f0f0c16953b9ccb66b7dc7cad6f31f72572a8b2",
+      "after_sha256": "409038f7706c95a630efcf5e60224984216d2287ed2b75aa9ae1516edb00ba26"
+    },
+    {
+      "path": "src/sections/GuidesTeaserSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "2193f24e4724ed5f37e0c0c990840ca23869a7d13d9af1319140519c41744e4f",
+      "after_sha256": "8a7fefc325f948cb7d6c683800d1abf88688fd536afe6f3dc3c7c5224977ea02"
+    },
+    {
+      "path": "src/sections/HeroSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "901a6cb9636c2fd077e7f431ec1475e068205a200ad0761983615aa677a34fe2",
+      "after_sha256": "450810b80781a33240bce24e865a7c5a93cff92185666f2e37f6072b0f80dde8"
+    },
+    {
+      "path": "src/sections/HowItWorksSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "edeb498f2fd8a2d23a7eaed6937273f7881af1f3f439644b498bd6b010720c36",
+      "after_sha256": "1deb79ac79f7a86db8dd276a09fd504f377624c40dd4604face00c66d71a7d4f"
+    },
+    {
+      "path": "src/sections/LeadMagnetModal.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "83af538cbbd7ced23f5e4789429373fac73f16b0cbc339b688d0428e3bc24238",
+      "after_sha256": "82ccb76f435a4652bd85a9a6aa141fa739aac1027cd60e418921d67e8505a67d"
+    },
+    {
+      "path": "src/sections/ServicesSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "9dc20f9d5b0df64b856139dcb7a0c14f01614ebf0b046b515b2b738fa6a0754a",
+      "after_sha256": "df2cb5f2b3303b6fff1e1cde1b1967449b071760b58357ca98e573c29a89d35c"
+    },
+    {
+      "path": "src/sections/TeamSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "e0cbd7f8b1504c26a47224c1bb5b40c365ae195939c39574f389ed3e8db0d34b",
+      "after_sha256": "3fb9f9f474789f1ec28bbf55d7a2d18f2d239f6973cfc7921a5a66758bfbf193"
+    },
+    {
+      "path": "src/sections/TrustSection.tsx",
+      "category": "editorial content",
+      "status": "modified",
+      "before_sha256": "8d313023aaac87445cf90b7c1f755548961bd1cead429c0d9734d88bfafed0e4",
+      "after_sha256": "6f627de25f1c4719a57feb6d7f929cc721926b171aaf670c0b7d347d44d52b5f"
+    }
+  ]
+}

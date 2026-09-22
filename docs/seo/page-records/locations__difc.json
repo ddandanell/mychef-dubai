@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/locations/difc",
+  "path": "/locations/difc",
+  "role": "indexable page",
+  "page_type": "Location landing",
+  "silo": "Locations",
+  "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
+  "keywords": {
+    "primary": "private chef difc",
+    "secondary": [
+      "catering difc",
+      "chef at home difc",
+      "private dining difc",
+      "party catering difc",
+      "personal chef difc",
+      "office catering difc",
+      "corporate catering difc",
+      "fine dining in difc",
+      "business lunch in difc"
+    ],
+    "primary_owner": "/locations/difc",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef DIFC | Apartments and Offices | myCHEF",
+    "description": "Private chef DIFC for apartments, offices and nearby homes. Menu, cooking on site, service and clear-down. Tell us the date and address.",
+    "h1": [
+      "Private Chef DIFC"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/locations/difc",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LocationDetail.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 946,
+    "current_word_count": 898,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef DIFC for boardrooms and residences inside the Gate"
+      },
+      {
+        "level": "h2",
+        "text": "Properties We Serve in DIFC"
+      },
+      {
+        "level": "h2",
+        "text": "Firms, family offices and a few residences"
+      },
+      {
+        "level": "h2",
+        "text": "What a DIFC booking includes"
+      },
+      {
+        "level": "h2",
+        "text": "Menus that can be served and cleared on time"
+      },
+      {
+        "level": "h2",
+        "text": "Security, then the clock, then the plate"
+      },
+      {
+        "level": "h3",
+        "text": "Send the brief"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm access"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the date"
+      },
+      {
+        "level": "h3",
+        "text": "The chef arrives"
+      },
+      {
+        "level": "h3",
+        "text": "Service and clear-down"
+      },
+      {
+        "level": "h2",
+        "text": "The lunch has to finish when the meeting does"
+      },
+      {
+        "level": "h2",
+        "text": "Ways to enjoy the service"
+      },
+      {
+        "level": "h3",
+        "text": "Timed working lunch"
+      },
+      {
+        "level": "h3",
+        "text": "Boardroom dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Firm reception"
+      },
+      {
+        "level": "h3",
+        "text": "Residence chef"
+      },
+      {
+        "level": "h2",
+        "text": "Gate Village access, bays and quiet exits"
+      },
+      {
+        "level": "h2",
+        "text": "Also Serving Near DIFC"
+      },
+      {
+        "level": "h2",
+        "text": "Services in DIFC"
+      },
+      {
+        "level": "h2",
+        "text": "Chef, catering and event pages"
+      },
+      {
+        "level": "h2",
+        "text": "Popular Events in DIFC"
+      },
+      {
+        "level": "h2",
+        "text": "Questions About DIFC Catering"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook inside DIFC office towers?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you serve a 60-minute lunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the team discreet?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a weekly chef the same as a client lunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you work in Gate Village event rooms?"
+      },
+      {
+        "level": "h3",
+        "text": "How fast is a reply?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the DIFC building"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve"
+      },
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+        "catering near me dubai",
+        "catering near me"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/locations/jlt",
+        "anchor": "JLT",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me dubai",
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

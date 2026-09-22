@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/product-launch-catering-dubai",
+  "path": "/product-launch-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Corporate Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "product launch catering dubai",
+    "secondary": [
+      "product launch catering dubai price",
+      "product launch catering dubai cost per person",
+      "launch party catering dubai",
+      "product launch catering packages dubai",
+      "product launch catering menu dubai",
+      "catering for store opening dubai",
+      "catering planning checklist"
+    ],
+    "primary_owner": "/product-launch-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Product Launch Catering Dubai | Media & Press | myCHEF",
+    "description": "Product launch catering Dubai: canapé receptions from AED 150 per person, timed to the reveal. Itemised quote.",
+    "h1": [
+      "Product Launch Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/product-launch-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/corporate/CorporateInventory.tsx",
+    "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/corporateInventory.ts",
+    "src/content/corporatePackageCatalog.ts",
+    "src/content/corporatePackages.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/ProductLaunchCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1046,
+    "current_word_count": 1050,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Product launch catering Dubai, timed to the reveal"
+      },
+      {
+        "level": "h2",
+        "text": "Launch receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Product launch canapé reception"
+      },
+      {
+        "level": "h3",
+        "text": "Press launch hospitality"
+      },
+      {
+        "level": "h2",
+        "text": "What this corporate service includes"
+      },
+      {
+        "level": "h2",
+        "text": "Staff parties, networking and launches"
+      },
+      {
+        "level": "h3",
+        "text": "Standing"
+      },
+      {
+        "level": "h3",
+        "text": "Seated"
+      },
+      {
+        "level": "h2",
+        "text": "Formats Built for Unveilings"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé reception"
+      },
+      {
+        "level": "h3",
+        "text": "Media & Press Lunch"
+      },
+      {
+        "level": "h3",
+        "text": "Investor dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Live cooking station"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert and coffee close"
+      },
+      {
+        "level": "h2",
+        "text": "Trusted Across Dubai Sectors"
+      },
+      {
+        "level": "h3",
+        "text": "Technology & Startups"
+      },
+      {
+        "level": "h3",
+        "text": "Automotive"
+      },
+      {
+        "level": "h3",
+        "text": "Fashion & Luxury Retail"
+      },
+      {
+        "level": "h3",
+        "text": "F&B and Hospitality"
+      },
+      {
+        "level": "h3",
+        "text": "Finance & Real Estate"
+      },
+      {
+        "level": "h3",
+        "text": "Wellness & Beauty"
+      },
+      {
+        "level": "h2",
+        "text": "Launch Catering Planning Checklist"
+      },
+      {
+        "level": "h2",
+        "text": "What's Included"
+      },
+      {
+        "level": "h2",
+        "text": "Launch Moments we coordinate catering for"
+      },
+      {
+        "level": "h2",
+        "text": "Product Launch Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater small product launches in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the menu reflect our brand or product theme?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide service staff and bartenders?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book launch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater at venues, showrooms, or offices?"
+      },
+      {
+        "level": "h2",
+        "text": "Launch Catering Locations"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Product launch catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Launch?"
+      },
+      {
+        "level": "h2",
+        "text": "More in Corporate Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate dining"
+      },
+      {
+        "url": "/product-launch-catering-dubai",
+        "anchor": "Product launch catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "Corporate dining",
+      "alt_anchors": [
+        "corporate catering dubai",
+        "corporate catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/brand-activation-catering-dubai",
+        "anchor": "Brand activation catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/exhibition-catering-dubai",
+        "anchor": "Exhibition catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canape-catering-dubai",
+        "anchor": "Canapé catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": [
+          "drop off catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

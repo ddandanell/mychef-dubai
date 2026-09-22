@@ -70,6 +70,11 @@ eq('canapé 113 food', canape113.food, 113 * 170)
 eq('canapé 113 no live chefs', canape113.liveChefs, 0)
 eq('canapé 113 uses formula not a guessed extra', canape113.total, 113 * 170 + Math.round(113 * 170 * 0.05))
 
+for (const format of YACHT_MENU_FORMATS) {
+  const estimate = estimateYachtCatering({ guests: 113, formatId: format.id, extraIds: [], overtimeServers: 0, overtimeHours: 0 })
+  eq(`${format.id} displayed example agrees with estimator`, format.exampleTotalInclVat113, estimate.total)
+}
+
 const costFaq = YACHT_FAQS.find((item) => item.q.includes('How much does yacht catering'))
 eq('cost FAQ exists', Boolean(costFaq), true)
 eq(
@@ -80,7 +85,7 @@ eq(
 eq('cost FAQ names the 113-guest example', costFaq ? /113-guest/.test(costFaq.a) : false, true)
 eq(
   'yacht is not included',
-  YACHT_FAQS.some((item) => item.q === 'Do you provide the yacht?' && /does not supply|do not supply|host or their operator books/i.test(item.a)),
+  YACHT_FAQS.some((item) => item.q === 'Do you provide the yacht?' && /does not supply|do not supply|host or their operator books|you or your charter operator arrange/i.test(item.a)),
   true,
 )
 

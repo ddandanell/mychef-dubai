@@ -335,7 +335,7 @@ export default function PrivateDiningGuide() {
             Private Dining Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            A chef in the house, on a yacht, or in the desert. One dinner is catering. A standing chef is a household plan. This page is how to brief either.
+            Plan a private dinner at home, aboard a chartered yacht or at an agreed outdoor venue. This guide explains how to brief the chef, choose the menu and confirm the service details.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Private Dinner</Link>
@@ -362,14 +362,13 @@ export default function PrivateDiningGuide() {
             What Private Dining Means in Dubai
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Dubai&apos;s dining scene has shifted from restaurant reservations to something more intimate: private dining experiences hosted in villas, penthouses, yachts, and desert retreats across the city. It is a practical, flexible, and often more memorable alternative to dining out.
+            Private dining offers a personal way to host in Dubai, whether in a villa, apartment, chartered yacht or agreed outdoor setting. You can shape the menu, pace and service around your guests while the chef handles the cooking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A dinner for two at home is still catering: a named chef, cooking at the address you give us.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains what private dining means in Dubai, how it works, what it costs, and how to choose the right private chef for your occasion. For guests looking for a curated multi-course journey, our{' '}
-            
               tasting menu Dubai
             {' '}
             service offers a chef’s table experience designed around your table and your tastes.

@@ -379,7 +379,7 @@ export default function BBQCatering() {
             BBQ Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
-            BBQ catering Dubai is a live grill at your villa, garden, beach or yacht: named proteins, a chef at the station, setup and clear-down. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
+            BBQ catering in Dubai, with a chef cooking at a live grill, generous sides and service planned around your villa, garden, beach venue or yacht. From AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests, before 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
@@ -406,7 +406,7 @@ export default function BBQCatering() {
             What BBQ catering Dubai actually is
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            BBQ catering Dubai is cooking on site, in front of guests, on a grill we bring. It is not a tray of cold kebabs dropped at the door, and it is not a household chef visit. The published floor is {formatFrom(BBQ.fromPerPerson)}, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is a wider band, not a second myCHEF start.
+            BBQ catering in Dubai brings live cooking to your event, with the grill, chef and agreed equipment arranged for your venue. Guests enjoy freshly prepared dishes while we coordinate service and clear-down. Starting prices are {formatFrom(BBQ.fromPerPerson)}, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is a wider band, not a second myCHEF start.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Independent licensed partners cook. The quote names the chef once the night is scoped, lists the proteins, says who buys the ingredients, and shows 5% VAT on its own line. Dietary notes go into the first menu draft. Apartment balconies are not an open-flame site; we will say so.

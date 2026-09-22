@@ -117,7 +117,7 @@ export default function PrivateChefPalmJumeirahGuide() {
       <PageHero
         eyebrow="Private Chef"
         title="Private Dining Palm Jumeirah Dubai"
-        subtitle="A chef in a Palm villa, apartment or yacht. Access, parking and the galley change the brief. Household visits start at AED 750. A dinner for guests is catering."
+        subtitle={"Plan a chef service for your Palm Jumeirah villa, apartment or chartered yacht. Understand access and kitchen requirements, with household visits from AED 750 and one-off dining quoted separately."}
         image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}

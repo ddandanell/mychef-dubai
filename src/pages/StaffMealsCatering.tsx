@@ -314,7 +314,7 @@ export default function StaffMealsCatering() {
             Staff Meals Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
-            Workforce sittings on a named timetable. Drop-off from AED 90 per person. Halal by default. You are billed for the meals we deliver, not a shop retainer.
+            Regular staff meals delivered to an agreed timetable, with halal sourcing as standard. Drop-off starts from AED 90 per person, and billing reflects the confirmed meals and service days.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a corporate catering quote</Link>
@@ -341,7 +341,7 @@ export default function StaffMealsCatering() {
             Staff meals catering Dubai for a known workforce
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Staff meals catering in Dubai is volume food for a known workforce: a rotating hot main, a cost per head finance can check, and meals that arrive on schedule. Drop-off starts from AED 90 per person, minimum 10 guests and AED 900. You are billed for the meals we deliver, not empty calendar days.
+            Staff meals catering in Dubai provides rotating menus for a regular workforce, with agreed portions, delivery windows and clear per-person pricing. Drop-off starts from AED 90 per person for 10 guests, with a minimum order of AED 900. Billing follows the confirmed service schedule.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Halal ingredients are the default. Vegetarian and vegan options are planned when named in the brief. Smaller repeating office teams sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A written account is on <Link to="/corporate-retainer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering contracts</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>.

@@ -340,7 +340,7 @@ export default function DessertTableCatering() {
             Dessert Table Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 des-hero-sub">
-            Dessert table catering Dubai is a cake, counted patisserie and a table we build at the venue, then pack down. Quoted as catering, not as a bakery counter.
+            Dessert table catering in Dubai, with a centrepiece cake, a considered selection of patisserie and a styled display at your venue. The menu, quantities and setup are quoted for your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 des-hero-cta">Get a Dessert Table Quote</Link>
@@ -367,7 +367,7 @@ export default function DessertTableCatering() {
             What dessert table catering Dubai is
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Dessert table catering Dubai is a centrepiece cake, counted sweets and a display we build on site. There is no published per-person floor for the table alone. It is quoted with the rest of the catering, or as a defined add-on. <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry chef Matteo Moretti</Link> leads pastry when the brief needs that kitchen.
+            Dessert table catering in Dubai combines a centrepiece cake and individual sweets in a coordinated display. The final price depends on the selection, guest count and styling, quoted as part of your catering or as an agreed addition. <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry chef Matteo Moretti</Link> leads pastry when the brief needs that kitchen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             A <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding</Link> sweet table sits next to the meal, not instead of it. Birthdays, baby showers and a finish after dinner use the same method: guest count, heat, diets, pack-down. A gelato cart is a live station, not this page. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the rest of the night.

@@ -163,10 +163,10 @@ export default function PrivateChef() {
               <Eyebrow>What this is</Eyebrow>
               <DisplayHeading size="h2" className="text-black mb-6">What a private chef Dubai arrangement is</DisplayHeading>
               <BodyCopy className="mb-5">
-                A private chef Dubai household is a standing cook, not a one-night team. myCHEF is not a list of chefs for you to manage. We organise the chef: the match, the Food Profile, and the cover when your chef is away.
+                A private chef in Dubai can bring consistency and care to your household’s meals. We coordinate the chef match, record your food preferences and manage the ongoing schedule, with cover arranged when needed.
               </BodyCopy>
               <BodyCopy className="mb-5">
-                You are buying a chef at home in Dubai who comes back. Usually the same person each week, a written record of how you like to eat, and one person to call when something changes. A private chef for dinner party Dubai nights is catering: one evening, a team, then clear-down.{' '}
+                A regular chef brings continuity to your kitchen, with your preferences recorded and a dedicated contact for changes. For one-off dinner parties, explore our catering and private dining options.{' '}
                 <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Luxury catering in Dubai</Link>
                 {' '}owns that brief.
               </BodyCopy>
@@ -193,7 +193,7 @@ export default function PrivateChef() {
             <Eyebrow>Which page</Eyebrow>
             <DisplayHeading size="h2" className="text-black mb-4">One night, or a chef who stays</DisplayHeading>
             <BodyCopy muted>
-              A standing household chef stays on this page. A one-night dinner belongs on catering, not here.
+              Explore regular household chef plans here, or choose catering for a one-off dinner or celebration.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
@@ -231,7 +231,7 @@ export default function PrivateChef() {
               Not which cuisine, and not which evening. A chef at home in Dubai makes sense when the same problem comes back every week: for families, for villas, and for long stays.
             </BodyCopy>
             <BodyCopy muted className="mt-4 mx-auto">
-              Not everyone comes to this page for a dinner party. If the problem is six o'clock, everyone home late, nobody planned anything, and the same five meals coming round, then the fix is not a better recipe. It is not having to think about it. A standing chef sorts the week, not the evening.
+              A regular chef can make busy weeks easier by planning and preparing the meals your household enjoys. The service follows your schedule, helping bring variety and consistency to everyday dining.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-10 md:gap-y-12 max-w-[1060px] mx-auto">
@@ -264,7 +264,7 @@ export default function PrivateChef() {
               <Eyebrow tone="dark">Why it is managed</Eyebrow>
               <DisplayHeading size="h2" className="text-white">Finding a chef is easy. Keeping your kitchen running every week is the hard part.</DisplayHeading>
               <BodyCopy tone="dark" className="mt-4">
-                Hiring on your own means you handle the matching, the feedback, the cover when someone is away and the replacing. We handle all of that. Your part is telling us what you like to eat.
+                We coordinate chef selection, feedback, cover and any change of match. You share your preferences and work with your contact to shape a service that suits the household.
               </BodyCopy>
             </div>
           </div>
@@ -337,7 +337,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">The overview</Eyebrow>
             <DisplayHeading size="h2" className="text-black">The detail, in five parts</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              This page is the overview. There are separate pages on how it works, who the chefs are, how we keep the standard, who comes into your home, and what it costs.
+              Explore how the plan works, meet the chefs, review our selection standards and compare the current service prices.
             </BodyCopy>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -395,7 +395,7 @@ export default function PrivateChef() {
         <Container>
           <div className="max-w-[720px] mx-auto text-center mb-10">
             <Eyebrow align="center">Food Profile</Eyebrow>
-            <DisplayHeading size="h2" className="text-black">The chef learns how you live. We write it down, so you never have to teach it twice.</DisplayHeading>
+            <DisplayHeading size="h2" className="text-black">Your preferences are recorded in a Food Profile, helping the chef and any agreed cover understand the household.</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
               {foodProfileDemo.note} When the chef changes, this does not.
             </BodyCopy>
@@ -433,7 +433,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">How often the chef comes</Eyebrow>
             <DisplayHeading size="h2" className="text-black">Choose the household rhythm</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              We build the plan around the days and meals you actually need, not a package named after an occasion.
+              Choose the service days and meals your household needs, with the schedule and scope agreed before you begin.
             </BodyCopy>
           </div>
           <div className="flex flex-wrap justify-center gap-3 mb-8 max-w-[880px] mx-auto">
@@ -568,7 +568,7 @@ export default function PrivateChef() {
             Private Chef Dubai: What should I know before starting a household chef in Dubai?
           </h2>
           <p className="font-inter text-body-sm text-gray-500 text-center mb-8 leading-relaxed">
-            Short answers. The system, the chefs, privacy and the full price logic each have their own page.
+            Find answers below, with more detail in our guides to matching, household privacy and pricing.
           </p>
           <FaqAccordion items={[...parentFaqs]} defaultOpen={-1} />
         </div>
@@ -588,7 +588,7 @@ export default function PrivateChef() {
         title="A household chef across Dubai"
         subtitle={
           <>
-            A private chef near me in Dubai still needs a match, not a pin on a map.{' '}
+            A chef matched to your household and Dubai location.{' '}
             Palm Jumeirah,{' '}
             Emirates Hills
             {' '}and{' '}

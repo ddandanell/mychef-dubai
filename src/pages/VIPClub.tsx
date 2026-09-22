@@ -295,7 +295,7 @@ export default function VIPClub() {
             myCHEF VIP Club
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vip-hero-sub">
-            Gold and Platinum membership for hosts who book often. Priority windows, member rates and a named contact. The chef is still quoted separately.
+            Gold and Platinum membership for regular hosts, with priority booking consideration, member rates and a dedicated contact. Each dining experience is quoted separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vip-hero-cta">Ask about membership</Link>
@@ -322,7 +322,7 @@ export default function VIPClub() {
             myCHEF VIP Club is a priority line, not a restaurant
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Gold is 5% off the quoted service. Platinum is 10%, with a named account manager. Neither tier includes the chef, the groceries or the event. Those are still quoted as a booking. Use it for <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dinners</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> or <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company nights</Link>.
+            Gold offers 5% off the quoted service; Platinum offers 10% and a dedicated account manager. Membership does not include chefs, groceries or events, which remain separately quoted bookings. Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dinners</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> or <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company nights</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             If you host once a year, membership is the wrong product. If you book often and want the date held first, send how many nights you actually run. Also see <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> and <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>.

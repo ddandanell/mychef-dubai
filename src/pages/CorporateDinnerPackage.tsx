@@ -16,13 +16,13 @@ export default function CorporateDinnerPackage() {
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Corporate Dinner Package Dubai | myCHEF"
-      description="Corporate dinner package Dubai: AED 4,500 for 10 to 15 guests, chef and service staff sized to the table. Not a dinner cruise. VAT invoice. Not the plated per-person band."
+      description={"Corporate dinner package in Dubai: AED 4,500 for 10–15 guests, with a chef, table service and clear-down. Your proposal confirms the menu and VAT."}
       intro="A corporate dinner package for 10–15 guests, with a private chef and service team, is AED 4,500. That figure is a fixed package price for this guest range, not multiplied by headcount. Chef-led plated dining at AED 700–950 per person is a different menu and service, used when the table is smaller or larger than 15, or when you want fully plated courses. If you are comparing dubai dinner cruise deals or a private dinner cruise dubai price, this package is a dinner in your office or venue, not a boat hire."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-dinner-package-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai"
       eyebrow="CORPORATE DINING PACKAGE"
-      subheadline="AED 4,500 for 10 to 15 guests. Chef and service staff sized to the table. Setup, service and kitchen cleanup included. Not a dinner cruise."
+      subheadline={"AED 4,500 for 10–15 guests, including a chef, an appropriately sized service team, setup, table service and kitchen clear-down."}
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}
@@ -47,7 +47,7 @@ export default function CorporateDinnerPackage() {
       faqs={[
         {
           q: 'Is this package suitable for boardroom dinners?',
-          a: 'Yes. AED 4,500 for 10–15 guests in a boardroom, office dining room or private venue. Service is sized to the table. It is not a gala and not a dinner cruise.',
+          a: 'Yes. AED 4,500 for 10–15 guests in a boardroom, office dining room or private venue. Service is sized to the table. The menu and staffing are confirmed around your venue and schedule.',
         },
         {
           q: 'Can you invoice my company?',
@@ -55,7 +55,7 @@ export default function CorporateDinnerPackage() {
         },
         {
           q: 'Can the menu accommodate dietary requirements?',
-          a: 'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named in the brief. This is not a medical or allergen-free promise.',
+          a: "Halal ingredients are the default, with vegetarian, vegan and gluten-free options planned around your brief. Please discuss allergies separately so kitchen controls and any remaining cross-contact risk can be assessed.",
         },
         {
           q: 'Do you cater at offices across Dubai?',

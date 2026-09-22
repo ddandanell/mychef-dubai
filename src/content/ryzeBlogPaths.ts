@@ -14,9 +14,5 @@ export const RYZE_BLOG_PATHS: string[] = [
   "/blog/best-brunch-catering-services-in-dubai",
   "/blog/best-halal-catering-companies-in-dubai",
   "/blog/best-private-chefs-for-villas-in-dubai",
-  "/blog/best-wedding-catering-companies-in-dubai",
-  "/blog/best-meal-prep-services-in-dubai",
-  "/blog/best-private-chefs-in-dubai-for-home-dining",
-  "/blog/best-catering-companies-in-dubai",
-  "/blog/how-much-does-a-private-chef-cost-in-dubai-in"
+  "/blog/best-wedding-catering-companies-in-dubai"
 ]

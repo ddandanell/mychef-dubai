@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/exhibition-catering-dubai",
+  "path": "/exhibition-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Corporate Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "exhibition catering dubai",
+    "secondary": [
+      "exhibition catering dubai price",
+      "exhibition catering dubai cost per person",
+      "exhibition stand catering dubai",
+      "exhibition catering packages dubai",
+      "exhibition catering menu dubai",
+      "trade show catering dubai",
+      "food exhibition catering dubai",
+      "dubai food exhibition 2026"
+    ],
+    "primary_owner": "/exhibition-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Exhibition Catering Dubai | DWTC & Expo City | myCHEF",
+    "description": "Exhibition catering Dubai for stand hospitality and exhibitor meals. Drop-off from AED 90 per person. No kitchen assumed. Hall access quoted separately.",
+    "h1": [
+      "Exhibition Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/exhibition-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/corporate/CorporateInventory.tsx",
+    "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/corporateInventory.ts",
+    "src/content/corporatePackageCatalog.ts",
+    "src/content/corporatePackages.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/utils.ts",
+    "src/pages/ExhibitionCatering.tsx",
+    "src/pages/shared/ServiceLandingPage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1235,
+    "current_word_count": 1233,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Exhibition catering Dubai for the stand, not a restaurant floor"
+      },
+      {
+        "level": "h2",
+        "text": "Stand hospitality and exhibitor meals"
+      },
+      {
+        "level": "h3",
+        "text": "Exhibition stand hospitality"
+      },
+      {
+        "level": "h3",
+        "text": "Exhibitor crew meals"
+      },
+      {
+        "level": "h2",
+        "text": "What this corporate service includes"
+      },
+      {
+        "level": "h2",
+        "text": "Coffee breaks, delegate lunch and multi-day conferences"
+      },
+      {
+        "level": "h3",
+        "text": "Breaks"
+      },
+      {
+        "level": "h3",
+        "text": "Delegate meals"
+      },
+      {
+        "level": "h3",
+        "text": "Room conditions"
+      },
+      {
+        "level": "h2",
+        "text": "Exhibition Catering Formats"
+      },
+      {
+        "level": "h3",
+        "text": "Coffee & Refreshment Stations"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé & Bowl Food Receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Grab-and-Go Meal Boxes"
+      },
+      {
+        "level": "h3",
+        "text": "VIP Hospitality Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Built for the Show Floor"
+      },
+      {
+        "level": "h3",
+        "text": "Exhibitor Stands"
+      },
+      {
+        "level": "h3",
+        "text": "Organiser & Pavilion Hospitality"
+      },
+      {
+        "level": "h3",
+        "text": "Product Launches at Trade Shows"
+      },
+      {
+        "level": "h3",
+        "text": "Multi-Day Conferences & Expos"
+      },
+      {
+        "level": "h2",
+        "text": "What's Included in Our Exhibition Catering"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of Our Exhibition Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Exhibition Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Which exhibition venues in Dubai do you cater?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you brand the catering counter to match our stand?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide staff for exhibition stands?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle dietary requirements for a large crowd?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum order for exhibition catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should we book exhibition catering?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Exhibition Catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan Exhibition Catering That Works as Hard as Your Stand"
+      },
+      {
+        "level": "h2",
+        "text": "More in Corporate Catering"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate dining"
+      },
+      {
+        "url": "/exhibition-catering-dubai",
+        "anchor": "Exhibition catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "Corporate dining",
+      "alt_anchors": [
+        "corporate catering dubai",
+        "corporate catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/brand-activation-catering-dubai",
+        "anchor": "Brand activation catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/conference-catering-dubai",
+        "anchor": "Conference catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/drop-off-catering-dubai",
+        "anchor": "Drop-off catering",
+        "alt_anchors": [
+          "drop off catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

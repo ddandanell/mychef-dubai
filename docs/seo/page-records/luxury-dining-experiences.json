@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/luxury-dining-experiences",
+  "path": "/luxury-dining-experiences",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Dining Experiences",
+  "purpose": "Sell a distinct private dining or learning occasion.",
+  "keywords": {
+    "primary": "private dining experience dubai",
+    "secondary": [
+      "luxury dining in dubai",
+      "luxury dining experiences dubai",
+      "luxury dining experiences dubai price",
+      "luxury dining experience cost per person dubai",
+      "best luxury dining experiences dubai",
+      "luxury dining experiences packages dubai",
+      "luxury dining menu dubai",
+      "unique dining experiences dubai",
+      "luxury dining experience dubai",
+      "dining offers in dubai",
+      "dubai fine dining offers",
+      "best fine dining experience dubai"
+    ],
+    "primary_owner": "/luxury-dining-experiences",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Dining Experience Dubai | myCHEF",
+    "description": "A private dining experience in Dubai: romantic dinners, tasting menus, cooking classes and desert tables, planned around the moment not a restaurant slot.",
+    "h1": [
+      "Private dining experience Dubai, designed around the moment"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/luxury-dining-experiences",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/experiencesCluster.ts",
+    "src/content/luxuryDiningPage.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/LuxuryDining.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 3697,
+    "current_word_count": 3529,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What a private dining experience Dubai actually is"
+      },
+      {
+        "level": "h2",
+        "text": "What Would You Like to Experience?"
+      },
+      {
+        "level": "h3",
+        "text": "Romantic Dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Private Cooking Class"
+      },
+      {
+        "level": "h3",
+        "text": "Desert Dining"
+      },
+      {
+        "level": "h3",
+        "text": "We book the evening in their name"
+      },
+      {
+        "level": "h2",
+        "text": "Romantic Dining in Dubai, Without a Restaurant Around You"
+      },
+      {
+        "level": "h2",
+        "text": "When Dinner Becomes a Progression"
+      },
+      {
+        "level": "h2",
+        "text": "Sometimes You Should Be in the Kitchen Too"
+      },
+      {
+        "level": "h2",
+        "text": "Learn From the Right Specialist"
+      },
+      {
+        "level": "h2",
+        "text": "Change the Setting, and Dinner Changes With It"
+      },
+      {
+        "level": "h2",
+        "text": "Dining on a Yacht"
+      },
+      {
+        "level": "h2",
+        "text": "Private Dining That Respects How You Eat"
+      },
+      {
+        "level": "h2",
+        "text": "Some Dates Deserve More Than a Reservation"
+      },
+      {
+        "level": "h2",
+        "text": "Start With the Experience. Add Only What It Needs."
+      },
+      {
+        "level": "h2",
+        "text": "The Menu Should Fit the Experience"
+      },
+      {
+        "level": "h2",
+        "text": "The Right Chef Depends on the Experience"
+      },
+      {
+        "level": "h2",
+        "text": "Your Table Does Not Need a Restaurant Address"
+      },
+      {
+        "level": "h2",
+        "text": "Have Something in Mind That Is Not on This Page?"
+      },
+      {
+        "level": "h2",
+        "text": "We book the evening in their name"
+      },
+      {
+        "level": "h2",
+        "text": "For Clients Who Come Back"
+      },
+      {
+        "level": "h2",
+        "text": "From an Idea to the Experience"
+      },
+      {
+        "level": "h2",
+        "text": "Three Different Jobs, Three Different Teams"
+      },
+      {
+        "level": "h2",
+        "text": "Luxury Dining in Dubai: Private Dining Experiences in Dubai — Common Questions"
+      },
+      {
+        "level": "h3",
+        "text": "What is a private dining experience?"
+      },
+      {
+        "level": "h3",
+        "text": "How is a private dining experience different from hiring a private chef?"
+      },
+      {
+        "level": "h3",
+        "text": "Where can I book a private dining experience in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef cook in my home?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you arrange a romantic dinner for two?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you help with proposals?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I book a tasting menu at home?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer private cooking classes?"
+      },
+      {
+        "level": "h3",
+        "text": "Can children join a cooking class?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you arrange a private dinner in the desert?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater on a yacht?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide halal private dining?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate allergies?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I choose the cuisine?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we speak with the chef beforehand?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide waiters?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you arrange flowers and table styling?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you arrange photography?"
+      },
+      {
+        "level": "h3",
+        "text": "Is alcohol included?"
+      },
+      {
+        "level": "h3",
+        "text": "How many guests can a private dining experience accommodate?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you have gift cards?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer Valentine’s Day experiences?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you create something that is not listed on this page?"
+      },
+      {
+        "level": "h3",
+        "text": "Who actually cooks the food?"
+      },
+      {
+        "level": "h2",
+        "text": "Find Your Experience"
+      },
+      {
+        "level": "h3",
+        "text": "Private chef & luxury dining across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you want the evening to feel like"
+      },
+      {
+        "level": "h2",
+        "text": "Everything in Dining Experiences"
+      }
+    ],
+    "baseline_findings": [
+      "F20"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "current": true
+      }
+    ],
+    "uplink_hub": null,
+    "siblings": [
+      {
+        "url": "/romantic-dinner-dubai",
+        "anchor": "Dinner for two",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs-table-dubai",
+        "anchor": "Chefs table",
+        "alt_anchors": []
+      },
+      {
+        "url": "/guide/private-dining-dubai",
+        "anchor": "Private dining guide",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/romantic-dinner-dubai",
+        "anchor": "Dinner for two",
+        "alt_anchors": [
+          "romantic dinner"
+        ]
+      },
+      {
+        "url": "/chefs-table-dubai",
+        "anchor": "Chefs table",
+        "alt_anchors": []
+      },
+      {
+        "url": "/proposal-dinner-dubai",
+        "anchor": "Proposal dinner",
+        "alt_anchors": []
+      },
+      {
+        "url": "/desert-dining-dubai",
+        "anchor": "Desert dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-private-dining-dubai",
+        "anchor": "Halal private dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/apartment-private-dining-dubai",
+        "anchor": "Private chef for apartment",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-cooking-classes-dubai",
+        "anchor": "Private cooking classes",
+        "alt_anchors": []
+      },
+      {
+        "url": "/guide/private-dining-dubai",
+        "anchor": "Private dining guide",
+        "alt_anchors": [
+          "private dining"
+        ]
+      }
+    ],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/guide/private-dining-dubai",
+        "anchor": "Private dining guide",
+        "alt_anchors": [
+          "private dining"
+        ]
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

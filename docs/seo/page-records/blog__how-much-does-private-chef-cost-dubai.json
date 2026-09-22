@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+  "path": "/blog/how-much-does-private-chef-cost-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "keywords": {
+    "primary": "how much does private chef cost dubai",
+    "secondary": [
+      "private chef cost per person dubai",
+      "how much is a private chef for a night dubai",
+      "private chef cost for 6 people dubai",
+      "is a private chef worth it dubai",
+      "average private chef cost",
+      "how much does a private chef charge",
+      "private chef cost per day",
+      "private chef cost dc"
+    ],
+    "primary_owner": "/blog/how-much-does-private-chef-cost-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "How Much Does a Private Chef Cost in Dubai? | myCHEF",
+    "description": "How much a private chef costs in Dubai: household visits from AED 750. A dinner for guests is catering, quoted per person. Itemised quotes, VAT 5%.",
+    "h1": [
+      "How Much Does a Private Chef Cost in Dubai?"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/ArticleToc.tsx",
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/KeyFactsBox.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/SourcesBlock.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/PrivateChefCostDubai.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1409,
+    "current_word_count": 1407,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "At a Glance"
+      },
+      {
+        "level": "h2",
+        "text": "Published household visit rates, not a per-head dinner"
+      },
+      {
+        "level": "h2",
+        "text": "Sources & Verification"
+      },
+      {
+        "level": "h2",
+        "text": "What Affects the Cost?"
+      },
+      {
+        "level": "h3",
+        "text": "Group size"
+      },
+      {
+        "level": "h3",
+        "text": "Menu complexity"
+      },
+      {
+        "level": "h3",
+        "text": "Ingredients and cuisine"
+      },
+      {
+        "level": "h3",
+        "text": "Staffing and service"
+      },
+      {
+        "level": "h2",
+        "text": "What Is Included in the Price?"
+      },
+      {
+        "level": "h2",
+        "text": "How to Get an Accurate Quote"
+      },
+      {
+        "level": "h2",
+        "text": "Is a Private Chef Worth It?"
+      },
+      {
+        "level": "h2",
+        "text": "Book a Private Chef with myCHEF Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a private chef cost per person in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in a private chef’s fee?"
+      },
+      {
+        "level": "h3",
+        "text": "Why do small dinners sometimes cost more per person?"
+      },
+      {
+        "level": "h3",
+        "text": "Are groceries included in the private chef price?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I get an accurate private chef quote in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "How to Hire a Private Chef Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "How Much Does Private Chef Cost Dubai: Get Your Private Chef Quote"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/how-much-does-private-chef-cost-dubai",
+        "anchor": "What a private chef costs",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-to-hire-a-private-chef-dubai",
+        "anchor": "How to hire a private chef",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": [
+          "private chef price"
+        ]
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Full-time private chef",
+        "alt_anchors": [
+          "full time private chef"
+        ]
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

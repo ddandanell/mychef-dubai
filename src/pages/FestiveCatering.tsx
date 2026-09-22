@@ -239,7 +239,7 @@ export default function FestiveCatering() {
       <PageHero
         eyebrow="Seasonal Celebrations"
         title="Festive Catering Dubai"
-        subtitle="Festive catering Dubai for Ramadan, Eid, Diwali and New Year at a home, office or venue you control. Christmas catering has its own page. We cook there. We do not own the calendar as a venue."
+        subtitle={"Festive catering in Dubai for Ramadan, Eid, Diwali, Christmas and New Year. Explore menus that honour the occasion, with chefs and service coordinated for your home, office or chosen venue."}
         image="/images/festive-catering-dubai-hero.webp"
         imageAlt="Festive catering celebrations in Dubai"
         cta={{ label: 'Get a Festive Quote', href: '/inquiry' }}

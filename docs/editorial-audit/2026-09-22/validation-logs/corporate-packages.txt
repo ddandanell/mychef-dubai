@@ -1,0 +1,41 @@
+PASS  thirty packages: got 30
+PASS  stable ids unique: got 30
+PASS  VAT 5%: got 0.05
+PASS  drop-off floor: got 90
+PASS  buffet floor: got 120
+PASS  canapé floor: got 150
+PASS  plated band: got [700,950]
+PASS  dinner package: got 4500
+PASS  dinner is a package unit: got "package"
+PASS  dinner guests 10-15: got [10,15]
+PASS  dinner 12 is ok: got true
+PASS  dinner is not multiplied by 12: got 4500
+PASS  dinner VAT: got 225
+PASS  dinner total: got 4725
+PASS  dinner per-person states 12: got 12
+PASS  dinner below range fails: got false
+PASS  dinner above range fails: got false
+PASS  dinner not multiplied by days: got false
+PASS  office lunch ok: got true
+PASS  office lunch food 12x90: got 1080
+PASS  included delivery not added: got 0
+PASS  drop-off has no included staff charge: got 0
+PASS  below min guests still estimates at minimum: got true
+PASS  billed at 10: got 10
+PASS  min order 900: got 900
+PASS  extra staff is additional, not a second copy of included waiters: got true
+PASS  food line still uses the buffet floor only: got true
+PASS  executive dinner uses 700 floor not 4500: got true
+PASS  weekly uses actual service days: got true
+PASS  retainer has no public estimate: got false
+PASS  office owner has packages: got true
+PASS  dinner package label names guest range: got "AED 4,500 for 10–15 guests"
+PASS  inquiry prefill carries package id: got true
+PASS  no protected general catering owner: got false
+PASS  inventory sections: got true
+PASS  hub shows every inventory slice: got 14
+PASS  office is a slice not the whole list: got true
+PASS  office still has formats and week: got true
+PASS  production slice exists: got true
+
+All corporate package checks passed

@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/canape-catering-dubai",
+  "path": "/canape-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Catering",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "canape catering dubai",
+    "secondary": [
+      "canape catering dubai price",
+      "canape catering price per person dubai",
+      "best canape catering dubai",
+      "canape catering packages dubai",
+      "canape catering menu dubai",
+      "halal canape catering dubai",
+      "how many canapes per person",
+      "finger food catering dubai",
+      "birthday canape catering dubai",
+      "corporate canape catering dubai",
+      "finger food catering price per person dubai",
+      "canapes catering near me"
+    ],
+    "primary_owner": "/canape-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF",
+    "description": "Canapé catering in Dubai — passed or tray service for receptions, launches and standing events. Premium standing food from AED 150 per person.",
+    "h1": [
+      "Canapé Catering Dubai: Passed, Hot and Cold Bites"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/canape-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/CanapeCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2393,
+    "current_word_count": 2347,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Canapé catering Dubai is standing food, not a dinner"
+      },
+      {
+        "level": "h2",
+        "text": "Finger food for relaxed receptions"
+      },
+      {
+        "level": "h2",
+        "text": "How the tray is built"
+      },
+      {
+        "level": "h3",
+        "text": "Passed Canapés"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Displays"
+      },
+      {
+        "level": "h3",
+        "text": "Canapés & Cocktails"
+      },
+      {
+        "level": "h3",
+        "text": "Openings & Launches"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht & Rooftop Receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Engagement & Celebrations"
+      },
+      {
+        "level": "h2",
+        "text": "Rooms that stay standing"
+      },
+      {
+        "level": "h3",
+        "text": "Cocktail Receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Gallery Openings & Launches"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht & Rooftop Gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Engagements & Intimate Celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Finger Food & Sharing Platters"
+      },
+      {
+        "level": "h3",
+        "text": "Office & Networking Bites"
+      },
+      {
+        "level": "h2",
+        "text": "What sits in the canapé quote"
+      },
+      {
+        "level": "h2",
+        "text": "Passed food in the room"
+      },
+      {
+        "level": "h2",
+        "text": "Canape Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "How many canapés should I plan per guest?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer passed canapés and display platters?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you pair canapés with cocktails and drinks?"
+      },
+      {
+        "level": "h3",
+        "text": "Are canapés suitable for openings and launch events?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book canapé catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does canapé catering cost per person in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What exactly is included in a canapé catering booking?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum number of guests for canapé catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your canapés halal and prepared to Dubai food-safety standards?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I book a tasting before confirming my canapé menu?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer both hot and cold canapés?"
+      },
+      {
+        "level": "h3",
+        "text": "How many canapés replace a full dinner versus a pre-dinner reception?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between canapés and finger food?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide waiters and bartenders, or is it drop-off only?"
+      },
+      {
+        "level": "h3",
+        "text": "How much notice do you need to book canapé catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater canapés at villas, yachts, rooftops, and event venues?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate vegetarian, vegan, and allergy-specific canapés?"
+      },
+      {
+        "level": "h3",
+        "text": "Can canapés be paired with a cocktail or mocktail bar?"
+      },
+      {
+        "level": "h3",
+        "text": "Should I choose canapés or a full seated dinner for my event?"
+      },
+      {
+        "level": "h3",
+        "text": "How many canapes per person?"
+      },
+      {
+        "level": "h2",
+        "text": "Canapé Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan Your Reception"
+      },
+      {
+        "level": "h2",
+        "text": "More in Catering"
+      }
+    ],
+    "baseline_findings": [
+      "F08"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering"
+      },
+      {
+        "url": "/canape-catering-dubai",
+        "anchor": "Canapé catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": [
+        "catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/cocktail-party-catering-dubai",
+        "anchor": "Cocktail party catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/buffet-catering-dubai",
+        "anchor": "Buffet catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/grazing-table-dubai",
+        "anchor": "Grazing tables",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -45,20 +45,20 @@ export const engagementHeroCopy = {
   eyebrow: 'Private events',
   title: 'Engagement party catering Dubai for two families and a toast',
   subtitle:
-    'Engagement party catering Dubai for the night two families share a house and a toast — not a proposal at a table for two, and not the wedding.',
+    "Engagement party catering in Dubai, bringing two families together over a thoughtful menu, warm hospitality and a celebration planned around your home or chosen venue.",
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share the date, address, guest count and who is in the room. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
   lead:
-    'This page is the gathering after the ask and before the marriage. The proposal, the wedding, a dinner for two, and an anniversary with friends each have their own page. Drop-off from AED 90 per person, a buffet from AED 120, live stations, or a chef plating at the table — menu, chefs, staff, setup and clear-down, scoped to the room.',
+    "Bring family and friends together to celebrate your engagement, with catering tailored to the venue and guest list. Choose drop-off from AED 90 per person, a staffed buffet from AED 120, live stations or a private plated menu.",
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   partyHref: '/private-party-catering-dubai',
   partyLabel: 'Private party catering',
   eventsNote: 'is the occasion hub — use it when the night is still unnamed.',
-  partyNote: 'owns the unnamed house night, including an anniversary with friends.',
+  partyNote: "offers tailored menus for birthdays, anniversaries and informal gatherings with friends.",
 } as const
 
 export const jumpNav = [
@@ -93,7 +93,7 @@ export const whoLeaves = [
     secondaryLabel: 'Private chef services in Dubai',
   },
   {
-    title: 'An anniversary with friends is not this page',
+    title: "Planning an anniversary celebration?",
     body: 'Friends at the table for a year already lived sits on private party catering, not here. Two-cover anniversaries go to romantic dinner.',
     href: '/private-party-catering-dubai#anniversary',
     linkLabel: 'Anniversary with friends — private party catering',
@@ -103,16 +103,16 @@ export const whoLeaves = [
 export const whatItIs = {
   h2: 'What engagement party catering Dubai actually covers',
   paragraphs: [
-    'The job is a room with two families in it, a toast that has to land, and a kitchen that may not be built for either. Engagement catering Dubai is that night — not a restaurant booking and not a standing household chef.',
+    "Engagement catering in Dubai combines a welcoming menu, a considered service plan and room for both families to enjoy the celebration. We coordinate the food around your venue, guest list and any planned toast.",
     'A small engagement still belongs here when one stove cannot plate the room. Six people at one table is an engagement dinner a private chef can run. Parents, siblings and friends standing in the garden need a team.',
-    'Halal ingredients are sourced by default for myCHEF engagement menus in Dubai. Mixed lists and any certification you actually need belong in the brief, not as an assumption after the fact.',
+    "Halal sourcing is the default. Share any certification requirements and dietary needs before the menu is developed so the culinary partner can confirm suitability.",
   ],
 } as const
 
 export const priceRows = hubPriceRows()
 
 export const pricingIntro = [
-  'These are the published bands. Format decides most of an engagement party catering cost per person in Dubai: the same guests cost different amounts dropped off, as a buffet, or plated. Engagement catering packages in Dubai are not a named SKU — the written proposal is the package, with menu, staffing, equipment and 5% VAT as separate lines.',
+  "The service format, menu, guest count and staffing determine your engagement catering price. Your tailored proposal sets out the agreed package, with food, equipment, service and 5% VAT clearly identified.",
 ] as const
 
 export const pricingNotes = cateringPricingNotes()
@@ -132,7 +132,7 @@ export const includedItems = [
   },
   {
     title: 'Setup and cleanup',
-    body: 'Arrival, setup, service and clear-down are part of a staffed booking. You should still be able to use the house in the morning.',
+    body: "A staffed booking includes the agreed arrival, setup, service and clear-down arrangements, coordinated around your home and celebration.",
   },
 ] as const
 
@@ -151,7 +151,7 @@ export const menuFormats = [
   },
   {
     title: 'Canapés and standing food',
-    body: 'Passed or tray service when people are standing for a toast. Finger food is planned on the canapé page, not as a second URL.',
+    body: "Passed canapés or a styled display work well while guests mingle and gather for a toast. Explore the canapé menu for suitable selections.",
     href: '/canape-catering-dubai',
     linkLabel: 'Canapé catering in Dubai',
   },
@@ -200,11 +200,11 @@ export const engagementFaqs = [
   },
   {
     q: 'Is this the same as a proposal dinner?',
-    a: 'No. A proposal is two people and the ask. That sits on [proposal dinner](/proposal-dinner-dubai). This page is two families, a toast, and a gathering before the wedding.',
+    a: "An engagement party brings family and friends together to celebrate the engagement. For the moment of asking, explore our [proposal dinner service](/proposal-dinner-dubai).",
   },
   {
     q: 'Do you cater a small engagement?',
-    a: 'Yes, when it is still a gathering — not a table for two. A small engagement dinner at one table is usually a [romantic dinner](/romantic-dinner-dubai) or a [private chef](/private-chef-dubai). If parents and friends are in the house, this page is the right brief.',
+    a: "Yes. We can plan a smaller engagement gathering with a seated menu and service suited to your home. Share the guest count and setting so we can recommend an appropriate format.",
   },
   {
     q: 'Is the food halal?',
@@ -212,11 +212,11 @@ export const engagementFaqs = [
   },
   {
     q: 'How is this different from wedding catering?',
-    a: 'Wedding catering owns the marriage — tastings, timings, a guest list that is already a seating chart. This page is the night before that work starts. Open [wedding catering](/wedding-catering-dubai) when you are planning the wedding itself.',
+    a: "Engagement catering covers the gathering that celebrates your engagement. For the wedding day itself, explore [wedding catering](/wedding-catering-dubai), including menu planning, tastings and reception service.",
   },
   {
     q: 'What goes into the engagement catering Dubai price?',
-    a: 'There is no single number for engagement catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 90 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: "Drop-off starts from AED 90 per person. The final engagement catering quote reflects your guest count, menu, service team, equipment and access requirements, with 5% VAT shown separately.",
   },
   {
     q: 'Do you offer engagement catering packages Dubai?',

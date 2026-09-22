@@ -46,7 +46,7 @@ export const serviceLevelChoices = [
 
 /** The one sentence that keeps the two doors the same company. */
 export const SAME_PARTNERS =
-  'The partner houses behind an event are the ones behind the household plans: the same licensed suppliers, the same visas we have asked to see, the same score after the work. A chef who holds a house together is who we want running your night, which is why the good ones stay.'
+  "We work with licensed culinary partners for household chef plans and events. Chefs are selected for the requirements of each booking, and client feedback informs our ongoing assessment of their work."
 
 export const quoteFactors =
   'Guest count, menu, service format, staffing, venue and kitchen access, equipment, and timing. 5% VAT is shown separately on the written proposal.'
@@ -55,7 +55,7 @@ export const scopeSteps = [
   {
     id: 'food-only',
     title: 'Food Only',
-    body: 'We cook and deliver the food. You already have the room, the tables and anyone serving.',
+    body: "Prepared food delivered to your venue, ready for your own team to serve.",
     bestFor: 'Best for venues or households that already have staff, tables and service covered.',
     href: CATERING_PATHS.dropOff,
     linkLabel: 'Food delivery and drop-off catering',
@@ -63,25 +63,25 @@ export const scopeSteps = [
   {
     id: 'food-setup',
     title: 'Food + Setup',
-    body: 'We deliver the food and help set the serving area, buffet or presentation. You run the rest of the night.',
+    body: "Food delivery with setup of the agreed buffet or serving area. Your own team handles service during the event.",
     bestFor: 'Best for buffet-style gatherings where you need presentation but not a staffed event.',
   },
   {
     id: 'food-service',
     title: 'Food + Service',
-    body: 'Add the people the room actually needs: chefs, waiters, bartenders, service staff, kitchen assistants.',
+    body: "Add the chefs, waiters, bartenders or kitchen assistants your service style requires.",
     bestFor: 'Best for events that need professional chefs, waiters, bartenders or kitchen support.',
   },
   {
     id: 'full-service',
     title: 'Full-Service Catering',
-    body: 'Food, team, equipment, setup and service flow in one brief. That is catering, not a planner.',
+    body: "A coordinated catering service covering food, staff, equipment, setup and service timing.",
     bestFor: 'Best when one catering team should coordinate food, equipment, staff and service flow.',
   },
   {
     id: 'complete',
     title: 'Complete Event Support',
-    body: 'Optional. If you choose this layer, we can help coordinate hire and other suppliers around the food: tables, chairs, tableware, glassware, linen, flowers, bar setup, entertainment, photography or décor. You pick which. We do not plan the whole event, own the venue or run the wedding.',
+    body: "Optional support with tables, chairs, tableware, glassware, linen, flowers, bar setup and other suppliers. The proposal identifies the coordination you have requested and the responsibilities of each supplier.",
     bestFor: 'Best when you want extra suppliers coordinated around the catering, and you have asked for that work.',
   },
 ] as const
@@ -181,7 +181,7 @@ export const serviceStyles = [
   },
   {
     title: 'Finger food',
-    body: 'No cutlery. Kids versus adults, tray versus passed, and how many pieces a head before people start looking for a chair.',
+    body: "Easy-to-eat bites for adults and children, with portion counts and presentation matched to the length and style of your event.",
     href: '/canape-catering-dubai#finger-food',
   },
   {
@@ -278,7 +278,7 @@ export const proofItems = [
   {
     title: 'Staffing and event flow',
     claim: 'Staffing, equipment and event-flow coordination available when required.',
-    body: 'Chefs, waiters, bartenders, setup, equipment and live stations are added when the event needs them. You do not buy a full event package, or a planner, to get the food right.',
+    body: "Choose the staff, equipment and live stations your event needs. Each element is included in the written proposal for your approval.",
     href: `${CATERING_PATHS.overview}#options`,
     linkLabel: 'Catering options and service layers',
   },
@@ -292,7 +292,7 @@ export const proofItems = [
   {
     title: 'Booking protection',
     claim: 'Backup and cancellation terms are written into the booking.',
-    body: 'Read the policy before you assume what is covered. The written booking is the contract, not a slogan on this page.',
+    body: "Your written booking sets out the applicable cancellation terms, backup arrangements and responsibilities.",
     href: '/booking-protection-insurance',
     linkLabel: 'Booking protection',
   },
@@ -305,7 +305,7 @@ export const exampleEvents = [
     guests: '80 guests',
     venue: 'Private villa, Emirates Hills',
     setup: 'Roaming canapés, live grill, family-style sharing plates.',
-    outcome: 'Guests kept moving through canapés and sharing plates; the dance floor stayed full.',
+    outcome: "An illustrative reception format combining roaming canapés, a live grill and generous sharing plates.",
     href: '/wedding-catering-dubai',
     linkLabel: 'Wedding catering in Dubai',
   },
@@ -314,7 +314,7 @@ export const exampleEvents = [
     guests: '60 guests',
     venue: 'Venue, DIFC',
     setup: 'Branded canapés, a live chef station, timed guest flow around the reveal.',
-    outcome: 'Service timed to the product reveal, with interactive cooking in the room.',
+    outcome: "An illustrative launch format with service timed around the product reveal and live cooking for guests.",
     href: CATERING_PATHS.corporateEvents,
     linkLabel: 'Corporate catering for Dubai events',
   },
@@ -323,7 +323,7 @@ export const exampleEvents = [
     guests: '25 guests',
     venue: 'Yacht, Dubai Marina',
     setup: 'Sunset canapés, BBQ, compact service planned around loading and storage.',
-    outcome: 'Passed bites and grills served as the yacht cruised the marina.',
+    outcome: "An illustrative yacht celebration with passed bites and grills, planned around onboard storage and service space.",
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht catering in Dubai',
   },
@@ -332,7 +332,7 @@ export const exampleEvents = [
     guests: '200 guests',
     venue: 'Ballroom, Downtown Dubai',
     setup: 'Four-course plated service, timed courses, full front-of-house staffing.',
-    outcome: 'Seated dinner held timing, dietary coverage and service across a large room.',
+    outcome: "An illustrative gala format with timed courses, dietary planning and a full service team.",
     href: CATERING_PATHS.corporateEvents,
     linkLabel: 'Corporate catering for Dubai events',
   },
@@ -341,7 +341,7 @@ export const exampleEvents = [
     guests: '40 guests',
     venue: 'Villa, Arabian Ranches',
     setup: 'Buffet with Arabic grills, salads and a dessert table through the afternoon.',
-    outcome: 'Live grill and dessert table carried the gathering from lunch into the evening.',
+    outcome: "An illustrative family celebration with an Arabic grill, buffet and dessert table.",
     href: CATERING_PATHS.privateEvents,
     linkLabel: 'Private party catering in Dubai',
   },
@@ -377,7 +377,7 @@ export const cateringFaqs = [
   },
   {
     q: 'What is the minimum number of guests?',
-    a: 'Drop-off starts from 10 guests. A standard event buffet starts from 20 guests. Small parties of 10 to 20 at home are a large part of what we do; that is not a reluctant minimum. A seated dinner under about 20 is often a better fit as a [private chef](/private-chef-dubai) visit, which is priced per visit rather than per person. Anything with a buffet, a bar, passed food or a running order is catering at that headcount.',
+    a: "Drop-off catering starts from 10 guests, and a standard event buffet from 20. For a smaller seated occasion, we can arrange chef-led private dining in your kitchen. Regular cooking for your household is available through our [private chef plans](/private-chef-dubai).",
   },
   {
     q: 'How much does catering cost in Dubai?',
@@ -397,11 +397,11 @@ export const cateringFaqs = [
   },
   {
     q: 'How far in advance should I book?',
-    a: 'For events under 50 guests, a week ahead is typical. Larger events: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible: message the date via [contact](/contact). During business hours, 9am to 9pm, a reply typically comes back within 15 minutes; a message sent overnight is answered first thing.',
+    a: "For events under 50 guests, aim to enquire at least a week ahead; larger events typically need 2–4 weeks. Allow more time in peak season and around holidays. We typically reply within 15 minutes between 9am and 11pm Dubai time. Short-notice availability is confirmed individually.",
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',
-    a: 'Yes. For a party of 10 to 20 at home, home catering Dubai is most of what we do: a birthday, a dinner for twelve on a villa terrace, a family lunch with one chef and one server. Under about 20 guests, a seated dinner is often a better fit as a [private chef](/private-chef-dubai) cooking in your kitchen. Either way the food is cooked for your date, not pulled from a standing buffet menu.',
+    a: "Yes. We plan birthdays, family lunches and private dinners for groups of 10 to 20, with the menu and service matched to your home. For a seated dinner, a chef can prepare the meal in your kitchen; buffets and passed canapés offer a more informal format.",
   },
   {
     q: 'Do you provide grazing tables, live stations, gala dinners and waiters?',
@@ -409,7 +409,7 @@ export const cateringFaqs = [
   },
   {
     q: 'How do I compare catering companies in Dubai?',
-    a: 'On what they publish. We keep a page that compares the [best catering companies in Dubai](/best-catering-companies-dubai) on 102 per-person prices, minimum orders and notice periods, all taken from their own menus and source-linked, including where myCHEF is not the cheapest. Read it before you ask anyone for a quote.',
+    a: "Compare the published menus, minimum orders, service inclusions and notice periods before requesting like-for-like proposals. Our [Dubai catering comparison](/best-catering-companies-dubai) brings these points together and explains the differences between formats.",
   },
   {
     q: 'What is the cancellation window?',
@@ -417,11 +417,11 @@ export const cateringFaqs = [
   },
   {
     q: 'What happens if the party runs late?',
-    a: 'Extra time is charged at the hourly rate of that job plus 50%, agreed on the night before anyone stays. The 50% goes to the partner house that employs the team; the cooks and waiters stay on their normal rate, so nobody on the floor has a reason to make a night run long. It is the same rule as the household service: one paper for both doors.',
+    a: "Additional time is charged at the applicable hourly rate plus 50%, agreed before the team stays beyond the booked hours. Your proposal and booking terms set out how overtime is handled.",
   },
   {
     q: 'Is there a tasting?',
-    a: 'For weddings and larger or high-value events, yes: a tasting is arranged before the menu is locked, and it is quoted as its own line rather than hidden in the per-person price. For a standard party or a corporate booking a tasting is not usually necessary, and we would rather spend that budget on the night itself. Ask, and we will tell you honestly which side of that line your event sits on.',
+    a: "Tastings can be arranged for weddings and larger events before the menu is confirmed. Any tasting fee appears separately in the proposal. For smaller bookings, we can discuss whether a tasting would be useful for your menu.",
   },
   {
     q: 'Who is on the invoice, and when is the deposit due?',
@@ -429,6 +429,6 @@ export const cateringFaqs = [
   },
   {
     q: 'I already have a planner, florist or rental company. Can you still help?',
-    a: 'Yes. We do not need to replace them. We coordinate our part of the catering around the suppliers you already have. The objective is for the food and service to work, not for myCHEF to own every supplier.',
+    a: "Yes. We coordinate the catering with your existing planner and suppliers, agreeing access, setup and service timings so everyone understands their responsibilities.",
   },
 ] as const

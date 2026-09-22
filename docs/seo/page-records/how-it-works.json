@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/how-it-works",
+  "path": "/how-it-works",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Trust / Utility",
+  "purpose": "Route customers to the right service and capture a clear enquiry.",
+  "keywords": {
+    "primary": "how to book a private chef dubai",
+    "secondary": [
+      "private chef booking process dubai",
+      "how does a private chef work in dubai",
+      "does a private chef bring the ingredients dubai",
+      "personal chef packages on offer in dubai",
+      "live in chef dubai"
+    ],
+    "primary_owner": "/how-it-works",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "How to Book a Private Chef Dubai for One Evening | myCHEF",
+    "description": "Book a private chef in Dubai for one evening: share the occasion, choose the menu, confirm the chef and enjoy the night at home.",
+    "h1": [
+      "How to Book a Private Chef Dubai for One Evening"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/how-it-works",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/bookingTerms.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/HowItWorks.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 760,
+    "current_word_count": 745,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Your Experience, Step by Step"
+      },
+      {
+        "level": "h3",
+        "text": "Reach Out"
+      },
+      {
+        "level": "h3",
+        "text": "We Design the Evening"
+      },
+      {
+        "level": "h3",
+        "text": "Your Chef Arrives, We Run the Room"
+      },
+      {
+        "level": "h3",
+        "text": "You Simply Enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "What You Can Always Expect"
+      },
+      {
+        "level": "h2",
+        "text": "Common Questions"
+      },
+      {
+        "level": "h3",
+        "text": "When Should You Book?"
+      },
+      {
+        "level": "h2",
+        "text": "How to book a private chef Dubai after you send the brief"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F03"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/how-it-works",
+        "anchor": "How booking works",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "alt_anchors": []
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

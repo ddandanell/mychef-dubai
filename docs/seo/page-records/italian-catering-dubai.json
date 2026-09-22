@@ -1,0 +1,348 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/italian-catering-dubai",
+  "path": "/italian-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Cuisines and Dietary",
+  "purpose": "Help customers choose a cuisine or communicate dietary constraints.",
+  "keywords": {
+    "primary": "italian catering dubai",
+    "secondary": [
+      "italian catering dubai price",
+      "italian catering cost per person dubai",
+      "best italian catering dubai",
+      "italian catering packages dubai",
+      "italian catering menu dubai",
+      "halal italian catering dubai",
+      "italian catering dubai delivery",
+      "private italian chef near me",
+      "the italian supper food truck dubai menu"
+    ],
+    "primary_owner": "/italian-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Italian Catering Dubai | myCHEF",
+    "description": "Italian Catering Dubai with a vetted myCHEF team. Live pasta or plated primo. Pork not assumed. You stay a guest at your own table.",
+    "h1": [
+      "Italian Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/italian-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/ItalianCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2133,
+    "current_word_count": 2120,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Live pasta, or a plated primo. Choose one."
+      },
+      {
+        "level": "h2",
+        "text": "From Antipasti to Dolci"
+      },
+      {
+        "level": "h3",
+        "text": "Handmade Pasta"
+      },
+      {
+        "level": "h3",
+        "text": "Live Pasta Station"
+      },
+      {
+        "level": "h3",
+        "text": "Risotto"
+      },
+      {
+        "level": "h3",
+        "text": "Antipasti"
+      },
+      {
+        "level": "h3",
+        "text": "Wood-Fired Pizza"
+      },
+      {
+        "level": "h3",
+        "text": "Dolci & Tiramisu"
+      },
+      {
+        "level": "h2",
+        "text": "Italian Catering for Every Occasion"
+      },
+      {
+        "level": "h3",
+        "text": "Weddings & Receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Dinners & Family Days"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate & Networking"
+      },
+      {
+        "level": "h3",
+        "text": "Intimate Plated Dinners"
+      },
+      {
+        "level": "h2",
+        "text": "What Our Italian Catering Includes"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of Our Italian Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Italian Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What does your Italian catering menu include?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you set up a live pasta station?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the meat halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater for vegetarian and vegan guests?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the pasta really made by hand?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does Italian catering in Dubai cost per person?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in the price of your Italian catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you a real Italian catering company or a booking platform?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your Italian food prepared to Dubai food-safety standards?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum number of guests for Italian catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide waiters and serving staff for Italian events?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you make gluten-free, dairy-free, or allergy-friendly Italian dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you set up a wood-fired pizza oven at my villa or venue?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you serve Italian catering on a yacht or at an outdoor venue?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance do you need my final guest count and menu?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater Italian menus for corporate lunches and office events?"
+      },
+      {
+        "level": "h3",
+        "text": "Will there be enough food, and what happens to leftovers?"
+      },
+      {
+        "level": "h3",
+        "text": "Should I choose a buffet, a live station, or a plated Italian dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "How is your Italian catering different from ordering from a restaurant?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Italian catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send live pasta or plated primo with the date"
+      },
+      {
+        "level": "h2",
+        "text": "More in Cuisines and Dietary"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines"
+      },
+      {
+        "url": "/italian-catering-dubai",
+        "anchor": "Italian catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/cuisines-dubai",
+      "anchor": "Cuisines",
+      "alt_anchors": [
+        "multi cuisine catering dubai",
+        "multi cuisine catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/chefs/marco-italian-chef",
+        "anchor": "Marco — Italian kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/mediterranean-catering-dubai",
+        "anchor": "Mediterranean catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/live-cooking-stations-dubai",
+        "anchor": "Live cooking stations",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

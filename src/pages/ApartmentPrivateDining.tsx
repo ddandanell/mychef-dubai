@@ -203,7 +203,7 @@ export default function ApartmentPrivateDining() {
             Private Chef for Apartment Dubai: one night in your kitchen
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 apd-hero-sub">
-            A private chef for apartment Dubai nights is catering: two to eight guests, courses at your table, kitchen left as found. Date Night AED 1,200 for two.
+            A private chef for your Dubai apartment, creating a relaxed dinner for two to eight guests. Enjoy courses at your own table, with service and kitchen clear-down included in the agreed package.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
@@ -230,10 +230,10 @@ export default function ApartmentPrivateDining() {
           </h2>
           <div className="apd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              An apartment dinner party Dubai is one evening: the chef in your kitchen, then clear-down. A private dinner in Dubai that fits two to eight guests is this format. Personal chef availability in Dubai still needs a date, a headcount and a menu draft. A private dining chef for a standing week belongs on the household pages.
+              An apartment dinner brings restaurant-style care to the comfort of your own home. Your chef plans around the kitchen, guest count and menu, with service and clear-down arranged for the evening. For regular weekly cooking, explore our household chef plans.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Best private chef for apartment Dubai, for us, means a named chef, an itemised quote, and who buys the ingredients. Apartment private dining packages Dubai start at Date Night AED 1,200 for two, or chef-led plated from AED 700 a person. VAT at 5%. Chef to chef Dubai is not a product name. The booking is with myCHEF.
+              Date Night is a defined three-course package at AED 1,200 for two. Bespoke chef-led plated menus are priced separately at AED 700–950 per person. Your proposal confirms the menu, service, ingredients and 5% VAT so the two options are easy to compare.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, the <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private dining guide</Link>, or the standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link> household plan if the chef should come back.

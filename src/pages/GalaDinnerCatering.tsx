@@ -305,7 +305,7 @@ export default function GalaDinnerCatering() {
             Gala Dinner Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
-            Seated awards and banquets. Courses hold for speeches. Staffed buffet from AED 120 per person, or plated from AED 700 to 950 per person. We do not run the stage or the AV.
+            Gala dinner catering for awards and banquets, with service timed around speeches and presentations. Staffed buffets start from AED 120 per person; bespoke plated dining is AED 700–950 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a corporate catering quote</Link>
@@ -332,7 +332,7 @@ export default function GalaDinnerCatering() {
             Gala dinner catering Dubai, timed to the programme
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Gala dinner catering in Dubai is a seated night. A staffed buffet starts from AED 120 per person, with service replenishing the line. Chef-led plated service is AED 700 to 950 per person, with courses landed around speeches. Wine is only where the venue licence allows it.
+            Gala dinner catering in Dubai pairs a considered menu with coordinated table service. Choose a staffed buffet from AED 120 per person or bespoke plated dining at AED 700–950, with courses scheduled around speeches. Any wine service is subject to the venue’s permissions and written confirmation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Choose the format that matches the room. Buffet suits a larger banquet. Plated service suits a formal awards table. A 10 to 15 guest board dinner is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>.

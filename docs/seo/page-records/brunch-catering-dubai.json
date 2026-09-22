@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/brunch-catering-dubai",
+  "path": "/brunch-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Seasonal and Occasions",
+  "purpose": "Match an event format or venue to a catering proposal.",
+  "keywords": {
+    "primary": "brunch catering dubai",
+    "secondary": [
+      "brunch catering dubai price",
+      "brunch catering price per person dubai",
+      "best brunch catering dubai",
+      "brunch catering packages dubai",
+      "brunch catering menu dubai",
+      "halal brunch catering dubai",
+      "villa brunch catering dubai",
+      "birthday brunch catering dubai",
+      "easter brunch catering dubai",
+      "mothers day brunch catering dubai",
+      "brunch offers in dubai",
+      "brunch on sundays in dubai"
+    ],
+    "primary_owner": "/brunch-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Brunch Catering Dubai | myCHEF",
+    "description": "Brunch catering Dubai: weekend villa tables, corporate mornings and a chef in your kitchen. Pastries, eggs, fruit and coffee, then we clear down.",
+    "h1": [
+      "Brunch Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/brunch-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BrunchCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2519,
+    "current_word_count": 2516,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Brunch catering Dubai, cooked in your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Villa tables, offices and visitors"
+      },
+      {
+        "level": "h3",
+        "text": "Villa Residents"
+      },
+      {
+        "level": "h3",
+        "text": "Companies & Teams"
+      },
+      {
+        "level": "h3",
+        "text": "Visitors & Hotels"
+      },
+      {
+        "level": "h2",
+        "text": "How the morning is staffed"
+      },
+      {
+        "level": "h3",
+        "text": "Weekend Villa Brunch"
+      },
+      {
+        "level": "h3",
+        "text": "Breakfast Chef Service"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Morning Events"
+      },
+      {
+        "level": "h3",
+        "text": "Celebration Brunch"
+      },
+      {
+        "level": "h2",
+        "text": "What the brunch quote lists"
+      },
+      {
+        "level": "h2",
+        "text": "What goes on the morning table"
+      },
+      {
+        "level": "h2",
+        "text": "Arrival, cook, clear-down"
+      },
+      {
+        "level": "h3",
+        "text": "Date, guest count, venue"
+      },
+      {
+        "level": "h3",
+        "text": "Menu and staffing"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm in writing"
+      },
+      {
+        "level": "h3",
+        "text": "Shopping"
+      },
+      {
+        "level": "h3",
+        "text": "Arrive early"
+      },
+      {
+        "level": "h3",
+        "text": "Serve and clear"
+      },
+      {
+        "level": "h2",
+        "text": "We arrive before the guests. We leave the kitchen clear."
+      },
+      {
+        "level": "h2",
+        "text": "Mornings we cook for"
+      },
+      {
+        "level": "h3",
+        "text": "Weekend Villa Brunch"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Breakfast Meetings"
+      },
+      {
+        "level": "h3",
+        "text": "Not a daily household chef"
+      },
+      {
+        "level": "h3",
+        "text": "Celebration & Birthday Brunch"
+      },
+      {
+        "level": "h2",
+        "text": "Other morning services"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h3",
+        "text": "Related Seasonal Services"
+      },
+      {
+        "level": "h3",
+        "text": "Popular Locations"
+      },
+      {
+        "level": "h2",
+        "text": "The questions we get before a brunch booking"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater brunches at villas and private homes?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide a private breakfast chef every day?"
+      },
+      {
+        "level": "h3",
+        "text": "What kind of brunch menu can we choose?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater corporate breakfast events?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book brunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does brunch catering cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What exactly is included in a brunch catering booking?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your brunch prices inclusive of VAT?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your brunch food halal and prepared to Dubai food-safety standards?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I know I can trust myCHEF with an event at my home?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you make eggs, pancakes, and waffles to order in front of guests?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum number of guests for brunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide waiters and serving staff for the brunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a brunch with drinks, mocktails, or a bar setup?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle allergies and mixed dietary needs at one brunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Which areas of Dubai do you cover for brunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How early should I book brunch catering to secure my date?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you set up brunch outdoors, poolside, or on a terrace?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need to provide anything, or do you bring everything?"
+      },
+      {
+        "level": "h3",
+        "text": "Is brunch catering at home better than booking a hotel brunch?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a private chef prepare breakfast every day during a villa stay?"
+      },
+      {
+        "level": "h3",
+        "text": "Is easter brunch catering Dubai the same as brunch catering Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Brunch Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date, the headcount and the address"
+      },
+      {
+        "level": "h2",
+        "text": "More in Seasonal and Occasions"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering"
+      },
+      {
+        "url": "/brunch-catering-dubai",
+        "anchor": "Brunch catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/festive-catering-dubai",
+      "anchor": "Festive catering",
+      "alt_anchors": [
+        "festive catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/breakfast-catering-dubai",
+        "anchor": "Breakfast catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/afternoon-tea-catering-dubai",
+        "anchor": "Afternoon tea catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/brunch-at-home-dubai",
+        "anchor": "Brunch at home",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/brunch-at-home-dubai",
+        "anchor": "Brunch at home",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/booking-protection-insurance",
+  "path": "/booking-protection-insurance",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "catering cancellation policy dubai",
+    "secondary": [
+      "catering deposit refund dubai",
+      "event catering insurance dubai",
+      "what happens if my chef cancels dubai",
+      "caterer liability insurance dubai",
+      "catering contract wedding cancellation policy",
+      "catering hall contract cancellation policy",
+      "catering booking cancellation policy",
+      "cancellation policy for catering events",
+      "catering cancellation policy sample",
+      "maggianos catering cancellation policy",
+      "mission bbq catering cancellation policy",
+      "moes catering cancellation policy"
+    ],
+    "primary_owner": "/booking-protection-insurance",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Cancellation Policy Dubai | myCHEF",
+    "description": "Catering cancellation policy Dubai: 15 days or more, 8 to 14 days, 48 hours to 7 days, under 48 hours. Deposit 50%. Balance due 7 days before service.",
+    "h1": [
+      "Catering Cancellation Policy Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/booking-protection-insurance",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/bookingTerms.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BookingProtectionInsurance.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1103,
+    "current_word_count": 1105,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Catering cancellation policy Dubai is already in the terms"
+      },
+      {
+        "level": "h2",
+        "text": "What the booking actually protects"
+      },
+      {
+        "level": "h3",
+        "text": "If the chef cannot attend"
+      },
+      {
+        "level": "h3",
+        "text": "Insurance on the people who cook"
+      },
+      {
+        "level": "h3",
+        "text": "Deposit and payment"
+      },
+      {
+        "level": "h3",
+        "text": "Cancellation and refund"
+      },
+      {
+        "level": "h3",
+        "text": "If the night falls short"
+      },
+      {
+        "level": "h3",
+        "text": "The written booking is the contract"
+      },
+      {
+        "level": "h2",
+        "text": "What to Expect From Our Terms"
+      },
+      {
+        "level": "h3",
+        "text": "Backup is briefed from the record"
+      },
+      {
+        "level": "h3",
+        "text": "Insurance is checked, not assumed"
+      },
+      {
+        "level": "h3",
+        "text": "A 50% deposit confirms the date"
+      },
+      {
+        "level": "h3",
+        "text": "Cancellation follows the calendar"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Cancellation Policy Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if my chef cancels?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you insured?"
+      },
+      {
+        "level": "h3",
+        "text": "What is your cancellation policy?"
+      },
+      {
+        "level": "h3",
+        "text": "How does the deposit work?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you handle complaints?"
+      },
+      {
+        "level": "h3",
+        "text": "Will I receive written booking terms?"
+      },
+      {
+        "level": "h3",
+        "text": "When is the remaining balance due?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Book Your Protected Event"
+      },
+      {
+        "level": "h2",
+        "text": "More in Trust and About"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/booking-protection-insurance",
+        "anchor": "Catering cancellation policy",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/quality-guarantee-dubai",
+        "anchor": "Catering quality guarantee",
+        "alt_anchors": []
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

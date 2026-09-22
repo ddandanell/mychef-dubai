@@ -146,7 +146,7 @@ export default function SiteMap() {
             </ul>
           </div>
           <div>
-            <h2 className="font-playfair text-xl text-black mb-4">Bluebook trust & service pages</h2>
+            <h2 className="font-playfair text-xl text-black mb-4">Service standards and programmes</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/weekly-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/weekly-meal-prep-dubai</Link></li>
               <li><Link to="/wellness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/wellness-meal-prep-dubai</Link></li>
@@ -182,7 +182,7 @@ export default function SiteMap() {
             </ul>
           </div>
           <div>
-            <h2 className="font-playfair text-xl text-black mb-4">Content gaps closed</h2>
+            <h2 className="font-playfair text-xl text-black mb-4">More services and planning resources</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/gallery" className="text-gray-600 hover:text-gold transition-colors">/gallery</Link></li>
               <li><Link to="/venue-partners" className="text-gray-600 hover:text-gold transition-colors">/venue-partners</Link></li>
@@ -238,7 +238,6 @@ export default function SiteMap() {
               <li><Link to="/corporate-catering-checklist-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-catering-checklist-dubai</Link></li>
               <li><Link to="/private-chef-vs-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-chef-vs-catering-dubai</Link></li>
               <li><Link to="/buffet-vs-plated-dubai" className="text-gray-600 hover:text-gold transition-colors">/buffet-vs-plated-dubai</Link></li>
-              <li><Link to="/yacht-catering-guide-dubai" className="text-gray-600 hover:text-gold transition-colors">/yacht-catering-guide-dubai</Link></li>
               <li>/ramadan-catering-guide-dubai</li>
               <li>/luxury-dinner-planning-guide-dubai</li>
             </ul>
@@ -248,7 +247,6 @@ export default function SiteMap() {
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/guide/private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/guide/private-dining-dubai</Link></li>
               <li>/dubai-event-catering-price-guide-2026</li>
-              <li><Link to="/yacht-catering-checklist-dubai" className="text-gray-600 hover:text-gold transition-colors">/yacht-catering-checklist-dubai</Link></li>
               <li><Link to="/wedding-catering-menu-planning-dubai" className="text-gray-600 hover:text-gold transition-colors">/wedding-catering-menu-planning-dubai</Link></li>
               <li><Link to="/dubai-food-trends-report-2026" className="text-gray-600 hover:text-gold transition-colors">/dubai-food-trends-report-2026</Link></li>
             </ul>

@@ -17,9 +17,9 @@ export default function EventPlannersPartner() {
       ogImage="/images/events-catering-dubai-hero.webp"
       headline="Event Planners Partnership Dubai"
       eyebrow="FOR EVENT PLANNING COMPANIES"
-      subheadline="Event planners partnership Dubai: a catering partner for weddings, corporate events and private parties. You plan the event; we run the kitchen."
+      subheadline={"An event planners partnership in Dubai for weddings, company events and private celebrations, with catering coordinated around your overall plan."}
       intro="Event planners partnership Dubai: you keep the brief"
-      valueProposition="Event planners partnership Dubai is a catering relationship, not a second planner. myCHEF writes the menu, matches chefs and service staff, and handles service and cleanup. You keep the client, the venue and the run of show."
+      valueProposition={"Our event planners partnership in Dubai supports your event with menu development, chef matching, catering staff and clear-down. You lead the client relationship and event programme; we agree the culinary responsibilities and timings with you."}
       benefits={[
         { icon: Calendar, title: 'Catering from brief to clear-down', description: 'Menu design, tasting, service and cleanup. We manage the food side of the event, not the whole production.' },
         { icon: TrendingUp, title: 'A kitchen you can put in the bid', description: 'Offer private chef and catering options on your proposals, with our team named and quoted.' },

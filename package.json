@@ -47,7 +47,11 @@
     "seo:evidence": "python3 docs/seo/keyword-map/build-evidence.py",
     "seo:voice": "python3 docs/seo/keyword-map/build-voice.py",
     "seo:snippets": "python3 docs/seo/keyword-map/build-snippets.py",
-    "seo:crm": "python3 docs/seo/keyword-map/build-crm.py"
+    "seo:crm": "python3 docs/seo/keyword-map/build-crm.py",
+    "test:catering-inquiry": "tsx scripts/test-catering-inquiry.ts",
+    "seo:page-records": "python3 scripts/generate-page-records.py",
+    "verify:page-records": "python3 scripts/generate-page-records.py --check",
+    "verify:editorial": "python3 scripts/verify-editorial-build.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

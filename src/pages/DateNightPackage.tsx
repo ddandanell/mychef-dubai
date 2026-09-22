@@ -15,12 +15,12 @@ export default function DateNightPackage() {
       name={pkg.name}
       seoTitle="Date Night Package Dubai | myCHEF"
       description="Date night package Dubai: AED 1,200 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately."
-      intro="Date night package Dubai is a published total for two: AED 1,200 for a three-course dinner cooked in your kitchen, served at your table and cleared after. That is a package price, not chef-led plated dining at AED 700–950 per person. Dietary notes go into the first menu draft. Halal is the default. Wine or cocktails only where the quotation says so."
+      intro={"The Date Night package in Dubai includes a three-course dinner for two at AED 1,200, prepared in your kitchen with table service and clear-down. This defined package has its own menu and scope; bespoke chef-led plated menus are quoted separately. Dietary requirements, drinks and 5% VAT are confirmed in your proposal."}
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"
       headline="Date Night Package Dubai"
       eyebrow="DINNER FOR TWO"
-      subheadline="AED 1,200 for two guests. Three courses, a chef in the kitchen, the table set, the kitchen left as we found it."
+      subheadline={"AED 1,200 for two guests, including a three-course dinner, your chef, table service and kitchen clear-down."}
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
       perPerson={`AED ${pkg.perPerson}`}

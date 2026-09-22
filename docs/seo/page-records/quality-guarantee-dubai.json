@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/quality-guarantee-dubai",
+  "path": "/quality-guarantee-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "catering quality guarantee dubai",
+    "secondary": [
+      "what if catering goes wrong dubai",
+      "catering complaint policy dubai",
+      "how to complain about a caterer dubai",
+      "gulf catering company uae",
+      "catering vs delivery"
+    ],
+    "primary_owner": "/quality-guarantee-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Quality Guarantee Dubai | myCHEF",
+    "description": "Catering quality guarantee Dubai: the chef is checked, the booking is written, backup is briefed from the record, and credits follow the booking terms.",
+    "h1": [
+      "Catering Quality Guarantee Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/quality-guarantee-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/QualityGuarantee.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 886,
+    "current_word_count": 889,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Catering quality guarantee Dubai is the written booking"
+      },
+      {
+        "level": "h2",
+        "text": "What you can hold us to"
+      },
+      {
+        "level": "h3",
+        "text": "The chef is checked before they arrive"
+      },
+      {
+        "level": "h3",
+        "text": "If the chef cannot attend"
+      },
+      {
+        "level": "h3",
+        "text": "If the service falls short"
+      },
+      {
+        "level": "h3",
+        "text": "A written booking, not a handshake"
+      },
+      {
+        "level": "h2",
+        "text": "What \"Making It Right\" Looks Like"
+      },
+      {
+        "level": "h3",
+        "text": "The terms are already written"
+      },
+      {
+        "level": "h3",
+        "text": "During service you can reach us"
+      },
+      {
+        "level": "h3",
+        "text": "The proposal names the job"
+      },
+      {
+        "level": "h3",
+        "text": "The house scores the work"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Quality Guarantee Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "What does the catering quality guarantee actually cover?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if the chef does not show up?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I report a quality issue?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you guarantee that I will like the food?"
+      },
+      {
+        "level": "h3",
+        "text": "How do cancellation refunds work?"
+      },
+      {
+        "level": "h3",
+        "text": "What if catering goes wrong on the night?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Send the brief. Get a written proposal."
+      },
+      {
+        "level": "h2",
+        "text": "More in Trust and About"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/quality-guarantee-dubai",
+        "anchor": "Catering quality guarantee",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/booking-protection-insurance",
+        "anchor": "Catering cancellation policy",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-we-vet-our-chefs",
+        "anchor": "How chefs are vetted",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

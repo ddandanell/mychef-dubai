@@ -17,9 +17,9 @@ export default function YachtChartersPartner() {
       ogImage="/images/yacht-catering-dubai-hero.webp"
       headline="Yacht Charters Partnership Dubai"
       eyebrow="FOR YACHT CHARTER COMPANIES"
-      subheadline="A chef or a catering package on the charter, planned around the galley and boarding, not copied from a villa menu."
+      subheadline={"Private chefs and catering packages for yacht charters, with menus, loading and service tailored to the vessel and itinerary."}
       intro="The food has to match the boat, not a restaurant floor plan."
-      valueProposition="Guests chartering in Dubai Marina, Dubai Harbour or Palm Jumeirah often want dinner on a yacht, sunset canapés or a deck grill. We plan around galley size, boarding and holding. You sell the charter. We run the food. Commission or a packaged rate is agreed in writing."
+      valueProposition={"Offer your charter guests a private dinner, sunset canapés or an agreed deck grill. We plan around galley facilities, chilled storage, boarding and the captain’s schedule. Any commission or packaged rate is confirmed in writing with your charter team."}
       benefits={[
         { icon: Ship, title: 'Onboard cooking that fits the galley', description: 'Menus written for limited oven, grill and fridge space. Much of the work is done on land before boarding.' },
         { icon: TrendingUp, title: 'A food line you can add to the charter', description: 'Canapés, a grill, or a seated sitting in the saloon. Quoted as its own line, not hidden in the boat rate.' },

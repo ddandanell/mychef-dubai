@@ -11,6 +11,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { BLOG_TOPIC_HUB_PATHS } from '../src/content/blogTaxonomy'
+import { RYZE_BLOG_PATHS } from '../src/content/ryzeBlogPaths'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
@@ -145,7 +146,7 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
 ]
 
 function parseRoutes(source: string): string[] {
-  const routes: string[] = []
+  const routes: string[] = [...RYZE_BLOG_PATHS]
   // Match route declarations in src/routes.tsx: { path: "/...", ... }
   const routeRegex = /\{\s*path:\s*["']([^"']+)["']/g
   let match: RegExpExecArray | null
@@ -170,8 +171,26 @@ function getRule(pathStr: string) {
   return { priority: 0.5, changefreq: 'monthly', section: 'Other' }
 }
 
-function today() {
-  return new Date().toISOString().split('T')[0]
+// Regeneration is not a content update. Preserve each existing date; authored
+// article timestamps can advance it when article content changes.
+const previousDates = new Map<string, string>()
+if (fs.existsSync(SITEMAP_OUT)) {
+  const previous = fs.readFileSync(SITEMAP_OUT, 'utf8')
+  for (const block of previous.matchAll(/<url>[\s\S]*?<\/url>/g)) {
+    const url = block[0].match(/<loc>([^<]+)<\/loc>/)?.[1]
+    const date = block[0].match(/<lastmod>([^<]+)<\/lastmod>/)?.[1]
+    if (url?.startsWith(DOMAIN) && date) previousDates.set(url.slice(DOMAIN.length) || '/', date)
+  }
+}
+
+function lastModified(route: string): string {
+  const articleFile = path.resolve(__dirname, '../blog/data', `${route.replace(/^\/blog\//, '')}.json`)
+  if (route.startsWith('/blog/') && fs.existsSync(articleFile)) {
+    const article = JSON.parse(fs.readFileSync(articleFile, 'utf8'))
+    const date = String(article.updated_at || article.published_at || '').slice(0, 10)
+    if (/^\d{4}-\d{2}-\d{2}$/.test(date)) return date
+  }
+  return previousDates.get(route) || new Date().toISOString().split('T')[0]
 }
 
 function buildSitemap(paths: string[]): string {
@@ -225,7 +244,7 @@ function buildSitemap(paths: string[]): string {
     xml += `\n  <!-- ${section} -->\n`
     for (const p of pathsInSection) {
       const rule = getRule(p)
-      xml += `  <url><loc>${DOMAIN}${p}</loc><lastmod>${today()}</lastmod><priority>${rule.priority.toFixed(1)}</priority><changefreq>${rule.changefreq}</changefreq></url>\n`
+      xml += `  <url><loc>${DOMAIN}${p}</loc><lastmod>${lastModified(p)}</lastmod><priority>${rule.priority.toFixed(1)}</priority><changefreq>${rule.changefreq}</changefreq></url>\n`
     }
   }
 

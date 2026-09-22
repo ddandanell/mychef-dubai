@@ -161,6 +161,123 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Blog"
   }
  ],
+ "/blog/best-arabic-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Arabic Catering Companies Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-bbq-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best BBQ Catering Companies in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-brunch-catering-services-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Brunch Catering Companies in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-corporate-event-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Corporate Catering Companies Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-corporate-lunch-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Corporate Catering Lunch Options in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-grazing-table-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Grazing Table Catering in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-halal-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Halal Catering Companies Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-kids-birthday-party-caterers-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Kids Birthday Catering Companies Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-luxury-private-dining-experiences-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Luxury Private Dining Experiences Dubai: What to Compare"
+  }
+ ],
  "/blog/best-private-chef-birthday-dinner-dubai": [
   {
    "href": "/",
@@ -176,6 +293,84 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private chef for birthday dinner"
+  }
+ ],
+ "/blog/best-private-chefs-for-villas-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Private Chefs for Villas in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-private-cooking-class-experiences-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Private Cooking Classes in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-ramadan-iftar-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-vegan-catering-services-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Vegan Catering Companies in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-wedding-catering-companies-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Wedding Catering Companies in Dubai: What to Compare"
+  }
+ ],
+ "/blog/best-yacht-catering-services-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Yacht Catering Companies in Dubai: What to Compare"
   }
  ],
  "/blog/brunch-at-home-dubai": [
@@ -1950,32 +2145,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Healthy meal prep"
   }
  ],
- "/yacht-catering-checklist-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "label": "Yacht catering checklist"
-  }
- ],
- "/yacht-catering-guide-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "label": "Yacht catering guide"
-  }
- ],
  "/yachts": [
   {
    "href": "/",
@@ -2163,8 +2332,6 @@ export const HERO_ROUTES: string[] = [
  "/wedding-catering-menu-planning-dubai",
  "/weekly-meal-prep-dubai",
  "/wellness-meal-prep-dubai",
- "/yacht-catering-checklist-dubai",
- "/yacht-catering-guide-dubai",
  "/yachts"
 ]
 
@@ -2464,8 +2631,68 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Blog"
   },
   {
+   "href": "/blog/best-arabic-catering-companies-in-dubai",
+   "label": "Best Arabic Catering Companies Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-bbq-catering-companies-in-dubai",
+   "label": "Best BBQ Catering Companies in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-brunch-catering-services-in-dubai",
+   "label": "Best Brunch Catering Companies in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-corporate-event-catering-companies-in-dubai",
+   "label": "Best Corporate Catering Companies Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-corporate-lunch-catering-companies-in-dubai",
+   "label": "Corporate Catering Lunch Options in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-grazing-table-catering-companies-in-dubai",
+   "label": "Best Grazing Table Catering in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-halal-catering-companies-in-dubai",
+   "label": "Best Halal Catering Companies Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-kids-birthday-party-caterers-in-dubai",
+   "label": "Best Kids Birthday Catering Companies Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-luxury-private-dining-experiences-in-dubai",
+   "label": "Best Luxury Private Dining Experiences Dubai: What to Compare"
+  },
+  {
    "href": "/blog/best-private-chef-birthday-dinner-dubai",
    "label": "Private chef for birthday dinner"
+  },
+  {
+   "href": "/blog/best-private-chefs-for-villas-in-dubai",
+   "label": "Best Private Chefs for Villas in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-private-cooking-class-experiences-in-dubai",
+   "label": "Best Private Cooking Classes in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+   "label": "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-vegan-catering-services-in-dubai",
+   "label": "Best Vegan Catering Companies in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-wedding-catering-companies-in-dubai",
+   "label": "Best Wedding Catering Companies in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-yacht-catering-services-in-dubai",
+   "label": "Best Yacht Catering Companies in Dubai: What to Compare"
   },
   {
    "href": "/blog/brunch-at-home-dubai",
@@ -2566,14 +2793,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/wedding-catering-menu-planning-dubai",
    "label": "Wedding menu planning"
-  },
-  {
-   "href": "/yacht-catering-checklist-dubai",
-   "label": "Yacht catering checklist"
-  },
-  {
-   "href": "/yacht-catering-guide-dubai",
-   "label": "Yacht catering guide"
   }
  ],
  "/institutional-catering-dubai": [

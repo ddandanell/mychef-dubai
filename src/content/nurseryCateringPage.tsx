@@ -20,7 +20,7 @@ export const nurseryPage: InstitutionalPageContent = {
     width: 1344,
     height: 752,
     subtitle:
-      'Nursery catering Dubai for early-years settings: chef-cooked meals, a written allergen list, and a kitchen you can inspect. We quote after we see the site, the diet list and the week.',
+      "Nursery catering in Dubai, with menus and service assessed around the children’s ages, dietary requirements and nursery facilities. We review the site, weekly schedule and documentation before preparing a proposal.",
     micro: 'Share enrolment, ages and whether lunch is included in the fee. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(
@@ -133,7 +133,7 @@ export const nurseryPage: InstitutionalPageContent = {
   compliance: {
     h2: 'What this work requires in Dubai',
     intro:
-      'These are the documents a nursery manager should be able to open. We will not take a contract we cannot document. We do not claim a My School Food listing or a named HACCP certificate on this page until those papers sit in src/content/.',
+      "Before a nursery contract is confirmed, the proposed culinary partner must provide the documentation required for that setting. Any school-food approval or named food-safety certification should be verified directly as part of the assessment.",
     rows: [
       { item: 'Trade licence with catering activity', who: 'DET', see: 'Licence copy on file' },
       { item: 'Food establishment permit / kitchen NOC', who: 'Dubai Municipality', see: 'Permit for the kitchen that actually cooks' },
@@ -146,7 +146,7 @@ export const nurseryPage: InstitutionalPageContent = {
       { item: 'Halal supply chain', who: 'Accredited body', see: 'Supplier certificates matching the menu' },
       { item: 'Allergen matrix and nut-free protocol', who: 'DM / KHDA expectation', see: 'Written matrix for the live cycle' },
     ],
-    note: 'Insurance, staff police clearance and cashless pre-order sit in the proposal when the site needs them. Cost of permits is an operations matter, not a menu line.',
+    note: "Any required insurance, staff clearances and ordering arrangements are confirmed in the proposal. Applicable permissions and operational responsibilities must be agreed before service begins.",
   },
   process: {
     h2: 'Four steps. The manager sees the papers.',
@@ -160,7 +160,7 @@ export const nurseryPage: InstitutionalPageContent = {
   quoting: {
     h2: 'How a nursery quote is built',
     paragraphs: [
-      'A useful proposal needs four things: the centre, how many children eat, the age bands, and the days. The diet list and whether parents currently pack lunch help. Telling us a budget band is not a trap: it means the first proposal is realistic.',
+      "Share the nursery location, number of children, age groups and service days, together with dietary requirements and the current lunch arrangements. An indicative spending range helps us prepare a relevant proposal.",
       'Access, parking and the time the children actually sit down change when food can arrive at temperature. Mention the building early. Headcounts move; we will tell you the last point at which the kitchen can still change the order.',
       'Published competitor meal plans in Dubai often sit in a band parents already know. That is market context, not our from-price. myCHEF quotes after the walk. 5% VAT is its own line.',
     ],
@@ -233,17 +233,17 @@ export const nurseryPage: InstitutionalPageContent = {
   locationSubtitle: (
     <>
       Early-years centres in{' '}
-      <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Arabian Ranches
-      </Link>
+      </span>
       ,{' '}
-      <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Dubai Hills
-      </Link>
+      </span>
       {' '}and{' '}
-      <Link to="/locations/jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Jumeirah
-      </Link>
+      </span>
       , and the rest of the city.
     </>
   ),

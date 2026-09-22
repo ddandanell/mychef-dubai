@@ -17,9 +17,9 @@ export default function VillaRentalsPartner() {
       ogImage="/images/villa-catering-dubai-hero.webp"
       headline="Villa Rentals Partnership Dubai"
       eyebrow="FOR VILLA RENTAL COMPANIES"
-      subheadline="Villa rentals partnership Dubai: a chef for guest breakfasts, dinners and villa BBQs, booked through you, cooked in the house."
+      subheadline={"A villa rentals partnership in Dubai, offering guests private breakfasts, dinners, BBQs and celebration menus prepared at the property."}
       intro="Villa rentals partnership Dubai: a chef in the house"
-      valueProposition="Guests in Dubai holiday villas often want dinners without leaving the house. A villa rentals partnership Dubai puts myCHEF on the booking: private chef dinners, breakfasts, BBQs and celebration catering, cooked in the villa kitchen. You keep the property. We match the chef, shop, serve and clear down."
+      valueProposition={"A villa rentals partnership in Dubai adds private dining to your guests’ stay. We plan breakfasts, dinners, BBQs and celebrations around the property’s kitchen and access arrangements, with the menu, chef and service confirmed for each booking."}
       benefits={[
         { icon: Home, title: 'In-villa private chef', description: 'A private chef prepares breakfast, lunch, dinner or events in the villa kitchen, so guests do not need a restaurant reservation.' },
         { icon: TrendingUp, title: 'A dining add-on on the listing', description: 'Offer chef dinners as an add-on on the villa booking, with the kitchen work sitting with us.' },

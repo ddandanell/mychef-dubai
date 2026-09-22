@@ -74,10 +74,14 @@ function inlineSeoScript(route: string): string {
   // Only the fields SeoContent/SeoHead read — keeps the inlined payload small.
   const data = {
     url: full.url,
+    updated_at: full.updated_at,
+    references: full.references,
     head: full.head,
     opening_paragraph: full.opening_paragraph,
     replace_in_block: full.replace_in_block,
     add_block: full.add_block,
+    images: full.images,
+    faq: full.faq,
   }
   const json = JSON.stringify({ path: route, data })
     .replace(/</g, "\\u003c")

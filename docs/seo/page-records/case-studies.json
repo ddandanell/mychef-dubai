@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/case-studies",
+  "path": "/case-studies",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Trust / Utility",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "keywords": {
+    "primary": "catering case studies dubai",
+    "secondary": [
+      "dubai event catering examples",
+      "private chef event portfolio dubai"
+    ],
+    "primary_owner": "/case-studies",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Case Studies Dubai | myCHEF",
+    "description": "Catering case studies Dubai: typical formats for villas, yachts, galas and launches. We do not publish named clients or invented results.",
+    "h1": [
+      "Catering Case Studies Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/case-studies",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/CaseStudies.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 761,
+    "current_word_count": 760,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Catering case studies Dubai without invented names"
+      },
+      {
+        "level": "h2",
+        "text": "How these nights are usually run"
+      },
+      {
+        "level": "h3",
+        "text": "Villa wedding reception"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht birthday"
+      },
+      {
+        "level": "h3",
+        "text": "Company gala dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Small villa dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Product launch reception"
+      },
+      {
+        "level": "h3",
+        "text": "Family Eid gathering"
+      },
+      {
+        "level": "h2",
+        "text": "What a real brief contains"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of Our Events"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Case Studies Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Are these named client stories?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I see a menu from a past event?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you share real client names?"
+      },
+      {
+        "level": "h3",
+        "text": "Can my event be featured?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I plan something in this shape?"
+      },
+      {
+        "level": "h3",
+        "text": "Why not publish results?"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Create Your Next Event Story"
+      },
+      {
+        "level": "h2",
+        "text": "More in Trust and About"
+      }
+    ],
+    "baseline_findings": [
+      "F04"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/faq",
+        "anchor": "FAQ"
+      },
+      {
+        "url": "/case-studies",
+        "anchor": "Catering case studies",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/faq",
+      "anchor": "FAQ",
+      "alt_anchors": [
+        "catering faq dubai",
+        "catering faq"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

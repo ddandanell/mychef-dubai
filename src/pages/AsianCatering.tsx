@@ -327,7 +327,7 @@ export default function AsianCatering() {
             Asian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asia-hero-sub">
-            Asian Catering Dubai is regional: Thai curries, Chinese woks, dim sum, Vietnamese and Korean plates. Live wok heat when the space allows. Sushi has its own page.
+            Asian catering in Dubai, from Thai curries and Cantonese dishes to dim sum, Vietnamese flavours and Korean-inspired menus. Choose a regional menu or a considered combination for your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 asia-hero-cta">Request your quote</Link>
@@ -353,7 +353,7 @@ export default function AsianCatering() {
             Wok heat, dim sum, regional menus. Sushi next door.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Asian Catering Dubai is a regional split, not a single tray. Thai curries, Cantonese woks, dim sum, Vietnamese herbs, Korean grills. Live wok stations need power, extraction and space. Apartment kitchens and yachts have limits. We check first. A raw counter belongs on <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link>.
+            Asian catering in Dubai spans distinct culinary traditions, each with its own ingredients and techniques. We plan Thai curries, wok dishes, dim sum and regional favourites around your kitchen facilities and service style. For a dedicated raw fish counter or chilled platters, explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.

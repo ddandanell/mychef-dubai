@@ -228,7 +228,7 @@ export default function FoundingCustomerOffer() {
             myCHEF Founding Customer Offer
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fc-hero-sub">
-            Silver from AED 2,500 a year, Gold from AED 5,500, Platinum from AED 12,000. The founding rate is locked for 12 months. The chef and the food are still quoted as a booking.
+            Founding membership starts from AED 2,500 per year for Silver, AED 5,500 for Gold and AED 12,000 for Platinum. The joining rate is fixed for 12 months; chefs, food and events are quoted separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fc-hero-cta">Join as a Founding Customer</Link>
@@ -256,7 +256,7 @@ export default function FoundingCustomerOffer() {
           </h2>
           <div className="fc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Founding membership locks the published founding rate for 12 months from the date you join. It does not include the chef, the groceries or the event. Those are still quoted as bookings.
+              Your founding membership rate is fixed for 12 months from joining. The membership provides the benefits listed for your tier, while each chef service or event is quoted as a separate booking.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               After the year you can renew at the then-current membership rate, or book as a guest. We do not promise a chef within 24 hours. We match the brief to who is available.

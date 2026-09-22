@@ -20,7 +20,7 @@ export const canteenPage: InstitutionalPageContent = {
     width: 1344,
     height: 752,
     subtitle:
-      'Canteen management Dubai is a kitchen, a team and a cycle: not a till app. Staff canteen management, setup and catering, quoted after we walk the room.',
+      "Canteen management in Dubai, with kitchen operations, staffing and rotating menus planned around your site. We assess the facilities, daily covers and service requirements before preparing a proposal.",
     micro: 'Share the site, covers per day and whether the room already exists. We typically reply within 15 minutes during business hours.',
   },
   whatsapp: institutionalWhatsApp(
@@ -191,7 +191,7 @@ export const canteenPage: InstitutionalPageContent = {
   faqs: [
     {
       q: 'Is this a cashless canteen system?',
-      a: 'No. Canteen management Dubai on this page is food, staff and a kitchen. Cashless canteen Dubai tech can sit on top if you want it. It is not the product.',
+      a: "Canteen management covers the food service, kitchen operation and agreed staffing. Cashless ordering or payment systems can be discussed as an additional requirement.",
     },
     {
       q: 'How much does canteen management cost in Dubai?',
@@ -203,7 +203,7 @@ export const canteenPage: InstitutionalPageContent = {
     },
     {
       q: 'Is this the same as office catering?',
-      a: 'Office catering is a repeating drop-off or a staffed sitting in a meeting room. This page is an operating canteen.',
+      a: "Office catering covers delivered meals or service in a meeting space. Canteen management covers the ongoing operation of a dedicated food-service facility.",
     },
     {
       q: 'Do you run school canteens?',
@@ -219,7 +219,7 @@ export const canteenPage: InstitutionalPageContent = {
     },
     {
       q: 'How soon can you start?',
-      a: 'An existing servery can trial in days once papers and a cycle are agreed. A fit-out follows the building, not a slogan.',
+      a: "An existing facility may allow a shorter setup period once the documentation and menu cycle are agreed. A kitchen fit-out requires a separate programme based on the building and operational requirements.",
     },
   ],
   locationTitle: 'Staff canteens across Dubai',
@@ -230,13 +230,13 @@ export const canteenPage: InstitutionalPageContent = {
         DIFC
       </Link>
       ,{' '}
-      <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Business Bay
-      </Link>
+      </span>
       {' '}and{' '}
-      <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+      <span>
         Downtown Dubai
-      </Link>
+      </span>
       .
     </>
   ),

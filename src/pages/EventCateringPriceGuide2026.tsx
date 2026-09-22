@@ -336,7 +336,7 @@ export default function EventCateringPriceGuide2026() {
             Event Catering Price Guide Dubai 2026
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 event-price-hero-sub">
-            Event catering price guide Dubai 2026 uses the same floors as the Catering hub, Menus and the calculator. From is the myCHEF start. Indicative market is a wider band, not a second floor.
+            Our Dubai event catering price guide for 2026 brings together myCHEF starting prices and clearly identified market ranges, helping you compare formats and prepare a realistic event brief.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 event-price-hero-cta">Request your quote</Link>
@@ -363,7 +363,7 @@ export default function EventCateringPriceGuide2026() {
             What this event catering price guide Dubai 2026 will not do
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            It will not invent a single “average” for Dubai catering prices 2026. Format decides the floor: drop-off from AED 90, a standard event buffet from AED 120, canapés, BBQ and live stations from AED 150, wedding catering from AED 180, yacht from AED 280, chef-led plated at AED 700–950 per person.
+            Catering prices vary by service format. myCHEF starting prices are AED 90 per person for drop-off, AED 120 for a standard event buffet, AED 150 for canapés, BBQ and live stations, AED 180 for weddings and AED 280 for yachts. Bespoke chef-led plated dining is AED 700–950 per person, with scope and VAT confirmed in the proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Package totals are separate: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Household chef visit rates are not this page.
@@ -682,7 +682,7 @@ export default function EventCateringPriceGuide2026() {
             Send the date, the headcount and the format
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            We typically reply within 15 minutes during business hours with an itemised proposal: food, chefs, staff, hire and 5% VAT on separate lines.
+            We typically acknowledge enquiries within 15 minutes during business hours. Your itemised proposal follows after we review the brief: food, chefs, staff, hire and 5% VAT on separate lines.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Request your quote</Link>

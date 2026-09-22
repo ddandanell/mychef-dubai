@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-chef-dubai/how-your-plan-works",
+  "path": "/private-chef-dubai/how-your-plan-works",
+  "role": "noindex support page",
+  "page_type": "Private-chef cluster page",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": null,
+    "secondary": [
+      "private chef monthly plan dubai",
+      "how a household chef plan works"
+    ],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "How Your Private Chef Plan Works | myCHEF",
+    "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service.",
+    "h1": [
+      "How your private chef plan works"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-chef-dubai/how-your-plan-works",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/FillFrame.tsx",
+    "src/components/private-chef/QuotePair.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
+    "src/content/privateChefPage.ts",
+    "src/content/privateChefPlanTerms.ts",
+    "src/content/privateChefPricing.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/private-chef/HowYourPlanWorks.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1287,
+    "current_word_count": 3956,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Your plan"
+      },
+      {
+        "level": "h3",
+        "text": "A chef is only part of the service."
+      },
+      {
+        "level": "h3",
+        "text": "Your Food Profile is included."
+      },
+      {
+        "level": "h3",
+        "text": "You should not have to explain the same things every week."
+      },
+      {
+        "level": "h3",
+        "text": "One price for the job. The level is what the chef earns."
+      },
+      {
+        "level": "h3",
+        "text": "How we keep the standard"
+      },
+      {
+        "level": "h3",
+        "text": "Keep your regular chef. Bring in specialists when you want them."
+      },
+      {
+        "level": "h3",
+        "text": "Your kitchen does not need to be professional. It does need to work."
+      },
+      {
+        "level": "h3",
+        "text": "Food storage and containers."
+      },
+      {
+        "level": "h3",
+        "text": "Dietary requirements are part of the household plan."
+      },
+      {
+        "level": "h2",
+        "text": "Money"
+      },
+      {
+        "level": "h3",
+        "text": "Two ways to manage groceries."
+      },
+      {
+        "level": "h3",
+        "text": "Your household plan covers normal household use."
+      },
+      {
+        "level": "h3",
+        "text": "Additional kitchen assistant."
+      },
+      {
+        "level": "h3",
+        "text": "Need the chef for longer?"
+      },
+      {
+        "level": "h3",
+        "text": "From breakfast until late night."
+      },
+      {
+        "level": "h3",
+        "text": "More stability means better pricing."
+      },
+      {
+        "level": "h3",
+        "text": "Start from one service per week."
+      },
+      {
+        "level": "h3",
+        "text": "Simple monthly billing."
+      },
+      {
+        "level": "h3",
+        "text": "Your estimate is transparent, not permanent."
+      },
+      {
+        "level": "h3",
+        "text": "Selecting a date does not automatically reserve a chef."
+      },
+      {
+        "level": "h3",
+        "text": "No unnecessary long lock-in."
+      },
+      {
+        "level": "h2",
+        "text": "Schedule"
+      },
+      {
+        "level": "h3",
+        "text": "Move or cancel a visit with 24 hours’ notice."
+      },
+      {
+        "level": "h3",
+        "text": "You are reserving chef time, not buying rollover hours."
+      },
+      {
+        "level": "h3",
+        "text": "Occasional changes are part of household life."
+      },
+      {
+        "level": "h3",
+        "text": "Professional chefs need a sustainable schedule too."
+      },
+      {
+        "level": "h3",
+        "text": "Public holidays and exceptional dates."
+      },
+      {
+        "level": "h3",
+        "text": "Taking your chef somewhere else?"
+      },
+      {
+        "level": "h2",
+        "text": "People in your home"
+      },
+      {
+        "level": "h3",
+        "text": "Your service should not depend on one person’s calendar."
+      },
+      {
+        "level": "h3",
+        "text": "Chefs are people too. Illness and emergencies can happen."
+      },
+      {
+        "level": "h3",
+        "text": "Either side can decide the match is not working."
+      },
+      {
+        "level": "h3",
+        "text": "Household access and keys."
+      },
+      {
+        "level": "h3",
+        "text": "Cameras and recording."
+      },
+      {
+        "level": "h3",
+        "text": "The chef is not the nanny."
+      },
+      {
+        "level": "h3",
+        "text": "Pets."
+      },
+      {
+        "level": "h3",
+        "text": "If someone at home is ill."
+      },
+      {
+        "level": "h2",
+        "text": "When something goes wrong"
+      },
+      {
+        "level": "h3",
+        "text": "Accidents and emergencies."
+      },
+      {
+        "level": "h3",
+        "text": "Damage and breakage."
+      },
+      {
+        "level": "h3",
+        "text": "If something is not right, tell your account manager."
+      },
+      {
+        "level": "h3",
+        "text": "Changes to the job."
+      },
+      {
+        "level": "h3",
+        "text": "Some situations end an assignment immediately."
+      },
+      {
+        "level": "h2",
+        "text": "Grocery management & household payment"
+      },
+      {
+        "level": "h3",
+        "text": "1. Approved payment method"
+      },
+      {
+        "level": "h3",
+        "text": "2. Authorised user"
+      },
+      {
+        "level": "h3",
+        "text": "3. Permitted purchases"
+      },
+      {
+        "level": "h3",
+        "text": "4. Receipts are mandatory"
+      },
+      {
+        "level": "h3",
+        "text": "5. Digital record"
+      },
+      {
+        "level": "h3",
+        "text": "6. Card and cash storage"
+      },
+      {
+        "level": "h3",
+        "text": "7. Cash purchases"
+      },
+      {
+        "level": "h3",
+        "text": "8. Transport and delivery"
+      },
+      {
+        "level": "h3",
+        "text": "9. No grocery markup"
+      },
+      {
+        "level": "h3",
+        "text": "10. Grocery planning"
+      },
+      {
+        "level": "h3",
+        "text": "11. Spending limits"
+      },
+      {
+        "level": "h3",
+        "text": "12. Transparency"
+      },
+      {
+        "level": "h3",
+        "text": "13. Lost card, cash discrepancy or suspected misuse"
+      },
+      {
+        "level": "h3",
+        "text": "14. Security credentials"
+      },
+      {
+        "level": "h3",
+        "text": "15. Ending access"
+      },
+      {
+        "level": "h2",
+        "text": "The agreement"
+      },
+      {
+        "level": "h3",
+        "text": "Structured staffing, not a handshake hire."
+      },
+      {
+        "level": "h3",
+        "text": "Working with a myCHEF chef privately."
+      },
+      {
+        "level": "h3",
+        "text": "Confidentiality goes both ways."
+      },
+      {
+        "level": "h3",
+        "text": "Circumstances neither side controls."
+      },
+      {
+        "level": "h3",
+        "text": "Governing law and disputes."
+      },
+      {
+        "level": "h2",
+        "text": "You are not subscribing to food."
+      },
+      {
+        "level": "h2",
+        "text": "Design the service. We confirm the chef."
+      }
+    ],
+    "baseline_findings": [
+      "F12"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/private-chef-dubai/how-your-plan-works",
+        "anchor": "How your plan works",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

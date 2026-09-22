@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-chef-dubai/our-chefs",
+  "path": "/private-chef-dubai/our-chefs",
+  "role": "noindex support page",
+  "page_type": "Private-chef cluster page",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "navigational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Chef Selection & Matching | myCHEF",
+    "description": "How myCHEF selects and matches a chef for your Dubai household, with preferences, skill level, trial arrangements and ongoing support explained.",
+    "h1": [
+      "A chef matched to your household."
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/our-chefs",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/FillFrame.tsx",
+    "src/components/private-chef/QuotePair.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
+    "src/content/privateChefPage.ts",
+    "src/content/privateChefPricing.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/private-chef/OurChefs.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2441,
+    "current_word_count": 2419,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "One chef, three levels. That is the whole system"
+      },
+      {
+        "level": "h3",
+        "text": "Level 1"
+      },
+      {
+        "level": "h3",
+        "text": "Level 2"
+      },
+      {
+        "level": "h3",
+        "text": "Level 3"
+      },
+      {
+        "level": "h3",
+        "text": "Specialists"
+      },
+      {
+        "level": "h3",
+        "text": "An Executive Chef is not automatically the best private chef for your home"
+      },
+      {
+        "level": "h3",
+        "text": "Higher does not always mean better for you"
+      },
+      {
+        "level": "h3",
+        "text": "Level and specialty are different"
+      },
+      {
+        "level": "h2",
+        "text": "Selection includes four entry checks, then the match"
+      },
+      {
+        "level": "h2",
+        "text": "A score out of 100 — half built before your kitchen, half built inside real ones"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF Verified Quality"
+      },
+      {
+        "level": "h3",
+        "text": "Verified Client Performance"
+      },
+      {
+        "level": "h3",
+        "text": "A CV cannot create the highest level"
+      },
+      {
+        "level": "h3",
+        "text": "What a chef says — and what we have checked"
+      },
+      {
+        "level": "h3",
+        "text": "Two of the chefs who cook in Dubai homes"
+      },
+      {
+        "level": "h3",
+        "text": "And if the chef is not right for your home?"
+      },
+      {
+        "level": "h2",
+        "text": "The chef is matched to this house, not picked from a list"
+      },
+      {
+        "level": "h3",
+        "text": "Exceptional chefs are not a monthly subscription"
+      },
+      {
+        "level": "h3",
+        "text": "Chefs in the network"
+      },
+      {
+        "level": "h2",
+        "text": "Questions about hiring a personal chef in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "How do you select a personal chef in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What are the chef levels?"
+      },
+      {
+        "level": "h3",
+        "text": "Will I meet the chef before they start?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I hire a chef in Dubai through myCHEF?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you have Indian, Japanese or Italian chefs in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "See the chef matched to your home"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F05",
+      "F12",
+      "F13"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/private-chef-dubai/our-chefs",
+        "anchor": "Our chefs",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

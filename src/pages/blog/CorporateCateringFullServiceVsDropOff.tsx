@@ -128,7 +128,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
       <PageHero
         eyebrow="Corporate Catering"
         title="Full Service vs Drop Off Catering Dubai"
-        subtitle="Drop-off is food delivered and laid out. Full service is food plus people in the room. The format decides most of the price."
+        subtitle={"Compare delivered catering with a fully staffed service, including what each format covers and how the choice affects your event plan and price."}
         image="/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
         imageAlt="Corporate catering full service vs drop off Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Full-Service vs Drop-Off' }]}

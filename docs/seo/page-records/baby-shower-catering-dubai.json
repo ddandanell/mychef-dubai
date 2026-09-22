@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/baby-shower-catering-dubai",
+  "path": "/baby-shower-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Events",
+  "purpose": "Convert a specific celebration into a written event brief.",
+  "keywords": {
+    "primary": "baby shower catering dubai",
+    "secondary": [
+      "baby shower catering dubai price",
+      "baby shower catering cost per person dubai",
+      "best baby shower catering dubai",
+      "baby shower catering packages dubai",
+      "baby shower catering menu dubai",
+      "halal baby shower catering dubai",
+      "baby shower grazing table dubai",
+      "baby shower food and drinks catering",
+      "baby shower caterers near me",
+      "baby shower food dubai",
+      "party catering in dubai",
+      "small party catering in dubai"
+    ],
+    "primary_owner": "/baby-shower-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Baby Shower Catering Dubai | Grazing & Mocktails | myCHEF",
+    "description": "Baby shower catering Dubai: grazing tables, afternoon tea, canapés, dessert displays and mocktails, styled to your theme. Then we clear down.",
+    "h1": [
+      "Baby Shower Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/baby-shower-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BabyShowerCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2095,
+    "current_word_count": 2100,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Baby shower catering Dubai: light food, styled to the theme"
+      },
+      {
+        "level": "h2",
+        "text": "Grazing, tea, canapés and dessert tables"
+      },
+      {
+        "level": "h3",
+        "text": "Grazing Tables"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Selections"
+      },
+      {
+        "level": "h3",
+        "text": "Afternoon Tea Style"
+      },
+      {
+        "level": "h3",
+        "text": "Dessert Tables"
+      },
+      {
+        "level": "h3",
+        "text": "Mocktails & Drinks"
+      },
+      {
+        "level": "h3",
+        "text": "Themed Styling"
+      },
+      {
+        "level": "h2",
+        "text": "Showers we coordinate catering for"
+      },
+      {
+        "level": "h3",
+        "text": "Intimate Home Showers"
+      },
+      {
+        "level": "h3",
+        "text": "Garden & Villa Celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Gender Reveals"
+      },
+      {
+        "level": "h3",
+        "text": "Elegant Afternoon Gatherings"
+      },
+      {
+        "level": "h2",
+        "text": "What the shower quote lists"
+      },
+      {
+        "level": "h2",
+        "text": "How the table is set"
+      },
+      {
+        "level": "h2",
+        "text": "The questions we get before a baby shower booking"
+      },
+      {
+        "level": "h3",
+        "text": "What food works best for a baby shower?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you match the menu to our theme or colour palette?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you serve alcohol-free drinks?"
+      },
+      {
+        "level": "h3",
+        "text": "How many guests do you cater for at a baby shower?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should we book?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does baby shower catering in Dubai cost?"
+      },
+      {
+        "level": "h3",
+        "text": "What exactly is included in the price?"
+      },
+      {
+        "level": "h3",
+        "text": "Is there a minimum spend or minimum guest count?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook fresh on-site or deliver the food?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your chefs and kitchens food-safety licensed?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the food halal?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I book, and how quickly will I hear back?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide serving staff and hosts for the shower?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide the baby shower cake and dessert table too?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater a gender reveal as part of the shower?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater baby showers in villas, apartments, and gardens?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you handle the setup and styling, or just drop off the food?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book during peak season?"
+      },
+      {
+        "level": "h3",
+        "text": "Can baby shower catering be combined with other party services?"
+      },
+      {
+        "level": "h3",
+        "text": "How is this different from booking a venue package for a baby shower?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater baby shower food and drinks catering?"
+      },
+      {
+        "level": "h2",
+        "text": "Baby Shower Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "Baby shower catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date, the theme and the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Events"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/events",
+        "anchor": "Events"
+      },
+      {
+        "url": "/baby-shower-catering-dubai",
+        "anchor": "Baby shower catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/events",
+      "anchor": "Events",
+      "alt_anchors": [
+        "event catering dubai",
+        "event catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Kids birthday catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/grazing-table-dubai",
+        "anchor": "Grazing tables",
+        "alt_anchors": []
+      },
+      {
+        "url": "/afternoon-tea-catering-dubai",
+        "anchor": "Afternoon tea catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/dessert-table-catering-dubai",
+        "anchor": "Dessert table catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines",
+        "alt_anchors": [
+          "multi cuisine catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

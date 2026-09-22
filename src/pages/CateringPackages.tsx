@@ -97,7 +97,7 @@ export default function CateringPackages() {
 
       <PageHero
         title={PACKAGE_HUB_SEO.h1}
-        subtitle="Catering packages Dubai: four published totals before the menu is written. Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Each names a typical guest count and what the chef and service team do on the night."
+        subtitle={"Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night AED 1,200, Family Feast AED 2,400, Birthday AED 3,600 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details."}
         image={HERO}
         imageAlt="A private chef dinner table in a Dubai home, service in the background. Experience concept shown."
         imageWidth={1344}

@@ -233,13 +233,13 @@ export const PRIVATE_CHEF_SIBLING_LINKS = [
 export const hubRouteCards = [
   {
     title: 'Standing household chef',
-    body: 'The same chef most weeks, a Food Profile, and cover when your chef is away. Hire a private chef in Dubai for your family rather than for one evening — this is the page for that.',
+    body: "A regular chef matched to your household, with your preferences recorded in a Food Profile and cover coordinated when your chef is away.",
     href: null as string | null,
     cta: 'You are on the right page',
   },
   {
     title: 'One-night dinner',
-    body: 'A private chef for a dinner party in Dubai is catering: one evening, a team, then clear-down.',
+    body: "For a one-off dinner party, explore our catering and private dining services, with the menu and service quoted for your occasion.",
     href: '/catering-dubai',
     cta: 'Luxury catering in Dubai',
   },
@@ -253,7 +253,7 @@ export const parentSeo = {
   description: `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed, and replaced if the fit is wrong.`,
   h1: 'Private Chef Dubai: a chef who comes back',
   subtitle:
-    'A private chef Dubai service means one chef cooking for your family regularly. A personal chef Dubai search is the same job: one named cook, not a new person every week. Usually the same person each week, a written record of how you like to eat, and cover when your chef is away. We find the chef, agree the menu with you, and manage everything after that. If you only want one dinner cooked, that is catering.',
+    "Our private chef service in Dubai brings regular cooking into your household routine. We aim to match you with the same chef each week, record your preferences in a Food Profile and coordinate menus, scheduling and cover. One-off dinners are arranged through our catering and private dining services.",
 }
 
 export const childSeo = {
@@ -262,17 +262,17 @@ export const childSeo = {
     title: 'Managed Private Chef Service Dubai | How It Works | myCHEF',
     description:
       'How to get a cook in Dubai on a standing plan: the brief, the match, the Food Profile, onboarding and feedback. Full-time or part time cook in Dubai, managed for you.',
-    h1: 'A managed private chef service Dubai households run without becoming the manager.',
+    h1: "A managed private chef service for your Dubai household.",
     subtitle:
-      'Tell us how your household eats. We match the chef, build the Food Profile and stay behind the service as routines, preferences and people change.',
+      "Tell us how your household likes to eat. We match the chef, develop your Food Profile and coordinate the service as your preferences and routine evolve.",
     eyebrow: 'How It Works',
   },
   // LOCKED: "personal chef dubai" (70/mo). Secondary: "hire a chef", "hire chef dubai", "indian chef dubai".
   ourChefs: {
     title: 'Chef Selection & Matching | myCHEF',
     description:
-      'How to hire a chef in Dubai through myCHEF: identity checks, a practical cooking assessment, references and chef levels. Find a personal chef in Dubai matched to your household.',
-    h1: 'We do not find a chef. We find your chef.',
+      'How myCHEF selects and matches a chef for your Dubai household, with preferences, skill level, trial arrangements and ongoing support explained.',
+    h1: 'A chef matched to your household.',
     subtitle:
       'Cooking experience matters. Household fit matters just as much. We assess ability, verify the person behind the CV and match both to the way your home actually runs.',
     eyebrow: 'Our Chefs',
@@ -294,7 +294,7 @@ export const childSeo = {
       'Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, and how discretion and household access are handled.',
     h1: 'Your home changes the standard.',
     subtitle:
-      'A private chef works inside your personal space. That is why identity, right to work, a practical cooking assessment, references and food-hygiene awareness all happen before anyone is placed — and why the checking does not stop there.',
+      "Inviting a chef into your home requires care and trust. Our selection process covers identity, right to work, a practical cooking assessment, references and food hygiene awareness, followed by ongoing review during the service.",
     eyebrow: 'Privacy & Security',
   },
   // LOCKED: "private chef dubai prices" (owner decision 2026-08-25). Secondary: "home chef dubai", "private chef hire", "personal cook dubai", "part time cook in dubai".
@@ -531,11 +531,11 @@ export const pricingFaqs = [
   },
   {
     q: 'What does a home chef in Dubai cost per month?',
-    a: 'Long-term plans start at AED 3,000 a month — one Fresh Meal a week. Four days a week of Kitchen on Autopilot is 16 visits at AED 16,800; five days a week is 20 visits at AED 18,500 on the Dedicated Household Rate, and a Full-Day Private Chef five days a week is AED 26,400. Groceries are charged at actual cost. Those are the calculator’s own figures on [Pricing & Plans](/private-chef-dubai/pricing#calculator), not a different set for the brochure.',
+    a: "Long-term plans start at AED 3,000 a month for one Fresh Meal visit each week. Kitchen on Autopilot is AED 16,800 for 16 visits or AED 18,500 for 20 visits at the Dedicated Household Rate. A Full-Day Private Chef for 20 visits is AED 26,400. Groceries are charged at actual cost. See [Pricing & Plans](/private-chef-dubai/pricing#calculator) for the current calculation and VAT.",
   },
   {
     q: 'Is private chef hire cheaper than employing a cook myself?',
-    a: 'A direct hire can look cheaper per hour, but you carry the unpaid work: finding, vetting, backup, admin and quality review. Private chef hire through myCHEF includes that system — and you pay only for the days the house actually needs, from one day a week, instead of occupying a full-time salary.',
+    a: "A managed plan includes chef selection, scheduling, backup coordination and quality reviews. Choose the days your household needs, starting from one visit a week, and compare the complete scope with the responsibilities of a direct hire.",
   },
   {
     q: 'Is VAT included in the prices?',
@@ -543,7 +543,7 @@ export const pricingFaqs = [
   },
   {
     q: 'How is this different from private chef prices for an event?',
-    a: 'This page is standing household plans. One night, a birthday, a yacht or clients for an evening is a different product — see [private chef prices for events](/private-chef-dubai/pricing) and [catering in Dubai](/catering-dubai).',
+    a: "Household plans cover regular cooking at home. For a birthday, yacht celebration or one-off private dinner, see our [catering options](/catering-dubai) and request a proposal for your occasion.",
   },
 ] as const
 

@@ -147,7 +147,7 @@ export default function About() {
       <PageHero
         eyebrow="ABOUT MYCHEF"
         title="Private Chef Company Dubai: Hiring a chef is the easy part."
-        subtitle="myCHEF is a private chef company in Dubai. Independent, licensed chefs cook. We match, vet, back up and review, so you are not putting a chef on payroll. Tell us about the household or the night."
+        subtitle={"myCHEF is a private chef company in Dubai, connecting thoughtful menu planning with carefully selected culinary partners. We coordinate regular household cooking and one-off occasions, from the first conversation to the final clear-down."}
         image="/images/mychef-dubai-about-team-hero.webp"
         imageAlt="The myCHEF Dubai team of chefs, specialists and household managers in a Dubai kitchen with the skyline behind them"
         imageWidth={1672}
@@ -174,7 +174,7 @@ export default function About() {
                 Restaurants have a system behind the chef. Homes usually do not.
               </DisplayHeading>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
-                <p>myCHEF Dubai was built on one idea: the guest should own the evening and none of the work. In a restaurant a system sits behind the chef. In most homes, the host becomes that system. We designed the company so that does not happen.</p>
+                <p>myCHEF Dubai was created to make exceptional food easier to enjoy at home. Behind every booking is the planning a good kitchen depends on: the right chef, a clear brief, a considered menu and someone keeping the details together.</p>
                 <p>
                   Independent, licensed culinary partners cook. myCHEF matches the chef, checks identity, cooking and references, holds a Food Profile of how the house eats, and stays the contact when something changes. You are not putting a chef on payroll.
                 </p>

@@ -305,7 +305,7 @@ export default function VegetarianCatering() {
             Vegetarian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 veg-hero-sub">
-            Vegetarian Catering Dubai is a full table without meat or fish. Dairy and eggs stay on unless you remove them. Jain is a tighter brief. We cook at your address.
+            Vegetarian catering in Dubai, with generous menus inspired by Indian, Mediterranean and contemporary cooking. Tell us whether your guests include eggs and dairy, or require a fully plant-based or Jain menu.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 veg-hero-cta">Request your quote</Link>
@@ -331,13 +331,13 @@ export default function VegetarianCatering() {
             Meat off. Dairy on, unless you say otherwise.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Vegetarian Catering Dubai is Indian, mezze and modern vegetable cooking written as the main event. Eggs and dairy stay on unless the brief removes them. Jain food rules are tighter: no onion, no garlic, no roots. That belongs on the Jain page if the whole table follows it. Dietary notes go into the first menu draft.
+            Vegetarian catering in Dubai brings together vibrant mezze, regional Indian dishes and modern vegetable cooking. Meat and fish are excluded; eggs and dairy are included only as agreed. We plan vegan and Jain requirements separately so each guest receives an appropriate menu.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
+            Your proposal sets out the menu, guest count, service team and venue requirements. Review the inclusions, ingredient arrangements and final price before confirming your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            For no animal products at all, see <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link>. For no onion or garlic, see <Link to="/jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain catering Dubai</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
+            For no animal products at all, see <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link>. For no onion or garlic, see <Link to="/inquiry?from=jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain catering Dubai</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.
           </p>
         </div>
       </section>

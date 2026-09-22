@@ -34,14 +34,14 @@ export const eventsHeroCopy = {
   eyebrow: 'Event Catering Dubai',
   title: 'Event Catering Dubai for Weddings and Parties',
   subtitle:
-    'Event catering in Dubai for a birthday dinner, a wedding reception or a company event. Choose delivered food, a buffet from AED 120 per person, live stations, canapés or chef-led plated dining—with menus, chefs, staffing, setup and cleanup scoped to the night you are hosting.',
+    "Event catering in Dubai for weddings, birthdays and company celebrations, with food and service tailored to your occasion. Choose delivered menus, buffets from AED 120 per person, canapés, live stations or a private plated dinner.",
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
   lead:
-    'This page is the hub for the occasion — not a standing household chef and not the catering format catalogue. Private event catering for a named night opens on the pages below.',
+    "Explore catering by occasion, then discuss the menu, service and setting that will suit your guests.",
   cateringLabel: 'Luxury catering in Dubai',
   chefLabel: 'private chef services in Dubai',
   diningHref: '/luxury-dining-experiences',
@@ -70,7 +70,7 @@ export const coreEvents = [
   },
   {
     title: 'Wedding Catering',
-    body: 'Receptions, rehearsal dinners and next-day brunches. Open wedding catering for the tasting, timing and guest-list brief.',
+    body: "Wedding receptions, rehearsal dinners and next-day brunches, with menu planning, tastings and service coordinated around your celebration.",
     href: '/wedding-catering-dubai',
     linkLabel: 'Wedding catering in Dubai',
     image: '/images/wedding-catering-dubai-hero.webp',
@@ -78,7 +78,7 @@ export const coreEvents = [
   },
   {
     title: 'Villa Party Catering',
-    body: 'Food, setup and service planned around kitchen access, gates and outdoor space. Open the villa page for the operating detail.',
+    body: "Catering planned around your villa kitchen, outdoor space and access arrangements.",
     href: '/villas-private-residences',
     linkLabel: 'Villa party catering in Dubai',
     image: '/images/villa-catering-dubai-hero.webp',
@@ -86,7 +86,7 @@ export const coreEvents = [
   },
   {
     title: 'Corporate Events',
-    body: 'Launches, client entertaining and team celebrations. One-off company events belong on the corporate-event page, not this hub.',
+    body: "Product launches, client entertaining and team celebrations, with catering planned around your event schedule.",
     href: '/corporate-event-catering-dubai',
     linkLabel: 'Corporate event catering in Dubai',
     image: '/images/corporate-catering-dubai-hero.webp',
@@ -269,7 +269,7 @@ export const exampleEvents = [
     guests: '80 guests',
     venue: 'Private villa, Emirates Hills',
     setup: 'Arabic-Mediterranean fusion; roaming canapés, live grill and family-style sharing plates.',
-    outcome: 'Guests kept moving through canapés and sharing plates; the dance floor stayed full.',
+    outcome: "An illustrative reception format combining canapés, sharing plates and space for guests to mingle.",
     href: '/wedding-catering-dubai',
     linkLabel: 'Wedding catering in Dubai',
   },
@@ -278,7 +278,7 @@ export const exampleEvents = [
     guests: '25 guests',
     venue: 'Yacht, Dubai Marina',
     setup: 'Sunset canapés, BBQ and signature mocktails, planned around loading and storage.',
-    outcome: 'Passed bites, grills and alcohol-free craft drinks served as the yacht cruised the marina.',
+    outcome: "An illustrative yacht menu combining passed bites, grilled dishes and alcohol-free drinks.",
     href: CATERING_PATHS.yachts,
     linkLabel: 'Yacht event catering in Dubai',
   },
@@ -287,7 +287,7 @@ export const exampleEvents = [
     guests: '200 guests',
     venue: 'Ballroom, Downtown Dubai',
     setup: 'Four-course plated menu with sommelier service and full front-of-house staffing.',
-    outcome: 'Seated dinner held timing, dietary coverage and service across a large room.',
+    outcome: "An illustrative gala format with timed courses, dietary planning and a full service team.",
     href: CATERING_PATHS.corporateEvents,
     linkLabel: 'Corporate event catering in Dubai',
   },
@@ -296,7 +296,7 @@ export const exampleEvents = [
     guests: '60 guests',
     venue: 'Venue, DIFC',
     setup: 'Branded canapés and a live chef station, timed to the reveal.',
-    outcome: 'Service timed to the product reveal, with interactive cooking in the room.',
+    outcome: "An illustrative launch format with canapés and live cooking timed around the reveal.",
     href: CATERING_PATHS.corporateEvents,
     linkLabel: 'Corporate event catering in Dubai',
   },
@@ -305,7 +305,7 @@ export const exampleEvents = [
     guests: '40 guests',
     venue: 'Villa, Arabian Ranches',
     setup: 'Buffet with Arabic grills, salads and desserts.',
-    outcome: 'Live Arabic grill, fresh breads and a dessert table carried the gathering from lunch into the evening.',
+    outcome: "An illustrative Eid gathering with Arabic grills, fresh bread and a dessert table.",
     href: '/private-party-catering-dubai',
     linkLabel: 'Private party catering in Dubai',
   },
@@ -314,7 +314,7 @@ export const exampleEvents = [
 export const eventFaqs = [
   {
     q: 'What is the minimum guest count for event catering?',
-    a: 'Drop-off, platters and working-lunch formats start from 10 guests, with a minimum order of AED 900. A standard event buffet starts from 20 guests. Small event catering in Dubai for under around 10 guests is usually a [private chef](/private-chef-dubai) cooking in your kitchen, not a scaled-down buffet.',
+    a: "Drop-off menus, platters and working lunches start from 10 guests, with a minimum order of AED 900. Standard event buffets start from 20 guests. For smaller occasions, ask about chef-led private dining in your home.",
   },
   {
     q: 'How much does event catering cost in Dubai?',
@@ -338,7 +338,7 @@ export const eventFaqs = [
   },
   {
     q: 'Who cooks — does myCHEF employ the chefs?',
-    a: 'Culinary preparation is performed by independent, licensed culinary partners who work to Dubai Municipality food-safety standards. myCHEF designs and coordinates the event catering. The client engages those professionals.',
+    a: "Licensed culinary partners prepare the food. myCHEF coordinates the menu, service requirements and booking, with the agreed responsibilities set out in your written proposal.",
   },
   {
     q: 'How far in advance should I book?',

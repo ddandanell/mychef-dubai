@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/uae-national-day-catering-dubai",
+  "path": "/uae-national-day-catering-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Seasonal and Occasions",
+  "purpose": "UAE National Day catering Dubai on 2 December: Emirati dishes, grills and buffets at a home, office or venue you control. Buffet from AED 120. Itemised quote.",
+  "keywords": {
+    "primary": "uae national day catering dubai",
+    "secondary": [
+      "uae national day catering dubai price",
+      "uae national day catering cost per person dubai",
+      "best uae national day catering dubai",
+      "uae national day catering packages dubai",
+      "uae national day catering menu dubai",
+      "national day catering dubai",
+      "new years day catering",
+      "mothers day brunch dubai catering",
+      "new years day brunch dubai",
+      "mothers day lunch at home dubai",
+      "valentines day dinner at home dubai",
+      "valentines day special dinner"
+    ],
+    "primary_owner": "/uae-national-day-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "UAE National Day Catering Dubai | myCHEF",
+    "description": "UAE National Day catering Dubai on 2 December: Emirati dishes, grills and buffets at a home, office or venue you control. Buffet from AED 120. Itemised quote.",
+    "h1": [
+      "UAE National Day Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/uae-national-day-catering-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/UaeNationalDayCatering.tsx",
+    "src/pages/occasion/OccasionCateringPage.tsx",
+    "src/pages/shared/ServiceLandingPage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 850,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "UAE National Day catering Dubai, cooked at your address"
+      },
+      {
+        "level": "h2",
+        "text": "How National Day is served"
+      },
+      {
+        "level": "h3",
+        "text": "National Day buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Live grill and shawarma station"
+      },
+      {
+        "level": "h3",
+        "text": "Villa and home celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Office and corporate receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Community and large gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Emirati tasting menu"
+      },
+      {
+        "level": "h2",
+        "text": "Family villas, offices, community halls"
+      },
+      {
+        "level": "h3",
+        "text": "Family villa gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate National Day receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Community and embassy events"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor sittings"
+      },
+      {
+        "level": "h2",
+        "text": "What a staffed National Day sitting includes"
+      },
+      {
+        "level": "h2",
+        "text": "How UAE National Day catering looks in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before you book"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater UAE National Day at my home or villa?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer traditional Emirati dishes for National Day?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle large corporate National Day events?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide live cooking stations?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book National Day catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Are your National Day menus halal?"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h3",
+        "text": "UAE National Day Catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Send the 2 December brief"
+      },
+      {
+        "level": "h2",
+        "text": "More in Seasonal and Occasions"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering"
+      },
+      {
+        "url": "/uae-national-day-catering-dubai",
+        "anchor": "Uae national day catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/festive-catering-dubai",
+      "anchor": "Festive catering",
+      "alt_anchors": [
+        "festive catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/arabic-catering-dubai",
+        "anchor": "Arabic catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/bbq-catering-dubai",
+        "anchor": "BBQ catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

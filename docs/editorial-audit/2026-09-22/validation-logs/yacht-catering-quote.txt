@@ -1,0 +1,36 @@
+PASS  three formats only: got 3
+PASS  canapé rate: got 170
+PASS  buffet rate: got 162
+PASS  live-station rate: got 258
+PASS  live station chefs: got 720
+PASS  overtime rate: got 240
+PASS  VAT rate: got 0.05
+PASS  guest default: got 40
+PASS  guest clamp low: got 10
+PASS  guest clamp high: got 150
+PASS  guest clamp round: got 41
+PASS  buffet 113 food: got 18306
+PASS  buffet 113 no live chefs: got 0
+PASS  buffet 113 VAT rounded: got 915
+PASS  buffet 113 total matches real quote: got 19221
+PASS  live 113 food: got 29154
+PASS  live 113 chefs: got 720
+PASS  live 113 total matches real quote: got 31368
+PASS  canapé 113 food: got 19210
+PASS  canapé 113 no live chefs: got 0
+PASS  canapé 113 uses formula not a guessed extra: got 20171
+PASS  canape displayed example agrees with estimator: got 20171
+PASS  buffet displayed example agrees with estimator: got 19221
+PASS  canape-live displayed example agrees with estimator: got 31368
+PASS  cost FAQ exists: got true
+PASS  cost FAQ does not treat staff as always extra: got false
+PASS  cost FAQ names the 113-guest example: got true
+PASS  yacht is not included: got true
+PASS  bartender extras mutually exclusive — one bar line: got 1
+PASS  icebox kept with bartender: got true
+PASS  overtime 2×1×240: got 480
+PASS  live chefs off unless format 3: got 0
+PASS  format 2 cannot sneak in live-chef price: got 0
+PASS  inquiry href carries guests and format: got "/inquiry?from=yachts&guests=40&format=canape"
+
+✓ yacht catering quote tests passed

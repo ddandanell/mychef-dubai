@@ -209,7 +209,7 @@ export default function PartTimePrivateChef() {
             Part Time Private Chef Dubai: two or three days a week
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pt-hero-sub">
-            A part time private chef Dubai plan is the same household chef, on fewer days. Fresh Meal AED 750, Food Prep AED 900. Groceries at receipts. VAT 5%.
+            A part-time private chef in Dubai, matched to your household for the days you need. Fresh Meal visits are AED 750 and Food Prep AED 900, with groceries at actual cost and 5% VAT shown separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Get My Part-Time Chef Quote</Link>
@@ -236,7 +236,7 @@ export default function PartTimePrivateChef() {
           </h2>
           <div className="pt-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hire a part time private chef Dubai when two or three days cover the week. A part time cook in Dubai on this page is that standing chef, not a one-night team. Part time private chef Dubai monthly cost is the visit rate times the days. Groceries at receipts. VAT at 5%.
+              A part-time private chef in Dubai brings regular support to your kitchen for two or three days a week, or another agreed schedule. The monthly service cost reflects the visit rate and booked days, with groceries charged at actual cost and 5% VAT added separately.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Two or three days is often enough that the chef stops asking how you like things, and rare enough that the house is not staffed every evening. The same person comes back. The Food Profile carries what they learn. Someone briefed from it covers the weeks they are off.

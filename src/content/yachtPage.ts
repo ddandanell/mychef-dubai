@@ -17,22 +17,22 @@ export const YACHT_SEO = {
 } as const
 
 export const YACHT_POSITIONING =
-  'Have the party on the water. We do the food, chefs, waiters and onboard service.' as const
+  'Private dining and entertaining on the water.' as const
 
 export const YACHT_PHOTO_CREDIT = 'From a previous myCHEF yacht catering day.' as const
 
 export const YACHT_HERO = {
-  eyebrow: 'Private chef & full-service yacht catering',
+  eyebrow: 'Chefs, menus and onboard service',
   h1: YACHT_SEO.h1,
   support:
-    'Yacht catering Dubai is food, chefs, waiters and onboard service for a party on a yacht you charter. You rent the boat. We plan the menu, load in the captain’s window, run service, and clear before you dock when that is the brief.',
-  priceLine: `Recent yacht catering menus from ${formatYachtAed(YACHT_MENU_FORMATS[1].perGuestAed)} per guest*`,
+    "For your chartered yacht, with preparation, loading and service coordinated around the captain’s requirements.",
+  priceLine: `Example menus from ${formatYachtAed(YACHT_MENU_FORMATS[1].perGuestAed)} per guest*`,
   priceNote:
-    '*From a 113-guest corporate charter at Dubai Harbour. Pricing varies by guest count, menu, staffing and vessel.',
+    '*113-guest example, before 5% VAT. Your proposal confirms the full service and price.',
   primaryCta: 'Get a Yacht Catering Quote',
   secondaryCta: 'WhatsApp myCHEF',
-  micro: 'Date, marina and guest count is enough to start.',
-  reply: 'Typical reply within 15 minutes during business hours.',
+  micro: 'Share your date, marina and guest count.',
+  reply: 'Typical reply: 15 minutes, 9am–11pm Dubai time.',
   trust: ['Food, chefs and waiters', 'Halal-first', 'Marina coordination', 'Written proposal'],
   imageCaption: `${YACHT_PHOTO_CREDIT} The host chartered the yacht.`,
 } as const
@@ -41,7 +41,7 @@ export const YACHT_FULL_SERVICE = {
   label: 'What you get',
   h2: 'Yacht Catering Dubai — one team for the food experience',
   intro:
-    'A yacht day fails when trays arrive and nobody owns the rest. The menu has to match the galley. Equipment has to load on time. Waiters have to know the deck. We take the culinary side so you are not running three suppliers from the pontoon.',
+    'A successful catered charter brings the menu, preparation and service together. We assess the galley, coordinate loading with the captain and plan staffing around the vessel and itinerary. Your proposal sets out the food, equipment, service and clear-down responsibilities.',
   items: [
     {
       title: 'Food',
@@ -49,7 +49,7 @@ export const YACHT_FULL_SERVICE = {
     },
     {
       title: 'Chefs',
-      body: 'A yacht chef Dubai brief is a charter day. The chef cooks or finishes onboard where the galley allows. You stay with your guests.',
+      body: 'Your chef prepares or finishes dishes onboard where the galley permits, with the menu and service timed around the charter.',
     },
     {
       title: 'Waiters',
@@ -185,7 +185,7 @@ export const YACHT_FORMATS_COPY = {
   label: 'How you eat',
   h2: 'How do you want to eat on the water?',
   intro:
-    'Brunch, lunch, a standing party or a seated dinner. Pick the format. Boat catering Dubai is the same decision: the food has to work while the deck moves. Food to bring on a yacht party is not a supermarket bag at the gangway.',
+    'Choose brunch, lunch, a canapé reception or a seated dinner. The menu, serving vessels and preparation plan should suit the space onboard, the sailing conditions and the way you want guests to dine.',
 } as const
 
 export const YACHT_OCCASIONS = [
@@ -202,18 +202,18 @@ export const YACHT_OCCASIONS_COPY = {
   label: 'Occasions',
   h2: 'A birthday, a corporate charter, or dinner with family?',
   intro:
-    'Yacht party catering in Dubai uses the same team for chefs, waiters and clear-down. The occasion changes the menu and the headcount, not the company. Tap one to start the quote.',
+    'Menus and service can be tailored to birthdays, company gatherings and private celebrations. Choose your occasion to begin a brief covering food, staffing and clear-down.',
 } as const
 
 export const YACHT_WORK = {
   label: 'Previous work',
   h2: 'See a yacht day we already ran',
   intro:
-    'These photographs are from a birthday the host chartered. We did not rent the boat. We set the upper-deck table, ran a grazing table in the salon, and kept canapés moving. The pictures sit small on the page — tap one to change the view, or open it if you want a closer look.',
+    'These photographs show catering for a birthday on a yacht chartered by the host, with an upper-deck table, grazing selection in the salon and circulating canapés. Select an image to explore the setting.',
   how: [
     {
       title: 'The brief',
-      body: 'A birthday sitting, not a 113-guest corporate charter. A small yacht catering day is often two rooms at once: a dressed table on deck, and food people can pick up inside while they talk.',
+      body: 'For a smaller birthday, service can combine a table on deck with informal grazing inside. The plan follows the vessel’s layout and your guest list.',
     },
     {
       title: 'How we load it',
@@ -340,9 +340,9 @@ export const YACHT_PROOF_COPY = {
   label: 'Real event pricing',
   h2: 'A 113-guest day at Dubai Harbour',
   intro:
-    '113 guests. Four hours onboard. Dubai Harbour. The client needed a complete food and service solution, so we priced three formats for the same charter. These are not a general starting price for a smaller birthday.',
+    'The published reference brief covered 113 guests and four hours onboard at Dubai Harbour. Three formats illustrate how menu choice affects the total. A smaller celebration requires its own quote.',
   note:
-    'Your price depends on guest count, menu, format, chefs, waiters, hours, marina, yacht facilities and optional bar service. The figures below are from yacht catering at Dubai Harbour for 113 guests on a boat the client chartered. We did not rent the boat.',
+    'Your price depends on the guest count, menu, staffing, service hours, marina, vessel facilities and any bar service. The examples below use the published 113-guest catering rates. Yacht charter is arranged separately.',
 } as const
 
 export const YACHT_ESTIMATE_COPY = {
@@ -477,9 +477,9 @@ export const YACHT_HOW = [
 ] as const
 
 export const YACHT_MARINAS: readonly { name: string; href: string | null; note: string }[] = [
-  { name: 'Dubai Marina', href: '/locations/dubai-marina', note: 'Frequent boarding. Skyline routes and sheltered water.' },
+  { name: 'Dubai Marina', href: '', note: 'Frequent boarding. Skyline routes and sheltered water.' },
   { name: 'Dubai Harbour', href: null, note: 'The 113-guest corporate example boarded here.' },
-  { name: 'Palm Jumeirah', href: '/locations/palm-jumeirah', note: 'Island routes and calmer anchorage.' },
+  { name: 'Palm Jumeirah', href: '', note: 'Island routes and calmer anchorage.' },
   { name: 'JBR', href: '/locations/jbr', note: 'Beachfront boarding next to the Marina.' },
   { name: 'Bluewaters', href: null, note: 'When the vessel is there and the captain gives a window.' },
   { name: 'Dubai Creek', href: null, note: 'When the charter actually loads there — we follow the boat.' },
@@ -500,11 +500,8 @@ export const YACHT_FORM_STYLES: readonly { id: YachtFormStyleId; label: string }
 ]
 
 export const YACHT_SIBLINGS = [
-  { href: '/yacht-catering-guide-dubai', label: 'Yacht catering guide' },
-  { href: '/yacht-catering-checklist-dubai', label: 'Yacht catering checklist' },
   { href: '/blog/yacht-party-menu-ideas-dubai', label: 'Yacht party menu ideas' },
   { href: '/bar-services-dubai', label: 'Bar services' },
-  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
 ] as const
 
 export const YACHT_WHATSAPP_BASE =

@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+  "path": "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+  "role": "redirect",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Redirect visitors to /blog/how-much-does-private-chef-cost-dubai",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Cost Dubai 2026: What Drives the Price",
+    "description": "Private chef cost in Dubai depends on booking type, guest count and menu complexity, not a flat rate — see what moves your 2026 quote before you book.",
+    "h1": [
+      "Private Chef Cost Dubai 2026: What Drives the Price"
+    ]
+  },
+  "metadata_source": "SEO contract; alias or route not prerendered",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+    "robots": {
+      "index": false,
+      "follow": true
+    },
+    "in_sitemap": false,
+    "redirect_to": "/blog/how-much-does-private-chef-cost-dubai"
+  },
+  "source_files": [
+    "blog/data/how-much-does-a-private-chef-cost-in-dubai-in.json",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/ryze-pages/how-much-does-a-private-chef-cost-in-dubai-in.json",
+    "src/content/siloMap.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1409,
+    "current_word_count": null,
+    "headings": [],
+    "baseline_findings": [
+      "F11"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog/how-much-does-private-chef-cost-dubai",
+        "anchor": "Private Chef Cost Dubai 2026: What Drives the Price",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": []
+    },
+    "siblings": [],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [],
+    "do_not_link": []
+  }
+}

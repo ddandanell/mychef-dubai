@@ -328,7 +328,7 @@ export default function VeganCatering() {
             Vegan Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vgn-hero-sub">
-            Vegan Catering Dubai is a written menu with no animal products. We cook at your address, serve, and pack down. Honey, gelatin and dairy stay off.
+            Vegan catering in Dubai, with creative menus built around vegetables, grains, pulses and seasonal produce. Every agreed dish excludes animal-derived ingredients, including dairy, eggs, honey and gelatin.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 vgn-hero-cta">Request your quote</Link>
@@ -354,10 +354,10 @@ export default function VeganCatering() {
             No animal products. A full plate anyway.
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Vegan Catering Dubai means meat, fish, dairy, eggs, honey and gelatin stay off the written menu. Partner chefs cook in shared kitchens and in your home. We separate dairy and vegan lines where the room allows. We do not call that an allergen-free kitchen. Dietary notes go into the first menu draft.
+            Vegan catering in Dubai gives plant-based food a central place at the table. Menus exclude meat, fish, dairy, eggs, honey and gelatin. Partner kitchens may also handle animal products and allergens, so please discuss any allergy requirements separately before booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients.
+            Your proposal sets out the menu, guest count, service team and venue requirements. Review the inclusions, ingredient arrangements and final price before confirming your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             If dairy is allowed, see <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering Dubai</Link>. For dairy-free or nut-free lines that are not fully vegan, start with <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>. Formats sit on <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link>.

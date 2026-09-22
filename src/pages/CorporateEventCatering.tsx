@@ -159,7 +159,7 @@ export default function CorporateEventCatering() {
           <CorporatePackageCompare
             packages={packagesForOwner('/corporate-event-catering-dubai')}
             heading="Staff parties, networking and seasonal gatherings"
-            intro="Published starting prices for defined formats: staffed buffet from AED 120 per person, canapés from AED 150 per person. A seated gala or a 10–15 guest dinner has its own page. The written quote confirms the event total."
+            intro={"Explore defined formats with clear starting prices: staffed buffets from AED 120 per person and canapés from AED 150. Private company dinners and galas are planned separately, with the complete scope and total confirmed in your proposal."}
           />
         </Container>
       </Section>
@@ -359,13 +359,10 @@ export default function CorporateEventCatering() {
               DIFC
             </Link>
             ,{' '}
-            
               Business Bay
             {' '}
             and{' '}
-            
               Downtown Dubai
-            
             .
           </>
         }

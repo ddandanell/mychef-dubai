@@ -30,6 +30,7 @@ import { scenarioById } from '@/content/birthdayStatement'
 import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
 import QuoteRequestForm from '@/components/inquiry/QuoteRequestForm'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -66,6 +67,7 @@ export default function Inquiry() {
       }
     : null
   const chefPref = params.get('chef')
+  const calculatorBrief = cateringCalculatorBrief(params)
   const whatsappMessage = chefPref
     ? `Hi myCHEF Dubai, I would like to enquire about chef ${chefPref.replace(/-/g, ' ')} as a preference. Availability to be confirmed. (via mychef.ae/inquiry)`
     : yachtPrefill
@@ -76,7 +78,9 @@ export default function Inquiry() {
         ? birthdayPrivateWhatsAppMessage(birthdayPrivateBrief)
         : birthdayPrefill
           ? birthdayWhatsAppMessage(birthdayExtraIds)
-          : DEFAULT_WHATSAPP_MESSAGE
+          : calculatorBrief.length
+            ? `Hi myCHEF Dubai, I would like a catering proposal.\n${calculatorBrief.join('\n')}`
+            : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
   useWhatsAppMessage(whatsappMessage)
 
@@ -189,7 +193,7 @@ export default function Inquiry() {
                   ? birthdayPrivateInquirySubtitle(birthdayPrivateBrief)
                   : birthdayPrefill
                     ? birthdayInquirySubtitle(birthdayExtraIds)
-                    : 'Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.'}
+                    : "Tell us about your household or occasion, and we will help shape the menu and service. We typically reply within 15 minutes during published business hours; your proposal follows once the details are confirmed."}
           </p>
         </div>
       </section>
@@ -209,7 +213,7 @@ export default function Inquiry() {
                 Send a short brief
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Date, headcount and area are enough to start. Choose WhatsApp or email. A coordinator replies with a written proposal, typically within 15 minutes during business hours.
+                Start with your date, guest count and Dubai location, then choose WhatsApp or email. We typically acknowledge enquiries within 15 minutes during business hours and prepare a written proposal after reviewing your requirements.
               </p>
               <QuoteRequestForm />
               <p className="font-inter text-body-sm text-gray-500 mt-6">

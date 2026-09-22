@@ -103,7 +103,7 @@ export default function ReferralProgramme() {
       <PageHero
         eyebrow="REFER & REWARD"
         title="myCHEF Referral Programme"
-        subtitle="A new client books, names you at enquiry, and both of you receive AED 100. Credit is issued after the booking is confirmed and paid."
+        subtitle={"Refer a new client and both receive AED 100 in dining credit after their eligible booking is confirmed and paid. The new client must name you when enquiring."}
         image="/images/celebration-catering-dubai-hero.webp"
         imageAlt="myCHEF Dubai referral programme"
         cta={{ label: 'Join the Referral Programme', href: WHATSAPP_LINK, external: true }}

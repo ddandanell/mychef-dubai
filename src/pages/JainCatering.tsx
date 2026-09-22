@@ -21,7 +21,7 @@ const config: DietaryPageConfig = {
   breadcrumbLabel: 'Jain Catering Dubai',
   h1: 'Jain Catering Dubai',
   heroSub:
-    'Jain Catering Dubai is a full lacto-vegetarian menu without onion, garlic, root vegetables, mushrooms or eggs. We cook at your address and pack down after service.',
+    "Jain catering in Dubai, with a complete lacto-vegetarian menu prepared around your family’s requirements. Onion, garlic, root vegetables, mushrooms and eggs are excluded, with further observances confirmed before menu planning.",
   heroImage: '/images/jain-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan Jain catering in Dubai (via mychef.ae/jain-catering-dubai)",
@@ -30,10 +30,10 @@ const config: DietaryPageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Jain food rules are not a vegetarian swap. Meat, fish and eggs are off. So are onion, garlic, mushrooms and root vegetables such as potato, carrot, radish and beetroot. Jain Catering Dubai is written to those rules from the first draft, using pulses, grains, dairy, leafy greens, gourds and spices. Dietary notes go into the first menu draft.
+        Jain catering in Dubai is planned from the first menu draft around the requirements you share. Menus exclude meat, fish, eggs, onion, garlic, mushrooms and root vegetables, drawing instead on pulses, grains, dairy and suitable vegetables. We confirm the ingredient list and preparation arrangements with you before booking.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Traditional Jain cooking is lacto-vegetarian. Dairy stays on unless you ask for vegan. Jain and halal are different systems. We never combine them as one label. Paryushan and other observances can tighten the list further. Send that list with the date.
+        Traditional Jain menus may include dairy; plant-based alternatives can be discussed separately. Requirements can vary by household and observance, including Paryushan. Please share your full ingredient and timing requirements so the chef can assess and plan accordingly.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. See{' '}

@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-chef-dubai",
+  "path": "/private-chef-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Convert households needing a recurring cook, prepared meals or managed kitchen support.",
+  "keywords": {
+    "primary": "private chef dubai",
+    "secondary": [
+      "personal chef dubai",
+      "chef at home dubai",
+      "private chef service dubai",
+      "book a private chef dubai",
+      "private chef for dinner party dubai",
+      "private chef near me dubai",
+      "private chef",
+      "private chef near me",
+      "french private chef dubai",
+      "private chef dubai daily",
+      "private chef dubai full time",
+      "private chef dubai monthly"
+    ],
+    "primary_owner": "/private-chef-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef Dubai | From AED 3,000 a Month | myCHEF",
+    "description": "A regular private chef for your Dubai home. Weekly plans from AED 3,000 a month, with menus, scheduling and support tailored to your household.",
+    "h1": [
+      "Private Chef Dubai: a chef who comes back"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-chef-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/FillFrame.tsx",
+    "src/components/private-chef/QuotePair.tsx",
+    "src/components/private-chef/RatesBar.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
+    "src/content/privateChefPage.ts",
+    "src/content/privateChefPricing.ts",
+    "src/content/privateChefStandard.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
+    "src/pages/PrivateChef.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2793,
+    "current_word_count": 2669,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What a private chef Dubai arrangement is"
+      },
+      {
+        "level": "h2",
+        "text": "One night, or a chef who stays"
+      },
+      {
+        "level": "h3",
+        "text": "Standing household chef"
+      },
+      {
+        "level": "h3",
+        "text": "One-night dinner"
+      },
+      {
+        "level": "h2",
+        "text": "What would make your week easier?"
+      },
+      {
+        "level": "h3",
+        "text": "I want the same chef regularly"
+      },
+      {
+        "level": "h3",
+        "text": "I need meals several days a week"
+      },
+      {
+        "level": "h3",
+        "text": "I need meals through the day, not one dinner"
+      },
+      {
+        "level": "h3",
+        "text": "I do not want another person to manage"
+      },
+      {
+        "level": "h3",
+        "text": "I need the kitchen to keep running if they are off"
+      },
+      {
+        "level": "h3",
+        "text": "I need this for a family, a villa, or a long stay"
+      },
+      {
+        "level": "h2",
+        "text": "Finding a chef is easy. Keeping your kitchen running every week is the hard part."
+      },
+      {
+        "level": "h3",
+        "text": "Same chef"
+      },
+      {
+        "level": "h3",
+        "text": "Managed"
+      },
+      {
+        "level": "h3",
+        "text": "Backup"
+      },
+      {
+        "level": "h2",
+        "text": "The chef cooks. We do everything around it."
+      },
+      {
+        "level": "h2",
+        "text": "The detail, in five parts"
+      },
+      {
+        "level": "h3",
+        "text": "How It Works"
+      },
+      {
+        "level": "h3",
+        "text": "Our Chefs"
+      },
+      {
+        "level": "h3",
+        "text": "Quality & Training"
+      },
+      {
+        "level": "h3",
+        "text": "Privacy & Security"
+      },
+      {
+        "level": "h3",
+        "text": "Pricing & Plans"
+      },
+      {
+        "level": "h2",
+        "text": "Same chef, with backup behind them"
+      },
+      {
+        "level": "h2",
+        "text": "Your preferences are recorded in a Food Profile, helping the chef and any agreed cover understand the household."
+      },
+      {
+        "level": "h3",
+        "text": "You meet the chef before anything starts"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the household rhythm"
+      },
+      {
+        "level": "h2",
+        "text": "Who we put in your kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Identity and credentials"
+      },
+      {
+        "level": "h3",
+        "text": "Practical assessment"
+      },
+      {
+        "level": "h3",
+        "text": "Household fit"
+      },
+      {
+        "level": "h3",
+        "text": "One contact"
+      },
+      {
+        "level": "h3",
+        "text": "After the chef has started"
+      },
+      {
+        "level": "h2",
+        "text": "What you pay depends on the chef, the days you need, and the size of your household."
+      },
+      {
+        "level": "h3",
+        "text": "Try the service without a long-term commitment"
+      },
+      {
+        "level": "h3",
+        "text": "One fresh meal a week"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen on Autopilot, five days a week"
+      },
+      {
+        "level": "h3",
+        "text": "Full-day chef, five days a week"
+      },
+      {
+        "level": "h3",
+        "text": "AED 1,500 a day. AED 1,040 this September."
+      },
+      {
+        "level": "h2",
+        "text": "Private Chef Dubai: What should I know before starting a household chef in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is a private chef in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I have the same chef every week?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if my chef is unavailable?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the Food Profile?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef shop, and cook for children?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I change chefs or add a specialist?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate allergies?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a household chef cost?"
+      },
+      {
+        "level": "h3",
+        "text": "How has it been going?"
+      },
+      {
+        "level": "h3",
+        "text": "A household chef across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Start the household plan"
+      },
+      {
+        "level": "h2",
+        "text": "Everything in Private Chef"
+      }
+    ],
+    "baseline_findings": [
+      "F03",
+      "F05",
+      "F22"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "current": true
+      }
+    ],
+    "uplink_hub": null,
+    "siblings": [
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Full-time private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/part-time-private-chef-dubai",
+        "anchor": "Part-time private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": []
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": [
+          "private chef price"
+        ]
+      },
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Full-time private chef",
+        "alt_anchors": [
+          "full time private chef"
+        ]
+      },
+      {
+        "url": "/part-time-private-chef-dubai",
+        "anchor": "Part-time private chef",
+        "alt_anchors": [
+          "part time private chef"
+        ]
+      },
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": [
+          "villa chef"
+        ]
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": [
+          "private chefs"
+        ]
+      },
+      {
+        "url": "/how-it-works",
+        "anchor": "How booking works",
+        "alt_anchors": [
+          "how to book a private chef"
+        ]
+      },
+      {
+        "url": "/wellness-meal-prep-dubai",
+        "anchor": "Healthy meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/apartment-private-dining-dubai",
+        "anchor": "Private chef for apartment",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-vs-catering-dubai",
+        "anchor": "Private chef or catering",
+        "alt_anchors": [
+          "private chef vs catering"
+        ]
+      }
+    ],
+    "silo_index": [
+      {
+        "url": "/chefs-table-dubai",
+        "anchor": "Chefs table",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/ahmed-executive-chef",
+        "anchor": "Ahmed",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/layla-middle-eastern-chef",
+        "anchor": "Layla — Arabic kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/marco-italian-chef",
+        "anchor": "Marco — Italian kitchens",
+        "alt_anchors": []
+      },
+      {
+        "url": "/chefs/matteo-pastry-chef",
+        "anchor": "Matteo — pastry",
+        "alt_anchors": []
+      },
+      {
+        "url": "/staff-meals-catering-dubai",
+        "anchor": "Corporate meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/how-it-works",
+        "anchor": "Household chef plans",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/how-to-hire-a-private-chef-dubai",
+        "anchor": "How to hire a private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/how-much-does-private-chef-cost-dubai",
+        "anchor": "What a private chef costs",
+        "alt_anchors": [
+          "how much does private chef cost"
+        ]
+      },
+      {
+        "url": "/private-chef-vs-catering-dubai",
+        "anchor": "Private chef or catering",
+        "alt_anchors": [
+          "private chef vs catering"
+        ]
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

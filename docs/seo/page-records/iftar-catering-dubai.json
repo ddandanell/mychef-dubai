@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/iftar-catering-dubai",
+  "path": "/iftar-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Seasonal and Occasions",
+  "purpose": "Capture date-sensitive festive enquiries.",
+  "keywords": {
+    "primary": "iftar catering dubai",
+    "secondary": [
+      "iftar catering dubai price",
+      "iftar catering cost per person dubai",
+      "best iftar catering dubai",
+      "iftar catering packages dubai",
+      "iftar catering menu dubai",
+      "iftar buffet catering dubai",
+      "corporate iftar catering dubai",
+      "iftar catering at home dubai",
+      "what to eat for iftar",
+      "best iftar buffet dubai 2026 packages",
+      "best iftar buffet dubai offers",
+      "iftar buffet dubai near me"
+    ],
+    "primary_owner": "/iftar-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Iftar Catering Dubai | Ramadan Menus | myCHEF",
+    "description": "Iftar catering Dubai: dates at Maghrib, mezze and grills after, cooked in your home, villa, office or event space. Itemised quote, then we clear down.",
+    "h1": [
+      "Iftar Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/iftar-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/RamadanIftar.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2611,
+    "current_word_count": 2606,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Maghrib is the deadline. The kitchen is not yours to run."
+      },
+      {
+        "level": "h2",
+        "text": "Family tables, offices and community Iftars"
+      },
+      {
+        "level": "h3",
+        "text": "Families & Homes"
+      },
+      {
+        "level": "h3",
+        "text": "Companies & Teams"
+      },
+      {
+        "level": "h3",
+        "text": "Communities & Embassies"
+      },
+      {
+        "level": "h2",
+        "text": "Catering for Iftar, Suhoor & Eid"
+      },
+      {
+        "level": "h3",
+        "text": "Private Family Iftar"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Iftar"
+      },
+      {
+        "level": "h3",
+        "text": "Suhoor Gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "Eid Celebration Dining"
+      },
+      {
+        "level": "h2",
+        "text": "What Our Iftar Catering Includes"
+      },
+      {
+        "level": "h2",
+        "text": "What usually sits on an Iftar table"
+      },
+      {
+        "level": "h2",
+        "text": "How Iftar Catering Works"
+      },
+      {
+        "level": "h3",
+        "text": "Share Your Iftar Plans"
+      },
+      {
+        "level": "h3",
+        "text": "Receive a Custom Proposal"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm Your Booking"
+      },
+      {
+        "level": "h3",
+        "text": "We Source Ingredients"
+      },
+      {
+        "level": "h3",
+        "text": "Arrive & Prepare On-Site"
+      },
+      {
+        "level": "h3",
+        "text": "Serve, Support & Clean"
+      },
+      {
+        "level": "h2",
+        "text": "Dates, soup and service ready at Maghrib"
+      },
+      {
+        "level": "h2",
+        "text": "Iftar Catering for Every Setting"
+      },
+      {
+        "level": "h3",
+        "text": "Family Iftar at Home"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Iftar Events"
+      },
+      {
+        "level": "h3",
+        "text": "Community & Embassy Iftars"
+      },
+      {
+        "level": "h3",
+        "text": "Suhoor Before Fajr"
+      },
+      {
+        "level": "h2",
+        "text": "Explore More from myCHEF Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h3",
+        "text": "Related Seasonal Services"
+      },
+      {
+        "level": "h3",
+        "text": "Popular Locations"
+      },
+      {
+        "level": "h2",
+        "text": "Iftar Catering Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater Iftar for both small families and large companies?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the menu include traditional Ramadan dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you accommodate halal and dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide service staff and equipment?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Ramadan catering?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you also cater Suhoor and Eid celebrations?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does Iftar catering cost per person in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What exactly is included in the price of your Iftar catering?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the difference between Iftar catering and just ordering Iftar boxes?"
+      },
+      {
+        "level": "h3",
+        "text": "Is your Iftar food halal?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you a licensed and food-safe catering company?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum number of guests you cater Iftar for?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle very large corporate or labour-camp Iftars?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide serving staff and waiters for Iftar?"
+      },
+      {
+        "level": "h3",
+        "text": "Should I choose a buffet or plated Iftar service?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you accommodate vegetarian, vegan, and allergy needs at an Iftar?"
+      },
+      {
+        "level": "h3",
+        "text": "How does the timing work so everything is ready exactly at sunset?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater Iftar in my villa, apartment, office, or a hotel venue?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book Iftar catering during Ramadan?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you also cater Suhoor and Eid meals, not just Iftar?"
+      },
+      {
+        "level": "h3",
+        "text": "How is a hosted Iftar at home different from a hotel buffet?"
+      },
+      {
+        "level": "h3",
+        "text": "What to eat for iftar?"
+      },
+      {
+        "level": "h2",
+        "text": "Iftar Catering Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Send the date, the headcount and the address"
+      },
+      {
+        "level": "h2",
+        "text": "More in Packages"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/festive-catering-dubai",
+        "anchor": "Festive catering"
+      },
+      {
+        "url": "/iftar-catering-dubai",
+        "anchor": "Iftar catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/festive-catering-dubai",
+      "anchor": "Festive catering",
+      "alt_anchors": [
+        "festive catering dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/ramadan-catering-dubai",
+        "anchor": "Ramadan catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/eid-catering-dubai",
+        "anchor": "Eid catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/events",
+        "anchor": "Events",
+        "alt_anchors": [
+          "event catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

@@ -23,7 +23,7 @@ const config: ServicePageConfig = {
   hideSiteName: true,
   h1: 'Exhibition Catering Dubai',
   heroSub:
-    'Stand hospitality and exhibitor meals without assuming a kitchen. Drop-off from AED 90 per person. Hall access, power and replenishment are quoted as their own lines.',
+    "Exhibition catering for stand hospitality and exhibitor meals, from AED 90 per person for drop-off. Venue access, equipment and replenishment are confirmed in the proposal.",
   heroImage: '/images/exhibition-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like a quote for exhibition and trade show catering in Dubai (via mychef.ae/exhibition-catering-dubai)",
@@ -32,7 +32,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Exhibition catering in Dubai is hospitality without a kitchen: visitor food at the stand, and separate meals for the exhibitor team. Drop-off starts from AED 90 per person. Hall rules, power and replenishment matter more than a plated menu.
+        Exhibition catering in Dubai supports both visitor hospitality and the team working your stand. Drop-off starts from AED 90 per person. We confirm hall access, preparation facilities, power and replenishment so the service works within the venue’s requirements.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.

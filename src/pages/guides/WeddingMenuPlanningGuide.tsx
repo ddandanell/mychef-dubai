@@ -101,7 +101,7 @@ export default function WeddingMenuPlanningGuide() {
         variant="quiet"
         eyebrow="Wedding Catering Menu Dubai"
         title="Wedding Menu Planning Dubai"
-        subtitle="How guests eat, which kitchen the day belongs to, what a tasting is for, and three sample shapes: garden, ballroom, yacht. Not a price list."
+        subtitle={"Plan your wedding menu around the guests, venue and service style. Explore tastings and sample approaches for garden receptions, ballroom dinners and yacht celebrations."}
         image={menuHero.src}
         imageAlt={menuHero.alt}
         imageWidth={menuHero.width}
@@ -124,7 +124,7 @@ export default function WeddingMenuPlanningGuide() {
           <SectionLabel>START HERE</SectionLabel>
           <DisplayHeading className="text-black mb-6">Build the menu around the wedding, not a package</DisplayHeading>
           <BodyCopy className="mb-5">
-            This page is for couples who want wedding food menu ideas they can actually serve in Dubai: villas, gardens, hotels, yachts. To hire the team, go to{' '}
+            Explore wedding menu ideas suited to Dubai villas, gardens, hotels and yachts. For catering services and a tailored proposal, visit{' '}
             <Link to={WEDDING_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               wedding catering Dubai
             </Link>
@@ -279,13 +279,9 @@ export default function WeddingMenuPlanningGuide() {
               Vegan catering
             </Link>
             {' · '}
-            
               vegan catering guide
-            
             {' · '}
-            
               Jain catering
-            
             . Do not write “allergy-safe” on a mixed wedding service unless a dedicated controlled kitchen has been confirmed for that booking.
           </BodyCopy>
         </Container>

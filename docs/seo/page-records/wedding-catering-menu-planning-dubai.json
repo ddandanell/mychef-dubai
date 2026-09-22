@@ -1,0 +1,391 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/wedding-catering-menu-planning-dubai",
+  "path": "/wedding-catering-menu-planning-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "wedding menu planning dubai",
+    "secondary": [
+      "how to plan a wedding menu dubai",
+      "wedding food ideas dubai",
+      "wedding menu ideas dubai",
+      "wedding buffet menu ideas dubai",
+      "wedding menu planning dubai checklist",
+      "wedding catering menu planning dubai",
+      "catering menu dubai",
+      "catering menu near me halal",
+      "catering price list for wedding",
+      "catering wedding checklist",
+      "event catering wedding",
+      "finger food catering menu dubai"
+    ],
+    "primary_owner": "/wedding-catering-menu-planning-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
+    "description": "Wedding menu planning Dubai: buffet and plated ideas, Indian, Arabic and Lebanese menus, tastings, late-night food and mixed diets. Not a price list.",
+    "h1": [
+      "Wedding Menu Planning Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/wedding-catering-menu-planning-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/content/weddingCluster.ts",
+    "src/content/weddingMenuPage.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/WeddingMenuPlanningGuide.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2478,
+    "current_word_count": 2477,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Build the menu around the wedding, not a package"
+      },
+      {
+        "level": "h2",
+        "text": "The format is the first menu decision"
+      },
+      {
+        "level": "h2",
+        "text": "Plated wedding menu"
+      },
+      {
+        "level": "h2",
+        "text": "Wedding buffet menu"
+      },
+      {
+        "level": "h2",
+        "text": "Family-style sharing"
+      },
+      {
+        "level": "h2",
+        "text": "Live stations"
+      },
+      {
+        "level": "h2",
+        "text": "Canapé reception"
+      },
+      {
+        "level": "h2",
+        "text": "Canapés, dinner, dessert, late-night food"
+      },
+      {
+        "level": "h2",
+        "text": "Welcome drinks and canapés"
+      },
+      {
+        "level": "h2",
+        "text": "The main meal"
+      },
+      {
+        "level": "h2",
+        "text": "Dessert, cake and coffee"
+      },
+      {
+        "level": "h2",
+        "text": "Late-night wedding food"
+      },
+      {
+        "level": "h2",
+        "text": "Indian, Arabic, Lebanese, fusion: one meal, not a food court"
+      },
+      {
+        "level": "h2",
+        "text": "The family is the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Indian wedding catering menu"
+      },
+      {
+        "level": "h2",
+        "text": "Arabic and Lebanese wedding menus"
+      },
+      {
+        "level": "h2",
+        "text": "Fusion wedding menu Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Multi-day celebrations"
+      },
+      {
+        "level": "h2",
+        "text": "Villa, ballroom, yacht: the menu follows the kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Villa and garden"
+      },
+      {
+        "level": "h2",
+        "text": "Hotel ballroom"
+      },
+      {
+        "level": "h2",
+        "text": "Yacht"
+      },
+      {
+        "level": "h2",
+        "text": "Halal default. The rest of the list in time."
+      },
+      {
+        "level": "h2",
+        "text": "Taste the meal you will serve"
+      },
+      {
+        "level": "h2",
+        "text": "Three shapes. Not three packages."
+      },
+      {
+        "level": "h2",
+        "text": "Intimate garden wedding — about 30 guests"
+      },
+      {
+        "level": "h2",
+        "text": "Ballroom celebration — about 120 guests"
+      },
+      {
+        "level": "h2",
+        "text": "Yacht wedding reception — about 40 guests"
+      },
+      {
+        "level": "h2",
+        "text": "Five menu mistakes we see in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "A buffet of greatest hits"
+      },
+      {
+        "level": "h2",
+        "text": "Canapés that are the meal, without saying so"
+      },
+      {
+        "level": "h2",
+        "text": "The generic vegetarian plate"
+      },
+      {
+        "level": "h2",
+        "text": "A cake nobody eats, and no dessert"
+      },
+      {
+        "level": "h2",
+        "text": "Late-night food as an untimed tray"
+      },
+      {
+        "level": "h2",
+        "text": "Children, vendors, drinks"
+      },
+      {
+        "level": "h2",
+        "text": "Children"
+      },
+      {
+        "level": "h2",
+        "text": "Vendors"
+      },
+      {
+        "level": "h2",
+        "text": "Drinks that are not alcohol"
+      },
+      {
+        "level": "h2",
+        "text": "Hire, cost, timeline, kitchens"
+      },
+      {
+        "level": "h2",
+        "text": "Wedding menu questions"
+      },
+      {
+        "level": "h3",
+        "text": "How do we plan a wedding catering menu in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What wedding food menu ideas work for a mixed international guest list?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we have an Indian wedding catering menu and an Arabic wedding menu on the same night?"
+      },
+      {
+        "level": "h3",
+        "text": "When is the wedding menu tasting?"
+      },
+      {
+        "level": "h3",
+        "text": "How many dishes should a wedding buffet menu include?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you plan late-night wedding food in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you handle Halal, vegan, Jain and allergies on one wedding menu?"
+      },
+      {
+        "level": "h3",
+        "text": "How is the catering price list for wedding worked out?"
+      },
+      {
+        "level": "h2",
+        "text": "Send the guest list and the room"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/wedding-catering-menu-planning-dubai",
+        "anchor": "Wedding menu planning",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/wedding-catering-dubai",
+        "anchor": "Wedding catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/wedding-catering-checklist-dubai",
+        "anchor": "Wedding catering checklist",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/wedding-catering-cost-dubai",
+        "anchor": "Wedding catering cost",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/wedding-catering-dubai",
+        "anchor": "Wedding catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

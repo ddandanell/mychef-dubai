@@ -24,7 +24,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const steps = [
-  { num: '01', image: '/process-1.webp', title: 'Reach Out', desc: 'Contact us via WhatsApp or our online form. Tell us about your occasion — the date, number of guests, location in Dubai, and any vision you have in mind. No detail is too small.' },
+  { num: '01', image: '/process-1.webp', title: 'Reach Out', desc: "Share your date, guest count, Dubai location and ideas through WhatsApp or the enquiry form. Include food preferences and any dietary requirements so we can develop a suitable proposal." },
   { num: '02', image: '/process-2.webp', title: 'We Design the Evening', desc: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.' },
   { num: '03', image: '/process-3.webp', title: 'Your Chef Arrives, We Run the Room', desc: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.' },
   { num: '04', image: '/process-4.webp', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
@@ -48,7 +48,7 @@ const faqs = [
   { q: 'Can I see sample menus?', a: 'Yes — visit our Menus page to explore the types of cuisine and dishes on offer. Keep in mind that every menu is bespoke and designed specifically for your event.' },
   { q: 'Is your service insured?', a: 'Every partner chef and service professional we work with is required to carry their own food-handling and personal liability protection and to be background-checked before an event. We verify this as part of vetting, so the licensed professionals preparing your food are properly covered.' },
   { q: 'What is your cancellation policy?', a: CANCELLATION_FAQ_ANSWER },
-  { q: 'Do you cook, or do you bring a chef?', a: 'We design and run your entire private-dining experience; the cooking is done by an independent, licensed chef we handpick, vet, and stand behind. One standard, one point of contact — you deal only with us.' },
+  { q: 'Do you cook, or do you bring a chef?', a: "myCHEF coordinates the brief and booking, while licensed culinary partners prepare the food. Your proposal confirms the menu, chef, service requirements and responsibilities, with one point of contact throughout." },
 ]
 
 const timelineStages = [
@@ -139,7 +139,7 @@ export default function HowItWorks() {
       <PageHero
         eyebrow="THE EXPERIENCE"
         title="How to Book a Private Chef Dubai for One Evening"
-        subtitle="One night, one occasion: you tell us the date and the table, we design the menu and choose the chef. A chef who comes back most weeks is a household plan, and that works differently."
+        subtitle={"Plan a private dinner or one-off occasion with a menu and chef selected around your guests. For regular weekly cooking, our household chef plans follow a separate matching and scheduling process."}
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}

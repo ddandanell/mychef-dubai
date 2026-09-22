@@ -207,7 +207,7 @@ export default function VenuePartners() {
       <PageHero
         eyebrow="PARTNER NETWORK"
         title="Preferred Caterer Dubai: Venue Partners"
-        subtitle="Preferred Caterer Dubai means we cook at a venue you already have. Yacht charters, villas, hotels and event spaces. The venue stays yours; we bring the kitchen team."
+        subtitle={"A preferred catering partner in Dubai for venues, villa managers, yacht operators and event spaces. We coordinate menus and culinary service around your facilities and guest requirements."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"
         overlay="dark"
@@ -228,10 +228,7 @@ export default function VenuePartners() {
               Preferred Caterer Dubai: we cook at your venue
             </h2>
             <p className="reveal font-inter text-body text-gray-400">
-              A preferred caterer agreement puts myCHEF on a venue’s approved list, or lets a host bring us in where
-              outside catering is allowed. We supply the chef, the menu and the service team. Yacht charters, villa
-              managers, hotel events teams and corporate venues use this when they need a kitchen they did not have
-              to staff themselves.
+              A preferred caterer agreement sets out how myCHEF can support your venue’s guests. We plan menus, chef requirements and service around the facilities and operating rules, with any approved-supplier status and commercial terms confirmed in writing.
             </p>
             <p className="reveal font-inter text-body-sm text-gray-500 mt-4">
               We are an independent private chef and catering service. Venue names shown are examples of

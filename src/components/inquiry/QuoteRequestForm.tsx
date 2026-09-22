@@ -4,6 +4,7 @@ import { Mail, MessageCircle } from 'lucide-react'
 import { trackConversion } from '@/lib/track'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
+import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 
 const field =
   'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-body-sm text-black placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
@@ -30,6 +31,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
   const remembered = lastServicePage()
   const sourcePath = sourcePage || fromParam || remembered || '/inquiry'
   const serviceType = serviceLabelFromSource(fromParam || sourcePath, chef)
+  const calculatorBrief = cateringCalculatorBrief(params, fields.guests)
 
   const update = (key: keyof typeof fields) => (e: React.ChangeEvent<HTMLInputElement>) => {
     setFields((current) => ({ ...current, [key]: e.target.value }))
@@ -44,6 +46,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
     fields.area ? `Area: ${fields.area}` : '',
     params.get('package') ? `Package: ${params.get('package')}` : '',
     params.get('extras') ? `Extras: ${params.get('extras')}` : '',
+    ...calculatorBrief,
   ]
     .filter(Boolean)
     .join('\n')
@@ -119,6 +122,11 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
           Chef preference: {chef.replace(/-/g, ' ')}. Assignment is confirmed in the proposal, not on this form.
         </p>
       ) : null}
+      {calculatorBrief.length > 0 && (
+        <p className="sm:col-span-2 whitespace-pre-line font-inter text-body-sm text-gray-600">
+          {calculatorBrief.join('\n')}
+        </p>
+      )}
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Date or flexible</span>
         <input className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />

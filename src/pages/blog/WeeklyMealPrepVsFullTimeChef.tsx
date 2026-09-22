@@ -117,7 +117,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
       <PageHero
         eyebrow="Meal Prep"
         title="Meal Prep vs Private Chef Dubai"
-        subtitle="Weekly meal prep is visits that stock the fridge. A full-time chef is a standing person in the house. They are different products and different prices."
+        subtitle={"Compare visits that prepare meals for the days ahead with more frequent household chef support. The right schedule depends on when you eat, how you like meals served and the cooking your home needs."}
         image="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         imageAlt="Weekly meal prep versus full-time private chef in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Meal Prep vs Full-Time Chef' }]}

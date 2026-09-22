@@ -313,7 +313,7 @@ export default function ConferenceCatering() {
             Conference Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
-            Coffee breaks, half-day and full-day menus around the agenda. Drop-off from AED 90 per person. Staffed buffet from AED 120 per person. We hold and clear so the next session can start.
+            Conference catering planned around your programme, from coffee breaks to half-day and full-day menus. Drop-off starts from AED 90 per person and staffed buffets from AED 120, with setup and clearance timed between sessions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?from=corporate" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a corporate catering quote</Link>
@@ -340,7 +340,7 @@ export default function ConferenceCatering() {
             Conference catering Dubai around the agenda
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Conference catering in Dubai is planned around your agenda. Delegates need coffee, water and a proper lunch without losing the day. We time breaks to the slot, keep lunch inside 45 minutes when the programme is tight, and rotate menus on multi-day work.
+            Conference catering in Dubai supports the flow of your programme. We plan coffee breaks, water service and lunch around the agenda, with staffing and replenishment matched to delegate numbers. Multi-day menus can rotate to offer variety throughout the event.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Drop-off food starts from AED 90 per person. A staffed buffet starts from AED 120 per person. Live stations and canapés start from AED 150 per person. Half-day and full-day packages both use that staffed buffet starting price. The difference is the meal plan: a half day includes arrival coffee, one break and lunch; a full day includes two breaks and lunch. The quote lists the trays, hours and team. Room hire and presentation equipment stay with the venue.

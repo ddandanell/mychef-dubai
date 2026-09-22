@@ -357,7 +357,7 @@ export default function CaseStudies() {
             Catering Case Studies Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cs-hero-sub">
-            Typical formats we run in Dubai: villa weddings, yacht birthdays, company galas, small dinners and launches. We do not publish named clients or invented results.
+            Explore catering formats for Dubai villa weddings, yacht celebrations, company dinners and private gatherings. These are illustrative planning examples; any published client case study requires permission and supporting details.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cs-hero-cta">Request a quote</Link>
@@ -385,7 +385,7 @@ export default function CaseStudies() {
           </h2>
           <div className="cs-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Most “case study” pages invent a guest count, a venue and a glowing outcome. This one does not. Until a host agrees in writing, we show how a night is usually run: the brief, the format, the team, the clear-down.
+              The examples below explain how different occasions can be planned, from the menu and service format to staffing and clear-down. They are illustrative scenarios rather than documented client testimonials or event results.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               For the commercial pages, open <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>, <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. Send the date and headcount when you want a quote for your night.

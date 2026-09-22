@@ -373,7 +373,7 @@ export default function CocktailPartyCatering() {
             Cocktail Party Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cock-hero-sub">
-            Cocktail party catering Dubai is a standing reception: passed canapés from AED {CANAPES.fromPerPerson} per person, bartenders, setup and clear-down. Alcohol only where the venue is licensed or the quotation says so.
+            Cocktail party catering Dubai is a standing reception: passed canapés from AED {CANAPES.fromPerPerson}  per person, with bartenders, setup and clear-down quoted to your event. Alcohol service requires a permitted venue and written confirmation in the booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 cock-hero-cta">Plan My Cocktail Reception</Link>
@@ -400,7 +400,7 @@ export default function CocktailPartyCatering() {
             How cocktail party catering Dubai is built
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Cocktail party catering Dubai is a standing hour: trays of canapés, a bar we bring, and staff who keep both moving. Passed canapés start from AED {CANAPES.fromPerPerson} per person, from {CANAPES.minGuests} guests. That is the food floor. The bar is staff and kit on the same proposal.
+            Cocktail party catering in Dubai brings together canapés, a tailored drinks list and attentive service for a standing reception. Passed canapés start from AED {CANAPES.fromPerPerson} per person, from {CANAPES.minGuests} guests. That is the food floor. The bar is staff and kit on the same proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Alcohol is poured only where the venue is licensed, the operator allows it, or the quotation records a lawful private arrangement. Mocktails run either way. A cocktail-making class can sit in the brief if you want guests behind the bar; it is not a default.

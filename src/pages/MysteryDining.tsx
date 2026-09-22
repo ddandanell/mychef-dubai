@@ -257,7 +257,7 @@ export default function MysteryDining() {
               People search mystery dinner Dubai for this format. Fine dining experience Dubai and unique dining experience Dubai are not slogans here: it is a private dinner experience Dubai in your kitchen, then clear-down. A chef dining experience Dubai with a surprise cake delivery in Dubai is quoted if you asked for it. VAT at 5%.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, or a standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">household chef</Link> if the cook should come back.
+              See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, or a standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">household chef</Link> if the cook should come back.
             </p>
           </div>
         </div>

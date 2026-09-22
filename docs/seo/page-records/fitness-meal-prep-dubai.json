@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/fitness-meal-prep-dubai",
+  "path": "/fitness-meal-prep-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Fitness meal prep Dubai is the Food Prep job: four hours, AED 900, cooked to your macros in your kitchen. Groceries at receipts. VAT 5%.",
+  "keywords": {
+    "primary": "fitness meal prep dubai",
+    "secondary": [
+      "fitness meal prep dubai price",
+      "fitness meal prep dubai price per meal",
+      "best fitness meal prep dubai",
+      "fitness meal prep packages dubai",
+      "fitness meal prep menu dubai",
+      "halal fitness meal prep dubai",
+      "high protein meal prep dubai",
+      "bodybuilding meal prep dubai",
+      "fitness meal plan dubai",
+      "practical meal prep uae",
+      "best meal prep companies dubai",
+      "personal chef meal prep near me cost"
+    ],
+    "primary_owner": "/fitness-meal-prep-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Fitness Meal Prep Dubai | Food Prep AED 900 | myCHEF",
+    "description": "Fitness meal prep Dubai is the Food Prep job: four hours, AED 900, cooked to your macros in your kitchen. Groceries at receipts. VAT 5%.",
+    "h1": [
+      "Fitness Meal Prep Dubai: cooked to your numbers"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/fitness-meal-prep-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/FitnessMealPrep.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 800,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "The visit is Food Prep. The numbers are yours."
+      },
+      {
+        "level": "h2",
+        "text": "What the chef actually does with the brief"
+      },
+      {
+        "level": "h3",
+        "text": "The numbers come from you"
+      },
+      {
+        "level": "h3",
+        "text": "Calories as written"
+      },
+      {
+        "level": "h3",
+        "text": "Training days vs rest days"
+      },
+      {
+        "level": "h3",
+        "text": "Your coach stays the coach"
+      },
+      {
+        "level": "h2",
+        "text": "The goal is yours. The cooking is ours."
+      },
+      {
+        "level": "h3",
+        "text": "Fat loss weeks"
+      },
+      {
+        "level": "h3",
+        "text": "Building weeks"
+      },
+      {
+        "level": "h3",
+        "text": "Training load"
+      },
+      {
+        "level": "h3",
+        "text": "Holding the line"
+      },
+      {
+        "level": "h2",
+        "text": "Fitness Meal Prep Dubai: questions before we cook"
+      },
+      {
+        "level": "h3",
+        "text": "How are macros calculated?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I adjust macros as my programme changes?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide nutrition coaching?"
+      },
+      {
+        "level": "h3",
+        "text": "What cuisines can be made to hit macros?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does fitness meal prep Dubai price come to?"
+      },
+      {
+        "level": "h3",
+        "text": "Nearby pages"
+      },
+      {
+        "level": "h2",
+        "text": "Send the numbers. We will cook them."
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/fitness-meal-prep-dubai",
+        "anchor": "Fitness meal prep",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/weekly-meal-prep-dubai",
+        "anchor": "Weekly meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/wellness-meal-prep-dubai",
+        "anchor": "Healthy meal prep",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Keto catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

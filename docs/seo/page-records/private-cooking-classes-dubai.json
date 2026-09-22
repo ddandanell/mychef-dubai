@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-cooking-classes-dubai",
+  "path": "/private-cooking-classes-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Dining Experiences",
+  "purpose": "Sell a distinct private dining or learning occasion.",
+  "keywords": {
+    "primary": "private cooking classes dubai",
+    "secondary": [
+      "private cooking classes dubai price",
+      "cooking class cost per person dubai",
+      "best private cooking classes dubai",
+      "cooking class packages dubai",
+      "cooking classes at home dubai",
+      "couples cooking class dubai",
+      "cooking classes rates dubai",
+      "cooking classes availability dubai",
+      "cooking classes in dubai for adults",
+      "cooking classes in dubai for beginners",
+      "group cooking classes dubai",
+      "private cooking class dubai"
+    ],
+    "primary_owner": "/private-cooking-classes-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Cooking Classes Dubai | Cook Then Eat | myCHEF",
+    "description": "Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat. Couples, families and teams. Ingredients, kit and clear-down included.",
+    "h1": [
+      "Private Cooking Classes Dubai: Chef-Led Lessons at Home"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-cooking-classes-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/PrivateCookingClassesDubai.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 946,
+    "current_word_count": 925,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What private cooking classes Dubai include"
+      },
+      {
+        "level": "h2",
+        "text": "Who the class is for"
+      },
+      {
+        "level": "h3",
+        "text": "Couples Date Night"
+      },
+      {
+        "level": "h3",
+        "text": "Family Masterclass"
+      },
+      {
+        "level": "h3",
+        "text": "Team Building"
+      },
+      {
+        "level": "h3",
+        "text": "Cuisine-Focused Class"
+      },
+      {
+        "level": "h3",
+        "text": "Chef-Led Dinner Party"
+      },
+      {
+        "level": "h2",
+        "text": "From Menu to Table in Five Steps"
+      },
+      {
+        "level": "h3",
+        "text": "Choose Your Cuisine & Group"
+      },
+      {
+        "level": "h3",
+        "text": "Chef Designs the Menu & Shops"
+      },
+      {
+        "level": "h3",
+        "text": "Class at Your Villa or Venue"
+      },
+      {
+        "level": "h3",
+        "text": "Cook Together, Dine Together"
+      },
+      {
+        "level": "h3",
+        "text": "Chef Handles Cleanup"
+      },
+      {
+        "level": "h2",
+        "text": "Cooking Classes Made for You"
+      },
+      {
+        "level": "h3",
+        "text": "Couples & Anniversary Celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "Families & Birthday Experiences"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Team-Building Groups"
+      },
+      {
+        "level": "h3",
+        "text": "Food-Loving Residents & Visitors"
+      },
+      {
+        "level": "h3",
+        "text": "Booked in someone else’s name"
+      },
+      {
+        "level": "h2",
+        "text": "What Is Included"
+      },
+      {
+        "level": "h2",
+        "text": "A Taste of Our Cooking Classes"
+      },
+      {
+        "level": "h2",
+        "text": "Private Cooking Classes Dubai: the questions we get before a booking"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer private cooking classes at home in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Are cooking classes suitable for beginners?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we choose the cuisine for the class?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer cooking classes for corporate team building?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the meal included after the cooking class?"
+      },
+      {
+        "level": "h2",
+        "text": "Cooking Classes Across Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "You May Also Like"
+      },
+      {
+        "level": "h2",
+        "text": "Send the group size, cuisine and date"
+      },
+      {
+        "level": "h2",
+        "text": "More in Dining Experiences"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining"
+      },
+      {
+        "url": "/private-cooking-classes-dubai",
+        "anchor": "Private cooking classes",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+        "luxury dining experiences dubai",
+        "luxury dining experiences"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/chefs-table-dubai",
+        "anchor": "Chefs table",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

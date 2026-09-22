@@ -238,7 +238,7 @@ export default function FullTimePrivateChef() {
             Full Time Private Chef Dubai: most days, without employing anyone
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fp-hero-sub">
-            A household chef Dubai plan for four, five or six days a week. The chef is employed by a licensed supplier. You buy the days. Groceries at receipts. VAT 5%.
+            A household chef in Dubai for four, five or six days each week, coordinated through a licensed culinary partner. Choose your service days, with groceries charged at actual cost and 5% VAT shown separately.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Get My Full-Time Chef Quote</Link>
@@ -266,7 +266,7 @@ export default function FullTimePrivateChef() {
           </h2>
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hire a full time chef Dubai when most dinners need covering. We do not place live-in staff. A licensed supplier employs the chef. You buy four, five or six days a week. Full time private chef cost Dubai is the visit rate times the days, groceries at receipts, VAT at 5%.
+              A full-time private chef plan in Dubai supports households that need regular cooking through the week. Choose four, five or six service days, with the chef employed by a licensed partner. This is a scheduled service rather than live-in placement; the visit rate, groceries and 5% VAT are set out clearly.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A household chef Dubai is a standing cook for the people who live there. A private chef for family meals, or a monthly private chef Dubai on a set number of days, is that same match with a different calendar. A part time chef Dubai is the lighter version of this brief. Best time to hire caterers is a different search: one night is catering.

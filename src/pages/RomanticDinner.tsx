@@ -174,9 +174,7 @@ export default function RomanticDinner() {
             Romantic Dinner Dubai: A Private Chef, Candlelight and a Table for Two
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Every romantic dinner Dubai couples book with myCHEF starts with one conversation about the two of you: the
-            occasion, the setting and the dishes that mean something. A private chef then cooks it where you are,
-            at home, in a villa, on a yacht or under the desert sky, from AED 1,200 for two. VAT at 5%.
+            Every romantic dinner in Dubai begins with the two of you: the occasion, your favourite dishes and the setting you have chosen. Enjoy a private chef dinner at home, in a villa or at another agreed venue, with the Date Night package from AED 1,200 for two, plus 5% VAT.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link to="/inquiry" className="btn-primary">Plan Our Dinner for Two</Link>
@@ -191,15 +189,10 @@ export default function RomanticDinner() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 gsap-reveal">
           <h2 className="font-playfair text-3xl text-white mb-6">Why couples skip the restaurant</h2>
           <p className="text-gray-400 mb-4">
-            Restaurants seat you at 8:30, turn the table by 10:30 and put a stranger&apos;s conversation eighteen inches from
-            your anniversary. A private dinner for two Dubai couples host with us is the opposite: the chef arrives, cooks in
-            your kitchen and paces the courses to your evening. You choose the music, the light and how long dessert lasts.
+            A private dinner for two gives you time and space to enjoy the evening together. Your chef prepares the meal in your kitchen and paces the courses around you, while you choose the music, lighting and setting.
           </p>
           <p className="text-gray-400 mb-4">
-            The menu is written for the two of you rather than pulled from a card. If your first date was a bowl of
-            pasta, that is course two. If one of you is pregnant, halal, vegan or allergic to shellfish,
-            the whole menu is built around it. This is what private dining for two Dubai
-            residents actually want: a kitchen with nobody else in the room.
+            We develop the menu around your preferences and the occasion, whether that means revisiting a favourite dish or exploring something new. Please share dietary requirements, allergies or pregnancy-related food restrictions before the menu is confirmed.
           </p>
           <p className="text-gray-400">
             Date night private chef Dubai and a romantic dinner at home Dubai are the same night, quoted from AED 1,200 for two.
@@ -314,7 +307,7 @@ export default function RomanticDinner() {
           <p className="text-gray-500 text-sm mt-6">
             Prices are for Dubai addresses. VAT at 5% is shown on its own line. Desert and beach sites add venue and transport fees, quoted per
             location. Ingredients above the Date Night menu are itemised. The fixed-price{' '}
-            <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">date night package</Link>{' '}
+            <Link to="/inquiry?from=date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">date night package</Link>{' '}
             is the fastest way to book the three-course format.
           </p>
         </div>
@@ -332,9 +325,9 @@ export default function RomanticDinner() {
             ))}
           </div>
           <p className="text-gray-500 text-sm text-center mt-10 gsap-reveal">
-            Still deciding? Read how a{' '}
-            <Link to="/blog/private-chef-date-night-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private chef date night</Link>{' '}
-            actually unfolds, hour by hour.
+            Still deciding? Explore our{' '}
+            <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private dining planning guide</Link>{' '}
+            for practical booking and preparation advice.
           </p>
         </div>
       </section>

@@ -1,62 +1,84 @@
 {
- "url": "/blog/dubai-school-food-rules-2026",
- "head": {
-  "title": "Dubai School Food Rules 2026 | Municipality Guide | myCHEF",
-  "meta_description": "What Dubai Municipality’s school-food rules and My School Food mean for canteens in 2026 — bans, labelling, and what a caterer must show you.",
-  "h1": "Dubai School Food Rules 2026"
- },
- "opening_paragraph": [
-  "Dubai school food rules 2026 are the brief a canteen now has to survive. Two things landed close together: My School Food, a municipal platform for schools, nurseries and universities launched in November 2025, and a national guide for food in the school environment that bans sugary and energy drinks, confectionery, fried food, nuts and processed meats. Healthy school lunch Dubai is no longer a slogan on a menu board. This explainer is for principals, business managers and caterers who have to brief a board without pretending they hold a listing they have not filed."
- ],
- "add_block": [
-  {
-   "new_heading": "What My School Food actually is",
-   "new_paragraphs": [
-    "My School Food is Dubai Municipality’s registered-supplier model for educational food. Coverage is large: hundreds of thousands of students, hundreds of institutions. The point of the platform is not a marketing badge. It is who is allowed to sell food into those sites, with menus and ingredients going through municipal review and daily monitoring on municipal channels.",
-    "A caterer who cannot tell you their supplier status is not ready for a school year. myCHEF will not claim a My School Food listing on this page until that registration is complete and on file."
-   ]
+  "url": "/blog/dubai-school-food-rules-2026",
+  "head": {
+    "title": "Dubai School Food Rules 2026 | myCHEF",
+    "h1": "Dubai School Food Rules 2026",
+    "meta_description": "A practical checklist for verifying Dubai school food requirements, provider approvals, menus, allergen information and responsibilities in 2026."
   },
-  {
-   "new_heading": "What the 2026 national guide bans",
-   "new_paragraphs": [
-    "The national guide for food and beverages in the school environment is aimed at what children are sold and served: sugary and energy drinks, confectionery, fried food, all nuts, processed meats. Colour-coded “smart food” language from municipal releases uses green, yellow, red and black. We do not invent extra colours. We do not claim KHDA writes the food permit — KHDA sets wellbeing expectations; Dubai Municipality writes the food rules."
-   ]
+  "opening_paragraph": [
+    "Dubai school food rules in 2026 should be checked against the current requirements issued by the relevant authorities and the school’s own policies. This guide helps school teams prepare that review and ask a proposed catering provider for the documentation that applies to its service."
+  ],
+  "add_block": [],
+  "images": [
+    {
+      "src": "/images/blog/dubai-school-food-rules-2026-hero.webp",
+      "alt": "A labelled school lunch line in Dubai, papers on a clipboard, no devices on the servery. Experience concept shown.",
+      "role": "hero",
+      "width": 1344,
+      "height": 752,
+      "caption": "Illustrative service setting."
+    }
+  ],
+  "keyword_lock": {
+    "primary": "dubai school food rules 2026",
+    "subkeywords": [
+      "my school food dubai",
+      "dubai municipality school food",
+      "national guide school food uae",
+      "school canteen standards dubai",
+      "healthy school lunch dubai",
+      "khda school catering",
+      "dmchecked school catering",
+      "what foods are banned in dubai schools"
+    ]
   },
-  {
-   "new_heading": "What a school should ask to see",
-   "new_paragraphs": [
-    "Education-supply food permit, not only a restaurant licence. PIC Level 3 on the shift that cooks. Health cards matching the people on site. Allergen cards for the 14 declared allergens. Temperature logs for the van and the line. Halal certificates that match the proteins on the cycle.",
-    "If the conversation starts with a cashless app, send them back to software. School catering Dubai is food. Canteen management Dubai is the room. Neither is a till login."
-   ]
-  },
-  {
-   "new_heading": "Nurseries are in the same wave",
-   "new_paragraphs": [
-    "My School Food covers nurseries as well as schools. Early-years textures and nut-free production are stricter, not looser. Nursery catering Dubai is the service page for that kitchen. This post stays with the rules."
-   ]
-  }
- ],
- "images": [
-  {
-   "src": "/images/blog/dubai-school-food-rules-2026-hero.webp",
-   "alt": "A labelled school lunch line in Dubai, papers on a clipboard, no devices on the servery. Experience concept shown.",
-   "role": "hero",
-   "width": 1344,
-   "height": 752,
-   "caption": "Experience concept shown."
-  }
- ],
- "keyword_lock": {
-  "primary": "dubai school food rules 2026",
-  "subkeywords": [
-   "my school food dubai",
-   "dubai municipality school food",
-   "national guide school food uae",
-   "school canteen standards dubai",
-   "healthy school lunch dubai",
-   "khda school catering",
-   "dmchecked school catering",
-   "what foods are banned in dubai schools"
+  "replace_in_block": [
+    {
+      "block_on_your_page": "Begin with the current official requirements",
+      "new_heading": "Begin with the current official requirements",
+      "new_paragraphs": [
+        "Ask the relevant authority which approvals, programme registrations and food-service requirements apply to your school and the proposed operation. Use the latest official material and confirm its scope, rather than treating an older article or supplier claim as evidence of compliance."
+      ]
+    },
+    {
+      "block_on_your_page": "Confirm the provider’s scope",
+      "new_heading": "Confirm the provider’s scope",
+      "new_paragraphs": [
+        "Check the legal entity carrying out the food service, the facilities it will use and the approvals relevant to preparation, transport and on-site operations. Any claimed certification should identify the holder, issuing body, scope and validity."
+      ]
+    },
+    {
+      "block_on_your_page": "Review the menu and dietary process",
+      "new_heading": "Review the menu and dietary process",
+      "new_paragraphs": [
+        "Compare the proposed menu cycle with the current school policy and any applicable official criteria. Ask how ingredients, portions, dietary requirements and individual meal labels are managed. Specific restrictions should be confirmed from the rules that apply to the institution."
+      ]
+    },
+    {
+      "block_on_your_page": "Assess the daily operation",
+      "new_heading": "Assess the daily operation",
+      "new_paragraphs": [
+        "Document delivery and service windows, receiving checks, storage, equipment, cleaning and the staff responsible for each stage. The arrangements should suit the actual kitchen or canteen, student numbers and school timetable."
+      ]
+    },
+    {
+      "block_on_your_page": "Keep a record of the decision",
+      "new_heading": "Keep a record of the decision",
+      "new_paragraphs": [
+        "Retain the current requirements, provider documents, agreed menu and written responsibilities with the contract. Record how changes and incidents are reported and when the documents will next be reviewed. A proposal should be confirmed only when the required evidence and operational arrangements are in place."
+      ]
+    }
+  ],
+  "faq": [],
+  "updated_at": "2026-09-22",
+  "references": [
+    {
+      "label": "Dubai Municipality: official services and document verification",
+      "url": "https://www.dm.gov.ae/"
+    },
+    {
+      "label": "School catering requirements and enquiries",
+      "url": "/school-catering-dubai"
+    }
   ]
- }
 }

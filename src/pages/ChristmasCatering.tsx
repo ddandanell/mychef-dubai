@@ -382,7 +382,7 @@ export default function ChristmasCatering() {
             Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 xmas-hero-sub">
-            Spend Christmas with your family, not in the kitchen. Our chefs prepare Christmas Eve, Christmas Day and festive-season dinners in private homes, villas and residences across Dubai, from a traditional British roast to a French Réveillon, an Italian Natale and other international Christmas menus.
+            Enjoy Christmas with the people who matter. A private chef prepares your Christmas Eve, Christmas Day or festive-season dinner at home, with menus inspired by a traditional British roast, French Réveillon, Italian Natale and other international celebrations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Plan My Christmas Dinner</Link>
@@ -418,7 +418,7 @@ export default function ChristmasCatering() {
             A chef in your kitchen on the one day you would rather not be in it
           </h2>
           <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
-            Christmas catering Dubai, the way we run it, is a chef and a service team at the address you already have: a villa in Emirates Hills, an apartment in the Marina, an office in DIFC or a yacht you have chartered. Christmas in Dubai is often a table at home rather than a restaurant booking, and cooler evenings make a long lunch on the terrace easy.
+            Christmas catering in Dubai brings a chef and service team to your home, office or chartered yacht. Plan a traditional dinner, a relaxed terrace lunch or a menu that reflects your family’s celebrations, with practical arrangements agreed around the venue.
           </p>
           <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
             Yes, we cook on Christmas Day itself, and on Christmas Eve, Boxing Day and Orthodox Christmas in January. Yes, you choose the menu: start from one of the seven Christmas menus on this page, combine dishes across them, or brief the chef on what Christmas looks like in your family. The chef shops, cooks, serves and clears down. You host.

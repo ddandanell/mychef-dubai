@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/nursery-catering-dubai",
+  "path": "/nursery-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Institutional Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "nursery catering dubai",
+    "secondary": [
+      "nursery catering companies dubai",
+      "nursery meal plans dubai",
+      "preschool catering dubai",
+      "nursery lunch delivery dubai",
+      "nut-free nursery meals dubai",
+      "halal nursery meals dubai",
+      "healthy meals for nurseries dubai",
+      "early years catering dubai"
+    ],
+    "primary_owner": "/nursery-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Nursery Catering Dubai | Early Years Meals | myCHEF",
+    "description": "Nursery catering Dubai for early-years meals. Documented kitchens, allergen lists, a quote after we see the site. WhatsApp the enrolment.",
+    "h1": [
+      "Nursery Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/nursery-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/InstitutionalLanding.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/institutionalCluster.ts",
+    "src/content/institutionalLandingTypes.ts",
+    "src/content/nurseryCateringPage.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/NurseryCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2026,
+    "current_word_count": 2005,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why nursery catering Dubai is a different job"
+      },
+      {
+        "level": "h2",
+        "text": "What you can verify before anyone cooks"
+      },
+      {
+        "level": "h3",
+        "text": "Chef-led cooking, not a tray line"
+      },
+      {
+        "level": "h3",
+        "text": "Menus written for the age band"
+      },
+      {
+        "level": "h3",
+        "text": "Nut-free as a kitchen rule"
+      },
+      {
+        "level": "h3",
+        "text": "Halal-first, documented"
+      },
+      {
+        "level": "h3",
+        "text": "Temperature on the van, not only in the kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "A quote after the walk, not a from-price on the internet"
+      },
+      {
+        "level": "h2",
+        "text": "An example week used for quoting, not a promised menu"
+      },
+      {
+        "level": "h2",
+        "text": "What this work requires in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. The manager sees the papers."
+      },
+      {
+        "level": "h2",
+        "text": "How a nursery quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "Parents ask who chose the caterer"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h3",
+        "text": "What halal-first means here"
+      },
+      {
+        "level": "h3",
+        "text": "Allergy-safe production"
+      },
+      {
+        "level": "h3",
+        "text": "Read the rules, then the quote"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking nursery catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do all nurseries in Dubai provide meals?"
+      },
+      {
+        "level": "h3",
+        "text": "How do Dubai nurseries handle food allergies?"
+      },
+      {
+        "level": "h3",
+        "text": "What foods are restricted in Dubai nurseries?"
+      },
+      {
+        "level": "h3",
+        "text": "How much do nursery meal plans cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you listed on My School Food?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook on site or deliver?"
+      },
+      {
+        "level": "h3",
+        "text": "Can parents still pack on some days?"
+      },
+      {
+        "level": "h3",
+        "text": "How much notice do you need to start?"
+      },
+      {
+        "level": "h3",
+        "text": "Nursery catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Enrolment, ages and days is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "More in myCHEF Dubai"
+      }
+    ],
+    "baseline_findings": [
+      "F08",
+      "F24"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "Institutional catering"
+      },
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "alt_anchors": []
+      },
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/nut-free-halal-nursery-meals-dubai",
+        "anchor": "Nut-free, allergen and halal nursery meals",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+        "anchor": "Provided meals vs packed lunch",
+        "alt_anchors": []
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/dubai-catering-prices-guide",
+  "path": "/dubai-catering-prices-guide",
+  "role": "indexable page",
+  "page_type": "Guide / comparison",
+  "silo": "Blog and Guides",
+  "purpose": "Help a host plan budgets, formats, menus and logistics.",
+  "keywords": {
+    "primary": "catering prices dubai",
+    "secondary": [
+      "catering cost per person dubai",
+      "how much does catering cost in dubai",
+      "catering price list dubai",
+      "event catering cost dubai",
+      "how much does catering cost for 50 guests dubai",
+      "event catering prices dubai 2026",
+      "birthday catering prices dubai",
+      "catering food price list"
+    ],
+    "primary_owner": "/dubai-catering-prices-guide",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Catering Prices Dubai 2026 | Cost Guide | myCHEF",
+    "description": "2026 Catering prices Dubai per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised q",
+    "h1": [
+      "Catering Prices Dubai Guide: What to Budget for Your Event"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/dubai-catering-prices-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/guides/DubaiCateringPricesGuide.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1209,
+    "current_word_count": 1217,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Understand Catering Costs Before You Book"
+      },
+      {
+        "level": "h2",
+        "text": "Catering Costs Per Person in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Factors That Affect Catering Cost"
+      },
+      {
+        "level": "h3",
+        "text": "Guest Count"
+      },
+      {
+        "level": "h3",
+        "text": "Cuisine & Ingredients"
+      },
+      {
+        "level": "h3",
+        "text": "Service & Staffing"
+      },
+      {
+        "level": "h3",
+        "text": "Venue & Location"
+      },
+      {
+        "level": "h3",
+        "text": "Add-Ons"
+      },
+      {
+        "level": "h2",
+        "text": "How to Get an Accurate Catering Quote"
+      },
+      {
+        "level": "h2",
+        "text": "Why Custom Quotes Beat Fixed Packages"
+      },
+      {
+        "level": "h2",
+        "text": "Typical Catering Scenarios in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Marina Apartment Dinner Party"
+      },
+      {
+        "level": "h3",
+        "text": "Emirates Hills Villa BBQ"
+      },
+      {
+        "level": "h3",
+        "text": "Palm Jumeirah Yacht Cruise"
+      },
+      {
+        "level": "h3",
+        "text": "DIFC Boardroom Lunch"
+      },
+      {
+        "level": "h2",
+        "text": "Related Catering Services & Guides"
+      },
+      {
+        "level": "h2",
+        "text": "Catering prices Dubai: questions before you ask for a quote"
+      },
+      {
+        "level": "h3",
+        "text": "How much does catering cost per person in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "What is included in a catering quote?"
+      },
+      {
+        "level": "h3",
+        "text": "Why is a custom quote better than a package price?"
+      },
+      {
+        "level": "h3",
+        "text": "Does guest count change the per-person price?"
+      },
+      {
+        "level": "h3",
+        "text": "Are there extra charges for off-site or villa venues?"
+      },
+      {
+        "level": "h3",
+        "text": "How do I get an accurate catering quote?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does catering cost in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Get a Transparent Catering Quote"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/dubai-catering-prices-guide",
+        "anchor": "Catering prices",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/catering-cost-calculator-dubai",
+        "anchor": "Catering cost calculator",
+        "alt_anchors": []
+      },
+      {
+        "url": "/dubai-event-catering-price-guide-2026",
+        "anchor": "Event catering price guide 2026",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing",
+        "alt_anchors": []
+      },
+      {
+        "url": "/how-to-choose-caterer-dubai",
+        "anchor": "How to choose a caterer",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

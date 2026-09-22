@@ -41,9 +41,9 @@ const brandAssets = [
 
 const linkableResources = [
   {
-    title: 'Yacht Catering Checklist',
-    description: 'A practical checklist for planning food and service on a Dubai yacht charter.',
-    href: '/yacht-catering-checklist-dubai',
+    title: 'Yacht Catering & Planning',
+    description: 'Menu formats, service arrangements and planning details for a catered Dubai yacht charter.',
+    href: '/yachts',
   },
   {
     title: 'Wedding Catering Menu Planning Guide',
@@ -135,7 +135,7 @@ export default function Press() {
       <PageHero
         eyebrow="Press & Media"
         title="Press Kit & Media Resources"
-        subtitle="Fact sheet, brand assets, and linkable resources for journalists, bloggers, directories, and partnership partners."
+        subtitle={"Company information, brand assets and planning resources for journalists, editors, publishers and potential partners."}
         image="/images/case-studies-hero.webp"
         imageAlt="myCHEF Dubai media kit and press resources"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Press & Media' }]}
@@ -149,7 +149,7 @@ export default function Press() {
         <div className="press-body container-custom max-w-[1000px]">
           <section className="press-section opacity-0 translate-y-8 mb-16 text-center">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
-              myCHEF Dubai is a private chef company for homes and a caterer for events. Use the resources below for features, listings, partnerships and citations.
+              myCHEF Dubai coordinates private chefs for households and catering for events through licensed culinary partners. Use the resources below for editorial enquiries, company listings and partnership information.
             </p>
           </section>
 

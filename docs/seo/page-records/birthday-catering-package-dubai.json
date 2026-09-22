@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/birthday-catering-package-dubai",
+  "path": "/birthday-catering-package-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Packages / Offers",
+  "purpose": "Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately.",
+  "keywords": {
+    "primary": "birthday catering packages dubai",
+    "secondary": [
+      "birthday catering package dubai price",
+      "birthday catering package cost per person dubai",
+      "best birthday catering package dubai",
+      "what is included in birthday catering package dubai",
+      "halal birthday catering package dubai",
+      "kids birthday catering packages dubai",
+      "birthday party package dubai catering",
+      "catering packages on offer in dubai",
+      "catering package dubai",
+      "kids birthday food package dubai",
+      "birthday catering at home dubai",
+      "birthday catering blog dubai"
+    ],
+    "primary_owner": "/birthday-catering-package-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Birthday Catering Packages Dubai | myCHEF",
+    "description": "Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately.",
+    "h1": [
+      "Birthday Catering Packages Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/birthday-catering-package-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/LocationStrip.tsx",
+    "src/components/PackagePageTemplate.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringPricing.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/BirthdayPackage.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 560,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What is included in the Birthday Celebration package?"
+      },
+      {
+        "level": "h3",
+        "text": "Sample Menu Ideas"
+      },
+      {
+        "level": "h3",
+        "text": "Popular Add-ons"
+      },
+      {
+        "level": "h2",
+        "text": "Common Questions About the Birthday Celebration Package"
+      },
+      {
+        "level": "h3",
+        "text": "Can this package cater both kids and adults?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you provide a birthday cake?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the party be at a villa or venue?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Services"
+      },
+      {
+        "level": "h3",
+        "text": "Birthday Celebration packages across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Book the Birthday Celebration Package"
+      },
+      {
+        "level": "h2",
+        "text": "More in Packages"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages"
+      },
+      {
+        "url": "/birthday-catering-package-dubai",
+        "anchor": "Birthday catering packages",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-packages-dubai",
+      "anchor": "Catering packages",
+      "alt_anchors": [
+        "catering packages dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/birthday-catering-dubai",
+        "anchor": "Birthday catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/catering-packages-dubai",
+        "anchor": "Catering packages",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

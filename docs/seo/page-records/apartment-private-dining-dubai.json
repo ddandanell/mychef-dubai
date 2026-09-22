@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/apartment-private-dining-dubai",
+  "path": "/apartment-private-dining-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Dining Experiences",
+  "purpose": "Sell a distinct private dining or learning occasion.",
+  "keywords": {
+    "primary": "private chef for apartment dubai",
+    "secondary": [
+      "private chef apartment dubai price",
+      "best private chef for apartment dubai",
+      "apartment private dining packages dubai",
+      "apartment dinner party dubai",
+      "private dinner in dubai",
+      "chef to chef dubai",
+      "personal chef availability in dubai",
+      "private dining chef"
+    ],
+    "primary_owner": "/apartment-private-dining-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Chef for Apartment Dubai | From AED 1,200 | myCHEF",
+    "description": "Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%.",
+    "h1": [
+      "Private Chef for Apartment Dubai: one night in your kitchen"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/apartment-private-dining-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/ApartmentPrivateDining.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 695,
+    "current_word_count": 669,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Private chef for apartment Dubai is catering in a compact kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Compact kitchen, full clear-down"
+      },
+      {
+        "level": "h3",
+        "text": "Built for a compact kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Two to eight guests"
+      },
+      {
+        "level": "h3",
+        "text": "One night, then clear-down"
+      },
+      {
+        "level": "h3",
+        "text": "Courses at your table"
+      },
+      {
+        "level": "h2",
+        "text": "Two published numbers. Then the quote."
+      },
+      {
+        "level": "h3",
+        "text": "Date Night for two"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner with friends"
+      },
+      {
+        "level": "h3",
+        "text": "A celebration at the apartment table"
+      },
+      {
+        "level": "h3",
+        "text": "A longer tasting"
+      },
+      {
+        "level": "h2",
+        "text": "Questions before an apartment dinner"
+      },
+      {
+        "level": "h3",
+        "text": "Will the chef fit in my apartment kitchen?"
+      },
+      {
+        "level": "h3",
+        "text": "How many guests can an apartment dinner take?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need special equipment?"
+      },
+      {
+        "level": "h3",
+        "text": "What is a private chef apartment Dubai price?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef cook around dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Nearby pages"
+      },
+      {
+        "level": "h2",
+        "text": "Book the apartment night"
+      },
+      {
+        "level": "h2",
+        "text": "More in Dining Experiences"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining"
+      },
+      {
+        "url": "/apartment-private-dining-dubai",
+        "anchor": "Private chef for apartment",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+        "luxury dining experiences dubai",
+        "luxury dining experiences"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/romantic-dinner-dubai",
+        "anchor": "Dinner for two",
+        "alt_anchors": []
+      },
+      {
+        "url": "/guide/private-dining-dubai",
+        "anchor": "Private dining guide",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/yachts",
+        "anchor": "Yacht catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

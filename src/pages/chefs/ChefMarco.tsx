@@ -15,7 +15,7 @@ const chef: ChefProfileData = {
   cuisine: 'Italian and Mediterranean',
   image: '/team-sous-chef.webp',
   imageAlt: 'Independent partner chef Marco Rossi, Italian cuisine specialist in the myCHEF Dubai network',
-  bio: 'Marco Rossi is an Italian private chef Dubai hosts book through myCHEF: an independent partner chef, employed by a licensed supplier. Private chef Italian food Dubai, an Italian chef for dinner party Dubai nights, and an Italian chef at home Dubai are the same person in your kitchen, then clear-down. Hand-rolled pasta, antipasti, regional Italian and seafood are the usual brief. Italian catering in Dubai sits on the catering pages when the night is a party. You approve the profile before anyone starts. We do not publish years of experience.',
+  bio: "Marco Rossi is an Italian private chef in Dubai, working through a licensed culinary partner. His menus feature hand-rolled pasta, antipasti, seafood and regional Italian dishes, prepared for private dinners and gatherings at home. Share your preferences, and we will confirm the proposed menu, chef profile and availability.",
   specialties: [
     'Handmade Pasta',
     'Wood-Fired Cooking',

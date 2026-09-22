@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/tourist-villa-chef-dubai",
+  "path": "/tourist-villa-chef-dubai",
+  "role": "noindex support page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Holiday villa chef Dubai: multi-day dinners in a rental villa. The chef shops, cooks, serves and clears. From AED 2,500 for three dinners.",
+  "keywords": {
+    "primary": "holiday villa chef dubai",
+    "secondary": [
+      "private chef holiday villa dubai",
+      "private chef for a week dubai",
+      "chef for holiday home dubai",
+      "private chef for tourists dubai",
+      "private chef airbnb dubai",
+      "top chef offering home in dubai",
+      "vacation villa with chef",
+      "villa with private chef jamaica",
+      "villa with private chef thailand",
+      "chef villa vanderpump",
+      "chef villa zaira",
+      "exclusive villa chef & heated pool"
+    ],
+    "primary_owner": "/tourist-villa-chef-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Holiday Villa Chef Dubai | myCHEF",
+    "description": "Holiday villa chef Dubai: multi-day dinners in a rental villa. The chef shops, cooks, serves and clears. From AED 2,500 for three dinners.",
+    "h1": [
+      "Holiday Villa Chef Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/tourist-villa-chef-dubai",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/hooks/useScrollTrigger.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/TouristVillaChef.tsx",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 883,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Holiday villa chef Dubai: dinners for the dates you are here"
+      },
+      {
+        "level": "h2",
+        "text": "Three dinners, five dinners, or a custom stay"
+      },
+      {
+        "level": "h3",
+        "text": "3-Day Taste of Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "5-Day Villa Dinners"
+      },
+      {
+        "level": "h3",
+        "text": "Custom villa stay"
+      },
+      {
+        "level": "h2",
+        "text": "Why visitors book a chef for the villa"
+      },
+      {
+        "level": "h3",
+        "text": "Skip Restaurant Logistics"
+      },
+      {
+        "level": "h3",
+        "text": "Authentic Local Flavours"
+      },
+      {
+        "level": "h3",
+        "text": "Flexible Around Your Holiday"
+      },
+      {
+        "level": "h3",
+        "text": "Trusted by Villa Managers"
+      },
+      {
+        "level": "h2",
+        "text": "The questions we get before a villa-chef booking"
+      },
+      {
+        "level": "h3",
+        "text": "Who is the tourist villa chef service for?"
+      },
+      {
+        "level": "h3",
+        "text": "Do I need to provide kitchen equipment?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the chef cater to children or picky eaters?"
+      },
+      {
+        "level": "h3",
+        "text": "How far in advance should I book?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this available outside Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cook in holiday villas in Dubai, or only in private homes?"
+      },
+      {
+        "level": "h3",
+        "text": "Related Experiences"
+      },
+      {
+        "level": "h2",
+        "text": "Send the villa, the dates and the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Chef"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/tourist-villa-chef-dubai",
+        "anchor": "Holiday villa chef",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/villas-private-residences",
+        "anchor": "Villa dining",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/villa-catering-ideas-dubai",
+        "anchor": "Villa catering ideas",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

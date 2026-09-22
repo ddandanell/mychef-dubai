@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-22",
+  "baseline_commit": "7e981dc1f3e522f5f114ccd9d3c6064d46960faf",
+  "release_parent": "9465c4a70e499fd166e03eb5b048bfb498564f27",
+  "checks": [
+    {
+      "check": "prerender",
+      "command": "node --import tsx scripts/prerender.ts (local Chromium path supplied)",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/prerender.txt"
+    },
+    {
+      "check": "production-build",
+      "command": "npm run build",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/production-build.txt"
+    },
+    {
+      "check": "seo-contract",
+      "command": "python3 scripts/verify-seo-contract.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/seo-contract.txt"
+    },
+    {
+      "check": "keyword-locks",
+      "command": "python3 scripts/verify-keyword-locks.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/keyword-locks.txt"
+    },
+    {
+      "check": "retirements",
+      "command": "python3 scripts/verify-retirements.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/retirements.txt"
+    },
+    {
+      "check": "soft-404",
+      "command": "python3 scripts/verify-soft-404.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/soft-404.txt"
+    },
+    {
+      "check": "api-functions",
+      "command": "python3 scripts/verify-api-functions.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/api-functions.txt"
+    },
+    {
+      "check": "hero",
+      "command": "python3 scripts/verify-hero.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/hero.txt"
+    },
+    {
+      "check": "breadcrumbs",
+      "command": "python3 scripts/generate-breadcrumbs.py --check",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/breadcrumbs.txt"
+    },
+    {
+      "check": "parked",
+      "command": "python3 scripts/verify-parked.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/parked.txt"
+    },
+    {
+      "check": "url-stability",
+      "command": "python3 scripts/verify-url-stability.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/url-stability.txt"
+    },
+    {
+      "check": "editorial-build",
+      "command": "python3 scripts/verify-editorial-build.py",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/editorial-build.txt"
+    },
+    {
+      "check": "page-records",
+      "command": "python3 scripts/generate-page-records.py --check",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/page-records.txt"
+    },
+    {
+      "check": "metadata",
+      "command": "node --import tsx scripts/verify-meta.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/metadata.txt"
+    },
+    {
+      "check": "google-brand",
+      "command": "node --import tsx scripts/verify-google-brand.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/google-brand.txt"
+    },
+    {
+      "check": "catering-pricing",
+      "command": "node --import tsx scripts/test-catering-pricing.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/catering-pricing.txt"
+    },
+    {
+      "check": "yacht-catering-quote",
+      "command": "node --import tsx scripts/test-yacht-catering-quote.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/yacht-catering-quote.txt"
+    },
+    {
+      "check": "catering-inquiry",
+      "command": "node --import tsx scripts/test-catering-inquiry.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/catering-inquiry.txt"
+    },
+    {
+      "check": "corporate-packages",
+      "command": "node --import tsx scripts/test-corporate-packages.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/corporate-packages.txt"
+    },
+    {
+      "check": "birthday-extras",
+      "command": "node --import tsx scripts/test-birthday-extras.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/birthday-extras.txt"
+    },
+    {
+      "check": "birthday-rsa",
+      "command": "node --import tsx scripts/test-birthday-rsa.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/birthday-rsa.txt"
+    },
+    {
+      "check": "booking-terms",
+      "command": "node --import tsx scripts/test-booking-terms.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/booking-terms.txt"
+    },
+    {
+      "check": "chef-inquiry",
+      "command": "node --import tsx scripts/test-chef-inquiry.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/chef-inquiry.txt"
+    },
+    {
+      "check": "seo-g-h",
+      "command": "node --import tsx scripts/test-seo-g-h.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/seo-g-h.txt"
+    },
+    {
+      "check": "faq-jsonld",
+      "command": "node --import tsx scripts/test-faq-jsonld.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/faq-jsonld.txt"
+    },
+    {
+      "check": "conversion-events",
+      "command": "node --import tsx scripts/test-conversion-events.ts",
+      "exit_code": 0,
+      "result": "Passed",
+      "log": "docs/editorial-audit/2026-09-22/validation-logs/conversion-events.txt"
+    }
+  ],
+  "limitations": [
+    "The initial source crawl verified 24 HTTP responses directly; browser inspection completed the public-page inventory.",
+    "No real enquiry, email, payment or booking was submitted.",
+    "Keyword volumes and search ranking changes were not measured.",
+    "Business credentials, capacity, offer availability and vendor/legal arrangements require business evidence.",
+    "The bundled Lambda browser could not extract ownership metadata in this environment. The same Chromium assets were extracted without ownership changes and used by the existing production prerender script.",
+    "tsx CLI IPC is restricted in this environment; TypeScript checks used node --import tsx to execute the same scripts."
+  ],
+  "lint": {
+    "result": "Existing failures; no new findings",
+    "baseline_errors": 33,
+    "baseline_warnings": 6,
+    "current_errors": 33,
+    "current_warnings": 6,
+    "new_findings": 0,
+    "comparison": "Compared file, rule and diagnostic summary against an untouched baseline worktree."
+  }
+}

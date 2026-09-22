@@ -236,7 +236,7 @@ export default function ProposalDinner() {
             Proposal Dinner Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            Proposal dinner Dubai: a private chef, a menu written for the table, flowers, candles and timing for the question. You ask; the team runs the dinner.
+            A proposal dinner in Dubai, thoughtfully planned around your moment. A private chef, a personal menu and carefully coordinated service allow you to focus on the evening together.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
@@ -264,10 +264,10 @@ export default function ProposalDinner() {
           </h2>
           <div className="pd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A proposal dinner is a timed sitting. Tell us about your partner, the venue you have and how you want the question to land. We typically reply within 15 minutes during business hours, then match a vetted private chef and a coordinator for the date. Intimate Proposal starts from AED 3,000; Villa Celebration from AED 6,000. The written quote confirms the total.
+              Tell us about your partner, your chosen venue and how you imagine the evening unfolding. We coordinate the chef, menu and agreed details around your proposal. Intimate Proposal starts from AED 3,000 and Villa Celebration from AED 6,000; your written quote confirms the scope and total.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft.
+              Your quote reflects the menu, guest count, service style and venue requirements. We set out the food, staffing and other inclusions in writing, with dietary needs considered from the first menu draft.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first course to the moment you ask, we manage pacing, styling and coordination with photographers and florists you have booked, or with partners we introduce. You arrive as a guest. We do not replace a full event planner.

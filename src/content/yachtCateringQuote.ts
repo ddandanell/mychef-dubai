@@ -13,10 +13,10 @@ export const OVERTIME_PER_SERVER_PER_HOUR_AED = 240
 export const YACHT_QUOTE_EXAMPLE_GUESTS = 113
 
 export const YACHT_PRICING_DISCLAIMER =
-  'These figures are from one 113-guest, four-hour corporate charter at Dubai Harbour. They are not a menu for a table of ten. Staffing in that quote is named on each menu. Extra hours and bartenders are extras. Your written proposal is the only offer.'
+  "These indicative rates come from a 113-guest, four-hour corporate charter at Dubai Harbour. They are shown before 5% VAT. Staffing, extra hours and bar service are confirmed separately for each booking; smaller groups may have different per-person rates."
 
 export const YACHT_ESTIMATE_DISCLAIMER =
-  'Indicative estimate using per-guest rates from a 113-guest corporate charter. Smaller groups can price differently per head, and the team is set in writing for your headcount. The written proposal is the only number that counts — valid for one month.'
+  "An indicative estimate based on the published rates for a 113-guest corporate charter, with 5% VAT added separately. Smaller groups may have different rates. Your written proposal confirms the menu, staffing and total and is valid for one month."
 
 export type YachtFormatId = 'canape' | 'buffet' | 'canape-live'
 export type YachtExtraGroup = 'bartender' | 'ice'
@@ -27,18 +27,17 @@ export type YachtMenuFormat = {
   name: string
   perGuestAed: number
   includes: string
-  quotedTotalInclVat113: number
+  exampleTotalInclVat113: number
   includesLiveStationChefs: boolean
 }
 
-export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
+const YACHT_FORMAT_DEFINITIONS: readonly Omit<YachtMenuFormat, 'exampleTotalInclVat113'>[] = [
   {
     id: 'canape',
     name: 'Premium Canapé Reception',
     perGuestAed: 170,
     includes:
       'Choice of 12 canapés from a 40+ item list, 5 desserts, soft drinks, water, mocktails. This 113-guest quote included 5–6 waiters.',
-    quotedTotalInclVat113: 20218,
     includesLiveStationChefs: false,
   },
   {
@@ -47,7 +46,6 @@ export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
     perGuestAed: 162,
     includes:
       '3 salads, 3 appetizers, 6 main courses, sides, 4 desserts, beverages. This 113-guest quote included 4 waiters.',
-    quotedTotalInclVat113: 19221,
     includesLiveStationChefs: false,
   },
   {
@@ -56,10 +54,17 @@ export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = [
     perGuestAed: 258,
     includes:
       'Full canapé menu, plus one live station (Chicken Shawarma / Mexican / Pasta / Burger). Two station chefs were a separate AED 720 line on this quote.',
-    quotedTotalInclVat113: 31368,
     includesLiveStationChefs: true,
   },
 ] as const
+
+// Calculate examples from the published rates, using the estimator's VAT rounding.
+// Historical proposal totals may reflect unrounded rates; these are planning examples.
+export const YACHT_MENU_FORMATS: readonly YachtMenuFormat[] = YACHT_FORMAT_DEFINITIONS.map((format) => {
+  const subtotal = format.perGuestAed * YACHT_QUOTE_EXAMPLE_GUESTS
+    + (format.includesLiveStationChefs ? LIVE_STATION_CHEFS_AED : 0)
+  return { ...format, exampleTotalInclVat113: subtotal + Math.round(subtotal * YACHT_VAT_RATE) }
+})
 
 export const YACHT_EXTRAS: readonly {
   id: YachtExtraId
@@ -133,11 +138,11 @@ export const YACHT_BOOKING_TERMS = [
 export const YACHT_FAQS = [
   {
     q: 'How much does yacht catering in Dubai cost?',
-    a: 'On a 113-guest corporate charter at Dubai Harbour, menus ran AED 162, 170 and 258 per guest including 5% VAT. The canapé example listed 5–6 waiters; the buffet listed 4; the live-station example added two chefs at AED 720. Bartenders, extra hours and a different headcount are quoted separately.',
+    a: "The published 113-guest charter example uses menu rates of AED 162, AED 170 and AED 258 per person before 5% VAT. The buffet example lists four waiters and the canapé example five to six. The live-station option adds AED 720 for two chefs. Different headcounts, bar service and extra hours are quoted separately.",
   },
   {
     q: 'Do you provide the yacht?',
-    a: 'The host or their operator books the yacht. We do the catering: food, chefs, waiters, setup, service, marina loading and clear-down.',
+    a: "You or your charter operator arrange the yacht. We coordinate the menu, chefs, waiters, loading, service and clear-down around the vessel and itinerary.",
   },
   {
     q: 'Can you cook onboard?',

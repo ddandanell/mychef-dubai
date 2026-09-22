@@ -98,7 +98,7 @@ export default function Events() {
       <PageHero
         eyebrow={eventsHeroCopy.eyebrow}
         title={eventsHeroCopy.title}
-        subtitle="Event catering in Dubai for a named night: a birthday dinner, a wedding reception or a company event. Delivered food, a buffet from AED 120 per person, live stations, canapés or chef-led plated dining. Menus, chefs, staffing, setup and clear-down are scoped to that night. We do not own the venue."
+        subtitle={"Event catering in Dubai for birthdays, weddings and company celebrations. Choose delivered menus, buffets from AED 120 per person, canapés, live stations or a private plated dinner, with staffing and setup planned around your chosen venue."}
         image={eventsHero.src}
         imageAlt={eventsHero.alt}
         imageWidth={eventsHero.width}
@@ -397,9 +397,9 @@ export default function Events() {
       <Section id="examples" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Event formats we have run</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Illustrative event formats</DisplayHeading>
           <BodyCopy className="mb-12">
-            Client names stay private. Location, guest range, format and outcome are from events already described on our{' '}
+            These examples show how a menu and service could be arranged. Guest counts and settings are illustrative, rather than documented client results. Explore more on our{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>{' '}

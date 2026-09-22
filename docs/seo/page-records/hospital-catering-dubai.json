@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/hospital-catering-dubai",
+  "path": "/hospital-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Institutional Catering",
+  "purpose": "Qualify a business or institution by timing, volume, service and procurement needs.",
+  "keywords": {
+    "primary": "hospital catering dubai",
+    "secondary": [
+      "healthcare catering dubai",
+      "hospital catering services dubai",
+      "patient meal services dubai",
+      "therapeutic diet meals dubai",
+      "hospital staff cafeteria catering dubai",
+      "texture-modified meals dubai",
+      "clinic catering dubai",
+      "staff cafeteria dubai"
+    ],
+    "primary_owner": "/hospital-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Hospital Catering Dubai | Patient and Staff Meals | myCHEF",
+    "description": "Hospital catering Dubai for staff cafeterias first, then patient meals when the kitchen and diet list can be documented. Quote after a site walk.",
+    "h1": [
+      "Hospital Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/hospital-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/InstitutionalLanding.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/hospitalCateringPage.tsx",
+    "src/content/institutionalCluster.ts",
+    "src/content/institutionalLandingTypes.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/HospitalCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 1357,
+    "current_word_count": 1351,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Hospital catering Dubai is won in the staff cafeteria first"
+      },
+      {
+        "level": "h2",
+        "text": "Staff dining, then wards: not the other way round"
+      },
+      {
+        "level": "h3",
+        "text": "Staff cafeteria as the first contract"
+      },
+      {
+        "level": "h3",
+        "text": "Visitor dining that is still a kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Patient meals only with a diet list"
+      },
+      {
+        "level": "h3",
+        "text": "Halal and allergen labelling"
+      },
+      {
+        "level": "h3",
+        "text": "Timing is the product"
+      },
+      {
+        "level": "h3",
+        "text": "Papers before poetry"
+      },
+      {
+        "level": "h2",
+        "text": "Therapeutic diet meals Dubai: what the card has to say"
+      },
+      {
+        "level": "h2",
+        "text": "What hospital catering services Dubai have to show"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. Procurement sees the file."
+      },
+      {
+        "level": "h2",
+        "text": "How a hospital quote is built"
+      },
+      {
+        "level": "h2",
+        "text": "The cafeteria is the proof"
+      },
+      {
+        "level": "h3",
+        "text": "Canteen management is the sister brief"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h3",
+        "text": "Halal-first"
+      },
+      {
+        "level": "h3",
+        "text": "Allergy-safe production"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before booking hospital catering in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you do patient meals from day one?"
+      },
+      {
+        "level": "h3",
+        "text": "Are you HACCP certified?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle diabetic, renal and texture-modified diets?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this the same as a staff canteen?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you serve clinics and day-surgery centres?"
+      },
+      {
+        "level": "h3",
+        "text": "What about care homes?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you keep food safe in transit?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you put food in the ward next to monitors?"
+      },
+      {
+        "level": "h3",
+        "text": "How is this priced?"
+      },
+      {
+        "level": "h3",
+        "text": "Hospital and clinic catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Site, covers and whether this is staff or wards"
+      }
+    ],
+    "baseline_findings": [
+      "F08"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "Institutional catering"
+      },
+      {
+        "url": "/hospital-catering-dubai",
+        "anchor": "Hospital catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "Institutional catering",
+      "alt_anchors": []
+    },
+    "siblings": [
+      {
+        "url": "/canteen-management-dubai",
+        "anchor": "Canteen management",
+        "alt_anchors": []
+      },
+      {
+        "url": "/school-catering-dubai",
+        "anchor": "School catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/nursery-catering-dubai",
+        "anchor": "Nursery catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/office-catering-dubai",
+        "anchor": "Office catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/halal-catering-dubai",
+        "anchor": "Halal catering",
+        "alt_anchors": []
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations/difc",
+        "anchor": "DIFC",
+        "alt_anchors": []
+      },
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/healthcare-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/corporate-catering-dubai",
+      "/kids-nutrition-chef-dubai"
+    ]
+  }
+}

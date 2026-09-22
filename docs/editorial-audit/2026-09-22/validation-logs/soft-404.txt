@@ -1,0 +1,1 @@
+Soft-404 hygiene OK — 6 301s, no catch-all rewrite, 404.html present, sitemap clean.

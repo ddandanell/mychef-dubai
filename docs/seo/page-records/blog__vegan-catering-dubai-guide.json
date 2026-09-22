@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/vegan-catering-dubai-guide",
+  "path": "/blog/vegan-catering-dubai-guide",
+  "role": "noindex support page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Vegan menu ideas for Dubai events, with balanced dishes, thoughtful service and clear questions about ingredients, allergies and complete pricing.",
+  "keywords": {
+    "primary": "vegan menu ideas dubai",
+    "secondary": [
+      "vegan party food ideas dubai",
+      "how to cater for vegan guests dubai",
+      "vegan menu plan",
+      "vegan fine dining ideas",
+      "vegan meal service dubai",
+      "best vegan food in dubai",
+      "plant based catering near me",
+      "does dubai cater for vegans"
+    ],
+    "primary_owner": "/blog/vegan-catering-dubai-guide",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Vegan Menu Ideas Dubai | myCHEF",
+    "description": "Vegan menu ideas for Dubai events, with balanced dishes, thoughtful service and clear questions about ingredients, allergies and complete pricing.",
+    "h1": [
+      "Vegan Menu Ideas Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/vegan-catering-dubai-guide",
+    "robots": "noindex, follow",
+    "in_sitemap": false,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/BlogFigure.tsx",
+    "src/components/BlogRelated.tsx",
+    "src/components/HandoffPage.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/parkedUrls.ts",
+    "src/content/seo-pages/blog-vegan-catering-dubai-guide.json",
+    "src/content/seo/index.ts",
+    "src/content/seo/routes.json",
+    "src/content/siloMap.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 491,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Create a complete menu"
+      },
+      {
+        "level": "h2",
+        "text": "Check every ingredient"
+      },
+      {
+        "level": "h2",
+        "text": "Discuss allergies separately"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the service and price"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare a useful enquiry"
+      },
+      {
+        "level": "h2",
+        "text": "Sources and further reading"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "More in Blog and Guides"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/guides",
+        "anchor": "Guides"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Journal"
+      },
+      {
+        "url": "/blog/vegan-catering-dubai-guide",
+        "anchor": "Vegan menu ideas",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/vegan-catering-dubai",
+        "anchor": "Vegan catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/vegetarian-catering-dubai",
+        "anchor": "Vegetarian catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Healthy catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/vegan-catering-dubai",
+        "anchor": "Vegan catering",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

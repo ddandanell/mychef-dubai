@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/private-party-catering-dubai",
+  "path": "/private-party-catering-dubai",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Events",
+  "purpose": "Convert a specific celebration into a written event brief.",
+  "keywords": {
+    "primary": "private party catering dubai",
+    "secondary": [
+      "private party catering dubai price",
+      "private party catering cost per person dubai",
+      "best private party catering dubai",
+      "private party catering packages dubai",
+      "private party catering menu dubai",
+      "halal private party catering dubai",
+      "party catering dubai",
+      "house party catering dubai",
+      "dinner party catering dubai",
+      "private catering near me",
+      "small party catering dubai indian price list",
+      "annual company party catering dubai"
+    ],
+    "primary_owner": "/private-party-catering-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Party Catering Dubai | myCHEF",
+    "description": "Private Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+    "h1": [
+      "Private Party Catering Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-party-catering-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/system/index.tsx",
+    "src/content/cateringCluster.ts",
+    "src/content/cateringPricing.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privatePartyPage.ts",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/data/locations.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/PrivatePartyCatering.tsx"
+  ],
+  "content_review": {
+    "baseline_observed": true,
+    "baseline_word_count": 2090,
+    "current_word_count": 2070,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A house party, not a second events hub."
+      },
+      {
+        "level": "h3",
+        "text": "Engagement party catering"
+      },
+      {
+        "level": "h3",
+        "text": "Cocktail party catering"
+      },
+      {
+        "level": "h3",
+        "text": "Baby shower catering"
+      },
+      {
+        "level": "h3",
+        "text": "BBQ catering"
+      },
+      {
+        "level": "h3",
+        "text": "Brunch catering"
+      },
+      {
+        "level": "h3",
+        "text": "Villa party catering"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht party catering"
+      },
+      {
+        "level": "h2",
+        "text": "An anniversary with friends at the table"
+      },
+      {
+        "level": "h2",
+        "text": "Graduation is a daytime mixed-ages table"
+      },
+      {
+        "level": "h2",
+        "text": "Private party catering Dubai, priced by format"
+      },
+      {
+        "level": "h2",
+        "text": "A chef at the table, or a team in the house"
+      },
+      {
+        "level": "h2",
+        "text": "Menu, chefs, staff, equipment, bar, setup and cleanup"
+      },
+      {
+        "level": "h3",
+        "text": "Menu"
+      },
+      {
+        "level": "h3",
+        "text": "Chefs"
+      },
+      {
+        "level": "h3",
+        "text": "Staff"
+      },
+      {
+        "level": "h3",
+        "text": "Equipment"
+      },
+      {
+        "level": "h3",
+        "text": "Bar"
+      },
+      {
+        "level": "h3",
+        "text": "Setup and cleanup"
+      },
+      {
+        "level": "h2",
+        "text": "From drop-off to plated service"
+      },
+      {
+        "level": "h3",
+        "text": "Drop-off"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet"
+      },
+      {
+        "level": "h3",
+        "text": "BBQ"
+      },
+      {
+        "level": "h3",
+        "text": "Live stations"
+      },
+      {
+        "level": "h3",
+        "text": "Grazing tables"
+      },
+      {
+        "level": "h3",
+        "text": "Plated dining"
+      },
+      {
+        "level": "h2",
+        "text": "Four steps. You stay with your guests."
+      },
+      {
+        "level": "h2",
+        "text": "Parties we have already run"
+      },
+      {
+        "level": "h3",
+        "text": "Family Eid gathering, Arabian Ranches"
+      },
+      {
+        "level": "h3",
+        "text": "Intimate anniversary dinner, Palm Jumeirah"
+      },
+      {
+        "level": "h3",
+        "text": "Yacht birthday celebration, Dubai Marina"
+      },
+      {
+        "level": "h2",
+        "text": "Clear standards and booking arrangements"
+      },
+      {
+        "level": "h3",
+        "text": "How culinary partners are selected"
+      },
+      {
+        "level": "h3",
+        "text": "What halal-first means here"
+      },
+      {
+        "level": "h3",
+        "text": "Food safety and who cooks"
+      },
+      {
+        "level": "h3",
+        "text": "Written proposals"
+      },
+      {
+        "level": "h2",
+        "text": "What should I know before I book?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this the same as event catering, luxury catering or an engagement?"
+      },
+      {
+        "level": "h3",
+        "text": "How is a house party priced?"
+      },
+      {
+        "level": "h3",
+        "text": "What is the minimum guest count?"
+      },
+      {
+        "level": "h3",
+        "text": "Is an anniversary on this page?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you cater graduations?"
+      },
+      {
+        "level": "h3",
+        "text": "Is the food halal?"
+      },
+      {
+        "level": "h3",
+        "text": "House parties across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Date, address and guest count is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "More in Private Events"
+      }
+    ],
+    "baseline_findings": [
+      "F04",
+      "F08"
+    ],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/events",
+        "anchor": "Events"
+      },
+      {
+        "url": "/private-party-catering-dubai",
+        "anchor": "Private party catering",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/events",
+      "anchor": "Events",
+      "alt_anchors": [
+        "event catering dubai",
+        "event catering"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/villa-catering-ideas-dubai",
+        "anchor": "Villa catering ideas",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/cuisines-dubai",
+        "anchor": "Cuisines",
+        "alt_anchors": [
+          "multi cuisine catering"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}
