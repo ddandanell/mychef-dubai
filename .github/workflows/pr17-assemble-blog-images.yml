@@ -1,0 +1,62 @@
+name: PR17 assemble blog images
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - cursor/three-content-plan-blogs-20260922
+    paths:
+      - 'tmp-b64/**'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: cursor/three-content-plan-blogs-20260922
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Assemble WebP images from base64 parts
+        run: |
+          set -euo pipefail
+          mkdir -p public/images/blog
+          NAMES=(
+            private-chef-event-workflow-dubai-2
+            private-chef-event-workflow-dubai-3
+            private-chef-event-workflow-dubai-hero
+            private-chef-yacht-charter-dubai-2
+            private-chef-yacht-charter-dubai-3
+            private-chef-yacht-charter-dubai-hero
+            villa-concierge-recurring-private-chef-dubai-2
+            villa-concierge-recurring-private-chef-dubai-3
+            villa-concierge-recurring-private-chef-dubai-hero
+          )
+          for name in "${NAMES[@]}"; do
+            echo "Assembling $name"
+            cat tmp-b64/"${name}".p* | tr -d '\n' | base64 -d > "public/images/blog/${name}.webp"
+            ls -la "public/images/blog/${name}.webp"
+            file "public/images/blog/${name}.webp"
+          done
+
+      - name: Commit assembled images
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images/blog/*.webp
+          git commit -m "Improve Content Plan blog image quality" || echo "No image changes to commit"
+
+      - name: Cleanup tmp-b64 and one-shot workflow
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -r tmp-b64 || true
+          git rm .github/workflows/pr17-assemble-blog-images.yml || true
+          git commit -m "Remove temporary base64 parts and assemble workflow" || echo "Nothing to cleanup"
+          git push origin HEAD:cursor/three-content-plan-blogs-20260922
