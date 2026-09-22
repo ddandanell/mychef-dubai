@@ -220,7 +220,7 @@ export default function CateringCostCalculator() {
                       AED {quote.totalLow.toLocaleString()} – {quote.totalHigh.toLocaleString()}
                     </p>
                     <p className="font-inter text-body-xs text-gray-500 mt-2">
-                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)}  is an indicative market range for comparison. Your myCHEF quote depends on the agreed menu, ingredients, staffing and location.
+                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)} per person is shown for comparison. Your myCHEF quote depends on the agreed menu, ingredients, staffing and location.
                     </p>
                   </div>
                 </>
@@ -245,16 +245,15 @@ export default function CateringCostCalculator() {
           </div>
 
           {/* Disclaimer */}
-          <div className="mt-10 flex items-start gap-3 bg-gray-50 p-6">
-            <Info className="text-gold flex-shrink-0 mt-0.5" size={18} />
+          <div className="mt-10 grid grid-cols-[20px_minmax(0,1fr)] items-start gap-x-3 gap-y-4 bg-gray-50 p-6">
+            <Info className="text-gold row-span-2 mt-0.5" size={18} />
             <p className="font-inter text-body-sm text-gray-500">
-              Starts match the Catering hub floors. Staffing can raise the per-person figure. Indicative market
-              bands on the prices guide are not myCHEF starts. Premium ingredients, custom menus, late-night service,
-              dietary requirements, and venue logistics move the final price. For an exact proposal, request a quote
-              and we will respond within 15 minutes during business hours.
+              The estimate uses our published starting prices and your selected service level. The final price depends on
+              the menu, ingredients, staffing, service hours and venue requirements. Request a written proposal
+              to confirm the complete scope and total. We typically reply within 15 minutes during business hours.
             </p>
             <p className="font-inter text-body-sm text-gray-500">
-              The figure moves with guest count, the menu and how much of the work happens in front of people. If the headcount sits below a format minimum, request a tailored quote instead of forcing the calculator.
+              If your group is smaller than the minimum shown, contact us to discuss a suitable arrangement. The team can review your occasion and recommend a practical service format.
             </p>
           </div>
         </div>
@@ -271,19 +270,19 @@ export default function CateringCostCalculator() {
             {[
               {
                 q: 'How much does a private chef cost in Dubai?',
-                a: 'Chef-led plated dining starts from AED 700 per person, the same floor as the Catering hub. Staffing can raise it. Household chef visit rates are separate, on the private chef pricing page. This calculator is catering, not a monthly plan.',
+                a: 'Chef-led plated dining starts from AED 700 per person, with the final price depending on the menu and service. For regular cooking at home, see the separate household chef plans on our private chef pricing page.',
               },
               {
                 q: 'Is there a minimum guest count?',
-                a: 'Yes. The calculator will not total a format below its minimum: 2 guests for plated chef dining, 10 for canapés, 20 for a standard event buffet, 15 for BBQ, 8 for yacht catering, 20 for wedding catering. Those are the same floors as the catering hub.',
+                a: 'Yes. The published minimums are 2 guests for plated chef dining, 10 for canapés, 20 for a standard event buffet, 15 for BBQ, 8 for yacht catering and 20 for wedding catering. The estimate reflects the applicable minimum; contact us to discuss a smaller group.',
               },
               {
                 q: 'What is included in the price?',
-                a: 'The estimate is food plus the staff multiplier you picked. Glassware, extra hire, drinks and 5% VAT are confirmed on the written quote. Ingredients are not a hidden markup line.',
+                a: 'The estimate reflects the food format and service level you selected. Your written proposal confirms the menu, staffing, glassware, equipment hire, drinks and applicable 5% VAT, with inclusions and optional items clearly identified.',
               },
               {
                 q: 'Can we customise the menu?',
-                a: 'Yes. The calculator does not write dishes. The proposal does, from the occasion, the guest list and named diets.',
+                a: 'Yes. Share your preferred dishes, the occasion and any dietary requirements. The team will discuss suitable choices and confirm your personalised menu in the proposal.',
               },
             ].map((item) => (
               <div key={item.q} className="faq-item bg-white p-6 md:p-8">
