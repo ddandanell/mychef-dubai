@@ -14,7 +14,7 @@ export function ChefAction({ action, secondary = false }: { action: Action; seco
 export default function EditorialHero({ title, eyebrow, subtitle, cta, secondaryCta, children }: { title: ReactNode; eyebrow?: string; subtitle?: string; cta?: Action; secondaryCta?: Action; children?: ReactNode }) {
   const { pathname } = useLocation()
   const key = chefPageImages[pathname] || 'household'
-  const compact = pathname.includes('/pricing') || pathname.includes('how-your-plan')
+  const compact = pathname === '/private-chef-dubai/pricing' || pathname.includes('how-your-plan')
   const trail = trailFor(pathname)
   return <section className={`pc-hero ${compact ? 'pc-hero-compact' : ''}`}>
     <div className="pc-hero-copy">
