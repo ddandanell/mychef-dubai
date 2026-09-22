@@ -329,6 +329,20 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
     { timeout: RENDER_TIMEOUT_MS },
   )
 
+  // The expanded chef guides load as route-specific chunks. Wait for their
+  // reading sections before saving HTML, so crawlers receive the full copy.
+  const chefGuideRoutes: string[] = JSON.parse(fs.readFileSync(
+    path.resolve(__dirname, '../src/content/private-chef-expansion/routes.json'), 'utf-8',
+  ))
+  if (chefGuideRoutes.includes(route)) {
+    await page.waitForFunction(() => {
+      const guide = document.querySelector('[data-chef-expansion]')
+      return guide !== null
+        && guide.querySelectorAll('.pc-reading-section').length === 7
+        && (guide.textContent || '').length > 5000
+    }, { timeout: RENDER_TIMEOUT_MS })
+  }
+
   // Brief pause so GSAP / ScrollTrigger entrance animations can settle
   // before we snapshot the DOM. Without this, elements that animate in
   // (fade/slide) may still be at initial visibility states.
