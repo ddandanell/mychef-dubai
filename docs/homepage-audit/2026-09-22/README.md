@@ -33,7 +33,18 @@ The authority remains `docs/seo/myCHEF-AE-SEO-STANDARD.json`. No keyword owner, 
 - Rendered the homepage and its 27 other linked destinations using the same React components, routes and layout. All **123 targeted checks** passed. An initial audit file-path lookup for `/blog` was corrected to the renderer’s `index.html`; the blog page itself was valid.
 - Checked one H1, metadata lengths (55/155 characters), canonical URL, index/follow, keyword placement, unique anchors, links, image files and structured data. `checks.json`, `links.json`, `destinations.json` and `images.json` retain the results.
 
-The full production prerender and live browser review follow the GitHub main deployment. Live observations are recorded separately after the deployment completes. No claim of a mobile browser test or measured Core Web Vitals is made by the source-level audit.
+## Live browser verification
+
+The homepage release `02816f830899ed28406f1aae359ed3c91df5c1f2` and the contrast refinement `ae32d6594389e84d865ebbfcf17f7e1521e208b6` both completed their Vercel deployments successfully on 22 September 2026.
+
+- Reviewed the live homepage in Chrome at 1348 × 936. The final title, description, canonical URL and single H1 match the contract; there is one title element and no horizontal overflow.
+- All five content images loaded successfully in the live browser. The hero uses the new image and the four supporting photographs load when their sections enter view.
+- The Services and Menu links land about 92 pixels below the top, clear of the navigation. The journal link opens its target article section at about 110 pixels below the top.
+- The first FAQ expands and displays its complete answer. On the final deployment, one click on “Plan your experience” opens `/inquiry?from=home`, renders the quote heading and displays the enquiry form. No enquiry was submitted.
+- Darkened the small bronze labels to `#795e31`; their contrast is at least 4.99:1 across the four light backgrounds. Main body text is at least 5.14:1 on those backgrounds. The final colour was confirmed in the live computed stylesheet.
+- An older-tab enquiry probe during the deployment transition reported a lazy-module error. After opening the completed final deployment, the same navigation passed on the first click. This was not counted as a successful probe until the quote form rendered.
+
+Responsive CSS was reviewed at its desktop, tablet and phone breakpoints. This environment did not provide a mobile viewport control, so no mobile browser test or measured Core Web Vitals score is claimed.
 
 ## Image provenance
 
