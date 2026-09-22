@@ -258,7 +258,10 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * are built from this table, so filtering here is what stops a link surviving in the one place
  * that lists everything.
  */
-export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS].filter((post) => {
+export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS]
+  // Serve WebP cards at the render layer — a pipeline republish can regenerate legacy JPGs.
+  .map((post) => ({ ...post, image: post.image.replace(/featured\.jpg$/, 'featured.webp') }))
+  .filter((post) => {
   const slug = post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`
   return !isParked(slug)
 })
