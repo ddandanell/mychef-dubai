@@ -3,7 +3,7 @@
   --hm-paper: #f7f4ee;
   --hm-ink: #253c32;
   --hm-muted: #59635b;
-  --hm-gold: #886b3b;
+  --hm-gold: #795e31;
   --hm-line: #d9d9cd;
   background: var(--hm-paper);
   color: var(--hm-ink);
@@ -24,7 +24,7 @@
 .hm-prose > :last-child { margin-bottom: 0; }
 .hm-section { padding-block: 105px; }
 .home-editorial section[id] { scroll-margin-top: 92px; }
-.home-editorial a:focus-visible, .home-editorial summary:focus-visible { outline: 2px solid #886b3b; outline-offset: 5px; box-shadow: none; }
+.home-editorial a:focus-visible, .home-editorial summary:focus-visible { outline: 2px solid #795e31; outline-offset: 5px; box-shadow: none; }
 .home-editorial p a { color: var(--hm-ink); text-decoration: underline; text-decoration-color: #aaa88d; text-underline-offset: 4px; }
 .home-editorial p a:hover { text-decoration-color: currentColor; }
 .hm-actions { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
