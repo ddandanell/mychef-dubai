@@ -28,7 +28,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     title: 'Catering Near Me Dubai | Areas We Serve | myCHEF',
   },
   '/faq': {
-    title: 'Catering FAQ Dubai | myCHEF',
+    title: 'Catering FAQ Dubai | Private Chef Questions | myCHEF',
   },
   '/locations/jlt': {
     title: 'Private Chef JLT Dubai | Home & Office | myCHEF',
