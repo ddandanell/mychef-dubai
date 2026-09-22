@@ -615,6 +615,8 @@ export default function PrivateChefPrices() {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
+              data-track="whatsapp_click"
+              data-cta-location="footer"
               className="btn-secondary"
             >
               <Phone size={16} className="mr-2" />
