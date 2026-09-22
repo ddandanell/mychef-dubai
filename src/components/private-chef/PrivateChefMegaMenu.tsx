@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import { Link } from 'react-router'
 import {
   ArrowRight,
@@ -66,7 +67,7 @@ export default function PrivateChefMegaMenu() {
         <MegaColumn heading="Trust & plans" items={TRUST} />
         <div className="pc-mega-feature min-w-0 col-span-full flex flex-col xl:col-auto">
           <div className="pc-mega-photo relative mb-5 hidden aspect-[4/3] overflow-hidden rounded-[5px] xl:block [@media(max-height:700px)]:hidden">
-            <img
+            <ServiceImage
               src={featurePhoto.src}
               alt={featurePhoto.alt}
               width={featurePhoto.width}

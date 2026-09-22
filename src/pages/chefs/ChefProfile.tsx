@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -209,7 +210,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-[40%_1fr] gap-12 lg:gap-16 items-start">
             <div className="overview-image aspect-[3/4] overflow-hidden">
-              <img
+              <ServiceImage
                 src={chef.image}
                 alt={chef.imageAlt}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"

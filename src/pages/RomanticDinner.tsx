@@ -1,3 +1,4 @@
+import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /romantic-dinner-dubai
 //     primary:     "romantic dinner dubai"
@@ -143,45 +144,11 @@ export default function RomanticDinner() {
         title="Romantic Dinner Dubai | Private Chef for Two | myCHEF"
         description="Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 1,200, table styled and kitchen cleaned."
         canonicalPath="/romantic-dinner-dubai"
-        ogImage="/images/romantic-dinner-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/romantic-1200.webp"
         schema={schema}
       />
 
-      <section className="relative min-h-[70vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/images/romantic-dinner-dubai-hero.webp"
-            alt="Private chef plating a candlelit romantic dinner for two at a villa table in Dubai"
-            width={1344}
-            height={752}
-            className="w-full h-full object-cover opacity-40"
-            decoding="async"
-            loading="eager"
-            fetchPriority="high"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" />
-        </div>
-        <div className="relative z-10 text-center px-4 max-w-4xl">
-          <nav aria-label="Breadcrumb" className="text-sm mb-6">
-            <Link to="/" className="text-gray-400 hover:text-gold">Home</Link>
-            <span className="text-gray-600 mx-2">/</span>
-            <Link to="/luxury-dining-experiences" className="text-gray-400 hover:text-gold">Luxury dining</Link>
-            <span className="text-gray-600 mx-2">/</span>
-            <span className="text-gold">Dinner for two</span>
-          </nav>
-          <p className="text-gold text-sm tracking-[0.2em] uppercase mb-4">For Two</p>
-          <h1 className="font-playfair text-4xl md:text-6xl text-white font-semibold mb-4">
-            Romantic Dinner Dubai: A Private Chef, Candlelight and a Table for Two
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Every romantic dinner in Dubai begins with the two of you: the occasion, your favourite dishes and the setting you have chosen. Enjoy a private chef dinner at home, in a villa or at another agreed venue, with the Date Night package from AED 1,200 for two, plus 5% VAT.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link to="/inquiry" className="btn-primary">Plan Our Dinner for Two</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp the Date</a>
-          </div>
-        </div>
-      </section>
+      <PageHero eyebrow="MYCHEF · DUBAI" title="Romantic Dinner Dubai. A table just for two." subtitle="Your favourite dishes, a thoughtful setting and time together. Plan a private chef dinner at home, in a villa or at another agreed venue." cta={{label:"Plan with myCHEF",href:"/inquiry?from=/romantic-dinner-dubai"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       <TrustSignalStrip />
 

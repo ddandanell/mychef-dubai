@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /how-it-works
 //     primary:     "how to book a private chef dubai"
@@ -24,10 +25,10 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const steps = [
-  { num: '01', image: '/process-1.webp', title: 'Reach Out', desc: "Share your date, guest count, Dubai location and ideas through WhatsApp or the enquiry form. Include food preferences and any dietary requirements so we can develop a suitable proposal." },
-  { num: '02', image: '/process-2.webp', title: 'We Design the Evening', desc: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.' },
-  { num: '03', image: '/process-3.webp', title: 'Your Chef Arrives, We Run the Room', desc: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.' },
-  { num: '04', image: '/process-4.webp', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
+  { num: '01', image: '/images/private-chef-2026/planning-1200.webp', title: 'Reach Out', desc: "Share your date, guest count, Dubai location and ideas through WhatsApp or the enquiry form. Include food preferences and any dietary requirements so we can develop a suitable proposal." },
+  { num: '02', image: '/images/private-chef-2026/ingredients-1200.webp', title: 'We Design the Evening', desc: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.' },
+  { num: '03', image: '/images/private-chef-2026/team-service-1200.webp', title: 'Your Chef Arrives, We Run the Room', desc: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.' },
+  { num: '04', image: '/images/private-chef-2026/villa-evening-1200.webp', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
 ]
 
 const features = [
@@ -128,7 +129,7 @@ export default function HowItWorks() {
         title="How to Book a Private Chef Dubai for One Evening"
         description="How to book a private chef Dubai for a single evening: the occasion, the menu, the chef, the night itself. A chef who comes back every week is the household plan instead."
         canonicalPath="/how-it-works"
-        ogImage="/images/how-it-works-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/planning-1200.webp"
         schema={{
           '@context': 'https://schema.org',
           '@graph': [breadcrumbSchema, faqSchema, howItWorksSchema],
@@ -140,7 +141,7 @@ export default function HowItWorks() {
         eyebrow="THE EXPERIENCE"
         title="How to Book a Private Chef Dubai for One Evening"
         subtitle={"Plan a private dinner or one-off occasion with a menu and chef selected around your guests. For regular weekly cooking, our household chef plans follow a separate matching and scheduling process."}
-        image="/images/how-it-works-dubai-hero.webp"
+        image="/images/private-chef-2026/planning-1200.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}
         minHeight="tall"
@@ -170,7 +171,7 @@ export default function HowItWorks() {
                   {/* Content */}
                   <div className={`ml-12 lg:ml-0 lg:w-[calc(50%-32px)] ${i % 2 === 0 ? 'lg:pr-8 lg:text-right' : 'lg:pl-8'}`}>
                     <span className="font-playfair text-[72px] text-gold leading-none opacity-15 block mb-2">{step.num}</span>
-                    <img src={step.image} alt={step.title} width={640} height={400} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" decoding="async"/>
+                    <ServiceImage src={step.image} alt={step.title} width={640} height={400} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" decoding="async"/>
                     <h3 className="font-playfair text-h3 text-black mb-3">{step.title}</h3>
                     <p className="font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{step.desc}</p>
                   </div>

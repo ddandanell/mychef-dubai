@@ -1,0 +1,40 @@
+PASS  private path: got "/private-client-booking-terms"
+PASS  corporate path: got "/corporate-booking-terms"
+PASS  version: got "v2.0"
+PASS  updated: got "14 September 2026"
+PASS  /private-client-booking-terms names v2.0: got true
+PASS  /private-client-booking-terms has 15-day band: got true
+PASS  /private-client-booking-terms has 8-to-14-day band: got true
+PASS  /private-client-booking-terms has 48-hour-to-7-day band: got true
+PASS  /private-client-booking-terms has under-48-hour band: got true
+PASS  /private-client-booking-terms defines committed costs: got true
+PASS  /private-client-booking-terms balance is seven days before: got true
+PASS  /private-client-booking-terms deposit is acceptance: got true
+PASS  /private-client-booking-terms myCHEF is contracting party: got true
+PASS  /private-client-booking-terms courts of Dubai: got true
+PASS  /private-client-booking-terms liability cap: got true
+PASS  /private-client-booking-terms default is no recording: got true
+PASS  /private-client-booking-terms does not use inverted 6-day full refund: got true
+PASS  /private-client-booking-terms does not use 24-hour balance due: got true
+PASS  /private-client-booking-terms does not refund-in-full at six days: got true
+PASS  /corporate-booking-terms names v2.0: got true
+PASS  /corporate-booking-terms has 15-day band: got true
+PASS  /corporate-booking-terms has 8-to-14-day band: got true
+PASS  /corporate-booking-terms has 48-hour-to-7-day band: got true
+PASS  /corporate-booking-terms has under-48-hour band: got true
+PASS  /corporate-booking-terms defines committed costs: got true
+PASS  /corporate-booking-terms balance is seven days before: got true
+PASS  /corporate-booking-terms deposit is acceptance: got true
+PASS  /corporate-booking-terms myCHEF is contracting party: got true
+PASS  /corporate-booking-terms courts of Dubai: got true
+PASS  /corporate-booking-terms liability cap: got true
+PASS  /corporate-booking-terms default is no recording: got true
+PASS  /corporate-booking-terms does not use inverted 6-day full refund: got true
+PASS  /corporate-booking-terms does not use 24-hour balance due: got true
+PASS  /corporate-booking-terms does not refund-in-full at six days: got true
+PASS  corporate has twelve-month direct-hire restriction: got true
+PASS  corporate keeps confidentiality list: got true
+PASS  private has no twelve-month hire restriction: got true
+PASS  private has chef continuity paragraph: got true
+
+all passed

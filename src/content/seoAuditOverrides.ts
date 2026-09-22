@@ -33,8 +33,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Mediterranean Catering Dubai | myCHEF"
   },
   "/wellness-meal-prep-dubai": {
-    "title": "Healthy Meal Prep Dubai | In-Home Cooking | myCHEF",
-    "description": "Healthy meal prep in your Dubai kitchen, from AED 900 per session. Plan meals around your preferences, with labelled portions and kitchen clear-down."
+    "title": "Healthy Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "description": "Fresh ingredients, balanced choices and food you enjoy eating. Your chef prepares meals in your home around your preferences and any agreed dietary guidance."
   },
   "/blog/wedding-catering-cost-dubai": {
     "title": "Wedding Catering Cost Dubai 2026 | myCHEF"
@@ -127,10 +127,12 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Contact myCHEF Dubai for private chefs, catering and partnerships. Initial replies are typically within 15 minutes, 9am–11pm Dubai time."
   },
   "/private-chef-dubai/how-it-works": {
-    "description": "See how myCHEF matches a managed private chef in Dubai: your brief, chef match, food profile, onboarding and ongoing feedback."
+    "title": "Managed Private Chef Service Dubai | How It Works | myCHEF",
+    "description": "A managed private chef service for your Dubai home. Learn how we agree your brief, match a chef, plan menus and coordinate ongoing support."
   },
   "/weekly-meal-prep-dubai": {
-    "description": "Weekly meal prep in Dubai: a private chef cooks a week of food in your kitchen in four hours, from AED 900. Halal-first and built around your diet."
+    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead."
   },
   "/how-it-works": {
     "description": "Book a private chef in Dubai for one evening: share the occasion, choose the menu, confirm the chef and enjoy the night at home."
@@ -199,8 +201,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages."
   },
   "/full-time-private-chef-dubai": {
-    "title": "Full Time Private Chef Dubai | No Payroll Job | myCHEF",
-    "description": "Full time private chef Dubai: four to six days a week, priced per visit. You do not employ the chef. Groceries at receipts. VAT 5%."
+    "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you."
   },
   "/catering-packages-dubai": {
     "title": "Catering Packages Dubai | Four Published Totals | myCHEF",
@@ -305,7 +307,27 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | From AED 3,000 a Month | myCHEF",
-    "description": "A regular private chef for your Dubai home. Weekly plans from AED 3,000 a month, with menus, scheduling and support tailored to your household."
+    "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+    "description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans."
+  },
+  "/private-chef-dubai/pricing": {
+    "title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
+    "description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire."
+  },
+  "/our-chefs": {
+    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
+    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability."
+  },
+  "/gallery": {
+    "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
+    "description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration."
+  },
+  "/case-studies": {
+    "title": "Catering Case Studies Dubai | Previous Work | myCHEF",
+    "description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration."
+  },
+  "/part-time-private-chef-dubai": {
+    "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of."
   }
 }

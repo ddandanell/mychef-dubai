@@ -15,12 +15,12 @@ const config: OccasionPageConfig = {
   metaDescription:
     'Desert dining Dubai with a vetted myCHEF team. Menus, service and clear-down at a camp or dune site you have booked, so you stay a guest at the table.',
   canonicalPath: '/desert-dining-dubai',
-  ogImage: '/images/desert-dining-dubai-hero.webp',
+  ogImage: '/images/private-chef-2026/desert-1200.webp',
   breadcrumbLabel: 'Desert Dining & Camp Catering Dubai',
   h1: 'Desert Dining Dubai',
   heroSub:
     "Desert dining in Dubai, with private dinners, Arabic sharing menus and live grills at your chosen site. The menu, equipment and service are planned around the setting and the evening light.",
-  heroImage: '/images/desert-dining-dubai-hero.webp',
+  heroImage: '/images/private-chef-2026/desert-1200.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan desert dining or camp catering in Dubai (via mychef.ae/desert-dining-dubai)",
   eyebrow: 'DESERT CATERING IN DUBAI',
@@ -122,12 +122,12 @@ const config: OccasionPageConfig = {
   ],
   galleryH2: 'Desert dining setups',
   galleryImages: [
-    { src: '/menu-appetizer.webp', alt: 'Arabic appetisers for desert dining in Dubai' },
-    { src: '/menu-canapes.webp', alt: 'Desert camp canapé selection' },
-    { src: '/menu-dessert.webp', alt: 'Dessert under the desert stars' },
-    { src: '/service-catering.webp', alt: 'Desert dining set-up in Dubai' },
-    { src: '/service-villa.webp', alt: 'Private dune dinner styling' },
-    { src: '/service-events.webp', alt: 'Desert event catering in Dubai' },
+    { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Arabic appetisers for desert dining in Dubai' },
+    { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert camp canapé selection' },
+    { src: '/images/private-chef-2026/dessert-1200.webp', alt: 'Dessert under the desert stars' },
+    { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert dining set-up in Dubai' },
+    { src: '/images/private-chef-2026/villa-evening-1200.webp', alt: 'Private dune dinner styling' },
+    { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert event catering in Dubai' },
   ],
   faqsH2: 'Desert Dining Dubai: the questions we get before a booking',
   faqs: [
@@ -160,19 +160,19 @@ const config: OccasionPageConfig = {
     {
       title: 'Arabic Catering',
       description: 'Traditional Arabic sharing menus perfect for desert feasts.',
-      image: '/images/arabic-catering-dubai-hero.webp',
+      image: '/images/private-chef-2026/arabic-1200.webp',
       link: '/arabic-catering-dubai',
     },
     {
       title: 'BBQ Catering',
       description: 'Live grilling stations that bring theatre to any outdoor setting.',
-      image: '/images/bbq-catering-dubai-hero.webp',
+      image: '/images/private-chef-2026/desert-1200.webp',
       link: '/bbq-catering-dubai',
     },
     {
       title: 'Luxury Dining Experiences',
       description: 'Chef-led dinners at a villa, yacht or venue you have booked.',
-      image: '/service-villa.webp',
+      image: '/images/private-chef-2026/villa-evening-1200.webp',
       link: '/luxury-dining-experiences',
     },
   ],

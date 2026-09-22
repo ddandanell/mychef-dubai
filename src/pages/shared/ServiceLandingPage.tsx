@@ -1,3 +1,6 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
+import EditorialHero from '@/components/private-chef/EditorialHero'
+import { isChefDesignPage } from '@/content/privateChefDesign'
 import type { ReactNode, ComponentType } from 'react'
 import { useRef } from 'react'
 import { Link } from 'react-router'
@@ -214,7 +217,7 @@ export default function ServiceLandingPage({ config }: Props) {
       />
 
       {/* Hero */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      {isChefDesignPage(config.canonicalPath) ? <EditorialHero eyebrow={config.breadcrumbLabel} title={config.h1} subtitle={config.heroSub} cta={{label:config.primaryCta || "Plan with myCHEF",href:inquiryLink}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/> : (<section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: `url(${config.heroImage})` }}
@@ -257,7 +260,7 @@ export default function ServiceLandingPage({ config }: Props) {
             </a>
           </div>
         </div>
-      </section>
+      </section>) }
 
       {config.showTrustSignalStrip !== false && <TrustSignalStrip variant="dark" />}
 
@@ -349,7 +352,7 @@ export default function ServiceLandingPage({ config }: Props) {
           <div className="svc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
             {config.galleryImages.map((img, i) => (
               <div key={i} className="svc-gallery-img aspect-[4/3] overflow-hidden scale-95">
-                <img
+                <ServiceImage
                   src={img.src}
                   alt={img.alt}
                   width={800}
@@ -387,7 +390,7 @@ export default function ServiceLandingPage({ config }: Props) {
                 className="svc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     width={640}

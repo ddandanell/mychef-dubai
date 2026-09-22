@@ -1,0 +1,392 @@
+[
+  {
+    "source": "src/pages/About.tsx",
+    "old": "/images/mychef-dubai-about-team-hero.webp",
+    "new": "/images/private-chef-2026/team-service-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/About.tsx",
+    "old": "/images/villa-catering-dubai-hero.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ApartmentPrivateDining.tsx",
+    "old": "/images/romantic-dinner-dubai-hero.webp",
+    "new": "/images/private-chef-2026/romantic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ApartmentPrivateDining.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx",
+    "old": "/images/blog/best-private-chef-birthday-dinner-dubai-2.webp",
+    "new": "/images/private-chef-2026/birthday-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx",
+    "old": "/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp",
+    "new": "/images/private-chef-2026/birthday-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+    "old": "/images/blog/how-much-does-private-chef-cost-dubai-2.webp",
+    "new": "/images/private-chef-2026/ingredients-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+    "old": "/images/blog/how-much-does-private-chef-cost-dubai-3.webp",
+    "new": "/images/private-chef-2026/ingredients-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+    "old": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp",
+    "new": "/images/private-chef-2026/ingredients-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+    "old": "/images/blog/private-chef-palm-jumeirah-guide-2.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+    "old": "/images/blog/private-chef-palm-jumeirah-guide-3.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+    "old": "/images/blog/private-chef-palm-jumeirah-guide-hero.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ChefsTable.tsx",
+    "old": "/service-luxury-dining.webp",
+    "new": "/images/private-chef-2026/chefs-table-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ChefsTable.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/images/arabic-catering-dubai-hero.webp",
+    "new": "/images/private-chef-2026/arabic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/images/bbq-catering-dubai-hero.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/images/desert-dining-dubai-hero.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/menu-appetizer.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/menu-canapes.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/menu-dessert.webp",
+    "new": "/images/private-chef-2026/dessert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/service-catering.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/service-events.webp",
+    "new": "/images/private-chef-2026/desert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/DesertDining.tsx",
+    "old": "/service-villa.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/guides/PrivateDiningGuide.tsx",
+    "old": "/images/private-dining-guide-hero.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/images/halal-private-dining-dubai-hero.webp",
+    "new": "/images/private-chef-2026/arabic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/menu-appetizer.webp",
+    "new": "/images/private-chef-2026/arabic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/menu-dessert.webp",
+    "new": "/images/private-chef-2026/dessert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/menu-meat.webp",
+    "new": "/images/private-chef-2026/family-table-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/service-events.webp",
+    "new": "/images/private-chef-2026/arabic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/service-luxury-dining.webp",
+    "new": "/images/private-chef-2026/chefs-table-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HalalPrivateDining.tsx",
+    "old": "/service-villa.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowItWorks.tsx",
+    "old": "/images/how-it-works-dubai-hero.webp",
+    "new": "/images/private-chef-2026/planning-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowItWorks.tsx",
+    "old": "/process-1.webp",
+    "new": "/images/private-chef-2026/planning-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowItWorks.tsx",
+    "old": "/process-2.webp",
+    "new": "/images/private-chef-2026/ingredients-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowItWorks.tsx",
+    "old": "/process-3.webp",
+    "new": "/images/private-chef-2026/team-service-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowItWorks.tsx",
+    "old": "/process-4.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowWeVetOurChefs.tsx",
+    "old": "/images/become-a-mychef-dubai-hero.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowWeVetOurChefs.tsx",
+    "old": "/images/booking-protection-insurance-dubai-hero.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowWeVetOurChefs.tsx",
+    "old": "/images/how-we-vet-our-chefs-dubai-hero.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/HowWeVetOurChefs.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/LuxuryDining.tsx",
+    "old": "/images/luxury-dining-experiences-dubai-hero.webp",
+    "new": "/images/private-chef-2026/chefs-table-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/guides/PrivateChefVsCatering.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/images/private-cooking-classes-dubai-hero.webp",
+    "new": "/images/private-chef-2026/cooking-class-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/images/romantic-dinner-dubai-hero.webp",
+    "new": "/images/private-chef-2026/romantic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/menu-appetizer.webp",
+    "new": "/images/private-chef-2026/cooking-class-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/menu-canapes.webp",
+    "new": "/images/private-chef-2026/cooking-class-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/menu-dessert.webp",
+    "new": "/images/private-chef-2026/dessert-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/service-corporate.webp",
+    "new": "/images/private-chef-2026/cooking-class-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/service-luxury-dining.webp",
+    "new": "/images/private-chef-2026/chefs-table-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/PrivateCookingClassesDubai.tsx",
+    "old": "/service-villa.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ProposalDinner.tsx",
+    "old": "/images/romantic-dinner-dubai-hero.webp",
+    "new": "/images/private-chef-2026/romantic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ProposalDinner.tsx",
+    "old": "/service-villa.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/ProposalDinner.tsx",
+    "old": "/service-yacht.webp",
+    "new": "/images/private-chef-2026/romantic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/QualityGuarantee.tsx",
+    "old": "/images/booking-protection-insurance-dubai-hero.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/QualityGuarantee.tsx",
+    "old": "/images/how-we-vet-our-chefs-dubai-hero.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/QualityGuarantee.tsx",
+    "old": "/service-private-chef.webp",
+    "new": "/images/private-chef-2026/household-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/RomanticDinner.tsx",
+    "old": "/images/romantic-dinner-dubai-hero.webp",
+    "new": "/images/private-chef-2026/romantic-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/Villas.tsx",
+    "old": "/images/villa-catering-dubai-hero.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/pages/Villas.tsx",
+    "old": "/service-villa.webp",
+    "new": "/images/private-chef-2026/villa-evening-1200.webp",
+    "reason": "Replace generic inspiration photography; identity and documented portfolio preserved."
+  },
+  {
+    "source": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+    "old": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
+    "new": "/images/private-chef-2026/planning-1200.webp",
+    "reason": "New editorial image; visible provenance disclosure."
+  },
+  {
+    "source": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+    "old": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+    "new": "/images/private-chef-2026/planning-1200.webp",
+    "reason": "New editorial image; visible provenance disclosure."
+  },
+  {
+    "source": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+    "old": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
+    "new": "/images/private-chef-2026/ingredients-1200.webp",
+    "reason": "New editorial image; visible provenance disclosure."
+  },
+  {
+    "source": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+    "old": "/images/blog/how-to-hire-a-private-chef-dubai-4.webp",
+    "new": "/images/private-chef-2026/team-service-1200.webp",
+    "reason": "New editorial image; visible provenance disclosure."
+  },
+  {
+    "source": "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+    "old": "/images/blog/how-to-hire-a-private-chef-dubai-5.webp",
+    "new": "/images/private-chef-2026/craft-1200.webp",
+    "reason": "New editorial image; visible provenance disclosure."
+  }
+]

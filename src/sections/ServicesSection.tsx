@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -133,7 +134,7 @@ export default function ServicesSection() {
                 className="service-card group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-4 focus-visible:ring-offset-black"
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={service.image}
                     alt={service.title}
                     width={640}

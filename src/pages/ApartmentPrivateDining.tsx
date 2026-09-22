@@ -1,3 +1,5 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
+import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /apartment-private-dining-dubai
 //     primary:     "private chef for apartment dubai"
@@ -100,13 +102,13 @@ const relatedServices = [
   {
     title: 'Romantic Dinner Dubai',
     description: 'Dinner for two when the brief is the evening, not the apartment itself.',
-    image: '/images/romantic-dinner-dubai-hero.webp',
+    image: '/images/private-chef-2026/romantic-1200.webp',
     link: '/romantic-dinner-dubai',
   },
   {
     title: 'Private Chef Dubai',
     description: 'A standing household chef. One apartment dinner is catering, and stays on this page.',
-    image: '/service-private-chef.webp',
+    image: '/images/private-chef-2026/household-1200.webp',
     link: '/private-chef-dubai',
   },
 ]
@@ -137,9 +139,8 @@ export default function ApartmentPrivateDining() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.apd-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.apd-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.apd-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
+
+
 
     gsap.to('.apd-intro-text', {
       scrollTrigger: { trigger: '.apd-intro-text', start: 'top 85%', toggleActions: 'play none none none' },
@@ -178,47 +179,12 @@ export default function ApartmentPrivateDining() {
         title="Private Chef for Apartment Dubai | From AED 1,200 | myCHEF"
         description="Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/service-private-chef.webp"
+        ogImage="/images/private-chef-2026/household-1200.webp"
         hideSiteName
         schema={schema}
       />
 
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/service-private-chef.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 apd-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Apartment Private Dining Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 apd-hero-h1">
-            Private Chef for Apartment Dubai: one night in your kitchen
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 apd-hero-sub">
-            A private chef for your Dubai apartment, creating a relaxed dinner for two to eight guests. Enjoy courses at your own table, with service and kitchen clear-down included in the agreed package.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 apd-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero eyebrow="MYCHEF · DUBAI" title="Private Chef for Apartment Dubai. A beautiful dinner, in your own space." subtitle="Private dining designed around your apartment, kitchen and guest list. We agree a suitable menu, staffing and timing before your chef arrives." cta={{label:"Plan with myCHEF",href:"/inquiry?from=ApartmentPrivateDining"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       <TrustSignalStrip />
 
@@ -311,7 +277,7 @@ export default function ApartmentPrivateDining() {
                 className="apd-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

@@ -1,0 +1,9 @@
+PASS  id from nested slug: got "marco-italian-chef"
+PASS  href encodes preference: got "/inquiry?from=chef&chef=marco-italian-chef"
+PASS  no malformed inquiry string: got false
+PASS  uses chefInquiryHref: got true
+PASS  weekly prep one session is AED 900: got "900"
+PASS  weekly prep two sessions is AED 1,800: got "1,800"
+PASS  stale 1,900 weekly card gone: got false
+
+chef inquiry links OK

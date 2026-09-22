@@ -1,3 +1,5 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
+import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /proposal-dinner-dubai
 //     primary:     "proposal dinner dubai"
@@ -126,19 +128,19 @@ const relatedServices = [
   {
     title: 'Romantic Dinner Dubai',
     description: 'Intimate private dining for two, perfect for anniversaries and date nights.',
-    image: '/images/romantic-dinner-dubai-hero.webp',
+    image: '/images/private-chef-2026/romantic-1200.webp',
     link: '/romantic-dinner-dubai',
   },
   {
     title: 'Villas & Residences',
     description: 'Private dining and celebrations in Dubai villas.',
-    image: '/service-villa.webp',
+    image: '/images/private-chef-2026/villa-evening-1200.webp',
     link: '/villas-private-residences',
   },
   {
     title: 'Yacht Catering Dubai',
     description: 'Proposal dinners and celebrations on board a private yacht.',
-    image: '/service-yacht.webp',
+    image: '/images/private-chef-2026/romantic-1200.webp',
     link: '/yachts',
   },
 ]
@@ -169,9 +171,8 @@ export default function ProposalDinner() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.pd-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.pd-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.pd-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
+
+
 
     gsap.to('.pd-intro-text', {
       scrollTrigger: { trigger: '.pd-intro-text', start: 'top 85%', toggleActions: 'play none none none' },
@@ -210,48 +211,13 @@ export default function ProposalDinner() {
         title="Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF"
         description="Proposal dinner Dubai with a private chef, a menu written for two, floral and photography coordination, and timing for the question. Then we clear down."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/images/romantic-dinner-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/romantic-1200.webp"
         hideSiteName
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/romantic-dinner-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 pd-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Proposal Dinner Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pd-hero-h1">
-            Proposal Dinner Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            A proposal dinner in Dubai, thoughtfully planned around your moment. A private chef, a personal menu and carefully coordinated service allow you to focus on the evening together.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 pd-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero eyebrow="MYCHEF · DUBAI" title="Proposal Dinner Dubai. A moment that feels like you." subtitle="An intimate menu and carefully considered service for a meaningful occasion. Share your idea, venue and timing so we can agree the dining details." cta={{label:"Plan with myCHEF",href:"/inquiry?from=ProposalDinner"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       <TrustSignalStrip />
 
@@ -377,7 +343,7 @@ export default function ProposalDinner() {
                 className="pd-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

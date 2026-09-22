@@ -1,3 +1,5 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
+import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /quality-guarantee-dubai
 //     primary:     "catering quality guarantee dubai"
@@ -104,19 +106,19 @@ const relatedServices = [
   {
     title: 'Booking Protection',
     description: 'Backup chefs, liability cover, deposits, cancellation terms, and complaint handling.',
-    image: '/images/booking-protection-insurance-dubai-hero.webp',
+    image: '/images/private-chef-2026/craft-1200.webp',
     link: '/booking-protection-insurance',
   },
   {
     title: 'How We Vet the Chefs in Our Network',
     description: 'Identity, reference, and skill checks every chef passes before joining.',
-    image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
+    image: '/images/private-chef-2026/craft-1200.webp',
     link: '/how-we-vet-our-chefs',
   },
   {
     title: 'Private Chef Dubai',
     description: 'A standing chef for the house, managed for you. One dinner is catering.',
-    image: '/service-private-chef.webp',
+    image: '/images/private-chef-2026/household-1200.webp',
     link: '/private-chef-dubai',
   },
 ]
@@ -145,9 +147,8 @@ export default function QualityGuarantee() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.qg-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.qg-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.qg-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
+
+
 
     gsap.to('.qg-intro-text', {
       scrollTrigger: { trigger: '.qg-intro-text', start: 'top 85%', toggleActions: 'play none none none' },
@@ -186,47 +187,12 @@ export default function QualityGuarantee() {
         title="Catering Quality Guarantee Dubai | myCHEF"
         description="Catering quality guarantee Dubai: the chef is checked, the booking is written, backup is briefed from the record, and credits follow the booking terms."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/craft-1200.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/how-we-vet-our-chefs-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 qg-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Quality Guarantee</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 qg-hero-h1">
-            Catering Quality Guarantee Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 qg-hero-sub">
-            A carefully selected chef, a clear written brief and a defined process for resolving concerns under your booking terms.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 qg-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero eyebrow="MYCHEF · DUBAI" title="Catering Quality Guarantee Dubai. Clear standards and a contact who listens." subtitle="Understand the service commitments, the feedback process and how to raise a concern with myCHEF before or after your occasion." cta={{label:"Plan with myCHEF",href:"/inquiry?from=QualityGuarantee"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       <TrustSignalStrip />
 
@@ -335,7 +301,7 @@ export default function QualityGuarantee() {
                 className="qg-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

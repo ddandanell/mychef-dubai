@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import type { SeoImage } from '../content/seo'
 
 /** Editorial figure for blog imagery. */
@@ -5,7 +6,7 @@ export default function BlogFigure({ image, priority = false }: { image: SeoImag
   return (
     <figure className="my-10">
       <div className="overflow-hidden rounded-2xl bg-gray-100">
-        <img
+        <ServiceImage
           src={image.src}
           alt={image.alt}
           width={image.width}

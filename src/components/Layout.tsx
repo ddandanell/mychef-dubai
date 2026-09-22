@@ -11,6 +11,8 @@ import SeoHead from './SeoHead'
 import ScrollManager from './ScrollManager'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
 import { preloadRoute } from '@/routes'
+import { isChefDesignPage } from '@/content/privateChefDesign'
+import '@/styles/private-chef-editorial.css'
 
 interface LayoutProps {
   children: ReactNode
@@ -41,16 +43,16 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-black text-white">
+    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isChefDesignPage(pathname) ? 'pc-design' : ''}`}>
       <ScrollManager />
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
-          <SiloTrail />
+          {!isChefDesignPage(pathname) && <SiloTrail />}
           {children}
-          <SiloChildren />
+          {!isChefDesignPage(pathname) && <SiloChildren />}
         </main>
-        <SiloSection />
+        {!isChefDesignPage(pathname) && <SiloSection />}
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />

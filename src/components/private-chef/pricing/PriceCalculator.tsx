@@ -25,7 +25,6 @@ import {
   type ServiceId,
 } from '@/content/privateChefPricing'
 import { CLUSTER_PATHS } from '@/content/privateChefCluster'
-import { QUALITY_LEVELS } from '@/content/privateChefStandard'
 import { feedbackFor, type LastChange } from './feedback'
 import PlanForm from './PlanForm'
 import PlanSheet from './PlanSheet'
@@ -212,23 +211,7 @@ export default function PriceCalculator() {
             )}
           </Row>
 
-          <Row label="Who cooks" hint="One price for the job. The level is what the chef earns for doing it well — the figure below does not move.">
-            <div className="grid gap-2 sm:grid-cols-3">
-              {QUALITY_LEVELS.map((level) => (
-                <div key={level.id} className="border border-gray-200 px-4 py-3">
-                  <span className="block font-playfair text-h4 leading-none text-gold-ink">{level.name}</span>
-                  <span className="mt-1 block font-inter text-caption uppercase tracking-wider text-gray-400">
-                    {level.label} · {level.earnedBy}
-                  </span>
-                  <span className="mt-2 block font-inter text-body-sm text-gray-600">{level.meaning}</span>
-                </div>
-              ))}
-            </div>
-            <p className="mt-3 font-inter text-body-sm text-gray-500">
-              Recognising a chef is our cost, not yours. Your figure does not change.{' '}
-              <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we score chefs</Link>
-            </p>
-          </Row>
+          <Row label="Your chef match" hint="A suitable chef is recommended around your cuisine, schedule and household brief."><p className="font-inter text-body-sm text-gray-600">Your service estimate is based on the selected cooking time and support. <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we match your chef</Link></p></Row>
 
           <Row label="People" hint="Up to eight are included. From nine, an assistant joins automatically.">
             <div className="flex flex-wrap items-center gap-6">

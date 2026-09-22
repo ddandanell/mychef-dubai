@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { relatedPosts } from '../content/blogTaxonomy'
@@ -37,7 +38,7 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
               className="group block bg-cream border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
             >
               <div className="aspect-[16/9] overflow-hidden">
-                <img
+                <ServiceImage
                   src={post.image}
                   alt={post.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

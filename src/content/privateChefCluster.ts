@@ -395,37 +395,33 @@ export const foodProfilePreview = [
 
 export const parentFaqs = [
   {
-    q: 'What is a private chef in Dubai?',
-    a: 'At myCHEF, a private chef is a standing household arrangement: the same chef in your home, matched, assessed and managed. A single dinner is [Luxury catering in Dubai](/catering-dubai). This page is for a chef who comes back. See [how the household chef system works](/private-chef-dubai/how-it-works).',
+    "q": "What does a household private chef do?",
+    "a": "Your chef prepares food in your own kitchen on an agreed schedule, with menus, shopping responsibilities and cleanup set out in the proposal. Choose freshly served meals, preparation for later or broader daily kitchen support."
   },
   {
-    q: 'Can I have the same chef every week?',
-    a: 'Normally yes. We build the plan around one chef. If they are off, or the match is wrong, the Food Profile travels and myCHEF coordinates continuity. Read [how replacement works](/private-chef-dubai/how-it-works).',
+    "q": "Can I have the same chef each week?",
+    "a": "We aim to keep the same chef on your agreed cooking days. Your myCHEF contact coordinates availability and discusses a suitable replacement when needed."
   },
   {
-    q: 'What happens if my chef is unavailable?',
-    a: 'Cover is part of the service. The next chef is briefed from your Food Profile, not from a conversation at your door. If a replacement is needed, we arrange a suitable available chef as quickly as we reasonably can, taking your household’s requirements, schedule and chef suitability into consideration. If we cannot find an equal match, we tell you and give you the options. We do not fill the slot with whoever is free.',
+    "q": "What happens if my chef is unavailable?",
+    "a": "We look for a suitable available chef and brief them from your Food Profile. If an equivalent match is unavailable, we explain the options. Timing depends on your household needs, the schedule and chef availability."
   },
   {
-    q: 'What is the Food Profile?',
-    a: 'The record of how you eat — timing, children, allergies, spice, coffee, guests, service style. You tell us once. When the chef changes, this is what gets handed over. See [how the Food Profile is built](/private-chef-dubai/how-it-works).',
+    "q": "Can the chef shop for groceries?",
+    "a": "Yes, where grocery management is included or added to the service. Groceries are charged separately at actual cost. Shopping time, transport and any extra costs are agreed in advance. See the [plan calculator](/private-chef-dubai/pricing#calculator)."
   },
   {
-    q: 'Can the chef shop, and cook for children?',
-    a: 'Yes. Shopping can be part of the job, and we charge groceries at what the receipts say. What the children will eat — including what they refuse, and any allergies — sits in your Food Profile. Groceries and grocery shopping arrangements are agreed before the service begins: chef-only services require the ingredients to be available when the chef arrives, and where grocery shopping is included the quotation states the agreed shopping time or allowance. Groceries, transport and additional shopping time are charged separately unless expressly included in the package. Full detail is on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
+    "q": "Can you cook for children or accommodate allergies?",
+    "a": "Share household preferences, children’s meals and all allergies before booking. We discuss the ingredients, kitchen conditions and the severity of any allergy. We cannot guarantee a completely allergen-free environment."
   },
   {
-    q: 'Can I change chefs or add a specialist?',
-    a: 'Yes. If the match is wrong we change the chef, and your Food Profile stays where it is. You can also keep your weekday chef and add a specialist for the meal that needs one — finding that person is our job, not yours. See [quality and matching](/private-chef-dubai/quality-training) and [how rotation works](/private-chef-dubai/how-it-works).',
+    "q": "How much does the service cost?",
+    "a": "Base long-term service fees start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Frequency, shopping arrangements and additional staffing affect the estimate; compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
   },
   {
-    q: 'Can you accommodate allergies?',
-    a: 'Allergies are part of the Food Profile, not an afterthought. Halal sourcing is the default. We do not claim an allergic reaction can never happen. If a request is professionally unsafe, safety comes before preference.',
-  },
-  {
-    q: 'How much does a household chef cost?',
-    a: 'One price per job, whoever cooks it. Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500 — so a weekly Fresh Meal is AED 3,000 a month before VAT, and four days a week of Autopilot is 16 visits at AED 16,800. From five days a week the household rate improves; short stays of 3–29 days carry a higher daily rate. Build your figure on [Pricing & Plans](/private-chef-dubai/pricing#calculator). A one-night dinner is [Luxury catering in Dubai](/catering-dubai).',
-  },
+    "q": "Can I book a chef for one dinner?",
+    "a": "Yes. For a single celebration or dinner with guests, explore our [private dining experiences](/luxury-dining-experiences). The household plans on this page are designed for recurring cooking or short-stay arrangements."
+  }
 ] as const
 
 export const howItWorksFaqs = [

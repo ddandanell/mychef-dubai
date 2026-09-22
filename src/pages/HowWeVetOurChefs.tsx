@@ -1,3 +1,5 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
+import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /how-we-vet-our-chefs
 //     primary:     "private chef background checks dubai"
@@ -119,19 +121,19 @@ const relatedServices = [
   {
     title: 'Our Chefs',
     description: 'Meet the experienced chefs behind myCHEF Dubai.',
-    image: '/service-private-chef.webp',
+    image: '/images/private-chef-2026/household-1200.webp',
     link: '/our-chefs',
   },
   {
     title: 'Become a myCHEF',
     description: 'Experienced private chef? Apply to join our trusted network.',
-    image: '/images/become-a-mychef-dubai-hero.webp',
+    image: '/images/private-chef-2026/craft-1200.webp',
     link: '/become-a-mychef',
   },
   {
     title: 'Booking Protection',
     description: 'Learn how we protect your booking with backup chefs and clear policies.',
-    image: '/images/booking-protection-insurance-dubai-hero.webp',
+    image: '/images/private-chef-2026/craft-1200.webp',
     link: '/booking-protection-insurance',
   },
 ]
@@ -160,9 +162,8 @@ export default function HowWeVetOurChefs() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.vet-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.vet-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.vet-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
+
+
 
     gsap.to('.vet-intro-text', {
       scrollTrigger: { trigger: '.vet-intro-text', start: 'top 85%', toggleActions: 'play none none none' },
@@ -201,47 +202,12 @@ export default function HowWeVetOurChefs() {
         title="Private Chef Background Checks Dubai | myCHEF"
         description="Private chef background checks in Dubai: identity, right to work, a cooking assessment, references, then a supervised first visit. A CV is not enough."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/craft-1200.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/how-we-vet-our-chefs-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 vet-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">How We Vet the Chefs in Our Network</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 vet-hero-h1">
-            Private Chef Background Checks Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
-            A careful selection process for the person cooking in your home: identity and right-to-work checks, a practical assessment, references and a supervised first visit.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Request a quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 vet-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero eyebrow="MYCHEF · DUBAI" title="Private Chef Background Checks Dubai. Know who enters your kitchen." subtitle="Our selection process covers identity and right-to-work documents, practical cooking ability, references and food hygiene awareness, followed by service review." cta={{label:"Plan with myCHEF",href:"/inquiry?from=HowWeVetOurChefs"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
@@ -354,7 +320,7 @@ export default function HowWeVetOurChefs() {
                 className="vet-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 import type { CSSProperties, ElementType, ReactNode } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import {
@@ -277,7 +278,7 @@ export function EditorialImage({
 }) {
   return (
     <div className={cn('relative overflow-hidden', aspect, framed && 'editorial-image', className)}>
-      <img
+      <ServiceImage
         src={src}
         alt={alt}
         width={width}

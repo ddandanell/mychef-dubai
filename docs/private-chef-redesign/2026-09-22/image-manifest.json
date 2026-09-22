@@ -1,0 +1,782 @@
+[
+  {
+    "key": "household",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/household-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25996,
+        "sha256": "e992cb0582efe87639b07ab49b72e35a411a43891c85e9f6e2e3ece5f3040b84"
+      },
+      {
+        "path": "/images/private-chef-2026/household-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 51378,
+        "sha256": "72f09034f6cef9f96d967acab174b6580e3a681a289db0b16b69e6f03014a671"
+      },
+      {
+        "path": "/images/private-chef-2026/household-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 87132,
+        "sha256": "0c39538959f479d2371b7afc725ca9e2a453e9754a3de45cc6af4f6fe8b03395"
+      },
+      {
+        "path": "/images/private-chef-2026/household-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 119766,
+        "sha256": "4a44e7bfc7e243b942baf6cd3ca200dbb05c28597833a626abe8a96c30ef5d90"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "planning",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/planning-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22180,
+        "sha256": "97390006704313e8fd5464f4024e0a76d6c65af6d9fa95f24aa6a1d75c9e3802"
+      },
+      {
+        "path": "/images/private-chef-2026/planning-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 41646,
+        "sha256": "321a206fbb728d861fb2f37397656ac56444fe3ad3fe4fe706e8dbde3474a2a9"
+      },
+      {
+        "path": "/images/private-chef-2026/planning-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 68130,
+        "sha256": "7e3c70a93c05531f9b46514bfb1b0a41c3efdce1322576b73c4a851d67e78a4a"
+      },
+      {
+        "path": "/images/private-chef-2026/planning-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 91494,
+        "sha256": "227a0cfe5330b4163fe9736ee3b4586e3293d6eb178a705a203ce88f6f3087b6"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "meal-prep",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/meal-prep-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30146,
+        "sha256": "4b914f912fcd4173e3e0de0139900d4cab6cd9aad6b7039b2aa0943ed91fd2bc"
+      },
+      {
+        "path": "/images/private-chef-2026/meal-prep-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 65436,
+        "sha256": "abb78170b786d3ef4330482a8b05c361e8a43a3eeac7f0f6b8464e42692ba82a"
+      },
+      {
+        "path": "/images/private-chef-2026/meal-prep-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 117108,
+        "sha256": "0cb747a105a71d364a10a4ee31baf598ec35c9ec03609b0119854b01f69b1e58"
+      },
+      {
+        "path": "/images/private-chef-2026/meal-prep-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 160036,
+        "sha256": "79557b24dfe0c545246f157e3d6e2be6ba9840a5f1b03c667e25fcf5b057282f"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "family-table",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/family-table-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40092,
+        "sha256": "aa8f9ac1e3fc6e57622862e2b4a4252311ae525e4dd4dcf8dd9950c48bb2fc58"
+      },
+      {
+        "path": "/images/private-chef-2026/family-table-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 84098,
+        "sha256": "c6b5ca6631666f50eb37bcfbda438f43afc4078a78eaeb65a4ace8010380d43d"
+      },
+      {
+        "path": "/images/private-chef-2026/family-table-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 147172,
+        "sha256": "e68f37fecd709437a9c4b93158e7a273ad06e2275acee3fcfbf456a5ac541bcc"
+      },
+      {
+        "path": "/images/private-chef-2026/family-table-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 202046,
+        "sha256": "a5f212a918a85d8fd8f6f427badf81f014c6ffe69b5390a947c9fd543433a276"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "wellness",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/wellness-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34438,
+        "sha256": "95c8ceb8e86f5e36d3ccea665fd93a28ead2ac1ff6982d7b972e9139a7a175a3"
+      },
+      {
+        "path": "/images/private-chef-2026/wellness-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 79100,
+        "sha256": "01bddf8274b28c2bb151ebdbe765c19ee17d4e4d0f24c066f9cb579c6c0ff487"
+      },
+      {
+        "path": "/images/private-chef-2026/wellness-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 146682,
+        "sha256": "f70236529aa71287761cfcf6db03b85380c1d7015b50dd7708b7632a4622f7ae"
+      },
+      {
+        "path": "/images/private-chef-2026/wellness-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 210028,
+        "sha256": "190ed7a76a485f2777ad6ec6b64aadc7d6f00e6f20f68529045bad46adfaa17e"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "craft",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/craft-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23080,
+        "sha256": "6d76d0e23835dde8b982846791663a740d778762004a5da846502e862c8ad4ab"
+      },
+      {
+        "path": "/images/private-chef-2026/craft-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 43672,
+        "sha256": "f7e07d96ec1d59885288f364fa61987d9e42a071adf9df81b6a55e09c29ffa19"
+      },
+      {
+        "path": "/images/private-chef-2026/craft-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 71746,
+        "sha256": "8fc40c32a9feffe220e4d300bf4607a440cff23a83147c4d6c5c60a26d9b66ff"
+      },
+      {
+        "path": "/images/private-chef-2026/craft-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 97184,
+        "sha256": "4dcfd7a31865d92b000d15cc325d7c04c6a0cc6d2f47bae3432c82780bf5970f"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "clean-kitchen",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/clean-kitchen-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26870,
+        "sha256": "fded146573e0a69e3ded22adfb456ba38318c131f21c70642273c6706bc3ef13"
+      },
+      {
+        "path": "/images/private-chef-2026/clean-kitchen-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 57348,
+        "sha256": "27ec7ca9f01ff4a1b75c65ad64c92a24d994b7f5f3eba289644131d0a536849e"
+      },
+      {
+        "path": "/images/private-chef-2026/clean-kitchen-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 101894,
+        "sha256": "e562e6e19658458bcedc25b14ae8b67b922708e7a4e1206ba039915c9844e831"
+      },
+      {
+        "path": "/images/private-chef-2026/clean-kitchen-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 142170,
+        "sha256": "92a743d5f04012397213cbc029653acbe45e3ff08cb9d403a025cae744df08e4"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "team-service",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/team-service-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26206,
+        "sha256": "df9f986ff2801d5a3ad629352fa0ff3e182f56ceb47282e4cf034054fee5d7e1"
+      },
+      {
+        "path": "/images/private-chef-2026/team-service-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 53242,
+        "sha256": "1e648df8f0fc3f24d905f50282563249f969cc0f7c6f3f02ddd853d64eedb9af"
+      },
+      {
+        "path": "/images/private-chef-2026/team-service-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 89278,
+        "sha256": "fbeae5bb2a5ec3b2aad9b8c7821b7a6df595cc4a8c41d23d0858461d816bbbb3"
+      },
+      {
+        "path": "/images/private-chef-2026/team-service-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 121778,
+        "sha256": "eb9765f8e3c5a883ab20af55326c534495b672003bcce09186a1dd89ae08fa91"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "apartment",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/apartment-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17320,
+        "sha256": "6164b975ab8804656588499947deb7da71186cef6eaf3ae5ad41de36e1612852"
+      },
+      {
+        "path": "/images/private-chef-2026/apartment-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 34706,
+        "sha256": "735c4daeb13848bc513531a22feae67c22d557be521f39e825405e194e02d8ba"
+      },
+      {
+        "path": "/images/private-chef-2026/apartment-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 58408,
+        "sha256": "c677c8690645478880f2024d6fe65996db8bc37c416757ffaa3c4a02499ca92d"
+      },
+      {
+        "path": "/images/private-chef-2026/apartment-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 79032,
+        "sha256": "5aa57b70a522c1bfd52a310970c7154528a5da374214c5420ba809401cdb29c7"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "villa-evening",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/villa-evening-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31380,
+        "sha256": "99a82fe8942f5345c86544e14c5ce72e2b2cba83151ec2a198c7732493ecd61a"
+      },
+      {
+        "path": "/images/private-chef-2026/villa-evening-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 68912,
+        "sha256": "d7b95e147f5b5140bbd21ba862f82976a0211c76f0282582ce27ba5c52bebbbd"
+      },
+      {
+        "path": "/images/private-chef-2026/villa-evening-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 121616,
+        "sha256": "4bfcbdfaf98ae4be3e00ef4f47d2a076bbca12cacc2a78d5ac05adb629983c53"
+      },
+      {
+        "path": "/images/private-chef-2026/villa-evening-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 171018,
+        "sha256": "905b44fcf3ffb0b1ade79706d7d21989729a2b5ae50d083610092ed18b299b31"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "pasta",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/pasta-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23606,
+        "sha256": "40e1b915b9b68691fbf26aae9b009faae84f4bccee37af227b49d363861e1bb2"
+      },
+      {
+        "path": "/images/private-chef-2026/pasta-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 46508,
+        "sha256": "591b1af880dd5ab325af1dbd570f1c99393da41ce675da3bdfb1820e30995089"
+      },
+      {
+        "path": "/images/private-chef-2026/pasta-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 80650,
+        "sha256": "31da903f0eae176a8198ebd8636a05a7674b41c6f1e2a716d3fbbc1d4249ba21"
+      },
+      {
+        "path": "/images/private-chef-2026/pasta-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 112246,
+        "sha256": "c89d2947964f1f990c9d5a8b577f03d415d8050d4238e0b4e414413d910b0b5e"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "chefs-table",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/chefs-table-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24510,
+        "sha256": "86e866102082a77bdf997ca7c26f878ee1e8b3083f80811e163e16935943054a"
+      },
+      {
+        "path": "/images/private-chef-2026/chefs-table-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 47578,
+        "sha256": "0b8b24fa3c6ea96e8d9cd2c98b92f2d41d24c4eb5b1f1be9bbb1c33c71974966"
+      },
+      {
+        "path": "/images/private-chef-2026/chefs-table-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 77826,
+        "sha256": "a3c410c29a787d27a28431a38591a940a3ffdd7f4122d0d5600108429b9734e0"
+      },
+      {
+        "path": "/images/private-chef-2026/chefs-table-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 106022,
+        "sha256": "7a543075e5d619af39d859ced5190e0602dd0f6a1f3753bdaa43ab9293396f93"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "arabic",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/arabic-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 41994,
+        "sha256": "391ef1b12d1dac90951581f02f78c6cb723ff7c8cb9beaf7b82cf4e9707249e0"
+      },
+      {
+        "path": "/images/private-chef-2026/arabic-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 91540,
+        "sha256": "6a5c6de13c53e0973e2c278a204c3ff5d53cf14bb52c64d06d0fa20f95909e18"
+      },
+      {
+        "path": "/images/private-chef-2026/arabic-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 159292,
+        "sha256": "e8f495c6e870126abf1c2298f38a3dc09c10bdad98fb06c01b0a9bef65dbbad1"
+      },
+      {
+        "path": "/images/private-chef-2026/arabic-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 225082,
+        "sha256": "5598a8712b58480a01bbc0859363938cca2c32093b84f81347285042eadd8a5a"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "dessert",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/dessert-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26912,
+        "sha256": "cfdab30b14084bfecbf77f947a8a7eb246fa13216aa9581293b436046882806f"
+      },
+      {
+        "path": "/images/private-chef-2026/dessert-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 57494,
+        "sha256": "559f26e91b3984b86d92569162a4dc79ab375a671e8970e962c097caa4703f13"
+      },
+      {
+        "path": "/images/private-chef-2026/dessert-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 100506,
+        "sha256": "6f3a12756f8aba76309fde088d3ebb84a2d7a394a17a29636bd336687abaa86d"
+      },
+      {
+        "path": "/images/private-chef-2026/dessert-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 138158,
+        "sha256": "c1d8985b385c0e065bbf37f2f0407f060dccf0d0c25ef28be3a76ad515a0d4cd"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "cooking-class",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/cooking-class-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25638,
+        "sha256": "0d24454880cb3348a3131bc97c83e913f3dbf5595b78c775c3414a3f5b3845af"
+      },
+      {
+        "path": "/images/private-chef-2026/cooking-class-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 50834,
+        "sha256": "1391c18b5c3c83383524027fc0c904e1dd398ba267ad07a64b470834a103ff15"
+      },
+      {
+        "path": "/images/private-chef-2026/cooking-class-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 87018,
+        "sha256": "c0865e5da0488615325576e24938cb3530fc8a2d1d237a0ab7426c935d509f6c"
+      },
+      {
+        "path": "/images/private-chef-2026/cooking-class-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 119434,
+        "sha256": "9325ab2c088ba5c3a3f02123f7afe3211c864eb5071a5f0303979191dc506b7f"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "romantic",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/romantic-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25920,
+        "sha256": "e7a1117217bdd719b618f1324fe532478a6aca952c9a2646b7d5622c19d172d9"
+      },
+      {
+        "path": "/images/private-chef-2026/romantic-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 52280,
+        "sha256": "d386f1fa7f9e2ea9d64eaf8582e6c1c8b556033b981bfc63b195f9f9244154ab"
+      },
+      {
+        "path": "/images/private-chef-2026/romantic-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 89756,
+        "sha256": "476e7866adb15384240d0cb8aebf8193900afc581c02fc2da0f8ba3b108ffdec"
+      },
+      {
+        "path": "/images/private-chef-2026/romantic-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 121766,
+        "sha256": "a450b5bc36a2ba61d4074add99d6fa1c7629c7f9ffa8c743a72b6993051b6632"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "desert",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/desert-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27578,
+        "sha256": "643a3a3fed079e5cda92ca1d7855a96c350ce761473e38a9909f603df5655ab1"
+      },
+      {
+        "path": "/images/private-chef-2026/desert-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 63606,
+        "sha256": "fb94c68088d956e312e25f54c637d3efce90db785d580d16f3f75e7e6de5941b"
+      },
+      {
+        "path": "/images/private-chef-2026/desert-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 115590,
+        "sha256": "5c5d77f23f019b2a9a9f79bc98c535ffa39e65d3233df34e4ea39e2d01d1f3b6"
+      },
+      {
+        "path": "/images/private-chef-2026/desert-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 162958,
+        "sha256": "e3df91c83d6dc41f71834584627e2d3bb675b16b2245731f0936922c2357d5d7"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "breakfast",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/breakfast-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30438,
+        "sha256": "91d80b1e602e2c88da801ed54eba32ca67bcd44a1d7f829e0400d6c9b6824606"
+      },
+      {
+        "path": "/images/private-chef-2026/breakfast-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 64742,
+        "sha256": "24b73ea890165123fe681d6bde79ac4645b8cacdac3be9e90adcf2d3e20b7737"
+      },
+      {
+        "path": "/images/private-chef-2026/breakfast-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 114734,
+        "sha256": "4156198d7ffcdbf47335df11361bc9332cd8ceb827a469f42a41db1cc806e4fc"
+      },
+      {
+        "path": "/images/private-chef-2026/breakfast-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 157004,
+        "sha256": "edab32b7b9bb6ecc84735d0892dc667892c9146ce412e8b2275be32521eecbcd"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "ingredients",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/ingredients-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 30446,
+        "sha256": "3be9e262698392458462bede0324ed138aa39df369581562ee01bdab008e6b2c"
+      },
+      {
+        "path": "/images/private-chef-2026/ingredients-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 72030,
+        "sha256": "264a9a78b7605841eeb4be8981d3ec909a5a9bebf1c72a0215715692ca3de30f"
+      },
+      {
+        "path": "/images/private-chef-2026/ingredients-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 143038,
+        "sha256": "d85ab65e774cf6fca129a12adcb1e9ee4621c3730f061f27035cb949b6a63fe1"
+      },
+      {
+        "path": "/images/private-chef-2026/ingredients-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 210358,
+        "sha256": "31869a80d4f28f84e3f9ff56ddf735b635d61528dbf1d5d57e514a0aa0e819eb"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  },
+  {
+    "key": "birthday",
+    "provenance": "AI-generated service inspiration; not a real booking or staff identity",
+    "original_dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "path": "/images/private-chef-2026/birthday-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28336,
+        "sha256": "5cee2942deeabbe0f0b65346a4d0ec08c7f16e1bc6cc6870ee7abe81af9ee700"
+      },
+      {
+        "path": "/images/private-chef-2026/birthday-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 60358,
+        "sha256": "f5a2b7f9774e3fb717d87ee16596e68b143925c1ab602fb3837843e49e646e60"
+      },
+      {
+        "path": "/images/private-chef-2026/birthday-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 103940,
+        "sha256": "54ba7bd120979b3444c4d54450708a82770d71e196099590cbcbae02f7d932b6"
+      },
+      {
+        "path": "/images/private-chef-2026/birthday-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 144268,
+        "sha256": "2b3bd6f8c8b021d8a3e5aaf44d08f4e8ae0ba8156b4fa4d9827f9470d3bfbd4c"
+      }
+    ],
+    "review": "Subject, food, lighting and anatomy inspected. Responsive crops reviewed during page QA."
+  }
+]

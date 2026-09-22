@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /private-cooking-classes-dubai
 //     primary:     "private cooking classes dubai"
@@ -133,12 +134,12 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  { src: '/service-luxury-dining.webp', alt: 'Private chef dining experience in Dubai' },
-  { src: '/service-private-chef.webp', alt: 'Chef-led cooking class in a Dubai villa' },
-  { src: '/menu-appetizer.webp', alt: 'Fresh ingredients prepared during a cooking class' },
-  { src: '/service-villa.webp', alt: 'Villa kitchen cooking class in Dubai' },
-  { src: '/menu-canapes.webp', alt: 'Plated dishes from a private chef experience' },
-  { src: '/menu-dessert.webp', alt: 'Dessert plating at a chef-led dinner party' },
+  { src: '/images/private-chef-2026/chefs-table-1200.webp', alt: 'Private chef dining experience in Dubai' },
+  { src: '/images/private-chef-2026/household-1200.webp', alt: 'Chef-led cooking class in a Dubai villa' },
+  { src: '/images/private-chef-2026/cooking-class-1200.webp', alt: 'Fresh ingredients prepared during a cooking class' },
+  { src: '/images/private-chef-2026/villa-evening-1200.webp', alt: 'Villa kitchen cooking class in Dubai' },
+  { src: '/images/private-chef-2026/cooking-class-1200.webp', alt: 'Plated dishes from a private chef experience' },
+  { src: '/images/private-chef-2026/dessert-1200.webp', alt: 'Dessert plating at a chef-led dinner party' },
 ]
 
 const locations = [
@@ -192,19 +193,19 @@ const relatedServices = [
   {
     title: 'Private Chef Dubai',
     description: 'A chef who comes back to the house, not a one-night class.',
-    image: '/service-private-chef.webp',
+    image: '/images/private-chef-2026/household-1200.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Romantic Dinner Dubai',
     description: 'Intimate, chef-prepared romantic dinners for couples celebrating across Dubai.',
-    image: '/images/romantic-dinner-dubai-hero.webp',
+    image: '/images/private-chef-2026/romantic-1200.webp',
     link: '/romantic-dinner-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional dining and team-building culinary experiences for corporate events.',
-    image: '/service-corporate.webp',
+    image: '/images/private-chef-2026/cooking-class-1200.webp',
     link: '/corporate',
   },
 ]
@@ -326,7 +327,7 @@ export default function PrivateCookingClassesDubai() {
         title="Private Cooking Classes Dubai | myCHEF"
         description="Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat. Couples, families and teams. Ingredients, kit and clear-down included. Send the group size and cuisine."
         canonicalPath="/private-cooking-classes-dubai"
-        ogImage="/images/private-cooking-classes-dubai-hero.webp"
+        ogImage="/images/private-chef-2026/cooking-class-1200.webp"
         hideSiteName
         schema={schema}
       />
@@ -335,7 +336,7 @@ export default function PrivateCookingClassesDubai() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/private-cooking-classes-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/private-chef-2026/cooking-class-1200.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 
@@ -504,7 +505,7 @@ export default function PrivateCookingClassesDubai() {
           <div className="pcc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
             {galleryImages.map((img, i) => (
               <div key={i} className="pcc-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
-                <img
+                <ServiceImage
                   src={img.src}
                   alt={img.alt}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
@@ -563,7 +564,7 @@ export default function PrivateCookingClassesDubai() {
                 className="pcc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

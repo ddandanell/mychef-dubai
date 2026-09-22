@@ -207,7 +207,7 @@ export default function PrivateChefVsCatering() {
         title="Private Chef vs Catering Dubai | Guide"
         description="Private chef vs catering Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance incl"
         canonicalPath="/private-chef-vs-catering-dubai"
-        ogImage="/service-private-chef.webp"
+        ogImage="/images/private-chef-2026/household-1200.webp"
         schema={schema}
       />
 

@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /luxury-dining-experiences
 //     primary:     "private dining experience dubai"
@@ -43,7 +44,7 @@ import {
   type ProseSection,
 } from '@/content/luxuryDiningPage'
 
-const HERO_IMAGE = '/images/luxury-dining-experiences-dubai-hero.webp'
+const HERO_IMAGE = '/images/private-chef-2026/chefs-table-1200.webp'
 
 const schema = {
   '@context': 'https://schema.org',
@@ -121,7 +122,7 @@ function ProseBlock({ section, index }: { section: ProseSection; index: number }
 
         {image ? (
           <figure className={flip ? 'lg:order-1' : undefined}>
-            <img
+            <ServiceImage
               src={image.src}
               alt={image.alt}
               width={1200}
@@ -217,7 +218,7 @@ export default function LuxuryDining() {
                 className={`group block ${i === 0 ? 'md:col-span-2' : ''}`}
               >
                 <div className="relative overflow-hidden">
-                  <img
+                  <ServiceImage
                     src={item.image}
                     alt={item.alt}
                     width={1200}

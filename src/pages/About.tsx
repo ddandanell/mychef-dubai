@@ -1,3 +1,4 @@
+import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /about
 //     primary:     "private chef company dubai"
@@ -139,7 +140,7 @@ export default function About() {
         description="Private Chef Company Dubai: myCHEF matches, vets and backs up independent chefs for homes and events. You are not putting a chef on payroll."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
-        preloadHero="/images/mychef-dubai-about-team-hero.webp"
+        preloadHero="/images/private-chef-2026/team-service-1200.webp"
         schema={aboutGraph(breadcrumbSchema)}
       />
 
@@ -148,7 +149,7 @@ export default function About() {
         eyebrow="ABOUT MYCHEF"
         title="Private Chef Company Dubai: Hiring a chef is the easy part."
         subtitle={"myCHEF is a private chef company in Dubai, connecting thoughtful menu planning with carefully selected culinary partners. We coordinate regular household cooking and one-off occasions, from the first conversation to the final clear-down."}
-        image="/images/mychef-dubai-about-team-hero.webp"
+        image="/images/private-chef-2026/team-service-1200.webp"
         imageAlt="The myCHEF Dubai team of chefs, specialists and household managers in a Dubai kitchen with the skyline behind them"
         imageWidth={1672}
         imageHeight={941}
@@ -183,8 +184,8 @@ export default function About() {
               </div>
             </div>
             <div className="story-right">
-              <img
-                src="/images/villa-catering-dubai-hero.webp"
+              <ServiceImage
+                src="/images/private-chef-2026/villa-evening-1200.webp"
                 alt="A chef grilling poolside at a Dubai villa at sunset. Experience concept shown."
                 width={1264}
                 height={848}
@@ -236,7 +237,7 @@ export default function About() {
             {team.map((chef, i) => (
               <article key={chef.name} className="team-card">
                 <div className="aspect-[3/4] overflow-hidden mb-5">
-                  <img src={chef.image} alt={`${chef.name}, independent partner chef`} width={300} height={400} className="w-full h-full object-cover" loading="lazy" decoding="async" />
+                  <ServiceImage src={chef.image} alt={`${chef.name}, independent partner chef`} width={300} height={400} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
                 <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold mb-2">
                   {String(i + 1).padStart(2, '0')} · Independent partner chef

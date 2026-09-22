@@ -1,58 +1,9 @@
-import { useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router'
 import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
 
-function normalizePath(pathname: string) {
-  if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '')
-  return pathname
-}
-
-function isClusterLinkActive(pathname: string, href: string) {
-  const path = normalizePath(pathname)
-  // Overview is current only on the cluster root, never on child pages.
-  if (href === CLUSTER_PATHS.overview) return path === CLUSTER_PATHS.overview
-  return path === href || path.startsWith(`${href}/`)
-}
-
 export default function ClusterNav() {
   const { pathname } = useLocation()
-  const activeRef = useRef<HTMLAnchorElement>(null)
-
-  useEffect(() => {
-    const el = activeRef.current
-    const scroller = el?.parentElement
-    if (!el || !scroller) return
-    const elRect = el.getBoundingClientRect()
-    const view = scroller.getBoundingClientRect()
-    if (elRect.left < view.left) scroller.scrollLeft -= view.left - elRect.left
-    else if (elRect.right > view.right) scroller.scrollLeft += elRect.right - view.right
-  }, [pathname])
-
-  return (
-    <nav aria-label="Household chef pages" className="border-y border-black/10 bg-cream">
-      <div className="container-custom py-3 flex items-stretch gap-2 overflow-x-auto">
-        {CLUSTER_NAV.map((item) => {
-          const isActive = isClusterLinkActive(pathname, item.href)
-          return (
-            <Link
-              key={item.href}
-              ref={isActive ? activeRef : undefined}
-              to={item.href}
-              aria-current={isActive ? 'page' : undefined}
-              className={`flex-shrink-0 px-3.5 py-2 border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold ${
-                isActive
-                  ? 'border-gold bg-gold text-black'
-                  : 'border-black/10 text-charcoal hover:border-gold hover:text-gold-ink'
-              }`}
-            >
-              <span className="block font-inter text-caption uppercase tracking-wider">{item.label}</span>
-              <span className={`hidden md:block font-inter text-[11px] mt-0.5 leading-snug ${isActive ? 'text-black/70' : 'text-gray-500'}`}>
-                {item.description}
-              </span>
-            </Link>
-          )
-        })}
-      </div>
-    </nav>
-  )
+  const current = CLUSTER_NAV.find(item => item.href === pathname)
+  const links = CLUSTER_NAV.map(item => <Link key={item.href} to={item.href} aria-current={pathname === item.href ? 'page' : undefined}>{item.label === 'Private Chef Dubai' ? 'Overview' : item.label}</Link>)
+  return <div className="pc-cluster-nav"><nav className="pc-nav-inner" aria-label="Household chef pages">{links}<Link to={CLUSTER_PATHS.planTerms} aria-current={pathname === CLUSTER_PATHS.planTerms ? 'page' : undefined}>Plan details</Link></nav><details className="pc-mobile-nav" key={pathname}><summary>In this section · {current?.label || 'Plan details'}<span aria-hidden="true">＋</span></summary><nav aria-label="Household chef pages">{links}<Link to={CLUSTER_PATHS.planTerms}>Plan details</Link></nav></details></div>
 }

@@ -1,0 +1,55 @@
+{
+  "test-chef-inquiry": {
+    "log": "test-chef-inquiry.log",
+    "summary": "chef inquiry links OK"
+  },
+  "test-booking-terms": {
+    "log": "test-booking-terms.log",
+    "summary": "all passed"
+  },
+  "test-conversion-events": {
+    "log": "test-conversion-events.log",
+    "summary": "All conversion-event checks passed"
+  },
+  "test-faq-jsonld": {
+    "log": "test-faq-jsonld.log",
+    "summary": "All FAQ JSON-LD checks passed"
+  },
+  "verify-seo-contract": {
+    "log": "verify-seo-contract.log",
+    "summary": "SEO contract OK \u2014 245 URLs, 148 unique primaries, 0 collisions."
+  },
+  "verify-keyword-locks": {
+    "log": "verify-keyword-locks.log",
+    "summary": "keyword locks OK \u2014 158 page files + 202 module entries match the contract"
+  },
+  "verify-urls": {
+    "log": "verify-urls.log",
+    "summary": "url stability OK \u2014 245 frozen URLs, none deleted, none renamed"
+  },
+  "verify-retirements": {
+    "log": "verify-retirements.log",
+    "summary": "  - INTERNAL_LINK /pricing -> /private-chef-dubai/pricing: src/components/private-chef/EditorialHero.tsx links /pricing x1"
+  },
+  "verify-parked": {
+    "log": "verify-parked.log",
+    "summary": "  - /uae-national-day-catering-dubai: not prerendered \u2014 a parked page must still resolve, not 404"
+  },
+  "verify-breadcrumbs": {
+    "log": "verify-breadcrumbs.log",
+    "summary": "breadcrumb trails OK \u2014 244 URLs compiled from the contract"
+  },
+  "build": {
+    "result": "passed",
+    "note": "TypeScript and Vite production build; no pricing engine or booking-term changes."
+  },
+  "local_prerender": {
+    "result": "blocked",
+    "note": "The existing prerender command could not launch local Chromium. Hosted build will provide prerender validation; empty local HTML audits are not treated as passes."
+  },
+  "visual_review": {
+    "result": "in progress",
+    "before_screenshots": 40,
+    "note": "Preview branch is used for final responsive and interaction review."
+  }
+}

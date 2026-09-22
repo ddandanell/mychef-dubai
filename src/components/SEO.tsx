@@ -2,6 +2,7 @@ import { isParked } from '@/content/parkedUrls'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router'
 import { assemblePageGraph } from '@/lib/jsonld'
+import { chefPageImages, chefImage } from '@/content/privateChefDesign'
 import { SEO_AUDIT_OVERRIDES } from '@/content/seoAuditOverrides'
 
 interface SEOProps {
@@ -37,6 +38,10 @@ export default function SEO({
   const hidden = noindex || isParked(canonicalPath ?? '')
   const { pathname } = useLocation()
   const path = canonicalPath || pathname
+  const designImage = chefPageImages[pathname]
+  if (designImage) ogImage = chefImage(designImage)
+  // Responsive HTML image owns loading priority; do not preload the superseded hero.
+  if (designImage) preloadHero = undefined
   const jsonLd = assemblePageGraph(path, schema)
   const auditOverride = SEO_AUDIT_OVERRIDES[path]
   const effectiveTitle = auditOverride?.title || title

@@ -1,0 +1,35 @@
+PASS  wa.me: got "whatsapp_click"
+PASS  api.whatsapp: got "whatsapp_click"
+PASS  marketing whatsapp.com is not a chat CTA: got null
+PASS  tel: got "phone_click"
+PASS  mailto: got "email_click"
+PASS  inquiry: got "quote_click"
+PASS  inquiry with query: got "quote_click"
+PASS  absolute inquiry: got "quote_click"
+PASS  home is not a conversion: got null
+PASS  packages is not a conversion: got null
+PASS  hash only: got null
+PASS  empty: got null
+PASS  null: got null
+PASS  params shape: got ["cta_location","link_url","page_path"]
+PASS  params values: got {"link_url":"https://wa.me/971","page_path":"/catering-dubai","cta_location":"hero"}
+PASS  rich params include cta_text: got {"link_url":"#yacht-quote","page_path":"/yachts","cta_location":"hero","cta_text":"Get a Yacht Catering Quote"}
+PASS  cta text collapsed: got "WhatsApp this selection"
+PASS  cta text omitted when empty: got undefined
+PASS  hash only is not a conversion: got null
+PASS  inquiry_form + yacht hash is quote_click: got {"event":"quote_click","link_url":"#yacht-quote"}
+PASS  inquiry_form + /inquiry still one quote_click: got {"event":"quote_click","link_url":"/inquiry"}
+PASS  jump nav hash without data-track is not a conversion: got null
+PASS  birthday hero inquiry is quote_click: got {"event":"quote_click","link_url":"/inquiry"}
+PASS  strips WhatsApp text (PII): got "https://wa.me/971551744849"
+PASS  keeps api.whatsapp phone, drops text: got "https://api.whatsapp.com/send?phone=971551744849"
+PASS  strips mailto subject: got "mailto:info@mychef.ae"
+PASS  inquiry query stripped: got "/inquiry"
+PASS  seo gate is not a lead: got false
+PASS  seo analyst is not a lead: got false
+PASS  unlabelled form is not a lead: got false
+PASS  plan form is a lead: got true
+PASS  yacht quote form is a lead: got true
+PASS  scroll depth marks match first-party: got [25,50,75,100]
+
+All conversion-event checks passed

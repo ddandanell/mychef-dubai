@@ -1,0 +1,4652 @@
+[
+  {
+    "path": "/",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "mychef dubai",
+    "sources": [
+      "src/components/LocationStrip.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/cateringPricing.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/data/locations.ts",
+      "src/data/starterPackages.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/analytics.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/lib/whatsapp.ts",
+      "src/pages/Home.tsx",
+      "src/sections/CTASection.tsx",
+      "src/sections/GuidesTeaserSection.tsx",
+      "src/sections/HeroSection.tsx",
+      "src/sections/HowItWorksSection.tsx",
+      "src/sections/LeadMagnetModal.tsx",
+      "src/sections/LocationsSection.tsx",
+      "src/sections/ServicesSection.tsx",
+      "src/sections/StarterPackagesSection.tsx",
+      "src/sections/TeamSection.tsx",
+      "src/sections/TrustSection.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Home.tsx",
+        "old_asset": "/images/home-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/about",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/about",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef company dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/About.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/About.tsx",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/pages/About.tsx",
+        "old_asset": "/images/mychef-dubai-about-team-hero.webp"
+      },
+      {
+        "source": "src/pages/About.tsx",
+        "old_asset": "/images/villa-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/About.tsx",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/pages/About.tsx",
+        "old_asset": "/team-pastry-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/apartment-private-dining-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/apartment-private-dining-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef for apartment dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/ApartmentPrivateDining.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/ApartmentPrivateDining.tsx",
+        "old_asset": "/service-private-chef.webp"
+      },
+      {
+        "source": "src/pages/ApartmentPrivateDining.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/become-a-mychef",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/become-a-mychef",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef jobs dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/BecomeAMyChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/BecomeAMyChef.tsx",
+        "old_asset": "/images/become-a-mychef-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/BecomeAMyChef.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/BecomeAMyChef.tsx",
+        "old_asset": "/service-corporate.webp"
+      },
+      {
+        "source": "src/pages/BecomeAMyChef.tsx",
+        "old_asset": "/service-private-chef.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/blog",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Blog.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Blog.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/best-luxury-private-dining-experiences-in-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "best luxury private dining experiences in dubai",
+    "sources": [
+      "blog/data/best-luxury-private-dining-experiences-in-dubai.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/best-luxury-private-dining-experiences-in-dubai.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/best-meal-prep-services-in-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "redirect",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/weekly-meal-prep-dubai",
+      "robots": {
+        "index": false,
+        "follow": true
+      },
+      "in_sitemap": false,
+      "redirect_to": "/weekly-meal-prep-dubai"
+    },
+    "primary_keyword": null,
+    "sources": [
+      "blog/data/best-meal-prep-services-in-dubai.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/best-meal-prep-services-in-dubai.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve established permanent redirect; update links to destination where used."
+  },
+  {
+    "path": "/blog/best-private-chef-birthday-dinner-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/best-private-chef-birthday-dinner-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef for birthday dinner dubai",
+    "sources": [
+      "src/components/ArticleToc.tsx",
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/KeyFactsBox.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/SourcesBlock.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx",
+        "old_asset": "/images/blog/best-private-chef-birthday-dinner-dubai-2.webp"
+      },
+      {
+        "source": "src/pages/blog/BestPrivateChefBirthdayDinnerDubai.tsx",
+        "old_asset": "/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/best-private-chefs-for-villas-in-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/best-private-chefs-for-villas-in-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "best private chefs for villas in dubai",
+    "sources": [
+      "blog/data/best-private-chefs-for-villas-in-dubai.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/best-private-chefs-for-villas-in-dubai.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "redirect",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai",
+      "robots": {
+        "index": false,
+        "follow": true
+      },
+      "in_sitemap": false,
+      "redirect_to": "/private-chef-dubai"
+    },
+    "primary_keyword": null,
+    "sources": [
+      "blog/data/best-private-chefs-in-dubai-for-home-dining.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/best-private-chefs-in-dubai-for-home-dining.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve established permanent redirect; update links to destination where used."
+  },
+  {
+    "path": "/blog/best-private-cooking-class-experiences-in-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/best-private-cooking-class-experiences-in-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "best private cooking class experiences in dubai",
+    "sources": [
+      "blog/data/best-private-cooking-class-experiences-in-dubai.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/best-private-cooking-class-experiences-in-dubai.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/halal-private-dining-dubai-what-to-ask",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/halal-private-dining-dubai-what-to-ask",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "what to ask a halal caterer dubai",
+    "sources": [
+      "src/components/ArticleToc.tsx",
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/KeyFactsBox.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/SourcesBlock.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx",
+        "old_asset": "/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
+      },
+      {
+        "source": "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx",
+        "old_asset": "/images/blog/halal-private-dining-dubai-what-to-ask-2.webp"
+      },
+      {
+        "source": "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx",
+        "old_asset": "/images/blog/halal-private-dining-dubai-what-to-ask-3.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "redirect",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+      "robots": {
+        "index": false,
+        "follow": true
+      },
+      "in_sitemap": false,
+      "redirect_to": "/blog/how-much-does-private-chef-cost-dubai"
+    },
+    "primary_keyword": null,
+    "sources": [
+      "blog/data/how-much-does-a-private-chef-cost-in-dubai-in.json",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/ryze-pages/how-much-does-a-private-chef-cost-in-dubai-in.json",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/RyzeArticlePage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/RyzeArticlePage.tsx",
+        "old_asset": "/images/mychef-dubai-blog-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve established permanent redirect; update links to destination where used."
+  },
+  {
+    "path": "/blog/how-much-does-private-chef-cost-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "how much does private chef cost dubai",
+    "sources": [
+      "src/components/ArticleToc.tsx",
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/KeyFactsBox.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/SourcesBlock.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/PrivateChefCostDubai.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+        "old_asset": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+        "old_asset": "/images/blog/how-much-does-private-chef-cost-dubai-2.webp"
+      },
+      {
+        "source": "src/pages/blog/PrivateChefCostDubai.tsx",
+        "old_asset": "/images/blog/how-much-does-private-chef-cost-dubai-3.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/how-to-hire-a-private-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/how-to-hire-a-private-chef-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "how to hire a private chef dubai",
+    "sources": [
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/HandoffPage.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts"
+    ],
+    "image_slots_before": [],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/private-chef-date-night-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/private-chef-date-night-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef date night dubai",
+    "sources": [
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/HandoffPage.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo-pages/blog-private-chef-date-night-dubai.json",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/blog/private-chef-palm-jumeirah-guide",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/private-chef-palm-jumeirah-guide",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private dining palm jumeirah dubai",
+    "sources": [
+      "src/components/ArticleToc.tsx",
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/KeyFactsBox.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/SourcesBlock.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+        "old_asset": "/images/blog/private-chef-palm-jumeirah-guide-2.webp"
+      },
+      {
+        "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+        "old_asset": "/images/blog/private-chef-palm-jumeirah-guide-3.webp"
+      },
+      {
+        "source": "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+        "old_asset": "/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/blog/private-chef-vs-restaurant-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/private-chef-vs-restaurant-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef vs restaurant dubai",
+    "sources": [
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/HandoffPage.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo-pages/blog-private-chef-vs-restaurant-dubai.json",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "meal prep vs private chef dubai",
+    "sources": [
+      "src/components/ArticleToc.tsx",
+      "src/components/BlogFigure.tsx",
+      "src/components/BlogRelated.tsx",
+      "src/components/KeyFactsBox.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/SourcesBlock.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/seo/index.ts",
+      "src/content/seo/routes.json",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/blog/WeeklyMealPrepVsFullTimeChef.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/blog/WeeklyMealPrepVsFullTimeChef.tsx",
+        "old_asset": "/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-2.webp"
+      },
+      {
+        "source": "src/pages/blog/WeeklyMealPrepVsFullTimeChef.tsx",
+        "old_asset": "/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/booking-protection-insurance",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/booking-protection-insurance",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering cancellation policy dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/bookingTerms.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/BookingProtectionInsurance.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/BookingProtectionInsurance.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/BookingProtectionInsurance.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/BookingProtectionInsurance.tsx",
+        "old_asset": "/service-private-chef.webp"
+      },
+      {
+        "source": "src/pages/BookingProtectionInsurance.tsx",
+        "old_asset": "/images/booking-protection-insurance-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/case-studies",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/case-studies",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering case studies dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/CaseStudies.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/arabic-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/yacht-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/villa-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/service-corporate.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-seafood.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/corporate-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/cocktail-party-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/service-yacht.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/images/case-studies-hero.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/menu-cocktails.webp"
+      },
+      {
+        "source": "src/pages/CaseStudies.tsx",
+        "old_asset": "/service-events.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/chef-training-academy",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chef-training-academy",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "chef training dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/ChefTrainingAcademy.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/ChefTrainingAcademy.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/ChefTrainingAcademy.tsx",
+        "old_asset": "/images/become-a-mychef-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/ChefTrainingAcademy.tsx",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/chefs-table-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chefs-table-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "chefs table dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/cateringPricing.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/ChefsTable.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/ChefsTable.tsx",
+        "old_asset": "/service-luxury-dining.webp"
+      },
+      {
+        "source": "src/pages/ChefsTable.tsx",
+        "old_asset": "/service-private-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/chefs/ahmed-executive-chef",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "chef-profile",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chefs/ahmed-executive-chef",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/chefInquiry.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/chefs/ChefAhmed.tsx",
+      "src/pages/chefs/ChefProfile.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/chefs/ChefAhmed.tsx",
+        "old_asset": "/team-head-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/chefs/layla-middle-eastern-chef",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "chef-profile",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chefs/layla-middle-eastern-chef",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "arabic private chef dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/chefInquiry.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/chefs/ChefLayla.tsx",
+      "src/pages/chefs/ChefProfile.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/chefs/ChefLayla.tsx",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/chefs/marco-italian-chef",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "chef-profile",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chefs/marco-italian-chef",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "italian private chef dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/chefInquiry.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/chefs/ChefMarco.tsx",
+      "src/pages/chefs/ChefProfile.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/chefs/ChefMarco.tsx",
+        "old_asset": "/team-sous-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/chefs/matteo-pastry-chef",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "chef-profile",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/chefs/matteo-pastry-chef",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private pastry chef dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/chefInquiry.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/chefs/ChefMatteo.tsx",
+      "src/pages/chefs/ChefProfile.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/chefs/ChefMatteo.tsx",
+        "old_asset": "/team-pastry-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/contact",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/contact",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/inquiry/QuoteRequestForm.tsx",
+      "src/components/system/index.tsx",
+      "src/content/cateringCluster.ts",
+      "src/content/cateringPricing.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/data/locations.ts",
+      "src/lib/analytics.ts",
+      "src/lib/cateringInquiry.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/inquiry.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/track.ts",
+      "src/lib/trackVocab.ts",
+      "src/lib/utils.ts",
+      "src/pages/Contact.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Contact.tsx",
+        "old_asset": "/images/mychef-household-plan-consultation.webp"
+      },
+      {
+        "source": "src/pages/Contact.tsx",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/pages/Contact.tsx",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/corporate-meal-prep-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "redirect",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/office-catering-dubai",
+      "robots": {
+        "index": false,
+        "follow": true
+      },
+      "in_sitemap": false,
+      "redirect_to": "/office-catering-dubai"
+    },
+    "primary_keyword": null,
+    "sources": [],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve established permanent redirect; update links to destination where used."
+  },
+  {
+    "path": "/desert-dining-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/desert-dining-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "desert dining dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/DesertDining.tsx",
+      "src/pages/occasion/OccasionCateringPage.tsx",
+      "src/pages/shared/ServiceLandingPage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/service-catering.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/images/arabic-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/images/bbq-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/images/desert-dining-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/DesertDining.tsx",
+        "old_asset": "/service-events.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/faq",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/faq",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering faq dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/bookingTerms.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/FAQ.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/FAQ.tsx",
+        "old_asset": "/images/faq-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/fitness-meal-prep-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/fitness-meal-prep-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "fitness meal prep dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/FitnessMealPrep.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/FitnessMealPrep.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/FitnessMealPrep.tsx",
+        "old_asset": "/images/healthy-catering-dubai-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/full-time-private-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/full-time-private-chef-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "full time private chef dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/FullTimePrivateChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/FullTimePrivateChef.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/FullTimePrivateChef.tsx",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/gallery",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/gallery",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Gallery.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/mediterranean-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/wedding-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/yacht-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/office-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/testimonial-yacht.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/events-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/luxury-dining-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/arabic-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/engagement-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/service-corporate.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/testimonial-corporate.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-seafood.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-cocktails.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/asian-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/villa-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/images/corporate-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Gallery.tsx",
+        "old_asset": "/service-yacht.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/guide/private-dining-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/guide/private-dining-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private dining dubai",
+    "sources": [
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/guides/PrivateDiningGuide.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/guides/PrivateDiningGuide.tsx",
+        "old_asset": "/images/private-dining-guide-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/guides",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/guides",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering checklist dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Guides.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Guides.tsx",
+        "old_asset": "/service-catering.webp"
+      },
+      {
+        "source": "src/pages/Guides.tsx",
+        "old_asset": "/images/guides-hub-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/halal-private-dining-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/halal-private-dining-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "halal private dining dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/HalalPrivateDining.tsx",
+      "src/pages/shared/ServiceLandingPage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/images/halal-private-dining-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/service-luxury-dining.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/HalalPrivateDining.tsx",
+        "old_asset": "/service-events.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/how-it-works",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/how-it-works",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "how to book a private chef dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/bookingTerms.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/HowItWorks.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/HowItWorks.tsx",
+        "old_asset": "/process-4.webp"
+      },
+      {
+        "source": "src/pages/HowItWorks.tsx",
+        "old_asset": "/process-2.webp"
+      },
+      {
+        "source": "src/pages/HowItWorks.tsx",
+        "old_asset": "/process-3.webp"
+      },
+      {
+        "source": "src/pages/HowItWorks.tsx",
+        "old_asset": "/images/how-it-works-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/HowItWorks.tsx",
+        "old_asset": "/process-1.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/how-we-vet-our-chefs",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/how-we-vet-our-chefs",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef background checks dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/HowWeVetOurChefs.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/HowWeVetOurChefs.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/HowWeVetOurChefs.tsx",
+        "old_asset": "/images/become-a-mychef-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/HowWeVetOurChefs.tsx",
+        "old_asset": "/service-private-chef.webp"
+      },
+      {
+        "source": "src/pages/HowWeVetOurChefs.tsx",
+        "old_asset": "/images/booking-protection-insurance-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/inquiry",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/inquiry",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/SEO.tsx",
+      "src/components/TrustBar.tsx",
+      "src/components/birthday/BirthdayPrivateBrief.tsx",
+      "src/components/inquiry/QuoteRequestForm.tsx",
+      "src/components/system/index.tsx",
+      "src/content/birthdayCluster.ts",
+      "src/content/birthdayExtras.ts",
+      "src/content/birthdayStatement.ts",
+      "src/content/cateringCluster.ts",
+      "src/content/cateringPricing.ts",
+      "src/content/corporatePackageCatalog.ts",
+      "src/content/corporatePackages.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/content/yachtCateringQuote.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/analytics.ts",
+      "src/lib/cateringInquiry.ts",
+      "src/lib/inquiry.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/track.ts",
+      "src/lib/trackVocab.ts",
+      "src/lib/utils.ts",
+      "src/pages/Inquiry.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Inquiry.tsx",
+        "old_asset": "/service-catering.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/kids-nutrition-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/kids-nutrition-chef-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "kids meal prep dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/KidsNutritionChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/KidsNutritionChef.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/KidsNutritionChef.tsx",
+        "old_asset": "/images/gluten-free-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/KidsNutritionChef.tsx",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering near me dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Locations.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-dubai-marina.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-emirates-hills.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-palm-jumeirah.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-downtown.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-jbr.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-jumeirah.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/images/locations-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Locations.tsx",
+        "old_asset": "/loc-difc.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/locations/al-barsha",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/al-barsha",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef al barsha",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/locations/arabian-ranches",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/arabian-ranches",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef arabian ranches",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/bluewaters-island",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/bluewaters-island",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef bluewaters island",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/business-bay",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/business-bay",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef business bay",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/difc",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/difc",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef difc",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/locations/downtown-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/downtown-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef downtown dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/dubai-hills",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/dubai-hills",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef dubai hills",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/dubai-marina",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/dubai-marina",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef dubai marina",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/emirates-hills",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/emirates-hills",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef emirates hills",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/jbr",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/jbr",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef jbr",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/locations/jlt",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/jlt",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef jlt",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/locations/jumeirah",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/jumeirah",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef jumeirah",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/jvc",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/jvc",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef jvc",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/palm-jumeirah",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/palm-jumeirah",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef palm jumeirah",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/locations/umm-suqeim",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/locations/umm-suqeim",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef umm suqeim",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LocationDetail.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/luxury-dining-experiences",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/luxury-dining-experiences",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private dining experience dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/experiencesCluster.ts",
+      "src/content/luxuryDiningPage.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/LuxuryDining.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/LuxuryDining.tsx",
+        "old_asset": "/images/luxury-dining-experiences-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/luxury-dinner-planning-guide-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/luxury-dinner-planning-guide-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "how to plan a luxury dinner dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/guides/LuxuryDinnerPlanningGuide.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/guides/LuxuryDinnerPlanningGuide.tsx",
+        "old_asset": "/service-luxury-dining.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/menus",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/menus",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering menus dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/cateringPricing.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/starterPackages.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/lib/whatsapp.ts",
+      "src/pages/Menus.tsx",
+      "src/sections/StarterPackagesSection.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-seafood.webp"
+      },
+      {
+        "source": "src/pages/Menus.tsx",
+        "old_asset": "/menu-cocktails.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/mychef-certified",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/mychef-certified",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "mychef certified chefs",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/MyChefCertified.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/MyChefCertified.tsx",
+        "old_asset": "/images/become-a-mychef-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/MyChefCertified.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/MyChefCertified.tsx",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/our-chefs",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/our-chefs",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chefs dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/OurChefs.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/OurChefs.tsx",
+        "old_asset": "/images/about-mychef-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/OurChefs.tsx",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/pages/OurChefs.tsx",
+        "old_asset": "/images/arabic-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/OurChefs.tsx",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/pages/OurChefs.tsx",
+        "old_asset": "/team-pastry-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/part-time-private-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/part-time-private-chef-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "part time private chef dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/PartTimePrivateChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/PartTimePrivateChef.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/PartTimePrivateChef.tsx",
+        "old_asset": "/images/healthy-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/PartTimePrivateChef.tsx",
+        "old_asset": "/service-private-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/partners/concierge-services-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/partners/concierge-services-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "concierge services partnership dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/partners/ConciergeServicesPartner.tsx",
+      "src/pages/partners/PartnerPageTemplate.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/partners/ConciergeServicesPartner.tsx",
+        "old_asset": "/images/luxury-dining-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/partners/villa-rentals-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/partners/villa-rentals-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "villa rentals partnership dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/partners/PartnerPageTemplate.tsx",
+      "src/pages/partners/VillaRentalsPartner.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/partners/VillaRentalsPartner.tsx",
+        "old_asset": "/images/villa-catering-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/postpartum-meal-prep-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/postpartum-meal-prep-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "postpartum meal prep dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/PostpartumMealPrep.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/PostpartumMealPrep.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/PostpartumMealPrep.tsx",
+        "old_asset": "/images/healthy-catering-dubai-hero.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/privacy-policy",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/privacy-policy",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Privacy.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Privacy.tsx",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/private-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "core",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/private-chef/RatesBar.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/privateChefStandard.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/lib/whatsapp.ts",
+      "src/pages/PrivateChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      },
+      {
+        "source": "src/pages/PrivateChef.tsx",
+        "old_asset": "/videos/private-chef-hero.mp4"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/how-it-works",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "core",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/how-it-works",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "managed private chef service dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/FoodProfile.tsx",
+      "src/components/HouseholdManager.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/ProcessJourney.tsx",
+      "src/components/SEO.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/HowItWorksProduct.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/private-chef/WhoDoesWhatBoard.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/privateChefStandard.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/private-chef/HowItWorks.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      },
+      {
+        "source": "src/pages/private-chef/HowItWorks.tsx",
+        "old_asset": "/images/mychef-household-managers-dubai.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/how-your-plan-works",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "support-noindex",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/how-your-plan-works",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPlanTerms.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/private-chef/HowYourPlanWorks.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/our-chefs",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "support-noindex",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/our-chefs",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/private-chef/OurChefs.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/pricing",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "core",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/pricing",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef dubai price",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/pricing/PlanForm.tsx",
+      "src/components/private-chef/pricing/PlanSheet.tsx",
+      "src/components/private-chef/pricing/PlanSummary.tsx",
+      "src/components/private-chef/pricing/PlanTermsDigest.tsx",
+      "src/components/private-chef/pricing/PriceCalculator.tsx",
+      "src/components/private-chef/pricing/Stepper.tsx",
+      "src/components/private-chef/pricing/feedback.ts",
+      "src/components/private-chef/pricing/planText.ts",
+      "src/components/private-chef/pricing/useCountUp.ts",
+      "src/components/system/index.tsx",
+      "src/components/ui/button.tsx",
+      "src/components/ui/calendar.tsx",
+      "src/components/ui/drawer.tsx",
+      "src/components/ui/popover.tsx",
+      "src/components/ui/tooltip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPlanTerms.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/privateChefStandard.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/analytics.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/track.ts",
+      "src/lib/trackVocab.ts",
+      "src/lib/utils.ts",
+      "src/pages/PrivateChefPrices.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/PrivateChefPrices.tsx",
+        "old_asset": "/images/private-chef-prices-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/privacy-security",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "support-noindex",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/privacy-security",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/private-chef/PrivacySecurity.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-dubai/quality-training",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "support-noindex",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/quality-training",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/private-chef/ClusterCTA.tsx",
+      "src/components/private-chef/ClusterNav.tsx",
+      "src/components/private-chef/FillFrame.tsx",
+      "src/components/private-chef/QuotePair.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/privateChefCluster.ts",
+      "src/content/privateChefPage.ts",
+      "src/content/privateChefPricing.ts",
+      "src/content/privateChefStandard.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/private-chef/QualityTraining.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-brief.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-profile.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-review.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-sous-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-journey-match.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-year-later.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/chefs/layla-hassan.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-quality-training-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-rotation.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-head-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-how-it-works-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-children.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-daily-life.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-pricing-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-system.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-evening.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-our-chefs-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-guests.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chef-level.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-cta.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-manager.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-mix.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-life-breakfast.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-how-it-works.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-does-what.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-household.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/team-pastry-chef.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-chefs.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-why-independent.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-where.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-dubai-who-for.webp"
+      },
+      {
+        "source": "src/content/privateChefPage.ts",
+        "old_asset": "/images/private-chef-privacy-security-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-chef-prices-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "redirect",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-dubai/pricing",
+      "robots": {
+        "index": false,
+        "follow": true
+      },
+      "in_sitemap": false,
+      "redirect_to": "/private-chef-dubai/pricing"
+    },
+    "primary_keyword": null,
+    "sources": [],
+    "image_slots_before": [],
+    "status": "preserved",
+    "disposition": "Preserve established permanent redirect; update links to destination where used."
+  },
+  {
+    "path": "/private-chef-vs-catering-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "guide",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-chef-vs-catering-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private chef vs catering dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/guides/PrivateChefVsCatering.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/guides/PrivateChefVsCatering.tsx",
+        "old_asset": "/service-private-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/private-client-booking-terms",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-client-booking-terms",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/LegalPolicyPage.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/content/bookingTerms.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/PrivateClientBookingTerms.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/private-cooking-classes-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/private-cooking-classes-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "private cooking classes dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/PrivateCookingClassesDubai.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/service-luxury-dining.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/service-corporate.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/service-private-chef.webp"
+      },
+      {
+        "source": "src/pages/PrivateCookingClassesDubai.tsx",
+        "old_asset": "/images/private-cooking-classes-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/proposal-dinner-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/proposal-dinner-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "proposal dinner dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/ProposalDinner.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/ProposalDinner.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/ProposalDinner.tsx",
+        "old_asset": "/service-yacht.webp"
+      },
+      {
+        "source": "src/pages/ProposalDinner.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/quality-guarantee-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/quality-guarantee-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "catering quality guarantee dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/QualityGuarantee.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/QualityGuarantee.tsx",
+        "old_asset": "/images/how-we-vet-our-chefs-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/QualityGuarantee.tsx",
+        "old_asset": "/service-private-chef.webp"
+      },
+      {
+        "source": "src/pages/QualityGuarantee.tsx",
+        "old_asset": "/images/booking-protection-insurance-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/romantic-dinner-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/romantic-dinner-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "romantic dinner dubai",
+    "sources": [
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/pages/RomanticDinner.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/RomanticDinner.tsx",
+        "old_asset": "/images/romantic-dinner-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/site-map",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "support-noindex",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/site-map",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/SiteMap.tsx"
+    ],
+    "image_slots_before": [],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/tasting-menu-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/tasting-menu-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "private tasting menu dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/TastingMenu.tsx",
+      "src/pages/shared/ServiceLandingPage.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/images/tasting-menu-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/service-luxury-dining.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/TastingMenu.tsx",
+        "old_asset": "/service-events.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/terms",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/terms",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": null,
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/content/bookingTerms.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Terms.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Terms.tsx",
+        "old_asset": "/images/catering-dubai-hero.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  },
+  {
+    "path": "/tourist-villa-chef-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "parked",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/tourist-villa-chef-dubai",
+      "robots": "noindex, follow",
+      "in_sitemap": false,
+      "redirect_to": null
+    },
+    "primary_keyword": "holiday villa chef dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/TouristVillaChef.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/TouristVillaChef.tsx",
+        "old_asset": "/images/desert-dining-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/TouristVillaChef.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/TouristVillaChef.tsx",
+        "old_asset": "/service-yacht.webp"
+      }
+    ],
+    "status": "preserved",
+    "disposition": "Preserve parked noindex treatment and existing URL; no customer keyword promotion."
+  },
+  {
+    "path": "/villas-private-residences",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/villas-private-residences",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "villa chef dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/Villas.tsx"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Villas.tsx",
+        "old_asset": "/images/villa-catering-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/Villas.tsx",
+        "old_asset": "/service-villa.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/weekly-meal-prep-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/weekly-meal-prep-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "meal prep dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/LocationStrip.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/data/locations.ts",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/WeeklyMealPrep.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/images/weekly-meal-prep-dubai-hero.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/menu-canapes.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/menu-appetizer.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/menu-meat.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/service-villa.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/menu-dessert.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/menu-seafood.webp"
+      },
+      {
+        "source": "src/pages/WeeklyMealPrep.tsx",
+        "old_asset": "/service-private-chef.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/wellness-meal-prep-dubai",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "service",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/wellness-meal-prep-dubai",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "healthy meal prep dubai",
+    "sources": [
+      "src/components/PageHero.tsx",
+      "src/components/SEO.tsx",
+      "src/components/TrustSignalStrip.tsx",
+      "src/components/VIPPromoSection.tsx",
+      "src/components/system/index.tsx",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/hooks/useScrollTrigger.ts",
+      "src/lib/deferNonCritical.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/utils.ts",
+      "src/pages/WellnessMealPrep.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/WellnessMealPrep.tsx",
+        "old_asset": "/images/healthy-catering-dubai-hero.webp"
+      }
+    ],
+    "status": "implemented; verification pending",
+    "disposition": "New editorial hero, responsive imagery, clearer conversion journey and scoped visual system."
+  },
+  {
+    "path": "/yachts",
+    "source_commit": "5c261bc5b99d9d383d2c6fac0124048c5e9afa49",
+    "classification": "shared-module",
+    "indexation_before": {
+      "canonical": "https://www.mychef.ae/yachts",
+      "robots": "index, follow",
+      "in_sitemap": true,
+      "redirect_to": null
+    },
+    "primary_keyword": "yacht catering dubai",
+    "sources": [
+      "src/components/FaqAccordion.tsx",
+      "src/components/SEO.tsx",
+      "src/components/YachtCateringEstimator.tsx",
+      "src/components/system/index.tsx",
+      "src/components/yachts/YachtFullService.tsx",
+      "src/components/yachts/YachtHero.tsx",
+      "src/components/yachts/YachtInventory.tsx",
+      "src/components/yachts/YachtOccasions.tsx",
+      "src/components/yachts/YachtQuoteForm.tsx",
+      "src/components/yachts/YachtServiceLevels.tsx",
+      "src/components/yachts/YachtServiceSelector.tsx",
+      "src/components/yachts/YachtStickyCta.tsx",
+      "src/components/yachts/YachtWorkGallery.tsx",
+      "src/content/cateringCluster.ts",
+      "src/content/parkedUrls.ts",
+      "src/content/siloMap.ts",
+      "src/content/yachtCateringQuote.ts",
+      "src/content/yachtInventory.ts",
+      "src/content/yachtPage.ts",
+      "src/context/WhatsAppMessageContext.tsx",
+      "src/lib/analytics.ts",
+      "src/lib/jsonld.ts",
+      "src/lib/organizationSchema.ts",
+      "src/lib/serviceAreas.ts",
+      "src/lib/track.ts",
+      "src/lib/trackVocab.ts",
+      "src/lib/utils.ts",
+      "src/pages/Yachts.tsx",
+      "src/utils/schema.ts"
+    ],
+    "image_slots_before": [
+      {
+        "source": "src/pages/Yachts.tsx",
+        "old_asset": "/images/yacht-work/deck-table-skyline.webp"
+      }
+    ],
+    "status": "shared modules reviewed",
+    "disposition": "Private Chef navigation/card imagery updated where rendered; unrelated service, legal and recruitment content remains within its established scope."
+  }
+]

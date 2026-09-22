@@ -4,6 +4,8 @@ import { trailFor } from '@/content/breadcrumbTrails'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { cn } from '../lib/utils'
+import EditorialHero from './private-chef/EditorialHero'
+import { isChefDesignPage } from '@/content/privateChefDesign'
 
 type OverlayName = 'dark' | 'medium' | 'light' | 'left' | 'cinematic'
 
@@ -106,7 +108,7 @@ const overlayLayers: Record<OverlayName, readonly string[]> = {
   cinematic: HERO_SCRIM,
 }
 
-export default function PageHero({
+function LegacyPageHero({
   eyebrow,
   variant = 'default',
   title,
@@ -362,4 +364,9 @@ export default function PageHero({
       </div>
     </section>
   )
+}
+
+export default function PageHero(props: PageHeroProps) {
+  const { pathname } = useLocation()
+  return isChefDesignPage(pathname) ? <EditorialHero {...props}/> : <LegacyPageHero {...props}/>
 }
