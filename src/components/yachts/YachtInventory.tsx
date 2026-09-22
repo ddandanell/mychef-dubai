@@ -1,5 +1,6 @@
-import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { YACHT_INVENTORY, YACHT_INVENTORY_INTRO, YACHT_INVENTORY_PILLARS } from '@/content/yachtInventory'
+
+const photoSections = new Set(["yacht-formats", "yacht-stations", "yacht-lounge", "yacht-desserts", "yacht-bar", "yacht-management", "yacht-tableware", "yacht-styling", "yacht-entertainment"])
 
 export default function YachtInventory() {
   return (
@@ -33,8 +34,8 @@ export default function YachtInventory() {
           className={index % 2 === 0 ? 'bg-[#F4F0E8] py-16 md:py-24 scroll-mt-24' : 'bg-white py-16 md:py-24 scroll-mt-24'}
           aria-labelledby={`${section.id}-h`}
         >
-          <div className="container-custom grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] gap-10 lg:gap-16 items-start" data-catering-text-layout>
-            <NonCateringVisual><figure className="overflow-hidden bg-gray-100">
+          <div className="container-custom grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] gap-10 lg:gap-16 items-start" data-catering-text-layout={photoSections.has(section.id) ? undefined : true}>
+            {photoSections.has(section.id) && <figure className="overflow-hidden bg-gray-100">
               <img
                 src={section.image}
                 alt={section.imageAlt}
@@ -44,10 +45,7 @@ export default function YachtInventory() {
                 decoding="async"
                 className="w-full h-auto aspect-[16/10] object-cover"
               />
-              <figcaption className="font-inter text-body-xs text-gray-500 px-1 pt-2">
-                {section.imageCaption}
-              </figcaption>
-            </figure></NonCateringVisual>
+            </figure>}
             <div>
               <p className="font-inter text-caption uppercase tracking-[0.16em] text-gold-ink mb-3">{section.label}</p>
               <h2 id={`${section.id}-h`} className="font-playfair text-fluid-h2 text-[#1B2A4A] mb-4">

@@ -109,7 +109,7 @@
   },
   {
     "path": "/birthday-catering-package-dubai",
-    "words": 1704,
+    "words": 1706,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/birthday-catering-package-dubai-800.webp"
@@ -133,7 +133,7 @@
   },
   {
     "path": "/blog/corporate-event-catering-ideas-dubai",
-    "words": 1038,
+    "words": 1037,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__corporate-event-catering-ideas-dubai-800.webp"
@@ -145,7 +145,7 @@
   },
   {
     "path": "/blog/how-far-ahead-book-caterer-dubai",
-    "words": 1035,
+    "words": 1037,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__how-far-ahead-book-caterer-dubai-800.webp"
@@ -157,7 +157,7 @@
   },
   {
     "path": "/blog/nye-party-catering-dubai",
-    "words": 1177,
+    "words": 1179,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__nye-party-catering-dubai-800.webp"
@@ -181,7 +181,7 @@
   },
   {
     "path": "/blog/vegan-catering-dubai-guide",
-    "words": 1147,
+    "words": 1150,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__vegan-catering-dubai-guide-800.webp"
@@ -220,7 +220,8 @@
     "words": 1700,
     "h1": 1,
     "images": [
-      "/images/catering-editorial-2026/breakfast-catering-dubai-800.webp"
+      "/images/catering-editorial-2026/breakfast-catering-dubai-800.webp",
+      "/images/catering-editorial-2026/support-breakfast-table-800.webp"
     ],
     "sections": 4,
     "forms": 0,
@@ -277,7 +278,7 @@
   },
   {
     "path": "/catering-cost-calculator-dubai",
-    "words": 1584,
+    "words": 1570,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/catering-cost-calculator-dubai-800.webp"
@@ -301,7 +302,7 @@
   },
   {
     "path": "/catering-packages-dubai",
-    "words": 1713,
+    "words": 1712,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/catering-packages-dubai-800.webp"
@@ -376,7 +377,7 @@
   },
   {
     "path": "/corporate-dinner-package-dubai",
-    "words": 1736,
+    "words": 1738,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/corporate-dinner-package-dubai-800.webp"
@@ -496,7 +497,7 @@
   },
   {
     "path": "/engagement-catering-dubai",
-    "words": 2022,
+    "words": 2003,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/engagement-catering-dubai-800.webp"
@@ -508,7 +509,7 @@
   },
   {
     "path": "/events",
-    "words": 2552,
+    "words": 2554,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/events-800.webp"
@@ -532,7 +533,7 @@
   },
   {
     "path": "/family-feast-package-dubai",
-    "words": 1649,
+    "words": 1646,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/family-feast-package-dubai-800.webp"
@@ -595,7 +596,8 @@
     "words": 1757,
     "h1": 1,
     "images": [
-      "/images/catering-editorial-2026/how-to-choose-caterer-dubai-800.webp"
+      "/images/catering-editorial-2026/how-to-choose-caterer-dubai-800.webp",
+      "/images/catering-editorial-2026/support-tidy-kitchen-800.webp"
     ],
     "sections": 3,
     "forms": 0,
@@ -631,7 +633,8 @@
     "words": 2719,
     "h1": 1,
     "images": [
-      "/images/catering-editorial-2026/italian-catering-dubai-800.webp"
+      "/images/catering-editorial-2026/italian-catering-dubai-800.webp",
+      "/images/catering-editorial-2026/support-pasta-lesson-800.webp"
     ],
     "sections": 3,
     "forms": 0,
@@ -712,7 +715,7 @@
   },
   {
     "path": "/private-jet-catering-dubai",
-    "words": 1441,
+    "words": 1442,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/private-jet-catering-dubai-800.webp"
@@ -727,7 +730,8 @@
     "words": 2657,
     "h1": 1,
     "images": [
-      "/images/catering-editorial-2026/private-party-catering-dubai-800.webp"
+      "/images/catering-editorial-2026/private-party-catering-dubai-800.webp",
+      "/images/catering-editorial-2026/support-candlelit-table-800.webp"
     ],
     "sections": 3,
     "forms": 0,
@@ -880,7 +884,7 @@
   },
   {
     "path": "/wedding-catering-menu-planning-dubai",
-    "words": 3073,
+    "words": 3074,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/wedding-catering-menu-planning-dubai-800.webp"
@@ -892,15 +896,34 @@
   },
   {
     "path": "/yachts",
-    "words": 5868,
+    "words": 5856,
     "h1": 1,
     "images": [
-      "/images/catering-editorial-2026/yachts-800.webp",
-      "/images/yacht-work/deck-table-skyline.webp"
+      "/images/yacht-work/deck-table-skyline.webp",
+      "/images/yacht-work/deck-table-marina.webp",
+      "/images/yacht-work/beef-tartlets.webp",
+      "/images/yacht-work/sushi-service.webp",
+      "/images/yacht-work/canape-spread.webp",
+      "/images/yacht-work/seated-table.webp",
+      "/images/yacht-work/salon-buffet.webp",
+      "/images/yacht-work/sliders-sandwiches.webp",
+      "/images/yacht-work/tartare.webp",
+      "/images/yacht-work/nigiri.webp",
+      "/images/yacht-work/salmon-sliders.webp",
+      "/images/yacht-work/nut-tartlets.webp",
+      "/images/yacht-work/salon-grazing.webp",
+      "/images/yacht-work/tartlets-salon.webp",
+      "/images/yacht-work/salon-window.webp",
+      "/images/yacht-work/dessert-canapes.webp",
+      "/images/yacht-work/salon-overview.webp",
+      "/images/yacht-work/upper-deck.webp",
+      "/images/yacht-work/place-setting.webp",
+      "/images/yacht-work/salon-styled.webp",
+      "/images/yacht-work/birthday-wall.webp"
     ],
     "sections": 3,
     "forms": 1,
-    "buttons": 68,
+    "buttons": 44,
     "links": 46
   },
   {
@@ -965,7 +988,7 @@
   },
   {
     "path": "/blog/best-arabic-catering-companies-in-dubai",
-    "words": 1709,
+    "words": 1710,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-arabic-catering-companies-in-dubai-800.webp"
@@ -977,7 +1000,7 @@
   },
   {
     "path": "/blog/best-bbq-catering-companies-in-dubai",
-    "words": 1721,
+    "words": 1724,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-bbq-catering-companies-in-dubai-800.webp"
@@ -989,7 +1012,7 @@
   },
   {
     "path": "/blog/best-brunch-catering-services-in-dubai",
-    "words": 1706,
+    "words": 1708,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-brunch-catering-services-in-dubai-800.webp"
@@ -1013,7 +1036,7 @@
   },
   {
     "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
-    "words": 1532,
+    "words": 1533,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-corporate-lunch-catering-companies-in-dubai-800.webp"
@@ -1025,7 +1048,7 @@
   },
   {
     "path": "/blog/best-grazing-table-catering-companies-in-dubai",
-    "words": 1708,
+    "words": 1711,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-grazing-table-catering-companies-in-dubai-800.webp"
@@ -1037,7 +1060,7 @@
   },
   {
     "path": "/blog/best-halal-catering-companies-in-dubai",
-    "words": 1512,
+    "words": 1515,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-halal-catering-companies-in-dubai-800.webp"
@@ -1049,7 +1072,7 @@
   },
   {
     "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
-    "words": 1697,
+    "words": 1700,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-kids-birthday-party-caterers-in-dubai-800.webp"
@@ -1061,7 +1084,7 @@
   },
   {
     "path": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
-    "words": 1691,
+    "words": 1696,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-ramadan-iftar-catering-companies-in-dubai-800.webp"
@@ -1073,7 +1096,7 @@
   },
   {
     "path": "/blog/best-vegan-catering-services-in-dubai",
-    "words": 1687,
+    "words": 1688,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-vegan-catering-services-in-dubai-800.webp"
@@ -1085,7 +1108,7 @@
   },
   {
     "path": "/blog/best-wedding-catering-companies-in-dubai",
-    "words": 1702,
+    "words": 1705,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-wedding-catering-companies-in-dubai-800.webp"
@@ -1097,7 +1120,7 @@
   },
   {
     "path": "/blog/best-yacht-catering-services-in-dubai",
-    "words": 1690,
+    "words": 1692,
     "h1": 1,
     "images": [
       "/images/catering-editorial-2026/blog__best-yacht-catering-services-in-dubai-800.webp"

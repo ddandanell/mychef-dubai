@@ -89,7 +89,7 @@
   },
   "/baby-shower-catering-dubai": {
     "title": "Baby Shower Catering Dubai",
-    "lead": "Baby shower catering in Dubai, with grazing tables, delicate canapés, afternoon tea and dessert displays coordinated with your theme. Alcohol-free drinks and thoughtful service complete the celebration.",
+    "lead": "Baby shower catering in Dubai, with grazing tables, delicate canap\u00e9s, afternoon tea and dessert displays coordinated with your theme. Alcohol-free drinks and thoughtful service complete the celebration.",
     "keyword": "baby shower catering dubai",
     "image": "baby-shower-catering-dubai",
     "alt": "A baby shower table with small sandwiches, pastries and a teddy bear decoration",
@@ -199,7 +199,7 @@
   },
   "/birthday-catering-package-dubai": {
     "title": "Birthday Catering Packages Dubai",
-    "lead": "AED 3,600 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour.",
+    "lead": "AED 3,600 for 8\u201312 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour.",
     "keyword": "birthday catering packages dubai",
     "image": "birthday-catering-package-dubai",
     "alt": "Small burgers, tartlets and salads arranged for a birthday meal",
@@ -250,7 +250,7 @@
     "lead": "Corporate event catering ideas in Dubai work best when they follow the purpose of the day. A working lunch, product launch and awards dinner each need a different rhythm. Choose food that supports the conversation, schedule and level of hospitality you want to offer.",
     "keyword": "corporate event catering ideas dubai",
     "image": "blog__corporate-event-catering-ideas-dubai",
-    "alt": "Platters of canapés, salads and fruit arranged for a company event",
+    "alt": "Platters of canap\u00e9s, salads and fruit arranged for a company event",
     "trail": [
       {
         "url": "/",
@@ -443,6 +443,12 @@
         "anchor": "Breakfast catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "support-breakfast-table",
+        "alt": "Fresh breakfast at home with scrambled eggs, warm bread, fruit, yoghurt and coffee on an ivory kitchen island, natural morning window light, appetising realistic textures"
+      }
     ]
   },
   "/brunch-catering-dubai": {
@@ -491,7 +497,7 @@
   },
   "/business-lunch-catering-dubai": {
     "title": "Business Lunch Catering Dubai",
-    "lead": "Business lunches for boardrooms and client meetings, with discreet service that respects your agenda. Drop-off starts from AED 90 per person; bespoke plated dining is AED 700–950 per person.",
+    "lead": "Business lunches for boardrooms and client meetings, with discreet service that respects your agenda. Drop-off starts from AED 90 per person; bespoke plated dining is AED 700\u2013950 per person.",
     "keyword": "business lunch catering dubai",
     "image": "business-lunch-catering-dubai",
     "alt": "Individual lunch boxes with grains, vegetables and prepared mains",
@@ -512,8 +518,8 @@
     ]
   },
   "/canape-catering-dubai": {
-    "title": "Canapé Catering Dubai: Passed, Hot and Cold Bites",
-    "lead": "Canapé catering in Dubai, with beautifully prepared bites for receptions, launches and celebrations. Choose passed trays, a styled display or both, from AED 150 per person, with service planned around your venue and timing.",
+    "title": "Canap\u00e9 Catering Dubai: Passed, Hot and Cold Bites",
+    "lead": "Canap\u00e9 catering in Dubai, with beautifully prepared bites for receptions, launches and celebrations. Choose passed trays, a styled display or both, from AED 150 per person, with service planned around your venue and timing.",
     "keyword": "canape catering dubai",
     "image": "canape-catering-dubai",
     "alt": "Small savoury tartlets and cucumber bites arranged on serving platters",
@@ -528,7 +534,7 @@
       },
       {
         "url": "/canape-catering-dubai",
-        "anchor": "Canapé catering",
+        "anchor": "Canap\u00e9 catering",
         "current": true
       }
     ]
@@ -556,8 +562,8 @@
     ]
   },
   "/catering-dubai": {
-    "title": "Catering Dubai — buffets, canapés and chef-led service",
-    "lead": "Catering in Dubai, tailored to your venue, guests and occasion. Drop-off menus start from AED 90 per person for 10 guests, with a minimum order of AED 900. Staffed buffets start from AED 120 for 20 guests, canapés from AED 150, bespoke plated dining from AED 700 and yacht catering from AED 280. Your proposal confirms staffing, setup and any optional event support.",
+    "title": "Catering Dubai \u2014 buffets, canap\u00e9s and chef-led service",
+    "lead": "Catering in Dubai, tailored to your venue, guests and occasion. Drop-off menus start from AED 90 per person for 10 guests, with a minimum order of AED 900. Staffed buffets start from AED 120 for 20 guests, canap\u00e9s from AED 150, bespoke plated dining from AED 700 and yacht catering from AED 280. Your proposal confirms staffing, setup and any optional event support.",
     "keyword": "catering dubai",
     "image": "catering-dubai",
     "alt": "A chef and service colleague preparing dishes in a kitchen",
@@ -570,6 +576,12 @@
         "url": "/catering-dubai",
         "anchor": "Catering Dubai",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "support-apartment-kitchen",
+        "alt": "A bright contemporary kitchen prepared for cooking and service"
       }
     ]
   },
@@ -593,7 +605,7 @@
   },
   "/christmas-catering-dubai": {
     "title": "Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home",
-    "lead": "Enjoy Christmas with the people who matter. A private chef prepares your Christmas Eve, Christmas Day or festive-season dinner at home, with menus inspired by a traditional British roast, French Réveillon, Italian Natale and other international celebrations.",
+    "lead": "Enjoy Christmas with the people who matter. A private chef prepares your Christmas Eve, Christmas Day or festive-season dinner at home, with menus inspired by a traditional British roast, French R\u00e9veillon, Italian Natale and other international celebrations.",
     "keyword": "christmas catering dubai",
     "image": "christmas-catering-dubai",
     "alt": "Roast turkey and traditional accompaniments on a festive table",
@@ -615,10 +627,10 @@
   },
   "/cocktail-party-catering-dubai": {
     "title": "Cocktail Party Catering Dubai",
-    "lead": "Cocktail party catering Dubai is a standing reception: passed canapés from AED 150  per person, with bartenders, setup and clear-down quoted to your event. Alcohol service requires a permitted venue and written confirmation in the booking.",
+    "lead": "Cocktail party catering Dubai is a standing reception: passed canap\u00e9s from AED 150  per person, with bartenders, setup and clear-down quoted to your event. Alcohol service requires a permitted venue and written confirmation in the booking.",
     "keyword": "cocktail party catering dubai",
     "image": "cocktail-party-catering-dubai",
-    "alt": "Canapés, skewers and refreshments arranged for a standing reception",
+    "alt": "Canap\u00e9s, skewers and refreshments arranged for a standing reception",
     "trail": [
       {
         "url": "/",
@@ -699,7 +711,7 @@
   },
   "/corporate-dinner-package-dubai": {
     "title": "Corporate Dinner Package Dubai",
-    "lead": "AED 4,500 for 10–15 guests, including a chef, an appropriately sized service team, setup, table service and kitchen clear-down.",
+    "lead": "AED 4,500 for 10\u201315 guests, including a chef, an appropriately sized service team, setup, table service and kitchen clear-down.",
     "keyword": "corporate dinner package dubai",
     "image": "corporate-dinner-package-dubai",
     "alt": "A chef finishing plated dishes at a kitchen counter",
@@ -721,7 +733,7 @@
   },
   "/corporate-event-catering-dubai": {
     "title": "Corporate Event Catering Dubai",
-    "lead": "Corporate event catering in Dubai for company celebrations, launches and awards. Choose canapés from AED 150 per person or staffed buffets from AED 120, with chefs, service and setup coordinated around your event.",
+    "lead": "Corporate event catering in Dubai for company celebrations, launches and awards. Choose canap\u00e9s from AED 150 per person or staffed buffets from AED 120, with chefs, service and setup coordinated around your event.",
     "keyword": "corporate event catering dubai",
     "image": "corporate-event-catering-dubai",
     "alt": "Salads, fruit and bite-sized savoury food on a corporate reception table",
@@ -937,10 +949,10 @@
   },
   "/events": {
     "title": "Event Catering Dubai for Weddings and Parties",
-    "lead": "Event catering in Dubai for birthdays, weddings and company celebrations. Choose delivered menus, buffets from AED 120 per person, canapés, live stations or a private plated dinner, with staffing and setup planned around your chosen venue.",
+    "lead": "Event catering in Dubai for birthdays, weddings and company celebrations. Choose delivered menus, buffets from AED 120 per person, canap\u00e9s, live stations or a private plated dinner, with staffing and setup planned around your chosen venue.",
     "keyword": "event catering dubai",
     "image": "events",
-    "alt": "Burgers, canapés and shared dishes on an event catering table",
+    "alt": "Burgers, canap\u00e9s and shared dishes on an event catering table",
     "trail": [
       {
         "url": "/",
@@ -977,7 +989,7 @@
   },
   "/family-feast-package-dubai": {
     "title": "Family Catering Dubai",
-    "lead": "AED 2,400 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table.",
+    "lead": "AED 2,400 for 6\u20138 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table.",
     "keyword": "family catering dubai",
     "image": "family-feast-package-dubai",
     "alt": "Sharing dishes being served at a family dining table",
@@ -1017,7 +1029,7 @@
   },
   "/gala-dinner-catering-dubai": {
     "title": "Gala Dinner Catering Dubai",
-    "lead": "Gala dinner catering for awards and banquets, with service timed around speeches and presentations. Staffed buffets start from AED 120 per person; bespoke plated dining is AED 700–950 per person.",
+    "lead": "Gala dinner catering for awards and banquets, with service timed around speeches and presentations. Staffed buffets start from AED 120 per person; bespoke plated dining is AED 700\u2013950 per person.",
     "keyword": "gala dinner catering dubai",
     "image": "gala-dinner-catering-dubai",
     "alt": "Formal dining dishes with a plated main and shared accompaniments",
@@ -1101,6 +1113,12 @@
         "anchor": "How to choose a caterer",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "support-tidy-kitchen",
+        "alt": "Beautiful clean domestic kitchen after cooking, neatly stacked ivory plates, folded linen towels, stainless sink and warm wood shelves, no people, late afternoon daylight"
+      }
     ]
   },
   "/iftar-catering-dubai": {
@@ -1167,11 +1185,17 @@
         "anchor": "Italian catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "support-pasta-lesson",
+        "alt": "Two pairs of hands, an adult chef guiding an adult learner to shape fresh pasta on a wooden board in a light home kitchen"
+      }
     ]
   },
   "/jain-catering-dubai": {
     "title": "Jain Catering Dubai",
-    "lead": "Jain catering in Dubai, with a complete lacto-vegetarian menu prepared around your family’s requirements. Onion, garlic, root vegetables, mushrooms and eggs are excluded, with further observances confirmed before menu planning.",
+    "lead": "Jain catering in Dubai, with a complete lacto-vegetarian menu prepared around your family\u2019s requirements. Onion, garlic, root vegetables, mushrooms and eggs are excluded, with further observances confirmed before menu planning.",
     "keyword": "jain catering dubai",
     "image": "jain-catering-dubai",
     "alt": "Moong dal, rice, rotis and vegetable dishes arranged for a Jain meal",
@@ -1193,7 +1217,7 @@
   },
   "/live-cooking-stations-dubai": {
     "title": "Live Cooking Stations Dubai",
-    "lead": "Live cooking stations in Dubai bring the chef’s craft into your event, with pasta, grills, carving, shawarma or desserts prepared in front of guests. From AED 150 per person, from 15 guests, before 5% VAT.",
+    "lead": "Live cooking stations in Dubai bring the chef\u2019s craft into your event, with pasta, grills, carving, shawarma or desserts prepared in front of guests. From AED 150 per person, from 15 guests, before 5% VAT.",
     "keyword": "live cooking stations dubai",
     "image": "live-cooking-stations-dubai",
     "alt": "A chef preparing fresh pasta at a cooking counter",
@@ -1259,10 +1283,10 @@
   },
   "/new-year-catering-dubai": {
     "title": "New Year Catering Dubai",
-    "lead": "New Year catering in Dubai, from villa dinners to yacht celebrations and rooftop receptions. Plan canapés, live stations, dinner and an agreed midnight drinks service around the countdown.",
+    "lead": "New Year catering in Dubai, from villa dinners to yacht celebrations and rooftop receptions. Plan canap\u00e9s, live stations, dinner and an agreed midnight drinks service around the countdown.",
     "keyword": "new year catering dubai",
     "image": "new-year-catering-dubai",
-    "alt": "Reception canapés, skewers and small savoury dishes photographed from above",
+    "alt": "Reception canap\u00e9s, skewers and small savoury dishes photographed from above",
     "trail": [
       {
         "url": "/",
@@ -1303,7 +1327,7 @@
   },
   "/private-jet-catering-dubai": {
     "title": "Private Jet Catering Dubai",
-    "lead": "Private jet catering in Dubai, with menus and food handover assessed around your flight, passenger requirements and aircraft facilities. Share the operator’s brief so we can confirm the practical scope before booking.",
+    "lead": "Private jet catering in Dubai, with menus and food handover assessed around your flight, passenger requirements and aircraft facilities. Share the operator\u2019s brief so we can confirm the practical scope before booking.",
     "keyword": "private jet catering dubai",
     "image": "private-jet-catering-dubai",
     "alt": "Individual catering portions arranged in a compact aircraft galley",
@@ -1339,11 +1363,17 @@
         "anchor": "Private party catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "support-candlelit-table",
+        "alt": "A quiet dinner table set for two in a refined apartment at dusk, small candles and a single floral arrangement, no people, sophisticated restrained cream and warm wood palette"
+      }
     ]
   },
   "/product-launch-catering-dubai": {
     "title": "Product Launch Catering Dubai",
-    "lead": "Product launch catering with canapés and service planned around your reveal. Receptions start from AED 150 per person, with timings adapted to speeches, demonstrations and guest conversations.",
+    "lead": "Product launch catering with canap\u00e9s and service planned around your reveal. Receptions start from AED 150 per person, with timings adapted to speeches, demonstrations and guest conversations.",
     "keyword": "product launch catering dubai",
     "image": "product-launch-catering-dubai",
     "alt": "Small bites and refreshments on a product launch reception table",
@@ -1632,7 +1662,7 @@
     "lead": "A successful catered charter brings the menu, preparation and service together. We assess the galley, coordinate loading with the captain and plan staffing around the vessel and itinerary. Your proposal sets out the food, equipment, service and clear-down responsibilities.",
     "keyword": "yacht catering dubai",
     "image": "yachts",
-    "alt": "Canapés and sharing platters arranged on a yacht deck",
+    "alt": "Canap\u00e9s and sharing platters arranged on a yacht deck",
     "trail": [
       {
         "url": "/",
@@ -1669,7 +1699,7 @@
   },
   "/nursery-catering-dubai": {
     "title": "Nursery Catering Dubai",
-    "lead": "Nursery catering in Dubai, with menus and service assessed around the children’s ages, dietary requirements and nursery facilities. We review the site, weekly schedule and documentation before preparing a proposal.",
+    "lead": "Nursery catering in Dubai, with menus and service assessed around the children\u2019s ages, dietary requirements and nursery facilities. We review the site, weekly schedule and documentation before preparing a proposal.",
     "keyword": "nursery catering dubai",
     "image": "nursery-catering-dubai",
     "alt": "Prepared meal dishes in a nursery dining setting",
@@ -1826,7 +1856,7 @@
     "lead": "Corporate event catering should support the purpose and pace of the occasion. Compare providers by their ability to coordinate menus, service and venue requirements around your programme, from a launch reception to an awards dinner.",
     "keyword": "best corporate catering companies in dubai",
     "image": "blog__best-corporate-event-catering-companies-in-dubai",
-    "alt": "Canapés and refreshments prepared for corporate guests",
+    "alt": "Canap\u00e9s and refreshments prepared for corporate guests",
     "trail": [
       {
         "url": "/",
@@ -1911,10 +1941,10 @@
   },
   "/blog/best-kids-birthday-party-caterers-in-dubai": {
     "title": "Best Kids Birthday Catering Companies Dubai: What to Compare",
-    "lead": "Children’s birthday catering works best when the food fits the ages, activities and length of the party. Compare providers on suitable portions, clear dietary communication and practical service for both children and adults.",
+    "lead": "Children\u2019s birthday catering works best when the food fits the ages, activities and length of the party. Compare providers on suitable portions, clear dietary communication and practical service for both children and adults.",
     "keyword": "best kids birthday catering companies in dubai",
     "image": "blog__best-kids-birthday-party-caterers-in-dubai",
-    "alt": "Small sandwiches, burgers and fruit on a children’s party table",
+    "alt": "Small sandwiches, burgers and fruit on a children\u2019s party table",
     "trail": [
       {
         "url": "/",
@@ -1933,7 +1963,7 @@
   },
   "/blog/best-ramadan-iftar-catering-companies-in-dubai": {
     "title": "Best Ramadan Iftar Catering Companies Dubai: What to Compare",
-    "lead": "Choosing iftar catering in Dubai means balancing a generous menu with precise timing. Compare the provider’s approach to readiness for Maghrib, guest service, halal sourcing and the space where everyone will gather.",
+    "lead": "Choosing iftar catering in Dubai means balancing a generous menu with precise timing. Compare the provider\u2019s approach to readiness for Maghrib, guest service, halal sourcing and the space where everyone will gather.",
     "keyword": "best ramadan iftar catering companies in dubai",
     "image": "blog__best-ramadan-iftar-catering-companies-in-dubai",
     "alt": "Dates, soup and a generous main dish arranged for iftar",
@@ -1999,10 +2029,10 @@
   },
   "/blog/best-yacht-catering-services-in-dubai": {
     "title": "Best Yacht Catering Companies in Dubai: What to Compare",
-    "lead": "Yacht catering in Dubai needs to suit the vessel as well as the occasion. Compare menus, loading arrangements, chilled storage and the service team against the yacht’s facilities and the captain’s itinerary.",
+    "lead": "Yacht catering in Dubai needs to suit the vessel as well as the occasion. Compare menus, loading arrangements, chilled storage and the service team against the yacht\u2019s facilities and the captain\u2019s itinerary.",
     "keyword": "best yacht catering companies in dubai",
     "image": "blog__best-yacht-catering-services-in-dubai",
-    "alt": "Canapés and platters arranged for service on a yacht deck",
+    "alt": "Canap\u00e9s and platters arranged for service on a yacht deck",
     "trail": [
       {
         "url": "/",
