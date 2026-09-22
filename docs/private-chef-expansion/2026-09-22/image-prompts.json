@@ -1,0 +1,50 @@
+[
+  {
+    "key": "seasonal-menu",
+    "prompt": "A beautiful overhead photograph of a seasonal private chef menu on a warm cream kitchen island: roasted sea bass with herbs, grilled vegetables, lemon, and a small green salad. Restrained elegant Dubai home setting, tactile ivory ceramics, natural window light.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/seasonal-menu-1200.webp"
+  },
+  {
+    "key": "family-cooking",
+    "prompt": "Candid editorial photograph of a chef's hands portioning roast chicken, colourful vegetables and rice into family serving dishes in a bright Dubai home kitchen. Natural food textures, clean work surfaces, generous practical portions.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/family-cooking-1200.webp"
+  },
+  {
+    "key": "dinner-service",
+    "prompt": "Elegant close editorial photograph of a waiter hand placing a beautiful plated main course on an intimate dining table with ivory linen, clear glassware and small flowers, warm villa evening light, understated fine dining.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/dinner-service-1200.webp"
+  },
+  {
+    "key": "menu-planning",
+    "prompt": "Editorial photograph of an open blank notebook, fresh herbs, seasonal tomatoes, a shopping basket and a chef's hands on a cream kitchen counter planning a menu. No readable writing, bright natural side light.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/menu-planning-1200.webp"
+  },
+  {
+    "key": "kitchen-preparation",
+    "prompt": "Editorial photograph of a meticulous private chef workstation in a contemporary home: clean stainless bowls, cutting board with washed vegetables, neatly arranged utensils, induction hob in soft background. No people, warm cream and natural wood palette.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/kitchen-preparation-1200.webp"
+  },
+  {
+    "key": "fresh-meal-prep",
+    "prompt": "Editorial photograph of freshly prepared lunches in glass containers with lids beside them: chicken and rice, lentils and roasted vegetables, salmon and potatoes. Beautiful realistic food, clean home kitchen, daylight.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/fresh-meal-prep-1200.webp"
+  },
+  {
+    "key": "pasta-detail",
+    "prompt": "Close editorial food photograph of hand-shaped ravioli, flour, fresh basil and a bowl of tomato sauce on a wooden board in a refined domestic kitchen. Chef hands folding one raviolo, realistic anatomy, warm window light.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/pasta-detail-1200.webp"
+  },
+  {
+    "key": "dessert-finish",
+    "prompt": "Elegant editorial photograph of hands adding raspberries to a vanilla tart with fine pastry detail on an ivory plate. Small individual desserts nearby, cream marble worktop, natural afternoon light.",
+    "method": "built-in imagegen",
+    "asset": "/images/private-chef-guides-2026/dessert-finish-1200.webp"
+  }
+]

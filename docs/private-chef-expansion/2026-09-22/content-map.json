@@ -1,0 +1,962 @@
+[
+  {
+    "path": "/private-chef-dubai",
+    "addedWords": 1267,
+    "sections": [
+      "What would you like your chef to take care of?",
+      "Start with the meals that make your week easier",
+      "Choose the right balance of cooking days",
+      "Turn your preferences into a useful food profile",
+      "Agree how ingredients reach your kitchen",
+      "Keep the menu interesting without making it complicated",
+      "Judge the service by the difference it makes at home"
+    ],
+    "links": [
+      "/private-chef-dubai/how-it-works",
+      "/part-time-private-chef-dubai",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/pricing",
+      "/menus",
+      "/inquiry?from=/private-chef-dubai"
+    ],
+    "primaryKeyword": "private chef dubai",
+    "canonical": "https://www.mychef.ae/private-chef-dubai",
+    "source": "src/content/private-chef-expansion/private-chef-dubai.json"
+  },
+  {
+    "path": "/full-time-private-chef-dubai",
+    "addedWords": 1259,
+    "sections": [
+      "A regular schedule with a defined scope",
+      "Use a fuller cooking day with clear priorities",
+      "Build one menu around different family appetites",
+      "Plan arrival time around preparation, not just mealtime",
+      "Discuss continuity before your routine depends on it",
+      "Plan household cooking around travel and changing weeks",
+      "Agree how ingredients reach your kitchen"
+    ],
+    "links": [
+      "/inquiry?from=/full-time-private-chef-dubai",
+      "/weekly-meal-prep-dubai",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/pricing"
+    ],
+    "primaryKeyword": "full time private chef dubai",
+    "canonical": "https://www.mychef.ae/full-time-private-chef-dubai",
+    "source": "src/content/private-chef-expansion/full-time-private-chef-dubai.json"
+  },
+  {
+    "path": "/part-time-private-chef-dubai",
+    "addedWords": 1257,
+    "sections": [
+      "Choose your priority before you choose your frequency",
+      "Make a shorter visit count",
+      "Choose the right balance of cooking days",
+      "Help your chef understand the kitchen before arrival",
+      "Decide what should be cooked now and finished later",
+      "Use portion feedback to improve the next visit",
+      "Compare what the price includes, line by line"
+    ],
+    "links": [
+      "/inquiry?from=/part-time-private-chef-dubai",
+      "/inquiry?from=/part-time-private-chef-dubai",
+      "/private-chef-dubai/how-it-works",
+      "/weekly-meal-prep-dubai",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/pricing#calculator"
+    ],
+    "primaryKeyword": "part time private chef dubai",
+    "canonical": "https://www.mychef.ae/part-time-private-chef-dubai",
+    "source": "src/content/private-chef-expansion/part-time-private-chef-dubai.json"
+  },
+  {
+    "path": "/weekly-meal-prep-dubai",
+    "addedWords": 1269,
+    "sections": [
+      "Build a meal plan around real eating occasions",
+      "Decide what should be cooked now and finished later",
+      "Use portion feedback to improve the next visit",
+      "Agree how ingredients reach your kitchen",
+      "Keep the menu interesting without making it complicated",
+      "Build one menu around different family appetites",
+      "End the visit with a clear kitchen handover"
+    ],
+    "links": [
+      "/inquiry?from=/weekly-meal-prep-dubai",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/pricing",
+      "/menus",
+      "/inquiry?from=/weekly-meal-prep-dubai",
+      "/private-chef-dubai/how-your-plan-works"
+    ],
+    "primaryKeyword": "meal prep dubai",
+    "canonical": "https://www.mychef.ae/weekly-meal-prep-dubai",
+    "source": "src/content/private-chef-expansion/weekly-meal-prep-dubai.json"
+  },
+  {
+    "path": "/wellness-meal-prep-dubai",
+    "addedWords": 1265,
+    "sections": [
+      "Keep the cooking brief personal and precise",
+      "Describe the meals you want, not just a wellness label",
+      "Turn your preferences into a useful food profile",
+      "Give plant-based dishes a proper place on the menu",
+      "Decide what should be cooked now and finished later",
+      "Use portion feedback to improve the next visit",
+      "Let ingredient choices support the cooking"
+    ],
+    "links": [
+      "/inquiry?from=/wellness-meal-prep-dubai",
+      "/private-chef-dubai/how-your-plan-works",
+      "/menus",
+      "/weekly-meal-prep-dubai",
+      "/private-chef-dubai/how-your-plan-works",
+      "/menus"
+    ],
+    "primaryKeyword": "healthy meal prep dubai",
+    "canonical": "https://www.mychef.ae/wellness-meal-prep-dubai",
+    "source": "src/content/private-chef-expansion/wellness-meal-prep-dubai.json"
+  },
+  {
+    "path": "/private-chef-dubai/how-it-works",
+    "addedWords": 1258,
+    "sections": [
+      "What happens between your enquiry and the first meal?",
+      "Send a brief that makes the first proposal useful",
+      "Look for a chef whose strengths fit the brief",
+      "Agree how ingredients reach your kitchen",
+      "Plan arrival time around preparation, not just mealtime",
+      "Make the first visit a useful foundation",
+      "Make feedback specific enough to act on"
+    ],
+    "links": [
+      "/inquiry",
+      "/our-chefs",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/pricing",
+      "/inquiry?from=/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/quality-training"
+    ],
+    "primaryKeyword": "managed private chef service dubai",
+    "canonical": "https://www.mychef.ae/private-chef-dubai/how-it-works",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__how-it-works.json"
+  },
+  {
+    "path": "/private-chef-dubai/how-your-plan-works",
+    "addedWords": 1262,
+    "sections": [
+      "Make changes before they become last-minute requests",
+      "Plan household cooking around travel and changing weeks",
+      "Turn your preferences into a useful food profile",
+      "Use portion feedback to improve the next visit",
+      "Discuss continuity before your routine depends on it",
+      "End the visit with a clear kitchen handover",
+      "Make feedback specific enough to act on"
+    ],
+    "links": [
+      "/inquiry?from=/private-chef-dubai/how-your-plan-works",
+      "/inquiry?from=/private-chef-dubai/how-your-plan-works",
+      "/inquiry?from=/private-chef-dubai/how-your-plan-works",
+      "/inquiry?from=/private-chef-dubai/how-your-plan-works",
+      "/inquiry?from=/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/quality-training"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/private-chef-dubai/how-your-plan-works",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__how-your-plan-works.json"
+  },
+  {
+    "path": "/private-chef-dubai/pricing",
+    "addedWords": 1258,
+    "sections": [
+      "Use the calculator to compare a starting arrangement",
+      "Compare what the price includes, line by line",
+      "Spend on the parts of the experience you value most",
+      "Choose the right balance of cooking days",
+      "Agree how ingredients reach your kitchen",
+      "Give every person in the service a clear role",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/inquiry?from=/private-chef-dubai/pricing",
+      "/inquiry?from=/private-chef-dubai/pricing",
+      "/part-time-private-chef-dubai",
+      "/inquiry?from=/private-chef-dubai/pricing",
+      "/luxury-dining-experiences",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": "private chef dubai price",
+    "canonical": "https://www.mychef.ae/private-chef-dubai/pricing",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__pricing.json"
+  },
+  {
+    "path": "/private-chef-dubai/our-chefs",
+    "addedWords": 1262,
+    "sections": [
+      "What does a good fit look like in your kitchen?",
+      "Look for a chef whose strengths fit the brief",
+      "Translate a favourite cuisine into a focused brief",
+      "Ask about checks that relate to the proposed work",
+      "Give a trial or tasting a clear purpose",
+      "Turn your preferences into a useful food profile",
+      "Make the first visit a useful foundation"
+    ],
+    "links": [
+      "/our-chefs",
+      "/our-chefs",
+      "/how-we-vet-our-chefs",
+      "/inquiry?from=/private-chef-dubai/our-chefs",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/how-it-works"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/our-chefs",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__our-chefs.json"
+  },
+  {
+    "path": "/private-chef-dubai/quality-training",
+    "addedWords": 1260,
+    "sections": [
+      "Define what a successful service means to you",
+      "Ask about checks that relate to the proposed work",
+      "Make the first visit a useful foundation",
+      "Turn your preferences into a useful food profile",
+      "End the visit with a clear kitchen handover",
+      "Make feedback specific enough to act on",
+      "Let ingredient choices support the cooking"
+    ],
+    "links": [
+      "/how-we-vet-our-chefs",
+      "/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/how-your-plan-works",
+      "/inquiry?from=/private-chef-dubai/quality-training",
+      "/menus"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/private-chef-dubai/quality-training",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__quality-training.json"
+  },
+  {
+    "path": "/private-chef-dubai/privacy-security",
+    "addedWords": 1244,
+    "sections": [
+      "Be clear about access, communication and photography",
+      "Set expectations for discretion in your home",
+      "Make home and building access straightforward",
+      "Ask about checks that relate to the proposed work",
+      "Plan arrival time around preparation, not just mealtime",
+      "Discuss continuity before your routine depends on it",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/inquiry?from=/private-chef-dubai/privacy-security",
+      "/inquiry?from=/private-chef-dubai/privacy-security",
+      "/how-we-vet-our-chefs",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/private-chef-dubai/privacy-security",
+    "source": "src/content/private-chef-expansion/private-chef-dubai__privacy-security.json"
+  },
+  {
+    "path": "/our-chefs",
+    "addedWords": 1264,
+    "sections": [
+      "Read a profile with your own menu in mind",
+      "Look for a chef whose strengths fit the brief",
+      "Translate a favourite cuisine into a focused brief",
+      "Give a trial or tasting a clear purpose",
+      "Ask about checks that relate to the proposed work",
+      "Give every person in the service a clear role",
+      "Make the first visit a useful foundation"
+    ],
+    "links": [
+      "/inquiry?from=/our-chefs",
+      "/inquiry?from=/our-chefs",
+      "/private-chef-dubai/our-chefs",
+      "/how-we-vet-our-chefs",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/how-it-works"
+    ],
+    "primaryKeyword": "private chefs dubai",
+    "canonical": "https://www.mychef.ae/our-chefs",
+    "source": "src/content/private-chef-expansion/our-chefs.json"
+  },
+  {
+    "path": "/how-we-vet-our-chefs",
+    "addedWords": 1255,
+    "sections": [
+      "Connect every question to a real household need",
+      "Ask about checks that relate to the proposed work",
+      "Look for a chef whose strengths fit the brief",
+      "Set expectations for discretion in your home",
+      "Give a trial or tasting a clear purpose",
+      "Help your chef understand the kitchen before arrival",
+      "Make feedback specific enough to act on"
+    ],
+    "links": [
+      "/inquiry?from=/how-we-vet-our-chefs",
+      "/our-chefs",
+      "/private-chef-dubai/privacy-security",
+      "/private-chef-dubai/our-chefs",
+      "/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/quality-training"
+    ],
+    "primaryKeyword": "private chef background checks dubai",
+    "canonical": "https://www.mychef.ae/how-we-vet-our-chefs",
+    "source": "src/content/private-chef-expansion/how-we-vet-our-chefs.json"
+  },
+  {
+    "path": "/about",
+    "addedWords": 1277,
+    "sections": [
+      "One brief, with the right people for the work",
+      "Send a brief that makes the first proposal useful",
+      "Give every person in the service a clear role",
+      "Look for a chef whose strengths fit the brief",
+      "Set expectations for discretion in your home",
+      "Look beyond the finished table when reviewing previous work",
+      "Judge the service by the difference it makes at home"
+    ],
+    "links": [
+      "/inquiry",
+      "/luxury-dining-experiences",
+      "/our-chefs",
+      "/private-chef-dubai/privacy-security",
+      "/case-studies",
+      "/private-chef-dubai"
+    ],
+    "primaryKeyword": "private chef company dubai",
+    "canonical": "https://www.mychef.ae/about",
+    "source": "src/content/private-chef-expansion/about.json"
+  },
+  {
+    "path": "/how-it-works",
+    "addedWords": 1255,
+    "sections": [
+      "Bring your priorities; we will discuss the practical shape",
+      "Send a brief that makes the first proposal useful",
+      "Plan arrival time around preparation, not just mealtime",
+      "Help your chef understand the kitchen before arrival",
+      "Compare what the price includes, line by line",
+      "Confirm the practical details before the date is secured",
+      "Make the first visit a useful foundation"
+    ],
+    "links": [
+      "/inquiry",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/pricing#calculator",
+      "/private-client-booking-terms",
+      "/private-chef-dubai/how-it-works"
+    ],
+    "primaryKeyword": "how to book a private chef dubai",
+    "canonical": "https://www.mychef.ae/how-it-works",
+    "source": "src/content/private-chef-expansion/how-it-works.json"
+  },
+  {
+    "path": "/quality-guarantee-dubai",
+    "addedWords": 1275,
+    "sections": [
+      "Use the agreed proposal as your reference",
+      "Confirm the practical details before the date is secured",
+      "Give every person in the service a clear role",
+      "Keep dietary variations manageable and well briefed",
+      "End the visit with a clear kitchen handover",
+      "Make feedback specific enough to act on",
+      "Judge the service by the difference it makes at home"
+    ],
+    "links": [
+      "/private-client-booking-terms",
+      "/luxury-dining-experiences",
+      "/inquiry",
+      "/private-chef-dubai/how-your-plan-works",
+      "/private-chef-dubai/quality-training",
+      "/private-chef-dubai"
+    ],
+    "primaryKeyword": "catering quality guarantee dubai",
+    "canonical": "https://www.mychef.ae/quality-guarantee-dubai",
+    "source": "src/content/private-chef-expansion/quality-guarantee-dubai.json"
+  },
+  {
+    "path": "/apartment-private-dining-dubai",
+    "addedWords": 1266,
+    "sections": [
+      "Plan for your apartment, not an imaginary restaurant kitchen",
+      "Use a compact kitchen to its strengths",
+      "Make home and building access straightforward",
+      "Choose courses that belong together",
+      "Give every person in the service a clear role",
+      "Make the table work as well as it looks",
+      "Design the evening around how you want to host"
+    ],
+    "links": [
+      "/inquiry?from=/apartment-private-dining-dubai",
+      "/private-chef-dubai/privacy-security",
+      "/menus",
+      "/luxury-dining-experiences",
+      "/inquiry",
+      "/luxury-dining-experiences"
+    ],
+    "primaryKeyword": "private chef for apartment dubai",
+    "canonical": "https://www.mychef.ae/apartment-private-dining-dubai",
+    "source": "src/content/private-chef-expansion/apartment-private-dining-dubai.json"
+  },
+  {
+    "path": "/villas-private-residences",
+    "addedWords": 1269,
+    "sections": [
+      "Brief the property as carefully as the menu",
+      "Coordinate cooking across a larger home",
+      "Plan household cooking around travel and changing weeks",
+      "Build one menu around different family appetites",
+      "Agree how ingredients reach your kitchen",
+      "Match the service to the way your guests gather",
+      "End the visit with a clear kitchen handover"
+    ],
+    "links": [
+      "/inquiry?from=/villas-private-residences",
+      "/private-chef-dubai/how-your-plan-works",
+      "/weekly-meal-prep-dubai",
+      "/private-chef-dubai/pricing",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/how-your-plan-works"
+    ],
+    "primaryKeyword": "villa chef dubai",
+    "canonical": "https://www.mychef.ae/villas-private-residences",
+    "source": "src/content/private-chef-expansion/villas-private-residences.json"
+  },
+  {
+    "path": "/luxury-dining-experiences",
+    "addedWords": 1265,
+    "sections": [
+      "Choose the atmosphere before adding the extras",
+      "Choose courses that belong together",
+      "Design the evening around how you want to host",
+      "Give every person in the service a clear role",
+      "Make the table work as well as it looks",
+      "Let ingredient choices support the cooking",
+      "Match the service to the way your guests gather"
+    ],
+    "links": [
+      "/menus",
+      "/inquiry?from=/luxury-dining-experiences",
+      "/inquiry?from=/luxury-dining-experiences",
+      "/inquiry",
+      "/menus",
+      "/inquiry?from=/luxury-dining-experiences"
+    ],
+    "primaryKeyword": "private dining experience dubai",
+    "canonical": "https://www.mychef.ae/luxury-dining-experiences",
+    "source": "src/content/private-chef-expansion/luxury-dining-experiences.json"
+  },
+  {
+    "path": "/chefs-table-dubai",
+    "addedWords": 1263,
+    "sections": [
+      "Interaction should add to the meal, not interrupt it",
+      "Make the chef’s craft part of the conversation",
+      "Choose courses that belong together",
+      "Help your chef understand the kitchen before arrival",
+      "Keep dietary variations manageable and well briefed",
+      "Let ingredient choices support the cooking",
+      "Design the evening around how you want to host"
+    ],
+    "links": [
+      "/inquiry?from=/chefs-table-dubai",
+      "/menus",
+      "/private-chef-dubai/how-it-works",
+      "/inquiry",
+      "/menus",
+      "/luxury-dining-experiences"
+    ],
+    "primaryKeyword": "chefs table dubai",
+    "canonical": "https://www.mychef.ae/chefs-table-dubai",
+    "source": "src/content/private-chef-expansion/chefs-table-dubai.json"
+  },
+  {
+    "path": "/halal-private-dining-dubai",
+    "addedWords": 1246,
+    "sections": [
+      "Ask about the details behind each dish",
+      "Make ingredient requirements clear throughout the menu",
+      "Build a sharing table with contrast and balance",
+      "Keep dietary variations manageable and well briefed",
+      "Choose courses that belong together",
+      "Let ingredient choices support the cooking",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/inquiry?from=/halal-private-dining-dubai",
+      "/chefs/layla-middle-eastern-chef",
+      "/inquiry",
+      "/menus",
+      "/menus",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": "halal private dining dubai",
+    "canonical": "https://www.mychef.ae/halal-private-dining-dubai",
+    "source": "src/content/private-chef-expansion/halal-private-dining-dubai.json"
+  },
+  {
+    "path": "/romantic-dinner-dubai",
+    "addedWords": 1275,
+    "sections": [
+      "Personal touches work best when the plan stays simple",
+      "Create an intimate dinner with room to be yourselves",
+      "Choose courses that belong together",
+      "Make the table work as well as it looks",
+      "Set expectations for discretion in your home",
+      "Plan arrival time around preparation, not just mealtime",
+      "Choose a dessert that fits the meal and the setting"
+    ],
+    "links": [
+      "/inquiry?from=/romantic-dinner-dubai",
+      "/menus",
+      "/inquiry",
+      "/private-chef-dubai/privacy-security",
+      "/private-chef-dubai/pricing",
+      "/chefs/matteo-pastry-chef"
+    ],
+    "primaryKeyword": "romantic dinner dubai",
+    "canonical": "https://www.mychef.ae/romantic-dinner-dubai",
+    "source": "src/content/private-chef-expansion/romantic-dinner-dubai.json"
+  },
+  {
+    "path": "/proposal-dinner-dubai",
+    "addedWords": 1256,
+    "sections": [
+      "Keep one clear plan behind the surprise",
+      "Protect the surprise with a simple timing plan",
+      "Create an intimate dinner with room to be yourselves",
+      "Make the table work as well as it looks",
+      "Choose courses that belong together",
+      "Set expectations for discretion in your home",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/inquiry?from=/proposal-dinner-dubai",
+      "/romantic-dinner-dubai",
+      "/inquiry",
+      "/menus",
+      "/private-chef-dubai/privacy-security",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": "proposal dinner dubai",
+    "canonical": "https://www.mychef.ae/proposal-dinner-dubai",
+    "source": "src/content/private-chef-expansion/proposal-dinner-dubai.json"
+  },
+  {
+    "path": "/desert-dining-dubai",
+    "addedWords": 1258,
+    "sections": [
+      "Start with a confirmed, suitable location",
+      "Give outdoor dining a workable backup plan",
+      "Match the service to the way your guests gather",
+      "Give every person in the service a clear role",
+      "Choose courses that belong together",
+      "Plan arrival time around preparation, not just mealtime",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/inquiry?from=/desert-dining-dubai",
+      "/luxury-dining-experiences",
+      "/luxury-dining-experiences",
+      "/menus",
+      "/private-chef-dubai/pricing",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": "desert dining dubai",
+    "canonical": "https://www.mychef.ae/desert-dining-dubai",
+    "source": "src/content/private-chef-expansion/desert-dining-dubai.json"
+  },
+  {
+    "path": "/private-cooking-classes-dubai",
+    "addedWords": 1273,
+    "sections": [
+      "Choose a skill before choosing a long recipe list",
+      "Choose a cooking lesson you will use again",
+      "Translate a favourite cuisine into a focused brief",
+      "Help your chef understand the kitchen before arrival",
+      "Let an Italian menu follow a natural sequence",
+      "Keep dietary variations manageable and well briefed",
+      "End the visit with a clear kitchen handover"
+    ],
+    "links": [
+      "/inquiry?from=/private-cooking-classes-dubai",
+      "/our-chefs",
+      "/private-chef-dubai/how-it-works",
+      "/chefs/marco-italian-chef",
+      "/inquiry",
+      "/private-chef-dubai/how-your-plan-works"
+    ],
+    "primaryKeyword": "private cooking classes dubai",
+    "canonical": "https://www.mychef.ae/private-cooking-classes-dubai",
+    "source": "src/content/private-chef-expansion/private-cooking-classes-dubai.json"
+  },
+  {
+    "path": "/private-chef-vs-catering-dubai",
+    "addedWords": 1250,
+    "sections": [
+      "Compare responsibilities before comparing totals",
+      "Decide whether you need a chef visit or event catering",
+      "Match the service to the way your guests gather",
+      "Give every person in the service a clear role",
+      "Help your chef understand the kitchen before arrival",
+      "Compare what the price includes, line by line",
+      "Spend on the parts of the experience you value most"
+    ],
+    "links": [
+      "/inquiry?from=/private-chef-vs-catering-dubai",
+      "/luxury-dining-experiences",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/pricing#calculator",
+      "/private-chef-dubai/pricing"
+    ],
+    "primaryKeyword": "private chef vs catering dubai",
+    "canonical": "https://www.mychef.ae/private-chef-vs-catering-dubai",
+    "source": "src/content/private-chef-expansion/private-chef-vs-catering-dubai.json"
+  },
+  {
+    "path": "/guide/private-dining-dubai",
+    "addedWords": 1268,
+    "sections": [
+      "Use three decisions to give the brief direction",
+      "Match the service to the way your guests gather",
+      "Choose courses that belong together",
+      "Make the table work as well as it looks",
+      "Keep dietary variations manageable and well briefed",
+      "Give every person in the service a clear role",
+      "Confirm the practical details before the date is secured"
+    ],
+    "links": [
+      "/luxury-dining-experiences",
+      "/menus",
+      "/inquiry",
+      "/inquiry",
+      "/luxury-dining-experiences",
+      "/private-client-booking-terms"
+    ],
+    "primaryKeyword": "private dining dubai",
+    "canonical": "https://www.mychef.ae/guide/private-dining-dubai",
+    "source": "src/content/private-chef-expansion/guide__private-dining-dubai.json"
+  },
+  {
+    "path": "/gallery",
+    "addedWords": 1265,
+    "sections": [
+      "Choose a few details, then make them your own",
+      "Use photographs to describe the details you like",
+      "Match the service to the way your guests gather",
+      "Make the table work as well as it looks",
+      "Choose courses that belong together",
+      "Look beyond the finished table when reviewing previous work",
+      "Send a brief that makes the first proposal useful"
+    ],
+    "links": [
+      "/inquiry?from=/gallery",
+      "/luxury-dining-experiences",
+      "/inquiry",
+      "/menus",
+      "/case-studies",
+      "/inquiry"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/gallery",
+    "source": "src/content/private-chef-expansion/gallery.json"
+  },
+  {
+    "path": "/case-studies",
+    "addedWords": 1264,
+    "sections": [
+      "Look for the decisions behind the presentation",
+      "Look beyond the finished table when reviewing previous work",
+      "Use photographs to describe the details you like",
+      "Give every person in the service a clear role",
+      "Match the service to the way your guests gather",
+      "Compare what the price includes, line by line",
+      "Send a brief that makes the first proposal useful"
+    ],
+    "links": [
+      "/inquiry?from=/case-studies",
+      "/gallery",
+      "/luxury-dining-experiences",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/pricing#calculator",
+      "/inquiry"
+    ],
+    "primaryKeyword": "catering case studies dubai",
+    "canonical": "https://www.mychef.ae/case-studies",
+    "source": "src/content/private-chef-expansion/case-studies.json"
+  },
+  {
+    "path": "/chefs/ahmed-executive-chef",
+    "addedWords": 1266,
+    "sections": [
+      "Ask how the proposed menu will work in your setting",
+      "Look for a chef whose strengths fit the brief",
+      "Choose courses that belong together",
+      "Give every person in the service a clear role",
+      "Plan arrival time around preparation, not just mealtime",
+      "Give a trial or tasting a clear purpose",
+      "Translate a favourite cuisine into a focused brief"
+    ],
+    "links": [
+      "/our-chefs",
+      "/menus",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/our-chefs",
+      "/our-chefs"
+    ],
+    "primaryKeyword": null,
+    "canonical": "https://www.mychef.ae/chefs/ahmed-executive-chef",
+    "source": "src/content/private-chef-expansion/chefs__ahmed-executive-chef.json"
+  },
+  {
+    "path": "/chefs/marco-italian-chef",
+    "addedWords": 1262,
+    "sections": [
+      "Give the chef a regional or personal starting point",
+      "Let an Italian menu follow a natural sequence",
+      "Translate a favourite cuisine into a focused brief",
+      "Choose courses that belong together",
+      "Let ingredient choices support the cooking",
+      "Design the evening around how you want to host",
+      "Give a trial or tasting a clear purpose"
+    ],
+    "links": [
+      "/inquiry?from=/chefs/marco-italian-chef",
+      "/our-chefs",
+      "/menus",
+      "/menus",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/our-chefs"
+    ],
+    "primaryKeyword": "italian private chef dubai",
+    "canonical": "https://www.mychef.ae/chefs/marco-italian-chef",
+    "source": "src/content/private-chef-expansion/chefs__marco-italian-chef.json"
+  },
+  {
+    "path": "/chefs/layla-middle-eastern-chef",
+    "addedWords": 1251,
+    "sections": [
+      "Tell us which traditions and dishes matter to you",
+      "Build a sharing table with contrast and balance",
+      "Translate a favourite cuisine into a focused brief",
+      "Make ingredient requirements clear throughout the menu",
+      "Match the service to the way your guests gather",
+      "Keep dietary variations manageable and well briefed",
+      "Let ingredient choices support the cooking"
+    ],
+    "links": [
+      "/inquiry?from=/chefs/layla-middle-eastern-chef",
+      "/our-chefs",
+      "/halal-private-dining-dubai",
+      "/luxury-dining-experiences",
+      "/inquiry",
+      "/menus"
+    ],
+    "primaryKeyword": "arabic private chef dubai",
+    "canonical": "https://www.mychef.ae/chefs/layla-middle-eastern-chef",
+    "source": "src/content/private-chef-expansion/chefs__layla-middle-eastern-chef.json"
+  },
+  {
+    "path": "/chefs/matteo-pastry-chef",
+    "addedWords": 1269,
+    "sections": [
+      "Explain the occasion as well as the dessert",
+      "Choose a dessert that fits the meal and the setting",
+      "Plan the birthday around the guest of honour",
+      "Keep dietary variations manageable and well briefed",
+      "Let ingredient choices support the cooking",
+      "Make the table work as well as it looks",
+      "Choose courses that belong together"
+    ],
+    "links": [
+      "/inquiry?from=/chefs/matteo-pastry-chef",
+      "/blog/best-private-chef-birthday-dinner-dubai",
+      "/inquiry",
+      "/menus",
+      "/inquiry",
+      "/menus"
+    ],
+    "primaryKeyword": "private pastry chef dubai",
+    "canonical": "https://www.mychef.ae/chefs/matteo-pastry-chef",
+    "source": "src/content/private-chef-expansion/chefs__matteo-pastry-chef.json"
+  },
+  {
+    "path": "/blog/how-much-does-private-chef-cost-dubai",
+    "addedWords": 1271,
+    "sections": [
+      "Build one comparison brief before requesting prices",
+      "Compare what the price includes, line by line",
+      "Spend on the parts of the experience you value most",
+      "Choose the right balance of cooking days",
+      "Agree how ingredients reach your kitchen",
+      "Give every person in the service a clear role",
+      "Judge the service by the difference it makes at home"
+    ],
+    "links": [
+      "/private-chef-dubai/pricing#calculator",
+      "/private-chef-dubai/pricing",
+      "/part-time-private-chef-dubai",
+      "/private-chef-dubai/pricing",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai"
+    ],
+    "primaryKeyword": "how much does private chef cost dubai",
+    "canonical": "https://www.mychef.ae/blog/how-much-does-private-chef-cost-dubai",
+    "source": "src/content/private-chef-expansion/blog__how-much-does-private-chef-cost-dubai.json"
+  },
+  {
+    "path": "/blog/how-to-hire-a-private-chef-dubai",
+    "addedWords": 1257,
+    "sections": [
+      "Shortlist for the work you need, not the longest profile",
+      "Send a brief that makes the first proposal useful",
+      "Look for a chef whose strengths fit the brief",
+      "Ask about checks that relate to the proposed work",
+      "Give a trial or tasting a clear purpose",
+      "Help your chef understand the kitchen before arrival",
+      "Make the first visit a useful foundation"
+    ],
+    "links": [
+      "/inquiry",
+      "/our-chefs",
+      "/how-we-vet-our-chefs",
+      "/private-chef-dubai/our-chefs",
+      "/private-chef-dubai/how-it-works",
+      "/private-chef-dubai/how-it-works"
+    ],
+    "primaryKeyword": "how to hire a private chef dubai",
+    "canonical": "https://www.mychef.ae/blog/how-to-hire-a-private-chef-dubai",
+    "source": "src/content/private-chef-expansion/blog__how-to-hire-a-private-chef-dubai.json"
+  },
+  {
+    "path": "/blog/private-chef-palm-jumeirah-guide",
+    "addedWords": 1256,
+    "sections": [
+      "Confirm the property details before the menu is finalised",
+      "Coordinate cooking across a larger home",
+      "Use a compact kitchen to its strengths",
+      "Make home and building access straightforward",
+      "Give outdoor dining a workable backup plan",
+      "Match the service to the way your guests gather",
+      "Agree how ingredients reach your kitchen"
+    ],
+    "links": [
+      "/villas-private-residences",
+      "/apartment-private-dining-dubai",
+      "/private-chef-dubai/privacy-security",
+      "/desert-dining-dubai",
+      "/luxury-dining-experiences",
+      "/private-chef-dubai/pricing"
+    ],
+    "primaryKeyword": "private dining palm jumeirah dubai",
+    "canonical": "https://www.mychef.ae/blog/private-chef-palm-jumeirah-guide",
+    "source": "src/content/private-chef-expansion/blog__private-chef-palm-jumeirah-guide.json"
+  },
+  {
+    "path": "/blog/best-private-chef-birthday-dinner-dubai",
+    "addedWords": 1269,
+    "sections": [
+      "Choose one or two priorities that make the dinner personal",
+      "Plan the birthday around the guest of honour",
+      "Choose courses that belong together",
+      "Design the evening around how you want to host",
+      "Keep dietary variations manageable and well briefed",
+      "Give every person in the service a clear role",
+      "Make the table work as well as it looks"
+    ],
+    "links": [
+      "/inquiry?from=/blog/best-private-chef-birthday-dinner-dubai",
+      "/menus",
+      "/luxury-dining-experiences",
+      "/inquiry",
+      "/luxury-dining-experiences",
+      "/inquiry"
+    ],
+    "primaryKeyword": "private chef for birthday dinner dubai",
+    "canonical": "https://www.mychef.ae/blog/best-private-chef-birthday-dinner-dubai",
+    "source": "src/content/private-chef-expansion/blog__best-private-chef-birthday-dinner-dubai.json"
+  },
+  {
+    "path": "/blog/best-private-chefs-for-villas-in-dubai",
+    "addedWords": 1264,
+    "sections": [
+      "Compare candidates against one realistic day of your stay",
+      "Coordinate cooking across a larger home",
+      "Look for a chef whose strengths fit the brief",
+      "Plan household cooking around travel and changing weeks",
+      "Build one menu around different family appetites",
+      "Agree how ingredients reach your kitchen",
+      "Make home and building access straightforward"
+    ],
+    "links": [
+      "/villas-private-residences",
+      "/our-chefs",
+      "/private-chef-dubai/how-your-plan-works",
+      "/weekly-meal-prep-dubai",
+      "/private-chef-dubai/pricing",
+      "/private-chef-dubai/privacy-security"
+    ],
+    "primaryKeyword": "best private chefs for villas in dubai",
+    "canonical": "https://www.mychef.ae/blog/best-private-chefs-for-villas-in-dubai",
+    "source": "src/content/private-chef-expansion/blog__best-private-chefs-for-villas-in-dubai.json"
+  },
+  {
+    "path": "/blog/best-private-cooking-class-experiences-in-dubai",
+    "addedWords": 1265,
+    "sections": [
+      "Define the takeaway before choosing the menu",
+      "Choose a cooking lesson you will use again",
+      "Let an Italian menu follow a natural sequence",
+      "Translate a favourite cuisine into a focused brief",
+      "Help your chef understand the kitchen before arrival",
+      "Keep dietary variations manageable and well briefed",
+      "Compare what the price includes, line by line"
+    ],
+    "links": [
+      "/private-cooking-classes-dubai",
+      "/chefs/marco-italian-chef",
+      "/our-chefs",
+      "/private-chef-dubai/how-it-works",
+      "/inquiry",
+      "/private-chef-dubai/pricing#calculator"
+    ],
+    "primaryKeyword": "best private cooking class experiences in dubai",
+    "canonical": "https://www.mychef.ae/blog/best-private-cooking-class-experiences-in-dubai",
+    "source": "src/content/private-chef-expansion/blog__best-private-cooking-class-experiences-in-dubai.json"
+  },
+  {
+    "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
+    "addedWords": 1264,
+    "sections": [
+      "Look for coherence across the food, setting and service",
+      "Match the service to the way your guests gather",
+      "Make the chef’s craft part of the conversation",
+      "Choose courses that belong together",
+      "Make the table work as well as it looks",
+      "Give every person in the service a clear role",
+      "Let ingredient choices support the cooking"
+    ],
+    "links": [
+      "/luxury-dining-experiences",
+      "/chefs-table-dubai",
+      "/menus",
+      "/inquiry",
+      "/luxury-dining-experiences",
+      "/menus"
+    ],
+    "primaryKeyword": "best luxury private dining experiences in dubai",
+    "canonical": "https://www.mychef.ae/blog/best-luxury-private-dining-experiences-in-dubai",
+    "source": "src/content/private-chef-expansion/blog__best-luxury-private-dining-experiences-in-dubai.json"
+  }
+]

@@ -3,6 +3,7 @@ import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
+import PrivateChefExpansion from './components/private-chef/PrivateChefExpansion'
 import BrandIdentity from './components/BrandIdentity'
 import Analytics from './components/Analytics'
 import RouteErrorBoundary from './components/RouteErrorBoundary'
@@ -59,6 +60,7 @@ export default function App() {
                       <Route key={route.path} path={route.path} element={route.element} />
                     ))}
                   </Routes>
+                  <PrivateChefExpansion />
                 </Suspense>
               </RouteErrorBoundary>
             </Layout>
