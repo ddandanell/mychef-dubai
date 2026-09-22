@@ -1,0 +1,1443 @@
+{
+  "mode": "local",
+  "article_count": 42,
+  "unique_article_images": 120,
+  "internal_link_count": 1285,
+  "issues": [],
+  "pages": [
+    {
+      "path": "/blog/best-arabic-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-arabic-catering-companies-in-dubai-800.webp",
+          "alt": "Arabic mezze, rice and grilled dishes set out for a gathering",
+          "identity": "5cb6f3396c04b7e7ca33fd893bb9a28e21eb3b268dd81c7a6237b24f4f3a16bf"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-arabic-catering-companies-in-dubai-support-800.webp",
+          "alt": "An Arabic menu selection with grilled skewers, stuffed vine leaves, hummus and flatbread",
+          "identity": "1a7a532fc8b9db194f597901309c84ba98043c94cf3ebee9eea4bd11facb9d13"
+        }
+      ],
+      "internal_links": 38,
+      "contextual_paragraphs": 14,
+      "linked_paragraphs_by_third": [
+        7,
+        3,
+        4
+      ],
+      "paragraphs": 42,
+      "words": 1949,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-bbq-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-bbq-catering-companies-in-dubai-800.webp",
+          "alt": "Grilled skewers and vegetables on BBQ serving platters",
+          "identity": "33d601cd8da0fd1e642ec5c919348e50255f9d327673f591ae32d6bd29220816"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-bbq-catering-companies-in-dubai-support-800.webp",
+          "alt": "A barbecue spread with grilled lamb, chicken, vegetables and fresh salads",
+          "identity": "8b6c99e08390897a28f2078624d45db5e22139ad292e1c12b4e891499e9e6bde"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        5,
+        2,
+        4
+      ],
+      "paragraphs": 41,
+      "words": 1921,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-brunch-catering-services-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-brunch-catering-services-in-dubai-800.webp",
+          "alt": "Pastries, savoury bites and fruit arranged for a brunch service",
+          "identity": "b7700073aeecbe9e1dc21e6bc58b9d38c8bd7940ed3d2afc45866164a6158834"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-brunch-catering-services-in-dubai-support-800.webp",
+          "alt": "Poached eggs with greens and hollandaise beside fruit and coffee",
+          "identity": "a7c5efb045133fc8666228ebbfdb5eaf9113c28c0aec4bc472a92e551df7207b"
+        }
+      ],
+      "internal_links": 38,
+      "contextual_paragraphs": 14,
+      "linked_paragraphs_by_third": [
+        6,
+        2,
+        6
+      ],
+      "paragraphs": 42,
+      "words": 1943,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-cocktail-party-catering-companies-in-dubai-hero.webp",
+          "alt": "Canap\u00e9s and colourful drinks arranged for a terrace reception",
+          "identity": "cfd1b4081e7652d7768dfc470de7cce7ea8b15f40bcaab86d3494755dfba7127"
+        },
+        {
+          "src": "/images/blog-2026/best-cocktail-party-catering-companies-in-dubai-body-1.webp",
+          "alt": "Grazing table set up for a self-served cocktail party",
+          "identity": "989b692ff7543f76c6f36a5d800e914a1d49869c26c02dc8b94ef606d7b1b199"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 15,
+      "linked_paragraphs_by_third": [
+        6,
+        8,
+        1
+      ],
+      "paragraphs": 51,
+      "words": 2353,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-corporate-event-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-corporate-event-catering-companies-in-dubai-800.webp",
+          "alt": "Canap\u00e9s and refreshments prepared for corporate guests",
+          "identity": "af9fe2ed5fe05405d6c7d882bf92a249eb3322ece9f2895cb524f3618089d996"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-corporate-event-catering-companies-in-dubai-support-800.webp",
+          "alt": "A sliced roast beef platter with vegetables and salads arranged overhead",
+          "identity": "6b7b6925728e5e6b793c47f19058eb8536617fa40fdb979f2f4ecf383035aaf3"
+        }
+      ],
+      "internal_links": 38,
+      "contextual_paragraphs": 14,
+      "linked_paragraphs_by_third": [
+        6,
+        2,
+        6
+      ],
+      "paragraphs": 42,
+      "words": 1909,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-corporate-lunch-catering-companies-in-dubai-800.webp",
+          "alt": "Corporate lunch platters arranged in a meeting room",
+          "identity": "29919eb4368208111d1a9cfff3a95a1bca32c6ef2a49ecae3b7fc68a653fcb6f"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-corporate-lunch-catering-companies-in-dubai-support-800.webp",
+          "alt": "A corporate lunch buffet with wraps, sliders, grilled chicken and salads",
+          "identity": "da05db4fa1ebdb84637d77d526a317d57486f9b46fa18e918c53c82f58d3d1bd"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 12,
+      "linked_paragraphs_by_third": [
+        5,
+        1,
+        6
+      ],
+      "paragraphs": 38,
+      "words": 1737,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-desert-dining-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-hero.webp",
+          "alt": "A candlelit dinner table arranged beside desert dunes at sunset",
+          "identity": "25a637d4be9481315b430ed2b00fce19e59c8017b15b958bec64ba94000d5201"
+        },
+        {
+          "src": "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1.webp",
+          "alt": "Private chef finishing a dish beside a low table set for desert dining at dusk",
+          "identity": "9011ea77a54fc97dadec2ab33f1af2c03a386f3529f5d079df184a7b54e94201"
+        },
+        {
+          "src": "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-2.webp",
+          "alt": "Diagram showing five categories of desert dining catering connected to a central desert dining hub",
+          "identity": "5f35f79bdbb175f338e273cd3e27d84b08787335d1d2ae9043978e6099d88dbc"
+        }
+      ],
+      "internal_links": 31,
+      "contextual_paragraphs": 8,
+      "linked_paragraphs_by_third": [
+        6,
+        1,
+        1
+      ],
+      "paragraphs": 58,
+      "words": 2218,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-drop-off-catering-services-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-drop-off-catering-services-in-dubai-hero.webp",
+          "alt": "Chef arranging ready-to-serve catering trays on a sideboard",
+          "identity": "701f609770a8e5c1324271e4454f87ae3060a67817b1450984962a65c1007ec1"
+        },
+        {
+          "src": "/images/blog-2026/best-drop-off-catering-services-in-dubai-body-1.webp",
+          "alt": "Diagram of five checks for choosing drop-off catering in Dubai",
+          "identity": "e81e575f37114ed2fb9a222d9970abc8bb0f3e22cbf5f016d93febccb0de74a2"
+        },
+        {
+          "src": "/images/blog-2026/drop-off-delivery-spread.webp",
+          "alt": "Ready-to-serve lunch trays with chicken skewers, vegetables, rice and salad",
+          "identity": "46637ae51ac4917c6537893ba96e5d06f5cd5c22cd2fb4212bb6b4ad618aeac1"
+        }
+      ],
+      "internal_links": 37,
+      "contextual_paragraphs": 16,
+      "linked_paragraphs_by_third": [
+        9,
+        6,
+        1
+      ],
+      "paragraphs": 56,
+      "words": 2009,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-grazing-table-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-grazing-table-catering-companies-in-dubai-800.webp",
+          "alt": "Cheese, breadsticks, fruit and dips arranged on a grazing table",
+          "identity": "4521e6ee84e9dc2b820ac335595abad7347f881bda4e72d16f040ddf9119563e"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-grazing-table-catering-companies-in-dubai-support-800.webp",
+          "alt": "Salmon tartlets with colourful savoury bites on a grazing table",
+          "identity": "9f9b2bf393f445efc21ffce059d5e1d98f99b127fd3ceac6e596bcb0bca5162c"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 15,
+      "linked_paragraphs_by_third": [
+        6,
+        6,
+        3
+      ],
+      "paragraphs": 42,
+      "words": 1938,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-halal-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-halal-catering-companies-in-dubai-800.webp",
+          "alt": "Rice, grilled dishes and accompaniments prepared for a shared meal",
+          "identity": "4cbea86885458477434e7e3f7a599abdd80e4dea811db83bca8831f611f7c247"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-halal-catering-companies-in-dubai-support-800.webp",
+          "alt": "A Mediterranean table with hummus, falafel, stuffed vine leaves and grilled dishes",
+          "identity": "e15e7ef7445a88c942c6ece9e19956881942e592eee3a11105f03571403851a0"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 12,
+      "linked_paragraphs_by_third": [
+        6,
+        1,
+        5
+      ],
+      "paragraphs": 38,
+      "words": 1757,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-kids-birthday-party-caterers-in-dubai-800.webp",
+          "alt": "Small sandwiches, burgers and fruit on a children\u2019s party table",
+          "identity": "9d9c74b7fa38867f55fa7d5a45e21529a69b004a16083b6ce55c0d7712d9261d"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-kids-birthday-party-caterers-in-dubai-support-800.webp",
+          "alt": "A birthday cake with miniature savoury tarts, finger sandwiches, cupcakes and fruit",
+          "identity": "fcfe503fd44047410fa60ab9dad7ef0a720981399365acaab6cf7a5ff7b87cb0"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        5,
+        2,
+        4
+      ],
+      "paragraphs": 41,
+      "words": 1904,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-luxury-private-dining-experiences-in-dubai-hero.webp",
+          "alt": "A private dining table set beside windows overlooking Dubai",
+          "identity": "ec6e5da9617261cee7cb45794570efbf2e1f50719e9c176d28827f6b24f4cecb"
+        },
+        {
+          "src": "/images/blog-2026/luxury-course-plating.webp",
+          "alt": "Chef finishing a sea bass tasting course with fennel and sauce",
+          "identity": "c12fb7f53d473147f0161927db02cdbd63eaee736b17d584394f7e71570dc43c"
+        },
+        {
+          "src": "/images/blog-2026/luxury-dinner-setting.webp",
+          "alt": "A private dining table set with linen, flowers and candlelight",
+          "identity": "775efeef5d61fbf50ac49f9021ede27e5ed8a116f84488c868d3595fbb89eca5"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 10,
+      "linked_paragraphs_by_third": [
+        5,
+        3,
+        2
+      ],
+      "paragraphs": 39,
+      "words": 2086,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-private-chef-birthday-dinner-dubai",
+      "images": [
+        {
+          "src": "/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp",
+          "alt": "Private chef birthday dinner catering in Dubai",
+          "identity": "1abfa08e20efb9a56ba8ef1a04a6ff871cf95ce024f061223911663c28786913"
+        },
+        {
+          "src": "/images/blog/best-private-chef-birthday-dinner-dubai-2.webp",
+          "alt": "Small birthday cake being cut as a plated course at a home table",
+          "identity": "2df594d7e12ceb2052e26785ae89bd4787885cb59d142e47b42366d30564f9b7"
+        },
+        {
+          "src": "/images/blog-2026/birthday-dessert-plating.webp",
+          "alt": "Chef finishing berry desserts beside a small birthday cake",
+          "identity": "11c3ef84e96f91f3e39a6d95c9a517b1ff00eaa32278b95d212fef36e56ca033"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 15,
+      "linked_paragraphs_by_third": [
+        8,
+        4,
+        3
+      ],
+      "paragraphs": 59,
+      "words": 3146,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-private-chefs-for-villas-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-private-chefs-for-villas-in-dubai-hero.webp",
+          "alt": "Chef finishing a plated meal in a villa overlooking the city",
+          "identity": "1dd6367db4a319d1f6cf68f0ad1659fdef493e3c2e7c2029c988b609ebcac58d"
+        },
+        {
+          "src": "/images/blog-2026/villa-family-lunch.webp",
+          "alt": "Roast chicken, vegetables and rice ready for a family lunch",
+          "identity": "c72d849fafa43fd61a2224156554cfc0a334e3eee05796de0bdee54c448d57ed"
+        },
+        {
+          "src": "/images/blog-2026/villa-preparation-kitchen.webp",
+          "alt": "Chef preparing herbs in an organised villa kitchen",
+          "identity": "4cca2682f0d633acc22e26b0ac9a4ce23134d6b12e9a0182fa6f112a87aa7b57"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        6,
+        3,
+        2
+      ],
+      "paragraphs": 39,
+      "words": 2084,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-private-cooking-class-experiences-in-dubai",
+      "images": [
+        {
+          "src": "/images/blog-2026/best-private-cooking-class-experiences-in-dubai-hero.webp",
+          "alt": "Guests preparing food with a chef during a private cooking lesson",
+          "identity": "955547ecfdd64a68530924299245bf06f7c161b40b7a6d29cc75d3b9d4ccd993"
+        },
+        {
+          "src": "/images/blog-2026/cooking-class-pasta.webp",
+          "alt": "A guest learning to shape ravioli with a chef",
+          "identity": "ce134795aae879b68bf7ba7fda8c7559726387ff927c253a608d94b2acc30e59"
+        },
+        {
+          "src": "/images/blog-2026/cooking-class-ingredients.webp",
+          "alt": "Ingredients and kitchen tools arranged for a Mediterranean cooking lesson",
+          "identity": "95d5d5407dd210bcadb083dfa1b4e767034d28a7f642b1a25a5635b01e1c80dc"
+        }
+      ],
+      "internal_links": 38,
+      "contextual_paragraphs": 9,
+      "linked_paragraphs_by_third": [
+        3,
+        4,
+        2
+      ],
+      "paragraphs": 39,
+      "words": 2095,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-ramadan-iftar-catering-companies-in-dubai-800.webp",
+          "alt": "Dates, soup and a generous main dish arranged for iftar",
+          "identity": "68ae12182b8f22bfd2703c9d8340906d78967a2961c9efbb4eda51ceeadff417"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-ramadan-iftar-catering-companies-in-dubai-support-800.webp",
+          "alt": "Grilled dishes, savoury pastries and mezze arranged for iftar",
+          "identity": "3e02d1d04e31ab781fa8bc1a81ab25f53b23260af21d7e4f66cf48b777ffdadf"
+        }
+      ],
+      "internal_links": 37,
+      "contextual_paragraphs": 13,
+      "linked_paragraphs_by_third": [
+        6,
+        2,
+        5
+      ],
+      "paragraphs": 42,
+      "words": 1893,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-vegan-catering-services-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-vegan-catering-services-in-dubai-800.webp",
+          "alt": "Roasted vegetables and grains on individual plant-based plates",
+          "identity": "5c8200168cfbbd4fc8e9c5bba914a0755f6ec6f65cfb5c609ea355620c1dc364"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-vegan-catering-services-in-dubai-support-800.webp",
+          "alt": "A vegan mezze spread with hummus, beetroot dip, falafel, flatbread and salads",
+          "identity": "e5b404539e4f84e855cbbcc834af0e03465ddb3ecb84ac2906e182f9b0be73a9"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        4,
+        2,
+        5
+      ],
+      "paragraphs": 42,
+      "words": 1922,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-wedding-catering-companies-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-wedding-catering-companies-in-dubai-800.webp",
+          "alt": "Wedding dinner plates and shared side dishes photographed from above",
+          "identity": "becd590f9a48cbf9385f5bffd82fe00e78ac77a1e3f0205c2bac221b982acfce"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-wedding-catering-companies-in-dubai-support-800.webp",
+          "alt": "An elegant wedding buffet with floral arrangements, canap\u00e9s and sharing dishes",
+          "identity": "6c751535bbcd25629cf8582f57b5efd6857efc1b9589ad6efaa9f7f1fc12f8f3"
+        }
+      ],
+      "internal_links": 35,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        6,
+        2,
+        3
+      ],
+      "paragraphs": 41,
+      "words": 1915,
+      "noindex": false
+    },
+    {
+      "path": "/blog/best-yacht-catering-services-in-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__best-yacht-catering-services-in-dubai-800.webp",
+          "alt": "Canap\u00e9s and platters arranged for service on a yacht deck",
+          "identity": "dda1bea342eb3286b2befb2493ed5ca339fa1f39dc7c0d653844c7cf232a88d7"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--best-yacht-catering-services-in-dubai-support-800.webp",
+          "alt": "Seared scallops with a fresh salad on a yacht dining table",
+          "identity": "50bc43e201d1a8f3c0911b1ece3dc37abced2dfa70961435a1bf41cd5ce5c7de"
+        }
+      ],
+      "internal_links": 39,
+      "contextual_paragraphs": 15,
+      "linked_paragraphs_by_third": [
+        8,
+        2,
+        5
+      ],
+      "paragraphs": 42,
+      "words": 1920,
+      "noindex": false
+    },
+    {
+      "path": "/blog/brunch-at-home-dubai",
+      "images": [
+        {
+          "src": "/images/blog/brunch-at-home-dubai-hero.webp",
+          "alt": "Saturday morning terrace brunch with a chef at an egg pan and guests in daylight",
+          "identity": "7b1d48cd7e20ff85d87048607583de6ea4db516fad7aa77f2274eb607213981b"
+        },
+        {
+          "src": "/images/blog/brunch-at-home-dubai-2.webp",
+          "alt": "Overhead of a used home brunch spread with eggs, bread, labneh and coffee",
+          "identity": "4b2292d81e4efc9a32e8464eda8dc59cb8ec2560d1c6237a45be2c50520aea0d"
+        },
+        {
+          "src": "/images/blog/brunch-at-home-dubai-3.webp",
+          "alt": "Juice and coffee station for a home brunch, no champagne tower",
+          "identity": "1fa5dc48403c7d31ca408873a267b1157b4b7355356b20e84f174099a52e71ad"
+        }
+      ],
+      "internal_links": 19,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        1,
+        2
+      ],
+      "paragraphs": 11,
+      "words": 751,
+      "noindex": false
+    },
+    {
+      "path": "/blog/corporate-catering-full-service-vs-drop-off",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__corporate-catering-full-service-vs-drop-off-800.webp",
+          "alt": "An overhead view of shared dishes, salads and savoury bites",
+          "identity": "946becb59de916156dd285a127f0520b961863482b25418c6a1edc45a89c2090"
+        },
+        {
+          "src": "/images/blog/corporate-catering-full-service-vs-drop-off-2.webp",
+          "alt": "Staffed office buffet with servers behind the line",
+          "identity": "0bb79c21e4090b447ff834fc17d01265115898c757b2fcc4106c12967e05f33f"
+        },
+        {
+          "src": "/images/blog/corporate-catering-full-service-vs-drop-off-3.webp",
+          "alt": "Extra servers putting on aprons in an office pantry before service",
+          "identity": "8ed1279441ca1c46e2cf2f10f0c197fc1b8f4f49e15985b24eba5ae2487adce5"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--corporate-catering-full-service-vs-drop-off-support-800.webp",
+          "alt": "Sharing platters with roast chicken, colourful vegetables and small canap\u00e9s",
+          "identity": "0eec9c5cde054528979a6bd7235c9b186e3088f1309c1b1d31108d300edfe4b2"
+        }
+      ],
+      "internal_links": 28,
+      "contextual_paragraphs": 8,
+      "linked_paragraphs_by_third": [
+        3,
+        1,
+        4
+      ],
+      "paragraphs": 35,
+      "words": 1914,
+      "noindex": false
+    },
+    {
+      "path": "/blog/corporate-event-catering-ideas-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__corporate-event-catering-ideas-dubai-800.webp",
+          "alt": "Platters of canap\u00e9s, salads and fruit arranged for a company event",
+          "identity": "d6bd39bae4adb98338db13ab11a4e35c05c7be62ca3a68441c00019dc432e15a"
+        },
+        {
+          "src": "/images/blog/corporate-event-catering-ideas-dubai-2.webp",
+          "alt": "Drop-off lunch boxes being opened on a cleared Dubai meeting table",
+          "identity": "34c52d1ecacaacf55bea58d082cb0f0ec83b4a7a5ea1ecb856467c310730ebf3"
+        },
+        {
+          "src": "/images/blog/corporate-event-catering-ideas-dubai-3.webp",
+          "alt": "Seated client dinner in a private dining room with a chef at the service door",
+          "identity": "ae17814f5db292343e4e44f37dc2272501937f0e04f6fb9f7d1e8a22dce97f0c"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--corporate-event-catering-ideas-dubai-support-800.webp",
+          "alt": "Raised serving platters with salads, grilled dishes and canap\u00e9s",
+          "identity": "744f418e58fc0d4b0a56d202b363260476d7e74468862411485b0b91b6a6ebde"
+        }
+      ],
+      "internal_links": 40,
+      "contextual_paragraphs": 13,
+      "linked_paragraphs_by_third": [
+        6,
+        3,
+        4
+      ],
+      "paragraphs": 33,
+      "words": 1682,
+      "noindex": false
+    },
+    {
+      "path": "/blog/desert-dinner-party-dubai",
+      "images": [
+        {
+          "src": "/images/blog/desert-dinner-party-dubai-hero.webp",
+          "alt": "Guests walking a dune toward a small desert dining table at sunset",
+          "identity": "dee280e758193a81c0f54a3a9d3284f9e58f061da67662028bb58418f5646ad3"
+        },
+        {
+          "src": "/images/blog/desert-dinner-party-dubai-2.webp",
+          "alt": "Chef at a wind-protected desert grill with guests at a distance",
+          "identity": "cfffd82c77ac5d4732a73bf5d3657757ceb82cd071323d7501a4803c4ba7e4d6"
+        },
+        {
+          "src": "/images/blog/desert-dinner-party-dubai-3.webp",
+          "alt": "Licensed desert camp setup: crates, generator screen, staff unfolding a table",
+          "identity": "3a41e9362e7b2a0158caab595dfc93fa419309034de2bcf0e8a141d9222a2d01"
+        }
+      ],
+      "internal_links": 21,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        1,
+        2
+      ],
+      "paragraphs": 9,
+      "words": 683,
+      "noindex": true
+    },
+    {
+      "path": "/blog/dinner-party-menu-ideas-dubai",
+      "images": [
+        {
+          "src": "/images/blog/dinner-party-menu-ideas-dubai-hero.webp",
+          "alt": "Host and chef tasting small sample dishes to decide a dinner-party menu",
+          "identity": "75c2fa5390d9075c1a64140dd0d41a0a0c98af40bdf747b4fc994509143135e6"
+        },
+        {
+          "src": "/images/blog/dinner-party-menu-ideas-dubai-2.webp",
+          "alt": "Three courses in different states on a home kitchen island during service",
+          "identity": "acc1a7391fd86c61b9086da5c980004b72537436070feecb59b25a4a253453e7"
+        },
+        {
+          "src": "/images/blog/dinner-party-menu-ideas-dubai-3.webp",
+          "alt": "Chef finishing a sharing showpiece at the end of a dining table",
+          "identity": "281a060cf1e6c79e77d95c4d942fb289630ead8d6d66086d9095d3c6ff1a61e2"
+        }
+      ],
+      "internal_links": 19,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        1,
+        2
+      ],
+      "paragraphs": 10,
+      "words": 686,
+      "noindex": true
+    },
+    {
+      "path": "/blog/dubai-school-food-rules-2026",
+      "images": [
+        {
+          "src": "/images/blog/dubai-school-food-rules-2026-hero.webp",
+          "alt": "A labelled school lunch line in Dubai, papers on a clipboard, no devices on the servery.",
+          "identity": "38397b1014912046da4f91117e6b2b6734b4044546c8f4878dccd19b45ec25d0"
+        },
+        {
+          "src": "/images/blog-2026/school-lunch-portioning.webp",
+          "alt": "Cook portioning chicken, rice and vegetables into school lunch trays",
+          "identity": "df671da00f76d03e615a2291137198250dfb0003fa76fe3b553cd637f905ceb5"
+        }
+      ],
+      "internal_links": 17,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        2,
+        1
+      ],
+      "paragraphs": 8,
+      "words": 517,
+      "noindex": false
+    },
+    {
+      "path": "/blog/grazing-table-vs-buffet-dubai",
+      "images": [
+        {
+          "src": "/images/blog/grazing-table-vs-buffet-dubai-hero.webp",
+          "alt": "Guests standing and talking around a grazing table in a villa lounge",
+          "identity": "dbe60dfc707f10fc6c164f4b4c43138354a6acc0f122ae01c48212ed6feb481e"
+        },
+        {
+          "src": "/images/blog/grazing-table-vs-buffet-dubai-2.webp",
+          "alt": "Guests in a short queue at a real villa buffet line",
+          "identity": "03b7105af03f1feea50d0e640aefb11c8af81107ed501258ccb68c44702d2c75"
+        },
+        {
+          "src": "/images/blog/grazing-table-vs-buffet-dubai-3.webp",
+          "alt": "Staff swapping a warm grazing board in the shade with ice bowls",
+          "identity": "8122a6733f85876ec0818dae59651d522c269de463742b064615025c92e37cac"
+        }
+      ],
+      "internal_links": 22,
+      "contextual_paragraphs": 6,
+      "linked_paragraphs_by_third": [
+        1,
+        3,
+        2
+      ],
+      "paragraphs": 9,
+      "words": 661,
+      "noindex": false
+    },
+    {
+      "path": "/blog/halal-private-dining-dubai-what-to-ask",
+      "images": [
+        {
+          "src": "/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp",
+          "alt": "Halal private dining setup in Dubai",
+          "identity": "a478f3864dfc3144dfca636497967c652785a224e45ba6a9ef785e8a88313f6a"
+        },
+        {
+          "src": "/images/blog/halal-private-dining-dubai-what-to-ask-2.webp",
+          "alt": "Separated chopping boards and a chef washing a knife in a home kitchen",
+          "identity": "bf9665d5358e8092258e465b54cf53e48e7ced7c585196ea3a5be1646b74c5fb"
+        },
+        {
+          "src": "/images/blog/halal-private-dining-dubai-what-to-ask-3.webp",
+          "alt": "Mixed-group private dinner with water and juice on the table, no alcohol",
+          "identity": "17fea90fa927288388e4ad14bbb06252dd160cd0c106f3581dbbea8707483b44"
+        }
+      ],
+      "internal_links": 18,
+      "contextual_paragraphs": 10,
+      "linked_paragraphs_by_third": [
+        3,
+        4,
+        3
+      ],
+      "paragraphs": 28,
+      "words": 1651,
+      "noindex": true
+    },
+    {
+      "path": "/blog/how-far-ahead-book-caterer-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__how-far-ahead-book-caterer-dubai-800.webp",
+          "alt": "A prepared catering table with shared mains and side dishes",
+          "identity": "f47e932b71a1cc8525e3b839cd71de03d19015061bfb939cb2db12e414462ec8"
+        },
+        {
+          "src": "/images/blog/how-far-ahead-book-caterer-dubai-2.webp",
+          "alt": "Busy catering kitchen the night before a large event",
+          "identity": "e98a0be838c162f0c6fbea374a4e9474770264a03b1cd1b9ef1f07afcf7b7584"
+        },
+        {
+          "src": "/images/blog/how-far-ahead-book-caterer-dubai-3.webp",
+          "alt": "Chef loading insulated boxes into an unmarked car at dusk for a last-minute job",
+          "identity": "8419787737ce05f09626a491f854d850c744409e537df822f243635308684057"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--how-far-ahead-book-caterer-dubai-support-800.webp",
+          "alt": "Lamb cutlets with vegetables and salads on a linen-covered table",
+          "identity": "e0f6901fd6e52962a12279397ed0bd0c9cb6d33ed42cc4b1ba3dd5f50b34e1b5"
+        }
+      ],
+      "internal_links": 34,
+      "contextual_paragraphs": 7,
+      "linked_paragraphs_by_third": [
+        2,
+        4,
+        1
+      ],
+      "paragraphs": 33,
+      "words": 1686,
+      "noindex": false
+    },
+    {
+      "path": "/blog/how-much-does-private-chef-cost-dubai",
+      "images": [
+        {
+          "src": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp",
+          "alt": "Host and coordinator reviewing an itemised private chef proposal at a dining table",
+          "identity": "0e009b8a39f85d16c04743ec94f789905a0c39a40e665a17d149556b83e35b5c"
+        },
+        {
+          "src": "/images/blog/how-much-does-private-chef-cost-dubai-2.webp",
+          "alt": "A table set for two with extra chairs stacked: small dinners cost more per person",
+          "identity": "e820b9adad2b27badaeccaa23ebeead377a322f51b4c4105d3d78eb792e1eec2"
+        },
+        {
+          "src": "/images/blog/how-much-does-private-chef-cost-dubai-3.webp",
+          "alt": "Groceries, produce on a scale, knife roll and service cloth on a kitchen island",
+          "identity": "ac78425767f2e8ef133172f39fff25b734cfc136ea8f39e2dea4b141781977e1"
+        },
+        {
+          "src": "/images/blog-2026/chef-cost-menu-planning.webp",
+          "alt": "Fish, seasonal vegetables and herbs arranged for menu planning",
+          "identity": "0ee72dc66daf304e555993fc148bfa5619d10ab459fdca74303fa43c878fb29d"
+        }
+      ],
+      "internal_links": 33,
+      "contextual_paragraphs": 10,
+      "linked_paragraphs_by_third": [
+        3,
+        4,
+        3
+      ],
+      "paragraphs": 53,
+      "words": 2890,
+      "noindex": false
+    },
+    {
+      "path": "/blog/how-to-hire-a-private-chef-dubai",
+      "images": [
+        {
+          "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
+          "alt": "Chef serving a family dinner in a home dining room",
+          "identity": "6b90d8f6840bfb879ed5d1e6e8c47ac0f7d1bc4f7b44445b2575c469f3b55552"
+        },
+        {
+          "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+          "alt": "Chef discussing dinner plans with a host in the kitchen",
+          "identity": "6ddd3abb626f83de7f91a639269d6e135deac8d27cc1dd0e0195cd691209d7c8"
+        },
+        {
+          "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
+          "alt": "Home kitchen prepared for a private chef visit",
+          "identity": "fafa8087fdbec2acaf9009609fd715ab1282e6d08cff3e5e638b386b636236ff"
+        },
+        {
+          "src": "/images/blog/how-to-hire-a-private-chef-dubai-4.webp",
+          "alt": "Chef organising ingredients and prepared food in a home kitchen",
+          "identity": "ac6142a371ebf6b693396e69ced5d0cd8da70f801d50a49cd4adcf82060d98e5"
+        },
+        {
+          "src": "/images/blog/how-to-hire-a-private-chef-dubai-5.webp",
+          "alt": "Chef preparing a fresh dinner with a guest nearby",
+          "identity": "7bb29d0bbd5bedece67bd289972ce0aa6a28fa53a528a1de6cedaaec234088ed"
+        }
+      ],
+      "internal_links": 45,
+      "contextual_paragraphs": 9,
+      "linked_paragraphs_by_third": [
+        6,
+        2,
+        1
+      ],
+      "paragraphs": 39,
+      "words": 2205,
+      "noindex": false
+    },
+    {
+      "path": "/blog/iftar-at-home-dubai",
+      "images": [
+        {
+          "src": "/images/blog/iftar-at-home-dubai-hero.webp",
+          "alt": "Iftar at home at Maghrib: dates and water on the table, family sitting, chef in the kitchen",
+          "identity": "33f692a70541f90df69026d952f8ff83745204347f6b40ccc6984c388707cd0f"
+        },
+        {
+          "src": "/images/blog/iftar-at-home-dubai-2.webp",
+          "alt": "Iftar table waiting empty at dusk with dates and water in the centre",
+          "identity": "bb353a6748e32c16c5f2fb2c639aa350a50f1cc855097c8876cec18f1ce86103"
+        },
+        {
+          "src": "/images/blog/iftar-at-home-dubai-3.webp",
+          "alt": "Iftar dishes: dates, soup, rice and salads on a home table",
+          "identity": "395bb45f07bf0907dab3079b28c71961fb190cb7e004e99e3ee62c84a7299f88"
+        }
+      ],
+      "internal_links": 20,
+      "contextual_paragraphs": 5,
+      "linked_paragraphs_by_third": [
+        1,
+        2,
+        2
+      ],
+      "paragraphs": 8,
+      "words": 642,
+      "noindex": true
+    },
+    {
+      "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "images": [
+        {
+          "src": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp",
+          "alt": "A nursery dining room in Dubai being set for a provided lunch, empty lunchboxes out of frame.",
+          "identity": "06061ec8a683a194752c74b768af43f2245c484a0618b4d31115374ae93ac539"
+        },
+        {
+          "src": "/images/blog-2026/nursery-meal-choice.webp",
+          "alt": "Small lunch containers with chicken, rice and cooked vegetables",
+          "identity": "72549ddc86c76cb9c79f0a853a25fb7151623964f95c0daa5354e8fdbddf67ef"
+        }
+      ],
+      "internal_links": 16,
+      "contextual_paragraphs": 3,
+      "linked_paragraphs_by_third": [
+        1,
+        1,
+        1
+      ],
+      "paragraphs": 7,
+      "words": 470,
+      "noindex": false
+    },
+    {
+      "path": "/blog/nut-free-halal-nursery-meals-dubai",
+      "images": [
+        {
+          "src": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp",
+          "alt": "A chef labelling allergen cards on a nursery lunch line in Dubai.",
+          "identity": "ddd314de3d8d5845b057dd52d7d86bf561deac3fc48d4c75a4d8c0042b7592eb"
+        },
+        {
+          "src": "/images/blog-2026/nursery-dietary-preparation.webp",
+          "alt": "Chef portioning a meal into a nursery lunch tray with a dedicated serving spoon",
+          "identity": "6e0b8c9b4c70c8376b49c2dd7ea13432e5ec0f5b56f0922f36d8e76e265ba362"
+        }
+      ],
+      "internal_links": 17,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        2,
+        1
+      ],
+      "paragraphs": 9,
+      "words": 528,
+      "noindex": false
+    },
+    {
+      "path": "/blog/nye-party-catering-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__nye-party-catering-dubai-800.webp",
+          "alt": "Savoury bites and colourful drinks arranged for an evening celebration",
+          "identity": "e8fa5c03121012bc014ee83ece98a2b482327e5ca049979aa82809a7212fe86c"
+        },
+        {
+          "src": "/images/blog/nye-party-catering-dubai-2.webp",
+          "alt": "Chef finishing small plates at a live station on a villa terrace at night",
+          "identity": "b3d8b8176267bb42cb5e1de38144ed8037a45b32c7ee8615e3a05877f8735b55"
+        },
+        {
+          "src": "/images/blog/nye-party-catering-dubai-3.webp",
+          "alt": "Midnight dessert being plated at a side table during a home NYE party",
+          "identity": "37664e4acfe51d17e23e80d33f195f58920a505edcbb0d634f44aad2af60f34e"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--nye-party-catering-dubai-support-800.webp",
+          "alt": "Sliced roast beef with roasted vegetables and colourful side salads",
+          "identity": "b69911108c849688c890ceefe8b43dede202201e5f60c080c60287348ac61ca2"
+        }
+      ],
+      "internal_links": 40,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        4,
+        1,
+        6
+      ],
+      "paragraphs": 37,
+      "words": 1827,
+      "noindex": true
+    },
+    {
+      "path": "/blog/private-chef-date-night-dubai",
+      "images": [
+        {
+          "src": "/images/blog/private-chef-date-night-dubai-hero.webp",
+          "alt": "Dinner for two at home with the chef giving privacy from the kitchen",
+          "identity": "004cfafc3a8a5a205cee40d47d3c4a6c644c01ed5a3891316560e7f33acd7cc2"
+        },
+        {
+          "src": "/images/blog/private-chef-date-night-dubai-2.webp",
+          "alt": "Two plated courses being set down for a date-night table",
+          "identity": "cbf90610e260c1f11f5992e0ef4ae0028f225b9854b126fe697851cfde25f707"
+        },
+        {
+          "src": "/images/blog/private-chef-date-night-dubai-3.webp",
+          "alt": "Indoor date-night table with curtains closed against Dubai heat",
+          "identity": "6b8f75ac77fe73e15ed82fbcb3a101424702195692d0c5fdc25f869935d15242"
+        }
+      ],
+      "internal_links": 20,
+      "contextual_paragraphs": 4,
+      "linked_paragraphs_by_third": [
+        1,
+        1,
+        2
+      ],
+      "paragraphs": 8,
+      "words": 657,
+      "noindex": true
+    },
+    {
+      "path": "/blog/private-chef-palm-jumeirah-guide",
+      "images": [
+        {
+          "src": "/images/blog/private-chef-palm-jumeirah-guide-hero.webp",
+          "alt": "Private chef dining experience in Palm Jumeirah, Dubai",
+          "identity": "bbb670db65011b2c1f0129fa1d908c0f93a81c7766318eb3454f8dae823c3cb1"
+        },
+        {
+          "src": "/images/blog/private-chef-palm-jumeirah-guide-2.webp",
+          "alt": "Chef carrying an unmarked bag from a car toward a Palm Jumeirah villa gate",
+          "identity": "d7bcdb1a91f0630b68366463548564b5a3494775b1163425c9910551ec82013e"
+        },
+        {
+          "src": "/images/blog/private-chef-palm-jumeirah-guide-3.webp",
+          "alt": "Chef plating in a Palm Jumeirah villa kitchen with the waterway beyond the glass",
+          "identity": "1b18538fc3b91ec6457c44d25d97949575e89dda659cb38e978f35df6eafb0ba"
+        },
+        {
+          "src": "/images/blog-2026/palm-terrace-service.webp",
+          "alt": "A fish course served on a waterside villa terrace at dusk",
+          "identity": "9a49080528ccea05955deda464647271e12a298fc6fc3b30c6c3460d78c88d7c"
+        }
+      ],
+      "internal_links": 34,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        5,
+        3,
+        3
+      ],
+      "paragraphs": 60,
+      "words": 3127,
+      "noindex": false
+    },
+    {
+      "path": "/blog/private-chef-vs-restaurant-dubai",
+      "images": [
+        {
+          "src": "/images/blog/private-chef-vs-restaurant-dubai-hero.webp",
+          "alt": "Host closing a glass door on a private home dinner while a chef works in the kitchen",
+          "identity": "512e8c01e947fa2476a665dfd6208ef19ca74e976d7ee681db28bd88a42b5a4a"
+        },
+        {
+          "src": "/images/blog/private-chef-vs-restaurant-dubai-2.webp",
+          "alt": "Busy Dubai restaurant dining room with other tables and a host stand",
+          "identity": "32610d8e455b7d0e0a34f45c7ef52d0933887c5a6f43a03456061729617c0a4e"
+        },
+        {
+          "src": "/images/blog/private-chef-vs-restaurant-dubai-3.webp",
+          "alt": "Chef packing leftover food into the host\u2019s own fridge after a home dinner",
+          "identity": "20ea17464db788fceaa1afd239e6ac873c53b5b25af4aa66965eab8ca657a62a"
+        }
+      ],
+      "internal_links": 20,
+      "contextual_paragraphs": 5,
+      "linked_paragraphs_by_third": [
+        2,
+        1,
+        2
+      ],
+      "paragraphs": 8,
+      "words": 659,
+      "noindex": true
+    },
+    {
+      "path": "/blog/ramadan-iftar-catering-trends-2026",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__ramadan-iftar-catering-trends-2026-800.webp",
+          "alt": "Dates, soup, hummus and rice dishes photographed from above",
+          "identity": "b386388e5573104edd2b6bb5ef7da8747ef8e6b0e7408cb36900969c5e08c169"
+        },
+        {
+          "src": "/images/blog/ramadan-iftar-catering-trends-2026-2.webp",
+          "alt": "Late-night suhoor table with coffee and light bites after midnight",
+          "identity": "971e8186429fed0aafb151d7f8f27d9e75f633d43426141a2ea1c5477433f8c3"
+        },
+        {
+          "src": "/images/blog/ramadan-iftar-catering-trends-2026-3.webp",
+          "alt": "Mocktail and water station at an iftar, citrus and jugs, no alcohol",
+          "identity": "4f0fc89426086a6b80885fca53557d07e24cea65e6ea579c90c16f23c066bce0"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--ramadan-iftar-catering-trends-2026-support-800.webp",
+          "alt": "An iftar table with grilled dishes, rice, salads, flatbread and dates",
+          "identity": "f499a7d9bb7ebc4d5280cc53413cfeab1774ec8cbde9f7c8c0c0f7eff7b14a05"
+        }
+      ],
+      "internal_links": 26,
+      "contextual_paragraphs": 10,
+      "linked_paragraphs_by_third": [
+        4,
+        3,
+        3
+      ],
+      "paragraphs": 37,
+      "words": 1881,
+      "noindex": true
+    },
+    {
+      "path": "/blog/vegan-catering-dubai-guide",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__vegan-catering-dubai-guide-800.webp",
+          "alt": "Grilled vegetables, lentils and salads on a plant-based dining table",
+          "identity": "fc07fde45c4d0bb2d151747d86e4b046cc941bfc36e5d130d13b55bc3570ebbf"
+        },
+        {
+          "src": "/images/blog/vegan-catering-dubai-guide-2.webp",
+          "alt": "Plant-based mise: herbs, peeled vegetables, grains and a roasting pan",
+          "identity": "fd65f3b0af4606a107910777fb6d34268ec5d1dfe721f87a11e08dc6d0a248e1"
+        },
+        {
+          "src": "/images/blog/vegan-catering-dubai-guide-3.webp",
+          "alt": "Vegan private chef cooking in a normal Dubai apartment kitchen",
+          "identity": "3892a5036b265b63f854ee1649a2a071ba03e93be1b6fa1b15816b879f5cd63f"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--vegan-catering-dubai-guide-support-800.webp",
+          "alt": "A vegan bowl of grains, chickpeas, avocado and colourful vegetables",
+          "identity": "085435c202b5983b32add80a2f9dd707829145c2862dd761ad6e307b443230fb"
+        }
+      ],
+      "internal_links": 40,
+      "contextual_paragraphs": 11,
+      "linked_paragraphs_by_third": [
+        3,
+        2,
+        6
+      ],
+      "paragraphs": 37,
+      "words": 1793,
+      "noindex": true
+    },
+    {
+      "path": "/blog/wedding-catering-cost-dubai",
+      "images": [
+        {
+          "src": "/images/catering-editorial-2026/blog__wedding-catering-cost-dubai-800.webp",
+          "alt": "A wedding place setting with a plated main course and white flowers",
+          "identity": "5910d792b11c8bc3bb14176276ea9eada487bacfcbeeda17c4c1287bc5369768"
+        },
+        {
+          "src": "/images/blog/wedding-catering-cost-dubai-2.webp",
+          "alt": "A long wedding table set for a plated villa dinner in Dubai. Experience concept shown.",
+          "identity": "ac71bb02b1732a20da5fbfc052ea3b79e28713e822d6f4c99a66dd80c7968c4c"
+        },
+        {
+          "src": "/images/blog/wedding-catering-cost-dubai-3.webp",
+          "alt": "Service team preparing glassware and plates for a wedding reception. Experience concept shown.",
+          "identity": "6ef88ae806234c8a43a9b7370e839874fec4859426e3713236aecd75d061f0f8"
+        },
+        {
+          "src": "/images/catering-editorial-2026/blog--wedding-catering-cost-dubai-support-800.webp",
+          "alt": "Sharing dishes with roast meats, fish and vegetables arranged overhead",
+          "identity": "c9e6d8943fcf859c09666a6118605d9f998325c172c4dd5dc5f0eedd0ecbdcb0"
+        }
+      ],
+      "internal_links": 32,
+      "contextual_paragraphs": 12,
+      "linked_paragraphs_by_third": [
+        4,
+        2,
+        6
+      ],
+      "paragraphs": 55,
+      "words": 3411,
+      "noindex": false
+    },
+    {
+      "path": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+      "images": [
+        {
+          "src": "/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp",
+          "alt": "Weekly meal prep versus full-time private chef in Dubai",
+          "identity": "544008e551311f5761cc01891d335d12d8f1fdda8dab1711bf436852ab09226e"
+        },
+        {
+          "src": "/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-2.webp",
+          "alt": "Busy family breakfast table that a household is trying to keep up with",
+          "identity": "9e1e695dcf24fe6f44f60709737ac31e7650ed8e343c9e347472ab85d0a45eb1"
+        }
+      ],
+      "internal_links": 11,
+      "contextual_paragraphs": 5,
+      "linked_paragraphs_by_third": [
+        1,
+        3,
+        1
+      ],
+      "paragraphs": 22,
+      "words": 1298,
+      "noindex": true
+    },
+    {
+      "path": "/blog/yacht-party-menu-ideas-dubai",
+      "images": [
+        {
+          "src": "/images/blog/yacht-party-menu-ideas-dubai-hero.webp",
+          "alt": "Canap\u00e9s being passed on a Dubai yacht deck at golden hour",
+          "identity": "2fa68ae3bacf79969e86b083f9c6f3cbc17ba55b88b3ba3fb59239d29eb9e7ae"
+        },
+        {
+          "src": "/images/blog/yacht-party-menu-ideas-dubai-2.webp",
+          "alt": "Chef finishing cold seafood in a compact yacht galley",
+          "identity": "cc20acdb6e8384869f93d2643294680e544bbd874a85fa910c4c240320ff130f"
+        },
+        {
+          "src": "/images/blog/yacht-party-menu-ideas-dubai-3.webp",
+          "alt": "Individual heat-stable desserts in a chilled box on a yacht counter",
+          "identity": "11fd949cf168978ab974a407276d4cc0e7e19ada05fc620648cdd8117842f576"
+        }
+      ],
+      "internal_links": 12,
+      "contextual_paragraphs": 5,
+      "linked_paragraphs_by_third": [
+        3,
+        1,
+        1
+      ],
+      "paragraphs": 24,
+      "words": 1406,
+      "noindex": false
+    }
+  ],
+  "index_cards": [
+    {
+      "path": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-cocktail-party-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-drop-off-catering-services-in-dubai",
+      "image": "/images/blog-2026/best-drop-off-catering-services-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-desert-dining-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-private-cooking-class-experiences-in-dubai",
+      "image": "/images/blog-2026/best-private-cooking-class-experiences-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-bbq-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-bbq-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-corporate-lunch-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-grazing-table-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-grazing-table-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-ramadan-iftar-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "image": "/images/blog-2026/best-kids-birthday-party-caterers-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-yacht-catering-services-in-dubai",
+      "image": "/images/blog-2026/best-yacht-catering-services-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-vegan-catering-services-in-dubai",
+      "image": "/images/blog-2026/best-vegan-catering-services-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-corporate-event-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-corporate-event-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
+      "image": "/images/blog-2026/best-luxury-private-dining-experiences-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-arabic-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-arabic-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-brunch-catering-services-in-dubai",
+      "image": "/images/blog-2026/best-brunch-catering-services-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-halal-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-halal-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-private-chefs-for-villas-in-dubai",
+      "image": "/images/blog-2026/best-private-chefs-for-villas-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/best-wedding-catering-companies-in-dubai",
+      "image": "/images/blog-2026/best-wedding-catering-companies-in-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/dubai-school-food-rules-2026",
+      "image": "/images/blog/dubai-school-food-rules-2026-hero.webp"
+    },
+    {
+      "path": "/blog/nut-free-halal-nursery-meals-dubai",
+      "image": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "image": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/how-to-hire-a-private-chef-dubai",
+      "image": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/wedding-catering-cost-dubai",
+      "image": "/images/blog/wedding-catering-cost-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/brunch-at-home-dubai",
+      "image": "/images/blog/brunch-at-home-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/corporate-event-catering-ideas-dubai",
+      "image": "/images/blog/corporate-event-catering-ideas-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/grazing-table-vs-buffet-dubai",
+      "image": "/images/blog/grazing-table-vs-buffet-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/how-far-ahead-book-caterer-dubai",
+      "image": "/images/blog/how-far-ahead-book-caterer-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/yacht-party-menu-ideas-dubai",
+      "image": "/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/how-much-does-private-chef-cost-dubai",
+      "image": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/corporate-catering-full-service-vs-drop-off",
+      "image": "/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
+    },
+    {
+      "path": "/blog/best-private-chef-birthday-dinner-dubai",
+      "image": "/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
+    },
+    {
+      "path": "/blog/private-chef-palm-jumeirah-guide",
+      "image": "/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
+    }
+  ],
+  "remote_checks": [],
+  "local_destination_checks": [
+    "/",
+    "/allergy-safe-catering-dubai",
+    "/apartment-private-dining-dubai",
+    "/arabic-catering-dubai",
+    "/bar-services-dubai",
+    "/bbq-catering-dubai",
+    "/best-catering-companies-dubai",
+    "/birthday-catering-dubai",
+    "/blog",
+    "/brunch-catering-dubai",
+    "/buffet-catering-dubai",
+    "/buffet-vs-plated-dubai",
+    "/canape-catering-dubai",
+    "/catering-cost-calculator-dubai",
+    "/catering-dubai",
+    "/catering-packages-dubai",
+    "/chefs-table-dubai",
+    "/chefs/marco-italian-chef",
+    "/christmas-catering-dubai",
+    "/cocktail-party-catering-dubai",
+    "/corporate",
+    "/corporate-catering-checklist-dubai",
+    "/corporate-event-catering-dubai",
+    "/desert-dining-dubai",
+    "/drop-off-catering-dubai",
+    "/dubai-catering-prices-guide",
+    "/faq",
+    "/gala-dinner-catering-dubai",
+    "/grazing-table-dubai",
+    "/guides",
+    "/halal-catering-dubai",
+    "/how-it-works",
+    "/how-to-choose-caterer-dubai",
+    "/how-we-vet-our-chefs",
+    "/iftar-catering-dubai",
+    "/inquiry",
+    "/institutional-catering-dubai",
+    "/luxury-dining-experiences",
+    "/menus",
+    "/new-year-catering-dubai",
+    "/nursery-catering-dubai",
+    "/office-catering-dubai",
+    "/our-chefs",
+    "/part-time-private-chef-dubai",
+    "/private-chef-dubai",
+    "/private-chef-dubai/how-it-works",
+    "/private-chef-dubai/how-your-plan-works",
+    "/private-chef-dubai/our-chefs",
+    "/private-chef-dubai/pricing",
+    "/private-chef-dubai/privacy-security",
+    "/private-cooking-classes-dubai",
+    "/ramadan-catering-dubai",
+    "/romantic-dinner-dubai",
+    "/school-catering-dubai",
+    "/vegan-catering-dubai",
+    "/vegetarian-catering-dubai",
+    "/villas-private-residences",
+    "/wedding-catering-checklist-dubai",
+    "/wedding-catering-dubai",
+    "/wedding-catering-menu-planning-dubai",
+    "/weekly-meal-prep-dubai",
+    "/yachts"
+  ],
+  "image_asset_files_verified": 356,
+  "rendered_page_count": 111,
+  "verification": {
+    "production_build": "passed",
+    "fragment_navigation_regressions": 9,
+    "seo_contract": "passed",
+    "keyword_locks": "passed",
+    "url_stability": "passed"
+  }
+}

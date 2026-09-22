@@ -11,5 +11,14 @@ article h2[id]{scroll-margin-top:110px}
 .pc-reading-text-only .pc-reading-copy{max-width:74ch}
 .blog-rich-body table{display:block;overflow-x:auto;max-width:100%}
 .blog-rich-body img{max-width:100%;height:auto}
+/* Legacy article templates share light surfaces; preserve legible body copy,
+   captions and links instead of inheriting the site's pale gold/dark-theme gray. */
+.blog-page article.bg-white{color:#202c27}
+.blog-page article.bg-white :is(.text-gray-400,.text-gray-500){color:#57635b}
+.blog-page article.bg-white :is(a.text-gold,th.text-gold,span.text-gold),
+.blog-page article.bg-white .blog-rich-body a{color:#725629}
+.blog-page article.bg-white a:hover{color:#243b2c}
+.blog-page article.bg-white :is(.bg-black,.bg-charcoal) :is(.text-gray-400,.text-gray-500){color:#c4cbbf}
+.blog-page article.bg-white :is(.bg-black,.bg-charcoal) a{color:#d8c18a}
 .blog-reading-note{font-family:Inter,sans-serif;font-size:16px;line-height:1.8;color:#536052;margin:18px 0 22px}
 @media(max-width:639px){.blog-article-toc{padding:20px}.blog-article-toc ol{grid-template-columns:1fr}.blog-article-toc a{padding-block:8px}}

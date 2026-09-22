@@ -29,3 +29,14 @@ python3 scripts/audit-blog-pages.py --live --html-dir .blog-audit/live --output 
 ```
 
 The Python audit requires Beautiful Soup and Pillow. The local React render includes HandoffPage data explicitly and does not require a browser server. Production prerendering still uses the existing browser-based build.
+
+## Completed follow-up
+
+- Moved route scrolling inside the content Suspense boundary, so navigation waits for the destination article to commit.
+- Fragment navigation now observes delayed heading insertion and layout changes, decodes fragment IDs, and releases control as soon as the reader interacts. Missing targets have a bounded fallback; leaving a route cancels its pending scroll.
+- Improved body text, captions, table labels and link contrast on light article surfaces while retaining the dark inset treatments.
+- Added nine regression cases for delayed content, encoded and malformed fragments, reader interaction, route cleanup and missing targets.
+- Re-rendered 111 pages, including all 42 articles, the blog listing and linked service/topic destinations. `final-review.json` records 120 distinct article photographs, 1,285 internal article links and zero audit issues. All 356 referenced image files, including responsive sizes and listing images, were retrieved from the reviewed GitHub revision, checked against their Git blob hashes and decoded successfully.
+- The production build, targeted lint, SEO contract, keyword locks and URL stability checks passed. Existing URL and indexing policies are preserved.
+
+To extend the rendered audit to service destinations, pass a JSON array of paths via `BLOG_AUDIT_TARGETS` when running the SSR bundle, then run the Python audit with `--check-targets`. Destination HTML is written beneath the rendered output's `targets` directory. Run the fragment regression suite with `node scripts/test-fragment-navigation.mjs`.

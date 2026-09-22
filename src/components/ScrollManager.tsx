@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { armRevealFailsafe } from '../lib/revealFailsafe'
 import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrollToTop'
+import { scrollToHash } from '../lib/scrollToHash'
 
 /**
  * Handles everything that has to happen when the route changes in this SPA.
@@ -12,7 +13,7 @@ import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrol
  *     Y; the mobile Sheet restores the Y it locked when the menu opened.
  *     `holdScrollTop` pins Y=0 through that unlock (~300ms close animation).
  *
- *  2. Same-page `#hash` still scrolls to the target after layout.
+ *  2. Fragment navigation waits for lazy articles and asynchronous SEO copy.
  *
  *  3. `ScrollTrigger.refresh()` so GSAP start positions match the new page.
  *
@@ -20,7 +21,7 @@ import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrol
  */
 export default function ScrollManager() {
   useScrollTrigger()
-  const { pathname, hash } = useLocation()
+  const { pathname, hash, key } = useLocation()
 
   useLayoutEffect(() => {
     disableScrollRestoration()
@@ -35,17 +36,13 @@ export default function ScrollManager() {
     disableScrollRestoration()
 
     if (hash) {
-      const id = hash.slice(1)
-      const toHash = () => document.getElementById(id)?.scrollIntoView()
-      const raf = requestAnimationFrame(toHash)
-      const later = window.setTimeout(toHash, 120)
+      const releaseHash = scrollToHash(hash)
       const refresh = window.setTimeout(() => {
         ScrollTrigger.refresh()
         armRevealFailsafe()
       }, 80)
       return () => {
-        cancelAnimationFrame(raf)
-        window.clearTimeout(later)
+        releaseHash()
         window.clearTimeout(refresh)
       }
     }
@@ -61,7 +58,7 @@ export default function ScrollManager() {
       releaseHold()
       window.clearTimeout(refresh)
     }
-  }, [pathname, hash])
+  }, [pathname, hash, key])
 
   return null
 }
