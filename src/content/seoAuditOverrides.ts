@@ -110,7 +110,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     title: 'Live Cooking Stations Dubai | myCHEF',
   },
   '/partners': {
-    title: 'Partners | myCHEF',
+    title: 'Partners | Concierge & Event Planners Dubai | myCHEF',
   },
   '/referral-programme': {
     title: 'Referral Programme Dubai | myCHEF',
