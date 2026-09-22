@@ -1,0 +1,35 @@
+{
+  "pages": 92,
+  "minimumWords": 1126,
+  "photographs": 211,
+  "uniquePhotographs": 211,
+  "issues": [],
+  "duplicateTitles": {},
+  "duplicateDescriptions": {},
+  "duplicatedPhotographs": {},
+  "verifiedContentCommit": "468332f734b03c2e694fe93eb89ff8dd260415c8",
+  "deployment": "Vercel production: success",
+  "browserReview": {
+    "viewportWidth": 1348,
+    "routes": [
+      "/catering-dubai",
+      "/school-catering-dubai",
+      "/yachts",
+      "/private-party-catering-dubai",
+      "/wedding-catering-dubai"
+    ],
+    "horizontalOverflow": false,
+    "yachtOriginalPhotos": 21
+  },
+  "calculatorEnquiryCheck": {
+    "format": "buffet",
+    "guests": 30,
+    "staff": "none",
+    "estimateAed": [
+      3600,
+      5040
+    ],
+    "guestCountAndEstimatePreservedOnEnquiry": true,
+    "formSubmitted": false
+  }
+}

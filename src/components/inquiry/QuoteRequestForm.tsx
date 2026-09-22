@@ -114,8 +114,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
   return (
     <form onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
       <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
-        This brief is for <span className="text-[#1B2A4A]">{serviceType}</span>
-        {sourcePath && sourcePath !== '/inquiry' ? ` · ${sourcePath}` : ''}.
+        Selected service: <span className="text-[#1B2A4A]">{serviceType}</span>.
       </p>
       {chef ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">

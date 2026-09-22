@@ -425,8 +425,7 @@ export default function PrivatePartyCatering() {
             These sample briefs show how menus and service can work for different gatherings. Explore more planning ideas and our yacht portfolio through{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
-            </Link>{' '}
-            .
+            </Link>.
           </BodyCopy>
           <div className="grid md:grid-cols-3 gap-8">
             {exampleEvents.map((item) => (
