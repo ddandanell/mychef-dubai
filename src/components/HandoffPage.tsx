@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import EditorialHero from './private-chef/EditorialHero'
 import { isChefDesignPage } from '@/content/privateChefDesign'
 import { useEffect, useRef, useState, type ReactNode } from 'react'
@@ -228,7 +229,7 @@ export default function HandoffPage() {
       <SEO title={seoTitle} description={head.meta_description} canonicalPath={pathname} schema={schema} />
 
       {/* Hero */}
-      {isChefDesignPage(pathname) ? <EditorialHero eyebrow="MYCHEF · PRACTICAL GUIDES" title={heading} subtitle={opening} cta={{label:"Explore household plans",href:"/private-chef-dubai/pricing"}} secondaryCta={{label:"Ask myCHEF",href:"/inquiry"}}/> : (<section className="relative bg-black overflow-hidden section-padding pt-32 md:pt-40">
+      {isChefDesignPage(pathname) ? <EditorialHero eyebrow="MYCHEF · PRACTICAL GUIDES" title={heading} subtitle={opening} cta={{label:"Explore household plans",href:"/private-chef-dubai/pricing"}} secondaryCta={{label:"Ask myCHEF",href:"/inquiry"}}/> : (<NonCateringVisual><section className="relative bg-black overflow-hidden section-padding pt-32 md:pt-40">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(200,164,92,0.12)_0%,transparent_60%)]" />
         <div className="relative z-10 container-custom max-w-[900px]">
           <nav className="mb-6">
@@ -253,14 +254,14 @@ export default function HandoffPage() {
             </p>
           )}
         </div>
-      </section>)}
+      </section></NonCateringVisual>)}
 
       <TrustSignalStrip />
 
       {/* Body */}
       <article className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
-          {heroImage && !isChefDesignPage(pathname) && <BlogFigure image={heroImage} priority />}
+          {heroImage && !isChefDesignPage(pathname) && <NonCateringVisual><BlogFigure image={heroImage} priority /></NonCateringVisual>}
 
           {showToc && (
             <nav aria-label="Table of contents" className="mb-12 rounded-2xl border border-gray-200 bg-cream p-6">
@@ -292,7 +293,7 @@ export default function HandoffPage() {
                     {linkify(p, pathname, linkState, `${bi}-${i}`)}
                   </p>
                 ))}
-                {inline && <BlogFigure image={inline} />}
+                {inline && <NonCateringVisual><BlogFigure image={inline} /></NonCateringVisual>}
               </section>
             )
           })}

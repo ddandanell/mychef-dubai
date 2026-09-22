@@ -1,0 +1,40 @@
+{
+  "path": "/staff-meals-catering-dubai",
+  "title": "Agree a meal plan that can be delivered consistently",
+  "focus": "Define the workforce, service days and meal windows, including any shift patterns. A recurring arrangement needs a clear menu cycle, portion expectations and a process for updating numbers. Confirm whether the food is delivered in individual portions or served at a shared point, and who manages receipt and distribution. Dietary information should remain easy to update as the team changes. Regular feedback helps keep the meals suitable while the written agreement provides a clear basis for billing.",
+  "sections": [
+    {
+      "id": "institutional",
+      "title": "Build a repeatable service specification",
+      "paragraphs": [
+        "An ongoing food-service arrangement needs a more detailed brief than a one-off event. Define the number of meals, service days, delivery or preparation location and the people responsible for receiving and approving the food. If volumes vary, explain how changes will be communicated and confirmed.",
+        "Menu cycles, portions, dietary requirements and reporting should be discussed with the proposed provider. The relevant organisation may have its own approval process and documentation requirements, which need to be understood before a service is agreed. Avoid assuming that an event menu automatically suits a recurring institutional setting.",
+        "A useful proposal sets out the responsibilities on both sides, including facilities, equipment, service windows and review points. Any specialist requirements should be assessed explicitly. The result should be a workable specification that the organisation and culinary partner can evaluate together before moving into delivery."
+      ]
+    },
+    {
+      "id": "dropoff",
+      "title": "Make the delivery handover clear",
+      "paragraphs": [
+        "For food-only delivery, nominate someone who will receive the order and confirm the handover details. Share the exact address, access instructions and requested delivery window. If the location is inside a larger building, include the floor, reception process and any restrictions on deliveries.",
+        "Know what happens next. Your team may need to arrange the food, provide serving items, replenish the table and handle clear-down. Ask which packaging, labels and serving guidance are included, and check whether any equipment is supplied or needs to be arranged separately.",
+        "The menu should suit the interval between delivery and eating. Tell the team if food will be served later or in several stages so the request can be assessed appropriately. Follow the dish-specific instructions provided at handover and ask for clarification where needed. A clear delivery arrangement gives you convenience without leaving important responsibilities undefined."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/corporate",
+      "label": "Corporate dining"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/ramadan-iftar-catering-trends-2026
 //     primary:     "ramadan catering trends dubai 2026"
@@ -114,16 +115,16 @@ export default function RamadanIftarTrends2026() {
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Ramadan 2026"
         title="Ramadan Catering Trends Dubai 2026"
-        subtitle="What hosts are asking for this Ramadan: sharing tables, lighter Emirati staples, and drinks that hydrate first. Not a forecast dressed as fact."
+        subtitle="What hosts are asking for this Ramadan: sharing tables, lighter Emirati staples, and drinks that hydrate first. Practical ideas to consider for your own gathering."
         image="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         imageAlt="Ramadan Iftar catering trends Dubai 2026"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Ramadan Iftar Trends 2026' }]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -192,7 +193,7 @@ export default function RamadanIftarTrends2026() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Sharing-style service is particularly effective for mixed groups where some guests prefer light salads while others want a full hot meal. It offers flexibility without the formality of plated courses.
             </p>
-            <BlogFigure
+            <NonCateringVisual><BlogFigure
               image={{
                 src: '/images/blog/ramadan-iftar-catering-trends-2026-2.webp',
                 alt: 'Late-night suhoor table with coffee and light bites after midnight',
@@ -200,7 +201,7 @@ export default function RamadanIftarTrends2026() {
                 height: 1280,
                 caption: 'Suhoor is a different meal and a different clock. The team is still there after midnight.',
               }}
-            />
+            /></NonCateringVisual>
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -213,7 +214,7 @@ export default function RamadanIftarTrends2026() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Smart hosts now provide water and electrolyte-rich options not only at Iftar but also throughout the evening. This is especially appreciated at corporate events where guests may return to work or evening engagements.
             </p>
-            <BlogFigure
+            <NonCateringVisual><BlogFigure
               image={{
                 src: '/images/blog/ramadan-iftar-catering-trends-2026-3.webp',
                 alt: 'Mocktail and water station at an iftar, citrus and jugs, no alcohol',
@@ -221,7 +222,7 @@ export default function RamadanIftarTrends2026() {
                 height: 1280,
                 caption: 'Drinks at iftar are hydration first. Juice, water, citrus: not a bar as the product.',
               }}
-            />
+            /></NonCateringVisual>
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">

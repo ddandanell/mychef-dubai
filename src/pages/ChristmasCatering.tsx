@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /christmas-catering-dubai
 //     primary:     "christmas catering dubai"
@@ -358,7 +359,7 @@ export default function ChristmasCatering() {
       />
 
       {/* ═══════════════ 1. Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: `url(${HERO_IMAGE})` }}
@@ -397,7 +398,7 @@ export default function ChristmasCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 
@@ -415,7 +416,7 @@ export default function ChristmasCatering() {
         <div className="container-custom max-w-[820px]">
           <SectionLabel>Christmas dinner, cooked at your address</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 leading-[1.08] text-black mb-6">
-            A chef in your kitchen on the one day you would rather not be in it
+            Christmas dinner prepared while you enjoy the celebration
           </h2>
           <p className="font-inter text-body-lg text-gray-600 leading-relaxed mb-5">
             Christmas catering in Dubai brings a chef and service team to your home, office or chartered yacht. Plan a traditional dinner, a relaxed terrace lunch or a menu that reflects your family’s celebrations, with practical arrangements agreed around the venue.

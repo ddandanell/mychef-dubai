@@ -1,3 +1,4 @@
+import CateringExpansion, { CateringHero } from './components/catering/CateringEditorial'
 import { Suspense, useEffect } from 'react'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
@@ -55,12 +56,14 @@ export default function App() {
             <Layout>
               <RouteErrorBoundary pathname={pathname}>
                 <Suspense fallback={null}>
+                  <CateringHero />
                   <Routes>
                     {routes.map((route) => (
                       <Route key={route.path} path={route.path} element={route.element} />
                     ))}
                   </Routes>
                   <PrivateChefExpansion />
+                  <CateringExpansion />
                 </Suspense>
               </RouteErrorBoundary>
             </Layout>

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /sushi-catering-dubai
 //     primary:     "sushi catering dubai"
@@ -160,7 +161,7 @@ const faqs = [
   { q: "What is included in your sushi catering price?", a: "Our sushi catering includes menu design, sourcing and preparing the fish, on-site slicing and plating, styling of platters and stations, and full cleanup afterwards. There are no hidden extras hiding behind a low headline number, which makes it easy to compare our quote to others. See exactly [what's included in our catering](/catering-dubai) and how we work end to end." },
   { q: "Is there a minimum order for sushi catering?", a: "We cater sushi for gatherings of most sizes, from an intimate villa dinner to a large reception, and we'll advise the most sensible format for your group when we quote. Smaller bookings usually work best as platters or a sashimi centrepiece, while bigger events suit a live station or passed canapes. Share your guest count and we'll tell you the best fit." },
   { q: "Do you handle everything or just drop off the sushi?", a: "We handle everything ourselves, from sourcing and preparing the fish to slicing, plating, styling, and clearing away at the end. This is full-service catering rather than a drop-off tray, so your evening runs smoothly without you lifting a finger. Learn more about [how we work](/how-it-works) from first enquiry to the final clean-up." },
-  { q: "Is your sushi prepared to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and raw fish for sushi and sashimi is handled and stored to the strict requirements Dubai sets for serving it. We manage the cold chain carefully so everything reaches your guests fresh and safe. Food safety is never something we cut corners on." },
+  { q: "Is your sushi prepared to Dubai food-safety standards?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is your sushi halal?", a: "Yes. We source halal by default, and fish is naturally permissible in Islam whether served raw or cooked, so our sashimi, nigiri, and rolls are suitable for halal guests. We prepare without alcohol-based ingredients unless you specifically request otherwise. Just let us know your requirements when we plan your menu." },
   { q: "Can you accommodate gluten-free, nut, and other allergies?", a: "Yes. We can prepare gluten-free sushi using tamari in place of regular soy, and we take nut, shellfish, and other allergies seriously with careful separation during preparation. Sashimi is naturally gluten-free, and we clearly flag which pieces suit which guests. Tell us about any dietary needs early so we can build them into the menu." },
   { q: "Can you cater sushi alongside cooked dishes and other cuisines?", a: "Absolutely. Sushi works beautifully as one part of a wider spread, and we can pair it with tempura, teriyaki, hot Asian dishes, or a completely different cuisine at the same event. Many clients use a sushi station as a showpiece next to a fuller menu. Browse our Asian catering options to see how it all comes together." },
@@ -298,7 +299,7 @@ export default function SushiCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/sushi-catering-dubai-hero.webp)' }}
@@ -334,14 +335,14 @@ export default function SushiCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">ARTISAN SUSHI IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Counter, platter, or both. Ice time is the brief.
+            Chilled platters and live sushi counters
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Sushi catering in Dubai can be served from a live counter or as chilled platters, with rolling, presentation and replenishment timed for your guests. We assess the space and refrigeration available at villas, offices and yachts, and discuss shellfish, soy, gluten and other dietary requirements before confirming the menu.
@@ -432,7 +433,7 @@ export default function SushiCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Sushi Catering
@@ -450,7 +451,7 @@ export default function SushiCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -499,13 +500,13 @@ export default function SushiCatering() {
                 to={svc.link}
                 className="sush-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

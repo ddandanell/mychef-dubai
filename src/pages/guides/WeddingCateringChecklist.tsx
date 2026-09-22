@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /wedding-catering-checklist-dubai
 //     primary:     "wedding catering checklist dubai"
@@ -96,7 +97,7 @@ export default function WeddingCateringChecklist() {
       />
 
       <div className="print-hide">
-        <PageHero
+        <NonCateringVisual><PageHero
           variant="quiet"
           eyebrow="Wedding Catering Checklist Dubai"
           title="Wedding Catering Checklist Dubai"
@@ -115,14 +116,14 @@ export default function WeddingCateringChecklist() {
           ]}
           minHeight="tall"
           overlay="dark"
-        />
+        /></NonCateringVisual>
         <TrustSignalStrip />
       </div>
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>THE JOB OF THIS PAGE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">A sequence, not a brochure</DisplayHeading>
+          <SectionLabel>YOUR WEDDING PLANNING GUIDE</SectionLabel>
+          <DisplayHeading className="text-black mb-6">A practical sequence for planning your wedding meal</DisplayHeading>
           <BodyCopy className="mb-5">
             Use this wedding catering checklist to organise the decisions from your first enquiry to the final service plan. For menu and booking options, explore{' '}
             <Link to={WEDDING_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
@@ -155,7 +156,7 @@ export default function WeddingCateringChecklist() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE FIRST BRIEF</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What to send so we can answer honestly</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">The details that help us prepare your proposal</DisplayHeading>
           <BodyCopy className="mb-8">
             You do not need a Pinterest board. You need the facts that change the kitchen plan.
           </BodyCopy>

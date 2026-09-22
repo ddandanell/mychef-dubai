@@ -26,7 +26,7 @@ const config: DietaryPageConfig = {
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan Jain catering in Dubai (via mychef.ae/jain-catering-dubai)",
   eyebrow: 'JAIN CATERING IN DUBAI',
-  introH2: 'No onion, no garlic, no roots. A proper table anyway.',
+  introH2: 'A generous Jain menu within your agreed requirements',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -96,7 +96,7 @@ const config: DietaryPageConfig = {
     },
   ],
   useCasesEyebrow: 'WHERE JAIN CATERING IS ESSENTIAL',
-  useCasesH2: 'The rules first. The menu second.',
+  useCasesH2: 'Your observances guide the menu',
   useCases: [
     {
       title: 'Jain weddings and engagements',
@@ -119,7 +119,7 @@ const config: DietaryPageConfig = {
         'Regular vegetarian food still uses onion and garlic. Jain is first-class here, not a note in brackets. Separate prep where the kitchen allows.',
     },
   ],
-  includedH2: 'What a Jain booking actually covers',
+  includedH2: 'What your Jain catering proposal includes',
   includedItems: [
     { title: 'No onion or garlic', description: 'Alliums stay off the pot. We do not hide them in a stock or a powder.' },
     { title: 'No root vegetables', description: 'Potato, carrot, radish, beetroot and similar stay off unless your community’s practice says otherwise in writing.' },

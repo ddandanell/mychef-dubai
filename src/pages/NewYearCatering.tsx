@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /new-year-catering-dubai
 //     primary:     "new year catering dubai"
@@ -143,7 +144,7 @@ const faqs = [
   { q: "Why does New Year's Eve catering cost more than a regular event?", a: "New Year's Eve is Dubai's busiest night of the year, so ingredient sourcing, chef availability, and staffing all come at a premium during the countdown period. We stay transparent about this in your quote and show exactly what your investment covers, from menu design and shopping to on-site cooking, plating, and full cleanup. Booking early is the best way to lock in the format you want before peak demand fills our calendar." },
   { q: "What exactly is included in a New Year's Eve catering booking?", a: "Every booking includes custom menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards, so you are not left with a kitchen to manage at midnight. We also structure the countdown moment with a midnight toast service, and serving staff and bartenders are available as an option scaled to your guest list. You host and enjoy the evening while our team handles every detail end to end." },
   { q: "Is your New Year's Eve catering halal?", a: "Yes, our New Year's Eve menus are halal sourced by default, using suppliers that meet Dubai food-safety standards. If your celebration includes guests with specific dietary or religious requirements, just tell us in advance and we adjust the menu accordingly. You can see how we approach this across our wider [halal catering in Dubai](/halal-catering-dubai)." },
-  { q: "Are your chefs and kitchens licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your New Year's Eve celebration is handled with proper hygiene and preparation controls. We manage sourcing, storage, and on-site cooking ourselves rather than outsourcing it, which keeps quality consistent from prep through to service. You can learn more about our team and standards on our [about page](/about)." },
+  { q: "Are your chefs and kitchens licensed and food-safe?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "What is the minimum number of guests for New Year's Eve catering?", a: "We cater New Year's Eve celebrations across a wide range of sizes, from intimate dinners for a handful of guests to villa parties of several hundred. Rather than enforcing a rigid minimum, we scale the menu, kitchen setup, and staffing to fit your group and format. Share your expected headcount and we will recommend the format that works best for the night." },
   { q: "Can you cater a last-minute New Year's Eve booking?", a: "We do take late New Year's Eve bookings when our calendar allows, but the countdown period books up quickly, so availability is never guaranteed at the last minute. The sooner you reach out, the more menu, staffing, and format options remain open for your date. Message us and we typically reply within 15 minutes during business hours to confirm whether we can accommodate you." },
   { q: "Do you provide serving staff and waiters for the evening?", a: "Yes, professional serving staff, hosts, and bartenders are available as an option and scaled to your guest count and service style. For a formal gala dinner we bring plated-service waiters, while a canapé countdown party is staffed for circulating service and drinks. You tell us the format and we build the right team around it so service stays smooth from arrival to midnight." },
@@ -289,7 +290,7 @@ export default function NewYearCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/new-year-catering-dubai-hero.webp)' }}
@@ -326,7 +327,7 @@ export default function NewYearCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 
@@ -344,7 +345,7 @@ export default function NewYearCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">Dubai's Biggest Night</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            New Year catering Dubai: timed to midnight, not to a restaurant sitting
+            New Year catering Dubai, planned around the countdown
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             New Year’s Eve catering brings the meal, service and countdown together. We coordinate kitchen preparation, guest service and the agreed midnight toast with your venue or yacht operator, so the evening follows a clear plan.
@@ -363,7 +364,7 @@ export default function NewYearCatering() {
         <div className="container-custom max-w-[900px] text-center">
           <SectionLabel align="center">Who Our NYE Catering Is For</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Hosts who do not want to run the kitchen at midnight
+            Celebrate with your guests throughout the evening
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             New Year catering Dubai is for villa countdown parties, family tables, year-end galas and yachts you have chartered. We also cook in hotel suites, rooftop terraces and boardrooms. Menu, format and staffing follow the occasion and the room. You host; the team cooks, serves and clears after midnight.
@@ -550,13 +551,13 @@ export default function NewYearCatering() {
                 to={svc.link}
                 className="nye-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /catering-cost-calculator-dubai
 //     primary:     "catering cost calculator dubai"
@@ -113,14 +114,14 @@ export default function CateringCostCalculator() {
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="PRICING TOOL"
         title="Catering Cost Calculator Dubai"
         subtitle={"Use our catering cost calculator for Dubai to explore an indicative price by format, guest count and staffing. The estimate is a planning guide; your written proposal confirms the complete scope and total."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cost Calculator' }]}
         minHeight="medium"
         overlay="dark"
-      />
+      /></NonCateringVisual>
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
@@ -263,7 +264,7 @@ export default function CateringCostCalculator() {
       <section ref={faqRef} className="bg-cream section-padding">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-12">
-            What this calculator will not invent
+            How to use your planning estimate
           </h2>
 
           <div className="space-y-6">

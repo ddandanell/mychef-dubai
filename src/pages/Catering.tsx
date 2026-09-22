@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /catering-dubai
 //     primary:     "catering dubai"
@@ -107,7 +108,7 @@ export default function Catering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Catering Dubai"
         title="Catering Dubai — buffets, canapés and chef-led service"
         subtitle={"Catering in Dubai, tailored to your venue, guests and occasion. Drop-off menus start from AED 90 per person for 10 guests, with a minimum order of AED 900. Staffed buffets start from AED 120 for 20 guests, canapés from AED 150, bespoke plated dining from AED 700 and yacht catering from AED 280. Your proposal confirms staffing, setup and any optional event support."}
@@ -122,7 +123,7 @@ export default function Catering() {
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="full"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -142,7 +143,7 @@ export default function Catering() {
       <Section tone="ivory" rhythm="connected">
         <Container>
           <SectionLabel>HOW THIS IS RUN</SectionLabel>
-          <DisplayHeading className="text-black mb-8">Standards you can open, not slogans</DisplayHeading>
+          <DisplayHeading className="text-black mb-8">Explore our service approach</DisplayHeading>
           <ul className="grid md:grid-cols-2 gap-x-10 gap-y-5 max-w-4xl">
             {proofItems.map((item) => (
               <li key={item.title}>
@@ -266,7 +267,7 @@ export default function Catering() {
       <Section tone="white" rhythm="standard">
         <Container className="max-w-3xl">
           <SectionLabel>PRIVATE CHEF OR CATERING</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Two doors: the house, or the night</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Household chef services and event catering</DisplayHeading>
           <BodyCopy className="mb-4">
             <strong className="text-black">Private chef:</strong> the same person comes back most weeks, with a Food
             Profile of how your house eats and backup when they are off. Priced per visit, from AED 750.
@@ -318,7 +319,7 @@ export default function Catering() {
         <Container>
           <span id="layers" className="block scroll-mt-24" aria-hidden />
           <SectionLabel>THE RANGE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Catering Dubai, in layers. Stop wherever it works.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Catering Dubai with the support your occasion needs</DisplayHeading>
           <BodyCopy className="mb-4">
             Start with food. Add only what the night actually needs. You do not buy a complete event package to get
             the food right, and the quote is itemised so you can see what each layer costs before you keep it.
@@ -467,7 +468,7 @@ export default function Catering() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS IS RUN</SectionLabel>
-          <DisplayHeading className="text-black mb-12">What each standard actually means</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">How our service standards apply to your booking</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {proofItems.map((item) => (
               <div key={item.title} className="border-t border-gray-200 pt-6">

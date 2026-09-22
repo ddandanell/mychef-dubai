@@ -1,0 +1,44 @@
+{
+  "path": "/vegan-catering-dubai",
+  "title": "Give the plant-based menu its own character",
+  "focus": "Build the meal around flavour and texture: roasted vegetables, grains, pulses, fresh herbs and considered sauces can provide a satisfying sequence. Choose the format that suits your event, from substantial reception bites to a shared meal or plated courses. Review every component, including stocks, bread, pastry and garnishes, against the agreed vegan brief. If guests also have allergies, discuss those separately. A complete menu should feel intentional from the welcome food through dessert.",
+  "sections": [
+    {
+      "id": "plant-based",
+      "title": "Make plant-based food a complete experience",
+      "paragraphs": [
+        "A plant-based menu should offer substance, contrast and variety. Consider a combination of vegetables, grains, legumes and sauces, with textures that make the meal satisfying from the first course to the last. The aim is a selection guests will enjoy for its flavour and balance.",
+        "Be precise about the brief. Vegetarian, vegan and dairy-free requests are different, and allergies require separate attention. Ingredients in stocks, dressings, breads and desserts should be reviewed as carefully as the main dishes. If some guests are eating another menu, discuss how alternatives will be identified and served.",
+        "Choose dishes that suit the occasion. Small handheld bites can work well for a reception, while a seated meal may call for a more substantial centrepiece. A considered plant-based option belongs within the overall menu and service plan, with its own proper portion and presentation."
+      ]
+    },
+    {
+      "id": "menu",
+      "title": "Give the menu a clear direction",
+      "paragraphs": [
+        "Begin with a few dishes or flavours that your guests will enjoy, then build a balanced selection around them. A strong menu includes variety in texture, colour and richness without trying to cover every possible preference with a separate dish. The most useful question is how the food will work as a complete meal or reception.",
+        "Consider the time of day and the length of service. A short welcome reception needs a different amount and style of food from an evening where canapés replace dinner. Similarly, a working lunch should be easy to serve and enjoy within the available break.",
+        "Menu examples are a starting point for discussion. Ingredients, dietary variations and the practical requirements of your venue need to be reviewed before the final selection is confirmed. That gives the team room to recommend food that suits the occasion and can be served well."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/cuisines-dubai",
+      "label": "Cuisines"
+    },
+    {
+      "href": "/vegetarian-catering-dubai",
+      "label": "Vegetarian catering"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /how-to-choose-caterer-dubai
 //     primary:     "how to choose a caterer dubai"
@@ -246,7 +247,7 @@ export default function HowToChooseCatererDubai() {
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
@@ -283,7 +284,7 @@ export default function HowToChooseCatererDubai() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 

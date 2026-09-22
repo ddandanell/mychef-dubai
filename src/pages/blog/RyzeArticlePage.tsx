@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { Link, useLocation } from 'react-router'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
@@ -73,7 +74,7 @@ export default function RyzeArticlePage() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="myCHEF Guide"
         title={article.title}
         subtitle={article.excerpt}
@@ -86,7 +87,7 @@ export default function RyzeArticlePage() {
         ]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
 
       <TrustSignalStrip />
 

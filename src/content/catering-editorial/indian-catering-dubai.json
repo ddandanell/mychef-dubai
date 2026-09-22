@@ -1,0 +1,48 @@
+{
+  "path": "/indian-catering-dubai",
+  "title": "Choose the regional dishes your guests will recognise and enjoy",
+  "focus": "Start with the culinary direction: a North Indian celebration, South Indian meal or a selection of family favourites. Balance rice, breads, vegetables, pulses and main dishes so each part has a purpose. A live dosa, tandoor or chaat station can add interest when the venue and programme support it. Discuss spice preferences dish by dish and confirm Jain or other observances precisely. The final menu should bring regional character and thoughtful service together, without overwhelming guests with too many choices.",
+  "sections": [
+    {
+      "id": "regional",
+      "title": "Choose a regional direction before expanding the selection",
+      "paragraphs": [
+        "A broad cuisine name can cover many different dishes and traditions. Share the region, flavours or family favourites you have in mind so the chef can build a menu with a clear identity. If there are particular ingredients or preparations you expect, describe them rather than relying only on a familiar dish name.",
+        "A focused menu often feels more coherent than a long list of unrelated favourites. Think about how starters, main dishes, sides and desserts complement one another, and how they will be served. The menu should offer enough variety for the group while remaining practical for the kitchen and service format.",
+        "Tell us about spice preferences and essential dietary requirements early. These may affect the choice of dishes as well as individual recipes. The final selection can then reflect the food you enjoy with a clear understanding of what will be prepared for your occasion."
+      ]
+    },
+    {
+      "id": "menu",
+      "title": "Give the menu a clear direction",
+      "paragraphs": [
+        "Begin with a few dishes or flavours that your guests will enjoy, then build a balanced selection around them. A strong menu includes variety in texture, colour and richness without trying to cover every possible preference with a separate dish. The most useful question is how the food will work as a complete meal or reception.",
+        "Consider the time of day and the length of service. A short welcome reception needs a different amount and style of food from an evening where canapés replace dinner. Similarly, a working lunch should be easy to serve and enjoy within the available break.",
+        "Menu examples are a starting point for discussion. Ingredients, dietary variations and the practical requirements of your venue need to be reviewed before the final selection is confirmed. That gives the team room to recommend food that suits the occasion and can be served well."
+      ]
+    },
+    {
+      "id": "plant-based",
+      "title": "Make plant-based food a complete experience",
+      "paragraphs": [
+        "A plant-based menu should offer substance, contrast and variety. Consider a combination of vegetables, grains, legumes and sauces, with textures that make the meal satisfying from the first course to the last. The aim is a selection guests will enjoy for its flavour and balance.",
+        "Be precise about the brief. Vegetarian, vegan and dairy-free requests are different, and allergies require separate attention. Ingredients in stocks, dressings, breads and desserts should be reviewed as carefully as the main dishes. If some guests are eating another menu, discuss how alternatives will be identified and served.",
+        "Choose dishes that suit the occasion. Small handheld bites can work well for a reception, while a seated meal may call for a more substantial centrepiece. A considered plant-based option belongs within the overall menu and service plan, with its own proper portion and presentation."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/cuisines-dubai",
+      "label": "Cuisines"
+    },
+    {
+      "href": "/halal-catering-dubai",
+      "label": "Halal catering"
+    },
+    {
+      "href": "/vegetarian-catering-dubai",
+      "label": "Vegetarian catering"
+    }
+  ]
+}

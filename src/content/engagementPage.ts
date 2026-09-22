@@ -73,19 +73,19 @@ export const jumpNav = [
 
 export const whoLeaves = [
   {
-    title: 'The proposal is not this page',
+    title: 'Planning the proposal celebration',
     body: 'One person, one table, a ring. That night belongs on the proposal dinner page — or a romantic dinner if you have not opened that URL yet.',
     href: '/proposal-dinner-dubai',
     linkLabel: 'Proposal dinner in Dubai',
   },
   {
-    title: 'The wedding is not this page',
+    title: 'Looking ahead to the wedding meal',
     body: 'Once you are planning the marriage — tastings, timings, a guest list that is already a seating chart — that is wedding catering.',
     href: '/wedding-catering-dubai',
     linkLabel: 'Wedding catering in Dubai',
   },
   {
-    title: 'Two covers is not this page',
+    title: 'An intimate dinner for two',
     body: 'If it is just the two of you and a chef, start with a romantic dinner. A private chef cooking in your kitchen is the better product when everyone sits at one table.',
     href: '/romantic-dinner-dubai',
     linkLabel: 'Romantic dinner in Dubai',
@@ -101,7 +101,7 @@ export const whoLeaves = [
 ] as const
 
 export const whatItIs = {
-  h2: 'What engagement party catering Dubai actually covers',
+  h2: 'Engagement party catering Dubai, tailored to your celebration',
   paragraphs: [
     "Engagement catering in Dubai combines a welcoming menu, a considered service plan and room for both families to enjoy the celebration. We coordinate the food around your venue, guest list and any planned toast.",
     'A small engagement still belongs here when one stove cannot plate the room. Six people at one table is an engagement dinner a private chef can run. Parents, siblings and friends standing in the garden need a team.',

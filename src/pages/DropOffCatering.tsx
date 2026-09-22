@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /drop-off-catering-dubai
 //     primary:     "drop off catering dubai"
@@ -67,7 +68,7 @@ const formats = [
 const includedItems = [
   {
     title: 'Menu designed to travel',
-    body: 'A drop off catering menu in Dubai is built around hold time, not a restaurant pass. Texture and temperature have to survive the van.',
+    body: 'A drop off catering menu in Dubai is selected for the delivery journey and the planned serving time, with suitable packaging and clear handover guidance.',
   },
   {
     title: 'Cooking in a licensed kitchen',
@@ -139,7 +140,7 @@ const faqs = [
   },
   {
     q: 'How much does drop off catering cost in Dubai?',
-    a: 'The published drop off catering price per person in Dubai starts from AED 90 for a working-lunch spread. Ten guests minimum. AED 900 minimum order. 5% VAT is shown separately. A staffed buffet starts from AED 120. Live stations and canapés from AED 150. A chef cooking and plating on site is AED 700–950 per person — that gap is labour in the room, not a different sandwich. See the [catering prices guide](/dubai-catering-prices-guide).',
+    a: 'The published drop off catering price per person in Dubai starts from AED 90 for a working-lunch spread. Ten guests minimum. AED 900 minimum order. 5% VAT is shown separately. A staffed buffet starts from AED 120. Live stations and canapés from AED 150. A chef cooking and plating on site is AED 700–950 per person with preparation and service planned around the meal. See the [catering prices guide](/dubai-catering-prices-guide).',
   },
   {
     q: 'Is delivery free?',
@@ -270,7 +271,7 @@ export default function DropOffCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Drop-off catering"
         title="Drop Off Catering Dubai: Food That Arrives Without a Team"
         subtitle={"Freshly prepared meals and platters from licensed partner kitchens, delivered with clear labels and serving guidance for your own team to present."}
@@ -288,7 +289,7 @@ export default function DropOffCatering() {
         ]}
         minHeight="full"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -308,7 +309,7 @@ export default function DropOffCatering() {
       <Section id="what-this-is" tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Food cooked for a room you already have</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Prepared food delivered for your occasion</DisplayHeading>
           <BodyCopy className="mb-5">
             Drop-off catering in Dubai provides prepared food delivered ready for your own team to serve. Your order includes labelled boxes or platters, any necessary reheating guidance and an agreed delivery window. On-site staff can be discussed as a separate service.
           </BodyCopy>
@@ -336,7 +337,7 @@ export default function DropOffCatering() {
       <Section id="not-this-page" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>NOT THIS PAGE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">If you still need people in the room, leave here</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Need help with service as well as delivery?</DisplayHeading>
           <BodyCopy className="mb-10">
             Drop-off is the right product when a colleague can lift lids and the food can sit. It is the wrong product when the impression in the room depends on service. The next step is the page that owns that job.
           </BodyCopy>
@@ -359,10 +360,10 @@ export default function DropOffCatering() {
       </Section>
 
       <Section tone="ivory" rhythm="connected">
-        <Container className="grid gap-10 lg:grid-cols-2 lg:items-center">
+        <Container className="grid gap-10 lg:grid-cols-2 lg:items-center" data-catering-text-layout>
           <div>
             <SectionLabel>WHO IT IS FOR</SectionLabel>
-            <DisplayHeading className="text-black mb-6">Working lunches and houses that do not want a brigade</DisplayHeading>
+            <DisplayHeading className="text-black mb-6">Convenient food for offices and private gatherings</DisplayHeading>
             <BodyCopy className="mb-5">
               A training room. A board lunch where the agenda matters more than table service. A villa Saturday when you would rather not have waiters in the kitchen. A headcount you already know, a surface to unpack onto, and no need for anyone to restock the tray.
             </BodyCopy>
@@ -374,13 +375,13 @@ export default function DropOffCatering() {
               . That is the weekly rhythm. This page is the single drop.
             </BodyCopy>
           </div>
-          <EditorialImage
+          <NonCateringVisual><EditorialImage
             src="/menu-appetizer.webp"
             alt="Shareable drop-off platters packed for a Dubai lunch."
             width={1024}
             height={1024}
             aspect="aspect-[4/3]"
-          />
+          /></NonCateringVisual>
         </Container>
       </Section>
 
@@ -429,7 +430,7 @@ export default function DropOffCatering() {
       </Section>
 
       <Section id="constraint" tone="white" rhythm="chapter">
-        <Container className="grid gap-10 lg:grid-cols-2 lg:items-start">
+        <Container className="grid gap-10 lg:grid-cols-2 lg:items-start" data-catering-text-layout>
           <div>
             <SectionLabel>THE CONSTRAINT</SectionLabel>
             <DisplayHeading className="text-black mb-6">How drop off catering Dubai holds heat without a team</DisplayHeading>
@@ -443,13 +444,13 @@ export default function DropOffCatering() {
               Ten guests and AED 900 is the floor. Below that, the van and the packing stop making sense against the food — a private chef in the kitchen is the honest product, with no headcount minimum.
             </BodyCopy>
           </div>
-          <EditorialImage
+          <NonCateringVisual><EditorialImage
             src="/menu-meat.webp"
             alt="Hot mains packed in transport containers for drop-off catering in Dubai."
             width={1024}
             height={1024}
             aspect="aspect-[4/3]"
-          />
+          /></NonCateringVisual>
         </Container>
       </Section>
 
@@ -497,7 +498,7 @@ export default function DropOffCatering() {
             </table>
           </div>
           <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-6 max-w-[65ch]">
-            We do not advertise free delivery. A weekday office and a Saturday villa are different jobs, and the line item says so. Worked examples live on the{' '}
+            Delivery arrangements and any applicable charge are confirmed for your address, date and service requirements. Worked examples live on the{' '}
             <Link to="/dubai-catering-prices-guide" className="text-gold underline underline-offset-4 hover:text-gold-light">
               catering prices guide
             </Link>
@@ -506,13 +507,13 @@ export default function DropOffCatering() {
         </Container>
       </Section>
 
-      <Section tone="dark" rhythm="chapter">
+      <NonCateringVisual><Section tone="dark" rhythm="chapter">
         <Container>
           <SectionLabel tone="dark">GALLERY</SectionLabel>
           <DisplayHeading className="text-white mb-10">What a drop looks like</DisplayHeading>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             {gallery.map((img) => (
-              <div key={img.src} className="aspect-[4/3] overflow-hidden">
+              <NonCateringVisual key={img.src}><div key={img.src} className="aspect-[4/3] overflow-hidden">
                 <img
                   src={img.src}
                   alt={img.alt}
@@ -522,16 +523,16 @@ export default function DropOffCatering() {
                   loading="lazy"
                   decoding="async"
                 />
-              </div>
+              </div></NonCateringVisual>
             ))}
           </div>
         </Container>
-      </Section>
+      </Section></NonCateringVisual>
 
       <Section id="questions" tone="white" rhythm="standard">
         <Container className="max-w-[800px]">
           <SectionLabel align="center">STILL OPEN</SectionLabel>
-          <DisplayHeading className="text-black text-center mb-10">Questions the page has not closed yet</DisplayHeading>
+          <DisplayHeading className="text-black text-center mb-10">Questions before you book</DisplayHeading>
           <FaqAccordion items={[...faqs]} />
         </Container>
       </Section>
@@ -547,7 +548,7 @@ export default function DropOffCatering() {
                 to={svc.href}
                 className="group bg-black/30 overflow-hidden border border-white/10 hover:border-gold/40 transition-colors"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={`${svc.label} catering in Dubai`}
@@ -557,7 +558,7 @@ export default function DropOffCatering() {
                     loading="lazy"
                     decoding="async"
                   />
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h3 className="font-playfair text-h4 text-white mb-2">{svc.label}</h3>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

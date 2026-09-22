@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /canape-catering-dubai
 //     primary:     "canape catering dubai"
@@ -317,7 +318,7 @@ export default function CanapeCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/canape-catering-dubai-hero.webp)' }}
@@ -352,7 +353,7 @@ export default function CanapeCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -361,7 +362,7 @@ export default function CanapeCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">WHAT THIS IS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Canapé catering Dubai is standing food, not a dinner
+            Canapé catering Dubai for receptions and celebrations
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Canapés let guests enjoy food and conversation without a seated meal. We balance hot and cold selections, portion counts and service frequency around the occasion, venue and length of your reception.
@@ -383,7 +384,7 @@ export default function CanapeCatering() {
       </section>
 
       <section id="finger-food" className="bg-cream section-padding scroll-mt-24">
-        <div className="container-custom grid gap-10 lg:grid-cols-2 lg:items-center">
+        <div className="container-custom grid gap-10 lg:grid-cols-2 lg:items-center" data-catering-text-layout>
           <div>
             <SectionLabel>FINGER FOOD</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-6">Finger food for relaxed receptions</h2>
@@ -394,7 +395,7 @@ export default function CanapeCatering() {
               Tray versus passed is a staffing decision. A tray on a table needs less movement. Passed service needs hands in the room. Finger food catering price per person follows the same published band as premium standing food: from AED 150. This block uses its own image; it does not reuse the canapé hero.
             </p>
           </div>
-          <figure className="aspect-[4/3] overflow-hidden bg-gray-100">
+          <NonCateringVisual><figure className="aspect-[4/3] overflow-hidden bg-gray-100">
             <img
               src="/menu-appetizer.webp"
               alt="Finger food on a tray — no cutlery, ready to pass. Experience concept shown."
@@ -404,7 +405,7 @@ export default function CanapeCatering() {
               decoding="async"
               className="h-full w-full object-cover"
             />
-          </figure>
+          </figure></NonCateringVisual>
         </div>
       </section>
 
@@ -467,7 +468,7 @@ export default function CanapeCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What sits in the canapé quote
+            What your canapé proposal includes
           </h2>
 
           <div className="can-inc-grid grid md:grid-cols-2 gap-6">
@@ -485,10 +486,10 @@ export default function CanapeCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Passed food in the room
+            Thoughtfully presented reception food
           </h2>
 
           <div className="can-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -503,7 +504,7 @@ export default function CanapeCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -552,13 +553,13 @@ export default function CanapeCatering() {
                 to={svc.link}
                 className="can-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

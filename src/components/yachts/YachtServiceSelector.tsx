@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { YACHT_FORMATS_COPY, YACHT_SERVICES, type YachtServiceId } from '@/content/yachtPage'
 
 type Props = {
@@ -22,7 +23,7 @@ export default function YachtServiceSelector({ onSelect }: Props) {
               onClick={() => onSelect(service.id)}
               className="group text-left bg-[#F4F0E8] hover:bg-[#EFE8DA] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold transition-colors"
             >
-              <img
+              <NonCateringVisual><img
                 src={service.image}
                 alt={service.imageAlt}
                 width={640}
@@ -30,8 +31,8 @@ export default function YachtServiceSelector({ onSelect }: Props) {
                 loading="lazy"
                 decoding="async"
                 className="w-full aspect-[16/10] object-cover"
-              />
-              <span className="block px-4 pt-2 font-inter text-body-xs text-gray-500">{service.imageCaption}</span>
+              /></NonCateringVisual>
+              <NonCateringVisual><span className="block px-4 pt-2 font-inter text-body-xs text-gray-500">{service.imageCaption}</span></NonCateringVisual>
               <span className="block p-4 pt-2">
                 <span className="font-playfair text-h4 text-[#1B2A4A] block mb-2">{service.title}</span>
                 <span className="font-inter text-body-sm text-gray-600 leading-relaxed block">{service.line}</span>

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /conference-catering-dubai
 //     primary:     "conference catering dubai"
@@ -293,7 +294,7 @@ export default function ConferenceCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/conference-catering-dubai-hero.webp)' }}
@@ -328,7 +329,7 @@ export default function ConferenceCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 
@@ -491,7 +492,7 @@ export default function ConferenceCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Conference Catering
@@ -509,7 +510,7 @@ export default function ConferenceCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -558,13 +559,13 @@ export default function ConferenceCatering() {
                 to={svc.link}
                 className="conf-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

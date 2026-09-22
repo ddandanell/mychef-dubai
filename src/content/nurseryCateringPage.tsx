@@ -90,7 +90,7 @@ export const nurseryPage: InstitutionalPageContent = {
     h2: 'What you can verify before anyone cooks',
     blocks: [
       {
-        title: 'Chef-led cooking, not a tray line',
+        title: 'A considered approach to nursery meals',
         body: 'myCHEF started as a private-chef and event kitchen. Culinary partners are matched, vetted and backed up. Early-years meals are cooked from whole ingredients: vegetables, grains, lean halal proteins, fruit: not a reheated production tray. Children eat with their eyes. Food that looks like food is how fussy eaters become willing ones.',
       },
       {
@@ -110,14 +110,14 @@ export const nurseryPage: InstitutionalPageContent = {
         body: 'Nursery lunch delivery in Dubai fails in the last kilometre as often as it fails on the pass. Cold food has to stay cold; hot food has to stay hot. Probe logs travel with the run. If a centre cannot receive at a loading bay, say so in the brief: that changes the pack, not the promise.',
       },
       {
-        title: 'A quote after the walk, not a from-price on the internet',
+        title: 'A proposal following the site assessment',
         body: 'We do not publish a per-child from-price for nursery catering. Enrolment, ages, diet list, kitchen access and how many days you run all move the number. Finance gets food, staff, delivery, equipment and 5% VAT on separate lines. A tasting happens when the site needs one, before anyone signs a term.',
       },
     ],
   },
   table: {
     label: 'SAMPLE WEEK',
-    h2: 'An example week used for quoting, not a promised menu',
+    h2: 'An example menu cycle for discussion',
     intro:
       'This is the shape of a nursery meal plan in Dubai: one hot main, a carbohydrate, vegetables, fruit, and a labelled allergen card. The live cycle is written after we see ages and the diet list.',
     columns: ['Day', 'Lunch', 'Snack'],
@@ -149,7 +149,7 @@ export const nurseryPage: InstitutionalPageContent = {
     note: "Any required insurance, staff clearances and ordering arrangements are confirmed in the proposal. Applicable permissions and operational responsibilities must be agreed before service begins.",
   },
   process: {
-    h2: 'Four steps. The manager sees the papers.',
+    h2: 'A clear process for the nursery management team',
     steps: [
       'Send the centre, enrolment, age bands, days, and whether lunch is inside the fee.',
       'We typically reply within 15 minutes during business hours if a kitchen and a chef can cover the week.',

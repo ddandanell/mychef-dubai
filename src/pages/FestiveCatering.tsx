@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /festive-catering-dubai
 //     primary:     "festive catering dubai"
@@ -160,7 +161,7 @@ const faqs = [
     a: 'Festive catering packages Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
   },
   {
-    q: 'What does a festive catering Dubai booking actually include?',
+    q: 'What does a festive catering Dubai booking include?',
     a: 'Menu, shopping, cooking on site, service and clear-down, itemised. Licensed partners cook. No chef is guaranteed by name. 5% VAT is a separate line. Groceries-at-cost is a household-chef rule, not assumed on every event quote.',
   },
 ]
@@ -236,7 +237,7 @@ export default function FestiveCatering() {
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Seasonal Celebrations"
         title="Festive Catering Dubai"
         subtitle={"Festive catering in Dubai for Ramadan, Eid, Diwali, Christmas and New Year. Explore menus that honour the occasion, with chefs and service coordinated for your home, office or chosen venue."}
@@ -247,7 +248,7 @@ export default function FestiveCatering() {
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Festive Catering Dubai' }]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 

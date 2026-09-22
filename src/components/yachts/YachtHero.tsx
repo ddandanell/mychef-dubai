@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { Link } from 'react-router'
 import { YACHT_HERO, YACHT_PHOTO_CREDIT, YACHT_POSITIONING } from '@/content/yachtPage'
 
@@ -17,7 +18,7 @@ export default function YachtHero({
   imageCaption = YACHT_HERO.imageCaption,
 }: Props) {
   return (
-    <section data-hero className="yacht-page bg-[#F4F0E8]" aria-labelledby="yacht-h1">
+    <NonCateringVisual><section data-hero className="yacht-page bg-[#F4F0E8]" aria-labelledby="yacht-h1">
       <div className="container-custom grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] gap-10 lg:gap-16 items-center py-10 lg:py-16">
         <div className="order-2 lg:order-1 min-w-0">
           <nav aria-label="Breadcrumb" className="mb-6">
@@ -97,6 +98,6 @@ export default function YachtHero({
           </figure>
         </div>
       </div>
-    </section>
+    </section></NonCateringVisual>
   )
 }

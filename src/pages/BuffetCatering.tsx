@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /buffet-catering-dubai
 //     primary:     "buffet catering dubai"
@@ -46,7 +47,7 @@ const SIBLINGS = [
   {
     href: '/grazing-table-dubai',
     label: 'Grazing tables',
-    body: 'A styled centrepiece. Not a dinner line.',
+    body: 'A styled selection for guests to share at their own pace.',
   },
   {
     href: '/live-cooking-stations-dubai',
@@ -75,11 +76,11 @@ const INCLUDED = [
   },
   {
     title: 'The team',
-    body: 'Station staff sized to the count — enough to replenish, label and keep a queue moving. Not a waiter on every chair.',
+    body: 'Station staff sized to the count — enough to replenish, label and keep a queue moving. The staffing plan reflects the layout and service duration.',
   },
   {
     title: 'The night',
-    body: 'Arrival, setup, service, replenishment and clear-down. You are not stacking dishes at midnight.',
+    body: 'Arrival, setup, service, replenishment and clear-down. Clear-down responsibilities are confirmed in your proposal.',
   },
   {
     title: 'The diets',
@@ -136,7 +137,7 @@ const FAQS = [
   },
   {
     q: 'What is included in the booking?',
-    a: 'The spread and the people who keep it: the menu, a licensed kitchen, holding equipment, labels, station staff, setup, replenishment and clear-down. Halal ingredients by default. Vegetarian, vegan and allergy dishes as separate labelled items. You are not stacking dishes at midnight.',
+    a: 'The spread and the people who keep it: the menu, a licensed kitchen, holding equipment, labels, station staff, setup, replenishment and clear-down. Halal ingredients by default. Vegetarian, vegan and allergy dishes as separate labelled items. Clear-down responsibilities are confirmed in your proposal.',
   },
   {
     q: 'Is the food halal?',
@@ -192,7 +193,7 @@ export default function BuffetCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         title="Buffet Catering Dubai"
         subtitle={"Buffet catering in Dubai gives guests the freedom to choose and mingle. Your service team manages presentation, dish labels, temperatures and replenishment throughout the agreed service. From 20 guests at AED 120 per person, before 5% VAT."}
         image={HERO.src}
@@ -213,18 +214,18 @@ export default function BuffetCatering() {
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
           Share the date, headcount and venue. We typically reply within 15 minutes during business hours.
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">A buffet is a line that has to keep moving</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">A generous buffet, thoughtfully served</DisplayHeading>
           <BodyCopy className="mb-5">
-            Guests serve themselves. That only works if hot food stays hot, cold food stays cold, and someone is watching the queue before it forms. A row of trays left on a table is not a service.
+            Guests serve themselves. That only works if hot food stays hot, cold food stays cold, and someone is watching the queue before it forms. The team manages presentation, replenishment and guest flow throughout the agreed service.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            Licensed culinary partners cook for the room you actually have. myCHEF designs the spread and coordinates the line, the staffing and the clear-down. You are not the person topping up rice during your own party.
+            Licensed culinary partners cook for the room you actually have. myCHEF designs the spread and coordinates the line, the staffing and the clear-down. Your host can spend time with guests while the service team looks after the buffet.
           </BodyCopy>
           <BodyCopy>
             The format sits inside{' '}
@@ -242,10 +243,10 @@ export default function BuffetCatering() {
 
       <Section tone="white" rhythm="chapter">
         <Container>
-          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center" data-catering-text-layout>
             <div>
               <SectionLabel>WHO THIS IS FOR</SectionLabel>
-              <DisplayHeading className="text-black mb-6">Mixed guest lists. Rooms that cannot sit everyone at once.</DisplayHeading>
+              <DisplayHeading className="text-black mb-6">A flexible meal for a varied guest list</DisplayHeading>
               <BodyCopy className="mb-5">
                 A buffet earns its place when tastes differ, when the count runs from about twenty into the hundreds, and when you want people on their feet between plates. A birthday, a company lunch, a Christmas table, an Eid gathering — same format, different rooms.
               </BodyCopy>
@@ -280,14 +281,14 @@ export default function BuffetCatering() {
                 .
               </BodyCopy>
             </div>
-            <EditorialImage
+            <NonCateringVisual><EditorialImage
               src="/service-catering.webp"
               alt="A catering team holding a self-serve line at a Dubai event. Experience concept shown."
               width={1264}
               height={848}
               aspect="aspect-[3/2]"
               objectPosition="center 45%"
-            />
+            /></NonCateringVisual>
           </div>
         </Container>
       </Section>
@@ -295,7 +296,7 @@ export default function BuffetCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE NIGHT</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What buffet catering Dubai has to do on the night</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Buffet catering Dubai: food and service planned together</DisplayHeading>
           <BodyCopy className="mb-5">
             Heat. Replenish. Labels. Queue. That is the job. The last guests still have to find hot food, a label they can trust, and a line that moves. That is what people mean by the best buffet catering in Dubai — not the opening photograph.
           </BodyCopy>
@@ -311,7 +312,7 @@ export default function BuffetCatering() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT YOU ARE BUYING</SectionLabel>
-          <DisplayHeading className="text-black mb-4">You are buying the spread and the people who keep it</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">What the menu and service include</DisplayHeading>
           <BodyCopy className="mb-12">
             The quote is the food plus the team. You do not hire trays and hope someone watches them.
           </BodyCopy>
@@ -329,7 +330,7 @@ export default function BuffetCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE SPREAD</SectionLabel>
-          <DisplayHeading className="text-black mb-6">The menu has to hold</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Dishes selected for buffet service</DisplayHeading>
           <BodyCopy className="mb-5">
             A buffet catering menu in Dubai is built for holding time, not only for a tasting. Curries, grills, rice, salads, breads, a dessert that can sit. Pasta finished in a pan belongs on a live station, not in a tray for an hour.
           </BodyCopy>
@@ -350,7 +351,7 @@ export default function BuffetCatering() {
             Hosts ask the price first. Fair. A staffed event buffet starts from AED 120 per person, from 20 guests. That is the published buffet catering price per person in Dubai for a maintained spread with a small team. Guest count, menu, how many stations, venue access and timing move it. 5% VAT sits on its own line. Every proposal is itemised in writing before you confirm.
           </BodyCopy>
           <BodyCopy className="mb-12">
-            The bands below are already on this site. They are not a quote.
+            Use these published starting prices to compare formats. Your written proposal confirms the complete event total.
           </BodyCopy>
           <div className="overflow-x-auto border border-gray-200">
             <table className="w-full min-w-[36rem] text-left">
@@ -399,7 +400,7 @@ export default function BuffetCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW IT STARTS</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">From your first enquiry to a confirmed service</DisplayHeading>
           <SequenceRail steps={[...STEPS]} />
         </Container>
       </Section>
@@ -407,7 +408,7 @@ export default function BuffetCatering() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHERE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">The line is set in the kitchen you already have</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Service planned around your venue</DisplayHeading>
           <BodyCopy className="mb-5">
             Villa, apartment, office floor, garden or licensed venue. Access, power, shade and how far the food travels from the van to the table are part of the brief, especially outdoors in heat.
           </BodyCopy>
@@ -436,7 +437,7 @@ export default function BuffetCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>You May Also Like</SectionLabel>
-          <DisplayHeading className="text-black mb-10">If the line is not the right tool</DisplayHeading>
+          <DisplayHeading className="text-black mb-10">Explore other ways to serve your guests</DisplayHeading>
           <ul className="grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2">
             {SIBLINGS.map((item) => (
               <li key={item.href} className="bg-white">
@@ -457,7 +458,7 @@ export default function BuffetCatering() {
       <Section id="questions" tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>STILL OPEN</SectionLabel>
-          <DisplayHeading className="text-black mb-10">Questions the page has not closed yet</DisplayHeading>
+          <DisplayHeading className="text-black mb-10">Questions before you book</DisplayHeading>
           <FaqAccordion items={[...FAQS]} />
         </Container>
       </Section>

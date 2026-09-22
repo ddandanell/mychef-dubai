@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -128,7 +129,7 @@ export default function PackagePageTemplate({
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={eyebrow}
         title={headline}
         subtitle={subheadline}
@@ -139,7 +140,7 @@ export default function PackagePageTemplate({
         breadcrumb={[{ label: 'Home', href: '/' }, { label: breadcrumbLabel }]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       {/* Package Overview */}
@@ -259,9 +260,9 @@ export default function PackagePageTemplate({
                 to={svc.link}
                 className="pkg-card translate-y-8 group bg-white overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img src={svc.image} alt={svc.title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-black mb-2 group-hover:text-gold transition-colors">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-500 mb-4">{svc.description}</p>

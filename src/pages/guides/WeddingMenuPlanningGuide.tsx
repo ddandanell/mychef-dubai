@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /wedding-catering-menu-planning-dubai
 //     primary:     "wedding menu planning dubai"
@@ -97,7 +98,7 @@ export default function WeddingMenuPlanningGuide() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         variant="quiet"
         eyebrow="Wedding Catering Menu Dubai"
         title="Wedding Menu Planning Dubai"
@@ -116,13 +117,13 @@ export default function WeddingMenuPlanningGuide() {
         ]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>START HERE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Build the menu around the wedding, not a package</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Build the menu around your wedding</DisplayHeading>
           <BodyCopy className="mb-5">
             Explore wedding menu ideas suited to Dubai villas, gardens, hotels and yachts. For catering services and a tailored proposal, visit{' '}
             <Link to={WEDDING_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
@@ -193,7 +194,7 @@ export default function WeddingMenuPlanningGuide() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHICH KITCHEN</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Indian, Arabic, Lebanese, fusion: one meal, not a food court</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Bring family traditions together in a balanced menu</DisplayHeading>
           <BodyCopy className="mb-10 max-w-3xl">
             Dubai weddings often hold more than one kitchen in the same family. That can work. It works when someone designs the overlap: spice, richness, vegetarian depth, and what arrives first. It fails when the buffet is a list of greatest hits.
           </BodyCopy>

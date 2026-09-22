@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /menus
 //     primary:     "catering menus dubai"
@@ -260,14 +261,14 @@ export default function Menus() {
       />
 
       {/* Section 1: Page Hero */}
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="CULINARY OFFERINGS"
         title="Catering Menus Dubai"
         subtitle={"Explore catering menus in Dubai, from private dinners to larger celebrations. These sample menus are a starting point: we tailor the dishes, chef and service to your occasion, guests and venue."}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"
-      />
+      /></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -351,11 +352,11 @@ export default function Menus() {
             {filteredItems.map((item) => (
               <div key={item.name} className="menu-card group cursor-pointer">
                 <div className="relative aspect-square overflow-hidden">
-                  <img
+                  <NonCateringVisual><img
                     src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
+                    loading="lazy" decoding="async"/></NonCateringVisual>
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center">
                     <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-2">
@@ -382,7 +383,7 @@ export default function Menus() {
           {/* Section Header */}
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">SAMPLE, NOT A FIXED LIST</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white mb-4">A sample evening, not a printed list</h2>
+            <h2 className="font-playfair text-h2 text-white mb-4">Sample menus to shape your own evening</h2>
             <p className="font-inter text-body text-gray-400">
               One plated evening, written as an example. Your menu is rewritten for the occasion, the guest list and the kitchen.
             </p>
@@ -422,7 +423,7 @@ export default function Menus() {
       <section ref={dietaryRef} className="bg-cream py-20">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Diets go on the first draft
+            Dietary requirements included from the start
           </h2>
 
           {/* Dietary Tags */}

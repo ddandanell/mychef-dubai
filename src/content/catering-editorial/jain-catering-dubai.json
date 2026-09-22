@@ -1,0 +1,48 @@
+{
+  "path": "/jain-catering-dubai",
+  "title": "Confirm the observance in detail before writing the menu",
+  "focus": "Jain requirements should be discussed with the household or organiser rather than inferred from a broad label. Confirm the ingredients to exclude, any additional observances and the expectations around preparation and service. A satisfying menu can still offer varied textures, pulses, grains and suitable vegetables within that agreed brief. Ask how dishes will be identified if other menus are present. The culinary partner must assess the actual requirements before confirming the selection and any preparation controls.",
+  "sections": [
+    {
+      "id": "plant-based",
+      "title": "Make plant-based food a complete experience",
+      "paragraphs": [
+        "A plant-based menu should offer substance, contrast and variety. Consider a combination of vegetables, grains, legumes and sauces, with textures that make the meal satisfying from the first course to the last. The aim is a selection guests will enjoy for its flavour and balance.",
+        "Be precise about the brief. Vegetarian, vegan and dairy-free requests are different, and allergies require separate attention. Ingredients in stocks, dressings, breads and desserts should be reviewed as carefully as the main dishes. If some guests are eating another menu, discuss how alternatives will be identified and served.",
+        "Choose dishes that suit the occasion. Small handheld bites can work well for a reception, while a seated meal may call for a more substantial centrepiece. A considered plant-based option belongs within the overall menu and service plan, with its own proper portion and presentation."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    },
+    {
+      "id": "regional",
+      "title": "Choose a regional direction before expanding the selection",
+      "paragraphs": [
+        "A broad cuisine name can cover many different dishes and traditions. Share the region, flavours or family favourites you have in mind so the chef can build a menu with a clear identity. If there are particular ingredients or preparations you expect, describe them rather than relying only on a familiar dish name.",
+        "A focused menu often feels more coherent than a long list of unrelated favourites. Think about how starters, main dishes, sides and desserts complement one another, and how they will be served. The menu should offer enough variety for the group while remaining practical for the kitchen and service format.",
+        "Tell us about spice preferences and essential dietary requirements early. These may affect the choice of dishes as well as individual recipes. The final selection can then reflect the food you enjoy with a clear understanding of what will be prepared for your occasion."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/cuisines-dubai",
+      "label": "Cuisines"
+    },
+    {
+      "href": "/vegetarian-catering-dubai",
+      "label": "Vegetarian catering"
+    },
+    {
+      "href": "/vegan-catering-dubai",
+      "label": "Vegan catering"
+    }
+  ]
+}

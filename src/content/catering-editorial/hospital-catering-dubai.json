@@ -1,0 +1,48 @@
+{
+  "path": "/hospital-catering-dubai",
+  "title": "Define staff dining and patient meals separately",
+  "focus": "A staff cafeteria, visitor service and patient meal operation have different requirements and should not be combined into an undefined brief. For any patient-related request, the responsible clinical and operational teams must specify the requirements and assess the proposed arrangements. Therapeutic diets need an approved clinical brief and appropriate capabilities before a commitment can be made. Begin with the site, intended users, meal volumes and required documentation so the discussion remains specific and realistic.",
+  "sections": [
+    {
+      "id": "institutional",
+      "title": "Build a repeatable service specification",
+      "paragraphs": [
+        "An ongoing food-service arrangement needs a more detailed brief than a one-off event. Define the number of meals, service days, delivery or preparation location and the people responsible for receiving and approving the food. If volumes vary, explain how changes will be communicated and confirmed.",
+        "Menu cycles, portions, dietary requirements and reporting should be discussed with the proposed provider. The relevant organisation may have its own approval process and documentation requirements, which need to be understood before a service is agreed. Avoid assuming that an event menu automatically suits a recurring institutional setting.",
+        "A useful proposal sets out the responsibilities on both sides, including facilities, equipment, service windows and review points. Any specialist requirements should be assessed explicitly. The result should be a workable specification that the organisation and culinary partner can evaluate together before moving into delivery."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    },
+    {
+      "id": "quote",
+      "title": "Compare the complete proposal",
+      "paragraphs": [
+        "Read the price together with the menu and service scope. Two proposals can have different totals because one includes equipment, staffing or a longer service period that the other does not. Compare them against the same guest count and requirements before deciding which is the better fit.",
+        "Check the minimum order, included hours, delivery or transport arrangements and how applicable VAT is shown. If the menu uses a starting price, ask which choices could change it. Premium ingredients, additional stations, extended service and extra hospitality support may need separate pricing.",
+        "The written proposal should also explain the payment schedule and the terms for changes or cancellation. Use the terms attached to your booking, as a private occasion and a corporate contract may have different arrangements. A clear comparison gives you confidence in the decision and helps avoid assumptions about what a headline price includes."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/institutional-catering-dubai",
+      "label": "Institutional catering"
+    },
+    {
+      "href": "/canteen-management-dubai",
+      "label": "Canteen management"
+    },
+    {
+      "href": "/school-catering-dubai",
+      "label": "School catering"
+    }
+  ]
+}

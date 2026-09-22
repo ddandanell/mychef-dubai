@@ -111,12 +111,12 @@ const config: OccasionPageConfig = {
         'A majlis or hall you have booked. Flow and holding matter more than a colour palette.',
     },
     {
-      title: 'Outdoor sittings',
+      title: 'Outdoor gatherings',
       description:
         'If you have booked a desert camp, beach or garden, we cook there. We do not own those sites.',
     },
   ],
-  includedH2: 'What a staffed National Day sitting includes',
+  includedH2: 'What a staffed National Day service includes',
   includedItems: [
     { title: 'Emirati menu written for the table', description: 'Ouzi, machboos, breads and dates, cut to who is eating.' },
     { title: 'Live stations', description: 'Grill, shawarma or bread stations when the brief needs them.' },

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /business-lunch-catering-dubai
 //     primary:     "business lunch catering dubai"
@@ -62,7 +63,7 @@ const lunchFormats = [
   },
   {
     icon: Briefcase,
-    title: 'Leadership sitting',
+    title: 'Leadership dinner',
     description: 'A small senior table. Same floors as above. The difference is headcount, timing and whether anyone stays in the room.',
     link: '/corporate',
   },
@@ -294,7 +295,7 @@ export default function BusinessLunchCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/business-lunch-catering-dubai-hero.webp)' }}
@@ -329,7 +330,7 @@ export default function BusinessLunchCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
       <CorporateTrustStrip variant="dark" />
@@ -339,7 +340,7 @@ export default function BusinessLunchCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">CATERING FOR MEETINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Business lunch catering Dubai that stays in the room
+            Business lunch catering Dubai around your meeting
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Business lunch catering in Dubai keeps the meal aligned with your meeting. Choose a labelled working lunch delivered ready to serve, or a plated client lunch with attentive table service. Menus, access and timings are agreed around your agenda.
@@ -384,7 +385,7 @@ export default function BusinessLunchCatering() {
             />
           </div>
           <div className="mt-12 max-w-[65ch] font-inter text-body text-gray-600 space-y-4">
-            <h3 className="font-playfair text-h4 text-black">Working lunch versus a client sitting</h3>
+            <h3 className="font-playfair text-h4 text-black">Working lunches and client dining</h3>
             <p>
               Business meeting catering that has to stay in the room is a working lunch: labelled boxes or sharing platters, timed to the agenda, devices off the table. Business lunch options in Dubai for a client pitch are plated. Downtown and Business Bay buildings change lift and loading times, so name the tower early.
             </p>
@@ -474,7 +475,7 @@ export default function BusinessLunchCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Business Lunches
@@ -492,7 +493,7 @@ export default function BusinessLunchCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -541,13 +542,13 @@ export default function BusinessLunchCatering() {
                 to={svc.link}
                 className="blun-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

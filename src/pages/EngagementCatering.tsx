@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /engagement-catering-dubai
 //     primary:     "engagement party catering dubai"
@@ -89,7 +90,7 @@ export default function EngagementCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={engagementHeroCopy.eyebrow}
         title={engagementHeroCopy.title}
         subtitle={engagementHeroCopy.subtitle}
@@ -114,7 +115,7 @@ export default function EngagementCatering() {
         <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
           {engagementHeroCopy.replyLine}
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -295,7 +296,7 @@ export default function EngagementCatering() {
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {gallery.map((img) => (
-              <figure key={img.src} className="aspect-[4/3] overflow-hidden bg-gray-100">
+              <NonCateringVisual key={img.src}><figure key={img.src} className="aspect-[4/3] overflow-hidden bg-gray-100">
                 <img
                   src={img.src}
                   alt={img.alt}
@@ -305,7 +306,7 @@ export default function EngagementCatering() {
                   decoding="async"
                   className="h-full w-full object-cover"
                 />
-              </figure>
+              </figure></NonCateringVisual>
             ))}
           </div>
         </Container>

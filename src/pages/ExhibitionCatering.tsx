@@ -28,7 +28,7 @@ const config: ServicePageConfig = {
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like a quote for exhibition and trade show catering in Dubai (via mychef.ae/exhibition-catering-dubai)",
   eyebrow: 'EXHIBITION & TRADE SHOW CATERING IN DUBAI',
-  introH2: 'Exhibition catering Dubai for the stand, not a restaurant floor',
+  introH2: 'Exhibition catering Dubai for stand hospitality and teams',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

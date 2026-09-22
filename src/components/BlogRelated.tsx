@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
@@ -37,7 +38,7 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
               to={post.slug}
               className="group block bg-cream border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
             >
-              <div className="aspect-[16/9] overflow-hidden">
+              <NonCateringVisual><div className="aspect-[16/9] overflow-hidden">
                 <ServiceImage
                   src={post.image}
                   alt={post.title}
@@ -45,7 +46,7 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
                   loading="lazy"
                   decoding="async"
                 />
-              </div>
+              </div></NonCateringVisual>
               <div className="p-5">
                 <span className="font-inter text-xs uppercase tracking-wider text-gold font-medium block mb-2">
                   {post.category}

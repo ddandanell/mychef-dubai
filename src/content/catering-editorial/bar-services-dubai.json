@@ -1,0 +1,48 @@
+{
+  "path": "/bar-services-dubai",
+  "title": "A drinks service designed around the room",
+  "focus": "Define the drinks list and the service before choosing a bar display. A coffee reception, fresh mocktail station and evening drinks service each need different equipment, preparation space and staffing. Check water, refrigeration, ice, glassware and the route used to clear empty glasses. For an outdoor event, consider shade and a practical preparation area. Any alcohol-related request must be reviewed with the venue and confirmed separately in writing; it is not an automatic inclusion in a catering booking.",
+  "sections": [
+    {
+      "id": "drinks",
+      "title": "Give beverages their own service plan",
+      "paragraphs": [
+        "Tell us whether you need only food or would also like drinks service included. Water, soft drinks, coffee, tea and mocktails each create different preparation and replenishment needs. A self-service drinks station may suit one event, while another benefits from a dedicated hospitality professional.",
+        "For a larger gathering, consider where guests will collect drinks and how used glasses or cups will be cleared. Ice, refrigeration, glassware and waste handling should be included in the discussion rather than assumed to come with the menu. The service needs to remain practical throughout the event, not only when the first drinks are poured.",
+        "Any request involving alcohol depends on the venue and the permitted arrangements and must be confirmed separately. The written scope should make clear what is supplied, what the client or venue provides and which staffing is included. This keeps the beverage plan aligned with the rest of the occasion."
+      ]
+    },
+    {
+      "id": "equipment",
+      "title": "List the equipment before calling the plan complete",
+      "paragraphs": [
+        "Food, kitchen equipment and table items are separate parts of a catering brief. Confirm what the venue supplies and what the catering team needs to bring. Depending on the format, that may include preparation equipment, holding equipment, serving utensils, crockery, glassware or linen.",
+        "A photograph of a styled event does not establish what is included in your own package. If you want the same type of table setup or service display, ask for those items to be identified in the proposal. This is particularly useful when the property has limited kitchen facilities or the event uses more than one dining area.",
+        "Also agree how equipment will arrive, be set up and be collected. Access restrictions and collection times can affect the plan. A clear equipment list helps the team prepare properly and gives you a practical way to check that the venue is ready before guests arrive."
+      ]
+    },
+    {
+      "id": "venue",
+      "title": "Make the venue part of the catering conversation",
+      "paragraphs": [
+        "Share the preparation space, power supply, water access and storage available at the venue. If the site has restrictions on outside caterers, cooking methods or deliveries, raise them before choosing a detailed menu. These details influence the equipment and service plan just as much as the number of guests.",
+        "Access can be particularly important in office towers, residential buildings and waterfront locations. Confirm loading arrangements, parking, lift access and the person who will receive the team. A clear arrival plan protects setup time and reduces disruption for your hosts, neighbours or colleagues.",
+        "For outdoor service, discuss shade, lighting and a workable alternative if conditions affect the plan. The final proposal should identify which facilities the venue provides and which items need to be arranged separately. Good preparation allows the service itself to feel relaxed, even when the logistics behind it are detailed."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/catering-dubai",
+      "label": "Catering"
+    },
+    {
+      "href": "/cocktail-party-catering-dubai",
+      "label": "Cocktail party catering"
+    },
+    {
+      "href": "/yachts",
+      "label": "Yacht catering"
+    }
+  ]
+}

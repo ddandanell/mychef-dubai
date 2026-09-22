@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/wedding-catering-cost-dubai
 //     primary:     "wedding catering cost dubai"
@@ -97,10 +98,10 @@ export default function WeddingCateringCost() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         variant="quiet"
         eyebrow="Wedding Catering Cost Dubai"
-        title="Wedding Catering Cost Dubai: three products, not one ladder"
+        title="Wedding Catering Cost Dubai: Prices and Planning"
         subtitle={"Compare food-led buffets, hotel packages and chef-led villa dinners using indicative 2026 price ranges. The written proposal confirms the inclusions and total for your wedding."}
         image={costHero.src}
         imageAlt={costHero.alt}
@@ -116,7 +117,7 @@ export default function WeddingCateringCost() {
         ]}
         minHeight="tall"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       <article className="bg-white">
@@ -246,7 +247,7 @@ export default function WeddingCateringCost() {
 
         <Section tone="white" rhythm="chapter">
           <Container className="max-w-3xl">
-            <BlogFigure image={costInlineImages[0]} />
+            <NonCateringVisual><BlogFigure image={costInlineImages[0]} /></NonCateringVisual>
             <h2 id="guest-count-sketches" className="font-playfair text-h2 text-black mb-6 scroll-mt-28">
               Guest-count sketches, not packages
             </h2>
@@ -304,7 +305,7 @@ export default function WeddingCateringCost() {
                 </div>
               ))}
             </dl>
-            <BlogFigure image={costInlineImages[1]} />
+            <NonCateringVisual><BlogFigure image={costInlineImages[1]} /></NonCateringVisual>
           </Container>
         </Section>
 

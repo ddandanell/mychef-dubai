@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /catering-packages-dubai
 //     primary:     "catering packages dubai"
@@ -95,7 +96,7 @@ export default function CateringPackages() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         title={PACKAGE_HUB_SEO.h1}
         subtitle={"Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night AED 1,200, Family Feast AED 2,400, Birthday AED 3,600 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details."}
         image={HERO}
@@ -112,7 +113,7 @@ export default function CateringPackages() {
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
           Share the date, guest count and area. We typically reply within 15 minutes during business hours.
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <Section tone="ivory" rhythm="connected">
@@ -148,7 +149,7 @@ export default function CateringPackages() {
         <Container>
           <SectionLabel>THE FIVE PACKAGES</SectionLabel>
           <DisplayHeading className="text-black mb-5 max-w-[22ch]">
-            Four published totals, plus The Full Experience
+            Starting packages and tailored event support
           </DisplayHeading>
           <BodyCopy className="mb-12 max-w-[62ch]">
             Same cards and AED as Home: Date Night, Family Feast, Birthday, Corporate Dinner and The Full Experience.
@@ -241,7 +242,7 @@ export default function CateringPackages() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-[800px]">
           <SectionLabel>If you already know the occasion</SectionLabel>
-          <DisplayHeading className="text-black mb-8">Point us at the table. We will name the package.</DisplayHeading>
+          <DisplayHeading className="text-black mb-8">Find a package that suits your occasion</DisplayHeading>
           <PackageSelector />
         </Container>
       </Section>

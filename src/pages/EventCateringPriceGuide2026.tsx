@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /dubai-event-catering-price-guide-2026
 //     primary:     "event catering price guide dubai 2026"
@@ -316,7 +317,7 @@ export default function EventCateringPriceGuide2026() {
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/event-catering-price-guide-hero.webp)' }}
@@ -351,7 +352,7 @@ export default function EventCateringPriceGuide2026() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -360,7 +361,7 @@ export default function EventCateringPriceGuide2026() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">PLANNING & BUDGETING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            What this event catering price guide Dubai 2026 will not do
+            How to use this event catering price guide Dubai 2026
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Catering prices vary by service format. myCHEF starting prices are AED 90 per person for drop-off, AED 120 for a standard event buffet, AED 150 for canapés, BBQ and live stations, AED 180 for weddings and AED 280 for yachts. Bespoke chef-led plated dining is AED 700–950 per person, with scope and VAT confirmed in the proposal.

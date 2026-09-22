@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /live-cooking-stations-dubai
 //     primary:     "live cooking stations dubai"
@@ -186,7 +187,7 @@ const faqs = [
   { q: "How much do live cooking stations cost in Dubai?", a: `Live cooking stations Dubai sit on the BBQ and live-station floor: from AED ${BBQ.fromPerPerson} per person, from ${BBQ.minGuests} guests. Extra counters, waiters and open-flame kit move the total. 5% VAT is a separate line. The calculator uses the same start.` },
   { q: "What's included in the price of a live cooking station?", a: "Every quote includes the full service: menu design, ingredient sourcing and shopping, the styled station counters and equipment, our chefs cooking live on the day, plating and serving, and complete cleanup afterwards. In short, we handle everything end to end so you host without lifting a finger. Serving staff beyond the station chefs are optional and easy to add, and 5% VAT applies to the final quote." },
   { q: "Is there a minimum spend or minimum guest count for live stations?", a: `The published floor is ${BBQ.minGuests} guests, the same as BBQ and live stations on the Catering hub. Below that we will say so and point you at plated dining or a package rather than stretching a counter.` },
-  { q: "Are your chefs and stations licensed to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and our teams follow proper food-handling, hygiene, and open-flame safety practices on site. This matters especially for live stations, where cooking happens in front of your guests, so everything is prepared and served correctly. You can read more about our standards on our [about](/about) page." },
+  { q: "Are your chefs and stations licensed to Dubai food-safety standards?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is the food at your live stations halal?", a: "Yes, we source halal by default across all our live cooking stations, from carving and grill counters to street food and dessert. If your event has specific religious or sourcing requirements, just let us know when you enquire and we'll confirm every detail in your menu. We also cater fully halal private dining if you'd prefer a seated format." },
   { q: "How many live stations do I need for my guest count?", a: "Headcount and which dishes you want cooked set the number of counters. We will not publish a rigid guests-per-station promise. The proposal names how many chefs and stations." },
   { q: "Do you provide serving staff and hosts as well as the station chefs?", a: "Yes. Each station comes with its own chef, and we can add runners, hosts, and serving staff scaled to your guest count and venue. Serving staff are optional, so you choose the level of service that fits your event and budget. Just tell us the style you're after and we'll build the right team into your quote." },
@@ -333,7 +334,7 @@ export default function LiveCookingStations() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/live-cooking-stations-dubai-hero.webp)' }}
@@ -368,7 +369,7 @@ export default function LiveCookingStations() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -377,10 +378,10 @@ export default function LiveCookingStations() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">A COUNTER, NOT A TRAY LINE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            What live cooking stations Dubai actually are
+            Live cooking stations Dubai, planned for your venue
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Live cooking stations in Dubai combine a chef, the appropriate equipment and a focused menu at each counter. We plan the layout and service around guest numbers, venue facilities and safe access. Starting prices are from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Indicative market AED {BBQ.typicalMin}–{BBQ.typicalMax} is not a second start.
+            Live cooking stations in Dubai combine a chef, the appropriate equipment and a focused menu at each counter. We plan the layout and service around guest numbers, venue facilities and safe access. Our service starts from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Your proposal confirms the menu, stations and complete service scope.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Shawarma, an oyster bar and a dessert cart are stations on this page, not separate products. A live pasta station is a pan and a chef, not a class. Private cooking classes live on their own URL if that is the brief.
@@ -397,7 +398,7 @@ export default function LiveCookingStations() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">STATION TYPES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Which counters the room can hold
+              Choose stations that suit the space
             </h2>
           </div>
 
@@ -468,7 +469,7 @@ export default function LiveCookingStations() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Counters in the room
@@ -486,7 +487,7 @@ export default function LiveCookingStations() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -535,13 +536,13 @@ export default function LiveCookingStations() {
                 to={svc.link}
                 className="lcs-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

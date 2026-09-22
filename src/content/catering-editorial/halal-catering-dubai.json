@@ -1,0 +1,48 @@
+{
+  "path": "/halal-catering-dubai",
+  "title": "Make the sourcing and preparation brief explicit",
+  "focus": "Explain the standards and documentation your household or organisation expects, then review the full proposed menu. Meat and poultry are part of that discussion, but stocks, sauces, desserts and cooking ingredients also deserve attention. Ask how the culinary partner will address any requirements involving alcohol, shared equipment or service arrangements. If guests have allergies, assess those separately. A clear conversation before booking allows the team to confirm the menu honestly and identify any point that needs further review.",
+  "sections": [
+    {
+      "id": "halal",
+      "title": "Review ingredient requirements across the whole menu",
+      "paragraphs": [
+        "Include halal requirements in the initial brief and explain any specific expectations about sourcing or preparation. Ask about the proposed ingredients and raise questions about sauces, stocks, desserts or other components that may not be obvious from the menu title.",
+        "If your household or organisation has particular expectations about alcohol in cooking, documentation or shared equipment, discuss them explicitly. A general description of a menu cannot replace a specific assessment of those requirements. The culinary team needs to understand what is essential before the selection is confirmed.",
+        "This detail does not need to make the menu feel restrictive. Sharing dishes, plated courses and reception bites can all be considered within a clear brief. Review the final choices together so you understand what will be served and how the agreed requirements are reflected throughout the meal."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    },
+    {
+      "id": "regional",
+      "title": "Choose a regional direction before expanding the selection",
+      "paragraphs": [
+        "A broad cuisine name can cover many different dishes and traditions. Share the region, flavours or family favourites you have in mind so the chef can build a menu with a clear identity. If there are particular ingredients or preparations you expect, describe them rather than relying only on a familiar dish name.",
+        "A focused menu often feels more coherent than a long list of unrelated favourites. Think about how starters, main dishes, sides and desserts complement one another, and how they will be served. The menu should offer enough variety for the group while remaining practical for the kitchen and service format.",
+        "Tell us about spice preferences and essential dietary requirements early. These may affect the choice of dishes as well as individual recipes. The final selection can then reflect the food you enjoy with a clear understanding of what will be prepared for your occasion."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/cuisines-dubai",
+      "label": "Cuisines"
+    },
+    {
+      "href": "/halal-private-dining-dubai",
+      "label": "Halal private dining"
+    },
+    {
+      "href": "/arabic-catering-dubai",
+      "label": "Arabic catering"
+    }
+  ]
+}

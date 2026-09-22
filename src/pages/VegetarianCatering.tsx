@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /vegetarian-catering-dubai
 //     primary:     "vegetarian catering dubai"
@@ -285,7 +286,7 @@ export default function VegetarianCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/vegetarian-catering-dubai-hero.webp)' }}
@@ -321,14 +322,14 @@ export default function VegetarianCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">VEGETARIAN DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Meat off. Dairy on, unless you say otherwise.
+            Vegetarian menus shaped around your preferences
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Vegetarian catering in Dubai brings together vibrant mezze, regional Indian dishes and modern vegetable cooking. Meat and fish are excluded; eggs and dairy are included only as agreed. We plan vegan and Jain requirements separately so each guest receives an appropriate menu.
@@ -401,7 +402,7 @@ export default function VegetarianCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What a vegetarian booking actually covers
+            What your vegetarian catering proposal includes
           </h2>
 
           <div className="veg-inc-grid grid md:grid-cols-2 gap-6">
@@ -419,7 +420,7 @@ export default function VegetarianCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             What vegetarian service looks like
@@ -437,7 +438,7 @@ export default function VegetarianCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -486,13 +487,13 @@ export default function VegetarianCatering() {
                 to={svc.link}
                 className="veg-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

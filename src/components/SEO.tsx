@@ -1,3 +1,4 @@
+import { isCateringDesignPage, cateringImage } from './catering/CateringEditorial'
 import { isParked } from '@/content/parkedUrls'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router'
@@ -42,6 +43,7 @@ export default function SEO({
   if (designImage) ogImage = chefImage(designImage)
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
+  if (isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
   const jsonLd = assemblePageGraph(path, schema)
   const auditOverride = SEO_AUDIT_OVERRIDES[path]
   const effectiveTitle = auditOverride?.title || title

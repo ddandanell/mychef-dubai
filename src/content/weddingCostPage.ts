@@ -96,7 +96,7 @@ export const quoteDrivers = [
     body: 'A villa with a working kitchen is not a beach plot with no power. Temporary kitchens, long load-ins and community gate rules all sit on the proposal when they apply.',
   },
   {
-    title: 'What sits outside the head-rate',
+    title: 'Costs to review beyond the food price',
     body: 'Rentals, dessert tables, cake, vendor meals, overtime, corkage, supplier-list fees and permits. Name them. We already put ours on separate lines.',
   },
 ] as const

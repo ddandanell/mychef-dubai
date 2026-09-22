@@ -117,15 +117,7 @@ export default function YachtWorkGallery() {
                       selected ? 'ring-2 ring-gold' : 'ring-1 ring-black/10 hover:ring-gold/60'
                     }`}
                   >
-                    <img
-                      src={item.src}
-                      alt={item.alt}
-                      width={240}
-                      height={240}
-                      loading="lazy"
-                      decoding="async"
-                      className="aspect-square w-full object-cover bg-gray-200"
-                    />
+                    <span className="flex aspect-square items-center justify-center bg-white text-sm text-[#1B2A4A] tabular-nums">{String(index + 1).padStart(2, '0')}</span>
                   </button>
                 </li>
               )

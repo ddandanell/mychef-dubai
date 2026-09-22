@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /corporate-event-catering-dubai
 //     primary:     "corporate event catering dubai"
@@ -122,7 +123,7 @@ export default function CorporateEventCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={hero.eyebrow}
         title={hero.h1}
         subtitle={hero.subtitle}
@@ -141,7 +142,7 @@ export default function CorporateEventCatering() {
         overlay="dark"
         align="left"
         imagePosition="center 45%"
-      />
+      /></NonCateringVisual>
 
       <TrustSignalStrip />
       <div className="bg-black">

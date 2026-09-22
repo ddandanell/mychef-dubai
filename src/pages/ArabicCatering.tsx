@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /arabic-catering-dubai
 //     primary:     "arabic catering dubai"
@@ -166,7 +167,7 @@ const faqs = [
   { q: "How much does Arabic catering cost per person in Dubai?", a: "Arabic catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu style, and whether you want live grill stations or a carved ouzi centrepiece. Mezze-and-grills menus generally sit in the mid-range compared with simple finger food or premium seafood spreads, and every quote we send is itemised with 5% VAT shown clearly. Share your numbers on our [contact page](/contact) and we typically acknowledge enquiries within 15 minutes during business hours. A transparent proposal follows once the details have been reviewed." },
   { q: "What is included in your Arabic catering price?", a: "Every Arabic catering booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards, so you get one all-in price rather than a string of add-ons. That covers your mezze spread, charcoal grills, mains, and Arabic sweets, plus warmers and setup at your venue. Serving staff are optional and easy to add if you'd like waiters for a formal service." },
   { q: "Do you provide the crockery, cutlery, chafing dishes, and setup for Arabic catering?", a: "Yes, we bring the equipment needed to serve your Arabic feast properly, including warmers, chafing dishes, serving platters, and station setup, then handle full pack-down at the end. Crockery and cutlery hire can be arranged as part of your quote depending on your venue and guest count. Just tell us whether you're hosting at a villa, hotel, or majlis and we'll scope the setup accordingly." },
-  { q: "Is your Arabic catering fully licensed and food-safety compliant?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your Arabic catering is prepared, transported, and held at the correct temperatures throughout. We follow proper hygiene and cold-chain practices from sourcing to serving, which matters especially for grilled meats and mezze served over a long event. You can read more about how [we work](/how-it-works) before you book." },
+  { q: "Is your Arabic catering fully licensed and food-safety compliant?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is all the meat in your Arabic menus halal?", a: "Yes, halal meat and poultry are the default across all our Arabic catering in Dubai, sourced from trusted suppliers. Because Arabic cuisine centres on lamb, chicken, and kofta, halal sourcing is built into everything we prepare, and we're always happy to confirm the details when you plan. If you need a fully halal-certified event, explore our dedicated [halal catering](/halal-catering-dubai) menus." },
   { q: "What is the minimum number of guests for Arabic catering?", a: "We cater Arabic menus for a wide range of gatherings, from an intimate family majlis to weddings of several hundred guests, and we'll tailor the spread to your headcount rather than force a fixed minimum. Smaller villa dinners work beautifully with a focused mezze-and-grill selection, while larger celebrations can add ouzi, live stations, and a full sweets table. Give us your guest count and we'll advise the right menu scale." },
   { q: "Can you cater a large Arabic wedding banquet in Dubai?", a: "Yes. Welcome mezze, a carved ouzi if the table needs it, then sweets and coffee. Timing, staffing and stations follow the guest count. The marriage itself sits on [wedding catering](/wedding-catering-dubai)." },
@@ -312,7 +313,7 @@ export default function ArabicCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/arabic-catering-dubai-hero.webp)' }}
@@ -348,14 +349,14 @@ export default function ArabicCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">AUTHENTIC ARABIC CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Shared plates, then the grill
+            Mezze, grills and generous regional menus
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Arabic catering in Dubai brings mezze, warm bread, charcoal grills and slow-cooked dishes to your table. Choose familiar favourites such as hummus, moutabal, tabbouleh and vine leaves, followed by kunafa, baklava and Arabic coffee. The menu and service style are planned around your guests.
@@ -446,7 +447,7 @@ export default function ArabicCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Arabic Catering
@@ -464,7 +465,7 @@ export default function ArabicCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -513,13 +514,13 @@ export default function ArabicCatering() {
                 to={svc.link}
                 className="arab-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

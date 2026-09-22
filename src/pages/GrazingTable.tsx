@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /grazing-table-dubai
 //     primary:     "grazing table dubai"
@@ -165,7 +166,7 @@ const faqs = [
   },
   { q: "How much does a grazing table cost in Dubai?", a: "Every grazing table is priced by custom quote, because the cost depends on your guest count, the length and abundance of the spread, the ingredients you choose, and any styling or hot elements you add. We build your quote around exactly what your event needs rather than a fixed per-head rate, so you only pay for the spread you actually want. Share your date and numbers and we typically acknowledge your enquiry within 15 minutes during business hours. An itemised proposal follows once the requirements are reviewed." },
   { q: "What is included in the price of a grazing table?", a: "Your grazing table quote covers menu design, ingredient sourcing and shopping, on-site building and styling of the spread, and full pack-down and cleanup afterwards. That means our team arrives, assembles the entire table at your venue with boards, vessels, foliage, and garnishes, and clears everything away when the event ends. Serving staff can be added if you'd like the table replenished throughout, and a 5% VAT applies to the final total." },
-  { q: "Are your grazing tables prepared to food-safety standards?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, and every ingredient is handled, transported, and assembled with proper temperature control in mind. This matters especially for cured meats, soft cheeses, and dairy-based dips, which we style fresh on-site rather than leaving out for hours in advance. You can read more about our team and standards on our [about page](/about)." },
+  { q: "Are your grazing tables prepared to food-safety standards?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is the food on your grazing tables halal?", a: "Yes, we source halal by default, so your charcuterie, meats, and every element on the table are halal unless you request otherwise. We're happy to confirm sourcing details for specific items when you plan your spread, and we can tailor the selection to suit mixed guest lists. Just tell us your preferences and we'll build the table accordingly." },
   { q: "Do I need to provide my own table for the grazing spread?", a: "You don't have to, and we sort the presentation surface as part of the styling so you're not scrambling for furniture. If you already have a table, sideboard, or terrace surface you'd like us to dress, we'll style directly onto it; if not, we plan the display setup with you in advance. Either way, the finished centrepiece is built and arranged entirely by our team." },
   { q: "How long can a grazing table safely stay out in Dubai's heat?", a: "For perishable items like soft cheeses, cured meats, and creamy dips, we plan the table so guests enjoy it within a safe window, which is shorter outdoors in Dubai's warm months. We time the build to your event, use shaded and cooled presentation where needed for outdoor setups, and refresh rather than top up so nothing sits too long. For summer or fully outdoor events, we'll advise the best timing and format when we quote." },
@@ -305,7 +306,7 @@ export default function GrazingTable() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/grazing-table-dubai-hero.webp)' }}
@@ -340,7 +341,7 @@ export default function GrazingTable() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -422,7 +423,7 @@ export default function GrazingTable() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What sits on the grazing quote
+            What your grazing table proposal includes
           </h2>
 
           <div className="graz-inc-grid grid md:grid-cols-2 gap-6">
@@ -440,7 +441,7 @@ export default function GrazingTable() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             The table in the room
@@ -458,7 +459,7 @@ export default function GrazingTable() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -507,13 +508,13 @@ export default function GrazingTable() {
                 to={svc.link}
                 className="graz-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

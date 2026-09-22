@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /private-jet-catering-dubai
 //     primary:     "private jet catering dubai"
@@ -68,7 +69,7 @@ export default function PrivateJetCatering() {
         preloadHero={HERO}
         schema={schema}
       />
-      <PageHero
+      <NonCateringVisual><PageHero
         variant="quiet"
         eyebrow="Private Jet Catering"
         title="Private Jet Catering Dubai"
@@ -88,13 +89,13 @@ export default function PrivateJetCatering() {
         ]}
         minHeight="large"
         overlay="dark"
-      />
+      /></NonCateringVisual>
       <TrustSignalStrip />
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>A DIFFERENT OPERATING MODEL</SectionLabel>
-          <DisplayHeading className="text-black mb-6">This is not an event with a smaller room</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Food planned around the aircraft and journey</DisplayHeading>
           <BodyCopy className="mb-5">
             Yacht and villa catering can scale into a party. Jet catering cannot. Timing is the brief. Storage is limited. There is no spare kitchen on board.
           </BodyCopy>
@@ -122,7 +123,7 @@ export default function PrivateJetCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>AROUND THE JOURNEY</SectionLabel>
-          <DisplayHeading className="text-black mb-6">We coordinate our part. We do not replace your operator</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Coordination with your operator or handler</DisplayHeading>
           <BodyCopy className="mb-5">
             Hangar access, security and loading sit with the aircraft operator or handler. We work around their window. If they already have a preferred receiving point, we use it. Odyssey, Aspen, Austin or Farnborough menus you may have seen elsewhere are not our product. This page is Dubai departure food, coordinated to your operator.
           </BodyCopy>

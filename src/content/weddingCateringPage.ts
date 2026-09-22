@@ -281,7 +281,7 @@ export const weddingFaqs = [
     a: 'From small villa dinners of around twenty to receptions of several hundred. The format, staffing and kitchen plan follow the final count and the site, not a standard package.',
   },
   {
-    q: 'What does myCHEF actually do — are you the caterer?',
+    q: 'How does myCHEF coordinate the wedding catering?',
     a: 'myCHEF designs and coordinates the catering plan, then matches you with vetted chefs, service professionals and licensed culinary partners. We stay your point of contact for the food and beverage operation and work with your planner and venue.',
   },
   {

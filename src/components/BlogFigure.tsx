@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 import type { SeoImage } from '../content/seo'
 
@@ -5,7 +6,7 @@ import type { SeoImage } from '../content/seo'
 export default function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: boolean }) {
   return (
     <figure className="my-10">
-      <div className="overflow-hidden rounded-2xl bg-gray-100">
+      <NonCateringVisual><div className="overflow-hidden rounded-2xl bg-gray-100">
         <ServiceImage
           src={image.src}
           alt={image.alt}
@@ -16,7 +17,7 @@ export default function BlogFigure({ image, priority = false }: { image: SeoImag
           fetchPriority={priority ? 'high' : 'auto'}
           className="w-full h-auto object-cover"
         />
-      </div>
+      </div></NonCateringVisual>
       {image.caption && (
         <figcaption className="mt-3 font-inter text-sm text-gray-500 leading-relaxed">
           {image.caption}

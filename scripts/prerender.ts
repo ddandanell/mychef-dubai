@@ -343,6 +343,11 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
     }, { timeout: RENDER_TIMEOUT_MS })
   }
 
+  const cateringRoutes = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/content/cateringDesign.json'), 'utf-8'))
+  if (cateringRoutes[route]) {
+    await page.waitForFunction(() => document.querySelector('[data-catering-expansion]') !== null && document.querySelector('[data-catering-hero]') !== null, { timeout: RENDER_TIMEOUT_MS })
+  }
+
   // Brief pause so GSAP / ScrollTrigger entrance animations can settle
   // before we snapshot the DOM. Without this, elements that animate in
   // (fade/slide) may still be at initial visibility states.

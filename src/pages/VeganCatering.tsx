@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /vegan-catering-dubai
 //     primary:     "vegan catering dubai"
@@ -167,7 +168,7 @@ const faqs = [
   { q: "What is included in your vegan catering price?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. In practice you get a complete plant-based experience from first canapé to final dessert, with our team handling setup and pack-down so you simply host. Serving staff can be added when you want table service, and you can review sample menus on our [menus](/menus) page." },
   { q: "Is VAT included in the vegan catering quote?", a: "The standard 5% UAE VAT applies to catering services and is shown clearly on your quote. We keep pricing transparent with no hidden charges, so the figure you approve is the figure you pay. Any optional extras like additional serving staff are itemised separately before you confirm." },
   { q: "Do you cook the vegan food fresh on-site or deliver it prepared?", a: "For most events our chefs cook and plate your vegan menu fresh on-site, so dishes arrive at their best rather than sitting in transit. We bring the equipment we need and work cleanly in your kitchen or a suitable prep area, then clear everything away when service ends. For simpler gatherings, prepared drop-off options can also be arranged if you prefer." },
-  { q: "Is your vegan catering prepared to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, with careful handling and hygiene throughout preparation and service. Plant-based menus are prepared with the same rigour we apply to every event, and we take allergen separation seriously for mixed groups. You can read more about how we work on our [how it works](/how-it-works) page." },
+  { q: "Is your vegan catering prepared to Dubai food-safety standards?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is vegan food automatically halal?", a: "Fully vegan dishes contain no meat, poultry, or animal products, so they naturally sit within halal dietary requirements, and we source halal by default across all our menus. We also avoid alcohol-based ingredients in cooking unless you specifically request otherwise. This makes plant-based menus a genuinely inclusive choice for mixed cultural and religious guest lists." },
   { q: "How do you prevent cross-contact between vegan and non-vegan dishes?", a: "We keep plant-based items separate throughout sourcing, preparation, and service, using clean equipment and dedicated handling so vegan dishes stay truly vegan. For guests with allergies alongside a vegan diet, we plan the menu around their needs and label clearly where helpful. Tell us about every requirement when planning and we will build safeguards into the setup." },
   { q: "Will you use ingredients like honey, gelatin, or wine in the food?", a: "No. When you book a vegan menu we exclude all animal-derived ingredients, including honey, gelatin, dairy, eggs, and any non-vegan additives, and we avoid animal-based cooking wines. We check labels and swap in genuine plant-based alternatives so the whole spread is trustworthy for strict vegan guests. If you have any grey areas you want confirmed, just ask and we will clarify." },
@@ -308,7 +309,7 @@ export default function VeganCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/vegan-catering-dubai-hero.webp)' }}
@@ -344,14 +345,14 @@ export default function VeganCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">PLANT-BASED DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            No animal products. A full plate anyway.
+            Creative, satisfying plant-based menus
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Vegan catering in Dubai gives plant-based food a central place at the table. Menus exclude meat, fish, dairy, eggs, honey and gelatin. Partner kitchens may also handle animal products and allergens, so please discuss any allergy requirements separately before booking.
@@ -424,7 +425,7 @@ export default function VeganCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What a vegan booking actually covers
+            What your vegan catering proposal includes
           </h2>
 
           <div className="vgn-inc-grid grid md:grid-cols-2 gap-6">
@@ -442,7 +443,7 @@ export default function VeganCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             What vegan service looks like
@@ -460,7 +461,7 @@ export default function VeganCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -509,13 +510,13 @@ export default function VeganCatering() {
                 to={svc.link}
                 className="vgn-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

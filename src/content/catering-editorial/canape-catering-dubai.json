@@ -1,0 +1,48 @@
+{
+  "path": "/canape-catering-dubai",
+  "title": "Create a sequence guests can enjoy while mingling",
+  "focus": "Plan variety across warm and chilled bites, lighter flavours and more substantial pieces. Explain whether the reception is a brief welcome before dinner or the main food service for the evening. That distinction determines quantity as well as menu balance. Ask how dietary alternatives will circulate and where used napkins or small serving items will be collected. The number of staff should reflect the room and the length of service, not simply a photograph of a full tray.",
+  "sections": [
+    {
+      "id": "canape-flow",
+      "title": "Match the bites to the length of the reception",
+      "paragraphs": [
+        "Canapés should be comfortable to eat while guests are standing and talking. Consider the size, number of bites and whether a dish needs cutlery or somewhere to put a used item. A selection that looks elegant on a platter still needs to work once it reaches a guest's hand.",
+        "Discuss whether the menu is a light welcome or the main food for the occasion. That decision affects the balance of lighter bites and more substantial items, the quantity and the pace of service. Dietary alternatives should be included in the circulation plan so they reach the guests who need them.",
+        "The room layout matters too. Staff need clear routes between the preparation area and guests, and the menu should suit the distance food will travel. A well-planned reception feels effortless because the portions, service rhythm and practical details have been considered together."
+      ]
+    },
+    {
+      "id": "guest-count",
+      "title": "Plan quantities around the format, not just the headcount",
+      "paragraphs": [
+        "A guest count becomes useful when it is connected to the way people will eat. A short reception with light bites needs a different food plan from an evening where passed dishes are the main meal. Children, late arrivals and guests attending only part of an event may also affect the quantities required.",
+        "Tell us whether other food will be available and whether the service follows a meal earlier in the day. The chef can then recommend a sensible balance of dishes and portions. Generosity should mean guests can enjoy the occasion comfortably, rather than simply ordering more of every item.",
+        "Confirm the final numbers by the deadline in your proposal. A late increase may affect ingredients, equipment and staff as well as food quantity. Clear updates allow the team to assess the change properly and confirm any effect on the price or service plan."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/catering-dubai",
+      "label": "Catering"
+    },
+    {
+      "href": "/cocktail-party-catering-dubai",
+      "label": "Cocktail party catering"
+    },
+    {
+      "href": "/buffet-catering-dubai",
+      "label": "Buffet catering"
+    }
+  ]
+}

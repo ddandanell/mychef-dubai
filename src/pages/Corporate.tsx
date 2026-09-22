@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /corporate
 //     primary:     "corporate catering dubai"
@@ -123,7 +124,7 @@ export default function Corporate() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Corporate Catering Dubai"
         title="Corporate Catering Dubai for Offices and Boardrooms"
         subtitle={"Corporate catering in Dubai for offices, meetings and company occasions, with menus and service planned around your working day. Drop-off starts from AED 90 per person, and each proposal itemises the food, staffing and other requirements for clear approval."}
@@ -141,7 +142,7 @@ export default function Corporate() {
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
           Share your date, office or venue, guest count and preferred level of service.
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
       <div className="bg-black">
         <CorporateTrustStrip />
@@ -330,7 +331,7 @@ export default function Corporate() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {corePathways.map((item) => (
               <article key={item.href} className="border border-gray-200">
-                <Link to={item.href} data-track="service_card" className="block aspect-[16/10] overflow-hidden">
+                <NonCateringVisual><Link to={item.href} data-track="service_card" className="block aspect-[16/10] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.imageAlt}
@@ -340,7 +341,7 @@ export default function Corporate() {
                     decoding="async"
                     className="h-full w-full object-cover"
                   />
-                </Link>
+                </Link></NonCateringVisual>
                 <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
@@ -430,7 +431,7 @@ export default function Corporate() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHY MYCHEF</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">Explore our service approach</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {proofItems.map((item) => (
               <div key={item.title} className="border-t border-gray-200 pt-6">

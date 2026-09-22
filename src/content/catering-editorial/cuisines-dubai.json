@@ -1,0 +1,48 @@
+{
+  "path": "/cuisines-dubai",
+  "title": "Create variety without losing the direction of the meal",
+  "focus": "A mixed-cuisine menu works best when the dishes share a clear role in the meal. Choose a few regional favourites, then balance the richness, accompaniments and service style rather than simply adding more cuisines. Explain any family traditions and dietary requirements that should guide the selection. Some dishes suit a buffet, while others need immediate plating or a live station. The culinary plan should bring the selection together so guests experience one coherent occasion.",
+  "sections": [
+    {
+      "id": "regional",
+      "title": "Choose a regional direction before expanding the selection",
+      "paragraphs": [
+        "A broad cuisine name can cover many different dishes and traditions. Share the region, flavours or family favourites you have in mind so the chef can build a menu with a clear identity. If there are particular ingredients or preparations you expect, describe them rather than relying only on a familiar dish name.",
+        "A focused menu often feels more coherent than a long list of unrelated favourites. Think about how starters, main dishes, sides and desserts complement one another, and how they will be served. The menu should offer enough variety for the group while remaining practical for the kitchen and service format.",
+        "Tell us about spice preferences and essential dietary requirements early. These may affect the choice of dishes as well as individual recipes. The final selection can then reflect the food you enjoy with a clear understanding of what will be prepared for your occasion."
+      ]
+    },
+    {
+      "id": "menu",
+      "title": "Give the menu a clear direction",
+      "paragraphs": [
+        "Begin with a few dishes or flavours that your guests will enjoy, then build a balanced selection around them. A strong menu includes variety in texture, colour and richness without trying to cover every possible preference with a separate dish. The most useful question is how the food will work as a complete meal or reception.",
+        "Consider the time of day and the length of service. A short welcome reception needs a different amount and style of food from an evening where canapés replace dinner. Similarly, a working lunch should be easy to serve and enjoy within the available break.",
+        "Menu examples are a starting point for discussion. Ingredients, dietary variations and the practical requirements of your venue need to be reviewed before the final selection is confirmed. That gives the team room to recommend food that suits the occasion and can be served well."
+      ]
+    },
+    {
+      "id": "dietary",
+      "title": "Give every guest a considered option",
+      "paragraphs": [
+        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
+        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
+        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/arabic-catering-dubai",
+      "label": "Arabic catering"
+    },
+    {
+      "href": "/indian-catering-dubai",
+      "label": "Indian catering"
+    },
+    {
+      "href": "/italian-catering-dubai",
+      "label": "Italian catering"
+    }
+  ]
+}

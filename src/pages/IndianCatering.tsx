@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /indian-catering-dubai
 //     primary:     "indian catering dubai"
@@ -57,7 +58,7 @@ const menuHighlights = [
   {
     icon: Leaf,
     title: 'Jain & Vegetarian',
-    description: 'Jain, pure-vegetarian and vegan lines written as first-class menus. No onion or garlic when you ask. Not a side plate.',
+    description: 'Complete Jain, vegetarian and vegan menus, with ingredient restrictions and preparation requirements discussed before the selection is confirmed.',
     link: '/catering-dubai',
   },
   {
@@ -160,7 +161,7 @@ const faqs = [
   { q: "What's included in the price of your Indian catering?", a: "Every quote covers menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. Live tandoor and chaat counters, warmers, buffet styling, and coordination are built in, so there are no surprise add-ons. See exactly what a booking includes on our [how it works](/how-it-works) page." },
   { q: "Are there any hidden charges like VAT or service fees?", a: "No hidden charges, your proposal itemises everything, and the only statutory addition is 5% VAT as required in the UAE. Optional extras like additional serving staff or specialty live stations are quoted transparently up front so you can decide what to include. You approve the full menu and price before anything is confirmed." },
   { q: "Do you have a minimum number of guests for Indian catering?", a: "We cater Indian menus for a wide range of gatherings, from an intimate villa dinner to a wedding banquet for several hundred. For very small groups a private chef preparing a regional tasting in your kitchen is often the better fit, while buffets and live stations suit larger celebrations. Tell us your headcount and we'll recommend the right format." },
-  { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, with proper hygiene and temperature control from prep through to serving. This matters especially for large Indian spreads with rich gravies and dairy-based dishes that need careful handling on the day. You can read more about our team and standards on our [about](/about) page." },
+  { q: "Are your kitchens and chefs licensed and food-safe?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Can I taste the food before booking a large event?", a: "Yes, tasting sessions can be arranged for larger events such as weddings and corporate functions so you can confirm dishes, spice levels, and portion sizes before you commit. It's a good chance to fine-tune your menu across starters, mains, breads, and sweets. Ask about a tasting menu when you request your proposal." },
   { q: "Do you provide waiters and serving staff for Indian events?", a: "Yes, professional serving staff and waiters are available for buffets, plated dinners, and live-station setups. Staffing is optional and scaled to your guest count and service style, so a relaxed villa buffet can run lighter while a formal reception gets full front-of-house support. We'll suggest the right number of staff for a smooth service." },
   { q: "Can you cater a fully Jain menu with no onion or garlic?", a: "Yes, we prepare complete Jain menus with no onion, no garlic, and no root vegetables, cooked as a full spread rather than a stripped-back version. Pure-vegetarian, satvik, and vegan dishes are handled with the same care, and veg and non-veg are kept separate during preparation. Explore our dedicated Jain catering options for festivals and family gatherings." },
@@ -307,7 +308,7 @@ export default function IndianCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/indian-catering-dubai-hero.webp)' }}
@@ -343,14 +344,14 @@ export default function IndianCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">AUTHENTIC INDIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Region, tandoor and chaat. Then the rest of the table.
+            Regional menus, tandoor cooking and chaat stations
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Indian catering in Dubai offers the richness of regional cooking: North Indian tandoor dishes, Hyderabadi biryani, slow-cooked curries and South Indian dosa, sambar and coconut dishes. We plan vegetarian, vegan and Jain requirements from the outset, with halal meat and poultry as standard.
@@ -441,7 +442,7 @@ export default function IndianCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Indian Catering
@@ -459,7 +460,7 @@ export default function IndianCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -508,13 +509,13 @@ export default function IndianCatering() {
                 to={svc.link}
                 className="ind-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

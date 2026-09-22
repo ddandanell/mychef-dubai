@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { trackConversion } from '@/lib/track'
@@ -57,7 +58,7 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
 
   return (
     <div className="max-w-3xl">
-      <figure className="mb-8">
+      <NonCateringVisual><figure className="mb-8">
         <img
           src={privateBriefCopy.image}
           alt={privateBriefCopy.imageAlt}
@@ -67,7 +68,7 @@ export default function BirthdayPrivateBrief({ extraIds = [], scenarioId = null 
           decoding="async"
           className="aspect-[16/10] w-full object-cover"
         />
-      </figure>
+      </figure></NonCateringVisual>
       <SectionLabel>{privateBriefCopy.label}</SectionLabel>
       <DisplayHeading className="text-black mb-4">{privateBriefCopy.h2}</DisplayHeading>
       <BodyCopy className="mb-8">{privateBriefCopy.lead}</BodyCopy>

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { Link } from 'react-router'
 import {
   BIRTHDAY_BUNDLES,
@@ -109,7 +110,7 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
                     className={`border ${selectedItem ? 'border-gold bg-cream/40' : 'border-gray-200'}`}
                   >
                     {item.image ? (
-                      <img
+                      <NonCateringVisual><img
                         src={item.image}
                         alt={item.imageAlt ?? ''}
                         width={1344}
@@ -117,7 +118,7 @@ export default function BirthdayExtrasPicker({ selectedIds, onChange }: Props) {
                         loading="lazy"
                         decoding="async"
                         className="aspect-[16/9] w-full object-cover"
-                      />
+                      /></NonCateringVisual>
                     ) : null}
                     <div className="p-6">
                     <div className="flex items-start justify-between gap-4 mb-2">

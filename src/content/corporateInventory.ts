@@ -281,7 +281,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     nav: 'Menus',
     line: 'Mains, stations, dietary options',
     label: 'What goes on the table',
-    h2: 'Corporate catering food that survives a mixed room',
+    h2: 'Menus for a varied corporate guest list',
     how:
       'Halal ingredients are the default. Vegetarian, vegan and gluten-free dishes are planned when named. Labels go on the tray. We do not promise an allergen-free kitchen.',
     image: '/images/buffet-catering-dubai-hero.webp',
@@ -468,7 +468,7 @@ export const CORPORATE_INVENTORY: readonly CorporateInvSection[] = [
     nav: 'Invoicing',
     line: 'VAT, LPO, accounts',
     label: 'What finance sees',
-    h2: 'Itemised invoices, not a blended headline',
+    h2: 'Clear, itemised proposals and invoices',
     how:
       'Food, staff, equipment, delivery and 5% VAT sit on separate lines. An LPO or a consolidated invoice does not by itself create credit terms. A written account is a separate agreement.',
     image: '/images/catering-packages-dubai-hero.webp',

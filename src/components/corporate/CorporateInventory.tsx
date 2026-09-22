@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import {
   CORPORATE_INVENTORY_INTRO,
   CORPORATE_INVENTORY_PILLARS,
@@ -64,8 +65,8 @@ export default function CorporateInventory({ path, quoteHref = '#quote' }: Props
           }
           aria-labelledby={`${section.id}-h`}
         >
-          <div className="container-custom grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] gap-10 lg:gap-16 items-start">
-            <figure className="overflow-hidden bg-gray-100">
+          <div className="container-custom grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] gap-10 lg:gap-16 items-start" data-catering-text-layout>
+            <NonCateringVisual><figure className="overflow-hidden bg-gray-100">
               <img
                 src={section.image}
                 alt={section.imageAlt}
@@ -76,7 +77,7 @@ export default function CorporateInventory({ path, quoteHref = '#quote' }: Props
                 className="w-full h-auto aspect-[16/10] object-cover"
               />
               <figcaption className="font-inter text-body-xs text-gray-500 px-1 pt-2">Experience concept shown</figcaption>
-            </figure>
+            </figure></NonCateringVisual>
             <div>
               <p className="font-inter text-caption uppercase tracking-[0.16em] text-gold-ink mb-3">{section.label}</p>
               <h2 id={`${section.id}-h`} className="font-playfair text-fluid-h2 text-black mb-4">

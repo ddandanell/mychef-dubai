@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /asian-catering-dubai
 //     primary:     "asian catering dubai"
@@ -163,8 +164,8 @@ const faqs = [
   { q: "What exactly is included when I book your Asian catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards, you are left with nothing to tidy. Live wok, dim sum, and sushi stations are handled by our own chefs, and serving staff can be added when you want a fully waited service. In short, we handle the whole Asian feast from planning to pack-down so you can enjoy your own event." },
   { q: "Is there a minimum number of guests for Asian catering?", a: "We cater Asian menus for intimate villa dinners of a handful of guests right up to large weddings and corporate functions of several hundred. Live stations like wok and dim sum work best with a slightly larger group so the theatre and flow feel right, but we scale the format to your numbers. Just share your guest count and we will recommend the best setup for the size of your gathering." },
   { q: "Do you cater authentic Asian cuisine or fusion?", a: "Both, we can deliver authentic regional cooking such as Cantonese roast meats, Szechuan stir-fries, and classic Thai curries, or a modern pan-Asian fusion spread blending Japanese, Korean, Vietnamese, and Malaysian accents. Our chefs tailor the balance to your taste, whether you want a traditional single-cuisine banquet or a vibrant mixed-continent menu. Tell us the mood you are after and we design the menu around it." },
-  { q: "Are your kitchens and chefs food-safety certified?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, with careful temperature control and hygienic handling throughout cooking and service. This matters especially for raw items like sushi and sashimi, which we prepare fresh on site at a live counter rather than leaving to sit. You can read more about our approach on our [about page](/about)." },
-  { q: "Will the sushi and stir-fries actually be fresh, not sitting out?", a: "Yes, this is the biggest advantage of our live-station approach: sushi is hand-rolled to order at the counter, and noodles and stir-fries are fired fresh in the wok as guests come up. Nothing is pre-cooked hours ahead and left to go soggy or dry out. Dishes reach your guests hot, crisp, and at their peak, which is exactly why interactive Asian catering is so popular." },
+  { q: "Are your kitchens and chefs food-safety certified?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
+  { q: "How is the preparation and serving time planned?", a: "Yes, this is the biggest advantage of our live-station approach: sushi is hand-rolled to order at the counter, and noodles and stir-fries are fired fresh in the wok as guests come up. Nothing is pre-cooked hours ahead and left to go soggy or dry out. Dishes reach your guests hot, crisp, and at their peak, which is exactly why interactive Asian catering is so popular." },
   { q: "Can you cater for guests with allergies and gluten-free needs?", a: "Yes. We routinely adapt Asian menus for gluten, nut, shellfish, and soy sensitivities, using tamari in place of wheat-based soy sauce and preparing allergy-safe dishes with separate handling where possible. Because Asian cooking uses shared ingredients like soy and sesame, we ask you to flag every allergy in advance so our chefs can plan safely. See our [allergy-safe catering](/allergy-safe-catering-dubai) approach for more detail." },
   { q: "Do you provide serving staff and waiters for the event?", a: "Serving staff are optional and can be added to any Asian catering booking, from station chefs and servers to a fully waited buffet or plated experience. For receptions and weddings we recommend service staff to pass dim sum, satay, and bao smoothly and keep stations flowing. For relaxed villa gatherings, a lighter setup often works just as well, and we will advise the right level for your event." },
   { q: "Do you need a full kitchen, or can you cook in a villa or venue?", a: "We bring our own equipment and set up live wok, dim sum, and sushi stations in villas, gardens, rooftops, and event venues without needing a full commercial kitchen. Our team assesses power, water, and space when planning so setup is smooth on the day. We regularly cater [villas and private residences](/villas-private-residences) as well as marquees, yachts, and corporate spaces across Dubai." },
@@ -307,7 +308,7 @@ export default function AsianCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/asian-catering-dubai-hero.webp)' }}
@@ -343,14 +344,14 @@ export default function AsianCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">VIBRANT ASIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Wok heat, dim sum, regional menus. Sushi next door.
+            Regional menus with a clear culinary direction
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Asian catering in Dubai spans distinct culinary traditions, each with its own ingredients and techniques. We plan Thai curries, wok dishes, dim sum and regional favourites around your kitchen facilities and service style. For a dedicated raw fish counter or chilled platters, explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link>.
@@ -441,7 +442,7 @@ export default function AsianCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Asian Catering
@@ -459,7 +460,7 @@ export default function AsianCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -508,13 +509,13 @@ export default function AsianCatering() {
                 to={svc.link}
                 className="asia-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

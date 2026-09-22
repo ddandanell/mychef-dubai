@@ -96,7 +96,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-stations',
     nav: 'Live cooking',
     label: 'Live stations',
-    h2: 'Compact live stations that actually fit the deck',
+    h2: 'Compact live stations suited to the deck',
     how:
       'A yacht is not a hotel ballroom. Stations have to be self-contained, marine-safe and small enough to load in the captain’s window. The 113-guest Harbour quote priced one live station — chicken shawarma, Mexican, pasta or burger — with two station chefs as a separate AED 720 line. We can run more than one station when the vessel and headcount justify it: carving, dessert, coffee, robata, noodle or wok. If the captain will not allow open flame, we do not light a grill.',
     image: '/images/yacht-work/tartlets-salon.webp',
@@ -185,7 +185,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-buffet',
     nav: 'Buffet',
     label: 'International buffet',
-    h2: 'A buffet that waiters actually run',
+    h2: 'A buffet with coordinated service',
     how:
       'A professionally managed buffet is how larger yacht groups eat without a restaurant pass. Guests move at their own pace. Waiters replenish, clear and keep the table looking organised. The Harbour buffet quote named 4 waiters, with salads, appetizers, mains, sides, desserts and beverages. Elevations come off if the sea gets rough — that is a captain’s call, written into how we set the table.',
     image: '/images/yacht-work/sushi-service.webp',
@@ -246,7 +246,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-desserts',
     nav: 'Desserts',
     label: 'Desserts',
-    h2: 'Desserts that survive a moving deck',
+    h2: 'Desserts selected for onboard service',
     how:
       'Harbour canapé days included five desserts. We favour items that hold: tartlets, shots, baklava, fruit. A live dessert station or tiramisu bar is possible when the yacht has the space and the staff. A chocolate fountain only if the captain and the sea agree — it is not a default.',
     image: '/images/yacht-work/dessert-canapes.webp',
@@ -428,7 +428,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-styling',
     nav: 'Event styling',
     label: 'How it looks',
-    h2: 'Yacht-safe styling — not a ballroom install',
+    h2: 'Styling suited to the yacht',
     how:
       'Décor has to survive movement and a captain’s safety call. We style buffets and stations with elevations that can come off in open water. Candles, low florals, table runners and gold charger settings are available when the brief wants them. Corporate days can take branded menu signage. Nothing is glued to the yacht.',
     image: '/images/yacht-work/salon-styled.webp',
@@ -455,7 +455,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-logistics',
     nav: 'Logistics & setup',
     label: 'Getting it onboard',
-    h2: 'Marina loading is part of the service, not an extra you invent on the day',
+    h2: 'Marina loading planned before the charter',
     how:
       'Food, equipment and staff load in the captain’s window. Cold chain, ice, chillers and waste removal are planned before the van leaves. We set up, run the service, break down and take the kit off. End-of-event clearance is on the captain’s timing. We follow the boat — Dubai Marina, Dubai Harbour, Palm Jumeirah, JBR, and other berths when it is there.',
     image: '/images/yacht-work/deck-table-marina.webp',
@@ -482,7 +482,7 @@ export const YACHT_INVENTORY: readonly YachtInvSection[] = [
     id: 'yacht-dietary',
     nav: 'Dietary',
     label: 'Dietary',
-    h2: 'Dietaries collected before we cook — not announced at the gangway',
+    h2: 'Dietary requirements confirmed before preparation',
     how:
       'Halal is the default kitchen. Vegetarian, vegan, gluten-free, dairy-free and allergy adaptations are written into the menu when they are in the brief. Live stations can run a vegetarian or vegan line. Canapés can be adapted. Corporate days often need labelling and a pre-event dietary collection. Tell us before we write the proposal.',
     image: '/images/yacht-work/nut-tartlets.webp',

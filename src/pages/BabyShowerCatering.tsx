@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /baby-shower-catering-dubai
 //     primary:     "baby shower catering dubai"
@@ -161,7 +162,7 @@ const faqs = [
   { q: "What exactly is included in the price?", a: "Every baby shower package includes menu design, ingredient sourcing and shopping, on-site cooking or assembly, styling and plating, and full cleanup afterwards. In other words, we handle the whole spread from start to finish so the hosts can enjoy the day. Serving staff can be added when you want a fully hosted table, and that's noted separately in your quote." },
   { q: "Is there a minimum spend or minimum guest count?", a: "We cater baby showers of almost any size, from an intimate gathering of around ten guests to larger celebrations of fifty or more. There's no rigid one-size rule; instead we build the menu and quantities around your actual guest list so nothing is wasted. Just tell us your numbers and we'll advise on the right format and portions." },
   { q: "Do you cook fresh on-site or deliver the food?", a: "For most baby showers we arrive early, style the grazing and dessert tables in your space, and prepare fresh where the menu calls for it. Some elegant cold items and dessert displays are beautifully assembled on-site rather than cooked, which keeps everything looking pristine for photos. Either way, our team sets up, replenishes, and cleans up so your kitchen stays untouched." },
-  { q: "Are your chefs and kitchens food-safety licensed?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and food is handled, transported, and stored with proper hygiene throughout. This matters especially at a baby shower, where you often have expecting mums and young children as guests. You can read more about how we work on our [about page](/about)." },
+  { q: "Are your chefs and kitchens food-safety licensed?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is the food halal?", a: "Yes, our baby shower menus are halal sourced by default, which suits the vast majority of gatherings in Dubai. If you have specific requirements beyond that, just mention them when we plan and we'll confirm every item. Non-halal is not something we offer as standard." },
   { q: "How do I book, and how quickly will I hear back?", a: "You can book by sending an inquiry with your date, guest count, and theme, and we typically reply within 15 minutes during business hours. From there we confirm the menu, styling, and quote, and lock in your date. Start your request on our [contact page](/contact) and we'll take it from there." },
   { q: "Can you provide serving staff and hosts for the shower?", a: "Yes, serving staff are an optional add-on for baby showers. A discreet host can keep the grazing and dessert tables replenished, top up mocktails, and clear away throughout, so the mum-to-be and guests never have to lift a finger. If you'd prefer a simpler drop-and-style setup, that works too, and we'll price accordingly." },
@@ -313,7 +314,7 @@ export default function BabyShowerCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/celebration-catering-dubai-hero.webp)' }}
@@ -350,7 +351,7 @@ export default function BabyShowerCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip />
 
@@ -446,7 +447,7 @@ export default function BabyShowerCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             How the table is set
@@ -464,7 +465,7 @@ export default function BabyShowerCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -513,13 +514,13 @@ export default function BabyShowerCatering() {
                 to={svc.link}
                 className="bsc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from './SEO'
@@ -19,7 +20,7 @@ import type { InstitutionalFigure, InstitutionalPageContent } from '@/content/in
 
 function ConceptFigure({ image, className = '' }: { image: InstitutionalFigure; className?: string }) {
   return (
-    <figure className={className}>
+    <NonCateringVisual><figure className={className}>
       <div className="overflow-hidden bg-gray-100">
         <img
           src={image.src}
@@ -32,7 +33,7 @@ function ConceptFigure({ image, className = '' }: { image: InstitutionalFigure; 
         />
       </div>
       <figcaption className="mt-3 font-inter text-sm text-gray-500 leading-relaxed">{image.caption}</figcaption>
-    </figure>
+    </figure></NonCateringVisual>
   )
 }
 
@@ -82,7 +83,7 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={page.eyebrow}
         title={page.lock.h1}
         subtitle={page.hero.subtitle}
@@ -98,7 +99,7 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">{page.hero.micro}</p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -145,7 +146,7 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
               </BodyCopy>
             ))}
           </div>
-          <ConceptFigure image={page.figures.afterBrief} className="mt-10" />
+          <NonCateringVisual><ConceptFigure image={page.figures.afterBrief} className="mt-10" /></NonCateringVisual>
         </Container>
       </Section>
 
@@ -156,14 +157,14 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
           <div className="grid md:grid-cols-2 gap-8">
             {page.difference.blocks.map((block) => (
               <article key={block.title} className="border-t border-gray-200 pt-6">
-                {block.image ? <ConceptFigure image={block.image} className="mb-5" /> : null}
+                {block.image ? <NonCateringVisual><ConceptFigure image={block.image} className="mb-5" /></NonCateringVisual> : null}
                 <h3 className="font-playfair text-h4 text-black mb-3">{block.title}</h3>
                 <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{block.body}</p>
               </article>
             ))}
           </div>
           {page.figures.afterDifference ? (
-            <ConceptFigure image={page.figures.afterDifference} className="mt-12" />
+            <NonCateringVisual><ConceptFigure image={page.figures.afterDifference} className="mt-12" /></NonCateringVisual>
           ) : null}
         </Container>
       </Section>

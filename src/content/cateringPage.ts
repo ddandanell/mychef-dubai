@@ -257,7 +257,7 @@ export const proofItems = [
   {
     title: 'How culinary partners are selected',
     claim: 'Vetted chef and culinary-partner network.',
-    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client, and the partner house employs them on a visa we have seen. On an event no chef is guaranteed by name: we match the night. That is the honest difference from the household service, where the whole point is that the same person comes back.',
+    body: 'We work with culinary partners and match the team to the menu, venue and service requirements. A particular chef is confirmed only when the booking brief and availability have been reviewed. myCHEF remains your contact for coordination and feedback.',
     href: '/how-we-vet-our-chefs',
     linkLabel: 'How myCHEF quality standards work',
   },

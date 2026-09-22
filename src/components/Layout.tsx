@@ -1,3 +1,4 @@
+import { isCateringDesignPage } from './catering/CateringEditorial'
 import { useEffect, type ReactNode } from 'react'
 import { useLocation } from 'react-router'
 import { rememberServicePage } from '@/lib/inquiry'
@@ -43,12 +44,12 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isChefDesignPage(pathname) ? 'pc-design' : ''}`}>
+    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''}`}>
       <ScrollManager />
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
-          {!isChefDesignPage(pathname) && <SiloTrail />}
+          {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
           {!isChefDesignPage(pathname) && <SiloChildren />}
         </main>

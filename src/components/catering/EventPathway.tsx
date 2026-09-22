@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -29,8 +30,8 @@ export default function EventPathway({
               'grid items-center gap-8 lg:grid-cols-2 lg:gap-14',
               compact && 'lg:gap-10',
             )}
-          >
-            <Link
+           data-catering-text-layout>
+            <NonCateringVisual><Link
               to={item.href}
               className={cn(
                 'editorial-image relative block overflow-hidden',
@@ -47,7 +48,7 @@ export default function EventPathway({
                 loading="lazy"
                 decoding="async"
               />
-            </Link>
+            </Link></NonCateringVisual>
             <div className={cn(reverse && 'lg:order-1')}>
               <h3 className="font-playfair text-h3 text-black mb-4">{item.title}</h3>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6 max-w-[52ch]">

@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 import EditorialHero from '@/components/private-chef/EditorialHero'
 import { isChefDesignPage } from '@/content/privateChefDesign'
@@ -217,7 +218,7 @@ export default function ServiceLandingPage({ config }: Props) {
       />
 
       {/* Hero */}
-      {isChefDesignPage(config.canonicalPath) ? <EditorialHero eyebrow={config.breadcrumbLabel} title={config.h1} subtitle={config.heroSub} cta={{label:config.primaryCta || "Plan with myCHEF",href:inquiryLink}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/> : (<section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      {isChefDesignPage(config.canonicalPath) ? <EditorialHero eyebrow={config.breadcrumbLabel} title={config.h1} subtitle={config.heroSub} cta={{label:config.primaryCta || "Plan with myCHEF",href:inquiryLink}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/> : (<NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: `url(${config.heroImage})` }}
@@ -260,7 +261,7 @@ export default function ServiceLandingPage({ config }: Props) {
             </a>
           </div>
         </div>
-      </section>) }
+      </section></NonCateringVisual>) }
 
       {config.showTrustSignalStrip !== false && <TrustSignalStrip variant="dark" />}
 
@@ -345,7 +346,7 @@ export default function ServiceLandingPage({ config }: Props) {
       </section>
 
       {/* Gallery */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">{config.galleryH2}</h2>
 
@@ -365,7 +366,7 @@ export default function ServiceLandingPage({ config }: Props) {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {faqItems.length > 0 && (
       <section className="bg-white py-20">
@@ -389,7 +390,7 @@ export default function ServiceLandingPage({ config }: Props) {
                 to={svc.link}
                 className="svc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <ServiceImage
                     src={svc.image}
                     alt={svc.title}
@@ -399,7 +400,7 @@ export default function ServiceLandingPage({ config }: Props) {
                     loading="lazy"
                     decoding="async"
                   />
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

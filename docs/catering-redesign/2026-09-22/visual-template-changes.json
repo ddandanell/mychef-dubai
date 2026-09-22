@@ -1,0 +1,306 @@
+[
+  {
+    "file": "src/components/system/index.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/shared/ServiceLandingPage.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/AllergySafeCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/ArabicCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/AsianCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/BabyShowerCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/BarServices.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/BBQCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/components/BlogFigure.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/BlogRelated.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/HandoffPage.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/components/birthday/BirthdayExtrasPicker.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/birthday/BirthdayPrivateBrief.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/BirthdayCatering.tsx",
+    "changes": 11
+  },
+  {
+    "file": "src/components/PackagePageTemplate.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/blog/CorporateCateringFullServiceVsDropOff.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/blog/RamadanIftarTrends2026.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/blog/WeddingCateringCost.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/components/corporate/CorporateInventory.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/BrandActivationCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/BrunchCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/BuffetCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/BusinessLunchCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/CanapeCatering.tsx",
+    "changes": 4
+  },
+  {
+    "file": "src/pages/CateringCostCalculator.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/catering/EventPathway.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/Catering.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/CateringPackages.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/ChristmasCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/CocktailPartyCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/ConferenceCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/Corporate.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/guides/CorporateCateringChecklist.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/CorporateEventCatering.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/CorporateRetainer.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/Cuisines.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/DessertTableCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/DiwaliCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/DropOffCatering.tsx",
+    "changes": 5
+  },
+  {
+    "file": "src/pages/guides/DubaiCateringPricesGuide.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/EventCateringPriceGuide2026.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/EidCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/EngagementCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/Events.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/FestiveCatering.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/GalaDinnerCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/GrazingTable.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/HalalCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/guides/HowToChooseCatererDubai.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/RamadanIftar.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/IndianCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/ItalianCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/LiveCookingStations.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/MediterraneanCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/Menus.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/NewYearCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/OfficeCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/PrivateJetCatering.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/PrivatePartyCatering.tsx",
+    "changes": 2
+  },
+  {
+    "file": "src/pages/ProductLaunchCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/ProductionCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/RamadanCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/guides/RamadanCateringGuide.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/StaffMealsCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/SushiCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/VeganCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/VegetarianCatering.tsx",
+    "changes": 3
+  },
+  {
+    "file": "src/pages/guides/VillaCateringIdeas.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/guides/WeddingCateringChecklist.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/WeddingCatering.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/pages/guides/WeddingMenuPlanningGuide.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/yachts/YachtHero.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/yachts/YachtInventory.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/yachts/YachtServiceSelector.tsx",
+    "changes": 1
+  },
+  {
+    "file": "src/components/InstitutionalLanding.tsx",
+    "changes": 5
+  },
+  {
+    "file": "src/pages/blog/RyzeArticlePage.tsx",
+    "changes": 1
+  }
+]

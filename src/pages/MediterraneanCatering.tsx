@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /mediterranean-catering-dubai
 //     primary:     "mediterranean catering dubai"
@@ -167,7 +168,7 @@ const faqs = [
   { q: "Is there a minimum number of guests for Mediterranean catering?", a: "No, we cater Mediterranean menus for everything from an intimate villa dinner for two to large events of several hundred guests. Many Dubai caterers impose a 50-guest minimum, but we design around your actual party size, smaller gatherings simply get a menu scaled to suit. Just [tell us your guest count](/contact) and we'll build the right menu and quote." },
   { q: "What exactly is included in the price you quote?", a: "Every Mediterranean catering quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. Unlike food-only drop-off caterers, we handle the whole experience end to end, so there are no surprise charges for setup or pack-down. Serving staff are optional and 5% VAT applies to the final quote." },
   { q: "Do you charge an extra service charge on top of the quote?", a: "No, we don't add a separate 10–20% service charge like many Dubai caterers do, the price we quote is the price you pay, plus the standard 5% VAT. Your proposal spells out food, cooking, service, and cleanup as one transparent figure so you can budget with confidence. If anything changes, we re-quote openly rather than surprising you on the day." },
-  { q: "Are your chefs and kitchens licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, which matters most for Mediterranean menus built around fresh seafood and raw salads. We handle cold-chain sourcing, safe handling, and hygienic on-site preparation as a matter of routine. You can read more about our team and standards on our [about page](/about)." },
+  { q: "Are your chefs and kitchens licensed and food-safe?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Can I taste the Mediterranean menu before I book a large event?", a: "Yes, for larger events and weddings we can arrange a tasting so you can experience the mezze, grills, and seafood before committing. It's the best way to fine-tune flavours, portion sizes, and presentation to match your celebration. See how a curated multi-course tasting works on our tasting menu Dubai page, then let us set one up." },
   { q: "Do you offer buffet, sharing platters, or plated Mediterranean service?", a: "We offer all three, a generous mezze buffet, relaxed sharing platters, or an elegant plated seafood dinner, depending on the mood of your event. Buffets and sharing styles suit villa lunches and poolside parties, while plated courses bring polish to corporate and refined dining. We'll recommend the format that fits your guests, venue, and budget." },
   { q: "Can you set up a live grill or souvlaki station at my event?", a: "Yes, a live charcoal grill is one of the most popular ways to serve Mediterranean food, with souvlaki, whole fish, halloumi, and lamb cooked in front of your guests. It adds theatre and keeps everything hot and fresh from flame to plate. Explore the format on our [live cooking stations Dubai](/live-cooking-stations-dubai) page." },
@@ -307,7 +308,7 @@ export default function MediterraneanCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/mediterranean-catering-dubai-hero.webp)' }}
@@ -343,14 +344,14 @@ export default function MediterraneanCatering() {
           </div>
         </div>
         <TrustSignalStrip className="mt-8" variant="dark" />
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">FRESH MEDITERRANEAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Greek, coastal, vegetable-forward. Heat when the room allows.
+            Fresh, regional dishes inspired by Mediterranean cooking
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Mediterranean catering in Dubai combines olive oil, seasonal salads, Greek mezze and grilled fish in a fresh, balanced menu. We confirm cooking facilities and any restrictions on outdoor grills before planning the service. For Levantine grills, ouzi and Arabic coffee, explore <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link>. We do not pretend those are the same kitchen.
@@ -441,7 +442,7 @@ export default function MediterraneanCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Mediterranean Catering
@@ -459,7 +460,7 @@ export default function MediterraneanCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -508,13 +509,13 @@ export default function MediterraneanCatering() {
                 to={svc.link}
                 className="med-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

@@ -94,7 +94,7 @@ export const boundaries = [
     cta: 'Business lunch catering',
   },
   {
-    q: 'Food delivered, nobody in the room?',
+    q: 'Looking for food delivery?',
     a: 'Meals and platters laid out. Your team helps itself. Facilities clears the trays.',
     href: '/drop-off-catering-dubai',
     cta: 'Drop-off catering',
@@ -166,7 +166,7 @@ export const formats = {
 }
 
 export const recurring = {
-  h2: 'The repeating week, not a prepaid plan',
+  h2: 'A clear arrangement for recurring office meals',
   paragraphs: [
     'Most offices that call us are not planning an event. They want the same team fed on the same days without anybody in HR chasing a caterer every Monday. Weekly office catering in Dubai means fixed delivery windows, a menu that rotates so nobody sees the same grain bowl twice in two weeks, one contact, and one monthly invoice instead of forty receipts.',
     'The food rate stays the AED 90 working-lunch tier. Office lunch catering in Dubai on a recurring programme is quoted against your real schedule and headcount. We do not sell office catering packages in Dubai as prepaid memberships, and there is no published discount table for volume. If a fixed monthly rate matters to finance, say so at the brief and the proposal is built that way.',

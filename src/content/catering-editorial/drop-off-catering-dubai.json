@@ -1,0 +1,48 @@
+{
+  "path": "/drop-off-catering-dubai",
+  "title": "Choose food that suits the handover and serving plan",
+  "focus": "Delivered catering works well when the receiving team knows exactly what it needs to do. Confirm the delivery window, the time people will eat and the facilities available after arrival. Individual meals offer a different experience from shared platters or hot trays, so choose the format around the space and occasion. Check labels, serving items and any dish-specific instructions before service begins. If you need ongoing replenishment or hospitality staff, include that requirement when requesting the proposal.",
+  "sections": [
+    {
+      "id": "dropoff",
+      "title": "Make the delivery handover clear",
+      "paragraphs": [
+        "For food-only delivery, nominate someone who will receive the order and confirm the handover details. Share the exact address, access instructions and requested delivery window. If the location is inside a larger building, include the floor, reception process and any restrictions on deliveries.",
+        "Know what happens next. Your team may need to arrange the food, provide serving items, replenish the table and handle clear-down. Ask which packaging, labels and serving guidance are included, and check whether any equipment is supplied or needs to be arranged separately.",
+        "The menu should suit the interval between delivery and eating. Tell the team if food will be served later or in several stages so the request can be assessed appropriately. Follow the dish-specific instructions provided at handover and ask for clarification where needed. A clear delivery arrangement gives you convenience without leaving important responsibilities undefined."
+      ]
+    },
+    {
+      "id": "menu",
+      "title": "Give the menu a clear direction",
+      "paragraphs": [
+        "Begin with a few dishes or flavours that your guests will enjoy, then build a balanced selection around them. A strong menu includes variety in texture, colour and richness without trying to cover every possible preference with a separate dish. The most useful question is how the food will work as a complete meal or reception.",
+        "Consider the time of day and the length of service. A short welcome reception needs a different amount and style of food from an evening where canapés replace dinner. Similarly, a working lunch should be easy to serve and enjoy within the available break.",
+        "Menu examples are a starting point for discussion. Ingredients, dietary variations and the practical requirements of your venue need to be reviewed before the final selection is confirmed. That gives the team room to recommend food that suits the occasion and can be served well."
+      ]
+    },
+    {
+      "id": "equipment",
+      "title": "List the equipment before calling the plan complete",
+      "paragraphs": [
+        "Food, kitchen equipment and table items are separate parts of a catering brief. Confirm what the venue supplies and what the catering team needs to bring. Depending on the format, that may include preparation equipment, holding equipment, serving utensils, crockery, glassware or linen.",
+        "A photograph of a styled event does not establish what is included in your own package. If you want the same type of table setup or service display, ask for those items to be identified in the proposal. This is particularly useful when the property has limited kitchen facilities or the event uses more than one dining area.",
+        "Also agree how equipment will arrive, be set up and be collected. Access restrictions and collection times can affect the plan. A clear equipment list helps the team prepare properly and gives you a practical way to check that the venue is ready before guests arrive."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/catering-dubai",
+      "label": "Catering"
+    },
+    {
+      "href": "/blog/corporate-catering-full-service-vs-drop-off",
+      "label": "Full service vs drop off catering"
+    },
+    {
+      "href": "/office-catering-dubai",
+      "label": "Office catering"
+    }
+  ]
+}

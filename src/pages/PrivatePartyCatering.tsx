@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /private-party-catering-dubai
 //     primary:     "private party catering dubai"
@@ -96,7 +97,7 @@ export default function PrivatePartyCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={partyHeroCopy.eyebrow}
         title={partyHeroCopy.title}
         subtitle={partyHeroCopy.subtitle}
@@ -121,7 +122,7 @@ export default function PrivatePartyCatering() {
         <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
           {partyHeroCopy.replyLine}
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -170,7 +171,7 @@ export default function PrivatePartyCatering() {
       <Section id="occasions" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
-          <DisplayHeading className="text-black mb-4">A house party, not a second events hub.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">A private celebration shaped around your home</DisplayHeading>
           <BodyCopy className="mb-8">{hostedHereIntro}</BodyCopy>
           <ul className="mb-12 grid sm:grid-cols-2 gap-x-10 gap-y-2 max-w-3xl">
             {hostedHere.map((item) => (
@@ -184,7 +185,7 @@ export default function PrivatePartyCatering() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {uniqueOccasionCards.map((item) => (
               <article key={item.href} className="border border-gray-200">
-                <Link to={item.href} data-track="party_card" className="block aspect-[16/10] overflow-hidden">
+                <NonCateringVisual><Link to={item.href} data-track="party_card" className="block aspect-[16/10] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.imageAlt}
@@ -194,7 +195,7 @@ export default function PrivatePartyCatering() {
                     decoding="async"
                     className="h-full w-full object-cover"
                   />
-                </Link>
+                </Link></NonCateringVisual>
                 <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>

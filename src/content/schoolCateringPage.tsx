@@ -78,7 +78,7 @@ export const schoolPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'School catering Dubai is a licensed food operation',
+    h2: 'School catering Dubai, assessed for your school',
     paragraphs: [
       'A school canteen in Dubai is no longer a tuck shop with a microwave. It is inspected like any other food business, with extra rules on what may be sold to children. Dubai has 220 or more private schools. Exclusive canteen contracts are large, long, and awarded to kitchens that can show papers: not to the first WhatsApp cook who can do a pasta day.',
       'Two things changed the brief. My School Food, launched in November 2025, put hundreds of thousands of students onto a registered-supplier model. The 2026 national guide for food in the school environment bans sugary and energy drinks, confectionery, fried food, nuts and processed meats in UAE schools. Healthy school lunch Dubai is now a compliance sentence, not a slogan on a menu board.',
@@ -117,7 +117,7 @@ export const schoolPage: InstitutionalPageContent = {
   },
   table: {
     label: 'FORMATS',
-    h2: 'Three ways school catering Dubai is actually bought',
+    h2: 'School catering Dubai: three service arrangements',
     intro: 'Pick the format before you shortlist anyone. The quote is different for each.',
     columns: ['Format', 'What it is', 'Who it suits'],
     rows: [
@@ -128,7 +128,7 @@ export const schoolPage: InstitutionalPageContent = {
     note: 'We do not publish a from-price per child. Roll, format and diet list move the number. 5% VAT is its own line.',
   },
   compliance: {
-    h2: 'The rules a school canteen has to survive',
+    h2: 'Requirements to review before service begins',
     intro:
       'Ask to see these before you award a year. We will not take a contract we cannot document.',
     rows: [
@@ -144,7 +144,7 @@ export const schoolPage: InstitutionalPageContent = {
     note: 'Read the 2026 explainer if you have to brief a board. Cashless pre-order is a school choice, not a substitute for a kitchen.',
   },
   process: {
-    h2: 'Four steps. The principal sees the papers.',
+    h2: 'A clear review process for the school team',
     steps: [
       'Send the school, roll, year groups, and whether you want delivery or a line.',
       'We typically reply within 15 minutes during business hours if a kitchen can cover the week.',
@@ -164,7 +164,7 @@ export const schoolPage: InstitutionalPageContent = {
     h2: 'A parent committee can open this',
     items: [
       {
-        title: 'The 2026 rules, in English',
+        title: 'Further reading on school food requirements',
         body: 'What My School Food and the national guide actually ban, and what a caterer must be able to show you.',
         href: '/blog/dubai-school-food-rules-2026',
         linkLabel: 'Dubai school food rules 2026',

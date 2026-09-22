@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /wedding-catering-dubai
 //     primary:     "wedding catering dubai"
@@ -99,7 +100,7 @@ export default function WeddingCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow={weddingHeroCopy.eyebrow}
         title={weddingHeroCopy.title}
         subtitle={weddingHeroCopy.subtitle}
@@ -125,7 +126,7 @@ export default function WeddingCatering() {
         <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
           {weddingHeroCopy.replyLine}
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -178,7 +179,7 @@ export default function WeddingCatering() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Wedding catering Dubai is the meal, not the rest of the day</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Wedding catering Dubai, thoughtfully coordinated</DisplayHeading>
           <BodyCopy className="mb-5">
             Wedding catering Dubai is the food: menu, tasting, chefs, service team and the flow of the meal. For twenty around one table it can be a plated dinner. For a hundred it can be canapés, then a buffet or live stations. You choose how far the catering goes.
           </BodyCopy>
@@ -199,7 +200,7 @@ export default function WeddingCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT MYCHEF HANDLES</SectionLabel>
-          <DisplayHeading className="text-black mb-6">The catering. Not the whole wedding.</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">A clear scope for your wedding catering</DisplayHeading>
           <BodyCopy className="mb-5">
             Menu design, the culinary team, ingredient sourcing, food preparation, service staff, setup and clear-down of the catering operation, and dietary planning sit with us when they are in the brief.
           </BodyCopy>
@@ -544,7 +545,7 @@ export default function WeddingCatering() {
       <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>WHY MYCHEF</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">Explore our service approach</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {proofItems.map((item) => (
               <div key={item.title} className="border-t border-gray-200 pt-6">

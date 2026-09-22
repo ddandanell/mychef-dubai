@@ -24,7 +24,7 @@ const config: OccasionPageConfig = {
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan afternoon tea catering in Dubai (via mychef.ae/afternoon-tea-catering-dubai)",
   eyebrow: 'HIGH TEA CATERING IN DUBAI',
-  introH2: 'Afternoon tea catering Dubai, cooked at your table',
+  introH2: 'Afternoon tea catering Dubai for a relaxed gathering',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -86,7 +86,7 @@ const config: OccasionPageConfig = {
     },
   ],
   useCasesEyebrow: 'WHERE AFTERNOON TEA FITS',
-  useCasesH2: 'A sitting people can talk through',
+  useCasesH2: 'An unhurried afternoon with your guests',
   useCases: [
     {
       title: 'Bridal and baby showers',

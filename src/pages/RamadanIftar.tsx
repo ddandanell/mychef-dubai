@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /iftar-catering-dubai
 //     primary:     "iftar catering dubai"
@@ -144,7 +145,7 @@ const faqs = [
   { q: "What exactly is included in the price of your Iftar catering?", a: "Every Iftar quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. There are no hidden extras for the core service, and serving staff can be added when you want table or buffet service handled for you. Prices are subject to 5% VAT, and we confirm the full inclusions in writing before you book." },
   { q: "What is the difference between Iftar catering and just ordering Iftar boxes?", a: "Iftar catering means we design your menu, cook fresh on-site, and serve and clean up, while boxed delivery is simply pre-packed meals dropped off. We are a full-service private chef and catering company, so our chefs prepare everything for your gathering the same evening rather than reheating trays. This is why a catered Iftar feels like a hosted occasion rather than a food order." },
   { q: "Is your Iftar food halal?", a: "Yes, all of our Iftar menus are halal sourced by default, which is essential for authentic Ramadan hospitality. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and we source ingredients from trusted halal suppliers for every dish. If you have specific sourcing or preparation requests, we confirm them in your proposal." },
-  { q: "Are you a licensed and food-safe catering company?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your Iftar is prepared and served safely. We handle hot and cold dishes with proper temperature control, timing, and hygiene throughout the event. You can read more [about our team](/about) and how we work before you book." },
+  { q: "Are you a licensed and food-safe catering company?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "What is the minimum number of guests you cater Iftar for?", a: "We cater Iftars of almost any size, from an intimate family table to large corporate and community gatherings of several hundred guests. There is no rigid minimum for a private chef Iftar at home, and larger events simply mean more staff and a scaled menu. Tell us your expected guest count and we will design the right format around it." },
   { q: "Can you handle very large corporate or labour-camp Iftars?", a: "Yes, we regularly cater large-scale corporate, embassy, and community Iftars alongside intimate home dinners. For big volumes we scale the menu, staff, and equipment so hundreds of guests are served smoothly at sunset. See our [corporate catering](/corporate) options for offices, ballrooms, and event spaces across Dubai." },
   { q: "Do you provide serving staff and waiters for Iftar?", a: "Yes, professional serving staff are available as an option and manage buffet or plated service from arrival through clear-down. For plated Iftars we recommend enough staff to serve every table promptly the moment the fast is broken, while buffets need fewer servers. You choose the level of service, and we build the staffing plan into your quote." },
@@ -320,7 +321,7 @@ export default function RamadanIftar() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/ramadan-iftar-catering-dubai-hero.webp)' }}
@@ -360,7 +361,7 @@ export default function RamadanIftar() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 
@@ -369,7 +370,7 @@ export default function RamadanIftar() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">RAMADAN IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Maghrib is the deadline. The kitchen is not yours to run.
+            Iftar service ready for Maghrib
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Iftar service is planned around the moment the fast breaks. We coordinate dates, water and soup for Maghrib, followed by the main meal and desserts, with the chef and service team briefed on your guest count, setting and timings.
@@ -646,13 +647,13 @@ export default function RamadanIftar() {
                 to={svc.link}
                 className="iftar-rel-card group bg-black overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

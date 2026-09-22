@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /eid-catering-dubai
 //     primary:     "eid catering dubai"
@@ -300,7 +301,7 @@ export default function EidCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/eid-suhoor-catering-dubai-hero.webp)' }}
@@ -335,7 +336,7 @@ export default function EidCatering() {
             </a>
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
 
@@ -344,7 +345,7 @@ export default function EidCatering() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE CELEBRATION IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Eid catering Dubai, cooked at your table
+            Eid catering Dubai for a generous family gathering
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Eid catering in Dubai centres on the pleasure of gathering around a generous table. Choose mezze, grills, an ouzi centrepiece and traditional sweets, with halal sourcing and service planned around your family and chosen setting.
@@ -417,7 +418,7 @@ export default function EidCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What a staffed Eid sitting includes
+            What a staffed Eid service includes
           </h2>
 
           <div className="eid-inc-grid grid md:grid-cols-2 gap-6">
@@ -435,7 +436,7 @@ export default function EidCatering() {
       </section>
 
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
+      <NonCateringVisual><section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             How Eid catering looks in Dubai
@@ -453,7 +454,7 @@ export default function EidCatering() {
             ))}
           </div>
         </div>
-      </section>
+      </section></NonCateringVisual>
 
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
@@ -502,13 +503,13 @@ export default function EidCatering() {
                 to={svc.link}
                 className="eid-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
-                <div className="aspect-video overflow-hidden">
+                <NonCateringVisual><div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>

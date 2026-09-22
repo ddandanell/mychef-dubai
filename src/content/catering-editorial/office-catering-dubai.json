@@ -1,0 +1,48 @@
+{
+  "path": "/office-catering-dubai",
+  "title": "Create a lunch routine that works for the team",
+  "focus": "Begin with attendance, service days and the facilities available for receiving and eating the food. A rotating menu can bring variety while keeping ordering and dietary information consistent. Tell us whether meals are individually packed, shared in a pantry or served from a staffed station. Agree how changes to the headcount will be communicated and who will handle the handover. For regular bookings, feedback on portions and popular dishes helps refine the next menu cycle.",
+  "sections": [
+    {
+      "id": "corporate",
+      "title": "Keep catering aligned with the business agenda",
+      "paragraphs": [
+        "Share the event programme with the catering brief. Registration, meeting sessions, networking and presentations create different service opportunities. Food should support those moments: easy-to-eat options for a working break, a more relaxed selection for networking or a seated meal when guests have time to enjoy it.",
+        "Confirm who will approve the menu and who will coordinate access on the day. The billing contact may be different from the person at the venue, so include both roles where relevant. If your organisation needs particular supplier documents, purchase-order references or invoice details, raise them before the booking is finalised.",
+        "A practical service plan also considers the return to work. Collection, waste handling and clear-down should fit the venue's schedule. When the catering is connected to the agenda and responsibilities are clear, the team can deliver a professional experience without drawing attention away from the purpose of the event."
+      ]
+    },
+    {
+      "id": "dropoff",
+      "title": "Make the delivery handover clear",
+      "paragraphs": [
+        "For food-only delivery, nominate someone who will receive the order and confirm the handover details. Share the exact address, access instructions and requested delivery window. If the location is inside a larger building, include the floor, reception process and any restrictions on deliveries.",
+        "Know what happens next. Your team may need to arrange the food, provide serving items, replenish the table and handle clear-down. Ask which packaging, labels and serving guidance are included, and check whether any equipment is supplied or needs to be arranged separately.",
+        "The menu should suit the interval between delivery and eating. Tell the team if food will be served later or in several stages so the request can be assessed appropriately. Follow the dish-specific instructions provided at handover and ask for clarification where needed. A clear delivery arrangement gives you convenience without leaving important responsibilities undefined."
+      ]
+    },
+    {
+      "id": "institutional",
+      "title": "Build a repeatable service specification",
+      "paragraphs": [
+        "An ongoing food-service arrangement needs a more detailed brief than a one-off event. Define the number of meals, service days, delivery or preparation location and the people responsible for receiving and approving the food. If volumes vary, explain how changes will be communicated and confirmed.",
+        "Menu cycles, portions, dietary requirements and reporting should be discussed with the proposed provider. The relevant organisation may have its own approval process and documentation requirements, which need to be understood before a service is agreed. Avoid assuming that an event menu automatically suits a recurring institutional setting.",
+        "A useful proposal sets out the responsibilities on both sides, including facilities, equipment, service windows and review points. Any specialist requirements should be assessed explicitly. The result should be a workable specification that the organisation and culinary partner can evaluate together before moving into delivery."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/corporate",
+      "label": "Corporate dining"
+    },
+    {
+      "href": "/blog/corporate-catering-full-service-vs-drop-off",
+      "label": "Full service vs drop off catering"
+    },
+    {
+      "href": "/corporate-catering-checklist-dubai",
+      "label": "Corporate catering checklist"
+    }
+  ]
+}

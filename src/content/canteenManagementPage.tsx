@@ -78,7 +78,7 @@ export const canteenPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Canteen management Dubai is food, not a till app.',
+    h2: 'Canteen management Dubai for your site and workforce',
     paragraphs: [
       'Search “canteen management Dubai” and you will land on till systems, cashless apps and workplace-benefit platforms. Useful tools. They do not cook. They do not hold a probe. They do not stand behind a line at 12:10 when the floor empties.',
       'Staff canteen management Dubai is a food business inside someone else’s building: a kitchen or a finishing servery, people with health cards, a cycle the night shift will eat, and a commercial model finance understands. Canteen setup Dubai means the room as well as the menu: gas, extraction, holding, flow: not a QR code on a dirty microwave.',
@@ -89,7 +89,7 @@ export const canteenPage: InstitutionalPageContent = {
     h2: 'Setup, staffing, a cycle: then optional tech',
     blocks: [
       {
-        title: 'Walk the room before the deck',
+        title: 'Assess the site and facilities first',
         body: 'Covers, hours, power, extraction, where dirty plates go. Canteen setup Dubai starts with a tape measure, not a slide.',
       },
       {
@@ -97,7 +97,7 @@ export const canteenPage: InstitutionalPageContent = {
         body: 'Canteen catering services Dubai need PIC cover, health cards and a backup when someone is sick. An app does not plate a biryani.',
       },
       {
-        title: 'A cycle people finish',
+        title: 'A considered rotating menu',
         body: 'Staff canteen Dubai food that looks like leftover events will empty the room in a fortnight. Rotate. Label. Ask the night shift what they actually eat.',
       },
       {
@@ -109,7 +109,7 @@ export const canteenPage: InstitutionalPageContent = {
         body: 'Pre-order and cashless canteen Dubai tech is table stakes in some offices. It is a partner layer. It is not the catering.',
       },
       {
-        title: 'Not a weekday drop-off',
+        title: 'An ongoing on-site food operation',
         body: 'If you only need lunch delivered to a meeting table, that is office catering. Outsource canteen catering Dubai when you want the room run.',
       },
     ],
@@ -142,7 +142,7 @@ export const canteenPage: InstitutionalPageContent = {
     note: 'We do not claim a fit-out cost or a per-head from-price here. Those numbers are written after we see the room.',
   },
   process: {
-    h2: 'Four steps. Facilities sees the drawing.',
+    h2: 'Review the operating plan with your facilities team',
     steps: [
       'Send the site, covers per day, hours, and whether a kitchen already exists.',
       'We typically reply within 15 minutes during business hours.',

@@ -1,0 +1,48 @@
+{
+  "path": "/mediterranean-catering-dubai",
+  "title": "Build a bright, balanced menu for sharing or courses",
+  "focus": "Choose a regional direction and let it guide the herbs, vegetables, grains and main dishes. A Greek-inspired sharing table has a different character from a coastal fish menu, even when both use olive oil and fresh produce. Consider a balance of chilled starters and warm food, with sauces and breads that connect the meal. If service is outdoors, review the practical conditions before choosing delicate dishes. The menu should suit the season, the venue and the pace of your gathering.",
+  "sections": [
+    {
+      "id": "regional",
+      "title": "Choose a regional direction before expanding the selection",
+      "paragraphs": [
+        "A broad cuisine name can cover many different dishes and traditions. Share the region, flavours or family favourites you have in mind so the chef can build a menu with a clear identity. If there are particular ingredients or preparations you expect, describe them rather than relying only on a familiar dish name.",
+        "A focused menu often feels more coherent than a long list of unrelated favourites. Think about how starters, main dishes, sides and desserts complement one another, and how they will be served. The menu should offer enough variety for the group while remaining practical for the kitchen and service format.",
+        "Tell us about spice preferences and essential dietary requirements early. These may affect the choice of dishes as well as individual recipes. The final selection can then reflect the food you enjoy with a clear understanding of what will be prepared for your occasion."
+      ]
+    },
+    {
+      "id": "menu",
+      "title": "Give the menu a clear direction",
+      "paragraphs": [
+        "Begin with a few dishes or flavours that your guests will enjoy, then build a balanced selection around them. A strong menu includes variety in texture, colour and richness without trying to cover every possible preference with a separate dish. The most useful question is how the food will work as a complete meal or reception.",
+        "Consider the time of day and the length of service. A short welcome reception needs a different amount and style of food from an evening where canapés replace dinner. Similarly, a working lunch should be easy to serve and enjoy within the available break.",
+        "Menu examples are a starting point for discussion. Ingredients, dietary variations and the practical requirements of your venue need to be reviewed before the final selection is confirmed. That gives the team room to recommend food that suits the occasion and can be served well."
+      ]
+    },
+    {
+      "id": "outdoor",
+      "title": "Prepare the outdoor setting for food and service",
+      "paragraphs": [
+        "An outdoor event needs a practical plan for the environment. Discuss the location of the food, guest seating, lighting and the route from the preparation area. If cooking takes place outside, the proposed equipment and method need to be suitable for the venue and any applicable restrictions.",
+        "Consider the conditions at the time of service, not only how the space looks during a site visit. Shade, weather and the distance dishes travel can influence the menu and setup. Agree a realistic alternative if the original arrangement cannot be used as planned.",
+        "Outdoor service can also involve additional transport, equipment and clear-down requirements. Include these in the proposal so the scope is visible. With the practical details understood, the chef can recommend food that suits the setting and the team can focus on a comfortable, well-paced experience for your guests."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "href": "/cuisines-dubai",
+      "label": "Cuisines"
+    },
+    {
+      "href": "/arabic-catering-dubai",
+      "label": "Arabic catering"
+    },
+    {
+      "href": "/italian-catering-dubai",
+      "label": "Italian catering"
+    }
+  ]
+}

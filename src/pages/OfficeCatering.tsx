@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /office-catering-dubai
 //     primary:     "office catering dubai"
@@ -104,7 +105,7 @@ export default function OfficeCatering() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Office catering"
         title={OFFICE_KEYWORD_LOCK.h1}
         subtitle={"Office catering in Dubai for daily lunches, breakfasts and regular workplace meals. Choose drop-off menus from AED 90 per person or add the chefs and service staff your office needs, with delivery and presentation arranged around the working day."}
@@ -126,7 +127,7 @@ export default function OfficeCatering() {
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
           Share the days, office, headcount and whether you want drop-off or staffed service.
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
       <div className="bg-black">
         <CorporateTrustStrip />
@@ -352,7 +353,7 @@ export default function OfficeCatering() {
           <div className="grid md:grid-cols-2 gap-8">
             {siblingCards.map((item) => (
               <article key={item.href} className="border border-gray-200">
-                <Link to={item.href} data-track="service_card" className="block aspect-[16/10] overflow-hidden">
+                <NonCateringVisual><Link to={item.href} data-track="service_card" className="block aspect-[16/10] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.imageAlt}
@@ -362,7 +363,7 @@ export default function OfficeCatering() {
                     decoding="async"
                     className="h-full w-full object-cover"
                   />
-                </Link>
+                </Link></NonCateringVisual>
                 <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
@@ -435,7 +436,7 @@ export default function OfficeCatering() {
       <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHY MYCHEF</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">Explore our service approach</DisplayHeading>
           <div className="grid md:grid-cols-2 gap-8">
             {proofItems.map((item) => (
               <div key={item.title} className="border-t border-gray-200 pt-6">

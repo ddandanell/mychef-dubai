@@ -328,7 +328,7 @@ export const corporateFaqs = [
     a: 'This hub is corporate catering in Dubai as a whole. A client or boardroom sitting is [business lunch catering](/business-lunch-catering-dubai). A repeating team lunch is [office catering](/office-catering-dubai). A party or launch is [corporate event catering](/corporate-event-catering-dubai).',
   },
   {
-    q: 'What does a corporate catering company in Dubai actually run?',
+    q: 'What does myCHEF coordinate for a corporate booking?',
     a: 'Menus, food preparation or supply, chefs, service staff, beverages, food-service equipment, setup, service and clearance. Not AV, staging, entertainment or venue hire. Halal ingredients are the default.',
   },
   {

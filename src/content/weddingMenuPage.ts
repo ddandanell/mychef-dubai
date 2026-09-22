@@ -179,7 +179,7 @@ export const extraCovers = [
     body: 'Photographers, musicians and planners eat. Put vendor meals on the plan so the kitchen is not sending leftover canapés to the band at 11 p.m.',
   },
   {
-    title: 'Drinks that are not alcohol',
+    title: 'Non-alcoholic drinks',
     body: 'Mocktails, juices, tea, coffee, Arabic coffee. These can be planned through myCHEF. Wine and spirits only where the venue licence allows, coordinated with the venue or a licensed partner.',
   },
 ] as const

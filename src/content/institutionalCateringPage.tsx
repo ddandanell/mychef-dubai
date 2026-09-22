@@ -147,7 +147,7 @@ export const institutionalHubPage: InstitutionalPageContent = {
     ],
   },
   compliance: {
-    h2: 'Papers every institutional kitchen should be able to open',
+    h2: 'Documentation to review with the proposed provider',
     intro: 'Child pages carry the full table. This is the shared floor.',
     rows: [
       { item: 'Food permit for the kitchen that cooks', who: 'Dubai Municipality', see: 'Permit copy' },

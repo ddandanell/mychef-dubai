@@ -75,7 +75,7 @@ export const hospitalPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Hospital catering Dubai is won in the staff cafeteria first',
+    h2: 'Hospital catering Dubai for clearly defined service needs',
     paragraphs: [
       'Patient meal programmes in Dubai are awarded to kitchens that already hold the papers: HACCP, dietitian cover, texture-modified production, ward timing. The incumbents are entrenched. A new supplier who leads with “therapeutic excellence” and no staff-dining track record does not get the ward.',
       "Hospital staff and visitor dining requires a documented service plan, with the kitchen, staff, temperature controls and labelling assessed for the setting. The proposed scope and required approvals must be confirmed before any contract is agreed.",
@@ -83,7 +83,7 @@ export const hospitalPage: InstitutionalPageContent = {
     ],
   },
   difference: {
-    h2: 'Staff dining, then wards: not the other way round',
+    h2: 'Separate plans for staff, visitors and patient meals',
     blocks: [
       {
         title: 'Staff cafeteria as the first contract',
@@ -106,7 +106,7 @@ export const hospitalPage: InstitutionalPageContent = {
         body: 'Wards do not wait for a van stuck in Sheikh Zayed traffic. If we cannot hit the window, we do not take the sitting.',
       },
       {
-        title: 'Papers before poetry',
+        title: 'Documentation and operational requirements',
         body: 'Permit, PIC, health cards, logs. Same list as every other institutional page. No invented certificate numbers.',
       },
     ],
@@ -142,7 +142,7 @@ export const hospitalPage: InstitutionalPageContent = {
     note: "Any required certifications, clinical support and approved-provider status must be verified for the proposed partner before a hospital contract is confirmed.",
   },
   process: {
-    h2: 'Four steps. Procurement sees the file.',
+    h2: 'A practical process for procurement review',
     steps: [
       'Send the site, covers per day, and whether this is staff dining or patient meals.',
       'We typically reply within 15 minutes during business hours if the kitchen can cover it.',

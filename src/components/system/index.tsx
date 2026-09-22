@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 import type { CSSProperties, ElementType, ReactNode } from 'react'
 import type { LucideIcon } from 'lucide-react'
@@ -277,7 +278,7 @@ export function EditorialImage({
   className?: string
 }) {
   return (
-    <div className={cn('relative overflow-hidden', aspect, framed && 'editorial-image', className)}>
+    <NonCateringVisual><div className={cn('relative overflow-hidden', aspect, framed && 'editorial-image', className)}>
       <ServiceImage
         src={src}
         alt={alt}
@@ -289,7 +290,7 @@ export function EditorialImage({
         {...(eager ? { fetchPriority: 'high' as const } : {})}
         decoding="async"
       />
-    </div>
+    </div></NonCateringVisual>
   )
 }
 

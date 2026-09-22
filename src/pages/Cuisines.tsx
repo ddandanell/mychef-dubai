@@ -1,3 +1,4 @@
+import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /cuisines-dubai
 //     primary:     "multi cuisine catering dubai"
@@ -215,7 +216,7 @@ export default function Cuisines() {
         schema={schema}
       />
 
-      <PageHero
+      <NonCateringVisual><PageHero
         eyebrow="Cuisines"
         title="Multi Cuisine Catering Dubai"
         subtitle={"Multi cuisine catering in Dubai brings different culinary traditions together in one considered menu. Combine the dishes your guests enjoy, with chefs, presentation and service coordinated for your occasion."}
@@ -233,7 +234,7 @@ export default function Cuisines() {
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
           Share your date, guest count and preferred cuisines. We typically reply within 15 minutes during our published business hours.
         </p>
-      </PageHero>
+      </PageHero></NonCateringVisual>
       <TrustSignalStrip />
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
@@ -286,7 +287,7 @@ export default function Cuisines() {
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What multi cuisine catering Dubai actually covers</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Multi cuisine catering Dubai with a balanced menu</DisplayHeading>
           <BodyCopy className="mb-4">
             A mixed menu can bring Arabic grills, Italian pasta and a sushi station together without losing the character of each cuisine. We help you select a balanced combination that suits your guests and service style.
           </BodyCopy>
@@ -306,7 +307,7 @@ export default function Cuisines() {
       <Section id="mixed" tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>THE MIXED TABLE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Two families. Two kitchens. One team.</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Different culinary traditions, one considered occasion</DisplayHeading>
           <BodyCopy className="mb-4">
             Fusion catering in Dubai is often one confused plate. Mixed cuisine here is two proper menus, timed as one service, with one clear-down.
           </BodyCopy>
@@ -326,14 +327,14 @@ export default function Cuisines() {
       <Section id="kitchens" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>THE KITCHENS</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Pick the kitchen. Open that page for the menu.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Explore the cuisines your guests enjoy</DisplayHeading>
           <BodyCopy className="mb-12">
             Open the cuisine you already know you want. Stay here only if the table needs more than one.
           </BodyCopy>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {cuisineKitchens.map((item) => (
               <article key={item.href} className="border border-gray-200">
-                <Link to={item.href} data-track="cuisine_card" className="block aspect-[16/10] overflow-hidden">
+                <NonCateringVisual><Link to={item.href} data-track="cuisine_card" className="block aspect-[16/10] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.imageAlt}
@@ -343,7 +344,7 @@ export default function Cuisines() {
                     decoding="async"
                     className="h-full w-full object-cover"
                   />
-                </Link>
+                </Link></NonCateringVisual>
                 <div className="p-6">
                   <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
                   <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
@@ -364,7 +365,7 @@ export default function Cuisines() {
       <Section id="diet" tone="ivory" rhythm="standard">
         <Container className="max-w-3xl">
           <SectionLabel>DIET IS A DIFFERENT PAGE</SectionLabel>
-          <DisplayHeading className="text-black mb-6">If the brief is the diet, not the kitchen</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Menus shaped by dietary requirements</DisplayHeading>
           <BodyCopy className="mb-4">
             Vegan, vegetarian, Jain and allergy-safe cooking change the kitchen path. Those pages own how that cooking is done. This hub does not.
           </BodyCopy>
@@ -389,7 +390,7 @@ export default function Cuisines() {
       <Section id="how-it-works" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW IT STARTS</SectionLabel>
-          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
+          <DisplayHeading className="text-black mb-12">From your first enquiry to a confirmed service</DisplayHeading>
           <SequenceRail steps={[...startSteps]} />
         </Container>
       </Section>
@@ -397,7 +398,7 @@ export default function Cuisines() {
       <Section tone="charcoal" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel tone="dark">PRICE</SectionLabel>
-          <DisplayHeading className="text-white mb-6">Cuisine does not set a separate ladder</DisplayHeading>
+          <DisplayHeading className="text-white mb-6">Pricing reflects the menu and service format</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
             Food-only catering starts from AED 90 per person. A standard event buffet starts from AED 120. Premium buffet, BBQ or live stations start from AED 150. Chef-led plated dining starts from AED 700. 5% VAT is shown on the written proposal.
           </p>
@@ -470,7 +471,7 @@ export default function Cuisines() {
                 to={item.href}
                 className="group border border-white/12 hover:border-gold/50 transition-colors"
               >
-                <div className="aspect-[16/10] overflow-hidden">
+                <NonCateringVisual><div className="aspect-[16/10] overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.imageAlt}
@@ -480,7 +481,7 @@ export default function Cuisines() {
                     decoding="async"
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                </div>
+                </div></NonCateringVisual>
                 <div className="p-5">
                   <h3 className="font-playfair text-h4 text-white mb-2">{item.label}</h3>
                   <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{item.body}</p>
