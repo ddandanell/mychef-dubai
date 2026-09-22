@@ -1,0 +1,388 @@
+{
+  "verified_at": "2026-09-22T22:53:38.786Z",
+  "method": "Live browser DOM and loaded-image inspection",
+  "publication_commit": "e20c23828c2689144bb5bfe954b333fc3ec04fa1",
+  "generated_sitemap_commit": "68de560a8c06f8735c6b9df176f2831d1ab33774",
+  "deployment_status": "success",
+  "blog": {
+    "url": "https://www.mychef.ae/blog",
+    "matched": 15,
+    "missing": [],
+    "title": "Private Chef and Catering Guides in Dubai | myCHEF"
+  },
+  "articles": [
+    {
+      "slug": "private-chef-kitchen-preparation-dubai",
+      "url": "https://www.mychef.ae/blog/private-chef-kitchen-preparation-dubai",
+      "canonical": "https://www.mychef.ae/blog/private-chef-kitchen-preparation-dubai",
+      "h1": [
+        "Private Chef Kitchen Preparation in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "Prepared home kitchen with vegetables, cookware and glass containers",
+          "complete": true,
+          "src": "/images/blog-2026/private-chef-kitchen-preparation-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2285,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Private Chef Kitchen Preparation in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 28
+    },
+    {
+      "slug": "household-menu-brief-dubai",
+      "url": "https://www.mychef.ae/blog/household-menu-brief-dubai",
+      "canonical": "https://www.mychef.ae/blog/household-menu-brief-dubai",
+      "h1": [
+        "A Household Menu Brief for Your Dubai Chef"
+      ],
+      "images": [
+        {
+          "alt": "Prepared household meals beside fresh vegetables and a planning notebook",
+          "complete": true,
+          "src": "/images/blog-2026/household-menu-brief-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2326,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "A Household Menu Brief for Your Dubai Chef | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 31
+    },
+    {
+      "slug": "private-chef-trial-dubai",
+      "url": "https://www.mychef.ae/blog/private-chef-trial-dubai",
+      "canonical": "https://www.mychef.ae/blog/private-chef-trial-dubai",
+      "h1": [
+        "Private Chef Trial in Dubai: What to Evaluate"
+      ],
+      "images": [
+        {
+          "alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert",
+          "complete": true,
+          "src": "/images/blog-2026/private-chef-trial-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2340,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Private Chef Trial in Dubai: What to Evaluate | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 29
+    },
+    {
+      "slug": "canape-reception-planning-dubai",
+      "url": "https://www.mychef.ae/blog/canape-reception-planning-dubai",
+      "canonical": "https://www.mychef.ae/blog/canape-reception-planning-dubai",
+      "h1": [
+        "Canapé Reception Planning in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "Vegetable tartlets, chicken bites and cucumber cups on a reception tray",
+          "complete": true,
+          "src": "/images/blog-2026/canape-reception-planning-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2126,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Canapé Reception Planning in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 31
+    },
+    {
+      "slug": "office-breakfast-planning-dubai",
+      "url": "https://www.mychef.ae/blog/office-breakfast-planning-dubai",
+      "canonical": "https://www.mychef.ae/blog/office-breakfast-planning-dubai",
+      "h1": [
+        "Office Breakfast Planning in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "An office breakfast station with savoury rolls, fruit and pastries",
+          "complete": true,
+          "src": "/images/blog-2026/office-breakfast-planning-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2212,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Office Breakfast Planning in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 27
+    },
+    {
+      "slug": "dinner-party-timeline-dubai",
+      "url": "https://www.mychef.ae/blog/dinner-party-timeline-dubai",
+      "canonical": "https://www.mychef.ae/blog/dinner-party-timeline-dubai",
+      "h1": [
+        "Dinner Party Timeline in Dubai: A Host’s Guide"
+      ],
+      "images": [
+        {
+          "alt": "An evening dinner table set with ivory linen, flowers and candlelight",
+          "complete": true,
+          "src": "/images/blog-2026/dinner-party-timeline-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2287,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Dinner Party Timeline in Dubai: A Host’s Guide | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 30
+    },
+    {
+      "slug": "three-hour-yacht-party-food-timeline-dubai",
+      "url": "https://www.mychef.ae/blog/three-hour-yacht-party-food-timeline-dubai",
+      "canonical": "https://www.mychef.ae/blog/three-hour-yacht-party-food-timeline-dubai",
+      "h1": [
+        "A Yacht Party Food Timeline for Three Hours in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "Finger food and fruit arranged on a shaded yacht dining table",
+          "complete": true,
+          "src": "/images/blog-2026/three-hour-yacht-party-food-timeline-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2223,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "A Yacht Party Food Timeline for Three Hours in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 28
+    },
+    {
+      "slug": "buffet-layout-planning-dubai",
+      "url": "https://www.mychef.ae/blog/buffet-layout-planning-dubai",
+      "canonical": "https://www.mychef.ae/blog/buffet-layout-planning-dubai",
+      "h1": [
+        "Buffet Layout Planning in Dubai: A Practical Guide"
+      ],
+      "images": [
+        {
+          "alt": "Two buffet tables with clear guest and service space between them",
+          "complete": true,
+          "src": "/images/blog-2026/buffet-layout-planning-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2283,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Buffet Layout Planning in Dubai: A Practical Guide | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 33
+    },
+    {
+      "slug": "kids-and-adults-party-menu-dubai",
+      "url": "https://www.mychef.ae/blog/kids-and-adults-party-menu-dubai",
+      "canonical": "https://www.mychef.ae/blog/kids-and-adults-party-menu-dubai",
+      "h1": [
+        "Kids and Adults Party Menu Planning in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "A family birthday spread with small sandwiches, pasta and cake",
+          "complete": true,
+          "src": "/images/blog-2026/kids-and-adults-party-menu-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2233,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Kids and Adults Party Menu Planning in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 31
+    },
+    {
+      "slug": "diwali-party-at-home-planning-dubai",
+      "url": "https://www.mychef.ae/blog/diwali-party-at-home-planning-dubai",
+      "canonical": "https://www.mychef.ae/blog/diwali-party-at-home-planning-dubai",
+      "h1": [
+        "Diwali Party at Home in Dubai: A Planning Guide"
+      ],
+      "images": [
+        {
+          "alt": "Indian savouries and sweets arranged for a Diwali home gathering",
+          "complete": true,
+          "src": "/images/blog-2026/diwali-party-at-home-planning-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2263,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Diwali Party at Home in Dubai: A Planning Guide | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 35
+    },
+    {
+      "slug": "christmas-lunch-at-home-planning-dubai",
+      "url": "https://www.mychef.ae/blog/christmas-lunch-at-home-planning-dubai",
+      "canonical": "https://www.mychef.ae/blog/christmas-lunch-at-home-planning-dubai",
+      "h1": [
+        "Christmas Lunch at Home in Dubai: Planning Guide"
+      ],
+      "images": [
+        {
+          "alt": "A festive home lunch with a roast centrepiece and vegetable dishes",
+          "complete": true,
+          "src": "/images/blog-2026/christmas-lunch-at-home-planning-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2231,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Christmas Lunch at Home in Dubai: Planning Guide | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 33
+    },
+    {
+      "slug": "wedding-menu-tasting-dubai",
+      "url": "https://www.mychef.ae/blog/wedding-menu-tasting-dubai",
+      "canonical": "https://www.mychef.ae/blog/wedding-menu-tasting-dubai",
+      "h1": [
+        "Wedding Menu Tasting in Dubai: Questions to Ask"
+      ],
+      "images": [
+        {
+          "alt": "Sample wedding courses presented on ivory plates at an intimate tasting",
+          "complete": true,
+          "src": "/images/blog-2026/wedding-menu-tasting-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2304,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Wedding Menu Tasting in Dubai: Questions to Ask | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 37
+    },
+    {
+      "slug": "outdoor-villa-catering-kitchen-dubai",
+      "url": "https://www.mychef.ae/blog/outdoor-villa-catering-kitchen-dubai",
+      "canonical": "https://www.mychef.ae/blog/outdoor-villa-catering-kitchen-dubai",
+      "h1": [
+        "Outdoor Villa Catering Kitchen Planning in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "An organised catering station beside a villa garden dining area",
+          "complete": true,
+          "src": "/images/blog-2026/outdoor-villa-catering-kitchen-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2251,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "Outdoor Villa Catering Kitchen Planning in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 29
+    },
+    {
+      "slug": "compare-catering-quotes-dubai",
+      "url": "https://www.mychef.ae/blog/compare-catering-quotes-dubai",
+      "canonical": "https://www.mychef.ae/blog/compare-catering-quotes-dubai",
+      "h1": [
+        "How to Compare Catering Quotes in Dubai"
+      ],
+      "images": [
+        {
+          "alt": "An event-planning folder beside tableware and a small savoury plate",
+          "complete": true,
+          "src": "/images/blog-2026/compare-catering-quotes-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2171,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "How to Compare Catering Quotes in Dubai | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 34
+    },
+    {
+      "slug": "mixed-diet-dinner-party-dubai",
+      "url": "https://www.mychef.ae/blog/mixed-diet-dinner-party-dubai",
+      "canonical": "https://www.mychef.ae/blog/mixed-diet-dinner-party-dubai",
+      "h1": [
+        "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+      ],
+      "images": [
+        {
+          "alt": "Plant-based and fish main courses presented with equal care",
+          "complete": true,
+          "src": "/images/blog-2026/mixed-diet-dinner-party-dubai.webp",
+          "width": 1363
+        }
+      ],
+      "mainWords": 2440,
+      "ogType": "article",
+      "robots": "index, follow",
+      "title": "A Mixed-Diet Dinner Party in Dubai: Menu Planning | myCHEF",
+      "relatedPresent": true,
+      "authored_and_navigation_links_observed": 34
+    }
+  ],
+  "errors": [],
+  "service_link_spot_checks": [
+    {
+      "path": "/private-chef-dubai",
+      "url": "https://www.mychef.ae/private-chef-dubai",
+      "h1": [
+        "Private Chef Dubai.Made personal."
+      ],
+      "missing": []
+    },
+    {
+      "path": "/catering-dubai",
+      "url": "https://www.mychef.ae/catering-dubai",
+      "h1": [
+        "Catering Dubai — buffets, canapés and chef-led service"
+      ],
+      "missing": []
+    },
+    {
+      "path": "/wedding-catering-dubai",
+      "url": "https://www.mychef.ae/wedding-catering-dubai",
+      "h1": [
+        "Wedding Catering Dubai"
+      ],
+      "missing": []
+    }
+  ],
+  "preserved_homepage": {
+    "url": "https://www.mychef.ae/",
+    "title": "myCHEF Dubai | Exceptional Dining, Beautifully Arranged",
+    "h1": [
+      "myCHEF Dubai. Every meal,thoughtfully yours."
+    ]
+  },
+  "sitemap": {
+    "url": "https://www.mychef.ae/sitemap.xml",
+    "new_article_urls_confirmed_in_deployed_source": 15,
+    "search_console_submission": {
+      "success": true
+    },
+    "direct_browser_xml_check": "The browser client blocked direct XML navigation. The sitemap was checked in the deployed repository version; Google Search Console accepted resubmission."
+  },
+  "screenshot": "docs/seo/content-batch-2026-09-22/live-blog-preview-2026-09-22.jpg"
+}
