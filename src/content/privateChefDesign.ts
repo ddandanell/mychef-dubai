@@ -1,6 +1,5 @@
 /** Visual direction for the active Private Chef journey. Identity/portfolio assets stay authentic. */
 export const CHEF_IMAGE_ROOT = '/images/private-chef-2026/'
-export const CONCEPT_CAPTION = 'AI-created service inspiration'
 export const chefImages = {
   household: { alt: 'Chef finishing a roast chicken platter in a light-filled home kitchen', position: '56% 50%' },
   planning: { alt: 'Chef and homeowner discussing a weekly menu at the kitchen table', position: '50% 48%' },
@@ -9,7 +8,7 @@ export const chefImages = {
   wellness: { alt: 'Salmon, lentils and colourful vegetables served in a ceramic bowl', position: '50% 50%' },
   craft: { alt: 'Chef carefully finishing a fish dish with sauce and seasonal vegetables', position: '40% 50%' },
   'clean-kitchen': { alt: 'An orderly home kitchen with clean crockery and a folded linen cloth', position: '55% 50%' },
-  'team-service': { alt: 'Illustrative culinary and service team preparing a villa dinner', position: '50% 50%' },
+  'team-service': { alt: 'Culinary and service team preparing a villa dinner', position: '50% 50%' },
   'villa-evening': { alt: 'An intimate dinner table on a villa terrace at dusk', position: '50% 55%' },
   apartment: { alt: 'Chef preparing dinner in a compact contemporary apartment kitchen', position: '50% 50%' },
   'chefs-table': { alt: 'A chef finishing tasting plates as guests watch from the dining table', position: '50% 50%' },

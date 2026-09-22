@@ -1,5 +1,5 @@
 import type { ImgHTMLAttributes } from 'react'
-import { chefImage, chefImageKey, chefImageSrcSet, chefImages, CONCEPT_CAPTION, type ChefImageKey } from '@/content/privateChefDesign'
+import { chefImage, chefImageKey, chefImageSrcSet, chefImages, type ChefImageKey } from '@/content/privateChefDesign'
 
 export default function ServiceImage({ src, alt, imageKey, className = '', style, sizes = '(min-width: 1024px) 50vw, 100vw', loading = 'lazy', ...rest }: ImgHTMLAttributes<HTMLImageElement> & { imageKey?: ChefImageKey }) {
   const key = imageKey || chefImageKey(src)
@@ -10,6 +10,5 @@ export default function ServiceImage({ src, alt, imageKey, className = '', style
       <img {...rest} src={chefImage(key)} alt={chefImages[key].alt} width={1536} height={1024} sizes={sizes}
         srcSet={chefImageSrcSet(key)} loading={loading} decoding="async" style={{ objectPosition: chefImages[key].position }} />
     </picture>
-    <span className="pc-image-caption">{CONCEPT_CAPTION}</span>
   </span>
 }
