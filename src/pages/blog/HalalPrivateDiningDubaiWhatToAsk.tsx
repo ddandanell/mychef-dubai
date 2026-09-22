@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/halal-private-dining-dubai-what-to-ask
 //     primary:     "what to ask a halal caterer dubai"
@@ -128,7 +129,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
       <TrustSignalStrip />
 
       {/* Article */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -349,7 +350,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

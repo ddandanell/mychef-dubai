@@ -12,11 +12,17 @@
   "images": [
     {
       "src": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp",
-      "alt": "A nursery dining room in Dubai being set for a provided lunch, empty lunchboxes out of frame. Experience concept shown.",
+      "alt": "A nursery dining room in Dubai being set for a provided lunch, empty lunchboxes out of frame.",
       "role": "hero",
       "width": 1344,
-      "height": 752,
-      "caption": "Illustrative service setting."
+      "height": 752
+    },
+    {
+      "src": "/images/blog-2026/nursery-meal-choice.webp",
+      "alt": "Small lunch containers with chicken, rice and cooked vegetables",
+      "role": "inline",
+      "width": 1536,
+      "height": 1024
     }
   ],
   "keyword_lock": {

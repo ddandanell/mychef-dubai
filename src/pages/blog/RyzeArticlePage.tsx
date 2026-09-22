@@ -4,6 +4,10 @@ import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import BlogRelated from '@/components/BlogRelated'
+import { prepareBlogHtml } from '@/lib/blogEditorial'
+import media from '@/content/blogMedia.json'
+import { blogImageSrcSet } from '@/lib/blogImages'
 
 interface RyzeArticle {
   slug: string
@@ -48,15 +52,19 @@ export default function RyzeArticlePage() {
   if (!article) return null
 
   const canonical = `/blog/${article.slug}`
-  const hero = article.image?.url || FALLBACK_IMAGE
-  const heroAlt = article.image?.alt || article.title
+  const local = (media.pages as Record<string, { hero: { src: string; alt: string } }>)[pathname]
+  const hero = local?.hero.src || article.image?.url || FALLBACK_IMAGE
+  const heroAlt = local?.hero.alt || article.image?.alt || article.title
+  let body = article.body_html
+  for (const [source, destination] of Object.entries(media.sources)) body = body.replaceAll(source, destination)
+  const content = prepareBlogHtml(body, pathname)
   const published = displayDate(article.published_at)
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.meta_description,
-    image: article.image ? [article.image.url] : undefined,
+    image: [hero.startsWith('/') ? SITE + hero : hero],
     author: { '@id': `${SITE}/#organization` },
     publisher: { '@id': `${SITE}/#organization` },
     datePublished: article.published_at || undefined,
@@ -79,6 +87,7 @@ export default function RyzeArticlePage() {
         title={article.title}
         subtitle={article.excerpt}
         image={hero}
+        imageSrcSet={blogImageSrcSet(hero)}
         imageAlt={heroAlt}
         breadcrumb={[
           { label: 'Home', href: '/' },
@@ -101,12 +110,18 @@ export default function RyzeArticlePage() {
             </p>
           )}
 
+          {content.headings.length >= 4 && <nav className="blog-article-toc" aria-label="Table of contents">
+            <p>On this page</p>
+            <ol>{content.headings.map(heading => <li key={heading.id}><a href={`#${heading.id}`}>{heading.title}</a></li>)}</ol>
+          </nav>}
           <div
-            className="font-inter text-body-lg leading-relaxed text-gray-500 [&_h2]:mt-12 [&_h2]:mb-5 [&_h2]:font-playfair [&_h2]:text-h2 [&_h2]:font-semibold [&_h2]:text-black [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-playfair [&_h3]:text-h3 [&_h3]:text-black [&_h4]:mt-6 [&_h4]:mb-2 [&_h4]:font-playfair [&_h4]:text-h4 [&_h4]:text-black [&_p]:mb-5 [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-4 [&_strong]:font-semibold [&_strong]:text-black [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_blockquote]:my-8 [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:bg-cream [&_blockquote]:p-6 [&_img]:my-8 [&_img]:h-auto [&_img]:w-full [&_img]:rounded-sm [&_table]:my-8 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-gray-200 [&_th]:bg-cream [&_th]:p-3 [&_th]:text-left [&_td]:border [&_td]:border-gray-200 [&_td]:p-3"
-            dangerouslySetInnerHTML={{ __html: article.body_html }}
+            className="blog-rich-body font-inter text-body-lg leading-relaxed text-gray-500 [&_h2]:mt-12 [&_h2]:mb-5 [&_h2]:font-playfair [&_h2]:text-h2 [&_h2]:font-semibold [&_h2]:text-black [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-playfair [&_h3]:text-h3 [&_h3]:text-black [&_h4]:mt-6 [&_h4]:mb-2 [&_h4]:font-playfair [&_h4]:text-h4 [&_h4]:text-black [&_p]:mb-5 [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-4 [&_strong]:font-semibold [&_strong]:text-black [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_blockquote]:my-8 [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:bg-cream [&_blockquote]:p-6 [&_img]:my-8 [&_img]:h-auto [&_img]:w-full [&_img]:rounded-sm [&_table]:my-8 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-gray-200 [&_th]:bg-cream [&_th]:p-3 [&_th]:text-left [&_td]:border [&_td]:border-gray-200 [&_td]:p-3"
+            dangerouslySetInnerHTML={{ __html: content.html }}
           />
         </div>
       </article>
+
+      <BlogRelated currentSlug={pathname}/>
 
       <section className="bg-gradient-to-b from-charcoal to-black section-padding">
         <div className="container-custom max-w-[720px] text-center">

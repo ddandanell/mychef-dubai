@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/private-chef-palm-jumeirah-guide
 //     primary:     "private dining palm jumeirah dubai"
@@ -109,7 +110,7 @@ export default function PrivateChefPalmJumeirahGuide() {
         title="Private Dining Palm Jumeirah Dubai | myCHEF"
         description="Private Dining Palm Jumeirah Dubai: A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…"
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/private-chef-2026/villa-evening-1200.webp"
+        ogImage="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         schema={schema}
       />
 
@@ -118,7 +119,7 @@ export default function PrivateChefPalmJumeirahGuide() {
         eyebrow="Private Chef"
         title="Private Dining Palm Jumeirah Dubai"
         subtitle={"Plan a chef service for your Palm Jumeirah villa, apartment or chartered yacht. Understand access and kitchen requirements, with household visits from AED 750 and one-off dining quoted separately."}
-        image="/images/private-chef-2026/villa-evening-1200.webp"
+        image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
         minHeight="tall"
@@ -128,7 +129,7 @@ export default function PrivateChefPalmJumeirahGuide() {
       <TrustSignalStrip />
 
       {/* Article */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -288,7 +289,7 @@ export default function PrivateChefPalmJumeirahGuide() {
             </p>
             <BlogFigure
               image={{
-                src: '/images/private-chef-2026/villa-evening-1200.webp',
+                src: '/images/blog/private-chef-palm-jumeirah-guide-2.webp',
                 alt: 'Chef carrying an unmarked bag from a car toward a Palm Jumeirah villa gate',
                 width: 1920,
                 height: 1280,
@@ -310,7 +311,7 @@ export default function PrivateChefPalmJumeirahGuide() {
             </p>
             <BlogFigure
               image={{
-                src: '/images/private-chef-2026/villa-evening-1200.webp',
+                src: '/images/blog/private-chef-palm-jumeirah-guide-3.webp',
                 alt: 'Chef plating in a Palm Jumeirah villa kitchen with the waterway beyond the glass',
                 width: 1920,
                 height: 1280,
@@ -347,7 +348,7 @@ export default function PrivateChefPalmJumeirahGuide() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

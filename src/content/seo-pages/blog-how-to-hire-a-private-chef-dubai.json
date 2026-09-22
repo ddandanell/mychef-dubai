@@ -58,50 +58,31 @@
   "faq": [],
   "images": [
     {
-      "src": "/images/private-chef-2026/planning-1200.webp",
-      "alt": "Private chef dinner in a Dubai home: the host stays at the table while the chef finishes a plate at the island and a server pours water",
+      "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
+      "alt": "Chef serving a family dinner in a home dining room",
       "role": "hero",
       "width": 1536,
-      "height": 1024,
-      "caption": "Menus, staffing and settings are tailored to your booking."
+      "height": 1024
     },
     {
-      "src": "/images/private-chef-2026/planning-1200.webp",
-      "alt": "Private chef and assistant preparing a Dubai home kitchen about two hours before guests arrive",
+      "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+      "alt": "Chef discussing dinner plans with a host in the kitchen",
+      "role": "inline",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
+      "alt": "Home kitchen prepared for a private chef visit",
       "role": "inline",
       "width": 1536,
       "height": 1024,
-      "caption": "Menus, staffing and settings are tailored to your booking."
-    },
-    {
-      "src": "/images/private-chef-2026/ingredients-1200.webp",
-      "alt": "Working kitchen still-life: knife roll, pans, sauce, cloths and a covered plate waiting for service",
-      "role": "inline",
-      "width": 1536,
-      "height": 1024,
-      "caption": "Menus, staffing and settings are tailored to your booking.",
       "inclusions": [
         "Menu, ingredients and chef preparation as specified in the proposal",
         "Service staff, equipment and clear-down as agreed",
         "Bespoke plated dining: AED 700–950 per person",
         "VAT and any additional items shown in the written quote"
       ]
-    },
-    {
-      "src": "/images/private-chef-2026/team-service-1200.webp",
-      "alt": "Hired cook portioning a week of meals into containers in a Dubai apartment kitchen, household fridge open",
-      "role": "inline",
-      "width": 1536,
-      "height": 1024,
-      "caption": "Menus, staffing and settings are tailored to your booking."
-    },
-    {
-      "src": "/images/private-chef-2026/craft-1200.webp",
-      "alt": "Chef checking a probe thermometer in a pan while an assistant portions sauce in a home kitchen",
-      "role": "inline",
-      "width": 1536,
-      "height": 1024,
-      "caption": "Menus, staffing and settings are tailored to your booking."
     }
   ],
   "keyword_lock": {

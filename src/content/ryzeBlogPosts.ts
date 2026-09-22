@@ -6,7 +6,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Compare six cocktail party catering models in Dubai for 2026 — chef-led myCHEF menus, hotel receptions, drop-off canapés, corporate and yacht catering.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/023d6e8e-8051-428b-8f82-41884070f5e2/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "celebrations",
     "date": "September 2026"
   },
   {
@@ -15,7 +15,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Compare the best drop-off catering options in Dubai for 2026 by use case: dinner parties, corporate lunches, halal buffets and big-batch celebrations.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/acebd3c7-a9cd-4f58-b84d-36333303940a/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "corporate",
     "date": "September 2026"
   },
   {
@@ -24,7 +24,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Compare the best desert dining catering companies in Dubai for 2026 — private chefs, grazing tables, hotel camps and production crews — by guest count and fit.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/d3bc52c2-b6df-40f4-a5bb-9426211a5340/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "outdoor",
     "date": "September 2026"
   },
   {
@@ -33,7 +33,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Choose a cooking class by the cuisine you want to learn, how much hands-on time you expect and the setting that suits your group. A private session at home, a teaching studio and a group workshop offer different experiences.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/f554074d-e4a4-4b93-9f72-f9c6bb8e1cb0/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "private-chef",
     "date": "September 2026"
   },
   {
@@ -42,7 +42,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Choosing BBQ catering in Dubai starts with the venue and the style of gathering. A live grill, prepared BBQ menu and fully staffed outdoor meal each require a different setup. Compare the complete service around the food you want to share.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/b3cca5ed-e41d-4f99-ae19-5a408b2eeaa7/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "outdoor",
     "date": "September 2026"
   },
   {
@@ -51,7 +51,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "A good corporate lunch fits the working day. Compare providers on menu consistency, delivery windows, dietary information and the level of service your office needs, from individual meals to a staffed client lunch.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/af4c58c5-d4af-4c10-ae48-22cee761f7ff/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "corporate",
     "date": "September 2026"
   },
   {
@@ -60,7 +60,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "A grazing table should be inviting throughout the agreed service, with the right quantities and a practical replenishment plan. Compare the food, setup and supervision as carefully as the photographs.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/ad794ce4-8480-4e04-9560-e63af1c4589b/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "celebrations",
     "date": "September 2026"
   },
   {
@@ -69,7 +69,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Choosing iftar catering in Dubai means balancing a generous menu with precise timing. Compare the provider’s approach to readiness for Maghrib, guest service, halal sourcing and the space where everyone will gather.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/77b0b456-a0f6-429a-9c1c-4a65b7b10689/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "seasonal",
     "date": "September 2026"
   },
   {
@@ -78,7 +78,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Children’s birthday catering works best when the food fits the ages, activities and length of the party. Compare providers on suitable portions, clear dietary communication and practical service for both children and adults.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/7308a5fa-aae3-44b8-8a4a-ba5ae1d7ca23/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "celebrations",
     "date": "September 2026"
   },
   {
@@ -87,7 +87,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Yacht catering in Dubai needs to suit the vessel as well as the occasion. Compare menus, loading arrangements, chilled storage and the service team against the yacht’s facilities and the captain’s itinerary.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/69f7a76e-9eb1-49b9-968c-a477ff1e4f2a/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "outdoor",
     "date": "September 2026"
   },
   {
@@ -105,7 +105,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Corporate event catering should support the purpose and pace of the occasion. Compare providers by their ability to coordinate menus, service and venue requirements around your programme, from a launch reception to an awards dinner.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4f43a200-5379-4b9f-8282-6b6a4366c995/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "corporate",
     "date": "September 2026"
   },
   {
@@ -114,7 +114,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "The right private dining experience feels suited to the people at the table. Compare the setting, menu, level of interaction with the chef and practical arrangements, whether you prefer a quiet dinner at home or a more distinctive venue.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4755c939-e288-442c-8a1c-7a449a3229dd/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "private-chef",
     "date": "September 2026"
   },
   {
@@ -150,7 +150,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "A private chef for a Dubai villa should fit the household and the occasion. Compare regular cooking plans with one-off dining, then review the chef’s style, the kitchen facilities and the support included in the arrangement.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/06cc8958-5c24-44f4-a12d-781923e653a5/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "private-chef",
     "date": "September 2026"
   },
   {
@@ -159,7 +159,7 @@ export const RYZE_BLOG_POSTS = [
     "excerpt": "Wedding catering in Dubai should bring the menu, venue and service together with care. Compare providers on their ability to plan the meal you want, communicate clearly and coordinate with the people responsible for the rest of your celebration.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/050826a0-32aa-4f57-bf3f-862e747b6c72/featured.jpg",
-    "hub": "menus-dietary",
+    "hub": "celebrations",
     "date": "September 2026"
   }
 ]

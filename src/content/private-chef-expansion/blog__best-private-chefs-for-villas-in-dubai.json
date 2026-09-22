@@ -37,6 +37,10 @@
       "link": {
         "href": "/our-chefs",
         "label": "Explore chef profiles and matching"
+      },
+      "photo": {
+        "src": "/images/blog-2026/villa-family-lunch.webp",
+        "alt": "Roast chicken, vegetables and rice ready for a family lunch"
       }
     },
     {
@@ -79,6 +83,10 @@
       "link": {
         "href": "/private-chef-dubai/pricing",
         "label": "Review service fees and grocery arrangements"
+      },
+      "photo": {
+        "src": "/images/blog-2026/villa-preparation-kitchen.webp",
+        "alt": "Chef preparing herbs in an organised villa kitchen"
       }
     },
     {

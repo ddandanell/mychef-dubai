@@ -3,6 +3,8 @@ import { Link, useLocation } from 'react-router'
 import { ArrowUpRight } from 'lucide-react'
 import designData from '@/content/cateringDesign.json'
 import '@/styles/catering-editorial.css'
+import BlogProse from '@/components/blog/BlogProse'
+import BlogReadingLink from '@/components/blog/BlogReadingLink'
 
 type Photo = { image: string; alt: string }
 type Design = { supporting?: Photo[]; title: string; lead: string; keyword: string; image: string; alt: string; trail: { url: string; anchor: string; current?: boolean }[] }
@@ -43,6 +45,7 @@ function SupportingPhoto({photo}: {photo: Photo}) {
 function PlanningArticle({page}: {page: Page}) {
   const { pathname } = useLocation()
   const photographs = cateringDesign[pathname.replace(/\/$/, '')]?.supporting ?? []
+  const photoPositions = new Map(photographs.map((photo, i) => [pathname.startsWith('/blog/') ? Math.max(0, Math.floor((i + 1) * page.sections.length / (photographs.length + 1)) - 1) : i, photo]))
   const operational = /\/(institutional|school|nursery|hospital|canteen|staff-meals)/.test(pathname)
   const flight = pathname === '/private-jet-catering-dubai'
   const production = pathname === '/production-catering-dubai'
@@ -53,15 +56,15 @@ function PlanningArticle({page}: {page: Page}) {
       : production
         ? 'Share the location, crew count, call times and meal breaks. We’ll discuss the catering around your production schedule and confirm the agreed service in a written proposal.'
         : 'Share your date, venue, guest count and menu preferences. We’ll discuss the service your occasion needs and confirm the details in a written proposal.'
-  return <article className="ct-planning" data-catering-expansion id="catering-planning">
+  return <BlogProse className="ct-planning" data-catering-expansion id="catering-planning">
     <div className="ct-container ct-planning-grid">
       <aside className="ct-guide-nav"><p className="ct-eyebrow">{operational || flight || production ? 'A considered catering service' : 'A more considered occasion'}</p><h2>{page.title}</h2><p>{page.focus}</p><nav aria-label="Catering planning topics"><ol>{page.sections.map((section,i)=><li key={section.id}><a href={`#catering-detail-${section.id}`}><span>{String(i+1).padStart(2,'0')}</span>{section.title}</a></li>)}</ol></nav></aside>
-      <div className="ct-guide-copy">{page.sections.map((section,i)=><section className="ct-detail" key={section.id} id={`catering-detail-${section.id}`}><p className="ct-eyebrow">{String(i+1).padStart(2,'0')} · Planning with myCHEF</p><h2>{section.title}</h2>{section.paragraphs.map((p,n)=><p key={n}>{p}</p>)}{photographs[i] && <SupportingPhoto photo={photographs[i]}/>}</section>)}
+      <div className="ct-guide-copy">{page.sections.map((section,i)=><section className="ct-detail" key={section.id} id={`catering-detail-${section.id}`}><p className="ct-eyebrow">{String(i+1).padStart(2,'0')} · Planning with myCHEF</p><h2>{section.title}</h2>{section.paragraphs.map((p,n)=><p key={n}>{p}</p>)}<BlogReadingLink section={`catering-detail-${section.id}`}/>{photoPositions.get(i) && <SupportingPhoto photo={photoPositions.get(i)!}/>}</section>)}
         {page.links.length>0 && <nav className="ct-context-links" aria-label="Related planning resources"><p className="ct-eyebrow">Continue planning</p>{page.links.map(link=><Link key={link.href} to={link.href}>{link.label}<ArrowUpRight size={16}/></Link>)}</nav>}
       </div>
     </div>
     <div className="ct-planning-close"><div className="ct-container"><p className="ct-eyebrow">{operational || flight || production ? 'Your service, thoughtfully planned' : 'Your occasion, thoughtfully planned'}</p><h2>{operational ? 'Tell us about your organisation.' : 'Tell us what you have in mind.'}</h2><p>{closingCopy}</p><Link className="ct-button" to="/inquiry">Start your catering enquiry <ArrowUpRight size={18}/></Link></div></div>
-  </article>
+  </BlogProse>
 }
 const loaders = import.meta.glob<Page>('../../content/catering-editorial/*.json', {import:'default'})
 const pages: Record<string,ComponentType> = {}

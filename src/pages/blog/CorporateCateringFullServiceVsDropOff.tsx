@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/corporate-catering-full-service-vs-drop-off
@@ -140,7 +141,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
       <TrustSignalStrip />
 
       {/* ═══════════════ Article ═══════════════ */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -194,7 +195,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Choose full-service for client-facing events, board meetings, award ceremonies, product launches, and any occasion where presentation and guest experience matter. It is also the right choice when no one on your team has time to manage catering logistics.
             </p>
-            <NonCateringVisual><BlogFigure
+            <BlogFigure
               image={{
                 src: '/images/blog/corporate-catering-full-service-vs-drop-off-2.webp',
                 alt: 'Staffed office buffet with servers behind the line',
@@ -202,7 +203,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
                 height: 1280,
                 caption: 'Full service is people on site: servers, replenishment, clear-down. That labour is the price gap.',
               }}
-            /></NonCateringVisual>
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -249,7 +250,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Consider your event goals. A working lunch for the internal team may not justify full-service, while a board dinner for investors almost certainly does. The right choice is the one that matches your objectives, not just your budget.
             </p>
-            <NonCateringVisual><BlogFigure
+            <BlogFigure
               image={{
                 src: '/images/blog/corporate-catering-full-service-vs-drop-off-3.webp',
                 alt: 'Extra servers putting on aprons in an office pantry before service',
@@ -257,7 +258,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
                 height: 1280,
                 caption: 'The extra cost is often two more people in the pantry, not a more expensive sandwich.',
               }}
-            /></NonCateringVisual>
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -350,7 +351,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

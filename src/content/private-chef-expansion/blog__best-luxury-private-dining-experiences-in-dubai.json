@@ -37,6 +37,10 @@
       "link": {
         "href": "/chefs-table-dubai",
         "label": "Explore the chef’s table format"
+      },
+      "photo": {
+        "src": "/images/blog-2026/luxury-course-plating.webp",
+        "alt": "Chef finishing a sea bass tasting course with fennel and sauce"
       }
     },
     {
@@ -79,6 +83,10 @@
       "link": {
         "href": "/luxury-dining-experiences",
         "label": "Explore hosted dining arrangements"
+      },
+      "photo": {
+        "src": "/images/blog-2026/luxury-dinner-setting.webp",
+        "alt": "A private dining table set with linen, flowers and candlelight"
       }
     },
     {

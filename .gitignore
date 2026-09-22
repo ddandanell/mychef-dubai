@@ -26,3 +26,4 @@ skills/
 __pycache__/
 public/seo/
 docs/seo/keyword-map/ui/preview/
+.blog-audit/

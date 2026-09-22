@@ -87,9 +87,6 @@ export default function Blog() {
         overlay="medium"
         imagePosition="center 40%"
       />
-      <p className="bg-cream text-center font-inter text-xs uppercase tracking-[0.14em] text-gray-400 py-3 border-b border-gray-200">
-        Experience concept shown
-      </p>
 
       {/* ═══════════════ Browse by Topic ═══════════════ */}
       <section className="bg-cream section-padding border-b border-gray-200">
@@ -148,7 +145,9 @@ export default function Blog() {
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
                     src={post.image}
-                    alt={`${post.title}. Experience concept shown`}
+                    srcSet={blogImageSrcSet(post.image)}
+                    sizes="(min-width: 768px) 530px, calc(100vw - 40px)"
+                    alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
@@ -209,3 +208,4 @@ export default function Blog() {
     </div>
   )
 }
+import { blogImageSrcSet } from '@/lib/blogImages'

@@ -87,7 +87,11 @@ const posts = activeArticles.map((article) => ({
   excerpt: article.excerpt,
   category: 'Guides',
   image: article.image ? article.image.url : '/images/mychef-dubai-blog-hero.webp',
-  hub: 'menus-dietary',
+  hub: /private-chef|private-dining|cooking-class/.test(article.slug) ? 'private-chef'
+    : /corporate|drop-off/.test(article.slug) ? 'corporate'
+    : /wedding|birthday|cocktail|grazing/.test(article.slug) ? 'celebrations'
+    : /ramadan|iftar/.test(article.slug) ? 'seasonal'
+    : /yacht|desert|bbq/.test(article.slug) ? 'outdoor' : 'menus-dietary',
   date: formatDate(article.published_at),
 }))
 

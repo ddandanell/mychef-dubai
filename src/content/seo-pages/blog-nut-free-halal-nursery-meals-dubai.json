@@ -12,11 +12,17 @@
   "images": [
     {
       "src": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp",
-      "alt": "A chef labelling allergen cards on a nursery lunch line in Dubai. Experience concept shown.",
+      "alt": "A chef labelling allergen cards on a nursery lunch line in Dubai.",
       "role": "hero",
       "width": 1344,
-      "height": 752,
-      "caption": "Illustrative service setting."
+      "height": 752
+    },
+    {
+      "src": "/images/blog-2026/nursery-dietary-preparation.webp",
+      "alt": "Chef portioning a meal into a nursery lunch tray with a dedicated serving spoon",
+      "role": "inline",
+      "width": 1536,
+      "height": 1024
     }
   ],
   "keyword_lock": {

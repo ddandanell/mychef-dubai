@@ -12,11 +12,17 @@
   "images": [
     {
       "src": "/images/blog/dubai-school-food-rules-2026-hero.webp",
-      "alt": "A labelled school lunch line in Dubai, papers on a clipboard, no devices on the servery. Experience concept shown.",
+      "alt": "A labelled school lunch line in Dubai, papers on a clipboard, no devices on the servery.",
       "role": "hero",
       "width": 1344,
-      "height": 752,
-      "caption": "Illustrative service setting."
+      "height": 752
+    },
+    {
+      "src": "/images/blog-2026/school-lunch-portioning.webp",
+      "alt": "Cook portioning chicken, rice and vegetables into school lunch trays",
+      "role": "inline",
+      "width": 1536,
+      "height": 1024
     }
   ],
   "keyword_lock": {

@@ -11,6 +11,8 @@ import { getSeoContent, type SeoPage, type SeoImage } from '../content/seo'
 import { CONTEXTUAL_LINKS, pillarsFor, getPost } from '../content/blogTaxonomy'
 import { isParked } from '@/content/parkedUrls'
 import BlogFigure from './BlogFigure'
+import BlogProse from './blog/BlogProse'
+import BlogReadingLink from './blog/BlogReadingLink'
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
 const SITE = 'https://www.mychef.ae'
@@ -139,10 +141,10 @@ function readInlineSeo(pathname: string): SeoPage | null {
  * module and Article/FAQ schema. Because these routes are in FULLPAGE_ROUTES, the shared
  * SeoContent/SeoHead injectors skip them, so this component owns the whole page.
  */
-export default function HandoffPage() {
+export default function HandoffPage({ initialData }: { initialData?: SeoPage } = {}) {
   const { pathname } = useLocation()
   const normalizedPath = pathname === '/' ? '/' : pathname.replace(/\/$/, '')
-  const [data, setData] = useState<SeoPage | null>(() => readInlineSeo(normalizedPath))
+  const [data, setData] = useState<SeoPage | null>(() => initialData || readInlineSeo(normalizedPath))
   const firstRun = useRef(true)
 
   useEffect(() => {
@@ -226,10 +228,10 @@ export default function HandoffPage() {
 
   return (
     <div>
-      <SEO title={seoTitle} description={head.meta_description} canonicalPath={pathname} schema={schema} />
+      <SEO title={seoTitle} description={head.meta_description} canonicalPath={pathname} ogImage={heroImage?.src} schema={schema} />
 
       {/* Hero */}
-      {isChefDesignPage(pathname) ? <EditorialHero eyebrow="MYCHEF · PRACTICAL GUIDES" title={heading} subtitle={opening} cta={{label:"Explore household plans",href:"/private-chef-dubai/pricing"}} secondaryCta={{label:"Ask myCHEF",href:"/inquiry"}}/> : (<NonCateringVisual><section className="relative bg-black overflow-hidden section-padding pt-32 md:pt-40">
+      {isChefDesignPage(pathname) ? <EditorialHero eyebrow="MYCHEF · PRACTICAL GUIDES" title={heading} subtitle={opening} image={heroImage?.src} imageAlt={heroImage?.alt} cta={{label:"Explore household plans",href:"/private-chef-dubai/pricing"}} secondaryCta={{label:"Ask myCHEF",href:"/inquiry"}}/> : (<NonCateringVisual><section className="relative bg-black overflow-hidden section-padding pt-32 md:pt-40">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(200,164,92,0.12)_0%,transparent_60%)]" />
         <div className="relative z-10 container-custom max-w-[900px]">
           <nav className="mb-6">
@@ -259,7 +261,7 @@ export default function HandoffPage() {
       <TrustSignalStrip />
 
       {/* Body */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           {heroImage && !isChefDesignPage(pathname) && <NonCateringVisual><BlogFigure image={heroImage} priority /></NonCateringVisual>}
 
@@ -293,7 +295,8 @@ export default function HandoffPage() {
                     {linkify(p, pathname, linkState, `${bi}-${i}`)}
                   </p>
                 ))}
-                {inline && <NonCateringVisual><BlogFigure image={inline} /></NonCateringVisual>}
+                <BlogReadingLink section={toc[bi].id}/>
+                {inline && <BlogFigure image={inline} />}
               </section>
             )
           })}
@@ -334,7 +337,7 @@ export default function HandoffPage() {
             </div>
           )}
         </div>
-      </article>
+      </BlogProse>
 
       {/* Related reading (topic-aware) */}
       {isBlog && getPost(pathname) && <BlogRelated currentSlug={pathname} />}

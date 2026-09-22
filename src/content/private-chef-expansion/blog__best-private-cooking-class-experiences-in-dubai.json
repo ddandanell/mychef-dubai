@@ -23,6 +23,10 @@
       "link": {
         "href": "/private-cooking-classes-dubai",
         "label": "Explore private cooking lessons"
+      },
+      "photo": {
+        "src": "/images/blog-2026/cooking-class-pasta.webp",
+        "alt": "A guest learning to shape ravioli with a chef"
       }
     },
     {
@@ -65,6 +69,10 @@
       "link": {
         "href": "/private-chef-dubai/how-it-works",
         "label": "Prepare for your first cooking day"
+      },
+      "photo": {
+        "src": "/images/blog-2026/cooking-class-ingredients.webp",
+        "alt": "Ingredients and kitchen tools arranged for a Mediterranean cooking lesson"
       }
     },
     {

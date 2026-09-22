@@ -1,3 +1,5 @@
+import BlogReadingLink from '@/components/blog/BlogReadingLink'
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/yacht-party-menu-ideas-dubai
 //     primary:     "yacht party menu ideas dubai"
@@ -128,7 +130,7 @@ export default function YachtPartyMenuIdeas() {
       <TrustSignalStrip />
 
       {/* ═══════════════ Article ═══════════════ */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -250,6 +252,7 @@ export default function YachtPartyMenuIdeas() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Provide plenty of water, especially during summer months. Dehydration can spoil the experience quickly, and thoughtful hosts make hydration part of the menu.
             </p>
+          <BlogReadingLink section="beverages-for-the-marina"/>
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -298,7 +301,7 @@ export default function YachtPartyMenuIdeas() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

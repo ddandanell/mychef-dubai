@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/best-private-chef-birthday-dinner-dubai
 //     primary:     "private chef for birthday dinner dubai"
@@ -125,7 +126,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
         title="Private Chef for Birthday Dinner Dubai | myCHEF"
         description="Private Chef for Birthday Dinner Dubai — Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the…"
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/private-chef-2026/birthday-1200.webp"
+        ogImage="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         schema={schema}
       />
 
@@ -134,7 +135,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
         eyebrow="Birthday"
         title="Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
         subtitle={"Plan a birthday dinner at home or in your Dubai villa, with advice on menus, service timings and the details to include in your enquiry."}
-        image="/images/private-chef-2026/birthday-1200.webp"
+        image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}
         minHeight="tall"
@@ -144,7 +145,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
       <TrustSignalStrip />
 
       {/* Article */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -288,7 +289,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
             </p>
             <BlogFigure
               image={{
-                src: '/images/private-chef-2026/birthday-1200.webp',
+                src: '/images/blog/best-private-chef-birthday-dinner-dubai-2.webp',
                 alt: 'Small birthday cake being cut as a plated course at a home table',
                 width: 1920,
                 height: 1280,
@@ -325,7 +326,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

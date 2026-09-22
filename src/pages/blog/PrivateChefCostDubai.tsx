@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/how-much-does-private-chef-cost-dubai
 //     primary:     "how much does private chef cost dubai"
@@ -109,7 +110,7 @@ export default function PrivateChefCostDubai() {
         title="How Much Does a Private Chef Cost in Dubai? | myCHEF"
         description="How much a private chef costs in Dubai: household visit rates from AED 750, dinner pricing, and what changes the figure. Itemised quotes, 5% VAT shown separately."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/private-chef-2026/ingredients-1200.webp"
+        ogImage="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         schema={schema}
       />
 
@@ -118,7 +119,7 @@ export default function PrivateChefCostDubai() {
         eyebrow="Private Chef"
         title="How Much Does a Private Chef Cost in Dubai?"
         subtitle={"Household chef visits start at AED 750, while one-off dinners follow event or package pricing. This guide explains the inclusions and cost factors to compare before booking."}
-        image="/images/private-chef-2026/ingredients-1200.webp"
+        image="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         imageAlt="Host and coordinator reviewing an itemised private chef proposal at a dining table"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Cost Dubai' }]}
         minHeight="tall"
@@ -128,7 +129,7 @@ export default function PrivateChefCostDubai() {
       <TrustSignalStrip />
 
       {/* ═══════════════ Article ═══════════════ */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -171,7 +172,7 @@ export default function PrivateChefCostDubai() {
           </section>
           <BlogFigure
             image={{
-              src: '/images/private-chef-2026/ingredients-1200.webp',
+              src: '/images/blog/how-much-does-private-chef-cost-dubai-2.webp',
               alt: 'A table set for two with extra chairs stacked: small dinners cost more per person',
               width: 1920,
               height: 1280,
@@ -216,7 +217,7 @@ export default function PrivateChefCostDubai() {
             </p>
             <BlogFigure
               image={{
-                src: '/images/private-chef-2026/ingredients-1200.webp',
+                src: '/images/blog/how-much-does-private-chef-cost-dubai-3.webp',
                 alt: 'Groceries, produce on a scale, knife roll and service cloth on a kitchen island',
                 width: 1200,
                 height: 1600,
@@ -291,7 +292,7 @@ export default function PrivateChefCostDubai() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

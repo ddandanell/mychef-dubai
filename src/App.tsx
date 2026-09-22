@@ -1,4 +1,5 @@
 import CateringExpansion, { CateringHero } from './components/catering/CateringEditorial'
+import './styles/blog-editorial.css'
 import { Suspense, useEffect } from 'react'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'

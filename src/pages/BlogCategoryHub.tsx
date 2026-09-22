@@ -114,6 +114,8 @@ export default function BlogCategoryHub() {
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
                     src={post.image}
+                    srcSet={blogImageSrcSet(post.image)}
+                    sizes="(min-width: 768px) 530px, calc(100vw - 40px)"
                     alt={post.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
@@ -165,3 +167,4 @@ export default function BlogCategoryHub() {
     </div>
   )
 }
+import { blogImageSrcSet } from '@/lib/blogImages'

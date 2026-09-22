@@ -2,11 +2,15 @@ import { lazy, type ComponentType } from 'react'
 import { Link, useLocation } from 'react-router'
 import { ArrowUpRight } from 'lucide-react'
 import { chefImage, chefImages, type ChefImageKey } from '@/content/privateChefDesign'
+import BlogProse from '@/components/blog/BlogProse'
+import BlogReadingLink from '@/components/blog/BlogReadingLink'
+import { blogImageSrcSet } from '@/lib/blogImages'
 
 interface DetailSection {
   id: string
   title: string
   image: string
+  photo?: { src: string; alt: string }
   paragraphs: string[]
   link?: { href: string; label: string }
 }
@@ -54,8 +58,10 @@ function DetailImage({ imageKey, occurrence }: { imageKey: string; occurrence: n
 }
 
 function ExpansionArticle({ page }: { page: DetailPage }) {
+  const { pathname } = useLocation()
+  const blog = pathname.startsWith('/blog/')
   const occurrences: Record<string, number> = {}
-  return <div className="pc-reading" data-chef-expansion>
+  return <BlogProse as="div" className="pc-reading" data-chef-expansion>
     <section className="pc-section pc-tone-cream" aria-labelledby="chef-planning-guide">
       <div className="pc-container pc-reading-intro">
         <div><p className="pc-eyebrow">Make it personal · The details that matter</p>
@@ -72,11 +78,12 @@ function ExpansionArticle({ page }: { page: DetailPage }) {
       const occurrence = occurrences[section.image] || 0
       occurrences[section.image] = occurrence + 1
       return <section key={section.id} id={`chef-detail-${section.id}`} className={`pc-section pc-reading-section ${index % 2 ? 'pc-tone-cream' : ''}`} aria-labelledby={`chef-detail-heading-${section.id}`}>
-        <div className={`pc-container pc-reading-row ${index % 2 ? 'pc-reading-reverse' : ''}`}>
-          <div className="pc-reading-visual"><DetailImage imageKey={section.image} occurrence={occurrence}/></div>
+        <div className={`pc-container pc-reading-row ${index % 2 ? 'pc-reading-reverse' : ''} ${blog && !section.photo ? 'pc-reading-text-only' : ''}`}>
+          {(!blog || section.photo) && <div className="pc-reading-visual">{section.photo ? <img className="pc-reading-image" src={section.photo.src} srcSet={blogImageSrcSet(section.photo.src)} sizes="(min-width: 1100px) 440px, (min-width: 800px) 38vw, calc(100vw - 40px)" alt={section.photo.alt} width={1536} height={1024} loading="lazy" decoding="async"/> : <DetailImage imageKey={section.image} occurrence={occurrence}/>}</div>}
           <div className="pc-reading-copy"><p className="pc-eyebrow">{String(index + 1).padStart(2, '0')} · Your myCHEF experience</p>
             <h2 id={`chef-detail-heading-${section.id}`}>{section.title}</h2>
             {section.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+            <BlogReadingLink section={`chef-detail-${section.id}`}/>
             {section.link && <Link className="pc-reading-link" to={section.link.href}>{section.link.label}<ArrowUpRight size={17} aria-hidden="true"/></Link>}
           </div>
         </div>
@@ -89,7 +96,7 @@ function ExpansionArticle({ page }: { page: DetailPage }) {
         <a className="pc-reading-back" href="#chef-planning-guide">Back to the guide</a>
       </div>
     </section>
-  </div>
+  </BlogProse>
 }
 
 // Each page gets a separate content chunk; unrelated routes do not download the

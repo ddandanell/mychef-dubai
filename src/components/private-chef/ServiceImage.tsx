@@ -2,7 +2,7 @@ import type { ImgHTMLAttributes } from 'react'
 import { chefImage, chefImageKey, chefImageSrcSet, chefImages, type ChefImageKey } from '@/content/privateChefDesign'
 
 export default function ServiceImage({ src, alt, imageKey, className = '', style, sizes = '(min-width: 1024px) 50vw, 100vw', loading = 'lazy', ...rest }: ImgHTMLAttributes<HTMLImageElement> & { imageKey?: ChefImageKey }) {
-  const key = imageKey || chefImageKey(src)
+  const key = src?.startsWith('/images/blog/') ? undefined : imageKey || chefImageKey(src)
   if (!key) return <img src={src} alt={alt ?? ''} className={className} style={style} loading={loading} {...rest} />
   return <span className={`pc-image ${className}`} style={style}>
     <picture>

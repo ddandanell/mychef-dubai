@@ -1,5 +1,3 @@
-import { NonCateringVisual } from '@/components/catering/CateringEditorial'
-import ServiceImage from '@/components/private-chef/ServiceImage'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { relatedPosts } from '../content/blogTaxonomy'
@@ -22,7 +20,7 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
   if (related.length === 0) return null
 
   return (
-    <section className="bg-white section-padding">
+    <section className="bg-white section-padding" data-blog-related>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-10">
           <SectionLabel align="center">Related Reading</SectionLabel>
@@ -38,15 +36,6 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
               to={post.slug}
               className="group block bg-cream border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
             >
-              <NonCateringVisual><div className="aspect-[16/9] overflow-hidden">
-                <ServiceImage
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div></NonCateringVisual>
               <div className="p-5">
                 <span className="font-inter text-xs uppercase tracking-wider text-gold font-medium block mb-2">
                   {post.category}

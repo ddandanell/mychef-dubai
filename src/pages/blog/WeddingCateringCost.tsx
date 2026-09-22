@@ -1,3 +1,4 @@
+import BlogProse from '@/components/blog/BlogProse'
 import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/wedding-catering-cost-dubai
@@ -120,7 +121,7 @@ export default function WeddingCateringCost() {
       /></NonCateringVisual>
       <TrustSignalStrip />
 
-      <article className="bg-white">
+      <BlogProse className="bg-white">
         <Section tone="white" rhythm="chapter">
           <Container className="max-w-3xl">
             <p className="mb-8 font-inter text-sm text-gray-400">
@@ -247,7 +248,7 @@ export default function WeddingCateringCost() {
 
         <Section tone="white" rhythm="chapter">
           <Container className="max-w-3xl">
-            <NonCateringVisual><BlogFigure image={costInlineImages[0]} /></NonCateringVisual>
+            <BlogFigure image={costInlineImages[0]} />
             <h2 id="guest-count-sketches" className="font-playfair text-h2 text-black mb-6 scroll-mt-28">
               Guest-count sketches, not packages
             </h2>
@@ -305,7 +306,7 @@ export default function WeddingCateringCost() {
                 </div>
               ))}
             </dl>
-            <NonCateringVisual><BlogFigure image={costInlineImages[1]} /></NonCateringVisual>
+            <BlogFigure image={costInlineImages[1]} />
           </Container>
         </Section>
 
@@ -411,7 +412,7 @@ export default function WeddingCateringCost() {
             <BlogRelated currentSlug={WEDDING_PATHS.cost} />
           </Container>
         </Section>
-      </article>
+      </BlogProse>
 
       <Section tone="dark" rhythm="chapter">
         <Container className="max-w-3xl">

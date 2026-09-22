@@ -1,5 +1,6 @@
 import { isParked } from '@/content/parkedUrls'
 import { RYZE_BLOG_POSTS } from './ryzeBlogPosts'
+import media from './blogMedia.json'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
@@ -259,8 +260,8 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * that lists everything.
  */
 export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS]
-  // Serve WebP cards at the render layer — a pipeline republish can regenerate legacy JPGs.
-  .map((post) => ({ ...post, image: post.image.replace(/featured\.jpg$/, 'featured.webp') }))
+  // Use files we actually publish; changing a remote extension creates a broken URL.
+  .map((post) => ({ ...post, image: (media.pages as Record<string, { hero: { src: string } }>)[post.slug]?.hero.src || post.image }))
   .filter((post) => {
   const slug = post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`
   return !isParked(slug)
@@ -512,7 +513,7 @@ const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
 }
 
 export function getPost(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug)
+  return BLOG_POSTS.find((p) => p.slug === slug) || ALL_BLOG_POSTS.find((p) => p.slug === slug)
 }
 
 export function getHub(slug: string): BlogHub | undefined {

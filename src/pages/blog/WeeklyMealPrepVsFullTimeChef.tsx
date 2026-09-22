@@ -1,3 +1,5 @@
+import BlogReadingLink from '@/components/blog/BlogReadingLink'
+import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/weekly-meal-prep-vs-full-time-chef-dubai
 //     primary:     "meal prep vs private chef dubai"
@@ -128,7 +130,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
       <TrustSignalStrip />
 
       {/* Article */}
-      <article className="bg-white section-padding">
+      <BlogProse className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           <div className="article-section opacity-0 translate-y-8 mb-8 flex items-center gap-3 text-gray-400 font-inter text-sm">
             <span>By <strong className="text-black font-medium">myCHEF Dubai Team</strong></span>
@@ -263,6 +265,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               A full-time chef offers the highest level of personalisation and availability, but the arrangement is less flexible. Changing cuisine style, schedules, or portion counts usually requires a conversation and possible contract adjustment.
             </p>
+          <BlogReadingLink section="flexibility-and-lifestyle-fit"/>
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -303,7 +306,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
             </div>
           </section>
         </div>
-      </article>
+      </BlogProse>
     </div>
   )
 }

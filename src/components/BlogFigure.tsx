@@ -1,14 +1,15 @@
-import { NonCateringVisual } from '@/components/catering/CateringEditorial'
-import ServiceImage from '@/components/private-chef/ServiceImage'
 import type { SeoImage } from '../content/seo'
+import { blogImageSrcSet } from '@/lib/blogImages'
 
 /** Editorial figure for blog imagery. */
 export default function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: boolean }) {
   return (
     <figure className="my-10">
-      <NonCateringVisual><div className="overflow-hidden rounded-2xl bg-gray-100">
-        <ServiceImage
+      <div className="overflow-hidden rounded-2xl bg-gray-100">
+        <img
           src={image.src}
+          srcSet={blogImageSrcSet(image.src)}
+          sizes="(min-width: 900px) 820px, calc(100vw - 40px)"
           alt={image.alt}
           width={image.width}
           height={image.height}
@@ -17,7 +18,7 @@ export default function BlogFigure({ image, priority = false }: { image: SeoImag
           fetchPriority={priority ? 'high' : 'auto'}
           className="w-full h-auto object-cover"
         />
-      </div></NonCateringVisual>
+      </div>
       {image.caption && (
         <figcaption className="mt-3 font-inter text-sm text-gray-500 leading-relaxed">
           {image.caption}
