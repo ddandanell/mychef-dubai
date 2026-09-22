@@ -266,6 +266,8 @@ export default function HeroSection() {
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
+            data-track="whatsapp_click"
+            data-cta-location="hero"
             className="text-gold underline underline-offset-4 hover:text-gold-light"
           >
             WhatsApp
