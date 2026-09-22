@@ -32,6 +32,7 @@ import {
 } from '@/content/birthdayCluster'
 import {
   birthdayInquiryHref,
+  birthdayWhatsAppLink,
   birthdayWhatsAppMessage,
 } from '@/content/birthdayExtras'
 import {
@@ -167,6 +168,16 @@ export default function BirthdayCatering() {
         <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
           {birthdayHeroCopy.priceLine}
         </p>
+        <a
+          href={birthdayWhatsAppLink(extraIds)}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-track="whatsapp_click"
+          data-cta-location="hero"
+          className="mt-5 btn-secondary text-center"
+        >
+          Or message us on WhatsApp — typical reply within 15 min
+        </a>
       </PageHero>
       <TrustSignalStrip />
 
