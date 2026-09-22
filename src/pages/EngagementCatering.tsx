@@ -287,7 +287,7 @@ export default function EngagementCatering() {
         </Container>
       </Section>
 
-      <Section id="gallery" tone="white" rhythm="chapter">
+      <NonCateringVisual><Section id="gallery" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>THE ROOM</SectionLabel>
           <DisplayHeading className="text-black mb-4">How the night can look</DisplayHeading>
@@ -310,7 +310,7 @@ export default function EngagementCatering() {
             ))}
           </div>
         </Container>
-      </Section>
+      </Section></NonCateringVisual>
 
       <Section id="how-it-works" tone="ivory" rhythm="chapter">
         <Container>
