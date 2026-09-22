@@ -301,6 +301,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Vegan menu ideas for Dubai events, with balanced dishes, thoughtful service and clear questions about ingredients, allergies and complete pricing."
   },
   "/private-chef-dubai/our-chefs": {
+    "title": "Private Chef for Your Home Dubai | Meet Our Chefs | myCHEF",
     "description": "How myCHEF selects and matches a chef for your Dubai household, with preferences, skill level, trial arrangements and ongoing support explained."
   },
   "/private-chef-dubai/how-your-plan-works": {
