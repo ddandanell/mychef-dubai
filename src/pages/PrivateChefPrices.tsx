@@ -272,7 +272,7 @@ export default function PrivateChefPrices() {
         imageWidth={1344}
         imageHeight={752}
         cta={{ label: 'Get My Private Chef Quote', href: '/inquiry' }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true, track: 'whatsapp_click', ctaLocation: 'hero' }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai', href: '/private-chef-dubai' }, { label: 'Private Chef Prices Dubai' }]}
         minHeight="tall"
         overlay="dark"
