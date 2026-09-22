@@ -49,24 +49,37 @@
     "src/components/SEO.tsx",
     "src/components/SourcesBlock.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx"
+    "src/pages/blog/PrivateChefPalmJumeirahGuide.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1683,
-    "current_word_count": 1682,
+    "current_word_count": 3075,
     "headings": [
       {
         "level": "h2",
@@ -138,15 +151,15 @@
       },
       {
         "level": "h3",
-        "text": "How to Hire a Private Chef Dubai"
+        "text": "A Household Menu Brief for Your Dubai Chef"
       },
       {
         "level": "h3",
-        "text": "How Much Does a Private Chef Cost in Dubai?"
+        "text": "Private Chef Kitchen Preparation in Dubai"
       },
       {
         "level": "h3",
-        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
       },
       {
         "level": "h2",
@@ -154,7 +167,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Blog and Guides"
+        "text": "Plan private dining around your Palm Jumeirah property"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the property details before the menu is finalised"
+      },
+      {
+        "level": "h2",
+        "text": "Coordinate cooking across a larger home"
+      },
+      {
+        "level": "h2",
+        "text": "Use a compact kitchen to its strengths"
+      },
+      {
+        "level": "h2",
+        "text": "Make home and building access straightforward"
+      },
+      {
+        "level": "h2",
+        "text": "Give outdoor dining a workable backup plan"
+      },
+      {
+        "level": "h2",
+        "text": "Match the service to the way your guests gather"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

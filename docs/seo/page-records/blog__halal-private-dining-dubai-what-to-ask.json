@@ -49,24 +49,37 @@
     "src/components/SEO.tsx",
     "src/components/SourcesBlock.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx"
+    "src/pages/blog/HalalPrivateDiningDubaiWhatToAsk.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1677,
-    "current_word_count": 1719,
+    "current_word_count": 1639,
     "headings": [
       {
         "level": "h2",
@@ -142,15 +155,15 @@
       },
       {
         "level": "h3",
-        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
       },
       {
         "level": "h3",
-        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
       },
       {
         "level": "h3",
-        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+        "text": "Best Arabic Catering Companies Dubai: What to Compare"
       },
       {
         "level": "h2",

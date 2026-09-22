@@ -47,26 +47,38 @@
     "src/components/FaqAccordion.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/AllergySafeCatering.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 955,
-    "current_word_count": 928,
+    "current_word_count": 1558,
     "headings": [
       {
         "level": "h2",
-        "text": "The brief first. Then the kitchen."
+        "text": "A careful assessment of your dietary brief"
       },
       {
         "level": "h2",
@@ -78,7 +90,7 @@
       },
       {
         "level": "h3",
-        "text": "Labels checked before they hit the pot"
+        "text": "Ingredients reviewed before preparation"
       },
       {
         "level": "h3",
@@ -159,6 +171,26 @@
       {
         "level": "h2",
         "text": "Send the allergen list with the date"
+      },
+      {
+        "level": "h2",
+        "text": "Start with the requirement, then assess the kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

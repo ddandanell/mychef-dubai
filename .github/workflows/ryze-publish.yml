@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit generated pages
         run: |
-          git add src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts public/sitemap.xml
+          git add src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts src/content/blogPlanningLinks.json src/content/blogRelatedOverrides.json public/sitemap.xml
           if git diff --cached --quiet; then
             echo "No generated changes"
             exit 0

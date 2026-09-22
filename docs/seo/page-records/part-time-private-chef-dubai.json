@@ -28,10 +28,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Part Time Private Chef Dubai | 2–3 Days a Week | myCHEF",
-    "description": "Hire a part time private chef Dubai for two or three days a week. Same price list as every household plan. Groceries at receipts. VAT 5%.",
+    "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of.",
     "h1": [
-      "Part Time Private Chef Dubai: two or three days a week"
+      "Part Time Private Chef Dubai. Good food on your days."
     ]
   },
   "metadata_source": "local production prerender",
@@ -43,104 +43,173 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/HouseholdServicePage.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/PartTimePrivateChef.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 826,
-    "current_word_count": 830,
+    "current_word_count": 2068,
     "headings": [
       {
         "level": "h2",
-        "text": "Part time private chef Dubai is days of cooking, not a salary"
+        "text": "A part time private chef in Dubai, with a schedule that fits."
       },
       {
         "level": "h2",
-        "text": "Enough days to learn the house"
+        "text": "The little things that make it work."
       },
       {
         "level": "h3",
-        "text": "Two or three days a week"
+        "text": "Choose your cooking days"
       },
       {
         "level": "h3",
-        "text": "The same chef, most weeks"
+        "text": "Fresh meals or preparation"
       },
       {
         "level": "h3",
-        "text": "Cook, pack, or stay for dinner"
+        "text": "Your ingredients, your way"
       },
       {
         "level": "h3",
-        "text": "The same price list as every household plan"
+        "text": "A familiar chef"
       },
       {
         "level": "h2",
-        "text": "Dinner, prep, or both"
+        "text": "A chef in your kitchen. A team behind the details."
       },
       {
         "level": "h3",
-        "text": "Dinner only"
+        "text": "Menus that fit your home"
       },
       {
         "level": "h3",
-        "text": "Prep plus one dinner"
+        "text": "A considered chef match"
       },
       {
         "level": "h3",
-        "text": "Lunch and dinner on set days"
+        "text": "Ongoing coordination"
       },
       {
         "level": "h3",
-        "text": "The week, plus one night of guests"
+        "text": "A kitchen left in order"
       },
       {
         "level": "h2",
-        "text": "Questions before a two-or-three-day plan"
+        "text": "Choose the service that fits."
       },
       {
         "level": "h3",
-        "text": "What is a part-time private chef?"
+        "text": "One fresh meal each week"
       },
       {
         "level": "h3",
-        "text": "How much does a part-time private chef cost in Dubai?"
+        "text": "Weekly food preparation"
       },
       {
         "level": "h3",
-        "text": "Is the chef employed by myCHEF or by me?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I try a part-time chef before committing?"
-      },
-      {
-        "level": "h3",
-        "text": "What if the chef is unavailable one week?"
-      },
-      {
-        "level": "h3",
-        "text": "Nearby pages"
+        "text": "A full-day chef, five days a week"
       },
       {
         "level": "h2",
-        "text": "Build the two-or-three-day plan"
+        "text": "Details that make the occasion."
+      },
+      {
+        "level": "h3",
+        "text": "A table set on deck"
+      },
+      {
+        "level": "h3",
+        "text": "Food with attention to detail"
+      },
+      {
+        "level": "h3",
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Before your first visit."
+      },
+      {
+        "level": "h3",
+        "text": "Can I book just one day a week?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this the same as meal delivery?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I change my cooking days?"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s make room for good food."
+      },
+      {
+        "level": "h2",
+        "text": "Get the right help on the days that matter most"
+      },
+      {
+        "level": "h2",
+        "text": "Choose your priority before you choose your frequency"
+      },
+      {
+        "level": "h2",
+        "text": "Make a shorter visit count"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the right balance of cooking days"
+      },
+      {
+        "level": "h2",
+        "text": "Help your chef understand the kitchen before arrival"
+      },
+      {
+        "level": "h2",
+        "text": "Decide what should be cooked now and finished later"
+      },
+      {
+        "level": "h2",
+        "text": "Use portion feedback to improve the next visit"
+      },
+      {
+        "level": "h2",
+        "text": "Compare what the price includes, line by line"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

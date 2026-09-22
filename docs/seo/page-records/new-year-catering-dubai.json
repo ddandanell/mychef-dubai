@@ -49,31 +49,43 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/NewYearCatering.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2613,
-    "current_word_count": 2609,
+    "current_word_count": 3206,
     "headings": [
       {
         "level": "h2",
-        "text": "New Year catering Dubai: timed to midnight, not to a restaurant sitting"
+        "text": "New Year catering Dubai, planned around the countdown"
       },
       {
         "level": "h2",
-        "text": "Hosts who do not want to run the kitchen at midnight"
+        "text": "Celebrate with your guests throughout the evening"
       },
       {
         "level": "h2",
@@ -266,6 +278,26 @@
       {
         "level": "h2",
         "text": "Send the date, the headcount and the address"
+      },
+      {
+        "level": "h2",
+        "text": "Plan hospitality across the whole evening"
+      },
+      {
+        "level": "h2",
+        "text": "Plan around the occasion and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Give beverages their own service plan"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

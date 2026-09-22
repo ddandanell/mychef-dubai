@@ -33,23 +33,59 @@
   },
   "source_files": [
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/BlogCategoryHub.tsx"
+    "src/pages/BlogCategoryHub.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 221,
-    "current_word_count": 210,
+    "current_word_count": 460,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Luxury Private Dining Experiences Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Private Chefs for Villas in Dubai: What to Compare"
       },
       {
         "level": "h3",

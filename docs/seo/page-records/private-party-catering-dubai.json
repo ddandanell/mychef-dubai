@@ -50,29 +50,42 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privatePartyPage.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/PrivatePartyCatering.tsx"
+    "src/pages/PrivatePartyCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2090,
-    "current_word_count": 2070,
+    "current_word_count": 2716,
     "headings": [
       {
         "level": "h2",
-        "text": "A house party, not a second events hub."
+        "text": "A private celebration shaped around your home"
       },
       {
         "level": "h3",
@@ -180,7 +193,7 @@
       },
       {
         "level": "h2",
-        "text": "Parties we have already run"
+        "text": "Ideas for your next private party"
       },
       {
         "level": "h3",
@@ -220,7 +233,7 @@
       },
       {
         "level": "h3",
-        "text": "Is this the same as event catering, luxury catering or an engagement?"
+        "text": "What kinds of private parties can you cater?"
       },
       {
         "level": "h3",
@@ -232,7 +245,7 @@
       },
       {
         "level": "h3",
-        "text": "Is an anniversary on this page?"
+        "text": "Can you cater an anniversary party at home?"
       },
       {
         "level": "h3",
@@ -249,6 +262,38 @@
       {
         "level": "h2",
         "text": "Date, address and guest count is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Let the house and guest list guide the format"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
       },
       {
         "level": "h2",
@@ -296,7 +341,18 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/dinner-party-timeline-dubai",
+        "anchor": "Dinner Party Timeline in Dubai: A Host’s Guide",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/outdoor-villa-catering-kitchen-dubai",
+        "anchor": "Outdoor Villa Catering Kitchen Planning in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

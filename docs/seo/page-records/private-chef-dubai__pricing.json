@@ -30,10 +30,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai Price | AED 750–1,500 | Monthly Plans | myCHEF",
-    "description": "Private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day. Groceries at receipts. VAT 5%. Build your month.",
+    "title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
+    "description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire.",
     "h1": [
-      "Private Chef Dubai Price — AED 750/visit, monthly plans from AED 3,000"
+      "Private Chef Dubai Price. Clear from the start."
     ]
   },
   "metadata_source": "local production prerender",
@@ -45,11 +45,15 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
-    "src/components/LocationStrip.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/private-chef/pricing/PlanForm.tsx",
     "src/components/private-chef/pricing/PlanSheet.tsx",
     "src/components/private-chef/pricing/PlanSummary.tsx",
@@ -65,16 +69,20 @@
     "src/components/ui/drawer.tsx",
     "src/components/ui/popover.tsx",
     "src/components/ui/tooltip.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPlanTerms.ts",
     "src/content/privateChefPricing.ts",
-    "src/content/privateChefStandard.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
-    "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -82,69 +90,19 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/PrivateChefPrices.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4491,
-    "current_word_count": 4479,
+    "current_word_count": 3847,
     "headings": [
       {
         "level": "h2",
-        "text": "A full-day chef from AED 1,040 a day"
-      },
-      {
-        "level": "h3",
-        "text": "How and when you are charged"
-      },
-      {
-        "level": "h2",
-        "text": "The private chef Dubai price is one number per job"
-      },
-      {
-        "level": "h3",
-        "text": "Four days a week, Kitchen on Autopilot: 16 visits"
-      },
-      {
-        "level": "h2",
-        "text": "What the price covers, every visit"
-      },
-      {
-        "level": "h3",
-        "text": "One price, one person, no upgrade path"
-      },
-      {
-        "level": "h2",
-        "text": "What moves the private chef cost Dubai households actually pay"
-      },
-      {
-        "level": "h3",
-        "text": "Which job"
-      },
-      {
-        "level": "h3",
-        "text": "How many days"
-      },
-      {
-        "level": "h3",
-        "text": "Groceries"
-      },
-      {
-        "level": "h3",
-        "text": "People in your home"
-      },
-      {
-        "level": "h3",
-        "text": "Time that runs over"
-      },
-      {
-        "level": "h3",
-        "text": "Where you are"
-      },
-      {
-        "level": "h2",
-        "text": "A chef in your home several days a week. Build the plan and see the monthly figure"
+        "text": "Your private chef Dubai price, explained."
       },
       {
         "level": "h2",
@@ -153,6 +111,26 @@
       {
         "level": "h3",
         "text": "Send this plan to myCHEF."
+      },
+      {
+        "level": "h2",
+        "text": "A little help. Or the whole kitchen."
+      },
+      {
+        "level": "h3",
+        "text": "Fresh Meal"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Food Prep"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen on Autopilot"
+      },
+      {
+        "level": "h3",
+        "text": "Full-Day Private Chef"
       },
       {
         "level": "h2",
@@ -228,91 +206,67 @@
       },
       {
         "level": "h2",
-        "text": "One night with guests is catering, and it is priced per person"
+        "text": "A few pricing questions."
+      },
+      {
+        "level": "h3",
+        "text": "What is included in the service fee?"
+      },
+      {
+        "level": "h3",
+        "text": "Are groceries and VAT included?"
+      },
+      {
+        "level": "h3",
+        "text": "Why do longer arrangements cost less per visit?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I book for a holiday or short stay?"
+      },
+      {
+        "level": "h3",
+        "text": "Is this a price for a one-off dinner party?"
       },
       {
         "level": "h2",
-        "text": "If the brief is one night, start here"
-      },
-      {
-        "level": "h3",
-        "text": "Private Chef Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Dubai Catering Prices Guide"
-      },
-      {
-        "level": "h3",
-        "text": "Catering Cost Calculator"
-      },
-      {
-        "level": "h3",
-        "text": "How to Choose a Caterer"
+        "text": "Let’s find the right plan for your home."
       },
       {
         "level": "h2",
-        "text": "Private Chef Dubai Price: the questions we get before a booking"
-      },
-      {
-        "level": "h3",
-        "text": "What is the private chef Dubai price for a household?"
-      },
-      {
-        "level": "h3",
-        "text": "How much is a private chef in Dubai per month?"
-      },
-      {
-        "level": "h3",
-        "text": "What does the private chef Dubai price per day cover?"
-      },
-      {
-        "level": "h3",
-        "text": "Is a part-time cook for home in Dubai less than a full-time hire?"
-      },
-      {
-        "level": "h3",
-        "text": "What if I want a private chef for a dinner party?"
-      },
-      {
-        "level": "h3",
-        "text": "Do I have to employ the chef?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I move or cancel a visit?"
-      },
-      {
-        "level": "h3",
-        "text": "What happens when a day runs long?"
-      },
-      {
-        "level": "h3",
-        "text": "Do I have to buy the groceries?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I change my chef?"
-      },
-      {
-        "level": "h3",
-        "text": "How long is the commitment?"
-      },
-      {
-        "level": "h3",
-        "text": "Is weekly meal prep lower per meal than cooking every day?"
-      },
-      {
-        "level": "h3",
-        "text": "Private chef prices by Dubai location"
+        "text": "Understand the service behind your private chef price"
       },
       {
         "level": "h2",
-        "text": "Get an exact household figure"
+        "text": "Use the calculator to compare a starting arrangement"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Compare what the price includes, line by line"
+      },
+      {
+        "level": "h2",
+        "text": "Spend on the parts of the experience you value most"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the right balance of cooking days"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

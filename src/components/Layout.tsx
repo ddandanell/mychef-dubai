@@ -7,6 +7,7 @@ import SiloTrail from './SiloTrail'
 import SiloChildren from './SiloChildren'
 import Footer from './Footer'
 import SiloSection from './SiloSection'
+import BlogPlanningLinks from './BlogPlanningLinks'
 import FloatingChefChat from './FloatingChefChat'
 import SeoHead from './SeoHead'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
@@ -51,6 +52,7 @@ export default function Layout({ children }: LayoutProps) {
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           {!isHome && !isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
+          <BlogPlanningLinks />
           {!isHome && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>
         {!isHome && !isChefDesignPage(pathname) && <SiloSection />}

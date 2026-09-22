@@ -44,10 +44,22 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/chefInquiry.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
@@ -56,12 +68,13 @@
     "src/lib/utils.ts",
     "src/pages/chefs/ChefLayla.tsx",
     "src/pages/chefs/ChefProfile.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 352,
-    "current_word_count": 316,
+    "current_word_count": 1729,
     "headings": [
       {
         "level": "h2",
@@ -97,7 +110,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Bring a personal direction to a Middle Eastern menu"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us which traditions and dishes matter to you"
+      },
+      {
+        "level": "h2",
+        "text": "Build a sharing table with contrast and balance"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Make ingredient requirements clear throughout the menu"
+      },
+      {
+        "level": "h2",
+        "text": "Match the service to the way your guests gather"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

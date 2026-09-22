@@ -37,29 +37,42 @@
   "source_files": [
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/private-chef/ClusterCTA.tsx",
     "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/FillFrame.tsx",
     "src/components/private-chef/QuotePair.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPage.ts",
     "src/content/privateChefPlanTerms.ts",
     "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/private-chef/HowYourPlanWorks.tsx"
+    "src/pages/private-chef/HowYourPlanWorks.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1287,
-    "current_word_count": 3956,
+    "current_word_count": 5368,
     "headings": [
       {
         "level": "h2",
@@ -332,6 +345,42 @@
       {
         "level": "h2",
         "text": "Design the service. We confirm the chef."
+      },
+      {
+        "level": "h2",
+        "text": "Keep your chef plan useful as home life changes"
+      },
+      {
+        "level": "h2",
+        "text": "Make changes before they become last-minute requests"
+      },
+      {
+        "level": "h2",
+        "text": "Plan household cooking around travel and changing weeks"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your preferences into a useful food profile"
+      },
+      {
+        "level": "h2",
+        "text": "Use portion feedback to improve the next visit"
+      },
+      {
+        "level": "h2",
+        "text": "Discuss continuity before your routine depends on it"
+      },
+      {
+        "level": "h2",
+        "text": "End the visit with a clear kitchen handover"
+      },
+      {
+        "level": "h2",
+        "text": "Make feedback specific enough to act on"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

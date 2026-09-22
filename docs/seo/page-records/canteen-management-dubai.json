@@ -27,8 +27,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Canteen Management Dubai | Food, Not Software | myCHEF",
-    "description": "Canteen management Dubai is food, staff and a kitchen: not a POS app. Setup, staffing and a quote after we walk the room.",
+    "title": "Canteen Management Dubai | Staff Dining Services | myCHEF",
+    "description": "Canteen management Dubai with rotating menus, staffing and kitchen operations planned around your workforce and facilities. Request a tailored proposal.",
     "h1": [
       "Canteen Management Dubai"
     ]
@@ -47,58 +47,71 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/canteenManagementPage.tsx",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/CanteenManagement.tsx"
+    "src/pages/CanteenManagement.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1297,
-    "current_word_count": 1307,
+    "current_word_count": 1940,
     "headings": [
       {
         "level": "h2",
-        "text": "Canteen management Dubai is food, not a till app."
+        "text": "Canteen management Dubai for your site and workforce"
       },
       {
         "level": "h2",
-        "text": "Setup, staffing, a cycle: then optional tech"
+        "text": "Build a complete daily dining operation"
       },
       {
         "level": "h3",
-        "text": "Walk the room before the deck"
+        "text": "Site and facilities assessment"
       },
       {
         "level": "h3",
-        "text": "People on the line"
+        "text": "A defined staffing plan"
       },
       {
         "level": "h3",
-        "text": "A cycle people finish"
+        "text": "Rotating menus"
       },
       {
         "level": "h3",
-        "text": "Three commercial models"
+        "text": "A clear commercial model"
       },
       {
         "level": "h3",
-        "text": "Cashless if you want it"
+        "text": "Ordering and payments"
       },
       {
         "level": "h3",
-        "text": "Not a weekday drop-off"
+        "text": "A considered launch"
       },
       {
         "level": "h2",
@@ -106,23 +119,23 @@
       },
       {
         "level": "h2",
-        "text": "A canteen is a food establishment"
+        "text": "Documentation and responsibilities to confirm"
       },
       {
         "level": "h2",
-        "text": "Four steps. Facilities sees the drawing."
+        "text": "Review the operating plan with your facilities team"
       },
       {
         "level": "h2",
-        "text": "How a canteen quote is built"
+        "text": "How a canteen management quote is built"
       },
       {
         "level": "h2",
-        "text": "The line is the product"
+        "text": "Explore related workplace food services"
       },
       {
         "level": "h3",
-        "text": "Office lunch without a canteen"
+        "text": "Office catering"
       },
       {
         "level": "h3",
@@ -134,7 +147,7 @@
       },
       {
         "level": "h3",
-        "text": "How culinary partners are selected"
+        "text": "Culinary partner selection"
       },
       {
         "level": "h2",
@@ -142,35 +155,31 @@
       },
       {
         "level": "h3",
-        "text": "Is this a cashless canteen system?"
+        "text": "What does canteen management include?"
       },
       {
         "level": "h3",
-        "text": "How much does canteen management cost in Dubai?"
+        "text": "How much does canteen management cost?"
       },
       {
         "level": "h3",
-        "text": "Can you set up a staff canteen from an empty room?"
+        "text": "Can you assess an empty room for a staff canteen?"
       },
       {
         "level": "h3",
-        "text": "Is this the same as office catering?"
+        "text": "How is this different from office catering?"
       },
       {
         "level": "h3",
-        "text": "Do you run school canteens?"
+        "text": "Can a school request canteen management?"
       },
       {
         "level": "h3",
-        "text": "What about outsource vs in-house?"
+        "text": "Can cashless ordering be included?"
       },
       {
         "level": "h3",
-        "text": "Will food sit next to laptops?"
-      },
-      {
-        "level": "h3",
-        "text": "How soon can you start?"
+        "text": "How soon can a service start?"
       },
       {
         "level": "h3",
@@ -179,6 +188,26 @@
       {
         "level": "h2",
         "text": "Site, covers and whether the kitchen exists"
+      },
+      {
+        "level": "h2",
+        "text": "Start with a practical assessment of the site"
+      },
+      {
+        "level": "h2",
+        "text": "Understand the workforce before setting the service"
+      },
+      {
+        "level": "h2",
+        "text": "Allocate every facility responsibility"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a commercial model with clear assumptions"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       }
     ],
     "baseline_findings": [],

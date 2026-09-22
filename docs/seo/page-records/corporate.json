@@ -51,23 +51,35 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/corporate/CorporateQuoteNeeds.tsx",
     "src/components/corporate/CorporateSiblings.tsx",
     "src/components/corporate/CorporateWorkedBudgets.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/corporatePage.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -75,12 +87,13 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/Corporate.tsx"
+    "src/pages/Corporate.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4633,
-    "current_word_count": 4436,
+    "current_word_count": 5072,
     "headings": [
       {
         "level": "h2",
@@ -212,7 +225,7 @@
       },
       {
         "level": "h2",
-        "text": "Corporate catering food that survives a mixed room"
+        "text": "Menus for a varied corporate guest list"
       },
       {
         "level": "h3",
@@ -280,7 +293,7 @@
       },
       {
         "level": "h2",
-        "text": "Itemised invoices, not a blended headline"
+        "text": "Clear, itemised proposals and invoices"
       },
       {
         "level": "h3",
@@ -348,7 +361,7 @@
       },
       {
         "level": "h2",
-        "text": "Company events we have run"
+        "text": "Ideas for your next company event"
       },
       {
         "level": "h3",
@@ -360,7 +373,7 @@
       },
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h3",
@@ -404,7 +417,7 @@
       },
       {
         "level": "h3",
-        "text": "What does a corporate catering company in Dubai actually run?"
+        "text": "What does myCHEF coordinate for a corporate booking?"
       },
       {
         "level": "h3",
@@ -433,6 +446,38 @@
       {
         "level": "h2",
         "text": "Date, venue and headcount is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Make the service straightforward to approve and run"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Office Breakfast Planning in Dubai"
       },
       {
         "level": "h2",
@@ -569,6 +614,16 @@
       {
         "url": "/blog/corporate-catering-full-service-vs-drop-off",
         "anchor": "Full service vs drop off catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/office-breakfast-planning-dubai",
+        "anchor": "Office Breakfast Planning in Dubai",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/compare-catering-quotes-dubai",
+        "anchor": "How to Compare Catering Quotes in Dubai",
         "alt_anchors": []
       }
     ],

@@ -49,39 +49,52 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/BuffetCatering.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1592,
-    "current_word_count": 1583,
+    "current_word_count": 2247,
     "headings": [
       {
         "level": "h2",
-        "text": "A buffet is a line that has to keep moving"
+        "text": "A generous buffet, thoughtfully served"
       },
       {
         "level": "h2",
-        "text": "Mixed guest lists. Rooms that cannot sit everyone at once."
+        "text": "A flexible meal for a varied guest list"
       },
       {
         "level": "h2",
-        "text": "What buffet catering Dubai has to do on the night"
+        "text": "Buffet catering Dubai: food and service planned together"
       },
       {
         "level": "h2",
-        "text": "You are buying the spread and the people who keep it"
+        "text": "What the menu and service include"
       },
       {
         "level": "h3",
@@ -109,7 +122,7 @@
       },
       {
         "level": "h2",
-        "text": "The menu has to hold"
+        "text": "Dishes selected for buffet service"
       },
       {
         "level": "h2",
@@ -117,15 +130,15 @@
       },
       {
         "level": "h2",
-        "text": "Four steps. You stay in the review."
+        "text": "From your first enquiry to a confirmed service"
       },
       {
         "level": "h2",
-        "text": "The line is set in the kitchen you already have"
+        "text": "Service planned around your venue"
       },
       {
         "level": "h2",
-        "text": "If the line is not the right tool"
+        "text": "Explore other ways to serve your guests"
       },
       {
         "level": "h3",
@@ -145,7 +158,7 @@
       },
       {
         "level": "h2",
-        "text": "Questions the page has not closed yet"
+        "text": "Questions before you book"
       },
       {
         "level": "h3",
@@ -174,6 +187,34 @@
       {
         "level": "h2",
         "text": "Date, guest count and venue is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Design the spread as a complete meal"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
       },
       {
         "level": "h2",
@@ -236,6 +277,11 @@
       {
         "url": "/buffet-vs-plated-dubai",
         "anchor": "Buffet vs plated",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/buffet-layout-planning-dubai",
+        "anchor": "Buffet Layout Planning in Dubai: A Practical Guide",
         "alt_anchors": []
       }
     ],

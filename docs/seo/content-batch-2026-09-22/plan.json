@@ -1,0 +1,380 @@
+{
+  "batch": "Five days of editorial content: three articles per day",
+  "publication": "Publish the complete batch together following the owner's instruction to get everything online.",
+  "research": "Existing DataForSEO keyword-map snapshot generated 2026-09-13; exact informational long tails checked against the snapshot and existing page ownership before drafting. A missing exact phrase is unmeasured, not zero demand. Parent-cluster volumes are context, not volumes claimed for these articles.",
+  "creative_method": "ChatGPT editorial writing and built-in image generation. All images are illustrative concepts, not photographs of completed client events.",
+  "articles": [
+    {
+      "day": 1,
+      "slug": "private-chef-kitchen-preparation-dubai",
+      "title": "Private Chef Kitchen Preparation in Dubai",
+      "primary": "private chef kitchen preparation in dubai",
+      "hub": "private-chef",
+      "category": "Household chef guides",
+      "owner": "/private-chef-dubai",
+      "demand": "private chef dubai",
+      "description": "Prepare your Dubai kitchen for a household chef: equipment photos, fridge space, groceries, access, dietary notes and a clear first-visit handover.",
+      "scene": "A calm contemporary Dubai villa kitchen prepared for a household chef's first visit: uncluttered pale stone island, a wooden board with fresh herbs and colourful vegetables, two stainless pans, neat glass food containers, daylight, no people.",
+      "related_articles": [
+        "/blog/private-chef-trial-dubai",
+        "/blog/household-menu-brief-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ],
+      "supporting_pages": [
+        "/private-chef-dubai"
+      ],
+      "related_from": [
+        "/blog/how-to-hire-a-private-chef-dubai"
+      ],
+      "image_alt": "Prepared home kitchen with vegetables, cookware and glass containers"
+    },
+    {
+      "day": 1,
+      "slug": "private-chef-trial-dubai",
+      "title": "Private Chef Trial in Dubai: What to Evaluate",
+      "primary": "private chef trial in dubai",
+      "hub": "private-chef",
+      "category": "Household chef guides",
+      "owner": "/private-chef-dubai/how-it-works",
+      "demand": "private chef dubai",
+      "description": "Evaluate a household chef trial in Dubai with a practical scorecard covering food, communication, kitchen habits, grocery clarity and useful feedback.",
+      "scene": "An intimate household chef tasting arranged on a warm oak Dubai home dining table: three modest refined dishes, roast chicken with vegetables, lentil salad and a small citrus dessert, two simple place settings, natural window light, no people.",
+      "related_articles": [
+        "/blog/private-chef-kitchen-preparation-dubai",
+        "/blog/household-menu-brief-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ],
+      "supporting_pages": [
+        "/private-chef-dubai",
+        "/private-chef-dubai/how-it-works"
+      ],
+      "related_from": [
+        "/blog/how-to-hire-a-private-chef-dubai"
+      ],
+      "image_alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert"
+    },
+    {
+      "day": 1,
+      "slug": "household-menu-brief-dubai",
+      "title": "A Household Menu Brief for Your Dubai Chef",
+      "primary": "household menu brief",
+      "hub": "private-chef",
+      "category": "Household chef guides",
+      "owner": "/private-chef-dubai",
+      "demand": "meal prep dubai",
+      "description": "Write a useful household menu brief: family preferences, weekly schedules, portions, grocery decisions, dietary requirements and a simple feedback routine.",
+      "scene": "An overhead editorial arrangement of a weekly household food plan in a Dubai kitchen, fresh vegetables and herbs beside attractive glass containers of balanced cooked meals, closed blank linen notebook and pencil, warm stone surface, no visible writing.",
+      "related_articles": [
+        "/blog/private-chef-kitchen-preparation-dubai",
+        "/blog/private-chef-trial-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ],
+      "supporting_pages": [
+        "/private-chef-dubai",
+        "/weekly-meal-prep-dubai"
+      ],
+      "related_from": [
+        "/blog/how-to-hire-a-private-chef-dubai",
+        "/blog/weekly-meal-prep-vs-full-time-chef-dubai"
+      ],
+      "image_alt": "Prepared household meals beside fresh vegetables and a planning notebook"
+    },
+    {
+      "day": 2,
+      "slug": "dinner-party-timeline-dubai",
+      "title": "Dinner Party Timeline in Dubai: A Host’s Guide",
+      "primary": "dinner party timeline in dubai",
+      "hub": "celebrations",
+      "category": "Hosting guides",
+      "owner": "/private-party-catering-dubai",
+      "demand": "casual dinner party menu ideas",
+      "description": "Build a realistic dinner-party running order for a Dubai home, from chef access and guest arrivals to speeches, dessert, clearing and contingency time.",
+      "scene": "A sophisticated Dubai villa dinner table prepared for twelve, ivory linen, low white floral arrangement, gold accents, elegant ceramic plates, water glasses, candles, dusk through tall windows, warm and welcoming, no people, no alcohol bottles.",
+      "related_articles": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ],
+      "supporting_pages": [
+        "/private-party-catering-dubai",
+        "/guide/private-dining-dubai"
+      ],
+      "related_from": [
+        "/blog/best-private-chef-birthday-dinner-dubai"
+      ],
+      "image_alt": "An evening dinner table set with ivory linen, flowers and candlelight"
+    },
+    {
+      "day": 2,
+      "slug": "office-breakfast-planning-dubai",
+      "title": "Office Breakfast Planning in Dubai",
+      "primary": "office breakfast planning in dubai",
+      "hub": "corporate",
+      "category": "Corporate planning",
+      "owner": "/breakfast-catering-dubai",
+      "demand": "breakfast catering dubai",
+      "description": "Plan an office breakfast in Dubai with an arrival-wave calculation, service layout, menu brief, coffee plan, building access checklist and meeting timeline.",
+      "scene": "A polished Dubai office breakfast station with mini savoury rolls, fruit cups, pastries and separate coffee station, bright modern meeting room with softly blurred city towers outside, clean uncluttered presentation, no logos, no people.",
+      "related_articles": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/compare-catering-quotes-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ],
+      "supporting_pages": [
+        "/breakfast-catering-dubai",
+        "/office-catering-dubai",
+        "/corporate"
+      ],
+      "related_from": [
+        "/blog/corporate-event-catering-ideas-dubai"
+      ],
+      "image_alt": "An office breakfast station with savoury rolls, fruit and pastries"
+    },
+    {
+      "day": 2,
+      "slug": "canape-reception-planning-dubai",
+      "title": "Canapé Reception Planning in Dubai",
+      "primary": "canapé reception planning in dubai",
+      "hub": "celebrations",
+      "category": "Reception planning",
+      "owner": "/canape-catering-dubai",
+      "demand": "canape catering dubai",
+      "description": "Plan a canapé reception around duration, guest movement and appetite, with worked quantity examples, service waves and a clear menu-and-staffing brief.",
+      "scene": "Close editorial food photography of a refined canapé tray on a Dubai reception console: precisely made vegetable tartlets, tiny chicken skewers and cucumber cups, appetising natural portions, shallow depth of field, soft evening light, no hands or people.",
+      "related_articles": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ],
+      "supporting_pages": [
+        "/canape-catering-dubai",
+        "/cocktail-party-catering-dubai"
+      ],
+      "related_from": [
+        "/blog/corporate-event-catering-ideas-dubai",
+        "/blog/yacht-party-menu-ideas-dubai"
+      ],
+      "image_alt": "Vegetable tartlets, chicken bites and cucumber cups on a reception tray"
+    },
+    {
+      "day": 3,
+      "slug": "three-hour-yacht-party-food-timeline-dubai",
+      "title": "A Yacht Party Food Timeline for Three Hours in Dubai",
+      "primary": "yacht party food timeline",
+      "hub": "outdoor",
+      "category": "Yacht hosting",
+      "owner": "/yachts",
+      "demand": "yacht catering dubai",
+      "description": "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes.",
+      "scene": "An elegant shaded yacht aft-deck table in Dubai with small securely arranged platters of finger food, fruit and water glasses, calm blue water and a softly blurred marina in the background, late-afternoon sunshine, no people, no prominent landmark distortions.",
+      "related_articles": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/kids-and-adults-party-menu-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ],
+      "supporting_pages": [
+        "/yachts"
+      ],
+      "related_from": [
+        "/blog/yacht-party-menu-ideas-dubai"
+      ],
+      "image_alt": "Finger food and fruit arranged on a shaded yacht dining table"
+    },
+    {
+      "day": 3,
+      "slug": "buffet-layout-planning-dubai",
+      "title": "Buffet Layout Planning in Dubai: A Practical Guide",
+      "primary": "buffet layout planning in dubai",
+      "hub": "celebrations",
+      "category": "Event layout guides",
+      "owner": "/buffet-catering-dubai",
+      "demand": "buffet catering dubai",
+      "description": "Design a buffet guests can use comfortably: queue flow, separate drinks, replenishment access, dietary service and a worked layout brief for 40 guests.",
+      "scene": "A refined indoor buffet in a Dubai villa event space, two thoughtfully separated serving tables with ceramic platters and professionally presented covered hot dishes, clear walking space, ivory linen and subtle green foliage, warm daylight, no people.",
+      "related_articles": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/canape-reception-planning-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ],
+      "supporting_pages": [
+        "/buffet-catering-dubai",
+        "/catering-dubai"
+      ],
+      "related_from": [
+        "/blog/best-kids-birthday-party-caterers-in-dubai"
+      ],
+      "image_alt": "Two buffet tables with clear guest and service space between them"
+    },
+    {
+      "day": 3,
+      "slug": "kids-and-adults-party-menu-dubai",
+      "title": "Kids and Adults Party Menu Planning in Dubai",
+      "primary": "kids and adults party menu",
+      "hub": "celebrations",
+      "category": "Birthday planning",
+      "owner": "/birthday-catering-dubai",
+      "demand": "birthday catering dubai",
+      "description": "Plan one birthday menu for children and adults with flexible portions, staggered serving, useful parent questions and a cake-to-cleanup running order.",
+      "scene": "A tasteful family birthday food table in a Dubai home, appealing small sandwiches, mild pasta cups, vegetable sticks, elegant adult savoury bites and a simple small birthday cake, muted colourful paper decorations, no text, no people.",
+      "related_articles": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ],
+      "supporting_pages": [
+        "/birthday-catering-dubai"
+      ],
+      "related_from": [
+        "/blog/best-kids-birthday-party-caterers-in-dubai"
+      ],
+      "image_alt": "A family birthday spread with small sandwiches, pasta and cake"
+    },
+    {
+      "day": 4,
+      "slug": "christmas-lunch-at-home-planning-dubai",
+      "title": "Christmas Lunch at Home in Dubai: Planning Guide",
+      "primary": "christmas lunch at home in dubai",
+      "hub": "seasonal",
+      "category": "Seasonal hosting",
+      "owner": "/christmas-catering-dubai",
+      "demand": "christmas catering dubai",
+      "description": "Plan Christmas lunch at a Dubai home around oven capacity, service time, children, a complete vegetarian plate and a clear chef-and-host division of work.",
+      "scene": "An inviting Christmas lunch table in a sunlit Dubai home, roast turkey as centrepiece with attractive vegetable sides and a separate vegetarian centrepiece, understated evergreen sprigs, cream linen and small gold ornaments, warm daylight, no snow, no people.",
+      "related_articles": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/mixed-diet-dinner-party-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ],
+      "supporting_pages": [
+        "/christmas-catering-dubai"
+      ],
+      "related_from": [],
+      "image_alt": "A festive home lunch with a roast centrepiece and vegetable dishes"
+    },
+    {
+      "day": 4,
+      "slug": "diwali-party-at-home-planning-dubai",
+      "title": "Diwali Party at Home in Dubai: A Planning Guide",
+      "primary": "diwali party at home in dubai",
+      "hub": "seasonal",
+      "category": "Seasonal hosting",
+      "owner": "/diwali-catering-dubai",
+      "demand": "diwali catering dubai",
+      "description": "Plan a Diwali gathering at home with a thoughtful menu, clearly confirmed dietary requirements, staggered arrivals, practical service stations and sweets.",
+      "scene": "An elegant Diwali hosting table in a contemporary Dubai home: beautiful vegetarian Indian savouries, small bowls of chutneys and refined mithai platters, warm brass serving details and subtle marigold flowers, small decorative lamps safely separate from food, no text, no people.",
+      "related_articles": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ],
+      "supporting_pages": [
+        "/diwali-catering-dubai"
+      ],
+      "related_from": [],
+      "image_alt": "Indian savouries and sweets arranged for a Diwali home gathering"
+    },
+    {
+      "day": 4,
+      "slug": "wedding-menu-tasting-dubai",
+      "title": "Wedding Menu Tasting in Dubai: Questions to Ask",
+      "primary": "wedding menu tasting in dubai",
+      "hub": "celebrations",
+      "category": "Wedding planning",
+      "owner": "/wedding-catering-dubai",
+      "demand": "wedding catering dubai",
+      "description": "Get more from a wedding menu tasting: compare service styles, record plate feedback, test dietary alternatives and turn decisions into an agreed menu brief.",
+      "scene": "A wedding tasting setting in an elegant Dubai dining room, three beautifully plated sample courses on ivory ceramics, two water glasses and folded napkins, subtle pale flowers, intimate natural light, no printed menus or readable text, no people.",
+      "related_articles": [
+        "/blog/compare-catering-quotes-dubai",
+        "/blog/mixed-diet-dinner-party-dubai",
+        "/blog/dinner-party-timeline-dubai"
+      ],
+      "supporting_pages": [
+        "/wedding-catering-dubai"
+      ],
+      "related_from": [
+        "/blog/wedding-catering-cost-dubai",
+        "/blog/best-wedding-catering-companies-in-dubai"
+      ],
+      "image_alt": "Sample wedding courses presented on ivory plates at an intimate tasting"
+    },
+    {
+      "day": 5,
+      "slug": "outdoor-villa-catering-kitchen-dubai",
+      "title": "Outdoor Villa Catering Kitchen Planning in Dubai",
+      "primary": "outdoor villa catering kitchen",
+      "hub": "outdoor",
+      "category": "Outdoor event planning",
+      "owner": "/private-party-catering-dubai",
+      "demand": "bbq catering dubai",
+      "description": "Plan the working kitchen behind a Dubai garden event: access routes, power questions, shaded preparation, service flow, equipment and an indoor fallback.",
+      "scene": "An elegant Dubai villa garden event at dusk with a discreet professional catering preparation station under a shaded terrace, neatly organised covered food containers and equipment, garden dining tables in background, warm lighting, no visible flames, no people.",
+      "related_articles": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ],
+      "supporting_pages": [
+        "/private-party-catering-dubai",
+        "/bbq-catering-dubai"
+      ],
+      "related_from": [],
+      "image_alt": "An organised catering station beside a villa garden dining area"
+    },
+    {
+      "day": 5,
+      "slug": "compare-catering-quotes-dubai",
+      "title": "How to Compare Catering Quotes in Dubai",
+      "primary": "compare catering quotes in dubai",
+      "hub": "corporate",
+      "category": "Booking guides",
+      "owner": "/catering-dubai",
+      "demand": "catering prices dubai",
+      "description": "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines.",
+      "scene": "An editorial still life suggesting thoughtful event planning: a clean blank cream folder, pencil, a simple small canapé plate and elegant tableware on a dark walnut Dubai dining table, understated premium style, soft directional light, no readable documents, no logos, no people.",
+      "related_articles": [
+        "/blog/office-breakfast-planning-dubai",
+        "/blog/wedding-menu-tasting-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ],
+      "supporting_pages": [
+        "/catering-dubai",
+        "/catering-packages-dubai",
+        "/corporate"
+      ],
+      "related_from": [
+        "/blog/corporate-event-catering-ideas-dubai",
+        "/blog/wedding-catering-cost-dubai"
+      ],
+      "image_alt": "An event-planning folder beside tableware and a small savoury plate"
+    },
+    {
+      "day": 5,
+      "slug": "mixed-diet-dinner-party-dubai",
+      "title": "A Mixed-Diet Dinner Party in Dubai: Menu Planning",
+      "primary": "mixed-diet dinner party in dubai",
+      "hub": "menus-dietary",
+      "category": "Menu planning",
+      "owner": "/cuisines-dubai",
+      "demand": "vegan catering dubai",
+      "description": "Build a dinner menu for mixed dietary preferences with a shared structure, equally thoughtful alternatives, clear guest questions and a careful service plan.",
+      "scene": "Two equally elegant dinner plates side by side on a contemporary Dubai home table: one vibrant mushroom and lentil main with seasonal vegetables and one grilled fish dish with matching vegetables, equal portion presence and care, warm natural light, no people, no labels.",
+      "related_articles": [
+        "/blog/household-menu-brief-dubai",
+        "/blog/kids-and-adults-party-menu-dubai",
+        "/blog/wedding-menu-tasting-dubai"
+      ],
+      "supporting_pages": [
+        "/cuisines-dubai",
+        "/vegan-catering-dubai",
+        "/vegetarian-catering-dubai"
+      ],
+      "related_from": [
+        "/blog/best-kids-birthday-party-caterers-in-dubai",
+        "/blog/vegan-catering-dubai-guide"
+      ],
+      "image_alt": "Plant-based and fish main courses presented with equal care"
+    }
+  ],
+  "published_at": "2026-09-22T19:54:39Z"
+}

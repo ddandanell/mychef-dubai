@@ -46,41 +46,54 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/engagementPage.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/EngagementCatering.tsx"
+    "src/pages/EngagementCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1582,
-    "current_word_count": 1442,
+    "current_word_count": 2012,
     "headings": [
       {
         "level": "h2",
-        "text": "What engagement party catering Dubai actually covers"
+        "text": "Engagement party catering Dubai, tailored to your celebration"
       },
       {
         "level": "h3",
-        "text": "The proposal is not this page"
+        "text": "Planning the proposal celebration"
       },
       {
         "level": "h3",
-        "text": "The wedding is not this page"
+        "text": "Looking ahead to the wedding meal"
       },
       {
         "level": "h3",
-        "text": "Two covers is not this page"
+        "text": "An intimate dinner for two"
       },
       {
         "level": "h3",
@@ -132,10 +145,6 @@
       },
       {
         "level": "h2",
-        "text": "How the night can look"
-      },
-      {
-        "level": "h2",
         "text": "Four steps. You stay with your guests."
       },
       {
@@ -181,6 +190,26 @@
       {
         "level": "h2",
         "text": "Date, address and guest count is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Bring two families together over a considered menu"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

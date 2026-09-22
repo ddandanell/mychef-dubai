@@ -32,10 +32,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Meal Prep Dubai | A Chef in Your Kitchen, AED 900 | myCHEF",
-    "description": "Weekly meal prep in Dubai: a private chef cooks a week of food in your kitchen in four hours, from AED 900. Halal-first and built around your diet.",
+    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
     "h1": [
-      "Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef"
+      "Meal Prep Dubai. A well-prepared week."
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,162 +47,181 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
-    "src/components/LocationStrip.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/HouseholdServicePage.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/WeeklyMealPrep.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 1323,
+    "current_word_count": 2118,
     "headings": [
       {
         "level": "h2",
-        "text": "Meal Prep Dubai, cooked in your kitchen"
+        "text": "Meal prep in Dubai, made in your own kitchen."
       },
       {
         "level": "h2",
-        "text": "How the chef uses the four hours"
+        "text": "The little things that make it work."
       },
       {
         "level": "h3",
-        "text": "Tell us how the house eats"
+        "text": "A menu for your week"
       },
       {
         "level": "h3",
-        "text": "Menu from the Food Profile"
+        "text": "Prepared and portioned"
       },
       {
         "level": "h3",
-        "text": "Shop and cook in your kitchen"
+        "text": "Storage that makes sense"
       },
       {
         "level": "h3",
-        "text": "Portion and label"
-      },
-      {
-        "level": "h3",
-        "text": "Kitchen handed back"
+        "text": "A kitchen left ready"
       },
       {
         "level": "h2",
-        "text": "Once a week, or twice"
+        "text": "A chef in your kitchen. A team behind the details."
       },
       {
         "level": "h3",
-        "text": "Once a week"
+        "text": "Menus that fit your home"
       },
       {
         "level": "h3",
-        "text": "Twice a week"
+        "text": "A considered chef match"
+      },
+      {
+        "level": "h3",
+        "text": "Ongoing coordination"
+      },
+      {
+        "level": "h3",
+        "text": "A kitchen left in order"
       },
       {
         "level": "h2",
-        "text": "A fridge full of this house’s food"
+        "text": "Choose the service that fits."
       },
       {
         "level": "h3",
-        "text": "The week is cooked, then the chef leaves"
+        "text": "One fresh meal each week"
       },
       {
         "level": "h3",
-        "text": "Healthy means this house’s version"
+        "text": "Weekly food preparation"
       },
       {
         "level": "h3",
-        "text": "Cooked here, not shipped frozen"
-      },
-      {
-        "level": "h3",
-        "text": "Halal by default, allergens labelled"
-      },
-      {
-        "level": "h3",
-        "text": "The menu changes with the house"
-      },
-      {
-        "level": "h3",
-        "text": "Kitchen left as found"
+        "text": "A full-day chef, five days a week"
       },
       {
         "level": "h2",
-        "text": "When four hours a week is enough"
+        "text": "Details that make the occasion."
       },
       {
         "level": "h3",
-        "text": "Families who want the week cooked"
+        "text": "A table set on deck"
       },
       {
         "level": "h3",
-        "text": "Households that do not want a chef all day"
+        "text": "Food with attention to detail"
       },
       {
         "level": "h3",
-        "text": "Training weeks"
-      },
-      {
-        "level": "h3",
-        "text": "Allergies and refusals"
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "Food cooked for the week, not for a photograph"
+        "text": "Before your first visit."
+      },
+      {
+        "level": "h3",
+        "text": "How long is a food preparation session?"
+      },
+      {
+        "level": "h3",
+        "text": "How many meals will I get?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you deliver meal boxes?"
       },
       {
         "level": "h2",
-        "text": "Questions before a weekly Food Prep booking"
-      },
-      {
-        "level": "h3",
-        "text": "What is included in weekly meal prep?"
-      },
-      {
-        "level": "h3",
-        "text": "How much does weekly meal prep cost in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I choose the cuisines each week?"
-      },
-      {
-        "level": "h3",
-        "text": "Is the food halal and suitable for allergies?"
-      },
-      {
-        "level": "h3",
-        "text": "Do I need to be home during the prep session?"
-      },
-      {
-        "level": "h3",
-        "text": "Is weekly meal prep healthy?"
-      },
-      {
-        "level": "h3",
-        "text": "If the week needs more than prep"
-      },
-      {
-        "level": "h3",
-        "text": "Weekly meal prep across Dubai"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "Start the weekly Food Prep plan"
+        "text": "A fridge that supports the week you actually have"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Build a meal plan around real eating occasions"
+      },
+      {
+        "level": "h2",
+        "text": "Decide what should be cooked now and finished later"
+      },
+      {
+        "level": "h2",
+        "text": "Use portion feedback to improve the next visit"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the menu interesting without making it complicated"
+      },
+      {
+        "level": "h2",
+        "text": "Build one menu around different family appetites"
+      },
+      {
+        "level": "h2",
+        "text": "End the visit with a clear kitchen handover"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
       }
     ],
     "baseline_findings": [],
@@ -247,7 +266,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/household-menu-brief-dubai",
+        "anchor": "A Household Menu Brief for Your Dubai Chef",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

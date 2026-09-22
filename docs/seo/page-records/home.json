@@ -35,6 +35,7 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/BlogPlanningLinks.tsx",
     "src/components/Layout.tsx",
     "src/components/SEO.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -42,6 +43,7 @@
     "src/components/catering/CateringEditorial.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPlanningLinks.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",

@@ -38,23 +38,38 @@
   },
   "source_files": [
     "blog/data/best-private-cooking-class-experiences-in-dubai.json",
+    "src/components/BlogRelated.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-cooking-class-experiences-in-dubai.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/RyzeArticlePage.tsx"
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1772,
-    "current_word_count": 458,
+    "current_word_count": 2058,
     "headings": [
       {
         "level": "h2",
@@ -82,7 +97,59 @@
       },
       {
         "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a private cooking class that matches your curiosity"
+      },
+      {
+        "level": "h2",
+        "text": "Define the takeaway before choosing the menu"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a cooking lesson you will use again"
+      },
+      {
+        "level": "h2",
+        "text": "Let an Italian menu follow a natural sequence"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Help your chef understand the kitchen before arrival"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "Compare what the price includes, line by line"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

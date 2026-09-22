@@ -34,7 +34,7 @@
     "title": "Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF",
     "description": "Proposal dinner Dubai with a private chef, a menu written for two, floral and photography coordination, and timing for the question. Then we clear down.",
     "h1": [
-      "Proposal Dinner Dubai"
+      "Proposal Dinner Dubai. A moment that feels like you."
     ]
   },
   "metadata_source": "local production prerender",
@@ -46,24 +46,39 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/ProposalDinner.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 835,
-    "current_word_count": 804,
+    "current_word_count": 2228,
     "headings": [
       {
         "level": "h2",
@@ -143,7 +158,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Dining Experiences"
+        "text": "Give the important moment a beautifully simple setting"
+      },
+      {
+        "level": "h2",
+        "text": "Keep one clear plan behind the surprise"
+      },
+      {
+        "level": "h2",
+        "text": "Protect the surprise with a simple timing plan"
+      },
+      {
+        "level": "h2",
+        "text": "Create an intimate dinner with room to be yourselves"
+      },
+      {
+        "level": "h2",
+        "text": "Make the table work as well as it looks"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Set expectations for discretion in your home"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

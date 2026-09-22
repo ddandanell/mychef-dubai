@@ -43,10 +43,22 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/chefInquiry.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
@@ -55,12 +67,13 @@
     "src/lib/utils.ts",
     "src/pages/chefs/ChefMarco.tsx",
     "src/pages/chefs/ChefProfile.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 325,
-    "current_word_count": 283,
+    "current_word_count": 1707,
     "headings": [
       {
         "level": "h2",
@@ -96,7 +109,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Shape an Italian menu around the way you want to dine"
+      },
+      {
+        "level": "h2",
+        "text": "Give the chef a regional or personal starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Let an Italian menu follow a natural sequence"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Design the evening around how you want to host"
+      },
+      {
+        "level": "h2",
+        "text": "Give a trial or tasting a clear purpose"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

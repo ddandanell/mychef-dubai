@@ -35,10 +35,22 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/chefInquiry.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
@@ -47,12 +59,13 @@
     "src/lib/utils.ts",
     "src/pages/chefs/ChefAhmed.tsx",
     "src/pages/chefs/ChefProfile.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 342,
-    "current_word_count": 313,
+    "current_word_count": 1744,
     "headings": [
       {
         "level": "h2",
@@ -85,6 +98,42 @@
       {
         "level": "h2",
         "text": "Ask for Ahmed"
+      },
+      {
+        "level": "h2",
+        "text": "Turn a chef profile into a well-defined dining brief"
+      },
+      {
+        "level": "h2",
+        "text": "Ask how the proposed menu will work in your setting"
+      },
+      {
+        "level": "h2",
+        "text": "Look for a chef whose strengths fit the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Plan arrival time around preparation, not just mealtime"
+      },
+      {
+        "level": "h2",
+        "text": "Give a trial or tasting a clear purpose"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

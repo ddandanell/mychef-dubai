@@ -49,12 +49,24 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -62,12 +74,13 @@
     "src/lib/utils.ts",
     "src/pages/UaeNationalDayCatering.tsx",
     "src/pages/occasion/OccasionCateringPage.tsx",
-    "src/pages/shared/ServiceLandingPage.tsx"
+    "src/pages/shared/ServiceLandingPage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 850,
+    "current_word_count": 1636,
     "headings": [
       {
         "level": "h2",
@@ -119,15 +132,11 @@
       },
       {
         "level": "h3",
-        "text": "Outdoor sittings"
+        "text": "Outdoor gatherings"
       },
       {
         "level": "h2",
-        "text": "What a staffed National Day sitting includes"
-      },
-      {
-        "level": "h2",
-        "text": "How UAE National Day catering looks in Dubai"
+        "text": "What a staffed National Day service includes"
       },
       {
         "level": "h2",
@@ -168,6 +177,30 @@
       {
         "level": "h2",
         "text": "Send the 2 December brief"
+      },
+      {
+        "level": "h2",
+        "text": "Celebrate with a menu that suits your gathering"
+      },
+      {
+        "level": "h2",
+        "text": "Plan around the occasion and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Review ingredient requirements across the whole menu"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

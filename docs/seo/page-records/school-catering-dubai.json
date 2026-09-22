@@ -47,34 +47,47 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/schoolCateringPage.tsx",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/SchoolCatering.tsx"
+    "src/pages/SchoolCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1488,
-    "current_word_count": 1495,
+    "current_word_count": 1978,
     "headings": [
       {
         "level": "h2",
-        "text": "School catering Dubai is a licensed food operation"
+        "text": "School catering Dubai, assessed for your school"
       },
       {
         "level": "h2",
-        "text": "Delivery, a line, or a managed canteen"
+        "text": "Delivery, a lunch line or a managed canteen"
       },
       {
         "level": "h3",
@@ -90,51 +103,51 @@
       },
       {
         "level": "h3",
-        "text": "Written against the rules"
+        "text": "Menus reviewed with the school"
       },
       {
         "level": "h3",
-        "text": "Halal and allergen labelling as default"
+        "text": "Clear dietary information"
       },
       {
         "level": "h3",
-        "text": "A tasting before a term"
+        "text": "A considered introduction"
       },
       {
         "level": "h2",
-        "text": "Three ways school catering Dubai is actually bought"
+        "text": "School catering Dubai: three service arrangements"
       },
       {
         "level": "h2",
-        "text": "The rules a school canteen has to survive"
+        "text": "Documentation and responsibilities to confirm"
       },
       {
         "level": "h2",
-        "text": "Four steps. The principal sees the papers."
+        "text": "A clear review process for the school team"
       },
       {
         "level": "h2",
-        "text": "How a school quote is built"
+        "text": "How a school catering quote is built"
       },
       {
         "level": "h2",
-        "text": "A parent committee can open this"
+        "text": "Plan the wider school food service"
       },
       {
         "level": "h3",
-        "text": "The 2026 rules, in English"
+        "text": "Canteen management"
       },
       {
         "level": "h3",
-        "text": "Early years are a different kitchen"
+        "text": "Nursery catering"
       },
       {
         "level": "h3",
-        "text": "If you need the room, not only the lunch"
+        "text": "Dietary requirements"
       },
       {
         "level": "h3",
-        "text": "How culinary partners are selected"
+        "text": "Culinary partner selection"
       },
       {
         "level": "h2",
@@ -142,35 +155,27 @@
       },
       {
         "level": "h3",
-        "text": "What are Dubai school canteen nutrition standards?"
+        "text": "Do you deliver lunches or operate the canteen?"
       },
       {
         "level": "h3",
-        "text": "How much do school meals cost in Dubai?"
+        "text": "How are school menus developed?"
       },
       {
         "level": "h3",
-        "text": "How do I choose a school catering company in Dubai?"
+        "text": "How are allergies considered?"
       },
       {
         "level": "h3",
-        "text": "Do you work with KHDA schools?"
+        "text": "Which documents should procurement review?"
       },
       {
         "level": "h3",
-        "text": "Can parents pre-order?"
+        "text": "Can we arrange a tasting or trial?"
       },
       {
         "level": "h3",
-        "text": "Do you cover allergens and halal?"
-      },
-      {
-        "level": "h3",
-        "text": "What is the difference between this and canteen management?"
-      },
-      {
-        "level": "h3",
-        "text": "How soon can you start?"
+        "text": "How does this relate to canteen management?"
       },
       {
         "level": "h3",
@@ -179,6 +184,26 @@
       {
         "level": "h2",
         "text": "Roll, format and days is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Plan for the pupils and the school day"
+      },
+      {
+        "level": "h2",
+        "text": "Plan the school week before the first menu"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the menu cycle clear for staff and families"
+      },
+      {
+        "level": "h2",
+        "text": "Make the lunch sitting work in practice"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       },
       {
         "level": "h2",

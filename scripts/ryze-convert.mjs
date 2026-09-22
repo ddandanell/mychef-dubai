@@ -34,6 +34,7 @@ function imageFrom(article) {
     alt: typeof article.image.alt === 'string' && article.image.alt.length > 0
       ? article.image.alt
       : article.title,
+    ...(article.image.caption ? { caption: article.image.caption } : {}),
   }
 }
 
@@ -64,6 +65,11 @@ for (const name of sourceNames) {
     published_at: source.published_at || null,
     updated_at: source.updated_at || source.published_at || null,
     status: 'published',
+    ...(source.hub ? { hub: source.hub } : {}),
+    ...(source.category ? { category: source.category } : {}),
+    ...(source.related_articles ? { related_articles: source.related_articles } : {}),
+    ...(source.related_from ? { related_from: source.related_from } : {}),
+    ...(source.supporting_pages ? { supporting_pages: source.supporting_pages } : {}),
   }
 
   articles.push(article)
@@ -85,15 +91,34 @@ const posts = activeArticles.map((article) => ({
   slug: '/blog/' + article.slug,
   title: article.title,
   excerpt: article.excerpt,
-  category: 'Guides',
+  category: article.category || 'Guides',
   image: article.image ? article.image.url : '/images/mychef-dubai-blog-hero.webp',
-  hub: /private-chef|private-dining|cooking-class/.test(article.slug) ? 'private-chef'
+  hub: article.hub || (/private-chef|private-dining|cooking-class/.test(article.slug) ? 'private-chef'
     : /corporate|drop-off/.test(article.slug) ? 'corporate'
     : /wedding|birthday|cocktail|grazing/.test(article.slug) ? 'celebrations'
     : /ramadan|iftar/.test(article.slug) ? 'seasonal'
-    : /yacht|desert|bbq/.test(article.slug) ? 'outdoor' : 'menus-dietary',
+    : /yacht|desert|bbq/.test(article.slug) ? 'outdoor' : 'menus-dietary'),
   date: formatDate(article.published_at),
 }))
+
+// Explicit editorial relationships survive every import and publish run.
+const planningLinks = {}
+const relatedOverrides = {}
+for (const article of activeArticles) {
+  const url = '/blog/' + article.slug
+  if (article.related_articles?.length) relatedOverrides[url] = article.related_articles
+  for (const parent of article.supporting_pages || []) {
+    if (redirectPaths.has(parent)) throw new Error('Redirected supporting page: ' + parent)
+    ;(planningLinks[parent] ||= []).push({ url, title: article.title, excerpt: article.excerpt })
+  }
+  for (const source of article.related_from || []) {
+    const links = relatedOverrides[source] ||= []
+    if (!links.includes(url)) links.push(url)
+  }
+}
+for (const [name, data] of Object.entries({ blogPlanningLinks: planningLinks, blogRelatedOverrides: relatedOverrides })) {
+  await writeFile(path.join(root, 'src/content', name + '.json'), JSON.stringify(data, null, 2) + '\n')
+}
 
 await writeFile(
   pathsFile,

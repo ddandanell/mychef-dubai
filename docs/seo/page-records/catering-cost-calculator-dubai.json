@@ -28,7 +28,7 @@
   },
   "metadata": {
     "title": "Catering Cost Calculator Dubai | myCHEF",
-    "description": "Catering cost calculator Dubai: same published floors as the Catering hub. Pick format, guests and staff. Estimate only. Itemised quote follows.",
+    "description": "Catering cost calculator Dubai: starting prices for each service format. Pick format, guests and staff. Estimate only. Itemised quote follows.",
     "h1": [
       "Catering Cost Calculator Dubai"
     ]
@@ -44,13 +44,25 @@
     "src/components/LocationStrip.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/cateringInquiry.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/inquiry.ts",
@@ -61,12 +73,13 @@
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
     "src/pages/CateringCostCalculator.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 448,
-    "current_word_count": 454,
+    "current_word_count": 1582,
     "headings": [
       {
         "level": "h2",
@@ -78,7 +91,7 @@
       },
       {
         "level": "h2",
-        "text": "What this calculator will not invent"
+        "text": "How to use your planning estimate"
       },
       {
         "level": "h3",
@@ -103,6 +116,38 @@
       {
         "level": "h2",
         "text": "Ready for the written figure?"
+      },
+      {
+        "level": "h2",
+        "text": "Use the estimate to clarify your priorities"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Finish with a clear handover and collection plan"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

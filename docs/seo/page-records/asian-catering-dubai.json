@@ -32,7 +32,7 @@
   },
   "metadata": {
     "title": "Asian Catering Dubai | myCHEF",
-    "description": "Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Sushi is a sibling brief. You stay a guest at your table.",
+    "description": "Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Explore a dedicated sushi service for specialist menus. You stay a guest at your table.",
     "h1": [
       "Asian Catering Dubai"
     ]
@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/AsianCatering.tsx"
+    "src/pages/AsianCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2364,
-    "current_word_count": 2370,
+    "current_word_count": 2946,
     "headings": [
       {
         "level": "h2",
-        "text": "Wok heat, dim sum, regional menus. Sushi next door."
+        "text": "Regional menus with a clear culinary direction"
       },
       {
         "level": "h2",
@@ -124,10 +136,6 @@
       },
       {
         "level": "h2",
-        "text": "A Taste of Our Asian Catering"
-      },
-      {
-        "level": "h2",
         "text": "Asian Catering Dubai: the questions we get before a booking"
       },
       {
@@ -172,7 +180,7 @@
       },
       {
         "level": "h3",
-        "text": "Will the sushi and stir-fries actually be fresh, not sitting out?"
+        "text": "How is the preparation and serving time planned?"
       },
       {
         "level": "h3",
@@ -233,6 +241,26 @@
       {
         "level": "h2",
         "text": "Send the regional split with the date"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a cuisine before choosing the courses"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

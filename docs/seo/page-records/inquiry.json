@@ -18,16 +18,14 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Get a Quote | Private Chef & Catering Dubai | myCHEF",
-    "description": "Get a tailored quote for a private chef or luxury catering in Dubai. Send your event details on WhatsApp and we will reply within 15 minutes.",
-    "h1": [
-      "Get Your Free, Tailored Quote"
-    ]
+    "title": null,
+    "description": null,
+    "h1": []
   },
-  "metadata_source": "local production prerender",
+  "metadata_source": "SEO contract; alias or route not prerendered",
   "indexation": {
-    "canonical": "https://www.mychef.ae/inquiry",
-    "robots": "noindex, follow",
+    "canonical": null,
+    "robots": null,
     "in_sitemap": false,
     "redirect_to": null
   },
@@ -35,21 +33,32 @@
     "src/components/SEO.tsx",
     "src/components/TrustBar.tsx",
     "src/components/birthday/BirthdayPrivateBrief.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/inquiry/QuoteRequestForm.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/birthdayCluster.ts",
     "src/content/birthdayExtras.ts",
     "src/content/birthdayStatement.ts",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/content/yachtCateringQuote.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/cateringInquiry.ts",
     "src/lib/inquiry.ts",
     "src/lib/jsonld.ts",
@@ -59,26 +68,14 @@
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
     "src/pages/Inquiry.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 247,
-    "current_word_count": 260,
-    "headings": [
-      {
-        "level": "h2",
-        "text": "Send a short brief"
-      },
-      {
-        "level": "h3",
-        "text": "What Happens Next?"
-      },
-      {
-        "level": "h3",
-        "text": "Prefer to Talk Directly?"
-      }
-    ],
+    "current_word_count": null,
+    "headings": [],
     "baseline_findings": [
       "F12",
       "F15",

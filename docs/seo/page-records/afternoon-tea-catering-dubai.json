@@ -49,12 +49,24 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -62,16 +74,17 @@
     "src/lib/utils.ts",
     "src/pages/AfternoonTeaCatering.tsx",
     "src/pages/occasion/OccasionCateringPage.tsx",
-    "src/pages/shared/ServiceLandingPage.tsx"
+    "src/pages/shared/ServiceLandingPage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1072,
-    "current_word_count": 1070,
+    "current_word_count": 1695,
     "headings": [
       {
         "level": "h2",
-        "text": "Afternoon tea catering Dubai, cooked at your table"
+        "text": "Afternoon tea catering Dubai for a relaxed gathering"
       },
       {
         "level": "h2",
@@ -103,7 +116,7 @@
       },
       {
         "level": "h2",
-        "text": "A sitting people can talk through"
+        "text": "An unhurried afternoon with your guests"
       },
       {
         "level": "h3",
@@ -124,10 +137,6 @@
       {
         "level": "h2",
         "text": "What a staffed afternoon tea includes"
-      },
-      {
-        "level": "h2",
-        "text": "How afternoon tea looks in a Dubai room"
       },
       {
         "level": "h2",
@@ -172,6 +181,26 @@
       {
         "level": "h2",
         "text": "Send the date and guest count"
+      },
+      {
+        "level": "h2",
+        "text": "An afternoon worth taking slowly"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Give beverages their own service plan"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

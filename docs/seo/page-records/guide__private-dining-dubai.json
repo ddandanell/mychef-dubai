@@ -29,7 +29,7 @@
     "title": "Private Dining Dubai | Planning Guide | myCHEF",
     "description": "A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs.",
     "h1": [
-      "Private Dining Dubai"
+      "Private Dining Dubai. A thoughtful guide to hosting."
     ]
   },
   "metadata_source": "local production prerender",
@@ -40,23 +40,38 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/guides/PrivateDiningGuide.tsx"
+    "src/pages/guides/PrivateDiningGuide.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1434,
-    "current_word_count": 1435,
+    "current_word_count": 2915,
     "headings": [
       {
         "level": "h2",
@@ -152,7 +167,47 @@
       },
       {
         "level": "h2",
-        "text": "More in Blog and Guides"
+        "text": "A practical guide to hosting a private dinner in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Use three decisions to give the brief direction"
+      },
+      {
+        "level": "h2",
+        "text": "Match the service to the way your guests gather"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Make the table work as well as it looks"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
       }
     ],
     "baseline_findings": [],
@@ -211,7 +266,13 @@
         ]
       }
     ],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/dinner-party-timeline-dubai",
+        "anchor": "Dinner Party Timeline in Dubai: A Host’s Guide",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [],
     "locations": [
       {

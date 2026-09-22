@@ -51,13 +51,22 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/corporate/CorporateQuoteNeeds.tsx",
     "src/components/corporate/CorporateSiblings.tsx",
     "src/components/corporate/CorporateWorkedBudgets.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateCluster.ts",
     "src/content/corporateInventory.ts",
@@ -65,10 +74,13 @@
     "src/content/corporatePackages.ts",
     "src/content/officeCateringPage.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -76,12 +88,13 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/OfficeCatering.tsx"
+    "src/pages/OfficeCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3331,
-    "current_word_count": 3274,
+    "current_word_count": 3911,
     "headings": [
       {
         "level": "h2",
@@ -97,7 +110,7 @@
       },
       {
         "level": "h3",
-        "text": "Food delivered, nobody in the room?"
+        "text": "Looking for food delivery?"
       },
       {
         "level": "h3",
@@ -181,7 +194,7 @@
       },
       {
         "level": "h2",
-        "text": "Itemised invoices, not a blended headline"
+        "text": "Clear, itemised proposals and invoices"
       },
       {
         "level": "h3",
@@ -197,7 +210,7 @@
       },
       {
         "level": "h2",
-        "text": "The repeating week, not a prepaid plan"
+        "text": "A clear arrangement for recurring office meals"
       },
       {
         "level": "h2",
@@ -245,7 +258,7 @@
       },
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h3",
@@ -302,6 +315,34 @@
       {
         "level": "h2",
         "text": "Days, office and headcount is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Create a lunch routine that works for the team"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Make the delivery handover clear"
+      },
+      {
+        "level": "h2",
+        "text": "Build a repeatable service specification"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Office Breakfast Planning in Dubai"
       },
       {
         "level": "h2",
@@ -370,6 +411,11 @@
       {
         "url": "/corporate-catering-checklist-dubai",
         "anchor": "Corporate catering checklist",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/office-breakfast-planning-dubai",
+        "anchor": "Office Breakfast Planning in Dubai",
         "alt_anchors": []
       }
     ],

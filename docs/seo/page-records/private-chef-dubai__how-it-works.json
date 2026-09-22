@@ -28,9 +28,9 @@
   },
   "metadata": {
     "title": "Managed Private Chef Service Dubai | How It Works | myCHEF",
-    "description": "See how myCHEF matches a managed private chef in Dubai: your brief, chef match, food profile, onboarding and ongoing feedback.",
+    "description": "A managed private chef service for your Dubai home. Learn how we agree your brief, match a chef, plan menus and coordinate ongoing support.",
     "h1": [
-      "A managed private chef service for your Dubai household."
+      "Managed Private Chef Service Dubai. A simpler everyday."
     ]
   },
   "metadata_source": "local production prerender",
@@ -42,197 +42,158 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
-    "src/components/FoodProfile.tsx",
-    "src/components/HouseholdManager.tsx",
     "src/components/PageHero.tsx",
-    "src/components/ProcessJourney.tsx",
     "src/components/SEO.tsx",
-    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
-    "src/components/private-chef/FillFrame.tsx",
-    "src/components/private-chef/HowItWorksProduct.tsx",
-    "src/components/private-chef/QuotePair.tsx",
-    "src/components/private-chef/WhoDoesWhatBoard.tsx",
-    "src/components/system/index.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/private-chef/SupportPage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
-    "src/content/privateChefPage.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
-    "src/content/privateChefStandard.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/private-chef/HowItWorks.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3490,
-    "current_word_count": 3483,
+    "current_word_count": 2045,
     "headings": [
       {
         "level": "h2",
-        "text": "Getting a cook in Dubai is easy. Keeping a good one is the hard part."
+        "text": "How your managed private chef service in Dubai works."
       },
       {
         "level": "h2",
-        "text": "We ask about the role — never “what level would you like?”"
+        "text": "From your brief to the first meal."
+      },
+      {
+        "level": "h3",
+        "text": "Tell us about your home"
+      },
+      {
+        "level": "h3",
+        "text": "Meet a suitable chef"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the menu and details"
+      },
+      {
+        "level": "h3",
+        "text": "Enjoy your cooking days"
+      },
+      {
+        "level": "h3",
+        "text": "Refine it together"
       },
       {
         "level": "h2",
-        "text": "How the managed household chef service runs"
+        "text": "Clear from the start."
       },
       {
         "level": "h3",
-        "text": "Tell us about your household"
+        "text": "Your Food Profile"
       },
       {
         "level": "h3",
-        "text": "We work out the role — then match a chef to it"
+        "text": "Shopping, agreed in advance"
       },
       {
         "level": "h3",
-        "text": "We build your Food Profile"
+        "text": "One place to make changes"
       },
       {
         "level": "h3",
-        "text": "They shop as agreed, cook in your kitchen, leave it handled"
-      },
-      {
-        "level": "h3",
-        "text": "We ask how it was. Then we improve"
+        "text": "Support when a chef is unavailable"
       },
       {
         "level": "h2",
-        "text": "You meet your chef before they start"
+        "text": "Your questions, answered."
+      },
+      {
+        "level": "h3",
+        "text": "What should I include in my first enquiry?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I meet the chef before the service starts?"
+      },
+      {
+        "level": "h3",
+        "text": "Will I have the same chef?"
+      },
+      {
+        "level": "h3",
+        "text": "Where can I see the price?"
       },
       {
         "level": "h2",
-        "text": "The score is not a formality."
-      },
-      {
-        "level": "h3",
-        "text": "How we keep the standard"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "Your dedicated connection. Every detail, handled."
-      },
-      {
-        "level": "h3",
-        "text": "One person for your home"
-      },
-      {
-        "level": "h3",
-        "text": "Working with the chef"
-      },
-      {
-        "level": "h3",
-        "text": "Accountability & feedback"
-      },
-      {
-        "level": "h3",
-        "text": "Experienced & trusted"
+        "text": "From a household brief to a workable cooking routine"
       },
       {
         "level": "h2",
-        "text": "The Food Profile is what travels when the chef cannot"
-      },
-      {
-        "level": "h3",
-        "text": "A household like this"
+        "text": "What happens between your enquiry and the first meal?"
       },
       {
         "level": "h2",
-        "text": "Who does what"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF"
-      },
-      {
-        "level": "h3",
-        "text": "The chef"
-      },
-      {
-        "level": "h3",
-        "text": "You"
+        "text": "Send a brief that makes the first proposal useful"
       },
       {
         "level": "h2",
-        "text": "The system is for the weeks that are not normal"
-      },
-      {
-        "level": "h3",
-        "text": "The usual chef is off"
-      },
-      {
-        "level": "h3",
-        "text": "Friday wants Japanese"
-      },
-      {
-        "level": "h3",
-        "text": "Friends on Saturday"
-      },
-      {
-        "level": "h3",
-        "text": "Seven-day coverage"
-      },
-      {
-        "level": "h3",
-        "text": "Your home changes"
-      },
-      {
-        "level": "h3",
-        "text": "You travel, then come back"
+        "text": "Look for a chef whose strengths fit the brief"
       },
       {
         "level": "h2",
-        "text": "Absence, mismatch, replacement"
-      },
-      {
-        "level": "h3",
-        "text": "On your own"
-      },
-      {
-        "level": "h3",
-        "text": "With a managed household chef service"
+        "text": "Agree how ingredients reach your kitchen"
       },
       {
         "level": "h2",
-        "text": "Managed Private Chef Service Dubai: the questions we get before a booking"
-      },
-      {
-        "level": "h3",
-        "text": "How do I get a cook in Dubai for my home?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I get a part time cook in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "What is the Food Profile?"
-      },
-      {
-        "level": "h3",
-        "text": "Do I have to manage the chef myself?"
-      },
-      {
-        "level": "h3",
-        "text": "What if the usual chef is off?"
+        "text": "Plan arrival time around preparation, not just mealtime"
       },
       {
         "level": "h2",
-        "text": "Tell us how your home eats"
+        "text": "Make the first visit a useful foundation"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Make feedback specific enough to act on"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
       }
     ],
     "baseline_findings": [],
@@ -287,7 +248,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/private-chef-trial-dubai",
+        "anchor": "Private Chef Trial in Dubai: What to Evaluate",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

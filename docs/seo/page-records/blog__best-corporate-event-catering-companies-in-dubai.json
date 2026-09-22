@@ -38,23 +38,38 @@
   },
   "source_files": [
     "blog/data/best-corporate-event-catering-companies-in-dubai.json",
+    "src/components/BlogRelated.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-corporate-event-catering-companies-in-dubai.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/RyzeArticlePage.tsx"
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1810,
-    "current_word_count": 436,
+    "current_word_count": 1899,
     "headings": [
       {
         "level": "h2",
@@ -82,7 +97,59 @@
       },
       {
         "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Office Breakfast Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Best drop-off catering services in Dubai 2026"
+      },
+      {
+        "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "How to compare the best corporate catering companies in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Use the same questions for every provider"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       }
     ],
     "baseline_findings": [

@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/household-menu-brief-dubai",
+  "path": "/blog/household-menu-brief-dubai",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": "Blog and Guides",
+  "purpose": "Write a useful household menu brief: family preferences, weekly schedules, portions, grocery decisions, dietary requirements and a simple feedback routine.",
+  "keywords": {
+    "primary": "household menu brief",
+    "secondary": [],
+    "primary_owner": "/blog/household-menu-brief-dubai",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "A Household Menu Brief for Your Dubai Chef | myCHEF",
+    "description": "Write a useful household menu brief: family preferences, weekly schedules, portions, grocery decisions, dietary requirements and a simple feedback routine.",
+    "h1": [
+      "A Household Menu Brief for Your Dubai Chef"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/household-menu-brief-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/household-menu-brief-dubai.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/household-menu-brief-dubai.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2333,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Build a household menu brief around real meals"
+      },
+      {
+        "level": "h2",
+        "text": "Keep stable preferences separate from this week’s changes"
+      },
+      {
+        "level": "h2",
+        "text": "Describe preferences with examples"
+      },
+      {
+        "level": "h2",
+        "text": "Record requirements without vague shorthand"
+      },
+      {
+        "level": "h2",
+        "text": "Map the week before choosing the dishes"
+      },
+      {
+        "level": "h2",
+        "text": "Make portion feedback practical"
+      },
+      {
+        "level": "h2",
+        "text": "Agree grocery rules once"
+      },
+      {
+        "level": "h2",
+        "text": "Include the kitchen and handover requirements"
+      },
+      {
+        "level": "h2",
+        "text": "An example profile you can adapt"
+      },
+      {
+        "level": "h2",
+        "text": "Review with a three-question routine"
+      },
+      {
+        "level": "h2",
+        "text": "When the brief should change the service"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h3",
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/blog",
+        "anchor": "Blog"
+      },
+      {
+        "url": "/blog/household-menu-brief-dubai",
+        "anchor": "A Household Menu Brief for Your Dubai Chef",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/guides",
+      "anchor": "Guides",
+      "alt_anchors": [
+        "catering checklist dubai",
+        "catering checklist"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/blog/private-chef-kitchen-preparation-dubai",
+        "anchor": "Private Chef Kitchen Preparation in Dubai",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/private-chef-trial-dubai",
+        "anchor": "Private Chef Trial in Dubai: What to Evaluate",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/mixed-diet-dinner-party-dubai",
+        "anchor": "A Mixed-Diet Dinner Party in Dubai: Menu Planning",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private Chef Dubai: a chef who comes back",
+        "alt_anchors": []
+      }
+    ],
+    "supporting_guides": [],
+    "cross_silo": [],
+    "locations": [],
+    "do_not_link": [
+      "/anniversary-catering-dubai",
+      "/asian-catering-dubai",
+      "/bachelor-party-catering-dubai",
+      "/bachelorette-party-catering-dubai",
+      "/beach-catering-dubai",
+      "/birthday-catering-package-dubai",
+      "/blog/best-catering-companies-in-dubai",
+      "/blog/best-meal-prep-services-in-dubai",
+      "/blog/best-private-chefs-in-dubai-for-home-dining",
+      "/blog/best-private-chefs-in-home-dining",
+      "/blog/desert-dinner-party-dubai",
+      "/blog/dinner-party-menu-ideas-dubai",
+      "/blog/halal-private-dining-dubai-what-to-ask",
+      "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+      "/blog/iftar-at-home-dubai",
+      "/blog/nye-party-catering-dubai",
+      "/blog/private-chef-date-night-dubai",
+      "/blog/private-chef-vs-restaurant-dubai",
+      "/blog/ramadan-iftar-catering-trends-2026",
+      "/blog/vegan-catering-dubai-guide",
+      "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/product-launch-difc",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/catering",
+      "/catering-cost-calculator",
+      "/chefs/sofia-pastry-chef",
+      "/chinese-new-year-catering-dubai",
+      "/coffee-tea-service-dubai",
+      "/corporate-catering-dubai",
+      "/corporate-meal-prep-dubai",
+      "/dairy-free-catering-dubai",
+      "/date-night-package-dubai",
+      "/dessert-cart-dubai",
+      "/dessert-table-dubai",
+      "/dubai-catering-prices",
+      "/easter-catering-dubai",
+      "/event-catering-dubai",
+      "/event-catering-prices-2026",
+      "/family-feast-package-dubai",
+      "/farewell-catering-dubai",
+      "/fathers-day-catering-dubai",
+      "/film-crew-catering-dubai",
+      "/finger-food-catering-dubai",
+      "/fitness-meal-prep-dubai",
+      "/fodmap-catering-dubai",
+      "/gluten-free-catering-dubai",
+      "/government-event-catering-dubai",
+      "/graduation-catering-dubai",
+      "/guides/event-catering-prices-2026",
+      "/halloween-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/healthy-catering-dubai",
+      "/holi-catering-dubai",
+      "/housewarming-catering-dubai",
+      "/jain-catering-dubai",
+      "/jbr",
+      "/keto-catering-dubai",
+      "/kids-birthday-catering-dubai",
+      "/kids-nutrition-chef-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/al-barari",
+      "/locations/arabian-ranches",
+      "/locations/bluewaters-island",
+      "/locations/business-bay",
+      "/locations/city-walk",
+      "/locations/downtown-dubai",
+      "/locations/dubai-creek-harbour",
+      "/locations/dubai-harbour",
+      "/locations/dubai-hills",
+      "/locations/dubai-internet-city",
+      "/locations/dubai-mall",
+      "/locations/dubai-marina",
+      "/locations/dubai-media-city",
+      "/locations/dubai-silicon-oasis",
+      "/locations/dwtc",
+      "/locations/emirates-hills",
+      "/locations/jumeirah",
+      "/locations/jumeirah-golf-estates",
+      "/locations/jumeirah-islands",
+      "/locations/jvc",
+      "/locations/mall-of-the-emirates",
+      "/locations/meydan",
+      "/locations/mirdif",
+      "/locations/palm-jumeirah",
+      "/locations/umm-suqeim",
+      "/luxury-catering-dubai",
+      "/luxury-dining-dubai",
+      "/luxury-dinner-planning-guide-dubai",
+      "/mocktail-bar-catering-dubai",
+      "/mothers-day-catering-dubai",
+      "/mystery-dining-dubai",
+      "/nut-free-catering-dubai",
+      "/oyster-bar-dubai",
+      "/party-catering-dubai",
+      "/pescatarian-catering-dubai",
+      "/picnic-catering-dubai",
+      "/pool-party-catering-dubai",
+      "/postpartum-meal-prep-dubai",
+      "/pricing",
+      "/pricing/",
+      "/private-chef-prices-dubai",
+      "/private-chef-uae",
+      "/private-chef-uae/",
+      "/private-chef/dubai/pricing",
+      "/private-chef/dubai/pricing/",
+      "/private-dining-dubai",
+      "/private-events-catering/baby-shower-catering",
+      "/private-events-catering/baby-shower-catering/",
+      "/private-jet-catering-dubai",
+      "/ramadan-catering-guide-dubai",
+      "/reunion-catering-dubai",
+      "/seo/actions.html",
+      "/seo/ai-visibility.html",
+      "/seo/analytics.html",
+      "/seo/architecture.html",
+      "/seo/ask.html",
+      "/seo/backlog.html",
+      "/seo/connections.html",
+      "/seo/dataforseo.html",
+      "/seo/demand.html",
+      "/seo/gaps.html",
+      "/seo/gsc.html",
+      "/seo/index.html",
+      "/seo/links.html",
+      "/seo/ownership",
+      "/seo/ownership.html",
+      "/seo/queue.html",
+      "/seo/report",
+      "/seo/report.html",
+      "/seo/semrush.html",
+      "/seo/settings.html",
+      "/seo/status.html",
+      "/shawarma-station-dubai",
+      "/sugar-free-catering-dubai",
+      "/suhoor-catering-dubai",
+      "/tasting-menu-dubai",
+      "/tourist-villa-chef-dubai",
+      "/uae-national-day-catering-dubai",
+      "/university-catering-dubai",
+      "/valentines-day-catering-dubai",
+      "/villa-catering-dubai",
+      "/yacht-catering-checklist-dubai",
+      "/yacht-catering-dubai",
+      "/yacht-catering-guide-dubai"
+    ]
+  }
+}

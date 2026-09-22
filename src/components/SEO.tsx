@@ -106,7 +106,7 @@ export default function SEO({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={effectiveDescription} />
       <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={schema?.['@type'] === 'Article' || schema?.['@type'] === 'BlogPosting' ? 'article' : 'website'} />
       <meta property="og:locale" content="en_AE" />
       <meta property="og:site_name" content={SITE_NAME} />
 

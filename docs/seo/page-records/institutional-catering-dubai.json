@@ -47,34 +47,47 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/institutionalCateringPage.tsx",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/InstitutionalCatering.tsx"
+    "src/pages/InstitutionalCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 896,
-    "current_word_count": 905,
+    "current_word_count": 1730,
     "headings": [
       {
         "level": "h2",
-        "text": "Institutional catering Dubai is a documented kitchen"
+        "text": "Institutional catering Dubai, planned around your organisation"
       },
       {
         "level": "h2",
-        "text": "Four sites. Four pages. One standard."
+        "text": "Four settings, each with a considered service plan"
       },
       {
         "level": "h3",
@@ -94,31 +107,31 @@
       },
       {
         "level": "h3",
-        "text": "Documented kitchens"
+        "text": "Clear documentation"
       },
       {
         "level": "h3",
-        "text": "A walk before a number"
+        "text": "A practical site assessment"
       },
       {
         "level": "h2",
-        "text": "Open the page that owns the site"
+        "text": "Find the right institutional service"
       },
       {
         "level": "h2",
-        "text": "Papers every institutional kitchen should be able to open"
+        "text": "Documentation and responsibilities to confirm"
       },
       {
         "level": "h2",
-        "text": "Four steps on every child page"
+        "text": "From the first brief to an agreed service"
       },
       {
         "level": "h2",
-        "text": "How an institutional quote is built"
+        "text": "How an institutional catering quote is built"
       },
       {
         "level": "h2",
-        "text": "Read the page that matches the site"
+        "text": "Explore the service for your setting"
       },
       {
         "level": "h3",
@@ -142,19 +155,19 @@
       },
       {
         "level": "h3",
-        "text": "Is this the same as office catering?"
+        "text": "How does institutional catering differ from office catering?"
       },
       {
         "level": "h3",
-        "text": "Do you have a from-price?"
+        "text": "How is institutional catering priced?"
       },
       {
         "level": "h3",
-        "text": "Are you on My School Food?"
+        "text": "How are provider approvals checked?"
       },
       {
         "level": "h3",
-        "text": "Which page should a school open?"
+        "text": "Which service should a school consider?"
       },
       {
         "level": "h3",
@@ -163,6 +176,30 @@
       {
         "level": "h2",
         "text": "Tell us the kind of site"
+      },
+      {
+        "level": "h2",
+        "text": "Assess the setting before proposing the service"
+      },
+      {
+        "level": "h2",
+        "text": "Write a specification your teams can use"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how dietary information moves through the service"
+      },
+      {
+        "level": "h2",
+        "text": "Evaluate the full operating cost"
+      },
+      {
+        "level": "h2",
+        "text": "Set a review rhythm from the beginning"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       }
     ],
     "baseline_findings": [],

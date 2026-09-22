@@ -49,23 +49,35 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/CocktailPartyCatering.tsx"
+    "src/pages/CocktailPartyCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1680,
-    "current_word_count": 1683,
+    "current_word_count": 2346,
     "headings": [
       {
         "level": "h2",
@@ -73,7 +85,7 @@
       },
       {
         "level": "h2",
-        "text": "Standing service, not a seated dinner"
+        "text": "Food designed for a standing reception"
       },
       {
         "level": "h3",
@@ -101,7 +113,7 @@
       },
       {
         "level": "h2",
-        "text": "Where a standing hour actually works"
+        "text": "Settings for a relaxed reception"
       },
       {
         "level": "h3",
@@ -122,10 +134,6 @@
       {
         "level": "h2",
         "text": "What the reception quote lists"
-      },
-      {
-        "level": "h2",
-        "text": "Trays and a bar in the room"
       },
       {
         "level": "h2",
@@ -233,6 +241,34 @@
       },
       {
         "level": "h2",
+        "text": "Keep food and drinks moving together"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Give beverages their own service plan"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Reception Planning in Dubai"
+      },
+      {
+        "level": "h2",
         "text": "More in Catering"
       }
     ],
@@ -278,7 +314,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/canape-reception-planning-dubai",
+        "anchor": "Canapé Reception Planning in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/private-chef-dubai",

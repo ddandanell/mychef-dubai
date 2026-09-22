@@ -30,7 +30,7 @@
     "title": "Wedding Catering Cost Dubai 2026 | myCHEF",
     "description": "Wedding catering cost Dubai, explained as three products: food-led buffets, hotel packages and chef-led villa dinners. Planning estimates, VAT and extras.",
     "h1": [
-      "Wedding Catering Cost Dubai: three products, not one ladder"
+      "Wedding Catering Cost Dubai: Prices and Planning"
     ]
   },
   "metadata_source": "local production prerender",
@@ -48,26 +48,39 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
     "src/content/weddingCluster.ts",
     "src/content/weddingCostPage.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/blog/WeddingCateringCost.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2817,
-    "current_word_count": 2827,
+    "current_word_count": 3359,
     "headings": [
       {
         "level": "h2",
@@ -103,7 +116,7 @@
       },
       {
         "level": "h3",
-        "text": "What sits outside the head-rate"
+        "text": "Costs to review beyond the food price"
       },
       {
         "level": "h2",
@@ -191,19 +204,35 @@
       },
       {
         "level": "h3",
-        "text": "Grazing Table vs Buffet Dubai: How to Choose"
+        "text": "How to Compare Catering Quotes in Dubai"
       },
       {
         "level": "h3",
-        "text": "Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book"
-      },
-      {
-        "level": "h3",
-        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+        "text": "Wedding Menu Tasting in Dubai: Questions to Ask"
       },
       {
         "level": "h2",
         "text": "Send the wedding. We will itemise it."
+      },
+      {
+        "level": "h2",
+        "text": "Turn the headline rate into a complete wedding budget"
+      },
+      {
+        "level": "h2",
+        "text": "Connect the wedding meal with the celebration around it"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

@@ -18,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Chef Selection & Matching | myCHEF",
-    "description": "How myCHEF selects and matches a chef for your Dubai household, with preferences, skill level, trial arrangements and ongoing support explained.",
+    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
+    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability.",
     "h1": [
-      "A chef matched to your household."
+      "The right chef. The right fit for your home."
     ]
   },
   "metadata_source": "local production prerender",
@@ -35,137 +35,140 @@
     "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
-    "src/components/private-chef/FillFrame.tsx",
-    "src/components/private-chef/QuotePair.tsx",
-    "src/components/system/index.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/private-chef/SupportPage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
-    "src/content/privateChefPage.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/private-chef/OurChefs.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2441,
-    "current_word_count": 2419,
+    "current_word_count": 1910,
     "headings": [
       {
         "level": "h2",
-        "text": "One chef, three levels. That is the whole system"
-      },
-      {
-        "level": "h3",
-        "text": "Level 1"
-      },
-      {
-        "level": "h3",
-        "text": "Level 2"
-      },
-      {
-        "level": "h3",
-        "text": "Level 3"
-      },
-      {
-        "level": "h3",
-        "text": "Specialists"
-      },
-      {
-        "level": "h3",
-        "text": "An Executive Chef is not automatically the best private chef for your home"
-      },
-      {
-        "level": "h3",
-        "text": "Higher does not always mean better for you"
-      },
-      {
-        "level": "h3",
-        "text": "Level and specialty are different"
+        "text": "We get to know both sides of the kitchen."
       },
       {
         "level": "h2",
-        "text": "Selection includes four entry checks, then the match"
+        "text": "Clear from the start."
+      },
+      {
+        "level": "h3",
+        "text": "Cooking that suits you"
+      },
+      {
+        "level": "h3",
+        "text": "A workable schedule"
+      },
+      {
+        "level": "h3",
+        "text": "An introduction before service"
+      },
+      {
+        "level": "h3",
+        "text": "Room to refine the match"
       },
       {
         "level": "h2",
-        "text": "A score out of 100 — half built before your kitchen, half built inside real ones"
+        "text": "Culinary skill. Thoughtful coordination."
       },
       {
         "level": "h3",
-        "text": "myCHEF Verified Quality"
+        "text": "Your chef"
       },
       {
         "level": "h3",
-        "text": "Verified Client Performance"
+        "text": "Chef assistants"
       },
       {
         "level": "h3",
-        "text": "A CV cannot create the highest level"
+        "text": "Hospitality professionals"
       },
       {
         "level": "h3",
-        "text": "What a chef says — and what we have checked"
-      },
-      {
-        "level": "h3",
-        "text": "Two of the chefs who cook in Dubai homes"
-      },
-      {
-        "level": "h3",
-        "text": "And if the chef is not right for your home?"
+        "text": "myCHEF coordination"
       },
       {
         "level": "h2",
-        "text": "The chef is matched to this house, not picked from a list"
+        "text": "Your questions, answered."
       },
       {
         "level": "h3",
-        "text": "Exceptional chefs are not a monthly subscription"
+        "text": "Can I choose a cuisine specialist?"
       },
       {
         "level": "h3",
-        "text": "Chefs in the network"
+        "text": "Can I see chef profiles?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a trial included?"
       },
       {
         "level": "h2",
-        "text": "Questions about hiring a personal chef in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "How do you select a personal chef in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "What are the chef levels?"
-      },
-      {
-        "level": "h3",
-        "text": "Will I meet the chef before they start?"
-      },
-      {
-        "level": "h3",
-        "text": "How do I hire a chef in Dubai through myCHEF?"
-      },
-      {
-        "level": "h3",
-        "text": "Do you have Indian, Japanese or Italian chefs in Dubai?"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "See the chef matched to your home"
+        "text": "A chef match that begins with your household"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "What does a good fit look like in your kitchen?"
+      },
+      {
+        "level": "h2",
+        "text": "Look for a chef whose strengths fit the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Ask about checks that relate to the proposed work"
+      },
+      {
+        "level": "h2",
+        "text": "Give a trial or tasting a clear purpose"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your preferences into a useful food profile"
+      },
+      {
+        "level": "h2",
+        "text": "Make the first visit a useful foundation"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

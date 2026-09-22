@@ -390,6 +390,58 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Brunch at home"
   }
  ],
+ "/blog/buffet-layout-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Buffet Layout Planning in Dubai: A Practical Guide"
+  }
+ ],
+ "/blog/canape-reception-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Canapé Reception Planning in Dubai"
+  }
+ ],
+ "/blog/christmas-lunch-at-home-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Christmas Lunch at Home in Dubai: Planning Guide"
+  }
+ ],
+ "/blog/compare-catering-quotes-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How to Compare Catering Quotes in Dubai"
+  }
+ ],
  "/blog/corporate-catering-full-service-vs-drop-off": [
   {
    "href": "/",
@@ -424,6 +476,32 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   }
  ],
+ "/blog/dinner-party-timeline-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Dinner Party Timeline in Dubai: A Host’s Guide"
+  }
+ ],
+ "/blog/diwali-party-at-home-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Diwali Party at Home in Dubai: A Planning Guide"
+  }
+ ],
  "/blog/dubai-school-food-rules-2026": [
   {
    "href": "/",
@@ -452,6 +530,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Grazing table vs buffet"
+  }
+ ],
+ "/blog/household-menu-brief-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "A Household Menu Brief for Your Dubai Chef"
   }
  ],
  "/blog/how-far-ahead-book-caterer-dubai": [
@@ -505,6 +596,32 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How to hire a private chef"
   }
  ],
+ "/blog/kids-and-adults-party-menu-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Kids and Adults Party Menu Planning in Dubai"
+  }
+ ],
+ "/blog/mixed-diet-dinner-party-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+  }
+ ],
  "/blog/nursery-meals-vs-packed-lunch-dubai": [
   {
    "href": "/",
@@ -531,6 +648,45 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Nut-Free Nursery Meals Dubai"
   }
  ],
+ "/blog/office-breakfast-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Office Breakfast Planning in Dubai"
+  }
+ ],
+ "/blog/outdoor-villa-catering-kitchen-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Outdoor Villa Catering Kitchen Planning in Dubai"
+  }
+ ],
+ "/blog/private-chef-kitchen-preparation-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Private Chef Kitchen Preparation in Dubai"
+  }
+ ],
  "/blog/private-chef-palm-jumeirah-guide": [
   {
    "href": "/",
@@ -548,6 +704,32 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Private dining palm jumeirah"
   }
  ],
+ "/blog/private-chef-trial-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Private Chef Trial in Dubai: What to Evaluate"
+  }
+ ],
+ "/blog/three-hour-yacht-party-food-timeline-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "A Yacht Party Food Timeline for Three Hours in Dubai"
+  }
+ ],
  "/blog/wedding-catering-cost-dubai": [
   {
    "href": "/",
@@ -563,6 +745,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Wedding catering cost"
+  }
+ ],
+ "/blog/wedding-menu-tasting-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Wedding Menu Tasting in Dubai: Questions to Ask"
   }
  ],
  "/blog/yacht-party-menu-ideas-dubai": [
@@ -2699,6 +2894,22 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Brunch at home"
   },
   {
+   "href": "/blog/buffet-layout-planning-dubai",
+   "label": "Buffet Layout Planning in Dubai: A Practical Guide"
+  },
+  {
+   "href": "/blog/canape-reception-planning-dubai",
+   "label": "Canapé Reception Planning in Dubai"
+  },
+  {
+   "href": "/blog/christmas-lunch-at-home-planning-dubai",
+   "label": "Christmas Lunch at Home in Dubai: Planning Guide"
+  },
+  {
+   "href": "/blog/compare-catering-quotes-dubai",
+   "label": "How to Compare Catering Quotes in Dubai"
+  },
+  {
    "href": "/blog/corporate-catering-full-service-vs-drop-off",
    "label": "Full service vs drop off catering"
   },
@@ -2707,12 +2918,24 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   },
   {
+   "href": "/blog/dinner-party-timeline-dubai",
+   "label": "Dinner Party Timeline in Dubai: A Host’s Guide"
+  },
+  {
+   "href": "/blog/diwali-party-at-home-planning-dubai",
+   "label": "Diwali Party at Home in Dubai: A Planning Guide"
+  },
+  {
    "href": "/blog/dubai-school-food-rules-2026",
    "label": "Dubai School Food Rules 2026"
   },
   {
    "href": "/blog/grazing-table-vs-buffet-dubai",
    "label": "Grazing table vs buffet"
+  },
+  {
+   "href": "/blog/household-menu-brief-dubai",
+   "label": "A Household Menu Brief for Your Dubai Chef"
   },
   {
    "href": "/blog/how-far-ahead-book-caterer-dubai",
@@ -2727,6 +2950,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "How to hire a private chef"
   },
   {
+   "href": "/blog/kids-and-adults-party-menu-dubai",
+   "label": "Kids and Adults Party Menu Planning in Dubai"
+  },
+  {
+   "href": "/blog/mixed-diet-dinner-party-dubai",
+   "label": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+  },
+  {
    "href": "/blog/nursery-meals-vs-packed-lunch-dubai",
    "label": "Nursery Meals vs Packed Lunch Dubai"
   },
@@ -2735,12 +2966,36 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Nut-Free Nursery Meals Dubai"
   },
   {
+   "href": "/blog/office-breakfast-planning-dubai",
+   "label": "Office Breakfast Planning in Dubai"
+  },
+  {
+   "href": "/blog/outdoor-villa-catering-kitchen-dubai",
+   "label": "Outdoor Villa Catering Kitchen Planning in Dubai"
+  },
+  {
+   "href": "/blog/private-chef-kitchen-preparation-dubai",
+   "label": "Private Chef Kitchen Preparation in Dubai"
+  },
+  {
    "href": "/blog/private-chef-palm-jumeirah-guide",
    "label": "Private dining palm jumeirah"
   },
   {
+   "href": "/blog/private-chef-trial-dubai",
+   "label": "Private Chef Trial in Dubai: What to Evaluate"
+  },
+  {
+   "href": "/blog/three-hour-yacht-party-food-timeline-dubai",
+   "label": "A Yacht Party Food Timeline for Three Hours in Dubai"
+  },
+  {
    "href": "/blog/wedding-catering-cost-dubai",
    "label": "Wedding catering cost"
+  },
+  {
+   "href": "/blog/wedding-menu-tasting-dubai",
+   "label": "Wedding Menu Tasting in Dubai: Questions to Ask"
   },
   {
    "href": "/blog/yacht-party-menu-ideas-dubai",

@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/IndianCatering.tsx"
+    "src/pages/IndianCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2324,
-    "current_word_count": 2322,
+    "current_word_count": 2916,
     "headings": [
       {
         "level": "h2",
-        "text": "Region, tandoor and chaat. Then the rest of the table."
+        "text": "Regional menus, tandoor cooking and chaat stations"
       },
       {
         "level": "h2",
@@ -117,10 +129,6 @@
       {
         "level": "h2",
         "text": "What Our Indian Catering Includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Our Indian Catering"
       },
       {
         "level": "h2",
@@ -233,6 +241,26 @@
       {
         "level": "h2",
         "text": "Send the region and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the regional dishes your guests will recognise and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Make plant-based food a complete experience"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

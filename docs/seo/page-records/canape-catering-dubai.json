@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/CanapeCatering.tsx"
+    "src/pages/CanapeCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2393,
-    "current_word_count": 2347,
+    "current_word_count": 3010,
     "headings": [
       {
         "level": "h2",
-        "text": "Canapé catering Dubai is standing food, not a dinner"
+        "text": "Canapé catering Dubai for receptions and celebrations"
       },
       {
         "level": "h2",
@@ -132,11 +144,7 @@
       },
       {
         "level": "h2",
-        "text": "What sits in the canapé quote"
-      },
-      {
-        "level": "h2",
-        "text": "Passed food in the room"
+        "text": "What your canapé proposal includes"
       },
       {
         "level": "h2",
@@ -244,6 +252,34 @@
       },
       {
         "level": "h2",
+        "text": "Create a sequence guests can enjoy while mingling"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Reception Planning in Dubai"
+      },
+      {
+        "level": "h2",
         "text": "More in Catering"
       }
     ],
@@ -296,7 +332,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/canape-reception-planning-dubai",
+        "anchor": "Canapé Reception Planning in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/private-chef-dubai",

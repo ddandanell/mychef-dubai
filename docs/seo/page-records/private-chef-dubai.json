@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai | From AED 3,000 a Month | myCHEF",
-    "description": "A regular private chef for your Dubai home. Weekly plans from AED 3,000 a month, with menus, scheduling and support tailored to your household.",
+    "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+    "description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans.",
     "h1": [
-      "Private Chef Dubai: a chef who comes back"
+      "Private Chef Dubai. Made personal."
     ]
   },
   "metadata_source": "local production prerender",
@@ -46,24 +46,27 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
-    "src/components/LocationStrip.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
-    "src/components/private-chef/FillFrame.tsx",
-    "src/components/private-chef/QuotePair.tsx",
-    "src/components/private-chef/RatesBar.tsx",
-    "src/components/system/index.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
-    "src/content/privateChefPage.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
-    "src/content/privateChefStandard.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -71,176 +74,149 @@
     "src/lib/utils.ts",
     "src/lib/whatsapp.ts",
     "src/pages/PrivateChef.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2669,
+    "current_word_count": 2620,
     "headings": [
       {
         "level": "h2",
-        "text": "What a private chef Dubai arrangement is"
+        "text": "Private Chef Dubai, on your schedule."
+      },
+      {
+        "level": "h3",
+        "text": "A few days a week"
+      },
+      {
+        "level": "h3",
+        "text": "Meals ready for later"
+      },
+      {
+        "level": "h3",
+        "text": "Your everyday kitchen"
       },
       {
         "level": "h2",
-        "text": "One night, or a chef who stays"
+        "text": "The details, thoughtfully handled."
       },
       {
         "level": "h3",
-        "text": "Standing household chef"
+        "text": "Menus that fit your home"
       },
       {
         "level": "h3",
-        "text": "One-night dinner"
+        "text": "A considered chef match"
+      },
+      {
+        "level": "h3",
+        "text": "Ongoing coordination"
+      },
+      {
+        "level": "h3",
+        "text": "A kitchen left in order"
       },
       {
         "level": "h2",
-        "text": "What would make your week easier?"
+        "text": "We learn your home. Then we get cooking."
       },
       {
         "level": "h3",
-        "text": "I want the same chef regularly"
+        "text": "Tell us about your home"
       },
       {
         "level": "h3",
-        "text": "I need meals several days a week"
+        "text": "Meet a suitable chef"
       },
       {
         "level": "h3",
-        "text": "I need meals through the day, not one dinner"
+        "text": "Agree the menu and details"
       },
       {
         "level": "h3",
-        "text": "I do not want another person to manage"
+        "text": "Enjoy your cooking days"
       },
       {
         "level": "h3",
-        "text": "I need the kitchen to keep running if they are off"
-      },
-      {
-        "level": "h3",
-        "text": "I need this for a family, a villa, or a long stay"
+        "text": "Refine it together"
       },
       {
         "level": "h2",
-        "text": "Finding a chef is easy. Keeping your kitchen running every week is the hard part."
+        "text": "Your favourites. With room to discover."
       },
       {
         "level": "h3",
-        "text": "Same chef"
+        "text": "A table everyone can enjoy"
       },
       {
         "level": "h3",
-        "text": "Managed"
-      },
-      {
-        "level": "h3",
-        "text": "Backup"
+        "text": "Thoughtful everyday choices"
       },
       {
         "level": "h2",
-        "text": "The chef cooks. We do everything around it."
+        "text": "Culinary skill. Thoughtful coordination."
+      },
+      {
+        "level": "h3",
+        "text": "Your chef"
+      },
+      {
+        "level": "h3",
+        "text": "Chef assistants"
+      },
+      {
+        "level": "h3",
+        "text": "Hospitality professionals"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF coordination"
       },
       {
         "level": "h2",
-        "text": "The detail, in five parts"
+        "text": "Details that make the occasion."
       },
       {
         "level": "h3",
-        "text": "How It Works"
+        "text": "A table set on deck"
       },
       {
         "level": "h3",
-        "text": "Our Chefs"
+        "text": "Food with attention to detail"
       },
       {
         "level": "h3",
-        "text": "Quality & Training"
-      },
-      {
-        "level": "h3",
-        "text": "Privacy & Security"
-      },
-      {
-        "level": "h3",
-        "text": "Pricing & Plans"
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "Same chef, with backup behind them"
+        "text": "A plan you can understand."
+      },
+      {
+        "level": "h3",
+        "text": "One fresh meal each week"
+      },
+      {
+        "level": "h3",
+        "text": "Weekly food preparation"
+      },
+      {
+        "level": "h3",
+        "text": "A full-day chef, five days a week"
       },
       {
         "level": "h2",
-        "text": "Your preferences are recorded in a Food Profile, helping the chef and any agreed cover understand the household."
+        "text": "A few helpful answers."
       },
       {
         "level": "h3",
-        "text": "You meet the chef before anything starts"
-      },
-      {
-        "level": "h2",
-        "text": "Choose the household rhythm"
-      },
-      {
-        "level": "h2",
-        "text": "Who we put in your kitchen"
+        "text": "What does a household private chef do?"
       },
       {
         "level": "h3",
-        "text": "Identity and credentials"
-      },
-      {
-        "level": "h3",
-        "text": "Practical assessment"
-      },
-      {
-        "level": "h3",
-        "text": "Household fit"
-      },
-      {
-        "level": "h3",
-        "text": "One contact"
-      },
-      {
-        "level": "h3",
-        "text": "After the chef has started"
-      },
-      {
-        "level": "h2",
-        "text": "What you pay depends on the chef, the days you need, and the size of your household."
-      },
-      {
-        "level": "h3",
-        "text": "Try the service without a long-term commitment"
-      },
-      {
-        "level": "h3",
-        "text": "One fresh meal a week"
-      },
-      {
-        "level": "h3",
-        "text": "Kitchen on Autopilot, five days a week"
-      },
-      {
-        "level": "h3",
-        "text": "Full-day chef, five days a week"
-      },
-      {
-        "level": "h3",
-        "text": "AED 1,500 a day. AED 1,040 this September."
-      },
-      {
-        "level": "h2",
-        "text": "Private Chef Dubai: What should I know before starting a household chef in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "What is a private chef in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I have the same chef every week?"
+        "text": "Can I have the same chef each week?"
       },
       {
         "level": "h3",
@@ -248,39 +224,75 @@
       },
       {
         "level": "h3",
-        "text": "What is the Food Profile?"
+        "text": "Can the chef shop for groceries?"
       },
       {
         "level": "h3",
-        "text": "Can the chef shop, and cook for children?"
+        "text": "Can you cook for children or accommodate allergies?"
       },
       {
         "level": "h3",
-        "text": "Can I change chefs or add a specialist?"
+        "text": "How much does the service cost?"
       },
       {
         "level": "h3",
-        "text": "Can you accommodate allergies?"
-      },
-      {
-        "level": "h3",
-        "text": "How much does a household chef cost?"
-      },
-      {
-        "level": "h3",
-        "text": "How has it been going?"
-      },
-      {
-        "level": "h3",
-        "text": "A household chef across Dubai"
+        "text": "Can I book a chef for one dinner?"
       },
       {
         "level": "h2",
-        "text": "Start the household plan"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "Everything in Private Chef"
+        "text": "A private chef in Dubai, shaped around real life"
+      },
+      {
+        "level": "h2",
+        "text": "What would you like your chef to take care of?"
+      },
+      {
+        "level": "h2",
+        "text": "Start with the meals that make your week easier"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the right balance of cooking days"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your preferences into a useful food profile"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the menu interesting without making it complicated"
+      },
+      {
+        "level": "h2",
+        "text": "Judge the service by the difference it makes at home"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
       }
     ],
     "baseline_findings": [
@@ -459,6 +471,21 @@
         "alt_anchors": [
           "private chef vs catering"
         ]
+      },
+      {
+        "url": "/blog/private-chef-kitchen-preparation-dubai",
+        "anchor": "Private Chef Kitchen Preparation in Dubai",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/private-chef-trial-dubai",
+        "anchor": "Private Chef Trial in Dubai: What to Evaluate",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/household-menu-brief-dubai",
+        "anchor": "A Household Menu Brief for Your Dubai Chef",
+        "alt_anchors": []
       }
     ],
     "cross_silo": [

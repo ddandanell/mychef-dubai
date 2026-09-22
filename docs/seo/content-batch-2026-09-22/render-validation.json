@@ -1,0 +1,186 @@
+{
+  "method": "Production React components rendered to HTML using existing SSR audit",
+  "pages": [
+    {
+      "path": "/blog/private-chef-kitchen-preparation-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/private-chef-kitchen-preparation-dubai",
+      "article_words": 2013,
+      "toc_links": 10,
+      "related_links": [
+        "/blog/private-chef-trial-dubai",
+        "/blog/household-menu-brief-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ]
+    },
+    {
+      "path": "/blog/private-chef-trial-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/private-chef-trial-dubai",
+      "article_words": 2060,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/private-chef-kitchen-preparation-dubai",
+        "/blog/household-menu-brief-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ]
+    },
+    {
+      "path": "/blog/household-menu-brief-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/household-menu-brief-dubai",
+      "article_words": 2049,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/private-chef-kitchen-preparation-dubai",
+        "/blog/private-chef-trial-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ]
+    },
+    {
+      "path": "/blog/dinner-party-timeline-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/dinner-party-timeline-dubai",
+      "article_words": 1995,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ]
+    },
+    {
+      "path": "/blog/office-breakfast-planning-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/office-breakfast-planning-dubai",
+      "article_words": 1934,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/compare-catering-quotes-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ]
+    },
+    {
+      "path": "/blog/canape-reception-planning-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/canape-reception-planning-dubai",
+      "article_words": 1853,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ]
+    },
+    {
+      "path": "/blog/three-hour-yacht-party-food-timeline-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/three-hour-yacht-party-food-timeline-dubai",
+      "article_words": 1926,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/kids-and-adults-party-menu-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ]
+    },
+    {
+      "path": "/blog/buffet-layout-planning-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/buffet-layout-planning-dubai",
+      "article_words": 1988,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/canape-reception-planning-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ]
+    },
+    {
+      "path": "/blog/kids-and-adults-party-menu-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/kids-and-adults-party-menu-dubai",
+      "article_words": 1935,
+      "toc_links": 11,
+      "related_links": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ]
+    },
+    {
+      "path": "/blog/christmas-lunch-at-home-planning-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/christmas-lunch-at-home-planning-dubai",
+      "article_words": 1927,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/mixed-diet-dinner-party-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ]
+    },
+    {
+      "path": "/blog/diwali-party-at-home-planning-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/diwali-party-at-home-planning-dubai",
+      "article_words": 1964,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/canape-reception-planning-dubai",
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/mixed-diet-dinner-party-dubai"
+      ]
+    },
+    {
+      "path": "/blog/wedding-menu-tasting-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/wedding-menu-tasting-dubai",
+      "article_words": 2002,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/compare-catering-quotes-dubai",
+        "/blog/mixed-diet-dinner-party-dubai",
+        "/blog/dinner-party-timeline-dubai"
+      ]
+    },
+    {
+      "path": "/blog/outdoor-villa-catering-kitchen-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/outdoor-villa-catering-kitchen-dubai",
+      "article_words": 1955,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/buffet-layout-planning-dubai",
+        "/blog/dinner-party-timeline-dubai",
+        "/blog/compare-catering-quotes-dubai"
+      ]
+    },
+    {
+      "path": "/blog/compare-catering-quotes-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/compare-catering-quotes-dubai",
+      "article_words": 1886,
+      "toc_links": 12,
+      "related_links": [
+        "/blog/office-breakfast-planning-dubai",
+        "/blog/wedding-menu-tasting-dubai",
+        "/blog/outdoor-villa-catering-kitchen-dubai"
+      ]
+    },
+    {
+      "path": "/blog/mixed-diet-dinner-party-dubai",
+      "h1_count": 1,
+      "canonical": "https://www.mychef.ae/blog/mixed-diet-dinner-party-dubai",
+      "article_words": 2127,
+      "toc_links": 13,
+      "related_links": [
+        "/blog/household-menu-brief-dubai",
+        "/blog/kids-and-adults-party-menu-dubai",
+        "/blog/wedding-menu-tasting-dubai"
+      ]
+    }
+  ],
+  "errors": []
+}

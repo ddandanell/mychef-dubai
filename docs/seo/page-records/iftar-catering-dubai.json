@@ -48,27 +48,39 @@
     "src/components/FaqAccordion.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/RamadanIftar.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2611,
-    "current_word_count": 2606,
+    "current_word_count": 3205,
     "headings": [
       {
         "level": "h2",
-        "text": "Maghrib is the deadline. The kitchen is not yours to run."
+        "text": "Iftar service ready for Maghrib"
       },
       {
         "level": "h2",
@@ -285,6 +297,26 @@
       {
         "level": "h2",
         "text": "Send the date, the headcount and the address"
+      },
+      {
+        "level": "h2",
+        "text": "Have the first service ready before guests need it"
+      },
+      {
+        "level": "h2",
+        "text": "Plan around the occasion and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Review ingredient requirements across the whole menu"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

@@ -45,21 +45,34 @@
     "src/components/HandoffPage.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-corporate-event-catering-ideas-dubai.json",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts"
+    "src/lib/utils.ts",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1327,
-    "current_word_count": 660,
+    "current_word_count": 1652,
     "headings": [
       {
         "level": "h2",
@@ -95,19 +108,47 @@
       },
       {
         "level": "h3",
-        "text": "Corporate Catering: Full-Service vs Drop-Off"
+        "text": "Canapé Reception Planning in Dubai"
       },
       {
         "level": "h3",
-        "text": "Best Private Cooking Classes in Dubai: What to Compare"
+        "text": "How to Compare Catering Quotes in Dubai"
       },
       {
         "level": "h3",
-        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+        "text": "Office Breakfast Planning in Dubai"
       },
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Corporate event catering ideas: Dubai venues and guest flow"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

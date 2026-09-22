@@ -45,19 +45,31 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -66,16 +78,17 @@
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
     "src/pages/ExhibitionCatering.tsx",
-    "src/pages/shared/ServiceLandingPage.tsx"
+    "src/pages/shared/ServiceLandingPage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1235,
-    "current_word_count": 1233,
+    "current_word_count": 1865,
     "headings": [
       {
         "level": "h2",
-        "text": "Exhibition catering Dubai for the stand, not a restaurant floor"
+        "text": "Exhibition catering Dubai for stand hospitality and teams"
       },
       {
         "level": "h2",
@@ -155,10 +168,6 @@
       },
       {
         "level": "h2",
-        "text": "A Taste of Our Exhibition Catering"
-      },
-      {
-        "level": "h2",
         "text": "Exhibition Catering Dubai: the questions we get before a booking"
       },
       {
@@ -196,6 +205,26 @@
       {
         "level": "h2",
         "text": "Plan Exhibition Catering That Works as Hard as Your Stand"
+      },
+      {
+        "level": "h2",
+        "text": "Keep stand hospitality practical throughout the show"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Design breaks that work within the available time"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

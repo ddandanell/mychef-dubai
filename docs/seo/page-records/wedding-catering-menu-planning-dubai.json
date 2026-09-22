@@ -49,28 +49,41 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/content/weddingCluster.ts",
     "src/content/weddingMenuPage.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/guides/WeddingMenuPlanningGuide.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2478,
-    "current_word_count": 2477,
+    "current_word_count": 3092,
     "headings": [
       {
         "level": "h2",
-        "text": "Build the menu around the wedding, not a package"
+        "text": "Build the menu around your wedding"
       },
       {
         "level": "h2",
@@ -118,7 +131,7 @@
       },
       {
         "level": "h2",
-        "text": "Indian, Arabic, Lebanese, fusion: one meal, not a food court"
+        "text": "Bring family traditions together in a balanced menu"
       },
       {
         "level": "h2",
@@ -218,7 +231,7 @@
       },
       {
         "level": "h2",
-        "text": "Drinks that are not alcohol"
+        "text": "Non-alcoholic drinks"
       },
       {
         "level": "h2",
@@ -263,6 +276,26 @@
       {
         "level": "h2",
         "text": "Send the guest list and the room"
+      },
+      {
+        "level": "h2",
+        "text": "Wedding menu planning Dubai: give each stage a purpose"
+      },
+      {
+        "level": "h2",
+        "text": "Connect the wedding meal with the celebration around it"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

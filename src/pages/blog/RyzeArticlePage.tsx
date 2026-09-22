@@ -18,7 +18,7 @@ interface RyzeArticle {
   meta_description: string
   excerpt: string
   primary_keyword: string | null
-  image: { url: string; alt: string } | null
+  image: { url: string; alt: string; caption?: string } | null
   published_at: string | null
   updated_at: string | null
   status: 'published'
@@ -110,6 +110,7 @@ export default function RyzeArticlePage() {
             </p>
           )}
 
+          {article.image?.caption && <p className="mb-6 text-xs font-inter text-gray-500">{article.image.caption}</p>}
           {content.headings.length >= 4 && <nav className="blog-article-toc" aria-label="Table of contents">
             <p>On this page</p>
             <ol>{content.headings.map(heading => <li key={heading.id}><a href={`#${heading.id}`}>{heading.title}</a></li>)}</ol>

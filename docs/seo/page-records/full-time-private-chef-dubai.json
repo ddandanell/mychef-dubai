@@ -27,10 +27,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Full Time Private Chef Dubai | No Payroll Job | myCHEF",
-    "description": "Full time private chef Dubai: four to six days a week, priced per visit. You do not employ the chef. Groceries at receipts. VAT 5%.",
+    "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you.",
     "h1": [
-      "Full Time Private Chef Dubai: most days, without employing anyone"
+      "Full Time Private Chef Dubai. Your everyday kitchen, taken care of."
     ]
   },
   "metadata_source": "local production prerender",
@@ -42,100 +42,173 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/HouseholdServicePage.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/FullTimePrivateChef.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 952,
+    "current_word_count": 2054,
     "headings": [
       {
         "level": "h2",
-        "text": "Full time private chef Dubai is days of cooking, not a person on payroll"
+        "text": "A full time private chef in Dubai, shaped around home."
       },
       {
         "level": "h2",
-        "text": "The kitchen, most days, with a system behind it"
+        "text": "The little things that make it work."
       },
       {
         "level": "h3",
-        "text": "The week, written down"
+        "text": "A rhythm for the week"
       },
       {
         "level": "h3",
-        "text": "Most days in the kitchen"
+        "text": "Food that feels familiar"
       },
       {
         "level": "h3",
-        "text": "Guests stay on this brief, until they do not"
+        "text": "A clear kitchen brief"
       },
       {
         "level": "h3",
-        "text": "Allergies in the profile"
+        "text": "Continuity and coordination"
       },
       {
         "level": "h2",
-        "text": "Four, five or six days. Same price list."
+        "text": "A chef in your kitchen. A team behind the details."
       },
       {
         "level": "h3",
-        "text": "Four days a week"
+        "text": "Menus that fit your home"
       },
       {
         "level": "h3",
-        "text": "Five days a week"
+        "text": "A considered chef match"
       },
       {
         "level": "h3",
-        "text": "Six days a week"
+        "text": "Ongoing coordination"
+      },
+      {
+        "level": "h3",
+        "text": "A kitchen left in order"
       },
       {
         "level": "h2",
-        "text": "Questions before a most-days household plan"
+        "text": "Choose the service that fits."
       },
       {
         "level": "h3",
-        "text": "How do I hire a full-time private chef through myCHEF Dubai?"
+        "text": "One fresh meal each week"
       },
       {
         "level": "h3",
-        "text": "What is the notice period for a full-time private chef?"
+        "text": "Weekly food preparation"
       },
       {
         "level": "h3",
-        "text": "Can the chef live in?"
-      },
-      {
-        "level": "h3",
-        "text": "What if the chef is sick or leaves?"
-      },
-      {
-        "level": "h3",
-        "text": "What cuisines can they cook?"
-      },
-      {
-        "level": "h3",
-        "text": "Nearby pages"
+        "text": "A full-day chef, five days a week"
       },
       {
         "level": "h2",
-        "text": "Build the most-days plan"
+        "text": "Details that make the occasion."
+      },
+      {
+        "level": "h3",
+        "text": "A table set on deck"
+      },
+      {
+        "level": "h3",
+        "text": "Food with attention to detail"
+      },
+      {
+        "level": "h3",
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Before your first visit."
+      },
+      {
+        "level": "h3",
+        "text": "Is the chef live-in?"
+      },
+      {
+        "level": "h3",
+        "text": "How many hours are in a full day?"
+      },
+      {
+        "level": "h3",
+        "text": "Can menus change each week?"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s make room for good food."
+      },
+      {
+        "level": "h2",
+        "text": "Make everyday cooking part of a calmer household routine"
+      },
+      {
+        "level": "h2",
+        "text": "A regular schedule with a defined scope"
+      },
+      {
+        "level": "h2",
+        "text": "Use a fuller cooking day with clear priorities"
+      },
+      {
+        "level": "h2",
+        "text": "Build one menu around different family appetites"
+      },
+      {
+        "level": "h2",
+        "text": "Plan arrival time around preparation, not just mealtime"
+      },
+      {
+        "level": "h2",
+        "text": "Discuss continuity before your routine depends on it"
+      },
+      {
+        "level": "h2",
+        "text": "Plan household cooking around travel and changing weeks"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

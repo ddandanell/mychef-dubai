@@ -41,24 +41,37 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/bookingTerms.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/HowItWorks.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 760,
-    "current_word_count": 745,
+    "current_word_count": 2167,
     "headings": [
       {
         "level": "h2",
@@ -98,7 +111,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Turn an idea for a meal into a clear booking"
+      },
+      {
+        "level": "h2",
+        "text": "Bring your priorities; we will discuss the practical shape"
+      },
+      {
+        "level": "h2",
+        "text": "Send a brief that makes the first proposal useful"
+      },
+      {
+        "level": "h2",
+        "text": "Plan arrival time around preparation, not just mealtime"
+      },
+      {
+        "level": "h2",
+        "text": "Help your chef understand the kitchen before arrival"
+      },
+      {
+        "level": "h2",
+        "text": "Compare what the price includes, line by line"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Make the first visit a useful foundation"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

@@ -30,7 +30,7 @@
     "title": "Chefs Table Dubai | A Tasting Menu at Home | myCHEF",
     "description": "Chefs table Dubai at home: a multi-course tasting cooked in front of 2–12 guests. Chef-led plated dining AED 700–950 per person, with clear-down.",
     "h1": [
-      "Chefs Table Dubai"
+      "Chefs Table Dubai. A front-row seat to dinner."
     ]
   },
   "metadata_source": "local production prerender",
@@ -42,25 +42,40 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/ChefsTable.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 661,
-    "current_word_count": 666,
+    "current_word_count": 2095,
     "headings": [
       {
         "level": "h2",
@@ -136,7 +151,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Dining Experiences"
+        "text": "Bring the cooking closer to the occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Interaction should add to the meal, not interrupt it"
+      },
+      {
+        "level": "h2",
+        "text": "Make the chef’s craft part of the conversation"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Help your chef understand the kitchen before arrival"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Design the evening around how you want to host"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

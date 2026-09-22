@@ -49,28 +49,40 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/christmasMenus.ts",
     "src/content/christmasWork.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/ChristmasCatering.tsx"
+    "src/pages/ChristmasCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3988,
-    "current_word_count": 3969,
+    "current_word_count": 4634,
     "headings": [
       {
         "level": "h2",
-        "text": "A chef in your kitchen on the one day you would rather not be in it"
+        "text": "Christmas dinner prepared while you enjoy the celebration"
       },
       {
         "level": "h2",
@@ -318,6 +330,34 @@
       },
       {
         "level": "h2",
+        "text": "Make room for the traditions your guests enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Plan around the occasion and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas Lunch at Home in Dubai: Planning Guide"
+      },
+      {
+        "level": "h2",
         "text": "More in Packages"
       }
     ],
@@ -363,7 +403,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/christmas-lunch-at-home-planning-dubai",
+        "anchor": "Christmas Lunch at Home in Dubai: Planning Guide",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

@@ -49,31 +49,43 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/StaffMealsCatering.tsx"
+    "src/pages/StaffMealsCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1297,
-    "current_word_count": 1283,
+    "current_word_count": 1903,
     "headings": [
       {
         "level": "h2",
@@ -121,7 +133,7 @@
       },
       {
         "level": "h3",
-        "text": "Canteen sitting"
+        "text": "Canteen service"
       },
       {
         "level": "h3",
@@ -149,7 +161,7 @@
       },
       {
         "level": "h3",
-        "text": "A canteen sitting"
+        "text": "An on-site canteen service"
       },
       {
         "level": "h3",
@@ -162,10 +174,6 @@
       {
         "level": "h2",
         "text": "What Staff Meals Catering Includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Staff Meals Catering"
       },
       {
         "level": "h2",
@@ -210,6 +218,26 @@
       {
         "level": "h2",
         "text": "Feed Your Team, Every Day"
+      },
+      {
+        "level": "h2",
+        "text": "Agree a meal plan that can be delivered consistently"
+      },
+      {
+        "level": "h2",
+        "text": "Build the meal plan around real shift patterns"
+      },
+      {
+        "level": "h2",
+        "text": "Make every delivery easy to receive"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary arrangements consistent across the week"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       },
       {
         "level": "h2",

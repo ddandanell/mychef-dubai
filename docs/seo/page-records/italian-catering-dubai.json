@@ -46,26 +46,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/ItalianCatering.tsx"
+    "src/pages/ItalianCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2133,
-    "current_word_count": 2120,
+    "current_word_count": 2734,
     "headings": [
       {
         "level": "h2",
-        "text": "Live pasta, or a plated primo. Choose one."
+        "text": "Live pasta stations and thoughtfully served courses"
       },
       {
         "level": "h2",
@@ -118,10 +130,6 @@
       {
         "level": "h2",
         "text": "What Our Italian Catering Includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Our Italian Catering"
       },
       {
         "level": "h2",
@@ -218,6 +226,26 @@
       {
         "level": "h2",
         "text": "Send live pasta or plated primo with the date"
+      },
+      {
+        "level": "h2",
+        "text": "Let a few well-chosen courses set the tone"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

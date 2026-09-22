@@ -27,7 +27,7 @@
     "title": "Catering Quality Guarantee Dubai | myCHEF",
     "description": "Catering quality guarantee Dubai: the chef is checked, the booking is written, backup is briefed from the record, and credits follow the booking terms.",
     "h1": [
-      "Catering Quality Guarantee Dubai"
+      "Catering Quality Guarantee Dubai. Clear standards and a contact who listens."
     ]
   },
   "metadata_source": "local production prerender",
@@ -39,23 +39,38 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/QualityGuarantee.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 886,
-    "current_word_count": 889,
+    "current_word_count": 2344,
     "headings": [
       {
         "level": "h2",
@@ -139,7 +154,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Trust and About"
+        "text": "Know what good service should look like on the day"
+      },
+      {
+        "level": "h2",
+        "text": "Use the agreed proposal as your reference"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "End the visit with a clear kitchen handover"
+      },
+      {
+        "level": "h2",
+        "text": "Make feedback specific enough to act on"
+      },
+      {
+        "level": "h2",
+        "text": "Judge the service by the difference it makes at home"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

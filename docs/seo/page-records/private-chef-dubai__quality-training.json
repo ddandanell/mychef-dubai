@@ -19,9 +19,9 @@
   },
   "metadata": {
     "title": "Chef Quality & Training | myCHEF",
-    "description": "How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, dietary standards, and when the match should change.",
+    "description": "A household chef arrangement should keep improving. We review the food, service and fit, and use your feedback to guide the next visit.",
     "h1": [
-      "Good on day one is not enough."
+      "Care in the kitchen. Consistency at the table."
     ]
   },
   "metadata_source": "local production prerender",
@@ -35,118 +35,120 @@
     "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
-    "src/components/private-chef/FillFrame.tsx",
-    "src/components/private-chef/QuotePair.tsx",
-    "src/components/system/index.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/private-chef/SupportPage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
-    "src/content/privateChefPage.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
-    "src/content/privateChefStandard.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/private-chef/QualityTraining.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1335,
-    "current_word_count": 1328,
+    "current_word_count": 1841,
     "headings": [
       {
         "level": "h2",
-        "text": "How the standard holds, month after month"
+        "text": "Good food is only part of good service."
       },
       {
         "level": "h2",
-        "text": "Cooking in a home is a different job"
+        "text": "Clear from the start."
+      },
+      {
+        "level": "h3",
+        "text": "Food and menu fit"
+      },
+      {
+        "level": "h3",
+        "text": "Hygiene and handling"
+      },
+      {
+        "level": "h3",
+        "text": "Respect for your household"
+      },
+      {
+        "level": "h3",
+        "text": "Feedback followed by action"
       },
       {
         "level": "h2",
-        "text": "Food, service, team, communication. Then what happens"
+        "text": "Your questions, answered."
       },
       {
         "level": "h3",
-        "text": "One score that is off"
+        "text": "How do I give feedback?"
       },
       {
         "level": "h3",
-        "text": "A repeated problem"
+        "text": "Can you cater for allergies?"
       },
       {
         "level": "h3",
-        "text": "A pattern"
-      },
-      {
-        "level": "h3",
-        "text": "What the score actually does"
-      },
-      {
-        "level": "h3",
-        "text": "One conversation, two records"
+        "text": "What if the chef is not the right fit?"
       },
       {
         "level": "h2",
-        "text": "What actually gets adjusted"
-      },
-      {
-        "level": "h3",
-        "text": "Menu"
-      },
-      {
-        "level": "h3",
-        "text": "Seasoning"
-      },
-      {
-        "level": "h3",
-        "text": "Timing"
-      },
-      {
-        "level": "h3",
-        "text": "Communication"
-      },
-      {
-        "level": "h3",
-        "text": "Organisation"
-      },
-      {
-        "level": "h3",
-        "text": "Your first week is calibration"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "Sometimes the match is simply wrong"
+        "text": "Bring clear standards to everyday cooking"
       },
       {
         "level": "h2",
-        "text": "Questions about quality, feedback and changing the match"
-      },
-      {
-        "level": "h3",
-        "text": "How do you keep quality consistent?"
-      },
-      {
-        "level": "h3",
-        "text": "What happens after a low rating?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I get a healthy food chef in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "Do you train chefs after they join?"
+        "text": "Define what a successful service means to you"
       },
       {
         "level": "h2",
-        "text": "Quality that still holds in month four"
+        "text": "Ask about checks that relate to the proposed work"
+      },
+      {
+        "level": "h2",
+        "text": "Make the first visit a useful foundation"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your preferences into a useful food profile"
+      },
+      {
+        "level": "h2",
+        "text": "End the visit with a clear kitchen handover"
+      },
+      {
+        "level": "h2",
+        "text": "Make feedback specific enough to act on"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

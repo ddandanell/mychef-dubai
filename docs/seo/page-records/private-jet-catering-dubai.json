@@ -6,7 +6,7 @@
   "role": "noindex support page",
   "page_type": "Commercial landing",
   "silo": "Packages",
-  "purpose": "Private jet catering Dubai is food coordinated to the flight: menu, packing and delivery to the FBO. We are not an airline. No published per-person floor.",
+  "purpose": "Private jet catering Dubai with menus, packing and food delivery assessed around your flight, passengers and operator-approved handover. Request a tailored quote.",
   "keywords": {
     "primary": "private jet catering dubai",
     "secondary": [
@@ -32,7 +32,7 @@
   },
   "metadata": {
     "title": "Private Jet Catering Dubai | myCHEF",
-    "description": "Private jet catering Dubai is food coordinated to the flight: menu, packing and delivery to the FBO. We are not an airline. No published per-person floor.",
+    "description": "Private jet catering Dubai with menus, packing and food delivery assessed around your flight, passengers and operator-approved handover. Request a tailored quote.",
     "h1": [
       "Private Jet Catering Dubai"
     ]
@@ -48,26 +48,39 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/PrivateJetCatering.tsx"
+    "src/pages/PrivateJetCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 340,
+    "current_word_count": 1126,
     "headings": [
       {
         "level": "h2",
-        "text": "This is not an event with a smaller room"
+        "text": "Food planned around the aircraft and journey"
       },
       {
         "level": "h2",
@@ -75,7 +88,39 @@
       },
       {
         "level": "h2",
-        "text": "We coordinate our part. We do not replace your operator"
+        "text": "Coordination with your operator or handler"
+      },
+      {
+        "level": "h2",
+        "text": "Private jet catering Dubai: begin with the flight brief"
+      },
+      {
+        "level": "h2",
+        "text": "Start with the operator-approved flight details"
+      },
+      {
+        "level": "h2",
+        "text": "Choose food around the onboard service"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm every essential passenger requirement"
+      },
+      {
+        "level": "h2",
+        "text": "Review the complete flight catering scope"
+      },
+      {
+        "level": "h2",
+        "text": "Make the receiving handover explicit"
+      },
+      {
+        "level": "h2",
+        "text": "Coordinate access through the aircraft operator"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

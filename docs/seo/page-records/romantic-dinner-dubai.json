@@ -34,7 +34,7 @@
     "title": "Romantic Dinner Dubai | Private Chef for Two | myCHEF",
     "description": "Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 1,200, table styled and kitchen cleaned.",
     "h1": [
-      "Romantic Dinner Dubai: A Private Chef, Candlelight and a Table for Two"
+      "Romantic Dinner Dubai. A table just for two."
     ]
   },
   "metadata_source": "local production prerender",
@@ -45,21 +45,37 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/pages/RomanticDinner.tsx"
+    "src/lib/utils.ts",
+    "src/pages/RomanticDinner.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1259,
-    "current_word_count": 1204,
+    "current_word_count": 2612,
     "headings": [
       {
         "level": "h2",
@@ -139,7 +155,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Dining Experiences"
+        "text": "A dinner for two that feels like your occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Personal touches work best when the plan stays simple"
+      },
+      {
+        "level": "h2",
+        "text": "Create an intimate dinner with room to be yourselves"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Make the table work as well as it looks"
+      },
+      {
+        "level": "h2",
+        "text": "Set expectations for discretion in your home"
+      },
+      {
+        "level": "h2",
+        "text": "Plan arrival time around preparation, not just mealtime"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a dessert that fits the meal and the setting"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

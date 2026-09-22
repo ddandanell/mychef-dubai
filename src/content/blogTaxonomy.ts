@@ -1,6 +1,7 @@
 import { isParked } from '@/content/parkedUrls'
 import { RYZE_BLOG_POSTS } from './ryzeBlogPosts'
 import media from './blogMedia.json'
+import relatedOverrides from './blogRelatedOverrides.json'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
@@ -526,6 +527,8 @@ export function postsInHub(hubSlug: string): BlogPost[] {
 
 /** Related posts: same-hub siblings first, then fill from the rest, excluding the current post. */
 export function relatedPosts(slug: string, n = 3): BlogPost[] {
+  const curated = (relatedOverrides as Record<string, string[]>)[slug]
+  if (curated?.length) return curated.map(path => getPost(path)).filter((post): post is BlogPost => Boolean(post) && !isParked(post!.slug)).slice(0, n)
   const current = getPost(slug)
   const siblings = current ? BLOG_POSTS.filter((p) => p.hub === current.hub && p.slug !== slug) : []
   const others = BLOG_POSTS.filter((p) => p.slug !== slug && !siblings.includes(p))

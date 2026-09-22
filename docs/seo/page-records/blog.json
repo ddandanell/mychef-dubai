@@ -34,21 +34,34 @@
   "source_files": [
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/Blog.tsx"
+    "src/pages/Blog.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1431,
-    "current_word_count": 1548,
+    "current_word_count": 2209,
     "headings": [
       {
         "level": "h2",
@@ -85,6 +98,78 @@
       {
         "level": "h2",
         "text": "Insights for Dubai Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Reception Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas Lunch at Home in Dubai: Planning Guide"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Diwali Party at Home in Dubai: A Planning Guide"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Kids and Adults Party Menu Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+      },
+      {
+        "level": "h3",
+        "text": "Office Breakfast Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h3",
+        "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Menu Tasting in Dubai: Questions to Ask"
+      },
+      {
+        "level": "h3",
+        "text": "Best cocktail party catering companies in Dubai 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best drop-off catering services in Dubai 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best desert dining catering companies in Dubai 2026"
       },
       {
         "level": "h3",
