@@ -207,21 +207,21 @@ export const YACHT_OCCASIONS_COPY = {
 
 export const YACHT_WORK = {
   label: 'Previous work',
-  h2: 'See a yacht day we already ran',
+  h2: 'A birthday celebration on the water',
   intro:
-    'These photographs show catering for a birthday on a yacht chartered by the host, with an upper-deck table, grazing selection in the salon and circulating canapés. Select an image to explore the setting.',
+    'An upper-deck dining table, a grazing selection in the salon and circulating canapés brought this birthday celebration together aboard a yacht chartered by the host.',
   how: [
     {
       title: 'The brief',
       body: 'For a smaller birthday, service can combine a table on deck with informal grazing inside. The plan follows the vessel’s layout and your guest list.',
     },
     {
-      title: 'How we load it',
+      title: 'Preparation and service',
       body: 'Most of the cooking happens on land. We load in the captain’s window, set the table and the salon, then finish and serve onboard so you are not managing trays.',
     },
     {
-      title: 'What you are looking at',
-      body: 'Gold chargers and low flowers on the upper deck. Sushi, tartlets, sliders and desserts on the salon table. Waiters replenish. We clear on the captain’s timing.',
+      title: 'The finishing details',
+      body: 'Gold chargers and low floral arrangements dress the upper-deck table, while sushi, tartlets, sliders and desserts fill the salon. Service includes replenishment and clear-down coordinated with the captain.',
     },
   ],
   note: 'Every photograph on this page is from a previous myCHEF yacht catering day. The host chartered the yacht.',

@@ -19,6 +19,12 @@
         "anchor": "Afternoon tea catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "afternoon-tea-catering-dubai-support",
+        "alt": "Afternoon tea with finger sandwiches, scones and individual pastries"
+      }
     ]
   },
   "/allergy-safe-catering-dubai": {
@@ -40,6 +46,12 @@
         "url": "/allergy-safe-catering-dubai",
         "anchor": "Allergy safe catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "allergy-safe-catering-dubai-support",
+        "alt": "Grilled fish and chicken with separate bowls of vegetables, grains and dips"
       }
     ]
   },
@@ -63,6 +75,12 @@
         "anchor": "Arabic catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "arabic-catering-dubai-support",
+        "alt": "Arabic sharing dishes with rice, grilled meat, stuffed vine leaves and pastries"
+      }
     ]
   },
   "/asian-catering-dubai": {
@@ -84,6 +102,12 @@
         "url": "/asian-catering-dubai",
         "anchor": "Asian catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "asian-catering-dubai-support",
+        "alt": "Glazed fish with greens, noodles and steamed dumplings"
       }
     ]
   },
@@ -107,6 +131,12 @@
         "anchor": "Baby shower catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "baby-shower-catering-dubai-support",
+        "alt": "Pastel miniature cakes, savoury bites and fresh fruit arranged for a celebration"
+      }
     ]
   },
   "/bar-services-dubai": {
@@ -128,6 +158,12 @@
         "url": "/bar-services-dubai",
         "anchor": "Bar services",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "bar-services-dubai-support",
+        "alt": "Canap\u00e9s beside a cucumber water dispenser and cut glass tumblers"
       }
     ]
   },
@@ -151,6 +187,12 @@
         "anchor": "BBQ catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "bbq-catering-dubai-support",
+        "alt": "Grilled lamb and chicken with colourful vegetables and fresh salads"
+      }
     ]
   },
   "/best-catering-companies-dubai": {
@@ -172,6 +214,12 @@
         "url": "/best-catering-companies-dubai",
         "anchor": "Best catering companies",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "best-catering-companies-dubai-support",
+        "alt": "Overhead arrangement of grilled chicken, salads and hummus"
       }
     ]
   },
@@ -195,6 +243,12 @@
         "anchor": "Birthday catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "birthday-catering-dubai-support",
+        "alt": "A catered buffet arranged on stone stands with plates ready for service"
+      }
     ]
   },
   "/birthday-catering-package-dubai": {
@@ -216,6 +270,12 @@
         "url": "/birthday-catering-package-dubai",
         "anchor": "Birthday catering packages",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "birthday-catering-package-dubai-support",
+        "alt": "A chef plating a main course beside a birthday table"
       }
     ]
   },
@@ -243,6 +303,12 @@
         "anchor": "Full service vs drop off catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--corporate-catering-full-service-vs-drop-off-support",
+        "alt": "Sharing platters with roast chicken, colourful vegetables and small canap\u00e9s"
+      }
     ]
   },
   "/blog/corporate-event-catering-ideas-dubai": {
@@ -268,6 +334,12 @@
         "url": "/blog/corporate-event-catering-ideas-dubai",
         "anchor": "Corporate event catering ideas",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--corporate-event-catering-ideas-dubai-support",
+        "alt": "Raised serving platters with salads, grilled dishes and canap\u00e9s"
       }
     ]
   },
@@ -295,6 +367,12 @@
         "anchor": "How far in advance to book a caterer",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--how-far-ahead-book-caterer-dubai-support",
+        "alt": "Lamb cutlets with vegetables and salads on a linen-covered table"
+      }
     ]
   },
   "/blog/nye-party-catering-dubai": {
@@ -320,6 +398,12 @@
         "url": "/blog/nye-party-catering-dubai",
         "anchor": "Nye party catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--nye-party-catering-dubai-support",
+        "alt": "Sliced roast beef with roasted vegetables and colourful side salads"
       }
     ]
   },
@@ -347,6 +431,12 @@
         "anchor": "Ramadan catering trends 2026",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--ramadan-iftar-catering-trends-2026-support",
+        "alt": "An iftar table with grilled dishes, rice, salads, flatbread and dates"
+      }
     ]
   },
   "/blog/vegan-catering-dubai-guide": {
@@ -372,6 +462,12 @@
         "url": "/blog/vegan-catering-dubai-guide",
         "anchor": "Vegan menu ideas",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--vegan-catering-dubai-guide-support",
+        "alt": "A vegan bowl of grains, chickpeas, avocado and colourful vegetables"
       }
     ]
   },
@@ -399,6 +495,12 @@
         "anchor": "Wedding catering cost",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--wedding-catering-cost-dubai-support",
+        "alt": "Sharing dishes with roast meats, fish and vegetables arranged overhead"
+      }
     ]
   },
   "/brand-activation-catering-dubai": {
@@ -420,6 +522,12 @@
         "url": "/brand-activation-catering-dubai",
         "anchor": "Brand activation catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "brand-activation-catering-dubai-support",
+        "alt": "Small canap\u00e9s and savoury bites displayed on tiered stone platters"
       }
     ]
   },
@@ -446,6 +554,10 @@
     ],
     "supporting": [
       {
+        "image": "breakfast-catering-dubai-support",
+        "alt": "Poached eggs with salmon, pastries, fresh fruit and coffee"
+      },
+      {
         "image": "support-breakfast-table",
         "alt": "Fresh breakfast at home with scrambled eggs, warm bread, fruit, yoghurt and coffee on an ivory kitchen island, natural morning window light, appetising realistic textures"
       }
@@ -471,6 +583,12 @@
         "anchor": "Brunch catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "brunch-catering-dubai-support",
+        "alt": "A brunch spread with pancakes, eggs, avocado, pastries and fresh fruit"
+      }
     ]
   },
   "/buffet-catering-dubai": {
@@ -492,6 +610,12 @@
         "url": "/buffet-catering-dubai",
         "anchor": "Buffet catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "buffet-catering-dubai-support",
+        "alt": "A buffet with raised platters of fresh salads and savoury dishes"
       }
     ]
   },
@@ -515,6 +639,12 @@
         "anchor": "Business lunch catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "business-lunch-catering-dubai-support",
+        "alt": "A plated fish main course with vegetables in a bright dining room"
+      }
     ]
   },
   "/canape-catering-dubai": {
@@ -536,6 +666,12 @@
         "url": "/canape-catering-dubai",
         "anchor": "Canap\u00e9 catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "canape-catering-dubai-support",
+        "alt": "An overhead selection of individual canap\u00e9s on contrasting platters"
       }
     ]
   },
@@ -559,6 +695,12 @@
         "anchor": "Catering cost calculator",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "catering-cost-calculator-dubai-support",
+        "alt": "A buffet of rice, grilled food and salads on raised serving dishes"
+      }
     ]
   },
   "/catering-dubai": {
@@ -580,6 +722,10 @@
     ],
     "supporting": [
       {
+        "image": "catering-dubai-support",
+        "alt": "Lamb cutlets, fresh salad and salmon canap\u00e9s arranged for service"
+      },
+      {
         "image": "support-apartment-kitchen",
         "alt": "A bright contemporary kitchen prepared for cooking and service"
       }
@@ -600,6 +746,12 @@
         "url": "/catering-packages-dubai",
         "anchor": "Catering packages",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "catering-packages-dubai-support",
+        "alt": "Lamb cutlets with tabbouleh, hummus and vegetable side dishes"
       }
     ]
   },
@@ -645,6 +797,12 @@
         "anchor": "Cocktail party catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "cocktail-party-catering-dubai-support",
+        "alt": "Savoury tartlets and sesame-coated canap\u00e9 bites on raised platters"
+      }
     ]
   },
   "/conference-catering-dubai": {
@@ -667,6 +825,12 @@
         "anchor": "Conference catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "conference-catering-dubai-support",
+        "alt": "Conference refreshments with pastries, fruit, breakfast jars and coffee"
+      }
     ]
   },
   "/corporate": {
@@ -684,6 +848,12 @@
         "url": "/corporate",
         "anchor": "Corporate dining",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "corporate-support",
+        "alt": "A business catering table with filled wraps, canap\u00e9s, salad and fruit"
       }
     ]
   },
@@ -707,6 +877,12 @@
         "anchor": "Corporate catering checklist",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "corporate-catering-checklist-dubai-support",
+        "alt": "Pastries, fruit, breakfast jars and coffee arranged for a meeting break"
+      }
     ]
   },
   "/corporate-dinner-package-dubai": {
@@ -728,6 +904,12 @@
         "url": "/corporate-dinner-package-dubai",
         "anchor": "Corporate dinner package",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "corporate-dinner-package-dubai-support",
+        "alt": "A dinner spread with sliced roast beef, rice, chicken and vegetables"
       }
     ]
   },
@@ -751,6 +933,12 @@
         "anchor": "Corporate event catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "corporate-event-catering-dubai-support",
+        "alt": "An event buffet with hot serving dishes, lamb cutlets and small canap\u00e9s"
+      }
     ]
   },
   "/corporate-retainer-dubai": {
@@ -773,6 +961,12 @@
         "anchor": "Corporate catering contract",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "corporate-retainer-dubai-support",
+        "alt": "Grilled salmon with grains and roasted vegetables in a business dining setting"
+      }
     ]
   },
   "/cuisines-dubai": {
@@ -790,6 +984,12 @@
         "url": "/cuisines-dubai",
         "anchor": "Cuisines",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "cuisines-dubai-support",
+        "alt": "An international menu selection with curry, rice, sushi and grilled dishes"
       }
     ]
   },
@@ -813,6 +1013,12 @@
         "anchor": "Dessert table catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "dessert-table-catering-dubai-support",
+        "alt": "A celebration dessert table with a floral cake, macarons and small pastries"
+      }
     ]
   },
   "/diwali-catering-dubai": {
@@ -834,6 +1040,12 @@
         "url": "/diwali-catering-dubai",
         "anchor": "Diwali catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "diwali-catering-dubai-support",
+        "alt": "A Diwali spread with savoury snacks, curries, rice and jalebi"
       }
     ]
   },
@@ -857,6 +1069,12 @@
         "anchor": "Drop-off catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "drop-off-catering-dubai-support",
+        "alt": "A family-style spread with roast chicken, rice, hummus and vegetables"
+      }
     ]
   },
   "/dubai-catering-prices-guide": {
@@ -878,6 +1096,12 @@
         "url": "/dubai-catering-prices-guide",
         "anchor": "Catering prices",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "dubai-catering-prices-guide-support",
+        "alt": "A reception buffet with grilled dishes, salads and bite-sized canap\u00e9s"
       }
     ]
   },
@@ -901,6 +1125,12 @@
         "anchor": "Event catering price guide 2026",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "dubai-event-catering-price-guide-2026-support",
+        "alt": "Small savoury canap\u00e9s on a stone platter beside fresh salads"
+      }
     ]
   },
   "/eid-catering-dubai": {
@@ -922,6 +1152,12 @@
         "url": "/eid-catering-dubai",
         "anchor": "Eid catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "eid-catering-dubai-support",
+        "alt": "An Eid sharing table with grilled skewers, hummus, tabbouleh and pastries"
       }
     ]
   },
@@ -945,6 +1181,12 @@
         "anchor": "Engagement party catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "engagement-catering-dubai-support",
+        "alt": "An engagement celebration buffet with grilled skewers, salads and savoury pastries"
+      }
     ]
   },
   "/events": {
@@ -962,6 +1204,12 @@
         "url": "/events",
         "anchor": "Events",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "events-support",
+        "alt": "A plated fish course with asparagus and vegetables at an elegant event table"
       }
     ]
   },
@@ -985,6 +1233,12 @@
         "anchor": "Exhibition catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "exhibition-catering-dubai-support",
+        "alt": "An overhead catering selection with chicken, vegetables and savoury tartlets"
+      }
     ]
   },
   "/family-feast-package-dubai": {
@@ -1007,6 +1261,12 @@
         "anchor": "Family catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "family-feast-package-dubai-support",
+        "alt": "A family sharing table with lamb, flatbread, hummus and fresh salads"
+      }
     ]
   },
   "/festive-catering-dubai": {
@@ -1024,6 +1284,16 @@
         "url": "/festive-catering-dubai",
         "anchor": "Festive catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "festive-catering-dubai-support",
+        "alt": "Roast lamb on spiced rice beside dates and a decorative lantern"
+      },
+      {
+        "image": "christmas-catering-dubai-support",
+        "alt": "Beef Wellington with roasted vegetables and a decorated Christmas tree"
       }
     ]
   },
@@ -1047,6 +1317,12 @@
         "anchor": "Gala dinner catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "gala-dinner-catering-dubai-support",
+        "alt": "An elegant table of canap\u00e9s, grilled chicken and colourful vegetable dishes"
+      }
     ]
   },
   "/grazing-table-dubai": {
@@ -1069,6 +1345,12 @@
         "anchor": "Grazing tables",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "grazing-table-dubai-support",
+        "alt": "A grazing display with filled rolls, caprese skewers, dips and fresh vegetables"
+      }
     ]
   },
   "/halal-catering-dubai": {
@@ -1090,6 +1372,12 @@
         "url": "/halal-catering-dubai",
         "anchor": "Halal catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "halal-catering-dubai-support",
+        "alt": "Grilled chicken on spiced rice with salads and yoghurt on the side"
       }
     ]
   },
@@ -1116,6 +1404,10 @@
     ],
     "supporting": [
       {
+        "image": "how-to-choose-caterer-dubai-support",
+        "alt": "An overhead menu selection with spiced rice, savoury pastries and salads"
+      },
+      {
         "image": "support-tidy-kitchen",
         "alt": "Beautiful clean domestic kitchen after cooking, neatly stacked ivory plates, folded linen towels, stainless sink and warm wood shelves, no people, late afternoon daylight"
       }
@@ -1141,6 +1433,12 @@
         "anchor": "Iftar catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "iftar-catering-dubai-support",
+        "alt": "An iftar buffet with dates, grilled skewers, rice and mezze at sunset"
+      }
     ]
   },
   "/indian-catering-dubai": {
@@ -1162,6 +1460,12 @@
         "url": "/indian-catering-dubai",
         "anchor": "Indian catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "indian-catering-dubai-support",
+        "alt": "Indian chaat, filled puri and savoury snacks on elegant serving dishes"
       }
     ]
   },
@@ -1188,6 +1492,10 @@
     ],
     "supporting": [
       {
+        "image": "italian-catering-dubai-support",
+        "alt": "An Italian spread with ravioli, grilled meat, burrata, artichokes and olives"
+      },
+      {
         "image": "support-pasta-lesson",
         "alt": "Two pairs of hands, an adult chef guiding an adult learner to shape fresh pasta on a wooden board in a light home kitchen"
       }
@@ -1213,6 +1521,12 @@
         "anchor": "Jain catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "jain-catering-dubai-support",
+        "alt": "Grilled squash with lentil dal, rice, peppers, flatbread and cucumber salad"
+      }
     ]
   },
   "/live-cooking-stations-dubai": {
@@ -1234,6 +1548,12 @@
         "url": "/live-cooking-stations-dubai",
         "anchor": "Live cooking stations",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "live-cooking-stations-dubai-support",
+        "alt": "A shawarma station with sliced meat, flatbread, salads and sauces"
       }
     ]
   },
@@ -1257,6 +1577,12 @@
         "anchor": "Mediterranean catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "mediterranean-catering-dubai-support",
+        "alt": "Mediterranean sharing dishes with grilled skewers, cheese, salads and dips"
+      }
     ]
   },
   "/menus": {
@@ -1278,6 +1604,12 @@
         "url": "/menus",
         "anchor": "Menus",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "menus-support",
+        "alt": "A menu display with rice, roasted vegetables, salads and savoury pastries"
       }
     ]
   },
@@ -1301,6 +1633,12 @@
         "anchor": "New year catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "new-year-catering-dubai-support",
+        "alt": "A plated lobster course with grilled lemon at a sunset celebration table"
+      }
     ]
   },
   "/office-catering-dubai": {
@@ -1323,6 +1661,12 @@
         "anchor": "Office catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "office-catering-dubai-support",
+        "alt": "An overhead lunch spread with grilled chicken, fish, vegetables and salads"
+      }
     ]
   },
   "/private-jet-catering-dubai": {
@@ -1340,6 +1684,12 @@
         "url": "/private-jet-catering-dubai",
         "anchor": "Private jet catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "private-jet-catering-dubai-support",
+        "alt": "Scallops, a plated beef main course and a berry dessert on a private jet dining table"
       }
     ]
   },
@@ -1366,6 +1716,10 @@
     ],
     "supporting": [
       {
+        "image": "private-party-catering-dubai-support",
+        "alt": "Lamb cutlets with salads, hummus and sharing dishes at a private celebration"
+      },
+      {
         "image": "support-candlelit-table",
         "alt": "A quiet dinner table set for two in a refined apartment at dusk, small candles and a single floral arrangement, no people, sophisticated restrained cream and warm wood palette"
       }
@@ -1391,6 +1745,12 @@
         "anchor": "Product launch catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "product-launch-catering-dubai-support",
+        "alt": "An overhead selection of delicate seafood and savoury canap\u00e9s"
+      }
     ]
   },
   "/production-catering-dubai": {
@@ -1412,6 +1772,12 @@
         "url": "/production-catering-dubai",
         "anchor": "Production catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "production-catering-dubai-support",
+        "alt": "A production catering buffet with grilled chicken, salads and crew equipment in the background"
       }
     ]
   },
@@ -1435,6 +1801,12 @@
         "anchor": "Ramadan catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "ramadan-catering-dubai-support",
+        "alt": "Lamb cutlets on rice with savoury pastries and salads for Ramadan"
+      }
     ]
   },
   "/ramadan-catering-guide-dubai": {
@@ -1456,6 +1828,12 @@
         "url": "/ramadan-catering-guide-dubai",
         "anchor": "Ramadan catering guide",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "ramadan-catering-guide-dubai-support",
+        "alt": "An overhead Ramadan meal with grilled skewers, hummus, flatbread and pastries"
       }
     ]
   },
@@ -1479,6 +1857,12 @@
         "anchor": "Staff meals catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "staff-meals-catering-dubai-support",
+        "alt": "A staff lunch spread with grilled chicken, rice and vegetable side dishes"
+      }
     ]
   },
   "/sushi-catering-dubai": {
@@ -1500,6 +1884,12 @@
         "url": "/sushi-catering-dubai",
         "anchor": "Sushi catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "sushi-catering-dubai-support",
+        "alt": "Tuna-topped rice bites with ginger, wasabi and a chilled seafood dish"
       }
     ]
   },
@@ -1523,6 +1913,12 @@
         "anchor": "Uae national day catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "uae-national-day-catering-dubai-support",
+        "alt": "An Emirati-style feast with rice, lamb, dates and sweet dumplings"
+      }
     ]
   },
   "/vegan-catering-dubai": {
@@ -1544,6 +1940,12 @@
         "url": "/vegan-catering-dubai",
         "anchor": "Vegan catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "vegan-catering-dubai-support",
+        "alt": "A vegan spread with roasted aubergine, falafel, cauliflower tacos, hummus and grain salads"
       }
     ]
   },
@@ -1567,6 +1969,12 @@
         "anchor": "Vegetarian catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "vegetarian-catering-dubai-support",
+        "alt": "Grilled cheese and vegetables with hummus, flatbread and fresh salads"
+      }
     ]
   },
   "/villa-catering-ideas-dubai": {
@@ -1588,6 +1996,12 @@
         "url": "/villa-catering-ideas-dubai",
         "anchor": "Villa catering ideas",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "villa-catering-ideas-dubai-support",
+        "alt": "An overhead villa dining spread with grilled chicken, vegetables and salads"
       }
     ]
   },
@@ -1611,6 +2025,12 @@
         "anchor": "Wedding catering checklist",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "wedding-catering-checklist-dubai-support",
+        "alt": "A wedding buffet with elegant serving platters and a floral ceremony setting"
+      }
     ]
   },
   "/wedding-catering-dubai": {
@@ -1633,6 +2053,12 @@
         "anchor": "Wedding catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "wedding-catering-dubai-support",
+        "alt": "A plated fish course beside white flowers and salads at a wedding table"
+      }
     ]
   },
   "/wedding-catering-menu-planning-dubai": {
@@ -1654,6 +2080,12 @@
         "url": "/wedding-catering-menu-planning-dubai",
         "anchor": "Wedding menu planning",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "wedding-catering-menu-planning-dubai-support",
+        "alt": "A wedding menu selection with grilled chicken, fresh salads and vegetable dishes"
       }
     ]
   },
@@ -1695,6 +2127,12 @@
         "anchor": "Institutional catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "institutional-catering-dubai-support",
+        "alt": "A catering service counter with prepared salads, vegetables and main dishes"
+      }
     ]
   },
   "/nursery-catering-dubai": {
@@ -1716,6 +2154,12 @@
         "url": "/nursery-catering-dubai",
         "anchor": "Nursery catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "nursery-catering-dubai-support",
+        "alt": "A nursery meal with fish cakes, grains, cooked diced vegetables, yoghurt and fruit compote"
       }
     ]
   },
@@ -1739,6 +2183,12 @@
         "anchor": "School catering",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "school-catering-dubai-support",
+        "alt": "A school lunch with a chicken wrap, salad, hummus, sliced apple and fruit"
+      }
     ]
   },
   "/hospital-catering-dubai": {
@@ -1760,6 +2210,12 @@
         "url": "/hospital-catering-dubai",
         "anchor": "Hospital catering",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "hospital-catering-dubai-support",
+        "alt": "A hospital meal tray with salmon, grains, vegetables, soup and fruit"
       }
     ]
   },
@@ -1783,6 +2239,12 @@
         "anchor": "Canteen management",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "canteen-management-dubai-support",
+        "alt": "Grilled chicken with vegetables and salad beside a catering service counter"
+      }
     ]
   },
   "/blog/best-arabic-catering-companies-in-dubai": {
@@ -1804,6 +2266,12 @@
         "url": "/blog/best-arabic-catering-companies-in-dubai",
         "anchor": "Best Arabic Catering Companies Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-arabic-catering-companies-in-dubai-support",
+        "alt": "An Arabic menu selection with grilled skewers, stuffed vine leaves, hummus and flatbread"
       }
     ]
   },
@@ -1827,6 +2295,12 @@
         "anchor": "Best BBQ Catering Companies in Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-bbq-catering-companies-in-dubai-support",
+        "alt": "A barbecue spread with grilled lamb, chicken, vegetables and fresh salads"
+      }
     ]
   },
   "/blog/best-brunch-catering-services-in-dubai": {
@@ -1848,6 +2322,12 @@
         "url": "/blog/best-brunch-catering-services-in-dubai",
         "anchor": "Best Brunch Catering Companies in Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-brunch-catering-services-in-dubai-support",
+        "alt": "Poached eggs with greens and hollandaise beside fruit and coffee"
       }
     ]
   },
@@ -1871,6 +2351,12 @@
         "anchor": "Best Corporate Catering Companies Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-corporate-event-catering-companies-in-dubai-support",
+        "alt": "A sliced roast beef platter with vegetables and salads arranged overhead"
+      }
     ]
   },
   "/blog/best-corporate-lunch-catering-companies-in-dubai": {
@@ -1892,6 +2378,12 @@
         "url": "/blog/best-corporate-lunch-catering-companies-in-dubai",
         "anchor": "Corporate Catering Lunch Options in Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-corporate-lunch-catering-companies-in-dubai-support",
+        "alt": "A corporate lunch buffet with wraps, sliders, grilled chicken and salads"
       }
     ]
   },
@@ -1915,6 +2407,12 @@
         "anchor": "Best Grazing Table Catering in Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-grazing-table-catering-companies-in-dubai-support",
+        "alt": "Salmon tartlets with colourful savoury bites on a grazing table"
+      }
     ]
   },
   "/blog/best-halal-catering-companies-in-dubai": {
@@ -1936,6 +2434,12 @@
         "url": "/blog/best-halal-catering-companies-in-dubai",
         "anchor": "Best Halal Catering Companies Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-halal-catering-companies-in-dubai-support",
+        "alt": "A Mediterranean table with hummus, falafel, stuffed vine leaves and grilled dishes"
       }
     ]
   },
@@ -1959,6 +2463,12 @@
         "anchor": "Best Kids Birthday Catering Companies Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-kids-birthday-party-caterers-in-dubai-support",
+        "alt": "A birthday cake with miniature savoury tarts, finger sandwiches, cupcakes and fruit"
+      }
     ]
   },
   "/blog/best-ramadan-iftar-catering-companies-in-dubai": {
@@ -1980,6 +2490,12 @@
         "url": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
         "anchor": "Best Ramadan Iftar Catering Companies Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-ramadan-iftar-catering-companies-in-dubai-support",
+        "alt": "Grilled dishes, savoury pastries and mezze arranged for iftar"
       }
     ]
   },
@@ -2003,6 +2519,12 @@
         "anchor": "Best Vegan Catering Companies in Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-vegan-catering-services-in-dubai-support",
+        "alt": "A vegan mezze spread with hummus, beetroot dip, falafel, flatbread and salads"
+      }
     ]
   },
   "/blog/best-wedding-catering-companies-in-dubai": {
@@ -2025,6 +2547,12 @@
         "anchor": "Best Wedding Catering Companies in Dubai: What to Compare",
         "current": true
       }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-wedding-catering-companies-in-dubai-support",
+        "alt": "An elegant wedding buffet with floral arrangements, canap\u00e9s and sharing dishes"
+      }
     ]
   },
   "/blog/best-yacht-catering-services-in-dubai": {
@@ -2046,6 +2574,12 @@
         "url": "/blog/best-yacht-catering-services-in-dubai",
         "anchor": "Best Yacht Catering Companies in Dubai: What to Compare",
         "current": true
+      }
+    ],
+    "supporting": [
+      {
+        "image": "blog--best-yacht-catering-services-in-dubai-support",
+        "alt": "Seared scallops with a fresh salad on a yacht dining table"
       }
     ]
   }

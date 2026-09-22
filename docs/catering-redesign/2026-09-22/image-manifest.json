@@ -114,12 +114,6 @@
     "prompt": "Chef's hands preparing fresh pasta at a tidy live cooking station for an event, pans and ingredients arranged neatly behind a serving counter, professional polished service setup, natural warm light."
   },
   {
-    "route": "/yachts",
-    "file": "/images/catering-editorial-2026/yachts-1200.webp",
-    "sha256": "ca8b9bdf022f6e03deb819bcd6bbf4ccdc8dae2ea9228d31ba8b1b5cd33b080d",
-    "prompt": "Premium finger food platters neatly arranged on a yacht's sheltered dining table with Dubai marina softly out of focus, secure compact setup, sandwiches, cooked skewers and colourful canapes, daylight."
-  },
-  {
     "route": "/institutional-catering-dubai",
     "file": "/images/catering-editorial-2026/institutional-catering-dubai-1200.webp",
     "sha256": "20e9f114e4fd7d8b76ae322cffb6bb5572c324918ea5c0012824b935a67355f7",

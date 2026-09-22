@@ -35,16 +35,17 @@ export function TeamCapability() {
   </ChefSection>
 }
 export function RealWork({ compact = false }: { compact?: boolean }) {
-  const images = [
-    ['deck-table-marina','A table set on deck','Seated table set for a previous myCHEF yacht catering day'],
-    ['beef-tartlets','Food with attention to detail','Beef tartlet canapés prepared for previous myCHEF yacht service'],
-    ['sushi-service','The service behind the occasion','Service team setting a sushi grazing table on a previous myCHEF yacht catering day'],
+  const details = [
+    ['A table set on deck', 'Thoughtful table preparation makes the setting feel ready from the moment guests arrive.'],
+    ['Food with attention to detail', 'Individually presented canapés and generous grazing selections bring variety to the occasion.'],
+    ['The service behind the occasion', 'Preparation, replenishment and clear-down are planned around the vessel and the day’s schedule.'],
   ]
   return <ChefSection id="previous-work" eyebrow="From our previous work" title={<>Details that make<br/><em>the occasion.</em></>}>
-    <div className="pc-section-summary"><p>These photographs are from a previous myCHEF yacht catering day: table preparation, canapés and service onboard. A glimpse of the care we bring to an occasion.</p><Link to="/yachts" className="pc-link">Explore the yacht portfolio <ArrowUpRight size={17}/></Link></div>
-    <div className={`pc-real-work ${compact ? 'pc-real-compact' : ''}`}>{images.map(([src,title,alt]) => <figure key={src}><img src={`/images/yacht-work/${src}.webp`} alt={alt} width={1000} height={750} loading="lazy" decoding="async"/><figcaption><span>Previous myCHEF work · Yacht catering</span><h3>{title}</h3></figcaption></figure>)}</div>
+    <div className="pc-section-summary"><p>Explore a previous myCHEF yacht catering day, from table preparation and canapés to service onboard. The full yacht portfolio brings the setting and details together.</p><Link to="/yachts#previous-work" className="pc-link">Explore the yacht portfolio <ArrowUpRight size={17}/></Link></div>
+    <div className={`pc-role-list ${compact ? 'pc-real-compact' : ''}`}>{details.map(([title,body]) => <div key={title}><h3>{title}</h3><p>{body}</p></div>)}</div>
   </ChefSection>
 }
+
 export function PricePreview() {
   const choices = [
     {name:'One fresh meal each week',serviceId:'fresh-meal' as const,daysPerWeek:1,explanation:'Four visits over four weeks. Three hours per visit.'},

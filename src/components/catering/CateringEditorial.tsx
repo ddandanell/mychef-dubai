@@ -42,7 +42,7 @@ function SupportingPhoto({photo}: {photo: Photo}) {
 }
 function PlanningArticle({page}: {page: Page}) {
   const { pathname } = useLocation()
-  const photographs = cateringDesign[pathname]?.supporting ?? []
+  const photographs = cateringDesign[pathname.replace(/\/$/, '')]?.supporting ?? []
   return <article className="ct-planning" data-catering-expansion id="catering-planning">
     <div className="ct-container ct-planning-grid">
       <aside className="ct-guide-nav"><p className="ct-eyebrow">A more considered occasion</p><h2>{page.title}</h2><p>{page.focus}</p><nav aria-label="Catering planning topics"><ol>{page.sections.map((section,i)=><li key={section.id}><a href={`#catering-detail-${section.id}`}><span>{String(i+1).padStart(2,'0')}</span>{section.title}</a></li>)}</ol></nav></aside>
