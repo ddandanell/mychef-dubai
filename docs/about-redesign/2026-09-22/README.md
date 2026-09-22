@@ -24,3 +24,7 @@ Assets live in `public/images/about-2026/`, at 480, 800, 1200 and 1536 pixels wi
 - Responsive CSS includes desktop, tablet and phone layouts, visible keyboard focus and reduced-motion support.
 
 Live deployment and visual findings are recorded after publication in `live-review.json`.
+
+## Live review
+
+The production page at commit `57b1cb1` contains 2,243 words after browser prerender (the local server-render count separates the numbered labels), six unique content images and ten sections. All 24 image versions returned HTTP 200 with the correct content type. The desktop browser showed no horizontal overflow; section navigation, the coordinator FAQ and the enquiry destination worked. No form was submitted. The final visual correction requests larger source images for the tall crops and stacks those sections earlier on smaller screens.

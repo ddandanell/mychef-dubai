@@ -133,7 +133,7 @@ export default function About() {
 
     <section className="ab-section ab-cream" id="your-coordinator" aria-labelledby="coordinator-heading">
       <div className="ab-container ab-split">
-        <div className="ab-split-image"><AboutImage name="event-coordinator" /></div>
+        <div className="ab-split-image"><AboutImage name="event-coordinator" sizes="(min-width: 1101px) 1536px, (min-width: 600px) calc(100vw - 80px), 125vw" /></div>
         <div className="ab-prose"><p className="ab-kicker">04 / Someone keeping it all together</p><h2 id="coordinator-heading">Your event coordinator.<br /><em>One less thing to think about.</em></h2>
           <p className="ab-lead">A complimentary event coordinator is included with our full-service event bookings.</p>
           <p>You may have a clear picture of the evening, or just a date and a reason to gather. Your coordinator helps turn that starting point into a practical catering plan, bringing your preferences and the team’s requirements into the same conversation.</p>
@@ -146,7 +146,7 @@ export default function About() {
 
     <section className="ab-section" id="our-food" aria-labelledby="food-heading">
       <div className="ab-container ab-split ab-split-reverse">
-        <div className="ab-split-image"><AboutImage name="chef-at-the-pass" /></div>
+        <div className="ab-split-image"><AboutImage name="chef-at-the-pass" sizes="(min-width: 1101px) 1536px, (min-width: 600px) calc(100vw - 80px), 125vw" /></div>
         <div className="ab-prose"><p className="ab-kicker">05 / Food with a sense of occasion</p><h2 id="food-heading">Made for the people<br /><em>around your table.</em></h2>
           <p className="ab-lead">The food should be a reason people remember the occasion.</p>
           <p>That can mean a generous sharing table, delicate canapés that are easy to enjoy while talking, or a carefully paced sequence of plated courses. We start with the people eating and the way you want to host, then shape the dishes around that experience.</p>

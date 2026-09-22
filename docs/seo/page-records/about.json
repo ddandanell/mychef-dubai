@@ -32,7 +32,7 @@
       "Private Chef Company Dubai A new chapter. A world of experience."
     ]
   },
-  "metadata_source": "Local production-module server render; live verification follows deployment",
+  "metadata_source": "Live production prerender verified at 57b1cb10f27cd549cdc56e71cac31129be798d89",
   "indexation": {
     "canonical": "https://www.mychef.ae/about",
     "robots": "index, follow",
@@ -56,7 +56,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 709,
-    "current_word_count": 2259,
+    "current_word_count": 2243,
     "headings": [
       {
         "level": "h2",

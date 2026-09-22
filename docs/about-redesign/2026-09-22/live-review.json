@@ -1,0 +1,164 @@
+{
+  "commit": "57b1cb10f27cd549cdc56e71cac31129be798d89",
+  "url": "https://www.mychef.ae/about",
+  "title": "Private Chef Company Dubai | Our Story | myCHEF",
+  "description": "Meet myCHEF, a private chef company Dubai hosts can turn to. Opened here in February, backed by a global catering team with over 10 years of experience.",
+  "canonical": "https://www.mychef.ae/about",
+  "robots": "index, follow",
+  "word_count": 2243,
+  "content_images": 6,
+  "image_checks": [
+    {
+      "url": "/images/about-2026/chef-at-the-pass-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/chef-at-the-pass-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/chef-at-the-pass-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/chef-at-the-pass-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/corporate-reception-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/corporate-reception-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/corporate-reception-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/corporate-reception-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/event-coordinator-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/event-coordinator-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/event-coordinator-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/event-coordinator-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/hospitality-team-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/hospitality-team-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/hospitality-team-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/hospitality-team-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/kitchen-team-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/kitchen-team-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/kitchen-team-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/kitchen-team-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/shared-table-evening-1200.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/shared-table-evening-1536.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/shared-table-evening-480.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "/images/about-2026/shared-table-evening-800.webp",
+      "status": 200,
+      "type": "image/webp"
+    }
+  ],
+  "section_anchors_valid": true,
+  "deployment_state": "Vercel success",
+  "browser_review": {
+    "viewport_width": 1363,
+    "document_width": 1348,
+    "horizontal_overflow": false,
+    "sections_visually_reviewed": [
+      "Opening and team briefing",
+      "International group",
+      "People and kitchen team",
+      "Complimentary coordination",
+      "Food and plating",
+      "Private and company occasions",
+      "Service standards",
+      "Expanded coordinator FAQ"
+    ],
+    "all_six_content_images_loaded": true,
+    "section_navigation": "passed",
+    "coordinator_faq": "opens with the correct scope explanation",
+    "enquiry_link": {
+      "destination": "https://www.mychef.ae/inquiry?from=/about",
+      "heading": "Get Your Free, Tailored Quote",
+      "form_present": true,
+      "submitted": false
+    },
+    "responsive_review": "CSS breakpoints inspected; browser review was desktop, without phone emulation"
+  },
+  "follow_up_correction": {
+    "finding": "Tall crops selected 800-pixel sources in the desktop browser, which softened their display.",
+    "change": "Request 1536-pixel sources for the coordinator and plating crops on desktop; stack those sections at 1100 pixels and below to preserve both people in the planning image.",
+    "content_change": false
+  }
+}
