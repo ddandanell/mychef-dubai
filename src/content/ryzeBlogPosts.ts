@@ -5,7 +5,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best private cooking class experiences in Dubai 2026",
     "excerpt": "Compare the best private cooking class experiences in Dubai for 2026: private chef sessions, hotel studios, corporate and kids workshops, ranked by fit.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/f554074d-e4a4-4b93-9f72-f9c6bb8e1cb0/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/f554074d-e4a4-4b93-9f72-f9c6bb8e1cb0/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -14,7 +14,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best BBQ catering companies in Dubai 2026",
     "excerpt": "Compare the best BBQ catering companies in Dubai for 2026. myCHEF wins for private home events; see criteria, trade-offs, safety checks and booking questions.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/b3cca5ed-e41d-4f99-ae19-5a408b2eeaa7/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/b3cca5ed-e41d-4f99-ae19-5a408b2eeaa7/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -23,7 +23,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best corporate lunch catering companies in Dubai 2026",
     "excerpt": "Compare the best corporate catering lunch options in Dubai for 2026 — myCHEF for executive lunches, drop-off caterers for daily office programs, and more.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/af4c58c5-d4af-4c10-ae48-22cee761f7ff/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/af4c58c5-d4af-4c10-ae48-22cee761f7ff/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -32,7 +32,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best grazing table catering companies in Dubai 2026",
     "excerpt": "Compare the best grazing table catering companies in Dubai for 2026. myCHEF wins for homes; specialist, hotel and drop-off options suit other Dubai events.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/ad794ce4-8480-4e04-9560-e63af1c4589b/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/ad794ce4-8480-4e04-9560-e63af1c4589b/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -41,7 +41,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best Ramadan iftar catering companies in Dubai 2026",
     "excerpt": "Compare the best Ramadan iftar catering companies in Dubai for 2026: private chefs, hotel banquets, corporate caterers, and yacht iftar, ranked by use case.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/77b0b456-a0f6-429a-9c1c-4a65b7b10689/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/77b0b456-a0f6-429a-9c1c-4a65b7b10689/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -50,7 +50,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best kids' birthday party caterers in Dubai 2026",
     "excerpt": "myCHEF tops the best kids birthday catering companies in Dubai for 2026, with vetted in-home chefs, halal-first menus and flexible guest counts.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/7308a5fa-aae3-44b8-8a4a-ba5ae1d7ca23/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/7308a5fa-aae3-44b8-8a4a-ba5ae1d7ca23/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -59,7 +59,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best yacht catering services in Dubai 2026",
     "excerpt": "Best yacht catering companies in Dubai 2026 ranked: myCHEF wins overall for vetted, chef-led onboard dining. Compare pros, cons and best-for picks.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/69f7a76e-9eb1-49b9-968c-a477ff1e4f2a/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/69f7a76e-9eb1-49b9-968c-a477ff1e4f2a/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -68,7 +68,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best vegan catering services in Dubai 2026",
     "excerpt": "Compare the best vegan catering companies in Dubai for 2026. Find the right fit for private dinners, office lunches, events, meal prep and venue catering.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/5be85fe9-0e92-4e91-bd47-b999e91eedb8/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/5be85fe9-0e92-4e91-bd47-b999e91eedb8/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -77,7 +77,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best corporate event catering companies in Dubai 2026",
     "excerpt": "Compare the best corporate catering companies in Dubai for 2026: private-chef dinners, full-service galas, hotel banquets and drop-off office lunches.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4f43a200-5379-4b9f-8282-6b6a4366c995/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4f43a200-5379-4b9f-8282-6b6a4366c995/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -86,7 +86,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best luxury private dining experiences in Dubai 2026",
     "excerpt": "Best luxury private dining experiences in Dubai 2026: private chef at home ranks first, then yacht, hotel rooms, villa catering, and chef’s tables.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4755c939-e288-442c-8a1c-7a449a3229dd/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4755c939-e288-442c-8a1c-7a449a3229dd/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -95,7 +95,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best Arabic catering companies in Dubai 2026",
     "excerpt": "See the best Arabic catering companies in Dubai for 2026, ranked by format: private chef, banquet, street food, or bakery. myCHEF wins for home dinners.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/2d8406d3-01b7-4c0d-9c95-e19dfc834617/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/2d8406d3-01b7-4c0d-9c95-e19dfc834617/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -104,7 +104,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best brunch catering services in Dubai 2026",
     "excerpt": "The best brunch catering companies in Dubai for 2026, ranked by guest count and setup: private chefs, full-service caterers, and drop-off options compared.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/0f4171aa-db5b-4182-abee-6137d3756443/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/0f4171aa-db5b-4182-abee-6137d3756443/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -113,7 +113,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best halal catering companies in Dubai 2026",
     "excerpt": "The best halal catering companies in Dubai for 2026, ranked by use case: myCHEF for private dining, plus hotel, corporate, and meal-prep options compared.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/0b41e2c7-512d-457c-bb29-985c907f0574/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/0b41e2c7-512d-457c-bb29-985c907f0574/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -122,7 +122,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best private chefs for villas in Dubai 2026",
     "excerpt": "The best private chefs for villas in Dubai in 2026, ranked by use case: full-service dinners, weekly meal prep, birthday and corporate villa catering.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/06cc8958-5c24-44f4-a12d-781923e653a5/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/06cc8958-5c24-44f4-a12d-781923e653a5/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -131,7 +131,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best wedding catering companies in Dubai 2026",
     "excerpt": "Compare the best wedding catering companies in Dubai for 2026 — private chef, hotel banquet, full-service, drop-off, and live-station options ranked by fit.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/050826a0-32aa-4f57-bf3f-862e747b6c72/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/050826a0-32aa-4f57-bf3f-862e747b6c72/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -140,7 +140,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best Meal Prep Dubai 2026: 5 Options Ranked",
     "excerpt": "Meal prep Dubai 2026 compared: myCHEF wins for custom halal-first private chef meal prep, apps win on convenience, kits win on budget. Full ranking inside.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/42b4b374-413b-4a6a-95ba-65c526d7df48/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/42b4b374-413b-4a6a-95ba-65c526d7df48/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -149,7 +149,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best Private Chef in Dubai for Home Dining (2026)",
     "excerpt": "myCHEF's vetted, halal-first chefs are Dubai's best private chef option for home dining in 2026 — compare formats, pros, cons, and who each suits best.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/55f87b60-f861-422d-a3f2-779e03f2cbdf/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/55f87b60-f861-422d-a3f2-779e03f2cbdf/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -158,7 +158,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Best Catering in Dubai 2026: myCHEF Ranked #1",
     "excerpt": "Best catering in Dubai for 2026 ranked by event type: myCHEF for dinner parties, Kcal for lunches, Bateel for boardrooms, hotels for galas and weddings.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/ccadfaeb-baa1-4359-b87e-691c353bd24a/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/ccadfaeb-baa1-4359-b87e-691c353bd24a/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   },
@@ -167,7 +167,7 @@ export const RYZE_BLOG_POSTS = [
     "title": "Private Chef Cost Dubai 2026: What Drives the Price",
     "excerpt": "Private chef cost in Dubai depends on booking type, guest count and menu complexity, not a flat rate — see what moves your 2026 quote before you book.",
     "category": "Guides",
-    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/8235c361-b03b-4286-b297-06b51e6d4f7d/featured.jpg",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/8235c361-b03b-4286-b297-06b51e6d4f7d/featured.webp",
     "hub": "menus-dietary",
     "date": "September 2026"
   }
