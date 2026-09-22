@@ -97,7 +97,8 @@ function ExpansionArticle({ page }: { page: DetailPage }) {
 const loaders = import.meta.glob<DetailPage>('../../content/private-chef-expansion/*.json', { import: 'default' })
 const pageComponents: Record<string, ComponentType> = {}
 for (const [file, load] of Object.entries(loaders)) {
-  if (file.endsWith('/routes.json')) continue
+  // About now owns a complete, bespoke story and exclusive photographs.
+  if (file.endsWith('/routes.json') || file.endsWith('/about.json')) continue
   const path = '/' + file.split('/').pop()!.replace(/\.json$/, '').replaceAll('__', '/')
   pageComponents[path] = lazy(async () => {
     const page = await load()

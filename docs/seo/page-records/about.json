@@ -26,13 +26,13 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Company Dubai | myCHEF",
-    "description": "Private Chef Company Dubai: myCHEF matches, vets and backs up independent chefs for homes and events. You are not putting a chef on payroll.",
+    "title": "Private Chef Company Dubai | Our Story | myCHEF",
+    "description": "Meet myCHEF, a private chef company Dubai hosts can turn to. Opened here in February, backed by a global catering team with over 10 years of experience.",
     "h1": [
-      "Private Chef Company Dubai: Hiring a chef is the easy part."
+      "Private Chef Company Dubai A new chapter. A world of experience."
     ]
   },
-  "metadata_source": "local production prerender",
+  "metadata_source": "Local production-module server render; live verification follows deployment",
   "indexation": {
     "canonical": "https://www.mychef.ae/about",
     "robots": "index, follow",
@@ -40,126 +40,140 @@
     "redirect_to": null
   },
   "source_files": [
-    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
-    "src/data/locations.ts",
-    "src/hooks/useScrollTrigger.ts",
-    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts",
-    "src/pages/About.tsx"
+    "src/pages/About.tsx",
+    "src/styles/about-editorial.css",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 709,
-    "current_word_count": 704,
+    "current_word_count": 2259,
     "headings": [
       {
         "level": "h2",
-        "text": "Restaurants have a system behind the chef. Homes usually do not."
+        "text": "The private chef company Dubai hosts can get to know."
       },
       {
         "level": "h2",
-        "text": "The standard we hold every chef to."
+        "text": "Four places. A shared love of hospitality."
       },
       {
         "level": "h3",
-        "text": "Quality"
+        "text": "Dubai"
       },
       {
         "level": "h3",
-        "text": "Discretion"
+        "text": "Bali"
       },
       {
         "level": "h3",
-        "text": "Hospitality"
+        "text": "Cape Town"
       },
       {
         "level": "h3",
-        "text": "Reliability"
+        "text": "Hawaii"
       },
       {
         "level": "h2",
-        "text": "The chef matters. How we choose one matters more."
+        "text": "A big team. Care in every role."
       },
       {
         "level": "h3",
-        "text": "Head chef"
+        "text": "Culinary talent"
       },
       {
         "level": "h3",
-        "text": "Italian kitchen"
+        "text": "Event coordination"
       },
       {
         "level": "h3",
-        "text": "Pastry"
+        "text": "Service and hospitality"
+      },
+      {
+        "level": "h3",
+        "text": "Operations and support"
       },
       {
         "level": "h2",
-        "text": "The chef cooks. We do the other four jobs."
-      },
-      {
-        "level": "h3",
-        "text": "Match"
-      },
-      {
-        "level": "h3",
-        "text": "Vet"
-      },
-      {
-        "level": "h3",
-        "text": "Back up"
-      },
-      {
-        "level": "h3",
-        "text": "Review"
+        "text": "Your event coordinator. One less thing to think about."
       },
       {
         "level": "h2",
-        "text": "Twenty Dubai communities. The same standard in each."
-      },
-      {
-        "level": "h3",
-        "text": "Beach & Island"
-      },
-      {
-        "level": "h3",
-        "text": "Marina & Waterfront"
-      },
-      {
-        "level": "h3",
-        "text": "City Center"
-      },
-      {
-        "level": "h3",
-        "text": "Premium Residential"
-      },
-      {
-        "level": "h3",
-        "text": "Traditional"
-      },
-      {
-        "level": "h3",
-        "text": "Emerging"
+        "text": "Made for the people around your table."
       },
       {
         "level": "h2",
-        "text": "Now tell us about your household."
+        "text": "You bring the people. We help you welcome them."
+      },
+      {
+        "level": "h3",
+        "text": "For the moments that become memories."
+      },
+      {
+        "level": "h3",
+        "text": "Hospitality that represents you well."
       },
       {
         "level": "h2",
-        "text": "Everything in Trust and About"
+        "text": "Trust starts before the first plate."
+      },
+      {
+        "level": "h3",
+        "text": "People selected with care"
+      },
+      {
+        "level": "h3",
+        "text": "Details agreed in writing"
+      },
+      {
+        "level": "h3",
+        "text": "Dietary needs taken seriously"
+      },
+      {
+        "level": "h3",
+        "text": "Respect for your space"
+      },
+      {
+        "level": "h2",
+        "text": "A clear plan. A warmer welcome."
+      },
+      {
+        "level": "h3",
+        "text": "Tell us what matters"
+      },
+      {
+        "level": "h3",
+        "text": "Shape the occasion"
+      },
+      {
+        "level": "h3",
+        "text": "Bring the team together"
+      },
+      {
+        "level": "h3",
+        "text": "Welcome your guests"
+      },
+      {
+        "level": "h2",
+        "text": "A little more about myCHEF."
+      },
+      {
+        "level": "h2",
+        "text": "Let’s make something worth gathering for."
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
-    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+    "log": "docs/about-redesign/2026-09-22/README.md",
+    "guidance": "Use the business-owner-confirmed February Dubai opening, international operating destinations and 10+ years of team experience recorded in the SEO contract. Keep the six About images exclusive to this page."
   },
   "internal_linking": {
     "breadcrumb": [

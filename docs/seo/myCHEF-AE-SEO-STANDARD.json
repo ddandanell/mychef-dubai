@@ -1831,13 +1831,13 @@
     }
    },
    "on_page": {
-    "title": "Private Chef Company Dubai | myCHEF",
+    "title": "Private Chef Company Dubai | Our Story | myCHEF",
     "title_max_chars": 65,
-    "h1": "Private Chef Company Dubai: Hiring a chef is the easy part.",
+    "h1": "Private Chef Company Dubai A new chapter. A world of experience.",
     "h1_count": 1,
-    "meta_description": "Private Chef Company Dubai: myCHEF matches, vets and backs up independent chefs for homes and events. You are not putting a chef on payroll.",
+    "meta_description": "Meet myCHEF, a private chef company Dubai hosts can turn to. Opened here in February, backed by a global catering team with over 10 years of experience.",
     "meta_description_max_chars": 160,
-    "og_title": "Private Chef Company Dubai | myCHEF",
+    "og_title": "Private Chef Company Dubai | Our Story | myCHEF",
     "og_type": "website"
    },
    "indexation": {
@@ -1965,8 +1965,27 @@
      "Marco Adriano",
      "Elena Vasquez"
     ],
-    "must_not_claim_years_of_experience": true,
-    "price_tier": "premium"
+    "must_not_claim_years_of_experience": false,
+    "price_tier": "premium",
+    "confirmed_experience": {
+     "claim": "Over 10 years of international catering experience across the team",
+     "source": "Business owner instruction in this conversation, 2026-09-22",
+     "scope": "Team experience across the international catering group; not the age of the Dubai business or a claim about every individual chef."
+    },
+    "confirmed_company_story": {
+     "dubai_opening_month": "February",
+     "opening_year": "Not specified; do not infer a year",
+     "operating_destinations": [
+      "Dubai",
+      "Bali",
+      "Cape Town",
+      "Hawaii"
+     ],
+     "group": "Part of an international catering group; no new group trading name asserted",
+     "team_size": "Large team; no numerical headcount supplied",
+     "source": "Business owner instruction in this conversation, 2026-09-22"
+    },
+    "event_coordinator": "Complimentary coordination for full-service event bookings; quoted food, staffing, equipment and additional services are separate scope items."
    },
    "qa_gates": [
     "Exactly one H1.",

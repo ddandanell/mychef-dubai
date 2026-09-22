@@ -1,0 +1,42 @@
+{
+  "page": "/about",
+  "word_count": 2259,
+  "sections": 10,
+  "image_count": 6,
+  "unique_content_photos": 6,
+  "responsive_assets_validated": 24,
+  "h1": [
+    "Private Chef Company Dubai A new chapter. A world of experience."
+  ],
+  "h2": [
+    "The private chef company Dubai hosts can get to know.",
+    "Four places. A shared love of hospitality.",
+    "A big team. Care in every role.",
+    "Your event coordinator. One less thing to think about.",
+    "Made for the people around your table.",
+    "You bring the people. We help you welcome them.",
+    "Trust starts before the first plate.",
+    "A clear plan. A warmer welcome.",
+    "A little more about myCHEF.",
+    "Let’s make something worth gathering for."
+  ],
+  "title": "Private Chef Company Dubai | Our Story | myCHEF",
+  "description_length": 152,
+  "internal_links": [
+    "/",
+    "/catering-dubai",
+    "/contact",
+    "/corporate",
+    "/events",
+    "/how-we-vet-our-chefs",
+    "/inquiry",
+    "/locations",
+    "/our-chefs",
+    "/private-chef-dubai",
+    "/yachts"
+  ],
+  "anchors_valid": true,
+  "retired_expansion_absent": true,
+  "private_chef_expansion_regression": "passed",
+  "errors": []
+}

@@ -88,6 +88,19 @@ export function homepageGraph() {
 export function aboutGraph(breadcrumb: Record<string, unknown>) {
   return {
     '@context': 'https://schema.org',
-    '@graph': [ORGANIZATION_SCHEMA, breadcrumb],
+    '@graph': [
+      ORGANIZATION_SCHEMA,
+      {
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/about#webpage`,
+        url: `${SITE_URL}/about`,
+        name: 'Private Chef Company Dubai | Our Story | myCHEF',
+        description: 'The story of myCHEF Dubai, opened in February and backed by an international catering team with over ten years of experience and operations in Bali, Cape Town and Hawaii.',
+        inLanguage: 'en-AE',
+        about: ORGANIZATION_REF,
+        isPartOf: { '@id': WEBSITE_ID },
+      },
+      breadcrumb,
+    ],
   }
 }

@@ -1,355 +1,194 @@
-import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /about
 //     primary:     "private chef company dubai"
 //     subkeywords: "about mychef dubai" · "luxury catering company dubai" · "private chef agency dubai" · "chef recruitment agencies in dubai" · "personal chef services availability in dubai" · "personal chef services on offer in dubai" · "top personal chef services provider in dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
-import { useRef } from 'react'
 import { Link } from 'react-router'
-import { isParked } from '@/content/parkedUrls'
-import { ArrowRight, Waves, Anchor, Building2, TreePine, Landmark, Sprout } from 'lucide-react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { useGSAP } from '@gsap/react'
+import { ArrowDown, ArrowUpRight, Plus } from 'lucide-react'
 import SEO from '@/components/SEO'
 import { aboutGraph } from '@/lib/organizationSchema'
-import PageHero from '@/components/PageHero'
-import TrustSignalStrip from '@/components/TrustSignalStrip'
-import { BodyCopy, Container, DisplayHeading, Section, SectionLabel } from '../components/system'
-import { locationPath } from '@/data/locations'
+import '@/styles/about-editorial.css'
 
-
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/about)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-
-const values = [
-  { title: 'Quality', desc: 'Only chefs who meet the standard. Only ingredients that meet the menu. No corners cut on either.' },
-  { title: 'Discretion', desc: 'What happens in your home stays in your home. Every chef and service professional we place works to that rule.' },
-  { title: 'Hospitality', desc: 'A good dinner is remembered long after the plates are cleared. That feeling is what we design for: warm, attentive, unhurried.' },
-  { title: 'Reliability', desc: 'The plan is written before the day, so the day can run to the plan.' },
+const IMAGE_ROOT = '/images/about-2026'
+const images = {
+  'hospitality-team': 'Chefs, coordinators and service colleagues gathered around a kitchen pass for a briefing',
+  'kitchen-team': 'Culinary and service colleagues preparing dishes together in a spacious professional kitchen',
+  'event-coordinator': 'An event coordinator and chef discussing the table plan in a light-filled venue',
+  'chef-at-the-pass': 'A chef placing a finishing herb on a plated fish dish at the kitchen pass',
+  'corporate-reception': 'A server offering canapés to guests at an evening business reception',
+  'shared-table-evening': 'Guests sharing dinner around a candlelit table on a villa terrace',
+}
+function AboutImage({ name, priority = false, sizes = '(min-width: 900px) 50vw, calc(100vw - 40px)' }: {
+  name: keyof typeof images
+  priority?: boolean
+  sizes?: string
+}) {
+  return <img className="ab-photo" src={IMAGE_ROOT + '/' + name + '-1200.webp'}
+    srcSet={[480, 800, 1200, 1536].map(width => IMAGE_ROOT + '/' + name + '-' + width + '.webp ' + width + 'w').join(', ')}
+    sizes={sizes} alt={images[name]} width={1536} height={1024}
+    loading={priority ? 'eager' : 'lazy'} fetchPriority={priority ? 'high' : 'auto'} decoding="async" />
+}
+const destinations = [
+  { name: 'Dubai', region: 'United Arab Emirates', href: '/', link: 'Discover myCHEF Dubai', text: 'Our newest chapter, opened in February. We bring the group’s international experience to households, private celebrations and business occasions across Dubai, with planning shaped around the city’s homes, venues and ways of hosting.' },
+  { name: 'Bali', region: 'Indonesia', href: 'https://mychef.id', link: 'Visit myCHEF Bali', text: 'Part of our established international operations. Bali connects our wider team with a place where private villas, shared meals and a warm welcome are central to the guest experience.' },
+  { name: 'Cape Town', region: 'South Africa', href: 'https://www.mychefs.co.za', link: 'Visit myCHEF South Africa', text: 'Our catering group also operates in Cape Town. It is another home for the same belief that a memorable occasion starts with good food and the people who know how to look after a room.' },
+  { name: 'Hawaii', region: 'United States', href: 'https://mychef-hawaii.com', link: 'Visit myCHEF Hawaii', text: 'Hawaii is part of our international footprint, bringing another setting and perspective to the group. Across destinations, we value thoughtful preparation, generous hospitality and a meal that belongs to its occasion.' },
 ]
-
-// The split — the chef cooks; myCHEF does the four jobs around the chef.
-const split = [
-  { step: 'Match', desc: 'The chef is chosen for your household, not pulled from a list.' },
-  { step: 'Vet', desc: 'Credentials, licensing and food safety are checked before anyone cooks for you.' },
-  { step: 'Back up', desc: 'A day off or a sick day is covered, so the household keeps eating.' },
-  { step: 'Review', desc: 'Placements are reviewed after service, and the standard is held.' },
+const roles = [
+  { title: 'Culinary talent', body: 'Chefs turn your preferences into a menu that works for the occasion. Cuisine, ingredients, dietary requirements and the available kitchen all matter. We match the culinary approach to your brief, with independent, licensed chefs and catering partners carrying out the cooking.' },
+  { title: 'Event coordination', body: 'Your coordinator brings the moving parts together: the menu, guest numbers, service style, arrival arrangements and agreed timings. You have a clear point of contact who understands the whole brief and can take a question to the right person.' },
+  { title: 'Service and hospitality', body: 'Service professionals look after the experience around the food. For staffed bookings, we agree the support your occasion needs, from welcoming guests and offering canapés to serving courses and clearing the table. The right presence is attentive, warm and appropriate to the room.' },
+  { title: 'Operations and support', body: 'Behind the guest-facing team are the people checking schedules, access, equipment and the practical details of delivery. Their work connects the plan with the venue, so the chef and service team arrive with a shared understanding of what has been agreed.' },
 ]
-
-const team = [
-  { image: '/team-head-chef.webp', name: 'Head chef', role: 'Plated dinners', bio: 'The chef who designs the menu is the chef who cooks it. Independent, licensed, assessed before they enter a house.', exp: 'Plated dinners' },
-  { image: '/team-sous-chef.webp', name: 'Italian kitchen', role: 'Sharing tables', bio: 'Pasta, grills and seafood served family-style when the table wants to share.', exp: 'Italian kitchens' },
-  { image: '/team-pastry-chef.webp', name: 'Pastry', role: 'Last course', bio: 'Pastry, chocolate and plated desserts planned with the rest of the menu, not added at the end.', exp: 'Dessert and pastry' },
+const standards = [
+  { title: 'People selected with care', body: 'We check the suitability of our culinary partners for the work they take on. Our selection process considers identity, experience, references and practical cooking ability, alongside the credentials relevant to the service. A good match includes both the food and the way a chef works in your space.' },
+  { title: 'Details agreed in writing', body: 'Your proposal should make the scope understandable: menu, guest numbers, staffing, timings, equipment and price. We identify inclusions and any additional requirements before you confirm. If the brief changes, we discuss what that means for the plan and the quote.' },
+  { title: 'Dietary needs taken seriously', body: 'Tell us about allergies, dietary requirements and ingredient preferences at the beginning. We take them to the culinary team and discuss the preparation arrangements for your booking. Clear information allows an informed decision about what can be accommodated; it also helps each guest receive the right meal.' },
+  { title: 'Respect for your space', body: 'A home is personal, and a company event carries your reputation. We brief the team on access, household or venue expectations, privacy and the agreed service areas. The end-of-service plan covers clearing and the kitchen handover, so you know what the team will take care of.' },
 ]
-
-// Communities that have their own page under /locations/:slug (see src/data/locations.ts).
-// Anything else renders as plain text instead of linking to "Location Not Found".
-const LOCATION_PAGES = new Set(
-  // A community is a link only while its page is live. Parked areas stay listed as places we
-  // serve — they are just not a link to a page Google has been asked to forget.
-  [
-  'palm-jumeirah', 'bluewaters-island', 'dubai-marina', 'jbr', 'jlt', 'jvc', 'downtown-dubai', 'difc',
-  'business-bay', 'emirates-hills', 'dubai-hills', 'arabian-ranches', 'jumeirah', 'umm-suqeim', 'al-barsha',
-  ].filter((slug) => !isParked(`/locations/${slug}`)),
-)
-const toLocationSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-')
-
-const locations = [
-  { group: 'Beach & Island', icon: Waves, items: ['Palm Jumeirah', 'Bluewaters Island'] },
-  { group: 'Marina & Waterfront', icon: Anchor, items: ['Dubai Marina', 'JBR', 'Dubai Creek Harbour'] },
-  { group: 'City Center', icon: Building2, items: ['Downtown Dubai', 'DIFC', 'Business Bay'] },
-  { group: 'Premium Residential', icon: TreePine, items: ['Emirates Hills', 'Dubai Hills', 'Jumeirah Islands', 'Jumeirah Golf Estates', 'Arabian Ranches'] },
-  { group: 'Traditional', icon: Landmark, items: ['Jumeirah', 'Umm Suqeim', 'Al Safa'] },
-  { group: 'Emerging', icon: Sprout, items: ['Al Barari', 'Meydan', 'Dubai Silicon Oasis', 'Dubai South'] },
+const journey = [
+  { title: 'Tell us what matters', body: 'Share your date, location, approximate guest count and the feeling you want to create. A favourite dish, a family tradition or a business objective can be a useful starting point.' },
+  { title: 'Shape the occasion', body: 'We discuss the menu and the way it will be served, then work through the venue, dietary needs and level of support. Your proposal brings those choices together with the costs.' },
+  { title: 'Bring the team together', body: 'Once you confirm, we finalise the agreed arrangements and brief the people delivering them. For full-service events, your coordinator keeps the planning connected and confirms the practical details with you.' },
+  { title: 'Welcome your guests', body: 'The team works to the agreed plan while you spend time with the people you invited. Afterwards, your feedback helps us understand what you enjoyed and what you would like next time.' },
 ]
-
+const questions = [
+  { question: 'Is myCHEF new to Dubai?', answer: 'Yes. We opened in Dubai in February. Our local business is new, while our wider team brings more than ten years of international catering experience. We are part of a catering group with operations in Bali, Cape Town and Hawaii as well as Dubai.' },
+  { question: 'What does the international group mean for my booking?', answer: 'It gives the Dubai business a wider base of culinary and hospitality experience to draw on. Your booking is still planned around your own location, guests and requirements. We confirm the team, service arrangements and scope for your Dubai occasion; we do not assume the same menu or format suits every destination.' },
+  { question: 'Do I get a free event coordinator?', answer: 'Complimentary event coordination is included with our full-service event bookings. Your coordinator helps organise the catering brief, menu decisions, service timings and agreed arrangements. Food, service staff, equipment and any additional event services are itemised in your proposal. For a simpler delivery or household booking, we explain the support included in that service.' },
+  { question: 'How big will the team at my event be?', answer: 'We have a large international team and partner network, but the people assigned to your occasion depend on the brief. Guest count, menu, service style, venue layout and timing determine the chef and service requirements. We discuss the proposed staffing with you instead of treating every event as the same package.' },
+  { question: 'Can I speak to someone before deciding?', answer: 'Of course. Tell us what you are considering, even if the guest numbers or menu are still taking shape. We can help you understand the options and what information is needed for a useful proposal. You can use the enquiry form, contact the team or start a conversation on WhatsApp.' },
+]
 const breadcrumbSchema = {
-  '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://www.mychef.ae/about' },
+    { '@type': 'ListItem', position: 2, name: 'About myCHEF', item: 'https://www.mychef.ae/about' },
   ],
 }
+const whatsapp = 'https://wa.me/971551744849?text=' + encodeURIComponent('Hi myCHEF, I would like to discuss a booking after reading your About page.')
 
 export default function About() {
-  useScrollTrigger()
-  const containerRef = useRef<HTMLDivElement>(null)
+  return <article className="ab-page" data-about-page>
+    <SEO title="Private Chef Company Dubai | Our Story | myCHEF"
+      description="Meet myCHEF, a private chef company Dubai hosts can turn to. Opened here in February, backed by a global catering team with over 10 years of experience."
+      canonicalPath="/about" ogImage={IMAGE_ROOT + '/hospitality-team-1536.webp'}
+      schema={aboutGraph(breadcrumbSchema)} />
 
-  useGSAP(() => {
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const ctx = gsap.context(() => {
-      if (reduced) {
-        gsap.set('.story-left, .story-right, .value-card, .team-card, .split-step, .coverage-item, .about-cta-content', {
-          opacity: 1, x: 0, y: 0, scale: 1,
-        })
-        return
-      }
-
-      // Story section
-      gsap.from('.story-left', {
-        opacity: 0, x: -30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.story-left', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-      gsap.from('.story-right', {
-        opacity: 0, x: 30, duration: 0.8, ease: 'power3.out', delay: 0.2,
-        scrollTrigger: { trigger: '.story-right', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // Values cards
-      gsap.from('.value-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.12, ease: 'power3.out',
-        scrollTrigger: { trigger: '.values-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // Team cards
-      gsap.from('.team-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.15, ease: 'power3.out',
-        scrollTrigger: { trigger: '.team-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // The split — four steps reveal in sequence
-      gsap.from('.split-step', {
-        opacity: 0, y: 24, duration: 0.7, stagger: 0.12, ease: 'power3.out',
-        scrollTrigger: { trigger: '.split-band', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // Coverage section
-      gsap.from('.coverage-item', {
-        opacity: 0, y: 20, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-        scrollTrigger: { trigger: '.coverage-section', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // CTA section
-      gsap.from('.about-cta-content', {
-        opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.about-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-    }, containerRef)
-
-    return () => ctx.revert()
-  }, { scope: containerRef })
-
-  return (
-    <div ref={containerRef}>
-      <SEO
-        title="Private Chef Company Dubai | myCHEF"
-        description="Private Chef Company Dubai: myCHEF matches, vets and backs up independent chefs for homes and events. You are not putting a chef on payroll."
-        canonicalPath="/about"
-        ogImage="/team-head-chef.webp"
-        preloadHero="/images/private-chef-2026/team-service-1200.webp"
-        schema={aboutGraph(breadcrumbSchema)}
-      />
-
-      {/* Section 1: Hero */}
-      <PageHero
-        eyebrow="ABOUT MYCHEF"
-        title="Private Chef Company Dubai: Hiring a chef is the easy part."
-        subtitle={"myCHEF is a private chef company in Dubai, connecting thoughtful menu planning with carefully selected culinary partners. We coordinate regular household cooking and one-off occasions, from the first conversation to the final clear-down."}
-        image="/images/private-chef-2026/team-service-1200.webp"
-        imageAlt="The myCHEF Dubai team of chefs, specialists and household managers in a Dubai kitchen with the skyline behind them"
-        imageWidth={1672}
-        imageHeight={941}
-        minHeight="full"
-        overlay="cinematic"
-        align="left"
-        titleEmphasis
-        imagePosition="center 32%"
-        cta={{ label: 'Request a quote', href: '/inquiry' }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
-      />
-
-      <TrustSignalStrip />
-
-      {/* Section 2: Our Story */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
-            <div className="story-left">
-              <SectionLabel>Our story</SectionLabel>
-              <DisplayHeading size="h2" className="text-black mb-8">
-                Restaurants have a system behind the chef. Homes usually do not.
-              </DisplayHeading>
-              <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
-                <p>myCHEF Dubai was created to make exceptional food easier to enjoy at home. Behind every booking is the planning a good kitchen depends on: the right chef, a clear brief, a considered menu and someone keeping the details together.</p>
-                <p>
-                  Independent, licensed culinary partners cook. myCHEF matches the chef, checks identity, cooking and references, holds a Food Profile of how the house eats, and stays the contact when something changes. You are not putting a chef on payroll.
-                </p>
-                <p>One dinner is catering. A chef who comes back is the household service. We send each brief to the product that actually fits it, rather than stretching one booking to cover both.</p>
-                <p>We work across Dubai: Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina and the communities listed below. The standard is the same. The kitchen and the gate are not.</p>
-              </div>
-            </div>
-            <div className="story-right">
-              <ServiceImage
-                src="/images/private-chef-2026/villa-evening-1200.webp"
-                alt="A chef grilling poolside at a Dubai villa at sunset. Experience concept shown."
-                width={1264}
-                height={848}
-                className="editorial-image w-full object-cover"
-                style={{ border: '1px solid rgba(200,164,92,0.3)' }}
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
+    <header className="ab-hero">
+      <div className="ab-container">
+        <nav className="ab-breadcrumb" aria-label="Breadcrumb"><Link to="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">About myCHEF</span></nav>
+        <div className="ab-hero-top">
+          <h1><span className="ab-kicker">Private Chef Company Dubai</span>{' '}A new chapter.<br />{' '}<em>A world of experience.</em></h1>
+          <div className="ab-hero-copy">
+            <p>Welcome to myCHEF, a private chef company Dubai hosts can call on for thoughtful food, warm service and a team that brings the details together. We opened in Dubai in February, building on more than ten years of international catering experience across our team.</p>
+            <div className="ab-actions"><Link className="ab-button" to="/inquiry?from=/about">Tell us about your occasion<ArrowUpRight size={17} aria-hidden="true" /></Link><a className="ab-text-link" href="#our-story">Our story<ArrowDown size={15} aria-hidden="true" /></a></div>
           </div>
         </div>
-      </section>
-
-      {/* Section 3: Values — numbered editorial rows, not an icon grid */}
-      <Section tone="ivory">
-        <Container>
-          <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-10 lg:gap-16 items-start">
-            <div className="lg:sticky lg:top-28">
-              <SectionLabel>The standard</SectionLabel>
-              <DisplayHeading size="h2" className="text-black">The standard we hold every chef to.</DisplayHeading>
-              <BodyCopy muted className="mt-5">
-                Four lines, kept short so they can be used. A chef we put forward is held to all four, and so are we.
-              </BodyCopy>
-            </div>
-            <ol className="values-grid border-t border-gray-200">
-              {values.map((v, i) => (
-                <li key={v.title} className="value-card grid grid-cols-[3.5rem_1fr] sm:grid-cols-[5rem_1fr] gap-x-4 sm:gap-x-6 py-7 border-b border-gray-200">
-                  <p className="font-playfair text-h3 text-gold-ink leading-none select-none">{String(i + 1).padStart(2, '0')}</p>
-                  <div>
-                    <h3 className="font-playfair text-h3 text-black mb-2">{v.title}</h3>
-                    <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[52ch]">{v.desc}</p>
-                  </div>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </Container>
-      </Section>
-
-      {/* Section 4: Team */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12 md:mb-16">
-            <SectionLabel align="center" tone="dark">The chefs we choose</SectionLabel>
-            <DisplayHeading size="h2" className="text-white mb-4">The chef matters. How we choose one matters more.</DisplayHeading>
-            <BodyCopy tone="dark" className="mx-auto">Behind every myCHEF evening is a chef we selected: identity, licensing and food safety checked before they cook for a client. We choose the talent. We hold the standard. The cooking is theirs.</BodyCopy>
-          </div>
-          <div className="team-grid grid md:grid-cols-3 gap-8 lg:gap-10">
-            {team.map((chef, i) => (
-              <article key={chef.name} className="team-card">
-                <div className="aspect-[3/4] overflow-hidden mb-5">
-                  <ServiceImage src={chef.image} alt={`${chef.name}, independent partner chef`} width={300} height={400} className="w-full h-full object-cover" loading="lazy" decoding="async" />
-                </div>
-                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold mb-2">
-                  {String(i + 1).padStart(2, '0')} · Independent partner chef
-                </p>
-                <h3 className="font-playfair text-h3 text-white leading-tight">{chef.name}</h3>
-                <p className="font-inter text-body-sm text-gray-300 mt-1">{chef.role} · {chef.exp}</p>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mt-4 pt-4 border-t border-white/10">{chef.bio}</p>
-              </article>
-            ))}
-          </div>
+        <div className="ab-hero-image"><AboutImage name="hospitality-team" priority sizes="(min-width: 1400px) 1280px, (min-width: 700px) calc(100vw - 80px), calc(100vw - 40px)" /></div>
+        <div className="ab-facts" aria-label="myCHEF at a glance">
+          <div><strong>10+ years</strong><span>International experience across our team</span></div>
+          <div><strong>Four destinations</strong><span>Dubai · Bali · Cape Town · Hawaii</span></div>
+          <div><strong>One considered experience</strong><span>Food, people and planning, brought together</span></div>
         </div>
-      </section>
+      </div>
+    </header>
 
-      {/* Section 5: The split — inline chain 01 → 02 → 03 → 04, not a stats band */}
-      <Section tone="charcoal" className="split-band">
-        <Container>
-          <div className="grid lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] gap-10 lg:gap-16 items-start">
-            <div>
-              <SectionLabel tone="dark">The split</SectionLabel>
-              <DisplayHeading size="h2" className="text-white">The chef cooks. We do the other four jobs.</DisplayHeading>
-              <BodyCopy tone="dark" className="mt-5">
-                The chef is an independent partner in your kitchen. myCHEF is the system around them: the part that keeps working on their day off.
-              </BodyCopy>
-            </div>
-            <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8 lg:gap-x-6 border-t border-white/10 pt-8">
-              {split.map((s, i) => (
-                <li key={s.step} className="split-step max-lg:border-l max-lg:border-gold/30 max-lg:pl-5">
-                  <p className="flex items-center gap-3 mb-3 font-playfair text-h4 text-gold leading-none select-none">
-                    <span>{String(i + 1).padStart(2, '0')}</span>
-                    {i < split.length - 1 && <ArrowRight size={16} className="hidden lg:inline-block text-gold/60" aria-hidden />}
-                  </p>
-                  <h3 className="font-inter text-body font-medium text-white mb-2">{s.step}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{s.desc}</p>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </Container>
-      </Section>
+    <nav className="ab-chapters" aria-label="On this page"><div className="ab-container">
+      <a href="#our-story">Our story</a><a href="#our-world">Our world</a><a href="#our-people">Our people</a><a href="#your-coordinator">Your coordinator</a><a href="#our-food">Our food</a><a href="#your-occasion">Your occasion</a><a href="#our-standards">Our standards</a>
+    </div></nav>
 
-      {/* Section 6: Coverage — hairline panels with concept icons, no placeholder map */}
-      <Section tone="white" className="coverage-section">
-        <Container>
-          <div className="max-w-[720px] mx-auto text-center mb-10 md:mb-14">
-            <SectionLabel align="center">Where we serve</SectionLabel>
-            <DisplayHeading size="h2" className="text-black">Twenty Dubai communities. The same standard in each.</DisplayHeading>
-            <BodyCopy muted className="mt-4 mx-auto">
-              Communities with their own page are linked. Not listed? Tell us the address. We serve all of Dubai.
-            </BodyCopy>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
-            {locations.map((loc) => (
-              <div key={loc.group} className="coverage-item bg-white p-6 lg:p-7">
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center border border-gold/35 text-gold-ink">
-                    <loc.icon size={18} strokeWidth={1.5} aria-hidden />
-                  </span>
-                  <h3 className="font-playfair text-h4 text-black">{loc.group}</h3>
-                </div>
-                <ul className="flex flex-wrap gap-x-5 gap-y-1">
-                  {loc.items.map((item) => {
-                    const slug = toLocationSlug(item)
-                    return (
-                      <li key={item} className="font-inter text-body-sm">
-                        {LOCATION_PAGES.has(slug) ? (
-                          <Link
-                            to={locationPath(slug)}
-                            className="inline-block py-1 text-gray-600 underline decoration-gold/40 underline-offset-4 transition-colors hover:text-gold-ink hover:decoration-gold-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-sm"
-                          >
-                            {item}
-                          </Link>
-                        ) : (
-                          <span className="inline-block py-1 text-gray-500">{item}</span>
-                        )}
-                      </li>
-                    )
-                  })}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </Section>
-
-      {/* Section 7: CTA Banner */}
-      <section className="about-cta bg-black section-padding">
-        <div className="about-cta-content container-custom text-center">
-          <DisplayHeading size="h2" className="text-white mb-4">Now tell us about your household.</DisplayHeading>
-          <BodyCopy tone="dark" className="mx-auto mb-8">
-            The occasion, the house, or the week you need covered: on WhatsApp, or request a quote. Prices and hours are agreed before any work starts.
-          </BodyCopy>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-black">Request a quote</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>
-          </div>
-          <p className="mt-6 font-inter text-body-sm text-gray-500">
-            Own a venue or manage properties?{' '}
-            <Link to="/partner-with-us" className="text-gold hover:underline">
-              Partner with us
-            </Link>
-            . Press or media inquiries? Visit our{' '}
-            <Link to="/press" className="text-gold hover:underline">
-              press kit
-            </Link>
-            . Chefs looking for work should read{' '}
-            <Link to="/become-a-mychef" className="text-gold hover:underline">
-              become a myCHEF chef
-            </Link>
-            .
-          </p>
+    <section className="ab-section" id="our-story" aria-labelledby="story-heading">
+      <div className="ab-container ab-story-grid">
+        <div><p className="ab-kicker">01 / The Dubai chapter</p><h2 id="story-heading">The private chef company Dubai hosts can get to know.</h2><p className="ab-statement">New to the city.<br /><em>Experienced in bringing people together.</em></p></div>
+        <div className="ab-prose">
+          <p>There is a point in a good evening when the host finally settles into their chair. The first plates arrive, conversation finds its rhythm, and nobody needs to leave the table to check what happens next. That is the feeling we want to make possible.</p>
+          <p>Our Dubai chapter began in February. We arrived as part of an international catering group already operating in Bali, Cape Town and Hawaii, with a large team whose experience spans more than ten years of catering around the world. Dubai is a new home for that experience and a new community to get to know.</p>
+          <p>We are building the local business around a simple idea: exceptional hospitality starts with listening. Before suggesting a menu, we want to understand who is coming, what you are celebrating and how you want people to feel. A relaxed family gathering and an important company reception ask different things of the kitchen and the service team.</p>
+          <p>Our role is to connect those details. We bring together culinary talent, event coordination and practical support, so your experience feels considered from the first conversation to the final clear-down. The ambition is personal: food you are excited to serve, people you feel comfortable welcoming and more time to enjoy your own occasion.</p>
         </div>
-      </section>
-    </div>
-  )
+      </div>
+    </section>
+
+    <section className="ab-section ab-dark" id="our-world" aria-labelledby="world-heading">
+      <div className="ab-container">
+        <div className="ab-section-intro"><div><p className="ab-kicker">02 / An international family</p><h2 id="world-heading">Four places.<br /><em>A shared love of hospitality.</em></h2></div><p>myCHEF is part of a wider catering group, with operations in Dubai, Bali, Cape Town and Hawaii. Each destination has its own character. What connects us is the care behind the meal: understanding the brief, preparing properly and making people feel welcome.</p></div>
+        <div className="ab-destinations">{destinations.map((place, index) => <div className="ab-destination" key={place.name}>
+          <span className="ab-destination-number" aria-hidden="true">0{index + 1}</span><p className="ab-kicker">{place.region}</p><h3>{place.name}</h3><p>{place.text}</p>
+          {place.href.startsWith('/') ? <Link className="ab-text-link" to={place.href}>{place.link}<ArrowUpRight size={15} aria-hidden="true" /></Link> : <a className="ab-text-link" href={place.href} target="_blank" rel="noopener noreferrer">{place.link}<ArrowUpRight size={15} aria-hidden="true" /></a>}
+        </div>)}</div>
+        <p className="ab-group-note">International experience informs our approach. Your Dubai booking is shaped around your guests, your venue and the service you choose.</p>
+      </div>
+    </section>
+
+    <section className="ab-section" id="our-people" aria-labelledby="people-heading">
+      <div className="ab-container">
+        <div className="ab-section-intro"><div><p className="ab-kicker">03 / The people behind the welcome</p><h2 id="people-heading">A big team.<br /><em>Care in every role.</em></h2></div><div className="ab-prose"><p>A beautifully finished plate is one part of the experience. Behind it are the people choosing the ingredients, checking the schedule, preparing the kitchen, setting the table and looking after your guests.</p><p>Our strength is the breadth of our international team and partner network. For each Dubai booking, we bring together the skills the occasion needs. A smaller dinner calls for a different team from a company reception, and we make that distinction when we plan your service.</p></div></div>
+        <div className="ab-team-image"><AboutImage name="kitchen-team" sizes="(min-width: 1400px) 1280px, (min-width: 600px) calc(100vw - 80px), calc(100vw - 40px)" /></div>
+        <div className="ab-roles">{roles.map((role, index) => <div key={role.title}><span className="ab-index" aria-hidden="true">0{index + 1}</span><h3>{role.title}</h3><p>{role.body}</p></div>)}</div>
+        <div className="ab-related-links"><Link className="ab-text-link" to="/our-chefs">Explore our chefs<ArrowUpRight size={16} aria-hidden="true" /></Link><Link className="ab-text-link" to="/how-we-vet-our-chefs">How chefs are vetted<ArrowUpRight size={16} aria-hidden="true" /></Link></div>
+      </div>
+    </section>
+
+    <section className="ab-section ab-cream" id="your-coordinator" aria-labelledby="coordinator-heading">
+      <div className="ab-container ab-split">
+        <div className="ab-split-image"><AboutImage name="event-coordinator" /></div>
+        <div className="ab-prose"><p className="ab-kicker">04 / Someone keeping it all together</p><h2 id="coordinator-heading">Your event coordinator.<br /><em>One less thing to think about.</em></h2>
+          <p className="ab-lead">A complimentary event coordinator is included with our full-service event bookings.</p>
+          <p>You may have a clear picture of the evening, or just a date and a reason to gather. Your coordinator helps turn that starting point into a practical catering plan, bringing your preferences and the team’s requirements into the same conversation.</p>
+          <p>They help you work through the menu, guest count, dietary needs and service timings. They also connect the kitchen and service arrangements with the venue: access, setup, the space available and when everything needs to be ready. You have someone who knows the brief when a question comes up.</p>
+          <p>We keep the scope clear. Coordination is complimentary within the full-service booking; food, service staff, equipment and any additional event services are set out in your proposal. If you need help beyond the catering arrangements, tell us at the start so we can explain the options and any additional costs.</p>
+          <Link className="ab-text-link" to="/inquiry?from=/about">Start planning with us<ArrowUpRight size={16} aria-hidden="true" /></Link>
+        </div>
+      </div>
+    </section>
+
+    <section className="ab-section" id="our-food" aria-labelledby="food-heading">
+      <div className="ab-container ab-split ab-split-reverse">
+        <div className="ab-split-image"><AboutImage name="chef-at-the-pass" /></div>
+        <div className="ab-prose"><p className="ab-kicker">05 / Food with a sense of occasion</p><h2 id="food-heading">Made for the people<br /><em>around your table.</em></h2>
+          <p className="ab-lead">The food should be a reason people remember the occasion.</p>
+          <p>That can mean a generous sharing table, delicate canapés that are easy to enjoy while talking, or a carefully paced sequence of plated courses. We start with the people eating and the way you want to host, then shape the dishes around that experience.</p>
+          <p>Our international background gives us a broad perspective on flavour and hospitality. The menu itself is developed for your booking, with attention to ingredient preferences, dietary requirements, portion sizes and the practical conditions of service. A dish has to work beautifully where it will be prepared and served.</p>
+          <p>We value the details that make food enjoyable: balance, texture, temperature and presentation. Just as much thought goes into the flow of the meal. Guests should feel comfortably looked after, whether they are sitting down for dinner or moving between conversations at a reception.</p>
+          <Link className="ab-text-link" to="/catering-dubai">Explore our catering approach<ArrowUpRight size={16} aria-hidden="true" /></Link>
+        </div>
+      </div>
+    </section>
+
+    <section className="ab-section ab-cream" id="your-occasion" aria-labelledby="occasion-heading">
+      <div className="ab-container">
+        <div className="ab-section-intro"><div><p className="ab-kicker">06 / The moments we help make</p><h2 id="occasion-heading">You bring the people.<br /><em>We help you welcome them.</em></h2></div><p>Some occasions are deeply personal. Others represent a company, a team or a new beginning. We listen to what yours means, then recommend the food and level of service that fit. Hospitality should feel at home in the setting you have chosen.</p></div>
+        <div className="ab-occasions">
+          <div><AboutImage name="shared-table-evening" /><div className="ab-occasion-copy"><p className="ab-kicker">At home & together</p><h3>For the moments that become memories.</h3><p>A birthday, an anniversary or simply a long-overdue dinner with friends deserves a host who has time to enjoy it. We help shape the menu and service around your guests, your home and the kind of evening you want to share.</p><p>Some hosts want an intimate plated dinner. Others prefer generous dishes passed around the table. We discuss the possibilities, including the practical kitchen and service needs, before settling on a plan.</p><Link className="ab-text-link" to="/events">Explore private occasions<ArrowUpRight size={16} aria-hidden="true" /></Link></div></div>
+          <div><AboutImage name="corporate-reception" /><div className="ab-occasion-copy"><p className="ab-kicker">For your company & your guests</p><h3>Hospitality that represents you well.</h3><p>When you host on behalf of a company, every detail contributes to the impression people take away. We plan food and service around the purpose of the gathering, whether you are welcoming clients, bringing colleagues together or marking an important milestone.</p><p>The agenda matters as much as the menu. We discuss serving times, the room layout, guest movement and the level of staffing, so the catering supports the event and gives your team space to focus on its guests.</p><Link className="ab-text-link" to="/corporate">Explore company occasions<ArrowUpRight size={16} aria-hidden="true" /></Link></div></div>
+        </div>
+        <p className="ab-service-note">Looking beyond a single event? Discover our <Link to="/private-chef-dubai">chef service for everyday life at home</Link>. Hosting on the water? Explore <Link to="/yachts">our yacht service</Link>, with planning shaped around the vessel and itinerary.</p>
+      </div>
+    </section>
+
+    <section className="ab-section" id="our-standards" aria-labelledby="standards-heading">
+      <div className="ab-container ab-standards-grid">
+        <div><p className="ab-kicker">07 / Confidence in the details</p><h2 id="standards-heading">Trust starts before<br /><em>the first plate.</em></h2><p className="ab-lead">Experience matters. So does knowing exactly what to expect from the people you invite into your home or event.</p><p className="ab-muted">We want you to feel comfortable asking questions. Clear answers, a considered proposal and a team that understands the brief are part of the service.</p></div>
+        <div className="ab-standards">{standards.map((standard, index) => <div key={standard.title}><span className="ab-index" aria-hidden="true">0{index + 1}</span><div><h3>{standard.title}</h3><p>{standard.body}</p></div></div>)}</div>
+      </div>
+    </section>
+
+    <section className="ab-section ab-dark" aria-labelledby="journey-heading">
+      <div className="ab-container"><p className="ab-kicker">08 / From an idea to an occasion</p><h2 id="journey-heading">A clear plan.<br /><em>A warmer welcome.</em></h2>
+        <ol className="ab-journey">{journey.map((step, index) => <li key={step.title}><span className="ab-index" aria-hidden="true">0{index + 1}</span><h3>{step.title}</h3><p>{step.body}</p></li>)}</ol>
+      </div>
+    </section>
+
+    <section className="ab-section ab-cream" aria-labelledby="questions-heading">
+      <div className="ab-container ab-faq-grid"><div><p className="ab-kicker">Good to know</p><h2 id="questions-heading">A little more<br /><em>about myCHEF.</em></h2><p>Have a different question? <Link className="ab-inline-link" to="/contact">Talk to our team</Link>. We are happy to explain how the service could work for you.</p></div>
+        <div className="ab-faqs">{questions.map(item => <details key={item.question}><summary>{item.question}<Plus size={19} aria-hidden="true" /></summary><p>{item.answer}</p></details>)}</div>
+      </div>
+    </section>
+
+    <section className="ab-section ab-close" aria-labelledby="enquiry-heading">
+      <div className="ab-container"><p className="ab-kicker">Your next chapter</p><h2 id="enquiry-heading">Let’s make something<br /><em>worth gathering for.</em></h2><p>Tell us who you are bringing together and what you have in mind. We will help you explore the food, service and team that can make the occasion feel like yours.</p><div className="ab-actions"><Link className="ab-button" to="/inquiry?from=/about">Tell us about your occasion<ArrowUpRight size={17} aria-hidden="true" /></Link><a className="ab-text-link" href={whatsapp} target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp<ArrowUpRight size={16} aria-hidden="true" /></a></div><p className="ab-coverage-note">Serving homes and event venues across Dubai. <Link to="/locations">See the areas we serve</Link>.</p></div>
+    </section>
+  </article>
 }

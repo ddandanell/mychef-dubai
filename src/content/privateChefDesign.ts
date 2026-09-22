@@ -62,13 +62,13 @@ export const chefPageImages: Record<string, ChefImageKey> = {
   '/chefs/marco-italian-chef': 'pasta',
   '/chefs/layla-middle-eastern-chef': 'arabic',
   '/chefs/matteo-pastry-chef': 'dessert',
-  '/about': 'planning',
   '/how-it-works': 'planning',
   '/gallery': 'villa-evening',
   '/case-studies': 'villa-evening',
   '/quality-guarantee-dubai': 'craft',
 }
-export const isChefDesignPage = (path: string) => Object.hasOwn(chefPageImages, path)
+// About owns its own editorial images, while sharing the light page shell.
+export const isChefDesignPage = (path: string) => path === '/about' || Object.hasOwn(chefPageImages, path)
 /** Explicit mapping only: unrelated service images do not change by accident. */
 export const legacyChefImages: Record<string, ChefImageKey> = {
   "/images/blog/best-private-chef-birthday-dinner-dubai-2.webp": "birthday",

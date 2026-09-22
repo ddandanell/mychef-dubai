@@ -1,0 +1,236 @@
+{
+  "created_at": "2026-09-22",
+  "page": "/about",
+  "method": "Built-in image_gen imagegen",
+  "usage": "Six exclusive editorial assets for the About page; each image appears once. No named staff identities or claim of documentary coverage.",
+  "images": [
+    {
+      "key": "hospitality-team",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: a large, cohesive international catering team at the beginning of service in a beautiful contemporary Dubai venue. Nine adult professionals of varied backgrounds, men and women, chefs in spotless ivory chef jackets and dark aprons, two event coordinators in tailored neutral clothing and service staff in crisp white shirts. They are gathered naturally around one long kitchen pass, having a warm focused briefing rather than staring in a line at camera. A confident woman coordinator is listening to the head chef; a server holds a neat stack of plates. Open contemporary kitchen with travertine, brushed stainless steel, pale timber and soft architectural lines; bright daylight. Medium-wide documentary composition, whole people from waist upward, everyone within frame. No guest faces, no food handling with bare hands, no excess props. Premium but believable, warm and human. The team is the subject, no skyline montage.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-2a29a926-975b-464c-83b7-802c9a403ef3.png",
+      "web_assets": [
+        "/images/about-2026/hospitality-team-480.webp",
+        "/images/about-2026/hospitality-team-800.webp",
+        "/images/about-2026/hospitality-team-1200.webp",
+        "/images/about-2026/hospitality-team-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "c91534c438892628c5daea8354c7a52fa3efe371a4601ec52886eb91ab6f7f3f",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 33854,
+          "sha256": "2c096f15ed20bed9661362c111a29271cd366d7d8025e909ad16db2b8026695a"
+        },
+        {
+          "width": 800,
+          "bytes": 69822,
+          "sha256": "d96f5c77b2afefde5ae966320ad077a8f5346e85daabbf5436b29a1283b959e5"
+        },
+        {
+          "width": 1200,
+          "bytes": 117746,
+          "sha256": "1b9e8581ebec6dfe7208df70cf8bb41797f99aa8ea237e679e676faf7a5e4726"
+        },
+        {
+          "width": 1536,
+          "bytes": 159176,
+          "sha256": "07f8e01b93bc818f4f85ada6a5bed6c16f6b6ac036816fc2e28eafe1fa9a2f6d"
+        }
+      ]
+    },
+    {
+      "key": "event-coordinator",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: a professional female event coordinator and a male chef quietly refining the plan at a beautifully prepared event venue, candid side-on view. Coordinator in olive tailored trousers and a cream blouse, chef in ivory jacket. They sit at a pale oak table with a closed laptop, subtle unmarked notebook and one ivory plate holding a sample canapé, softly out-of-focus dining tables beyond. Coordinator points to a blank understated floorplan sheet without legible text, chef listens, warm rapport. Natural daylight through tall windows, elegant Dubai villa setting, restrained flowers, linen texture. Waist-up medium environmental portrait, believable hands, elegant spacious composition. Communicate thoughtful complimentary planning and one calm point of contact, no phone-to-ear stock pose.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-948961eb-053f-41be-b3e2-07e5821ac860.png",
+      "web_assets": [
+        "/images/about-2026/event-coordinator-480.webp",
+        "/images/about-2026/event-coordinator-800.webp",
+        "/images/about-2026/event-coordinator-1200.webp",
+        "/images/about-2026/event-coordinator-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "586313ffafe38ae314a7d4d08a00d7aadedbc134aa8e940610d94a5b5d3bf1b2",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 27600,
+          "sha256": "8a312e39d5df8efebafd0be92ca4aba42807f9f523e5d1593082736ea45227b3"
+        },
+        {
+          "width": 800,
+          "bytes": 54504,
+          "sha256": "d52ed1c98f73b8838c56a4f745bff60d059b6d02379345aae812e8ca1362034d"
+        },
+        {
+          "width": 1200,
+          "bytes": 89738,
+          "sha256": "e077857be8bd94eefe3e344d459c8757b42633350872d6d74d384c591acf47da"
+        },
+        {
+          "width": 1536,
+          "bytes": 123040,
+          "sha256": "31e19a64162d0aca3162e33af58ff2420a51145ef3e627d87e7f8e60fc7cb47d"
+        }
+      ]
+    },
+    {
+      "key": "chef-at-the-pass",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: a focused professional chef finishing a refined dish at the pass of a contemporary catering kitchen. Close environmental side view of a woman chef with dark hair neatly restrained, clean ivory chef jacket, using long chef tweezers to place a small herb onto a fine porcelain plate; only one hand doing the delicate action and anatomically correct fingers. Dish is roasted seabass with fennel, golden sauce and a few herbs, precisely plated but an appetising real portion. Three other finished identical plates further down the pass, soft background with another chef out of focus. Directional warm window light, subtle steam, satin stainless steel and handcrafted ceramic textures. Fine food magazine aesthetic with real cooking craft; no dramatic sparks, no naked flame, no clutter, no words.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-ce26760d-e45d-48dd-8852-655538c5f5d2.png",
+      "web_assets": [
+        "/images/about-2026/chef-at-the-pass-480.webp",
+        "/images/about-2026/chef-at-the-pass-800.webp",
+        "/images/about-2026/chef-at-the-pass-1200.webp",
+        "/images/about-2026/chef-at-the-pass-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "4d171164c305c5b37211453b870e2e3873dc110f44b478476cc5cb629cf2391c",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 28722,
+          "sha256": "f5d8b94f08a0c36b720dcf74d24c4581dddee6b841e8f9415e0e06ee376900f2"
+        },
+        {
+          "width": 800,
+          "bytes": 57288,
+          "sha256": "1e45b6ff82a5968a947ec6cd44cfb5a337fc423725d1ed4a99c0fe8d74fedf74"
+        },
+        {
+          "width": 1200,
+          "bytes": 98318,
+          "sha256": "632376029b18379cfb2000a321a27174d6496f8c3dc63b035c8ec408371dcdf1"
+        },
+        {
+          "width": 1536,
+          "bytes": 134368,
+          "sha256": "27c801c92471cc848dc2c59b337ef07342bc350154a85da68a6f32c9bf011b8e"
+        }
+      ]
+    },
+    {
+      "key": "kitchen-team",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: a candid wide editorial photograph of a catering kitchen working in rhythm before an event. Six adult culinary and service professionals of varied backgrounds in coordinated clean ivory chef jackets, dark aprons and proper tidy hair restraints. One chef checks trays of finished roasted vegetables with tongs, two plate dishes at a long immaculate pass, a server collects a tray. Each has a distinct natural task, no posing for camera. Sophisticated spacious professional kitchen with pale stone, stainless steel worktops, soft open shelving and warm overhead lighting; not a restaurant dining room. Medium-wide composition with depth and a clear foreground, readable faces and plausible equipment, food safely separated, no messy bare-handed handling. The atmosphere is organised, supportive and quietly energetic.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-217ea6a0-38a6-4cb6-9d8c-5c03e28fa8a1.png",
+      "web_assets": [
+        "/images/about-2026/kitchen-team-480.webp",
+        "/images/about-2026/kitchen-team-800.webp",
+        "/images/about-2026/kitchen-team-1200.webp",
+        "/images/about-2026/kitchen-team-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "0d23d369cb996f361664530831b66f367c5a6a6c7f36f7545413e77972342fa2",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 40058,
+          "sha256": "90534ca8ef6b12f382fbd2383e2a82f0f28b947ab7a0a6f96ddb7b2d5a2c9a7a"
+        },
+        {
+          "width": 800,
+          "bytes": 82348,
+          "sha256": "62990ff10bdd185e2279aa926288ee083f08c32a8be43f43e72880891121ce0f"
+        },
+        {
+          "width": 1200,
+          "bytes": 135106,
+          "sha256": "2592c17f1664376463318a61a2872e5b966a91ba3d041b1016580b83fc4dcd90"
+        },
+        {
+          "width": 1536,
+          "bytes": 182538,
+          "sha256": "0b1f18b068837dfd0e075ca50bf79a10c7c1e0e51a47d802648be8670ab53c83"
+        }
+      ]
+    },
+    {
+      "key": "corporate-reception",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: a beautifully run premium Dubai corporate evening reception, seen as a candid scene in a modern indoor-outdoor venue at blue hour. Adult guests in smart business clothing chatting naturally in small groups, a professional server in white shirt and dark waistcoat offering a small silver tray with elegant bite-size canapés. No one looks at camera. Architectural glass doors, softly illuminated stone, discreet flowers and olive foliage, polished ivory table linen, realistic understated urban lights in the background. Sophisticated but welcoming, no massive ballroom, no spectacle, no visible alcohol brands or signage. Medium-wide editorial framing with sharp natural server in foreground and guests softened in background. Correct hands, appropriate tray balance, beautiful warm light.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-6588ae02-36dc-497c-be44-1f48f7bd53f5.png",
+      "web_assets": [
+        "/images/about-2026/corporate-reception-480.webp",
+        "/images/about-2026/corporate-reception-800.webp",
+        "/images/about-2026/corporate-reception-1200.webp",
+        "/images/about-2026/corporate-reception-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "bbcb82dc5fc8f0bbb1d2f1d0c8069443cf36f26f4036b75b1356bd0cce9aeb62",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 27464,
+          "sha256": "d63bd85958ffd86e1ca2711c974b1fd0532cf189f427b1f362ec66987ebed723"
+        },
+        {
+          "width": 800,
+          "bytes": 55894,
+          "sha256": "0423d3ea7855866893ed8795868b18655d99080880cb2b4e4fd9475e9f18370d"
+        },
+        {
+          "width": 1200,
+          "bytes": 91608,
+          "sha256": "7ef21ac632c63894a19540ff5f49de77f6070932454b928ac660a302ec2c8a8d"
+        },
+        {
+          "width": 1536,
+          "bytes": 120806,
+          "sha256": "690344b468794704614e7fa7e939b737db47e0fbf622a27f8afb2fc1d0ea7d6b"
+        }
+      ]
+    },
+    {
+      "key": "shared-table-evening",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium hospitality website editorial photograph, landscape 1536x1024. Style: exceptionally natural, refined editorial photography, warm ivory, sage and deep olive tones, real skin texture, no glossy stock-photo poses. Clean realistic professional hospitality details. No text, logos, badges, captions, collages or watermarks. Make one coherent photograph. Natural human anatomy, distinct faces and plausible hands. Do not imitate or identify any real person. Primary request: the atmosphere of a carefully hosted private celebration at an elegant Dubai villa terrace at dusk. A long beautifully proportioned dining table for twelve, soft ivory linen, pale ceramic plates, elegant water glasses, low white floral arrangements and candles in safe glass holders, with generous Mediterranean sharing dishes of grilled vegetables, sea bass, leafy salads and fresh bread. Eight or ten adult guests are seated in candid relaxed conversation, with a discreet server setting one large platter down correctly. Side view from one end, nobody posing, people not dominant close-ups. Warm amber interior light opens onto terrace, dark garden foliage beyond, quietly luxurious and lived-in. Realistic setting distances, table legs and chairs, no impossible utensils, no text or logos.",
+      "source": "/workspace/scratch/0813a4f8cdb7/generated_images/exec-334a0d2b-c116-4ee7-811f-6bb2e9e44b76.png",
+      "web_assets": [
+        "/images/about-2026/shared-table-evening-480.webp",
+        "/images/about-2026/shared-table-evening-800.webp",
+        "/images/about-2026/shared-table-evening-1200.webp",
+        "/images/about-2026/shared-table-evening-1536.webp"
+      ],
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "original_pixel_sha256": "1ff9cdae20d8c71456d6e3f69373edcde8a5d22159b5cd007b153f434352ccb1",
+      "variants": [
+        {
+          "width": 480,
+          "bytes": 32384,
+          "sha256": "885ca6d2968188b9963435b3f47424bebd6ffb00aa60ba1d8340f392282da25f"
+        },
+        {
+          "width": 800,
+          "bytes": 68040,
+          "sha256": "aff4328b6a55b2eda873130a400cbd2e3bbdbe1092c36978e352914003a55a0e"
+        },
+        {
+          "width": 1200,
+          "bytes": 114880,
+          "sha256": "b1029d1f6977bf0ed026db39c3c2410520daeda5653e514c4fff9099fd7cb730"
+        },
+        {
+          "width": 1536,
+          "bytes": 156386,
+          "sha256": "9e32d6e3261e153137da984f457147003ec4b0415271284406b4333317d285c7"
+        }
+      ]
+    }
+  ]
+}
