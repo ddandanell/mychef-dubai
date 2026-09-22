@@ -1,0 +1,506 @@
+{
+  "checked_at": "2026-09-22",
+  "method": "React server-rendered homepage and every linked destination, decoded local image bytes, authoritative SEO contract",
+  "baseline_main_word_count": 1171,
+  "new_main_word_count": 2253,
+  "hero_words": 66,
+  "link_count": 45,
+  "unique_destination_count_including_home": 28,
+  "content_images": 5,
+  "responsive_files": 15,
+  "checks": [
+    {
+      "check": "Exactly one H1",
+      "passed": true
+    },
+    {
+      "check": "Title matches contract",
+      "passed": true
+    },
+    {
+      "check": "Description matches contract",
+      "passed": true
+    },
+    {
+      "check": "H1 matches contract",
+      "passed": true
+    },
+    {
+      "check": "Title within 65 characters",
+      "passed": true
+    },
+    {
+      "check": "Description within 160 characters",
+      "passed": true
+    },
+    {
+      "check": "Canonical points to homepage",
+      "passed": true
+    },
+    {
+      "check": "Homepage is indexable",
+      "passed": true
+    },
+    {
+      "check": "Primary in title, H1 and first 100 words",
+      "passed": true
+    },
+    {
+      "check": "Primary in exactly one H2",
+      "passed": true
+    },
+    {
+      "check": "Supporting phrases occur in body sentences",
+      "passed": true
+    },
+    {
+      "check": "Supporting phrases absent from headings/title",
+      "passed": true
+    },
+    {
+      "check": "Hero below 90 words",
+      "passed": true
+    },
+    {
+      "check": "Unique homepage anchor IDs",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /inquiry",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /inquiry?from=home",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #services",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #services",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #services",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #services",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #occasions",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #occasions",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #menus",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #menus",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #planning",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #planning",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: #questions",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: #questions",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /about",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /about",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /private-chef-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /weekly-meal-prep-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /weekly-meal-prep-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /catering-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /catering-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /catering-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /events",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /events",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /luxury-dining-experiences",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /luxury-dining-experiences",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /events",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /villas-private-residences",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /villas-private-residences",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /yachts",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /yachts",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /corporate",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /corporate",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /cuisines-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /cuisines-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /private-chef-dubai/how-it-works",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-dubai/how-it-works",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /inquiry?from=home",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /private-chef-dubai/pricing",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-dubai/pricing",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /dubai-catering-prices-guide",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /dubai-catering-prices-guide",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /catering-cost-calculator-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /catering-cost-calculator-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /our-chefs",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /our-chefs",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /how-we-vet-our-chefs",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /how-we-vet-our-chefs",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /locations/palm-jumeirah",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /locations/palm-jumeirah",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /locations/dubai-marina",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /locations/dubai-marina",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /locations/difc",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /locations/difc",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /locations",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /locations",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /blog",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /blog",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /blog/how-to-hire-a-private-chef-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /blog/how-to-hire-a-private-chef-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /blog/dinner-party-menu-ideas-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /blog/dinner-party-menu-ideas-dubai",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /blog/how-far-ahead-book-caterer-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /blog/how-far-ahead-book-caterer-dubai#start-with-the-complexity-of-the-event",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: /blog/how-far-ahead-book-caterer-dubai#start-with-the-complexity-of-the-event",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /contact",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /contact",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /about",
+      "passed": true
+    },
+    {
+      "check": "Link destination renders with a heading: /private-chef-vs-catering-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-vs-catering-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /cuisines-dubai",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /private-chef-dubai/pricing",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /dubai-catering-prices-guide",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /blog/how-far-ahead-book-caterer-dubai#separate-enquiry-proposal-and-confirmation",
+      "passed": true
+    },
+    {
+      "check": "Fragment exists: /blog/how-far-ahead-book-caterer-dubai#separate-enquiry-proposal-and-confirmation",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /inquiry?from=home",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /inquiry?from=home",
+      "passed": true
+    },
+    {
+      "check": "No redirected or prohibited destination: /contact",
+      "passed": true
+    },
+    {
+      "check": "All ten featured service destinations linked",
+      "passed": true
+    },
+    {
+      "check": "Descriptive image alt: /images/home-editorial-2026/table-at-dusk-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Image has explicit dimensions: /images/home-editorial-2026/table-at-dusk-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/home-editorial-2026/table-at-dusk-480.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/home-editorial-2026/table-at-dusk-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/home-editorial-2026/table-at-dusk-1120.webp",
+      "passed": true
+    },
+    {
+      "check": "Descriptive image alt: /images/private-chef-2026/family-table-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Image has explicit dimensions: /images/private-chef-2026/family-table-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/family-table-480.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/family-table-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/family-table-1200.webp",
+      "passed": true
+    },
+    {
+      "check": "Descriptive image alt: /images/private-chef-2026/craft-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Image has explicit dimensions: /images/private-chef-2026/craft-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/craft-480.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/craft-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/craft-1200.webp",
+      "passed": true
+    },
+    {
+      "check": "Descriptive image alt: /images/private-chef-2026/pasta-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Image has explicit dimensions: /images/private-chef-2026/pasta-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/pasta-480.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/pasta-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/pasta-1200.webp",
+      "passed": true
+    },
+    {
+      "check": "Descriptive image alt: /images/private-chef-2026/planning-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Image has explicit dimensions: /images/private-chef-2026/planning-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/planning-480.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/planning-800.webp",
+      "passed": true
+    },
+    {
+      "check": "Responsive image decodes at declared width: /images/private-chef-2026/planning-1200.webp",
+      "passed": true
+    },
+    {
+      "check": "Homepage retains business and website graph",
+      "passed": true
+    },
+    {
+      "check": "No unsupported homepage FAQ schema",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

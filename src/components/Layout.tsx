@@ -20,6 +20,8 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
+  // The homepage has an authored service journey and contextual links of its own.
+  const isHome = pathname === '/'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])
@@ -47,11 +49,11 @@ export default function Layout({ children }: LayoutProps) {
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
-          {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
+          {!isHome && !isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
-          {!isChefDesignPage(pathname) && <SiloChildren />}
+          {!isHome && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>
-        {!isChefDesignPage(pathname) && <SiloSection />}
+        {!isHome && !isChefDesignPage(pathname) && <SiloSection />}
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />

@@ -17,17 +17,17 @@
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
     "volume_status": "Not measured in this editorial audit",
-    "intent": "transactional",
+    "intent": "navigational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "myCHEF Dubai | Private Chefs & Exceptional Dining",
-    "description": "Private chefs for your home and thoughtful catering for Dubai events. Explore household plans, private dinners and menus tailored to your occasion.",
+    "title": "myCHEF Dubai | Exceptional Dining, Beautifully Arranged",
+    "description": "Discover myCHEF Dubai: private chefs, tailored menus and elegant catering for your home or occasion. Explore the services and begin your personal proposal.",
     "h1": [
-      "myCHEF Dubai: a private chef for your home and every occasion"
+      "myCHEF Dubai. Every meal, thoughtfully yours."
     ]
   },
-  "metadata_source": "local production prerender",
+  "metadata_source": "React server render of current source; production build verified",
   "indexation": {
     "canonical": "https://www.mychef.ae/",
     "robots": "index, follow",
@@ -35,179 +35,139 @@
     "redirect_to": null
   },
   "source_files": [
-    "src/components/LocationStrip.tsx",
+    "src/components/Layout.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
-    "src/content/cateringPricing.ts",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
-    "src/data/locations.ts",
-    "src/data/starterPackages.ts",
-    "src/hooks/useScrollTrigger.ts",
-    "src/lib/analytics.ts",
-    "src/lib/deferNonCritical.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts",
-    "src/lib/whatsapp.ts",
     "src/pages/Home.tsx",
-    "src/sections/CTASection.tsx",
-    "src/sections/GuidesTeaserSection.tsx",
-    "src/sections/HeroSection.tsx",
-    "src/sections/HowItWorksSection.tsx",
-    "src/sections/LeadMagnetModal.tsx",
-    "src/sections/LocationsSection.tsx",
-    "src/sections/ServicesSection.tsx",
-    "src/sections/StarterPackagesSection.tsx",
-    "src/sections/TeamSection.tsx",
-    "src/sections/TrustSection.tsx"
+    "src/styles/catering-editorial.css",
+    "src/styles/home-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
-    "baseline_word_count": 1321,
-    "current_word_count": 1171,
+    "baseline_word_count": 1171,
+    "current_word_count": 2253,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chefs and catering, shaped around you."
-      },
-      {
-        "level": "h3",
-        "text": "A chef for your home"
-      },
-      {
-        "level": "h3",
-        "text": "Catering for your occasion"
-      },
-      {
-        "level": "h3",
-        "text": "Luxury Dining Experiences"
-      },
-      {
-        "level": "h3",
-        "text": "Events & Celebrations"
-      },
-      {
-        "level": "h3",
-        "text": "Corporate Dining"
-      },
-      {
-        "level": "h3",
-        "text": "Villas & Residences"
+        "text": "Welcome to myCHEF Dubai."
       },
       {
         "level": "h2",
-        "text": "Explore our starting prices"
+        "text": "Everyday ease. Exceptional occasions."
       },
       {
         "level": "h3",
-        "text": "Date Night"
+        "text": "A chef who fits your life."
       },
       {
         "level": "h3",
-        "text": "Family Feast"
-      },
-      {
-        "level": "h3",
-        "text": "Birthday Celebration"
-      },
-      {
-        "level": "h3",
-        "text": "Weekly meal prep — one session"
-      },
-      {
-        "level": "h3",
-        "text": "Weekly meal prep — two sessions"
-      },
-      {
-        "level": "h3",
-        "text": "Corporate Dinner"
-      },
-      {
-        "level": "h3",
-        "text": "The Full Experience"
+        "text": "Hospitality with a sense of occasion."
       },
       {
         "level": "h2",
-        "text": "A carefully chosen chef. A clearly planned experience."
+        "text": "Some evenings deserve to linger."
       },
       {
         "level": "h2",
-        "text": "From your first idea to a beautifully served meal."
+        "text": "Different settings. The same care."
       },
       {
         "level": "h3",
-        "text": "Step 1: Tell us the job"
+        "text": "Gather for something special"
       },
       {
         "level": "h3",
-        "text": "Step 2: We match a chef and send a written plan"
+        "text": "Welcome guests to your villa"
       },
       {
         "level": "h3",
-        "text": "Step 3: They cook in your kitchen"
+        "text": "Take the occasion out to sea"
       },
       {
         "level": "h3",
-        "text": "Step 4: You stay with your people. We leave it handled."
+        "text": "Make business feel personal"
       },
       {
         "level": "h2",
-        "text": "Which areas in Dubai does myCHEF serve?"
-      },
-      {
-        "level": "h3",
-        "text": "JBR"
-      },
-      {
-        "level": "h3",
-        "text": "DIFC"
-      },
-      {
-        "level": "h3",
-        "text": "JLT"
-      },
-      {
-        "level": "h3",
-        "text": "Al Barsha"
-      },
-      {
-        "level": "h3",
-        "text": "Chefs and catering across Dubai"
+        "text": "Begin with what you love."
       },
       {
         "level": "h2",
-        "text": "Plan the details that make an occasion feel effortless."
+        "text": "Beautifully hosted. Clearly arranged."
       },
       {
         "level": "h3",
-        "text": "Event Catering Prices 2026"
+        "text": "Start with your plans"
       },
       {
         "level": "h3",
-        "text": "Wedding Menu Planning"
+        "text": "Shape the menu together"
       },
       {
         "level": "h3",
-        "text": "Yacht Catering Checklist"
+        "text": "Review your proposal"
       },
       {
         "level": "h3",
-        "text": "Dubai Food Trends 2026"
+        "text": "Enjoy being the host"
       },
       {
         "level": "h2",
-        "text": "Good hospitality begins with the right people."
+        "text": "The right service. A clear proposal."
+      },
+      {
+        "level": "h3",
+        "text": "For your household"
+      },
+      {
+        "level": "h3",
+        "text": "For your occasion"
       },
       {
         "level": "h2",
-        "text": "Tell us what you have in mind."
+        "text": "Skill in the kitchen. Care in your home."
       },
       {
         "level": "h2",
-        "text": "More from myCHEF Dubai"
+        "text": "Wherever your table is waiting."
+      },
+      {
+        "level": "h2",
+        "text": "A little inspiration. A better plan."
+      },
+      {
+        "level": "h3",
+        "text": "The questions worth asking."
+      },
+      {
+        "level": "h3",
+        "text": "A menu that suits the evening."
+      },
+      {
+        "level": "h3",
+        "text": "Give the details their time."
+      },
+      {
+        "level": "h2",
+        "text": "Before we set the table."
+      },
+      {
+        "level": "h2",
+        "text": "Let’s make room for something special."
       }
     ],
     "baseline_findings": [
@@ -219,7 +179,7 @@
       "F19",
       "F21"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/homepage-audit/2026-09-22/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {
