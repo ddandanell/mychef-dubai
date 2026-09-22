@@ -58,7 +58,7 @@ export const weddingHeroCopy = {
 
 export const siloIntro = {
   lead:
-    'This page is the wedding meal — menu, team, timing and service. It is not a wedding planner, and it is not every other event type. myCHEF designs the catering plan, matches you with vetted chefs, service professionals and licensed culinary partners, and stays your point of contact throughout.',
+    'Your wedding meal should feel considered from the first welcome bite to the last course. myCHEF brings together the menu, culinary team, service and timing, with one point of contact to coordinate the catering plan with your venue and wedding team.',
   cateringHref: '/catering-dubai',
   cateringLabel: 'Luxury catering in Dubai',
   eventsHref: '/events',
@@ -248,7 +248,7 @@ export const exampleEvents = [
     guests: '80 guests',
     venue: 'Private villa, Emirates Hills',
     setup: 'Arabic-Mediterranean fusion; roaming canapés, live grill and family-style sharing plates.',
-    outcome: 'Guests kept moving through canapés and sharing plates; the dance floor stayed full.',
+    outcome: 'A suggested format that gives guests time to mingle between canapés, sharing plates and dancing.',
     href: '/case-studies',
     linkLabel: 'Case studies',
   },
@@ -259,12 +259,12 @@ export const decisionModule = {
   intimateLead: 'Intimate table:',
   intimateBody:
     'with fewer guests the food can be more personal: a longer tasting menu, detailed plating, a sharing dinner. That brief often belongs with a private chef for a smaller table.',
-  cateringLead: 'Not a wedding:',
-  cateringBody: 'food-only through full event support for any other night sits on the catering hub.',
+  cateringLead: 'Planning another gathering:',
+  cateringBody: 'explore food delivery, staffed menus and full service for your other celebrations.',
   eventsLead: 'Another occasion:',
-  eventsBody: 'a birthday, corporate night or private party belongs on the events hub.',
+  eventsBody: 'explore menus and service for birthdays, corporate evenings and private parties.',
   dining:
-    'If the table is two covers, a tasting or a desert dinner, that is private dining — not this page.',
+    'For an intimate meal, tasting menu or desert setting, explore our private dining experiences.',
   chefHref: '/private-chef-dubai',
   chefLabel: 'Private chef services in Dubai',
   cateringHref: '/catering-dubai',

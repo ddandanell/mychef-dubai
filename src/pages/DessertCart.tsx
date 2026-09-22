@@ -23,7 +23,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A dessert cart in Dubai is gelato, sorbet, crepes or mini sweets served from a cart we bring, staff and collect. There is no published per-person floor for the cart alone. Live stations start from AED 150 per person, from 15 guests, on the Catering hub. This page canonicalises to live cooking stations.
+        A dessert cart in Dubai is gelato, sorbet, crepes or mini sweets served from a cart we bring, staff and collect. There is no published starting price per person for the cart alone. Live stations start from AED 150 per person, from 15 guests, on the Catering hub. This page canonicalises to live cooking stations.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Heat decides what can sit out. Dairy-free and nut-free pieces are named in the brief. The queue is staffed so you are not scooping.

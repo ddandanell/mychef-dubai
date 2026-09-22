@@ -146,15 +146,15 @@ export const dubaiBlock = [
 export const checklistFaqs = [
   {
     q: 'When should I book a wedding caterer in Dubai?',
-    a: 'Contact us three to six months before the wedding. Larger weddings and peak dates from November to March should begin earlier — often six to twelve months. Short-notice weddings may be possible depending on the venue, menu and partner availability. Do not wait until seven days out and expect a peak-season villa dinner.',
+    a: 'Contact us three to six months before the wedding. Larger weddings and peak dates from November to March should begin earlier — often six to twelve months. Short-notice weddings may be possible depending on the venue, menu and partner availability. Early enquiries give more time to assess the venue and secure the appropriate team.',
   },
   {
     q: 'What is a realistic wedding catering timeline in Dubai?',
-    a: 'Brief and date hold first. Menu direction next. Tasting after that — typically four to eight weeks before, or eight to twelve in peak season. Final guest count seven to fourteen days before. Setup about two hours before guests. This page is the sequence; the [wedding catering](/wedding-catering-dubai) page is how you hire.',
+    a: 'Brief and date hold first. Menu direction next. Tasting after that — typically four to eight weeks before, or eight to twelve in peak season. Final guest count seven to fourteen days before. Setup about two hours before guests. Explore [wedding catering](/wedding-catering-dubai) when you are ready to discuss the menu and team.',
   },
   {
     q: 'When is the wedding tasting?',
-    a: 'After the date is held and the menu direction is agreed, typically four to eight weeks before the wedding. Larger or peak-season weddings: eight to twelve weeks. A tasting is not a first date with a caterer you have not briefed.',
+    a: 'After the date is held and the menu direction is agreed, typically four to eight weeks before the wedding. Larger or peak-season weddings: eight to twelve weeks. Agree the menu direction first so the tasting helps you make useful final choices.',
   },
   {
     q: 'What questions should we ask a wedding caterer in Dubai?',
@@ -166,11 +166,11 @@ export const checklistFaqs = [
   },
   {
     q: 'Can you work on short notice?',
-    a: 'Sometimes. It depends on the venue, the menu and whether the right licensed partners are free. Send the date. We will say yes or no without theatre.',
+    a: 'Sometimes. It depends on the venue, the menu and whether the right licensed partners are free. Send the date. We will confirm what can be arranged within the available time.',
   },
   {
-    q: 'How much food for a wedding Dubai?',
-    a: 'There is no single number for how much food for a wedding Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per guest. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    q: 'How much food should we plan for a wedding in Dubai?',
+    a: 'The amount of food depends on the guest count, service format, menu and length of the celebration. Share the number of adults and children, any dietary requirements and whether the meal follows a canapé reception. The proposal confirms portions, menu quantities, staffing and the itemised cost, with 5% VAT separately stated.',
   },
   {
     q: 'How to plan wedding catering Dubai?',

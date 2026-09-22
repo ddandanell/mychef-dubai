@@ -522,7 +522,7 @@ export default function AnniversaryCatering() {
             ))}
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
-            An unnamed house night sits on{' '}
+            An informal gathering at home sits on{' '}
             <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">private party catering</Link>.
           </p>
         </div>

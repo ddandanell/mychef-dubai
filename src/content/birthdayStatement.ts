@@ -16,7 +16,7 @@ export const dualPath = {
     'Birthday catering Dubai is food, staff and clear-down in the house you already have. If you want to choose a format and extras, use the itemised proposal. If the evening needs a running order, a surprise, or a gated house, send a private brief.',
   catalogue: {
     title: 'Itemised birthday proposal',
-    body: 'Formats, published floors, optional extras. You see the lines before you confirm.',
+    body: 'Compare service formats, starting prices and optional extras before confirming your celebration.',
     href: birthdayInquiryHref(),
     label: 'Request my itemised birthday proposal',
     image: '/images/birthday-catering-dubai-buffet.webp',
@@ -98,7 +98,7 @@ export const eveningActs = [
   {
     act: 'Act 2',
     title: 'Cake, flowers or balloons, photographer',
-    body: 'The reveal and the record. Quoted after supplier confirmation. Not inside the catering floor.',
+    body: 'The reveal and the record. Quoted after supplier confirmation. Quoted separately from the catering package.',
     image: '/images/birthday-catering-dubai-cake-balloons.webp',
     imageAlt:
       'A chef placing a white botanical birthday cake on a villa table beside a lit pool. Experience concept shown.',
@@ -187,7 +187,7 @@ export const venueStages = [
 export const privateEveningBandsH2 = 'Typical private evenings we quote'
 
 export const privateEveningBandsIntro =
-  'These sit beside the per-person floors, not instead of them. The first line is a published starting point. The others describe evenings we typically quote for food and staff. Large production extras are separate lines. 5% VAT is shown on its own.'
+  'These sit beside the starting price per persons, not instead of them. The first line is a published starting point. The others describe evenings we typically quote for food and staff. Large production extras are separate lines. 5% VAT is shown on its own.'
 
 export const privateEveningBands = [
   {
@@ -200,7 +200,7 @@ export const privateEveningBands = [
     title: 'Staffed villa evening',
     who: '20–40 guests',
     figure: 'Typically AED 5,000–15,000 for food and staff',
-    note: 'A range of evenings we quote, not a published floor. Headcount, format and access move the figure.',
+    note: 'Illustrative budgets for different celebrations. Guest count, service format and venue access determine the final quote.',
   },
   {
     title: 'Statement night',

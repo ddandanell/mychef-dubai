@@ -50,13 +50,13 @@ export const partyHeroCopy = {
 
 export const siloIntro = {
   lead:
-    'This page is the unnamed house night: friends in, family in, a date on the calendar. Hosts searching party catering Dubai usually mean this brief. Two families and a toast belong on engagement. Wedding, birthday and company-event searches have their own pages.',
+    'Bring friends and family together with a menu that suits your home and the way you like to host. From housewarmings and poolside gatherings to anniversaries and relaxed evenings, we plan the food, service and timing around your guest list.',
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   cateringHref: '/catering-dubai',
   cateringLabel: 'Luxury catering in Dubai',
-  eventsNote: 'is the occasion hub. Use it when the night is still unnamed.',
-  cateringNote: 'is the format catalogue: food-only through full service.',
+  eventsNote: 'offers ideas for celebrations, receptions and gatherings of every size.',
+  cateringNote: 'covers food delivery, staffed buffets, live stations and full service.',
 } as const
 
 export const jumpNav = [
@@ -66,7 +66,7 @@ export const jumpNav = [
   { href: '#pricing', label: 'Formats & prices' },
   { href: '#menus', label: 'How food is served' },
   { href: '#how-it-works', label: 'How it works' },
-  { href: '#examples', label: 'Case studies' },
+  { href: '#examples', label: 'Party ideas' },
   { href: '#faqs', label: 'FAQs' },
   { href: '#get-quote', label: 'Quote' },
 ] as const
@@ -86,15 +86,15 @@ export const hostedHere = [
 ] as const
 
 export const hostedHereIntro =
-  'The occasion name changes. The job does not: a guest list, a kitchen that may be small, a clock, and a house you still have to live in tomorrow. Those nights stay on this page. They are not separate products.'
+  'Every gathering has its own rhythm. We plan around your guest list, available kitchen, serving space and preferred schedule, with clear arrangements for setup and clearance so the home remains comfortable throughout the occasion.'
 
 export const uniqueCardsIntro =
-  'If the night already has its own page (an engagement, a cocktail reception, a baby shower, a BBQ), use that brief. What follows are those pages, not another copy of this one.'
+  'Explore tailored menus and service ideas for engagement parties, cocktail receptions, baby showers and BBQ gatherings.'
 
 export const anniversaryBlock = {
   h2: 'An anniversary with friends at the table',
   paragraphs: [
-    'Two covers marking a year is a romantic dinner, not this page. An anniversary with friends at the table is a house night: a mixed guest list, a toast, and a kitchen that may not plate everyone at once.',
+    'An anniversary with friends deserves food and service that let everyone enjoy the moment. Share the guest list, menu preferences and timing of any toast so the meal fits naturally around the celebration.',
     "The menu and service are tailored to the occasion, whether you are celebrating a milestone or simply bringing friends and family together.",
   ],
   romanticHref: '/romantic-dinner-dubai',
@@ -105,7 +105,7 @@ export const graduationBlock = {
   h2: 'Graduation is a daytime mixed-ages table',
   paragraphs: [
     'A graduation at home is usually lunch or a late afternoon, not an evening party. Grandparents, siblings and classmates eat at different speeds. The brief is daytime food, earlier service, and a menu that does not assume a night out.',
-    'That stays on this page as a use-case. It is not a separate product.',
+    'Choose a relaxed service format that gives guests time to gather, eat and celebrate together.',
   ],
 } as const
 
@@ -302,10 +302,10 @@ export const decisionModule = {
     'best when everyone sits at one table and dinner is the event: cooked in your kitchen, at the pace of the conversation.',
   partyLead: 'Private party catering:',
   partyBody:
-    'best when the guest list outgrows one stove, people stand, or the kitchen cannot plate the room at once. That is this page.',
+    'well suited to a larger guest list, a standing reception or a home where food is best prepared and served through a coordinated catering setup.',
   events:
-    'If you are still choosing between a wedding, a birthday, a company event or a house party, start on the events hub.',
-  catering: 'If the question is food-only through full service, that sits on catering, not this occasion page.',
+    'Explore our event catering options for menus and service tailored to weddings, birthdays, company events and house parties.',
+  catering: 'Compare catering formats from delivered food to a fully staffed event, then choose the support that suits your gathering.',
   chefHref: '/private-chef-dubai',
   chefLabel: 'Private chef services in Dubai',
   eventsHref: '/events',
@@ -374,8 +374,8 @@ export const exampleEvents = [
 
 export const partyFaqs = [
   {
-    q: 'Is this the same as event catering, luxury catering or an engagement?',
-    a: 'No. This page is the unnamed house night: friends, family, an anniversary with friends, a graduation, a pool gathering, a housewarming. Two families and a toast sit on [engagement party catering](/engagement-catering-dubai). [Event catering in Dubai](/events) is the occasion hub. [Luxury catering in Dubai](/catering-dubai) is food-only through full service.',
+    q: 'What kinds of private parties can you cater?',
+    a: 'We plan menus for gatherings with friends and family, including anniversaries, graduations, pool parties and housewarmings. For an engagement celebration, explore [engagement party catering](/engagement-catering-dubai). You can also compare [event catering options](/events) and the full range of [catering services](/catering-dubai).',
   },
   {
     q: 'How is a house party priced?',
@@ -386,12 +386,12 @@ export const partyFaqs = [
     a: 'Drop-off starts from 10 guests, with a minimum order of AED 900. A standard event buffet starts from 20 guests. Under around 10 guests, a [private chef](/private-chef-dubai) cooking in your kitchen is usually the better product.',
   },
   {
-    q: 'Is an anniversary on this page?',
+    q: 'Can you cater an anniversary party at home?',
     a: "Yes. We can plan an anniversary dinner with friends, with a menu and service suited to your gathering. For a private celebration for two, explore our [romantic dinner options](/romantic-dinner-dubai).",
   },
   {
     q: 'Do you cater graduations?',
-    a: 'Yes, as a daytime mixed-ages table on this page, not as a separate URL. Earlier service, a menu that does not assume a night out, and a guest list that usually spans three generations.',
+    a: 'Yes. A graduation can be planned as a relaxed daytime gathering or an evening celebration. We shape the menu, portions and service around the age range, guest count and schedule, including time for photographs or speeches.',
   },
   {
     q: 'Is the food halal?',

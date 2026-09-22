@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     q: 'How many guests can you cater a BBQ for?',
-    a: `The published floor is ${BBQ.minGuests} guests. Above that we add grill chefs and stations so the queue does not stall. Tell us the headcount and we size the line.`,
+    a: `The minimum booking is ${BBQ.minGuests} guests. Above that we add grill chefs and stations so the queue does not stall. Tell us the headcount and we size the line.`,
   },
   {
     q: 'How far in advance should I book BBQ catering?',
@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     q: 'How much does BBQ catering in Dubai cost per person?',
-    a: `BBQ and live stations start from AED ${BBQ.fromPerPerson} per person, the same floor as the Catering hub, Menus and the calculator. Indicative market sits around AED ${BBQ.typicalMin}–${BBQ.typicalMax}. Cuts, extra stations and waiters move the total. 5% VAT is a separate line. Household chef visit rates are not this product.`,
+    a: `BBQ and live stations start from AED ${BBQ.fromPerPerson} per person. Indicative market prices are around AED ${BBQ.typicalMin}–${BBQ.typicalMax}. Cuts, extra stations and waiters move the total. 5% VAT is a separate line. Recurring household chef services are priced separately.`,
   },
   {
     q: 'What is included in the price of your BBQ catering?',

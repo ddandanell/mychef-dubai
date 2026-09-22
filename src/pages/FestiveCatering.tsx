@@ -64,7 +64,7 @@ const festivePages = [
   {
     slug: '/ramadan-catering-dubai',
     title: 'Suhoor Catering',
-    description: 'A quieter pre-dawn sitting at home or in a villa, quoted on the Ramadan hub.',
+    description: 'A quieter pre-dawn sitting at home or in a villa, included in a tailored Ramadan catering proposal.',
     icon: Coffee,
   },
   {

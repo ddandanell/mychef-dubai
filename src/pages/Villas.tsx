@@ -149,7 +149,7 @@ export default function Villas() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
+          <SectionLabel>CUISINES FOR YOUR OCCASION</SectionLabel>
           <DisplayHeading className="text-black mb-6">The house is the same. The job is not.</DisplayHeading>
           <BodyCopy className="mb-5">
             Your villa chef works within the home and facilities you provide. We coordinate the match, food preferences, access arrangements and service plan with the culinary partner, and remain your point of contact as your requirements change.

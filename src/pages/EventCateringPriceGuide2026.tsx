@@ -56,7 +56,7 @@ const weddingBudgets = [
     label: 'Staffed wedding catering',
     guests: `From ${wedding.minGuests} guests`,
     budget: `From ${formatAed(wedding.fromPerPerson)} per person`,
-    style: 'Staffed wedding buffet or stations. Same floor as the Catering hub.',
+    style: 'Staffed wedding buffet or stations, tailored to the menu and venue.',
     bestFor: 'Villa receptions and seated weddings that need a team in the room',
   },
   {
@@ -76,8 +76,8 @@ const weddingBudgets = [
 ]
 
 const weddingAddOns = [
-  { item: 'Wedding cake', cost: 'Quoted as a line. No published floor.' },
-  { item: 'Dessert table', cost: 'Quoted with the catering. No published per-person floor.' },
+  { item: 'Wedding cake', cost: 'Quoted as a line. Price confirmed in the proposal.' },
+  { item: 'Dessert table', cost: 'Quoted with the catering. Priced to suit the menu and guest count.' },
   { item: 'Live cooking station', cost: `From ${formatAed(bbq.fromPerPerson)} per person, from ${bbq.minGuests} guests` },
   { item: 'Bar service', cost: 'Staff and kit quoted. Alcohol only where licensed.' },
   { item: 'Late-night station', cost: 'Quoted as extra service time and food. Not a published total.' },
@@ -116,7 +116,7 @@ const costFactors = [
   {
     icon: Utensils,
     title: 'Menu Complexity',
-    description: 'A standard buffet floor is not a plated tasting. Named proteins and extra courses move the written total.',
+    description: 'A buffet and a plated tasting menu require different preparation and staffing. Premium ingredients and extra courses affect the final quote.',
   },
   {
     icon: ChefHat,
@@ -183,7 +183,7 @@ const faqs = [
   },
   {
     q: 'How much does wedding catering cost in Dubai?',
-    a: 'Staffed wedding catering starts from AED 180 per person, from 20 guests, the same floor as the Catering hub. Multiply by headcount for a working total, then add staff, cake, stations and 5% VAT on the written quote. We do not publish a round lump sum for a “small wedding”.',
+    a: 'Staffed wedding catering starts from AED 180 per person, from 20 guests, with the menu and service confirmed in your proposal. Multiply by headcount for a working total, then add staff, cake, stations and 5% VAT on the written quote. We do not publish a round lump sum for a “small wedding”.',
   },
   {
     q: 'What information do I need for an accurate quote?',
@@ -198,7 +198,7 @@ const faqs = [
 const articleSchema = {
   '@type': 'Article',
   headline: 'Event Catering Price Guide Dubai 2026',
-  description: 'Published myCHEF floors for 2026 event catering: drop-off, buffet, canapés, BBQ, wedding, yacht and plated dining, plus package totals.',
+  description: 'myCHEF starting prices for 2026 event catering: drop-off, buffet, canapés, BBQ, wedding, yacht and plated dining, plus package totals.',
   author: { '@id': 'https://www.mychef.ae/#organization' },
   publisher: { '@id': 'https://www.mychef.ae/#organization' },
 }
@@ -310,7 +310,7 @@ export default function EventCateringPriceGuide2026() {
     <div ref={containerRef}>
       <SEO
         title="Event Catering Price Guide Dubai 2026 | myCHEF"
-        description="Event catering price guide Dubai 2026: the same published floors as the Catering hub. Wedding from AED 180, buffet from AED 120, plated AED 700–950. 5% VAT extra."
+        description="Event catering price guide Dubai 2026: compare myCHEF starting prices by service format. Wedding from AED 180, buffet from AED 120, plated AED 700–950. 5% VAT extra."
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"
         schema={schema}
@@ -367,10 +367,10 @@ export default function EventCateringPriceGuide2026() {
             Catering prices vary by service format. myCHEF starting prices are AED 90 per person for drop-off, AED 120 for a standard event buffet, AED 150 for canapés, BBQ and live stations, AED 180 for weddings and AED 280 for yachts. Bespoke chef-led plated dining is AED 700–950 per person, with scope and VAT confirmed in the proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Package totals are separate: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Household chef visit rates are not this page.
+            Package totals are separate: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Regular household chef visits are priced separately.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            The wider per-person list, including indicative market bands, lives on <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering prices</Link>. This guide is the 2026 event reading of the same floors.
+            The wider per-person list, including indicative market bands, lives on <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering prices</Link>. Use the format prices as a starting point for your 2026 event budget.
           </p>
         </div>
       </section>
@@ -434,7 +434,7 @@ export default function EventCateringPriceGuide2026() {
               Price Ranges by Event Type
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              From = myCHEF published floor. Indicative market = wider Dubai band, not a myCHEF floor. Same table as the catering prices guide.
+              “From” shows the myCHEF starting price. Indicative market ranges are provided for context. Compare the service inclusions as well as the per-person figure.
             </p>
           </div>
 
@@ -461,7 +461,7 @@ export default function EventCateringPriceGuide2026() {
             </table>
           </div>
           <p className="font-inter text-body-sm text-gray-500 text-center mt-6">
-            From = myCHEF published floor. Indicative market is a wider Dubai band, not a myCHEF start. Named ingredients, extra staff and venue access move the written total.
+            “From” shows the myCHEF starting price. Indicative market ranges provide wider context. Menu choices, additional staff and venue access affect the final written quote.
           </p>
         </div>
       </section>
@@ -512,7 +512,7 @@ export default function EventCateringPriceGuide2026() {
               </table>
             </div>
             <p className="font-inter text-body-sm text-gray-500 text-center mt-6">
-              Alcohol only where the venue is licensed or the quotation says so. Bar service is staff and kit, not a published per-person food floor.
+              Any alcohol service depends on the required venue permissions and a confirmed arrangement. Bar staff, equipment and drinks are itemised separately from the food menu.
             </p>
           </div>
         </div>
@@ -527,7 +527,7 @@ export default function EventCateringPriceGuide2026() {
               Corporate Catering Costs
             </h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto mt-4">
-              Same floors as the hub. The Corporate Dinner package is AED 4,500 for 10–15 guests, not a cruise.
+              The Corporate Dinner package starts at AED 4,500 for 10–15 guests. Yacht charter and yacht catering are quoted separately according to the booking.
             </p>
           </div>
 

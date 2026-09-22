@@ -32,7 +32,7 @@ const config: OccasionPageConfig = {
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering
         </Link>
-        . A larger unnamed house night belongs on{' '}
+        . A larger gathering at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering
         </Link>

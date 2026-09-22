@@ -16,7 +16,7 @@ export const schoolPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/school-catering-dubai-hero.webp',
-    alt: 'School catering Dubai: service team laying a labelled lunch line in a bright school dining hall, devices away. Experience concept shown.',
+    alt: 'School catering Dubai: service team laying a labelled lunch line in a bright school dining hall, devices away.',
     width: 1344,
     height: 752,
     subtitle:
@@ -50,27 +50,26 @@ export const schoolPage: InstitutionalPageContent = {
   figures: {
     afterBrief: {
       src: '/images/school-catering-dubai-hall.webp',
-      alt: 'Dubai school dining hall being prepared for lunch, service team setting tables. Experience concept shown.',
+      alt: 'Dubai school dining hall being prepared for lunch, service team setting tables.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
     afterDifference: {
       src: '/images/school-catering-dubai-pass.webp',
-      alt: 'Chef finishing roasted vegetables on a school lunch pass while a manager observes the empty hall. Experience concept shown.',
+      alt: 'Chef finishing roasted vegetables on a school lunch pass while a manager observes the empty hall.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
   },
   siloNote: (
     <>
-      School catering Dubai is this brief. School lunch delivery Dubai and school meal plans Dubai
-      are the same job. A full canteen fit-out sits on{' '}
+      Discuss school lunch delivery, meal plans and staffed lunch service. For a dedicated facility, explore{' '}
       <Link to={INSTITUTIONAL_PATHS.canteen} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         canteen management
       </Link>
-      . Early years sit on{' '}
+      . For younger children, explore{' '}
       <Link to={INSTITUTIONAL_PATHS.nursery} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         nursery catering
       </Link>
@@ -78,42 +77,42 @@ export const schoolPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'School catering Dubai, assessed for your school',
-    paragraphs: [
-      'A school canteen in Dubai is no longer a tuck shop with a microwave. It is inspected like any other food business, with extra rules on what may be sold to children. Dubai has 220 or more private schools. Exclusive canteen contracts are large, long, and awarded to kitchens that can show papers: not to the first WhatsApp cook who can do a pasta day.',
-      'Two things changed the brief. My School Food, launched in November 2025, put hundreds of thousands of students onto a registered-supplier model. The 2026 national guide for food in the school environment bans sugary and energy drinks, confectionery, fried food, nuts and processed meats in UAE schools. Healthy school lunch Dubai is now a compliance sentence, not a slogan on a menu board.',
-      'School catering companies in Dubai that still sell “yummy variety” without a labelled cycle will not survive a parent committee. You need a kitchen that can be inspected, a matrix a nurse can read, and a quote finance can compare.',
-      'School catering companies Dubai are hired for papers, not a pasta day. KHDA school catering Dubai is wellbeing language, not a food licence; education catering Dubai on this page is the meal programme, and canteen catering services Dubai for a full room sit on canteen management.',
-    ],
+    "h2": "School catering Dubai, assessed for your school",
+    "paragraphs": [
+      "School lunch has to work for pupils, teaching staff and the people managing a busy timetable. A considered programme combines familiar dishes, suitable portions and variety across the week with an organised way to order, receive and serve every meal.",
+      "Begin with the year groups, expected daily uptake and length of each lunch sitting. A school without a production kitchen may need delivered meals, while an existing servery may suit a staffed lunch line. A fully managed canteen requires a broader review of equipment, staffing and operating responsibilities.",
+      "Share the school food policy, dietary requirements and approval process before the sample cycle is written. The proposed culinary partner must be assessed for the setting, including any required permissions and documentation. Menu examples support that discussion; the school approves the final programme before launch.",
+      "The best brief also looks beyond the first week. Agree how attendance changes are reported, who approves substitutions and how feedback is gathered. These small operational decisions help the programme remain consistent through a busy term."
+    ]
   },
   difference: {
-    h2: 'Delivery, a line, or a managed canteen',
-    blocks: [
+    "h2": "Delivery, a lunch line or a managed canteen",
+    "blocks": [
       {
-        title: 'School lunch delivery',
-        body: 'Cooked that morning, packed by year group, logged on the van, laid out in your hall. School lunch delivery Dubai is the usual start when you do not yet want to own a canteen.',
+        "title": "School lunch delivery",
+        "body": "Meals are planned around the agreed delivery window and school receiving arrangements. Confirm how orders will be grouped, labelled and handed over for each year group."
       },
       {
-        title: 'A staffed lunch line',
-        body: 'School canteen catering Dubai with people behind the counter: hot held hot, cold held cold, allergens labelled, the room usable for the next sitting. This is still food service, not a software login.',
+        "title": "A staffed lunch line",
+        "body": "Discuss service staff, holding equipment, replenishment and clearance. The timetable should give pupils enough time to choose, collect and enjoy their meal."
       },
       {
-        title: 'A managed canteen',
-        body: 'Fit-out, staffing, menu cycle and cashless pre-order if the school wants it. That full brief lives on canteen management Dubai. This page stays with the meal programme.',
+        "title": "A managed canteen",
+        "body": "A wider operating proposal can include the kitchen, service counter, staffing and menu cycle. Ordering or payment systems are assessed alongside the food operation."
       },
       {
-        title: 'Written against the rules',
-        body: 'KHDA wellbeing language is not a caterer licence. Municipal food rules are. We write menus against the published bans and labelling rules, and we will not claim a listing we have not filed.',
+        "title": "Menus reviewed with the school",
+        "body": "Use the current school policy and applicable requirements to guide the cycle. Identify the person responsible for approving dishes and any later substitutions."
       },
       {
-        title: 'Halal and allergen labelling as default',
-        body: 'Halal proteins by default. Nut-aware production. The 14 declared allergens on the card, not in a PDF nobody opens during service.',
+        "title": "Clear dietary information",
+        "body": "Document ingredient and dietary information for the agreed menu. Specific allergy requests require an assessment of preparation and service conditions before accommodation is confirmed."
       },
       {
-        title: 'A tasting before a term',
-        body: 'Leadership and, where the school wants it, a parent panel taste before anyone signs a year. The first sitting is run as a trial unless you ask otherwise.',
-      },
-    ],
+        "title": "A considered introduction",
+        "body": "Discuss a tasting and trial service with school leadership. Review portion sizes, queue times, pupil feedback and the handover process before expanding the programme."
+      }
+    ]
   },
   table: {
     label: 'FORMATS',
@@ -128,20 +127,46 @@ export const schoolPage: InstitutionalPageContent = {
     note: 'We do not publish a from-price per child. Roll, format and diet list move the number. 5% VAT is its own line.',
   },
   compliance: {
-    h2: 'Requirements to review before service begins',
-    intro:
-      'Ask to see these before you award a year. We will not take a contract we cannot document.',
-    rows: [
-      { item: 'Education-supply food permit', who: 'DM Food Safety', see: 'Permit for schools, not only a restaurant licence' },
-      { item: 'My School Food / Foodwatch status', who: 'Dubai Municipality', see: 'Supplier status, dated' },
-      { item: 'Menus against the 2026 national guide', who: 'UAE / DM', see: 'No sugary drinks, confectionery, fried food, nuts, processed meats' },
-      { item: 'PIC Level 3 on the shift', who: 'DM-accredited trainer', see: 'Named person on the roster' },
-      { item: 'Allergen labelling (14 allergens)', who: 'Dubai Food Code', see: 'Cards on the line, matrix in the office' },
-      { item: 'Temperature logs', who: 'Dubai Municipality', see: 'Cold ≤5°C, hot ≥60°C, van permit' },
-      { item: 'Health cards for handlers', who: 'DHA', see: 'Cards matching the people on site' },
-      { item: 'Halal supply', who: 'Accredited body', see: 'Certificates matching the proteins on the cycle' },
+    "h2": "Documentation and responsibilities to confirm",
+    "intro": "Before a school catering service is agreed, review the proposed culinary partner and the requirements for your site with the responsible management team.",
+    "rows": [
+      {
+        "item": "Kitchen and business approvals",
+        "who": "Proposed culinary partner",
+        "see": "Current documents applicable to the kitchen and service scope"
+      },
+      {
+        "item": "Food safety procedures",
+        "who": "Culinary partner and site management",
+        "see": "Preparation, transport, receiving and holding arrangements"
+      },
+      {
+        "item": "Staffing and supervision",
+        "who": "Operations lead",
+        "see": "Named responsibilities, required training and cover arrangements"
+      },
+      {
+        "item": "Ingredients and dietary information",
+        "who": "Menu lead and site contact",
+        "see": "Current menu, ingredient information and agreed labelling"
+      },
+      {
+        "item": "School food policy and approvals",
+        "who": "School management and proposed provider",
+        "see": "Current requirements, menu approval and any applicable supplier registration"
+      },
+      {
+        "item": "Pupil dietary requirements",
+        "who": "School designated contact",
+        "see": "Agreed information-sharing, meal identification and escalation process"
+      },
+      {
+        "item": "Insurance and contract scope",
+        "who": "Procurement team",
+        "see": "Required cover, exclusions and responsibilities in writing"
+      }
     ],
-    note: 'Read the 2026 explainer if you have to brief a board. Cashless pre-order is a school choice, not a substitute for a kitchen.',
+    "note": "Required registrations, certifications and permissions are verified for the proposed provider and setting before confirmation. The proposal records the agreed scope and any conditions that must be met before service begins."
   },
   process: {
     h2: 'A clear review process for the school team',
@@ -153,76 +178,68 @@ export const schoolPage: InstitutionalPageContent = {
     ],
   },
   quoting: {
-    h2: 'How a school quote is built',
-    paragraphs: [
-      'Roll, format, diet list and the time children actually sit down. Those four change the kitchen more than a mood board does.',
-      'Hot lunch programmes you will see advertised in Dubai often sit in a band families already know. Managed canteens are a different product and are quoted per head per day after the walk. Neither number is published here as a myCHEF from-price.',
-      'Finance gets food, staff, equipment, delivery and 5% VAT on separate lines.',
-    ],
+    "h2": "How a school catering quote is built",
+    "paragraphs": [
+      "Share the school location, year groups, expected meal orders and operating days. The proposal considers the menu cycle, portion requirements, dietary arrangements and whether the school needs delivery, service staff or a managed facility.",
+      "Confirm the number of lunch sittings and what equipment the school provides. Ordering deadlines, term dates and handling of pupil absences should be clear, alongside the price for any agreed extras.",
+      "Review the full term budget as well as the meal price. Food, staff, transport and equipment are identified in the proposal, with 5% VAT shown separately. A trial can help validate the practical assumptions before a longer arrangement is agreed."
+    ]
   },
   trust: {
-    h2: 'A parent committee can open this',
-    items: [
+    "h2": "Plan the wider school food service",
+    "items": [
       {
-        title: 'Further reading on school food requirements',
-        body: 'What My School Food and the national guide actually ban, and what a caterer must be able to show you.',
-        href: '/blog/dubai-school-food-rules-2026',
-        linkLabel: 'Dubai school food rules 2026',
+        "title": "Canteen management",
+        "body": "Operating support for schools with a dedicated kitchen or dining facility.",
+        "href": "/canteen-management-dubai",
+        "linkLabel": "Canteen management"
       },
       {
-        title: 'Early years are a different kitchen',
-        body: 'Textures, portions and nut-free production for under-fives sit on their own page.',
-        href: INSTITUTIONAL_PATHS.nursery,
-        linkLabel: 'Nursery catering',
+        "title": "Nursery catering",
+        "body": "Separate planning for younger children and early-years meal routines.",
+        "href": "/nursery-catering-dubai",
+        "linkLabel": "Nursery catering"
       },
       {
-        title: 'If you need the room, not only the lunch',
-        body: 'Fit-out, staffing and cashless belong on canteen management: food, not a POS vendor.',
-        href: INSTITUTIONAL_PATHS.canteen,
-        linkLabel: 'Canteen management',
+        "title": "Dietary requirements",
+        "body": "Discuss ingredients, preparation arrangements and the information needed for an assessment.",
+        "href": "/allergy-safe-catering-dubai",
+        "linkLabel": "Allergy requirements"
       },
       {
-        title: 'How culinary partners are selected',
-        body: 'Identity, right-to-work, skill and references before anyone cooks for children.',
-        href: '/how-we-vet-our-chefs',
-        linkLabel: 'How we vet chefs',
-      },
-    ],
+        "title": "Culinary partner selection",
+        "body": "Understand the checks used when matching culinary professionals to a brief.",
+        "href": "/how-we-vet-our-chefs",
+        "linkLabel": "How we vet chefs"
+      }
+    ]
   },
   faqH2: 'What should I know before booking school catering in Dubai?',
   faqs: [
     {
-      q: 'What are Dubai school canteen nutrition standards?',
-      a: 'Municipal school-food rules plus the 2026 national guide: no sugary or energy drinks, confectionery, fried food, nuts or processed meats, with labelling and portion rules on top. Details in [Dubai school food rules 2026](/blog/dubai-school-food-rules-2026).',
+      "q": "Do you deliver lunches or operate the canteen?",
+      "a": "Both formats can be assessed. Delivered meals suit a school arranging its own service, while a staffed lunch line or managed canteen includes additional operational responsibilities. The proposal confirms which arrangement is suitable."
     },
     {
-      q: 'How much do school meals cost in Dubai?',
-      a: 'We do not publish a from-price. Delivered programmes and managed canteens are different products. The quote follows a site walk. 5% VAT is its own line.',
+      "q": "How are school menus developed?",
+      "a": "The school shares the year groups, meal schedule, dietary policy and approval requirements. A sample cycle is then reviewed for variety, portions and service practicality before the final menu is agreed."
     },
     {
-      q: 'How do I choose a school catering company in Dubai?',
-      a: 'Ask for the education-supply permit, the live allergen matrix, PIC cover, van logs, and a tasting. If they lead with an app login, send them to software. Food is this page.',
+      "q": "How are allergies considered?",
+      "a": "Provide the school requirements through the designated contact before menu approval. Ingredients, preparation conditions, labelling and handover arrangements must be assessed. A dish label alone does not guarantee an absence of cross-contact."
     },
     {
-      q: 'Do you work with KHDA schools?',
-      a: 'KHDA sets wellbeing expectations for private schools. Food permits sit with Dubai Municipality. We write against both. We do not use “KHDA-approved caterer” as a badge.',
+      "q": "Which documents should procurement review?",
+      "a": "Check the current documentation of the proposed provider against the school requirements, including relevant kitchen approvals, food safety arrangements and any required supplier registrations. Confirm these before the service begins."
     },
     {
-      q: 'Can parents pre-order?',
-      a: 'Yes, if the school wants a cashless or pre-order layer. That is a school choice. It does not replace a documented kitchen.',
+      "q": "Can we arrange a tasting or trial?",
+      "a": "Discuss a tasting with the school team and a trial service where useful. A trial provides a practical way to review portions, collection times, queue flow and feedback before agreeing a longer programme."
     },
     {
-      q: 'Do you cover allergens and halal?',
-      a: 'Halal by default. Allergen cards on the line. Nut-aware production. Specific certificates belong in the brief.',
-    },
-    {
-      q: 'What is the difference between this and canteen management?',
-      a: 'This page is the meal programme. [Canteen management](/canteen-management-dubai) is the room: fit-out, staffing, optional cashless.',
-    },
-    {
-      q: 'How soon can you start?',
-      a: 'Send the roll and the format. We tell you the same working day whether a kitchen can cover the week. A tasting and a trial sitting are normal before a term.',
-    },
+      "q": "How does this relate to canteen management?",
+      "a": "[School catering](/school-catering-dubai) focuses on the meal programme and lunch service. [Canteen management](/canteen-management-dubai) covers the wider operation of a dedicated facility, including agreed staffing and equipment responsibilities."
+    }
   ],
   locationTitle: 'School catering across Dubai',
   locationSubtitle: (

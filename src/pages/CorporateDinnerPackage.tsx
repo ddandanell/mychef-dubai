@@ -71,7 +71,7 @@ export default function CorporateDinnerPackage() {
         },
         {
           title: 'Corporate dining',
-          description: 'The corporate hub: lunches, retainers and dinners as a programme.',
+          description: 'Explore business lunches, recurring catering arrangements and corporate dinners.',
           image: '/service-corporate.webp',
           link: '/corporate',
         },

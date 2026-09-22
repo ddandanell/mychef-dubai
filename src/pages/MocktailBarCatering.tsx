@@ -157,7 +157,7 @@ const faqs = [
     q: 'How far in advance should I book a mocktail bar?',
     a: 'For smaller gatherings, one to two weeks is ideal. For larger or fully styled bars, we recommend two to four weeks. During Ramadan and peak season from November to March, earlier booking is strongly advised.',
   },
-  { q: "How much does a mocktail bar cost in Dubai?", a: "There is no published per-person floor for the bar alone. It is quoted as staff, kit and drinks with the catering. Full service with a bartender can sit as a 1.3 multiplier on the food floor. See [bar services](/bar-services-dubai)." },
+  { q: "How much does a mocktail bar cost in Dubai?", a: "A mocktail bar is quoted around the drinks menu, guest count, bartender hours and equipment. The proposal identifies each part of the service and any additional requirements. Explore [bar services](/bar-services-dubai) for more detail." },
   { q: "What is included in the price of your mocktail bar service?", a: "Every mocktail bar quote includes menu design, ingredient sourcing and shopping, the styled mobile bar, our bartenders on-site, fresh produce and house-made syrups, glassware, garnishes, and full clean-up afterwards. There are no hidden extras: what we quote is what you pay, plus 5% VAT. Optional additions like extra serving staff or a larger styled build are listed separately so you can choose." },
   { q: "Are there any hidden fees, or is 5% VAT included?", a: "Our proposals are transparent, and 5% VAT is shown clearly rather than added as a surprise at the end. The quote covers the bar, bartenders, ingredients, glassware, set-up, and clean-up, so you know the full cost before you confirm. If you would like anything extra, such as additional staff, we price it as a separate line so nothing is buried." },
   { q: "Do you follow food-safety and hygiene standards for the bar?", a: "Yes. Our team and kitchens operate to Dubai Municipality food-safety standards, and the same care applies to how we prepare, store, and serve every drink. Fresh fruit, juices, and syrups are handled hygienically from sourcing through to service, so your guests are looked after safely." },
@@ -292,7 +292,7 @@ export default function MocktailBarCatering() {
     <div ref={containerRef}>
       <SEO
         title="Mocktail Bar Catering Dubai | myCHEF"
-        description="A mocktail bar in Dubai is alcohol-free drinks, a bartender and a bar we bring. It lives on bar services, not a second ranking URL. Setup and clear-down included."
+        description="Mocktail bar catering Dubai with a tailored alcohol-free drinks menu, bartenders and bar equipment. Plan a polished drinks service for your celebration."
         canonicalPath="/bar-services-dubai"
         ogImage="/menu-cocktails.webp"
         hideSiteName
@@ -320,7 +320,7 @@ export default function MocktailBarCatering() {
             Mocktail Bar Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 moc-hero-sub">
-            A mocktail bar is alcohol-free drinks, a bartender and a bar we bring. It is bar services, not a second ranking page. Family tables, corporate rooms and Iftar sit on the same kit.
+            A mocktail bar brings a tailored alcohol-free drinks menu, a bartender and the agreed bar setup to your venue. Plan a considered drinks service for a family celebration, company event or Iftar gathering.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 moc-hero-cta">Get a Mocktail Bar Quote</Link>
@@ -347,7 +347,7 @@ export default function MocktailBarCatering() {
             Why this is not a second product
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A mocktail bar uses the same bartenders, glassware and counter as <Link to="/bar-services-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bar services Dubai</Link>. No alcohol in the drinks, the syrups or the garnishes. There is no published per-person floor for the bar alone. It is quoted with the catering.
+            A mocktail bar uses the same bartenders, glassware and counter as <Link to="/bar-services-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bar services Dubai</Link>. No alcohol in the drinks, the syrups or the garnishes. There is no published starting price per person for the bar alone. It is quoted with the catering.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Iftar, family birthdays, corporate launches and baby showers use this format when the room is dry. If you also want a licensed pour, that sits on the same proposal, only where the venue allows it. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the food.

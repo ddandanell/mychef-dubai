@@ -565,7 +565,7 @@ export default function BirthdayCatering() {
           <SectionLabel>WHAT THE CATERING PRICE COVERS</SectionLabel>
           <DisplayHeading className="text-black mb-4">Included on a staffed booking, optional around it</DisplayHeading>
           <BodyCopy className="mb-12">
-            Cake, drinks, children’s boxes and decoration are not hidden inside the per-person floor. They are listed so you can see what you are actually buying.
+            Cake, drinks, children’s boxes and decoration are quoted separately from the starting price per person. They are listed so you can see what you are actually buying.
           </BodyCopy>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {includedItems.map((item) => (
@@ -720,7 +720,7 @@ export default function BirthdayCatering() {
       <Section id="examples" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">A birthday we have run, and two common briefs</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Three ways to plan a birthday celebration</DisplayHeading>
           <BodyCopy className="mb-12">{exampleNote} See{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
@@ -800,7 +800,7 @@ export default function BirthdayCatering() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            {siloIntro.lead} Birthday party catering Dubai for a children’s afternoon or an adult dinner uses this page.
+            {siloIntro.lead} We tailor birthday party catering in Dubai for children’s afternoons, adult dinners and mixed-age gatherings.
             Broader food-only through full event support sits on{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.cateringLabel}

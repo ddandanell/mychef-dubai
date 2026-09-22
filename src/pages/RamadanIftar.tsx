@@ -165,7 +165,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Private Chef Dubai',
-    description: 'A standing household chef plan. One Iftar is catering; this page is the night, not the month.',
+    description: 'Explore a regular household chef arrangement for meals throughout Ramadan.',
     image: '/service-catering.webp',
     link: '/private-chef-dubai',
   },

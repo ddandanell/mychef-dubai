@@ -64,7 +64,7 @@ const lunchFormats = [
   {
     icon: Briefcase,
     title: 'Leadership dinner',
-    description: 'A small senior table. Same floors as above. The difference is headcount, timing and whether anyone stays in the room.',
+    description: 'A small senior table. The menu and service are tailored to the group size, meeting schedule and level of hospitality required.',
     link: '/corporate',
   },
   {
@@ -346,7 +346,7 @@ export default function BusinessLunchCatering() {
             Business lunch catering in Dubai keeps the meal aligned with your meeting. Choose a labelled working lunch delivered ready to serve, or a plated client lunch with attentive table service. Menus, access and timings are agreed around your agenda.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Delivered working lunches start from AED 90 per person. Chef-led plated client lunches are AED 700 to 950 per person. Choose the format that suits the meeting. Recurring team days sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A seated evening for 10 to 15 guests is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            Delivered working lunches start from AED 90 per person. Chef-led plated client lunches are AED 700 to 950 per person. Choose the format that suits the meeting. For regular team meals, explore <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A seated evening for 10 to 15 guests is the <Link to="/corporate-dinner-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate dinner package</Link>. Explore the full range of <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -367,7 +367,7 @@ export default function BusinessLunchCatering() {
                   title: '6-person boxed working lunch',
                   packageId: 'corp-lunch-boxed',
                   guests: 6,
-                  note: 'Billed at the 10-guest minimum and AED 900 order floor.',
+                  note: 'Subject to a minimum of 10 guests and an AED 900 order.',
                 },
                 {
                   title: '12-person boardroom sharing lunch',
@@ -390,7 +390,7 @@ export default function BusinessLunchCatering() {
               Business meeting catering that has to stay in the room is a working lunch: labelled boxes or sharing platters, timed to the agenda, devices off the table. Business lunch options in Dubai for a client pitch are plated. Downtown and Business Bay buildings change lift and loading times, so name the tower early.
             </p>
             <p>
-              Recurring company lunch belongs on office catering. A multi-session day belongs on conference catering. This page is the sitting that has a start time and a conversation attached.
+              Plan a business lunch around the meeting agenda, length of the break and style of service. For regular team meals, explore office catering; for a day of presentations and several meal breaks, explore conference catering.
             </p>
           </div>
         </div>

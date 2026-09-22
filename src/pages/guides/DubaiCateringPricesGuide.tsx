@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: 'How much does catering cost in Dubai?',
-    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. The published floor on this page is drop-off from AED 90; staffed formats typically sit from AED 180. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
+    a: 'Catering costs in Dubai depend on the occasion: guest count, menu, service style and staffing move the figure. Drop-off starts from AED 90 per person, while a standard staffed buffet starts from AED 120. Other formats have their own starting prices. Send the date, headcount and venue and you get an itemised proposal: food, chefs, staff, hire and 5% VAT shown separately: usually within a working day.',
   },
 ]
 
@@ -343,7 +343,7 @@ export default function DubaiCateringPricesGuide() {
               Catering Costs Per Person in Dubai
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              From = myCHEF published floor (same start on Menus and the calculator). Indicative market = wider Dubai band, not a myCHEF floor. Household chef visit rates are not in this table.
+              “From” shows the myCHEF starting price for each format. Indicative market ranges provide broader planning context; your menu, guest count and service requirements determine the final quote. Household chef visit rates are not in this table.
             </p>
           </div>
 

@@ -260,7 +260,7 @@ export default function EngagementCatering() {
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
           <BodyCopy className="mb-12">
-            Pick a format. Each card opens the page that explains it. Cuisine direction lives on{' '}
+            Choose a service format below, then explore menu inspiration through{' '}
             <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Cuisines
             </Link>

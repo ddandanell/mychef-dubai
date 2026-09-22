@@ -177,7 +177,7 @@ const relatedServices = [
   },
   {
     title: 'Mocktail bar',
-    description: 'Alcohol-free drinks on this same bar service. Not a second product page.',
+    description: 'A tailored selection of alcohol-free drinks, served by a bartender with the agreed bar setup.',
     image: '/service-events.webp',
     link: '/bar-services-dubai',
   },
@@ -349,10 +349,10 @@ export default function BarServices() {
             Bar services in Dubai can include bartenders, a mobile setup, glassware, ice and a drinks menu tailored to your event. Mocktails work across family and corporate occasions. Any alcohol service is confirmed with the venue or yacht operator and recorded in your booking.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            There is no published per-person floor for the bar alone. Staffing can sit inside a catering quote (full service with bartender is a 1.3 multiplier on the food floor). Spirits, BYO and extra hours are named as lines. 5% VAT is shown separately.
+            Bar service is quoted around the drinks menu, guest count, service hours and venue requirements. Your proposal identifies the bartending team, equipment and any additional arrangements, with 5% VAT shown separately. When booked with food, the bar forms part of one coordinated catering quote.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Pair the bar with <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> when the food is passed canapés. A dry room still gets a mocktail bar on this URL, not a second page.
+            Pair the bar with <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> when the food is passed canapés. A dedicated mocktail bar can provide a considered alcohol-free drinks service.
           </p>
         </div>
       </section>

@@ -39,7 +39,7 @@ export const OFFICE_SIBLING_LINKS = [
 ] as const
 
 export const OFFICE_RELATED_LINKS = [
-  { href: '/corporate', label: 'Corporate catering hub' },
+  { href: '/corporate', label: 'Corporate catering services' },
   { href: '/conference-catering-dubai', label: 'Explore our conference catering packages' },
   { href: '/corporate-retainer-dubai', label: 'Discuss regular office catering' },
 ] as const

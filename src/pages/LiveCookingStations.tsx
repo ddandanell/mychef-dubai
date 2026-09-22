@@ -55,7 +55,7 @@ const stationFormats = [
   {
     icon: Flame,
     title: 'Grill and BBQ',
-    description: 'Open flame where the venue allows it. Same floor as BBQ catering: from AED 150 per person, from 15 guests.',
+    description: 'Open-flame cooking where the venue permits it, from AED 150 per person, from 15 guests.',
     link: '/bbq-catering-dubai',
   },
   {
@@ -79,7 +79,7 @@ const stationFormats = [
   {
     icon: Flame,
     title: 'Shawarma station',
-    description: 'A live cone, carved to order, with breads, pickles and sauces. Same kitchen as the other stations. Not a separate product URL.',
+    description: 'Shawarma carved to order with breads, pickles and sauces, coordinated with the rest of your menu.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -91,7 +91,7 @@ const stationFormats = [
   {
     icon: Heart,
     title: 'Dessert cart',
-    description: 'Gelato or crepes as a station, not a standalone URL. Pair it with a dessert table when the room needs a finish.',
+    description: 'Finish the meal with a gelato or crêpe station, or pair freshly prepared sweets with a dessert table.',
     link: '/dessert-table-catering-dubai',
   },
 ]
@@ -184,9 +184,9 @@ const faqs = [
     q: 'How far in advance should I book live cooking stations?',
     a: 'For larger events and weddings, we recommend two to four weeks so we can plan the stations and staffing carefully. During peak season (November to March), earlier booking is strongly advised.',
   },
-  { q: "How much do live cooking stations cost in Dubai?", a: `Live cooking stations Dubai sit on the BBQ and live-station floor: from AED ${BBQ.fromPerPerson} per person, from ${BBQ.minGuests} guests. Extra counters, waiters and open-flame kit move the total. 5% VAT is a separate line. The calculator uses the same start.` },
+  { q: "How much do live cooking stations cost in Dubai?", a: `Live cooking stations Dubai start from AED ${BBQ.fromPerPerson} per person, with a minimum of ${BBQ.minGuests} guests. Extra counters, waiters and open-flame kit move the total. 5% VAT is a separate line. The calculator uses the same start.` },
   { q: "What's included in the price of a live cooking station?", a: "Every quote includes the full service: menu design, ingredient sourcing and shopping, the styled station counters and equipment, our chefs cooking live on the day, plating and serving, and complete cleanup afterwards. In short, we handle everything end to end so you host without lifting a finger. Serving staff beyond the station chefs are optional and easy to add, and 5% VAT applies to the final quote." },
-  { q: "Is there a minimum spend or minimum guest count for live stations?", a: `The published floor is ${BBQ.minGuests} guests, the same as BBQ and live stations on the Catering hub. Below that we will say so and point you at plated dining or a package rather than stretching a counter.` },
+  { q: "Is there a minimum spend or minimum guest count for live stations?", a: `The minimum booking is ${BBQ.minGuests} guests. For a smaller gathering, we can discuss a plated menu or dining package suited to the group.` },
   { q: "Are your chefs and stations licensed to Dubai food-safety standards?", a: "myCHEF coordinates services through culinary partners. Food handling, transport and service arrangements are reviewed for the booking. If your venue or organisation requires specific licensing or food-safety documentation, tell us early so the relevant information can be requested and reviewed before confirmation." },
   { q: "Is the food at your live stations halal?", a: "Yes, we source halal by default across all our live cooking stations, from carving and grill counters to street food and dessert. If your event has specific religious or sourcing requirements, just let us know when you enquire and we'll confirm every detail in your menu. We also cater fully halal private dining if you'd prefer a seated format." },
   { q: "How many live stations do I need for my guest count?", a: "Headcount and which dishes you want cooked set the number of counters. We will not publish a rigid guests-per-station promise. The proposal names how many chefs and stations." },
@@ -211,7 +211,7 @@ const relatedServices = [
   },
   {
     title: 'BBQ catering',
-    description: 'A live grill from AED 150 per person, from 15 guests. Same floor as these stations.',
+    description: 'A live grill from AED 150 per person, from 15 guests. Menu and staffing are confirmed in your proposal.',
     image: '/service-events.webp',
     link: '/bbq-catering-dubai',
   },
@@ -223,7 +223,7 @@ const relatedServices = [
   },
   {
     title: 'Shawarma station',
-    description: 'A live cone on this page. Not a separate catering company.',
+    description: 'Shawarma carved to order, with accompaniments chosen to suit the menu.',
     image: '/images/arabic-catering-dubai-hero.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -384,7 +384,7 @@ export default function LiveCookingStations() {
             Live cooking stations in Dubai combine a chef, the appropriate equipment and a focused menu at each counter. We plan the layout and service around guest numbers, venue facilities and safe access. Our service starts from AED {BBQ.fromPerPerson} per person, from {BBQ.minGuests} guests. Your proposal confirms the menu, stations and complete service scope.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Shawarma, an oyster bar and a dessert cart are stations on this page, not separate products. A live pasta station is a pan and a chef, not a class. Private cooking classes live on their own URL if that is the brief.
+            Choose stations that complement the occasion, from carved shawarma and freshly finished pasta to a dessert cart. The team assesses the menu, equipment and service space so the stations work together and guests can move comfortably between them.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Independent licensed partners cook. Power, fuel and ventilation are checked before we promise flame. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> when you want a buffet or plated service instead.

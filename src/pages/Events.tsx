@@ -150,8 +150,8 @@ export default function Events() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This page is the hub for the occasion, not a standing household chef and not the catering format catalogue.
-            Open the night you are hosting below. Broader food-only through full-service catering sits on{' '}
+            Plan the food and hospitality around the occasion you want to celebrate.
+            Explore the occasion you are hosting below. Explore food delivery and staffed service with{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
@@ -186,9 +186,9 @@ export default function Events() {
       <Section id="event-types" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Six event types. Open the page for the night you are hosting.</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Catering for the occasion you want to celebrate</DisplayHeading>
           <BodyCopy className="mb-12">
-            Wedding, birthday, corporate, villa, yacht and cocktail searches belong on those pages. This hub sends you there with the right brief.
+            Explore the occasion you are planning, from weddings and birthdays to corporate receptions, villa dinners and yacht celebrations.
           </BodyCopy>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {coreEvents.map((item) => (
@@ -360,7 +360,7 @@ export default function Events() {
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
           <BodyCopy className="mb-12">
-            Pick a format. Each card opens the page that explains it. Cuisine direction lives on{' '}
+            Choose a service format below, then explore menu inspiration through{' '}
             <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Cuisines
             </Link>

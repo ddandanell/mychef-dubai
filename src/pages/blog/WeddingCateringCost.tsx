@@ -149,7 +149,7 @@ export default function WeddingCateringCost() {
               through myCHEF is a food and beverage operation, not a package name. {WEDDING_IDENTITY}
             </BodyCopy>
             <BodyCopy className="mb-5">
-              This page is only about money: wedding catering prices in Dubai, the wedding catering cost per person, and how to read two quotes that look the same until you open the lines. Menus live on the{' '}
+              Understand wedding catering prices in Dubai, compare costs per person and see which details change the total. For help choosing the food, explore the{' '}
               <Link to={WEDDING_PATHS.menu} className="text-gold-ink underline underline-offset-4 hover:text-gold">
                 wedding menu planning guide
               </Link>
@@ -240,7 +240,7 @@ export default function WeddingCateringCost() {
               <Link to="/buffet-vs-plated-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
                 Buffet versus plated
               </Link>{' '}
-              is the service argument. This page is the money argument.
+              helps you compare the service experience and the staffing behind the price.
             </p>
           </Container>
         </Section>

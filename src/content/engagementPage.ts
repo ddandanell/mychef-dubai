@@ -57,7 +57,7 @@ export const siloIntro = {
   eventsLabel: 'Event catering in Dubai',
   partyHref: '/private-party-catering-dubai',
   partyLabel: 'Private party catering',
-  eventsNote: 'is the occasion hub — use it when the night is still unnamed.',
+  eventsNote: 'helps you explore menus and service for other celebrations.',
   partyNote: "offers tailored menus for birthdays, anniversaries and informal gatherings with friends.",
 } as const
 
@@ -65,7 +65,7 @@ export const jumpNav = [
   { href: '#who-leaves', label: 'Who this is for' },
   { href: '#pricing', label: 'Formats & prices' },
   { href: '#menus', label: 'How food is served' },
-  { href: '#gallery', label: 'Gallery' },
+  { href: '#catering-planning', label: 'Planning details' },
   { href: '#how-it-works', label: 'How it works' },
   { href: '#faqs', label: 'FAQs' },
   { href: '#get-quote', label: 'Quote' },
@@ -74,7 +74,7 @@ export const jumpNav = [
 export const whoLeaves = [
   {
     title: 'Planning the proposal celebration',
-    body: 'One person, one table, a ring. That night belongs on the proposal dinner page — or a romantic dinner if you have not opened that URL yet.',
+    body: 'An intimate proposal dinner for two, with a menu and setting planned around the moment you want to create.',
     href: '/proposal-dinner-dubai',
     linkLabel: 'Proposal dinner in Dubai',
   },

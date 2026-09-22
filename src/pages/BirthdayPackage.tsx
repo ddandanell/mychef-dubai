@@ -15,7 +15,7 @@ export default function BirthdayPackage() {
       name={pkg.name}
       seoTitle="Birthday Catering Packages Dubai | myCHEF"
       description="Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
-      intro="Birthday catering packages Dubai start at a published total: AED 3,600 for 8–12 guests. Canapés or a starter, a main, dessert, a cake option, a chef and service staff, setup and clear-down. That is a package price, not a per-person buffet floor. Larger rooms are quoted on the birthday catering page. Dietary notes go into the first draft. Halal is the default."
+      intro="Birthday catering packages Dubai start at a published total: AED 3,600 for 8–12 guests. Canapés or a starter, a main, dessert, a cake option, a chef and service staff, setup and clear-down. The figure covers the package for the stated group size. Larger rooms are quoted on the birthday catering page. Dietary notes go into the first draft. Halal is the default."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
       headline="Birthday Catering Packages Dubai"
@@ -47,7 +47,7 @@ export default function BirthdayPackage() {
       faqs={[
         {
           q: 'Can this package cater both kids and adults?',
-          a: 'Yes. Mixed-age tables are written as such: milder plates for children, the same kitchen for adults. Kids birthday catering packages Dubai hosts ask about sit on this page when the guest count is still 8–12.',
+          a: 'Yes. Mixed-age tables are written as such: milder plates for children, the same kitchen for adults. The package can be discussed for a birthday group of 8–12 with both adults and children.',
         },
         {
           q: 'Do you provide a birthday cake?',
@@ -71,7 +71,7 @@ export default function BirthdayPackage() {
         },
         {
           title: 'Kids birthday catering',
-          description: 'Younger guest lists, party boxes and allergy planning. Same URL as birthday catering.',
+          description: 'Younger guest lists, party boxes and allergy planning. Explore menus and service for birthday celebrations.',
           image: '/images/kids-birthday-catering-dubai-hero.webp',
           link: '/birthday-catering-dubai',
         },

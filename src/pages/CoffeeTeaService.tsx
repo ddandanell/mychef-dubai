@@ -23,7 +23,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Coffee and tea service in Dubai is cups, a station and someone to pour: espresso drinks, Arabic coffee, teas and labelled pastries. There is no published per-person floor for the station alone. It is quoted with the catering, or as an add-on. This URL is not the catering hub.
+        Coffee and tea service in Dubai is cups, a station and someone to pour: espresso drinks, Arabic coffee, teas and labelled pastries. There is no published starting price per person for the station alone. It is quoted with the catering, or as an add-on. This URL is not the catering hub.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Timed refills for a meeting. A welcome table for a reception. Plant milks and named diets on the first draft. Gahwa with dates if that is the brief.

@@ -2,12 +2,12 @@
  * Catering price source of truth for myCHEF.ae.
  *
  * Three labels, never mixed:
- *   from                 — myCHEF published floor (Catering hub = Menus = Calculator)
+ *   from                 — myCHEF starting price (Catering hub = Menus = Calculator)
  *   indicative market    — wider Dubai market band on price guides, not a myCHEF floor
  *   calculator start     — same number as `from` (staff multipliers may raise it)
  *
  * Household chef visit rates live in `privateChefPricing.ts`. Do not import
- * them here and do not print them as catering per-person floors.
+ * them here and do not print them as catering per-person starting prices.
  *
  * Numbers are the ones already published in src/content (hub, Menus,
  * calculator, guides). This file only names which kind each figure is.
@@ -476,7 +476,7 @@ export function cateringPricingNotes(): string[] {
   return [
     `Drop-off: ${drop.minGuests} guests minimum and AED ${drop.minOrderAed ?? 900} minimum order.`,
     `A standard event buffet starts from ${buffet.hubMinGuests ?? buffet.minGuests} guests.`,
-    'From = myCHEF published floor (same start on Menus and the calculator). Indicative market = wider Dubai band, not a myCHEF floor.',
+    '“From” shows the myCHEF starting price for each format. Indicative market ranges provide broader planning context; your menu, guest count and service requirements determine the final quote.',
     'All figures are before 5% VAT, which is shown as its own line.',
     'Not every event meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
   ]

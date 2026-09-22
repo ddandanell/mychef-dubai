@@ -15,7 +15,7 @@ export default function FamilyFeastPackage() {
       name={pkg.name}
       seoTitle="Family Catering Dubai | myCHEF"
       description="Family catering Dubai: AED 2,400 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
-      intro="Family catering Dubai on this page is a published package: AED 2,400 for 6–8 guests, sharing plates, a chef and service so nobody leaves the table to plate. That is a total, not a per-person buffet floor. Extra guests move the quote. Dietary notes go into the first draft. Halal is the default. A standing household family chef is a different URL."
+      intro="Family catering Dubai starts with a shared dining package: AED 2,400 for 6–8 guests, sharing plates, a chef and service so nobody leaves the table to plate. The price is a package total for the stated group size. Extra guests move the quote. Dietary notes go into the first draft. Halal is the default. Regular household meals can be arranged through our private chef service."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
       headline="Family Catering Dubai"
@@ -40,7 +40,7 @@ export default function FamilyFeastPackage() {
       addOns={[
         'Extra courses or a dessert table',
         'A separate children’s menu',
-        'A BBQ or live station, from the live-station floor',
+        'A BBQ or live station, quoted to suit the menu and guest count',
         'A mocktail and soft-drink station',
         'Extra service staff if the table grows',
       ]}
@@ -59,7 +59,7 @@ export default function FamilyFeastPackage() {
         },
         {
           q: 'Can I increase the guest count?',
-          a: 'Yes. Beyond 8 guests the total moves. We adjust the menu, ingredients and staff and send a new figure. AED 2,400 stays the published floor for 6–8.',
+          a: 'Yes. Beyond 8 guests the total moves. We adjust the menu, ingredients and staff and send a new figure. The starting package remains AED 2,400 for 6–8 guests.',
         },
       ]}
       relatedServices={[

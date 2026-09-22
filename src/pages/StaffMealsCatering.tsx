@@ -153,7 +153,7 @@ const faqs = [
   },
   {
     q: 'Can you cater large workforces with a canteen service?',
-    a: 'A larger workforce sitting is a line: hot mains, sides and salad. Staffed if someone has to run it. If you need the room itself operated as a canteen, that is canteen management, not this page.',
+    a: 'A larger workforce may suit a staffed service line with hot mains, sides and salads. If you need a dedicated dining facility operated each day, include canteen management in the discussion.',
   },
   {
     q: 'Can you work around shift patterns and delivery windows?',
@@ -345,7 +345,7 @@ export default function StaffMealsCatering() {
             Staff meals catering in Dubai provides rotating menus for a regular workforce, with agreed portions, delivery windows and clear per-person pricing. Drop-off starts from AED 90 per person for 10 guests, with a minimum order of AED 900. Billing follows the confirmed service schedule.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Halal ingredients are the default. Vegetarian and vegan options are planned when named in the brief. Smaller repeating office teams sit on <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. A written account is on <Link to="/corporate-retainer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering contracts</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>.
+            Halal ingredients are the default. Vegetarian and vegan options are planned when named in the brief. For smaller office teams, explore <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. For regular bookings, discuss <Link to="/corporate-retainer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering contracts</Link>. Explore the full range of <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>.
           </p>
         </div>
       </section>

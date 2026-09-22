@@ -120,7 +120,7 @@ const pricingTiers = MENU_FORMAT_IDS.map((id) => {
 const pricingFaqs = [
   {
     q: 'How are catering menus Dubai priced?',
-    a: 'By format, using the same floors as the Catering hub: plated AED 700–950 per person, canapés from AED 150, buffet from AED 120, BBQ and live stations from AED 150. Packages are totals, not per-person floors. Household chef visit rates are separate.',
+    a: 'Pricing depends on the service format: plated AED 700–950 per person, canapés from AED 150, buffet from AED 120, BBQ and live stations from AED 150. Packages show a total for the stated group size. Household chef visit rates are separate.',
   },
   {
     q: 'Is there a minimum guest count?',
@@ -128,7 +128,7 @@ const pricingFaqs = [
   },
   {
     q: 'Can we customise the menu?',
-    a: 'Yes. The sample dishes on this page are samples. The written menu follows the occasion, the guest list and the kitchen. Diets go into the first draft.',
+    a: 'Yes. Sample dishes provide a starting point. Your final menu is tailored to the occasion, guest list, facilities and dietary requirements, then confirmed in writing.',
   },
 ]
 
@@ -280,9 +280,9 @@ export default function Menus() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mb-4">Starts by format, same as the hub</h2>
+            <h2 className="font-playfair text-h2 text-black mb-4">Catering starting prices by service format</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
-              Starts match the Catering hub floors. Indicative market bands on the prices guide are not myCHEF starts. Household chef visit rates stay on the private chef pricing page.
+              Compare the myCHEF starting price for each service format below. Indicative market ranges offer wider planning context. Regular household chef arrangements have separate pricing.
             </p>
           </div>
 
@@ -300,7 +300,7 @@ export default function Menus() {
                     <span className="font-inter text-sm text-gray-500 ml-1">/ person</span>
                   </p>
                   <p className="mt-2 font-inter text-body-xs text-gray-500 leading-relaxed">
-                    {formatFrom(tier.from)}. {formatTypical(tier.typicalMin, tier.typicalMax)} (indicative market, not the myCHEF floor).
+                    {formatFrom(tier.from)}. {formatTypical(tier.typicalMin, tier.typicalMax)} (indicative market range).
                   </p>
                 </div>
                 <ul className="flex-1 space-y-3 mb-8">

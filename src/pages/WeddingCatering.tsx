@@ -159,15 +159,15 @@ export default function WeddingCatering() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            {siloIntro.lead} Explore food delivery and staffed service with{' '}
             <Link to={siloIntro.cateringHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
-            . Other named nights sit on{' '}
+            . Find inspiration for other celebrations with{' '}
             <Link to={siloIntro.eventsHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.eventsLabel}
             </Link>
-            . A standing household chef belongs on{' '}
+            . For regular meals at home, explore{' '}
             <Link to={siloIntro.chefHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.chefLabel}
             </Link>
@@ -509,19 +509,19 @@ export default function WeddingCatering() {
       <Section id="examples" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">A wedding format we have run</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">A villa wedding menu to inspire your plans</DisplayHeading>
           <BodyCopy className="mb-12">
-            Client names stay private. Location, guest range, format and outcome are from an event already described on our{' '}
+            This sample brief combines a relaxed reception with generous sharing dishes. Explore more planning ideas through our{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>
-            {' '}page. Previous celebrations also sit in the{' '}
+            {' '}and dining inspiration in the{' '}
             <Link to="/gallery" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               gallery
             </Link>
             .
           </BodyCopy>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid gap-8 max-w-3xl">
             {exampleEvents.map((item) => (
               <article key={item.title} className="border border-gray-200 p-6">
                 <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>

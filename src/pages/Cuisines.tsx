@@ -149,7 +149,7 @@ const startSteps = [
 const faqs = [
   {
     q: 'Can one booking run two cuisines?',
-    a: 'Yes. That is the usual brief on this page. We match chefs who cook those kitchens and run them as one service, not as two caterers sharing a villa kitchen. [Arabic catering](/arabic-catering-dubai) next to [Italian catering](/italian-catering-dubai) is a common mix.',
+    a: 'Yes. We can discuss a menu combining cuisines, with the dishes and service planned together around your guest list. [Arabic catering](/arabic-catering-dubai) next to [Italian catering](/italian-catering-dubai) is a common mix.',
   },
   {
     q: 'Does the cuisine change the starting price?',
@@ -267,15 +267,15 @@ export default function Cuisines() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            This is the cuisine index. Broader food-only through full-service catering sits on{' '}
+            Explore food delivery and staffed service with{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
-            . Named nights (weddings, birthdays, private parties) sit on{' '}
+            . Find ideas for weddings, birthdays and private parties through{' '}
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Events
             </Link>
-            . A standing household chef belongs on{' '}
+            . For regular meals at home, explore{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef services in Dubai
             </Link>
@@ -286,7 +286,7 @@ export default function Cuisines() {
 
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
+          <SectionLabel>CUISINES FOR YOUR OCCASION</SectionLabel>
           <DisplayHeading className="text-black mb-6">Multi cuisine catering Dubai with a balanced menu</DisplayHeading>
           <BodyCopy className="mb-4">
             A mixed menu can bring Arabic grills, Italian pasta and a sushi station together without losing the character of each cuisine. We help you select a balanced combination that suits your guests and service style.
@@ -364,13 +364,13 @@ export default function Cuisines() {
 
       <Section id="diet" tone="ivory" rhythm="standard">
         <Container className="max-w-3xl">
-          <SectionLabel>DIET IS A DIFFERENT PAGE</SectionLabel>
+          <SectionLabel>DIETARY REQUIREMENTS</SectionLabel>
           <DisplayHeading className="text-black mb-6">Menus shaped by dietary requirements</DisplayHeading>
           <BodyCopy className="mb-4">
-            Vegan, vegetarian, Jain and allergy-safe cooking change the kitchen path. Those pages own how that cooking is done. This hub does not.
+            Share vegetarian, vegan, Jain or allergy requirements when you choose the cuisine. Explore the relevant dietary service for more detail on menu planning and the preparation arrangements that need to be assessed.
           </BodyCopy>
           <BodyCopy className="mb-8">
-            Keto, pescatarian and “healthy” are not extra cuisine URLs. They are constraints inside the cuisine you already chose.
+            If you prefer pescatarian dishes or have another dietary brief, explain what you would like included or avoided so the menu can be assessed accordingly.
           </BodyCopy>
           <ul className="flex flex-wrap gap-x-6 gap-y-3">
             {dietaryRoutes.map((item) => (

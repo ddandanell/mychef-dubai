@@ -182,7 +182,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Party Catering',
-    description: 'The hub for birthdays, showers, and private celebrations across Dubai.',
+    description: 'Explore birthdays, showers and private celebrations across Dubai.',
     image: '/service-events.webp',
     link: '/private-party-catering-dubai',
   },

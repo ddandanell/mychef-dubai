@@ -9,14 +9,14 @@ export const canteenPage: InstitutionalPageContent = {
   eyebrow: 'Canteens',
   lock: {
     primary: 'canteen management dubai',
-    title: 'Canteen Management Dubai | Food, Not Software | myCHEF',
+    title: 'Canteen Management Dubai | Staff Dining Services | myCHEF',
     description:
-      'Canteen management Dubai is food, staff and a kitchen: not a POS app. Setup, staffing and a quote after we walk the room.',
+      'Canteen management Dubai with rotating menus, staffing and kitchen operations planned around your workforce and facilities. Request a tailored proposal.',
     h1: 'Canteen Management Dubai',
   },
   hero: {
     src: '/images/canteen-management-dubai-hero.webp',
-    alt: 'Canteen management Dubai: a dressed staff dining room, servery live, laptops stacked away from the food. Experience concept shown.',
+    alt: 'Canteen management Dubai: a dressed staff dining room, servery live, laptops stacked away from the food.',
     width: 1344,
     height: 752,
     subtitle:
@@ -34,7 +34,7 @@ export const canteenPage: InstitutionalPageContent = {
     { label: 'Canteen management' },
   ],
   jumpNav: [
-    { href: '#brief', label: 'Not software' },
+    { href: '#brief', label: 'Service overview' },
     { href: '#difference', label: 'How it is run' },
     { href: '#menu', label: 'Models' },
     { href: '#compliance', label: 'What it requires' },
@@ -50,27 +50,26 @@ export const canteenPage: InstitutionalPageContent = {
   figures: {
     afterBrief: {
       src: '/images/canteen-management-dubai-dining.webp',
-      alt: 'Workplace canteen in Dubai, a manager seated as a guest while chefs work the line. Experience concept shown.',
+      alt: 'Workplace canteen in Dubai, a manager seated as a guest while chefs work the line.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
     afterDifference: {
       src: '/images/canteen-management-dubai-kitchen.webp',
-      alt: 'Two chefs in black jackets cooking vegetables and salad at an open Dubai canteen pass. Experience concept shown.',
+      alt: 'Two chefs in black jackets cooking vegetables and salad at an open Dubai canteen pass.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
   },
   siloNote: (
     <>
-      Canteen management Dubai is this brief. Staff canteen management Dubai and canteen setup
-      Dubai are the same job. A weekday office lunch without a room sits on{' '}
+      Plan an ongoing food operation for your workplace. If you need meals delivered to an office, explore{' '}
       <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
         office catering
       </Link>
-      . School meal programmes sit on{' '}
+      . For pupil meal programmes, explore{' '}
       <Link to={INSTITUTIONAL_PATHS.school} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         school catering
       </Link>
@@ -78,68 +77,96 @@ export const canteenPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Canteen management Dubai for your site and workforce',
-    paragraphs: [
-      'Search “canteen management Dubai” and you will land on till systems, cashless apps and workplace-benefit platforms. Useful tools. They do not cook. They do not hold a probe. They do not stand behind a line at 12:10 when the floor empties.',
-      'Staff canteen management Dubai is a food business inside someone else’s building: a kitchen or a finishing servery, people with health cards, a cycle the night shift will eat, and a commercial model finance understands. Canteen setup Dubai means the room as well as the menu: gas, extraction, holding, flow: not a QR code on a dirty microwave.',
-      'Corporate canteen catering Dubai and office cafeteria management Dubai fail when someone buys the app first and the kitchen second. We do the kitchen. If you want cashless, we will say so in the proposal as a layer, not as the product.',
-    ],
+    "h2": "Canteen management Dubai for your site and workforce",
+    "paragraphs": [
+      "A well-run canteen gives employees a dependable place to eat within the working day. It needs an appealing menu, a practical service layout and an operating team sized to the number of diners. The plan should account for the quiet periods as carefully as the busiest lunch break.",
+      "Begin with the available kitchen, expected daily meals and opening hours. Explain whether the facility is already operating or needs a setup plan. Preparation space, equipment, storage, washing areas and the movement of people all influence the proposed service.",
+      "The commercial model is agreed alongside the operation. Your organisation may subsidise meals, pay an operating fee or wish to discuss a revenue arrangement. The proposal defines what each party provides, how changes in uptake are handled and which costs are included.",
+      "Menu rotation, dietary information, staffing and feedback keep the daily service useful to the workforce. Optional ordering or payment systems can support the arrangement where appropriate. A site assessment brings these elements together before a quotation is confirmed."
+    ]
   },
   difference: {
-    h2: 'Setup, staffing, a cycle: then optional tech',
-    blocks: [
+    "h2": "Build a complete daily dining operation",
+    "blocks": [
       {
-        title: 'Assess the site and facilities first',
-        body: 'Covers, hours, power, extraction, where dirty plates go. Canteen setup Dubai starts with a tape measure, not a slide.',
+        "title": "Site and facilities assessment",
+        "body": "Review preparation areas, equipment, storage, service capacity and clearance. Record what can be used immediately and what needs further assessment or approval."
       },
       {
-        title: 'People on the line',
-        body: 'Canteen catering services Dubai need PIC cover, health cards and a backup when someone is sick. An app does not plate a biryani.',
+        "title": "A defined staffing plan",
+        "body": "Agree the roles, service hours, supervision and cover arrangements. Match the service team to peak demand and the work required before and after diners arrive."
       },
       {
-        title: 'A considered rotating menu',
-        body: 'Staff canteen Dubai food that looks like leftover events will empty the room in a fortnight. Rotate. Label. Ask the night shift what they actually eat.',
+        "title": "Rotating menus",
+        "body": "Develop a cycle around the workforce, portion expectations and dietary requirements. Regular feedback helps identify popular dishes and reduce avoidable waste."
       },
       {
-        title: 'Three commercial models',
-        body: 'Subsidised (the company pays some or all), revenue-share (the operator takes till risk), or a fixed fee. We quote the one you are actually running. We do not publish a from-price per head on this page.',
+        "title": "A clear commercial model",
+        "body": "Discuss a subsidised arrangement, operating fee or revenue model. The written terms should explain the assumptions, responsibilities and treatment of changing demand."
       },
       {
-        title: 'Cashless if you want it',
-        body: 'Pre-order and cashless canteen Dubai tech is table stakes in some offices. It is a partner layer. It is not the catering.',
+        "title": "Ordering and payments",
+        "body": "If pre-ordering or cashless payments are needed, include them in the brief. Confirm the provider, reporting and support responsibilities as part of the wider operation."
       },
       {
-        title: 'An ongoing on-site food operation',
-        body: 'If you only need lunch delivered to a meeting table, that is office catering. Outsource canteen catering Dubai when you want the room run.',
-      },
-    ],
+        "title": "A considered launch",
+        "body": "Agree any trial period and the measures used to review service. Meal uptake, queues, feedback and staffing needs provide useful evidence for adjustments."
+      }
+    ]
   },
   table: {
     label: 'MODELS',
     h2: 'How canteen management Dubai is usually paid for',
-    intro: 'Name the model in the brief. Mixing them in one sentence is how tenders go wrong.',
+    intro: 'Discuss the model that fits your organisation, then confirm responsibilities and costs in the written agreement.',
     columns: ['Model', 'Who pays', 'What we run'],
     rows: [
       ['Subsidised', 'The company covers some or all of the meal', 'Kitchen, staff, cycle; till optional'],
       ['Revenue-share', 'Staff pay; operator takes till risk', 'Kitchen, staff, cycle, till'],
       ['Fixed fee', 'A contracted operating fee', 'Kitchen, staff, cycle to an agreed spec'],
     ],
-    note: 'Tenders in Dubai often discuss managed canteens in a per-head-per-day band. That is market context. myCHEF quotes after the walk. 5% VAT is its own line.',
+    note: 'The final quote follows the site assessment and agreed operating scope. Food, staffing and any setup requirements are identified, with 5% VAT shown separately.',
   },
   compliance: {
-    h2: 'A canteen is a food establishment',
-    intro: 'If the room cooks or holds hot food, it needs the same papers as any other kitchen.',
-    rows: [
-      { item: 'Food establishment permit', who: 'Dubai Municipality', see: 'For the canteen kitchen, not only the caterer’s central kitchen' },
-      { item: 'PIC on the shift', who: 'DM', see: 'Named person' },
-      { item: 'Health cards', who: 'DHA', see: 'Every handler on the line' },
-      { item: 'Temperature control', who: 'DM', see: 'Holding and, if used, vans' },
-      { item: 'Allergen labelling', who: 'Dubai Food Code', see: 'Cards on the line' },
-      { item: 'Halal supply', who: 'Accredited body', see: 'Certificates for proteins' },
-      { item: 'Staff vetting if on a school or nursery site', who: 'KHDA expectation', see: 'Police clearance when the site asks' },
-      { item: 'Insurance', who: 'Broker', see: 'Public liability and product, sums in the proposal' },
+    "h2": "Documentation and responsibilities to confirm",
+    "intro": "Before a canteen management service is agreed, review the proposed culinary partner and the requirements for your site with the responsible management team.",
+    "rows": [
+      {
+        "item": "Kitchen and business approvals",
+        "who": "Proposed culinary partner",
+        "see": "Current documents applicable to the kitchen and service scope"
+      },
+      {
+        "item": "Food safety procedures",
+        "who": "Culinary partner and site management",
+        "see": "Preparation, transport, receiving and holding arrangements"
+      },
+      {
+        "item": "Staffing and supervision",
+        "who": "Operations lead",
+        "see": "Named responsibilities, required training and cover arrangements"
+      },
+      {
+        "item": "Ingredients and dietary information",
+        "who": "Menu lead and site contact",
+        "see": "Current menu, ingredient information and agreed labelling"
+      },
+      {
+        "item": "Facility and equipment responsibilities",
+        "who": "Facilities team and operator",
+        "see": "Maintenance, cleaning, utilities and any required site approvals"
+      },
+      {
+        "item": "Ordering and payment systems",
+        "who": "Client and any system provider",
+        "see": "Agreed setup, support, reporting and access responsibilities"
+      },
+      {
+        "item": "Insurance and contract scope",
+        "who": "Procurement team",
+        "see": "Required cover, exclusions and responsibilities in writing"
+      }
     ],
-    note: 'We do not claim a fit-out cost or a per-head from-price here. Those numbers are written after we see the room.',
+    "note": "Required registrations, certifications and permissions are verified for the proposed provider and setting before confirmation. The proposal records the agreed scope and any conditions that must be met before service begins."
   },
   process: {
     h2: 'Review the operating plan with your facilities team',
@@ -151,76 +178,72 @@ export const canteenPage: InstitutionalPageContent = {
     ],
   },
   quoting: {
-    h2: 'How a canteen quote is built',
-    paragraphs: [
-      'Covers, hours, existing kit, and which of the three commercial models you are running. Those four decide the kitchen.',
-      'Packed-lunch or drop-off programmes are a different product and live on office catering. Do not compare those per-head figures to a staffed canteen.',
-      'If you need the meal programme for a school without taking the room, use school catering Dubai.',
-    ],
+    "h2": "How a canteen management quote is built",
+    "paragraphs": [
+      "Expected meals, opening hours, existing equipment and the proposed commercial model are the starting point. Share shift patterns and likely changes in occupancy so the operating assumptions are realistic.",
+      "The quote separates the daily service from any setup work or equipment requirements. Review who provides utilities, maintenance, cleaning and waste arrangements alongside the food and staffing scope.",
+      "A delivered office lunch and a managed canteen have different responsibilities. Compare proposals against the same operating specification, and confirm the treatment of VAT, changes in uptake and any agreed review points before signing."
+    ]
   },
   trust: {
-    h2: 'The line is the product',
-    items: [
+    "h2": "Explore related workplace food services",
+    "items": [
       {
-        title: 'Office lunch without a canteen',
-        body: 'Drop-off to a meeting table, from the published office rate card.',
-        href: '/office-catering-dubai',
-        linkLabel: 'Office catering',
+        "title": "Office catering",
+        "body": "Delivered meals and meeting hospitality for workplaces without a dedicated canteen.",
+        "href": "/office-catering-dubai",
+        "linkLabel": "Office catering"
       },
       {
-        title: 'School meal programmes',
-        body: 'When the customer is a school and the product is lunch, not a staff canteen.',
-        href: INSTITUTIONAL_PATHS.school,
-        linkLabel: 'School catering',
+        "title": "School meal programmes",
+        "body": "Lunch planning and service arrangements for school pupils.",
+        "href": "/school-catering-dubai",
+        "linkLabel": "School catering"
       },
       {
-        title: 'Hospital staff dining',
-        body: 'Cafeterias inside clinics and hospitals, with a path to patient meals later.',
-        href: INSTITUTIONAL_PATHS.hospital,
-        linkLabel: 'Hospital catering',
+        "title": "Hospital staff dining",
+        "body": "Food-service planning within healthcare facilities, with separate clinical requirements where relevant.",
+        "href": "/hospital-catering-dubai",
+        "linkLabel": "Hospital catering"
       },
       {
-        title: 'How culinary partners are selected',
-        body: 'Vetting, backup, papers. Same as the rest of myCHEF.',
-        href: '/how-we-vet-our-chefs',
-        linkLabel: 'How we vet chefs',
-      },
-    ],
+        "title": "Culinary partner selection",
+        "body": "Learn how culinary professionals are reviewed for a proposed brief.",
+        "href": "/how-we-vet-our-chefs",
+        "linkLabel": "How we vet chefs"
+      }
+    ]
   },
   faqH2: 'What should I know before booking canteen management in Dubai?',
   faqs: [
     {
-      q: 'Is this a cashless canteen system?',
-      a: "Canteen management covers the food service, kitchen operation and agreed staffing. Cashless ordering or payment systems can be discussed as an additional requirement.",
+      "q": "What does canteen management include?",
+      "a": "The agreed scope can cover kitchen operations, menu planning, staffing and service in a dedicated facility. Equipment, cleaning, utilities, maintenance and payment systems are assigned explicitly in the proposal."
     },
     {
-      q: 'How much does canteen management cost in Dubai?',
-      a: 'We do not publish a from-price per head. Subsidised, revenue-share and fixed-fee models price differently. The number follows a site walk. 5% VAT is its own line.',
+      "q": "How much does canteen management cost?",
+      "a": "Pricing follows the site assessment, daily meal volumes, operating hours and commercial model. The proposal identifies the operating scope, any setup requirements and 5% VAT separately."
     },
     {
-      q: 'Can you set up a staff canteen from an empty room?',
-      a: 'Canteen setup Dubai is in scope: flow, holding, extraction, staffing. Fit-out cost is quoted after we see the room, not invented on this page.',
+      "q": "Can you assess an empty room for a staff canteen?",
+      "a": "Yes, share the location, dimensions, building information and expected demand for an initial discussion. A setup proposal depends on the facilities review, required specialist input and relevant approvals."
     },
     {
-      q: 'Is this the same as office catering?',
-      a: "Office catering covers delivered meals or service in a meeting space. Canteen management covers the ongoing operation of a dedicated food-service facility.",
+      "q": "How is this different from office catering?",
+      "a": "[Office catering](/office-catering-dubai) supplies meals or hospitality for a workplace. Canteen management covers the ongoing operation of a dedicated food-service facility with defined staffing and site responsibilities."
     },
     {
-      q: 'Do you run school canteens?',
-      a: 'Meal programmes sit on [school catering](/school-catering-dubai). A full school canteen fit-out can be quoted from this page when the room is the brief.',
+      "q": "Can a school request canteen management?",
+      "a": "A school can discuss a managed facility alongside its [school meal programme](/school-catering-dubai). The scope is assessed against the school facilities, timetable, dietary policy and approval requirements."
     },
     {
-      q: 'What about outsource vs in-house?',
-      a: 'Outsource canteen catering Dubai when you want one operator on the line, one invoice, and papers you can open. In-house means you employ the team. We do the first.',
+      "q": "Can cashless ordering be included?",
+      "a": "Include any ordering and payment requirements in the brief. The proposal identifies the relevant provider, setup, reporting and support responsibilities where that arrangement is available."
     },
     {
-      q: 'Will food sit next to laptops?',
-      a: 'No. Service happens at a servery or a dressed table. Devices stay off the food.',
-    },
-    {
-      q: 'How soon can you start?',
-      a: "An existing facility may allow a shorter setup period once the documentation and menu cycle are agreed. A kitchen fit-out requires a separate programme based on the building and operational requirements.",
-    },
+      "q": "How soon can a service start?",
+      "a": "Timing depends on the readiness of the facility, provider assessment, menus, staffing and approvals. Agree the launch schedule after those requirements have been reviewed, including any trial service."
+    }
   ],
   locationTitle: 'Staff canteens across Dubai',
   locationSubtitle: (

@@ -321,11 +321,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/gallery": {
     "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
-    "description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration."
+    "description": "Browse dining, household and celebration ideas from myCHEF, with links to our yacht portfolio and services for planning your next occasion in Dubai."
   },
   "/case-studies": {
     "title": "Catering Case Studies Dubai | Previous Work | myCHEF",
-    "description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration."
+    "description": "Explore a previous myCHEF yacht catering brief, with practical ideas for menus, service and event setup in Dubai. Plan the details for your own occasion."
   },
   "/part-time-private-chef-dubai": {
     "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",

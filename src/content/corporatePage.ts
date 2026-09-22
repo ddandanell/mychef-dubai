@@ -86,7 +86,7 @@ export const whatWeHandle = {
 export const meetingRouting = {
   h2: 'Company lunch, boardroom catering and business meetings',
   paragraphs: [
-    'Use this hub to compare corporate catering companies and services in Dubai, then open the page for the meal you are planning.',
+    'Compare the service formats below and explore the option that best suits your meeting, workplace or company event.',
     'Company lunch catering in Dubai for a repeating team is office catering. Boardroom catering for a client lunch is business lunch catering. Recurring corporate catering is a weekly or monthly rhythm on the office or staff-meals pages. A VIP table is a plated dinner or the corporate dinner package for 10 to 15 guests.',
     'A Diwali gathering or other seasonal company meal is quoted as an event. Price per head moves with format more than with the calendar. Tell us the day and we will route it.',
   ],
@@ -325,7 +325,7 @@ export const corporateFaqs = [
   },
   {
     q: 'Is this the page for business lunch or a business meeting?',
-    a: 'This hub is corporate catering in Dubai as a whole. A client or boardroom sitting is [business lunch catering](/business-lunch-catering-dubai). A repeating team lunch is [office catering](/office-catering-dubai). A party or launch is [corporate event catering](/corporate-event-catering-dubai).',
+    a: 'For a client meeting or boardroom meal, explore [business lunch catering](/business-lunch-catering-dubai). A repeating team lunch is [office catering](/office-catering-dubai). A party or launch is [corporate event catering](/corporate-event-catering-dubai).',
   },
   {
     q: 'What does myCHEF coordinate for a corporate booking?',

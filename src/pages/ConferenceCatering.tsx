@@ -69,7 +69,7 @@ const conferenceFormats = [
   {
     icon: Users,
     title: 'Closing reception',
-    description: 'Canapés after the last session. That sitting belongs on corporate event catering, not on this page.',
+    description: 'Finish the conference with passed canapés and drinks, planned as a coordinated corporate reception.',
     link: '/corporate-event-catering-dubai',
   },
   {
@@ -183,7 +183,7 @@ const relatedServices = [
   },
   {
     title: 'Corporate Catering',
-    description: 'The hub for company food: office weeks, lunches, conferences and events.',
+    description: 'Menus and service for office meals, business lunches, conferences and company events.',
     image: '/service-corporate.webp',
     link: '/corporate',
   },
@@ -347,7 +347,7 @@ export default function ConferenceCatering() {
             Drop-off food starts from AED 90 per person. A staffed buffet starts from AED 120 per person. Live stations and canapés start from AED 150 per person. Half-day and full-day packages both use that staffed buffet starting price. The difference is the meal plan: a half day includes arrival coffee, one break and lunch; a full day includes two breaks and lunch. The quote lists the trays, hours and team. Room hire and presentation equipment stay with the venue.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            A closing reception is <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. A repeating office week is <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. The hub is <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            A closing reception is <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>. A repeating office week is <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>. Explore the full range of <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
       </section>

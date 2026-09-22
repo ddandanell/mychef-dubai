@@ -107,7 +107,7 @@ const useCases = [
   },
   {
     title: 'Looking for regular household cooking?',
-    description: 'A standing breakfast chef for the house is the private chef service. This page is one morning, with a guest list.',
+    description: 'For regular breakfasts during a villa stay, explore a household private chef arrangement. Brunch catering is planned around the date and guest list of your gathering.',
   },
   {
     title: 'Celebration & Birthday Brunch',
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     q: 'Can you provide a private breakfast chef every day?',
-    a: 'A standing breakfast chef for the household is the [private chef](/private-chef-dubai) service, not this catering page. This page is one morning, with a guest list.',
+    a: 'For regular breakfasts at home, explore our [private chef service](/private-chef-dubai). For a brunch gathering, share the date, guest count and menu preferences so we can prepare an event proposal.',
   },
   {
     q: 'What kind of brunch menu can we choose?',
@@ -155,7 +155,7 @@ const faqs = [
   { q: "Can you set up brunch outdoors, poolside, or on a terrace?", a: "Yes. We regularly serve brunches poolside, on terraces and in garden settings at villas and private residences, adapting the setup to your space. We bring shaded stations, serving equipment, and keep food held at the right temperature outdoors. We can also cook brunch on a [yacht](/yachts) you have chartered, or at a private villa." },
   { q: "Do I need to provide anything, or do you bring everything?", a: "You provide the space and we bring everything else, from ingredients and cooking equipment to chafing dishes, tableware, glassware, and linens. Our chefs arrive early to set up, cook fresh on-site, and then handle the full clear-down so your kitchen and dining area are left spotless. All you need to do is enjoy the morning with your guests." },
   { q: "Is brunch catering at home better than booking a hotel brunch?", a: "A catered brunch at home is a private morning with a menu written for your table, no hotel sitting time, and no shared dining room. You choose what is served and who is there. If you want to compare formats, our team can walk you through the options on the [contact](/contact) page." },
-  { q: "Can a private chef prepare breakfast every day during a villa stay?", a: "Yes, as a household plan, not as brunch catering. A chef who comes back sits on [private chef](/private-chef-dubai) and [private chef prices](/private-chef-dubai/pricing). This page is one morning." },
+  { q: "Can a private chef prepare breakfast every day during a villa stay?", a: "Yes. A regular breakfast service can be discussed as a [household private chef arrangement](/private-chef-dubai). Explore [private chef pricing](/private-chef-dubai/pricing) and share the dates and meal schedule for your stay." },
   {
     q: 'Is easter brunch catering Dubai the same as brunch catering Dubai?',
     a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',

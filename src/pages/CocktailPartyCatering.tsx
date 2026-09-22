@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     q: 'How much does cocktail party catering cost in Dubai?',
-    a: `Passed canapés start from AED ${CANAPES.fromPerPerson} per person, from ${CANAPES.minGuests} guests, the same floor as the Catering hub. The bar is quoted as staff and kit, not as a second invented food floor. 5% VAT is a separate line.`,
+    a: `Passed canapés start from AED ${CANAPES.fromPerPerson} per person, from ${CANAPES.minGuests} guests, with the menu and service confirmed in your proposal. Bar staffing, equipment and drinks arrangements are itemised separately. 5% VAT is a separate line.`,
   },
   {
     q: 'What is the minimum number of guests for cocktail catering?',
@@ -401,7 +401,7 @@ export default function CocktailPartyCatering() {
             How cocktail party catering Dubai is built
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Cocktail party catering in Dubai brings together canapés, a tailored drinks list and attentive service for a standing reception. Passed canapés start from AED {CANAPES.fromPerPerson} per person, from {CANAPES.minGuests} guests. That is the food floor. The bar is staff and kit on the same proposal.
+            Cocktail party catering in Dubai brings together canapés, a tailored drinks list and attentive service for a standing reception. Passed canapés start from AED {CANAPES.fromPerPerson} per person, from {CANAPES.minGuests} guests. This is the starting price for food. Bar staff and equipment are quoted separately in the same proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Alcohol is poured only where the venue is licensed, the operator allows it, or the quotation records a lawful private arrangement. Mocktails run either way. A cocktail-making class can sit in the brief if you want guests behind the bar; it is not a default.

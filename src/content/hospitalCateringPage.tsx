@@ -16,7 +16,7 @@ export const hospitalPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/hospital-catering-dubai-hero.webp',
-    alt: 'Hospital catering Dubai: staff cafeteria with a dressed servery, labelled hot line, no devices on the tables. Experience concept shown.',
+    alt: 'Hospital catering Dubai: staff cafeteria with a dressed servery, labelled hot line, no devices on the tables.',
     width: 1344,
     height: 752,
     subtitle:
@@ -50,24 +50,22 @@ export const hospitalPage: InstitutionalPageContent = {
   figures: {
     afterBrief: {
       src: '/images/hospital-catering-dubai-cafeteria.webp',
-      alt: 'Staff cafeteria in a Dubai hospital with a chef on the servery and colleagues eating. Experience concept shown.',
+      alt: 'Staff cafeteria in a Dubai hospital with a chef on the servery and colleagues eating.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
     afterDifference: {
       src: '/images/hospital-catering-dubai-trays.webp',
-      alt: 'Chef checking colour-coded diet trays on a trolley in a Dubai hospital kitchen. Experience concept shown.',
+      alt: 'Chef checking colour-coded diet trays on a trolley in a Dubai hospital kitchen.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
   },
   siloNote: (
     <>
-      Hospital catering Dubai is this brief. Healthcare catering Dubai and hospital catering
-      services Dubai are the same job. Staff dining that is really a workplace canteen also sits
-      on{' '}
+      Share the staff, visitor or patient meal requirements of your facility. For a dedicated staff dining operation, explore{' '}
       <Link to={INSTITUTIONAL_PATHS.canteen} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         canteen management
       </Link>
@@ -75,156 +73,195 @@ export const hospitalPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Hospital catering Dubai for clearly defined service needs',
-    paragraphs: [
-      'Patient meal programmes in Dubai are awarded to kitchens that already hold the papers: HACCP, dietitian cover, texture-modified production, ward timing. The incumbents are entrenched. A new supplier who leads with “therapeutic excellence” and no staff-dining track record does not get the ward.',
-      "Hospital staff and visitor dining requires a documented service plan, with the kitchen, staff, temperature controls and labelling assessed for the setting. The proposed scope and required approvals must be confirmed before any contract is agreed.",
-      "Patient meal services require a documented clinical brief covering the hospital’s prescribed diets, textures and service windows. The proposal must identify the responsible clinical or dietetic input and confirm that the culinary partner can meet the requirements before any service is agreed.",
-    ],
+    "h2": "Hospital catering Dubai for clearly defined service needs",
+    "paragraphs": [
+      "Hospital catering begins with a precise service brief. A staff cafeteria, visitor dining area and patient meal programme serve different needs and require separate planning. Clear responsibilities allow procurement, facilities and clinical teams to review the proposal against the right criteria.",
+      "Staff dining can be planned around shift patterns, meal breaks and the available kitchen or servery. Visitor catering requires its own opening hours, menu and collection arrangements. Each should have a defined menu cycle, dietary information and service plan.",
+      "Patient meals require the responsible clinical team to specify and approve the diets, textures and service requirements. The proposed culinary partner must demonstrate suitability for that scope before a commitment is made. Menu development and operational planning follow the approved brief rather than assumptions about a diagnosis.",
+      "Share the facility, intended diners, daily meal volumes and documentation requirements. A site assessment and itemised proposal help establish the practical scope, including staffing, equipment, transport and the review process before launch."
+    ]
   },
   difference: {
-    h2: 'Separate plans for staff, visitors and patient meals',
-    blocks: [
+    "h2": "Separate plans for staff, visitors and patients",
+    "blocks": [
       {
-        title: 'Staff cafeteria as the first contract',
-        body: 'Covers per day you can count. A servery you can walk. A cycle the night shift will actually eat. A staff cafeteria Dubai contract is how hospital catering services Dubai start with us.',
+        "title": "Staff dining across shifts",
+        "body": "Record when day and night teams can take their breaks. The proposal should explain the meal windows, expected volumes and service arrangements for each shift."
       },
       {
-        title: 'Visitor dining that is still a kitchen',
-        body: 'Clinics and day-surgery centres need a café that does not look like a mall counter and does not put plated food next to a reception screen.',
+        "title": "Visitor dining",
+        "body": "Assess the dining space, opening hours and menu according to visitor needs and facility policy. Define payment, collection and clearance responsibilities."
       },
       {
-        title: 'Patient meals only with a diet list',
-        body: 'Therapeutic diet meals Dubai are a clinical document, not a menu adjective. Texture-modified meals Dubai follow IDDSI language when the hospital uses it. We quote that after the dietitian relationship is named.',
+        "title": "Clinically specified patient meals",
+        "body": "The hospital owns the clinical specifications and approval process. Any request for therapeutic or texture-modified meals requires a documented assessment before it can be accepted."
       },
       {
-        title: 'Halal and allergen labelling',
-        body: 'Halal by default. Allergen cards on the line. Ward allergies are not a “may contain” conversation at the pass.',
+        "title": "Dietary information and identification",
+        "body": "Agree the ingredient information, labels and handover method required by the facility. Patient meal identification follows the hospital-approved process."
       },
       {
-        title: 'Timing is the product',
-        body: 'Wards do not wait for a van stuck in Sheikh Zayed traffic. If we cannot hit the window, we do not take the sitting.',
+        "title": "Reliable service windows",
+        "body": "Delivery, receiving and meal service must fit the site routine. Confirm the contact responsible for delays, substitutions and any change to the agreed schedule."
       },
       {
-        title: 'Documentation and operational requirements',
-        body: 'Permit, PIC, health cards, logs. Same list as every other institutional page. No invented certificate numbers.',
-      },
-    ],
+        "title": "Procurement documentation",
+        "body": "Review relevant provider approvals, food safety arrangements, staffing and insurance. The contract records the scope the partner has been assessed to deliver."
+      }
+    ]
   },
   table: {
-    label: 'DIETS',
-    h2: 'Therapeutic diet meals Dubai: what the card has to say',
-    intro:
-      'Names a hospital already uses. We do not invent diet titles. The live card is written with whoever owns clinical nutrition on that site.',
-    columns: ['Diet', 'What it usually means', 'What we need from you'],
-    rows: [
-      ['Regular', 'Standard staff or visitor meal', 'Covers, service times'],
-      ['Diabetic', 'Controlled carbohydrate, labelled sugars', 'Clinical spec from the site'],
-      ['Renal', 'Controlled electrolytes and protein', 'Clinical spec; we do not guess this'],
-      ['Cardiac / low-sodium', 'Salt and fat limits on the card', 'Clinical spec'],
-      ['Texture-modified (IDDSI)', 'Pureed, minced, soft as the hospital codes them', 'IDDSI levels in use on the ward'],
+    "label": "SERVICE BRIEF",
+    "h2": "Define the meal service before developing menus",
+    "intro": "Use the facility requirements to build the specification. Any clinical diet or texture is defined and approved by the responsible healthcare team.",
+    "columns": [
+      "Service",
+      "Planning information",
+      "Approval responsibility"
     ],
-    note: 'This table is a briefing tool. It is not a medical claim and it is not a published from-price.',
+    "rows": [
+      [
+        "Staff cafeteria",
+        "Shift patterns, expected meals and service hours",
+        "Facilities and procurement team"
+      ],
+      [
+        "Visitor dining",
+        "Opening hours, access and menu scope",
+        "Facility management"
+      ],
+      [
+        "Patient meal programme",
+        "Prescribed requirements, meal identification and ward schedule",
+        "Responsible clinical and operational teams"
+      ],
+      [
+        "Therapeutic diets",
+        "Written, individual clinical specifications",
+        "Responsible clinical or dietetic team"
+      ],
+      [
+        "Texture-modified meals",
+        "Approved preparation specifications and identification",
+        "Responsible clinical or dietetic team"
+      ]
+    ],
+    "note": "Clinical requirements are supplied by the hospital. Service suitability and responsibilities are confirmed before any patient meal arrangement is agreed."
   },
   compliance: {
-    h2: 'What hospital catering services Dubai have to show',
-    intro: 'Procurement will ask. Have the file ready, or do not bid.',
-    rows: [
-      { item: 'Food establishment permit', who: 'Dubai Municipality', see: 'Kitchen that actually cooks' },
-      { item: 'HACCP-based system', who: 'DM / certifier', see: 'Dated certificate or documented system' },
-      { item: 'PIC at production and at service', who: 'DM', see: 'Named cover for both, on hospital work' },
-      { item: 'Health cards', who: 'DHA', see: 'Every handler' },
-      { item: 'Temperature-controlled transport', who: 'DM', see: 'Logs and van permit' },
-      { item: 'Clinical nutrition named', who: 'Hospital / DHA', see: 'Who writes therapeutic menus' },
-      { item: 'Allergen and texture coding', who: 'Hospital policy', see: 'Cards matching ward language' },
-      { item: 'Halal supply', who: 'Accredited body', see: 'Certificates for proteins' },
+    "h2": "Documentation and responsibilities to confirm",
+    "intro": "Before a hospital catering service is agreed, review the proposed culinary partner and the requirements for your site with the responsible management team.",
+    "rows": [
+      {
+        "item": "Kitchen and business approvals",
+        "who": "Proposed culinary partner",
+        "see": "Current documents applicable to the kitchen and service scope"
+      },
+      {
+        "item": "Food safety procedures",
+        "who": "Culinary partner and site management",
+        "see": "Preparation, transport, receiving and holding arrangements"
+      },
+      {
+        "item": "Staffing and supervision",
+        "who": "Operations lead",
+        "see": "Named responsibilities, required training and cover arrangements"
+      },
+      {
+        "item": "Ingredients and dietary information",
+        "who": "Menu lead and site contact",
+        "see": "Current menu, ingredient information and agreed labelling"
+      },
+      {
+        "item": "Clinical scope, if patient meals are requested",
+        "who": "Responsible hospital clinical team",
+        "see": "Approved specifications, provider assessment and sign-off process"
+      },
+      {
+        "item": "Meal identification and handover",
+        "who": "Hospital operations lead",
+        "see": "Facility-approved labels, receiving checks and escalation contacts"
+      },
+      {
+        "item": "Insurance and contract scope",
+        "who": "Procurement team",
+        "see": "Required cover, exclusions and responsibilities in writing"
+      }
     ],
-    note: "Any required certifications, clinical support and approved-provider status must be verified for the proposed partner before a hospital contract is confirmed.",
+    "note": "Required registrations, certifications and permissions are verified for the proposed provider and setting before confirmation. The proposal records the agreed scope and any conditions that must be met before service begins."
   },
   process: {
-    h2: 'A practical process for procurement review',
-    steps: [
-      'Send the site, covers per day, and whether this is staff dining or patient meals.',
-      'We typically reply within 15 minutes during business hours if the kitchen can cover it.',
-      'Site walk. Itemised proposal. Named diet cover if wards are in scope.',
-      'Trial service in the cafeteria before anyone talks about wards.',
-    ],
+    "h2": "A practical process for procurement review",
+    "steps": [
+      "Share the facility, intended diners, meal volumes and operating hours.",
+      "Review facilities, documentation and any clinical requirements with the responsible teams.",
+      "Assess the proposed service and itemised quotation, including staffing and handover responsibilities.",
+      "Agree the relevant trial, approvals and launch plan before service starts."
+    ]
   },
   quoting: {
-    h2: 'How a hospital quote is built',
-    paragraphs: [
-      'Staff dining is quoted like a canteen: covers, hours, diet mix. Patient meals are quoted only after the diet list and the ward windows are on paper.',
-      'Managed staff dining in Dubai is often discussed in a per-head-per-day band you will see in tenders. That is market context. myCHEF does not publish it as a from-price here.',
-      '5% VAT is its own line. Food, staff, equipment and delivery are not blended.',
-    ],
+    "h2": "How a hospital catering quote is built",
+    "paragraphs": [
+      "Staff and visitor dining are quoted around meal volumes, operating hours, menus and facility arrangements. A patient meal request requires a separate approved specification before suitability or pricing can be confirmed.",
+      "The proposal identifies food, staff, equipment and transport, with 5% VAT separately stated. Discuss shift coverage, ordering deadlines and how variations in daily volume will be managed.",
+      "Procurement should review the operating responsibilities alongside the price. Include the documentation, trial arrangements and reporting expected from the proposed provider so the agreement is specific enough to assess and manage."
+    ]
   },
   trust: {
-    h2: 'The cafeteria is the proof',
-    items: [
+    "h2": "Related planning for your facility",
+    "items": [
       {
-        title: 'Canteen management is the sister brief',
-        body: "Sites requiring kitchen setup and staffing can discuss a canteen management proposal, with responsibilities and facilities assessed separately from patient meal services.",
-        href: INSTITUTIONAL_PATHS.canteen,
-        linkLabel: 'Canteen management',
+        "title": "Canteen management",
+        "body": "Consider a dedicated operating plan for the staff dining facility.",
+        "href": "/canteen-management-dubai",
+        "linkLabel": "Canteen management"
       },
       {
-        title: 'How culinary partners are selected',
-        body: 'Vetting before anyone cooks. Backup when a shift fails.',
-        href: '/how-we-vet-our-chefs',
-        linkLabel: 'How we vet chefs',
+        "title": "Culinary partner selection",
+        "body": "Understand the matching and assessment process for culinary professionals.",
+        "href": "/how-we-vet-our-chefs",
+        "linkLabel": "How we vet chefs"
       },
       {
-        title: 'Halal-first',
-        body: 'Default for myCHEF institutional menus. Certificates on request in the brief.',
-        href: '/halal-catering-dubai',
-        linkLabel: 'Halal catering',
+        "title": "Halal catering",
+        "body": "Include menu and supplier documentation requirements in the brief.",
+        "href": "/halal-catering-dubai",
+        "linkLabel": "Halal catering"
       },
       {
-        title: 'Allergy-safe production',
-        body: 'Written matrix. No guessing at the pass.',
-        href: '/allergy-safe-catering-dubai',
-        linkLabel: 'Allergy-safe catering',
-      },
-    ],
+        "title": "Institutional catering",
+        "body": "Compare service arrangements across different organisational settings.",
+        "href": "/institutional-catering-dubai",
+        "linkLabel": "Institutional catering"
+      }
+    ]
   },
   faqH2: 'What should I know before booking hospital catering in Dubai?',
   faqs: [
     {
-      q: 'Do you do patient meals from day one?',
-      a: 'Only when the diet list, ward timing and clinical nutrition cover are named. Staff cafeterias are the usual first contract.',
+      "q": "Can staff dining and patient meals be included in one request?",
+      "a": "They can be discussed together, but the scopes must remain clearly defined. Staff dining is assessed as a food-service operation. Patient meals require the responsible clinical team to specify and approve the requirements and assess provider suitability."
     },
     {
-      q: 'Are you HACCP certified?',
-      a: 'We describe the standard the work requires. We print a certificate number when it is on file. This page does not invent one.',
+      "q": "How are certifications verified?",
+      "a": "Request current documents for the proposed culinary partner and review them against hospital procurement requirements. Any required certification or approved-provider status must be verified before a contract is confirmed."
     },
     {
-      q: 'Can you handle diabetic, renal and texture-modified diets?',
-      a: 'Therapeutic diet meals Dubai are quoted after the hospital’s clinical spec is in the brief. We do not guess renal or IDDSI levels.',
+      "q": "Can therapeutic or texture-modified meals be considered?",
+      "a": "Share the hospital-approved specifications and required clinical oversight. The proposed partner must be assessed against those requirements before the service can be accepted; dietary details are not inferred from a condition name."
     },
     {
-      q: 'Is this the same as a staff canteen?',
-      a: 'Staff dining is the entry. A full room fit-out sits on [canteen management](/canteen-management-dubai).',
+      "q": "Can you assess a clinic dining service?",
+      "a": "Share the intended users, opening hours, facilities and meal volumes. A staff or visitor service can then be reviewed against the clinic requirements, with any patient-related food request considered separately."
     },
     {
-      q: 'Do you serve clinics and day-surgery centres?',
-      a: 'Yes. Clinic catering Dubai is usually a compact café or staff room, still documented as a food business.',
+      "q": "Who approves patient menus?",
+      "a": "The responsible hospital clinical or dietetic team defines and approves the clinical requirements. The service proposal must name the relevant approval and operational responsibilities."
     },
     {
-      q: 'What about care homes?',
-      a: "Dining for a care setting requires the home’s documented diet and service requirements, including any clinically specified textures. Suitability and responsibilities must be confirmed before a proposal is approved.",
-    },
-    {
-      q: 'How do you keep food safe in transit?',
-      a: 'Temperature-controlled vans, probe logs, cold ≤5°C and hot ≥60°C. If we cannot hit the window, we do not take the sitting.',
-    },
-    {
-      q: 'Do you put food in the ward next to monitors?',
-      a: 'No. Meals are plated and served as the hospital already serves them. We do not style food next to clinical screens.',
-    },
-    {
-      q: 'How is this priced?',
-      a: 'Itemised after a site walk. No from-price on this page. 5% VAT as its own line.',
-    },
+      "q": "How are delivery and handover planned?",
+      "a": "Agree the receiving point, authorised contact, delivery windows and required checks with hospital operations. The proposal records transport and holding arrangements, together with the process for reporting any deviation."
+    }
   ],
   locationTitle: 'Hospital and clinic catering across Dubai',
   locationSubtitle: (

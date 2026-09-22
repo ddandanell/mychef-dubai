@@ -236,7 +236,7 @@ export const optionalItems = [
   },
   {
     title: 'Decoration and entertainment',
-    body: 'Balloons, a photo backdrop, face painting and photography sit outside the catering floor. Select them below and they appear on the same proposal.',
+    body: 'Balloons, a photo backdrop, face painting and photography sit outside the base catering quote. Select them below and they appear on the same proposal.',
   },
 ] as const
 
@@ -280,7 +280,7 @@ export const menuFormats = [
 ] as const
 
 export const extrasIntro = [
-  'Full service birthday catering Dubai is food, staff and clear-down. The extras below sit around that. Select what you want quoted. Nothing is added to the catering floor automatically.',
+  'Full service birthday catering Dubai is food, staff and clear-down. The extras below sit around that. Select what you want quoted. Nothing is added to the catering quote automatically.',
   'The figures are planning numbers including 5% VAT, pending supplier confirmation. Access surcharges, extra journeys or equipment are named before you confirm.',
 ] as const
 
@@ -446,7 +446,7 @@ export const exampleEvents = [
 ] as const
 
 export const exampleNote =
-  'Most birthdays we run are in a home or villa. Kitchen size, lift access, shade and community rules belong in the brief so the proposal is honest. Client names stay private. The yacht example is from our case studies page; the other two are common briefs, not named events.'
+  'These sample briefs show different ways to plan a birthday menu. Share the kitchen facilities, access, outdoor space and venue requirements so the proposal can be tailored to your own celebration.'
 
 export const birthdayFaqs = [
   {
@@ -459,7 +459,7 @@ export const birthdayFaqs = [
   },
   {
     q: 'Are balloons and cake included in catering prices?',
-    a: 'Not in the per-person catering floors. Those prices are food, and staff when the format includes them. Cake, balloons and entertainment are optional extras. The 8–12 celebration includes a cake option as part of that set menu.',
+    a: 'Cakes, decorations and entertainment are quoted separately from the catering starting price, which covers food and any staff included in the chosen format. Cake, balloons and entertainment are optional extras. The 8–12 celebration includes a cake option as part of that set menu.',
   },
   {
     q: 'Can I order children’s food and adult catering together?',

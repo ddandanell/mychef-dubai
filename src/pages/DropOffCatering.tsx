@@ -39,7 +39,7 @@ const HERO = {
 
 const jumpNav = [
   { href: '#what-this-is', label: 'What this is' },
-  { href: '#not-this-page', label: 'Not this page' },
+  { href: '#not-this-page', label: 'Service options' },
   { href: '#how-it-works', label: 'How it works' },
   { href: '#constraint', label: 'No team on site' },
   { href: '#pricing', label: 'Pricing' },
@@ -321,25 +321,25 @@ export default function DropOffCatering() {
             . From AED 90 per person, ten guests minimum, AED 900 minimum order. 5% VAT is shown as its own line. That is catering delivery in Dubai without waiters, without a buffet line, and without a chef finishing plates in your kitchen.
           </BodyCopy>
           <BodyCopy>
-            One dinner with a chef in the house is still catering of a different kind. Send that brief to a{' '}
+            For a meal prepared and served in your home, explore a{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef
             </Link>
-            . An occasion with a date, a guest list and a format lives under{' '}
+            . Find menus and service ideas for celebrations through{' '}
             <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Events
             </Link>
-            . This page is the drop.
+            . Share the occasion and the support you would like.
           </BodyCopy>
         </Container>
       </Section>
 
       <Section id="not-this-page" tone="white" rhythm="chapter">
         <Container>
-          <SectionLabel>NOT THIS PAGE</SectionLabel>
+          <SectionLabel>SERVICE OPTIONS</SectionLabel>
           <DisplayHeading className="text-black mb-6">Need help with service as well as delivery?</DisplayHeading>
           <BodyCopy className="mb-10">
-            Drop-off is the right product when a colleague can lift lids and the food can sit. It is the wrong product when the impression in the room depends on service. The next step is the page that owns that job.
+            Drop-off works well when your team can receive and serve the meal. If you would like chefs or service staff to stay, explore the options below for a coordinated catering service.
           </BodyCopy>
           <ul className="max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
             {leaveLinks.map((item) => (
@@ -368,11 +368,11 @@ export default function DropOffCatering() {
               A training room. A board lunch where the agenda matters more than table service. A villa Saturday when you would rather not have waiters in the kitchen. A headcount you already know, a surface to unpack onto, and no need for anyone to restock the tray.
             </BodyCopy>
             <BodyCopy>
-              Recurring office lunches still belong on{' '}
+              For regular workplace meals, explore{' '}
               <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
                 Office catering
               </Link>
-              . That is the weekly rhythm. This page is the single drop.
+              . We can discuss an ongoing schedule and a rotating menu.
             </BodyCopy>
           </div>
           <NonCateringVisual><EditorialImage
@@ -441,7 +441,7 @@ export default function DropOffCatering() {
               You still need a counter or table. Do not unpack onto the meeting that is still running. There is no service team to keep food away from laptops, papers or a villa kitchen already in use.
             </BodyCopy>
             <BodyCopy>
-              Ten guests and AED 900 is the floor. Below that, the van and the packing stop making sense against the food — a private chef in the kitchen is the honest product, with no headcount minimum.
+              Drop-off catering has a minimum of 10 guests and an AED 900 order. For a smaller group, a private chef meal or dining package may be a better fit; share the occasion so we can recommend a suitable format.
             </BodyCopy>
           </div>
           <NonCateringVisual><EditorialImage

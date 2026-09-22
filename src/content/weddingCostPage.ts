@@ -104,7 +104,7 @@ export const quoteDrivers = [
 export const guestSketches = [
   {
     title: 'Thirty guests, chef-led villa dinner',
-    body: 'This is usually the myCHEF core product: a named chef and service team cooking on site. At around AED 700–950 per guest the food-and-service line is about AED 21,000–28,500 before VAT — and the night may still need to clear a package floor around AED 2,400–4,500. You are paying for a kitchen team, not a banquet drop-off.',
+    body: 'This is usually the myCHEF core product: a named chef and service team cooking on site. At around AED 700–950 per guest the food-and-service line is about AED 21,000–28,500 before VAT — and the night may still need to clear a minimum package spend around AED 2,400–4,500. You are paying for a kitchen team, not a banquet drop-off.',
   },
   {
     title: 'Eighty guests, staffed wedding buffet',

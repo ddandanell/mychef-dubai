@@ -36,7 +36,7 @@ const config: ServicePageConfig = {
         <Link to="/bbq-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           BBQ catering Dubai
         </Link>
-        . An unnamed house night belongs on{' '}
+        . An informal gathering at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
         </Link>

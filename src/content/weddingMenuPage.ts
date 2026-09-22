@@ -138,7 +138,7 @@ export const venueMenuNotes = [
   },
   {
     title: 'Hotel ballroom',
-    body: 'If external catering is allowed, the menu still has to fit their load-in and their power. If it is not allowed, stop designing this page’s sample menus for that room.',
+    body: 'Confirm that the venue permits external catering before developing the menu. Review loading access, preparation space, power and the service areas with the venue team so the proposed dishes can be prepared and served as planned.',
   },
   {
     title: 'Yacht',
@@ -223,7 +223,7 @@ export const menuFaqs = [
   },
   {
     q: 'How is the catering price list for wedding worked out?',
-    a: 'There is no single number for catering price list for wedding: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 200. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+    a: 'A wedding catering price list is a starting point: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 200. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
 ] as const
 

@@ -136,7 +136,7 @@ export default function CateringPackages() {
             <Link to={PACKAGE_UPLINK.href} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering Dubai
             </Link>
-            {' '}if you need food-only through to full event support. A standing household chef belongs on{' '}
+            {' '}if you need food-only through to full event support. For regular meals at home, explore{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Private chef
             </Link>
@@ -152,9 +152,8 @@ export default function CateringPackages() {
             Starting packages and tailored event support
           </DisplayHeading>
           <BodyCopy className="mb-12 max-w-[62ch]">
-            Same cards and AED as Home: Date Night, Family Feast, Birthday, Corporate Dinner and The Full Experience.
-            Headcount, menu and venue move the quote. The number on the card is the published floor for that typical
-            table. 5% VAT is shown on the proposal.
+            Choose from Date Night, Family Feast, Birthday, Corporate Dinner and The Full Experience.
+            Each package shows a starting price for its stated group size. Your menu, guest count and venue shape the final proposal, with 5% VAT shown separately.
           </BodyCopy>
         </Container>
       </Section>
@@ -163,7 +162,7 @@ export default function CateringPackages() {
         eventOnly
         eyebrow="FROM AED"
         title="Starter packages"
-        subtitle="Date Night, Family Feast, Birthday Celebration, Corporate Dinner and The Full Experience. The same published floors as Home."
+        subtitle="Date Night, Family Feast, Birthday Celebration, Corporate Dinner and The Full Experience. Starting packages for memorable meals and celebrations."
       />
       <Section tone="white" rhythm="connected">
         <Container>
@@ -222,8 +221,7 @@ export default function CateringPackages() {
             AED 300–450 on the larger dinners.
           </BodyCopy>
           <BodyCopy className="mb-4">
-            The best catering packages Dubai hosts actually use are the ones that match the table: guest count and
-            service, not a ranking.
+            The right catering package fits your guest count, preferred menu and level of service. Compare the inclusions, then discuss any details you would like tailored to the occasion.
           </BodyCopy>
           <BodyCopy className="mb-4">
             Date Night and Family Feast can be written as halal catering packages in Dubai. The starting price does not

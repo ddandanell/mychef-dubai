@@ -29,7 +29,7 @@ export const BIRTHDAY_EXTRAS_DISCLAIMER =
   'Cakes, balloons and entertainment below are planning figures including 5% VAT. They are quoted in your proposal after supplier confirmation. They are not a shop price today.'
 
 export const BIRTHDAY_CATERING_VAT_NOTE =
-  'Published catering floors are before 5% VAT, shown as its own line on the proposal. Extra planning figures already include 5% VAT.'
+  'Catering starting prices are before 5% VAT, shown separately on the proposal. Extra planning figures already include 5% VAT.'
 
 export const EXTRA_GROUPS: readonly { id: BirthdayExtraGroup; label: string }[] = [
   { id: 'cakes', label: 'Cakes and sweets' },
@@ -392,7 +392,7 @@ export function parseBirthdayExtraIds(raw: string | null): string[] {
   return [...new Set(raw.split(',').map((id) => id.trim()).filter((id) => allowed.has(id)))]
 }
 
-/** 20-guest buffet illustration using the published floor, then 5% VAT. */
+/** 20-guest buffet illustration using the starting price, then 5% VAT. */
 export const BIRTHDAY_BUDGET_EXAMPLE = {
   guests: 20,
   buffetPerPersonBeforeVat: 120,

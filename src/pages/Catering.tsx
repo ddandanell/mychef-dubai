@@ -346,7 +346,7 @@ export default function Catering() {
           <SectionLabel>WHAT ARE YOU PLANNING?</SectionLabel>
           <DisplayHeading className="text-black mb-4">Tell us the event. We build the catering around it.</DisplayHeading>
           <BodyCopy className="mb-12">
-            Wedding, corporate, birthday and private-party searches belong on those pages. This hub sends you there with the right brief.
+            Explore catering for weddings, corporate events, birthdays and private parties, with menus and service options tailored to each occasion.
           </BodyCopy>
           <EventPathway items={eventPathways} />
         </Container>

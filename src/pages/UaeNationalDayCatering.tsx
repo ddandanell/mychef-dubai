@@ -152,7 +152,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Do you provide live cooking stations?',
-      a: 'Yes. Grill, shawarma, kebab and bread stations start from the published live-station floor of AED 150 per person before 5% VAT.',
+      a: 'Yes. Grill, shawarma, kebab and bread stations start from AED 150 per person before 5% VAT.',
     },
     {
       q: 'How far in advance should I book National Day catering?',

@@ -327,11 +327,11 @@ export default function WeddingMenuPlanningGuide() {
             ))}
           </div>
           <p className="mt-12 max-w-3xl font-inter text-body text-gray-600 leading-relaxed">
-            What this costs, without turning the menu page into a price list. The garden menu for 30 is usually a chef-led night. The ballroom menu for 120 is usually a buffet-and-stations night in the mid AED 200s per guest if you stay independent. The yacht menu for 40 is a compact, more expensive-per-head service because the galley is small. Exact figures live on the{' '}
+            Each setting needs a different budget. A garden dinner for 30 may suit chef-led service, while a ballroom celebration for 120 may work well with a buffet and stations. A yacht reception for 40 requires careful planning around limited space and access. Compare formats and starting prices in the{' '}
             <Link to={WEDDING_PATHS.cost} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               wedding catering cost
             </Link>{' '}
-            guide. This page will not invent a third ladder. The calendar lives on the{' '}
+            guide. Plan the preparation schedule with the{' '}
             <Link to={WEDDING_PATHS.checklist} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               wedding catering checklist
             </Link>

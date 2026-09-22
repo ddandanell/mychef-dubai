@@ -166,7 +166,7 @@ export default function Corporate() {
         <Container>
           <CorporateSiblings
             items={CORPORATE_SIBLING_LINKS}
-            note="This page is the corporate hub: offices, boardrooms, conferences and company events. Weddings, birthdays, yachts and private parties are quoted on their own pages."
+            note="Explore corporate catering for offices, boardrooms, conferences and company events, with menus and service matched to your agenda and workplace."
           />
         </Container>
       </Section>
@@ -399,9 +399,9 @@ export default function Corporate() {
       <Section id="examples" tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Company events we have run</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Ideas for your next company event</DisplayHeading>
           <BodyCopy className="mb-12">
-            Client names stay private. Guest counts, venues and service shapes are from events already described on our{' '}
+            These sample formats show how food and service can fit a company agenda. Explore more planning ideas through our{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>{' '}

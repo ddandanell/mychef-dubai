@@ -38,7 +38,7 @@ const benefits = [
   },
   {
     title: 'Dates held in the agreement',
-    description: 'Board lunches and peak weeks are booked against the account. Nothing on this page reserves a date by itself.',
+    description: 'Board lunches and peak weeks are booked against the account. Each event date is confirmed as part of the booking process.',
   },
   {
     title: 'One VAT invoice',
@@ -53,7 +53,7 @@ const benefits = [
 const faqs = [
   {
     q: 'What is a corporate catering contract?',
-    a: 'A written account for companies that book often. If credit is included, bookings deduct from it at the rate for that job. Rollover, expiry and overages are named in the agreement. This page is catering for a company, not a household chef plan.',
+    a: 'A written account for companies that book often. If credit is included, bookings deduct from it at the rate for that job. Rollover, expiry and overages are named in the agreement. The agreement is tailored to the recurring catering requirements of your company.',
   },
   {
     q: 'How does the monthly credit work?',
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'Is there a minimum commitment?',
-    a: 'Commitment length is set in the written agreement. Nothing on this page creates a three-month term by itself.',
+    a: 'Commitment length is set in the written agreement. The term is confirmed before you commit.',
   },
   {
     q: 'Can the retainer cover multiple office locations?',
@@ -254,7 +254,7 @@ export default function CorporateRetainer() {
           </div>
 
           <p className="text-center font-inter text-body-sm text-gray-500 mt-8 max-w-[700px] mx-auto">
-            Fees, credit, expiry and overages are named only in the written agreement. Nothing on this page is a published monthly fee.
+            Fees, credit, expiry and overages are named only in the written agreement. Your monthly commitment is confirmed in the written agreement.
           </p>
         </div>
       </section>

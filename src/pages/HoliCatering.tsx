@@ -36,7 +36,7 @@ const config: ServicePageConfig = {
         <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           festive catering Dubai
         </Link>{' '}
-        calendar. An unnamed house night belongs on{' '}
+        calendar. An informal gathering at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
         </Link>
@@ -157,7 +157,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Indian Catering Dubai',
-      description: 'Year-round Indian menus. This page is the Holi date on that kitchen.',
+      description: 'Explore Indian menus for celebrations and gatherings throughout the year.',
       image: '/images/indian-catering-dubai-hero.webp',
       link: '/indian-catering-dubai',
     },
@@ -169,7 +169,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Private Party Catering',
-      description: 'An unnamed house night, when the date is not Holi.',
+      description: 'An informal gathering at home, when the date is not Holi.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },

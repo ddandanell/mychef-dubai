@@ -38,7 +38,7 @@ export default function SiloChildren() {
     ? 'Who we are and how we work.'
     : isPrivateChefHub
       ? 'Everything about the household chef service, in one place.'
-      : 'Everything filed under this page, in one place — so you can see the whole section rather than finding it a page at a time.'
+      : 'Explore related services and practical guides to help plan the details.'
 
   return (
     <section className="border-t border-white/10 bg-black py-12 print:hidden" aria-label={sectionLabel}>

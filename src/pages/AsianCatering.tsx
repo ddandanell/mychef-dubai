@@ -65,7 +65,7 @@ const menuHighlights = [
   {
     icon: Fish,
     title: 'Sushi & Sashimi',
-    description: 'A sushi counter is a sibling brief, not this page. Link through when the night needs ice time and a raw pass.',
+    description: 'Explore a dedicated sushi menu, with preparation, chilled storage and service arrangements assessed for your venue.',
     link: '/sushi-catering-dubai',
   },
   {
@@ -300,7 +300,7 @@ export default function AsianCatering() {
     <div ref={containerRef}>
       <SEO
         title="Asian Catering Dubai | myCHEF"
-        description="Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Sushi is a sibling brief. You stay a guest at your table."
+        description="Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Explore a dedicated sushi service for specialist menus. You stay a guest at your table."
         canonicalPath="/asian-catering-dubai"
         ogImage="/menu-seafood.webp"
         hideSiteName

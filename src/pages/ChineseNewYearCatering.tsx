@@ -32,7 +32,7 @@ const config: ServicePageConfig = {
         <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           festive catering Dubai
         </Link>{' '}
-        calendar. An unnamed house night belongs on{' '}
+        calendar. An informal gathering at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
         </Link>
@@ -139,7 +139,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can you include live cooking stations?',
-      a: 'Yes. Live wok, noodle and dumpling stations start from the published live-station floor of AED 150 per person before 5% VAT.',
+      a: 'Yes. Live wok, noodle and dumpling stations start from AED 150 per person before 5% VAT.',
     },
     {
       q: 'How many guests can you cater for?',
@@ -159,7 +159,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Private Party Catering',
-      description: 'The unnamed house night, when the date is not Lunar New Year.',
+      description: 'Private parties and gatherings at home throughout the year.',
       image: '/service-villa.webp',
       link: '/private-party-catering-dubai',
     },

@@ -25,14 +25,14 @@ const config: ServicePageConfig = {
         Reunion catering Dubai is a mixed guest list that has not eaten together in years. Family in a villa, alumni in a hall, friends in an apartment. Sharing food, dietary notes named early, and a running order that does not keep the host plating.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. Family reunion catering Dubai and school reunion catering Dubai use the same floors as any other staffed event.
+        A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. Family reunion catering Dubai and school reunion catering Dubai use the standard format starting prices, with service tailored to the reunion.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         A villa sitting sits next to{' '}
         <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           villa dining Dubai
         </Link>
-        . An unnamed house night belongs on{' '}
+        . An informal gathering at home belongs on{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
         </Link>

@@ -142,7 +142,7 @@ const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 const faqs = [
   {
     q: 'Do you cater both iftar and suhoor during Ramadan?',
-    a: 'Yes. Iftar at Maghrib and suhoor before Fajr. We can quote one sitting or both. Suhoor as a standalone search sits on this Ramadan hub.',
+    a: 'Yes. Iftar at Maghrib and suhoor before Fajr. We can quote one sitting or both. Share the preferred pre-dawn service time and menu requirements for a tailored suhoor proposal.',
   },
   {
     q: 'Is all your Ramadan catering halal?',
@@ -175,7 +175,7 @@ const relatedServices = [
   },
   {
     title: 'Suhoor Catering',
-    description: 'The pre-dawn sitting. Quoted on this Ramadan hub.',
+    description: 'A pre-dawn meal planned around your preferred service time and guest list.',
     image: '/menu-appetizer.webp',
     link: '/ramadan-catering-dubai',
   },
@@ -363,7 +363,7 @@ export default function RamadanCatering() {
             A staffed buffet starts from AED 120 per person. Live stations from AED 150. Drop-off from AED 90. All before 5% VAT. No chef is guaranteed by name. Dietary notes go into the first draft.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            The Maghrib sitting is owned in more detail on <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link>. Suhoor is quoted on this hub. Eid after the month sits on <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link>. The season sits on the <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar. Book six to eight weeks ahead.
+            Explore menus and service for the sunset meal with <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link>. Suhoor can be included in your Ramadan proposal. Eid after the month sits on <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link>. The season sits on the <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">festive catering Dubai</Link> calendar. Book six to eight weeks ahead.
           </p>
         </div>
       </section>

@@ -141,7 +141,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'How is afternoon tea catering Dubai price worked out?',
-      a: 'Format, guest count and staffing move the figure. A staffed buffet starts from AED 120 per person, canapés from AED 150, drop-off from AED 90 (10 guests and AED 900 minimum). 5% VAT is shown on its own line. There is no separate afternoon-tea floor.',
+      a: 'Format, guest count and staffing move the figure. A staffed buffet starts from AED 120 per person, canapés from AED 150, drop-off from AED 90 (10 guests and AED 900 minimum). 5% VAT is shown on its own line. Afternoon tea menus are quoted individually according to the selection and service required.',
     },
     {
       q: 'Do you offer themed or branded afternoon tea?',

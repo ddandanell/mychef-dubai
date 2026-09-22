@@ -40,3 +40,11 @@ Added 91 individually assigned supporting photographs, plus five previously unus
 Christmas keeps its four existing photographs; the new Christmas-themed image is assigned exclusively to the broader festive catering page. Yacht photographs are no longer repeated in shared Private Chef portfolio sections; those sections link to the yacht portfolio instead. The yacht page has no generated imagery.
 
 Final local validation: production build passed; SEO contract and keyword locks passed. All 92 rendered catering routes have one H1 and at least 1,037 main-content words. There are 211 distinct visible content photographs, with 2–4 per page except the yacht page’s 21 originals. Every referenced responsive image opens successfully. Shared Private Chef portfolio sections were also rendered to verify that removing repeated yacht photographs preserved their headings, substantial copy and remaining photography. See `photography-audit.json` and `render-audit.json`.
+
+## Second editorial and functional review
+
+- Rewrote institutional, school, nursery, hospital and canteen service copy around their actual procurement and operating requirements. Replaced unsupported blanket certification and allergen claims with a provider assessment and documented approval process. Patient dietary specifications remain the responsibility of the clinical team.
+- Rewrote eight specialist planning articles, including staff meals, production catering and private jet catering, to match their distinct service requirements. Their closing enquiry guidance now requests the relevant operational details.
+- Removed internal SEO and routing language from public copy, clarified starting prices without changing the pricing calculations, and replaced unsupported past-event descriptions with clearly presented planning examples.
+- Corrected the engagement planning anchor and the gallery/case-study metadata descriptions. Preserved the latest main-branch changes to the chef title and WebP blog cards.
+- Final rendered review: 92 pages, 3,612 internal links and 1,199 anchors checked with no issues. All 92 pages retain at least 1,037 words, one H1 and the required unique photography. Production build, SEO contract, keyword locks, URL stability, catering pricing, enquiry handling and yacht quote checks passed.

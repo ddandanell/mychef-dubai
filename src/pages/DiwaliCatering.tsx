@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     q: 'Do you offer live chaat and dosa stations?',
-    a: 'Yes. Live stations start from the published floor of AED 150 per person before 5% VAT. Power and queue space sit in the quote.',
+    a: 'Yes. Live stations start from AED 150 per person before 5% VAT. Power and queue space sit in the quote.',
   },
   {
     q: 'Do you provide Diwali mithai and sweets?',
@@ -177,7 +177,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Indian Catering',
-    description: 'Year-round Indian menus. This page is the Diwali date on that kitchen.',
+    description: 'Explore Indian menus for gatherings throughout the year.',
     image: '/menu-meat.webp',
     link: '/indian-catering-dubai',
   },

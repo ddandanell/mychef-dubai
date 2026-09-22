@@ -16,7 +16,7 @@ export const nurseryPage: InstitutionalPageContent = {
   },
   hero: {
     src: '/images/nursery-catering-dubai-hero.webp',
-    alt: 'Nursery catering Dubai: a chef in a black jacket setting child-sized plates in a calm early-years dining room. Experience concept shown.',
+    alt: 'Nursery catering Dubai: a chef in a black jacket setting child-sized plates in a calm early-years dining room.',
     width: 1344,
     height: 752,
     subtitle:
@@ -50,27 +50,26 @@ export const nurseryPage: InstitutionalPageContent = {
   figures: {
     afterBrief: {
       src: '/images/nursery-catering-dubai-room.webp',
-      alt: 'Early-years dining room in Dubai being set with child-sized tables before lunch. Experience concept shown.',
+      alt: 'Early-years dining room in Dubai being set with child-sized tables before lunch.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
     afterDifference: {
       src: '/images/nursery-catering-dubai-plating.webp',
-      alt: 'Chefs plating small early-years portions in a Dubai kitchen, no children in the cook zone. Experience concept shown.',
+      alt: 'Chefs plating small early-years portions in a Dubai kitchen, no children in the cook zone.',
       width: 1280,
       height: 720,
-      caption: 'Experience concept shown.',
+      caption: '',
     },
   },
   siloNote: (
     <>
-      Nursery catering Dubai is this brief. Preschool catering Dubai and nursery lunch delivery
-      Dubai are the same job with a different age band or drop-off window. School canteens sit on{' '}
+      Plan nursery meals around the ages, timetable and dietary requirements of your centre. For older pupils, explore{' '}
       <Link to={INSTITUTIONAL_PATHS.school} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         school catering
       </Link>
-      . Related sites sit on{' '}
+      . Compare other organisational services through{' '}
       <Link to={INSTITUTIONAL_PATHS.hub} className="text-gold-ink underline underline-offset-4 hover:text-gold">
         institutional catering Dubai
       </Link>
@@ -78,75 +77,122 @@ export const nurseryPage: InstitutionalPageContent = {
     </>
   ),
   problem: {
-    h2: 'Why nursery catering Dubai is a different job',
-    paragraphs: [
-      'If you run a nursery in Dubai, lunch is the part of the day with the least margin for error. You are feeding children as young as one. Parents chose you because they wanted a professional standard, not a packed box that may or may not survive the car. Dubai has hundreds of licensed early-childhood centres and tens of thousands of children in them. Enrolment has been growing faster than school enrolment. For most of those children, the nursery lunch is most of what they eat, five days a week.',
-      'Nurseries here split two ways: meals inside the fee, or parents pack. More centres are moving to provided meals because it removes the packed-lunch lottery and lets you hold a nut-free rule. It also means the food becomes your reputation. When a third-party kitchen fails, parents still call the nursery first. That is the job nursery catering companies in Dubai are actually being hired to do: not a pretty menu card.',
-      'Regulation has tightened around that fact. Dubai Municipality’s My School Food platform, launched in late 2025, covers schools, nurseries and universities with a registered-supplier model, labelling rules and allergy protocols. Food businesses supplying educational settings need a valid permit from the Food Safety Department. Menus are reviewed. Daily monitoring runs through municipal channels. A kitchen someone recommended is no longer enough. You should be able to see the paperwork.',
-      'Nursery catering companies Dubai are hired to hold that standard every sitting. Nursery meal plans Dubai sit in the written cycle, with nut-free nursery meals Dubai and halal nursery meals Dubai as production rules, not tasting-card extras. Healthy meals for nurseries Dubai and early years catering Dubai are this page; school canteens are not.',
-    ],
+    "h2": "Nursery catering Dubai, planned for early-years routines",
+    "paragraphs": [
+      "Nursery meals are part of a familiar daily routine. Children need time to settle, eat and explore different flavours, while the nursery team needs a dependable way to receive meals and understand exactly what has been ordered. The service should support both.",
+      "Start with the ages, number of children and meal times at your centre. Explain whether lunch is included in the nursery fee, ordered separately or combined with parent-provided meals. Those arrangements affect ordering, labelling and communication with families.",
+      "The nursery supplies its food policy and dietary requirements before menu development. Age-appropriate preparation, portions and textures are reviewed with the responsible nursery team. Any individual requirements that need specialist input should be agreed with the relevant professionals before the menu is confirmed.",
+      "A written cycle helps staff and parents understand the meals planned for the week. Clear ordering deadlines, handover instructions and an agreed approach to substitutions make the service easier to manage. The proposed kitchen and required documentation are assessed for the centre before a contract is agreed."
+    ]
   },
   difference: {
-    h2: 'What you can verify before anyone cooks',
-    blocks: [
+    "h2": "A thoughtful meal programme for your centre",
+    "blocks": [
       {
-        title: 'A considered approach to nursery meals',
-        body: 'myCHEF started as a private-chef and event kitchen. Culinary partners are matched, vetted and backed up. Early-years meals are cooked from whole ingredients: vegetables, grains, lean halal proteins, fruit: not a reheated production tray. Children eat with their eyes. Food that looks like food is how fussy eaters become willing ones.',
+        "title": "Menus shaped around the children",
+        "body": "Share age groups and current meal routines so the sample cycle can be reviewed for suitable portions and preparation. Keep familiar choices alongside a considered variety of ingredients."
       },
       {
-        title: 'Menus written for the age band',
-        body: 'Nursery meal plans in Dubai have to fit 12 months to five years: texture, portion and what a small stomach will actually finish. Healthy meals for nurseries in Dubai are not adult canteen food cut smaller. Age bands, textures and a written cycle sit in the proposal so a manager can show a parent the week, not describe it from memory.',
+        "title": "Preparation and texture agreed in advance",
+        "body": "The nursery team approves the preparation requirements for each age group. Any individual clinical or feeding requirements need the appropriate professional guidance and a confirmed service plan."
       },
       {
-        title: 'Nut-free as a kitchen rule',
-        body: 'Nut-free nursery meals in Dubai are the expected baseline, including “may contain traces” in many centres. We treat that as a production rule, not a menu filter. Every meal leaves with allergen labelling. Your team gets a written matrix for the cycle, so any staff member: not only the manager: can answer a parent without guessing.',
+        "title": "Your allergy policy in the brief",
+        "body": "Provide the current policy, including any restrictions on nuts or other ingredients. The proposed kitchen must assess whether its sourcing and preparation arrangements can meet those requirements."
       },
       {
-        title: 'Halal-first, documented',
-        body: 'Halal nursery meals in Dubai are not a special request. Meat and poultry come from approved suppliers. Pork and non-halal derivatives stay out of the nursery range. If a family needs to see certificates, that request belongs in the brief before the first service, not after a complaint.',
+        "title": "Halal menu requirements",
+        "body": "Halal ingredients are the default for myCHEF nursery proposals. Include any specific supplier documentation or certification requirements in the initial brief so they can be reviewed."
       },
       {
-        title: 'Temperature on the van, not only in the kitchen',
-        body: 'Nursery lunch delivery in Dubai fails in the last kilometre as often as it fails on the pass. Cold food has to stay cold; hot food has to stay hot. Probe logs travel with the run. If a centre cannot receive at a loading bay, say so in the brief: that changes the pack, not the promise.',
+        "title": "An organised delivery handover",
+        "body": "Agree the receiving contact, delivery window and meal identification. The proposal should explain the handling information and checks the nursery needs when the order arrives."
       },
       {
-        title: 'A proposal following the site assessment',
-        body: 'We do not publish a per-child from-price for nursery catering. Enrolment, ages, diet list, kitchen access and how many days you run all move the number. Finance gets food, staff, delivery, equipment and 5% VAT on separate lines. A tasting happens when the site needs one, before anyone signs a term.',
-      },
-    ],
+        "title": "A clear commercial proposal",
+        "body": "Daily numbers, operating days, menus, delivery and any staffing are considered together. Discuss a tasting or trial and review the itemised quote before committing to a term."
+      }
+    ]
   },
   table: {
-    label: 'SAMPLE WEEK',
-    h2: 'An example menu cycle for discussion',
-    intro:
-      'This is the shape of a nursery meal plan in Dubai: one hot main, a carbohydrate, vegetables, fruit, and a labelled allergen card. The live cycle is written after we see ages and the diet list.',
-    columns: ['Day', 'Lunch', 'Snack'],
-    rows: [
-      ['Sunday', 'Grilled chicken, rice, steamed carrot and cucumber', 'Yoghurt and sliced fruit'],
-      ['Monday', 'Baked fish, potato, green beans', 'Hummus and vegetable sticks'],
-      ['Tuesday', 'Lamb mince pasta, hidden vegetables, side salad', 'Cheese and apple'],
-      ['Wednesday', 'Chicken and vegetable rice, cucumber', 'Fruit and a plain biscuit'],
-      ['Thursday', 'Vegetable macaroni, tomato sauce, fruit', 'Yoghurt'],
+    "label": "MENU PLANNING",
+    "h2": "Build a nursery menu cycle together",
+    "intro": "The examples below suggest a structure for discussion. The nursery team reviews ingredients, preparation, textures and portions before any dish is approved.",
+    "columns": [
+      "Meal element",
+      "Example to discuss",
+      "Detail to agree"
     ],
-    note: 'Sample only. No nuts. Halal proteins. Final menus are written against your allergen matrix and municipal rules, then shown to you before service starts.',
+    "rows": [
+      [
+        "Main dish",
+        "Chicken with rice and cooked vegetables",
+        "Preparation and portions for each age group"
+      ],
+      [
+        "Vegetarian option",
+        "Lentil and vegetable dish",
+        "Ingredients, texture and suitable accompaniment"
+      ],
+      [
+        "Alternative main",
+        "Fish with potato and cooked vegetables",
+        "Ingredient review and age-appropriate preparation"
+      ],
+      [
+        "Fruit or snack",
+        "Prepared fruit or plain yoghurt",
+        "Portion, preparation and dietary suitability"
+      ],
+      [
+        "Weekly variety",
+        "A rotating selection of approved dishes",
+        "Ordering, substitutions and parent communication"
+      ]
+    ],
+    "note": "These are menu ideas, not a prescribed feeding plan. The final cycle follows the centre requirements and the assessment of the proposed culinary partner."
   },
   compliance: {
-    h2: 'What this work requires in Dubai',
-    intro:
-      "Before a nursery contract is confirmed, the proposed culinary partner must provide the documentation required for that setting. Any school-food approval or named food-safety certification should be verified directly as part of the assessment.",
-    rows: [
-      { item: 'Trade licence with catering activity', who: 'DET', see: 'Licence copy on file' },
-      { item: 'Food establishment permit / kitchen NOC', who: 'Dubai Municipality', see: 'Permit for the kitchen that actually cooks' },
-      { item: 'Permit to supply schools and nurseries', who: 'DM Food Safety', see: 'The education-supply permit, not a restaurant licence alone' },
-      { item: 'Platform registration (Foodwatch / My School Food)', who: 'Dubai Municipality', see: 'Supplier status before we say we are listed' },
-      { item: 'HACCP-based food safety system', who: 'DM / certifier', see: 'Certificate or documented system, dated' },
-      { item: 'PIC Level 3 on the shift', who: 'DM-accredited trainer', see: 'Named person on the roster that day' },
-      { item: 'Occupational health cards', who: 'DHA', see: 'Cards for every handler on the run' },
-      { item: 'Temperature-controlled transport', who: 'Dubai Municipality', see: 'Van permit, probe logs, cold ≤5°C / hot ≥60°C' },
-      { item: 'Halal supply chain', who: 'Accredited body', see: 'Supplier certificates matching the menu' },
-      { item: 'Allergen matrix and nut-free protocol', who: 'DM / KHDA expectation', see: 'Written matrix for the live cycle' },
+    "h2": "Documentation and responsibilities to confirm",
+    "intro": "Before a nursery catering service is agreed, review the proposed culinary partner and the requirements for your site with the responsible management team.",
+    "rows": [
+      {
+        "item": "Kitchen and business approvals",
+        "who": "Proposed culinary partner",
+        "see": "Current documents applicable to the kitchen and service scope"
+      },
+      {
+        "item": "Food safety procedures",
+        "who": "Culinary partner and site management",
+        "see": "Preparation, transport, receiving and holding arrangements"
+      },
+      {
+        "item": "Staffing and supervision",
+        "who": "Operations lead",
+        "see": "Named responsibilities, required training and cover arrangements"
+      },
+      {
+        "item": "Ingredients and dietary information",
+        "who": "Menu lead and site contact",
+        "see": "Current menu, ingredient information and agreed labelling"
+      },
+      {
+        "item": "Nursery food and allergy policy",
+        "who": "Nursery management",
+        "see": "Current restrictions and the agreed preparation and handover requirements"
+      },
+      {
+        "item": "Age groups and meal preparation",
+        "who": "Nursery team and menu lead",
+        "see": "Approved portions, textures and any individual instructions"
+      },
+      {
+        "item": "Insurance and contract scope",
+        "who": "Procurement team",
+        "see": "Required cover, exclusions and responsibilities in writing"
+      }
     ],
-    note: "Any required insurance, staff clearances and ordering arrangements are confirmed in the proposal. Applicable permissions and operational responsibilities must be agreed before service begins.",
+    "note": "Required registrations, certifications and permissions are verified for the proposed provider and setting before confirmation. The proposal records the agreed scope and any conditions that must be met before service begins."
   },
   process: {
     h2: 'A clear process for the nursery management team',
@@ -158,76 +204,72 @@ export const nurseryPage: InstitutionalPageContent = {
     ],
   },
   quoting: {
-    h2: 'How a nursery quote is built',
-    paragraphs: [
-      "Share the nursery location, number of children, age groups and service days, together with dietary requirements and the current lunch arrangements. An indicative spending range helps us prepare a relevant proposal.",
-      'Access, parking and the time the children actually sit down change when food can arrive at temperature. Mention the building early. Headcounts move; we will tell you the last point at which the kitchen can still change the order.',
-      'Published competitor meal plans in Dubai often sit in a band parents already know. That is market context, not our from-price. myCHEF quotes after the walk. 5% VAT is its own line.',
-    ],
+    "h2": "How a nursery catering quote is built",
+    "paragraphs": [
+      "Share the centre location, enrolment, age groups and service days, together with your meal schedule and dietary policy. An indicative spending range helps prioritise the proposal around your needs.",
+      "Delivery access and the time children eat determine the practical handover window. Confirm whether the nursery needs lunch only or additional snacks, how staff meals are handled and when daily numbers become final.",
+      "The itemised proposal identifies the agreed food, delivery, equipment and staffing, with 5% VAT separately stated. Review term dates, closure days and the process for changes so the arrangement remains clear for management and families."
+    ]
   },
   trust: {
-    h2: 'Parents ask who chose the caterer',
-    items: [
+    "h2": "Useful support for nursery planning",
+    "items": [
       {
-        title: 'How culinary partners are selected',
-        body: 'Identity, right-to-work, skill and references are checked before anyone cooks. No chef is guaranteed by name; we match the brief and keep a backup.',
-        href: '/how-we-vet-our-chefs',
-        linkLabel: 'How we vet chefs',
+        "title": "Culinary partner selection",
+        "body": "Learn how culinary professionals are assessed and matched to a brief.",
+        "href": "/how-we-vet-our-chefs",
+        "linkLabel": "How we vet chefs"
       },
       {
-        title: 'What halal-first means here',
-        body: 'Halal ingredients are sourced by default for nursery menus. Specific certification needs belong in the brief.',
-        href: '/halal-catering-dubai',
-        linkLabel: 'Halal catering',
+        "title": "Halal catering",
+        "body": "Share the menu and supplier documentation requirements for your centre.",
+        "href": "/halal-catering-dubai",
+        "linkLabel": "Halal catering"
       },
       {
-        title: 'Allergy-safe production',
-        body: 'The written matrix is the product. If a centre needs a fully segregated nut-free line, that is a kitchen question, not a menu note.',
-        href: '/allergy-safe-catering-dubai',
-        linkLabel: 'Allergy-safe catering',
+        "title": "Allergy requirements",
+        "body": "Review the information needed to assess ingredients and preparation conditions.",
+        "href": "/allergy-safe-catering-dubai",
+        "linkLabel": "Discuss allergy requirements"
       },
       {
-        title: 'Read the rules, then the quote',
-        body: 'Municipal school-food rules changed in 2025–26. The explainer is for managers who have to brief a board.',
-        href: '/blog/dubai-school-food-rules-2026',
-        linkLabel: 'Dubai school food rules 2026',
-      },
-    ],
+        "title": "School catering",
+        "body": "Explore a separate programme for older pupils and school lunch sittings.",
+        "href": "/school-catering-dubai",
+        "linkLabel": "School catering Dubai"
+      }
+    ]
   },
   faqH2: 'What should I know before booking nursery catering in Dubai?',
   faqs: [
     {
-      q: 'Do all nurseries in Dubai provide meals?',
-      a: 'No. Some include lunch in the fee. Others ask parents to pack. More centres are moving to provided meals so they can hold a nut-free rule and stop the packed-lunch lottery. The choice is yours; the kitchen still has to be documented either way. See [provided meals vs packed lunch](/blog/nursery-meals-vs-packed-lunch-dubai).',
+      "q": "Can meals be included in the nursery fee?",
+      "a": "The nursery decides how families enrol and pay. Share whether meals are included, ordered separately or offered on selected days so the proposal can reflect the ordering and invoicing arrangement."
     },
     {
-      q: 'How do Dubai nurseries handle food allergies?',
-      a: 'With a written matrix, labelled meals, and a nut-free production rule in most centres. Parents should be able to ask any staff member, not only the manager. Read [nut-free, allergen and halal nursery meals](/blog/nut-free-halal-nursery-meals-dubai).',
+      "q": "How are nursery food allergies handled?",
+      "a": "The centre provides its policy and dietary requirements through a designated contact. The proposed provider assesses ingredients, kitchen conditions, meal identification and handover. Accommodation is confirmed only after that review."
     },
     {
-      q: 'What foods are restricted in Dubai nurseries?',
-      a: 'Nuts are widely banned, including “may contain traces” in many settings. Pork is out. Sugary drinks and confectionery are increasingly restricted under municipal school-food rules. The live list sits in your policy and in the caterer’s matrix, not in a slogan.',
+      "q": "Can you provide nut-free nursery meals?",
+      "a": "Share the exact policy, including any requirements about ingredient traces and kitchen segregation. We must assess the proposed kitchen and supply arrangements before confirming whether the request can be met."
     },
     {
-      q: 'How much do nursery meal plans cost in Dubai?',
-      a: 'We do not publish a from-price per child. Enrolment, ages, diet list and delivery all move the number. Market meal plans you will see advertised elsewhere often sit in a band parents already recognise. myCHEF sends an itemised quote after a site walk, with 5% VAT as its own line.',
+      "q": "How much do nursery meal plans cost?",
+      "a": "The quote depends on age groups, daily numbers, menu requirements, service days and delivery arrangements. The proposal shows the agreed scope and 5% VAT separately so the centre can assess the full cost."
     },
     {
-      q: 'Are you listed on My School Food?',
-      a: 'We will say so when that registration is complete and filed. Until then this page describes the standard the work requires, not a listing we have not documented.',
+      "q": "How do we check supplier registration?",
+      "a": "Request the current documents for the proposed provider and check them against the requirements for your centre. Any necessary education-supply approval or platform registration must be verified before service is confirmed."
     },
     {
-      q: 'Do you cook on site or deliver?',
-      a: 'Most nurseries do not have a production kitchen. Nursery lunch delivery Dubai is the usual format: cooked that morning, packed for the age band, logged on the van, laid out in your dining room. On-site cooking is a different brief and is quoted as such.',
+      "q": "Can parents still provide meals on some days?",
+      "a": "That depends on nursery policy. If a mixed arrangement is permitted, agree how orders are recorded and how the same food and allergy rules will be communicated to families and staff."
     },
     {
-      q: 'Can parents still pack on some days?',
-      a: 'Yes, if your policy allows it. Mixed models are common during a transition. The allergen rule still has to hold for everything that enters the room.',
-    },
-    {
-      q: 'How much notice do you need to start?',
-      a: 'We do not publish a fixed minimum. Send enrolment and days; we tell you the same working day whether a kitchen can cover the week. A tasting and a trial week are normal before a term-long booking.',
-    },
+      "q": "Can we review a sample menu before booking?",
+      "a": "Yes, discuss a sample cycle and any tasting or trial requirements during the assessment. The nursery team reviews the menu, portions, preparation and delivery process before approving the programme."
+    }
   ],
   locationTitle: 'Nursery catering across Dubai',
   locationSubtitle: (

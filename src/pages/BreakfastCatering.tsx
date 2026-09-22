@@ -162,7 +162,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Does Arabic breakfast catering Dubai mean this service?',
-      a: 'It can. Foul, eggs, Arabic breads, labneh and cheese sit on this page when they are a morning catering brief. A standing household cook is private chef.',
+      a: 'Yes. Foul, eggs, Arabic breads, labneh and cheese can form the direction of a breakfast menu. Share your preferred dishes, guest count and service time so the team can assess a suitable selection.',
     },
   ],
   relatedServices: [

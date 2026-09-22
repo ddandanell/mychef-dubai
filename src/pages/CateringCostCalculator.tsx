@@ -108,7 +108,7 @@ export default function CateringCostCalculator() {
     <>
       <SEO
         title="Catering Cost Calculator Dubai | myCHEF"
-        description="Catering cost calculator Dubai: same published floors as the Catering hub. Pick format, guests and staff. Estimate only. Itemised quote follows."
+        description="Catering cost calculator Dubai: starting prices for each service format. Pick format, guests and staff. Estimate only. Itemised quote follows."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}

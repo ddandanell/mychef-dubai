@@ -181,7 +181,7 @@ const faqs = [
   { q: "Can a dessert table be part of full-service catering for my event?", a: "Yes. Our dessert tables slot seamlessly into full-service catering, so you can have canapés, a plated or buffet meal, and a styled sweet finish all handled by one team. Booking everything together keeps the styling cohesive and the logistics simple. See how it fits within our wider [catering in Dubai](/catering-dubai)." },
   {
     q: 'What goes into the dessert table catering Dubai price?',
-    a: 'There is no published per-person floor for the table alone. Guest count, cake, patisserie and staffing move the figure. Send the date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
+    a: 'Dessert tables are quoted individually. Guest count, cake, patisserie and staffing move the figure. Send the date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
   },
   {
     q: 'What is included in dessert table catering packages Dubai?',
@@ -210,7 +210,7 @@ const relatedServices = [
   },
   {
     title: 'Dessert cart',
-    description: 'Gelato or crepes as a live station, not a second dessert-table URL.',
+    description: 'Gelato or crêpes prepared and served as part of a live dessert station.',
     image: '/images/dessert-table-catering-dubai-hero.webp',
     link: '/live-cooking-stations-dubai',
   },
@@ -371,7 +371,7 @@ export default function DessertTableCatering() {
             Dessert table catering in Dubai combines a centrepiece cake and individual sweets in a coordinated display. The final price depends on the selection, guest count and styling, quoted as part of your catering or as an agreed addition. <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry chef Matteo Moretti</Link> leads pastry when the brief needs that kitchen.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            A <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding</Link> sweet table sits next to the meal, not instead of it. Birthdays, baby showers and a finish after dinner use the same method: guest count, heat, diets, pack-down. A gelato cart is a live station, not this page. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the rest of the night.
+            A <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding</Link> sweet table sits next to the meal, not instead of it. Birthdays, baby showers and a finish after dinner use the same method: guest count, heat, diets, pack-down. A gelato cart can be discussed as a live station alongside your dessert selection. See <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering in Dubai</Link> for the rest of the night.
           </p>
         </div>
       </section>

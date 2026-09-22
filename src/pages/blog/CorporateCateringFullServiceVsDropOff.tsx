@@ -167,7 +167,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
               What is drop off catering in Dubai, in practice: sealed trays or boxes, tongs, labels, a delivery window. Do you need serving staff for office catering in Dubai? Only if someone has to run a line, pass canapés or clear a client room. A Tuesday team lunch usually does not. A launch usually does.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Private chef versus catering is a different split: a household chef visit is not this page. Wedding food is not this page. BBQ drop-off catering is still drop-off if nobody stays. This article is for office managers, EAs and event organisers choosing a format for a company meal.
+              For office managers, executive assistants and event organisers, the key question is how much support the meal needs on site. Food-only delivery works when your team can receive and serve the order. A staffed format adds the people and equipment required to manage service.
             </p>
           </section>
 

@@ -5,38 +5,35 @@
   "sections": [
     {
       "id": "institutional",
-      "title": "Build a repeatable service specification",
+      "title": "Write a specification your teams can use",
       "paragraphs": [
-        "An ongoing food-service arrangement needs a more detailed brief than a one-off event. Define the number of meals, service days, delivery or preparation location and the people responsible for receiving and approving the food. If volumes vary, explain how changes will be communicated and confirmed.",
-        "Menu cycles, portions, dietary requirements and reporting should be discussed with the proposed provider. The relevant organisation may have its own approval process and documentation requirements, which need to be understood before a service is agreed. Avoid assuming that an event menu automatically suits a recurring institutional setting.",
-        "A useful proposal sets out the responsibilities on both sides, including facilities, equipment, service windows and review points. Any specialist requirements should be assessed explicitly. The result should be a workable specification that the organisation and culinary partner can evaluate together before moving into delivery."
+        "An institutional catering brief should be practical enough for procurement, facilities and the proposed culinary partner to review together. Record the expected meals for each sitting, operating days and location of preparation. Explain whether the organisation requires delivered food, staff at a service counter or responsibility for a complete kitchen operation.",
+        "Name the contacts who approve menus, confirm orders and receive the service. If the site has seasonal closures, changing occupancy or several buildings, include those details early. They influence staffing and transport as well as the amount of food. A timetable of actual meal windows is more useful than a daily total alone.",
+        "Keep the specification as the shared reference during discussions. When an assumption changes, update the affected menu, equipment or staffing requirement before comparing quotations. This gives the organisation a consistent basis for assessing the proposed service and makes responsibilities easier to explain to the people managing it each day."
       ]
     },
     {
       "id": "dietary",
-      "title": "Give every guest a considered option",
+      "title": "Agree how dietary information moves through the service",
       "paragraphs": [
-        "Collect dietary requirements before the final menu is agreed. Record how many guests each requirement applies to and distinguish preferences from allergies or other essential restrictions. A clear list helps the culinary team assess suitable dishes and the preparation arrangements they would need.",
-        "A vegetarian or vegan choice should feel like a complete part of the menu. Consider its portion, accompaniments and presentation alongside the other dishes, rather than removing an ingredient and assuming the result will be satisfying. Sauces, garnishes, breads and desserts also need attention.",
-        "Allergy requests require a specific discussion of ingredients and kitchen conditions. Labels and separate serving utensils can support a plan, but they do not by themselves guarantee the absence of cross-contact. Share the details early so the team can assess the request honestly and confirm what can be accommodated before you book."
+        "The organisation should provide its current dietary requirements through an agreed contact. Explain how information is approved, updated and passed to the kitchen, while following the site approach to personal information. The menu cycle, ingredient information and meal identification should use a consistent version so staff are working from the same instructions.",
+        "Requirements differ by setting. A nursery may have age-group preparation instructions, a school its own food policy, and a hospital clinically approved meal specifications. The proposed provider needs to assess the relevant requirements directly. No general menu or label can substitute for that assessment or for specialist approval where it is required."
       ]
     },
     {
       "id": "quote",
-      "title": "Compare the complete proposal",
+      "title": "Evaluate the full operating cost",
       "paragraphs": [
-        "Read the price together with the menu and service scope. Two proposals can have different totals because one includes equipment, staffing or a longer service period that the other does not. Compare them against the same guest count and requirements before deciding which is the better fit.",
-        "Check the minimum order, included hours, delivery or transport arrangements and how applicable VAT is shown. If the menu uses a starting price, ask which choices could change it. Premium ingredients, additional stations, extended service and extra hospitality support may need separate pricing.",
-        "The written proposal should also explain the payment schedule and the terms for changes or cancellation. Use the terms attached to your booking, as a private occasion and a corporate contract may have different arrangements. A clear comparison gives you confidence in the decision and helps avoid assumptions about what a headline price includes."
+        "Compare proposals against the same meal volumes, service hours and responsibilities. Identify who supplies equipment, utilities, transport, service staff and clearance. An attractive meal price is only meaningful when procurement understands the work included and what the organisation must arrange separately.",
+        "Review how the agreement handles changes in demand, closures, menu substitutions and additional service periods. The written terms should explain invoicing, payment and any review points. A clear cost structure allows the organisation to budget for the whole operation and assess future changes without reopening every part of the original brief."
       ]
     },
     {
       "id": "close",
-      "title": "Finish with a clear handover and collection plan",
+      "title": "Set a review rhythm from the beginning",
       "paragraphs": [
-        "Good catering continues through the end of service. Confirm which areas the team will clear, what happens to hired equipment and who will receive any final handover. A venue may need the space returned by a particular time, while a private home may have specific instructions for access after guests leave.",
-        "Discuss leftover food with the team rather than assuming everything can be packed and kept in the same way. Any handover should follow the instructions appropriate to the food and conditions involved. If you want containers or another arrangement, raise that before the event so it can be assessed.",
-        "For repeat bookings, note what worked well and what you would change. Useful feedback on portions, menu choices and service timing gives the next proposal a stronger starting point. A clear finish leaves you with fewer loose ends and helps make the next occasion easier to organise."
+        "Before launch, agree how the service will be reviewed and who attends those discussions. Useful measures include meal uptake, portion feedback, delivery performance and the time required to serve each sitting. The purpose is to identify practical improvements while keeping the agreed food and service requirements clear.",
+        "A short, documented review after the introduction period gives both teams a shared record of what needs attention. Confirm who will act, when a change will take effect and whether it affects the scope or price. Regular communication makes a recurring arrangement easier to manage as the organisation changes."
       ]
     }
   ],

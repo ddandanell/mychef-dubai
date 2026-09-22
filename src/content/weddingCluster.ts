@@ -100,7 +100,7 @@ export const estimateBands = [
 ] as const
 
 export const estimateFloors =
-  'Typical minimum booking values already published on the site: from about AED 900 for food-led orders; chef-led evenings often sit on package floors around AED 2,400 / 3,600 / 4,500 depending on the team.'
+  'Typical minimum booking values already published on the site: from about AED 900 for food-led orders; chef-led evenings often sit on starting package totals around AED 2,400 / 3,600 / 4,500 depending on the team.'
 
 export const hubEstimateSummary =
   'A food-led wedding buffet or station plan in Dubai often sits around AED 180–350 per guest once staff are in the room — less if it is true drop-off, more if you open live kitchens. A chef-led plated dinner in a villa, the evening most couples mean when they want myCHEF in the house, typically sits around AED 700–950 per guest. Hotel ballroom packages are a third thing: often AED 380–800+ and they may already include the room. Small villa dinners often work to a night minimum around AED 2,400–4,500 rather than a cheap head-rate.'

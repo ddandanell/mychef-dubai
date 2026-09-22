@@ -382,7 +382,7 @@ export default function PrivatePartyCatering() {
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
           <BodyCopy className="mb-12">
-            Pick a format. Each card opens the page that explains it. Cuisine direction lives on{' '}
+            Choose a service format below, then explore menu inspiration through{' '}
             <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Cuisines
             </Link>
@@ -420,13 +420,13 @@ export default function PrivatePartyCatering() {
       <Section id="examples" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Parties we have already run</DisplayHeading>
+          <DisplayHeading className="text-black mb-4">Ideas for your next private party</DisplayHeading>
           <BodyCopy className="mb-12">
-            Client names stay private. Location, guest range, format and outcome are from events already described on our{' '}
+            These sample briefs show how menus and service can work for different gatherings. Explore more planning ideas and our yacht portfolio through{' '}
             <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>{' '}
-            page.
+            .
           </BodyCopy>
           <div className="grid md:grid-cols-3 gap-8">
             {exampleEvents.map((item) => (

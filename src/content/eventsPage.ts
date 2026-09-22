@@ -220,7 +220,7 @@ export const decisionModule = {
   eventLead: 'Event catering:',
   eventBody: 'best for events of 10+ guests, buffet or plated formats, staffing and larger-scale service.',
   catering:
-    'If the question is food-only through full event support, that sits on catering — not this occasion hub.',
+    'Explore catering services to compare food delivery, staffed menus and complete event hospitality.',
   dining:
     'If the night is a tasting, a desert dinner or a two-cover moment, that is private dining.',
   chefHref: '/private-chef-dubai',
