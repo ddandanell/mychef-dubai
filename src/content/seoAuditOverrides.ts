@@ -7,7 +7,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Event catering in Dubai for weddings, birthdays and private parties. Menus, chefs, staff, setup and clear-down, from AED 120 per person."
   },
   "/wedding-catering-menu-planning-dubai": {
-    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF"
+    "title": "Wedding Catering Menu Dubai | Buffet & Plated Menus | myCHEF",
+    "description": "Wedding catering menu planning in Dubai — buffet, plated and live-station menus, Indian, Arabic and Lebanese dishes, tastings and late-night food. Free quote on WhatsApp, typical reply in 15 minutes."
   },
   "/blog/corporate-event-catering-ideas-dubai": {
     "title": "Corporate Event Catering Ideas Dubai | myCHEF",
