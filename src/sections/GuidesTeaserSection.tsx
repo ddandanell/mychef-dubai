@@ -12,25 +12,25 @@ const guides = [
   {
     slug: '/dubai-event-catering-price-guide-2026',
     title: 'Event Catering Prices 2026',
-    description: "Understand the starting prices and main cost factors for weddings, corporate events and yacht celebrations.",
+    description: 'Realistic per-person budgets for weddings, corporate events, yacht parties and galas.',
     icon: DollarSign,
   },
   {
     slug: '/wedding-catering-menu-planning-dubai',
     title: 'Wedding Menu Planning',
-    description: "Plan your wedding menu, tasting, dietary requirements and service style with confidence.",
+    description: 'How to build a wedding menu, from the tasting to the dietary list to how the food is served.',
     icon: ClipboardList,
   },
   {
-    slug: '/yachts',
+    slug: '/yacht-catering-checklist-dubai',
     title: 'Yacht Catering Checklist',
-    description: "Plan menus, marina access and onboard service for a Dubai yacht celebration.",
+    description: 'A printable week-by-week checklist for catering on a Dubai yacht.',
     icon: Anchor,
   },
   {
     slug: '/dubai-food-trends-report-2026',
     title: 'Dubai Food Trends 2026',
-    description: "Explore menu and service ideas for Dubai celebrations in 2026.",
+    description: 'The catering and private-dining trends shaping Dubai events this year.',
     icon: TrendingUp,
   },
 ]
@@ -68,10 +68,10 @@ export default function GuidesTeaserSection() {
           <div className="max-w-[720px]">
             <SectionLabel>Free Planning Resources</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black mb-4">
-              Plan the details that make an occasion feel effortless.
+              What it costs, what to plan, and what is changing in Dubai this year.
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
-              Practical guides to catering prices, menus, service styles and the questions to ask before you book.
+              Practical guides for Dubai hosts: budgets, checklists, and the food and catering trends shaping events this year.
             </p>
           </div>
           <Link

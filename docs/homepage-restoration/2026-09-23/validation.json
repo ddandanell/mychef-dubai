@@ -1,0 +1,101 @@
+{
+  "title": "myCHEF Dubai | A Chef for Your Kitchen and Events",
+  "description": "A standing chef for your home, or catering for a night with guests in Dubai. Every chef is vetted before they cook for you.",
+  "canonical": [
+    "https://www.mychef.ae/"
+  ],
+  "h1": [
+    "myCHEF Dubai: a chef for your kitchen, catering for your event"
+  ],
+  "robots": "index, follow",
+  "overflow": false,
+  "links": [
+    "/private-chef-dubai",
+    "/catering-dubai",
+    "/inquiry",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20quote.%20My%20date%2C%20guest%20count%20and%20area%20are%3A&utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home_whatsapp",
+    "/private-chef-dubai",
+    "/catering-dubai",
+    "/luxury-dining-experiences",
+    "/events",
+    "/corporate",
+    "/villas-private-residences",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20proposal%20for%20Date%20Night.%20My%20date%20and%20guest%20count%20are%3A&utm_source=mychef.ae&utm_medium=price_card&utm_campaign=home",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20proposal%20for%20Family%20Feast.%20My%20date%20and%20guest%20count%20are%3A&utm_source=mychef.ae&utm_medium=price_card&utm_campaign=home",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20proposal%20for%20Birthday%20Celebration.%20My%20date%20and%20guest%20count%20are%3A&utm_source=mychef.ae&utm_medium=price_card&utm_campaign=home",
+    "/weekly-meal-prep-dubai",
+    "/weekly-meal-prep-dubai",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20proposal%20for%20Corporate%20Dinner.%20My%20date%20and%20guest%20count%20are%3A&utm_source=mychef.ae&utm_medium=price_card&utm_campaign=home",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20proposal%20for%20The%20Full%20Experience.%20My%20date%20and%20guest%20count%20are%3A&utm_source=mychef.ae&utm_medium=price_card&utm_campaign=home",
+    "/about",
+    "/inquiry",
+    "/locations",
+    "/locations/jbr",
+    "/locations/difc",
+    "/locations/jlt",
+    "/locations/al-barsha",
+    "/locations/jbr",
+    "/locations/difc",
+    "/locations/jlt",
+    "/locations/al-barsha",
+    "/guides",
+    "/dubai-event-catering-price-guide-2026",
+    "/wedding-catering-menu-planning-dubai",
+    "/yacht-catering-checklist-dubai",
+    "/dubai-food-trends-report-2026",
+    "/private-chef-dubai",
+    "/our-chefs",
+    "/catering-dubai",
+    "/events",
+    "/yachts",
+    "/weekly-meal-prep-dubai",
+    "/our-chefs",
+    "/inquiry",
+    "https://wa.me/971551744849?text=Hi%20myCHEF%2C%20I'd%20like%20a%20quote.%20My%20date%2C%20guest%20count%20and%20area%20are%3A&utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home_bottom_cta",
+    "/about"
+  ],
+  "images": [
+    {
+      "src": "/images/home-hero.webp",
+      "alt": "Private chef plating a fine-dining course in a Dubai penthouse kitchen with a skyline view"
+    },
+    {
+      "src": "/images/private-chef-dubai-hero.webp",
+      "alt": "A chef for your kitchen"
+    },
+    {
+      "src": "/images/catering-dubai-hero.webp",
+      "alt": "Catering for a night"
+    },
+    {
+      "src": "/images/yacht-catering-dubai-hero.webp",
+      "alt": "Chef serving canap\u00e9s on a yacht deck in Dubai"
+    },
+    {
+      "src": "/loc-jbr.webp",
+      "alt": "JBR"
+    },
+    {
+      "src": "/loc-difc.webp",
+      "alt": "DIFC"
+    },
+    {
+      "src": "/loc-dubai-marina.webp",
+      "alt": "JLT"
+    },
+    {
+      "src": "/loc-downtown.webp",
+      "alt": "Al Barsha"
+    },
+    {
+      "src": "/team-head-chef.webp",
+      "alt": "Head chef cooking in a Dubai home"
+    }
+  ],
+  "mobileOverflow": false,
+  "errors": [],
+  "wordCount": 1218,
+  "verified_at": "2026-09-23",
+  "production_prerender": "passed",
+  "source_commit": "6664f63b1231d8844c8b85aa0e41123a29b8219c"
+}

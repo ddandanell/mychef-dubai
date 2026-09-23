@@ -1,603 +1,152 @@
-import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /canape-catering-dubai
 //     primary:     "canape catering dubai"
 //     subkeywords: "canape catering dubai price" · "canape catering price per person dubai" · "best canape catering dubai" · "canape catering packages dubai" · "canape catering menu dubai" · "halal canape catering dubai" · "how many canapes per person" · "finger food catering dubai" · "birthday canape catering dubai" · "corporate canape catering dubai" · "finger food catering price per person dubai" · "canapes catering near me"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
-import { useRef } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { Link } from 'react-router'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { locationPath } from '@/data/locations'
-import { isParked } from '@/content/parkedUrls'
-import {
-  UtensilsCrossed,
-  GlassWater,
-  Sparkles,
-  Building,
-  Ship,
-  Heart,
-  Check,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
-import SEO from '../components/SEO'
-import TrustSignalStrip from '../components/TrustSignalStrip'
-import LocationStrip from '../components/LocationStrip'
-import FaqAccordion from '../components/FaqAccordion'
+import { ArrowDown, ArrowUpRight, Check, ChevronDown, Heart, Minus, Plus, Search, X } from 'lucide-react'
+import SEO from '@/components/SEO'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { SectionLabel } from '../components/system'
+import { trackEvent } from '@/lib/analytics'
+import { canapes, canapeCategories, canapeCollections, receptionFormats, estimateCanapes, buildCanapeMessage, matchesCanape, type ReceptionFormat } from '@/lib/canapePlanner'
+import { canapeFaqs } from '@/content/canapes/faqs'
+import '@/styles/canape-collection.css'
 
-
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan canapé catering in Dubai (via mychef.ae/canape-catering-dubai)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-
-/* ────────────────────── Data ────────────────────── */
-
-const canapeFormats = [
-  {
-    icon: UtensilsCrossed,
-    title: 'Passed Canapés',
-    description: 'Servers move through the room offering bite-size creations, keeping guests mingling and the energy flowing throughout your reception.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: Sparkles,
-    title: 'Canapé Displays',
-    description: 'Beautifully styled stationary platters and grazing displays that double as a centrepiece for guests to gather around at their own pace.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: GlassWater,
-    title: 'Canapés & Cocktails',
-    description: 'Paired bite and drink menus with bartender service, designed so each canapé complements the cocktail or mocktail it arrives with.',
-    link: '/cocktail-party-catering-dubai',
-  },
-  {
-    icon: Building,
-    title: 'Openings & Launches',
-    description: 'Polished, photogenic canapés for gallery openings, product launches, and brand events where presentation carries the moment.',
-    link: '/luxury-dining-experiences',
-  },
-  {
-    icon: Ship,
-    title: 'Yacht & Rooftop Receptions',
-    description: 'Compact, mess-free canapés designed for the deck and the skyline — elegant, easy to hold, and spectacular to look at.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: Heart,
-    title: 'Engagement & Celebrations',
-    description: 'Refined canapé selections and dessert bites for engagements, anniversaries, and intimate milestone receptions.',
-    link: '/engagement-catering-dubai',
-  },
-]
-
-const includedItems = [
-  { title: 'Bespoke Canapé Menus', description: 'Bite-size creations designed around your event, palette, and guests.' },
-  { title: 'Passed & Stationary Service', description: 'Servers passing canapés, plus styled display platters and grazing tables.' },
-  { title: 'Cocktail & Drink Pairing', description: 'Optional cocktails, mocktails, and bartender service to match each bite.' },
-  { title: 'Hot & Cold Selections', description: 'A balanced range from chilled seafood bites to warm savoury morsels.' },
-  { title: 'Sweet Canapés & Petit Fours', description: 'Dessert bites and petit fours to round out the reception elegantly.' },
-  { title: 'Professional Service Staff', description: 'Waiters, hosts, and bartenders scaled to your guest count.' },
-  { title: 'Styling & Presentation', description: 'Elegant trays, displays, and styling that photograph beautifully.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your space spotless.' },
-]
-
-const useCases = [
-  {
-    title: 'Cocktail Receptions',
-    description: 'The classic pairing of passed canapés and well-made drinks keeps a room moving and a conversation flowing. Ideal for the welcome hour of a larger event or as a standalone evening reception.',
-  },
-  {
-    title: 'Gallery Openings & Launches',
-    description: 'When the canapés are part of the brand statement, presentation matters. We design photogenic, refined bites for openings, product launches, and press events across DIFC, Downtown, and beyond.',
-  },
-  {
-    title: 'Yacht & Rooftop Gatherings',
-    description: 'Compact, mess-free canapés that travel cleanly and look spectacular against the skyline or the water. Designed for charters around Dubai Marina and rooftop venues across the city.',
-  },
-  {
-    title: 'Engagements & Intimate Celebrations',
-    description: 'For engagements, anniversaries, and milestone toasts, a curated canapé selection feels considered and elegant without the formality of a seated dinner.',
-  },
-  {
-    title: 'Finger Food & Sharing Platters',
-    description: 'Not every gathering wants a passing tray. For relaxed birthdays, house parties and family get-togethers we build finger food catering instead: sliders, wraps, skewers, mezze boards and warm savoury bites laid out as generous platters guests graze on all evening. Larger and more casual than a canapé, balanced hot and cold, sized to the time of day.',
-  },
-  {
-    title: 'Office & Networking Bites',
-    description: 'Working lunches, training days, seminar breaks and mixers across DIFC, Business Bay and Downtown — mess-free finger food that fits around a schedule. Delivered and set up cleanly without staff, or with servers and hosts when you want a full stand-up reception.',
-  },
-]
-
-const galleryImages = [
-  { src: '/menu-canapes.webp', alt: 'Luxury canapé selection in Dubai' },
-  { src: '/menu-cocktails.webp', alt: 'Cocktail and canapé pairing service' },
-  { src: '/service-events.webp', alt: 'Canapé reception at a Dubai event' },
-  { src: '/menu-appetizer.webp', alt: 'Styled canapé display platter' },
-  { src: '/menu-dessert.webp', alt: 'Sweet canapés and petit fours' },
-  { src: '/service-luxury-dining.webp', alt: 'Elegant reception catering' },
-]
-
-const locations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { name: 'Dubai Marina', slug: 'dubai-marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jbr' },
-  { name: 'DIFC', slug: 'difc' },
-  { name: 'Business Bay', slug: 'business-bay' },
-  { name: 'Jumeirah', slug: 'jumeirah' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island' },
-  { name: 'Jumeirah Islands', slug: 'jumeirah-islands' },
-  { name: 'Al Barari', slug: 'al-barari' },
-  { name: 'Umm Suqeim', slug: 'umm-suqeim' },
-  { name: 'Meydan', slug: 'meydan' },
-  { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
-]
-
-// Only areas whose page is live: an area whose page is parked is still served, it just
-// does not get a link to a page Google has been asked to forget.
-const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
-
-
-const faqs = [
-  {
-    q: 'How many canapés should I plan per guest?',
-    a: 'For a pre-dinner reception, six to eight canapés per guest is typical. For a standalone canapé evening replacing a meal, we recommend ten to fourteen per guest. We will advise based on your timing and format.',
-  },
-  {
-    q: 'Do you offer passed canapés and display platters?',
-    a: 'Yes. We provide both passed service, where servers move through the room offering canapés, and beautifully styled stationary displays and grazing tables. Many events combine the two.',
-  },
-  {
-    q: 'Can you pair canapés with cocktails and drinks?',
-    a: 'Absolutely. We offer cocktails, mocktails, and bartender service, and can design paired menus so each canapé complements the drink it arrives with, including fully non-alcoholic options.',
-  },
-  {
-    q: 'Are canapés suitable for openings and launch events?',
-    a: 'Yes. Passed canapés are ideal for gallery openings, product launches, and brand events where guests are mingling. We focus on refined, photogenic bites that reflect the occasion.',
-  },
-  {
-    q: 'Can you accommodate dietary requirements?',
-    a: 'Yes. We routinely create vegetarian, vegan, halal, gluten-free, and allergy-aware canapés, clearly identified, so every guest can enjoy the reception with confidence.',
-  },
-  {
-    q: 'How far in advance should I book canapé catering?',
-    a: 'For smaller receptions, one to two weeks is ideal. For larger or branded events, we recommend two to four weeks. During peak season (November to March), earlier booking is strongly advised.',
-  },
-  { q: "How much does canapé catering cost per person in Dubai?", a: "Canapé service starts from AED 150 per person. The final quote depends on the menu, portion counts, guest numbers, staff and any drinks service, with 5% VAT shown separately. We typically acknowledge enquiries within 15 minutes during business hours and prepare a tailored proposal after reviewing the details." },
-  { q: "What exactly is included in a canapé catering booking?", a: "Every canapé booking includes menu design, ingredient sourcing and shopping, on-site cooking or finishing, elegant plating and passing, and full cleanup afterwards. Serving staff, bartenders, cocktails, and styled display platters can be added on top, so you can go from a simple drop-off of chilled bites to a fully staffed reception. See exactly [what's included and how we work](/how-it-works) before you book." },
-  { q: "Is there a minimum number of guests for canapé catering?", a: "We cater canapés for intimate gatherings right up to large receptions, and we will tell you honestly what makes sense for your guest count when you enquire. For very small numbers a curated display or a smaller passed selection often works better than full passed service, and we scale staffing and menu to fit. Tell us how many guests you expect and we will shape a proposal to match." },
-  { q: "Are your canapés halal and prepared to Dubai food-safety standards?", a: "Yes. Our canapés are halal-sourced by default, and our chefs and kitchens operate to Dubai Municipality food-safety standards, so chilled seafood bites and warm morsels are handled and transported safely. If you need fully halal-certified sourcing for a corporate or branded event, just confirm it in your enquiry and we will document it. You can read more [about myCHEF](/about) and how we operate." },
-  { q: "Can I book a tasting before confirming my canapé menu?", a: "Yes, we can arrange a tasting for larger or premium receptions so you can experience the canapés and refine the selection before your event. For smaller bookings we guide the menu closely over WhatsApp or a call so you feel confident in every bite. Let us know your date and guest count and we will advise the best way to preview your menu." },
-  { q: "Do you offer both hot and cold canapés?", a: "Yes. A well-balanced canapé reception mixes cold bites like chilled seafood and delicate crostini with warm savoury morsels straight from the pass, plus sweet petit fours to finish. Our chefs plan the ratio around your venue, timing, and whether the canapés are a pre-dinner welcome or the meal itself, so nothing arrives lukewarm or repetitive." },
-  { q: "How many canapés replace a full dinner versus a pre-dinner reception?", a: "For a pre-dinner welcome, six to eight canapés per guest is plenty, while a standalone canapé evening that replaces dinner needs roughly ten to fourteen bites per guest, typically eight to twelve savoury plus two to four sweet. We plan the exact count around your event length and drinks, so guests leave satisfied rather than still hungry." },
-  { q: "What is the difference between canapés and finger food?", a: "Canapés are refined, one-to-two-bite creations built on a base like crostini or a delicate spoon, designed to look elegant on a passing tray, while finger food is generally larger and more casual. Canapés suit polished receptions, openings, and toasts, whereas finger food fits relaxed mingling. If your event is more casual, ask for our finger food and sharing-platter menus instead — same team, same booking, a more relaxed format." },
-  { q: "Can you provide waiters and bartenders, or is it drop-off only?", a: "Both. We can deliver styled canapé displays for a self-serve reception, or bring a full team of waiters passing canapés and bartenders mixing cocktails and mocktails. Serving staff are optional and scaled to your guest count, so you choose the level of service your event needs and we handle the rest end to end." },
-  { q: "How much notice do you need to book canapé catering?", a: "For smaller receptions a week or two is comfortable, while larger or fully staffed and branded events are best confirmed two to four weeks ahead so we can lock in staff, styling, and sourcing. During peak season from November to March, dates fill quickly, so earlier is safer. If your event is soon, message us anyway and we will tell you honestly what we can deliver." },
-  { q: "Can you cater canapés at villas, yachts, rooftops, and event venues?", a: "Yes. We bring canapé receptions to private villas, yachts, rooftops, offices, galleries, and event venues across Dubai, adjusting the menu and equipment to each space. Compact, mess-free bites work beautifully on a deck or terrace, and we coordinate access, timing, and setup with your venue. Planning a charter reception? See our [yacht catering](/yachts) options." },
-  { q: "Can you accommodate vegetarian, vegan, and allergy-specific canapés?", a: "Yes. We routinely build proper vegetarian and vegan canapé selections rather than a single token option, and we cater gluten-free, nut-free, and other allergy-aware bites, all clearly labelled. Tell us about any allergies or dietary needs when you enquire and our chefs design the tray so every guest can eat with confidence." },
-  { q: "Can canapés be paired with a cocktail or mocktail bar?", a: "Yes. We design paired bite-and-drink menus with bartender service so each canapé complements the cocktail or mocktail it arrives with, including fully non-alcoholic bars for family and corporate events. It turns a reception into a coordinated experience rather than food and drinks running separately. Explore our [cocktail party catering in Dubai](/cocktail-party-catering-dubai) for the full setup." },
-  { q: "Should I choose canapés or a full seated dinner for my event?", a: "Choose canapés when you want guests mingling, moving, and networking, such as receptions, launches, engagement toasts, and welcome hours, and choose a seated menu when the food is the main event. Many hosts start with passed canapés and drinks, then transition to a meal, and we can plan both under one booking. Tell us the mood you want and we will recommend the right format." },
-  {
-    q: 'How many canapes per person?',
-    a: 'There is no single number for how many canapes per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-]
-
-const relatedServices = [
-  {
-    title: 'Catering Dubai',
-    description: 'fully-coordinated catering for events of every size across Dubai.',
-    image: '/service-catering.webp',
-    link: '/catering-dubai',
-  },
-  {
-    title: 'Cocktail Party Catering',
-    description: 'Cocktails, mocktails, and bartender service for stylish receptions.',
-    image: '/menu-cocktails.webp',
-    link: '/cocktail-party-catering-dubai',
-  },
-  {
-    title: 'Luxury Dining Experiences',
-    description: 'Bespoke fine-dining experiences crafted for memorable occasions.',
-    image: '/service-luxury-dining.webp',
-    link: '/luxury-dining-experiences',
-  },
-]
-
-const faqSchema = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-}
-
-const serviceSchema = {
-  '@type': 'Service',
-  name: 'Canapé Catering Dubai',
-  serviceType: 'Catering Service',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  areaServed: 'Dubai, UAE',
-}
-
-const breadcrumbSchema = {
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Canapé Catering Dubai', item: 'https://www.mychef.ae/canape-catering-dubai' },
+const PATH = '/canape-catering-dubai'
+const SITE = 'https://www.mychef.ae'
+const HERO = '/images/canape-collection/canape-collection-hero'
+const STORAGE_KEY = 'mychef-canape-shortlist-v1'
+const categoryNames = Object.fromEntries(canapeCategories.map(item => [item.value, item.label]))
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Service', '@id': SITE + PATH + '#service', name: 'Canapé catering in Dubai', serviceType: 'Bespoke canapé catering', url: SITE + PATH, description: 'Canapé menu planning and event catering in Dubai, with service and final menus confirmed by proposal.', image: SITE + HERO + '-1536.webp' },
+    { '@type': 'ItemList', '@id': SITE + PATH + '#collection', name: '50 canapé menu ideas', numberOfItems: canapes.length, itemListElement: canapes.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: item.name, url: SITE + PATH + '#' + item.slug, item: { '@type': 'CreativeWork', name: item.name, description: item.description + ' Illustrative menu concept; final recipe and availability confirmed by the culinary partner.', image: SITE + item.image, url: SITE + PATH + '#' + item.slug } })) },
   ],
 }
+const emptyFilters = { category: 'all', temperature: 'all', diet: 'all', query: '' }
+const occasions = [
+  { label: '01 / Celebrations', title: 'Weddings & engagements', text: 'A welcome that carries guests comfortably from ceremony to dinner. Consider a balanced menu, accessible dietary choices and service timed around photographs.', href: '/wedding-catering-dubai', link: 'Explore wedding catering' },
+  { label: '02 / Business', title: 'Corporate receptions', text: 'Neat bites for client evenings, networking and conference closes. Plan clear quantities, a sensible service rhythm and a menu that is easy to enjoy while talking.', href: '/corporate-event-catering-dubai', link: 'Plan a corporate event' },
+  { label: '03 / By the water', title: 'Yachts & sunset terraces', text: 'Fresh flavours and compact presentations, with refrigeration, galley access and boarding logistics assessed in advance. The vessel determines what can be finished on board.', href: '/yachts', link: 'Explore yacht catering' },
+  { label: '04 / At home', title: 'Birthdays & housewarmings', text: "Choose refined canapés or more generous finger food for a relaxed party. Sliders, warm savoury bites and separate children's portions can help suit a mixed guest list.", href: '/birthday-catering-dubai', link: 'Plan a birthday celebration' },
+  { label: '05 / A first impression', title: 'Launches & private views', text: 'Gallery openings, property previews and boutique launches invite a little creativity. Reflect a colour palette through ingredients and presentation, with practical, low-mess bites.', href: '/brand-activation-catering-dubai', link: 'Explore brand events' },
+  { label: '06 / The evening unfolds', title: 'Canapés & drinks', text: 'Pair citrus with seafood, fragrant tea with spice, or a berry spritz with a delicate dessert. A dedicated mocktail menu and bartender can be included in the brief.', href: '/cocktail-party-catering-dubai', link: 'Explore cocktail receptions' },
+]
 
-const schema = {
-  '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
-}
-
-/* ────────────────────── Component ────────────────────── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Canape quote in Dubai. Date: __ Guests: __ Area: __"
 export default function CanapeCatering() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useGSAP(() => {
-    if (!containerRef.current) return
-
-    gsap.to('.can-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.can-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.can-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
-
-    gsap.to('.can-fmt-card', {
-      scrollTrigger: { trigger: '.can-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.can-uc-item', {
-      scrollTrigger: { trigger: '.can-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.can-inc-item', {
-      scrollTrigger: { trigger: '.can-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.can-gallery-img', {
-      scrollTrigger: { trigger: '.can-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
-
-    gsap.to('.can-faq-item', {
-      scrollTrigger: { trigger: '.can-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.can-loc-item', {
-      scrollTrigger: { trigger: '.can-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
-
-    gsap.to('.can-rel-card', {
-      scrollTrigger: { trigger: '.can-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.can-cta', {
-      scrollTrigger: { trigger: '.can-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
-    })
-  }, { scope: containerRef })
-
-  return (
-    <div ref={containerRef}>
-      <SEO
-        title="Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF"
-        description="Canapé catering in Dubai — passed or tray service for receptions, launches and standing events. Premium standing food from AED 150 per person."
-        canonicalPath="/canape-catering-dubai"
-        ogImage="/menu-canapes.webp"
-        hideSiteName
-        schema={schema}
-      />
-
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <NonCateringVisual><section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/canape-catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 can-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Canapé Catering Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 can-hero-h1">
-            Canapé Catering Dubai: Passed, Hot and Cold Bites
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
-            Canapé catering in Dubai, with beautifully prepared bites for receptions, launches and celebrations. Choose passed trays, a styled display or both, from AED 150 per person, with service planned around your venue and timing.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 can-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section></NonCateringVisual>
-
-      <TrustSignalStrip />
-
-      {/* ═══════════════ Section 2: Opening ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">WHAT THIS IS</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            Canapé catering Dubai for receptions and celebrations
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Canapés let guests enjoy food and conversation without a seated meal. We balance hot and cold selections, portion counts and service frequency around the occasion, venue and length of your reception.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            From AED 150 per person. Ten guests minimum. 5% VAT is shown as its own line. The figure moves with how
-            many pieces per person, whether the bites are hot, and how many people you need in the room. Halal
-            ingredients are the default.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Finger food catering Dubai is the same team with a more casual brief: larger pieces, no cutlery, often on a
-            table rather than a passing tray. We will tell you which fits. The wider catering ladder sits on{' '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-              Catering
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
-
-      <section id="finger-food" className="bg-cream section-padding scroll-mt-24">
-        <div className="container-custom grid gap-10 lg:grid-cols-2 lg:items-center" data-catering-text-layout>
-          <div>
-            <SectionLabel>FINGER FOOD</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mb-6">Finger food for relaxed receptions</h2>
-            <p className="font-inter text-body text-gray-600 leading-relaxed mb-5">
-              Finger food catering Dubai is the same team as canapés, with a different brief: no cutlery, food people can hold while they talk. Kids versus adults changes the menu — smaller, blander, labelled for a child; more heat and spice for a standing adult room.
-            </p>
-            <p className="font-inter text-body text-gray-600 leading-relaxed">
-              Tray versus passed is a staffing decision. A tray on a table needs less movement. Passed service needs hands in the room. Finger food catering price per person follows the same published band as premium standing food: from AED 150. This block uses its own image; it does not reuse the canapé hero.
-            </p>
-          </div>
-          <NonCateringVisual><figure className="aspect-[4/3] overflow-hidden bg-gray-100">
-            <img
-              src="/menu-appetizer.webp"
-              alt="Finger food on a tray — no cutlery, ready to pass. Experience concept shown."
-              width={1200}
-              height={900}
-              loading="lazy"
-              decoding="async"
-              className="h-full w-full object-cover"
-            />
-          </figure></NonCateringVisual>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 3: Canapé Formats ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">CANAPÉ SERVICE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              How the tray is built
-            </h2>
-          </div>
-
-          <div className="can-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {canapeFormats.map((fmt, i) => {
-              const Icon = fmt.icon
-              return (
-                <Link
-                  key={i}
-                  to={fmt.link}
-                  className="can-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-                >
-                  <Icon size={36} className="text-gold mb-4" />
-                  <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                    {fmt.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Learn More <ArrowRight size={14} />
-                  </span>
-                </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: Use Cases ═══════════════ */}
-      <section className="bg-black section-padding pt-0">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Rooms that stay standing
-            </h2>
-          </div>
-
-          <div className="can-uc-grid grid md:grid-cols-2 gap-6">
-            {useCases.map((uc, i) => (
-              <div key={i} className="can-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 5: What's Included ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What your canapé proposal includes
-          </h2>
-
-          <div className="can-inc-grid grid md:grid-cols-2 gap-6">
-            {includedItems.map((item, i) => (
-              <div key={i} className="can-inc-item flex gap-3 opacity-0 -translate-x-5">
-                <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <NonCateringVisual><section className="bg-black py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Thoughtfully presented reception food
-          </h2>
-
-          <div className="can-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="can-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy" decoding="async"/>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section></NonCateringVisual>
-
-      {/* ═══════════════ Section 7: FAQ ═══════════════ */}
-      <section className="bg-white py-20">
-        <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Canape Catering Dubai: the questions we get before a booking
-          </h2>
-
-          <FaqAccordion items={faqs} showJumpNav />
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 8: Locations ═══════════════ */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Canapé Catering Across Dubai
-          </h2>
-
-          <div className="can-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {liveLocations.map((loc) => (
-              <Link
-                key={loc.slug}
-                to={locationPath(loc.slug)}
-                className="can-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
-                {loc.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 9: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
-          <div className="can-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="can-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <NonCateringVisual><div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div></NonCateringVisual>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    {svc.title} <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <LocationStrip title="Canapé catering across Dubai" />
-
-      {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
-      <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center can-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Reception
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your event and we'll design a canapé selection, drinks, and service plan that fits it perfectly.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get a Canapé Menu Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-  )
+  const [filters, setFilters] = useState(emptyFilters)
+  const [selected, setSelected] = useState<number[]>([])
+  const [storageReady, setStorageReady] = useState(false)
+  const [guests, setGuests] = useState('50')
+  const [format, setFormat] = useState<ReceptionFormat>('welcome')
+  const [date, setDate] = useState('')
+  const [occasion, setOccasion] = useState('Private celebration')
+  const [venue, setVenue] = useState('')
+  const [notes, setNotes] = useState('')
+  const [announcement, setAnnouncement] = useState('')
+  const shortlist = canapes.filter(item => selected.includes(item.id))
+  const visible = canapes.filter(item => matchesCanape(item, filters))
+  const estimate = estimateCanapes(Number(guests), format)
+  const message = buildCanapeMessage({ ids: selected, guests, format, date, occasion, venue, notes })
+  useWhatsAppMessage(message)
+  useEffect(() => {
+    try {
+      const saved: unknown = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+      if (Array.isArray(saved)) setSelected([...new Set(saved.filter((id): id is number => typeof id === 'number' && canapes.some(item => item.id === id)))])
+    } catch { /* Storage is optional. */ }
+    setStorageReady(true)
+  }, [])
+  useEffect(() => {
+    if (!storageReady) return
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selected)) } catch { /* Storage is optional. */ }
+  }, [selected, storageReady])
+  function toggle(id: number) {
+    const item = canapes.find(dish => dish.id === id)!
+    const removing = selected.includes(id)
+    setSelected(current => removing ? current.filter(value => value !== id) : [...current, id])
+    setAnnouncement(item.name + (removing ? ' removed from your shortlist.' : ' added to your shortlist.'))
+    trackEvent('canape_shortlist_change', { item_id: id, action: removing ? 'remove' : 'add', page_path: PATH })
+  }
+  function addCollection(collection: typeof canapeCollections[number]) {
+    setSelected(current => [...new Set([...current, ...collection.ids])])
+    setOccasion(collection.occasion)
+    setAnnouncement(collection.name + ' added to your shortlist. Existing favourites have been kept.')
+    trackEvent('canape_collection_select', { collection: collection.slug, page_path: PATH })
+  }
+  function submitBrief(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    if (!estimate) return
+    trackEvent('whatsapp_click', { page_path: PATH, cta_location: 'canape_planner', link_url: 'https://wa.me/971551744849' })
+    window.open('https://wa.me/971551744849?text=' + encodeURIComponent(message), '_blank', 'noopener,noreferrer')
+  }
+  const hasFilters = Object.keys(emptyFilters).some(key => filters[key as keyof typeof filters] !== emptyFilters[key as keyof typeof emptyFilters])
+  return <div className="cn-page">
+    <SEO title="Canapé Catering Dubai | 50 Menu Ideas | myCHEF" description="Explore 50 canapé ideas for Dubai weddings, receptions and private parties. Hot, cold, vegan and sweet selections from AED 150 per guest. Plan your menu." canonicalPath={PATH} ogImage={HERO + '-1536.webp'} hideSiteName schema={schema} />
+    <section className="cn-hero"><div className="cn-wrap cn-hero-grid">
+      <div className="cn-hero-copy">
+        <nav aria-label="Breadcrumb" className="cn-breadcrumb"><Link to="/">Home</Link><span>/</span><Link to="/catering-dubai">Catering</Link><span>/</span><span aria-current="page">Canapés</span></nav>
+        <p className="cn-eyebrow">The myCHEF canapé collection</p><h1>Canapé Catering Dubai</h1>
+        <p className="cn-hero-line">Small bites.<br /><em>Remarkable occasions.</em></p>
+        <p className="cn-lead">Canapé catering in Dubai, shaped around your guests. Explore 50 menu ideas, from delicate seafood and warm savoury bites to vibrant plant-based creations and a beautiful sweet finish.</p>
+        <div className="cn-actions"><a className="cn-button" href="#canape-menu">Explore the 50 creations <ArrowDown size={17} /></a><a className="cn-text-link" href="#plan-reception">Plan your reception <ArrowUpRight size={16} /></a></div>
+        <p className="cn-hero-note">From AED 150 per guest · Ten-guest starting brief<br /> Final menu and service quoted for your event. VAT separate.</p>
+      </div>
+      <figure className="cn-hero-image"><img src={HERO + '-800.webp'} srcSet={HERO + '-800.webp 800w, ' + HERO + '-1200.webp 1200w, ' + HERO + '-1536.webp 1536w'} sizes="(min-width: 1000px) 52vw, 100vw" alt="Smoked salmon blinis, tomato tartlets, golden croquettes and beetroot cucumber bites on ivory plates" width={1536} height={1024} fetchPriority="high" /><figcaption>Food to set the tone. Menus to make your own.</figcaption></figure>
+    </div></section>
+    <nav className="cn-jump" aria-label="Explore this page"><div className="cn-wrap"><a href="#collections">Curated menus</a><a href="#canape-menu">All 50 creations</a><a href="#quantities">Quantity guide</a><a href="#service">Service & pricing</a><a href="#questions">Your questions</a><a href="#plan-reception">Your shortlist <span>{selected.length}</span></a></div></nav>
+    <section className="cn-section cn-intro"><div className="cn-wrap cn-split">
+      <div><p className="cn-eyebrow">A considered welcome</p><h2>Canapé catering Dubai,<br /><em>with your occasion in mind.</em></h2></div>
+      <div className="cn-prose"><p>A wedding welcome, a gallery opening, a sunset gathering at home. The right small bites let guests enjoy the food without interrupting the conversation. Our menus balance flavour, texture and presentation with the practical details of the room.</p><p>Choose a few favourites below, or begin with a curated collection. myCHEF coordinates your brief with the culinary team, then confirms the dishes, quantities, staffing and equipment in a written proposal. Explore our wider <Link to="/catering-dubai">catering service</Link> when your event needs more than canapés.</p></div>
+    </div></section>
+    <section className="cn-section cn-collections" id="collections"><div className="cn-wrap">
+      <div className="cn-section-heading"><div><p className="cn-eyebrow">Six ways to begin</p><h2>A menu with <em>a point of view.</em></h2></div><p>Start with a collection, then make it yours. Each edit suggests eight varieties; portions and any substitutions are agreed separately.</p></div>
+      <div className="cn-collection-grid">{canapeCollections.map((collection, index) => <article className="cn-collection" key={collection.slug}>
+        <div className="cn-collection-top"><span className="cn-number">0{index + 1}</span><p className="cn-eyebrow">{collection.eyebrow}</p></div>
+        <h3>{collection.name}</h3><p>{collection.description}</p>
+        <div className="cn-collection-names">{collection.ids.map(id => <span key={id}>{canapes.find(item => item.id === id)!.name}</span>)}</div>
+        <p className="cn-pairing">A drink to consider <span>{collection.pairing}</span></p>
+        <button type="button" className="cn-text-link" onClick={() => addCollection(collection)}>Add this collection <Plus size={16} /></button>
+      </article>)}</div>
+    </div></section>
+    <section className="cn-section cn-catalogue" id="canape-menu"><div className="cn-wrap">
+      <div className="cn-section-heading"><div><p className="cn-eyebrow">The collection / 01–50</p><h2>Find your <em>favourites.</em></h2></div><p>Browse by flavour, service temperature or dietary preference. Tap the heart to create a shortlist for your chef.</p></div>
+      <p className="cn-image-disclosure">AI-created menu illustrations. Recipes, portions, availability and final presentation are confirmed in your proposal.</p>
+      <div className="cn-filters">
+        <div className="cn-category-tabs" role="group" aria-label="Canapé categories">{canapeCategories.map(category => <button type="button" key={category.value} aria-pressed={filters.category === category.value} onClick={() => setFilters(current => ({ ...current, category: category.value }))}>{category.label}{category.value !== 'all' && <span>10</span>}</button>)}</div>
+        <div className="cn-filter-row"><label className="cn-search"><Search size={17} aria-hidden="true" /><span className="sr-only">Search dishes or ingredients</span><input type="search" placeholder="Find a flavour or ingredient" value={filters.query} onChange={event => setFilters(current => ({ ...current, query: event.target.value }))} /></label>
+          <label className="cn-select"><span className="sr-only">Serving temperature</span><select value={filters.temperature} onChange={event => setFilters(current => ({ ...current, temperature: event.target.value }))}><option value="all">Warm & cold</option><option value="warm">Warm bites</option><option value="cold">Cold bites</option></select><ChevronDown size={15} aria-hidden="true" /></label>
+          <label className="cn-select"><span className="sr-only">Dietary preference</span><select value={filters.diet} onChange={event => setFilters(current => ({ ...current, diet: event.target.value }))}><option value="all">All dietary preferences</option><option value="vegetarian">Vegetarian, including vegan</option><option value="vegan">Vegan</option></select><ChevronDown size={15} aria-hidden="true" /></label>
+        </div><div className="cn-results"><p role="status">{visible.length} of 50 creations</p>{hasFilters && <button type="button" onClick={() => setFilters(emptyFilters)}>Clear filters <X size={13} /></button>}</div>
+      </div>
+      <div className="cn-menu-grid">{canapes.map(item => <article className="cn-card" key={item.id} id={item.slug} data-canape-card={item.id} hidden={!matchesCanape(item, filters)}>
+        <div className="cn-card-image"><img src={item.image.replace('-800.', '-480.')} srcSet={item.image.replace('-800.', '-480.') + ' 480w, ' + item.image + ' 800w'} sizes="(min-width: 1200px) 23vw, (min-width: 700px) 30vw, 46vw" alt={item.alt} width={1024} height={1024} loading="lazy" decoding="async" /><span className="cn-card-number">{String(item.id).padStart(2, '0')}</span><button type="button" className="cn-heart" aria-label={(selected.includes(item.id) ? 'Remove ' : 'Add ') + item.name + (selected.includes(item.id) ? ' from shortlist' : ' to shortlist')} aria-pressed={selected.includes(item.id)} onClick={() => toggle(item.id)}><Heart size={19} fill={selected.includes(item.id) ? 'currentColor' : 'none'} /></button></div>
+        <div className="cn-card-copy"><p className="cn-card-meta">{categoryNames[item.category]} <span>· {item.temperature === 'warm' ? 'Warm' : 'Cold'}</span></p><h3><a href={'#' + item.slug}>{item.name}</a></h3><p>{item.description}</p><div className="cn-card-tags">{item.diet && <span>{item.diet === 'vegan' ? 'Plant-based' : 'Vegetarian'}</span>}{item.tier === 'Prestige' && <span>Premium ingredient</span>}</div><details className="cn-allergens"><summary>Ingredient notes <Plus size={12} /></summary><p>Indicative allergens: {item.allergens.toLowerCase()}. Final recipe and cross-contact assessment required.</p></details></div>
+      </article>)}</div>
+      {!visible.length && <div className="cn-no-results"><h3>No dishes match this combination.</h3><p>Try a different flavour or reset your filters.</p><button type="button" className="cn-button" onClick={() => setFilters(emptyFilters)}>Show all 50 creations</button></div>}
+      <p className="cn-footnote">Dietary labels describe the proposed recipe. They are not an allergen-safety guarantee. Please share allergies before confirming your menu.</p>
+    </div></section>
+    <section className="cn-section cn-planning" id="quantities"><div className="cn-wrap cn-split">
+      <div className="cn-prose"><p className="cn-eyebrow">A generous reception, thoughtfully paced</p><h2>How much food<br /><em>should you plan?</em></h2><p>If you are wondering how many canapés per person to order, start with the timing. A short welcome before dinner needs a lighter allocation than an evening when guests expect the reception to be their meal.</p><p>Build contrast: something fresh, something crisp, a warm savoury bite and a little sweetness. For a longer event, add substantial food such as bowls or a chef station. Eight different dishes means eight varieties, not a fixed serving count.</p><p>For example, a mixed menu might pair seafood and chicken with two vegetarian choices and a complete vegan selection. We refine the balance around your guest list, the kitchen and the sequence of your event.</p><Link className="cn-text-link" to="/blog/canape-reception-planning-dubai">Read our reception planning guide <ArrowUpRight size={16} /></Link></div>
+      <div className="cn-calculator"><p className="cn-eyebrow">Your starting quantity</p><label htmlFor="canape-guests">Number of guests</label><input id="canape-guests" type="number" min="10" max="5000" step="1" value={guests} onChange={event => setGuests(event.target.value)} /><label htmlFor="canape-format">Reception format</label><select id="canape-format" value={format} onChange={event => setFormat(event.target.value as ReceptionFormat)}>{receptionFormats.map(item => <option value={item.id} key={item.id}>{item.label} · {item.duration}</option>)}</select><div className="cn-estimate" aria-live="polite">{estimate ? <><strong>{estimate.low.toLocaleString()}–{estimate.high.toLocaleString()}</strong><span>canapé pieces in total</span><p>{estimate.perGuestLow}–{estimate.perGuestHigh} pieces per guest</p></> : <p>Enter a whole number from 10 to 5,000 guests.</p>}</div><p className="cn-footnote">A planning estimate, subject to appetite, timing and portion size. {format === 'evening' ? 'For a longer evening, substantial bowls or stations are additional and should be planned separately.' : 'Drinks, additional substantial food and any contingency are separate.'} Capacity is confirmed for your date.</p></div>
+    </div></section>
+    <section className="cn-section" id="occasions"><div className="cn-wrap">
+      <div className="cn-section-heading"><div><p className="cn-eyebrow">The setting changes. The care remains.</p><h2>For the moments<br /><em>that bring people together.</em></h2></div><p>We plan the food around the way your guests will arrive, move, talk and celebrate.</p></div>
+      <div className="cn-occasion-grid">{occasions.map(item => <article key={item.href}><span>{item.label}</span><h3>{item.title}</h3><p>{item.text}</p><Link to={item.href}>{item.link} <ArrowUpRight size={15} /></Link></article>)}</div>
+    </div></section>
+    <section className="cn-section cn-service" id="service"><div className="cn-wrap">
+      <div className="cn-split"><div><p className="cn-eyebrow">Clarity is part of the experience</p><h2>The food. The service.<br /><em>The details, considered.</em></h2><div className="cn-price"><span>Starting from</span><strong>AED 150 <small>/ guest</small></strong><p>Ten-guest starting brief. Final scope and 5% VAT shown separately.</p></div></div><div className="cn-prose"><p>Your canapé catering price depends on the number of pieces, the ingredients and how the food reaches your guests. Lobster, caviar and wagyu are premium upgrades; a shortlist containing them is costed individually.</p><p>A proposal should make the whole event clear: menu and quantities, preparation or finishing, chefs and passing staff, trays, equipment, delivery, setup and collection. Drinks, glassware, styling and event coordination can be discussed as additional scope.</p><p>myCHEF coordinates the experience with the assigned culinary partner. We confirm the venue facilities and service arrangements before committing to the final menu. Read <Link to="/how-it-works">how planning with myCHEF works</Link>.</p></div></div>
+      <div className="cn-format-grid"><article><h3>Passed trays</h3><p>Staff circulate with small batches, keeping food moving through the room. Warm dishes need a suitable finishing area and an agreed service schedule.</p></article><article><h3>A styled display</h3><p>A considered focal point for guests to explore. We plan replenishment and suitable holding arrangements around the food and the room.</p></article><article><h3>Delivery, where suitable</h3><p>Selected menus may suit an agreed delivery and handover. Delicate hot food, transport time and refrigeration can change what is appropriate.</p></article></div>
+    </div></section>
+    <section className="cn-section cn-dietary"><div className="cn-wrap cn-split"><div><p className="cn-eyebrow">Every guest belongs at the table</p><h2>Thoughtful choices.<br /><em>Careful confirmation.</em></h2></div><div className="cn-prose"><p>Halal sourcing is part of the brief. Our proposed collection contains no pork or intentionally added alcohol, and final ingredient specifications are checked with the culinary partner.</p><p>Vegetarian and vegan dishes deserve the same attention as every other plate. Explore <Link to="/vegan-catering-dubai">plant-based catering</Link> for a complete menu, or combine these choices with your favourites. Dessert lovers can also consider a <Link to="/dessert-table-catering-dubai">dedicated sweet display</Link>.</p><p>Tell us about allergies before confirming. The ingredient notes are a starting reference; final recipes and preparation conditions require review. Partner kitchens may handle allergens, and dedicated controls must be agreed where needed.</p></div></div></section>
+    <section className="cn-section cn-faq" id="questions"><div className="cn-wrap cn-split"><div><p className="cn-eyebrow">Before the first tray</p><h2>Your questions,<br /><em>thoughtfully answered.</em></h2><p className="cn-lead">The practical details that help you choose with confidence.</p></div><div>{canapeFaqs.map((faq, index) => <details key={faq.q} id={'canape-question-' + (index + 1)}><summary><h3>{faq.q}</h3><Plus size={18} /></summary><p>{faq.a}</p></details>)}</div></div></section>
+    <section className="cn-section cn-enquiry" id="plan-reception"><div className="cn-wrap cn-split">
+      <div><p className="cn-eyebrow">Your occasion starts here</p><h2>Let’s make it<br /><em>beautifully yours.</em></h2><p className="cn-lead">Send your favourite dishes and a few event details. We’ll discuss what works, refine the selection and prepare a tailored proposal.</p><div className="cn-shortlist"><div className="cn-shortlist-heading"><h3>Your shortlist <span>{shortlist.length}</span></h3>{selected.length > 0 && <button type="button" onClick={() => { setSelected([]); setAnnouncement('Your shortlist has been cleared.') }}>Clear all</button>}</div>{shortlist.length ? <ul>{shortlist.map(item => <li key={item.id}><span>{String(item.id).padStart(2, '0')} · {item.name}</span><button type="button" aria-label={'Remove ' + item.name + ' from shortlist'} onClick={() => toggle(item.id)}><Minus size={16} /></button></li>)}</ul> : <p>Choose dishes above, or let us recommend a menu for you.</p>}</div><p className="cn-footnote">Your shortlist is a conversation starter. It does not reserve a date or confirm an order.</p></div>
+      <form className="cn-brief" onSubmit={submitBrief}><div className="cn-form-grid"><label>Occasion<select value={occasion} onChange={event => setOccasion(event.target.value)}>{['Private celebration','Wedding','Corporate reception','Yacht or terrace','Birthday or engagement','Brand launch or gallery opening','Something else'].map(value => <option key={value}>{value}</option>)}</select></label><label>Event date<input aria-label="Event date" type="date" value={date} onChange={event => setDate(event.target.value)} /></label><label>Guests<input aria-label="Guests for your event" type="number" required min="10" max="5000" step="1" value={guests} onChange={event => setGuests(event.target.value)} /></label><label>Venue or area<input type="text" maxLength={150} placeholder="e.g. Palm Jumeirah villa" value={venue} onChange={event => setVenue(event.target.value)} /></label></div><label>Flavours, preferences or dietary requirements<textarea rows={4} maxLength={1500} placeholder="Tell us what would make this occasion feel right." value={notes} onChange={event => setNotes(event.target.value)} /></label><button className="cn-button" type="submit">Discuss my menu on WhatsApp <ArrowUpRight size={17} /></button><p className="cn-footnote">Opens WhatsApp with your brief ready to review and send. Details are shared when you send the message.</p><Link className="cn-text-link" to="/inquiry" data-cta-location="canape_planner_alternative">Prefer our enquiry form? <ArrowUpRight size={16} /></Link></form>
+    </div></section>
+    <section className="cn-related"><div className="cn-wrap"><p className="cn-eyebrow">Another way to gather</p><div><Link to="/cocktail-party-catering-dubai">Cocktail party catering <ArrowUpRight size={17} /></Link><Link to="/buffet-catering-dubai">Buffet catering <ArrowUpRight size={17} /></Link><Link to="/grazing-table-dubai">Grazing tables <ArrowUpRight size={17} /></Link></div></div></section>
+    <div className="sr-only" role="status" aria-live="polite">{announcement}</div>
+    {selected.length > 0 && <div className="cn-shortlist-bar"><span><Check size={16} />{selected.length} favourite{selected.length === 1 ? '' : 's'} saved</span><a href="#plan-reception">Review your menu <ArrowUpRight size={16} /></a></div>}
+  </div>
 }

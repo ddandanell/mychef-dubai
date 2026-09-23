@@ -22,7 +22,7 @@ export function NonCateringVisual({ children }: { children: ReactNode }) {
 export function CateringHero() {
   const { pathname } = useLocation()
   const page = cateringDesign[pathname]
-  if (!page || pathname === "/yachts") return null
+  if (!page || pathname === "/yachts" || pathname === "/canape-catering-dubai") return null
   return <section className="ct-hero" data-catering-hero aria-labelledby="catering-page-title">
     <div className="ct-container ct-hero-grid">
       <div className="ct-hero-copy">
@@ -73,5 +73,5 @@ for(const [file,load] of Object.entries(loaders)) {
   pages[path]=lazy(async()=>{const page=await load();return {default:()=> <PlanningArticle page={page}/>}})
 }
 export default function CateringExpansion() {
-  const {pathname}=useLocation(); const Page=pages[pathname.replace(/\/$/,'')]; return Page ? <Page/> : null
+  const {pathname}=useLocation(); const Page=pages[pathname.replace(/\/$/,'')]; return pathname === '/canape-catering-dubai' ? null : Page ? <Page/> : null
 }

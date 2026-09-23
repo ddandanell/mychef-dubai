@@ -43,7 +43,7 @@ export default function SEO({
   if (designImage && !pathname.startsWith('/blog/')) ogImage = chefImage(designImage)
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
-  if (pathname !== "/yachts" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
+  if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
   const jsonLd = assemblePageGraph(path, schema)
   const auditOverride = SEO_AUDIT_OVERRIDES[path]
   const effectiveTitle = auditOverride?.title || title

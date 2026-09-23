@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF",
-    "description": "Canapé catering in Dubai — passed or tray service for receptions, launches and standing events. Premium standing food from AED 150 per person.",
+    "title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
+    "description": "Explore 50 canapé ideas for Dubai weddings, receptions and private parties. Hot, cold, vegan and sweet selections from AED 150 per guest. Plan your menu.",
     "h1": [
-      "Canapé Catering Dubai: Passed, Hot and Cold Bites"
+      "Canapé Catering Dubai"
     ]
   },
   "metadata_source": "local production prerender",
@@ -45,242 +45,415 @@
     "redirect_to": null
   },
   "source_files": [
-    "src/components/FaqAccordion.tsx",
-    "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
-    "src/components/private-chef/ServiceImage.tsx",
-    "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
+    "src/content/canapes/collection.json",
+    "src/content/canapes/faqs.ts",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/analytics.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/canapePlanner.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts",
     "src/pages/CanapeCatering.tsx",
+    "src/styles/canape-collection.css",
     "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2393,
-    "current_word_count": 3010,
+    "current_word_count": 4005,
     "headings": [
       {
         "level": "h2",
-        "text": "Canapé catering Dubai for receptions and celebrations"
+        "text": "Canapé catering Dubai, with your occasion in mind."
       },
       {
         "level": "h2",
-        "text": "Finger food for relaxed receptions"
+        "text": "A menu with a point of view."
+      },
+      {
+        "level": "h3",
+        "text": "The wedding welcome"
+      },
+      {
+        "level": "h3",
+        "text": "The polished reception"
+      },
+      {
+        "level": "h3",
+        "text": "The sunset gathering"
+      },
+      {
+        "level": "h3",
+        "text": "The signature soirée"
+      },
+      {
+        "level": "h3",
+        "text": "The garden collection"
+      },
+      {
+        "level": "h3",
+        "text": "The celebration edit"
       },
       {
         "level": "h2",
-        "text": "How the tray is built"
+        "text": "Find your favourites."
       },
       {
         "level": "h3",
-        "text": "Passed Canapés"
+        "text": "Smoked salmon blini"
       },
       {
         "level": "h3",
-        "text": "Canapé Displays"
+        "text": "Crab & green apple tartlet"
       },
       {
         "level": "h3",
-        "text": "Canapés & Cocktails"
+        "text": "Citrus prawn cucumber cup"
       },
       {
         "level": "h3",
-        "text": "Openings & Launches"
+        "text": "Lobster brioche bite"
       },
       {
         "level": "h3",
-        "text": "Yacht & Rooftop Receptions"
+        "text": "Sesame tuna crisp"
       },
       {
         "level": "h3",
-        "text": "Engagement & Celebrations"
+        "text": "Scallop & pea spoon"
+      },
+      {
+        "level": "h3",
+        "text": "Salt cod croquette"
+      },
+      {
+        "level": "h3",
+        "text": "Sea bass escabeche"
+      },
+      {
+        "level": "h3",
+        "text": "Miso salmon rice bite"
+      },
+      {
+        "level": "h3",
+        "text": "Caviar potato pavé"
+      },
+      {
+        "level": "h3",
+        "text": "Beef fillet & potato"
+      },
+      {
+        "level": "h3",
+        "text": "Mini wagyu slider"
+      },
+      {
+        "level": "h3",
+        "text": "Short rib tostada"
+      },
+      {
+        "level": "h3",
+        "text": "Duck & plum bao"
+      },
+      {
+        "level": "h3",
+        "text": "Chicken tikka tartlet"
+      },
+      {
+        "level": "h3",
+        "text": "Lemon chicken skewer"
+      },
+      {
+        "level": "h3",
+        "text": "Lamb kofta spoon"
+      },
+      {
+        "level": "h3",
+        "text": "Chicken shawarma cone"
+      },
+      {
+        "level": "h3",
+        "text": "Mini beef Wellington"
+      },
+      {
+        "level": "h3",
+        "text": "Duck croquette"
+      },
+      {
+        "level": "h3",
+        "text": "Truffled mushroom tartlet"
+      },
+      {
+        "level": "h3",
+        "text": "Burrata & tomato tart"
+      },
+      {
+        "level": "h3",
+        "text": "Whipped feta & fig"
+      },
+      {
+        "level": "h3",
+        "text": "Goat’s cheese & beetroot"
+      },
+      {
+        "level": "h3",
+        "text": "Halloumi & apricot skewer"
+      },
+      {
+        "level": "h3",
+        "text": "Spinach & feta cigar"
+      },
+      {
+        "level": "h3",
+        "text": "Wild mushroom arancini"
+      },
+      {
+        "level": "h3",
+        "text": "Cheddar & chive gougère"
+      },
+      {
+        "level": "h3",
+        "text": "Asparagus & ricotta ribbon"
+      },
+      {
+        "level": "h3",
+        "text": "Sweetcorn polenta square"
+      },
+      {
+        "level": "h3",
+        "text": "Miso aubergine cup"
+      },
+      {
+        "level": "h3",
+        "text": "Avocado & mango cone"
+      },
+      {
+        "level": "h3",
+        "text": "Beetroot hummus cucumber"
+      },
+      {
+        "level": "h3",
+        "text": "Cauliflower & tahini bite"
+      },
+      {
+        "level": "h3",
+        "text": "King oyster mushroom bao"
+      },
+      {
+        "level": "h3",
+        "text": "Tomato & basil tartlet"
+      },
+      {
+        "level": "h3",
+        "text": "Chickpea chaat spoon"
+      },
+      {
+        "level": "h3",
+        "text": "Watermelon & olive jewel"
+      },
+      {
+        "level": "h3",
+        "text": "Pulled jackfruit taco"
+      },
+      {
+        "level": "h3",
+        "text": "Artichoke & white bean crostini"
+      },
+      {
+        "level": "h3",
+        "text": "Pistachio & rose tartlet"
+      },
+      {
+        "level": "h3",
+        "text": "Dark chocolate & sea salt"
+      },
+      {
+        "level": "h3",
+        "text": "Lemon meringue tartlet"
+      },
+      {
+        "level": "h3",
+        "text": "Mango & coconut cup"
+      },
+      {
+        "level": "h3",
+        "text": "Saffron milk cake"
+      },
+      {
+        "level": "h3",
+        "text": "Raspberry & vanilla choux"
+      },
+      {
+        "level": "h3",
+        "text": "Date & tahini truffle"
+      },
+      {
+        "level": "h3",
+        "text": "Passion fruit cheesecake"
+      },
+      {
+        "level": "h3",
+        "text": "Strawberry & basil pavlova"
+      },
+      {
+        "level": "h3",
+        "text": "Orange & almond financier"
       },
       {
         "level": "h2",
-        "text": "Rooms that stay standing"
-      },
-      {
-        "level": "h3",
-        "text": "Cocktail Receptions"
-      },
-      {
-        "level": "h3",
-        "text": "Gallery Openings & Launches"
-      },
-      {
-        "level": "h3",
-        "text": "Yacht & Rooftop Gatherings"
-      },
-      {
-        "level": "h3",
-        "text": "Engagements & Intimate Celebrations"
-      },
-      {
-        "level": "h3",
-        "text": "Finger Food & Sharing Platters"
-      },
-      {
-        "level": "h3",
-        "text": "Office & Networking Bites"
+        "text": "How much food should you plan?"
       },
       {
         "level": "h2",
-        "text": "What your canapé proposal includes"
+        "text": "For the moments that bring people together."
+      },
+      {
+        "level": "h3",
+        "text": "Weddings & engagements"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Yachts & sunset terraces"
+      },
+      {
+        "level": "h3",
+        "text": "Birthdays & housewarmings"
+      },
+      {
+        "level": "h3",
+        "text": "Launches & private views"
+      },
+      {
+        "level": "h3",
+        "text": "Canapés & drinks"
       },
       {
         "level": "h2",
-        "text": "Canape Catering Dubai: the questions we get before a booking"
+        "text": "The food. The service. The details, considered."
       },
       {
         "level": "h3",
-        "text": "How many canapés should I plan per guest?"
+        "text": "Passed trays"
       },
       {
         "level": "h3",
-        "text": "Do you offer passed canapés and display platters?"
+        "text": "A styled display"
       },
       {
         "level": "h3",
-        "text": "Can you pair canapés with cocktails and drinks?"
-      },
-      {
-        "level": "h3",
-        "text": "Are canapés suitable for openings and launch events?"
-      },
-      {
-        "level": "h3",
-        "text": "Can you accommodate dietary requirements?"
-      },
-      {
-        "level": "h3",
-        "text": "How far in advance should I book canapé catering?"
-      },
-      {
-        "level": "h3",
-        "text": "How much does canapé catering cost per person in Dubai?"
-      },
-      {
-        "level": "h3",
-        "text": "What exactly is included in a canapé catering booking?"
-      },
-      {
-        "level": "h3",
-        "text": "Is there a minimum number of guests for canapé catering?"
-      },
-      {
-        "level": "h3",
-        "text": "Are your canapés halal and prepared to Dubai food-safety standards?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I book a tasting before confirming my canapé menu?"
-      },
-      {
-        "level": "h3",
-        "text": "Do you offer both hot and cold canapés?"
-      },
-      {
-        "level": "h3",
-        "text": "How many canapés replace a full dinner versus a pre-dinner reception?"
-      },
-      {
-        "level": "h3",
-        "text": "What is the difference between canapés and finger food?"
-      },
-      {
-        "level": "h3",
-        "text": "Can you provide waiters and bartenders, or is it drop-off only?"
-      },
-      {
-        "level": "h3",
-        "text": "How much notice do you need to book canapé catering?"
-      },
-      {
-        "level": "h3",
-        "text": "Can you cater canapés at villas, yachts, rooftops, and event venues?"
-      },
-      {
-        "level": "h3",
-        "text": "Can you accommodate vegetarian, vegan, and allergy-specific canapés?"
-      },
-      {
-        "level": "h3",
-        "text": "Can canapés be paired with a cocktail or mocktail bar?"
-      },
-      {
-        "level": "h3",
-        "text": "Should I choose canapés or a full seated dinner for my event?"
-      },
-      {
-        "level": "h3",
-        "text": "How many canapes per person?"
+        "text": "Delivery, where suitable"
       },
       {
         "level": "h2",
-        "text": "Canapé Catering Across Dubai"
+        "text": "Thoughtful choices. Careful confirmation."
+      },
+      {
+        "level": "h2",
+        "text": "Your questions, thoughtfully answered."
       },
       {
         "level": "h3",
-        "text": "You May Also Like"
+        "text": "What is a canapé?"
       },
       {
         "level": "h3",
-        "text": "Canapé catering across Dubai"
-      },
-      {
-        "level": "h2",
-        "text": "Plan Your Reception"
-      },
-      {
-        "level": "h2",
-        "text": "Create a sequence guests can enjoy while mingling"
-      },
-      {
-        "level": "h2",
-        "text": "Match the bites to the length of the reception"
-      },
-      {
-        "level": "h2",
-        "text": "Plan quantities around the format, not just the headcount"
-      },
-      {
-        "level": "h2",
-        "text": "Give every guest a considered option"
-      },
-      {
-        "level": "h2",
-        "text": "Tell us what you have in mind."
-      },
-      {
-        "level": "h2",
-        "text": "Helpful guides for your next booking"
+        "text": "How many pieces should I allow for each guest?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "How much food is needed for 50 or 100 guests?"
+      },
+      {
+        "level": "h3",
+        "text": "How many different dishes should I choose?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a canapé reception replace dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "What does canapé catering cost in Dubai?"
+      },
+      {
+        "level": "h3",
+        "text": "Are chefs, waiters and equipment included?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you offer delivery as well as passed service?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you provide halal menus?"
+      },
+      {
+        "level": "h3",
+        "text": "Are vegetarian and vegan menus available?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cater for allergies or gluten-free requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we arrange a tasting?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you need a kitchen at the venue?"
+      },
+      {
+        "level": "h3",
+        "text": "Are canapés suitable for yachts and outdoor events?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the food match our brand or wedding colours?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you pair the menu with drinks?"
+      },
+      {
+        "level": "h3",
+        "text": "How far ahead should I enquire?"
+      },
+      {
+        "level": "h3",
+        "text": "Are these photographs of the final dishes?"
+      },
+      {
+        "level": "h3",
+        "text": "Which areas do you serve?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens after I send my shortlist?"
       },
       {
         "level": "h2",
-        "text": "More in Catering"
+        "text": "Let’s make it beautifully yours."
+      },
+      {
+        "level": "h3",
+        "text": "Your shortlist 0"
       }
     ],
     "baseline_findings": [

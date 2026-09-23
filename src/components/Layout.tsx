@@ -21,8 +21,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
-  // The homepage has an authored service journey and contextual links of its own.
-  const isHome = pathname === '/'
+  const isCanape = pathname === '/canape-catering-dubai'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])
@@ -46,16 +45,16 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
+    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
-          {!isHome && !isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
+          {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
-          <BlogPlanningLinks />
-          {!isHome && !isChefDesignPage(pathname) && <SiloChildren />}
+          {!isCanape && <BlogPlanningLinks />}
+          {!isCanape && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>
-        {!isHome && !isChefDesignPage(pathname) && <SiloSection />}
+        {!isCanape && !isChefDesignPage(pathname) && <SiloSection />}
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />
