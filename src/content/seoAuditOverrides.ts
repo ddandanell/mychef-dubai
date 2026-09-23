@@ -337,5 +337,12 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/wedding-catering-dubai": {
     "description": "Wedding catering in Dubai for villa, garden and venue receptions. Buffet, plated and live-station menus, tastings and service teams. From AED 700 a guest."
+  },
+  "/corporate-event-catering-dubai": {
+    "title": "Corporate Event Catering Dubai | Parties & Launches | myCHEF",
+    "description": "Corporate event catering in Dubai for company parties, launches and awards nights. Packages from AED 120 per person; canapé receptions from AED 150."
+  },
+  "/private-party-catering-dubai": {
+    "description": "Private party catering in Dubai for house parties, birthdays and dinner parties at home. Menus, chefs and service matched to your room and guest count."
   }
 }
