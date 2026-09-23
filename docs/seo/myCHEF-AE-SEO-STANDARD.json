@@ -1577,13 +1577,13 @@
     }
    },
    "on_page": {
-    "title": "myCHEF Dubai | Exceptional Dining, Beautifully Arranged",
+    "title": "myCHEF Dubai | A Chef for Your Kitchen and Events",
     "title_max_chars": 65,
-    "h1": "myCHEF Dubai. Every meal, thoughtfully yours.",
+    "h1": "myCHEF Dubai: a chef for your kitchen, catering for your event",
     "h1_count": 1,
-    "meta_description": "Discover myCHEF Dubai: private chefs, tailored menus and elegant catering for your home or occasion. Explore the services and begin your personal proposal.",
+    "meta_description": "A standing chef for your home, or catering for a night with guests in Dubai. Every chef is vetted before they cook for you.",
     "meta_description_max_chars": 160,
-    "og_title": "myCHEF Dubai | Exceptional Dining, Beautifully Arranged",
+    "og_title": "myCHEF Dubai",
     "og_type": "website"
    },
    "indexation": {
@@ -1785,7 +1785,13 @@
     "No second page's locked primary in title or H1.",
     "Sibling module matches JSON siblings[] — do not invent cards.",
     "Read-aloud test: copy sounds like a person talking to a host in Dubai."
-   ]
+   ],
+   "preservation": {
+    "owner_instruction": "Keep the original homepage. Do not redesign or rewrite it without an explicit new owner request.",
+    "recorded_at": "2026-09-23",
+    "source_commit": "6664f63b1231d8844c8b85aa0e41123a29b8219c",
+    "scope": "Homepage content, layout, imagery and metadata; retain separate service-page work."
+   }
   },
   "/about": {
    "url": "/about",
@@ -11532,13 +11538,13 @@
     }
    },
    "on_page": {
-    "title": "Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF",
+    "title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
     "title_max_chars": 65,
-    "h1": "Canapé Catering Dubai: Passed, Hot and Cold Bites",
+    "h1": "Canapé Catering Dubai",
     "h1_count": 1,
-    "meta_description": "Canapé catering in Dubai — passed or tray service for receptions, launches and standing events. Premium standing food from AED 150 per person.",
+    "meta_description": "Explore 50 canapé ideas for Dubai weddings, receptions and private parties. Hot, cold, vegan and sweet selections from AED 150 per guest. Plan your menu.",
     "meta_description_max_chars": 160,
-    "og_title": "Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF",
+    "og_title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
     "og_type": "website"
    },
    "indexation": {
@@ -11552,7 +11558,7 @@
    },
    "schema": [
     "Service",
-    "FAQPage",
+    "ItemList",
     "BreadcrumbList"
    ],
    "internal_linking": {
