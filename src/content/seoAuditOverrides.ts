@@ -179,7 +179,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/halal-catering-dubai": {
     "title": "Halal Catering Dubai | Halal Meat Standard | myCHEF",
-    "description": "Halal catering Dubai with halal meat as standard. Menus, service and clear-down so you stay a guest at your own table."
+    "description": "Halal catering in Dubai with halal meat sourced as standard. Buffet, canapé and plated menus for weddings, offices and home events. Itemised written quotes."
   },
   "/grazing-table-dubai": {
     "title": "Grazing Table Dubai | Built On Site in the Room | myCHEF",
@@ -191,7 +191,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/vegan-catering-dubai": {
     "title": "Vegan Catering Dubai | Plant-Based Menu Night | myCHEF",
-    "description": "Vegan catering Dubai: plant-based menus cooked on site, service and clear-down so you stay a guest at your own table."
+    "description": "Vegan catering in Dubai with plant-based menus cooked on site. Buffet, canapé and plated formats for parties, weddings and office events. Itemised quotes."
   },
   "/mychef-membership": {
     "title": "myCHEF Membership | 12-Month Locked Rates | myCHEF",
@@ -331,5 +331,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   "/part-time-private-chef-dubai": {
     "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
     "description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of."
+  },
+  "/catering-dubai": {
+    "description": "Catering services in Dubai for weddings, villas, yachts, offices and home parties. Buffet, canapés and chef-led service. Food-only from AED 90 per person."
+  },
+  "/wedding-catering-dubai": {
+    "description": "Wedding catering in Dubai for villa, garden and venue receptions. Buffet, plated and live-station menus, tastings and service teams. From AED 700 a guest."
   }
 }
