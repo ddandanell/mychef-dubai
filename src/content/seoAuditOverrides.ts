@@ -8,7 +8,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/wedding-catering-menu-planning-dubai": {
     "title": "Wedding Catering Menu Dubai | Buffet & Plated Menus | myCHEF",
-    "description": "Wedding catering menu planning in Dubai — buffet, plated and live-station menus, Indian, Arabic and Lebanese dishes, tastings and late-night food. Free quote on WhatsApp, typical reply in 15 minutes."
+    "description": "Wedding catering menu planning in Dubai — buffet, plated and live-station menus, tastings and late-night food. Free quote on WhatsApp, reply in 15 minutes."
   },
   "/blog/corporate-event-catering-ideas-dubai": {
     "title": "Corporate Event Catering Ideas Dubai | myCHEF",
