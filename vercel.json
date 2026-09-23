@@ -680,6 +680,11 @@
       "statusCode": 301
     },
     {
+      "source": "/blog/best-private-chefs-for-home-dining",
+      "destination": "/private-chef-dubai",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/best-catering-companies-in-dubai",
       "destination": "/best-catering-companies-dubai",
       "statusCode": 301
