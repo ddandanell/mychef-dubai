@@ -45,7 +45,11 @@ export default function SEO({
   if (designImage) preloadHero = undefined
   if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
   const jsonLd = assemblePageGraph(path, schema)
-  const auditOverride = SEO_AUDIT_OVERRIDES[path]
+  // Nested cluster pages (e.g. /private-chef-dubai/our-chefs) pass the parent URL as
+  // canonicalPath, so a canonicalPath-keyed lookup served them the parent's title and
+  // description — the duplicate-title / duplicate-description audit failure. The page's
+  // own pathname wins when it has its own override entry.
+  const auditOverride = SEO_AUDIT_OVERRIDES[pathname] ?? SEO_AUDIT_OVERRIDES[path]
   const effectiveTitle = auditOverride?.title || title
   const effectiveDescription = auditOverride?.description || description
 
