@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21 04:13",
+ "generated": "2026-09-23 04:13",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "226",
+   "value": "260",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-09-21 04:13",
+  "generated": "2026-09-23 04:13",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-09-21 04:13",
+  "generated": "2026-09-23 04:13",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,11 +2112,46 @@
   "locations": []
  },
  "pages": {
-  "contract": 226,
+  "contract": 260,
   "board": 226,
-  "routes": 176,
-  "frozen": 226,
-  "missing_from_board": [],
+  "routes": 174,
+  "frozen": 260,
+  "missing_from_board": [
+   "/blog/best-arabic-catering-companies-in-dubai",
+   "/blog/best-bbq-catering-companies-in-dubai",
+   "/blog/best-brunch-catering-services-in-dubai",
+   "/blog/best-catering-companies-in-dubai",
+   "/blog/best-corporate-event-catering-companies-in-dubai",
+   "/blog/best-corporate-lunch-catering-companies-in-dubai",
+   "/blog/best-grazing-table-catering-companies-in-dubai",
+   "/blog/best-halal-catering-companies-in-dubai",
+   "/blog/best-kids-birthday-party-caterers-in-dubai",
+   "/blog/best-luxury-private-dining-experiences-in-dubai",
+   "/blog/best-meal-prep-services-in-dubai",
+   "/blog/best-private-chefs-for-villas-in-dubai",
+   "/blog/best-private-chefs-in-dubai-for-home-dining",
+   "/blog/best-private-cooking-class-experiences-in-dubai",
+   "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+   "/blog/best-vegan-catering-services-in-dubai",
+   "/blog/best-wedding-catering-companies-in-dubai",
+   "/blog/best-yacht-catering-services-in-dubai",
+   "/blog/buffet-layout-planning-dubai",
+   "/blog/canape-reception-planning-dubai",
+   "/blog/christmas-lunch-at-home-planning-dubai",
+   "/blog/compare-catering-quotes-dubai",
+   "/blog/dinner-party-timeline-dubai",
+   "/blog/diwali-party-at-home-planning-dubai",
+   "/blog/household-menu-brief-dubai",
+   "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+   "/blog/kids-and-adults-party-menu-dubai",
+   "/blog/mixed-diet-dinner-party-dubai",
+   "/blog/office-breakfast-planning-dubai",
+   "/blog/outdoor-villa-catering-kitchen-dubai",
+   "/blog/private-chef-kitchen-preparation-dubai",
+   "/blog/private-chef-trial-dubai",
+   "/blog/three-hour-yacht-party-food-timeline-dubai",
+   "/blog/wedding-menu-tasting-dubai"
+  ],
   "missing_from_routes": [
    "/anniversary-catering-dubai",
    "/bachelor-party-catering-dubai",
@@ -2160,6 +2195,6 @@
    "/mothers-day-catering-dubai"
   ],
   "deleted_from_contract": [],
-  "complete": true
+  "complete": false
  }
 }
