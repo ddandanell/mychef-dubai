@@ -35,8 +35,5 @@ export const RYZE_BLOG_PATHS: string[] = [
   "/blog/best-brunch-catering-services-in-dubai",
   "/blog/best-halal-catering-companies-in-dubai",
   "/blog/best-private-chefs-for-villas-in-dubai",
-  "/blog/best-wedding-catering-companies-in-dubai",
-  "/blog/private-chef-yacht-charter-dubai",
-  "/blog/villa-concierge-recurring-private-chef-dubai",
-  "/blog/private-chef-event-workflow-dubai"
+  "/blog/best-wedding-catering-companies-in-dubai"
 ]
