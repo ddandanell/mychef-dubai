@@ -344,7 +344,9 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
   }
 
   const cateringRoutes = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/content/cateringDesign.json'), 'utf-8'))
-  if (cateringRoutes[route]) {
+  if (route === '/canape-catering-dubai') {
+    await page.waitForFunction(() => document.querySelectorAll('[data-canape-card]').length === 50 && document.querySelectorAll('.cn-faq details').length === 20, { timeout: RENDER_TIMEOUT_MS })
+  } else if (cateringRoutes[route]) {
     await page.waitForFunction(() => document.querySelector('[data-catering-expansion]') !== null && document.querySelector('[data-catering-hero]') !== null, { timeout: RENDER_TIMEOUT_MS })
   }
 

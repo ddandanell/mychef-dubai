@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/HalalCatering.tsx"
+    "src/pages/HalalCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1043,
-    "current_word_count": 1039,
+    "current_word_count": 1641,
     "headings": [
       {
         "level": "h2",
-        "text": "Halal as the baseline, not a special tray"
+        "text": "Halal requirements considered across the menu"
       },
       {
         "level": "h2",
@@ -120,11 +132,7 @@
       },
       {
         "level": "h2",
-        "text": "What a halal booking actually covers"
-      },
-      {
-        "level": "h2",
-        "text": "What halal service looks like"
+        "text": "What to confirm in your halal catering proposal"
       },
       {
         "level": "h2",
@@ -169,6 +177,26 @@
       {
         "level": "h2",
         "text": "Send the date, headcount and the certificate you need"
+      },
+      {
+        "level": "h2",
+        "text": "Make the sourcing and preparation brief explicit"
+      },
+      {
+        "level": "h2",
+        "text": "Review ingredient requirements across the whole menu"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

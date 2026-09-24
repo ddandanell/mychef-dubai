@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-22",
+  "url": "https://www.mychef.ae/blog/best-drop-off-catering-services-in-dubai",
+  "path": "/blog/best-drop-off-catering-services-in-dubai",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Compare the best drop-off catering options in Dubai for 2026 by use case: dinner parties, corporate lunches, halal buffets and big-batch celebrations.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Not measured in this editorial audit",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Best Drop-Off Catering Companies in Dubai 2026 | myCHEF",
+    "description": "Compare the best drop-off catering options in Dubai for 2026 by use case: dinner parties, corporate lunches, halal buffets and big-batch celebrations.",
+    "h1": [
+      "Best drop-off catering services in Dubai 2026"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/best-drop-off-catering-services-in-dubai",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/best-drop-off-catering-services-in-dubai.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/best-drop-off-catering-services-in-dubai.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 1998,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why this matters"
+      },
+      {
+        "level": "h2",
+        "text": "What makes the best drop-off catering in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Drop-off catering in Dubai at a glance"
+      },
+      {
+        "level": "h2",
+        "text": "1. Chef-prepared drop-off menus: best for home dinner parties"
+      },
+      {
+        "level": "h2",
+        "text": "2. Corporate lunch drop-off: best for office meetings"
+      },
+      {
+        "level": "h2",
+        "text": "3. Grazing table and platter drop-off: best for casual house parties"
+      },
+      {
+        "level": "h2",
+        "text": "4. Halal-first buffet drop-off: best for family and religious occasions"
+      },
+      {
+        "level": "h2",
+        "text": "5. Big-batch celebration drop-off: best for milestone events"
+      },
+      {
+        "level": "h2",
+        "text": "How this list was ranked"
+      },
+      {
+        "level": "h2",
+        "text": "Which drop-off catering should you choose in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One last thing"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Office Breakfast Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+      },
+      {
+        "level": "h2",
+        "text": "Plan it with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

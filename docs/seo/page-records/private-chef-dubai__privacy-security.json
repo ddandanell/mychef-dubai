@@ -19,9 +19,9 @@
   },
   "metadata": {
     "title": "Privacy & Security in Your Home | myCHEF",
-    "description": "Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, and how discretion and household access are handled.",
+    "description": "Clear expectations for the person entering your home, the information needed to cook for you, and the way household access is handled.",
     "h1": [
-      "Your home changes the standard."
+      "Your home deserves care and discretion."
     ]
   },
   "metadata_source": "local production prerender",
@@ -35,105 +35,120 @@
     "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/private-chef/ClusterCTA.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
-    "src/components/private-chef/FillFrame.tsx",
-    "src/components/private-chef/QuotePair.tsx",
-    "src/components/system/index.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/private-chef/SupportPage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
-    "src/content/privateChefPage.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/private-chef/PrivacySecurity.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1307,
-    "current_word_count": 1289,
+    "current_word_count": 1794,
     "headings": [
       {
         "level": "h2",
-        "text": "Only checks we actually run"
-      },
-      {
-        "level": "h3",
-        "text": "Identity and right to work"
-      },
-      {
-        "level": "h3",
-        "text": "Practical cooking assessment"
-      },
-      {
-        "level": "h3",
-        "text": "References"
-      },
-      {
-        "level": "h3",
-        "text": "Food safety"
+        "text": "Thoughtful boundaries, agreed together."
       },
       {
         "level": "h2",
-        "text": "How we expect a chef to behave in your home"
+        "text": "Clear from the start."
+      },
+      {
+        "level": "h3",
+        "text": "Access by agreement"
+      },
+      {
+        "level": "h3",
+        "text": "Information with a purpose"
+      },
+      {
+        "level": "h3",
+        "text": "Discretion in your home"
+      },
+      {
+        "level": "h3",
+        "text": "A contact for concerns"
       },
       {
         "level": "h2",
-        "text": "Information boundaries"
+        "text": "Your questions, answered."
       },
       {
         "level": "h3",
-        "text": "What the chef needs to know"
+        "text": "What checks do you describe?"
       },
       {
         "level": "h3",
-        "text": "What they do not need to know"
+        "text": "Can I set household rules?"
+      },
+      {
+        "level": "h3",
+        "text": "Where can I read the privacy policy?"
       },
       {
         "level": "h2",
-        "text": "You should not have to manage every issue directly with the chef"
-      },
-      {
-        "level": "h3",
-        "text": "What we do not promise"
-      },
-      {
-        "level": "h3",
-        "text": "What we do promise"
+        "text": "Let’s make room for good food."
       },
       {
         "level": "h2",
-        "text": "Questions about privacy, checks and discretion"
-      },
-      {
-        "level": "h3",
-        "text": "Is this suitable as a private chef for family homes with children?"
-      },
-      {
-        "level": "h3",
-        "text": "Are you a private chef agency?"
-      },
-      {
-        "level": "h3",
-        "text": "What checks do you run before a chef enters my home?"
-      },
-      {
-        "level": "h3",
-        "text": "How do you handle discretion?"
-      },
-      {
-        "level": "h3",
-        "text": "What happens when a chef’s assignment ends?"
+        "text": "A private home deserves a considered approach"
       },
       {
         "level": "h2",
-        "text": "A chef in your home, with a standard around them"
+        "text": "Be clear about access, communication and photography"
+      },
+      {
+        "level": "h2",
+        "text": "Set expectations for discretion in your home"
+      },
+      {
+        "level": "h2",
+        "text": "Make home and building access straightforward"
+      },
+      {
+        "level": "h2",
+        "text": "Ask about checks that relate to the proposed work"
+      },
+      {
+        "level": "h2",
+        "text": "Plan arrival time around preparation, not just mealtime"
+      },
+      {
+        "level": "h2",
+        "text": "Discuss continuity before your routine depends on it"
+      },
+      {
+        "level": "h2",
+        "text": "Confirm the practical details before the date is secured"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

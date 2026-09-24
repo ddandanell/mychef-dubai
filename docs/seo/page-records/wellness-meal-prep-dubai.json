@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Healthy Meal Prep Dubai | In-Home Cooking | myCHEF",
-    "description": "Healthy meal prep in your Dubai kitchen, from AED 900 per session. Plan meals around your preferences, with labelled portions and kitchen clear-down.",
+    "title": "Healthy Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "description": "Fresh ingredients, balanced choices and food you enjoy eating. Your chef prepares meals in your home around your preferences and any agreed dietary guidance.",
     "h1": [
-      "Healthy Meal Prep Dubai"
+      "Healthy Meal Prep Dubai. Thoughtful food for everyday life."
     ]
   },
   "metadata_source": "local production prerender",
@@ -45,111 +45,174 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/VIPPromoSection.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/HouseholdServicePage.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/WellnessMealPrep.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 699,
-    "current_word_count": 704,
+    "current_word_count": 2058,
     "headings": [
       {
         "level": "h2",
-        "text": "Healthy meal prep Dubai, by goal"
-      },
-      {
-        "level": "h3",
-        "text": "Fitness & Performance"
-      },
-      {
-        "level": "h3",
-        "text": "Weight Management"
-      },
-      {
-        "level": "h3",
-        "text": "Clinical & Medical Diets"
-      },
-      {
-        "level": "h3",
-        "text": "Postpartum & Recovery"
+        "text": "Healthy meal prep in Dubai, tailored to you."
       },
       {
         "level": "h2",
-        "text": "Consultation, menu, shop, portion"
+        "text": "The little things that make it work."
       },
       {
         "level": "h3",
-        "text": "Nutrition Consultation"
+        "text": "Preferences made practical"
       },
       {
         "level": "h3",
-        "text": "Macro-Designed Menu"
+        "text": "A clear dietary brief"
       },
       {
         "level": "h3",
-        "text": "Ingredient sourcing"
+        "text": "Ingredients you understand"
       },
       {
         "level": "h3",
-        "text": "Prep, Portion & Label"
+        "text": "Meals ready when you need them"
       },
       {
         "level": "h2",
-        "text": "Macros on the label. Cleanup in the kitchen."
+        "text": "A chef in your kitchen. A team behind the details."
       },
       {
         "level": "h3",
-        "text": "Nutritionist-Aligned"
+        "text": "Menus that fit your home"
       },
       {
         "level": "h3",
-        "text": "Macro Tracking Made Easy"
+        "text": "A considered chef match"
       },
       {
         "level": "h3",
-        "text": "Whole Food Ingredients"
+        "text": "Ongoing coordination"
       },
       {
         "level": "h3",
-        "text": "Condition-Specific Menus"
-      },
-      {
-        "level": "h3",
-        "text": "Halal & Allergen Aware"
-      },
-      {
-        "level": "h3",
-        "text": "Private Chef Convenience"
-      },
-      {
-        "level": "h3",
-        "text": "Save on every booking with VIP membership"
+        "text": "A kitchen left in order"
       },
       {
         "level": "h2",
-        "text": "The questions we get before a meal-prep booking"
+        "text": "Choose the service that fits."
+      },
+      {
+        "level": "h3",
+        "text": "One fresh meal each week"
+      },
+      {
+        "level": "h3",
+        "text": "Weekly food preparation"
+      },
+      {
+        "level": "h3",
+        "text": "A full-day chef, five days a week"
       },
       {
         "level": "h2",
-        "text": "Send the household, the goals and the week"
+        "text": "Details that make the occasion."
+      },
+      {
+        "level": "h3",
+        "text": "A table set on deck"
+      },
+      {
+        "level": "h3",
+        "text": "Food with attention to detail"
+      },
+      {
+        "level": "h3",
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "More in Private Chef"
+        "text": "Before your first visit."
+      },
+      {
+        "level": "h3",
+        "text": "Can you follow a dietitian’s plan?"
+      },
+      {
+        "level": "h3",
+        "text": "Do you guarantee weight loss or health results?"
+      },
+      {
+        "level": "h3",
+        "text": "How are allergies handled?"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s make room for good food."
+      },
+      {
+        "level": "h2",
+        "text": "Good food that fits your preferred way of eating"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the cooking brief personal and precise"
+      },
+      {
+        "level": "h2",
+        "text": "Describe the meals you want, not just a wellness label"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your preferences into a useful food profile"
+      },
+      {
+        "level": "h2",
+        "text": "Give plant-based dishes a proper place on the menu"
+      },
+      {
+        "level": "h2",
+        "text": "Decide what should be cooked now and finished later"
+      },
+      {
+        "level": "h2",
+        "text": "Use portion feedback to improve the next visit"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

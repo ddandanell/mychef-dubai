@@ -7,7 +7,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Event catering in Dubai for weddings, birthdays and private parties. Menus, chefs, staff, setup and clear-down, from AED 120 per person."
   },
   "/wedding-catering-menu-planning-dubai": {
-    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF"
+    "title": "Wedding Catering Menu Dubai | Buffet & Plated Menus | myCHEF",
+    "description": "Wedding catering menu planning in Dubai — buffet, plated and live-station menus, tastings and late-night food. Free quote on WhatsApp, reply in 15 minutes."
   },
   "/blog/corporate-event-catering-ideas-dubai": {
     "title": "Corporate Event Catering Ideas Dubai | myCHEF",
@@ -20,9 +21,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Conference Catering Dubai | Working Lunches | myCHEF",
     "description": "Conference catering in Dubai with coffee breaks and working lunches. Drop-off from AED 90 per person; staffed buffets from AED 120."
   },
-  "/locations": {
-    "title": "Catering Near Me Dubai | Areas We Serve | myCHEF"
-  },
+
   "/faq": {
     "title": "Catering FAQ Dubai | Private Chef Questions | myCHEF"
   },
@@ -178,7 +177,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/halal-catering-dubai": {
     "title": "Halal Catering Dubai | Halal Meat Standard | myCHEF",
-    "description": "Halal catering Dubai with halal meat as standard. Menus, service and clear-down so you stay a guest at your own table."
+    "description": "Halal catering in Dubai with halal meat sourced as standard. Buffet, canapé and plated menus for weddings, offices and home events. Itemised written quotes."
   },
   "/grazing-table-dubai": {
     "title": "Grazing Table Dubai | Built On Site in the Room | myCHEF",
@@ -188,9 +187,13 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Catering Menus Dubai | Samples Then a Quote | myCHEF",
     "description": "Catering menus Dubai start as samples. Tell us the occasion and the kitchen. We rewrite the menu, match a chef and send an itemised quote."
   },
+  "/locations": {
+    "title": "Catering Near Me Dubai | Private Chef & Catering Areas | myCHEF",
+    "description": "Catering services near me across Dubai — 15 neighbourhoods from Palm Jumeirah villas to Business Bay offices. Access, timing and a written quote confirmed."
+  },
   "/vegan-catering-dubai": {
     "title": "Vegan Catering Dubai | Plant-Based Menu Night | myCHEF",
-    "description": "Vegan catering Dubai: plant-based menus cooked on site, service and clear-down so you stay a guest at your own table."
+    "description": "Vegan catering in Dubai with plant-based menus cooked on site. Buffet, canapé and plated formats for parties, weddings and office events. Itemised quotes."
   },
   "/mychef-membership": {
     "title": "myCHEF Membership | 12-Month Locked Rates | myCHEF",
@@ -330,5 +333,18 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   "/part-time-private-chef-dubai": {
     "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
     "description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of."
+  },
+  "/catering-dubai": {
+    "description": "Catering services in Dubai for weddings, villas, yachts, offices and home parties. Buffet, canapés and chef-led service. Food-only from AED 90 per person."
+  },
+  "/wedding-catering-dubai": {
+    "description": "Wedding catering in Dubai for villa, garden and venue receptions. Buffet, plated and live-station menus, tastings and service teams. From AED 700 a guest."
+  },
+  "/corporate-event-catering-dubai": {
+    "title": "Corporate Event Catering Dubai | Parties & Launches | myCHEF",
+    "description": "Corporate event catering in Dubai for company parties, launches and awards nights. Packages from AED 120 per person; canapé receptions from AED 150."
+  },
+  "/private-party-catering-dubai": {
+    "description": "Private party catering in Dubai for house parties, birthdays and dinner parties at home. Menus, chefs and service matched to your room and guest count."
   }
 }

@@ -31,6 +31,9 @@ const FAQ_JSONLD_PATHS = new Set([
   '/yachts',
   // Seasonal commercial hub: visible 17-question accordion, contract schema[] lists FAQPage.
   '/christmas-catering-dubai',
+  // Paid birthday landing: FaqAccordion renders birthdayFaqs on-page and the contract's
+  // schema[] for /birthday-catering-dubai lists FAQPage.
+  '/birthday-catering-dubai',
 ])
 
 function typeList(node: Record<string, unknown>): string[] {

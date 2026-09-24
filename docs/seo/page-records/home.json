@@ -21,10 +21,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "myCHEF Dubai | Private Chefs & Exceptional Dining",
-    "description": "Private chefs for your home and thoughtful catering for Dubai events. Explore household plans, private dinners and menus tailored to your occasion.",
+    "title": "myCHEF Dubai | A Chef for Your Kitchen and Events",
+    "description": "A standing chef for your home, or catering for a night with guests in Dubai. Every chef is vetted before they cook for you.",
     "h1": [
-      "myCHEF Dubai: a private chef for your home and every occasion"
+      "myCHEF Dubai: a chef for your kitchen, catering for your event"
     ]
   },
   "metadata_source": "local production prerender",
@@ -38,14 +38,25 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/data/locations.ts",
     "src/data/starterPackages.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -62,24 +73,25 @@
     "src/sections/ServicesSection.tsx",
     "src/sections/StarterPackagesSection.tsx",
     "src/sections/TeamSection.tsx",
-    "src/sections/TrustSection.tsx"
+    "src/sections/TrustSection.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1321,
-    "current_word_count": 1171,
+    "current_word_count": 1321,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chefs and catering, shaped around you."
+        "text": "myCHEF Dubai does two things. A chef for your house, or catering for your event. Both start here."
       },
       {
         "level": "h3",
-        "text": "A chef for your home"
+        "text": "A chef for your kitchen"
       },
       {
         "level": "h3",
-        "text": "Catering for your occasion"
+        "text": "Catering for a night"
       },
       {
         "level": "h3",
@@ -99,7 +111,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore our starting prices"
+        "text": "Starting prices for a chef in your kitchen, or for catering"
       },
       {
         "level": "h3",
@@ -131,11 +143,11 @@
       },
       {
         "level": "h2",
-        "text": "A carefully chosen chef. A clearly planned experience."
+        "text": "Finding a chef in Dubai is easy. Knowing who you are letting into your home is harder."
       },
       {
         "level": "h2",
-        "text": "From your first idea to a beautifully served meal."
+        "text": "Tell us the job. We build the menu, the chef and the service around it."
       },
       {
         "level": "h3",
@@ -179,7 +191,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan the details that make an occasion feel effortless."
+        "text": "What it costs, what to plan, and what is changing in Dubai this year."
       },
       {
         "level": "h3",
@@ -199,11 +211,11 @@
       },
       {
         "level": "h2",
-        "text": "Good hospitality begins with the right people."
+        "text": "The chef matters. How we choose one matters more."
       },
       {
         "level": "h2",
-        "text": "Tell us what you have in mind."
+        "text": "Date, guest count and area in Dubai. That is enough to start."
       },
       {
         "level": "h2",

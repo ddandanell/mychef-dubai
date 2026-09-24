@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/ArabicCatering.tsx"
+    "src/pages/ArabicCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2328,
-    "current_word_count": 2302,
+    "current_word_count": 2907,
     "headings": [
       {
         "level": "h2",
-        "text": "Shared plates, then the grill"
+        "text": "Mezze, grills and generous regional menus"
       },
       {
         "level": "h2",
@@ -121,10 +133,6 @@
       {
         "level": "h2",
         "text": "What Arabic catering Dubai includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Our Arabic Catering"
       },
       {
         "level": "h2",
@@ -233,6 +241,26 @@
       {
         "level": "h2",
         "text": "Send the date, guest count and venue"
+      },
+      {
+        "level": "h2",
+        "text": "Build a generous table with a clear regional direction"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

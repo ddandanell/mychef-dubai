@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chefs Dubai | The Vetted myCHEF Network | myCHEF",
-    "description": "Private chefs Dubai: independent, licensed cooks. Identity, a cooking assessment, references and a review after the night, before they cook in your home.",
+    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
+    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability.",
     "h1": [
-      "Private Chefs Dubai: Vetted, Tasted, Matched to Your Table"
+      "Private Chefs Dubai. Different talents, a shared attention to detail."
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,31 +47,39 @@
   "source_files": [
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/OurChefs.tsx",
-    "src/utils/schema.ts"
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 544,
+    "current_word_count": 1915,
     "headings": [
       {
         "level": "h2",
-        "text": "Finding a chef is easy. Knowing who you are letting into your home is harder."
-      },
-      {
-        "level": "h2",
-        "text": "The named chefs we actually send"
+        "text": "Private chefs in Dubai, matched to your table."
       },
       {
         "level": "h3",
@@ -91,19 +99,79 @@
       },
       {
         "level": "h2",
-        "text": "Private Chefs Dubai: How We Vet Every Chef"
+        "text": "Culinary skill. Thoughtful coordination."
       },
       {
         "level": "h3",
-        "text": "Cook with myCHEF"
+        "text": "Your chef"
+      },
+      {
+        "level": "h3",
+        "text": "Chef assistants"
+      },
+      {
+        "level": "h3",
+        "text": "Hospitality professionals"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF coordination"
       },
       {
         "level": "h2",
-        "text": "Tell us the table. We match the chef."
+        "text": "Details that make the occasion."
+      },
+      {
+        "level": "h3",
+        "text": "A table set on deck"
+      },
+      {
+        "level": "h3",
+        "text": "Food with attention to detail"
+      },
+      {
+        "level": "h3",
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "Everything in Private Chef"
+        "text": "Tell us who you’re cooking for."
+      },
+      {
+        "level": "h2",
+        "text": "Find culinary strengths that suit your home or occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Read a profile with your own menu in mind"
+      },
+      {
+        "level": "h2",
+        "text": "Look for a chef whose strengths fit the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Give a trial or tasting a clear purpose"
+      },
+      {
+        "level": "h2",
+        "text": "Ask about checks that relate to the proposed work"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Make the first visit a useful foundation"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

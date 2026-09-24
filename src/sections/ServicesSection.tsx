@@ -1,4 +1,3 @@
-import ServiceImage from '@/components/private-chef/ServiceImage'
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -11,15 +10,15 @@ import { SectionLabel } from '@/components/system'
 const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
-    title: "A chef for your home",
-    description: "Regular cooking in your own kitchen, with a chef matched to your household, food preferences and weekly routine.",
+    title: 'A chef for your kitchen',
+    description: 'A standing private chef for your home: usually the same person each week, cooking in your kitchen. One dinner is catering, not this plan.',
     link: '/private-chef-dubai',
     cta: 'See household chef plans',
   },
   {
     image: '/images/catering-dubai-hero.webp',
-    title: "Catering for your occasion",
-    description: "Choose food delivery or a complete catering service, with the menu, staffing and setup planned around your guests and venue.",
+    title: 'Catering for a night',
+    description: 'Food only, or chefs and service staff for the night. We design the menu with you, then cook and run it so you can stay with your guests.',
     link: '/catering-dubai',
     cta: 'See catering options',
   },
@@ -29,28 +28,28 @@ const builtOnServices: { icon: LucideIcon; title: string; description: string; l
   {
     icon: Wine,
     title: 'Luxury Dining Experiences',
-    description: "Thoughtful tasting menus, dinners for two and milestone celebrations, prepared in your kitchen by a carefully matched chef.",
+    description: 'Fine dining at home, dinners for two and milestone tables. Courses designed with you and cooked in your kitchen by the chef we match.',
     link: '/luxury-dining-experiences',
     cta: 'Plan a private dinner',
   },
   {
     icon: PartyPopper,
     title: 'Events & Celebrations',
-    description: "From intimate gatherings to larger celebrations, we coordinate the menu and service so you can enjoy the occasion with your guests.",
+    description: 'Small gatherings to large celebrations. We design the menu, bring the chef and service staff, and run the evening so you can host it.',
     link: '/events',
     cta: 'Plan an event',
   },
   {
     icon: Briefcase,
     title: 'Corporate Dining',
-    description: "Boardroom lunches, client dinners and company events, with menus and service planned around your schedule and setting.",
+    description: 'Boardroom lunches and corporate events — menus designed with you and delivered by chefs who understand what a room like that demands.',
     link: '/corporate',
     cta: 'Corporate dining',
   },
   {
     icon: House,
     title: 'Villas & Residences',
-    description: "Private chefs for villas, holiday homes and longer stays, with meals and service adapted to your kitchen and household routine.",
+    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai. A vetted chef in your kitchen, planned around how the house actually runs.',
     link: '/villas-private-residences',
     cta: 'See villa chefs',
   },
@@ -117,10 +116,10 @@ export default function ServicesSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel tone="dark">Private Chef & Catering</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-white mb-5">
-            Private chefs and catering, shaped around you.
+            myCHEF Dubai does two things. A chef for your house, or catering for your event. Both start here.
           </h2>
           <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[62ch]">
-            Choose regular support for your household or a tailored service for one occasion. We bring your preferences, menu and booking details together with one dedicated point of contact.
+            Two core services, and four more built on them. Whichever you choose, the same standard of chef and the same person looking after you from your first message to the last plate.
           </p>
         </div>
 
@@ -134,7 +133,7 @@ export default function ServicesSection() {
                 className="service-card group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-4 focus-visible:ring-offset-black"
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
-                  <ServiceImage
+                  <img
                     src={service.image}
                     alt={service.title}
                     width={640}
@@ -165,7 +164,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Built on the core — hairline index, concept icons */}
-          <p className="font-inter text-caption uppercase tracking-wider text-gray-400 mb-4">Explore dining experiences</p>
+          <p className="font-inter text-caption uppercase tracking-wider text-gray-400 mb-4">Built on the same standard</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
             {builtOnServices.map((service) => {
               const Icon = service.icon

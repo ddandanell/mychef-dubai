@@ -32,7 +32,7 @@
       "Private Chef Company Dubai A new chapter. A world of experience."
     ]
   },
-  "metadata_source": "Live production prerender verified at 57b1cb10f27cd549cdc56e71cac31129be798d89",
+  "metadata_source": "local production prerender",
   "indexation": {
     "canonical": "https://www.mychef.ae/about",
     "robots": "index, follow",
@@ -41,11 +41,18 @@
   },
   "source_files": [
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -56,7 +63,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 709,
-    "current_word_count": 2243,
+    "current_word_count": 2259,
     "headings": [
       {
         "level": "h2",
@@ -172,8 +179,8 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/about-redesign/2026-09-22/README.md",
-    "guidance": "Use the business-owner-confirmed February Dubai opening, international operating destinations and 10+ years of team experience recorded in the SEO contract. Keep the six About images exclusive to this page."
+    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {
     "breadcrumb": [

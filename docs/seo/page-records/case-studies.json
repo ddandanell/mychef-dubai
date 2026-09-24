@@ -21,10 +21,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Catering Case Studies Dubai | myCHEF",
-    "description": "Catering case studies Dubai: typical formats for villas, yachts, galas and launches. We do not publish named clients or invented results.",
+    "title": "Catering Case Studies Dubai | Previous Work | myCHEF",
+    "description": "Explore a previous myCHEF yacht catering brief, with practical ideas for menus, service and event setup in Dubai. Plan the details for your own occasion.",
     "h1": [
-      "Catering Case Studies Dubai"
+      "Catering Case Studies Dubai. A closer look at the details."
     ]
   },
   "metadata_source": "local production prerender",
@@ -35,109 +35,142 @@
     "redirect_to": null
   },
   "source_files": [
-    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
-    "src/components/system/index.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/PortfolioPage.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
-    "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
-    "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/CaseStudies.tsx"
+    "src/lib/whatsapp.ts",
+    "src/pages/CaseStudies.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 761,
-    "current_word_count": 760,
+    "current_word_count": 1810,
     "headings": [
       {
         "level": "h2",
-        "text": "Catering case studies Dubai without invented names"
+        "text": "Details that make the occasion."
+      },
+      {
+        "level": "h3",
+        "text": "A table set on deck"
+      },
+      {
+        "level": "h3",
+        "text": "Food with attention to detail"
+      },
+      {
+        "level": "h3",
+        "text": "The service behind the occasion"
       },
       {
         "level": "h2",
-        "text": "How these nights are usually run"
+        "text": "A myCHEF yacht catering day."
       },
       {
         "level": "h3",
-        "text": "Villa wedding reception"
-      },
-      {
-        "level": "h3",
-        "text": "Yacht birthday"
-      },
-      {
-        "level": "h3",
-        "text": "Company gala dinner"
-      },
-      {
-        "level": "h3",
-        "text": "Small villa dinner"
-      },
-      {
-        "level": "h3",
-        "text": "Product launch reception"
-      },
-      {
-        "level": "h3",
-        "text": "Family Eid gathering"
+        "text": "Food, table and service."
       },
       {
         "level": "h2",
-        "text": "What a real brief contains"
+        "text": "Make the inspiration your own."
+      },
+      {
+        "level": "h3",
+        "text": "An evening at home"
+      },
+      {
+        "level": "h3",
+        "text": "Just the two of you"
+      },
+      {
+        "level": "h3",
+        "text": "A generous family table"
+      },
+      {
+        "level": "h3",
+        "text": "Middle Eastern flavours"
+      },
+      {
+        "level": "h3",
+        "text": "A prepared week"
+      },
+      {
+        "level": "h3",
+        "text": "A slower morning"
+      },
+      {
+        "level": "h3",
+        "text": "A front-row seat to dinner"
+      },
+      {
+        "level": "h3",
+        "text": "A thoughtful final course"
+      },
+      {
+        "level": "h3",
+        "text": "Something new to learn"
       },
       {
         "level": "h2",
-        "text": "A Taste of Our Events"
+        "text": "What would you like to create?"
       },
       {
         "level": "h2",
-        "text": "Catering Case Studies Dubai: the questions we get before a booking"
-      },
-      {
-        "level": "h3",
-        "text": "Are these named client stories?"
-      },
-      {
-        "level": "h3",
-        "text": "Can I see a menu from a past event?"
-      },
-      {
-        "level": "h3",
-        "text": "Do you share real client names?"
-      },
-      {
-        "level": "h3",
-        "text": "Can my event be featured?"
-      },
-      {
-        "level": "h3",
-        "text": "How do I plan something in this shape?"
-      },
-      {
-        "level": "h3",
-        "text": "Why not publish results?"
+        "text": "Use previous work to ask better questions about your occasion"
       },
       {
         "level": "h2",
-        "text": "Catering Across Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Related Services"
+        "text": "Look for the decisions behind the presentation"
       },
       {
         "level": "h2",
-        "text": "Let's Create Your Next Event Story"
+        "text": "Look beyond the finished table when reviewing previous work"
       },
       {
         "level": "h2",
-        "text": "More in Trust and About"
+        "text": "Use photographs to describe the details you like"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Match the service to the way your guests gather"
+      },
+      {
+        "level": "h2",
+        "text": "Compare what the price includes, line by line"
+      },
+      {
+        "level": "h2",
+        "text": "Send a brief that makes the first proposal useful"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

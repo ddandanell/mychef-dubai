@@ -82,6 +82,7 @@ export default function FloatingChefChat() {
 
   return (
     <div
+      data-floating-chef-chat
       className="fixed z-50 flex flex-col items-end gap-3
         right-4 sm:right-6
         bottom-[calc(1rem+env(safe-area-inset-bottom))] sm:bottom-6

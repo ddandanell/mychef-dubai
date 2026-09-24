@@ -46,21 +46,34 @@
     "src/components/HandoffPage.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-vegan-catering-dubai-guide.json",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts"
+    "src/lib/utils.ts",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 491,
+    "current_word_count": 1685,
     "headings": [
       {
         "level": "h2",
@@ -92,7 +105,47 @@
       },
       {
         "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+      },
+      {
+        "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Vegan menu ideas: Dubai gatherings with flavour and variety"
+      },
+      {
+        "level": "h2",
+        "text": "Make plant-based food a complete experience"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

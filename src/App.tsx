@@ -5,6 +5,7 @@ import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
+import ScrollManager from './components/ScrollManager'
 import PrivateChefExpansion from './components/private-chef/PrivateChefExpansion'
 import BrandIdentity from './components/BrandIdentity'
 import Analytics from './components/Analytics'
@@ -65,6 +66,8 @@ export default function App() {
                   </Routes>
                   <PrivateChefExpansion />
                   <CateringExpansion />
+                  {/* Run navigation effects only after the lazy destination commits. */}
+                  <ScrollManager />
                 </Suspense>
               </RouteErrorBoundary>
             </Layout>

@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          myCHEF Dubai: a private chef for your home and every occasion
+          myCHEF Dubai: a chef for your kitchen, catering for your event
         </h1>
 
         {/* Subtext */}
@@ -244,7 +244,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
-          Beautifully considered food, prepared around the way you live and celebrate. Discover a regular chef for your household or tailored catering for your next Dubai event.
+          A standing chef for your home, or catering for a night with guests. The food is designed around you. Every chef is vetted before they cook.
         </p>
 
         {/* CTA Row */}
@@ -259,15 +259,13 @@ export default function HeroSection() {
         <p className="mt-3 font-inter text-body-sm text-white/75 text-center md:text-left">
           Or{' '}
           <Link to="/inquiry" className="text-gold underline underline-offset-4 hover:text-gold-light">
-            Request a tailored quote
+            get a tailored quote
           </Link>
           {' · '}
           <a
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            data-track="whatsapp_click"
-            data-cta-location="hero"
             className="text-gold underline underline-offset-4 hover:text-gold-light"
           >
             WhatsApp
@@ -275,7 +273,7 @@ export default function HeroSection() {
         </p>
         <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2 justify-center md:justify-start">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-          Typical reply within 15 minutes · 9am–11pm Dubai time · No obligation
+          Typical reply within 15 min during business hours, 9am to 11pm · No obligation
         </p>
 
         {/* Stats Row */}

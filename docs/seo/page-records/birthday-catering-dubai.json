@@ -52,17 +52,29 @@
     "src/components/TrustSignalStrip.tsx",
     "src/components/birthday/BirthdayExtrasPicker.tsx",
     "src/components/birthday/BirthdayPrivateBrief.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/birthdayCluster.ts",
     "src/content/birthdayExtras.ts",
     "src/content/birthdayPage.ts",
     "src/content/birthdayStatement.ts",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -70,12 +82,13 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/BirthdayCatering.tsx"
+    "src/pages/BirthdayCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4717,
-    "current_word_count": 4711,
+    "current_word_count": 5312,
     "headings": [
       {
         "level": "h2",
@@ -315,7 +328,7 @@
       },
       {
         "level": "h2",
-        "text": "A birthday we have run, and two common briefs"
+        "text": "Three ways to plan a birthday celebration"
       },
       {
         "level": "h3",
@@ -331,7 +344,7 @@
       },
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h3",
@@ -435,6 +448,34 @@
       },
       {
         "level": "h2",
+        "text": "Build the meal around the person you are celebrating"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Kids and Adults Party Menu Planning in Dubai"
+      },
+      {
+        "level": "h2",
         "text": "More in Private Events"
       }
     ],
@@ -487,6 +528,11 @@
       {
         "url": "/blog/best-private-chef-birthday-dinner-dubai",
         "anchor": "Private chef for birthday dinner",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/kids-and-adults-party-menu-dubai",
+        "anchor": "Kids and Adults Party Menu Planning in Dubai",
         "alt_anchors": []
       }
     ],

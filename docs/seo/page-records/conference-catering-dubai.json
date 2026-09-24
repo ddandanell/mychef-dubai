@@ -49,32 +49,44 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/corporate/CorporateWorkedBudgets.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/ConferenceCatering.tsx"
+    "src/pages/ConferenceCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2039,
-    "current_word_count": 2040,
+    "current_word_count": 2688,
     "headings": [
       {
         "level": "h2",
@@ -198,10 +210,6 @@
       },
       {
         "level": "h2",
-        "text": "A Taste of Our Conference Catering"
-      },
-      {
-        "level": "h2",
         "text": "Conference Catering Dubai: Conference Catering Questions"
       },
       {
@@ -243,6 +251,26 @@
       {
         "level": "h2",
         "text": "Plan Your Conference Catering"
+      },
+      {
+        "level": "h2",
+        "text": "Plan for everyone reaching the break at once"
+      },
+      {
+        "level": "h2",
+        "text": "Design breaks that work within the available time"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

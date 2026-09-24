@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/VegetarianCatering.tsx"
+    "src/pages/VegetarianCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 967,
-    "current_word_count": 938,
+    "current_word_count": 1737,
     "headings": [
       {
         "level": "h2",
-        "text": "Meat off. Dairy on, unless you say otherwise."
+        "text": "Vegetarian menus shaped around your preferences"
       },
       {
         "level": "h2",
@@ -120,11 +132,7 @@
       },
       {
         "level": "h2",
-        "text": "What a vegetarian booking actually covers"
-      },
-      {
-        "level": "h2",
-        "text": "What vegetarian service looks like"
+        "text": "What your vegetarian catering proposal includes"
       },
       {
         "level": "h2",
@@ -169,6 +177,38 @@
       {
         "level": "h2",
         "text": "Send the vegetarian brief with the date"
+      },
+      {
+        "level": "h2",
+        "text": "Clarify the ingredients your guests include"
+      },
+      {
+        "level": "h2",
+        "text": "Make plant-based food a complete experience"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
       },
       {
         "level": "h2",
@@ -218,7 +258,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/mixed-diet-dinner-party-dubai",
+        "anchor": "A Mixed-Diet Dinner Party in Dubai: Menu Planning",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

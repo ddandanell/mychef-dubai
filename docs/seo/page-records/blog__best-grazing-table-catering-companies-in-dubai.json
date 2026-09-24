@@ -38,23 +38,38 @@
   },
   "source_files": [
     "blog/data/best-grazing-table-catering-companies-in-dubai.json",
+    "src/components/BlogRelated.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-grazing-table-catering-companies-in-dubai.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/RyzeArticlePage.tsx"
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2346,
-    "current_word_count": 434,
+    "current_word_count": 1910,
     "headings": [
       {
         "level": "h2",
@@ -82,7 +97,59 @@
       },
       {
         "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Canapé Reception Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+      },
+      {
+        "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "How to compare the best grazing table catering companies in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Use the same questions for every provider"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       }
     ],
     "baseline_findings": [

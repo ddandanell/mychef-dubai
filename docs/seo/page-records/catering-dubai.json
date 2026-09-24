@@ -50,34 +50,47 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/EventLayers.tsx",
     "src/components/catering/EventPathway.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/bookingTerms.ts",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPage.ts",
     "src/content/cateringPricing.ts",
     "src/content/christmasMenus.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/Catering.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4399,
-    "current_word_count": 4109,
+    "current_word_count": 4808,
     "headings": [
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h2",
@@ -85,11 +98,11 @@
       },
       {
         "level": "h2",
-        "text": "Two doors: the house, or the night"
+        "text": "Household chef services and event catering"
       },
       {
         "level": "h2",
-        "text": "Catering Dubai, in layers. Stop wherever it works."
+        "text": "Catering Dubai with the support your occasion needs"
       },
       {
         "level": "h3",
@@ -237,7 +250,7 @@
       },
       {
         "level": "h2",
-        "text": "What each standard actually means"
+        "text": "How our service standards apply to your booking"
       },
       {
         "level": "h3",
@@ -390,6 +403,38 @@
       {
         "level": "h3",
         "text": "Catering across Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Bring the menu, venue and hospitality together"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
       },
       {
         "level": "h2",
@@ -566,6 +611,16 @@
       {
         "url": "/blog/how-far-ahead-book-caterer-dubai",
         "anchor": "How far in advance to book a caterer",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/buffet-layout-planning-dubai",
+        "anchor": "Buffet Layout Planning in Dubai: A Practical Guide",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/compare-catering-quotes-dubai",
+        "anchor": "How to Compare Catering Quotes in Dubai",
         "alt_anchors": []
       }
     ],

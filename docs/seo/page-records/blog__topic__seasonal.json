@@ -33,23 +33,47 @@
   },
   "source_files": [
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/BlogCategoryHub.tsx"
+    "src/pages/BlogCategoryHub.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 77,
-    "current_word_count": 77,
+    "current_word_count": 191,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Christmas Lunch at Home in Dubai: Planning Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Diwali Party at Home in Dubai: A Planning Guide"
+      },
+      {
+        "level": "h3",
+        "text": "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
       },
       {
         "level": "h2",

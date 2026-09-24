@@ -83,10 +83,10 @@ export default function LeadMagnetModal() {
         </button>
 
         <h3 className="font-playfair text-h3 text-white mb-4">
-          Your Guide to Private Dining
+          Get Our Private Dining Guide
         </h3>
         <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-8">
-          Explore menu ideas, planning advice and the details to consider when hosting a private dinner in Dubai. Request the guide through WhatsApp.
+          Discover how to plan the perfect private dining experience in Dubai. Tips, menu ideas, and insider recommendations — sent straight to your WhatsApp.
         </p>
 
         <a
@@ -97,7 +97,7 @@ export default function LeadMagnetModal() {
           className="btn-primary w-full inline-flex items-center justify-center gap-2"
         >
           <Phone size={18} aria-hidden="true" />
-          Request the Guide on WhatsApp
+          Send Me the Guide on WhatsApp
         </a>
       </div>
     </div>

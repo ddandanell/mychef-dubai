@@ -50,27 +50,40 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/CorporateDinnerPackage.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 603,
-    "current_word_count": 597,
+    "current_word_count": 1731,
     "headings": [
       {
         "level": "h2",
@@ -115,6 +128,38 @@
       {
         "level": "h2",
         "text": "Book the Corporate Dinner Package"
+      },
+      {
+        "level": "h2",
+        "text": "Corporate dinner package Dubai: make the evening your own"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Finish with a clear handover and collection plan"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

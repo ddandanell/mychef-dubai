@@ -33,23 +33,55 @@
   },
   "source_files": [
     "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/BlogCategoryHub.tsx"
+    "src/pages/BlogCategoryHub.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 115,
-    "current_word_count": 115,
+    "current_word_count": 320,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Best desert dining catering companies in Dubai 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best BBQ Catering Companies in Dubai: What to Compare"
+      },
+      {
+        "level": "h3",
+        "text": "Best Yacht Catering Companies in Dubai: What to Compare"
       },
       {
         "level": "h3",

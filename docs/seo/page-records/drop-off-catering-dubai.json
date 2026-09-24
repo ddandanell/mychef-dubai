@@ -50,35 +50,48 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/DropOffCatering.tsx"
+    "src/pages/DropOffCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1743,
-    "current_word_count": 1749,
+    "current_word_count": 2333,
     "headings": [
       {
         "level": "h2",
-        "text": "Food cooked for a room you already have"
+        "text": "Prepared food delivered for your occasion"
       },
       {
         "level": "h2",
-        "text": "If you still need people in the room, leave here"
+        "text": "Need help with service as well as delivery?"
       },
       {
         "level": "h2",
-        "text": "Working lunches and houses that do not want a brigade"
+        "text": "Convenient food for offices and private gatherings"
       },
       {
         "level": "h2",
@@ -142,11 +155,7 @@
       },
       {
         "level": "h2",
-        "text": "What a drop looks like"
-      },
-      {
-        "level": "h2",
-        "text": "Questions the page has not closed yet"
+        "text": "Questions before you book"
       },
       {
         "level": "h3",
@@ -203,6 +212,26 @@
       {
         "level": "h2",
         "text": "Date, headcount and address is enough"
+      },
+      {
+        "level": "h2",
+        "text": "Choose food that suits the handover and serving plan"
+      },
+      {
+        "level": "h2",
+        "text": "Make the delivery handover clear"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

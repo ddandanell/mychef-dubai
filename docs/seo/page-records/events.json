@@ -50,29 +50,42 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/eventsPage.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/Events.tsx"
+    "src/pages/Events.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1996,
-    "current_word_count": 1959,
+    "current_word_count": 2559,
     "headings": [
       {
         "level": "h2",
-        "text": "Six event types. Open the page for the night you are hosting."
+        "text": "Catering for the occasion you want to celebrate"
       },
       {
         "level": "h3",
@@ -164,7 +177,7 @@
       },
       {
         "level": "h2",
-        "text": "Four steps. You stay in the review."
+        "text": "From your first enquiry to a confirmed service"
       },
       {
         "level": "h2",
@@ -192,7 +205,7 @@
       },
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h3",
@@ -253,6 +266,26 @@
       {
         "level": "h2",
         "text": "Date, venue and guest count is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Event catering Dubai: connect the food to the occasion"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

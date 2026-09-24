@@ -49,25 +49,38 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/FamilyFeastPackage.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 524,
+    "current_word_count": 1650,
     "headings": [
       {
         "level": "h2",
@@ -112,6 +125,38 @@
       {
         "level": "h2",
         "text": "Book the Family Feast Package"
+      },
+      {
+        "level": "h2",
+        "text": "Family catering Dubai: make sharing easy"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the support that makes hosting easier"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

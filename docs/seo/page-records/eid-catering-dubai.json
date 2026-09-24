@@ -45,27 +45,39 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/EidCatering.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 787,
-    "current_word_count": 797,
+    "current_word_count": 1592,
     "headings": [
       {
         "level": "h2",
-        "text": "Eid catering Dubai, cooked at your table"
+        "text": "Eid catering Dubai for a generous family gathering"
       },
       {
         "level": "h2",
@@ -117,11 +129,7 @@
       },
       {
         "level": "h2",
-        "text": "What a staffed Eid sitting includes"
-      },
-      {
-        "level": "h2",
-        "text": "How Eid catering looks in Dubai"
+        "text": "What a staffed Eid service includes"
       },
       {
         "level": "h2",
@@ -166,6 +174,30 @@
       {
         "level": "h2",
         "text": "Send which Eid, the guest count and the address"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare a welcoming meal for the way your family gathers"
+      },
+      {
+        "level": "h2",
+        "text": "Plan around the occasion and the date"
+      },
+      {
+        "level": "h2",
+        "text": "Review ingredient requirements across the whole menu"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

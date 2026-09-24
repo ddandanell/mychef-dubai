@@ -51,11 +51,20 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/corporate/CorporateQuoteNeeds.tsx",
     "src/components/corporate/CorporateSiblings.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateCluster.ts",
     "src/content/corporateEventPage.ts",
@@ -63,10 +72,13 @@
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -74,12 +86,13 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/CorporateEventCatering.tsx"
+    "src/pages/CorporateEventCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2505,
-    "current_word_count": 2509,
+    "current_word_count": 3144,
     "headings": [
       {
         "level": "h2",
@@ -220,6 +233,26 @@
       {
         "level": "h2",
         "text": "Tell Us About the Event"
+      },
+      {
+        "level": "h2",
+        "text": "Connect hospitality to the event programme"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

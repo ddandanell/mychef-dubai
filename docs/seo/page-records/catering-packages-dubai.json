@@ -48,15 +48,27 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/hubPages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/starterPackages.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -64,16 +76,17 @@
     "src/lib/utils.ts",
     "src/lib/whatsapp.ts",
     "src/pages/CateringPackages.tsx",
-    "src/sections/StarterPackagesSection.tsx"
+    "src/sections/StarterPackagesSection.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 760,
-    "current_word_count": 762,
+    "current_word_count": 1735,
     "headings": [
       {
         "level": "h2",
-        "text": "Four published totals, plus The Full Experience"
+        "text": "Starting packages and tailored event support"
       },
       {
         "level": "h2",
@@ -109,7 +122,7 @@
       },
       {
         "level": "h2",
-        "text": "Point us at the table. We will name the package."
+        "text": "Find a package that suits your occasion"
       },
       {
         "level": "h2",
@@ -118,6 +131,42 @@
       {
         "level": "h2",
         "text": "Date, guest count and area is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Catering packages Dubai: choose your starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Compare the complete proposal"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Plan quantities around the format, not just the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "A clear brief gives the menu a better starting point"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How to Compare Catering Quotes in Dubai"
       },
       {
         "level": "h2",
@@ -190,7 +239,13 @@
       }
     ],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/compare-catering-quotes-dubai",
+        "anchor": "How to Compare Catering Quotes in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

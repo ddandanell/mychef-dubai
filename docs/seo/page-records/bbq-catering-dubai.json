@@ -49,27 +49,39 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/BBQCatering.tsx"
+    "src/pages/BBQCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1898,
-    "current_word_count": 1894,
+    "current_word_count": 2563,
     "headings": [
       {
         "level": "h2",
-        "text": "What BBQ catering Dubai actually is"
+        "text": "BBQ catering Dubai with a complete service plan"
       },
       {
         "level": "h2",
@@ -121,11 +133,7 @@
       },
       {
         "level": "h2",
-        "text": "What sits in the BBQ quote"
-      },
-      {
-        "level": "h2",
-        "text": "Grill service in the room"
+        "text": "What your BBQ proposal includes"
       },
       {
         "level": "h2",
@@ -233,6 +241,34 @@
       },
       {
         "level": "h2",
+        "text": "Let the grill shape the menu and the schedule"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare the outdoor setting for food and service"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the buffet easy to approach and enjoy"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
+      },
+      {
+        "level": "h2",
         "text": "More in Catering"
       }
     ],
@@ -283,7 +319,13 @@
     "featured_children": [],
     "silo_index": [],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/outdoor-villa-catering-kitchen-dubai",
+        "anchor": "Outdoor Villa Catering Kitchen Planning in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/private-chef-dubai",

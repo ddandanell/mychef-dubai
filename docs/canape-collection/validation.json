@@ -1,0 +1,24 @@
+{
+  "title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
+  "h1": [
+    "Canapé Catering Dubai"
+  ],
+  "canonical": [
+    "https://www.mychef.ae/canape-catering-dubai"
+  ],
+  "cards": 50,
+  "faq": 20,
+  "words": 4742,
+  "overflow": false,
+  "mobileOverflow": false,
+  "interactions": "PASS: category/search/diet filters, collection deduplication, saved shortlist, quantity estimate, validation, encoded WhatsApp brief, clear",
+  "errors": [],
+  "verified_at": "2026-09-23",
+  "production_prerender": "passed",
+  "seo_contract": "passed",
+  "keyword_locks": "passed",
+  "unique_dishes": 50,
+  "original_images_including_hero": 51,
+  "responsive_webp_files": 103,
+  "image_bytes": 6397988
+}

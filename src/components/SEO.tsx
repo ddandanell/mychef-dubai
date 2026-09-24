@@ -43,9 +43,13 @@ export default function SEO({
   if (designImage && !pathname.startsWith('/blog/')) ogImage = chefImage(designImage)
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
-  if (pathname !== "/yachts" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
+  if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
   const jsonLd = assemblePageGraph(path, schema)
-  const auditOverride = SEO_AUDIT_OVERRIDES[path]
+  // Nested cluster pages (e.g. /private-chef-dubai/our-chefs) pass the parent URL as
+  // canonicalPath, so a canonicalPath-keyed lookup served them the parent's title and
+  // description — the duplicate-title / duplicate-description audit failure. The page's
+  // own pathname wins when it has its own override entry.
+  const auditOverride = SEO_AUDIT_OVERRIDES[pathname] ?? SEO_AUDIT_OVERRIDES[path]
   const effectiveTitle = auditOverride?.title || title
   const effectiveDescription = auditOverride?.description || description
 
@@ -106,7 +110,7 @@ export default function SEO({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={effectiveDescription} />
       <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={schema?.['@type'] === 'Article' || schema?.['@type'] === 'BlogPosting' ? 'article' : 'website'} />
       <meta property="og:locale" content="en_AE" />
       <meta property="og:site_name" content={SITE_NAME} />
 

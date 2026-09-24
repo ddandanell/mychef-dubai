@@ -1,0 +1,564 @@
+[
+  {
+    "id": "hero",
+    "slug": "canape-collection-hero",
+    "prompt": "Use case: photorealistic-natural. Create one landscape premium editorial food photograph for a myCHEF canapé catering website hero, 1536 by 1024 composition. A beautiful, entirely plausible selection of small canapés on four refined white ceramic plates over warm ivory limestone: tiny smoked salmon blinis with dill, miniature tomato and burrata tartlets, a few golden mushroom croquettes and jewel-like cucumber rounds with pink beetroot hummus. No large meals. Quietly luxurious restaurant food photography with natural afternoon side light, true food texture, delicate shadows, subtle linen at the edge. Camera three-quarter overhead. The food is the unmistakable main subject. Restrained styling, generous breathing room, no people, no skyline, no flowers on the food, no text, no logos, no watermark. Physically realistic ingredients and plate geometry. This is a menu concept illustration, not an image documenting a real event.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/canape-collection-hero-800.webp",
+      "/images/canape-collection/canape-collection-hero-1200.webp",
+      "/images/canape-collection/canape-collection-hero-1536.webp"
+    ]
+  },
+  {
+    "id": 1,
+    "slug": "smoked-salmon-blini",
+    "prompt": "Use case: photorealistic-natural. Asset type: square individual canapé menu photograph. Primary subject: Three small buckwheat blinis, each topped with a loose smoked salmon ribbon, a little dill cream and pickled shallot. All three examples are the SAME dish, physically realistic, genuinely one- or two-bite size. Premium editorial food photography on one minimal ivory ceramic plate over warm limestone, natural soft side light, accurate food texture and ingredients, restrained styling. Three-quarter overhead camera, square composition 1024x1024, enough depth of field to see ingredients. No other dish types, no people, no text, no logo, no watermark, no excessive garnishes, no edible gold. This is a menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/smoked-salmon-blini-480.webp",
+      "/images/canape-collection/smoked-salmon-blini-800.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "crab-green-apple-tartlet",
+    "prompt": "Use case: photorealistic-natural. Asset type: square individual canapé menu photograph. Primary subject: Three tiny fluted tart shells filled with white crab meat and finely diced green apple, a tiny chive garnish. All three examples are the SAME dish, physically realistic, genuinely one- or two-bite size. Premium editorial food photography on one minimal ivory ceramic plate over warm limestone, natural soft side light, accurate food texture and ingredients, restrained styling. Three-quarter overhead camera, square composition 1024x1024, enough depth of field to see ingredients. No other dish types, no people, no text, no logo, no watermark, no excessive garnishes, no edible gold. This is a menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/crab-green-apple-tartlet-480.webp",
+      "/images/canape-collection/crab-green-apple-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "citrus-prawn-cucumber-cup",
+    "prompt": "Use case: photorealistic-natural. Asset type: square individual canapé menu photograph. Primary subject: Three thick hollowed cucumber cups filled with avocado and one curled cooked pink prawn each, tiny grapefruit segments. All three examples are the SAME dish, physically realistic, genuinely one- or two-bite size. Premium editorial food photography on one minimal ivory ceramic plate over warm limestone, natural soft side light, accurate food texture and ingredients, restrained styling. Three-quarter overhead camera, square composition 1024x1024, enough depth of field to see ingredients. No other dish types, no people, no text, no logo, no watermark, no excessive garnishes, no edible gold. This is a menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/citrus-prawn-cucumber-cup-480.webp",
+      "/images/canape-collection/citrus-prawn-cucumber-cup-800.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "lobster-brioche-bite",
+    "prompt": "Use case: photorealistic-natural. Asset type: square individual canapé menu photograph. Primary subject: Three miniature split-top golden brioche rolls filled with visible butter-poached lobster pieces and finely cut chives. All three examples are the SAME dish, physically realistic, genuinely one- or two-bite size. Premium editorial food photography on one minimal ivory ceramic plate over warm limestone, natural soft side light, accurate food texture and ingredients, restrained styling. Three-quarter overhead camera, square composition 1024x1024, enough depth of field to see ingredients. No other dish types, no people, no text, no logo, no watermark, no excessive garnishes, no edible gold. This is a menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/lobster-brioche-bite-480.webp",
+      "/images/canape-collection/lobster-brioche-bite-800.webp"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "sesame-tuna-crisp",
+    "prompt": "Use case: photorealistic-natural. Asset type: square individual canapé menu photograph. Primary subject: Three delicate ivory rice crackers topped with fully cooked tuna cubes, sesame seeds and a tiny ginger and lime garnish. All three examples are the SAME dish, physically realistic, genuinely one- or two-bite size. Premium editorial food photography on one minimal ivory ceramic plate over warm limestone, natural soft side light, accurate food texture and ingredients, restrained styling. Three-quarter overhead camera, square composition 1024x1024, enough depth of field to see ingredients. No other dish types, no people, no text, no logo, no watermark, no excessive garnishes, no edible gold. This is a menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/sesame-tuna-crisp-480.webp",
+      "/images/canape-collection/sesame-tuna-crisp-800.webp"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "scallop-pea-spoon",
+    "prompt": "Use case: photorealistic-natural. Square editorial canapé photograph for a premium menu: Three white porcelain tasting spoons each holding a golden seared scallop on bright green pea puree, small lemon zest. Three examples of the SAME dish, genuinely one- or two-bite size, plausible restaurant presentation. Minimal ivory ceramic plate over warm limestone, soft natural side light, accurate ingredients, true food texture, restrained styling, three-quarter overhead camera, enough depth of field to see the food. No other dish types, no people, text, logo, watermark, edible gold or excessive garnishes. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/scallop-pea-spoon-480.webp",
+      "/images/canape-collection/scallop-pea-spoon-800.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "salt-cod-croquette",
+    "prompt": "Use case: photorealistic-natural. Square editorial canapé photograph for a premium menu: Three small golden oval cod croquettes with crisp breadcrumb texture, tiny saffron aioli dots and preserved lemon. Three examples of the SAME dish, genuinely one- or two-bite size, plausible restaurant presentation. Minimal ivory ceramic plate over warm limestone, soft natural side light, accurate ingredients, true food texture, restrained styling, three-quarter overhead camera, enough depth of field to see the food. No other dish types, no people, text, logo, watermark, edible gold or excessive garnishes. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/salt-cod-croquette-480.webp",
+      "/images/canape-collection/salt-cod-croquette-800.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "sea-bass-escabeche",
+    "prompt": "Use case: photorealistic-natural. Square editorial canapé photograph for a premium menu: Three white porcelain tasting spoons with small cooked white sea bass flakes, shaved fennel and orange segments. Three examples of the SAME dish, genuinely one- or two-bite size, plausible restaurant presentation. Minimal ivory ceramic plate over warm limestone, soft natural side light, accurate ingredients, true food texture, restrained styling, three-quarter overhead camera, enough depth of field to see the food. No other dish types, no people, text, logo, watermark, edible gold or excessive garnishes. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/sea-bass-escabeche-480.webp",
+      "/images/canape-collection/sea-bass-escabeche-800.webp"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "miso-salmon-rice-bite",
+    "prompt": "Use case: photorealistic-natural. Square editorial canapé photograph for a premium menu: Three compact rectangular pressed rice bites topped with caramelised roasted salmon, thin cucumber and black sesame seeds. Three examples of the SAME dish, genuinely one- or two-bite size, plausible restaurant presentation. Minimal ivory ceramic plate over warm limestone, soft natural side light, accurate ingredients, true food texture, restrained styling, three-quarter overhead camera, enough depth of field to see the food. No other dish types, no people, text, logo, watermark, edible gold or excessive garnishes. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/miso-salmon-rice-bite-480.webp",
+      "/images/canape-collection/miso-salmon-rice-bite-800.webp"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "caviar-potato-pave",
+    "prompt": "Use case: photorealistic-natural. Square editorial canapé photograph for a premium menu: Three neat golden layered potato pave cubes with small quenelles of cultured cream and modest black caviar pearls. Three examples of the SAME dish, genuinely one- or two-bite size, plausible restaurant presentation. Minimal ivory ceramic plate over warm limestone, soft natural side light, accurate ingredients, true food texture, restrained styling, three-quarter overhead camera, enough depth of field to see the food. No other dish types, no people, text, logo, watermark, edible gold or excessive garnishes. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/caviar-potato-pave-480.webp",
+      "/images/canape-collection/caviar-potato-pave-800.webp"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "beef-fillet-potato",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three rectangular crisp potato bites each topped with a slice of cooked beef fillet and a tiny horseradish cream dot. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/beef-fillet-potato-480.webp",
+      "/images/canape-collection/beef-fillet-potato-800.webp"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "mini-wagyu-slider",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny golden brioche sliders containing cooked beef patties, melted cheddar and caramelised onion jam, physically plausible small portions. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/mini-wagyu-slider-480.webp",
+      "/images/canape-collection/mini-wagyu-slider-800.webp"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "short-rib-tostada",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature crisp corn tostadas with shredded cooked short rib, avocado puree and one curl of pink pickled onion. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/short-rib-tostada-480.webp",
+      "/images/canape-collection/short-rib-tostada-800.webp"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "duck-plum-bao",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature folded white pancakes each showing tender cooked duck, neat cucumber batons and a small plum sauce glaze. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/duck-plum-bao-480.webp",
+      "/images/canape-collection/duck-plum-bao-800.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "chicken-tikka-tartlet",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small golden tartlets filled with cooked chicken tikka pieces, a mint yoghurt dot and pomegranate seeds. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/chicken-tikka-tartlet-480.webp",
+      "/images/canape-collection/chicken-tikka-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "lemon-chicken-skewer",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three short bamboo skewers each with two small grilled chicken cubes, light char, preserved lemon and oregano. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/lemon-chicken-skewer-480.webp",
+      "/images/canape-collection/lemon-chicken-skewer-800.webp"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "lamb-kofta-spoon",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three white porcelain tasting spoons each with one small grilled lamb kofta on labneh, pomegranate seeds and mint. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/lamb-kofta-spoon-480.webp",
+      "/images/canape-collection/lamb-kofta-spoon-800.webp"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "chicken-shawarma-cone",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three petite crisp flatbread cones filled with cooked sliced chicken shawarma, small garlic cream dots and pickled cucumber. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/chicken-shawarma-cone-480.webp",
+      "/images/canape-collection/chicken-shawarma-cone-800.webp"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "mini-beef-wellington",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature golden puff pastry beef Wellingtons, one neatly cut to reveal cooked beef and thin mushroom duxelles, no pork. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/mini-beef-wellington-480.webp",
+      "/images/canape-collection/mini-beef-wellington-800.webp"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "duck-croquette",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small round golden duck croquettes with realistic crumb texture and small dark sour cherry glaze dots. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/duck-croquette-480.webp",
+      "/images/canape-collection/duck-croquette-800.webp"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "truffled-mushroom-tartlet",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three petite fluted tartlets filled with sliced browned mushrooms, a small cream base and thyme, understated truffle garnish. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/truffled-mushroom-tartlet-480.webp",
+      "/images/canape-collection/truffled-mushroom-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "burrata-tomato-tart",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny tart shells with burrata, one red roasted cherry tomato half and a small vivid basil leaf each. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/burrata-tomato-tart-480.webp",
+      "/images/canape-collection/burrata-tomato-tart-800.webp"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "whipped-feta-fig",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small toasted crostini with whipped white feta, a fresh fig wedge and thyme leaves. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/whipped-feta-fig-480.webp",
+      "/images/canape-collection/whipped-feta-fig-800.webp"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "goats-cheese-beetroot",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small rye bread rounds topped with soft goat cheese, neat ruby beetroot cubes and orange zest. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/goats-cheese-beetroot-480.webp",
+      "/images/canape-collection/goats-cheese-beetroot-800.webp"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "halloumi-apricot-skewer",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three short bamboo picks holding grill-marked halloumi cubes and small apricot pieces with a very light honey glaze. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/halloumi-apricot-skewer-480.webp",
+      "/images/canape-collection/halloumi-apricot-skewer-800.webp"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "spinach-feta-cigar",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three slim miniature golden filo pastry cigars, one half cut to show green spinach and white feta filling. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/spinach-feta-cigar-480.webp",
+      "/images/canape-collection/spinach-feta-cigar-800.webp"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "wild-mushroom-arancini",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small golden risotto arancini with realistic bread crumbs, one open revealing creamy rice and brown mushroom pieces. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/wild-mushroom-arancini-480.webp",
+      "/images/canape-collection/wild-mushroom-arancini-800.webp"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "cheddar-chive-gougere",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small round golden cheese gougeres with airy choux texture and fine chives, one split slightly. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/cheddar-chive-gougere-480.webp",
+      "/images/canape-collection/cheddar-chive-gougere-800.webp"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "asparagus-ricotta-ribbon",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three compact grilled courgette ribbon rolls around asparagus tips and white lemon ricotta, elegantly standing on small plate. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/asparagus-ricotta-ribbon-480.webp",
+      "/images/canape-collection/asparagus-ricotta-ribbon-800.webp"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "sweetcorn-polenta-square",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small golden polenta squares topped with a little sweetcorn cream and tiny charred red pepper strips. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/sweetcorn-polenta-square-480.webp",
+      "/images/canape-collection/sweetcorn-polenta-square-800.webp"
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "beetroot-hummus-cucumber",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three fresh thick cucumber rounds each with a swirl of vivid pink beetroot hummus, a few pomegranate seeds and dill. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/beetroot-hummus-cucumber-480.webp",
+      "/images/canape-collection/beetroot-hummus-cucumber-800.webp"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "tomato-basil-tartlet",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny golden vegan tart shells filled with roasted red and yellow tomato pieces and small green basil cream dots. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/tomato-basil-tartlet-480.webp",
+      "/images/canape-collection/tomato-basil-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "watermelon-olive-jewel",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three clean ruby watermelon cubes topped with tiny black olive tapenade dots and single small mint leaves. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/watermelon-olive-jewel-480.webp",
+      "/images/canape-collection/watermelon-olive-jewel-800.webp"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "artichoke-white-bean-crostini",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small sourdough crostini topped with white bean puree, browned grilled artichoke quarters and fine lemon zest. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/artichoke-white-bean-crostini-480.webp",
+      "/images/canape-collection/artichoke-white-bean-crostini-800.webp"
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "king-oyster-mushroom-bao",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three very small fluffy folded white bao buns filled with seared king oyster mushroom slices and thin cucumber batons. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/king-oyster-mushroom-bao-480.webp",
+      "/images/canape-collection/king-oyster-mushroom-bao-800.webp"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "pulled-jackfruit-taco",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature crisp corn taco shells filled with shredded spiced jackfruit, avocado and pink pickled onion. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/pulled-jackfruit-taco-480.webp",
+      "/images/canape-collection/pulled-jackfruit-taco-800.webp"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "avocado-mango-cone",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three very small black nori cones with white sushi rice, green avocado and yellow mango cubes, tiny sesame garnish. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/avocado-mango-cone-480.webp",
+      "/images/canape-collection/avocado-mango-cone-800.webp"
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "chickpea-chaat-spoon",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three white porcelain tasting spoons with chickpea chaat, tiny pomegranate seeds, mint and delicate golden sev strands. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/chickpea-chaat-spoon-480.webp",
+      "/images/canape-collection/chickpea-chaat-spoon-800.webp"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "cauliflower-tahini-bite",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three white porcelain tasting spoons each holding a small golden roasted cauliflower floret on tahini with tiny sumac sprinkle. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/cauliflower-tahini-bite-480.webp",
+      "/images/canape-collection/cauliflower-tahini-bite-800.webp"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "miso-aubergine-cup",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small crisp baby gem lettuce cups filled with caramelised dark roasted aubergine cubes, sesame seeds and ginger. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. This recipe is entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic food and pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/miso-aubergine-cup-480.webp",
+      "/images/canape-collection/miso-aubergine-cup-800.webp"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "mango-coconut-cup",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny clear tasting glasses layered with white coconut cream and golden mango puree, small fresh mango cubes. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. Entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/mango-coconut-cup-480.webp",
+      "/images/canape-collection/mango-coconut-cup-800.webp"
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "strawberry-basil-pavlova",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature white pavlova nests with cream, one strawberry segment and a tiny fresh basil leaf each. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/strawberry-basil-pavlova-480.webp",
+      "/images/canape-collection/strawberry-basil-pavlova-800.webp"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "lemon-meringue-tartlet",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny golden tartlets with yellow lemon curd and elegantly toasted white meringue peaks. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/lemon-meringue-tartlet-480.webp",
+      "/images/canape-collection/lemon-meringue-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "passion-fruit-cheesecake",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three tiny cheesecake cubes with a thin golden biscuit base and yellow passion fruit topping with natural black seeds. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/passion-fruit-cheesecake-480.webp",
+      "/images/canape-collection/passion-fruit-cheesecake-800.webp"
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "dark-chocolate-sea-salt",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature dark chocolate tartlets with smooth glossy ganache surfaces and a few sea salt flakes. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/dark-chocolate-sea-salt-480.webp",
+      "/images/canape-collection/dark-chocolate-sea-salt-800.webp"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "pistachio-rose-tartlet",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three petite tartlets filled with pale green pistachio cream, chopped pistachios and one tiny dried rose petal each. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/pistachio-rose-tartlet-480.webp",
+      "/images/canape-collection/pistachio-rose-tartlet-800.webp"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "saffron-milk-cake",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three petite saffron golden sponge cake cubes on tiny individual white dishes, each with one small cream rosette. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/saffron-milk-cake-480.webp",
+      "/images/canape-collection/saffron-milk-cake-800.webp"
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "orange-almond-financier",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature rectangular golden almond financiers with browned edges, subtle orange zest and a thin almond flake. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/orange-almond-financier-480.webp",
+      "/images/canape-collection/orange-almond-financier-800.webp"
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "date-tahini-truffle",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three small hand-rolled dark chocolate coated date truffles dusted lightly with cocoa and a few sesame seeds. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients. Entirely vegan: no dairy, egg, honey or animal garnish. One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/date-tahini-truffle-480.webp",
+      "/images/canape-collection/date-tahini-truffle-800.webp"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "raspberry-vanilla-choux",
+    "prompt": "Photorealistic premium food photograph, square individual canapé menu asset. Three miniature golden choux buns filled with vanilla cream, each crowned with one fresh red raspberry. Three examples of the SAME recipe, each genuinely bite-size, with physically plausible ingredients.  One minimal ivory ceramic plate on warm limestone, soft natural side light, three-quarter overhead camera, realistic pastry textures, elegant restrained styling, sufficient depth of field. No other dishes, no people, no text, no logos, no watermark, no gold leaf, no excessive garnish. Menu concept illustration.",
+    "generator": "built-in image_gen",
+    "kind": "AI-created menu illustration",
+    "files": [
+      "/images/canape-collection/raspberry-vanilla-choux-480.webp",
+      "/images/canape-collection/raspberry-vanilla-choux-800.webp"
+    ]
+  }
+]

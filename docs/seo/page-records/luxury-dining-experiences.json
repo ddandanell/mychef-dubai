@@ -50,25 +50,38 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/experiencesCluster.ts",
     "src/content/luxuryDiningPage.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/LuxuryDining.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3697,
-    "current_word_count": 3529,
+    "current_word_count": 4955,
     "headings": [
       {
         "level": "h2",
@@ -276,7 +289,39 @@
       },
       {
         "level": "h2",
-        "text": "Everything in Dining Experiences"
+        "text": "A private dining experience with your preferences at its centre"
+      },
+      {
+        "level": "h2",
+        "text": "Choose the atmosphere before adding the extras"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Design the evening around how you want to host"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Make the table work as well as it looks"
+      },
+      {
+        "level": "h2",
+        "text": "Let ingredient choices support the cooking"
+      },
+      {
+        "level": "h2",
+        "text": "Match the service to the way your guests gather"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

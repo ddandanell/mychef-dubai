@@ -24,6 +24,7 @@ SITE = 'https://www.mychef.ae'
 parser = argparse.ArgumentParser()
 parser.add_argument('--html-dir', default='.blog-audit/rendered')
 parser.add_argument('--live', action='store_true')
+parser.add_argument('--check-targets', action='store_true', help='Verify local HTML for linked service pages and topic hubs too')
 parser.add_argument('--output', default='.blog-audit/report.json')
 args = parser.parse_args()
 routes = set(re.findall(r'path: ["\'](/blog/[^"\':]+)["\']', (ROOT / 'src/routes.tsx').read_text()))
@@ -59,6 +60,7 @@ records = []
 image_owners = defaultdict(set)
 image_fingerprints = {}
 targets = defaultdict(set)
+local_target_checks = {}
 image_urls = set()
 for route in sorted(routes):
     soup = documents[route]
@@ -112,6 +114,20 @@ for route in sorted(routes):
                 issues.append(f'{route}: broken article section link: {raw}')
         elif args.live:
             targets[SITE + path].add(urllib.parse.unquote(url.fragment))
+        elif args.check_targets:
+            target_file = html_dir / ('index.html' if path == '/blog' else 'targets/' + urllib.parse.quote(path, safe='') + '.html')
+            if path not in local_target_checks:
+                if not target_file.exists():
+                    issues.append(f'{route}: missing rendered destination: {raw}')
+                    local_target_checks[path] = None
+                else:
+                    destination = BeautifulSoup(target_file.read_text(), 'html.parser')
+                    local_target_checks[path] = {tag['id'] for tag in destination.select('[id]')}
+                    if not destination.select_one('main h1'):
+                        issues.append(f'{path}: destination has no main heading')
+            target_ids = local_target_checks[path]
+            if target_ids is not None and url.fragment and urllib.parse.unquote(url.fragment) not in target_ids:
+                issues.append(f'{route}: broken destination section link: {raw}')
         links.append(raw)
     paragraphs = [p for p in main.select('article p, [data-chef-expansion] .pc-reading-copy > p') if not p.find_parent(['nav', 'aside', 'figcaption']) and not p.find_parent(attrs={'data-blog-related': True})]
     linked = [i for i, p in enumerate(paragraphs) if any(a.get('href', '').startswith(('/', SITE)) for a in p.select('a[href]'))]
@@ -170,6 +186,8 @@ if args.live:
                     issues.append(f'{url}#{anchor}: missing destination section')
 
 report = {'mode': 'live' if args.live else 'local', 'article_count': len(records), 'unique_article_images': len(image_owners), 'internal_link_count': sum(r['internal_links'] for r in records), 'issues': issues, 'pages': records, 'index_cards': index_cards, 'remote_checks': remote_results}
+if args.check_targets:
+    report['local_destination_checks'] = sorted(local_target_checks)
 output = Path(args.output)
 output.parent.mkdir(parents=True, exist_ok=True)
 output.write_text(json.dumps(report, indent=2) + '\n')

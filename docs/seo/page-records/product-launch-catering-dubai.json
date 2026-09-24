@@ -44,31 +44,43 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/ProductLaunchCatering.tsx"
+    "src/pages/ProductLaunchCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1046,
-    "current_word_count": 1050,
+    "current_word_count": 1680,
     "headings": [
       {
         "level": "h2",
@@ -128,7 +140,7 @@
       },
       {
         "level": "h2",
-        "text": "Trusted Across Dubai Sectors"
+        "text": "Catering for different launch settings"
       },
       {
         "level": "h3",
@@ -161,10 +173,6 @@
       {
         "level": "h2",
         "text": "What's Included"
-      },
-      {
-        "level": "h2",
-        "text": "Launch Moments we coordinate catering for"
       },
       {
         "level": "h2",
@@ -205,6 +213,26 @@
       {
         "level": "h2",
         "text": "Ready to Launch?"
+      },
+      {
+        "level": "h2",
+        "text": "Keep the reveal at the centre of the plan"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Match the bites to the length of the reception"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

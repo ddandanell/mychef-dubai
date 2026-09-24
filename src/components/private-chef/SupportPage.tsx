@@ -31,7 +31,7 @@ const pages = {
   },
   matching: {
     path:'/private-chef-dubai/our-chefs', canonical:'/our-chefs', noindex:true,
-    title:'Chef Selection & Matching | myCHEF', h1:'The right chef. The right fit for your home.',
+    title:'Chef Selection & Matching Process | myCHEF', h1:'The right chef. The right fit for your home.',
     intro:'Cooking ability is the starting point. We also consider the cuisines you love, your household routine and the kind of service you want at home.',
     eyebrow:'A considered introduction',heading:'We get to know both sides of the kitchen.',image:'craft' as ChefImageKey,
     body:'We review identity and right-to-work documents, practical cooking ability, references and food hygiene awareness. Matching then brings those checks together with your brief, schedule and kitchen.',

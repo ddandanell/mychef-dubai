@@ -50,34 +50,47 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/EventPathway.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/content/weddingCateringPage.ts",
     "src/content/weddingCluster.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/WeddingCatering.tsx"
+    "src/pages/WeddingCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3107,
-    "current_word_count": 3102,
+    "current_word_count": 3716,
     "headings": [
       {
         "level": "h2",
-        "text": "Wedding catering Dubai is the meal, not the rest of the day"
+        "text": "Wedding catering Dubai, thoughtfully coordinated"
       },
       {
         "level": "h2",
-        "text": "The catering. Not the whole wedding."
+        "text": "A clear scope for your wedding catering"
       },
       {
         "level": "h2",
@@ -185,7 +198,7 @@
       },
       {
         "level": "h2",
-        "text": "A wedding format we have run"
+        "text": "A villa wedding menu to inspire your plans"
       },
       {
         "level": "h3",
@@ -193,7 +206,7 @@
       },
       {
         "level": "h2",
-        "text": "Standards you can open, not slogans"
+        "text": "Explore our service approach"
       },
       {
         "level": "h3",
@@ -225,7 +238,7 @@
       },
       {
         "level": "h3",
-        "text": "What does myCHEF actually do — are you the caterer?"
+        "text": "How does myCHEF coordinate the wedding catering?"
       },
       {
         "level": "h3",
@@ -258,6 +271,34 @@
       {
         "level": "h2",
         "text": "Date, venue and guest count is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Create a meal that feels like part of your wedding"
+      },
+      {
+        "level": "h2",
+        "text": "Connect the wedding meal with the celebration around it"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Menu Tasting in Dubai: Questions to Ask"
       },
       {
         "level": "h2",
@@ -335,6 +376,11 @@
       {
         "url": "/blog/wedding-catering-cost-dubai",
         "anchor": "Wedding catering cost",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/wedding-menu-tasting-dubai",
+        "anchor": "Wedding Menu Tasting in Dubai: Questions to Ask",
         "alt_anchors": []
       }
     ],

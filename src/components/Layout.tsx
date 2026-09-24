@@ -7,9 +7,9 @@ import SiloTrail from './SiloTrail'
 import SiloChildren from './SiloChildren'
 import Footer from './Footer'
 import SiloSection from './SiloSection'
+import BlogPlanningLinks from './BlogPlanningLinks'
 import FloatingChefChat from './FloatingChefChat'
 import SeoHead from './SeoHead'
-import ScrollManager from './ScrollManager'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
 import { preloadRoute } from '@/routes'
 import { isChefDesignPage } from '@/content/privateChefDesign'
@@ -21,6 +21,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
+  const isCanape = pathname === '/canape-catering-dubai'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])
@@ -44,16 +45,16 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''}`}>
-      <ScrollManager />
+    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
-          {!isChefDesignPage(pathname) && <SiloChildren />}
+          {!isCanape && <BlogPlanningLinks />}
+          {!isCanape && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>
-        {!isChefDesignPage(pathname) && <SiloSection />}
+        {!isCanape && !isChefDesignPage(pathname) && <SiloSection />}
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />

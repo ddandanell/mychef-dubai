@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "reviewed_at": "2026-09-22",
   "counts": {
-    "indexable page": 155,
+    "indexable page": 173,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 302,
+  "total": 320,
   "records": [
     {
       "path": "/",
@@ -170,6 +170,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "file": "blog__best-cocktail-party-catering-companies-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/best-corporate-event-catering-companies-in-dubai",
       "file": "blog__best-corporate-event-catering-companies-in-dubai.json",
       "primary_keyword": "best corporate catering companies in dubai",
@@ -182,6 +189,20 @@
       "primary_keyword": "corporate catering lunch",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/best-desert-dining-catering-companies-in-dubai",
+      "file": "blog__best-desert-dining-catering-companies-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/best-drop-off-catering-services-in-dubai",
+      "file": "blog__best-drop-off-catering-services-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/best-grazing-table-catering-companies-in-dubai",
@@ -289,6 +310,34 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/buffet-layout-planning-dubai",
+      "file": "blog__buffet-layout-planning-dubai.json",
+      "primary_keyword": "buffet layout planning in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/canape-reception-planning-dubai",
+      "file": "blog__canape-reception-planning-dubai.json",
+      "primary_keyword": "canapé reception planning in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/christmas-lunch-at-home-planning-dubai",
+      "file": "blog__christmas-lunch-at-home-planning-dubai.json",
+      "primary_keyword": "christmas lunch at home in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/compare-catering-quotes-dubai",
+      "file": "blog__compare-catering-quotes-dubai.json",
+      "primary_keyword": "compare catering quotes in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/corporate-catering-full-service-vs-drop-off",
       "file": "blog__corporate-catering-full-service-vs-drop-off.json",
       "primary_keyword": "full service vs drop off catering dubai",
@@ -317,6 +366,20 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/dinner-party-timeline-dubai",
+      "file": "blog__dinner-party-timeline-dubai.json",
+      "primary_keyword": "dinner party timeline in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/diwali-party-at-home-planning-dubai",
+      "file": "blog__diwali-party-at-home-planning-dubai.json",
+      "primary_keyword": "diwali party at home in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/dubai-school-food-rules-2026",
       "file": "blog__dubai-school-food-rules-2026.json",
       "primary_keyword": "dubai school food rules 2026",
@@ -335,6 +398,13 @@
       "file": "blog__halal-private-dining-dubai-what-to-ask.json",
       "primary_keyword": "what to ask a halal caterer dubai",
       "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/household-menu-brief-dubai",
+      "file": "blog__household-menu-brief-dubai.json",
+      "primary_keyword": "household menu brief",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
@@ -373,6 +443,20 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/kids-and-adults-party-menu-dubai",
+      "file": "blog__kids-and-adults-party-menu-dubai.json",
+      "primary_keyword": "kids and adults party menu",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/mixed-diet-dinner-party-dubai",
+      "file": "blog__mixed-diet-dinner-party-dubai.json",
+      "primary_keyword": "mixed-diet dinner party in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
       "file": "blog__nursery-meals-vs-packed-lunch-dubai.json",
       "primary_keyword": "nursery provided meals vs packed lunch dubai",
@@ -394,6 +478,20 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/office-breakfast-planning-dubai",
+      "file": "blog__office-breakfast-planning-dubai.json",
+      "primary_keyword": "office breakfast planning in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/outdoor-villa-catering-kitchen-dubai",
+      "file": "blog__outdoor-villa-catering-kitchen-dubai.json",
+      "primary_keyword": "outdoor villa catering kitchen",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/private-chef-date-night-dubai",
       "file": "blog__private-chef-date-night-dubai.json",
       "primary_keyword": "private chef date night dubai",
@@ -401,9 +499,23 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/private-chef-kitchen-preparation-dubai",
+      "file": "blog__private-chef-kitchen-preparation-dubai.json",
+      "primary_keyword": "private chef kitchen preparation in dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/private-chef-palm-jumeirah-guide",
       "file": "blog__private-chef-palm-jumeirah-guide.json",
       "primary_keyword": "private dining palm jumeirah dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chef-trial-dubai",
+      "file": "blog__private-chef-trial-dubai.json",
+      "primary_keyword": "private chef trial in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -419,6 +531,13 @@
       "file": "blog__ramadan-iftar-catering-trends-2026.json",
       "primary_keyword": "ramadan catering trends dubai 2026",
       "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/three-hour-yacht-party-food-timeline-dubai",
+      "file": "blog__three-hour-yacht-party-food-timeline-dubai.json",
+      "primary_keyword": "yacht party food timeline",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
@@ -481,6 +600,13 @@
       "path": "/blog/wedding-catering-cost-dubai",
       "file": "blog__wedding-catering-cost-dubai.json",
       "primary_keyword": "wedding catering cost dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/wedding-menu-tasting-dubai",
+      "file": "blog__wedding-menu-tasting-dubai.json",
+      "primary_keyword": "wedding menu tasting in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },

@@ -48,35 +48,48 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/Cuisines.tsx"
+    "src/pages/Cuisines.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1105,
-    "current_word_count": 1091,
+    "current_word_count": 1736,
     "headings": [
       {
         "level": "h2",
-        "text": "What multi cuisine catering Dubai actually covers"
+        "text": "Multi cuisine catering Dubai with a balanced menu"
       },
       {
         "level": "h2",
-        "text": "Two families. Two kitchens. One team."
+        "text": "Different culinary traditions, one considered occasion"
       },
       {
         "level": "h2",
-        "text": "Pick the kitchen. Open that page for the menu."
+        "text": "Explore the cuisines your guests enjoy"
       },
       {
         "level": "h3",
@@ -100,15 +113,15 @@
       },
       {
         "level": "h2",
-        "text": "If the brief is the diet, not the kitchen"
+        "text": "Menus shaped by dietary requirements"
       },
       {
         "level": "h2",
-        "text": "Four steps. You stay in the review."
+        "text": "From your first enquiry to a confirmed service"
       },
       {
         "level": "h2",
-        "text": "Cuisine does not set a separate ladder"
+        "text": "Pricing reflects the menu and service format"
       },
       {
         "level": "h2",
@@ -157,6 +170,34 @@
       {
         "level": "h2",
         "text": "Date, guest mix and the kitchens you want is enough"
+      },
+      {
+        "level": "h2",
+        "text": "Create variety without losing the direction of the meal"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
       },
       {
         "level": "h2",
@@ -257,7 +298,13 @@
       }
     ],
     "commercial_owners": [],
-    "supporting_guides": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/mixed-diet-dinner-party-dubai",
+        "anchor": "A Mixed-Diet Dinner Party in Dubai: Menu Planning",
+        "alt_anchors": []
+      }
+    ],
     "cross_silo": [
       {
         "url": "/catering-dubai",

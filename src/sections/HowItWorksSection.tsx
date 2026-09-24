@@ -9,22 +9,22 @@ const steps = [
   {
     number: '01',
     title: 'Tell us the job',
-    description: "Share your household routine or event plans, address, guest count and food preferences by form or WhatsApp.",
+    description: 'Household rhythm or one event, guest count, the address, and how you like to eat. Form or WhatsApp.',
   },
   {
     number: '02',
     title: 'We match a chef and send a written plan',
-    description: "We develop the menu with you and recommend a chef whose cooking suits your preferences.",
+    description: 'The menu is shaped around your tastes and your guests. Then we choose the chef whose cooking fits it.',
   },
   {
     number: '03',
     title: 'They cook in your kitchen',
-    description: "Your proposal sets out the menu, kitchen requirements and level of service for your home or event.",
+    description: 'Food is cooked in the kitchen you already have, with the service sized to the night or the week.',
   },
   {
     number: '04',
     title: 'You stay with your people. We leave it handled.',
-    description: "Your chef prepares the meal and clears the kitchen, leaving you free to enjoy the company.",
+    description: 'Guests or family are looked after, and the kitchen is left as we found it.',
   },
 ]
 
@@ -72,10 +72,10 @@ export default function HowItWorksSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel>How It Works</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-black mb-5">
-            From your first idea to a beautifully served meal.
+            Tell us the job. We build the menu, the chef and the service around it.
           </h2>
           <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
-            A straightforward process for household chef plans and event catering in Dubai.
+            A household chef or event catering in Dubai, from the first message to the kitchen left clean.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function HowItWorksSection() {
           <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-cream">
             Request your quote
           </Link>
-          <p className="font-inter text-body-sm text-gray-500">Review the scope and price in writing before confirming your booking.</p>
+          <p className="font-inter text-body-sm text-gray-500">The price is agreed in your proposal, before the day.</p>
         </div>
       </div>
     </section>

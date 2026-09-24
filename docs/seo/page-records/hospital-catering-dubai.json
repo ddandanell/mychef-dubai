@@ -47,94 +47,107 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/hospitalCateringPage.tsx",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/HospitalCatering.tsx"
+    "src/pages/HospitalCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1357,
-    "current_word_count": 1351,
+    "current_word_count": 1924,
     "headings": [
       {
         "level": "h2",
-        "text": "Hospital catering Dubai is won in the staff cafeteria first"
+        "text": "Hospital catering Dubai for clearly defined service needs"
       },
       {
         "level": "h2",
-        "text": "Staff dining, then wards: not the other way round"
+        "text": "Separate plans for staff, visitors and patients"
       },
       {
         "level": "h3",
-        "text": "Staff cafeteria as the first contract"
+        "text": "Staff dining across shifts"
       },
       {
         "level": "h3",
-        "text": "Visitor dining that is still a kitchen"
+        "text": "Visitor dining"
       },
       {
         "level": "h3",
-        "text": "Patient meals only with a diet list"
+        "text": "Clinically specified patient meals"
       },
       {
         "level": "h3",
-        "text": "Halal and allergen labelling"
+        "text": "Dietary information and identification"
       },
       {
         "level": "h3",
-        "text": "Timing is the product"
+        "text": "Reliable service windows"
       },
       {
         "level": "h3",
-        "text": "Papers before poetry"
+        "text": "Procurement documentation"
       },
       {
         "level": "h2",
-        "text": "Therapeutic diet meals Dubai: what the card has to say"
+        "text": "Define the meal service before developing menus"
       },
       {
         "level": "h2",
-        "text": "What hospital catering services Dubai have to show"
+        "text": "Documentation and responsibilities to confirm"
       },
       {
         "level": "h2",
-        "text": "Four steps. Procurement sees the file."
+        "text": "A practical process for procurement review"
       },
       {
         "level": "h2",
-        "text": "How a hospital quote is built"
+        "text": "How a hospital catering quote is built"
       },
       {
         "level": "h2",
-        "text": "The cafeteria is the proof"
+        "text": "Related planning for your facility"
       },
       {
         "level": "h3",
-        "text": "Canteen management is the sister brief"
+        "text": "Canteen management"
       },
       {
         "level": "h3",
-        "text": "How culinary partners are selected"
+        "text": "Culinary partner selection"
       },
       {
         "level": "h3",
-        "text": "Halal-first"
+        "text": "Halal catering"
       },
       {
         "level": "h3",
-        "text": "Allergy-safe production"
+        "text": "Institutional catering"
       },
       {
         "level": "h2",
@@ -142,39 +155,27 @@
       },
       {
         "level": "h3",
-        "text": "Do you do patient meals from day one?"
+        "text": "Can staff dining and patient meals be included in one request?"
       },
       {
         "level": "h3",
-        "text": "Are you HACCP certified?"
+        "text": "How are certifications verified?"
       },
       {
         "level": "h3",
-        "text": "Can you handle diabetic, renal and texture-modified diets?"
+        "text": "Can therapeutic or texture-modified meals be considered?"
       },
       {
         "level": "h3",
-        "text": "Is this the same as a staff canteen?"
+        "text": "Can you assess a clinic dining service?"
       },
       {
         "level": "h3",
-        "text": "Do you serve clinics and day-surgery centres?"
+        "text": "Who approves patient menus?"
       },
       {
         "level": "h3",
-        "text": "What about care homes?"
-      },
-      {
-        "level": "h3",
-        "text": "How do you keep food safe in transit?"
-      },
-      {
-        "level": "h3",
-        "text": "Do you put food in the ward next to monitors?"
-      },
-      {
-        "level": "h3",
-        "text": "How is this priced?"
+        "text": "How are delivery and handover planned?"
       },
       {
         "level": "h3",
@@ -183,6 +184,26 @@
       {
         "level": "h2",
         "text": "Site, covers and whether this is staff or wards"
+      },
+      {
+        "level": "h2",
+        "text": "Define staff dining and patient meals separately"
+      },
+      {
+        "level": "h2",
+        "text": "Map the operation by service and shift"
+      },
+      {
+        "level": "h2",
+        "text": "Keep clinical decisions with the responsible team"
+      },
+      {
+        "level": "h2",
+        "text": "Review the proposal as an operating agreement"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       }
     ],
     "baseline_findings": [

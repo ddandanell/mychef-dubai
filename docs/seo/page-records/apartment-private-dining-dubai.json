@@ -30,7 +30,7 @@
     "title": "Private Chef for Apartment Dubai | From AED 1,200 | myCHEF",
     "description": "Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%.",
     "h1": [
-      "Private Chef for Apartment Dubai: one night in your kitchen"
+      "Private Chef for Apartment Dubai. A beautiful dinner, in your own space."
     ]
   },
   "metadata_source": "local production prerender",
@@ -42,24 +42,39 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/ApartmentPrivateDining.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 695,
-    "current_word_count": 669,
+    "current_word_count": 2090,
     "headings": [
       {
         "level": "h2",
@@ -139,7 +154,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Dining Experiences"
+        "text": "An apartment dinner with the comfort of home"
+      },
+      {
+        "level": "h2",
+        "text": "Plan for your apartment, not an imaginary restaurant kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Use a compact kitchen to its strengths"
+      },
+      {
+        "level": "h2",
+        "text": "Make home and building access straightforward"
+      },
+      {
+        "level": "h2",
+        "text": "Choose courses that belong together"
+      },
+      {
+        "level": "h2",
+        "text": "Give every person in the service a clear role"
+      },
+      {
+        "level": "h2",
+        "text": "Make the table work as well as it looks"
+      },
+      {
+        "level": "h2",
+        "text": "Design the evening around how you want to host"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

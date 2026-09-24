@@ -46,21 +46,34 @@
     "src/components/HandoffPage.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-private-chef-vs-restaurant-dubai.json",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts"
+    "src/lib/utils.ts",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 491,
+    "current_word_count": 607,
     "headings": [
       {
         "level": "h2",
@@ -89,6 +102,22 @@
       {
         "level": "h2",
         "text": "Sources and further reading"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
       },
       {
         "level": "h2",

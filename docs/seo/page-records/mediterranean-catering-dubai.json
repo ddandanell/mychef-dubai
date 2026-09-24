@@ -49,26 +49,38 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/MediterraneanCatering.tsx"
+    "src/pages/MediterraneanCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2280,
-    "current_word_count": 2290,
+    "current_word_count": 2894,
     "headings": [
       {
         "level": "h2",
-        "text": "Greek, coastal, vegetable-forward. Heat when the room allows."
+        "text": "Fresh, regional dishes inspired by Mediterranean cooking"
       },
       {
         "level": "h2",
@@ -121,10 +133,6 @@
       {
         "level": "h2",
         "text": "What Our Mediterranean Catering Includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Our Mediterranean Catering"
       },
       {
         "level": "h2",
@@ -233,6 +241,26 @@
       {
         "level": "h2",
         "text": "Send the coastal brief with the date"
+      },
+      {
+        "level": "h2",
+        "text": "Build a bright, balanced menu for sharing or courses"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare the outdoor setting for food and service"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

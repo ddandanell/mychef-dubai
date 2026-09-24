@@ -46,13 +46,25 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/starterPackages.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -61,12 +73,13 @@
     "src/lib/whatsapp.ts",
     "src/pages/Menus.tsx",
     "src/sections/StarterPackagesSection.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1010,
-    "current_word_count": 1019,
+    "current_word_count": 1636,
     "headings": [
       {
         "level": "h2",
@@ -102,7 +115,7 @@
       },
       {
         "level": "h2",
-        "text": "Starts by format, same as the hub"
+        "text": "Catering starting prices by service format"
       },
       {
         "level": "h3",
@@ -122,11 +135,11 @@
       },
       {
         "level": "h2",
-        "text": "A sample evening, not a printed list"
+        "text": "Sample menus to shape your own evening"
       },
       {
         "level": "h2",
-        "text": "Diets go on the first draft"
+        "text": "Dietary requirements included from the start"
       },
       {
         "level": "h2",
@@ -139,6 +152,26 @@
       {
         "level": "h2",
         "text": "Send the occasion and the guest list"
+      },
+      {
+        "level": "h2",
+        "text": "Use the sample as a conversation starter"
+      },
+      {
+        "level": "h2",
+        "text": "Give the menu a clear direction"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a regional direction before expanding the selection"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

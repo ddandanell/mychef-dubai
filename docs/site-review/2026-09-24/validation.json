@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-24",
+  "checks": {
+    "one_h1": true,
+    "title_preserved": true,
+    "h1_preserved": true,
+    "description_preserved": true,
+    "canonical_preserved": true,
+    "robots_preserved": true,
+    "images_preserved": true,
+    "enquiry_and_whatsapp_destinations_preserved": true,
+    "new_dining_link_live": true,
+    "response_hours_pending": true
+  },
+  "passed": [
+    "TypeScript and Vite production build",
+    "SEO contract: 260 URLs; 163 unique primaries",
+    "Keyword locks: 158 page files and 217 module entries",
+    "URL stability: 260 frozen URLs",
+    "Catering pricing",
+    "Catering inquiry transfer",
+    "FAQ structured data",
+    "Yacht quote arithmetic",
+    "Conversion event classification",
+    "React server-render: 231 routes"
+  ],
+  "limitations": [
+    "Full Chromium prerender blocked by environment chown EINVAL for /tmp/fonts.",
+    "Birthday extras test: pre-existing wording assertion fails (villa band is typical not floor); its dependency files are unchanged.",
+    "Phone/desktop before/after visual approval and live event firing remain release gates.",
+    "No form or WhatsApp message submitted.",
+    "No production deployment."
+  ]
+}

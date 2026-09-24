@@ -47,6 +47,10 @@
     "src/components/FaqAccordion.tsx",
     "src/components/SEO.tsx",
     "src/components/YachtCateringEstimator.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/components/yachts/YachtFullService.tsx",
     "src/components/yachts/YachtHero.tsx",
@@ -57,14 +61,21 @@
     "src/components/yachts/YachtServiceSelector.tsx",
     "src/components/yachts/YachtStickyCta.tsx",
     "src/components/yachts/YachtWorkGallery.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/content/yachtCateringQuote.ts",
     "src/content/yachtInventory.ts",
     "src/content/yachtPage.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -72,12 +83,13 @@
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
     "src/pages/Yachts.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 5602,
-    "current_word_count": 5471,
+    "current_word_count": 5941,
     "headings": [
       {
         "level": "h2",
@@ -121,7 +133,7 @@
       },
       {
         "level": "h2",
-        "text": "See a yacht day we already ran"
+        "text": "A birthday celebration on the water"
       },
       {
         "level": "h3",
@@ -129,11 +141,11 @@
       },
       {
         "level": "h3",
-        "text": "How we load it"
+        "text": "Preparation and service"
       },
       {
         "level": "h3",
-        "text": "What you are looking at"
+        "text": "The finishing details"
       },
       {
         "level": "h2",
@@ -157,7 +169,7 @@
       },
       {
         "level": "h2",
-        "text": "Compact live stations that actually fit the deck"
+        "text": "Compact live stations suited to the deck"
       },
       {
         "level": "h3",
@@ -181,7 +193,7 @@
       },
       {
         "level": "h2",
-        "text": "A buffet that waiters actually run"
+        "text": "A buffet with coordinated service"
       },
       {
         "level": "h3",
@@ -201,7 +213,7 @@
       },
       {
         "level": "h2",
-        "text": "Desserts that survive a moving deck"
+        "text": "Desserts selected for onboard service"
       },
       {
         "level": "h3",
@@ -261,7 +273,7 @@
       },
       {
         "level": "h2",
-        "text": "Yacht-safe styling — not a ballroom install"
+        "text": "Styling suited to the yacht"
       },
       {
         "level": "h3",
@@ -269,7 +281,7 @@
       },
       {
         "level": "h2",
-        "text": "Marina loading is part of the service, not an extra you invent on the day"
+        "text": "Marina loading planned before the charter"
       },
       {
         "level": "h3",
@@ -277,7 +289,7 @@
       },
       {
         "level": "h2",
-        "text": "Dietaries collected before we cook — not announced at the gangway"
+        "text": "Dietary requirements confirmed before preparation"
       },
       {
         "level": "h3",
@@ -509,6 +521,34 @@
       },
       {
         "level": "h2",
+        "text": "Plan the meal around the vessel and itinerary"
+      },
+      {
+        "level": "h2",
+        "text": "Make the venue part of the catering conversation"
+      },
+      {
+        "level": "h2",
+        "text": "List the equipment before calling the plan complete"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
+      },
+      {
+        "level": "h2",
         "text": "More in Catering"
       }
     ],
@@ -562,6 +602,11 @@
       {
         "url": "/blog/yacht-party-menu-ideas-dubai",
         "anchor": "Yacht party menu ideas",
+        "alt_anchors": []
+      },
+      {
+        "url": "/blog/three-hour-yacht-party-food-timeline-dubai",
+        "anchor": "A Yacht Party Food Timeline for Three Hours in Dubai",
         "alt_anchors": []
       }
     ],

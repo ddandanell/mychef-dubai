@@ -50,36 +50,48 @@
     "src/components/LocationStrip.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/corporate/CorporateWorkedBudgets.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
-    "src/pages/BusinessLunchCatering.tsx"
+    "src/pages/BusinessLunchCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1813,
-    "current_word_count": 1807,
+    "current_word_count": 2436,
     "headings": [
       {
         "level": "h2",
-        "text": "Business lunch catering Dubai that stays in the room"
+        "text": "Business lunch catering Dubai around your meeting"
       },
       {
         "level": "h2",
@@ -103,7 +115,7 @@
       },
       {
         "level": "h3",
-        "text": "Working lunch versus a client sitting"
+        "text": "Working lunches and client dining"
       },
       {
         "level": "h2",
@@ -155,7 +167,7 @@
       },
       {
         "level": "h3",
-        "text": "Leadership sitting"
+        "text": "Leadership dinner"
       },
       {
         "level": "h3",
@@ -188,10 +200,6 @@
       {
         "level": "h2",
         "text": "What Our Business Lunch Catering Includes"
-      },
-      {
-        "level": "h2",
-        "text": "A Taste of Our Business Lunches"
       },
       {
         "level": "h2",
@@ -236,6 +244,26 @@
       {
         "level": "h2",
         "text": "Plan Your Business Lunch"
+      },
+      {
+        "level": "h2",
+        "text": "Protect the meeting time and the dining experience"
+      },
+      {
+        "level": "h2",
+        "text": "Keep catering aligned with the business agenda"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Make the delivery handover clear"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

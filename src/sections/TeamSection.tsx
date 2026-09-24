@@ -65,19 +65,19 @@ export default function TeamSection() {
           >
             <SectionLabel tone="dark">The Chefs We Choose</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-              Good hospitality begins with the right people.
+              The chef matters. How we choose one matters more.
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              Meet the culinary professionals behind our private dining experiences. Each brings a distinct approach to flavour, technique and the pleasure of sharing a meal.
+              Our chefs bring decades in European and international kitchens into homes across Dubai. Every menu is designed for the people it is cooked for.
             </p>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-6 max-w-lg">
-              Chefs, pastry specialists and service staff are selected for the role your booking requires. Client feedback helps us assess the quality of their work over time.
+              Chefs, sous chefs, pastry specialists and service staff — every one of them vetted before they cook for you, and scored by the homes they cook in afterwards.
             </p>
             <p className="font-playfair text-h4 text-white leading-snug mb-8 max-w-lg border-l-2 border-gold pl-5">
-              We match the chef, coordinate the brief and remain your point of contact throughout the booking.
+              We choose the chef. We brief the chef. We stay with you from the first message to the last plate.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
-              Meet the chefs
+              Private chefs Dubai
             </Link>
           </div>
         </div>

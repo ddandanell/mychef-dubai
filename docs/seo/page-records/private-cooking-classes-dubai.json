@@ -48,22 +48,34 @@
     "src/components/FaqAccordion.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
     "src/hooks/useScrollTrigger.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/PrivateCookingClassesDubai.tsx"
+    "src/pages/PrivateCookingClassesDubai.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 946,
-    "current_word_count": 925,
+    "current_word_count": 2347,
     "headings": [
       {
         "level": "h2",
@@ -187,7 +199,39 @@
       },
       {
         "level": "h2",
-        "text": "More in Dining Experiences"
+        "text": "Learn dishes you will want to cook again"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a skill before choosing a long recipe list"
+      },
+      {
+        "level": "h2",
+        "text": "Choose a cooking lesson you will use again"
+      },
+      {
+        "level": "h2",
+        "text": "Translate a favourite cuisine into a focused brief"
+      },
+      {
+        "level": "h2",
+        "text": "Help your chef understand the kitchen before arrival"
+      },
+      {
+        "level": "h2",
+        "text": "Let an Italian menu follow a natural sequence"
+      },
+      {
+        "level": "h2",
+        "text": "Keep dietary variations manageable and well briefed"
+      },
+      {
+        "level": "h2",
+        "text": "End the visit with a clear kitchen handover"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [],

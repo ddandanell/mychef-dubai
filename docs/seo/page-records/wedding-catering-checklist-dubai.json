@@ -45,32 +45,45 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/content/weddingChecklistPage.ts",
     "src/content/weddingCluster.ts",
     "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/guides/WeddingCateringChecklist.tsx",
+    "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2040,
-    "current_word_count": 2035,
+    "current_word_count": 2661,
     "headings": [
       {
         "level": "h2",
-        "text": "A sequence, not a brochure"
+        "text": "A practical sequence for planning your wedding meal"
       },
       {
         "level": "h2",
-        "text": "What to send so we can answer honestly"
+        "text": "The details that help us prepare your proposal"
       },
       {
         "level": "h2",
@@ -166,7 +179,7 @@
       },
       {
         "level": "h3",
-        "text": "How much food for a wedding Dubai?"
+        "text": "How much food should we plan for a wedding in Dubai?"
       },
       {
         "level": "h3",
@@ -175,6 +188,26 @@
       {
         "level": "h2",
         "text": "Send the brief. We will tell you if the team is free."
+      },
+      {
+        "level": "h2",
+        "text": "Wedding catering checklist Dubai: confirm one complete plan"
+      },
+      {
+        "level": "h2",
+        "text": "Connect the wedding meal with the celebration around it"
+      },
+      {
+        "level": "h2",
+        "text": "Build the service schedule around your guests"
+      },
+      {
+        "level": "h2",
+        "text": "Give every guest a considered option"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what you have in mind."
       },
       {
         "level": "h2",

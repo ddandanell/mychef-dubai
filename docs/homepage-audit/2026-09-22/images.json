@@ -1,0 +1,122 @@
+[
+  {
+    "path": "/images/home-editorial-2026/table-at-dusk-480.webp",
+    "exists": true,
+    "bytes": 59808,
+    "width": 480,
+    "height": 600,
+    "sha256": "e12756e77b76a6ca96c4169e4e78f2c86724f8c9eb2ffd556d5c2f63ca94e496"
+  },
+  {
+    "path": "/images/home-editorial-2026/table-at-dusk-800.webp",
+    "exists": true,
+    "bytes": 126576,
+    "width": 800,
+    "height": 1000,
+    "sha256": "b4a0ed67dc46eba40b5bd9aa9d636abe5728e5a8ef282d118f69bbc5ceed8d6f"
+  },
+  {
+    "path": "/images/home-editorial-2026/table-at-dusk-1120.webp",
+    "exists": true,
+    "bytes": 194142,
+    "width": 1120,
+    "height": 1400,
+    "sha256": "df0678a3b0a753e520d0e51ab795e3426db0668b165b6576177dd9f2b582703e"
+  },
+  {
+    "path": "/images/private-chef-2026/family-table-480.webp",
+    "exists": true,
+    "bytes": 40092,
+    "width": 480,
+    "height": 320,
+    "sha256": "aa8f9ac1e3fc6e57622862e2b4a4252311ae525e4dd4dcf8dd9950c48bb2fc58"
+  },
+  {
+    "path": "/images/private-chef-2026/family-table-800.webp",
+    "exists": true,
+    "bytes": 84098,
+    "width": 800,
+    "height": 533,
+    "sha256": "c6b5ca6631666f50eb37bcfbda438f43afc4078a78eaeb65a4ace8010380d43d"
+  },
+  {
+    "path": "/images/private-chef-2026/family-table-1200.webp",
+    "exists": true,
+    "bytes": 147172,
+    "width": 1200,
+    "height": 800,
+    "sha256": "e68f37fecd709437a9c4b93158e7a273ad06e2275acee3fcfbf456a5ac541bcc"
+  },
+  {
+    "path": "/images/private-chef-2026/craft-480.webp",
+    "exists": true,
+    "bytes": 23080,
+    "width": 480,
+    "height": 320,
+    "sha256": "6d76d0e23835dde8b982846791663a740d778762004a5da846502e862c8ad4ab"
+  },
+  {
+    "path": "/images/private-chef-2026/craft-800.webp",
+    "exists": true,
+    "bytes": 43672,
+    "width": 800,
+    "height": 533,
+    "sha256": "f7e07d96ec1d59885288f364fa61987d9e42a071adf9df81b6a55e09c29ffa19"
+  },
+  {
+    "path": "/images/private-chef-2026/craft-1200.webp",
+    "exists": true,
+    "bytes": 71746,
+    "width": 1200,
+    "height": 800,
+    "sha256": "8fc40c32a9feffe220e4d300bf4607a440cff23a83147c4d6c5c60a26d9b66ff"
+  },
+  {
+    "path": "/images/private-chef-2026/pasta-480.webp",
+    "exists": true,
+    "bytes": 23606,
+    "width": 480,
+    "height": 320,
+    "sha256": "40e1b915b9b68691fbf26aae9b009faae84f4bccee37af227b49d363861e1bb2"
+  },
+  {
+    "path": "/images/private-chef-2026/pasta-800.webp",
+    "exists": true,
+    "bytes": 46508,
+    "width": 800,
+    "height": 533,
+    "sha256": "591b1af880dd5ab325af1dbd570f1c99393da41ce675da3bdfb1820e30995089"
+  },
+  {
+    "path": "/images/private-chef-2026/pasta-1200.webp",
+    "exists": true,
+    "bytes": 80650,
+    "width": 1200,
+    "height": 800,
+    "sha256": "31da903f0eae176a8198ebd8636a05a7674b41c6f1e2a716d3fbbc1d4249ba21"
+  },
+  {
+    "path": "/images/private-chef-2026/planning-480.webp",
+    "exists": true,
+    "bytes": 22180,
+    "width": 480,
+    "height": 320,
+    "sha256": "97390006704313e8fd5464f4024e0a76d6c65af6d9fa95f24aa6a1d75c9e3802"
+  },
+  {
+    "path": "/images/private-chef-2026/planning-800.webp",
+    "exists": true,
+    "bytes": 41646,
+    "width": 800,
+    "height": 533,
+    "sha256": "321a206fbb728d861fb2f37397656ac56444fe3ad3fe4fe706e8dbde3474a2a9"
+  },
+  {
+    "path": "/images/private-chef-2026/planning-1200.webp",
+    "exists": true,
+    "bytes": 68130,
+    "width": 1200,
+    "height": 800,
+    "sha256": "7e3c70a93c05531f9b46514bfb1b0a41c3efdce1322576b73c4a851d67e78a4a"
+  }
+]

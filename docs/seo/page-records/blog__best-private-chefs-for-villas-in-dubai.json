@@ -38,23 +38,38 @@
   },
   "source_files": [
     "blog/data/best-private-chefs-for-villas-in-dubai.json",
+    "src/components/BlogRelated.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-chefs-for-villas-in-dubai.json",
     "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/blog/RyzeArticlePage.tsx"
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1855,
-    "current_word_count": 443,
+    "current_word_count": 2045,
     "headings": [
       {
         "level": "h2",
@@ -82,7 +97,59 @@
       },
       {
         "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "How to choose a chef for a villa stay in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Compare candidates against one realistic day of your stay"
+      },
+      {
+        "level": "h2",
+        "text": "Coordinate cooking across a larger home"
+      },
+      {
+        "level": "h2",
+        "text": "Look for a chef whose strengths fit the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Plan household cooking around travel and changing weeks"
+      },
+      {
+        "level": "h2",
+        "text": "Build one menu around different family appetites"
+      },
+      {
+        "level": "h2",
+        "text": "Agree how ingredients reach your kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Make home and building access straightforward"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s shape the details around you."
       }
     ],
     "baseline_findings": [

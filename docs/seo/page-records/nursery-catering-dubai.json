@@ -47,94 +47,107 @@
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
     "src/content/cateringCluster.ts",
+    "src/content/cateringDesign.json",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/nurseryCateringPage.tsx",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
-    "src/pages/NurseryCatering.tsx"
+    "src/pages/NurseryCatering.tsx",
+    "src/styles/catering-editorial.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2026,
-    "current_word_count": 2005,
+    "current_word_count": 2126,
     "headings": [
       {
         "level": "h2",
-        "text": "Why nursery catering Dubai is a different job"
+        "text": "Nursery catering Dubai, planned for early-years routines"
       },
       {
         "level": "h2",
-        "text": "What you can verify before anyone cooks"
+        "text": "A thoughtful meal programme for your centre"
       },
       {
         "level": "h3",
-        "text": "Chef-led cooking, not a tray line"
+        "text": "Menus shaped around the children"
       },
       {
         "level": "h3",
-        "text": "Menus written for the age band"
+        "text": "Preparation and texture agreed in advance"
       },
       {
         "level": "h3",
-        "text": "Nut-free as a kitchen rule"
+        "text": "Your allergy policy in the brief"
       },
       {
         "level": "h3",
-        "text": "Halal-first, documented"
+        "text": "Halal menu requirements"
       },
       {
         "level": "h3",
-        "text": "Temperature on the van, not only in the kitchen"
+        "text": "An organised delivery handover"
       },
       {
         "level": "h3",
-        "text": "A quote after the walk, not a from-price on the internet"
+        "text": "A clear commercial proposal"
       },
       {
         "level": "h2",
-        "text": "An example week used for quoting, not a promised menu"
+        "text": "Build a nursery menu cycle together"
       },
       {
         "level": "h2",
-        "text": "What this work requires in Dubai"
+        "text": "Documentation and responsibilities to confirm"
       },
       {
         "level": "h2",
-        "text": "Four steps. The manager sees the papers."
+        "text": "A clear process for the nursery management team"
       },
       {
         "level": "h2",
-        "text": "How a nursery quote is built"
+        "text": "How a nursery catering quote is built"
       },
       {
         "level": "h2",
-        "text": "Parents ask who chose the caterer"
+        "text": "Useful support for nursery planning"
       },
       {
         "level": "h3",
-        "text": "How culinary partners are selected"
+        "text": "Culinary partner selection"
       },
       {
         "level": "h3",
-        "text": "What halal-first means here"
+        "text": "Halal catering"
       },
       {
         "level": "h3",
-        "text": "Allergy-safe production"
+        "text": "Allergy requirements"
       },
       {
         "level": "h3",
-        "text": "Read the rules, then the quote"
+        "text": "School catering"
       },
       {
         "level": "h2",
@@ -142,35 +155,31 @@
       },
       {
         "level": "h3",
-        "text": "Do all nurseries in Dubai provide meals?"
+        "text": "Can meals be included in the nursery fee?"
       },
       {
         "level": "h3",
-        "text": "How do Dubai nurseries handle food allergies?"
+        "text": "How are nursery food allergies handled?"
       },
       {
         "level": "h3",
-        "text": "What foods are restricted in Dubai nurseries?"
+        "text": "Can you provide nut-free nursery meals?"
       },
       {
         "level": "h3",
-        "text": "How much do nursery meal plans cost in Dubai?"
+        "text": "How much do nursery meal plans cost?"
       },
       {
         "level": "h3",
-        "text": "Are you listed on My School Food?"
+        "text": "How do we check supplier registration?"
       },
       {
         "level": "h3",
-        "text": "Do you cook on site or deliver?"
+        "text": "Can parents still provide meals on some days?"
       },
       {
         "level": "h3",
-        "text": "Can parents still pack on some days?"
-      },
-      {
-        "level": "h3",
-        "text": "How much notice do you need to start?"
+        "text": "Can we review a sample menu before booking?"
       },
       {
         "level": "h3",
@@ -179,6 +188,26 @@
       {
         "level": "h2",
         "text": "Enrolment, ages and days is enough to start"
+      },
+      {
+        "level": "h2",
+        "text": "Put the nursery’s requirements at the centre of the brief"
+      },
+      {
+        "level": "h2",
+        "text": "Connect meal planning to the nursery routine"
+      },
+      {
+        "level": "h2",
+        "text": "Make individual meal requirements easy to follow"
+      },
+      {
+        "level": "h2",
+        "text": "Agree a calm delivery and handover"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us about your organisation."
       },
       {
         "level": "h2",

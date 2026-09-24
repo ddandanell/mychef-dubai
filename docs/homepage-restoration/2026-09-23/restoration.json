@@ -1,0 +1,16 @@
+{
+  "source_commit": "6664f63b1231d8844c8b85aa0e41123a29b8219c",
+  "source_commit_date": "2026-09-21T23:42:18Z",
+  "restored_source_files": [
+    "src/pages/Home.tsx",
+    "src/sections/HeroSection.tsx",
+    "src/sections/ServicesSection.tsx",
+    "src/sections/TrustSection.tsx",
+    "src/sections/HowItWorksSection.tsx",
+    "src/sections/TeamSection.tsx",
+    "src/sections/CTASection.tsx",
+    "src/sections/GuidesTeaserSection.tsx",
+    "src/sections/LeadMagnetModal.tsx"
+  ],
+  "scope": "Home and its exclusive section components; no service-page rollback"
+}

@@ -7,10 +7,10 @@ import { SectionLabel } from '@/components/system'
 
 // Mechanisms, not adjectives — each line is a fact already stated elsewhere on this page.
 const trustPoints = [
-  { title: 'Vetted and background-checked', body: "Each chef is assessed before being matched with a myCHEF client." },
-  { title: "Food hygiene and safe preparation", body: "Food hygiene awareness is required; individual qualifications are checked during selection." },
-  { title: 'One person, start to finish', body: "A dedicated contact coordinates your brief, booking and follow-up." },
-  { title: "Typical reply within 15 minutes, 9am–11pm Dubai time", body: 'Then a vetted chef and a tailored proposal.' },
+  { title: 'Vetted and background-checked', body: 'Every chef is checked before they cook for a myCHEF client.' },
+  { title: 'Food-safety credentials, checked before anyone cooks', body: 'We see the certificate before anyone cooks in your kitchen.' },
+  { title: 'One person, start to finish', body: 'The same person from your first message to the moment your chef leaves the kitchen.' },
+  { title: 'Reply within 15 minutes in business hours, 9am to 11pm', body: 'Then a vetted chef and a tailored proposal.' },
 ]
 
 export default function TrustSection() {
@@ -69,10 +69,10 @@ export default function TrustSection() {
         >
           <SectionLabel tone="dark" icon={ShieldCheck}>Why book through myCHEF</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            A carefully chosen chef. A clearly planned experience.
+            Finding a chef in Dubai is easy. Knowing who you are letting into your home is harder.
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            We match chefs to the people they cook for, with practical assessments, reference checks and feedback after service. Your dedicated contact brings the menu, schedule and booking details together, so you know what to expect before the chef arrives.
+            myCHEF was built by people who have run kitchens and floors. Every chef is chosen against one standard, then scored by the homes and events they cook in, month after month, for as long as they work with us. One person looks after you from your first message to the last plate.
           </p>
 
           {/* Numbered editorial rows — recognition list, not badges */}
