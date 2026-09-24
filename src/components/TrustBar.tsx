@@ -38,7 +38,7 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
                 isLight ? 'text-charcoal' : 'text-gray-400'
               )}
             >
-              Typical reply within 15 minutes during business hours, 9am to 11pm
+              Typical reply within 15 minutes during business hours, 9am to 9pm
             </span>
           </div>
 

@@ -32,7 +32,7 @@ export const YACHT_HERO = {
   primaryCta: 'Get a Yacht Catering Quote',
   secondaryCta: 'WhatsApp myCHEF',
   micro: 'Share your date, marina and guest count.',
-  reply: 'Typical reply: 15 minutes, 9am–11pm Dubai time.',
+  reply: 'Typical reply: 15 minutes, 9am–9pm Dubai time.',
   trust: ['Food, chefs and waiters', 'Halal-first', 'Marina coordination', 'Written proposal'],
   imageCaption: `${YACHT_PHOTO_CREDIT} The host chartered the yacht.`,
 } as const

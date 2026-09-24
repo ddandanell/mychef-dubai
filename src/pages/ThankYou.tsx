@@ -73,7 +73,7 @@ export default function ThankYou() {
 
           <h1 className="ty-h1 font-playfair text-[3rem] text-white mb-6" style={{ lineHeight: '1.1' }}>Thank You</h1>
           <p className="ty-sub font-inter text-body text-gray-400 mb-10">
-            Your inquiry has been received. We typically acknowledge enquiries within 15 minutes between 9am and 11pm Dubai time. Your tailored proposal follows after we review the details and availability.
+            Your inquiry has been received. We typically acknowledge enquiries within 15 minutes between 9am and 9pm Dubai time. Your tailored proposal follows after we review the details and availability.
           </p>
 
           {/* Next Steps */}

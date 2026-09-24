@@ -141,7 +141,7 @@ const allLocations: LocationData[] = [
       title: 'The lift booking and the marina handoff are part of the brief',
       paragraphs: [
         "Tower concierge, loading windows and marina access are confirmed before arrival. For yacht bookings, we coordinate storage, loading and service with your captain or operator.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -330,7 +330,7 @@ const allLocations: LocationData[] = [
       title: 'Loading-bay hours are written into the plan',
       paragraphs: [
         "We plan around booked loading bays, service lifts and concierge access. Event traffic and the timing of your meeting or evening plans are included in the arrival schedule.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -518,7 +518,7 @@ const allLocations: LocationData[] = [
       title: 'The Frond gate is the first course',
       paragraphs: [
         "We confirm gate passes, parking and kitchen access before arrival. Outdoor meals are planned around the property’s permissions, facilities and weather conditions.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -707,7 +707,7 @@ const allLocations: LocationData[] = [
       title: 'The kitchen is in the villa, not on Beach Road',
       paragraphs: [
         "Driveway access, kitchen facilities and garden service are agreed with the household. Outdoor menus account for available equipment, weather and any property restrictions.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -792,7 +792,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -895,7 +895,7 @@ const allLocations: LocationData[] = [
       title: 'The Walk is the access problem, not the brand story',
       paragraphs: [
         "We coordinate loading, parking and service-lift access with your building. Kitchen capacity and balcony restrictions are checked before the menu and equipment are confirmed.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1082,7 +1082,7 @@ const allLocations: LocationData[] = [
       title: 'The meeting window is the menu constraint',
       paragraphs: [
         "Building security, loading bays and service lifts are part of the plan. Office meals are timed around the working day, while home dinners follow the household’s schedule.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1270,7 +1270,7 @@ const allLocations: LocationData[] = [
       title: 'The lunch has to finish when the meeting does',
       paragraphs: [
         "We confirm building permissions, security registration and delivery access with your contact. Boardroom service is planned around the meeting agenda and agreed finish time.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1350,7 +1350,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -1453,7 +1453,7 @@ const allLocations: LocationData[] = [
       title: 'The house has rules. We work inside them.',
       paragraphs: [
         "Security passes, driveway access and household service arrangements are agreed before arrival. We plan indoor and garden service around the property’s facilities and rules.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1538,7 +1538,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -1641,7 +1641,7 @@ const allLocations: LocationData[] = [
       title: 'Garden power, children, and a grill that actually starts',
       paragraphs: [
         "We confirm community entry, parking, kitchen access and any garden equipment requirements. Grills and outdoor service are included only where the property permits them.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1828,7 +1828,7 @@ const allLocations: LocationData[] = [
       title: 'Villa, townhouse or apartment: the access changes the plan',
       paragraphs: [
         "Access arrangements depend on the community and property type. We confirm security, parking and available kitchen equipment before finalising the menu and service.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -1912,7 +1912,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -2015,7 +2015,7 @@ const allLocations: LocationData[] = [
       title: 'A compact kitchen is still a working kitchen',
       paragraphs: [
         "We check community access, parking and the size of the kitchen. Menus and any portable equipment are planned to suit the facilities available in your home.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -2201,7 +2201,7 @@ const allLocations: LocationData[] = [
       title: 'Lakeside towers run on loading bays and lift slots',
       paragraphs: [
         "Cluster access, loading bays and lift bookings are confirmed with your building contact. Office service is timed around meetings, with clear-down included as agreed.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -2290,7 +2290,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -2393,7 +2393,7 @@ const allLocations: LocationData[] = [
       title: 'The island is an access list, not a backdrop',
       paragraphs: [
         "We coordinate island entry, parking and loading with you or the concierge. Kitchen equipment is assessed in advance so the menu suits the apartment’s facilities.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -2472,7 +2472,7 @@ const allLocations: LocationData[] = [
       },
       {
         q: 'How fast is a reply?',
-        a: "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        a: "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       },
     ],
     uniqueAngle:
@@ -2575,7 +2575,7 @@ const allLocations: LocationData[] = [
       title: 'Coastal villas need a plan for wind and parking',
       paragraphs: [
         "We confirm driveway access and the available indoor and outdoor spaces. Garden and poolside service include an agreed plan for wind, heat and changing weather.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {
@@ -2757,7 +2757,7 @@ const allLocations: LocationData[] = [
       title: 'The property type decides the team, not a package name',
       paragraphs: [
         "We confirm the property type, parking and concierge arrangements before arrival. Menus and equipment are adapted to the kitchen, with travel and access included in the plan.",
-        "We typically reply within 15 minutes between 9am and 11pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
+        "We typically reply within 15 minutes between 9am and 9pm Dubai time. Chef availability and the booking date are confirmed after the brief and proposal are agreed.",
       ],
     },
     useCases: {

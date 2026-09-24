@@ -36,7 +36,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'How does corporate meal prep pricing work?', a: "Recurring staff meals are quoted by headcount, menu and service frequency. Explore our staff meals service or share the schedule you need covered." },
   ],
   'Booking process': [
-    { q: 'How do I book a private chef in Dubai?', a: "Contact us through WhatsApp or the enquiry form with your date, location, guest count and preferences. We typically reply within 15 minutes between 9am and 11pm Dubai time. A tailored proposal follows after we review the details and availability." },
+    { q: 'How do I book a private chef in Dubai?', a: "Contact us through WhatsApp or the enquiry form with your date, location, guest count and preferences. We typically reply within 15 minutes between 9am and 9pm Dubai time. A tailored proposal follows after we review the details and availability." },
     { q: 'How far in advance should I book?', a: "Enquire as soon as your date is known. Smaller bookings may be possible with shorter notice, while larger events typically benefit from several weeks of planning. Availability is confirmed individually, especially during peak periods." },
     { q: 'Can I make changes after booking?', a: "Please contact us as soon as your plans change. We will confirm what can be adjusted and any resulting charges under the terms of your booking." },
     { q: 'Do I need to pay a deposit?', a: DEPOSIT_FAQ_ANSWER },
@@ -275,7 +275,7 @@ export default function FAQ() {
         <div className="still-questions-content container-custom max-w-[800px] text-center">
           <h2 className="font-playfair text-[2.25rem] text-white mb-4" style={{ lineHeight: '1.15' }}>Still Have Questions?</h2>
           <p className="font-inter text-body text-gray-400 mb-8">
-            Tell us what you would like to know. We typically reply within 15 minutes between 9am and 11pm Dubai time.
+            Tell us what you would like to know. We typically reply within 15 minutes between 9am and 9pm Dubai time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">

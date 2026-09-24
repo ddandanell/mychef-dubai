@@ -10,7 +10,7 @@ const trustPoints = [
   { title: 'Vetted and background-checked', body: 'Every chef is checked before they cook for a myCHEF client.' },
   { title: 'Food-safety credentials, checked before anyone cooks', body: 'We see the certificate before anyone cooks in your kitchen.' },
   { title: 'One person, start to finish', body: 'The same person from your first message to the moment your chef leaves the kitchen.' },
-  { title: 'Reply within 15 minutes in business hours, 9am to 11pm', body: 'Then a vetted chef and a tailored proposal.' },
+  { title: 'Reply within 15 minutes in business hours, 9am to 9pm', body: 'Then a vetted chef and a tailored proposal.' },
 ]
 
 export default function TrustSection() {
