@@ -273,7 +273,7 @@ export default function HeroSection() {
         </p>
         <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2 justify-center md:justify-start">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-          Typical reply within 15 min during business hours, 9am to 11pm · No obligation
+          Typical reply within 15 min during business hours, 9am to 9pm · No obligation
         </p>
 
         {/* Stats Row */}

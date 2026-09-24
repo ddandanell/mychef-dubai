@@ -70,7 +70,7 @@ export default function CTASection() {
             </div>
             <p className="mt-5 font-inter text-body-sm text-gray-400 flex items-center gap-2">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-              Typical reply within 15 min during business hours, 9am to 11pm · No obligation
+              Typical reply within 15 min during business hours, 9am to 9pm · No obligation
             </p>
           </div>
         </div>

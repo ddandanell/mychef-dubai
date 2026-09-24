@@ -397,7 +397,7 @@ export const cateringFaqs = [
   },
   {
     q: 'How far in advance should I book?',
-    a: "For events under 50 guests, aim to enquire at least a week ahead; larger events typically need 2–4 weeks. Allow more time in peak season and around holidays. We typically reply within 15 minutes between 9am and 11pm Dubai time. Short-notice availability is confirmed individually.",
+    a: "For events under 50 guests, aim to enquire at least a week ahead; larger events typically need 2–4 weeks. Allow more time in peak season and around holidays. We typically reply within 15 minutes between 9am and 9pm Dubai time. Short-notice availability is confirmed individually.",
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',

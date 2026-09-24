@@ -39,7 +39,7 @@ Do not edit generated comparison JSON, keyword locks or breadcrumb maps independ
 
 ## Editorial principles
 
-Use clear, considered British English. Explain the service, inclusions, venue needs and next step. Keep recurring household cooking distinct from one-off events. Preserve published rates and contract terms; do not infer new promises from a headline price. Treat the 15-minute target as an initial reply during 9am–11pm Dubai time. A proposal follows review of the brief and availability.
+Use clear, considered British English. Explain the service, inclusions, venue needs and next step. Keep recurring household cooking distinct from one-off events. Preserve published rates and contract terms; do not infer new promises from a headline price. Treat the 15-minute target as an initial reply during 9am–9pm Dubai time. A proposal follows review of the brief and availability.
 
 Do not invent chef experience, certifications, client results, independent rankings, search volumes or guarantees about allergens. Comparison guides identify myCHEF as their publisher. Medical diets, institutional food policies and venue permissions require case-specific confirmation.
 

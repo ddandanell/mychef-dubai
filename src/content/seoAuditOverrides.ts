@@ -123,7 +123,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Italian private chef Marco Rossi cooks Italian and Mediterranean menus in Dubai villas, yachts and homes."
   },
   "/contact": {
-    "description": "Contact myCHEF Dubai for private chefs, catering and partnerships. Initial replies are typically within 15 minutes, 9am–11pm Dubai time."
+    "description": "Contact myCHEF Dubai for private chefs, catering and partnerships. Initial replies are typically within 15 minutes, 9am–9pm Dubai time."
   },
   "/private-chef-dubai/how-it-works": {
     "title": "Managed Private Chef Service Dubai | How It Works | myCHEF",
