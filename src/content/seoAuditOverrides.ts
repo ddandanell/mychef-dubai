@@ -189,6 +189,10 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Catering Menus Dubai | Samples Then a Quote | myCHEF",
     "description": "Catering menus Dubai start as samples. Tell us the occasion and the kitchen. We rewrite the menu, match a chef and send an itemised quote."
   },
+  "/locations": {
+    "title": "Catering Near Me Dubai | Private Chef & Catering Areas | myCHEF",
+    "description": "Catering services near me across Dubai — 15 neighbourhoods from Palm Jumeirah villas to Business Bay offices. Access, timing and a written quote confirmed."
+  },
   "/vegan-catering-dubai": {
     "title": "Vegan Catering Dubai | Plant-Based Menu Night | myCHEF",
     "description": "Vegan catering in Dubai with plant-based menus cooked on site. Buffet, canapé and plated formats for parties, weddings and office events. Itemised quotes."
