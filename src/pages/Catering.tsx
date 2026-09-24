@@ -168,14 +168,14 @@ export default function Catering() {
             {SAME_PARTNERS}
           </p>
           <p className="mt-4 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
-            Hosts looking for catering services Dubai start here: food only, chefs and waiters, or the whole night from one brief. Home catering Dubai is the 10–20 guest work at a villa or apartment: one chef, one server, your kitchen. Food catering Dubai can be a drop-off; private catering Dubai is the chef-led dinner in that same home. Christmas, Diwali, Ramadan and National Day sit on{' '}
+            Choose food delivered ready to serve, a chef-led dinner at home, or catering with service staff. For a gathering of 10–20 guests, the team and setup depend on the menu, service style and kitchen facilities; your proposal confirms what is included. Explore menus for Christmas, Diwali, Ramadan and National Day through our{' '}
             <Link
               to="/festive-catering-dubai"
               className="text-gold-ink underline underline-offset-4 hover:text-gold"
             >
-              festive catering Dubai
+              festive catering options
             </Link>
-            . A turkey, goose or prime rib cooked in your kitchen on 25 December is{' '}
+            , or plan a traditional roast cooked in your kitchen on 25 December with{' '}
             <Link
               to="/christmas-catering-dubai"
               className="text-gold-ink underline underline-offset-4 hover:text-gold"
@@ -195,7 +195,7 @@ export default function Catering() {
             Compare published starting prices, clearly identified market ranges and the calculator’s indicative estimate. Your chosen format determines the menu and staffing required; the written proposal confirms the complete scope and total.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            The quote moves with guest count, the menu, and how much of the work happens in the room. We start from a published format and adjust it to your date. What to check: the named chef, an itemised quote, and who buys the ingredients. Dietary notes go into the first menu draft. A small catering Dubai party of ten still includes a chef, service staff and clear-down. Full service catering Dubai puts that team in the house. Bespoke catering Dubai and outdoor catering Dubai use the same brief: date, headcount, and how you want the night to feel.
+            Your quote reflects the guest count, menu and work required at the venue. Confirm who supplies the ingredients, which staff are included and whether setup and clear-down are covered. Drop-off is food delivery; a chef, waiters or other event support are included only where your proposal specifies them. Share dietary requirements and, for outdoor catering, the available power, water and preparation space.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-left font-inter text-body-sm text-gray-300">
@@ -231,15 +231,13 @@ export default function Catering() {
             ))}
           </ul>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Which band you are in is decided by the format, not by the word you searched for:{' '}
-            <Link to="/events" className="text-gold underline underline-offset-4 hover:text-gold-light">event catering Dubai</Link>
-            {', '}
-            <Link to="/buffet-catering-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">buffet catering Dubai</Link>
-            , a bar or anything with a running order is priced per person here. A seated dinner under about twenty
-            people is usually cheaper as a household visit: twelve guests at AED 700 a head is AED 8,400 of plated
-            dining with a service team, while one Full-Day{' '}
-            <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
-            is AED 1,500 plus groceries for a household service day. Choose the service that matches your needs, with event staffing and presentation quoted separately.
+            Compare{' '}
+            <Link to="/events" className="text-gold underline underline-offset-4 hover:text-gold-light">event catering</Link>
+            {' and '}
+            <Link to="/buffet-catering-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">buffet catering</Link>
+            {' proposals by menu, staffing, service time and equipment. A household cooking visit has a different scope from a catered celebration. Our '}
+            <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef prices</Link>
+            {' explain the visit options; event staffing and presentation are quoted for the occasion.'}
           </p>
           <div className="flex flex-wrap gap-6">
             <Link
@@ -267,21 +265,24 @@ export default function Catering() {
       <Section tone="white" rhythm="standard">
         <Container className="max-w-3xl">
           <SectionLabel>PRIVATE CHEF OR CATERING</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Household chef services and event catering</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Choose the service that fits your occasion</DisplayHeading>
           <BodyCopy className="mb-4">
-            <strong className="text-black">Private chef:</strong> the same person comes back most weeks, with a Food
-            Profile of how your house eats and backup when they are off. Priced per visit, from AED 750.
+            <strong className="text-black">Food delivery:</strong> prepared food delivered ready to serve, with no team staying at the venue. Drop-off catering starts from AED 90 per person for 10 guests, with a minimum order of AED 900.
           </BodyCopy>
           <BodyCopy className="mb-4">
-            <strong className="text-black">Catering:</strong> one event, quoted as layers, with the team the night
-            needs and no promise of the same face next month. Priced per person, from AED 90.
+            <strong className="text-black">One-off chef-led dining:</strong> a chef prepares an agreed menu in your kitchen for a single lunch or dinner. Serving staff, tableware and styling are agreed separately. Explore our{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold-ink underline underline-offset-4">private dining experiences</Link>.
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">Staffed event catering:</strong> food, chefs, service staff and equipment planned around one occasion. Your proposal sets out the menu, staffing, setup and clear-down included for your event.
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">Recurring household cooking:</strong> regular chef visits built around your household's preferences and schedule. Published visit prices start from AED 750; your plan confirms the arrangements.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            The split is not guest count. A Tuesday and Thursday for a family of five is a private chef; a birthday
-            for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count only
-            decides how big the team is. As a rule of thumb: for a seated dinner under about 20, start on{' '}
+            Choose by the help you need, as well as the number of guests. A dinner for eight can be a one-off chef booking; a regular household plan covers ongoing cooking. See{' '}
             <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4">private chef prices</Link>
-            covers regular cooking for the household. A party, buffet, bar or timed event uses a separate catering brief.
+            {' for household visit options, or send an event brief for a party, buffet, bar or timed service.'}
           </BodyCopy>
           <BodyCopy className="mb-5">
             For example, bespoke plated dining for 12 guests at AED 700 per person totals AED 8,400 before VAT and any agreed extras. A Full-Day household chef visit is AED 1,500 plus groceries and has a different scope. Compare the staffing, presentation and service required for your occasion before choosing.
@@ -297,7 +298,7 @@ export default function Catering() {
 
       <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Related catering services</p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             {CATERING_SIBLING_LINKS.map((item) => (
               <li key={item.href}>
