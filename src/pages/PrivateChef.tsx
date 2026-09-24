@@ -18,7 +18,7 @@ import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 export default function PrivateChef() {
   useWhatsAppMessage('Hi myCHEF Dubai, I would like a private chef for my home. Location: __. Days per week: __. Household size: __. (via mychef.ae/private-chef-dubai)')
   return <div>
-    <SEO title="Private Chef Dubai | A Chef for Your Home | myCHEF" description="A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans." canonicalPath="/private-chef-dubai" schema={faqPageSchema(parentFaqs.map(f => ({question:f.q,answer:f.a}))) || undefined}/>
+    <SEO title="Private Chef Dubai | From AED 750 a Visit | myCHEF" description="A private chef for your Dubai home — weekly preparation, part-time and full-time household plans, from AED 750 a visit. Menus made personal, a clear written proposal." canonicalPath="/private-chef-dubai" schema={faqPageSchema(parentFaqs.map(f => ({question:f.q,answer:f.a}))) || undefined}/>
     <PageHero eyebrow="MYCHEF · AT HOME IN DUBAI" title={<>Private Chef Dubai.<br/><em>Made personal.</em></>} subtitle="A good meal, a little more time, a kitchen in capable hands. Your personal chef in Dubai, with menus, cooking days and ongoing support shaped around your household." cta={{label:'Find my chef',href:'/inquiry?from=/private-chef-dubai'}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/>
     <ClusterNav/>
     <ChefSection eyebrow="A rhythm that works for you" title={<>Private Chef Dubai,<br/><em>on your schedule.</em></>}>
