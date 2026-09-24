@@ -21,9 +21,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Conference Catering Dubai | Working Lunches | myCHEF",
     "description": "Conference catering in Dubai with coffee breaks and working lunches. Drop-off from AED 90 per person; staffed buffets from AED 120."
   },
-  "/locations": {
-    "title": "Catering Near Me Dubai | Areas We Serve | myCHEF"
-  },
+
   "/faq": {
     "title": "Catering FAQ Dubai | Private Chef Questions | myCHEF"
   },
