@@ -143,7 +143,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
           Brief received.
         </p>
         <p className="font-inter text-body text-gray-600 leading-relaxed">
-          A coordinator reads it and comes back with a written proposal — typically within 15 minutes during business hours.
+          We have your yacht brief. We typically send a first reply during business hours within 15 minutes; a written proposal follows after we confirm the marina, guest count and service details.
         </p>
       </div>
     )
