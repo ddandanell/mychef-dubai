@@ -312,13 +312,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       emailSent = true
     }
 
-    return res.status(200).json({
-      success: true,
-      emailSent,
-      message: emailSent
-        ? 'Lead submitted successfully'
-        : 'Lead received. Email delivery is not configured — set SMTP_HOST, SMTP_USER, and SMTP_PASS.',
-    })
+    if (!emailSent) {
+      console.error('submit-lead: email delivery is not configured')
+      return res.status(503).json({ success: false, emailSent: false, error: 'Email delivery unavailable; please use WhatsApp instead.' })
+    }
+
+    return res.status(200).json({ success: true, emailSent: true, message: 'Lead submitted successfully' })
   } catch (err) {
     console.error('submit-lead error:', err)
     return res.status(500).json({ error: 'Internal server error' })
