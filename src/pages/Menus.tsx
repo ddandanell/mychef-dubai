@@ -282,7 +282,7 @@ export default function Menus() {
             <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">Catering starting prices by service format</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
-              Compare the myCHEF starting price for each service format below. Indicative market ranges offer wider planning context. Regular household chef arrangements have separate pricing.
+              Compare the myCHEF starting price for each service format below. Indicative market ranges offer wider planning context. Regular household chef arrangements have separate pricing. Compare <Link to="/catering-dubai#options" className="text-gold-ink underline underline-offset-4">food delivery and staffed catering in Dubai</Link> to choose the support that suits your menu.
             </p>
           </div>
 

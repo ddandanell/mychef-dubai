@@ -302,7 +302,7 @@ export default function HowToChooseCatererDubai() {
             What to check on any caterer: the named chef, an itemised quote (food, staff, hire, 5% VAT), who buys the ingredients, and the cancellation bands. A 50% deposit confirms the date. The balance is due seven days before.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans.
+            This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans. For myCHEF’s formats, starting prices and service scope, explore our <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4">catering in Dubai</Link> overview.
           </p>
         </div>
       </section>
