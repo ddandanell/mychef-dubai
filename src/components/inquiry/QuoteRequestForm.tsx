@@ -87,9 +87,6 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'inquiry_form')
-        if (contactBy === 'whatsapp') {
-          window.open(waHref, '_blank', 'noopener,noreferrer')
-        }
         setStatus('sent')
       } else {
         setStatus('error')
@@ -104,8 +101,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       <div className="border border-gray-200 bg-white p-8">
         <p className="font-playfair text-h3 text-[#1B2A4A] mb-2">Request sent</p>
         <p className="font-inter text-body text-gray-600 leading-relaxed">
-          A coordinator reads it and comes back with a written proposal, typically within 15 minutes during business hours.
-          {contactBy === 'whatsapp' ? ' If WhatsApp opened, finish sending the draft there as well.' : ''}
+          We have your brief. We typically send a first reply during business hours within 15 minutes; a written proposal follows after we confirm your requirements. We will reply by {contactBy === 'whatsapp' ? 'WhatsApp' : 'email'}.
         </p>
       </div>
     )
@@ -114,7 +110,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
   return (
     <form onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
       <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
-        Selected service: <span className="text-[#1B2A4A]">{serviceType}</span>.
+        For <span className="text-[#1B2A4A]">{serviceType}</span>. Share your date or preferred schedule, number of people and Dubai area. A menu is not needed yet.
       </p>
       {chef ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
@@ -169,12 +165,12 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       <div className="sm:col-span-2 flex flex-col sm:flex-row gap-3 pt-2">
         <button type="submit" disabled={status === 'sending'} className="btn-primary inline-flex items-center justify-center gap-2 disabled:opacity-60">
           {contactBy === 'whatsapp' ? <MessageCircle size={16} aria-hidden /> : <Mail size={16} aria-hidden />}
-          {status === 'sending' ? 'Sending…' : contactBy === 'whatsapp' ? 'Email us and open WhatsApp' : 'Send by email'}
+          {status === 'sending' ? 'Sending…' : 'Send my brief'}
         </button>
       </div>
       {status === 'error' ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-red-700" role="alert">
-          Add an email or a WhatsApp number. If it still fails, use WhatsApp — the brief is ready in the button above.
+          We could not send your brief. Check your contact details or <a href={waHref} target="_blank" rel="noopener noreferrer" className="underline">send it on WhatsApp</a> instead.
         </p>
       ) : null}
     </form>
