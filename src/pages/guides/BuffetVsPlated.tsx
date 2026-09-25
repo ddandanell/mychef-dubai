@@ -272,7 +272,7 @@ export default function BuffetVsPlated() {
             Staffed buffet starts from AED 120 per person. Chef-led plated dining is typically AED 700 to 950. Live stations and canapés start from AED 150. 5% VAT is its own line. The written quote is the event total.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds.
+            The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds. Compare the wider <Link to="/catering-dubai#pricing" className="text-gold-ink underline underline-offset-4">catering formats and starting prices</Link> before deciding on your service.
           </p>
         </div>
       </section>

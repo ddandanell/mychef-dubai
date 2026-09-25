@@ -335,7 +335,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of."
   },
   "/catering-dubai": {
-    "description": "Catering services in Dubai for weddings, villas, yachts, offices and home parties. Buffet, canapés and chef-led service. Food-only from AED 90 per person."
+    "description": "Catering Dubai for homes, offices and events. Compare menus and service: food delivery from AED 90pp for 10 guests, or a staffed event. Request a quote."
   },
   "/wedding-catering-dubai": {
     "description": "Wedding catering in Dubai for villa, garden and venue receptions. Buffet, plated and live-station menus, tastings and service teams. From AED 700 a guest."

@@ -102,9 +102,9 @@ export const CATERING_WHATSAPP_LINK = `https://wa.me/${CATERING_WHATSAPP_NUMBER}
 
 export const CATERING_KEYWORD_LOCK = {
   primary: 'catering dubai',
-  title: 'Catering Dubai | Buffet, Canapés & Chef-Led Service | myCHEF',
+  title: 'Catering Dubai | Menus, Prices & Event Service | myCHEF',
   description:
-    'Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.',
+    'Catering Dubai for homes, offices and events. Compare menus and service: food delivery from AED 90pp for 10 guests, or a staffed event. Request a quote.',
 } as const
 
 /** Rendered exactly as STANDARD siblings on /catering-dubai. */

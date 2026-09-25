@@ -22,6 +22,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
   const isCanape = pathname === '/canape-catering-dubai'
+  const hasOwnPlanningLinks = isCanape || pathname === '/catering-dubai'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])
@@ -51,10 +52,10 @@ export default function Layout({ children }: LayoutProps) {
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
-          {!isCanape && <BlogPlanningLinks />}
-          {!isCanape && !isChefDesignPage(pathname) && <SiloChildren />}
+          {!hasOwnPlanningLinks && <BlogPlanningLinks />}
+          {!hasOwnPlanningLinks && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>
-        {!isCanape && !isChefDesignPage(pathname) && <SiloSection />}
+        {!hasOwnPlanningLinks && !isChefDesignPage(pathname) && <SiloSection />}
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />
