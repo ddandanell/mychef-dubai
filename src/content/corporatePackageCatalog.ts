@@ -345,7 +345,7 @@ export const CORPORATE_PACKAGES: readonly CorporatePackage[] = [
     ownerPath: '/corporate-event-catering-dubai',
     occasions: ['end-of-year gathering', 'company iftar when in season'],
     sampleMenu: ['Seasonal buffet or stations', 'Dessert', 'Soft drinks'],
-    portionNote: 'Quoted per event. Seasonal menus follow the calendar, not a leftover year in the copy.',
+    portionNote: 'Quoted per event. Seasonal menus follow the calendar.',
     serviceDuration: 'One event window.',
   }),
   canape({
