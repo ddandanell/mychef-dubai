@@ -70,7 +70,7 @@ export default function Locations() {
   return (
     <div ref={pageRef}>
       <SEO
-        title="Catering Near Me Dubai | Private Chef & Catering Areas | myCHEF"
+        title="Catering Near Me Dubai | Private Chef Areas | myCHEF"
         description="Catering Near Me Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/locations"
         ogImage="/loc-downtown.webp"
