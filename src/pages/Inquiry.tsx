@@ -148,7 +148,7 @@ export default function Inquiry() {
     <>
       <SEO
         title="Get a Quote | Private Chef & Catering Dubai | myCHEF"
-        description="Get a tailored quote for a private chef or luxury catering in Dubai. Send your event details on WhatsApp and we will reply within 15 minutes."
+        description="Tell myCHEF your date or preferred schedule, number of people and Dubai area. Ask about a private chef or catering; we confirm details before preparing a proposal."
         canonicalPath="/inquiry"
         ogImage="/service-catering.webp"
         noindex
@@ -177,12 +177,11 @@ export default function Inquiry() {
             ref={heroTitleRef}
             className="font-playfair text-fluid-h1 text-white mb-6"
           >
-            <span className="word inline-block">Get</span>{' '}
-            <span className="word inline-block">Your</span>{' '}
-            <span className="word inline-block">Free,</span>{' '}
-            <span className="word inline-block">Tailored</span>
-            <br className="hidden sm:block" />
-            <span className="word inline-block">Quote</span>
+            <span className="word inline-block">Tell</span>{' '}
+            <span className="word inline-block">Us</span>{' '}
+            <span className="word inline-block">What</span>{' '}
+            <span className="word inline-block">You</span>{' '}
+            <span className="word inline-block">Need</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
             {yachtPrefill
@@ -193,7 +192,7 @@ export default function Inquiry() {
                   ? birthdayPrivateInquirySubtitle(birthdayPrivateBrief)
                   : birthdayPrefill
                     ? birthdayInquirySubtitle(birthdayExtraIds)
-                    : "Tell us about your household or occasion, and we will help shape the menu and service. We typically reply within 15 minutes during published business hours; your proposal follows once the details are confirmed."}
+                    : "A private chef for your home or catering for your event. Share your date or preferred schedule, number of people and Dubai area. We will confirm the details before preparing a written proposal."}
           </p>
         </div>
       </section>
@@ -213,7 +212,7 @@ export default function Inquiry() {
                 Send a short brief
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Start with your date, guest count and Dubai location, then choose WhatsApp or email. We typically acknowledge enquiries within 15 minutes during business hours and prepare a written proposal after reviewing your requirements.
+                Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.
               </p>
               <QuoteRequestForm />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
@@ -224,7 +223,7 @@ export default function Inquiry() {
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
                 >
-                  open WhatsApp with this page already attached
+send the essentials directly on WhatsApp
                 </a>
                 . You can also write to{' '}
                 <a href="mailto:info@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
@@ -291,7 +290,7 @@ export default function Inquiry() {
             Prefer to Talk Directly?
           </h3>
           <p className="font-inter text-body text-gray-500 mb-6">
-            We are available on WhatsApp for quick questions and immediate availability.
+Ask us a quick question on WhatsApp. We will confirm availability after checking your date and brief.
           </p>
 
           {/* WhatsApp CTA */}
