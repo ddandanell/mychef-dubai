@@ -347,6 +347,12 @@ export default function PrivatePartyCatering() {
               {decisionModule.chefLabel} <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
+              to="/luxury-dining-experiences"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              One-off chef-led dinner <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
               to={decisionModule.eventsHref}
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
             >
