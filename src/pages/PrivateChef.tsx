@@ -21,9 +21,9 @@ export default function PrivateChef() {
     <SEO title="Private Chef Dubai | From AED 750 a Visit | myCHEF" description="A private chef for your Dubai home — weekly preparation, part-time and full-time household plans, from AED 750 a visit. Menus made personal, a clear written proposal." canonicalPath="/private-chef-dubai" schema={faqPageSchema(parentFaqs.map(f => ({question:f.q,answer:f.a}))) || undefined}/>
     <PageHero eyebrow="MYCHEF · AT HOME IN DUBAI" title={<>Private Chef Dubai.<br/><em>Made personal.</em></>} subtitle="A good meal, a little more time, a kitchen in capable hands. Your personal chef in Dubai, with menus, cooking days and ongoing support shaped around your household." cta={{label:'Find my chef',href:'/inquiry?from=/private-chef-dubai'}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/>
     <ClusterNav/>
-    <ChefSection eyebrow="A rhythm that works for you" title={<>Private Chef Dubai,<br/><em>on your schedule.</em></>}>
+    <ChefSection eyebrow="Choose the right service" title={<>Private Chef Dubai,<br/><em>on your schedule.</em></>}>
+      <p className="pc-fineprint">Need a chef regularly? Compare the household schedules below. For a single dinner at home, see our <Link className="underline underline-offset-4" to="/luxury-dining-experiences">chef-led dining experiences</Link>. For a party with food delivery or a service team, explore <Link className="underline underline-offset-4" to="/catering-dubai">catering for your event</Link>.</p>
       <ScheduleChoices/>
-      <p className="pc-fineprint">Planning a single dinner or celebration? Explore <Link className="underline underline-offset-4" to="/luxury-dining-experiences">private dining experiences</Link> or <Link className="underline underline-offset-4" to="/catering-dubai">event catering</Link>.</p>
     </ChefSection>
     <ChefSection eyebrow="More than the meal" title="The details, thoughtfully handled." tone="pc-tone-cream"><Inclusions/></ChefSection>
     <ChefSection><div className="pc-split"><ServiceImage imageKey="planning"/><div><p className="pc-eyebrow">From the first conversation</p><h2>We learn your home.<br/><em>Then we get cooking.</em></h2><ChefJourney/><Link className="pc-link" to="/private-chef-dubai/how-it-works">How your chef arrangement works →</Link></div></div></ChefSection>
