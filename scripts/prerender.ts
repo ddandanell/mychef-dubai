@@ -378,7 +378,7 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
   const priorityHeroRoutes = new Set([
     '/about', '/bbq-catering-dubai', '/catering-dubai',
     '/breakfast-catering-dubai', '/private-party-catering-dubai',
-    '/grazing-table-dubai', '/diwali-catering-dubai', '/corporate', '/blog',
+    '/grazing-table-dubai', '/diwali-catering-dubai', '/corporate',
     '/blog/how-far-ahead-book-caterer-dubai',
   ])
   if (priorityHeroRoutes.has(route)) {
