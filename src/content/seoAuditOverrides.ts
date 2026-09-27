@@ -130,8 +130,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "A managed private chef service for your Dubai home. Learn how we agree your brief, match a chef, plan menus and coordinate ongoing support."
   },
   "/weekly-meal-prep-dubai": {
-    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
-    "description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead."
+    "title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
+    "description": "Meal prep in your Dubai kitchen, not boxed-meal delivery. A chef cooks and portions food for your household, with groceries and storage agreed before each visit."
   },
   "/how-it-works": {
     "description": "Book a private chef in Dubai for one evening: share the occasion, choose the menu, confirm the chef and enjoy the night at home."
