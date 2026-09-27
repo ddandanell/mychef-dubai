@@ -108,7 +108,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
+    <form id="quote_request" onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
       <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
         For <span className="text-[#1B2A4A]">{serviceType}</span>. Share your date or preferred schedule, number of people and Dubai area. A menu is not needed yet.
       </p>
@@ -124,19 +124,19 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       )}
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Date or flexible</span>
-        <input className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />
+        <input name="eventDate" className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />
       </label>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Guests or household size</span>
-        <input required className={field} inputMode="numeric" value={fields.guests} onChange={update('guests')} placeholder="e.g. 12" />
+        <input name="guests" required className={field} inputMode="numeric" value={fields.guests} onChange={update('guests')} placeholder="e.g. 12" />
       </label>
       <label className="block sm:col-span-2">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Area in Dubai</span>
-        <input required className={field} value={fields.area} onChange={update('area')} placeholder="e.g. Palm Jumeirah" />
+        <input name="location" required className={field} value={fields.area} onChange={update('area')} placeholder="e.g. Palm Jumeirah" />
       </label>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Name (optional)</span>
-        <input className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
+        <input name="name" className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
       </label>
       <fieldset className="block">
         <legend className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">How should we reply?</legend>
@@ -154,12 +154,12 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       {contactBy === 'whatsapp' ? (
         <label className="block sm:col-span-2">
           <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp number</span>
-          <input required className={field} type="tel" autoComplete="tel" value={fields.phone} onChange={update('phone')} />
+          <input name="phone" required className={field} type="tel" autoComplete="tel" value={fields.phone} onChange={update('phone')} />
         </label>
       ) : (
         <label className="block sm:col-span-2">
           <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Email</span>
-          <input required className={field} type="email" autoComplete="email" value={fields.email} onChange={update('email')} />
+          <input name="email" required className={field} type="email" autoComplete="email" value={fields.email} onChange={update('email')} />
         </label>
       )}
       <div className="sm:col-span-2 flex flex-col sm:flex-row gap-3 pt-2">
