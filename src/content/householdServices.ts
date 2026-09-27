@@ -85,7 +85,7 @@ export const householdServices = {
     "path": "/weekly-meal-prep-dubai",
     "primary": "Meal Prep Dubai",
     "h1": "Meal Prep Dubai. A well-prepared week.",
-    "intro": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
+    "intro": "Meal prep in your Dubai kitchen, not boxed-meal delivery. A chef plans and cooks food for your household, then agrees portions, storage and reheating for the days ahead.",
     "image": "meal-prep",
     "heading": "Meal prep in Dubai, made in your own kitchen.",
     "body": "Tell us how many people you are feeding, the meals you want covered and your storage space. We agree a realistic menu for the session, prepare the food, and discuss labelling, storage and reheating for each dish.",
