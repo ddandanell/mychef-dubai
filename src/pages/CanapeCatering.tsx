@@ -90,7 +90,7 @@ export default function CanapeCatering() {
         <p className="cn-eyebrow">The myCHEF canapé collection</p><h1>Canapé Catering Dubai</h1>
         <p className="cn-hero-line">Small bites.<br /><em>Remarkable occasions.</em></p>
         <p className="cn-lead">Canapé catering in Dubai, shaped around your guests. Explore 50 menu ideas, from delicate seafood and warm savoury bites to vibrant plant-based creations and a beautiful sweet finish.</p>
-        <div className="cn-actions"><a className="cn-button" href="#canape-menu">Explore the 50 creations <ArrowDown size={17} /></a><a className="cn-text-link" href="#plan-reception">Plan your reception <ArrowUpRight size={16} /></a></div>
+        <div className="cn-actions"><a className="cn-button" href="#canape-menu">Explore the 50 creations <ArrowDown size={17} /></a><Link className="cn-text-link" to="/inquiry?from=/canape-catering-dubai">Request a canapé catering quote <ArrowUpRight size={16} /></Link></div>
         <p className="cn-hero-note">From AED 150 per guest · Ten-guest starting brief<br /> Final menu and service quoted for your event. VAT separate.</p>
       </div>
       <figure className="cn-hero-image"><img src={HERO + '-800.webp'} srcSet={HERO + '-800.webp 800w, ' + HERO + '-1200.webp 1200w, ' + HERO + '-1536.webp 1536w'} sizes="(min-width: 1000px) 52vw, 100vw" alt="Smoked salmon blinis, tomato tartlets, golden croquettes and beetroot cucumber bites on ivory plates" width={1536} height={1024} fetchPriority="high" /><figcaption>Food to set the tone. Menus to make your own.</figcaption></figure>
