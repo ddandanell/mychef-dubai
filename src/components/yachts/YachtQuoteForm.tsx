@@ -159,11 +159,12 @@ export default function YachtQuoteForm({ prefill }: Props) {
     >
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Charter date</span>
-        <input required type="date" className={field} value={fields.date} onChange={update('date')} />
+        <input name="eventDate" required type="date" className={field} value={fields.date} onChange={update('date')} />
       </label>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Guest count</span>
         <input
+          name="guests"
           required
           type="number"
           min={YACHT_GUEST_MIN}
@@ -180,6 +181,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <input
           required
           className={field}
+          name="marina"
           placeholder="Dubai Marina, Harbour, Palm, JBR…"
           value={fields.marina}
           onChange={update('marina')}
@@ -189,7 +191,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">
           Type of event (optional)
         </span>
-        <select className={field} value={fields.occasion} onChange={update('occasion')}>
+        <select name="occasion" className={field} value={fields.occasion} onChange={update('occasion')}>
           <option value="">Not sure yet</option>
           {YACHT_OCCASIONS.map((item) => (
             <option key={item} value={item}>
@@ -202,6 +204,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Service style</span>
         <select
           id="yacht-quote-style"
+          name="style"
           required
           className={field}
           value={fields.style}
@@ -218,19 +221,19 @@ export default function YachtQuoteForm({ prefill }: Props) {
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">
           Yacht name or size (optional)
         </span>
-        <input className={field} value={fields.yacht} onChange={update('yacht')} />
+        <input name="yacht" className={field} value={fields.yacht} onChange={update('yacht')} />
       </label>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Name</span>
-        <input required className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
+        <input name="name" required className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
       </label>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">WhatsApp / phone (optional if you gave an email)</span>
-        <input type="tel" className={field} autoComplete="tel" value={fields.phone} onChange={update('phone')} />
+        <input name="phone" type="tel" className={field} autoComplete="tel" value={fields.phone} onChange={update('phone')} />
       </label>
       <label className="block sm:col-span-2">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Email (optional if you gave a phone)</span>
-        <input type="email" className={field} autoComplete="email" value={fields.email} onChange={update('email')} />
+        <input name="email" type="email" className={field} autoComplete="email" value={fields.email} onChange={update('email')} />
       </label>
       {prefill.estimate ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
