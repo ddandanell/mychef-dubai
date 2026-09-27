@@ -17,7 +17,7 @@ const serviceLinks = [
   { label: 'Institutional Catering', href: '/institutional-catering-dubai' },
   { label: 'Birthdays & Celebrations', href: '/birthday-catering-dubai' },
   { label: 'Private Events', href: '/private-party-catering-dubai' },
-  { label: 'Villa Catering', href: '/villas-private-residences' },
+  { label: 'Villa Catering', href: '/private-party-catering-dubai' },
   { label: 'Yacht Catering', href: '/yachts' },
   { label: 'Food Only & Drop-Off', href: '/drop-off-catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
