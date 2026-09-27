@@ -446,9 +446,6 @@ const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
   "/blog/corporate-event-catering-ideas-dubai": [
     { label: "Corporate Event Catering Dubai", url: "/corporate-event-catering-dubai" }
   ],
-  "/blog/best-private-chef-birthday-dinner-dubai": [
-    { label: "Birthday Catering Dubai", url: "/birthday-catering-dubai" }
-  ],
   "/blog/desert-dinner-party-dubai": [
     {
       "label": "BBQ Catering Dubai",
