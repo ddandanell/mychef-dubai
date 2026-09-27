@@ -9,9 +9,9 @@ export const schoolPage: InstitutionalPageContent = {
   eyebrow: 'Schools',
   lock: {
     primary: 'school catering dubai',
-    title: 'School Catering Dubai | Lunches Built to the Rules | myCHEF',
+    title: 'School Catering Dubai | Lunch Delivery & Canteen Services | myCHEF',
     description:
-      'School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.',
+      'School catering services in Dubai — lunch delivery, staffed lunch lines and canteen programmes, with menus and allergen information reviewed with your school. Typical reply in 15 minutes.',
     h1: 'School Catering Dubai',
   },
   hero: {
