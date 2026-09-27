@@ -109,9 +109,11 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
 
   return (
     <form id="quote_request" onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
-      <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
-        For <span className="text-[#1B2A4A]">{serviceType}</span>. Share your date or preferred schedule, number of people and Dubai area. A menu is not needed yet.
-      </p>
+      {fromParam || (sourcePage && sourcePage !== '/inquiry') ? (
+        <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
+          Your enquiry: <span className="text-[#1B2A4A]">{serviceType}</span>. No menu decision is needed yet.
+        </p>
+      ) : null}
       {chef ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
           Chef preference: {chef.replace(/-/g, ' ')}. Assignment is confirmed in the proposal, not on this form.
