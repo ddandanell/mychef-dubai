@@ -22,7 +22,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const SLUG = 'press'
 
 const quickFacts = [
-  { icon: MapPin, label: 'Headquarters', value: 'Dubai, UAE' },
+  { icon: MapPin, label: 'Registered office', value: 'Sharjah, UAE' },
   { icon: Globe, label: 'Service Area', value: 'All Dubai neighbourhoods' },
   { icon: Utensils, label: 'Cuisines', value: 'Arabic, Mediterranean, Italian, Indian, Asian, sushi & more' },
   { icon: Users, label: 'Formats', value: 'Private chef, buffet, canapés, BBQ, live stations, grazing tables' },
@@ -70,7 +70,7 @@ const linkableResources = [
 const pressFaqs = [
   {
     q: 'Can I use myCHEF Dubai images in an article?',
-    a: 'Yes, journalists and partners may use the images linked on this page with attribution and a link back to https://www.mychef.ae. For high-resolution originals, contact us via WhatsApp or email.',
+    a: 'Please contact us to request permission before publishing images from this page. We can confirm which assets are available for editorial use and supply approved files and attribution instructions.',
   },
   {
     q: 'Who can I interview for a feature?',
@@ -170,7 +170,7 @@ export default function Press() {
             <h2 className="font-playfair text-h2 text-black text-center mb-10">Brand Assets</h2>
             <div className="bg-cream p-6 md:p-8">
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
-                Use these assets when listing myCHEF Dubai in directories, articles, or partner pages. Please link back to <a href="https://www.mychef.ae" className="text-gold hover:underline">https://www.mychef.ae</a> and keep the NAP consistent.
+                Our logo is available for editorial identification. For permission to publish photographs or use other media assets, contact us first. Please distinguish our Dubai service area from our registered office in Sharjah, and link to <a href="https://www.mychef.ae" className="text-gold hover:underline">https://www.mychef.ae</a>.
               </p>
               <ul className="space-y-3">
                 {brandAssets.map((asset) => (
@@ -214,7 +214,8 @@ export default function Press() {
             <h2 className="font-playfair text-h2 text-black text-center mb-10">NAP Citation</h2>
             <div className="bg-black p-6 md:p-10 text-center">
               <p className="font-playfair text-h4 text-white mb-4">myCHEF Dubai</p>
-              <p className="font-inter text-body text-gray-400 mb-2">Dubai, United Arab Emirates</p>
+              <p className="font-inter text-body text-gray-400 mb-2">Registered office: Business Centre, Sharjah Publishing City Free Zone, Sharjah, UAE</p>
+              <p className="font-inter text-body text-gray-400 mb-2">Service area: Dubai, UAE</p>
               <p className="font-inter text-body text-gray-400 mb-2">Phone / WhatsApp: +971 55 174 4849</p>
               <p className="font-inter text-body text-gray-400 mb-2">Email: info@mychef.ae</p>
               <p className="font-inter text-body text-gray-400">Website: https://www.mychef.ae</p>
