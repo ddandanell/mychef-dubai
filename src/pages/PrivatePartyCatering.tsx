@@ -23,7 +23,6 @@ import {
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { CATERING_PATHS } from '@/content/cateringCluster'
-const PARTY_INQUIRY_HREF = '/inquiry?from=/private-party-catering-dubai'
 import {
   PRIVATE_PARTY_KEYWORD_LOCK,
   PRIVATE_PARTY_ROOT,
@@ -52,6 +51,8 @@ import {
   uniqueCardsIntro,
   uniqueOccasionCards,
 } from '@/content/privatePartyPage'
+
+const PARTY_INQUIRY_HREF = '/inquiry?from=/private-party-catering-dubai'
 
 const schema = {
   '@context': 'https://schema.org',
