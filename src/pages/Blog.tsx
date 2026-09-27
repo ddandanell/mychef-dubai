@@ -49,11 +49,6 @@ export default function Blog() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.blog-card', {
-      scrollTrigger: { trigger: '.blog-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.1, ease: 'power3.out',
-    })
-
     gsap.to('.blog-cta', {
       scrollTrigger: { trigger: '.blog-cta', start: 'top 85%', toggleActions: 'play none none none' },
       opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
@@ -140,7 +135,7 @@ export default function Blog() {
               <Link
                 key={post.slug}
                 to={post.slug}
-                className="blog-card group block bg-cream border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] opacity-0 translate-y-10"
+                className="blog-card group block bg-cream border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
               >
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
