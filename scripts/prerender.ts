@@ -373,11 +373,13 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
 
   // Give the browser the responsive hero image while it is still parsing the head,
   // rather than waiting until it reaches the image deep in the prerendered body.
-  // Only the five measured slow routes opt in; srcset/sizes are copied from the
-  // actual high-priority image so mobile does not download the desktop variant.
+  // Target the measured routes; srcset/sizes are copied from the actual
+  // high-priority image so mobile does not download the desktop variant.
   const priorityHeroRoutes = new Set([
     '/about', '/bbq-catering-dubai', '/catering-dubai',
     '/breakfast-catering-dubai', '/private-party-catering-dubai',
+    '/grazing-table-dubai', '/diwali-catering-dubai', '/corporate', '/blog',
+    '/blog/how-far-ahead-book-caterer-dubai',
   ])
   if (priorityHeroRoutes.has(route)) {
     const hero = [...html.matchAll(/<img\b[^>]*>/g)]
