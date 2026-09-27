@@ -25,7 +25,7 @@ export const hero = {
   eyebrow: 'Dining Experiences',
   h1: 'Private dining experience Dubai, designed around the moment',
   subtitle:
-    "A private dining experience in Dubai, created around your occasion. From a quiet dinner for two to a tasting menu, cooking class or desert table, we bring the chef, menu and service together for a memorable meal in your chosen setting.",
+    "Private dining at your home, villa or another agreed setting in Dubai — not a restaurant room reservation. Plan a one-off dinner for two, a tasting menu or a cooking class with a chef, menu and service shaped around your occasion.",
   primaryCta: 'See the experiences',
   secondaryCta: 'Plan something custom',
   utility: 'Dubai-wide · Private homes · Villas · Selected venues · Special locations',
