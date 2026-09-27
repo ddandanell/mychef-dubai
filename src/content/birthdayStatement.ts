@@ -187,7 +187,7 @@ export const venueStages = [
 export const privateEveningBandsH2 = 'Typical private evenings we quote'
 
 export const privateEveningBandsIntro =
-  'These sit beside the starting price per persons, not instead of them. The first line is a published starting point. The others describe evenings we typically quote for food and staff. Large production extras are separate lines. 5% VAT is shown on its own.'
+  'These sit beside the starting prices per person, not instead of them. The first line is a published starting point. The others describe evenings we typically quote for food and staff. Large production extras are separate lines. 5% VAT is shown on its own.'
 
 export const privateEveningBands = [
   {
