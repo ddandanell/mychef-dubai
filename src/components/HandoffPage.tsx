@@ -186,8 +186,8 @@ export default function HandoffPage({ initialData }: { initialData?: SeoPage } =
 
   // Internal linking: contextual body links share one page-wide budget/state.
   const linkState: LinkState = { usedPhrases: new Set(), usedUrls: new Set(), budget: LINK_BUDGET }
-  // A pillar is a link like any other: a parked destination does not get one.
-  const pillars = isBlog ? pillarsFor(pathname).filter((p) => !isParked(p.url)) : []
+  // Show only the verified service destinations for this guide; never link to itself or a parked page.
+  const pillars = pillarsFor(normalizedPath).filter((p) => p.url !== normalizedPath && !isParked(p.url))
 
   // Table of contents from the H2 headings (unique ids, dedupe collisions).
   const usedIds = new Set<string>()
