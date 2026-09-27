@@ -299,7 +299,7 @@ export const decisionModule = {
   h2: 'A chef at the table, or a team in the house',
   privateChefLead: 'Private chef:',
   privateChefBody:
-    'best when everyone sits at one table and dinner is the event: cooked in your kitchen, at the pace of the conversation.',
+    'best for regular cooking at home, with a schedule and menu planned around your household. A one-off chef-led dinner is a private dining experience.',
   partyLead: 'Private party catering:',
   partyBody:
     'well suited to a larger guest list, a standing reception or a home where food is best prepared and served through a coordinated catering setup.',
@@ -307,7 +307,7 @@ export const decisionModule = {
     'Explore our event catering options for menus and service tailored to weddings, birthdays, company events and house parties.',
   catering: 'Compare catering formats from delivered food to a fully staffed event, then choose the support that suits your gathering.',
   chefHref: '/private-chef-dubai',
-  chefLabel: 'Private chef services in Dubai',
+  chefLabel: 'Regular household chef plans',
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   cateringHref: '/catering-dubai',
