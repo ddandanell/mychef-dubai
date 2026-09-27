@@ -22,7 +22,8 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { CATERING_PATHS } from '@/content/cateringCluster'
+const PARTY_INQUIRY_HREF = '/inquiry?from=/private-party-catering-dubai'
 import {
   PRIVATE_PARTY_KEYWORD_LOCK,
   PRIVATE_PARTY_ROOT,
@@ -106,7 +107,7 @@ export default function PrivatePartyCatering() {
         imageWidth={partyHero.width}
         imageHeight={partyHero.height}
         align="left"
-        cta={{ label: 'Get an itemised party-catering quote', href: CATERING_INQUIRY_HREF }}
+        cta={{ label: 'Get an itemised party-catering quote', href: PARTY_INQUIRY_HREF }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: PRIVATE_PARTY_WHATSAPP_LINK, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
@@ -317,7 +318,7 @@ export default function PrivatePartyCatering() {
               Compare catering formats <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
-              to={CATERING_INQUIRY_HREF}
+              to={PARTY_INQUIRY_HREF}
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
@@ -506,7 +507,7 @@ export default function PrivatePartyCatering() {
             Event buffets start from AED 120 per person. You do not need to build the party before contacting us. We typically reply within 15 minutes during business hours.
           </p>
           <CTAGroup>
-            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+            <Link to={PARTY_INQUIRY_HREF} className="btn-primary">
               Get an itemised party-catering quote
             </Link>
             <a
