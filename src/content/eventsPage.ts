@@ -216,7 +216,7 @@ export const startSteps = [
 export const decisionModule = {
   h2: 'Not sure which service fits?',
   privateChefLead: 'Private chef:',
-  privateChefBody: 'best for intimate, chef-led dining in your home, villa or yacht.',
+  privateChefBody: 'best for regular cooking in your home or villa, from a few days a week to a full-time plan.',
   eventLead: 'Event catering:',
   eventBody: 'best for events of 10+ guests, buffet or plated formats, staffing and larger-scale service.',
   catering:
