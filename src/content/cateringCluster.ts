@@ -53,9 +53,9 @@ export const CATERING_NAV = [
     description: 'Board meetings, launches, client dinners',
   },
   {
-    href: CATERING_PATHS.villas,
+    href: CATERING_PATHS.privateEvents,
     label: 'Villa Catering',
-    description: 'Food only through to a complete villa event',
+    description: 'Food delivery, buffet or staffed party at your villa',
   },
   {
     href: CATERING_PATHS.yachts,
@@ -122,7 +122,7 @@ export const CATERING_FOOTER_LINKS = [
   { label: 'Corporate Events', href: CATERING_PATHS.corporateEvents },
   { label: 'Birthdays & Celebrations', href: CATERING_PATHS.birthdays },
   { label: 'Private Events', href: CATERING_PATHS.privateEvents },
-  { label: 'Villa Catering', href: CATERING_PATHS.villas },
+  { label: 'Villa Catering', href: CATERING_PATHS.privateEvents },
   { label: 'Yacht Catering', href: CATERING_PATHS.yachts },
   { label: 'Private Jet Catering', href: CATERING_PATHS.privateJet },
   { label: 'Food Only & Drop-Off', href: CATERING_PATHS.dropOff },
