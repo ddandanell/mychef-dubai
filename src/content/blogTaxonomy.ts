@@ -443,6 +443,12 @@ export const CONTEXTUAL_LINKS: ContextualLink[] = ALL_CONTEXTUAL_LINKS.filter(
   .sort((a, b) => b.phrase.length - a.phrase.length)
 
 const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
+  "/blog/corporate-event-catering-ideas-dubai": [
+    { label: "Corporate Event Catering Dubai", url: "/corporate-event-catering-dubai" }
+  ],
+  "/blog/best-private-chef-birthday-dinner-dubai": [
+    { label: "Birthday Catering Dubai", url: "/birthday-catering-dubai" }
+  ],
   "/blog/desert-dinner-party-dubai": [
     {
       "label": "BBQ Catering Dubai",
@@ -539,7 +545,7 @@ export function relatedPosts(slug: string, n = 3): BlogPost[] {
 export function pillarsFor(slug: string): BlogPillar[] {
   const post = getPost(slug)
   const hub = post ? getHub(post.hub) : undefined
-  const list = [...(hub ? [hub.pillar] : []), ...(EXTRA_PILLARS[slug] ?? [])]
+  const list = [...(EXTRA_PILLARS[slug] ?? []), ...(hub ? [hub.pillar] : [])]
   const seen = new Set<string>()
   return list.filter((p) => (seen.has(p.url) ? false : (seen.add(p.url), true)))
 }
