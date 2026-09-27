@@ -25,6 +25,7 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { SectionLabel } from '../../components/system'
+import { LOGO_URL } from '@/lib/organizationSchema'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Dubai Food Trends Report 2026 and would like a custom catering proposal.')
@@ -146,7 +147,7 @@ const articleSchema = {
     '@type': 'Organization',
     '@id': 'https://www.mychef.ae/#organization',
     name: 'myCHEF',
-    logo: { '@type': 'ImageObject', url: 'https://www.mychef.ae/images/mychef-logo.png' },
+    logo: { '@type': 'ImageObject', url: LOGO_URL },
   },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',

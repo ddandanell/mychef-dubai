@@ -1,3 +1,5 @@
+import { imageAssetUrl } from '@/lib/imageAssetUrl'
+
 /** Visual direction for the active Private Chef journey. Identity/portfolio assets stay authentic. */
 export const CHEF_IMAGE_ROOT = '/images/private-chef-2026/'
 export const chefImages = {
@@ -23,7 +25,7 @@ export const chefImages = {
   birthday: { alt: 'An elegant birthday dinner table with a small cake and fresh flowers', position: '50% 55%' },
 } as const
 export type ChefImageKey = keyof typeof chefImages
-export const chefImage = (key: ChefImageKey, width = 1200) => `${CHEF_IMAGE_ROOT}${key}-${width}.webp`
+export const chefImage = (key: ChefImageKey, width = 1200) => imageAssetUrl(`${CHEF_IMAGE_ROOT}${key}-${width}.webp`)
 export const chefImageSrcSet = (key: ChefImageKey) => [480, 800, 1200, 1536].map(w => `${chefImage(key, w)} ${w}w`).join(', ')
 
 export const chefPageImages: Record<string, ChefImageKey> = {
@@ -135,7 +137,8 @@ export const legacyChefImages: Record<string, ChefImageKey> = {
 }
 export function chefImageKey(src?: string): ChefImageKey | undefined {
   if (!src) return undefined
-  if (legacyChefImages[src]) return legacyChefImages[src]
-  const key = src.split('/').pop()?.replace(/-(480|800|1200|1536)\.webp$/, '')
-  return src.startsWith(CHEF_IMAGE_ROOT) && key && key in chefImages ? key as ChefImageKey : undefined
+  const path = src.split(/[?#]/)[0]
+  if (legacyChefImages[path]) return legacyChefImages[path]
+  const key = path.split('/').pop()?.replace(/-(480|800|1200|1536)\.webp$/, '')
+  return path.startsWith(CHEF_IMAGE_ROOT) && key && key in chefImages ? key as ChefImageKey : undefined
 }

@@ -5,6 +5,7 @@ import { chefImage, chefImages, type ChefImageKey } from '@/content/privateChefD
 import BlogProse from '@/components/blog/BlogProse'
 import BlogReadingLink from '@/components/blog/BlogReadingLink'
 import { blogImageSrcSet } from '@/lib/blogImages'
+import { imageAssetUrl } from '@/lib/imageAssetUrl'
 
 interface DetailSection {
   id: string
@@ -49,7 +50,7 @@ function DetailImage({ imageKey, occurrence }: { imageKey: string; occurrence: n
   const fallback = occurrence > 0 ? alternatives[imageKey]?.[occurrence - 1] : undefined
   const imagePath = (width: number) => fallback
     ? chefImage(fallback, width)
-    : `/images/private-chef-guides-2026/${imageKey}-${width}.webp`
+    : imageAssetUrl(`/images/private-chef-guides-2026/${imageKey}-${width}.webp`)
   return <img className="pc-reading-image" src={imagePath(800)}
     srcSet={[480, 800, 1200, 1536].map(width => `${imagePath(width)} ${width}w`).join(', ')}
     sizes="(min-width: 1100px) 440px, (min-width: 800px) 38vw, calc(100vw - 40px)"
