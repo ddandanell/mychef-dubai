@@ -248,8 +248,11 @@ export default function HeroSection() {
         </p>
 
         {/* CTA Row */}
-        <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
-          <Link to="/private-chef-dubai" className="btn-primary text-center">
+        <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
+          <Link to="/inquiry" className="btn-primary text-center">
+            Get a tailored quote
+          </Link>
+          <Link to="/private-chef-dubai" className="btn-secondary text-center">
             Plan a household chef
           </Link>
           <Link to="/catering-dubai" className="btn-secondary text-center">
@@ -258,10 +261,6 @@ export default function HeroSection() {
         </div>
         <p className="mt-3 font-inter text-body-sm text-white/75 text-center md:text-left">
           Or{' '}
-          <Link to="/inquiry" className="text-gold underline underline-offset-4 hover:text-gold-light">
-            get a tailored quote
-          </Link>
-          {' · '}
           <a
             href={WHATSAPP_LINK}
             target="_blank"
