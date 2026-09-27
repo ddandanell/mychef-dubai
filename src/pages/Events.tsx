@@ -155,11 +155,11 @@ export default function Events() {
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Catering
             </Link>
-            . Intimate chef-led dinners belong on{' '}
+            . Regular cooking for your household belongs on{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.chefLabel}
             </Link>
-            . A tasting or a desert dinner belongs on{' '}
+            . A one-off chef-led dinner, tasting or desert dinner belongs on{' '}
             <Link to={siloIntro.diningHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.diningLabel}
             </Link>
