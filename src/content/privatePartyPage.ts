@@ -296,7 +296,7 @@ export const startSteps = [
 ] as const
 
 export const decisionModule = {
-  h2: 'A chef at the table, or a team in the house',
+  h2: 'Regular cooking, a private dinner or party catering?',
   privateChefLead: 'Private chef:',
   privateChefBody:
     'best for regular cooking at home, with a schedule and menu planned around your household. A one-off chef-led dinner is a private dining experience.',
