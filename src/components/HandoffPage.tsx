@@ -265,6 +265,26 @@ export default function HandoffPage({ initialData }: { initialData?: SeoPage } =
         <div className="article-body container-custom max-w-[820px]">
           {heroImage && !isChefDesignPage(pathname) && <NonCateringVisual><BlogFigure image={heroImage} priority /></NonCateringVisual>}
 
+          {pillars.length > 0 && (
+            <nav aria-label="Explore the service" className="mb-10 border-y border-gray-200 py-6">
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-4 block">
+                Explore the service
+              </span>
+              <ul className="flex flex-wrap gap-3">
+                {pillars.map((p) => (
+                  <li key={p.url}>
+                    <Link
+                      to={p.url}
+                      className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-cream px-4 py-2 font-inter text-body-sm text-black hover:border-gold hover:text-gold transition-colors"
+                    >
+                      {p.label} <ArrowRight size={14} />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+
           {showToc && (
             <nav aria-label="Table of contents" className="mb-12 rounded-2xl border border-gray-200 bg-cream p-6">
               <span className="font-inter text-caption uppercase tracking-wider text-gold mb-4 block">
@@ -316,26 +336,6 @@ export default function HandoffPage({ initialData }: { initialData?: SeoPage } =
             </aside>
           )}
 
-          {/* Money-page / pillar links for this topic */}
-          {pillars.length > 0 && (
-            <div className="mt-4 border-t border-gray-200 pt-8">
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-4 block">
-                Explore the service
-              </span>
-              <ul className="flex flex-wrap gap-3">
-                {pillars.map((p) => (
-                  <li key={p.url}>
-                    <Link
-                      to={p.url}
-                      className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-cream px-4 py-2 font-inter text-body-sm text-black hover:border-gold hover:text-gold transition-colors"
-                    >
-                      {p.label} <ArrowRight size={14} />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
         </div>
       </BlogProse>
 
