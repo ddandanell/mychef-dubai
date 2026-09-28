@@ -377,7 +377,7 @@ export const YACHT_OPS_COPY = {
   label: 'On the water',
   h2: 'The yacht decides how the food can work',
   intro:
-    'Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on the day. A yacht dinner cruise Dubai search usually means a seated meal on a charter route. We still do not operate the boat.',
+    'Galley size, loading windows and grill permissions are not trivia. They are how the food actually works on the day. Most yacht dinner cruise Dubai requests are a seated meal on a charter route. We still do not operate the boat.',
 } as const
 
 export const YACHT_BOARDING_COPY = {
