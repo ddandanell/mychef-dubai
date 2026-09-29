@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useSearchParams } from 'react-router'
 import { Mail, MessageCircle } from 'lucide-react'
 import { trackConversion } from '@/lib/track'
+import { trackDeliveredQuoteLead } from '@/lib/analytics'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
@@ -87,6 +88,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'inquiry_form')
+        trackDeliveredQuoteLead(serviceType)
         setStatus('sent')
       } else {
         setStatus('error')
