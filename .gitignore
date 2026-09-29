@@ -27,3 +27,6 @@ __pycache__/
 public/seo/
 docs/seo/keyword-map/ui/preview/
 .blog-audit/
+
+# Full render snapshots are reproducible; commit per-page records instead.
+docs/editorial-audit/2026-09-29/rendered-pages.json

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/live-cooking-stations-dubai",
   "path": "/live-cooking-stations-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/live-cooking-stations-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Live Cooking Stations Dubai | myCHEF",
-    "description": "Live cooking stations Dubai from AED 150 per person, from 15 guests: carving, pasta, grill, shawarma or dessert, cooked at the counter. Itemised quote.",
+    "title": "Live Cooking Stations Dubai | Pasta, Grills & More | myCHEF",
+    "description": "Live cooking stations in Dubai for villas, weddings and events. Explore pasta, grill and carving stations from AED 150pp before VAT, with setup assessed.",
     "h1": [
       "Live Cooking Stations Dubai"
     ]
@@ -61,6 +61,7 @@
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -77,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2354,
-    "current_word_count": 2954,
+    "current_word_count": 2966,
     "headings": [
       {
         "level": "h2",
@@ -261,7 +262,7 @@
       },
       {
         "level": "h2",
-        "text": "List the equipment before calling the plan complete"
+        "text": "Choose stations the venue can support"
       },
       {
         "level": "h2",
@@ -281,7 +282,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

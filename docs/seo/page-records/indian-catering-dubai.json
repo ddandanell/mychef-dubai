@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/indian-catering-dubai",
   "path": "/indian-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/indian-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Indian Catering Dubai | myCHEF",
-    "description": "Indian Catering Dubai with a vetted myCHEF team. Regional kitchens, tandoor and chaat. Service and clear-down so you stay a guest at your table.",
+    "title": "Indian Catering Dubai | Regional Menus & Live Stations | myCHEF",
+    "description": "Indian catering in Dubai with biryani, tandoor dishes, regional curries and chaat. Plan vegetarian or mixed menus for home celebrations and company events.",
     "h1": [
       "Indian Catering Dubai"
     ]
@@ -60,6 +60,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -268,7 +269,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

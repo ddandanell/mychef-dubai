@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/private-chef-dubai/our-chefs",
   "path": "/private-chef-dubai/our-chefs",
   "role": "noindex support page",
@@ -13,7 +13,7 @@
     "primary_owner": null,
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "navigational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
@@ -56,6 +56,7 @@
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
@@ -186,7 +187,7 @@
       "F12",
       "F13"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

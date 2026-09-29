@@ -26,8 +26,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Live Cooking Stations Catering Dubai | from AED 700 per person | myCHEF",
-  "meta_description": "Live Cooking Stations catering in Dubai — interactive stations with chefs cooking to order. From aed 700 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "title": "Live Cooking Stations Dubai | Pasta, Grills & More | myCHEF",
+  "meta_description": "Live cooking stations in Dubai for villas, weddings and events. Explore pasta, grill and carving stations from AED 150pp before VAT, with setup assessed.",
   "h1": "Live Cooking Stations Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Project the SEO contract and a local production build into one JSON record per URL.
 Run after build + prerender. --check verifies committed records without changing them.
-Keyword volumes are deliberately null: this audit did not measure demand.
+Private account research stays outside this public repository.
 """
 from __future__ import annotations
 import argparse, json, re, sys
@@ -10,6 +10,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'docs/seo/page-records'
 AUDIT=ROOT/'docs/editorial-audit/2026-09-22'
+REVIEW_DATE='2026-09-29'
+CURRENT_AUDIT=ROOT/'docs/editorial-audit'/REVIEW_DATE
+
 
 class PageParser(HTMLParser):
     def __init__(self):
@@ -88,9 +91,9 @@ def generate():
         keywords=p.get('intent_owner',{}).get('subkeywords',[]) if not redirect else []
         meta={'title':actual['title'],'description':actual['description'],'h1':actual['h1']} if actual else {'title':p.get('on_page',{}).get('title'),'description':p.get('on_page',{}).get('meta_description'),'h1':[p.get('on_page',{}).get('h1')] if p.get('on_page',{}).get('h1') else []}
         purpose=('Redirect visitors to '+redirect) if redirect else old.get('role') or meta.get('description') or p.get('page_type') or 'Supporting website route; no separate search target assigned.'
-        record={'schema_version':'1.0','reviewed_at':'2026-09-22','url':'https://www.mychef.ae'+path,'path':path,'role':role,'page_type':p.get('page_type') or ('Topic hub' if '/blog/topic/' in path else 'Supporting route'),'silo':p.get('silo') or old.get('category'),'purpose':purpose,'keywords':{'primary':primary,'secondary':keywords,'primary_owner':path if primary else None,'authority':'docs/seo/myCHEF-AE-SEO-STANDARD.json','search_volume':None,'volume_status':'Not measured in this editorial audit','intent':'informational' if ('Blog' in p.get('silo','') or '/blog/' in path or '/guides' in path) else 'transactional' if primary else 'navigational','placement':'Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings.'},'metadata':meta,'metadata_source':'local production prerender' if actual else 'SEO contract; alias or route not prerendered','indexation':{'canonical':actual['canonical'] if actual else idx.get('canonical') or ('https://www.mychef.ae'+redirect if redirect and redirect.startswith('/') else None),'robots':robots or idx.get('robots'),'in_sitemap':path in sitemap_paths,'redirect_to':redirect},'source_files':source_files,'content_review':{'baseline_observed':bool(old),'baseline_word_count':old.get('word_count'),'current_word_count':actual.get('word_count') if actual else None,'headings':actual.get('headings',[]) if actual else [],'baseline_findings':old.get('findings',[]),'log':'docs/editorial-audit/2026-09-22/README.md','guidance':'Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims.'},'internal_linking':p.get('internal_linking',{})}
+        record={'schema_version':'1.0','reviewed_at':REVIEW_DATE,'url':'https://www.mychef.ae'+path,'path':path,'role':role,'page_type':p.get('page_type') or ('Topic hub' if '/blog/topic/' in path else 'Supporting route'),'silo':p.get('silo') or old.get('category'),'purpose':purpose,'keywords':{'primary':primary,'secondary':keywords,'primary_owner':path if primary else None,'authority':'docs/seo/myCHEF-AE-SEO-STANDARD.json','search_volume':None,'volume_status':'Keyword research retained in the private audit; account metrics are not published','intent':'informational' if ('Blog' in p.get('silo','') or '/blog/' in path or '/guides' in path) else 'transactional' if primary else 'navigational','placement':'Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings.'},'metadata':meta,'metadata_source':'local production prerender' if actual else 'SEO contract; alias or route not prerendered','indexation':{'canonical':actual['canonical'] if actual else idx.get('canonical') or ('https://www.mychef.ae'+redirect if redirect and redirect.startswith('/') else None),'robots':robots or idx.get('robots'),'in_sitemap':path in sitemap_paths,'redirect_to':redirect},'source_files':source_files,'content_review':{'baseline_observed':bool(old),'baseline_word_count':old.get('word_count'),'current_word_count':actual.get('word_count') if actual else None,'headings':actual.get('headings',[]) if actual else [],'baseline_findings':old.get('findings',[]),'log':f'docs/editorial-audit/{REVIEW_DATE}/README.md','guidance':'Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims.'},'internal_linking':p.get('internal_linking',{})}
         name='home.json' if path=='/' else path.strip('/').replace('/','__')+('.trailing-slash' if path.endswith('/') else '')+'.json';outputs[name]=record;index.append({'path':path,'file':name,'primary_keyword':primary,'role':role,'silo':record['silo']});counts[role]=counts.get(role,0)+1
-    outputs['_index.json']={'schema_version':'1.0','reviewed_at':'2026-09-22','counts':counts,'total':len(index),'records':index}
+    outputs['_index.json']={'schema_version':'1.0','reviewed_at':REVIEW_DATE,'counts':counts,'total':len(index),'records':index}
     return outputs,rendered
 
 sitemap_paths=set(re.findall(r'<loc>https://www\.mychef\.ae([^<]*)</loc>',(ROOT/'public/sitemap.xml').read_text()))
@@ -106,6 +109,6 @@ if __name__=='__main__':
     if check:bad.extend(sorted(stale))
     else:
         for name in stale:(OUT/name).unlink()
-        AUDIT.mkdir(parents=True,exist_ok=True);(AUDIT/'rendered-pages.json').write_text(json.dumps(list(rendered.values()),indent=2,ensure_ascii=False)+'\n')
+        CURRENT_AUDIT.mkdir(parents=True,exist_ok=True);(CURRENT_AUDIT/'rendered-pages.json').write_text(json.dumps(list(rendered.values()),indent=2,ensure_ascii=False)+'\n')
     if bad:raise SystemExit('Page records out of date: '+', '.join(bad[:20]))
     print(f"Page records {'verified' if check else 'generated'}: {len(outputs)-1} URLs; {len(rendered)} prerendered pages")

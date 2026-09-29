@@ -25,8 +25,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Conference Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Conference catering in Dubai from AED 90 per person — arrival and break refreshments, working lunches, vetted chefs and full service. Get an itemised quote.",
+  "title": "Conference Catering Dubai | Coffee Breaks & Lunch | myCHEF",
+  "meta_description": "Conference catering in Dubai for meetings and delegate events. Plan coffee breaks, working lunches and buffets around your agenda, venue and guest numbers.",
   "h1": "Conference Catering in Dubai — Prices, Formats and What You Get"
  },
  "opening_paragraph": [

@@ -1,0 +1,957 @@
+[
+  {
+    "path": "/corporate",
+    "before": {
+      "title": "Corporate Catering Dubai | Offices and Events | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Catering Dubai for Offices and Boardrooms",
+      "h1_count": 1,
+      "meta_description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Catering Dubai | Offices and Events | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Corporate Catering Dubai | Menus for Work & Events | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Catering Dubai for Offices and Boardrooms",
+      "h1_count": 1,
+      "meta_description": "Corporate catering in Dubai for office lunches, meetings and company events. Compare menus, service and itemised quotes. Drop-off from AED 90pp before VAT.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Catering Dubai | Menus for Work & Events | myCHEF",
+      "og_type": "website",
+      "og_description": "Corporate catering in Dubai for office lunches, meetings and company events. Compare menus, service and itemised quotes. Drop-off from AED 90pp before VAT."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/office-catering-dubai",
+    "before": {
+      "title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Office Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.",
+      "meta_description_max_chars": 160,
+      "og_title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Office Catering Dubai | Team Lunches & Delivery | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Office Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Office catering in Dubai for team lunches, breakfasts and regular meals. Drop-off from AED 90pp, minimum 10 guests, before VAT. Request a menu and quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Office Catering Dubai | Team Lunches & Delivery | myCHEF",
+      "og_type": "website",
+      "og_description": "Office catering in Dubai for team lunches, breakfasts and regular meals. Drop-off from AED 90pp, minimum 10 guests, before VAT. Request a menu and quote."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/business-lunch-catering-dubai",
+    "before": {
+      "title": "Business Lunch Catering Dubai | Boardroom & Client | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Business Lunch Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Business lunch catering in Dubai for boardrooms and clients. Drop-off from AED 90 per person; plated dining AED 700–950, with VAT invoicing.",
+      "meta_description_max_chars": 160,
+      "og_title": "Business Lunch Catering Dubai | Boardroom & Client | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Business Lunch Catering Dubai | Boardroom Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Business Lunch Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Business lunch catering in Dubai for boardrooms, clients and meetings. Compare delivered platters and served menus, with timing and costs agreed in writing.",
+      "meta_description_max_chars": 160,
+      "og_title": "Business Lunch Catering Dubai | Boardroom Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Business lunch catering in Dubai for boardrooms, clients and meetings. Compare delivered platters and served menus, with timing and costs agreed in writing."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/corporate-event-catering-dubai",
+    "before": {
+      "title": "Corporate Event Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Event Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Corporate event catering Dubai for company parties, launches and networking. Canapés from AED 150 per person. Staffed buffet from AED 120 per person.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Event Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Corporate Event Catering Dubai | Receptions & Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Event Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Corporate event catering in Dubai for launches, awards and company parties. Canapés from AED 150pp or buffets from AED 120pp, before VAT. Get an itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Event Catering Dubai | Receptions & Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Corporate event catering in Dubai for launches, awards and company parties. Canapés from AED 150pp or buffets from AED 120pp, before VAT. Get an itemised quote."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/private-party-catering-dubai",
+    "before": {
+      "title": "Private Party Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Party Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Private Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Party Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Private Party Catering Dubai | Menus for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Party Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Private party catering in Dubai for house parties and celebrations. Choose food delivery, canapés, buffets or a private dinner, with staff and setup quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Party Catering Dubai | Menus for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Private party catering in Dubai for house parties and celebrations. Choose food delivery, canapés, buffets or a private dinner, with staff and setup quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/wedding-catering-dubai",
+    "before": {
+      "title": "Wedding Catering Dubai | From AED 700 a Guest | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Wedding Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Wedding Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Wedding Catering Dubai | From AED 700 a Guest | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Wedding Catering Dubai | Menus, Tastings & Service | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Wedding Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Wedding catering in Dubai for villa, garden and venue receptions. Plan plated menus, buffets, canapés and tastings, with service and equipment clearly quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Wedding Catering Dubai | Menus, Tastings & Service | myCHEF",
+      "og_type": "website",
+      "og_description": "Wedding catering in Dubai for villa, garden and venue receptions. Plan plated menus, buffets, canapés and tastings, with service and equipment clearly quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/cocktail-party-catering-dubai",
+    "before": {
+      "title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Cocktail Party Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Cocktail party catering in Dubai: passed canapés from AED 150 per person, standing service, setup and clear-down. Tell us the date, headcount and room.",
+      "meta_description_max_chars": 160,
+      "og_title": "Cocktail Party Catering Dubai | You Stay a Guest | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Cocktail Party Catering Dubai | Canapés & Service | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Cocktail Party Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Cocktail party catering in Dubai with passed canapés, finger food and optional bar service. Menus from AED 150pp before VAT; staffing and equipment quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Cocktail Party Catering Dubai | Canapés & Service | myCHEF",
+      "og_type": "website",
+      "og_description": "Cocktail party catering in Dubai with passed canapés, finger food and optional bar service. Menus from AED 150pp before VAT; staffing and equipment quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/buffet-catering-dubai",
+    "before": {
+      "title": "Buffet Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Buffet Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Buffet Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Buffet Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Buffet Catering Dubai | Menus & Staffed Service | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Buffet Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Buffet catering in Dubai from AED 120pp for 20 guests, before VAT. Plan hot dishes, salads and desserts with equipment, replenishment and service confirmed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Buffet Catering Dubai | Menus & Staffed Service | myCHEF",
+      "og_type": "website",
+      "og_description": "Buffet catering in Dubai from AED 120pp for 20 guests, before VAT. Plan hot dishes, salads and desserts with equipment, replenishment and service confirmed."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/drop-off-catering-dubai",
+    "before": {
+      "title": "Drop Off Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Drop Off Catering Dubai: Food That Arrives Without a Team",
+      "h1_count": 1,
+      "meta_description": "Drop Off Catering Dubai: chef-cooked food delivered ready to serve, no team on site. From AED 90 per person, 10 guests, AED 900 minimum order.",
+      "meta_description_max_chars": 160,
+      "og_title": "Drop Off Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Drop Off Catering Dubai | Platters & Delivered Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Drop Off Catering Dubai: Food That Arrives Without a Team",
+      "h1_count": 1,
+      "meta_description": "Drop off catering in Dubai for homes and offices. Delivered menus from AED 90pp for 10 guests, before VAT, with food labels and serving guidance agreed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Drop Off Catering Dubai | Platters & Delivered Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Drop off catering in Dubai for homes and offices. Delivered menus from AED 90pp for 10 guests, before VAT, with food labels and serving guidance agreed."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/breakfast-catering-dubai",
+    "before": {
+      "title": "Breakfast Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Breakfast Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Breakfast catering Dubai for offices, villas and hotel suites. Pastries, hot dishes, coffee. Drop-off from AED 90, buffet from AED 120. Itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Breakfast Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Breakfast Catering Dubai | Offices & Private Homes | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Breakfast Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Breakfast catering in Dubai for offices, villas and morning events. Plan pastries, fruit, hot dishes and coffee with delivery or staffed service quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Breakfast Catering Dubai | Offices & Private Homes | myCHEF",
+      "og_type": "website",
+      "og_description": "Breakfast catering in Dubai for offices, villas and morning events. Plan pastries, fruit, hot dishes and coffee with delivery or staffed service quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/brunch-catering-dubai",
+    "before": {
+      "title": "Brunch Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Brunch Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Brunch catering Dubai: weekend villa tables, corporate mornings and a chef in your kitchen. Pastries, eggs, fruit and coffee, then we clear down.",
+      "meta_description_max_chars": 160,
+      "og_title": "Brunch Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Brunch Catering Dubai | Private Villa & Event Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Brunch Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Brunch catering in Dubai for villas, birthdays and gatherings. Choose breakfast favourites, savoury dishes and desserts, with a chef and service team quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Brunch Catering Dubai | Private Villa & Event Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Brunch catering in Dubai for villas, birthdays and gatherings. Choose breakfast favourites, savoury dishes and desserts, with a chef and service team quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/bbq-catering-dubai",
+    "before": {
+      "title": "BBQ Catering Dubai | Live Grills & Stations | myCHEF",
+      "title_max_chars": 65,
+      "h1": "BBQ Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "BBQ catering Dubai from AED 150 per person, from 15 guests: live grill, named proteins, setup and clear-down. Tell us the date, headcount and outdoor space.",
+      "meta_description_max_chars": 160,
+      "og_title": "BBQ Catering Dubai | Live Grills & Stations | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "BBQ Catering Dubai | Live Grills for Villas & Events | myCHEF",
+      "title_max_chars": 65,
+      "h1": "BBQ Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "BBQ catering in Dubai from AED 150pp for 15 guests, before VAT. Plan a live grill, meats, vegetarian dishes and sides, with equipment and service quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "BBQ Catering Dubai | Live Grills for Villas & Events | myCHEF",
+      "og_type": "website",
+      "og_description": "BBQ catering in Dubai from AED 150pp for 15 guests, before VAT. Plan a live grill, meats, vegetarian dishes and sides, with equipment and service quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/mediterranean-catering-dubai",
+    "before": {
+      "title": "Mediterranean Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Mediterranean Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Mediterranean Catering Dubai with a vetted myCHEF team. Greek, coastal and vegetable-forward menus. You stay a guest at your own table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Mediterranean Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Mediterranean Catering Dubai | Mezze & Sharing Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Mediterranean Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Mediterranean catering in Dubai with mezze, grilled fish, seasonal vegetables and sharing dishes. Tailored menus for homes, weddings and company events.",
+      "meta_description_max_chars": 160,
+      "og_title": "Mediterranean Catering Dubai | Mezze & Sharing Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Mediterranean catering in Dubai with mezze, grilled fish, seasonal vegetables and sharing dishes. Tailored menus for homes, weddings and company events."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/christmas-catering-dubai",
+    "before": {
+      "title": "Christmas Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home",
+      "h1_count": 1,
+      "meta_description": "Christmas catering Dubai: a private chef cooks Christmas dinner at home. British, French, Italian, German, Russian, Swiss & American menus.",
+      "meta_description_max_chars": 160,
+      "og_title": "Christmas Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Christmas Catering Dubai | Christmas Dinner at Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home",
+      "h1_count": 1,
+      "meta_description": "Christmas catering in Dubai for lunch or dinner at home. Plan roast dishes, seasonal sides and desserts, with private chefs, staff and optional décor quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Christmas Catering Dubai | Christmas Dinner at Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Christmas catering in Dubai for lunch or dinner at home. Plan roast dishes, seasonal sides and desserts, with private chefs, staff and optional décor quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/diwali-catering-dubai",
+    "before": {
+      "title": "Diwali Catering Dubai | Indian Festive Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Diwali Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Diwali catering Dubai at your home, office or villa. Vegetarian and Jain notes, chaat stations, mithai. Buffet from AED 120. Itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Diwali Catering Dubai | Indian Festive Menus | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Diwali Catering Dubai | Indian Menus & Chaat Stations | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Diwali Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Diwali catering in Dubai for homes and offices. Plan Indian vegetarian or mixed menus, chaat stations and mithai, with Jain requirements agreed in advance.",
+      "meta_description_max_chars": 160,
+      "og_title": "Diwali Catering Dubai | Indian Menus & Chaat Stations | myCHEF",
+      "og_type": "website",
+      "og_description": "Diwali catering in Dubai for homes and offices. Plan Indian vegetarian or mixed menus, chaat stations and mithai, with Jain requirements agreed in advance."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/live-cooking-stations-dubai",
+    "before": {
+      "title": "Live Cooking Stations Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Live Cooking Stations Dubai",
+      "h1_count": 1,
+      "meta_description": "Live cooking stations Dubai from AED 150 per person, from 15 guests: carving, pasta, grill, shawarma or dessert, cooked at the counter. Itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Live Cooking Stations Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Live Cooking Stations Dubai | Pasta, Grills & More | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Live Cooking Stations Dubai",
+      "h1_count": 1,
+      "meta_description": "Live cooking stations in Dubai for villas, weddings and events. Explore pasta, grill and carving stations from AED 150pp before VAT, with setup assessed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Live Cooking Stations Dubai | Pasta, Grills & More | myCHEF",
+      "og_type": "website",
+      "og_description": "Live cooking stations in Dubai for villas, weddings and events. Explore pasta, grill and carving stations from AED 150pp before VAT, with setup assessed."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/sushi-catering-dubai",
+    "before": {
+      "title": "Sushi Catering Dubai | Platters or Counter | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Sushi Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Sushi catering Dubai: live counter or chilled platters. Ice time, service and clear-down so you stay a guest at your table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Sushi Catering Dubai | Platters or Counter | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Sushi Catering Dubai | Platters & Live Sushi Counters | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Sushi Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Sushi Catering Dubai | Platters & Live Sushi Counters | myCHEF",
+      "og_type": "website",
+      "og_description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/conference-catering-dubai",
+    "before": {
+      "title": "Conference Catering Dubai | Working Lunches | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Conference Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Conference catering in Dubai with coffee breaks and working lunches. Drop-off from AED 90 per person; staffed buffets from AED 120.",
+      "meta_description_max_chars": 160,
+      "og_title": "Conference Catering Dubai | Working Lunches | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Conference Catering Dubai | Coffee Breaks & Lunch | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Conference Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Conference catering in Dubai for meetings and delegate events. Plan coffee breaks, working lunches and buffets around your agenda, venue and guest numbers.",
+      "meta_description_max_chars": 160,
+      "og_title": "Conference Catering Dubai | Coffee Breaks & Lunch | myCHEF",
+      "og_type": "website",
+      "og_description": "Conference catering in Dubai for meetings and delegate events. Plan coffee breaks, working lunches and buffets around your agenda, venue and guest numbers."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/events",
+    "before": {
+      "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
+      "title_max_chars": 80,
+      "h1": "Event Catering Dubai for Weddings and Parties",
+      "h1_count": 1,
+      "meta_description": "Event catering in Dubai for weddings, birthdays and private parties. Menus, chefs, staff, setup and clear-down, from AED 120 per person.",
+      "meta_description_max_chars": 180,
+      "og_title": "Event Catering Dubai | Weddings & Parties | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Event Catering Dubai | Parties, Weddings & Receptions | myCHEF",
+      "title_max_chars": 80,
+      "h1": "Event Catering Dubai for Weddings and Parties",
+      "h1_count": 1,
+      "meta_description": "Event catering in Dubai for weddings, birthdays and private celebrations. Compare canapés, buffets and plated menus, with chefs, waitstaff and setup quoted.",
+      "meta_description_max_chars": 180,
+      "og_title": "Event Catering Dubai | Parties, Weddings & Receptions | myCHEF",
+      "og_type": "website",
+      "og_description": "Event catering in Dubai for weddings, birthdays and private celebrations. Compare canapés, buffets and plated menus, with chefs, waitstaff and setup quoted."
+    },
+    "unique_service_copy": true
+  },
+  {
+    "path": "/private-chef-dubai",
+    "before": {
+      "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Chef Dubai: a chef who comes back",
+      "h1_count": 1,
+      "meta_description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans."
+    },
+    "after": {
+      "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Chef Dubai. Made personal.",
+      "h1_count": 1,
+      "meta_description": "Private chef visits in Dubai from AED 750 or household plans from AED 18,000/month, before VAT. Personal menus, chef matching and separate groceries.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
+      "og_type": "website",
+      "og_description": "Private chef visits in Dubai from AED 750 or household plans from AED 18,000/month, before VAT. Personal menus, chef matching and separate groceries."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/full-time-private-chef-dubai",
+    "before": {
+      "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Full Time Private Chef Dubai: most days, without employing anyone",
+      "h1_count": 1,
+      "meta_description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you.",
+      "meta_description_max_chars": 160,
+      "og_title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you."
+    },
+    "after": {
+      "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Full Time Private Chef Dubai. At home in your life.",
+      "h1_count": 1,
+      "meta_description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate.",
+      "meta_description_max_chars": 160,
+      "og_title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
+      "og_type": "website",
+      "og_description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/part-time-private-chef-dubai",
+    "before": {
+      "title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Part Time Private Chef Dubai: two or three days a week",
+      "h1_count": 1,
+      "meta_description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of.",
+      "meta_description_max_chars": 160,
+      "og_title": "Part Time Private Chef Dubai | Plans for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Fresh cooking and practical kitchen support for the days you need it. A part-time chef plan gives your household a regular rhythm with room for the rest of."
+    },
+    "after": {
+      "title": "Part Time Private Chef Dubai | Flexible Home Visits | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Part Time Private Chef Dubai. Good food on your days.",
+      "h1_count": 1,
+      "meta_description": "Part time private chef in Dubai for selected cooking days. Plan fresh meals or preparation for later, with visit fees, groceries and availability confirmed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Part Time Private Chef Dubai | Flexible Home Visits | myCHEF",
+      "og_type": "website",
+      "og_description": "Part time private chef in Dubai for selected cooking days. Plan fresh meals or preparation for later, with visit fees, groceries and availability confirmed."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/weekly-meal-prep-dubai",
+    "before": {
+      "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef",
+      "h1_count": 1,
+      "meta_description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
+      "meta_description_max_chars": 160,
+      "og_title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead."
+    },
+    "after": {
+      "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Meal Prep Dubai. A well-prepared week.",
+      "h1_count": 1,
+      "meta_description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately.",
+      "meta_description_max_chars": 160,
+      "og_title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/wellness-meal-prep-dubai",
+    "before": {
+      "title": "Healthy Meal Prep Dubai | Plans for Your Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Healthy Meal Prep Dubai",
+      "h1_count": 1,
+      "meta_description": "Fresh ingredients, balanced choices and food you enjoy eating. Your chef prepares meals in your home around your preferences and any agreed dietary guidance.",
+      "meta_description_max_chars": 160,
+      "og_title": "Healthy Meal Prep Dubai | Plans for Your Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Fresh ingredients, balanced choices and food you enjoy eating. Your chef prepares meals in your home around your preferences and any agreed dietary guidance."
+    },
+    "after": {
+      "title": "Healthy Meal Prep Dubai | Personal Menus at Home | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Healthy Meal Prep Dubai. Thoughtful food for everyday life.",
+      "h1_count": 1,
+      "meta_description": "Healthy meal prep in Dubai, cooked in your home around your preferences. Discuss ingredients, portions and any dietary guidance before choosing your chef plan.",
+      "meta_description_max_chars": 160,
+      "og_title": "Healthy Meal Prep Dubai | Personal Menus at Home | myCHEF",
+      "og_type": "website",
+      "og_description": "Healthy meal prep in Dubai, cooked in your home around your preferences. Discuss ingredients, portions and any dietary guidance before choosing your chef plan."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/canape-catering-dubai",
+    "before": {
+      "title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Canapé Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Explore 50 canapé ideas for Dubai weddings, receptions and private parties. Hot, cold, vegan and sweet selections from AED 150 per guest. Plan your menu.",
+      "meta_description_max_chars": 160,
+      "og_title": "Canapé Catering Dubai | 50 Menu Ideas | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Canapé Catering Dubai | Finger Food & 50 Menu Ideas | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Canapé Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Canapé catering in Dubai with 50 finger food ideas for parties and receptions. Explore hot, cold, vegetarian and sweet bites from AED 150pp before VAT.",
+      "meta_description_max_chars": 160,
+      "og_title": "Canapé Catering Dubai | Finger Food & 50 Menu Ideas | myCHEF",
+      "og_type": "website",
+      "og_description": "Canapé catering in Dubai with 50 finger food ideas for parties and receptions. Explore hot, cold, vegetarian and sweet bites from AED 150pp before VAT."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/catering-packages-dubai",
+    "before": {
+      "title": "Catering Packages Dubai | Four Published Totals | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Catering Packages Dubai",
+      "h1_count": 1,
+      "meta_description": "Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, service and clear-down in the total.",
+      "meta_description_max_chars": 160,
+      "og_title": "Catering Packages Dubai | Four Published Totals | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Catering Packages Dubai | Menus, Prices & Inclusions | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Catering Packages Dubai",
+      "h1_count": 1,
+      "meta_description": "Compare catering packages in Dubai for dinners, birthdays and company meals. See starting prices, guest ranges and service inclusions before requesting a quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Catering Packages Dubai | Menus, Prices & Inclusions | myCHEF",
+      "og_type": "website",
+      "og_description": "Compare catering packages in Dubai for dinners, birthdays and company meals. See starting prices, guest ranges and service inclusions before requesting a quote."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/festive-catering-dubai",
+    "before": {
+      "title": "Festive Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Festive Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Festive catering Dubai for Ramadan, Eid, Diwali and New Year. Christmas menus sit on their own page. Cooked at your venue. Buffet from AED 120. Itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Festive Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Festive Catering Dubai | Christmas, Diwali & Eid | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Festive Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Festive catering in Dubai for Christmas, Diwali, Ramadan, Eid and New Year. Explore seasonal menus and service options for homes, offices and celebrations.",
+      "meta_description_max_chars": 160,
+      "og_title": "Festive Catering Dubai | Christmas, Diwali & Eid | myCHEF",
+      "og_type": "website",
+      "og_description": "Festive catering in Dubai for Christmas, Diwali, Ramadan, Eid and New Year. Explore seasonal menus and service options for homes, offices and celebrations."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/menus",
+    "before": {
+      "title": "Catering Menus Dubai | Samples Then a Quote | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Catering Menus Dubai",
+      "h1_count": 1,
+      "meta_description": "Catering menus Dubai start as samples. Tell us the occasion and the kitchen. We rewrite the menu, match a chef and send an itemised quote.",
+      "meta_description_max_chars": 160,
+      "og_title": "Catering Menus Dubai | Samples Then a Quote | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Catering Menus Dubai | Sample Dishes & Service Styles | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Catering Menus Dubai",
+      "h1_count": 1,
+      "meta_description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion.",
+      "meta_description_max_chars": 160,
+      "og_title": "Catering Menus Dubai | Sample Dishes & Service Styles | myCHEF",
+      "og_type": "website",
+      "og_description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/wedding-catering-menu-planning-dubai",
+    "before": {
+      "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Wedding Menu Planning Dubai",
+      "h1_count": 1,
+      "meta_description": "Wedding menu planning Dubai: buffet and plated ideas, Indian, Arabic and Lebanese menus, tastings, late-night food and mixed diets. Not a price list.",
+      "meta_description_max_chars": 160,
+      "og_title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Wedding Menu Planning Dubai",
+      "h1_count": 1,
+      "meta_description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue.",
+      "meta_description_max_chars": 160,
+      "og_title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+      "og_type": "website",
+      "og_description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/corporate-catering-checklist-dubai",
+    "before": {
+      "title": "Corporate Catering Checklist Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Catering Checklist Dubai",
+      "h1_count": 1,
+      "meta_description": "Corporate catering checklist Dubai: what to lock before you brief. Headcount, format, access, dietary notes and an itemised proposal.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Catering Checklist Dubai | myCHEF",
+      "og_type": "article"
+    },
+    "after": {
+      "title": "Corporate Catering Checklist Dubai | Plan Your Event | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Catering Checklist Dubai",
+      "h1_count": 1,
+      "meta_description": "A corporate catering checklist for Dubai offices and events: guest counts, menus, access, equipment, dietary requirements, service times and written quotes.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Catering Checklist Dubai | Plan Your Event | myCHEF",
+      "og_type": "article",
+      "og_description": "A corporate catering checklist for Dubai offices and events: guest counts, menus, access, equipment, dietary requirements, service times and written quotes."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/private-cooking-classes-dubai",
+    "before": {
+      "title": "Private Cooking Classes Dubai | Cook Then Eat | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Cooking Classes Dubai: Chef-Led Lessons at Home",
+      "h1_count": 1,
+      "meta_description": "Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat. Couples, families and teams. Ingredients, kit and clear-down included.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Cooking Classes Dubai | Cook Then Eat | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Private Cooking Classes Dubai | A Chef in Your Kitchen | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Cooking Classes Dubai: Chef-Led Lessons at Home",
+      "h1_count": 1,
+      "meta_description": "Private cooking classes in Dubai for couples, families and small groups. Choose your cuisine and discuss the menu, ingredients and kitchen setup with myCHEF.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Cooking Classes Dubai | A Chef in Your Kitchen | myCHEF",
+      "og_type": "website",
+      "og_description": "Private cooking classes in Dubai for couples, families and small groups. Choose your cuisine and discuss the menu, ingredients and kitchen setup with myCHEF."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/grazing-table-dubai",
+    "before": {
+      "title": "Grazing Table Dubai | Built On Site in the Room | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Grazing Table Dubai",
+      "h1_count": 1,
+      "meta_description": "Grazing table Dubai: cheeses, breads, fruit and a styled table, built on site and packed down. Send the date, guest count and venue.",
+      "meta_description_max_chars": 160,
+      "og_title": "Grazing Table Dubai | Built On Site in the Room | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Grazing Table Dubai | Styled Platters for Your Event | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Grazing Table Dubai",
+      "h1_count": 1,
+      "meta_description": "Grazing tables in Dubai for parties, weddings and office gatherings. Plan cheeses, breads, fruit and dips, with quantities, styling and setup clearly quoted.",
+      "meta_description_max_chars": 160,
+      "og_title": "Grazing Table Dubai | Styled Platters for Your Event | myCHEF",
+      "og_type": "website",
+      "og_description": "Grazing tables in Dubai for parties, weddings and office gatherings. Plan cheeses, breads, fruit and dips, with quantities, styling and setup clearly quoted."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/indian-catering-dubai",
+    "before": {
+      "title": "Indian Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Indian Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Indian Catering Dubai with a vetted myCHEF team. Regional kitchens, tandoor and chaat. Service and clear-down so you stay a guest at your table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Indian Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Indian Catering Dubai | Regional Menus & Live Stations | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Indian Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Indian catering in Dubai with biryani, tandoor dishes, regional curries and chaat. Plan vegetarian or mixed menus for home celebrations and company events.",
+      "meta_description_max_chars": 160,
+      "og_title": "Indian Catering Dubai | Regional Menus & Live Stations | myCHEF",
+      "og_type": "website",
+      "og_description": "Indian catering in Dubai with biryani, tandoor dishes, regional curries and chaat. Plan vegetarian or mixed menus for home celebrations and company events."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/arabic-catering-dubai",
+    "before": {
+      "title": "Arabic Catering Dubai | Mezze, Grill, Ouzi | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Arabic Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Arabic catering Dubai: mezze, charcoal grills, ouzi, Emirati and Levantine dishes. Chefs cook on site and clear the room. Send date, guests and venue.",
+      "meta_description_max_chars": 160,
+      "og_title": "Arabic Catering Dubai | Mezze, Grill, Ouzi | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Arabic Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Arabic catering in Dubai for majlis, weddings and private events. Plan mezze, grills, rice dishes and sweets, with halal sourcing and service agreed.",
+      "meta_description_max_chars": 160,
+      "og_title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Arabic catering in Dubai for majlis, weddings and private events. Plan mezze, grills, rice dishes and sweets, with halal sourcing and service agreed."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/italian-catering-dubai",
+    "before": {
+      "title": "Italian Catering Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Italian Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Italian Catering Dubai with a vetted myCHEF team. Live pasta or plated primo. Pork not assumed. You stay a guest at your own table.",
+      "meta_description_max_chars": 160,
+      "og_title": "Italian Catering Dubai | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Italian Catering Dubai | Pasta & Private Event Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Italian Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "Italian catering in Dubai with antipasti, pasta and regional dishes. Choose sharing plates, a seated menu or a pasta station for your private event.",
+      "meta_description_max_chars": 160,
+      "og_title": "Italian Catering Dubai | Pasta & Private Event Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "Italian catering in Dubai with antipasti, pasta and regional dishes. Choose sharing plates, a seated menu or a pasta station for your private event."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/school-catering-dubai",
+    "before": {
+      "title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+      "title_max_chars": 65,
+      "h1": "School Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
+      "meta_description_max_chars": 160,
+      "og_title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "School Catering Dubai | Lunches & Canteen Proposals | myCHEF",
+      "title_max_chars": 65,
+      "h1": "School Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "School catering in Dubai for lunches and canteen service. Discuss pupil ages, meal numbers, dietary policies and facilities before requesting a proposal.",
+      "meta_description_max_chars": 160,
+      "og_title": "School Catering Dubai | Lunches & Canteen Proposals | myCHEF",
+      "og_type": "website",
+      "og_description": "School catering in Dubai for lunches and canteen service. Discuss pupil ages, meal numbers, dietary policies and facilities before requesting a proposal."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/new-year-catering-dubai",
+    "before": {
+      "title": "New Year Catering Dubai | NYE Parties | myCHEF",
+      "title_max_chars": 65,
+      "h1": "New Year Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast, then we clear down.",
+      "meta_description_max_chars": 160,
+      "og_title": "New Year Catering Dubai | NYE Parties | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "New Year Catering Dubai | NYE Dinners & Party Menus | myCHEF",
+      "title_max_chars": 65,
+      "h1": "New Year Catering Dubai",
+      "h1_count": 1,
+      "meta_description": "New Year catering in Dubai for villa dinners, private parties and yacht celebrations. Plan canapés, dinner and service around your New Year’s Eve schedule.",
+      "meta_description_max_chars": 160,
+      "og_title": "New Year Catering Dubai | NYE Dinners & Party Menus | myCHEF",
+      "og_type": "website",
+      "og_description": "New Year catering in Dubai for villa dinners, private parties and yacht celebrations. Plan canapés, dinner and service around your New Year’s Eve schedule."
+    },
+    "unique_service_copy": false
+  },
+  {
+    "path": "/catering-dubai",
+    "before": {
+      "title": "Catering Dubai | Menus, Prices & Event Service | myCHEF",
+      "title_max_chars": 80,
+      "h1": "Catering Dubai, made for your occasion.",
+      "h1_count": 1,
+      "meta_description": "Catering Dubai for homes, offices and events. Compare menus and service: food delivery from AED 90pp for 10 guests, or a staffed event. Request a quote.",
+      "meta_description_max_chars": 180,
+      "og_title": "Catering Dubai | Menus, Prices & Event Service | myCHEF",
+      "og_type": "website"
+    },
+    "after": {
+      "title": "Catering Dubai | Menus, Prices & Event Service | myCHEF",
+      "title_max_chars": 80,
+      "h1": "Catering Dubai, made for your occasion.",
+      "h1_count": 1,
+      "meta_description": "Catering in Dubai for homes, offices and events. Compare delivery, canapés, buffets and staffed service. Food delivery from AED 90pp for 10 guests, before VAT.",
+      "meta_description_max_chars": 180,
+      "og_title": "Catering Dubai | Menus, Prices & Event Service | myCHEF",
+      "og_type": "website",
+      "og_description": "Catering in Dubai for homes, offices and events. Compare delivery, canapés, buffets and staffed service. Food delivery from AED 90pp for 10 guests, before VAT."
+    },
+    "unique_service_copy": false
+  }
+]

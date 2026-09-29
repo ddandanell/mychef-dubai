@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/new-year-catering-dubai",
   "path": "/new-year-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/new-year-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "New Year Catering Dubai | NYE Parties | myCHEF",
-    "description": "New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast, then we clear down.",
+    "title": "New Year Catering Dubai | NYE Dinners & Party Menus | myCHEF",
+    "description": "New Year catering in Dubai for villa dinners, private parties and yacht celebrations. Plan canapés, dinner and service around your New Year’s Eve schedule.",
     "h1": [
       "New Year Catering Dubai"
     ]
@@ -60,6 +60,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -305,7 +306,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

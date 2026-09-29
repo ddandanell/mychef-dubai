@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/brunch-catering-dubai",
   "path": "/brunch-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/brunch-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Brunch Catering Dubai | myCHEF",
-    "description": "Brunch catering Dubai: weekend villa tables, corporate mornings and a chef in your kitchen. Pastries, eggs, fruit and coffee, then we clear down.",
+    "title": "Brunch Catering Dubai | Private Villa & Event Menus | myCHEF",
+    "description": "Brunch catering in Dubai for villas, birthdays and gatherings. Choose breakfast favourites, savoury dishes and desserts, with a chef and service team quoted.",
     "h1": [
       "Brunch Catering Dubai"
     ]
@@ -59,6 +59,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -75,7 +76,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2519,
-    "current_word_count": 3155,
+    "current_word_count": 3172,
     "headings": [
       {
         "level": "h2",
@@ -307,7 +308,7 @@
       },
       {
         "level": "h2",
-        "text": "Give the menu a clear direction"
+        "text": "Give a longer morning a clear menu and service window"
       },
       {
         "level": "h2",
@@ -327,7 +328,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

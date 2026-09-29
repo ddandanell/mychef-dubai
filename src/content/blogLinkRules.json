@@ -2,6 +2,26 @@
   "shared": [
     {
       "phrases": [
+        "canapé catering",
+        "canape catering",
+        "finger food catering",
+        "canapé menu",
+        "passed canapés"
+      ],
+      "href": "/canape-catering-dubai"
+    },
+    {
+      "phrases": [
+        "business lunch catering",
+        "boardroom catering",
+        "client lunch",
+        "business lunch",
+        "corporate lunch"
+      ],
+      "href": "/business-lunch-catering-dubai"
+    },
+    {
+      "phrases": [
         "private chef prices",
         "household visit rates",
         "private chef pricing"
@@ -108,15 +128,16 @@
     },
     {
       "phrases": [
-        "corporate catering",
-        "office catering"
+        "corporate catering"
       ],
       "href": "/corporate"
     },
     {
       "phrases": [
-        "corporate lunch",
-        "office lunch"
+        "office catering",
+        "office lunch",
+        "office lunches",
+        "recurring office meals"
       ],
       "href": "/office-catering-dubai"
     },
