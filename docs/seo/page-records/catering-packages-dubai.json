@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/catering-packages-dubai",
   "path": "/catering-packages-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/catering-packages-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Catering Packages Dubai | Four Published Totals | myCHEF",
-    "description": "Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, service and clear-down in the total.",
+    "title": "Catering Packages Dubai | Menus, Prices & Inclusions | myCHEF",
+    "description": "Compare catering packages in Dubai for dinners, birthdays and company meals. See starting prices, guest ranges and service inclusions before requesting a quote.",
     "h1": [
       "Catering Packages Dubai"
     ]
@@ -63,6 +63,7 @@
     "src/content/hubPages.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/starterPackages.ts",
@@ -176,7 +177,7 @@
     "baseline_findings": [
       "F02"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

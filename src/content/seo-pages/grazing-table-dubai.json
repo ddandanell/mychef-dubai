@@ -26,8 +26,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Grazing Table Catering Dubai | Prices from AED 150 per person | myCHEF",
-  "meta_description": "Grazing table catering in Dubai — an abundant styled centrepiece. From AED 150 per person built and styled on site, or AED 700 with a chef serving through the event.",
+  "title": "Grazing Table Dubai | Styled Platters for Your Event | myCHEF",
+  "meta_description": "Grazing tables in Dubai for parties, weddings and office gatherings. Plan cheeses, breads, fruit and dips, with quantities, styling and setup clearly quoted.",
   "h1": "Grazing Table Catering in Dubai — Menus, Prices and What's Included"
  },
  "opening_paragraph": [

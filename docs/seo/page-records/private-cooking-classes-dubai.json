@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/private-cooking-classes-dubai",
   "path": "/private-cooking-classes-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/private-cooking-classes-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Cooking Classes Dubai | Cook Then Eat | myCHEF",
-    "description": "Private cooking classes Dubai: a chef in your kitchen, you cook, then you eat. Couples, families and teams. Ingredients, kit and clear-down included.",
+    "title": "Private Cooking Classes Dubai | A Chef in Your Kitchen | myCHEF",
+    "description": "Private cooking classes in Dubai for couples, families and small groups. Choose your cuisine and discuss the menu, ingredients and kitchen setup with myCHEF.",
     "h1": [
       "Private Cooking Classes Dubai: Chef-Led Lessons at Home"
     ]
@@ -59,6 +59,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -235,7 +236,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

@@ -34,8 +34,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Catering Menus Dubai — Published Packages and Per-Person Prices | myCHEF",
-  "meta_description": "Catering menus in Dubai with published prices: packages from AED 1,200 to AED 5,500, per-person formats from AED 90, private chef from AED 700, and 11 dietary options.",
+  "title": "Catering Menus Dubai | Sample Dishes & Service Styles | myCHEF",
+  "meta_description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion.",
   "h1": "Catering Menus Dubai — Packages and Per-Person Prices"
  },
  "opening_paragraph": [

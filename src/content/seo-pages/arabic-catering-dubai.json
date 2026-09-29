@@ -38,8 +38,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Arabic Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Arabic catering in Dubai from AED 90pp dropped off, AED 700–950pp with a chef cooking on site — mezze, mashawi, ouzi and Arabic sweets. Get an itemised quote.",
+  "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
+  "meta_description": "Arabic catering in Dubai for majlis, weddings and private events. Plan mezze, grills, rice dishes and sweets, with halal sourcing and service agreed.",
   "h1": "Arabic Catering in Dubai — Prices, Formats and What You Get"
  },
  "opening_paragraph": [

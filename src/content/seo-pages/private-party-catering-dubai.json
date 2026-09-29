@@ -35,8 +35,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Party Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Private party catering in Dubai from AED 120pp for a buffet, AED 700–950pp with a chef cooking on site. Canapés, grazing and live stations. Get an itemised quote.",
+  "title": "Private Party Catering Dubai | Menus for Your Home | myCHEF",
+  "meta_description": "Private party catering in Dubai for house parties and celebrations. Choose food delivery, canapés, buffets or a private dinner, with staff and setup quoted.",
   "h1": "Private Party Catering in Dubai — Real Prices, Menus and Timings"
  },
  "opening_paragraph": [

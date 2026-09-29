@@ -4,10 +4,15 @@ import { blogLinkState, linkBlogText, type BlogLinkState } from '@/lib/blogEdito
 
 /** Add contextual links in the rendered article, including prerendered HTML.
  * Existing links, headings, navigation and custom components keep their meaning.
- * One link per paragraph and two per destination keep long guides readable. */
+ * Service-page destinations follow the SEO ownership contract. Links are capped
+ * per paragraph, destination and article so copy remains comfortable to read. */
 export default function BlogProse({ as: Tag = 'article', children, ...props }: HTMLAttributes<HTMLElement> & { as?: 'article' | 'div' }) {
   const { pathname } = useLocation()
   const state = blogLinkState(pathname)
+  function containsLink(nodes: ReactNode): boolean {
+    return Children.toArray(nodes).some(node => isValidElement<{ children?: ReactNode }>(node) &&
+      (node.type === 'a' || node.type === Link || containsLink(node.props.children)))
+  }
   function walk(nodes: ReactNode, paragraph?: BlogLinkState): ReactNode {
     return Children.map(nodes, node => {
       if (typeof node === 'string' && paragraph) {
@@ -16,9 +21,9 @@ export default function BlogProse({ as: Tag = 'article', children, ...props }: H
       }
       if (!isValidElement<{ children?: ReactNode }>(node) || typeof node.type !== 'string') return node
       if (/^(a|nav|aside|script|style|h[1-6]|button|figcaption)$/.test(node.type)) return node
-      const next = node.type === 'p' ? { ...state, remaining: 1 } : paragraph
+      const next = node.type === 'p' ? { ...state, remaining: containsLink(node.props.children) ? 0 : 1 } : paragraph
       return cloneElement(node, {}, walk(node.props.children, next))
     })
   }
-  return <Tag {...props}>{pathname.startsWith('/blog/') ? walk(children) : children}</Tag>
+  return <Tag {...props}>{state.rules.length ? walk(children) : children}</Tag>
 }

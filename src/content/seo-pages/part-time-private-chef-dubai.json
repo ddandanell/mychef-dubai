@@ -23,8 +23,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Part Time Private Chef Catering Dubai | Quoted Per Schedule | myCHEF",
-  "meta_description": "Part-Time Private Chef catering in Dubai — a household chef for set days each week. Quoted per schedule, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "title": "Part Time Private Chef Dubai | Flexible Home Visits | myCHEF",
+  "meta_description": "Part time private chef in Dubai for selected cooking days. Plan fresh meals or preparation for later, with visit fees, groceries and availability confirmed.",
   "h1": "Part-Time Private Chef and Catering in Dubai — Prices and What You Get"
  },
  "opening_paragraph": [

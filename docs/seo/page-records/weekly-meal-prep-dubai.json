@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/weekly-meal-prep-dubai",
   "path": "/weekly-meal-prep-dubai",
   "role": "indexable page",
@@ -17,23 +17,19 @@
       "batch cooking service dubai",
       "personal chef meal prep dubai",
       "family meal prep dubai",
-      "is weekly meal prep healthy",
-      "best meal prep delivery dubai",
       "weekly meal plan dubai",
-      "fitness meal prep delivery menu",
-      "fitness meal prep services",
-      "kids meal prep service"
+      "private chef weekly meal prep"
     ],
     "primary_owner": "/weekly-meal-prep-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
-    "description": "Meal prep in your Dubai kitchen. A chef cooks and portions meals for your household, with groceries, preferences and storage agreed before each visit.",
+    "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
+    "description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately.",
     "h1": [
       "Meal Prep Dubai. A well-prepared week."
     ]
@@ -69,6 +65,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
@@ -87,7 +84,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2180,
+    "current_word_count": 2199,
     "headings": [
       {
         "level": "h2",
@@ -235,7 +232,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

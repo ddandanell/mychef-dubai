@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "counts": {
-    "indexable page": 188,
-    "redirect": 92,
+    "indexable page": 189,
+    "redirect": 91,
     "noindex support page": 56
   },
   "total": 336,
@@ -278,7 +278,7 @@
       "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
       "file": "blog__best-private-chefs-in-dubai-for-home-dining.json",
       "primary_keyword": null,
-      "role": "redirect",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {

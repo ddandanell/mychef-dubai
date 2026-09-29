@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/school-catering-dubai",
   "path": "/school-catering-dubai",
   "role": "indexable page",
@@ -22,13 +22,13 @@
     "primary_owner": "/school-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "School Catering Dubai | Lunches & Canteens | myCHEF",
-    "description": "School catering in Dubai with lunch delivery, staffed lunch lines and canteen programmes. Menus and allergen information reviewed with your school.",
+    "title": "School Catering Dubai | Lunches & Canteen Proposals | myCHEF",
+    "description": "School catering in Dubai for lunches and canteen service. Discuss pupil ages, meal numbers, dietary policies and facilities before requesting a proposal.",
     "h1": [
       "School Catering Dubai"
     ]
@@ -63,6 +63,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/schoolCateringPage.tsx",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -211,7 +212,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

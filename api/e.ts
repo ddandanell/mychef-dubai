@@ -50,6 +50,7 @@ const PATH_PRIMARY: Record<string, string | null> = {
   "/blog/best-luxury-private-dining-experiences-in-dubai": "best luxury private dining experiences in dubai",
   "/blog/best-private-chef-birthday-dinner-dubai": "private chef for birthday dinner dubai",
   "/blog/best-private-chefs-for-villas-in-dubai": "best private chefs for villas in dubai",
+  "/blog/best-private-chefs-in-dubai-for-home-dining": null,
   "/blog/best-private-cooking-class-experiences-in-dubai": "best private cooking class experiences in dubai",
   "/blog/best-ramadan-iftar-catering-companies-in-dubai": "best ramadan iftar catering companies in dubai",
   "/blog/best-vegan-catering-services-in-dubai": "best vegan catering companies in dubai",

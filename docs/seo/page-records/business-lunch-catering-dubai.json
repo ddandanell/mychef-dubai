@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/business-lunch-catering-dubai",
   "path": "/business-lunch-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/business-lunch-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Business Lunch Catering Dubai | Boardroom & Client | myCHEF",
-    "description": "Business lunch catering in Dubai for boardrooms and clients. Drop-off from AED 90 per person; plated dining AED 700–950, with VAT invoicing.",
+    "title": "Business Lunch Catering Dubai | Boardroom Menus | myCHEF",
+    "description": "Business lunch catering in Dubai for boardrooms, clients and meetings. Compare delivered platters and served menus, with timing and costs agreed in writing.",
     "h1": [
       "Business Lunch Catering Dubai"
     ]
@@ -68,6 +68,7 @@
     "src/content/corporatePackages.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -87,7 +88,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1813,
-    "current_word_count": 2430,
+    "current_word_count": 2449,
     "headings": [
       {
         "level": "h2",
@@ -251,7 +252,7 @@
       },
       {
         "level": "h2",
-        "text": "Keep catering aligned with the business agenda"
+        "text": "Serve lunch without interrupting the meeting"
       },
       {
         "level": "h2",
@@ -271,7 +272,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

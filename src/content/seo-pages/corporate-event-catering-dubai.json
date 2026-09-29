@@ -27,8 +27,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Corporate Event Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Corporate Event catering in Dubai from AED 700pp — gala dinners and award nights, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "title": "Corporate Event Catering Dubai | Receptions & Menus | myCHEF",
+  "meta_description": "Corporate event catering in Dubai for launches, awards and company parties. Canapés from AED 150pp or buffets from AED 120pp, before VAT. Get an itemised quote.",
   "h1": "Corporate Event Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [

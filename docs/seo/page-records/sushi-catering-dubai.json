@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/sushi-catering-dubai",
   "path": "/sushi-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/sushi-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Sushi Catering Dubai | Platters or Counter | myCHEF",
-    "description": "Sushi catering Dubai: live counter or chilled platters. Ice time, service and clear-down so you stay a guest at your table.",
+    "title": "Sushi Catering Dubai | Platters & Live Sushi Counters | myCHEF",
+    "description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed.",
     "h1": [
       "Sushi Catering Dubai"
     ]
@@ -60,6 +60,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -76,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2101,
-    "current_word_count": 2668,
+    "current_word_count": 2682,
     "headings": [
       {
         "level": "h2",
@@ -236,7 +237,7 @@
       },
       {
         "level": "h2",
-        "text": "Give the menu a clear direction"
+        "text": "Choose between platters and a sushi counter"
       },
       {
         "level": "h2",
@@ -256,7 +257,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

@@ -30,8 +30,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Festive Catering Dubai | Festive Season Menus & Prices | myCHEF",
-  "meta_description": "Festive Season catering in Dubai from AED 120 per person for a seasonal buffet, AED 700 with a chef on site — roasts, feasts and full service. Get an itemised quote.",
+  "title": "Festive Catering Dubai | Christmas, Diwali & Eid | myCHEF",
+  "meta_description": "Festive catering in Dubai for Christmas, Diwali, Ramadan, Eid and New Year. Explore seasonal menus and service options for homes, offices and celebrations.",
   "h1": "Festive Catering in Dubai — Real Prices, Menus and Timings"
  },
  "opening_paragraph": [

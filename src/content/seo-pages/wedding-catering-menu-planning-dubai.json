@@ -20,8 +20,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Wedding Menu Planning Dubai: How to Build the Menu | myCHEF",
-  "meta_description": "Wedding menu planning for Dubai: how to choose a service format, build a menu that survives 200 covers, handle dietary needs, run the tasting and control the cost per head.",
+  "title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+  "meta_description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue.",
   "h1": "Wedding Menu Planning in Dubai — Real Prices and Timings"
  },
  "opening_paragraph": [

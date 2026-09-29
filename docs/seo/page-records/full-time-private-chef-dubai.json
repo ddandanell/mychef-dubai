@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/full-time-private-chef-dubai",
   "path": "/full-time-private-chef-dubai",
   "role": "indexable page",
@@ -15,20 +15,18 @@
       "full time private chef cost dubai",
       "monthly private chef dubai",
       "private chef for family",
-      "part time chef dubai",
-      "top personal chef providers in dubai",
-      "best time to hire caterers"
+      "private chef dubai monthly"
     ],
     "primary_owner": "/full-time-private-chef-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Full Time Private Chef Dubai | Household Chefs | myCHEF",
-    "description": "Find a full-time household chef in Dubai. Live-in or daily live-out, five levels from AED 18,000/month, personal matching and ongoing myCHEF support.",
+    "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
+    "description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate.",
     "h1": [
       "Full Time Private Chef Dubai. At home in your life."
     ]
@@ -65,6 +63,7 @@
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
@@ -85,7 +84,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 2985,
+    "current_word_count": 2987,
     "headings": [
       {
         "level": "h2",
@@ -257,7 +256,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

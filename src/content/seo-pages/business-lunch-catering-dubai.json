@@ -30,8 +30,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Business Lunch Catering Dubai | From AED 90 Per Head",
-  "meta_description": "Business lunch catering in Dubai from AED 90 per head delivered, AED 120-150 for a buffet, AED 700-950 for a chef cooking in the room. Real per-head rates, published.",
+  "title": "Business Lunch Catering Dubai | Boardroom Menus | myCHEF",
+  "meta_description": "Business lunch catering in Dubai for boardrooms, clients and meetings. Compare delivered platters and served menus, with timing and costs agreed in writing.",
   "h1": "Business Lunch Catering in Dubai — Per-Head Prices From AED 90"
  },
  "opening_paragraph": [
