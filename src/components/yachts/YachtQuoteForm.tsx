@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { trackConversion } from '@/lib/track'
+import { trackDeliveredQuoteLead } from '@/lib/analytics'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { YACHT_GUEST_MAX, YACHT_GUEST_MIN } from '@/content/yachtCateringQuote'
 import { YACHT_FORM_STYLES, YACHT_OCCASIONS, yachtQuoteWhatsApp, type YachtFormStyleId } from '@/content/yachtPage'
@@ -127,6 +128,7 @@ export default function YachtQuoteForm({ prefill }: Props) {
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'inquiry_form')
+        trackDeliveredQuoteLead('Yacht catering')
         setStatus('sent')
       } else {
         setStatus('error')
