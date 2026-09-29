@@ -51,6 +51,7 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -72,7 +73,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1287,
-    "current_word_count": 5368,
+    "current_word_count": 5374,
     "headings": [
       {
         "level": "h2",

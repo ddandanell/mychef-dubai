@@ -1,3 +1,4 @@
+import { HouseholdCallout } from '@/components/household/HouseholdSections'
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -14,7 +15,7 @@ export default function HouseholdServicePage({kind}:{kind:keyof typeof household
  <ChefSection eyebrow="Around your household" title={p.heading}><div className="pc-split"><ServiceImage imageKey={p.image}/><div className="pc-prose"><p className="pc-lead">{p.body}</p>{kind === 'WeeklyMealPrep' && <p>Need a chef for regular household cooking beyond a weekly preparation visit? Compare the <Link to="/private-chef-dubai">private chef plans for your Dubai home</Link>.</p>}<Link className="pc-link" to="/private-chef-dubai/how-it-works">See how it works →</Link></div></div></ChefSection>
  <ChefSection eyebrow="Your service, in detail" title="The little things that make it work." tone="pc-tone-cream"><div className="pc-detail-grid">{p.details.map(([title,body],i)=><article key={title}><p className="pc-eyebrow">0{i+1}</p><h3>{title}</h3><p>{body}</p></article>)}</div></ChefSection>
  <ChefSection eyebrow="People and support" title="A chef in your kitchen. A team behind the details."><Inclusions/><p className="pc-fineprint"><Link to="/our-chefs">Explore chef profiles</Link> and <Link to="/private-chef-dubai/our-chefs">how we make a household match</Link>.</p></ChefSection>
- <ChefSection eyebrow="Plan with clarity" title="Choose the service that fits." tone="pc-tone-cream"><PricePreview/></ChefSection><RealWork compact/>
+ <ChefSection eyebrow="Plan with clarity" title="Choose the service that fits." tone="pc-tone-cream"><PricePreview/></ChefSection><RealWork compact/><HouseholdCallout compact/>
  <ChefSection eyebrow="Useful to know" title="Before your first visit."><div className="pc-prose"><FaqAccordion items={faqs} defaultOpen={-1}/></div></ChefSection><ChefEnquiry/>
  </div>
 }

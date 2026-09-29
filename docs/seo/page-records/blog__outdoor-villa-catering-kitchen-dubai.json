@@ -64,7 +64,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2254,
+    "current_word_count": 2287,
     "headings": [
       {
         "level": "h2",
@@ -132,7 +132,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan it with myCHEF"
+        "text": "Plan catering with myCHEF"
       }
     ],
     "baseline_findings": [],

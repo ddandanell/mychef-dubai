@@ -1,3 +1,4 @@
+import { HouseholdCallout } from '@/components/household/HouseholdSections'
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -26,7 +27,7 @@ const pages = {
       {q:'What should I include in my first enquiry?',a:'Your Dubai location, household size, preferred cooking days, meals, cuisine preferences and any allergies. Kitchen access and your expected start date also help us suggest a suitable arrangement.'},
       {q:'Can I meet the chef before the service starts?',a:'We arrange an introduction as part of confirming the match. Discuss menus, kitchen equipment, shopping and service expectations before the first cooking day.'},
       {q:'Will I have the same chef?',a:'We aim to keep the same chef on your agreed schedule. Availability, time off or a change of match may require another chef. Your myCHEF contact coordinates the options.'},
-      {q:'Where can I see the price?',a:'Use the [plan calculator](/private-chef-dubai/pricing#calculator) to compare service types and frequency. The written proposal confirms your final arrangement.'}
+      {q:'Where can I see the price?',a:'Use the [visit calculator](/private-chef-dubai/pricing#calculator) for cooking bookings, or compare [monthly household levels](/full-time-private-chef-dubai#chef-levels) from AED 18,000. The written proposal confirms your final arrangement.'}
     ]
   },
   matching: {
@@ -34,7 +35,7 @@ const pages = {
     title:'Chef Selection & Matching Process | myCHEF', h1:'The right chef. The right fit for your home.',
     intro:'Cooking ability is the starting point. We also consider the cuisines you love, your household routine and the kind of service you want at home.',
     eyebrow:'A considered introduction',heading:'We get to know both sides of the kitchen.',image:'craft' as ChefImageKey,
-    body:'We review identity and right-to-work documents, practical cooking ability, references and food hygiene awareness. Matching then brings those checks together with your brief, schedule and kitchen.',
+    body:'We start with the food you love, your daily routine and the person you would feel comfortable welcoming into your kitchen. We coordinate the search, introductions and a paid cooking trial where helpful, then support the start of your household arrangement.',
     blocks:[
       ['Cooking that suits you','Regional favourites, family food, vegetarian cooking or occasion dining. Tell us what you enjoy so we can discuss a relevant chef profile.'],
       ['A workable schedule','We check availability against the days, hours and start date you need. A proposed match is confirmed with you before the arrangement begins.'],
@@ -89,6 +90,7 @@ export default function SupportPage({kind}:{kind:keyof typeof pages}) {
     {kind==='process' && <ChefSection eyebrow="Five simple steps" title="From your brief to the first meal." tone="pc-tone-cream"><div className="pc-prose"><ChefJourney/></div></ChefSection>}
     <ChefSection eyebrow="The details behind the service" title="Clear from the start." tone={kind==='process'?'':'pc-tone-cream'}><div className="pc-detail-grid">{page.blocks.map(([title,body],i)=><article key={title}><p className="pc-eyebrow">0{i+1}</p><h3>{title}</h3><p>{body}</p></article>)}</div></ChefSection>
     {kind==='matching' && <TeamCapability/>}
+    {(kind==='matching' || kind==='process') && <HouseholdCallout compact/>}
     <ChefSection eyebrow="Useful to know" title="Your questions, answered."><div className="pc-prose"><FaqAccordion items={page.faqs} defaultOpen={-1}/></div></ChefSection><ChefEnquiry/>
   </div>
 }

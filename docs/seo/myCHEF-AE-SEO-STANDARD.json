@@ -918,6 +918,14 @@
     "label": "Private chef Dubai"
    },
    {
+    "url": "/full-time-private-chef-dubai",
+    "label": "Household & Live-In Chefs"
+   },
+   {
+    "url": "/private-chef-dubai/short-term-chef",
+    "label": "Short-Term Chef Bookings"
+   },
+   {
     "url": "/catering-dubai",
     "label": "Catering Dubai"
    },
@@ -1139,6 +1147,40 @@
     "url": "/gallery",
     "label": "Gallery"
    }
+  ],
+  "private_chef_menu": [
+   {
+    "url": "/private-chef-dubai",
+    "label": "Private Chef Overview"
+   },
+   {
+    "url": "/private-chef-dubai/short-term-chef",
+    "label": "Short-Term Chef Bookings"
+   },
+   {
+    "url": "/full-time-private-chef-dubai",
+    "label": "Household Chefs"
+   },
+   {
+    "url": "/private-chef-dubai/live-in-chef",
+    "label": "Live-In Chefs"
+   },
+   {
+    "url": "/private-chef-dubai/live-out-chef",
+    "label": "Daily Live-Out Chefs"
+   },
+   {
+    "url": "/our-chefs",
+    "label": "Our Chefs & Styles"
+   },
+   {
+    "url": "/private-chef-dubai/how-it-works",
+    "label": "How It Works"
+   },
+   {
+    "url": "/private-chef-dubai/pricing",
+    "label": "Pricing & Plans"
+   }
   ]
  },
  "agent_preamble": "You are writing or reviewing a page on mychef.ae.\nYou must open the page object for this URL in myCHEF-AE-SEO-STANDARD.json and obey it.\n\nNon-negotiable:\n1. Use only intent_owner.primary_keyword as the ranking target.\n2. Put that primary in title, H1, first 100 words, and one subheading. Not in every heading.\n3. Subkeywords go inside sentences. Never as H2s. Cap eight. Delete any sentence that exists only to hold a term.\n4. Do not use another URL's primary_keyword in this page's title or H1.\n5. Render internal_linking.siblings exactly. Do not invent a You May Also Like list.\n6. Do not use any term in invariants.banned_terms.\n7. Do not claim chef years of experience. Only name Ahmed Al-Rashid, Marco Rossi, Layla Hassan, Matteo Moretti.\n8. Do not write cheap/affordable/budget. This brand does not convert that traffic.\n9. Read the draft aloud. If it sounds like it was written for Google, rewrite until it sounds like a host briefing a chef.\n10. If this file and any older keyword spreadsheet disagree, this file wins for technical/linking; the locked primary in this file already reflects the 19 Aug map.\n\nIf the URL is not in pages[], stop. Add it through change_control before writing copy.\n",
@@ -1202,10 +1244,10 @@
  ],
  "primary_collisions_in_this_build": [],
  "stats": {
-  "pages": 245,
-  "indexable": 155,
+  "pages": 263,
+  "indexable": 173,
   "noindex": 90,
-  "with_primary": 148,
+  "with_primary": 166,
   "untargeted": 7,
   "primary_collisions": 0
  },
@@ -3098,10 +3140,11 @@
     "title_max_chars": 65,
     "h1": "Asian Catering Dubai",
     "h1_count": 1,
-    "meta_description": "Asian Catering Dubai with a vetted myCHEF team. Wok, dim sum and regional menus. Sushi is a sibling brief. You stay a guest at your table.",
+    "meta_description": "Asian catering in Dubai with wok, dim sum and regional menus. Explore specialist sushi options and plan the food and service with myCHEF.",
     "meta_description_max_chars": 160,
     "og_title": "Asian Catering Dubai | myCHEF",
-    "og_type": "website"
+    "og_type": "website",
+    "og_description": "Asian catering in Dubai with wok, dim sum and regional menus. Explore specialist sushi options and plan the food and service with myCHEF."
    },
    "indexation": {
     "robots": {
@@ -22142,15 +22185,15 @@
     }
    },
    "on_page": {
-    "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "title": "Full Time Private Chef Dubai | Household Chefs | myCHEF",
     "title_max_chars": 65,
-    "h1": "Full Time Private Chef Dubai: most days, without employing anyone",
+    "h1": "Full Time Private Chef Dubai. At home in your life.",
     "h1_count": 1,
-    "meta_description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you.",
+    "meta_description": "Find a full-time household chef in Dubai. Live-in or daily live-out, five levels from AED 18,000/month, personal matching and ongoing myCHEF support.",
     "meta_description_max_chars": 160,
-    "og_title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
+    "og_title": "Full Time Private Chef Dubai | Household Chefs | myCHEF",
     "og_type": "website",
-    "og_description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you."
+    "og_description": "Find a full-time household chef in Dubai. Live-in or daily live-out, five levels from AED 18,000/month, personal matching and ongoing myCHEF support."
    },
    "indexation": {
     "robots": {
@@ -22203,6 +22246,16 @@
      {
       "url": "/private-chef-dubai/pricing",
       "anchor": "Pricing",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/live-in-chef",
+      "anchor": "Live-in chef",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/live-out-chef",
+      "anchor": "Daily live-out chef",
       "alt_anchors": []
      }
     ],
@@ -33657,15 +33710,15 @@
     }
    },
    "on_page": {
-    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
+    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
     "title_max_chars": 65,
-    "h1": "Private Chefs Dubai: Vetted, Tasted, Matched to Your Table",
+    "h1": "Private Chefs Dubai. Find your kind of cooking.",
     "h1_count": 1,
-    "meta_description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability.",
+    "meta_description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF.",
     "meta_description_max_chars": 160,
-    "og_title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
+    "og_title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
     "og_type": "website",
-    "og_description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability."
+    "og_description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF."
    },
    "indexation": {
     "robots": {
@@ -36869,15 +36922,15 @@
     }
    },
    "on_page": {
-    "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+    "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
     "title_max_chars": 65,
-    "h1": "Private Chef Dubai: a chef who comes back",
+    "h1": "Private Chef Dubai. Made personal.",
     "h1_count": 1,
-    "meta_description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans.",
+    "meta_description": "Private chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support.",
     "meta_description_max_chars": 160,
-    "og_title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
+    "og_title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
     "og_type": "website",
-    "og_description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans."
+    "og_description": "Private chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support."
    },
    "indexation": {
     "robots": {
@@ -36997,6 +37050,21 @@
       "alt_anchors": [
        "private chef vs catering"
       ]
+     },
+     {
+      "url": "/private-chef-dubai/live-in-chef",
+      "anchor": "Live-in chef",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/live-out-chef",
+      "anchor": "Daily live-out chef",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/short-term-chef",
+      "anchor": "Short-term chef",
+      "alt_anchors": []
      }
     ],
     "silo_index": [
@@ -37804,15 +37872,15 @@
     }
    },
    "on_page": {
-    "title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
+    "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
     "title_max_chars": 65,
-    "h1": "Private Chef Dubai Price — AED 750/visit, monthly plans from AED 3,000",
+    "h1": "Private Chef Dubai Price. Clear from the start.",
     "h1_count": 1,
-    "meta_description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire.",
+    "meta_description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels.",
     "meta_description_max_chars": 160,
-    "og_title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
+    "og_title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
     "og_type": "website",
-    "og_description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire."
+    "og_description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels."
    },
    "indexation": {
     "robots": {
@@ -38999,10 +39067,11 @@
     "title_max_chars": 65,
     "h1": "Private Jet Catering Dubai",
     "h1_count": 1,
-    "meta_description": "Private jet catering Dubai is food coordinated to the flight: menu, packing and delivery to the FBO. We are not an airline. No published per-person floor.",
+    "meta_description": "Private jet catering in Dubai with menus, packing and delivery planned around your flight, passengers and operator-approved handover. Request a quote.",
     "meta_description_max_chars": 160,
     "og_title": "Private Jet Catering Dubai | myCHEF",
-    "og_type": "website"
+    "og_type": "website",
+    "og_description": "Private jet catering in Dubai with menus, packing and delivery planned around your flight, passengers and operator-approved handover. Request a quote."
    },
    "indexation": {
     "robots": {
@@ -45659,15 +45728,15 @@
     "primary_note": "Swapped 2026-08-26 on DataForSEO UAE data: 'meal prep dubai' 590/mo vs 'weekly meal prep dubai' 0/mo; live SERP overlap 0.75 with the wellness/fitness meal-prep set."
    },
    "on_page": {
-    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
     "title_max_chars": 65,
     "h1": "Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef",
     "h1_count": 1,
-    "meta_description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
+    "meta_description": "Meal prep in your Dubai kitchen. A chef cooks and portions meals for your household, with groceries, preferences and storage agreed before each visit.",
     "meta_description_max_chars": 160,
-    "og_title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
+    "og_title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
     "og_type": "website",
-    "og_description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead."
+    "og_description": "Meal prep in your Dubai kitchen. A chef cooks and portions meals for your household, with groceries, preferences and storage agreed before each visit."
    },
    "indexation": {
     "robots": {
@@ -47094,14 +47163,15 @@
     "subkeyword_notes": {}
    },
    "on_page": {
-    "title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
+    "title": "School Catering Dubai | Lunches & Canteens | myCHEF",
     "title_max_chars": 65,
     "h1": "School Catering Dubai",
     "h1_count": 1,
-    "meta_description": "School catering Dubai for lunches and canteens. Built around Dubai Municipality school-food rules. Quote after we see the kitchen and the roll.",
+    "meta_description": "School catering in Dubai with lunch delivery, staffed lunch lines and canteen programmes. Menus and allergen information reviewed with your school.",
     "meta_description_max_chars": 160,
-    "og_title": "School Catering Dubai | Lunches Built to the Rules | myCHEF",
-    "og_type": "website"
+    "og_title": "School Catering Dubai | Lunches & Canteens | myCHEF",
+    "og_type": "website",
+    "og_description": "School catering in Dubai with lunch delivery, staffed lunch lines and canteen programmes. Menus and allergen information reviewed with your school."
    },
    "indexation": {
     "robots": {
@@ -54484,6 +54554,627 @@
     "Read-aloud test: copy sounds like a person talking to a host in Dubai."
    ],
    "content_source": "blog/data/mixed-diet-dinner-party-dubai.json"
+  },
+  "/private-chef-dubai/live-in-chef": {
+   "url": "/private-chef-dubai/live-in-chef",
+   "absolute_url": "https://www.mychef.ae/private-chef-dubai/live-in-chef",
+   "silo": "Private Chef",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "live in private chef dubai",
+    "subkeywords": [
+     "resident chef dubai",
+     "live in household chef dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Live In Private Chef Dubai | Household Matching | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Live In Private Chef Dubai. A familiar rhythm at home.",
+    "h1_count": 1,
+    "meta_description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support.",
+    "meta_description_max_chars": 160,
+    "og_title": "Live In Private Chef Dubai | Household Matching | myCHEF",
+    "og_type": "website",
+    "og_description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/private-chef-dubai/live-in-chef",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef"
+     },
+     {
+      "url": "/private-chef-dubai/live-in-chef",
+      "anchor": "Live-in chef",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "Private chef",
+     "alt_anchors": [
+      "private chef dubai"
+     ]
+    },
+    "siblings": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "Household chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/our-chefs",
+      "anchor": "Our chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/pricing",
+      "anchor": "Pricing & plans",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/how-much-does-private-chef-cost-dubai",
+      "anchor": "What a private chef costs",
+      "alt_anchors": [
+       "how much does private chef cost"
+      ]
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+       "luxury dining experiences"
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/private-chef-dubai/our-chefs",
+     "/chefs/sofia-pastry-chef",
+     "/staff-meals-catering-dubai",
+     "/private-party-catering-dubai",
+     "/canape-catering-dubai",
+     "/production-catering-dubai",
+     "/corporate-catering-dubai",
+     "/healthcare-catering-dubai",
+     "/school-catering-dubai",
+     "/nursery-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/catering",
+     "/yacht-catering-dubai",
+     "/villa-catering-dubai",
+     "/event-catering-dubai",
+     "/luxury-dining-dubai",
+     "/private-dining-dubai",
+     "/dessert-table-dubai",
+     "/live-cooking-station-dubai",
+     "/locations/jumeirah-islands",
+     "/locations/mirdif",
+     "/locations/dubai-internet-city",
+     "/locations/meydan",
+     "/locations/dubai-harbour",
+     "/locations/al-barari",
+     "/locations/dubai-media-city",
+     "/locations/dubai-creek-harbour",
+     "/locations/jumeirah-golf-estates",
+     "/locations/mall-of-the-emirates",
+     "/locations/dwtc",
+     "/locations/dubai-mall",
+     "/locations/city-walk",
+     "/case-studies/corporate-gala-dinner-downtown-dubai",
+     "/case-studies/product-launch-difc",
+     "/case-studies/family-eid-gathering-arabian-ranches",
+     "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+     "/case-studies/villa-wedding-reception-emirates-hills",
+     "/case-studies/yacht-birthday-celebration-dubai-marina",
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "decision_note": "Owner-requested household service expansion, 2026-09-29. Distinct service decision page; UAE Google Ads keyword check recorded in docs/household-chefs/README.md. No historic URL replaced."
+  },
+  "/private-chef-dubai/live-out-chef": {
+   "url": "/private-chef-dubai/live-out-chef",
+   "absolute_url": "https://www.mychef.ae/private-chef-dubai/live-out-chef",
+   "silo": "Private Chef",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "live out private chef dubai",
+    "subkeywords": [
+     "daily household chef dubai",
+     "live out cook dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Live Out Private Chef Dubai | Daily Household Chef | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Live Out Private Chef Dubai. Your chef, each cooking day.",
+    "h1_count": 1,
+    "meta_description": "Find a live-out private chef for your Dubai home. Daily cooking on an agreed schedule, five levels from AED 18,000/month and personal matching support.",
+    "meta_description_max_chars": 160,
+    "og_title": "Live Out Private Chef Dubai | Daily Household Chef | myCHEF",
+    "og_type": "website",
+    "og_description": "Find a live-out private chef for your Dubai home. Daily cooking on an agreed schedule, five levels from AED 18,000/month and personal matching support."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/private-chef-dubai/live-out-chef",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef"
+     },
+     {
+      "url": "/private-chef-dubai/live-out-chef",
+      "anchor": "Daily live-out chef",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "Private chef",
+     "alt_anchors": [
+      "private chef dubai"
+     ]
+    },
+    "siblings": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "Household chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/our-chefs",
+      "anchor": "Our chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/pricing",
+      "anchor": "Pricing & plans",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/how-much-does-private-chef-cost-dubai",
+      "anchor": "What a private chef costs",
+      "alt_anchors": [
+       "how much does private chef cost"
+      ]
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+       "luxury dining experiences"
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/private-chef-dubai/our-chefs",
+     "/chefs/sofia-pastry-chef",
+     "/staff-meals-catering-dubai",
+     "/private-party-catering-dubai",
+     "/canape-catering-dubai",
+     "/production-catering-dubai",
+     "/corporate-catering-dubai",
+     "/healthcare-catering-dubai",
+     "/school-catering-dubai",
+     "/nursery-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/catering",
+     "/yacht-catering-dubai",
+     "/villa-catering-dubai",
+     "/event-catering-dubai",
+     "/luxury-dining-dubai",
+     "/private-dining-dubai",
+     "/dessert-table-dubai",
+     "/live-cooking-station-dubai",
+     "/locations/jumeirah-islands",
+     "/locations/mirdif",
+     "/locations/dubai-internet-city",
+     "/locations/meydan",
+     "/locations/dubai-harbour",
+     "/locations/al-barari",
+     "/locations/dubai-media-city",
+     "/locations/dubai-creek-harbour",
+     "/locations/jumeirah-golf-estates",
+     "/locations/mall-of-the-emirates",
+     "/locations/dwtc",
+     "/locations/dubai-mall",
+     "/locations/city-walk",
+     "/case-studies/corporate-gala-dinner-downtown-dubai",
+     "/case-studies/product-launch-difc",
+     "/case-studies/family-eid-gathering-arabian-ranches",
+     "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+     "/case-studies/villa-wedding-reception-emirates-hills",
+     "/case-studies/yacht-birthday-celebration-dubai-marina",
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "decision_note": "Owner-requested household service expansion, 2026-09-29. Distinct service decision page; UAE Google Ads keyword check recorded in docs/household-chefs/README.md. No historic URL replaced."
+  },
+  "/private-chef-dubai/short-term-chef": {
+   "url": "/private-chef-dubai/short-term-chef",
+   "absolute_url": "https://www.mychef.ae/private-chef-dubai/short-term-chef",
+   "silo": "Private Chef",
+   "silo_priority": "P1",
+   "page_type": "Commercial landing",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "short term private chef dubai",
+    "subkeywords": [
+     "holiday chef dubai",
+     "temporary private chef dubai"
+    ],
+    "subkeyword_cap": 12,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Short Term Private Chef Dubai. For the time you need.",
+    "h1_count": 1,
+    "meta_description": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home.",
+    "meta_description_max_chars": 160,
+    "og_title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
+    "og_type": "website",
+    "og_description": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/private-chef-dubai/short-term-chef",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "Service",
+    "FAQPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef"
+     },
+     {
+      "url": "/private-chef-dubai/short-term-chef",
+      "anchor": "Short-term chef",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "Private chef",
+     "alt_anchors": [
+      "private chef dubai"
+     ]
+    },
+    "siblings": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "Household chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/our-chefs",
+      "anchor": "Our chefs",
+      "alt_anchors": []
+     },
+     {
+      "url": "/private-chef-dubai/pricing",
+      "anchor": "Pricing & plans",
+      "alt_anchors": []
+     }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+     {
+      "url": "/blog/how-much-does-private-chef-cost-dubai",
+      "anchor": "What a private chef costs",
+      "alt_anchors": [
+       "how much does private chef cost"
+      ]
+     }
+    ],
+    "cross_silo": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "Catering",
+      "alt_anchors": []
+     },
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "Luxury dining",
+      "alt_anchors": [
+       "luxury dining experiences"
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "url": "/locations",
+      "anchor": "Areas we serve",
+      "alt_anchors": [
+       "catering near me"
+      ]
+     }
+    ],
+    "do_not_link": [
+     "/private-chef-dubai/our-chefs",
+     "/chefs/sofia-pastry-chef",
+     "/staff-meals-catering-dubai",
+     "/private-party-catering-dubai",
+     "/canape-catering-dubai",
+     "/production-catering-dubai",
+     "/corporate-catering-dubai",
+     "/healthcare-catering-dubai",
+     "/school-catering-dubai",
+     "/nursery-catering-dubai",
+     "/university-catering-dubai",
+     "/government-event-catering-dubai",
+     "/catering",
+     "/yacht-catering-dubai",
+     "/villa-catering-dubai",
+     "/event-catering-dubai",
+     "/luxury-dining-dubai",
+     "/private-dining-dubai",
+     "/dessert-table-dubai",
+     "/live-cooking-station-dubai",
+     "/locations/jumeirah-islands",
+     "/locations/mirdif",
+     "/locations/dubai-internet-city",
+     "/locations/meydan",
+     "/locations/dubai-harbour",
+     "/locations/al-barari",
+     "/locations/dubai-media-city",
+     "/locations/dubai-creek-harbour",
+     "/locations/jumeirah-golf-estates",
+     "/locations/mall-of-the-emirates",
+     "/locations/dwtc",
+     "/locations/dubai-mall",
+     "/locations/city-walk",
+     "/case-studies/corporate-gala-dinner-downtown-dubai",
+     "/case-studies/product-launch-difc",
+     "/case-studies/family-eid-gathering-arabian-ranches",
+     "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+     "/case-studies/villa-wedding-reception-emirates-hills",
+     "/case-studies/yacht-birthday-celebration-dubai-marina",
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
+    ]
+   },
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "decision_note": "Owner-requested household service expansion, 2026-09-29. Distinct service decision page; UAE Google Ads keyword check recorded in docs/household-chefs/README.md. No historic URL replaced."
   }
  }
 }

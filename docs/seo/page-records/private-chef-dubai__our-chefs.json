@@ -18,8 +18,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
-    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability.",
+    "title": "Private Chef for Your Home Dubai | Meet Our Chefs | myCHEF",
+    "description": "How myCHEF selects and matches a chef for your Dubai household, with preferences, skill level, trial arrangements and ongoing support explained.",
     "h1": [
       "The right chef. The right fit for your home."
     ]
@@ -38,6 +38,8 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -47,6 +49,9 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -56,6 +61,7 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -68,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2441,
-    "current_word_count": 1910,
+    "current_word_count": 1967,
     "headings": [
       {
         "level": "h2",
@@ -113,6 +119,10 @@
       {
         "level": "h3",
         "text": "myCHEF coordination"
+      },
+      {
+        "level": "h2",
+        "text": "Make a chef part of your household."
       },
       {
         "level": "h2",

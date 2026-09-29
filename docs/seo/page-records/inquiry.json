@@ -18,14 +18,16 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": []
+    "title": "Get a Quote | Private Chef & Catering Dubai | myCHEF",
+    "description": "Tell myCHEF your dates, household or guest size and Dubai area. Ask about chef visits, a long-term household chef or catering for your event.",
+    "h1": [
+      "Tell Us What You Need"
+    ]
   },
-  "metadata_source": "SEO contract; alias or route not prerendered",
+  "metadata_source": "local production prerender",
   "indexation": {
-    "canonical": null,
-    "robots": null,
+    "canonical": "https://www.mychef.ae/inquiry",
+    "robots": "noindex, follow",
     "in_sitemap": false,
     "redirect_to": null
   },
@@ -50,6 +52,9 @@
     "src/content/cateringPricing.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
@@ -60,6 +65,7 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/cateringInquiry.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/inquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
@@ -74,8 +80,21 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 247,
-    "current_word_count": null,
-    "headings": [],
+    "current_word_count": 250,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Send a short brief"
+      },
+      {
+        "level": "h3",
+        "text": "What Happens Next?"
+      },
+      {
+        "level": "h3",
+        "text": "Prefer to Talk Directly?"
+      }
+    ],
     "baseline_findings": [
       "F12",
       "F15",

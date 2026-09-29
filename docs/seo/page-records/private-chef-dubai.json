@@ -31,8 +31,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
-    "description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans.",
+    "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
+    "description": "Private chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support.",
     "h1": [
       "Private Chef Dubai. Made personal."
     ]
@@ -51,6 +51,8 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -59,6 +61,9 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -68,6 +73,7 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -80,8 +86,20 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2620,
+    "current_word_count": 2808,
     "headings": [
+      {
+        "level": "h2",
+        "text": "Book a little time. Or find your long-term chef."
+      },
+      {
+        "level": "h3",
+        "text": "A few hours. A few days. A short stay."
+      },
+      {
+        "level": "h3",
+        "text": "A household chef who fits your life."
+      },
       {
         "level": "h2",
         "text": "Private Chef Dubai, on your schedule."
@@ -96,7 +114,7 @@
       },
       {
         "level": "h3",
-        "text": "Your everyday kitchen"
+        "text": "Your long-term household chef"
       },
       {
         "level": "h2",
@@ -192,7 +210,7 @@
       },
       {
         "level": "h2",
-        "text": "A plan you can understand."
+        "text": "Visit prices, clearly explained."
       },
       {
         "level": "h3",
@@ -204,11 +222,15 @@
       },
       {
         "level": "h3",
-        "text": "A full-day chef, five days a week"
+        "text": "Full-day chef visits, five days a week"
       },
       {
         "level": "h2",
         "text": "A few helpful answers."
+      },
+      {
+        "level": "h3",
+        "text": "Can you help us find a long-term live-in or live-out chef?"
       },
       {
         "level": "h3",
@@ -407,6 +429,21 @@
         "alt_anchors": [
           "private chef vs catering"
         ]
+      },
+      {
+        "url": "/private-chef-dubai/live-in-chef",
+        "anchor": "Live-in chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/live-out-chef",
+        "anchor": "Daily live-out chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/short-term-chef",
+        "anchor": "Short-term chef",
+        "alt_anchors": []
       }
     ],
     "silo_index": [

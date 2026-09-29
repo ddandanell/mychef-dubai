@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
-    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability.",
+    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
+    "description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF.",
     "h1": [
-      "Private Chefs Dubai. Different talents, a shared attention to detail."
+      "Private Chefs Dubai. Find your kind of cooking."
     ]
   },
   "metadata_source": "local production prerender",
@@ -50,20 +50,29 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdProfiles.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -75,11 +84,115 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 1915,
+    "current_word_count": 5011,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chefs in Dubai, matched to your table."
+        "text": "Private chefs in Dubai, matched to your household."
+      },
+      {
+        "level": "h3",
+        "text": "Everyday Family Chef"
+      },
+      {
+        "level": "h3",
+        "text": "North Indian Home Cooking Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Levantine Family Chef"
+      },
+      {
+        "level": "h3",
+        "text": "South Indian Vegetarian Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Asian Everyday Cooking Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Mediterranean Household Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Indian Vegetarian Specialist"
+      },
+      {
+        "level": "h3",
+        "text": "British and European Family Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Thai and Southeast Asian Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Plant Forward Family Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Household and Majlis Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Performance Meal Planning Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Japanese Contemporary Home Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Artisan Household Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Multicuisine Family Kitchen Chef"
+      },
+      {
+        "level": "h3",
+        "text": "French Contemporary Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Chinese Regional Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Modern Indian Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Plant Based Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Latin and Mediterranean Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Executive Estate Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Travelling Residence Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Japanese Fine Dining Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "European Tasting Menu Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Principal and Entertaining Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Different talents. A shared love of food."
       },
       {
         "level": "h3",
@@ -99,43 +212,11 @@
       },
       {
         "level": "h2",
-        "text": "Culinary skill. Thoughtful coordination."
-      },
-      {
-        "level": "h3",
-        "text": "Your chef"
-      },
-      {
-        "level": "h3",
-        "text": "Chef assistants"
-      },
-      {
-        "level": "h3",
-        "text": "Hospitality professionals"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF coordination"
+        "text": "Make a chef part of your household."
       },
       {
         "level": "h2",
-        "text": "Details that make the occasion."
-      },
-      {
-        "level": "h3",
-        "text": "A table set on deck"
-      },
-      {
-        "level": "h3",
-        "text": "Food with attention to detail"
-      },
-      {
-        "level": "h3",
-        "text": "The service behind the occasion"
-      },
-      {
-        "level": "h2",
-        "text": "Tell us who you’re cooking for."
+        "text": "Tell us what you love to eat."
       },
       {
         "level": "h2",

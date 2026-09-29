@@ -5,6 +5,8 @@ import { trackConversion } from '@/lib/track'
 import { trackDeliveredQuoteLead } from '@/lib/analytics'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
+import { householdBriefFromParams, householdBriefLines } from '@/lib/householdInquiry'
+import { householdLevels, levelPrice } from '@/content/householdChefs'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 
 const field =
@@ -16,6 +18,8 @@ type Props = {
 
 export default function QuoteRequestForm({ sourcePage }: Props) {
   const [params] = useSearchParams()
+  const household = householdBriefFromParams(params, sourcePage || lastServicePage() || '')
+  const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: household.level ? levelPrice(household.level) : '', schedule: '', preferences: '' })
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [contactBy, setContactBy] = useState<'whatsapp' | 'email'>('email')
   const [fields, setFields] = useState({
@@ -31,7 +35,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
   const fromParam = params.get('from') || ''
   const remembered = lastServicePage()
   const sourcePath = sourcePage || fromParam || remembered || '/inquiry'
-  const serviceType = serviceLabelFromSource(fromParam || sourcePath, chef)
+  const serviceType = household.active ? 'Long-term household chef' : serviceLabelFromSource(fromParam || sourcePath, chef)
   const calculatorBrief = cateringCalculatorBrief(params, fields.guests)
 
   const update = (key: keyof typeof fields) => (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -42,12 +46,14 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
     serviceType,
     `Came from: ${sourcePath}`,
     chef ? `Chef preference (subject to availability): ${chef}` : '',
-    fields.date ? `Date: ${fields.date}` : 'Date: flexible',
+    fields.date ? `${household.active ? 'Preferred start' : 'Date'}: ${fields.date}` : 'Date: flexible',
     fields.guests ? `Guests / household: ${fields.guests}` : '',
     fields.area ? `Area: ${fields.area}` : '',
     params.get('package') ? `Package: ${params.get('package')}` : '',
     params.get('extras') ? `Extras: ${params.get('extras')}` : '',
     ...calculatorBrief,
+    ...householdBriefLines(params, householdFields, sourcePath),
+    `Preferred reply: ${contactBy === 'whatsapp' ? 'WhatsApp' : 'Email'}`,
   ]
     .filter(Boolean)
     .join('\n')
@@ -127,17 +133,25 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
         </p>
       )}
       <label className="block">
-        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Date or flexible</span>
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">{household.active ? 'Preferred start date' : 'Date or flexible'}</span>
         <input name="eventDate" className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />
       </label>
       <label className="block">
-        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Guests or household size</span>
-        <input name="guests" required className={field} inputMode="numeric" value={fields.guests} onChange={update('guests')} placeholder="e.g. 12" />
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">{household.active ? 'Household size' : 'Guests or household size'}</span>
+        <input name="guests" required className={field} inputMode="numeric" value={fields.guests} onChange={update('guests')} placeholder={household.active ? 'e.g. 4 adults and 2 children' : 'e.g. 12'} />
       </label>
       <label className="block sm:col-span-2">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Area in Dubai</span>
         <input name="location" required className={field} value={fields.area} onChange={update('area')} placeholder="e.g. Palm Jumeirah" />
       </label>
+      {household.active && <>
+        {household.profiles.length > 0 && <div className="sm:col-span-2 border-l-2 border-gold bg-cream p-4"><p className="font-inter text-caption uppercase tracking-wide text-gray-600 mb-2">Your selected chef styles</p><ul className="font-inter text-body-sm text-black space-y-1">{household.profiles.map(profile => <li key={profile.id}>{profile.title}</li>)}</ul><p className="font-inter text-xs text-gray-500 mt-2">We use these preferences to build your personal chef shortlist.</p></div>}
+        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Living arrangement</span><select name="arrangement" className={field} value={householdFields.arrangement} onChange={e => setHouseholdFields(current => ({ ...current, arrangement: e.target.value }))}><option value="help-me-choose">Help me choose</option><option value="live-in">Live-in chef</option><option value="live-out">Daily live-out chef</option></select></label>
+        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Monthly service budget</span><select name="monthlyBudget" className={field} value={householdFields.budget} onChange={e => setHouseholdFields(current => ({ ...current, budget: e.target.value }))}><option value="">Help me choose · from AED 18,000</option>{householdLevels.map(level => <option key={level.id} value={levelPrice(level)}>{levelPrice(level)}</option>)}<option value="Above AED 50,000">Above AED 50,000</option></select></label>
+        <p className="sm:col-span-2 font-inter text-xs text-gray-500">Indicative monthly service fees before VAT. Groceries and agreed extras are separate.</p>
+        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Cooking days & meal times (optional)</span><input name="householdSchedule" className={field} value={householdFields.schedule} maxLength={500} onChange={e => setHouseholdFields(current => ({ ...current, schedule: e.target.value }))} placeholder="e.g. Monday to Saturday, lunch and dinner"/></label>
+        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Food & household preferences (optional)</span><textarea name="householdPreferences" className={field} rows={4} maxLength={2000} value={householdFields.preferences} onChange={e => setHouseholdFields(current => ({ ...current, preferences: e.target.value }))} placeholder="Favourite cuisines, daily meals, entertaining and what matters to your home"/></label>
+      </>}
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Name (optional)</span>
         <input name="name" className={field} autoComplete="name" value={fields.name} onChange={update('name')} />
@@ -171,6 +185,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
           {contactBy === 'whatsapp' ? <MessageCircle size={16} aria-hidden /> : <Mail size={16} aria-hidden />}
           {status === 'sending' ? 'Sending…' : 'Send my brief'}
         </button>
+        {household.active && <a href={waHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border border-gray-300 px-5 py-3 font-inter text-sm text-black"><MessageCircle size={16} aria-hidden/>Send on WhatsApp</a>}
       </div>
       {status === 'error' ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-red-700" role="alert">

@@ -9,7 +9,7 @@ export const schoolPage: InstitutionalPageContent = {
   eyebrow: 'Schools',
   lock: {
     primary: 'school catering dubai',
-    title: 'School Catering Dubai | Lunch Delivery & Canteen Services | myCHEF',
+    title: 'School Catering Dubai | Lunches & Canteens | myCHEF',
     description:
       'School catering services in Dubai — lunch delivery, staffed lunch lines and canteen programmes, with menus and allergen information reviewed with your school. Typical reply in 15 minutes.',
     h1: 'School Catering Dubai',

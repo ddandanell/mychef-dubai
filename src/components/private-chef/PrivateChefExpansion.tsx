@@ -116,5 +116,7 @@ for (const [file, load] of Object.entries(loaders)) {
 export default function PrivateChefExpansion() {
   const { pathname } = useLocation()
   const Page = pageComponents[pathname.replace(/\/$/, '')]
-  return Page ? <Page/> : null
+  if (!Page) return null
+  if (['/full-time-private-chef-dubai', '/our-chefs'].includes(pathname)) return <details className="hc-guide" open={typeof window !== 'undefined' && window.location.hash.startsWith('#chef-')}><summary>More about planning your household chef arrangement</summary><Page/></details>
+  return <Page/>
 }

@@ -1,6 +1,10 @@
 /** Visual direction for the active Private Chef journey. Identity/portfolio assets stay authentic. */
 export const CHEF_IMAGE_ROOT = '/images/private-chef-2026/'
 export const chefImages = {
+  'household-hero': { alt: 'Chef finishing a family lunch in a Dubai household kitchen', position: '50% 50%' },
+  'live-in-hero': { alt: 'Chef preparing breakfast in a bright family kitchen', position: '50% 50%' },
+  'live-out-hero': { alt: 'Chef unpacking fresh ingredients for a household cooking day', position: '50% 50%' },
+  'matching-hero': { alt: 'Chef and homeowner discussing food preferences at the kitchen table', position: '50% 50%' },
   household: { alt: 'Chef finishing a roast chicken platter in a light-filled home kitchen', position: '56% 50%' },
   planning: { alt: 'Chef and homeowner discussing a weekly menu at the kitchen table', position: '50% 48%' },
   'meal-prep': { alt: 'Freshly cooked meals portioned into glass containers in a home kitchen', position: '50% 60%' },
@@ -23,22 +27,25 @@ export const chefImages = {
   birthday: { alt: 'An elegant birthday dinner table with a small cake and fresh flowers', position: '50% 55%' },
 } as const
 export type ChefImageKey = keyof typeof chefImages
-export const chefImage = (key: ChefImageKey, width = 1200) => `${CHEF_IMAGE_ROOT}${key}-${width}.webp`
+export const chefImage = (key: ChefImageKey, width = 1200) => `${key.endsWith('-hero') ? '/images/household-chefs/' : CHEF_IMAGE_ROOT}${key}-${width}.webp`
 export const chefImageSrcSet = (key: ChefImageKey) => [480, 800, 1200, 1536].map(w => `${chefImage(key, w)} ${w}w`).join(', ')
 
 export const chefPageImages: Record<string, ChefImageKey> = {
   '/private-chef-dubai': 'household',
   '/private-chef-dubai/how-it-works': 'planning',
-  '/private-chef-dubai/our-chefs': 'team-service',
+  '/private-chef-dubai/our-chefs': 'matching-hero',
   '/private-chef-dubai/quality-training': 'craft',
   '/private-chef-dubai/privacy-security': 'clean-kitchen',
   '/private-chef-dubai/pricing': 'ingredients',
   '/private-chef-dubai/how-your-plan-works': 'family-table',
-  '/full-time-private-chef-dubai': 'breakfast',
+  '/full-time-private-chef-dubai': 'household-hero',
+  '/private-chef-dubai/live-in-chef': 'live-in-hero',
+  '/private-chef-dubai/live-out-chef': 'live-out-hero',
+  '/private-chef-dubai/short-term-chef': 'live-out-hero',
   '/part-time-private-chef-dubai': 'household',
   '/weekly-meal-prep-dubai': 'meal-prep',
   '/wellness-meal-prep-dubai': 'wellness',
-  '/our-chefs': 'team-service',
+  '/our-chefs': 'matching-hero',
   '/how-we-vet-our-chefs': 'craft',
   '/villas-private-residences': 'villa-evening',
   '/apartment-private-dining-dubai': 'apartment',

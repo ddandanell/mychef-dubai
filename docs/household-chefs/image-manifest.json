@@ -1,0 +1,326 @@
+{
+  "generator": "Built-in image_gen",
+  "created": "2026-09-29",
+  "usage": "Illustrative service and cuisine imagery; not portraits of named or available candidates.",
+  "assets": [
+    {
+      "id": "household-hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: myCHEF household chef website editorial image. Landscape 3:2 composition with the main subject near the centre so it also crops well to portrait. A professional chef in a plain cream chef jacket seen in three-quarter side view calmly finishing a colourful family lunch on a kitchen island in a premium Dubai villa, warm limestone, oak cabinets, soft greenery outside, food and daily home cooking are the main subjects. Natural candid editorial hospitality photograph, tactile and realistic, quiet premium atmosphere, no luxury clichés. Realistic anatomy, believable food and kitchen tools, no text, no logos, no watermark, no collage. This is service illustration, not a claimed customer testimonial or employee portrait.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-46350a53-93fe-4f03-9afe-8fd5b48a49a1.png",
+      "files": [
+        "public/images/household-chefs/household-hero-480.webp",
+        "public/images/household-chefs/household-hero-800.webp",
+        "public/images/household-chefs/household-hero-1200.webp",
+        "public/images/household-chefs/household-hero-1536.webp"
+      ]
+    },
+    {
+      "id": "live-in-hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: myCHEF household chef website editorial image. Landscape 3:2 composition with the main subject near the centre so it also crops well to portrait. A sunlit premium Dubai home kitchen early in the morning, a chef in a plain light jacket seen from the back preparing breakfast with sliced fruit, eggs and fresh flatbread, relaxed daily household routine, pale stone and soft olive cabinetry, garden through the window. Natural candid editorial hospitality photograph, believable lived-in home, no visible face close-up. Realistic anatomy, believable food and kitchen tools, no text, no logos, no watermark, no collage. This is service illustration, not a claimed customer testimonial or employee portrait.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-051da4d3-6889-4ad5-96c6-820d4b0c216a.png",
+      "files": [
+        "public/images/household-chefs/live-in-hero-480.webp",
+        "public/images/household-chefs/live-in-hero-800.webp",
+        "public/images/household-chefs/live-in-hero-1200.webp",
+        "public/images/household-chefs/live-in-hero-1536.webp"
+      ]
+    },
+    {
+      "id": "live-out-hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: myCHEF household chef website editorial image. Landscape 3:2 composition with the main subject near the centre so it also crops well to portrait. A professional chef's torso and hands wearing a plain dark olive apron over a white shirt unloading a canvas produce bag onto a beautiful contemporary home kitchen counter: seasonal vegetables, herbs, lemons and fresh ingredients, ready for a day of cooking in Dubai. Warm morning light, natural editorial hospitality photography, premium but approachable, no visible face. Realistic anatomy, believable food and kitchen tools, no text, no logos, no watermark, no collage. This is service illustration, not a claimed customer testimonial or employee portrait.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-eff4595f-7c9d-4312-915a-deff71a0f632.png",
+      "files": [
+        "public/images/household-chefs/live-out-hero-480.webp",
+        "public/images/household-chefs/live-out-hero-800.webp",
+        "public/images/household-chefs/live-out-hero-1200.webp",
+        "public/images/household-chefs/live-out-hero-1536.webp"
+      ]
+    },
+    {
+      "id": "matching-hero",
+      "prompt": "Use case: photorealistic-natural. Asset type: myCHEF household chef website editorial image. Landscape 3:2 composition with the main subject near the centre so it also crops well to portrait. A homeowner and chef seated at a warm oak kitchen table discussing preferences over a simple handwritten menu notebook, faces softly out of focus in the background, focused foreground on natural hands, seasonal produce and small tasting plates. Beautiful cream and olive Dubai villa interior, candid natural editorial photography, human warmth, thoughtful conversation. Realistic anatomy, believable food and kitchen tools, no text, no logos, no watermark, no collage. This is service illustration, not a claimed customer testimonial or employee portrait.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-e80c3d8e-a8af-4c53-aa39-2719253aaed6.png",
+      "files": [
+        "public/images/household-chefs/matching-hero-480.webp",
+        "public/images/household-chefs/matching-hero-800.webp",
+        "public/images/household-chefs/matching-hero-1200.webp",
+        "public/images/household-chefs/matching-hero-1536.webp"
+      ]
+    },
+    {
+      "id": "hc01",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Everyday Family Chef. Featured dishes: Roast chicken, baked fish, vegetable pasta and prepared breakfast pots. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-57c5fdcc-47cc-4180-b4bc-6a186a88d6d2.png",
+      "files": [
+        "public/images/household-chefs/hc01-480.webp",
+        "public/images/household-chefs/hc01-800.webp",
+        "public/images/household-chefs/hc01-1200.webp",
+        "public/images/household-chefs/hc01-1536.webp"
+      ]
+    },
+    {
+      "id": "hc02",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating North Indian Home Cooking Chef. Featured dishes: Dal tadka, chicken curry, seasonal sabzi, rice and chapati. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-e62493e6-5678-4d17-8f5e-11da6f7949d1.png",
+      "files": [
+        "public/images/household-chefs/hc02-480.webp",
+        "public/images/household-chefs/hc02-800.webp",
+        "public/images/household-chefs/hc02-1200.webp",
+        "public/images/household-chefs/hc02-1536.webp"
+      ]
+    },
+    {
+      "id": "hc03",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Levantine Family Chef. Featured dishes: Lentil soup, chicken shawarma plates, fattoush and kofta. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-cf10bc21-a5d3-4dd3-8732-d159c04b19a5.png",
+      "files": [
+        "public/images/household-chefs/hc03-480.webp",
+        "public/images/household-chefs/hc03-800.webp",
+        "public/images/household-chefs/hc03-1200.webp",
+        "public/images/household-chefs/hc03-1536.webp"
+      ]
+    },
+    {
+      "id": "hc04",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating South Indian Vegetarian Chef. Featured dishes: Idli, dosa, sambar, vegetable poriyal and lemon rice. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-4b2d2b25-4d26-4652-ae53-b8d95fc48e9b.png",
+      "files": [
+        "public/images/household-chefs/hc04-480.webp",
+        "public/images/household-chefs/hc04-800.webp",
+        "public/images/household-chefs/hc04-1200.webp",
+        "public/images/household-chefs/hc04-1536.webp"
+      ]
+    },
+    {
+      "id": "hc05",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Asian Everyday Cooking Chef. Featured dishes: Ginger chicken, vegetable fried rice, noodle soup and steamed fish. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-85a95771-9565-4647-9e0d-974f7d6226c1.png",
+      "files": [
+        "public/images/household-chefs/hc05-480.webp",
+        "public/images/household-chefs/hc05-800.webp",
+        "public/images/household-chefs/hc05-1200.webp",
+        "public/images/household-chefs/hc05-1536.webp"
+      ]
+    },
+    {
+      "id": "hc06",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Mediterranean Household Chef. Featured dishes: Grilled seabass, chicken souvlaki, roasted vegetables and lentil salad. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-69c9ee51-4517-4dba-a727-04d9a1fed47b.png",
+      "files": [
+        "public/images/household-chefs/hc06-480.webp",
+        "public/images/household-chefs/hc06-800.webp",
+        "public/images/household-chefs/hc06-1200.webp",
+        "public/images/household-chefs/hc06-1536.webp"
+      ]
+    },
+    {
+      "id": "hc07",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Indian Vegetarian Specialist. Featured dishes: Paneer tikka, dal, vegetable pulao and agreed onion-free dishes. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-deac2239-522c-4e0d-8f88-0441095a71d9.png",
+      "files": [
+        "public/images/household-chefs/hc07-480.webp",
+        "public/images/household-chefs/hc07-800.webp",
+        "public/images/household-chefs/hc07-1200.webp",
+        "public/images/household-chefs/hc07-1536.webp"
+      ]
+    },
+    {
+      "id": "hc08",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating British and European Family Chef. Featured dishes: Roast beef, fish pie, chicken casserole and vegetable lasagne. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-f621be3f-22f7-4485-9f58-e73f56290bbc.png",
+      "files": [
+        "public/images/household-chefs/hc08-480.webp",
+        "public/images/household-chefs/hc08-800.webp",
+        "public/images/household-chefs/hc08-1200.webp",
+        "public/images/household-chefs/hc08-1536.webp"
+      ]
+    },
+    {
+      "id": "hc09",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Thai and Southeast Asian Chef. Featured dishes: Thai basil chicken, mild coconut curry, summer rolls and noodle salads. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-470a781c-74b5-464d-99f0-b44482ae58a7.png",
+      "files": [
+        "public/images/household-chefs/hc09-480.webp",
+        "public/images/household-chefs/hc09-800.webp",
+        "public/images/household-chefs/hc09-1200.webp",
+        "public/images/household-chefs/hc09-1536.webp"
+      ]
+    },
+    {
+      "id": "hc10",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Plant Forward Family Chef. Featured dishes: Lentil bolognese, roasted cauliflower, grain bowls and bean stews. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-17b6dec6-0533-4621-91e5-cfa8423007c2.png",
+      "files": [
+        "public/images/household-chefs/hc10-480.webp",
+        "public/images/household-chefs/hc10-800.webp",
+        "public/images/household-chefs/hc10-1200.webp",
+        "public/images/household-chefs/hc10-1536.webp"
+      ]
+    },
+    {
+      "id": "hc11",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Arabic Household and Majlis Chef. Featured dishes: Machboos, lamb ouzi, regional mezze and grilled fish. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-5603e9a0-8bc3-4b4b-8a8f-dbad8ab66a52.png",
+      "files": [
+        "public/images/household-chefs/hc11-480.webp",
+        "public/images/household-chefs/hc11-800.webp",
+        "public/images/household-chefs/hc11-1200.webp",
+        "public/images/household-chefs/hc11-1536.webp"
+      ]
+    },
+    {
+      "id": "hc12",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Performance Meal Planning Chef. Featured dishes: Measured chicken bowls, fish with rice, vegetable sides and agreed snacks. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-10ff4d30-2aaa-4636-90b1-f4592b39c3e6.png",
+      "files": [
+        "public/images/household-chefs/hc12-480.webp",
+        "public/images/household-chefs/hc12-800.webp",
+        "public/images/household-chefs/hc12-1200.webp",
+        "public/images/household-chefs/hc12-1536.webp"
+      ]
+    },
+    {
+      "id": "hc13",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Japanese Contemporary Home Chef. Featured dishes: Miso fish, donburi, soba, vegetable tempura and cooked sushi rolls. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-59366b74-de03-4831-9ca0-d426ff735aae.png",
+      "files": [
+        "public/images/household-chefs/hc13-480.webp",
+        "public/images/household-chefs/hc13-800.webp",
+        "public/images/household-chefs/hc13-1200.webp",
+        "public/images/household-chefs/hc13-1536.webp"
+      ]
+    },
+    {
+      "id": "hc14",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Italian Artisan Household Chef. Featured dishes: Handmade ravioli, seafood risotto, grilled vegetables and tiramisu. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-351d28c2-474c-4fa1-8965-181619f228ca.png",
+      "files": [
+        "public/images/household-chefs/hc14-480.webp",
+        "public/images/household-chefs/hc14-800.webp",
+        "public/images/household-chefs/hc14-1200.webp",
+        "public/images/household-chefs/hc14-1536.webp"
+      ]
+    },
+    {
+      "id": "hc15",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Multicuisine Family Kitchen Chef. Featured dishes: Herb chicken, vegetable curry, fish tacos and separate children’s sides. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-b6580757-99ab-4768-b217-333fda1b00ce.png",
+      "files": [
+        "public/images/household-chefs/hc15-480.webp",
+        "public/images/household-chefs/hc15-800.webp",
+        "public/images/household-chefs/hc15-1200.webp",
+        "public/images/household-chefs/hc15-1536.webp"
+      ]
+    },
+    {
+      "id": "hc16",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating French Contemporary Private Chef. Featured dishes: Seabass with sauce vierge, roast poultry, seasonal tart and fruit desserts. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-2f53d439-a84b-40d9-960e-c1fefb7e9e1f.png",
+      "files": [
+        "public/images/household-chefs/hc16-480.webp",
+        "public/images/household-chefs/hc16-800.webp",
+        "public/images/household-chefs/hc16-1200.webp",
+        "public/images/household-chefs/hc16-1536.webp"
+      ]
+    },
+    {
+      "id": "hc17",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Chinese Regional Private Chef. Featured dishes: Cantonese steamed fish, dumplings, braised beef and seasonal vegetables. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-8e569be3-ebe8-4f9b-88de-7bf1224a0244.png",
+      "files": [
+        "public/images/household-chefs/hc17-480.webp",
+        "public/images/household-chefs/hc17-800.webp",
+        "public/images/household-chefs/hc17-1200.webp",
+        "public/images/household-chefs/hc17-1536.webp"
+      ]
+    },
+    {
+      "id": "hc18",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Modern Indian Private Chef. Featured dishes: Tandoori fish, refined chaat, slow-cooked lamb and seasonal vegetarian courses. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-5f9529a7-1bea-4984-a703-c0c6491aaca4.png",
+      "files": [
+        "public/images/household-chefs/hc18-480.webp",
+        "public/images/household-chefs/hc18-800.webp",
+        "public/images/household-chefs/hc18-1200.webp",
+        "public/images/household-chefs/hc18-1536.webp"
+      ]
+    },
+    {
+      "id": "hc19",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Premium Plant Based Private Chef. Featured dishes: Mushroom-free vegetable wellington, nut-free sauces where required and seasonal tasting dishes. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-abe416f6-a6db-4b2b-a7ec-e1eb78c9f11a.png",
+      "files": [
+        "public/images/household-chefs/hc19-480.webp",
+        "public/images/household-chefs/hc19-800.webp",
+        "public/images/household-chefs/hc19-1200.webp",
+        "public/images/household-chefs/hc19-1536.webp"
+      ]
+    },
+    {
+      "id": "hc20",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Latin and Mediterranean Private Chef. Featured dishes: Grilled fish, slow-cooked beef, arepas, roasted peppers and citrus desserts. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-039bdfe9-3122-45b3-9e37-f0762379b281.png",
+      "files": [
+        "public/images/household-chefs/hc20-480.webp",
+        "public/images/household-chefs/hc20-800.webp",
+        "public/images/household-chefs/hc20-1200.webp",
+        "public/images/household-chefs/hc20-1536.webp"
+      ]
+    },
+    {
+      "id": "hc21",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Executive Estate Chef. Featured dishes: Seasonal family menus, formal plated dinners and staff briefing menus. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-ded785a8-a279-44e5-b900-a588c2fc2fee.png",
+      "files": [
+        "public/images/household-chefs/hc21-480.webp",
+        "public/images/household-chefs/hc21-800.webp",
+        "public/images/household-chefs/hc21-1200.webp",
+        "public/images/household-chefs/hc21-1536.webp"
+      ]
+    },
+    {
+      "id": "hc22",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Travelling Residence Chef. Featured dishes: Portable breakfast routines, preferred family dishes and destination-specific seasonal menus. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-26b6de87-a943-4005-a964-3791d935bc44.png",
+      "files": [
+        "public/images/household-chefs/hc22-480.webp",
+        "public/images/household-chefs/hc22-800.webp",
+        "public/images/household-chefs/hc22-1200.webp",
+        "public/images/household-chefs/hc22-1536.webp"
+      ]
+    },
+    {
+      "id": "hc23",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Japanese Fine Dining Private Chef. Featured dishes: Seasonal cooked courses, precision rice dishes and assessed sushi service. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-9cc25148-4744-49cd-8a56-9ff2fd62e7c3.png",
+      "files": [
+        "public/images/household-chefs/hc23-480.webp",
+        "public/images/household-chefs/hc23-800.webp",
+        "public/images/household-chefs/hc23-1200.webp",
+        "public/images/household-chefs/hc23-1536.webp"
+      ]
+    },
+    {
+      "id": "hc24",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating European Tasting Menu Chef. Featured dishes: Seasonal tasting courses, precise fish cookery, sauces and restrained plated desserts. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-9a1fc9ab-a4ad-4e52-8c53-7c0ff9b62270.png",
+      "files": [
+        "public/images/household-chefs/hc24-480.webp",
+        "public/images/household-chefs/hc24-800.webp",
+        "public/images/household-chefs/hc24-1200.webp",
+        "public/images/household-chefs/hc24-1536.webp"
+      ]
+    },
+    {
+      "id": "hc25",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium myCHEF website cuisine profile photograph. Create a single beautiful editorial food photograph illustrating Principal and Entertaining Chef. Featured dishes: Preferred daily meals, guest tasting menus and tailored celebration dishes. Select two or three of these dishes for a believable small household meal, not a banquet. Landscape 3:2, natural side window light, warm ivory ceramic plates on pale stone or oak, linen and discreet fresh herbs, appetising realistic food textures, restrained olive and cream palette. Close three-quarter composition, important dishes in central frame for mobile cropping. The image is about the food, no people, no text, no logos, no watermark, no collage.",
+      "source": "/workspace/scratch/668c9e55ae69/generated_images/exec-01107911-09c2-4a6f-986f-7d8d099d19e4.png",
+      "files": [
+        "public/images/household-chefs/hc25-480.webp",
+        "public/images/household-chefs/hc25-800.webp",
+        "public/images/household-chefs/hc25-1200.webp",
+        "public/images/household-chefs/hc25-1536.webp"
+      ]
+    }
+  ]
+}

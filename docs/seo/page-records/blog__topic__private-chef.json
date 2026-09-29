@@ -57,11 +57,15 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 221,
-    "current_word_count": 460,
+    "current_word_count": 496,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Best Cozymeal alternatives for private dining in Dubai"
       },
       {
         "level": "h3",

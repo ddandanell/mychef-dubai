@@ -443,6 +443,29 @@ def main():
             'areas': ([entry(u) for u in rank(areas, url, AREA_CAP)] if areas and not url.startswith('/locations') else []),
         }
 
+    # New household service pages are compiled from the shipping contract.
+    contract_pages = json.load(open(CONTRACT))['pages']
+    household_additions = ['/private-chef-dubai/live-in-chef', '/private-chef-dubai/live-out-chef', '/private-chef-dubai/short-term-chef']
+    def contract_link(row):
+        return {'url': row['url'], 'label': row['anchor']}
+    for url in household_additions:
+        cp = contract_pages[url]
+        il = cp['internal_linking']
+        out_pages[url] = {
+            'url': url, 'silo': cp['silo'], 'hub': cp['hub'], 'is_hub': False,
+            'page_type': cp['page_type'], 'primary_keyword': cp['intent_owner']['primary_keyword'],
+            'breadcrumb': [contract_link(row) for row in il['breadcrumb']],
+            'uplink': contract_link(il['uplink_hub']),
+            'siblings': [contract_link(row) for row in il['siblings']],
+            'featured_children': [], 'silo_index': [], 'commercial_owners': [],
+            'supporting_guides': [contract_link(row) for row in il['supporting_guides']], 'areas': [],
+        }
+        linkable.add(url)
+        by_silo[cp['silo']].append(url)
+        out_pages[cp['hub']]['featured_children'].append(contract_link(il['breadcrumb'][-1]))
+        if not url.endswith('/short-term-chef'):
+            out_pages['/full-time-private-chef-dubai']['siblings'].append(contract_link(il['breadcrumb'][-1]))
+
     edges = sum(len(p['siblings']) + len(p['featured_children']) + len(p['silo_index'])
                 + len(p['commercial_owners']) + len(p['supporting_guides']) + len(p['areas'])
                 for p in out_pages.values())

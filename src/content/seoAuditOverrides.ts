@@ -2,6 +2,34 @@
 export interface SeoAuditOverride { title?: string; description?: string }
 
 export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
+  "/blog/take-a-chef-alternatives-in": {
+    "description": "Compare Take a Chef alternatives for Dubai dining and events. Explore myCHEF for private chefs, weekly meal prep or catering, and what to ask before booking."
+},
+  "/school-catering-dubai": {
+    "title": "School Catering Dubai | Lunches & Canteens | myCHEF",
+    "description": "School catering in Dubai with lunch delivery, staffed lunch lines and canteen programmes. Menus and allergen information reviewed with your school."
+},
+  "/inquiry": {
+    "description": "Tell myCHEF your dates, household or guest size and Dubai area. Ask about chef visits, a long-term household chef or catering for your event."
+},
+  "/private-jet-catering-dubai": {
+    "description": "Private jet catering in Dubai with menus, packing and delivery planned around your flight, passengers and operator-approved handover. Request a quote."
+},
+  "/asian-catering-dubai": {
+    "description": "Asian catering in Dubai with wok, dim sum and regional menus. Explore specialist sushi options and plan the food and service with myCHEF."
+},
+  "/private-chef-dubai/short-term-chef": {
+    "title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
+    "description": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home."
+},
+  "/private-chef-dubai/live-out-chef": {
+    "title": "Live Out Private Chef Dubai | Daily Household Chef | myCHEF",
+    "description": "Find a live-out private chef for your Dubai home. Daily cooking on an agreed schedule, five levels from AED 18,000/month and personal matching support."
+},
+  "/private-chef-dubai/live-in-chef": {
+    "title": "Live In Private Chef Dubai | Household Matching | myCHEF",
+    "description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support."
+},
   "/events": {
     "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
     "description": "Event catering in Dubai for weddings, birthdays and private parties. Menus, chefs, staff, setup and clear-down, from AED 120 per person."
@@ -131,8 +159,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/weekly-meal-prep-dubai": {
     "title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
-    "description": "Meal prep in your Dubai kitchen, not boxed-meal delivery. A chef cooks and portions food for your household, with groceries and storage agreed before each visit."
-  },
+    "description": "Meal prep in your Dubai kitchen. A chef cooks and portions meals for your household, with groceries, preferences and storage agreed before each visit."
+},
   "/how-it-works": {
     "description": "Book a private chef in Dubai for one evening: share the occasion, choose the menu, confirm the chef and enjoy the night at home."
   },
@@ -204,9 +232,9 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate catering Dubai for offices, boardrooms and company events. Drop-off from AED 90 per person. Compare office, lunch, conference and event packages."
   },
   "/full-time-private-chef-dubai": {
-    "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
-    "description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you."
-  },
+    "title": "Full Time Private Chef Dubai | Household Chefs | myCHEF",
+    "description": "Find a full-time household chef in Dubai. Live-in or daily live-out, five levels from AED 18,000/month, personal matching and ongoing myCHEF support."
+},
   "/catering-packages-dubai": {
     "title": "Catering Packages Dubai | Four Published Totals | myCHEF",
     "description": "Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, service and clear-down in the total."
@@ -311,17 +339,17 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | A Chef for Your Home | myCHEF",
-    "description": "A private chef for your Dubai home, with menus and schedules made personal. Explore weekly preparation, part-time and full-time household plans."
-  },
+    "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
+    "description": "Private chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support."
+},
   "/private-chef-dubai/pricing": {
-    "title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
-    "description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire."
-  },
+    "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
+    "description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels."
+},
   "/our-chefs": {
-    "title": "Private Chefs Dubai | Meet the Culinary Network | myCHEF",
-    "description": "Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability."
-  },
+    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
+    "description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF."
+},
   "/gallery": {
     "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
     "description": "Browse dining, household and celebration ideas from myCHEF, with links to our yacht portfolio and services for planning your next occasion in Dubai."

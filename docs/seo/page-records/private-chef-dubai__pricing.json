@@ -30,8 +30,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai Price | Build Your Plan | myCHEF",
-    "description": "Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire.",
+    "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
+    "description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels.",
     "h1": [
       "Private Chef Dubai Price. Clear from the start."
     ]
@@ -50,6 +50,8 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -73,6 +75,9 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -84,6 +89,7 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -98,8 +104,12 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4491,
-    "current_word_count": 3847,
+    "current_word_count": 4215,
     "headings": [
+      {
+        "level": "h2",
+        "text": "Cooking visits or a monthly household arrangement?"
+      },
       {
         "level": "h2",
         "text": "Your private chef Dubai price, explained."
@@ -206,6 +216,30 @@
       },
       {
         "level": "h2",
+        "text": "Monthly household chefs: five levels."
+      },
+      {
+        "level": "h3",
+        "text": "Standard Household Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Select Household Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Senior Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Executive Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Elite Private Chef"
+      },
+      {
+        "level": "h2",
         "text": "A few pricing questions."
       },
       {
@@ -218,7 +252,7 @@
       },
       {
         "level": "h3",
-        "text": "Why do longer arrangements cost less per visit?"
+        "text": "Why do recurring bookings cost less per visit?"
       },
       {
         "level": "h3",

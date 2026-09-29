@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Core hubs -->
-  <url><loc>https://www.mychef.ae/</loc><lastmod>2026-09-23</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/</loc><lastmod>2026-09-29</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/catering-dubai</loc><lastmod>2026-09-22</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/catering-packages-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/corporate</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/events</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/luxury-dining-experiences</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai</loc><lastmod>2026-09-22</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/pricing</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai</loc><lastmod>2026-09-29</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/pricing</loc><lastmod>2026-09-29</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/villas-private-residences</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/yachts</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
 
   <!-- Private chef cluster -->
-  <url><loc>https://www.mychef.ae/private-chef-dubai/how-it-works</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/how-it-works</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
 
   <!-- Event & party spokes -->
   <url><loc>https://www.mychef.ae/afternoon-tea-catering-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
@@ -79,14 +79,14 @@
   <url><loc>https://www.mychef.ae/how-it-works</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/how-we-vet-our-chefs</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/menus</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/our-chefs</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/our-chefs</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/partner-with-us</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/press</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/venue-partners</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/vip-club</loc><lastmod>2026-09-22</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
 
   <!-- Bluebook trust & service pages -->
-  <url><loc>https://www.mychef.ae/weekly-meal-prep-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/weekly-meal-prep-dubai</loc><lastmod>2026-09-29</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
 
   <!-- Content gaps closed -->
   <url><loc>https://www.mychef.ae/blog</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
@@ -151,7 +151,7 @@
   <url><loc>https://www.mychef.ae/corporate-retainer-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/desert-dining-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/founding-customer-offer</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.mychef.ae/full-time-private-chef-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/full-time-private-chef-dubai</loc><lastmod>2026-09-29</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/grazing-table-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/halal-private-dining-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/influencer-partnerships</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
@@ -159,7 +159,7 @@
   <url><loc>https://www.mychef.ae/loyalty-programme</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/mychef-certified</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/mychef-membership</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.mychef.ae/part-time-private-chef-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/part-time-private-chef-dubai</loc><lastmod>2026-09-29</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/partners</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/partners/concierge-services-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/partners/event-planners-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
@@ -217,4 +217,9 @@
   <url><loc>https://www.mychef.ae/blog/best-private-chefs-for-villas-in-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/best-wedding-catering-companies-in-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <!-- RYZE:END -->
+
+  <!-- Household chef service additions -->
+  <url><loc>https://www.mychef.ae/private-chef-dubai/live-in-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/live-out-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/short-term-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>

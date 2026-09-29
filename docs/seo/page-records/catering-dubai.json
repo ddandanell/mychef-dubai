@@ -31,10 +31,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Catering Dubai | Buffet, Canapés & Chef-Led Service | myCHEF",
-    "description": "Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.",
+    "title": "Catering Dubai | Menus, Prices & Event Service | myCHEF",
+    "description": "Catering Dubai for homes, offices and events. Compare menus and service: food delivery from AED 90pp for 10 guests, or a staffed event. Request a quote.",
     "h1": [
-      "Catering Dubai — buffets, canapés and chef-led service"
+      "Catering Dubai, made for your occasion."
     ]
   },
   "metadata_source": "local production prerender",
@@ -46,18 +46,11 @@
   },
   "source_files": [
     "src/components/FaqAccordion.tsx",
-    "src/components/LocationStrip.tsx",
-    "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
-    "src/components/catering/EventLayers.tsx",
-    "src/components/catering/EventPathway.tsx",
-    "src/components/private-chef/EditorialHero.tsx",
-    "src/components/private-chef/ServiceImage.tsx",
-    "src/components/system/index.tsx",
+    "src/components/catering/CateringHub.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
@@ -66,267 +59,132 @@
     "src/content/cateringDesign.json",
     "src/content/cateringPage.ts",
     "src/content/cateringPricing.ts",
-    "src/content/christmasMenus.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
-    "src/data/locations.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
-    "src/lib/deferNonCritical.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
-    "src/lib/utils.ts",
     "src/pages/Catering.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/catering-hub.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4399,
-    "current_word_count": 4808,
+    "current_word_count": 2528,
     "headings": [
       {
         "level": "h2",
-        "text": "Explore our service approach"
+        "text": "Catering Dubai: choose your menu and service."
+      },
+      {
+        "level": "h3",
+        "text": "Food delivered"
+      },
+      {
+        "level": "h3",
+        "text": "A generous buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Canapés & receptions"
+      },
+      {
+        "level": "h3",
+        "text": "Chef-led dining"
       },
       {
         "level": "h2",
-        "text": "Catering pricing in Dubai"
+        "text": "A little help. Or the whole catering team."
       },
       {
         "level": "h2",
-        "text": "Household chef services and event catering"
+        "text": "Build the menu around your guests."
       },
       {
         "level": "h2",
-        "text": "Catering Dubai with the support your occasion needs"
-      },
-      {
-        "level": "h3",
-        "text": "Food"
-      },
-      {
-        "level": "h3",
-        "text": "Kitchen"
-      },
-      {
-        "level": "h3",
-        "text": "Service"
-      },
-      {
-        "level": "h3",
-        "text": "Table"
-      },
-      {
-        "level": "h3",
-        "text": "Atmosphere"
-      },
-      {
-        "level": "h3",
-        "text": "Event"
+        "text": "Hosting handled. Just add the food."
       },
       {
         "level": "h2",
-        "text": "Tell us the event. We build the catering around it."
+        "text": "Different gatherings. The same care."
       },
       {
         "level": "h3",
-        "text": "Wedding"
+        "text": "At home"
       },
       {
         "level": "h3",
-        "text": "Corporate Event"
+        "text": "At work"
       },
       {
         "level": "h3",
-        "text": "Birthday or Celebration"
+        "text": "A wedding"
       },
       {
         "level": "h3",
-        "text": "Private Event or Party"
+        "text": "A celebration"
       },
       {
         "level": "h2",
-        "text": "Seven Christmas dinners, cooked in your kitchen"
+        "text": "Tell us where. We’ll plan the service."
       },
       {
         "level": "h3",
-        "text": "British Christmas"
+        "text": "Homes & villas"
       },
       {
         "level": "h3",
-        "text": "French Christmas"
+        "text": "Offices & event venues"
       },
       {
         "level": "h3",
-        "text": "Italian Christmas"
-      },
-      {
-        "level": "h3",
-        "text": "German Christmas"
-      },
-      {
-        "level": "h3",
-        "text": "Russian Christmas"
-      },
-      {
-        "level": "h3",
-        "text": "Swiss Christmas"
-      },
-      {
-        "level": "h3",
-        "text": "American Christmas"
+        "text": "On the water or in the air"
       },
       {
         "level": "h2",
-        "text": "Catering wherever you are hosting"
+        "text": "Let the menu follow the evening."
       },
       {
         "level": "h3",
-        "text": "Villas & Private Homes"
+        "text": "Something small"
       },
       {
         "level": "h3",
-        "text": "Yachts"
+        "text": "Something generous"
       },
       {
         "level": "h3",
-        "text": "Offices & Event Venues"
-      },
-      {
-        "level": "h3",
-        "text": "Private Jets"
+        "text": "Something sweet"
       },
       {
         "level": "h2",
-        "text": "You do not need to choose this before speaking with us"
+        "text": "A clear plan. Before anyone arrives."
       },
       {
         "level": "h3",
-        "text": "Plated Dining"
+        "text": "Tell us the essentials"
       },
       {
         "level": "h3",
-        "text": "Family Style"
+        "text": "Review your proposal"
       },
       {
         "level": "h3",
-        "text": "Buffet"
+        "text": "Confirm the details"
       },
       {
         "level": "h3",
-        "text": "BBQ & Live Cooking"
-      },
-      {
-        "level": "h3",
-        "text": "Canapés & Cocktail Food"
-      },
-      {
-        "level": "h3",
-        "text": "Finger food"
-      },
-      {
-        "level": "h3",
-        "text": "Grazing tables"
-      },
-      {
-        "level": "h3",
-        "text": "Food Stations"
-      },
-      {
-        "level": "h3",
-        "text": "Breakfast & Brunch"
-      },
-      {
-        "level": "h3",
-        "text": "Drop-Off"
+        "text": "Enjoy the occasion"
       },
       {
         "level": "h2",
-        "text": "One event can use more than one style"
-      },
-      {
-        "level": "h2",
-        "text": "How our service standards apply to your booking"
-      },
-      {
-        "level": "h3",
-        "text": "How culinary partners are selected"
-      },
-      {
-        "level": "h3",
-        "text": "What halal-first means here"
-      },
-      {
-        "level": "h3",
-        "text": "Food safety and who cooks"
-      },
-      {
-        "level": "h3",
-        "text": "Staffing and event flow"
-      },
-      {
-        "level": "h3",
-        "text": "Written proposals"
-      },
-      {
-        "level": "h3",
-        "text": "Booking protection"
-      },
-      {
-        "level": "h2",
-        "text": "Illustrative event formats"
-      },
-      {
-        "level": "h3",
-        "text": "Villa wedding reception, Emirates Hills"
-      },
-      {
-        "level": "h3",
-        "text": "Product launch, DIFC"
-      },
-      {
-        "level": "h3",
-        "text": "Yacht birthday, Dubai Marina"
-      },
-      {
-        "level": "h3",
-        "text": "Corporate gala dinner, Downtown Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Family gathering, Arabian Ranches"
-      },
-      {
-        "level": "h2",
-        "text": "Five steps. You stay in the review."
-      },
-      {
-        "level": "h2",
-        "text": "Before flowers, tables or entertainment, the food has to work"
-      },
-      {
-        "level": "h3",
-        "text": "One cuisine or several"
-      },
-      {
-        "level": "h2",
-        "text": "The team should match the event"
-      },
-      {
-        "level": "h2",
-        "text": "Already working with other suppliers? Good."
-      },
-      {
-        "level": "h2",
-        "text": "Start with the event"
-      },
-      {
-        "level": "h2",
-        "text": "What should I know before booking catering in Dubai?"
+        "text": "Good questions. Clear answers."
       },
       {
         "level": "h3",
@@ -398,47 +256,7 @@
       },
       {
         "level": "h2",
-        "text": "Date, venue and guest count is enough to start"
-      },
-      {
-        "level": "h3",
-        "text": "Catering across Dubai"
-      },
-      {
-        "level": "h2",
-        "text": "Bring the menu, venue and hospitality together"
-      },
-      {
-        "level": "h2",
-        "text": "A clear brief gives the menu a better starting point"
-      },
-      {
-        "level": "h2",
-        "text": "Choose the support that makes hosting easier"
-      },
-      {
-        "level": "h2",
-        "text": "Give the menu a clear direction"
-      },
-      {
-        "level": "h2",
-        "text": "Tell us what you have in mind."
-      },
-      {
-        "level": "h2",
-        "text": "Helpful guides for your next booking"
-      },
-      {
-        "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
-      },
-      {
-        "level": "h3",
-        "text": "How to Compare Catering Quotes in Dubai"
-      },
-      {
-        "level": "h2",
-        "text": "Everything in Catering"
+        "text": "Bring the occasion. We’ll bring the food."
       }
     ],
     "baseline_findings": [

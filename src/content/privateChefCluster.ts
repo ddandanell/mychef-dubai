@@ -1,3 +1,4 @@
+import { HOUSEHOLD_PATH, LIVE_IN_PATH, LIVE_OUT_PATH, SHORT_TERM_PATH } from './householdChefs'
 import { computeQuote, DEFAULT_INPUT, fmt } from './privateChefPricing'
 
 /** Nested household-chef cluster under the existing authority URL. */
@@ -21,56 +22,23 @@ export const CLUSTER_PATHS = {
 
 export type ClusterPath = (typeof CLUSTER_PATHS)[keyof typeof CLUSTER_PATHS]
 
-export const CLUSTER_NAV = [
-  {
-    href: CLUSTER_PATHS.overview,
-    label: 'Private Chef Dubai',
-    description: 'The complete household chef service',
-    owns: 'Private Chef Dubai',
-  },
-  {
-    href: CLUSTER_PATHS.howItWorks,
-    label: 'How It Works',
-    description: 'How to get a chef — and keep one',
-    owns: 'Managed private chef service',
-  },
-  {
-    href: CLUSTER_PATHS.ourChefs,
-    label: 'Our Chefs',
-    description: 'Selection, levels and matching',
-    owns: 'Chef selection and matching',
-  },
-  {
-    href: CLUSTER_PATHS.quality,
-    label: 'Quality & Training',
-    description: 'How standards stay consistent',
-    owns: 'Chef quality and training',
-  },
-  {
-    href: CLUSTER_PATHS.privacy,
-    label: 'Privacy & Security',
-    description: 'Trust inside your home',
-    owns: 'Private chef privacy and security',
-  },
-  {
-    href: CLUSTER_PATHS.pricing,
-    label: 'Pricing & Plans',
-    description: 'Home chef plans and prices',
-    owns: 'Private Chef Dubai prices',
-  },
-] as const
-
-/** Global header only. Household support URLs stay on ClusterNav, not sitewide. */
 export const GLOBAL_CLUSTER_NAV = [
-  CLUSTER_NAV[0],
-  CLUSTER_NAV[1],
-  {
-    href: '/our-chefs',
-    label: 'Our Chefs',
-    description: 'The vetted myCHEF network',
-    owns: 'Private chefs Dubai',
-  },
-  CLUSTER_NAV[5],
+  { href: CLUSTER_PATHS.overview, label: 'Private Chef Overview', description: 'Chef visits and long-term household chefs', owns: 'Private Chef Dubai' },
+  { href: SHORT_TERM_PATH, label: 'Short-Term Chef Bookings', description: 'A few hours, cooking days or a short stay', owns: 'Short term private chef Dubai' },
+  { href: HOUSEHOLD_PATH, label: 'Household Chefs', description: 'Personal matching, recruitment and ongoing support', owns: 'Full time private chef Dubai' },
+  { href: LIVE_IN_PATH, label: 'Live-In Chefs', description: 'A resident chef for your home', owns: 'Live in private chef Dubai' },
+  { href: LIVE_OUT_PATH, label: 'Daily Live-Out Chefs', description: 'Your chef on an agreed daily schedule', owns: 'Live out private chef Dubai' },
+  { href: '/our-chefs', label: 'Our Chefs & Styles', description: 'Explore 25 styles across five culinary levels', owns: 'Private chefs Dubai' },
+  { href: CLUSTER_PATHS.howItWorks, label: 'How It Works', description: 'Your brief, your match and your routine', owns: 'Managed private chef service' },
+  { href: CLUSTER_PATHS.pricing, label: 'Pricing & Plans', description: 'Visit prices and monthly household budgets', owns: 'Private Chef Dubai prices' },
+] as const
+export const CLUSTER_NAV = [
+  { ...GLOBAL_CLUSTER_NAV[0], label: 'Overview' },
+  { ...GLOBAL_CLUSTER_NAV[1], label: 'Chef Visits' },
+  GLOBAL_CLUSTER_NAV[2],
+  { ...GLOBAL_CLUSTER_NAV[5], label: 'Our Chefs' },
+  GLOBAL_CLUSTER_NAV[6],
+  GLOBAL_CLUSTER_NAV[7],
 ] as const
 
 export const INQUIRY_HREF = '/inquiry?from=/private-chef-dubai'
@@ -394,6 +362,7 @@ export const foodProfilePreview = [
 ] as const
 
 export const parentFaqs = [
+  { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes personal matching, recruitment coordination, introductions and ongoing support. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with five culinary levels from AED 18,000 to AED 50,000 per month before VAT and separate agreed costs.' },
   {
     "q": "What does a household private chef do?",
     "a": "Your chef prepares food in your own kitchen on an agreed schedule, with menus, shopping responsibilities and cleanup set out in the proposal. Choose freshly served meals, preparation for later or broader daily kitchen support."
@@ -416,11 +385,11 @@ export const parentFaqs = [
   },
   {
     "q": "How much does the service cost?",
-    "a": "Base long-term service fees start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Frequency, shopping arrangements and additional staffing affect the estimate; compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
+    "a": "Chef visits start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Dedicated monthly household plans start at AED 18,000, with five culinary levels and a separate proposal. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
   },
   {
     "q": "Can I book a chef for one dinner?",
-    "a": "Yes. For a single celebration or dinner with guests, explore our [private dining experiences](/luxury-dining-experiences). The household plans on this page are designed for recurring cooking or short-stay arrangements."
+    "a": "Yes. For a single celebration or dinner with guests, explore our [private dining experiences](/luxury-dining-experiences). You can also book everyday cooking visits, short stays or a long-term household chef through myCHEF."
   }
 ] as const
 

@@ -32,8 +32,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
-    "description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
+    "title": "Meal Prep Dubai | A Chef Cooks in Your Kitchen | myCHEF",
+    "description": "Meal prep in your Dubai kitchen. A chef cooks and portions meals for your household, with groceries, preferences and storage agreed before each visit.",
     "h1": [
       "Meal Prep Dubai. A well-prepared week."
     ]
@@ -52,6 +52,8 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -60,6 +62,9 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
@@ -69,6 +74,7 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -81,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2118,
+    "current_word_count": 2180,
     "headings": [
       {
         "level": "h2",
@@ -141,7 +147,7 @@
       },
       {
         "level": "h3",
-        "text": "A full-day chef, five days a week"
+        "text": "Full-day chef visits, five days a week"
       },
       {
         "level": "h2",
@@ -158,6 +164,10 @@
       {
         "level": "h3",
         "text": "The service behind the occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Make a chef part of your household."
       },
       {
         "level": "h2",

@@ -73,7 +73,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1608,
-    "current_word_count": 605,
+    "current_word_count": 607,
     "headings": [
       {
         "level": "h2",
@@ -109,15 +109,15 @@
       },
       {
         "level": "h3",
+        "text": "Best Cozymeal alternatives for private dining in Dubai"
+      },
+      {
+        "level": "h3",
         "text": "A Household Menu Brief for Your Dubai Chef"
       },
       {
         "level": "h3",
         "text": "Private Chef Kitchen Preparation in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Private Chef Trial in Dubai: What to Evaluate"
       },
       {
         "level": "h2",

@@ -142,6 +142,9 @@ const LoyaltyProgramme: PreloadableComponent = lazyPreloadable(() => import('./p
 const MysteryDining: PreloadableComponent = lazyPreloadable(() => import('./pages/MysteryDining'))
 const ChefTrainingAcademy: PreloadableComponent = lazyPreloadable(() => import('./pages/ChefTrainingAcademy'))
 const InfluencerPartnerships: PreloadableComponent = lazyPreloadable(() => import('./pages/InfluencerPartnerships'))
+const LiveInChef: PreloadableComponent = lazyPreloadable(() => import('./pages/household/LiveInChef'))
+const LiveOutChef: PreloadableComponent = lazyPreloadable(() => import('./pages/household/LiveOutChef'))
+const ShortTermChef: PreloadableComponent = lazyPreloadable(() => import('./pages/household/ShortTermChef'))
 const FullTimePrivateChef: PreloadableComponent = lazyPreloadable(() => import('./pages/FullTimePrivateChef'))
 const KidsNutritionChef: PreloadableComponent = lazyPreloadable(() => import('./pages/KidsNutritionChef'))
 const BookingProtectionInsurance: PreloadableComponent = lazyPreloadable(() => import('./pages/BookingProtectionInsurance'))
@@ -307,6 +310,9 @@ export const routes: AppRoute[] = [
   { path: "/mystery-dining-dubai", element: <MysteryDining />, preload: MysteryDining.preload },
   { path: "/chef-training-academy", element: <ChefTrainingAcademy />, preload: ChefTrainingAcademy.preload },
   { path: "/influencer-partnerships", element: <InfluencerPartnerships />, preload: InfluencerPartnerships.preload },
+  { path: "/private-chef-dubai/live-in-chef", element: <LiveInChef /> },
+  { path: "/private-chef-dubai/live-out-chef", element: <LiveOutChef /> },
+  { path: "/private-chef-dubai/short-term-chef", element: <ShortTermChef /> },
   { path: "/full-time-private-chef-dubai", element: <FullTimePrivateChef />, preload: FullTimePrivateChef.preload },
   { path: "/kids-nutrition-chef-dubai", element: <KidsNutritionChef />, preload: KidsNutritionChef.preload },
   { path: "/booking-protection-insurance", element: <BookingProtectionInsurance />, preload: BookingProtectionInsurance.preload },

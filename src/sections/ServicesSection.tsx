@@ -11,9 +11,9 @@ const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'A chef for your kitchen',
-    description: 'A standing private chef for your home: usually the same person each week, cooking in your kitchen. One dinner is catering, not this plan.',
+    description: 'Book a chef for a few hours or find a long-term household match. Live-in, daily live-out and recurring visits, with food shaped around your home.',
     link: '/private-chef-dubai',
-    cta: 'See household chef plans',
+    cta: 'Explore private chef options',
   },
   {
     image: '/images/catering-dubai-hero.webp',
@@ -49,7 +49,7 @@ const builtOnServices: { icon: LucideIcon; title: string; description: string; l
   {
     icon: House,
     title: 'Villas & Residences',
-    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai. A vetted chef in your kitchen, planned around how the house actually runs.',
+    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai. Your food and cooking days, planned around how your home runs.',
     link: '/villas-private-residences',
     cta: 'See villa chefs',
   },

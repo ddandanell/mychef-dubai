@@ -30,6 +30,7 @@ import { scenarioById } from '@/content/birthdayStatement'
 import BirthdayPrivateBrief from '@/components/birthday/BirthdayPrivateBrief'
 import QuoteRequestForm from '@/components/inquiry/QuoteRequestForm'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { householdBriefFromParams, isChefServiceSource, chefServiceWhatsAppMessage } from '@/lib/householdInquiry'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -50,6 +51,8 @@ const trustBadges = [
 
 export default function Inquiry() {
   const [params] = useSearchParams()
+  const household = householdBriefFromParams(params)
+  const chefService = isChefServiceSource(params.get('from') || '')
   const formatParam = params.get('format') ?? ''
   const guestsParam = Number(params.get('guests'))
   const yachtPrefill = params.get('from') === 'yachts' && isYachtFormatId(formatParam)
@@ -68,7 +71,9 @@ export default function Inquiry() {
     : null
   const chefPref = params.get('chef')
   const calculatorBrief = cateringCalculatorBrief(params)
-  const whatsappMessage = chefPref
+  const whatsappMessage = household.active
+    ? chefServiceWhatsAppMessage(params)
+    : chefPref
     ? `Hi myCHEF Dubai, I would like to enquire about chef ${chefPref.replace(/-/g, ' ')} as a preference. Availability to be confirmed. (via mychef.ae/inquiry)`
     : yachtPrefill
     ? yachtWhatsAppMessage({ guests: clampYachtGuests(guestsParam), formatId: formatParam })
@@ -80,7 +85,7 @@ export default function Inquiry() {
           ? birthdayWhatsAppMessage(birthdayExtraIds)
           : calculatorBrief.length
             ? `Hi myCHEF Dubai, I would like a catering proposal.\n${calculatorBrief.join('\n')}`
-            : DEFAULT_WHATSAPP_MESSAGE
+            : chefService ? chefServiceWhatsAppMessage(params) : DEFAULT_WHATSAPP_MESSAGE
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(whatsappMessage)}`
   useWhatsAppMessage(whatsappMessage)
 
@@ -184,7 +189,9 @@ export default function Inquiry() {
             <span className="word inline-block">Need</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            {yachtPrefill
+            {household.active
+              ? 'Tell us about your home, the food you love and the chef you would like to welcome. Your selected styles travel with your enquiry so we can start building the right match.'
+              : yachtPrefill
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
                 ? `Package selected: ${corporatePkg.name}. Add the date, area and guest count, then send.`
@@ -200,7 +207,7 @@ export default function Inquiry() {
       {/* Section 2: WhatsApp CTA */}
       <section className="bg-white py-16 md:py-20">
         <div className="container-custom max-w-[1200px]">
-          <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-y-12 lg:gap-x-12">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] gap-y-12 lg:gap-x-12">
             {/* Left Column — WhatsApp CTA */}
             <div ref={ctaRef}>
               {birthdayPrivatePrefill ? (
@@ -212,9 +219,9 @@ export default function Inquiry() {
                 Send a short brief
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.
+                {household.active ? 'Share your preferred start, household size, arrangement and monthly budget. We will discuss your brief and guide you through suitable chef introductions.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
               </p>
-              <QuoteRequestForm />
+              <QuoteRequestForm key={params.toString()} />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
                 Or skip the form and{' '}
                 <a
@@ -242,11 +249,15 @@ send the essentials directly on WhatsApp
 
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
-                  {[
+                  {(household.active ? [
+                    { title: 'We get to know your home', desc: 'Your food preferences, daily routine and budget become a clear brief for the chef search.' },
+                    { title: 'We build your personal shortlist', desc: 'We discuss suitable chefs, arrange introductions and help plan a paid cooking trial.' },
+                    { title: 'We help you settle in', desc: 'Your myCHEF contact coordinates the start and stays involved with feedback and ongoing support.' },
+                  ] : [
                     { title: 'We Review Your Request', desc: 'A coordinator reviews your brief and confirms the details needed to prepare a relevant proposal.' },
-                    { title: 'We Create Your Proposal', desc: 'A bespoke menu and indicative quote tailored to your event.' },
-                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we coordinate every detail so you can be a guest at your own event.' },
-                  ].map((item, i) => (
+                    { title: 'We Create Your Proposal', desc: 'A menu or cooking plan and indicative quote tailored to your brief.' },
+                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we coordinate your chef and the practical details of your booking.' },
+                  ]).map((item, i) => (
                     <div key={item.title} className="flex gap-4">
                       <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
                         <span className="font-inter text-sm font-medium text-black">{i + 1}</span>

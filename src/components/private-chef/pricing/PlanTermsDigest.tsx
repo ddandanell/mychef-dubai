@@ -14,7 +14,7 @@ export default function PlanTermsDigest() {
         <DisplayHeading size="h2" className="text-black mb-4">
           <span id="plan-terms-h">The rules that shape the price — in plain English.</span>
         </DisplayHeading>
-        <BodyCopy muted>Only the rules that change what you pay or what you get. Everything else is on one page, written the same way.</BodyCopy>
+        <BodyCopy muted>These rules apply to the cooking visits shown in the calculator. Dedicated monthly household chef arrangements have a separate written proposal covering the search, schedule, fees, trial and ongoing support.</BodyCopy>
       </div>
       <div className="grid gap-10 lg:grid-cols-[minmax(0,0.3fr)_minmax(0,0.7fr)] lg:gap-16 items-start">
         <div className="lg:sticky lg:top-24">

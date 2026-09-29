@@ -83,7 +83,7 @@ export default function HowYourPlanWorks() {
         variant="quiet"
         eyebrow="Private Chef Dubai"
         title="How your private chef plan works"
-        subtitle="Every rule that shapes your plan, explained once, so you never have to ask."
+        subtitle="The practical terms for cooking visits and recurring bookings. A dedicated monthly household chef arrangement has its own proposal and service agreement."
         image={hero.src}
         imageAlt={hero.alt}
         imageWidth={hero.width}

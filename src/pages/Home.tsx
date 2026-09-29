@@ -4,6 +4,7 @@
 //     subkeywords: "my chef dubai" · "fine dining at home dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import { HouseholdCallout } from '@/components/household/HouseholdSections'
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
@@ -25,7 +26,7 @@ export default function Home() {
     <>
       <SEO
         title="myCHEF Dubai | A Chef for Your Kitchen and Events"
-        description="A standing chef for your home, or catering for a night with guests in Dubai. Every chef is vetted before they cook for you."
+        description="Private chef visits, long-term household chefs and catering in Dubai. Personal menus, a suitable chef match and ongoing support from myCHEF."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"
@@ -35,6 +36,7 @@ export default function Home() {
       <HeroSection />
       <TrustSignalStrip />
       <ServicesSection />
+      <HouseholdCallout/>
       <StarterPackagesSection
         campaign="home"
         eyebrow="PRICING"
@@ -53,8 +55,8 @@ export default function Home() {
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Start with a{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>
-            {' plan for a standing household cook, '}
-            <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">the named roster</Link>
+            {' for cooking visits or a long-term household arrangement, '}
+            <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">our chefs and cooking styles</Link>
             {' for who cooks, '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering Dubai</Link>
             {' for a night, '}
