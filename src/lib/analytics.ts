@@ -8,6 +8,9 @@
 // =============================================================================
 
 export const GA_MEASUREMENT_ID = 'G-26YM3CE8CB'
+// The existing Google Ads website lead action; count only a successfully delivered quote form.
+const ADS_ID = 'AW-18444207880'
+const ADS_LEAD_DESTINATION = `${ADS_ID}/In4mCPDOk_YcEIiO8dpE`
 
 declare global {
   interface Window {
@@ -34,6 +37,7 @@ export function initAnalytics(): void {
   window.gtag('js', new Date())
   // send_page_view:false — we fire page_view manually on every client-side route change.
   window.gtag('config', GA_MEASUREMENT_ID, { send_page_view: false })
+  window.gtag('config', ADS_ID, { send_page_view: false })
 }
 
 export function trackPageView(path: string): void {
@@ -48,4 +52,16 @@ export function trackPageView(path: string): void {
 export function trackEvent(name: string, params: Record<string, unknown> = {}): void {
   if (!GA_MEASUREMENT_ID || typeof window.gtag !== 'function') return
   window.gtag('event', name, params)
+}
+
+/** Called only after the quote API confirms that the brief was delivered. */
+export function trackDeliveredQuoteLead(service: string): void {
+  if (typeof window === 'undefined' || typeof window.gtag !== 'function') return
+  window.gtag('event', 'generate_lead', {
+    send_to: GA_MEASUREMENT_ID,
+    method: 'quote_request',
+    service,
+    page_path: window.location.pathname,
+  })
+  window.gtag('event', 'conversion', { send_to: ADS_LEAD_DESTINATION })
 }
