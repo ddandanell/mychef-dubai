@@ -132,13 +132,13 @@ export default function CateringPackages() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            These are the published event packages. Compare them here, then open{' '}
+            These are published starting packages for defined guest ranges. If you are comparing catering companies in Dubai, check what each quote includes before comparing the price. Our{' '}
             <Link to={PACKAGE_UPLINK.href} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Catering Dubai
+              catering services in Dubai
             </Link>
-            {' '}if you need food-only through to full event support. For regular meals at home, explore{' '}
+            {' '}also include food-only delivery and larger staffed events, quoted around your venue and guest count. For a recurring household cook rather than an event, explore{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Private chef
+              private chef services in Dubai
             </Link>
             .
           </p>
