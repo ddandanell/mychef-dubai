@@ -3,6 +3,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react'
 import { computeQuote, type QuoteInput } from '@/content/privateChefPricing'
 import { planText } from './planText'
 import { trackConversion } from '@/lib/track'
+import { trackDeliveredQuoteLead } from '@/lib/analytics'
 
 const WA = '971551744849'
 const field = 'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-body-sm text-black placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
@@ -26,6 +27,7 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'lead_form')
+        trackDeliveredQuoteLead('Private Chef — household plan')
         setStatus('sent')
       } else {
         setStatus('error')
