@@ -4,6 +4,7 @@ import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
 import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
 import { classifyTrackedCta, conversionParams, ctaTextParam, shouldGenerateLead } from '../lib/conversionEvents'
+import { getAdAttribution } from '../lib/adAttribution'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -25,6 +26,8 @@ export default function Analytics() {
 
   useEffect(() => {
     if (location.pathname === '/seo' || location.pathname.startsWith('/seo/')) return
+    // Capture the landing visit's ad reference before an internal link drops its query string.
+    getAdAttribution()
     trackPageView(location.pathname + location.search)
     trackPage(location.pathname)
     if (/^\/inquiry\/?$/.test(location.pathname)) {
