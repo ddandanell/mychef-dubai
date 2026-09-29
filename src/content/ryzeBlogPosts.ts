@@ -404,5 +404,14 @@ export const RYZE_BLOG_POSTS = [
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/050826a0-32aa-4f57-bf3f-862e747b6c72/featured.jpg",
     "hub": "celebrations",
     "date": "September 2026"
+  },
+  {
+    "slug": "/blog/best-private-chefs-in-dubai-for-home-dining",
+    "title": "Best Private Chef in Dubai for Home Dining (2026)",
+    "excerpt": "myCHEF's vetted, halal-first chefs are Dubai's best private chef option for home dining in 2026 — compare formats, pros, cons, and who each suits best.",
+    "category": "Guides",
+    "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/programmatic-articles/55f87b60-f861-422d-a3f2-779e03f2cbdf/featured.jpg",
+    "hub": "private-chef",
+    "date": "September 2026"
   }
 ]

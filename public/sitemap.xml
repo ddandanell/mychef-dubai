@@ -170,6 +170,11 @@
   <url><loc>https://www.mychef.ae/referral-programme</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/trust-and-programs</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/wellness-meal-prep-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Household chef service additions -->
+  <url><loc>https://www.mychef.ae/private-chef-dubai/live-in-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/live-out-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/private-chef-dubai/short-term-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <!-- RYZE:START -->
   <url><loc>https://www.mychef.ae/blog/smart-catering-alternatives-in</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/take-a-chef-alternatives-in</loc><lastmod>2026-09-28</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -216,10 +221,6 @@
   <url><loc>https://www.mychef.ae/blog/best-halal-catering-companies-in-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/best-private-chefs-for-villas-in-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/best-wedding-catering-companies-in-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <!-- RYZE:END -->
-
-  <!-- Household chef service additions -->
-  <url><loc>https://www.mychef.ae/private-chef-dubai/live-in-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/live-out-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/short-term-chef</loc><lastmod>2026-09-29</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>
