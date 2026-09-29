@@ -150,14 +150,13 @@ export default function Events() {
             ))}
           </ul>
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
-            Plan the food and hospitality around the occasion you want to celebrate.
-            Explore the occasion you are hosting below. Explore food delivery and staffed service with{' '}
+            Start with the occasion you are hosting below. If you are comparing catering services in Dubai, see our{' '}
             <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Catering
+              food delivery and staffed catering options
             </Link>
-            . Regular cooking for your household belongs on{' '}
+            {' '}with starting prices and what is included. For regular cooking in your own kitchen, see how to book a{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {siloIntro.chefLabel}
+              private chef in Dubai
             </Link>
             . A one-off chef-led dinner, tasting or desert dinner belongs on{' '}
             <Link to={siloIntro.diningHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
