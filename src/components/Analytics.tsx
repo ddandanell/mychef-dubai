@@ -108,14 +108,8 @@ export default function Analytics() {
       const formId = (form && form.id) || ''
       if (!shouldGenerateLead(path, formId)) return
       const method = formLabel(formId)
-      const ctaLocation = form?.getAttribute('data-cta-location') || form?.getAttribute('data-placement') || method
 
-      trackEvent('generate_lead', {
-        form_id: formId,
-        method,
-        page_path: path,
-        cta_location: ctaLocation,
-      })
+      // A submit is only an attempt; the form reports a lead after delivery succeeds.
       trackConversion('form_submit', method)
     }
 
