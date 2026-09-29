@@ -8,6 +8,7 @@ import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
 import { householdBriefFromParams, householdBriefLines } from '@/lib/householdInquiry'
 import { householdLevels, levelPrice } from '@/content/householdChefs'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
+import { adAttributionSource, getAdAttribution } from '@/lib/adAttribution'
 
 const field =
   'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-body-sm text-black placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
@@ -88,7 +89,8 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
           extras: params.get('extras') || '',
           sourcePage: sourcePath,
           message: brief,
-          source: fromParam || sourcePath,
+          source: adAttributionSource(fromParam || sourcePath),
+          gclid: getAdAttribution().gclid,
           page: typeof window !== 'undefined' ? window.location.pathname + window.location.search : '/inquiry',
         }),
       })
