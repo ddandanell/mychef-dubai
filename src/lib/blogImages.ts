@@ -1,5 +1,10 @@
 import media from '@/content/blogMedia.json'
 
+/** Dimensions measured from the published image files, used to reserve space. */
+export function blogImageDimensions(src: string) {
+  return (media.dimensions as Record<string, { width: number; height: number }>)[src]
+}
+
 /** Responsive derivatives are published alongside each local blog master. */
 export function blogImageSrcSet(src?: string) {
   const width = src ? (media.widths as Record<string, number>)[src] || 1536 : 1536
