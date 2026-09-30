@@ -36,6 +36,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
@@ -48,7 +49,9 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -58,11 +61,23 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 675,
-    "current_word_count": 714,
+    "current_word_count": 823,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs CateringInDubai: which is better in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Pinch Gourmet: which is better in 2026"
       },
       {
         "level": "h3",

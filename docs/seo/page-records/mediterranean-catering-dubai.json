@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Mediterranean Catering Dubai | Mezze & Sharing Menus | myCHEF",
+    "title": "Mediterranean Catering Dubai | Sharing Menus | myCHEF",
     "description": "Mediterranean catering in Dubai with mezze, grilled fish, seasonal vegetables and sharing dishes. Tailored menus for homes, weddings and company events.",
     "h1": [
       "Mediterranean Catering Dubai"
@@ -52,6 +52,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
@@ -67,7 +68,9 @@
     "src/hooks/useScrollTrigger.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

@@ -308,6 +308,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Best Private Chefs for Villas in Dubai: What to Compare"
   }
  ],
+ "/blog/best-private-chefs-in-dubai-for-home-dining": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "label": "Best Private Chef in Dubai for Home Dining (2026)"
+  }
+ ],
  "/blog/best-private-cooking-class-experiences-in-dubai": [
   {
    "href": "/",
@@ -2910,6 +2923,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/best-private-chefs-for-villas-in-dubai",
    "label": "Best Private Chefs for Villas in Dubai: What to Compare"
+  },
+  {
+   "href": "/blog/best-private-chefs-in-dubai-for-home-dining",
+   "label": "Best Private Chef in Dubai for Home Dining (2026)"
   },
   {
    "href": "/blog/best-private-cooking-class-experiences-in-dubai",

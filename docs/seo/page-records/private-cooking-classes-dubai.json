@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Cooking Classes Dubai | A Chef in Your Kitchen | myCHEF",
+    "title": "Private Cooking Classes Dubai | Learn at Home | myCHEF",
     "description": "Private cooking classes in Dubai for couples, families and small groups. Choose your cuisine and discuss the menu, ingredients and kitchen setup with myCHEF.",
     "h1": [
       "Private Cooking Classes Dubai: Chef-Led Lessons at Home"
@@ -51,6 +51,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
@@ -66,7 +67,9 @@
     "src/hooks/useScrollTrigger.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

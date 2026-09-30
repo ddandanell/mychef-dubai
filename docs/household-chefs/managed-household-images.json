@@ -1,0 +1,36 @@
+{
+  "created": "2026-09-30",
+  "method": "Built-in image_gen; responsive WebP conversion using sharp. Original editorial concepts, not portraits of named staff or customer case studies.",
+  "images": [
+    {
+      "id": "managed-household-table",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 editorial website photograph for myCHEF Managed Household, a discreet premium private chef service in Dubai. Primary request: depict food that feels like home, an experienced private chef in a simple unbranded off-white jacket putting a generous ceramic platter of roast fish, lemon and vegetables on a warm oak kitchen dining table while two adult household members sit naturally nearby, quietly enjoying an ordinary beautiful lunch. Scene: lived-in contemporary Dubai villa with limestone, pale wood, linen, olive greenery, soft late-afternoon daylight. Human, relaxed, refined, subtle film grain, documentary food photography with authentic skin and hands. Composition: medium-wide with chef and food centre/right, natural depth, suitable as website feature image, no staged smile at camera. Nothing resembling a banquet or restaurant. No logos, typography, watermark, computer interface, famous people, fabricated testimonials. Exactly one single coherent photograph, not collage.",
+      "outputs": [
+        "public/images/household-chefs/managed-household-table-480.webp",
+        "public/images/household-chefs/managed-household-table-800.webp",
+        "public/images/household-chefs/managed-household-table-1200.webp",
+        "public/images/household-chefs/managed-household-table-1536.webp"
+      ]
+    },
+    {
+      "id": "managed-household-brief",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 editorial website photograph for a premium managed household chef service. Primary request: make the personal matching consultation understandable: a casually elegant female household coordinator and a male homeowner in their forties discussing food preferences with an experienced chef at a contemporary Dubai villa kitchen island. They are listening attentively, with a simple notebook, pencil, two cups and a bowl of lemons, no visible writing. Warm ivory limestone, natural oak, linen, restrained olive green. Photoreal documentary hospitality editorial, human facial detail, natural small gestures, thoughtful relaxed mood. Medium-wide composition with all three visible, believable anatomy and hands, soft morning window light. No laptop or complex UI, no logos, no text or watermark, no posed handshake, no stock-photo grins. One photograph, not collage.",
+      "outputs": [
+        "public/images/household-chefs/managed-household-brief-480.webp",
+        "public/images/household-chefs/managed-household-brief-800.webp",
+        "public/images/household-chefs/managed-household-brief-1200.webp",
+        "public/images/household-chefs/managed-household-brief-1536.webp"
+      ]
+    },
+    {
+      "id": "managed-household-recipe",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 editorial website photograph for myCHEF's optional family recipe preservation and Learn With Your Chef. Primary request: a chef in a cream jacket and an older woman in a soft olive linen blouse cooking fresh handmade pasta together at a sunlit kitchen island in a comfortable contemporary Dubai home. They gently shape pasta by hand, concentrating and sharing quiet knowledge, with a small bowl of flour, a wooden rolling pin, basil and a handwritten recipe notebook blurred enough that no words can be read. Natural beautiful food textures, authentic lived-in warmth, refined hospitality magazine photography, real skin and hands, muted ivory, sage and oak palette. Medium framing. No children or knives, no text, branding, watermark, framed faces or collage. One coherent original photograph.",
+      "outputs": [
+        "public/images/household-chefs/managed-household-recipe-480.webp",
+        "public/images/household-chefs/managed-household-recipe-800.webp",
+        "public/images/household-chefs/managed-household-recipe-1200.webp",
+        "public/images/household-chefs/managed-household-recipe-1536.webp"
+      ]
+    }
+  ]
+}

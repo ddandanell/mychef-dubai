@@ -31,7 +31,7 @@
   },
   "metadata": {
     "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
-    "description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels.",
+    "description": "Compare private chef Dubai prices: visits from AED 750 and Managed Household from approx. AED 20,000/month. See activation, monthly fees and separate costs.",
     "h1": [
       "Private Chef Dubai Price. Clear from the start."
     ]
@@ -50,8 +50,9 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
-    "src/components/household/HouseholdSections.tsx",
+    "src/components/household/ManagedHousehold.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -92,7 +93,9 @@
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",
@@ -101,12 +104,13 @@
     "src/lib/whatsapp.ts",
     "src/pages/PrivateChefPrices.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4491,
-    "current_word_count": 4215,
+    "current_word_count": 4302,
     "headings": [
       {
         "level": "h2",
@@ -218,31 +222,39 @@
       },
       {
         "level": "h2",
-        "text": "Monthly household chefs: five levels."
+        "text": "Managed Household: your search and monthly service."
       },
       {
         "level": "h3",
-        "text": "Standard Household Chef"
+        "text": "The myCHEF Match"
       },
       {
         "level": "h3",
-        "text": "Select Household Chef"
+        "text": "From approximately AED 20,000"
       },
       {
         "level": "h3",
-        "text": "Senior Private Chef"
+        "text": "Approximately AED 24,000–30,000"
       },
       {
         "level": "h3",
-        "text": "Executive Private Chef"
+        "text": "Individually quoted"
       },
       {
         "level": "h3",
-        "text": "Elite Private Chef"
+        "text": "Your monthly service"
+      },
+      {
+        "level": "h3",
+        "text": "Confirmed before you commit"
       },
       {
         "level": "h2",
         "text": "A few pricing questions."
+      },
+      {
+        "level": "h3",
+        "text": "How is Managed Household priced?"
       },
       {
         "level": "h3",

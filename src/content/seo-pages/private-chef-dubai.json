@@ -105,7 +105,7 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
-  "meta_description": "Private chef visits in Dubai from AED 750 or household plans from AED 18,000/month, before VAT. Personal menus, chef matching and separate groceries.",
+  "meta_description": "Private chef visits in Dubai from AED 750 or household plans from approx. AED 20,000/month, before VAT. Personal menus, chef matching and separate groceries.",
   "h1": "Your chef. Your household. Already understood. (eyebrow inside H1: Private Chef Dubai)"
  },
  "opening_paragraph": [],

@@ -24,18 +24,21 @@ export function isChefServiceSource(source: string) {
   return source.startsWith('/private-chef-dubai') || [HOUSEHOLD_PATH, SHORT_TERM_PATH, '/our-chefs', '/part-time-private-chef-dubai', '/weekly-meal-prep-dubai', '/wellness-meal-prep-dubai'].includes(source)
 }
 
-export function householdBriefLines(params: URLSearchParams, values: { arrangement?: string; budget?: string; schedule?: string; preferences?: string } = {}, fallbackSource = '') {
+export function householdBriefLines(params: URLSearchParams, values: { arrangement?: string; budget?: string; budgetBasis?: string; duration?: string; schedule?: string; preferences?: string } = {}, fallbackSource = '') {
   const brief = householdBriefFromParams(params, fallbackSource)
   if (!brief.active) return []
   const arrangement = values.arrangement || brief.arrangement
   return [
-    'Long-term household chef matching',
+    'myCHEF Managed Household enquiry',
     `Arrangement: ${arrangement === 'live-in' ? 'Live-in' : arrangement === 'live-out' ? 'Daily live-out' : 'Help me choose'}`,
-    `Monthly service budget: ${values.budget || (brief.level ? `AED ${brief.level.min.toLocaleString('en-AE')}–${brief.level.max.toLocaleString('en-AE')}` : 'To discuss; plans from AED 18,000')}`,
-    brief.level ? `Preferred level: ${brief.level.name}` : '',
+    `Monthly service budget: ${values.budget || 'To discuss; managed service from approximately AED 20,000/month'}`,
+    `Budget basis: ${values.budgetBasis || 'Complete managed service budget'}`,
+    values.duration ? `Expected length of arrangement: ${values.duration}` : '',
+    brief.level ? `Preferred culinary level: ${brief.level.name}` : '',
     brief.profiles.length ? `Chef styles: ${brief.profiles.map(p => `${p.title} (${p.id.toUpperCase()})`).join('; ')}` : '',
     values.schedule ? `Working days and meal times: ${values.schedule}` : '',
     values.preferences ? `Cuisine and household preferences: ${values.preferences}` : '',
+    'Next step: brief and budget review before any paid search activation.',
   ].filter(Boolean)
 }
 

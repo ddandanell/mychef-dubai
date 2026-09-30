@@ -25,10 +25,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
-    "description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate.",
+    "title": "Full Time Private Chef Dubai | Managed Household | myCHEF",
+    "description": "Full time private chef in Dubai with personal matching, a Learning Month and ongoing management. From approx. AED 20,000/month; activation and extras separate.",
     "h1": [
-      "Full Time Private Chef Dubai. At home in your life."
+      "Full Time Private Chef Dubai. Food that feels like home."
     ]
   },
   "metadata_source": "local production prerender",
@@ -45,9 +45,11 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdProfiles.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/household/ManagedHousehold.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -71,7 +73,9 @@
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
     "src/lib/householdSchema.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -79,20 +83,101 @@
     "src/pages/FullTimePrivateChef.tsx",
     "src/pages/household/HouseholdChef.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 2987,
+    "current_word_count": 4432,
     "headings": [
       {
         "level": "h2",
-        "text": "A full time private chef in Dubai, around your home."
+        "text": "Your full time private chef in Dubai. A relationship, thoughtfully managed."
       },
       {
         "level": "h2",
-        "text": "Live in. Or come each day."
+        "text": "We learn. We match. We stay involved."
+      },
+      {
+        "level": "h3",
+        "text": "A person who fits your home."
+      },
+      {
+        "level": "h3",
+        "text": "The little things, remembered."
+      },
+      {
+        "level": "h3",
+        "text": "Support as life changes."
+      },
+      {
+        "level": "h2",
+        "text": "Here is how your chef becomes your chef."
+      },
+      {
+        "level": "h3",
+        "text": "Start with the essentials."
+      },
+      {
+        "level": "h3",
+        "text": "Tell us the essentials"
+      },
+      {
+        "level": "h3",
+        "text": "Build your Private Household Brief"
+      },
+      {
+        "level": "h3",
+        "text": "Activate your personal search"
+      },
+      {
+        "level": "h3",
+        "text": "Meet, then try the cooking"
+      },
+      {
+        "level": "h3",
+        "text": "Begin your Learning Month"
+      },
+      {
+        "level": "h3",
+        "text": "Keep building the relationship"
+      },
+      {
+        "level": "h2",
+        "text": "The first meal is only the beginning."
+      },
+      {
+        "level": "h3",
+        "text": "Observe"
+      },
+      {
+        "level": "h3",
+        "text": "Understand"
+      },
+      {
+        "level": "h3",
+        "text": "Adapt"
+      },
+      {
+        "level": "h3",
+        "text": "Personalise"
+      },
+      {
+        "level": "h2",
+        "text": "You explain it once. We keep learning."
+      },
+      {
+        "level": "h3",
+        "text": "The details that make it yours."
+      },
+      {
+        "level": "h3",
+        "text": "Favourites, down to the detail."
+      },
+      {
+        "level": "h2",
+        "text": "A resident chef, or a familiar face each day."
       },
       {
         "level": "h3",
@@ -104,7 +189,35 @@
       },
       {
         "level": "h2",
-        "text": "From family favourites to exceptional private dining."
+        "text": "A personal search. An ongoing monthly service."
+      },
+      {
+        "level": "h3",
+        "text": "The myCHEF Match"
+      },
+      {
+        "level": "h3",
+        "text": "From approximately AED 20,000"
+      },
+      {
+        "level": "h3",
+        "text": "Approximately AED 24,000–30,000"
+      },
+      {
+        "level": "h3",
+        "text": "Individually quoted"
+      },
+      {
+        "level": "h3",
+        "text": "Your monthly service"
+      },
+      {
+        "level": "h3",
+        "text": "Confirmed before you commit"
+      },
+      {
+        "level": "h2",
+        "text": "Start with the food you want at home."
       },
       {
         "level": "h3",
@@ -128,7 +241,7 @@
       },
       {
         "level": "h2",
-        "text": "Which chef feels like your kind of chef?"
+        "text": "What is your kind of cooking?"
       },
       {
         "level": "h3",
@@ -144,47 +257,27 @@
       },
       {
         "level": "h2",
-        "text": "From your household brief to a settled routine."
+        "text": "Your chef may change. Your understanding carries forward."
       },
       {
         "level": "h3",
-        "text": "Tell us about your home"
+        "text": "A planned absence"
       },
       {
         "level": "h3",
-        "text": "Build your personal shortlist"
+        "text": "An unexpected absence"
       },
       {
         "level": "h3",
-        "text": "Meet, talk and cook"
-      },
-      {
-        "level": "h3",
-        "text": "Settle into your routine"
-      },
-      {
-        "level": "h3",
-        "text": "Keep the fit working"
+        "text": "A permanent change"
       },
       {
         "level": "h2",
-        "text": "Support that continues after the introduction."
+        "text": "Some recipes deserve to stay in the family."
       },
       {
         "level": "h3",
-        "text": "Your chef search"
-      },
-      {
-        "level": "h3",
-        "text": "A thoughtful start"
-      },
-      {
-        "level": "h3",
-        "text": "One ongoing contact"
-      },
-      {
-        "level": "h3",
-        "text": "Help when things change"
+        "text": "Learn With Your Chef"
       },
       {
         "level": "h2",
@@ -192,31 +285,51 @@
       },
       {
         "level": "h3",
-        "text": "What does a monthly household chef service include?"
+        "text": "What is myCHEF Managed Household?"
       },
       {
         "level": "h3",
-        "text": "Can I choose between a live-in and a daily live-out chef?"
+        "text": "How much does a full-time private chef cost?"
       },
       {
         "level": "h3",
-        "text": "How much does a full-time household chef cost?"
+        "text": "What does the AED 950 Match Activation cover?"
       },
       {
         "level": "h3",
-        "text": "Can we try the chef before making a long-term commitment?"
+        "text": "How long does matching take?"
       },
       {
         "level": "h3",
-        "text": "What happens if the chef is not the right match?"
+        "text": "Can I choose a live-in or live-out chef?"
       },
       {
         "level": "h3",
-        "text": "Can I still book a chef for a few hours or a short stay?"
+        "text": "What happens during the first 30 days?"
+      },
+      {
+        "level": "h3",
+        "text": "What if we need a different chef?"
+      },
+      {
+        "level": "h3",
+        "text": "Is holiday or emergency cover included?"
+      },
+      {
+        "level": "h3",
+        "text": "Who can see our Household Food Profile?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we learn to cook or preserve family recipes?"
+      },
+      {
+        "level": "h3",
+        "text": "What if we only need a few visits each week?"
       },
       {
         "level": "h2",
-        "text": "Let’s find the person your kitchen is missing."
+        "text": "Let’s start with the way you live."
       },
       {
         "level": "h2",

@@ -28,7 +28,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Italian Catering Dubai | Pasta & Private Event Menus | myCHEF",
+    "title": "Italian Catering Dubai | Pasta & Antipasti | myCHEF",
     "description": "Italian catering in Dubai with antipasti, pasta and regional dishes. Choose sharing plates, a seated menu or a pasta station for your private event.",
     "h1": [
       "Italian Catering Dubai"
@@ -49,6 +49,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
@@ -64,7 +65,9 @@
     "src/hooks/useScrollTrigger.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

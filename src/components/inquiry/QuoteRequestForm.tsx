@@ -6,7 +6,7 @@ import { trackDeliveredQuoteLead } from '@/lib/analytics'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
 import { householdBriefFromParams, householdBriefLines } from '@/lib/householdInquiry'
-import { householdLevels, levelPrice } from '@/content/householdChefs'
+import { householdBudgetOptions } from '@/content/householdChefs'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 import { adAttributionSource, getAdAttribution } from '@/lib/adAttribution'
 
@@ -20,7 +20,7 @@ type Props = {
 export default function QuoteRequestForm({ sourcePage }: Props) {
   const [params] = useSearchParams()
   const household = householdBriefFromParams(params, sourcePage || lastServicePage() || '')
-  const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: household.level ? levelPrice(household.level) : '', schedule: '', preferences: '' })
+  const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: '', budgetBasis: 'Complete managed service budget', duration: '', schedule: '', preferences: '' })
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [contactBy, setContactBy] = useState<'whatsapp' | 'email'>('email')
   const [fields, setFields] = useState({
@@ -139,8 +139,8 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
         <input name="eventDate" className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />
       </label>
       <label className="block">
-        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">{household.active ? 'Household size' : 'Guests or household size'}</span>
-        <input name="guests" required className={field} inputMode="numeric" value={fields.guests} onChange={update('guests')} placeholder={household.active ? 'e.g. 4 adults and 2 children' : 'e.g. 12'} />
+        <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">{household.active ? 'Adults & children (ages if useful)' : 'Guests or household size'}</span>
+        <input name="guests" required className={field} inputMode={household.active ? 'text' : 'numeric'} value={fields.guests} onChange={update('guests')} placeholder={household.active ? 'e.g. 4 adults and 2 children' : 'e.g. 12'} />
       </label>
       <label className="block sm:col-span-2">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Area in Dubai</span>
@@ -149,10 +149,12 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       {household.active && <>
         {household.profiles.length > 0 && <div className="sm:col-span-2 border-l-2 border-gold bg-cream p-4"><p className="font-inter text-caption uppercase tracking-wide text-gray-600 mb-2">Your selected chef styles</p><ul className="font-inter text-body-sm text-black space-y-1">{household.profiles.map(profile => <li key={profile.id}>{profile.title}</li>)}</ul><p className="font-inter text-xs text-gray-500 mt-2">We use these preferences to build your personal chef shortlist.</p></div>}
         <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Living arrangement</span><select name="arrangement" className={field} value={householdFields.arrangement} onChange={e => setHouseholdFields(current => ({ ...current, arrangement: e.target.value }))}><option value="help-me-choose">Help me choose</option><option value="live-in">Live-in chef</option><option value="live-out">Daily live-out chef</option></select></label>
-        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Monthly service budget</span><select name="monthlyBudget" className={field} value={householdFields.budget} onChange={e => setHouseholdFields(current => ({ ...current, budget: e.target.value }))}><option value="">Help me choose · from AED 18,000</option>{householdLevels.map(level => <option key={level.id} value={levelPrice(level)}>{levelPrice(level)}</option>)}<option value="Above AED 50,000">Above AED 50,000</option></select></label>
-        <p className="sm:col-span-2 font-inter text-xs text-gray-500">Indicative monthly service fees before VAT. Groceries and agreed extras are separate.</p>
-        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Cooking days & meal times (optional)</span><input name="householdSchedule" className={field} value={householdFields.schedule} maxLength={500} onChange={e => setHouseholdFields(current => ({ ...current, schedule: e.target.value }))} placeholder="e.g. Monday to Saturday, lunch and dinner"/></label>
-        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Food & household preferences (optional)</span><textarea name="householdPreferences" className={field} rows={4} maxLength={2000} value={householdFields.preferences} onChange={e => setHouseholdFields(current => ({ ...current, preferences: e.target.value }))} placeholder="Favourite cuisines, daily meals, entertaining and what matters to your home"/></label>
+        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Monthly service budget</span><select name="monthlyBudget" required className={field} value={householdFields.budget} onChange={e => setHouseholdFields(current => ({ ...current, budget: e.target.value }))}><option value="" disabled>Select your monthly budget</option>{householdBudgetOptions.map(budget => <option key={budget} value={budget}>{budget}</option>)}</select></label>
+        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">This budget covers</span><select name="budgetBasis" className={field} value={householdFields.budgetBasis} onChange={e => setHouseholdFields(current => ({ ...current, budgetBasis: e.target.value }))}><option>Complete managed service budget</option><option>Chef compensation only</option><option>I would like help understanding the total</option></select></label>
+        <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Expected length of arrangement</span><select name="householdDuration" className={field} value={householdFields.duration} onChange={e => setHouseholdFields(current => ({ ...current, duration: e.target.value }))}><option value="">To discuss</option><option>1–3 months</option><option>3–6 months</option><option>6–12 months</option><option>Ongoing</option></select></label>
+        <p className="sm:col-span-2 font-inter text-xs text-gray-500 leading-relaxed">Managed Household starts from approximately AED 20,000/month before 5% VAT. We review your budget and scope first; AED 950 Match Activation is payable only after the search is agreed. Paid trials, groceries and agreed extras are separate. For a smaller budget or schedule, we can discuss cooking visits.</p>
+        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Working days, hours & meal times</span><input name="householdSchedule" required className={field} value={householdFields.schedule} maxLength={500} onChange={e => setHouseholdFields(current => ({ ...current, schedule: e.target.value }))} placeholder="e.g. Monday to Friday, 10am–7pm, lunch and dinner"/></label>
+        <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Food & household preferences (optional)</span><textarea name="householdPreferences" className={field} rows={4} maxLength={2000} value={householdFields.preferences} onChange={e => setHouseholdFields(current => ({ ...current, preferences: e.target.value }))} placeholder="Favourite cuisines, what food feels like home, and what would make everyday life easier. We discuss detailed dietary and household requirements privately."/></label>
       </>}
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Name (optional)</span>
@@ -185,10 +187,11 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       <div className="sm:col-span-2 flex flex-col sm:flex-row gap-3 pt-2">
         <button type="submit" disabled={status === 'sending'} className="btn-primary inline-flex items-center justify-center gap-2 disabled:opacity-60">
           {contactBy === 'whatsapp' ? <MessageCircle size={16} aria-hidden /> : <Mail size={16} aria-hidden />}
-          {status === 'sending' ? 'Sending…' : 'Send my brief'}
+          {status === 'sending' ? 'Sending…' : household.active ? 'Request my household consultation' : 'Send my brief'}
         </button>
         {household.active && <a href={waHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border border-gray-300 px-5 py-3 font-inter text-sm text-black"><MessageCircle size={16} aria-hidden/>Send on WhatsApp</a>}
       </div>
+      {household.active && <p className="sm:col-span-2 font-inter text-xs text-gray-500 leading-relaxed">This is an initial enquiry, with no payment taken. Your detailed Household Brief follows our suitability review. Share only what is useful at this stage. See our <a className="underline" href="/privacy-policy">privacy policy</a>.</p>}
       {status === 'error' ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-red-700" role="alert">
           We could not send your brief. Check your contact details or <a href={waHref} target="_blank" rel="noopener noreferrer" className="underline">send it on WhatsApp</a> instead.

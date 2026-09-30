@@ -23,12 +23,12 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home."
   },
   "/private-chef-dubai/live-out-chef": {
-    "title": "Live Out Private Chef Dubai | Daily Household Chef | myCHEF",
-    "description": "Find a live-out private chef for your Dubai home. Daily cooking on an agreed schedule, five levels from AED 18,000/month and personal matching support."
+    "title": "Live Out Private Chef Dubai | Managed Household | myCHEF",
+    "description": "Live-out private chef for your Dubai home. Personal matching, a Learning Month and ongoing management from approx. AED 20,000/month. Extras separate."
   },
   "/private-chef-dubai/live-in-chef": {
-    "title": "Live In Private Chef Dubai | Household Matching | myCHEF",
-    "description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support."
+    "title": "Live In Private Chef Dubai | Managed Household | myCHEF",
+    "description": "Live-in private chef in Dubai from approx. AED 20,000/month. Personal matching, a Learning Month and ongoing management. Activation and extras separate."
   },
   "/events": {
     "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
@@ -239,8 +239,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate catering in Dubai for office lunches, meetings and company events. Compare menus, service and itemised quotes. Drop-off from AED 90pp before VAT."
   },
   "/full-time-private-chef-dubai": {
-    "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
-    "description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate."
+    "title": "Full Time Private Chef Dubai | Managed Household | myCHEF",
+    "description": "Full time private chef in Dubai with personal matching, a Learning Month and ongoing management. From approx. AED 20,000/month; activation and extras separate."
   },
   "/catering-packages-dubai": {
     "title": "Catering Packages Dubai | Prices & Menus | myCHEF",
@@ -347,11 +347,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/private-chef-dubai": {
     "title": "Private Chef Dubai | Home Visits from AED 750 | myCHEF",
-    "description": "Private chef visits in Dubai from AED 750 or household chefs from AED 18,000/month. Personal menus, chef matching and ongoing myCHEF support."
+    "description": "Private chef visits in Dubai from AED 750 or Managed Household from approx. AED 20,000/month. Personal menus, chef matching and ongoing myCHEF support."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
-    "description": "Compare private chef Dubai prices: visits from AED 750 and monthly household plans from AED 18,000. Calculate visits or explore five chef levels."
+    "description": "Compare private chef Dubai prices: visits from AED 750 and Managed Household from approx. AED 20,000/month. See activation, monthly fees and separate costs."
   },
   "/our-chefs": {
     "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",

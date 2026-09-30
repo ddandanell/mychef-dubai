@@ -49,6 +49,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -65,7 +66,9 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -74,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 631,
-    "current_word_count": 467,
+    "current_word_count": 475,
     "headings": [
       {
         "level": "h2",
@@ -114,7 +117,7 @@
       },
       {
         "level": "h3",
-        "text": "Smart Catering alternatives in 2026"
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
       },
       {
         "level": "h2",

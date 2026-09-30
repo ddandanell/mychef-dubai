@@ -86,7 +86,7 @@ export default function PrivateChefMegaMenu() {
             </p>
             <div className="mt-auto border-t border-gold/25 pt-4">
               <p className="font-inter text-body-sm text-white/50 mb-4">
-                From AED 18,000/month
+                From approx. AED 20,000/month
               </p>
               <NavigationMenuLink asChild className="p-0 hover:bg-transparent focus:bg-transparent">
                 <Link to={HOUSEHOLD_PATH} className="btn-primary w-full text-center text-xs py-3">

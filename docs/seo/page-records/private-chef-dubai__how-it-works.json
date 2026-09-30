@@ -47,6 +47,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -72,7 +73,9 @@
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -84,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3490,
-    "current_word_count": 2082,
+    "current_word_count": 2381,
     "headings": [
       {
         "level": "h2",
@@ -92,7 +95,35 @@
       },
       {
         "level": "h2",
-        "text": "From your brief to the first meal."
+        "text": "The Managed Household journey."
+      },
+      {
+        "level": "h3",
+        "text": "Tell us the essentials"
+      },
+      {
+        "level": "h3",
+        "text": "Build your Private Household Brief"
+      },
+      {
+        "level": "h3",
+        "text": "Activate your personal search"
+      },
+      {
+        "level": "h3",
+        "text": "Meet, then try the cooking"
+      },
+      {
+        "level": "h3",
+        "text": "Begin your Learning Month"
+      },
+      {
+        "level": "h3",
+        "text": "Keep building the relationship"
+      },
+      {
+        "level": "h2",
+        "text": "Book the cooking time you need."
       },
       {
         "level": "h3",
@@ -120,7 +151,7 @@
       },
       {
         "level": "h3",
-        "text": "Your Food Profile"
+        "text": "Your Household Food Profile"
       },
       {
         "level": "h3",

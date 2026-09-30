@@ -23,8 +23,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Yacht Catering Services in Dubai | From AED 162/Guest | myCHEF",
-    "description": "Yacht catering in Dubai from AED 162 per guest: chefs, waiters, canapés and live stations on your chartered yacht. Written proposal; typical reply 15 minutes.",
+    "title": "Best Yacht Catering Companies in Dubai | myCHEF",
+    "description": "Compare yacht catering companies in Dubai by menu, crew, storage and boarding arrangements. Questions to ask before choosing food for your charter.",
     "h1": [
       "Best Yacht Catering Companies in Dubai: What to Compare"
     ]
@@ -45,12 +45,14 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
@@ -60,7 +62,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -70,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1609,
-    "current_word_count": 1941,
+    "current_word_count": 1952,
     "headings": [
       {
         "level": "h2",

@@ -25,7 +25,7 @@ export type ClusterPath = (typeof CLUSTER_PATHS)[keyof typeof CLUSTER_PATHS]
 export const GLOBAL_CLUSTER_NAV = [
   { href: CLUSTER_PATHS.overview, label: 'Private Chef Overview', description: 'Chef visits and long-term household chefs', owns: 'Private Chef Dubai' },
   { href: SHORT_TERM_PATH, label: 'Short-Term Chef Bookings', description: 'A few hours, cooking days or a short stay', owns: 'Short term private chef Dubai' },
-  { href: HOUSEHOLD_PATH, label: 'Household Chefs', description: 'Personal matching, recruitment and ongoing support', owns: 'Full time private chef Dubai' },
+  { href: HOUSEHOLD_PATH, label: 'Long-Term Household Chef', description: 'Personal matching, a Learning Month and continuing management', owns: 'Full time private chef Dubai' },
   { href: LIVE_IN_PATH, label: 'Live-In Chefs', description: 'A resident chef for your home', owns: 'Live in private chef Dubai' },
   { href: LIVE_OUT_PATH, label: 'Daily Live-Out Chefs', description: 'Your chef on an agreed daily schedule', owns: 'Live out private chef Dubai' },
   { href: '/our-chefs', label: 'Our Chefs & Styles', description: 'Explore 25 styles across five culinary levels', owns: 'Private chefs Dubai' },
@@ -362,7 +362,7 @@ export const foodProfilePreview = [
 ] as const
 
 export const parentFaqs = [
-  { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes personal matching, recruitment coordination, introductions and ongoing support. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with five culinary levels from AED 18,000 to AED 50,000 per month before VAT and separate agreed costs.' },
+  { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes a personal chef search, a 30-day Learning Month, an approved Household Food Profile and ongoing management. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with Managed Household from approximately AED 20,000/month, Premium at approximately AED 24,000–30,000 and Executive / Estate roles quoted individually. Fees are before 5% VAT; AED 950 Match Activation, paid trials, groceries and agreed extras are separate.' },
   {
     "q": "What does a household private chef do?",
     "a": "Your chef prepares food in your own kitchen on an agreed schedule, with menus, shopping responsibilities and cleanup set out in the proposal. Choose freshly served meals, preparation for later or broader daily kitchen support."
@@ -385,7 +385,7 @@ export const parentFaqs = [
   },
   {
     "q": "How much does the service cost?",
-    "a": "Chef visits start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Dedicated monthly household plans start at AED 18,000, with five culinary levels and a separate proposal. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
+    "a": "Chef visits start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Managed Household starts from approximately AED 20,000/month including the agreed chef service and myCHEF management, with AED 950 Match Activation, paid trials and agreed extras separate. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
   },
   {
     "q": "Can I book a chef for one dinner?",

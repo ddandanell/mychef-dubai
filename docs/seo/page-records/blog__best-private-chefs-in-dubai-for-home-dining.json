@@ -18,8 +18,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Private Chef in Dubai for Home Dining (2026) | myCHEF",
-    "description": "myCHEF's vetted, halal-first chefs are Dubai's best private chef option for home dining in 2026 — compare formats, pros, cons, and who each suits best.",
+    "title": "Best Private Chefs in Dubai for Home Dining | myCHEF",
+    "description": "Compare private chef options for home dining in Dubai, from family meals and weekly cooking to dinner parties. Learn what to ask before booking.",
     "h1": [
       "Best Private Chef in Dubai for Home Dining (2026)"
     ]
@@ -40,12 +40,14 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
@@ -55,7 +57,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -65,7 +69,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2779,
-    "current_word_count": 1933,
+    "current_word_count": 1956,
     "headings": [
       {
         "level": "h2",
@@ -133,7 +137,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan a private chef with myCHEF"
+        "text": "Plan private chef services with myCHEF"
       }
     ],
     "baseline_findings": [
