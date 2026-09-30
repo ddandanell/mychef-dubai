@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29 04:13",
+ "generated": "2026-09-30 04:13",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "260",
+   "value": "263",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-09-29 04:13",
+  "generated": "2026-09-30 04:13",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-09-29 04:13",
+  "generated": "2026-09-30 04:13",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,10 +2112,10 @@
   "locations": []
  },
  "pages": {
-  "contract": 260,
+  "contract": 263,
   "board": 226,
-  "routes": 174,
-  "frozen": 260,
+  "routes": 177,
+  "frozen": 263,
   "missing_from_board": [
    "/blog/best-arabic-catering-companies-in-dubai",
    "/blog/best-bbq-catering-companies-in-dubai",
@@ -2150,7 +2150,10 @@
    "/blog/private-chef-kitchen-preparation-dubai",
    "/blog/private-chef-trial-dubai",
    "/blog/three-hour-yacht-party-food-timeline-dubai",
-   "/blog/wedding-menu-tasting-dubai"
+   "/blog/wedding-menu-tasting-dubai",
+   "/private-chef-dubai/live-in-chef",
+   "/private-chef-dubai/live-out-chef",
+   "/private-chef-dubai/short-term-chef"
   ],
   "missing_from_routes": [
    "/anniversary-catering-dubai",
