@@ -223,7 +223,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion."
   },
   "/locations": {
-    "title": "Catering Near Me Dubai | Private Chef & Catering Areas | myCHEF",
+    "title": "Catering Near Me Dubai | Private Chef Areas | myCHEF",
     "description": "Catering services near me across Dubai — 15 neighbourhoods from Palm Jumeirah villas to Business Bay offices. Access, timing and a written quote confirmed."
   },
   "/vegan-catering-dubai": {

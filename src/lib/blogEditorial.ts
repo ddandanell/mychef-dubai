@@ -7,6 +7,18 @@ type Rule = { phrases: string[]; href: string }
 export interface BlogLinkState { path: string; remaining: number; uses: Map<string, number>; rules: Rule[]; limit: number; perDestination: number }
 const escape = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
+// Reuse non-global matchers across paragraphs and repeat renders. No lastIndex
+// state is carried between matches, so the link caps and phrase order stay intact.
+const phraseMatchers = new Map<string, RegExp>()
+function phraseMatcher(phrase: string): RegExp {
+  let matcher = phraseMatchers.get(phrase)
+  if (!matcher) {
+    matcher = new RegExp(`\\b${escape(phrase)}\\b`, 'i')
+    phraseMatchers.set(phrase, matcher)
+  }
+  return matcher
+}
+
 export function blogLinkState(path: string): BlogLinkState {
   const specific = (rules.pages as Record<string, Rule[]>)[path] || []
   const blog = path.startsWith('/blog/')
@@ -22,7 +34,7 @@ export function linkBlogText(text: string, state: BlogLinkState): (string | { hr
   for (const rule of state.rules) {
     if ((state.uses.get(rule.href) || 0) >= state.perDestination) continue
     for (const phrase of rule.phrases) {
-      const match = new RegExp(`\\b${escape(phrase)}\\b`, 'i').exec(text)
+      const match = phraseMatcher(phrase).exec(text)
       if (!match) continue
       state.remaining--
       state.uses.set(rule.href, (state.uses.get(rule.href) || 0) + 1)
