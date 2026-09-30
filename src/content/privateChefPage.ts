@@ -270,8 +270,8 @@ export const quickNav = [
 export const heroFacts = [
   {
     eyebrow: 'Entry point',
-    title: 'From AED 2,700 / month',
-    body: 'One three-hour prep session a week, Professional Chef. The chef cooks, organises the food and leaves — a private chef without someone in the house all day.',
+    title: 'From AED 3,000 / four weeks',
+    body: 'One three-hour Fresh Meal visit a week. The chef cooks, organises the food and leaves — a private chef without someone in the house all day.',
   },
   {
     eyebrow: 'The product',
@@ -1373,7 +1373,7 @@ export const locations = [
 export const faqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. A weekly Fresh Meal is AED 3,000 a month; four days a week of Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts with no markup, and there is no more expensive grade of chef to be moved up to.',
+    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. A weekly Fresh Meal is AED 3,000 over four weeks; four days a week of Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts with no markup, and Premium or Executive household roles are quoted separately.',
   },
   {
     q: 'Can I book a private chef for less than a month?',
