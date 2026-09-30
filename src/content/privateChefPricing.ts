@@ -137,7 +137,7 @@ export const FREQUENCIES = [
 ] as const
 /** A 30-day month occasionally lands one extra visit. It is billed when it happens, never assumed. */
 export const LONG_MONTH_NOTE =
-  'Four weeks of visits. A long month sometimes lands one more; it is billed when it happens.'
+  'Estimates cover four weeks of visits. Any extra calendar-month visits are itemised in your written quote.'
 export const LONG_TERM_MIN_SERVICES = 4
 
 /**
