@@ -54,7 +54,7 @@ const pFull = preview('full-day', 5)
 export const pricingPreview = [
   { id: 'part-time', label: 'Part-time household', rhythm: 'One fresh meal a week', format: pFresh.service.name, days: 1, monthly: pFresh.perMonth, note: 'Same chef, one cooked meal a week — the smallest long-term plan.' },
   { id: 'regular', label: 'Regular household', rhythm: 'Kitchen on Autopilot, five days a week', format: pAuto.service.name, days: 5, monthly: pAuto.perMonth, note: 'Planning, shopping, cooking and cleanup handled — the managed kitchen.' },
-  { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'Someone in the kitchen all day, working to your timetable rather than a fixed shift.' },
+  { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'Nine-hour shifts on agreed days, with meals planned around your timetable.' },
 ] as const
 
 /**
@@ -362,7 +362,7 @@ export const foodProfilePreview = [
 ] as const
 
 export const parentFaqs = [
-  { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes a personal chef search, a 30-day Learning Month, an approved Household Food Profile and ongoing management. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with Managed Household from approximately AED 20,000/month, Premium at approximately AED 24,000–30,000 and Executive / Estate roles quoted individually. Fees are before 5% VAT; AED 950 Match Activation, paid trials, groceries and agreed extras are separate.' },
+  { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes a personal chef search, a 30-day Learning Month, an approved Household Food Profile and ongoing management. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with Managed Household from AED 15,000/month, Premium at approximately AED 24,000–30,000 and Executive / Estate roles quoted individually. Fees are before 5% VAT; AED 950 Match Activation, paid trials, groceries and agreed extras are separate.' },
   {
     "q": "What does a household private chef do?",
     "a": "Your chef prepares food in your own kitchen on an agreed schedule, with menus, shopping responsibilities and cleanup set out in the proposal. Choose freshly served meals, preparation for later or broader daily kitchen support."
@@ -385,7 +385,7 @@ export const parentFaqs = [
   },
   {
     "q": "How much does the service cost?",
-    "a": "Chef visits start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Managed Household starts from approximately AED 20,000/month including the agreed chef service and myCHEF management, with AED 950 Match Activation, paid trials and agreed extras separate. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
+    "a": "Chef visits start at AED 750 for a three-hour Fresh Meal visit and AED 900 for a four-hour Food Prep visit, before 5% VAT. Groceries are separate. Managed Household starts from AED 15,000/month including the agreed chef service and myCHEF management, with AED 950 Match Activation, paid trials and agreed extras separate. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
   },
   {
     "q": "Can I book a chef for one dinner?",
@@ -400,7 +400,7 @@ export const howItWorksFaqs = [
   },
   {
     q: 'Can I get a part time cook in Dubai?',
-    a: 'Yes. Long-term plans start at one day a week — four chef visits a month — at AED 3,000 a month for a weekly Fresh Meal. Same matching, same Food Profile, same backup as a full week. Rates are on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
+    a: 'Yes. Long-term plans start at one day a week — four chef visits a month — at AED 3,000 over four weeks for a weekly Fresh Meal. Chef coordination and an approved Food Profile support the agreed visits. Cover is subject to availability and your agreement. Rates are on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
   },
   {
     q: 'What is the Food Profile?',
@@ -484,11 +484,11 @@ export const privacyFaqs = [
 export const pricingFaqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. There is no more expensive grade of chef to upgrade to — the levels are the chef’s own pay ladder. From five days a week the household rate improves; short stays of 3–29 days carry a higher daily rate. Groceries are charged at actual cost with no markup. Build the exact figure on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
+    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. These are base recurring-visit rates. Premium and Executive Managed Household roles are quoted separately according to the chef and responsibilities. From five days a week the household rate improves; short stays of 3–29 days carry a higher daily rate. Groceries are charged at actual cost with no markup. Build the exact figure on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
   },
   {
     q: 'Can I book a private chef for less than a month?',
-    a: 'Yes — at 1.5× the ongoing-plan rate. Displayed prices are for ongoing household plans of at least one month, because most of our work happens at the beginning. A single dinner is catering — use the [catering pages](/catering-dubai) or [event private chef prices](/private-chef-dubai/pricing).',
+    a: 'Yes — at 1.5× the ongoing-plan rate. Displayed prices are for ongoing household plans of at least one month, because most of our work happens at the beginning. A single dinner is catering — use the [catering pages](/catering-dubai) or [private dining](/luxury-dining-experiences).',
   },
   {
     q: 'Who buys the groceries?',
@@ -496,7 +496,7 @@ export const pricingFaqs = [
   },
   {
     q: 'What does a home chef in Dubai cost per month?',
-    a: "Long-term plans start at AED 3,000 a month for one Fresh Meal visit each week. Kitchen on Autopilot is AED 16,800 for 16 visits or AED 18,500 for 20 visits at the Dedicated Household Rate. A Full-Day Private Chef for 20 visits is AED 26,400. Groceries are charged at actual cost. See [Pricing & Plans](/private-chef-dubai/pricing#calculator) for the current calculation and VAT.",
+    a: "Long-term plans start at AED 3,000 over four weeks for one Fresh Meal visit each week. Kitchen on Autopilot is AED 16,800 for 16 visits or AED 18,500 for 20 visits at the Dedicated Household Rate. Twenty recurring Full-Day visits cost AED 26,400 over four weeks. A dedicated full-time Managed Household arrangement is a separate service from AED 15,000/month, with its role and schedule agreed individually. Groceries are charged at actual cost. See [Pricing & Plans](/private-chef-dubai/pricing#calculator) for the current calculation and VAT.",
   },
   {
     q: 'Is private chef hire cheaper than employing a cook myself?',
