@@ -138,7 +138,7 @@ const config: ServicePageConfig = {
     { src: '/images/private-chef-2026/family-table-1200.webp', alt: 'Halal grilled meat main course' },
     { src: '/images/private-chef-2026/arabic-1200.webp', alt: 'Halal appetiser selection' },
     { src: '/images/private-chef-2026/chefs-table-1200.webp', alt: 'Private dining service in Dubai' },
-    { src: '/images/private-chef-2026/villa-evening-1200.webp', alt: 'Villa private dinner setting' },
+    { src: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927', alt: 'Villa private dinner setting' },
     { src: '/images/private-chef-2026/dessert-1200.webp', alt: 'Halal dessert presentation' },
   ],
   faqsH2: 'Halal Private Dining Dubai: the questions we get before a booking',

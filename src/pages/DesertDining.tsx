@@ -126,7 +126,7 @@ const config: OccasionPageConfig = {
     { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert camp canapé selection' },
     { src: '/images/private-chef-2026/dessert-1200.webp', alt: 'Dessert under the desert stars' },
     { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert dining set-up in Dubai' },
-    { src: '/images/private-chef-2026/villa-evening-1200.webp', alt: 'Private dune dinner styling' },
+    { src: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927', alt: 'Private dune dinner styling' },
     { src: '/images/private-chef-2026/desert-1200.webp', alt: 'Desert event catering in Dubai' },
   ],
   faqsH2: 'Desert Dining Dubai: the questions we get before a booking',
@@ -172,7 +172,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Luxury Dining Experiences',
       description: 'Chef-led dinners at a villa, yacht or venue you have booked.',
-      image: '/images/private-chef-2026/villa-evening-1200.webp',
+      image: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927',
       link: '/luxury-dining-experiences',
     },
   ],

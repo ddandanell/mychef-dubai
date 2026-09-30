@@ -28,7 +28,7 @@ const steps = [
   { num: '01', image: '/images/private-chef-2026/planning-1200.webp', title: 'Reach Out', desc: "Share your date, guest count, Dubai location and ideas through WhatsApp or the enquiry form. Include food preferences and any dietary requirements so we can develop a suitable proposal." },
   { num: '02', image: '/images/private-chef-2026/ingredients-1200.webp', title: 'We Design the Evening', desc: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.' },
   { num: '03', image: '/images/private-chef-2026/team-service-1200.webp', title: 'Your Chef Arrives, We Run the Room', desc: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.' },
-  { num: '04', image: '/images/private-chef-2026/villa-evening-1200.webp', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
+  { num: '04', image: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
 ]
 
 const features = [
