@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run verify:images",
     "build": "tsc -b && vite build",
     "build:prerender": "npm run build && npm run prerender",
     "lint": "eslint .",
@@ -36,6 +37,7 @@
     "seo:heartbeat": "python3 docs/seo/keyword-map/heartbeat.py --show",
     "verify:api": "python3 scripts/verify-api-functions.py",
     "verify:hero": "python3 scripts/verify-hero.py",
+    "verify:images": "node scripts/verify-image-assets.mjs",
     "seo:rules": "python3 docs/seo/keyword-map/build-rules.py",
     "seo:breadcrumbs": "python3 scripts/generate-breadcrumbs.py",
     "verify:breadcrumbs": "python3 scripts/generate-breadcrumbs.py --check",

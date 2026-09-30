@@ -137,7 +137,7 @@ const galleryImages = [
   { src: '/images/private-chef-2026/chefs-table-1200.webp', alt: 'Private chef dining experience in Dubai' },
   { src: '/images/private-chef-2026/household-1200.webp', alt: 'Chef-led cooking class in a Dubai villa' },
   { src: '/images/private-chef-2026/cooking-class-1200.webp', alt: 'Fresh ingredients prepared during a cooking class' },
-  { src: '/images/private-chef-2026/villa-evening-1200.webp', alt: 'Villa kitchen cooking class in Dubai' },
+  { src: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927', alt: 'Villa kitchen cooking class in Dubai' },
   { src: '/images/private-chef-2026/cooking-class-1200.webp', alt: 'Plated dishes from a private chef experience' },
   { src: '/images/private-chef-2026/dessert-1200.webp', alt: 'Dessert plating at a chef-led dinner party' },
 ]

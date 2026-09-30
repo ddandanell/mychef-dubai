@@ -27,7 +27,7 @@ const PAGE_WHATSAPP_MESSAGE =
   "Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)"
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(PAGE_WHATSAPP_MESSAGE)}`
 
-const HERO_IMAGE = '/images/private-chef-2026/villa-evening-1200.webp'
+const HERO_IMAGE = '/images/private-chef-2026/villa-evening-1200.webp?v=20260927'
 
 /** pages["/villas-private-residences"].internal_linking.siblings — render exactly. */
 const siblingLinks = [
@@ -120,7 +120,7 @@ export default function Villas() {
         title="Villa Chef Dubai | myCHEF"
         description="Villa Chef Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/villas-private-residences"
-        ogImage="/images/private-chef-2026/villa-evening-1200.webp"
+        ogImage="/images/private-chef-2026/villa-evening-1200.webp?v=20260927"
         hideSiteName
         preloadHero={HERO_IMAGE}
         schema={schema}

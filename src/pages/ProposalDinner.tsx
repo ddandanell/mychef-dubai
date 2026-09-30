@@ -134,7 +134,7 @@ const relatedServices = [
   {
     title: 'Villas & Residences',
     description: 'Private dining and celebrations in Dubai villas.',
-    image: '/images/private-chef-2026/villa-evening-1200.webp',
+    image: '/images/private-chef-2026/villa-evening-1200.webp?v=20260927',
     link: '/villas-private-residences',
   },
   {

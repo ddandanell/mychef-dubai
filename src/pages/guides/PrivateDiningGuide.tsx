@@ -308,7 +308,7 @@ export default function PrivateDiningGuide() {
         title="Private Dining Dubai | Planning Guide | myCHEF"
         description="A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
-        ogImage="/images/private-chef-2026/villa-evening-1200.webp"
+        ogImage="/images/private-chef-2026/villa-evening-1200.webp?v=20260927"
         schema={schema}
       />
 
