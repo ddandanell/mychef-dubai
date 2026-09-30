@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: 'How much does a private chef cost in Palm Jumeirah?',
-    a: 'Indicative pricing starts around AED 950–1,450 for a small breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests. Full-time live-in chefs generally range from AED 22,000–38,000+ per month plus benefits. Final quotes depend on menu complexity, guest count, and service style.',
+    a: 'Indicative pricing starts around AED 950–1,450 for a small breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests. myCHEF Managed Household starts from AED 15,000/month. Live-in accommodation, groceries, Match Activation, paid trials, VAT and agreed extras are separate. Final quotes depend on menu complexity, guest count, and service style.',
   },
   {
     q: 'Can the chef accommodate halal, vegan, or allergy-specific menus?',
@@ -138,13 +138,13 @@ export default function PrivateChefPalmJumeirahGuide() {
           </div>
 
           <KeyFactsBox
-            answer="A private chef in Palm Jumeirah typically costs AED 950–1,450 for breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests, with full-time live-in chefs starting around AED 22,000 per month."
+            answer="A private chef in Palm Jumeirah typically costs AED 950–1,450 for breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests, with myCHEF Managed Household from AED 15,000/month, before VAT and separate costs."
             facts={[
               { label: 'Breakfast / brunch', value: 'AED 950–1,450' },
               { label: 'Lunch (2–8 guests)', value: 'AED 1,450–2,450' },
               { label: 'Dinner (2–8 guests)', value: 'AED 2,200–4,500' },
               { label: 'Large party (10–30 guests)', value: 'AED 4,500–12,000+' },
-              { label: 'Full-time live-in chef', value: 'AED 22,000–38,000+ / month + benefits' },
+              { label: 'Full-time live-in chef', value: 'From AED 15,000/month; extras separate' },
             ]}
           />
 
@@ -221,8 +221,8 @@ export default function PrivateChefPalmJumeirahGuide() {
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Full-time live-in chef</td>
-                    <td className="py-3 pr-4">AED 22,000–38,000+ / month</td>
-                    <td className="py-3">Daily meals, households, frequent hosting</td>
+                    <td className="py-3 pr-4">From AED 15,000/month</td>
+                    <td className="py-3">Dedicated household role; schedule and responsibilities agreed</td>
                   </tr>
                 </tbody>
               </table>

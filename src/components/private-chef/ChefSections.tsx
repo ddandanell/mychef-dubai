@@ -22,11 +22,10 @@ export function Inclusions() {
   return <div className="pc-inclusions">{items.map(([title,body]) => <div key={title}><Check size={20} aria-hidden="true"/><h3>{title}</h3><p>{body}</p></div>)}</div>
 }
 export const journey = [
-  ['Tell us about your home', 'Your Dubai location, household size, preferred days, meals and dietary requirements.'],
-  ['Meet a suitable chef', 'We discuss the proposed match, confirm availability and arrange an introduction.'],
-  ['Agree the menu and details', 'Review menus, grocery arrangements, access, hours and the written service price.'],
-  ['Enjoy your cooking days', 'Your chef cooks to the agreed plan, stores prepared meals appropriately and clears the kitchen.'],
-  ['Refine it together', 'Tell your myCHEF contact what worked and what to adjust for the next visit.'],
+  ['Tell us the essentials', 'Your area, household size, preferred cooking days and start date. We help you choose the service and discuss food requirements.'],
+  ['Review your chef and written plan', 'Confirm availability, a suitable chef, menus, groceries, hours and the complete price before booking.'],
+  ['Enjoy your cooking days', 'Your chef cooks the agreed food, stores prepared meals appropriately and leaves the kitchen in order.'],
+  ['Keep the food right for you', 'Tell your myCHEF contact what you enjoyed and what to adjust. We help coordinate changes and the next visit.'],
 ] as const
 export function ChefJourney() { return <ol className="pc-journey">{journey.map(([title,body],i) => <li key={title}><span className="pc-step-number">0{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol> }
 export function TeamCapability() {
@@ -54,8 +53,8 @@ export function PricePreview() {
   ]
   return <div><div className="pc-price-grid">{choices.map(c => { const quote = computeQuote({...DEFAULT_INPUT,duration:'long',serviceId:c.serviceId,daysPerWeek:c.daysPerWeek,guests:4,groceryMode:'client'}); return <Link to="/private-chef-dubai/pricing#calculator" key={c.name} className="pc-price-card"><h3>{c.name}</h3><p className="pc-price">{formatAed(quote.perMonth)}<span> / four weeks</span></p><p>{c.explanation}</p><span className="pc-card-link">Build your plan <ArrowUpRight size={17}/></span></Link>})}</div><p className="pc-fineprint">Illustrative service fees before 5% VAT. Groceries are separate at actual cost. Your household size, shopping arrangements and additional staffing can affect the total.</p></div>
 }
-export function ServiceRates() { return <div className="pc-rate-grid">{SERVICES.map(s => <div key={s.id}><p className="pc-eyebrow">{s.hours} hours</p><h3>{s.name}</h3><p className="pc-price">{formatAed(s.rate)}<span> / {s.unit === 'day' ? 'day' : 'visit'}</span></p><p>{s.tagline}</p></div>)}</div> }
+export function ServiceRates({ shortStay = false }: { shortStay?: boolean }) { return <div className="pc-rate-grid">{SERVICES.map(s => { const price = shortStay ? computeQuote({ ...DEFAULT_INPUT, duration: 'short', serviceId: s.id }).perService : s.rate; return <div key={s.id}><p className="pc-eyebrow">{s.hours} hours</p><h3>{s.name}</h3><p className="pc-price">{formatAed(price)}<span> / {s.unit === 'day' ? 'day' : 'visit'}</span></p><p>{s.tagline}</p></div> })}</div> }
 export function ChefEnquiry({ title = 'Let’s make room for good food.' }: { title?: string }) {
   const { pathname } = useLocation()
-  return <ChefSection tone="pc-tone-cream" eyebrow="Your home. Your preferences." title={title}><div className="pc-enquiry-end"><p>Tell us where you are, how often you would like a chef and what you enjoy eating. We’ll help you find a suitable arrangement and confirm the details in writing.</p><div className="pc-actions"><ChefAction action={{label:'Find my chef',href:`/inquiry?from=${encodeURIComponent(pathname)}`}}/><ChefAction secondary action={{label:'Talk to myCHEF',href:buildWhatsAppLink(`Hi myCHEF Dubai, I would like to discuss a private chef. Location: __. Days: __. Household size: __. (via mychef.ae${pathname})`),external:true}}/></div><p className="pc-fineprint">No obligation to book. Availability and final pricing are confirmed after reviewing your brief.</p></div></ChefSection>
+  return <ChefSection tone="pc-tone-cream" eyebrow="Your home. Your preferences." title={title}><div className="pc-enquiry-end"><p>Tell us where you are, how often you would like a chef and what you enjoy eating. We’ll help you find a suitable arrangement and confirm the details in writing.</p><div className="pc-actions"><ChefAction action={{label:'Find my chef',href:`/inquiry?from=${encodeURIComponent(pathname)}`}}/><ChefAction secondary action={{label:'Talk to myCHEF',href:buildWhatsAppLink(`Hi myCHEF Dubai, I would like to discuss a private chef. Location: __. Days: __. Household size: __. (via mychef.ae${pathname})`),external:true}}/></div><p className="pc-fineprint">No obligation to book. Share your preferred start date early so we can check chef availability and agree the practical details. Final pricing and timing are confirmed after reviewing your brief.</p></div></ChefSection>
 }

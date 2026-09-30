@@ -138,10 +138,10 @@ export default function PrivateChefCostDubai() {
           </div>
 
           <KeyFactsBox
-            answer="A private chef dinner in Dubai typically ranges from AED 350–650 per person for a multi-course meal, while daily or weekly chef services usually fall between AED 1,500–4,000 per day depending on scope."
+            answer="A private chef dinner in Dubai typically ranges from AED 350–650 per person for a multi-course meal, while myCHEF recurring nine-hour shifts are AED 1,500 before frequency reductions, or AED 2,250 for short stays. Groceries and 5% VAT are separate."
             facts={[
               { label: 'Multi-course dinner', value: 'AED 350–650 per person' },
-              { label: 'Daily / weekly chef service', value: 'AED 1,500–4,000 per day' },
+              { label: 'Daily / weekly chef service', value: 'AED 1,500 recurring / AED 2,250 short stay (9 hours)' },
               { label: 'Small bespoke dinners', value: 'Often at the higher end per person' },
               { label: 'Major cost drivers', value: 'Group size, menu complexity, ingredients, staffing' },
               { label: 'Usually included', value: 'Menu planning, groceries, cooking, service, clean-up' },
@@ -164,7 +164,7 @@ export default function PrivateChefCostDubai() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="typical-private-chef-price-ranges" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Published household visit rates, not a per-head dinner</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              How much a private chef costs in Dubai depends on which product you are buying. A household visit is priced as working time. Fresh Meal is AED 750 for up to three hours. Food Prep is AED 900 for four hours. Kitchen on Autopilot is AED 1,050 for five hours. Groceries are on top, at actual receipts, with no markup. Extra time is quoted from AED 150 an hour, agreed before anyone stays on. VAT is 5% on the service.
+              How much a private chef costs in Dubai depends on which product you are buying. A household visit is priced as working time. Fresh Meal is AED 750 for up to three hours. Food Prep is AED 900 for four hours. Kitchen on Autopilot is AED 1,050 for five hours. Groceries are on top, at actual receipts, with no markup. Overtime depends on the selected service: AED 380/hour for Fresh Meal, AED 340 for Food Prep, AED 320 for Kitchen on Autopilot and AED 250 for Full-Day. Extra time is agreed before anyone stays on. VAT is 5% on the service.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               A dinner for guests is catering, not that visit multiplied. Chef-led plated dining is typically AED 700 to 950 per person. Drop-off catering starts from AED 90. Do not mix the two numbers. The live calculator and the <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4">private chef pricing page</Link> own the household figures.

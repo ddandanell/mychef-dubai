@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import HouseholdEnquiryForm from '@/components/household/HouseholdEnquiryForm'
 import { useSearchParams } from 'react-router'
 import { Mail, MessageCircle } from 'lucide-react'
 import { trackConversion } from '@/lib/track'
@@ -17,7 +18,7 @@ type Props = {
   sourcePage?: string
 }
 
-export default function QuoteRequestForm({ sourcePage }: Props) {
+function StandardQuoteRequestForm({ sourcePage }: Props) {
   const [params] = useSearchParams()
   const household = householdBriefFromParams(params, sourcePage || lastServicePage() || '')
   const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: '', budgetBasis: 'Complete managed service budget', duration: '', schedule: '', preferences: '' })
@@ -152,7 +153,7 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
         <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Monthly service budget</span><select name="monthlyBudget" required className={field} value={householdFields.budget} onChange={e => setHouseholdFields(current => ({ ...current, budget: e.target.value }))}><option value="" disabled>Select your monthly budget</option>{householdBudgetOptions.map(budget => <option key={budget} value={budget}>{budget}</option>)}</select></label>
         <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">This budget covers</span><select name="budgetBasis" className={field} value={householdFields.budgetBasis} onChange={e => setHouseholdFields(current => ({ ...current, budgetBasis: e.target.value }))}><option>Complete managed service budget</option><option>Chef compensation only</option><option>I would like help understanding the total</option></select></label>
         <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Expected length of arrangement</span><select name="householdDuration" className={field} value={householdFields.duration} onChange={e => setHouseholdFields(current => ({ ...current, duration: e.target.value }))}><option value="">To discuss</option><option>1–3 months</option><option>3–6 months</option><option>6–12 months</option><option>Ongoing</option></select></label>
-        <p className="sm:col-span-2 font-inter text-xs text-gray-500 leading-relaxed">Managed Household starts from approximately AED 20,000/month before 5% VAT. We review your budget and scope first; AED 950 Match Activation is payable only after the search is agreed. Paid trials, groceries and agreed extras are separate. For a smaller budget or schedule, we can discuss cooking visits.</p>
+        <p className="sm:col-span-2 font-inter text-xs text-gray-500 leading-relaxed">Managed Household starts from AED 15,000/month before 5% VAT. We review your budget and scope first; AED 950 Match Activation is payable only after the search is agreed. Paid trials, groceries and agreed extras are separate. For a smaller budget or schedule, we can discuss cooking visits.</p>
         <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Working days, hours & meal times</span><input name="householdSchedule" required className={field} value={householdFields.schedule} maxLength={500} onChange={e => setHouseholdFields(current => ({ ...current, schedule: e.target.value }))} placeholder="e.g. Monday to Friday, 10am–7pm, lunch and dinner"/></label>
         <label className="block sm:col-span-2"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Food & household preferences (optional)</span><textarea name="householdPreferences" className={field} rows={4} maxLength={2000} value={householdFields.preferences} onChange={e => setHouseholdFields(current => ({ ...current, preferences: e.target.value }))} placeholder="Favourite cuisines, what food feels like home, and what would make everyday life easier. We discuss detailed dietary and household requirements privately."/></label>
       </>}
@@ -199,4 +200,12 @@ export default function QuoteRequestForm({ sourcePage }: Props) {
       ) : null}
     </form>
   )
+}
+
+export default function QuoteRequestForm(props: Props) {
+  const [params] = useSearchParams()
+  const source = props.sourcePage || params.get('from') || lastServicePage() || '/inquiry'
+  return householdBriefFromParams(params, source).active
+    ? <HouseholdEnquiryForm sourcePage={source}/>
+    : <StandardQuoteRequestForm {...props}/>
 }

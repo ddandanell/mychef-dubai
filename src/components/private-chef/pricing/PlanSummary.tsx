@@ -30,8 +30,8 @@ function AmountRow({ value, label, strong = false }: { value: number; label: str
 export default function PlanSummary({ input, quote, feedback, whatsappHref, variant = 'card' }: PlanSummaryProps) {
   const length = LONG_TERM_LENGTHS.find((l) => l.id === input.lengthId)?.label ?? 'Ongoing'
   const facts = [
-    quote.shortStay ? `${quote.servicesTotal} chef visits over the stay` : `${quote.servicesPerMonth} chef visits a month`,
-    quote.shortStay ? `${quote.hoursPerService * quote.servicesTotal} chef hours over the stay` : `${quote.chefHoursPerMonth} chef hours a month`,
+    quote.shortStay ? `${quote.servicesTotal} chef visits over the stay` : `${quote.servicesPerMonth} chef visits over four weeks`,
+    quote.shortStay ? `${quote.hoursPerService * quote.servicesTotal} chef hours over the stay` : `${quote.chefHoursPerMonth} chef hours over four weeks`,
     quote.groceryManaged ? 'Grocery management included' : 'You manage the groceries',
     quote.customStaffing ? 'Custom staffing review' : quote.assistants ? `${quote.assistants} assistant${quote.assistants > 1 ? 's' : ''} in the figure` : 'No assistant needed',
     'Groceries charged at actual cost',
@@ -56,7 +56,7 @@ export default function PlanSummary({ input, quote, feedback, whatsappHref, vari
       <div className={cn('space-y-4 border-b border-gray-200', sheet ? 'px-5 py-5' : 'p-6 lg:p-7')}>
         <AmountRow value={quote.perService} label={`per ${quote.service.unit === 'day' ? 'day' : 'visit'}`} />
         <AmountRow value={quote.perWeek} label="typical week" />
-        {quote.shortStay ? <AmountRow value={quote.total ?? 0} label="for the stay" strong /> : <AmountRow value={quote.perMonth} label="estimated month" strong />}
+        {quote.shortStay ? <AmountRow value={quote.total ?? 0} label="for the stay" strong /> : <AmountRow value={quote.perMonth} label="four weeks" strong />}
         {feedback ? (
           <p key={feedback.title} className="animate-in fade-in slide-in-from-bottom-1 duration-300 border-l-2 border-gold pl-3 font-inter text-body-sm text-gray-700">
             <span className="text-gold-ink font-medium">{feedback.title}.</span> {feedback.body}

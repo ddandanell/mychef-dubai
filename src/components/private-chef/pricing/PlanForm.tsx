@@ -45,7 +45,7 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
     return (
       <div className="border border-gold/40 bg-cream p-8 text-center">
         <p className="font-playfair text-h3 text-black mb-2">Plan received.</p>
-        <p className="font-inter text-body text-gray-600">A coordinator reads it, checks chef availability for your days, and comes back with the figure in writing — typically within 15 minutes during business hours.</p>
+        <p className="font-inter text-body text-gray-600">A coordinator reviews your plan and checks chef availability. We aim to reply within 15 minutes during business hours; your written proposal follows the review.</p>
       </div>
     )
   }

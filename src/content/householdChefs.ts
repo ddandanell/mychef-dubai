@@ -1,3 +1,5 @@
+export const FULL_TIME_START_PRICE = 15000
+
 export const HOUSEHOLD_PATH = '/full-time-private-chef-dubai'
 export const LIVE_IN_PATH = '/private-chef-dubai/live-in-chef'
 export const LIVE_OUT_PATH = '/private-chef-dubai/live-out-chef'
@@ -19,14 +21,14 @@ export const MATCH_ACTIVATION_FEE = 950
 export const householdBudgetOptions = [
   'Under AED 15,000', 'AED 15,000–20,000', 'AED 20,000–25,000',
   'AED 25,000–30,000', 'AED 30,000–40,000', 'AED 40,000+',
-  'Flexible for an exceptional match',
+  'Flexible for an exceptional match', 'Help me set a realistic budget',
 ] as const
 export const managedHouseholdBands = [
-  { id: 'managed', name: 'Managed Household Chef', price: 'From approximately AED 20,000', unit: 'per month', description: 'Everyday family cooking, an agreed household role and ongoing myCHEF management.', detail: 'For a clear, workable schedule and a chef whose experience fits your household brief.' },
+  { id: 'managed', name: 'Managed Household Chef', price: `From ${money(FULL_TIME_START_PRICE)}`, unit: 'per month', description: 'Everyday family cooking, an agreed household role and ongoing myCHEF management.', detail: 'A dedicated full-time arrangement. Cooking days, hours, chef experience and responsibilities are agreed in your monthly proposal; daily bookings use separate rates.' },
   { id: 'premium', name: 'Premium Managed Household', price: 'Approximately AED 24,000–30,000', unit: 'per month', description: 'More experienced chefs, a wider cooking repertoire or a more involved household routine.', detail: 'For larger families, broader responsibilities and more complex food preferences.' },
   { id: 'executive', name: 'Executive / Estate Chef', price: 'Individually quoted', unit: 'around your brief', description: 'Senior culinary talent for principal households, private entertaining and extensive responsibilities.', detail: 'Travel, multiple residences, extra staff and specialist requirements are assessed individually.' },
 ] as const
-export const householdPriceNote = 'Indicative service fees before 5% VAT. The monthly proposal includes the agreed chef service and myCHEF management. Match Activation, paid trials, groceries and agreed extras are separate. Accommodation, transport, travel, additional staff and temporary cover are itemised where relevant.'
+export const householdPriceNote = 'Indicative service fees before 5% VAT. The dedicated full-time service starts from AED 15,000/month, including the agreed chef role and myCHEF management. Days, hours and responsibilities are confirmed in your proposal. Daily and short-stay visits use separate rates. Match Activation, paid trials, groceries and agreed extras are separate. Accommodation, transport, travel, additional staff and temporary cover are itemised where relevant.'
 
 export const householdSteps = [
   ['Tell us the essentials', 'Share your Dubai area, household size, live-in or live-out preference, schedule, start date and complete monthly budget. We check whether Managed Household is right for you.'],
@@ -38,10 +40,13 @@ export const householdSteps = [
 ] as const
 
 export const householdFaqs = [
+  { q: 'Can I check the fit and timing before paying?', a: 'Yes. Your initial enquiry and suitability discussion have no payment or booking commitment. We review your household, budget and preferred start date, then agree a realistic brief before you decide whether to activate the paid search.' },
+  { q: 'What do you need from me now, and what comes later?', a: 'Start with your Dubai area, household size, cooking schedule, preferred start, monthly budget and living arrangement. You can ask us to help you decide. We discuss cuisines, allergies, meal times, shopping and household expectations during the personal brief, before matching and any cooking trial.' },
+  { q: 'Is AED 15,000 a daily-booking package?', a: 'No. AED 15,000/month is the starting fee for a dedicated full-time Managed Household arrangement, with the chef role, days, hours and responsibilities agreed in your proposal. Daily, recurring-visit and short-stay bookings retain their separate published visit rates. A full-day visit and a full-time household role are different arrangements.' },
   { q: 'What is myCHEF Managed Household?', a: 'A managed household chef relationship in Dubai. We learn your requirements, coordinate a personal chef search, help with interviews and a paid trial, support onboarding and stay involved through the monthly service. Your chef handles the agreed cooking responsibilities; myCHEF remains your contact for feedback, support and rematching.' },
-  { q: 'How much does a full-time private chef cost?', a: 'Managed Household Chef services start from approximately AED 20,000 per month. Premium arrangements are approximately AED 24,000–30,000; Executive / Estate roles are individually quoted. These are indicative client service fees including myCHEF management, before 5% VAT. AED 950 Match Activation, paid trials, groceries and agreed extras are separate. Your written proposal confirms the complete cost.' },
+  { q: 'How much does a full-time private chef cost?', a: 'Managed Household Chef services start from AED 15,000/month. Premium arrangements are approximately AED 24,000–30,000; Executive / Estate roles are individually quoted. These are indicative client service fees including myCHEF management, before 5% VAT. AED 950 Match Activation, paid trials, groceries and agreed extras are separate. Your written proposal confirms the complete cost.' },
   { q: 'What does the AED 950 Match Activation cover?', a: 'The agreed personal search, initial screening, availability checks, curated introductions, interview coordination and refinement of the search where needed. It is separate from monthly management and any paid cooking trial. We first review your brief and budget and accept a search only when we believe it is realistic. The fee is before 5% VAT; the activation terms are provided before payment.' },
-  { q: 'How long does matching take?', a: 'The first matching stage typically takes 3–5 working days after your brief is approved and the search is activated. This is a target for initial matching, not a guaranteed chef start date. Specialist requirements, interviews, trials and a chef’s notice period may take longer.' },
+  { q: 'How long does matching take?', a: 'Allow time before your preferred start date. The first matching stage typically takes 3–5 working days after your brief is approved and the search is activated. This is a target for initial matching, not a guaranteed chef start date. Specialist requirements, interviews, trials and a chef’s notice period may take longer.' },
   { q: 'Can I choose a live-in or live-out chef?', a: 'Yes. Living arrangements and culinary experience are separate choices. A live-in role requires suitable accommodation; a live-out role needs a workable travel and arrival schedule. Working hours, days off, meals and responsibilities are agreed in either arrangement.' },
   { q: 'What happens during the first 30 days?', a: 'The Learning Month gives the chef time to understand portions, seasoning, meal times, family favourites and kitchen routines. We plan early check-ins and a first-month review, record useful feedback with your permission and help refine the service.' },
   { q: 'What if we need a different chef?', a: 'You may request rematching whenever something is not working. During an active Managed Household agreement, continued matching for substantially the same role does not require another activation fee. We review your feedback, update the brief and coordinate suitable introductions. New chef costs may differ, paid trials remain chargeable and temporary cover or a materially changed role may cost extra. Timing depends on suitable availability.' },

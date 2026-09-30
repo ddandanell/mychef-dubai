@@ -244,7 +244,7 @@ export default function PostpartumMealPrep() {
               Postpartum meal delivery Dubai and confinement food delivery Dubai, on this page, are cooked here. Meals for new mums Dubai and easy meal prep for after baby are the same week of Food Prep. Meal prep food Dubai here is those portions. Fitness meal prep delivery only enters if you asked for training food alongside recovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Postpartum meal prep Dubai price is AED 900 a visit (four hours). Packages are once or twice a week, not a named medical menu. Groceries at receipts. VAT at 5%. We do not give medical advice. Your doctor or nutritionist’s notes, if you send them, go into the Food Profile.
+              A four-hour cooking visit is AED 900 before 5% VAT, with groceries separate at actual cost. Choose weekly visits around your household’s needs. If you have dietary instructions from your doctor or nutritionist, share the relevant guidance so we can discuss whether the chef can follow it.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               When the fourth trimester is over, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> is the same job without the recovery brief. For general health, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>. One dinner is catering.
@@ -284,7 +284,7 @@ export default function PostpartumMealPrep() {
           <div className="text-center mb-12">
             <SectionLabel align="center" tone="dark">WHAT GOES IN THE POTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
-              Built around recovery, not a generic week
+              Comforting food for your new routine
             </h2>
           </div>
 
@@ -300,7 +300,7 @@ export default function PostpartumMealPrep() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">The rate:</strong> Postpartum meal prep Dubai price is the Food Prep job, AED 900 for four hours. Once a week is AED 3,600 a month. Groceries at actual receipts. VAT at 5% on the service. Best meal prep companies in Dubai is a search. This is a chef in your kitchen.
+              <strong className="text-white">The rate:</strong> A four-hour Food Prep visit is AED 900. Four weekly visits cost AED 3,600 over four weeks, before 5% VAT. Groceries are separate at actual cost. We agree comforting dishes, portions and storage that fit your family’s routine.
             </p>
           </div>
         </div>

@@ -1,50 +1,33 @@
-import { computeQuote, DEFAULT_INPUT, assistantsFor, tierFor } from '../src/content/privateChefPricing'
-let fails = 0
-const eq = (name: string, got: unknown, want: unknown) => { const ok = JSON.stringify(got) === JSON.stringify(want); if (!ok) fails++; console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}: got ${JSON.stringify(got)}${ok ? '' : ` want ${JSON.stringify(want)}`}`) }
+import assert from 'node:assert/strict'
+import { computeQuote, DEFAULT_INPUT, SERVICES, GROCERY_MANAGEMENT_ADD_ON, overtimeRate, assistantsFor, tierFor } from '../src/content/privateChefPricing'
+import { FULL_TIME_START_PRICE } from '../src/content/householdChefs'
+import { planText } from '../src/components/private-chef/pricing/planText'
 
-// Spec example: Professional · Kitchen on Autopilot · 5 days/week · household of 5 · long term
-const q = computeQuote({ ...DEFAULT_INPUT, guests: 5 })
-eq('services/month', q.servicesPerMonth, 22)
-eq('tier', q.tier?.id, 'dedicated')
-eq('per service (1050 × 0.88, rounded to 5)', q.perService, 925)
-eq('per week', q.perWeek, 925 * 5)
-eq('per month', q.perMonth, 925 * 22)
-eq('chef hours / month', q.chefHoursPerMonth, 110)
-eq('grocery managed', q.groceryManaged, true)
-eq('assistants', q.assistants, 0)
-eq('relationship', q.relationship.label, 'Dedicated household arrangement')
-
-// Assistants
-eq('16 people → 1 assistant', assistantsFor(16).assistants, 1)
-eq('24 people → 2 assistants', assistantsFor(24).assistants, 2)
-eq('40 people → custom', assistantsFor(40).custom, true)
-const a = computeQuote({ ...DEFAULT_INPUT, guests: 14, serviceId: 'fresh-meal', daysPerWeek: 1, groceryMode: 'client' })
-eq('fresh meal 1d/wk + 14 people: standard tier, +350 assistant', a.perService, 750 + 350)
-eq('lines count', a.lines.length, 2)
-
-// Grocery add-on transforms 4h prep into 5h
-const p = computeQuote({ ...DEFAULT_INPUT, serviceId: 'food-prep', groceryMode: 'mychef', daysPerWeek: 2 })
-eq('prep + management hours', p.hoursPerService, 5)
-eq('prep + management rate (900+150, regular −4%)', p.perService, 1010)
-eq('tier regular', p.tier?.id, 'regular')
-
-// Full day: management included, full-day assistant rate
-const f = computeQuote({ ...DEFAULT_INPUT, serviceId: 'full-day', chef: 'head', guests: 22, daysPerWeek: 7 })
-eq('full day head 7d/wk: 1900×0.88 + 2×550', f.perService, round5(1900 * 0.88) + 1100)
-eq('full day management included', f.groceryManaged, true)
-
-// Short stay
-const s = computeQuote({ ...DEFAULT_INPUT, duration: 'short', stayDays: 10, serviceId: 'fresh-meal', groceryMode: 'client' })
-eq('short stay ×1.5 per service', s.perService, 1125)
-eq('short stay total (10 days)', s.total, 11250)
-eq('short stay no tier', s.tier, null)
-
-// Length total
-const l = computeQuote({ ...DEFAULT_INPUT, lengthId: '3' })
-eq('3-month total = 3 × month', l.total, l.perMonth * 3)
-eq('ongoing total null', computeQuote(DEFAULT_INPUT).total, null)
-eq('tier boundaries', [tierFor(4).id, tierFor(7).id, tierFor(8).id, tierFor(15).id, tierFor(16).id, tierFor(21).id, tierFor(22).id], ['standard','standard','regular','regular','preferred','preferred','dedicated'])
-
-function round5(n: number) { return Math.round(n / 5) * 5 }
-console.log(fails ? `\n${fails} FAILURES` : '\nALL PASS')
-process.exit(fails ? 1 : 0)
+// Full-time monthly matching is a separate product. Preserve every daily/visit tariff.
+assert.equal(FULL_TIME_START_PRICE, 15000)
+const full = computeQuote({ ...DEFAULT_INPUT, serviceId: 'full-day', daysPerWeek: 5 })
+assert.equal(full.perMonth, 26400)
+assert.equal(full.servicesPerMonth, 20)
+assert.equal(full.perService, 1320)
+assert.equal(full.hoursPerService, 9)
+assert.match(planText({ ...DEFAULT_INPUT, serviceId: 'full-day' }, full), /AED 26,400\/four weeks/)
+assert.match(planText(DEFAULT_INPUT, full), /before 5% VAT/)
+const expected = [[750,660,1125],[900,790,1350],[1050,925,1575],[1500,1320,2250]]
+for (const [i, service] of SERVICES.entries()) {
+ const input = { ...DEFAULT_INPUT, serviceId: service.id }
+ const regular = computeQuote({ ...input, daysPerWeek: 1 })
+ const dedicated = computeQuote({ ...input, daysPerWeek: 5 })
+ const short = computeQuote({ ...input, duration: 'short', stayDays: 3 })
+ assert.deepEqual([regular.perService,dedicated.perService,short.perService], expected[i])
+ assert.equal(regular.perMonth, regular.perService * 4)
+ assert.equal(short.total, short.perService * 3)
+ assert.equal(short.tier, null)
+}
+assert.equal(SERVICES[1].rate + GROCERY_MANAGEMENT_ADD_ON.rate, SERVICES[2].rate)
+assert.equal(GROCERY_MANAGEMENT_ADD_ON.rate,150)
+assert.equal(computeQuote({ ...DEFAULT_INPUT, serviceId:'full-day', guests:9 }).perService,1870)
+assert.equal(computeQuote({ ...DEFAULT_INPUT, serviceId:'full-day', guests:20 }).perService,2420)
+assert.equal(assistantsFor(40).custom,true)
+assert.deepEqual([tierFor(19).id,tierFor(20).id],['standard','dedicated'])
+assert.deepEqual(SERVICES.map(s=>overtimeRate(s.id)),[380,340,320,250])
+console.log('Pricing passed: full-time monthly AED 15,000 stays separate; original daily, short-stay, assistant, grocery and overtime rates preserved.')

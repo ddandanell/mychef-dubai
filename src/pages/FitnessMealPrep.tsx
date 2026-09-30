@@ -91,8 +91,8 @@ const faqs = [
     a: 'Most of the kitchens we cook: Middle Eastern, Mediterranean, Asian, Indian, Western. Recipes are adapted to the numbers, not stripped of flavour.',
   },
   {
-    q: 'How much does fitness meal prep Dubai price come to?',
-    a: 'It is the Food Prep job: four hours, AED 900 a visit. Once a week is AED 3,600 a month. Groceries at actual receipts, no markup. VAT at 5% on the service. There is no separate fitness tariff and no invented price per meal.',
+    q: 'What does a fitness meal-prep visit cost?',
+    a: 'A four-hour Food Prep visit is AED 900 before 5% VAT. Four weekly visits cost AED 3,600 over four weeks. Groceries are charged separately at actual cost. We confirm how many portions the chef can prepare once the menu and requirements are agreed.',
   },
 ]
 
@@ -247,7 +247,7 @@ export default function FitnessMealPrep() {
               We do not write your nutrition plan. We cook it. If you need a broader health brief, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. For the household version without macros, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep Dubai</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Best meal prep companies Dubai is a search. What you get here is a chef in your kitchen, not a production unit. One dinner is catering, not this page.
+              Your chef prepares the agreed meals in your kitchen, with portions, storage and reheating instructions planned around your week. We discuss your training schedule and any written guidance from your nutrition professional before agreeing the cooking brief.
             </p>
           </div>
         </div>
@@ -359,7 +359,7 @@ export default function FitnessMealPrep() {
             Send the numbers. We will cook them.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Macros, days, and who else eats in the house. Fitness meal prep Dubai price per meal is not a published tariff. The visit is AED 900 for four hours.
+            Tell us your cooking days, household size and any portion or macro targets you already follow. A four-hour visit is AED 900 before VAT and groceries; we confirm the menu and practical scope before booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Fitness Meals</Link>

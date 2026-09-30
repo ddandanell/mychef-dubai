@@ -230,10 +230,10 @@ export default function KidsNutritionChef() {
             Kids Meal Prep Dubai: food children will actually eat
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 kn-hero-sub">
-            Kids meal prep Dubai is four hours in your kitchen, AED 900 a visit. School boxes, family pots, allergies labelled. Groceries at receipts. VAT 5%.
+            Kids meal prep Dubai, shaped around your child’s tastes and your family routine. A four-hour cooking visit is AED 900 before 5% VAT, with groceries charged separately at actual cost.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Kids' Nutrition Menu</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Family’s Cooking</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -258,10 +258,10 @@ export default function KidsNutritionChef() {
           </h2>
           <div className="kn-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Kids meal prep Dubai is not a factory tray and not an invented job title. It is the Food Prep visit: four hours, AED 900, in your kitchen. Healthy kids meals delivery Dubai, on this page, means packed here, labelled, and left in your fridge.
+              Your chef prepares school lunches, familiar family meals and snacks in your own kitchen. We agree portions, ingredients and storage with you, then leave prepared food labelled and organised for the days ahead.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Kids meal prep Dubai price is the visit, not a per-lunch card. An emirates kids meal menu is whatever this child will eat. Meal prep Dubai healthy, for us, is the Food Profile: refusals, allergies, school times. Meal prep Dubai delivery is not a van from a production kitchen.
+              Start with the foods your child enjoys, the foods they avoid and the practical rhythm of school and home. We discuss allergies and kitchen conditions before confirming menus, and record the useful details in your Food Profile. The visit price covers chef time; the number of meals depends on the agreed dishes and portions.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               For the whole household without a children’s brief, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>. For a birthday, that is catering: <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>. Allergen-heavy nights: <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>.
@@ -276,7 +276,7 @@ export default function KidsNutritionChef() {
           <div className="text-center mb-12">
             <SectionLabel align="center">WHAT THE VISIT COVERS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              Written for this child, not a generic box
+              Food planned around your child
             </h2>
           </div>
 
@@ -400,7 +400,7 @@ export default function KidsNutritionChef() {
             Ages, allergies, refusals, and school times. Kids meal prep Dubai is AED 900 a visit. Groceries at receipts. VAT at 5%.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary">Plan My Kids' Nutrition Menu</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Family’s Cooking</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

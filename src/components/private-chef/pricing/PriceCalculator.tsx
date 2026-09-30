@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import { format } from 'date-fns'
 import { ArrowRight, CalendarDays, Check } from 'lucide-react'
 import { Calendar } from '@/components/ui/calendar'
@@ -65,7 +65,8 @@ function Row({ label, hint, children }: { label: string; hint?: string; children
 }
 
 export default function PriceCalculator() {
-  const [state, setState] = useState<CalcState>({ input: DEFAULT_INPUT, last: null })
+  const [params] = useSearchParams()
+  const [state, setState] = useState<CalcState>(() => ({ input: { ...DEFAULT_INPUT, ...(params.get('duration') === 'short' ? { duration: 'short' as const, serviceId: 'fresh-meal' as const } : {}) }, last: null }))
   const set = <K extends keyof QuoteInput>(key: K, value: QuoteInput[K]) =>
     setState((prev) => (prev.input[key] === value ? prev : { input: { ...prev.input, [key]: value }, last: { key, from: prev.input[key], to: value } }))
 
@@ -82,10 +83,11 @@ export default function PriceCalculator() {
   return (
     <div id="calculator" className="scroll-mt-24">
       <div className="max-w-[720px] mb-10">
-        <h2 className="font-playfair text-fluid-h2 text-black">Build your private chef plan</h2>
-        <p className="mt-3 font-inter text-body-lg text-gray-500">See your estimated service cost in less than a minute.</p>
+        <h2 className="font-playfair text-fluid-h2 text-black">Build your cooking-visit plan</h2>
+        <p className="mt-3 font-inter text-body-lg text-gray-500">Estimate daily, recurring-visit or short-stay service. Dedicated full-time Managed Household has a separate monthly proposal.</p>
       </div>
 
+      <p className="mb-8 font-inter text-body-sm text-gray-600">Looking for a dedicated full-time role from AED 15,000/month? <Link to="/full-time-private-chef-dubai#household-offer" className="text-gold-ink underline underline-offset-4">Explore Managed Household</Link>. The monthly starting fee does not change the visit rates below.</p>
       <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-16 items-start">
         <div className="space-y-9">
           {/* Duration — one toggle, not two boxes */}
@@ -93,7 +95,7 @@ export default function PriceCalculator() {
             <div role="group" aria-label="How long do you need a chef?" className="grid grid-cols-2 border border-gray-200">
               {[
                 { id: 'short', label: `${SHORT_STAY.minDays} to ${SHORT_STAY.maxDays} days`, sub: 'Short stay' },
-                { id: 'long', label: '30+ days', sub: 'Best long-term value' },
+                { id: 'long', label: '30+ days', sub: 'Recurring visits' },
               ].map((d) => {
                 const on = input.duration === d.id
                 return (
@@ -124,7 +126,7 @@ export default function PriceCalculator() {
               <Stepper value={input.stayDays} min={SHORT_STAY.minDays} max={SHORT_STAY.maxDays} onChange={(v) => set('stayDays', v)} label="chef days" unit="chef days" />
             </Row>
           ) : (
-            <Row label="How often" hint={`From ${LONG_TERM_MIN_SERVICES} visits a month. Pick the days your home actually needs.`}>
+            <Row label="How often" hint={`From ${LONG_TERM_MIN_SERVICES} visits over four weeks. Pick the days your home actually needs.`}>
               <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
                 {FREQUENCIES.map((f) => {
                   const on = input.daysPerWeek === f.days
@@ -263,7 +265,7 @@ export default function PriceCalculator() {
           <h3 className="font-playfair text-fluid-h2 text-black mb-4">Send this plan to myCHEF.</h3>
           <p className="font-inter text-body text-gray-600 leading-relaxed">
             {quote.service.name} · {quote.shortStay ? `${input.stayDays} chef days` : `${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''} a week`} ·{' '}
-            <span className="text-gold-ink font-medium">{quote.shortStay ? `${fmt(quote.total ?? 0)} for the stay` : `${fmt(quote.perMonth)} a month`}</span>
+            <span className="text-gold-ink font-medium">{quote.shortStay ? `${fmt(quote.total ?? 0)} for the stay` : `${fmt(quote.perMonth)} over four weeks`}</span>
           </p>
           <p className="mt-3 font-inter text-body-sm text-gray-500">A coordinator checks chef availability for your days and area, and comes back with the exact figure in writing — before anything starts.</p>
         </div>

@@ -9,13 +9,14 @@ export function planText(input: QuoteInput, q: Quote, lead?: { name?: string; ar
     lead?.area ? `Area: ${lead.area}` : '',
     `Start: ${lead?.start || input.startDate || 'To be confirmed'}`,
     q.shortStay ? `Duration: Short stay, ${input.stayDays} chef days` : `Duration: Long term, ${length}`,
-    q.shortStay ? '' : `Frequency: ${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''}/week (approx. ${q.servicesPerMonth} services/month)`,
+    q.shortStay ? '' : `Frequency: ${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''}/week (${q.servicesPerMonth} services/four weeks)`,
     `Service: ${q.service.name} · ${q.hoursPerService}h/service${q.service.asksMeal ? ` · ${input.meal}` : ''}`,
     `Household: ${input.guests} people · ${q.customStaffing ? 'custom staffing review' : q.assistants ? `${q.assistants} assistant(s)` : 'no assistant'}`,
     `Groceries: ${q.groceryManaged ? 'managed by myCHEF' : 'managed by client'} · charged at actual cost`,
     q.tier ? `Rate: ${q.tier.name}` : 'Rate: short-stay',
-    `Estimate: ${fmt(q.perService)}/service · ${fmt(q.perWeek)}/week · ${q.shortStay ? `${fmt(q.total ?? 0)} for the stay` : `${fmt(q.perMonth)}/month`}`,
-    q.shortStay ? '' : `Chef hours: ${q.chefHoursPerMonth}/month`,
+    `Estimate: ${fmt(q.perService)}/service · ${fmt(q.perWeek)}/week · ${q.shortStay ? `${fmt(q.total ?? 0)} for the stay` : `${fmt(q.perMonth)}/four weeks`}`,
+    'Service estimate before 5% VAT. Groceries, paid trials, activation where applicable and agreed extras are separate.',
+    q.shortStay ? '' : `Chef hours: ${q.chefHoursPerMonth}/four weeks. Additional calendar-month shifts are quoted separately.`,
   ]
   return lines.filter(Boolean).join('\n')
 }
