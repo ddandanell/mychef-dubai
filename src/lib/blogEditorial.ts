@@ -1,7 +1,7 @@
 import rules from '@/content/blogLinkRules.json'
 import serviceRules from '@/content/serviceLinkRules.json'
 import { isParked } from '@/content/parkedUrls'
-import { blogImageSrcSet } from './blogImages'
+import { blogImageDimensions, blogImageSrcSet } from './blogImages'
 
 type Rule = { phrases: string[]; href: string }
 export interface BlogLinkState { path: string; remaining: number; uses: Map<string, number>; rules: Rule[]; limit: number; perDestination: number }
@@ -63,11 +63,15 @@ export function prepareBlogHtml(html: string, path: string) {
     }).join('')
     return `<p${attrs}>${linked}</p>`
   })
-  result = result.replace(/<img\b([^>]*?)\bsrc="([^"]+)"([^>]*?)\/?\s*>/gi, (tag, before: string, src: string, after: string) => {
+  result = result.replace(/<img\b[^>]*?\bsrc="([^"]+)"[^>]*?\/?\s*>/gi, (tag: string, src: string) => {
     const srcSet = blogImageSrcSet(src)
-    return srcSet && !/\bsrcset=/i.test(tag)
-      ? `<img${before}src="${src}" srcset="${srcSet}" sizes="(min-width: 900px) 820px, calc(100vw - 40px)"${after}>`
-      : tag
+    const dimensions = blogImageDimensions(src)
+    const attributes: string[] = []
+    if (srcSet && !/\bsrcset=/i.test(tag)) attributes.push(`srcset="${srcSet}"`)
+    if (srcSet && !/\bsizes=/i.test(tag)) attributes.push('sizes="(min-width: 900px) 820px, calc(100vw - 40px)"')
+    if (dimensions && !/\b(?:width|height)=/i.test(tag)) attributes.push(`width="${dimensions.width}" height="${dimensions.height}"`)
+    if (!/\bdecoding=/i.test(tag)) attributes.push('decoding="async"')
+    return attributes.length ? tag.replace(/\s*\/?>$/, ` ${attributes.join(' ')}>`) : tag
   })
   return { html: result, headings }
 }

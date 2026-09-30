@@ -169,5 +169,43 @@
     "/images/blog-2026/cooking-class-pasta.webp": 1536,
     "/images/blog-2026/cooking-class-ingredients.webp": 1536,
     "/images/blog-2026/drop-off-delivery-spread.webp": 1536
+  },
+  "dimensions": {
+    "/images/blog-2026/best-drop-off-catering-services-in-dubai-body-1.webp": {
+      "width": 1536,
+      "height": 1024
+    },
+    "/images/blog-2026/drop-off-delivery-spread.webp": {
+      "width": 1536,
+      "height": 1024
+    },
+    "/images/blog-2026/best-cocktail-party-catering-companies-in-dubai-body-1.webp": {
+      "width": 1536,
+      "height": 1024
+    },
+    "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/00c2c3b6-8bd4-4338-a393-9d1d58dc622a/body-a6214fd28dee22c88b68e6a6f3ade604.jpg": {
+      "width": 1536,
+      "height": 1024
+    },
+    "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/cd7783b9-ee95-4ac4-9b9e-b685aab81735/body-488a415fdb781b6ce7b1667cf1779292.jpg": {
+      "width": 1536,
+      "height": 1024
+    },
+    "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/6f7fc38d-e057-421b-850c-b744f2eef9e3/body-556076f1280b2c07f8c5b6b969c7f76c.jpg": {
+      "width": 1536,
+      "height": 1024
+    },
+    "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/1c54b38d-2929-4256-9528-06b7ef93485e/body-981681bdfc49e7b69bf18308595a1609.jpg": {
+      "width": 1536,
+      "height": 1024
+    },
+    "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1.webp": {
+      "width": 1536,
+      "height": 1024
+    },
+    "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-2.webp": {
+      "width": 1536,
+      "height": 1024
+    }
   }
 }

@@ -1,4 +1,5 @@
-import { lazy, type ComponentType, type ReactNode } from 'react'
+import { type ReactNode } from 'react'
+import { lazyPreloadable, type PreloadableComponent } from '@/lib/lazyPreloadable'
 import { Link, useLocation } from 'react-router'
 import { ArrowUpRight } from 'lucide-react'
 import designData from '@/content/cateringDesign.json'
@@ -67,10 +68,14 @@ function PlanningArticle({page}: {page: Page}) {
   </BlogProse>
 }
 const loaders = import.meta.glob<Page>('../../content/catering-editorial/*.json', {import:'default'})
-const pages: Record<string,ComponentType> = {}
+const pages: Record<string,PreloadableComponent> = {}
 for(const [file,load] of Object.entries(loaders)) {
   const path='/'+file.split('/').pop()!.replace(/\.json$/,'').replaceAll('__','/')
-  pages[path]=lazy(async()=>{const page=await load();return {default:()=> <PlanningArticle page={page}/>}})
+  pages[path]=lazyPreloadable(async()=>{const page=await load();return {default:()=> <PlanningArticle page={page}/>}})
+}
+export function preloadCateringExpansion(pathname: string): Promise<void> {
+  if (pathname === '/canape-catering-dubai' || pathname === '/catering-dubai') return Promise.resolve()
+  return pages[pathname]?.preload() ?? Promise.resolve()
 }
 export default function CateringExpansion() {
   const {pathname}=useLocation(); const Page=pages[pathname.replace(/\/$/,'')]; return pathname === '/canape-catering-dubai' || pathname === '/catering-dubai' ? null : Page ? <Page/> : null

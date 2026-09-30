@@ -174,9 +174,11 @@ function LegacyPageHero({
       ctx = gsap.context(() => {
         const els = contentRef.current?.children
         if (!els) return
+        // The heading is already visible in the prerendered HTML. Hiding it
+        // again after load delays LCP and makes readable copy flash away.
         gsap.fromTo(els,
-          { opacity: 0, y: 30 },
-          { opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out', delay: 0.1 }
+          { y: 18 },
+          { y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out' }
         )
       }, sectionRef)
     })

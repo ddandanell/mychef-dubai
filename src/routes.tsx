@@ -1,7 +1,11 @@
 // AUTO-GENERATED from App.tsx by scripts/gen-routes (do not hand-edit route list).
 // Data-driven route table enabling per-route chunk preload before hydrateRoot.
 import type { ReactElement } from 'react'
+import { matchPath } from 'react-router'
 import { lazyPreloadable, type PreloadableComponent } from './lib/lazyPreloadable'
+import { preloadPrivateChefExpansion } from './components/private-chef/PrivateChefExpansion'
+import { preloadCateringExpansion } from './components/catering/CateringEditorial'
+import type { RyzeArticle } from './pages/blog/RyzeArticlePage'
 import HandoffPage from './components/HandoffPage'
 import { RYZE_BLOG_PATHS } from './content/ryzeBlogPaths'
 
@@ -169,7 +173,21 @@ const EventPlannersPartner: PreloadableComponent = lazyPreloadable(() => import(
 const ConciergeServicesPartner: PreloadableComponent = lazyPreloadable(() => import('./pages/partners/ConciergeServicesPartner'))
 const Press: PreloadableComponent = lazyPreloadable(() => import('./pages/Press'))
 const SiteMap: PreloadableComponent = lazyPreloadable(() => import('./pages/SiteMap'))
-const RyzeArticlePage: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/RyzeArticlePage'))
+// Only download the article being read. The old eager glob bundled every article
+// (including its unused Markdown copy) into a single 1.25 MB route chunk.
+const articleLoaders = import.meta.glob<RyzeArticle>('./content/ryze-pages/*.json', { import: 'default' })
+const ryzeArticleRoutes = RYZE_BLOG_PATHS.map((path) => {
+  const loadArticle = articleLoaders[`./content/ryze-pages/${path.slice('/blog/'.length)}.json`]
+  const Page = lazyPreloadable(async () => {
+    if (!loadArticle) throw new Error(`Missing article content for ${path}`)
+    const [{ default: ArticlePage }, article] = await Promise.all([
+      import('./pages/blog/RyzeArticlePage'),
+      loadArticle(),
+    ])
+    return { default: () => <ArticlePage article={article} /> }
+  })
+  return { path, element: <Page />, preload: Page.preload }
+})
 const NotFound: PreloadableComponent = lazyPreloadable(() => import('./pages/NotFound'))
 
 export interface AppRoute { path: string; element: ReactElement; preload?: () => Promise<void> }
@@ -354,18 +372,20 @@ export const routes: AppRoute[] = [
   { path: "/blog/private-chef-vs-restaurant-dubai", element: <HandoffPage /> },
   { path: "/blog/vegan-catering-dubai-guide", element: <HandoffPage /> },
   { path: "/blog/wedding-catering-cost-dubai", element: <WeddingCateringCost />, preload: WeddingCateringCost.preload },
-  ...RYZE_BLOG_PATHS.map((path) => ({ path, element: <RyzeArticlePage />, preload: RyzeArticlePage.preload })),
+  ...ryzeArticleRoutes,
   { path: "*", element: <NotFound />, preload: NotFound.preload },
 ]
 
-const exactPreload: Record<string, () => Promise<void>> = {}
-for (const r of routes) { if (r.preload) exactPreload[r.path] = r.preload }
-
-/** Preload the chunk for the current pathname before hydration (flash-free). */
-export function preloadRoute(pathname: string): Promise<void> {
-  const p = exactPreload[pathname]
-  if (p) return p()
-  // No exact match → the "*" (NotFound) route; preload it if lazy.
-  const star = routes.find((r) => r.path === '*')
-  return star?.preload ? star.preload() : Promise.resolve()
+/** Keep the prerendered page visible until all of its Suspense content is ready. */
+export async function preloadRoute(pathname: string): Promise<void> {
+  const path = pathname.split(/[?#]/)[0].replace(/\/+$/, '') || '/'
+  // Match dynamic routes and trailing slashes just as the router does. Handoff
+  // routes are valid even without a preload function; they are not 404 pages.
+  const route = routes.find((r) => r.path !== '*' && matchPath({ path: r.path, end: true }, path))
+    ?? routes.find((r) => r.path === '*')
+  await Promise.all([
+    route?.preload?.(),
+    preloadPrivateChefExpansion(path),
+    preloadCateringExpansion(path),
+  ])
 }
