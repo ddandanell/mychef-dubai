@@ -16,28 +16,37 @@ declare global {
   interface Window {
     dataLayer: unknown[]
     gtag: (...args: unknown[]) => void
+    __mychefAnalyticsInitialized?: boolean
   }
 }
 
 /** Loads gtag.js once and configures the property (manual page_view for SPA). */
 export function initAnalytics(): void {
   if (!GA_MEASUREMENT_ID || typeof window === 'undefined') return
-  if (document.getElementById('ga4-src')) return
-
-  const s = document.createElement('script')
-  s.id = 'ga4-src'
-  s.async = true
-  s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`
-  document.head.appendChild(s)
+  if (window.__mychefAnalyticsInitialized) return
 
   window.dataLayer = window.dataLayer || []
-  window.gtag = function gtag() {
-    window.dataLayer.push(arguments)
+  if (typeof window.gtag !== 'function') {
+    window.gtag = function gtag() {
+      window.dataLayer.push(arguments)
+    }
   }
   window.gtag('js', new Date())
   // send_page_view:false — we fire page_view manually on every client-side route change.
   window.gtag('config', GA_MEASUREMENT_ID, { send_page_view: false })
   window.gtag('config', ADS_ID, { send_page_view: false })
+  window.__mychefAnalyticsInitialized = true
+
+  // Prerendered HTML retains the script element, but not window state or the
+  // configuration queue. Configure every new browser document; deduplicate
+  // only the script download when the saved HTML already contains it.
+  if (!document.getElementById('ga4-src')) {
+    const s = document.createElement('script')
+    s.id = 'ga4-src'
+    s.async = true
+    s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`
+    document.head.appendChild(s)
+  }
 }
 
 export function trackPageView(path: string): void {
