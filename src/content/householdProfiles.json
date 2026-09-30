@@ -9,7 +9,8 @@
     "cuisine": "Family",
     "bestFor": "A small household that wants familiar flavours, relaxed portions and a reliable school-week routine.",
     "image": "hc01",
-    "imageAlt": "Roast chicken, baked fish, vegetable pasta and prepared breakfast pots."
+    "imageAlt": "Roast chicken, baked fish, vegetable pasta and prepared breakfast pots.",
+    "portraitAlt": "Chef-style portrait for Everyday Family Chef in a private household kitchen"
   },
   {
     "id": "hc02",
@@ -21,7 +22,8 @@
     "cuisine": "Indian",
     "bestFor": "A family that enjoys home-style North Indian meals, fresh breads and spice levels adjusted for different diners.",
     "image": "hc02",
-    "imageAlt": "Dal tadka, chicken curry, seasonal sabzi, rice and chapati."
+    "imageAlt": "Dal tadka, chicken curry, seasonal sabzi, rice and chapati.",
+    "portraitAlt": "Chef-style portrait for North Indian Home Cooking Chef in a private household kitchen"
   },
   {
     "id": "hc03",
@@ -33,7 +35,8 @@
     "cuisine": "Arabic",
     "bestFor": "A home that loves generous salads, grills and comforting Levantine food throughout the week.",
     "image": "hc03",
-    "imageAlt": "Lentil soup, chicken shawarma plates, fattoush and kofta."
+    "imageAlt": "Lentil soup, chicken shawarma plates, fattoush and kofta.",
+    "portraitAlt": "Chef-style portrait for Levantine Family Chef in a private household kitchen"
   },
   {
     "id": "hc04",
@@ -45,7 +48,8 @@
     "cuisine": "Indian",
     "bestFor": "A vegetarian household that wants regional breakfasts and a changing rotation of South Indian staples.",
     "image": "hc04",
-    "imageAlt": "Idli, dosa, sambar, vegetable poriyal and lemon rice."
+    "imageAlt": "Idli, dosa, sambar, vegetable poriyal and lemon rice.",
+    "portraitAlt": "Chef-style portrait for South Indian Vegetarian Chef in a private household kitchen"
   },
   {
     "id": "hc05",
@@ -57,7 +61,8 @@
     "cuisine": "Asian",
     "bestFor": "Busy homes that enjoy lighter broths, quick stir-fries and approachable Asian family meals.",
     "image": "hc05",
-    "imageAlt": "Ginger chicken, vegetable fried rice, noodle soup and steamed fish."
+    "imageAlt": "Ginger chicken, vegetable fried rice, noodle soup and steamed fish.",
+    "portraitAlt": "Chef-style portrait for Asian Everyday Cooking Chef in a private household kitchen"
   },
   {
     "id": "hc06",
@@ -69,7 +74,8 @@
     "cuisine": "Mediterranean",
     "bestFor": "A household that values fresh produce, varied weekly menus and easy food for friends joining the table.",
     "image": "hc06",
-    "imageAlt": "Grilled seabass, chicken souvlaki, roasted vegetables and lentil salad."
+    "imageAlt": "Grilled seabass, chicken souvlaki, roasted vegetables and lentil salad.",
+    "portraitAlt": "Chef-style portrait for Mediterranean Household Chef in a private household kitchen"
   },
   {
     "id": "hc07",
@@ -81,7 +87,8 @@
     "cuisine": "Indian",
     "bestFor": "A vegetarian family with clear ingredient preferences, including carefully agreed Jain-style exclusions.",
     "image": "hc07",
-    "imageAlt": "Paneer tikka, dal, vegetable pulao and onion-free dishes."
+    "imageAlt": "Paneer tikka, dal, vegetable pulao and onion-free dishes.",
+    "portraitAlt": "Chef-style portrait for Indian Vegetarian Specialist in a private household kitchen"
   },
   {
     "id": "hc08",
@@ -93,7 +100,8 @@
     "cuisine": "European",
     "bestFor": "A family looking for comforting European cooking, Sunday roasts and organised meals around school and work.",
     "image": "hc08",
-    "imageAlt": "Roast beef, fish pie, chicken casserole and vegetable lasagne."
+    "imageAlt": "Roast beef, fish pie, chicken casserole and vegetable lasagne.",
+    "portraitAlt": "Chef-style portrait for British and European Family Chef in a private household kitchen"
   },
   {
     "id": "hc09",
@@ -105,7 +113,8 @@
     "cuisine": "Asian",
     "bestFor": "A household that enjoys herbs, balanced sauces and Thai or Southeast Asian favourites with adjustable heat.",
     "image": "hc09",
-    "imageAlt": "Thai basil chicken, mild coconut curry, summer rolls and noodle salads."
+    "imageAlt": "Thai basil chicken, mild coconut curry, summer rolls and noodle salads.",
+    "portraitAlt": "Chef-style portrait for Thai and Southeast Asian Chef in a private household kitchen"
   },
   {
     "id": "hc10",
@@ -117,7 +126,8 @@
     "cuisine": "Plant based",
     "bestFor": "Families who want more vegetables on the table, with satisfying dishes for both plant-based and mixed diets.",
     "image": "hc10",
-    "imageAlt": "Lentil bolognese, roasted cauliflower, grain bowls and bean stews."
+    "imageAlt": "Lentil bolognese, roasted cauliflower, grain bowls and bean stews.",
+    "portraitAlt": "Chef-style portrait for Plant Forward Family Chef in a private household kitchen"
   },
   {
     "id": "hc11",
@@ -129,7 +139,8 @@
     "cuisine": "Arabic",
     "bestFor": "A home combining everyday Arabic cooking with occasional majlis meals and extended-family hospitality.",
     "image": "hc11",
-    "imageAlt": "Machboos, lamb ouzi, regional mezze and grilled fish."
+    "imageAlt": "Machboos, lamb ouzi, regional mezze and grilled fish.",
+    "portraitAlt": "Chef-style portrait for Arabic Household and Majlis Chef in a private household kitchen"
   },
   {
     "id": "hc12",
@@ -141,7 +152,8 @@
     "cuisine": "Wellness",
     "bestFor": "A household following a documented meal plan, with organised portions and consistent preparation.",
     "image": "hc12",
-    "imageAlt": "Measured chicken bowls, fish with rice, vegetable sides and snacks."
+    "imageAlt": "Measured chicken bowls, fish with rice, vegetable sides and snacks.",
+    "portraitAlt": "Chef-style portrait for Performance Meal Planning Chef in a private household kitchen"
   },
   {
     "id": "hc13",
@@ -153,7 +165,8 @@
     "cuisine": "Asian",
     "bestFor": "A family that enjoys Japanese dishes as part of a varied home menu, from rice bowls to detailed weekend meals.",
     "image": "hc13",
-    "imageAlt": "Miso fish, donburi, soba, vegetable tempura and cooked sushi rolls."
+    "imageAlt": "Miso fish, donburi, soba, vegetable tempura and cooked sushi rolls.",
+    "portraitAlt": "Chef-style portrait for Japanese Contemporary Home Chef in a private household kitchen"
   },
   {
     "id": "hc14",
@@ -165,7 +178,8 @@
     "cuisine": "European",
     "bestFor": "A household that loves handmade pasta and seasonal Italian food, with occasional dinner parties at home.",
     "image": "hc14",
-    "imageAlt": "Handmade ravioli, seafood risotto, grilled vegetables and tiramisu."
+    "imageAlt": "Handmade ravioli, seafood risotto, grilled vegetables and tiramisu.",
+    "portraitAlt": "Chef-style portrait for Italian Artisan Household Chef in a private household kitchen"
   },
   {
     "id": "hc15",
@@ -177,7 +191,8 @@
     "cuisine": "Family",
     "bestFor": "A busy family with several preferences who needs one practical menu and clear communication across the household.",
     "image": "hc15",
-    "imageAlt": "Herb chicken, vegetable curry, fish tacos and separate children’s sides."
+    "imageAlt": "Herb chicken, vegetable curry, fish tacos and separate children’s sides.",
+    "portraitAlt": "Chef-style portrait for Multicuisine Family Kitchen Chef in a private household kitchen"
   },
   {
     "id": "hc16",
@@ -189,7 +204,8 @@
     "cuisine": "European",
     "bestFor": "A home that wants classical technique and polished guest meals alongside simpler everyday cooking.",
     "image": "hc16",
-    "imageAlt": "Seabass with sauce vierge, roast poultry, seasonal tart and fruit desserts."
+    "imageAlt": "Seabass with sauce vierge, roast poultry, seasonal tart and fruit desserts.",
+    "portraitAlt": "Chef-style portrait for French Contemporary Private Chef in a private household kitchen"
   },
   {
     "id": "hc17",
@@ -201,7 +217,8 @@
     "cuisine": "Asian",
     "bestFor": "A household looking for depth in a particular Chinese regional style and a chef who can source the right ingredients.",
     "image": "hc17",
-    "imageAlt": "Cantonese steamed fish, dumplings, braised beef and seasonal vegetables."
+    "imageAlt": "Cantonese steamed fish, dumplings, braised beef and seasonal vegetables.",
+    "portraitAlt": "Chef-style portrait for Chinese Regional Private Chef in a private household kitchen"
   },
   {
     "id": "hc18",
@@ -213,7 +230,8 @@
     "cuisine": "Indian",
     "bestFor": "A family that enjoys the warmth of Indian home cooking and a more refined presentation for guests.",
     "image": "hc18",
-    "imageAlt": "Tandoori fish, refined chaat, slow-cooked lamb and seasonal vegetarian courses."
+    "imageAlt": "Tandoori fish, refined chaat, slow-cooked lamb and seasonal vegetarian courses.",
+    "portraitAlt": "Chef-style portrait for Modern Indian Private Chef in a private household kitchen"
   },
   {
     "id": "hc19",
@@ -225,7 +243,8 @@
     "cuisine": "Plant based",
     "bestFor": "A plant-based household that expects an imaginative weekly menu and considered dishes for entertaining.",
     "image": "hc19",
-    "imageAlt": "Mushroom-free vegetable wellington, nut-free sauces where required and seasonal tasting dishes."
+    "imageAlt": "Mushroom-free vegetable wellington, nut-free sauces where required and seasonal tasting dishes.",
+    "portraitAlt": "Chef-style portrait for Premium Plant Based Private Chef in a private household kitchen"
   },
   {
     "id": "hc20",
@@ -237,7 +256,8 @@
     "cuisine": "Mediterranean",
     "bestFor": "A home that enjoys seafood, grilling and sharing plates, with an agreed Latin and Mediterranean repertoire.",
     "image": "hc20",
-    "imageAlt": "Grilled fish, slow-cooked beef, arepas, roasted peppers and citrus desserts."
+    "imageAlt": "Grilled fish, slow-cooked beef, arepas, roasted peppers and citrus desserts.",
+    "portraitAlt": "Chef-style portrait for Latin and Mediterranean Private Chef in a private household kitchen"
   },
   {
     "id": "hc21",
@@ -249,7 +269,8 @@
     "cuisine": "Entertaining",
     "bestFor": "A residence with existing household staff that wants a culinary lead to organise menus, suppliers and service.",
     "image": "hc21",
-    "imageAlt": "Seasonal family menus, formal plated dinners and staff briefing menus."
+    "imageAlt": "Seasonal family menus, formal plated dinners and staff briefing menus.",
+    "portraitAlt": "Chef-style portrait for Executive Estate Chef in a private household kitchen"
   },
   {
     "id": "hc22",
@@ -261,7 +282,8 @@
     "cuisine": "Travel",
     "bestFor": "A principal or family who needs cooking continuity between residences, with an itinerary planned in advance.",
     "image": "hc22",
-    "imageAlt": "Portable breakfast routines, preferred family dishes and destination-specific seasonal menus."
+    "imageAlt": "Portable breakfast routines, preferred family dishes and destination-specific seasonal menus.",
+    "portraitAlt": "Chef-style portrait for Travelling Residence Chef in a private household kitchen"
   },
   {
     "id": "hc23",
@@ -273,7 +295,8 @@
     "cuisine": "Asian",
     "bestFor": "A household seeking detailed Japanese cooking and a carefully planned private dining experience.",
     "image": "hc23",
-    "imageAlt": "Seasonal cooked courses, precision rice dishes and sushi service."
+    "imageAlt": "Seasonal cooked courses, precision rice dishes and sushi service.",
+    "portraitAlt": "Chef-style portrait for Japanese Fine Dining Private Chef in a private household kitchen"
   },
   {
     "id": "hc24",
@@ -285,7 +308,8 @@
     "cuisine": "European",
     "bestFor": "A home that values changing seasonal tasting menus while still enjoying straightforward meals on ordinary days.",
     "image": "hc24",
-    "imageAlt": "Seasonal tasting courses, precise fish cookery, sauces and restrained plated desserts."
+    "imageAlt": "Seasonal tasting courses, precise fish cookery, sauces and restrained plated desserts.",
+    "portraitAlt": "Chef-style portrait for European Tasting Menu Chef in a private household kitchen"
   },
   {
     "id": "hc25",
@@ -297,6 +321,7 @@
     "cuisine": "Entertaining",
     "bestFor": "A principal household combining discreet daily cooking with a planned calendar of private entertaining.",
     "image": "hc25",
-    "imageAlt": "Preferred daily meals, guest tasting menus and tailored celebration dishes."
+    "imageAlt": "Preferred daily meals, guest tasting menus and tailored celebration dishes.",
+    "portraitAlt": "Chef-style portrait for Principal and Entertaining Chef in a private household kitchen"
   }
 ]

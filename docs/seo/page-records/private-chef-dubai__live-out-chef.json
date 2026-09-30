@@ -6,7 +6,7 @@
   "role": "indexable page",
   "page_type": "Commercial landing",
   "silo": "Private Chef",
-  "purpose": "Live-out private chef for your Dubai home. Personal matching, a Learning Month and ongoing management from approx. AED 20,000/month. Extras separate.",
+  "purpose": "Live-out private chef for your Dubai home. Personal matching, a Learning Month and ongoing management from AED 15,000/month. Extras separate.",
   "keywords": {
     "primary": "live out private chef dubai",
     "secondary": [
@@ -22,7 +22,7 @@
   },
   "metadata": {
     "title": "Live Out Private Chef Dubai | Managed Household | myCHEF",
-    "description": "Live-out private chef for your Dubai home. Personal matching, a Learning Month and ongoing management from approx. AED 20,000/month. Extras separate.",
+    "description": "Live-out private chef for your Dubai home. Personal matching, a Learning Month and ongoing management from AED 15,000/month. Extras separate.",
     "h1": [
       "Live Out Private Chef Dubai. Your chef, each cooking day."
     ]
@@ -43,6 +43,7 @@
     "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdOffer.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/household/ManagedHousehold.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -54,6 +55,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
@@ -84,7 +86,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 1057,
+    "current_word_count": 1201,
     "headings": [
       {
         "level": "h2",
@@ -112,7 +114,7 @@
       },
       {
         "level": "h2",
-        "text": "Managed Household. From approximately AED 20,000 a month."
+        "text": "A chef for your home. A team behind your everyday."
       },
       {
         "level": "h2",
@@ -120,27 +122,19 @@
       },
       {
         "level": "h3",
-        "text": "Tell us the essentials"
+        "text": "Tell us what would make life easier"
       },
       {
         "level": "h3",
-        "text": "Build your Private Household Brief"
+        "text": "Approve the brief. Meet your matches."
       },
       {
         "level": "h3",
-        "text": "Activate your personal search"
+        "text": "Try the cooking before you decide"
       },
       {
         "level": "h3",
-        "text": "Meet, then try the cooking"
-      },
-      {
-        "level": "h3",
-        "text": "Begin your Learning Month"
-      },
-      {
-        "level": "h3",
-        "text": "Keep building the relationship"
+        "text": "Settle in. Keep making it yours."
       },
       {
         "level": "h2",
@@ -188,7 +182,11 @@
       },
       {
         "level": "h2",
-        "text": "Let’s start with the way you live."
+        "text": "Tell us the life you want your kitchen to fit."
+      },
+      {
+        "level": "h3",
+        "text": "Have a start date in mind? Start with your brief."
       }
     ],
     "baseline_findings": [],

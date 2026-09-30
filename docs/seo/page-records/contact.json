@@ -39,6 +39,7 @@
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/household/HouseholdEnquiryForm.tsx",
     "src/components/inquiry/QuoteRequestForm.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
@@ -73,8 +74,10 @@
     "src/lib/track.ts",
     "src/lib/trackVocab.ts",
     "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/Contact.tsx",
-    "src/styles/catering-editorial.css"
+    "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css"
   ],
   "content_review": {
     "baseline_observed": true,

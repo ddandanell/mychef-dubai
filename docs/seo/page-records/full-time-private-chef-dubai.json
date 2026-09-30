@@ -26,9 +26,9 @@
   },
   "metadata": {
     "title": "Full Time Private Chef Dubai | Managed Household | myCHEF",
-    "description": "Full time private chef in Dubai with personal matching, a Learning Month and ongoing management. From approx. AED 20,000/month; activation and extras separate.",
+    "description": "Full time private chef in Dubai with personal matching, a Learning Month and ongoing management. From AED 15,000/month; activation and extras separate.",
     "h1": [
-      "Full Time Private Chef Dubai. Food that feels like home."
+      "Full Time Private Chef Dubai. Come home to your kind of food."
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,7 +47,7 @@
     "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
-    "src/components/household/HouseholdProfiles.tsx",
+    "src/components/household/HouseholdOffer.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/household/ManagedHousehold.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -59,6 +59,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
@@ -89,59 +90,83 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 4432,
+    "current_word_count": 4381,
     "headings": [
       {
         "level": "h2",
-        "text": "Your full time private chef in Dubai. A relationship, thoughtfully managed."
+        "text": "A chef for your home. A team behind your everyday."
+      },
+      {
+        "level": "h3",
+        "text": "Your agreed chef schedule"
+      },
+      {
+        "level": "h3",
+        "text": "A thoughtful first month"
+      },
+      {
+        "level": "h3",
+        "text": "Your Household Food Profile"
+      },
+      {
+        "level": "h3",
+        "text": "One continuing myCHEF contact"
+      },
+      {
+        "level": "h3",
+        "text": "Reviews that keep it personal"
+      },
+      {
+        "level": "h3",
+        "text": "Support if the fit needs to change"
       },
       {
         "level": "h2",
-        "text": "We learn. We match. We stay involved."
+        "text": "Your full time private chef in Dubai. A personal match from the start."
       },
       {
         "level": "h3",
-        "text": "A person who fits your home."
+        "text": "The food you want"
       },
       {
         "level": "h3",
-        "text": "The little things, remembered."
+        "text": "Dietary requirements"
       },
       {
         "level": "h3",
-        "text": "Support as life changes."
+        "text": "The rhythm of your home"
+      },
+      {
+        "level": "h3",
+        "text": "The person and the role"
+      },
+      {
+        "level": "h3",
+        "text": "Tell us what would make life easier"
+      },
+      {
+        "level": "h3",
+        "text": "Approve the brief. Meet your matches."
+      },
+      {
+        "level": "h3",
+        "text": "Try the cooking before you decide"
+      },
+      {
+        "level": "h3",
+        "text": "Settle in. Keep making it yours."
       },
       {
         "level": "h2",
-        "text": "Here is how your chef becomes your chef."
+        "text": "You explain it once. We keep learning."
       },
       {
         "level": "h3",
-        "text": "Start with the essentials."
+        "text": "The details that make it yours."
       },
       {
         "level": "h3",
-        "text": "Tell us the essentials"
-      },
-      {
-        "level": "h3",
-        "text": "Build your Private Household Brief"
-      },
-      {
-        "level": "h3",
-        "text": "Activate your personal search"
-      },
-      {
-        "level": "h3",
-        "text": "Meet, then try the cooking"
-      },
-      {
-        "level": "h3",
-        "text": "Begin your Learning Month"
-      },
-      {
-        "level": "h3",
-        "text": "Keep building the relationship"
+        "text": "Favourites, down to the detail."
       },
       {
         "level": "h2",
@@ -165,19 +190,27 @@
       },
       {
         "level": "h2",
-        "text": "You explain it once. We keep learning."
+        "text": "You stay in control of the decision."
       },
       {
         "level": "h3",
-        "text": "The details that make it yours."
+        "text": "Enquire without paying"
       },
       {
         "level": "h3",
-        "text": "Favourites, down to the detail."
+        "text": "Know why we suggest a chef"
+      },
+      {
+        "level": "h3",
+        "text": "Try a representative meal"
+      },
+      {
+        "level": "h3",
+        "text": "Have a route to a new match"
       },
       {
         "level": "h2",
-        "text": "A resident chef, or a familiar face each day."
+        "text": "A chef who lives in. Or comes each cooking day."
       },
       {
         "level": "h3",
@@ -186,38 +219,6 @@
       {
         "level": "h3",
         "text": "A chef who comes each day"
-      },
-      {
-        "level": "h2",
-        "text": "A personal search. An ongoing monthly service."
-      },
-      {
-        "level": "h3",
-        "text": "The myCHEF Match"
-      },
-      {
-        "level": "h3",
-        "text": "From approximately AED 20,000"
-      },
-      {
-        "level": "h3",
-        "text": "Approximately AED 24,000–30,000"
-      },
-      {
-        "level": "h3",
-        "text": "Individually quoted"
-      },
-      {
-        "level": "h3",
-        "text": "Your monthly service"
-      },
-      {
-        "level": "h3",
-        "text": "Confirmed before you commit"
-      },
-      {
-        "level": "h2",
-        "text": "Start with the food you want at home."
       },
       {
         "level": "h3",
@@ -241,19 +242,31 @@
       },
       {
         "level": "h2",
-        "text": "What is your kind of cooking?"
+        "text": "Choose the scope. We confirm the full arrangement."
       },
       {
         "level": "h3",
-        "text": "Everyday Family Chef"
+        "text": "The myCHEF Match"
       },
       {
         "level": "h3",
-        "text": "Arabic Household and Majlis Chef"
+        "text": "From AED 15,000"
       },
       {
         "level": "h3",
-        "text": "European Tasting Menu Chef"
+        "text": "Approximately AED 24,000–30,000"
+      },
+      {
+        "level": "h3",
+        "text": "Individually quoted"
+      },
+      {
+        "level": "h3",
+        "text": "Your monthly service"
+      },
+      {
+        "level": "h3",
+        "text": "Confirmed before you commit"
       },
       {
         "level": "h2",
@@ -273,15 +286,19 @@
       },
       {
         "level": "h2",
-        "text": "Some recipes deserve to stay in the family."
+        "text": "The decisions that matter."
       },
       {
         "level": "h3",
-        "text": "Learn With Your Chef"
+        "text": "Can I check the fit and timing before paying?"
       },
       {
-        "level": "h2",
-        "text": "Your household chef questions."
+        "level": "h3",
+        "text": "What do you need from me now, and what comes later?"
+      },
+      {
+        "level": "h3",
+        "text": "Is AED 15,000 a daily-booking package?"
       },
       {
         "level": "h3",
@@ -329,7 +346,11 @@
       },
       {
         "level": "h2",
-        "text": "Let’s start with the way you live."
+        "text": "Tell us the life you want your kitchen to fit."
+      },
+      {
+        "level": "h3",
+        "text": "Have a start date in mind? Start with your brief."
       },
       {
         "level": "h2",
