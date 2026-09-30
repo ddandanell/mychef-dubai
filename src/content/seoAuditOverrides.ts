@@ -347,7 +347,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/private-chef-dubai": {
     "title": "Private Chef & Home Chef Dubai | From AED 750 a Visit | myCHEF",
-    "description": "Private chef visits in Dubai from AED 750 or household plans from AED 18,000/month, before VAT. Personal menus, chef matching and separate groceries."
+    "description": "Private chef and home chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
