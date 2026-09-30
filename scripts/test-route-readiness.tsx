@@ -9,6 +9,7 @@ import { BLOG_SERVICE_TARGETS, blogServiceFor } from '../src/content/blogService
 import { RYZE_BLOG_PATHS } from '../src/content/ryzeBlogPaths'
 import { isParked } from '../src/content/parkedUrls'
 import { prepareBlogHtml } from '../src/lib/blogEditorial'
+import { updateChefShortlist, type ChefShortlistState } from '../src/components/household/HouseholdProfiles'
 
 // Run through Vite's SSR module loader, so these checks exercise real route
 // chunks and JSON glob loaders without a browser or any enquiry submission.
@@ -16,6 +17,19 @@ for (const path of [
   '/private-chef-dubai',
   '/corporate',
   '/catering-dubai',
+  '/blog',
+  '/blog/',
+  '/bbq-catering-dubai',
+  '/school-catering-dubai',
+  '/catering-packages-dubai',
+  '/drop-off-catering-dubai',
+  '/our-chefs',
+  '/grazing-table-dubai',
+  '/diwali-catering-dubai',
+  '/breakfast-catering-dubai',
+  '/yachts',
+  '/private-party-catering-dubai',
+  '/canteen-management-dubai',
   '/blog/best-private-chefs-in-dubai-for-home-dining',
   '/blog/best-drop-off-catering-services-in-dubai',
   '/blog/chef-maison-alternatives-in',
@@ -27,7 +41,7 @@ for (const path of [
   assert.equal((html.match(/<h1\b/g) || []).length, 1, `${path}: one visible primary heading`)
   if (path === '/private-chef-dubai') assert.match(html, /data-chef-expansion/)
   if (path === '/corporate') assert.match(html, /data-catering-expansion/)
-  if (path.startsWith('/blog/')) {
+  if (RYZE_BLOG_PATHS.includes(path)) {
     assert.match(html, /data-blog-service-link/)
     const service = blogServiceFor(path.slice('/blog/'.length))
     assert.ok(html.includes(`href="${service.href}"`), `${path}: commercial service is linked`)
@@ -52,3 +66,13 @@ assert.match(image, /loading="lazy"/)
 assert.match(image, /srcset=/)
 assert.equal(prepareBlogHtml(image, '/blog/best-drop-off-catering-services-in-dubai').html, image, 'image attributes are not duplicated on repeated formatting')
 console.log(`PASS commercial destinations for ${RYZE_BLOG_PATHS.length} articles and contextual-link preservation`)
+
+let shortlist: ChefShortlistState = { selected: [], notice: '' }
+for (const id of ['hc01', 'hc11', 'hc24', 'hc02']) shortlist = updateChefShortlist(shortlist, id)
+assert.deepEqual(shortlist.selected, ['hc01', 'hc11', 'hc24'], 'shortlist stays capped at three styles')
+assert.ok(shortlist.notice, 'a fourth selection explains the limit')
+shortlist = updateChefShortlist(shortlist, 'hc11')
+assert.equal(shortlist.notice, '', 'removing a style clears the limit notice')
+shortlist = updateChefShortlist(shortlist, 'hc02')
+assert.deepEqual(shortlist.selected, ['hc01', 'hc24', 'hc02'], 'a freed slot can be reused without losing other choices')
+console.log('PASS chef shortlist selection, limit, removal and replacement')

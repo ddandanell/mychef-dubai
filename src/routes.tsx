@@ -6,10 +6,10 @@ import { lazyPreloadable, type PreloadableComponent } from './lib/lazyPreloadabl
 import { preloadPrivateChefExpansion } from './components/private-chef/PrivateChefExpansion'
 import { preloadCateringExpansion } from './components/catering/CateringEditorial'
 import type { RyzeArticle } from './pages/blog/RyzeArticlePage'
-import HandoffPage from './components/HandoffPage'
 import { RYZE_BLOG_PATHS } from './content/ryzeBlogPaths'
 
 // Preloadable lazy components (one per unique page module)
+const HandoffPage: PreloadableComponent = lazyPreloadable(() => import('./components/HandoffPage'))
 const Home: PreloadableComponent = lazyPreloadable(() => import('./pages/Home'))
 const About: PreloadableComponent = lazyPreloadable(() => import('./pages/About'))
 const Contact: PreloadableComponent = lazyPreloadable(() => import('./pages/Contact'))
@@ -355,34 +355,39 @@ export const routes: AppRoute[] = [
   { path: "/partners/concierge-services-dubai", element: <ConciergeServicesPartner />, preload: ConciergeServicesPartner.preload },
   { path: "/press", element: <Press />, preload: Press.preload },
   { path: "/site-map", element: <SiteMap />, preload: SiteMap.preload },
-  { path: "/best-catering-companies-dubai", element: <HandoffPage /> },
-  { path: "/blog/brunch-at-home-dubai", element: <HandoffPage /> },
-  { path: "/blog/corporate-event-catering-ideas-dubai", element: <HandoffPage /> },
-  { path: "/blog/desert-dinner-party-dubai", element: <HandoffPage /> },
-  { path: "/blog/dinner-party-menu-ideas-dubai", element: <HandoffPage /> },
-  { path: "/blog/grazing-table-vs-buffet-dubai", element: <HandoffPage /> },
-  { path: "/blog/how-far-ahead-book-caterer-dubai", element: <HandoffPage /> },
-  { path: "/blog/how-to-hire-a-private-chef-dubai", element: <HandoffPage /> },
-  { path: "/blog/nut-free-halal-nursery-meals-dubai", element: <HandoffPage /> },
-  { path: "/blog/nursery-meals-vs-packed-lunch-dubai", element: <HandoffPage /> },
-  { path: "/blog/dubai-school-food-rules-2026", element: <HandoffPage /> },
-  { path: "/blog/iftar-at-home-dubai", element: <HandoffPage /> },
-  { path: "/blog/nye-party-catering-dubai", element: <HandoffPage /> },
-  { path: "/blog/private-chef-date-night-dubai", element: <HandoffPage /> },
-  { path: "/blog/private-chef-vs-restaurant-dubai", element: <HandoffPage /> },
-  { path: "/blog/vegan-catering-dubai-guide", element: <HandoffPage /> },
+  { path: "/best-catering-companies-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/brunch-at-home-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/corporate-event-catering-ideas-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/desert-dinner-party-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/dinner-party-menu-ideas-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/grazing-table-vs-buffet-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/how-far-ahead-book-caterer-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/how-to-hire-a-private-chef-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/nut-free-halal-nursery-meals-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/nursery-meals-vs-packed-lunch-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/dubai-school-food-rules-2026", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/iftar-at-home-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/nye-party-catering-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/private-chef-date-night-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/private-chef-vs-restaurant-dubai", element: <HandoffPage />, preload: HandoffPage.preload },
+  { path: "/blog/vegan-catering-dubai-guide", element: <HandoffPage />, preload: HandoffPage.preload },
   { path: "/blog/wedding-catering-cost-dubai", element: <WeddingCateringCost />, preload: WeddingCateringCost.preload },
   ...ryzeArticleRoutes,
   { path: "*", element: <NotFound />, preload: NotFound.preload },
 ]
 
 /** Keep the prerendered page visible until all of its Suspense content is ready. */
+const exactRoutes = new Map(routes.filter(route => !route.path.includes(':') && route.path !== '*').map(route => [route.path, route]))
+const dynamicRoutes = routes.filter(route => route.path.includes(':'))
+const notFoundRoute = routes.find(route => route.path === '*')
+
 export async function preloadRoute(pathname: string): Promise<void> {
   const path = pathname.split(/[?#]/)[0].replace(/\/+$/, '') || '/'
-  // Match dynamic routes and trailing slashes just as the router does. Handoff
-  // routes are valid even without a preload function; they are not 404 pages.
-  const route = routes.find((r) => r.path !== '*' && matchPath({ path: r.path, end: true }, path))
-    ?? routes.find((r) => r.path === '*')
+  // Most hover/tap preloads hit a static route. Compile path patterns only for
+  // the small set of parameterised routes, instead of the entire site each time.
+  const route = exactRoutes.get(path.toLowerCase())
+    ?? dynamicRoutes.find(r => matchPath({ path: r.path, end: true }, path))
+    ?? notFoundRoute
   await Promise.all([
     route?.preload?.(),
     preloadPrivateChefExpansion(path),
