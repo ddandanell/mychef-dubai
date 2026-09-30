@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Catering Packages Dubai | Menus, Prices & Inclusions | myCHEF",
+    "title": "Catering Packages Dubai | Prices & Menus | myCHEF",
     "description": "Compare catering packages in Dubai for dinners, birthdays and company meals. See starting prices, guest ranges and service inclusions before requesting a quote.",
     "h1": [
       "Catering Packages Dubai"
@@ -51,6 +51,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -71,7 +72,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

@@ -45,12 +45,14 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
@@ -60,7 +62,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -70,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2346,
-    "current_word_count": 1943,
+    "current_word_count": 1957,
     "headings": [
       {
         "level": "h2",
@@ -114,7 +118,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan catering with myCHEF"
+        "text": "Plan grazing tables with myCHEF"
       },
       {
         "level": "h2",

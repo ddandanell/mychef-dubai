@@ -190,7 +190,7 @@ export default function Inquiry() {
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
             {household.active
-              ? 'Tell us about your home, the food you love and the chef you would like to welcome. Your selected styles travel with your enquiry so we can start building the right match.'
+              ? 'Start your Managed Household enquiry with a few essentials. We review your needs and budget first, then build your Private Household Brief together. Your selected cooking styles stay with your enquiry.'
               : yachtPrefill
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
@@ -219,7 +219,7 @@ export default function Inquiry() {
                 Send a short brief
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                {household.active ? 'Share your preferred start, household size, arrangement and monthly budget. We will discuss your brief and guide you through suitable chef introductions.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
+                {household.active ? 'Share your preferred start, household size, working hours, arrangement and complete monthly budget. This first step is without obligation; no search or payment begins until the brief and terms are agreed.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
               </p>
               <QuoteRequestForm key={params.toString()} />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
@@ -250,9 +250,9 @@ send the essentials directly on WhatsApp
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
                   {(household.active ? [
-                    { title: 'We get to know your home', desc: 'Your food preferences, daily routine and budget become a clear brief for the chef search.' },
-                    { title: 'We build your personal shortlist', desc: 'We discuss suitable chefs, arrange introductions and help plan a paid cooking trial.' },
-                    { title: 'We help you settle in', desc: 'Your myCHEF contact coordinates the start and stays involved with feedback and ongoing support.' },
+                    { title: 'We review the fit', desc: 'We check your needs, budget and timing, then build the detailed Household Brief if the service is suitable.' },
+                    { title: 'You approve and activate', desc: 'After the brief and search terms are agreed, AED 950 Match Activation begins the search. Initial matching typically takes 3–5 working days. Interviews and paid trials follow.' },
+                    { title: 'Your managed relationship begins', desc: 'Choose your chef, agree the monthly service and start the 30-day Learning Month. Your myCHEF contact stays involved, with an approved Food Profile, reviews and rematching support.' },
                   ] : [
                     { title: 'We Review Your Request', desc: 'A coordinator reviews your brief and confirms the details needed to prepare a relevant proposal.' },
                     { title: 'We Create Your Proposal', desc: 'A menu or cooking plan and indicative quote tailored to your brief.' },

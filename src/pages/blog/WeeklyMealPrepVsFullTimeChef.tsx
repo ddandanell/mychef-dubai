@@ -139,12 +139,12 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </div>
 
           <KeyFactsBox
-            answer="Weekly meal prep is AED 900 a session or AED 1,800 a week for two sessions. A standing household chef is priced per visit; a weekly Fresh Meal is AED 3,000 a month before VAT."
+            answer="Weekly meal prep is AED 900 a session. myCHEF Managed Household starts from approximately AED 20,000/month for a dedicated chef and ongoing management. Fees are before VAT; activation, trials, groceries and agreed extras are separate."
             facts={[
               { label: 'Weekly meal prep', value: 'AED 900 / session' },
-              { label: 'Full-time private chef', value: 'AED 18,000–35,000+ / month + benefits' },
+              { label: 'Full-time private chef', value: 'Managed Household from approx. AED 20,000 / month' },
               { label: 'Meal prep commitment', value: 'Weekly or monthly plan' },
-              { label: 'Full-time commitment', value: 'Annual contract typical' },
+              { label: 'Full-time commitment', value: 'Duration agreed in your service proposal' },
               { label: 'Best for meal prep', value: 'Professionals, small families, health-focused households' },
             ]}
           />
@@ -174,42 +174,42 @@ export default function WeeklyMealPrepVsFullTimeChef() {
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Typical cost</td>
                     <td className="py-3 pr-4">AED 900 / session, AED 1,800 / week for two</td>
-                    <td className="py-3">Priced per visit; weekly Fresh Meal AED 3,000 / month before VAT</td>
+                    <td className="py-3">Managed Household from approx. AED 20,000 / month before VAT</td>
                   </tr>
                   <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Salary + benefits</td>
+                    <td className="py-3 pr-4">Coordination & support</td>
                     <td className="py-3 pr-4">Included in service fee</td>
-                    <td className="py-3">Paid separately by employer</td>
+                    <td className="py-3">myCHEF management included in the monthly proposal</td>
                   </tr>
                   <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Visa / insurance</td>
-                    <td className="py-3 pr-4">Chef covered by platform</td>
-                    <td className="py-3">Sponsored by household</td>
+                    <td className="py-3 pr-4">Starting the arrangement</td>
+                    <td className="py-3 pr-4">Visit scope and availability confirmed</td>
+                    <td className="py-3">Brief review, paid search activation and paid trial</td>
                   </tr>
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Ingredients</td>
                     <td className="py-3 pr-4">Sourced per menu</td>
-                    <td className="py-3">Household budget + chef time</td>
+                    <td className="py-3">Groceries separate; shopping duties agreed</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Commitment</td>
                     <td className="py-3 pr-4">Weekly or monthly plan</td>
-                    <td className="py-3">Annual contract typical</td>
+                    <td className="py-3">Duration agreed in your service proposal</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">
-              For most Dubai households, meal prep is the more economical route. You get professionally cooked, portioned meals without the overhead of a full-time employee.
+              Meal preparation suits a smaller cooking schedule. Managed Household supports a dedicated ongoing role, with a personal match, a Learning Month and continuing management. Compare the <Link to="/full-time-private-chef-dubai#managed-pricing" className="text-gold hover:underline">complete household service and fees</Link> before choosing.
             </p>
           </section>
 
           <SourcesBlock
             sources={[
-              { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
-              { label: 'u.ae: federal labour and household-employer responsibilities overview' },
+              { label: 'myCHEF: current cooking-visit prices and Managed Household service bands' },
+
             ]}
-            note="Cost ranges are indicative. Full-time employment costs include salary, accommodation or transport allowance, health insurance, visa sponsorship, annual leave, and end-of-service benefits where applicable."
+            note="myCHEF service prices are indicative and before 5% VAT. Match Activation is AED 950; paid trials, groceries and agreed extras are separate. Your proposal confirms the scope, duration and complete cost."
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
@@ -231,10 +231,10 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="when-a-full-time-private-chef-makes-sense" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">When a Full-Time Private Chef Makes Sense</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              A full-time chef becomes part of your household. They plan every meal, shop daily or weekly, cook fresh dishes throughout the day, and often manage the kitchen full time. This is the right choice if you entertain frequently, follow strict medical or performance diets, have a large family with unpredictable schedules, or simply prefer the convenience of on-call culinary staff.
+              A dedicated household chef works to agreed days, hours and responsibilities. Your brief can include daily menus, grocery planning, meals served fresh and preparation for later. The right arrangement depends on your household size, entertaining, dietary requirements and the working schedule you can realistically agree.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              The trade-off is cost and management. Beyond salary, you typically cover accommodation or transport allowance, health insurance, annual leave, visa sponsorship, and end-of-service benefits. You also become the employer, which brings legal and administrative responsibilities.
+              With myCHEF Managed Household, the monthly proposal includes the agreed chef service and continuing myCHEF management. We coordinate matching, a paid trial, onboarding and the Learning Month, then stay involved with feedback, the approved Household Food Profile and rematching when needed. Live-in or live-out arrangements and any separate costs are confirmed in writing.
             </p>
             <BlogFigure
               image={{
@@ -242,7 +242,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
                 alt: 'Busy family breakfast table that a household is trying to keep up with',
                 width: 1920,
                 height: 1280,
-                caption: 'This scale of household morning is usually an employment question, not a weekly cook-day. myCHEF does not place live-in staff.',
+                caption: 'A dedicated household chef can support a more involved daily routine. myCHEF offers live-in and live-out matching, with hours and responsibilities agreed in advance.',
               }}
             />
           </section>
@@ -263,7 +263,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
               Weekly meal prep is easy to pause, scale, or adjust. Going on holiday? Skip a week. Hosting a dinner party? Add a one-off private chef booking. The service flexes with your calendar.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              A full-time chef offers the highest level of personalisation and availability, but the arrangement is less flexible. Changing cuisine style, schedules, or portion counts usually requires a conversation and possible contract adjustment.
+              A dedicated role gives your chef more time to understand the household. Discuss changes in food, hours or responsibilities with your myCHEF contact so the brief remains workable. A materially different role or a new chef may require a revised fee.
             </p>
           <BlogReadingLink section="flexibility-and-lifestyle-fit"/>
           </section>

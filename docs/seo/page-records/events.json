@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Event Catering Dubai | Parties, Weddings & Receptions | myCHEF",
+    "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
     "description": "Event catering in Dubai for weddings, birthdays and private celebrations. Compare canapés, buffets and plated menus, with chefs, waitstaff and setup quoted.",
     "h1": [
       "Event Catering Dubai for Weddings and Parties"
@@ -53,6 +53,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -72,7 +73,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

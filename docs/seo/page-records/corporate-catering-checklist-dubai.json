@@ -27,7 +27,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Corporate Catering Checklist Dubai | Plan Your Event | myCHEF",
+    "title": "Corporate Catering Checklist Dubai | Event Guide | myCHEF",
     "description": "A corporate catering checklist for Dubai offices and events: guest counts, menus, access, equipment, dietary requirements, service times and written quotes.",
     "h1": [
       "Corporate Catering Checklist Dubai"
@@ -47,6 +47,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/corporate/CorporateInventory.tsx",
     "src/components/corporate/CorporatePackageCompare.tsx",
     "src/components/private-chef/ServiceImage.tsx",
@@ -68,7 +69,9 @@
     "src/lib/analytics.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/track.ts",

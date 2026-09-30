@@ -27,6 +27,6 @@ export default function EditorialHero({ title, eyebrow, subtitle, image, imageAl
       <p className="pc-hero-note">A personal brief. A suitable chef. A clear written proposal.</p>
       {children}
     </div>
-    <div className="pc-hero-photo">{pathname.startsWith('/blog/') && image ? <img src={image} srcSet={blogImageSrcSet(image)} sizes="(min-width: 900px) 52vw, 100vw" alt={imageAlt || ''} width={1536} height={1024} loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover"/> : <ServiceImage imageKey={key} loading="eager" fetchPriority="high" sizes="(min-width: 900px) 52vw, 100vw" />}<span className="pc-photo-mark" aria-hidden="true">Good food.<br/>Your place.</span></div>
+    <div className="pc-hero-photo">{pathname.startsWith('/blog/') && image ? <img src={image} srcSet={blogImageSrcSet(image)} sizes="(min-width: 900px) 52vw, 100vw" alt={imageAlt || ''} width={1536} height={1024} loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover"/> : <ServiceImage imageKey={key} loading="eager" fetchPriority="high" sizes={key.startsWith('managed-household-') ? '(min-width: 900px) 80vw, 100vw' : '(min-width: 900px) 52vw, 100vw'} />}<span className="pc-photo-mark" aria-hidden="true">Good food.<br/>Your place.</span></div>
   </section>
 }

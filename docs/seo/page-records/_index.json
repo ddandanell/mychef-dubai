@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "reviewed_at": "2026-09-29",
   "counts": {
-    "indexable page": 189,
+    "indexable page": 192,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 336,
+  "total": 339,
   "records": [
     {
       "path": "/",
@@ -515,6 +515,27 @@
     {
       "path": "/blog/monchef-alternatives-in",
       "file": "blog__monchef-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/mychef-vs-cateringindubai-which-is-better-in",
+      "file": "blog__mychef-vs-cateringindubai-which-is-better-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/mychef-vs-chef-maison-which-is-better-in",
+      "file": "blog__mychef-vs-chef-maison-which-is-better-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+      "file": "blog__mychef-vs-pinch-gourmet-which-is-better-in.json",
       "primary_keyword": null,
       "role": "indexable page",
       "silo": null

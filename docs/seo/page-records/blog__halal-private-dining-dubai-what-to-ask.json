@@ -52,6 +52,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -70,7 +71,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -80,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1677,
-    "current_word_count": 1668,
+    "current_word_count": 1701,
     "headings": [
       {
         "level": "h2",
@@ -156,15 +159,15 @@
       },
       {
         "level": "h3",
-        "text": "Smart Catering alternatives in 2026"
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
       },
       {
         "level": "h3",
-        "text": "Take A Chef alternatives in 2026"
+        "text": "myCHEF vs CateringInDubai: which is better in 2026"
       },
       {
         "level": "h3",
-        "text": "CateringDubai.ae alternatives in 2026"
+        "text": "myCHEF vs Pinch Gourmet: which is better in 2026"
       },
       {
         "level": "h2",

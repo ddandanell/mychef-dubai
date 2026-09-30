@@ -1,4 +1,4 @@
-import { HouseholdCallout } from '@/components/household/HouseholdSections'
+import { HouseholdCallout, HouseholdJourney } from '@/components/household/HouseholdSections'
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -14,11 +14,11 @@ const pages = {
   process: {
     path: '/private-chef-dubai/how-it-works', title: 'Managed Private Chef Service Dubai | How It Works | myCHEF',
     h1: 'Managed Private Chef Service Dubai. A simpler everyday.',
-    intro: 'Tell us how your household likes to eat. We recommend a suitable chef, agree your cooking days and menus, and stay in touch as your routine evolves.',
-    eyebrow: 'From your first brief to your next meal', heading: 'How your managed private chef service in Dubai works.', image: 'planning' as ChefImageKey,
+    intro: 'Good food begins with understanding your home. Choose cooking visits for an agreed schedule, or Managed Household for a dedicated chef, a personal search and continuing relationship management.',
+    eyebrow: 'From your first brief to your next meal', heading: 'How your managed private chef service in Dubai works.', image: 'managed-household-brief' as ChefImageKey,
     body: 'A good arrangement starts with a useful conversation. We discuss household size, food preferences, allergies, kitchen equipment and access. You review the proposed chef, schedule and written price before cooking begins.',
     blocks: [
-      ['Your Food Profile', 'A practical record of favourites, allergies, portions, meal times and kitchen preferences. We use it to brief the chef and keep it up to date as things change.'],
+      ['Your Household Food Profile', 'With your permission, we record useful favourites, dietary requirements, portions, meal times and kitchen preferences. Your feedback keeps the brief relevant and helps with a future handover.'],
       ['Shopping, agreed in advance', 'Choose whether ingredients are ready when the chef arrives or shopping is part of the service. Grocery costs, shopping time and any extras are shown in your proposal.'],
       ['One place to make changes', 'Your myCHEF contact coordinates schedules, feedback and any request for a different match. Tell us when travel, guests or dietary preferences change.'],
       ['Support when a chef is unavailable', 'We look for a suitable available replacement and brief them from your Food Profile. If an equivalent match is unavailable, we explain the options.']
@@ -27,7 +27,7 @@ const pages = {
       {q:'What should I include in my first enquiry?',a:'Your Dubai location, household size, preferred cooking days, meals, cuisine preferences and any allergies. Kitchen access and your expected start date also help us suggest a suitable arrangement.'},
       {q:'Can I meet the chef before the service starts?',a:'We arrange an introduction as part of confirming the match. Discuss menus, kitchen equipment, shopping and service expectations before the first cooking day.'},
       {q:'Will I have the same chef?',a:'We aim to keep the same chef on your agreed schedule. Availability, time off or a change of match may require another chef. Your myCHEF contact coordinates the options.'},
-      {q:'Where can I see the price?',a:'Use the [visit calculator](/private-chef-dubai/pricing#calculator) for cooking bookings, or compare [monthly household levels](/full-time-private-chef-dubai#chef-levels) from AED 18,000. The written proposal confirms your final arrangement.'}
+      {q:'Where can I see the price?',a:'Use the [visit calculator](/private-chef-dubai/pricing#calculator) for cooking bookings, or compare [monthly household levels](/full-time-private-chef-dubai#chef-levels) from approximately AED 20,000/month, with separate AED 950 Match Activation. Figures are before 5% VAT; paid trials, groceries and agreed extras are separate. The written proposal confirms your final arrangement.'}
     ]
   },
   matching: {
@@ -70,7 +70,7 @@ const pages = {
     body:'Our selection process covers identity and right-to-work documents, a practical cooking assessment, references and food hygiene awareness. Your household brief then establishes access, working areas and any specific rules.',
     blocks:[
       ['Access by agreement','Confirm who will be at home, arrival arrangements, permitted working areas and how any keys or access details should be handled.'],
-      ['Information with a purpose','The Food Profile records information relevant to cooking and service: allergies, preferences, meal times and practical kitchen needs. You can request a correction.'],
+      ['Information with a purpose','With your permission, the Household Food Profile records relevant food preferences, dietary requirements, meal times and practical kitchen needs. You can request a correction. Only information needed by the people supporting your arrangement is shared, including during an approved chef handover.'],
       ['Discretion in your home','Private household information and photographs are not for sharing without permission. Raise specific confidentiality needs before confirming the booking.'],
       ['A contact for concerns','Speak with your myCHEF contact about conduct, access or a change in the arrangement. We review the concern and agree the next steps with you.']
     ],faqs:[
@@ -87,7 +87,7 @@ export default function SupportPage({kind}:{kind:keyof typeof pages}) {
   const noindex='noindex' in page && page.noindex
   return <div><SEO title={page.title} description={page.intro} canonicalPath={canonical} noindex={noindex} schema={faqPageSchema(page.faqs.map(f=>({question:f.q,answer:f.a}))) || undefined}/><PageHero eyebrow="MYCHEF · YOUR HOUSEHOLD" title={page.h1} subtitle={page.intro} cta={{label:'Find my chef',href:`/inquiry?from=${page.path}`}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/><ClusterNav/>
     <ChefSection eyebrow={page.eyebrow} title={page.heading}><div className="pc-split"><ServiceImage imageKey={page.image}/><div className="pc-prose"><p className="pc-lead">{page.body}</p><Link className="pc-link" to="/our-chefs">Explore chef profiles →</Link></div></div></ChefSection>
-    {kind==='process' && <ChefSection eyebrow="Five simple steps" title="From your brief to the first meal." tone="pc-tone-cream"><div className="pc-prose"><ChefJourney/></div></ChefSection>}
+    {kind==='process' && <><ChefSection eyebrow="For a dedicated long-term chef" title="The Managed Household journey." tone="pc-tone-cream"><div className="pc-prose"><HouseholdJourney/><p>See the <Link className="pc-link" to="/full-time-private-chef-dubai#learning-month">30-day Learning Month</Link>, explore the <Link className="pc-link" to="/full-time-private-chef-dubai#food-profile">Household Food Profile</Link> and read how <Link className="pc-link" to="/full-time-private-chef-dubai#continuity">continuity and rematching work</Link>.</p></div></ChefSection><ChefSection eyebrow="For visits and short stays" title="Book the cooking time you need."><div className="pc-prose"><p>For a smaller schedule, recurring visits or a short stay, we confirm the booking around the days and service required. Visit prices and terms are separate from Managed Household.</p><ChefJourney/><Link className="pc-link" to="/private-chef-dubai/pricing#calculator">Compare cooking-visit prices →</Link></div></ChefSection></>}
     <ChefSection eyebrow="The details behind the service" title="Clear from the start." tone={kind==='process'?'':'pc-tone-cream'}><div className="pc-detail-grid">{page.blocks.map(([title,body],i)=><article key={title}><p className="pc-eyebrow">0{i+1}</p><h3>{title}</h3><p>{body}</p></article>)}</div></ChefSection>
     {kind==='matching' && <TeamCapability/>}
     {(kind==='matching' || kind==='process') && <HouseholdCallout compact/>}

@@ -48,6 +48,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -72,7 +73,9 @@
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -84,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2199,
+    "current_word_count": 2215,
     "headings": [
       {
         "level": "h2",

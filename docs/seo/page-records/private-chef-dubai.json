@@ -31,8 +31,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai | Visits & Household Chefs | myCHEF",
-    "description": "Private chef visits in Dubai from AED 750 or household plans from AED 18,000/month, before VAT. Personal menus, chef matching and separate groceries.",
+    "title": "Private Chef Dubai | Home Visits from AED 750 | myCHEF",
+    "description": "Private chef visits in Dubai from AED 750 or Managed Household from approx. AED 20,000/month. Personal menus, chef matching and ongoing myCHEF support.",
     "h1": [
       "Private Chef Dubai. Made personal."
     ]
@@ -51,6 +51,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -75,7 +76,9 @@
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -87,7 +90,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2808,
+    "current_word_count": 2849,
     "headings": [
       {
         "level": "h2",

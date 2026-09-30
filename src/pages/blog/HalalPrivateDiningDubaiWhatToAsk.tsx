@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: 'What is the indicative cost for halal private dining in Dubai?',
-    a: 'A multi-course halal dinner at home typically ranges from AED 350–750 per person, depending on menu complexity and service level. Buffet-style events often fall between AED 180–350 per person. A full-time private chef averages AED 18,000–35,000+ per month plus employment costs.',
+    a: 'A multi-course halal dinner at home typically ranges from AED 350–750 per person, depending on menu complexity and service level. Buffet-style events often fall between AED 180–350 per person. For ongoing household cooking, myCHEF Managed Household starts from approximately AED 20,000/month before VAT, with Match Activation, paid trials, groceries and agreed extras separate.',
   },
 ]
 
@@ -262,8 +262,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Full-time private chef</td>
-                    <td className="py-3 pr-4">AED 18,000–35,000+ / month</td>
-                    <td className="py-3">Plus visa, insurance, and accommodation costs</td>
+                    <td className="py-3 pr-4">Managed Household from approx. AED 20,000 / month</td>
+                    <td className="py-3">Before VAT; activation, trials, groceries and agreed extras separate</td>
                   </tr>
                 </tbody>
               </table>

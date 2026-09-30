@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Diwali Catering Dubai | Indian Menus & Chaat Stations | myCHEF",
+    "title": "Diwali Catering Dubai | Indian Menus | myCHEF",
     "description": "Diwali catering in Dubai for homes and offices. Plan Indian vegetarian or mixed menus, chaat stations and mithai, with Jain requirements agreed in advance.",
     "h1": [
       "Diwali Catering Dubai"
@@ -52,6 +52,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
@@ -67,7 +68,9 @@
     "src/hooks/useScrollTrigger.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

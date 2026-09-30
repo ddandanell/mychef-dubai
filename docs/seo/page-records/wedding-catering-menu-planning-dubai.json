@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
     "description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue.",
     "h1": [
       "Wedding Menu Planning Dubai"
@@ -52,6 +52,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -69,7 +70,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",

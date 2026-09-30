@@ -6,7 +6,7 @@
   "role": "indexable page",
   "page_type": "Commercial landing",
   "silo": "Private Chef",
-  "purpose": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support.",
+  "purpose": "Live-in private chef in Dubai from approx. AED 20,000/month. Personal matching, a Learning Month and ongoing management. Activation and extras separate.",
   "keywords": {
     "primary": "live in private chef dubai",
     "secondary": [
@@ -21,8 +21,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Live In Private Chef Dubai | Household Matching | myCHEF",
-    "description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support.",
+    "title": "Live In Private Chef Dubai | Managed Household | myCHEF",
+    "description": "Live-in private chef in Dubai from approx. AED 20,000/month. Personal matching, a Learning Month and ongoing management. Activation and extras separate.",
     "h1": [
       "Live In Private Chef Dubai. A familiar rhythm at home."
     ]
@@ -41,8 +41,10 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/household/ManagedHousehold.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -66,7 +68,9 @@
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
     "src/lib/householdSchema.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
@@ -74,12 +78,13 @@
     "src/pages/household/ArrangementPage.tsx",
     "src/pages/household/LiveInChef.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 883,
+    "current_word_count": 1044,
     "headings": [
       {
         "level": "h2",
@@ -107,7 +112,7 @@
       },
       {
         "level": "h2",
-        "text": "Five chef levels. From AED 18,000 a month."
+        "text": "Managed Household. From approximately AED 20,000 a month."
       },
       {
         "level": "h2",
@@ -115,23 +120,27 @@
       },
       {
         "level": "h3",
-        "text": "Tell us about your home"
+        "text": "Tell us the essentials"
       },
       {
         "level": "h3",
-        "text": "Build your personal shortlist"
+        "text": "Build your Private Household Brief"
       },
       {
         "level": "h3",
-        "text": "Meet, talk and cook"
+        "text": "Activate your personal search"
       },
       {
         "level": "h3",
-        "text": "Settle into your routine"
+        "text": "Meet, then try the cooking"
       },
       {
         "level": "h3",
-        "text": "Keep the fit working"
+        "text": "Begin your Learning Month"
+      },
+      {
+        "level": "h3",
+        "text": "Keep building the relationship"
       },
       {
         "level": "h2",
@@ -139,19 +148,19 @@
       },
       {
         "level": "h3",
-        "text": "Your chef search"
+        "text": "Your household contact"
       },
       {
         "level": "h3",
-        "text": "A thoughtful start"
+        "text": "Your Learning Month"
       },
       {
         "level": "h3",
-        "text": "One ongoing contact"
+        "text": "A profile that develops"
       },
       {
         "level": "h3",
-        "text": "Help when things change"
+        "text": "Rematching support"
       },
       {
         "level": "h2",
@@ -179,7 +188,7 @@
       },
       {
         "level": "h2",
-        "text": "Tell us what a good day at home looks like."
+        "text": "Let’s start with the way you live."
       }
     ],
     "baseline_findings": [],

@@ -31,7 +31,7 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Drop Off Catering Dubai | Platters & Delivered Menus | myCHEF",
+    "title": "Drop Off Catering Dubai | Delivered Platters | myCHEF",
     "description": "Drop off catering in Dubai for homes and offices. Delivered menus from AED 90pp for 10 guests, before VAT, with food labels and serving guidance agreed.",
     "h1": [
       "Drop Off Catering Dubai: Food That Arrives Without a Team"
@@ -53,6 +53,7 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/components/system/index.tsx",
@@ -70,7 +71,9 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
