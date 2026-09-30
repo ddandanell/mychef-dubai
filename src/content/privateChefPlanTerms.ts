@@ -16,6 +16,7 @@ import {
   CUSTOM_STAFFING_FROM,
   LONG_TERM_MIN_SERVICES,
   OVERTIME,
+  overtimeRate,
   RESCHEDULE_NOTICE_HOURS,
   SPECIALISTS,
   fmt,
@@ -91,11 +92,11 @@ export const PLAN_TERMS: TermGroup[] = [
       },
       {
         id: 'chef-level',
-        title: 'One price for the job. The level is what the chef earns.',
+        title: 'The right chef for your agreed service.',
         paragraphs: [
           'There is one word for the person who cooks in your home: a professional chef. Nobody is placed until we have checked identity and right to work, passed them on a practical cooking assessment, taken references and confirmed food-hygiene awareness. The entry level is a pass, not a budget option.',
-          'Three levels, and they describe the standard a chef is working to, not what you pay. Everyone starts at Level 1, and the price you see is the price. Consistently strong service across a month moves a chef to Level 2, and holding that standard for three months reaches Level 3. A chef whose work slips moves back down, and one who keeps slipping is taken off household work.',
-          'The extra is paid by us, and your figure does not move when they move up. There is no more expensive grade of chef for us to move you up to.',
+          'For recurring visits, the calculator shows the rate for your chosen service, schedule and household size. For a dedicated household arrangement, we match the chef to the cuisines, experience and responsibilities in your brief.',
+          'Premium and Executive household roles are quoted separately according to scope. Your agreed price does not change because of an internal performance assessment; any change to your service and fee is discussed with you first.',
         ],
         decisionRelevant: true,
       },
@@ -203,7 +204,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'overtime',
         title: 'Need the chef for longer?',
         paragraphs: [
-          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is quoted at the applicable hourly rate, from AED 150 to AED 500 an hour, agreed with you before anyone stays on. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour.`,
+          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is quoted at the applicable hourly rate, ${fmt(overtimeRate('full-day'))}/hour for Full-Day, ${fmt(overtimeRate('autopilot'))} for Kitchen on Autopilot, ${fmt(overtimeRate('food-prep'))} for Food Prep and ${fmt(overtimeRate('fresh-meal'))} for Fresh Meal, agreed with you before anyone stays on. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour.`,
           'Short extensions can often be handled by your regular chef when arranged in advance. Longer coverage may require a second chef or rotating team so service quality and working conditions remain sustainable.',
         ],
         decisionRelevant: true,
@@ -241,7 +242,7 @@ export const PLAN_TERMS: TermGroup[] = [
         title: 'Simple monthly billing.',
         paragraphs: [
           'Long-term private chef plans are billed monthly. You choose your start date, preferred service days and expected frequency.',
-          'Before confirming, you can see the price per service, typical weekly cost, estimated monthly cost, number of chef visits and total chef hours.',
+          'Before confirming, you can see the price per service, typical weekly cost, four-week estimate, number of chef visits and total chef hours. The calculator estimates recurring visits; additional calendar-month visits are quoted separately. Dedicated full-time Managed Household is a separate monthly service with its own agreed schedule.',
           'If your first billing period begins partway through the month, the initial invoice can be based on the services scheduled for that period. Then the normal monthly cycle begins.',
         ],
         decisionRelevant: true,
