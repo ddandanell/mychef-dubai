@@ -29,7 +29,7 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
-  "meta_description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from approx. AED 20,000/month before VAT, with groceries separate.",
+  "meta_description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 15,000/month before VAT, with groceries separate.",
   "h1": "Full-Time Private Chef and Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [
