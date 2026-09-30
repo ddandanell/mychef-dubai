@@ -13,6 +13,11 @@ const field = 'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-
 const label = 'block font-inter text-sm font-medium text-gray-700 mb-2'
 const schedules = ['Five days a week', 'Six days a week', 'Fewer days / part-time', 'Help me decide', 'Another schedule']
 
+function internationalPhone(value: string): string {
+  const compact = value.trim().replace(/[\s().-]/g, '').replace(/^00/, '+')
+  return /^\+?[1-9]\d{7,14}$/.test(compact) ? `+${compact.replace(/^\+/, '')}` : ''
+}
+
 export default function HouseholdEnquiryForm({ sourcePage }: { sourcePage: string }) {
   const [params] = useSearchParams()
   const selected = householdBriefFromParams(params, sourcePage)
@@ -46,7 +51,7 @@ export default function HouseholdEnquiryForm({ sourcePage }: { sourcePage: strin
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           formId: 'quote_request', serviceType: 'Long-term household chef',
-          name: contact.name.trim() || 'Website enquiry', email: reply === 'email' ? contact.email.trim() : '', phone: reply === 'whatsapp' ? contact.phone.trim() : '',
+          name: contact.name.trim() || 'Website enquiry', email: reply === 'email' ? contact.email.trim() : '', phone: reply === 'whatsapp' ? internationalPhone(contact.phone) : '',
           eventDate: home.date, guests: home.guests, location: home.area, sourcePage: source,
           message: brief, source: adAttributionSource(source), gclid: getAdAttribution().gclid,
           page: window.location.pathname + window.location.search,
@@ -81,7 +86,7 @@ export default function HouseholdEnquiryForm({ sourcePage }: { sourcePage: strin
       <div className="sm:col-span-2 mh-enquiry-recap"><p><strong>{home.area}</strong> · {home.guests}</p><p>{home.schedule} · Start: {home.date || 'Flexible'}</p><p>{home.budget}</p><button type="button" className="pc-link" onClick={() => changeStep(1)}><ArrowLeft size={15}/> Edit household details</button></div>
       <label className="sm:col-span-2"><span className={label}>Your name <span className="font-normal text-gray-500">(optional)</span></span><input name="name" className={field} autoComplete="name" maxLength={150} value={contact.name} onChange={e => setContact({ ...contact, name: e.target.value })}/></label>
       <fieldset className="sm:col-span-2"><legend className={label}>How would you like us to reply?</legend><div className="flex gap-6 py-2"><label className="inline-flex items-center gap-2"><input type="radio" name="contactBy" value="whatsapp" checked={reply === 'whatsapp'} onChange={() => setReply('whatsapp')}/> WhatsApp</label><label className="inline-flex items-center gap-2"><input type="radio" name="contactBy" value="email" checked={reply === 'email'} onChange={() => setReply('email')}/> Email</label></div></fieldset>
-      {reply === 'whatsapp' ? <label className="sm:col-span-2"><span className={label}>WhatsApp number, including country code</span><input name="phone" required type="tel" autoComplete="tel" maxLength={40} className={field} value={contact.phone} onChange={e => setContact({ ...contact, phone: e.target.value })} placeholder="e.g. +971…"/></label> : <label className="sm:col-span-2"><span className={label}>Email address</span><input name="email" required type="email" autoComplete="email" maxLength={254} className={field} value={contact.email} onChange={e => setContact({ ...contact, email: e.target.value })}/></label>}
+      {reply === 'whatsapp' ? <label className="sm:col-span-2"><span className={label}>WhatsApp number, including country code</span><input name="phone" required type="tel" autoComplete="tel" maxLength={40} className={field} value={contact.phone} onChange={e => { const value = e.target.value; e.target.setCustomValidity(value && !internationalPhone(value) ? 'Enter a phone number with country code, for example +971 50 123 4567.' : ''); setContact({ ...contact, phone: value }) }} placeholder="e.g. +971 50 123 4567"/></label> : <label className="sm:col-span-2"><span className={label}>Email address</span><input name="email" required type="email" autoComplete="email" maxLength={254} className={field} value={contact.email} onChange={e => setContact({ ...contact, email: e.target.value })}/></label>}
       <details className="sm:col-span-2 mh-enquiry-optional"><summary>Anything you would like us to know? (optional)</summary><label><span className={`${label} mt-4`}>A preference, question or unusual schedule</span><textarea name="householdPreferences" rows={3} maxLength={2000} className={field} value={home.preferences} onChange={e => setHome({ ...home, preferences: e.target.value })} placeholder="We will discuss detailed food and household requirements privately."/></label></details>
       <p className="sm:col-span-2 mh-enquiry-price">We confirm allergies, dietary needs, kitchen arrangements and the detailed role before a paid trial or cooking begins. Your first enquiry does not activate a paid search.</p>
       <div className="sm:col-span-2"><button className="pc-button" type="submit" disabled={status === 'sending'}>{status === 'sending' ? 'Sending your enquiry…' : 'Request my household plan'} <ArrowRight size={17}/></button></div>

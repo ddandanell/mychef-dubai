@@ -276,6 +276,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     const email = typeof body.email === 'string' ? body.email.trim() : ''
+    if (body.serviceType === 'Long-term household chef' && body.phone) {
+      const phone = typeof body.phone === 'string' ? body.phone.trim().replace(/[\s().-]/g, '').replace(/^00/, '+') : ''
+      if (!/^\+?[1-9]\d{7,14}$/.test(phone)) {
+        return res.status(400).json({ error: 'Provide a valid phone number including country code' })
+      }
+      body.phone = `+${phone.replace(/^\+/, '')}`
+    }
     if (email && email !== 'not given' && !isEmail(email)) {
       return res.status(400).json({ error: 'Invalid email address' })
     }

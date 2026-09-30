@@ -92,7 +92,7 @@
 @media(max-width:1000px) { .mh-offer { gap:1.8rem; padding:1.8rem; } .mh-start-timing { flex-wrap:wrap; } .mh-start-timing > .pc-link { margin-left:2.8rem; } }
 @media(max-width:700px) { .mh-offer { grid-template-columns:minmax(0,1fr); padding:1.25rem; gap:1.5rem; } .mh-offer-price { padding:1.4rem; } .mh-offer-benefits { gap:1rem; } .mh-journey > li { gap:.85rem; } .mh-journey h3 { font-size:1.4rem; } .mh-start-timing { gap:.8rem; } .mh-start-timing > .pc-link { margin-left:2.4rem; } }
 .mh-enquiry-form h2, .mh-enquiry-success h2 { font-family:Georgia,serif; font-size:clamp(1.7rem,2.5vw,2.25rem); line-height:1.3; margin:1.5rem 0 .7rem; color:#263e30; scroll-margin-top:7rem; }
-.mh-enquiry-form h2:focus, .mh-enquiry-success h2:focus { outline:none; }
+.mh-enquiry-form h2:focus-visible, .mh-enquiry-success h2:focus-visible { outline:2px solid #536d44; outline-offset:5px; }
 .mh-enquiry-progress { list-style:none; display:flex; gap:1.3rem; border-bottom:1px solid #ccd5c3; padding:0 0 1rem; font-size:.85rem; color:#697265; }
 .mh-enquiry-progress li[aria-current=step] { color:#34552b; font-weight:600; }
 .mh-enquiry-intro { font-size:.98rem; color:#5c6457; line-height:1.7; margin-bottom:1.7rem; }
