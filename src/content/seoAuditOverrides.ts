@@ -31,11 +31,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support."
   },
   "/events": {
-    "title": "Event Catering Dubai | Parties, Weddings & Receptions | myCHEF",
+    "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
     "description": "Event catering in Dubai for weddings, birthdays and private celebrations. Compare canapés, buffets and plated menus, with chefs, waitstaff and setup quoted."
   },
   "/wedding-catering-menu-planning-dubai": {
-    "title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
     "description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue."
   },
   "/blog/corporate-event-catering-ideas-dubai": {
@@ -43,7 +43,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate event catering ideas for Dubai meetings, launches and celebrations. Compare menus, service styles, starting prices and practical venue needs."
   },
   "/bbq-catering-dubai": {
-    "title": "BBQ Catering Dubai | Live Grills for Villas & Events | myCHEF",
+    "title": "BBQ Catering Dubai | Live Grill Menus | myCHEF",
     "description": "BBQ catering in Dubai from AED 150pp for 15 guests, before VAT. Plan a live grill, meats, vegetarian dishes and sides, with equipment and service quoted."
   },
   "/conference-catering-dubai": {
@@ -57,7 +57,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Private Chef JLT Dubai | Home & Office | myCHEF"
   },
   "/mediterranean-catering-dubai": {
-    "title": "Mediterranean Catering Dubai | Mezze & Sharing Menus | myCHEF",
+    "title": "Mediterranean Catering Dubai | Sharing Menus | myCHEF",
     "description": "Mediterranean catering in Dubai with mezze, grilled fish, seasonal vegetables and sharing dishes. Tailored menus for homes, weddings and company events."
   },
   "/wellness-meal-prep-dubai": {
@@ -75,7 +75,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "New Year catering in Dubai for villa dinners, private parties and yacht celebrations. Plan canapés, dinner and service around your New Year’s Eve schedule."
   },
   "/italian-catering-dubai": {
-    "title": "Italian Catering Dubai | Pasta & Private Event Menus | myCHEF",
+    "title": "Italian Catering Dubai | Pasta & Antipasti | myCHEF",
     "description": "Italian catering in Dubai with antipasti, pasta and regional dishes. Choose sharing plates, a seated menu or a pasta station for your private event."
   },
   "/christmas-catering-dubai": {
@@ -95,7 +95,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Catering Cost Calculator Dubai | myCHEF"
   },
   "/diwali-catering-dubai": {
-    "title": "Diwali Catering Dubai | Indian Menus & Chaat Stations | myCHEF",
+    "title": "Diwali Catering Dubai | Indian Menus | myCHEF",
     "description": "Diwali catering in Dubai for homes and offices. Plan Indian vegetarian or mixed menus, chaat stations and mithai, with Jain requirements agreed in advance."
   },
   "/institutional-catering-dubai": {
@@ -191,7 +191,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Bar services Dubai: bartender, mobile bar and mocktails. Cocktails only where the venue is licensed. Setup, service and clear-down on one quote."
   },
   "/sushi-catering-dubai": {
-    "title": "Sushi Catering Dubai | Platters & Live Sushi Counters | myCHEF",
+    "title": "Sushi Catering Dubai | Platters & Stations | myCHEF",
     "description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed."
   },
   "/locations/difc": {
@@ -215,11 +215,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Halal catering in Dubai with halal meat sourced as standard. Buffet, canapé and plated menus for weddings, offices and home events. Itemised written quotes."
   },
   "/grazing-table-dubai": {
-    "title": "Grazing Table Dubai | Styled Platters for Your Event | myCHEF",
+    "title": "Grazing Table Dubai | Styled Event Platters | myCHEF",
     "description": "Grazing tables in Dubai for parties, weddings and office gatherings. Plan cheeses, breads, fruit and dips, with quantities, styling and setup clearly quoted."
   },
   "/menus": {
-    "title": "Catering Menus Dubai | Sample Dishes & Service Styles | myCHEF",
+    "title": "Catering Menus Dubai | Dishes & Service | myCHEF",
     "description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion."
   },
   "/locations": {
@@ -243,7 +243,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate."
   },
   "/catering-packages-dubai": {
-    "title": "Catering Packages Dubai | Menus, Prices & Inclusions | myCHEF",
+    "title": "Catering Packages Dubai | Prices & Menus | myCHEF",
     "description": "Compare catering packages in Dubai for dinners, birthdays and company meals. See starting prices, guest ranges and service inclusions before requesting a quote."
   },
   "/influencer-partnerships": {
@@ -255,7 +255,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Arabic private chef Dubai: Layla Hassan cooks mezze, grill and Iftar in your kitchen. Independent partner chef. You approve the profile first."
   },
   "/private-cooking-classes-dubai": {
-    "title": "Private Cooking Classes Dubai | A Chef in Your Kitchen | myCHEF",
+    "title": "Private Cooking Classes Dubai | Learn at Home | myCHEF",
     "description": "Private cooking classes in Dubai for couples, families and small groups. Choose your cuisine and discuss the menu, ingredients and kitchen setup with myCHEF."
   },
   "/dessert-table-catering-dubai": {
@@ -346,8 +346,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef & Home Chef Dubai | From AED 750 a Visit | myCHEF",
-    "description": "Private chef and home chef visits from AED 750 or long-term household chefs from AED 18,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support."
+    "title": "Private Chef Dubai | Home Visits from AED 750 | myCHEF",
+    "description": "Private chef visits in Dubai from AED 750 or household chefs from AED 18,000/month. Personal menus, chef matching and ongoing myCHEF support."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
@@ -398,7 +398,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Buffet catering in Dubai from AED 120pp for 20 guests, before VAT. Plan hot dishes, salads and desserts with equipment, replenishment and service confirmed."
   },
   "/drop-off-catering-dubai": {
-    "title": "Drop Off Catering Dubai | Platters & Delivered Menus | myCHEF",
+    "title": "Drop Off Catering Dubai | Delivered Platters | myCHEF",
     "description": "Drop off catering in Dubai for homes and offices. Delivered menus from AED 90pp for 10 guests, before VAT, with food labels and serving guidance agreed."
   },
   "/breakfast-catering-dubai": {
@@ -418,11 +418,11 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Festive catering in Dubai for Christmas, Diwali, Ramadan, Eid and New Year. Explore seasonal menus and service options for homes, offices and celebrations."
   },
   "/corporate-catering-checklist-dubai": {
-    "title": "Corporate Catering Checklist Dubai | Plan Your Event | myCHEF",
+    "title": "Corporate Catering Checklist Dubai | Event Guide | myCHEF",
     "description": "A corporate catering checklist for Dubai offices and events: guest counts, menus, access, equipment, dietary requirements, service times and written quotes."
   },
   "/indian-catering-dubai": {
-    "title": "Indian Catering Dubai | Regional Menus & Live Stations | myCHEF",
+    "title": "Indian Catering Dubai | Regional Menus | myCHEF",
     "description": "Indian catering in Dubai with biryani, tandoor dishes, regional curries and chaat. Plan vegetarian or mixed menus for home celebrations and company events."
   }
 }
