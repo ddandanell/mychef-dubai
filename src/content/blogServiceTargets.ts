@@ -22,7 +22,7 @@ const services = {
   brunch: { href: '/brunch-catering-dubai', label: 'brunch catering', anchor: 'brunch catering in Dubai' },
   cocktail: { href: '/cocktail-party-catering-dubai', label: 'cocktail party catering', anchor: 'cocktail party catering in Dubai' },
   desert: { href: '/desert-dining-dubai', label: 'desert dining', anchor: 'desert dining in Dubai' },
-  glutenFree: { href: '/gluten-free-catering-dubai', label: 'gluten-free catering', anchor: 'gluten-free catering in Dubai' },
+  glutenFree: { href: '/allergy-safe-catering-dubai', label: 'allergy-aware catering', anchor: 'allergy-aware catering and dietary planning in Dubai' },
   grazing: { href: '/grazing-table-dubai', label: 'grazing tables', anchor: 'grazing tables in Dubai' },
   halal: { href: '/halal-catering-dubai', label: 'halal catering', anchor: 'halal catering in Dubai' },
   iftar: { href: '/iftar-catering-dubai', label: 'iftar catering', anchor: 'iftar catering in Dubai' },

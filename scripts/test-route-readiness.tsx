@@ -4,7 +4,7 @@ import { renderToString } from 'react-dom/server'
 import { MemoryRouter } from 'react-router'
 import { HelmetProvider } from 'react-helmet-async'
 import App from '../src/App'
-import { preloadRoute } from '../src/routes'
+import { preloadRoute, routes } from '../src/routes'
 import { BLOG_SERVICE_TARGETS, blogServiceFor } from '../src/content/blogServiceTargets'
 import { RYZE_BLOG_PATHS } from '../src/content/ryzeBlogPaths'
 import { isParked } from '../src/content/parkedUrls'
@@ -35,11 +35,13 @@ for (const path of [
   console.log(`PASS ready on first render: ${path}`)
 }
 
+const livePaths = new Set(routes.map(route => route.path))
 for (const path of RYZE_BLOG_PATHS) {
   const slug = path.slice('/blog/'.length)
   assert.ok(BLOG_SERVICE_TARGETS[slug], `${path}: explicit service destination`)
   const target = blogServiceFor(slug).href
   assert.ok(target !== path && !isParked(target), `${path}: service is active and distinct`)
+  assert.ok(livePaths.has(target), `${path}: service resolves directly in the SPA without a server redirect`)
 }
 const content = prepareBlogHtml('<p>Compare private chefs in Dubai before choosing a service.</p><p>Keep <a href="/menus">the menu link</a> beside private chef Dubai.</p>', '/blog/chef-maison-alternatives-in')
 assert.match(content.html, /href="\/private-chef-dubai">private chefs in Dubai<\/a>/)
