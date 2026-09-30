@@ -31,7 +31,7 @@ export function householdBriefLines(params: URLSearchParams, values: { arrangeme
   return [
     'myCHEF Managed Household enquiry',
     `Arrangement: ${arrangement === 'live-in' ? 'Live-in' : arrangement === 'live-out' ? 'Daily live-out' : 'Help me choose'}`,
-    `Monthly service budget: ${values.budget || 'To discuss; managed service from approximately AED 20,000/month'}`,
+    `Monthly service budget: ${values.budget || 'To discuss; managed service from AED 15,000/month'}`,
     `Budget basis: ${values.budgetBasis || 'Complete managed service budget'}`,
     values.duration ? `Expected length of arrangement: ${values.duration}` : '',
     brief.level ? `Preferred culinary level: ${brief.level.name}` : '',

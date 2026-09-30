@@ -6,12 +6,13 @@ import { HOUSEHOLD_PATH, MATCH_ACTIVATION_FEE, managedHouseholdBands, householdP
 import { householdInquiryHref } from '@/lib/householdInquiry'
 import { buildWhatsAppLink } from '@/lib/whatsapp'
 import HouseholdImage from './HouseholdImage'
+import { HouseholdStartTiming } from './HouseholdOffer'
 import '@/styles/managed-household.css'
 
 export function ManagedHouseholdPillars() {
   return <div className="mh-pillars">{[
     { number: '01', name: 'The myCHEF Match', title: 'A person who fits your home.', body: 'We learn about your food, your routine and the way you like people to work. Then we search, check availability and explain why each introduction could suit you.', href: '#how-it-works', link: 'See the matching journey' },
-    { number: '02', name: 'Household Food Profile', title: 'The little things, remembered.', body: 'Your approved record of favourite dishes, portions, dietary requirements and kitchen routines. Useful feedback helps the service become more personal.', href: '#food-profile', link: 'Explore an example' },
+    { number: '02', name: 'Household Food Profile', title: 'The details, remembered.', body: 'Your approved record of favourite dishes, portions, dietary requirements and kitchen routines. Useful feedback helps the service become more personal.', href: '#food-profile', link: 'Explore an example' },
     { number: '03', name: 'myCHEF Continuity', title: 'Support as life changes.', body: 'A continuing myCHEF contact for you and your chef, regular reviews and a considered rematching process when the household needs a change.', href: '#continuity', link: 'Understand ongoing support' },
   ].map(item => <article key={item.number}><span className="mh-number" aria-hidden="true">{item.number}</span><p className="pc-eyebrow">{item.name}</p><h3>{item.title}</h3><p>{item.body}</p><a className="pc-link" href={item.href}>{item.link} <ArrowUpRight size={16}/></a></article>)}</div>
 }
@@ -27,7 +28,7 @@ export function ManagedHouseholdPricing() {
 
 export function LearningMonth() {
   return <ChefSection id="learning-month" eyebrow="Your first 30 days" title={<>The first meal is only<br/><em>the beginning.</em></>} tone="pc-tone-cream">
-    <p className="pc-section-intro">A little less spice. Smaller portions at lunch. Friday dinner made special. The Learning Month gives your chef time to turn the brief into food that feels like yours.</p>
+    <p className="pc-section-intro">The right spice. Portions that suit you. Friday dinner made special. The Learning Month gives your chef time to turn the brief into food that feels like yours.</p>
     <ol className="mh-weeks">{[
       ['Week 1', 'Observe', 'Learn the kitchen, your essential requirements and the rhythm of each day.'],
       ['Week 2', 'Understand', 'Listen to feedback on taste, portions, timing and how you like to be served.'],
@@ -70,5 +71,5 @@ export function HouseholdLearning() {
 }
 
 export function ManagedHouseholdEnquiry({ from = HOUSEHOLD_PATH }: { from?: string }) {
-  return <ChefSection id="start-your-brief" eyebrow="A Private Chef Service That Learns You" title={<>Let’s start with<br/><em>the way you live.</em></>} tone="pc-tone-cream"><div className="pc-enquiry-end"><p>Share your Dubai area, household size, preferred schedule, living arrangement, start date and monthly budget. We review the essentials first, then help you build a Private Household Brief if the service fits.</p><div className="pc-actions"><Link className="pc-button" to={householdInquiryHref(from)}>Start my household brief <ArrowUpRight size={17}/></Link><a className="pc-link" href={buildWhatsAppLink('Hi myCHEF, I would like to discuss Managed Household. Dubai area: __. Adults and children: __. Live-in or live-out: __. Days and hours: __. Start date: __. Complete monthly service budget: __.')} target="_blank" rel="noopener noreferrer">Talk to myCHEF <ArrowUpRight size={17}/></a></div><p className="pc-fineprint">The first conversation is without obligation. Match Activation is payable only after your brief, budget and search terms are agreed.</p></div></ChefSection>
+  return <ChefSection id="start-your-brief" eyebrow="Your first step is a conversation" title={<>Tell us the life you want<br/><em>your kitchen to fit.</em></>} tone="pc-tone-cream"><div className="pc-enquiry-end"><p>Share the essentials. We review your household, budget and timing, then help you build a personal brief. You do not need menus, a chef level or every detail decided.</p><div className="pc-actions"><Link className="pc-button" to={householdInquiryHref(from)}>Request my household plan <ArrowUpRight size={17}/></Link><a className="pc-link" href={buildWhatsAppLink('Hi myCHEF, I would like a dedicated household chef. Dubai area: __. Household size: __. Preferred schedule: __. Start date: __. Monthly service budget: __. Please help me with the next step.')} target="_blank" rel="noopener noreferrer">Talk to myCHEF <ArrowUpRight size={17}/></a></div><p className="pc-fineprint">No payment to enquire. AED 950 Match Activation is payable only after your brief, budget and search terms are agreed. Paid trials and the ongoing service are confirmed separately.</p></div><HouseholdStartTiming from={from}/></ChefSection>
 }

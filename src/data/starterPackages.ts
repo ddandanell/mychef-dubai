@@ -1,3 +1,4 @@
+import { SERVICES, formatAed } from '@/content/privateChefPricing'
 import { EVENT_PACKAGES, formatPriceAed } from '@/content/cateringPricing'
 
 export const WHATSAPP_NUMBER = '971551744849'
@@ -22,12 +23,13 @@ const eventStarterPackages: StarterPackage[] = EVENT_PACKAGES.map((pkg) => ({
 }))
 
 /** Household weekly prep — Food Prep job on /weekly-meal-prep-dubai, not a separate tariff. */
+const prepRate = SERVICES.find(service => service.id === 'food-prep')!.rate
 const weeklyPrepPackages: StarterPackage[] = [
   {
     name: 'Weekly meal prep — one session',
     guests: 'Up to 8 people',
-    price: '900',
-    perPerson: 'AED 900 / 4-hour session',
+    price: prepRate.toLocaleString('en-US'),
+    perPerson: `${formatAed(prepRate)} / 4-hour session`,
     included: 'The Food Prep job: four hours in your kitchen, meals portioned and labelled, kitchen left clean. Groceries at receipt cost.',
     recurring: true,
     period: '/ session',
@@ -35,9 +37,9 @@ const weeklyPrepPackages: StarterPackage[] = [
   {
     name: 'Weekly meal prep — two sessions',
     guests: 'Up to 8 people',
-    price: '1,800',
-    perPerson: 'AED 1,800 / week',
-    included: 'Two Food Prep sessions a week at AED 900 each. Groceries at receipt cost, no markup.',
+    price: (prepRate * 2).toLocaleString('en-US'),
+    perPerson: `${formatAed(prepRate * 2)} / week`,
+    included: `Two Food Prep sessions a week at ${formatAed(prepRate)} each. Groceries at receipt cost, no markup.`,
     recurring: true,
     period: '/ week',
   },

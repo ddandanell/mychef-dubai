@@ -32,6 +32,7 @@ import QuoteRequestForm from '@/components/inquiry/QuoteRequestForm'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { householdBriefFromParams, isChefServiceSource, chefServiceWhatsAppMessage } from '@/lib/householdInquiry'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
+import { householdJourney } from '@/content/householdJourney'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -190,7 +191,7 @@ export default function Inquiry() {
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
             {household.active
-              ? 'Start your Managed Household enquiry with a few essentials. We review your needs and budget first, then build your Private Household Brief together. Your selected cooking styles stay with your enquiry.'
+              ? 'Your chef search starts with a conversation. Share a few essentials; we will check the fit, discuss your preferred start date and help you build the personal brief. No payment to enquire.'
               : yachtPrefill
               ? 'Your yacht estimate is attached to the WhatsApp message. Add the charter date and marina, then send.'
               : corporatePkg
@@ -215,11 +216,9 @@ export default function Inquiry() {
                   <BirthdayPrivateBrief extraIds={birthdayExtraIds} scenarioId={params.get('scenario')} />
                 </div>
               ) : null}
-              <h2 className="font-playfair text-fluid-h3 text-black mb-4">
-                Send a short brief
-              </h2>
+              <h2 className="font-playfair text-fluid-h3 text-black mb-4">{household.active ? 'Let’s find the right arrangement.' : 'Send a short brief'}</h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                {household.active ? 'Share your preferred start, household size, working hours, arrangement and complete monthly budget. This first step is without obligation; no search or payment begins until the brief and terms are agreed.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
+                {household.active ? 'Full-time service from AED 15,000/month before VAT. Your schedule and responsibilities are agreed in the proposal; daily visits have separate prices.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
               </p>
               <QuoteRequestForm key={params.toString()} />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
@@ -249,12 +248,7 @@ send the essentials directly on WhatsApp
 
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
-                  {(household.active ? [
-                    { title: 'We review the fit', desc: 'We check your needs, budget and timing, then build the detailed Household Brief if the service is suitable.' },
-                    { title: 'You approve and activate', desc: 'After the brief and search terms are agreed, AED 950 Match Activation begins the search. Initial matching typically takes 3–5 working days. Interviews and paid trials follow.' },
-                    { title: 'Your managed relationship begins', desc: 'Choose your chef, agree the monthly service and start the 30-day Learning Month. Your myCHEF contact stays involved, with an approved Food Profile, reviews and rematching support.' },
-                  ] : [
-                    { title: 'We Review Your Request', desc: 'A coordinator reviews your brief and confirms the details needed to prepare a relevant proposal.' },
+                  {(household.active ? householdJourney.map(step => ({ title: step.title, desc: step.payment })) : [                    { title: 'We Review Your Request', desc: 'A coordinator reviews your brief and confirms the details needed to prepare a relevant proposal.' },
                     { title: 'We Create Your Proposal', desc: 'A menu or cooking plan and indicative quote tailored to your brief.' },
                     { title: 'You Confirm & Relax', desc: 'Once confirmed, we coordinate your chef and the practical details of your booking.' },
                   ]).map((item, i) => (
@@ -279,7 +273,7 @@ send the essentials directly on WhatsApp
 
                 {/* Trust Badges */}
                 <div className="flex flex-col gap-3 mb-8">
-                  {trustBadges.map((badge) => (
+                  {(household.active ? ['No payment to enquire', 'Approve your brief before activation', 'Paid trial agreed before ongoing service', 'One continuing myCHEF contact'] : trustBadges).map((badge) => (
                     <div key={badge} className="flex items-center gap-3">
                       <Check size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
                       <span className="font-inter text-body-sm text-gray-400">{badge}</span>
@@ -287,7 +281,7 @@ send the essentials directly on WhatsApp
                   ))}
                 </div>
 
-                <TrustBar variant="dark" />
+                {!household.active && <TrustBar variant="dark" />}
               </div>
             </div>
           </div>
