@@ -5,6 +5,7 @@ import { householdProfiles } from '@/content/householdProfiles'
 import { householdLevels } from '@/content/householdChefs'
 import { householdInquiryHref } from '@/lib/householdInquiry'
 import HouseholdImage from './HouseholdImage'
+import HouseholdPortrait from './HouseholdPortrait'
 
 
 export interface ChefShortlistState { selected: string[]; notice: string }
@@ -24,7 +25,32 @@ const HouseholdProfileCard = memo(function HouseholdProfileCard({ profile, previ
   onToggle: (id: string) => void
 }) {
   const band = householdLevels[profile.level - 1]
-  return <article id={profile.id} className="hc-profile" key={profile.id}><div className="hc-profile-image"><HouseholdImage id={profile.image} alt={profile.imageAlt} sizes={preview ? '(min-width: 900px) 30vw, 100vw' : '(min-width: 900px) 44vw, 100vw'}/><span className="hc-profile-number">{profile.id.toUpperCase()} / Chef style</span></div><div className="hc-profile-copy"><p className="pc-eyebrow">Level {profile.level} · {band.name}</p><h3>{profile.title}</h3><p className="hc-profile-description">{profile.description}</p><p className="hc-profile-price-note">The service fee is quoted around your chef, schedule and responsibilities. <Link to="/full-time-private-chef-dubai#managed-pricing">View monthly service bands</Link>.</p><details><summary>Menu & household fit <Plus size={16} aria-hidden="true"/></summary><div className="hc-profile-more"><h4>At your table</h4><p>{profile.menu}</p><h4>A good fit for</h4><p>{profile.bestFor}</p><h4>Your arrangement</h4><p>{profile.arrangement} The final schedule and responsibilities are agreed around your home.</p></div></details><div className="hc-profile-actions"><Link className="pc-link" to={householdInquiryHref('/our-chefs', { level: band.id, profiles: [profile.id] })}>Find my match <ArrowUpRight size={16}/></Link>{!preview && <button type="button" className="hc-save" onClick={() => onToggle(profile.id)} aria-pressed={checked} aria-label={`${checked ? 'Remove' : 'Shortlist'} ${profile.title}`}>{checked ? <Check size={16}/> : <Plus size={16}/>}<span>{checked ? 'Shortlisted' : 'Shortlist'}</span></button>}</div></div></article>
+  return <article id={profile.id} className="hc-profile" key={profile.id}>
+    <div className="hc-profile-image">
+      <HouseholdPortrait id={profile.id} alt={profile.portraitAlt}/>
+      <span className="hc-profile-number">{profile.cuisine} · Level {profile.level}</span>
+    </div>
+    <div className="hc-profile-copy">
+      <p className="pc-eyebrow">{band.name}</p>
+      <h3>{profile.title}</h3>
+      <p className="hc-profile-focus">{band.focus}</p>
+      <p className="hc-profile-description">{profile.description}</p>
+      <p className="hc-profile-price-note">The service fee is quoted around your chef, schedule and responsibilities. <Link to="/full-time-private-chef-dubai#managed-pricing">View monthly service bands</Link>.</p>
+      <details>
+        <summary>Menu & household fit <Plus size={16} aria-hidden="true"/></summary>
+        <div className="hc-profile-more">
+          <HouseholdImage id={profile.image} alt={profile.imageAlt} sizes="(min-width: 1101px) 350px, (min-width: 701px) 40vw, 90vw"/>
+          <h4>At your table</h4><p>{profile.menu}</p>
+          <h4>A good fit for</h4><p>{profile.bestFor}</p>
+          <h4>Your arrangement</h4><p>{profile.arrangement} The final schedule and responsibilities are agreed around your home.</p>
+        </div>
+      </details>
+      <div className="hc-profile-actions">
+        <Link className="pc-link" to={householdInquiryHref('/our-chefs', { level: band.id, profiles: [profile.id] })}>Find my match <ArrowUpRight size={16}/></Link>
+        {!preview && <button type="button" className="hc-save" onClick={() => onToggle(profile.id)} aria-pressed={checked} aria-label={`${checked ? 'Remove' : 'Shortlist'} ${profile.title}`}>{checked ? <Check size={16}/> : <Plus size={16}/>}<span>{checked ? 'Shortlisted' : 'Shortlist'}</span></button>}
+      </div>
+    </div>
+  </article>
 })
 
 export default function HouseholdProfiles({ preview = false }: { preview?: boolean }) {
@@ -35,7 +61,8 @@ export default function HouseholdProfiles({ preview = false }: { preview?: boole
     ? householdProfiles.filter(p => ['hc01', 'hc11', 'hc24'].includes(p.id))
     : householdProfiles.filter(p => (level === 'all' || p.level === Number(level)) && (cuisine === 'all' || p.cuisine === cuisine)), [preview, level, cuisine])
   return <div>
-    <p className="pc-section-intro hc-directory-intro">Explore 25 cooking styles across five culinary levels to shape your brief. These are examples of cuisine and household roles. After your search is activated, we introduce suitable people, confirm availability and explain why each could be your match.</p>
+    <p className="pc-section-intro hc-directory-intro">Explore 25 chef styles across five culinary levels, from everyday family cooking to exceptional private dining. Shortlist the cooking and household experience that feel right for you.</p>
+    <p className="hc-portrait-context">These portraits illustrate chef styles. Your personal shortlist includes the actual chefs’ profiles, experience and confirmed availability. <Link to="/full-time-private-chef-dubai#managed-pricing">Explore the managed service and monthly fees</Link>.</p>
     {!preview && <div className="hc-filters"><label>Chef level<select value={level} onChange={e => setLevel(e.target.value)}><option value="all">All five levels</option>{householdLevels.map(l => <option key={l.id} value={l.number}>{l.name}</option>)}</select></label><label>Cooking style<select value={cuisine} onChange={e => setCuisine(e.target.value)}><option value="all">All cooking styles</option>{cuisines.map(c => <option key={c}>{c}</option>)}</select></label><p role="status">{visible.length} {visible.length === 1 ? 'profile' : 'profiles'} to explore</p><button type="button" className="pc-link" onClick={() => { setLevel('all'); setCuisine('all') }}>Reset filters</button></div>}
     {!preview && selected.length > 0 && <aside id="chef-shortlist" className="hc-shortlist" aria-label="Your chef shortlist"><div><p className="pc-eyebrow">Your shortlist · {selected.length}/3</p><ul>{selected.map(id => { const p = householdProfiles.find(item => item.id === id)!; return <li key={id}><span>{p.title}</span><button type="button" onClick={() => toggle(id)} aria-label={`Remove ${p.title} from shortlist`}><X size={16}/></button></li> })}</ul></div><Link className="pc-button" to={householdInquiryHref('/our-chefs', { profiles: selected })}>Send my shortlist <ArrowUpRight size={17}/></Link></aside>}
     {!preview && selected.length > 0 && <a href="#chef-shortlist" className="hc-shortlist-jump">Review shortlist ({selected.length}) <ArrowUpRight size={15}/></a>}

@@ -54,6 +54,7 @@
     "src/content/cateringDesign.json",
     "src/content/cateringPricing.ts",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
@@ -87,12 +88,13 @@
     "src/sections/StarterPackagesSection.tsx",
     "src/sections/TeamSection.tsx",
     "src/sections/TrustSection.tsx",
-    "src/styles/catering-editorial.css"
+    "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1321,
-    "current_word_count": 1382,
+    "current_word_count": 1381,
     "headings": [
       {
         "level": "h2",

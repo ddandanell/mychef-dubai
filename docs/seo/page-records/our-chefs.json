@@ -52,6 +52,7 @@
     "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdPortrait.tsx",
     "src/components/household/HouseholdProfiles.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
@@ -63,6 +64,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
@@ -83,12 +85,13 @@
     "src/lib/utils.ts",
     "src/lib/whatsapp.ts",
     "src/pages/OurChefs.tsx",
-    "src/styles/catering-editorial.css"
+    "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 5084,
+    "current_word_count": 5135,
     "headings": [
       {
         "level": "h2",

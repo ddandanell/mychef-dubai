@@ -60,6 +60,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/householdServices.ts",
@@ -82,12 +83,13 @@
     "src/lib/whatsapp.ts",
     "src/pages/WeeklyMealPrep.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2215,
+    "current_word_count": 2231,
     "headings": [
       {
         "level": "h2",

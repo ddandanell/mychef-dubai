@@ -61,11 +61,15 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 221,
-    "current_word_count": 533,
+    "current_word_count": 529,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Household chef or event catering: which arrangement do you need?"
       },
       {
         "level": "h3",
@@ -94,10 +98,6 @@
       {
         "level": "h3",
         "text": "Best Private Chefs for Villas in Dubai: What to Compare"
-      },
-      {
-        "level": "h3",
-        "text": "Best Private Chef in Dubai for Home Dining (2026)"
       },
       {
         "level": "h3",

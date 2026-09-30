@@ -12,5 +12,6 @@ export interface HouseholdProfile {
   arrangement: string
   image: string
   imageAlt: string
+  portraitAlt: string
 }
 export const householdProfiles: HouseholdProfile[] = profiles

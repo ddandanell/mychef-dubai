@@ -65,7 +65,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1431,
-    "current_word_count": 2782,
+    "current_word_count": 2778,
     "headings": [
       {
         "level": "h2",
@@ -102,6 +102,10 @@
       {
         "level": "h2",
         "text": "Insights for Dubai Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Household chef or event catering: which arrangement do you need?"
       },
       {
         "level": "h3",
@@ -294,10 +298,6 @@
       {
         "level": "h3",
         "text": "Best Wedding Catering Companies in Dubai: What to Compare"
-      },
-      {
-        "level": "h3",
-        "text": "Best Private Chef in Dubai for Home Dining (2026)"
       },
       {
         "level": "h3",

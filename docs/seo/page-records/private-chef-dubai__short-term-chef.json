@@ -6,7 +6,7 @@
   "role": "indexable page",
   "page_type": "Commercial landing",
   "silo": "Private Chef",
-  "purpose": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home.",
+  "purpose": "Short-term private chef in Dubai from AED 1,125 a visit, minimum three chef days. Menus planned around your home. Groceries and VAT separate.",
   "keywords": {
     "primary": "short term private chef dubai",
     "secondary": [
@@ -22,7 +22,7 @@
   },
   "metadata": {
     "title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
-    "description": "Book a short-term private chef in Dubai for a few hours, cooking days or a holiday stay. Chef visits from AED 750, with menus shaped around your home.",
+    "description": "Short-term private chef in Dubai from AED 1,125 a visit, minimum three chef days. Menus planned around your home. Groceries and VAT separate.",
     "h1": [
       "Short Term Private Chef Dubai. For the time you need."
     ]
@@ -53,6 +53,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/householdChefs.ts",
+    "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
@@ -76,12 +77,13 @@
     "src/lib/whatsapp.ts",
     "src/pages/household/ShortTermChef.tsx",
     "src/styles/catering-editorial.css",
+    "src/styles/managed-household.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 759,
+    "current_word_count": 852,
     "headings": [
       {
         "level": "h2",
@@ -89,7 +91,7 @@
       },
       {
         "level": "h3",
-        "text": "A few hours"
+        "text": "A few hours each visit"
       },
       {
         "level": "h3",
@@ -105,7 +107,7 @@
       },
       {
         "level": "h2",
-        "text": "Chef visits from AED 750."
+        "text": "Short-stay chef visits from AED 1,125."
       },
       {
         "level": "h3",
@@ -129,15 +131,11 @@
       },
       {
         "level": "h3",
-        "text": "Tell us about your home"
+        "text": "Tell us the essentials"
       },
       {
         "level": "h3",
-        "text": "Meet a suitable chef"
-      },
-      {
-        "level": "h3",
-        "text": "Agree the menu and details"
+        "text": "Review your chef and written plan"
       },
       {
         "level": "h3",
@@ -145,7 +143,7 @@
       },
       {
         "level": "h3",
-        "text": "Refine it together"
+        "text": "Keep the food right for you"
       },
       {
         "level": "h2",

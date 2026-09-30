@@ -1,0 +1,306 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Visual chef-style examples, not named candidate identities. Tier differences are shown through culinary setting and presentation, not demographic ranking.",
+  "portraits": [
+    {
+      "id": "hc01",
+      "title": "Everyday Family Chef",
+      "level": 1,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late thirties with fair freckled skin, brown hair secured in a neat low bun and a warm, assured smile. Crisp ivory chef jacket and a practical stone-coloured apron. She stands comfortably beside a tidy pale-oak family kitchen island, with a softly blurred roast chicken platter, carrots and fresh herbs at one side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-2a4c94b8-20a5-4124-9942-5bfc6cb8a541.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc01-360.webp",
+        "public/images/household-chefs/portraits/hc01-600.webp",
+        "public/images/household-chefs/portraits/hc01-960.webp"
+      ]
+    },
+    {
+      "id": "hc02",
+      "title": "North Indian Home Cooking Chef",
+      "level": 1,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early forties with medium-brown skin, short black hair, a neat moustache and an approachable, calm expression. Immaculate white chef jacket, dark sage apron. In a bright residential kitchen, a small neat stack of chapati, brass bowl of dal and seasonal vegetables appear softly out of focus beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-65d63c8a-17c3-4908-9c08-382142906795.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc02-360.webp",
+        "public/images/household-chefs/portraits/hc02-600.webp",
+        "public/images/household-chefs/portraits/hc02-960.webp"
+      ]
+    },
+    {
+      "id": "hc03",
+      "title": "Levantine Family Chef",
+      "level": 1,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her early forties with olive skin, dark hair in a secure bun and a friendly, composed expression. White professional chef coat and warm grey apron. Bright residential kitchen; one modest bowl of fattoush, flatbread and parsley sit softly blurred on the counter at her side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-bdc2ae53-799b-4e23-9b54-20b27060228b.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc03-360.webp",
+        "public/images/household-chefs/portraits/hc03-600.webp",
+        "public/images/household-chefs/portraits/hc03-960.webp"
+      ]
+    },
+    {
+      "id": "hc04",
+      "title": "South Indian Vegetarian Chef",
+      "level": 1,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his late thirties with deep-brown skin, short textured hair, clean-shaven face and a relaxed confident smile. Clean ivory chef jacket and taupe apron. A sunlit residential kitchen with a small plate of idli, a bowl of sambar and curry leaves softly out of focus at one side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-11450356-b470-48e5-aee1-1e57c9b15ecc.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc04-360.webp",
+        "public/images/household-chefs/portraits/hc04-600.webp",
+        "public/images/household-chefs/portraits/hc04-960.webp"
+      ]
+    },
+    {
+      "id": "hc05",
+      "title": "Asian Everyday Cooking Chef",
+      "level": 1,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his mid-thirties with light-medium skin, short black hair, soft facial features and a friendly understated smile. White chef jacket with a slate apron. In an airy home kitchen, a ceramic noodle bowl, ginger and spring onions are softly blurred at the edge of the kitchen island.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-ceaeeee7-bf1f-42a6-9d35-09e2345eb02e.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc05-360.webp",
+        "public/images/household-chefs/portraits/hc05-600.webp",
+        "public/images/household-chefs/portraits/hc05-960.webp"
+      ]
+    },
+    {
+      "id": "hc06",
+      "title": "Mediterranean Household Chef",
+      "level": 2,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early forties with light olive skin, wavy dark hair, short neat beard and easy confident smile. Crisp pale-grey chef jacket with a clean olive apron. An airy stone-and-oak villa kitchen, olive oil, lemons and a plate of grilled vegetables softly blurred beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-1a73b35a-21ee-4c41-8935-805b4209a4db.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc06-360.webp",
+        "public/images/household-chefs/portraits/hc06-600.webp",
+        "public/images/household-chefs/portraits/hc06-960.webp"
+      ]
+    },
+    {
+      "id": "hc07",
+      "title": "Indian Vegetarian Specialist",
+      "level": 2,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late thirties with brown skin, dark hair secured in a bun and a composed approachable smile. Tailored ivory chef coat and muted sage apron. A well-organised residential kitchen with paneer, colourful seasonal vegetables and small ingredient bowls discreetly blurred at her side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-82dcc174-880b-4d95-87b1-28a7ff558145.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc07-360.webp",
+        "public/images/household-chefs/portraits/hc07-600.webp",
+        "public/images/household-chefs/portraits/hc07-960.webp"
+      ]
+    },
+    {
+      "id": "hc08",
+      "title": "British and European Family Chef",
+      "level": 2,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early forties with fair skin, short sandy hair, natural smile lines and a relaxed smile. Crisp white chef coat and warm grey apron. Refined yet lived-in family kitchen, a small casserole dish, roasted vegetables and a folded tea towel softly blurred in the background.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-f56bfd43-a937-4f8a-8a2b-0473157b44d6.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc08-360.webp",
+        "public/images/household-chefs/portraits/hc08-600.webp",
+        "public/images/household-chefs/portraits/hc08-960.webp"
+      ]
+    },
+    {
+      "id": "hc09",
+      "title": "Thai and Southeast Asian Chef",
+      "level": 2,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late thirties with light-brown skin, straight dark hair securely tied back and a confident friendly expression. White chef jacket and stone-coloured apron. A polished residential kitchen with small bowls of Thai basil, lemongrass and a beautifully prepared coconut curry subtly blurred beside her.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-c3f796f9-3eaa-42c1-a85b-21e5e179a2f0.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc09-360.webp",
+        "public/images/household-chefs/portraits/hc09-600.webp",
+        "public/images/household-chefs/portraits/hc09-960.webp"
+      ]
+    },
+    {
+      "id": "hc10",
+      "title": "Plant Forward Family Chef",
+      "level": 2,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her early forties with dark skin, textured black hair secured in a neat low bun and an open confident smile. Crisp cream chef jacket and deep sage apron. Bright contemporary home kitchen with colourful roast vegetables and a grain bowl, clean preparation and calm everyday elegance.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-aa158ee9-ebc2-409f-b040-b5f4644a08b7.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc10-360.webp",
+        "public/images/household-chefs/portraits/hc10-600.webp",
+        "public/images/household-chefs/portraits/hc10-960.webp"
+      ]
+    },
+    {
+      "id": "hc11",
+      "title": "Arabic Household and Majlis Chef",
+      "level": 3,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his late forties with olive-brown skin, cropped salt-and-pepper hair and a short meticulously groomed beard, poised welcoming expression. Beautifully fitted white chef coat and charcoal apron. Spacious private villa kitchen with an elegant brass serving dish of aromatic rice and restrained mezze softly blurred beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-d955fd17-20fb-4363-ae16-3c0e68ca21f0.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc11-360.webp",
+        "public/images/household-chefs/portraits/hc11-600.webp",
+        "public/images/household-chefs/portraits/hc11-960.webp"
+      ]
+    },
+    {
+      "id": "hc12",
+      "title": "Performance Meal Planning Chef",
+      "level": 3,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her mid-forties with fair skin, a SHORT COPPER-RED PIXIE haircut, a broad square face, light green eyes, fine natural smile lines and a modest closed-mouth smile. Distinctive and recognisable, not model-like. No bun or ponytail. Structured pale-grey chef coat with slate apron. Organised premium residential kitchen; ceramic bowls of measured grilled chicken, rice and vegetables plus a small kitchen scale are out of focus at the edge, no fitness poses or medical props.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-21493a9a-efa7-4bbf-8ec9-ca3e3feed25a.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc12-360.webp",
+        "public/images/household-chefs/portraits/hc12-600.webp",
+        "public/images/household-chefs/portraits/hc12-960.webp"
+      ]
+    },
+    {
+      "id": "hc13",
+      "title": "Japanese Contemporary Home Chef",
+      "level": 3,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her early forties with light-medium skin, black hair securely pinned back and a gentle composed expression. Immaculate white chef jacket and indigo apron. Refined contemporary home kitchen with blond wood, a ceramic rice bowl, miso-glazed cooked fish and a small bowl of green vegetables softly blurred to one side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-42cb1398-668d-4e14-8903-7da225972a93.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc13-360.webp",
+        "public/images/household-chefs/portraits/hc13-600.webp",
+        "public/images/household-chefs/portraits/hc13-960.webp"
+      ]
+    },
+    {
+      "id": "hc14",
+      "title": "Italian Artisan Household Chef",
+      "level": 3,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his late forties with olive skin and a COMPLETELY BALD HEAD, broad round face, dark thick eyebrows, simple thin round spectacles and a clean-shaven face. A solid, naturally stocky build and warm quietly confident smile. No beard or curly hair. White chef jacket with a clean charcoal apron. Premium residential kitchen, a wooden board of neatly arranged fresh ravioli and a basil plant softly blurred at his side; no flour-covered clothing.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-7b0dab1f-dceb-4d76-b76e-dde9851dd1dc.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc14-360.webp",
+        "public/images/household-chefs/portraits/hc14-600.webp",
+        "public/images/household-chefs/portraits/hc14-960.webp"
+      ]
+    },
+    {
+      "id": "hc15",
+      "title": "Multicuisine Family Kitchen Chef",
+      "level": 3,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early forties with dark-brown skin, close-cropped black hair and a neatly groomed short beard. Calm, reassuring expression. Crisp white chef jacket and taupe apron. Airy well-organised villa kitchen with a compact selection of family-style dishes and fresh ingredients softly blurred, communicating capable daily kitchen leadership.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-28f7f01d-1348-47f0-b325-5f1bfeef1db5.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc15-360.webp",
+        "public/images/household-chefs/portraits/hc15-600.webp",
+        "public/images/household-chefs/portraits/hc15-960.webp"
+      ]
+    },
+    {
+      "id": "hc16",
+      "title": "French Contemporary Private Chef",
+      "level": 4,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late forties with olive skin, short dark hair brushed neatly back and a poised natural expression. Impeccably tailored white chef jacket, restrained charcoal apron. Refined limestone-and-walnut private kitchen with a small precisely plated seabass dish and a copper saucepan softly blurred at the side. Understated senior professional presence.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-80558661-e351-4766-a417-8e44249bc1cb.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc16-360.webp",
+        "public/images/household-chefs/portraits/hc16-600.webp",
+        "public/images/household-chefs/portraits/hc16-960.webp"
+      ]
+    },
+    {
+      "id": "hc17",
+      "title": "Chinese Regional Private Chef",
+      "level": 4,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his late forties with light-medium skin, neatly trimmed black hair with silver temples and a calm confident smile. Tailored ivory chef jacket and charcoal apron. Premium private kitchen with a bamboo steamer, elegant cooked fish dish and clean ingredient station softly blurred beside him, with no flames or exaggerated action.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-541949d0-8db1-4870-adef-bed3b88e1a6a.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc17-360.webp",
+        "public/images/household-chefs/portraits/hc17-600.webp",
+        "public/images/household-chefs/portraits/hc17-960.webp"
+      ]
+    },
+    {
+      "id": "hc18",
+      "title": "Modern Indian Private Chef",
+      "level": 4,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his mid-forties with warm brown skin, well-groomed short dark hair, a neat short beard and a quietly assured expression. Beautifully tailored ivory chef coat, no apron. Refined villa kitchen with a contemporary plated tandoori fish dish and a small arrangement of spices blurred beside him. Polished contemporary professional presence.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-9c262780-3381-4931-ab78-305af7afc07a.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc18-360.webp",
+        "public/images/household-chefs/portraits/hc18-600.webp",
+        "public/images/household-chefs/portraits/hc18-960.webp"
+      ]
+    },
+    {
+      "id": "hc19",
+      "title": "Premium Plant Based Private Chef",
+      "level": 4,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her mid-forties with very deep-brown skin, VERY SHORT CLOSE-CROPPED natural black hair, a long angular face, high cheekbones, wide-set eyes and a composed closed-mouth smile. No bun and no long hair. Tailored pearl-grey chef coat and charcoal apron. Sophisticated private kitchen with sculptural seasonal vegetables and one beautifully plated vegetable dish softly out of focus at her side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-2c4fc96c-2a21-48c3-a51d-a1520c45785c.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc19-360.webp",
+        "public/images/household-chefs/portraits/hc19-600.webp",
+        "public/images/household-chefs/portraits/hc19-960.webp"
+      ]
+    },
+    {
+      "id": "hc20",
+      "title": "Latin and Mediterranean Private Chef",
+      "level": 4,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early forties with medium tan skin, STRAIGHT BLACK HAIR closely cut at the sides with a precise side part, a broad rectangular face, a prominent straight nose and a CLEAN-SHAVEN face. A solid build, warm confident smile and natural skin texture. No curls, moustache or beard. Crisp off-white chef jacket and slate apron. Elegant contemporary villa kitchen opening softly to a terrace, with grilled fish, peppers and citrus discreetly blurred on the island beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-4be0263a-6c62-4c35-8429-29d327252780.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc20-360.webp",
+        "public/images/household-chefs/portraits/hc20-600.webp",
+        "public/images/household-chefs/portraits/hc20-960.webp"
+      ]
+    },
+    {
+      "id": "hc21",
+      "title": "Executive Estate Chef",
+      "level": 5,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early fifties with deep-brown skin, very short salt-and-pepper hair and a meticulously groomed beard. Strong calm presence with a small welcoming smile. Impeccable white executive chef jacket with no logos, no medals and no apron. Beautifully ordered large private estate kitchen in warm stone and walnut; one refined plated course and a closed plain menu notebook softly blurred beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-ce4b52e6-e76d-45c8-bd8c-ad04f972aede.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc21-360.webp",
+        "public/images/household-chefs/portraits/hc21-600.webp",
+        "public/images/household-chefs/portraits/hc21-960.webp"
+      ]
+    },
+    {
+      "id": "hc22",
+      "title": "Travelling Residence Chef",
+      "level": 5,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late forties with medium-brown skin, dark hair touched with grey secured in a neat bun and a quietly confident natural expression. Tailored ivory chef jacket with discreet charcoal detailing, no apron. Sunlit high-end private villa kitchen with subtle sea and garden light beyond a window, one restrained seasonal breakfast plate softly blurred; no luggage, passport, logos or travel clichés.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-cf7043ea-b600-41fb-b8cc-96033320bc7b.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc22-360.webp",
+        "public/images/household-chefs/portraits/hc22-600.webp",
+        "public/images/household-chefs/portraits/hc22-960.webp"
+      ]
+    },
+    {
+      "id": "hc23",
+      "title": "Japanese Fine Dining Private Chef",
+      "level": 5,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his early fifties with light-medium skin, neatly cropped salt-and-pepper hair, clean-shaven face and a composed understated smile. Impeccably fitted ivory chef jacket with a simple clean collar, no apron. Minimalist walnut-and-stone private kitchen with one delicate cooked seasonal Japanese course on handmade ceramic softly blurred beside him. Quiet mastery, no costume or oversized hat.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-8eb1ba5d-0be7-4fa8-951c-fbdc9d214ec0.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc23-360.webp",
+        "public/images/household-chefs/portraits/hc23-600.webp",
+        "public/images/household-chefs/portraits/hc23-960.webp"
+      ]
+    },
+    {
+      "id": "hc24",
+      "title": "European Tasting Menu Chef",
+      "level": 5,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A woman chef in her late forties with fair skin, natural smile lines, dark-blonde hair neatly swept into a low bun and a composed warm expression. Exceptionally tailored white executive chef jacket, no apron or badges. Refined private kitchen with a delicate contemporary fish tasting course and a tiny seasonal dessert softly blurred on a stone counter at her side.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-565ffdd5-c620-4a13-b156-ba44bbbf4db3.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc24-360.webp",
+        "public/images/household-chefs/portraits/hc24-600.webp",
+        "public/images/household-chefs/portraits/hc24-960.webp"
+      ]
+    },
+    {
+      "id": "hc25",
+      "title": "Principal and Entertaining Chef",
+      "level": 5,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original chef-style portrait for the myCHEF household chef website catalogue, not a named real staff member.\nCreate ONE photorealistic editorial portrait, vertical 4:5 composition. One chef only, looking at the camera, framed from mid-thigh to a little above the head, subject centred, head fully visible with generous breathing room and face large enough to recognise at card size. Body turned very slightly, hands resting naturally at waist or at the counter with believable anatomy. No crossed arms. Keep any food secondary and lower in the frame.\nSubject and setting: A man chef in his late forties with brown skin, short black hair with silver at the temples, a neatly groomed moustache and short beard. A warm yet discreet and assured expression. Impeccably tailored pearl-grey executive chef jacket, no apron. Elegant estate kitchen with a glimpse of an understated dining room, a refined plated course and plain closed notebook softly blurred beside him.\nArt direction: a coherent premium hospitality portrait series. Soft window daylight from the left, restrained warm ivory, sage, stone and walnut palette, eye-level 70mm environmental portrait, natural proportions and realistic skin texture, subtle imperfections, refined editorial photography. A real working professional rather than a fashion model. High quality and dignity at every culinary level. Kitchen kept hygienic and uncluttered, no guests, no other people. Background gently out of focus. The chef's expression, uniform, face and eyes are the hero.\nAvoid text, names, logos, badges, stars, medals, certifications, watermarks, celebrity likeness, oversized chef hats, excessive retouching, luxury jewellery, dramatic theatrical poses, extra fingers, extra people, collages or inset pictures. This is a single complete photograph.",
+      "original_path": "/workspace/scratch/1be6f8c67d5f/generated_images/exec-62bbf97a-8556-4a40-be82-5d6c7a0545cf.png",
+      "production_files": [
+        "public/images/household-chefs/portraits/hc25-360.webp",
+        "public/images/household-chefs/portraits/hc25-600.webp",
+        "public/images/household-chefs/portraits/hc25-960.webp"
+      ]
+    }
+  ]
+}
