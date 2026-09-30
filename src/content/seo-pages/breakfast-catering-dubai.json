@@ -31,8 +31,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Breakfast Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Breakfast catering in Dubai from AED 90pp drop-off, AED 120pp staffed buffet, AED 150pp live stations. Platters, finger food and office breakfasts, itemised quotes.",
+  "title": "Breakfast Catering Dubai | Offices & Private Homes | myCHEF",
+  "meta_description": "Breakfast catering in Dubai for offices, villas and morning events. Plan pastries, fruit, hot dishes and coffee with delivery or staffed service quoted.",
   "h1": "Breakfast Catering in Dubai — Real Prices, Menus and Timings"
  },
  "opening_paragraph": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/christmas-catering-dubai",
   "path": "/christmas-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/christmas-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Christmas Catering Dubai | myCHEF",
-    "description": "Christmas catering Dubai: a private chef cooks Christmas dinner at home. British, French, Italian, German, Russian, Swiss & American menus.",
+    "title": "Christmas Catering Dubai | Christmas Dinner at Home | myCHEF",
+    "description": "Christmas catering in Dubai for lunch or dinner at home. Plan roast dishes, seasonal sides and desserts, with private chefs, staff and optional décor quoted.",
     "h1": [
       "Christmas Catering Dubai: Private Chefs & Christmas Dinner at Home"
     ]
@@ -62,6 +62,7 @@
     "src/content/christmasWork.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -78,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3988,
-    "current_word_count": 4634,
+    "current_word_count": 4659,
     "headings": [
       {
         "level": "h2",
@@ -334,7 +335,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan around the occasion and the date"
+        "text": "Plan Christmas around the time you want to sit down"
       },
       {
         "level": "h2",
@@ -362,7 +363,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

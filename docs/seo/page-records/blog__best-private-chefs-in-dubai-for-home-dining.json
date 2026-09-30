@@ -1,38 +1,35 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
   "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
-  "role": "redirect",
+  "role": "indexable page",
   "page_type": "Blog post",
   "silo": "Blog and Guides",
-  "purpose": "Redirect visitors to /private-chef-dubai",
+  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
     "primary": null,
     "secondary": [],
     "primary_owner": null,
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Private Chef in Dubai for Home Dining (2026)",
+    "title": "Best Private Chef in Dubai for Home Dining (2026) | myCHEF",
     "description": "myCHEF's vetted, halal-first chefs are Dubai's best private chef option for home dining in 2026 — compare formats, pros, cons, and who each suits best.",
     "h1": [
       "Best Private Chef in Dubai for Home Dining (2026)"
     ]
   },
-  "metadata_source": "SEO contract; alias or route not prerendered",
+  "metadata_source": "local production prerender",
   "indexation": {
-    "canonical": "https://www.mychef.ae/private-chef-dubai",
-    "robots": {
-      "index": false,
-      "follow": true
-    },
-    "in_sitemap": false,
-    "redirect_to": "/private-chef-dubai"
+    "canonical": "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
   },
   "source_files": [
     "blog/data/best-private-chefs-in-dubai-for-home-dining.json",
@@ -53,6 +50,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-chefs-in-dubai-for-home-dining.json",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -67,12 +65,81 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2779,
-    "current_word_count": null,
-    "headings": [],
+    "current_word_count": 1933,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why this matters"
+      },
+      {
+        "level": "h2",
+        "text": "What makes the best private chef in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Private chefs in Dubai at a glance"
+      },
+      {
+        "level": "h3",
+        "text": "1. myCHEF vetted private chef: best private chef in Dubai for halal-first home dining"
+      },
+      {
+        "level": "h3",
+        "text": "2. myCHEF weekly meal prep chef: best private chef in Dubai for recurring family meals"
+      },
+      {
+        "level": "h3",
+        "text": "3. myCHEF dinner party chef: best private chef in Dubai for small at-home celebrations"
+      },
+      {
+        "level": "h3",
+        "text": "4. Independent freelance chef: best budget option for occasional home cooking"
+      },
+      {
+        "level": "h3",
+        "text": "5. Hotel/restaurant private dining chef: best private chef in Dubai for formal fine dining at home"
+      },
+      {
+        "level": "h2",
+        "text": "How we ranked"
+      },
+      {
+        "level": "h2",
+        "text": "Which private chef should you choose in 2026?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One last thing"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Best Cozymeal alternatives for private dining in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Kitchen Preparation in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan a private chef with myCHEF"
+      }
+    ],
     "baseline_findings": [
       "F11"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {
@@ -86,7 +153,7 @@
         "anchor": "Guides"
       },
       {
-        "url": "/private-chef-dubai",
+        "url": "/blog/best-private-chefs-in-dubai-for-home-dining",
         "anchor": "Best Private Chef in Dubai for Home Dining (2026)",
         "current": true
       }

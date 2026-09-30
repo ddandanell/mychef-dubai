@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog/brunch-at-home-dubai",
   "path": "/blog/brunch-at-home-dubai",
   "role": "indexable page",
@@ -22,7 +22,7 @@
     "primary_owner": "/blog/brunch-at-home-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
@@ -61,6 +61,7 @@
     "src/content/seo-pages/blog-brunch-at-home-dubai.json",
     "src/content/seo/index.ts",
     "src/content/seo/routes.json",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -73,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2938,
-    "current_word_count": 739,
+    "current_word_count": 703,
     "headings": [
       {
         "level": "h2",
@@ -105,15 +106,15 @@
       },
       {
         "level": "h3",
-        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+        "text": "Smart Catering alternatives in 2026"
       },
       {
         "level": "h3",
-        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
+        "text": "Take A Chef alternatives in 2026"
       },
       {
         "level": "h3",
-        "text": "Best Arabic Catering Companies Dubai: What to Compare"
+        "text": "CateringDubai.ae alternatives in 2026"
       },
       {
         "level": "h2",
@@ -125,7 +126,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

@@ -1911,6 +1911,32 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How your plan works"
   }
  ],
+ "/private-chef-dubai/live-in-chef": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/private-chef-dubai",
+   "label": "Private chef"
+  },
+  {
+   "label": "Live-in chef"
+  }
+ ],
+ "/private-chef-dubai/live-out-chef": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/private-chef-dubai",
+   "label": "Private chef"
+  },
+  {
+   "label": "Daily live-out chef"
+  }
+ ],
  "/private-chef-dubai/our-chefs": [
   {
    "href": "/",
@@ -1961,6 +1987,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Quality training"
+  }
+ ],
+ "/private-chef-dubai/short-term-chef": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/private-chef-dubai",
+   "label": "Private chef"
+  },
+  {
+   "label": "Short-term chef"
   }
  ],
  "/private-chef-vs-catering-dubai": [
@@ -2490,10 +2529,13 @@ export const HERO_ROUTES: string[] = [
  "/private-chef-dubai",
  "/private-chef-dubai/how-it-works",
  "/private-chef-dubai/how-your-plan-works",
+ "/private-chef-dubai/live-in-chef",
+ "/private-chef-dubai/live-out-chef",
  "/private-chef-dubai/our-chefs",
  "/private-chef-dubai/pricing",
  "/private-chef-dubai/privacy-security",
  "/private-chef-dubai/quality-training",
+ "/private-chef-dubai/short-term-chef",
  "/private-chef-vs-catering-dubai",
  "/private-client-booking-terms",
  "/private-cooking-classes-dubai",
@@ -3188,6 +3230,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "How your plan works"
   },
   {
+   "href": "/private-chef-dubai/live-in-chef",
+   "label": "Live-in chef"
+  },
+  {
+   "href": "/private-chef-dubai/live-out-chef",
+   "label": "Daily live-out chef"
+  },
+  {
    "href": "/private-chef-dubai/our-chefs",
    "label": "Our chefs"
   },
@@ -3202,6 +3252,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/private-chef-dubai/quality-training",
    "label": "Quality training"
+  },
+  {
+   "href": "/private-chef-dubai/short-term-chef",
+   "label": "Short-term chef"
   },
   {
    "href": "/villas-private-residences",

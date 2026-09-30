@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/menus",
   "path": "/menus",
   "role": "indexable page",
@@ -24,13 +24,13 @@
     "primary_owner": "/menus",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Catering Menus Dubai | Samples Then a Quote | myCHEF",
-    "description": "Catering menus Dubai start as samples. Tell us the occasion and the kitchen. We rewrite the menu, match a chef and send an itemised quote.",
+    "title": "Catering Menus Dubai | Sample Dishes & Service Styles | myCHEF",
+    "description": "Explore catering menus in Dubai for canapés, buffets, sharing meals and private dinners. Choose a direction, then tailor dishes and service to your occasion.",
     "h1": [
       "Catering Menus Dubai"
     ]
@@ -59,6 +59,7 @@
     "src/content/cateringPricing.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/starterPackages.ts",
@@ -79,7 +80,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1010,
-    "current_word_count": 1636,
+    "current_word_count": 1648,
     "headings": [
       {
         "level": "h2",
@@ -181,7 +182,7 @@
     "baseline_findings": [
       "F02"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

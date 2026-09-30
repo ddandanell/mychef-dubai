@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog/three-hour-yacht-party-food-timeline-dubai",
   "path": "/blog/three-hour-yacht-party-food-timeline-dubai",
   "role": "indexable page",
@@ -13,12 +13,12 @@
     "primary_owner": "/blog/three-hour-yacht-party-food-timeline-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "A Yacht Party Food Timeline for Three Hours in Dubai | myCHEF",
+    "title": "Three-Hour Yacht Party Food Timeline in Dubai | myCHEF",
     "description": "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes.",
     "h1": [
       "A Yacht Party Food Timeline for Three Hours in Dubai"
@@ -50,6 +50,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/three-hour-yacht-party-food-timeline-dubai.json",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -64,7 +65,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2226,
+    "current_word_count": 2262,
     "headings": [
       {
         "level": "h2",
@@ -128,11 +129,11 @@
       },
       {
         "level": "h2",
-        "text": "Plan it with myCHEF"
+        "text": "Plan yacht catering with myCHEF"
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

@@ -22,7 +22,7 @@ const guides = [
     icon: ClipboardList,
   },
   {
-    slug: '/yacht-catering-checklist-dubai',
+    slug: '/yachts',
     title: 'Yacht Catering Checklist',
     description: 'A printable week-by-week checklist for catering on a Dubai yacht.',
     icon: Anchor,

@@ -1,0 +1,4153 @@
+{
+  "/about": [
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    }
+  ],
+  "/afternoon-tea-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "brunch catering",
+        "brunch at home"
+      ],
+      "href": "/brunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "dessert display",
+        "dessert table"
+      ],
+      "href": "/dessert-table-catering-dubai"
+    }
+  ],
+  "/allergy-safe-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    }
+  ],
+  "/apartment-private-dining-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/arabic-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "Mediterranean catering",
+        "Mediterranean menu"
+      ],
+      "href": "/mediterranean-catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/baby-shower-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "birthday celebration",
+        "birthday catering",
+        "birthday party"
+      ],
+      "href": "/birthday-catering-dubai"
+    },
+    {
+      "phrases": [
+        "dessert display",
+        "dessert table"
+      ],
+      "href": "/dessert-table-catering-dubai"
+    },
+    {
+      "phrases": [
+        "grazing tables",
+        "grazing table"
+      ],
+      "href": "/grazing-table-dubai"
+    }
+  ],
+  "/bar-services-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "cocktail party catering",
+        "cocktail reception",
+        "standing reception"
+      ],
+      "href": "/cocktail-party-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    }
+  ],
+  "/bbq-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "holiday villa chef",
+        "villa chef"
+      ],
+      "href": "/villas-private-residences"
+    }
+  ],
+  "/become-a-mychef": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    }
+  ],
+  "/best-catering-companies-dubai": [
+    {
+      "phrases": [
+        "how to choose a caterer",
+        "compare caterers"
+      ],
+      "href": "/how-to-choose-caterer-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    }
+  ],
+  "/booking-protection-insurance": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/brand-activation-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/breakfast-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "brunch catering",
+        "brunch at home"
+      ],
+      "href": "/brunch-catering-dubai"
+    }
+  ],
+  "/brunch-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "breakfast catering",
+        "breakfast delivery",
+        "office breakfast"
+      ],
+      "href": "/breakfast-catering-dubai"
+    }
+  ],
+  "/buffet-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "grazing tables",
+        "grazing table"
+      ],
+      "href": "/grazing-table-dubai"
+    }
+  ],
+  "/buffet-vs-plated-dubai": [
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "buffet catering",
+        "staffed buffet",
+        "buffet service"
+      ],
+      "href": "/buffet-catering-dubai"
+    }
+  ],
+  "/business-lunch-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "conference catering",
+        "conference menus"
+      ],
+      "href": "/conference-catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/canape-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "cocktail party catering",
+        "cocktail reception",
+        "standing reception"
+      ],
+      "href": "/cocktail-party-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "buffet catering",
+        "staffed buffet",
+        "buffet service"
+      ],
+      "href": "/buffet-catering-dubai"
+    },
+    {
+      "phrases": [
+        "grazing tables",
+        "grazing table"
+      ],
+      "href": "/grazing-table-dubai"
+    }
+  ],
+  "/case-studies": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/catering-cost-calculator-dubai": [
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "cocktail party catering",
+        "cocktail reception",
+        "standing reception"
+      ],
+      "href": "/cocktail-party-catering-dubai"
+    },
+    {
+      "phrases": [
+        "how to choose a caterer",
+        "compare caterers"
+      ],
+      "href": "/how-to-choose-caterer-dubai"
+    },
+    {
+      "phrases": [
+        "compare catering quotes"
+      ],
+      "href": "/blog/compare-catering-quotes-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "barbecue catering",
+        "BBQ catering",
+        "live grill"
+      ],
+      "href": "/bbq-catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    },
+    {
+      "phrases": [
+        "canapé catering",
+        "canape catering",
+        "passed canapés",
+        "finger food",
+        "canapé menu"
+      ],
+      "href": "/canape-catering-dubai"
+    },
+    {
+      "phrases": [
+        "buffet catering",
+        "staffed buffet",
+        "buffet service"
+      ],
+      "href": "/buffet-catering-dubai"
+    },
+    {
+      "phrases": [
+        "dessert display",
+        "dessert table"
+      ],
+      "href": "/dessert-table-catering-dubai"
+    },
+    {
+      "phrases": [
+        "grazing tables",
+        "grazing table"
+      ],
+      "href": "/grazing-table-dubai"
+    },
+    {
+      "phrases": [
+        "drinks service",
+        "bar services",
+        "bar service",
+        "mobile bar"
+      ],
+      "href": "/bar-services-dubai"
+    }
+  ],
+  "/catering-packages-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "compare catering quotes"
+      ],
+      "href": "/blog/compare-catering-quotes-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    }
+  ],
+  "/chef-training-academy": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    }
+  ],
+  "/chefs-table-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "private cooking classes",
+        "private cooking class",
+        "cooking lesson"
+      ],
+      "href": "/private-cooking-classes-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/chefs/ahmed-executive-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/chefs/layla-middle-eastern-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "Arabic catering",
+        "Arabic menu"
+      ],
+      "href": "/arabic-catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/chefs/marco-italian-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "Italian catering",
+        "Italian menu"
+      ],
+      "href": "/italian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/chefs/matteo-pastry-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "dessert display",
+        "dessert table"
+      ],
+      "href": "/dessert-table-catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/christmas-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "New Year catering",
+        "New Year's Eve",
+        "New Year’s Eve"
+      ],
+      "href": "/new-year-catering-dubai"
+    }
+  ],
+  "/cocktail-party-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "drinks service",
+        "bar services",
+        "bar service",
+        "mobile bar"
+      ],
+      "href": "/bar-services-dubai"
+    }
+  ],
+  "/conference-catering-dubai": [
+    {
+      "phrases": [
+        "corporate event catering",
+        "company celebration",
+        "company events"
+      ],
+      "href": "/corporate-event-catering-dubai"
+    },
+    {
+      "phrases": [
+        "business lunch catering",
+        "boardroom lunch",
+        "business lunch",
+        "client lunch"
+      ],
+      "href": "/business-lunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/contact": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/corporate": [
+    {
+      "phrases": [
+        "corporate catering checklist"
+      ],
+      "href": "/corporate-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "corporate event catering",
+        "company celebration",
+        "company events"
+      ],
+      "href": "/corporate-event-catering-dubai"
+    },
+    {
+      "phrases": [
+        "business lunch catering",
+        "boardroom lunch",
+        "business lunch",
+        "client lunch"
+      ],
+      "href": "/business-lunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "compare catering quotes"
+      ],
+      "href": "/blog/compare-catering-quotes-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "conference catering",
+        "conference menus"
+      ],
+      "href": "/conference-catering-dubai"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/corporate-catering-checklist-dubai": [
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    }
+  ],
+  "/corporate-dinner-package-dubai": [
+    {
+      "phrases": [
+        "corporate event catering",
+        "company celebration",
+        "company events"
+      ],
+      "href": "/corporate-event-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/corporate-event-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/corporate-retainer-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/cuisines-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "Mediterranean catering",
+        "Mediterranean menu"
+      ],
+      "href": "/mediterranean-catering-dubai"
+    },
+    {
+      "phrases": [
+        "allergy-aware catering",
+        "allergen planning"
+      ],
+      "href": "/allergy-safe-catering-dubai"
+    },
+    {
+      "phrases": [
+        "vegetarian catering",
+        "vegetarian menu"
+      ],
+      "href": "/vegetarian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Italian catering",
+        "Italian menu"
+      ],
+      "href": "/italian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "plant-based menu",
+        "vegan catering",
+        "vegan menu"
+      ],
+      "href": "/vegan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Arabic catering",
+        "Arabic menu"
+      ],
+      "href": "/arabic-catering-dubai"
+    },
+    {
+      "phrases": [
+        "sushi catering",
+        "sushi platters",
+        "sushi counter"
+      ],
+      "href": "/sushi-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/desert-dining-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/dessert-table-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "grazing tables",
+        "grazing table"
+      ],
+      "href": "/grazing-table-dubai"
+    }
+  ],
+  "/diwali-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "vegetarian catering",
+        "vegetarian menu"
+      ],
+      "href": "/vegetarian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    }
+  ],
+  "/drop-off-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "breakfast catering",
+        "breakfast delivery",
+        "office breakfast"
+      ],
+      "href": "/breakfast-catering-dubai"
+    }
+  ],
+  "/dubai-catering-prices-guide": [
+    {
+      "phrases": [
+        "catering cost calculator",
+        "catering calculator"
+      ],
+      "href": "/catering-cost-calculator-dubai"
+    },
+    {
+      "phrases": [
+        "how to choose a caterer",
+        "compare caterers"
+      ],
+      "href": "/how-to-choose-caterer-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    }
+  ],
+  "/dubai-event-catering-price-guide-2026": [
+    {
+      "phrases": [
+        "catering cost calculator",
+        "catering calculator"
+      ],
+      "href": "/catering-cost-calculator-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/dubai-food-trends-report-2026": [
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/eid-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Ramadan catering",
+        "Ramadan menus"
+      ],
+      "href": "/ramadan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "iftar catering",
+        "iftar menu"
+      ],
+      "href": "/iftar-catering-dubai"
+    }
+  ],
+  "/engagement-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "private party catering",
+        "villa celebration",
+        "house party"
+      ],
+      "href": "/private-party-catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/events": [
+    {
+      "phrases": [
+        "corporate event catering",
+        "company celebration",
+        "company events"
+      ],
+      "href": "/corporate-event-catering-dubai"
+    },
+    {
+      "phrases": [
+        "cocktail party catering",
+        "cocktail reception",
+        "standing reception"
+      ],
+      "href": "/cocktail-party-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "birthday celebration",
+        "birthday catering",
+        "birthday party"
+      ],
+      "href": "/birthday-catering-dubai"
+    },
+    {
+      "phrases": [
+        "breakfast catering",
+        "breakfast delivery",
+        "office breakfast"
+      ],
+      "href": "/breakfast-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Christmas catering",
+        "Christmas dinner",
+        "Christmas lunch"
+      ],
+      "href": "/christmas-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Diwali celebration",
+        "Diwali catering"
+      ],
+      "href": "/diwali-catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "New Year catering",
+        "New Year's Eve",
+        "New Year’s Eve"
+      ],
+      "href": "/new-year-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Ramadan catering",
+        "Ramadan menus"
+      ],
+      "href": "/ramadan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "brunch catering",
+        "brunch at home"
+      ],
+      "href": "/brunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Eid celebration",
+        "Eid catering"
+      ],
+      "href": "/eid-catering-dubai"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "iftar catering",
+        "iftar menu"
+      ],
+      "href": "/iftar-catering-dubai"
+    }
+  ],
+  "/exhibition-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "conference catering",
+        "conference menus"
+      ],
+      "href": "/conference-catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/faq": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    }
+  ],
+  "/festive-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "breakfast catering",
+        "breakfast delivery",
+        "office breakfast"
+      ],
+      "href": "/breakfast-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Christmas catering",
+        "Christmas dinner",
+        "Christmas lunch"
+      ],
+      "href": "/christmas-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Diwali celebration",
+        "Diwali catering"
+      ],
+      "href": "/diwali-catering-dubai"
+    },
+    {
+      "phrases": [
+        "New Year catering",
+        "New Year's Eve",
+        "New Year’s Eve"
+      ],
+      "href": "/new-year-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Ramadan catering",
+        "Ramadan menus"
+      ],
+      "href": "/ramadan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "brunch catering",
+        "brunch at home"
+      ],
+      "href": "/brunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Eid celebration",
+        "Eid catering"
+      ],
+      "href": "/eid-catering-dubai"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "iftar catering",
+        "iftar menu"
+      ],
+      "href": "/iftar-catering-dubai"
+    }
+  ],
+  "/founding-customer-offer": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/full-time-private-chef-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "part-time household plan",
+        "part-time private chef",
+        "part-time chef"
+      ],
+      "href": "/part-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "meal preparation service",
+        "weekly meal preparation",
+        "weekly meal prep",
+        "batch cooking"
+      ],
+      "href": "/weekly-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "live-out arrangement",
+        "live-out chef"
+      ],
+      "href": "/private-chef-dubai/live-out-chef"
+    },
+    {
+      "phrases": [
+        "live-in arrangement",
+        "live-in chef"
+      ],
+      "href": "/private-chef-dubai/live-in-chef"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/gala-dinner-catering-dubai": [
+    {
+      "phrases": [
+        "corporate event catering",
+        "company celebration",
+        "company events"
+      ],
+      "href": "/corporate-event-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    },
+    {
+      "phrases": [
+        "chef's table",
+        "chef’s table"
+      ],
+      "href": "/chefs-table-dubai"
+    }
+  ],
+  "/gallery": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/grazing-table-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "buffet catering",
+        "staffed buffet",
+        "buffet service"
+      ],
+      "href": "/buffet-catering-dubai"
+    },
+    {
+      "phrases": [
+        "dessert display",
+        "dessert table"
+      ],
+      "href": "/dessert-table-catering-dubai"
+    }
+  ],
+  "/guide/private-dining-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/guides": [
+    {
+      "phrases": [
+        "corporate catering checklist"
+      ],
+      "href": "/corporate-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "wedding catering checklist"
+      ],
+      "href": "/wedding-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "catering cost calculator",
+        "catering calculator"
+      ],
+      "href": "/catering-cost-calculator-dubai"
+    },
+    {
+      "phrases": [
+        "how to choose a caterer",
+        "compare caterers"
+      ],
+      "href": "/how-to-choose-caterer-dubai"
+    },
+    {
+      "phrases": [
+        "wedding menu planning",
+        "wedding menu"
+      ],
+      "href": "/wedding-catering-menu-planning-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    }
+  ],
+  "/halal-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Arabic catering",
+        "Arabic menu"
+      ],
+      "href": "/arabic-catering-dubai"
+    }
+  ],
+  "/halal-private-dining-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/how-it-works": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    }
+  ],
+  "/how-to-choose-caterer-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering prices guide",
+        "catering prices",
+        "catering costs"
+      ],
+      "href": "/dubai-catering-prices-guide"
+    }
+  ],
+  "/how-we-vet-our-chefs": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    }
+  ],
+  "/iftar-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Ramadan catering",
+        "Ramadan menus"
+      ],
+      "href": "/ramadan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Eid celebration",
+        "Eid catering"
+      ],
+      "href": "/eid-catering-dubai"
+    }
+  ],
+  "/indian-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "vegetarian catering",
+        "vegetarian menu"
+      ],
+      "href": "/vegetarian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/influencer-partnerships": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/italian-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "Mediterranean catering",
+        "Mediterranean menu"
+      ],
+      "href": "/mediterranean-catering-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    }
+  ],
+  "/live-cooking-stations-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "barbecue catering",
+        "BBQ catering",
+        "live grill"
+      ],
+      "href": "/bbq-catering-dubai"
+    },
+    {
+      "phrases": [
+        "buffet catering",
+        "staffed buffet",
+        "buffet service"
+      ],
+      "href": "/buffet-catering-dubai"
+    }
+  ],
+  "/locations": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/locations/al-barsha": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/locations/difc": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/locations/jbr": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/locations/jlt": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/loyalty-programme": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/luxury-dining-experiences": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "private cooking classes",
+        "private cooking class",
+        "cooking lesson"
+      ],
+      "href": "/private-cooking-classes-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "chef's table",
+        "chef’s table"
+      ],
+      "href": "/chefs-table-dubai"
+    }
+  ],
+  "/mediterranean-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "Italian catering",
+        "Italian menu"
+      ],
+      "href": "/italian-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Arabic catering",
+        "Arabic menu"
+      ],
+      "href": "/arabic-catering-dubai"
+    }
+  ],
+  "/menus": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/mychef-certified": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    }
+  ],
+  "/mychef-membership": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/new-year-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Christmas catering",
+        "Christmas dinner",
+        "Christmas lunch"
+      ],
+      "href": "/christmas-catering-dubai"
+    }
+  ],
+  "/office-catering-dubai": [
+    {
+      "phrases": [
+        "corporate catering checklist"
+      ],
+      "href": "/corporate-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "business lunch catering",
+        "boardroom lunch",
+        "business lunch",
+        "client lunch"
+      ],
+      "href": "/business-lunch-catering-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "breakfast catering",
+        "breakfast delivery",
+        "office breakfast"
+      ],
+      "href": "/breakfast-catering-dubai"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/our-chefs": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/part-time-private-chef-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "meal preparation service",
+        "weekly meal preparation",
+        "weekly meal prep",
+        "batch cooking"
+      ],
+      "href": "/weekly-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/partner-with-us": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/partners": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/partners/concierge-services-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/partners/event-planners-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/partners/villa-rentals-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "holiday villa chef",
+        "villa chef"
+      ],
+      "href": "/villas-private-residences"
+    }
+  ],
+  "/partners/yacht-charters-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    }
+  ],
+  "/press": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/private-chef-dubai": [
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "part-time household plan",
+        "part-time private chef",
+        "part-time chef"
+      ],
+      "href": "/part-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "meal preparation service",
+        "weekly meal preparation",
+        "weekly meal prep",
+        "batch cooking"
+      ],
+      "href": "/weekly-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "healthy meal preparation",
+        "healthy meal prep"
+      ],
+      "href": "/wellness-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "live-out arrangement",
+        "live-out chef"
+      ],
+      "href": "/private-chef-dubai/live-out-chef"
+    },
+    {
+      "phrases": [
+        "live-in arrangement",
+        "live-in chef"
+      ],
+      "href": "/private-chef-dubai/live-in-chef"
+    },
+    {
+      "phrases": [
+        "holiday villa chef",
+        "villa chef"
+      ],
+      "href": "/villas-private-residences"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "short-term chef",
+        "short-stay chef"
+      ],
+      "href": "/private-chef-dubai/short-term-chef"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    },
+    {
+      "phrases": [
+        "chef's table",
+        "chef’s table"
+      ],
+      "href": "/chefs-table-dubai"
+    }
+  ],
+  "/private-chef-dubai/how-it-works": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/private-chef-dubai/pricing": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/private-chef-vs-catering-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "how to choose a caterer",
+        "compare caterers"
+      ],
+      "href": "/how-to-choose-caterer-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    }
+  ],
+  "/private-cooking-classes-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    },
+    {
+      "phrases": [
+        "chef's table",
+        "chef’s table"
+      ],
+      "href": "/chefs-table-dubai"
+    }
+  ],
+  "/private-party-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    }
+  ],
+  "/product-launch-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/production-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/proposal-dinner-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "romantic dinner",
+        "dinner for two"
+      ],
+      "href": "/romantic-dinner-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/quality-guarantee-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "chef selection process",
+        "reference checks",
+        "vetting process"
+      ],
+      "href": "/how-we-vet-our-chefs"
+    }
+  ],
+  "/ramadan-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "seasonal celebrations",
+        "festive catering"
+      ],
+      "href": "/festive-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Eid celebration",
+        "Eid catering"
+      ],
+      "href": "/eid-catering-dubai"
+    },
+    {
+      "phrases": [
+        "iftar catering",
+        "iftar menu"
+      ],
+      "href": "/iftar-catering-dubai"
+    }
+  ],
+  "/referral-programme": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    }
+  ],
+  "/romantic-dinner-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "yacht celebration",
+        "yacht catering",
+        "yacht party"
+      ],
+      "href": "/yachts"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/staff-meals-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "corporate catering",
+        "company catering"
+      ],
+      "href": "/corporate"
+    },
+    {
+      "phrases": [
+        "delivered catering",
+        "drop-off catering",
+        "drop-off service"
+      ],
+      "href": "/drop-off-catering-dubai"
+    }
+  ],
+  "/sushi-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "live cooking stations",
+        "cooking stations",
+        "live station"
+      ],
+      "href": "/live-cooking-stations-dubai"
+    }
+  ],
+  "/trust-and-programs": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    }
+  ],
+  "/vegan-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "vegetarian catering",
+        "vegetarian menu"
+      ],
+      "href": "/vegetarian-catering-dubai"
+    }
+  ],
+  "/vegetarian-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "plant-based menu",
+        "vegan catering",
+        "vegan menu"
+      ],
+      "href": "/vegan-catering-dubai"
+    },
+    {
+      "phrases": [
+        "Indian catering",
+        "Indian menu"
+      ],
+      "href": "/indian-catering-dubai"
+    }
+  ],
+  "/venue-partners": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/villa-catering-ideas-dubai": [
+    {
+      "phrases": [
+        "holiday villa chef",
+        "villa chef"
+      ],
+      "href": "/villas-private-residences"
+    },
+    {
+      "phrases": [
+        "barbecue catering",
+        "BBQ catering",
+        "live grill"
+      ],
+      "href": "/bbq-catering-dubai"
+    }
+  ],
+  "/villas-private-residences": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "barbecue catering",
+        "BBQ catering",
+        "live grill"
+      ],
+      "href": "/bbq-catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/vip-club": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "catering packages",
+        "catering package"
+      ],
+      "href": "/catering-packages-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/wedding-catering-checklist-dubai": [
+    {
+      "phrases": [
+        "wedding menu planning",
+        "wedding menu"
+      ],
+      "href": "/wedding-catering-menu-planning-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/wedding-catering-dubai": [
+    {
+      "phrases": [
+        "wedding catering checklist"
+      ],
+      "href": "/wedding-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "wedding menu planning",
+        "wedding menu"
+      ],
+      "href": "/wedding-catering-menu-planning-dubai"
+    }
+  ],
+  "/wedding-catering-menu-planning-dubai": [
+    {
+      "phrases": [
+        "wedding catering checklist"
+      ],
+      "href": "/wedding-catering-checklist-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "wedding reception",
+        "wedding catering"
+      ],
+      "href": "/wedding-catering-dubai"
+    }
+  ],
+  "/weekly-meal-prep-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "healthy meal preparation",
+        "healthy meal prep"
+      ],
+      "href": "/wellness-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/wellness-meal-prep-dubai": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "meal preparation service",
+        "weekly meal preparation",
+        "weekly meal prep",
+        "batch cooking"
+      ],
+      "href": "/weekly-meal-prep-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "multi cuisine catering",
+        "regional cuisines",
+        "world cuisines"
+      ],
+      "href": "/cuisines-dubai"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/institutional-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "canteen management",
+        "canteen service"
+      ],
+      "href": "/canteen-management-dubai"
+    },
+    {
+      "phrases": [
+        "nursery catering",
+        "nursery meals"
+      ],
+      "href": "/nursery-catering-dubai"
+    },
+    {
+      "phrases": [
+        "school catering",
+        "school meals"
+      ],
+      "href": "/school-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/nursery-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "institutional catering",
+        "institutional meals"
+      ],
+      "href": "/institutional-catering-dubai"
+    },
+    {
+      "phrases": [
+        "canteen management",
+        "canteen service"
+      ],
+      "href": "/canteen-management-dubai"
+    },
+    {
+      "phrases": [
+        "school catering",
+        "school meals"
+      ],
+      "href": "/school-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/school-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "institutional catering",
+        "institutional meals"
+      ],
+      "href": "/institutional-catering-dubai"
+    },
+    {
+      "phrases": [
+        "canteen management",
+        "canteen service"
+      ],
+      "href": "/canteen-management-dubai"
+    },
+    {
+      "phrases": [
+        "nursery catering",
+        "nursery meals"
+      ],
+      "href": "/nursery-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/hospital-catering-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "institutional catering",
+        "institutional meals"
+      ],
+      "href": "/institutional-catering-dubai"
+    },
+    {
+      "phrases": [
+        "canteen management",
+        "canteen service"
+      ],
+      "href": "/canteen-management-dubai"
+    },
+    {
+      "phrases": [
+        "nursery catering",
+        "nursery meals"
+      ],
+      "href": "/nursery-catering-dubai"
+    },
+    {
+      "phrases": [
+        "school catering",
+        "school meals"
+      ],
+      "href": "/school-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/canteen-management-dubai": [
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "recurring office meals",
+        "office catering",
+        "office lunches",
+        "office lunch"
+      ],
+      "href": "/office-catering-dubai"
+    },
+    {
+      "phrases": [
+        "institutional catering",
+        "institutional meals"
+      ],
+      "href": "/institutional-catering-dubai"
+    },
+    {
+      "phrases": [
+        "school catering",
+        "school meals"
+      ],
+      "href": "/school-catering-dubai"
+    },
+    {
+      "phrases": [
+        "halal catering"
+      ],
+      "href": "/halal-catering-dubai"
+    }
+  ],
+  "/private-chef-dubai/live-in-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/private-chef-dubai/live-out-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ],
+  "/private-chef-dubai/short-term-chef": [
+    {
+      "phrases": [
+        "regular household cooking",
+        "private chef service",
+        "household chef plans",
+        "household chef"
+      ],
+      "href": "/private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "full-time household plan",
+        "full-time private chef",
+        "full-time chef"
+      ],
+      "href": "/full-time-private-chef-dubai"
+    },
+    {
+      "phrases": [
+        "event catering options",
+        "catering services",
+        "catering formats"
+      ],
+      "href": "/catering-dubai"
+    },
+    {
+      "phrases": [
+        "household visit rates",
+        "private chef prices",
+        "plan calculator",
+        "chef pricing"
+      ],
+      "href": "/private-chef-dubai/pricing"
+    },
+    {
+      "phrases": [
+        "chef's profile",
+        "chef’s profile",
+        "chef profiles"
+      ],
+      "href": "/our-chefs"
+    },
+    {
+      "phrases": [
+        "private dining",
+        "plated dinner",
+        "tasting menu"
+      ],
+      "href": "/luxury-dining-experiences"
+    }
+  ]
+}

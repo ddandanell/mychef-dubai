@@ -1,23 +1,26 @@
 import rules from '@/content/blogLinkRules.json'
+import serviceRules from '@/content/serviceLinkRules.json'
 import { isParked } from '@/content/parkedUrls'
 import { blogImageSrcSet } from './blogImages'
 
 type Rule = { phrases: string[]; href: string }
-export interface BlogLinkState { path: string; remaining: number; uses: Map<string, number>; rules: Rule[] }
+export interface BlogLinkState { path: string; remaining: number; uses: Map<string, number>; rules: Rule[]; limit: number; perDestination: number }
 const escape = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 export function blogLinkState(path: string): BlogLinkState {
   const specific = (rules.pages as Record<string, Rule[]>)[path] || []
-  return { path, remaining: 1, uses: new Map(), rules: [...specific, ...rules.shared].filter(rule => {
+  const blog = path.startsWith('/blog/')
+  const candidates = blog ? [...specific, ...rules.shared] : (serviceRules as Record<string, Rule[]>)[path] || []
+  return { path, remaining: 1, uses: new Map(), limit: blog ? 8 : 6, perDestination: blog ? 2 : 1, rules: candidates.filter(rule => {
     const target = rule.href.split(/[?#]/)[0]
     return target !== path && !isParked(target)
   }) }
 }
 
 export function linkBlogText(text: string, state: BlogLinkState): (string | { href: string; text: string })[] {
-  if (!state.remaining) return [text]
+  if (!state.remaining || [...state.uses.values()].reduce((total, count) => total + count, 0) >= state.limit) return [text]
   for (const rule of state.rules) {
-    if ((state.uses.get(rule.href) || 0) >= 2) continue
+    if ((state.uses.get(rule.href) || 0) >= state.perDestination) continue
     for (const phrase of rule.phrases) {
       const match = new RegExp(`\\b${escape(phrase)}\\b`, 'i').exec(text)
       if (!match) continue

@@ -7969,6 +7969,14 @@
      "label": "Marco Italian Chef",
      "keyword": "italian private chef dubai",
      "silo": "Private Chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-in-chef",
+     "label": "Live-in chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-out-chef",
+     "label": "Daily live-out chef"
     }
    ],
    "featured_children": [],
@@ -12272,6 +12280,18 @@
      "label": "Wellness Meal Prep",
      "keyword": "healthy meal prep dubai",
      "silo": "Private Chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-in-chef",
+     "label": "Live-in chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-out-chef",
+     "label": "Daily live-out chef"
+    },
+    {
+     "url": "/private-chef-dubai/short-term-chef",
+     "label": "Short-term chef"
     }
    ],
    "silo_index": [
@@ -15481,6 +15501,156 @@
      "silo": "Locations"
     }
    ]
+  },
+  "/private-chef-dubai/live-in-chef": {
+   "url": "/private-chef-dubai/live-in-chef",
+   "silo": "Private Chef",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "page_type": "Commercial landing",
+   "primary_keyword": "live in private chef dubai",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/private-chef-dubai",
+     "label": "Private chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-in-chef",
+     "label": "Live-in chef"
+    }
+   ],
+   "uplink": {
+    "url": "/private-chef-dubai",
+    "label": "Private chef"
+   },
+   "siblings": [
+    {
+     "url": "/full-time-private-chef-dubai",
+     "label": "Household chefs"
+    },
+    {
+     "url": "/our-chefs",
+     "label": "Our chefs"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing & plans"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [
+    {
+     "url": "/blog/how-much-does-private-chef-cost-dubai",
+     "label": "What a private chef costs"
+    }
+   ],
+   "areas": []
+  },
+  "/private-chef-dubai/live-out-chef": {
+   "url": "/private-chef-dubai/live-out-chef",
+   "silo": "Private Chef",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "page_type": "Commercial landing",
+   "primary_keyword": "live out private chef dubai",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/private-chef-dubai",
+     "label": "Private chef"
+    },
+    {
+     "url": "/private-chef-dubai/live-out-chef",
+     "label": "Daily live-out chef"
+    }
+   ],
+   "uplink": {
+    "url": "/private-chef-dubai",
+    "label": "Private chef"
+   },
+   "siblings": [
+    {
+     "url": "/full-time-private-chef-dubai",
+     "label": "Household chefs"
+    },
+    {
+     "url": "/our-chefs",
+     "label": "Our chefs"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing & plans"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [
+    {
+     "url": "/blog/how-much-does-private-chef-cost-dubai",
+     "label": "What a private chef costs"
+    }
+   ],
+   "areas": []
+  },
+  "/private-chef-dubai/short-term-chef": {
+   "url": "/private-chef-dubai/short-term-chef",
+   "silo": "Private Chef",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "page_type": "Commercial landing",
+   "primary_keyword": "short term private chef dubai",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/private-chef-dubai",
+     "label": "Private chef"
+    },
+    {
+     "url": "/private-chef-dubai/short-term-chef",
+     "label": "Short-term chef"
+    }
+   ],
+   "uplink": {
+    "url": "/private-chef-dubai",
+    "label": "Private chef"
+   },
+   "siblings": [
+    {
+     "url": "/full-time-private-chef-dubai",
+     "label": "Household chefs"
+    },
+    {
+     "url": "/our-chefs",
+     "label": "Our chefs"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing & plans"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [
+    {
+     "url": "/blog/how-much-does-private-chef-cost-dubai",
+     "label": "What a private chef costs"
+    }
+   ],
+   "areas": []
   }
  }
 }

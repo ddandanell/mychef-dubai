@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/office-catering-dubai",
   "path": "/office-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/office-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Office Catering Dubai | Daily Lunches and Team Days | myCHEF",
-    "description": "Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.",
+    "title": "Office Catering Dubai | Team Lunches & Delivery | myCHEF",
+    "description": "Office catering in Dubai for team lunches, breakfasts and regular meals. Drop-off from AED 90pp, minimum 10 guests, before VAT. Request a menu and quote.",
     "h1": [
       "Office Catering Dubai"
     ]
@@ -75,6 +75,7 @@
     "src/content/officeCateringPage.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -94,7 +95,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3331,
-    "current_word_count": 3911,
+    "current_word_count": 3917,
     "headings": [
       {
         "level": "h2",
@@ -322,7 +323,7 @@
       },
       {
         "level": "h2",
-        "text": "Keep catering aligned with the business agenda"
+        "text": "Build the lunch plan around attendance and the pantry"
       },
       {
         "level": "h2",
@@ -350,7 +351,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

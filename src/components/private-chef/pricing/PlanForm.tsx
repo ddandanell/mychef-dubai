@@ -3,6 +3,8 @@ import { ArrowRight, MessageCircle } from 'lucide-react'
 import { computeQuote, type QuoteInput } from '@/content/privateChefPricing'
 import { planText } from './planText'
 import { trackConversion } from '@/lib/track'
+import { trackDeliveredQuoteLead } from '@/lib/analytics'
+import { adAttributionSource, getAdAttribution } from '@/lib/adAttribution'
 
 const WA = '971551744849'
 const field = 'w-full border border-gray-200 bg-white px-4 py-3 font-inter text-body-sm text-black placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30'
@@ -22,10 +24,11 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
     try {
       const res = await fetch('/api/submit-lead', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ formId: 'private-chef-plan', name, email: fields.email, phone: fields.whatsapp, serviceType: 'Private Chef — household plan', eventDate: fields.start || input.startDate || '', guests: input.guests, location: fields.area, sourcePage: '/private-chef-dubai/pricing', message, source: 'pricing-calculator', page: '/private-chef-dubai/pricing' }),
+        body: JSON.stringify({ formId: 'private-chef-plan', name, email: fields.email, phone: fields.whatsapp, serviceType: 'Private Chef — household plan', eventDate: fields.start || input.startDate || '', guests: input.guests, location: fields.area, sourcePage: '/private-chef-dubai/pricing', message, source: adAttributionSource('pricing-calculator'), gclid: getAdAttribution().gclid, page: '/private-chef-dubai/pricing' }),
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'lead_form')
+        trackDeliveredQuoteLead('Private Chef — household plan')
         setStatus('sent')
       } else {
         setStatus('error')

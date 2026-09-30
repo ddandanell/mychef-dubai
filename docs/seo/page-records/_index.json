@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "counts": {
-    "indexable page": 173,
+    "indexable page": 189,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 320,
+  "total": 336,
   "records": [
     {
       "path": "/",
@@ -191,6 +191,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/best-cozymeal-alternatives-for-private-dining-in-dubai",
+      "file": "blog__best-cozymeal-alternatives-for-private-dining-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/best-desert-dining-catering-companies-in-dubai",
       "file": "blog__best-desert-dining-catering-companies-in-dubai.json",
       "primary_keyword": null,
@@ -200,6 +207,13 @@
     {
       "path": "/blog/best-drop-off-catering-services-in-dubai",
       "file": "blog__best-drop-off-catering-services-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/best-gluten-free-catering-companies-in-dubai",
+      "file": "blog__best-gluten-free-catering-companies-in-dubai.json",
       "primary_keyword": null,
       "role": "indexable page",
       "silo": null
@@ -247,6 +261,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/best-private-chefs-for-home-dining",
+      "file": "blog__best-private-chefs-for-home-dining.json",
+      "primary_keyword": null,
+      "role": "redirect",
+      "silo": null
+    },
+    {
       "path": "/blog/best-private-chefs-for-villas-in-dubai",
       "file": "blog__best-private-chefs-for-villas-in-dubai.json",
       "primary_keyword": "best private chefs for villas in dubai",
@@ -257,7 +278,7 @@
       "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
       "file": "blog__best-private-chefs-in-dubai-for-home-dining.json",
       "primary_keyword": null,
-      "role": "redirect",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
@@ -324,6 +345,34 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/cateringdubai-ae-alternatives-in",
+      "file": "blog__cateringdubai-ae-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/cateringindubai-alternatives-in",
+      "file": "blog__cateringindubai-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/cedar-tree-catering-alternatives-in",
+      "file": "blog__cedar-tree-catering-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/chef-maison-alternatives-in",
+      "file": "blog__chef-maison-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/christmas-lunch-at-home-planning-dubai",
       "file": "blog__christmas-lunch-at-home-planning-dubai.json",
       "primary_keyword": "christmas lunch at home in dubai",
@@ -371,6 +420,13 @@
       "primary_keyword": "dinner party timeline in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/dish-ae-alternatives-in",
+      "file": "blog__dish-ae-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/diwali-party-at-home-planning-dubai",
@@ -457,6 +513,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/monchef-alternatives-in",
+      "file": "blog__monchef-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
       "file": "blog__nursery-meals-vs-packed-lunch-dubai.json",
       "primary_keyword": "nursery provided meals vs packed lunch dubai",
@@ -490,6 +553,13 @@
       "primary_keyword": "outdoor villa catering kitchen",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/pinch-gourmet-alternatives-in",
+      "file": "blog__pinch-gourmet-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/private-chef-date-night-dubai",
@@ -532,6 +602,27 @@
       "primary_keyword": "ramadan catering trends dubai 2026",
       "role": "noindex support page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/smart-catering-alternatives-in",
+      "file": "blog__smart-catering-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/take-a-chef-alternatives-in",
+      "file": "blog__take-a-chef-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/taste-studio-alternatives-in",
+      "file": "blog__taste-studio-alternatives-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/three-hour-yacht-party-food-timeline-dubai",
@@ -1843,6 +1934,20 @@
       "silo": "Private Chef"
     },
     {
+      "path": "/private-chef-dubai/live-in-chef",
+      "file": "private-chef-dubai__live-in-chef.json",
+      "primary_keyword": "live in private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/live-out-chef",
+      "file": "private-chef-dubai__live-out-chef.json",
+      "primary_keyword": "live out private chef dubai",
+      "role": "indexable page",
+      "silo": "Private Chef"
+    },
+    {
       "path": "/private-chef-dubai/our-chefs",
       "file": "private-chef-dubai__our-chefs.json",
       "primary_keyword": null,
@@ -1868,6 +1973,13 @@
       "file": "private-chef-dubai__quality-training.json",
       "primary_keyword": null,
       "role": "noindex support page",
+      "silo": "Private Chef"
+    },
+    {
+      "path": "/private-chef-dubai/short-term-chef",
+      "file": "private-chef-dubai__short-term-chef.json",
+      "primary_keyword": "short term private chef dubai",
+      "role": "indexable page",
       "silo": "Private Chef"
     },
     {

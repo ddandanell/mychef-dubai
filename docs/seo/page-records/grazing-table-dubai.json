@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/grazing-table-dubai",
   "path": "/grazing-table-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/grazing-table-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Grazing Table Dubai | Built On Site in the Room | myCHEF",
-    "description": "Grazing table Dubai: cheeses, breads, fruit and a styled table, built on site and packed down. Send the date, guest count and venue.",
+    "title": "Grazing Table Dubai | Styled Platters for Your Event | myCHEF",
+    "description": "Grazing tables in Dubai for parties, weddings and office gatherings. Plan cheeses, breads, fruit and dips, with quantities, styling and setup clearly quoted.",
     "h1": [
       "Grazing Table Dubai"
     ]
@@ -60,6 +60,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -260,7 +261,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

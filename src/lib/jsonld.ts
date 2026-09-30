@@ -24,6 +24,10 @@ const BANNED_TYPES = new Set([
 
 /** FAQPage JSON-LD only where the accordion is on the page and the SEO contract lists FAQPage. */
 const FAQ_JSONLD_PATHS = new Set([
+  '/full-time-private-chef-dubai',
+  '/private-chef-dubai/live-in-chef',
+  '/private-chef-dubai/live-out-chef',
+  '/private-chef-dubai/short-term-chef',
   '/faq',
   '/private-chef-dubai',
   '/private-chef-dubai/pricing',

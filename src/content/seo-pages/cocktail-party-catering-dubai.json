@@ -23,8 +23,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Cocktail Party Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Cocktail Party catering in Dubai from AED 700pp — passed canapés and bowl food, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "title": "Cocktail Party Catering Dubai | Canapés & Service | myCHEF",
+  "meta_description": "Cocktail party catering in Dubai with passed canapés, finger food and optional bar service. Menus from AED 150pp before VAT; staffing and equipment quoted.",
   "h1": "Cocktail Party Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [

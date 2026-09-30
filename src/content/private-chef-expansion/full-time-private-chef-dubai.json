@@ -1,22 +1,26 @@
 {
   "title": "Make everyday cooking part of a calmer household routine",
-  "intro": "A full-time private chef arrangement in Dubai is most useful when your household needs a consistent cooking presence across a fuller week. That might include more than one meal a day, different preferences within the family or regular guests at home. The aim is a kitchen routine that feels organised and personal. A fuller schedule still needs defined hours, priorities and a practical menu, so this guide explains how to brief the service and keep it aligned with the way your household actually lives.",
+  "intro": "A full-time household chef brings a consistent cooking presence to your home, either living in or travelling to you on agreed days. myCHEF helps find the right person, coordinates recruitment and introductions, and stays involved with your routine. Start with the food you love, your monthly budget and the way your home works. This guide covers the practical details to discuss before the chef starts.",
   "sections": [
     {
       "id": "your-service",
       "title": "A regular schedule with a defined scope",
       "image": "family-cooking",
       "paragraphs": [
-        "Full-time describes the planned level of household support; it should not be read as unlimited hours or automatic live-in availability. Discuss the days, meal coverage and responsibilities you need, then review the proposed arrangement in writing.",
+        "Choose a live-in or daily live-out arrangement, then agree the days, hours, meals and responsibilities. Accommodation and culinary level are separate decisions. Our five monthly service bands run from AED 18,000 to AED 50,000 before VAT, groceries and agreed extras; your personal proposal confirms the total.",
         "If you want breakfast, lunch and dinner, explain when each is eaten and who is at home for it. If one meal is usually taken outside, the chef's time may be more useful for preparation or another agreed task. This turns a broad request for a full-time chef into a schedule that can be assessed, priced and delivered realistically."
-      ]
+      ],
+      "link": {
+        "href": "/private-chef-dubai/live-in-chef",
+        "label": "Explore a live-in arrangement"
+      }
     },
     {
       "id": "full-day",
       "title": "Use a fuller cooking day with clear priorities",
       "image": "family-cooking",
       "paragraphs": [
-        "A longer chef visit can support more than one meal, but the day still needs a realistic plan. Breakfast preparation, lunch, dinner, grocery tasks and food for later compete for the same hours. Rank what matters most, then discuss which tasks can be combined efficiently and which require dedicated attention.",
+        "A household cooking day can support more than one meal, but the day still needs a realistic plan. Breakfast preparation, lunch, dinner, grocery tasks and food for later compete for the same hours. Rank what matters most, then discuss which tasks can be combined efficiently and which require dedicated attention.",
         "Meal times can create natural pauses or overlapping demands. If lunch is served while dinner preparation is underway, the chef needs enough workspace and a menu that allows both. If guests are joining in the evening, that may change the daytime priorities or create a need for additional support. A full day should not be treated as unlimited capacity for every kitchen request.",
         "Agree the booked hours and any breaks or scheduling details within the arrangement. Tell myCHEF when the routine changes, especially during school holidays, travel or extended family visits. A fuller household plan works best when it has a clear purpose and can be reviewed against the way the home actually operates."
       ],
@@ -41,16 +45,16 @@
     },
     {
       "id": "schedule",
-      "title": "Plan arrival time around preparation, not just mealtime",
+      "title": "Plan working time around preparation and meals",
       "image": "kitchen-preparation",
       "paragraphs": [
-        "The time you want to eat is different from the time the chef needs to arrive. Ingredients may need preparation, several dishes may need different cooking stages and the table may need attention before guests sit down. Give the team your preferred meal time and ask for an arrival schedule that reflects the agreed menu.",
+        "For a live-out chef, agree an arrival time that allows for preparation before your first meal. For a live-in chef, agree the working day and any split shifts. Ingredients need preparation, dishes have different cooking stages and household routines need space alongside kitchen work.",
         "For recurring visits, consider when the kitchen is busiest. Breakfast routines, school departures, deliveries and household staff schedules can all affect access to the workspace. A sensible start time allows the chef to work comfortably while keeping disruption to your household low. If you work from home, mention rooms or periods that need to stay quiet.",
         "Also confirm when the service is expected to finish and what happens if plans run late. Additional tasks or extended service may require more time and an extra charge under the agreed terms. Raising these possibilities before the day is easier than trying to negotiate them while a meal is already underway."
       ],
       "link": {
-        "href": "/private-chef-dubai/pricing",
-        "label": "Compare service types and booked hours"
+        "href": "/private-chef-dubai/live-out-chef",
+        "label": "Explore daily live-out cooking"
       }
     },
     {
@@ -91,16 +95,16 @@
         "It also helps to identify what is already in the kitchen. A quick check of oils, seasonings, rice and other staples can reduce duplicate purchases. For ongoing cooking, agree how the chef should flag low stock and ask before making substitutions that materially change the meal or its cost."
       ],
       "link": {
-        "href": "/private-chef-dubai/pricing",
-        "label": "Review service fees and grocery arrangements"
+        "href": "/private-chef-dubai/pricing#household-plans",
+        "label": "Compare monthly household service levels"
       }
     }
   ],
   "cta": {
     "title": "Let’s shape the details around you.",
-    "body": "Share your date or preferred cooking schedule, Dubai location and the number of people you are planning for. Tell us what you would most like help with, and we will discuss a suitable menu and service arrangement before confirming the details in writing.",
-    "label": "Discuss my requirements",
-    "href": "/inquiry?from=/full-time-private-chef-dubai"
+    "body": "Share your preferred start, Dubai location, household size and monthly budget. Tell us whether a live-in or live-out chef would suit you and what you love to eat. We will help build a personal shortlist and agree the next steps.",
+    "label": "Find my household chef",
+    "href": "/inquiry?from=/full-time-private-chef-dubai&service=household-chef"
   },
-  "wordCount": 1259
+  "wordCount": 1129
 }

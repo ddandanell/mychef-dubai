@@ -21,8 +21,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Wellness Meal Prep Catering Dubai | from AED 1,900 / week | myCHEF",
-  "meta_description": "Wellness Meal Prep catering in Dubai — balanced, nourishing meals for everyday wellbeing. From aed 1,900 / week, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "title": "Healthy Meal Prep Dubai | Personal Menus at Home | myCHEF",
+  "meta_description": "Healthy meal prep in Dubai, cooked in your home around your preferences. Discuss ingredients, portions and any dietary guidance before choosing your chef plan.",
   "h1": "Wellness Meal Prep Catering in Dubai — Real Prices, Menus and Timings"
  },
  "opening_paragraph": [

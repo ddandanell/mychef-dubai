@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog/best-halal-catering-companies-in-dubai",
   "path": "/blog/best-halal-catering-companies-in-dubai",
   "role": "indexable page",
@@ -18,7 +18,7 @@
     "primary_owner": "/blog/best-halal-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
@@ -55,6 +55,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-halal-catering-companies-in-dubai.json",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -69,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2044,
-    "current_word_count": 1745,
+    "current_word_count": 1742,
     "headings": [
       {
         "level": "h2",
@@ -101,19 +102,19 @@
       },
       {
         "level": "h3",
-        "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+        "text": "Smart Catering alternatives in 2026"
       },
       {
         "level": "h3",
-        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
+        "text": "Take A Chef alternatives in 2026"
       },
       {
         "level": "h3",
-        "text": "Best Arabic Catering Companies Dubai: What to Compare"
+        "text": "CateringDubai.ae alternatives in 2026"
       },
       {
         "level": "h2",
-        "text": "Plan it with myCHEF"
+        "text": "Plan catering with myCHEF"
       },
       {
         "level": "h2",
@@ -151,7 +152,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

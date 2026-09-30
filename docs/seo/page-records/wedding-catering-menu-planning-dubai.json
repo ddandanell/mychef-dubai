@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/wedding-catering-menu-planning-dubai",
   "path": "/wedding-catering-menu-planning-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/wedding-catering-menu-planning-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
-    "description": "Wedding menu planning Dubai: buffet and plated ideas, Indian, Arabic and Lebanese menus, tastings, late-night food and mixed diets. Not a price list.",
+    "title": "Wedding Menu Planning Dubai | Tastings & Service Styles | myCHEF",
+    "description": "Wedding menu planning in Dubai: compare plated dinners, buffets and live stations, then plan tastings, dietary alternatives and service around your venue.",
     "h1": [
       "Wedding Menu Planning Dubai"
     ]
@@ -61,6 +61,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/content/weddingCluster.ts",
     "src/content/weddingMenuPage.ts",
@@ -79,7 +80,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2478,
-    "current_word_count": 3092,
+    "current_word_count": 3102,
     "headings": [
       {
         "level": "h2",
@@ -303,7 +304,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

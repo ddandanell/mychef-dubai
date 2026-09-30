@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-29",
+  "url": "https://www.mychef.ae/blog/take-a-chef-alternatives-in",
+  "path": "/blog/take-a-chef-alternatives-in",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Compare Take a Chef alternatives for Dubai dining and events. Explore myCHEF for private chefs, weekly meal prep or catering, and what to ask before booking.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Take a Chef alternatives 2026: myCHEF for Dubai | myCHEF",
+    "description": "Compare Take a Chef alternatives for Dubai dining and events. Explore myCHEF for private chefs, weekly meal prep or catering, and what to ask before booking.",
+    "h1": [
+      "Take A Chef alternatives in 2026"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/take-a-chef-alternatives-in",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/take-a-chef-alternatives-in.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/take-a-chef-alternatives-in.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2316,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why this matters"
+      },
+      {
+        "level": "h2",
+        "text": "Take a Chef alternatives at a glance"
+      },
+      {
+        "level": "h2",
+        "text": "1. myCHEF: best for a Dubai brief spanning chefs and catering"
+      },
+      {
+        "level": "h2",
+        "text": "2. Independent private chef: best for a direct relationship"
+      },
+      {
+        "level": "h2",
+        "text": "3. Event caterer: best for a larger service-led gathering"
+      },
+      {
+        "level": "h2",
+        "text": "Why look beyond Take a Chef in 2026?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you put in the first enquiry?"
+      },
+      {
+        "level": "h2",
+        "text": "When should you stay with Take a Chef?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One last thing"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Smart Catering alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "CateringDubai.ae alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Dish.ae alternatives in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

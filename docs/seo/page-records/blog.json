@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog",
   "path": "/blog",
   "role": "indexable page",
@@ -13,7 +13,7 @@
     "primary_owner": null,
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
@@ -46,6 +46,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/hooks/useScrollTrigger.ts",
     "src/lib/blogEditorial.ts",
@@ -61,7 +62,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1431,
-    "current_word_count": 2209,
+    "current_word_count": 2664,
     "headings": [
       {
         "level": "h2",
@@ -98,6 +99,54 @@
       {
         "level": "h2",
         "text": "Insights for Dubai Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "Smart Catering alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Take A Chef alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "CateringDubai.ae alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Dish.ae alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best Cozymeal alternatives for private dining in Dubai"
+      },
+      {
+        "level": "h3",
+        "text": "Taste Studio alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Pinch Gourmet alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Cedar Tree Catering alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "MonChef alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Chef Maison alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best gluten-free catering companies in Dubai 2026"
+      },
+      {
+        "level": "h3",
+        "text": "CateringInDubai alternatives in 2026"
       },
       {
         "level": "h3",
@@ -233,6 +282,10 @@
       },
       {
         "level": "h3",
+        "text": "Best Private Chef in Dubai for Home Dining (2026)"
+      },
+      {
+        "level": "h3",
         "text": "Dubai School Food Rules 2026"
       },
       {
@@ -297,7 +350,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

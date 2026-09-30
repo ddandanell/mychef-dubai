@@ -371,6 +371,32 @@ async function renderHtml(page: Page, baseUrl: string, route: string): Promise<s
   // was one edit away from not working. Keep the last of each; that is the page's own.
   html = dedupeHead(html)
 
+  // Give the browser the responsive hero image while it is still parsing the head,
+  // rather than waiting until it reaches the image deep in the prerendered body.
+  // Target the measured routes; srcset/sizes are copied from the actual
+  // high-priority image so mobile does not download the desktop variant.
+  const priorityHeroRoutes = new Set([
+    '/about', '/bbq-catering-dubai', '/catering-dubai',
+    '/breakfast-catering-dubai', '/private-party-catering-dubai',
+    '/grazing-table-dubai', '/diwali-catering-dubai', '/corporate',
+    '/blog/how-far-ahead-book-caterer-dubai',
+  ])
+  if (priorityHeroRoutes.has(route)) {
+    const hero = [...html.matchAll(/<img\b[^>]*>/g)]
+      .map((match) => match[0])
+      .find((tag) => /fetchpriority="high"/i.test(tag))
+    const attr = (name: string) => hero?.match(new RegExp(`(?:^|\\s)${name}="([^"]+)"`, 'i'))?.[1]
+    const src = attr('src')
+    if (!src) throw new Error(`Priority hero image missing on ${route}`)
+    const srcset = attr('srcset')
+    const sizes = attr('sizes')
+    const preload = `<link rel="preload" as="image" href="${src}"${srcset ? ` imagesrcset="${srcset}"` : ''}${sizes ? ` imagesizes="${sizes}"` : ''} fetchpriority="high">`
+    // Do not add a second preload if a route's own SEO component already made one.
+    if (!html.slice(0, html.indexOf('</head>')).includes(`href="${src}"`)) {
+      html = html.replace('</head>', `${preload}</head>`)
+    }
+  }
+
   // Inline this route's SEO payload (HandoffPage routes only) so the client
   // paints without a fetch round-trip / rebuild. Placed just before </body>,
   // outside #root.

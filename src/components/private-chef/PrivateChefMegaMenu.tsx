@@ -1,4 +1,6 @@
-import ServiceImage from '@/components/private-chef/ServiceImage'
+import HouseholdImage from '@/components/household/HouseholdImage'
+import type { LucideIcon } from 'lucide-react'
+import { HOUSEHOLD_PATH, LIVE_IN_PATH, LIVE_OUT_PATH, SHORT_TERM_PATH } from '@/content/householdChefs'
 import { Link } from 'react-router'
 import {
   ArrowRight,
@@ -6,23 +8,26 @@ import {
   ChefHat,
   ListChecks,
   Users,
+  House,
+  CalendarDays,
 } from 'lucide-react'
 import { NavigationMenuLink } from '@/components/ui/navigation-menu'
-import { GLOBAL_CLUSTER_NAV, CLUSTER_PATHS, pricingPreview } from '@/content/privateChefCluster'
-import { formatAed, photos } from '@/content/privateChefPage'
+import { GLOBAL_CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
 
-const MAIN = GLOBAL_CLUSTER_NAV.slice(0, 2)
-const TRUST = GLOBAL_CLUSTER_NAV.slice(2, 4)
+const MAIN = GLOBAL_CLUSTER_NAV.slice(0, 4)
+const TRUST = GLOBAL_CLUSTER_NAV.slice(4)
 
-export const CLUSTER_ICONS = {
+export const CLUSTER_ICONS: Record<string, LucideIcon> = {
+  [HOUSEHOLD_PATH]: House,
+  [LIVE_IN_PATH]: House,
+  [LIVE_OUT_PATH]: CalendarDays,
+  [SHORT_TERM_PATH]: CalendarDays,
   [CLUSTER_PATHS.overview]: ChefHat,
   [CLUSTER_PATHS.howItWorks]: ListChecks,
   '/our-chefs': Users,
   [CLUSTER_PATHS.pricing]: Banknote,
 } as const
 
-const featurePhoto = photos[1]
-const entryMonthly = pricingPreview[0].monthly
 
 function MegaColumn({
   heading,
@@ -63,36 +68,29 @@ export default function PrivateChefMegaMenu() {
   return (
     <div className="pc-mega-card">
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 min-[900px]:grid-cols-2 xl:grid-cols-[minmax(0,1.15fr)_minmax(0,1.05fr)_minmax(0,0.9fr)]">
-        <MegaColumn heading="The service" items={MAIN} />
-        <MegaColumn heading="Trust & plans" items={TRUST} />
+        <MegaColumn heading="Choose your chef service" items={MAIN} />
+        <MegaColumn heading="Find your fit" items={TRUST} />
         <div className="pc-mega-feature min-w-0 col-span-full flex flex-col xl:col-auto">
           <div className="pc-mega-photo relative mb-5 hidden aspect-[4/3] overflow-hidden rounded-[5px] xl:block [@media(max-height:700px)]:hidden">
-            <ServiceImage
-              src={featurePhoto.src}
-              alt={featurePhoto.alt}
-              width={featurePhoto.width}
-              height={featurePhoto.height}
-              className="absolute inset-0 h-full w-full object-cover"
-              style={{ objectPosition: 'center 28%' }}
-            />
+            <HouseholdImage id="household-hero" alt="Chef preparing a family lunch in a home kitchen" sizes="300px"/>
           </div>
           <div className="flex min-w-0 flex-1 flex-col">
             <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-2">
               Private Chef Dubai
             </p>
             <p className="font-playfair text-[clamp(18px,2vw,22px)] leading-snug text-[#f2f0ea] mb-2">
-              Your household chef, managed for you.
+              A chef who feels at home.
             </p>
             <p className="font-inter text-body-sm leading-relaxed text-white/55 mb-4">
-              Chef, assistant and ongoing support, coordinated around your household.
+              Personal matching, recruitment coordination and ongoing support for your household.
             </p>
             <div className="mt-auto border-t border-gold/25 pt-4">
               <p className="font-inter text-body-sm text-white/50 mb-4">
-                From {formatAed(entryMonthly)}/month
+                From AED 18,000/month
               </p>
               <NavigationMenuLink asChild className="p-0 hover:bg-transparent focus:bg-transparent">
-                <Link to={CLUSTER_PATHS.overview} className="btn-primary w-full text-center text-xs py-3">
-                  Explore Private Chef
+                <Link to={HOUSEHOLD_PATH} className="btn-primary w-full text-center text-xs py-3">
+                  Explore Household Chefs
                 </Link>
               </NavigationMenuLink>
             </div>

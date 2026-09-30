@@ -14,6 +14,7 @@ import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
 import { preloadRoute } from '@/routes'
 import { isChefDesignPage } from '@/content/privateChefDesign'
 import '@/styles/private-chef-editorial.css'
+import '@/styles/household-chefs.css'
 
 interface LayoutProps {
   children: ReactNode

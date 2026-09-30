@@ -126,6 +126,13 @@ export default function PrivatePartyCatering() {
         </p>
       </PageHero></NonCateringVisual>
       <TrustSignalStrip />
+      <div className="border-b border-gray-200 bg-cream">
+        <div className="container-custom py-5 font-inter text-body-sm text-gray-700">
+          Hosting a birthday? See the birthday menus, service options and quote route on{' '}
+          <Link to="/birthday-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">Birthday Catering Dubai</Link>.
+          For other private gatherings, explore the party service below.
+        </div>
+      </div>
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
         <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">

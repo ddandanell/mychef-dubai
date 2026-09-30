@@ -37,8 +37,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Sushi Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Sushi catering in Dubai from AED 700pp — a private sushi chef preparing fresh nigiri, maki and sashimi for events, parties, weddings and corporate. Get an itemised quote.",
+  "title": "Sushi Catering Dubai | Platters & Live Sushi Counters | myCHEF",
+  "meta_description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed.",
   "h1": "Sushi Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [

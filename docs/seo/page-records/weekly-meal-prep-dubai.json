@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/weekly-meal-prep-dubai",
   "path": "/weekly-meal-prep-dubai",
   "role": "indexable page",
@@ -17,23 +17,19 @@
       "batch cooking service dubai",
       "personal chef meal prep dubai",
       "family meal prep dubai",
-      "is weekly meal prep healthy",
-      "best meal prep delivery dubai",
       "weekly meal plan dubai",
-      "fitness meal prep delivery menu",
-      "fitness meal prep services",
-      "kids meal prep service"
+      "private chef weekly meal prep"
     ],
     "primary_owner": "/weekly-meal-prep-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Meal Prep Dubai | Plans for Your Home | myCHEF",
-    "description": "A chef in your kitchen, preparing food around the way you live. Choose meals you look forward to, with portions and storage planned for the days ahead.",
+    "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
+    "description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately.",
     "h1": [
       "Meal Prep Dubai. A well-prepared week."
     ]
@@ -52,6 +48,8 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -60,15 +58,20 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/householdServices.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
@@ -81,7 +84,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2118,
+    "current_word_count": 2199,
     "headings": [
       {
         "level": "h2",
@@ -141,7 +144,7 @@
       },
       {
         "level": "h3",
-        "text": "A full-day chef, five days a week"
+        "text": "Full-day chef visits, five days a week"
       },
       {
         "level": "h2",
@@ -158,6 +161,10 @@
       {
         "level": "h3",
         "text": "The service behind the occasion"
+      },
+      {
+        "level": "h2",
+        "text": "Make a chef part of your household."
       },
       {
         "level": "h2",
@@ -225,7 +232,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

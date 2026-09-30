@@ -443,6 +443,18 @@ export const CONTEXTUAL_LINKS: ContextualLink[] = ALL_CONTEXTUAL_LINKS.filter(
   .sort((a, b) => b.phrase.length - a.phrase.length)
 
 const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
+  "/best-catering-companies-dubai": [
+    { label: "Explore Catering Dubai", url: "/catering-dubai" }
+  ],
+  "/blog/dinner-party-menu-ideas-dubai": [
+    { label: "Private Party Catering Dubai", url: "/private-party-catering-dubai" }
+  ],
+  "/blog/how-far-ahead-book-caterer-dubai": [
+    { label: "Catering Dubai", url: "/catering-dubai" }
+  ],
+  "/blog/corporate-event-catering-ideas-dubai": [
+    { label: "Corporate Event Catering Dubai", url: "/corporate-event-catering-dubai" }
+  ],
   "/blog/desert-dinner-party-dubai": [
     {
       "label": "BBQ Catering Dubai",
@@ -488,10 +500,8 @@ const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
     }
   ],
   "/blog/grazing-table-vs-buffet-dubai": [
-    {
-      "label": "Grazing Table Dubai",
-      "url": "/grazing-table-dubai"
-    }
+    { label: "Grazing Table Dubai", url: "/grazing-table-dubai" },
+    { label: "Buffet Catering Dubai", url: "/buffet-catering-dubai" }
   ],
   "/blog/brunch-at-home-dubai": [
     {
@@ -539,7 +549,15 @@ export function relatedPosts(slug: string, n = 3): BlogPost[] {
 export function pillarsFor(slug: string): BlogPillar[] {
   const post = getPost(slug)
   const hub = post ? getHub(post.hub) : undefined
-  const list = [...(hub ? [hub.pillar] : []), ...(EXTRA_PILLARS[slug] ?? [])]
+  // A wedding or desert hub is not the booking destination for a party or yacht guide.
+  const exactServiceOnly = new Set([
+    "/blog/dinner-party-menu-ideas-dubai",
+    "/blog/grazing-table-vs-buffet-dubai",
+    "/blog/nye-party-catering-dubai",
+    "/blog/yacht-party-menu-ideas-dubai",
+  ])
+  const specific = EXTRA_PILLARS[slug] ?? []
+  const list = exactServiceOnly.has(slug) ? specific : [...specific, ...(hub ? [hub.pillar] : [])]
   const seen = new Set<string>()
   return list.filter((p) => (seen.has(p.url) ? false : (seen.add(p.url), true)))
 }

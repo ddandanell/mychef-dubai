@@ -4,6 +4,7 @@ import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
 import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
 import { classifyTrackedCta, conversionParams, ctaTextParam, shouldGenerateLead } from '../lib/conversionEvents'
+import { getAdAttribution } from '../lib/adAttribution'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -25,6 +26,8 @@ export default function Analytics() {
 
   useEffect(() => {
     if (location.pathname === '/seo' || location.pathname.startsWith('/seo/')) return
+    // Capture the landing visit's ad reference before an internal link drops its query string.
+    getAdAttribution()
     trackPageView(location.pathname + location.search)
     trackPage(location.pathname)
     if (/^\/inquiry\/?$/.test(location.pathname)) {
@@ -71,12 +74,7 @@ export default function Analytics() {
         if (conversion.event === 'whatsapp_click') {
           trackConversion('cta_click', placement)
           trackConversion('whatsapp_click', placement)
-          trackEvent('generate_lead', {
-            method: 'whatsapp',
-            page_path: pagePath,
-            cta_location: ctaLocation,
-            ...(ctaText ? { cta_text: ctaText } : {}),
-          })
+          // A click opens WhatsApp; it does not prove a message was sent.
         } else if (conversion.event === 'email_click') {
           trackConversion('email_click', placement)
         } else if (conversion.event === 'phone_click') {
@@ -113,14 +111,8 @@ export default function Analytics() {
       const formId = (form && form.id) || ''
       if (!shouldGenerateLead(path, formId)) return
       const method = formLabel(formId)
-      const ctaLocation = form?.getAttribute('data-cta-location') || form?.getAttribute('data-placement') || method
 
-      trackEvent('generate_lead', {
-        form_id: formId,
-        method,
-        page_path: path,
-        cta_location: ctaLocation,
-      })
+      // A submit is only an attempt; the form reports a lead after delivery succeeds.
       trackConversion('form_submit', method)
     }
 

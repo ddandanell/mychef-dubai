@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/blog/best-private-cooking-class-experiences-in-dubai",
   "path": "/blog/best-private-cooking-class-experiences-in-dubai",
   "role": "indexable page",
@@ -18,7 +18,7 @@
     "primary_owner": "/blog/best-private-cooking-class-experiences-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "informational",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
@@ -55,6 +55,7 @@
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-cooking-class-experiences-in-dubai.json",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -69,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1772,
-    "current_word_count": 2058,
+    "current_word_count": 2093,
     "headings": [
       {
         "level": "h2",
@@ -101,6 +102,10 @@
       },
       {
         "level": "h3",
+        "text": "Best Cozymeal alternatives for private dining in Dubai"
+      },
+      {
+        "level": "h3",
         "text": "A Household Menu Brief for Your Dubai Chef"
       },
       {
@@ -108,12 +113,8 @@
         "text": "Private Chef Kitchen Preparation in Dubai"
       },
       {
-        "level": "h3",
-        "text": "Private Chef Trial in Dubai: What to Evaluate"
-      },
-      {
         "level": "h2",
-        "text": "Plan it with myCHEF"
+        "text": "Plan catering with myCHEF"
       },
       {
         "level": "h2",
@@ -155,7 +156,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

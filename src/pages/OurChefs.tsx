@@ -1,3 +1,6 @@
+import HouseholdProfiles from '@/components/household/HouseholdProfiles'
+import ClusterNav from '@/components/private-chef/ClusterNav'
+import { HouseholdCallout } from '@/components/household/HouseholdSections'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /our-chefs
@@ -8,7 +11,7 @@ import ServiceImage from '@/components/private-chef/ServiceImage'
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-import { ChefSection, TeamCapability, ChefEnquiry, RealWork } from '@/components/private-chef/ChefSections'
+import { ChefSection, ChefEnquiry } from '@/components/private-chef/ChefSections'
 const chefs = [
   {
     image: '/team-head-chef.webp',
@@ -47,7 +50,9 @@ const chefs = [
     specialties: ['Arabic Mezze', 'Grilled Meats', 'Iftar Feasts', 'Live Stations'],
   },
 ]
-export default function OurChefs(){return <div><SEO title="Private Chefs Dubai | Meet the Culinary Network | myCHEF" description="Explore private chefs in Dubai and the cuisines they cook. Share your household or occasion brief for a suitable chef match and confirmed availability." canonicalPath="/our-chefs"/>
-<PageHero eyebrow="MYCHEF · THE CULINARY NETWORK" title="Private Chefs Dubai. Different talents, a shared attention to detail." subtitle="A good match brings together culinary skill, the food you love and the way you want to host. Explore the profiles, then let us help find a suitable available chef." cta={{label:'Request a chef match',href:'/inquiry?from=/our-chefs'}} secondaryCta={{label:'How we select chefs',href:'/how-we-vet-our-chefs'}}/>
-<ChefSection eyebrow="Meet the chefs" title="Private chefs in Dubai, matched to your table."><p className="pc-section-intro">Independent partner chefs with distinct culinary interests. Your brief, service format and dates help us confirm the right profile for your booking.</p><div className="pc-chef-directory">{chefs.map(chef=><article key={chef.slug}><Link to={chef.slug}><ServiceImage src={chef.image} alt={chef.name} width={600} height={800} loading="lazy" decoding="async"/></Link><div><p className="pc-eyebrow">{chef.role}</p><h3>{chef.name}</h3><p>{chef.bio}</p><ul>{chef.specialties.map(s=><li key={s}>{s}</li>)}</ul><Link className="pc-link" to={chef.slug}>Meet {chef.name.split(' ')[0]} →</Link></div></article>)}</div></ChefSection>
-<TeamCapability/><RealWork compact/><ChefEnquiry title="Tell us who you’re cooking for."/></div>}
+export default function OurChefs(){return <div><SEO title="Private Chefs Dubai | Find Your Household Match | myCHEF" description="Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF." canonicalPath="/our-chefs"/>
+<PageHero eyebrow="MYCHEF · YOUR FOOD. YOUR KIND OF CHEF." title={<>Private Chefs Dubai.<br/><em>Find your kind of cooking.</em></>} subtitle="A family favourite, a specialist cuisine or a beautifully planned dinner. Explore our chefs and cooking styles, then let us find the person who fits your home and the way you like to eat." cta={{label:'Explore 25 chef styles',href:'#household-profiles'}} secondaryCta={{label:'Compare monthly levels',href:'/full-time-private-chef-dubai#chef-levels'}}/>
+<ClusterNav/>
+<ChefSection id="household-profiles" eyebrow="Your personal shortlist starts here" title="Private chefs in Dubai, matched to your household."><HouseholdProfiles/></ChefSection>
+<ChefSection eyebrow="Meet our chefs" title="Different talents. A shared love of food." tone="pc-tone-cream"><p className="pc-section-intro">Get to know some of our chefs and their favourite ways to cook. We confirm the person, menu and availability around your household or occasion.</p><div className="pc-chef-directory">{chefs.map(chef=><article key={chef.slug}><Link to={chef.slug}><ServiceImage src={chef.image} alt={chef.name} width={600} height={800} loading="lazy" decoding="async"/></Link><div><p className="pc-eyebrow">{chef.role}</p><h3>{chef.name}</h3><p>{chef.bio}</p><ul>{chef.specialties.map(s=><li key={s}>{s}</li>)}</ul><Link className="pc-link" to={chef.slug}>Meet {chef.name.split(' ')[0]} →</Link></div></article>)}</div></ChefSection>
+<HouseholdCallout compact/><ChefEnquiry title="Tell us what you love to eat."/></div>}

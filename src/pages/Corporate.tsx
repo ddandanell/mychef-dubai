@@ -28,7 +28,7 @@ import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
 import CorporateSiblings from '@/components/corporate/CorporateSiblings'
 import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
 import CorporateInventory from '@/components/corporate/CorporateInventory'
-import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { CATERING_PATHS } from '@/content/cateringCluster'
 import { packageById } from '@/content/corporatePackages'
 import {
   CORPORATE_KEYWORD_LOCK,
@@ -55,6 +55,8 @@ import {
   startSteps,
   whatWeHandle,
 } from '@/content/corporatePage'
+
+const CORPORATE_INQUIRY_HREF = '/inquiry?from=/corporate'
 
 const hubPackages = [
   packageById('corp-office-lunch-dropoff'),
@@ -133,7 +135,7 @@ export default function Corporate() {
         imageWidth={corporateHero.width}
         imageHeight={corporateHero.height}
         align="left"
-        cta={{ label: 'Request an itemised corporate quote', href: CATERING_INQUIRY_HREF }}
+        cta={{ label: 'Request an itemised corporate quote', href: CORPORATE_INQUIRY_HREF }}
         secondaryCta={{ label: 'Send the brief on WhatsApp', href: CORPORATE_WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate dining' }]}
         minHeight="full"
@@ -147,6 +149,14 @@ export default function Corporate() {
       <div className="bg-black">
         <CorporateTrustStrip />
       </div>
+      <nav aria-label="Choose a corporate catering service" className="border-b border-gray-200 bg-cream">
+        <div className="container-custom flex flex-wrap items-center gap-x-6 gap-y-3 py-5 font-inter text-body-sm">
+          <span className="font-medium text-black">Choose the service you need:</span>
+          <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">Regular office catering</Link>
+          <Link to="/corporate-event-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">One-off company events</Link>
+          <Link to="/business-lunch-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">Business lunches</Link>
+        </div>
+      </nav>
 
       <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
         <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
@@ -253,7 +263,7 @@ export default function Corporate() {
               corporate event catering Dubai <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
-              to={CATERING_INQUIRY_HREF}
+              to={CORPORATE_INQUIRY_HREF}
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
@@ -383,7 +393,7 @@ export default function Corporate() {
             </BodyCopy>
           ))}
           <div className="mt-10">
-            <CorporateQuoteNeeds inquiryHref={CATERING_INQUIRY_HREF} whatsappHref={CORPORATE_WHATSAPP_LINK} />
+            <CorporateQuoteNeeds inquiryHref={CORPORATE_INQUIRY_HREF} whatsappHref={CORPORATE_WHATSAPP_LINK} />
           </div>
         </Container>
       </Section>
@@ -478,7 +488,7 @@ export default function Corporate() {
             Drop-off starts from AED 90 per person. Date, venue and headcount is enough to start. Dietary notes can follow.
           </p>
           <CTAGroup>
-            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+            <Link to={CORPORATE_INQUIRY_HREF} className="btn-primary">
               Request an itemised corporate quote
             </Link>
             <a

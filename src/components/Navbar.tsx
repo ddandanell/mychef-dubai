@@ -177,7 +177,7 @@ function isItemActive(pathname: string, href: string) {
 
 function clusterActive(pathname: string) {
   const path = normalizePath(pathname)
-  return path === CLUSTER_PATHS.overview || path.startsWith(`${CLUSTER_PATHS.overview}/`)
+  return path === CLUSTER_PATHS.overview || path.startsWith(`${CLUSTER_PATHS.overview}/`) || ['/full-time-private-chef-dubai', '/part-time-private-chef-dubai', '/weekly-meal-prep-dubai', '/our-chefs'].includes(path) || path.startsWith('/chefs/')
 }
 
 function itemIsActive(pathname: string, link: NavItem) {

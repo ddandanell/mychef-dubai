@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/arabic-catering-dubai",
   "path": "/arabic-catering-dubai",
   "role": "indexable page",
@@ -26,13 +26,13 @@
     "primary_owner": "/arabic-catering-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Arabic Catering Dubai | Mezze, Grill, Ouzi | myCHEF",
-    "description": "Arabic catering Dubai: mezze, charcoal grills, ouzi, Emirati and Levantine dishes. Chefs cook on site and clear the room. Send date, guests and venue.",
+    "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
+    "description": "Arabic catering in Dubai for majlis, weddings and private events. Plan mezze, grills, rice dishes and sweets, with halal sourcing and service agreed.",
     "h1": [
       "Arabic Catering Dubai"
     ]
@@ -60,6 +60,7 @@
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/data/locations.ts",
@@ -268,7 +269,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

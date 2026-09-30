@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-29",
+  "url": "https://www.mychef.ae/private-chef-dubai/live-in-chef",
+  "path": "/private-chef-dubai/live-in-chef",
+  "role": "indexable page",
+  "page_type": "Commercial landing",
+  "silo": "Private Chef",
+  "purpose": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support.",
+  "keywords": {
+    "primary": "live in private chef dubai",
+    "secondary": [
+      "resident chef dubai",
+      "live in household chef dubai"
+    ],
+    "primary_owner": "/private-chef-dubai/live-in-chef",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Live In Private Chef Dubai | Household Matching | myCHEF",
+    "description": "Find a live-in private chef in Dubai from AED 18,000/month. Personal household matching, recruitment coordination, introductions and ongoing support.",
+    "h1": [
+      "Live In Private Chef Dubai. A familiar rhythm at home."
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/private-chef-dubai/live-in-chef",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/FaqAccordion.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/cateringDesign.json",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
+    "src/lib/householdSchema.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/lib/whatsapp.ts",
+    "src/pages/household/ArrangementPage.tsx",
+    "src/pages/household/LiveInChef.tsx",
+    "src/styles/catering-editorial.css",
+    "src/utils/schema.ts"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 883,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "A live in private chef in Dubai, matched to your way of living."
+      },
+      {
+        "level": "h2",
+        "text": "The details we work through together."
+      },
+      {
+        "level": "h3",
+        "text": "A comfortable place to live"
+      },
+      {
+        "level": "h3",
+        "text": "Working hours that work for everyone"
+      },
+      {
+        "level": "h3",
+        "text": "A kitchen with a shared plan"
+      },
+      {
+        "level": "h3",
+        "text": "Guests, travel and time away"
+      },
+      {
+        "level": "h2",
+        "text": "Five chef levels. From AED 18,000 a month."
+      },
+      {
+        "level": "h2",
+        "text": "A personal introduction, then a thoughtful start."
+      },
+      {
+        "level": "h3",
+        "text": "Tell us about your home"
+      },
+      {
+        "level": "h3",
+        "text": "Build your personal shortlist"
+      },
+      {
+        "level": "h3",
+        "text": "Meet, talk and cook"
+      },
+      {
+        "level": "h3",
+        "text": "Settle into your routine"
+      },
+      {
+        "level": "h3",
+        "text": "Keep the fit working"
+      },
+      {
+        "level": "h2",
+        "text": "One team to keep things moving."
+      },
+      {
+        "level": "h3",
+        "text": "Your chef search"
+      },
+      {
+        "level": "h3",
+        "text": "A thoughtful start"
+      },
+      {
+        "level": "h3",
+        "text": "One ongoing contact"
+      },
+      {
+        "level": "h3",
+        "text": "Help when things change"
+      },
+      {
+        "level": "h2",
+        "text": "Your live-in chef questions."
+      },
+      {
+        "level": "h3",
+        "text": "Does a live-in chef work around the clock?"
+      },
+      {
+        "level": "h3",
+        "text": "What accommodation should we provide?"
+      },
+      {
+        "level": "h3",
+        "text": "Can our chef travel with the household?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a live-in chef cost?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we meet and try the chef first?"
+      },
+      {
+        "level": "h2",
+        "text": "Tell us what a good day at home looks like."
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "Private chef"
+      },
+      {
+        "url": "/private-chef-dubai/live-in-chef",
+        "anchor": "Live-in chef",
+        "current": true
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "Private chef",
+      "alt_anchors": [
+        "private chef dubai"
+      ]
+    },
+    "siblings": [
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "Household chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/our-chefs",
+        "anchor": "Our chefs",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/pricing",
+        "anchor": "Pricing & plans",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [
+      {
+        "url": "/blog/how-much-does-private-chef-cost-dubai",
+        "anchor": "What a private chef costs",
+        "alt_anchors": [
+          "how much does private chef cost"
+        ]
+      }
+    ],
+    "cross_silo": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "Catering",
+        "alt_anchors": []
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Luxury dining",
+        "alt_anchors": [
+          "luxury dining experiences"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "url": "/locations",
+        "anchor": "Areas we serve",
+        "alt_anchors": [
+          "catering near me"
+        ]
+      }
+    ],
+    "do_not_link": [
+      "/private-chef-dubai/our-chefs",
+      "/chefs/sofia-pastry-chef",
+      "/staff-meals-catering-dubai",
+      "/private-party-catering-dubai",
+      "/canape-catering-dubai",
+      "/production-catering-dubai",
+      "/corporate-catering-dubai",
+      "/healthcare-catering-dubai",
+      "/school-catering-dubai",
+      "/nursery-catering-dubai",
+      "/university-catering-dubai",
+      "/government-event-catering-dubai",
+      "/catering",
+      "/yacht-catering-dubai",
+      "/villa-catering-dubai",
+      "/event-catering-dubai",
+      "/luxury-dining-dubai",
+      "/private-dining-dubai",
+      "/dessert-table-dubai",
+      "/live-cooking-station-dubai",
+      "/locations/jumeirah-islands",
+      "/locations/mirdif",
+      "/locations/dubai-internet-city",
+      "/locations/meydan",
+      "/locations/dubai-harbour",
+      "/locations/al-barari",
+      "/locations/dubai-media-city",
+      "/locations/dubai-creek-harbour",
+      "/locations/jumeirah-golf-estates",
+      "/locations/mall-of-the-emirates",
+      "/locations/dwtc",
+      "/locations/dubai-mall",
+      "/locations/city-walk",
+      "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "/case-studies/product-launch-difc",
+      "/case-studies/family-eid-gathering-arabian-ranches",
+      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "/case-studies/villa-wedding-reception-emirates-hills",
+      "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "/private-chef-prices-dubai",
+      "/dubai-catering-prices",
+      "/catering-cost-calculator",
+      "/event-catering-prices-2026",
+      "/guides/event-catering-prices-2026",
+      "/jbr",
+      "/luxury-catering-dubai"
+    ]
+  }
+}

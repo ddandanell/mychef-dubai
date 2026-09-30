@@ -89,7 +89,7 @@ export default function CanapeCatering() {
         <nav aria-label="Breadcrumb" className="cn-breadcrumb"><Link to="/">Home</Link><span>/</span><Link to="/catering-dubai">Catering</Link><span>/</span><span aria-current="page">Canapés</span></nav>
         <p className="cn-eyebrow">The myCHEF canapé collection</p><h1>Canapé Catering Dubai</h1>
         <p className="cn-hero-line">Small bites.<br /><em>Remarkable occasions.</em></p>
-        <p className="cn-lead">Canapé catering in Dubai, shaped around your guests. Explore 50 menu ideas, from delicate seafood and warm savoury bites to vibrant plant-based creations and a beautiful sweet finish.</p>
+        <p className="cn-lead">Canapé catering in Dubai for private parties, weddings and company receptions. Explore 50 finger food ideas, from warm savoury bites and seafood to vegetarian selections and miniature desserts. Shortlist favourites, then plan quantities and service around your guests.</p>
         <div className="cn-actions"><a className="cn-button" href="#canape-menu">Explore the 50 creations <ArrowDown size={17} /></a><Link className="cn-text-link" to="/inquiry?from=/canape-catering-dubai">Request a canapé catering quote <ArrowUpRight size={16} /></Link></div>
         <p className="cn-hero-note">From AED 150 per guest · Ten-guest starting brief<br /> Final menu and service quoted for your event. VAT separate.</p>
       </div>

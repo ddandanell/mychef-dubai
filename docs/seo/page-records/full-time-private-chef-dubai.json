@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-22",
+  "reviewed_at": "2026-09-29",
   "url": "https://www.mychef.ae/full-time-private-chef-dubai",
   "path": "/full-time-private-chef-dubai",
   "role": "indexable page",
@@ -15,22 +15,20 @@
       "full time private chef cost dubai",
       "monthly private chef dubai",
       "private chef for family",
-      "part time chef dubai",
-      "top personal chef providers in dubai",
-      "best time to hire caterers"
+      "private chef dubai monthly"
     ],
     "primary_owner": "/full-time-private-chef-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
-    "volume_status": "Not measured in this editorial audit",
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
     "intent": "transactional",
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Full Time Private Chef Dubai | Plans for Your Home | myCHEF",
-    "description": "A regular chef arrangement for households that want cooking woven into the week. Plan breakfast, lunch, dinner and kitchen support around the hours you.",
+    "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
+    "description": "Full time private chef in Dubai with personal matching and ongoing support. Household plans from AED 18,000/month before VAT, with groceries separate.",
     "h1": [
-      "Full Time Private Chef Dubai. Your everyday kitchen, taken care of."
+      "Full Time Private Chef Dubai. At home in your life."
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,132 +45,178 @@
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
     "src/components/catering/CateringEditorial.tsx",
+    "src/components/household/HouseholdImage.tsx",
+    "src/components/household/HouseholdProfiles.tsx",
+    "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefSections.tsx",
+    "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
-    "src/components/private-chef/HouseholdServicePage.tsx",
     "src/components/private-chef/ServiceImage.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
-    "src/content/householdServices.ts",
+    "src/content/householdChefs.ts",
+    "src/content/householdProfiles.json",
+    "src/content/householdProfiles.ts",
     "src/content/parkedUrls.ts",
+    "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
+    "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
+    "src/lib/householdInquiry.ts",
+    "src/lib/householdSchema.ts",
     "src/lib/jsonld.ts",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/lib/whatsapp.ts",
     "src/pages/FullTimePrivateChef.tsx",
+    "src/pages/household/HouseholdChef.tsx",
     "src/styles/catering-editorial.css",
     "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 2054,
+    "current_word_count": 2987,
     "headings": [
       {
         "level": "h2",
-        "text": "A full time private chef in Dubai, shaped around home."
+        "text": "A full time private chef in Dubai, around your home."
       },
       {
         "level": "h2",
-        "text": "The little things that make it work."
+        "text": "Live in. Or come each day."
       },
       {
         "level": "h3",
-        "text": "A rhythm for the week"
+        "text": "A chef who lives in"
       },
       {
         "level": "h3",
-        "text": "Food that feels familiar"
-      },
-      {
-        "level": "h3",
-        "text": "A clear kitchen brief"
-      },
-      {
-        "level": "h3",
-        "text": "Continuity and coordination"
+        "text": "A chef who comes each day"
       },
       {
         "level": "h2",
-        "text": "A chef in your kitchen. A team behind the details."
+        "text": "From family favourites to exceptional private dining."
       },
       {
         "level": "h3",
-        "text": "Menus that fit your home"
+        "text": "Standard Household Chef"
       },
       {
         "level": "h3",
-        "text": "A considered chef match"
+        "text": "Select Household Chef"
       },
       {
         "level": "h3",
-        "text": "Ongoing coordination"
+        "text": "Senior Private Chef"
       },
       {
         "level": "h3",
-        "text": "A kitchen left in order"
+        "text": "Executive Private Chef"
+      },
+      {
+        "level": "h3",
+        "text": "Elite Private Chef"
       },
       {
         "level": "h2",
-        "text": "Choose the service that fits."
+        "text": "Which chef feels like your kind of chef?"
       },
       {
         "level": "h3",
-        "text": "One fresh meal each week"
+        "text": "Everyday Family Chef"
       },
       {
         "level": "h3",
-        "text": "Weekly food preparation"
+        "text": "Arabic Household and Majlis Chef"
       },
       {
         "level": "h3",
-        "text": "A full-day chef, five days a week"
+        "text": "European Tasting Menu Chef"
       },
       {
         "level": "h2",
-        "text": "Details that make the occasion."
+        "text": "From your household brief to a settled routine."
       },
       {
         "level": "h3",
-        "text": "A table set on deck"
+        "text": "Tell us about your home"
       },
       {
         "level": "h3",
-        "text": "Food with attention to detail"
+        "text": "Build your personal shortlist"
       },
       {
         "level": "h3",
-        "text": "The service behind the occasion"
+        "text": "Meet, talk and cook"
+      },
+      {
+        "level": "h3",
+        "text": "Settle into your routine"
+      },
+      {
+        "level": "h3",
+        "text": "Keep the fit working"
       },
       {
         "level": "h2",
-        "text": "Before your first visit."
+        "text": "Support that continues after the introduction."
       },
       {
         "level": "h3",
-        "text": "Is the chef live-in?"
+        "text": "Your chef search"
       },
       {
         "level": "h3",
-        "text": "How many hours are in a full day?"
+        "text": "A thoughtful start"
       },
       {
         "level": "h3",
-        "text": "Can menus change each week?"
+        "text": "One ongoing contact"
+      },
+      {
+        "level": "h3",
+        "text": "Help when things change"
       },
       {
         "level": "h2",
-        "text": "Let’s make room for good food."
+        "text": "Your household chef questions."
+      },
+      {
+        "level": "h3",
+        "text": "What does a monthly household chef service include?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I choose between a live-in and a daily live-out chef?"
+      },
+      {
+        "level": "h3",
+        "text": "How much does a full-time household chef cost?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we try the chef before making a long-term commitment?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if the chef is not the right match?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I still book a chef for a few hours or a short stay?"
+      },
+      {
+        "level": "h2",
+        "text": "Let’s find the person your kitchen is missing."
       },
       {
         "level": "h2",
@@ -192,7 +236,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan arrival time around preparation, not just mealtime"
+        "text": "Plan working time around preparation and meals"
       },
       {
         "level": "h2",
@@ -212,7 +256,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-22/README.md",
+    "log": "docs/editorial-audit/2026-09-29/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {
@@ -252,6 +296,16 @@
       {
         "url": "/private-chef-dubai/pricing",
         "anchor": "Pricing",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/live-in-chef",
+        "anchor": "Live-in chef",
+        "alt_anchors": []
+      },
+      {
+        "url": "/private-chef-dubai/live-out-chef",
+        "anchor": "Daily live-out chef",
         "alt_anchors": []
       }
     ],
