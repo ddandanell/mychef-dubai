@@ -33684,25 +33684,17 @@
    "absolute_url": "https://www.mychef.ae/our-chefs",
    "silo": "Private Chef",
    "silo_priority": "P1",
-   "page_type": "Commercial landing",
+   "page_type": "Chef directory",
    "hub": "/private-chef-dubai",
    "is_hub": false,
    "status": "LOCKED",
    "intent_owner": {
-    "primary_keyword": "private chefs dubai",
+    "primary_keyword": "meet our chefs in dubai",
     "subkeywords": [
-     "chefs dubai",
-     "how are private chefs vetted dubai",
-     "are private chefs in dubai licensed",
-     "female private chef dubai",
-     "hire chef dubai",
-     "looking for chef",
-     "private chef hire",
-     "personal chef",
-     "chef for hire",
-     "female private chefs dubai",
-     "private bbq chef dubai",
-     "private cook in dubai"
+     "chef profiles dubai",
+     "household chef profiles",
+     "chef cooking styles",
+     "chef specialities dubai"
     ],
     "subkeyword_cap": 12,
     "primary_may_appear_in": [
@@ -33720,28 +33712,19 @@
      "h3",
      "title"
     ],
-    "subkeyword_notes": {
-     "hire chef dubai": "Semrush UAE 30/mo, owner export 2026-08-25; added 2026-08-26",
-     "looking for chef": "Semrush UAE 30/mo, owner export 2026-08-25; added 2026-08-26",
-     "private chef hire": "Semrush UAE 30/mo, owner export 2026-08-25; added 2026-08-26",
-     "personal chef": "owner's list 2026-08-26 · Google Ads UAE 40/mo",
-     "chef for hire": "owner's list 2026-08-26 · Google Ads UAE 70/mo",
-     "female private chefs dubai": "historical-master · filled 2026-08-26",
-     "private bbq chef dubai": "google-autocomplete/historical-master · filled 2026-08-26",
-     "private cook in dubai": "google-autocomplete · filled 2026-08-26",
-     "chefs dubai": "DataForSEO UAE 720/mo, KD 0, unowned until 2026-08-26"
-    }
+    "subkeyword_notes": {},
+    "broad_service_owner": "/private-chef-dubai"
    },
    "on_page": {
-    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
+    "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
     "title_max_chars": 65,
-    "h1": "Private Chefs Dubai. Find your kind of cooking.",
+    "h1": "Meet our chefs in Dubai. Find your kind of cooking.",
     "h1_count": 1,
-    "meta_description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF.",
+    "meta_description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF.",
     "meta_description_max_chars": 160,
-    "og_title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
+    "og_title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
     "og_type": "website",
-    "og_description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF."
+    "og_description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF."
    },
    "indexation": {
     "robots": {
@@ -36916,7 +36899,7 @@
      "private chef near me",
      "french private chef dubai",
      "private chef dubai daily",
-     "private chef dubai full time",
+     "private chefs dubai",
      "private chef dubai monthly"
     ],
     "subkeyword_cap": 12,
@@ -49556,7 +49539,7 @@
    "is_hub": false,
    "status": "LIVE",
    "intent_owner": {
-    "primary_keyword": null,
+    "primary_keyword": "household chef or event catering",
     "subkeywords": [],
     "subkeyword_cap": 8,
     "primary_may_appear_in": [
@@ -49574,17 +49557,19 @@
      "h3",
      "title"
     ],
-    "subkeyword_notes": {}
+    "subkeyword_notes": {},
+    "broad_service_owner": "/private-chef-dubai"
    },
    "on_page": {
-    "title": "Best Private Chef in Dubai for Home Dining (2026)",
+    "title": "Household Chef or Event Catering? Choosing the Right Brief",
     "title_max_chars": 65,
-    "h1": "Best Private Chef in Dubai for Home Dining (2026)",
+    "h1": "Household chef or event catering: which arrangement do you need?",
     "h1_count": 1,
-    "meta_description": "myCHEF's vetted, halal-first chefs are Dubai's best private chef option for home dining in 2026 — compare formats, pros, cons, and who each suits best.",
+    "meta_description": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Private Chef in Dubai for Home Dining (2026)",
-    "og_type": "article"
+    "og_title": "Household Chef or Event Catering? Choosing the Right Brief",
+    "og_type": "article",
+    "og_description": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing."
    },
    "indexation": {
     "robots": {
