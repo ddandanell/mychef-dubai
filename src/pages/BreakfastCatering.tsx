@@ -43,7 +43,7 @@ const config: ServicePageConfig = {
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering Dubai
         </Link>
-        . For a standing household chef who cooks breakfast every day, that is private chef, not catering.
+        . For breakfast cooked at home on a regular schedule, explore a <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">private chef for your family</Link> and agree the cooking days and meals you need.
       </p>
     </>
   ),

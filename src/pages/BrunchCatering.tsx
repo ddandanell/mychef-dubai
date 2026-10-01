@@ -46,8 +46,8 @@ const brunchServices = [
   {
     icon: Coffee,
     title: 'Breakfast Chef Service',
-    description: 'A standing breakfast chef for the household is a different product. That brief sits on private chef, not this catering page.',
-    link: '/private-chef-dubai',
+    description: 'Regular breakfast cooking for your household, arranged around the days and meal times you need.',
+    link: '/part-time-private-chef-dubai',
   },
   {
     icon: Users,
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     q: 'Can you provide a private breakfast chef every day?',
-    a: 'For regular breakfasts at home, explore our [private chef service](/private-chef-dubai). For a brunch gathering, share the date, guest count and menu preferences so we can prepare an event proposal.',
+    a: 'For regular breakfasts at home, explore our [regular cooking visits](/part-time-private-chef-dubai). For a brunch gathering, share the date, guest count and menu preferences so we can prepare an event proposal.',
   },
   {
     q: 'What kind of brunch menu can we choose?',
@@ -138,7 +138,7 @@ const faqs = [
   },
   {
     q: 'How far in advance should I book brunch catering?',
-    a: 'One to two weeks is typical for a house brunch. Large corporate mornings and November to March weekends need longer. Daily household breakfast is a [private chef](/private-chef-dubai) plan, quoted separately.',
+    a: 'One to two weeks is typical for a house brunch. Large corporate mornings and November to March weekends need longer. Daily household breakfast is a household chef plan, quoted separately.',
   },
   { q: "How much does brunch catering cost in Dubai?", a: "Brunch catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu, service style and location. A chef cooking in your kitchen is a different number from a hotel dining room you did not book. Tell us your numbers and we typically acknowledge the enquiry within 15 minutes during business hours, with an itemised proposal to follow." },
   { q: "What exactly is included in a brunch catering booking?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, plus full cleanup afterwards. We also supply the serving equipment, chafing dishes, tableware, and linens, and remove everything once service is finished. Serving staff and additional hosts are optional add-ons depending on your guest count and how hands-off you want the morning to be." },
@@ -147,7 +147,7 @@ const faqs = [
   { q: "How do I know I can trust myCHEF with an event at my home?", a: "We are an established, full-service private chef and catering company that handles brunches end to end, from menu to cleanup, so you deal with one experienced team throughout. Our chefs regularly cook in private villas, apartments, and offices across Dubai and treat your space with care. You can read more [about us](/about) and see how we work before you book." },
   { q: "Can you make eggs, pancakes, and waffles to order in front of guests?", a: "Yes. We set up live cooking stations so your guests get eggs any style, fresh pancakes, waffles, and shakshuka made to order on the spot. Interactive stations are one of the best parts of a home brunch, adding a relaxed, sociable energy to the morning. We bring all the equipment and the chef handles everything, then clears it away after service." },
   { q: "Is there a minimum number of guests for brunch catering?", a: "We cater brunches for intimate groups of a handful of people right up to large gatherings of sixty or more, so there is no rigid one-size minimum. For very small brunches a single chef manages the whole spread, while larger events get additional kitchen and serving support. Share your guest count when you enquire and we scale the team and menu to fit." },
-  { q: "Do you provide waiters and serving staff for the brunch?", a: "Yes, serving staff are an optional add-on so you can host completely hands-free while we pour coffee, refill stations, and clear plates. For smaller brunches the chef can handle both cooking and light service, while larger events benefit from dedicated hosts. We recommend the right staffing level for your guest count in your [private chef](/private-chef-dubai) proposal." },
+  { q: "Do you provide waiters and serving staff for the brunch?", a: "Yes, serving staff are an optional add-on so you can host completely hands-free while we pour coffee, refill stations, and clear plates. For smaller brunches the chef can handle both cooking and light service, while larger events benefit from dedicated hosts. We recommend the right staffing level for your guest count in your brunch catering proposal." },
   { q: "Can you cater a brunch with drinks, mocktails, or a bar setup?", a: "Yes. We include fresh juices, smoothies, artisanal coffee, specialty teas, and mocktail bellinis as part of our brunch menus, and we can add a dedicated drinks station. For a livelier setup we can arrange a full [mocktail bar](/bar-services-dubai) with a host mixing to order. Let us know the vibe you want and we design the beverage service around it." },
   { q: "Can you handle allergies and mixed dietary needs at one brunch?", a: "Yes. Vegan, vegetarian, gluten-free, dairy-free and nut-aware plates can sit on the same table when you flag them. For a declared allergy, see [allergy-safe catering](/allergy-safe-catering-dubai)." },
   { q: "Which areas of Dubai do you cover for brunch catering?", a: "We cater brunches across all of Dubai, including Palm Jumeirah, Downtown Dubai, Dubai Marina, Emirates Hills, JBR, and beyond, in villas, apartments, offices, and event spaces. Our chefs travel to you with everything needed for the morning. If you are in a gated community, holiday home, or hotel suite, just share the access details when you book." },
@@ -155,7 +155,7 @@ const faqs = [
   { q: "Can you set up brunch outdoors, poolside, or on a terrace?", a: "Yes. We regularly serve brunches poolside, on terraces and in garden settings at villas and private residences, adapting the setup to your space. We bring shaded stations, serving equipment, and keep food held at the right temperature outdoors. We can also cook brunch on a [yacht](/yachts) you have chartered, or at a private villa." },
   { q: "Do I need to provide anything, or do you bring everything?", a: "You provide the space and we bring everything else, from ingredients and cooking equipment to chafing dishes, tableware, glassware, and linens. Our chefs arrive early to set up, cook fresh on-site, and then handle the full clear-down so your kitchen and dining area are left spotless. All you need to do is enjoy the morning with your guests." },
   { q: "Is brunch catering at home better than booking a hotel brunch?", a: "A catered brunch at home is a private morning with a menu written for your table, no hotel sitting time, and no shared dining room. You choose what is served and who is there. If you want to compare formats, our team can walk you through the options on the [contact](/contact) page." },
-  { q: "Can a private chef prepare breakfast every day during a villa stay?", a: "Yes. A regular breakfast service can be discussed as a [household private chef arrangement](/private-chef-dubai). Explore [private chef pricing](/private-chef-dubai/pricing) and share the dates and meal schedule for your stay." },
+  { q: "Can a private chef prepare breakfast every day during a villa stay?", a: "Yes. A regular breakfast service can be discussed as a [chef for your short stay](/private-chef-dubai/short-term-chef). Explore [private chef pricing](/private-chef-dubai/pricing) and share the dates and meal schedule for your stay." },
   {
     q: 'Is easter brunch catering Dubai the same as brunch catering Dubai?',
     a: 'We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
@@ -573,7 +573,6 @@ export default function BrunchCatering() {
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Services</h3>
               <ul className="space-y-3">
                 <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
-                <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
                 <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
                 <li><Link to="/private-party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>

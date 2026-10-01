@@ -4,6 +4,7 @@
 //     subkeywords: "catering partner for concierge companies dubai" · "partner with a private chef company dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import { Link } from 'react-router'
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { ConciergeBell, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -20,6 +21,7 @@ export default function ConciergeServicesPartner() {
       subheadline={"Private chefs, villa dining and yacht catering coordinated for the clients your concierge team already serves."}
       intro="You already have the client. We run the kitchen."
       valueProposition={"Support your clients with a private chef, dinner at home or catering aboard a chartered yacht. We prepare an itemised proposal and coordinate the culinary service while you remain their concierge contact. Referral fees or retainers are agreed in writing before the first introduction."}
+      serviceOverview={<>For members who need cooking at home, review our <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">private chef service for Dubai households</Link> before sending the brief. This helps your desk distinguish cooking visits from a dedicated household role.</>}
       benefits={[
         { icon: ConciergeBell, title: 'The night they asked for', description: 'A household chef visit, a dinner for guests, or a yacht sitting. The brief names the job. We do not guess it.' },
         { icon: TrendingUp, title: 'A service you can add without building a kitchen', description: 'You take the request. We quote food, staff, hire and 5% VAT as separate lines.' },

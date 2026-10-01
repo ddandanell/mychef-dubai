@@ -42,8 +42,11 @@ for (const path of [
   if (path === '/private-chef-dubai') assert.match(html, /data-chef-expansion/)
   if (path === '/corporate') assert.match(html, /data-catering-expansion/)
   if (RYZE_BLOG_PATHS.includes(path)) {
-    assert.match(html, /data-blog-service-link/)
     const service = blogServiceFor(path.slice('/blog/'.length))
+    // A contextual article link can replace the generic service box. Check the
+    // article itself, so the site-wide navigation cannot satisfy this assertion.
+    const articleHtml = html.match(/<article\b[\s\S]*?<\/article>/)?.[0] || ''
+    assert.ok(articleHtml.includes(`href="${service.href}"`) || articleHtml.includes(`href="https://www.mychef.ae${service.href}"`), `${path}: article links to its commercial owner`)
     assert.ok(html.includes(`href="${service.href}"`), `${path}: commercial service is linked`)
   }
   console.log(`PASS ready on first render: ${path}`)

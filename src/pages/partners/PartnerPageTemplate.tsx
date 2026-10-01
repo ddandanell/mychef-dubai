@@ -31,6 +31,7 @@ interface PartnerPageTemplateProps {
   subheadline?: string
   intro: string
   valueProposition: string
+  serviceOverview?: React.ReactNode
   benefits: Benefit[]
   howItWorks: string[]
   ctaText?: string
@@ -50,6 +51,7 @@ export default function PartnerPageTemplate({
   subheadline = 'You keep the client. We run the kitchen. Terms in writing before the first introduction.',
   intro,
   valueProposition,
+  serviceOverview,
   benefits,
   howItWorks,
   ctaText = 'Discuss a Partnership',
@@ -117,6 +119,7 @@ export default function PartnerPageTemplate({
             <SectionLabel align="center">Why Partner</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-6">{intro}</h2>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">{valueProposition}</p>
+            {serviceOverview && <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">{serviceOverview}</p>}
           </div>
         </div>
       </section>

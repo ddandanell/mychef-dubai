@@ -44,6 +44,29 @@ interface ChefProfileProps {
   chef: ChefProfileData
 }
 
+const serviceOverviewCopy: Record<string, [string, string, string]> = {
+  "/chefs/ahmed-executive-chef": [
+    "Planning cooking at home beyond one occasion? Compare our ",
+    "professional private chef service",
+    " and tell us the meals, schedule and cooking style you have in mind."
+  ],
+  "/chefs/marco-italian-chef": [
+    "If Italian cooking is part of your everyday brief, explore ",
+    "a private chef for your Dubai home",
+    " before requesting a chef match. The proposed person and availability are confirmed for your booking."
+  ],
+  "/chefs/layla-middle-eastern-chef": [
+    "For household meals shaped around your preferred cuisine, explore our ",
+    "private chef options in Dubai",
+    " and include your food preferences when you request a match."
+  ],
+  "/chefs/matteo-pastry-chef": [
+    "If you need the whole meal planned alongside dessert, compare ",
+    "myCHEF’s chef services for your home",
+    " so the cooking and any specialist support can be scoped together."
+  ]
+}
+
 export default function ChefProfile({ chef }: ChefProfileProps) {
   useScrollTrigger()
   const overviewRef = useRef<HTMLDivElement>(null)
@@ -240,6 +263,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
                 {chef.bio}
               </p>
+              {serviceOverviewCopy[chef.slug] && <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">{serviceOverviewCopy[chef.slug][0]}<Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">{serviceOverviewCopy[chef.slug][1]}</Link>{serviceOverviewCopy[chef.slug][2]}</p>}
 
               <div className="flex flex-wrap gap-2 mb-8">
                 {chef.specialties.map((specialty) => (

@@ -1,0 +1,202 @@
+{
+  "target": "https://www.mychef.ae/private-chef-dubai",
+  "date": "2026-10-01",
+  "decisions": [
+    {
+      "path": "/our-chefs",
+      "anchor": "private chef service in Dubai",
+      "placement": "Introduction above the chef-style profiles",
+      "reason": "Directory visitors can compare service formats before choosing a profile.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/part-time-private-chef-dubai",
+      "anchor": "private chef options for your home",
+      "placement": "After the household schedule introduction",
+      "reason": "Helps visitors compare part-time visits with the broader service choices.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/wellness-meal-prep-dubai",
+      "anchor": "a personal chef in Dubai",
+      "placement": "After the meal-preparation introduction",
+      "reason": "Offers a relevant next step when needs extend beyond prepared meals.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/private-chef-dubai/live-in-chef",
+      "anchor": "Dubai private chef services",
+      "placement": "After the resident-chef introduction",
+      "reason": "Compare accommodation-based arrangements with shorter cooking visits.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/private-chef-dubai/live-out-chef",
+      "anchor": "private chef service overview",
+      "placement": "After the daily live-out introduction",
+      "reason": "Clarifies dedicated daily service versus occasional visits.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/private-chef-dubai/short-term-chef",
+      "anchor": "hire a private chef in Dubai",
+      "placement": "Before the short-stay service choices",
+      "reason": "Supports visitors considering service beyond a single stay.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/private-chef-dubai/pricing",
+      "anchor": "private chef services available in Dubai",
+      "placement": "Opening service-choice paragraph above the calculator",
+      "reason": "Pricing visitors can first understand the services being priced.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/menus",
+      "anchor": "private chef for your home",
+      "placement": "Paragraph introducing service-format prices",
+      "reason": "Distinguishes everyday cooking from the event menus on this page.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/locations",
+      "anchor": "myCHEF’s private chef service",
+      "placement": "Location and service-planning paragraph",
+      "reason": "Connects area discovery to the main cooking-service choices.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/how-it-works",
+      "anchor": "a private chef for your household",
+      "placement": "Introduction immediately before the one-off dining timeline",
+      "reason": "Directs ongoing-service enquiries to the appropriate overview.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/how-we-vet-our-chefs",
+      "anchor": "private chef matching and service options",
+      "placement": "First paragraph explaining household selection",
+      "reason": "A trust-page reader can see how selection connects to booking a service.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/breakfast-catering-dubai",
+      "anchor": "private chef for your family",
+      "placement": "Existing paragraph distinguishing daily breakfasts from catering",
+      "reason": "Activates an existing useful service distinction without adding a new sales section.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/chefs/ahmed-executive-chef",
+      "anchor": "professional private chef service",
+      "placement": "Immediately after the chef biography",
+      "reason": "Connects a cooking-style profile to the broad service overview without replacing cuisine-specific navigation.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/chefs/marco-italian-chef",
+      "anchor": "a private chef for your Dubai home",
+      "placement": "Immediately after the chef biography",
+      "reason": "Connects a cooking-style profile to the broad service overview without replacing cuisine-specific navigation.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/chefs/layla-middle-eastern-chef",
+      "anchor": "private chef options in Dubai",
+      "placement": "Immediately after the chef biography",
+      "reason": "Connects a cooking-style profile to the broad service overview without replacing cuisine-specific navigation.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/chefs/matteo-pastry-chef",
+      "anchor": "myCHEF’s chef services for your home",
+      "placement": "Immediately after the chef biography",
+      "reason": "Connects a cooking-style profile to the broad service overview without replacing cuisine-specific navigation.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/partners/concierge-services-dubai",
+      "anchor": "private chef service for Dubai households",
+      "placement": "After the partnership value proposition",
+      "reason": "Helps a referring partner understand the consumer service before preparing a brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/partners/villa-rentals-dubai",
+      "anchor": "private chef for your villa",
+      "placement": "After the partnership value proposition",
+      "reason": "Helps a referring partner understand the consumer service before preparing a brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/blog/chef-maison-alternatives-in",
+      "anchor": "private chefs in Dubai for home dining",
+      "placement": "Contextual reference within the article body",
+      "reason": "Keeps the article’s informational or comparison purpose and supplies a direct service next step.",
+      "action": "Retargeted broad service anchor from comparison article to commercial owner"
+    },
+    {
+      "path": "/blog/monchef-alternatives-in",
+      "anchor": "a private chef in Dubai",
+      "placement": "Contextual reference within the article body",
+      "reason": "Keeps the article’s informational or comparison purpose and supplies a direct service next step.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/blog/take-a-chef-alternatives-in",
+      "anchor": "private chef services",
+      "placement": "Contextual reference within the article body",
+      "reason": "Keeps the article’s informational or comparison purpose and supplies a direct service next step.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/blog/private-chef-trial-dubai",
+      "anchor": "the private chef service you are considering",
+      "placement": "Contextual reference within the article body",
+      "reason": "Keeps the article’s informational or comparison purpose and supplies a direct service next step.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/blog/best-private-chefs-for-villas-in-dubai",
+      "anchor": "private chef plans for your villa",
+      "placement": "Contextual reference within the article body",
+      "reason": "Keeps the article’s informational or comparison purpose and supplies a direct service next step.",
+      "action": "Added contextual link"
+    },
+    {
+      "path": "/blog/best-cozymeal-alternatives-for-private-dining-in-dubai",
+      "anchor": "myCHEF private chef service in Dubai",
+      "placement": "Paragraph comparing home cooking, dinners and events",
+      "reason": "The broad chef-service reference should lead to the service rather than the homepage. Dining-specific links remain separate.",
+      "action": "Retargeted homepage link"
+    },
+    {
+      "path": "/brunch-catering-dubai",
+      "anchor": "private chef",
+      "placement": "Existing household-cooking introduction; lower related-service card retained",
+      "reason": "Reduce eight repeated overview links to two useful positions on this long page; specific regular-visit and short-stay references use the matching subpages.",
+      "action": "Reduced repetition and corrected specific destinations"
+    },
+    {
+      "path": "/blog/how-to-hire-a-private-chef-dubai",
+      "anchor": "Retain existing overview anchor",
+      "placement": "Matching-process link",
+      "reason": "The matching-process link now leads directly to the process page, instead of redirecting to the chef directory.",
+      "action": "Corrected matching-process destination"
+    },
+    {
+      "path": "/weekly-meal-prep-dubai",
+      "anchor": "Retain existing overview anchor",
+      "placement": "Matching-process link",
+      "reason": "The matching-process link now leads directly to the process page, instead of redirecting to the chef directory.",
+      "action": "Corrected matching-process destination"
+    }
+  ],
+  "rules": [
+    "Preserve separate intent for pricing, chef profiles, full-time, part-time, villa, yacht and event pages.",
+    "An authored main-service link prevents extra automatic links to that destination.",
+    "Automatic article links to the broad private-chef service are capped at one.",
+    "Chef article service boxes and repeated service buttons are omitted when the body already offers the same next step.",
+    "Existing redirects are retained; matching-process references now link directly to the process page."
+  ]
+}

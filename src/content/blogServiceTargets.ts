@@ -34,6 +34,9 @@ const services = {
 } as const
 
 export const BLOG_SERVICE_TARGETS: Record<string, keyof typeof services> = {
+  'best-home-catering-services-in-dubai': 'catering',
+  'mychef-vs-monchef-which-is-better-in': 'catering',
+  'mychef-vs-taste-studio-which-is-better-in': 'catering',
   'best-arabic-catering-companies-in-dubai': 'arabic',
   'best-bbq-catering-companies-in-dubai': 'bbq',
   'best-brunch-catering-services-in-dubai': 'brunch',

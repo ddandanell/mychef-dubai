@@ -4,6 +4,7 @@
 //     subkeywords: "catering partner for holiday homes dubai" · "villa catering package dubai" · "villa private chef" · "cooks villa near me" · "holiday villa with chef" · "cooks villa blackburn" · "cooks villa raipur" · "cooks villa rarotonga"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import { Link } from 'react-router'
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { Home, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -20,6 +21,7 @@ export default function VillaRentalsPartner() {
       subheadline={"A villa rentals partnership in Dubai, offering guests private breakfasts, dinners, BBQs and celebration menus prepared at the property."}
       intro="Villa rentals partnership Dubai: a chef in the house"
       valueProposition={"A villa rentals partnership in Dubai adds private dining to your guests’ stay. We plan breakfasts, dinners, BBQs and celebrations around the property’s kitchen and access arrangements, with the menu, chef and service confirmed for each booking."}
+      serviceOverview={<>When guests want meals across several days of their stay, explore a <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">private chef for your villa</Link> and share the dates, kitchen facilities and meal schedule with your partnership enquiry.</>}
       benefits={[
         { icon: Home, title: 'In-villa private chef', description: 'A private chef prepares breakfast, lunch, dinner or events in the villa kitchen, so guests do not need a restaurant reservation.' },
         { icon: TrendingUp, title: 'A dining add-on on the listing', description: 'Offer chef dinners as an add-on on the villa booking, with the kitchen work sitting with us.' },

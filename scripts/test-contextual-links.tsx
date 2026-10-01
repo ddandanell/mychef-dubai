@@ -3,7 +3,7 @@ import React from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MemoryRouter, Link } from 'react-router'
 import BlogProse from '../src/components/blog/BlogProse'
-import { blogLinkState, linkBlogText } from '../src/lib/blogEditorial'
+import { blogLinkState, linkBlogText, prepareBlogHtml, privateChefBodyLinkCount } from '../src/lib/blogEditorial'
 
 // The standalone TSX runner uses the classic JSX transform; Vite supplies the
 // automatic runtime in the website build.
@@ -32,3 +32,18 @@ const words = ['office catering', 'business lunch', 'passed canapés', 'wedding 
 for (const word of words) linkBlogText(word, { ...state, remaining: 1 })
 assert.equal([...state.uses.values()].reduce((sum, n) => sum + n, 0), 8)
 console.log('Contextual links: correct owners, protected pages, existing links, headings, repetition and article limit verified.')
+
+const guidePath = '/blog/private-chef-trial-dubai'
+for (const href of ['/private-chef-dubai', 'https://www.mychef.ae/private-chef-dubai', 'https://mychef.ae/private-chef-dubai/#options']) {
+  const authored = `<p>Compare private chef services in Dubai.</p><p>Explore <a href="${href}">the service for your home</a>.</p><p>A household chef can help.</p>`
+  assert.equal(privateChefBodyLinkCount(prepareBlogHtml(authored, guidePath).html), 1, `Preserve authored link: ${href}`)
+}
+const repeated = '<p>Compare private chef services in Dubai.</p><p>A household chef can help.</p><p>A personal chef in Dubai.</p>'
+assert.equal(privateChefBodyLinkCount(prepareBlogHtml(repeated, guidePath).html), 1)
+const prose = renderToStaticMarkup(<MemoryRouter initialEntries={[guidePath]}><BlogProse>
+  <p>Compare private chef services in Dubai.</p>
+  <p>Explore <Link to="/private-chef-dubai">the cooking service</Link>.</p>
+  <p>A personal chef in Dubai.</p>
+</BlogProse></MemoryRouter>)
+assert.equal(privateChefBodyLinkCount(prose), 1)
+console.log('Private-chef overview: authored links prevent automatic duplicates; unlinked articles receive at most one automatic overview link.')

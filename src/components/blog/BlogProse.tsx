@@ -1,6 +1,6 @@
 import { Children, cloneElement, isValidElement, type HTMLAttributes, type ReactNode } from 'react'
 import { Link, useLocation } from 'react-router'
-import { blogLinkState, linkBlogText, type BlogLinkState } from '@/lib/blogEditorial'
+import { blogLinkState, linkBlogText, isPrivateChefOverview, PRIVATE_CHEF_PATH, type BlogLinkState } from '@/lib/blogEditorial'
 
 /** Add contextual links in the rendered article, including prerendered HTML.
  * Existing links, headings, navigation and custom components keep their meaning.
@@ -9,6 +9,15 @@ import { blogLinkState, linkBlogText, type BlogLinkState } from '@/lib/blogEdito
 export default function BlogProse({ as: Tag = 'article', children, ...props }: HTMLAttributes<HTMLElement> & { as?: 'article' | 'div' }) {
   const { pathname } = useLocation()
   const state = blogLinkState(pathname)
+  function countChefLinks(nodes: ReactNode): number {
+    return Children.toArray(nodes).reduce<number>((total, node) => {
+      if (!isValidElement<{ children?: ReactNode; href?: string; to?: string }>(node)) return total
+      const href = node.type === Link ? node.props.to : node.type === 'a' ? node.props.href : undefined
+      return total + (typeof href === 'string' && isPrivateChefOverview(href) ? 1 : 0) + countChefLinks(node.props.children)
+    }, 0)
+  }
+  const authoredChefLinks = countChefLinks(children)
+  if (authoredChefLinks) state.uses.set(PRIVATE_CHEF_PATH, authoredChefLinks)
   function containsLink(nodes: ReactNode): boolean {
     return Children.toArray(nodes).some(node => isValidElement<{ children?: ReactNode }>(node) &&
       (node.type === 'a' || node.type === Link || containsLink(node.props.children)))

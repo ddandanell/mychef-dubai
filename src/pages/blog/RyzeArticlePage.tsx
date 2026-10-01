@@ -5,7 +5,7 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import BlogRelated from '@/components/BlogRelated'
-import { prepareBlogHtml } from '@/lib/blogEditorial'
+import { prepareBlogHtml, privateChefBodyLinkCount, PRIVATE_CHEF_PATH } from '@/lib/blogEditorial'
 import media from '@/content/blogMedia.json'
 import { blogImageSrcSet } from '@/lib/blogImages'
 import { blogServiceFor } from '@/content/blogServiceTargets'
@@ -53,6 +53,7 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
   let body = article.body_html
   for (const [source, destination] of Object.entries(media.sources)) body = body.replaceAll(source, destination)
   const content = prepareBlogHtml(body, canonical)
+  const chefOverviewInBody = serviceHref === PRIVATE_CHEF_PATH && privateChefBodyLinkCount(content.html) > 0
   const published = displayDate(article.published_at)
   const schema = {
     '@context': 'https://schema.org',
@@ -106,9 +107,9 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
           )}
 
           {article.image?.caption && <p className="mb-6 text-xs font-inter text-gray-500">{article.image.caption}</p>}
-          <aside className="mb-8 border-l-2 border-gold bg-cream p-5 font-inter text-body-sm text-gray-700" data-blog-service-link>
+          {!chefOverviewInBody && <aside className="mb-8 border-l-2 border-gold bg-cream p-5 font-inter text-body-sm text-gray-700" data-blog-service-link>
             Ready to plan your own service? Explore <Link to={serviceHref} className="font-medium text-gold-ink underline underline-offset-4">{service.anchor}</Link> for the options and next steps. When you are ready, <Link to={enquiryHref} className="font-medium text-gold-ink underline underline-offset-4">share your requirements</Link> so we can review your brief and prepare a written proposal.
-          </aside>
+          </aside>}
           {content.headings.length >= 4 && <nav className="blog-article-toc" aria-label="Table of contents">
             <p>On this page</p>
             <ol>{content.headings.map(heading => <li key={heading.id}><a href={`#${heading.id}`}>{heading.title}</a></li>)}</ol>
@@ -129,7 +130,7 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
             Tell us your date or preferred schedule, the number of people and your Dubai area. We will confirm what is possible before preparing a written proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={serviceHref} className="btn-primary">Explore {serviceLabel}</Link>
+            {!chefOverviewInBody && <Link to={serviceHref} className="btn-primary">Explore {serviceLabel}</Link>}
             <Link to={enquiryHref} className="btn-secondary">Discuss your requirements</Link>
             <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               <Phone size={16} className="mr-2" />

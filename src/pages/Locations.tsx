@@ -158,7 +158,7 @@ export default function Locations() {
       <section className="py-24 bg-black text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">If your street is not on the cards</h2>
-          <p className="text-gray-400 mb-8">Every booking begins with your location and the service you need. We consider kitchen facilities, building access and timing for private dinners, celebrations and regular household chef plans, then confirm the arrangements in writing.</p>
+          <p className="text-gray-400 mb-8">Every booking begins with your location and the service you need. For cooking at home, explore <Link to="/private-chef-dubai" className="text-gold underline underline-offset-4">myCHEF’s private chef service</Link> alongside the areas above. We consider kitchen facilities, building access and timing for private dinners, celebrations and regular household chef plans, then confirm the arrangements in writing.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={WHATSAPP_LINK}

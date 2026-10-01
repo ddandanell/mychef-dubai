@@ -218,7 +218,7 @@ export default function HowWeVetOurChefs() {
           </h2>
           <div className="vet-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A chef’s work in a private home involves discretion, reliability and respect as well as cooking. We assess those qualities alongside practical ability and references, so the match reflects the needs of your household and guests.
+              A chef’s work in a private home involves discretion, reliability and respect as well as cooking. We assess those qualities alongside practical ability and references, so the match reflects the needs of your household and guests. Explore our <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">private chef matching and service options</Link> to see how these checks fit into arranging cooking at home.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A licensed supplier employs the chef on a proper visa. We match the person to the house, run the checks, score the work and stand behind the booking. We are not an agency that hands you a stack of CVs and disappears. We are not the employer either.

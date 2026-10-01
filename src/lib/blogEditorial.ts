@@ -4,6 +4,17 @@ import { isParked } from '@/content/parkedUrls'
 import { blogImageDimensions, blogImageSrcSet } from './blogImages'
 
 type Rule = { phrases: string[]; href: string }
+export const PRIVATE_CHEF_PATH = '/private-chef-dubai'
+export function isPrivateChefOverview(href: string) {
+  try {
+    const url = new URL(href, 'https://www.mychef.ae')
+    return ['www.mychef.ae', 'mychef.ae'].includes(url.hostname) && url.pathname.replace(/\/$/, '') === PRIVATE_CHEF_PATH
+  } catch { return false }
+}
+export function privateChefBodyLinkCount(html: string) {
+  return [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
+    .filter(match => isPrivateChefOverview(match[1])).length
+}
 export interface BlogLinkState { path: string; remaining: number; uses: Map<string, number>; rules: Rule[]; limit: number; perDestination: number }
 const escape = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
@@ -32,7 +43,8 @@ export function blogLinkState(path: string): BlogLinkState {
 export function linkBlogText(text: string, state: BlogLinkState): (string | { href: string; text: string })[] {
   if (!state.remaining || [...state.uses.values()].reduce((total, count) => total + count, 0) >= state.limit) return [text]
   for (const rule of state.rules) {
-    if ((state.uses.get(rule.href) || 0) >= state.perDestination) continue
+    const destinationLimit = isPrivateChefOverview(rule.href) ? 1 : state.perDestination
+    if ((state.uses.get(rule.href) || 0) >= destinationLimit) continue
     for (const phrase of rule.phrases) {
       const match = phraseMatcher(phrase).exec(text)
       if (!match) continue
@@ -48,6 +60,10 @@ export function linkBlogText(text: string, state: BlogLinkState): (string | { hr
  * paragraphs is linked; existing anchors and all other markup are preserved. */
 export function prepareBlogHtml(html: string, path: string) {
   const state = blogLinkState(path)
+  // An authored contextual link already serves this destination. Count absolute
+  // and relative URLs before auto-linking, including links later in the article.
+  const authoredChefLinks = privateChefBodyLinkCount(html)
+  if (authoredChefLinks) state.uses.set(PRIVATE_CHEF_PATH, authoredChefLinks)
   const headings: { id: string; title: string }[] = []
   const ids = new Set<string>()
   let result = html.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/gi, (_, attrs: string, content: string) => {

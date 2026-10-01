@@ -155,7 +155,7 @@ export default function HowItWorks() {
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-16">
             <SectionLabel align="center">THE JOURNEY</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>Your Experience, Step by Step</h2>
+            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>Your Experience, Step by Step</h2><p className="font-inter text-body-lg text-gray-500 mt-6">The steps below describe a hosted occasion. For everyday meals or a longer arrangement, explore <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4">a private chef for your household</Link> and choose the cooking schedule you need.</p>
           </div>
 
           <div className="relative">

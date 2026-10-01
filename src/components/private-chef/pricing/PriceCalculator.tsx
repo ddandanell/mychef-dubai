@@ -213,7 +213,7 @@ export default function PriceCalculator() {
             )}
           </Row>
 
-          <Row label="Your chef match" hint="A suitable chef is recommended around your cuisine, schedule and household brief."><p className="font-inter text-body-sm text-gray-600">Your service estimate is based on the selected cooking time and support. <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we match your chef</Link></p></Row>
+          <Row label="Your chef match" hint="A suitable chef is recommended around your cuisine, schedule and household brief."><p className="font-inter text-body-sm text-gray-600">Your service estimate is based on the selected cooking time and support. <Link to={CLUSTER_PATHS.howItWorks} className="text-gold-ink underline underline-offset-4">How we match your chef</Link></p></Row>
 
           <Row label="People" hint="Up to eight are included. From nine, an assistant joins automatically.">
             <div className="flex flex-wrap items-center gap-6">
