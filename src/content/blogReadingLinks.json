@@ -427,6 +427,24 @@
       "label": "household plan guide",
       "href": "/private-chef-dubai/how-your-plan-works",
       "after": " before confirming frequency and responsibilities."
+    },
+    "chef-detail-your-service": {
+      "before": "Comparing ways to book a chef? Our ",
+      "label": "Chef Maison alternatives guide",
+      "href": "/blog/chef-maison-alternatives-in",
+      "after": " gives you questions to use when comparing the proposed cooking and service responsibilities."
+    },
+    "chef-detail-chef-match": {
+      "before": "If Take a Chef is on your shortlist, the ",
+      "label": "Take a Chef alternatives comparison",
+      "href": "/blog/take-a-chef-alternatives-in",
+      "after": " can help you check who selects the chef and who coordinates the booking."
+    },
+    "chef-detail-trial": {
+      "before": "For a provider-specific checklist, see our ",
+      "label": "MonChef alternatives guide",
+      "href": "/blog/monchef-alternatives-in",
+      "after": " and compare written inclusions against the same household or event brief."
     }
   },
   "/blog/best-private-chefs-for-villas-in-dubai": {
@@ -568,5 +586,115 @@
       "href": "/yachts",
       "after": " so the food service fits the vessel and the cruise."
     }
+  },
+  "/arabic-catering-dubai": {
+    "catering-detail-regional": {
+      "before": "If you are comparing providers, our ",
+      "label": "Arabic catering comparison guide",
+      "href": "/blog/best-arabic-catering-companies-in-dubai",
+      "after": " sets out questions about regional menus, staffing and the complete proposal."
+    }
+  },
+  "/cocktail-party-catering-dubai": {
+    "catering-detail-canape-flow": {
+      "before": "Before choosing a reception team, use our ",
+      "label": "cocktail-party catering comparison",
+      "href": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "after": " to check food quantities, beverage service and what the quote includes."
+    }
+  },
+  "/allergy-safe-catering-dubai": {
+    "catering-detail-dietary": {
+      "before": "For a gluten-free brief, our ",
+      "label": "guide to comparing gluten-free caterers",
+      "href": "/blog/best-gluten-free-catering-companies-in-dubai",
+      "after": " lists the ingredient and cross-contact questions to discuss directly with each provider."
+    }
+  },
+  "/birthday-catering-dubai": {
+    "catering-detail-guest-count": {
+      "before": "Planning for children as well as adults? Our ",
+      "label": "children’s birthday catering guide",
+      "href": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "after": " helps you compare portions, menu suitability and service arrangements."
+    }
+  },
+  "/ramadan-catering-dubai": {
+    "catering-detail-timing": {
+      "before": "When shortlisting an Iftar team, read our ",
+      "label": "Ramadan catering comparison guide",
+      "href": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "after": " and confirm how setup, service times and replenishment fit your gathering."
+    }
+  },
+  "/vegan-catering-dubai": {
+    "catering-detail-plant-based": {
+      "before": "Our ",
+      "label": "vegan catering comparison guide",
+      "href": "/blog/best-vegan-catering-services-in-dubai",
+      "after": " helps you assess menu balance, ingredient clarity and the service included in each proposal."
+    }
+  },
+  "/best-catering-companies-dubai": {
+    "catering-detail-scope": {
+      "before": "If dish.ae is on your shortlist, read our ",
+      "label": "dish.ae alternatives guide",
+      "href": "/blog/dish-ae-alternatives-in",
+      "after": " before deciding which parts of the event you want the catering team to handle."
+    },
+    "catering-detail-comparison": [
+      {
+        "before": "For a CateringInDubai shortlist, use the ",
+        "label": "CateringInDubai alternatives checklist",
+        "href": "/blog/cateringindubai-alternatives-in",
+        "after": " to frame the questions you send with your brief."
+      },
+      {
+        "before": "You can also read our ",
+        "label": "myCHEF and CateringInDubai comparison",
+        "href": "/blog/mychef-vs-cateringindubai-which-is-better-in",
+        "after": " before requesting like-for-like written proposals."
+      }
+    ],
+    "catering-detail-quote": [
+      {
+        "before": "If you are considering CateringDubai.ae, our ",
+        "label": "CateringDubai.ae alternatives guide",
+        "href": "/blog/cateringdubai-ae-alternatives-in",
+        "after": " helps you compare the proposed menu, staffing and complete cost."
+      },
+      {
+        "before": "For Cedar Tree enquiries, the ",
+        "label": "Cedar Tree Catering alternatives guide",
+        "href": "/blog/cedar-tree-catering-alternatives-in",
+        "after": " offers a separate checklist for comparing inclusions and service arrangements."
+      }
+    ],
+    "catering-detail-close": {
+      "before": "If Smart Catering is among the providers you are researching, read our ",
+      "label": "Smart Catering alternatives guide",
+      "href": "/blog/smart-catering-alternatives-in",
+      "after": " and verify any provider-specific detail against its current written proposal."
+    },
+    "catering-detail-venue": {
+      "before": "For a Pinch Gourmet shortlist, the ",
+      "label": "Pinch Gourmet alternatives guide",
+      "href": "/blog/pinch-gourmet-alternatives-in",
+      "after": " helps you prepare questions about the food, venue and service required."
+    },
+    "catering-detail-brief": [
+      {
+        "before": "If Taste Studio is on your list, use our ",
+        "label": "Taste Studio alternatives guide",
+        "href": "/blog/taste-studio-alternatives-in",
+        "after": " to prepare a consistent brief for the providers you contact."
+      },
+      {
+        "before": "Our ",
+        "label": "myCHEF and Pinch Gourmet comparison",
+        "href": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+        "after": " provides another set of questions for checking fit; confirm current details with each provider."
+      }
+    ]
   }
 }

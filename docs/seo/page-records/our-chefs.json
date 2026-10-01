@@ -1,27 +1,19 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-01",
   "url": "https://www.mychef.ae/our-chefs",
   "path": "/our-chefs",
   "role": "indexable page",
-  "page_type": "Commercial landing",
+  "page_type": "Chef directory",
   "silo": "Private Chef",
-  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
+  "purpose": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF.",
   "keywords": {
-    "primary": "private chefs dubai",
+    "primary": "meet our chefs in dubai",
     "secondary": [
-      "chefs dubai",
-      "how are private chefs vetted dubai",
-      "are private chefs in dubai licensed",
-      "female private chef dubai",
-      "hire chef dubai",
-      "looking for chef",
-      "private chef hire",
-      "personal chef",
-      "chef for hire",
-      "female private chefs dubai",
-      "private bbq chef dubai",
-      "private cook in dubai"
+      "chef profiles dubai",
+      "household chef profiles",
+      "chef cooking styles",
+      "chef specialities dubai"
     ],
     "primary_owner": "/our-chefs",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
@@ -31,13 +23,13 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
-    "description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF.",
+    "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
+    "description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF.",
     "h1": [
-      "Private Chefs Dubai. Find your kind of cooking."
+      "Meet our chefs in Dubai. Find your kind of cooking."
     ]
   },
-  "metadata_source": "local production prerender",
+  "metadata_source": "SEO contract and current server-rendered source",
   "indexation": {
     "canonical": "https://www.mychef.ae/our-chefs",
     "robots": "index, follow",
@@ -91,11 +83,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 5135,
+    "current_word_count": 4654,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chefs in Dubai, matched to your household."
+        "text": "Explore the cooking style that fits your household."
       },
       {
         "level": "h3",

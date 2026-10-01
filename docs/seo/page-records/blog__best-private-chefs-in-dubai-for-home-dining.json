@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-01",
   "url": "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
   "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
   "role": "indexable page",
   "page_type": "Blog post",
   "silo": "Blog and Guides",
-  "purpose": "Answer an informational or comparison query and lead to a relevant service.",
+  "purpose": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
   "keywords": {
-    "primary": null,
+    "primary": "household chef or event catering",
     "secondary": [],
     "primary_owner": null,
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
@@ -18,13 +18,13 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Household Chef or Event Catering? Choosing the Right Brief | myCHEF",
+    "title": "Household Chef or Event Catering? Choosing the Right Brief",
     "description": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
     "h1": [
       "Household chef or event catering: which arrangement do you need?"
     ]
   },
-  "metadata_source": "local production prerender",
+  "metadata_source": "SEO contract and current server-rendered source",
   "indexation": {
     "canonical": "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
     "robots": "index, follow",
@@ -69,7 +69,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2779,
-    "current_word_count": 1480,
+    "current_word_count": 1372,
     "headings": [
       {
         "level": "h2",

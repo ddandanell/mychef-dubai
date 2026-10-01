@@ -1,7 +1,7 @@
 {
  "url": "/our-chefs",
  "keyword_strategy": {
-  "main_keyword": "private chefs dubai",
+  "main_keyword": "meet our chefs in dubai",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -38,9 +38,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chefs Dubai | How Our Chefs Are Vetted | myCHEF Dubai",
-  "meta_description": "Private chefs in Dubai: independent, licensed professionals. MyCHEF is rolling out a structured partner verification and quality-assurance framework across its chef network.",
-  "h1": "Private Chefs Dubai — How They Are Vetted Before They Cook for You"
+  "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
+  "meta_description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF.",
+  "h1": "Meet our chefs in Dubai. Find your kind of cooking."
  },
  "opening_paragraph": [
   "The private chefs in Dubai who cook through myCHEF are independent, licensed professionals, matched to your event by cuisine, format and setting. myCHEF is implementing a structured partner verification and quality-assurance framework, covering identity and licence checks, practical assessment, references and post-event review. That process is the part you feel on the night.",

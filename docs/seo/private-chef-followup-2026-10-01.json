@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-01",
+  "primary": "https://www.mychef.ae/private-chef-dubai",
+  "decisions": [
+    "Differentiate the chef directory as profile browsing and align keyword ownership.",
+    "Keep the household-vs-event guide focused on the arrangement decision.",
+    "Use relevant editorial paragraphs to strengthen 25 weakly linked pages.",
+    "Keep the genuine /meal-plans 404: no verified historical content or current internal links justify a redirect.",
+    "Preserve distinct pricing, household arrangement and private dining intents."
+  ],
+  "links": [
+    {
+      "source": "/",
+      "destination": "/our-chefs",
+      "anchor": "Meet our chefs",
+      "placement": "Team section CTA",
+      "paragraph": "Meet our chefs",
+      "action": "Clarified directory CTA"
+    },
+    {
+      "source": "/iftar-catering-dubai",
+      "destination": "/villas-private-residences",
+      "anchor": "Private Family Iftar",
+      "placement": "Family Iftar service card",
+      "paragraph": "An Iftar at home or in your villa, with traditional dishes, fresh dates, and a service team for family and close friends.",
+      "action": "Retargeted event card; removed duplicate broad related link"
+    },
+    {
+      "source": "/site-map",
+      "destination": "/private-chef-dubai/our-chefs",
+      "anchor": "",
+      "placement": "Private chef section",
+      "paragraph": "Canonical directory and process links retained elsewhere in the sitemap.",
+      "action": "Removed retired alias link"
+    },
+    {
+      "source": "/arabic-catering-dubai",
+      "destination": "/blog/best-arabic-catering-companies-in-dubai",
+      "anchor": "Arabic catering comparison guide",
+      "placement": "catering-detail-regional",
+      "paragraph": "If you are comparing providers, our Arabic catering comparison guide sets out questions about regional menus, staffing and the complete proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/cocktail-party-catering-dubai",
+      "destination": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "anchor": "cocktail-party catering comparison",
+      "placement": "catering-detail-canape-flow",
+      "paragraph": "Before choosing a reception team, use our cocktail-party catering comparison to check food quantities, beverage service and what the quote includes.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/allergy-safe-catering-dubai",
+      "destination": "/blog/best-gluten-free-catering-companies-in-dubai",
+      "anchor": "guide to comparing gluten-free caterers",
+      "placement": "catering-detail-dietary",
+      "paragraph": "For a gluten-free brief, our guide to comparing gluten-free caterers lists the ingredient and cross-contact questions to discuss directly with each provider.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/birthday-catering-dubai",
+      "destination": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "anchor": "children’s birthday catering guide",
+      "placement": "catering-detail-guest-count",
+      "paragraph": "Planning for children as well as adults? Our children’s birthday catering guide helps you compare portions, menu suitability and service arrangements.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/ramadan-catering-dubai",
+      "destination": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "anchor": "Ramadan catering comparison guide",
+      "placement": "catering-detail-timing",
+      "paragraph": "When shortlisting an Iftar team, read our Ramadan catering comparison guide and confirm how setup, service times and replenishment fit your gathering.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/vegan-catering-dubai",
+      "destination": "/blog/best-vegan-catering-services-in-dubai",
+      "anchor": "vegan catering comparison guide",
+      "placement": "catering-detail-plant-based",
+      "paragraph": "Our vegan catering comparison guide helps you assess menu balance, ingredient clarity and the service included in each proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/how-to-hire-a-private-chef-dubai",
+      "destination": "/blog/chef-maison-alternatives-in",
+      "anchor": "Chef Maison alternatives guide",
+      "placement": "chef-detail-your-service",
+      "paragraph": "Comparing ways to book a chef? Our Chef Maison alternatives guide gives you questions to use when comparing the proposed cooking and service responsibilities.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/how-to-hire-a-private-chef-dubai",
+      "destination": "/blog/take-a-chef-alternatives-in",
+      "anchor": "Take a Chef alternatives comparison",
+      "placement": "chef-detail-chef-match",
+      "paragraph": "If Take a Chef is on your shortlist, the Take a Chef alternatives comparison can help you check who selects the chef and who coordinates the booking.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/how-to-hire-a-private-chef-dubai",
+      "destination": "/blog/monchef-alternatives-in",
+      "anchor": "MonChef alternatives guide",
+      "placement": "chef-detail-trial",
+      "paragraph": "For a provider-specific checklist, see our MonChef alternatives guide and compare written inclusions against the same household or event brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/dish-ae-alternatives-in",
+      "anchor": "dish.ae alternatives guide",
+      "placement": "catering-detail-scope",
+      "paragraph": "If dish.ae is on your shortlist, read our dish.ae alternatives guide before deciding which parts of the event you want the catering team to handle.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/cateringindubai-alternatives-in",
+      "anchor": "CateringInDubai alternatives checklist",
+      "placement": "catering-detail-comparison",
+      "paragraph": "For a CateringInDubai shortlist, use the CateringInDubai alternatives checklist to frame the questions you send with your brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/mychef-vs-cateringindubai-which-is-better-in",
+      "anchor": "myCHEF and CateringInDubai comparison",
+      "placement": "catering-detail-comparison",
+      "paragraph": "You can also read our myCHEF and CateringInDubai comparison before requesting like-for-like written proposals.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/cateringdubai-ae-alternatives-in",
+      "anchor": "CateringDubai.ae alternatives guide",
+      "placement": "catering-detail-quote",
+      "paragraph": "If you are considering CateringDubai.ae, our CateringDubai.ae alternatives guide helps you compare the proposed menu, staffing and complete cost.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/cedar-tree-catering-alternatives-in",
+      "anchor": "Cedar Tree Catering alternatives guide",
+      "placement": "catering-detail-quote",
+      "paragraph": "For Cedar Tree enquiries, the Cedar Tree Catering alternatives guide offers a separate checklist for comparing inclusions and service arrangements.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/smart-catering-alternatives-in",
+      "anchor": "Smart Catering alternatives guide",
+      "placement": "catering-detail-close",
+      "paragraph": "If Smart Catering is among the providers you are researching, read our Smart Catering alternatives guide and verify any provider-specific detail against its current written proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/pinch-gourmet-alternatives-in",
+      "anchor": "Pinch Gourmet alternatives guide",
+      "placement": "catering-detail-venue",
+      "paragraph": "For a Pinch Gourmet shortlist, the Pinch Gourmet alternatives guide helps you prepare questions about the food, venue and service required.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/taste-studio-alternatives-in",
+      "anchor": "Taste Studio alternatives guide",
+      "placement": "catering-detail-brief",
+      "paragraph": "If Taste Studio is on your list, use our Taste Studio alternatives guide to prepare a consistent brief for the providers you contact.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/best-catering-companies-dubai",
+      "destination": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+      "anchor": "myCHEF and Pinch Gourmet comparison",
+      "placement": "catering-detail-brief",
+      "paragraph": "Our myCHEF and Pinch Gourmet comparison provides another set of questions for checking fit; confirm current details with each provider.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/become-a-mychef",
+      "destination": "/chef-training-academy",
+      "anchor": "chef training academy",
+      "placement": "Read on to see our requirements",
+      "paragraph": "If you are developing your skills for household or event work, explore the chef training academy and discuss the training that fits your experience.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/mychef-certified",
+      "destination": "/chef-training-academy",
+      "anchor": "chef training programme",
+      "placement": "Read <Link to=\"/how-we-vet-our-chefs\"",
+      "paragraph": "Chefs preparing for an assessment can review our chef training programme and ask which skills would benefit from further practice.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/press",
+      "destination": "/influencer-partnerships",
+      "anchor": "influencer partnership information",
+      "placement": "myCHEF Dubai coordinates private chefs",
+      "paragraph": "Creators proposing a dining collaboration can use our influencer partnership information to prepare a relevant proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/production-catering-dubai",
+      "destination": "/staff-meals-catering-dubai",
+      "anchor": "staff meal catering service",
+      "placement": "Television, photo, branded content",
+      "paragraph": "For meals needed on a continuing workplace schedule, compare our staff meal catering service and brief the team on shifts, headcount and delivery times.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/events",
+      "destination": "/production-catering-dubai",
+      "anchor": "production and crew catering",
+      "placement": "Start with the occasion you are hosting below.",
+      "paragraph": "Feeding the team behind the event? Our production and crew catering follows call times and meal breaks for working crews.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/private-cooking-classes-dubai",
+      "destination": "/blog/best-private-cooking-class-experiences-in-dubai",
+      "anchor": "private cooking class comparison guide",
+      "placement": "Sessions can be planned for couples",
+      "paragraph": "For help comparing teaching formats, read our private cooking class comparison guide and choose the group size, cuisine and amount of hands-on cooking that suit you.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/how-to-choose-caterer-dubai",
+      "destination": "/blog/cateringdubai-ae-alternatives-in",
+      "anchor": "CateringDubai.ae alternatives guide",
+      "placement": "This checklist covers ten areas",
+      "paragraph": "If CateringDubai.ae is on your shortlist, use our CateringDubai.ae alternatives guide to compare the same menu, staffing and written inclusions.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/how-to-choose-caterer-dubai",
+      "destination": "/blog/dish-ae-alternatives-in",
+      "anchor": "dish.ae alternatives comparison",
+      "placement": "What to check on any caterer:",
+      "paragraph": "If you are considering dish.ae, the dish.ae alternatives comparison gives you further questions to put to each provider before booking.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/corporate-catering-full-service-vs-drop-off",
+      "destination": "/blog/cedar-tree-catering-alternatives-in",
+      "anchor": "Cedar Tree Catering alternatives guide",
+      "placement": "Compare the same coverage.",
+      "paragraph": "For a Cedar Tree shortlist, see our Cedar Tree Catering alternatives guide and compare delivery, setup and staffing against the same brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/corporate-catering-full-service-vs-drop-off",
+      "destination": "/blog/smart-catering-alternatives-in",
+      "anchor": "Smart Catering alternatives guide",
+      "placement": "Consider your event goals.",
+      "paragraph": "For Smart Catering enquiries, our Smart Catering alternatives guide helps you check the service included in the complete proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/luxury-dining-experiences",
+      "destination": "/chefs/ahmed-executive-chef",
+      "anchor": "Chef Ahmed",
+      "placement": "How booking works",
+      "paragraph": "To explore one chef’s approach to a plated dinner, meet Chef Ahmed and discuss the cooking style you have in mind. The team confirms the chef and availability for your date.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/weekly-meal-prep-dubai",
+      "destination": "/wellness-meal-prep-dubai",
+      "anchor": "wellness meal preparation",
+      "placement": "Around your household",
+      "paragraph": "When preparation needs to follow specific food preferences or dietary instructions, explore wellness meal preparation and share those requirements in your brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/household-menu-brief-dubai",
+      "destination": "/wellness-meal-prep-dubai",
+      "anchor": "wellness meal preparation",
+      "placement": "After opening paragraph",
+      "paragraph": "For preparation built around specific food preferences or dietary instructions, explore wellness meal preparation and include those requirements in the household brief.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/canape-reception-planning-dubai",
+      "destination": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "anchor": "cocktail-party catering comparison guide",
+      "placement": "After opening paragraph",
+      "paragraph": "When shortlisting a reception team, use our cocktail-party catering comparison guide to compare food quantities, service waves and staffing in each written proposal.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/cateringindubai-alternatives-in",
+      "destination": "/blog/mychef-vs-cateringindubai-which-is-better-in",
+      "anchor": "myCHEF and CateringInDubai comparison",
+      "placement": "After opening paragraph",
+      "paragraph": "For a closer look at these two options, read our myCHEF and CateringInDubai comparison and check current inclusions with each provider.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/pinch-gourmet-alternatives-in",
+      "destination": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+      "anchor": "myCHEF and Pinch Gourmet comparison",
+      "placement": "After opening paragraph",
+      "paragraph": "If you are narrowing the shortlist to these two providers, read our myCHEF and Pinch Gourmet comparison before requesting like-for-like proposals.",
+      "action": "Added contextual link"
+    },
+    {
+      "source": "/blog/chef-maison-alternatives-in",
+      "destination": "/blog/take-a-chef-alternatives-in",
+      "anchor": "Take a Chef alternatives guide",
+      "placement": "After opening paragraph",
+      "paragraph": "If you are also comparing chef-booking platforms, our Take a Chef alternatives guide helps you frame questions about selection, coordination and the written booking scope.",
+      "action": "Added contextual link"
+    }
+  ],
+  "source_paths": [
+    "/",
+    "/allergy-safe-catering-dubai",
+    "/arabic-catering-dubai",
+    "/become-a-mychef",
+    "/best-catering-companies-dubai",
+    "/birthday-catering-dubai",
+    "/blog/best-private-chefs-in-dubai-for-home-dining",
+    "/blog/canape-reception-planning-dubai",
+    "/blog/cateringindubai-alternatives-in",
+    "/blog/chef-maison-alternatives-in",
+    "/blog/corporate-catering-full-service-vs-drop-off",
+    "/blog/household-menu-brief-dubai",
+    "/blog/how-to-hire-a-private-chef-dubai",
+    "/blog/pinch-gourmet-alternatives-in",
+    "/cocktail-party-catering-dubai",
+    "/events",
+    "/how-to-choose-caterer-dubai",
+    "/iftar-catering-dubai",
+    "/luxury-dining-experiences",
+    "/mychef-certified",
+    "/our-chefs",
+    "/press",
+    "/private-cooking-classes-dubai",
+    "/production-catering-dubai",
+    "/ramadan-catering-dubai",
+    "/site-map",
+    "/vegan-catering-dubai",
+    "/weekly-meal-prep-dubai"
+  ]
+}

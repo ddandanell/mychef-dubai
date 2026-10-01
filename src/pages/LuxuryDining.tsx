@@ -266,6 +266,7 @@ export default function LuxuryDining() {
               From an Idea to the Experience
             </DisplayHeading>
           </div>
+          <p className="font-inter text-body text-gray-600 leading-relaxed mb-8">To explore one chef’s approach to a plated dinner, meet <Link to="/chefs/ahmed-executive-chef" className="text-gold-ink underline underline-offset-4">Chef Ahmed</Link> and discuss the cooking style you have in mind. The team confirms the chef and availability for your date.</p>
           <ol className="relative grid grid-cols-1 gap-y-8 lg:grid-cols-5 lg:gap-x-8 lg:gap-y-10">
             <span className="pointer-events-none absolute top-2 bottom-2 left-[4px] w-px bg-gold/30 lg:hidden" aria-hidden />
             <span className="pointer-events-none absolute top-[4px] right-0 left-0 hidden h-px bg-gold/30 lg:block" aria-hidden />

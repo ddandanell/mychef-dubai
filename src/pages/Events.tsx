@@ -179,6 +179,7 @@ export default function Events() {
             . Private event catering in Dubai here is one brief for that night: food, chefs and service sized to the
             room you already have.
           </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">Feeding the team behind the event? Our <Link to="/production-catering-dubai" className="text-gold-ink underline underline-offset-4">production and crew catering</Link> follows call times and meal breaks for working crews.</p>
         </Container>
       </Section>
 

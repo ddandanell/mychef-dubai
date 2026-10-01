@@ -151,6 +151,7 @@ export default function Press() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
               myCHEF Dubai coordinates private chefs for households and catering for events through licensed culinary partners. Use the resources below for editorial enquiries, company listings and partnership information.
             </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">Creators proposing a dining collaboration can use our <Link to="/influencer-partnerships" className="text-gold-ink underline underline-offset-4">influencer partnership information</Link> to prepare a relevant proposal.</p>
           </section>
 
           <section className="press-section opacity-0 translate-y-8 mb-16">

@@ -268,6 +268,7 @@ export default function MyChefCertified() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Read <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs are checked</Link>, <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how chefs apply</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> if the job is a household.
             </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">Chefs preparing for an assessment can review our <Link to="/chef-training-academy" className="text-gold-ink underline underline-offset-4">chef training programme</Link> and ask which skills would benefit from further practice.</p>
           </div>
         </div>
       </section>

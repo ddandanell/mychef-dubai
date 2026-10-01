@@ -385,6 +385,7 @@ export default function PrivateCookingClassesDubai() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Sessions can be planned for couples, families or teams, with the group size matched to the kitchen and teaching format. Beginners and confident cooks are welcome. The booking includes ingredients, recipes and kitchen clear-down.
           </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">For help comparing teaching formats, read our <Link to="/blog/best-private-cooking-class-experiences-in-dubai" className="text-gold-ink underline underline-offset-4">private cooking class comparison guide</Link> and choose the group size, cuisine and amount of hands-on cooking that suit you.</p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Pasta, sushi and mezze are common starting points. Pair a class with a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinner</Link> only if you want two different nights. Book it <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">in their name</Link> if they should still choose the cuisine. A standing household chef is a different product: see <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>.
           </p>

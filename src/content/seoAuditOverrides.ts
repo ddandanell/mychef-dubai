@@ -354,8 +354,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Compare private chef Dubai prices: visits from AED 750 and Managed Household from AED 15,000/month. See activation, monthly fees and separate costs."
   },
   "/our-chefs": {
-    "title": "Private Chefs Dubai | Find Your Household Match | myCHEF",
-    "description": "Explore private chefs in Dubai and 25 household chef styles across five levels. Find your live-in, daily live-out or short-term chef with myCHEF."
+    "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
+    "description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF."
   },
   "/gallery": {
     "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",

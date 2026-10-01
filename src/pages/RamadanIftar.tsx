@@ -42,7 +42,7 @@ const ramadanServices = [
     icon: Moon,
     title: 'Private Family Iftar',
     description: 'An Iftar at home or in your villa, with traditional dishes, fresh dates, and a service team for family and close friends.',
-    link: '/private-chef-dubai',
+    link: '/villas-private-residences',
   },
   {
     icon: Users,
@@ -572,7 +572,6 @@ export default function RamadanIftar() {
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Services</h3>
               <ul className="space-y-3">
                 <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
-                <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
                 <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
                 <li><Link to="/private-party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>

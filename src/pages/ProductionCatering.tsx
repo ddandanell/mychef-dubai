@@ -340,6 +340,7 @@ export default function ProductionCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Television, photo, branded content and live event crews use the same operation: a moving team, a call sheet, and food that has to arrive hot at the right moment. For stand hospitality, explore <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>. Explore the full range of <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">For meals needed on a continuing workplace schedule, compare our <Link to="/staff-meals-catering-dubai" className="text-gold-ink underline underline-offset-4">staff meal catering service</Link> and brief the team on shifts, headcount and delivery times.</p>
         </div>
       </section>
 

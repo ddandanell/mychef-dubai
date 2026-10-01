@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-01",
   "counts": {
     "indexable page": 192,
     "redirect": 91,
@@ -277,7 +277,7 @@
     {
       "path": "/blog/best-private-chefs-in-dubai-for-home-dining",
       "file": "blog__best-private-chefs-in-dubai-for-home-dining.json",
-      "primary_keyword": null,
+      "primary_keyword": "household chef or event catering",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -1810,7 +1810,7 @@
     {
       "path": "/our-chefs",
       "file": "our-chefs.json",
-      "primary_keyword": "private chefs dubai",
+      "primary_keyword": "meet our chefs in dubai",
       "role": "indexable page",
       "silo": "Private Chef"
     },

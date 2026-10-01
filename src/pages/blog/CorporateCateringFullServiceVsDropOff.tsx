@@ -247,9 +247,11 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Compare the same coverage. Drop-off from AED 90 is food and delivery. A staffed buffet from AED 120 already includes 1 to 2 people for setup and clearance. Do not add waiters again on that line. Extra staff is only for roles not in the package. 5% VAT is shown separately.
             </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">For a Cedar Tree shortlist, see our <Link to="/blog/cedar-tree-catering-alternatives-in" className="text-gold-ink underline underline-offset-4">Cedar Tree Catering alternatives guide</Link> and compare delivery, setup and staffing against the same brief.</p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Consider your event goals. A working lunch for the internal team may not justify full-service, while a board dinner for investors almost certainly does. The right choice is the one that matches your objectives, not just your budget.
             </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">For Smart Catering enquiries, our <Link to="/blog/smart-catering-alternatives-in" className="text-gold-ink underline underline-offset-4">Smart Catering alternatives guide</Link> helps you check the service included in the complete proposal.</p>
             <BlogFigure
               image={{
                 src: '/images/blog/corporate-catering-full-service-vs-drop-off-3.webp',

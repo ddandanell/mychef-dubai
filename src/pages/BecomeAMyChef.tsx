@@ -295,6 +295,7 @@ export default function BecomeAMyChef() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already on our team</Link>.
             </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">If you are developing your skills for household or event work, explore the <Link to="/chef-training-academy" className="text-gold-ink underline underline-offset-4">chef training academy</Link> and discuss the training that fits your experience.</p>
           </div>
         </div>
       </section>

@@ -41,7 +41,6 @@ export default function SiteMap() {
               <li><Link to="/catering-packages-dubai" className="text-gray-600 hover:text-gold transition-colors">/catering-packages-dubai</Link></li>
               <li><Link to="/private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai</Link></li>
               <li><Link to="/private-chef-dubai/how-it-works" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai/how-it-works</Link></li>
-              <li><Link to="/private-chef-dubai/our-chefs" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai/our-chefs</Link></li>
               <li><Link to="/private-chef-dubai/quality-training" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai/quality-training</Link></li>
               <li><Link to="/private-chef-dubai/privacy-security" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai/privacy-security</Link></li>
               <li><Link to="/private-chef-dubai/pricing" className="text-gray-600 hover:text-gold transition-colors">/private-chef-dubai/pricing</Link></li>
