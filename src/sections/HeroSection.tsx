@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          myCHEF Dubai: a chef for your kitchen, catering for your event
+          Private chef and catering in Dubai, designed around you.
         </h1>
 
         {/* Subtext */}
