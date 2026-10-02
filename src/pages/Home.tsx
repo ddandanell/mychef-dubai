@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="myCHEF Dubai | A Chef for Your Kitchen and Events"
+        title="Private Chef & Catering in Dubai | myCHEF"
         description="Private chef visits, long-term household chefs and catering in Dubai. Personal menus, a suitable chef match and ongoing support from myCHEF."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
@@ -53,19 +53,19 @@ export default function Home() {
       <section className="bg-white py-12">
         <div className="container-custom max-w-[900px] text-center">
           <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Start with a{' '}
-            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>
-            {' for cooking visits or a long-term household arrangement, '}
+            Book a{' '}
+            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link>
+            {' for cooking visits or a long-term household arrangement. Explore '}
             <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">our chefs and cooking styles</Link>
-            {' for who cooks, '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering Dubai</Link>
-            {' for a night, '}
-            <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering Dubai</Link>
-            {', '}
-            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering Dubai</Link>
-            {' if the table is on the water, or '}
+            {' to see who could cook for you, or choose '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>
-            . Fine dining at home Dubai uses the same team as a villa event — one brief, one kitchen, one table.
+            {' for meals prepared for later. For a gathering, compare our '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering services in Dubai</Link>
+            {' and choose the food and staffing your venue needs. Our '}
+            <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering options</Link>
+            {' cover celebrations at home and larger gatherings. If you already have a yacht booked, explore '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>
+            {' for the food and onboard service; yacht hire is separate.'}
           </p>
         </div>
       </section>
