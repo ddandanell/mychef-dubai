@@ -350,7 +350,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Private chef Dubai visits from AED 1,125 single or AED 750 member. Fresh meals, fridge resets and full days in your kitchen. See plans and request a quote."
   },
   "/private-chef-dubai/pricing": {
-    "title": "Private Chef Dubai Prices | Visits from AED 750 | myCHEF",
+    "title": "Private Chef Dubai Prices | Single & Member Rates | myCHEF",
     "description": "Private chef Dubai prices from AED 750 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online."
   },
   "/our-chefs": {
