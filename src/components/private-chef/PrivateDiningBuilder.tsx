@@ -20,6 +20,7 @@ export default function PrivateDiningBuilder() {
   const [course, setCourse] = useState('All courses')
   const [tier, setTier] = useState('All dish styles')
   const [showNew, setShowNew] = useState(false)
+  const [browseOpen, setBrowseOpen] = useState(false)
   const [visibleCount, setVisibleCount] = useState(8)
   const [feedback, setFeedback] = useState('')
   const [inView, setInView] = useState(false)
@@ -77,9 +78,9 @@ export default function PrivateDiningBuilder() {
   return <section id="dinner-calculator" className="dining-builder" ref={section} aria-labelledby="dining-title">
     <div className="dining-shell">
       <header className="dining-intro">
-        <div><p className="dining-eyebrow">Your table. Your menu. Your private chef.</p>
-          <h2 id="dining-title">An evening made<br/><em>for your guests.</em></h2>
-          <p>Choose your private dinner package, make the menu yours and see your estimate. Your chef shops, cooks, serves and leaves the kitchen clean.</p>
+        <div><p className="dining-eyebrow">Private dinner price calculator</p>
+          <h2 id="dining-title">Your dinner.<em> Made yours.</em></h2>
+          <p>Choose your chef, guests and menu. Your price updates instantly, ready to send on WhatsApp. Start with a suggested menu or create your own.</p>
           <div className="dining-intro-facts"><span><Users size={16} aria-hidden="true"/> {config.minGuests}–{config.maxGuests} guests</span><span><Check size={16} aria-hidden="true"/> Ingredients included</span><span><MessageCircle size={16} aria-hidden="true"/> Request on WhatsApp</span></div>
         </div>
         <figure><img src="/images/private-chef-dubai-evening.webp" alt="Private chef plating dinner in a villa kitchen" width="1280" height="720" loading="lazy"/><figcaption>A private dinner, planned around your table. Experience concept shown.</figcaption></figure>
@@ -97,10 +98,10 @@ export default function PrivateDiningBuilder() {
                 <span className="dining-package-tagline">{p.tagline}</span>
                 <span className="dining-package-price">{p.id === 'master' ? `From ${money(config.eveningFee.master.base)}` : money(config.eveningFee[p.id])}</span>
                 <span className="dining-package-unit">chef evening fee · before VAT</span>
-                <span className="dining-package-description">{p.description}</span>
                 {p.id === 'master' && <span className="dining-quote-label">Quoted on enquiry · availability to confirm</span>}
               </button>)}
             </div>
+            <p className="dining-package-description"><strong>{selectedPackage.name}:</strong> {selectedPackage.description}</p>
           </fieldset>
 
           <fieldset className="dining-step"><legend><span>02</span> Set your table</legend>
@@ -117,7 +118,11 @@ export default function PrivateDiningBuilder() {
 
           <fieldset className="dining-step"><legend><span>03</span> Make the menu yours</legend>
             <p className="dining-help">Choose {config.minDishes}–{config.maxDishes} dishes, including a main. Each dish is prepared for every guest. Dish prices are before VAT; ingredients are included.</p>
-            <div className="dining-presets" aria-label="Suggested dinner menus">{DINING_PRESETS.map(p => <button key={p.name} type="button" aria-pressed={service === p.service && p.dishIds.length === dishIds.length && p.dishIds.every(id => dishIds.includes(id))} onClick={() => { setDishIds([...p.dishIds]); setService(p.service); setFeedback(`${p.name} menu selected. You can swap any dish.`) }}>{p.name}</button>)}<button type="button" onClick={() => { setDishIds([]); setFeedback('Your menu is empty. Choose three to five dishes, including a main.') }}>Start my own</button></div>
+            <div className="dining-presets" aria-label="Suggested dinner menus">{DINING_PRESETS.map(p => <button key={p.name} type="button" aria-pressed={service === p.service && p.dishIds.length === dishIds.length && p.dishIds.every(id => dishIds.includes(id))} onClick={() => { setDishIds([...p.dishIds]); setService(p.service); setFeedback(`${p.name} menu selected. You can swap any dish.`) }}>{p.name}</button>)}<button type="button" onClick={() => { setDishIds([]); setBrowseOpen(true); setFeedback('Your menu is empty. Choose three to five dishes, including a main.') }}>Start my own</button></div>
+            <p className="dining-feedback" role="status" aria-live="polite">{feedback || 'Start with a suggested menu, then swap dishes to suit your guests.'}</p>
+            <ul className="dining-menu-preview" aria-label="Your selected dishes">{quote.dishes.map(d => <li key={d.id}><div><small>{d.course}</small><strong>{d.name}</strong></div><button type="button" aria-label={`Remove ${d.name} from selected dishes`} onClick={() => toggleDish(d.id)}><X size={17}/></button></li>)}</ul>
+            <button type="button" className="dining-browse-toggle" aria-expanded={browseOpen} aria-controls="dining-dish-browser" onClick={() => setBrowseOpen(!browseOpen)}><Search size={17} aria-hidden="true"/>{browseOpen ? 'Close dish catalogue' : 'Browse & swap dishes'}<span>{browseOpen ? '−' : '+'}</span></button>
+            <div id="dining-dish-browser" hidden={!browseOpen}>
             <div className="dining-filters">
               <div className="dining-search"><label htmlFor="dining-search">Find a dish</label><div><Search size={17} aria-hidden="true"/><input id="dining-search" type="search" value={search} placeholder="Try biryani, pasta or French…" onChange={e => { setSearch(e.target.value); filterChanged() }}/></div></div>
               <div><label htmlFor="dining-cuisine">Cuisine</label><select id="dining-cuisine" value={cuisine} onChange={e => { setCuisine(e.target.value); filterChanged() }}><option>All cuisines</option>{cuisines.map(c => <option key={c}>{c}</option>)}</select></div>
@@ -125,7 +130,6 @@ export default function PrivateDiningBuilder() {
               <div><label htmlFor="dining-tier">Dish style</label><select id="dining-tier" value={tier} onChange={e => { setTier(e.target.value); filterChanged() }}><option>All dish styles</option>{Object.entries(DISH_TIERS).map(([key, value]) => <option key={key} value={key}>{value}</option>)}</select></div>
             </div>
             <div className="dining-results-line"><p role="status">{filtered.length} dishes · {dishIds.length} selected</p><label><input type="checkbox" checked={showNew} onChange={e => { setShowNew(e.target.checked); filterChanged() }}/> Preview new dishes</label></div>
-            <p className="dining-feedback" role="status" aria-live="polite">{feedback || 'Start with a suggested menu, then swap dishes to suit your guests.'}</p>
             <div className="dining-dish-grid">
               {filtered.slice(0, visibleCount).map(dish => {
                 const chosen = dishIds.includes(dish.id)
@@ -143,6 +147,7 @@ export default function PrivateDiningBuilder() {
             </div>
             {filtered.length === 0 && <p className="dining-empty">No dishes match those filters. Try another cuisine or clear your search.</p>}
             {filtered.length > visibleCount && <button type="button" className="dining-more" onClick={() => setVisibleCount(visibleCount + 12)}>Show more dishes <Plus size={16}/></button>}
+            </div>
           </fieldset>
 
           <fieldset className="dining-step"><legend><span>04</span> Tell us about the evening</legend>
@@ -165,6 +170,9 @@ export default function PrivateDiningBuilder() {
           <h3 id="dining-ticket-title" ref={ticketHeading} tabIndex={-1}>{selectedPackage.name} at your table</h3>
           <p className="dining-ticket-sub">{Number.isInteger(Number(guests)) && Number(guests) >= config.minGuests && Number(guests) <= config.maxGuests ? `${guests} guests` : `${config.minGuests}–${config.maxGuests} guests required`} · {quote.dishes.length} dishes</p>
           {quote.total !== null && <div className="dining-total" aria-live="polite" aria-atomic="true"><span>Estimated total · incl. VAT</span><strong>{money(quote.total)}</strong><p>{money(quote.perGuest!)} per guest including VAT</p></div>}
+          {whatsappHref ? <a className="dining-send" href={whatsappHref} target="_blank" rel="noopener noreferrer" data-track="whatsapp" data-cta-location="private-dinner-calculator"><MessageCircle size={19}/> Send my menu on WhatsApp <ArrowRight size={17}/></a> : <button className="dining-send" type="button" disabled>Complete your menu to continue</button>}
+          {!validDate && <p className="dining-error">Update the date before sending your request.</p>}
+          <p className="dining-handoff-note">Review and send your request in WhatsApp. Booking and final price confirmed in writing.</p>
           {quote.dishes.length ? <ul className="dining-selected">{quote.dishes.map(d => <li key={d.id}><div><span>{d.name}</span><small>{dishRestriction(d, service) || (d.requiresSignoff ? 'Chef sign-off required' : d.needsCostConfirmation || d.marketPrice ? 'Market price to confirm' : d.course)}</small></div><button type="button" aria-label={`Remove ${d.name} from my menu`} onClick={() => toggleDish(d.id)}><X size={17}/></button></li>)}</ul> : <p className="dining-empty">Your table is waiting. Choose your dishes to see an estimate.</p>}
           {quote.errors.length > 0 && <div className="dining-validation" role="status"><p>Before you send your request:</p><ul>{quote.errors.map(error => <li key={error}>{error}</li>)}</ul></div>}
           {quote.errors.length === 0 && quote.quoteRequired && <div className="dining-manual"><strong>A personal quote for this menu</strong><p>We’ll confirm the complete price and chef availability on WhatsApp.</p><ul>{quote.reasons.map(reason => <li key={reason}>{reason}</li>)}</ul>{service === 'master' && <p>Master chef evening fee from {money(config.eveningFee.master.base)} before VAT. This is not the total event price.</p>}</div>}
@@ -172,10 +180,8 @@ export default function PrivateDiningBuilder() {
             <dl className="dining-breakdown"><div><dt>Menu & ingredients</dt><dd>{money(quote.menuTotal!)}</dd></div><div><dt>{selectedPackage.name} chef</dt><dd>{money(quote.chefFee!)}</dd></div><div><dt>Assistants ({quote.assistants})</dt><dd>{money(quote.assistantTotal)}</dd></div><div><dt>Area transport</dt><dd>{money(quote.zone!.fee)}</dd></div><div className="dining-subtotal"><dt>Subtotal</dt><dd>{money(quote.beforeVat!)}</dd></div><div><dt>{config.vat * 100}% VAT</dt><dd>{money(quote.vat!)}</dd></div></dl>
           </details>}
           <p className="dining-ticket-note">Drinks, tableware, linen and any requested extras are quoted separately.</p>
-          <p className="dining-ticket-note">{DINING_ESTIMATE_NOTE}</p>
-          {whatsappHref ? <a className="dining-send" href={whatsappHref} target="_blank" rel="noopener noreferrer" data-track="whatsapp" data-cta-location="private-dinner-calculator"><MessageCircle size={19}/> Request this package on WhatsApp <ArrowRight size={17}/></a> : <button className="dining-send" type="button" disabled>Complete your menu to continue</button>}
-          {!validDate && <p className="dining-error">Update the date before sending your request.</p>}
-          <p className="dining-handoff-note">Opens WhatsApp with your full menu and details. You review and send the message. Your booking is confirmed separately in writing.</p>
+          <details className="dining-estimate-terms"><summary>About this estimate</summary><p className="dining-ticket-note">{DINING_ESTIMATE_NOTE}</p></details>
+
         </aside>
       </div>
       <p className="dining-other-service">Looking for regular cooking at home? <Link to="/private-chef-dubai/pricing#calculator">Compare cooking visits</Link> or <Link to="/full-time-private-chef-dubai">explore a long-term household chef</Link>.</p>

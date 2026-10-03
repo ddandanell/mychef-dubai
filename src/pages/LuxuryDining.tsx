@@ -1,3 +1,4 @@
+import DinnerCalculatorCallout from '@/components/private-chef/DinnerCalculatorCallout'
 import ServiceImage from '@/components/private-chef/ServiceImage'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /luxury-dining-experiences
@@ -173,6 +174,7 @@ export default function LuxuryDining() {
       />
 
       <TrustSignalStrip />
+      <DinnerCalculatorCallout />
 
       <Section tone="white" rhythm="standard">
         <Container>

@@ -71,3 +71,12 @@ chef eligibility, market pricing, sign-off, invalid dates and WhatsApp encoding.
 Browser checks cover desktop, tablet and small phones, filter interaction,
 manual-quote states, input validation, mobile summary navigation and payloads.
 External traffic is blocked and no enquiries are submitted by the tests.
+
+
+## Presentation and discovery update — 3 October 2026
+
+The calculator now follows the private-chef page navigation, with a shorter introduction, a prominent VAT-inclusive estimate and WhatsApp action, compact chef choices, visible selected dishes and an expandable catalogue. Rates and booking rules are unchanged. The six-person minimum continues to apply to all packages.
+
+A shared dinner-calculator callout links from the homepage hero and first content section, catering hub, private-party catering, birthdays, villas, dining experiences, menus and event catering calculator. Desktop Private Chef, Catering, Events and Dinner menus, their mobile menus, the private-chef section navigation and the global footer also link directly to the calculator. Copy identifies 6–20 guests and ingredients included, and distinguishes bespoke quotes.
+
+The navigation calculator link uses its own icon / text / arrow grid instead of putting the text in the icon column. Arrow Down or Space opens desktop navigation menus; changing the URL fragment closes the mobile menu.

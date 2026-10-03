@@ -82,6 +82,7 @@ try {
   await page.$eval('[data-service=master]', el => el.click())
   await textIncludes(page, 'A personal quote for this menu')
   assert.equal(await page.$('.dining-total'), null)
+  await page.click('.dining-browse-toggle')
   await setInput(page, '#dining-search', 'sushi')
   assert.equal(await page.$eval('[aria-label="Add Sushi (nigiri and maki)"]', el => el.disabled), false)
   await page.$eval('[data-service=signature]', el => el.click())
@@ -116,6 +117,7 @@ try {
     await mobile.waitForFunction(() => document.activeElement?.id === 'dining-ticket-title')
     await snapshot(mobile, `mobile-${width}-ticket`, '[data-testid="dining-ticket"]')
     await mobile.setViewport({ width: 320, height: 900, deviceScaleFactor: 1 })
+    await mobile.click('.dining-browse-toggle')
     await snapshot(mobile, `small-mobile-${width}`, '.dining-filters')
     await mobile.close()
   }

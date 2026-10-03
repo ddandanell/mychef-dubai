@@ -1,3 +1,4 @@
+import { DinnerCalculatorMenuLink } from '@/components/private-chef/DinnerCalculatorCallout'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { NavigationMenuLink } from '@/components/ui/navigation-menu'
@@ -10,8 +11,10 @@ import type { NavGroup } from '@/content/navClusters'
 export default function ClusterMegaMenu({
   groups,
   footer,
+  dinnerCalculator = false,
 }: {
   groups: NavGroup[]
+  dinnerCalculator?: boolean
   footer?: { text: string; linkLabel: string; href: string }
 }) {
   return (
@@ -48,6 +51,7 @@ export default function ClusterMegaMenu({
           </div>
         ))}
       </div>
+      {dinnerCalculator && <DinnerCalculatorMenuLink/>}
       {footer ? (
         <p className="mt-4 border-t border-gold/25 px-3.5 pt-3.5 font-inter text-body-sm text-white/45">
           {footer.text}{' '}

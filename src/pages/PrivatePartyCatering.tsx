@@ -1,3 +1,4 @@
+import DinnerCalculatorCallout from '@/components/private-chef/DinnerCalculatorCallout'
 import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /private-party-catering-dubai
@@ -126,6 +127,7 @@ export default function PrivatePartyCatering() {
         </p>
       </PageHero></NonCateringVisual>
       <TrustSignalStrip />
+      <DinnerCalculatorCallout />
       <div className="border-b border-gray-200 bg-cream">
         <div className="container-custom py-5 font-inter text-body-sm text-gray-700">
           Hosting a birthday? See the birthday menus, service options and quote route on{' '}

@@ -1,3 +1,4 @@
+import { DINNER_CALCULATOR_NAV } from '@/content/privateDiningLinks'
 import { useEffect, useRef, useState, type ComponentType } from 'react'
 import { Link, useLocation } from 'react-router'
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
@@ -67,12 +68,14 @@ const MEGA_MENUS: Record<NavMega, ComponentType> = {
   catering: () => (
     <ClusterMegaMenu
       groups={CATERING_FORMATS_GROUPS}
+      dinnerCalculator
       footer={{ text: 'Not sure which format fits?', linkLabel: 'Start with the event.', href: CATERING_FORMATS_ROOT }}
     />
   ),
   'private-events': () => (
     <ClusterMegaMenu
       groups={PRIVATE_EVENTS_GROUPS}
+      dinnerCalculator
       footer={{ text: 'Something else entirely?', linkLabel: 'See all private events.', href: PRIVATE_EVENTS_ROOT }}
     />
   ),
@@ -114,7 +117,7 @@ const navLinks: NavItem[] = [
     label: 'Private Chef',
     href: CLUSTER_PATHS.overview,
     mega: 'private-chef',
-    children: GLOBAL_CLUSTER_NAV.map((item) => ({
+    children: [GLOBAL_CLUSTER_NAV[0], DINNER_CALCULATOR_NAV, ...GLOBAL_CLUSTER_NAV.slice(1)].map((item) => ({
       href: item.href,
       label: item.label,
       description: item.description,
@@ -124,13 +127,13 @@ const navLinks: NavItem[] = [
     label: 'Catering',
     href: CATERING_FORMATS_ROOT,
     mega: 'catering',
-    children: CATERING_FORMATS_CHILDREN,
+    children: [DINNER_CALCULATOR_NAV, ...CATERING_FORMATS_CHILDREN],
   },
   {
     label: 'Events',
     href: PRIVATE_EVENTS_ROOT,
     mega: 'private-events',
-    children: PRIVATE_EVENTS_CHILDREN,
+    children: [DINNER_CALCULATOR_NAV, ...PRIVATE_EVENTS_CHILDREN],
   },
   {
     label: 'Corporate',
@@ -148,7 +151,7 @@ const navLinks: NavItem[] = [
     label: 'Dinner',
     href: EXPERIENCES_PATHS.hub,
     mega: 'experiences',
-    children: EXPERIENCES_NAV_CHILDREN,
+    children: [DINNER_CALCULATOR_NAV, ...EXPERIENCES_NAV_CHILDREN],
   },
   {
     label: 'Contact',
@@ -211,14 +214,14 @@ export default function Navbar() {
 
   useEffect(() => {
     ignoreOpen.current = true
-    setMenu('')
-    setMobileOpen(false)
-    setMobileOpenGroup('')
     const clear = window.setTimeout(() => {
+      setMenu('')
+      setMobileOpen(false)
+      setMobileOpenGroup('')
       ignoreOpen.current = false
     }, 0)
     return () => window.clearTimeout(clear)
-  }, [location.pathname])
+  }, [location.pathname, location.hash])
 
   useEffect(() => {
     const closeMegaOnScroll = () => setMenu('')
@@ -291,6 +294,13 @@ export default function Navbar() {
                       to={link.href}
                       onPointerDown={closeMega}
                       onClick={closeMega}
+                      onKeyDown={(event) => {
+                        if (event.key === 'ArrowDown' || event.key === ' ') {
+                          event.preventDefault()
+                          ignoreOpen.current = false
+                          setMenu(link.mega!)
+                        }
+                      }}
                       aria-current={normalizePath(location.pathname) === link.href ? 'page' : undefined}
                       className={cn(
                         navLinkClass,

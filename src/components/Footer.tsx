@@ -1,3 +1,4 @@
+import { DINNER_CALCULATOR_PATH } from '@/content/privateDiningLinks'
 import { Link } from 'react-router'
 import { Phone, Mail, MapPin } from 'lucide-react'
 import TrustBar from '@/components/TrustBar'
@@ -41,7 +42,8 @@ const guideLinks = [
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
   { label: 'Private Chef Prices', href: '/private-chef-dubai/pricing' },
-  { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
+  { label: 'Dinner Price Calculator', href: DINNER_CALCULATOR_PATH },
+  { label: 'Event Catering Calculator', href: '/catering-cost-calculator-dubai' },
   { label: 'Catering Packages', href: '/catering-packages-dubai' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },

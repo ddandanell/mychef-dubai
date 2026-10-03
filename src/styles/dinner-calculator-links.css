@@ -1,0 +1,21 @@
+.dinner-callout { background:#f5f2e9; color:#243b30; border-block:1px solid #dedbcf; font-family:Manrope,Inter,system-ui,sans-serif; }
+.dinner-callout-inner { width:min(1240px,calc(100% - 80px)); margin:auto; display:flex; justify-content:space-between; align-items:center; gap:48px; padding:32px 0; }
+.dinner-callout-copy { max-width:680px; min-width:0; }
+.dinner-callout .dinner-callout-eyebrow { display:flex; align-items:center; gap:9px; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:#786338; margin-bottom:12px; }
+.dinner-callout .dinner-callout-copy h2 { font:500 30px/1.12 'Cormorant Garamond',Georgia,serif; margin-bottom:12px; }
+.dinner-callout-copy>p:last-of-type { font-size:14px; line-height:1.8; color:#556156; max-width:62ch; }
+.dinner-callout-action { flex-shrink:0; max-width:100%; }
+.dinner-calculator-button { display:inline-flex; align-items:center; justify-content:center; gap:24px; padding:16px 24px; min-height:52px; background:#284434; border:1px solid #284434; border-radius:4px; color:white; font:600 14px/1.5 Manrope,Inter,system-ui,sans-serif; transition:background .15s; text-decoration:none; }
+.dinner-calculator-button:hover { background:#193526; }
+.dinner-calculator-button:focus-visible,.dinner-menu-link:focus-visible { outline:3px solid #b08a41; outline-offset:4px; }
+.dinner-callout .dinner-callout-action p { font-size:11px; line-height:1.8; color:#626b5f; margin:10px 0 0; text-align:center; }
+.dinner-callout--featured .dinner-callout-inner { padding-block:48px; }
+.dinner-callout--featured h2 { font-size:clamp(34px,3.5vw,48px); }
+.dinner-callout--featured h2 em { font-weight:400; color:#82703d; }
+.dinner-callout-facts { display:flex; gap:12px 20px; flex-wrap:wrap; margin-top:20px; }
+.dinner-callout-facts span { display:flex; align-items:center; gap:6px; font-size:12px; }
+.dinner-menu-link { display:grid!important; grid-template-columns:24px minmax(0,1fr) 18px!important; gap:14px!important; align-items:center; background:#b3925020; border:1px solid #b3925055; border-radius:5px; padding:17px!important; margin-top:18px; color:#cdb177; text-decoration:none; }
+.dinner-menu-link strong { display:block; color:#f5f1e6; font:500 19px/1.25 'Cormorant Garamond',Georgia,serif; }
+.dinner-menu-link small { display:block; color:#c9c8bf; font:400 12px/1.6 Manrope,Inter,system-ui,sans-serif; margin-top:4px; }
+.dinner-menu-link:hover { background:#b3925030; border-color:#b39250; }
+@media(max-width:800px) { .dinner-callout-inner { width:calc(100% - 40px); gap:24px; flex-direction:column; align-items:flex-start; padding:28px 0; } .dinner-callout--featured .dinner-callout-inner { padding-block:36px; } .dinner-callout-action { width:100%; } .dinner-calculator-button { width:100%; gap:16px; } .dinner-callout .dinner-callout-action p { text-align:left; } .dinner-callout .dinner-callout-copy h2 { font-size:32px; } }

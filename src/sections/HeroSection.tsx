@@ -1,3 +1,4 @@
+import { DINNER_CALCULATOR_PATH } from '@/content/privateDiningLinks'
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -249,8 +250,8 @@ export default function HeroSection() {
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
-          <Link to="/inquiry" className="btn-primary text-center">
-            Get a tailored quote
+          <Link to={DINNER_CALCULATOR_PATH} className="btn-primary text-center">
+            Get my dinner price
           </Link>
           <Link to="/private-chef-dubai" className="btn-secondary text-center">
             Plan a household chef
