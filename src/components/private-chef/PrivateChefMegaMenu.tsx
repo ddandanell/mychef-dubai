@@ -77,7 +77,7 @@ export default function PrivateChefMegaMenu() {
           <img src="/images/private-chef-dubai-evening.webp" alt="A private dinner at home" width="1280" height="720" className="mb-5 hidden aspect-[16/9] w-full rounded-[5px] object-cover xl:block [@media(max-height:700px)]:hidden"/>
           <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-2">Hosting at home?</p>
           <p className="font-playfair text-[26px] leading-tight text-[#f2f0ea] mb-3">Plan your menu.<br/>See your dinner price.</p>
-          <p className="font-inter text-body-sm leading-relaxed text-white/65">Choose a chef and dishes for 6–20 guests. Ingredients included. Send your request on WhatsApp.</p>
+          <p className="font-inter text-body-sm leading-relaxed text-white/65">Chef at home from 6 guests, delivery from 10 or buffet from 20. Choose your menu and get an estimate.</p>
           <DinnerCalculatorMenuLink/>
         </div>
       </div>

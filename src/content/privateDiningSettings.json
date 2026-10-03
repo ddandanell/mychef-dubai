@@ -1,0 +1,397 @@
+{
+  "version": "2026-10-04",
+  "currency": "AED",
+  "vat": 0.05,
+  "whatsapp": "971551744849",
+  "leadDays": 5,
+  "minDishes": 3,
+  "maxDishes": 11,
+  "perGuestCourse": {
+    "E": 35,
+    "S": 55,
+    "C": 90
+  },
+  "ingredientUplift": {
+    "L": 0,
+    "M": 15,
+    "H": 35
+  },
+  "chefFees": {
+    "professional": 1200,
+    "senior": 1800
+  },
+  "assistantFee": 400,
+  "buffetAssistantCap": 5,
+  "services": [
+    {
+      "id": "delivery",
+      "name": "Delivered to you",
+      "shortName": "Food delivery",
+      "minGuests": 10,
+      "description": "Freshly prepared food, delivered ready to serve.",
+      "inclusions": "Ingredients, kitchen preparation and ready-to-serve delivery. No on-site chef or assistants.",
+      "chefOnSite": false
+    },
+    {
+      "id": "home",
+      "name": "Cooked in your kitchen",
+      "shortName": "Chef at home",
+      "minGuests": 6,
+      "description": "Your chef cooks, plates and serves at your home.",
+      "inclusions": "Ingredients, preparation, cooking, plating, food service and kitchen clean-up. An equipped customer kitchen is required.",
+      "chefOnSite": true
+    },
+    {
+      "id": "buffet",
+      "name": "A buffet for everyone",
+      "shortName": "Buffet",
+      "minGuests": 20,
+      "description": "A generous spread with a chef and serving team.",
+      "inclusions": "Ingredients, preparation, a chef and required assistants for buffet food service. Equipment hire is quoted separately.",
+      "chefOnSite": true
+    }
+  ],
+  "transport": [
+    {
+      "id": "1",
+      "fee": 40,
+      "label": "Central Dubai"
+    },
+    {
+      "id": "2",
+      "fee": 65,
+      "label": "Umm Suqeim, Al Barsha and Dubai Hills"
+    },
+    {
+      "id": "3",
+      "fee": 95,
+      "label": "Marina, Palm and nearby communities"
+    },
+    {
+      "id": "4",
+      "fee": 130,
+      "label": "Outer Dubai and other areas"
+    }
+  ],
+  "cuisines": [
+    {
+      "id": "indian",
+      "name": "Indian",
+      "description": "Curries, tandoor favourites and fragrant rice"
+    },
+    {
+      "id": "arabic",
+      "name": "Arabic",
+      "description": "Levantine mezze, grills and regional favourites"
+    },
+    {
+      "id": "western",
+      "name": "Western",
+      "description": "European classics and familiar favourites"
+    },
+    {
+      "id": "japanese",
+      "name": "Japanese",
+      "description": "Teriyaki, donburi and Japanese-inspired dishes"
+    },
+    {
+      "id": "italian",
+      "name": "Italian",
+      "description": "Pasta, risotto and comforting Italian classics"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "water",
+      "name": "Still water",
+      "price": 8,
+      "serving": "500 ml per guest"
+    },
+    {
+      "id": "soft",
+      "name": "Soft drinks",
+      "price": 12,
+      "serving": "One 330 ml can per guest"
+    },
+    {
+      "id": "juice",
+      "name": "Fresh juice",
+      "price": 20,
+      "serving": "One 250 ml serving per guest"
+    },
+    {
+      "id": "mocktail",
+      "name": "Signature mocktail",
+      "price": 28,
+      "serving": "One 250 ml serving per guest"
+    },
+    {
+      "id": "tea",
+      "name": "Tea selection",
+      "price": 12,
+      "serving": "One cup per guest"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "price": 15,
+      "serving": "One cup per guest"
+    }
+  ],
+  "equipment": [
+    "Chairs",
+    "Dining tables",
+    "Table linen & napkins",
+    "Plates & cutlery",
+    "Glassware",
+    "Buffet tables & warming equipment",
+    "Service staff beyond the included team"
+  ],
+  "themes": [
+    "No decoration",
+    "Elegant neutrals",
+    "Garden party",
+    "Arabian evening",
+    "Birthday",
+    "Children’s birthday",
+    "Milestone birthday",
+    "Christmas",
+    "New Year’s Eve",
+    "Eid celebration",
+    "Ramadan gathering",
+    "Diwali",
+    "Engagement",
+    "Wedding anniversary",
+    "Baby shower",
+    "Graduation",
+    "Corporate celebration",
+    "Other theme"
+  ],
+  "cakes": [
+    "No cake",
+    "Chocolate",
+    "Vanilla",
+    "Red velvet",
+    "Lemon",
+    "Carrot",
+    "Pistachio",
+    "Fruit & cream",
+    "Vegan chocolate",
+    "Other flavour"
+  ],
+  "areaNote": "Fixed area-based transport estimate. Exact address, access and any unusual travel requirements are confirmed before booking. No live traffic surcharge is calculated.",
+  "drinkNote": "Proposed package rates per guest, before VAT. Each selected drink is supplied for every guest. Glassware, staffed bars and unlimited refills are not included. Delivery includes prepared drinks; tea and coffee are supplied ready to serve in insulated containers.",
+  "kitchenConfirmation": "I confirm there is a working hob, oven, fridge, running water, clear preparation space, cookware and utensils for the chef.",
+  "areas": [
+    {
+      "id": "downtown-dubai",
+      "name": "Downtown Dubai",
+      "zone": "1",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "difc",
+      "name": "DIFC",
+      "zone": "1",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "business-bay",
+      "name": "Business Bay",
+      "zone": "1",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "jumeirah",
+      "name": "Jumeirah",
+      "zone": "1",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "city-walk",
+      "name": "City Walk",
+      "zone": "1",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "al-wasl",
+      "name": "Al Wasl",
+      "zone": "1",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "umm-suqeim",
+      "name": "Umm Suqeim",
+      "zone": "2",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "al-barsha",
+      "name": "Al Barsha",
+      "zone": "2",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "dubai-hills-estate",
+      "name": "Dubai Hills Estate",
+      "zone": "2",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "dubai-marina",
+      "name": "Dubai Marina",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "jbr",
+      "name": "JBR",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "jlt",
+      "name": "JLT",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "palm-jumeirah",
+      "name": "Palm Jumeirah",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "emirates-hills",
+      "name": "Emirates Hills",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "jumeirah-village-circle-jvc",
+      "name": "Jumeirah Village Circle (JVC)",
+      "zone": "3",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "jumeirah-village-triangle-jvt",
+      "name": "Jumeirah Village Triangle (JVT)",
+      "zone": "3",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "the-meadows",
+      "name": "The Meadows",
+      "zone": "3",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "the-springs",
+      "name": "The Springs",
+      "zone": "3",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "the-lakes",
+      "name": "The Lakes",
+      "zone": "3",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "al-sufouh",
+      "name": "Al Sufouh",
+      "zone": "3",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "arabian-ranches",
+      "name": "Arabian Ranches",
+      "zone": "4",
+      "basis": "Existing guide area"
+    },
+    {
+      "id": "dubai-silicon-oasis",
+      "name": "Dubai Silicon Oasis",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "dubai-creek-harbour",
+      "name": "Dubai Creek Harbour",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "mirdif",
+      "name": "Mirdif",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "deira",
+      "name": "Deira",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "bur-dubai",
+      "name": "Bur Dubai",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "dubai-festival-city",
+      "name": "Dubai Festival City",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "damac-hills",
+      "name": "Damac Hills",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "dubai-sports-city",
+      "name": "Dubai Sports City",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "motor-city",
+      "name": "Motor City",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "town-square",
+      "name": "Town Square",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "dubai-south",
+      "name": "Dubai South",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "jebel-ali",
+      "name": "Jebel Ali",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "al-furjan",
+      "name": "Al Furjan",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    },
+    {
+      "id": "other-dubai-area",
+      "name": "Other Dubai area",
+      "zone": "4",
+      "basis": "Expanded area mapping; confirm exact address"
+    }
+  ]
+}

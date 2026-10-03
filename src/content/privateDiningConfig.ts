@@ -1,45 +1,10 @@
-/** Owner's Complete System & Build Guide, Parts 2–4. Separate from cooking-visit prices.
- * The owner's 2026-10-03 instruction overrides the guide's two-guest minimum to six.
- * Dining fees are used directly; cross-service chef multipliers are NOT applied again.
- */
-export const DINING_CONFIG = {
-  currency: 'AED', vat: 0.05, whatsapp: '971551744849',
-  minGuests: 6, maxGuests: 20, minDishes: 3, maxDishes: 5,
-  perGuestCourse: { E: 35, S: 55, C: 90 },
-  ingredientUplift: { L: 0, M: 15, H: 35 },
-  eveningFee: {
-    essential: 1200, signature: 1800,
-    master: { base: 3000, max: 5000, pricing: 'bespoke' },
-  },
-  assistantFee: 400,
-  assistantThresholds: [{ guests: 20, count: 2 }, { guests: 9, count: 1 }],
-  transport: [
-    { id: '1', label: 'Downtown · DIFC · Business Bay · Jumeirah', fee: 40 },
-    { id: '2', label: 'Umm Suqeim · Al Barsha · Dubai Hills', fee: 65 },
-    { id: '3', label: 'Marina · JBR · JLT · Palm · Emirates Hills · JVC', fee: 95 },
-    { id: '4', label: 'Arabian Ranches and beyond', fee: 130 },
-  ],
-} as const
-
-export const DINING_PACKAGES = [
-  { id: 'essential', name: 'Essential', maxChefLevel: 2, tagline: 'Relaxed food, thoughtfully cooked.', description: 'A professional chef for a simple, generous menu and a relaxed evening at home.' },
-  { id: 'signature', name: 'Signature', maxChefLevel: 4, tagline: 'A dinner worth gathering for.', description: 'A senior or executive chef, more involved dishes and a menu shaped around your occasion.' },
-  { id: 'master', name: 'Master', maxChefLevel: 5, tagline: 'A bespoke chef request.', description: 'Tell us your vision. We check specialist chef availability and prepare a personal proposal.' },
-] as const
-
-export const DISH_TIERS = { E: 'Everyday', S: 'Signature', C: "Chef’s Special" } as const
-export const DINING_PRESETS = [
-  { name: 'Signature dinner', dishIds: [23, 27, 54, 44], service: 'signature' },
-  { name: 'Italian evening', dishIds: [45, 36, 41, 44], service: 'signature' },
-  { name: 'Indian favourites', dishIds: [7, 3, 5, 9], service: 'signature' },
-  { name: 'Relaxed Mediterranean', dishIds: [33, 31, 34, 44], service: 'essential' },
-] as const
-
-export const DINING_ESTIMATE_NOTE = 'Every total is an estimate until your coordinator confirms the chef, menu, availability and final price in writing.'
-
+import settings from './privateDiningSettings.json'
+export const DINING_CONFIG = settings
+export const DINING_ESTIMATE_NOTE = 'This is an estimate and a booking request. Your coordinator confirms availability, dietary requirements, the menu and final price in writing.'
 export const DINING_FAQS = [
-  { q: 'What is included in a private dinner package?', a: 'Your selected menu includes the ingredients, shopping, cooking, plating, table service and kitchen clean-up. The calculator also includes the chef evening fee, assistants required for your guest count, transport for your area and 5% VAT. Drinks, tableware and linen hire, flowers and other extras are quoted separately if requested.' },
-  { q: 'How many people can I book a dinner package for?', a: 'Private dinner packages have a minimum of six guests. The calculator covers six to twenty people. For a larger celebration, ask us for a tailored catering proposal.' },
-  { q: 'Can I change the suggested menu?', a: 'Yes. Start with a suggested menu or choose three to five dishes from the catalogue. Each selected dish is prepared for every guest. Tell us about allergies, dietary requirements, children and alternative portions so we can agree a suitable menu before booking.' },
-  { q: 'Does sending my menu on WhatsApp confirm a booking?', a: 'No. It sends a booking request with your package, menu, guest count, preferred date, location and estimate. Your coordinator checks availability and dietary requirements, then confirms the chef, final menu, price and booking terms in writing.' },
-] as const
+  { q: 'What does the food and chef estimate include?', a: 'Ingredients and preparation are included. Delivery brings ready-to-serve food with no on-site staff. Cooking in your kitchen includes cooking, plating, food service and kitchen clean-up. Buffet service includes food preparation, a chef and the required assistants. The estimate shows area transport, selected drinks and 5% VAT separately. Furniture, tableware, buffet equipment, decorations and cakes are quoted separately when requested.' },
+  { q: 'What are the minimum guest numbers and booking notice?', a: 'Cooking in your kitchen starts at six guests, delivered food at ten and buffet service at twenty. Book at least five calendar days ahead in Dubai time. Cooking at home requires confirmation that a fully equipped kitchen is available.' },
+  { q: 'Can I choose vegetarian and vegan alternatives?', a: 'Yes. Choose one cuisine and three to eleven dishes, then select replacement dishes for vegetarian, vegan or other dietary groups. Each guest belongs to one group and is charged for one menu. Tell us about allergies so the chef can confirm whether your requirements can be accommodated.' },
+  { q: 'Do I need to choose a chef?', a: 'No. We include the appropriate chef automatically. On-site bookings add one assistant from nine guests, two from twenty and one more at each ten-guest step. Buffet estimates cap assistants at five. Final staffing and specialist dishes are confirmed before booking.' },
+  { q: 'Does WhatsApp confirm my booking?', a: 'No. It opens a prefilled request containing your service, menus, date, guests, dietary groups, area, estimate and extras. Send it to our team to confirm availability and booking terms. Cakes, furniture and decoration are separate quote requests.' },
+]

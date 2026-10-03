@@ -1,82 +1,60 @@
-# Private dinner package calculator
+# Food and chef calculator
 
-Implemented on `/private-chef-dubai#dinner-calculator`, with entry points in the
-hero, private-chef navigation, mega menu, pricing page and relevant FAQ.
+Live route: `/private-chef-dubai#dinner-calculator`.
 
-## Source and scope
+## Current model (4 October 2026)
 
-The owner's `myCHEF_Complete_System_and_Build_Guide.md`, supplied 3 October 2026,
-provides the dining prices, dish catalogue, chef restrictions and transport zones.
-The source checksum is recorded in `src/content/privateDiningDishes.json`.
-The owner's accompanying instruction changes the minimum from two to **six**
-guests. The calculator covers 6–20 guests and 3–5 dishes including a main.
+The owner requested one service-first flow, one cuisine per booking and automatic chef selection. Service minimums are home 6, delivery 10, buffet 20. Bookings require at least five calendar days' notice in Asia/Dubai time, name and WhatsApp number. Home cooking also requires explicit kitchen confirmation. WhatsApp opens a prefilled request; no message is sent automatically and no booking is confirmed.
 
-This release integrates the guide's private-dining package into the existing
-website. Cooking-visit and existing meal-pack products keep their current rate
-cards. The guide's other service-page projects, alternate meal-prep calculator,
-membership, price feeds and payment/account systems are outside this change.
+The UI has four steps: gathering, menu, drinks/extras, review/send. Homepage, menus, catering, private party, birthday, villa, luxury dining and catering calculator links point to the same calculator. Navigation keeps the existing contained calculator card.
 
-## Pricing and fulfilment rules
+## Sources and editable data
 
-- Menu price: guests × sum of each dish's tier price and derived ingredient uplift.
-- Chef evening fee: Essential AED 1,200 or Signature AED 1,800.
-- One AED 400 assistant from 9 guests; two from 20 guests.
-- Transport: AED 40 / 65 / 95 / 130 by the guide's four areas.
-- VAT: 5% once on the event subtotal, rounded to fils. Per-person figures are rounded for display.
-- Master uses the source's bespoke object and has no automated event total.
-  Chef availability is requested, never promised.
-- Essential supports up to L2; Signature up to L4; Master requests up to L5.
-  Customers cannot self-approve senior sign-off. Sushi requires the Master specialist path.
-- The seven dishes awaiting receipt confirmation have no numeric dish price or
-  event total. A request can be sent for a manual quote. The same applies to
-  source market-price dishes and Signature menus needing senior sign-off.
-- All 104 dishes are imported. The 24 proposed additions are available only
-  through the New preview and cannot be selected. Breakfast is excluded from dining.
-- Private-dining ingredients and shopping are included in the menu price.
-  Drinks, tableware, linen and requested extras are separate quotes.
-- Every handoff is a request, not a confirmed reservation. The customer opens
-  WhatsApp, reviews the encoded package/menu/details and chooses to send it.
-  The site sends no automated messages and collects no payment.
+- `src/content/privateDiningSettings.json`: service minimums, VAT, chef fees, drink prices, 35 area mappings, transport, equipment, themes and cake flavours.
+- `src/content/privateDiningMenu.json`: 200 dishes; five cuisines, ten dishes per category in each cuisine. Stable string IDs must not be renumbered.
+- `src/content/privateDiningDishes.json`: preserved original guide import. `sourceId` links reused/adapted recipes to this source. Do not overwrite the historical import with workbook edits.
+- `src/lib/privateDining.ts`: calculations, menu slots, dietary group resolution, staffing and WhatsApp validation.
 
-## Maintenance
+The owner's Complete System and Build Guide supplies dish tiers E/S/C = AED 35/55/90, ingredient uplifts L/M/H = AED 0/15/35, chef fees AED 1,200/1,800, assistants AED 400 and transport AED 40/65/95/130. These are sale estimate tariffs, not actual ingredient costs. The prior six-to-twenty and three-to-five limits are superseded by the current instruction.
 
-Prices and operational limits: `src/content/privateDiningConfig.ts`.
-Calculation and message generation: `src/lib/privateDining.ts`.
+## Pricing
 
-To regenerate the catalogue from an updated owner guide:
+Each guest is assigned to exactly one group: main menu, vegetarian, vegan or other dietary needs. Food is the sum of each group's guests multiplied by its chosen dish prices. Alternatives replace that group's base menu, so there is no double charge. Compatible vegan/vegetarian base dishes carry over automatically. Other needs require explicit dish selection and written dietary notes, with chef review before confirmation.
 
-```sh
-python3 scripts/import-private-dining-data.py /path/to/myCHEF_Complete_System_and_Build_Guide.md
-```
+Delivery includes preparation in its dish prices and has no on-site chef fee or assistants. Home/buffet selects the chef from the highest recipe level actually served: levels 1–2 AED 1,200; 3–4 AED 1,800. There is no extra chef multiplier. Specialist recipes with unverified pricing retain a complete personal-quote state, rather than publishing a partial total. Buffet uses the same on-site chef fee model; this is an implementation assumption for owner review, not the separate website's generic per-person catering floor.
 
-The importer derives grocery bands from source costs and verifies every band;
-supplier cost figures and margin data are not copied into the public catalogue.
-Do not clear cost-confirmation flags, approve proposed dishes or claim Master
-availability without the corresponding operational confirmation.
+Home and buffet: 0 assistants for up to 8 guests, 1 for 9–19, 2 for 20–29, 3 for 30–39, and so on. Buffet caps at 5 assistants. **The owner's “buffet stops at five people” is interpreted as five assistants, not five guests.** Final operational staffing/availability is confirmed by the coordinator. The cap is not a capacity guarantee.
 
-## Verification
+Drinks apply to every guest once per selected option. Proposed before-VAT package prices: water 8, soft drink 12, fresh juice 20, mocktail 28, tea 12, coffee 15 AED per guest. These are owner-requested price suggestions, not verified supplier quotations. Delivery drinks are ready to serve; hot drinks use insulated containers. Glassware, bar staff and unlimited refills are not included.
 
-```sh
-npm run test:private-dining
-npm run build
-npm run test:private-dining-ui
-python3 scripts/verify-seo-contract.py
-python3 scripts/verify-keyword-locks.py
-```
+The ticket shows food, chef, assistants, food-and-chef subtotal, drinks, transport and VAT. VAT is applied once and rounded at ticket level. Equipment, themes and cake flavours are separately quoted and never contribute zero-valued promises or hidden charges to the estimate.
 
-The unit test reproduces the supplied Signature example: six guests, four mixed
-dishes and zone 3 = AED 3,575 before VAT; AED 3,753.75 including VAT. It also covers
-the guest limits, both assistant thresholds, all zones, all proposed dishes,
-chef eligibility, market pricing, sign-off, invalid dates and WhatsApp encoding.
-Browser checks cover desktop, tablet and small phones, filter interaction,
-manual-quote states, input validation, mobile summary navigation and payloads.
-External traffic is blocked and no enquiries are submitted by the tests.
+Area mappings preserve the four original rates. Additional neighbourhoods use documented estimated band assignments; the exact address and exceptional access/transport are confirmed before booking. The calculator does not claim live traffic pricing.
 
+## Menus
 
-## Presentation and discovery update — 3 October 2026
+Indian, Arabic, Western, Japanese and Italian. Existing Italian dishes support the additional cuisine. Dubai DET’s 2023 gastronomy report lists Italian, Lebanese and Indian among popular choices; YouGov’s October 2023 UAE survey also places Italian highly. These are historical market signals, not a current ranking of myCHEF bookings. Sources: https://www.dubaidet.gov.ae/en/research-and-insights/-/media/files/faqs/dubai-gastronomy-industry-report-2023.pdf and https://yougov.com/articles/47611-italian-and-middle-eastern-cuisines-are-most-popular-among-meat-eaters-in-uae . New recipes and recipe variants are suggestions priced from the existing tariff ladder. These have not been represented as kitchen-trialled recipes. Vegan/vegetarian recipe notes specify preparation changes; labels are not allergen or cross-contact guarantees.
 
-The calculator now follows the private-chef page navigation, with a shorter introduction, a prominent VAT-inclusive estimate and WhatsApp action, compact chef choices, visible selected dishes and an expandable catalogue. Rates and booking rules are unchanged. The six-person minimum continues to apply to all packages.
+The 3–11 selections are dishes, grouped by correct names: first/second/third starter, main, side and dessert. A side is not called an independent plated course. Counts map to starter/main/side/dessert quantities:
 
-A shared dinner-calculator callout links from the homepage hero and first content section, catering hub, private-party catering, birthdays, villas, dining experiences, menus and event catering calculator. Desktop Private Chef, Catering, Events and Dinner menus, their mobile menus, the private-chef section navigation and the global footer also link directly to the calculator. Copy identifies 6–20 guests and ingredients included, and distinguishes bespoke quotes.
+| Dishes | Starters | Mains | Sides | Desserts |
+| --- | --- | --- | --- | --- |
+| 3 | 1 | 1 | 0 | 1 |
+| 4 | 1 | 1 | 1 | 1 |
+| 5 | 2 | 1 | 1 | 1 |
+| 6 | 2 | 2 | 1 | 1 |
+| 7 | 2 | 2 | 2 | 1 |
+| 8 | 2 | 2 | 2 | 2 |
+| 9 | 3 | 2 | 2 | 2 |
+| 10 | 3 | 3 | 2 | 2 |
+| 11 | 3 | 3 | 3 | 2 |
 
-The navigation calculator link uses its own icon / text / arrow grid instead of putting the text in the icon column. Arrow Down or Space opens desktop navigation menus; changing the URL fragment closes the mobile menu.
+## Updating from the owner workbook
+
+The exported workbook contains stable IDs, current settings, menus, all prices and all extras. Edit values, preserve IDs and upload the workbook with an instruction describing the requested changes. It does not automatically publish edits. Compare against the checked-in JSON, validate the new input, run tests and build, review the layout, then publish an authorized commit. New dish prices should normally be controlled by tier/band; edit tier/band or their rates, not formula-derived prices. Turn `active` off to remove a dish, rather than deleting its ID. If a category drops below the needed number of selectable dishes, fix its options before publishing.
+
+## Validation
+
+`npm run test:private-dining` covers service minimums, assistant boundary values and buffet cap, all 200 dish IDs and category counts, all 3–11 menu sizes, one-cuisine enforcement, dietary replacements without double charging, full-group drinks, VAT, invalid values, unverified recipe quotes, date boundaries, contacts, kitchen confirmation and complete WhatsApp payloads.
+
+Use the connected browser for interactive verification of all four steps, desktop and responsive layouts, menu alternatives and WhatsApp href inspection. Do not send test enquiries.

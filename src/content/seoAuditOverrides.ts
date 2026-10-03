@@ -347,7 +347,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/private-chef-dubai": {
     "title": "Private Chef Dubai | Dinner Packages & Home Visits | myCHEF",
-    "description": "Private chef Dubai: build a dinner package for 6–20 guests, choose your menu and get an instant estimate. Send your booking request directly on WhatsApp."
+    "description": "Private chef Dubai: price your menu for a chef at home, food delivery or buffet. Choose dishes and dietary alternatives, then request your booking on WhatsApp."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Prices | Single & Member Rates | myCHEF",
