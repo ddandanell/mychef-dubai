@@ -8,6 +8,7 @@ import ServiceImage from './ServiceImage'
 import FaqAccordion from '@/components/FaqAccordion'
 import { ChefSection, ChefJourney, TeamCapability, ChefEnquiry } from './ChefSections'
 import { faqPageSchema } from '@/utils/schema'
+import { householdSchema } from '@/lib/householdSchema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import type { ChefImageKey } from '@/content/privateChefDesign'
 
@@ -86,7 +87,7 @@ export default function SupportPage({kind}:{kind:keyof typeof pages}) {
   useWhatsAppMessage(`Hi myCHEF Dubai, I would like to discuss a household chef. (via mychef.ae${page.path})`)
   const canonical='canonical' in page ? page.canonical : page.path
   const noindex='noindex' in page && page.noindex
-  return <div><SEO title={page.title} description={page.intro} canonicalPath={canonical} noindex={noindex} schema={faqPageSchema(page.faqs.map(f=>({question:f.q,answer:f.a}))) || undefined}/><PageHero eyebrow="MYCHEF · YOUR HOUSEHOLD" title={page.h1} subtitle={page.intro} cta={{label:'Find my chef',href:`/inquiry?from=${page.path}`}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/><ClusterNav/>
+  return <div><SEO title={page.title} description={page.intro} canonicalPath={canonical} noindex={noindex} schema={kind === 'process' ? householdSchema('Managed private chef service in Dubai', page.intro, page.faqs) : faqPageSchema(page.faqs.map(f=>({question:f.q,answer:f.a}))) || undefined}/><PageHero eyebrow="MYCHEF · YOUR HOUSEHOLD" title={page.h1} subtitle={page.intro} cta={{label:'Find my chef',href:`/inquiry?from=${page.path}`}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/><ClusterNav/>
     <ChefSection eyebrow={page.eyebrow} title={page.heading}><div className="pc-split"><ServiceImage imageKey={page.image}/><div className="pc-prose"><p className="pc-lead">{page.body}</p><Link className="pc-link" to="/our-chefs">Explore chef profiles →</Link></div></div></ChefSection>
     {kind==='process' && <><ChefSection eyebrow="For a dedicated long-term chef" title="The Managed Household journey." tone="pc-tone-cream"><div className="pc-prose"><HouseholdBriefGuide/><HouseholdJourney/><p>See the <Link className="pc-link" to="/full-time-private-chef-dubai#learning-month">30-day Learning Month</Link>, explore the <Link className="pc-link" to="/full-time-private-chef-dubai#food-profile">Household Food Profile</Link> and read how <Link className="pc-link" to="/full-time-private-chef-dubai#continuity">continuity and rematching work</Link>.</p></div></ChefSection><ChefSection eyebrow="For visits and short stays" title="Book the cooking time you need."><div className="pc-prose"><p>For a smaller schedule, recurring visits or a short stay, we confirm the booking around the days and service required. Visit prices and terms are separate from Managed Household.</p><ChefJourney/><Link className="pc-link" to="/private-chef-dubai/pricing#calculator">Compare cooking-visit prices →</Link></div></ChefSection></>}
     <ChefSection eyebrow="The details behind the service" title="Clear from the start." tone={kind==='process'?'':'pc-tone-cream'}><div className="pc-detail-grid">{page.blocks.map(([title,body],i)=><article key={title}><p className="pc-eyebrow">0{i+1}</p><h3>{title}</h3><p>{body}</p></article>)}</div></ChefSection>

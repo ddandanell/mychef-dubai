@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/locations",
   "path": "/locations",
   "role": "indexable page",
@@ -43,7 +43,9 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
+    "src/components/PlanningDetails.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -57,6 +59,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
@@ -78,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 226,
-    "current_word_count": 209,
+    "current_word_count": 804,
     "headings": [
       {
         "level": "h2",
@@ -102,6 +105,50 @@
       },
       {
         "level": "h2",
+        "text": "The right service for your part of Dubai."
+      },
+      {
+        "level": "h3",
+        "text": "Al Barsha: family meals and home gatherings"
+      },
+      {
+        "level": "h3",
+        "text": "JBR: plan the apartment access"
+      },
+      {
+        "level": "h3",
+        "text": "JLT: households and office teams"
+      },
+      {
+        "level": "h3",
+        "text": "DIFC: align food with the building schedule"
+      },
+      {
+        "level": "h3",
+        "text": "Choose the food format before comparing prices"
+      },
+      {
+        "level": "h3",
+        "text": "What to send with your location"
+      },
+      {
+        "level": "h3",
+        "text": "Questions before you begin"
+      },
+      {
+        "level": "h3",
+        "text": "Does living in a listed area guarantee a chef is available?"
+      },
+      {
+        "level": "h3",
+        "text": "Is delivery or transport included?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you cook in a small apartment kitchen?"
+      },
+      {
+        "level": "h2",
         "text": "Other areas we cook in"
       },
       {
@@ -116,7 +163,7 @@
     "baseline_findings": [
       "F12"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

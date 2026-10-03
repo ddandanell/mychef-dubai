@@ -8,7 +8,7 @@ import { ManagedHouseholdPricing, LearningMonth, HouseholdFoodProfile, Household
 import { HouseholdStartOffer, HouseholdBriefGuide, HouseholdDecisionChecks } from '@/components/household/HouseholdOffer'
 import HouseholdImage from '@/components/household/HouseholdImage'
 import FaqAccordion from '@/components/FaqAccordion'
-import { HOUSEHOLD_PATH, householdFaqs, householdImage } from '@/content/householdChefs'
+import { FULL_TIME_START_PRICE, HOUSEHOLD_PATH, householdFaqs, householdImage } from '@/content/householdChefs'
 import { householdInquiryHref } from '@/lib/householdInquiry'
 import { householdSchema } from '@/lib/householdSchema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -16,7 +16,7 @@ import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 export default function HouseholdChef() {
   useWhatsAppMessage('Hi myCHEF, I would like a dedicated full-time household chef. Dubai area: __. Adults and children: __. Preferred schedule: __. Start date: __. Monthly service budget: __. Please help me check the fit and timing.')
   return <div>
-    <SEO title="Full Time Private Chef Dubai | Managed Household | myCHEF" description="A full-time private chef in Dubai from AED 15,000/month. Personal matching, a paid trial, first-month onboarding and ongoing myCHEF support. Enquire without obligation." canonicalPath={HOUSEHOLD_PATH} ogImage={householdImage('managed-household-table', 1536)} schema={householdSchema('myCHEF Managed Household — full-time private chef in Dubai', 'Personal household chef matching, onboarding, a Household Food Profile and ongoing relationship management.', householdFaqs)}/>
+    <SEO title="Full Time Private Chef Dubai | Managed Household | myCHEF" description="A full-time private chef in Dubai from AED 15,000/month. Personal matching, a paid trial, first-month onboarding and ongoing myCHEF support. Enquire without obligation." canonicalPath={HOUSEHOLD_PATH} ogImage={householdImage('managed-household-table', 1536)} schema={householdSchema('myCHEF Managed Household — full-time private chef in Dubai', 'Personal household chef matching, onboarding, a Household Food Profile and ongoing relationship management.', householdFaqs, { price: FULL_TIME_START_PRICE, description: 'Dedicated full-time Managed Household service from AED 15,000 per month, before 5% VAT. AED 950 Match Activation, paid trials, groceries and agreed extras are separate. Final schedule and fee are confirmed in writing.', url: HOUSEHOLD_PATH })}/>
     <PageHero eyebrow="MYCHEF · YOUR HOUSEHOLD, UNDERSTOOD" title={<>Full Time Private Chef Dubai.<br/><em>Come home to your kind of food.</em></>} subtitle="A dedicated chef matched to your tastes and routine, with one myCHEF contact keeping the relationship on track. Full-time Managed Household starts from AED 15,000/month before VAT. We help you choose the person, settle in and keep making the food yours." cta={{ label: 'Check my start date', href: householdInquiryHref() }} secondaryCta={{ label: 'See the complete offer', href: '#household-offer' }}/>
     <ClusterNav/>
     <ChefSection id="household-offer"><HouseholdStartOffer/><nav className="mh-section-nav" aria-label="Managed Household guide"><a href="#how-it-works">How you begin</a><a href="#food-profile">What we remember</a><a href="#managed-pricing">Fees & inclusions</a><a href="#continuity">If the match changes</a></nav></ChefSection>

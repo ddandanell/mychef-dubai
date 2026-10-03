@@ -24,6 +24,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import { serviceSchema } from '@/utils/schema'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
@@ -192,7 +193,7 @@ const breadcrumbSchema = {
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [collectionSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema('Festive catering in Dubai', collectionSchema.description, 'Seasonal event catering'), collectionSchema, faqSchema, breadcrumbSchema],
 }
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in festive catering in Dubai. Date: __ Guests: __ Area: __"

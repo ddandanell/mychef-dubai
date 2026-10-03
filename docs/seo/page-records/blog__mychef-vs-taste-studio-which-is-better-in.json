@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/mychef-vs-taste-studio-which-is-better-in",
+  "path": "/blog/mychef-vs-taste-studio-which-is-better-in",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "myCHEF vs Taste Studio service comparison for 2026: compare scope, chef vetting, halal standards and pricing models before booking your Dubai event.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF vs Taste Studio: Service Comparison 2026 | myCHEF",
+    "description": "myCHEF vs Taste Studio service comparison for 2026: compare scope, chef vetting, halal standards and pricing models before booking your Dubai event.",
+    "h1": [
+      "myCHEF vs Taste Studio: comparing event service scope"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/mychef-vs-taste-studio-which-is-better-in",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/mychef-vs-taste-studio-which-is-better-in.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/mychef-vs-taste-studio-which-is-better-in.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 1859,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why this comparison matters in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "At a glance"
+      },
+      {
+        "level": "h2",
+        "text": "myCHEF offers a wider range of in-home services"
+      },
+      {
+        "level": "h2",
+        "text": "Taste Studio is the one to check on format"
+      },
+      {
+        "level": "h2",
+        "text": "Chef vetting: myCHEF states its process"
+      },
+      {
+        "level": "h2",
+        "text": "Halal and dietary handling"
+      },
+      {
+        "level": "h2",
+        "text": "Menu design: built around you vs choose from a list"
+      },
+      {
+        "level": "h2",
+        "text": "Cleanup and kitchen respect"
+      },
+      {
+        "level": "h2",
+        "text": "Pricing: compare the model, not the headline"
+      },
+      {
+        "level": "h2",
+        "text": "Scorecard"
+      },
+      {
+        "level": "h2",
+        "text": "Final verdict"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One last thing"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

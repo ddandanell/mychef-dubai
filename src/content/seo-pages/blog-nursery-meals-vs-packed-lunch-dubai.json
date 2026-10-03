@@ -6,9 +6,30 @@
     "meta_description": "Compare provided nursery meals and packed lunches in Dubai, including dietary communication, storage, parent information and service responsibilities."
   },
   "opening_paragraph": [
-    "Choosing nursery meals or packed lunches in Dubai involves practical questions about the children, facilities and responsibilities. Both approaches need a clear food policy, reliable dietary information and a suitable process from preparation to the lunch table."
+    "Choosing nursery meals or packed lunches in Dubai involves practical questions about the children, facilities and responsibilities. Both approaches need a clear food policy, reliable dietary information and a suitable process from preparation to the lunch table. A nursery catering enquiry should begin with those requirements before a menu or delivery plan is agreed."
   ],
-  "add_block": [],
+  "add_block": [
+    {
+      "new_heading": "Compare the same week under both options",
+      "new_paragraphs": [
+        "Choose a representative week and write down the meal times, children attending and staff available. For packed lunches, note the questions parents would need answered about containers, labels and the nursery’s facilities. For provided meals, note the delivery, receiving and service arrangements the nursery would need to coordinate.",
+        "Include busy days, absences and planned outings in the comparison. An option that looks simple on the menu can still create work for staff if responsibilities are unclear. Ask each proposed provider to describe the part it would handle and the tasks that remain with the nursery."
+      ]
+    },
+    {
+      "new_heading": "Make the commercial comparison useful",
+      "new_paragraphs": [
+        "Ask for the same meal numbers and service days in each proposal. Clarify whether the stated price includes delivery, service equipment or staff, and how changes in attendance affect the charge. Record any minimum commitment, notice period and cancellation terms from the actual proposal rather than assuming a standard policy.",
+        "For a nursery catering enquiry, include the age groups and facilities alongside the budget. Discuss dietary requirements before confirming the service, and ask the provider to identify what it can support and what needs further assessment."
+      ]
+    },
+    {
+      "new_heading": "Agree what a successful start would look like",
+      "new_paragraphs": [
+        "Before a new arrangement begins, decide how parents will see the menu, send updated information and raise a question. Give staff a clear contact for service issues and agree when the nursery and provider will review feedback. A practical review can consider punctuality, clarity of meal identification, staff workload and the questions parents are still asking."
+      ]
+    }
+  ],
   "images": [
     {
       "src": "/images/blog/nursery-meals-vs-packed-lunch-dubai-hero.webp",
@@ -77,7 +98,7 @@
     }
   ],
   "faq": [],
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-10-03",
   "references": [
     {
       "label": "Dubai Municipality: food and consumer services",

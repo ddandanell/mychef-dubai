@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/mychef-vs-monchef-which-is-better-in",
+  "path": "/blog/mychef-vs-monchef-which-is-better-in",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Use this mychef vs monchef booking comparison to choose by written scope. Check menus, chef vetting, staffing, equipment and dietary needs before booking.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "mychef vs monchef booking comparison: What to ask | myCHEF",
+    "description": "Use this mychef vs monchef booking comparison to choose by written scope. Check menus, chef vetting, staffing, equipment and dietary needs before booking.",
+    "h1": [
+      "myCHEF vs MonChef: questions to compare a Dubai booking"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/mychef-vs-monchef-which-is-better-in",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/mychef-vs-monchef-which-is-better-in.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/mychef-vs-monchef-which-is-better-in.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2608,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why the booking matters more than the brand name"
+      },
+      {
+        "level": "h2",
+        "text": "At a glance: compare the scope, not assumed differences"
+      },
+      {
+        "level": "h2",
+        "text": "Service fit wins before menu detail"
+      },
+      {
+        "level": "h2",
+        "text": "Chef vetting favours myCHEF’s stated service"
+      },
+      {
+        "level": "h2",
+        "text": "Menu clarity is a tie until the proposals separate"
+      },
+      {
+        "level": "h2",
+        "text": "The clearer staffing proposal wins for hosted events"
+      },
+      {
+        "level": "h2",
+        "text": "Kitchen planning is a shared requirement, not a brand advantage"
+      },
+      {
+        "level": "h2",
+        "text": "Dietary handling wins on written confirmation"
+      },
+      {
+        "level": "h2",
+        "text": "Compare pricing models through inclusions and exclusions"
+      },
+      {
+        "level": "h2",
+        "text": "Timing and changes need one agreed record"
+      },
+      {
+        "level": "h2",
+        "text": "Final verdict: choose against your own booking brief"
+      },
+      {
+        "level": "h3",
+        "text": "Choose myCHEF for a defined household or event brief"
+      },
+      {
+        "level": "h3",
+        "text": "Choose MonChef when its proposal fits your priorities better"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Send the same brief to both providers"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

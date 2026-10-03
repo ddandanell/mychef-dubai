@@ -13,7 +13,7 @@ import { ChefSection, ServiceRates, ChefEnquiry } from '@/components/private-che
 import PriceCalculator from '@/components/private-chef/pricing/PriceCalculator'
 import PlanTermsDigest from '@/components/private-chef/pricing/PlanTermsDigest'
 import FaqAccordion from '@/components/FaqAccordion'
-import { faqPageSchema } from '@/utils/schema'
+import { householdSchema } from '@/lib/householdSchema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 const faqs=[
  {q:'Why is a full-time household chef different from full-day visits?',a:'A dedicated full-time role starts from AED 15,000/month with its schedule and responsibilities agreed in a personal proposal. The calculator prices daily or recurring visits at their separate visit rates. It does not calculate the monthly Managed Household fee.'},
@@ -26,7 +26,7 @@ const faqs=[
 ]
 export default function PrivateChefPrices(){
  useWhatsAppMessage('Hi myCHEF Dubai, I would like a household chef quote. (via mychef.ae/private-chef-dubai/pricing)')
- return <div><SEO title="Private Chef Dubai Price | Build Your Plan | myCHEF" description="Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire." canonicalPath="/private-chef-dubai/pricing" schema={faqPageSchema(faqs.map(f=>({question:f.q,answer:f.a}))) || undefined}/>
+ return <div><SEO title="Private Chef Dubai Price | Build Your Plan | myCHEF" description="Compare private chef Dubai prices by service, schedule and household size. Build your plan and see the estimate before you enquire." canonicalPath="/private-chef-dubai/pricing" schema={householdSchema('Private chef visits and household plans', 'Compare cooking-visit fees and separate monthly Managed Household arrangements. Groceries, VAT, activation and agreed extras are set out in the proposal.', faqs)}/>
  <PageHero eyebrow="PRICING & PLANS" title="Private Chef Dubai Price. Clear from the start." subtitle="Choose the cooking time, days and support your household needs. Explore the estimate, then confirm your personal arrangement with myCHEF." cta={{label:'Build my plan',href:'#calculator'}} secondaryCta={{label:'Ask a question',href:'/inquiry?from=/private-chef-dubai/pricing'}}/><ClusterNav/>
  <ChefSection eyebrow="Choose how you need your chef" title="Cooking visits or a monthly household arrangement?"><p className="pc-section-intro">Start with the <Link to="/private-chef-dubai" className="pc-link">private chef services available in Dubai</Link> if you are still choosing the format. Use the calculator for visits, recurring cooking days and short stays. For a dedicated live-in or daily live-out chef, compare Managed Household below: a personal search, a Learning Month and continuing management.</p><nav className="hc-anchor-nav" aria-label="Pricing options"><a href="#calculator">Visit calculator · from AED 750</a><a href="#household-plans">Managed Household · from AED 15,000/month</a></nav></ChefSection>
  <ChefSection eyebrow="Make it your own" title="Your private chef Dubai price, explained."><p className="pc-section-intro">The calculator uses our current cooking-visit rates. Adjust the options to see how your schedule, shopping and household size affect the estimate.</p><PriceCalculator/></ChefSection>

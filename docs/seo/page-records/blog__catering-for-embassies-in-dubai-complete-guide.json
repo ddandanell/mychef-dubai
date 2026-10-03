@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/catering-for-embassies-in-dubai-complete-guide",
+  "path": "/blog/catering-for-embassies-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Build an embassy event catering brief Dubai teams can act on. Confirm access, dietary needs, staffing and clearance before approving the menu and service plan.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Embassy Catering Brief Dubai: Access Checklist | myCHEF",
+    "description": "Build an embassy event catering brief Dubai teams can act on. Confirm access, dietary needs, staffing and clearance before approving the menu and service plan.",
+    "h1": [
+      "Embassy event catering: access and service briefing checklist"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/catering-for-embassies-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/catering-for-embassies-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/catering-for-embassies-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2542,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why the access brief matters as much as the menu"
+      },
+      {
+        "level": "h2",
+        "text": "Build the brief before requesting proposals"
+      },
+      {
+        "level": "h3",
+        "text": "Define the occasion and approval owners"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the entry and unloading arrangements"
+      },
+      {
+        "level": "h3",
+        "text": "Match the service format to the programme"
+      },
+      {
+        "level": "h3",
+        "text": "Reconcile guest counts and dietary requirements"
+      },
+      {
+        "level": "h3",
+        "text": "Approve the menu and kitchen arrangements together"
+      },
+      {
+        "level": "h3",
+        "text": "Assign staffing and equipment responsibilities"
+      },
+      {
+        "level": "h3",
+        "text": "Issue the final service run sheet"
+      },
+      {
+        "level": "h2",
+        "text": "Which catering format fits an embassy event?"
+      },
+      {
+        "level": "h2",
+        "text": "Compare scope before comparing quotations"
+      },
+      {
+        "level": "h2",
+        "text": "Common briefing mistakes embassy organisers should avoid"
+      },
+      {
+        "level": "h3",
+        "text": "Treating supplier appointment as permission to enter"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving protocol instructions implied"
+      },
+      {
+        "level": "h3",
+        "text": "Adding dietary information after the menu is approved"
+      },
+      {
+        "level": "h3",
+        "text": "Assuming clearance is included"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Send a brief that can be acted on"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs CateringInDubai: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

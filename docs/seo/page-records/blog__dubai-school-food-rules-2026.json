@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/dubai-school-food-rules-2026",
   "path": "/blog/dubai-school-food-rules-2026",
   "role": "indexable page",
@@ -77,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 589,
-    "current_word_count": 517,
+    "current_word_count": 822,
     "headings": [
       {
         "level": "h2",
@@ -101,6 +101,18 @@
       },
       {
         "level": "h2",
+        "text": "Build a review pack for the proposed service"
+      },
+      {
+        "level": "h2",
+        "text": "Walk through an ordinary school day"
+      },
+      {
+        "level": "h2",
+        "text": "Turn the review into a clear enquiry"
+      },
+      {
+        "level": "h2",
         "text": "Sources and further reading"
       },
       {
@@ -117,7 +129,7 @@
       },
       {
         "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
+        "text": "Embassy event catering: access and service briefing checklist"
       },
       {
         "level": "h2",
@@ -125,7 +137,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/mychef-vs-dish-ae-which-is-better-in",
+  "path": "/blog/mychef-vs-dish-ae-which-is-better-in",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Use this mychef vs dish.ae event proposal comparison to choose by written scope. Check menus, staffing, dietary needs, equipment and clearing before you book.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "myCHEF vs Dish.ae: Compare Event Proposals | myCHEF",
+    "description": "Use this mychef vs dish.ae event proposal comparison to choose by written scope. Check menus, staffing, dietary needs, equipment and clearing before you book.",
+    "h1": [
+      "myCHEF vs Dish.ae: what to check in an event proposal"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/mychef-vs-dish-ae-which-is-better-in",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/mychef-vs-dish-ae-which-is-better-in.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/mychef-vs-dish-ae-which-is-better-in.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2631,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Compare the event brief before comparing suppliers"
+      },
+      {
+        "level": "h2",
+        "text": "At a glance: compare commitments, not assumptions"
+      },
+      {
+        "level": "h2",
+        "text": "A defined service format beats a longer menu"
+      },
+      {
+        "level": "h3",
+        "text": "Best for a host who wants to stay with guests"
+      },
+      {
+        "level": "h3",
+        "text": "Best for a host comfortable managing service"
+      },
+      {
+        "level": "h2",
+        "text": "Menu clarity wins over impressive dish names"
+      },
+      {
+        "level": "h2",
+        "text": "Named responsibilities matter more than a staffing total"
+      },
+      {
+        "level": "h2",
+        "text": "Dietary requirements need the same standard from both suppliers"
+      },
+      {
+        "level": "h2",
+        "text": "Venue readiness is a shared responsibility"
+      },
+      {
+        "level": "h2",
+        "text": "Compare quotation structures without building a rate card"
+      },
+      {
+        "level": "h3",
+        "text": "A defined scope gives you clearer approval"
+      },
+      {
+        "level": "h3",
+        "text": "Adjustable elements need clear change rules"
+      },
+      {
+        "level": "h2",
+        "text": "Clearing and collection decide how the evening ends"
+      },
+      {
+        "level": "h2",
+        "text": "Final verdict: choose the proposal that fits your role as host"
+      },
+      {
+        "level": "h3",
+        "text": "Choose myCHEF if you want a vetted-chef-led dinner or celebration"
+      },
+      {
+        "level": "h3",
+        "text": "Choose Dish.ae if its written proposal better answers your event brief"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One last check: compare what you still have to do"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

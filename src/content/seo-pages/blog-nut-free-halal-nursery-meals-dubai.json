@@ -6,9 +6,30 @@
     "meta_description": "Questions to ask about nut exclusions, allergen controls, halal sourcing and nursery meal documentation in Dubai before confirming a catering service."
   },
   "opening_paragraph": [
-    "Planning nut-free nursery meals in Dubai requires a clear agreement between the nursery, parents and culinary provider. Ingredient exclusions, allergen controls and halal sourcing each need their own documentation. Begin with the nursery’s current policy and the individual needs of the children."
+    "Planning nut-free nursery meals in Dubai requires a clear agreement between the nursery, parents and culinary provider. Ingredient exclusions, allergen controls and halal sourcing each need their own documentation. Begin with the nursery’s current policy and the individual needs of the children. A nursery catering enquiry should begin with those requirements before a menu or delivery plan is agreed."
   ],
-  "add_block": [],
+  "add_block": [
+    {
+      "new_heading": "Use specific questions in the provider review",
+      "new_paragraphs": [
+        "Ask the proposed provider to describe the scope of its menu claim in writing. Does the description refer to selected ingredients, a particular menu or the preparation setting? Which supplier information supports it, and how are changes reviewed? Keep the answer with the nursery’s own policy so staff and parents are discussing the same arrangement.",
+        "A generic brochure may not answer a particular child’s requirements. The nursery should use its established care and communication process to determine what information is needed, with qualified advice where appropriate, and confirm whether the proposed provider can meet the agreed requirements."
+      ]
+    },
+    {
+      "new_heading": "Make change communication part of the brief",
+      "new_paragraphs": [
+        "Discuss who will notify the nursery when a proposed ingredient, supplier or menu changes, and who has authority to approve the revised arrangement. Ask what information would be available before a changed meal is accepted. Do not assume that a familiar dish name means its ingredients and preparation are unchanged.",
+        "Agree how the nursery will pass relevant updates to the people serving meals and to parents. Keep responsibilities specific to the actual service: delivered meals, preparation on site and food brought from home can involve different people and different handovers."
+      ]
+    },
+    {
+      "new_heading": "Prepare a focused nursery catering enquiry",
+      "new_paragraphs": [
+        "For nursery catering, provide the age groups, expected meal numbers, service days and the policy requirements the provider needs to assess. Ask for a written response to the dietary questions before a menu is approved. The proposal should clearly separate confirmed capabilities, limitations and questions that still need review; the words nut-free and halal alone do not resolve those details."
+      ]
+    }
+  ],
   "images": [
     {
       "src": "/images/blog/nut-free-halal-nursery-meals-dubai-hero.webp",
@@ -77,7 +98,7 @@
     }
   ],
   "faq": [],
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-10-03",
   "references": [
     {
       "label": "Dubai Municipality: current food and consumer services",

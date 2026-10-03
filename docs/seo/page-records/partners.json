@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/partners",
   "path": "/partners",
   "role": "indexable page",
@@ -32,7 +32,9 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
+    "src/components/PlanningDetails.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -49,6 +51,7 @@
     "src/content/cateringPricing.ts",
     "src/content/hubPages.ts",
     "src/content/parkedUrls.ts",
+    "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
@@ -67,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 203,
-    "current_word_count": 185,
+    "current_word_count": 623,
     "headings": [
       {
         "level": "h2",
@@ -91,11 +94,47 @@
       },
       {
         "level": "h2",
+        "text": "A clear handover from your client to our kitchen team."
+      },
+      {
+        "level": "h3",
+        "text": "Start with the enquiries you receive"
+      },
+      {
+        "level": "h3",
+        "text": "Agree who handles each conversation"
+      },
+      {
+        "level": "h3",
+        "text": "Keep commercial terms easy to follow"
+      },
+      {
+        "level": "h3",
+        "text": "Build a useful process for repeat work"
+      },
+      {
+        "level": "h3",
+        "text": "Questions before you begin"
+      },
+      {
+        "level": "h3",
+        "text": "Do we need to commit to a booking volume?"
+      },
+      {
+        "level": "h3",
+        "text": "Can we share menus with our clients?"
+      },
+      {
+        "level": "h3",
+        "text": "Does a partner introduction confirm the booking?"
+      },
+      {
+        "level": "h2",
         "text": "Everything in Partners"
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

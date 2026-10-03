@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/best-gluten-free-catering-companies-in-dubai",
   "path": "/blog/best-gluten-free-catering-companies-in-dubai",
   "role": "indexable page",
@@ -125,15 +125,15 @@
       },
       {
         "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
         "text": "myCHEF vs Chef Maison: which is better in 2026"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs CateringInDubai: which is better in 2026"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Pinch Gourmet: which is better in 2026"
       },
       {
         "level": "h2",
@@ -141,7 +141,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {}

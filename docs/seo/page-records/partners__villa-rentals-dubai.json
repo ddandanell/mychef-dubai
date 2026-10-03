@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/partners/villa-rentals-dubai",
   "path": "/partners/villa-rentals-dubai",
   "role": "indexable page",
@@ -41,7 +41,9 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
+    "src/components/PlanningDetails.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -56,6 +58,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
@@ -78,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 294,
-    "current_word_count": 282,
+    "current_word_count": 756,
     "headings": [
       {
         "level": "h2",
@@ -114,6 +117,42 @@
       },
       {
         "level": "h2",
+        "text": "Make a chef booking fit the guest’s stay."
+      },
+      {
+        "level": "h3",
+        "text": "Match the meals to the stay"
+      },
+      {
+        "level": "h3",
+        "text": "Describe the kitchen as it is"
+      },
+      {
+        "level": "h3",
+        "text": "Coordinate access with housekeeping"
+      },
+      {
+        "level": "h3",
+        "text": "Set expectations for the end of service"
+      },
+      {
+        "level": "h3",
+        "text": "Questions before you begin"
+      },
+      {
+        "level": "h3",
+        "text": "Can chef service be included in a rental package?"
+      },
+      {
+        "level": "h3",
+        "text": "Do guests need to be present when the chef arrives?"
+      },
+      {
+        "level": "h3",
+        "text": "Can the same chef cook throughout a stay?"
+      },
+      {
+        "level": "h2",
         "text": "Become a myCHEF Partner"
       },
       {
@@ -122,7 +161,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

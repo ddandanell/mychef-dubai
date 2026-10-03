@@ -26,6 +26,7 @@
     "test:chef-inquiry": "tsx scripts/test-chef-inquiry.ts",
     "test:seo-g-h": "tsx scripts/test-seo-g-h.ts",
     "test:faq-jsonld": "tsx scripts/test-faq-jsonld.ts",
+    "test:page-graph": "tsx scripts/test-page-graph.ts",
     "test:conversion-events": "tsx scripts/test-conversion-events.ts",
     "test:route-readiness": "node scripts/test-route-readiness.mjs",
     "verify:keyword-locks": "python3 scripts/verify-keyword-locks.py",

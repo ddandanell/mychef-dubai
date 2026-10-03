@@ -3,6 +3,7 @@ import {
   ORGANIZATION_ID,
   ORGANIZATION_SCHEMA,
   WEBSITE_SCHEMA,
+  WEBSITE_ID,
 } from '@/lib/organizationSchema'
 import {
   DUBAI_PLACE_ID,
@@ -203,7 +204,11 @@ function normalizePath(pathname: string): string {
  * three hubs that render a matching on-page accordion.
  * Breadcrumbs on every indexable URL except `/`.
  */
-export function assemblePageGraph(pathname: string, incoming: unknown): Record<string, unknown> | undefined {
+export function assemblePageGraph(
+  pathname: string,
+  incoming: unknown,
+  metadata?: { title: string; description: string },
+): Record<string, unknown> | undefined {
   const path = normalizePath(pathname)
   const nodes = incomingNodes(incoming)
     .map((n) => sanitizeNode(n, path))
@@ -223,11 +228,55 @@ export function assemblePageGraph(pathname: string, incoming: unknown): Record<s
 
   if (path !== '/' && !hasType(nodes, 'BreadcrumbList')) {
     const silo = getSiloPage(path)
-    if (silo?.breadcrumb?.length) {
+    // Imported articles have a visible Home > Blog > Article trail even when
+    // they have not yet been added to the historical silo map.
+    const article = nodes.find((node) => typeList(node).some(type => type === 'Article' || type === 'BlogPosting'))
+    if (path.startsWith('/blog/') && article && typeof article.headline === 'string') {
+      nodes.push(breadcrumbFromSilo([
+        { url: '/', label: 'Home' },
+        { url: '/blog', label: 'Blog' },
+        { url: path, label: article.headline },
+      ]))
+    } else if (silo?.breadcrumb?.length) {
       const crumbs = breadcrumbFromSilo(silo.breadcrumb)
       const items = crumbs.itemListElement
       if (Array.isArray(items) && items.length) nodes.push(crumbs)
     }
+  }
+
+  const url = `${SITE}${path}`
+  const breadcrumb = nodes.find(node => typeList(node).includes('BreadcrumbList'))
+  if (breadcrumb) breadcrumb['@id'] = `${url}#breadcrumb`
+  const service = nodes.find(node => typeList(node).includes('Service'))
+  if (service) {
+    service['@id'] = `${url}#service`
+    service.url = url
+  }
+  const article = nodes.find(node => typeList(node).some(type => type === 'Article' || type === 'BlogPosting'))
+  if (article) {
+    article['@id'] = `${url}#article`
+    article.publisher = { '@id': ORGANIZATION_ID }
+    article.mainEntityOfPage = { '@id': `${url}#webpage` }
+  }
+
+  // Connect each page to the existing business and website entities. Reuse a
+  // page's specific type (CollectionPage, ContactPage, etc.) instead of adding
+  // a second competing page object. Prices and reviews are never inferred.
+  if (metadata) {
+    const pageTypes = new Set(['WebPage', 'AboutPage', 'ContactPage', 'CollectionPage', 'ProfilePage', 'FAQPage'])
+    const page = nodes.find(node => typeList(node).some(type => pageTypes.has(type)) && !typeList(node).includes('FAQPage'))
+      ?? { '@type': 'WebPage' }
+    Object.assign(page, {
+      '@id': `${url}#webpage`, url,
+      name: metadata.title, description: metadata.description,
+      inLanguage: 'en-AE',
+      isPartOf: { '@id': WEBSITE_ID },
+      publisher: { '@id': ORGANIZATION_ID },
+      ...(breadcrumb ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
+      ...(service ? { about: { '@id': `${url}#service` } } : { about: { '@id': ORGANIZATION_ID } }),
+      ...(article ? { mainEntity: { '@id': `${url}#article` } } : {}),
+    })
+    if (!nodes.includes(page)) nodes.push(page)
   }
 
   if (!nodes.length) return undefined

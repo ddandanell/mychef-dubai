@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-01",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/private-chef-dubai",
   "path": "/private-chef-dubai",
   "role": "indexable page",
@@ -77,6 +77,7 @@
     "src/lib/blogImages.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/householdInquiry.ts",
+    "src/lib/householdSchema.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
     "src/lib/lazyPreloadable.tsx",
@@ -276,7 +277,7 @@
       "F05",
       "F22"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

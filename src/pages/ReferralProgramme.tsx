@@ -4,6 +4,7 @@
 //     subkeywords: "refer a friend catering dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import PlanningDetails from '@/components/PlanningDetails'
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -13,7 +14,7 @@ import { Gift, Users, MessageCircle, Wallet, Check, Phone } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import { breadcrumbSchema, serviceSchema } from '../utils/schema'
+import { breadcrumbSchema } from '../utils/schema'
 import { SectionLabel } from '../components/system'
 
 
@@ -61,12 +62,7 @@ const terms = [
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
-    serviceSchema(
-      'myCHEF Dubai Referral Programme',
-      'Give AED 100, Get AED 100. Refer friends to myCHEF Dubai private chef and catering services and earn booking credit.',
-      'Service',
-      'Dubai',
-    ),
+    { '@type': 'WebPage', name: 'myCHEF Referral Programme', description: 'Customer referral rewards and booking credit terms.' },
     breadcrumbSchema([
       { name: 'Home', path: '/' },
       { name: 'Referral Programme', path: '/referral-programme' },
@@ -170,6 +166,8 @@ export default function ReferralProgramme() {
           </div>
         </div>
       </section>
+
+      <PlanningDetails path="/referral-programme"/>
 
       {/* Terms */}
       <section className="bg-white section-padding">

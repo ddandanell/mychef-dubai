@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/site-map",
   "path": "/site-map",
   "role": "noindex support page",
@@ -63,7 +63,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 468,
-    "current_word_count": 694,
+    "current_word_count": 778,
     "headings": [
       {
         "level": "h2",
@@ -111,7 +111,7 @@
       },
       {
         "level": "h2",
-        "text": "Blog (63)"
+        "text": "Blog (72)"
       },
       {
         "level": "h2",
@@ -144,7 +144,7 @@
       "F18",
       "F25"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

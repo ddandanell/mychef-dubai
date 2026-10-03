@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/partners/concierge-services-dubai",
   "path": "/partners/concierge-services-dubai",
   "role": "indexable page",
@@ -35,7 +35,9 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
+    "src/components/PlanningDetails.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -50,6 +52,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
@@ -72,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 291,
-    "current_word_count": 290,
+    "current_word_count": 744,
     "headings": [
       {
         "level": "h2",
@@ -108,6 +111,42 @@
       },
       {
         "level": "h2",
+        "text": "Turn a member’s request into a complete culinary brief."
+      },
+      {
+        "level": "h3",
+        "text": "Identify the kind of help they need"
+      },
+      {
+        "level": "h3",
+        "text": "Make the handover discreet and practical"
+      },
+      {
+        "level": "h3",
+        "text": "Keep approvals with the right person"
+      },
+      {
+        "level": "h3",
+        "text": "Plan repeat requests around preferences"
+      },
+      {
+        "level": "h3",
+        "text": "Questions before you begin"
+      },
+      {
+        "level": "h3",
+        "text": "Can our desk remain the main contact?"
+      },
+      {
+        "level": "h3",
+        "text": "Can you handle an urgent request?"
+      },
+      {
+        "level": "h3",
+        "text": "Where can we check the chef selection process?"
+      },
+      {
+        "level": "h2",
         "text": "Become a myCHEF Partner"
       },
       {
@@ -116,7 +155,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

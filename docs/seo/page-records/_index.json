@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-01",
+  "reviewed_at": "2026-10-03",
   "counts": {
-    "indexable page": 192,
+    "indexable page": 201,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 339,
+  "total": 348,
   "records": [
     {
       "path": "/",
@@ -233,6 +233,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/best-home-catering-services-in-dubai",
+      "file": "blog__best-home-catering-services-in-dubai.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
       "file": "blog__best-kids-birthday-party-caterers-in-dubai.json",
       "primary_keyword": "best kids birthday catering companies in dubai",
@@ -343,6 +350,27 @@
       "primary_keyword": "canapé reception planning in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/catering-for-embassies-in-dubai-complete-guide",
+      "file": "blog__catering-for-embassies-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+      "file": "blog__catering-for-film-and-tv-productions-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+      "file": "blog__catering-for-real-estate-open-houses-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/cateringdubai-ae-alternatives-in",
@@ -534,8 +562,29 @@
       "silo": null
     },
     {
+      "path": "/blog/mychef-vs-dish-ae-which-is-better-in",
+      "file": "blog__mychef-vs-dish-ae-which-is-better-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/mychef-vs-monchef-which-is-better-in",
+      "file": "blog__mychef-vs-monchef-which-is-better-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
       "path": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
       "file": "blog__mychef-vs-pinch-gourmet-which-is-better-in.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/mychef-vs-taste-studio-which-is-better-in",
+      "file": "blog__mychef-vs-taste-studio-which-is-better-in.json",
       "primary_keyword": null,
       "role": "indexable page",
       "silo": null
@@ -616,6 +665,20 @@
       "primary_keyword": "private chef vs restaurant dubai",
       "role": "noindex support page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
+      "file": "blog__private-chefs-for-expat-families-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
+    },
+    {
+      "path": "/blog/private-chefs-for-new-parents-in-dubai-complete-guide",
+      "file": "blog__private-chefs-for-new-parents-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/ramadan-iftar-catering-trends-2026",

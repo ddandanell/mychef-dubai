@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/private-chef-vs-restaurant-dubai",
   "path": "/blog/private-chef-vs-restaurant-dubai",
   "role": "noindex support page",
@@ -77,7 +77,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 610,
+    "current_word_count": 614,
     "headings": [
       {
         "level": "h2",
@@ -113,15 +113,15 @@
       },
       {
         "level": "h3",
+        "text": "Meal support for new parents: a household chef brief"
+      },
+      {
+        "level": "h3",
+        "text": "Expat family household cooking: what to put in the chef brief"
+      },
+      {
+        "level": "h3",
         "text": "Household chef or event catering: which arrangement do you need?"
-      },
-      {
-        "level": "h3",
-        "text": "Best Cozymeal alternatives for private dining in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "A Household Menu Brief for Your Dubai Chef"
       },
       {
         "level": "h2",
@@ -133,7 +133,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

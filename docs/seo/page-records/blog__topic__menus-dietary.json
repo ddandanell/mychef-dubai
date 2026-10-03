@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/topic/menus-dietary",
   "path": "/blog/topic/menus-dietary",
   "role": "noindex support page",
@@ -61,11 +61,19 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 675,
-    "current_word_count": 823,
+    "current_word_count": 1068,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
       },
       {
         "level": "h3",
@@ -74,6 +82,34 @@
       {
         "level": "h3",
         "text": "myCHEF vs CateringInDubai: which is better in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Best gluten-free catering companies in Dubai 2026"
+      },
+      {
+        "level": "h3",
+        "text": "CateringInDubai alternatives in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "Real estate open-house catering: guest-flow checklist"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Dish.ae: what to check in an event proposal"
+      },
+      {
+        "level": "h3",
+        "text": "What equipment should you check before home catering?"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs MonChef: questions to compare a Dubai booking"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Taste Studio: comparing event service scope"
       },
       {
         "level": "h3",
@@ -117,14 +153,6 @@
       },
       {
         "level": "h3",
-        "text": "Best gluten-free catering companies in Dubai 2026"
-      },
-      {
-        "level": "h3",
-        "text": "CateringInDubai alternatives in 2026"
-      },
-      {
-        "level": "h3",
         "text": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
       },
       {
@@ -133,7 +161,7 @@
       },
       {
         "level": "h3",
-        "text": "Best Arabic Catering Companies Dubai: What to Compare"
+        "text": "Best Arabic Catering Companies in Dubai: What to Compare"
       },
       {
         "level": "h3",
@@ -141,7 +169,7 @@
       },
       {
         "level": "h3",
-        "text": "Best Halal Catering Companies Dubai: What to Compare"
+        "text": "Best Halal Catering Companies in Dubai: What to Compare"
       },
       {
         "level": "h3",
@@ -159,7 +187,7 @@
     "baseline_findings": [
       "F12"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {}

@@ -1,3 +1,4 @@
+import PlanningDetails from '@/components/PlanningDetails'
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -7,7 +8,7 @@ import { Check, Phone, ArrowRight } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
-import { breadcrumbSchema, serviceSchema } from '../../utils/schema'
+import { breadcrumbSchema } from '../../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../../components/system'
 
@@ -68,9 +69,10 @@ export default function PartnerPageTemplate({
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
-      serviceSchema(seoTitle, description, 'Service', 'Dubai'),
+      { '@type': 'WebPage', name: seoTitle, description },
       breadcrumbSchema([
         { name: 'Home', path: '/' },
+        { name: 'Partners', path: '/partners' },
         { name: breadcrumbLabel, path: canonicalPath },
       ]),
     ],
@@ -163,6 +165,8 @@ export default function PartnerPageTemplate({
           </div>
         </div>
       </section>
+
+      <PlanningDetails path={canonicalPath}/>
 
       {/* CTA */}
       <section className="bg-gradient-to-b from-charcoal to-black py-24">
