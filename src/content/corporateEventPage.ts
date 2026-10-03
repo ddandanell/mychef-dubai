@@ -240,11 +240,11 @@ export const faqs = [
   },
   {
     q: 'How much does a company event cost to cater in Dubai?',
-    a: 'It is quoted per event, because format, service level, staffing and venue change the figure far more than headcount alone. You receive an itemised proposal with food, staffing, equipment and VAT as separate lines. For indicative market ranges before briefing us, see the Dubai catering prices guide.',
+    a: 'Staffed buffets start from AED 120 per person for 20 guests, and canapé receptions from AED 150 per person for 10 guests, before 5% VAT. These are starting prices for the formats listed on this page, not a fixed total for every event. Your menu, staffing, equipment, venue access and timings determine the itemised proposal. See the [catering prices guide](/dubai-catering-prices-guide) to compare formats.',
   },
   {
     q: 'Is there a minimum guest count?',
-    a: 'Minimums depend on the format, menu and date rather than one fixed threshold. Smaller groups are possible; the difference is that per-head cost rises at low volumes because setup, delivery and preparation are fixed costs. Tell us your headcount and we will confirm the most sensible structure.',
+    a: 'The staff-party and seasonal buffet packages start at 20 guests. Networking and awards-night canapé receptions start at 10 guests. Smaller seated company dinners use a separate dining brief; the [corporate dinner package](/corporate-dinner-package-dubai) is priced for 10–15 guests. Tell us your date and headcount and we will confirm the appropriate format and total.',
   },
   {
     q: 'Do you provide service staff, setup and pack-down?',
