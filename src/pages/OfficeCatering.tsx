@@ -28,7 +28,7 @@ import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
 import CorporateSiblings from '@/components/corporate/CorporateSiblings'
 import CorporateWorkedBudgets from '@/components/corporate/CorporateWorkedBudgets'
 import CorporateInventory from '@/components/corporate/CorporateInventory'
-import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import { CATERING_PATHS } from '@/content/cateringCluster'
 import { CORPORATE_PATHS } from '@/content/corporateCluster'
 import { packagesForOwner } from '@/content/corporatePackages'
 import {
@@ -55,6 +55,8 @@ import {
   siblingCards,
   startSteps,
 } from '@/content/officeCateringPage'
+
+const OFFICE_INQUIRY_HREF = '/inquiry?from=/office-catering-dubai'
 
 const schema = {
   '@context': 'https://schema.org',
@@ -114,7 +116,7 @@ export default function OfficeCatering() {
         imageWidth={officeHero.width}
         imageHeight={officeHero.height}
         align="left"
-        cta={{ label: 'Get an office catering quote', href: CATERING_INQUIRY_HREF }}
+        cta={{ label: 'Get an office catering quote', href: OFFICE_INQUIRY_HREF }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: OFFICE_WHATSAPP_LINK, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
@@ -238,7 +240,7 @@ export default function OfficeCatering() {
               Corporate event catering <ArrowRight size={14} aria-hidden />
             </Link>
             <Link
-              to={CATERING_INQUIRY_HREF}
+              to={OFFICE_INQUIRY_HREF}
               data-track="price_table"
               className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
             >
@@ -401,7 +403,7 @@ export default function OfficeCatering() {
             .
           </p>
           <div className="mt-10">
-            <CorporateQuoteNeeds inquiryHref={CATERING_INQUIRY_HREF} whatsappHref={OFFICE_WHATSAPP_LINK} />
+            <CorporateQuoteNeeds inquiryHref={OFFICE_INQUIRY_HREF} whatsappHref={OFFICE_WHATSAPP_LINK} />
           </div>
         </Container>
       </Section>
@@ -488,7 +490,7 @@ export default function OfficeCatering() {
             Drop-off starts from AED 90 per person. Days, office and headcount is enough to start. Dietary notes can follow.
           </p>
           <CTAGroup>
-            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+            <Link to={OFFICE_INQUIRY_HREF} className="btn-primary">
               Get an office catering quote
             </Link>
             <a href={OFFICE_WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
