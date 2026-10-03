@@ -2926,7 +2926,7 @@ export const CHILDREN: Record<string, Crumb[]> = {
   },
   {
    "href": "/blog/best-private-chefs-in-dubai-for-home-dining",
-   "label": "Best Private Chef in Dubai for Home Dining (2026)"
+   "label": "Household chef or event catering: which arrangement do you need?"
   },
   {
    "href": "/blog/best-private-cooking-class-experiences-in-dubai",
