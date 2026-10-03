@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/",
   "path": "/",
   "role": "indexable page",
@@ -21,10 +21,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "myCHEF Dubai | A Chef for Your Kitchen and Events",
+    "title": "Private Chef & Catering in Dubai | myCHEF",
     "description": "Private chef visits, long-term household chefs and catering in Dubai. Personal menus, a suitable chef match and ongoing support from myCHEF.",
     "h1": [
-      "myCHEF Dubai: a chef for your kitchen, catering for your event"
+      "Private chef and catering in Dubai, designed around you."
     ]
   },
   "metadata_source": "local production prerender",
@@ -94,7 +94,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1321,
-    "current_word_count": 1381,
+    "current_word_count": 1401,
     "headings": [
       {
         "level": "h2",
@@ -102,11 +102,11 @@
       },
       {
         "level": "h3",
-        "text": "A chef for your kitchen"
+        "text": "Private chef for your Dubai home"
       },
       {
         "level": "h3",
-        "text": "Catering for a night"
+        "text": "Catering for your Dubai event"
       },
       {
         "level": "h3",
@@ -250,7 +250,7 @@
       "F19",
       "F21"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

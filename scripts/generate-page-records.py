@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'docs/seo/page-records'
 AUDIT=ROOT/'docs/editorial-audit/2026-09-22'
-REVIEW_DATE='2026-09-29'
+REVIEW_DATE='2026-10-03'
 CURRENT_AUDIT=ROOT/'docs/editorial-audit'/REVIEW_DATE
 
 

@@ -4,6 +4,7 @@
 //     subkeywords: "catering services near me dubai" · "private chef service areas dubai" · "dubai chocolate catering near me" · "best catering locations dubai" · "birthday catering locations dubai" · "food catering locations dubai" · "small catering locations dubai" · "what is the largest catering company" · "dubai private chef locations" · "caterers near by"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import PlanningDetails from '@/components/PlanningDetails'
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -76,11 +77,28 @@ export default function Locations() {
         ogImage="/loc-downtown.webp"
         schema={{
           '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-            { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.mychef.ae/locations' }
-          ]
+          '@graph': [
+            {
+              '@type': 'CollectionPage',
+              name: 'myCHEF service areas in Dubai',
+              mainEntity: { '@id': 'https://www.mychef.ae/locations#areas' },
+            },
+            {
+              '@type': 'ItemList',
+              '@id': 'https://www.mychef.ae/locations#areas',
+              itemListElement: dubaiLocations.filter(loc => !isParked(locationPath(loc.slug))).map((loc, index) => ({
+                '@type': 'ListItem', position: index + 1, name: loc.name,
+                url: `https://www.mychef.ae${locationPath(loc.slug)}`,
+              })),
+            },
+            {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+                { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.mychef.ae/locations' },
+              ],
+            },
+          ],
         }}
       />
 
@@ -139,6 +157,8 @@ export default function Locations() {
           </div>
         </div>
       </section>
+
+      <PlanningDetails path="/locations"/>
 
       {/* Additional Areas */}
       <section className="py-16 bg-charcoal">

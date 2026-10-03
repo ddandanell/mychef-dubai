@@ -6,9 +6,30 @@
     "meta_description": "A practical checklist for verifying Dubai school food requirements, provider approvals, menus, allergen information and responsibilities in 2026."
   },
   "opening_paragraph": [
-    "Dubai school food rules in 2026 should be checked against the current requirements issued by the relevant authorities and the school’s own policies. This guide helps school teams prepare that review and ask a proposed catering provider for the documentation that applies to its service."
+    "Dubai school food rules in 2026 should be checked against the current requirements issued by the relevant authorities and the school’s own policies. This guide helps school teams prepare that review and ask a proposed catering provider for the documentation that applies to its service. For a proposed school catering arrangement, use this review to prepare the service brief before requesting a final quotation."
   ],
-  "add_block": [],
+  "add_block": [
+    {
+      "new_heading": "Build a review pack for the proposed service",
+      "new_paragraphs": [
+        "Put the operational brief beside the provider’s proposal before comparing suppliers. Record the school sites, age groups, expected meal numbers, term dates, kitchen facilities and proposed service model. A delivered lunch service and an on-site canteen may involve different responsibilities; ask the provider to explain the scope of its offer rather than assuming the same documents cover both.",
+        "Create a question list with a named school contact for each topic: purchasing, facilities, menu review, parent communication and daily service. Mark each answer as confirmed, awaiting evidence or outside the proposed scope. This makes open questions visible before the school makes a decision."
+      ]
+    },
+    {
+      "new_heading": "Walk through an ordinary school day",
+      "new_paragraphs": [
+        "Use the actual timetable to discuss the proposed handover. Where does the delivery arrive? Who is available to receive it? When do different groups eat? What happens when a class is on a trip or attendance changes? Ask how the provider would communicate a delayed delivery, menu substitution or missing dietary information.",
+        "Include the school’s own facilities team in questions about access, equipment, storage and cleaning responsibilities. The purpose of this walkthrough is to uncover assumptions in the proposal, not to replace the school’s applicable food-safety requirements or specialist review."
+      ]
+    },
+    {
+      "new_heading": "Turn the review into a clear enquiry",
+      "new_paragraphs": [
+        "For school catering, share the agreed service scope, current policies and outstanding questions with the provider. Request an itemised proposal covering the food, staffing, equipment and operational responsibilities under discussion. Keep the approved version with the school’s records so later changes can be assessed against the same brief."
+      ]
+    }
+  ],
   "images": [
     {
       "src": "/images/blog/dubai-school-food-rules-2026-hero.webp",
@@ -76,7 +97,7 @@
     }
   ],
   "faq": [],
-  "updated_at": "2026-09-22",
+  "updated_at": "2026-10-03",
   "references": [
     {
       "label": "Dubai Municipality: official services and document verification",

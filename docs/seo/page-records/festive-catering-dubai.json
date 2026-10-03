@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/festive-catering-dubai",
   "path": "/festive-catering-dubai",
   "role": "indexable page",
@@ -75,7 +75,8 @@
     "src/lib/serviceAreas.ts",
     "src/lib/utils.ts",
     "src/pages/FestiveCatering.tsx",
-    "src/styles/catering-editorial.css"
+    "src/styles/catering-editorial.css",
+    "src/utils/schema.ts"
   ],
   "content_review": {
     "baseline_observed": true,
@@ -264,7 +265,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

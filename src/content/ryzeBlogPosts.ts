@@ -389,7 +389,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-private-cooking-class-experiences-in-dubai",
-    "title": "Best Private Cooking Classes in Dubai: What to Compare",
+    "title": "Best Private Cooking Class Experiences in Dubai: What to Compare",
     "excerpt": "Choose a cooking class by the cuisine you want to learn, how much hands-on time you expect and the setting that suits your group. A private session at home, a teaching studio and a group workshop offer different experiences.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/f554074d-e4a4-4b93-9f72-f9c6bb8e1cb0/featured.jpg",
@@ -416,7 +416,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-grazing-table-catering-companies-in-dubai",
-    "title": "Best Grazing Table Catering in Dubai: What to Compare",
+    "title": "Best Grazing Table Catering Companies in Dubai: What to Compare",
     "excerpt": "A grazing table should be inviting throughout the agreed service, with the right quantities and a practical replenishment plan. Compare the food, setup and supervision as carefully as the photographs.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/ad794ce4-8480-4e04-9560-e63af1c4589b/featured.jpg",
@@ -425,7 +425,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
-    "title": "Best Ramadan Iftar Catering Companies Dubai: What to Compare",
+    "title": "Best Ramadan Iftar Catering Companies in Dubai: What to Compare",
     "excerpt": "Choosing iftar catering in Dubai means balancing a generous menu with precise timing. Compare the provider’s approach to readiness for Maghrib, guest service, halal sourcing and the space where everyone will gather.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/77b0b456-a0f6-429a-9c1c-4a65b7b10689/featured.jpg",
@@ -434,7 +434,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-kids-birthday-party-caterers-in-dubai",
-    "title": "Best Kids Birthday Catering Companies Dubai: What to Compare",
+    "title": "Best Kids Birthday Catering Companies in Dubai: What to Compare",
     "excerpt": "Children’s birthday catering works best when the food fits the ages, activities and length of the party. Compare providers on suitable portions, clear dietary communication and practical service for both children and adults.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/7308a5fa-aae3-44b8-8a4a-ba5ae1d7ca23/featured.jpg",
@@ -461,7 +461,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-corporate-event-catering-companies-in-dubai",
-    "title": "Best Corporate Catering Companies Dubai: What to Compare",
+    "title": "Best Corporate Catering Companies in Dubai: What to Compare",
     "excerpt": "Corporate event catering should support the purpose and pace of the occasion. Compare providers by their ability to coordinate menus, service and venue requirements around your programme, from a launch reception to an awards dinner.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4f43a200-5379-4b9f-8282-6b6a4366c995/featured.jpg",
@@ -470,7 +470,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-luxury-private-dining-experiences-in-dubai",
-    "title": "Best Luxury Private Dining Experiences Dubai: What to Compare",
+    "title": "Best Luxury Private Dining Experiences in Dubai: What to Compare",
     "excerpt": "The right private dining experience feels suited to the people at the table. Compare the setting, menu, level of interaction with the chef and practical arrangements, whether you prefer a quiet dinner at home or a more distinctive venue.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/4755c939-e288-442c-8a1c-7a449a3229dd/featured.jpg",
@@ -479,7 +479,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-arabic-catering-companies-in-dubai",
-    "title": "Best Arabic Catering Companies Dubai: What to Compare",
+    "title": "Best Arabic Catering Companies in Dubai: What to Compare",
     "excerpt": "Arabic catering in Dubai can range from a generous mezze table to a wedding buffet or a family meal built around traditional rice and grilled dishes. Compare the regional menu, presentation and service against the occasion you are planning.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/2d8406d3-01b7-4c0d-9c95-e19dfc834617/featured.jpg",
@@ -497,7 +497,7 @@ export const RYZE_BLOG_POSTS = [
   },
   {
     "slug": "/blog/best-halal-catering-companies-in-dubai",
-    "title": "Best Halal Catering Companies Dubai: What to Compare",
+    "title": "Best Halal Catering Companies in Dubai: What to Compare",
     "excerpt": "Choosing halal catering in Dubai requires clarity about ingredients, sourcing and preparation. Compare providers on the documentation they can supply and their ability to meet the specific requirements of your guests and event.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/0b41e2c7-512d-457c-bb29-985c907f0574/featured.jpg",

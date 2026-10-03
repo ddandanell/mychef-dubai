@@ -1302,7 +1302,8 @@
     "in_sitemap": false
    },
    "schema": [
-    "WebPage"
+    "WebPage",
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -1467,7 +1468,8 @@
     "in_sitemap": false
    },
    "schema": [
-    "WebPage"
+    "WebPage",
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -1639,8 +1641,10 @@
    },
    "schema": [
     "Organization",
-    "LocalBusiness",
-    "WebSite"
+    "WebSite",
+    "WebPage",
+    "FoodService",
+    "ProfessionalService"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -2112,8 +2116,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -2330,8 +2334,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -2726,8 +2730,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -2938,8 +2942,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -3157,8 +3161,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -3366,8 +3370,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -3986,8 +3990,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -4194,8 +4198,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -4611,8 +4615,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -4815,8 +4819,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -5028,6 +5031,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -5250,8 +5254,9 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Offer",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -5679,6 +5684,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -5878,6 +5884,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -6085,6 +6092,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -6308,6 +6316,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -6525,6 +6534,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -6732,6 +6742,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -6935,6 +6946,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -7156,6 +7168,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -7369,6 +7382,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -7577,6 +7591,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -7793,6 +7808,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -8002,6 +8018,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -8201,6 +8218,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -8412,6 +8430,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -8618,6 +8637,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -8823,6 +8843,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -9036,6 +9057,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -9238,6 +9260,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -9443,6 +9466,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -9660,6 +9684,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -9878,6 +9903,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -10091,8 +10117,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -10284,8 +10310,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -10504,8 +10530,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -10724,8 +10750,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -10945,8 +10971,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -11169,8 +11195,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -11388,8 +11415,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -11607,6 +11634,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "ItemList",
     "BreadcrumbList"
@@ -11811,8 +11839,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -11997,8 +12024,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Article",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -12209,6 +12235,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -12548,8 +12575,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -12780,8 +12807,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -12981,8 +13008,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -13169,6 +13196,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Person",
     "BreadcrumbList"
    ],
@@ -13386,6 +13414,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Person",
     "BreadcrumbList"
    ],
@@ -13601,6 +13630,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Person",
     "BreadcrumbList"
    ],
@@ -13811,6 +13841,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Person",
     "BreadcrumbList"
    ],
@@ -14224,6 +14255,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -14440,8 +14472,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -14854,8 +14886,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -15054,7 +15086,7 @@
    },
    "schema": [
     "WebPage",
-    "ContactPage"
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -15238,6 +15270,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -15545,8 +15578,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -15766,8 +15800,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Offer",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -15987,8 +16022,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -16415,8 +16450,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -16636,8 +16671,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -17097,8 +17132,9 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Offer",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -17305,8 +17341,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -17711,8 +17747,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -17931,8 +17967,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -18146,8 +18182,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -18364,8 +18400,10 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
+    "AggregateOffer",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -18579,8 +18617,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Article",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -18788,8 +18827,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -19181,8 +19220,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -19378,8 +19417,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -19593,6 +19632,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -19901,8 +19941,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -20119,8 +20159,9 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Offer",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -20321,6 +20362,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "FAQPage",
     "BreadcrumbList"
    ],
@@ -20966,8 +21008,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "CollectionPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -21627,8 +21669,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -22017,8 +22059,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -22220,6 +22262,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -22451,8 +22494,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -23410,8 +23453,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -23628,8 +23671,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -24185,8 +24229,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -24399,8 +24443,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -25396,8 +25440,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -25603,8 +25646,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Article",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -25814,8 +25858,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -26022,8 +26066,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -26230,8 +26274,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -26449,8 +26493,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -26651,8 +26695,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -26860,8 +26904,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -27471,8 +27515,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -27679,8 +27723,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -27888,8 +27932,8 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "CollectionPage",
+    "ItemList",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -28079,6 +28123,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -28265,6 +28310,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -28453,6 +28499,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -28656,6 +28703,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -28868,6 +28916,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -29065,6 +29114,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -29261,6 +29311,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -29454,6 +29505,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -29660,6 +29712,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -29846,6 +29899,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -30037,6 +30091,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -30233,6 +30288,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -30422,6 +30478,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -30627,6 +30684,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -30822,6 +30880,7 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -31007,8 +31066,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -31220,8 +31279,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -31470,8 +31529,9 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -31679,8 +31739,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -31895,8 +31955,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -32497,8 +32556,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -32683,8 +32742,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -32897,8 +32956,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -33105,8 +33164,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -33508,8 +33567,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -33736,8 +33795,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -34149,8 +34207,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -34365,8 +34423,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -36414,8 +36472,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -36765,7 +36823,8 @@
     "in_sitemap": false
    },
    "schema": [
-    "WebPage"
+    "WebPage",
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -36948,6 +37007,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -37317,6 +37377,7 @@
    },
    "schema": [
     "WebPage",
+    "Service",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -37898,6 +37959,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -38664,8 +38726,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -38878,8 +38941,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -39090,8 +39153,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -39286,8 +39349,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -39492,8 +39555,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -39699,8 +39762,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -39902,8 +39965,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -40104,8 +40167,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -40299,8 +40362,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -40501,8 +40564,9 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
+    "Service",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -40686,8 +40750,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -41070,7 +41133,9 @@
     "in_sitemap": false
    },
    "schema": [
-    "WebPage"
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -41255,8 +41320,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -41833,8 +41898,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -42419,8 +42484,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -42629,8 +42694,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -42822,7 +42887,8 @@
     "in_sitemap": false
    },
    "schema": [
-    "WebPage"
+    "WebPage",
+    "BreadcrumbList"
    ],
    "internal_linking": {
     "breadcrumb": [
@@ -43005,8 +43071,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -43402,8 +43468,8 @@
     "in_sitemap": false
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -43811,8 +43877,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -44025,8 +44091,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -44235,8 +44301,7 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -44450,8 +44515,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
+    "Article",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -44663,8 +44729,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -44874,8 +44940,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -45080,8 +45146,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -45294,8 +45360,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -45542,8 +45608,8 @@
     "in_sitemap": true
    },
    "schema": [
-    "Service",
-    "FAQPage",
+    "WebPage",
+    "Article",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -45751,8 +45817,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -45968,8 +46034,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -46586,6 +46652,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -46800,6 +46867,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "BreadcrumbList"
    ],
@@ -47004,8 +47072,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -47186,8 +47254,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -47362,8 +47430,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -47537,8 +47605,8 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
-    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -47712,6 +47780,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -47876,6 +47945,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48040,6 +48110,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48186,14 +48257,15 @@
     }
    },
    "on_page": {
-    "title": "Best Arabic Catering Companies Dubai | myCHEF",
+    "title": "Best Arabic Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Arabic Catering Companies Dubai: What to Compare",
+    "h1": "Best Arabic Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare Arabic catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare Arabic catering in Dubai by regional dishes, centrepieces, portions and service style. Use this guide to prepare your menu and event brief.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Arabic Catering Companies Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Arabic Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare Arabic catering in Dubai by regional dishes, centrepieces, portions and service style. Use this guide to prepare your menu and event brief."
    },
    "indexation": {
     "robots": {
@@ -48205,6 +48277,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48307,10 +48380,11 @@
     "title_max_chars": 65,
     "h1": "Best BBQ Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare BBQ catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare BBQ catering in Dubai by grills, menus, staff and venue requirements. Check what the written quote includes before choosing your event service.",
     "meta_description_max_chars": 160,
     "og_title": "Best BBQ Catering Companies in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare BBQ catering in Dubai by grills, menus, staff and venue requirements. Check what the written quote includes before choosing your event service."
    },
    "indexation": {
     "robots": {
@@ -48322,6 +48396,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48424,10 +48499,11 @@
     "title_max_chars": 65,
     "h1": "Best Brunch Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare brunch catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare brunch catering in Dubai by menu variety, freshly cooked dishes, drinks and service hours. Plan the kitchen and morning schedule before booking.",
     "meta_description_max_chars": 160,
     "og_title": "Best Brunch Catering Companies in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare brunch catering in Dubai by menu variety, freshly cooked dishes, drinks and service hours. Plan the kitchen and morning schedule before booking."
    },
    "indexation": {
     "robots": {
@@ -48439,6 +48515,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48644,14 +48721,15 @@
     }
    },
    "on_page": {
-    "title": "Best Corporate Catering Companies Dubai | myCHEF",
+    "title": "Best Corporate Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Corporate Catering Companies Dubai: What to Compare",
+    "h1": "Best Corporate Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare corporate event catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare Dubai corporate caterers by event format, service timing, staffing and invoicing. Build a consistent brief before reviewing written proposals.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Corporate Catering Companies Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Corporate Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare Dubai corporate caterers by event format, service timing, staffing and invoicing. Build a consistent brief before reviewing written proposals."
    },
    "indexation": {
     "robots": {
@@ -48663,6 +48741,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48765,10 +48844,11 @@
     "title_max_chars": 65,
     "h1": "Corporate Catering Lunch Options in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare corporate lunch catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare corporate lunch options in Dubai for team meals and client meetings. Review delivery access, serving equipment, dietary needs and billing.",
     "meta_description_max_chars": 160,
     "og_title": "Corporate Catering Lunch Options in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare corporate lunch options in Dubai for team meals and client meetings. Review delivery access, serving equipment, dietary needs and billing."
    },
    "indexation": {
     "robots": {
@@ -48780,6 +48860,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48878,14 +48959,15 @@
     }
    },
    "on_page": {
-    "title": "Best Grazing Table Catering in Dubai | myCHEF",
+    "title": "Best Grazing Table Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Grazing Table Catering in Dubai: What to Compare",
+    "h1": "Best Grazing Table Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare grazing table catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare grazing table catering in Dubai by food quantities, display hire, replenishment and clearing. Clarify the full setup before choosing a provider.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Grazing Table Catering in Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Grazing Table Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare grazing table catering in Dubai by food quantities, display hire, replenishment and clearing. Clarify the full setup before choosing a provider."
    },
    "indexation": {
     "robots": {
@@ -48897,6 +48979,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -48995,14 +49078,15 @@
     }
    },
    "on_page": {
-    "title": "Best Halal Catering Companies Dubai | myCHEF",
+    "title": "Best Halal Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Halal Catering Companies Dubai: What to Compare",
+    "h1": "Best Halal Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare halal catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare halal catering in Dubai by sourcing information, menu scope and service. Review supplier documents and discuss dietary needs before booking.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Halal Catering Companies Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Halal Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare halal catering in Dubai by sourcing information, menu scope and service. Review supplier documents and discuss dietary needs before booking."
    },
    "indexation": {
     "robots": {
@@ -49014,6 +49098,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49112,14 +49197,15 @@
     }
    },
    "on_page": {
-    "title": "Best Kids Birthday Catering Companies Dubai | myCHEF",
+    "title": "Best Kids Birthday Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Kids Birthday Catering Companies Dubai: What to Compare",
+    "h1": "Best Kids Birthday Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare children’s birthday catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare children’s party catering in Dubai by portions, allergies, serving times and adult menus. Use the checklist to prepare a clear birthday brief.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Kids Birthday Catering Companies Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Kids Birthday Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare children’s party catering in Dubai by portions, allergies, serving times and adult menus. Use the checklist to prepare a clear birthday brief."
    },
    "indexation": {
     "robots": {
@@ -49131,6 +49217,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49229,14 +49316,15 @@
     }
    },
    "on_page": {
-    "title": "Best Luxury Private Dining Experiences Dubai | myCHEF",
+    "title": "Best Luxury Private Dining Experiences in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Luxury Private Dining Experiences Dubai: What to Compare",
+    "h1": "Best Luxury Private Dining Experiences in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare private dining experiences in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare private dining in Dubai by setting, menu, chef involvement and table service. Plan the experience around your occasion and written quotation.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Luxury Private Dining Experiences Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Luxury Private Dining Experiences in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare private dining in Dubai by setting, menu, chef involvement and table service. Plan the experience around your occasion and written quotation."
    },
    "indexation": {
     "robots": {
@@ -49248,6 +49336,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49457,10 +49546,11 @@
     "title_max_chars": 65,
     "h1": "Best Private Chefs for Villas in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare villa chef services in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare villa chef arrangements in Dubai for holiday stays, family cooking and private dinners. Review kitchen access, schedules, groceries and service.",
     "meta_description_max_chars": 160,
     "og_title": "Best Private Chefs for Villas in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare villa chef arrangements in Dubai for holiday stays, family cooking and private dinners. Review kitchen access, schedules, groceries and service."
    },
    "indexation": {
     "robots": {
@@ -49472,6 +49562,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49561,13 +49652,13 @@
     "broad_service_owner": "/private-chef-dubai"
    },
    "on_page": {
-    "title": "Household Chef or Event Catering? Choosing the Right Brief",
+    "title": "Household Chef or Event Catering? A Brief Guide | myCHEF",
     "title_max_chars": 65,
     "h1": "Household chef or event catering: which arrangement do you need?",
     "h1_count": 1,
     "meta_description": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
     "meta_description_max_chars": 160,
-    "og_title": "Household Chef or Event Catering? Choosing the Right Brief",
+    "og_title": "Household Chef or Event Catering? A Brief Guide | myCHEF",
     "og_type": "article",
     "og_description": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing."
    },
@@ -49580,7 +49671,9 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
+    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -49678,14 +49771,15 @@
     }
    },
    "on_page": {
-    "title": "Best Private Cooking Classes in Dubai | myCHEF",
+    "title": "Best Private Cooking Class Experiences in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Private Cooking Classes in Dubai: What to Compare",
+    "h1": "Best Private Cooking Class Experiences in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare private cooking classes in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare private cooking classes in Dubai by teaching style, group size, kitchen needs and inclusions. Choose a lesson suited to the people taking part.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Private Cooking Classes in Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Private Cooking Class Experiences in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare private cooking classes in Dubai by teaching style, group size, kitchen needs and inclusions. Choose a lesson suited to the people taking part."
    },
    "indexation": {
     "robots": {
@@ -49697,6 +49791,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49795,14 +49890,15 @@
     }
    },
    "on_page": {
-    "title": "Best Ramadan Iftar Catering Companies Dubai | myCHEF",
+    "title": "Best Ramadan Iftar Catering Companies in Dubai | myCHEF",
     "title_max_chars": 65,
-    "h1": "Best Ramadan Iftar Catering Companies Dubai: What to Compare",
+    "h1": "Best Ramadan Iftar Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare iftar catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare iftar catering in Dubai by service timing, menus, staffing and venue arrangements. Prepare a clear Ramadan brief before requesting proposals.",
     "meta_description_max_chars": 160,
-    "og_title": "Best Ramadan Iftar Catering Companies Dubai | myCHEF",
-    "og_type": "article"
+    "og_title": "Best Ramadan Iftar Catering Companies in Dubai | myCHEF",
+    "og_type": "article",
+    "og_description": "Compare iftar catering in Dubai by service timing, menus, staffing and venue arrangements. Prepare a clear Ramadan brief before requesting proposals."
    },
    "indexation": {
     "robots": {
@@ -49814,6 +49910,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -49916,10 +50013,11 @@
     "title_max_chars": 65,
     "h1": "Best Vegan Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare vegan catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare vegan catering in Dubai by complete menus, ingredients, preparation and staffing. Share dietary requirements before agreeing the event service.",
     "meta_description_max_chars": 160,
     "og_title": "Best Vegan Catering Companies in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare vegan catering in Dubai by complete menus, ingredients, preparation and staffing. Share dietary requirements before agreeing the event service."
    },
    "indexation": {
     "robots": {
@@ -49931,6 +50029,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -50033,10 +50132,11 @@
     "title_max_chars": 65,
     "h1": "Best Wedding Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare wedding catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare wedding caterers in Dubai by tastings, menu choices, staffing and venue needs. Use this guide to review the full proposal before booking.",
     "meta_description_max_chars": 160,
     "og_title": "Best Wedding Catering Companies in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare wedding caterers in Dubai by tastings, menu choices, staffing and venue needs. Use this guide to review the full proposal before booking."
    },
    "indexation": {
     "robots": {
@@ -50048,6 +50148,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -50150,10 +50251,11 @@
     "title_max_chars": 65,
     "h1": "Best Yacht Catering Companies in Dubai: What to Compare",
     "h1_count": 1,
-    "meta_description": "Compare yacht catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "meta_description": "Compare yacht catering in Dubai by menus, galley space, boarding and service. Check the full proposal with your charter operator before booking.",
     "meta_description_max_chars": 160,
     "og_title": "Best Yacht Catering Companies in Dubai | myCHEF",
-    "og_type": "article"
+    "og_type": "article",
+    "og_description": "Compare yacht catering in Dubai by menus, galley space, boarding and service. Check the full proposal with your charter operator before booking."
    },
    "indexation": {
     "robots": {
@@ -50165,6 +50267,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -50379,6 +50482,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -50661,6 +50765,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -50943,6 +51048,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -51225,6 +51331,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -51507,6 +51614,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -51789,6 +51897,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -52071,6 +52180,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -52353,6 +52463,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -52635,6 +52746,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -52917,6 +53029,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -53199,6 +53312,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -53481,6 +53595,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -53763,6 +53878,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -54045,6 +54161,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -54327,6 +54444,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Article",
     "BreadcrumbList"
    ],
@@ -54613,6 +54731,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -54820,6 +54939,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"
@@ -55027,6 +55147,7 @@
     "in_sitemap": true
    },
    "schema": [
+    "WebPage",
     "Service",
     "FAQPage",
     "BreadcrumbList"

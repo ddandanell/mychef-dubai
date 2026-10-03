@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/referral-programme",
   "path": "/referral-programme",
   "role": "indexable page",
@@ -34,7 +34,9 @@
     "redirect_to": null
   },
   "source_files": [
+    "src/components/FaqAccordion.tsx",
     "src/components/PageHero.tsx",
+    "src/components/PlanningDetails.tsx",
     "src/components/SEO.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
@@ -49,6 +51,7 @@
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
     "src/content/parkedUrls.ts",
+    "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
@@ -69,7 +72,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 341,
-    "current_word_count": 344,
+    "current_word_count": 791,
     "headings": [
       {
         "level": "h2",
@@ -97,6 +100,42 @@
       },
       {
         "level": "h2",
+        "text": "How to use your referral credit with confidence."
+      },
+      {
+        "level": "h3",
+        "text": "Let your friend make the enquiry"
+      },
+      {
+        "level": "h3",
+        "text": "Review the credit alongside the quotation"
+      },
+      {
+        "level": "h3",
+        "text": "Mention your credit before your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "Use a partnership for business introductions"
+      },
+      {
+        "level": "h3",
+        "text": "Questions before you begin"
+      },
+      {
+        "level": "h3",
+        "text": "When should my friend mention my name?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I withdraw the credit as cash?"
+      },
+      {
+        "level": "h3",
+        "text": "Can a returning myCHEF customer count as a new referral?"
+      },
+      {
+        "level": "h2",
         "text": "Referral Programme Terms"
       },
       {
@@ -111,7 +150,7 @@
     "baseline_findings": [
       "F23"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

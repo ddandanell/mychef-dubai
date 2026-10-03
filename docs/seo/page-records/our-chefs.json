@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-01",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/our-chefs",
   "path": "/our-chefs",
   "role": "indexable page",
   "page_type": "Chef directory",
   "silo": "Private Chef",
-  "purpose": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF.",
+  "purpose": "Explain the business, evidence, service standards or chef recruitment route.",
   "keywords": {
     "primary": "meet our chefs in dubai",
     "secondary": [
@@ -29,7 +29,7 @@
       "Meet our chefs in Dubai. Find your kind of cooking."
     ]
   },
-  "metadata_source": "SEO contract and current server-rendered source",
+  "metadata_source": "local production prerender",
   "indexation": {
     "canonical": "https://www.mychef.ae/our-chefs",
     "robots": "index, follow",
@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 4654,
+    "current_word_count": 5170,
     "headings": [
       {
         "level": "h2",
@@ -258,7 +258,7 @@
       "F05",
       "F13"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

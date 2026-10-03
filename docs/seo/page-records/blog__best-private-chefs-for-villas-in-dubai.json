@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/best-private-chefs-for-villas-in-dubai",
   "path": "/blog/best-private-chefs-for-villas-in-dubai",
   "role": "indexable page",
@@ -24,7 +24,7 @@
   },
   "metadata": {
     "title": "Best Private Chefs for Villas in Dubai | myCHEF",
-    "description": "Compare villa chef services in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "description": "Compare villa chef arrangements in Dubai for holiday stays, family cooking and private dinners. Review kitchen access, schedules, groceries and service.",
     "h1": [
       "Best Private Chefs for Villas in Dubai: What to Compare"
     ]
@@ -74,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1855,
-    "current_word_count": 2097,
+    "current_word_count": 2104,
     "headings": [
       {
         "level": "h2",
@@ -106,15 +106,15 @@
       },
       {
         "level": "h3",
+        "text": "Meal support for new parents: a household chef brief"
+      },
+      {
+        "level": "h3",
+        "text": "Expat family household cooking: what to put in the chef brief"
+      },
+      {
+        "level": "h3",
         "text": "Household chef or event catering: which arrangement do you need?"
-      },
-      {
-        "level": "h3",
-        "text": "Best Cozymeal alternatives for private dining in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "A Household Menu Brief for Your Dubai Chef"
       },
       {
         "level": "h2",
@@ -160,7 +160,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

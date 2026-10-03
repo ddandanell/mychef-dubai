@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/best-bbq-catering-companies-in-dubai",
   "path": "/blog/best-bbq-catering-companies-in-dubai",
   "role": "indexable page",
@@ -24,7 +24,7 @@
   },
   "metadata": {
     "title": "Best BBQ Catering Companies in Dubai | myCHEF",
-    "description": "Compare BBQ catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "description": "Compare BBQ catering in Dubai by grills, menus, staff and venue requirements. Check what the written quote includes before choosing your event service.",
     "h1": [
       "Best BBQ Catering Companies in Dubai: What to Compare"
     ]
@@ -160,7 +160,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

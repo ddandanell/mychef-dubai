@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+  "path": "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Plan catering for a Dubai film shoot around call times, crew numbers and access. Use this checklist to agree meals, staffing and dietary requirements.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Film Catering Brief Dubai: Meal Planning | myCHEF",
+    "description": "Plan catering for a Dubai film shoot around call times, crew numbers and access. Use this checklist to agree meals, staffing and dietary requirements.",
+    "h1": [
+      "Film production catering: shifts, access and meal brief"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/catering-for-film-and-tv-productions-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/catering-for-film-and-tv-productions-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2537,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why catering needs a production brief"
+      },
+      {
+        "level": "h2",
+        "text": "How to build your film production catering brief"
+      },
+      {
+        "level": "h3",
+        "text": "Define the crew counts for each meal"
+      },
+      {
+        "level": "h3",
+        "text": "Map the meal windows against the shooting schedule"
+      },
+      {
+        "level": "h3",
+        "text": "Specify the site access and serving space"
+      },
+      {
+        "level": "h3",
+        "text": "Translate dietary needs into a workable menu"
+      },
+      {
+        "level": "h3",
+        "text": "Choose the service format around the break pattern"
+      },
+      {
+        "level": "h3",
+        "text": "Compare the scope before comparing quotations"
+      },
+      {
+        "level": "h3",
+        "text": "Issue a final brief and control revisions"
+      },
+      {
+        "level": "h2",
+        "text": "Which catering format fits your shoot?"
+      },
+      {
+        "level": "h2",
+        "text": "What should a sample meal brief contain?"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes production teams make"
+      },
+      {
+        "level": "h3",
+        "text": "Ordering from the total call-sheet count"
+      },
+      {
+        "level": "h3",
+        "text": "Giving a meal time without a ready-to-serve time"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving refreshments outside the brief"
+      },
+      {
+        "level": "h3",
+        "text": "Treating dietary meals as an informal request"
+      },
+      {
+        "level": "h3",
+        "text": "Changing location without revisiting logistics"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related planning guides"
+      },
+      {
+        "level": "h2",
+        "text": "Send the shooting-day brief, not just the menu request"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs CateringInDubai: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}

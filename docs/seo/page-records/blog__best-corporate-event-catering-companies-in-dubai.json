@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/best-corporate-event-catering-companies-in-dubai",
   "path": "/blog/best-corporate-event-catering-companies-in-dubai",
   "role": "indexable page",
@@ -23,8 +23,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Corporate Catering Companies Dubai | myCHEF",
-    "description": "Compare corporate event catering in Dubai by menu, service, venue requirements and written pricing. A practical selection guide from myCHEF.",
+    "title": "Best Corporate Catering Companies in Dubai | myCHEF",
+    "description": "Compare Dubai corporate caterers by event format, service timing, staffing and invoicing. Build a consistent brief before reviewing written proposals.",
     "h1": [
       "Best Corporate Catering Companies Dubai: What to Compare"
     ]
@@ -160,7 +160,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

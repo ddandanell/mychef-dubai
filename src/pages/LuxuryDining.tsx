@@ -14,7 +14,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { plainFaqAnswer } from '../utils/schema'
+import { plainFaqAnswer, serviceSchema } from '../utils/schema'
 import {
   Section,
   Container,
@@ -49,6 +49,7 @@ const HERO_IMAGE = '/images/private-chef-2026/chefs-table-1200.webp'
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
+    serviceSchema(experiencesHubSeo.h1, experiencesHubSeo.description, 'Private dining experience'),
     {
       '@type': 'WebPage',
       name: experiencesHubSeo.h1,

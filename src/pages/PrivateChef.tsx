@@ -13,13 +13,13 @@ import ServiceImage from '@/components/private-chef/ServiceImage'
 import { ChefSection, Inclusions, ChefJourney, PricePreview, ChefEnquiry } from '@/components/private-chef/ChefSections'
 import FaqAccordion from '@/components/FaqAccordion'
 import { parentFaqs } from '@/content/privateChefCluster'
-import { faqPageSchema } from '@/utils/schema'
+import { householdSchema } from '@/lib/householdSchema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 export default function PrivateChef() {
   useWhatsAppMessage('Hi myCHEF Dubai, I would like a private chef for my home. Location: __. Days per week: __. Household size: __. (via mychef.ae/private-chef-dubai)')
   return <div>
-    <SEO title="Private Chef & Home Chef Dubai | From AED 750 a Visit | myCHEF" description="Private chef and home chef visits from AED 750 or long-term household chefs from AED 15,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support." canonicalPath="/private-chef-dubai" schema={faqPageSchema(parentFaqs.map(f => ({question:f.q,answer:f.a}))) || undefined}/>
+    <SEO title="Private Chef & Home Chef Dubai | From AED 750 a Visit | myCHEF" description="Private chef and home chef visits from AED 750 or long-term household chefs from AED 15,000/month in Dubai. Personal menus, chef matching and ongoing myCHEF support." canonicalPath="/private-chef-dubai" schema={householdSchema('Private chef in Dubai', 'Recurring cooking visits, meal preparation and dedicated household chef arrangements, with menus, schedule and costs agreed in writing.', parentFaqs)}/>
     <PageHero eyebrow="MYCHEF · AT HOME IN DUBAI" title={<>Private Chef Dubai.<br/><em>Made personal.</em></>} subtitle="Your private chef in Dubai, for a few hours or a long-term household role. We match your food, schedule and home, then confirm fees and groceries in writing. Recurring visits from AED 750; dedicated full-time arrangements from AED 15,000/month before VAT. Daily bookings and monthly household roles have separate pricing." cta={{label:'Choose my chef service',href:'#chef-service-choice'}} secondaryCta={{label:'Explore plans & prices',href:'/private-chef-dubai/pricing'}}/>
     <ClusterNav/>
     <ChefSection id="chef-service-choice" eyebrow="Two clear ways to begin" title={<>Book a little time.<br/><em>Or find your long-term chef.</em></>}><ChefServiceChoice/></ChefSection>

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/nursery-meals-vs-packed-lunch-dubai",
   "path": "/blog/nursery-meals-vs-packed-lunch-dubai",
   "role": "indexable page",
@@ -77,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 631,
-    "current_word_count": 470,
+    "current_word_count": 767,
     "headings": [
       {
         "level": "h2",
@@ -101,6 +101,18 @@
       },
       {
         "level": "h2",
+        "text": "Compare the same week under both options"
+      },
+      {
+        "level": "h2",
+        "text": "Make the commercial comparison useful"
+      },
+      {
+        "level": "h2",
+        "text": "Agree what a successful start would look like"
+      },
+      {
+        "level": "h2",
         "text": "Sources and further reading"
       },
       {
@@ -117,7 +129,7 @@
       },
       {
         "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
+        "text": "Embassy event catering: access and service briefing checklist"
       },
       {
         "level": "h2",
@@ -125,7 +137,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

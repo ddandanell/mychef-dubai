@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/chefs/layla-middle-eastern-chef",
   "path": "/chefs/layla-middle-eastern-chef",
   "role": "indexable page",
@@ -78,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 352,
-    "current_word_count": 1729,
+    "current_word_count": 1754,
     "headings": [
       {
         "level": "h2",
@@ -152,7 +152,7 @@
     "baseline_findings": [
       "F05"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

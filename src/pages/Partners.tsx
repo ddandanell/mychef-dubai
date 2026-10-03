@@ -4,6 +4,7 @@
 //     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
+import PlanningDetails from '@/components/PlanningDetails'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -72,6 +73,7 @@ export default function Partners() {
 
       <TrustSignalStrip />
 
+
       <Section tone="white" rhythm="chapter">
         <Container>
           <div className="mb-12 max-w-[760px]">
@@ -125,6 +127,7 @@ export default function Partners() {
           </p>
         </Container>
       </Section>
+      <PlanningDetails path="/partners"/>
     </div>
   )
 }

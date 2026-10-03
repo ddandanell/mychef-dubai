@@ -19,7 +19,7 @@ const serviceLinks = [
   { label: 'Institutional Catering', href: '/institutional-catering-dubai' },
   { label: 'Birthdays & Celebrations', href: '/birthday-catering-dubai' },
   { label: 'Private Events', href: '/private-party-catering-dubai' },
-  { label: 'Villa Catering', href: '/private-party-catering-dubai' },
+  { label: 'Villa Dining', href: '/villas-private-residences' },
   { label: 'Yacht Catering', href: '/yachts' },
   { label: 'Food Only & Drop-Off', href: '/drop-off-catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
@@ -306,8 +306,8 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="font-inter text-xs text-gray-500 text-center md:text-left">
-              &copy; {currentYear} myCHEF Dubai. All rights reserved.
+            <p className="max-w-xl font-inter text-xs text-gray-500 text-center md:text-left leading-relaxed">
+              &copy; {currentYear} myCHEF — Private Chef &amp; Catering, Dubai, United Arab Emirates. Vetted private chefs for homes, villas, yachts and offices across Dubai. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/blog/best-yacht-catering-services-in-dubai",
   "path": "/blog/best-yacht-catering-services-in-dubai",
   "role": "indexable page",
@@ -23,8 +23,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Yacht Catering Services in Dubai | From AED 162/Guest | myCHEF",
-    "description": "Yacht catering in Dubai from AED 162 per guest: chefs, waiters, canapés and live stations on your chartered yacht. Written proposal; typical reply 15 minutes.",
+    "title": "Best Yacht Catering Companies in Dubai | myCHEF",
+    "description": "Compare yacht catering in Dubai by menus, galley space, boarding and service. Check the full proposal with your charter operator before booking.",
     "h1": [
       "Best Yacht Catering Companies in Dubai: What to Compare"
     ]
@@ -160,7 +160,7 @@
     "baseline_findings": [
       "F10"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

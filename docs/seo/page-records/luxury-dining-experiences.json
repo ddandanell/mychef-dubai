@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-09-29",
+  "reviewed_at": "2026-10-03",
   "url": "https://www.mychef.ae/luxury-dining-experiences",
   "path": "/luxury-dining-experiences",
   "role": "indexable page",
@@ -85,7 +85,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3697,
-    "current_word_count": 4955,
+    "current_word_count": 4986,
     "headings": [
       {
         "level": "h2",
@@ -331,7 +331,7 @@
     "baseline_findings": [
       "F20"
     ],
-    "log": "docs/editorial-audit/2026-09-29/README.md",
+    "log": "docs/editorial-audit/2026-10-03/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

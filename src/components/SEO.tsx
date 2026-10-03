@@ -44,7 +44,6 @@ export default function SEO({
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
   if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && pathname !== "/catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
-  const jsonLd = assemblePageGraph(path, schema)
   // Nested cluster pages (e.g. /private-chef-dubai/our-chefs) pass the parent URL as
   // canonicalPath, so a canonicalPath-keyed lookup served them the parent's title and
   // description — the duplicate-title / duplicate-description audit failure. The page's
@@ -61,6 +60,11 @@ export default function SEO({
       ? effectiveTitle
       : `${effectiveTitle} | ${SITE_NAME}`
     : DEFAULT_TITLE
+
+  const jsonLd = assemblePageGraph(path, schema, {
+    title: fullTitle,
+    description: effectiveDescription,
+  })
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
 

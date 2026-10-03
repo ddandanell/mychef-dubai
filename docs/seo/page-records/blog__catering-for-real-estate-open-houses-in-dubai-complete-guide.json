@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-03",
+  "url": "https://www.mychef.ae/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+  "path": "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Supporting route",
+  "silo": null,
+  "purpose": "Build a real estate open house catering brief that keeps viewings moving. Compare service formats, plan guest flow and clarify staffing, access and clearing.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Open House Catering Brief Dubai: Checklist | myCHEF",
+    "description": "Build a real estate open house catering brief that keeps viewings moving. Compare service formats, plan guest flow and clarify staffing, access and clearing.",
+    "h1": [
+      "Real estate open-house catering: guest-flow checklist"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/catering-for-real-estate-open-houses-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/catering-for-real-estate-open-houses-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2533,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why catering matters for real estate open houses"
+      },
+      {
+        "level": "h2",
+        "text": "Build your real estate open house catering brief"
+      },
+      {
+        "level": "h3",
+        "text": "1. Define the viewing schedule and guest pattern"
+      },
+      {
+        "level": "h3",
+        "text": "2. Map the route before choosing refreshments"
+      },
+      {
+        "level": "h3",
+        "text": "3. Choose the service format around the property"
+      },
+      {
+        "level": "h2",
+        "text": "Compare catering formats for an open house"
+      },
+      {
+        "level": "h3",
+        "text": "4. Design a menu that supports conversation"
+      },
+      {
+        "level": "h3",
+        "text": "5. Confirm access, staffing and working facilities"
+      },
+      {
+        "level": "h3",
+        "text": "6. Compare proposals against the same written scope"
+      },
+      {
+        "level": "h2",
+        "text": "Use a brief the agent and caterer can share"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes property teams make"
+      },
+      {
+        "level": "h3",
+        "text": "Treating total attendance as simultaneous attendance"
+      },
+      {
+        "level": "h3",
+        "text": "Turning the showcase kitchen into a back-of-house area"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving clearing to whoever notices"
+      },
+      {
+        "level": "h3",
+        "text": "Choosing a menu before choosing the service format"
+      },
+      {
+        "level": "h3",
+        "text": "Assuming a quotation includes the property handover"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Finish with the final walk-through"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "myCHEF vs Chef Maison: which is better in 2026"
+      },
+      {
+        "level": "h2",
+        "text": "Plan catering with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {}
+}
