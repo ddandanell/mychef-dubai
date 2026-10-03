@@ -314,11 +314,11 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Home"
   },
   {
-   "href": "/guides",
-   "label": "Guides"
+   "href": "/blog",
+   "label": "Blog"
   },
   {
-   "label": "Best Private Chef in Dubai for Home Dining (2026)"
+   "label": "Household chef or event catering: which arrangement do you need?"
   }
  ],
  "/blog/best-private-cooking-class-experiences-in-dubai": [
