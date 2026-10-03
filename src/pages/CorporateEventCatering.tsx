@@ -21,10 +21,7 @@ import CorporateQuoteNeeds from '@/components/corporate/CorporateQuoteNeeds'
 import CorporateSiblings from '@/components/corporate/CorporateSiblings'
 import CorporateInventory from '@/components/corporate/CorporateInventory'
 import {
-  CORPORATE_INQUIRY_HREF,
   CORPORATE_PATHS,
-  CORPORATE_WHATSAPP_LINK,
-  CORPORATE_WHATSAPP_MESSAGE,
 } from '@/content/corporateCluster'
 import { packagesForOwner } from '@/content/corporatePackages'
 import {
@@ -43,6 +40,10 @@ import {
   uplinks,
   type Block,
 } from '@/content/corporateEventPage'
+
+const CORPORATE_INQUIRY_HREF = '/inquiry?from=/corporate-event-catering-dubai'
+const CORPORATE_WHATSAPP_MESSAGE = 'Hi myCHEF Dubai, I need catering for a company event. Date: __, Guests: __, Venue/area: __, Event type: __, Format: __ (via mychef.ae/corporate-event-catering-dubai)'
+const CORPORATE_WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeURIComponent(CORPORATE_WHATSAPP_MESSAGE)}`
 
 const HERO_IMAGE = '/images/corporate-event-catering-dubai-hero.webp'
 
