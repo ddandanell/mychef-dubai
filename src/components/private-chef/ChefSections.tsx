@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router'
 import { ArrowUpRight, Check } from 'lucide-react'
 import ServiceImage from './ServiceImage'
 import { ChefAction } from './EditorialHero'
-import { computeQuote, DEFAULT_INPUT, SERVICES, formatAed } from '@/content/privateChefPricing'
+import { SERVICES, formatAed, MEMBER_NOTE, PRICE_NOTE } from '@/content/privateChefPricing'
 import { buildWhatsAppLink } from '@/lib/whatsapp'
 
 export function ChefSection({ eyebrow, title, children, tone = '', id }: { eyebrow?: string; title?: ReactNode; children: ReactNode; tone?: string; id?: string }) {
@@ -47,13 +47,15 @@ export function RealWork({ compact = false }: { compact?: boolean }) {
 
 export function PricePreview() {
   const choices = [
-    {name:'One fresh meal each week',serviceId:'fresh-meal' as const,daysPerWeek:1,explanation:'Four visits over four weeks. Three hours per visit.'},
-    {name:'Weekly food preparation',serviceId:'food-prep' as const,daysPerWeek:1,explanation:'Four visits over four weeks. Four hours per visit.'},
-    {name:'Full-day chef visits, five days a week',serviceId:'full-day' as const,daysPerWeek:5,explanation:'Twenty visits over four weeks. Nine hours per day.'},
+    { name: 'One meal, cooked for you', price: SERVICES[0].singleRate, unit: 'single visit', explanation: 'Private Chef Visit · three hours. Start with one booking.', href: '/private-chef-dubai/pricing?duration=short#calculator' },
+    { name: 'A fridge reset every week', price: SERVICES[1].rate * 4, unit: 'four prepaid visits', explanation: 'Member rate of AED 900 per four-hour visit. Four visits over four weeks.', href: '/private-chef-dubai/pricing?duration=long&service=food-prep#calculator' },
+    { name: 'Your chef for the whole day', price: SERVICES[3].singleRate, unit: 'single day', explanation: 'Chef by the Day · ten hours. Meals, shopping coordination and cleanup.', href: '/private-chef-dubai/pricing?duration=short&service=full-day#calculator' },
   ]
-  return <div><div className="pc-price-grid">{choices.map(c => { const quote = computeQuote({...DEFAULT_INPUT,duration:'long',serviceId:c.serviceId,daysPerWeek:c.daysPerWeek,guests:4,groceryMode:'client'}); return <Link to="/private-chef-dubai/pricing#calculator" key={c.name} className="pc-price-card"><h3>{c.name}</h3><p className="pc-price">{formatAed(quote.perMonth)}<span> / four weeks</span></p><p>{c.explanation}</p><span className="pc-card-link">Build your plan <ArrowUpRight size={17}/></span></Link>})}</div><p className="pc-fineprint">Illustrative service fees before 5% VAT. Groceries are separate at actual cost. Your household size, shopping arrangements and additional staffing can affect the total.</p></div>
+  return <div><div className="pc-price-grid">{choices.map(choice => <Link to={choice.href} key={choice.name} className="pc-price-card"><h3>{choice.name}</h3><p className="pc-price">{formatAed(choice.price)}<span> / {choice.unit}</span></p><p>{choice.explanation}</p><span className="pc-card-link">Build your plan <ArrowUpRight size={17}/></span></Link>)}</div><p className="pc-fineprint">{PRICE_NOTE} Assistants and agreed extras are separate. {MEMBER_NOTE}</p></div>
 }
-export function ServiceRates({ shortStay = false }: { shortStay?: boolean }) { return <div className="pc-rate-grid">{SERVICES.map(s => { const price = shortStay ? computeQuote({ ...DEFAULT_INPUT, duration: 'short', serviceId: s.id }).perService : s.rate; return <div key={s.id}><p className="pc-eyebrow">{s.hours} hours</p><h3>{s.name}</h3><p className="pc-price">{formatAed(price)}<span> / {s.unit === 'day' ? 'day' : 'visit'}</span></p><p>{s.tagline}</p></div> })}</div> }
+export function ServiceRates({ shortStay = false }: { shortStay?: boolean }) {
+  return <div><div className="pc-rate-grid">{SERVICES.map(service => <article key={service.id}><p className="pc-eyebrow">{service.hours} hours · Signature</p><h3>{service.name}</h3><p>{service.tagline}</p><p className="pc-price">{formatAed(service.singleRate)}<span> / {service.unit === 'day' ? 'day' : 'visit'} · single</span></p><p className="font-inter text-body-lg text-gold-ink mt-3"><strong>{formatAed(service.rate)}</strong> / {service.unit === 'day' ? 'day' : 'visit'} · member rate</p></article>)}</div><p className="pc-fineprint">{shortStay ? 'Single visit at the page price. No minimum number of days. ' : ''}{MEMBER_NOTE} {PRICE_NOTE}</p></div>
+}
 export function ChefEnquiry({ title = 'Let’s make room for good food.' }: { title?: string }) {
   const { pathname } = useLocation()
   return <ChefSection tone="pc-tone-cream" eyebrow="Your home. Your preferences." title={title}><div className="pc-enquiry-end"><p>Tell us where you are, how often you would like a chef and what you enjoy eating. We’ll help you find a suitable arrangement and confirm the details in writing.</p><div className="pc-actions"><ChefAction action={{label:'Find my chef',href:`/inquiry?from=${encodeURIComponent(pathname)}`}}/><ChefAction secondary action={{label:'Talk to myCHEF',href:buildWhatsAppLink(`Hi myCHEF Dubai, I would like to discuss a private chef. Location: __. Days: __. Household size: __. (via mychef.ae${pathname})`),external:true}}/></div><p className="pc-fineprint">No obligation to book. Share your preferred start date early so we can check chef availability and agree the practical details. Final pricing and timing are confirmed after reviewing your brief.</p></div></ChefSection>

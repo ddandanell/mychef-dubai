@@ -83,10 +83,10 @@ export default function FloatingChefChat() {
   return (
     <div
       data-floating-chef-chat
-      className="fixed z-50 flex flex-col items-end gap-3
+      className={`fixed z-50 ${pathname.replace(/\/$/, '') === '/private-chef-dubai/pricing' ? 'hidden lg:flex' : 'flex'} flex-col items-end gap-3
         right-4 sm:right-6
         bottom-[calc(1rem+env(safe-area-inset-bottom))] sm:bottom-6
-        print:hidden"
+        print:hidden`}
       aria-label="Chef WhatsApp assistant"
     >
       {/* Prompt bubble — only shown when the user opens it, never auto-popped */}

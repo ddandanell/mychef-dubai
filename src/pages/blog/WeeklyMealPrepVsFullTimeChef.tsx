@@ -32,7 +32,7 @@ const SLUG = 'weekly-meal-prep-vs-full-time-chef-dubai'
 const faqs = [
   {
     q: 'Is weekly meal prep cheaper than a full-time chef in Dubai?',
-    a: 'Yes, for most households. Weekly meal prep is the Food Prep job: AED 900 for one four-hour session, or AED 1,800 a week for two sessions. Groceries are charged at receipt cost. A standing household chef is priced per visit on the private chef pricing page, for example a weekly Fresh Meal at AED 3,000 over four weeks before VAT.',
+    a: 'A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Four member visits cost AED 3,600 over four weeks. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Dedicated full-time household service is a separate monthly arrangement. Compare both on the [private chef pricing page](/private-chef-dubai/pricing).',
   },
   {
     q: 'Who should hire a full-time private chef instead of meal prep?',
@@ -139,9 +139,9 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </div>
 
           <KeyFactsBox
-            answer="Weekly meal prep is AED 900 a session. myCHEF Managed Household starts from AED 15,000/month for a dedicated chef and ongoing management. Fees are before VAT; activation, trials, groceries and agreed extras are separate."
+            answer="A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. myCHEF Managed Household starts from AED 15,000/month for a dedicated chef and ongoing management. Fees are before 5% VAT and groceries. Visits have zone transport of AED 40–130; household activation, trials and agreed extras are separate."
             facts={[
-              { label: 'Weekly meal prep', value: 'AED 900 / session' },
+              { label: 'Weekly meal prep', value: 'AED 1,350 single / AED 900 member' },
               { label: 'Full-time private chef', value: 'Managed Household from AED 15,000/month' },
               { label: 'Meal prep commitment', value: 'Weekly or monthly plan' },
               { label: 'Full-time commitment', value: 'Duration agreed in your service proposal' },
@@ -173,7 +173,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
                 <tbody className="text-gray-500">
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Typical cost</td>
-                    <td className="py-3 pr-4">AED 900 / session, AED 1,800 / week for two</td>
+                    <td className="py-3 pr-4">AED 1,350 single; AED 900 member with 4+ prepaid visits/month</td>
                     <td className="py-3">Managed Household from AED 15,000/month before VAT</td>
                   </tr>
                   <tr className="border-b border-gray-100">

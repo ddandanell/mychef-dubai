@@ -30,8 +30,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
-    "description": "Compare private chef Dubai prices: visits from AED 750 and Managed Household from AED 15,000/month. See activation, monthly fees and separate costs.",
+    "title": "Private Chef Dubai Prices | Visits from AED 750 | myCHEF",
+    "description": "Private chef Dubai prices from AED 750 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online.",
     "h1": [
       "Private Chef Dubai Price. Clear from the start."
     ]
@@ -54,6 +54,7 @@
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdOffer.tsx",
     "src/components/household/ManagedHousehold.tsx",
+    "src/components/private-chef/ChefMealPacks.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -66,13 +67,11 @@
     "src/components/private-chef/pricing/Stepper.tsx",
     "src/components/private-chef/pricing/feedback.ts",
     "src/components/private-chef/pricing/planText.ts",
-    "src/components/private-chef/pricing/useCountUp.ts",
     "src/components/system/index.tsx",
     "src/components/ui/button.tsx",
     "src/components/ui/calendar.tsx",
     "src/components/ui/drawer.tsx",
     "src/components/ui/popover.tsx",
-    "src/components/ui/tooltip.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
@@ -113,11 +112,27 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4491,
-    "current_word_count": 4459,
+    "current_word_count": 5202,
     "headings": [
       {
         "level": "h2",
-        "text": "Cooking visits or a monthly household arrangement?"
+        "text": "Book once. Or make good food a routine."
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Visit"
+      },
+      {
+        "level": "h3",
+        "text": "Fridge Reset"
+      },
+      {
+        "level": "h3",
+        "text": "Fridge Reset, chef shops"
+      },
+      {
+        "level": "h3",
+        "text": "Chef by the Day"
       },
       {
         "level": "h2",
@@ -129,27 +144,47 @@
       },
       {
         "level": "h3",
+        "text": "Private Chef Visit"
+      },
+      {
+        "level": "h3",
         "text": "Send this plan to myCHEF."
       },
       {
         "level": "h2",
-        "text": "A little help. Or the whole kitchen."
+        "text": "Choose a meal pack, priced by the dish."
       },
       {
         "level": "h3",
-        "text": "Fresh Meal"
+        "text": "Everyday"
       },
       {
         "level": "h3",
-        "text": "Private Chef Food Prep"
+        "text": "Signature"
       },
       {
         "level": "h3",
-        "text": "Kitchen on Autopilot"
+        "text": "Chef’s Special"
       },
       {
         "level": "h3",
-        "text": "Full-Day Private Chef"
+        "text": "Build a meal-pack estimate"
+      },
+      {
+        "level": "h2",
+        "text": "Your food and your brief guide the chef match."
+      },
+      {
+        "level": "h3",
+        "text": "Signature"
+      },
+      {
+        "level": "h3",
+        "text": "Reserve"
+      },
+      {
+        "level": "h3",
+        "text": "Private Office"
       },
       {
         "level": "h2",
@@ -193,11 +228,11 @@
       },
       {
         "level": "h3",
-        "text": "More stability means better pricing."
+        "text": "One clear member rate."
       },
       {
         "level": "h3",
-        "text": "Start from one service per week."
+        "text": "Start with one visit."
       },
       {
         "level": "h3",
@@ -225,7 +260,7 @@
       },
       {
         "level": "h2",
-        "text": "Managed Household: your search and monthly service."
+        "text": "Need a dedicated full-time household chef?"
       },
       {
         "level": "h3",
@@ -257,31 +292,39 @@
       },
       {
         "level": "h3",
-        "text": "Why is a full-time household chef different from full-day visits?"
+        "text": "Can I book just one visit?"
       },
       {
         "level": "h3",
-        "text": "How is Managed Household priced?"
+        "text": "How do I get the member rate?"
       },
       {
         "level": "h3",
-        "text": "What is included in the service fee?"
+        "text": "What is included, and what costs extra?"
       },
       {
         "level": "h3",
-        "text": "Are groceries and VAT included?"
+        "text": "Do I pay a visit fee as well as the meal-pack price?"
       },
       {
         "level": "h3",
-        "text": "Why do recurring bookings cost less per visit?"
+        "text": "How many portions does a Fridge Reset prepare?"
       },
       {
         "level": "h3",
-        "text": "Can I book for a holiday or short stay?"
+        "text": "Can I choose a Reserve or Private Office chef?"
       },
       {
         "level": "h3",
-        "text": "Is this a price for a one-off dinner party?"
+        "text": "Is a full-time household chef priced differently?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I move a scheduled day?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if my chef is sick?"
       },
       {
         "level": "h2",

@@ -54,6 +54,7 @@
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefMealPacks.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -93,7 +94,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 699,
-    "current_word_count": 2171,
+    "current_word_count": 2218,
     "headings": [
       {
         "level": "h2",
@@ -145,15 +146,15 @@
       },
       {
         "level": "h3",
-        "text": "One fresh meal each week"
+        "text": "One meal, cooked for you"
       },
       {
         "level": "h3",
-        "text": "Weekly food preparation"
+        "text": "A fridge reset every week"
       },
       {
         "level": "h3",
-        "text": "Full-day chef visits, five days a week"
+        "text": "Your chef for the whole day"
       },
       {
         "level": "h2",

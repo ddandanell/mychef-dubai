@@ -4,10 +4,9 @@
  * One engine, one config. Change a rate, a tier or a staffing rule HERE and every
  * surface (calculator, summary card, lead payload, schema, hub previews) follows.
  *
- * Product boundary (2026-08-25): Private Chef = 3+ days of household chef service.
- * One dinner / party / event is Catering and never appears on this page.
- *
- * Rates marked DRAFT are the owner's starting figures — tune here, not in components.
+ * Approved 2026-10-03: single visits are available. Member rates apply to
+ * monthly plans of four or more prepaid visits, with no further volume reduction.
+ * All published rates are before 5% VAT, groceries and zone transport.
  */
 
 export type ServiceId = 'fresh-meal' | 'food-prep' | 'autopilot' | 'full-day'
@@ -21,11 +20,12 @@ export const CURRENCY = 'AED'
 export const SERVICES = [
   {
     id: 'fresh-meal',
-    name: 'Fresh Meal',
+    name: 'Private Chef Visit',
     hours: 3,
     tagline: 'A freshly prepared breakfast, lunch or dinner.',
     body: 'Your chef arrives, cooks one meal fresh, serves it the way this house likes, and leaves the kitchen handled.',
-    rate: 750, // DRAFT
+    rate: 750,
+    singleRate: 1125,
     unit: 'service',
     badge: null,
     highlight: false,
@@ -37,27 +37,29 @@ export const SERVICES = [
   },
   {
     id: 'food-prep',
-    name: 'Private Chef Food Prep',
+    name: 'Fridge Reset',
     hours: 4,
-    tagline: 'Food for your day, without staff in your home all day.',
-    body: 'Breakfast cooked fresh, then lunch, dinner and other food prepared for later — or the four hours used entirely around the meals you prefer. You control how the time is used.',
-    rate: 900, // DRAFT
+    tagline: 'About 20–25 portions, labelled and ready for later.',
+    body: 'Your chef cooks an agreed menu, portions and labels the food, and leaves storage and reheating notes. About 20–25 portions is a planning guide; output depends on the dishes, portions and kitchen.',
+    rate: 900,
+    singleRate: 1350,
     unit: 'service',
-    badge: 'Privacy-first',
+    badge: 'Meals ready for later',
     highlight: true,
     asksMeal: false,
     asksGrocery: true,
     groceryIncluded: false,
-    included: ['Menu coordination', 'Food preparation', 'Kitchen cleanup', 'Shopping list'],
+    included: ['Agreed menu and shopping list', 'About 20–25 portions, menu dependent', 'Labelling and storage guidance', 'Kitchen cleanup'],
     notIncluded: ['Groceries', 'Shopping / procurement'],
   },
   {
     id: 'autopilot',
-    name: 'Kitchen on Autopilot',
+    name: 'Fridge Reset, chef shops',
     hours: 5,
-    tagline: 'The managed kitchen. Planning, shopping, cooking, cleanup.',
-    body: 'Your chef runs the food side of the house: plans the menus, keeps the Food Profile current, watches the inventory, shops or orders online, tracks receipts, cooks and cleans up.',
-    rate: 1050, // DRAFT
+    tagline: 'The same fridge reset, with shopping handled too.',
+    body: 'We plan the menu, shop or order ingredients, keep the receipts and prepare about 20–25 portions in your kitchen. Food is labelled and stored, and the kitchen is cleaned. Ingredients remain separate at actual cost, no markup.',
+    rate: 1050,
+    singleRate: 1575,
     unit: 'service',
     badge: 'Most convenient',
     highlight: false,
@@ -81,11 +83,12 @@ export const SERVICES = [
   },
   {
     id: 'full-day',
-    name: 'Full-Day Private Chef',
-    hours: 9,
+    name: 'Chef by the Day',
+    hours: 10,
     tagline: 'The kitchen staffed from breakfast to dinner.',
     body: 'Fresh meals through the day in your household’s rhythm, with grocery management, the Food Profile and normal household food administration already part of the day.',
-    rate: 1500, // DRAFT
+    rate: 1450,
+    singleRate: 2000,
     unit: 'day',
     badge: 'Complete household service',
     highlight: false,
@@ -107,17 +110,34 @@ export const SERVICES = [
   },
 ] as const
 
-/** Adding grocery management to a 3h or 4h service adds one hour of kitchen-management time. DRAFT. */
-export const GROCERY_MANAGEMENT_ADD_ON = { hours: 1, rate: 150 } as const
+/** Adding grocery management to a 3h or 4h service adds one hour of kitchen-management time. */
+export const GROCERY_MANAGEMENT_ADD_ON = { hours: 1, rate: 150, singleRate: 225 } as const
 
-/**
- * What the house pays does not depend on a chef's level. The three levels are the cook's pay
- * ladder — Level 1 starting, Level 2 +10%, Level 3 +20%, paid to the registered cook — and they
- * live in privateChefStandard.ts with the score bands that move a person between them.
- *
- * Selling a "Head Chef" upgrade beside a quality ladder gave the same person two prices and the
- * house two stories. One price. One person. One ladder.
- */
+/** Published visit rates are for Signature. Reserve and Private Office are quoted on request. */
+export const CHEF_LEVELS = [
+  { name: 'Signature', description: 'The visit and meal-pack rates on this page. A chef matched to your food, kitchen and schedule.' },
+  { name: 'Reserve', description: 'A senior chef for a more demanding brief. Availability, scope and price on request.' },
+  { name: 'Private Office', description: 'Bespoke household coordination and chef requirements. Scope and price on request.' },
+] as const
+
+export const VAT_RATE = 0.05
+export const TRANSPORT_ZONES = [
+  { id: 'central', label: 'Central Dubai', areas: 'Downtown, DIFC, Business Bay, Jumeirah', rate: 40 },
+  { id: 'mid', label: 'Mid Dubai', areas: 'Umm Suqeim, Al Barsha, Dubai Hills', rate: 65 },
+  { id: 'marina-palm', label: 'Marina & Palm', areas: 'Marina, JBR, JLT, Bluewaters, Palm, Emirates Hills, JVC', rate: 95 },
+  { id: 'outer', label: 'Outer Dubai', areas: 'Arabian Ranches and beyond', rate: 130 },
+] as const
+export const PRICE_NOTE = 'Before 5% VAT. Groceries at actual cost, no markup. Zone transport AED 40–130 per visit is separate.'
+export const MEMBER_NOTE = 'Member rate: a monthly plan of 4+ prepaid visits. The same member rate applies at every frequency.'
+export const MEAL_COMPLEXITIES = [
+  { id: 'everyday', name: 'Everyday', member: 45, single: 60, examples: 'Dal, chicken adobo, shish tawook or bolognese' },
+  { id: 'signature', name: 'Signature', member: 60, single: 80, examples: 'Butter chicken, lasagne, kare-kare or beef bourguignon' },
+  { id: 'special', name: 'Chef’s Special', member: 95, single: 125, examples: 'Dum biryani, handmade pasta or kibbeh' },
+] as const
+export function mealPackPrice(counts: readonly number[], member: boolean): number {
+  return MEAL_COMPLEXITIES.reduce((sum, level, index) => sum + Math.max(0, Math.floor(counts[index] ?? 0)) * (member ? level.member : level.single), 0)
+}
+
 /** Of what the house pays, the share that goes to the licensed supplier who employs the chef. */
 export const SUPPLIER_SHARE = 0.4
 
@@ -125,7 +145,7 @@ export function formatAed(n: number): string {
   return `AED ${n.toLocaleString('en-AE')}`
 }
 
-/** Days per week → approx. services per month (30-day month). Long-term minimum is 4 services / month. */
+/** Days per week → services over four weeks. Member plans require at least 4 prepaid visits per month. */
 export const FREQUENCIES = [
   { days: 1, perMonth: 4 },
   { days: 2, perMonth: 8 },
@@ -140,19 +160,13 @@ export const LONG_MONTH_NOTE =
   'Estimates cover four weeks of visits. Any extra calendar-month visits are itemised in your written quote.'
 export const LONG_TERM_MIN_SERVICES = 4
 
-/**
- * Two household rates, not four. One price up to four days a week — which is the month we teach
- * everywhere, sixteen visits at the list rate — and a better rate from five days, where the
- * chef's week is substantially reserved for one house. Four bands with 4% steps meant the month
- * printed on the page and the month the calculator produced were never the same month.
- */
+/** Keep the existing tier API for downstream previews; there is one flat member rate. */
 export const RATE_TIERS = [
-  { id: 'standard', name: 'Standard Household Rate', min: 4, max: 19, discount: 0 },
-  { id: 'dedicated', name: 'Dedicated Household Rate', min: 20, max: Infinity, discount: 0.12 },
+  { id: 'member', name: 'Member rate', min: 4, max: Infinity },
 ] as const
 
-/** 3–29 day assignments: trained staff reserved for a short, less stable period. Multiplier inherited from the site's published under-one-month rule. DRAFT. */
-export const SHORT_STAY = { minDays: 3, maxDays: 29, multiplier: 1.5 } as const
+/** Single visits or a run of visits; no minimum number of days. */
+export const SHORT_STAY = { minDays: 1, maxDays: 30 } as const
 
 export const LONG_TERM_LENGTHS = [
   { id: '1', label: '1 month', months: 1 },
@@ -173,7 +187,7 @@ export const ASSISTANT_BANDS = [
 export const CUSTOM_STAFFING_FROM = 40
 export const GUESTS_MAX = 40
 
-/** DRAFT assistant rates. */
+/** Approved assistant fees: short visit / day / additional hour. */
 export const ASSISTANT_RATES = { short: 350, fullDay: 550, extraHour: 90 } as const
 
 /**
@@ -197,7 +211,7 @@ export const RESCHEDULE_NOTICE_HOURS = 24
 
 export interface QuoteInput {
   duration: Duration
-  /** short stay only: number of chef days, 3–29 */
+  /** short stay only: number of visits, 1–30 */
   stayDays: number
   /** long term only: days per week 1–7 */
   daysPerWeek: number
@@ -208,6 +222,7 @@ export interface QuoteInput {
   meal: Meal
   guests: number
   groceryMode: GroceryMode
+  transportZoneId?: (typeof TRANSPORT_ZONES)[number]['id'] | ''
 }
 
 export interface QuoteLine {
@@ -228,6 +243,10 @@ export interface Quote {
   shortStay: boolean
   lines: QuoteLine[]
   perService: number
+  transportPerService: number | null
+  vatPerService: number | null
+  perServiceWithVat: number | null
+  periodWithVat: number | null
   perWeek: number
   perMonth: number
   total: number | null
@@ -236,7 +255,7 @@ export interface Quote {
   relationship: { label: string; body: string }
 }
 
-const round5 = (n: number) => Math.round(n / 5) * 5
+const money = (n: number) => Math.round(n * 100) / 100
 
 export function assistantsFor(guests: number): { assistants: number; label: string; custom: boolean } {
   if (guests >= CUSTOM_STAFFING_FROM) return { assistants: 3, label: 'Custom staffing review', custom: true }
@@ -258,35 +277,40 @@ export function computeQuote(input: QuoteInput): Quote {
   const service = SERVICES.find((s) => s.id === input.serviceId) ?? SERVICES[0]
   const shortStay = input.duration === 'short'
 
-  // Grocery management: included in 5h/9h; optional +1h add-on for 3h/4h.
+  // Grocery management: included in 5h/10h; optional +1h add-on for 3h/4h.
   const addsManagement = service.asksGrocery && input.groceryMode === 'mychef'
   const groceryManaged = service.groceryIncluded || addsManagement
   const hoursPerService = service.hours + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.hours : 0)
 
-  const baseChef = service.rate + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.rate : 0)
+  const baseChef = shortStay ? service.singleRate : service.rate
+  const shoppingFee = addsManagement ? (shortStay ? GROCERY_MANAGEMENT_ADD_ON.singleRate : GROCERY_MANAGEMENT_ADD_ON.rate) : 0
 
   const { assistants, custom } = assistantsFor(input.guests)
   const assistantRate = service.id === 'full-day' ? ASSISTANT_RATES.fullDay : ASSISTANT_RATES.short
   const assistantsCost = assistants * assistantRate
 
-  const freq = FREQUENCIES.find((f) => f.days === input.daysPerWeek) ?? FREQUENCIES[4]
-  const servicesPerMonth = shortStay ? input.stayDays : freq.perMonth
+  const freq = FREQUENCIES.find((f) => f.days === input.daysPerWeek) ?? FREQUENCIES[0]
+  const visitCount = Math.max(SHORT_STAY.minDays, Math.min(SHORT_STAY.maxDays, Math.floor(input.stayDays) || 1))
+  const servicesPerMonth = shortStay ? visitCount : freq.perMonth
   const tier = shortStay ? null : tierFor(servicesPerMonth)
-  const multiplier = shortStay ? SHORT_STAY.multiplier : 1 - (tier?.discount ?? 0)
 
-  const chefPerService = round5(baseChef * multiplier)
+  const chefPerService = baseChef + shoppingFee
   const perService = chefPerService + assistantsCost
 
   const lines: QuoteLine[] = [
-    { label: `${service.name} (${hoursPerService}h)`, amount: chefPerService, note: shortStay ? 'Short-stay rate' : tier?.name },
+    { label: `${service.name} (${hoursPerService}h)`, amount: chefPerService, note: shortStay ? 'Single rate' : tier?.name },
   ]
   if (assistants > 0) lines.push({ label: `${assistants} assistant${assistants > 1 ? 's' : ''}`, amount: assistantsCost, note: `${assistantRate} each` })
 
-  const perWeek = shortStay ? perService * Math.min(7, input.stayDays) : perService * input.daysPerWeek
+  const perWeek = shortStay ? perService * Math.min(7, visitCount) : perService * freq.days
   const perMonth = perService * servicesPerMonth
   const length = LONG_TERM_LENGTHS.find((l) => l.id === input.lengthId)
-  const total = shortStay ? perService * input.stayDays : length?.months ? perMonth * length.months : null
+  const total = shortStay ? perService * visitCount : length?.months ? perMonth * length.months : null
   const chefHoursPerMonth = hoursPerService * servicesPerMonth
+  const transportPerService = TRANSPORT_ZONES.find(zone => zone.id === input.transportZoneId)?.rate ?? null
+  const vatPerService = transportPerService === null ? null : money((perService + transportPerService) * VAT_RATE)
+  const perServiceWithVat = transportPerService === null || vatPerService === null ? null : money(perService + transportPerService + vatPerService)
+  const periodWithVat = perServiceWithVat === null ? null : money(perServiceWithVat * servicesPerMonth)
 
   return {
     service,
@@ -295,30 +319,35 @@ export function computeQuote(input: QuoteInput): Quote {
     assistants,
     customStaffing: custom,
     servicesPerMonth,
-    servicesTotal: shortStay ? input.stayDays : servicesPerMonth,
+    servicesTotal: shortStay ? visitCount : servicesPerMonth,
     tier,
     shortStay,
     lines,
     perService,
+    transportPerService,
+    vatPerService,
+    perServiceWithVat,
+    periodWithVat,
     perWeek,
     perMonth,
     total,
     chefHoursPerMonth,
     effectiveHourly: Math.round(chefPerService / hoursPerService),
-    relationship: relationshipFor(shortStay ? 7 : input.daysPerWeek),
+    relationship: shortStay ? { label: 'Your chef for the booking', body: 'Chef availability and the agreed menu are confirmed before payment.' } : relationshipFor(input.daysPerWeek),
   }
 }
 
 export const DEFAULT_INPUT: QuoteInput = {
-  duration: 'long',
-  stayDays: 7,
-  daysPerWeek: 5,
+  duration: 'short',
+  stayDays: 1,
+  daysPerWeek: 1,
   lengthId: 'ongoing',
   startDate: null,
-  serviceId: 'autopilot',
+  serviceId: 'fresh-meal',
   meal: 'dinner',
   guests: 4,
   groceryMode: 'client',
+  transportZoneId: '',
 }
 
 export const fmt = (n: number) => `${CURRENCY} ${n.toLocaleString('en-US')}`
@@ -326,20 +355,20 @@ export const fmt = (n: number) => `${CURRENCY} ${n.toLocaleString('en-US')}`
 /** The transparency block under the price. */
 export const FEE_INCLUDES = [
   'Chef time', 'Chef matching', 'Household onboarding', 'Food Profile', 'Account manager',
-  'Quality follow-up', 'Schedule management', 'Replacement support', 'Access to additional staff', 'Long-term specialist access',
+  'Quality follow-up', 'Schedule management', 'Replacement support', 'Access to additional staff', 'Specialist access on eligible member plans',
 ] as const
 export const FEE_SEPARATE = [
-  'Groceries', 'Direct grocery transport / delivery', 'Additional assistants', 'Overtime', 'Specialist chef sessions', 'Extra event staffing',
+  'Groceries at actual cost, no markup', 'Zone transport AED 40–130 per visit', 'Direct grocery delivery at cost', 'Additional assistants', 'Overtime', 'Specialist chef sessions', 'Extra event staffing',
 ] as const
 
 export const SPECIALISTS = ['Japanese / Sushi', 'Italian', 'French', 'Pastry', 'Indian', 'BBQ', 'Special dietary specialists'] as const
 
 export const PRICING_FAQS = [
-  { q: 'What is the minimum long-term booking?', a: '30 days and at least four chef services per month.' },
+  { q: 'Can I book just one visit?', a: 'Yes. Single visits start at AED 1,125 for three hours. Member rates start at AED 750 for a monthly plan of four or more prepaid visits. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit.' },
   { q: 'Can I have the same chef every week?', a: 'Yes. Recurring plans are built around a regular assigned chef whenever possible; at five or more days a week the arrangement is dedicated, with chef capacity substantially reserved around your schedule.' },
   { q: 'Can I choose my days?', a: 'Yes. You set the days, and the chef is built around them.' },
   { q: 'Can I move a scheduled day?', a: `Yes — with at least ${RESCHEDULE_NOTICE_HOURS} hours’ notice, a scheduled service can be moved within the current billing month, subject to chef availability. With less than ${RESCHEDULE_NOTICE_HOURS} hours’ notice the service remains chargeable, because the chef’s day was already held for your house. The supplier who employs the chef works to the same ${RESCHEDULE_NOTICE_HOURS} hours, so nobody is told two different rules.` },
-  { q: 'Are groceries included?', a: 'The shopping cost is separate and charged at actual cost. Grocery management — planning, shopping or ordering, receipts — is included in Kitchen on Autopilot and Full-Day plans, and can be added to Fresh Meal and Food Prep.' },
+  { q: 'Are groceries included?', a: 'The shopping cost is separate and charged at actual cost. Grocery management — planning, shopping or ordering, receipts — is included in Fridge Reset, chef shops and Chef by the Day, and can be added to a Private Chef Visit or Fridge Reset.' },
   { q: 'Does myCHEF mark up groceries?', a: 'No. Groceries and any direct delivery or transport costs are charged at actual cost. myCHEF adds no percentage.' },
   { q: 'How many people are included?', a: 'Up to eight people are included in the chef price. From nine, the calculator adds assistants automatically: one from 9 to 19, two from 20 to 29, three from 30 to 39. From 40 we review staffing with you.' },
   { q: 'Can you cook for children separately?', a: 'Yes. What the children eat — timing, refusals, allergies — sits in the Food Profile, and the chef plans around it.' },
@@ -348,5 +377,5 @@ export const PRICING_FAQS = [
   { q: 'What happens if my chef is sick?', a: 'Replacement support is part of the fee. The next chef is briefed from your Food Profile. If an equivalent chef is not available, we tell you and give you the options.' },
   { q: 'Can I request a Japanese or sushi specialist?', a: 'Yes. After one month with myCHEF, long-term clients can request specialists for occasional services — Japanese and sushi, Italian, French, pastry, Indian, BBQ and dietary specialists. They are priced separately depending on the specialist.' },
   { q: 'Can I book seven days every week?', a: 'Yes. Seven-day coverage uses rotation so quality does not depend on one person working without rest.' },
-  { q: 'Can I have more than nine hours per day?', a: 'Up to around ten hours can generally be handled by the same chef depending on availability. Beyond that we design overlapping shifts — Extended Coverage — so the service stays consistent without an excessive working day for one person.' },
+  { q: 'How long is a full day?', a: 'Chef by the Day includes ten hours, with meals and breaks planned around your household. If you need longer coverage, we quote overlapping shifts separately rather than extending one chef’s day.' },
 ] as const

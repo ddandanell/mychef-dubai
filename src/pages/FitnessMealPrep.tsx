@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     q: 'What does a fitness meal-prep visit cost?',
-    a: 'A four-hour Food Prep visit is AED 900 before 5% VAT. Four weekly visits cost AED 3,600 over four weeks. Groceries are charged separately at actual cost. We confirm how many portions the chef can prepare once the menu and requirements are agreed.',
+    a: 'A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Four member visits cost AED 3,600 over four weeks. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. We confirm how many portions the chef can prepare once the menu and requirements are agreed.',
   },
 ]
 
@@ -105,7 +105,7 @@ const relatedServices = [
   },
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'The same Food Prep job, written for the household rather than the gym.',
+    description: 'The same Fridge Reset service, written for the household rather than the gym.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
@@ -181,8 +181,8 @@ export default function FitnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Fitness Meal Prep Dubai | Food Prep AED 900 | myCHEF"
-        description="Fitness meal prep Dubai is the Food Prep job: four hours, AED 900, cooked to your macros in your kitchen. Groceries at receipts. VAT 5%."
+        title="Fitness Meal Prep Dubai | Fridge Reset at Home | myCHEF"
+        description="Fitness meal prep in Dubai with menus built around your agreed portions and food targets. Compare single Fridge Reset visits and member plans. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -210,7 +210,7 @@ export default function FitnessMealPrep() {
             Fitness Meal Prep Dubai: cooked to your numbers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fm-hero-sub">
-            Fitness meal prep Dubai is four hours in your kitchen, AED 900 a visit. You or your coach send the macros. The chef cooks them. Groceries at receipts.
+            Fitness meal prep Dubai, cooked in your kitchen around your agreed food and portion targets. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT, groceries and transport.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fm-hero-cta">Plan My Fitness Meals</Link>
@@ -234,11 +234,11 @@ export default function FitnessMealPrep() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">THE SAME FOOD PREP JOB</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            The visit is Food Prep. The numbers are yours.
+            The visit is Fridge Reset. The numbers are yours.
           </h2>
           <div className="fm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Fitness meal prep Dubai is the household Food Prep job with training numbers attached. Four hours, AED 900. Halal fitness meal prep Dubai is the default sourcing. Best fitness meal prep Dubai, for us, means a named chef, an itemised figure, and macros written on the lid.
+              Your chef prepares the agreed menu around the portion or macro targets you supply. We confirm what can be prepared and labelled within the booked time. Halal sourcing is the default. A Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month, before 5% VAT, groceries and zone transport.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Fitness meal prep packages Dubai are once or twice a week, not a menu card named after a body type. A fitness meal prep menu Dubai week is written from your brief. Personal chef meal prep near me cost is still this visit rate, groceries at receipts, VAT at 5%.
@@ -359,7 +359,7 @@ export default function FitnessMealPrep() {
             Send the numbers. We will cook them.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your cooking days, household size and any portion or macro targets you already follow. A four-hour visit is AED 900 before VAT and groceries; we confirm the menu and practical scope before booking.
+            Tell us your cooking days, household size and any portion or macro targets you already follow. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. We confirm the menu and scope before booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Fitness Meals</Link>

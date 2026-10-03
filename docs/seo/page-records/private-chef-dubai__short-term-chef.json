@@ -6,7 +6,7 @@
   "role": "indexable page",
   "page_type": "Commercial landing",
   "silo": "Private Chef",
-  "purpose": "Short-term private chef in Dubai from AED 1,125 a visit, minimum three chef days. Menus planned around your home. Groceries and VAT separate.",
+  "purpose": "Short term private chef in Dubai from AED 1,125 a visit — single visits welcome, no minimum days. Vetted chefs for holidays and busy weeks. Get a proposal.",
   "keywords": {
     "primary": "short term private chef dubai",
     "secondary": [
@@ -22,7 +22,7 @@
   },
   "metadata": {
     "title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
-    "description": "Short-term private chef in Dubai from AED 1,125 a visit, minimum three chef days. Menus planned around your home. Groceries and VAT separate.",
+    "description": "Short term private chef in Dubai from AED 1,125 a visit — single visits welcome, no minimum days. Vetted chefs for holidays and busy weeks. Get a proposal.",
     "h1": [
       "Short Term Private Chef Dubai. For the time you need."
     ]
@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 1043,
+    "current_word_count": 1228,
     "headings": [
       {
         "level": "h2",
@@ -107,23 +107,23 @@
       },
       {
         "level": "h2",
-        "text": "Short-stay chef visits from AED 1,125."
+        "text": "Single chef visits from AED 1,125."
       },
       {
         "level": "h3",
-        "text": "Fresh Meal"
+        "text": "Private Chef Visit"
       },
       {
         "level": "h3",
-        "text": "Private Chef Food Prep"
+        "text": "Fridge Reset"
       },
       {
         "level": "h3",
-        "text": "Kitchen on Autopilot"
+        "text": "Fridge Reset, chef shops"
       },
       {
         "level": "h3",
-        "text": "Full-Day Private Chef"
+        "text": "Chef by the Day"
       },
       {
         "level": "h2",
@@ -164,6 +164,10 @@
       {
         "level": "h3",
         "text": "Can I arrange a chef for a holiday stay?"
+      },
+      {
+        "level": "h3",
+        "text": "Can I use the member rate?"
       },
       {
         "level": "h3",

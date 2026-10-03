@@ -22,26 +22,20 @@ const eventStarterPackages: StarterPackage[] = EVENT_PACKAGES.map((pkg) => ({
   recurring: false,
 }))
 
-/** Household weekly prep — Food Prep job on /weekly-meal-prep-dubai, not a separate tariff. */
-const prepRate = SERVICES.find(service => service.id === 'food-prep')!.rate
+/** Two ways to start, derived from the approved Fridge Reset rates. */
+const prep = SERVICES.find(service => service.id === 'food-prep')!
 const weeklyPrepPackages: StarterPackage[] = [
   {
-    name: 'Weekly meal prep — one session',
-    guests: 'Up to 8 people',
-    price: prepRate.toLocaleString('en-US'),
-    perPerson: `${formatAed(prepRate)} / 4-hour session`,
-    included: 'The Food Prep job: four hours in your kitchen, meals portioned and labelled, kitchen left clean. Groceries at receipt cost.',
-    recurring: true,
-    period: '/ session',
+    name: 'Fridge Reset — single visit', guests: '4 hours · about 20–25 portions',
+    price: prep.singleRate.toLocaleString('en-US'), perPerson: `${formatAed(prep.singleRate)} / visit`,
+    included: 'Meals cooked in your kitchen, portioned and labelled. Output depends on the menu and portions. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.',
+    recurring: true, period: '/ visit',
   },
   {
-    name: 'Weekly meal prep — two sessions',
-    guests: 'Up to 8 people',
-    price: (prepRate * 2).toLocaleString('en-US'),
-    perPerson: `${formatAed(prepRate * 2)} / week`,
-    included: `Two Food Prep sessions a week at ${formatAed(prepRate)} each. Groceries at receipt cost, no markup.`,
-    recurring: true,
-    period: '/ week',
+    name: 'Fridge Reset — member plan', guests: '4+ prepaid visits per month · 4 hours each',
+    price: prep.rate.toLocaleString('en-US'), perPerson: `${formatAed(prep.rate)} / member visit`,
+    included: `Weekly preparation at the member rate. Four visits cost ${formatAed(prep.rate * 4)} before 5% VAT. Groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.`,
+    recurring: true, period: '/ member visit',
   },
 ]
 

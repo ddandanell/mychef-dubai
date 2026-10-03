@@ -25,10 +25,10 @@ const profile = readFileSync('src/pages/chefs/ChefProfile.tsx', 'utf8')
 eq('no malformed inquiry string', profile.includes("/inquiry'/chefs/', '')}"), false)
 eq('uses chefInquiryHref', profile.includes('chefInquiryHref'), true)
 
-const one = starterPackages.find((p) => p.name === 'Weekly meal prep — one session')
-const two = starterPackages.find((p) => p.name === 'Weekly meal prep — two sessions')
-eq('weekly prep one session is AED 900', one?.price, '900')
-eq('weekly prep two sessions is AED 1,800', two?.price, '1,800')
+const one = starterPackages.find((p) => p.name === 'Fridge Reset — single visit')
+const two = starterPackages.find((p) => p.name === 'Fridge Reset — member plan')
+eq('single Fridge Reset is AED 1,350', one?.price, '1,350')
+eq('member Fridge Reset is AED 900', two?.price, '900')
 eq('stale 1,900 weekly card gone', starterPackages.some((p) => p.price === '1,900'), false)
 
 if (fails) {

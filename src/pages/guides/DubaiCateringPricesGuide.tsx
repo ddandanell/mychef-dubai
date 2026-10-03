@@ -343,7 +343,7 @@ export default function DubaiCateringPricesGuide() {
               Catering Costs Per Person in Dubai
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              “From” shows the myCHEF starting price for each format. Indicative market ranges provide broader planning context; your menu, guest count and service requirements determine the final quote. Household chef visit rates are not in this table.
+              “From” shows the myCHEF starting price for each format. Indicative market ranges provide broader planning context; your menu, guest count and service requirements determine the final quote. For household cooking, a three-hour Private Chef Visit is AED 1,125 single or AED 750 member with 4+ prepaid visits per month. A ten-hour Chef by the Day is AED 2,000 single or AED 1,450 member. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Compare <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4">private chef Dubai prices</Link> for the complete visit rate card.
             </p>
           </div>
 

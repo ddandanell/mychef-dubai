@@ -14,9 +14,6 @@ import {
   ASSISTANT_BANDS,
   ASSISTANT_RATES,
   CUSTOM_STAFFING_FROM,
-  LONG_TERM_MIN_SERVICES,
-  OVERTIME,
-  overtimeRate,
   RESCHEDULE_NOTICE_HOURS,
   SPECIALISTS,
   fmt,
@@ -144,7 +141,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'containers',
         title: 'Food storage and containers.',
         paragraphs: [
-          'For Food Prep and Kitchen on Autopilot plans, prepared meals need suitable reusable containers for refrigeration and storage.',
+          'For Fridge Reset and meal-pack bookings, prepared meals need suitable reusable containers for refrigeration and storage.',
           'You can use your own containers, or we can help organise an appropriate set for your household. Any containers or specialist storage products purchased on your behalf are charged at actual cost.',
         ],
         decisionRelevant: false,
@@ -163,7 +160,7 @@ export const PLAN_TERMS: TermGroup[] = [
   {
     id: 'money',
     title: 'Money',
-    intro: 'What builds the price, what improves it, and what stays separate.',
+    intro: 'Your rate, how membership works, and what stays separate.',
     items: [
       {
         id: 'groceries',
@@ -175,7 +172,7 @@ export const PLAN_TERMS: TermGroup[] = [
         twoUp: {
           left: { label: 'You manage the groceries', lines: ['Your chef plans the food with you and tells you what is needed. You purchase the ingredients and have them available for the scheduled service.'] },
           right: {
-            label: 'Kitchen on Autopilot',
+            label: 'Fridge Reset, chef shops',
             lines: ['We take responsibility for the food-management process: planning meals, checking existing stock, building shopping lists, ordering online or shopping in person, organising receipts and tracking purchases. Your chef prepares the food and keeps the kitchen organised.'],
           },
         },
@@ -195,7 +192,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'assistants',
         title: 'Additional kitchen assistant.',
         paragraphs: [
-          `4 to 5 hours: ${fmt(ASSISTANT_RATES.short)}. Full 9-hour day: ${fmt(ASSISTANT_RATES.fullDay)}. Additional time: ${fmt(ASSISTANT_RATES.extraHour)} per hour.`,
+          `4 to 5 hours: ${fmt(ASSISTANT_RATES.short)}. Full day: ${fmt(ASSISTANT_RATES.fullDay)}. Additional time: ${fmt(ASSISTANT_RATES.extraHour)} per hour. All before 5% VAT.`,
           'The calculator adds assistants automatically based on your normal guest count.',
         ],
         decisionRelevant: true,
@@ -204,7 +201,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'overtime',
         title: 'Need the chef for longer?',
         paragraphs: [
-          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is quoted at the applicable hourly rate, ${fmt(overtimeRate('full-day'))}/hour for Full-Day, ${fmt(overtimeRate('autopilot'))} for Kitchen on Autopilot, ${fmt(overtimeRate('food-prep'))} for Food Prep and ${fmt(overtimeRate('fresh-meal'))} for Fresh Meal, agreed with you before anyone stays on. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour.`,
+          'Chef by the Day includes ten hours. Any extension to a shorter visit is quoted and agreed before the chef stays on. Assistant time beyond the booked service is AED 90 per hour before 5% VAT.',
           'Short extensions can often be handled by your regular chef when arranged in advance. Longer coverage may require a second chef or rotating team so service quality and working conditions remain sustainable.',
         ],
         decisionRelevant: true,
@@ -221,19 +218,19 @@ export const PLAN_TERMS: TermGroup[] = [
       },
       {
         id: 'stability',
-        title: 'More stability means better pricing.',
+        title: 'One clear member rate.',
         paragraphs: [
-          'A household booking one chef day each week requires us to reserve trained capacity around a relatively small schedule. A household using the service five or six days each week gives us much greater staffing stability.',
-          'That efficiency allows us to offer a better effective service rate as the number of recurring chef days increases. We do not call this a promotional discount. It is simply a different operating cost.',
+          'Member rates apply to monthly plans of four or more prepaid visits. You can start with one visit at the single rate; no minimum number of days applies to a single booking.',
+          'The member rate per visit stays the same at every frequency. More visits change the total, not the rate per visit. Groceries are at actual cost, no markup; zone transport is AED 40–130 per visit, and all service rates are before 5% VAT.',
         ],
         decisionRelevant: true,
       },
       {
         id: 'minimum',
-        title: 'Start from one service per week.',
+        title: 'Start with one visit.',
         paragraphs: [
-          `Long-term plans begin at 30 days and a minimum of ${LONG_TERM_MIN_SERVICES} chef services per month.`,
-          'This allows households that only need weekly support to use the same managed system as clients with chefs five or seven days per week. The level of chef allocation and pricing improves as the regular schedule becomes larger.',
+          'Single visit at the page price. For the member rate, prepay four or more visits in a monthly plan.',
+          'Choose the frequency that suits your household. The menu and output need to fit the service you book, and availability is confirmed before payment.',
         ],
         decisionRelevant: true,
       },
@@ -241,7 +238,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'billing',
         title: 'Simple monthly billing.',
         paragraphs: [
-          'Long-term private chef plans are billed monthly. You choose your start date, preferred service days and expected frequency.',
+          'Member plans are prepaid monthly for four or more visits. You choose your start date, preferred service days and expected frequency. Single bookings are confirmed separately at the single rate.',
           'Before confirming, you can see the price per service, typical weekly cost, four-week estimate, number of chef visits and total chef hours. The calculator estimates recurring visits; additional calendar-month visits are quoted separately. Dedicated full-time Managed Household is a separate monthly service with its own agreed schedule.',
           'If your first billing period begins partway through the month, the initial invoice can be based on the services scheduled for that period. Then the normal monthly cycle begins.',
         ],
