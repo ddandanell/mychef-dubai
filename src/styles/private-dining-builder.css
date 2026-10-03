@@ -1,0 +1,153 @@
+.dining-builder { --everyday:#4e6a48; --signature:#a87314; --special:#6b2c4c; --dining-paper:#f7f4ee; --dining-ink:#263b30; --dining-line:#dedbd2; scroll-margin-top:100px; background:var(--dining-paper); color:var(--dining-ink); padding:80px 0; font-family:Figtree,Manrope,system-ui,sans-serif; }
+.dining-shell { width:min(1240px,calc(100% - 80px)); margin:auto; }
+.dining-builder :where(button,input,select,textarea,a):focus-visible { outline:3px solid #a87314; outline-offset:3px; }
+.dining-builder button,.dining-builder a { -webkit-tap-highlight-color:transparent; }
+.dining-builder button { cursor:pointer; }
+.dining-builder button:disabled { cursor:not-allowed; }
+.dining-intro { display:grid; grid-template-columns:1.1fr 1fr; gap:60px; align-items:center; margin-bottom:30px; }
+.dining-eyebrow { font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#766038; margin:0 0 15px; }
+.dining-intro h2 { font:500 clamp(40px,4.5vw,62px)/1.03 'Cormorant Garamond',Georgia,serif; letter-spacing:-.025em; margin:0 0 22px; }
+.dining-intro h2 em { color:#82703d; font-weight:400; }
+.dining-intro p:not(.dining-eyebrow) { font-size:16px; line-height:1.8; max-width:55ch; color:#566057; }
+.dining-intro-facts { display:flex; gap:12px 20px; flex-wrap:wrap; margin-top:22px; }
+.dining-intro-facts span { display:inline-flex; gap:7px; align-items:center; font-size:12px; }
+.dining-intro figure { margin:0; }
+.dining-intro img { aspect-ratio:1.4; width:100%; object-fit:cover; border-radius:3px; }
+.dining-intro figcaption { font-size:10px; color:#687166; margin-top:8px; }
+.dining-inclusions { border-block:1px solid var(--dining-line); padding:20px 0; margin-bottom:40px; }
+.dining-inclusions p { font-size:13px; line-height:1.8; margin:0; color:#596256; }
+.dining-inclusions p+p { margin-top:5px; }
+.dining-layout { display:grid; grid-template-columns:minmax(0,1fr) 360px; align-items:start; gap:40px; }
+.dining-controls { min-width:0; }
+.dining-step { min-width:0; border:0; margin:0 0 38px; padding:0 0 32px; border-bottom:1px solid var(--dining-line); }
+.dining-step legend { display:flex; align-items:center; gap:12px; width:100%; margin-bottom:12px; font:600 27px/1.2 'Cormorant Garamond',Georgia,serif; }
+.dining-step legend>span { font:500 11px Figtree,system-ui,sans-serif; color:#82703d; display:grid; place-items:center; border:1px solid #d2c7ae; width:28px; height:28px; border-radius:50%; flex-shrink:0; }
+.dining-help { color:#5d675d; font-size:12px; line-height:1.75; margin:7px 0 16px; }
+.dining-help a,.dining-other-service a { text-decoration:underline; text-underline-offset:3px; }
+.dining-packages { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:20px; }
+.dining-packages>button { display:flex; flex-direction:column; padding:18px 15px; text-align:left; background:#fffefa; border:1px solid #d7d8ce; border-radius:3px; min-width:0; transition:border-color .15s,background .15s; }
+.dining-packages>button[aria-pressed=true] { border-color:#446145; background:#edf1e7; box-shadow:inset 0 0 0 1px #446145; }
+.dining-package-title { display:flex; justify-content:space-between; gap:6px; align-items:center; font:600 25px 'Cormorant Garamond',Georgia,serif; width:100%; }
+.dining-radio { width:18px; height:18px; display:grid; place-items:center; border:1px solid #8a9586; border-radius:50%; flex-shrink:0; }
+[aria-pressed=true] .dining-radio { background:#39593e; color:#fff; border-color:#39593e; }
+.dining-package-tagline { font-size:12px; line-height:1.6; min-height:44px; margin:9px 0 13px; color:#596256; }
+.dining-package-price { font-size:17px; font-weight:600; }
+.dining-package-unit { font-size:10px; line-height:1.6; color:#61695d; margin:4px 0 12px; }
+.dining-package-description { font-size:11px; line-height:1.7; color:#586255; }
+.dining-quote-label { font-size:10px; line-height:1.5; color:#6b2c4c; margin-top:10px; }
+.dining-event-grid,.dining-detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:20px; }
+.dining-event-grid { grid-template-columns:185px minmax(0,1fr); }
+.dining-builder label { display:block; font-size:12px; font-weight:500; margin-bottom:8px; }
+.dining-builder label>span { color:#67705f; font-weight:400; }
+.dining-builder input:not([type=checkbox]),.dining-builder select,.dining-builder textarea { width:100%; min-width:0; min-height:46px; background:#fffefa; border:1px solid #c7ccbf; border-radius:3px; padding:11px 12px; color:#2b3c30; font:400 13px/1.6 Figtree,Manrope,system-ui,sans-serif; }
+.dining-builder input::placeholder,.dining-builder textarea::placeholder { color:#70756e; }
+.dining-builder select { text-overflow:ellipsis; padding-right:22px; }
+.dining-builder textarea { resize:vertical; }
+.dining-builder input[type=checkbox] { accent-color:#3f6348; width:17px; height:17px; flex-shrink:0; }
+.dining-builder input[aria-invalid=true] { border-color:#a23a38; }
+.dining-stepper { display:grid; grid-template-columns:44px minmax(0,1fr) 44px; }
+.dining-stepper button { border:1px solid #c7ccbf; background:#fffefa; display:grid; place-items:center; min-height:46px; }
+.dining-stepper button:disabled { color:#9b9e93; background:#eeeee6; }
+.dining-stepper input { border-inline:0!important; border-radius:0!important; text-align:center; appearance:textfield; -moz-appearance:textfield; font-size:17px!important; }
+.dining-stepper input::-webkit-inner-spin-button { appearance:none; }
+.dining-presets { display:flex; gap:8px; flex-wrap:wrap; margin:18px 0 24px; }
+.dining-presets button { min-height:44px; padding:9px 13px; border:1px solid #c6caba; border-radius:22px; font-size:11px; background:#fffefa; }
+.dining-presets button[aria-pressed=true] { color:#fff; background:#304b38; border-color:#304b38; }
+.dining-filters { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.dining-search { grid-column:1/-1; }
+.dining-search>div { position:relative; }
+.dining-search svg { position:absolute; left:13px; top:15px; color:#67745f; }
+.dining-search input { padding-left:40px!important; }
+.dining-results-line { display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; align-items:center; margin:17px 0 0; font-size:11px; color:#5d6756; }
+.dining-results-line label { display:flex; gap:8px; align-items:center; font-size:11px; margin:0; min-height:32px; }
+.dining-feedback { min-height:36px; font-size:11px; line-height:1.65; margin:8px 0; color:#4e614a; }
+.dining-dish-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.dining-dish { background:#fffefa; border:1px solid #dfded3; border-radius:3px; padding:18px; display:flex; flex-direction:column; min-width:0; }
+.dining-dish.is-selected { border-color:#78906b; background:#f1f4eb; }
+.dining-dish-labels { display:flex; gap:8px; justify-content:space-between; align-items:center; color:#737669; font-size:10px; margin-bottom:11px; }
+.dining-tier { font-weight:600; }
+.dining-tier-E { color:var(--everyday); }
+.dining-tier-S { color:#90600e; }
+.dining-tier-C { color:var(--special); }
+.dining-dish h4 { font:600 23px/1.12 'Cormorant Garamond',Georgia,serif; margin:0 0 6px; }
+.dining-dish-cuisine { font-size:10px; color:#686e62; margin:0 0 15px; line-height:1.6; }
+.dining-dish-price { font-size:13px; font-weight:600; margin-top:auto; line-height:1.6; }
+.dining-dish-price>span { font-size:11px; font-weight:400; }
+.dining-dish-note { font-size:10px; line-height:1.7; margin:8px 0 0; color:#795334; }
+.dining-dish button { margin-top:15px; display:flex; justify-content:center; align-items:center; gap:6px; min-height:44px; padding:8px; width:100%; background:#f6f5ed; border:1px solid #d1d6c7; font-size:11px; line-height:1.6; border-radius:2px; }
+.dining-dish button[aria-pressed=true] { background:#e0e8d6; border-color:#9caf8b; }
+.dining-dish button:disabled { color:#686e63; border-style:dashed; background:#f5f4ed; }
+.dining-more { width:100%; display:flex; align-items:center; justify-content:center; gap:10px; border:1px solid #c9cdbf; min-height:46px; margin-top:14px; font-size:12px; }
+.dining-empty { padding:20px 0; font-size:13px; color:#596452; line-height:1.7; }
+.dining-wide { grid-column:1/-1; }
+.dining-extras-title { font-size:12px; margin:20px 0 13px; }
+.dining-extras { display:grid; grid-template-columns:1fr 1fr; gap:4px 15px; }
+.dining-extras label { display:flex; align-items:center; gap:9px; min-height:40px; }
+.dining-ticket { position:sticky; top:100px; max-height:calc(100dvh - 120px); overflow-y:auto; overscroll-behavior:contain; padding:27px; background:#fffefa; border:1px solid #d0d4c6; border-radius:3px; box-shadow:0 10px 40px #3846310a; scroll-margin-top:110px; }
+.dining-ticket-heading { display:flex; align-items:center; gap:12px; margin-bottom:15px; }
+.dining-ticket-heading .dining-eyebrow { margin:0; font-size:10px; }
+.dining-ticket h3 { font:600 31px/1.1 'Cormorant Garamond',Georgia,serif; margin:0 0 9px; }
+.dining-ticket-sub { font-size:12px; color:#666e5f; margin-bottom:20px; }
+.dining-selected { list-style:none; padding:0; margin:0; border-top:1px solid #e1e2d7; }
+.dining-selected li { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:9px 0; border-bottom:1px solid #e1e2d7; }
+.dining-selected li>div { min-width:0; }
+.dining-selected span { font-size:12px; line-height:1.5; display:block; }
+.dining-selected small { font-size:10px; line-height:1.6; color:#727767; display:block; margin-top:3px; }
+.dining-selected button { color:#737d69; width:36px; min-height:44px; flex-shrink:0; display:grid; place-items:center; }
+.dining-breakdown { font-size:12px; margin:22px 0; }
+.dining-breakdown>div { display:flex; justify-content:space-between; gap:15px; padding:5px 0; }
+.dining-breakdown dd { margin:0; font-weight:500; white-space:nowrap; }
+.dining-breakdown dt { color:#65705f; }
+.dining-breakdown .dining-subtotal { border-top:1px solid #e0e2d5; margin-top:10px; padding-top:13px; }
+.dining-total { border-block:1px solid #c7ceba; padding:20px 0; margin-bottom:15px; }
+.dining-total>span { font-size:11px; }
+.dining-total strong { display:block; font:600 clamp(28px,2.3vw,34px)/1.2 'Cormorant Garamond',Georgia,serif; white-space:nowrap; margin:5px 0; }
+.dining-cost-details { font-size:12px; margin:18px 0; }
+.dining-cost-details summary { cursor:pointer; padding:10px 0; }
+.dining-cost-details .dining-breakdown { margin:8px 0 15px; }
+.dining-total p { font-size:11px; color:#626e57; }
+.dining-ticket-note { font-size:10px; line-height:1.75; color:#646e5b; margin:10px 0; }
+.dining-send { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; padding:14px 12px; min-height:54px; color:#fff; background:#2f513b; border:1px solid #2f513b; border-radius:3px; font-size:12px; font-weight:500; line-height:1.6; text-align:center; margin-top:20px; }
+.dining-send svg { flex-shrink:0; }
+.dining-send:disabled { background:#e7e9de; border-color:#d6dacd; color:#687161; }
+.dining-send:hover:not(:disabled) { background:#22402d; }
+.dining-handoff-note { font-size:10px; line-height:1.75; color:#626b5c; margin-top:12px; }
+.dining-validation,.dining-manual { padding:15px; background:#f4eee0; border:1px solid #e2d8be; margin:18px 0; font-size:11px; line-height:1.75; }
+.dining-validation p,.dining-manual p { margin:5px 0; }
+.dining-validation ul,.dining-manual ul { padding-left:17px; margin:7px 0 0; list-style:disc; }
+.dining-validation li+li,.dining-manual li+li { margin-top:7px; }
+.dining-error { font-size:11px; color:#a13937; margin-top:8px; }
+.dining-other-service { font-size:13px; line-height:1.8; padding-top:20px; color:#65705a; }
+.dining-mobile-bar { display:none; }
+.private-dining-active [data-floating-chef-chat] { display:none; }
+@media (max-width:1100px) { .dining-shell { width:calc(100% - 48px); } .dining-layout { grid-template-columns:minmax(0,1fr) 315px; gap:25px; } .dining-packages { grid-template-columns:1fr; } .dining-package-tagline { min-height:0; } .dining-package-description { max-width:50ch; } .dining-intro { gap:30px; } .dining-ticket { padding:22px; } }
+@media (max-width:800px) {
+  .dining-builder { padding:48px 0 60px; } .dining-shell { width:calc(100% - 36px); }
+  .dining-intro { grid-template-columns:1fr; gap:24px; } .dining-intro img { aspect-ratio:1.9; } .dining-intro h2 { font-size:44px; }
+  .dining-layout { grid-template-columns:1fr; } .dining-packages { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .dining-ticket { position:static; padding:25px; max-height:none; overflow:visible; } .dining-step { margin-bottom:24px; } .dining-step:last-child { margin-bottom:0; }
+  .dining-mobile-bar { display:flex; position:fixed; bottom:0; inset-inline:0; z-index:45; justify-content:space-between; align-items:center; gap:14px; padding:12px 18px calc(12px + env(safe-area-inset-bottom)); border-top:1px solid #ccd2c0; background:#fffdf8; box-shadow:0 -4px 25px #253b2312; }
+  .dining-mobile-bar span,.dining-mobile-bar small { display:block; font-size:9px; color:#616e54; } .dining-mobile-bar strong { display:block; font-size:17px; margin:3px 0; }
+  .dining-mobile-bar button { display:flex; align-items:center; justify-content:center; gap:8px; background:#2e4c36; color:#fff; padding:13px 16px; font-size:11px; min-height:48px; border-radius:2px; }
+  .private-dining-active [data-sticky] { display:none; }
+}
+@media (max-width:540px) {
+  .dining-packages { grid-template-columns:1fr; gap:10px; } .dining-packages>button { display:grid; grid-template-columns:1fr auto; column-gap:14px; padding:17px; }
+  .dining-package-title { grid-column:1/-1; } .dining-package-tagline { grid-column:1; margin:8px 0; } .dining-package-price { grid-row:2; grid-column:2; align-self:center; font-size:16px; }
+  .dining-package-unit { grid-column:1/-1; margin:0 0 9px; } .dining-package-description,.dining-quote-label { grid-column:1/-1; }
+  .dining-event-grid,.dining-detail-grid { grid-template-columns:1fr; gap:16px; } .dining-stepper { max-width:190px; }
+  .dining-filters { grid-template-columns:1fr 1fr; } .dining-filters>div:nth-child(2) { grid-column:1/-1; }
+  .dining-dish-grid { gap:9px; } .dining-dish { padding:13px; } .dining-dish h4 { font-size:22px; } .dining-dish-labels { flex-wrap:wrap; gap:4px; font-size:9px; }
+  .dining-dish-price { font-size:12px; } .dining-dish button { font-size:10px; } .dining-dish-cuisine { font-size:9px; }
+  .dining-extras { grid-template-columns:1fr; } .dining-step legend { font-size:25px; }
+}
+@media (max-width:420px) {
+  .dining-dish-grid { grid-template-columns:1fr; }
+  .dining-dish { display:grid; grid-template-columns:minmax(0,1fr) auto; column-gap:12px; padding:17px; }
+  .dining-dish-labels,.dining-dish h4,.dining-dish-cuisine,.dining-dish-note { grid-column:1/-1; }
+  .dining-dish h4 { font-size:24px; }
+  .dining-dish-price { align-self:center; margin:0; }
+  .dining-dish button { margin-top:0; min-width:115px; }
+  .dining-dish-note { margin-bottom:10px; }
+}
+@media (prefers-reduced-motion:reduce) { .dining-builder *, .dining-builder *::before, .dining-builder *::after { scroll-behavior:auto!important; transition:none!important; animation:none!important; } }

@@ -346,8 +346,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | Single Visits & Member Plans | myCHEF",
-    "description": "Private chef Dubai visits from AED 1,125 single or AED 750 member. Fresh meals, fridge resets and full days in your kitchen. See plans and request a quote."
+    "title": "Private Chef Dubai | Dinner Packages & Home Visits | myCHEF",
+    "description": "Private chef Dubai: build a dinner package for 6–20 guests, choose your menu and get an instant estimate. Send your booking request directly on WhatsApp."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Prices | Single & Member Rates | myCHEF",

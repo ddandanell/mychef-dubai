@@ -85,6 +85,11 @@ export default function PrivateChefMegaMenu() {
               Personal matching, recruitment coordination and ongoing support for your household.
             </p>
             <div className="mt-auto border-t border-gold/25 pt-4">
+              <NavigationMenuLink asChild className="p-0 hover:bg-transparent focus:bg-transparent">
+                <Link to="/private-chef-dubai#dinner-calculator" className="pc-mega-item mb-4">
+                  <span><span className="pc-mega-title block">Private Dinner Packages</span><span className="pc-mega-desc block">6–20 guests · build your menu & estimate</span></span><ArrowRight size={16} aria-hidden />
+                </Link>
+              </NavigationMenuLink>
               <p className="font-inter text-body-sm text-white/50 mb-4">
                 From AED 15,000/month
               </p>

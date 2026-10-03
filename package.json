@@ -58,7 +58,9 @@
     "verify:editorial": "python3 scripts/verify-editorial-build.py",
     "test:pricing-engine": "node --import tsx scripts/test-pricing-engine.ts",
     "verify:short-term-pricing": "python3 scripts/verify-short-term-pricing.py",
-    "test:pricing-ui": "node scripts/test-pricing-ui.mjs"
+    "test:pricing-ui": "node scripts/test-pricing-ui.mjs",
+    "test:private-dining": "node --import tsx scripts/test-private-dining.ts",
+    "test:private-dining-ui": "node scripts/test-private-dining-ui.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
