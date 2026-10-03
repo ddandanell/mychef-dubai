@@ -124,8 +124,8 @@ export const formatLadder: FormatRow[] = [
   },
   {
     format: 'Office event buffet',
-    what: 'Delivered and set up; staff optional',
-    staff: 'Optional',
+    what: 'Setup, replenishing and clearance',
+    staff: '1–2 service staff',
     price: 'From AED 120 per person',
   },
   {
@@ -288,6 +288,6 @@ export const officeFaqs = [
   },
   {
     q: 'Can you cater dietary requirements across a whole team?',
-    a: 'Halal ingredients are sourced by default. Vegetarian, vegan, gluten-free, dairy-free, keto and nut-free options are planned into the menu, with allergens labelled on each dish. Share the requirements once and they stay on the rotation.',
+    a: 'Halal ingredients are sourced by default. Vegetarian, vegan, gluten-free, dairy-free and other dietary requirements are discussed during menu planning. For allergies, name the guest and allergen so preparation, labelling and cross-contact risks can be assessed. We cannot guarantee an allergen-free environment. Agree the requirements for your recurring menu and tell us whenever they change.',
   },
 ]
