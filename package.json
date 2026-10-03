@@ -55,7 +55,10 @@
     "test:catering-inquiry": "tsx scripts/test-catering-inquiry.ts",
     "seo:page-records": "python3 scripts/generate-page-records.py",
     "verify:page-records": "python3 scripts/generate-page-records.py --check",
-    "verify:editorial": "python3 scripts/verify-editorial-build.py"
+    "verify:editorial": "python3 scripts/verify-editorial-build.py",
+    "test:pricing-engine": "node --import tsx scripts/test-pricing-engine.ts",
+    "verify:short-term-pricing": "python3 scripts/verify-short-term-pricing.py",
+    "test:pricing-ui": "node scripts/test-pricing-ui.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

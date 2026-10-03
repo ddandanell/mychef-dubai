@@ -76,7 +76,7 @@ const menuFocus = [
 const faqs = [
   {
     q: 'When can postpartum meal prep start?',
-    a: 'Most households begin in the first or second week after birth. You can agree the plan during pregnancy and start when you are ready. The fourth trimester is a standing Food Prep plan, not a one-night dinner.',
+    a: 'You can agree the menu during pregnancy and start when you are ready. Book a single Fridge Reset or plan recurring visits around your first weeks at home.',
   },
   {
     q: 'Do you provide medical or clinical nutrition advice?',
@@ -88,7 +88,7 @@ const faqs = [
   },
   {
     q: 'How often does the chef visit?',
-    a: 'Usually once or twice a week. Each visit is Food Prep: four hours, AED 900. Groceries at receipts. VAT at 5% on the service.',
+    a: 'Usually once or twice a week. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.',
   },
   {
     q: 'What if I have allergies or food aversions?',
@@ -99,7 +99,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'The same Food Prep job when the brief is the whole household, not recovery weeks.',
+    description: 'The same Fridge Reset service when the brief is the whole household, not recovery weeks.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
@@ -181,8 +181,8 @@ export default function PostpartumMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Postpartum Meal Prep Dubai | Food Prep AED 900 | myCHEF"
-        description="Postpartum meal prep Dubai is four hours in your kitchen, AED 900 a visit. Recovery food, cooked here. Groceries at receipts. VAT 5%."
+        title="Postpartum Meal Prep Dubai | Meals Cooked at Home | myCHEF"
+        description="Postpartum meal prep in Dubai, cooked in your kitchen. Choose a single Fridge Reset or a member plan for your first weeks at home. Request a proposal."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName
@@ -210,7 +210,7 @@ export default function PostpartumMealPrep() {
             Postpartum Meal Prep Dubai: recovery food, cooked at home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppm-hero-sub">
-            Postpartum meal prep Dubai is the Food Prep job: four hours, AED 900, in your kitchen. Warm food for the weeks after birth. Groceries at receipts.
+            Postpartum meal prep Dubai, cooked in your kitchen for the weeks after birth. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT, groceries and transport.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ppm-hero-cta">Plan My Postpartum Meals</Link>
@@ -238,16 +238,16 @@ export default function PostpartumMealPrep() {
           </h2>
           <div className="ppm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weeks after birth are short on sleep and long on meals. Postpartum meal prep Dubai is a standing Food Prep visit, not a courier brand. A postpartum chef Dubai households book cooks in your kitchen, portions the food, and leaves the surfaces as found.
+              The weeks after birth are short on sleep and long on meals. Postpartum meal prep Dubai is a standing Fridge Reset visit, not a courier brand. A postpartum chef Dubai households book cooks in your kitchen, portions the food, and leaves the surfaces as found.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Postpartum meal delivery Dubai and confinement food delivery Dubai, on this page, are cooked here. Meals for new mums Dubai and easy meal prep for after baby are the same week of Food Prep. Meal prep food Dubai here is those portions. Fitness meal prep delivery only enters if you asked for training food alongside recovery.
+              Postpartum meal delivery Dubai and confinement food delivery Dubai, on this page, are cooked here. Meals for new mums Dubai and easy meal prep for after baby are the same week of Fridge Reset. Meal prep food Dubai here is those portions. Fitness meal prep delivery only enters if you asked for training food alongside recovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A four-hour cooking visit is AED 900 before 5% VAT, with groceries separate at actual cost. Choose weekly visits around your household’s needs. If you have dietary instructions from your doctor or nutritionist, share the relevant guidance so we can discuss whether the chef can follow it.
+              A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Choose weekly visits around your household’s needs. If you have dietary instructions from your doctor or nutritionist, share the relevant guidance so we can discuss whether the chef can follow it.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              When the fourth trimester is over, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> is the same job without the recovery brief. For general health, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>. One dinner is catering.
+              When the fourth trimester is over, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> is the same job without the recovery brief. For general health, see <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link>. A standing cook most days lives on <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef Dubai</Link>. For a celebration with table service, ask about private dining.
             </p>
           </div>
         </div>
@@ -300,7 +300,7 @@ export default function PostpartumMealPrep() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">The rate:</strong> A four-hour Food Prep visit is AED 900. Four weekly visits cost AED 3,600 over four weeks, before 5% VAT. Groceries are separate at actual cost. We agree comforting dishes, portions and storage that fit your family’s routine.
+              <strong className="text-white">The rate:</strong> A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Four member visits cost AED 3,600 over four weeks. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. We agree comforting dishes, portions and storage that fit your family’s routine.
             </p>
           </div>
         </div>
@@ -310,7 +310,7 @@ export default function PostpartumMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Questions before a recovery Food Prep booking
+            Questions before a recovery Fridge Reset booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -359,7 +359,7 @@ export default function PostpartumMealPrep() {
             Start the recovery week in the kitchen
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us who eats, any feeding notes, and which days the chef should come. AED 900 a visit. Groceries at receipts. VAT at 5%.
+            Tell us who eats, your food preferences and which days would help most. Start with one visit or choose a prepaid member plan. We confirm the menu, chef and complete price before booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Postpartum Meals</Link>

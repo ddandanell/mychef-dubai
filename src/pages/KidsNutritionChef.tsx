@@ -51,15 +51,15 @@ const inclusions = [
   {
     icon: CalendarDays,
     title: 'School boxes or family pots',
-    description: 'How to meal prep for school sits in the same four-hour visit as family dinners. Practical meal prep Dubai for children is still Food Prep, AED 900.',
+    description: 'Use a four-hour Fridge Reset for school lunches, family dinners or both. We agree the dishes and child-sized portions before the visit.',
   },
 ]
 
 const packages = [
   {
-    name: 'Once a week',
-    price: 'AED 900 a visit',
-    description: 'One Food Prep session. School boxes, family pots, or both, inside four hours.',
+    name: 'One visit',
+    price: 'AED 1,350 single',
+    description: 'One four-hour Fridge Reset. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.',
     features: [
       'Four hours in your kitchen',
       'Menu from the Food Profile',
@@ -70,8 +70,8 @@ const packages = [
   },
   {
     name: 'Once a week, monthly',
-    price: 'AED 3,600 a month',
-    description: 'Four Food Prep visits. The usual standing plan for a kids meal plan Dubai household.',
+    price: 'AED 3,600 / four weeks',
+    description: 'Four prepaid Fridge Reset visits at AED 900 member rate each. Before 5% VAT; groceries and zone transport are separate.',
     features: [
       'Four visits in four weeks',
       'Adult and child portions as briefed',
@@ -83,14 +83,14 @@ const packages = [
   },
   {
     name: 'Twice a week',
-    price: 'AED 7,200 a month',
-    description: 'Eight Food Prep visits. When school boxes and family dinners both need covering.',
+    price: 'AED 7,200 / four weeks',
+    description: 'Eight prepaid Fridge Reset visits at AED 900 member rate each. Before 5% VAT; groceries and zone transport are separate.',
     features: [
       'Two four-hour visits a week',
       'Groceries at actual receipts',
       'VAT at 5% on the service',
       'Up to eight people in the chef price',
-      'No invented per-lunch tariff',
+      'Meal packs also available by dish mix',
     ],
   },
 ]
@@ -118,14 +118,14 @@ const faqs = [
   },
   {
     q: 'Is this meal prep Dubai delivery from a factory?',
-    a: 'No. Dubai food prep service on this page is a chef in your kitchen. People search coles meal prep Dubai and chef meal prep company for a tray. This is four hours, AED 900, groceries at receipts.',
+    a: 'Your chef cooks in your kitchen. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Weekly Meal Prep Dubai',
-    description: 'The same Food Prep job when the brief is the whole household, not school boxes.',
+    description: 'The same Fridge Reset service when the brief is the whole household, not school boxes.',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
     link: '/weekly-meal-prep-dubai',
   },
@@ -142,7 +142,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Kids Meal Prep Dubai',
-      'Kids meal prep Dubai: a private chef cooks a week of children’s food in your kitchen. Food Prep, four hours, AED 900. Groceries at receipts. VAT 5%.',
+      'Kids meal prep Dubai: a private chef cooks a week of children’s food in your kitchen. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT, groceries and transport.',
       'Catering Service',
       'Dubai',
     ),
@@ -230,7 +230,7 @@ export default function KidsNutritionChef() {
             Kids Meal Prep Dubai: food children will actually eat
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 kn-hero-sub">
-            Kids meal prep Dubai, shaped around your child’s tastes and your family routine. A four-hour cooking visit is AED 900 before 5% VAT, with groceries charged separately at actual cost.
+            Kids meal prep Dubai, shaped around your child’s tastes and your family routine. A four-hour Fridge Reset is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Family’s Cooking</Link>
@@ -348,7 +348,7 @@ export default function KidsNutritionChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Questions before a children’s Food Prep booking
+            Questions before a children’s Fridge Reset booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -397,7 +397,7 @@ export default function KidsNutritionChef() {
             Tell us what they will eat
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Ages, allergies, refusals, and school times. Kids meal prep Dubai is AED 900 a visit. Groceries at receipts. VAT at 5%.
+            Tell us your children’s ages, allergies, favourite foods and school times. We will agree a menu, check chef availability and confirm the complete price before you book.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Family’s Cooking</Link>

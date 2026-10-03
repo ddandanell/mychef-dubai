@@ -22,13 +22,14 @@ export default function PlanSheet({ input, quote, feedback, whatsappHref }: Plan
     observer.observe(form)
     return () => observer.disconnect()
   }, [])
-  const headline = quote.shortStay ? `${fmt(quote.total ?? 0)} for the stay` : `${fmt(quote.perMonth)} / four weeks`
+  const headline = quote.shortStay ? `${fmt(quote.total ?? 0)} for the booking` : `${fmt(quote.perMonth)} / four weeks`
   return (
     <Drawer>
       {!formVisible && <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 border-t border-gold/40 bg-white/95 backdrop-blur px-4 py-3">
         <div className="flex items-center justify-between gap-4">
           <div className="min-w-0">
             <p className="font-playfair text-[18px] leading-none text-gold-ink tabular-nums whitespace-nowrap">{headline}</p>
+            <p className="mt-1 font-inter text-caption text-gray-500">Before 5% VAT, transport & groceries</p>
             <p className="mt-1 truncate font-inter text-caption text-gray-500">
               {feedback ? `${feedback.title}.` : `${quote.service.name} · ${quote.hoursPerService}h`}
             </p>

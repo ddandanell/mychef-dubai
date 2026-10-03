@@ -31,8 +31,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Dubai | Home Visits from AED 750 | myCHEF",
-    "description": "Private chef visits in Dubai from AED 750 or Managed Household from AED 15,000/month. Personal menus, chef matching and ongoing myCHEF support.",
+    "title": "Private Chef Dubai | Single Visits & Member Plans | myCHEF",
+    "description": "Private chef Dubai visits from AED 1,125 single or AED 750 member. Fresh meals, fridge resets and full days in your kitchen. See plans and request a quote.",
     "h1": [
       "Private Chef Dubai. Made personal."
     ]
@@ -93,7 +93,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2634,
+    "current_word_count": 2706,
     "headings": [
       {
         "level": "h2",
@@ -169,15 +169,15 @@
       },
       {
         "level": "h3",
-        "text": "One fresh meal each week"
+        "text": "One meal, cooked for you"
       },
       {
         "level": "h3",
-        "text": "Weekly food preparation"
+        "text": "A fridge reset every week"
       },
       {
         "level": "h3",
-        "text": "Full-day chef visits, five days a week"
+        "text": "Your chef for the whole day"
       },
       {
         "level": "h2",

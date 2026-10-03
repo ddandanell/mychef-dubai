@@ -84,7 +84,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1010,
-    "current_word_count": 1657,
+    "current_word_count": 1689,
     "headings": [
       {
         "level": "h2",
@@ -104,11 +104,11 @@
       },
       {
         "level": "h3",
-        "text": "Weekly meal prep — one session"
+        "text": "Fridge Reset — single visit"
       },
       {
         "level": "h3",
-        "text": "Weekly meal prep — two sessions"
+        "text": "Fridge Reset — member plan"
       },
       {
         "level": "h3",

@@ -79,7 +79,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 757,
+    "current_word_count": 806,
     "headings": [
       {
         "level": "h2",
@@ -111,7 +111,7 @@
       },
       {
         "level": "h3",
-        "text": "Once a week"
+        "text": "One visit"
       },
       {
         "level": "h3",
@@ -123,7 +123,7 @@
       },
       {
         "level": "h2",
-        "text": "Questions before a children’s Food Prep booking"
+        "text": "Questions before a children’s Fridge Reset booking"
       },
       {
         "level": "h3",

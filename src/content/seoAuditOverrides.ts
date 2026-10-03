@@ -20,7 +20,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/private-chef-dubai/short-term-chef": {
     "title": "Short Term Private Chef Dubai | Visits & Stays | myCHEF",
-    "description": "Short-term private chef in Dubai from AED 1,125 a visit, minimum three chef days. Menus planned around your home. Groceries and VAT separate."
+    "description": "Short term private chef in Dubai from AED 1,125 a visit — single visits welcome, no minimum days. Vetted chefs for holidays and busy weeks. Get a proposal."
   },
   "/private-chef-dubai/live-out-chef": {
     "title": "Live Out Private Chef Dubai | Managed Household | myCHEF",
@@ -165,8 +165,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "A managed private chef service for your Dubai home. Learn how we agree your brief, match a chef, plan menus and coordinate ongoing support."
   },
   "/weekly-meal-prep-dubai": {
-    "description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately.",
-    "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF"
+    "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
+    "description": "Meal prep in Dubai from AED 45 a meal on a member plan. A chef cooks your week in your kitchen — 15, 30 or 45 meals, labelled and stored. See plans."
   },
   "/how-it-works": {
     "description": "Book a private chef in Dubai for one evening: share the occasion, choose the menu, confirm the chef and enjoy the night at home."
@@ -272,7 +272,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/blog/how-much-does-private-chef-cost-dubai": {
     "title": "How Much Does a Private Chef Cost in Dubai? | myCHEF",
-    "description": "How much a private chef costs in Dubai: household visits from AED 750. A dinner for guests is catering, quoted per person. Itemised quotes, VAT 5%."
+    "description": "How much does a private chef cost in Dubai? Visits from AED 1,125 single or AED 750 member. Compare full days, meal packs and extra costs before booking."
   },
   "/arabic-catering-dubai": {
     "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
@@ -346,12 +346,12 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | Home Visits from AED 750 | myCHEF",
-    "description": "Private chef visits in Dubai from AED 750 or Managed Household from AED 15,000/month. Personal menus, chef matching and ongoing myCHEF support."
+    "title": "Private Chef Dubai | Single Visits & Member Plans | myCHEF",
+    "description": "Private chef Dubai visits from AED 1,125 single or AED 750 member. Fresh meals, fridge resets and full days in your kitchen. See plans and request a quote."
   },
   "/private-chef-dubai/pricing": {
-    "title": "Private Chef Dubai Price | Visits & Monthly Plans | myCHEF",
-    "description": "Compare private chef Dubai prices: visits from AED 750 and Managed Household from AED 15,000/month. See activation, monthly fees and separate costs."
+    "title": "Private Chef Dubai Prices | Visits from AED 750 | myCHEF",
+    "description": "Private chef Dubai prices from AED 750 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online."
   },
   "/our-chefs": {
     "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
@@ -367,7 +367,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   },
   "/part-time-private-chef-dubai": {
     "title": "Part Time Private Chef Dubai | Flexible Home Visits | myCHEF",
-    "description": "Part time private chef in Dubai for selected cooking days. Plan fresh meals or preparation for later, with visit fees, groceries and availability confirmed."
+    "description": "Part time private chef in Dubai from AED 750 member rate with 4+ prepaid visits per month. Single visits also welcome. Compare cooking options and prices."
   },
   "/catering-dubai": {
     "description": "Catering in Dubai for homes, offices and events. Compare delivery, canapés, buffets and staffed service. Food delivery from AED 90pp for 10 guests, before VAT.",
@@ -424,5 +424,13 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   "/indian-catering-dubai": {
     "title": "Indian Catering Dubai | Regional Menus | myCHEF",
     "description": "Indian catering in Dubai with biryani, tandoor dishes, regional curries and chaat. Plan vegetarian or mixed menus for home celebrations and company events."
+  },
+  "/fitness-meal-prep-dubai": {
+    "title": "Fitness Meal Prep Dubai | Fridge Reset at Home | myCHEF",
+    "description": "Fitness meal prep in Dubai with menus built around your agreed portions and food targets. Compare single Fridge Reset visits and member plans. Get a quote."
+  },
+  "/postpartum-meal-prep-dubai": {
+    "title": "Postpartum Meal Prep Dubai | Meals Cooked at Home | myCHEF",
+    "description": "Postpartum meal prep in Dubai, cooked in your kitchen. Choose a single Fridge Reset or a member plan for your first weeks at home. Request a proposal."
   }
 }

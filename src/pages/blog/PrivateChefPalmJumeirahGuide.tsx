@@ -118,7 +118,7 @@ export default function PrivateChefPalmJumeirahGuide() {
       <PageHero
         eyebrow="Private Chef"
         title="Private Dining Palm Jumeirah Dubai"
-        subtitle={"Plan a chef service for your Palm Jumeirah villa, apartment or chartered yacht. Understand access and kitchen requirements, with household visits from AED 750 and one-off dining quoted separately."}
+        subtitle={"Plan a chef service for your Palm Jumeirah villa, apartment or chartered yacht. Understand access and kitchen requirements, with single household visits from AED 1,125 before 5% VAT, groceries and zone transport."}
         image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
@@ -164,7 +164,7 @@ export default function PrivateChefPalmJumeirahGuide() {
               Privacy is the most common reason. A villa on the fronds or an apartment with a marina view gives you a setting that no restaurant can replicate. Add a chef, and the evening becomes entirely yours: no reservations, no fixed closing times, and no shared dining room.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              The chef travels to the villa or apartment. What to check is the named chef, the itemised quote, who buys the ingredients, and how access and parking work on the Palm. Household visits start at AED 750. A dinner for guests is catering.
+              The chef travels to the villa or apartment. What to check is the named chef, the itemised quote, who buys the ingredients, and how access and parking work on the Palm. A three-hour visit is AED 1,125 single or AED 750 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and Palm zone transport of AED 95 per visit are separate. A staffed celebration has its own event quote.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Families with children, couples celebrating quietly, and groups of friends who want to linger over conversation all benefit from the flexibility. You control the music, dress code, guest list, and menu. The chef simply handles the food.

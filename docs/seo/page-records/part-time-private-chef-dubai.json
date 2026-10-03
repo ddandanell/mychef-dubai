@@ -29,7 +29,7 @@
   },
   "metadata": {
     "title": "Part Time Private Chef Dubai | Flexible Home Visits | myCHEF",
-    "description": "Part time private chef in Dubai for selected cooking days. Plan fresh meals or preparation for later, with visit fees, groceries and availability confirmed.",
+    "description": "Part time private chef in Dubai from AED 750 member rate with 4+ prepaid visits per month. Single visits also welcome. Compare cooking options and prices.",
     "h1": [
       "Part Time Private Chef Dubai. Good food on your days."
     ]
@@ -51,6 +51,7 @@
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefMealPacks.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -90,7 +91,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 826,
-    "current_word_count": 2175,
+    "current_word_count": 2236,
     "headings": [
       {
         "level": "h2",
@@ -142,15 +143,15 @@
       },
       {
         "level": "h3",
-        "text": "One fresh meal each week"
+        "text": "One meal, cooked for you"
       },
       {
         "level": "h3",
-        "text": "Weekly food preparation"
+        "text": "A fridge reset every week"
       },
       {
         "level": "h3",
-        "text": "Full-day chef visits, five days a week"
+        "text": "Your chef for the whole day"
       },
       {
         "level": "h2",

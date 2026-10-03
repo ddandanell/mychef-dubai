@@ -64,7 +64,7 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
         <a href={waHref()} target="_blank" rel="noopener noreferrer" className="hero-btn--quiet hero-btn--quiet-secondary justify-center !text-black !border-gold/60"><MessageCircle size={15} className="mr-2" />Send via WhatsApp instead</a>
       </div>
       {status === 'error' ? <p className="sm:col-span-2 font-inter text-body-sm text-red-600">We could not send that just now. Use the WhatsApp button — the plan is already written into the message.</p> : null}
-      <p className="sm:col-span-2 font-inter text-caption text-gray-400">Your duration, days, service, chef level, guests, assistants, groceries and estimate are attached automatically.</p>
+      <p className="sm:col-span-2 font-inter text-caption text-gray-400">Your duration, days, service, guests, assistants, groceries and estimate are attached automatically.</p>
     </form>
   )
 }

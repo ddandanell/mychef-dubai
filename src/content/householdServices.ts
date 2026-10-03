@@ -32,7 +32,7 @@ export const householdServices = {
       ],
       [
         "How many hours are in a full day?",
-        "The current Full-Day Private Chef service is nine hours. The calculator shows the rate, schedule reductions and any additional staffing."
+        "Chef by the Day is ten hours. It is AED 2,000 single or AED 1,450 at the member rate, before 5% VAT, groceries and zone transport. Member plans require four or more prepaid visits per month."
       ],
       [
         "Can menus change each week?",
@@ -44,7 +44,7 @@ export const householdServices = {
     "path": "/part-time-private-chef-dubai",
     "primary": "Part Time Private Chef Dubai",
     "h1": "Part Time Private Chef Dubai. Good food on your days.",
-    "intro": "A part time private chef in Dubai for the cooking days your household needs most. Book regular visits for freshly cooked meals, preparation for later or a combination that fits the agreed hours. Your proposal sets out the schedule, chef fees and grocery arrangements.",
+    "intro": "A part time private chef in Dubai on the days you need. Single visits start at AED 1,125; member visits start at AED 750 with 4+ prepaid visits per month. Before 5% VAT, groceries and transport. Choose a fresh meal, a fridge reset or a full cooking day.",
     "image": "family-table",
     "heading": "A part time private chef in Dubai, with a schedule that fits.",
     "body": "Choose the days that make the biggest difference: a busy weekday, a family lunch, or a few evenings each week. We discuss what can be cooked within the chosen service, agree the menu and confirm the arrangement before your first visit.",
@@ -69,7 +69,7 @@ export const householdServices = {
     "faq": [
       [
         "Can I book just one day a week?",
-        "Yes. The plan calculator includes one to seven days per week. Minimum arrangements and the final schedule are confirmed in your written proposal."
+        "Yes. A monthly member plan starts with four prepaid visits, typically once a week. The three-hour Private Chef Visit is AED 750 per member visit. You can also book one visit at AED 1,125. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit."
       ],
       [
         "Is this the same as meal delivery?",
@@ -85,7 +85,7 @@ export const householdServices = {
     "path": "/weekly-meal-prep-dubai",
     "primary": "Meal Prep Dubai",
     "h1": "Meal Prep Dubai. A well-prepared week.",
-    "intro": "Meal prep in Dubai, cooked by a chef in your own kitchen. Plan weekly lunches, family dinners and food for busy days, with portions, containers, storage and reheating agreed before the visit. A standard four-hour Food Prep session starts from AED 900 before VAT, with groceries separate.",
+    "intro": "Meal prep in Dubai, cooked in your own kitchen. Choose a Fridge Reset for about 20–25 portions, or a pack of 15, 30 or 45 meals priced by the dish. Everyday meals start at AED 60 single or AED 45 on a member plan, before 5% VAT, groceries and transport.",
     "image": "meal-prep",
     "heading": "Meal prep in Dubai, made in your own kitchen.",
     "body": "Tell us how many people you are feeding, the meals you want covered and your storage space. We agree a realistic menu for the session, prepare the food, and discuss labelling, storage and reheating for each dish.",
@@ -96,7 +96,7 @@ export const householdServices = {
       ],
       [
         "Prepared and portioned",
-        "Agree household or individual portions and suitable containers before the visit. Containers are included only where expressly stated."
+        "Agree household or individual portions and suitable containers before the visit. Use your own containers, or have suitable containers supplied at actual cost."
       ],
       [
         "Storage that makes sense",
@@ -110,11 +110,11 @@ export const householdServices = {
     "faq": [
       [
         "How long is a food preparation session?",
-        "The standard Food Prep service is four hours at a base long-term fee of AED 900 before VAT. Grocery management, groceries and additional staffing may be separate."
+        "A Fridge Reset is four hours at AED 1,350 single or AED 900 member. With shopping included, it is five hours at AED 1,575 single or AED 1,050 member. Member rates require four or more prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate."
       ],
       [
         "How many meals will I get?",
-        "This depends on the menu, portions, preparation complexity and kitchen equipment. Agree the intended output in your brief instead of assuming a fixed number of meals."
+        "A Fridge Reset aims for about 20–25 portions in labelled containers. The menu, portion sizes and kitchen affect the output; more involved dishes take longer. For meal-pack planning, rough cooking estimates are seven Everyday meals, five Signature meals or three Chef’s Special meals per chef-hour. These are working estimates, not guaranteed output. Choose a 15, 30 or 45-meal pack and we confirm the dish mix, timing and number of visits."
       ],
       [
         "Do you deliver meal boxes?",

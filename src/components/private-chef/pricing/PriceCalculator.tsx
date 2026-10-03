@@ -17,6 +17,8 @@ import {
   LONG_TERM_MIN_SERVICES,
   SERVICES,
   SHORT_STAY,
+  TRANSPORT_ZONES,
+  PRICE_NOTE,
   assistantsFor,
   computeQuote,
   fmt,
@@ -66,7 +68,7 @@ function Row({ label, hint, children }: { label: string; hint?: string; children
 
 export default function PriceCalculator() {
   const [params] = useSearchParams()
-  const [state, setState] = useState<CalcState>(() => ({ input: { ...DEFAULT_INPUT, ...(params.get('duration') === 'short' ? { duration: 'short' as const, serviceId: 'fresh-meal' as const } : {}) }, last: null }))
+  const [state, setState] = useState<CalcState>(() => ({ input: { ...DEFAULT_INPUT, ...(params.get('duration') === 'long' ? { duration: 'long' as const } : {}), ...(SERVICES.some(service => service.id === params.get('service')) ? { serviceId: params.get('service') as ServiceId } : {}) }, last: null }))
   const set = <K extends keyof QuoteInput>(key: K, value: QuoteInput[K]) =>
     setState((prev) => (prev.input[key] === value ? prev : { input: { ...prev.input, [key]: value }, last: { key, from: prev.input[key], to: value } }))
 
@@ -84,18 +86,18 @@ export default function PriceCalculator() {
     <div id="calculator" className="scroll-mt-24">
       <div className="max-w-[720px] mb-10">
         <h2 className="font-playfair text-fluid-h2 text-black">Build your cooking-visit plan</h2>
-        <p className="mt-3 font-inter text-body-lg text-gray-500">Estimate daily, recurring-visit or short-stay service. Dedicated full-time Managed Household has a separate monthly proposal.</p>
+        <p className="mt-3 font-inter text-body-lg text-gray-500">Start with one visit or choose a monthly member plan. See the chef fee, any assistants, transport and VAT before you enquire.</p>
       </div>
 
-      <p className="mb-8 font-inter text-body-sm text-gray-600">Looking for a dedicated full-time role from AED 15,000/month? <Link to="/full-time-private-chef-dubai#household-offer" className="text-gold-ink underline underline-offset-4">Explore Managed Household</Link>. The monthly starting fee does not change the visit rates below.</p>
+      <p className="mb-8 font-inter text-body-sm text-gray-600">Looking for a dedicated full-time role? <Link to="/full-time-private-chef-dubai#household-offer" className="text-gold-ink underline underline-offset-4">Explore Managed Household</Link>. The estimate below is for Signature chef visits.</p>
       <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-16 items-start">
         <div className="space-y-9">
           {/* Duration — one toggle, not two boxes */}
           <div>
-            <div role="group" aria-label="How long do you need a chef?" className="grid grid-cols-2 border border-gray-200">
+            <div role="group" aria-label="Choose single or member rates" className="grid grid-cols-2 border border-gray-200">
               {[
-                { id: 'short', label: `${SHORT_STAY.minDays} to ${SHORT_STAY.maxDays} days`, sub: 'Short stay' },
-                { id: 'long', label: '30+ days', sub: 'Recurring visits' },
+                { id: 'short', label: 'Single visits', sub: 'Start with one' },
+                { id: 'long', label: 'Member plan', sub: '4+ prepaid visits / month' },
               ].map((d) => {
                 const on = input.duration === d.id
                 return (
@@ -114,19 +116,19 @@ export default function PriceCalculator() {
             </div>
             <p className="mt-3 font-inter text-body-sm text-gray-500">
               {short
-                ? 'For holidays, business stays and temporary residences. Temporary assignments cost more because trained staff are reserved for a shorter period with less scheduling stability.'
-                : 'For recurring household service, from once a week to daily. Longer arrangements give us scheduling stability, which allows better pricing and a chef built around your household.'}{' '}
-              Need a chef for one dinner or event?{' '}
-              <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4">View Catering prices</Link>.
+                ? 'Book one visit or several at the single rate. There is no minimum number of days.'
+                : 'Member rates apply when you prepay a monthly plan of four or more visits. The per-visit rate stays the same as you add more days.'}{' '}
+              Planning a staffed celebration?{' '}
+              <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4">Explore event catering</Link>.
             </p>
           </div>
 
           {short ? (
-            <Row label="How long" hint="One chef visit per day.">
-              <Stepper value={input.stayDays} min={SHORT_STAY.minDays} max={SHORT_STAY.maxDays} onChange={(v) => set('stayDays', v)} label="chef days" unit="chef days" />
+            <Row label="How many visits" hint="One visit is welcome. Tell us the dates when you enquire.">
+              <Stepper value={input.stayDays} min={SHORT_STAY.minDays} max={SHORT_STAY.maxDays} onChange={(v) => set('stayDays', v)} label="visits" unit="visits" />
             </Row>
           ) : (
-            <Row label="How often" hint={`From ${LONG_TERM_MIN_SERVICES} visits over four weeks. Pick the days your home actually needs.`}>
+            <Row label="How often" hint={`Member plans: ${LONG_TERM_MIN_SERVICES}+ prepaid visits per month. This estimate covers four weeks; extra calendar dates are quoted separately.`}>
               <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
                 {FREQUENCIES.map((f) => {
                   const on = input.daysPerWeek === f.days
@@ -142,7 +144,7 @@ export default function PriceCalculator() {
             </Row>
           )}
 
-          <Row label="What the chef does">
+          <Row label="What the chef does" hint={PRICE_NOTE}>
             <div className="grid gap-3 sm:grid-cols-2">
               {SERVICES.map((s) => {
                 const on = input.serviceId === s.id
@@ -162,11 +164,11 @@ export default function PriceCalculator() {
                     </span>
                     <span className="mt-4 flex items-baseline justify-between gap-3">
                       <span className="font-playfair text-h3 leading-none text-gold-ink tabular-nums whitespace-nowrap">
-                        {fmt(s.rate)}
+                        {fmt(short ? s.singleRate : s.rate)}
                         <span className="ml-1 font-inter text-caption text-gray-400">/ {s.unit === 'day' ? 'day' : 'visit'}</span>
                       </span>
                       <span className="font-inter text-caption text-gray-400 whitespace-nowrap">
-                        {s.hours}h · one price
+                        {short ? 'Single rate' : 'Member rate'}
                       </span>
                     </span>
                     {on ? (
@@ -201,8 +203,8 @@ export default function PriceCalculator() {
                   <span className="block font-inter text-caption text-gray-500">The chef sends a shopping list · {service.hours} hours</span>
                 </button>
                 <button type="button" aria-pressed={input.groceryMode === 'mychef'} onClick={() => set('groceryMode', 'mychef')} className={cn(pill, input.groceryMode === 'mychef' ? pillOn : pillOff, 'text-left')}>
-                  <span className="block font-medium">{service.id === 'food-prep' ? 'Upgrade to Kitchen on Autopilot' : 'myCHEF manages the groceries'}</span>
-                  <span className="block font-inter text-caption text-gray-500">+{GROCERY_MANAGEMENT_ADD_ON.hours} hour of kitchen management · groceries at cost</span>
+                  <span className="block font-medium">{service.id === 'food-prep' ? 'Fridge Reset, chef shops' : 'myCHEF manages the groceries'}</span>
+                  <span className="block font-inter text-caption text-gray-500">+{GROCERY_MANAGEMENT_ADD_ON.hours} hour · {fmt(short ? GROCERY_MANAGEMENT_ADD_ON.singleRate : GROCERY_MANAGEMENT_ADD_ON.rate)} · ingredients separate at cost</span>
                 </button>
               </div>
             ) : (
@@ -213,7 +215,7 @@ export default function PriceCalculator() {
             )}
           </Row>
 
-          <Row label="Your chef match" hint="A suitable chef is recommended around your cuisine, schedule and household brief."><p className="font-inter text-body-sm text-gray-600">Your service estimate is based on the selected cooking time and support. <Link to={CLUSTER_PATHS.howItWorks} className="text-gold-ink underline underline-offset-4">How we match your chef</Link></p></Row>
+          <Row label="Your Signature chef" hint="A suitable chef is recommended around your cuisine, schedule and household brief."><p className="font-inter text-body-sm text-gray-600">Reserve and Private Office are quoted on request, separately from this estimate. <Link to={CLUSTER_PATHS.howItWorks} className="text-gold-ink underline underline-offset-4">How we match your chef</Link></p></Row>
 
           <Row label="People" hint="Up to eight are included. From nine, an assistant joins automatically.">
             <div className="flex flex-wrap items-center gap-6">
@@ -229,28 +231,34 @@ export default function PriceCalculator() {
             </div>
           </Row>
 
-          {!short ? (
-            <Row label="Start" hint="Picking a length is not a commitment — it tells us your intention so we can plan.">
-              <div className="flex flex-wrap items-center gap-2">
-                <Popover>
-                  <PopoverTrigger asChild>
-                    <button type="button" className={cn(pill, pillOff, 'inline-flex items-center gap-2')}>
-                      <CalendarDays size={15} className="text-gold-ink" />
-                      {startDate ? format(startDate, 'd MMM yyyy') : 'Preferred start date'}
-                    </button>
-                  </PopoverTrigger>
-                  <PopoverContent className="w-auto p-0" align="start">
-                    <Calendar mode="single" selected={startDate} onSelect={(d) => set('startDate', d ? format(d, 'yyyy-MM-dd') : null)} disabled={{ before: new Date() }} />
-                  </PopoverContent>
-                </Popover>
-                {LONG_TERM_LENGTHS.map((l) => (
-                  <button key={l.id} type="button" aria-pressed={input.lengthId === l.id} onClick={() => set('lengthId', l.id)} className={cn(pill, input.lengthId === l.id ? pillOn : pillOff)}>
-                    {l.label}
+          <Row label="Transport" hint="Choose your area to include zone transport and 5% VAT in the estimate. Ingredients remain separate.">
+            <label className="sr-only" htmlFor="chef-transport-zone">Transport zone</label>
+            <select id="chef-transport-zone" className="w-full border border-gray-200 bg-white p-3 font-inter text-body-sm" value={input.transportZoneId ?? ''} onChange={event => set('transportZoneId', event.target.value as QuoteInput['transportZoneId'])}>
+              <option value="">Confirm my zone later · AED 40–130 / visit</option>
+              {TRANSPORT_ZONES.map(zone => <option key={zone.id} value={zone.id}>{zone.label} · {fmt(zone.rate)} / visit</option>)}
+            </select>
+            <p className="mt-2 font-inter text-caption text-gray-500">{TRANSPORT_ZONES.find(zone => zone.id === input.transportZoneId)?.areas ?? 'Your exact address determines the zone. Grocery delivery, if needed, is charged at actual cost.'}</p>
+          </Row>
+          <Row label="Start" hint="Share your preferred date. Availability is confirmed before you book.">
+            <div className="flex flex-wrap items-center gap-2">
+              <Popover>
+                <PopoverTrigger asChild>
+                  <button type="button" className={cn(pill, pillOff, 'inline-flex items-center gap-2')}>
+                    <CalendarDays size={15} className="text-gold-ink" />
+                    {startDate ? format(startDate, 'd MMM yyyy') : 'Preferred start date'}
                   </button>
-                ))}
-              </div>
-            </Row>
-          ) : null}
+                </PopoverTrigger>
+                <PopoverContent className="w-auto p-0" align="start">
+                  <Calendar mode="single" selected={startDate} onSelect={(d) => set('startDate', d ? format(d, 'yyyy-MM-dd') : null)} disabled={{ before: new Date() }} />
+                </PopoverContent>
+              </Popover>
+              {!short && LONG_TERM_LENGTHS.map((l) => (
+                <button key={l.id} type="button" aria-pressed={input.lengthId === l.id} onClick={() => set('lengthId', l.id)} className={cn(pill, input.lengthId === l.id ? pillOn : pillOff)}>
+                  {l.label}
+                </button>
+              ))}
+            </div>
+          </Row>
         </div>
 
         <div className="lg:sticky lg:top-24">
@@ -264,8 +272,8 @@ export default function PriceCalculator() {
           <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-3">Your plan is ready</p>
           <h3 className="font-playfair text-fluid-h2 text-black mb-4">Send this plan to myCHEF.</h3>
           <p className="font-inter text-body text-gray-600 leading-relaxed">
-            {quote.service.name} · {quote.shortStay ? `${input.stayDays} chef days` : `${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''} a week`} ·{' '}
-            <span className="text-gold-ink font-medium">{quote.shortStay ? `${fmt(quote.total ?? 0)} for the stay` : `${fmt(quote.perMonth)} over four weeks`}</span>
+            {quote.service.name} · {quote.shortStay ? `${input.stayDays} visit${input.stayDays === 1 ? '' : 's'}` : `${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''} a week`} ·{' '}
+            <span className="text-gold-ink font-medium">{quote.shortStay ? `${fmt(quote.total ?? 0)} for the booking` : `${fmt(quote.perMonth)} over four weeks`}</span> before 5% VAT, transport and groceries.
           </p>
           <p className="mt-3 font-inter text-body-sm text-gray-500">A coordinator checks chef availability for your days and area, and comes back with the exact figure in writing — before anything starts.</p>
         </div>

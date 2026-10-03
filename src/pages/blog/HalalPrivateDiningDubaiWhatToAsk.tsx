@@ -143,7 +143,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
               { label: 'Halal oversight', value: 'MoIAT regulates halal certification under UAE Cabinet Decree 10/2014' },
               { label: 'Staffed buffet', value: 'From AED 120 per person' },
               { label: 'Chef-led plated', value: 'AED 700–950 per person' },
-              { label: 'Household visit', value: 'From AED 750 for a three-hour Fresh Meal' },
+              { label: 'Household visit', value: '3h: AED 1,125 single / 750 member with 4+ prepaid visits/month; before 5% VAT, groceries and transport' },
               { label: 'Key framework', value: 'Dubai Municipality Food Code 2.0' },
             ]}
           />

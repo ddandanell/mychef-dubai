@@ -29,7 +29,7 @@
   },
   "metadata": {
     "title": "Meal Prep Dubai | Weekly Cooking in Your Home | myCHEF",
-    "description": "Meal prep in Dubai with a chef cooking in your kitchen. Four-hour preparation visits from AED 900 before VAT; groceries, portions and storage agreed separately.",
+    "description": "Meal prep in Dubai from AED 45 a meal on a member plan. A chef cooks your week in your kitchen — 15, 30 or 45 meals, labelled and stored. See plans.",
     "h1": [
       "Meal Prep Dubai. A well-prepared week."
     ]
@@ -51,6 +51,7 @@
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefMealPacks.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -90,7 +91,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1316,
-    "current_word_count": 2272,
+    "current_word_count": 2613,
     "headings": [
       {
         "level": "h2",
@@ -138,19 +139,23 @@
       },
       {
         "level": "h2",
-        "text": "Choose the service that fits."
+        "text": "Meal plan Dubai: weekly menus priced per dish"
       },
       {
         "level": "h3",
-        "text": "One fresh meal each week"
+        "text": "Everyday"
       },
       {
         "level": "h3",
-        "text": "Weekly food preparation"
+        "text": "Signature"
       },
       {
         "level": "h3",
-        "text": "Full-day chef visits, five days a week"
+        "text": "Chef’s Special"
+      },
+      {
+        "level": "h3",
+        "text": "Build a meal-pack estimate"
       },
       {
         "level": "h2",

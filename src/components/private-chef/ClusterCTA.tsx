@@ -7,7 +7,7 @@ import { SectionLabel, iconForSectionLabel } from '@/components/system'
 export default function ClusterCTA({
   eyebrow = 'If this is what you want at home',
   title = 'Start the household plan',
-  body = 'Long-term plans from AED 3,000 over four weeks for a weekly Fresh Meal — up to a full-day chef, seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives in writing before anything starts.',
+  body = 'Start with one chef visit from AED 1,125, or a member plan from AED 750 per visit with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Build your plan and receive the complete quote in writing.',
   inquiryLabel,
 }: {
   eyebrow?: string
