@@ -8,7 +8,7 @@ const loaders = import.meta.glob<DetailPage>('../../content/private-chef-expansi
 const pageComponents: Record<string, PreloadableComponent> = {}
 for (const [file, load] of Object.entries(loaders)) {
   // About now owns a complete, bespoke story and exclusive photographs.
-  if (file.endsWith('/routes.json') || file.endsWith('/about.json')) continue
+  if (file.endsWith('/routes.json') || file.endsWith('/about.json') || file.endsWith('/private-chef-dubai.json')) continue
   const path = '/' + file.split('/').pop()!.replace(/\.json$/, '').replaceAll('__', '/')
   pageComponents[path] = lazyPreloadable(async () => {
     const [page, { default: ExpansionArticle }] = await Promise.all([
