@@ -253,7 +253,7 @@ export default function HeroSection() {
           <Link to={DINNER_CALCULATOR_PATH} className="btn-primary text-center">
             Get my dinner price
           </Link>
-          <Link to="/private-chef-dubai" className="btn-secondary text-center">
+          <Link to="/full-time-private-chef-dubai" className="btn-secondary text-center">
             Plan a household chef
           </Link>
           <Link to="/catering-dubai" className="btn-secondary text-center">

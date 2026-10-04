@@ -56,8 +56,8 @@ export default function Home() {
         <div className="container-custom max-w-[900px] text-center">
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Book a{' '}
-            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link>
-            {' for cooking visits or a long-term household arrangement. Explore '}
+            <Link to="/full-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">household chef in Dubai</Link>
+            {' for a long-term household arrangement. Explore '}
             <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">our chefs and cooking styles</Link>
             {' to see who could cook for you, or choose '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>

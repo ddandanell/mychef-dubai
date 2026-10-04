@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { assistantCount, bookingErrors, calculateDining, compatible, createDiningInput, diningBrief, diningSharePath, dubaiToday, earliestDiningDate, emptyDetails, generateMenu, menuSlots, readDiningPrefill, toggleDrink, validDiningDate, type DiningInput, type DiningStyle } from '../src/lib/privateDining'
+import { assistantCount, bookingErrors, calculateDining, compatible, createDiningInput, diningBrief, diningSharePath, dubaiToday, earliestDiningDate, emptyDetails, generateMenu, menuSlots, readDiningPrefill, toggleDrink, validDiningDate, type DiningStyle } from '../src/lib/privateDining'
 import { DINING_CONFIG as config } from '../src/content/privateDiningConfig'
 const base=createDiningInput()
 const details={...emptyDetails,name:'Test guest',whatsapp:'+971501234567',email:'guest@example.com',date:earliestDiningDate(),kitchen:'yes' as const}
@@ -36,10 +36,19 @@ for(const cuisine of config.cuisines)for(const style of config.styles)for(const 
  assert.equal(q.groups.reduce((n,g)=>n+g.count,0),6)
  assert.equal(q.food,6*config.foodPrices[i.style][cuisine.id as keyof typeof config.foodPrices.family])
  for(const g of q.groups)for(const d of g.dishes)assert.ok(d&&compatible(d,g.diet))
+ if(i.style==='fine'){
+  const standard=q.groups.find(g=>g.diet==='standard')!
+  assert.notEqual(standard.dishes[0]?.diet,'standard','Fine dining opens with a lighter plant-based course.')
+  assert.notEqual(standard.dishes[2]?.diet,'standard','The middle course balances the main course.')
+ }
  const allVegan=calculateDining({...i,dietary:{vegetarian:0,vegan:6}});assert.equal(allVegan.total,q.total)
  const allStandard=calculateDining({...i,dietary:{vegetarian:0,vegan:0}});assert.equal(allStandard.total,q.total)
  menus++
 }
+const japaneseFine=calculateDining(generateMenu({...base,style:'fine',cuisine:'japanese',fineEquipment:'yes'}))
+assert.ok(japaneseFine.groups[0].dishes.filter(d=>/chicken/i.test(d?.name??'')).length<=1,'Suggested Japanese fine dining must not repeat chicken across courses.')
+const familyMains=calculateDining(base).groups[0].dishes.filter(d=>d?.course==='Main')
+assert.ok(familyMains.filter(d=>/chicken/i.test(d?.name??'')).length<=1,'Shared mains should offer protein variety.')
 for(let extra=0;extra<=4;extra++){
  const i=generateMenu({...base,extraDishes:extra,dietary:{vegetarian:1,vegan:1}}),q=calculateDining(i)
  assert.equal(q.errors.length,0);assert.equal(menuSlots('family',extra).length,4+extra);assert.equal(q.food,1200+extra*50*6)

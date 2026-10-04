@@ -37,12 +37,18 @@ const moodPatterns:Record<string,RegExp>={
  fresh:/salad|lemon|sorbet|vegetable|fruit|tabbouleh|gazpacho|sunomono|cauliflower|grilled/i,
  comfort:/butter|roast|bourguignon|lasagne|risotto|katsu|machboos|biryani|crumble|gulab/i,
 }
+const proteinPatterns=[/chicken/i,/beef/i,/lamb|mutton/i,/salmon|fish|seafood|prawn|shrimp/i,/duck/i]
 export function suggestedMenu(cuisine:string,style:DiningStyle,mood='relaxed',extra=0,diet:Diet='standard'):string[]{
- const used=new Set<string>()
+ const used=new Set<string>(),usedProteins=new Set<number>()
  return menuSlots(style,extra).map((slot,i)=>{
   const pool=DINING_DISHES.filter(d=>menuEligible(d)&&d.cuisine===cuisine&&d.course===slot.course&&compatible(d,diet)&&!used.has(d.id))
-  const score=(d:DiningDish)=>(moodPatterns[mood]?.test(d.name)?4:0)+(diet==='standard'&&d.diet==='standard'?2:0)+(style==='fine'&&i===2&&d.diet!=='standard'?5:0)
-  pool.sort((a,b)=>score(b)-score(a));const id=pool[0]?.id??'';used.add(id);return id
+  // Mood guides the menu; lighter fine-dining courses and protein variety take priority.
+  const score=(d:DiningDish)=>(moodPatterns[mood]?.test(d.name)?4:0)+(diet==='standard'&&d.diet==='standard'?2:0)
+   +(style==='fine'&&(i===0||i===2)&&d.diet!=='standard'?9:0)
+   -(slot.course!=='Dessert'&&proteinPatterns.some((pattern,p)=>usedProteins.has(p)&&pattern.test(d.name))?8:0)
+  pool.sort((a,b)=>score(b)-score(a));const dish=pool[0],id=dish?.id??'';used.add(id)
+  if(dish&&slot.course!=='Dessert')proteinPatterns.forEach((pattern,p)=>{if(pattern.test(dish.name))usedProteins.add(p)})
+  return id
  })
 }
 export function generateMenu(input:DiningInput):DiningInput{
