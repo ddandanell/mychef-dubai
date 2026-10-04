@@ -1,48 +1,65 @@
 import assert from 'node:assert/strict'
-import { assistantCount, bookingErrors, calculateDining, compatible, DINING_DISHES, diningWhatsApp, dishPrice, earliestDiningDate, emptyDetails, menuSlots, resolvedMenu, suggestedMenu, validDiningDate, type DiningInput, type DiningService } from '../src/lib/privateDining'
+import { assistantCount, bookingErrors, calculateDining, compatible, createDiningInput, diningBrief, diningSharePath, dubaiToday, earliestDiningDate, emptyDetails, generateMenu, menuSlots, readDiningPrefill, toggleDrink, validDiningDate, type DiningInput, type DiningStyle } from '../src/lib/privateDining'
 import { DINING_CONFIG as config } from '../src/content/privateDiningConfig'
-const base: DiningInput = { service:'home',guests:6,area:'dubai-marina',cuisine:'indian',dishCount:4,dishIds:suggestedMenu('indian',4),dietary:{vegetarian:0,vegan:0,other:0},alternatives:{vegetarian:[],vegan:[],other:[]},drinkIds:[] }
-const details = {...emptyDetails,name:'Test guest',whatsapp:'+971 50 123 4567',date:'2026-10-09',kitchen:true}
-const q=calculateDining(base)
-assert.equal(q.total,((55+55+35+55)*6+1800+95)*1.05)
-for(const s of config.services){assert.ok(calculateDining({...base,service:s.id as DiningService,guests:s.minGuests}).canEnquire);assert.equal(calculateDining({...base,service:s.id as DiningService,guests:s.minGuests-1}).total,null)}
-for(const [guests,expected] of [[8,0],[9,1],[19,1],[20,2],[29,2],[30,3],[39,3],[40,4],[49,4],[50,5],[59,5],[60,6],[100,10]]){assert.equal(assistantCount('home',guests),expected);assert.equal(assistantCount('buffet',guests),Math.min(expected,5));assert.equal(assistantCount('delivery',guests),0)}
-for(const value of [NaN,Infinity,-1,6.5,0])assert.equal(calculateDining({...base,guests:value}).total,null)
-assert.equal(calculateDining({...base,area:'missing'}).total,null)
-assert.equal(calculateDining({...base,dietary:{vegetarian:4,vegan:3,other:0}}).total,null)
-assert.equal(calculateDining({...base,dietary:{vegetarian:0.5,vegan:0,other:0}}).total,null)
-assert.equal(calculateDining({...base,dishIds:['italian-starter-01',...base.dishIds.slice(1)]}).total,null)
-assert.equal(calculateDining({...base,drinkIds:['bad']}).total,null)
-assert.equal(calculateDining({...base,drinkIds:['water','water']}).total,null)
-for(const cuisine of config.cuisines){
- for(const course of ['Starter','Main','Side','Dessert']){assert.equal(DINING_DISHES.filter(d=>d.cuisine===cuisine.id&&d.course===course).length,10);assert.ok(DINING_DISHES.filter(d=>d.cuisine===cuisine.id&&d.course===course&&d.diet==='vegan').length>=4)}
- for(let n=3;n<=11;n++){const input={...base,cuisine:cuisine.id,dishCount:n,dishIds:suggestedMenu(cuisine.id,n)};assert.equal(input.dishIds.length,n);assert.ok(calculateDining(input).canEnquire);assert.equal(menuSlots(n).length,n)}
+const base=createDiningInput()
+const details={...emptyDetails,name:'Test guest',whatsapp:'+971501234567',email:'guest@example.com',date:earliestDiningDate(),kitchen:'yes' as const}
+const A=calculateDining(base)
+assert.equal(A.total,2562);assert.equal(A.perGuest,427);assert.equal(A.food,1200);assert.equal(A.chefFee,1200);assert.equal(A.vat,122)
+const fine=generateMenu({...base,style:'fine',cuisine:'japanese',guests:12,area:'palm-jumeirah',fineEquipment:'hire',waiters:1,drinkIds:['mocktail-package']})
+const B=calculateDining(fine)
+assert.equal(B.food,4800);assert.equal(B.kitchenTeam,1600);assert.equal(B.uplift,3200);assert.equal(B.serviceStaff,450);assert.equal(B.fineEquipment,1440);assert.equal(B.cars,1);assert.equal(B.total,13109.25);assert.equal(B.perGuest,1092.44)
+assert.equal(calculateDining({...fine,fineEquipment:'yes',drinkIds:[]}).total,10652.25)
+assert.equal(calculateDining({...fine,fineEquipment:'yes'}).uplift,B.uplift)
+const delivered=generateMenu({...base,service:'delivery',guests:20,cuisine:'italian',area:'abu-dhabi',drinkIds:['refreshments']})
+const C=calculateDining(delivered)
+assert.equal(C.total,6405);assert.equal(C.packaging,400);assert.equal(C.chefFee,0);assert.equal(C.assistants,0);assert.equal(C.cars,1);assert.equal(C.transport,400)
+assert.equal(calculateDining({...base,service:'delivery'}).packaging,200)
+for(const [guests,assistants] of [[6,0],[8,0],[9,1],[18,1],[19,2],[28,2],[29,3],[38,3],[39,4],[48,4],[49,5],[58,5],[59,6]]){assert.equal(assistantCount('home',guests),assistants);assert.equal(assistantCount('delivery',guests),0)}
+for(const invalid of [5,6.5,NaN,Infinity,-1,1001])assert.equal(calculateDining({...base,guests:invalid}).total,null)
+for(const service of ['delivery','home'] as const){assert.equal(calculateDining({...base,service,area:'sharjah'}).transport,service==='home'?350:300);assert.equal(calculateDining({...base,service,area:'abu-dhabi'}).transport,service==='home'?500:400)}
+const cars=calculateDining({...base,guests:19,waiters:2,bartenders:1})
+assert.equal(cars.staffCount,6);assert.equal(cars.cars,2);assert.equal(cars.transport,80)
+assert.equal(calculateDining({...base,guests:51}).total,null);assert.equal(calculateDining({...base,service:'delivery',guests:100}).total!==null,true);assert.equal(calculateDining({...base,service:'delivery',guests:101}).total,null)
+assert.equal(calculateDining(base,{...details,kitchen:'field'}).total,null)
+assert.equal(calculateDining({...base,service:'delivery',waiters:1}).total,null)
+assert.equal(calculateDining({...base,service:'delivery',style:'fine'}).total,null)
+assert.equal(calculateDining({...base,drinkIds:['own-alcohol']}).total,null)
+assert.equal(calculateDining({...base,drinkIds:['cocktail-kit'],waiters:1}).total,null)
+assert.equal(calculateDining({...base,drinkIds:['coffee','tea','coffee-tea']}).total,null)
+assert.deepEqual(toggleDrink(['water','soft','juice'],'refreshments'),['refreshments'])
+assert.deepEqual(toggleDrink(['coffee'],'coffee-tea'),['coffee-tea'])
+assert.deepEqual(toggleDrink(['refreshments'],'water'),['water'])
+let menus=0
+for(const cuisine of config.cuisines)for(const style of config.styles)for(const mood of config.moods){
+ const i=generateMenu({...base,cuisine:cuisine.id,style:style.id as DiningStyle,mood:mood.id,fineEquipment:'yes',dietary:{vegetarian:2,vegan:2}})
+ const q=calculateDining(i);assert.equal(q.errors.length,0,q.errors.join(', '));assert.notEqual(q.total,null)
+ assert.equal(q.groups.reduce((n,g)=>n+g.count,0),6)
+ assert.equal(q.food,6*config.foodPrices[i.style][cuisine.id as keyof typeof config.foodPrices.family])
+ for(const g of q.groups)for(const d of g.dishes)assert.ok(d&&compatible(d,g.diet))
+ const allVegan=calculateDining({...i,dietary:{vegetarian:0,vegan:6}});assert.equal(allVegan.total,q.total)
+ const allStandard=calculateDining({...i,dietary:{vegetarian:0,vegan:0}});assert.equal(allStandard.total,q.total)
+ menus++
 }
-assert.equal(new Set(DINING_DISHES.map(d=>d.id)).size,200)
-const dietary: DiningInput = {...base,guests:10,dietary:{vegetarian:2,vegan:3,other:0},alternatives:{vegetarian:[],vegan:[],other:[]}}
-for(const diet of ['vegetarian','vegan'] as const){const used=new Set<string>();dietary.alternatives[diet]=menuSlots(4).map(slot=>{const dish=DINING_DISHES.find(d=>d.cuisine==='indian'&&d.course===slot.course&&compatible(d,diet)&&!used.has(d.id))!;used.add(dish.id);return dish.id})}
-const split=calculateDining(dietary)
-assert.deepEqual(split.groups.map(g=>g.count),[5,2,3])
-const food=split.groups.reduce((sum,g)=>sum+g.count*g.dishes.reduce((n,d)=>n+dishPrice(d!)!,0),0)
-assert.equal(split.menuTotal,food)
-assert.equal(split.total,Math.round((food+1800+400+95)*1.05*100)/100)
-const allVegan=calculateDining({...dietary,dietary:{vegetarian:0,vegan:10,other:0}})
-assert.equal(allVegan.groups.length,1);assert.equal(allVegan.groups[0].diet,'vegan')
-const drinks=calculateDining({...base,drinkIds:['mocktail','water']})
-assert.equal(drinks.drinksTotal,6*(28+8));assert.equal(drinks.vat,Math.round(drinks.beforeVat!*.05*100)/100)
-const delivery=calculateDining({...base,service:'delivery',guests:10});assert.equal(delivery.chefFee,0);assert.equal(delivery.assistants,0)
-const market={...base,cuisine:'western',dishIds:['western-starter-01','western-main-05','western-side-01','western-dessert-01']}
-assert.equal(calculateDining(market).total,null);assert.ok(calculateDining(market).quoteRequired)
+for(let extra=0;extra<=4;extra++){
+ const i=generateMenu({...base,extraDishes:extra,dietary:{vegetarian:1,vegan:1}}),q=calculateDining(i)
+ assert.equal(q.errors.length,0);assert.equal(menuSlots('family',extra).length,4+extra);assert.equal(q.food,1200+extra*50*6)
+}
+const swap={...base,dishIds:['indian-starter-06',...base.dishIds.slice(1)]};assert.equal(calculateDining(swap).total,A.total)
+assert.equal(calculateDining({...base,dietary:{vegetarian:4,vegan:3}}).total,null)
+assert.equal(calculateDining({...base,dishIds:['italian-starter-01',...base.dishIds.slice(1)]}).total,null)
+assert.equal(calculateDining({...base,furniture:{chair:6}}).total,Math.round((2440+180+250)*1.05*100)/100)
+assert.equal(calculateDining({...base,furniture:{chair:6}}).isFrom,true)
+assert.equal(calculateDining({...base,furniture:{chair:6,linen:6,unknown:1}}).total,null)
+const overtime=calculateDining({...base,kitchenHours:7,waiters:1,serviceHours:6})
+assert.equal(overtime.kitchenOvertime,150);assert.equal(overtime.serviceStaff,525)
+assert.equal(dubaiToday(new Date('2026-10-03T21:00:00Z')),'2026-10-04')
 assert.equal(earliestDiningDate('2026-12-28'),'2027-01-02');assert.equal(earliestDiningDate('2028-02-25'),'2028-03-01')
-assert.ok(validDiningDate('2026-10-09','2026-10-04'));assert.equal(validDiningDate('2026-10-08','2026-10-04'),false);assert.equal(validDiningDate('2026-02-30','2026-02-01'),false);assert.equal(validDiningDate('','2026-10-04'),false)
-assert.equal(diningWhatsApp(base,{...details,kitchen:false},'2026-10-04'),null)
-assert.equal(diningWhatsApp(base,{...details,name:''},'2026-10-04'),null)
-assert.equal(diningWhatsApp(base,{...details,whatsapp:'abc'},'2026-10-04'),null)
-assert.equal(diningWhatsApp(base,{...details,date:'2026-10-08'},'2026-10-04'),null)
-assert.equal(bookingErrors({...base,dietary:{vegetarian:0,vegan:0,other:1}},details,'2026-10-04').length,1)
-const href=diningWhatsApp({...dietary,drinkIds:['juice']},{...details,theme:'Christmas',cake:'Chocolate',equipment:['Chairs'],notes:'Birthday table'},'2026-10-04')!
-const text=new URL(href).searchParams.get('text')!
-for(const fragment of ['Main menu — 5 guests','Vegetarian — 2 guests','Vegan — 3 guests','250 ml serving per guest × 10 guests','Christmas','Chocolate','Chairs','Birthday table','+971 50 123 4567','2026-10-09'])assert.ok(text.includes(fragment),fragment)
-assert.ok(!text.includes('undefined'));assert.equal(new URL(href).pathname,'/971551744849')
-assert.equal(resolvedMenu({...base,dietary:{vegetarian:0,vegan:1,other:0}},'vegan')[2]?.name,'Dal tadka (oil, no ghee)')
-console.log('PASS: service minimums; staffing boundaries; 200 dishes; 3–11 slots; one cuisine; dietary replacement pricing; drinks; transport; VAT; lead time; contacts; WhatsApp payload.')
+assert.equal(validDiningDate('2026-02-30','2026-02-01'),false);assert.equal(validDiningDate('2026-10-08','2026-10-04'),false);assert.equal(validDiningDate('2026-10-09','2026-10-04'),true)
+assert.equal(bookingErrors(base,details).length,0)
+assert.ok(bookingErrors(base,{...details,email:'bad'}).some(e=>e.includes('email')))
+const brief=diningBrief(fine,details,'call');assert.ok(brief.includes('AED 13,109.25'));assert.ok(brief.includes('Please call'));assert.ok(brief.includes('Japanese'));assert.ok(brief.includes('Kitchen assistants (1)'))
+const share=diningSharePath(fine,{...details,dietaryNotes:'private medical detail'})
+assert.equal(share.includes(details.email),false);assert.equal(share.includes('medical'),false);assert.equal(share.includes('whatsapp='),false)
+const pre=readDiningPrefill(share.split('?')[1].split('#')[0]);assert.equal(pre.input.guests,12);assert.equal(pre.input.style,'fine');assert.equal(pre.input.area,'palm-jumeirah')
+assert.equal(readDiningPrefill('?guests=-2&style=fine&service=delivery').input.style,'family')
+console.log(`Private dining v2: all 3 worked examples, ${menus} style/cuisine/mood combinations, dietary parity, boundaries, extras, overtime and share links passed.`)

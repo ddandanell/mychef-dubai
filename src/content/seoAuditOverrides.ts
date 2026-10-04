@@ -346,8 +346,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | Dinner Packages & Home Visits | myCHEF",
-    "description": "Private chef Dubai: price your menu for a chef at home, food delivery or buffet. Choose dishes and dietary alternatives, then request your booking on WhatsApp."
+    "title": "Private Chef Dubai | Get Your Dinner Price in Five Minutes | myCHEF",
+    "description": "Private chef Dubai: choose your menu, guests and area and see your complete estimate with VAT. Chef at home or delivered, from six guests. No commitment or payment."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Prices | Single & Member Rates | myCHEF",

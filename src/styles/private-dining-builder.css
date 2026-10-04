@@ -1,8 +1,184 @@
-.dining-builder{--d-ink:#173a32;--d-muted:#61716b;--d-line:#dce2dc;--d-cream:#f5f3ed;--d-gold:#c3a26c;background:var(--d-cream);color:var(--d-ink);padding:64px 24px 78px;scroll-margin-top:110px;font-family:'Figtree',sans-serif}
-.dining-shell{max-width:1240px;margin:auto}.dining-intro{display:grid;grid-template-columns:1.3fr .7fr;gap:64px;align-items:center;margin-bottom:40px}.dining-eyebrow{text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:2px;color:#6f796c;margin:0 0 12px}.dining-intro h2{font-family:'Cormorant Garamond',serif;font-size:64px;line-height:.98;letter-spacing:-1.7px;margin:0 0 20px;font-weight:500}.dining-intro h2 em{font-weight:400;color:#637c67}.dining-intro>div>p:not(.dining-eyebrow){font-size:16px;line-height:1.7;max-width:560px}.dining-intro figure{margin:0}.dining-intro img{width:100%;height:220px;object-fit:cover;border-radius:5px 60px 5px 5px}.dining-intro figcaption{font-size:10px;color:var(--d-muted);margin-top:8px}.dining-facts{display:flex;flex-wrap:wrap;gap:18px;margin-top:22px;font-size:12px}.dining-facts span{display:flex;gap:5px;align-items:center}
-.dining-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:26px;align-items:start}.dining-workspace{scroll-margin-top:110px;outline:none}.dining-progress{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:16px}.dining-progress button{display:flex;align-items:center;gap:8px;padding:10px 6px;color:#66766e;font-size:12px;text-align:left;border-bottom:2px solid var(--d-line)}.dining-progress button span{width:24px;height:24px;flex-shrink:0;border:1px solid #bec9bf;border-radius:50%;display:grid;place-items:center;font-size:11px}.dining-progress button[aria-current]{border-color:var(--d-ink);color:var(--d-ink)}.dining-progress button[aria-current] span{background:var(--d-ink);color:white;border-color:var(--d-ink)}.dining-panel{background:white;border:1px solid var(--d-line);padding:30px;border-radius:8px}.dining-step-heading{margin-bottom:24px}.dining-step-heading h3,.dining-ticket h3{font-family:'Cormorant Garamond',serif;font-size:35px;line-height:1.12;margin:0 0 12px;font-weight:500}.dining-step-heading>p:last-child{font-size:14px;line-height:1.6;color:var(--d-muted);margin:0}.dining-services{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.dining-services>button{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:12px;text-align:left;padding:20px 14px;border:1px solid var(--d-line);border-radius:5px;background:#fff;min-height:210px}.dining-services strong{font-size:14px;line-height:1.35}.dining-services button>span:not(.dining-service-check){font-size:12px;line-height:1.6;color:var(--d-muted)}.dining-services small{font-size:11px;font-weight:700;margin-top:auto}.dining-services [aria-pressed=true]{background:#f0f4ee;border:1.5px solid #567260}.dining-service-check{position:absolute;right:12px;top:18px;border:1px solid #b4c3b4;border-radius:50%;width:18px;height:18px;display:grid;place-items:center}.dining-services [aria-pressed=true] .dining-service-check{background:var(--d-ink);color:white}.dining-two{display:grid;grid-template-columns:1fr 1fr;gap:18px}.dining-three{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.dining-fields{margin-top:24px}.dining-builder label,.dining-diet-counts legend{display:block;font-size:12px;font-weight:650;margin-bottom:8px}.dining-builder label>span:not(.dining-diet-tag){font-weight:400}.dining-builder input:not([type=checkbox]),.dining-builder select,.dining-builder textarea{background:white;border:1px solid #ccd5cc;border-radius:4px;padding:12px;width:100%;min-height:45px;font:inherit;font-size:14px;color:var(--d-ink);outline-offset:3px}.dining-builder select{padding-right:30px;text-overflow:ellipsis}.dining-builder input:focus-visible,.dining-builder select:focus-visible,.dining-builder textarea:focus-visible{outline:2px solid #749c7d}.dining-fields p,.dining-diet-counts p,.dining-small{font-size:11px;line-height:1.65;color:var(--d-muted);margin:8px 0 0}.dining-fields>label:not(:first-child){margin-top:20px}.dining-diet-counts{margin-top:28px;padding:0;border:0}.dining-diet-counts>p:first-of-type{margin:0 0 14px}.dining-kitchen{display:flex!important;gap:12px;background:#f4f6f1;border-radius:4px;padding:16px;margin-top:22px;line-height:1.6}.dining-builder input[type=checkbox]{width:17px;height:17px;flex-shrink:0;margin-top:3px;accent-color:var(--d-ink)}.dining-kitchen strong{display:block;font-size:13px;margin-bottom:4px}.dining-kitchen span{font-size:12px}.dining-cuisines{display:flex;gap:8px;flex-wrap:wrap}.dining-cuisines button{padding:10px 17px;border-radius:24px;border:1px solid var(--d-line);font-size:13px}.dining-cuisines [aria-pressed=true]{background:var(--d-ink);border-color:var(--d-ink);color:white}.dining-menu-size{display:grid;grid-template-columns:155px 1fr;align-items:center;gap:22px;margin-bottom:28px}.dining-panel h4{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:15px;font-weight:650;margin:26px 0 14px}.dining-panel h4>span{font-size:11px;font-weight:400;color:var(--d-muted)}.dining-dish-grid{display:grid;gap:15px}.dining-dish-field{border-bottom:1px solid #edf0e9;padding-bottom:14px}.dining-dish-field label{display:flex;gap:10px;align-items:center}.dining-dish-field label>span{font-size:10px;color:#8b957f}.dining-dish-field>p{display:flex;justify-content:space-between;gap:8px;font-size:10px;line-height:1.5;margin:7px 0 0;color:var(--d-muted);flex-wrap:wrap}.dining-diet-tag.vegan,.dining-diet-tag.vegetarian{color:#416c46}.dining-alternatives{margin-top:26px;border-top:2px solid #dce5d6;padding-top:4px}.dining-alternatives>p{font-size:12px;line-height:1.6;color:var(--d-muted);margin:0 0 20px}.dining-drinks{display:grid;grid-template-columns:1fr 1fr;gap:10px}.dining-drinks>label{display:flex;gap:9px;align-items:flex-start;border:1px solid var(--d-line);border-radius:5px;padding:14px;margin:0}.dining-drinks>label.is-selected{background:#f0f4ee;border-color:#819981}.dining-drinks strong{font-size:12px;font-weight:600}.dining-drinks small{display:block;font-size:10px;line-height:1.5;font-weight:400;color:var(--d-muted);margin-top:5px}.dining-drinks b{margin-left:auto;font-size:12px;white-space:nowrap}.dining-extras{border-top:1px solid var(--d-line);margin-top:28px;padding-top:4px}.dining-extras>p{font-size:12px;line-height:1.6;color:var(--d-muted)}.dining-checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.dining-checks label{display:flex;gap:10px;align-items:flex-start;margin:0;font-size:12px;line-height:1.5;font-weight:400}.dining-review{display:flex;gap:16px;align-items:flex-start;padding:18px;background:#f3f5ef;border-radius:5px}.dining-review div{flex:1}.dining-review strong,.dining-review span{display:block;font-size:12px;line-height:1.8}.dining-review button,.dining-errors button{font-size:11px;text-decoration:underline;white-space:nowrap}.dining-menu-review{font-size:12px;padding:20px 0;border-bottom:1px solid var(--d-line)}.dining-menu-review summary{cursor:pointer;font-weight:600}.dining-menu-review ol{padding-left:18px;line-height:1.8}.dining-menu-review p{margin-top:10px;line-height:1.6}.dining-errors{font-size:12px;line-height:1.7;background:#fff5e7;border:1px solid #eed4ad;padding:15px;margin-top:20px;border-radius:5px}.dining-errors ul{padding-left:18px;list-style:disc;margin:7px 0}.dining-announcement{font-size:11px;line-height:1.6;color:var(--d-muted);margin-top:16px}.dining-announcement:empty{display:none}.dining-stage-actions{display:flex;justify-content:space-between;gap:14px;margin-top:28px;padding-top:22px;border-top:1px solid var(--d-line)}.dining-next,.dining-back,.dining-review-button{display:flex;align-items:center;justify-content:center;gap:10px;font-size:12px;font-weight:600;padding:13px 17px;border-radius:4px}.dining-next{margin-left:auto;background:var(--d-ink);color:white;min-height:46px}.dining-next[aria-disabled=true]{background:#718275}.dining-back{padding-left:0}.dining-ticket{position:sticky;top:110px;background:white;border:1px solid var(--d-line);border-radius:7px;padding:25px}.dining-ticket-heading{display:flex;align-items:center;gap:9px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:20px}.dining-ticket h3{font-size:32px}.dining-ticket-meta{font-size:12px;line-height:1.8;color:var(--d-muted);margin:0 0 20px}.dining-total{background:var(--d-ink);border-radius:4px;padding:20px;color:white;display:flex;flex-direction:column;gap:9px}.dining-total>span{font-size:10px;color:#d4e3d5}.dining-total strong{font-size:29px;font-weight:450;letter-spacing:-.8px;line-height:1.1}.dining-total small{font-size:11px;color:#d4e3d5}.dining-breakdown{font-size:11px;margin:18px 0}.dining-breakdown>div{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;padding:8px 0}.dining-breakdown dt{color:var(--d-muted)}.dining-breakdown dd{text-align:right;white-space:nowrap}.dining-subtotal{border-top:1px solid var(--d-line);border-bottom:1px solid var(--d-line);margin:5px 0}.dining-subtotal dt,.dining-subtotal dd{color:var(--d-ink);font-weight:600}.dining-ticket-note{display:flex;gap:8px;border-top:1px solid var(--d-line);padding-top:16px;margin-top:16px}.dining-ticket-note svg{flex-shrink:0;margin-top:2px}.dining-ticket-note p{font-size:10px;line-height:1.65;color:var(--d-muted)}.dining-review-button{border:1px solid var(--d-ink);width:100%;margin-top:20px}.dining-ticket-errors{font-size:11px;line-height:1.6;color:#835423;margin:14px 0}.dining-ticket-errors p{margin:7px 0}.dining-mobile-total{display:none}.dining-builder button:focus-visible,.dining-builder a:focus-visible{outline:2px solid #669773;outline-offset:4px}.dining-builder button:hover,.dining-builder a:hover{filter:brightness(.96)}
-@media(max-width:1100px){.dining-layout{grid-template-columns:minmax(0,1fr) 280px;gap:18px}.dining-panel{padding:22px}.dining-ticket{padding:20px}.dining-services{gap:7px}.dining-services>button{padding:18px 11px}.dining-progress strong{font-size:10px}.dining-intro{gap:40px}}
-@media(max-width:850px){.dining-builder{padding:42px 20px 90px}.dining-layout{grid-template-columns:1fr}.dining-ticket{position:static;max-width:none}.dining-intro{gap:25px;grid-template-columns:1.3fr .7fr}.dining-intro h2{font-size:52px}.dining-intro img{height:210px}.dining-mobile-total{position:fixed;bottom:0;left:0;right:0;z-index:45;display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fffdf8;border-top:1px solid #d7ddcf;padding:12px 20px;padding-bottom:max(12px,env(safe-area-inset-bottom));box-shadow:0 -5px 20px #173a320a}.dining-mobile-total small,.dining-mobile-total strong{display:block}.dining-mobile-total small{font-size:9px;color:var(--d-muted);margin-bottom:4px}.dining-mobile-total strong{font-size:16px}.dining-mobile-total button{display:flex;align-items:center;gap:10px;background:var(--d-ink);color:white;font-size:12px;padding:12px 20px;border-radius:4px}.private-dining-active .whatsapp-widget,.private-dining-active [data-chat-widget],.private-dining-active .chat-widget-container{display:none!important}}
-@media(max-width:560px){.dining-builder{padding:34px 14px 90px;scroll-margin-top:85px}.dining-intro{grid-template-columns:1fr;margin-bottom:25px;gap:0}.dining-intro figure{display:none}.dining-intro h2{font-size:49px}.dining-intro>div>p:not(.dining-eyebrow){font-size:14px}.dining-facts{gap:12px;font-size:10px}.dining-progress{gap:4px}.dining-progress button{flex-direction:column;align-items:flex-start;gap:6px;padding:8px 3px}.dining-progress strong{font-size:10px;line-height:1.5}.dining-panel{padding:20px 16px}.dining-workspace{scroll-margin-top:85px}.dining-step-heading h3{font-size:31px}.dining-services{grid-template-columns:1fr;gap:8px}.dining-services>button{min-height:0;display:grid;grid-template-columns:30px 1fr;column-gap:12px;row-gap:5px;padding:14px 34px 14px 14px}.dining-services>button>svg{grid-row:1/4;margin-top:2px}.dining-services strong{font-size:13px}.dining-services button>span:not(.dining-service-check){font-size:11px}.dining-services small{grid-column:2;margin-top:2px}.dining-services .dining-service-check{right:12px;top:14px}.dining-two{gap:16px;grid-template-columns:1fr}.dining-three{gap:9px}.dining-three label{font-size:10px;min-height:28px;line-height:1.3}.dining-fields{margin-top:22px}.dining-diet-counts{margin-top:24px}.dining-cuisines{gap:7px}.dining-cuisines button{font-size:12px;padding:9px 13px}.dining-menu-size{grid-template-columns:115px 1fr;gap:14px}.dining-menu-size p{font-size:10px}.dining-builder input:not([type=checkbox]),.dining-builder select,.dining-builder textarea{font-size:16px;padding:11px 10px}.dining-dish-field select{font-size:13px}.dining-drinks{grid-template-columns:1fr}.dining-checks{grid-template-columns:1fr}.dining-review{padding:14px;gap:8px}.dining-review button{white-space:normal;text-align:right}.dining-next{font-size:11px;padding:13px}.dining-small{font-size:11px}.dining-ticket{padding:24px}.dining-total strong{font-size:33px}}
-
-.private-dining-active [data-floating-chef-chat]{display:none!important}
+.dining-builder,.dining-page-hero{--din-bg:#FAF7F2;--din-surface:#fff;--din-sand:#F1EADF;--din-line:#E3D9C9;--din-ink:#1C1A17;--din-muted:#5E5750;--din-gold:#B08A4E;--din-deep:#8A6A35;background:var(--din-bg);color:var(--din-ink);font-family:Inter,Arial,sans-serif;line-height:1.5}
+.dining-page-hero{padding:140px 32px 50px;border-bottom:1px solid var(--din-line)}
+.dining-hero-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1.6fr 1fr;gap:64px;align-items:center}
+.dining-page-hero h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:56px;font-weight:500;line-height:1.05;margin:16px 0 24px;letter-spacing:-.025em}
+.dining-page-hero h1 em,.dining-intro h2 em{font-weight:500;color:#5E5750}
+.dining-page-hero p{font-size:17px;max-width:560px;color:var(--din-muted)}
+.dining-page-hero .dining-hero-tagline{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--din-deep)}
+.dining-hero-note{border:1px solid var(--din-line);padding:32px;border-radius:20px;background:var(--din-sand)}
+.dining-hero-note svg{color:var(--din-gold)}
+.dining-hero-note strong{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:500;margin:16px 0 8px;line-height:1.1}
+.dining-hero-note p{font-size:15px;margin:0 0 16px}
+.dining-hero-note ol{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}
+.dining-hero-note li{font-size:14px;display:flex;gap:12px;align-items:center}
+.dining-hero-note li span{width:24px;height:24px;border:1px solid var(--din-gold);border-radius:50%;display:grid;place-items:center;color:var(--din-deep);font-size:12px}
+.dining-builder{padding:56px 32px 80px;scroll-margin-top:80px}
+.dining-shell{max-width:1200px;margin:auto}
+.dining-intro{max-width:740px;margin:0 0 40px}
+.dining-eyebrow{font-size:11px!important;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--din-muted);margin:0 0 12px}
+.dining-intro h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:42px;line-height:1.1;margin:0 0 20px}
+.dining-intro>p:last-child{font-size:16px;line-height:1.65;color:var(--din-muted);margin:0}
+.dining-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(290px,1fr);gap:32px;align-items:start}
+.dining-main{min-width:0}
+.dining-progress{padding:0 0 24px;position:relative}
+.dining-current-step{font-size:14px;font-weight:600;margin:0 0 16px}
+.dining-step-names{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 16px}
+.dining-step-names button{display:flex;gap:8px;align-items:center;font-size:12px;text-align:left;min-height:44px;background:transparent;border:0;padding:4px 0;color:var(--din-muted);cursor:pointer}
+.dining-step-names button[aria-current=step]{font-weight:600;color:var(--din-ink)}
+.dining-step-names button svg{color:var(--din-gold);flex:none;stroke-width:1.5}
+.dining-step-names button:disabled{opacity:.5;cursor:default}
+.dining-progress-track{height:4px;border-radius:2px;background:var(--din-line);overflow:hidden}
+.dining-progress-track span{display:block;height:100%;background:var(--din-gold);transition:width .2s ease}
+.dining-reassurance{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--din-muted);margin:14px 0 0}
+.dining-reassurance svg{color:var(--din-gold);flex:none}
+.dining-panel{background:var(--din-surface);border:1px solid var(--din-line);border-radius:20px;padding:32px;scroll-margin-top:90px;outline-offset:5px}
+.dining-stage-heading{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--din-line)}
+.dining-stage-heading h3{font:500 30px/1.15 'Cormorant Garamond',Georgia,serif;margin:0 0 10px}
+.dining-stage-heading>p:last-child{font-size:15px;color:var(--din-muted);margin:0}
+.dining-step-content{display:grid;gap:32px}
+.dining-question{margin-bottom:12px}
+.dining-question>div:first-child{display:flex;align-items:center;gap:8px;min-height:28px}
+.dining-question h4,.dining-question label{font-size:16px;font-weight:600;line-height:1.4;margin:0}
+.dining-question>p{font-size:14px;color:var(--din-muted);margin:5px 0 0;line-height:1.5}
+.dining-help{min-width:44px;min-height:44px;background:transparent;border:0;color:var(--din-deep);cursor:pointer;display:grid;place-items:center}
+.dining-hint{background:var(--din-sand);padding:12px 48px 12px 12px;margin-top:8px;border-radius:12px;position:relative;font-size:14px}
+.dining-hint button{position:absolute;right:0;top:0;min-width:44px;min-height:44px;display:grid;place-items:center;border:0;background:transparent;cursor:pointer}
+.dining-builder input:not([type=radio]):not([type=checkbox]),.dining-builder select,.dining-builder textarea,.dining-area-button{font:400 16px/1.5 Inter,Arial,sans-serif;color:var(--din-ink);background:#fff;min-height:52px;border:1px solid var(--din-line);border-radius:12px;width:100%;padding:12px 14px;box-sizing:border-box}
+.dining-builder select{padding-right:32px}
+.dining-builder input[type=date],.dining-builder input[type=time]{min-width:0;max-width:100%;appearance:none}
+.dining-builder textarea{min-height:94px;resize:vertical}
+.dining-builder input:focus-visible,.dining-builder select:focus-visible,.dining-builder textarea:focus-visible,.dining-builder button:focus-visible,.dining-builder a:focus-visible,.dining-page-hero a:focus-visible{outline:2px solid var(--din-gold);outline-offset:3px}
+.dining-builder input[aria-invalid=true]{border-color:#9A3B2E}
+.dining-counter{display:grid;grid-template-columns:48px minmax(50px,1fr) 48px;max-width:190px;gap:8px;align-items:center}
+.dining-counter button{min-height:48px;min-width:48px;border:1px solid var(--din-line);border-radius:12px;background:#fff;display:grid;place-items:center;cursor:pointer;color:var(--din-ink)}
+.dining-counter button:disabled{opacity:.4;cursor:default}
+.dining-builder .dining-counter input{text-align:center;padding:10px 0;appearance:textfield;-moz-appearance:textfield}
+.dining-counter input::-webkit-inner-spin-button,.dining-counter input::-webkit-outer-spin-button{appearance:none;margin:0}
+.dining-area-button{display:flex;align-items:center;justify-content:space-between;text-align:left;cursor:pointer}
+.dining-area-popover{width:var(--radix-popover-trigger-width);max-width:calc(100vw - 32px);background:#fff;color:#1C1A17;border:1px solid #E3D9C9;padding:4px;border-radius:12px}
+.dining-area-popover [cmdk-input]{font-size:16px;min-height:52px;padding:12px 0}
+.dining-area-popover [cmdk-input-wrapper]{height:54px}
+.dining-area-popover [cmdk-list]{max-height:280px;overflow:auto}
+.dining-area-popover [cmdk-item]{min-height:44px;font-size:15px;display:flex;justify-content:space-between;padding:12px;cursor:pointer}
+.dining-area-popover [cmdk-item][data-selected=true]{background:#F1EADF}
+.dining-choices{display:grid;border:0;padding:0;margin:0;gap:12px;min-width:0}
+.dining-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dining-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.dining-option{position:relative;border:1px solid var(--din-line);border-radius:16px;background:#fff;padding:16px;box-shadow:0 1px 2px #1c1a1708;cursor:pointer;display:flex;flex-direction:column;min-width:0}
+.dining-option.is-selected{border:2px solid var(--din-gold);background:var(--din-sand);padding:15px}
+.dining-option:has(input:focus-visible){outline:2px solid var(--din-gold);outline-offset:3px}
+.dining-option input[type=radio]{position:absolute;opacity:0;width:1px;height:1px}
+.dining-option-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;min-height:20px;color:var(--din-gold)}
+.dining-option-top svg{stroke-width:1.5}
+.dining-check{margin-left:auto;border:1px solid var(--din-line);width:20px;height:20px;display:grid;place-items:center;border-radius:50%;flex:none}
+.is-selected .dining-check{background:var(--din-ink);border-color:var(--din-ink);color:#FAF7F2}
+.dining-option strong{font-size:15px;font-weight:600;line-height:1.4}
+.dining-option-description{font-size:14px;color:var(--din-muted);display:block;margin-top:8px;line-height:1.5}
+.dining-card-foot{font-size:13px;font-weight:600;color:var(--din-ink);display:block;margin-top:auto;padding-top:20px}
+.dining-option.is-disabled{opacity:.55;cursor:not-allowed;background:#f7f5f2}
+.dining-cuisines{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dining-moods{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dining-moods .dining-option-top{margin-bottom:6px}
+.dining-diet-counts{margin-bottom:20px}
+.dining-diet-counts label{display:block;font-size:14px;font-weight:500;margin:0 0 8px}
+.dining-field-label,.dining-contact-fields label{display:block;font-size:14px;font-weight:500;margin:20px 0 8px}
+.dining-generated-menu{border:1px solid var(--din-line);border-radius:16px;overflow:hidden;background:var(--din-bg)}
+.dining-generated-menu>header{padding:24px;background:var(--din-sand);border-bottom:1px solid var(--din-line)}
+.dining-generated-menu h4{font:500 30px/1.15 'Cormorant Garamond',Georgia,serif;margin:0 0 12px;text-transform:none}
+.dining-generated-menu header>p:last-child{font-size:13px;color:var(--din-muted);margin:0}
+.dining-generated-menu>.dining-inline-note{margin:20px}
+.dining-menu-group{padding:20px;border-top:1px solid var(--din-line)}
+.dining-menu-group h5{font-size:15px;font-weight:600;margin:0 0 20px;display:flex;justify-content:space-between;gap:10px}
+.dining-menu-group h5 span{font-size:13px;color:var(--din-muted);font-weight:400}
+.dining-menu-dishes{display:grid;gap:20px}
+.dining-dish label{font-size:13px;font-weight:600;display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.dining-dish label>span{font-size:11px;color:var(--din-deep)}
+.dining-dish p{font-size:12px;color:var(--din-muted);margin:8px 0 0}
+.dining-transition{padding:20px;margin:0;font-size:14px;border-top:1px solid var(--din-line);color:var(--din-deep)}
+.dining-inline-note{background:var(--din-sand);padding:14px 16px;border-radius:12px;color:var(--din-muted);font-size:14px;margin-top:16px;line-height:1.6}
+.dining-inline-note p{margin:0 0 8px}
+.dining-small{font-size:13px;line-height:1.6;color:var(--din-muted);margin:12px 0 0}
+.dining-drinks{display:grid;gap:12px}
+.dining-tick-card{display:flex;align-items:flex-start;gap:12px;background:#fff;padding:16px;border:1px solid var(--din-line);border-radius:16px;cursor:pointer;margin-bottom:12px}
+.dining-tick-card.is-selected{border-color:var(--din-gold);background:var(--din-sand)}
+.dining-tick-card input[type=checkbox]{flex:none;width:22px;height:22px;margin:1px 0;accent-color:var(--din-deep);cursor:pointer}
+.dining-tick-card>span{display:block;min-width:0}
+.dining-tick-card strong{display:block;font-size:15px;font-weight:600}
+.dining-tick-card small{display:block;font-size:13px;color:var(--din-muted);margin-top:6px}
+.dining-tick-card b{display:block;font-size:13px;color:var(--din-deep);font-weight:600;margin-top:12px}
+.dining-tick-card>svg{color:var(--din-gold);stroke-width:1.5;flex:none}
+.dining-team{display:flex;gap:16px;background:var(--din-sand);border-radius:12px;padding:16px}
+.dining-team svg{color:var(--din-gold);flex:none}
+.dining-team strong{font-size:15px}
+.dining-team p{font-size:14px;color:var(--din-muted);margin:6px 0 0}
+.dining-details{border:1px solid var(--din-line);border-radius:12px;padding:16px;margin-top:20px;font-size:14px;color:var(--din-muted)}
+.dining-details summary{font-weight:600;cursor:pointer;color:var(--din-ink);min-height:44px;align-content:center}
+.dining-details p{font-size:14px;line-height:1.6;margin:12px 0}
+.dining-details label{display:block;font-size:14px;margin:16px 0 8px}
+.dining-furniture{display:grid;gap:12px}
+.dining-hire-card{display:grid;grid-template-columns:24px minmax(0,1fr);gap:12px;background:#fff;padding:16px;border:1px solid var(--din-line);border-radius:16px}
+.dining-hire-card>svg{color:var(--din-gold);stroke-width:1.5}
+.dining-hire-card label strong{display:block;font-size:15px;font-weight:600}
+.dining-hire-card label>span{display:block;font-size:13px;color:var(--din-deep);margin:6px 0 0}
+.dining-hire-card .dining-counter{grid-column:2}
+.dining-contact-fields{display:grid;gap:20px;margin-top:20px}
+.dining-contact-fields label{margin-top:0}
+.dining-review{background:var(--din-bg);border:1px solid var(--din-line);border-radius:16px;padding:24px}
+.dining-review h4{font:500 28px/1.15 'Cormorant Garamond',Georgia,serif;margin:0 0 12px}
+.dining-review>p{font-size:14px;color:var(--din-muted)}
+.dining-review-menus h5{font-size:14px;font-weight:600;margin:20px 0 12px}
+.dining-review-menus ol{padding:0;list-style:none;margin:0;font-size:14px}
+.dining-review-menus li{margin:0 0 12px}
+.dining-review-menus li span{font-size:12px;display:block;color:var(--din-muted);margin-bottom:4px}
+.dining-text-button{min-height:44px;background:transparent;border:0;padding:0;color:var(--din-deep);text-decoration:underline;cursor:pointer;font-size:14px}
+.dining-primary,.dining-secondary{border-radius:999px;min-height:52px;padding:12px 22px;display:flex;align-items:center;justify-content:center;gap:12px;cursor:pointer;font:500 14px/1.5 Inter,Arial,sans-serif;text-decoration:none;transition:background .2s,border-color .2s}
+.dining-primary{background:var(--din-ink);border:1px solid var(--din-ink);color:var(--din-bg)}
+.dining-primary:hover{background:#3c352b}
+.dining-secondary{background:transparent;border:1px solid var(--din-line);color:var(--din-ink)}
+.dining-secondary:hover{border-color:var(--din-gold);background:var(--din-sand)}
+.dining-primary:disabled,.dining-secondary:disabled{opacity:.6;cursor:wait}
+.dining-actions{display:flex;gap:12px;justify-content:space-between;border-top:1px solid var(--din-line);padding-top:24px;margin-top:32px}
+.dining-actions .dining-primary{margin-left:auto}
+.dining-send>p{font-size:14px;color:var(--din-muted)}
+.dining-send button{width:100%;margin-top:12px}
+.dining-send .dining-reassurance{font-size:14px;color:var(--din-ink)}
+.dining-honeypot{position:absolute;left:-9999px;height:1px;width:1px;overflow:hidden}
+.dining-error{border:1px solid #9A3B2E;background:#fff5f1;color:#9A3B2E;border-radius:12px;padding:16px;font-size:14px;margin-top:20px}
+.dining-error p{margin:0 0 8px}
+.dining-error a{color:#9A3B2E;text-decoration:underline}
+.dining-field-error{font-size:14px;color:#9A3B2E;margin:8px 0 0}
+.dining-price-card{position:sticky;top:96px;border:1px solid var(--din-line);border-radius:20px;background:var(--din-sand);padding:28px}
+.dining-price-card h3,.dining-bottom-sheet h3{font:500 26px/1.15 'Cormorant Garamond',Georgia,serif;margin:0 0 12px}
+.dining-total{font-size:30px;font-weight:600;line-height:1.2;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.dining-per-guest{font-size:13px;color:var(--din-muted);margin:10px 0 20px}
+.dining-summary-context{padding:16px 0;border-top:1px solid var(--din-line);border-bottom:1px solid var(--din-line);display:grid;gap:6px;font-size:13px;color:var(--din-muted)}
+.dining-price-lines{margin:20px 0 0;display:grid;gap:16px}
+.dining-price-lines>div{display:flex;justify-content:space-between;gap:16px;font-size:13px}
+.dining-price-lines dt{max-width:65%;color:var(--din-muted)}
+.dining-price-lines small{display:block;font-size:11px;line-height:1.4;margin:4px 0 0}
+.dining-price-lines dd{flex:none;font-variant-numeric:tabular-nums;text-align:right;color:var(--din-ink);font-weight:500;margin:0}
+.dining-price-lines .dining-subtotal{border-top:1px solid var(--din-line);padding-top:16px}
+.dining-price-card .dining-secondary{margin-top:24px;font-size:13px;width:100%}
+.dining-summary-note{font-size:12px;color:var(--din-muted);line-height:1.6;margin-top:20px}
+.dining-price-card .dining-reassurance{font-size:11px;line-height:1.6}
+.dining-sharing{padding:20px 0 0}
+.dining-sharing button{display:flex;align-items:center;gap:8px;background:transparent;border:0;color:var(--din-deep);min-height:44px;font-size:13px;text-decoration:underline;cursor:pointer}
+.dining-sharing p{font-size:12px;color:var(--din-muted);margin:4px 0}
+.dining-notice{font-size:13px;color:var(--din-muted);overflow-wrap:anywhere;margin:20px 0 0}
+.dining-confirmation{padding:24px;background:var(--din-sand);border:1px solid var(--din-line);border-radius:16px}
+.dining-confirmation>svg{color:var(--din-gold)}
+.dining-confirmation h4{font:500 32px/1.15 'Cormorant Garamond',Georgia,serif;margin:16px 0}
+.dining-confirmation>p{font-size:15px;color:var(--din-muted)}
+.dining-mobile-total,.dining-sheet-backdrop{display:none}
+body.private-dining-active [data-floating-chef-chat]{display:none!important}
+@media(max-width:1100px){.dining-layout{gap:24px;grid-template-columns:minmax(0,1.5fr) minmax(290px,1fr)}.dining-panel{padding:24px}.dining-three{grid-template-columns:1fr}.dining-three .dining-option-top{margin:0 0 8px}.dining-hero-inner{gap:32px}}
+@media(max-width:899px){
+ .dining-page-hero{padding:110px 16px 32px}.dining-hero-inner{display:block}.dining-page-hero h1{font-size:40px;margin:12px 0 16px}.dining-page-hero p{font-size:16px}.dining-hero-note{display:none}.dining-page-hero .dining-primary{width:100%;margin-top:24px}
+ .dining-builder{padding:32px 16px 155px;scroll-margin-top:78px}.dining-intro{margin-bottom:28px}.dining-intro h2{font-size:32px}.dining-layout{display:block}.dining-price-card{display:none}.dining-panel{padding:24px 20px;border-radius:16px;scroll-margin-top:150px}.dining-stage-heading h3{font-size:28px}
+ .dining-progress{position:sticky;top:72px;z-index:15;background:var(--din-bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--din-line)}.dining-current-step{margin-bottom:10px}.dining-step-names,.dining-progress>.dining-reassurance{display:none}
+ .dining-step-content{gap:28px}.dining-moods{grid-template-columns:1fr 1fr}.dining-option{padding:14px}.dining-option.is-selected{padding:13px}.dining-option strong{font-size:15px}.dining-option-description{font-size:14px}.dining-cuisines{grid-template-columns:1fr 1fr}.dining-card-foot{padding-top:16px}.dining-actions{flex-direction:column-reverse}.dining-actions button{width:100%}.dining-actions .dining-primary{margin-left:0}.dining-actions .dining-secondary{min-height:48px}
+ .dining-mobile-total{position:fixed;bottom:0;left:0;right:0;z-index:40;display:flex;justify-content:space-between;gap:12px;align-items:center;background:#1C1A17;color:#FAF7F2;padding:14px 16px calc(14px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px #1c1a1712;pointer-events:auto}.dining-mobile-total>div{min-width:0}.dining-mobile-total span{display:block;font-size:11px}.dining-mobile-total strong{display:block;font-size:23px;font-weight:600;color:#dbbb82;font-variant-numeric:tabular-nums;line-height:1.2;margin:5px 0}.dining-mobile-total small{display:block;font-size:11px;color:#FAF7F2cc}.dining-mobile-total p{font-size:10px;color:#FAF7F2cc;margin:6px 0 0}.dining-mobile-total button{display:flex;align-items:center;gap:6px;border:1px solid #B08A4E;border-radius:999px;background:transparent;color:#FAF7F2;min-height:44px;padding:8px 12px;font-size:12px}
+ .dining-sheet-backdrop{position:fixed;inset:0;background:#1c1a1780;z-index:100;display:flex;align-items:flex-end}.dining-bottom-sheet{background:#FAF7F2;color:#1C1A17;max-height:85dvh;overflow:auto;width:100%;padding:32px 24px calc(32px + env(safe-area-inset-bottom));border-radius:24px 24px 0 0;position:relative}.dining-sheet-close{position:sticky;float:right;top:0;min-width:44px;min-height:44px;display:grid;place-items:center;background:#F1EADF;border:1px solid #E3D9C9;border-radius:50%;cursor:pointer}.dining-bottom-sheet .dining-total{font-size:30px}.dining-bottom-sheet .dining-price-lines{font-size:14px}
+}
+@media(max-width:420px){.dining-builder{padding-left:12px;padding-right:12px}.dining-panel{padding:20px 16px}.dining-two{grid-template-columns:1fr}.dining-cuisines{grid-template-columns:1fr}.dining-moods{grid-template-columns:1fr 1fr}.dining-option-description{line-height:1.45}.dining-diet-counts{grid-template-columns:1fr 1fr}.dining-diet-counts .dining-counter{grid-template-columns:40px minmax(35px,1fr) 40px;gap:4px}.dining-diet-counts .dining-counter button{min-width:40px;min-height:44px}.dining-hire-card{padding:14px}.dining-generated-menu>header{padding:20px}.dining-menu-group{padding:16px}.dining-step-content{gap:28px}.dining-mobile-total strong{font-size:21px}}
+@media(prefers-reduced-motion:reduce){.dining-builder *,.dining-page-hero *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}

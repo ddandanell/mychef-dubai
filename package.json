@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "npm run verify:images",
+    "prebuild": "npm run verify:dining-api && npm run verify:images",
     "build": "tsc -b && vite build",
     "build:prerender": "npm run build && npm run prerender",
     "lint": "eslint .",
@@ -60,7 +60,10 @@
     "verify:short-term-pricing": "python3 scripts/verify-short-term-pricing.py",
     "test:pricing-ui": "node scripts/test-pricing-ui.mjs",
     "test:private-dining": "node --import tsx scripts/test-private-dining.ts",
-    "test:private-dining-ui": "node scripts/test-private-dining-ui.mjs"
+    "test:private-dining-ui": "node scripts/test-private-dining-ui.mjs",
+    "build:dining-api": "node scripts/build-dining-api.mjs",
+    "verify:dining-api": "node scripts/build-dining-api.mjs --check",
+    "test:dining-request": "node --import tsx scripts/test-dining-request.ts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

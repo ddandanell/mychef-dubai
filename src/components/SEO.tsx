@@ -11,6 +11,8 @@ interface SEOProps {
   description?: string
   canonicalPath?: string
   ogImage?: string
+  socialTitle?: string
+  socialDescription?: string
   noindex?: boolean
   hideSiteName?: boolean
   schema?: Record<string, unknown>
@@ -29,6 +31,8 @@ export default function SEO({
   description = DEFAULT_DESCRIPTION,
   canonicalPath = '',
   ogImage = DEFAULT_OG_IMAGE,
+  socialTitle,
+  socialDescription,
   noindex = false,
   hideSiteName = false,
   schema,
@@ -40,7 +44,7 @@ export default function SEO({
   const { pathname } = useLocation()
   const path = canonicalPath || pathname
   const designImage = chefPageImages[pathname]
-  if (designImage && !pathname.startsWith('/blog/')) ogImage = chefImage(designImage)
+  if (designImage && !pathname.startsWith('/blog/') && !socialTitle) ogImage = chefImage(designImage)
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
   if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && pathname !== "/catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
@@ -111,9 +115,10 @@ export default function SEO({
       <link rel="manifest" href="/site.webmanifest" />
 
       {/* Open Graph */}
-      <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={effectiveDescription} />
+      <meta property="og:title" content={socialTitle || fullTitle} />
+      <meta property="og:description" content={socialDescription || effectiveDescription} />
       <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`} />
+      {socialTitle && <><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/></>}
       <meta property="og:type" content={schema?.['@type'] === 'Article' || schema?.['@type'] === 'BlogPosting' ? 'article' : 'website'} />
       <meta property="og:locale" content="en_AE" />
       <meta property="og:site_name" content={SITE_NAME} />
@@ -121,8 +126,8 @@ export default function SEO({
       {/* Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@mychefdubai" />
-      <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={effectiveDescription} />
+      <meta name="twitter:title" content={socialTitle || fullTitle} />
+      <meta name="twitter:description" content={socialDescription || effectiveDescription} />
       <meta name="twitter:image" content={ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`} />
 
       {jsonLd && (
