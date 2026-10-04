@@ -379,10 +379,13 @@ export function quoteCatering(input: {
 
 export function hubPriceCell(format: CateringFormat): string {
   const typical = formatTypical(format.typicalMin, format.typicalMax)
-  if (format.calculatorEstimate == null) {
-    return `${formatFrom(format.fromPerPerson)}. ${typical}.`
+  const from = formatFrom(format.fromPerPerson)
+  const estimate = format.calculatorEstimate == null ? null : formatEstimate(format.calculatorEstimate)
+  const parts: string[] = []
+  for (const part of [from, typical, estimate]) {
+    if (part && part.length > 0 && !parts.includes(part)) parts.push(part)
   }
-  return `${formatFrom(format.fromPerPerson)}. ${typical}. ${formatEstimate(format.calculatorEstimate)}.`
+  return parts.join('. ') + '.'
 }
 
 export function cateringCostSummary(): string {
@@ -410,7 +413,13 @@ export interface HubPriceRow {
 }
 
 function stackedPrice(from: string, typical: string, estimate: string | null): string {
-  return [from, typical, estimate].filter((part) => part && part.length > 0).join('. ') + '.'
+  // The calculator estimate repeats `from` when both are the same number; keep
+  // the first occurrence so one price is never printed twice in the same cell.
+  const parts: string[] = []
+  for (const part of [from, typical, estimate]) {
+    if (part && part.length > 0 && !parts.includes(part)) parts.push(part)
+  }
+  return parts.join('. ') + '.'
 }
 
 export function hubPriceRows(opts?: { dropOffLabel?: string }): HubPriceRow[] {
