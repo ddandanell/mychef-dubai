@@ -1,4 +1,3 @@
-import DinnerCalculatorCallout from '@/components/private-chef/DinnerCalculatorCallout'
 import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /catering-cost-calculator-dubai
@@ -123,7 +122,6 @@ export default function CateringCostCalculator() {
         minHeight="medium"
         overlay="dark"
       /></NonCateringVisual>
-      <DinnerCalculatorCallout />
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">

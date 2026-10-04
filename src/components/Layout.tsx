@@ -23,7 +23,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
   const isCanape = pathname === '/canape-catering-dubai'
-  const hasOwnPlanningLinks = isCanape || pathname === '/catering-dubai' || pathname === '/private-chef-dubai'
+  const hasOwnPlanningLinks = isCanape || pathname === '/catering-dubai'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])

@@ -1,4 +1,3 @@
-import DinnerCalculatorCallout from '@/components/private-chef/DinnerCalculatorCallout'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /villas-private-residences
 //     primary:     "villa chef dubai"
@@ -147,7 +146,6 @@ export default function Villas() {
         overlay="dark"
       />
       <TrustSignalStrip />
-      <DinnerCalculatorCallout />
 
       <Section tone="ivory" rhythm="connected">
         <Container>

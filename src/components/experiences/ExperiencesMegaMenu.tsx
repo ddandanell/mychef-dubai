@@ -1,4 +1,3 @@
-import { DinnerCalculatorMenuLink } from '@/components/private-chef/DinnerCalculatorCallout'
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { NavigationMenuLink } from '@/components/ui/navigation-menu'
@@ -55,7 +54,6 @@ export default function ExperiencesMegaMenu() {
         <MegaColumn heading="Dining" items={explore} />
         <MegaColumn heading="Occasions & gifting" items={occasions} />
       </div>
-      <DinnerCalculatorMenuLink/>
       <p className="mt-5 border-t border-gold/25 px-3.5 pt-4 font-inter text-body-sm text-white/45">
         Not sure which one it is?{' '}
         <Link to={EXPERIENCES_PATHS.hub} className="text-gold hover:text-gold-light">

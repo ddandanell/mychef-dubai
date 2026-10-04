@@ -1,12 +1,10 @@
-import { DinnerCalculatorMenuLink } from './DinnerCalculatorCallout'
-import { DINNER_CALCULATOR_PATH } from '@/content/privateDiningLinks'
+import HouseholdImage from '@/components/household/HouseholdImage'
 import type { LucideIcon } from 'lucide-react'
 import { HOUSEHOLD_PATH, LIVE_IN_PATH, LIVE_OUT_PATH, SHORT_TERM_PATH } from '@/content/householdChefs'
 import { Link } from 'react-router'
 import {
   ArrowRight,
   Banknote,
-  Calculator,
   ChefHat,
   ListChecks,
   Users,
@@ -20,7 +18,6 @@ const MAIN = GLOBAL_CLUSTER_NAV.slice(0, 4)
 const TRUST = GLOBAL_CLUSTER_NAV.slice(4)
 
 export const CLUSTER_ICONS: Record<string, LucideIcon> = {
-  [DINNER_CALCULATOR_PATH]: Calculator,
   [HOUSEHOLD_PATH]: House,
   [LIVE_IN_PATH]: House,
   [LIVE_OUT_PATH]: CalendarDays,
@@ -74,11 +71,30 @@ export default function PrivateChefMegaMenu() {
         <MegaColumn heading="Choose your chef service" items={MAIN} />
         <MegaColumn heading="Find your fit" items={TRUST} />
         <div className="pc-mega-feature min-w-0 col-span-full flex flex-col xl:col-auto">
-          <img src="/images/private-chef-dubai-evening.webp" alt="A private dinner at home" width="1280" height="720" className="mb-5 hidden aspect-[16/9] w-full rounded-[5px] object-cover xl:block [@media(max-height:700px)]:hidden"/>
-          <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-2">Hosting at home?</p>
-          <p className="font-playfair text-[26px] leading-tight text-[#f2f0ea] mb-3">Plan your menu.<br/>See your dinner price.</p>
-          <p className="font-inter text-body-sm leading-relaxed text-white/65">Chef at home from 6 guests, delivery from 10 or buffet from 20. Choose your menu and get an estimate.</p>
-          <DinnerCalculatorMenuLink/>
+          <div className="pc-mega-photo relative mb-5 hidden aspect-[4/3] overflow-hidden rounded-[5px] xl:block [@media(max-height:700px)]:hidden">
+            <HouseholdImage id="household-hero" alt="Chef preparing a family lunch in a home kitchen" sizes="300px"/>
+          </div>
+          <div className="flex min-w-0 flex-1 flex-col">
+            <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-2">
+              Private Chef Dubai
+            </p>
+            <p className="font-playfair text-[clamp(18px,2vw,22px)] leading-snug text-[#f2f0ea] mb-2">
+              A chef who feels at home.
+            </p>
+            <p className="font-inter text-body-sm leading-relaxed text-white/55 mb-4">
+              Personal matching, recruitment coordination and ongoing support for your household.
+            </p>
+            <div className="mt-auto border-t border-gold/25 pt-4">
+              <p className="font-inter text-body-sm text-white/50 mb-4">
+                From AED 15,000/month
+              </p>
+              <NavigationMenuLink asChild className="p-0 hover:bg-transparent focus:bg-transparent">
+                <Link to={HOUSEHOLD_PATH} className="btn-primary w-full text-center text-xs py-3">
+                  Explore Household Chefs
+                </Link>
+              </NavigationMenuLink>
+            </div>
+          </div>
         </div>
       </div>
     </div>

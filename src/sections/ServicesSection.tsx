@@ -10,10 +10,10 @@ import { SectionLabel } from '@/components/system'
 const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
-    title: 'Household chef for your Dubai home',
-    description: 'Find a long-term household match. Live-in, daily live-out and recurring visits, with food shaped around your home.',
-    link: '/full-time-private-chef-dubai',
-    cta: 'Explore household chef options',
+    title: 'Private chef for your Dubai home',
+    description: 'Book a chef for a few hours or find a long-term household match. Live-in, daily live-out and recurring visits, with food shaped around your home.',
+    link: '/private-chef-dubai',
+    cta: 'Explore private chef options',
   },
   {
     image: '/images/catering-dubai-hero.webp',

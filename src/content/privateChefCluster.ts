@@ -389,7 +389,7 @@ export const parentFaqs = [
   },
   {
     "q": "Can I book a chef for one dinner?",
-    "a": "Yes. Build a [private dinner package](/private-chef-dubai#dinner-calculator) for a chef at home from six guests, delivered food from ten or a buffet from twenty. Choose one cuisine, dietary alternatives and drinks, then send the estimate on WhatsApp. You can also book everyday cooking visits, short stays or a long-term household chef through myCHEF."
+    "a": "Yes. For a single celebration or dinner with guests, explore our [private dining experiences](/luxury-dining-experiences). You can also book everyday cooking visits, short stays or a long-term household chef through myCHEF."
   }
 ] as const
 
