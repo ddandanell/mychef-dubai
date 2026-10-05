@@ -42,6 +42,10 @@
 .pc-nav-inner a { display:flex; align-items:center; padding:15px 0; font:500 12px/1.5 Inter,sans-serif; min-height:48px; color:#656b60; border-bottom:2px solid transparent; }
 .pc-nav-inner a[aria-current='page'] { color:#202522; border-color:#82703d; }
 .pc-mobile-nav { display:none; }
+.pc-page-nav { position:sticky; top:64px; z-index:30; display:flex; justify-content:center; flex-wrap:wrap; gap:8px 28px; padding:12px 20px; background:#fffdf8; color:#202522; border-bottom:1px solid #deddd4; }
+.pc-page-nav a { display:inline-flex; align-items:center; min-height:44px; font-size:13px; text-decoration:underline; text-underline-offset:5px; }
+.pc-design :is(#chef-service-choice,#chef-prices,#chef-faqs,#chef-enquiry) { scroll-margin-top:144px; }
+@media(max-width:599px) { .pc-page-nav { justify-content:space-between; gap:8px 12px; } }
 .pc-schedule-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; }
 .pc-schedule-card { display:block; color:inherit; }
 .pc-schedule-card>.pc-image { aspect-ratio:4/3; }

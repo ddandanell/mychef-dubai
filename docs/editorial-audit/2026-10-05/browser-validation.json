@@ -1,0 +1,248 @@
+[
+  {
+    "width": 390,
+    "initial": {
+      "h1": "Private Chef Dubai.\nMade personal.",
+      "overflow": false,
+      "scripts": [
+        "vendor-react-DcpUZrFG.js",
+        "vendor-ui-DivekPnx.js",
+        "index-DtI_U9fn.js",
+        "vendor-icons-C_n4sBhV.js",
+        "vendor-gsap-BTXOhcan.js",
+        "PrivateChef-8vPnT2HQ.js",
+        "HouseholdSections-CviNMuOT.js",
+        "EditorialHero-Dc1W9COg.js",
+        "ChefSections-DI1X6D7r.js",
+        "blogImages-C7t9I099.js",
+        "whatsapp-CegdxB3Q.js",
+        "managed-household-B_b3WvJb.js",
+        "householdJourney-BPPIXCgN.js",
+        "SEO-DQ3rZr5t.js",
+        "deferNonCritical-BEZM175z.js",
+        "PageHero-BMnalNJN.js",
+        "ClusterNav-B0Q_Rs2V.js",
+        "FaqAccordion-C1Du6nx7.js",
+        "householdSchema-Am8IUcX_.js",
+        "schema-DsWK350C.js",
+        "PrivateChefPlanningArticle-DV6OrFbz.js",
+        "BlogProse-DVbW0UuF.js",
+        "blogEditorial-CeQ2HD7U.js",
+        "BlogReadingLink-oWgGhYUq.js",
+        "private-chef-dubai-BimlgWr0.js"
+      ],
+      "links": [
+        {
+          "href": "#chef-service-choice",
+          "height": 44
+        },
+        {
+          "href": "#chef-prices",
+          "height": 44
+        },
+        {
+          "href": "#chef-faqs",
+          "height": 44
+        },
+        {
+          "href": "#chef-enquiry",
+          "height": 44
+        }
+      ]
+    },
+    "script_bytes": 1040121,
+    "jumps": [
+      {
+        "href": "#chef-prices",
+        "top": 143.578125
+      },
+      {
+        "href": "#chef-faqs",
+        "top": 144.1875
+      },
+      {
+        "href": "#chef-enquiry",
+        "top": 143.5625
+      },
+      {
+        "href": "#chef-service-choice",
+        "top": 143.671875
+      }
+    ],
+    "enquiry_form_visible": true,
+    "routes": [
+      {
+        "route": "/",
+        "overflow": false,
+        "h1": "Private chef and catering in Dubai, designed around you.",
+        "visibleImages": true
+      },
+      {
+        "route": "/catering-dubai",
+        "overflow": false,
+        "h1": "Catering Dubai,\nmade for your occasion.",
+        "visibleImages": true
+      },
+      {
+        "route": "/corporate",
+        "overflow": false,
+        "h1": "Corporate Catering Dubai for Offices and Boardrooms",
+        "visibleImages": true
+      },
+      {
+        "route": "/school-catering-dubai",
+        "overflow": false,
+        "h1": "School Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/yachts",
+        "overflow": false,
+        "h1": "Yacht Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/production-catering-dubai",
+        "overflow": false,
+        "h1": "Production Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/private-chef-dubai/pricing",
+        "overflow": false,
+        "h1": "Private Chef Dubai Price. Clear from the start.",
+        "visibleImages": true
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "h1": "PRIVATE CHEF COMPANY DUBAI\nA new chapter.\nA world of experience.",
+        "visibleImages": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "initial": {
+      "h1": "Private Chef Dubai.\nMade personal.",
+      "overflow": false,
+      "scripts": [
+        "index-DtI_U9fn.js",
+        "vendor-react-DcpUZrFG.js",
+        "vendor-ui-DivekPnx.js",
+        "vendor-icons-C_n4sBhV.js",
+        "vendor-gsap-BTXOhcan.js",
+        "PrivateChef-8vPnT2HQ.js",
+        "HouseholdSections-CviNMuOT.js",
+        "ChefSections-DI1X6D7r.js",
+        "EditorialHero-Dc1W9COg.js",
+        "blogImages-C7t9I099.js",
+        "whatsapp-CegdxB3Q.js",
+        "managed-household-B_b3WvJb.js",
+        "householdJourney-BPPIXCgN.js",
+        "SEO-DQ3rZr5t.js",
+        "PageHero-BMnalNJN.js",
+        "deferNonCritical-BEZM175z.js",
+        "ClusterNav-B0Q_Rs2V.js",
+        "FaqAccordion-C1Du6nx7.js",
+        "householdSchema-Am8IUcX_.js",
+        "schema-DsWK350C.js",
+        "PrivateChefPlanningArticle-DV6OrFbz.js",
+        "BlogProse-DVbW0UuF.js",
+        "blogEditorial-CeQ2HD7U.js",
+        "BlogReadingLink-oWgGhYUq.js",
+        "private-chef-dubai-BimlgWr0.js"
+      ],
+      "links": [
+        {
+          "href": "#chef-service-choice",
+          "height": 44
+        },
+        {
+          "href": "#chef-prices",
+          "height": 44
+        },
+        {
+          "href": "#chef-faqs",
+          "height": 44
+        },
+        {
+          "href": "#chef-enquiry",
+          "height": 44
+        }
+      ]
+    },
+    "script_bytes": 1040121,
+    "jumps": [
+      {
+        "href": "#chef-prices",
+        "top": 144.46875
+      },
+      {
+        "href": "#chef-faqs",
+        "top": 144.140625
+      },
+      {
+        "href": "#chef-enquiry",
+        "top": 144.4375
+      },
+      {
+        "href": "#chef-service-choice",
+        "top": 144
+      }
+    ],
+    "enquiry_form_visible": true,
+    "routes": [
+      {
+        "route": "/",
+        "overflow": false,
+        "h1": "Private chef and catering in Dubai, designed around you.",
+        "visibleImages": true
+      },
+      {
+        "route": "/catering-dubai",
+        "overflow": false,
+        "h1": "Catering Dubai,\nmade for your occasion.",
+        "visibleImages": true
+      },
+      {
+        "route": "/corporate",
+        "overflow": false,
+        "h1": "Corporate Catering Dubai for Offices and Boardrooms",
+        "visibleImages": true
+      },
+      {
+        "route": "/school-catering-dubai",
+        "overflow": false,
+        "h1": "School Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/yachts",
+        "overflow": false,
+        "h1": "Yacht Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/production-catering-dubai",
+        "overflow": false,
+        "h1": "Production Catering Dubai",
+        "visibleImages": true
+      },
+      {
+        "route": "/private-chef-dubai/pricing",
+        "overflow": false,
+        "h1": "Private Chef Dubai Price. Clear from the start.",
+        "visibleImages": true
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "h1": "PRIVATE CHEF COMPANY DUBAI\nA new chapter.\nA world of experience.",
+        "visibleImages": true
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,42 @@
+request,priority,saved_disposition,crawl_date,current_decision,evidence
+Response Codes: Internal Blocked by Robots.txt,high,open,2026-08-26,retain utility blocking,Inquiry and SEO utility routes are intentionally excluded; 201 sitemap pages pass current indexation checks.
+Canonicals: Canonicalised,high,open,2026-08-26,retain intended consolidation,Current public pages have one canonical each; the chef cluster module intentionally points to /our-chefs.
+Directives: Nofollow,high,open,2026-08-26,retain support and preview policy,201 indexable pages and 55 noindex support pages; no noindex pages in the sitemap. Preview and SEO app headers remain deliberate.
+Directives: Noindex,high,open,2026-08-26,retain support and preview policy,201 indexable pages and 55 noindex support pages; no noindex pages in the sitemap. Preview and SEO app headers remain deliberate.
+Hreflang: Noindex Return Links,high,open,2026-08-26,retain support and preview policy,201 indexable pages and 55 noindex support pages; no noindex pages in the sitemap. Preview and SEO app headers remain deliberate.
+Images: Over 100 KB,medium,accepted,2026-08-26,retain prior accepted policy,Image recompress is not this board's job.
+Page Titles: Over 60 Characters,medium,accepted,2026-08-26,retain prior accepted policy,Contract titles stay. Character caps are Frog noise.
+Page Titles: Over 561 Pixels,medium,accepted,2026-08-26,retain prior accepted policy,Contract titles stay. Pixel caps are an approximation.
+Content: Low Content Pages,medium,accepted,2026-08-26,retain prior accepted policy,Thin blog topic hubs are by design.
+Page Titles: Below 30 Characters,medium,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+Page Titles: Below 200 Pixels,medium,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+Security: Missing Content-Security-Policy Header,low,open,2026-08-26,retain previous policy,CSP was already accepted in the saved audit. No policy is introduced without testing all form and measurement dependencies.
+Security: Missing Secure Referrer-Policy Header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+Security: Missing X-Content-Type-Options Header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+Security: Missing X-Frame-Options Header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+Hreflang: Missing X-Default,low,open,2026-08-26,no current defect demonstrated,The current English website does not publish a language-alternate set. Do not create unnecessary alternate annotations.
+Links: Pages With High External Outlinks,low,open,2026-08-26,retain intentional links,"Attribution, enquiry context, contact links and source references remain functional. Current links and fragments resolve."
+URL: GA Tracking Parameters,low,open,2026-08-26,retain intentional links,"Attribution, enquiry context, contact links and source references remain functional. Current links and fragments resolve."
+H2: Multiple,low,accepted,2026-08-26,retain prior accepted policy,Multiple H2s are valid HTML when the outline is logical.
+Search Console: No Search Analytics Data,low,accepted,2026-08-26,retain prior accepted policy,GSC empty is not a crawl defect.
+Images: Missing Size Attributes,low,accepted,2026-08-26,retain prior accepted policy,"CLS work lives on Speed, not this queue."
+hreflang missing xdefault,low,open,2026-08-26,no current defect demonstrated,The current English website does not publish a language-alternate set. Do not create unnecessary alternate annotations.
+security missing contentsecuritypolicy header,low,accepted,2026-08-26,retain prior accepted policy,CSP was skipped on purpose.
+security missing secure referrerpolicy header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+security missing xcontenttypeoptions header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+security missing xframeoptions header,low,open,2026-08-26,already addressed,"vercel.json applies nosniff, SAMEORIGIN and strict-origin-when-cross-origin globally; live /robots.txt headers confirm these settings."
+Meta Description: Over 155 Characters,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+Images: Alt Text Over 100 Characters,low,accepted,2026-08-26,retain prior accepted policy,Alt length is not an indexation fault.
+images images with alt text over x characters,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+H2: Duplicate,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+H2: Over 70 Characters,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+H1: Over 70 Characters,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+Meta Description: Over 985 Pixels,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+URL: Parameters,low,open,2026-08-26,retain intentional links,"Attribution, enquiry context, contact links and source references remain functional. Current links and fragments resolve."
+URL: Underscores,low,accepted,2026-08-26,retain prior accepted policy,Renaming a live URL is forbidden.
+URL: Over 115 Characters,low,accepted,2026-08-26,retain prior accepted policy,Renaming a live URL is forbidden.
+Content: Readability Difficult,low,accepted,2026-08-26,retain prior accepted policy,Readability scores are not a ranking gate.
+Security: Bad Content Type,low,open,2026-08-26,stale unused asset paths,Named legacy root image URLs are now absent and unreferenced by current pages; current image assets and visible page photographs are checked.
+H2: Non-Sequential,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."
+Response Codes: Internal Redirection (3xx),low,open,2026-08-26,current article links corrected,Article links now use current destinations and the canonical www host; current HTML check finds no linked redirect aliases.
+h2 nonsequential,low,open,2026-08-26,retain current copy,"Current build has unique titles, one H1, descriptions and canonicals on all 256 pages. Length/readability/section-label warnings alone do not justify rewriting approved copy."

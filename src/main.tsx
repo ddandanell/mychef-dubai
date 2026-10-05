@@ -52,9 +52,10 @@ async function boot() {
   container.replaceChildren()
 
   // The build keeps one complete set of SEO tags in the static HTML for crawlers.
-  // Remove that plain prerendered copy before Helmet mounts the live tags so a
-  // JavaScript-rendered audit never sees duplicate titles or descriptions.
-  document.head.querySelectorAll('[data-prerender-seo="true"]').forEach((node) => node.remove())
+  // The fallback shell also has a plain title, without a prerender marker. Remove
+  // both before React owns any head nodes, so direct fallback loads and client
+  // navigation keep only the current route's title.
+  document.head.querySelectorAll('[data-prerender-seo="true"], title').forEach((node) => node.remove())
 
   const root = createRoot(container)
   flushSync(() => {

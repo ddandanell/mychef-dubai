@@ -31,9 +31,16 @@ const services = {
   canape: { href: '/canape-catering-dubai', label: 'canapé catering', anchor: 'canapé catering in Dubai' },
   christmas: { href: '/christmas-catering-dubai', label: 'Christmas catering', anchor: 'Christmas catering in Dubai' },
   diwali: { href: '/diwali-catering-dubai', label: 'Diwali catering', anchor: 'Diwali catering in Dubai' },
+  production: { href: '/production-catering-dubai', label: 'production catering', anchor: 'production catering in Dubai' },
 } as const
 
 export const BLOG_SERVICE_TARGETS: Record<string, keyof typeof services> = {
+  'catering-for-embassies-in-dubai-complete-guide': 'corporateEvent',
+  'private-chefs-for-new-parents-in-dubai-complete-guide': 'chef',
+  'catering-for-film-and-tv-productions-in-dubai-complete-guide': 'production',
+  'private-chefs-for-expat-families-in-dubai-complete-guide': 'chef',
+  'catering-for-real-estate-open-houses-in-dubai-complete-guide': 'corporateEvent',
+  'mychef-vs-dish-ae-which-is-better-in': 'catering',
   'best-home-catering-services-in-dubai': 'catering',
   'mychef-vs-monchef-which-is-better-in': 'catering',
   'mychef-vs-taste-studio-which-is-better-in': 'catering',

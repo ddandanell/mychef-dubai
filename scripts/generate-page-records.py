@@ -5,6 +5,7 @@ Private account research stays outside this public repository.
 """
 from __future__ import annotations
 import argparse, json, re, sys
+from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -98,7 +99,13 @@ def generate():
 
 sitemap_paths=set(re.findall(r'<loc>https://www\.mychef\.ae([^<]*)</loc>',(ROOT/'public/sitemap.xml').read_text()))
 if __name__=='__main__':
-    args=argparse.ArgumentParser();args.add_argument('--check',action='store_true');check=args.parse_args().check
+    args=argparse.ArgumentParser();args.add_argument('--check',action='store_true');args.add_argument('--review-date',type=date.fromisoformat)
+    options=args.parse_args();check=options.check
+    # A check uses the committed snapshot date rather than changing every record
+    # as the calendar advances. A new review can explicitly stamp its own date.
+    REVIEW_DATE=str(options.review_date) if options.review_date else read(OUT/'_index.json',{}).get('reviewed_at',REVIEW_DATE)
+    CURRENT_AUDIT=ROOT/'docs/editorial-audit'/REVIEW_DATE
+    if REVIEW_DATE=='2026-10-03':CURRENT_AUDIT=CURRENT_AUDIT/'short-term-pricing'
     outputs,rendered=generate();bad=[];OUT.mkdir(parents=True,exist_ok=True)
     for name,data in outputs.items():
         text=json.dumps(data,indent=2,ensure_ascii=False)+'\n';f=OUT/name

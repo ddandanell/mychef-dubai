@@ -33,6 +33,12 @@ for (const path of [
   '/blog/best-private-chefs-in-dubai-for-home-dining',
   '/blog/best-drop-off-catering-services-in-dubai',
   '/blog/chef-maison-alternatives-in',
+  '/blog/catering-for-embassies-in-dubai-complete-guide',
+  '/blog/private-chefs-for-new-parents-in-dubai-complete-guide',
+  '/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide',
+  '/blog/private-chefs-for-expat-families-in-dubai-complete-guide',
+  '/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide',
+  '/blog/mychef-vs-dish-ae-which-is-better-in',
   '/private-chef-dubai/?utm_source=readiness-test',
 ]) {
   await preloadRoute(path)

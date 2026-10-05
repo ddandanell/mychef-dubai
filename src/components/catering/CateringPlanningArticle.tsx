@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router'
 import { ArrowUpRight } from 'lucide-react'
 import BlogProse from '@/components/blog/BlogProse'
 import BlogReadingLink from '@/components/blog/BlogReadingLink'
-import { cateringDesign } from './CateringEditorial'
+import { cateringDesign } from '@/content/cateringDesign'
 
 type Photo = { image: string; alt: string }
 export type CateringDetailPage = { title: string; focus: string; sections: { id: string; title: string; paragraphs: string[] }[]; links: { href: string; label: string }[] }

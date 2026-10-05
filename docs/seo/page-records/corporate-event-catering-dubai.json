@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/corporate-event-catering-dubai",
   "path": "/corporate-event-catering-dubai",
   "role": "indexable page",
@@ -66,6 +66,8 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
     "src/content/cateringPricing.ts",
     "src/content/corporateCluster.ts",
     "src/content/corporateEventPage.ts",
@@ -96,7 +98,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2505,
-    "current_word_count": 3146,
+    "current_word_count": 3167,
     "headings": [
       {
         "level": "h2",
@@ -264,7 +266,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

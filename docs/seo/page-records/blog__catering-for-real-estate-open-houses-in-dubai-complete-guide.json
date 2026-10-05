@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
   "path": "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
   "role": "indexable page",
@@ -49,6 +49,8 @@
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/catering-for-real-estate-open-houses-in-dubai-complete-guide.json",
@@ -69,7 +71,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2533,
+    "current_word_count": 2537,
     "headings": [
       {
         "level": "h2",
@@ -165,11 +167,11 @@
       },
       {
         "level": "h2",
-        "text": "Plan catering with myCHEF"
+        "text": "Plan corporate event catering with myCHEF"
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {}

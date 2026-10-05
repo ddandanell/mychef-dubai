@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/weekly-meal-prep-dubai",
   "path": "/weekly-meal-prep-dubai",
   "role": "indexable page",
@@ -60,6 +60,8 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
@@ -243,7 +245,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

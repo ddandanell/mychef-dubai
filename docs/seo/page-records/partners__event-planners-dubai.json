@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/partners/event-planners-dubai",
   "path": "/partners/event-planners-dubai",
   "role": "indexable page",
@@ -57,6 +57,8 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
     "src/content/parkedUrls.ts",
     "src/content/planningDetails.ts",
     "src/content/privateChefDesign.ts",
@@ -161,7 +163,7 @@
       }
     ],
     "baseline_findings": [],
-    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

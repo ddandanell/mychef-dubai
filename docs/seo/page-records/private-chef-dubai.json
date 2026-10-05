@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-03",
+  "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/private-chef-dubai",
   "path": "/private-chef-dubai",
   "role": "indexable page",
@@ -62,6 +62,8 @@
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
     "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
@@ -93,7 +95,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2706,
+    "current_word_count": 2773,
     "headings": [
       {
         "level": "h2",
@@ -182,6 +184,10 @@
       {
         "level": "h2",
         "text": "A few helpful answers."
+      },
+      {
+        "level": "h3",
+        "text": "What should I include in my enquiry?"
       },
       {
         "level": "h3",
@@ -277,7 +283,7 @@
       "F05",
       "F22"
     ],
-    "log": "docs/editorial-audit/2026-10-03/README.md",
+    "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
   "internal_linking": {

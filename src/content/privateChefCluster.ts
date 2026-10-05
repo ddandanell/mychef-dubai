@@ -362,6 +362,7 @@ export const foodProfilePreview = [
 ] as const
 
 export const parentFaqs = [
+  { q: 'What should I include in my enquiry?', a: 'Share your Dubai area, household size, preferred start date, cooking days and dietary requirements. Tell us whether you need a single visit, recurring cooking visits or a long-term household chef. We typically acknowledge enquiries within 15 minutes between 9am and 9pm Dubai time. Chef availability and your written proposal are confirmed after reviewing the brief.' },
   { q: 'Can you help us find a long-term live-in or live-out chef?', a: 'Yes. Our [household chef service](/full-time-private-chef-dubai) includes a personal chef search, a 30-day Learning Month, an approved Household Food Profile and ongoing management. Choose [live-in](/private-chef-dubai/live-in-chef) or [daily live-out](/private-chef-dubai/live-out-chef), with Managed Household from AED 15,000/month, Premium at approximately AED 24,000–30,000 and Executive / Estate roles quoted individually. Fees are before 5% VAT; AED 950 Match Activation, paid trials, groceries and agreed extras are separate.' },
   {
     "q": "What does a household private chef do?",

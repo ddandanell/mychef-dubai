@@ -1,0 +1,15 @@
+{
+  "private_chef_initial_js": {
+    "before_bytes": 1139281,
+    "after_bytes": 1031250,
+    "before_gzip": 317903,
+    "after_gzip": 284156,
+    "gzip_reduction_percent": 10.62
+  },
+  "shared_entry": {
+    "before_bytes": 702050,
+    "after_bytes": 593650,
+    "before_gzip": 194860,
+    "after_gzip": 160940
+  }
+}

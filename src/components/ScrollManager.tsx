@@ -1,10 +1,18 @@
 import { useEffect, useLayoutEffect } from 'react'
 import { useLocation } from 'react-router'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import gsap from 'gsap'
 import { armRevealFailsafe } from '../lib/revealFailsafe'
 import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrollToTop'
 import { scrollToHash } from '../lib/scrollToHash'
+
+function refreshRegisteredScrollTriggers() {
+  // GSAP exposes its registered plugins here; the installed typings omit this
+  // core method. Reading it avoids importing a plugin on pages with no triggers.
+  const core = gsap.core as typeof gsap.core & {
+    globals(): { ScrollTrigger?: { refresh(): void } }
+  }
+  core.globals().ScrollTrigger?.refresh()
+}
 
 /**
  * Handles everything that has to happen when the route changes in this SPA.
@@ -20,7 +28,6 @@ import { scrollToHash } from '../lib/scrollToHash'
  *  4. `armRevealFailsafe()` for anything still stuck at opacity:0.
  */
 export default function ScrollManager() {
-  useScrollTrigger()
   const { pathname, hash, key } = useLocation()
 
   useLayoutEffect(() => {
@@ -38,7 +45,9 @@ export default function ScrollManager() {
     if (hash) {
       const releaseHash = scrollToHash(hash)
       const refresh = window.setTimeout(() => {
-        ScrollTrigger.refresh()
+        // Animated pages register their own plugin. Plain editorial pages do
+        // not need to download ScrollTrigger just to navigate or follow a hash.
+        refreshRegisteredScrollTriggers()
         armRevealFailsafe()
       }, 80)
       return () => {
@@ -50,7 +59,7 @@ export default function ScrollManager() {
     const releaseHold = holdScrollTop(420)
     const refresh = window.setTimeout(() => {
       jumpToTop()
-      ScrollTrigger.refresh()
+      refreshRegisteredScrollTriggers()
       armRevealFailsafe()
     }, 80)
 
