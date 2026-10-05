@@ -267,7 +267,7 @@ export default function DubaiCateringPricesGuide() {
     <div ref={containerRef}>
       <SEO
         title="Catering Prices Dubai 2026 | Cost Guide | myCHEF"
-        description="2026 Catering prices Dubai per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised q"
+        description="2026 catering prices in Dubai per person: private chefs, canapés, buffet, BBQ and yacht events from AED 90. See what drives cost and request an itemised quote."
         canonicalPath="/dubai-catering-prices-guide"
         ogImage="/service-catering.webp"
         schema={schema}
