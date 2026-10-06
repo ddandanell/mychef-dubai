@@ -44,7 +44,7 @@ export function getAdAttribution(): AdAttribution {
   if (typeof window === 'undefined') return emptyAttribution
 
   const current = fromParams(new URLSearchParams(window.location.search))
-  const isPaidVisit = current.source === 'google' || current.medium === 'cpc' || Boolean(current.gclid)
+  const isPaidVisit = /^(cpc|ppc|paidsearch)$/i.test(current.medium) || Boolean(current.gclid)
 
   if (isPaidVisit) {
     try {
@@ -70,7 +70,8 @@ export function appendAdAttribution(message: string): string {
   const lines = [
     message,
     '',
-    'Source: Google Ads',
+    attribution.gclid || attribution.source.toLowerCase() === 'google' ? 'Source: Google Ads' : `Source: ${attribution.source || 'Paid search'}`,
+    attribution.campaign ? `Campaign: ${attribution.campaign}` : '',
     attribution.content ? `Ad group: ${contentLabels[attribution.content] || attribution.content}` : '',
     attribution.term ? `Search: ${attribution.term}` : '',
     attribution.gclid ? `Google reference: ${attribution.gclid}` : '',
