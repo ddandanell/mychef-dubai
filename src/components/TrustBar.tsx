@@ -1,5 +1,6 @@
 import { Clock } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { RESPONSE_PROOF, PRICING_PROOF, RESPONSE_WINDOW } from '@/content/trustProof'
 
 interface TrustBarProps {
   variant?: 'light' | 'dark' | 'compact'
@@ -38,7 +39,7 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
                 isLight ? 'text-charcoal' : 'text-gray-400'
               )}
             >
-              Typical reply within 15 minutes during business hours, 9am to 9pm
+              {RESPONSE_PROOF}, {RESPONSE_WINDOW} · {PRICING_PROOF}
             </span>
           </div>
 
