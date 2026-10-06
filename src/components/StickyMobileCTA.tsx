@@ -4,6 +4,7 @@ import { Phone, FileText } from 'lucide-react'
 import { useStickyWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { buildWhatsAppLink, DEFAULT_WHATSAPP_MESSAGE } from '@/lib/whatsapp'
 import { inquiryHref } from '@/lib/inquiry'
+import { SHORT_TRUST_PROOF } from '@/content/trustProof'
 
 interface StickyMobileCTAProps {
   whatsappMessage?: string
@@ -53,7 +54,7 @@ const StickyMobileCTA = memo(function StickyMobileCTA({ whatsappMessage }: Stick
           </a>
         </div>
         <p className="text-center font-inter text-[10px] uppercase tracking-wider text-gray-400 mt-1 mb-1">
-          Typical reply within 15 min · No obligation
+          {SHORT_TRUST_PROOF}
         </p>
       </div>
     </div>
