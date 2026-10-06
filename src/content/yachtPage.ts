@@ -9,11 +9,11 @@ import {
 } from './yachtCateringQuote'
 
 export const YACHT_SEO = {
-  title: 'Yacht Catering Dubai | Private Chef & Catering | myCHEF',
+  title: 'Yacht Catering Dubai | Menus & Onboard Service | myCHEF',
   description:
-    'Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.',
+    'Yacht catering in Dubai for a yacht you own or charter. Compare canapés, buffets and onboard chefs. Request a quote with your date, marina and guest count.',
   h1: 'Yacht Catering Dubai',
-  ogTitle: 'Yacht Catering Dubai | Private Chef & Catering',
+  ogTitle: 'Yacht Catering Dubai | Menus & Onboard Service',
 } as const
 
 export const YACHT_POSITIONING =
@@ -25,7 +25,7 @@ export const YACHT_HERO = {
   eyebrow: 'Chefs, menus and onboard service',
   h1: YACHT_SEO.h1,
   support:
-    "For your chartered yacht, with preparation, loading and service coordinated around the captain’s requirements.",
+    "Canapés, buffets or a private chef on a yacht you own or charter. We plan preparation, marina loading and onboard service around your captain’s requirements.",
   priceLine: `Example menus from ${formatYachtAed(YACHT_MENU_FORMATS[1].perGuestAed)} per guest*`,
   priceNote:
     '*113-guest example, before 5% VAT. Your proposal confirms the full service and price.',
