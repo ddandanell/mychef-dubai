@@ -92,6 +92,9 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
           message: brief,
           source: adAttributionSource(fromParam || sourcePath),
           gclid: getAdAttribution().gclid,
+          utm_source: getAdAttribution().source, utm_medium: getAdAttribution().medium,
+          utm_campaign: getAdAttribution().campaign, utm_content: getAdAttribution().content,
+          utm_term: getAdAttribution().term,
           page: typeof window !== 'undefined' ? window.location.pathname + window.location.search : '/inquiry',
         }),
       })
