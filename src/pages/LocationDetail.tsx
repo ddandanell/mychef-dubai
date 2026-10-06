@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ORGANIZATION_REF } from '@/lib/organizationSchema'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 import { locationPath } from '@/data/locations'
 import { isParked } from '@/content/parkedUrls'
 import {
@@ -152,6 +153,7 @@ export default function LocationDetail() {
     )
   }
 
+  const authority = pageAuthorityFor(`/locations/${loc.slug}`)
   const pageUrl = `https://www.mychef.ae/locations/${loc.slug}`
 
   const schema = {
@@ -216,11 +218,11 @@ export default function LocationDetail() {
             {loc.heroSubtitle}
           </p>
           <p className="font-inter text-base text-gold max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
-            Tell us the date, guest count and this area. We send a written plan.
+            Use the local checklist, then explore the service that fits your household or occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
-              Request your quote
+            <Link to={authority?.money_page || "/private-chef-dubai"} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
+              Explore private chef services
             </Link>
             <a
               href={whatsappLink}
@@ -241,7 +243,7 @@ export default function LocationDetail() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="loc-section opacity-0 translate-y-8">
-            <SectionLabel>Private Chef & Catering {loc.name}</SectionLabel>
+            <SectionLabel>Planning in {loc.name}</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-8">
               {loc.uniqueAngle}
             </h2>
@@ -573,7 +575,7 @@ export default function LocationDetail() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">
-              Request your quote
+              Explore private chef services
             </Link>
             <a
               href={whatsappLink}

@@ -1,7 +1,7 @@
 {
  "url": "/blog/private-chef-palm-jumeirah-guide",
  "keyword_strategy": {
-  "main_keyword": "palm jumeirah villa dining",
+  "main_keyword": "planning a dinner in palm jumeirah: kitchen and access checklist",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,28 +11,18 @@
   "subkeywords_total": 8,
   "subkeywords_carried": 1,
   "coverage_percent": 12,
-  "subkeywords_carried_list": [
-   "palm jumeirah villa dining menu"
-  ],
-  "subkeywords_not_carried": [
-   "the palm jumeirah restaurants",
-   "casual restaurants palm jumeirah",
-   "palm jumeirah villa dining buffet",
-   "best restaurants in palm jumeirah",
-   "anantara palm jumeirah restaurants",
-   "palm jumeirah restaurants with a view",
-   "affordable restaurants in palm jumeirah"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /luxury-dining-experiences. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Palm Jumeirah Villa Dining — A Local Guide | myCHEF Dubai",
-  "meta_description": "Palm Jumeirah villa dining explained: how the Fronds, Shoreline and beachfront differ for hosting, what each kitchen supports, and what it costs.",
-  "h1": "Palm Jumeirah Villa Dining — A Local Guide"
+  "title": "Palm Jumeirah Dinner Planning: Kitchen & Access | myCHEF",
+  "meta_description": "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat.",
+  "h1": "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist"
  },
  "opening_paragraph": [
-  "Palm Jumeirah villa dining is shaped by where on the Palm you are. Where you are on the Palm is the whole story. A private chef Palm Jumeirah booking is well suited to a night where the menu matches the setting, and most in-villa dinners here start from around AED 950 per person. Frond beach villas are made for BBQs and long multi-course dinners. The Shoreline and Palm Tower apartments are better for a quiet dinner for a few. This guide covers the format, the cost, the food, the access, and how myCHEF checks the chef who shows up at your door."
+  "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu."
  ],
  "replace_in_block": [
   {
@@ -245,5 +235,6 @@
     "Share your date, guest count and venue with myCHEF and you will receive an itemised proposal priced to your exact menu, usually within one business day."
    ]
   }
- ]
+ ],
+ "updated_at": "2026-10-06"
 }

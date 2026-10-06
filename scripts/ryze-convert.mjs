@@ -11,6 +11,7 @@ const sitemapFile = path.join(root, 'public/sitemap.xml')
 const site = 'https://www.mychef.ae'
 const deployment = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'))
 const redirectPaths = new Set((deployment.redirects || []).map((item) => item.source))
+const authority = JSON.parse(await readFile(path.join(root, 'src/content/pageAuthority.json'), 'utf8'))
 
 const validSlug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const xmlEscape = (value) => String(value)
@@ -47,6 +48,12 @@ const articles = []
 for (const name of sourceNames) {
   const source = JSON.parse(await readFile(path.join(sourceDir, name), 'utf8'))
   if (source.status !== 'published') continue
+  const route = '/blog/' + source.slug
+  const owner = authority[route]
+  if (!redirectPaths.has(route) && !owner) throw new Error('Assign a core money page in the SEO contract before publishing ' + route)
+  if (owner?.h1 && (source.title !== owner.h1 || source.meta_title !== owner.title)) {
+    throw new Error('Article metadata conflicts with its approved informational focus: ' + route)
+  }
   if (!validSlug.test(source.slug || '')) throw new Error('Invalid Ryze article slug in ' + name)
   if (!source.title || (!source.body_html && !source.body_markdown)) {
     throw new Error('Missing title or body in ' + name)

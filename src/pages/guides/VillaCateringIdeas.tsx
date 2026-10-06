@@ -1,8 +1,8 @@
 import { NonCateringVisual } from '@/components/catering/CateringEditorial'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /villa-catering-ideas-dubai
-//     primary:     "villa catering ideas dubai"
-//     subkeywords: "villa party food ideas dubai" · "home entertaining ideas dubai" · "villa dinner party ideas dubai" · "outdoor villa catering ideas dubai" · "small villa catering ideas dubai" · "birthday catering for villa party dubai" · "dubai self catering holidays" · "villa and yacht catering partners dubai" · "birthday dinner at villa dubai" · "chef for villa" · "giuseppe villa chef" · "jerry villa chef"
+//     primary:     "villa party ideas: match the menu to your space"
+//     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -267,7 +267,7 @@ export default function VillaCateringIdeas() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 villa-hero-h1">
-            Villa Catering Ideas Dubai Homes and Residences
+            Villa Party Ideas: Match the Menu to Your Space
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 villa-hero-sub">
             Menu formats, setup tips and staffing guidance for villa parties across Dubai, from poolside BBQs to seated dinners.

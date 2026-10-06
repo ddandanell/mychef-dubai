@@ -54,7 +54,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Catering FAQ Dubai | Private Chef Questions | myCHEF"
   },
   "/locations/jlt": {
-    "title": "Private Chef JLT Dubai | Home & Office | myCHEF"
+    "title": "JLT Meal Planning: Kitchens & Building Access | myCHEF",
+    "description": "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule."
   },
   "/mediterranean-catering-dubai": {
     "title": "Mediterranean Catering Dubai | Sharing Menus | myCHEF",
@@ -127,8 +128,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Brand Activation Catering Dubai | Pop-Ups | myCHEF"
   },
   "/best-catering-companies-dubai": {
-    "title": "Best Catering Companies Dubai: How to Compare | myCHEF",
-    "description": "Compare catering companies in Dubai by menu, service, venue suitability, written pricing and verified credentials. A practical guide from myCHEF."
+    "title": "Choosing a Catering Company: What to Check | myCHEF",
+    "description": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities."
   },
   "/corporate-dinner-package-dubai": {
     "title": "Corporate Dinner Package Dubai | 10–15 Guests | myCHEF",
@@ -179,8 +180,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Chefs table Dubai at home: a multi-course tasting cooked in front of 2–12 guests. Chef-led plated dining AED 700–950 per person, with clear-down."
   },
   "/locations/jbr": {
-    "title": "Private Chef JBR | Beachfront Apartment Homes | myCHEF",
-    "description": "Private chef JBR for beach apartments and nearby villas. Menu, cooking in your kitchen, service and clear-down. Tell us the date and tower."
+    "title": "JBR Dinner Planning: Apartment Access & Setup | myCHEF",
+    "description": "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule."
   },
   "/desert-dining-dubai": {
     "title": "Desert Dining Dubai | A Private Chef Table | myCHEF",
@@ -195,8 +196,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Sushi catering in Dubai for homes, yachts and events. Choose chilled platters or a live counter, with menu, chilled storage and service arrangements confirmed."
   },
   "/locations/difc": {
-    "title": "Private Chef DIFC | Apartments and Offices | myCHEF",
-    "description": "Private chef DIFC for apartments, offices and nearby homes. Menu, cooking on site, service and clear-down. Tell us the date and address."
+    "title": "DIFC Meal Planning: Access & Service Logistics | myCHEF",
+    "description": "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule."
   },
   "/eid-catering-dubai": {
     "title": "Eid Catering Dubai | Home, Majlis and Table | myCHEF",
@@ -271,8 +272,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Event catering price guide Dubai 2026: wedding from AED 180, buffet from AED 120, plated AED 700–950. Same floors as the Catering hub. VAT extra."
   },
   "/blog/how-much-does-private-chef-cost-dubai": {
-    "title": "How Much Does a Private Chef Cost in Dubai? | myCHEF",
-    "description": "How much does a private chef cost in Dubai? Visits from AED 1,125 single or AED 750 member. Compare full days, meal packs and extra costs before booking."
+    "title": "What Affects a Private Chef Quote in Dubai? | myCHEF",
+    "description": "A chef quote combines time, ingredients, travel and any service support."
   },
   "/arabic-catering-dubai": {
     "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
@@ -311,8 +312,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "How far ahead should you book a caterer in Dubai? Consider event size, menus, tastings, venue access and peak dates before confirming."
   },
   "/blog/how-to-hire-a-private-chef-dubai": {
-    "title": "How to Hire a Private Chef Dubai | myCHEF",
-    "description": "How to hire a private chef in Dubai: define regular household cooking or a private dinner, review the chef match and confirm the written scope."
+    "title": "Questions to Ask Before Choosing a Household Chef | myCHEF",
+    "description": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family."
   },
   "/blog/iftar-at-home-dubai": {
     "title": "Iftar at Home Dubai: Menu and Planning Guide | myCHEF",
@@ -432,5 +433,101 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   "/postpartum-meal-prep-dubai": {
     "title": "Postpartum Meal Prep Dubai | Meals Cooked at Home | myCHEF",
     "description": "Postpartum meal prep in Dubai, cooked in your kitchen. Choose a single Fridge Reset or a member plan for your first weeks at home. Request a proposal."
+  },
+  "/blog/best-private-chef-birthday-dinner-dubai": {
+    "title": "Birthday Dinner at Home: Menus & Timing | myCHEF",
+    "description": "Plan the menu around the guest of honour, then work backwards from the cake moment."
+  },
+  "/blog/private-chef-palm-jumeirah-guide": {
+    "title": "Palm Jumeirah Dinner Planning: Kitchen & Access | myCHEF",
+    "description": "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat."
+  },
+  "/guide/private-dining-dubai": {
+    "title": "How to Plan a Private Dinner at Home in Dubai | myCHEF",
+    "description": "Start a private dinner plan with the people at the table, the space available and the pace of the evening."
+  },
+  "/blog/best-yacht-catering-services-in-dubai": {
+    "title": "Comparing Yacht Catering Proposals in Dubai | myCHEF",
+    "description": "A yacht catering proposal needs an onboard plan as well as a menu."
+  },
+  "/blog/best-drop-off-catering-services-in-dubai": {
+    "title": "Drop-Off Catering Handover Checklist | myCHEF",
+    "description": "A delivered menu still needs a receiving and serving plan."
+  },
+  "/blog/best-corporate-event-catering-companies-in-dubai": {
+    "title": "Corporate Event Proposals: What to Check | myCHEF",
+    "description": "Assess a corporate event proposal against the agenda, venue and approval process."
+  },
+  "/blog/best-corporate-lunch-catering-companies-in-dubai": {
+    "title": "Office Lunch Delivery & Billing Checklist | myCHEF",
+    "description": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated."
+  },
+  "/villa-catering-ideas-dubai": {
+    "title": "Villa Party Layout & Menu Ideas in Dubai | myCHEF",
+    "description": "Match a villa party menu to the space guests will actually use."
+  },
+  "/blog/best-private-chefs-for-villas-in-dubai": {
+    "title": "Villa Chef Brief: Kitchen, Access & Schedule | myCHEF",
+    "description": "A useful villa chef brief describes the kitchen, access and cooking schedule."
+  },
+  "/locations/al-barsha": {
+    "title": "Al Barsha Home Dinner Planning Checklist | myCHEF",
+    "description": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule."
+  },
+  "/blog/best-arabic-catering-companies-in-dubai": {
+    "title": "Arabic Menu Planning: Mezze, Grills & Portions | myCHEF",
+    "description": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions."
+  },
+  "/blog/best-bbq-catering-companies-in-dubai": {
+    "title": "BBQ Party Planning: Space, Smoke & Service | myCHEF",
+    "description": "A BBQ plan starts with where cooking can happen safely and with permission."
+  },
+  "/blog/best-brunch-catering-services-in-dubai": {
+    "title": "Comparing Brunch Menus for a Home Gathering | myCHEF",
+    "description": "Compare brunch menus by balance, preparation and replenishment."
+  },
+  "/blog/best-cocktail-party-catering-companies-in-dubai": {
+    "title": "Standing Reception Planning: Bites & Flow | myCHEF",
+    "description": "Food at a standing reception must fit the room and the pace of the gathering."
+  },
+  "/blog/best-desert-dining-catering-companies-in-dubai": {
+    "title": "Desert Dinner Proposals: Logistics Checklist | myCHEF",
+    "description": "A desert dinner proposal needs a workable location and access plan."
+  },
+  "/blog/best-gluten-free-catering-companies-in-dubai": {
+    "title": "Gluten-Free Event Menus: Questions to Ask | myCHEF",
+    "description": "A gluten-free event menu requires clear ingredient and preparation questions."
+  },
+  "/blog/best-grazing-table-catering-companies-in-dubai": {
+    "title": "Grazing Table Planning: Portions & Setup | myCHEF",
+    "description": "A grazing table needs more than a styled photograph."
+  },
+  "/blog/best-halal-catering-companies-in-dubai": {
+    "title": "Halal Event Menus: Supplier Questions | myCHEF",
+    "description": "Start halal menu planning by stating the ingredients and sourcing requirements your guests expect."
+  },
+  "/blog/best-kids-birthday-party-caterers-in-dubai": {
+    "title": "Children’s Party Food: Portions & Serving Plan | myCHEF",
+    "description": "Children’s party food should fit their ages, activity schedule and serving arrangements."
+  },
+  "/blog/best-luxury-private-dining-experiences-in-dubai": {
+    "title": "Comparing Private Dinner Formats in Dubai | myCHEF",
+    "description": "Choose a private dinner format around the guests, the setting and the pace you want."
+  },
+  "/blog/best-private-cooking-class-experiences-in-dubai": {
+    "title": "Home Cooking Class Planning Checklist | myCHEF",
+    "description": "A home cooking class needs a clear learning goal and enough usable kitchen space."
+  },
+  "/blog/best-ramadan-iftar-catering-companies-in-dubai": {
+    "title": "Iftar Menu Planning: Timing & Service | myCHEF",
+    "description": "An iftar menu plan should make the first service ready at the agreed time."
+  },
+  "/blog/best-vegan-catering-services-in-dubai": {
+    "title": "Plant-Based Event Menus: What to Compare | myCHEF",
+    "description": "Compare a plant-based event menu as a complete meal."
+  },
+  "/blog/best-wedding-catering-companies-in-dubai": {
+    "title": "Wedding Caterer Shortlist: Questions to Ask | myCHEF",
+    "description": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format."
   }
 }

@@ -809,15 +809,15 @@ const allLocations: LocationData[] = [
   {
     slug: 'jbr',
     name: 'JBR',
-    title: 'Private Chef JBR | myCHEF',
+    title: "JBR Dinner Planning: Apartment Access & Setup | myCHEF",
     metaDescription:
-      "Private chef in JBR for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
-    h1: 'Private Chef JBR',
+      "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule.",
+    h1: "Planning a Dinner in JBR: Access and Apartment Kitchens",
     heroImage: '/loc-jbr.webp',
     heroSubtitle:
-      "A private chef in JBR, with menus and service tailored to your beachfront apartments and residences. Choose regular household cooking or a carefully planned meal for one occasion.",
+      "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
     intro: [
-      "Enjoy professional cooking in JBR, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
       "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
       "We coordinate loading, parking and service-lift access with your building. Kitchen capacity and balcony restrictions are checked before the menu and equipment are confirmed.",
     ],
@@ -828,7 +828,7 @@ const allLocations: LocationData[] = [
       ],
     },
     serviceInclusions: {
-      title: 'What a JBR apartment booking includes',
+      title: 'Questions to confirm for an apartment meal',
       items: [
         'A vetted partner chef matched to a compact or full apartment kitchen',
         'Standing plan: Food Profile and household manager',
@@ -983,7 +983,7 @@ const allLocations: LocationData[] = [
       },
     ],
     uniqueAngle:
-      'Private chef JBR for beachfront apartments on The Walk',
+      "Apartment kitchens, loading and access on The Walk",
     propertyType:
       'Apartments, penthouses and serviced residences. Not a villa community.',
     callToAction: {
@@ -1184,15 +1184,15 @@ const allLocations: LocationData[] = [
   {
     slug: 'difc',
     name: 'DIFC',
-    title: 'Private Chef DIFC | myCHEF',
+    title: "DIFC Meal Planning: Access & Service Logistics | myCHEF",
     metaDescription:
-      "Private chef in DIFC for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
-    h1: 'Private Chef DIFC',
+      "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule.",
+    h1: "Planning Meals in DIFC: Building Access and Service Windows",
     heroImage: '/loc-difc.webp',
     heroSubtitle:
-      "A private chef in DIFC, with menus and service tailored to your residences, offices and boardrooms. Choose regular household cooking or a carefully planned meal for one occasion.",
+      "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
     intro: [
-      "Enjoy professional cooking in DIFC, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
       "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
       "We confirm building permissions, security registration and delivery access with your contact. Boardroom service is planned around the meeting agenda and agreed finish time.",
     ],
@@ -1354,7 +1354,7 @@ const allLocations: LocationData[] = [
       },
     ],
     uniqueAngle:
-      'Private chef DIFC for boardrooms and residences inside the Gate',
+      "Building access and meal schedules in DIFC",
     propertyType:
       'Office towers in Gate Village and the Gate District, with residences in buildings such as Index Tower.',
     callToAction: {
@@ -2115,15 +2115,15 @@ const allLocations: LocationData[] = [
   {
     slug: 'jlt',
     name: 'JLT',
-    title: 'Private Chef JLT | myCHEF',
+    title: "JLT Meal Planning: Kitchens & Building Access | myCHEF",
     metaDescription:
-      "Private chef in JLT for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
-    h1: 'Private Chef JLT',
+      "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule.",
+    h1: "Planning Meals in JLT: Kitchens, Lifts and Access",
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
-      "A private chef in JLT, with menus and service tailored to your lakeside apartments and offices. Choose regular household cooking or a carefully planned meal for one occasion.",
+      "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
     intro: [
-      "Enjoy professional cooking in JLT, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
       "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
       "Cluster access, loading bays and lift bookings are confirmed with your building contact. Office service is timed around meetings, with clear-down included as agreed.",
     ],
@@ -2294,7 +2294,7 @@ const allLocations: LocationData[] = [
       },
     ],
     uniqueAngle:
-      'Private chef JLT for lakeside apartments and DMCC offices',
+      "Tower access, lifts and kitchen space in JLT",
     propertyType:
       'Mixed-use cluster towers: apartments, offices and hotel residences around the lakes.',
     callToAction: {
@@ -2671,15 +2671,15 @@ const allLocations: LocationData[] = [
   {
     slug: 'al-barsha',
     name: 'Al Barsha',
-    title: 'Private Chef Al Barsha | myCHEF',
+    title: "Al Barsha Home Dinner Planning Checklist | myCHEF",
     metaDescription:
-      "Private chef in Al Barsha for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
-    h1: 'Private Chef Al Barsha',
+      "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule.",
+    h1: "Planning a Home Dinner in Al Barsha: A Practical Checklist",
     heroImage: '/loc-downtown.webp',
     heroSubtitle:
-      "A private chef in Al Barsha, with menus and service tailored to your villas, apartments and hotel residences. Choose regular household cooking or a carefully planned meal for one occasion.",
+      "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
     intro: [
-      "Enjoy professional cooking in Al Barsha, with a chef working at the address you provide. We plan around your kitchen, guest count and occasion, from everyday household meals to a private celebration.",
+      "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service.",
       "Regular household plans bring a chef back on an agreed schedule, with your preferences recorded in a Food Profile. One-off private dinners and parties are arranged as catering, with the menu, service and equipment quoted for the occasion.",
       "We confirm the property type, parking and concierge arrangements before arrival. Menus and equipment are adapted to the kitchen, with travel and access included in the plan.",
     ],
@@ -2845,7 +2845,7 @@ const allLocations: LocationData[] = [
       },
     ],
     uniqueAngle:
-      'Private chef Al Barsha for villas, apartments and hotel residences',
+      "Planning meals around an Al Barsha household",
     propertyType:
       'Mixed residential area: apartments, villas and hotel apartments near Mall of the Emirates.',
     callToAction: {

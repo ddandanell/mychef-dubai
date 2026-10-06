@@ -1,8 +1,8 @@
 import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/how-much-does-private-chef-cost-dubai
-//     primary:     "how much does private chef cost dubai"
-//     subkeywords: "private chef cost per person dubai" · "how much is a private chef for a night dubai" · "private chef cost for 6 people dubai" · "is a private chef worth it dubai" · "average private chef cost" · "how much does a private chef charge" · "private chef cost per day" · "private chef cost dc"
+//     primary:     "private chef quotes explained: time, food and service"
+//     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -17,7 +17,6 @@ import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
-import SourcesBlock from '../../components/SourcesBlock'
 import ArticleToc from '../../components/ArticleToc'
 import BlogFigure from '../../components/BlogFigure'
 
@@ -25,12 +24,12 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your private chef cost blog and would like a custom quote (via mychef.ae/blog/how-much-does-private-chef-cost-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry'
+const CTA_HREF = "/private-chef-dubai"
 const SLUG = 'how-much-does-private-chef-cost-dubai'
 
 const articleSchema = {
   '@type': 'Article',
-  headline: 'How Much Does a Private Chef Cost in Dubai?',
+  headline: "Private Chef Quotes Explained: Time, Food and Service",
   description: 'How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get an accurate quote for your dinner.',
   author: { '@id': 'https://www.mychef.ae/#organization' },
   publisher: { '@id': 'https://www.mychef.ae/#organization' },
@@ -44,14 +43,14 @@ const breadcrumbSchema = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
     { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mychef.ae/blog' },
-    { '@type': 'ListItem', position: 3, name: 'How Much Does a Private Chef Cost in Dubai?', item: `https://www.mychef.ae/blog/${SLUG}` },
+    { '@type': 'ListItem', position: 3, name: 'Private Chef Quotes Explained: Time, Food and Service', item: `https://www.mychef.ae/blog/${SLUG}` },
   ],
 }
 
 const faqs = [
   {
     q: 'How much does a private chef cost per person in Dubai?',
-    a: 'A multi-course private chef dinner in Dubai typically ranges from AED 350 to AED 650 per person. Smaller, highly bespoke dinners for two to six guests often sit at the higher end because the chef’s time is spread across fewer people.',
+    a: 'The price depends on the cooking time, menu, guest count and service responsibilities. Check the current service or pricing page, then request an itemised proposal with groceries, staffing, transport and VAT identified.',
   },
   {
     q: 'What is included in a private chef’s fee?',
@@ -107,8 +106,8 @@ export default function PrivateChefCostDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How Much Does a Private Chef Cost in Dubai? | myCHEF"
-        description="How much does a private chef cost in Dubai? Visits from AED 1,125 single or AED 750 member. Compare full days, meal packs and extra costs before booking."
+        title="What Affects a Private Chef Quote in Dubai? | myCHEF"
+        description="A chef quote combines time, ingredients, travel and any service support."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         schema={schema}
@@ -117,8 +116,8 @@ export default function PrivateChefCostDubai() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Private Chef"
-        title="How Much Does a Private Chef Cost in Dubai?"
-        subtitle={"Single chef visits start at AED 1,125. Member visits start at AED 750 with 4+ prepaid visits per month. A ten-hour day is AED 2,000 single or AED 1,450 member. Before 5% VAT, groceries and transport."}
+        title="Private Chef Quotes Explained: Time, Food and Service"
+        subtitle={"A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals."}
         image="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         imageAlt="Host and coordinator reviewing an itemised private chef proposal at a dining table"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Cost Dubai' }]}
@@ -138,37 +137,33 @@ export default function PrivateChefCostDubai() {
           </div>
 
           <KeyFactsBox
-            answer="A three-hour Private Chef Visit is AED 1,125 single or AED 750 member. A ten-hour Chef by the Day is AED 2,000 single or AED 1,450 member. Member rates require 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate."
+            answer="A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals."
             facts={[
-              { label: 'Multi-course dinner', value: 'AED 350–650 per person' },
-              { label: 'Chef by the Day · 10 hours', value: 'AED 2,000 single / AED 1,450 member' },
-              { label: 'Small bespoke dinners', value: 'Often at the higher end per person' },
-              { label: 'Major cost drivers', value: 'Group size, menu complexity, ingredients, staffing' },
-              { label: 'Visit fee includes', value: 'Agreed chef time, menu planning, cooking and kitchen cleanup' },
+              { label: 'Start with', value: 'Guest needs and meal format' },
+              { label: 'Prepare', value: 'Kitchen photos and access details' },
+              { label: 'Confirm', value: 'Menu, responsibilities and service window' },
+              { label: 'Prices', value: 'See the current service page and written proposal' },
             ]}
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              How much a private chef costs in Dubai depends on what you want cooked and how you want it served. Choose a visit for household cooking, a meal pack for a planned number of meals, or event catering for a staffed celebration.
+              A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               You can book one visit at the single rate. If you want a regular routine, prepay four or more visits per month to use the member rate. There is no further reduction for adding more days.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Pricing varies based on group size, menu complexity, ingredients, and staffing. This guide explains typical private chef costs in Dubai and what to ask when requesting a quote.
+              Pricing varies based on group size, menu complexity, ingredients, and staffing. This guide explains the cost items to check when comparing written proposals.
             </p>
           </section>
 
+          <p className="font-inter text-body text-gray-500 mb-8">For the service itself, explore <Link to="/private-chef-dubai" className="text-gold underline underline-offset-4">private chef services in Dubai</Link>. Use the checklist below to prepare your brief.</p>
           <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 id="typical-private-chef-price-ranges" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Published private chef visit rates</h2>
-            <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Single / member rates are: Private Chef Visit, three hours, AED 1,125 / 750; Fridge Reset, four hours, AED 1,350 / 900; Fridge Reset with shopping, five hours, AED 1,575 / 1,050; and Chef by the Day, ten hours, AED 2,000 / 1,450. Member plans require 4+ prepaid visits per month. All prices are before 5% VAT. Groceries are at actual cost, no markup, and zone transport is AED 40–130 per visit. Assistants and any agreed extras are itemised separately.
-            </p>
-            <p className="font-inter text-body text-gray-500 leading-relaxed">
-              For a hosted occasion with table service, event catering is quoted around the menu, guest count and staff required. Chef-led plated dining is typically AED 700 to 950 per person. Drop-off catering starts from AED 90. For household cooking, compare the <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4">private chef Dubai prices</Link> and build an itemised estimate.
-            </p>
+            <h2 id="typical-private-chef-price-ranges" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Where to Find the Current Rates</h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">Compare the current service options and confirm the menu, cooking time, ingredients, staffing and transport in the written proposal. Household cooking and a staffed celebration are different arrangements.</p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">Compare the current service options and confirm the menu, cooking time, ingredients, staffing and transport in the written proposal.</p>
           </section>
           <BlogFigure
             image={{
@@ -180,12 +175,7 @@ export default function PrivateChefCostDubai() {
             }}
           />
 
-          <SourcesBlock
-            sources={[
-              { label: 'Market-reference pricing compiled from competitor published menus and platform rates (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
-            ]}
-            note="Pricing ranges are indicative and vary by guest count, menu complexity, ingredient quality, staffing, and travel. Always request an itemised quote before booking."
-          />
+
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="what-affects-the-cost" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Affects the Cost?</h2>
@@ -247,7 +237,7 @@ export default function PrivateChefCostDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Book a Private Chef with myCHEF Dubai</h2>
+            <h2 className="font-playfair text-h2 text-black mb-5">Use Your Brief to Choose the Service</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">private chef service in Dubai</Link> brings you experienced chefs who design bespoke menus for intimate dinners, family gatherings, and special celebrations. we design and manage the experience from ingredients to service so you can enjoy the evening as a guest.
             </p>
@@ -272,13 +262,13 @@ export default function PrivateChefCostDubai() {
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">
-            <h2 className="font-playfair text-h3 text-black mb-3">How Much Does Private Chef Cost Dubai: Get Your Private Chef Quote</h2>
+            <h2 className="font-playfair text-h3 text-black mb-3">Explore the Current Service Options</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Tell us about your occasion, guest count, and preferred cuisine. We will design a private dining experience tailored to your home or villa in Dubai.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <Link to={CTA_HREF} className="btn-primary">
-                Request My Quote
+                Explore private chef services
               </Link>
               <a
                 href={WHATSAPP_LINK}

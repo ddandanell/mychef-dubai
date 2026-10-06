@@ -17,8 +17,8 @@ Production build and all 259 public prerenders passed. The repaired sitemap has 
 
 The final Ryze publishing run passed on retry after concurrent commits caused a non-fast-forward push rejection. Website deployment completed for the functional change set ending at `564409c06739700e47b14d07c4076c9a97054857`.
 
-## Editorial follow-up
+## Editorial alignment — completed follow-up
 
-Keep core service pages as the destinations for booking intent. Supporting articles should answer distinct planning questions and link to the relevant service. The separate private audit contains the page inventory and proposed title, H1, content and anchor-text plans. Proposed editorial rewrites are not part of this applied code batch.
+Keep core service pages as the destinations for booking intent. Supporting articles should answer distinct planning questions and link to the relevant service. The separate private audit contains the page inventory and proposed title, H1, content and anchor-text plans. The follow-up applies the 30 editorial rewrites and assigns all 259 active routes to eight core service owners. See `MONEY-PAGE-HIERARCHY.md` for the enforced publishing rules and validation.
 
 Preserve stable URLs, useful self-canonical guides and existing indexation policies. Update the SEO contract and rendered metadata together when carrying out future editorial changes.

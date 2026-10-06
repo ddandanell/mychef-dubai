@@ -1,3 +1,4 @@
+import { pageAuthorityFor } from './pageAuthority'
 /** Commercial destinations for editorial articles. Guides keep their own
  * comparison/informational intent and send service enquiries to the owner. */
 const services = {
@@ -99,6 +100,8 @@ export const BLOG_SERVICE_TARGETS: Record<string, keyof typeof services> = {
 }
 
 export function blogServiceFor(slug: string) {
+  const authority = pageAuthorityFor('/blog/' + slug)
+  if (authority) return { href: authority.money_page, anchor: authority.anchor, label: authority.anchor }
   const key = BLOG_SERVICE_TARGETS[slug]
     ?? (/private-chef|household|chef-maison|take-a-chef/.test(slug) ? 'chef'
       : /yacht/.test(slug) ? 'yacht'

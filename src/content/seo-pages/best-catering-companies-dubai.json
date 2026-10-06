@@ -1,97 +1,86 @@
 {
-  "url": "/best-catering-companies-dubai",
-  "head": {
-    "title": "Best Catering Companies Dubai: How to Compare | myCHEF",
-    "h1": "Best Catering Companies Dubai: How to Compare",
-    "meta_description": "Compare catering companies in Dubai by menu, service, venue suitability, written pricing and verified credentials. A practical guide from myCHEF."
+ "url": "/best-catering-companies-dubai",
+ "head": {
+  "title": "Choosing a Catering Company: What to Check | myCHEF",
+  "h1": "How to Choose a Catering Company for Your Dubai Event",
+  "meta_description": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities."
+ },
+ "opening_paragraph": [
+  "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities. This guide explains which questions and evidence help you assess a provider before comparing proposals."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Start with the service you need",
+   "new_heading": "Start with the service you need",
+   "new_paragraphs": [
+    "Describe the occasion before creating a shortlist. Delivered office meals, a live BBQ, a wedding buffet and a private tasting menu require different facilities and staffing. Ask each company to explain which parts of the service it provides and which need a separate supplier.",
+    "A venue’s in-house team may be appropriate when the food and setting are booked together. An outside caterer can be suitable when you already have the venue. A chef-led private dinner is useful when the meal is prepared and served in your own home."
+   ]
   },
-  "opening_paragraph": [
-    "The best catering companies in Dubai for your event are the ones whose food, service and operating arrangements fit the occasion. This guide is published by myCHEF, a provider of private chef and catering services. It sets out practical comparison criteria so you can request proposals on a consistent basis."
-  ],
-  "replace_in_block": [
-    {
-      "block_on_your_page": "Start with the service you need",
-      "new_heading": "Start with the service you need",
-      "new_paragraphs": [
-        "Describe the occasion before creating a shortlist. Delivered office meals, a live BBQ, a wedding buffet and a private tasting menu require different facilities and staffing. Ask each company to explain which parts of the service it provides and which need a separate supplier.",
-        "A venue’s in-house team may be appropriate when the food and setting are booked together. An outside caterer can be suitable when you already have the venue. A chef-led private dinner is useful when the meal is prepared and served in your own home."
-      ]
-    },
-    {
-      "block_on_your_page": "Send the same brief to each company",
-      "new_heading": "Send the same brief to each company",
-      "new_paragraphs": [
-        "Include the date, venue, guest count, menu direction, dietary requirements and desired service time. State whether you need chefs, waiters, a bar, tableware, linen or equipment. Include any known access restrictions and the expected finish time.",
-        "With the same brief, you can compare how each provider approaches the work instead of comparing quotes built for different occasions. Ask for proposed substitutions or exclusions to be stated clearly."
-      ]
-    },
-    {
-      "block_on_your_page": "Compare the full written price",
-      "new_heading": "Compare the full written price",
-      "new_paragraphs": [
-        "Review food, staffing, equipment, transport, setup, clear-down and tax as separate items where applicable. Check minimum guest counts, minimum order values, staff hours and overtime. A package price, a per-item price and a per-person price are different units.",
-        "myCHEF drop-off starts from AED 90 per person, standard event buffets from AED 120 and canapés or BBQ from AED 150. Bespoke plated dining is AED 700–950 per person. These are our own starting prices, subject to the agreed scope; they are not a benchmark for every competitor."
-      ]
-    },
-    {
-      "block_on_your_page": "Verify the provider and the evidence",
-      "new_heading": "Verify the provider and the evidence",
-      "new_paragraphs": [
-        "Ask which legal entity prepares the food and which approvals apply to the proposed service. Verify named certifications, insurance and supplier documentation as appropriate. Client examples should make clear whether they describe a completed event, a concept image or an illustrative plan.",
-        "For published competitor prices, open the provider’s current menu or obtain a written quote directly. Check the date, format, guest minimum and inclusions. Historical figures should not be treated as current offers."
-      ]
-    },
-    {
-      "block_on_your_page": "Confirm venue and dietary suitability",
-      "new_heading": "Confirm venue and dietary suitability",
-      "new_paragraphs": [
-        "Before choosing a menu, confirm the kitchen, power, ventilation, refrigeration and loading arrangements. Live stations and outdoor grills depend on the venue’s permissions and facilities. Yacht bookings also require agreement with the operator.",
-        "Share allergies and other dietary requirements before confirming. Ask how the provider will manage ingredient checks, labels and feasible separation, and what cross-contact limitations remain."
-      ]
-    },
-    {
-      "block_on_your_page": "Choose on fit, clarity and follow-through",
-      "new_heading": "Choose on fit, clarity and follow-through",
-      "new_paragraphs": [
-        "A useful proposal answers your questions, states responsibilities and gives you a clear route for changes or concerns. Compare the team’s response, relevant experience and ability to work within your venue alongside the menu and price.",
-        "myCHEF coordinates household chef plans, private dinners and event catering through licensed culinary partners. If that matches your brief, explore our current catering options and request a tailored proposal to compare with your shortlist."
-      ]
-    }
-  ],
-  "add_block": [],
-  "faq": [],
-  "keyword_lock": {
-    "primary": "best catering companies dubai",
-    "subkeywords": [
-      "top catering companies dubai",
-      "list of catering companies in dubai",
-      "top 10 catering companies in dubai",
-      "corporate catering companies",
-      "leading catering company in dubai",
-      "catering company in dubai",
-      "catering companies in dubai",
-      "catering company dubai",
-      "food catering company dubai",
-      "birthday catering company dubai"
-    ]
+  {
+   "block_on_your_page": "Send the same brief to each company",
+   "new_heading": "Send the same brief to each company",
+   "new_paragraphs": [
+    "Include the date, venue, guest count, menu direction, dietary requirements and desired service time. State whether you need chefs, waiters, a bar, tableware, linen or equipment. Include any known access restrictions and the expected finish time.",
+    "With the same brief, you can compare how each provider approaches the work instead of comparing quotes built for different occasions. Ask for proposed substitutions or exclusions to be stated clearly."
+   ]
   },
-  "updated_at": "2026-09-22",
-  "references": [
-    {
-      "label": "myCHEF catering formats and starting prices",
-      "url": "/catering-dubai"
-    },
-    {
-      "label": "Defined catering packages",
-      "url": "/catering-packages-dubai"
-    },
-    {
-      "label": "How to choose a caterer",
-      "url": "/how-to-choose-caterer-dubai"
-    },
-    {
-      "label": "Dubai Municipality: official food and consumer services",
-      "url": "https://www.dm.gov.ae/"
-    }
-  ]
+  {
+   "block_on_your_page": "Compare the full written price",
+   "new_heading": "Compare the full written price",
+   "new_paragraphs": [
+    "Review food, staffing, equipment, transport, setup, clear-down and tax as separate items where applicable. Check minimum guest counts, minimum order values, staff hours and overtime. A package price, a per-item price and a per-person price are different units.",
+    "myCHEF drop-off starts from AED 90 per person, standard event buffets from AED 120 and canapés or BBQ from AED 150. Bespoke plated dining is AED 700–950 per person. These are our own starting prices, subject to the agreed scope; they are not a benchmark for every competitor."
+   ]
+  },
+  {
+   "block_on_your_page": "Verify the provider and the evidence",
+   "new_heading": "Verify the provider and the evidence",
+   "new_paragraphs": [
+    "Ask which legal entity prepares the food and which approvals apply to the proposed service. Verify named certifications, insurance and supplier documentation as appropriate. Client examples should make clear whether they describe a completed event, a concept image or an illustrative plan.",
+    "For published competitor prices, open the provider’s current menu or obtain a written quote directly. Check the date, format, guest minimum and inclusions. Historical figures should not be treated as current offers."
+   ]
+  },
+  {
+   "block_on_your_page": "Confirm venue and dietary suitability",
+   "new_heading": "Confirm venue and dietary suitability",
+   "new_paragraphs": [
+    "Before choosing a menu, confirm the kitchen, power, ventilation, refrigeration and loading arrangements. Live stations and outdoor grills depend on the venue’s permissions and facilities. Yacht bookings also require agreement with the operator.",
+    "Share allergies and other dietary requirements before confirming. Ask how the provider will manage ingredient checks, labels and feasible separation, and what cross-contact limitations remain."
+   ]
+  },
+  {
+   "block_on_your_page": "Choose on fit, clarity and follow-through",
+   "new_heading": "Choose on fit, clarity and follow-through",
+   "new_paragraphs": [
+    "A useful proposal answers your questions, states responsibilities and gives you a clear route for changes or concerns. Compare the team’s response, relevant experience and ability to work within your venue alongside the menu and price.",
+    "myCHEF coordinates household chef plans, private dinners and event catering through licensed culinary partners. If that matches your brief, explore our current catering options and request a tailored proposal to compare with your shortlist."
+   ]
+  }
+ ],
+ "add_block": [],
+ "faq": [],
+ "keyword_lock": {
+  "primary": "how to choose a catering company for your dubai event",
+  "subkeywords": []
+ },
+ "updated_at": "2026-10-06",
+ "references": [
+  {
+   "label": "myCHEF catering formats and starting prices",
+   "url": "/catering-dubai"
+  },
+  {
+   "label": "Defined catering packages",
+   "url": "/catering-packages-dubai"
+  },
+  {
+   "label": "How to choose a caterer",
+   "url": "/how-to-choose-caterer-dubai"
+  },
+  {
+   "label": "Dubai Municipality: official food and consumer services",
+   "url": "https://www.dm.gov.ae/"
+  }
+ ]
 }

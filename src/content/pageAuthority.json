@@ -1,0 +1,1676 @@
+{
+  "/": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/about": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/afternoon-tea-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/allergy-safe-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/apartment-private-dining-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/arabic-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/asian-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/baby-shower-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/bar-services-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/bbq-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/become-a-mychef": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/best-catering-companies-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "How to Choose a Catering Company for Your Dubai Event",
+    "title": "Choosing a Catering Company: What to Check | myCHEF",
+    "description": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities.",
+    "lead": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities. This guide explains which questions and evidence help you assess a provider before comparing proposals."
+  },
+  "/birthday-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/birthday-catering-package-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/best-arabic-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "How to Plan an Arabic Menu for a Dubai Gathering",
+    "title": "Arabic Menu Planning: Mezze, Grills & Portions | myCHEF",
+    "description": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions.",
+    "lead": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions. Match the regional style and sharing format to the guests and the space available."
+  },
+  "/blog/best-bbq-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "Planning a BBQ Party in Dubai: Space, Smoke and Service",
+    "title": "BBQ Party Planning: Space, Smoke & Service | myCHEF",
+    "description": "A BBQ plan starts with where cooking can happen safely and with permission.",
+    "lead": "A BBQ plan starts with where cooking can happen safely and with permission. Check the grill position, smoke, access and serving space before choosing the menu or service duration."
+  },
+  "/blog/best-brunch-catering-services-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "How to Compare Brunch Menus for a Dubai Home Gathering",
+    "title": "Comparing Brunch Menus for a Home Gathering | myCHEF",
+    "description": "Compare brunch menus by balance, preparation and replenishment.",
+    "lead": "Compare brunch menus by balance, preparation and replenishment. A sweet-and-savoury spread, a seated breakfast and food cooked to order need different timing and kitchen space."
+  },
+  "/blog/best-cocktail-party-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai",
+    "h1": "Planning Food and Guest Flow for a Standing Reception",
+    "title": "Standing Reception Planning: Bites & Flow | myCHEF",
+    "description": "Food at a standing reception must fit the room and the pace of the gathering.",
+    "lead": "Food at a standing reception must fit the room and the pace of the gathering. Plan easy-to-hold bites, tray circulation, dietary choices and where guests can put down plates and glasses."
+  },
+  "/blog/best-corporate-event-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai",
+    "h1": "How to Assess a Corporate Event Catering Proposal",
+    "title": "Corporate Event Proposals: What to Check | myCHEF",
+    "description": "Assess a corporate event proposal against the agenda, venue and approval process.",
+    "lead": "Assess a corporate event proposal against the agenda, venue and approval process. Check menu quantities, service responsibilities, access and the items included in the written scope."
+  },
+  "/blog/best-corporate-lunch-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai",
+    "h1": "Planning Office Lunches: Delivery, Diets and Billing",
+    "title": "Office Lunch Delivery & Billing Checklist | myCHEF",
+    "description": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated.",
+    "lead": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated. Agree delivery access, serving responsibilities and billing before the first service."
+  },
+  "/blog/best-cozymeal-alternatives-for-private-dining-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/best-desert-dining-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "How to Compare Desert Dinner Logistics in Dubai",
+    "title": "Desert Dinner Proposals: Logistics Checklist | myCHEF",
+    "description": "A desert dinner proposal needs a workable location and access plan.",
+    "lead": "A desert dinner proposal needs a workable location and access plan. Compare venue permission, transport, power, water, preparation space and weather contingencies before choosing a menu."
+  },
+  "/blog/best-drop-off-catering-services-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "What to Check Before a Drop-Off Catering Delivery",
+    "title": "Drop-Off Catering Handover Checklist | myCHEF",
+    "description": "A delivered menu still needs a receiving and serving plan.",
+    "lead": "A delivered menu still needs a receiving and serving plan. Confirm the delivery window, labels, packaging, equipment and the person responsible for handling the food after handover."
+  },
+  "/blog/best-gluten-free-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "Questions to Ask About a Gluten-Free Event Menu",
+    "title": "Gluten-Free Event Menus: Questions to Ask | myCHEF",
+    "description": "A gluten-free event menu requires clear ingredient and preparation questions.",
+    "lead": "A gluten-free event menu requires clear ingredient and preparation questions. Explain each guest’s requirements and ask the provider about feasible controls, labels and cross-contact limitations."
+  },
+  "/blog/best-grazing-table-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "Planning a Grazing Table: Portions, Space and Setup",
+    "title": "Grazing Table Planning: Portions & Setup | myCHEF",
+    "description": "A grazing table needs more than a styled photograph.",
+    "lead": "A grazing table needs more than a styled photograph. Plan portions, table space, guest access, dietary labels and replenishment around whether it is a welcome spread or the main meal."
+  },
+  "/blog/best-halal-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "What to Ask a Caterer About Halal Ingredients",
+    "title": "Halal Event Menus: Supplier Questions | myCHEF",
+    "description": "Start halal menu planning by stating the ingredients and sourcing requirements your guests expect.",
+    "lead": "Start halal menu planning by stating the ingredients and sourcing requirements your guests expect. Ask for relevant supplier information and confirm how the menu will be prepared and served."
+  },
+  "/blog/best-home-catering-services-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/best-kids-birthday-party-caterers-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai",
+    "h1": "Planning Children’s Party Food: Ages, Portions and Timing",
+    "title": "Children’s Party Food: Portions & Serving Plan | myCHEF",
+    "description": "Children’s party food should fit their ages, activity schedule and serving arrangements.",
+    "lead": "Children’s party food should fit their ages, activity schedule and serving arrangements. Separate children’s portions from adult food and collect dietary information before the menu is agreed."
+  },
+  "/blog/best-luxury-private-dining-experiences-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "How to Choose a Private Dinner Format in Dubai",
+    "title": "Comparing Private Dinner Formats in Dubai | myCHEF",
+    "description": "Choose a private dinner format around the guests, the setting and the pace you want.",
+    "lead": "Choose a private dinner format around the guests, the setting and the pace you want. Compare a tasting sequence, sharing dishes and chef interaction before deciding on the service."
+  },
+  "/blog/best-private-chef-birthday-dinner-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai",
+    "h1": "How to Plan a Birthday Dinner at Home in Dubai",
+    "title": "Birthday Dinner at Home: Menus & Timing | myCHEF",
+    "description": "Plan the menu around the guest of honour, then work backwards from the cake moment.",
+    "lead": "Plan the menu around the guest of honour, then work backwards from the cake moment. This guide covers portions, course timing and kitchen preparation for a birthday dinner at home."
+  },
+  "/blog/best-private-chefs-for-villas-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "What to Include in a Dubai Villa Chef Brief",
+    "title": "Villa Chef Brief: Kitchen, Access & Schedule | myCHEF",
+    "description": "A useful villa chef brief describes the kitchen, access and cooking schedule.",
+    "lead": "A useful villa chef brief describes the kitchen, access and cooking schedule. Separate an ongoing household routine from a holiday stay or one-off dinner so the service fits the property."
+  },
+  "/blog/best-private-chefs-in-dubai-for-home-dining": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/best-private-cooking-class-experiences-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "Planning a Cooking Class at Home: Skills, Space and Guests",
+    "title": "Home Cooking Class Planning Checklist | myCHEF",
+    "description": "A home cooking class needs a clear learning goal and enough usable kitchen space.",
+    "lead": "A home cooking class needs a clear learning goal and enough usable kitchen space. Plan the participant mix, recipes, equipment and hands-on time before choosing the session."
+  },
+  "/blog/best-ramadan-iftar-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "Planning an Iftar Menu: Timing, Portions and Service",
+    "title": "Iftar Menu Planning: Timing & Service | myCHEF",
+    "description": "An iftar menu plan should make the first service ready at the agreed time.",
+    "lead": "An iftar menu plan should make the first service ready at the agreed time. Balance dishes, portions and replenishment, and verify the local date and prayer time when arranging the event."
+  },
+  "/blog/best-vegan-catering-services-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "h1": "How to Compare Plant-Based Event Menus",
+    "title": "Plant-Based Event Menus: What to Compare | myCHEF",
+    "description": "Compare a plant-based event menu as a complete meal.",
+    "lead": "Compare a plant-based event menu as a complete meal. Look at ingredients, variety, portions and preparation, and discuss allergies separately from vegan preferences."
+  },
+  "/blog/best-wedding-catering-companies-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai",
+    "h1": "Questions to Ask Before Shortlisting a Wedding Caterer",
+    "title": "Wedding Caterer Shortlist: Questions to Ask | myCHEF",
+    "description": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format.",
+    "lead": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format. Ask who coordinates the menu, equipment and running order before arranging a tasting."
+  },
+  "/blog/best-yacht-catering-services-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai",
+    "h1": "How to Compare Yacht Catering Proposals in Dubai",
+    "title": "Comparing Yacht Catering Proposals in Dubai | myCHEF",
+    "description": "A yacht catering proposal needs an onboard plan as well as a menu.",
+    "lead": "A yacht catering proposal needs an onboard plan as well as a menu. Compare galley space, marina loading, chilled storage, service hours and the captain’s requirements on the same brief."
+  },
+  "/blog/brunch-at-home-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/buffet-layout-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/canape-reception-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/catering-for-co-working-spaces-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/catering-for-embassies-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/cateringdubai-ae-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/cateringindubai-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/cedar-tree-catering-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/chef-maison-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/christmas-lunch-at-home-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/compare-catering-quotes-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/corporate-catering-full-service-vs-drop-off": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/corporate-event-catering-ideas-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/desert-dinner-party-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/dinner-party-menu-ideas-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/dinner-party-timeline-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/dish-ae-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/diwali-party-at-home-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/dubai-school-food-rules-2026": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/blog/grazing-table-vs-buffet-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/halal-private-dining-dubai-what-to-ask": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/household-menu-brief-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/how-far-ahead-book-caterer-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/how-much-does-private-chef-cost-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "Private Chef Quotes Explained: Time, Food and Service",
+    "title": "What Affects a Private Chef Quote in Dubai? | myCHEF",
+    "description": "A chef quote combines time, ingredients, travel and any service support.",
+    "lead": "A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals."
+  },
+  "/blog/how-to-hire-a-private-chef-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "A Household Chef Selection Checklist for Dubai Families",
+    "title": "Questions to Ask Before Choosing a Household Chef | myCHEF",
+    "description": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family.",
+    "lead": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family. Use these questions to assess the match and confirm responsibilities."
+  },
+  "/blog/iftar-at-home-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/kids-and-adults-party-menu-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/mixed-diet-dinner-party-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/monchef-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/mychef-vs-cateringindubai-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/mychef-vs-chef-maison-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/mychef-vs-dish-ae-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/mychef-vs-monchef-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/mychef-vs-pinch-gourmet-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/mychef-vs-taste-studio-which-is-better-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/nursery-meals-vs-packed-lunch-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/blog/nut-free-halal-nursery-meals-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/blog/nye-party-catering-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/office-breakfast-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/outdoor-villa-catering-kitchen-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/pinch-gourmet-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/private-chef-date-night-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/private-chef-kitchen-preparation-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/private-chef-palm-jumeirah-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist",
+    "title": "Palm Jumeirah Dinner Planning: Kitchen & Access | myCHEF",
+    "description": "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat.",
+    "lead": "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu."
+  },
+  "/blog/private-chef-trial-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/private-chef-vs-restaurant-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/private-chefs-for-elderly-care-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/private-chefs-for-expat-families-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/private-chefs-for-new-parents-in-dubai-complete-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/ramadan-iftar-catering-trends-2026": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/smart-catering-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/take-a-chef-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/taste-studio-alternatives-in": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/three-hour-yacht-party-food-timeline-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai"
+  },
+  "/blog/topic/celebrations": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/topic/corporate": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/blog/topic/institutional": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/blog/topic/menus-dietary": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/topic/outdoor": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/topic/private-chef": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/blog/topic/seasonal": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/vegan-catering-dubai-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/blog/wedding-catering-cost-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/wedding-menu-tasting-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/blog/weekly-meal-prep-vs-full-time-chef-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/yacht-party-menu-ideas-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai"
+  },
+  "/booking-protection-insurance": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/brand-activation-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/breakfast-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/brunch-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/buffet-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/buffet-vs-plated-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/business-lunch-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/canape-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/canteen-management-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/case-studies": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/catering-cost-calculator-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/catering-dubai": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/catering-packages-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/chef-training-academy": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/chefs-table-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/chefs/ahmed-executive-chef": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/chefs/layla-middle-eastern-chef": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/chefs/marco-italian-chef": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/chefs/matteo-pastry-chef": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/christmas-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/cocktail-party-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/conference-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/contact": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/corporate": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/corporate-booking-terms": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/corporate-catering-checklist-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/corporate-dinner-package-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/corporate-event-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/corporate-retainer-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/cuisines-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/date-night-package-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/desert-dining-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/dessert-table-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/diwali-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/drop-off-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/dubai-catering-prices-guide": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/dubai-event-catering-price-guide-2026": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/dubai-food-trends-report-2026": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/eid-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/engagement-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/events": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/exhibition-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/family-feast-package-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/faq": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/festive-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/fitness-meal-prep-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/founding-customer-offer": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/full-time-private-chef-dubai": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/gala-dinner-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/gallery": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/gift-cards": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/grazing-table-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/guide/private-dining-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "A Host’s Guide to Planning a Private Dinner in Dubai",
+    "title": "How to Plan a Private Dinner at Home in Dubai | myCHEF",
+    "description": "Start a private dinner plan with the people at the table, the space available and the pace of the evening.",
+    "lead": "Start a private dinner plan with the people at the table, the space available and the pace of the evening. Use this guide to organise the menu, kitchen, guest requirements and service handover."
+  },
+  "/guides": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/halal-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/halal-private-dining-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/hospital-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/how-it-works": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/how-to-choose-caterer-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/how-we-vet-our-chefs": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/iftar-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/indian-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/influencer-partnerships": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/inquiry": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/institutional-catering-dubai": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/italian-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/jain-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/kids-nutrition-chef-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/live-cooking-stations-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/locations": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/al-barsha": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "Planning a Home Dinner in Al Barsha: A Practical Checklist",
+    "title": "Al Barsha Home Dinner Planning Checklist | myCHEF",
+    "description": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule.",
+    "lead": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
+  },
+  "/locations/arabian-ranches": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/bluewaters-island": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/business-bay": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/difc": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "Planning Meals in DIFC: Building Access and Service Windows",
+    "title": "DIFC Meal Planning: Access & Service Logistics | myCHEF",
+    "description": "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule.",
+    "lead": "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
+  },
+  "/locations/downtown-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/dubai-hills": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/dubai-marina": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/emirates-hills": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/jbr": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "Planning a Dinner in JBR: Access and Apartment Kitchens",
+    "title": "JBR Dinner Planning: Apartment Access & Setup | myCHEF",
+    "description": "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule.",
+    "lead": "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
+  },
+  "/locations/jlt": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "h1": "Planning Meals in JLT: Kitchens, Lifts and Access",
+    "title": "JLT Meal Planning: Kitchens & Building Access | myCHEF",
+    "description": "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule.",
+    "lead": "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
+  },
+  "/locations/jumeirah": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/jvc": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/palm-jumeirah": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/locations/umm-suqeim": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/loyalty-programme": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/luxury-dining-experiences": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/luxury-dinner-planning-guide-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/mediterranean-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/menus": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/mychef-certified": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/mychef-membership": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/mystery-dining-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/new-year-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/nursery-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/office-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/our-chefs": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/part-time-private-chef-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/partner-with-us": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/partners": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/partners/concierge-services-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/partners/event-planners-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/partners/villa-rentals-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/partners/yacht-charters-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai"
+  },
+  "/postpartum-meal-prep-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/press": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/privacy-policy": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/private-chef-dubai": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/how-it-works": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/how-your-plan-works": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/live-in-chef": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/private-chef-dubai/live-out-chef": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai"
+  },
+  "/private-chef-dubai/our-chefs": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/pricing": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/privacy-security": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/quality-training": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-dubai/short-term-chef": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-chef-vs-catering-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/private-client-booking-terms": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/private-cooking-classes-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/private-jet-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/private-party-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/product-launch-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/production-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/proposal-dinner-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/quality-guarantee-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/ramadan-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/ramadan-catering-guide-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/referral-programme": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/review": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/romantic-dinner-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/school-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai"
+  },
+  "/site-map": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/staff-meals-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
+  "/sushi-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/tasting-menu-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/terms": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/tourist-villa-chef-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/trust-and-programs": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/uae-national-day-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/vegan-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/vegetarian-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/venue-partners": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai"
+  },
+  "/villa-catering-ideas-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "h1": "Villa Party Ideas: Match the Menu to Your Space",
+    "title": "Villa Party Layout & Menu Ideas in Dubai | myCHEF",
+    "description": "Match a villa party menu to the space guests will actually use.",
+    "lead": "Match a villa party menu to the space guests will actually use. Plan the route between kitchen, dining table, terrace and garden before choosing a seated meal, buffet or standing reception."
+  },
+  "/villas-private-residences": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/vip-club": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/wedding-catering-checklist-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/wedding-catering-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/wedding-catering-menu-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering in Dubai"
+  },
+  "/weekly-meal-prep-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/wellness-meal-prep-dubai": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai"
+  },
+  "/yachts": {
+    "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai"
+  }
+}

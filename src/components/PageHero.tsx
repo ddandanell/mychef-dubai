@@ -6,6 +6,7 @@ import { deferNonCritical } from '../lib/deferNonCritical'
 import { cn } from '../lib/utils'
 import EditorialHero from './private-chef/EditorialHero'
 import { isChefDesignPage } from '@/content/privateChefDesign'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 
 type OverlayName = 'dark' | 'medium' | 'light' | 'left' | 'cinematic'
 
@@ -370,5 +371,7 @@ function LegacyPageHero({
 
 export default function PageHero(props: PageHeroProps) {
   const { pathname } = useLocation()
-  return isChefDesignPage(pathname) ? <EditorialHero {...props}/> : <LegacyPageHero {...props}/>
+  const copy = pageAuthorityFor(pathname)
+  const resolved = { ...props, title: copy?.h1 || props.title, subtitle: copy?.lead || props.subtitle }
+  return isChefDesignPage(pathname) ? <EditorialHero {...resolved}/> : <LegacyPageHero {...resolved}/>
 }

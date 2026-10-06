@@ -1,7 +1,7 @@
 {
  "url": "/locations/jlt",
  "keyword_strategy": {
-  "main_keyword": "private chef jlt",
+  "main_keyword": "planning meals in jlt: kitchens, lifts and access",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,30 +11,18 @@
   "subkeywords_total": 9,
   "subkeywords_carried": 8,
   "coverage_percent": 89,
-  "subkeywords_carried_list": [
-   "how much does a private chef cost in dubai?",
-   "how much should you charge as a private chef?",
-   "how much does it usually cost to have a private chef?",
-   "personal chef",
-   "private chef jlt dubai",
-   "private chef jlt reviews",
-   "private chef at home dubai",
-   "full time private chef dubai"
-  ],
-  "subkeywords_not_carried": [
-   "who is the executive chef of taj jlt?"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /private-chef-dubai. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef JLT | Villa Dining & Catering | myCHEF",
-  "meta_description": "Private chef & catering in JLT from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Jumeirah Lake Towers clusters around the lakes. Request a proposal.",
-  "h1": "Private Chef & Catering in JLT — Menus, Prices and What's Included"
+  "title": "JLT Meal Planning: Kitchens & Building Access | myCHEF",
+  "meta_description": "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule.",
+  "h1": "Planning Meals in JLT: Kitchens, Lifts and Access"
  },
  "opening_paragraph": [
-  "A private chef in JLT costs from AED 700 per person, and myCHEF sends a vetted chef who plans the menu, cooks and serves every course. That brings restaurant-quality dining to your apartment, with no need to book a table two towers over or fight for parking on a Friday night.",
-  "MyCHEF brings you a chef, sets the menu around your occasion, and runs the whole evening — cooking, service and cleanup — inside the Jumeirah Lake Towers cluster you already call home. Most guests here are residents and professionals in the lakeside high-rises beside Dubai Marina, and during our published business hours you will usually hear back promptly with a chef match and an itemised proposal."
+  "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
  ],
  "replace_in_block": [
   {
@@ -220,5 +208,6 @@
    "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
   }
  ],
- "faq": []
+ "faq": [],
+ "updated_at": "2026-10-06"
 }

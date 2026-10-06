@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
-  "title": "Corporate catering lunch: compare the service your office needs",
-  "focus": "For regular team meals, look at menu rotation, portion consistency, dietary updates and delivery reliability. For a client lunch, give more attention to presentation, discretion and the timing of courses. Ask each provider to identify the responsibilities your office retains after delivery. Compare billing and minimum orders against the days and numbers you actually expect. A service can be excellent for one type of lunch and still be the wrong format for another.",
+  "title": "Planning Office Lunches: Delivery, Diets and Billing",
+  "focus": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated. Agree delivery access, serving responsibilities and billing before the first service.",
   "sections": [
     {
       "id": "comparison",
@@ -59,6 +59,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/corporate",
+      "label": "corporate catering in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-vegan-catering-services-in-dubai",
-  "title": "How to compare the best vegan catering companies in Dubai",
-  "focus": "Look for a menu that offers substance, texture and variety across every course. Ask providers to explain the ingredients in sauces, breads, pastries and desserts, as well as the main dishes. Compare the portion and presentation of the vegan selection with the overall service. If guests have allergies, request a separate assessment of those needs. A strong proposal makes the plant-based menu feel intentional and shows how it will be prepared and served at your event.",
+  "title": "How to Compare Plant-Based Event Menus",
+  "focus": "Compare a plant-based event menu as a complete meal. Look at ingredients, variety, portions and preparation, and discuss allergies separately from vegan preferences.",
   "sections": [
     {
       "id": "comparison",
@@ -68,6 +68,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/catering-dubai",
+      "label": "catering services in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

@@ -2,6 +2,7 @@ import { isParked } from '@/content/parkedUrls'
 import { RYZE_BLOG_POSTS } from './ryzeBlogPosts'
 import media from './blogMedia.json'
 import relatedOverrides from './blogRelatedOverrides.json'
+import { pageAuthorityFor } from './pageAuthority'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
@@ -261,6 +262,10 @@ const ALL_BLOG_POSTS: BlogPost[] = [
  * that lists everything.
  */
 export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS]
+  .map(post => {
+    const copy = pageAuthorityFor(post.slug)
+    return { ...post, title: copy?.h1 || post.title, excerpt: copy?.lead || post.excerpt }
+  })
   // Use files we actually publish; changing a remote extension creates a broken URL.
   .map((post) => ({ ...post, image: (media.pages as Record<string, { hero: { src: string } }>)[post.slug]?.hero.src || post.image }))
   .filter((post) => {

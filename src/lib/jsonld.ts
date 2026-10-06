@@ -1,4 +1,5 @@
 import { getSiloPage } from '@/content/siloMap'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 import {
   ORGANIZATION_ID,
   ORGANIZATION_SCHEMA,
@@ -210,9 +211,11 @@ export function assemblePageGraph(
   metadata?: { title: string; description: string },
 ): Record<string, unknown> | undefined {
   const path = normalizePath(pathname)
+  const authority = pageAuthorityFor(path)
   const nodes = incomingNodes(incoming)
     .map((n) => sanitizeNode(n, path))
     .filter((n): n is Record<string, unknown> => Boolean(n))
+    .filter(n => !(authority?.purpose === 'editorial' && typeList(n).includes('Service')))
 
   if (path === '/' || path === '/about') {
     if (!hasType(nodes, 'Organization') && !hasType(nodes, 'ProfessionalService')) {
@@ -254,6 +257,8 @@ export function assemblePageGraph(
   }
   const article = nodes.find(node => typeList(node).some(type => type === 'Article' || type === 'BlogPosting'))
   if (article) {
+    if (authority?.h1) article.headline = authority.h1
+    if (authority?.description) article.description = authority.description
     article['@id'] = `${url}#article`
     article.publisher = { '@id': ORGANIZATION_ID }
     article.mainEntityOfPage = { '@id': `${url}#webpage` }

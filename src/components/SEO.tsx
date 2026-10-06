@@ -5,6 +5,7 @@ import { useLocation } from 'react-router'
 import { assemblePageGraph } from '@/lib/jsonld'
 import { chefPageImages, chefImage } from '@/content/privateChefDesign'
 import { SEO_AUDIT_OVERRIDES } from '@/content/seoAuditOverrides'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 
 interface SEOProps {
   title?: string
@@ -49,8 +50,9 @@ export default function SEO({
   // description — the duplicate-title / duplicate-description audit failure. The page's
   // own pathname wins when it has its own override entry.
   const auditOverride = SEO_AUDIT_OVERRIDES[pathname] ?? SEO_AUDIT_OVERRIDES[path]
-  const effectiveTitle = auditOverride?.title || title
-  const effectiveDescription = auditOverride?.description || description
+  const authority = pageAuthorityFor(pathname)
+  const effectiveTitle = authority?.title || auditOverride?.title || title
+  const effectiveDescription = authority?.description || auditOverride?.description || description
 
   // Pages that already end in the brand (contract titles are written as
   // "… | myCHEF") must not get a second suffix.

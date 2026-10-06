@@ -1,7 +1,7 @@
 {
  "url": "/locations/al-barsha",
  "keyword_strategy": {
-  "main_keyword": "private chef al barsha",
+  "main_keyword": "planning a home dinner in al barsha: a practical checklist",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,26 +11,18 @@
   "subkeywords_total": 6,
   "subkeywords_carried": 3,
   "coverage_percent": 50,
-  "subkeywords_carried_list": [
-   "how much does a private chef cost in dubai?",
-   "best private chef al barsha",
-   "full time private chef dubai"
-  ],
-  "subkeywords_not_carried": [
-   "how much does a private chef cost for a meal?",
-   "how much should you charge as a private chef?",
-   "private chef al barsha husband"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /private-chef-dubai. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef Al Barsha | Villa Dining & Catering | myCHEF",
-  "meta_description": "Private chef & catering in Al Barsha from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Al Barsha 1, 2 and 3. Request a proposal.",
-  "h1": "Private Chef Al Barsha — In-Villa Dining & Catering"
+  "title": "Al Barsha Home Dinner Planning Checklist | myCHEF",
+  "meta_description": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule.",
+  "h1": "Planning a Home Dinner in Al Barsha: A Practical Checklist"
  },
  "opening_paragraph": [
-  "A private chef in Al Barsha costs from AED 700 per person through myCHEF, and that brings restaurant-standard cooking to your own kitchen. Menu planning, on-site cooking, full table service and cleanup are all included, with a vetted chef matched to your occasion. Al Barsha's mix of family villas and apartment towers makes in-villa dining the natural way to host here, from a quiet dinner for two to a buffet for the whole compound."
+  "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
  ],
  "replace_in_block": [
   {
@@ -177,5 +169,6 @@
    "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
   }
  ],
- "faq": []
+ "faq": [],
+ "updated_at": "2026-10-06"
 }

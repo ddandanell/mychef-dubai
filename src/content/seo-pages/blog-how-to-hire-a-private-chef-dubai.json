@@ -1,117 +1,108 @@
 {
-  "url": "/blog/how-to-hire-a-private-chef-dubai",
-  "head": {
-    "title": "How to Hire a Private Chef Dubai | myCHEF",
-    "h1": "How to Hire a Private Chef Dubai",
-    "meta_description": "How to hire a private chef in Dubai: define regular household cooking or a private dinner, review the chef match and confirm the written scope."
+ "url": "/blog/how-to-hire-a-private-chef-dubai",
+ "head": {
+  "title": "Questions to Ask Before Choosing a Household Chef | myCHEF",
+  "h1": "A Household Chef Selection Checklist for Dubai Families",
+  "meta_description": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family."
+ },
+ "opening_paragraph": [
+  "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family. Use these questions to assess the match and confirm responsibilities."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Define the work you need",
+   "new_heading": "Define the work you need",
+   "new_paragraphs": [
+    "For a household plan, describe how many people eat at home, which meals matter most and how often you need the chef. For a private dinner, share the occasion, guest count and service time. Include your kitchen facilities and any access restrictions."
+   ]
   },
-  "opening_paragraph": [
-    "To hire a private chef in Dubai, begin by deciding whether you need regular household cooking or a chef for one occasion. That choice shapes the schedule, menu, service and price. A clear brief helps the team recommend an appropriate chef and explain the complete arrangement."
-  ],
-  "replace_in_block": [
-    {
-      "block_on_your_page": "Define the work you need",
-      "new_heading": "Define the work you need",
-      "new_paragraphs": [
-        "For a household plan, describe how many people eat at home, which meals matter most and how often you need the chef. For a private dinner, share the occasion, guest count and service time. Include your kitchen facilities and any access restrictions."
-      ]
-    },
-    {
-      "block_on_your_page": "Discuss food preferences and household fit",
-      "new_heading": "Discuss food preferences and household fit",
-      "new_paragraphs": [
-        "Share favourite cuisines, ingredients to avoid and the way you like meals served. Regular plans use a Food Profile to record preferences and help maintain consistency. A one-off event uses an agreed menu and service brief."
-      ]
-    },
-    {
-      "block_on_your_page": "Review the chef and the selection process",
-      "new_heading": "Review the chef and the selection process",
-      "new_paragraphs": [
-        "Ask how identity, right to work, practical ability and references are checked. Review the proposed chef profile and how availability is confirmed. For ongoing cooking, understand how feedback, cover and a change of match are handled."
-      ]
-    },
-    {
-      "block_on_your_page": "Compare the right pricing model",
-      "new_heading": "Compare the right pricing model",
-      "new_paragraphs": [
-        "A single three-hour Private Chef Visit is AED 1,125. A monthly plan of four or more prepaid visits uses the AED 750 member rate. A four-hour Fridge Reset is AED 1,350 single or AED 900 member; a ten-hour Chef by the Day is AED 2,000 single or AED 1,450 member. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate.",
-        "Compare the [private chef Dubai prices](/private-chef-dubai/pricing) for visits and 15, 30 or 45-meal packs. Choose one pricing method for the same cooking. For a celebration with event staffing and table service, request a separate private-dining or catering proposal."
-      ]
-    },
-    {
-      "block_on_your_page": "Confirm the complete proposal",
-      "new_heading": "Confirm the complete proposal",
-      "new_paragraphs": [
-        "Compare the complete service, including the menu, guest count, preparation, staffing, equipment, delivery and clear-down. A per-person price is useful only when the inclusions are clear. Ask which elements are fixed and which can change if your plans change.",
-        "Share allergies and other dietary requirements before confirming. The culinary partner should explain the preparation arrangements and any remaining cross-contact risk. Review the payment schedule, cancellation terms and change deadlines in your written booking."
-      ]
-    },
-    {
-      "block_on_your_page": "Prepare a useful enquiry",
-      "new_heading": "Prepare a useful enquiry",
-      "new_paragraphs": [
-        "Send the date, Dubai address, expected guest count and preferred service time, together with your menu ideas and venue details. Photos of the kitchen or service area can help the team assess what is practical.",
-        "myCHEF typically replies within 15 minutes between 9am and 9pm Dubai time. The tailored proposal follows once the requirements and availability have been reviewed. A first reply is an acknowledgement, rather than confirmation that a chef or date has been secured."
-      ]
-    }
-  ],
-  "add_block": [],
-  "faq": [],
-  "images": [
-    {
-      "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
-      "alt": "Chef serving a family dinner in a home dining room",
-      "role": "hero",
-      "width": 1536,
-      "height": 1024
-    },
-    {
-      "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
-      "alt": "Chef discussing dinner plans with a host in the kitchen",
-      "role": "inline",
-      "width": 1536,
-      "height": 1024
-    },
-    {
-      "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
-      "alt": "Home kitchen prepared for a private chef visit",
-      "role": "inline",
-      "width": 1536,
-      "height": 1024,
-      "inclusions": [
-        "Menu, ingredients and chef preparation as specified in the proposal",
-        "Service staff, equipment and clear-down as agreed",
-        "Bespoke plated dining: AED 700–950 per person",
-        "VAT and any additional items shown in the written quote"
-      ]
-    }
-  ],
-  "keyword_lock": {
-    "primary": "how to hire a private chef dubai",
-    "subkeywords": [
-      "how to find a private chef in dubai",
-      "do private chefs bring their own equipment dubai",
-      "hiring a private chef",
-      "how do you hire a private chef",
-      "private chef for a day",
-      "chef hire",
-      "how do i hire a personal chef",
-      "chef at home in dubai"
-    ]
+  {
+   "block_on_your_page": "Discuss food preferences and household fit",
+   "new_heading": "Discuss food preferences and household fit",
+   "new_paragraphs": [
+    "Share favourite cuisines, ingredients to avoid and the way you like meals served. Regular plans use a Food Profile to record preferences and help maintain consistency. A one-off event uses an agreed menu and service brief."
+   ]
   },
-  "updated_at": "2026-09-22",
-  "references": [
-    {
-      "label": "Household chef plans",
-      "url": "/private-chef-dubai"
-    },
-    {
-      "label": "Current household pricing",
-      "url": "/private-chef-dubai/pricing"
-    },
-    {
-      "label": "How chefs are assessed",
-      "url": "/how-we-vet-our-chefs"
-    }
-  ]
+  {
+   "block_on_your_page": "Review the chef and the selection process",
+   "new_heading": "Review the chef and the selection process",
+   "new_paragraphs": [
+    "Ask how identity, right to work, practical ability and references are checked. Review the proposed chef profile and how availability is confirmed. For ongoing cooking, understand how feedback, cover and a change of match are handled."
+   ]
+  },
+  {
+   "block_on_your_page": "Compare the right pricing model",
+   "new_heading": "Compare the right pricing model",
+   "new_paragraphs": [
+    "Compare current visit and plan rates on the private-chef pricing page. Ask which groceries, transport, staffing and other items are separate, then confirm the scope in writing.",
+    "Compare the [private chef Dubai prices](/private-chef-dubai/pricing) for visits and 15, 30 or 45-meal packs. Choose one pricing method for the same cooking. For a celebration with event staffing and table service, request a separate private-dining or catering proposal."
+   ]
+  },
+  {
+   "block_on_your_page": "Confirm the complete proposal",
+   "new_heading": "Confirm the complete proposal",
+   "new_paragraphs": [
+    "Compare the complete service, including the menu, guest count, preparation, staffing, equipment, delivery and clear-down. A per-person price is useful only when the inclusions are clear. Ask which elements are fixed and which can change if your plans change.",
+    "Share allergies and other dietary requirements before confirming. The culinary partner should explain the preparation arrangements and any remaining cross-contact risk. Review the payment schedule, cancellation terms and change deadlines in your written booking."
+   ]
+  },
+  {
+   "block_on_your_page": "Prepare a useful enquiry",
+   "new_heading": "Prepare a useful enquiry",
+   "new_paragraphs": [
+    "Send the date, Dubai address, expected guest count and preferred service time, together with your menu ideas and venue details. Photos of the kitchen or service area can help the team assess what is practical.",
+    "myCHEF typically replies within 15 minutes between 9am and 9pm Dubai time. The tailored proposal follows once the requirements and availability have been reviewed. A first reply is an acknowledgement, rather than confirmation that a chef or date has been secured."
+   ]
+  }
+ ],
+ "add_block": [],
+ "faq": [],
+ "images": [
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
+   "alt": "Chef serving a family dinner in a home dining room",
+   "role": "hero",
+   "width": 1536,
+   "height": 1024
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+   "alt": "Chef discussing dinner plans with a host in the kitchen",
+   "role": "inline",
+   "width": 1536,
+   "height": 1024
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
+   "alt": "Home kitchen prepared for a private chef visit",
+   "role": "inline",
+   "width": 1536,
+   "height": 1024,
+   "inclusions": [
+    "Menu, ingredients and chef preparation as specified in the proposal",
+    "Service staff, equipment and clear-down as agreed",
+    "Compare current visit and plan rates on the private-chef pricing page. Ask which groceries, transport, staffing and other items are separate, then confirm the scope in writing.",
+    "VAT and any additional items shown in the written quote"
+   ]
+  }
+ ],
+ "keyword_lock": {
+  "primary": "a household chef selection checklist for dubai families",
+  "subkeywords": []
+ },
+ "updated_at": "2026-10-06",
+ "references": [
+  {
+   "label": "Household chef plans",
+   "url": "/private-chef-dubai"
+  },
+  {
+   "label": "Current household pricing",
+   "url": "/private-chef-dubai/pricing"
+  },
+  {
+   "label": "How chefs are assessed",
+   "url": "/how-we-vet-our-chefs"
+  }
+ ]
 }

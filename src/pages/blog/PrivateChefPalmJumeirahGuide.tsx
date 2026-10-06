@@ -1,8 +1,8 @@
 import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/private-chef-palm-jumeirah-guide
-//     primary:     "private dining palm jumeirah dubai"
-//     subkeywords: "palm jumeirah villa dining menu" · "private chef palm springs" · "private dining chef near me" · "halal private dining menu" · "best private dining rooms dubai" · "carbone dubai private dining" · "coya dubai private dining" · "how much does a private chef cost"
+//     primary:     "planning a dinner in palm jumeirah: kitchen and access checklist"
+//     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -17,7 +17,6 @@ import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
-import SourcesBlock from '../../components/SourcesBlock'
 import ArticleToc from '../../components/ArticleToc'
 import BlogFigure from '../../components/BlogFigure'
 
@@ -25,7 +24,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Private Chef Palm Jumeirah guide and would like a custom quote (via mychef.ae/blog/private-chef-palm-jumeirah-guide)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry'
+const CTA_HREF = "/luxury-dining-experiences"
 const SLUG = 'private-chef-palm-jumeirah-guide'
 
 const faqs = [
@@ -35,7 +34,7 @@ const faqs = [
   },
   {
     q: 'How much does a private chef cost in Palm Jumeirah?',
-    a: 'Indicative pricing starts around AED 950–1,450 for a small breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests. myCHEF Managed Household starts from AED 15,000/month. Live-in accommodation, groceries, Match Activation, paid trials, VAT and agreed extras are separate. Final quotes depend on menu complexity, guest count, and service style.',
+    a: 'The price depends on the cooking time, menu, guest count and service responsibilities. Check the current service or pricing page, then request an itemised proposal with groceries, staffing, transport and VAT identified.',
   },
   {
     q: 'Can the chef accommodate halal, vegan, or allergy-specific menus?',
@@ -53,7 +52,7 @@ const faqs = [
 
 const articleSchema = {
   '@type': 'Article',
-  headline: 'Private Chef Palm Jumeirah: A Complete Guide to Dining at Home',
+  headline: "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist",
   description: 'A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home.',
   author: { '@id': 'https://www.mychef.ae/#organization' },
   publisher: { '@id': 'https://www.mychef.ae/#organization' },
@@ -107,8 +106,8 @@ export default function PrivateChefPalmJumeirahGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Palm Jumeirah Dubai | myCHEF"
-        description="Private Dining Palm Jumeirah Dubai: A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…"
+        title="Palm Jumeirah Dinner Planning: Kitchen & Access | myCHEF"
+        description="A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         schema={schema}
@@ -117,8 +116,8 @@ export default function PrivateChefPalmJumeirahGuide() {
       {/* Hero */}
       <PageHero
         eyebrow="Private Chef"
-        title="Private Dining Palm Jumeirah Dubai"
-        subtitle={"Plan a chef service for your Palm Jumeirah villa, apartment or chartered yacht. Understand access and kitchen requirements, with single household visits from AED 1,125 before 5% VAT, groceries and zone transport."}
+        title="Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist"
+        subtitle={"A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu."}
         image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
@@ -138,34 +137,33 @@ export default function PrivateChefPalmJumeirahGuide() {
           </div>
 
           <KeyFactsBox
-            answer="A private chef in Palm Jumeirah typically costs AED 950–1,450 for breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests, with myCHEF Managed Household from AED 15,000/month, before VAT and separate costs."
+            answer="A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu."
             facts={[
-              { label: 'Breakfast / brunch', value: 'AED 950–1,450' },
-              { label: 'Lunch (2–8 guests)', value: 'AED 1,450–2,450' },
-              { label: 'Dinner (2–8 guests)', value: 'AED 2,200–4,500' },
-              { label: 'Large party (10–30 guests)', value: 'AED 4,500–12,000+' },
-              { label: 'Full-time live-in chef', value: 'From AED 15,000/month; extras separate' },
+              { label: 'Start with', value: 'Guest needs and meal format' },
+              { label: 'Prepare', value: 'Kitchen photos and access details' },
+              { label: 'Confirm', value: 'Menu, responsibilities and service window' },
+              { label: 'Prices', value: 'See the current service page and written proposal' },
             ]}
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Palm Jumeirah is built for exceptional living, and that extends to the way residents entertain. Instead of battling traffic to a hotel restaurant, many hosts now prefer a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> who cooks, serves, and cleans inside their own home.
+              A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu.
+            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> who cooks, serves, and cleans inside their own home.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               This guide walks you through what a private chef service in Palm Jumeirah actually includes, how pricing works, and how to plan a flawless evening for your guests.
             </p>
           </section>
 
+          <p className="font-inter text-body text-gray-500 mb-8">For the service itself, explore <Link to="/luxury-dining-experiences" className="text-gold underline underline-offset-4">private dining experiences in Dubai</Link>. Use the checklist below to prepare your brief.</p>
           <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="why-palm-jumeirah-hosts-hire-private-chefs" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Why Palm Jumeirah Hosts Hire Private Chefs</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Privacy is the most common reason. A villa on the fronds or an apartment with a marina view gives you a setting that no restaurant can replicate. Add a chef, and the evening becomes entirely yours: no reservations, no fixed closing times, and no shared dining room.
             </p>
-            <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              The chef travels to the villa or apartment. What to check is the named chef, the itemised quote, who buys the ingredients, and how access and parking work on the Palm. A three-hour visit is AED 1,125 single or AED 750 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and Palm zone transport of AED 95 per visit are separate. A staffed celebration has its own event quote.
-            </p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">Compare the current service options and confirm the menu, cooking time, ingredients, staffing and transport in the written proposal. Household cooking and a staffed celebration are different arrangements.</p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Families with children, couples celebrating quietly, and groups of friends who want to linger over conversation all benefit from the flexibility. You control the music, dress code, guest list, and menu. The chef simply handles the food.
             </p>
@@ -175,7 +173,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 id="what-the-service-includes" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What the Service Includes</h2>
+            <h2 id="what-the-service-includes" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Questions to Confirm About the Service</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               A private chef booking is more than cooking. The standard flow starts with a menu consultation, followed by grocery sourcing, in-home preparation, service, and post-meal kitchen clean-up. Most chefs arrive two to four hours before service, depending on the complexity of the menu.
             </p>
@@ -188,57 +186,14 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 id="indicative-pricing-in-palm-jumeirah" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Indicative Pricing in Palm Jumeirah</h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse font-inter text-body-sm">
-                <thead>
-                  <tr className="border-b border-gray-200">
-                    <th className="py-3 pr-4 font-medium text-black">Service type</th>
-                    <th className="py-3 pr-4 font-medium text-black">Typical range</th>
-                    <th className="py-3 font-medium text-black">Best for</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-500">
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Breakfast / brunch</td>
-                    <td className="py-3 pr-4">AED 950–1,450</td>
-                    <td className="py-3">Weekend gatherings, family visits</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Lunch (2–8 guests)</td>
-                    <td className="py-3 pr-4">AED 1,450–2,450</td>
-                    <td className="py-3">Poolside meals, working lunches</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Dinner (2–8 guests)</td>
-                    <td className="py-3 pr-4">AED 2,200–4,500</td>
-                    <td className="py-3">Celebrations, date nights, anniversaries</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Large party (10–30 guests)</td>
-                    <td className="py-3 pr-4">AED 4,500–12,000+</td>
-                    <td className="py-3">Birthdays, villas, yacht events</td>
-                  </tr>
-                  <tr>
-                    <td className="py-3 pr-4">Full-time live-in chef</td>
-                    <td className="py-3 pr-4">From AED 15,000/month</td>
-                    <td className="py-3">Dedicated household role; schedule and responsibilities agreed</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <h2 id="indicative-pricing-in-palm-jumeirah" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Compare the Scope of Your Proposal</h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">For current options, see <Link to="/luxury-dining-experiences" className="text-gold underline underline-offset-4">private dining experiences in Dubai</Link>. Use the menu, guest count, kitchen and service requirements to request an itemised proposal.</p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">
               These ranges are indicative and vary by menu, guest count, ingredient quality, and staffing. Grocery costs are usually billed separately or bundled into a per-person package, depending on the chef.
             </p>
           </section>
 
-          <SourcesBlock
-            sources={[
-              { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
-              { label: 'Nakheel: Palm Jumeirah community and access guidelines (general reference)' },
-            ]}
-            note="Pricing ranges are indicative and depend on menu complexity, guest count, service style, and ingredient sourcing. Always request an itemised quote before booking."
-          />
+
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="how-to-plan-the-menu" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How to Plan the Menu</h2>
@@ -335,7 +290,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           <BlogRelated currentSlug="/blog/private-chef-palm-jumeirah-guide" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Private Dining Palm Jumeirah Dubai: Ready to Book a Private Chef in Palm Jumeirah?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Put Your Palm Jumeirah Dinner Brief Together</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your occasion, guest count, and menu preferences. We will bring you a vetted chef and send a custom quote within one business day.
             </p>

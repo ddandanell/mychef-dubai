@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-halal-catering-companies-in-dubai",
-  "title": "How to compare the best halal catering companies in Dubai",
-  "focus": "Tell each provider what documentation and preparation arrangements your guests or organisation require. Review the proposed meat and poultry, then ask about stocks, sauces, desserts and other less visible ingredients. A general assurance is not a substitute for confirmation of a specific requirement. Discuss shared equipment and any alcohol-related restrictions explicitly. If allergies are also relevant, treat them as a separate assessment. Compare the clarity of the answers before deciding which proposal meets the brief.",
+  "title": "What to Ask a Caterer About Halal Ingredients",
+  "focus": "Start halal menu planning by stating the ingredients and sourcing requirements your guests expect. Ask for relevant supplier information and confirm how the menu will be prepared and served.",
   "sections": [
     {
       "id": "comparison",
@@ -59,6 +59,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/catering-dubai",
+      "label": "catering services in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

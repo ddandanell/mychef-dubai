@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-yacht-catering-services-in-dubai",
-  "title": "How to compare the best yacht catering companies in Dubai",
-  "focus": "Ask providers what information they need from the yacht operator and how they plan loading and storage. A menu that works in a villa may need substantial changes for a particular galley or deck. Compare staffing and equipment against the charter itinerary, and clarify who coordinates with the captain or handler. Any live preparation must be assessed for the vessel. Choose on the basis of a workable onboard plan as well as food presentation.",
+  "title": "How to Compare Yacht Catering Proposals in Dubai",
+  "focus": "A yacht catering proposal needs an onboard plan as well as a menu. Compare galley space, marina loading, chilled storage, service hours and the captain’s requirements on the same brief.",
   "sections": [
     {
       "id": "comparison",
@@ -68,6 +68,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/yachts",
+      "label": "yacht catering in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

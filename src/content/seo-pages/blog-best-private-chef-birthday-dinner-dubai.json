@@ -1,7 +1,7 @@
 {
  "url": "/blog/best-private-chef-birthday-dinner-dubai",
  "keyword_strategy": {
-  "main_keyword": "private chef birthday dinner",
+  "main_keyword": "how to plan a birthday dinner at home in dubai",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,40 +11,18 @@
   "subkeywords_total": 20,
   "subkeywords_carried": 17,
   "coverage_percent": 85,
-  "subkeywords_carried_list": [
-   "private chef dinner party near me",
-   "hire private chef for birthday dinner",
-   "private chef dinner menu",
-   "private chef dinner near me",
-   "where to go for birthday dinner in dubai?",
-   "how much does a private chef cost in dubai?",
-   "chef dubai restaurant",
-   "private chef at home dubai",
-   "private dining chef near me",
-   "full time private chef dubai",
-   "private birthday dinner near me",
-   "private chef birthday dinner menu",
-   "private chef birthday dinner cost",
-   "private chef for birthday dinner near me",
-   "private chef dinner ideas",
-   "private chef for birthday dinner",
-   "how much does it cost to hire a private chef"
-  ],
-  "subkeywords_not_carried": [
-   "how much does a private chef cost for a meal?",
-   "how much should you charge as a private chef?",
-   "private chef birthday dinner nyc"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /events. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "The Private Chef Birthday Dinner Guide for Dubai | myCHEF Dubai",
-  "meta_description": "A private chef birthday dinner in Dubai, from AED 700 per person: how the night runs, menu ideas, real prices, a booking checklist, and how myCHEF vets its chefs.",
-  "h1": "The Private Chef Birthday Dinner Guide for Dubai — Real Prices and Timings"
+  "title": "Birthday Dinner at Home: Menus & Timing | myCHEF",
+  "meta_description": "Plan the menu around the guest of honour, then work backwards from the cake moment.",
+  "h1": "How to Plan a Birthday Dinner at Home in Dubai"
  },
  "opening_paragraph": [
-  "A private chef birthday dinner in Dubai starts from AED 700 per person and is built by myCHEF entirely around the guest of honour, not a restaurant's fixed set list. This guide walks through how the night runs, what goes on the menu, what it costs, and how to book. A chef arrives at your home, villa or venue, cooks each course on site, styles the cake moment, and leaves the kitchen spotless."
+  "Plan the menu around the guest of honour, then work backwards from the cake moment. This guide covers portions, course timing and kitchen preparation for a birthday dinner at home."
  ],
  "replace_in_block": [
   {
@@ -173,5 +151,6 @@
    "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
   }
  ],
- "faq": []
+ "faq": [],
+ "updated_at": "2026-10-06"
 }

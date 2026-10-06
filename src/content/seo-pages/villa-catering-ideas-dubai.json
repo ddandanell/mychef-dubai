@@ -1,7 +1,7 @@
 {
  "url": "/villa-catering-ideas-dubai",
  "keyword_strategy": {
-  "main_keyword": "villa catering ideas dubai",
+  "main_keyword": "villa party ideas: match the menu to your space",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,26 +11,18 @@
   "subkeywords_total": 7,
   "subkeywords_carried": 7,
   "coverage_percent": 100,
-  "subkeywords_carried_list": [
-   "buffet catering dubai",
-   "catering services dubai",
-   "small party catering dubai",
-   "small villa catering ideas dubai",
-   "cheap villa catering ideas dubai",
-   "small party catering dubai indian",
-   "outdoor villa catering ideas dubai"
-  ],
+  "subkeywords_carried_list": [],
   "subkeywords_not_carried": [],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "Informational support page. Broad commercial intent belongs to /luxury-dining-experiences. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Villa Catering Ideas Dubai: 12 Formats That Work at Home | myCHEF",
-  "meta_description": "Villa catering ideas for Dubai homes: grazing tables, live stations, plated dinners and poolside formats, with costs, planning tips and what each needs from your kitchen.",
-  "h1": "Villa Catering Ideas in Dubai — Real Prices and Timings"
+  "title": "Villa Party Layout & Menu Ideas in Dubai | myCHEF",
+  "meta_description": "Match a villa party menu to the space guests will actually use.",
+  "h1": "Villa Party Ideas: Match the Menu to Your Space"
  },
  "opening_paragraph": [
-  "myCHEF villa catering in Dubai costs from AED 90 per person for a grazing table and AED 700 for a chef cooking and serving in your kitchen. Which of those villa catering ideas you need is decided by your space and your guest list, not by the menu. A grazing table suits a standing party, live stations suit a garden, and a plated dinner suits a seated table of eight to twelve. This guide runs through the formats, what each needs from your kitchen, and how the costs compare."
+  "Match a villa party menu to the space guests will actually use. Plan the route between kitchen, dining table, terrace and garden before choosing a seated meal, buffet or standing reception."
  ],
  "replace_in_block": [
   {
@@ -222,5 +214,6 @@
     "2 to 3 weeks for a standard dinner, and longer for the November-to-March outdoor season and festive dates, which fill early. Short-notice requests are still worth sending."
    ]
   }
- ]
+ ],
+ "updated_at": "2026-10-06"
 }

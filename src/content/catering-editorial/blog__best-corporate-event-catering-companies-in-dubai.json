@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-corporate-event-catering-companies-in-dubai",
-  "title": "How to compare the best corporate catering companies in Dubai",
-  "focus": "Share the programme and ask each company to explain its proposed service windows. Compare the food alongside staffing, access coordination and the process for handling changes. A reception, awards dinner and product launch should not receive an identical operating plan. If your organisation needs supplier documentation or a purchase order, confirm the process early. The most useful proposal is one your approver can understand and your venue contact can put into practice.",
+  "title": "How to Assess a Corporate Event Catering Proposal",
+  "focus": "Assess a corporate event proposal against the agenda, venue and approval process. Check menu quantities, service responsibilities, access and the items included in the written scope.",
   "sections": [
     {
       "id": "comparison",
@@ -68,6 +68,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/corporate",
+      "label": "corporate catering in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

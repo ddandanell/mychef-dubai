@@ -1,7 +1,7 @@
 {
  "url": "/locations/jbr",
  "keyword_strategy": {
-  "main_keyword": "private chef jbr",
+  "main_keyword": "planning a dinner in jbr: access and apartment kitchens",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,26 +11,18 @@
   "subkeywords_total": 6,
   "subkeywords_carried": 4,
   "coverage_percent": 67,
-  "subkeywords_carried_list": [
-   "best private chef jbr",
-   "private chef jbr near me",
-   "private chef at home dubai",
-   "full time private chef dubai"
-  ],
-  "subkeywords_not_carried": [
-   "famous private chef jbr",
-   "private chef jbr recipes"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /private-chef-dubai. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef JBR | Villa Dining & Catering | myCHEF",
-  "meta_description": "Private chef & catering in JBR from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Jumeirah Beach Residence towers. Request a proposal.",
-  "h1": "Private Chef & Catering in JBR — Prices, Formats and What You Get"
+  "title": "JBR Dinner Planning: Apartment Access & Setup | myCHEF",
+  "meta_description": "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule.",
+  "h1": "Planning a Dinner in JBR: Access and Apartment Kitchens"
  },
  "opening_paragraph": [
-  "A private chef JBR booking brings restaurant-grade dining into your own beachfront apartment, with myCHEF menus from AED 700 per person. For residents and holidaymakers along Jumeirah Beach Residence, it turns another night out into a relaxed dinner at home — a vetted chef plans the menu, cooks in your kitchen, serves the table and clears everything away afterward. Send your date and address, and you will hear back promptly during our published business hours with a chef match and an itemised proposal."
+  "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
  ],
  "replace_in_block": [
   {
@@ -195,5 +187,6 @@
    "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
   }
  ],
- "faq": []
+ "faq": [],
+ "updated_at": "2026-10-06"
 }

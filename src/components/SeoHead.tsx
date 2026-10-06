@@ -4,6 +4,7 @@ import { isParked } from '@/content/parkedUrls'
 import { useLocation } from 'react-router'
 import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, SKIP_SEO_HEAD_ROUTES, type SeoPage } from '../content/seo'
 import { routes } from '../routes'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 
 const LIVE_EXACT = new Set(
   routes.map((r) => r.path).filter((p) => p !== '*' && !p.includes(':')),
@@ -47,7 +48,9 @@ export default function SeoHead() {
 
   const head = data?.head
   if (!head) return null
-  const { title, meta_description: description } = head
+  const authority = pageAuthorityFor(pathname)
+  const title = authority?.title || head.title
+  const description = authority?.description || head.meta_description
 
   return (
     <Helmet prioritizeSeoTags>

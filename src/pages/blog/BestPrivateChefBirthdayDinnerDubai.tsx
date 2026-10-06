@@ -1,8 +1,8 @@
 import BlogProse from '@/components/blog/BlogProse'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/best-private-chef-birthday-dinner-dubai
-//     primary:     "private chef for birthday dinner dubai"
-//     subkeywords: "best private chef birthday dinner dubai" · "private chef birthday dinner cost dubai" · "birthday dinner ideas at home dubai" · "birthday dinner party at home dubai" · "private chef dinner menu" · "private chef dinner party near me" · "book a private chef" · "private beach dinner dubai"
+//     primary:     "how to plan a birthday dinner at home in dubai"
+//     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -17,7 +17,6 @@ import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
-import SourcesBlock from '../../components/SourcesBlock'
 import ArticleToc from '../../components/ArticleToc'
 import BlogFigure from '../../components/BlogFigure'
 
@@ -25,13 +24,13 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your best private chef birthday dinner Dubai blog and would like a custom quote (via mychef.ae/blog/best-private-chef-birthday-dinner-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry'
+const CTA_HREF = "/events"
 const SLUG = 'best-private-chef-birthday-dinner-dubai'
 
 const faqs = [
   {
     q: 'How much does a private chef birthday dinner cost in Dubai?',
-    a: 'For an intimate home dinner, expect roughly AED 1,500–3,500 for the chef service plus ingredients. Larger celebrations with multiple courses, waiting staff, and rentals can range from AED 4,000–12,000 or more, depending on guest count and menu complexity.',
+    a: 'The price depends on the cooking time, menu, guest count and service responsibilities. Check the current service or pricing page, then request an itemised proposal with groceries, staffing, transport and VAT identified.',
   },
   {
     q: 'Can a private chef handle dietary restrictions at a birthday dinner?',
@@ -69,7 +68,7 @@ const faqs = [
 
 const articleSchema = {
   '@type': 'Article',
-  headline: 'Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book',
+  headline: "How to Plan a Birthday Dinner at Home in Dubai",
   description: 'Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.',
   author: { '@id': 'https://www.mychef.ae/#organization' },
   publisher: { '@id': 'https://www.mychef.ae/#organization' },
@@ -123,8 +122,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef for Birthday Dinner Dubai | myCHEF"
-        description="Private Chef for Birthday Dinner Dubai — Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the…"
+        title="Birthday Dinner at Home: Menus & Timing | myCHEF"
+        description="Plan the menu around the guest of honour, then work backwards from the cake moment."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         schema={schema}
@@ -133,8 +132,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
       {/* Hero */}
       <PageHero
         eyebrow="Birthday"
-        title="Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
-        subtitle={"Plan a birthday dinner at home or in your Dubai villa, with advice on menus, service timings and the details to include in your enquiry."}
+        title="How to Plan a Birthday Dinner at Home in Dubai"
+        subtitle={"Plan the menu around the guest of honour, then work backwards from the cake moment. This guide covers portions, course timing and kitchen preparation for a birthday dinner at home."}
         image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}
@@ -154,19 +153,19 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </div>
 
           <KeyFactsBox
-            answer="A private chef birthday dinner in Dubai typically costs AED 1,500–3,500 for 4–8 guests and can scale to AED 10,000–20,000+ for larger celebrations with full service and waiting staff."
+            answer="Plan the menu around the guest of honour, then work backwards from the cake moment. This guide covers portions, course timing and kitchen preparation for a birthday dinner at home."
             facts={[
-              { label: 'Intimate seated dinner', value: 'AED 1,500–3,500 (4–8 guests)' },
-              { label: 'Multi-course plated', value: 'AED 4,000–7,500 (8–16 guests)' },
-              { label: 'Sharing / family-style', value: 'AED 5,500–10,000 (15–30 guests)' },
-              { label: 'Full-service celebration', value: 'AED 10,000–20,000+ (30+ guests)' },
-              { label: 'Ideal booking window', value: '2–4 weeks ahead' },
+              { label: 'Start with', value: 'Guest needs and meal format' },
+              { label: 'Prepare', value: 'Kitchen photos and access details' },
+              { label: 'Confirm', value: 'Menu, responsibilities and service window' },
+              { label: 'Prices', value: 'See the current service page and written proposal' },
             ]}
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A birthday in Dubai deserves more than a crowded restaurant and a set menu. Hiring a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> lets you turn your home, villa, or penthouse into the venue — complete with a menu built around the guest of honour, restaurant-quality presentation, and the privacy of your own space.
+              Plan the menu around the guest of honour, then work backwards from the cake moment. This guide covers portions, course timing and kitchen preparation for a birthday dinner at home.
+            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> lets you turn your home, villa, or penthouse into the venue — complete with a menu built around the guest of honour, restaurant-quality presentation, and the privacy of your own space.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Whether you are planning an intimate dinner for six or a lively celebration for thirty, this guide covers menu ideas, indicative costs, and the practical steps to book the right chef.
@@ -176,6 +175,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
             </p>
           </section>
 
+          <p className="font-inter text-body text-gray-500 mb-8">For the service itself, explore <Link to="/events" className="text-gold underline underline-offset-4">event catering in Dubai</Link>. Use the checklist below to prepare your brief.</p>
           <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 id="why-host-a-birthday-dinner-with-a-private-chef" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Why Host a Birthday Dinner with a Private Chef?</h2>
@@ -204,57 +204,20 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 id="indicative-costs-for-a-private-chef-birthday-dinner" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Indicative Costs for a Private Chef Birthday Dinner</h2>
+            <h2 id="indicative-costs-for-a-private-chef-birthday-dinner" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Changes a Birthday Dinner Quote</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Pricing varies by guest count, menu complexity, service style, and whether you add waiting staff or rentals. The figures below are indicative and meant to help you budget before requesting a tailored quote.
+              Pricing varies by guest count, menu complexity, service style, and whether you add waiting staff or rentals. Use these details to request a current, itemised proposal from the service page.
             </p>
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse font-inter text-body-sm">
-                <thead>
-                  <tr className="border-b border-gray-200">
-                    <th className="py-3 pr-4 font-medium text-black">Style</th>
-                    <th className="py-3 pr-4 font-medium text-black">Guest Count</th>
-                    <th className="py-3 font-medium text-black">Indicative Range</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-500">
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Intimate seated dinner</td>
-                    <td className="py-3 pr-4">4–8 guests</td>
-                    <td className="py-3">AED 1,500–3,500</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Multi-course plated dinner</td>
-                    <td className="py-3 pr-4">8–16 guests</td>
-                    <td className="py-3">AED 4,000–7,500</td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-3 pr-4">Sharing / family-style feast</td>
-                    <td className="py-3 pr-4">15–30 guests</td>
-                    <td className="py-3">AED 5,500–10,000</td>
-                  </tr>
-                  <tr>
-                    <td className="py-3 pr-4">Full-service celebration with staff</td>
-                    <td className="py-3 pr-4">30+ guests</td>
-                    <td className="py-3">AED 10,000–20,000+</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">For current options, see <Link to="/birthday-catering-dubai" className="text-gold underline underline-offset-4">birthday catering in Dubai</Link>. Use the menu, guest count, kitchen and service requirements to request an itemised proposal.</p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-5">
-              These ranges typically cover the chef fee, ingredients, basic service, and kitchen cleanup. Premium proteins, imported ingredients, bespoke cake design, bar service, and event rentals are usually quoted separately.
+              Ask the provider to identify the chef time, ingredients, service staff, equipment and clear-down separately. Confirm any cake, bar service or hire items in the written proposal.
             </p>
           </section>
 
-          <SourcesBlock
-            sources={[
-              { label: 'Market-reference pricing compiled from competitor published menus (2025–26): Cedar Tree Catering, Al Farah Gourmet, Tablez, Scalini, Take a Chef, Splidu, Chef On Demand' },
-            ]}
-            note="Pricing ranges are indicative and depend on guest count, menu complexity, ingredients, and staffing. Always request an itemised quote before booking."
-          />
+
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 id="how-to-book-the-right-private-chef" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How to Book the Right Private Chef</h2>
+            <h2 id="how-to-book-the-right-private-chef" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Prepare the Birthday Dinner Brief</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Start by defining the basics: date, time, guest count, location, and budget. Then think about the experience you want. Is it a quiet candlelit dinner, a lively party, or something in between? Share any dietary needs, preferred cuisines, and must-have dishes upfront.
             </p>
@@ -313,7 +276,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           <BlogRelated currentSlug="/blog/best-private-chef-birthday-dinner-dubai" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Private Chef for Birthday Dinner Dubai: Ready to Plan Your Birthday Dinner?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Ready to Plan Your Birthday Dinner?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your celebration and we will bring you a private chef who can design a menu, handle the service, and leave your kitchen spotless.
             </p>

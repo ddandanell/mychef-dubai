@@ -1,7 +1,7 @@
 {
   "path": "/blog/best-wedding-catering-companies-in-dubai",
-  "title": "How to compare the best wedding catering companies in Dubai",
-  "focus": "Share the same venue, guest count and service expectations with each provider. Ask how the menu connects to the ceremony schedule, speeches and other key moments. If a tasting is offered, clarify what it includes and how changes will be recorded afterward. Compare staff, equipment and service hours alongside the food. The final choice should reflect the experience you want guests to have and the provider’s ability to explain how that experience will work.",
+  "title": "Questions to Ask Before Shortlisting a Wedding Caterer",
+  "focus": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format. Ask who coordinates the menu, equipment and running order before arranging a tasting.",
   "sections": [
     {
       "id": "comparison",
@@ -68,6 +68,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/events",
+      "label": "event catering in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"

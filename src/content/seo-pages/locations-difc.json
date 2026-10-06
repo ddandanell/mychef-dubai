@@ -1,7 +1,7 @@
 {
  "url": "/locations/difc",
  "keyword_strategy": {
-  "main_keyword": "private chef difc",
+  "main_keyword": "planning meals in difc: building access and service windows",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,25 +11,18 @@
   "subkeywords_total": 5,
   "subkeywords_carried": 3,
   "coverage_percent": 60,
-  "subkeywords_carried_list": [
-   "best private chef difc",
-   "private chef difc dubai",
-   "full time private chef dubai"
-  ],
-  "subkeywords_not_carried": [
-   "mexican private chef dubai",
-   "private chef vacancy dubai"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /private-chef-dubai. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef DIFC | Villa Dining & Catering | myCHEF",
-  "meta_description": "Private chef & catering in DIFC from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Gate Village and the DIFC art district. Request a proposal.",
-  "h1": "Private Chef & Catering in DIFC — What It Costs and How to Book"
+  "title": "DIFC Meal Planning: Access & Service Logistics | myCHEF",
+  "meta_description": "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule.",
+  "h1": "Planning Meals in DIFC: Building Access and Service Windows"
  },
  "opening_paragraph": [
-  "A private chef in DIFC brings restaurant-grade cooking to your apartment, with private dining from AED 700 per person. myCHEF pairs you with a vetted chef who plans the menu, shops, cooks in your kitchen, serves each course and clears everything away — so you host the evening without ever leaving the table. DIFC is a district of high-floor residences stacked above the trading floors, so most guests the chef cooks for here are finance professionals and residents of Dubai's financial centre. Send your date and address, and during our published business hours you'll hear back promptly with a chef match and an itemised proposal."
+  "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule. Confirm arrangements with your property or office before choosing the service."
  ],
  "replace_in_block": [
   {
@@ -190,5 +183,6 @@
    "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
   }
  ],
- "faq": []
+ "faq": [],
+ "updated_at": "2026-10-06"
 }

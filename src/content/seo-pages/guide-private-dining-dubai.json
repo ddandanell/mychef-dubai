@@ -1,7 +1,7 @@
 {
  "url": "/guide/private-dining-dubai",
  "keyword_strategy": {
-  "main_keyword": "private dining in dubai",
+  "main_keyword": "a host’s guide to planning a private dinner in dubai",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,40 +11,18 @@
   "subkeywords_total": 20,
   "subkeywords_carried": 13,
   "coverage_percent": 65,
-  "subkeywords_carried_list": [
-   "best private dining in dubai",
-   "romantic private dining dubai",
-   "private room in dubai for rent",
-   "private dinner in dubai desert",
-   "private dining dubai for couples",
-   "best private dining rooms in dubai",
-   "private dining in dubai for couples",
-   "private dining in dubai with a view",
-   "private restaurant in dubai for couples",
-   "private room in dubai",
-   "private dinner in dubai",
-   "best group dining dubai",
-   "private dining area dubai"
-  ],
-  "subkeywords_not_carried": [
-   "restaurants with private cabins in dubai",
-   "cheap private dining in dubai",
-   "affordable private dining in dubai",
-   "cheap restaurants with private cabins in dubai",
-   "dubai dining offers",
-   "private events in dubai",
-   "private room in bur dubai"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /luxury-dining-experiences. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Dining in Dubai: The Complete Guide | myCHEF",
-  "meta_description": "A complete guide to private dining in Dubai: formats, costs from AED 700 per person, how to plan the evening, what your kitchen needs, and how to choose a chef.",
-  "h1": "Private Dining in Dubai: The Complete Guide"
+  "title": "How to Plan a Private Dinner at Home in Dubai | myCHEF",
+  "meta_description": "Start a private dinner plan with the people at the table, the space available and the pace of the evening.",
+  "h1": "A Host’s Guide to Planning a Private Dinner in Dubai"
  },
  "opening_paragraph": [
-  "Private dining in Dubai costs about AED 700 to 950 per person. Private dining in Dubai means a vetted chef cooking a designed menu in your own kitchen, and myCHEF arranges it at about AED 700 to 950 per person for most dinners. It sits between a restaurant and home cooking: the food and service of the former, in a room you control. This guide covers the formats, the costs, what your kitchen needs to provide, and the questions worth asking before you book."
+  "Start a private dinner plan with the people at the table, the space available and the pace of the evening. Use this guide to organise the menu, kitchen, guest requirements and service handover."
  ],
  "replace_in_block": [
   {
@@ -219,5 +197,6 @@
     "It depends on numbers. Below about twelve guests a restaurant private room is often simpler; above that, its minimum spend usually exceeds the cost of bringing a kitchen to you, and you keep control of timings."
    ]
   }
- ]
+ ],
+ "updated_at": "2026-10-06"
 }

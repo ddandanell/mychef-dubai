@@ -1,8 +1,8 @@
 import PageHero from '@/components/PageHero'
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /guide/private-dining-dubai
-//     primary:     "private dining dubai"
-//     subkeywords: "private dining at home dubai" · "private dinner party dubai" · "private dining ideas dubai" · "private dining dubai for couples" · "romantic private dining dubai" · "luxury private dining dubai menu" · "amazonico private dining dubai"
+//     primary:     "a host’s guide to planning a private dinner in dubai"
+//     subkeywords: none
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef, useState } from 'react'
@@ -171,7 +171,7 @@ const faqs = [
   },
   {
     q: 'How does private dining pricing compare to luxury catering?',
-    a: 'Private dining is typically chef-led and intimate, with per-person pricing starting around AED 250–350 for family-style meals and rising for premium tasting menus. Luxury catering scales for larger guest counts and broader service formats.',
+    a: 'Private dining is usually planned around a seated group, the menu sequence and the pace of service. Larger events may require a different format, staff plan and equipment. Compare the complete written scope rather than a headline price.',
   },
   {
     q: 'Is private dining suitable for corporate entertaining?',
@@ -305,7 +305,7 @@ export default function PrivateDiningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai | Planning Guide | myCHEF"
+        title="How to Plan a Private Dinner at Home in Dubai | myCHEF"
         description="A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
         ogImage="/images/private-chef-2026/villa-evening-1200.webp?v=20260927"
@@ -313,7 +313,7 @@ export default function PrivateDiningGuide() {
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <PageHero eyebrow="MYCHEF · A GUIDE TO HOSTING" title="Private Dining Dubai. A thoughtful guide to hosting." subtitle="Plan a private dinner at home, aboard a chartered yacht or at an agreed outdoor venue. Explore menus, chef selection and the details to confirm before booking." cta={{label:"Plan my dinner",href:"/inquiry?from=/guide/private-dining-dubai"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
+      <PageHero eyebrow="MYCHEF · A GUIDE TO HOSTING" title="A Host’s Guide to Planning a Private Dinner in Dubai" subtitle="Plan a private dinner at home, aboard a chartered yacht or at an agreed outdoor venue. Explore menus, chef selection and the details to confirm before booking." cta={{label:"Explore private dining",href:"/inquiry?from=/guide/private-dining-dubai"}} secondaryCta={{label:"Explore experiences",href:"/luxury-dining-experiences"}}/>
 
       <TrustSignalStrip />
 
@@ -322,7 +322,7 @@ export default function PrivateDiningGuide() {
         <div className="container-custom max-w-[820px] text-center pd-intro opacity-0 translate-y-10">
           <SectionLabel align="center">INTIMATE, CHEF-LED DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            What Private Dining Means in Dubai
+            Start With the Setting and Guest List
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Private dining offers a personal way to host in Dubai, whether in a villa, apartment, chartered yacht or agreed outdoor setting. You can shape the menu, pace and service around your guests while the chef handles the cooking.
@@ -471,7 +471,7 @@ export default function PrivateDiningGuide() {
               What Affects Private Dining Pricing
             </h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto mt-4">
-              Private dining pricing in Dubai depends on several variables. As a general guide for 2026, expect per-person pricing to start from AED 250–350 for a simple family-style meal and rise to AED 700+ for premium multi-course tasting menus with full service.
+              Menu complexity, guest numbers, staffing, equipment and the venue shape the proposal. For current options, explore <Link to="/luxury-dining-experiences" className="text-gold underline underline-offset-4">private dining experiences in Dubai</Link>, then use the factors below to compare what is included.
             </p>
           </div>
 

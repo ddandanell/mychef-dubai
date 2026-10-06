@@ -1,7 +1,7 @@
 {
  "url": "/blog/how-much-does-private-chef-cost-dubai",
  "keyword_strategy": {
-  "main_keyword": "private chef cost",
+  "main_keyword": "private chef quotes explained: time, food and service",
   "main_keyword_placed_in": {
    "title": true,
    "h1": true,
@@ -11,40 +11,18 @@
   "subkeywords_total": 20,
   "subkeywords_carried": 13,
   "coverage_percent": 65,
-  "subkeywords_carried_list": [
-   "how much do private chef cost",
-   "private chef cost per day",
-   "what to charge as a private chef?",
-   "is 500 aed enough for food in dubai?",
-   "what is a reasonable budget for a chef?",
-   "how much does it usually cost to have a private chef?",
-   "private chef cost near me",
-   "full time private chef dubai",
-   "private chef cost for dinner party",
-   "how much does a private chef cost per day",
-   "how much does it cost to hire a private chef",
-   "private chef cost dc",
-   "private chef cost aus"
-  ],
-  "subkeywords_not_carried": [
-   "private chef vacancy dubai",
-   "private chef cost australia",
-   "how much does private chef cost beverly hills",
-   "private chef cost uk",
-   "private chef charges",
-   "private chef cost bali",
-   "private chef cost cabo"
-  ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [],
+  "note": "Informational support page. Broad commercial intent belongs to /private-chef-dubai. Keep a direct contextual link to that service owner."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "How Much Does a Private Chef Cost in Dubai? | myCHEF Dubai",
-  "meta_description": "A private chef in Dubai costs from about AED 700 to 950 per person for most dinners. Two guests sit nearer AED 950–1,300 per head; ten or more come do",
-  "h1": "How Much Does a Private Chef Cost in Dubai? — What to Know"
+  "title": "What Affects a Private Chef Quote in Dubai? | myCHEF",
+  "meta_description": "A chef quote combines time, ingredients, travel and any service support.",
+  "h1": "Private Chef Quotes Explained: Time, Food and Service"
  },
  "opening_paragraph": [
-  "Here is the short answer. The private chef cost in Dubai starts at about AED 700 per person, and most home dinners myCHEF arranges land between AED 700 and 950 a head once you factor in the menu and the size of your group. Two guests sit higher, closer to AED 950–1,300 each, because the full setup serves only two covers. This guide walks through what moves the number so you can budget without guesswork."
+  "A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals."
  ],
  "replace_in_block": [
   {
@@ -265,5 +243,6 @@
     "Book as early as you can — 48 hours for a standard private-chef dinner, 5 to 7 days for bespoke menus and larger events. Share your date, guest count and venue and myCHEF returns an itemised proposal, usually within one business day."
    ]
   }
- ]
+ ],
+ "updated_at": "2026-10-06"
 }

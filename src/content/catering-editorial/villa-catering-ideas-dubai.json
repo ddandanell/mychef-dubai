@@ -1,7 +1,7 @@
 {
   "path": "/villa-catering-ideas-dubai",
-  "title": "Match the idea to the spaces you will actually use",
-  "focus": "Walk through the kitchen, dining area and outdoor space before choosing the format. A poolside BBQ, seated dinner and roaming canapé party each create a different pattern of movement. Consider where preparation, service and clearing will happen without interrupting guests. The existing kitchen may support some ideas more easily than others, and community restrictions can affect live cooking. Use the layout to narrow the menu options, then discuss the equipment and team needed to make the occasion work.",
+  "title": "Villa Party Ideas: Match the Menu to Your Space",
+  "focus": "Match a villa party menu to the space guests will actually use. Plan the route between kitchen, dining table, terrace and garden before choosing a seated meal, buffet or standing reception.",
   "sections": [
     {
       "id": "venue",
@@ -32,6 +32,10 @@
     }
   ],
   "links": [
+    {
+      "href": "/luxury-dining-experiences",
+      "label": "private dining experiences in Dubai"
+    },
     {
       "href": "/guides",
       "label": "Guides"
