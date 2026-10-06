@@ -54,6 +54,9 @@ export default function HouseholdEnquiryForm({ sourcePage }: { sourcePage: strin
           name: contact.name.trim() || 'Website enquiry', email: reply === 'email' ? contact.email.trim() : '', phone: reply === 'whatsapp' ? internationalPhone(contact.phone) : '',
           eventDate: home.date, guests: home.guests, location: home.area, sourcePage: source,
           message: brief, source: adAttributionSource(source), gclid: getAdAttribution().gclid,
+          utm_source: getAdAttribution().source, utm_medium: getAdAttribution().medium,
+          utm_campaign: getAdAttribution().campaign, utm_content: getAdAttribution().content,
+          utm_term: getAdAttribution().term,
           page: window.location.pathname + window.location.search,
         }),
       })
@@ -81,7 +84,7 @@ export default function HouseholdEnquiryForm({ sourcePage }: { sourcePage: strin
       <p className="mh-enquiry-price sm:col-span-2">Dedicated full-time service starts from <strong>AED 15,000/month before 5% VAT</strong>. Days, hours and responsibilities are agreed in your proposal. AED 950 Match Activation, paid trials, groceries and agreed extras are separate. Daily visits use separate rates.</p>
       {(home.budget === 'Under AED 15,000' || home.schedule === 'Fewer days / part-time') && <p className="sm:col-span-2 mh-enquiry-fit">A cooking-visit plan may suit you better. You can still ask us for guidance, or <Link to="/private-chef-dubai/pricing#calculator">explore visit prices</Link>.</p>}
       {selected.profiles.length > 0 && <p className="sm:col-span-2 mh-enquiry-fit">Your cooking-style preferences are saved with this enquiry: {selected.profiles.map(profile => profile.title).join(', ')}.</p>}
-      <div className="sm:col-span-2"><button className="pc-button" type="submit">Continue to contact details <ArrowRight size={17}/></button></div>
+      <div className="sm:col-span-2"><button className="pc-button" type="button" onClick={event => { if (event.currentTarget.form?.reportValidity()) changeStep(2) }}>Continue to contact details <ArrowRight size={17}/></button></div>
     </div> : <div className="grid sm:grid-cols-2 gap-5">
       <div className="sm:col-span-2 mh-enquiry-recap"><p><strong>{home.area}</strong> · {home.guests}</p><p>{home.schedule} · Start: {home.date || 'Flexible'}</p><p>{home.budget}</p><button type="button" className="pc-link" onClick={() => changeStep(1)}><ArrowLeft size={15}/> Edit household details</button></div>
       <label className="sm:col-span-2"><span className={label}>Your name <span className="font-normal text-gray-500">(optional)</span></span><input name="name" className={field} autoComplete="name" maxLength={150} value={contact.name} onChange={e => setContact({ ...contact, name: e.target.value })}/></label>
