@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "python3 scripts/verify-page-authority.py && node scripts/generate-catering-design-index.mjs && npm run verify:images",
+    "prebuild": "python3 scripts/verify-blog-photography.py && python3 scripts/verify-page-authority.py && node scripts/generate-catering-design-index.mjs && npm run verify:images",
     "build": "tsc -b && vite build",
     "build:prerender": "npm run build && npm run prerender",
     "lint": "eslint .",

@@ -4,7 +4,7 @@ import { blogImageSrcSet } from '@/lib/blogImages'
 /** Editorial figure for blog imagery. */
 export default function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: boolean }) {
   return (
-    <figure className="my-10">
+    <figure className="my-10 blog-editorial-photo">
       <div className="overflow-hidden rounded-2xl bg-gray-100">
         <img
           src={image.src}

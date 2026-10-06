@@ -7,7 +7,8 @@ import TrustSignalStrip from '../../components/TrustSignalStrip'
 import BlogRelated from '@/components/BlogRelated'
 import { prepareBlogHtml, privateChefBodyLinkCount, PRIVATE_CHEF_PATH } from '@/lib/blogEditorial'
 import media from '@/content/blogMedia.json'
-import { blogImageSrcSet } from '@/lib/blogImages'
+import { blogImageDimensions, blogImageSrcSet } from '@/lib/blogImages'
+import { articlePhotography, withArticlePhotography } from '@/lib/blogPhotography'
 import { blogServiceFor } from '@/content/blogServiceTargets'
 
 export interface RyzeArticle {
@@ -50,9 +51,13 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
   const local = (media.pages as Record<string, { hero: { src: string; alt: string } }>)[canonical]
   const hero = local?.hero.src || article.image?.url || FALLBACK_IMAGE
   const heroAlt = local?.hero.alt || article.image?.alt || article.title
+  const heroDimensions = blogImageDimensions(hero)
+  const photographs = articlePhotography(canonical)
   let body = article.body_html
   for (const [source, destination] of Object.entries(media.sources)) body = body.replaceAll(source, destination)
+  body = withArticlePhotography(body, canonical)
   const content = prepareBlogHtml(body, canonical)
+  const readingMinutes = Math.max(1, Math.ceil(article.body_html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).length / 220))
   const chefOverviewInBody = serviceHref === PRIVATE_CHEF_PATH && privateChefBodyLinkCount(content.html) > 0
   const published = displayDate(article.published_at)
   const schema = {
@@ -60,7 +65,7 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
     '@type': 'Article',
     headline: article.title,
     description: article.meta_description,
-    image: [hero.startsWith('/') ? SITE + hero : hero],
+    image: [hero.startsWith('/') ? SITE + hero : hero, ...(photographs?.inline.map(photo => SITE + photo.src) || [])],
     author: { '@id': `${SITE}/#organization` },
     publisher: { '@id': `${SITE}/#organization` },
     datePublished: article.published_at || undefined,
@@ -85,12 +90,14 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
         image={hero}
         imageSrcSet={blogImageSrcSet(hero)}
         imageAlt={heroAlt}
+        imageWidth={heroDimensions?.width}
+        imageHeight={heroDimensions?.height}
         breadcrumb={[
           { label: 'Home', href: '/' },
           { label: 'Blog', href: '/blog' },
           { label: article.title },
         ]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       /></NonCateringVisual>
 
@@ -103,6 +110,8 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
               By <strong className="font-medium text-black">myCHEF Dubai Team</strong>
               <span className="mx-3">|</span>
               <time dateTime={article.published_at || undefined}>{published}</time>
+              <span className="mx-3" aria-hidden="true">·</span>
+              <span>{readingMinutes} min read</span>
             </p>
           )}
 

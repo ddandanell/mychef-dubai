@@ -290,6 +290,8 @@ export default function WeeklyMealPrepVsFullTimeChef() {
             </div>
           </section>
 
+          <BlogFigure image={{ src: '/images/private-chef-guides-2026/fresh-meal-prep-1200.webp', alt: 'Prepared meals in glass containers with lids beside them', caption: 'Compare food prepared ahead with meals cooked and served each day.', width: 1200, height: 800 }} />
+
           <BlogRelated currentSlug="/blog/weekly-meal-prep-vs-full-time-chef-dubai" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">

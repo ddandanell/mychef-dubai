@@ -11,6 +11,14 @@ article h2[id]{scroll-margin-top:110px}
 .pc-reading-text-only .pc-reading-copy{max-width:74ch}
 .blog-rich-body table{display:block;overflow-x:auto;max-width:100%}
 .blog-rich-body img{max-width:100%;height:auto}
+.blog-page .blog-editorial-photo{margin:clamp(28px,5vw,48px) 0;clear:both}
+.blog-page .blog-editorial-photo img{display:block;width:100%;height:auto;max-width:100%;margin:0;border-radius:12px;background:#eeeae1}
+.blog-page .blog-editorial-photo figcaption{margin:12px 0 0;padding-left:14px;border-left:2px solid #b99a61;font:400 14px/1.65 Inter,sans-serif;color:#586258;text-align:left;max-width:72ch}
+.blog-page .blog-rich-body{overflow-wrap:break-word}
+.blog-page .blog-rich-body :is(h2,h3){text-wrap:balance}
+.blog-page .blog-rich-body p{max-width:74ch}
+.blog-page .ct-supporting-photo{border-radius:12px}
+@media(max-width:639px){.blog-page .blog-editorial-photo img{border-radius:8px}.blog-page .blog-editorial-photo figcaption{font-size:13px}.blog-page .blog-rich-body{font-size:17px;line-height:1.85}}
 /* Legacy article templates share light surfaces; preserve legible body copy,
    captions and links instead of inheriting the site's pale gold/dark-theme gray. */
 .blog-page article.bg-white{color:#202c27}
