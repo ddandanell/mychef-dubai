@@ -24,6 +24,15 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
   const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: '', budgetBasis: 'Complete managed service budget', duration: '', schedule: '', preferences: '' })
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [contactBy, setContactBy] = useState<'whatsapp' | 'email'>('email')
+  const fromParam = params.get('from') || ''
+  const remembered = lastServicePage()
+  const sourcePath = sourcePage || fromParam || remembered || '/inquiry'
+  const inferredServiceChoice: 'catering' | 'private-chef' | '' = /chef|meal-prep|private-chef/.test(`${fromParam} ${sourcePath}`)
+    ? 'private-chef'
+    : /cater|corporate|event|birthday|yacht|wedding|buffet|bbq|canape/.test(`${fromParam} ${sourcePath}`)
+      ? 'catering'
+      : ''
+  const [serviceChoice, setServiceChoice] = useState<'catering' | 'private-chef' | ''>(inferredServiceChoice)
   const [fields, setFields] = useState({
     date: params.get('date') || '',
     guests: params.get('guests') || '',
@@ -31,12 +40,10 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
     name: '',
     phone: '',
     email: '',
+    notes: '',
   })
 
   const chef = params.get('chef')
-  const fromParam = params.get('from') || ''
-  const remembered = lastServicePage()
-  const sourcePath = sourcePage || fromParam || remembered || '/inquiry'
   const serviceType = household.active ? 'Long-term household chef' : serviceLabelFromSource(fromParam || sourcePath, chef)
   const calculatorBrief = cateringCalculatorBrief(params, fields.guests)
 
@@ -46,6 +53,7 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
 
   const brief = [
     serviceType,
+    serviceChoice ? `Requested service: ${serviceChoice === 'catering' ? 'Catering' : 'Private chef only'}` : '',
     `Came from: ${sourcePath}`,
     chef ? `Chef preference (subject to availability): ${chef}` : '',
     fields.date ? `${household.active ? 'Preferred start' : 'Date'}: ${fields.date}` : 'Date: flexible',
@@ -55,6 +63,7 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
     params.get('extras') ? `Extras: ${params.get('extras')}` : '',
     ...calculatorBrief,
     ...householdBriefLines(params, householdFields, sourcePath),
+    fields.notes.trim() ? `Notes: ${fields.notes.trim()}` : '',
     `Preferred reply: ${contactBy === 'whatsapp' ? 'WhatsApp' : 'Email'}`,
   ]
     .filter(Boolean)
@@ -82,6 +91,7 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
           email: fields.email.trim(),
           phone: fields.phone.trim(),
           serviceType,
+          requestedService: serviceChoice === 'catering' ? 'Catering' : serviceChoice === 'private-chef' ? 'Private chef only' : '',
           eventDate: fields.date,
           guests: fields.guests,
           location: fields.area,
@@ -138,6 +148,19 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
           {calculatorBrief.join('\n')}
         </p>
       )}
+      <fieldset className="sm:col-span-2">
+        <legend className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-3">What do you need?</legend>
+        <div className="grid sm:grid-cols-2 gap-3">
+          <label className={`flex items-center gap-3 border px-4 py-4 cursor-pointer transition-colors ${serviceChoice === 'catering' ? 'border-gold bg-gold/5' : 'border-gray-200 bg-white'}`}>
+            <input type="radio" name="requestedService" value="catering" required checked={serviceChoice === 'catering'} onChange={() => setServiceChoice('catering')} />
+            <span className="font-inter text-body-sm text-black">Catering for an event</span>
+          </label>
+          <label className={`flex items-center gap-3 border px-4 py-4 cursor-pointer transition-colors ${serviceChoice === 'private-chef' ? 'border-gold bg-gold/5' : 'border-gray-200 bg-white'}`}>
+            <input type="radio" name="requestedService" value="private-chef" required checked={serviceChoice === 'private-chef'} onChange={() => setServiceChoice('private-chef')} />
+            <span className="font-inter text-body-sm text-black">Private chef only</span>
+          </label>
+        </div>
+      </fieldset>
       <label className="block">
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">{household.active ? 'Preferred start date' : 'Date or flexible'}</span>
         <input name="eventDate" className={field} value={fields.date} onChange={update('date')} placeholder="e.g. 3 Oct or flexible" />
@@ -150,6 +173,20 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
         <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Area in Dubai</span>
         <input name="location" required className={field} value={fields.area} onChange={update('area')} placeholder="e.g. Palm Jumeirah" />
       </label>
+      {!household.active && (
+        <label className="block sm:col-span-2">
+          <span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Anything else we should know? (optional)</span>
+          <textarea
+            name="notes"
+            className={field}
+            rows={4}
+            maxLength={2000}
+            value={fields.notes}
+            onChange={(e) => setFields((current) => ({ ...current, notes: e.target.value }))}
+            placeholder="Tell us about the occasion, cuisine, service style, allergies, timing, budget or anything else that will help us prepare the right proposal."
+          />
+        </label>
+      )}
       {household.active && <>
         {household.profiles.length > 0 && <div className="sm:col-span-2 border-l-2 border-gold bg-cream p-4"><p className="font-inter text-caption uppercase tracking-wide text-gray-600 mb-2">Your selected chef styles</p><ul className="font-inter text-body-sm text-black space-y-1">{household.profiles.map(profile => <li key={profile.id}>{profile.title}</li>)}</ul><p className="font-inter text-xs text-gray-500 mt-2">We use these preferences to build your personal chef shortlist.</p></div>}
         <label className="block"><span className="block font-inter text-caption uppercase tracking-[0.1em] text-gray-500 mb-2">Living arrangement</span><select name="arrangement" className={field} value={householdFields.arrangement} onChange={e => setHouseholdFields(current => ({ ...current, arrangement: e.target.value }))}><option value="help-me-choose">Help me choose</option><option value="live-in">Live-in chef</option><option value="live-out">Daily live-out chef</option></select></label>
