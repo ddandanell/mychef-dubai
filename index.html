@@ -84,9 +84,12 @@
             term: params.get('utm_term') || '',
             gclid: params.get('gclid') || '',
           }
-          const isGoogleAd = current.source === 'google' || current.medium === 'cpc' || Boolean(current.gclid)
+          const isGoogleAd = /^(cpc|ppc|paidsearch)$/i.test(current.medium) || Boolean(current.gclid)
           if (isGoogleAd) {
-            try { sessionStorage.setItem(storageKey, JSON.stringify(current)) } catch {}
+            try {
+              sessionStorage.setItem(storageKey, JSON.stringify(current))
+              sessionStorage.setItem('mychef_ad_attribution', JSON.stringify(current))
+            } catch {}
             return current
           }
           try {
@@ -112,7 +115,8 @@
             if (message.includes('Source: Google Ads')) return
             const detail = [
               '',
-              'Source: Google Ads',
+              attribution.gclid || attribution.source.toLowerCase() === 'google' ? 'Source: Google Ads' : `Source: ${attribution.source || 'Paid search'}`,
+              attribution.campaign ? `Campaign: ${attribution.campaign}` : '',
               attribution.content ? `Ad group: ${labels[attribution.content] || attribution.content}` : '',
               attribution.term ? `Search: ${attribution.term}` : '',
               attribution.gclid ? `Google reference: ${attribution.gclid}` : '',
