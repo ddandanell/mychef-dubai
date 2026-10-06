@@ -33,6 +33,7 @@ import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { householdBriefFromParams, isChefServiceSource, chefServiceWhatsAppMessage } from '@/lib/householdInquiry'
 import { cateringCalculatorBrief } from '@/lib/cateringInquiry'
 import { householdJourney } from '@/content/householdJourney'
+import { RESPONSE_PROOF, PRICING_PROOF, RESPONSE_WINDOW } from '@/content/trustProof'
 
 const WHATSAPP_NUMBER = '971551744849'
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -44,10 +45,10 @@ const breadcrumbs = [
 ]
 
 const trustBadges = [
-  'Reply within 15 minutes during business hours',
+  `${RESPONSE_PROOF}, ${RESPONSE_WINDOW}`,
+  PRICING_PROOF,
   'No obligation quote',
   'Booking protection & insurance',
-  'Discreet & professional',
 ]
 
 export default function Inquiry() {
@@ -218,7 +219,7 @@ export default function Inquiry() {
               ) : null}
               <h2 className="font-playfair text-fluid-h3 text-black mb-4">{household.active ? 'Let’s find the right arrangement.' : 'Send a short brief'}</h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                {household.active ? 'Full-time service from AED 15,000/month before VAT. Your schedule and responsibilities are agreed in the proposal; daily visits have separate prices.' : 'Tell us when, how many people and where in Dubai. Choose where you want our first reply. There is no need to decide the menu before you contact us.'}
+                {household.active ? 'Full-time service from AED 15,000/month before VAT. Your schedule and responsibilities are agreed in the proposal; daily visits have separate prices.' : `Tell us when, how many people and where in Dubai. ${RESPONSE_PROOF}. ${PRICING_PROOF}. There is no need to decide the menu before you contact us.`}
               </p>
               <QuoteRequestForm key={params.toString()} />
               <p className="font-inter text-body-sm text-gray-500 mt-6">
