@@ -29,6 +29,9 @@ jobs:
       - name: Convert Ryze articles
         run: node scripts/ryze-convert.mjs
 
+      - name: Validate sitemap XML and canonical URLs
+        run: python3 scripts/verify-sitemap.py
+
       - name: Verify the site builds
         run: npm run build
 
