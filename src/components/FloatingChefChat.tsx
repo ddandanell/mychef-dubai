@@ -4,6 +4,7 @@ import { X } from 'lucide-react'
 import { trackEvent } from '@/lib/analytics'
 import { trackConversion } from '@/lib/track'
 import { classifyConversionHref, conversionParams } from '@/lib/conversionEvents'
+import { SHORT_TRUST_PROOF } from '@/content/trustProof'
 
 const WHATSAPP_NUMBER = '971551744849'
 const EXCLUDED_PATHS = ['/inquiry', '/thank-you']
@@ -103,6 +104,9 @@ export default function FloatingChefChat() {
           <span className="font-medium text-gold-dark">{getTopic(pathname)}</span>?
         </span>
         <span className="block mt-2 font-inter text-xs text-gray-500">
+          {SHORT_TRUST_PROOF}
+        </span>
+        <span className="block mt-1 font-inter text-xs font-medium text-gold-dark">
           Tap to chat on WhatsApp
         </span>
 
