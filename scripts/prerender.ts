@@ -490,6 +490,32 @@ async function main(): Promise<void> {
   const browser = await launchBrowser()
 
   try {
+    // Regex extraction can find URLs inside malformed XML. Validate the actual
+    // deployment file with an XML parser before publishing any rendered pages.
+    const sitemapCheck = await browser.newPage()
+    try {
+      const xml = fs.readFileSync(SITEMAP_PATH, "utf8")
+      const error = await sitemapCheck.evaluate((source) => {
+        const doc = new DOMParser().parseFromString(source, "application/xml")
+        const parseError = doc.querySelector("parsererror")
+        if (parseError) return parseError.textContent || "Invalid sitemap XML"
+        if (doc.documentElement.localName !== "urlset" ||
+            doc.documentElement.namespaceURI !== "http://www.sitemaps.org/schemas/sitemap/0.9") {
+          return "Expected a sitemap urlset with the standard namespace"
+        }
+        const entries = Array.from(doc.documentElement.children)
+        const urls = entries.map((entry) => entry.querySelector(":scope > loc")?.textContent?.trim())
+        if (!entries.length || entries.some((entry) => entry.localName !== "url") ||
+            urls.some((value) => !value?.startsWith("https://www.mychef.ae/")) ||
+            new Set(urls).size !== urls.length) {
+          return "Sitemap has empty, duplicate or invalid URL entries"
+        }
+        return null
+      }, xml)
+      if (error) throw new Error(`Sitemap validation failed: ${error}`)
+    } finally {
+      await sitemapCheck.close()
+    }
     await renderRoutes(browser, url, routes)
     // SPA shell for the few routes that are deliberately not prerendered
     // (/inquiry, /thank-you, /seo/*). Unknown URLs must NOT hit this file —
