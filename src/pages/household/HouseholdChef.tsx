@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import ChefMenuInspiration from '@/components/private-chef/ChefMenuInspiration'
 import ClusterNav from '@/components/private-chef/ClusterNav'
 import { ChefSection } from '@/components/private-chef/ChefSections'
 import { HouseholdArrangements, HouseholdJourney, HouseholdLevels } from '@/components/household/HouseholdSections'
@@ -19,8 +20,9 @@ export default function HouseholdChef() {
     <SEO title="Full Time Private Chef Dubai | Managed Household | myCHEF" description="A full-time private chef in Dubai from AED 15,000/month. Personal matching, a paid trial, first-month onboarding and ongoing myCHEF support. Enquire without obligation." canonicalPath={HOUSEHOLD_PATH} ogImage={householdImage('managed-household-table', 1536)} schema={householdSchema('myCHEF Managed Household — full-time private chef in Dubai', 'Personal household chef matching, onboarding, a Household Food Profile and ongoing relationship management.', householdFaqs, { price: FULL_TIME_START_PRICE, description: 'Dedicated full-time Managed Household service from AED 15,000 per month, before 5% VAT. AED 950 Match Activation, paid trials, groceries and agreed extras are separate. Final schedule and fee are confirmed in writing.', url: HOUSEHOLD_PATH })}/>
     <PageHero eyebrow="MYCHEF · YOUR HOUSEHOLD, UNDERSTOOD" title={<>Full Time Private Chef Dubai.<br/><em>Come home to your kind of food.</em></>} subtitle="A dedicated chef matched to your tastes and routine, with one myCHEF contact keeping the relationship on track. Full-time Managed Household starts from AED 15,000/month before VAT. We help you choose the person, settle in and keep making the food yours." cta={{ label: 'Check my start date', href: householdInquiryHref() }} secondaryCta={{ label: 'See the complete offer', href: '#household-offer' }}/>
     <ClusterNav/>
-    <ChefSection id="household-offer"><HouseholdStartOffer/><nav className="mh-section-nav" aria-label="Managed Household guide"><a href="#how-it-works">How you begin</a><a href="#food-profile">What we remember</a><a href="#managed-pricing">Fees & inclusions</a><a href="#continuity">If the match changes</a></nav></ChefSection>
+    <ChefSection id="household-offer"><HouseholdStartOffer/><nav className="mh-section-nav" aria-label="Managed Household guide"><a href="#how-it-works">How you begin</a><a href="#menu-inspiration">Menu ideas</a><a href="#food-profile">What we remember</a><a href="#managed-pricing">Fees & inclusions</a><a href="#continuity">If the match changes</a></nav></ChefSection>
     <ChefSection id="how-it-works" eyebrow="Four steps, with you in control" title="Your full time private chef in Dubai. A personal match from the start." tone="pc-tone-cream"><div className="pc-split mh-process"><div><HouseholdImage id="managed-household-brief" alt="A household food discussion around a kitchen island"/><HouseholdBriefGuide/></div><HouseholdJourney/></div></ChefSection>
+    <ChefMenuInspiration kind="household"/>
     <HouseholdFoodProfile/>
     <LearningMonth/>
     <HouseholdDecisionChecks/>

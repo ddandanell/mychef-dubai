@@ -4,6 +4,7 @@ import { ArrowUpRight, Check } from 'lucide-react'
 import ServiceImage from './ServiceImage'
 import { ChefAction } from './EditorialHero'
 import { SERVICES, formatAed, MEMBER_NOTE, PRICE_NOTE } from '@/content/privateChefPricing'
+import { chefEnquiryCopy } from '@/content/chefEnquiryCopy'
 import { buildWhatsAppLink } from '@/lib/whatsapp'
 
 export function ChefSection({ eyebrow, title, children, tone = '', id }: { eyebrow?: string; title?: ReactNode; children: ReactNode; tone?: string; id?: string }) {
@@ -56,7 +57,8 @@ export function PricePreview() {
 export function ServiceRates({ shortStay = false }: { shortStay?: boolean }) {
   return <div><div className="pc-rate-grid">{SERVICES.map(service => <article key={service.id}><p className="pc-eyebrow">{service.hours} hours · Signature</p><h3>{service.name}</h3><p>{service.tagline}</p><p className="pc-price">{formatAed(service.singleRate)}<span> / {service.unit === 'day' ? 'day' : 'visit'} · single</span></p><p className="font-inter text-body-lg text-gold-ink mt-3"><strong>{formatAed(service.rate)}</strong> / {service.unit === 'day' ? 'day' : 'visit'} · member rate</p></article>)}</div><p className="pc-fineprint">{shortStay ? 'Single visit at the page price. No minimum number of days. ' : ''}{MEMBER_NOTE} {PRICE_NOTE}</p></div>
 }
-export function ChefEnquiry({ title = 'Let’s make room for good food.', id }: { title?: string; id?: string }) {
+export function ChefEnquiry({ title, id }: { title?: string; id?: string }) {
   const { pathname } = useLocation()
-  return <ChefSection id={id} tone="pc-tone-cream" eyebrow="Your home. Your preferences." title={title}><div className="pc-enquiry-end"><p>Tell us where you are, how often you would like a chef and what you enjoy eating. We’ll help you find a suitable arrangement and confirm the details in writing.</p><div className="pc-actions"><ChefAction action={{label:'Find my chef',href:`/inquiry?from=${encodeURIComponent(pathname)}`}}/><ChefAction secondary action={{label:'Talk to myCHEF',href:buildWhatsAppLink(`Hi myCHEF Dubai, I would like to discuss a private chef. Location: __. Days: __. Household size: __. (via mychef.ae${pathname})`),external:true}}/></div><p className="pc-fineprint">No obligation to book. Share your preferred start date early so we can check chef availability and agree the practical details. Final pricing and timing are confirmed after reviewing your brief.</p></div></ChefSection>
+  const enquiry = chefEnquiryCopy(pathname)
+  return <ChefSection id={id} tone="pc-tone-cream" eyebrow="Your home. Your preferences." title={title || enquiry.title}><div className="pc-enquiry-end"><p>{enquiry.brief}</p><div className="pc-actions"><ChefAction action={{label:enquiry.label,ctaLocation:'chef_service_enquiry',href:`/inquiry?from=${encodeURIComponent(pathname)}`}}/><ChefAction secondary action={{label:'Talk to myCHEF',href:buildWhatsAppLink(`Hi myCHEF Dubai, I would like to discuss ${enquiry.topic}. Dubai area: __. Dates or cooking days: __. Household size: __. Favourite foods or dietary needs: __. (via mychef.ae${pathname})`),external:true}}/></div><p className="pc-fineprint">Initial reply in around 15 minutes during 9am–9pm Dubai time; your proposal follows after we review your brief. No obligation to book. Share your preferred start date early so we can check chef availability and agree the practical details. Final pricing and timing are confirmed after reviewing your brief.</p></div></ChefSection>
 }

@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
 import { ArrowUpRight, Clock3, Mail, MessageCircle, X } from 'lucide-react'
+import { isChefServiceSource } from '@/lib/householdInquiry'
+import { chefEnquiryCopy } from '@/content/chefEnquiryCopy'
 import { buildWhatsAppLink } from '@/lib/whatsapp'
 import '@/styles/contact-chat.css'
 
@@ -43,7 +45,9 @@ const topicMap: Record<string, string> = {
 }
 
 function getTopic(pathname: string): string {
+  if (pathname === '/full-time-private-chef-dubai') return 'a dedicated household chef'
   if (topicMap[pathname]) return topicMap[pathname]
+  if (isChefServiceSource(pathname)) return chefEnquiryCopy(pathname).topic
   if (pathname.startsWith('/locations/')) return 'catering in this area'
   if (pathname.startsWith('/blog/')) return 'this topic'
   if (pathname.startsWith('/chefs/')) return 'Our Chefs'
@@ -57,13 +61,15 @@ export default function FloatingChefChat() {
   const panel = useRef<HTMLElement>(null)
   const interacted = useRef(false)
   const path = pathname.replace(/\/$/, '') || '/'
+  const householdPage = isChefServiceSource(path)
   const raised = path === '/private-chef-dubai/pricing' ? 'mc-contact--pricing' : path === '/yachts' ? 'mc-contact--yacht' : ''
 
   useEffect(() => {
     setBubbleOpen(false)
     // Keep the launcher on every public page. Do not interrupt an enquiry form
-    // or confirmation page, and show the automatic greeting only once per tab.
-    if (greeted || dismissed || readFlag(DISMISSED_KEY) || readFlag(SHOWN_KEY) || ['/inquiry', '/thank-you'].includes(path)) return
+    // or confirmation page. Household pages keep help available without covering
+    // service choices and menus; other pages greet only once per tab.
+    if (householdPage || greeted || dismissed || readFlag(DISMISSED_KEY) || readFlag(SHOWN_KEY) || ['/inquiry', '/thank-you'].includes(path)) return
     const timer = window.setTimeout(() => {
       if (interacted.current || document.hidden || document.querySelector('[role="dialog"]') || document.activeElement?.matches('input, textarea, select, [contenteditable="true"]')) return
       greeted = true
@@ -71,7 +77,7 @@ export default function FloatingChefChat() {
       setBubbleOpen(true)
     }, 4500)
     return () => window.clearTimeout(timer)
-  }, [path])
+  }, [path, householdPage])
 
   const close = () => {
     interacted.current = true
@@ -101,13 +107,13 @@ export default function FloatingChefChat() {
     {bubbleOpen && <section ref={panel} id="mychef-contact-panel" className="mc-contact-panel" aria-labelledby="mychef-contact-heading">
       <header className="mc-contact-header">
         <span className="mc-contact-mark"><MessageCircle size={22} aria-hidden="true" /></span>
-        <div><p className="mc-contact-eyebrow">YOUR OCCASION. OUR EXPERTISE.</p><h2 id="mychef-contact-heading">Let’s plan something special.</h2></div>
+        <div><p className="mc-contact-eyebrow">{householdPage ? 'YOUR HOME. YOUR KIND OF FOOD.' : 'YOUR OCCASION. OUR EXPERTISE.'}</p><h2 id="mychef-contact-heading">{householdPage ? 'Let’s plan food for your home.' : 'Let’s plan something special.'}</h2></div>
         <button type="button" onClick={close} className="mc-contact-close" aria-label="Close contact chat"><X size={20} aria-hidden="true" /></button>
       </header>
       <div className="mc-contact-body">
         <div className="mc-contact-reply"><Clock3 size={20} aria-hidden="true" /><p>We reply in around <strong>15 minutes</strong> on average during business hours.</p></div>
         <p className="mc-contact-hours">9am–9pm Dubai time</p>
-        <p className="mc-contact-invitation">A chef at home or an occasion to celebrate? Tell us what you have in mind.</p>
+        <p className="mc-contact-invitation">{householdPage ? 'Tell us your Dubai area, household size and preferred cooking days. We will help you find the right service.' : 'A chef at home or an occasion to celebrate? Tell us what you have in mind.'}</p>
         <a className="mc-contact-whatsapp" data-placement="sticky" data-cta-location="contact_chat" href={whatsapp} target="_blank" rel="noopener noreferrer"><MessageCircle size={19} aria-hidden="true" />Chat on WhatsApp<ArrowUpRight size={18} aria-hidden="true" /></a>
         <a className="mc-contact-email" data-placement="sticky" data-cta-location="contact_chat" href="mailto:info@mychef.ae?subject=myCHEF%20enquiry"><Mail size={18} aria-hidden="true" />Prefer email? Write to us</a>
         <p className="mc-contact-note">Clear, itemised pricing before you book.</p>
