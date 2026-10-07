@@ -128,8 +128,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Brand Activation Catering Dubai | Pop-Ups | myCHEF"
   },
   "/best-catering-companies-dubai": {
-    "title": "Choosing a Catering Company: What to Check | myCHEF",
-    "description": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities."
+    "title": "Best Catering Companies in Dubai | What to Check | myCHEF",
+    "description": "Compare catering companies in Dubai on experience, venue fit and itemised pricing — drop-off from AED 90pp, buffets from AED 120, canapés from AED 150."
   },
   "/corporate-dinner-package-dubai": {
     "title": "Corporate Dinner Package Dubai | 10–15 Guests | myCHEF",
