@@ -26,15 +26,13 @@ function titleFromSlug(slug: string): string {
 }
 
 export function rememberServicePage(pathname: string) {
-  if (typeof sessionStorage === 'undefined') return
   const path = pathname.split('?')[0]
   if (!path || path === '/inquiry' || path === '/thank-you' || path === '/seo') return
-  sessionStorage.setItem(LAST_SERVICE_PAGE_KEY, path)
+  try { sessionStorage.setItem(LAST_SERVICE_PAGE_KEY, path) } catch { /* Storage is optional. */ }
 }
 
 export function lastServicePage(): string {
-  if (typeof sessionStorage === 'undefined') return ''
-  return sessionStorage.getItem(LAST_SERVICE_PAGE_KEY) || ''
+  try { return sessionStorage.getItem(LAST_SERVICE_PAGE_KEY) || '' } catch { return '' }
 }
 
 export function serviceLabelFromSource(from: string, chef?: string | null): string {
