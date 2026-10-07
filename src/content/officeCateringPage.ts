@@ -42,6 +42,7 @@ export const OFFICE_RELATED_LINKS = [
   { href: '/corporate', label: 'Corporate catering services' },
   { href: '/conference-catering-dubai', label: 'Explore our conference catering packages' },
   { href: '/corporate-retainer-dubai', label: 'Discuss regular office catering' },
+  { href: '/private-party-catering-dubai#small-parties', label: 'Small party catering in Dubai' },
 ] as const
 
 export const officeMenuCycle = [
