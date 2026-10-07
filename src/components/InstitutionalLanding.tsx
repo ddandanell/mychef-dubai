@@ -38,6 +38,7 @@ function ConceptFigure({ image, className = '' }: { image: InstitutionalFigure; 
 }
 
 export default function InstitutionalLanding({ page }: { page: InstitutionalPageContent }) {
+  const inquiryHref = `/inquiry?from=${encodeURIComponent(page.root)}`
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -92,7 +93,7 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
         imageWidth={page.hero.width}
         imageHeight={page.hero.height}
         align="left"
-        cta={{ label: page.primaryCta, href: CATERING_INQUIRY_HREF }}
+        cta={{ label: page.primaryCta, href: inquiryHref }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: page.whatsapp, external: true }}
         breadcrumb={page.breadcrumb}
         minHeight="full"
@@ -294,7 +295,7 @@ export default function InstitutionalLanding({ page }: { page: InstitutionalPage
           <DisplayHeading className="text-white mb-6">{page.cta.h2}</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">{page.cta.body}</p>
           <CTAGroup>
-            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+            <Link to={inquiryHref} className="btn-primary">
               {page.primaryCta}
             </Link>
             <a href={page.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-secondary">
