@@ -15,7 +15,6 @@ import {
   SequenceRail,
   CTAGroup,
 } from './system'
-import { CATERING_INQUIRY_HREF } from '@/content/cateringCluster'
 import type { InstitutionalFigure, InstitutionalPageContent } from '@/content/institutionalLandingTypes'
 
 function ConceptFigure({ image, className = '' }: { image: InstitutionalFigure; className?: string }) {
