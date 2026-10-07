@@ -1,13 +1,19 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
-import { Clock3, MessageCircle, X } from 'lucide-react'
-import { trackEvent } from '@/lib/analytics'
-import { trackConversion } from '@/lib/track'
-import { classifyConversionHref, conversionParams } from '@/lib/conversionEvents'
+import { ArrowUpRight, Clock3, Mail, MessageCircle, X } from 'lucide-react'
+import { buildWhatsAppLink } from '@/lib/whatsapp'
+import '@/styles/contact-chat.css'
 
-
-const WHATSAPP_NUMBER = '971551744849'
-const EXCLUDED_PATHS = ['/inquiry', '/thank-you']
+const DISMISSED_KEY = 'mychef-chat-dismissed'
+const SHOWN_KEY = 'mychef-chat-shown'
+let greeted = false
+let dismissed = false
+function readFlag(key: string) {
+  try { return sessionStorage.getItem(key) === '1' } catch { return false }
+}
+function saveFlag(key: string) {
+  try { sessionStorage.setItem(key, '1') } catch { /* Contact remains usable without storage. */ }
+}
 
 const topicMap: Record<string, string> = {
   '/': 'our private chef and catering services',
@@ -47,105 +53,77 @@ function getTopic(pathname: string): string {
 export default function FloatingChefChat() {
   const { pathname } = useLocation()
   const [bubbleOpen, setBubbleOpen] = useState(false)
+  const launcher = useRef<HTMLButtonElement>(null)
+  const panel = useRef<HTMLElement>(null)
+  const interacted = useRef(false)
+  const path = pathname.replace(/\/$/, '') || '/'
+  const raised = path === '/private-chef-dubai/pricing' ? 'mc-contact--pricing' : path === '/yachts' ? 'mc-contact--yacht' : ''
 
-  // Proactively introduce the chat after the visitor has had a moment to read the page.
-  // If they close it, keep it closed for the rest of the session.
   useEffect(() => {
     setBubbleOpen(false)
-    if (sessionStorage.getItem('mychef-chat-dismissed') === '1') return
-    const timer = window.setTimeout(() => setBubbleOpen(true), 4500)
+    // Keep the launcher on every public page. Do not interrupt an enquiry form
+    // or confirmation page, and show the automatic greeting only once per tab.
+    if (greeted || dismissed || readFlag(DISMISSED_KEY) || readFlag(SHOWN_KEY) || ['/inquiry', '/thank-you'].includes(path)) return
+    const timer = window.setTimeout(() => {
+      if (interacted.current || document.hidden || document.querySelector('[role="dialog"]') || document.activeElement?.matches('input, textarea, select, [contenteditable="true"]')) return
+      greeted = true
+      saveFlag(SHOWN_KEY)
+      setBubbleOpen(true)
+    }, 4500)
     return () => window.clearTimeout(timer)
-  }, [pathname])
+  }, [path])
 
-  const openWhatsApp = () => {
-    const topic = getTopic(pathname)
-    const text = encodeURIComponent(`Hi myCHEF Dubai, can you tell me more about ${topic}?`)
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}&utm_source=mychef.ae&utm_medium=floating_chef_chat&utm_campaign=${encodeURIComponent(pathname.replace(/^\//, '').replace(/\//g, '-') || 'home')}`
-    const hit = classifyConversionHref(url)
-    if (hit) {
-      trackEvent('whatsapp_click', conversionParams(hit, { page_path: pathname, cta_location: 'floating_chef' }))
-    }
-    trackConversion('whatsapp_click', 'link')
-    window.open(url, '_blank', 'noopener,noreferrer')
-  }
-
-  const handleCloseBubble = (e: React.MouseEvent) => {
-    e.stopPropagation()
-    sessionStorage.setItem('mychef-chat-dismissed', '1')
+  const close = () => {
+    interacted.current = true
+    dismissed = true
+    saveFlag(DISMISSED_KEY)
     setBubbleOpen(false)
+    launcher.current?.focus({ preventScroll: true })
   }
 
-  // Tapping the avatar reveals the prompt; tapping again (or the bubble) opens WhatsApp.
-  const handleAvatarClick = () => {
-    if (bubbleOpen) openWhatsApp()
-    else setBubbleOpen(true)
-  }
+  useEffect(() => {
+    if (!bubbleOpen) return
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return
+      dismissed = true
+      interacted.current = true
+      saveFlag(DISMISSED_KEY)
+      if (panel.current?.contains(document.activeElement)) launcher.current?.focus({ preventScroll: true })
+      setBubbleOpen(false)
+    }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [bubbleOpen])
 
-  if (EXCLUDED_PATHS.includes(pathname)) return null
+  const whatsapp = buildWhatsAppLink(`Hi myCHEF Dubai, can you tell me more about ${getTopic(path)}?`, { medium: 'contact_chat', campaign: path })
 
-  return (
-    <div
-      data-floating-chef-chat
-      className={`fixed z-50 ${pathname.replace(/\/$/, '') === '/private-chef-dubai/pricing' ? 'hidden lg:flex' : 'flex'} flex-col items-end gap-3
-        right-4 sm:right-6
-        bottom-[calc(1rem+env(safe-area-inset-bottom))] sm:bottom-6
-        print:hidden`}
-      aria-label="Chef WhatsApp assistant"
-    >
-      {/* Proactive prompt bubble — opens once per session and can be dismissed */}
-      {bubbleOpen && (
-      <div
-        onClick={openWhatsApp}
-        role="button"
-        tabIndex={0}
-        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') openWhatsApp() }}
-        className="group relative max-w-[280px] sm:max-w-[320px] bg-white text-black rounded-2xl rounded-br-sm border border-gold/30 shadow-[0_12px_40px_rgba(0,0,0,0.28)] p-4 text-left cursor-pointer transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_44px_rgba(0,0,0,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
-      >
-        <div className="flex items-start gap-3 pr-4">
-          <div className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold text-black shadow-sm">
-            <Clock3 size={18} strokeWidth={2.25} aria-hidden />
-          </div>
-          <div>
-            <span className="block font-inter text-[10px] font-semibold uppercase tracking-[0.14em] text-gold-dark mb-1">Did you know?</span>
-            <span className="block font-inter text-sm font-medium leading-relaxed text-black">
-              We reply in around 15 minutes on average during business hours.
-            </span>
-            <span className="block mt-1 font-inter text-xs leading-relaxed text-gray-500">
-              9am–9pm Dubai time · Clear, itemised pricing before you book.
-            </span>
-            <span className="mt-3 inline-flex items-center gap-1.5 font-inter text-xs font-semibold text-gold-dark">
-              <MessageCircle size={14} aria-hidden /> Chat with myCHEF on WhatsApp
-            </span>
-          </div>
-        </div>
-
-        {/* Close button inside bubble */}
-        <button
-          onClick={handleCloseBubble}
-          className="absolute -top-2 -right-2 w-6 h-6 bg-black text-white rounded-full flex items-center justify-center shadow-md hover:bg-gold hover:text-black transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
-          aria-label="Close chef chat"
-        >
-          <X size={12} strokeWidth={3} />
-        </button>
+  return <aside data-floating-chef-chat className={`mc-contact ${raised}`} aria-label="Contact myCHEF">
+    {bubbleOpen && <section ref={panel} id="mychef-contact-panel" className="mc-contact-panel" aria-labelledby="mychef-contact-heading">
+      <header className="mc-contact-header">
+        <span className="mc-contact-mark"><MessageCircle size={22} aria-hidden="true" /></span>
+        <div><p className="mc-contact-eyebrow">YOUR OCCASION. OUR EXPERTISE.</p><h2 id="mychef-contact-heading">Let’s plan something special.</h2></div>
+        <button type="button" onClick={close} className="mc-contact-close" aria-label="Close contact chat"><X size={20} aria-hidden="true" /></button>
+      </header>
+      <div className="mc-contact-body">
+        <div className="mc-contact-reply"><Clock3 size={20} aria-hidden="true" /><p>We reply in around <strong>15 minutes</strong> on average during business hours.</p></div>
+        <p className="mc-contact-hours">9am–9pm Dubai time</p>
+        <p className="mc-contact-invitation">A chef at home or an occasion to celebrate? Tell us what you have in mind.</p>
+        <a className="mc-contact-whatsapp" data-placement="sticky" data-cta-location="contact_chat" href={whatsapp} target="_blank" rel="noopener noreferrer"><MessageCircle size={19} aria-hidden="true" />Chat on WhatsApp<ArrowUpRight size={18} aria-hidden="true" /></a>
+        <a className="mc-contact-email" data-placement="sticky" data-cta-location="contact_chat" href="mailto:info@mychef.ae?subject=myCHEF%20enquiry"><Mail size={18} aria-hidden="true" />Prefer email? Write to us</a>
+        <p className="mc-contact-note">Clear, itemised pricing before you book.</p>
       </div>
-      )}
-
-      {/* Chef avatar — persistent launcher, always available */}
-      <button
-        onClick={handleAvatarClick}
-        className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gold shadow-[0_8px_30px_rgba(0,0,0,0.35)] hover:scale-105 transition-transform focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black before:absolute before:inset-0 before:rounded-full before:ring-4 before:ring-gold/20"
-        aria-label="Open WhatsApp chat with chef"
-      >
-        <img
-          src="/images/chef-avatar.webp"
-          alt="myCHEF Dubai chef assistant"
-          width={64}
-          height={64}
-          className="w-full h-full object-cover bg-black"
-          loading="eager"
-          decoding="async"
-        />
-      </button>
-    </div>
-  )
+    </section>}
+    <button ref={launcher} type="button" className="mc-contact-launcher" aria-label={bubbleOpen ? 'Close contact chat' : 'Open contact chat'} aria-expanded={bubbleOpen} aria-controls="mychef-contact-panel" onClick={() => {
+      if (bubbleOpen) close()
+      else {
+        interacted.current = true
+        greeted = true
+        saveFlag(SHOWN_KEY)
+        setBubbleOpen(true)
+      }
+    }}>
+      {bubbleOpen ? <X size={22} aria-hidden="true" /> : <MessageCircle size={22} aria-hidden="true" />}
+      <span>{bubbleOpen ? 'Close chat' : 'Chat with myCHEF'}</span>
+    </button>
+  </aside>
 }
