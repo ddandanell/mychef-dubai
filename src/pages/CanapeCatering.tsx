@@ -10,6 +10,9 @@ import { ArrowDown, ArrowUpRight, Check, ChevronDown, Heart, Minus, Plus, Search
 import SEO from '@/components/SEO'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { trackEvent } from '@/lib/analytics'
+import { trackConversion } from '@/lib/track'
+import { buildWhatsAppLink } from '@/lib/whatsapp'
+import { attributeContactHref } from '@/lib/contactAttribution'
 import { canapes, canapeCategories, canapeCollections, receptionFormats, estimateCanapes, buildCanapeMessage, matchesCanape, type ReceptionFormat } from '@/lib/canapePlanner'
 import { canapeFaqs } from '@/content/canapes/faqs'
 import '@/styles/canape-collection.css'
@@ -79,7 +82,8 @@ export default function CanapeCatering() {
     event.preventDefault()
     if (!estimate) return
     trackEvent('whatsapp_click', { page_path: PATH, cta_location: 'canape_planner', link_url: 'https://wa.me/971551744849' })
-    window.open('https://wa.me/971551744849?text=' + encodeURIComponent(message), '_blank', 'noopener,noreferrer')
+    trackConversion('whatsapp_click', 'inquiry_form')
+    window.open(attributeContactHref(buildWhatsAppLink(message)), '_blank', 'noopener,noreferrer')
   }
   const hasFilters = Object.keys(emptyFilters).some(key => filters[key as keyof typeof filters] !== emptyFilters[key as keyof typeof emptyFilters])
   return <div className="cn-page">
