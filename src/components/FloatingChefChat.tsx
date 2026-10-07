@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router'
-import { X } from 'lucide-react'
+import { Clock3, MessageCircle, X } from 'lucide-react'
 import { trackEvent } from '@/lib/analytics'
 import { trackConversion } from '@/lib/track'
 import { classifyConversionHref, conversionParams } from '@/lib/conversionEvents'
@@ -46,14 +46,15 @@ function getTopic(pathname: string): string {
 
 export default function FloatingChefChat() {
   const { pathname } = useLocation()
-  // `bubbleOpen` controls only the little prompt bubble. It NEVER auto-opens —
-  // the launcher avatar is always available and the user taps it to reveal the
-  // prompt. This stops the bubble popping up and covering the page on every load.
   const [bubbleOpen, setBubbleOpen] = useState(false)
 
-  // Never let the prompt bubble linger across navigations.
+  // Proactively introduce the chat after the visitor has had a moment to read the page.
+  // If they close it, keep it closed for the rest of the session.
   useEffect(() => {
     setBubbleOpen(false)
+    if (sessionStorage.getItem('mychef-chat-dismissed') === '1') return
+    const timer = window.setTimeout(() => setBubbleOpen(true), 4500)
+    return () => window.clearTimeout(timer)
   }, [pathname])
 
   const openWhatsApp = () => {
@@ -70,6 +71,7 @@ export default function FloatingChefChat() {
 
   const handleCloseBubble = (e: React.MouseEvent) => {
     e.stopPropagation()
+    sessionStorage.setItem('mychef-chat-dismissed', '1')
     setBubbleOpen(false)
   }
 
@@ -90,25 +92,32 @@ export default function FloatingChefChat() {
         print:hidden`}
       aria-label="Chef WhatsApp assistant"
     >
-      {/* Prompt bubble — only shown when the user opens it, never auto-popped */}
+      {/* Proactive prompt bubble — opens once per session and can be dismissed */}
       {bubbleOpen && (
       <div
         onClick={openWhatsApp}
         role="button"
         tabIndex={0}
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') openWhatsApp() }}
-        className="group relative max-w-[260px] sm:max-w-[300px] bg-white text-black rounded-2xl rounded-br-sm shadow-[0_8px_30px_rgba(0,0,0,0.25)] p-4 text-left cursor-pointer transition-transform hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+        className="group relative max-w-[280px] sm:max-w-[320px] bg-white text-black rounded-2xl rounded-br-sm border border-gold/30 shadow-[0_12px_40px_rgba(0,0,0,0.28)] p-4 text-left cursor-pointer transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_44px_rgba(0,0,0,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
       >
-        <span className="font-inter text-sm leading-relaxed">
-          Would you like to know more about{' '}
-          <span className="font-medium text-gold-dark">{getTopic(pathname)}</span>?
-        </span>
-        <span className="block mt-2 font-inter text-xs text-gray-500">
-          Typical reply within 15 min during business hours, 9am to 9pm
-        </span>
-        <span className="block mt-1 font-inter text-xs font-medium text-gold-dark">
-          Tap to chat on WhatsApp
-        </span>
+        <div className="flex items-start gap-3 pr-4">
+          <div className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold text-black shadow-sm">
+            <Clock3 size={18} strokeWidth={2.25} aria-hidden />
+          </div>
+          <div>
+            <span className="block font-inter text-[10px] font-semibold uppercase tracking-[0.14em] text-gold-dark mb-1">Did you know?</span>
+            <span className="block font-inter text-sm font-medium leading-relaxed text-black">
+              We reply in around 15 minutes on average during business hours.
+            </span>
+            <span className="block mt-1 font-inter text-xs leading-relaxed text-gray-500">
+              9am–9pm Dubai time · Clear, itemised pricing before you book.
+            </span>
+            <span className="mt-3 inline-flex items-center gap-1.5 font-inter text-xs font-semibold text-gold-dark">
+              <MessageCircle size={14} aria-hidden /> Chat with myCHEF on WhatsApp
+            </span>
+          </div>
+        </div>
 
         {/* Close button inside bubble */}
         <button
@@ -124,7 +133,7 @@ export default function FloatingChefChat() {
       {/* Chef avatar — persistent launcher, always available */}
       <button
         onClick={handleAvatarClick}
-        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gold shadow-[0_8px_30px_rgba(0,0,0,0.35)] hover:scale-105 transition-transform focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+        className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-gold shadow-[0_8px_30px_rgba(0,0,0,0.35)] hover:scale-105 transition-transform focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black before:absolute before:inset-0 before:rounded-full before:ring-4 before:ring-gold/20"
         aria-label="Open WhatsApp chat with chef"
       >
         <img
