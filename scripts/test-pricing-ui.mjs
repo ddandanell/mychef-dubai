@@ -59,7 +59,9 @@ try {
   await page.$eval(selector,el=>window.scrollTo(0,window.scrollY+el.getBoundingClientRect().top-95))
   await new Promise(resolve=>setTimeout(resolve,350));await page.screenshot({path:path.join(output,name+'.png')})
   if(name==='pricing-mobile'){
-   assert.equal(await page.$eval('[data-floating-chef-chat]',el=>getComputedStyle(el).display),'none','Chat launcher must not cover the pricing bar')
+   const chatBottom=await page.$eval('[data-floating-chef-chat]',el=>el.getBoundingClientRect().bottom)
+   const barTop=await page.$eval('.lg\\:hidden.fixed.inset-x-0.bottom-0',el=>el.getBoundingClientRect().top)
+   assert(chatBottom<=barTop,'Contact launcher remains above the pricing bar')
    await clickText(page,'button','View plan');await page.waitForSelector('[role="dialog"]')
    const drawer=await page.$eval('[role="dialog"]',el=>el.textContent)
    assert(drawer.includes('AED 1,125')&&drawer.includes('5% VAT')&&drawer.includes('40–130'))
