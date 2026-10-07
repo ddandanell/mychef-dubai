@@ -268,6 +268,36 @@ export default function PrivatePartyCatering() {
         </Container>
       </Section>
 
+      <Section id="small-parties" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>SMALL PARTIES, 10 TO 20 GUESTS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">Small party catering in Dubai, planned around your space</DisplayHeading>
+          <BodyCopy className="mb-5">
+            For a table of 10 to 20, the plan begins with the space: an apartment dining room, villa garden or terrace. We match the menu and service to the kitchen, guest flow and timing, from delivered food for a relaxed gathering to a staffed buffet when the room needs it.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            Delivered food starts from AED 90 per person for 10 guests, with an AED 900 minimum order. At 20 guests, a standard event buffet starts from AED 120 per person. Both are starting points before 5% VAT; menu, staffing, equipment and access are itemised in the proposal.
+          </BodyCopy>
+          <BodyCopy className="mb-6">
+            Choose a buffet, shared platters, canapés or a chef-led seated dinner according to how the gathering will run. A small party should fit the home and the people in it, not force a larger-event format into the room.
+          </BodyCopy>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to="/drop-off-catering-dubai"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              Delivered food for small gatherings <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to="/buffet-catering-dubai"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              Small-party buffet options <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
       <Section id="pricing" tone="charcoal" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
