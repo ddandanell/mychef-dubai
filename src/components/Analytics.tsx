@@ -5,6 +5,7 @@ import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
 import { classifyTrackedCta, conversionParams, ctaTextParam, shouldGenerateLead } from '../lib/conversionEvents'
 import { getAdAttribution } from '../lib/adAttribution'
+import { installContactAttribution } from '../lib/contactAttribution'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -23,6 +24,11 @@ export default function Analytics() {
     initAnalytics()
     initTracking()
   }, [])
+
+  useEffect(() => {
+    if (location.pathname === '/seo' || location.pathname.startsWith('/seo/')) return
+    return installContactAttribution()
+  }, [location.pathname])
 
   useEffect(() => {
     if (location.pathname === '/seo' || location.pathname.startsWith('/seo/')) return
