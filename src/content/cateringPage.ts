@@ -401,7 +401,7 @@ export const cateringFaqs = [
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',
-    a: "Yes. We plan birthdays, family lunches and private dinners for groups of 10 to 20, with the menu and service matched to your home. For a seated dinner, a chef can prepare the meal in your kitchen; buffets and passed canapés offer a more informal format.",
+    a: "Yes. We plan birthdays, family lunches and private dinners for groups of 10 to 20, with the menu and service matched to your home. For a seated dinner, a chef can prepare the meal in your kitchen; buffets and passed canapés offer a more informal format. Planning a birthday specifically? We build those on [birthday catering in Dubai](/birthday-catering-dubai).",
   },
   {
     q: 'Do you provide grazing tables, live stations, gala dinners and waiters?',
