@@ -11,6 +11,7 @@ import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import HeroSection from '@/sections/HeroSection'
 import ServicesSection from '@/sections/ServicesSection'
+import FestivePlanningSection from '@/sections/FestivePlanningSection'
 import TrustSection from '@/sections/TrustSection'
 import HowItWorksSection from '@/sections/HowItWorksSection'
 import LocationsSection from '@/sections/LocationsSection'
@@ -36,6 +37,7 @@ export default function Home() {
       <HeroSection />
       <TrustSignalStrip />
       <ServicesSection />
+      <FestivePlanningSection />
       <HouseholdCallout/>
       <StarterPackagesSection
         campaign="home"

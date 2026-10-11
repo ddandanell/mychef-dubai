@@ -59,6 +59,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-grazing-table-vs-buffet-dubai.json",
@@ -79,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2455,
-    "current_word_count": 642,
+    "current_word_count": 669,
     "headings": [
       {
         "level": "h2",
@@ -159,12 +161,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -192,15 +191,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/grazing-table-dubai",
-        "anchor": "Grazing tables",
-        "alt_anchors": [
-          "grazing table"
-        ]
-      },
-      {
-        "url": "/buffet-catering-dubai",
-        "anchor": "Buffet catering",
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
         "alt_anchors": []
       }
     ],

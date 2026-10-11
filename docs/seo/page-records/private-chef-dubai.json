@@ -32,7 +32,7 @@
   },
   "metadata": {
     "title": "Private Chef Dubai | Single Visits & Member Plans | myCHEF",
-    "description": "Private chef Dubai visits from AED 1,125 single or AED 750 member. Fresh meals, fridge resets and full days in your kitchen. See plans and request a quote.",
+    "description": "Private chef Dubai: single visits from AED 1,125 or member visits from AED 750 with 4+ prepaid visits/month. VAT, groceries and transport extra.",
     "h1": [
       "Private Chef Dubai. Made personal."
     ]
@@ -54,6 +54,7 @@
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefMenuInspiration.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -64,10 +65,13 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -95,7 +99,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2793,
-    "current_word_count": 2773,
+    "current_word_count": 3098,
     "headings": [
       {
         "level": "h2",
@@ -111,7 +115,51 @@
       },
       {
         "level": "h2",
-        "text": "Private Chef Dubai, with your everyday food in mind."
+        "text": "Private Chef Dubai: a plan for the way you live."
+      },
+      {
+        "level": "h3",
+        "text": "A few days a week"
+      },
+      {
+        "level": "h3",
+        "text": "Meals ready for later"
+      },
+      {
+        "level": "h3",
+        "text": "Your long-term household chef"
+      },
+      {
+        "level": "h2",
+        "text": "What would you love your chef to cook?"
+      },
+      {
+        "level": "h3",
+        "text": "A family table"
+      },
+      {
+        "level": "h3",
+        "text": "Lunches worth looking forward to"
+      },
+      {
+        "level": "h3",
+        "text": "A relaxed sharing table"
+      },
+      {
+        "level": "h2",
+        "text": "Choose your chef with a clear brief."
+      },
+      {
+        "level": "h3",
+        "text": "The cooking you actually need"
+      },
+      {
+        "level": "h3",
+        "text": "A match you can assess"
+      },
+      {
+        "level": "h3",
+        "text": "A complete price before confirming"
       },
       {
         "level": "h2",
@@ -152,18 +200,6 @@
       {
         "level": "h3",
         "text": "Keep the food right for you"
-      },
-      {
-        "level": "h2",
-        "text": "Your favourites. With room to discover."
-      },
-      {
-        "level": "h3",
-        "text": "A table everyone can enjoy"
-      },
-      {
-        "level": "h3",
-        "text": "Thoughtful everyday choices"
       },
       {
         "level": "h2",
@@ -223,7 +259,7 @@
       },
       {
         "level": "h2",
-        "text": "Let’s make room for good food."
+        "text": "What would make your week easier?"
       },
       {
         "level": "h2",

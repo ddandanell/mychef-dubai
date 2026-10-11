@@ -8,17 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "private chef for birthday dinner dubai",
-    "secondary": [
-      "best private chef birthday dinner dubai",
-      "private chef birthday dinner cost dubai",
-      "birthday dinner ideas at home dubai",
-      "birthday dinner party at home dubai",
-      "private chef dinner menu",
-      "private chef dinner party near me",
-      "book a private chef",
-      "private beach dinner dubai"
-    ],
+    "primary": "how to plan a birthday dinner at home in dubai",
+    "secondary": [],
     "primary_owner": "/blog/best-private-chef-birthday-dinner-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -27,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef for Birthday Dinner Dubai | myCHEF",
-    "description": "Private Chef for Birthday Dinner Dubai — Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the…",
+    "title": "Birthday Dinner at Home: Menus & Timing | myCHEF",
+    "description": "Plan the menu around the guest of honour, then work backwards from the cake moment.",
     "h1": [
-      "Private Chef for Birthday Dinner Dubai: Menu Ideas, Costs and How to Book"
+      "How to Plan a Birthday Dinner at Home in Dubai"
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,7 +38,6 @@
     "src/components/KeyFactsBox.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/SourcesBlock.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
@@ -62,6 +52,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1719,
-    "current_word_count": 3100,
+    "current_word_count": 3053,
     "headings": [
       {
         "level": "h2",
@@ -101,15 +93,11 @@
       },
       {
         "level": "h2",
-        "text": "Indicative Costs for a Private Chef Birthday Dinner"
+        "text": "What Changes a Birthday Dinner Quote"
       },
       {
         "level": "h2",
-        "text": "Sources & Verification"
-      },
-      {
-        "level": "h2",
-        "text": "How to Book the Right Private Chef"
+        "text": "Prepare the Birthday Dinner Brief"
       },
       {
         "level": "h2",
@@ -169,7 +157,7 @@
       },
       {
         "level": "h2",
-        "text": "Private Chef for Birthday Dinner Dubai: Ready to Plan Your Birthday Dinner?"
+        "text": "Ready to Plan Your Birthday Dinner?"
       },
       {
         "level": "h2",
@@ -235,12 +223,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/events",
+      "anchor": "event catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -253,13 +238,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/birthday-catering-dubai",
-        "anchor": "Birthday catering",
-        "alt_anchors": []
-      },
-      {
-        "url": "/private-chef-dubai",
-        "anchor": "Private chef",
+        "url": "/events",
+        "anchor": "event catering in Dubai",
         "alt_anchors": []
       }
     ],

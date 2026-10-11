@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05",
+  "url": "https://www.mychef.ae/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+  "path": "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": null,
+  "purpose": "Build a coworking event catering brief Dubai suppliers can act on. Define delivery access, dietary needs, staffing and clearing before confirming your event.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Coworking Event Catering Brief Dubai: Clear Checklist | myCHEF",
+    "description": "Build a coworking event catering brief Dubai suppliers can act on. Define delivery access, dietary needs, staffing and clearing before confirming your event.",
+    "h1": [
+      "Co-working event catering: delivery and shared-space checklist"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/catering-for-co-working-spaces-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/catering-for-co-working-spaces-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2648,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why catering needs a different brief in a coworking space"
+      },
+      {
+        "level": "h2",
+        "text": "Build the brief around the event, not just the food"
+      },
+      {
+        "level": "h3",
+        "text": "Define the guest experience"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm the workspace boundaries"
+      },
+      {
+        "level": "h3",
+        "text": "Choose the service format and assign ownership"
+      },
+      {
+        "level": "h3",
+        "text": "Design the menu around shared-space constraints"
+      },
+      {
+        "level": "h3",
+        "text": "Plan the delivery and supplier handover"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the reset and sign-off"
+      },
+      {
+        "level": "h2",
+        "text": "Which catering format fits your coworking event?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the quotation include?"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes coworking organisers make"
+      },
+      {
+        "level": "h3",
+        "text": "Treating a shared kitchen as an event kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving delivery with reception"
+      },
+      {
+        "level": "h3",
+        "text": "Ordering for registrations without agreeing the final count"
+      },
+      {
+        "level": "h3",
+        "text": "Assuming clearing includes everything"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Give the caterer the room brief, not just the menu brief"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h2",
+        "text": "Plan corporate catering in Dubai with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-05/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
+}

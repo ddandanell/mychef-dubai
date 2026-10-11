@@ -56,6 +56,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -76,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 789,
-    "current_word_count": 805,
+    "current_word_count": 832,
     "headings": [
       {
         "level": "h2",
@@ -180,12 +182,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -213,13 +212,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/buffet-catering-dubai",
-        "anchor": "Buffet catering",
-        "alt_anchors": []
-      },
-      {
-        "url": "/wedding-catering-dubai",
-        "anchor": "Wedding catering",
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
         "alt_anchors": []
       }
     ],

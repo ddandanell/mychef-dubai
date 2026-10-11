@@ -4,25 +4,12 @@
   "url": "https://www.mychef.ae/villa-catering-ideas-dubai",
   "path": "/villa-catering-ideas-dubai",
   "role": "indexable page",
-  "page_type": "Commercial landing",
+  "page_type": "Guide / comparison",
   "silo": "Blog and Guides",
   "purpose": "Help a host plan budgets, formats, menus and logistics.",
   "keywords": {
-    "primary": "villa catering ideas dubai",
-    "secondary": [
-      "villa party food ideas dubai",
-      "home entertaining ideas dubai",
-      "villa dinner party ideas dubai",
-      "outdoor villa catering ideas dubai",
-      "small villa catering ideas dubai",
-      "birthday catering for villa party dubai",
-      "dubai self catering holidays",
-      "villa and yacht catering partners dubai",
-      "birthday dinner at villa dubai",
-      "chef for villa",
-      "giuseppe villa chef",
-      "jerry villa chef"
-    ],
+    "primary": "villa party ideas: match the menu to your space",
+    "secondary": [],
     "primary_owner": "/villa-catering-ideas-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -31,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Villa Catering Ideas Dubai | Party Menus | myCHEF",
-    "description": "Villa catering ideas Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and more.",
+    "title": "Villa Party Layout & Menu Ideas in Dubai | myCHEF",
+    "description": "Match a villa party menu to the space guests will actually use.",
     "h1": [
-      "Villa Catering Ideas Dubai Homes and Residences"
+      "Villa Party Ideas: Match the Menu to Your Space"
     ]
   },
   "metadata_source": "local production prerender",
@@ -60,6 +47,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -80,7 +69,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1083,
-    "current_word_count": 1752,
+    "current_word_count": 1718,
     "headings": [
       {
         "level": "h2",
@@ -192,7 +181,7 @@
       },
       {
         "level": "h2",
-        "text": "Match the idea to the spaces you will actually use"
+        "text": "Villa Party Ideas: Match the Menu to Your Space"
       },
       {
         "level": "h2",
@@ -236,12 +225,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -264,11 +250,9 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/villas-private-residences",
-        "anchor": "Villa dining",
-        "alt_anchors": [
-          "villa chef"
-        ]
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
+        "alt_anchors": []
       }
     ],
     "supporting_guides": [],

@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best corporate catering companies in dubai",
-    "secondary": [
-      "corporate event caterer comparison",
-      "business event catering proposals",
-      "conference catering providers",
-      "staffed corporate catering"
-    ],
+    "primary": "how to assess a corporate event catering proposal",
+    "secondary": [],
     "primary_owner": "/blog/best-corporate-event-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Corporate Catering Companies in Dubai | myCHEF",
-    "description": "Compare Dubai corporate caterers by event format, service timing, staffing and invoicing. Build a consistent brief before reviewing written proposals.",
+    "title": "Corporate Event Proposals: What to Check | myCHEF",
+    "description": "Assess a corporate event proposal against the agenda, venue and approval process.",
     "h1": [
-      "Best Corporate Catering Companies Dubai: What to Compare"
+      "How to Assess a Corporate Event Catering Proposal"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-corporate-event-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1810,
-    "current_word_count": 1949,
+    "current_word_count": 1941,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -116,15 +115,15 @@
       },
       {
         "level": "h3",
-        "text": "Best drop-off catering services in Dubai 2026"
+        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
-        "text": "Plan corporate event catering with myCHEF"
+        "text": "Plan corporate catering in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "How to compare the best corporate catering companies in Dubai"
+        "text": "How to Assess a Corporate Event Catering Proposal"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

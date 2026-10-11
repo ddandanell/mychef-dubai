@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/topic/institutional",
   "path": "/blog/topic/institutional",
   "role": "noindex support page",
-  "page_type": "Topic hub",
+  "page_type": "Blog post",
   "silo": "Blog topic hubs",
   "purpose": "Group related articles for navigation.",
   "keywords": {
@@ -45,6 +45,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -63,7 +65,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 182,
-    "current_word_count": 160,
+    "current_word_count": 187,
     "headings": [
       {
         "level": "h2",
@@ -92,5 +94,19 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "institutional catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/institutional-catering-dubai",
+      "anchor": "institutional catering in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

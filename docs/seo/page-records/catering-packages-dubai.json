@@ -64,6 +64,8 @@
     "src/content/cateringDesignIndex.json",
     "src/content/cateringPricing.ts",
     "src/content/hubPages.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
@@ -89,7 +91,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 760,
-    "current_word_count": 1766,
+    "current_word_count": 1785,
     "headings": [
       {
         "level": "h2",
@@ -198,7 +200,11 @@
         "current": true
       }
     ],
-    "uplink_hub": null,
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
     "siblings": [
       {
         "url": "/dubai-catering-prices-guide",
@@ -245,7 +251,13 @@
         "alt_anchors": []
       }
     ],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/compare-catering-quotes-dubai",

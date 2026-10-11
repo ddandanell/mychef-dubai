@@ -58,6 +58,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -79,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1019,
-    "current_word_count": 928,
+    "current_word_count": 956,
     "headings": [
       {
         "level": "h2",
@@ -237,12 +239,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/locations",
-      "anchor": "Areas we serve",
-      "alt_anchors": [
-        "catering near me dubai",
-        "catering near me"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -253,7 +252,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/private-chef-palm-jumeirah-guide",

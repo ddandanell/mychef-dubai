@@ -8,16 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Help a host plan budgets, formats, menus and logistics.",
   "keywords": {
-    "primary": "private dining dubai",
-    "secondary": [
-      "private dining at home dubai",
-      "private dinner party dubai",
-      "private dining ideas dubai",
-      "private dining dubai for couples",
-      "romantic private dining dubai",
-      "luxury private dining dubai menu",
-      "amazonico private dining dubai"
-    ],
+    "primary": "a host’s guide to planning a private dinner in dubai",
+    "secondary": [],
     "primary_owner": "/guide/private-dining-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -26,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Dining Dubai | Planning Guide | myCHEF",
-    "description": "A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs.",
+    "title": "How to Plan a Private Dinner at Home in Dubai | myCHEF",
+    "description": "Start a private dinner plan with the people at the table, the space available and the pace of the evening.",
     "h1": [
-      "Private Dining Dubai. A thoughtful guide to hosting."
+      "A Host’s Guide to Planning a Private Dinner in Dubai"
     ]
   },
   "metadata_source": "local production prerender",
@@ -56,6 +48,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -77,11 +71,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1434,
-    "current_word_count": 2915,
+    "current_word_count": 2947,
     "headings": [
       {
         "level": "h2",
-        "text": "What Private Dining Means in Dubai"
+        "text": "Start With the Setting and Guest List"
       },
       {
         "level": "h2",
@@ -237,12 +231,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -266,10 +257,8 @@
     "commercial_owners": [
       {
         "url": "/luxury-dining-experiences",
-        "anchor": "Luxury dining",
-        "alt_anchors": [
-          "luxury dining experiences"
-        ]
+        "anchor": "private dining experiences in Dubai",
+        "alt_anchors": []
       }
     ],
     "supporting_guides": [

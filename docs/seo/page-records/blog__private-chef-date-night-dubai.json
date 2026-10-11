@@ -59,6 +59,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-private-chef-date-night-dubai.json",
@@ -79,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1608,
-    "current_word_count": 612,
+    "current_word_count": 641,
     "headings": [
       {
         "level": "h2",
@@ -115,15 +117,15 @@
       },
       {
         "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
+      },
+      {
+        "level": "h3",
         "text": "Meal support for new parents: a household chef brief"
       },
       {
         "level": "h3",
         "text": "Expat family household cooking: what to put in the chef brief"
-      },
-      {
-        "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
       },
       {
         "level": "h2",
@@ -161,12 +163,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -184,11 +183,9 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/romantic-dinner-dubai",
-        "anchor": "Dinner for two",
-        "alt_anchors": [
-          "romantic dinner"
-        ]
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
+        "alt_anchors": []
       }
     ],
     "supporting_guides": [],

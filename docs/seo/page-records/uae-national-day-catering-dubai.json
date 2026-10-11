@@ -62,6 +62,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -86,7 +88,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 1636,
+    "current_word_count": 1655,
     "headings": [
       {
         "level": "h2",
@@ -234,11 +236,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/festive-catering-dubai",
-      "anchor": "Festive catering",
-      "alt_anchors": [
-        "festive catering dubai"
-      ]
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -259,7 +259,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/topic/private-chef",
   "path": "/blog/topic/private-chef",
   "role": "noindex support page",
-  "page_type": "Topic hub",
+  "page_type": "Blog post",
   "silo": "Blog topic hubs",
   "purpose": "Group related articles for navigation.",
   "keywords": {
@@ -45,6 +45,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -63,11 +65,15 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 221,
-    "current_word_count": 604,
+    "current_word_count": 638,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
       },
       {
         "level": "h3",
@@ -99,27 +105,27 @@
       },
       {
         "level": "h3",
-        "text": "Best Private Cooking Class Experiences in Dubai: What to Compare"
+        "text": "Planning a Cooking Class at Home: Skills, Space and Guests"
       },
       {
         "level": "h3",
-        "text": "Best Luxury Private Dining Experiences in Dubai: What to Compare"
+        "text": "How to Choose a Private Dinner Format in Dubai"
       },
       {
         "level": "h3",
-        "text": "Best Private Chefs for Villas in Dubai: What to Compare"
+        "text": "What to Include in a Dubai Villa Chef Brief"
       },
       {
         "level": "h3",
-        "text": "How to Hire a Private Chef Dubai"
+        "text": "A Household Chef Selection Checklist for Dubai Families"
       },
       {
         "level": "h3",
-        "text": "How Much Does a Private Chef Cost in Dubai?"
+        "text": "Private Chef Quotes Explained: Time, Food and Service"
       },
       {
         "level": "h3",
-        "text": "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home"
+        "text": "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist"
       },
       {
         "level": "h2",
@@ -132,5 +138,19 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

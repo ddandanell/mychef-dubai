@@ -62,6 +62,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1677,
-    "current_word_count": 1706,
+    "current_word_count": 1731,
     "headings": [
       {
         "level": "h2",
@@ -161,15 +163,15 @@
       },
       {
         "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
         "text": "Embassy event catering: access and service briefing checklist"
-      },
-      {
-        "level": "h3",
-        "text": "Film production catering: shifts, access and meal brief"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Chef Maison: which is better in 2026"
       },
       {
         "level": "h2",
@@ -207,12 +209,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -235,13 +234,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/halal-private-dining-dubai",
-        "anchor": "Halal private dining",
-        "alt_anchors": []
-      },
-      {
-        "url": "/halal-catering-dubai",
-        "anchor": "Halal catering",
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
         "alt_anchors": []
       }
     ],

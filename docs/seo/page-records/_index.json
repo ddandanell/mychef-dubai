@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "reviewed_at": "2026-10-05",
   "counts": {
-    "indexable page": 201,
+    "indexable page": 204,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 348,
+  "total": 351,
   "records": [
     {
       "path": "/",
@@ -116,7 +116,7 @@
     {
       "path": "/best-catering-companies-dubai",
       "file": "best-catering-companies-dubai.json",
-      "primary_keyword": "best catering companies dubai",
+      "primary_keyword": "how to choose a catering company for your dubai event",
       "role": "indexable page",
       "silo": "Catering"
     },
@@ -144,21 +144,21 @@
     {
       "path": "/blog/best-arabic-catering-companies-in-dubai",
       "file": "blog__best-arabic-catering-companies-in-dubai.json",
-      "primary_keyword": "best arabic catering companies in dubai",
+      "primary_keyword": "how to plan an arabic menu for a dubai gathering",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-bbq-catering-companies-in-dubai",
       "file": "blog__best-bbq-catering-companies-in-dubai.json",
-      "primary_keyword": "best bbq catering companies in dubai",
+      "primary_keyword": "planning a bbq party in dubai: space, smoke and service",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-brunch-catering-services-in-dubai",
       "file": "blog__best-brunch-catering-services-in-dubai.json",
-      "primary_keyword": "best brunch catering companies in dubai",
+      "primary_keyword": "how to compare brunch menus for a dubai home gathering",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -172,21 +172,21 @@
     {
       "path": "/blog/best-cocktail-party-catering-companies-in-dubai",
       "file": "blog__best-cocktail-party-catering-companies-in-dubai.json",
-      "primary_keyword": null,
+      "primary_keyword": "planning food and guest flow for a standing reception",
       "role": "indexable page",
       "silo": null
     },
     {
       "path": "/blog/best-corporate-event-catering-companies-in-dubai",
       "file": "blog__best-corporate-event-catering-companies-in-dubai.json",
-      "primary_keyword": "best corporate catering companies in dubai",
+      "primary_keyword": "how to assess a corporate event catering proposal",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-corporate-lunch-catering-companies-in-dubai",
       "file": "blog__best-corporate-lunch-catering-companies-in-dubai.json",
-      "primary_keyword": "corporate catering lunch",
+      "primary_keyword": "planning office lunches: delivery, diets and billing",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -200,35 +200,35 @@
     {
       "path": "/blog/best-desert-dining-catering-companies-in-dubai",
       "file": "blog__best-desert-dining-catering-companies-in-dubai.json",
-      "primary_keyword": null,
+      "primary_keyword": "how to compare desert dinner logistics in dubai",
       "role": "indexable page",
       "silo": null
     },
     {
       "path": "/blog/best-drop-off-catering-services-in-dubai",
       "file": "blog__best-drop-off-catering-services-in-dubai.json",
-      "primary_keyword": null,
+      "primary_keyword": "what to check before a drop-off catering delivery",
       "role": "indexable page",
       "silo": null
     },
     {
       "path": "/blog/best-gluten-free-catering-companies-in-dubai",
       "file": "blog__best-gluten-free-catering-companies-in-dubai.json",
-      "primary_keyword": null,
+      "primary_keyword": "questions to ask about a gluten-free event menu",
       "role": "indexable page",
       "silo": null
     },
     {
       "path": "/blog/best-grazing-table-catering-companies-in-dubai",
       "file": "blog__best-grazing-table-catering-companies-in-dubai.json",
-      "primary_keyword": "best grazing table catering companies in dubai",
+      "primary_keyword": "planning a grazing table: portions, space and setup",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-halal-catering-companies-in-dubai",
       "file": "blog__best-halal-catering-companies-in-dubai.json",
-      "primary_keyword": "best halal catering companies in dubai",
+      "primary_keyword": "what to ask a caterer about halal ingredients",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -242,14 +242,14 @@
     {
       "path": "/blog/best-kids-birthday-party-caterers-in-dubai",
       "file": "blog__best-kids-birthday-party-caterers-in-dubai.json",
-      "primary_keyword": "best kids birthday catering companies in dubai",
+      "primary_keyword": "planning children’s party food: ages, portions and timing",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-luxury-private-dining-experiences-in-dubai",
       "file": "blog__best-luxury-private-dining-experiences-in-dubai.json",
-      "primary_keyword": "best luxury private dining experiences in dubai",
+      "primary_keyword": "how to choose a private dinner format in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -263,7 +263,7 @@
     {
       "path": "/blog/best-private-chef-birthday-dinner-dubai",
       "file": "blog__best-private-chef-birthday-dinner-dubai.json",
-      "primary_keyword": "private chef for birthday dinner dubai",
+      "primary_keyword": "how to plan a birthday dinner at home in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -277,7 +277,7 @@
     {
       "path": "/blog/best-private-chefs-for-villas-in-dubai",
       "file": "blog__best-private-chefs-for-villas-in-dubai.json",
-      "primary_keyword": "best private chefs for villas in dubai",
+      "primary_keyword": "what to include in a dubai villa chef brief",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -298,35 +298,35 @@
     {
       "path": "/blog/best-private-cooking-class-experiences-in-dubai",
       "file": "blog__best-private-cooking-class-experiences-in-dubai.json",
-      "primary_keyword": "best private cooking class experiences in dubai",
+      "primary_keyword": "planning a cooking class at home: skills, space and guests",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
       "file": "blog__best-ramadan-iftar-catering-companies-in-dubai.json",
-      "primary_keyword": "best ramadan iftar catering companies in dubai",
+      "primary_keyword": "planning an iftar menu: timing, portions and service",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-vegan-catering-services-in-dubai",
       "file": "blog__best-vegan-catering-services-in-dubai.json",
-      "primary_keyword": "best vegan catering companies in dubai",
+      "primary_keyword": "how to compare plant-based event menus",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-wedding-catering-companies-in-dubai",
       "file": "blog__best-wedding-catering-companies-in-dubai.json",
-      "primary_keyword": "best wedding catering companies in dubai",
+      "primary_keyword": "questions to ask before shortlisting a wedding caterer",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/best-yacht-catering-services-in-dubai",
       "file": "blog__best-yacht-catering-services-in-dubai.json",
-      "primary_keyword": "best yacht catering companies in dubai",
+      "primary_keyword": "how to compare yacht catering proposals in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -350,6 +350,13 @@
       "primary_keyword": "canapé reception planning in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+      "file": "blog__catering-for-co-working-spaces-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/catering-for-embassies-in-dubai-complete-guide",
@@ -508,14 +515,14 @@
     {
       "path": "/blog/how-much-does-private-chef-cost-dubai",
       "file": "blog__how-much-does-private-chef-cost-dubai.json",
-      "primary_keyword": "how much does private chef cost dubai",
+      "primary_keyword": "private chef quotes explained: time, food and service",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
       "path": "/blog/how-to-hire-a-private-chef-dubai",
       "file": "blog__how-to-hire-a-private-chef-dubai.json",
-      "primary_keyword": "how to hire a private chef dubai",
+      "primary_keyword": "a household chef selection checklist for dubai families",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -532,6 +539,13 @@
       "primary_keyword": "kids and adults party menu",
       "role": "indexable page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+      "file": "blog__meal-prep-for-busy-executives-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/mixed-diet-dinner-party-dubai",
@@ -648,7 +662,7 @@
     {
       "path": "/blog/private-chef-palm-jumeirah-guide",
       "file": "blog__private-chef-palm-jumeirah-guide.json",
-      "primary_keyword": "private dining palm jumeirah dubai",
+      "primary_keyword": "planning a dinner in palm jumeirah: kitchen and access checklist",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -665,6 +679,13 @@
       "primary_keyword": "private chef vs restaurant dubai",
       "role": "noindex support page",
       "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+      "file": "blog__private-chefs-for-elderly-care-in-dubai-complete-guide.json",
+      "primary_keyword": null,
+      "role": "indexable page",
+      "silo": null
     },
     {
       "path": "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
@@ -1362,7 +1383,7 @@
     {
       "path": "/guide/private-dining-dubai",
       "file": "guide__private-dining-dubai.json",
-      "primary_keyword": "private dining dubai",
+      "primary_keyword": "a host’s guide to planning a private dinner in dubai",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -1565,7 +1586,7 @@
     {
       "path": "/locations/al-barsha",
       "file": "locations__al-barsha.json",
-      "primary_keyword": "private chef al barsha",
+      "primary_keyword": "planning a home dinner in al barsha: a practical checklist",
       "role": "indexable page",
       "silo": "Locations"
     },
@@ -1600,7 +1621,7 @@
     {
       "path": "/locations/difc",
       "file": "locations__difc.json",
-      "primary_keyword": "private chef difc",
+      "primary_keyword": "planning meals in difc: building access and service windows",
       "role": "indexable page",
       "silo": "Locations"
     },
@@ -1684,14 +1705,14 @@
     {
       "path": "/locations/jbr",
       "file": "locations__jbr.json",
-      "primary_keyword": "private chef jbr",
+      "primary_keyword": "planning a dinner in jbr: access and apartment kitchens",
       "role": "indexable page",
       "silo": "Locations"
     },
     {
       "path": "/locations/jlt",
       "file": "locations__jlt.json",
-      "primary_keyword": "private chef jlt",
+      "primary_keyword": "planning meals in jlt: kitchens, lifts and access",
       "role": "indexable page",
       "silo": "Locations"
     },
@@ -2363,7 +2384,7 @@
     {
       "path": "/villa-catering-ideas-dubai",
       "file": "villa-catering-ideas-dubai.json",
-      "primary_keyword": "villa catering ideas dubai",
+      "primary_keyword": "villa party ideas: match the menu to your space",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },

@@ -57,10 +57,13 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -85,7 +88,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 576,
-    "current_word_count": 5170,
+    "current_word_count": 5217,
     "headings": [
       {
         "level": "h2",
@@ -281,10 +284,8 @@
     ],
     "uplink_hub": {
       "url": "/private-chef-dubai",
-      "anchor": "Private chef",
-      "alt_anchors": [
-        "private chef dubai"
-      ]
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -310,7 +311,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

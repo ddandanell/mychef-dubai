@@ -62,6 +62,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1263,
-    "current_word_count": 1259,
+    "current_word_count": 1299,
     "headings": [
       {
         "level": "h2",
@@ -187,12 +189,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "long-term household chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -221,14 +220,7 @@
     "commercial_owners": [
       {
         "url": "/full-time-private-chef-dubai",
-        "anchor": "Full-time private chef",
-        "alt_anchors": [
-          "full time private chef"
-        ]
-      },
-      {
-        "url": "/weekly-meal-prep-dubai",
-        "anchor": "Weekly meal prep",
+        "anchor": "long-term household chef services in Dubai",
         "alt_anchors": []
       }
     ],

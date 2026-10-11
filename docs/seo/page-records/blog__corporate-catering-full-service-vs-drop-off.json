@@ -62,6 +62,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1271,
-    "current_word_count": 1954,
+    "current_word_count": 1987,
     "headings": [
       {
         "level": "h2",
@@ -177,7 +179,7 @@
       },
       {
         "level": "h3",
-        "text": "Best drop-off catering services in Dubai 2026"
+        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
@@ -233,12 +235,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -266,15 +265,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/drop-off-catering-dubai",
-        "anchor": "Drop-off catering",
-        "alt_anchors": [
-          "drop off catering"
-        ]
-      },
-      {
-        "url": "/office-catering-dubai",
-        "anchor": "Office catering",
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
         "alt_anchors": []
       }
     ],

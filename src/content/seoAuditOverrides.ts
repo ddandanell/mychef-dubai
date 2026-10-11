@@ -387,8 +387,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Private Party Catering Dubai | Menus for Your Home | myCHEF"
   },
   "/office-catering-dubai": {
-    "title": "Office Catering Dubai | Team Lunches & Delivery | myCHEF",
-    "description": "Office catering in Dubai for team lunches, breakfasts and regular meals. Drop-off from AED 90pp, minimum 10 guests, before VAT. Request a menu and quote."
+    "title": "Office Catering Dubai | Daily & Weekly Lunches | myCHEF",
+    "description": "Office catering in Dubai for daily and weekly lunches. Rotating menus and agreed delivery windows. From AED 90pp, minimum 10 guests, before VAT. Get a quote."
   },
   "/cocktail-party-catering-dubai": {
     "title": "Cocktail Party Catering Dubai | Canapés & Service | myCHEF",
@@ -475,8 +475,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule."
   },
   "/blog/best-arabic-catering-companies-in-dubai": {
-    "title": "Arabic Menu Planning: Mezze, Grills & Portions | myCHEF",
-    "description": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions."
+    "title": "Arabic Menu Planning in Dubai: Mezze & Grills | myCHEF",
+    "description": "Plan an Arabic catering menu for your Dubai gathering: mezze, grills, rice dishes and portions. Compare sharing and buffet service before requesting a quote."
   },
   "/blog/best-bbq-catering-companies-in-dubai": {
     "title": "BBQ Party Planning: Space, Smoke & Service | myCHEF",
@@ -527,7 +527,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Compare a plant-based event menu as a complete meal."
   },
   "/blog/best-wedding-catering-companies-in-dubai": {
-    "title": "Wedding Caterer Shortlist: Questions to Ask | myCHEF",
-    "description": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format."
+    "title": "Choosing a Wedding Caterer in Dubai: Checklist | myCHEF",
+    "description": "Choosing a wedding caterer in Dubai? Check tastings, buffet or plated service, venue access and itemised costs. Use shortlist questions to compare proposals."
   }
 }

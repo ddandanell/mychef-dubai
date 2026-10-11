@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05",
+  "url": "https://www.mychef.ae/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+  "path": "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": null,
+  "purpose": "Write an executive household meal prep brief around your diary, not just dishes. Plan portions, dietary needs, kitchen access and cooking duties clearly.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Executive household meal prep brief: Plan clearly | myCHEF",
+    "description": "Write an executive household meal prep brief around your diary, not just dishes. Plan portions, dietary needs, kitchen access and cooking duties clearly.",
+    "h1": [
+      "Meal prep for busy executives: how to plan the cooking week"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/meal-prep-for-busy-executives-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/meal-prep-for-busy-executives-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2662,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why meal prep matters for executive households"
+      },
+      {
+        "level": "h2",
+        "text": "How to write the household cooking brief"
+      },
+      {
+        "level": "h3",
+        "text": "Map the meals you actually need"
+      },
+      {
+        "level": "h3",
+        "text": "Define portions and dietary requirements"
+      },
+      {
+        "level": "h3",
+        "text": "Choose dishes by how they will be eaten"
+      },
+      {
+        "level": "h3",
+        "text": "Agree shopping and kitchen responsibilities"
+      },
+      {
+        "level": "h3",
+        "text": "Set a cooking rhythm and a change process"
+      },
+      {
+        "level": "h3",
+        "text": "Review the handover before repeating the plan"
+      },
+      {
+        "level": "h2",
+        "text": "What belongs in the final brief?"
+      },
+      {
+        "level": "h2",
+        "text": "Which cooking option fits your household?"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes executive households make"
+      },
+      {
+        "level": "h3",
+        "text": "Planning for an ideal diary"
+      },
+      {
+        "level": "h3",
+        "text": "Combining personal and family meals without a portion plan"
+      },
+      {
+        "level": "h3",
+        "text": "Delegating decisions without naming a contact"
+      },
+      {
+        "level": "h3",
+        "text": "Adding entertaining to the recurring brief"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Start with your next working week"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Embassy event catering: access and service briefing checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Film production catering: shifts, access and meal brief"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private chef services in Dubai with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-05/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
+}

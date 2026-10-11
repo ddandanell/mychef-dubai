@@ -4,20 +4,12 @@
   "url": "https://www.mychef.ae/locations/al-barsha",
   "path": "/locations/al-barsha",
   "role": "indexable page",
-  "page_type": "Location landing",
+  "page_type": "Guide / comparison",
   "silo": "Locations",
   "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
   "keywords": {
-    "primary": "private chef al barsha",
-    "secondary": [
-      "catering al barsha",
-      "chef at home al barsha",
-      "private dining al barsha",
-      "party catering al barsha",
-      "personal chef al barsha",
-      "iftar buffet dubai al barsha",
-      "catering services al quoz"
-    ],
+    "primary": "planning a home dinner in al barsha: a practical checklist",
+    "secondary": [],
     "primary_owner": "/locations/al-barsha",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -26,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef Al Barsha | myCHEF",
-    "description": "Private chef in Al Barsha for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+    "title": "Al Barsha Home Dinner Planning Checklist | myCHEF",
+    "description": "Prepare a useful Al Barsha meal brief with kitchen photos, building access details and the serving schedule.",
     "h1": [
-      "Private Chef Al Barsha"
+      "Planning a Home Dinner in Al Barsha: A Practical Checklist"
     ]
   },
   "metadata_source": "local production prerender",
@@ -55,6 +47,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -76,11 +70,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 881,
-    "current_word_count": 855,
+    "current_word_count": 880,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chef Al Barsha for villas, apartments and hotel residences"
+        "text": "Planning meals around an Al Barsha household"
       },
       {
         "level": "h2",
@@ -228,17 +222,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/locations",
-      "anchor": "Areas we serve",
-      "alt_anchors": [
-        "catering near me dubai",
-        "catering near me"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

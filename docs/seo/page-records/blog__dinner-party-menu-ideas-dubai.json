@@ -59,6 +59,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-dinner-party-menu-ideas-dubai.json",
@@ -79,7 +81,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 668,
+    "current_word_count": 695,
     "headings": [
       {
         "level": "h2",
@@ -159,12 +161,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/events",
+      "anchor": "event catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -182,8 +181,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/private-party-catering-dubai",
-        "anchor": "Private party catering",
+        "url": "/events",
+        "anchor": "event catering in Dubai",
         "alt_anchors": []
       }
     ],

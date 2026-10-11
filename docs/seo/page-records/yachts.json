@@ -30,8 +30,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Yacht Catering Dubai | Private Chef & Catering | myCHEF",
-    "description": "Yacht catering Dubai with private chefs, canapés, buffet, live stations and onboard service. You charter the yacht. Tell us the date, marina and guest count.",
+    "title": "Yacht Catering Dubai | Menus & Onboard Service | myCHEF",
+    "description": "Yacht catering in Dubai for a yacht you own or charter. Compare canapés, buffets and onboard chefs. Request a quote with your date, marina and guest count.",
     "h1": [
       "Yacht Catering Dubai"
     ]
@@ -69,6 +69,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -95,7 +97,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 5602,
-    "current_word_count": 5936,
+    "current_word_count": 5947,
     "headings": [
       {
         "level": "h2",

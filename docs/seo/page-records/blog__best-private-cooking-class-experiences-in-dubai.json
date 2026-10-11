@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best private cooking class experiences in dubai",
-    "secondary": [
-      "private cooking lessons Dubai",
-      "cooking class at home Dubai",
-      "group cooking experiences Dubai",
-      "hands-on cooking class"
-    ],
+    "primary": "planning a cooking class at home: skills, space and guests",
+    "secondary": [],
     "primary_owner": "/blog/best-private-cooking-class-experiences-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Private Cooking Class Experiences in Dubai | myCHEF",
-    "description": "Compare private cooking classes in Dubai by teaching style, group size, kitchen needs and inclusions. Choose a lesson suited to the people taking part.",
+    "title": "Home Cooking Class Planning Checklist | myCHEF",
+    "description": "A home cooking class needs a clear learning goal and enough usable kitchen space.",
     "h1": [
-      "Best Private Cooking Class Experiences in Dubai: What to Compare"
+      "Planning a Cooking Class at Home: Skills, Space and Guests"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-cooking-class-experiences-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1772,
-    "current_word_count": 2116,
+    "current_word_count": 2168,
     "headings": [
       {
         "level": "h2",
@@ -100,11 +99,15 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
         "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
       },
       {
         "level": "h3",
@@ -115,12 +118,8 @@
         "text": "Expat family household cooking: what to put in the chef brief"
       },
       {
-        "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
-      },
-      {
         "level": "h2",
-        "text": "Plan private cooking classes with myCHEF"
+        "text": "Plan private dining experiences in Dubai with myCHEF"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

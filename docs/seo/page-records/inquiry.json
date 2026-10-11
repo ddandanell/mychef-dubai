@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/inquiry",
   "path": "/inquiry",
   "role": "noindex support page",
-  "page_type": "Supporting route",
+  "page_type": "Supporting page",
   "silo": "Core & conversion",
   "purpose": "Route customers to the right service and capture a clear enquiry.",
   "keywords": {
@@ -60,10 +60,13 @@
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
+    "src/content/trustProof.ts",
     "src/content/yachtCateringQuote.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/hooks/useScrollTrigger.ts",
@@ -91,7 +94,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 247,
-    "current_word_count": 250,
+    "current_word_count": 294,
     "headings": [
       {
         "level": "h2",
@@ -114,5 +117,19 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

@@ -4,22 +4,12 @@
   "url": "https://www.mychef.ae/locations/difc",
   "path": "/locations/difc",
   "role": "indexable page",
-  "page_type": "Location landing",
+  "page_type": "Guide / comparison",
   "silo": "Locations",
   "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
   "keywords": {
-    "primary": "private chef difc",
-    "secondary": [
-      "catering difc",
-      "chef at home difc",
-      "private dining difc",
-      "party catering difc",
-      "personal chef difc",
-      "office catering difc",
-      "corporate catering difc",
-      "fine dining in difc",
-      "business lunch in difc"
-    ],
+    "primary": "planning meals in difc: building access and service windows",
+    "secondary": [],
     "primary_owner": "/locations/difc",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -28,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef DIFC | Apartments and Offices | myCHEF",
-    "description": "Private chef DIFC for apartments, offices and nearby homes. Menu, cooking on site, service and clear-down. Tell us the date and address.",
+    "title": "DIFC Meal Planning: Access & Service Logistics | myCHEF",
+    "description": "Prepare a useful DIFC meal brief with kitchen photos, building access details and the serving schedule.",
     "h1": [
-      "Private Chef DIFC"
+      "Planning Meals in DIFC: Building Access and Service Windows"
     ]
   },
   "metadata_source": "local production prerender",
@@ -57,6 +47,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -78,11 +70,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 946,
-    "current_word_count": 898,
+    "current_word_count": 924,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chef DIFC for boardrooms and residences inside the Gate"
+        "text": "Building access and meal schedules in DIFC"
       },
       {
         "level": "h2",
@@ -226,12 +218,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/locations",
-      "anchor": "Areas we serve",
-      "alt_anchors": [
-        "catering near me dubai",
-        "catering near me"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -242,7 +231,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

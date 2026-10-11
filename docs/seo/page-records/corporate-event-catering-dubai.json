@@ -74,6 +74,8 @@
     "src/content/corporateInventory.ts",
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -98,7 +100,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2505,
-    "current_word_count": 3167,
+    "current_word_count": 3199,
     "headings": [
       {
         "level": "h2",
@@ -287,11 +289,8 @@
     ],
     "uplink_hub": {
       "url": "/corporate",
-      "anchor": "Corporate dining",
-      "alt_anchors": [
-        "corporate catering dubai",
-        "corporate catering"
-      ]
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -317,7 +316,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

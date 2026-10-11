@@ -52,6 +52,7 @@
     "src/components/catering/CateringEditorial.tsx",
     "src/components/catering/CateringHub.tsx",
     "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/catering/CateringPreviousWork.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
@@ -62,10 +63,13 @@
     "src/content/cateringDesignIndex.json",
     "src/content/cateringPage.ts",
     "src/content/cateringPricing.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
     "src/content/siloMap.ts",
+    "src/content/trustProof.ts",
     "src/context/WhatsAppMessageContext.tsx",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
@@ -82,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4399,
-    "current_word_count": 2516,
+    "current_word_count": 2702,
     "headings": [
       {
         "level": "h2",
@@ -114,7 +118,7 @@
       },
       {
         "level": "h2",
-        "text": "Hosting handled. Just add the food."
+        "text": "Home catering in Dubai. Food delivered, hosting your way."
       },
       {
         "level": "h2",
@@ -167,6 +171,18 @@
       {
         "level": "h3",
         "text": "Something sweet"
+      },
+      {
+        "level": "h2",
+        "text": "See the details from earlier occasions."
+      },
+      {
+        "level": "h3",
+        "text": "A Christmas table in a villa"
+      },
+      {
+        "level": "h3",
+        "text": "Food and service aboard a yacht"
       },
       {
         "level": "h2",

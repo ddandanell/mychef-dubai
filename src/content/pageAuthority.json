@@ -69,7 +69,7 @@
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/catering-dubai",
-    "anchor": "catering Dubai",
+    "anchor": "catering services in Dubai",
     "h1": "How to Choose a Catering Company for Your Dubai Event",
     "title": "Choosing a Catering Company: What to Check | myCHEF",
     "description": "Shortlist a caterer by checking relevant experience, venue suitability and clear responsibilities.",
@@ -93,32 +93,14 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
-  "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": {
-    "role": "supporting",
-    "purpose": "editorial",
-    "money_page": "/yachts",
-    "anchor": "yacht catering Dubai"
-  },
-  "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow": {
-    "role": "supporting",
-    "purpose": "editorial",
-    "money_page": "/full-time-private-chef-dubai",
-    "anchor": "full time private chef Dubai"
-  },
-  "/blog/catering-for-international-schools-in-dubai-complete-guide": {
-    "role": "supporting",
-    "purpose": "editorial",
-    "money_page": "/institutional-catering-dubai",
-    "anchor": "institutional catering Dubai"
-  },
   "/blog/best-arabic-catering-companies-in-dubai": {
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai",
     "h1": "How to Plan an Arabic Menu for a Dubai Gathering",
-    "title": "Arabic Menu Planning: Mezze, Grills & Portions | myCHEF",
-    "description": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions.",
+    "title": "Arabic Menu Planning in Dubai: Mezze & Grills | myCHEF",
+    "description": "Plan an Arabic catering menu for your Dubai gathering: mezze, grills, rice dishes and portions. Compare sharing and buffet service before requesting a quote.",
     "lead": "Plan an Arabic menu as a complete meal: mezze, centrepiece dishes, accompaniments and portions. Match the regional style and sharing format to the guests and the space available."
   },
   "/blog/best-bbq-catering-companies-in-dubai": {
@@ -155,7 +137,7 @@
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/corporate",
-    "anchor": "corporate catering Dubai",
+    "anchor": "corporate catering in Dubai",
     "h1": "How to Assess a Corporate Event Catering Proposal",
     "title": "Corporate Event Proposals: What to Check | myCHEF",
     "description": "Assess a corporate event proposal against the agenda, venue and approval process.",
@@ -165,7 +147,7 @@
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/corporate",
-    "anchor": "corporate catering Dubai",
+    "anchor": "corporate catering in Dubai",
     "h1": "Planning Office Lunches: Delivery, Diets and Billing",
     "title": "Office Lunch Delivery & Billing Checklist | myCHEF",
     "description": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated.",
@@ -277,7 +259,7 @@
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/private-chef-dubai",
-    "anchor": "private chef Dubai"
+    "anchor": "private chef services in Dubai"
   },
   "/blog/best-private-cooking-class-experiences-in-dubai": {
     "role": "supporting",
@@ -315,15 +297,15 @@
     "money_page": "/events",
     "anchor": "event catering in Dubai",
     "h1": "Questions to Ask Before Shortlisting a Wedding Caterer",
-    "title": "Wedding Caterer Shortlist: Questions to Ask | myCHEF",
-    "description": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format.",
+    "title": "Choosing a Wedding Caterer in Dubai: Checklist | myCHEF",
+    "description": "Choosing a wedding caterer in Dubai? Check tastings, buffet or plated service, venue access and itemised costs. Use shortlist questions to compare proposals.",
     "lead": "Shortlist wedding caterers by their experience with your venue, guest numbers and chosen service format. Ask who coordinates the menu, equipment and running order before arranging a tasting."
   },
   "/blog/best-yacht-catering-services-in-dubai": {
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/yachts",
-    "anchor": "yacht catering Dubai",
+    "anchor": "yacht catering in Dubai",
     "h1": "How to Compare Yacht Catering Proposals in Dubai",
     "title": "Comparing Yacht Catering Proposals in Dubai | myCHEF",
     "description": "A yacht catering proposal needs an onboard plan as well as a menu.",
@@ -1355,7 +1337,7 @@
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/private-chef-dubai",
-    "anchor": "private chef Dubai"
+    "anchor": "private chef services in Dubai"
   },
   "/part-time-private-chef-dubai": {
     "role": "supporting",
@@ -1457,7 +1439,7 @@
     "role": "supporting",
     "purpose": "service-detail",
     "money_page": "/private-chef-dubai",
-    "anchor": "private chef Dubai"
+    "anchor": "private chef services in Dubai"
   },
   "/private-chef-dubai/privacy-security": {
     "role": "supporting",

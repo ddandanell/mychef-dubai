@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
   "path": "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
   "role": "indexable page",
-  "page_type": "Supporting route",
+  "page_type": "Blog post",
   "silo": null,
   "purpose": "Write an expat family household chef brief around meals, diets and routines. Clarify shopping, kitchen access and cleanup before agreeing your cooking plan.",
   "keywords": {
@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/private-chefs-for-expat-families-in-dubai-complete-guide.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,7 +75,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2647,
+    "current_word_count": 2756,
     "headings": [
       {
         "level": "h2",
@@ -159,6 +163,10 @@
       },
       {
         "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
+      },
+      {
+        "level": "h3",
         "text": "Meal support for new parents: a household chef brief"
       },
       {
@@ -166,17 +174,27 @@
         "text": "Household chef or event catering: which arrangement do you need?"
       },
       {
-        "level": "h3",
-        "text": "Best Cozymeal alternatives for private dining in Dubai"
-      },
-      {
         "level": "h2",
-        "text": "Plan private chef services with myCHEF"
+        "text": "Plan long-term household chef services in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [],
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "long-term household chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "long-term household chef services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

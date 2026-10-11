@@ -4,22 +4,12 @@
   "url": "https://www.mychef.ae/locations/jlt",
   "path": "/locations/jlt",
   "role": "indexable page",
-  "page_type": "Location landing",
+  "page_type": "Guide / comparison",
   "silo": "Locations",
   "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
   "keywords": {
-    "primary": "private chef jlt",
-    "secondary": [
-      "catering jlt",
-      "chef at home jlt",
-      "private dining jlt",
-      "party catering jlt",
-      "personal chef jlt",
-      "office catering jlt",
-      "iftar buffet dubai jlt",
-      "business lunch in jlt",
-      "indian food company jlt"
-    ],
+    "primary": "planning meals in jlt: kitchens, lifts and access",
+    "secondary": [],
     "primary_owner": "/locations/jlt",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -28,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef JLT Dubai | Home & Office | myCHEF",
-    "description": "Private chef in JLT for home dining and regular household meals. Menus, service and clear-down planned around your guests and kitchen.",
+    "title": "JLT Meal Planning: Kitchens & Building Access | myCHEF",
+    "description": "Prepare a useful JLT meal brief with kitchen photos, building access details and the serving schedule.",
     "h1": [
-      "Private Chef JLT"
+      "Planning Meals in JLT: Kitchens, Lifts and Access"
     ]
   },
   "metadata_source": "local production prerender",
@@ -57,6 +47,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -78,11 +70,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 905,
-    "current_word_count": 880,
+    "current_word_count": 907,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chef JLT for lakeside apartments and DMCC offices"
+        "text": "Tower access, lifts and kitchen space in JLT"
       },
       {
         "level": "h2",
@@ -234,12 +226,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/locations",
-      "anchor": "Areas we serve",
-      "alt_anchors": [
-        "catering near me dubai",
-        "catering near me"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -250,7 +239,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

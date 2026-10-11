@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best brunch catering companies in dubai",
-    "secondary": [
-      "brunch catering providers Dubai",
-      "brunch service at home",
-      "brunch catering comparison",
-      "brunch menu proposals"
-    ],
+    "primary": "how to compare brunch menus for a dubai home gathering",
+    "secondary": [],
     "primary_owner": "/blog/best-brunch-catering-services-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Brunch Catering Companies in Dubai | myCHEF",
-    "description": "Compare brunch catering in Dubai by menu variety, freshly cooked dishes, drinks and service hours. Plan the kitchen and morning schedule before booking.",
+    "title": "Comparing Brunch Menus for a Home Gathering | myCHEF",
+    "description": "Compare brunch menus by balance, preparation and replenishment.",
     "h1": [
-      "Best Brunch Catering Companies in Dubai: What to Compare"
+      "How to Compare Brunch Menus for a Dubai Home Gathering"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-brunch-catering-services-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1983,
-    "current_word_count": 1959,
+    "current_word_count": 1967,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -108,23 +107,23 @@
       },
       {
         "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
         "text": "Embassy event catering: access and service briefing checklist"
       },
       {
-        "level": "h3",
-        "text": "Film production catering: shifts, access and meal brief"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Chef Maison: which is better in 2026"
+        "level": "h2",
+        "text": "Plan catering services in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "Plan brunch catering with myCHEF"
-      },
-      {
-        "level": "h2",
-        "text": "How to compare the best brunch catering companies in Dubai"
+        "text": "How to Compare Brunch Menus for a Dubai Home Gathering"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

@@ -58,6 +58,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-corporate-event-catering-ideas-dubai.json",
@@ -78,7 +80,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1327,
-    "current_word_count": 1657,
+    "current_word_count": 1684,
     "headings": [
       {
         "level": "h2",
@@ -186,12 +188,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -219,8 +218,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/corporate-event-catering-dubai",
-        "anchor": "Corporate event catering",
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
         "alt_anchors": []
       }
     ],

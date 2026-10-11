@@ -55,6 +55,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -203,8 +205,8 @@
       }
     ],
     "uplink_hub": {
-      "url": "/partners",
-      "anchor": "Partners",
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
       "alt_anchors": []
     },
     "siblings": [
@@ -226,7 +228,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

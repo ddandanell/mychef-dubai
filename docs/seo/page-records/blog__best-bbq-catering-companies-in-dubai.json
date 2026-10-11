@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best bbq catering companies in dubai",
-    "secondary": [
-      "live BBQ catering Dubai",
-      "villa BBQ catering",
-      "outdoor barbecue catering",
-      "BBQ catering proposals"
-    ],
+    "primary": "planning a bbq party in dubai: space, smoke and service",
+    "secondary": [],
     "primary_owner": "/blog/best-bbq-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best BBQ Catering Companies in Dubai | myCHEF",
-    "description": "Compare BBQ catering in Dubai by grills, menus, staff and venue requirements. Check what the written quote includes before choosing your event service.",
+    "title": "BBQ Party Planning: Space, Smoke & Service | myCHEF",
+    "description": "A BBQ plan starts with where cooking can happen safely and with permission.",
     "h1": [
-      "Best BBQ Catering Companies in Dubai: What to Compare"
+      "Planning a BBQ Party in Dubai: Space, Smoke and Service"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-bbq-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2424,
-    "current_word_count": 1962,
+    "current_word_count": 1953,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -116,15 +115,15 @@
       },
       {
         "level": "h3",
-        "text": "Best desert dining catering companies in Dubai 2026"
+        "text": "How to Compare Desert Dinner Logistics in Dubai"
       },
       {
         "level": "h2",
-        "text": "Plan BBQ catering with myCHEF"
+        "text": "Plan catering services in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "How to compare the best BBQ catering companies in Dubai"
+        "text": "Planning a BBQ Party in Dubai: Space, Smoke and Service"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

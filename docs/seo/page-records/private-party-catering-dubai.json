@@ -65,6 +65,8 @@
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
     "src/content/cateringPricing.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privatePartyPage.ts",
@@ -87,7 +89,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2090,
-    "current_word_count": 2747,
+    "current_word_count": 2924,
     "headings": [
       {
         "level": "h2",
@@ -128,6 +130,10 @@
       {
         "level": "h2",
         "text": "Graduation is a daytime mixed-ages table"
+      },
+      {
+        "level": "h2",
+        "text": "Small party catering in Dubai, planned around your space"
       },
       {
         "level": "h2",
@@ -331,11 +337,8 @@
     ],
     "uplink_hub": {
       "url": "/events",
-      "anchor": "Events",
-      "alt_anchors": [
-        "event catering dubai",
-        "event catering"
-      ]
+      "anchor": "event catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -346,7 +349,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/events",
+        "anchor": "event catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/dinner-party-timeline-dubai",

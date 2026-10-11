@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best wedding catering companies in dubai",
-    "secondary": [
-      "wedding caterer comparison Dubai",
-      "wedding menu proposals",
-      "wedding catering service scope",
-      "wedding tasting questions"
-    ],
+    "primary": "questions to ask before shortlisting a wedding caterer",
+    "secondary": [],
     "primary_owner": "/blog/best-wedding-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Wedding Catering Companies in Dubai | myCHEF",
-    "description": "Compare wedding caterers in Dubai by tastings, menu choices, staffing and venue needs. Use this guide to review the full proposal before booking.",
+    "title": "Choosing a Wedding Caterer in Dubai: Checklist | myCHEF",
+    "description": "Choosing a wedding caterer in Dubai? Check tastings, buffet or plated service, venue access and itemised costs. Use shortlist questions to compare proposals.",
     "h1": [
-      "Best Wedding Catering Companies in Dubai: What to Compare"
+      "Questions to Ask Before Shortlisting a Wedding Caterer"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-wedding-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1896,
-    "current_word_count": 1878,
+    "current_word_count": 1903,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -112,11 +111,11 @@
       },
       {
         "level": "h2",
-        "text": "Plan wedding catering with myCHEF"
+        "text": "Plan event catering in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "How to compare the best wedding catering companies in Dubai"
+        "text": "Questions to Ask Before Shortlisting a Wedding Caterer"
       },
       {
         "level": "h2",
@@ -174,14 +173,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/events",
+      "anchor": "event catering in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/events",
+        "anchor": "event catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

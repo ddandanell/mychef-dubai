@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/topic/celebrations",
   "path": "/blog/topic/celebrations",
   "role": "noindex support page",
-  "page_type": "Topic hub",
+  "page_type": "Blog post",
   "silo": "Blog topic hubs",
   "purpose": "Group related articles for navigation.",
   "keywords": {
@@ -45,6 +45,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -63,7 +65,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 202,
-    "current_word_count": 530,
+    "current_word_count": 548,
     "headings": [
       {
         "level": "h2",
@@ -91,19 +93,19 @@
       },
       {
         "level": "h3",
-        "text": "Best cocktail party catering companies in Dubai 2026"
+        "text": "Planning Food and Guest Flow for a Standing Reception"
       },
       {
         "level": "h3",
-        "text": "Best Grazing Table Catering Companies in Dubai: What to Compare"
+        "text": "Planning a Grazing Table: Portions, Space and Setup"
       },
       {
         "level": "h3",
-        "text": "Best Kids Birthday Catering Companies in Dubai: What to Compare"
+        "text": "Planning Children’s Party Food: Ages, Portions and Timing"
       },
       {
         "level": "h3",
-        "text": "Best Wedding Catering Companies in Dubai: What to Compare"
+        "text": "Questions to Ask Before Shortlisting a Wedding Caterer"
       },
       {
         "level": "h3",
@@ -115,7 +117,7 @@
       },
       {
         "level": "h3",
-        "text": "Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book"
+        "text": "How to Plan a Birthday Dinner at Home in Dubai"
       },
       {
         "level": "h2",
@@ -128,5 +130,11 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      "/events"
+    ],
+    "uplink_hub": "/events",
+    "do_not_link": []
+  }
 }

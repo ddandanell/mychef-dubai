@@ -128,7 +128,7 @@ export default function Corporate() {
 
       <NonCateringVisual><PageHero
         eyebrow="Corporate Catering Dubai"
-        title="Corporate Catering Dubai for Offices and Boardrooms"
+        title="Corporate Catering Dubai for Workplaces and Events"
         subtitle={"Corporate catering in Dubai for offices, meetings and company occasions, with menus and service planned around your working day. Drop-off starts from AED 90 per person, and each proposal itemises the food, staffing and other requirements for clear approval."}
         image={corporateHero.src}
         imageAlt={corporateHero.alt}

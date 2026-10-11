@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/smart-catering-alternatives-in",
   "path": "/blog/smart-catering-alternatives-in",
   "role": "indexable page",
-  "page_type": "Supporting route",
+  "page_type": "Blog post",
   "silo": null,
   "purpose": "Compare Smart Catering alternatives in 2026. myCHEF suits private dining and catered events in Dubai; assess chef selection, staffing and event scope.",
   "keywords": {
@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/smart-catering-alternatives-in.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,7 +75,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2144,
+    "current_word_count": 2180,
     "headings": [
       {
         "level": "h2",
@@ -119,24 +123,38 @@
       },
       {
         "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
         "text": "Embassy event catering: access and service briefing checklist"
       },
       {
-        "level": "h3",
-        "text": "Film production catering: shifts, access and meal brief"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Chef Maison: which is better in 2026"
-      },
-      {
         "level": "h2",
-        "text": "Plan catering with myCHEF"
+        "text": "Plan catering services in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [],
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

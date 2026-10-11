@@ -44,6 +44,7 @@
     "src/components/catering/CateringPlanningArticle.tsx",
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
+    "src/components/private-chef/ChefMenuInspiration.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -54,10 +55,13 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -85,7 +89,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 1228,
+    "current_word_count": 1410,
     "headings": [
       {
         "level": "h2",
@@ -106,6 +110,22 @@
       {
         "level": "h3",
         "text": "Meals prepared for later"
+      },
+      {
+        "level": "h2",
+        "text": "A taste of an easier stay."
+      },
+      {
+        "level": "h3",
+        "text": "An unhurried breakfast"
+      },
+      {
+        "level": "h3",
+        "text": "A relaxed sharing table"
+      },
+      {
+        "level": "h3",
+        "text": "A family table"
       },
       {
         "level": "h2",
@@ -185,7 +205,7 @@
       },
       {
         "level": "h2",
-        "text": "Let’s plan your next cooking day."
+        "text": "Arrive with your meals already planned."
       }
     ],
     "baseline_findings": [],
@@ -210,10 +230,8 @@
     ],
     "uplink_hub": {
       "url": "/private-chef-dubai",
-      "anchor": "Private chef",
-      "alt_anchors": [
-        "private chef dubai"
-      ]
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -234,7 +252,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/how-much-does-private-chef-cost-dubai",

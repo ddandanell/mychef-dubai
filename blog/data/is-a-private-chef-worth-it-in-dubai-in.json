@@ -75,5 +75,6 @@
   },
   "published_at": "2026-10-09T20:29:44.954Z",
   "updated_at": "2026-10-09T20:29:44.954Z",
-  "status": "published"
+  "status": "draft",
+  "editorial_review_note": "Held 2026-10-11: no approved SEO ownership assignment or existing public route. Preserve content for editorial and keyword review before publication."
 }

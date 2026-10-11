@@ -71,16 +71,16 @@ export const scope: Block = {
   id: 'what-we-handle',
   h2: 'What you receive on the night',
   paragraphs: [
-    'Corporate event catering Dubai is the one-off company night: menu, chefs, service staff, equipment, setup, service and pack-down. One person owns it. You get an itemised quote before you approve anything.',
+    'Corporate event catering in Dubai is planned for a specific occasion: a daytime launch, a networking reception or an evening celebration. Your proposal identifies the menu, chefs, service staff, equipment, setup and clear-down, with a named point of contact for coordination.',
     'We coordinate with your venue, planner and production team. Room hire, audiovisual equipment, staging and entertainment stay with those specialists. Where you already have them, we work to their schedule.',
     'Catering has its own timeline under your run sheet: when food arrives, when service starts and how long a room takes to clear. Our job is to make that timeline fit yours.',
   ],
 }
 
 export const uplinks = {
-  lead: "For a one-off company celebration, choose an event menu and service plan. For recurring workplace meals, explore",
+  lead: "This page covers one-off company occasions. To compare recurring workplace meals, client hospitality and event formats, start with",
   corporateHref: CORPORATE_PATHS.hub,
-  corporateLabel: 'Corporate catering in Dubai',
+  corporateLabel: 'our corporate catering services in Dubai',
   mid: 'Weddings, villas, yachts and private celebrations sit on',
   luxuryHref: '/catering-dubai',
   luxuryLabel: 'Luxury catering in Dubai',

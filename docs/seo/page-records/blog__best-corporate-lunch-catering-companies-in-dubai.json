@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "corporate catering lunch",
-    "secondary": [
-      "office lunch catering options",
-      "corporate lunch menus Dubai",
-      "staffed business lunch",
-      "office lunch delivery comparison"
-    ],
+    "primary": "planning office lunches: delivery, diets and billing",
+    "secondary": [],
     "primary_owner": "/blog/best-corporate-lunch-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Corporate Catering Lunch Options in Dubai | myCHEF",
-    "description": "Compare corporate lunch options in Dubai for team meals and client meetings. Review delivery access, serving equipment, dietary needs and billing.",
+    "title": "Office Lunch Delivery & Billing Checklist | myCHEF",
+    "description": "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated.",
     "h1": [
-      "Corporate Catering Lunch Options in Dubai: What to Compare"
+      "Planning Office Lunches: Delivery, Diets and Billing"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-corporate-lunch-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1760,
-    "current_word_count": 1773,
+    "current_word_count": 1799,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -116,15 +115,15 @@
       },
       {
         "level": "h3",
-        "text": "Best drop-off catering services in Dubai 2026"
+        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
-        "text": "Plan office catering with myCHEF"
+        "text": "Plan corporate catering in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "Corporate catering lunch: compare the service your office needs"
+        "text": "Planning Office Lunches: Delivery, Diets and Billing"
       },
       {
         "level": "h2",
@@ -178,14 +177,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

@@ -59,6 +59,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-brunch-at-home-dubai.json",
@@ -79,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2938,
-    "current_word_count": 717,
+    "current_word_count": 741,
     "headings": [
       {
         "level": "h2",
@@ -111,15 +113,15 @@
       },
       {
         "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
         "text": "Embassy event catering: access and service briefing checklist"
-      },
-      {
-        "level": "h3",
-        "text": "Film production catering: shifts, access and meal brief"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Chef Maison: which is better in 2026"
       },
       {
         "level": "h2",
@@ -155,12 +157,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -183,8 +182,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/brunch-catering-dubai",
-        "anchor": "Brunch catering",
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
         "alt_anchors": []
       }
     ],

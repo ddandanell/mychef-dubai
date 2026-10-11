@@ -13,14 +13,14 @@ const coreServices = [
     title: 'Private chef for your Dubai home',
     description: 'Book a chef for a few hours or find a long-term household match. Live-in, daily live-out and recurring visits, with food shaped around your home.',
     link: '/private-chef-dubai',
-    cta: 'Explore private chef options',
+    cta: 'Explore private chef services in Dubai',
   },
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering for your Dubai event',
     description: 'Food only, or chefs and service staff for the night. We design the menu with you, then cook and run it so you can stay with your guests.',
     link: '/catering-dubai',
-    cta: 'See catering options',
+    cta: 'Compare catering services in Dubai',
   },
 ]
 
@@ -41,10 +41,10 @@ const builtOnServices: { icon: LucideIcon; title: string; description: string; l
   },
   {
     icon: Briefcase,
-    title: 'Corporate Dining',
+    title: 'Corporate Catering',
     description: 'Boardroom lunches and corporate events — menus designed with you and delivered by chefs who understand what a room like that demands.',
     link: '/corporate',
-    cta: 'Corporate dining',
+    cta: 'Explore corporate catering',
   },
   {
     icon: House,

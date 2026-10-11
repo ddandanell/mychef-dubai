@@ -8,17 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "private dining palm jumeirah dubai",
-    "secondary": [
-      "palm jumeirah villa dining menu",
-      "private chef palm springs",
-      "private dining chef near me",
-      "halal private dining menu",
-      "best private dining rooms dubai",
-      "carbone dubai private dining",
-      "coya dubai private dining",
-      "how much does a private chef cost"
-    ],
+    "primary": "planning a dinner in palm jumeirah: kitchen and access checklist",
+    "secondary": [],
     "primary_owner": "/blog/private-chef-palm-jumeirah-guide",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -27,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Dining Palm Jumeirah Dubai | myCHEF",
-    "description": "Private Dining Palm Jumeirah Dubai: A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…",
+    "title": "Palm Jumeirah Dinner Planning: Kitchen & Access | myCHEF",
+    "description": "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat.",
     "h1": [
-      "Private Dining Palm Jumeirah Dubai"
+      "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist"
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,7 +38,6 @@
     "src/components/KeyFactsBox.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/SourcesBlock.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
@@ -62,6 +52,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1683,
-    "current_word_count": 3176,
+    "current_word_count": 3031,
     "headings": [
       {
         "level": "h2",
@@ -97,15 +89,11 @@
       },
       {
         "level": "h2",
-        "text": "What the Service Includes"
+        "text": "Questions to Confirm About the Service"
       },
       {
         "level": "h2",
-        "text": "Indicative Pricing in Palm Jumeirah"
-      },
-      {
-        "level": "h2",
-        "text": "Sources & Verification"
+        "text": "Compare the Scope of Your Proposal"
       },
       {
         "level": "h2",
@@ -157,6 +145,10 @@
       },
       {
         "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
+      },
+      {
+        "level": "h3",
         "text": "Meal support for new parents: a household chef brief"
       },
       {
@@ -164,12 +156,8 @@
         "text": "Expat family household cooking: what to put in the chef brief"
       },
       {
-        "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
-      },
-      {
         "level": "h2",
-        "text": "Private Dining Palm Jumeirah Dubai: Ready to Book a Private Chef in Palm Jumeirah?"
+        "text": "Put Your Palm Jumeirah Dinner Brief Together"
       },
       {
         "level": "h2",
@@ -233,12 +221,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -251,16 +236,9 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/private-chef-dubai",
-        "anchor": "Private chef",
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
         "alt_anchors": []
-      },
-      {
-        "url": "/villas-private-residences",
-        "anchor": "Villa dining",
-        "alt_anchors": [
-          "villa chef"
-        ]
       }
     ],
     "supporting_guides": [],

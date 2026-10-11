@@ -58,6 +58,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -67,11 +69,15 @@
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
     "src/lib/canapePlanner.ts",
+    "src/lib/contactAttribution.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
     "src/lib/lazyPreloadable.tsx",
     "src/lib/organizationSchema.ts",
     "src/lib/serviceAreas.ts",
+    "src/lib/track.ts",
+    "src/lib/trackVocab.ts",
+    "src/lib/whatsapp.ts",
     "src/pages/CanapeCatering.tsx",
     "src/styles/canape-collection.css",
     "src/styles/catering-editorial.css"
@@ -79,7 +85,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2393,
-    "current_word_count": 4017,
+    "current_word_count": 4036,
     "headings": [
       {
         "level": "h2",
@@ -486,10 +492,8 @@
     ],
     "uplink_hub": {
       "url": "/catering-dubai",
-      "anchor": "Catering",
-      "alt_anchors": [
-        "catering dubai"
-      ]
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -510,7 +514,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/canape-reception-planning-dubai",

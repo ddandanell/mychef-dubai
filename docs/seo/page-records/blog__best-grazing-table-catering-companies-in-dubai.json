@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best grazing table catering companies in dubai",
-    "secondary": [
-      "grazing table providers Dubai",
-      "grazing platter service",
-      "grazing table menu ideas",
-      "grazing table setup"
-    ],
+    "primary": "planning a grazing table: portions, space and setup",
+    "secondary": [],
     "primary_owner": "/blog/best-grazing-table-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Grazing Table Catering Companies in Dubai | myCHEF",
-    "description": "Compare grazing table catering in Dubai by food quantities, display hire, replenishment and clearing. Clarify the full setup before choosing a provider.",
+    "title": "Grazing Table Planning: Portions & Setup | myCHEF",
+    "description": "A grazing table needs more than a styled photograph.",
     "h1": [
-      "Best Grazing Table Catering in Dubai: What to Compare"
+      "Planning a Grazing Table: Portions, Space and Setup"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-grazing-table-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2346,
-    "current_word_count": 1957,
+    "current_word_count": 1991,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -120,11 +119,11 @@
       },
       {
         "level": "h2",
-        "text": "Plan grazing tables with myCHEF"
+        "text": "Plan catering services in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "How to compare the best grazing table catering companies in Dubai"
+        "text": "Planning a Grazing Table: Portions, Space and Setup"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

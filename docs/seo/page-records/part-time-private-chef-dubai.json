@@ -52,6 +52,7 @@
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefMealPacks.tsx",
+    "src/components/private-chef/ChefMenuInspiration.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -62,11 +63,14 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/householdServices.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
@@ -93,11 +97,43 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 826,
-    "current_word_count": 2236,
+    "current_word_count": 2465,
     "headings": [
       {
         "level": "h2",
         "text": "A part time private chef in Dubai, with a schedule that fits."
+      },
+      {
+        "level": "h2",
+        "text": "Your cooking days, made delicious."
+      },
+      {
+        "level": "h3",
+        "text": "A family table"
+      },
+      {
+        "level": "h3",
+        "text": "Lunches worth looking forward to"
+      },
+      {
+        "level": "h3",
+        "text": "Vegetables at the centre"
+      },
+      {
+        "level": "h2",
+        "text": "How often would a chef make life easier?"
+      },
+      {
+        "level": "h3",
+        "text": "Once a week"
+      },
+      {
+        "level": "h3",
+        "text": "Twice a week"
+      },
+      {
+        "level": "h3",
+        "text": "More frequent cooking"
       },
       {
         "level": "h2",
@@ -157,22 +193,6 @@
       },
       {
         "level": "h2",
-        "text": "Details that make the occasion."
-      },
-      {
-        "level": "h3",
-        "text": "A table set on deck"
-      },
-      {
-        "level": "h3",
-        "text": "Food with attention to detail"
-      },
-      {
-        "level": "h3",
-        "text": "The service behind the occasion"
-      },
-      {
-        "level": "h2",
         "text": "Make a chef part of your household."
       },
       {
@@ -193,7 +213,7 @@
       },
       {
         "level": "h2",
-        "text": "Let’s make room for good food."
+        "text": "Let’s put good food in your diary."
       },
       {
         "level": "h2",
@@ -254,10 +274,8 @@
     ],
     "uplink_hub": {
       "url": "/private-chef-dubai",
-      "anchor": "Private chef",
-      "alt_anchors": [
-        "private chef dubai"
-      ]
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -283,7 +301,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

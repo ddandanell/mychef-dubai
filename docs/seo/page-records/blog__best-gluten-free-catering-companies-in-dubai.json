@@ -4,13 +4,13 @@
   "url": "https://www.mychef.ae/blog/best-gluten-free-catering-companies-in-dubai",
   "path": "/blog/best-gluten-free-catering-companies-in-dubai",
   "role": "indexable page",
-  "page_type": "Supporting route",
+  "page_type": "Blog post",
   "silo": null,
-  "purpose": "Compare gluten-free catering in Dubai for 2026: private chefs, event caterers, drop-off trays and hotel menus, with pros, cons and who each suits best.",
+  "purpose": "A gluten-free event menu requires clear ingredient and preparation questions.",
   "keywords": {
-    "primary": null,
+    "primary": "questions to ask about a gluten-free event menu",
     "secondary": [],
-    "primary_owner": null,
+    "primary_owner": "/blog/best-gluten-free-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
     "volume_status": "Keyword research retained in the private audit; account metrics are not published",
@@ -18,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Gluten-Free Catering Companies in Dubai (2026) | myCHEF",
-    "description": "Compare gluten-free catering in Dubai for 2026: private chefs, event caterers, drop-off trays and hotel menus, with pros, cons and who each suits best.",
+    "title": "Gluten-Free Event Menus: Questions to Ask | myCHEF",
+    "description": "A gluten-free event menu requires clear ingredient and preparation questions.",
     "h1": [
-      "Best gluten-free catering companies in Dubai 2026"
+      "Questions to Ask About a Gluten-Free Event Menu"
     ]
   },
   "metadata_source": "local production prerender",
@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-gluten-free-catering-companies-in-dubai.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,55 +75,31 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2111,
+    "current_word_count": 655,
     "headings": [
       {
         "level": "h2",
-        "text": "Why this matters"
+        "text": "Explain the guest requirements clearly"
       },
       {
         "level": "h2",
-        "text": "What makes the best gluten-free catering in Dubai"
+        "text": "Ask about every component"
       },
       {
         "level": "h2",
-        "text": "Gluten-free catering in Dubai at a glance"
+        "text": "Discuss preparation and cross-contact limits"
       },
       {
         "level": "h2",
-        "text": "1. myCHEF: best gluten-free catering for home dining with full menu control"
+        "text": "Plan labels and serving responsibilities"
       },
       {
         "level": "h2",
-        "text": "2. Full-service event caterers: best for large gluten-free celebrations"
+        "text": "Compare scope rather than rankings"
       },
       {
         "level": "h2",
-        "text": "3. Drop-off catering specialists: best for office lunches and smaller gatherings"
-      },
-      {
-        "level": "h2",
-        "text": "4. Hotel and restaurant catering arms: best for turnkey venue packages"
-      },
-      {
-        "level": "h2",
-        "text": "How we ranked"
-      },
-      {
-        "level": "h2",
-        "text": "Which gluten-free caterer should you choose in 2026?"
-      },
-      {
-        "level": "h2",
-        "text": "FAQ"
-      },
-      {
-        "level": "h2",
-        "text": "One last thing"
-      },
-      {
-        "level": "h2",
-        "text": "Related guides"
+        "text": "Confirm feasibility before booking"
       },
       {
         "level": "h2",
@@ -127,24 +107,38 @@
       },
       {
         "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
+      },
+      {
+        "level": "h3",
         "text": "Embassy event catering: access and service briefing checklist"
       },
       {
-        "level": "h3",
-        "text": "Film production catering: shifts, access and meal brief"
-      },
-      {
-        "level": "h3",
-        "text": "myCHEF vs Chef Maison: which is better in 2026"
-      },
-      {
         "level": "h2",
-        "text": "Plan allergy-aware catering with myCHEF"
+        "text": "Plan catering services in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [],
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

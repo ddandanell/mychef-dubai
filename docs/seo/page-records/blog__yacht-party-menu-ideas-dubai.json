@@ -62,6 +62,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1391,
-    "current_word_count": 1374,
+    "current_word_count": 1401,
     "headings": [
       {
         "level": "h2",
@@ -217,12 +219,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/yachts",
+      "anchor": "yacht catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -241,7 +240,7 @@
     "commercial_owners": [
       {
         "url": "/yachts",
-        "anchor": "Yacht catering",
+        "anchor": "yacht catering in Dubai",
         "alt_anchors": []
       }
     ],

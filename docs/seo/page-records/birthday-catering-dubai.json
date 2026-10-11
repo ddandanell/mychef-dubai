@@ -70,6 +70,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -94,7 +96,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4717,
-    "current_word_count": 5332,
+    "current_word_count": 5351,
     "headings": [
       {
         "level": "h2",
@@ -509,11 +511,8 @@
     ],
     "uplink_hub": {
       "url": "/events",
-      "anchor": "Events",
-      "alt_anchors": [
-        "event catering dubai",
-        "event catering"
-      ]
+      "anchor": "event catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -529,7 +528,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/events",
+        "anchor": "event catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/best-private-chef-birthday-dinner-dubai",

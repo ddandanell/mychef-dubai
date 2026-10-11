@@ -4,13 +4,13 @@
   "url": "https://www.mychef.ae/blog/best-cocktail-party-catering-companies-in-dubai",
   "path": "/blog/best-cocktail-party-catering-companies-in-dubai",
   "role": "indexable page",
-  "page_type": "Supporting route",
+  "page_type": "Blog post",
   "silo": null,
-  "purpose": "Compare six cocktail party catering models in Dubai for 2026 — chef-led myCHEF menus, hotel receptions, drop-off canapés, corporate and yacht catering.",
+  "purpose": "Food at a standing reception must fit the room and the pace of the gathering.",
   "keywords": {
-    "primary": null,
+    "primary": "planning food and guest flow for a standing reception",
     "secondary": [],
-    "primary_owner": null,
+    "primary_owner": "/blog/best-cocktail-party-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
     "volume_status": "Keyword research retained in the private audit; account metrics are not published",
@@ -18,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Cocktail Party Catering Companies Dubai 2026 | myCHEF",
-    "description": "Compare six cocktail party catering models in Dubai for 2026 — chef-led myCHEF menus, hotel receptions, drop-off canapés, corporate and yacht catering.",
+    "title": "Standing Reception Planning: Bites & Flow | myCHEF",
+    "description": "Food at a standing reception must fit the room and the pace of the gathering.",
     "h1": [
-      "Best cocktail party catering companies in Dubai 2026"
+      "Planning Food and Guest Flow for a Standing Reception"
     ]
   },
   "metadata_source": "local production prerender",
@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-cocktail-party-catering-companies-in-dubai.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,63 +75,31 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2366,
+    "current_word_count": 672,
     "headings": [
       {
         "level": "h2",
-        "text": "Why this matters"
+        "text": "Match the food to how guests move"
       },
       {
         "level": "h2",
-        "text": "What makes the best cocktail party catering in Dubai"
+        "text": "Map the room before setting service points"
       },
       {
         "level": "h2",
-        "text": "Cocktail catering in Dubai at a glance"
+        "text": "Give dietary dishes a clear route"
       },
       {
         "level": "h2",
-        "text": "1. myCHEF: best cocktail party catering for private, chef-led parties at home"
+        "text": "Build the food schedule around the programme"
       },
       {
         "level": "h2",
-        "text": "2. Hotel and event catering houses: best for large cocktail receptions"
+        "text": "Separate food, drinks and equipment"
       },
       {
         "level": "h2",
-        "text": "3. Drop-off canapé and grazing table catering: best budget option"
-      },
-      {
-        "level": "h2",
-        "text": "4. Corporate event caterers: best for office cocktail receptions"
-      },
-      {
-        "level": "h2",
-        "text": "5. Yacht catering specialists: best for cocktail parties on the water"
-      },
-      {
-        "level": "h2",
-        "text": "6. Mobile bartending and mixology add-ons: best for cocktail-focused parties needing bar service"
-      },
-      {
-        "level": "h2",
-        "text": "How this ranking works"
-      },
-      {
-        "level": "h2",
-        "text": "Which cocktail catering option should you choose?"
-      },
-      {
-        "level": "h2",
-        "text": "FAQ"
-      },
-      {
-        "level": "h2",
-        "text": "One last thing"
-      },
-      {
-        "level": "h2",
-        "text": "Related guides"
+        "text": "Choose a service format"
       },
       {
         "level": "h2",
@@ -147,12 +119,26 @@
       },
       {
         "level": "h2",
-        "text": "Plan cocktail party catering with myCHEF"
+        "text": "Plan event catering in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [],
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/events",
+        "anchor": "event catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/events",
+      "anchor": "event catering in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

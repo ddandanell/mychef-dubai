@@ -57,13 +57,14 @@
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
-    "src/content/cateringCluster.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
     "src/content/nurseryCateringPage.tsx",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -85,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2026,
-    "current_word_count": 2126,
+    "current_word_count": 2145,
     "headings": [
       {
         "level": "h2",
@@ -245,7 +246,7 @@
     ],
     "uplink_hub": {
       "url": "/institutional-catering-dubai",
-      "anchor": "Institutional catering",
+      "anchor": "institutional catering in Dubai",
       "alt_anchors": []
     },
     "siblings": [
@@ -267,7 +268,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "institutional catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/nut-free-halal-nursery-meals-dubai",

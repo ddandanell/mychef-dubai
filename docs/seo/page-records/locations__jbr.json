@@ -4,19 +4,12 @@
   "url": "https://www.mychef.ae/locations/jbr",
   "path": "/locations/jbr",
   "role": "indexable page",
-  "page_type": "Location landing",
+  "page_type": "Guide / comparison",
   "silo": "Locations",
   "purpose": "Qualify service at a specific Dubai address and explain local access constraints.",
   "keywords": {
-    "primary": "private chef jbr",
-    "secondary": [
-      "catering jbr",
-      "chef at home jbr",
-      "private dining jbr",
-      "party catering jbr",
-      "personal chef jbr",
-      "iftar buffet dubai jbr"
-    ],
+    "primary": "planning a dinner in jbr: access and apartment kitchens",
+    "secondary": [],
     "primary_owner": "/locations/jbr",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -25,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Private Chef JBR | Beachfront Apartment Homes | myCHEF",
-    "description": "Private chef JBR for beach apartments and nearby villas. Menu, cooking in your kitchen, service and clear-down. Tell us the date and tower.",
+    "title": "JBR Dinner Planning: Apartment Access & Setup | myCHEF",
+    "description": "Prepare a useful JBR meal brief with kitchen photos, building access details and the serving schedule.",
     "h1": [
-      "Private Chef JBR"
+      "Planning a Dinner in JBR: Access and Apartment Kitchens"
     ]
   },
   "metadata_source": "local production prerender",
@@ -54,6 +47,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -75,11 +70,11 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 900,
-    "current_word_count": 864,
+    "current_word_count": 893,
     "headings": [
       {
         "level": "h2",
-        "text": "Private chef JBR for beachfront apartments on The Walk"
+        "text": "Apartment kitchens, loading and access on The Walk"
       },
       {
         "level": "h2",
@@ -91,7 +86,7 @@
       },
       {
         "level": "h2",
-        "text": "What a JBR apartment booking includes"
+        "text": "Questions to confirm for an apartment meal"
       },
       {
         "level": "h2",
@@ -227,17 +222,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/locations",
-      "anchor": "Areas we serve",
-      "alt_anchors": [
-        "catering near me dubai",
-        "catering near me"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

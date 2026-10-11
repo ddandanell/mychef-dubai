@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/topic/menus-dietary",
   "path": "/blog/topic/menus-dietary",
   "role": "noindex support page",
-  "page_type": "Topic hub",
+  "page_type": "Blog post",
   "silo": "Blog topic hubs",
   "purpose": "Group related articles for navigation.",
   "keywords": {
@@ -45,6 +45,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -63,11 +65,19 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 675,
-    "current_word_count": 1068,
+    "current_word_count": 1129,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "Co-working event catering: delivery and shared-space checklist"
+      },
+      {
+        "level": "h3",
+        "text": "Meal prep for busy executives: how to plan the cooking week"
       },
       {
         "level": "h3",
@@ -87,7 +97,7 @@
       },
       {
         "level": "h3",
-        "text": "Best gluten-free catering companies in Dubai 2026"
+        "text": "Questions to Ask About a Gluten-Free Event Menu"
       },
       {
         "level": "h3",
@@ -159,19 +169,19 @@
       },
       {
         "level": "h3",
-        "text": "Best Vegan Catering Companies in Dubai: What to Compare"
+        "text": "How to Compare Plant-Based Event Menus"
       },
       {
         "level": "h3",
-        "text": "Best Arabic Catering Companies in Dubai: What to Compare"
+        "text": "How to Plan an Arabic Menu for a Dubai Gathering"
       },
       {
         "level": "h3",
-        "text": "Best Brunch Catering Companies in Dubai: What to Compare"
+        "text": "How to Compare Brunch Menus for a Dubai Home Gathering"
       },
       {
         "level": "h3",
-        "text": "Best Halal Catering Companies in Dubai: What to Compare"
+        "text": "What to Ask a Caterer About Halal Ingredients"
       },
       {
         "level": "h3",
@@ -192,5 +202,19 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

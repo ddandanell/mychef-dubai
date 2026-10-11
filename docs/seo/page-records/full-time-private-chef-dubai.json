@@ -50,6 +50,7 @@
     "src/components/household/HouseholdOffer.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/household/ManagedHousehold.tsx",
+    "src/components/private-chef/ChefMenuInspiration.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/ClusterNav.tsx",
     "src/components/private-chef/EditorialHero.tsx",
@@ -60,10 +61,13 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefCluster.ts",
     "src/content/privateChefDesign.ts",
@@ -92,7 +96,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 4381,
+    "current_word_count": 4526,
     "headings": [
       {
         "level": "h2",
@@ -157,6 +161,22 @@
       {
         "level": "h3",
         "text": "Settle in. Keep making it yours."
+      },
+      {
+        "level": "h2",
+        "text": "Picture the food in your everyday life."
+      },
+      {
+        "level": "h3",
+        "text": "An unhurried breakfast"
+      },
+      {
+        "level": "h3",
+        "text": "A family table"
+      },
+      {
+        "level": "h3",
+        "text": "Fresh, colourful favourites"
       },
       {
         "level": "h2",

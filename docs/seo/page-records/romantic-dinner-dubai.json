@@ -60,6 +60,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -81,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1259,
-    "current_word_count": 2612,
+    "current_word_count": 2632,
     "headings": [
       {
         "level": "h2",
@@ -218,11 +220,8 @@
     ],
     "uplink_hub": {
       "url": "/luxury-dining-experiences",
-      "anchor": "Luxury dining",
-      "alt_anchors": [
-        "luxury dining experiences dubai",
-        "luxury dining experiences"
-      ]
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -233,7 +232,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/guide/private-dining-dubai",

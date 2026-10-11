@@ -8,17 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "how to hire a private chef dubai",
-    "secondary": [
-      "how to find a private chef in dubai",
-      "do private chefs bring their own equipment dubai",
-      "hiring a private chef",
-      "how do you hire a private chef",
-      "private chef for a day",
-      "chef hire",
-      "how do i hire a personal chef",
-      "chef at home in dubai"
-    ],
+    "primary": "a household chef selection checklist for dubai families",
+    "secondary": [],
     "primary_owner": "/blog/how-to-hire-a-private-chef-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -27,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "How to Hire a Private Chef Dubai | myCHEF",
-    "description": "How to hire a private chef in Dubai: define regular household cooking or a private dinner, review the chef match and confirm the written scope.",
+    "title": "Questions to Ask Before Choosing a Household Chef | myCHEF",
+    "description": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family.",
     "h1": [
-      "How to Hire a Private Chef Dubai"
+      "A Household Chef Selection Checklist for Dubai Families"
     ]
   },
   "metadata_source": "local production prerender",
@@ -59,6 +50,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo-pages/blog-how-to-hire-a-private-chef-dubai.json",
@@ -79,7 +72,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3146,
-    "current_word_count": 2282,
+    "current_word_count": 2273,
     "headings": [
       {
         "level": "h2",
@@ -191,12 +184,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -225,7 +215,7 @@
     "commercial_owners": [
       {
         "url": "/private-chef-dubai",
-        "anchor": "Private chef",
+        "anchor": "private chef services in Dubai",
         "alt_anchors": []
       }
     ],

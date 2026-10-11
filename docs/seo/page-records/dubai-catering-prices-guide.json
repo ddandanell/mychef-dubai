@@ -28,7 +28,7 @@
   },
   "metadata": {
     "title": "Catering Prices Dubai 2026 | Cost Guide | myCHEF",
-    "description": "2026 Catering prices Dubai per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised q",
+    "description": "2026 catering prices in Dubai per person: private chefs, canapés, buffet, BBQ and yacht events from AED 90. See what drives cost and request an itemised quote.",
     "h1": [
       "Catering Prices Dubai Guide: What to Budget for Your Event"
     ]
@@ -57,6 +57,8 @@
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
     "src/content/cateringPricing.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -77,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1209,
-    "current_word_count": 1903,
+    "current_word_count": 1930,
     "headings": [
       {
         "level": "h2",
@@ -225,12 +227,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -259,7 +258,7 @@
     "commercial_owners": [
       {
         "url": "/catering-dubai",
-        "anchor": "Catering",
+        "anchor": "catering services in Dubai",
         "alt_anchors": []
       }
     ],

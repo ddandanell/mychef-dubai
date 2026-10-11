@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-private-chefs-in-dubai-for-home-dining.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2779,
-    "current_word_count": 1449,
+    "current_word_count": 1499,
     "headings": [
       {
         "level": "h2",
@@ -111,6 +115,10 @@
       },
       {
         "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
+      },
+      {
+        "level": "h3",
         "text": "Meal support for new parents: a household chef brief"
       },
       {
@@ -118,12 +126,8 @@
         "text": "Expat family household cooking: what to put in the chef brief"
       },
       {
-        "level": "h3",
-        "text": "Best Cozymeal alternatives for private dining in Dubai"
-      },
-      {
         "level": "h2",
-        "text": "Plan private chef services with myCHEF"
+        "text": "Plan private chef services in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [
@@ -149,14 +153,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

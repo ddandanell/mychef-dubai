@@ -8,13 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "best ramadan iftar catering companies in dubai",
-    "secondary": [
-      "iftar catering providers Dubai",
-      "Ramadan catering comparison",
-      "iftar service planning",
-      "iftar menu proposals"
-    ],
+    "primary": "planning an iftar menu: timing, portions and service",
+    "secondary": [],
     "primary_owner": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -23,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Best Ramadan Iftar Catering Companies in Dubai | myCHEF",
-    "description": "Compare iftar catering in Dubai by service timing, menus, staffing and venue arrangements. Prepare a clear Ramadan brief before requesting proposals.",
+    "title": "Iftar Menu Planning: Timing & Service | myCHEF",
+    "description": "An iftar menu plan should make the first service ready at the agreed time.",
     "h1": [
-      "Best Ramadan Iftar Catering Companies Dubai: What to Compare"
+      "Planning an Iftar Menu: Timing, Portions and Service"
     ]
   },
   "metadata_source": "local production prerender",
@@ -51,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/best-ramadan-iftar-catering-companies-in-dubai.json",
@@ -63,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -76,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2057,
-    "current_word_count": 1943,
+    "current_word_count": 1967,
     "headings": [
       {
         "level": "h2",
@@ -100,7 +99,7 @@
       },
       {
         "level": "h2",
-        "text": "Explore the myCHEF service"
+        "text": "Use your completed brief"
       },
       {
         "level": "h2",
@@ -116,15 +115,15 @@
       },
       {
         "level": "h3",
-        "text": "Embassy event catering: access and service briefing checklist"
+        "text": "Co-working event catering: delivery and shared-space checklist"
       },
       {
         "level": "h2",
-        "text": "Plan iftar catering with myCHEF"
+        "text": "Plan catering services in Dubai with myCHEF"
       },
       {
         "level": "h2",
-        "text": "How to compare the best ramadan iftar catering companies in Dubai"
+        "text": "Planning an Iftar Menu: Timing, Portions and Service"
       },
       {
         "level": "h2",
@@ -182,14 +181,20 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
       "alt_anchors": []
     },
     "siblings": [],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [],

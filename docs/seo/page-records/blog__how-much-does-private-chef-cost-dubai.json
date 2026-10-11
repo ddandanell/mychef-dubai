@@ -8,17 +8,8 @@
   "silo": "Blog and Guides",
   "purpose": "Answer an informational or comparison query and lead to a relevant service.",
   "keywords": {
-    "primary": "how much does private chef cost dubai",
-    "secondary": [
-      "private chef cost per person dubai",
-      "how much is a private chef for a night dubai",
-      "private chef cost for 6 people dubai",
-      "is a private chef worth it dubai",
-      "average private chef cost",
-      "how much does a private chef charge",
-      "private chef cost per day",
-      "private chef cost dc"
-    ],
+    "primary": "private chef quotes explained: time, food and service",
+    "secondary": [],
     "primary_owner": "/blog/how-much-does-private-chef-cost-dubai",
     "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
     "search_volume": null,
@@ -27,10 +18,10 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "How Much Does a Private Chef Cost in Dubai? | myCHEF",
-    "description": "How much does a private chef cost in Dubai? Visits from AED 1,125 single or AED 750 member. Compare full days, meal packs and extra costs before booking.",
+    "title": "What Affects a Private Chef Quote in Dubai? | myCHEF",
+    "description": "A chef quote combines time, ingredients, travel and any service support.",
     "h1": [
-      "How Much Does a Private Chef Cost in Dubai?"
+      "Private Chef Quotes Explained: Time, Food and Service"
     ]
   },
   "metadata_source": "local production prerender",
@@ -47,7 +38,6 @@
     "src/components/KeyFactsBox.tsx",
     "src/components/PageHero.tsx",
     "src/components/SEO.tsx",
-    "src/components/SourcesBlock.tsx",
     "src/components/TrustSignalStrip.tsx",
     "src/components/blog/BlogProse.tsx",
     "src/components/blog/BlogReadingLink.tsx",
@@ -62,6 +52,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/seo/index.ts",
@@ -85,7 +77,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1409,
-    "current_word_count": 2915,
+    "current_word_count": 2723,
     "headings": [
       {
         "level": "h2",
@@ -93,11 +85,7 @@
       },
       {
         "level": "h2",
-        "text": "Published private chef visit rates"
-      },
-      {
-        "level": "h2",
-        "text": "Sources & Verification"
+        "text": "Where to Find the Current Rates"
       },
       {
         "level": "h2",
@@ -133,7 +121,7 @@
       },
       {
         "level": "h2",
-        "text": "Book a Private Chef with myCHEF Dubai"
+        "text": "Use Your Brief to Choose the Service"
       },
       {
         "level": "h2",
@@ -165,6 +153,10 @@
       },
       {
         "level": "h3",
+        "text": "Cooking for older adults: what should a chef brief cover?"
+      },
+      {
+        "level": "h3",
         "text": "Meal support for new parents: a household chef brief"
       },
       {
@@ -172,12 +164,8 @@
         "text": "Expat family household cooking: what to put in the chef brief"
       },
       {
-        "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
-      },
-      {
         "level": "h2",
-        "text": "How Much Does Private Chef Cost Dubai: Get Your Private Chef Quote"
+        "text": "Explore the Current Service Options"
       },
       {
         "level": "h2",
@@ -241,12 +229,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -264,23 +249,9 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/private-chef-dubai/pricing",
-        "anchor": "Pricing",
-        "alt_anchors": [
-          "private chef price"
-        ]
-      },
-      {
         "url": "/private-chef-dubai",
-        "anchor": "Private chef",
+        "anchor": "private chef services in Dubai",
         "alt_anchors": []
-      },
-      {
-        "url": "/full-time-private-chef-dubai",
-        "anchor": "Full-time private chef",
-        "alt_anchors": [
-          "full time private chef"
-        ]
       }
     ],
     "supporting_guides": [],

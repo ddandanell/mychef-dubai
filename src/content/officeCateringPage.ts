@@ -19,9 +19,9 @@ export const OFFICE_ROOT = '/office-catering-dubai' as const
 
 export const OFFICE_KEYWORD_LOCK = {
   primary: 'office catering dubai',
-  title: 'Office Catering Dubai | Daily Lunches and Team Days | myCHEF',
+  title: 'Office Catering Dubai | Daily & Weekly Lunches | myCHEF',
   description:
-    'Office catering Dubai for daily and weekly team lunches. Drop-off from AED 90 per person, min 10 guests. Recurring days billed as they run.',
+    'Office catering in Dubai for daily and weekly lunches. Rotating menus and agreed delivery windows. From AED 90pp, minimum 10 guests, before VAT. Get a quote.',
   h1: 'Office Catering Dubai',
 } as const
 

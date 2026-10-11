@@ -4,7 +4,7 @@
   "url": "https://www.mychef.ae/blog/topic/corporate",
   "path": "/blog/topic/corporate",
   "role": "noindex support page",
-  "page_type": "Topic hub",
+  "page_type": "Blog post",
   "silo": "Blog topic hubs",
   "purpose": "Group related articles for navigation.",
   "keywords": {
@@ -45,6 +45,8 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -63,7 +65,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 147,
-    "current_word_count": 327,
+    "current_word_count": 345,
     "headings": [
       {
         "level": "h2",
@@ -79,15 +81,15 @@
       },
       {
         "level": "h3",
-        "text": "Best drop-off catering services in Dubai 2026"
+        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h3",
-        "text": "Corporate Catering Lunch Options in Dubai: What to Compare"
+        "text": "Planning Office Lunches: Delivery, Diets and Billing"
       },
       {
         "level": "h3",
-        "text": "Best Corporate Catering Companies in Dubai: What to Compare"
+        "text": "How to Assess a Corporate Event Catering Proposal"
       },
       {
         "level": "h3",
@@ -108,5 +110,19 @@
     "log": "docs/editorial-audit/2026-10-05/README.md",
     "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
   },
-  "internal_linking": {}
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
 }

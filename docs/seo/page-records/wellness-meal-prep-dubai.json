@@ -55,6 +55,7 @@
     "src/components/household/HouseholdImage.tsx",
     "src/components/household/HouseholdSections.tsx",
     "src/components/private-chef/ChefMealPacks.tsx",
+    "src/components/private-chef/ChefMenuInspiration.tsx",
     "src/components/private-chef/ChefSections.tsx",
     "src/components/private-chef/EditorialHero.tsx",
     "src/components/private-chef/HouseholdServicePage.tsx",
@@ -65,11 +66,14 @@
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/chefEnquiryCopy.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
     "src/content/householdServices.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
@@ -96,11 +100,27 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 699,
-    "current_word_count": 2218,
+    "current_word_count": 2310,
     "headings": [
       {
         "level": "h2",
         "text": "Healthy meal prep in Dubai, tailored to you."
+      },
+      {
+        "level": "h2",
+        "text": "Food that fits the way you like to eat."
+      },
+      {
+        "level": "h3",
+        "text": "Fresh, colourful favourites"
+      },
+      {
+        "level": "h3",
+        "text": "Vegetables at the centre"
+      },
+      {
+        "level": "h3",
+        "text": "Lunches worth looking forward to"
       },
       {
         "level": "h2",
@@ -160,22 +180,6 @@
       },
       {
         "level": "h2",
-        "text": "Details that make the occasion."
-      },
-      {
-        "level": "h3",
-        "text": "A table set on deck"
-      },
-      {
-        "level": "h3",
-        "text": "Food with attention to detail"
-      },
-      {
-        "level": "h3",
-        "text": "The service behind the occasion"
-      },
-      {
-        "level": "h2",
         "text": "Make a chef part of your household."
       },
       {
@@ -196,7 +200,7 @@
       },
       {
         "level": "h2",
-        "text": "Let’s make room for good food."
+        "text": "Good food, with your preferences understood."
       },
       {
         "level": "h2",
@@ -257,10 +261,8 @@
     ],
     "uplink_hub": {
       "url": "/private-chef-dubai",
-      "anchor": "Private chef",
-      "alt_anchors": [
-        "private chef dubai"
-      ]
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -276,7 +278,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/private-chef-dubai",
+        "anchor": "private chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [
       {

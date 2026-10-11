@@ -75,6 +75,8 @@
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/corporatePage.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",

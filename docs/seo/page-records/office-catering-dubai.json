@@ -31,8 +31,8 @@
     "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
   },
   "metadata": {
-    "title": "Office Catering Dubai | Team Lunches & Delivery | myCHEF",
-    "description": "Office catering in Dubai for team lunches, breakfasts and regular meals. Drop-off from AED 90pp, minimum 10 guests, before VAT. Request a menu and quote.",
+    "title": "Office Catering Dubai | Daily & Weekly Lunches | myCHEF",
+    "description": "Office catering in Dubai for daily and weekly lunches. Rotating menus and agreed delivery windows. From AED 90pp, minimum 10 guests, before VAT. Get a quote.",
     "h1": [
       "Office Catering Dubai"
     ]
@@ -76,6 +76,8 @@
     "src/content/corporatePackageCatalog.ts",
     "src/content/corporatePackages.ts",
     "src/content/officeCateringPage.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/serviceLinkRules.json",
@@ -100,7 +102,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3331,
-    "current_word_count": 3936,
+    "current_word_count": 3960,
     "headings": [
       {
         "level": "h2",
@@ -377,11 +379,8 @@
     ],
     "uplink_hub": {
       "url": "/corporate",
-      "anchor": "Corporate dining",
-      "alt_anchors": [
-        "corporate catering dubai",
-        "corporate catering"
-      ]
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -407,7 +406,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/corporate",
+        "anchor": "corporate catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/corporate-catering-full-service-vs-drop-off",

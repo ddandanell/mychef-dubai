@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05",
+  "url": "https://www.mychef.ae/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+  "path": "/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+  "role": "indexable page",
+  "page_type": "Blog post",
+  "silo": null,
+  "purpose": "A household chef older adults meal brief starts with preferences and clear responsibilities. Plan menus, dietary instructions, serving and kitchen handovers.",
+  "keywords": {
+    "primary": null,
+    "secondary": [],
+    "primary_owner": null,
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "informational",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Household chef older adults meal brief: checklist | myCHEF",
+    "description": "A household chef older adults meal brief starts with preferences and clear responsibilities. Plan menus, dietary instructions, serving and kitchen handovers.",
+    "h1": [
+      "Cooking for older adults: what should a chef brief cover?"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "blog/data/private-chefs-for-elderly-care-in-dubai-complete-guide.json",
+    "src/components/BlogRelated.tsx",
+    "src/components/PageHero.tsx",
+    "src/components/SEO.tsx",
+    "src/components/TrustSignalStrip.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/components/private-chef/EditorialHero.tsx",
+    "src/components/private-chef/ServiceImage.tsx",
+    "src/components/system/index.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/blogServiceTargets.ts",
+    "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/ryze-pages/private-chefs-for-elderly-care-in-dubai-complete-guide.json",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
+    "src/lib/deferNonCritical.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/lib/utils.ts",
+    "src/pages/blog/RyzeArticlePage.tsx",
+    "src/styles/catering-editorial.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2699,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why a clear brief matters for older adults"
+      },
+      {
+        "level": "h2",
+        "text": "How to write the meal brief"
+      },
+      {
+        "level": "h3",
+        "text": "Record the person’s preferences"
+      },
+      {
+        "level": "h3",
+        "text": "Separate preferences from clinical instructions"
+      },
+      {
+        "level": "h3",
+        "text": "Choose the cooking and serving arrangement"
+      },
+      {
+        "level": "h3",
+        "text": "Map the weekly routine"
+      },
+      {
+        "level": "h3",
+        "text": "Brief the kitchen and access arrangements"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the menu and proposal scope"
+      },
+      {
+        "level": "h3",
+        "text": "Establish the handover and review"
+      },
+      {
+        "level": "h2",
+        "text": "Which cooking arrangement fits your household?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the finished brief look like?"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes when briefing for an older adult"
+      },
+      {
+        "level": "h3",
+        "text": "Letting the family speak for the person"
+      },
+      {
+        "level": "h3",
+        "text": "Treating age as a dietary prescription"
+      },
+      {
+        "level": "h3",
+        "text": "Planning meals without planning service"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving shopping and substitutions undefined"
+      },
+      {
+        "level": "h3",
+        "text": "Allowing different versions of the brief"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Turn the brief into a clear enquiry"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Meal support for new parents: a household chef brief"
+      },
+      {
+        "level": "h3",
+        "text": "Expat family household cooking: what to put in the chef brief"
+      },
+      {
+        "level": "h3",
+        "text": "Household chef or event catering: which arrangement do you need?"
+      },
+      {
+        "level": "h2",
+        "text": "Plan long-term household chef services in Dubai with myCHEF"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-05/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "commercial_owners": [
+      {
+        "url": "/full-time-private-chef-dubai",
+        "anchor": "long-term household chef services in Dubai",
+        "alt_anchors": []
+      }
+    ],
+    "uplink_hub": {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "long-term household chef services in Dubai",
+      "alt_anchors": []
+    },
+    "do_not_link": []
+  }
+}

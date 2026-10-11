@@ -33,6 +33,14 @@ export default function PrivateChef() {
     <ChefSection id="chef-service-choice" eyebrow="Two clear ways to begin" title={<>Book a little time.<br/><em>Or find your long-term chef.</em></>}><ChefServiceChoice/></ChefSection>
     <ChefSection eyebrow="Find your everyday fit" title="Private Chef Dubai: a plan for the way you live."><p className="pc-section-intro">Start with what would make your day easier. Cooked meals on a few chosen days, a fridge ready for the week or a chef who learns your household routine.</p><ScheduleChoices/><p className="pc-fineprint">Here for a few days? Explore <Link className="underline underline-offset-4" to="/private-chef-dubai/short-term-chef">single visits and holiday stays</Link>. Planning a staffed celebration? See <Link className="underline underline-offset-4" to="/luxury-dining-experiences">private dining experiences</Link>.</p></ChefSection>
     <ChefMenuInspiration/>
+    <ChefSection id="choosing-your-chef" eyebrow="Before you book" title="Choose your chef with a clear brief.">
+      <div className="grid gap-8 md:grid-cols-3">
+        <div><h3>The cooking you actually need</h3><p>Tell us your preferred cuisines, the meals to cover and whether food should be served fresh or stored for later. A personal chef in Dubai should fit your household, kitchen and schedule.</p><Link className="pc-link" to="/our-chefs">Explore chefs and cooking styles →</Link></div>
+        <div><h3>A match you can assess</h3><p>Ask how the chef is selected and what responsibilities are included. For a long-term arrangement, review the paid trial process before committing to a household plan.</p><Link className="pc-link" to="/how-we-vet-our-chefs">Read our chef selection process →</Link></div>
+        <div><h3>A complete price before confirming</h3><p>Compare the booked hours, grocery arrangements, transport and any assistant alongside the service fee. Single visits and prepaid member plans have different rates; your written proposal confirms the full scope.</p><Link className="pc-link" to="/private-chef-dubai/pricing">Compare current visit rates and inclusions →</Link></div>
+      </div>
+      <p className="pc-fineprint">Ready to book a chef at home? <Link className="underline underline-offset-4" to="/inquiry?from=/private-chef-dubai">Share your cooking days and household brief</Link>. We will review availability and the service you need.</p>
+    </ChefSection>
     <ChefSection eyebrow="More than the meal" title="The details, thoughtfully handled." tone="pc-tone-cream"><Inclusions/></ChefSection>
     <ChefSection><div className="pc-split"><ServiceImage imageKey="planning"/><div><p className="pc-eyebrow">From the first conversation</p><h2>We learn your home.<br/><em>Then we get cooking.</em></h2><ChefJourney/><Link className="pc-link" to="/private-chef-dubai/how-it-works">How your chef arrangement works →</Link></div></div></ChefSection>
 

@@ -46,11 +46,14 @@
     "src/components/system/index.tsx",
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
+    "src/content/blogPhotography.json",
     "src/content/blogReadingLinks.json",
     "src/content/blogServiceTargets.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/ryze-pages/outdoor-villa-catering-kitchen-dubai.json",
@@ -58,6 +61,7 @@
     "src/content/siloMap.ts",
     "src/lib/blogEditorial.ts",
     "src/lib/blogImages.ts",
+    "src/lib/blogPhotography.ts",
     "src/lib/deferNonCritical.ts",
     "src/lib/imageAssetUrl.ts",
     "src/lib/jsonld.ts",
@@ -71,7 +75,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2304,
+    "current_word_count": 2357,
     "headings": [
       {
         "level": "h2",
@@ -139,7 +143,7 @@
       },
       {
         "level": "h2",
-        "text": "Plan private party catering with myCHEF"
+        "text": "Plan private dining experiences in Dubai with myCHEF"
       }
     ],
     "baseline_findings": [],
@@ -163,12 +167,9 @@
       }
     ],
     "uplink_hub": {
-      "url": "/guides",
-      "anchor": "Guides",
-      "alt_anchors": [
-        "catering checklist dubai",
-        "catering checklist"
-      ]
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
     },
     "siblings": [
       {
@@ -191,8 +192,8 @@
     "silo_index": [],
     "commercial_owners": [
       {
-        "url": "/private-party-catering-dubai",
-        "anchor": "Private Party Catering Dubai",
+        "url": "/luxury-dining-experiences",
+        "anchor": "private dining experiences in Dubai",
         "alt_anchors": []
       }
     ],

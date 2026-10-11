@@ -55,10 +55,14 @@
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
     "src/content/cateringPricing.ts",
+    "src/content/chefEnquiryCopy.ts",
+    "src/content/christmasWork.ts",
     "src/content/householdChefs.ts",
     "src/content/householdJourney.ts",
     "src/content/householdProfiles.json",
     "src/content/householdProfiles.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/privateChefPricing.ts",
@@ -81,6 +85,7 @@
     "src/lib/whatsapp.ts",
     "src/pages/Home.tsx",
     "src/sections/CTASection.tsx",
+    "src/sections/FestivePlanningSection.tsx",
     "src/sections/GuidesTeaserSection.tsx",
     "src/sections/HeroSection.tsx",
     "src/sections/HowItWorksSection.tsx",
@@ -96,7 +101,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1321,
-    "current_word_count": 1433,
+    "current_word_count": 1510,
     "headings": [
       {
         "level": "h2",
@@ -120,11 +125,15 @@
       },
       {
         "level": "h3",
-        "text": "Corporate Dining"
+        "text": "Corporate Catering"
       },
       {
         "level": "h3",
         "text": "Villas & Residences"
+      },
+      {
+        "level": "h2",
+        "text": "Your traditions. A menu made around them."
       },
       {
         "level": "h2",
@@ -263,7 +272,11 @@
         "current": true
       }
     ],
-    "uplink_hub": null,
+    "uplink_hub": {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+    },
     "siblings": [
       {
         "url": "/private-chef-dubai",
@@ -357,7 +370,13 @@
         "alt_anchors": []
       }
     ],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/catering-dubai",
+        "anchor": "catering services in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [],
     "cross_silo": [],
     "locations": [

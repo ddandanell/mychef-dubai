@@ -57,12 +57,13 @@
     "src/content/blogLinkRules.json",
     "src/content/blogMedia.json",
     "src/content/blogReadingLinks.json",
-    "src/content/cateringCluster.ts",
     "src/content/cateringDesign.json",
     "src/content/cateringDesign.ts",
     "src/content/cateringDesignIndex.json",
     "src/content/institutionalCluster.ts",
     "src/content/institutionalLandingTypes.ts",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
     "src/content/parkedUrls.ts",
     "src/content/privateChefDesign.ts",
     "src/content/schoolCateringPage.tsx",
@@ -85,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1488,
-    "current_word_count": 1978,
+    "current_word_count": 1997,
     "headings": [
       {
         "level": "h2",
@@ -238,7 +239,7 @@
     ],
     "uplink_hub": {
       "url": "/institutional-catering-dubai",
-      "anchor": "Institutional catering",
+      "anchor": "institutional catering in Dubai",
       "alt_anchors": []
     },
     "siblings": [
@@ -260,7 +261,13 @@
     ],
     "featured_children": [],
     "silo_index": [],
-    "commercial_owners": [],
+    "commercial_owners": [
+      {
+        "url": "/institutional-catering-dubai",
+        "anchor": "institutional catering in Dubai",
+        "alt_anchors": []
+      }
+    ],
     "supporting_guides": [
       {
         "url": "/blog/dubai-school-food-rules-2026",

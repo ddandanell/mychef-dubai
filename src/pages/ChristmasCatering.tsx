@@ -23,7 +23,7 @@ import { CHRISTMAS_WORK, CHRISTMAS_WORK_PHOTOS } from '@/content/christmasWork'
 const WHATSAPP_NUMBER = '971551744849'
 const waLink = (message: string) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like to plan Christmas dinner at home. Date: __ Guests: __ Area: __ Menu: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like to plan Christmas dinner at home. Date: __ Guests: __ Area: __ Menu: __ (via mychef.ae/christmas-catering-dubai)"
 const WHATSAPP_LINK = waLink(PAGE_WHATSAPP_MESSAGE)
 
 const HERO_IMAGE = '/images/christmas-catering-dubai-hero.webp'
@@ -288,7 +288,7 @@ function MenuSection({ menu, index }: { menu: ChristmasMenu; index: number }) {
             </dl>
 
             <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4">
-              <Link to="/inquiry" className="btn-primary">{menu.cta}</Link>
+              <Link to="/inquiry?from=/christmas-catering-dubai" className="btn-primary">{menu.cta}</Link>
               <a href={waLink(menu.whatsapp)} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <Phone size={16} className="mr-2" aria-hidden />
                 WhatsApp Us
@@ -386,7 +386,7 @@ export default function ChristmasCatering() {
             Enjoy Christmas with the people who matter. A private chef prepares your Christmas Eve, Christmas Day or festive-season dinner at home, with menus inspired by a traditional British roast, French Réveillon, Italian Natale and other international celebrations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Plan My Christmas Dinner</Link>
+            <Link to="/inquiry?from=/christmas-catering-dubai" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Plan My Christmas Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -401,6 +401,13 @@ export default function ChristmasCatering() {
       </section></NonCateringVisual>
 
       <TrustSignalStrip variant="dark" />
+      <nav aria-label="Plan your Christmas booking" className="bg-cream border-b border-gray-200">
+        <div className="container-custom flex flex-wrap justify-center gap-x-6 gap-y-3 py-5 font-inter text-sm text-gold-ink">
+          <a className="underline underline-offset-4" href="#choose-your-christmas-menu">Compare seven Christmas menus</a>
+          <a className="underline underline-offset-4" href="#christmas-previous-work">See a previous Christmas table</a>
+          <Link className="underline underline-offset-4" to="/inquiry?from=/christmas-catering-dubai">Check your date and request a quote</Link>
+        </div>
+      </nav>
 
       {/* ═══════════════ Urgency banner ═══════════════ */}
       <section className="bg-gold py-4">
@@ -433,7 +440,7 @@ export default function ChristmasCatering() {
       </section>
 
       {/* ═══════════════ Previous work ═══════════════ */}
-      <section className="bg-cream section-padding">
+      <section id="christmas-previous-work" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom max-w-[1100px]">
           <div className="max-w-[820px] mb-10">
             <SectionLabel>{CHRISTMAS_WORK.label}</SectionLabel>
@@ -592,7 +599,7 @@ export default function ChristmasCatering() {
             ))}
             <div role="listitem" className="hidden lg:flex">
               <Link
-                to="/inquiry"
+                to="/inquiry?from=/christmas-catering-dubai"
                 className="group flex w-full flex-col justify-between border border-dashed border-gold/50 bg-cream p-6 transition-colors hover:border-gold hover:bg-gold/5"
               >
                 <div>
@@ -635,7 +642,7 @@ export default function ChristmasCatering() {
             We can accommodate vegetarian, vegan, gluten-free and other dietary requirements where possible. Every allergy you share goes into the first menu draft, and dishes are labelled at the table.
           </p>
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Create My Christmas Menu</Link>
+            <Link to="/inquiry?from=/christmas-catering-dubai" className="btn-primary">Create My Christmas Menu</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               <Phone size={16} className="mr-2" aria-hidden />
               WhatsApp Us
@@ -731,7 +738,7 @@ export default function ChristmasCatering() {
             Tell us your date, number of guests, area in Dubai and the Christmas menu you have in mind. We build the food, chef and service around your celebration and send you a tailored proposal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Plan My Christmas Dinner</Link>
+            <Link to="/inquiry?from=/christmas-catering-dubai" className="btn-primary">Plan My Christmas Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
