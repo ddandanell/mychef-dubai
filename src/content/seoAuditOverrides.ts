@@ -383,7 +383,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate event catering in Dubai for launches, awards and company parties. Canapés from AED 150pp or buffets from AED 120pp, before VAT. Get an itemised quote."
   },
   "/private-party-catering-dubai": {
-    "description": "Private party catering in Dubai for house parties and celebrations. Choose food delivery, canapés, buffets or a private dinner, with staff and setup quoted.",
+    "description": "Private party catering in Dubai for parties at home. Dinner party and house-party menus — delivery, canapés, buffets or plated dining, quoted.",
     "title": "Private Party Catering Dubai | Menus for Your Home | myCHEF"
   },
   "/office-catering-dubai": {
