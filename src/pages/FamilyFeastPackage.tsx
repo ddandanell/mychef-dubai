@@ -14,16 +14,15 @@ export default function FamilyFeastPackage() {
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Family Catering Dubai | myCHEF"
-      description="Family catering Dubai: AED 2,400 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
-      intro="Family catering Dubai starts with a shared dining package: AED 2,400 for 6–8 guests, sharing plates, a chef and service so nobody leaves the table to plate. The price is a package total for the stated group size. Extra guests move the quote. Dietary notes go into the first draft. Halal is the default. Regular household meals can be arranged through our private chef service."
+      description="Family catering Dubai: from AED 4,800 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
+      intro="Family catering Dubai starts with a shared dining package: from AED 4,800 for 6–8 guests, sharing plates, a chef and service so nobody leaves the table to plate. The price is a package total for the stated group size. Extra guests move the quote. Dietary notes go into the first draft. Halal is the default. Regular household meals can be arranged through our private chef service."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
       headline="Family Catering Dubai"
       eyebrow="FAMILY TABLE"
-      subheadline="AED 2,400 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table."
+      subheadline="From AED 4,800 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
-      perPerson={`AED ${pkg.perPerson}`}
       included={[
         'A sharing-style menu written for 6–8 guests',
         'Chef and service staff sized to the table',
@@ -59,7 +58,7 @@ export default function FamilyFeastPackage() {
         },
         {
           q: 'Can I increase the guest count?',
-          a: 'Yes. Beyond 8 guests the total moves. We adjust the menu, ingredients and staff and send a new figure. The starting package remains AED 2,400 for 6–8 guests.',
+          a: 'Yes. Beyond 8 guests the total moves. We adjust the menu, ingredients and staff and send a new figure. The starting package remains AED 4,800 for 6–8 guests.',
         },
       ]}
       relatedServices={[

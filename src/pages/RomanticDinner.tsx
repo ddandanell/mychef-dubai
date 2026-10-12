@@ -21,7 +21,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const faqs = [
   {
     q: 'How much does a romantic dinner for two with a private chef cost in Dubai?',
-    a: 'A private chef romantic dinner Dubai couples book through myCHEF starts from AED 1,200 for two: three courses, the chef, ingredients, table styling and a full kitchen clean. That is the published Date Night package. Extra courses, a sommelier or a florist are quoted on top. VAT at 5%. Proposal evenings are quoted on the proposal dinner page.',
+    a: 'A private chef romantic dinner Dubai couples book through myCHEF starts from AED 2,400 for two: three courses, the chef, ingredients, table styling and a full kitchen clean. That is the published Date Night package. Extra courses, a sommelier or a florist are quoted on top. VAT at 5%. Proposal evenings are quoted on the proposal dinner page.',
   },
   {
     q: 'Can you set up a romantic dinner at our home rather than a restaurant?',
@@ -61,7 +61,7 @@ const serviceSchema = {
   areaServed: 'Dubai, UAE',
   offers: {
     '@type': 'Offer',
-    price: '1200',
+    price: '2400',
     priceCurrency: 'AED',
     description: 'Three-course private chef dinner for two, including chef, ingredients, table styling and clean-up.',
   },
@@ -94,7 +94,7 @@ const settings = [
   {
     icon: Heart,
     title: 'At home or in your villa',
-    desc: 'The setting couples choose most. We bring the linen, candles and flowers, cook in your kitchen and clear everything away. A romantic dinner at home Dubai couples host this way is Date Night from AED 1,200 for two. Nobody is watching the clock.',
+    desc: 'The setting couples choose most. We bring the linen, candles and flowers, cook in your kitchen and clear everything away. A romantic dinner at home Dubai couples host this way is Date Night from AED 2,400 for two. Nobody is watching the clock.',
   },
   {
     icon: MapPin,
@@ -142,7 +142,7 @@ export default function RomanticDinner() {
     <div ref={pageRef}>
       <SEO
         title="Romantic Dinner Dubai | Private Chef for Two | myCHEF"
-        description="Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 1,200, table styled and kitchen cleaned."
+        description="Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 2,400, table styled and kitchen cleaned."
         canonicalPath="/romantic-dinner-dubai"
         ogImage="/images/private-chef-2026/romantic-1200.webp"
         schema={schema}
@@ -162,7 +162,7 @@ export default function RomanticDinner() {
             We develop the menu around your preferences and the occasion, whether that means revisiting a favourite dish or exploring something new. Please share dietary requirements, allergies or pregnancy-related food restrictions before the menu is confirmed.
           </p>
           <p className="text-gray-400">
-            Date night private chef Dubai and a romantic dinner at home Dubai are the same night, quoted from AED 1,200 for two.
+            Date night private chef Dubai and a romantic dinner at home Dubai are the same night, quoted from AED 2,400 for two.
             See the{' '}
             <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private dining guide</Link>{' '}
             for how the format compares, or the wider{' '}
@@ -256,7 +256,7 @@ export default function RomanticDinner() {
                 <tr>
                   <td className="py-4 pr-4 text-white">Three courses for two</td>
                   <td className="py-4 pr-4">Chef, ingredients, table styling, candles, full clean-up</td>
-                  <td className="py-4">AED 1,200</td>
+                  <td className="py-4">AED 2,400</td>
                 </tr>
                 <tr>
                   <td className="py-4 pr-4 text-white">Longer plated dinner for two</td>

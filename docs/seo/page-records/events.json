@@ -89,7 +89,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1996,
-    "current_word_count": 2598,
+    "current_word_count": 2644,
     "headings": [
       {
         "level": "h2",
@@ -294,6 +294,14 @@
       {
         "level": "h2",
         "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",

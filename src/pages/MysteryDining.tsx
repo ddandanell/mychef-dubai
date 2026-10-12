@@ -57,7 +57,7 @@ const inclusions = [
 const packages = [
   {
     name: 'Surprise dinner for two',
-    price: 'From AED 1,200',
+    price: 'From AED 2,400',
     description: 'Date Night for two, with the courses held back until they are served. Home, apartment or villa.',
     features: [
       'Chef for two guests',
@@ -105,7 +105,7 @@ const faqs = [
   },
   {
     q: 'How many courses are included?',
-    a: 'Date Night for two is three courses, AED 1,200. A longer plated night is quoted from AED 700 a person. Course count is in the written proposal.',
+    a: 'Date Night for two is three courses, from AED 2,400. A longer plated night is quoted from AED 700 a person. Course count is in the written proposal.',
   },
   {
     q: 'Is this for a date, a birthday, or a small table?',
@@ -194,8 +194,8 @@ export default function MysteryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Surprise Dinner Experience Dubai | From AED 1,200 | myCHEF"
-        description="Surprise dinner experience Dubai: courses held back until they are served. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%."
+        title="Surprise Dinner Experience Dubai | From AED 2,400 | myCHEF"
+        description="Surprise dinner experience Dubai: courses held back until they are served. Date Night from AED 2,400 for two, or plated from AED 700 a person. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/tasting-menu-dubai-hero.webp"
         hideSiteName
@@ -223,7 +223,7 @@ export default function MysteryDining() {
             Surprise Dinner Experience Dubai: courses revealed at the table
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
-            You send the boundaries. The chef writes the night. Guests see each course when it lands. Date Night AED 1,200 for two. One night, not a standing chef.
+            You send the boundaries. The chef writes the night. Guests see each course when it lands. Date Night from AED 2,400 for two. One night, not a standing chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
@@ -251,7 +251,7 @@ export default function MysteryDining() {
           </h2>
           <div className="md-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A surprise dinner package Dubai night is chef-led plated dining, with the dishes held until they are served. Best surprise dining experience Dubai, for us, means a named chef, an itemised quote, and boundaries collected first. Surprise dinner experience Dubai price starts at Date Night AED 1,200 for two, or AED 700 a person plated.
+              A surprise dinner package Dubai night is chef-led plated dining, with the dishes held until they are served. Best surprise dining experience Dubai, for us, means a named chef, an itemised quote, and boundaries collected first. Surprise dinner experience Dubai price starts at Date Night from AED 2,400 for two, or AED 700 a person plated.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               People search mystery dinner Dubai for this format. Fine dining experience Dubai and unique dining experience Dubai are not slogans here: it is a private dinner experience Dubai in your kitchen, then clear-down. A chef dining experience Dubai with a surprise cake delivery in Dubai is quoted if you asked for it. VAT at 5%.
@@ -390,7 +390,7 @@ export default function MysteryDining() {
             Send the boundaries. We will hold the menu.
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Date, guest count, likes, dislikes and allergies. Date Night is AED 1,200 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
+            Date, guest count, likes, dislikes and allergies. Date Night is from AED 2,400 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Plan My Mystery Dinner</Link>

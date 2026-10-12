@@ -23,12 +23,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Family Feast Package Dubai | from AED 2,400 | myCHEF",
-  "meta_description": "Family Feast Package in Dubai — a generous fixed-price family dinner. From aed 2,400, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "title": "Family Feast Package Dubai | from AED 4,800 | myCHEF",
+  "meta_description": "Family Feast Package in Dubai — a generous fixed-price family dinner. From AED 4,800, with vetted chefs and full service. Request a proposal from myCHEF.",
   "h1": "Family Feast Package Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [
-  "Family feast package catering in Dubai from myCHEF is a share-the-table dinner for six to eight guests at one fixed price, from AED 2,400, chef and full service included. One vetted chef designs the menu, cooks in your kitchen, plates every course and clears away after, so you stay at the table with your family instead of running the evening. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can book from."
+  "Family feast package catering in Dubai from myCHEF is a share-the-table dinner for six to eight guests at one fixed price, from AED 4,800, chef and full service included. One vetted chef designs the menu, cooks in your kitchen, plates every course and clears away after, so you stay at the table with your family instead of running the evening. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can book from."
  ],
  "replace_in_block": [
   {
@@ -78,7 +78,7 @@
   {
    "new_heading": "How much does family feast package catering cost in Dubai?",
    "new_paragraphs": [
-    "Family feast package catering in Dubai starts from AED 2,400 for six to eight guests, with the final figure set by your menu, headcount and service level. Larger family feast package catering packages in Dubai run to AED 3,600, 4,500 and 5,500 as courses and covers rise.",
+    "Family feast package catering in Dubai starts from AED 4,800 for six to eight guests, with the final figure set by your menu, headcount and service level. Larger family gatherings are quoted according to the menu, guest count and service level.",
     "That one price folds in the chef, the cooking, the service and the cleanup, so there is no separate labour or call-out line to add later. It is a genuinely affordable family feast package catering option next to booking a venue and a per-head menu, because you host at home and pay for one chef, not a room. For a full breakdown, see our prices and the catering price guide . Whether you want a simple family dinner or a more luxury family feast package catering evening with premium produce, the family feast package catering cost in Dubai is confirmed in writing before you commit."
    ],
    "insert_after_block": "What is included in the Family Feast package?",
@@ -136,7 +136,7 @@
    "new_heading": "Common questions",
    "new_paragraphs": [
     "How much does a family feast package cost in Dubai?",
-    "From AED 2,400 for six to eight guests, with the price set by your menu, headcount and service level. Larger set packages run to AED 3,600, 4,500 and 5,500. You get an itemised quote before booking.",
+    "From AED 4,800 for six to eight guests, with the price set by your menu, headcount and service level. Larger gatherings are quoted according to the menu, guest count and service level. You get an itemised quote before booking.",
     "How many guests does the family feast package serve?",
     "Six to eight guests as standard. For a bigger table, the chef scales the menu and can add a service assistant, and the price is confirmed for your exact numbers.",
     "What's included in the price?",

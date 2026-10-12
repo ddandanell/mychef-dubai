@@ -65,11 +65,19 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 147,
-    "current_word_count": 345,
+    "current_word_count": 415,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
       },
       {
         "level": "h3",

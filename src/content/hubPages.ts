@@ -22,7 +22,7 @@ export interface HubCard {
 export const PACKAGE_HUB_SEO = {
   title: 'Catering Packages Dubai | Four Published Totals | myCHEF',
   description:
-    'Catering packages Dubai: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Chef, service and clear-down in the total.',
+    'Catering packages Dubai: Date Night from AED 2,400, Family from AED 4,800, Birthday from AED 6,000, Corporate Dinner AED 4,500. Chef, service and clear-down in the total.',
   h1: 'Catering Packages Dubai',
   canonical: '/catering-packages-dubai',
 } as const
@@ -55,7 +55,7 @@ export type PrimaryPackage = {
   href: string
   guests: string
   price: string
-  perPerson: string
+  perPerson?: string
   description: string
   included: string
 }
@@ -71,7 +71,7 @@ export const PRIMARY_PACKAGES: PrimaryPackage[] = EVENT_PACKAGES.map((pkg) => ({
   href: pkg.href,
   guests: pkg.guests.replace(/ guests$/, ''),
   price: formatPriceAed(pkg.priceAed),
-  perPerson: `AED ${pkg.perPerson}`,
+  perPerson: pkg.perPerson ? `AED ${pkg.perPerson}` : undefined,
   description: pkg.description,
   included: pkg.included,
 }))

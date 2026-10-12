@@ -89,7 +89,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3697,
-    "current_word_count": 4986,
+    "current_word_count": 5076,
     "headings": [
       {
         "level": "h2",
@@ -330,6 +330,18 @@
       {
         "level": "h2",
         "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "One dinner at home: should you brief a chef or caterer?"
       }
     ],
     "baseline_findings": [

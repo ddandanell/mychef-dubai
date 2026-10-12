@@ -66,8 +66,7 @@ export const BIRTHDAY_SIBLING_LINKS = [
  */
 export const BIRTHDAY_PACKAGE = {
   guests: '8–12 guests',
-  from: 'AED 3,600',
-  perPerson: 'AED 300–450 per person',
+  from: 'AED 6,000',
 } as const
 
 export const BIRTHDAY_INQUIRY_HREF = '/inquiry?from=birthday'

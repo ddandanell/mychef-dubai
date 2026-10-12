@@ -14,16 +14,15 @@ export default function DateNightPackage() {
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Date Night Package Dubai | myCHEF"
-      description="Date night package Dubai: AED 1,200 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately."
-      intro={"The Date Night package in Dubai includes a three-course dinner for two at AED 1,200, prepared in your kitchen with table service and clear-down. This defined package has its own menu and scope; bespoke chef-led plated menus are quoted separately. Dietary requirements, drinks and 5% VAT are confirmed in your proposal."}
+      description="Date night package Dubai: from AED 2,400 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately."
+      intro={"The Date Night package in Dubai includes a three-course dinner for two from AED 2,400, prepared in your kitchen with table service and clear-down. This defined package has its own menu and scope; bespoke chef-led plated menus are quoted separately. Dietary requirements, drinks and 5% VAT are confirmed in your proposal."}
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"
       headline="Date Night Package Dubai"
       eyebrow="DINNER FOR TWO"
-      subheadline={"AED 1,200 for two guests, including a three-course dinner, your chef, table service and kitchen clear-down."}
+      subheadline={"From AED 2,400 for two guests, including a three-course dinner, your chef, table service and kitchen clear-down."}
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
-      perPerson={`AED ${pkg.perPerson}`}
       included={[
         'A three-course menu written for two',
         'Chef cooking in your kitchen',
@@ -40,7 +39,7 @@ export default function DateNightPackage() {
       addOns={[
         'Wine pairing, only where the venue is licensed or the quotation says so',
         'Flowers and table styling, quoted separately',
-        'A musician, if you want one introduced. Not included in AED 1,200',
+        'A musician, if you want one introduced. Not included in AED 2,400',
         'A photographer, quoted separately if you ask us to introduce one',
         'A mocktail bar. Cocktails only where licensed',
       ]}
@@ -58,8 +57,8 @@ export default function DateNightPackage() {
           a: 'A week is comfortable. Sooner is possible when a chef is free. We will not invent availability.',
         },
         {
-          q: 'Is the AED 1,200 price fixed?',
-          a: 'AED 1,200 is the published package total for a three-course dinner for two. Extra courses, named luxury ingredients and drinks sit on the quote as extra lines. 5% VAT is shown separately.',
+          q: 'What does the starting price of AED 2,400 cover?',
+          a: 'AED 2,400 is the published starting package price for a three-course dinner for two. Extra courses, named luxury ingredients and drinks sit on the quote as extra lines. 5% VAT is shown separately.',
         },
       ]}
       relatedServices={[

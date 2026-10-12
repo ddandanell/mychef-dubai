@@ -96,7 +96,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 945,
-    "current_word_count": 4526,
+    "current_word_count": 4614,
     "headings": [
       {
         "level": "h2",
@@ -409,6 +409,18 @@
       {
         "level": "h2",
         "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How should a villa concierge coordinate recurring chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you review your first month with a household chef?"
       }
     ],
     "baseline_findings": [],

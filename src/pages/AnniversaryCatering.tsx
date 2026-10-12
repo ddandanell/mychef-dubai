@@ -349,7 +349,7 @@ export default function AnniversaryCatering() {
             . Friends at the table, a toast, a kitchen that may not plate everyone at once: that is this sitting, and it redirects into private party catering.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            A staffed buffet starts from AED 120 per person. Chef-led plated dining is AED 700–950. The date-night package for two is AED 1,200. All before 5% VAT. A proposal dinner is a different brief on{' '}
+            A staffed buffet starts from AED 120 per person. Chef-led plated dining is AED 700–950. The date-night package for two is from AED 2,400. All before 5% VAT. A proposal dinner is a different brief on{' '}
             <Link to="/proposal-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">proposal dinner Dubai</Link>
             . A tasting as the product sits on{' '}
             <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>

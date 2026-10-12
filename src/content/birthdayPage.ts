@@ -30,7 +30,7 @@ export const birthdayHeroCopy = {
     "Thoughtful birthday catering for your home or villa, with menus, service and clear-down planned around your guests.",
   pageLine:
     "Explore menus, starting prices and optional extras, or share a brief for a more personal milestone celebration.",
-  priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 3,600.',
+  priceLine: 'Event buffets from AED 120 per person. A seated celebration for 8–12 guests from AED 6,000.',
 } as const
 
 export const siloIntro = {
@@ -190,7 +190,6 @@ export const pricingIntro = [
 export const packagePointer = {
   title: `Birthday celebration for ${BIRTHDAY_PACKAGE.guests}`,
   price: `From ${BIRTHDAY_PACKAGE.from}`,
-  perPerson: BIRTHDAY_PACKAGE.perPerson,
   included: [
     'Menu written for 8–12 guests',
     'Canapés or a starter, main course and dessert',
@@ -455,7 +454,7 @@ export const birthdayFaqs = [
   },
   {
     q: 'Is there a set package?',
-    a: `Yes. A birthday celebration for ${BIRTHDAY_PACKAGE.guests} from ${BIRTHDAY_PACKAGE.from} (${BIRTHDAY_PACKAGE.perPerson}), with canapés or a starter, main course and dessert, a chef and service staff, a cake option, setup and clear-down. Larger or different formats are quoted to the event.`,
+    a: `Yes. A birthday celebration for ${BIRTHDAY_PACKAGE.guests} from ${BIRTHDAY_PACKAGE.from}, with canapés or a starter, main course and dessert, a chef and service staff, a cake option, setup and clear-down. Larger or different formats are quoted to the event.`,
   },
   {
     q: 'Are balloons and cake included in catering prices?',

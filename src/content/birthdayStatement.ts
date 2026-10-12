@@ -193,7 +193,7 @@ export const privateEveningBands = [
   {
     title: 'Intimate chef-led table',
     who: '8–12 guests',
-    figure: 'From AED 3,600',
+    figure: 'From AED 6,000',
     note: 'Published celebration starting point, before 5% VAT. Not the plated AED 700–950-per-person band.',
   },
   {

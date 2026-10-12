@@ -89,9 +89,9 @@ eq(
   'event package floors',
   EVENT_PACKAGES.map((p) => [p.id, p.priceAed, p.guests]),
   [
-    ['date-night', 1200, '2 guests'],
-    ['family-feast', 2400, '6–8 guests'],
-    ['birthday', 3600, '8–12 guests'],
+    ['date-night', 2400, '2 guests'],
+    ['family-feast', 4800, '6–8 guests'],
+    ['birthday', 6000, '8–12 guests'],
     ['corporate-dinner', 4500, '10–15 guests'],
     ['full-experience', 5500, '6–10 guests'],
   ],
@@ -107,6 +107,10 @@ const premium = hubPriceRows().find((row) => row.format.startsWith('Premium'))
 eq('premium hub cell is the shared from-floor', premium?.from, 'From AED 150 per person')
 eq('premium hub cell does not steal canapé estimate 280', premium?.price.includes('280'), false)
 eq('premium hub cell does not steal canapé typical 180–350', /180–350/.test(premium?.price ?? ''), false)
+
+for (const id of ['date-night', 'family-feast', 'birthday']) {
+  eq(`${id} uses a package total`, EVENT_PACKAGES.find(p => p.id === id)?.perPerson, undefined)
+}
 
 console.log(fails ? `\n${fails} FAILURES` : '\nALL PASS')
 process.exit(fails ? 1 : 0)

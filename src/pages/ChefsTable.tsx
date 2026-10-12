@@ -260,7 +260,7 @@ export default function ChefsTable() {
             ))}
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-8">
-            The written quote confirms the chef, the course count and 5% VAT. Date Night at AED 1,200 is a different package for two.
+            The written quote confirms the chef, the course count and 5% VAT. Date Night from AED 2,400 is a different package for two.
           </p>
         </div>
       </section>

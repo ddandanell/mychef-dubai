@@ -191,7 +191,7 @@ const faqs = [
   },
   {
     q: 'How much does catering cost in Dubai 2026?',
-    a: 'There is no single number. Drop-off from AED 90, buffet from AED 120, canapés, BBQ and live stations from AED 150, wedding from AED 180, yacht from AED 280, plated AED 700–950 per person. Packages start at AED 1,200. Send date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
+    a: 'There is no single number. Drop-off from AED 90, buffet from AED 120, canapés, BBQ and live stations from AED 150, wedding from AED 180, yacht from AED 280, plated AED 700–950 per person. Packages start at AED 2,400. Send date, headcount and venue for an itemised proposal with 5% VAT on its own line.',
   },
 ]
 
@@ -367,7 +367,7 @@ export default function EventCateringPriceGuide2026() {
             Catering prices vary by service format. myCHEF starting prices are AED 90 per person for drop-off, AED 120 for a standard event buffet, AED 150 for canapés, BBQ and live stations, AED 180 for weddings and AED 280 for yachts. Bespoke chef-led plated dining is AED 700–950 per person, with scope and VAT confirmed in the proposal.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Package totals are separate: Date Night AED 1,200, Family AED 2,400, Birthday AED 3,600, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Regular household chef visits are priced separately.
+            Package totals are separate: Date Night from AED 2,400, Family from AED 4,800, Birthday from AED 6,000, Corporate Dinner AED 4,500. Those are not multiplied by headcount. 5% VAT is a separate line. Regular household chef visits are priced separately.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             The wider per-person list, including indicative market bands, lives on <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering prices</Link>. Use the format prices as a starting point for your 2026 event budget.

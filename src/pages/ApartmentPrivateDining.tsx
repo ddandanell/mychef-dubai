@@ -52,14 +52,14 @@ const features = [
   {
     icon: Sparkles,
     title: 'Courses at your table',
-    description: 'Chef-led plated dining, from AED 700 a person. Date Night for two is AED 1,200. You stay a guest. Nobody books a restaurant table.',
+    description: 'Chef-led plated dining, from AED 700 a person. Date Night for two is from AED 2,400. You stay a guest. Nobody books a restaurant table.',
   },
 ]
 
 const menus = [
   {
     title: 'Date Night for two',
-    description: 'Three courses, cooked and served at home. AED 1,200 for two, the published Date Night package. VAT at 5%.',
+    description: 'Three courses, cooked and served at home. From AED 2,400 for two, the published Date Night package. VAT at 5%.',
   },
   {
     title: 'Dinner with friends',
@@ -67,7 +67,7 @@ const menus = [
   },
   {
     title: 'A celebration at the apartment table',
-    description: 'Birthday or anniversary, still one night. From AED 700 a person plated, or Family Feast AED 2,400 for 6–8 if the table is sharing plates.',
+    description: 'Birthday or anniversary, still one night. From AED 700 a person plated, or Family Feast from AED 4,800 for 6–8 if the table is sharing plates.',
   },
   {
     title: 'A longer tasting',
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     q: 'What is a private chef apartment Dubai price?',
-    a: 'Date Night for two is AED 1,200. Chef-led plated dining starts from AED 700 a person. Groceries sit in the quote. VAT at 5% is shown on its own line. The figure is in writing before the night.',
+    a: 'Date Night for two is from AED 2,400. Chef-led plated dining starts from AED 700 a person. Groceries sit in the quote. VAT at 5% is shown on its own line. The figure is in writing before the night.',
   },
   {
     q: 'Can the chef cook around dietary requirements?',
@@ -118,7 +118,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Apartment Private Dining',
-      'Private chef for apartment Dubai: one night, two to eight guests, cooked in your kitchen. Date Night AED 1,200 for two, or chef-led plated from AED 700 a person.',
+      'Private chef for apartment Dubai: one night, two to eight guests, cooked in your kitchen. Date Night from AED 2,400 for two, or chef-led plated from AED 700 a person.',
       'Catering Service',
       'Dubai',
     ),
@@ -176,8 +176,8 @@ export default function ApartmentPrivateDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef for Apartment Dubai | From AED 1,200 | myCHEF"
-        description="Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%."
+        title="Private Chef for Apartment Dubai | From AED 2,400 | myCHEF"
+        description="Private chef for apartment Dubai: one night, two to eight guests. Date Night from AED 2,400 for two, or plated from AED 700 a person. VAT 5%."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-2026/household-1200.webp"
         hideSiteName
@@ -199,7 +199,7 @@ export default function ApartmentPrivateDining() {
               An apartment dinner brings restaurant-style care to the comfort of your own home. Your chef plans around the kitchen, guest count and menu, with service and clear-down arranged for the evening. For regular weekly cooking, explore our household chef plans.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Date Night is a defined three-course package at AED 1,200 for two. Bespoke chef-led plated menus are priced separately at AED 700–950 per person. Your proposal confirms the menu, service, ingredients and 5% VAT so the two options are easy to compare.
+              Date Night is a defined three-course package from AED 2,400 for two. Bespoke chef-led plated menus are priced separately at AED 700–950 per person. Your proposal confirms the menu, service, ingredients and 5% VAT so the two options are easy to compare.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               See <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dinner for two</Link>, the <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private dining guide</Link>, or the standing <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link> household plan if the chef should come back.
@@ -303,7 +303,7 @@ export default function ApartmentPrivateDining() {
             Book the apartment night
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Date, area, guest count and dietary notes. Date Night is AED 1,200 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
+            Date, area, guest count and dietary notes. Date Night is from AED 2,400 for two. Plated dining starts from AED 700 a person. The figure is in writing first.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">Get My Apartment Dining Quote</Link>

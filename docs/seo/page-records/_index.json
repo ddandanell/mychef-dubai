@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "reviewed_at": "2026-10-05",
   "counts": {
-    "indexable page": 204,
+    "indexable page": 216,
     "redirect": 91,
     "noindex support page": 56
   },
-  "total": 351,
+  "total": 363,
   "records": [
     {
       "path": "/",
@@ -138,6 +138,13 @@
       "path": "/blog",
       "file": "blog.json",
       "primary_keyword": null,
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+      "file": "blog__automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low.json",
+      "primary_keyword": "grocery planning between weekly chef visits",
       "role": "indexable page",
       "silo": "Blog and Guides"
     },
@@ -345,6 +352,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+      "file": "blog__can-i-hire-a-private-chef-for-just-one-dinner-in-dubai.json",
+      "primary_keyword": "one dinner at home chef catering",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/canape-reception-planning-dubai",
       "file": "blog__canape-reception-planning-dubai.json",
       "primary_keyword": "canapé reception planning in dubai",
@@ -371,6 +385,13 @@
       "primary_keyword": null,
       "role": "indexable page",
       "silo": null
+    },
+    {
+      "path": "/blog/catering-for-international-schools-in-dubai-complete-guide",
+      "file": "blog__catering-for-international-schools-in-dubai-complete-guide.json",
+      "primary_keyword": "school event catering brief dubai",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
     },
     {
       "path": "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
@@ -485,6 +506,13 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+      "file": "blog__guest-list-to-plated-dinner-private-chef-event-workflow.json",
+      "primary_keyword": "plated dinner running order checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/halal-private-dining-dubai-what-to-ask",
       "file": "blog__halal-private-dining-dubai-what-to-ask.json",
       "primary_keyword": "what to ask a halal caterer dubai",
@@ -520,6 +548,34 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+      "file": "blog__how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai.json",
+      "primary_keyword": "yacht chef galley briefing checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+      "file": "blog__how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai.json",
+      "primary_keyword": "wedding planner catering tasting checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+      "file": "blog__how-to-connect-office-facilities-management-to-lunch-catering.json",
+      "primary_keyword": "facilities team office lunch catering checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+      "file": "blog__how-to-connect-villa-concierge-to-recurring-private-chef-visits.json",
+      "primary_keyword": "villa concierge recurring chef visit checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/how-to-hire-a-private-chef-dubai",
       "file": "blog__how-to-hire-a-private-chef-dubai.json",
       "primary_keyword": "a household chef selection checklist for dubai families",
@@ -531,6 +587,13 @@
       "file": "blog__iftar-at-home-dubai.json",
       "primary_keyword": "iftar at home dubai",
       "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/is-a-private-chef-worth-it-in-dubai-in",
+      "file": "blog__is-a-private-chef-worth-it-in-dubai-in.json",
+      "primary_keyword": "is a private chef worth it in dubai",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
@@ -560,6 +623,13 @@
       "primary_keyword": null,
       "role": "indexable page",
       "silo": null
+    },
+    {
+      "path": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+      "file": "blog__monthly-chef-booking-to-weekly-meal-plan-workflow.json",
+      "primary_keyword": "first month household chef review checklist",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
     },
     {
       "path": "/blog/mychef-vs-cateringindubai-which-is-better-in",
@@ -807,10 +877,24 @@
       "silo": "Blog and Guides"
     },
     {
+      "path": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+      "file": "blog__weekly-meal-prep-to-hitting-your-macros-complete-workflow.json",
+      "primary_keyword": "meal prep chef nutrition plan brief",
+      "role": "indexable page",
+      "silo": "Blog and Guides"
+    },
+    {
       "path": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
       "file": "blog__weekly-meal-prep-vs-full-time-chef-dubai.json",
       "primary_keyword": "meal prep vs private chef dubai",
       "role": "noindex support page",
+      "silo": "Blog and Guides"
+    },
+    {
+      "path": "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+      "file": "blog__whatsapp-inquiry-to-booked-private-chef-complete-workflow.json",
+      "primary_keyword": "household chef enquiry details checklist",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {

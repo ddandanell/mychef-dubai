@@ -673,9 +673,21 @@
       {
         "level": "h2",
         "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "One dinner at home: should you brief a chef or caterer?"
       }
     ],
-    "word_count": 4986,
+    "word_count": 5076,
     "first_paragraphs": [
       "Dining Experiences",
       "Private dining at your home, villa or another agreed setting in Dubai — not a restaurant room reservation. Plan a one-off dinner for two, a tasting menu or a cooking class with a chef, menu and service shaped around your occasion.",
@@ -1147,6 +1159,10 @@
       },
       {
         "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h3",
         "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
       },
       {
@@ -1154,7 +1170,7 @@
         "text": "More in Catering"
       }
     ],
-    "word_count": 5947,
+    "word_count": 5983,
     "first_paragraphs": [
       "Chefs, menus and onboard service",
       "Private dining and entertaining on the water.",
@@ -3091,7 +3107,7 @@
       },
       {
         "level": "h2",
-        "text": "Blog (75)"
+        "text": "Blog (87)"
       },
       {
         "level": "h2",
@@ -3118,7 +3134,7 @@
         "text": "Legal"
       }
     ],
-    "word_count": 790,
+    "word_count": 908,
     "first_paragraphs": [
       "Every page on myCHEF Dubai, organised by topic.",
       "Private Chefs & Event Catering, Dubai",
@@ -3775,18 +3791,18 @@
       },
       {
         "level": "h3",
-        "text": "A Household Menu Brief for Your Dubai Chef"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Private Chef Kitchen Preparation in Dubai"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Private Chef Trial in Dubai: What to Evaluate"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       }
     ],
-    "word_count": 3088,
+    "word_count": 3106,
     "first_paragraphs": [
       "MYCHEF · AT HOME IN DUBAI",
       "Your private chef in Dubai for one meal, a stocked fridge or a longer household arrangement. Visits start at four hours. Single visits from AED 1,350; member visits from AED 900 with 4+ prepaid visits per month. Before 5% VAT, groceries and transport. We confirm your menu, chef and complete price before booking.",
@@ -4742,8 +4758,8 @@
   },
   {
     "path": "/apartment-private-dining-dubai",
-    "title": "Private Chef for Apartment Dubai | From AED 1,200 | myCHEF",
-    "description": "Private chef for apartment Dubai: one night, two to eight guests. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%.",
+    "title": "Private Chef for Apartment Dubai | From AED 2,400 | myCHEF",
+    "description": "Private chef for apartment Dubai: one night, two to eight guests. Date Night from AED 2,400 for two, or plated from AED 700 a person. VAT 5%.",
     "canonical": "https://www.mychef.ae/apartment-private-dining-dubai",
     "robots": "index, follow",
     "h1": [
@@ -4863,7 +4879,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 2110,
+    "word_count": 2115,
     "first_paragraphs": [
       "MYCHEF · DUBAI",
       "Private dining designed around your apartment, kitchen and guest list. We agree a suitable menu, staffing and timing before your chef arrives.",
@@ -5270,10 +5286,18 @@
       },
       {
         "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How should a wedding planner organise a catering tasting?"
+      },
+      {
+        "level": "h2",
         "text": "Everything in Private Events"
       }
     ],
-    "word_count": 2598,
+    "word_count": 2644,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Event catering in Dubai for weddings, birthdays, private celebrations and company gatherings. Choose a menu and service style that suit the occasion, from passed canapés to a buffet or seated dinner. We bring the food, staffing and practical venue requirements together in a written proposal.",
@@ -6113,7 +6137,7 @@
         "text": "More in Private Events"
       }
     ],
-    "word_count": 5351,
+    "word_count": 5344,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Birthday catering Dubai is food, staff and clear-down in the house you already have. If you want to choose a format and extras, use the itemised proposal. If the evening needs a running order, a surprise, or a gated house, send a private brief.",
@@ -7580,9 +7604,21 @@
       {
         "level": "h2",
         "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "How should a villa concierge coordinate recurring chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you review your first month with a household chef?"
       }
     ],
-    "word_count": 4526,
+    "word_count": 4614,
     "first_paragraphs": [
       "MYCHEF · YOUR HOUSEHOLD, UNDERSTOOD",
       "A dedicated chef matched to your tastes and routine, with one myCHEF contact keeping the relationship on track. Full-time Managed Household starts from AED 15,000/month before VAT. We help you choose the person, settle in and keep making the food yours.",
@@ -10945,6 +10981,10 @@
       },
       {
         "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
         "text": "How to Compare Catering Quotes in Dubai"
       },
       {
@@ -10956,7 +10996,7 @@
         "text": "Everything in Corporate Catering"
       }
     ],
-    "word_count": 5088,
+    "word_count": 5122,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Corporate catering in Dubai for team lunches, client meetings, conferences and company celebrations. Choose delivered food, a staffed buffet or a seated menu. We plan around your agenda and give your team one itemised proposal covering food, service, equipment and VAT.",
@@ -12523,9 +12563,17 @@
       {
         "level": "h2",
         "text": "Tell us about your organisation."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
       }
     ],
-    "word_count": 1730,
+    "word_count": 1775,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Institutional catering in Dubai, with service proposals based on your setting, kitchen facilities and operational requirements. Discuss nursery, school, hospital or staff dining needs, with suitability and documentation assessed before confirmation.",
@@ -12721,6 +12769,54 @@
       {
         "level": "h2",
         "text": "Insights for Dubai Hosts"
+      },
+      {
+        "level": "h3",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "One dinner at home: should you brief a chef or caterer?"
+      },
+      {
+        "level": "h3",
+        "text": "Is a private chef worth it in Dubai in 2026?"
+      },
+      {
+        "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "How should a wedding planner organise a catering tasting?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you manage groceries between weekly chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
+      },
+      {
+        "level": "h3",
+        "text": "What details should you send in a household chef enquiry?"
+      },
+      {
+        "level": "h3",
+        "text": "How should a villa concierge coordinate recurring chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
+      },
+      {
+        "level": "h3",
+        "text": "How do you review your first month with a household chef?"
+      },
+      {
+        "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
       },
       {
         "level": "h3",
@@ -13031,7 +13127,7 @@
         "text": "Everything in Blog and Guides"
       }
     ],
-    "word_count": 3169,
+    "word_count": 3658,
     "first_paragraphs": [
       "Practical advice for hosting in Dubai, covering household chefs, event catering, menus and the details to confirm before you book.",
       "Browse by Topic",
@@ -13805,10 +13901,10 @@
         "text": "Everything in Packages"
       }
     ],
-    "word_count": 1785,
+    "word_count": 1786,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
-      "Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night AED 1,200, Family Feast AED 2,400, Birthday AED 3,600 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details.",
+      "Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night from AED 2,400, Family Feast from AED 4,800, Birthday from AED 6,000 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details.",
       "Also in this silo",
       "These are published starting packages for defined guest ranges. If you are comparing catering companies in Dubai, check what each quote includes before comparing the price. Our catering services in Dubai also include food-only delivery and larger staffed events, quoted around your venue and guest count. For a recurring household cook rather than an event, explore private chef services in Dubai ."
     ]
@@ -15135,7 +15231,7 @@
   {
     "path": "/romantic-dinner-dubai",
     "title": "Romantic Dinner Dubai | Private Chef for Two | myCHEF",
-    "description": "Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 1,200, table styled and kitchen cleaned.",
+    "description": "Romantic dinner Dubai couples book at home, on a yacht or in the desert: a private chef cooks dinner for two from AED 2,400, table styled and kitchen cleaned.",
     "canonical": "https://www.mychef.ae/romantic-dinner-dubai",
     "robots": "index, follow",
     "h1": [
@@ -15438,7 +15534,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 2298,
+    "word_count": 2301,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Our Dubai event catering price guide for 2026 brings together myCHEF starting prices and clearly identified market ranges, helping you compare formats and prepare a realistic event brief.",
@@ -15998,7 +16094,7 @@
   {
     "path": "/birthday-catering-package-dubai",
     "title": "Birthday Catering Packages Dubai | myCHEF",
-    "description": "Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately.",
+    "description": "Birthday catering packages Dubai: from AED 6,000 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately.",
     "canonical": "https://www.mychef.ae/birthday-catering-package-dubai",
     "robots": "noindex, follow",
     "h1": [
@@ -16086,12 +16182,12 @@
         "text": "More in Packages"
       }
     ],
-    "word_count": 1719,
+    "word_count": 1713,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
-      "AED 3,600 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour.",
+      "From AED 6,000 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour.",
       "Package Overview",
-      "Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
+      "Birthday catering packages Dubai: from AED 6,000 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
     ]
   },
   {
@@ -16851,8 +16947,8 @@
   },
   {
     "path": "/mystery-dining-dubai",
-    "title": "Surprise Dinner Experience Dubai | From AED 1,200 | myCHEF",
-    "description": "Surprise dinner experience Dubai: courses held back until they are served. Date Night AED 1,200 for two, or plated from AED 700 a person. VAT 5%.",
+    "title": "Surprise Dinner Experience Dubai | From AED 2,400 | myCHEF",
+    "description": "Surprise dinner experience Dubai: courses held back until they are served. Date Night from AED 2,400 for two, or plated from AED 700 a person. VAT 5%.",
     "canonical": "https://www.mychef.ae/mystery-dining-dubai",
     "robots": "noindex, follow",
     "h1": [
@@ -16936,11 +17032,11 @@
         "text": "More in Dining Experiences"
       }
     ],
-    "word_count": 773,
+    "word_count": 777,
     "first_paragraphs": [
-      "You send the boundaries. The chef writes the night. Guests see each course when it lands. Date Night AED 1,200 for two. One night, not a standing chef.",
+      "You send the boundaries. The chef writes the night. Guests see each course when it lands. Date Night from AED 2,400 for two. One night, not a standing chef.",
       "ONE NIGHT, COURSES HELD BACK",
-      "A surprise dinner package Dubai night is chef-led plated dining, with the dishes held until they are served. Best surprise dining experience Dubai, for us, means a named chef, an itemised quote, and boundaries collected first. Surprise dinner experience Dubai price starts at Date Night AED 1,200 for two, or AED 700 a person plated.",
+      "A surprise dinner package Dubai night is chef-led plated dining, with the dishes held until they are served. Best surprise dining experience Dubai, for us, means a named chef, an itemised quote, and boundaries collected first. Surprise dinner experience Dubai price starts at Date Night from AED 2,400 for two, or AED 700 a person plated.",
       "People search mystery dinner Dubai for this format. Fine dining experience Dubai and unique dining experience Dubai are not slogans here: it is a private dinner experience Dubai in your kitchen, then clear-down. A chef dining experience Dubai with a surprise cake delivery in Dubai is quoted if you asked for it. VAT at 5%."
     ]
   },
@@ -17245,7 +17341,7 @@
   {
     "path": "/date-night-package-dubai",
     "title": "Date Night Package Dubai | myCHEF",
-    "description": "Date night package Dubai: AED 1,200 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately.",
+    "description": "Date night package Dubai: from AED 2,400 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately.",
     "canonical": "https://www.mychef.ae/date-night-package-dubai",
     "robots": "noindex, follow",
     "h1": [
@@ -17282,7 +17378,7 @@
       },
       {
         "level": "h3",
-        "text": "Is the AED 1,200 price fixed?"
+        "text": "What does the starting price of AED 2,400 cover?"
       },
       {
         "level": "h3",
@@ -17301,12 +17397,12 @@
         "text": "More in Dining Experiences"
       }
     ],
-    "word_count": 558,
+    "word_count": 559,
     "first_paragraphs": [
-      "AED 1,200 for two guests, including a three-course dinner, your chef, table service and kitchen clear-down.",
+      "From AED 2,400 for two guests, including a three-course dinner, your chef, table service and kitchen clear-down.",
       "Package Overview",
-      "Date night package Dubai: AED 1,200 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately.",
-      "The Date Night package in Dubai includes a three-course dinner for two at AED 1,200, prepared in your kitchen with table service and clear-down. This defined package has its own menu and scope; bespoke chef-led plated menus are quoted separately. Dietary requirements, drinks and 5% VAT are confirmed in your proposal."
+      "Date night package Dubai: from AED 2,400 for two guests, a three-course menu cooked at home, served and cleared. Extra courses and drinks quoted separately.",
+      "The Date Night package in Dubai includes a three-course dinner for two from AED 2,400, prepared in your kitchen with table service and clear-down. This defined package has its own menu and scope; bespoke chef-led plated menus are quoted separately. Dietary requirements, drinks and 5% VAT are confirmed in your proposal."
     ]
   },
   {
@@ -17641,11 +17737,11 @@
         "text": "Catering FAQ Dubai: what to send so we can quote"
       }
     ],
-    "word_count": 2021,
+    "word_count": 2023,
     "first_paragraphs": [
       "Answers to common questions about private chefs, catering, packages and bookings in Dubai. Explore the details or contact us to discuss your plans.",
       "Regular household chef plans are priced per visit and schedule. For one-off occasions, bespoke plated dining starts from AED 700 per person and standard event buffets from AED 120. Defined packages such as Date Night have separate prices and inclusions, confirmed in your proposal.",
-      "Our published packages start at AED 1,200 for Date Night, AED 2,400 for Family Feast, AED 3,600 for Birthday and AED 4,500 for Corporate Dinner. Each has a defined guest range and service scope. Bespoke menus and other catering formats are quoted separately.",
+      "Our published packages start from AED 2,400 for Date Night, from AED 4,800 for Family Feast, from AED 6,000 for Birthday and AED 4,500 for Corporate Dinner. Each has a defined guest range and service scope. Bespoke menus and other catering formats are quoted separately.",
       "Minimums depend on the service style and guest count. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time. Contact us for specific details."
     ]
   },
@@ -18932,7 +19028,7 @@
   {
     "path": "/family-feast-package-dubai",
     "title": "Family Catering Dubai | myCHEF",
-    "description": "Family catering Dubai: AED 2,400 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted.",
+    "description": "Family catering Dubai: from AED 4,800 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted.",
     "canonical": "https://www.mychef.ae/family-feast-package-dubai",
     "robots": "noindex, follow",
     "h1": [
@@ -19020,12 +19116,12 @@
         "text": "More in Packages"
       }
     ],
-    "word_count": 1669,
+    "word_count": 1667,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
-      "AED 2,400 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table.",
+      "From AED 4,800 for 6–8 guests. Sharing plates, a chef and service staff, the kitchen cleared. You stay at the table.",
       "Package Overview",
-      "Family catering Dubai: AED 2,400 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
+      "Family catering Dubai: from AED 4,800 for 6–8 guests, sharing plates, a chef and service staff, setup and clear-down. Halal by default. Extra guests quoted."
     ]
   },
   {
@@ -25495,22 +25591,22 @@
       },
       {
         "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
+      },
+      {
+        "level": "h3",
         "text": "How to Compare Catering Quotes in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Office Breakfast Planning in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Planning Office Lunches: Delivery, Diets and Billing"
       },
       {
         "level": "h2",
         "text": "Plan catering services in Dubai with myCHEF"
       }
     ],
-    "word_count": 650,
+    "word_count": 649,
     "first_paragraphs": [
       "A delivered menu still needs a receiving and serving plan. Confirm the delivery window, labels, packaging, equipment and the person responsible for handling the food after handover.",
       "By myCHEF Dubai Team | September 2026 · 2 min read",
@@ -25614,22 +25710,22 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
         "text": "Plan long-term household chef services in Dubai with myCHEF"
       }
     ],
-    "word_count": 2756,
+    "word_count": 2767,
     "first_paragraphs": [
       "Write an expat family household chef brief around meals, diets and routines. Clarify shopping, kitchen access and cleanup before agreeing your cooking plan.",
       "By myCHEF Dubai Team | October 2026 · 11 min read",
@@ -25946,15 +26042,15 @@
       },
       {
         "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h3",
         "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
       },
       {
         "level": "h3",
         "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "How to Compare Desert Dinner Logistics in Dubai"
       },
       {
         "level": "h2",
@@ -25997,7 +26093,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1953,
+    "word_count": 1952,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "A BBQ plan starts with where cooking can happen safely and with permission. Check the grill position, smoke, access and serving space before choosing the menu or service duration.",
@@ -26065,14 +26161,14 @@
       },
       {
         "level": "h3",
-        "text": "Co-working event catering: delivery and shared-space checklist"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 857,
+    "word_count": 864,
     "first_paragraphs": [
       "Dubai school food rules in 2026 should be checked against the current requirements issued by the relevant authorities and the school’s own policies. This guide helps school teams prepare that review and ask a proposed catering provider for the documentation that applies to its service. For a proposed school catering arrangement, use this review to prepare the service brief before requesting a final quotation.",
       "Ask the relevant authority which approvals, programme registrations and food-service requirements apply to your school and the proposed operation. Use the latest official material and confirm its scope, rather than treating an older article or supplier claim as evidence of compliance.",
@@ -26140,14 +26236,14 @@
       },
       {
         "level": "h3",
-        "text": "Co-working event catering: delivery and shared-space checklist"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 803,
+    "word_count": 810,
     "first_paragraphs": [
       "Choosing nursery meals or packed lunches in Dubai involves practical questions about the children, facilities and responsibilities. Both approaches need a clear food policy, reliable dietary information and a suitable process from preparation to the lunch table. A nursery catering enquiry should begin with those requirements before a menu or delivery plan is agreed.",
       "Parents need clear guidance on suitable foods, packaging, labels and the nursery’s ingredient restrictions. The nursery should explain where lunchboxes are stored, whether food can be reheated and how sharing between children is managed.",
@@ -26195,15 +26291,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -26246,7 +26342,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 2166,
+    "word_count": 2173,
     "first_paragraphs": [
       "myCHEF Guide",
       "A useful villa chef brief describes the kitchen, access and cooking schedule. Separate an ongoing household routine from a holiday stay or one-off dinner so the service fits the property.",
@@ -26488,22 +26584,22 @@
       },
       {
         "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "One dinner at home: should you brief a chef or caterer?"
       },
       {
         "level": "h3",
-        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",
         "text": "Plan event catering in Dubai with myCHEF"
       }
     ],
-    "word_count": 672,
+    "word_count": 689,
     "first_paragraphs": [
       "Food at a standing reception must fit the room and the pace of the gathering. Plan easy-to-hold bites, tray circulation, dietary choices and where guests can put down plates and glasses.",
       "By myCHEF Dubai Team | September 2026 · 2 min read",
@@ -26824,15 +26920,15 @@
       },
       {
         "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h3",
         "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
       },
       {
         "level": "h3",
         "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "How to Compare Desert Dinner Logistics in Dubai"
       },
       {
         "level": "h2",
@@ -26843,7 +26939,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 683,
+    "word_count": 682,
     "first_paragraphs": [
       "A desert dinner party in Dubai begins with a suitable, authorised location and a clear plan for reaching it. Once the site is agreed, the chef can develop a menu and service that suit the facilities, weather and time of day.",
       "Ask the site owner or operator to confirm permission for your event, external catering, vehicles and any proposed cooking equipment. Obtain the relevant requirements directly rather than assuming an open area is available for private use.",
@@ -27259,15 +27355,15 @@
       },
       {
         "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "One dinner at home: should you brief a chef or caterer?"
       },
       {
         "level": "h3",
-        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",
@@ -27278,7 +27374,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 695,
+    "word_count": 713,
     "first_paragraphs": [
       "Thoughtful dinner party menu ideas in Dubai begin with the people at the table. Choose a clear culinary direction, balance lighter dishes with richer ones and leave room for a memorable finish. The most successful menu also suits the kitchen and the pace of the evening.",
       "A three-course dinner can begin with a seasonal vegetable or seafood starter, continue with a main dish and well-chosen sides, and finish with a dessert that complements the meal. A sharing menu might bring mezze, grills, salads and bread to the table together.",
@@ -27413,22 +27509,22 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
         "text": "Plan private dining experiences in Dubai with myCHEF"
       }
     ],
-    "word_count": 2523,
+    "word_count": 2530,
     "first_paragraphs": [
       "Compare Cozymeal alternatives Dubai hosts can consider in 2026. myCHEF fits private dinners with vetted chefs; see when a direct chef or caterer fits better.",
       "By myCHEF Dubai Team | September 2026 · 10 min read",
@@ -27797,15 +27893,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -27848,7 +27944,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 2723,
+    "word_count": 2730,
     "first_paragraphs": [
       "Private Chef",
       "A chef quote combines time, ingredients, travel and any service support. Understand which costs apply to household cooking and which belong to a staffed event before comparing totals.",
@@ -28320,22 +28416,22 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
         "text": "Plan private chef services in Dubai with myCHEF"
       }
     ],
-    "word_count": 1499,
+    "word_count": 1506,
     "first_paragraphs": [
       "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
       "By myCHEF Dubai Team | September 2026 · 6 min read",
@@ -28712,22 +28808,22 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
         "text": "Plan long-term household chef services in Dubai with myCHEF"
       }
     ],
-    "word_count": 2610,
+    "word_count": 2620,
     "first_paragraphs": [
       "Build a household chef new parents meal brief that puts meal coverage first. Define portions, dietary needs, kitchen access and handover for easier meals.",
       "By myCHEF Dubai Team | October 2026 · 11 min read",
@@ -28870,15 +28966,15 @@
       },
       {
         "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "One dinner at home: should you brief a chef or caterer?"
       },
       {
         "level": "h3",
-        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",
@@ -28921,7 +29017,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1991,
+    "word_count": 2008,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "A grazing table needs more than a styled photograph. Plan portions, table space, guest access, dietary labels and replenishment around whether it is a welcome spread or the main meal.",
@@ -29611,7 +29707,7 @@
       },
       {
         "level": "h3",
-        "text": "Co-working event catering: delivery and shared-space checklist"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h2",
@@ -29654,7 +29750,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1967,
+    "word_count": 1974,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "An iftar menu plan should make the first service ready at the agreed time. Balance dishes, portions and replenishment, and verify the local date and prayer time when arranging the event.",
@@ -29702,15 +29798,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -29753,7 +29849,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 2165,
+    "word_count": 2172,
     "first_paragraphs": [
       "myCHEF Guide",
       "Choose a private dinner format around the guests, the setting and the pace you want. Compare a tasting sequence, sharing dishes and chef interaction before deciding on the service.",
@@ -29888,15 +29984,15 @@
       },
       {
         "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h3",
         "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
       },
       {
         "level": "h3",
         "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "How to Compare Desert Dinner Logistics in Dubai"
       },
       {
         "level": "h2",
@@ -29939,7 +30035,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1980,
+    "word_count": 1979,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "A yacht catering proposal needs an onboard plan as well as a menu. Compare galley space, marina loading, chilled storage, service hours and the captain’s requirements on the same brief.",
@@ -30070,15 +30166,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -30121,7 +30217,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 2168,
+    "word_count": 2175,
     "first_paragraphs": [
       "myCHEF Guide",
       "A home cooking class needs a clear learning goal and enough usable kitchen space. Plan the participant mix, recipes, equipment and hands-on time before choosing the session.",
@@ -30569,15 +30665,15 @@
       },
       {
         "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
+      },
+      {
+        "level": "h3",
         "text": "How to Compare Catering Quotes in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Office Breakfast Planning in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
@@ -30608,7 +30704,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 1987,
+    "word_count": 1988,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Compare delivered catering with a fully staffed service, including what each format covers and how the choice affects your event plan and price.",
@@ -30712,22 +30808,22 @@
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Household chef or event catering: which arrangement do you need?"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
         "text": "Plan long-term household chef services in Dubai with myCHEF"
       }
     ],
-    "word_count": 2699,
+    "word_count": 2707,
     "first_paragraphs": [
       "A household chef older adults meal brief starts with preferences and clear responsibilities. Plan menus, dietary instructions, serving and kitchen handovers.",
       "By myCHEF Dubai Team | October 2026 · 11 min read",
@@ -30779,15 +30875,15 @@
       },
       {
         "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "One dinner at home: should you brief a chef or caterer?"
       },
       {
         "level": "h3",
-        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",
@@ -30798,7 +30894,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 669,
+    "word_count": 686,
     "first_paragraphs": [
       "The grazing table versus buffet decision in Dubai depends on what role the food will play. A grazing display can welcome guests and support conversation; a buffet can provide a complete main meal. Either format needs a clear plan for portions, display time and service.",
       "Cheeses, breads, fruit, suitable charcuterie and dips create an inviting display for arrivals or a relaxed reception. Confirm whether the selection is intended as a light accompaniment or the main food offering, and price quantities accordingly.",
@@ -30882,15 +30978,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -30933,7 +31029,7 @@
         "text": "Let’s shape the details around you."
       }
     ],
-    "word_count": 3031,
+    "word_count": 3038,
     "first_paragraphs": [
       "Private Chef",
       "A Palm Jumeirah dinner brief should explain property access, the kitchen and where guests will eat. Confirm gate passes, parking and preparation space before deciding on the menu.",
@@ -31524,15 +31620,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -31543,7 +31639,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 643,
+    "word_count": 650,
     "first_paragraphs": [
       "The choice between a private chef and a restaurant in Dubai comes down to the experience you want. A chef at home lets you shape the setting, menu and pace; a restaurant provides its own space, facilities and established service. Compare both against your occasion and practical needs.",
       "At home, you choose the table, music and guest list, but the kitchen and access must support the proposed meal. A restaurant provides the venue and equipment, with its own seating arrangements, opening times and house policies.",
@@ -31611,14 +31707,14 @@
       },
       {
         "level": "h3",
-        "text": "Co-working event catering: delivery and shared-space checklist"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 869,
+    "word_count": 876,
     "first_paragraphs": [
       "Planning nut-free nursery meals in Dubai requires a clear agreement between the nursery, parents and culinary provider. Ingredient exclusions, allergen controls and halal sourcing each need their own documentation. Begin with the nursery’s current policy and the individual needs of the children. A nursery catering enquiry should begin with those requirements before a menu or delivery plan is agreed.",
       "Ask the nursery for its current food and allergen policy, including how it treats precautionary labels such as “may contain”. Requirements can differ by setting, so a general website statement should never replace the policy that applies to the child’s nursery.",
@@ -32533,15 +32629,15 @@
       },
       {
         "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
+      },
+      {
+        "level": "h3",
         "text": "How to Compare Catering Quotes in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Office Breakfast Planning in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
@@ -32584,7 +32680,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1941,
+    "word_count": 1942,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "Assess a corporate event proposal against the agenda, venue and approval process. Check menu quantities, service responsibilities, access and the items included in the written scope.",
@@ -32715,15 +32811,15 @@
       },
       {
         "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
+      },
+      {
+        "level": "h3",
         "text": "How to Compare Catering Quotes in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "Office Breakfast Planning in Dubai"
-      },
-      {
-        "level": "h3",
-        "text": "What to Check Before a Drop-Off Catering Delivery"
       },
       {
         "level": "h2",
@@ -32762,7 +32858,7 @@
         "text": "Tell us what you have in mind."
       }
     ],
-    "word_count": 1799,
+    "word_count": 1800,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "An office lunch plan should identify who receives the food, when colleagues eat and how dietary requirements are communicated. Agree delivery access, serving responsibilities and billing before the first service.",
@@ -32988,15 +33084,15 @@
       },
       {
         "level": "h3",
-        "text": "Buffet Layout Planning in Dubai: A Practical Guide"
+        "text": "How do you build a running order for a plated dinner?"
       },
       {
         "level": "h3",
-        "text": "Canapé Reception Planning in Dubai"
+        "text": "One dinner at home: should you brief a chef or caterer?"
       },
       {
         "level": "h3",
-        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h2",
@@ -33039,7 +33135,7 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 1831,
+    "word_count": 1848,
     "first_paragraphs": [
       "myCHEF · Thoughtful food, considered service",
       "NYE party catering in Dubai should follow the shape of your evening: arrivals, the main meal, the countdown and the time guests leave. Choose a menu that can be served well in your venue, then agree the staffing and timings around those moments.",
@@ -33091,15 +33187,15 @@
       },
       {
         "level": "h3",
-        "text": "Cooking for older adults: what should a chef brief cover?"
+        "text": "Is a private chef worth it in Dubai in 2026?"
       },
       {
         "level": "h3",
-        "text": "Meal support for new parents: a household chef brief"
+        "text": "How do you manage groceries between weekly chef visits?"
       },
       {
         "level": "h3",
-        "text": "Expat family household cooking: what to put in the chef brief"
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
       },
       {
         "level": "h2",
@@ -33110,9 +33206,9 @@
         "text": "More in Blog and Guides"
       }
     ],
-    "word_count": 641,
+    "word_count": 648,
     "first_paragraphs": [
-      "A private chef date night in Dubai creates time for the two of you at your own table. myCHEF’s Date Night package starts at AED 1,200 for a three-course dinner for two, with the menu, service and kitchen clear-down agreed before the evening.",
+      "A private chef date night in Dubai creates time for the two of you at your own table. myCHEF’s Date Night package starts from AED 2,400 for a three-course dinner for two, with the menu, service and kitchen clear-down agreed before the evening.",
       "Share favourite dishes, ingredients to avoid and anything that makes the occasion meaningful. A familiar dish prepared with care can be as memorable as an adventurous menu. The chef will discuss what works within the package and kitchen facilities .",
       "Choose the dining space, music and lighting, then confirm access and the equipment available in the kitchen. Ask what table setup is included and whether flowers, candles or other details are part of the quote or arranged separately.",
       "The AED 1,200 Date Night price applies to the defined two-person package. Extra courses, drinks and upgrades are quoted separately, with 5% VAT confirmed in the proposal. Bespoke plated menus at AED 700–950 per person have a different scope."
@@ -33273,6 +33369,10 @@
       },
       {
         "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h3",
         "text": "Outdoor Villa Catering Kitchen Planning in Dubai"
       },
       {
@@ -33280,15 +33380,11 @@
         "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
       },
       {
-        "level": "h3",
-        "text": "Planning a BBQ Party in Dubai: Space, Smoke and Service"
-      },
-      {
         "level": "h2",
         "text": "Plan private dining experiences in Dubai with myCHEF"
       }
     ],
-    "word_count": 655,
+    "word_count": 649,
     "first_paragraphs": [
       "A desert dinner proposal needs a workable location and access plan. Compare venue permission, transport, power, water, preparation space and weather contingencies before choosing a menu.",
       "By myCHEF Dubai Team | September 2026 · 2 min read",
@@ -33309,6 +33405,10 @@
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
       },
       {
         "level": "h3",
@@ -33339,12 +33439,12 @@
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 332,
+    "word_count": 368,
     "first_paragraphs": [
       "Dining out in the dunes or on the water — desert dinners, yacht menus and the logistics of off-grid catering in Dubai. Start with desert dining, then read the guides below.",
       "Guides",
-      "Plan the working kitchen behind a Dubai garden event: access routes, power questions, shaded preparation, service flow, equipment and an indoor fallback.",
-      "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes."
+      "Use this yacht chef galley briefing checklist to confirm equipment, refrigeration, boarding and service roles before agreeing your Dubai yacht catering menu.",
+      "Plan the working kitchen behind a Dubai garden event: access routes, power questions, shaded preparation, service flow, equipment and an indoor fallback."
     ]
   },
   {
@@ -33549,6 +33649,30 @@
       },
       {
         "level": "h3",
+        "text": "Is a private chef worth it in Dubai in 2026?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you manage groceries between weekly chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
+      },
+      {
+        "level": "h3",
+        "text": "What details should you send in a household chef enquiry?"
+      },
+      {
+        "level": "h3",
+        "text": "How should a villa concierge coordinate recurring chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "How do you review your first month with a household chef?"
+      },
+      {
+        "level": "h3",
         "text": "Cooking for older adults: what should a chef brief cover?"
       },
       {
@@ -33608,12 +33732,12 @@
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 638,
+    "word_count": 867,
     "first_paragraphs": [
       "Everything on hiring a private chef in Dubai — what it costs, how vetting and booking work, and how a chef at home compares to dining out. Start with our private chef service, then dig into the guides below.",
       "Guides",
-      "A household chef older adults meal brief starts with preferences and clear responsibilities. Plan menus, dietary instructions, serving and kitchen handovers.",
-      "Build a household chef new parents meal brief that puts meal coverage first. Define portions, dietary needs, kitchen access and handover for easier meals."
+      "Is a private chef worth it in Dubai? Yes, when tailored cooking solves a real need. Compare formats, inclusions and practical trade-offs before you enquire.",
+      "Simplify grocery planning between weekly chef visits with a shared list, clear shopping roles and kitchen checks. Plan meals without duplicate purchases."
     ]
   },
   {
@@ -33629,6 +33753,14 @@
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
       },
       {
         "level": "h3",
@@ -33663,12 +33795,12 @@
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 345,
+    "word_count": 415,
     "first_paragraphs": [
       "Planning food for a Dubai team or company event — drop-off vs full-service, live stations, canapés and plated galas. Our corporate catering service handles the delivery; these guides help you choose the format.",
       "Guides",
-      "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines.",
-      "Plan an office breakfast in Dubai with an arrival-wave calculation, service layout, menu brief, coffee plan, building access checklist and meeting timeline."
+      "Use this facilities team office lunch catering checklist to assign owners, confirm dietary needs, plan access and agree service, handover and clearance.",
+      "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals."
     ]
   },
   {
@@ -33684,6 +33816,18 @@
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "One dinner at home: should you brief a chef or caterer?"
+      },
+      {
+        "level": "h3",
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h3",
@@ -33738,12 +33882,12 @@
         "text": "Plan it with myCHEF"
       }
     ],
-    "word_count": 548,
+    "word_count": 666,
     "first_paragraphs": [
       "Menus, budgets and formats for weddings, birthdays, New Year and dinner parties in Dubai. Explore our wedding and event catering, then plan the details with the guides below.",
       "Guides",
-      "Design a buffet guests can use comfortably: queue flow, separate drinks, replenishment access, dietary service and a worked layout brief for 40 guests.",
-      "Plan a canapé reception around duration, guest movement and appetite, with worked quantity examples, service waves and a clear menu-and-staffing brief."
+      "Use this plated dinner running order checklist to connect menus, seating, dietary meals and service cues, with clear roles and checks for a well-planned evening.",
+      "One dinner at home chef catering: choose by cooking and service needs, not guest count. Compare formats, kitchen needs and what to include in your brief."
     ]
   },
   {
@@ -34286,6 +34430,1142 @@
       "Independent partner chef · Italian and Mediterranean",
       "A personal brief. A suitable chef. A clear written proposal.",
       "Marco Rossi is an Italian private chef in Dubai, working through a licensed culinary partner. His menus feature hand-rolled pasta, antipasti, seafood and regional Italian dishes, prepared for private dinners and gatherings at home. Share your preferences, and we will confirm the proposed menu, chef profile and availability."
+    ]
+  },
+  {
+    "path": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+    "title": "Meal Prep Chef Nutrition Plan Brief: What to Include | myCHEF",
+    "description": "Build a meal prep chef nutrition plan brief with clear portions, dietary requirements and recipe rules. Learn what to agree before your chef starts cooking.",
+    "canonical": "https://www.mychef.ae/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+    "robots": "index, follow",
+    "h1": [
+      "How do you brief a meal-prep chef on a nutrition plan?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How do you brief a meal-prep chef on a nutrition plan?"
+      },
+      {
+        "level": "h2",
+        "text": "What should your nutrition instructions actually say?"
+      },
+      {
+        "level": "h2",
+        "text": "Are your targets for the whole day or each meal?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you make recipe calculations consistent?"
+      },
+      {
+        "level": "h3",
+        "text": "Specify raw or cooked ingredient weights"
+      },
+      {
+        "level": "h3",
+        "text": "Include the whole recipe"
+      },
+      {
+        "level": "h3",
+        "text": "Agree how batches become portions"
+      },
+      {
+        "level": "h2",
+        "text": "How do you turn targets into meals you enjoy?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does a meal-prep brief vary between households?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you confirm about allergies and substitutions?"
+      },
+      {
+        "level": "h2",
+        "text": "What practical details does the chef need in Dubai?"
+      },
+      {
+        "level": "h2",
+        "text": "Can you use a copy-and-send briefing template?"
+      },
+      {
+        "level": "h3",
+        "text": "Meals and people"
+      },
+      {
+        "level": "h3",
+        "text": "Nutrition instructions"
+      },
+      {
+        "level": "h3",
+        "text": "Food requirements"
+      },
+      {
+        "level": "h3",
+        "text": "Recipe and portion rules"
+      },
+      {
+        "level": "h3",
+        "text": "Kitchen and handover"
+      },
+      {
+        "level": "h3",
+        "text": "Approval and feedback"
+      },
+      {
+        "level": "h2",
+        "text": "How should you review the first cooking session?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your plan into a clear enquiry"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2495,
+    "first_paragraphs": [
+      "Build a meal prep chef nutrition plan brief with clear portions, dietary requirements and recipe rules. Learn what to agree before your chef starts cooking.",
+      "By myCHEF Dubai Team | October 2026 · 11 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+    "title": "Plated Dinner Running Order Checklist: Build Your Plan | myCHEF",
+    "description": "Build a plated dinner running order that connects menus, seating, dietary meals and service cues, with clear roles and checks for a well-planned evening.",
+    "canonical": "https://www.mychef.ae/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+    "robots": "index, follow",
+    "h1": [
+      "How do you build a running order for a plated dinner?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "Establish the dinner brief"
+      },
+      {
+        "level": "h3",
+        "text": "Map the guest list to the table"
+      },
+      {
+        "level": "h3",
+        "text": "Work backwards from course service"
+      },
+      {
+        "level": "h3",
+        "text": "Add an owner and a release cue"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the exceptions"
+      },
+      {
+        "level": "h2",
+        "text": "What should your plated dinner running order checklist include?"
+      },
+      {
+        "level": "h2",
+        "text": "Should you use fixed times or service cues?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does a plated dinner running order vary?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you connect dietary requirements to service?"
+      },
+      {
+        "level": "h2",
+        "text": "Where should speeches, cake and presentations go?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you confirm with the chef and service team?"
+      },
+      {
+        "level": "h2",
+        "text": "What happens if guests arrive late or a course is delayed?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Finish with the release cue, not the clock"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private dining experiences in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2433,
+    "first_paragraphs": [
+      "Use this plated dinner running order checklist to connect menus, seating, dietary meals and service cues, with clear roles and checks for a well-planned evening.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private dining experiences in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+    "title": "First Month Household Chef Review Checklist: Key Checks | myCHEF",
+    "description": "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan.",
+    "canonical": "https://www.mychef.ae/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+    "robots": "index, follow",
+    "h1": [
+      "How do you review your first month with a household chef?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How do you review your first month with a household chef?"
+      },
+      {
+        "level": "h2",
+        "text": "What should your first-month checklist cover?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does the same meal plan work differently across households?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you assess the food without giving vague feedback?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you review portions and avoid unwanted leftovers?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you check dietary requirements and substitutions?"
+      },
+      {
+        "level": "h2",
+        "text": "What practical arrangements should you review in a Dubai home?"
+      },
+      {
+        "level": "h2",
+        "text": "Should you keep the plan, adjust it or request a rebrief?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you turn feedback into the next weekly meal plan?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Turn your review into a clearer household brief"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h2",
+        "text": "Plan long-term household chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2421,
+    "first_paragraphs": [
+      "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore long-term household chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+    "title": "Yacht Chef Galley Briefing Checklist: What to Send | myCHEF",
+    "description": "Use this yacht chef galley briefing checklist to confirm equipment, refrigeration, boarding and service roles before agreeing your Dubai yacht catering menu.",
+    "canonical": "https://www.mychef.ae/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+    "robots": "index, follow",
+    "h1": [
+      "What galley details does a yacht chef need before boarding?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What galley details does a yacht chef need before boarding?"
+      },
+      {
+        "level": "h2",
+        "text": "Which equipment details should you photograph and describe?"
+      },
+      {
+        "level": "h3",
+        "text": "Cooking equipment"
+      },
+      {
+        "level": "h3",
+        "text": "Preparation space and washing facilities"
+      },
+      {
+        "level": "h3",
+        "text": "Cookware, utensils and serving pieces"
+      },
+      {
+        "level": "h2",
+        "text": "How much detail does the chef need about refrigeration?"
+      },
+      {
+        "level": "h2",
+        "text": "Should food be cooked onboard or prepared before boarding?"
+      },
+      {
+        "level": "h2",
+        "text": "What guest and menu information belongs in the brief?"
+      },
+      {
+        "level": "h2",
+        "text": "What boarding and storage arrangements need agreement?"
+      },
+      {
+        "level": "h3",
+        "text": "Secure equipment before departure"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the working sequence"
+      },
+      {
+        "level": "h2",
+        "text": "Why do yacht chef arrangements vary between boats?"
+      },
+      {
+        "level": "h2",
+        "text": "Can I send galley photographs instead of an inventory?"
+      },
+      {
+        "level": "h2",
+        "text": "Does the chef also serve and clear the meal?"
+      },
+      {
+        "level": "h2",
+        "text": "What should I do if the yacht changes after the menu is agreed?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Before you send the enquiry"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Yacht Party Food Timeline for Three Hours in Dubai"
+      },
+      {
+        "level": "h2",
+        "text": "Plan yacht catering in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2608,
+    "first_paragraphs": [
+      "Use this yacht chef galley briefing checklist to confirm equipment, refrigeration, boarding and service roles before agreeing your Dubai yacht catering menu.",
+      "By myCHEF Dubai Team | October 2026 · 11 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore yacht catering in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+    "title": "Villa Concierge Recurring Chef Visit Checklist: How-To | myCHEF",
+    "description": "Agree menus, access, shopping and handovers with a villa concierge chef-visit checklist. Keep household cooking clear from one visit to the next.",
+    "canonical": "https://www.mychef.ae/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+    "robots": "index, follow",
+    "h1": [
+      "How should a villa concierge coordinate recurring chef visits?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How should a villa concierge coordinate recurring chef visits?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the household brief include?"
+      },
+      {
+        "level": "h2",
+        "text": "Who should approve menus and changes?"
+      },
+      {
+        "level": "h2",
+        "text": "Should the visit cover fresh meals or batch preparation?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you prepare the villa before the chef arrives?"
+      },
+      {
+        "level": "h2",
+        "text": "How should shopping and substitutions be managed?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the concierge record after each visit?"
+      },
+      {
+        "level": "h2",
+        "text": "Why do recurring chef arrangements vary between villas?"
+      },
+      {
+        "level": "h2",
+        "text": "What should happen if the household changes its plans?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to brief your recurring chef visits?"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Plan long-term household chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2453,
+    "first_paragraphs": [
+      "Use a villa concierge recurring chef visit checklist to agree menus, access, shopping and handovers. Keep Dubai household cooking clear from one visit to the next.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore long-term household chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+    "title": "One Dinner at Home Chef Catering: How to Choose | myCHEF",
+    "description": "One dinner at home chef catering: choose by cooking and service needs, not guest count. Compare formats, kitchen needs and what to include in your brief.",
+    "canonical": "https://www.mychef.ae/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+    "robots": "index, follow",
+    "h1": [
+      "One dinner at home: should you brief a chef or caterer?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "One dinner at home: should you brief a chef or caterer?"
+      },
+      {
+        "level": "h2",
+        "text": "What matters more than your guest count?"
+      },
+      {
+        "level": "h2",
+        "text": "When does a chef-led dinner make sense?"
+      },
+      {
+        "level": "h2",
+        "text": "When does catering make more sense?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you prepare the kitchen brief?"
+      },
+      {
+        "level": "h2",
+        "text": "Why do proposals for one dinner vary?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you turn your dinner idea into a clear brief?"
+      },
+      {
+        "level": "h3",
+        "text": "What would an illustrative enquiry look like?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you confirm before accepting the proposal?"
+      },
+      {
+        "level": "h3",
+        "text": "Who handles food and dietary requirements?"
+      },
+      {
+        "level": "h3",
+        "text": "Who serves and clears?"
+      },
+      {
+        "level": "h3",
+        "text": "What happens when plans change?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Before you enquire"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Dinner Party Timeline in Dubai: A Host’s Guide"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private dining experiences in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2469,
+    "first_paragraphs": [
+      "One dinner at home chef catering: choose by cooking and service needs, not guest count. Compare formats, kitchen needs and what to include in your brief.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private dining experiences in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+    "title": "Wedding Planner Catering Tasting Checklist: Key Steps | myCHEF",
+    "description": "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off.",
+    "canonical": "https://www.mychef.ae/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+    "robots": "index, follow",
+    "h1": [
+      "How should a wedding planner organise a catering tasting?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How should a wedding planner organise a catering tasting?"
+      },
+      {
+        "level": "h3",
+        "text": "1. Prepare the wedding brief"
+      },
+      {
+        "level": "h3",
+        "text": "2. Agree what the tasting will cover"
+      },
+      {
+        "level": "h3",
+        "text": "3. Bring the venue information"
+      },
+      {
+        "level": "h3",
+        "text": "4. Evaluate each dish consistently"
+      },
+      {
+        "level": "h3",
+        "text": "5. Test the proposed service format"
+      },
+      {
+        "level": "h3",
+        "text": "6. Close with a decision record"
+      },
+      {
+        "level": "h2",
+        "text": "Which service format should the tasting represent?"
+      },
+      {
+        "level": "h2",
+        "text": "What dietary information should the planner collect?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does a wedding catering tasting vary?"
+      },
+      {
+        "level": "h2",
+        "text": "How should a planner compare tasting proposals?"
+      },
+      {
+        "level": "h2",
+        "text": "What should happen after the tasting?"
+      },
+      {
+        "level": "h2",
+        "text": "Who should attend a wedding catering tasting?"
+      },
+      {
+        "level": "h2",
+        "text": "Can a private chef tasting approve a wedding catering menu?"
+      },
+      {
+        "level": "h2",
+        "text": "Should the planner approve everything at the appointment?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Turn the tasting into a clear catering brief"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Wedding Menu Tasting in Dubai: Questions to Ask"
+      },
+      {
+        "level": "h2",
+        "text": "Plan event catering in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2529,
+    "first_paragraphs": [
+      "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off.",
+      "By myCHEF Dubai Team | October 2026 · 11 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore event catering in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/is-a-private-chef-worth-it-in-dubai-in",
+    "title": "Is a Private Chef Worth It in Dubai? When It Is in 2026 | myCHEF",
+    "description": "Is a private chef worth it in Dubai? Yes, when tailored cooking solves a real need. Compare formats, inclusions and practical trade-offs before you enquire.",
+    "canonical": "https://www.mychef.ae/blog/is-a-private-chef-worth-it-in-dubai-in",
+    "robots": "index, follow",
+    "h1": [
+      "Is a private chef worth it in Dubai in 2026?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Is a private chef worth it in Dubai in 2026?"
+      },
+      {
+        "level": "h2",
+        "text": "What work do you actually want a chef to take over?"
+      },
+      {
+        "level": "h2",
+        "text": "When does recurring household cooking make sense?"
+      },
+      {
+        "level": "h3",
+        "text": "When weekly meal preparation is the better brief"
+      },
+      {
+        "level": "h2",
+        "text": "Is a private chef worth it for a single dinner?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does the value of a private chef vary?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you check in a private chef proposal?"
+      },
+      {
+        "level": "h3",
+        "text": "Food and menu"
+      },
+      {
+        "level": "h3",
+        "text": "People and equipment"
+      },
+      {
+        "level": "h3",
+        "text": "Timing and completion"
+      },
+      {
+        "level": "h2",
+        "text": "When is a private chef not worth it?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Make the enquiry about the work, not just the menu"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2475,
+    "first_paragraphs": [
+      "Is a private chef worth it in Dubai? Yes, when tailored cooking solves a real need. Compare formats, inclusions and practical trade-offs before you enquire.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/catering-for-international-schools-in-dubai-complete-guide",
+    "title": "School Event Catering Brief Dubai: Planning Checklist | myCHEF",
+    "description": "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals.",
+    "canonical": "https://www.mychef.ae/blog/catering-for-international-schools-in-dubai-complete-guide",
+    "robots": "index, follow",
+    "h1": [
+      "School event catering briefs: access, timing and dietary needs"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Why a clear catering brief matters for schools"
+      },
+      {
+        "level": "h2",
+        "text": "How to write a school event catering brief"
+      },
+      {
+        "level": "h3",
+        "text": "Define the audience and event format"
+      },
+      {
+        "level": "h3",
+        "text": "Map the campus access and catering space"
+      },
+      {
+        "level": "h3",
+        "text": "Fix the service windows and handover points"
+      },
+      {
+        "level": "h3",
+        "text": "Record dietary requirements and handling expectations"
+      },
+      {
+        "level": "h3",
+        "text": "Assign staffing, equipment and clearing responsibilities"
+      },
+      {
+        "level": "h3",
+        "text": "Compare proposals against the same brief"
+      },
+      {
+        "level": "h2",
+        "text": "Which catering format suits your school event?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the final brief contain?"
+      },
+      {
+        "level": "h2",
+        "text": "Common mistakes in school catering briefs"
+      },
+      {
+        "level": "h3",
+        "text": "Giving one attendance total"
+      },
+      {
+        "level": "h3",
+        "text": "Treating delivery as a staffed service"
+      },
+      {
+        "level": "h3",
+        "text": "Leaving dietary checks until menu approval"
+      },
+      {
+        "level": "h3",
+        "text": "Assuming campus access is straightforward"
+      },
+      {
+        "level": "h3",
+        "text": "Changing the timetable without updating the caterer"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "One final check before approval"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Planning Office Lunches: Delivery, Diets and Billing"
+      },
+      {
+        "level": "h2",
+        "text": "Plan institutional catering in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2513,
+    "first_paragraphs": [
+      "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals.",
+      "By myCHEF Dubai Team | October 2026 · 11 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore institutional catering in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+    "title": "Household chef enquiry details checklist: What to send | myCHEF",
+    "description": "Use this household chef enquiry details checklist to brief a chef clearly. Cover schedules, dietary needs, kitchen access and responsibilities before booking.",
+    "canonical": "https://www.mychef.ae/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+    "robots": "index, follow",
+    "h1": [
+      "What details should you send in a household chef enquiry?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "What details should you send in a household chef enquiry?"
+      },
+      {
+        "level": "h2",
+        "text": "Which cooking format should you ask for?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you describe your household and portions?"
+      },
+      {
+        "level": "h2",
+        "text": "What schedule and access information does the chef need?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you explain allergies and dietary requirements?"
+      },
+      {
+        "level": "h2",
+        "text": "What kitchen details should you include?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does the scope of a household chef enquiry vary?"
+      },
+      {
+        "level": "h2",
+        "text": "What can you copy into your first enquiry?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you check before agreeing to a proposal?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to send your household cooking brief?"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Private Chef Trial in Dubai: What to Evaluate"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2448,
+    "first_paragraphs": [
+      "Use this household chef enquiry details checklist to brief a chef clearly. Cover schedules, dietary needs, kitchen access and responsibilities before booking.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+    "title": "Grocery planning between weekly chef visits: A guide | myCHEF",
+    "description": "Simplify grocery planning between weekly chef visits with a shared list, clear shopping roles and kitchen checks. Plan meals without duplicate purchases.",
+    "canonical": "https://www.mychef.ae/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+    "robots": "index, follow",
+    "h1": [
+      "How do you manage groceries between weekly chef visits?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How do you manage groceries between weekly chef visits?"
+      },
+      {
+        "level": "h3",
+        "text": "Check the kitchen"
+      },
+      {
+        "level": "h3",
+        "text": "Confirm who will eat"
+      },
+      {
+        "level": "h3",
+        "text": "Agree the menu"
+      },
+      {
+        "level": "h3",
+        "text": "Buy the missing ingredients"
+      },
+      {
+        "level": "h3",
+        "text": "Record what changed"
+      },
+      {
+        "level": "h2",
+        "text": "Why does a shared grocery plan matter?"
+      },
+      {
+        "level": "h2",
+        "text": "Who should handle the grocery shopping?"
+      },
+      {
+        "level": "h2",
+        "text": "What should your shared grocery list contain?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does grocery planning vary between households?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you do when ingredients run low midweek?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you handle substitutions and dietary requirements?"
+      },
+      {
+        "level": "h2",
+        "text": "How should groceries and prepared meals be handed over?"
+      },
+      {
+        "level": "h2",
+        "text": "What should you confirm with a weekly chef service?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Make the next visit easier"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "A Household Menu Brief for Your Dubai Chef"
+      },
+      {
+        "level": "h2",
+        "text": "Plan private chef services in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2373,
+    "first_paragraphs": [
+      "Simplify grocery planning between weekly chef visits with a shared list, clear shopping roles and kitchen checks. Plan meals without duplicate purchases.",
+      "By myCHEF Dubai Team | October 2026 · 10 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore private chef services in Dubai ."
+    ]
+  },
+  {
+    "path": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+    "title": "Facilities Team Office Lunch Catering Checklist | myCHEF",
+    "description": "Use this facilities team office lunch catering checklist to assign owners, confirm dietary needs, plan access and agree service, handover and clearance.",
+    "canonical": "https://www.mychef.ae/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+    "robots": "index, follow",
+    "h1": [
+      "How should facilities teams coordinate office lunch catering?"
+    ],
+    "headings": [
+      {
+        "level": "h2",
+        "text": "How should facilities teams coordinate office lunch catering?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does a shared catering brief matter?"
+      },
+      {
+        "level": "h2",
+        "text": "Who should own each part of the lunch?"
+      },
+      {
+        "level": "h2",
+        "text": "Which office lunch format should you choose?"
+      },
+      {
+        "level": "h3",
+        "text": "Individually boxed meals"
+      },
+      {
+        "level": "h3",
+        "text": "Drop-off buffet"
+      },
+      {
+        "level": "h3",
+        "text": "Staffed lunch service"
+      },
+      {
+        "level": "h2",
+        "text": "What should facilities check before the caterer arrives?"
+      },
+      {
+        "level": "h2",
+        "text": "How should you handle dietary requirements and allergies?"
+      },
+      {
+        "level": "h2",
+        "text": "What should the catering proposal include and exclude?"
+      },
+      {
+        "level": "h2",
+        "text": "Why does the office lunch scope vary?"
+      },
+      {
+        "level": "h2",
+        "text": "What should happen on the day of the lunch?"
+      },
+      {
+        "level": "h2",
+        "text": "How do you keep recurring office lunches consistent?"
+      },
+      {
+        "level": "h2",
+        "text": "FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "Related guides"
+      },
+      {
+        "level": "h2",
+        "text": "Finish the brief with the clearance plan"
+      },
+      {
+        "level": "h2",
+        "text": "More from the myCHEF Dubai Blog"
+      },
+      {
+        "level": "h3",
+        "text": "Planning Office Lunches: Delivery, Diets and Billing"
+      },
+      {
+        "level": "h2",
+        "text": "Plan corporate catering in Dubai with myCHEF"
+      }
+    ],
+    "word_count": 2595,
+    "first_paragraphs": [
+      "Use this facilities team office lunch catering checklist to assign owners, confirm dietary needs, plan access and agree service, handover and clearance.",
+      "By myCHEF Dubai Team | October 2026 · 11 min read",
+      "On this page",
+      "This guide helps you prepare a practical brief. For service options and the next step, explore corporate catering in Dubai ."
     ]
   }
 ]

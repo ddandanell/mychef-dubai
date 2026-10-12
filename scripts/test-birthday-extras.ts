@@ -79,8 +79,8 @@ eq(
 )
 eq('yacht scenario says you arrange the boat', statementScenarios.some((item) => item.body.includes('You own or charter the boat')), true)
 eq('do not hire yachts', whatWeDont.some((item) => item.includes('do not hire yachts')), true)
-eq('3600 band is published', privateEveningBands[0].figure.includes('3,600'), true)
-eq('villa band is typical not floor', privateEveningBands[1].note.includes('not a published floor'), true)
+eq('6000 band is published', privateEveningBands[0].figure.includes('6,000'), true)
+eq('villa band is typical not floor', privateEveningBands[1].figure.startsWith('Typically ') && privateEveningBands[1].note.includes('Illustrative budgets'), true)
 eq(
   'inquiry with extras',
   birthdayInquiryHref(['cake-standard', 'balloons']),
@@ -118,7 +118,7 @@ eq('plated band unchanged', [CATERING_FORMAT_BY_ID['plated-chef'].typicalMin, CA
   700,
   950,
 ])
-eq('birthday package 3600', eventPackageById('birthday').priceAed, 3600)
+eq('birthday package 6000', eventPackageById('birthday').priceAed, 6000)
 eq('birthday package guests', BIRTHDAY_PACKAGE.guests, '8–12 guests')
 eq('package pointer names cake option', packagePointer.included.includes('Cake option'), true)
 
@@ -137,7 +137,7 @@ eq('meta under 160', BIRTHDAY_KEYWORD_LOCK.description.length <= 160, true)
 eq('h1 exact', BIRTHDAY_KEYWORD_LOCK.h1, 'Private Birthday Catering in Dubai')
 eq('no five-things lead', !siloIntro.lead.toLowerCase().includes('five things'), true)
 eq('page line replaces five things', /menus.*prices.*extras/i.test(birthdayHeroCopy.pageLine), true)
-eq('hero sub published floors', /menus.*service.*clear-down/i.test(birthdayHeroCopy.subtitle) && birthdayHeroCopy.priceLine.includes('AED 120') && birthdayHeroCopy.priceLine.includes('AED 3,600'), true)
+eq('hero sub published floors', /menus.*service.*clear-down/i.test(birthdayHeroCopy.subtitle) && birthdayHeroCopy.priceLine.includes('AED 120') && birthdayHeroCopy.priceLine.includes('AED 6,000'), true)
 eq('dual CTAs itemised', dualPath.catalogue.label, 'Request my itemised birthday proposal')
 eq('dual CTAs private', dualPath.private.label, 'Plan a private milestone birthday')
 

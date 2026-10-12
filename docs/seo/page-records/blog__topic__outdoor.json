@@ -65,11 +65,15 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 115,
-    "current_word_count": 332,
+    "current_word_count": 368,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "What galley details does a yacht chef need before boarding?"
       },
       {
         "level": "h3",

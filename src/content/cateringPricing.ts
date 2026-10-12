@@ -191,7 +191,7 @@ export interface EventPackage {
   href: string
   guests: string
   priceAed: number
-  perPerson: string
+  perPerson?: string
   description: string
   included: string
 }
@@ -204,8 +204,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     name: 'Date Night',
     href: '/date-night-package-dubai',
     guests: '2 guests',
-    priceAed: 1200,
-    perPerson: '600',
+    priceAed: 2400,
     description: 'A three-course dinner for two, cooked in your kitchen, served at the table and cleared after.',
     included: 'A three-course menu for two, cooked in your kitchen, served at your table, and the kitchen left exactly as we found it.',
   },
@@ -216,8 +215,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     name: 'Family Feast',
     href: '/family-feast-package-dubai',
     guests: '6–8 guests',
-    priceAed: 2400,
-    perPerson: '300–400',
+    priceAed: 4800,
     description: 'Sharing plates for 6–8, with a chef and service staff so nobody leaves the table.',
     included: 'Generous sharing plates and premium ingredients, with a chef and service staff so nobody has to leave the table.',
   },
@@ -228,8 +226,7 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     name: 'Birthday Celebration',
     href: '/birthday-catering-package-dubai',
     guests: '8–12 guests',
-    priceAed: 3600,
-    perPerson: '300–450',
+    priceAed: 6000,
     description: 'A birthday sitting for 8–12: menu, cake option, chef and service staff.',
     included: 'Canapés or a starter, main course and dessert, with service staff looking after your guests all evening.',
   },

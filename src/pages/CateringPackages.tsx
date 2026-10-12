@@ -98,7 +98,7 @@ export default function CateringPackages() {
 
       <NonCateringVisual><PageHero
         title={PACKAGE_HUB_SEO.h1}
-        subtitle={"Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night AED 1,200, Family Feast AED 2,400, Birthday AED 3,600 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details."}
+        subtitle={"Explore catering packages in Dubai with clear starting prices and defined inclusions: Date Night from AED 2,400, Family Feast from AED 4,800, Birthday from AED 6,000 and Corporate Dinner AED 4,500. Each package sets out the guest range, menu format and service before you personalise the details."}
         image={HERO}
         imageAlt="A private chef dinner table in a Dubai home, service in the background. Experience concept shown."
         imageWidth={1344}
@@ -216,9 +216,9 @@ export default function CateringPackages() {
           <SectionLabel>How the figure is built</SectionLabel>
           <DisplayHeading className="text-black mb-6">How the quote moves from the published figure</DisplayHeading>
           <BodyCopy className="mb-4">
-            The catering packages Dubai price on each card is the starting total for that typical guest count. Catering
-            package cost per person in Dubai is that total divided by the table: AED 600 for two on Date Night, about
-            AED 300–450 on the larger dinners.
+            The catering packages Dubai price on each card is the starting package total for its stated guest count.
+            Date Night starts from AED 2,400 for two, Family Feast from AED 4,800 for 6–8 guests, and Birthday
+            Celebration from AED 6,000 for 8–12 guests.
           </BodyCopy>
           <BodyCopy className="mb-4">
             The right catering package fits your guest count, preferred menu and level of service. Compare the inclusions, then discuss any details you would like tailored to the occasion.

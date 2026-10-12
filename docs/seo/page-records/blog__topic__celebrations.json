@@ -65,11 +65,23 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 202,
-    "current_word_count": 548,
+    "current_word_count": 666,
     "headings": [
       {
         "level": "h2",
         "text": "Guides in this topic"
+      },
+      {
+        "level": "h3",
+        "text": "How do you build a running order for a plated dinner?"
+      },
+      {
+        "level": "h3",
+        "text": "One dinner at home: should you brief a chef or caterer?"
+      },
+      {
+        "level": "h3",
+        "text": "How should a wedding planner organise a catering tasting?"
       },
       {
         "level": "h3",

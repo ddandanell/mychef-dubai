@@ -26,12 +26,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Date Night Package Catering Dubai | from AED 1,200 | myCHEF",
-  "meta_description": "Date night package catering in Dubai from AED 1,200. A private, chef-cooked dinner for two, with vetted chefs, full service and setup.",
+  "title": "Date Night Package Catering Dubai | from AED 2,400 | myCHEF",
+  "meta_description": "Date night package catering in Dubai from AED 2,400. A private, chef-cooked dinner for two, with vetted chefs, full service and setup.",
   "h1": "Date Night Package Catering in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [
-  "A date night package catering booking in Dubai is a private, chef-cooked dinner for two at home, from AED 1,200, with the menu, cooking, service and cleanup all handled. A vetted private chef arrives at your villa or apartment, plates a multi-course menu across your kitchen or dining table, and leaves the space spotless, so the only thing on your plate for the evening is each other. There is no restaurant booking to chase, no dress code, no valet queue and no drive home. Tell us your date and venue, and you will get an itemised proposal back promptly during our published business hours."
+  "A date night package catering booking in Dubai is a private, chef-cooked dinner for two at home, from AED 2,400, with the menu, cooking, service and cleanup all handled. A vetted private chef arrives at your villa or apartment, plates a multi-course menu across your kitchen or dining table, and leaves the space spotless, so the only thing on your plate for the evening is each other. There is no restaurant booking to chase, no dress code, no valet queue and no drive home. Tell us your date and venue, and you will get an itemised proposal back promptly during our published business hours."
  ],
  "replace_in_block": [
   {
@@ -93,8 +93,8 @@
   {
    "new_heading": "How much does a date night package cost in Dubai?",
    "new_paragraphs": [
-    "A date night package starts from AED 1,200 for a plated dinner for two, and the final price moves with your menu, course count and service level. That opening figure covers a multi-course dinner, the chef, service and cleanup for two people; more elaborate luxury menus, premium ingredients like lobster or wagyu, or added styling raise it from there. It sits alongside our wider package tiers of AED 1,200, 2,400, 3,600, 4,500 and 5,500, plus a dedicated tasting menu experience from AED 1,400 if you want a longer, chef-led sequence. Set against a fine-dining restaurant for two in Dubai, a private chef at home is genuinely affordable for what you get: the whole venue, the chef's full attention, and total privacy. For a full breakdown see our prices and catering price guide , or send your details for an itemised cost.",
-    "People searching for a cheap date night package in Dubai deserve a straight answer, so here it is. AED 1,200 is the price of the table, not the price per head — two people share it, which is the single most misread thing about this product. There is no tier below it, because a chef's evening costs what a chef's evening costs: the shopping, the prep, the hours at your hob and the clean kitchen afterwards. Two levers do move the number. Fewer courses is one — three plates land inside the base package where five push past it. Menu writing is the other: a chef building around seasonal produce, a whole fish or a slow cut will feed you better for less than one building around lobster and wagyu. If the budget will not stretch this month, a romantic dinner at a shorter format is the honest alternative, and we would say so instead of selling you a thinner version of this one."
+    "A date night package starts from AED 2,400 for a plated dinner for two, and the final price moves with your menu, course count and service level. That opening figure covers a multi-course dinner, the chef, service and cleanup for two people; more elaborate luxury menus, premium ingredients like lobster or wagyu, or added styling raise it from there. It sits alongside our wider package tiers of from AED 2,400 for Date Night, AED 4,800 for Family Feast, AED 6,000 for Birthday Celebration, AED 4,500 for Corporate Dinner and AED 5,500 for The Full Experience, plus a dedicated tasting menu experience from AED 1,400 if you want a longer, chef-led sequence. Set against a fine-dining restaurant for two in Dubai, a private chef at home is genuinely affordable for what you get: the whole venue, the chef's full attention, and total privacy. For a full breakdown see our prices and catering price guide , or send your details for an itemised cost.",
+    "People searching for a cheap date night package in Dubai deserve a straight answer, so here it is. AED 2,400 is the price of the table, not the price per head — two people share it, which is the single most misread thing about this product. There is no tier below it, because a chef's evening costs what a chef's evening costs: the shopping, the prep, the hours at your hob and the clean kitchen afterwards. Two levers do move the number. Fewer courses is one — three plates land inside the base package where five push past it. Menu writing is the other: a chef building around seasonal produce, a whole fish or a slow cut will feed you better for less than one building around lobster and wagyu. If the budget will not stretch this month, a romantic dinner at a shorter format is the honest alternative, and we would say so instead of selling you a thinner version of this one."
    ],
    "insert_after_block": null,
    "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
@@ -136,7 +136,7 @@
    "new_heading": "Which date night package format suits your evening?",
    "new_paragraphs": [
     "Format What it gives you On site Cost position",
-    "Plated dinner for two Three to five courses cooked and served course by course 1 chef From AED 1,200 for the table",
+    "Plated dinner for two Three courses cooked and served course by course 1 chef From AED 2,400 for the table",
     "Chef's tasting menu A longer chef-led sequence, with a wine-pairing brief if you want one 1 chef From AED 1,400 per person",
     "Plated dinner with a server The chef stays on the pass while someone else pours, clears and resets 1 chef + 1 server Quoted on the proposal",
     "A small celebration, 4–10 at the table The same plated format scaled to friends or family Chef plus support Quoted by group size",
@@ -150,13 +150,13 @@
    "new_heading": "Common questions",
    "new_paragraphs": [
     "How much does date night cost in Dubai?",
-    "It's AED 1,200 — confirmed to your event. Send your details for an exact quote.",
+    "It starts from AED 2,400 for two guests — confirmed to your event. Send your details for an exact quote.",
     "What's included?",
     "Menu design, a vetted chef, service and setup, and cleanup where relevant are all included in the package price.",
     "How do I book?",
     "Tell us your date, guest count and venue; we send an itemised proposal, usually within one business day.",
     "Is a date night package cheaper than a restaurant in Dubai?",
-    "For two people it is comparable — a private chef-cooked dinner at home from AED 1,200 sits close to fine dining for two, but you keep the whole evening private, with no booking, dress code or drive home.",
+    "For two people it is comparable — a private chef-cooked dinner at home from AED 2,400 sits close to fine dining for two, but you keep the whole evening private, with no booking, dress code or drive home.",
     "Can you cook a date night dinner in my apartment?",
     "Yes — the chefs we work with cook in apartments, villas and hotel residences across Dubai. We only need a working hob or oven and a little counter space; the chef brings everything else and leaves the kitchen clean.",
     "Can the menu handle dietary needs or allergies?",

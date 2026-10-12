@@ -14,16 +14,15 @@ export default function BirthdayPackage() {
     <PackagePageTemplate
       name={pkg.name}
       seoTitle="Birthday Catering Packages Dubai | myCHEF"
-      description="Birthday catering packages Dubai: AED 3,600 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
-      intro="Birthday catering packages Dubai start at a published total: AED 3,600 for 8–12 guests. Canapés or a starter, a main, dessert, a cake option, a chef and service staff, setup and clear-down. The figure covers the package for the stated group size. Larger rooms are quoted on the birthday catering page. Dietary notes go into the first draft. Halal is the default."
+      description="Birthday catering packages Dubai: from AED 6,000 for 8–12 guests, chef and service staff, cake option, setup and clear-down. Larger parties quoted separately."
+      intro="Birthday catering packages Dubai start from AED 6,000 for 8–12 guests. Canapés or a starter, a main, dessert, a cake option, a chef and service staff, setup and clear-down. The figure covers the package for the stated group size. Larger rooms are quoted on the birthday catering page. Dietary notes go into the first draft. Halal is the default."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
       headline="Birthday Catering Packages Dubai"
       eyebrow="BIRTHDAY PACKAGE"
-      subheadline="AED 3,600 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour."
+      subheadline="From AED 6,000 for 8–12 guests. A menu written for the table, a cake option, a chef and service staff. You stay with the guest of honour."
       price={formatPriceAed(pkg.priceAed)}
       guests={pkg.guests}
-      perPerson={`AED ${pkg.perPerson}`}
       included={[
         'A menu written for 8–12 guests',
         'Canapés or a starter, main course and dessert',
@@ -42,7 +41,7 @@ export default function BirthdayPackage() {
         'A dessert table or grazing spread',
         'A mocktail bar. Cocktails or champagne only where the venue is licensed',
         'Table styling, quoted separately',
-        'A DJ or photographer if you want one introduced. Not inside AED 3,600',
+        'A DJ or photographer if you want one introduced. Not inside AED 6,000',
       ]}
       faqs={[
         {

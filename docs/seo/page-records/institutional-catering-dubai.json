@@ -86,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 896,
-    "current_word_count": 1730,
+    "current_word_count": 1775,
     "headings": [
       {
         "level": "h2",
@@ -207,6 +207,14 @@
       {
         "level": "h2",
         "text": "Tell us about your organisation."
+      },
+      {
+        "level": "h2",
+        "text": "Helpful guides for your next booking"
+      },
+      {
+        "level": "h3",
+        "text": "School event catering briefs: access, timing and dietary needs"
       }
     ],
     "baseline_findings": [],

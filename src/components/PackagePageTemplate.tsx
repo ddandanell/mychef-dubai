@@ -41,7 +41,7 @@ interface PackagePageTemplateProps {
   subheadline?: string
   price: string
   guests: string
-  perPerson: string
+  perPerson?: string
   included: string[]
   sampleMenu: string[]
   addOns: string[]
@@ -179,7 +179,7 @@ export default function PackagePageTemplate({
             <div className="bg-black p-8 md:p-10">
               <p className="font-inter text-caption text-gray-500 uppercase tracking-wider mb-2">Starting from</p>
               <p className="font-playfair text-5xl text-gold mb-2">AED {price}</p>
-              <p className="font-inter text-body text-gray-400 mb-6">{guests} · {perPerson} per person</p>
+              <p className="font-inter text-body text-gray-400 mb-6">{guests}{perPerson ? ` · ${perPerson} per person` : ''}</p>
               <div className="border-t border-charcoal-light pt-6">
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
                   Final pricing depends on your chosen menu, ingredients, dietary requirements, and service level. We reply within 15 minutes during business hours.

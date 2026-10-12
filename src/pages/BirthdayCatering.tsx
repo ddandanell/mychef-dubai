@@ -442,7 +442,7 @@ export default function BirthdayCatering() {
           <div className="border-t border-white/15 pt-8 mb-8">
             <p className="font-playfair text-h4 text-white mb-2">{packagePointer.title}</p>
             <p className="font-inter text-body-sm text-white mb-3">
-              {packagePointer.price} · {packagePointer.perPerson}, before 5% VAT.
+              {packagePointer.price} per package, before 5% VAT.
             </p>
             <ul className="mb-4 space-y-1">
               {packagePointer.included.map((item) => (

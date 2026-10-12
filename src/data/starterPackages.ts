@@ -7,7 +7,7 @@ export interface StarterPackage {
   name: string
   guests: string
   price: string
-  perPerson: string
+  perPerson?: string
   included: string
   recurring: boolean
   period?: string
