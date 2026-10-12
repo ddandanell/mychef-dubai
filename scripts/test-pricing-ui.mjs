@@ -10,7 +10,7 @@ await mkdir(output,{recursive:true})
 const app=express();app.use(express.static(path.join(root,'dist')))
 const server=await new Promise(resolve=>{const s=app.listen(0,'127.0.0.1',()=>resolve(s))})
 const origin=`http://127.0.0.1:${server.address().port}`
-const browser=await puppeteer.launch({args:chromium.args,executablePath:await chromium.executablePath(),headless:true})
+const browser=await puppeteer.launch({args:process.env.PUPPETEER_EXECUTABLE_PATH ? ['--no-sandbox','--disable-dev-shm-usage'] : chromium.args,executablePath:process.env.PUPPETEER_EXECUTABLE_PATH || await chromium.executablePath(),headless:true})
 const results=[], errors=[], posts=[]
 async function visit(route,width=1440){
  const page=await browser.newPage();page.on('pageerror',error=>errors.push(String(error)))
@@ -30,7 +30,11 @@ async function clickText(page,selector,text){
 async function summaryContains(page,text){await page.waitForFunction(text=>document.querySelector('[data-testid="chef-plan-summary"]')?.textContent.includes(text),{},text)}
 try {
  const page=await visit('/private-chef-dubai/pricing')
- await summaryContains(page,'AED 1,125')
+ await summaryContains(page,'AED 1,350')
+ await summaryContains(page,'4 hours')
+ assert.equal(await page.$$eval('#calculator button',els=>els.filter(el=>el.textContent.includes('Private Chef Visit')).length),0)
+ const legacy=await visit('/private-chef-dubai/pricing?service=fresh-meal')
+ await summaryContains(legacy,'AED 1,350');await summaryContains(legacy,'4 hours');await legacy.close()
  await clickText(page,'#calculator button','Chef by the Day')
  await summaryContains(page,'AED 2,000');await summaryContains(page,'10 hours')
  await clickText(page,'[aria-label="Choose single or member rates"] button','Member plan')
@@ -64,7 +68,7 @@ try {
    assert(chatBottom<=barTop,'Contact launcher remains above the pricing bar')
    await clickText(page,'button','View plan');await page.waitForSelector('[role="dialog"]')
    const drawer=await page.$eval('[role="dialog"]',el=>el.textContent)
-   assert(drawer.includes('AED 1,125')&&drawer.includes('5% VAT')&&drawer.includes('40–130'))
+   assert(drawer.includes('AED 1,350')&&drawer.includes('5% VAT')&&drawer.includes('40–130'))
   }
   await page.close()
  }

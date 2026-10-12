@@ -44,7 +44,7 @@ export const householdServices = {
     "path": "/part-time-private-chef-dubai",
     "primary": "Part Time Private Chef Dubai",
     "h1": "Part Time Private Chef Dubai. Good food on your days.",
-    "intro": "A part time private chef in Dubai on the days you need. Single visits start at AED 1,125; member visits start at AED 750 with 4+ prepaid visits per month. Before 5% VAT, groceries and transport. Choose a fresh meal, a fridge reset or a full cooking day.",
+    "intro": "A part time private chef in Dubai on the days you need. Single visits start at AED 1,350; member visits start at AED 900 with 4+ prepaid visits per month. Before 5% VAT, groceries and transport. Choose a four-hour Fridge Reset, five hours with shopping or a full cooking day.",
     "image": "family-table",
     "heading": "A part time private chef in Dubai, with a schedule that fits.",
     "body": "Choose the days that make the biggest difference: a busy weekday, a family lunch, or a few evenings each week. We discuss what can be cooked within the chosen service, agree the menu and confirm the arrangement before your first visit.",
@@ -69,7 +69,7 @@ export const householdServices = {
     "faq": [
       [
         "Can I book just one day a week?",
-        "Yes. A monthly member plan starts with four prepaid visits, typically once a week. The three-hour Private Chef Visit is AED 750 per member visit. You can also book one visit at AED 1,125. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit."
+        "Yes. A monthly member plan starts with four prepaid visits, typically once a week. The four-hour Fridge Reset is AED 900 per member visit. You can also book one visit at AED 1,350. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit."
       ],
       [
         "Is this the same as meal delivery?",

@@ -12,7 +12,7 @@ export function monthlyFrom(perService: number, daysPerWeek: number, zoneFee = 0
   return (perService + zoneFee) * 4 * daysPerWeek
 }
 
-/** Entry long-term figure: Professional Chef, one Fresh Meal a week. From the pricing engine. */
+/** Entry long-term figure: Professional Chef, one four-hour Fridge Reset a week. From the pricing engine. */
 export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rate, 1)
 
 export const SEO_TITLE = `Private Chef Dubai | From ${formatAed(ENTRY_MONTHLY)} a Month | myCHEF`
@@ -270,8 +270,8 @@ export const quickNav = [
 export const heroFacts = [
   {
     eyebrow: 'Entry point',
-    title: 'From AED 3,000 / four weeks',
-    body: 'One three-hour Fresh Meal visit a week. The chef cooks, organises the food and leaves — a private chef without someone in the house all day.',
+    title: 'From AED 3,600 / four weeks',
+    body: 'One four-hour Fridge Reset visit a week. The chef cooks, organises the food and leaves — a private chef without someone in the house all day.',
   },
   {
     eyebrow: 'The product',
@@ -286,23 +286,6 @@ export const heroFacts = [
 ] as const
 
 export const serviceFormats = [
-  {
-    id: 'prep',
-    name: 'Daily Prep',
-    hours: 'Up to 3 hours',
-    perService: 675,
-    ask: 'Prepare it for me',
-    tag: 'The quiet option',
-    body: 'The chef comes in, prepares the food your household needs, organises it and leaves. You provide the groceries — or add grocery management and the service becomes five hours.',
-    includes: [
-      'Up to 3 hours of cooking and preparation',
-      'Lunch ready · dinner prepared for you to finish or reheat',
-      'Children’s food handled',
-      'Components portioned, labelled and stored',
-      'Kitchen left the way it was found',
-    ],
-    chooseIf: 'You want a private chef’s food — without another person in the house all day.',
-  },
   {
     id: 'dinner',
     name: 'Dinner Service',
@@ -384,7 +367,7 @@ export const groceryAddOn = {
   planName: 'Daily Prep + Grocery Management',
   optionMine: {
     label: 'I’ll handle the groceries',
-    sub: '3 hours per service',
+    sub: '4 hours per service',
     body: 'You buy the ingredients and have them ready when the chef arrives. The chef’s time is focused on preparation and cooking.',
   },
   optionMychef: {
@@ -393,7 +376,7 @@ export const groceryAddOn = {
     body: 'We plan the meals, make the shopping list, buy the groceries, select the ingredients and check the quality before cooking. Groceries are charged at actual cost. No markup.',
   },
   explainer:
-    'Adding grocery management changes the service from 3 to 5 hours. The extra time covers meal planning, shopping, ingredient selection and transport. You still pay only the actual grocery receipts.',
+    'Adding grocery management changes the service from 4 to 5 hours. The extra time covers meal planning, shopping, ingredient selection and transport. You still pay only the actual grocery receipts.',
   principle: 'The groceries are not marked up. The chef’s additional time is what you pay for.',
   boundary:
     'A note on who does the shopping: standard service assumes you provide the ingredients. Our chefs are culinary professionals, hired for the kitchen — not errand runners. When you do want the shopping taken over, we make it a proper part of the job rather than a favour: the service becomes five hours, so the chef has real, paid time to plan the menus, get to the market and check the quality — without eating into your cooking time.',
@@ -414,14 +397,14 @@ export const formatChooser = {
 export const formatsIntro = {
   eyebrow: 'The real question',
   title: 'How much of your food life do you want us to take over?',
-  body: 'We do not sell meals per day. Two meals could be a five-hour morning or a thirteen-hour spread — same count, completely different job. So you choose the chef’s working time and what it covers. Prices shown are per service on an ongoing plan, one rate per job. Longer service days deliberately carry a lower hourly rate — a nine-hour day is better value per hour than a three-hour visit.',
+  body: 'We do not sell meals per day. Two meals could be a five-hour morning or a thirteen-hour spread — same count, completely different job. So you choose the chef’s working time and what it covers. Prices shown are per service on an ongoing plan, one rate per job. Longer service days deliberately carry a lower hourly rate — a ten-hour day is better value per hour than a four-hour visit.',
 }
 
 export const buildAround = {
   eyebrow: 'The household plan',
   title: 'Build your private chef around your life',
   paras: [
-    'Some families want a chef for three quiet hours in the morning. Some want dinner cooked and served every evening. Some want us to take food completely off their hands. Some want a chef in the house throughout the day.',
+    'Some families want a chef for four quiet hours in the morning. Some want dinner cooked and served every evening. Some want us to take food completely off their hands. Some want a chef in the house throughout the day.',
     'Choose the time and rhythm that fits your household. We take care of the system behind it.',
   ],
 }
@@ -1076,7 +1059,7 @@ export const groceryModes = {
   eyebrow: 'Groceries at cost. Always.',
   title: 'We make money from providing the service, not from marking up your tomatoes',
   intro:
-    'Normally you provide the groceries and the chef has three hours for preparation and cooking. If you want us to take over the complete food process, the service becomes five hours. Those additional two hours cover meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact cost. We add no markup.',
+    'Normally you provide the groceries and the chef has four hours for preparation and cooking. If you want us to take over the complete food process, the service becomes five hours. That additional hour covers meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact cost. We add no markup.',
   modes: [
     {
       label: 'You handle the groceries',
@@ -1373,7 +1356,7 @@ export const locations = [
 export const faqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. A weekly Fresh Meal is AED 3,000 over four weeks; four days a week of Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts with no markup, and Premium or Executive household roles are quoted separately.',
+    a: 'One rate per job: Fridge Reset (4h) AED 900, Fridge Reset, chef shops (5h) AED 1,050, Chef by the Day (10h) AED 1,450. A weekly Fridge Reset is AED 3,600 over four weeks; four days a week of Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts with no markup, and Premium or Executive household roles are quoted separately.',
   },
   {
     q: 'Can I book a private chef for less than a month?',
@@ -1389,7 +1372,7 @@ export const faqs = [
   },
   {
     q: 'Why don’t you price by meals per day?',
-    a: 'Because meal counts hide the real job. Breakfast at 08:00 and lunch at 12:00 is a five-hour day; breakfast at 07:00 and dinner at 20:00 is a completely different one — both are “two meals.” So you choose a service format defined by working time: Daily Prep (up to 3 hours — 5 with grocery management), Dinner Service (up to 4) or Full-Day Chef (up to 9).',
+    a: 'Because meal counts hide the real job. Breakfast at 08:00 and lunch at 12:00 is a five-hour day; breakfast at 07:00 and dinner at 20:00 is a completely different one — both are “two meals.” So you choose a service format defined by working time: Fridge Reset (4 hours), Fridge Reset with shopping (5 hours) or Chef by the Day (10 hours).',
   },
   {
     q: 'What is the minimum?',
@@ -1397,7 +1380,7 @@ export const faqs = [
   },
   {
     q: 'Who buys the groceries?',
-    a: 'Your choice. Normally you provide the groceries and the chef’s three hours go into preparation and cooking. If you want us to take over the complete food process, Daily Prep becomes a five-hour service: the additional two hours cover meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact receipts — we add no markup; the chef’s additional time is what you pay for. Payment: you shop yourself, authorise the chef to pay with your card or household account, or we order online.',
+    a: 'Your choice. Normally you provide the groceries and the chef’s four hours go into preparation and cooking. If you want us to take over the complete food process, Daily Prep becomes a five-hour service: the additional hour covers meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact receipts — we add no markup; the chef’s additional time is what you pay for. Payment: you shop yourself, authorise the chef to pay with your card or household account, or we order online.',
   },
   {
     q: 'What does transport cost?',

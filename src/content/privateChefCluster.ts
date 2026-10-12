@@ -45,14 +45,14 @@ export const INQUIRY_HREF = '/inquiry?from=/private-chef-dubai'
 export const FIND_CHEF_LABEL = 'Request a household chef'
 
 /** Structural price examples for the parent, computed by the single pricing engine (src/content/privateChefPricing.ts). */
-const preview = (serviceId: 'fresh-meal' | 'autopilot' | 'full-day', daysPerWeek: number) =>
+const preview = (serviceId: 'food-prep' | 'autopilot' | 'full-day', daysPerWeek: number) =>
   computeQuote({ ...DEFAULT_INPUT, duration: 'long', serviceId, daysPerWeek, guests: 4 })
-const pFresh = preview('fresh-meal', 1)
+const pPrep = preview('food-prep', 1)
 const pAuto = preview('autopilot', 5)
 const pFull = preview('full-day', 5)
 
 export const pricingPreview = [
-  { id: 'part-time', label: 'Part-time household', rhythm: 'One fresh meal a week', format: pFresh.service.name, days: 1, monthly: pFresh.perMonth, note: 'Four prepaid visits per month at the member rate. We aim to keep the same chef on your agreed days.' },
+  { id: 'part-time', label: 'Part-time household', rhythm: 'One four-hour cooking visit a week', format: pPrep.service.name, days: 1, monthly: pPrep.perMonth, note: 'Four prepaid visits per month at the member rate. We aim to keep the same chef on your agreed days.' },
   { id: 'regular', label: 'Regular household', rhythm: 'Fridge Reset, chef shops, five days a week', format: pAuto.service.name, days: 5, monthly: pAuto.perMonth, note: 'Planning, shopping, cooking and cleanup handled — the managed kitchen.' },
   { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'Ten-hour shifts on agreed days, with meals planned around your timetable.' },
 ] as const
@@ -269,7 +269,7 @@ export const childSeo = {
   pricing: {
     title: 'Build Your Private Chef Plan in Dubai | Hours, Days & Cover | myCHEF',
     description:
-      'Private chef Dubai prices from AED 750 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online.',
+      'Private chef Dubai prices from AED 900 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online.',
     h1: 'Private Chef Dubai Prices',
     subtitle:
       'Choose how long you need your chef, how often they should come, and how much of your kitchen you want us to manage. See the price before you enquire.',
@@ -386,7 +386,7 @@ export const parentFaqs = [
   },
   {
     "q": "How much does the service cost?",
-    "a": "A three-hour Private Chef Visit is AED 1,125 single or AED 750 member. A four-hour Fridge Reset is AED 1,350 single or AED 900 member. Member plans require 4+ prepaid visits per month. All before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Managed Household starts from AED 15,000/month including the agreed chef service and myCHEF management, with AED 950 Match Activation, paid trials and agreed extras separate. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
+    "a": "A four-hour Fridge Reset is AED 1,350 single or AED 900 member. Member plans require 4+ prepaid visits per month. All before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Managed Household starts from AED 15,000/month including the agreed chef service and myCHEF management, with AED 950 Match Activation, paid trials and agreed extras separate. Compare the options on [Pricing & Plans](/private-chef-dubai/pricing)."
   },
   {
     "q": "Can I book a chef for one dinner?",
@@ -401,7 +401,7 @@ export const howItWorksFaqs = [
   },
   {
     q: 'Can I get a part time cook in Dubai?',
-    a: 'Yes. Four prepaid three-hour Private Chef Visits cost AED 3,000 over four weeks at the member rate. Single visits are AED 1,125. Both are before 5% VAT, groceries at actual cost with no markup and zone transport AED 40–130 per visit. Chef coordination and an approved Food Profile support the agreed visits. Cover is subject to availability and your agreement. Rates are on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
+    a: 'Yes. Four prepaid four-hour Fridge Reset visits cost AED 3,600 over four weeks at the member rate. Single visits are AED 1,350. Both are before 5% VAT, groceries at actual cost with no markup and zone transport AED 40–130 per visit. Chef coordination and an approved Food Profile support the agreed visits. Cover is subject to availability and your agreement. Rates are on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
   },
   {
     q: 'What is the Food Profile?',
@@ -485,7 +485,7 @@ export const privacyFaqs = [
 export const pricingFaqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'Signature visit rates, single / member: Private Chef Visit (3h) AED 1,125 / 750; Fridge Reset (4h) AED 1,350 / 900; Fridge Reset, chef shops (5h) AED 1,575 / 1,050; Chef by the Day (10h) AED 2,000 / 1,450. Member plans require 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. See [private chef visit prices](/private-chef-dubai/pricing#visit-rates).',
+    a: 'Signature visit rates, single / member: Fridge Reset (4h) AED 1,350 / 900; Fridge Reset, chef shops (5h) AED 1,575 / 1,050; Chef by the Day (10h) AED 2,000 / 1,450. Member plans require 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. See [private chef visit prices](/private-chef-dubai/pricing#visit-rates).',
   },
   {
     q: 'Can I book a private chef for less than a month?',
@@ -493,11 +493,11 @@ export const pricingFaqs = [
   },
   {
     q: 'Who buys the groceries?',
-    a: 'Your choice. Normally you provide the groceries and the chef’s three hours go into preparation and cooking. Choose Fridge Reset, chef shops for five hours including shopping management. The groceries themselves are charged at the exact receipts — we add no markup.',
+    a: 'Your choice. Normally you provide the groceries and the chef’s four hours go into preparation and cooking. Choose Fridge Reset, chef shops for five hours including shopping management. The groceries themselves are charged at the exact receipts — we add no markup.',
   },
   {
     q: 'What does a home chef in Dubai cost per month?',
-    a: 'Four prepaid Private Chef Visits cost AED 3,000 over four weeks. Twenty Fridge Reset visits with shopping cost AED 21,000; twenty ten-hour Chef by the Day visits cost AED 29,000. These are member service fees before 5% VAT, groceries at actual cost with no markup and zone transport AED 40–130 per visit. Dedicated Managed Household is a separate monthly service. See [current chef prices](/private-chef-dubai/pricing#calculator).',
+    a: 'Four prepaid four-hour Fridge Reset visits cost AED 3,600 over four weeks. Twenty Fridge Reset visits with shopping cost AED 21,000; twenty ten-hour Chef by the Day visits cost AED 29,000. These are member service fees before 5% VAT, groceries at actual cost with no markup and zone transport AED 40–130 per visit. Dedicated Managed Household is a separate monthly service. See [current chef prices](/private-chef-dubai/pricing#calculator).',
   },
   {
     q: 'Is private chef hire cheaper than employing a cook myself?',

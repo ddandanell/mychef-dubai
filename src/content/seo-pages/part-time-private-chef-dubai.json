@@ -111,7 +111,7 @@
     "Confirm the menu 7 days before the date, with final numbers.",
     "Ask about allergies when booking, well outside the final 48 hours .",
     "Check how the team reaches the venue; setup begins about 2 hours before guests.",
-    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
+    "Private chef visits start from four hours. Agree the booked hours and add 5% VAT to the total."
    ],
    "insert_after_block": "Part-Time Private Chef Questions",
    "position": "after the block titled 'Part-Time Private Chef Questions'",

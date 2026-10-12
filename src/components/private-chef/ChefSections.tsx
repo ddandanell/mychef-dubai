@@ -48,9 +48,9 @@ export function RealWork({ compact = false }: { compact?: boolean }) {
 
 export function PricePreview() {
   const choices = [
-    { name: 'One meal, cooked for you', price: SERVICES[0].singleRate, unit: 'single visit', explanation: 'Private Chef Visit · three hours. Start with one booking.', href: '/private-chef-dubai/pricing?duration=short#calculator' },
-    { name: 'A fridge reset every week', price: SERVICES[1].rate * 4, unit: 'four prepaid visits', explanation: 'Member rate of AED 900 per four-hour visit. Four visits over four weeks.', href: '/private-chef-dubai/pricing?duration=long&service=food-prep#calculator' },
-    { name: 'Your chef for the whole day', price: SERVICES[3].singleRate, unit: 'single day', explanation: 'Chef by the Day · ten hours. Meals, shopping coordination and cleanup.', href: '/private-chef-dubai/pricing?duration=short&service=full-day#calculator' },
+    { name: 'A four-hour cooking visit', price: SERVICES[0].singleRate, unit: 'single visit', explanation: 'Fridge Reset · four hours. Start with one booking.', href: '/private-chef-dubai/pricing?duration=short#calculator' },
+    { name: 'A fridge reset every week', price: SERVICES[0].rate * 4, unit: 'four prepaid visits', explanation: 'Member rate of AED 900 per four-hour visit. Four visits over four weeks.', href: '/private-chef-dubai/pricing?duration=long&service=food-prep#calculator' },
+    { name: 'Your chef for the whole day', price: SERVICES[2].singleRate, unit: 'single day', explanation: 'Chef by the Day · ten hours. Meals, shopping coordination and cleanup.', href: '/private-chef-dubai/pricing?duration=short&service=full-day#calculator' },
   ]
   return <div><div className="pc-price-grid">{choices.map(choice => <Link to={choice.href} key={choice.name} className="pc-price-card"><h3>{choice.name}</h3><p className="pc-price">{formatAed(choice.price)}<span> / {choice.unit}</span></p><p>{choice.explanation}</p><span className="pc-card-link">Build your plan <ArrowUpRight size={17}/></span></Link>)}</div><p className="pc-fineprint">{PRICE_NOTE} Assistants and agreed extras are separate. {MEMBER_NOTE}</p></div>
 }

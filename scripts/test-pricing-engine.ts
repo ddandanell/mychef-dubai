@@ -4,11 +4,17 @@ import { FULL_TIME_START_PRICE } from '../src/content/householdChefs'
 import { planText } from '../src/components/private-chef/pricing/planText'
 import { chefVisitSchema } from '../src/lib/householdSchema'
 
-// Business acceptance cases from the approved 2026-10-03 pricing guide.
+// Business acceptance cases: 2026-10-03 rates, with the three-hour package retired on 2026-10-12.
 assert.equal(FULL_TIME_START_PRICE, 15000, 'Dedicated household pricing is a separate service')
 assert.equal(DEFAULT_INPUT.duration, 'short')
 assert.equal(DEFAULT_INPUT.stayDays, 1)
-const expected = [[3,1125,750],[4,1350,900],[5,1575,1050],[10,2000,1450]]
+assert.equal(DEFAULT_INPUT.serviceId, 'food-prep')
+assert(SERVICES.every(service => service.hours >= 4), 'No private-chef package under four hours')
+// Stale external inputs must never revive the retired three-hour package.
+const retiredInput = { ...DEFAULT_INPUT, serviceId: 'fresh-meal' } as unknown as typeof DEFAULT_INPUT
+assert.equal(computeQuote(retiredInput).hoursPerService, 4)
+assert.equal(computeQuote(retiredInput).perService, 1350)
+const expected = [[4,1350,900],[5,1575,1050],[10,2000,1450]]
 for (const [index, service] of SERVICES.entries()) {
   const [hours, single, member] = expected[index]
   const input = { ...DEFAULT_INPUT, serviceId: service.id }
@@ -29,8 +35,8 @@ for (const [index, service] of SERVICES.entries()) {
   }
 }
 assert.equal(computeQuote({ ...DEFAULT_INPUT, stayDays: 0 }).servicesTotal, 1)
-assert.equal(SERVICES[1].rate + GROCERY_MANAGEMENT_ADD_ON.rate, SERVICES[2].rate)
-assert.equal(SERVICES[1].singleRate + GROCERY_MANAGEMENT_ADD_ON.singleRate, SERVICES[2].singleRate)
+assert.equal(SERVICES[0].rate + GROCERY_MANAGEMENT_ADD_ON.rate, SERVICES[1].rate)
+assert.equal(SERVICES[0].singleRate + GROCERY_MANAGEMENT_ADD_ON.singleRate, SERVICES[1].singleRate)
 for (const duration of ['short','long'] as const) {
   const shopping = computeQuote({ ...DEFAULT_INPUT, duration, serviceId:'food-prep', groceryMode:'mychef' })
   const included = computeQuote({ ...DEFAULT_INPUT, duration, serviceId:'autopilot' })
@@ -39,13 +45,13 @@ for (const duration of ['short','long'] as const) {
 }
 assert.equal(computeQuote({ ...DEFAULT_INPUT, serviceId:'full-day', guests:9 }).perService, 2550)
 assert.equal(computeQuote({ ...DEFAULT_INPUT, serviceId:'full-day', guests:20 }).perService, 3100)
-assert.equal(computeQuote({ ...DEFAULT_INPUT, guests:9 }).perService, 1475)
+assert.equal(computeQuote({ ...DEFAULT_INPUT, guests:9 }).perService, 1700)
 assert.equal(assistantsFor(40).custom, true)
 assert.equal(tierFor(28).name, 'Member rate')
 const central = computeQuote({ ...DEFAULT_INPUT, transportZoneId:'central' })
 assert.equal(central.transportPerService, 40)
-assert.equal(central.vatPerService, 58.25)
-assert.equal(central.periodWithVat, 1223.25)
+assert.equal(central.vatPerService, 69.5)
+assert.equal(central.periodWithVat, 1459.5)
 const fullMemberInput = { ...DEFAULT_INPUT, duration:'long' as const, serviceId:'full-day' as const, daysPerWeek:5, transportZoneId:'marina-palm' as const }
 const fullMember = computeQuote(fullMemberInput)
 assert.equal(fullMember.perMonth, 29000)
@@ -61,6 +67,6 @@ assert.equal(mealPackPrice([15,0,0], true), 675)
 assert.equal(mealPackPrice([45,0,0], false), 2700)
 const graph = chefVisitSchema('Chef visits','Published rates',[],true)
 const offers = graph['@graph'][0].hasOfferCatalog.itemListElement
-assert.deepEqual(offers.map(offer => offer.price), [1125,750,1350,900,1575,1050,2000,1450,60,45,80,60,125,95])
+assert.deepEqual(offers.map(offer => offer.price), [1350,900,1575,1050,2000,1450,60,45,80,60,125,95])
 assert(offers.every(offer => offer.priceSpecification.price === offer.price && !offer.priceSpecification.valueAddedTaxIncluded))
 console.log('Pricing passed: all single/member rates, no volume reduction, one-visit minimum, 10-hour days, groceries, assistants, zone transport, VAT, meal packs, quote handoff and schema.')

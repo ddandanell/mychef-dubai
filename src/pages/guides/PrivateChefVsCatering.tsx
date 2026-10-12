@@ -264,7 +264,7 @@ export default function PrivateChefVsCatering() {
             Both services bring professional cooking to your setting. At myCHEF, household chef plans cover regular meals and weekly routines. One-off private dinners and larger events are arranged through our catering services, with the chef, staffing and equipment matched to the occasion.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Choose household visits for everyday cooking, even if you only need one meal. A three-hour visit is AED 1,125 single or AED 750 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Choose catering when the brief includes a hosted occasion, event setup or table service.
+            Choose household visits for everyday cooking, even if you only need one meal. A four-hour Fridge Reset visit is AED 1,350 single or AED 900 member with 4+ prepaid visits per month. Before 5% VAT; groceries at actual cost, no markup, and zone transport AED 40–130 per visit are separate. Choose catering when the brief includes a hosted occasion, event setup or table service.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below is a side-by-side comparison, plus guidance on hybrid options and how cost changes with scale.

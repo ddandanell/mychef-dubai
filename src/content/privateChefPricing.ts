@@ -4,12 +4,13 @@
  * One engine, one config. Change a rate, a tier or a staffing rule HERE and every
  * surface (calculator, summary card, lead payload, schema, hub previews) follows.
  *
+ * Updated 2026-10-12: the three-hour package is retired; visits start at four hours.
  * Approved 2026-10-03: single visits are available. Member rates apply to
  * monthly plans of four or more prepaid visits, with no further volume reduction.
  * All published rates are before 5% VAT, groceries and zone transport.
  */
 
-export type ServiceId = 'fresh-meal' | 'food-prep' | 'autopilot' | 'full-day'
+export type ServiceId = 'food-prep' | 'autopilot' | 'full-day'
 export type Duration = 'short' | 'long'
 export type Meal = 'breakfast' | 'lunch' | 'dinner'
 export type GroceryMode = 'client' | 'mychef'
@@ -18,23 +19,6 @@ export type GroceryMode = 'client' | 'mychef'
 export const CURRENCY = 'AED'
 
 export const SERVICES = [
-  {
-    id: 'fresh-meal',
-    name: 'Private Chef Visit',
-    hours: 3,
-    tagline: 'A freshly prepared breakfast, lunch or dinner.',
-    body: 'Your chef arrives, cooks one meal fresh, serves it the way this house likes, and leaves the kitchen handled.',
-    rate: 750,
-    singleRate: 1125,
-    unit: 'service',
-    badge: null,
-    highlight: false,
-    asksMeal: true,
-    asksGrocery: true,
-    groceryIncluded: false,
-    included: ['One meal cooked fresh', 'Service the way you want it', 'Kitchen left the way it was found'],
-    notIncluded: ['Groceries', 'Shopping / procurement (unless grocery management is added)'],
-  },
   {
     id: 'food-prep',
     name: 'Fridge Reset',
@@ -110,7 +94,7 @@ export const SERVICES = [
   },
 ] as const
 
-/** Adding grocery management to a 3h or 4h service adds one hour of kitchen-management time. */
+/** Adding grocery management to a 4h service adds one hour of kitchen-management time. */
 export const GROCERY_MANAGEMENT_ADD_ON = { hours: 1, rate: 150, singleRate: 225 } as const
 
 /** Published visit rates are for Signature. Reserve and Private Office are quoted on request. */
@@ -277,7 +261,7 @@ export function computeQuote(input: QuoteInput): Quote {
   const service = SERVICES.find((s) => s.id === input.serviceId) ?? SERVICES[0]
   const shortStay = input.duration === 'short'
 
-  // Grocery management: included in 5h/10h; optional +1h add-on for 3h/4h.
+  // Grocery management: included in 5h/10h; optional +1h add-on for 4h.
   const addsManagement = service.asksGrocery && input.groceryMode === 'mychef'
   const groceryManaged = service.groceryIncluded || addsManagement
   const hoursPerService = service.hours + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.hours : 0)
@@ -343,7 +327,7 @@ export const DEFAULT_INPUT: QuoteInput = {
   daysPerWeek: 1,
   lengthId: 'ongoing',
   startDate: null,
-  serviceId: 'fresh-meal',
+  serviceId: 'food-prep',
   meal: 'dinner',
   guests: 4,
   groceryMode: 'client',
@@ -364,11 +348,11 @@ export const FEE_SEPARATE = [
 export const SPECIALISTS = ['Japanese / Sushi', 'Italian', 'French', 'Pastry', 'Indian', 'BBQ', 'Special dietary specialists'] as const
 
 export const PRICING_FAQS = [
-  { q: 'Can I book just one visit?', a: 'Yes. Single visits start at AED 1,125 for three hours. Member rates start at AED 750 for a monthly plan of four or more prepaid visits. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit.' },
+  { q: 'Can I book just one visit?', a: 'Yes. Single visits start at AED 1,350 for four hours. Member rates start at AED 900 for a monthly plan of four or more prepaid visits. Both are before 5% VAT, groceries at actual cost with no markup, and zone transport of AED 40–130 per visit.' },
   { q: 'Can I have the same chef every week?', a: 'Yes. Recurring plans are built around a regular assigned chef whenever possible; at five or more days a week the arrangement is dedicated, with chef capacity substantially reserved around your schedule.' },
   { q: 'Can I choose my days?', a: 'Yes. You set the days, and the chef is built around them.' },
   { q: 'Can I move a scheduled day?', a: `Yes — with at least ${RESCHEDULE_NOTICE_HOURS} hours’ notice, a scheduled service can be moved within the current billing month, subject to chef availability. With less than ${RESCHEDULE_NOTICE_HOURS} hours’ notice the service remains chargeable, because the chef’s day was already held for your house. The supplier who employs the chef works to the same ${RESCHEDULE_NOTICE_HOURS} hours, so nobody is told two different rules.` },
-  { q: 'Are groceries included?', a: 'The shopping cost is separate and charged at actual cost. Grocery management — planning, shopping or ordering, receipts — is included in Fridge Reset, chef shops and Chef by the Day, and can be added to a Private Chef Visit or Fridge Reset.' },
+  { q: 'Are groceries included?', a: 'The shopping cost is separate and charged at actual cost. Grocery management — planning, shopping or ordering, receipts — is included in Fridge Reset, chef shops and Chef by the Day, and can be added to a four-hour Fridge Reset.' },
   { q: 'Does myCHEF mark up groceries?', a: 'No. Groceries and any direct delivery or transport costs are charged at actual cost. myCHEF adds no percentage.' },
   { q: 'How many people are included?', a: 'Up to eight people are included in the chef price. From nine, the calculator adds assistants automatically: one from 9 to 19, two from 20 to 29, three from 30 to 39. From 40 we review staffing with you.' },
   { q: 'Can you cook for children separately?', a: 'Yes. What the children eat — timing, refusals, allergies — sits in the Food Profile, and the chef plans around it.' },

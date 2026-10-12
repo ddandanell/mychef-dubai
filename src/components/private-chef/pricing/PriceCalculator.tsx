@@ -41,7 +41,6 @@ const MEALS: { id: Meal; label: string }[] = [
   { id: 'dinner', label: 'Dinner' },
 ]
 const INDICATORS: Record<ServiceId, string[]> = {
-  'fresh-meal': ['Cook'],
   'food-prep': ['Prep', 'Store'],
   autopilot: ['Plan', 'Shop', 'Cook'],
   'full-day': ['Plan', 'Shop', 'Cook', 'All day'],

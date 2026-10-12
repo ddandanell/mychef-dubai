@@ -36,7 +36,7 @@ export function feedbackFor(last: LastChange | null, prev: Quote | null, next: Q
         case 'food-prep':
           return { title: 'Fridge Reset', body: 'About 20–25 labelled portions, depending on the menu, portions and kitchen.' }
         default:
-          return { title: 'Private Chef Visit', body: 'One meal, cooked fresh, served the way this house likes it.' }
+          return null
       }
     case 'groceryMode':
       if (last.to === 'mychef') {

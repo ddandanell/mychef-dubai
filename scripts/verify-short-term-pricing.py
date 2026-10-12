@@ -30,7 +30,7 @@ for f in (ROOT/'dist').rglob('index.html'):
     route='/'+str(f.parent.relative_to(ROOT/'dist'));route='/' if route=='/.' else route
     page=Page();page.feed(f.read_text());pages[route]=page
     text=' '.join(' '.join(page.text).split())
-    for pattern in [r'\bFresh Meal\b',r'\bPrivate Chef Food Prep\b',r'\bKitchen on Autopilot\b',r'minimum three chef days',r'at least three chef days',r'3–29 chef days',r'12% frequency reduction',r'nine-hour (?:full-day|shift)',r'AED 1,320',r'AED 26,400',r'AED 18,500']:
+    for pattern in [r'\bFresh Meal\b',r'\bPrivate Chef Food Prep\b',r'\bKitchen on Autopilot\b',r'minimum three chef days',r'at least three chef days',r'3–29 chef days',r'12% frequency reduction',r'nine-hour (?:full-day|shift)',r'AED 1,320',r'AED 26,400',r'AED 18,500',r'AED 1,125',r'(?:three[ -]hour|3\s*h(?:ours?|rs?)?) (?:Private Chef Visit|chef visit|visit)',r'Private Chef Visit \(3h\)',r'chef[’\']s three hours']:
         if re.search(pattern,text):fail.append(f'{route}: retired visit wording: {pattern}')
 core=['/private-chef-dubai/pricing','/private-chef-dubai/short-term-chef','/weekly-meal-prep-dubai','/part-time-private-chef-dubai','/private-chef-dubai']
 for route in core:
@@ -43,11 +43,11 @@ for route in core[:2]:
     page=pages.get(route)
     if not page:continue
     text=' '.join(' '.join(page.text).split())
-    for price in ['1,125','750','1,350','900','1,575','1,050','2,000','1,450']:
+    for price in ['1,350','900','1,575','1,050','2,000','1,450']:
         if f'AED {price}' not in text:fail.append(f'{route}: visible price missing: {price}')
     catalogs=[node for node in walk(page.scripts) if node.get('@type')=='OfferCatalog' and node.get('name')=='Signature private chef rates']
     if len(catalogs)!=1:fail.append(f'{route}: expected one visit OfferCatalog');continue
-    expected=[1125,750,1350,900,1575,1050,2000,1450]+([60,45,80,60,125,95] if route==core[0] else [])
+    expected=[1350,900,1575,1050,2000,1450]+([60,45,80,60,125,95] if route==core[0] else [])
     offers=catalogs[0]['itemListElement']
     if [offer['price'] for offer in offers]!=expected:fail.append(f'{route}: schema price mismatch')
     for offer in offers:
