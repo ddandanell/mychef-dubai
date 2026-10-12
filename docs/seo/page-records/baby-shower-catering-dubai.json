@@ -84,7 +84,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2095,
-    "current_word_count": 2739,
+    "current_word_count": 2752,
     "headings": [
       {
         "level": "h2",
@@ -269,6 +269,10 @@
       {
         "level": "h2",
         "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

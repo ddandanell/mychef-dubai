@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 893,
+    "current_word_count": 906,
     "headings": [
       {
         "level": "h2",
@@ -160,6 +160,10 @@
       {
         "level": "h2",
         "text": "Start the recovery week in the kitchen"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

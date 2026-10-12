@@ -101,7 +101,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4633,
-    "current_word_count": 5122,
+    "current_word_count": 5169,
     "headings": [
       {
         "level": "h2",
@@ -477,6 +477,14 @@
       },
       {
         "level": "h2",
+        "text": "Client reviews"
+      },
+      {
+        "level": "h2",
+        "text": "See the dishes. See the prices."
+      },
+      {
+        "level": "h2",
         "text": "Helpful guides for your next booking"
       },
       {
@@ -538,6 +546,11 @@
       }
     ],
     "featured_children": [
+      {
+        "url": "/corporate/menus-prices",
+        "anchor": "Menus & Prices",
+        "alt_anchors": []
+      },
       {
         "url": "/office-catering-dubai",
         "anchor": "Office catering",

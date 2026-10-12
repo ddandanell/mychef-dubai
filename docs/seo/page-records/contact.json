@@ -86,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 588,
-    "current_word_count": 637,
+    "current_word_count": 650,
     "headings": [
       {
         "level": "h2",
@@ -147,6 +147,10 @@
       {
         "level": "h2",
         "text": "Tell us what you need. We will take it from there."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

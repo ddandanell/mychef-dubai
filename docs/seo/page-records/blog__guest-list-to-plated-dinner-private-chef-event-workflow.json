@@ -75,7 +75,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2433,
+    "current_word_count": 2459,
     "headings": [
       {
         "level": "h2",
@@ -152,6 +152,10 @@
       {
         "level": "h2",
         "text": "Plan private dining experiences in Dubai with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

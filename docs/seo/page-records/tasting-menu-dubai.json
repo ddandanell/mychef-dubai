@@ -87,7 +87,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1089,
-    "current_word_count": 1088,
+    "current_word_count": 1114,
     "headings": [
       {
         "level": "h2",
@@ -192,6 +192,14 @@
       {
         "level": "h2",
         "text": "Send the date, the headcount and how you eat"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
+      },
+      {
+        "level": "h2",
+        "text": "See the dishes. See the prices."
       },
       {
         "level": "h2",

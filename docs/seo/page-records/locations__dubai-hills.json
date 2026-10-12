@@ -79,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 937,
-    "current_word_count": 922,
+    "current_word_count": 935,
     "headings": [
       {
         "level": "h2",
@@ -208,6 +208,10 @@
       {
         "level": "h2",
         "text": "Send the Hills cluster"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

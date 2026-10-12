@@ -85,7 +85,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2393,
-    "current_word_count": 4036,
+    "current_word_count": 4062,
     "headings": [
       {
         "level": "h2",
@@ -466,6 +466,14 @@
       {
         "level": "h3",
         "text": "Your shortlist 0"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
+      },
+      {
+        "level": "h2",
+        "text": "See the dishes. See the prices."
       }
     ],
     "baseline_findings": [

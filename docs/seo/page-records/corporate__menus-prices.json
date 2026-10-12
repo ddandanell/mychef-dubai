@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05",
+  "url": "https://www.mychef.ae/corporate/menus-prices",
+  "path": "/corporate/menus-prices",
+  "role": "indexable page",
+  "page_type": "Menu and pricing catalogue",
+  "silo": "Corporate Catering",
+  "purpose": "Corporate catering menus and prices in Dubai: compare 33 packages and 16 live stations, full menus, guest tiers and inclusions. Prices exclude 5% VAT.",
+  "keywords": {
+    "primary": "corporate catering menus and prices dubai",
+    "secondary": [],
+    "primary_owner": "/corporate/menus-prices",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Corporate Catering Menus & Prices Dubai | myCHEF",
+    "description": "Corporate catering menus and prices in Dubai: compare 33 packages and 16 live stations, full menus, guest tiers and inclusions. Prices exclude 5% VAT.",
+    "h1": [
+      "Corporate Catering Menus and Prices Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/corporate/menus-prices",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catalogues/CataloguePage.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/bookingTerms.ts",
+    "src/content/catalogues/catalogue.ts",
+    "src/content/catalogues/corporate.json",
+    "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/pages/CorporateMenusPrices.tsx",
+    "src/styles/catering-editorial.css",
+    "src/styles/menu-catalogues.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 12163,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Explore the dishes"
+      },
+      {
+        "level": "h2",
+        "text": "See your price"
+      },
+      {
+        "level": "h2",
+        "text": "Make it yours"
+      },
+      {
+        "level": "h2",
+        "text": "Corporate catering menus and prices Dubai — choose your format"
+      },
+      {
+        "level": "h2",
+        "text": "Breakfast & Coffee Breaks"
+      },
+      {
+        "level": "h3",
+        "text": "Basic Breakfast — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "Basic Breakfast — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Deluxe Breakfast — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Breakfast — Menu Option 4"
+      },
+      {
+        "level": "h3",
+        "text": "Afternoon High Tea Menu"
+      },
+      {
+        "level": "h2",
+        "text": "Light Buffet & Finger Foods"
+      },
+      {
+        "level": "h3",
+        "text": "Light Buffet — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "Light Buffet — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Deluxe Light Buffet — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Deluxe Light Buffet — Menu Option 4"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Light Buffet — Menu Option 5"
+      },
+      {
+        "level": "h2",
+        "text": "Lunch Buffets — International, Arabic & Indian (minimum 20 guests)"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Premium International Buffet — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Buffet — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Buffet — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Arabic Buffet — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Indian Buffet — Menu Option 1"
+      },
+      {
+        "level": "h2",
+        "text": "Lunch Buffets — Small Groups (10 to 15 guests)"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet (Small Group) — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet (Small Group) — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "International Buffet (Small Group) — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Premium International Buffet (Small Group) — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Buffet (Small Group) — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "Arabic Buffet (Small Group) — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Premium Arabic Buffet (Small Group) — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "Indian Buffet (Small Group) — Menu Option 1"
+      },
+      {
+        "level": "h2",
+        "text": "Coffee Breaks & Lunch Packages"
+      },
+      {
+        "level": "h3",
+        "text": "2 Coffee Breaks & Lunch — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "2 Coffee Breaks & Lunch — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Premium 2 Coffee Breaks & Lunch — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "1 Coffee Break & Lunch — Menu Option 1"
+      },
+      {
+        "level": "h3",
+        "text": "1 Coffee Break & Lunch — Menu Option 2"
+      },
+      {
+        "level": "h3",
+        "text": "Premium 1 Coffee Break & Lunch — Menu Option 3"
+      },
+      {
+        "level": "h3",
+        "text": "2 Coffee Breaks (Morning & Afternoon) — Without Lunch"
+      },
+      {
+        "level": "h2",
+        "text": "Live stations"
+      },
+      {
+        "level": "h3",
+        "text": "Live English BBQ Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Arabic BBQ Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Indian BBQ Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Shawarma Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Pasta Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Burger Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Mexican Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Teriyaki Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Bao Buns Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Pani Puri, Samosa Chat & Sev Puri Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Asian Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Dumpling Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Sushi Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Crepe or Pancake Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Make-Your-Own Sandwich Station"
+      },
+      {
+        "level": "h3",
+        "text": "Live Egg Station"
+      },
+      {
+        "level": "h2",
+        "text": "Furniture, service and upgrades"
+      },
+      {
+        "level": "h3",
+        "text": "Cocktail Table with Cover"
+      },
+      {
+        "level": "h3",
+        "text": "Round Table & Tiffany Chairs (set)"
+      },
+      {
+        "level": "h3",
+        "text": "High Bar Stool (minimum of 5)"
+      },
+      {
+        "level": "h3",
+        "text": "Tiffany Chair only"
+      },
+      {
+        "level": "h3",
+        "text": "Rectangular Table with Cover"
+      },
+      {
+        "level": "h3",
+        "text": "Large Round Table with Cover (good for 10)"
+      },
+      {
+        "level": "h3",
+        "text": "Medium Round Table with Cover (good for 8)"
+      },
+      {
+        "level": "h3",
+        "text": "Bartender with Bar set-up, Bar Glasses & Ice"
+      },
+      {
+        "level": "h3",
+        "text": "Bartender only (without Bar set-up, Glasses & Ice)"
+      },
+      {
+        "level": "h3",
+        "text": "Large Icebox full of Ice"
+      },
+      {
+        "level": "h3",
+        "text": "Server overtime — last-minute extension of hours"
+      },
+      {
+        "level": "h3",
+        "text": "Extended catering hours beyond standard 4-hour service"
+      },
+      {
+        "level": "h3",
+        "text": "Next-day clearance"
+      },
+      {
+        "level": "h3",
+        "text": "Transportation (to & from, if seating is required) — up to 60 pax"
+      },
+      {
+        "level": "h3",
+        "text": "Transportation (to & from) — 60 to 100 pax"
+      },
+      {
+        "level": "h3",
+        "text": "Coffee machine upgrade"
+      },
+      {
+        "level": "h3",
+        "text": "Live-station menu additions"
+      },
+      {
+        "level": "h2",
+        "text": "Service details & booking"
+      },
+      {
+        "level": "h2",
+        "text": "Menus & prices: frequently asked questions"
+      },
+      {
+        "level": "h2",
+        "text": "Your menu quote"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-05/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/corporate",
+        "anchor": "Corporate"
+      },
+      {
+        "url": "/corporate/menus-prices",
+        "anchor": "Menus & Prices",
+        "current": true
+      }
+    ],
+    "uplink_hub": "/corporate",
+    "siblings": [
+      {
+        "url": "/corporate",
+        "anchor": "Corporate catering",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": []
+  }
+}

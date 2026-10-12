@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "reviewed_at": "2026-10-05",
   "counts": {
-    "indexable page": 216,
+    "indexable page": 220,
     "redirect": 91,
-    "noindex support page": 56
+    "noindex support page": 54
   },
-  "total": 363,
+  "total": 365,
   "records": [
     {
       "path": "/",
@@ -460,7 +460,7 @@
       "path": "/blog/desert-dinner-party-dubai",
       "file": "blog__desert-dinner-party-dubai.json",
       "primary_keyword": "desert dinner party dubai",
-      "role": "noindex support page",
+      "role": "indexable page",
       "silo": "Blog and Guides"
     },
     {
@@ -1199,6 +1199,13 @@
       "silo": "Corporate Catering"
     },
     {
+      "path": "/corporate/menus-prices",
+      "file": "corporate__menus-prices.json",
+      "primary_keyword": "corporate catering menus and prices dubai",
+      "role": "indexable page",
+      "silo": "Corporate Catering"
+    },
+    {
       "path": "/cuisines-dubai",
       "file": "cuisines-dubai.json",
       "primary_keyword": "multi cuisine catering dubai",
@@ -1892,6 +1899,13 @@
       "silo": "Dining Experiences"
     },
     {
+      "path": "/luxury-dining-experiences/menus-prices",
+      "file": "luxury-dining-experiences__menus-prices.json",
+      "primary_keyword": "private dinner menus and prices dubai",
+      "role": "indexable page",
+      "silo": "Private Dining"
+    },
+    {
       "path": "/luxury-dinner-planning-guide-dubai",
       "file": "luxury-dinner-planning-guide-dubai.json",
       "primary_keyword": "how to plan a luxury dinner dubai",
@@ -2420,7 +2434,7 @@
       "path": "/uae-national-day-catering-dubai",
       "file": "uae-national-day-catering-dubai.json",
       "primary_keyword": "uae national day catering dubai",
-      "role": "noindex support page",
+      "role": "indexable page",
       "silo": "Seasonal and Occasions"
     },
     {

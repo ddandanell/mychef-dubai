@@ -3,7 +3,7 @@
   "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/uae-national-day-catering-dubai",
   "path": "/uae-national-day-catering-dubai",
-  "role": "noindex support page",
+  "role": "indexable page",
   "page_type": "Commercial landing",
   "silo": "Seasonal and Occasions",
   "purpose": "UAE National Day catering Dubai on 2 December: Emirati dishes, grills and buffets at a home, office or venue you control. Buffet from AED 120. Itemised quote.",
@@ -40,8 +40,8 @@
   "metadata_source": "local production prerender",
   "indexation": {
     "canonical": "https://www.mychef.ae/uae-national-day-catering-dubai",
-    "robots": "noindex, follow",
-    "in_sitemap": false,
+    "robots": "index, follow",
+    "in_sitemap": true,
     "redirect_to": null
   },
   "source_files": [
@@ -88,7 +88,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 1655,
+    "current_word_count": 1668,
     "headings": [
       {
         "level": "h2",
@@ -209,6 +209,10 @@
       {
         "level": "h2",
         "text": "Tell us what you have in mind."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

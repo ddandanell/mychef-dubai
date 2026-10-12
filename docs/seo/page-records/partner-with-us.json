@@ -79,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 540,
-    "current_word_count": 569,
+    "current_word_count": 582,
     "headings": [
       {
         "level": "h2",
@@ -148,6 +148,10 @@
       {
         "level": "h2",
         "text": "Catering Partnerships Dubai: Become a myCHEF Partner"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

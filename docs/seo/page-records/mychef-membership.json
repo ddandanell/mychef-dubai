@@ -72,7 +72,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 692,
-    "current_word_count": 743,
+    "current_word_count": 756,
     "headings": [
       {
         "level": "h2",
@@ -141,6 +141,10 @@
       {
         "level": "h2",
         "text": "Join myCHEF Membership Today"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

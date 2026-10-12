@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1103,
-    "current_word_count": 1132,
+    "current_word_count": 1145,
     "headings": [
       {
         "level": "h2",
@@ -176,6 +176,10 @@
       {
         "level": "h2",
         "text": "Book Your Protected Event"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

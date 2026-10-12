@@ -78,7 +78,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 879,
+    "current_word_count": 892,
     "headings": [
       {
         "level": "h2",
@@ -207,6 +207,10 @@
       {
         "level": "h2",
         "text": "Send the Bluewaters building"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

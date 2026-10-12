@@ -79,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1866,
-    "current_word_count": 2023,
+    "current_word_count": 2036,
     "headings": [
       {
         "level": "h2",
@@ -116,6 +116,10 @@
       {
         "level": "h2",
         "text": "Catering FAQ Dubai: what to send so we can quote"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

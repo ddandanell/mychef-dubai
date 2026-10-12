@@ -3,7 +3,7 @@
   "reviewed_at": "2026-10-05",
   "url": "https://www.mychef.ae/blog/desert-dinner-party-dubai",
   "path": "/blog/desert-dinner-party-dubai",
-  "role": "noindex support page",
+  "role": "indexable page",
   "page_type": "Blog post",
   "silo": "Blog and Guides",
   "purpose": "Plan a desert dinner party in Dubai with practical guidance on venue permission, access, cooking facilities, menus and service.",
@@ -36,8 +36,8 @@
   "metadata_source": "local production prerender",
   "indexation": {
     "canonical": "https://www.mychef.ae/blog/desert-dinner-party-dubai",
-    "robots": "noindex, follow",
-    "in_sitemap": false,
+    "robots": "index, follow",
+    "in_sitemap": true,
     "redirect_to": null
   },
   "source_files": [
@@ -81,7 +81,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 682,
+    "current_word_count": 695,
     "headings": [
       {
         "level": "h2",
@@ -130,6 +130,10 @@
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

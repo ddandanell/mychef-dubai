@@ -86,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1357,
-    "current_word_count": 1943,
+    "current_word_count": 1956,
     "headings": [
       {
         "level": "h2",
@@ -211,6 +211,10 @@
       {
         "level": "h2",
         "text": "Tell us about your organisation."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

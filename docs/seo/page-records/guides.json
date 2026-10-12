@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 748,
-    "current_word_count": 1006,
+    "current_word_count": 1140,
     "headings": [
       {
         "level": "h2",
@@ -184,6 +184,10 @@
       {
         "level": "h2",
         "text": "Ready to Plan Your Event?"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

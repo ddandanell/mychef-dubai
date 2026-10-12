@@ -78,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1033,
-    "current_word_count": 1043,
+    "current_word_count": 1056,
     "headings": [
       {
         "level": "h2",
@@ -195,6 +195,10 @@
       {
         "level": "h2",
         "text": "Bring the 2026 Trends to Your Table"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

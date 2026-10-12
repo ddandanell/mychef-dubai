@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-05",
+  "url": "https://www.mychef.ae/luxury-dining-experiences/menus-prices",
+  "path": "/luxury-dining-experiences/menus-prices",
+  "role": "indexable page",
+  "page_type": "Menu and pricing catalogue",
+  "silo": "Private Dining",
+  "purpose": "Private dinner menus and prices in Dubai: explore 13 signature menus for 2–20 guests, from AED 600 per person. Chef and waiter included; 5% VAT extra.",
+  "keywords": {
+    "primary": "private dinner menus and prices dubai",
+    "secondary": [],
+    "primary_owner": "/luxury-dining-experiences/menus-prices",
+    "authority": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+    "search_volume": null,
+    "volume_status": "Keyword research retained in the private audit; account metrics are not published",
+    "intent": "transactional",
+    "placement": "Use naturally in relevant copy. Preserve one primary owner; do not force secondary phrases into headings."
+  },
+  "metadata": {
+    "title": "Private Dinner Menus & Prices Dubai | myCHEF",
+    "description": "Private dinner menus and prices in Dubai: explore 13 signature menus for 2–20 guests, from AED 600 per person. Chef and waiter included; 5% VAT extra.",
+    "h1": [
+      "Private Dinner Menus and Prices Dubai"
+    ]
+  },
+  "metadata_source": "local production prerender",
+  "indexation": {
+    "canonical": "https://www.mychef.ae/luxury-dining-experiences/menus-prices",
+    "robots": "index, follow",
+    "in_sitemap": true,
+    "redirect_to": null
+  },
+  "source_files": [
+    "src/components/SEO.tsx",
+    "src/components/blog/BlogProse.tsx",
+    "src/components/blog/BlogReadingLink.tsx",
+    "src/components/catalogues/CataloguePage.tsx",
+    "src/components/catering/CateringEditorial.tsx",
+    "src/components/catering/CateringPlanningArticle.tsx",
+    "src/content/blogLinkRules.json",
+    "src/content/blogMedia.json",
+    "src/content/blogReadingLinks.json",
+    "src/content/bookingTerms.ts",
+    "src/content/catalogues/catalogue.ts",
+    "src/content/catalogues/dinner.json",
+    "src/content/cateringDesign.json",
+    "src/content/cateringDesign.ts",
+    "src/content/cateringDesignIndex.json",
+    "src/content/pageAuthority.json",
+    "src/content/pageAuthority.ts",
+    "src/content/parkedUrls.ts",
+    "src/content/privateChefDesign.ts",
+    "src/content/serviceLinkRules.json",
+    "src/content/siloMap.ts",
+    "src/context/WhatsAppMessageContext.tsx",
+    "src/lib/analytics.ts",
+    "src/lib/blogEditorial.ts",
+    "src/lib/blogImages.ts",
+    "src/lib/imageAssetUrl.ts",
+    "src/lib/jsonld.ts",
+    "src/lib/lazyPreloadable.tsx",
+    "src/lib/organizationSchema.ts",
+    "src/lib/serviceAreas.ts",
+    "src/pages/DinnerMenusPrices.tsx",
+    "src/styles/catering-editorial.css",
+    "src/styles/menu-catalogues.css"
+  ],
+  "content_review": {
+    "baseline_observed": false,
+    "baseline_word_count": null,
+    "current_word_count": 2690,
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Explore the dishes"
+      },
+      {
+        "level": "h2",
+        "text": "See your price"
+      },
+      {
+        "level": "h2",
+        "text": "Make it yours"
+      },
+      {
+        "level": "h2",
+        "text": "Private dinner menus and prices Dubai — choose your evening"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Classic — 3 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Feast — 4 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Sea Front Side — 5 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Spring from the Sea — 4 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Wild from the Heart — 4 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Truffle Lovers — 5 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Meat & Fish Journey — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Italian Tasting — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "French Tasting — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Asian Tasting — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Mediterranean Tasting — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "European Tasting — 7 Course"
+      },
+      {
+        "level": "h3",
+        "text": "Global Fusion Tasting — 7 Course"
+      },
+      {
+        "level": "h2",
+        "text": "Pairings, supplements and styling"
+      },
+      {
+        "level": "h3",
+        "text": "Premium mocktail pairing"
+      },
+      {
+        "level": "h3",
+        "text": "Cuisine tea/ritual pairing (karak, gahwa, matcha, kahwa)"
+      },
+      {
+        "level": "h3",
+        "text": "Canapés reception on arrival (4 pieces)"
+      },
+      {
+        "level": "h3",
+        "text": "Cheese course supplement"
+      },
+      {
+        "level": "h3",
+        "text": "Oscietra caviar supplement (30g)"
+      },
+      {
+        "level": "h3",
+        "text": "Lobster supplement"
+      },
+      {
+        "level": "h3",
+        "text": "A5 wagyu supplement"
+      },
+      {
+        "level": "h3",
+        "text": "Sommelier service"
+      },
+      {
+        "level": "h3",
+        "text": "Bartender with bar set-up, 6 hrs"
+      },
+      {
+        "level": "h3",
+        "text": "Additional waiter"
+      },
+      {
+        "level": "h3",
+        "text": "Table styling & florals"
+      },
+      {
+        "level": "h2",
+        "text": "Service details & booking"
+      },
+      {
+        "level": "h2",
+        "text": "Menus & prices: frequently asked questions"
+      },
+      {
+        "level": "h2",
+        "text": "Your menu quote"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
+      }
+    ],
+    "baseline_findings": [],
+    "log": "docs/editorial-audit/2026-10-05/README.md",
+    "guidance": "Preserve published pricing and written booking terms. Confirm credentials, capacity and operational guarantees with the business before making stronger claims."
+  },
+  "internal_linking": {
+    "breadcrumb": [
+      {
+        "url": "/",
+        "anchor": "Home"
+      },
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Dinner"
+      },
+      {
+        "url": "/luxury-dining-experiences/menus-prices",
+        "anchor": "Menus & Prices",
+        "current": true
+      }
+    ],
+    "uplink_hub": "/luxury-dining-experiences",
+    "siblings": [
+      {
+        "url": "/luxury-dining-experiences",
+        "anchor": "Dinner experiences",
+        "alt_anchors": []
+      }
+    ],
+    "featured_children": [],
+    "silo_index": [],
+    "commercial_owners": [],
+    "supporting_guides": [],
+    "cross_silo": []
+  }
+}

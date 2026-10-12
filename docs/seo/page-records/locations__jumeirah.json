@@ -79,7 +79,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 917,
-    "current_word_count": 913,
+    "current_word_count": 926,
     "headings": [
       {
         "level": "h2",
@@ -208,6 +208,10 @@
       {
         "level": "h2",
         "text": "Send the Jumeirah villa"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

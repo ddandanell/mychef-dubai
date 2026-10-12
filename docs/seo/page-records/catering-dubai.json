@@ -86,7 +86,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 4399,
-    "current_word_count": 2702,
+    "current_word_count": 2732,
     "headings": [
       {
         "level": "h2",
@@ -279,6 +279,14 @@
       {
         "level": "h2",
         "text": "Bring the occasion. We’ll bring the food."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
+      },
+      {
+        "level": "h2",
+        "text": "See the dishes. See the prices."
       }
     ],
     "baseline_findings": [

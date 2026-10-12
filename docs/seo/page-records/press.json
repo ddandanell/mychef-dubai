@@ -70,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 398,
-    "current_word_count": 444,
+    "current_word_count": 457,
     "headings": [
       {
         "level": "h2",
@@ -127,6 +127,10 @@
       {
         "level": "h3",
         "text": "Media or Partnership Enquiry?"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

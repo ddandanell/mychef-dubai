@@ -65,7 +65,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 115,
-    "current_word_count": 368,
+    "current_word_count": 409,
     "headings": [
       {
         "level": "h2",
@@ -97,11 +97,19 @@
       },
       {
         "level": "h3",
+        "text": "Desert Dinner Party Dubai: Planning Guide"
+      },
+      {
+        "level": "h3",
         "text": "Yacht Party Menu Ideas in Dubai"
       },
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

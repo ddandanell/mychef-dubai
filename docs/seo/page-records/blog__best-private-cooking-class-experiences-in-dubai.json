@@ -75,7 +75,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1772,
-    "current_word_count": 2175,
+    "current_word_count": 2188,
     "headings": [
       {
         "level": "h2",
@@ -156,6 +156,10 @@
       {
         "level": "h2",
         "text": "Let’s shape the details around you."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

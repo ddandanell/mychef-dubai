@@ -75,7 +75,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 2390,
+    "current_word_count": 2403,
     "headings": [
       {
         "level": "h2",
@@ -144,6 +144,10 @@
       {
         "level": "h2",
         "text": "Plan catering services in Dubai with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

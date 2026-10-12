@@ -81,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1019,
-    "current_word_count": 956,
+    "current_word_count": 969,
     "headings": [
       {
         "level": "h2",
@@ -210,6 +210,10 @@
       {
         "level": "h2",
         "text": "Send the Palm address"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

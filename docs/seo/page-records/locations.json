@@ -85,7 +85,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 226,
-    "current_word_count": 832,
+    "current_word_count": 845,
     "headings": [
       {
         "level": "h2",
@@ -158,6 +158,10 @@
       {
         "level": "h2",
         "text": "If your street is not on the cards"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

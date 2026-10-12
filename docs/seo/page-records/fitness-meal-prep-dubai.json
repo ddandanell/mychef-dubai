@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 892,
+    "current_word_count": 905,
     "headings": [
       {
         "level": "h2",
@@ -160,6 +160,10 @@
       {
         "level": "h2",
         "text": "Send the numbers. We will cook them."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

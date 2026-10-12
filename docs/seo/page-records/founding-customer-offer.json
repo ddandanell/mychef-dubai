@@ -73,7 +73,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 711,
-    "current_word_count": 734,
+    "current_word_count": 747,
     "headings": [
       {
         "level": "h2",
@@ -146,6 +146,10 @@
       {
         "level": "h2",
         "text": "Lock In Your Founding Rate"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [

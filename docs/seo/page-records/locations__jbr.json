@@ -70,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 900,
-    "current_word_count": 893,
+    "current_word_count": 906,
     "headings": [
       {
         "level": "h2",
@@ -195,6 +195,10 @@
       {
         "level": "h2",
         "text": "Send the JBR building"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

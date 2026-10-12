@@ -71,7 +71,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 709,
-    "current_word_count": 2270,
+    "current_word_count": 2283,
     "headings": [
       {
         "level": "h2",
@@ -184,6 +184,10 @@
       {
         "level": "h2",
         "text": "Let’s make something worth gathering for."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

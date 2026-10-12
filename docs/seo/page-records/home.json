@@ -101,7 +101,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1321,
-    "current_word_count": 1510,
+    "current_word_count": 1523,
     "headings": [
       {
         "level": "h2",
@@ -246,6 +246,10 @@
       {
         "level": "h2",
         "text": "Date, guest count and area in Dubai. That is enough to start."
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

@@ -89,7 +89,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 3697,
-    "current_word_count": 5076,
+    "current_word_count": 5102,
     "headings": [
       {
         "level": "h2",
@@ -333,6 +333,14 @@
       },
       {
         "level": "h2",
+        "text": "Client reviews"
+      },
+      {
+        "level": "h2",
+        "text": "See the dishes. See the prices."
+      },
+      {
+        "level": "h2",
         "text": "Helpful guides for your next booking"
       },
       {
@@ -381,6 +389,11 @@
       }
     ],
     "featured_children": [
+      {
+        "url": "/luxury-dining-experiences/menus-prices",
+        "anchor": "Menus & Prices",
+        "alt_anchors": []
+      },
       {
         "url": "/romantic-dinner-dubai",
         "anchor": "Dinner for two",

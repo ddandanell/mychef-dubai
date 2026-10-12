@@ -80,7 +80,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 974,
-    "current_word_count": 945,
+    "current_word_count": 958,
     "headings": [
       {
         "level": "h2",
@@ -209,6 +209,10 @@
       {
         "level": "h2",
         "text": "Send the Downtown tower"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

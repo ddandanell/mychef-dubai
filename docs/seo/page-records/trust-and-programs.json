@@ -74,7 +74,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 288,
-    "current_word_count": 749,
+    "current_word_count": 762,
     "headings": [
       {
         "level": "h2",
@@ -155,6 +155,10 @@
       {
         "level": "h3",
         "text": "Does a service standard guarantee an allergen-free kitchen?"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

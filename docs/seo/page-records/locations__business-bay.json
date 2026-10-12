@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 984,
-    "current_word_count": 948,
+    "current_word_count": 961,
     "headings": [
       {
         "level": "h2",
@@ -216,6 +216,10 @@
       {
         "level": "h2",
         "text": "Send the Business Bay tower"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

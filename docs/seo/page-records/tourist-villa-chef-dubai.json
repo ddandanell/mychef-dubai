@@ -83,7 +83,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 903,
+    "current_word_count": 916,
     "headings": [
       {
         "level": "h2",
@@ -160,6 +160,10 @@
       {
         "level": "h2",
         "text": "Send the villa, the dates and the headcount"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

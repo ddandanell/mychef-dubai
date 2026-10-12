@@ -78,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 789,
-    "current_word_count": 832,
+    "current_word_count": 845,
     "headings": [
       {
         "level": "h2",
@@ -155,6 +155,10 @@
       {
         "level": "h2",
         "text": "Choose the Right Format for Your Event"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

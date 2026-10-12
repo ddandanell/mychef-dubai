@@ -81,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 2938,
-    "current_word_count": 741,
+    "current_word_count": 754,
     "headings": [
       {
         "level": "h2",
@@ -126,6 +126,10 @@
       {
         "level": "h2",
         "text": "Plan it with myCHEF"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

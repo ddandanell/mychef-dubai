@@ -80,7 +80,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 699,
-    "current_word_count": 734,
+    "current_word_count": 747,
     "headings": [
       {
         "level": "h2",
@@ -157,6 +157,10 @@
       {
         "level": "h2",
         "text": "Begin Your Private Dining Journey"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

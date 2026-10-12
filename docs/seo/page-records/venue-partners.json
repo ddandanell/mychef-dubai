@@ -78,7 +78,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 700,
-    "current_word_count": 706,
+    "current_word_count": 719,
     "headings": [
       {
         "level": "h2",
@@ -103,6 +103,10 @@
       {
         "level": "h2",
         "text": "Want your venue on an approved caterer list?"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

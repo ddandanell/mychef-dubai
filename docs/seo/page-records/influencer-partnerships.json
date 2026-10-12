@@ -82,7 +82,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 755,
-    "current_word_count": 769,
+    "current_word_count": 782,
     "headings": [
       {
         "level": "h2",
@@ -159,6 +159,10 @@
       {
         "level": "h2",
         "text": "Let Us Create Together"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

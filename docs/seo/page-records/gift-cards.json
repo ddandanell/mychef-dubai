@@ -71,7 +71,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 307,
-    "current_word_count": 310,
+    "current_word_count": 323,
     "headings": [
       {
         "level": "h2",
@@ -96,6 +96,10 @@
       {
         "level": "h2",
         "text": "Date range, guest count, what the night should be"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

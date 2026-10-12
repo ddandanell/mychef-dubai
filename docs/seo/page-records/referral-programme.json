@@ -76,7 +76,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 341,
-    "current_word_count": 818,
+    "current_word_count": 831,
     "headings": [
       {
         "level": "h2",
@@ -145,6 +145,10 @@
       {
         "level": "h2",
         "text": "myCHEF Referral Programme: Start Earning Today"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

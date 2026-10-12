@@ -81,7 +81,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 1171,
-    "current_word_count": 1061,
+    "current_word_count": 1074,
     "headings": [
       {
         "level": "h2",
@@ -214,6 +214,10 @@
       {
         "level": "h2",
         "text": "Send the Marina address"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",

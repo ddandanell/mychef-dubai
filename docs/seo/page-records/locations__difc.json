@@ -70,7 +70,7 @@
   "content_review": {
     "baseline_observed": true,
     "baseline_word_count": 946,
-    "current_word_count": 924,
+    "current_word_count": 937,
     "headings": [
       {
         "level": "h2",
@@ -195,6 +195,10 @@
       {
         "level": "h2",
         "text": "Send the DIFC building"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       }
     ],
     "baseline_findings": [],

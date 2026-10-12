@@ -76,7 +76,7 @@
   "content_review": {
     "baseline_observed": false,
     "baseline_word_count": null,
-    "current_word_count": 907,
+    "current_word_count": 920,
     "headings": [
       {
         "level": "h2",
@@ -209,6 +209,10 @@
       {
         "level": "h2",
         "text": "Send the JVC cluster"
+      },
+      {
+        "level": "h2",
+        "text": "Client reviews"
       },
       {
         "level": "h2",
