@@ -16,6 +16,27 @@ Use the existing daily Ryze run and native content plan as one coordinated pipel
 
 Publication is authorized by the owner. For an approved new article, update `blog/data/<slug>.json`, the SEO contract, photography and generated route/sitemap projections together. Preserve original publication timestamps on repairs and record the actual modification date. Never mark source published and stop before its URL works. Native Ryze “published” status alone does not prove the website deployed it. Reconcile the current article export with approved editorial assignments so a later import cannot restore conflicting titles or draft status.
 
+## Ryze preference targets and money-page protection
+
+Owner clarification, 12 October 2026: all blog blocks and publishing automation must support the pages that sell catering, chef services and paid packages. This brief is the repository policy; native Ryze preferences must be read, saved and verified separately.
+
+- Language: English. Target market: United Arab Emirates, with Dubai-specific customer questions. Tone: practical, accurate and clear. Length: Dynamic; do not add filler to meet a fixed word count.
+- GitHub destination: `ddandanell/mychef-dubai`, branch `main`, folder `blog/data`. Public blog URL and headless override: `https://www.mychef.ae/blog`. Confirm the saved values in Ryze rather than assuming them from published files.
+- Use Manual native publishing while reconciling the plan with the SEO contract. Retain the existing reviewed daily pipeline; do not run a second independent automatic publishing pipeline. Resume ungated Automatic publishing only after a due article can be exported with its approved metadata, authority assignment and successful deployment checks.
+- Turn off Backlink Exchange for this workspace. Keep useful editorial citations to authoritative sources; do not insert reciprocal promotions or unrelated partner links. Do not enable automated press releases as part of blog publishing.
+- Protect every existing service, pricing, package, menu and quote-calculator page from blog-driven rewrites, keyword reassignment, new indexation rules and automated article blocks. Commercial titles, H1s, pricing tables, menus, review widgets and enquiry CTAs on those pages require their own authorized page work. Article publication changes the article and its necessary route/sitemap projections only.
+- Reserve commercial service and price keywords for their established canonical page. Blog titles, H1s, primary keywords and FAQs answer specific informational questions. If a price question arises, explain the factors and link to the current service/pricing page; do not invent a competing rate card.
+- Each article must contain an early contextual link to its assigned service owner, a relevant next step and useful supporting content. TL;DR, FAQ, quote, product and CTA blocks must add information specific to that question; do not copy the service landing-page sections into every article or use sitewide commercial-keyword boilerplate.
+- Review reference examples for topic overlap before using them. Preserve owner-approved images and provenance. Do not import third-party internet pictures or overwrite approved article images with a stale export.
+
+## Publication warnings and queue reconciliation
+
+Treat Ryze's Published, Failed and Published-with-warnings states separately. For each record, retain its original ID and slug; compare the approved repository file, intended public URL, deployed article, sitemap and canonical before changing status. A successfully committed JSON file is not proof of a deployed page, and an access failure in the audit environment is not evidence that the website is broken.
+
+For a verified live article with a stale warning, use Ryze's supported Check page and, if needed, Resubmit sitemap controls. Do not blindly republish the old draft or erase a real warning. For a Failed article, read the actual error and correct the relevant destination, export or build defect before Retry. Review overdue drafts one by one and preserve the agreed daily cadence; do not bulk-publish an unreviewed backlog.
+
+Measure overlapping commercial queries by query and page in Search Console, and judge progress on qualified enquiries and service-page performance. Overlap is a review signal, not proof that a blog caused a ranking decline. Preserve useful informational articles; do not blanket noindex, canonicalize them to service pages, change established slugs or delete posts just because an article currently ranks above its owner.
+
 ## Required publication checks
 
 - Approved informational topic and money-page assignment in the SEO contract; generated `pageAuthority.json` matches.
