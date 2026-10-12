@@ -31,6 +31,7 @@ const app=express();app.get('/_vercel/*',(_r,s)=>s.type('text/javascript').send(
 const server=await new Promise(resolve=>{const s=app.listen(0,'127.0.0.1',()=>resolve(s))})
 const origin=`http://127.0.0.1:${server.address().port}`
 const widgetSource=readFileSync(process.env.REVIEW_QA_BUNDLE,'utf8'),widgetData=readFileSync(process.env.REVIEW_QA_DATA,'utf8')
+const loaderSource=process.env.REVIEW_QA_LOADER?readFileSync(process.env.REVIEW_QA_LOADER,'utf8'):await fetch('https://portal.giveme5.ai/public/loader.js?id=GxRGAhebMrf6').then(response=>response.text())
 assert.equal(JSON.parse(widgetData).success,true)
 const browser=await puppeteer.launch({executablePath:await chromium.executablePath(),args:chromium.args,headless:true,pipe:true})
 const report={photos:154,categories:19,imageVariants:308,routes:[],interactions:[]},failures=[]
@@ -38,7 +39,8 @@ async function pageFor(width){
  const page=await browser.newPage();await page.setViewport({width,height:1000});await page.emulateMediaFeatures([{name:'prefers-reduced-motion',value:'reduce'}]);await page.setRequestInterception(true)
  page.on('request',request=>{
   const url=request.url()
-  if(url.startsWith('https://portal.giveme5.ai/public/widget.js'))void request.respond({status:200,contentType:'application/javascript',body:widgetSource})
+  if(url.startsWith('https://portal.giveme5.ai/public/loader.js'))void request.respond({status:200,contentType:'application/javascript',body:loaderSource})
+  else if(/^https:\/\/(portal\.giveme5\.ai|dashboard-delta-sepia\.vercel\.app)\/public\/widget\.js/.test(url))void request.respond({status:200,contentType:'application/javascript',body:widgetSource})
   else if(url.startsWith('https://api.giveme5.ai/api/v2/widget/')&&request.method()==='GET')void request.respond({status:200,contentType:'application/json',body:widgetData,headers:{'Access-Control-Allow-Origin':'*'}})
   else if(url.startsWith(origin)&&request.method()==='GET')void request.continue();else void request.abort()
  })
