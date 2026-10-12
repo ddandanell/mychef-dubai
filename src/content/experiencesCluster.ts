@@ -54,7 +54,7 @@ const EXPERIENCES_NAV_RAW = [
   },
   {
     href: EXPERIENCES_PATHS.menusPrices,
-    label: 'Menus & Prices',
+    label: 'Dinner Menus & Prices',
     description: 'Thirteen signature dinners, every course and price',
     owns: 'Private dinner menus and prices Dubai',
   },

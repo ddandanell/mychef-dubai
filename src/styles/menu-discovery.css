@@ -1,0 +1,17 @@
+.menu-discovery{background:#f6f3ed;color:#171717;border-block:1px solid #b99a5b33;padding:3rem 0}
+.menu-discovery .menu-discovery-eyebrow{display:flex;align-items:center;gap:.6rem;color:#806528;font-family:Inter,sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin:0 0 .75rem}
+.menu-discovery h2{font-family:'Playfair Display',serif;font-size:clamp(1.65rem,3vw,2.25rem);line-height:1.25;margin:0 0 .75rem}
+.menu-discovery-intro{font-family:Inter,sans-serif;font-size:.9rem;color:#57534e;line-height:1.65;margin:0 0 1.5rem}
+.menu-discovery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+.menu-discovery .menu-discovery-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;background:white;border:1px solid #b99a5b55;color:#171717;text-decoration:none;transition:box-shadow .2s,border-color .2s}
+.menu-discovery-card:hover{border-color:#806528;box-shadow:0 8px 24px #1717170d}
+.menu-discovery-card:focus-visible{outline:3px solid #806528;outline-offset:4px}
+.menu-discovery-card img{display:block;width:100%;height:190px;object-fit:cover}
+.menu-discovery-copy{display:flex;flex:1;flex-direction:column;padding:1.5rem}
+.menu-discovery h3{font-family:'Playfair Display',serif;font-size:1.45rem;line-height:1.3;margin:0 0 .75rem}
+.menu-discovery-copy>p:not(.menu-discovery-eyebrow){font-family:Inter,sans-serif;font-size:.875rem;line-height:1.7;color:#57534e;margin:0 0 1.25rem}
+.menu-discovery-action{display:flex;align-items:center;gap:.75rem;justify-content:space-between;margin-top:auto;min-height:44px;padding-top:.75rem;border-top:1px solid #b99a5b33;color:#806528;font-family:Inter,sans-serif;font-size:.8rem;font-weight:600;line-height:1.5}
+.menu-discovery-single{grid-template-columns:1fr}
+.menu-discovery-single .menu-discovery-card{flex-direction:row}
+.menu-discovery-single .menu-discovery-card img{width:36%;height:auto;min-height:230px;max-height:320px}
+@media(max-width:639px){.menu-discovery{padding:2rem 0}.menu-discovery-grid{grid-template-columns:1fr}.menu-discovery-single .menu-discovery-card{flex-direction:column}.menu-discovery-single .menu-discovery-card img{width:100%;height:180px;min-height:0}.menu-discovery-copy{padding:1.25rem}}

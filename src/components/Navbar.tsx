@@ -52,6 +52,7 @@ import {
   yachtsNavActive,
 } from '@/content/navClusters'
 import { cn } from '@/lib/utils'
+import { MENU_NAV_CHILDREN, MENU_NAV_GROUPS } from '@/content/catalogues/menuDiscovery'
 
 type NavMega =
   | 'private-chef'
@@ -60,6 +61,7 @@ type NavMega =
   | 'corporate'
   | 'cuisines'
   | 'experiences'
+  | 'menus'
   | 'contact'
 
 const MEGA_MENUS: Record<NavMega, ComponentType> = {
@@ -89,6 +91,12 @@ const MEGA_MENUS: Record<NavMega, ComponentType> = {
     />
   ),
   experiences: ExperiencesMegaMenu,
+  menus: () => (
+    <ClusterMegaMenu
+      groups={MENU_NAV_GROUPS}
+      footer={{ text: 'Looking for more inspiration?', linkLabel: 'Explore all menus.', href: '/menus' }}
+    />
+  ),
   contact: ContactMegaMenu,
 }
 
@@ -99,6 +107,7 @@ const MEGA_ICONS: Partial<Record<NavMega, Record<string, LucideIcon>>> = {
   corporate: NAV_CLUSTER_ICONS,
   cuisines: NAV_CLUSTER_ICONS,
   experiences: EXPERIENCES_ICONS,
+  menus: { ...NAV_CLUSTER_ICONS, ...EXPERIENCES_ICONS },
   contact: CONTACT_ICONS,
 }
 
@@ -151,6 +160,12 @@ const navLinks: NavItem[] = [
     children: EXPERIENCES_NAV_CHILDREN,
   },
   {
+    label: 'Menus & Prices',
+    href: '/menus',
+    mega: 'menus',
+    children: MENU_NAV_CHILDREN,
+  },
+  {
     label: 'Contact',
     href: CONTACT_PATHS.contact,
     mega: 'contact',
@@ -181,6 +196,9 @@ function clusterActive(pathname: string) {
 }
 
 function itemIsActive(pathname: string, link: NavItem) {
+  const menuActive = normalizePath(pathname) === '/menus' || MENU_NAV_CHILDREN.some(item => item.href === normalizePath(pathname))
+  if (link.mega === 'menus') return menuActive
+  if (menuActive) return false
   if (link.mega === 'private-chef') return clusterActive(pathname)
   if (link.mega === 'catering') return cateringFormatsActive(pathname)
   if (link.mega === 'private-events') return privateEventsActive(pathname)
@@ -358,7 +376,8 @@ export default function Navbar() {
             type="button"
             className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => {
-              if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)
+              if (itemIsActive(location.pathname, { label: 'Menus', href: '/menus', mega: 'menus' })) setMobileOpenGroup('/menus')
+              else if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)
               else if (cateringFormatsActive(location.pathname)) setMobileOpenGroup(CATERING_FORMATS_ROOT)
               else if (privateEventsActive(location.pathname)) setMobileOpenGroup(PRIVATE_EVENTS_ROOT)
               else if (corporateNavActive(location.pathname)) setMobileOpenGroup(CORPORATE_NAV_ROOT)

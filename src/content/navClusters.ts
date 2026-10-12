@@ -37,6 +37,7 @@ const CATERING_FORMATS_GROUPS_RAW: NavGroup[] = [
     heading: 'Service formats',
     items: [
       { href: '/catering-dubai', label: 'Catering Dubai', description: 'Start here — the full service' },
+      { href: '/corporate/menus-prices', label: 'Catering Menus & Prices', description: 'Breakfast, buffets, canapés and live stations' },
       { href: '/buffet-catering-dubai', label: 'Buffet Catering', description: 'Relaxed, scales to bigger guest lists' },
       { href: '/canape-catering-dubai', label: 'Canapé Catering', description: 'Passed bites for standing receptions' },
       { href: '/yachts', label: 'Yacht Catering', description: 'Chef, food and service on the water' },
@@ -75,6 +76,8 @@ const PRIVATE_EVENTS_GROUPS_RAW: NavGroup[] = [
       { href: '/afternoon-tea-catering-dubai', label: 'Afternoon Tea', description: 'A distinct service, not a dinner' },
       { href: '/yachts', label: 'Yacht Catering', description: 'Menus built for the water' },
       { href: '/events', label: 'All Events', description: 'The event planning hub' },
+      { href: '/corporate/menus-prices', label: 'Event Catering Menus', description: 'Buffet, canapés and live-station menus with prices' },
+      { href: '/luxury-dining-experiences/menus-prices', label: 'Private Dinner Menus', description: 'Every course and price for a signature dinner' },
     ],
   },
 ]
@@ -88,7 +91,7 @@ const CORPORATE_NAV_GROUPS_RAW: NavGroup[] = [
     heading: 'Company events',
     items: [
       { href: '/corporate', label: 'Corporate Catering', description: 'Start here. The full company brief' },
-      { href: '/corporate/menus-prices', label: 'Menus & Prices', description: 'Full menus, guest tiers and live-station prices' },
+      { href: '/corporate/menus-prices', label: 'Corporate Menus & Prices', description: 'Full menus, guest tiers and live-station prices' },
       { href: '/corporate-event-catering-dubai', label: 'Corporate Events', description: 'Parties, launches, networking' },
       { href: '/product-launch-catering-dubai', label: 'Product Launch', description: 'Reveal, press, showroom' },
       { href: '/brand-activation-catering-dubai', label: 'Brand Activation', description: 'Pop-up, sampling, street' },

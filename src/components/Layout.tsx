@@ -57,7 +57,7 @@ export default function Layout({ children }: LayoutProps) {
           {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
           <ClientReviews key={pathname} />
-          <MenuCatalogueLinks />
+          <MenuCatalogueLinks key={pathname} />
           <SupportServiceLink />
           {!hasOwnPlanningLinks && <BlogPlanningLinks />}
           {!hasOwnPlanningLinks && !isChefDesignPage(pathname) && <SiloChildren />}
