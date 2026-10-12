@@ -33,6 +33,7 @@ The export did not include the exact URLs for its 3 duplicate, 1 soft-404 and 1 
 
 - Restored `/uae-national-day-catering-dubai` and `/blog/desert-dinner-party-dubai`. Both were still parked after their recorded 1 October revival date. Updated the park list, contract indexation and generated sitemap/breadcrumbs.
 - Added a build-rendering flag to stop GA4, Google Ads and first-party event collection during prerendering. The flag is not written into the delivered HTML, so ordinary visitors continue to be tracked. Regression tests confirm both visitor tracking and build suppression.
+- Production browser verification caught an intermittent Microsoft Clarity `undefined.v` error. Its duplicate-tag guard returned before initialising `window.clarity` when a saved external tag already existed. Initialise the queue first and skip Clarity insertion during build rendering, preventing that race and build-time recordings.
 - Added the requested corporate and dinner menu-price catalogues, with dedicated SEO ownership, self-canonicals, navigation, related links and complete prerendered menus.
 
 Google's exclusion counts will change only after recrawling. No indexed important service URL was removed or redirected in this change.
@@ -52,3 +53,9 @@ This pattern is consistent with incomplete/server-origin event collection or aut
 - Responsive desktop/mobile UI checks; fixed vs per-guest prices; gap tiers; chef threshold; multi-station discount; VAT and peak-date examples; type checking; targeted lint; SEO uniqueness; URL preservation; sitemap and prerender checks.
 
 Reference guidance: https://developers.google.com/webmaster-tools/v1/searchanalytics/query ; https://support.google.com/webmasters/answer/7576553 ; https://support.google.com/analytics/answer/13504892 .
+
+## Production release
+
+The catalogue/review release (`f92af7b`) deployed successfully to www.mychef.ae on 12 October at 15:15 UTC. Both new menu pages returned HTTP 200 with self-canonicals and no noindex. Production sitemap contains 220 URLs, including both catalogues and the two revived seasonal pages; it was resubmitted to Search Console at 15:23 UTC. Google has not yet downloaded the updated sitemap or confirmed indexing of the new pages. Desktop/mobile production checks verified menu counts, image loading, review placement and no horizontal overflow.
+
+The existing Web Grower script endpoint returned HTTP 404 during production verification. Its external service needs restoration by its operator; the endpoint was not guessed or replaced. This is not evidence that it caused the reported Search Console dip or the unassigned GA4 cohort.
