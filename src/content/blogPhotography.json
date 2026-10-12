@@ -1233,5 +1233,281 @@
       }
     ],
     "provenance": "Existing myCHEF repository editorial assets; not evidence of a specific client booking."
+  },
+  "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low": {
+    "inline": [
+      {
+        "src": "/images/private-chef-2026/ingredients-1200.webp",
+        "alt": "Fish, vegetables, herbs and other ingredients arranged for meal preparation",
+        "caption": "Describe ingredients and familiar dishes in the household brief.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/private-chef-guides-2026/fresh-meal-prep-1200.webp",
+        "alt": "Prepared meals in glass containers with lids beside them",
+        "caption": "Explain whether each meal is for immediate serving or storage.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/household-menu-brief-dubai.webp",
+      "alt": "Prepared household meals beside fresh vegetables and a planning notebook"
+    }
+  },
+  "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai": {
+    "inline": [
+      {
+        "src": "/images/blog/private-chef-event-workflow-dubai-2.webp",
+        "alt": "A chef plating individual courses beside a written dinner plan",
+        "caption": "Work backwards from the first course and the planned finish.",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/images/blog/private-chef-event-workflow-dubai-hero.webp",
+        "alt": "A chef presenting dishes at a seated dinner",
+        "caption": "Leave time for plating, serving and clearing between courses.",
+        "width": 640,
+        "height": 360
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/dinner-party-timeline-dubai.webp",
+      "alt": "An evening dinner table set with ivory linen, flowers and candlelight"
+    }
+  },
+  "/blog/catering-for-international-schools-in-dubai-complete-guide": {
+    "inline": [
+      {
+        "src": "/images/blog-2026/best-corporate-lunch-catering-companies-in-dubai-hero.webp",
+        "alt": "Colleagues serving themselves lunch from a prepared buffet",
+        "caption": "Plan who receives and sets out the office lunch.",
+        "width": 1376,
+        "height": 768
+      },
+      {
+        "src": "/images/catering-editorial-2026/business-lunch-catering-dubai-1200.webp",
+        "alt": "Individual lunch boxes with grains, vegetables and prepared mains",
+        "caption": "Separate individual portions from the shared serving arrangement.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/catering-editorial-2026/office-catering-dubai-1200.webp",
+      "alt": "A prepared selection of meals for an office catering service"
+    }
+  },
+  "/blog/guest-list-to-plated-dinner-private-chef-event-workflow": {
+    "inline": [
+      {
+        "src": "/images/blog/private-chef-event-workflow-dubai-2.webp",
+        "alt": "A chef plating individual courses beside a written dinner plan",
+        "caption": "Work backwards from the first course and the planned finish.",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/images/blog/private-chef-event-workflow-dubai-hero.webp",
+        "alt": "A chef presenting dishes at a seated dinner",
+        "caption": "Leave time for plating, serving and clearing between courses.",
+        "width": 640,
+        "height": 360
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/dinner-party-timeline-dubai.webp",
+      "alt": "An evening dinner table set with ivory linen, flowers and candlelight"
+    }
+  },
+  "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": {
+    "inline": [
+      {
+        "src": "/images/blog/private-chef-yacht-charter-dubai-3.webp",
+        "alt": "A chef loading insulated catering equipment beside a moored yacht",
+        "caption": "Allow time for loading and the operator’s boarding arrangements.",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "/images/blog/yacht-party-menu-ideas-dubai-3.webp",
+        "alt": "Small bites being finished on a serving tray on a yacht deck",
+        "caption": "Match food service to the cruise timeline and onboard space.",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/three-hour-yacht-party-food-timeline-dubai.webp",
+      "alt": "Finger food and fruit arranged on a shaded yacht dining table"
+    }
+  },
+  "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai": {
+    "inline": [
+      {
+        "src": "/images/catering-editorial-2026/wedding-catering-checklist-dubai-1200.webp",
+        "alt": "Plated wedding dishes and accompaniments photographed from above",
+        "caption": "Use a tasting to discuss the balance and sequence of the menu.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/catering-editorial-2026/wedding-catering-menu-planning-dubai-support-1200.webp",
+        "alt": "A shared wedding menu selection with fish, salads and vegetable dishes",
+        "caption": "Confirm presentation, portions and practical service details.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/wedding-menu-tasting-dubai.webp",
+      "alt": "Sample wedding courses presented on ivory plates at an intimate tasting"
+    }
+  },
+  "/blog/how-to-connect-office-facilities-management-to-lunch-catering": {
+    "inline": [
+      {
+        "src": "/images/blog-2026/best-corporate-lunch-catering-companies-in-dubai-hero.webp",
+        "alt": "Colleagues serving themselves lunch from a prepared buffet",
+        "caption": "Plan who receives and sets out the office lunch.",
+        "width": 1376,
+        "height": 768
+      },
+      {
+        "src": "/images/catering-editorial-2026/business-lunch-catering-dubai-1200.webp",
+        "alt": "Individual lunch boxes with grains, vegetables and prepared mains",
+        "caption": "Separate individual portions from the shared serving arrangement.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/catering-editorial-2026/office-catering-dubai-1200.webp",
+      "alt": "A prepared selection of meals for an office catering service"
+    }
+  },
+  "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits": {
+    "inline": [
+      {
+        "src": "/images/private-chef-2026/ingredients-1200.webp",
+        "alt": "Fish, vegetables, herbs and other ingredients arranged for meal preparation",
+        "caption": "Describe ingredients and familiar dishes in the household brief.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/private-chef-guides-2026/fresh-meal-prep-1200.webp",
+        "alt": "Prepared meals in glass containers with lids beside them",
+        "caption": "Explain whether each meal is for immediate serving or storage.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/household-menu-brief-dubai.webp",
+      "alt": "Prepared household meals beside fresh vegetables and a planning notebook"
+    }
+  },
+  "/blog/is-a-private-chef-worth-it-in-dubai-in": {
+    "inline": [
+      {
+        "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+        "alt": "A chef and client discussing ingredients across a kitchen counter",
+        "caption": "Use the trial to discuss food preferences and kitchen routines.",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "src": "/images/private-chef-guides-2026/seasonal-menu-1200.webp",
+        "alt": "A cooked fish with vegetables, herbs and a green salad",
+        "caption": "Choose a representative meal when assessing the chef’s fit.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/private-chef-trial-dubai.webp",
+      "alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert"
+    }
+  },
+  "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow": {
+    "inline": [
+      {
+        "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+        "alt": "A chef and client discussing ingredients across a kitchen counter",
+        "caption": "Use the trial to discuss food preferences and kitchen routines.",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "src": "/images/private-chef-guides-2026/seasonal-menu-1200.webp",
+        "alt": "A cooked fish with vegetables, herbs and a green salad",
+        "caption": "Choose a representative meal when assessing the chef’s fit.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/private-chef-trial-dubai.webp",
+      "alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert"
+    }
+  },
+  "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow": {
+    "inline": [
+      {
+        "src": "/images/private-chef-2026/ingredients-1200.webp",
+        "alt": "Fish, vegetables, herbs and other ingredients arranged for meal preparation",
+        "caption": "Describe ingredients and familiar dishes in the household brief.",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/images/private-chef-guides-2026/fresh-meal-prep-1200.webp",
+        "alt": "Prepared meals in glass containers with lids beside them",
+        "caption": "Explain whether each meal is for immediate serving or storage.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/household-menu-brief-dubai.webp",
+      "alt": "Prepared household meals beside fresh vegetables and a planning notebook"
+    }
+  },
+  "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow": {
+    "inline": [
+      {
+        "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+        "alt": "A chef and client discussing ingredients across a kitchen counter",
+        "caption": "Use the trial to discuss food preferences and kitchen routines.",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "src": "/images/private-chef-guides-2026/seasonal-menu-1200.webp",
+        "alt": "A cooked fish with vegetables, herbs and a green salad",
+        "caption": "Choose a representative meal when assessing the chef’s fit.",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "provenance": "Reused myCHEF editorial concept assets already in the repository; illustrative planning imagery, not evidence of a particular client booking.",
+    "hero": {
+      "src": "/images/blog-2026/private-chef-trial-dubai.webp",
+      "alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert"
+    }
   }
 }
