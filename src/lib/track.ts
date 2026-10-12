@@ -32,7 +32,7 @@ let currentPath = ''
 const depthsSent = new Set<number>()
 
 function optedOut(): boolean {
-  if (typeof navigator === 'undefined') return true
+  if (typeof navigator === 'undefined' || (typeof window !== 'undefined' && window.__MYCHEF_PRERENDER__)) return true
   const nav = navigator as Navigator & { globalPrivacyControl?: boolean; msDoNotTrack?: string }
   if (nav.globalPrivacyControl === true) return true
   if (nav.doNotTrack === '1' || nav.msDoNotTrack === '1') return true

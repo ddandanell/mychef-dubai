@@ -15,6 +15,7 @@ export const EXPERIENCES_ROOT = '/luxury-dining-experiences' as const
 
 export const EXPERIENCES_PATHS = {
   hub: EXPERIENCES_ROOT,
+  menusPrices: `${EXPERIENCES_ROOT}/menus-prices`,
   romantic: '/romantic-dinner-dubai',
   tasting: '/tasting-menu-dubai',
   cookingClasses: '/private-cooking-classes-dubai',
@@ -50,6 +51,12 @@ const EXPERIENCES_NAV_RAW = [
     label: 'Luxury Dining Experiences',
     description: 'Explore all chef-led experiences',
     owns: 'Private dining experiences Dubai',
+  },
+  {
+    href: EXPERIENCES_PATHS.menusPrices,
+    label: 'Menus & Prices',
+    description: 'Thirteen signature dinners, every course and price',
+    owns: 'Private dinner menus and prices Dubai',
   },
   {
     href: EXPERIENCES_PATHS.romantic,

@@ -45,8 +45,8 @@ function MegaColumn({
 }
 
 export default function ExperiencesMegaMenu() {
-  const explore = EXPERIENCES_NAV.slice(0, 3)
-  const occasions = EXPERIENCES_NAV.slice(3, 6)
+  const explore = EXPERIENCES_NAV.slice(0, 4)
+  const occasions = EXPERIENCES_NAV.slice(4)
 
   return (
     <div className="pc-mega-card">

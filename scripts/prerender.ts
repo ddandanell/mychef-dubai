@@ -307,6 +307,9 @@ function dedupeHead(html: string): string {
 async function renderHtml(page: Page, baseUrl: string, route: string): Promise<string> {
   const url = `${baseUrl}${route === "/" ? "/" : route}`
 
+  // Build-time rendering must not create production visits, leads or advertising hits.
+  await page.evaluateOnNewDocument(() => { window.__MYCHEF_PRERENDER__ = true })
+
   await page.goto(url, {
     waitUntil: "domcontentloaded",
     timeout: NAVIGATION_TIMEOUT_MS,

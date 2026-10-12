@@ -88,6 +88,7 @@ const CORPORATE_NAV_GROUPS_RAW: NavGroup[] = [
     heading: 'Company events',
     items: [
       { href: '/corporate', label: 'Corporate Catering', description: 'Start here. The full company brief' },
+      { href: '/corporate/menus-prices', label: 'Menus & Prices', description: 'Full menus, guest tiers and live-station prices' },
       { href: '/corporate-event-catering-dubai', label: 'Corporate Events', description: 'Parties, launches, networking' },
       { href: '/product-launch-catering-dubai', label: 'Product Launch', description: 'Reveal, press, showroom' },
       { href: '/brand-activation-catering-dubai', label: 'Brand Activation', description: 'Pop-up, sampling, street' },

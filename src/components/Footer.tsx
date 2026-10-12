@@ -41,6 +41,8 @@ const guideLinks = [
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
   { label: 'Private Chef Prices', href: '/private-chef-dubai/pricing' },
+  { label: 'Corporate Menus & Prices', href: '/corporate/menus-prices' },
+  { label: 'Dinner Menus & Prices', href: '/luxury-dining-experiences/menus-prices' },
   { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
   { label: 'Catering Packages', href: '/catering-packages-dubai' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },

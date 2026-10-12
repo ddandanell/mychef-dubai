@@ -71,6 +71,8 @@ def hero_routes() -> list[str]:
         # the shared bar off the page, or two navigations stack under the main menu.
         if _page_draws_own_trail(text, f):
             out.append(path)
+    # The catalogue component renders its own Home > Corporate/Dinner > Menus trail.
+    out.extend(["/corporate/menus-prices", "/luxury-dining-experiences/menus-prices"])
     return sorted(set(out))
 
 

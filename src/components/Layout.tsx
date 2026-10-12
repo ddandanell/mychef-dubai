@@ -9,6 +9,8 @@ import Footer from './Footer'
 import SiloSection from './SiloSection'
 import BlogPlanningLinks from './BlogPlanningLinks'
 import SupportServiceLink from './SupportServiceLink'
+import MenuCatalogueLinks from './catalogues/MenuCatalogueLinks'
+import ClientReviews from './ClientReviews'
 import FloatingChefChat from './FloatingChefChat'
 import SeoHead from './SeoHead'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
@@ -48,12 +50,14 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
+    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
+          <ClientReviews key={pathname} />
+          <MenuCatalogueLinks />
           <SupportServiceLink />
           {!hasOwnPlanningLinks && <BlogPlanningLinks />}
           {!hasOwnPlanningLinks && !isChefDesignPage(pathname) && <SiloChildren />}

@@ -37,6 +37,8 @@ const BirthdayPackage: PreloadableComponent = lazyPreloadable(() => import('./pa
 const CorporateDinnerPackage: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateDinnerPackage'))
 const LuxuryDining: PreloadableComponent = lazyPreloadable(() => import('./pages/LuxuryDining'))
 const Events: PreloadableComponent = lazyPreloadable(() => import('./pages/Events'))
+const CorporateMenusPrices: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateMenusPrices'))
+const DinnerMenusPrices: PreloadableComponent = lazyPreloadable(() => import('./pages/DinnerMenusPrices'))
 const Corporate: PreloadableComponent = lazyPreloadable(() => import('./pages/Corporate'))
 const Villas: PreloadableComponent = lazyPreloadable(() => import('./pages/Villas'))
 const Yachts: PreloadableComponent = lazyPreloadable(() => import('./pages/Yachts'))
@@ -220,6 +222,8 @@ export const routes: AppRoute[] = [
   { path: "/corporate-dinner-package-dubai", element: <CorporateDinnerPackage />, preload: CorporateDinnerPackage.preload },
   { path: "/luxury-dining-experiences", element: <LuxuryDining />, preload: LuxuryDining.preload },
   { path: "/events", element: <Events />, preload: Events.preload },
+  { path: "/corporate/menus-prices", element: <CorporateMenusPrices />, preload: CorporateMenusPrices.preload },
+  { path: "/luxury-dining-experiences/menus-prices", element: <DinnerMenusPrices />, preload: DinnerMenusPrices.preload },
   { path: "/corporate", element: <Corporate />, preload: Corporate.preload },
   { path: "/villas-private-residences", element: <Villas />, preload: Villas.preload },
   { path: "/yachts", element: <Yachts />, preload: Yachts.preload },

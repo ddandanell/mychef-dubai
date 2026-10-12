@@ -100,6 +100,7 @@ const DYNAMIC_SLUGS: Record<string, string[]> = {
 
 // Priority & changefreq rules — first match wins
 const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; section?: string }[] = [
+  { pattern: /^\/(corporate|luxury-dining-experiences)\/menus-prices$/, priority: 0.8, changefreq: 'weekly', section: 'Menu catalogues' },
   { pattern: /^\/$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },
   { pattern: /^\/catering-dubai$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },
   { pattern: /^\/private-chef-dubai$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },

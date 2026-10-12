@@ -1,0 +1,4065 @@
+{
+  "brand": "myCHEF.ae — chef-led corporate catering, Dubai",
+  "currency": "AED",
+  "vatNote": "All prices are exclusive of 5% VAT.",
+  "sections": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast & Coffee Breaks",
+      "packages": [
+        {
+          "id": "breakfast-basic-1",
+          "name": "Basic Breakfast — Menu Option 1",
+          "section": "breakfast",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 160
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 140
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 130
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 120
+            }
+          ],
+          "menu": {
+            "Assorted Bakery Items": [
+              "Butter Croissant",
+              "Chocolate Croissant",
+              "Blueberry Danish Pastry"
+            ],
+            "Assortment of Mini Sandwiches": [
+              "Cheese & Tomato Sandwich (v)",
+              "Chicken Scallop Sandwich",
+              "Turkey Ham and Cheese Sandwich"
+            ],
+            "Savory Items": [
+              "Grilled Herbs Tomatoes Mushroom (v)",
+              "Chicken Sausage Rolls",
+              "Savoury Muffins with Spinach, Sundried Tomatoes & Feta Cheese (v)"
+            ],
+            "Sweets": [
+              "Apple Crumble Tart",
+              "Banana Cake Slices",
+              "Fruit Salad"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "breakfast-basic-2",
+          "name": "Basic Breakfast — Menu Option 2",
+          "section": "breakfast",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3600,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 190
+            },
+            {
+              "range": "55 to 75 Guests",
+              "minGuests": 55,
+              "maxGuests": 75,
+              "mychefRate": 170
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 160
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 150
+            }
+          ],
+          "menu": {
+            "Breakfast Essentials": [
+              "Assorted Breads served with Bottled Jam, Honey & Butter Portions"
+            ],
+            "Assorted Bakery Items": [
+              "Pain Au Chocolat",
+              "Almond Croissant",
+              "Cheese Croissant",
+              "Strawberry Danish Pastry"
+            ],
+            "Assortment of Mini Sandwiches": [
+              "Classic Egg & Cress Finger Sandwich (v)",
+              "Pesto Grilled Vegetable Panini (v)",
+              "Roast Beef Sandwich with Mustard Sauce & Pickles",
+              "Chimichurri Chicken Wrap"
+            ],
+            "Savory Items": [
+              "Baked Beans (v)",
+              "Cheese Omelette (v)",
+              "Chicken Cocktail Sausage",
+              "Spinach Quiche (v)"
+            ],
+            "Sweets": [
+              "Almond Butter Loaf Cake Slices",
+              "Banana Chocolate Nutella Crepe",
+              "Home Made Cookies",
+              "Fresh Fruit Salad"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "breakfast-deluxe-3",
+          "name": "Deluxe Breakfast — Menu Option 3",
+          "section": "breakfast",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 190
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 170
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 160
+            }
+          ],
+          "menu": {
+            "Breakfast Essentials": [
+              "Bread Basket: Mini Laugen, Kaiser Roll Bread, Pita Bread — served with Nutella, Bottled Jam & Butter Portions",
+              "Flavored Yoghurt Portions"
+            ],
+            "Assorted Bakery Items": [
+              "Almond Croissant",
+              "Pain Au Raisin",
+              "Pineapple Danish Pastry",
+              "Puff Pastry Apple Turnovers"
+            ],
+            "Assortment of Mini Sandwiches": [
+              "Beef Bacon, Egg and Cheese Sandwich in Multi-seed Bread Roll",
+              "Greek Chicken Gyros Wrap with Tzatziki Sauce in Pita Bread",
+              "Grilled Mushroom with Cheese & Caramelized Onion Sandwich (v)",
+              "Avocado Charred Cheese in Focaccia Bread Sandwich (v)"
+            ],
+            "Savory Items": [
+              "Tomato & Cantal Quiche (v)",
+              "Grilled Beef Bacon",
+              "Hash Brown (v)",
+              "Poached Eggs (v)",
+              "Spanish Frittata (v)"
+            ],
+            "Sweets": [
+              "Banana Split Chia Seed Pudding",
+              "Mini Vanilla Waffles with Maple Syrup",
+              "Berry Friand",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "breakfast-premium-4",
+          "name": "Premium Breakfast — Menu Option 4",
+          "section": "breakfast",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 360
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 340
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 330
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 320
+            }
+          ],
+          "menu": {
+            "Breakfast Essentials": [
+              "Bread Basket: Laugen, Focaccia, Ciabatta — served with Nutella, Bottled Jam & Butter Portions",
+              "Flavored Yoghurt Portions"
+            ],
+            "Charcuterie Board": [
+              "Creamy French Brie, Aged Gouda, Classic Blue Cheese, Shaved Parmesan",
+              "Premium Beef Salami, Smoked Turkey, Smoked Beef",
+              "Served with Fresh Grapes & Dried Fruits, Roasted Nuts, Assorted Olives, and Baby Pickles",
+              "Assorted Crackers & Crispy Breadsticks with Natural Honey & Specialty Jams"
+            ],
+            "Assorted Bakery Items": [
+              "Almond Cream Swirl Danish Pastry",
+              "Pecan Caramel Danish Pastry",
+              "Creamy Red Velvet Crumble Flavoured Croissant",
+              "Pistachio Frost Flavoured Croissant"
+            ],
+            "Assortment of Mini Sandwiches": [
+              "Roast Beef with Horseradish Cream in Croissant Sandwich",
+              "Chicken & Avocado Burritos",
+              "Quinoa Veggie Wrap in Tortilla Roll (v)",
+              "Smoked Salmon with Dill Cream in Ciabatta Roll"
+            ],
+            "Savory Items": [
+              "Brie & Caramelized Onion Puff Pastry (v)",
+              "Spinach & Ricotta Rolls Puff Pastry (v)",
+              "Turkey & Cheese Puff Pastry",
+              "Savory Cheddar & Herb Scones (v)"
+            ],
+            "Sweets": [
+              "Yoghurt Parfait with Granola & Berries in Shots",
+              "Strawberry & Marshmallow Chocolate Dip",
+              "Mini Chocolate Ganache Tartlets",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Fresh Juice",
+              "Selection of Tea",
+              "Coffee Machine with Cappuccino, Latte, etc."
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests."
+          ]
+        },
+        {
+          "id": "afternoon-high-tea",
+          "name": "Afternoon High Tea Menu",
+          "section": "breakfast",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 190
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 170
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 160
+            }
+          ],
+          "menu": {
+            "From the Pastry": [
+              "Cinnamon & Pecan Swirl",
+              "Cream Cheese Crumble Danish Pastry",
+              "Rose Cream with Kunafa Flavoured Croissant"
+            ],
+            "Savory Items": [
+              "Classic Cucumber & Mint Cream Cheese on Soft White Bread",
+              "Egg Salad & Microgreens Pinwheel",
+              "Smoked Chicken & Mustard Mayonnaise Tartlet"
+            ],
+            "Assortment of Mini Sandwiches": [
+              "Classic Egg & Cress Finger Sandwich (v)",
+              "Pesto Grilled Vegetable Panini (v)",
+              "Roast Beef Sandwich with Mustard Sauce & Pickles",
+              "Chimichurri Chicken Wrap"
+            ],
+            "Sweets": [
+              "Mini Lemon Meringue Tartlet",
+              "Classic Chocolate Fudge Cake Bites",
+              "Mini Vanilla Choux Bun",
+              "Oat Cookies"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light-buffet",
+      "name": "Light Buffet & Finger Foods",
+      "packages": [
+        {
+          "id": "light-buffet-1",
+          "name": "Light Buffet — Menu Option 1",
+          "section": "light-buffet",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 160
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 140
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 130
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 120
+            }
+          ],
+          "menu": {
+            "Finger Foods (choose any 8 items)": [
+              "Assorted Mini Sandwiches",
+              "Baked Cauliflower Wings with Sweet Chilli dip",
+              "BBQ Chicken Lollipop with BBQ Sauce",
+              "Beef or Chicken Sliders",
+              "BLT Wraps in Sundried Tortilla",
+              "Breaded Risotto Balls",
+              "Chicken Caesar Pinwheels",
+              "Chicken Mayo Savory Éclair",
+              "Chicken Moussakhan Roll",
+              "Chicken Satay with Peanut Butter Sauce",
+              "Chicken Sesame Wonton Tartlet",
+              "Chicken Shawarma Wraps",
+              "Corn Dogs",
+              "Crispy Honey-Chipotle Chicken Strips",
+              "Crispy Korean Chicken Bites",
+              "Croquette Potato stuffed with Cheese",
+              "Crunchy Veggie Taco Cups",
+              "Crushed Potato with Smoked Turkey",
+              "Fajita Roll (Optional: Chicken/Vegetable)",
+              "Falafel Wrap in Spinach Tortilla",
+              "Fatayer (Optional: Spinach/Meat/Cheese)",
+              "Fried Kebbeh",
+              "Hawaiian Chicken Kebabs with Mustard, Pineapple Juice",
+              "Hummus Tartlet",
+              "Jalapeno Cheese Balls",
+              "Meat Sfiha",
+              "Meatball Skewers with BBQ Sauce",
+              "Panko Prawns with Chilli dip",
+              "Pizza (Optional: Vegetable/Hawaiian/Margarita/Napolitano)",
+              "Sambousek (Optional: Cheese/Meat)",
+              "Sausage Roll",
+              "Spinach Quiche",
+              "Spring Roll (Optional: Chicken/Vegetable)",
+              "Tomato, Mozzarella & Basil Bruschetta",
+              "Vegetable Puffs",
+              "Vegetable with Mushroom & Cheese Quesadilla",
+              "Vol Au Vent with Smoked Turkey & Sautéed Mushroom"
+            ],
+            "Mini Desserts": [
+              "Chocolate Brownies",
+              "Chocolate Ganache Tartlet",
+              "Eclairs",
+              "Fruit Tartlet",
+              "Lemon Meringue Tartlets"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person.",
+            "Standard service is four (4) hours. Any additional time beyond 4 hours is charged at a flat rate of AED 500 per hour, excluding VAT."
+          ]
+        },
+        {
+          "id": "light-buffet-2",
+          "name": "Light Buffet — Menu Option 2",
+          "section": "light-buffet",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3400,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 180
+            },
+            {
+              "range": "55 to 80 Guests",
+              "minGuests": 55,
+              "maxGuests": 80,
+              "mychefRate": 160
+            },
+            {
+              "range": "85 to 100 Guests",
+              "minGuests": 85,
+              "maxGuests": 100,
+              "mychefRate": 150
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 140
+            }
+          ],
+          "menu": {
+            "Finger Foods (choose any 12 items)": [
+              "Assorted Mini Sandwiches",
+              "Baked Cauliflower Wings with Sweet Chilli dip",
+              "BBQ Chicken Lollipop with BBQ Sauce",
+              "Beef or Chicken Sliders",
+              "BLT Wraps in Sundried Tortilla",
+              "Breaded Risotto Balls",
+              "Chicken Caesar Pinwheels",
+              "Chicken Mayo Savory Éclair",
+              "Chicken Moussakhan Roll",
+              "Chicken Satay with Peanut Butter Sauce",
+              "Chicken Sesame Wonton Tartlet",
+              "Chicken Shawarma Wraps",
+              "Corn Dogs",
+              "Crispy Honey-Chipotle Chicken Strips",
+              "Crispy Korean Chicken Bites",
+              "Croquette Potato stuffed with Cheese",
+              "Crunchy Veggie Taco Cups",
+              "Crushed Potato with Smoked Turkey",
+              "Fajita Roll (Optional: Chicken/Vegetable)",
+              "Falafel Wrap in Spinach Tortilla",
+              "Fatayer (Optional: Spinach/Meat/Cheese)",
+              "Fried Kebbeh",
+              "Hawaiian Chicken Kebabs with Mustard, Pineapple Juice",
+              "Hummus Tartlet",
+              "Jalapeno Cheese Balls",
+              "Meat Sfiha",
+              "Meatball Skewers with BBQ Sauce",
+              "Panko Prawns with Chilli dip",
+              "Pizza (Optional: Vegetable/Hawaiian/Margarita/Napolitano)",
+              "Sambousek (Optional: Cheese/Meat)",
+              "Sausage Roll",
+              "Spinach Quiche",
+              "Spring Roll (Optional: Chicken/Vegetable)",
+              "Tomato, Mozzarella & Basil Bruschetta",
+              "Vegetable Puffs",
+              "Vegetable with Mushroom & Cheese Quesadilla",
+              "Vol Au Vent with Smoked Turkey & Sautéed Mushroom"
+            ],
+            "Mini Desserts": [
+              "Chocolate Brownies",
+              "Chocolate Ganache Tartlet",
+              "Eclairs",
+              "Fruit Tartlet",
+              "Lemon Meringue Tartlets"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person.",
+            "Standard service is four (4) hours. Any additional time beyond 4 hours is charged at a flat rate of AED 500 per hour, excluding VAT."
+          ]
+        },
+        {
+          "id": "light-buffet-deluxe-3",
+          "name": "Deluxe Light Buffet — Menu Option 3",
+          "section": "light-buffet",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3800,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 200
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 190
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 180
+            }
+          ],
+          "menu": {
+            "Canapés (choose 3)": [
+              "Apricot with Goat Cheese, Almond & Rosemary",
+              "Avocado, Mango & Crab in Fresh Lettuce with Rosemary & Dressing",
+              "Baby Skinny Potato with Sour Cream & Caviar",
+              "Beef Wellington Canape",
+              "Blacked Shrimp with Avocado Tartlet",
+              "Bresaola with Asparagus Bruschetta",
+              "Bresaola with Peach Skewers",
+              "Brie Cheese Crackers with Fresh Blueberry",
+              "Butterfly Shrimp Bruschetta",
+              "Butterfly Shrimps with Pear & Avocado in Cocktail Sauce",
+              "Canapé Chaat Tartlets",
+              "Caramelized Chicken with Crepes Mandarin & Hoi-sin Sauce",
+              "Cherry Tomato with Fresh Mozzarella Skewers",
+              "Chicken Mayo Savory Éclair",
+              "Cream Cheese with Strawberry Balsamic Bruschetta",
+              "Crushed Potato with Smoked Turkey & Cheese",
+              "Dates with Cream Cheese",
+              "Devilled Egg Canape with Avocado",
+              "Endive Roquefort Spoon with Walnuts",
+              "Kebbeh Balls Stuffed with Moutabal & topped with Pomegranate",
+              "Figs, Onion Jam with Goat Cheese Bruschetta",
+              "Fresh Asparagus wrapped with Smoked Beef",
+              "Hummus Beetroot Tartlets",
+              "Sundried Tomato with Hommos Bruschetta",
+              "Tiger Prawn Canapé with Mango Skewers",
+              "Tomato Diced Bruschetta with Black Olives",
+              "Watermelon, Mango with Feta Cheese Skewers"
+            ],
+            "Finger Foods (choose 4)": [
+              "Assorted Mini Premium Sandwiches",
+              "Beef or Chicken Sliders",
+              "Chicken Satay with Peanut Butter Sauce",
+              "Chicken Sesame Wonton Tartlet",
+              "Croquette Potato stuffed with Cheese",
+              "Crunchy Veggie Taco Cups",
+              "Fajita Roll (Optional: Chicken/Vegetable)",
+              "Falafel Wrap in Spinach Tortilla",
+              "Hawaiian Chicken Kebabs with Mustard, Pineapple Juice",
+              "Hummus Tartlet",
+              "Meatball Skewers with BBQ Sauce",
+              "Panko Prawns with Chilli dip",
+              "Spinach Quiche",
+              "Tomato, Mozzarella & Basil Bruschetta",
+              "Vol Au Vent with Smoked Turkey & Sautéed Mushroom"
+            ],
+            "Mini Desserts (choose 3)": [
+              "Chocolate Brownies",
+              "Chocolate Ganache Tartlet",
+              "Rose Eclairs",
+              "Berry Tartlet",
+              "Lemon Meringue Tartlets",
+              "Tiramisu in Shots",
+              "Oreo Cheesecake in Shots",
+              "Pistachio Cheesecake in Shots",
+              "Fruit Skewers in Shots",
+              "Creme Brulee"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Choose 10 items as per the category.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person.",
+            "Standard service is four (4) hours. Any additional time beyond 4 hours is charged at a flat rate of AED 500 per hour, excluding VAT."
+          ]
+        },
+        {
+          "id": "light-buffet-deluxe-4",
+          "name": "Deluxe Light Buffet — Menu Option 4",
+          "section": "light-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 270
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 250
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 240
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 230
+            }
+          ],
+          "menu": {
+            "Canapés (choose 7)": [
+              "Apricot with Goat Cheese, Almond & Rosemary",
+              "Avocado, Mango & Crab in Fresh Lettuce with Rosemary & Dressing",
+              "Baby Skinny Potato with Sour Cream & Caviar",
+              "Beef Wellington Canape",
+              "Blacked Shrimp with Avocado Tartlet",
+              "Bresaola with Asparagus Bruschetta",
+              "Bresaola with Peach Skewers",
+              "Brie Cheese Crackers with Fresh Blueberry",
+              "Butterfly Shrimp Bruschetta",
+              "Butterfly Shrimps with Pear & Avocado in Cocktail Sauce",
+              "Canapé Chaat Tartlets",
+              "Caramelized Chicken with Crepes Mandarin & Hoi-sin Sauce",
+              "Cherry Tomato with Fresh Mozzarella Skewers",
+              "Chicken Mayo Savory Éclair",
+              "Cream Cheese with Strawberry Balsamic Bruschetta",
+              "Crushed Potato with Smoked Turkey & Cheese",
+              "Dates with Cream Cheese",
+              "Devilled Egg Canape with Avocado",
+              "Endive Roquefort Spoon with Walnuts",
+              "Kebbeh Balls Stuffed with Moutabal & topped with Pomegranate",
+              "Figs, Onion Jam with Goat Cheese Bruschetta",
+              "Fresh Asparagus wrapped with Smoked Beef",
+              "Hummus Beetroot Tartlets",
+              "Sundried Tomato with Hommos Bruschetta",
+              "Tiger Prawn Canapé with Mango Skewers",
+              "Tomato Diced Bruschetta with Black Olives",
+              "Watermelon, Mango with Feta Cheese Skewers"
+            ],
+            "Finger Foods (choose 7)": [
+              "Assorted Mini Premium Sandwiches",
+              "Beef or Chicken Sliders",
+              "Chicken Satay with Peanut Butter Sauce",
+              "Chicken Sesame Wonton Tartlet",
+              "Croquette Potato stuffed with Cheese",
+              "Crunchy Veggie Taco Cups",
+              "Fajita Roll (Optional: Chicken/Vegetable)",
+              "Falafel Wrap in Spinach Tortilla",
+              "Hawaiian Chicken Kebabs with Mustard, Pineapple Juice",
+              "Hummus Tartlet",
+              "Meatball Skewers with BBQ Sauce",
+              "Panko Prawns with Chilli dip",
+              "Spinach Quiche",
+              "Tomato, Mozzarella & Basil Bruschetta",
+              "Vol Au Vent with Smoked Turkey & Sautéed Mushroom"
+            ],
+            "Mini Desserts (choose 4)": [
+              "Chocolate Brownies",
+              "Chocolate Ganache Tartlet",
+              "Rose Eclairs",
+              "Berry Tartlet",
+              "Lemon Meringue Tartlets",
+              "Tiramisu in Shots",
+              "Oreo Cheesecake in Shots",
+              "Pistachio Cheesecake in Shots",
+              "Fruit Skewers in Shots",
+              "Creme Brulee"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Choose 18 items as per the category.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person.",
+            "Standard service is four (4) hours. Any additional time beyond 4 hours is charged at a flat rate of AED 500 per hour, excluding VAT."
+          ]
+        },
+        {
+          "id": "light-buffet-premium-5",
+          "name": "Premium Light Buffet — Menu Option 5",
+          "section": "light-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 280
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 260
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 250
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 240
+            }
+          ],
+          "menu": {
+            "Premium Canapés (choose 12)": [
+              "Apricot with Goat Cheese, Almond & Rosemary",
+              "Assorted Sushi Platter",
+              "Baby Skinny Potato with Sour Cream & Caviar",
+              "Beef or Chicken Sliders in colored buns",
+              "Beef Salami with Green Olives & Mozzarella Cheese Skewers",
+              "Beef Wellington Canape",
+              "Black Fig with Goats Cheese & Wild Rocket",
+              "Blacked Shrimp with Avocado Tartlet",
+              "Bresaola Brownie with Whipped Goat Cheese",
+              "Bresaola with Asparagus Bruschetta",
+              "Bresaola with Peach Skewers",
+              "Brie Cheese Crackers with Fresh Blueberry",
+              "Butterfly Shrimp Bruschetta",
+              "Butterfly Shrimps with Pear and Avocado in Cocktail Sauce",
+              "Canapé Chaat Tartlets",
+              "Caramelized Chicken with Crepes Mandarin & Hoi-sin Sauce",
+              "Cherry Tomato with Fresh Mozzarella Skewers",
+              "Classic Caviar Blini Canape",
+              "Chicken Satay with Peanut Butter Sauce",
+              "Chicken Shawarma Moneybags",
+              "Cream Cheese with Strawberry Balsamic Bruschetta",
+              "Crushed Potato with Smoked Turkey & Cheese",
+              "Dates with Cream Cheese",
+              "Devilled Egg Canape with Avocado",
+              "Endive Roquefort Spoon with Walnuts",
+              "Figs, Onion Jam with Goat Cheese Bruschetta",
+              "Fresh Asparagus wrapped with Smoked Beef",
+              "Hummus Beetroot Tartlets",
+              "Meatball Skewers with BBQ Sauce",
+              "Panko Prawns with Dynamite Sauce",
+              "Salmon Cheese Crostini",
+              "Salmon Grawlax on Salted Crackers",
+              "Seafood Dumpling",
+              "Smoked Salmon Rose with Asparagus in Spoon",
+              "Smoked Salmon Rose with Tabico & Caviar Tartlets",
+              "Sundried Tomato with Hommos Bruschetta",
+              "Tiger Prawn Canapé with Mango Skewers",
+              "Tomato & Cantal Quiche",
+              "Tomato Diced Bruschetta with Black Olives",
+              "Vol Au Vent with Smoked Turkey & Sautéed Mushroom",
+              "Watermelon, Mango with Feta Cheese Skewers",
+              "Kebbeh Balls Stuffed with Moutabal & topped with Pomegranate",
+              "Grilled Zucchini Rolled with Ricotta Cheese & Topped with Caviar",
+              "Avocado, Mango & Crab in Fresh Lettuce with Rosemary & Dressing"
+            ],
+            "Mini Desserts (choose 5)": [
+              "Chocolate Bomb",
+              "Chocolate Ganache Tartlet",
+              "Rose Eclairs",
+              "Berry Tartlet",
+              "Lemon Meringue Tartlets",
+              "Tiramisu in Shots",
+              "Oreo Cheesecake in Shots",
+              "Pistachio Cheesecake in Shots",
+              "Fruit Skewers in Shots",
+              "Creme Brulee",
+              "Sacher Cake",
+              "Assorted Macarons"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Softdrinks",
+              "Either Fresh Juices or Mocktail Juices (3 flavours applicable)"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Choose 17 items as per the category.",
+            "Standard service is four (4) hours. Any additional time beyond 4 hours is charged at a flat rate of AED 500 per hour, excluding VAT."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch-buffet",
+      "name": "Lunch Buffets — International, Arabic & Indian (minimum 20 guests)",
+      "packages": [
+        {
+          "id": "lunch-international-1",
+          "name": "International Buffet — Menu Option 1",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 160
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 140
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 130
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 120
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Chicken Caesar Salad",
+              "Rocca Salad with Balsamic dressing (v)"
+            ],
+            "Starter": [
+              "Vegetable Cutlet (v)"
+            ],
+            "Main Course": [
+              "Baked Chicken Breast with Mustard Sauce",
+              "Fish & Chips",
+              "Basil, Beef and Eggplant Stir-fry",
+              "Baked Mac Mushroom & Cheese (v)",
+              "Potato Boulangere (v)",
+              "Vegetable Ratatouille (v)",
+              "Steamed Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Chocolate Brownies",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-international-2",
+          "name": "International Buffet — Menu Option 2",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 180
+            },
+            {
+              "range": "55 to 80 Guests",
+              "minGuests": 55,
+              "maxGuests": 80,
+              "mychefRate": 160
+            },
+            {
+              "range": "85 to 100 Guests",
+              "minGuests": 85,
+              "maxGuests": 100,
+              "mychefRate": 150
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 140
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Pasta, Corn & Tuna Salad",
+              "Chef Salad",
+              "Autumn Coconut Salad (v)"
+            ],
+            "Starters": [
+              "Mini Chicken BBQ Pizza",
+              "Vegetable Spring Rolls (v)"
+            ],
+            "Main Course": [
+              "Mongolian Beef",
+              "Roasted Chicken with Mushroom Sauce",
+              "Fried Fish Topped with Sweet Chili Sauce",
+              "Penne Pasta with Pink Sauce (v)",
+              "Potato Wedges (v)",
+              "Eggplant Parmigiana (v)",
+              "Greenpeas Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Bread & Butter Pudding",
+              "Chocolate Éclair",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-international-3",
+          "name": "International Buffet — Menu Option 3",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 200
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 190
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 180
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Asiatic Chicken Salad with Honey Mustard Dressing",
+              "Mediterranean Tuna Salad",
+              "Fattoush with toast arabic bread (v)",
+              "Aloo Chana Chat (v)"
+            ],
+            "Starters": [
+              "Cocktail Veggie Samosa (v)",
+              "BBQ Chicken Lollipop with BBQ Sauce",
+              "Mini Vegetable Fajita Roll (v)"
+            ],
+            "Main Course": [
+              "Grilled Fish with separate Lemon Butter Sauce",
+              "Cantonese Lemon Chicken",
+              "Chicken Biryani with Raita",
+              "Kofta Bel Saynieh",
+              "Penne Arrabbiata with Parmesan Cheese (v)",
+              "Grilled Vegetables with Roast Almond Slices (v)",
+              "Lyonnaise Potato (v)",
+              "Butter Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Pistachio Whole Cake",
+              "Umm Ali",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-international-premium",
+          "name": "Premium International Buffet — Menu Option 3",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 300
+            },
+            {
+              "range": "55 to 80 Guests",
+              "minGuests": 55,
+              "maxGuests": 80,
+              "mychefRate": 280
+            },
+            {
+              "range": "85 to 100 Guests",
+              "minGuests": 85,
+              "maxGuests": 100,
+              "mychefRate": 270
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 260
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Baby Rocket Leaves with Fresh Mushroom & Parmesan Cheese (v)",
+              "Smoked Turkey & Avocado Salad",
+              "Bresaola & Melon Salad"
+            ],
+            "Starters": [
+              "Breaded Risotto Balls (v)",
+              "Sesame Chicken Wonton Cup",
+              "Tomato & Cantal Quiche Tartlet (v)"
+            ],
+            "Main Course": [
+              "Tenderloin Steak with Mushroom Sauce",
+              "Grilled Salmon with separate Caper Sauce",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Roast Lamb with Oriental Rice & Nuts, served with yoghurt & cucumber",
+              "Spinach Ravioli (v)",
+              "Honey Roast Carrot with Thyme (v)",
+              "Mashed Potato (v)",
+              "Greenpeas Rice",
+              "Premium Bread Basket"
+            ],
+            "Sweets": [
+              "Tiramisu in Shots",
+              "Lemon Meringue Tartlet",
+              "Kunafa Whole Cheese Cake",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-arabic-1",
+          "name": "Arabic Buffet — Menu Option 1",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 160
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 140
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 130
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 120
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Greek Salad (v)",
+              "Fattoush with toast arabic bread (v)"
+            ],
+            "Starter": [
+              "Spinach Fatayer (v)"
+            ],
+            "Main Course": [
+              "Samkeh Harra with Tahina or Tomato Sauce",
+              "Dawood Basha",
+              "Chicken Mandi",
+              "Macaroni Bechamel (v)",
+              "Patata Harra (v)",
+              "Butter Vegetables (v)",
+              "Butter Rice",
+              "Arabic bread"
+            ],
+            "Sweets": [
+              "Umm Ali",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-arabic-2",
+          "name": "Arabic Buffet — Menu Option 2",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 180
+            },
+            {
+              "range": "55 to 80 Guests",
+              "minGuests": 55,
+              "maxGuests": 80,
+              "mychefRate": 160
+            },
+            {
+              "range": "85 to 100 Guests",
+              "minGuests": 85,
+              "maxGuests": 100,
+              "mychefRate": 150
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 140
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Hommos (v)",
+              "Greek Salad (v)",
+              "Lentil Salad (v)"
+            ],
+            "Starters": [
+              "Fried Kebbeh",
+              "Cheese Sambousek (v)"
+            ],
+            "Main Course": [
+              "Charcoal Grilled Chicken with Garlic Sauce on the side",
+              "Kafta Bel Saynieh",
+              "Fish Sayadieh",
+              "Penne Pasta with Pink Sauce (v)",
+              "Roast Potato with Herbs (v)",
+              "Moussaka Batenjan",
+              "Vermicelli Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Awamat with Date Syrup",
+              "Umm Ali",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-arabic-premium",
+          "name": "Premium Arabic Buffet — Menu Option 3",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 50 Guests",
+              "minGuests": 20,
+              "maxGuests": 50,
+              "mychefRate": 300
+            },
+            {
+              "range": "55 to 80 Guests",
+              "minGuests": 55,
+              "maxGuests": 80,
+              "mychefRate": 280
+            },
+            {
+              "range": "85 to 100 Guests",
+              "minGuests": 85,
+              "maxGuests": 100,
+              "mychefRate": 270
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 260
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Tabbouleh (v)",
+              "Grilled Chicken Caesar Salad",
+              "Baba Ghanouj (v)",
+              "Hummus (v)"
+            ],
+            "Starters": [
+              "Chicken Shawarma Moneybags",
+              "Mini Falafel Roll in Spinach Tortilla Roll (v)"
+            ],
+            "Main Course": [
+              "Traditional Mixed Grill (Shish Taouk, Kofta Kebab)",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Roast Lamb with Oriental Rice & Nuts, served with yoghurt & cucumber",
+              "Grilled Vegetables with Pesto (v)",
+              "Spinach Ravioli (v)",
+              "Patata Harra (v)",
+              "Saffron Rice",
+              "Arabic Bread"
+            ],
+            "Sweets": [
+              "Fresh Fruit Platter",
+              "Baklava",
+              "Luqaimat"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "lunch-indian-1",
+          "name": "Indian Buffet — Menu Option 1",
+          "section": "lunch-buffet",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 160
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 140
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 130
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 120
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Tossed Indian Summer Salad with Mint Leaves (v)",
+              "Aloo Chana Chat (v)",
+              "Garden Green Salad (v)"
+            ],
+            "Starter": [
+              "Hara Bhara Kebab (v)"
+            ],
+            "Main Course": [
+              "Mutton Biryani with Raita & Pappad",
+              "Butter Chicken",
+              "Tandoori Fish with Mint Chutney",
+              "Singaporean Noodles (v)",
+              "Patata Harra (v)",
+              "Palak Paneer (v)",
+              "Dal Makhni (v)",
+              "Biryani Rice",
+              "Chapatti"
+            ],
+            "Sweets": [
+              "Rice Kheer",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch-small-group",
+      "name": "Lunch Buffets — Small Groups (10 to 15 guests)",
+      "packages": [
+        {
+          "id": "small-international-1",
+          "name": "International Buffet (Small Group) — Menu Option 1",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3000,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Chicken Caesar Salad",
+              "Rocca Salad with Balsamic dressing (v)"
+            ],
+            "Main Course": [
+              "Baked Chicken Breast with Mustard Sauce",
+              "Basil, Beef and Eggplant Stir-fry",
+              "Baked Mac Mushroom & Cheese (v)",
+              "Potato Boulangere (v)",
+              "Vegetable Ratatouille (v)",
+              "Steamed Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Chocolate Brownies"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-international-2",
+          "name": "International Buffet (Small Group) — Menu Option 2",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3400,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Pasta, Corn & Tuna Salad",
+              "Chef Salad"
+            ],
+            "Starters": [
+              "Mini Chicken BBQ Pizza"
+            ],
+            "Main Course": [
+              "Roasted Chicken with Mushroom Sauce",
+              "Fried Fish Topped with Sweet Chili Sauce",
+              "Penne Pasta with Pink Sauce (v)",
+              "Potato Wedges (v)",
+              "Eggplant Parmigiana (v)",
+              "Greenpeas Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Bread & Butter Pudding",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-international-3",
+          "name": "International Buffet (Small Group) — Menu Option 3",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4200,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Asiatic Chicken Salad with Honey Mustard Dressing",
+              "Mediterranean Tuna Salad",
+              "Fattoush with toast arabic bread (v)"
+            ],
+            "Starters": [
+              "Cocktail Veggie Samosa (v)",
+              "BBQ Chicken Lollipop with BBQ Sauce"
+            ],
+            "Main Course": [
+              "Grilled Fish with separate Lemon Butter Sauce",
+              "Cantonese Lemon Chicken",
+              "Chicken Biryani with Raita",
+              "Penne Arrabbiata with Parmesan Cheese (v)",
+              "Grilled Vegetables with Roast Almond Slices (v)",
+              "Lyonnaise Potato (v)",
+              "Butter Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Umm Ali",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-international-premium",
+          "name": "Premium International Buffet (Small Group) — Menu Option 3",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 5000,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Baby Rocket Leaves with Fresh Mushroom & Parmesan Cheese (v)",
+              "Smoked Turkey & Avocado Salad",
+              "Bresaola & Melon Salad"
+            ],
+            "Starters": [
+              "Breaded Risotto Balls (v)",
+              "Sesame Chicken Wonton Cup"
+            ],
+            "Main Course": [
+              "Tenderloin Steak with Mushroom Sauce",
+              "Grilled Salmon with separate Caper Sauce",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Spinach Ravioli (v)",
+              "Honey Roast Carrot with Thyme (v)",
+              "Mashed Potato (v)",
+              "Greenpeas Rice",
+              "Premium Bread Basket"
+            ],
+            "Sweets": [
+              "Lemon Meringue Tartlet",
+              "Kunafa Whole Cheese Cake",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-arabic-1",
+          "name": "Arabic Buffet (Small Group) — Menu Option 1",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3000,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Greek Salad (v)",
+              "Fattoush with toast arabic bread (v)"
+            ],
+            "Main Course": [
+              "Samkeh Harra with Tahina or Tomato Sauce",
+              "Dawood Basha",
+              "Macaroni Bechamel (v)",
+              "Patata Harra (v)",
+              "Butter Vegetables (v)",
+              "Butter Rice",
+              "Arabic bread"
+            ],
+            "Sweet": [
+              "Umm Ali"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-arabic-2",
+          "name": "Arabic Buffet (Small Group) — Menu Option 2",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3400,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Hommos (v)",
+              "Greek Salad (v)"
+            ],
+            "Starters": [
+              "Fried Kebbeh"
+            ],
+            "Main Course": [
+              "Charcoal Grilled Chicken with Garlic Sauce on the side",
+              "Kafta Bel Saynieh",
+              "Penne Pasta with Pink Sauce (v)",
+              "Roast Potato with Herbs (v)",
+              "Moussaka Batenjan",
+              "Vermicelli Rice",
+              "Bread Basket"
+            ],
+            "Sweets": [
+              "Awamat with Date Syrup",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-arabic-premium",
+          "name": "Premium Arabic Buffet (Small Group) — Menu Option 3",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 5000,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Tabbouleh (v)",
+              "Grilled Chicken Caesar Salad",
+              "Baba Ghanouj (v)",
+              "Hummus (v)"
+            ],
+            "Starters": [
+              "Chicken Shawarma Moneybags",
+              "Mini Falafel Roll in Spinach Tortilla Roll (v)",
+              "Beetroot Hummus Tartlets"
+            ],
+            "Main Course": [
+              "Traditional Mixed Grill (Shish Taouk, Kofta Kebab)",
+              "Grilled Salmon with separate Lemon Butter Sauce",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Roast Lamb with Oriental Rice & Nuts, served with yoghurt & cucumber",
+              "Grilled Vegetables with Pesto (v)",
+              "Spinach Ravioli (v)",
+              "Patata Harra (v)",
+              "Saffron Rice",
+              "Arabic Bread"
+            ],
+            "Sweets": [
+              "Mouhalabieh with Pistachio Nuts in Shots",
+              "Baklava",
+              "Luqaimat"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        },
+        {
+          "id": "small-indian-1",
+          "name": "Indian Buffet (Small Group) — Menu Option 1",
+          "section": "lunch-small-group",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 3000,
+              "lumpsum": true
+            }
+          ],
+          "menu": {
+            "Salads": [
+              "Tossed Indian Summer Salad with Mint Leaves (v)",
+              "Aloo Chana Chat (v)",
+              "Garden Green Salad (v)"
+            ],
+            "Main Course": [
+              "Mutton Biryani with Raita & Pappad",
+              "Tandoori Fish with Mint Chutney",
+              "Singaporean Noodles (v)",
+              "Patata Harra (v)",
+              "Palak Paneer (v)",
+              "Dal Makhni (v)",
+              "Biryani Rice",
+              "Chapatti"
+            ],
+            "Sweets": [
+              "Rice Kheer",
+              "Fresh Fruit Platter"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Perfect for small groups — 10 to 15 guests, lumpsum pricing.",
+            "Beverage upgrades: soft drinks +AED 10 per person; fresh juices +AED 25 per person; mocktail juices +AED 35 per person; coffee machine from AED 1,000."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee-breaks-lunch",
+      "name": "Coffee Breaks & Lunch Packages",
+      "packages": [
+        {
+          "id": "cb2-lunch-1",
+          "name": "2 Coffee Breaks & Lunch — Menu Option 1",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 200
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 190
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 180
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Chicken Caesar Salad",
+              "Rocca Salad with Balsamic dressing (v)"
+            ],
+            "Lunch — Main Course": [
+              "Baked Chicken Breast with Mustard Sauce",
+              "Basil, Beef and Eggplant Stir-fry",
+              "Baked Mac Mushroom & Cheese (v)",
+              "Vegetable Ratatouille (v)",
+              "Steamed Rice",
+              "Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Chocolate Brownies",
+              "Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "Assorted Mini Croissants (Butter Croissant, Chocolate Croissant)",
+              "Assorted Mini Sandwiches (Cheese & Tomato Sandwich, Turkey Ham and Cheese Sandwich, Tuna Melt Sandwich)",
+              "Fresh Fruit Salad"
+            ],
+            "Afternoon Coffee Break": [
+              "Blueberry Danish Pastry",
+              "Assorted Mini Sandwiches (Chicken Scallop Sandwiches, Mini Falafel Roll, Cheese & Tomato Sandwich)",
+              "Apple Crumble Tart"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "cb2-lunch-2",
+          "name": "2 Coffee Breaks & Lunch — Menu Option 2",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4600,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 280
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 260
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 250
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 240
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Pasta, Corn & Tuna Salad",
+              "Chef Salad",
+              "Autumn Coconut Salad (v)"
+            ],
+            "Lunch — Starters": [
+              "Mini Chicken BBQ Pizza",
+              "Vegetable Spring Rolls (v)"
+            ],
+            "Lunch — Main Course": [
+              "Mongolian Beef",
+              "Roasted Chicken with Mushroom Sauce",
+              "Fried Fish Topped with Sweet Chili Sauce",
+              "Penne Pasta with Pink Sauce (v)",
+              "Potato Wedges (v)",
+              "Eggplant Parmigiana (v)",
+              "Greenpeas Rice",
+              "Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Bread & Butter Pudding",
+              "Chocolate Éclair",
+              "Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "From the Pastry (Pain Au Chocolat, Almond Croissant, Cheese Croissant)",
+              "Assorted Mini Sandwiches (Roast Beef with Mustard Sauce & Pickles, Greek Chicken Gyros with Tzatziki Sauce in Kubus bread, Tuna with Corn)",
+              "Fresh Fruit Salad",
+              "Turkey & Cheese Puff Pastry"
+            ],
+            "Afternoon Coffee Break": [
+              "Chocolate Brownies",
+              "Vegetable Cutlet",
+              "Assorted Mini Sandwiches (Classic Egg & Cress Finger Sandwich, Pesto Grilled Vegetable Panini, Chimichurri Chicken Wrap)",
+              "Chicken Sausage Roll",
+              "Home Made Cookies"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "cb2-lunch-premium-3",
+          "name": "Premium 2 Coffee Breaks & Lunch — Menu Option 3",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 380
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 340
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 330
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 320
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Baby Rocket Leaves with Fresh Mushroom & Parmesan Cheese (v)",
+              "Smoked Turkey & Avocado Salad",
+              "Bresaola & Melon Salad"
+            ],
+            "Lunch — Starters": [
+              "Breaded Risotto Balls (v)",
+              "Sesame Chicken Wonton Cup",
+              "Tomato & Cantal Quiche Tartlet (v)"
+            ],
+            "Lunch — Main Course": [
+              "Tenderloin Steak with Mushroom Sauce",
+              "Grilled Salmon with separate Caper Sauce",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Roast Lamb with Oriental Rice & Nuts, served with yoghurt & cucumber",
+              "Spinach Ravioli (v)",
+              "Honey Roast Carrot with Thyme (v)",
+              "Mashed Potato (v)",
+              "Greenpeas Rice",
+              "Premium Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Tiramisu in Shots",
+              "Lemon Meringue Tartlet",
+              "Kunafa Whole Cheese Cake",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "Bread Basket: Laugen, Focaccia, Ciabatta — served with Nutella, Bottled Jam & Butter Portions",
+              "Flavored Yoghurt Portions",
+              "From the Pastry (Almond Cream Swirl Danish Pastry, Pecan Caramel Danish Pastry, Creamy Red Velvet Crumble Flavoured Croissant)",
+              "Assorted Premium Mini Sandwiches (Chicken & Avocado Burritos, Smoked Salmon with Dill Cream in Ciabatta Roll, Vegetable Pita Pocket)",
+              "Exotic Fresh Fruit Platter",
+              "Yoghurt Parfait with Granola & Berries in Shots"
+            ],
+            "Afternoon Coffee Break": [
+              "Mini Sliders (Chicken or Beef)",
+              "Date & Walnut Muffins",
+              "Assorted Open Face Sandwich (Whipped Feta & Beetroot Crostini, Cream Cheese with Strawberry Balsamic)",
+              "Mini Fruit Tartlets"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Fresh Juice",
+              "Selection of Tea",
+              "Coffee Machine with Cappuccino, Latte, etc."
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests."
+          ]
+        },
+        {
+          "id": "cb1-lunch-1",
+          "name": "1 Coffee Break & Lunch — Menu Option 1",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 200
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 190
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 180
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Chicken Caesar Salad",
+              "Rocca Salad with Balsamic dressing (v)",
+              "Aloo Chana Chat"
+            ],
+            "Lunch — Starter": [
+              "Vegetable Cutlet (v)",
+              "Chicken Spring Roll"
+            ],
+            "Lunch — Main Course": [
+              "Baked Chicken Breast with Mustard Sauce",
+              "Fish & Chips",
+              "Basil, Beef and Eggplant Stir-fry",
+              "Baked Mac Mushroom & Cheese (v)",
+              "Vegetable Ratatouille (v)",
+              "Steamed Rice",
+              "Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Chocolate Brownies",
+              "Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "Assorted Mini Croissants (Butter Croissant, Chocolate Croissant)",
+              "Assorted Mini Sandwiches (Cheese & Tomato Sandwich, Turkey Ham and Cheese Sandwich, Tuna Melt Sandwich)",
+              "Savoury Muffins with Spinach, Sundried Tomatoes & Feta Cheese (v)",
+              "Fresh Fruit Salad",
+              "Apple Crumble Tart"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "cb1-lunch-2",
+          "name": "1 Coffee Break & Lunch — Menu Option 2",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4600,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 280
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 260
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 250
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 240
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Pasta, Corn & Tuna Salad",
+              "Chef Salad",
+              "Caprese Salad"
+            ],
+            "Lunch — Starters": [
+              "Mini Chicken BBQ Pizza",
+              "Vegetable Spring Rolls (v)"
+            ],
+            "Lunch — Main Course": [
+              "Pepper Steak with Black Pepper Sauce",
+              "Roasted Chicken with Mushroom Sauce",
+              "Fried Fish Topped with Sweet Chili Sauce",
+              "Penne Pasta with Pink Sauce (v)",
+              "Potato Wedges (v)",
+              "Eggplant Parmigiana (v)",
+              "Greenpeas Rice",
+              "Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Bread & Butter Pudding",
+              "Chocolate Éclair",
+              "Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "From the Pastry (Pain Au Chocolat, Almond Croissant, Cheese Croissant)",
+              "Assorted Mini Sandwiches (Classic Egg & Cress Finger Sandwich, Pesto Grilled Vegetable Panini, Chimichurri Chicken Wrap)",
+              "Spinach Quiche (v)",
+              "Turkey & Cheese Puff Pastry",
+              "Chocolate Brownies",
+              "Fresh Fruit Salad"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        },
+        {
+          "id": "cb1-lunch-premium-3",
+          "name": "Premium 1 Coffee Break & Lunch — Menu Option 3",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 380
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 360
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 350
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 340
+            }
+          ],
+          "menu": {
+            "Lunch — Salads": [
+              "Baby Rocket Leaves with Fresh Mushroom & Parmesan Cheese (v)",
+              "Smoked Turkey & Avocado Salad",
+              "Bresaola & Melon Salad"
+            ],
+            "Lunch — Starters": [
+              "Breaded Risotto Balls (v)",
+              "Sesame Chicken Wonton Cup",
+              "Tomato & Cantal Quiche Tartlet (v)"
+            ],
+            "Lunch — Main Course": [
+              "Tenderloin Steak with Mushroom Sauce",
+              "Grilled Salmon with separate Caper Sauce",
+              "Butterflied Grilled Chicken with Alabama White Sauce",
+              "Roast Lamb with Oriental Rice & Nuts, served with yoghurt & cucumber",
+              "Spinach Ravioli (v)",
+              "Honey Roast Carrot with Thyme (v)",
+              "Mashed Potato (v)",
+              "Greenpeas Rice",
+              "Premium Bread Basket"
+            ],
+            "Lunch — Sweets": [
+              "Tiramisu in Shots",
+              "Lemon Meringue Tartlet",
+              "Kunafa Whole Cheese Cake",
+              "Exotic Fresh Fruit Platter"
+            ],
+            "Morning Coffee Break": [
+              "Bread Basket: Laugen, Focaccia, Ciabatta — served with Nutella, Bottled Jam & Butter Portions",
+              "Flavored Yoghurt Portions",
+              "From the Pastry (Almond Cream Swirl Danish Pastry, Pecan Caramel Danish Pastry, Creamy Red Velvet Crumble Flavoured Croissant)",
+              "Assorted Premium Mini Sandwiches (Chicken & Avocado Burritos, Smoked Salmon with Dill Cream in Ciabatta Roll, Vegetable Pita Pocket)",
+              "Exotic Fresh Fruit Platter",
+              "Mini Fruit Tartlets",
+              "Yoghurt Parfait with Granola & Berries in Shots"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Fresh Juice",
+              "Selection of Tea",
+              "Coffee Machine with Cappuccino, Latte, etc."
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "VIP buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Minimum of 20 guests."
+          ]
+        },
+        {
+          "id": "cb2-no-lunch",
+          "name": "2 Coffee Breaks (Morning & Afternoon) — Without Lunch",
+          "section": "coffee-breaks-lunch",
+          "guestTiers": [
+            {
+              "range": "10 to 15 Guests",
+              "minGuests": 10,
+              "maxGuests": 15,
+              "mychefRate": 4000,
+              "lumpsum": true
+            },
+            {
+              "range": "20 to 45 Guests",
+              "minGuests": 20,
+              "maxGuests": 45,
+              "mychefRate": 220
+            },
+            {
+              "range": "50 to 75 Guests",
+              "minGuests": 50,
+              "maxGuests": 75,
+              "mychefRate": 190
+            },
+            {
+              "range": "80 to 100 Guests",
+              "minGuests": 80,
+              "maxGuests": 100,
+              "mychefRate": 170
+            },
+            {
+              "range": "105 Guests & above",
+              "minGuests": 105,
+              "maxGuests": null,
+              "mychefRate": 160
+            }
+          ],
+          "menu": {
+            "Morning Coffee Break": [
+              "Butter Croissant",
+              "Chocolate Croissant",
+              "Cheese & Tomato Sandwich (v)",
+              "Turkey Ham and Cheese Sandwich",
+              "Mini Roast Beef with Mustard Sauce & Pickles",
+              "Fruit Salad",
+              "Banana Cake Slices"
+            ],
+            "Afternoon Coffee Break": [
+              "Blueberry Danish Pastry",
+              "Savoury Muffins with Spinach, Sundried Tomatoes & Feta Cheese (v)",
+              "Chicken Scallop Sandwich",
+              "Mini Falafel Roll (v)",
+              "Apple Crumble Tart",
+              "Assorted Bread Basket"
+            ],
+            "Beverages": [
+              "Mineral Water",
+              "Assorted Chilled Juice",
+              "Tea & American Coffee"
+            ]
+          },
+          "inclusions": [
+            "Skilled waiters",
+            "Buffet table set-up",
+            "Plates",
+            "Cutlery",
+            "Glassware"
+          ],
+          "notes": [
+            "Beverage upgrades: coffee machine from AED 1,000; fresh juices +AED 25 per person; soft drinks +AED 10 per person; mocktail juices +AED 35 per person."
+          ]
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "live-english-bbq",
+      "name": "Live English BBQ Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 360
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 340
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 320
+        }
+      ],
+      "chooseItems": [
+        "Beef Bacon",
+        "Beef Burger",
+        "BBQ Chicken",
+        "Grilled Prawns",
+        "Grilled Tenderloin Steak",
+        "Corn on the Cob"
+      ],
+      "servedWith": [
+        "BBQ Sauce",
+        "Rosemary Sauce",
+        "Mushroom Sauce",
+        "Black Pepper Sauce"
+      ],
+      "salads": [
+        "Hummus",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets"
+      ],
+      "sideDishes": [
+        "Greenpeas Rice OR Steamed Rice OR Corn Rice",
+        "Roast Potato with Herbs"
+      ],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [
+        {
+          "item": "Grilled Prawns (per head)",
+          "mychef": 40
+        },
+        {
+          "item": "Lamb Chops (per head)",
+          "mychef": 50
+        },
+        {
+          "item": "Prawns & Lamb Chops — both (per head)",
+          "mychef": 80
+        }
+      ],
+      "notes": [
+        "Choose any 4 grill items complimentary."
+      ]
+    },
+    {
+      "id": "live-arabic-bbq",
+      "name": "Live Arabic BBQ Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 350
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 310
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 260
+        }
+      ],
+      "chooseItems": [
+        "Shish Taouk",
+        "Lamb Cubes",
+        "Grilled Vegetables",
+        "Arayess",
+        "Kofta Kebab",
+        "Prawns / Lamb Chops (extra charge)"
+      ],
+      "servedWith": [
+        "Hummus",
+        "Garlic Sauce",
+        "Potato Wedges",
+        "Arabic bread"
+      ],
+      "salads": [
+        "Hummus",
+        "Fattoush",
+        "Caesar Salad",
+        "Rocca Salad with Balsamic dressing"
+      ],
+      "starters": [
+        "Spinach Fatayer",
+        "Cheese Sambousek",
+        "Chicken Moussakhan Roll",
+        "Mini Chicken Shawarma Roll",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Awamat with Date Syrup",
+        "Mouhalabieh with Orange",
+        "Fruit Tartlet",
+        "Umm Ali",
+        "Brownies"
+      ],
+      "sideDishes": [
+        "Greenpeas Rice OR Steamed Rice OR Saffron Rice"
+      ],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [
+        {
+          "item": "Grilled Prawns (per head)",
+          "mychef": 40
+        },
+        {
+          "item": "Lamb Chops (per head)",
+          "mychef": 50
+        },
+        {
+          "item": "Prawns & Lamb Chops — both (per head)",
+          "mychef": 80
+        }
+      ],
+      "notes": [
+        "Choose any 4 grill items complimentary."
+      ]
+    },
+    {
+      "id": "live-indian-bbq",
+      "name": "Live Indian BBQ Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 300
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 280
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 250
+        }
+      ],
+      "chooseItems": [
+        "Chicken Malai Tikka",
+        "Mutton Seekh Kebab",
+        "Fish Tikka",
+        "Grilled Corn",
+        "Paneer Tikka Skewers",
+        "Tandoori Prawns (extra charge)"
+      ],
+      "servedWith": [
+        "Mint Chutney",
+        "Garlic Chili dip",
+        "BBQ Sauce",
+        "Pickled Onions"
+      ],
+      "salads": [
+        "Garden Green Salad",
+        "Aloo Chana Chat",
+        "Kachumber Salad",
+        "Rajma Salad",
+        "Hummus"
+      ],
+      "starters": [
+        "Vegetable Samosa",
+        "Pani Puri with Condiments",
+        "Papdi Chaat",
+        "Hara Bhara Kebab",
+        "Cheese Rolls"
+      ],
+      "miniDesserts": [
+        "Gulab Jamun",
+        "Carrot Kheer",
+        "Fruit Tartlet",
+        "Firni",
+        "Brownies"
+      ],
+      "sideDishes": [
+        "Greenpeas Rice OR Steamed Rice OR Pulao Rice",
+        "Roast Potato with Herbs"
+      ],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [
+        {
+          "item": "Tandoori Prawns (per head)",
+          "mychef": 40
+        }
+      ],
+      "notes": [
+        "Choose any 4 grill items complimentary."
+      ]
+    },
+    {
+      "id": "live-shawarma",
+      "name": "Live Shawarma Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Chicken or Beef Shawarma",
+        "Falafel (optional, for vegetarian)"
+      ],
+      "servedWith": [
+        "Arabic bread",
+        "French Fries",
+        "Garlic Sauce & Tahina Sauce",
+        "Fresh Tomato",
+        "Lettuce",
+        "Pickles"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Shawarma machine (gas)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-pasta",
+      "name": "Live Pasta Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Tagliatelle",
+        "Penne",
+        "Farfalle",
+        "Spaghetti",
+        "Shrimps (optional)"
+      ],
+      "servedWith": [
+        "Pesto Sauce",
+        "Tomato Sauce",
+        "Cream Sauce",
+        "Condiments: Garlic, Onion, Oregano, Olives, Parmesan Shavings, Capsicum, Mushroom, etc."
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Mini Falafel Roll",
+        "Chicken Shawarma Roll"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 items complimentary."
+      ]
+    },
+    {
+      "id": "live-burger",
+      "name": "Live Burger Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Chicken or Beef Burger",
+        "Vegetable Burger (optional)"
+      ],
+      "servedWith": [
+        "Cheddar Cheese, Lettuce, Tomato, Caramelized Onion, Pickles",
+        "BBQ Sauce",
+        "Ketchup",
+        "Dijon Mustard",
+        "Zaatar Mayo",
+        "Tabasco"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-mexican",
+      "name": "Live Mexican Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Quesadilla",
+        "Burrito",
+        "Taco",
+        "Fajita (Chicken or Beef)"
+      ],
+      "servedWith": [
+        "Tortilla Bread",
+        "Taco Shells",
+        "Chilli Con Carne",
+        "Spanish Rice",
+        "Shredded Cheese, Sour Cream, Guacamole, Salsa, Chopped Onion, Tomato Dice, Lettuce, Bell Pepper, Avocado, Coriander, Red Beans, Jalapeno, Black Sliced Olives, Pico De Gallo"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-teriyaki",
+      "name": "Live Teriyaki Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Stir Fry Chicken or Beef"
+      ],
+      "servedWith": [
+        "Stir Fry Vegetables",
+        "Chinese Noodles"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-bao-buns",
+      "name": "Live Bao Buns Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Stir Fry Chicken or Beef Bao Buns"
+      ],
+      "servedWith": [
+        "Korean BBQ Sauce",
+        "Lettuce",
+        "Cucumber",
+        "Corriander Leaves",
+        "Sesame Seeds"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-pani-puri",
+      "name": "Live Pani Puri, Samosa Chat & Sev Puri Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 180
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 160
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 140
+        }
+      ],
+      "chooseItems": [
+        "Pani Puri",
+        "Samosa Chat",
+        "Sev Puri"
+      ],
+      "servedWith": [
+        "Bundi",
+        "Potato",
+        "Black Chana",
+        "Samosa Chat",
+        "Aloo Papri Chat",
+        "Dahi Chana Chat"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Garden Green Salad",
+        "Aloo Chana Chat",
+        "Kachumber Salad",
+        "Rajma Salad"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Samosa",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Hara Bhara Kebab",
+        "Vegetable Cutlet"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-asian",
+      "name": "Live Asian Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 180
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 160
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 140
+        }
+      ],
+      "chooseItems": [
+        "Veg Tempura",
+        "Shrimp Tempura",
+        "Veg Spring Roll",
+        "Chicken"
+      ],
+      "servedWith": [
+        "Sweet Chili Sauce",
+        "Dynamite Sauce",
+        "Peanut Butter Sauce",
+        "Cocktail Sauce"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-dumpling",
+      "name": "Live Dumpling Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 200
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 180
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 160
+        }
+      ],
+      "chooseItems": [
+        "Chicken Dumplings",
+        "Vegetable Dumplings",
+        "Seafood Dumplings (extra charge)"
+      ],
+      "servedWith": [
+        "Soya sauce",
+        "Chilli Garlic Sauce",
+        "Momos Sauce",
+        "Ginger Garlic Ponzu Japanese Sauce"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Mini Falafel Roll",
+        "Chicken Shawarma Roll"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker & steamer",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [
+        {
+          "item": "Seafood Dumplings (per head)",
+          "mychef": 40
+        }
+      ],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-sushi",
+      "name": "Live Sushi Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 310
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 290
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 260
+        }
+      ],
+      "chooseItems": [
+        "Salmon",
+        "Tuna",
+        "Vegetable",
+        "Shrimp",
+        "Crab Sticks"
+      ],
+      "servedWith": [
+        "Light Soya Sauce",
+        "Ginger Pickles",
+        "Wasabi",
+        "Lemon Wedges"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up with crushed ice",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-crepe-pancake",
+      "name": "Live Crepe or Pancake Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 180
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 160
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 140
+        }
+      ],
+      "chooseItems": [
+        "Sweet Crepe: Nutella, Strawberry, Banana, Pineapple, Nuts, Sugar Powder",
+        "Savory Crepe: Olives, Turkey, Mushroom, Beef Bacon, Pepperoni, Mozzarella Cheese, Cheddar Cheese, Cream Cheese, Boiled Egg",
+        "Pancake: Banana, Strawberry, Cheese, Chocolate, Maple Syrup"
+      ],
+      "servedWith": [],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose one: sweet crepe, savory crepe or pancake.",
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-sandwich",
+      "name": "Live Make-Your-Own Sandwich Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 180
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 160
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 140
+        }
+      ],
+      "chooseItems": [
+        "Breads: Ciabatta, Baguette, Arabic Bread, Tortilla Bread, Sliced Bread",
+        "Select five (5) fillings: Turkey Ham, Roast Beef, Veggies, Halloumi, Tuna, Chicken Mayo, Shawarma, Cheddar Cheese"
+      ],
+      "servedWith": [
+        "Mustard Sauce, BBQ Sauce, Hoi-sin Sauce, Sweet Onion, Pesto Sauce, Sweet Chili, Mayo",
+        "Sliced Tomatoes, Sliced Cucumber, Shredded Lettuce, Bellpeppers"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Spinach Fatayer",
+        "Fried Kebbeh"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Sandwich electric toaster",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    },
+    {
+      "id": "live-egg",
+      "name": "Live Egg Station",
+      "guestRange": "20 to 80 guests",
+      "perHeadTiers": [
+        {
+          "range": "20 to 30 Guests",
+          "minGuests": 20,
+          "maxGuests": 30,
+          "mychefRate": 180
+        },
+        {
+          "range": "35 to 50 Guests",
+          "minGuests": 35,
+          "maxGuests": 50,
+          "mychefRate": 160
+        },
+        {
+          "range": "60 to 80 Guests",
+          "minGuests": 60,
+          "maxGuests": 80,
+          "mychefRate": 140
+        }
+      ],
+      "chooseItems": [
+        "Plain Omelette",
+        "Cheese Omelette",
+        "Mushroom Omelette",
+        "Scrambled Eggs",
+        "Fried Eggs",
+        "Turkey Ham / Beef Bacon (optional)"
+      ],
+      "servedWith": [
+        "Boiled Egg & Red Beans",
+        "Capsicum",
+        "Garlic",
+        "Onion",
+        "Assorted Bread Basket"
+      ],
+      "salads": [
+        "Fattoush",
+        "Chef Salad",
+        "Caesar Salad",
+        "Asiatic Chicken Salad with Honey Mustard Dressing",
+        "Beetroot with Corn Salad",
+        "Rocca Salad with Mushroom & Balsamic dressing"
+      ],
+      "starters": [
+        "Vegetable Pizza",
+        "Spinach Quiche",
+        "Vegetable Puffs",
+        "Cheese & Potato Croquette",
+        "Vegetable Bruschetta",
+        "Vegetable Spring Roll",
+        "Club Sandwich",
+        "Mini Falafel Roll",
+        "Chicken Shawarma Roll"
+      ],
+      "miniDesserts": [
+        "Chocolate Brownies",
+        "Vanilla Eclairs",
+        "Creme Caramel",
+        "Fruit Tartlet",
+        "Lemon Meringue Tartlets",
+        "Umm Ali"
+      ],
+      "sideDishes": [],
+      "beverages": [
+        "Mineral Water",
+        "Chilled Juices (2 flavours)"
+      ],
+      "inclusions": [
+        "Skilled waiters",
+        "Chef(s) for the live station",
+        "Live station set-up",
+        "Induction cooker (indoor) or gas cylinder (outdoor)",
+        "Plates & cutleries + glasses (if with beverages)"
+      ],
+      "perHeadExtras": [],
+      "notes": [
+        "Choose any 4 side items complimentary."
+      ]
+    }
+  ],
+  "stationChefCharges": [
+    {
+      "item": "Chef charges — 1 chef (mandatory)",
+      "mychef": 700
+    },
+    {
+      "item": "Chef charges — 2 chefs (mandatory for 75 pax & above)",
+      "mychef": 1400
+    }
+  ],
+  "stationAddOns": [
+    {
+      "group": "Special Options",
+      "mychefPerPersonPerItem": 60,
+      "items": [
+        "Beef Roulade with Vegetables",
+        "Grilled Beef Tenderloin Steak with Black Pepper Sauce",
+        "Southwest Marinated Grilled Beef Steak",
+        "Oven-Cooked Beef Brisket with Worcestershire & Balsamic Sauce",
+        "Beef Wellington",
+        "Beef Medallion with Paprika Sauce",
+        "Chicken Donburi with Sukayaki Sauce",
+        "Grilled Salmon with Caper Sauce",
+        "Grilled Prawns with Thermidor Sauce",
+        "Broiled Salmon with Herb Mustard Glazed",
+        "Fresh Salmon Fillet with Lemon Grass Sauce"
+      ],
+      "note": "All served with steamed vegetables on the side."
+    },
+    {
+      "group": "Chicken Options",
+      "mychefPerPersonPerItem": 40,
+      "items": [
+        "Chicken Schnitzel topped with Cheese & Mushroom Sauce",
+        "Baked Thai Chicken Wings with Oyster Sauce",
+        "Dijon Chicken with Potato",
+        "Chicken Stroganoff",
+        "Stir Fry Chicken with Cashewnuts",
+        "Chicken Mandi",
+        "Butter Chicken",
+        "Hyderabadi Chicken Biryani"
+      ]
+    },
+    {
+      "group": "Beef / Mutton / Lamb Options",
+      "mychefPerPersonPerItem": 40,
+      "items": [
+        "Garlic Beef Bites",
+        "Mongolian Beef",
+        "Basil, Beef, and Eggplant Stir-fry",
+        "Pepper Steak with Black Pepper Sauce",
+        "Roast Lamb with Mushroom Sauce or Oriental Rice",
+        "Kafta Bel Saynieh",
+        "Mutton Roganjosh",
+        "Hyderabadi Mutton Biryani"
+      ]
+    },
+    {
+      "group": "Fish Options",
+      "mychefPerPersonPerItem": 40,
+      "items": [
+        "Grilled Fish with Lemon Butter Sauce",
+        "Sweet & Sour Fish with Pineapple & Ginger",
+        "Honey Garlic Fish",
+        "Fish & Chips",
+        "Oven Fish Fillet with Sweet & Sour Sauce with Pineapple on the top",
+        "Samkeh Harra Beiruty",
+        "Fish Tandoori with Mint Chutney"
+      ]
+    },
+    {
+      "group": "Pasta Options",
+      "mychefPerPersonPerItem": 20,
+      "items": [
+        "Spinach Ravioli",
+        "Baked Mac Mushroom N' Cheese",
+        "Penne Pasta with Pink Sauce",
+        "Penne Arrabbiata with Parmesan Cheese",
+        "Tri-Color Pasta with Sauce on the side",
+        "Baked Pasta with Bechamel Sauce",
+        "Lemon Parmesan Spaghetti Pasta"
+      ]
+    },
+    {
+      "group": "Veg Options",
+      "mychefPerPersonPerItem": 15,
+      "items": [
+        "Any vegetable dish of your choice",
+        "Any potato side dish of your choice"
+      ]
+    },
+    {
+      "group": "Beverage Options",
+      "perPerson": true,
+      "options": [
+        {
+          "item": "Assorted Soft drinks",
+          "mychef": 10
+        },
+        {
+          "item": "Assorted Fresh Juices (choose 2: Watermelon, Orange, Lemon Mint or Pineapple)",
+          "mychef": 25
+        },
+        {
+          "item": "Assorted Mocktail Juices (choose 2: Virgin Mojito, Cucumber Lemonade, Mango Mule, Festive Sangria, Strawberry Mojito or Virgin Piña Colada)",
+          "mychef": 35
+        }
+      ]
+    }
+  ],
+  "stationMultiDiscounts": [
+    "Choose 2 live stations: 15% off the final quote.",
+    "Choose 3 live stations: 20% off the final quote.",
+    "Discounts exclude chef charges and VAT."
+  ],
+  "extras": [
+    {
+      "item": "Cocktail Table with Cover",
+      "unit": "each",
+      "mychef": 160
+    },
+    {
+      "item": "Round Table & Tiffany Chairs (set)",
+      "unit": "per head",
+      "mychef": 50
+    },
+    {
+      "item": "High Bar Stool (minimum of 5)",
+      "unit": "each",
+      "mychef": 200
+    },
+    {
+      "item": "Tiffany Chair only",
+      "unit": "each",
+      "mychef": 55
+    },
+    {
+      "item": "Rectangular Table with Cover",
+      "unit": "each",
+      "mychef": 160
+    },
+    {
+      "item": "Large Round Table with Cover (good for 10)",
+      "unit": "each",
+      "mychef": 180
+    },
+    {
+      "item": "Medium Round Table with Cover (good for 8)",
+      "unit": "each",
+      "mychef": 180
+    },
+    {
+      "item": "Bartender with Bar set-up, Bar Glasses & Ice",
+      "unit": "package",
+      "mychef": 3000
+    },
+    {
+      "item": "Bartender only (without Bar set-up, Glasses & Ice)",
+      "unit": "package",
+      "mychef": 2000
+    },
+    {
+      "item": "Large Icebox full of Ice",
+      "unit": "each",
+      "mychef": 240
+    },
+    {
+      "item": "Server overtime — last-minute extension of hours",
+      "unit": "per server per hour",
+      "mychef": 400
+    },
+    {
+      "item": "Extended catering hours beyond standard 4-hour service",
+      "unit": "flat rate per hour",
+      "mychef": 500
+    },
+    {
+      "item": "Next-day clearance",
+      "unit": "per event (varies with operational needs)",
+      "mychef": 1000
+    },
+    {
+      "item": "Transportation (to & from, if seating is required) — up to 60 pax",
+      "unit": "per event",
+      "mychef": 500
+    },
+    {
+      "item": "Transportation (to & from) — 60 to 100 pax",
+      "unit": "per event",
+      "mychef": 1000
+    },
+    {
+      "item": "Coffee machine upgrade",
+      "unit": "from, per event",
+      "mychef": 1000
+    }
+  ],
+  "terms": {
+    "vat": "All prices are exclusive of 5% VAT.",
+    "quoteValidity": "Quotations are valid for 1 month upon receipt.",
+    "minimumGuests": "A minimum of 12 guests is charged per event. Small-group fixed-price packages cover the published 10–15 guest tier. Premium menus and live stations start from 20 guests. Guest counts outside a listed tier are quoted individually.",
+    "guestCount": "The final number of guests must be advised 2 days prior to the event date. Any decrease in the number of guests will affect the price structure.",
+    "eventDuration": "Standard service duration is a maximum of four (4) hours per event, excluding set-up time. Full-day catering is not subject to the 4-hour limit but must be discussed, mutually agreed and confirmed in writing prior to the event date.",
+    "foodDisplay": "Food is to be consumed within 3 hours maximum upon display at the right temperature.",
+    "location": "Dubai only.",
+    "staffing": [
+      "Standard staffing consists primarily of male service staff, with the possibility of mixed-gender teams depending on the schedule for the event date.",
+      "If a female server is specifically required, please inform us in advance; female staffing requests are subject to availability and may incur an additional charge.",
+      "Designated on-site live-station chefs consist exclusively of male kitchen staff.",
+      "All live station bookings require mandatory service staff allocation for full station set-up, guest service, replenishment and clearance."
+    ],
+    "menuChanges": "Clients may add, remove, replace or swap items according to their liking; replacing standard items with costlier items or adding items beyond the menu structure will affect the price structure.",
+    "multiStationDiscounts": [
+      "Choose 2 live stations: 15% off the final quote.",
+      "Choose 3 live stations: 20% off the final quote.",
+      "Discounts exclude chef charges and VAT."
+    ],
+    "governingLaw": "This proposal is governed by the laws of the Emirate of Dubai and the United Arab Emirates; disputes are referred to Dubai Courts."
+  }
+}

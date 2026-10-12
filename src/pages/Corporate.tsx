@@ -152,6 +152,7 @@ export default function Corporate() {
       <nav aria-label="Choose a corporate catering service" className="border-b border-gray-200 bg-cream">
         <div className="container-custom flex flex-wrap items-center gap-x-6 gap-y-3 py-5 font-inter text-body-sm">
           <span className="font-medium text-black">Choose the service you need:</span>
+          <Link to="/corporate/menus-prices" className="text-gold-ink underline underline-offset-4 hover:text-black">Browse menus & prices</Link>
           <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">Regular office catering</Link>
           <Link to="/corporate-event-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">One-off company events</Link>
           <Link to="/business-lunch-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-black">Business lunches</Link>

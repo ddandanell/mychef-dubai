@@ -31,6 +31,7 @@ export const GLOBAL_CLUSTER_NAV = [
   { href: '/our-chefs', label: 'Our Chefs & Styles', description: 'Explore 25 styles across five culinary levels', owns: 'Private chefs Dubai' },
   { href: CLUSTER_PATHS.howItWorks, label: 'How It Works', description: 'Your brief, your match and your routine', owns: 'Managed private chef service' },
   { href: CLUSTER_PATHS.pricing, label: 'Pricing & Plans', description: 'Visit prices and monthly household budgets', owns: 'Private Chef Dubai prices' },
+  { href: '/luxury-dining-experiences/menus-prices', label: 'Dinner Menus & Prices', description: 'Signature dinners for one evening, with every course', owns: 'Private dinner menus and prices Dubai' },
 ] as const
 export const CLUSTER_NAV = [
   { ...GLOBAL_CLUSTER_NAV[0], label: 'Overview' },

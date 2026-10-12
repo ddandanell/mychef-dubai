@@ -9,10 +9,6 @@
     "/birthday-catering-package-dubai": {
       "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
     },
-    "/blog/desert-dinner-party-dubai": {
-      "reason": "Desert dining is a winter format, October to March",
-      "revive_on": "2026-10-01"
-    },
     "/blog/dinner-party-menu-ideas-dubai": {
       "reason": "no impression in 90 days; the topic is covered by a page that does earn"
     },
@@ -112,10 +108,6 @@
     },
     "/tourist-villa-chef-dubai": {
       "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
-    },
-    "/uae-national-day-catering-dubai": {
-      "reason": "National Day is 2 December",
-      "revive_on": "2026-10-01"
     }
   }
 }

@@ -11,7 +11,6 @@
 export const PARKED: readonly string[] = [
  "/asian-catering-dubai",
  "/birthday-catering-package-dubai",
- "/blog/desert-dinner-party-dubai",
  "/blog/dinner-party-menu-ideas-dubai",
  "/blog/halal-private-dining-dubai-what-to-ask",
  "/blog/iftar-at-home-dubai",
@@ -43,18 +42,15 @@ export const PARKED: readonly string[] = [
  "/private-jet-catering-dubai",
  "/ramadan-catering-guide-dubai",
  "/tasting-menu-dubai",
- "/tourist-villa-chef-dubai",
- "/uae-national-day-catering-dubai"
+ "/tourist-villa-chef-dubai"
 ] as const
 
 /** Seasonal pages, measured out of season — the date each should come back. */
 export const REVIVE_ON: Record<string, string> = {
- "/blog/desert-dinner-party-dubai": "2026-10-01",
  "/blog/iftar-at-home-dubai": "2026-12-01",
  "/blog/nye-party-catering-dubai": "2026-10-15",
  "/blog/ramadan-iftar-catering-trends-2026": "2026-12-01",
- "/ramadan-catering-guide-dubai": "2026-12-01",
- "/uae-national-day-catering-dubai": "2026-10-01"
+ "/ramadan-catering-guide-dubai": "2026-12-01"
 }
 
 const clean = (path: string) => (path.length > 1 ? path.replace(/\/+$/, "") : path)

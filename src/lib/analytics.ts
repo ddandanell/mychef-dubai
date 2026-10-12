@@ -17,12 +17,13 @@ declare global {
     dataLayer: unknown[]
     gtag: (...args: unknown[]) => void
     __mychefAnalyticsInitialized?: boolean
+    __MYCHEF_PRERENDER__?: boolean
   }
 }
 
 /** Loads gtag.js once and configures the property (manual page_view for SPA). */
 export function initAnalytics(): void {
-  if (!GA_MEASUREMENT_ID || typeof window === 'undefined') return
+  if (!GA_MEASUREMENT_ID || typeof window === 'undefined' || window.__MYCHEF_PRERENDER__) return
   if (window.__mychefAnalyticsInitialized) return
 
   window.dataLayer = window.dataLayer || []
@@ -50,7 +51,7 @@ export function initAnalytics(): void {
 }
 
 export function trackPageView(path: string): void {
-  if (!GA_MEASUREMENT_ID || typeof window.gtag !== 'function') return
+  if (!GA_MEASUREMENT_ID || window.__MYCHEF_PRERENDER__ || typeof window.gtag !== 'function') return
   window.gtag('event', 'page_view', {
     page_path: path,
     page_location: window.location.href,
@@ -59,13 +60,13 @@ export function trackPageView(path: string): void {
 }
 
 export function trackEvent(name: string, params: Record<string, unknown> = {}): void {
-  if (!GA_MEASUREMENT_ID || typeof window.gtag !== 'function') return
+  if (!GA_MEASUREMENT_ID || window.__MYCHEF_PRERENDER__ || typeof window.gtag !== 'function') return
   window.gtag('event', name, params)
 }
 
 /** Called only after the quote API confirms that the brief was delivered. */
 export function trackDeliveredQuoteLead(service: string): void {
-  if (typeof window === 'undefined' || typeof window.gtag !== 'function') return
+  if (typeof window === 'undefined' || window.__MYCHEF_PRERENDER__ || typeof window.gtag !== 'function') return
   window.gtag('event', 'generate_lead', {
     send_to: GA_MEASUREMENT_ID,
     method: 'quote_request',

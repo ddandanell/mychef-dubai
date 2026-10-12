@@ -67,6 +67,7 @@
   <url><loc>https://www.mychef.ae/new-year-catering-dubai</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/ramadan-catering-dubai</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/romantic-dinner-dubai</loc><lastmod>2026-10-12</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/uae-national-day-catering-dubai</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
 
   <!-- Supporting -->
   <url><loc>https://www.mychef.ae/about</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -131,6 +132,7 @@
   <url><loc>https://www.mychef.ae/blog/compare-catering-quotes-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/corporate-catering-full-service-vs-drop-off</loc><lastmod>2026-10-01</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/corporate-event-catering-ideas-dubai</loc><lastmod>2026-09-29</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/desert-dinner-party-dubai</loc><lastmod>2026-10-12</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/dinner-party-timeline-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/dish-ae-alternatives-in</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/blog/diwali-party-at-home-planning-dubai</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -246,4 +248,8 @@
   <url><loc>https://www.mychef.ae/referral-programme</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/trust-and-programs</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/wellness-meal-prep-dubai</loc><lastmod>2026-10-12</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Menu catalogues -->
+  <url><loc>https://www.mychef.ae/corporate/menus-prices</loc><lastmod>2026-10-12</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/luxury-dining-experiences/menus-prices</loc><lastmod>2026-10-12</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
 </urlset>

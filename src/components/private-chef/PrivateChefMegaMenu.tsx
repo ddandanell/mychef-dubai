@@ -26,6 +26,7 @@ export const CLUSTER_ICONS: Record<string, LucideIcon> = {
   [CLUSTER_PATHS.howItWorks]: ListChecks,
   '/our-chefs': Users,
   [CLUSTER_PATHS.pricing]: Banknote,
+  '/luxury-dining-experiences/menus-prices': Banknote,
 } as const
 
 

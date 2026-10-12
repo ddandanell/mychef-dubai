@@ -5,6 +5,7 @@ import { EXPERIENCES_PATHS } from '@/content/experiencesCluster'
 /** Path → icon. Lives in its own module so the mega menu stays component-only (react-refresh). */
 export const EXPERIENCES_ICONS: Record<string, LucideIcon> = {
   [EXPERIENCES_PATHS.hub]: Sparkles,
+  [EXPERIENCES_PATHS.menusPrices]: UtensilsCrossed,
   [EXPERIENCES_PATHS.romantic]: Heart,
   [EXPERIENCES_PATHS.tasting]: UtensilsCrossed,
   [EXPERIENCES_PATHS.cookingClasses]: ChefHat,

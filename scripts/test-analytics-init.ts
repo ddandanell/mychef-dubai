@@ -70,3 +70,13 @@ const server = vm.createContext({ exports: {} })
 vm.runInContext(compiled, server)
 assert.doesNotThrow(() => server.exports.initAnalytics())
 console.log('PASS server rendering remains inert')
+
+const build = fixture(false)
+build.win.__MYCHEF_PRERENDER__ = true
+build.api.initAnalytics()
+build.api.trackPageView('/corporate')
+build.api.trackEvent('page_view')
+build.api.trackDeliveredQuoteLead('corporate')
+assert.equal(build.scripts.length, 0, 'build renderer must not load Google tags')
+assert.equal(build.commands().length, 0, 'build renderer must not send events')
+console.log('PASS build renderer analytics suppression')

@@ -55,6 +55,7 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/events': Sparkles,
   // Corporate
   '/corporate': Briefcase,
+  '/corporate/menus-prices': ClipboardList,
   '/corporate-event-catering-dubai': PartyPopper,
   '/product-launch-catering-dubai': Presentation,
   '/brand-activation-catering-dubai': Megaphone,

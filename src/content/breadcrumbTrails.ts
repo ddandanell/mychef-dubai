@@ -161,6 +161,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Blog"
   }
  ],
+ "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you manage groceries between weekly chef visits?"
+  }
+ ],
  "/blog/best-arabic-catering-companies-in-dubai": [
   {
    "href": "/",
@@ -416,6 +429,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Buffet Layout Planning in Dubai: A Practical Guide"
   }
  ],
+ "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "One dinner at home: should you brief a chef or caterer?"
+  }
+ ],
  "/blog/canape-reception-planning-dubai": [
   {
    "href": "/",
@@ -427,6 +453,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Canapé Reception Planning in Dubai"
+  }
+ ],
+ "/blog/catering-for-international-schools-in-dubai-complete-guide": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "School event catering briefs: access, timing and dietary needs"
   }
  ],
  "/blog/christmas-lunch-at-home-planning-dubai": [
@@ -489,6 +528,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   }
  ],
+ "/blog/desert-dinner-party-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/guides",
+   "label": "Guides"
+  },
+  {
+   "href": "/blog",
+   "label": "Journal"
+  },
+  {
+   "label": "Desert dinner party"
+  }
+ ],
  "/blog/dinner-party-timeline-dubai": [
   {
    "href": "/",
@@ -545,6 +601,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Grazing table vs buffet"
   }
  ],
+ "/blog/guest-list-to-plated-dinner-private-chef-event-workflow": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you build a running order for a plated dinner?"
+  }
+ ],
  "/blog/household-menu-brief-dubai": [
   {
    "href": "/",
@@ -592,6 +661,58 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "What a private chef costs"
   }
  ],
+ "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "What galley details does a yacht chef need before boarding?"
+  }
+ ],
+ "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How should a wedding planner organise a catering tasting?"
+  }
+ ],
+ "/blog/how-to-connect-office-facilities-management-to-lunch-catering": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How should facilities teams coordinate office lunch catering?"
+  }
+ ],
+ "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How should a villa concierge coordinate recurring chef visits?"
+  }
+ ],
  "/blog/how-to-hire-a-private-chef-dubai": [
   {
    "href": "/",
@@ -607,6 +728,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "How to hire a private chef"
+  }
+ ],
+ "/blog/is-a-private-chef-worth-it-in-dubai-in": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Is a private chef worth it in Dubai in 2026?"
   }
  ],
  "/blog/kids-and-adults-party-menu-dubai": [
@@ -633,6 +767,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+  }
+ ],
+ "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you review your first month with a household chef?"
   }
  ],
  "/blog/nursery-meals-vs-packed-lunch-dubai": [
@@ -771,6 +918,32 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Wedding Menu Tasting in Dubai: Questions to Ask"
+  }
+ ],
+ "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you brief a meal-prep chef on a nutrition plan?"
+  }
+ ],
+ "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "What details should you send in a household chef enquiry?"
   }
  ],
  "/blog/yacht-party-menu-ideas-dubai": [
@@ -1169,6 +1342,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Corporate catering contract"
+  }
+ ],
+ "/corporate/menus-prices": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/corporate",
+   "label": "Corporate"
+  },
+  {
+   "label": "Menus & Prices"
   }
  ],
  "/cuisines-dubai": [
@@ -1670,6 +1856,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Luxury dining"
+  }
+ ],
+ "/luxury-dining-experiences/menus-prices": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/luxury-dining-experiences",
+   "label": "Dinner"
+  },
+  {
+   "label": "Menus & Prices"
   }
  ],
  "/mediterranean-catering-dubai": [
@@ -2249,6 +2448,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Trust and programs"
   }
  ],
+ "/uae-national-day-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/festive-catering-dubai",
+   "label": "Festive catering"
+  },
+  {
+   "label": "Uae national day catering"
+  }
+ ],
  "/vegan-catering-dubai": [
   {
    "href": "/",
@@ -2477,6 +2689,7 @@ export const HERO_ROUTES: string[] = [
  "/corporate-dinner-package-dubai",
  "/corporate-event-catering-dubai",
  "/corporate-retainer-dubai",
+ "/corporate/menus-prices",
  "/cuisines-dubai",
  "/date-night-package-dubai",
  "/dessert-table-catering-dubai",
@@ -2519,6 +2732,7 @@ export const HERO_ROUTES: string[] = [
  "/locations/:slug",
  "/loyalty-programme",
  "/luxury-dining-experiences",
+ "/luxury-dining-experiences/menus-prices",
  "/luxury-dinner-planning-guide-dubai",
  "/mediterranean-catering-dubai",
  "/menus",
@@ -2693,6 +2907,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/corporate-retainer-dubai",
    "label": "Corporate catering contract"
+  },
+  {
+   "href": "/corporate/menus-prices",
+   "label": "Menus & Prices"
   },
   {
    "href": "/exhibition-catering-dubai",
@@ -2873,12 +3091,20 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/ramadan-catering-dubai",
    "label": "Ramadan catering"
+  },
+  {
+   "href": "/uae-national-day-catering-dubai",
+   "label": "Uae national day catering"
   }
  ],
  "/guides": [
   {
    "href": "/blog",
    "label": "Blog"
+  },
+  {
+   "href": "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+   "label": "How do you manage groceries between weekly chef visits?"
   },
   {
    "href": "/blog/best-arabic-catering-companies-in-dubai",
@@ -2957,8 +3183,16 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Buffet Layout Planning in Dubai: A Practical Guide"
   },
   {
+   "href": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+   "label": "One dinner at home: should you brief a chef or caterer?"
+  },
+  {
    "href": "/blog/canape-reception-planning-dubai",
    "label": "Canapé Reception Planning in Dubai"
+  },
+  {
+   "href": "/blog/catering-for-international-schools-in-dubai-complete-guide",
+   "label": "School event catering briefs: access, timing and dietary needs"
   },
   {
    "href": "/blog/christmas-lunch-at-home-planning-dubai",
@@ -2977,6 +3211,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   },
   {
+   "href": "/blog/desert-dinner-party-dubai",
+   "label": "Desert dinner party"
+  },
+  {
    "href": "/blog/dinner-party-timeline-dubai",
    "label": "Dinner Party Timeline in Dubai: A Host’s Guide"
   },
@@ -2993,6 +3231,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Grazing table vs buffet"
   },
   {
+   "href": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+   "label": "How do you build a running order for a plated dinner?"
+  },
+  {
    "href": "/blog/household-menu-brief-dubai",
    "label": "A Household Menu Brief for Your Dubai Chef"
   },
@@ -3005,8 +3247,28 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "What a private chef costs"
   },
   {
+   "href": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+   "label": "What galley details does a yacht chef need before boarding?"
+  },
+  {
+   "href": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+   "label": "How should a wedding planner organise a catering tasting?"
+  },
+  {
+   "href": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+   "label": "How should facilities teams coordinate office lunch catering?"
+  },
+  {
+   "href": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+   "label": "How should a villa concierge coordinate recurring chef visits?"
+  },
+  {
    "href": "/blog/how-to-hire-a-private-chef-dubai",
    "label": "How to hire a private chef"
+  },
+  {
+   "href": "/blog/is-a-private-chef-worth-it-in-dubai-in",
+   "label": "Is a private chef worth it in Dubai in 2026?"
   },
   {
    "href": "/blog/kids-and-adults-party-menu-dubai",
@@ -3015,6 +3277,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/mixed-diet-dinner-party-dubai",
    "label": "A Mixed-Diet Dinner Party in Dubai: Menu Planning"
+  },
+  {
+   "href": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+   "label": "How do you review your first month with a household chef?"
   },
   {
    "href": "/blog/nursery-meals-vs-packed-lunch-dubai",
@@ -3055,6 +3321,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/wedding-menu-tasting-dubai",
    "label": "Wedding Menu Tasting in Dubai: Questions to Ask"
+  },
+  {
+   "href": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+   "label": "How do you brief a meal-prep chef on a nutrition plan?"
+  },
+  {
+   "href": "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+   "label": "What details should you send in a household chef enquiry?"
   },
   {
    "href": "/blog/yacht-party-menu-ideas-dubai",
@@ -3157,6 +3431,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/halal-private-dining-dubai",
    "label": "Halal private dining"
+  },
+  {
+   "href": "/luxury-dining-experiences/menus-prices",
+   "label": "Menus & Prices"
   },
   {
    "href": "/private-cooking-classes-dubai",

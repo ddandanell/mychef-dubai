@@ -1007,6 +1007,12 @@
     "money_page": "/corporate",
     "anchor": "corporate catering in Dubai"
   },
+  "/corporate/menus-prices": {
+    "role": "supporting",
+    "purpose": "service-detail",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai"
+  },
   "/cuisines-dubai": {
     "role": "supporting",
     "purpose": "service-detail",
@@ -1371,6 +1377,12 @@
   },
   "/luxury-dining-experiences": {
     "role": "money",
+    "purpose": "service-detail",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai"
+  },
+  "/luxury-dining-experiences/menus-prices": {
+    "role": "supporting",
     "purpose": "service-detail",
     "money_page": "/luxury-dining-experiences",
     "anchor": "private dining experiences in Dubai"

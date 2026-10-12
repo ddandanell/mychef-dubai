@@ -1,0 +1,551 @@
+{
+  "title": "Chef's Signature Collection",
+  "intro": "Real menus from our resident chefs, priced per person and tailored to your event.",
+  "currency": "AED",
+  "vatNote": "All prices are exclusive of 5% VAT.",
+  "addOns": [
+    {
+      "id": "premium-mocktail-pairing",
+      "name": "Premium mocktail pairing",
+      "price": 145,
+      "unit": "per person"
+    },
+    {
+      "id": "tea-ritual-pairing",
+      "name": "Cuisine tea/ritual pairing (karak, gahwa, matcha, kahwa)",
+      "price": 95,
+      "unit": "per person"
+    },
+    {
+      "id": "canapes-reception",
+      "name": "Canapés reception on arrival (4 pieces)",
+      "price": 85,
+      "unit": "per person"
+    },
+    {
+      "id": "cheese-course",
+      "name": "Cheese course supplement",
+      "price": 95,
+      "unit": "per person"
+    },
+    {
+      "id": "oscietra-caviar-30g",
+      "name": "Oscietra caviar supplement (30g)",
+      "price": 450,
+      "unit": "per person"
+    },
+    {
+      "id": "lobster-supplement",
+      "name": "Lobster supplement",
+      "price": 180,
+      "unit": "per person"
+    },
+    {
+      "id": "a5-wagyu-supplement",
+      "name": "A5 wagyu supplement",
+      "price": 220,
+      "unit": "per person"
+    },
+    {
+      "id": "sommelier-service",
+      "name": "Sommelier service",
+      "price": 900,
+      "unit": "per event"
+    },
+    {
+      "id": "bartender-bar-setup",
+      "name": "Bartender with bar set-up, 6 hrs",
+      "price": 900,
+      "unit": "per event"
+    },
+    {
+      "id": "additional-waiter",
+      "name": "Additional waiter",
+      "price": 350,
+      "unit": "each"
+    },
+    {
+      "id": "table-styling-florals",
+      "name": "Table styling & florals",
+      "price": 1500,
+      "unit": "from, per event"
+    },
+    {
+      "id": "peak-date-surcharge",
+      "name": "Peak-date surcharge (Ramadan iftar, NYE, Dec 24–25)",
+      "price": null,
+      "unit": "+50%, applied at quote"
+    }
+  ],
+  "terms": {
+    "vat": "All prices are exclusive of 5% VAT.",
+    "minimumGuests": 2,
+    "groupPricing": "Signature menus carry a flat per-person rate for any party of 2–20 guests; the rate is confirmed at quote.",
+    "serviceWindow": "Chef arrives ~1 hour before service; table service runs 2.5–3.5 hours depending on the menu.",
+    "staffing": "1 waiter per 10 guests included; additional waiters available as an add-on.",
+    "kitchenRequirements": "Working stove, oven, fridge and sink. We bring all specialty equipment, ingredients and plating ware.",
+    "alcohol": "Alcohol is supplied by the client. Pairing guidance, sommelier and bartender services are available as add-ons. All menus are halal by default.",
+    "marketNote": "Lobster, caviar, bluefin tuna, A5 wagyu and seasonal truffle are subject to market price at the time of booking.",
+    "customization": "All menus are fully customisable; dietary, halal, vegetarian and allergy protocols accommodated on request."
+  },
+  "menus": [
+    {
+      "id": "ant-italian-classic-3",
+      "name": "Italian Classic — 3 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian",
+      "coursesCount": 3,
+      "courses": [
+        {
+          "slot": "Starter",
+          "dish": "Roast Beef all'Italiana — slow-cooked beef tenderloin, egg sauce, baby rocca sauce, balsamic onion, micro greens, olive spheres"
+        },
+        {
+          "slot": "Main",
+          "dish": "Herb & Fennel Lamb Chops — marinated with fennel seeds, garlic and herbs, eggplant purée, chickpeas, thyme couscous"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Dates Panna Cotta — cardamom custard"
+        }
+      ],
+      "notes": [
+        "Also available as an Italian-style Iftar menu."
+      ],
+      "sellingPrice": 600
+    },
+    {
+      "id": "ant-italian-feast-4",
+      "name": "Italian Feast — 4 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian",
+      "coursesCount": 4,
+      "courses": [
+        {
+          "slot": "Cold Starter",
+          "dish": "Burrata Garden — micro greens, rucola sauce, marinated cherry tomatoes, toasted pine seeds, marinated purple carrots"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Truffled Mushroom Risotto — chiodini mushrooms, brown champignon, truffle cream"
+        },
+        {
+          "slot": "Main",
+          "dish": "Slow-Cooked Tuna — oregano sauce, sweet & sour capsicum, crispy sesame tuile, liquorice mayonnaise"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Chocolate Mousse — raspberry gel centre, warm orange sauce"
+        }
+      ],
+      "notes": [
+        "Courses can be changed to guest preferences — inform us of allergies or intolerances."
+      ],
+      "sellingPrice": 975
+    },
+    {
+      "id": "ant-sea-front-5",
+      "name": "Sea Front Side — 5 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian — Seafood",
+      "coursesCount": 5,
+      "courses": [
+        {
+          "slot": "Amuse-Bouche",
+          "dish": "Cheese Contraction — parmesan mousse, onion jam, parmesan tuile, balsamic reduction"
+        },
+        {
+          "slot": "Starter",
+          "dish": "The Fish Encounter — delicate marinated seafood, seaweed potato parmentier, squid ink mayonnaise, tomato mayonnaise, beetroot sauce, mussel powder"
+        },
+        {
+          "slot": "First Course",
+          "dish": "Risotto alla Pescatora — Acquerello rice in fish stock, scallops, lime gel, sea vegetables"
+        },
+        {
+          "slot": "Main",
+          "dish": "Octopus 2.0 — slow-cooked herb octopus, purple potato sand, fried artichoke, zucchini cream"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Golden Leaf Panna Cotta — ginger & wasabi, classic-meets-fusion"
+        }
+      ],
+      "notes": [],
+      "sellingPrice": 975
+    },
+    {
+      "id": "ant-spring-sea",
+      "name": "Spring from the Sea — 4 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian — Seafood",
+      "coursesCount": 4,
+      "courses": [
+        {
+          "slot": "Cold Starter",
+          "dish": "Scallop Coral & Mazara Prawn Risotto — Acquerello rice, red prawn bisque, scallop-coral butter, prawn tails, mussel powder, parsley chlorophyll"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Poached Lobster & White Asparagus — bisque-marinated lobster medallions, rice crisp, fennel sauce, white asparagus, lime & grape gel"
+        },
+        {
+          "slot": "Main",
+          "dish": "Red Snapper in Potato Scales — pan-roasted, purple potato sand, saffron sauce"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Deconstructed Lemon Tart — almond crumble, lemon curd, torched Italian meringue, fresh raspberries"
+        }
+      ],
+      "notes": [],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "ant-wild-heart",
+      "name": "Wild from the Heart — 4 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian — Game & Spring",
+      "coursesCount": 4,
+      "courses": [
+        {
+          "slot": "Cold Starter",
+          "dish": "Slow-Cooked Spring Veal & Fava Beans — sous-vide veal, tarragon-parsley emulsion, crispy radishes, caper dust"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Beef Agnolotti del Plin — handmade pasta parcels, slow-braised beef, sweet green pea purée, brown butter, thyme"
+        },
+        {
+          "slot": "Main",
+          "dish": "Lamb Rack on Hayloft — milk-marinated slow-cooked rack, spring zucchini sauce, salted raspberry, crispy leeks"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Chamomile Panna Cotta & Spring Berries — strawberry-rhubarb compote"
+        }
+      ],
+      "notes": [],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "ant-truffle-5",
+      "name": "Truffle Lovers — 5 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian — Truffle",
+      "coursesCount": 5,
+      "courses": [
+        {
+          "slot": "Welcome Amuse-Bouche",
+          "dish": "Deconstructed Burrata — mini glasses"
+        },
+        {
+          "slot": "Starter",
+          "dish": "Angus Roast Beef — truffle egg sauce, baby rocca cream, black truffle leaves, olive powder, micro greens"
+        },
+        {
+          "slot": "First Course",
+          "dish": "Fresh Tagliatelle — white truffle sauce, parmesan, black truffle leaves"
+        },
+        {
+          "slot": "Main",
+          "dish": "Wagyu Rib Eye 8+ — black pepper sauce, white truffle cream, roasted purple potatoes"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Ginger-Strawberry Panna Cotta — tomato sweet cream, caramel powder"
+        }
+      ],
+      "notes": [
+        "Seasonal menu — depends on winter truffle availability.",
+        "Minimum 2 days advance booking required."
+      ],
+      "sellingPrice": 1950
+    },
+    {
+      "id": "ant-meat-fish-7",
+      "name": "Meat & Fish Journey — 7 Course",
+      "chef": "Chef Antonino",
+      "cuisine": "Italian",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Canapé Selection",
+          "dish": "Vol-au-vent with mushroom mousse & prawns · Mini caprese with mozzarella mousse"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "King Prawns Trio (U10) — leek sauce, crispy rice chips, lime"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Shiitake Mushroom Risotto — sour truffle cream, parsley powder"
+        },
+        {
+          "slot": "Vegetarian Interlude",
+          "dish": "Marinated Eggplant — glazed baby carrots, sesame sauce, olive powder"
+        },
+        {
+          "slot": "Fish Main",
+          "dish": "Sea Bass Fillet — crispy potato scales, glazed red radish in oregano, squid ink tuile"
+        },
+        {
+          "slot": "Meat Main",
+          "dish": "Slow-Cooked Lamb Rack — vinegar & fennel-seed marinade, roasted potatoes, fennel sauce, blueberry coulis"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Tiramisù in a Glass — coffee biscuit, mascarpone-coffee cream, dark chocolate paper (or ginger-lime panna cotta)"
+        }
+      ],
+      "notes": [],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-italian-7",
+      "name": "Italian Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "Italian",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Amuse-Bouche",
+          "dish": "Tomato water with basil oil & parmesan crisp"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Burrata with heirloom tomatoes, balsamic pearls & microgreens"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Truffle arancini with saffron aioli"
+        },
+        {
+          "slot": "Seafood",
+          "dish": "Seared scallop with lemon butter & caviar"
+        },
+        {
+          "slot": "Main",
+          "dish": "Herb-crusted lamb rack, potato fondant, asparagus, grape-jus reduction"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Lemon-blossom sorbet with candied lemon"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Classic tiramisù reimagined with cocoa tuile"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-french-7",
+      "name": "French Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "French",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Canapé",
+          "dish": "Gruyère gougères with Dijon mustard foam"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Duck liver parfait, brioche crisp & fig compote"
+        },
+        {
+          "slot": "Warm Starter",
+          "dish": "Escargot vol-au-vent with garlic butter cream"
+        },
+        {
+          "slot": "Fish",
+          "dish": "Sole meunière, brown butter, capers & parsley"
+        },
+        {
+          "slot": "Main",
+          "dish": "Beef Wellington with truffle demi-glace & seasonal vegetables"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Sparkling white-grape granita with strawberries"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Raspberry mille-feuille with vanilla bean cream"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-asian-7",
+      "name": "Asian Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "Asian",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Amuse-Bouche",
+          "dish": "Crispy rice with spicy tuna tartare & wasabi mayo"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Vietnamese summer roll with mint & peanut sauce"
+        },
+        {
+          "slot": "Dim Sum",
+          "dish": "Shrimp har gow, chicken siu mai & vegetable dumpling"
+        },
+        {
+          "slot": "Fish",
+          "dish": "Black cod miso with pickled daikon & yuzu glaze"
+        },
+        {
+          "slot": "Main",
+          "dish": "Wagyu beef rendang with coconut rice & kaffir lime jus"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Green tea granita with lychee foam"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Mango sticky rice parfait, coconut cream & sesame tuile"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-mediterranean-7",
+      "name": "Mediterranean Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "Mediterranean",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Mezze",
+          "dish": "Whipped feta, olive tapenade & pita crisp"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Greek salad sphere with kalamata dust"
+        },
+        {
+          "slot": "Warm Starter",
+          "dish": "Grilled halloumi with pomegranate molasses & mint"
+        },
+        {
+          "slot": "Seafood",
+          "dish": "Charred octopus with romesco & chickpea purée"
+        },
+        {
+          "slot": "Main",
+          "dish": "Lamb kofta with couscous, roasted vegetables & harissa jus"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Orange blossom granita with pistachio crumble"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Baklava mille-feuille with rose cream"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-european-7",
+      "name": "European Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "European",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Canapé",
+          "dish": "Smoked salmon blini with crème fraîche & dill"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Beetroot carpaccio with goat cheese mousse & walnuts"
+        },
+        {
+          "slot": "Soup",
+          "dish": "Wild mushroom velouté with truffle oil & parmesan crisp"
+        },
+        {
+          "slot": "Fish",
+          "dish": "Pan-seared seabass with fennel & citrus beurre blanc"
+        },
+        {
+          "slot": "Main",
+          "dish": "Venison loin with blackberry jus, celeriac purée & roasted root vegetables"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Elderflower granita with fresh berries"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Chocolate sphere with hazelnut praline & salted caramel"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    },
+    {
+      "id": "nar-global-fusion-7",
+      "name": "Global Fusion Tasting — 7 Course",
+      "chef": "Chef Naresh Mohan",
+      "cuisine": "Global Fusion",
+      "coursesCount": 7,
+      "courses": [
+        {
+          "slot": "Amuse-Bouche",
+          "dish": "Avocado tartare with wasabi crisp (Japan × Mexico)"
+        },
+        {
+          "slot": "Cold Starter",
+          "dish": "Tuna tataki with chimichurri (Japan × Argentina)"
+        },
+        {
+          "slot": "Hot Starter",
+          "dish": "Butter chicken croquette with mint chutney aioli (India × Europe)"
+        },
+        {
+          "slot": "Pasta",
+          "dish": "Lobster ravioli with tom yum reduction (Italy × Thailand)"
+        },
+        {
+          "slot": "Main",
+          "dish": "Korean bulgogi short rib with polenta cake (Korea × Italy)"
+        },
+        {
+          "slot": "Pre-Dessert",
+          "dish": "Passionfruit sorbet with coconut foam (Brazil × Southeast Asia)"
+        },
+        {
+          "slot": "Dessert",
+          "dish": "Matcha cheesecake with cardamom crust & raspberry gel (Japan × India)"
+        }
+      ],
+      "notes": [
+        "Indicative market pricing — final quote confirmed by the chef."
+      ],
+      "sellingPrice": 1275
+    }
+  ]
+}

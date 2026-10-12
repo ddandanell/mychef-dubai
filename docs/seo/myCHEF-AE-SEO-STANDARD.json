@@ -6684,12 +6684,12 @@
    },
    "indexation": {
     "robots": {
-     "index": false,
+     "index": true,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/blog/desert-dinner-party-dubai",
     "redirect_to": null,
-    "in_sitemap": false
+    "in_sitemap": true
    },
    "schema": [
     "WebPage",
@@ -15654,6 +15654,7 @@
      }
     ],
     "featured_children": [
+     {"url": "/corporate/menus-prices", "anchor": "Menus & Prices", "alt_anchors": []},
      {
       "url": "/office-catering-dubai",
       "anchor": "Office catering",
@@ -32164,6 +32165,7 @@
      }
     ],
     "featured_children": [
+     {"url": "/luxury-dining-experiences/menus-prices", "anchor": "Menus & Prices", "alt_anchors": []},
      {
       "url": "/romantic-dinner-dubai",
       "anchor": "Dinner for two",
@@ -44741,12 +44743,12 @@
    },
    "indexation": {
     "robots": {
-     "index": false,
+     "index": true,
      "follow": true
     },
     "canonical": "https://www.mychef.ae/uae-national-day-catering-dubai",
     "redirect_to": null,
-    "in_sitemap": false
+    "in_sitemap": true
    },
    "schema": [
     "WebPage",
@@ -61932,6 +61934,247 @@
     "h1": "What details should you send in a household chef enquiry?",
     "title": "Household chef enquiry details checklist: What to send | myCHEF"
    }
+  }
+ ,
+  "/corporate/menus-prices": {
+    "url": "/corporate/menus-prices",
+    "absolute_url": "https://www.mychef.ae/corporate/menus-prices",
+    "silo": "Corporate Catering",
+    "silo_priority": "P1",
+    "page_type": "Menu and pricing catalogue",
+    "hub": "/corporate",
+    "is_hub": false,
+    "status": "LOCKED",
+    "intent_owner": {
+      "primary_keyword": "corporate catering menus and prices dubai",
+      "subkeywords": [],
+      "subkeyword_cap": 8,
+      "primary_may_appear_in": [
+        "title",
+        "h1",
+        "first_100_words",
+        "one_subheading"
+      ],
+      "subkeywords_may_appear_in": [
+        "body_sentences_only"
+      ],
+      "subkeywords_must_not_appear_in": [
+        "h1",
+        "h2",
+        "h3",
+        "title"
+      ],
+      "subkeyword_notes": {}
+    },
+    "on_page": {
+      "title": "Corporate Catering Menus & Prices Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Corporate Catering Menus and Prices Dubai",
+      "h1_count": 1,
+      "meta_description": "Corporate catering menus and prices in Dubai: compare 33 packages and 16 live stations, full menus, guest tiers and inclusions. Prices exclude 5% VAT.",
+      "meta_description_max_chars": 160,
+      "og_title": "Corporate Catering Menus & Prices Dubai | myCHEF",
+      "og_type": "website",
+      "og_description": "Corporate catering menus and prices in Dubai: compare 33 packages and 16 live stations, full menus, guest tiers and inclusions. Prices exclude 5% VAT."
+    },
+    "indexation": {
+      "robots": {
+        "index": true,
+        "follow": true
+      },
+      "canonical": "https://www.mychef.ae/corporate/menus-prices",
+      "redirect_to": null,
+      "in_sitemap": true
+    },
+    "schema": [
+      "CollectionPage",
+      "Service",
+      "OfferCatalog",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "internal_linking": {
+      "breadcrumb": [
+        {
+          "url": "/",
+          "anchor": "Home"
+        },
+        {
+          "url": "/corporate",
+          "anchor": "Corporate"
+        },
+        {
+          "url": "/corporate/menus-prices",
+          "anchor": "Menus & Prices",
+          "current": true
+        }
+      ],
+      "uplink_hub": "/corporate",
+      "siblings": [
+        {
+          "url": "/corporate",
+          "anchor": "Corporate catering",
+          "alt_anchors": []
+        }
+      ],
+      "featured_children": [],
+      "silo_index": [],
+      "commercial_owners": [],
+      "supporting_guides": [],
+      "cross_silo": []
+    },
+    "claims": {
+      "may_name_chefs": [],
+      "must_not_name": [
+        "Thomas Chen",
+        "Marco Adriano",
+        "Elena Vasquez"
+      ],
+      "must_not_claim_years_of_experience": true,
+      "price_tier": "premium"
+    },
+    "qa_gates": [
+      "Exactly one H1.",
+      "Locked primary is not used as an H2 farm.",
+      "No banned term from invariants.banned_terms.",
+      "No second page's locked primary in title or H1.",
+      "Sibling module matches JSON siblings[] — do not invent cards.",
+      "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+    ],
+    "authority": {
+      "role": "supporting",
+      "purpose": "service-detail",
+      "money_page": "/corporate",
+      "anchor": "corporate catering in Dubai"
+    },
+    "source_evidence": {
+      "uploaded_catalogue": "myCHEF Corporate Catering Catalogue 2026-10-05 PLUS100",
+      "requested_by_owner": "2026-10-12",
+      "keyword_planner": "Checked UAE on 2026-10-12; API returned keywords without volume metrics. No volume inferred.",
+      "gsc_evidence": "corporate catering menu: 76 impressions; corporate breakfast catering: 97 impressions (2026-09-10 to 2026-10-09)"
+    }
+  },
+  "/luxury-dining-experiences/menus-prices": {
+    "url": "/luxury-dining-experiences/menus-prices",
+    "absolute_url": "https://www.mychef.ae/luxury-dining-experiences/menus-prices",
+    "silo": "Private Dining",
+    "silo_priority": "P1",
+    "page_type": "Menu and pricing catalogue",
+    "hub": "/luxury-dining-experiences",
+    "is_hub": false,
+    "status": "LOCKED",
+    "intent_owner": {
+      "primary_keyword": "private dinner menus and prices dubai",
+      "subkeywords": [],
+      "subkeyword_cap": 8,
+      "primary_may_appear_in": [
+        "title",
+        "h1",
+        "first_100_words",
+        "one_subheading"
+      ],
+      "subkeywords_may_appear_in": [
+        "body_sentences_only"
+      ],
+      "subkeywords_must_not_appear_in": [
+        "h1",
+        "h2",
+        "h3",
+        "title"
+      ],
+      "subkeyword_notes": {},
+      "primary_note": "Swapped 2026-08-26 on DataForSEO UAE data: 'luxury dining in dubai' 590/mo vs 'luxury dining experiences dubai' 0/mo."
+    },
+    "on_page": {
+      "title": "Private Dinner Menus & Prices Dubai | myCHEF",
+      "title_max_chars": 65,
+      "h1": "Private Dinner Menus and Prices Dubai",
+      "h1_count": 1,
+      "meta_description": "Private dinner menus and prices in Dubai: explore 13 signature menus for 2–20 guests, from AED 600 per person. Chef and waiter included; 5% VAT extra.",
+      "meta_description_max_chars": 160,
+      "og_title": "Private Dinner Menus & Prices Dubai | myCHEF",
+      "og_type": "website",
+      "og_description": "Private dinner menus and prices in Dubai: explore 13 signature menus for 2–20 guests, from AED 600 per person. Chef and waiter included; 5% VAT extra."
+    },
+    "indexation": {
+      "robots": {
+        "index": true,
+        "follow": true
+      },
+      "canonical": "https://www.mychef.ae/luxury-dining-experiences/menus-prices",
+      "redirect_to": null,
+      "in_sitemap": true
+    },
+    "schema": [
+      "CollectionPage",
+      "Service",
+      "OfferCatalog",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "internal_linking": {
+      "breadcrumb": [
+        {
+          "url": "/",
+          "anchor": "Home"
+        },
+        {
+          "url": "/luxury-dining-experiences",
+          "anchor": "Dinner"
+        },
+        {
+          "url": "/luxury-dining-experiences/menus-prices",
+          "anchor": "Menus & Prices",
+          "current": true
+        }
+      ],
+      "uplink_hub": "/luxury-dining-experiences",
+      "siblings": [
+        {
+          "url": "/luxury-dining-experiences",
+          "anchor": "Dinner experiences",
+          "alt_anchors": []
+        }
+      ],
+      "featured_children": [],
+      "silo_index": [],
+      "commercial_owners": [],
+      "supporting_guides": [],
+      "cross_silo": []
+    },
+    "claims": {
+      "may_name_chefs": [
+        "Chef Antonino",
+        "Chef Naresh Mohan"
+      ],
+      "must_not_name": [
+        "Thomas Chen",
+        "Marco Adriano",
+        "Elena Vasquez"
+      ],
+      "must_not_claim_years_of_experience": true,
+      "price_tier": "premium"
+    },
+    "qa_gates": [
+      "Exactly one H1.",
+      "Locked primary is not used as an H2 farm.",
+      "No banned term from invariants.banned_terms.",
+      "No second page's locked primary in title or H1.",
+      "Sibling module matches JSON siblings[] — do not invent cards.",
+      "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+    ],
+    "authority": {
+      "role": "supporting",
+      "purpose": "service-detail",
+      "money_page": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai"
+    },
+    "source_evidence": {
+      "uploaded_catalogue": "myCHEF Fine Dining Signature Collection 2026-10-10",
+      "requested_by_owner": "2026-10-12",
+      "keyword_planner": "Checked UAE on 2026-10-12; API returned keywords without volume metrics. No volume inferred.",
+      "gsc_evidence": "private dinner catering: 33 impressions; private dinner dubai: 14 impressions (2026-09-10 to 2026-10-09)"
+    }
   }
  },
  "authority_policy": {
