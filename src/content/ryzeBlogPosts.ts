@@ -255,7 +255,7 @@ export const RYZE_BLOG_POSTS = [
   {
     "slug": "/blog/best-private-chefs-in-dubai-for-home-dining",
     "title": "Household chef or event catering: which arrangement do you need?",
-    "excerpt": "Compare recurring cooking, weekly preparation and one-off dinners. Choose the right brief, then explore myCHEF’s household service and current pricing.",
+    "excerpt": "Household chef or event catering? Compare weekly cooking, meal preparation and one-off dinners in Dubai, with a brief checklist and links to current prices.",
     "category": "Guides",
     "image": "https://gwvckixiegkllthleuyt.supabase.co/storage/v1/object/public/workspace-article-images-public/55f87b60-f861-422d-a3f2-779e03f2cbdf/featured.jpg",
     "hub": "private-chef",

@@ -81,11 +81,15 @@ function ReviewsSection() {
   </section><PreviousWorkPreview /></>
 }
 const utility = new Set(['/thank-you','/review','/privacy-policy','/terms','/private-client-booking-terms','/corporate-booking-terms','/site-map'])
-function primaryContentAnchor(): HTMLElement | undefined {
+function primaryContentAnchor(pathname: string): HTMLElement | undefined {
   // The hero and first substantial service section lead. Reviews then become
   // section three, followed by one photo preview. Ignore card headers, nested
   // sections and the support modules appended by the site shell.
-  const sections = [...document.querySelectorAll<HTMLElement>('main section, main header')].filter(element => {
+  const content = document.querySelector<HTMLElement>('[data-mychef-route-content]')
+  // During a lazy navigation the destination may not have committed yet.
+  // Never use the previous route or the shell's appended support sections.
+  if (content?.dataset.mychefRouteContent !== pathname || !content.querySelector('h1')) return
+  const sections = [...content.querySelectorAll<HTMLElement>('section, header')].filter(element => {
     if (!element.getClientRects().length || !element.querySelector('h1,h2,h3')) return false
     if (element.closest('[data-mychef-review-placement],[data-mychef-reviews],[data-previous-work-preview]')) return false
     if (element.parentElement?.closest('section,header')) return false
@@ -104,7 +108,7 @@ export default function ClientReviews({ inline = false }: { inline?: boolean }) 
     let mount:HTMLDivElement|undefined
     const place = () => {
       if (mount?.isConnected) return
-      const anchor = primaryContentAnchor()
+      const anchor = primaryContentAnchor(pathname)
       if (!anchor) return
       mount = document.createElement('div'); mount.dataset.mychefReviewPlacement = 'after-primary-content'
       anchor.after(mount)

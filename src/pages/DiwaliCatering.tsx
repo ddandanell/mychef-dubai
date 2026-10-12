@@ -300,8 +300,8 @@ export default function DiwaliCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Diwali Catering Dubai | myCHEF"
-        description="Diwali catering Dubai at your home, office or villa. Vegetarian and Jain notes, chaat stations, mithai. Buffet from AED 120. Itemised quote."
+        title="Diwali Catering Dubai | Chaat, Buffets & Mithai | myCHEF"
+        description="Plan Diwali catering in Dubai for home or office celebrations: Indian buffets, chaat and mithai. Vegetarian and Jain requirements agreed before your quote."
         canonicalPath="/diwali-catering-dubai"
         ogImage="/menu-meat.webp"
         hideSiteName

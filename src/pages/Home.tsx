@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Private Chef & Catering in Dubai | myCHEF"
-        description="Private chef visits, long-term household chefs and catering in Dubai. Personal menus, a suitable chef match and ongoing support from myCHEF."
+        title="myCHEF Dubai | Private Chefs & Event Catering"
+        description="Explore myCHEF Dubai for chef visits, household cooking and event catering. Compare services, menus and prices, then plan your home meals or celebration."
         canonicalPath="/"
         ogImage={pageWorkHero('/')!.src}
         hideSiteName

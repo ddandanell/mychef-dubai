@@ -305,8 +305,8 @@ export default function ArabicCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Arabic Catering Dubai | Mezze, Grills & Ouzi"
-        description="Arabic catering Dubai: mezze, charcoal grills, ouzi, Emirati and Levantine dishes. Chefs cook on site, staff serve, the room is cleared. Send date, guest count and venue."
+        title="Arabic Catering Dubai | Mezze, Grills & Majlis Menus | myCHEF"
+        description="Arabic food catering in Dubai for majlis, weddings and home gatherings. Plan mezze, grills, ouzi and sweets, with halal sourcing and itemised service quotes."
         canonicalPath="/arabic-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}

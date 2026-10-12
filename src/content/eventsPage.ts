@@ -5,9 +5,9 @@ export const EVENTS_ROOT = '/events' as const
 
 export const EVENTS_KEYWORD_LOCK = {
   primary: 'event catering dubai',
-  title: 'Event Catering Dubai | Weddings & Parties | myCHEF',
+  title: 'Event Catering Dubai | Menus, Chefs & Service | myCHEF',
   description:
-    'Book bespoke event catering Dubai for weddings, birthdays and private parties. Menus, chefs, staffing, setup and cleanup—from AED 120 per person.',
+    'Plan event catering in Dubai for birthdays, weddings and private parties. Compare buffets, canapés and plated dinners, with chefs, staffing and setup quoted.',
 } as const
 
 export const EVENTS_WHATSAPP_NUMBER = '971551744849'

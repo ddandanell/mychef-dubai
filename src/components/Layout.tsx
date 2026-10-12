@@ -53,9 +53,9 @@ export default function Layout({ children }: LayoutProps) {
     <div className={`${pathname === '/gallery' ? 'previous-work-page' : ''} flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
-        <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
+        <main key={pathname} className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           {pathname !== '/gallery' && !isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
-          {children}
+          <div className="contents" data-mychef-route-content={pathname}>{children}</div>
           {pathname !== '/' && <ClientReviews key={pathname} />}
           {pathname !== '/gallery' && <MenuCatalogueLinks key={pathname} />}
           {pathname !== '/gallery' && <SupportServiceLink />}

@@ -31,8 +31,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Live-in private chef in Dubai from AED 15,000/month. Personal matching, a Learning Month and ongoing management. Activation and extras separate."
   },
   "/events": {
-    "title": "Event Catering Dubai | Weddings & Parties | myCHEF",
-    "description": "Event catering in Dubai for weddings, birthdays and private celebrations. Compare canapés, buffets and plated menus, with chefs, waitstaff and setup quoted."
+    "title": "Event Catering Dubai | Menus, Chefs & Service | myCHEF",
+    "description": "Plan event catering in Dubai for birthdays, weddings and private parties. Compare buffets, canapés and plated dinners, with chefs, staffing and setup quoted."
   },
   "/wedding-catering-menu-planning-dubai": {
     "title": "Wedding Menu Planning Dubai | Tastings | myCHEF",
@@ -96,8 +96,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Catering Cost Calculator Dubai | myCHEF"
   },
   "/diwali-catering-dubai": {
-    "title": "Diwali Catering Dubai | Indian Menus | myCHEF",
-    "description": "Diwali catering in Dubai for homes and offices. Plan Indian vegetarian or mixed menus, chaat stations and mithai, with Jain requirements agreed in advance."
+    "title": "Diwali Catering Dubai | Chaat, Buffets & Mithai | myCHEF",
+    "description": "Plan Diwali catering in Dubai for home or office celebrations: Indian buffets, chaat and mithai. Vegetarian and Jain requirements agreed before your quote."
   },
   "/institutional-catering-dubai": {
     "title": "Institutional Catering Dubai | Schools & Hospitals | myCHEF"
@@ -276,8 +276,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "A chef quote combines time, ingredients, travel and any service support."
   },
   "/arabic-catering-dubai": {
-    "title": "Arabic Catering Dubai | Mezze, Grills & Event Menus | myCHEF",
-    "description": "Arabic catering in Dubai for majlis, weddings and private events. Plan mezze, grills, rice dishes and sweets, with halal sourcing and service agreed."
+    "title": "Arabic Catering Dubai | Mezze, Grills & Majlis Menus | myCHEF",
+    "description": "Arabic food catering in Dubai for majlis, weddings and home gatherings. Plan mezze, grills, ouzi and sweets, with halal sourcing and itemised service quotes."
   },
   "/founding-customer-offer": {
     "title": "myCHEF Founding Customer Offer | Rate Lock | myCHEF",
@@ -347,16 +347,16 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | Single Visits & Member Plans | myCHEF",
-    "description": "Private chef Dubai: single visits from AED 1,350 or member visits from AED 900 with 4+ prepaid visits/month. VAT, groceries and transport extra."
+    "title": "Private Chef Dubai | Home Cooking & Weekly Visits | myCHEF",
+    "description": "Book a private chef in Dubai for home cooking and weekly visits. Four-hour visits from AED 1,350 before 5% VAT, groceries and transport. Explore plans."
   },
   "/private-chef-dubai/pricing": {
-    "title": "Private Chef Dubai Prices | Single & Member Rates | myCHEF",
-    "description": "Private chef Dubai prices from AED 900 member rate: single visits, meal packs and full-day chefs. One rate card, groceries at cost. Build your plan online."
+    "title": "Private Chef Dubai Price | Visit & Member Rates | myCHEF",
+    "description": "Private chef Dubai price: 4-hour visits from AED 1,350; AED 900 with 4+ prepaid visits/month. 5% VAT, groceries and transport extra. Compare plans."
   },
   "/our-chefs": {
-    "title": "Meet Our Chefs in Dubai | Profiles & Cooking Styles | myCHEF",
-    "description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF."
+    "title": "Meet Our Chefs in Dubai | Cuisines & Cooking Styles | myCHEF",
+    "description": "Meet our chefs in Dubai: explore named profiles, cuisines and 25 household cooking styles. Share your food preferences and schedule for a suitable chef match."
   },
   "/gallery": {
     "title": "Previous Work | Event & Catering Photo Gallery | myCHEF",
@@ -371,8 +371,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Part time private chef in Dubai from AED 900 member rate with 4+ prepaid visits per month. Single visits also welcome. Compare cooking options and prices."
   },
   "/catering-dubai": {
-    "description": "Catering in Dubai for homes, offices and events. Compare delivery, canapés, buffets and staffed service. Food delivery from AED 90pp for 10 guests, before VAT.",
-    "title": "Catering Dubai | Menus, Prices & Event Service | myCHEF"
+    "description": "Plan home catering in Dubai with delivery, buffets or a chef and service team. Compare menus and prices; delivery from AED 90pp for 10 guests, before VAT.",
+    "title": "Catering Dubai | Home Parties, Buffets & Menus | myCHEF"
   },
   "/wedding-catering-dubai": {
     "description": "Wedding catering in Dubai for villa, garden and venue receptions. Plan plated menus, buffets, canapés and tastings, with service and equipment clearly quoted.",
@@ -529,5 +529,13 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
   "/blog/best-wedding-catering-companies-in-dubai": {
     "title": "Choosing a Wedding Caterer in Dubai: Checklist | myCHEF",
     "description": "Choosing a wedding caterer in Dubai? Check tastings, buffet or plated service, venue access and itemised costs. Use shortlist questions to compare proposals."
+  },
+  "/": {
+    "title": "myCHEF Dubai | Private Chefs & Event Catering",
+    "description": "Explore myCHEF Dubai for chef visits, household cooking and event catering. Compare services, menus and prices, then plan your home meals or celebration."
+  },
+  "/blog/best-private-chefs-in-dubai-for-home-dining": {
+    "title": "Household Chef or Event Catering? Dubai Guide | myCHEF",
+    "description": "Household chef or event catering? Compare weekly cooking, meal preparation and one-off dinners in Dubai, with a brief checklist and links to current prices."
   }
 }
