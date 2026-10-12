@@ -21,6 +21,8 @@ import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import GuidesTeaserSection from '@/sections/GuidesTeaserSection'
 import LeadMagnetModal from '@/sections/LeadMagnetModal'
 import { homepageGraph } from '@/lib/organizationSchema'
+import ClientReviews from '@/components/ClientReviews'
+import { pageWorkHero } from '@/content/previousWork'
 
 export default function Home() {
   return (
@@ -29,14 +31,14 @@ export default function Home() {
         title="Private Chef & Catering in Dubai | myCHEF"
         description="Private chef visits, long-term household chefs and catering in Dubai. Personal menus, a suitable chef match and ongoing support from myCHEF."
         canonicalPath="/"
-        ogImage="/images/home-hero.webp"
-        preloadHero="/images/home-hero.webp"
+        ogImage={pageWorkHero('/')!.src}
         hideSiteName
         schema={homepageGraph()}
       />
       <HeroSection />
       <TrustSignalStrip />
       <ServicesSection />
+      <ClientReviews inline />
       <FestivePlanningSection />
       <HouseholdCallout/>
       <StarterPackagesSection

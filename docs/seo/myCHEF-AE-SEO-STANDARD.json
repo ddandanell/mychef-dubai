@@ -23228,15 +23228,15 @@
     ]
    },
    "on_page": {
-    "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
+    "title": "Previous Work | Event & Catering Photo Gallery | myCHEF",
     "title_max_chars": 65,
-    "h1": "Event Gallery",
+    "h1": "Previous Work",
     "h1_count": 1,
-    "meta_description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration.",
+    "meta_description": "Explore previous myCHEF work: private dining, yacht tables, BBQs, live stations, buffets and festive events. Filter photos and plan your own occasion.",
     "meta_description_max_chars": 160,
-    "og_title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
+    "og_title": "Previous Work | Event & Catering Photo Gallery | myCHEF",
     "og_type": "website",
-    "og_description": "Explore photographs from previous myCHEF yacht catering work and a separate collection of dining and household service inspiration."
+    "og_description": "Explore previous myCHEF work: private dining, yacht tables, BBQs, live stations, buffets and festive events. Filter photos and plan your own occasion."
    },
    "indexation": {
     "robots": {
@@ -23248,7 +23248,8 @@
     "in_sitemap": true
    },
    "schema": [
-    "WebPage",
+    "CollectionPage",
+    "ImageGallery",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -23258,12 +23259,8 @@
       "anchor": "Home"
      },
      {
-      "url": "/faq",
-      "anchor": "FAQ"
-     },
-     {
       "url": "/gallery",
-      "anchor": "Gallery",
+      "anchor": "Previous Work",
       "current": true
      }
     ],

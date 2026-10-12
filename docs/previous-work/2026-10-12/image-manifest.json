@@ -1,0 +1,2877 @@
+{
+  "uploadedPhotos": 154,
+  "retainedYachtPhotos": 0,
+  "categories": 19,
+  "optimizedAssetBytes": 31461608,
+  "photos": [
+    {
+      "id": "bbq-001",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/01 - z10.jpg",
+      "sourceSha256": "b398f2ed1295adc8d0e86dcfc683b3161c94c60b0425285486922b9f59de302b",
+      "category": "bbq",
+      "alt": "Chef at a garden BBQ station with skewers and vegetable displays.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-at-a-garden-bbq-station-with-skewers-and-vegetable-displays-001-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-at-a-garden-bbq-station-with-skewers-and-vegetable-displays-001-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "bbq-002",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/01-myCHEF-batch1-01.jpg",
+      "sourceSha256": "907938cecbbe0ba44ec0c0f26974d7dd268a2c21f310112b3a3528ae6833a6e3",
+      "category": "bbq",
+      "alt": "Outdoor BBQ buffet with a chef, colourful skewers and blue balloons.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-bbq-buffet-with-a-chef-colourful-skewers-and-blue-balloons-002-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-bbq-buffet-with-a-chef-colourful-skewers-and-blue-balloons-002-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "bbq-003",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/02 - z9.jpg",
+      "sourceSha256": "eed35365ea1f4f081ba2c5c2ea240145a86b84a6a7ae19f49ff28af28cd61e55",
+      "category": "bbq",
+      "alt": "Garden BBQ display with skewers, salads and a chef ready for service.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-garden-bbq-display-with-skewers-salads-and-a-chef-ready-for-service-003-large.webp",
+      "thumbnail": "/images/previous-work/mychef-garden-bbq-display-with-skewers-salads-and-a-chef-ready-for-service-003-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "bbq-004",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/02-myCHEF-batch1-02.jpg",
+      "sourceSha256": "356135075956b442414de7e02f56183a8f7eddc7210acdd19ace3ff4cdd9a4ab",
+      "category": "bbq",
+      "alt": "Chef turning food on an outdoor grill beside a villa.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-turning-food-on-an-outdoor-grill-beside-a-villa-004-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-turning-food-on-an-outdoor-grill-beside-a-villa-004-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "bbq-005",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/03 - z8.jpg",
+      "sourceSha256": "ddadbba97814b4e7c565c5997e38f1a31571ac07b81cccf363b9659fbc70191e",
+      "category": "bbq",
+      "alt": "Outdoor skewer buffet with vegetables and a myCHEF station sign.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-skewer-buffet-with-vegetables-and-a-mychef-station-sign-005-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-skewer-buffet-with-vegetables-and-a-mychef-station-sign-005-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "bbq-006",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/04 - z7.jpg",
+      "sourceSha256": "0109956a92e1a6970dfac8214bc9bc0e99fd453f16c7f029706cea60602b36b6",
+      "category": "bbq",
+      "alt": "Wide view of a garden BBQ buffet beneath palm trees.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-wide-view-of-a-garden-bbq-buffet-beneath-palm-trees-006-large.webp",
+      "thumbnail": "/images/previous-work/mychef-wide-view-of-a-garden-bbq-buffet-beneath-palm-trees-006-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "bbq-007",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/04-myCHEF-batch1-04.jpg",
+      "sourceSha256": "01b7d31d516f6cc270082cb36313a2af5334cb8e5c0e5d4c4e06b3ed83b6e52c",
+      "category": "bbq",
+      "alt": "Chef arranging skewers at a BBQ station beside a villa wall.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-arranging-skewers-at-a-bbq-station-beside-a-villa-wall-007-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-arranging-skewers-at-a-bbq-station-beside-a-villa-wall-007-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "bbq-008",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/05 - z6.jpg",
+      "sourceSha256": "a5a300d160856c7f72e65a873f29b6424faad46fd9b1b674d5fbae9d1464e654",
+      "category": "bbq",
+      "alt": "Raw burger patties and marinated ingredients at a BBQ preparation station.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers"
+      ],
+      "src": "/images/previous-work/mychef-raw-burger-patties-and-marinated-ingredients-at-a-bbq-preparation-station-008-large.webp",
+      "thumbnail": "/images/previous-work/mychef-raw-burger-patties-and-marinated-ingredients-at-a-bbq-preparation-station-008-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "bbq-009",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/05-myCHEF-batch1-05.jpg",
+      "sourceSha256": "b716623f4a98ab366bc122ac945fb222a21726cc35989addd18e11c13711b429",
+      "category": "bbq",
+      "alt": "Chef grilling skewers at an outdoor charcoal BBQ.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-grilling-skewers-at-an-outdoor-charcoal-bbq-009-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-grilling-skewers-at-an-outdoor-charcoal-bbq-009-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1066
+      ]
+    },
+    {
+      "id": "bbq-010",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/06 - z5.jpg",
+      "sourceSha256": "63c947b4a95cfe36247e840ef3c074d1955fe305bfe7aded790f2f7834c58aa7",
+      "category": "bbq",
+      "alt": "Close view of colourful skewers at a garden BBQ buffet.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-colourful-skewers-at-a-garden-bbq-buffet-010-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-colourful-skewers-at-a-garden-bbq-buffet-010-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "bbq-011",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/06-myCHEF-batch1-06.jpg",
+      "sourceSha256": "88db3205c40e5648d874e106a6ec2f04dff1c8ee30c4cc0da06bb4e7453c0b28",
+      "category": "bbq",
+      "alt": "Chef behind a shaded outdoor BBQ station beside a villa.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-shaded-outdoor-bbq-station-beside-a-villa-011-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-shaded-outdoor-bbq-station-beside-a-villa-011-thumb.webp",
+      "originalDimensions": [
+        1600,
+        720
+      ]
+    },
+    {
+      "id": "bbq-012",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/08 - z3.jpg",
+      "sourceSha256": "b7f14c702b6d259d48246ba8b9ef5adc7b01680dc60000631a9e1c0912807e08",
+      "category": "bbq",
+      "alt": "Tiered BBQ ingredient display with a waterfront view.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-tiered-bbq-ingredient-display-with-a-waterfront-view-012-large.webp",
+      "thumbnail": "/images/previous-work/mychef-tiered-bbq-ingredient-display-with-a-waterfront-view-012-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-013",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/08-myCHEF-batch1-08.jpg",
+      "sourceSha256": "8f92862e2f6a136c63d4ccfca2ee6a772af423012c4075b39e8be75925e925a0",
+      "category": "bbq",
+      "alt": "Chef cooking meat and vegetables at a villa BBQ grill.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-cooking-meat-and-vegetables-at-a-villa-bbq-grill-013-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-cooking-meat-and-vegetables-at-a-villa-bbq-grill-013-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "bbq-014",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/09 - z2.jpg",
+      "sourceSha256": "31eeff953c265528a910c24cadc7b177122390884d33d04aed7f7c34358fac4d",
+      "category": "bbq",
+      "alt": "Angled view of marinated skewers, vegetables and burger patties.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers"
+      ],
+      "src": "/images/previous-work/mychef-angled-view-of-marinated-skewers-vegetables-and-burger-patties-014-large.webp",
+      "thumbnail": "/images/previous-work/mychef-angled-view-of-marinated-skewers-vegetables-and-burger-patties-014-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-015",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/10 - z1.jpg",
+      "sourceSha256": "2337fc592d7889dd999927626760bf08da315b80bed8a87677eaebff3233fc3d",
+      "category": "bbq",
+      "alt": "Waterfront BBQ station with burger patties and a vegetable display.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-waterfront-bbq-station-with-burger-patties-and-a-vegetable-display-015-large.webp",
+      "thumbnail": "/images/previous-work/mychef-waterfront-bbq-station-with-burger-patties-and-a-vegetable-display-015-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-016",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/23-myCHEF-batch3-07.jpg",
+      "sourceSha256": "da96bd82ca7d8850c84eaa920f12b2190cf78fb642e2eed276e50cafbf03fb77",
+      "category": "bbq",
+      "alt": "Chef behind a garden skewer buffet beneath palm trees.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-garden-skewer-buffet-beneath-palm-trees-016-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-garden-skewer-buffet-beneath-palm-trees-016-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "bbq-017",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/24-myCHEF-batch3-08.jpg",
+      "sourceSha256": "fb66d5c67673d14baa9502ce358f82fe12732e436865d29d1359f1550c277999",
+      "category": "bbq",
+      "alt": "Chef grilling skewers beside an outdoor BBQ ingredient display.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-grilling-skewers-beside-an-outdoor-bbq-ingredient-display-017-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-grilling-skewers-beside-an-outdoor-bbq-ingredient-display-017-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-018",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/26-myCHEF-batch4-02.jpg",
+      "sourceSha256": "8361b82054d63db74764c2389a3e5732c72d52fc1afaeca7f4839d36c1bd3d03",
+      "category": "bbq",
+      "alt": "Chef tending a grill of skewers during an evening service.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Chef service",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chef-tending-a-grill-of-skewers-during-an-evening-service-018-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-tending-a-grill-of-skewers-during-an-evening-service-018-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "bbq-019",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/27-myCHEF-batch4-03-corrected.jpg",
+      "sourceSha256": "fce7259a55591503a45d1e14e92da6e16a8e0f6ac6fecd63983bdd2b513ada55",
+      "category": "bbq",
+      "alt": "Chef behind a warmly lit BBQ buffet with skewers and sauces.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-warmly-lit-bbq-buffet-with-skewers-and-sauces-019-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-warmly-lit-bbq-buffet-with-skewers-and-sauces-019-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-020",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/myCHEF-610.jpg",
+      "sourceSha256": "b18e99f4d33e7f2fb2399a0d03fa1076fec1e66cadcadcb16297e880bdebc132",
+      "category": "bbq",
+      "alt": "Chef preparing skewers on a live BBQ grill.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-skewers-on-a-live-bbq-grill-020-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-skewers-on-a-live-bbq-grill-020-thumb.webp",
+      "originalDimensions": [
+        592,
+        796
+      ]
+    },
+    {
+      "id": "bbq-021",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/BBQ Station/myCHEF-611.jpg",
+      "sourceSha256": "1e3442c7f1db4890e1d14692ec44d7c4c8a6c1c9072d9fb90538be3408d059d4",
+      "category": "bbq",
+      "alt": "Chef cooking skewers at an indoor BBQ station.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Indoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-cooking-skewers-at-an-indoor-bbq-station-021-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-cooking-skewers-at-an-indoor-bbq-station-021-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "boxed-canapes-022",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/07-myCHEF-batch1-07.jpg",
+      "sourceSha256": "c38a014a1296aad22f9ab7e2f4757dc4977239f29537ba1180892433b76cc421",
+      "category": "boxed-canapes",
+      "alt": "Boxed selection of individually presented savoury canapés.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "boxed-canapes-023",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/09-myCHEF-batch2-01.jpg",
+      "sourceSha256": "a71463bb3172efc86fd41e8273ade4ba38d6e917421c0a84e1dc07bf4abd1999",
+      "category": "boxed-canapes",
+      "alt": "Black presentation box with assorted bite-sized canapés.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp",
+      "thumbnail": "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-thumb.webp",
+      "originalDimensions": [
+        717,
+        1086
+      ]
+    },
+    {
+      "id": "boxed-canapes-024",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/10-myCHEF-batch2-02.jpg",
+      "sourceSha256": "c9cf6d294c19280df4b0686ec4eb38ef2d10a80f795e0ea26fab6e00ae5e5692",
+      "category": "boxed-canapes",
+      "alt": "Boxed canapés topped with bright pink garnish.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-canapes-topped-with-bright-pink-garnish-024-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-canapes-topped-with-bright-pink-garnish-024-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "boxed-canapes-025",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/11-myCHEF-batch2-03.jpg",
+      "sourceSha256": "08eb1f50d4cdba026ffa2165a359740244cf77e0681cb2a66a7b42012f034121",
+      "category": "boxed-canapes",
+      "alt": "Assorted boxed canapés with sandwiches and bite-sized dishes.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp",
+      "thumbnail": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-thumb.webp",
+      "originalDimensions": [
+        871,
+        1280
+      ]
+    },
+    {
+      "id": "boxed-canapes-026",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/12-myCHEF-batch2-04.jpg",
+      "sourceSha256": "2a0d25e705b6f3112be7ccae8d3000191dcf7ce312eda339da4cbd75519d4576",
+      "category": "boxed-canapes",
+      "alt": "Close view of savoury canapés in individual presentation compartments.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "boxed-canapes-027",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/13-myCHEF-batch2-05.jpg",
+      "sourceSha256": "5a45863b178d6b8061ff3a0c40f3d949f807450b701af95270ed7459b654908a",
+      "category": "boxed-canapes",
+      "alt": "Boxed miniature tartlets ready for catering delivery.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-miniature-tartlets-ready-for-catering-delivery-027-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-miniature-tartlets-ready-for-catering-delivery-027-thumb.webp",
+      "originalDimensions": [
+        709,
+        1086
+      ]
+    },
+    {
+      "id": "boxed-canapes-028",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Boxed Canapes/14-myCHEF-batch2-06.jpg",
+      "sourceSha256": "0d1bb703904a13a6d5408e9e2cc2b94253c65752d9be47711bda5dec0c007d53",
+      "category": "boxed-canapes",
+      "alt": "Boxed canapés presented on individual tasting spoons.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-canapes-presented-on-individual-tasting-spoons-028-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-canapes-presented-on-individual-tasting-spoons-028-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "breakfast-029",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/03_WhatsApp Image 2026-10-10 at 10.39.54 (4).jpg",
+      "sourceSha256": "2729262d58dfeed23b2bbcf7a466b4933733a4cf0e9a08177cfc41bb43a9701a",
+      "category": "breakfast",
+      "alt": "Long breakfast buffet with pastries, juices and warm dishes.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "breakfast-030",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (1).jpeg",
+      "sourceSha256": "aacd5a43397a4117c185092d82cb7a016f57c51ece842e6ef50764d449974884",
+      "category": "breakfast",
+      "alt": "Breakfast buffet beside windows with pastries, fruit and warm dishes.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp",
+      "thumbnail": "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-thumb.webp",
+      "originalDimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "id": "breakfast-031",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (2).jpeg",
+      "sourceSha256": "c505cff109012e98b6c2b0c77013dd2e80cd9699724e5d67d8c4ed654400e659",
+      "category": "breakfast",
+      "alt": "Chef behind a breakfast buffet with juice dispensers and plates.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "breakfast-032",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (3).jpeg",
+      "sourceSha256": "0f000e8ce468de3aa7310cfe03930678f85846afa3eb75d68cc9645a07f100c3",
+      "category": "breakfast",
+      "alt": "Breakfast display with finger sandwiches, quiches and fresh flowers.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp",
+      "thumbnail": "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "breakfast-033",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (4).jpeg",
+      "sourceSha256": "6d791a9c45f8b6c588674cababfbd161d3742c5ac54eb7566c01cd2f6e67074e",
+      "category": "breakfast",
+      "alt": "Breakfast buffet with pastries, fruit and balloon decorations.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-breakfast-buffet-with-pastries-fruit-and-balloon-decorations-033-large.webp",
+      "thumbnail": "/images/previous-work/mychef-breakfast-buffet-with-pastries-fruit-and-balloon-decorations-033-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "breakfast-034",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (5).jpeg",
+      "sourceSha256": "c7080564af077221c915e30521a70910dc016ca4cdbe533daa64ceab23fc1752",
+      "category": "breakfast",
+      "alt": "Wide view of a breakfast buffet with pastries and juices.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-large.webp",
+      "thumbnail": "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "breakfast-035",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.38.30 (6).jpeg",
+      "sourceSha256": "2454146c7aac146284aa5007f7e4c92df4875877b5745ca2a585b4df331208f3",
+      "category": "breakfast",
+      "alt": "Breakfast sweets and sliced fruit on a styled buffet table.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-large.webp",
+      "thumbnail": "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "breakfast-036",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Breakfast and Coffee Break Buffet/WhatsApp Image 2026-10-10 at 10.39.54.jpeg",
+      "sourceSha256": "8003a6f438fc5435c9d6bcff2b72070582d2f6bc215e8fc5d523b883de21f5ee",
+      "category": "breakfast",
+      "alt": "Breakfast pastry display with doughnuts, croissants and muffins.",
+      "tags": [
+        "Breakfast",
+        "Coffee break",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-large.webp",
+      "thumbnail": "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-thumb.webp",
+      "originalDimensions": [
+        1280,
+        598
+      ]
+    },
+    {
+      "id": "christmas-037",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000349554.jpg",
+      "sourceSha256": "8cf3fcc78192dec48f7a29cd8f3b41f37aa070c470fec942809c8a58b576d958",
+      "category": "christmas",
+      "alt": "Christmas buffet with red floral arrangements and festive food displays.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-christmas-buffet-with-red-floral-arrangements-and-festive-food-displays-037-large.webp",
+      "thumbnail": "/images/previous-work/mychef-christmas-buffet-with-red-floral-arrangements-and-festive-food-displays-037-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-038",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000349556.jpg",
+      "sourceSha256": "df5612dc1022399bcd4edbb158f35f9046eeebc2d819a0195d4d07339ade03af",
+      "category": "christmas",
+      "alt": "Long Christmas buffet table decorated with garlands and festive figures.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-long-christmas-buffet-table-decorated-with-garlands-and-festive-figures-038-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-christmas-buffet-table-decorated-with-garlands-and-festive-figures-038-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-039",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000349562.jpg",
+      "sourceSha256": "b655ea2edd851aedca498611d6576f5aaab75f0bd61990cb51952f5103fb9649",
+      "category": "christmas",
+      "alt": "Christmas catering display with red flowers and green table styling.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-christmas-catering-display-with-red-flowers-and-green-table-styling-039-large.webp",
+      "thumbnail": "/images/previous-work/mychef-christmas-catering-display-with-red-flowers-and-green-table-styling-039-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-040",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358857.jpg",
+      "sourceSha256": "15554c15fc3b563b5536743a623f61f43135ec1bedb45e72e0372df8d40722d6",
+      "category": "christmas",
+      "alt": "Long festive buffet with wooden serving stands and red flowers.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-festive-buffet-with-wooden-serving-stands-and-red-flowers-040-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-festive-buffet-with-wooden-serving-stands-and-red-flowers-040-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-041",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358861.jpg",
+      "sourceSha256": "c1121447d92e5085f6e5b2670dbcc00062a576eb2917479f77f8dda71a4bc976",
+      "category": "christmas",
+      "alt": "Angled view of a Christmas buffet with garlands and bite-sized dishes.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-angled-view-of-a-christmas-buffet-with-garlands-and-bite-sized-dishes-041-large.webp",
+      "thumbnail": "/images/previous-work/mychef-angled-view-of-a-christmas-buffet-with-garlands-and-bite-sized-dishes-041-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-042",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358863.jpg",
+      "sourceSha256": "93d323f957ab9d2669904bbcea5ec99279064ec7ae0798bf0dcf5c6445f78002",
+      "category": "christmas",
+      "alt": "Covered outdoor Christmas buffet with a row of chafing dishes.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-covered-outdoor-christmas-buffet-with-a-row-of-chafing-dishes-042-large.webp",
+      "thumbnail": "/images/previous-work/mychef-covered-outdoor-christmas-buffet-with-a-row-of-chafing-dishes-042-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-043",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358865.jpg",
+      "sourceSha256": "a6304431c4a401d360eb8c698a35533d20559d6d58b4eb14eb29d0bc7a428c63",
+      "category": "christmas",
+      "alt": "Christmas dessert display with fruit, sweets and red floral details.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-christmas-dessert-display-with-fruit-sweets-and-red-floral-details-043-large.webp",
+      "thumbnail": "/images/previous-work/mychef-christmas-dessert-display-with-fruit-sweets-and-red-floral-details-043-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-044",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358867.jpg",
+      "sourceSha256": "ac3e429cdf1658838c8103892871491ab0a2b328d38042467733d7f4fa057de6",
+      "category": "christmas",
+      "alt": "Christmas buffet with warm dishes, pastries and stacked plates.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-christmas-buffet-with-warm-dishes-pastries-and-stacked-plates-044-large.webp",
+      "thumbnail": "/images/previous-work/mychef-christmas-buffet-with-warm-dishes-pastries-and-stacked-plates-044-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-045",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358869.jpg",
+      "sourceSha256": "fb8151d046a2206fa3715c04f29abd972754f4210ba40e53cbc7ec18482c70da",
+      "category": "christmas",
+      "alt": "Long covered Christmas buffet ready for outdoor service.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-long-covered-christmas-buffet-ready-for-outdoor-service-045-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-covered-christmas-buffet-ready-for-outdoor-service-045-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-046",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Christmas/Christmas - 1000358871.jpg",
+      "sourceSha256": "7e50dbefdaf7122d9d9f7df9f31d0b0991434ebbd119f2a93e2be56fed4af1a7",
+      "category": "christmas",
+      "alt": "Festive Christmas canapé table with red flowers and green garlands.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-festive-christmas-canape-table-with-red-flowers-and-green-garlands-046-large.webp",
+      "thumbnail": "/images/previous-work/mychef-festive-christmas-canape-table-with-red-flowers-and-green-garlands-046-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "desserts-047",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Desserts/WhatsApp Image 2026-10-10 at 10.51.02 (1).jpeg",
+      "sourceSha256": "bd8c8927d6d9f62705227888eb2b999b08584c8fb805a3f6f6f18c00ff1c43e9",
+      "category": "desserts",
+      "alt": "Dessert buffet with bite-sized sweets, fruit and floral arrangements.",
+      "tags": [
+        "Desserts",
+        "Sweet bites",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp",
+      "thumbnail": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-thumb.webp",
+      "originalDimensions": [
+        1170,
+        1314
+      ]
+    },
+    {
+      "id": "desserts-048",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Desserts/WhatsApp Image 2026-10-10 at 10.51.03 (1).jpeg",
+      "sourceSha256": "279d7e33992c8e2d407c4ca261087c0b4b679ac4c32e80720ec3a45e1a6df186",
+      "category": "desserts",
+      "alt": "Long dessert display with assorted sweets in a warm indoor setting.",
+      "tags": [
+        "Desserts",
+        "Sweet bites",
+        "Buffet",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-long-dessert-display-with-assorted-sweets-in-a-warm-indoor-setting-048-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-dessert-display-with-assorted-sweets-in-a-warm-indoor-setting-048-thumb.webp",
+      "originalDimensions": [
+        1081,
+        1280
+      ]
+    },
+    {
+      "id": "high-tea-049",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/High Tea/Hi T2,.jpeg",
+      "sourceSha256": "a07f55113d4645c548b9c6de7a9b1530e99d4594846c0ed05ffc99dc4d9453cf",
+      "category": "high-tea",
+      "alt": "Afternoon tea table with tiered stands and birthday decorations.",
+      "tags": [
+        "Afternoon tea",
+        "Table settings",
+        "Savouries & sweets"
+      ],
+      "src": "/images/previous-work/mychef-afternoon-tea-table-with-tiered-stands-and-birthday-decorations-049-large.webp",
+      "thumbnail": "/images/previous-work/mychef-afternoon-tea-table-with-tiered-stands-and-birthday-decorations-049-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "high-tea-050",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/High Tea/Hi, hi, three.jpeg",
+      "sourceSha256": "84f4b9543fb9f64df79ecdb3f554cf88fbf340218c63e5d0b3bcafe71f4779f6",
+      "category": "high-tea",
+      "alt": "Afternoon tea spread with savouries, sweets and fresh flowers.",
+      "tags": [
+        "Afternoon tea",
+        "Table settings",
+        "Savouries & sweets",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-afternoon-tea-spread-with-savouries-sweets-and-fresh-flowers-050-large.webp",
+      "thumbnail": "/images/previous-work/mychef-afternoon-tea-spread-with-savouries-sweets-and-fresh-flowers-050-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "high-tea-051",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/High Tea/high tea 1.jpeg",
+      "sourceSha256": "f0300c9db3a70d8ffee34e49e8508a82068041e568171338e3fd82c3f69e2f6e",
+      "category": "high-tea",
+      "alt": "Afternoon tea table with tiered stands, pastries and fruit.",
+      "tags": [
+        "Afternoon tea",
+        "Table settings",
+        "Savouries & sweets"
+      ],
+      "src": "/images/previous-work/mychef-afternoon-tea-table-with-tiered-stands-pastries-and-fruit-051-large.webp",
+      "thumbnail": "/images/previous-work/mychef-afternoon-tea-table-with-tiered-stands-pastries-and-fruit-051-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "tacos-052",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mexican and Taco Station/03-myCHEF-batch1-03.jpg",
+      "sourceSha256": "2ecb866e2b3ae14b98c26edd0a23287683c09ce2817c1274f97022cb6510ffa9",
+      "category": "tacos",
+      "alt": "Chef behind a taco station with fillings, bowls and garnishes.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-taco-station-with-fillings-bowls-and-garnishes-052-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-taco-station-with-fillings-bowls-and-garnishes-052-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "tacos-053",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mexican and Taco Station/15-myCHEF-batch2-07.jpg",
+      "sourceSha256": "210e1eb90d7fa330bf5e8bc2298d80c8a5abcaac9affc5a12e45309330c92001",
+      "category": "tacos",
+      "alt": "Chef arranging tacos at a Mexican food station.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-arranging-tacos-at-a-mexican-food-station-053-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-arranging-tacos-at-a-mexican-food-station-053-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "tacos-054",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mexican and Taco Station/16-myCHEF-batch2-08.jpg",
+      "sourceSha256": "ab9cdeecfc1fa6666eb564eb0987d8291b4b8e662112938ad9f20a889885a2e8",
+      "category": "tacos",
+      "alt": "Chef preparing food at a taco station with decorative corn displays.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-food-at-a-taco-station-with-decorative-corn-displays-054-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-food-at-a-taco-station-with-decorative-corn-displays-054-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "tacos-055",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mexican and Taco Station/20-myCHEF-batch3-04.jpg",
+      "sourceSha256": "918605528ede7c5e96d55f6a4129a0435e677fb810e32291d50ac58118679594",
+      "category": "tacos",
+      "alt": "Chef serving at a taco station with bright yellow taco shells.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-serving-at-a-taco-station-with-bright-yellow-taco-shells-055-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-serving-at-a-taco-station-with-bright-yellow-taco-shells-055-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "tacos-056",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mexican and Taco Station/21-myCHEF-batch3-05.jpg",
+      "sourceSha256": "2f37e08acffda07c850881b3cd1ba0b3e01c775daecb2a9cdbf48169bb2b89b1",
+      "category": "tacos",
+      "alt": "Chef with a Mexican taco spread and assorted sauces.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-with-a-mexican-taco-spread-and-assorted-sauces-056-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-with-a-mexican-taco-spread-and-assorted-sauces-056-thumb.webp",
+      "originalDimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "id": "buffets-057",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/02_WhatsApp Image 2026-10-10 at 10.39.54 (3).jpg",
+      "sourceSha256": "237817447bf6385227ebd428fc0dde81258e9661ec70255c25ef0b979ce9a2bf",
+      "category": "buffets",
+      "alt": "Indoor buffet with salads, bread, warm dishes and stacked plates.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "buffets-058",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/11_WhatsApp Image 2026-10-10 at 10.51.03 (2).jpg",
+      "sourceSha256": "e156db20aa85efc789309620ddf5b77c88b7701097e1d9e5481b193b66268c41",
+      "category": "buffets",
+      "alt": "Long catered buffet with flowers and covered chafing dishes.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-059",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/12_WhatsApp Image 2026-10-10 at 10.51.03 (3).jpg",
+      "sourceSha256": "2ea82c346878e019fcb7280ebf8e4011fd2bcda3fb68b7d45d902b10dc0dc725",
+      "category": "buffets",
+      "alt": "Service staff preparing a long catered buffet indoors.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp",
+      "thumbnail": "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-060",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.38.30.jpeg",
+      "sourceSha256": "09ddfa331f4ae329836610be5cac78ac5fe22e3467e33018001610d428890de8",
+      "category": "buffets",
+      "alt": "Buffet table with salads, canapés and fresh floral arrangements.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp",
+      "thumbnail": "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-061",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.39.54 (1).jpeg",
+      "sourceSha256": "f7c82a5526e373ec8ff172a911bbdef9ddfb87f82e1ba4acb1b937b435fdfd42",
+      "category": "buffets",
+      "alt": "Long buffet with salads and warm dishes in an event space.",
+      "tags": [
+        "Buffet",
+        "Catering setup"
+      ],
+      "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "buffets-062",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.39.54 (2).jpeg",
+      "sourceSha256": "39c806465e5663517ff96ada0807b2d1339cb08959657268199ec7c336651b11",
+      "category": "buffets",
+      "alt": "Indoor buffet with food displays beside large windows.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-thumb.webp",
+      "originalDimensions": [
+        737,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-063",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.40.26.jpeg",
+      "sourceSha256": "c4e441bc78293d9975f43f65dae600ce8e6af13d39eedb23edabef0abf5aa98e",
+      "category": "buffets",
+      "alt": "Styled buffet with a floral centrepiece, salads and serving bowls.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp",
+      "thumbnail": "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "buffets-064",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.51.02 (2).jpeg",
+      "sourceSha256": "3d16ed971a3601cc17846066c99aadc3ab53fb893e3ebc04de83b01bacb00ee3",
+      "category": "buffets",
+      "alt": "Long row of warm buffet dishes with a chef at the far end.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-thumb.webp",
+      "originalDimensions": [
+        1072,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-065",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.51.02 (3).jpeg",
+      "sourceSha256": "b78c9e4f927c5189eac688e2814f1ab0b2f3d523c937658acd4e85c2d9061cee",
+      "category": "buffets",
+      "alt": "Buffet table with chafing dishes, plates and a floral arrangement.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp",
+      "thumbnail": "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "buffets-066",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.51.02 (4).jpeg",
+      "sourceSha256": "97da177ba98ce8ed02fe8d8706982153e8d43ec5224d5b37f949d788885cc9ec",
+      "category": "buffets",
+      "alt": "Indoor catering buffet with salads, warm dishes and serving plates.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "buffets-067",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-10 at 10.51.03.jpeg",
+      "sourceSha256": "0e8412f9b6280a07e2cbd44f547b3140ba4405d8439386d202df739791f892d4",
+      "category": "buffets",
+      "alt": "Styled buffet with a leafy centrepiece and decorative serving stands.",
+      "tags": [
+        "Buffet",
+        "Catering setup"
+      ],
+      "src": "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp",
+      "thumbnail": "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-068",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/WhatsApp Image 2026-10-12 at 09.39.22.jpeg",
+      "sourceSha256": "a205215a9f02222ac8f57be383b17f30b60c50d97f0b539f8239320ebb2ccabd",
+      "category": "buffets",
+      "alt": "Garden catering display with woven panels and food stations.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp",
+      "thumbnail": "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "buffets-069",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/myCHEF-607.jpg",
+      "sourceSha256": "28c1bca030748b2bfd802eb674894b2e7c4fd5e0f4dbe599e98efb3e353857d3",
+      "category": "buffets",
+      "alt": "Buffet spread with a sea view behind the serving table.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-buffet-spread-with-a-sea-view-behind-the-serving-table-069-large.webp",
+      "thumbnail": "/images/previous-work/mychef-buffet-spread-with-a-sea-view-behind-the-serving-table-069-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "buffets-070",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/myCHEF-608.jpg",
+      "sourceSha256": "ed6b4e4c74fc2457e31b5146ab2b21ffd97420ea8197ab3171e951b74ee2bd99",
+      "category": "buffets",
+      "alt": "Catered buffet with warm dishes, salads and a waterfront view.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-catered-buffet-with-warm-dishes-salads-and-a-waterfront-view-070-large.webp",
+      "thumbnail": "/images/previous-work/mychef-catered-buffet-with-warm-dishes-salads-and-a-waterfront-view-070-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "buffets-071",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Mixed Buffet and Catering Stations/myCHEF_Staff_Buffet.jpg",
+      "sourceSha256": "51bc5b71892a343618d36281b6872d3a7f08691693be706a0430d1600f1aa50e",
+      "category": "buffets",
+      "alt": "Service team arranging food at a long indoor buffet.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp",
+      "thumbnail": "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "pasta-072",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Pasta Station/17-myCHEF-batch3-01.jpg",
+      "sourceSha256": "ebcc105405db723b466bf1f5211c425b2b5cf5b763056cc8de383b78365ad578",
+      "category": "pasta",
+      "alt": "Chef at a live pasta station with pasta varieties and sauces.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "pasta-073",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Pasta Station/18-myCHEF-batch3-02.jpg",
+      "sourceSha256": "73aa48c532887470037bbe7fe7fb2c816d45302b3856ddbe453c3071a1d2adf8",
+      "category": "pasta",
+      "alt": "Chef behind an indoor pasta station with ingredients and serving bowls.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Indoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "pasta-074",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Pasta Station/19-myCHEF-batch3-03.jpg",
+      "sourceSha256": "24287dad37b77c59b7c4d357c1e6a6695f9f5170370761d90db280a28ca2271e",
+      "category": "pasta",
+      "alt": "Chef preparing pasta at an outdoor live cooking station.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "ramadan-075",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358831.jpg",
+      "sourceSha256": "718dc476ed5eec533768d796301b6f5cc15bffde221b90913e98762e97ad3a0e",
+      "category": "ramadan",
+      "alt": "Ramadan buffet with lanterns, warm dishes and decorative food displays.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-buffet-with-lanterns-warm-dishes-and-decorative-food-displays-075-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-buffet-with-lanterns-warm-dishes-and-decorative-food-displays-075-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1199
+      ]
+    },
+    {
+      "id": "ramadan-076",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358837.jpg",
+      "sourceSha256": "228159c0df3b36599000e2e94499a84325d1a91fc64e9ef31861e73c27a02208",
+      "category": "ramadan",
+      "alt": "Ramadan table details with lanterns and Middle Eastern food.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-table-details-with-lanterns-and-middle-eastern-food-076-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-table-details-with-lanterns-and-middle-eastern-food-076-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "ramadan-077",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358839.jpg",
+      "sourceSha256": "e980db8a1537b7d4a9819a8844e5376587c64ed346bcc519dfb7474488a928c7",
+      "category": "ramadan",
+      "alt": "Garden Ramadan buffet with lanterns and ornate serving dishes.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-garden-ramadan-buffet-with-lanterns-and-ornate-serving-dishes-077-large.webp",
+      "thumbnail": "/images/previous-work/mychef-garden-ramadan-buffet-with-lanterns-and-ornate-serving-dishes-077-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "ramadan-078",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358841.jpg",
+      "sourceSha256": "50e192d30933d529e9f93e6b2f003e1a831dad0a74dcb967fa8a6667ad4359f0",
+      "category": "ramadan",
+      "alt": "Outdoor Ramadan buffet with white linen and warm chafing dishes.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-ramadan-buffet-with-white-linen-and-warm-chafing-dishes-078-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-ramadan-buffet-with-white-linen-and-warm-chafing-dishes-078-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "ramadan-079",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358843.jpg",
+      "sourceSha256": "9fff12b6ad5cc1f12f301fea822614097af64285dd7171c0b2d4d3ec0eb5d824",
+      "category": "ramadan",
+      "alt": "Ramadan catering station with covered dishes and decorative lanterns.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-catering-station-with-covered-dishes-and-decorative-lanterns-079-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-catering-station-with-covered-dishes-and-decorative-lanterns-079-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "ramadan-080",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Ramadan/Ramadan - 1000358845.jpg",
+      "sourceSha256": "f49b7bde5b31f375e475e06d7f5460ee6167db6c913d38e7a07f4ec648f77c35",
+      "category": "ramadan",
+      "alt": "Ramadan buffet with salads, warm dishes and serving bowls.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-buffet-with-salads-warm-dishes-and-serving-bowls-080-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-buffet-with-salads-warm-dishes-and-serving-bowls-080-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "salads-081",
+      "sourceArchivePath": "myCHEF Photos - 12 October 2026/Salad Buffet/09_WhatsApp Image 2026-10-10 at 10.51.02.jpg",
+      "sourceSha256": "34bfe0efc3286f5473b612fbf76011186782a79af00798afee13146d81c19725",
+      "category": "salads",
+      "alt": "Salad buffet with colourful bowls and a floral centrepiece.",
+      "tags": [
+        "Salads",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-large.webp",
+      "thumbnail": "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "bbq-082",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358383.jpg",
+      "sourceSha256": "d939a592c0d1daf60e791735da5bf1cd6b0dcc5f9f83c2e6f1dec9a4b340889e",
+      "category": "bbq",
+      "alt": "Chef grilling food beside an outdoor ingredient display.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-grilling-food-beside-an-outdoor-ingredient-display-082-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-grilling-food-beside-an-outdoor-ingredient-display-082-thumb.webp",
+      "originalDimensions": [
+        1209,
+        1300
+      ]
+    },
+    {
+      "id": "bbq-083",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358391.jpg",
+      "sourceSha256": "943156773bb7a2682cda36dba5cffd092d25d81d297ff56fe3ab1a15515bd190",
+      "category": "bbq",
+      "alt": "Outdoor BBQ skewers displayed beside a chef in a villa garden.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-thumb.webp",
+      "originalDimensions": [
+        1439,
+        1093
+      ]
+    },
+    {
+      "id": "bbq-084",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358930.jpg",
+      "sourceSha256": "6fc35a026ed4b516eb4046cc46064168f4410982e953386bf7d74948c02e527a",
+      "category": "bbq",
+      "alt": "Chef arranging a colourful outdoor skewer buffet.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-arranging-a-colourful-outdoor-skewer-buffet-084-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-arranging-a-colourful-outdoor-skewer-buffet-084-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "bbq-085",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358944.jpg",
+      "sourceSha256": "3fa410a82a5d0f8c6ac2ab091b11e113fa8b28b20d45c6949af850ef8ffa894f",
+      "category": "bbq",
+      "alt": "Chef turning food on a villa garden BBQ grill.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-turning-food-on-a-villa-garden-bbq-grill-085-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-turning-food-on-a-villa-garden-bbq-grill-085-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "bbq-086",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358968.jpg",
+      "sourceSha256": "2af84887b116aeeffc626334828dd43caa4ae4ce3a557d3fca6ab199c14944ee",
+      "category": "bbq",
+      "alt": "BBQ ingredient table with vegetables, sauces and decorative displays.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers"
+      ],
+      "src": "/images/previous-work/mychef-bbq-ingredient-table-with-vegetables-sauces-and-decorative-displays-086-large.webp",
+      "thumbnail": "/images/previous-work/mychef-bbq-ingredient-table-with-vegetables-sauces-and-decorative-displays-086-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-087",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358972.jpg",
+      "sourceSha256": "e7bdfe4e0fbf03296aaa9e9054dd8310a0bdcdc8bc67dff78ce83af297140221",
+      "category": "bbq",
+      "alt": "Indoor BBQ buffet with skewers, vegetables and condiments.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-bbq-buffet-with-skewers-vegetables-and-condiments-087-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-bbq-buffet-with-skewers-vegetables-and-condiments-087-thumb.webp",
+      "originalDimensions": [
+        1200,
+        600
+      ]
+    },
+    {
+      "id": "bbq-088",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358974.jpg",
+      "sourceSha256": "2d40e397ae4da662fd37c4be45de66ea74f636a4452b0f14a040ab7cf2f2d837",
+      "category": "bbq",
+      "alt": "Night-time BBQ display with skewers and vegetable platters.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-night-time-bbq-display-with-skewers-and-vegetable-platters-088-large.webp",
+      "thumbnail": "/images/previous-work/mychef-night-time-bbq-display-with-skewers-and-vegetable-platters-088-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "bbq-089",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/1000358986.jpg",
+      "sourceSha256": "625cec81b82d7ec2cff105f98f9fb590c239dee0123f516893ae4a58537eada7",
+      "category": "bbq",
+      "alt": "Close view of marinated meat and vegetable skewers at a BBQ station.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-marinated-meat-and-vegetable-skewers-at-a-bbq-station-089-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-marinated-meat-and-vegetable-skewers-at-a-bbq-station-089-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "bbq-090",
+      "sourceArchivePath": "myCHEF Second Batch/BBQ Station/M7 - BBQ Station.jpg",
+      "sourceSha256": "544a1a3fa7f4a6fbad30db07cfacf4403cc6510734da434016c4c29f5f73e99f",
+      "category": "bbq",
+      "alt": "Live BBQ station with prepared skewers and a myCHEF sign.",
+      "tags": [
+        "BBQ",
+        "Live cooking",
+        "Skewers",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-live-bbq-station-with-prepared-skewers-and-a-mychef-sign-090-large.webp",
+      "thumbnail": "/images/previous-work/mychef-live-bbq-station-with-prepared-skewers-and-a-mychef-sign-090-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "boxed-canapes-091",
+      "sourceArchivePath": "myCHEF Second Batch/Boxed Canapes/1000357345.jpg",
+      "sourceSha256": "e012620dca3dc13c3511a13447ccc9314c5988882bfb2b845b0ee459fe45ad86",
+      "category": "boxed-canapes",
+      "alt": "Boxed miniature sandwiches and savoury rolls.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "boxed-canapes-092",
+      "sourceArchivePath": "myCHEF Second Batch/Boxed Canapes/1000357349.jpg",
+      "sourceSha256": "10850c3af363669a5692aeba476fafbe4b5c38b5f44ac7a481e03b30d1673e93",
+      "category": "boxed-canapes",
+      "alt": "Boxed selection of small desserts and sweet bites.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-boxed-selection-of-small-desserts-and-sweet-bites-092-large.webp",
+      "thumbnail": "/images/previous-work/mychef-boxed-selection-of-small-desserts-and-sweet-bites-092-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "boxed-canapes-093",
+      "sourceArchivePath": "myCHEF Second Batch/Boxed Canapes/A2 - Vegetarian Canapes.jpg",
+      "sourceSha256": "70964a445b604b23e5ce721da04fa0d5287c428121fe80be2956fa1a598c0bda",
+      "category": "boxed-canapes",
+      "alt": "Vegetarian canapé selection in a myCHEF presentation box.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp",
+      "thumbnail": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "boxed-canapes-094",
+      "sourceArchivePath": "myCHEF Second Batch/Boxed Canapes/A6 - Mixed Platters.jpg",
+      "sourceSha256": "e21784a64238b80883dea84963cf7dade14585d7f1b317fa9d608b4c68fdea65",
+      "category": "boxed-canapes",
+      "alt": "Mixed catering platters in branded presentation boxes.",
+      "tags": [
+        "Canapés",
+        "Boxed catering",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp",
+      "thumbnail": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-thumb.webp",
+      "originalDimensions": [
+        900,
+        1248
+      ]
+    },
+    {
+      "id": "burger-095",
+      "sourceArchivePath": "myCHEF Second Batch/Burger Station/K9 - Burger Station.jpg",
+      "sourceSha256": "1e3cbe6a62da3260a661721de860afb16616a5f07d88fe77944656ad982b9329",
+      "category": "burger",
+      "alt": "Chef preparing food at an outdoor burger station.",
+      "tags": [
+        "Burgers",
+        "Live cooking",
+        "Outdoor setup",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-food-at-an-outdoor-burger-station-095-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-food-at-an-outdoor-burger-station-095-thumb.webp",
+      "originalDimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "id": "canapes-096",
+      "sourceArchivePath": "myCHEF Second Batch/Canapes and Finger Food/1000358396.jpg",
+      "sourceSha256": "ca0ac008706f55966e3aa0f5db247184ebcb59d8f63abe2b0a5c3acf3a9ca17f",
+      "category": "canapes",
+      "alt": "Close view of savoury canapés topped with cream and herbs.",
+      "tags": [
+        "Canapés",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-thumb.webp",
+      "originalDimensions": [
+        1439,
+        1093
+      ]
+    },
+    {
+      "id": "canapes-097",
+      "sourceArchivePath": "myCHEF Second Batch/Canapes and Finger Food/1000358891.jpg",
+      "sourceSha256": "e26cb25509cfee1ef6e1f2777fad2cd14ab824f6317cf2cb9309a4917eb5e43d",
+      "category": "canapes",
+      "alt": "Canapé and finger-food spread being shared around a table.",
+      "tags": [
+        "Canapés",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp",
+      "thumbnail": "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-thumb.webp",
+      "originalDimensions": [
+        900,
+        1600
+      ]
+    },
+    {
+      "id": "canapes-098",
+      "sourceArchivePath": "myCHEF Second Batch/Canapes and Finger Food/1000358895.jpg",
+      "sourceSha256": "6671e242d940f33301cd38a0fd07eca52b13c1222be27264b56e6df05510df9a",
+      "category": "canapes",
+      "alt": "Assorted finger food and canapés arranged on tiered stands.",
+      "tags": [
+        "Canapés",
+        "Finger food"
+      ],
+      "src": "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp",
+      "thumbnail": "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-thumb.webp",
+      "originalDimensions": [
+        1600,
+        737
+      ]
+    },
+    {
+      "id": "chaat-099",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358395.jpg",
+      "sourceSha256": "019f49b5c1b95a04279f897abc552a1a8210cf88359b4f2326184fad296cebf8",
+      "category": "chaat",
+      "alt": "Chefs serving savoury bites from a live chaat counter.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chefs-serving-savoury-bites-from-a-live-chaat-counter-099-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chefs-serving-savoury-bites-from-a-live-chaat-counter-099-thumb.webp",
+      "originalDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "chaat-100",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358902.jpg",
+      "sourceSha256": "4f8bd8d9bda9a2ae91d82fea9655344276e9976f42c213b89950673a438d9397",
+      "category": "chaat",
+      "alt": "Chaat station with bowls of toppings during an evening event.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chaat-station-with-bowls-of-toppings-during-an-evening-event-100-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chaat-station-with-bowls-of-toppings-during-an-evening-event-100-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "chaat-101",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358906.jpg",
+      "sourceSha256": "44ef756a53b58334ce6fcccd5625fb2a302f2952dfde896eea8b0ad8e13ee60b",
+      "category": "chaat",
+      "alt": "Close view of chaat ingredients, sauces and crisp shells.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-chaat-ingredients-sauces-and-crisp-shells-101-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-chaat-ingredients-sauces-and-crisp-shells-101-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "chaat-102",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358910.jpg",
+      "sourceSha256": "b4d085b212b106c3fb1adce93f4fc6672a7403c746243739a07ba2db832fc6b2",
+      "category": "chaat",
+      "alt": "Chef behind a live chaat station at an evening event.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking",
+        "Chef service",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-live-chaat-station-at-an-evening-event-102-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-live-chaat-station-at-an-evening-event-102-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "chaat-103",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358916.jpg",
+      "sourceSha256": "f70556f22380d140f3360d9eda7abd2a924a9f71c17f6f9559c62060fc90bf08",
+      "category": "chaat",
+      "alt": "Chaat counter with crisp shells, toppings and dipping sauces.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-chaat-counter-with-crisp-shells-toppings-and-dipping-sauces-103-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chaat-counter-with-crisp-shells-toppings-and-dipping-sauces-103-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "chaat-104",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358920.jpg",
+      "sourceSha256": "d1ac57047f3728c731dcd42e95d6d61597930836fa160537e73f58656e805e71",
+      "category": "chaat",
+      "alt": "Chef at a chaat station with serving bowls and floral details.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking",
+        "Chef service",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-chef-at-a-chaat-station-with-serving-bowls-and-floral-details-104-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-at-a-chaat-station-with-serving-bowls-and-floral-details-104-thumb.webp",
+      "originalDimensions": [
+        1280,
+        576
+      ]
+    },
+    {
+      "id": "chaat-105",
+      "sourceArchivePath": "myCHEF Second Batch/Chaat/1000358924.jpg",
+      "sourceSha256": "e451d9ba94fcc75ab2ad1509289909cb4057d9d07e825bcb5252cab64b9997ce",
+      "category": "chaat",
+      "alt": "Evening chaat buffet with assorted ingredients and garnishes.",
+      "tags": [
+        "Chaat",
+        "Indian",
+        "Live cooking",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-evening-chaat-buffet-with-assorted-ingredients-and-garnishes-105-large.webp",
+      "thumbnail": "/images/previous-work/mychef-evening-chaat-buffet-with-assorted-ingredients-and-garnishes-105-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-106",
+      "sourceArchivePath": "myCHEF Second Batch/Christmas/1000349564.jpg",
+      "sourceSha256": "7718a7928ae5483b14c7baa4a3baeb94382c23dd7548e4b5b7dab7eefdbfe0cb",
+      "category": "christmas",
+      "alt": "Christmas buffet with red flowers and tiered food displays.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-christmas-buffet-with-red-flowers-and-tiered-food-displays-106-large.webp",
+      "thumbnail": "/images/previous-work/mychef-christmas-buffet-with-red-flowers-and-tiered-food-displays-106-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-107",
+      "sourceArchivePath": "myCHEF Second Batch/Christmas/1000358853.jpg",
+      "sourceSha256": "215e9e3af0f1c97ee65c04ff8ced516e05aa963919f43ab6caa60e5a9b546031",
+      "category": "christmas",
+      "alt": "Festive buffet table with Christmas colours and bite-sized dishes.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-festive-buffet-table-with-christmas-colours-and-bite-sized-dishes-107-large.webp",
+      "thumbnail": "/images/previous-work/mychef-festive-buffet-table-with-christmas-colours-and-bite-sized-dishes-107-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-108",
+      "sourceArchivePath": "myCHEF Second Batch/Christmas/1000358855.jpg",
+      "sourceSha256": "3031907823c261932844ac4f6bec1265c1d4584ad012869bb4f289c7d5a91e54",
+      "category": "christmas",
+      "alt": "Long Christmas buffet with purple lighting and festive decorations.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-long-christmas-buffet-with-purple-lighting-and-festive-decorations-108-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-christmas-buffet-with-purple-lighting-and-festive-decorations-108-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "christmas-109",
+      "sourceArchivePath": "myCHEF Second Batch/Christmas/1000358859.jpg",
+      "sourceSha256": "9d786b43575dde660739b4b302554be3a14a236b77ac1c7f1b3bbe0a2449b080",
+      "category": "christmas",
+      "alt": "Close view of a colourful salad on a Christmas buffet.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-a-colourful-salad-on-a-christmas-buffet-109-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-a-colourful-salad-on-a-christmas-buffet-109-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "christmas-110",
+      "sourceArchivePath": "myCHEF Second Batch/Christmas/1000358873.jpg",
+      "sourceSha256": "a82f61d1962cd24ee7fbc256321f3c5da68071df9d3e443b4f6d374d060d3034",
+      "category": "christmas",
+      "alt": "Outdoor Christmas buffet under a canopy beside the waterfront.",
+      "tags": [
+        "Christmas",
+        "Festive",
+        "Buffet",
+        "Outdoor setup",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-christmas-buffet-under-a-canopy-beside-the-waterfront-110-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-christmas-buffet-under-a-canopy-beside-the-waterfront-110-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "desserts-111",
+      "sourceArchivePath": "myCHEF Second Batch/Desserts/1000358397.jpg",
+      "sourceSha256": "2d8fa4171fb5c1955758566660133c6cbbbf991e80f8d43513afdd193b28d576",
+      "category": "desserts",
+      "alt": "Dessert display with miniature sweets, fruit and gold stands.",
+      "tags": [
+        "Desserts",
+        "Sweet bites",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-dessert-display-with-miniature-sweets-fruit-and-gold-stands-111-large.webp",
+      "thumbnail": "/images/previous-work/mychef-dessert-display-with-miniature-sweets-fruit-and-gold-stands-111-thumb.webp",
+      "originalDimensions": [
+        1023,
+        685
+      ]
+    },
+    {
+      "id": "live-cooking-112",
+      "sourceArchivePath": "myCHEF Second Batch/Live Cooking Stations/1000358962.jpg",
+      "sourceSha256": "0018dfbe37fff0cfeccf72bc7a197841de2993e2995cc8b9ed00a339e79b3e89",
+      "category": "live-cooking",
+      "alt": "Chef serving from a live cooking station at an evening event.",
+      "tags": [
+        "Live cooking",
+        "Chef service",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "live-cooking-113",
+      "sourceArchivePath": "myCHEF Second Batch/Live Cooking Stations/myCHEF - 1000359018.jpg",
+      "sourceSha256": "3e01b23fd6fc7484eec72be8d9acc3d45cc0e0e8150e9f8d1e19e8eacb345ac8",
+      "category": "live-cooking",
+      "alt": "Guests being served at live cooking counters beneath an outdoor structure.",
+      "tags": [
+        "Live cooking",
+        "Chef service",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-guests-being-served-at-live-cooking-counters-beneath-an-outdoor-structure-113-large.webp",
+      "thumbnail": "/images/previous-work/mychef-guests-being-served-at-live-cooking-counters-beneath-an-outdoor-structure-113-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "tacos-114",
+      "sourceArchivePath": "myCHEF Second Batch/Mexican and Taco Station/1000358994.jpg",
+      "sourceSha256": "100e2cfa7ded27e51df1d89462fcd9da8ee751a0f450976684270e3b80f29429",
+      "category": "tacos",
+      "alt": "Mexican taco station with taco shells, toppings and decorative guitars.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-mexican-taco-station-with-taco-shells-toppings-and-decorative-guitars-114-large.webp",
+      "thumbnail": "/images/previous-work/mychef-mexican-taco-station-with-taco-shells-toppings-and-decorative-guitars-114-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "tacos-115",
+      "sourceArchivePath": "myCHEF Second Batch/Mexican and Taco Station/1000359004.jpg",
+      "sourceSha256": "af0ff663ed7953c19382b11af49e198fd320324d0c188010488612c829f3cfa4",
+      "category": "tacos",
+      "alt": "Taco buffet with colourful garnishes and woven display baskets.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-taco-buffet-with-colourful-garnishes-and-woven-display-baskets-115-large.webp",
+      "thumbnail": "/images/previous-work/mychef-taco-buffet-with-colourful-garnishes-and-woven-display-baskets-115-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "tacos-116",
+      "sourceArchivePath": "myCHEF Second Batch/Mexican and Taco Station/1000359042.jpg",
+      "sourceSha256": "a506202a54ecb37e6bfe7cfc5d1517949d41b4559c2a2378c6db1c539213133f",
+      "category": "tacos",
+      "alt": "Chef preparing tacos at an evening Mexican station.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-tacos-at-an-evening-mexican-station-116-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-tacos-at-an-evening-mexican-station-116-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "tacos-117",
+      "sourceArchivePath": "myCHEF Second Batch/Mexican and Taco Station/N7 - Taco Station.jpg",
+      "sourceSha256": "b87857fbb7b6074a0d60f906aca487c936450ae7dd6815d18d1104b9f6301cd3",
+      "category": "tacos",
+      "alt": "Close view of taco shells beside sauces and a chef station sign.",
+      "tags": [
+        "Mexican",
+        "Tacos",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-taco-shells-beside-sauces-and-a-chef-station-sign-117-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-taco-shells-beside-sauces-and-a-chef-station-sign-117-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "buffets-118",
+      "sourceArchivePath": "myCHEF Second Batch/Mixed Buffet and Catering Stations/1000358829.jpg",
+      "sourceSha256": "7b8c38f7fce50134edbde1bd56a825568b46ba3586b8e0c920951abc6e63fb6e",
+      "category": "buffets",
+      "alt": "Garden buffet with warm dishes and decorative plants at night.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Outdoor setup",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-garden-buffet-with-warm-dishes-and-decorative-plants-at-night-118-large.webp",
+      "thumbnail": "/images/previous-work/mychef-garden-buffet-with-warm-dishes-and-decorative-plants-at-night-118-thumb.webp",
+      "originalDimensions": [
+        900,
+        1600
+      ]
+    },
+    {
+      "id": "buffets-119",
+      "sourceArchivePath": "myCHEF Second Batch/Mixed Buffet and Catering Stations/1000358904.jpg",
+      "sourceSha256": "0d6fdb6089ea093123e249edb633727bd5ee8b1b94eb5c40d8a751a895d8c288",
+      "category": "buffets",
+      "alt": "Indoor buffet with salads, serving dishes and stacked plates.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-thumb.webp",
+      "originalDimensions": [
+        1280,
+        576
+      ]
+    },
+    {
+      "id": "buffets-120",
+      "sourceArchivePath": "myCHEF Second Batch/Mixed Buffet and Catering Stations/1000359016.jpg",
+      "sourceSha256": "7aae173d649a1aad9052a7730f6b6e4326ae7c9db1e1b37dd3f4f3686ddf28e2",
+      "category": "buffets",
+      "alt": "Outdoor buffet tables set beside a villa garden.",
+      "tags": [
+        "Buffet",
+        "Catering setup",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-thumb.webp",
+      "originalDimensions": [
+        576,
+        1280
+      ]
+    },
+    {
+      "id": "pasta-121",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000358390.jpg",
+      "sourceSha256": "49392a24dae983230f22e716539b46d012ba39e1c983a160a696267037dedcca",
+      "category": "pasta",
+      "alt": "Chef preparing food at a live pasta counter.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-thumb.webp",
+      "originalDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "pasta-122",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000358922.jpg",
+      "sourceSha256": "05c0b71c318807f1c588aaa34b4962d03f789eb8be64f94f3f3dd02b9fd15ba1",
+      "category": "pasta",
+      "alt": "Pasta station with dry pasta varieties and ingredient bowls.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp",
+      "thumbnail": "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-thumb.webp",
+      "originalDimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "id": "pasta-123",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000359040.jpg",
+      "sourceSha256": "bbe73e6835e815e04122b3177c9619931d21fa668c86164c3f2ee1db74b14922",
+      "category": "pasta",
+      "alt": "Live pasta counter with glass stands and sauce ingredients.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp",
+      "thumbnail": "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-thumb.webp",
+      "originalDimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "id": "pasta-124",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000359044.jpg",
+      "sourceSha256": "a4ca0b9b219aa2e6e881a9d544b75edd80190b4ee09090f15127ad51784ce164",
+      "category": "pasta",
+      "alt": "Chef at an evening pasta station in a garden.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Outdoor setup",
+        "Chef service",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "pasta-125",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000359060.jpg",
+      "sourceSha256": "86dc84f042894f5d5a15cf79b3e76dca18db3b00d9e855f628c19f1af79fb3a9",
+      "category": "pasta",
+      "alt": "Outdoor pasta buffet with pasta varieties, sauces and herbs.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "pasta-126",
+      "sourceArchivePath": "myCHEF Second Batch/Pasta Station/1000359064.jpg",
+      "sourceSha256": "3fa05926490d1dff9eb645e146cd00f56ab53ba8d3e31bb5230974780ef82d6f",
+      "category": "pasta",
+      "alt": "Pasta varieties displayed in woven baskets at a cooking station.",
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-pasta-varieties-displayed-in-woven-baskets-at-a-cooking-station-126-large.webp",
+      "thumbnail": "/images/previous-work/mychef-pasta-varieties-displayed-in-woven-baskets-at-a-cooking-station-126-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "private-dining-127",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358801.jpg",
+      "sourceSha256": "4631915c61cb98a20239418471a14c595daddb71a494c050b2fc3406e5a81309",
+      "category": "private-dining",
+      "alt": "Round dinner tables set in a garden beneath string lights.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp",
+      "thumbnail": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-thumb.webp",
+      "originalDimensions": [
+        1160,
+        868
+      ]
+    },
+    {
+      "id": "private-dining-128",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358803.jpg",
+      "sourceSha256": "74c187ad858db83b122f3309c5462392144a0e7e63eeb6a8136105b278e3d1e7",
+      "category": "private-dining",
+      "alt": "Long outdoor dining table with flowers and white chairs beside a villa.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "private-dining-129",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358805.jpg",
+      "sourceSha256": "ae82aa3978be0fc775a106a71d8183a113e09bbd44eecc5878793c5e21b0ebed",
+      "category": "private-dining",
+      "alt": "Monochrome table setting with dark napkins and fresh flowers.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+      "thumbnail": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-thumb.webp",
+      "originalDimensions": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "id": "private-dining-130",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358807.jpg",
+      "sourceSha256": "6a8de152545fc8cfc2a41cc4acdebe8366c976c057712c6457a92469cfdf3078",
+      "category": "private-dining",
+      "alt": "Long garden dinner table set with white chairs at night.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "private-dining-131",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358809.jpg",
+      "sourceSha256": "03dfcfa543b22ccebf77599448de5686fe93f2c55bc703dc593045adb51399e1",
+      "category": "private-dining",
+      "alt": "Close view of a white and gold place setting on a garden table.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-thumb.webp",
+      "originalDimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "private-dining-132",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358811.jpg",
+      "sourceSha256": "b06d0c2184f7a400a2f72b5bf8888be5cf67f284ebd981581325f02528bc180f",
+      "category": "private-dining",
+      "alt": "Private dinner tables set with linen, plates and chairs at night.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-private-dinner-tables-set-with-linen-plates-and-chairs-at-night-132-large.webp",
+      "thumbnail": "/images/previous-work/mychef-private-dinner-tables-set-with-linen-plates-and-chairs-at-night-132-thumb.webp",
+      "originalDimensions": [
+        738,
+        1600
+      ]
+    },
+    {
+      "id": "private-dining-133",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358813.jpg",
+      "sourceSha256": "75da2944958be1e76fdd48d56d41592712fa0f02ad414f77264a03bf11471cb2",
+      "category": "private-dining",
+      "alt": "Long outdoor dining table with neutral linen and floral arrangements.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-thumb.webp",
+      "originalDimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "id": "private-dining-134",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358815.jpg",
+      "sourceSha256": "9d2b115b39789ee71a77788ce67b450bee67ebb7e8648c0d9e33bdf300704554",
+      "category": "private-dining",
+      "alt": "Close view of a floral centrepiece and an outdoor table setting.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-a-floral-centrepiece-and-an-outdoor-table-setting-134-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-a-floral-centrepiece-and-an-outdoor-table-setting-134-thumb.webp",
+      "originalDimensions": [
+        765,
+        1599
+      ]
+    },
+    {
+      "id": "private-dining-135",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358817.jpg",
+      "sourceSha256": "0f3f2fb520a337e22c49ec8e86259cb836587501a427b90757133c1e0c3eb45e",
+      "category": "private-dining",
+      "alt": "Long garden tables set for a daytime outdoor celebration.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-thumb.webp",
+      "originalDimensions": [
+        1024,
+        576
+      ]
+    },
+    {
+      "id": "private-dining-136",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358819.jpg",
+      "sourceSha256": "056e665326d6e69314bc2dba7411e79492545463bab7d58ef0c55ef879c74fe3",
+      "category": "private-dining",
+      "alt": "Long indoor dining table set with plates, glasses and chairs.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Indoor setup",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "private-dining-137",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358821.jpg",
+      "sourceSha256": "027c93b549d5d6edc13a8524984bee0f39aac9ccad79430fa6719766bc22a2a3",
+      "category": "private-dining",
+      "alt": "Private dining table with tall candles and delicate floral details.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp",
+      "thumbnail": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-thumb.webp",
+      "originalDimensions": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "private-dining-138",
+      "sourceArchivePath": "myCHEF Second Batch/Private Dining and Table Settings/1000358823.jpg",
+      "sourceSha256": "b97632351393d7078ca664a862c5d85aae9ec78cf9203ade2c97db0945229134",
+      "category": "private-dining",
+      "alt": "Garden dining table with candles, glassware and greenery at night.",
+      "tags": [
+        "Private dining",
+        "Table settings",
+        "Outdoor setup",
+        "Evening event",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp",
+      "thumbnail": "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "ramadan-139",
+      "sourceArchivePath": "myCHEF Second Batch/Ramadan/1000358374.jpg",
+      "sourceSha256": "4663ea5d8bcfb0b16164678547b01ecfe3de219ba956b22eb8a77bc29e4dc2b6",
+      "category": "ramadan",
+      "alt": "Chef behind a Ramadan station with copper serving dishes.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Chef service"
+      ],
+      "src": "/images/previous-work/mychef-chef-behind-a-ramadan-station-with-copper-serving-dishes-139-large.webp",
+      "thumbnail": "/images/previous-work/mychef-chef-behind-a-ramadan-station-with-copper-serving-dishes-139-thumb.webp",
+      "originalDimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "id": "ramadan-140",
+      "sourceArchivePath": "myCHEF Second Batch/Ramadan/1000358833.jpg",
+      "sourceSha256": "dc400c9414a7a378532d59c901d2836bedb90a02e7e2000b6cacd89758392135",
+      "category": "ramadan",
+      "alt": "Large garden buffet with food stations and decorated round tables.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-large-garden-buffet-with-food-stations-and-decorated-round-tables-140-large.webp",
+      "thumbnail": "/images/previous-work/mychef-large-garden-buffet-with-food-stations-and-decorated-round-tables-140-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "ramadan-141",
+      "sourceArchivePath": "myCHEF Second Batch/Ramadan/1000358835.jpg",
+      "sourceSha256": "f62b1a71af20d91d2b981395001239bba69a4a343430071d3e1a84da9932bfc1",
+      "category": "ramadan",
+      "alt": "Outdoor evening Ramadan buffet with warm lighting and palm trees.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Outdoor setup",
+        "Evening event"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-evening-ramadan-buffet-with-warm-lighting-and-palm-trees-141-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-evening-ramadan-buffet-with-warm-lighting-and-palm-trees-141-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "ramadan-142",
+      "sourceArchivePath": "myCHEF Second Batch/Ramadan/1000358847.jpg",
+      "sourceSha256": "5edf63f459e1c1a20e3d80dc4079891d18f362342cc69d349853d7cd35e17354",
+      "category": "ramadan",
+      "alt": "Ramadan buffet in a garden with chafing dishes and serving plates.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-buffet-in-a-garden-with-chafing-dishes-and-serving-plates-142-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-buffet-in-a-garden-with-chafing-dishes-and-serving-plates-142-thumb.webp",
+      "originalDimensions": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "id": "ramadan-143",
+      "sourceArchivePath": "myCHEF Second Batch/Ramadan/1000358849.jpg",
+      "sourceSha256": "17fe5299848b82bc4f15c1966538b4d9d40a02532a921725b9541e4ff4d7572f",
+      "category": "ramadan",
+      "alt": "Ramadan food display with lanterns and gold decorative details.",
+      "tags": [
+        "Ramadan",
+        "Iftar",
+        "Buffet"
+      ],
+      "src": "/images/previous-work/mychef-ramadan-food-display-with-lanterns-and-gold-decorative-details-143-large.webp",
+      "thumbnail": "/images/previous-work/mychef-ramadan-food-display-with-lanterns-and-gold-decorative-details-143-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "carving-144",
+      "sourceArchivePath": "myCHEF Second Batch/Roast and Carving Station/1000358914.jpg",
+      "sourceSha256": "c93721a236240dd9bcbfa1e60d3684f25449db901f40dd8037a3d9cecae8c811",
+      "category": "carving",
+      "alt": "Roast carving station with vegetables beneath heat lamps.",
+      "tags": [
+        "Roast",
+        "Carving station",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-roast-carving-station-with-vegetables-beneath-heat-lamps-144-large.webp",
+      "thumbnail": "/images/previous-work/mychef-roast-carving-station-with-vegetables-beneath-heat-lamps-144-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "carving-145",
+      "sourceArchivePath": "myCHEF Second Batch/Roast and Carving Station/1000359050.jpg",
+      "sourceSha256": "4fb9087b0654031b8c9f2b3cfade5476b7f308b6c79746f602ef984bac7e656e",
+      "category": "carving",
+      "alt": "Roast carving station with a waterfront view behind the buffet.",
+      "tags": [
+        "Roast",
+        "Carving station",
+        "Live cooking",
+        "Waterfront"
+      ],
+      "src": "/images/previous-work/mychef-roast-carving-station-with-a-waterfront-view-behind-the-buffet-145-large.webp",
+      "thumbnail": "/images/previous-work/mychef-roast-carving-station-with-a-waterfront-view-behind-the-buffet-145-thumb.webp",
+      "originalDimensions": [
+        1280,
+        576
+      ]
+    },
+    {
+      "id": "carving-146",
+      "sourceArchivePath": "myCHEF Second Batch/Roast and Carving Station/1000359058.jpg",
+      "sourceSha256": "2295d554037deef0e82ba1089d64e79a561186532103224e00f393b3d34e75ff",
+      "category": "carving",
+      "alt": "Roast and vegetable platter presented beneath a carving-station lamp.",
+      "tags": [
+        "Roast",
+        "Carving station",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-roast-and-vegetable-platter-presented-beneath-a-carving-station-lamp-146-large.webp",
+      "thumbnail": "/images/previous-work/mychef-roast-and-vegetable-platter-presented-beneath-a-carving-station-lamp-146-thumb.webp",
+      "originalDimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "carving-147",
+      "sourceArchivePath": "myCHEF Second Batch/Roast and Carving Station/K7 - Live Roast Beef.jpg",
+      "sourceSha256": "1f80cce553e27c6c72b3dccd3bdf390e223ebee1b031d61204df500e4518cb89",
+      "category": "carving",
+      "alt": "Indoor roast carving station with serving boards and warming lamps.",
+      "tags": [
+        "Roast",
+        "Carving station",
+        "Live cooking",
+        "Indoor setup"
+      ],
+      "src": "/images/previous-work/mychef-indoor-roast-carving-station-with-serving-boards-and-warming-lamps-147-large.webp",
+      "thumbnail": "/images/previous-work/mychef-indoor-roast-carving-station-with-serving-boards-and-warming-lamps-147-thumb.webp",
+      "originalDimensions": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "id": "shawarma-148",
+      "sourceArchivePath": "myCHEF Second Batch/Shawarma Station/1000358908.jpg",
+      "sourceSha256": "958bcdb33785409b95030339088764430d585877564d0d1e95b008ea8a47841b",
+      "category": "shawarma",
+      "alt": "Close view of meat on a vertical shawarma grill.",
+      "tags": [
+        "Shawarma",
+        "Middle Eastern",
+        "Live cooking"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-meat-on-a-vertical-shawarma-grill-148-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-meat-on-a-vertical-shawarma-grill-148-thumb.webp",
+      "originalDimensions": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "id": "shawarma-149",
+      "sourceArchivePath": "myCHEF Second Batch/Shawarma Station/1000358912.jpg",
+      "sourceSha256": "40a01c4dc10c94fa57cb3fa8a83ea54a8f35c31d84e22f91a1b31fd4111d04a5",
+      "category": "shawarma",
+      "alt": "Outdoor shawarma station with sauces, vegetables and serving bowls.",
+      "tags": [
+        "Shawarma",
+        "Middle Eastern",
+        "Live cooking",
+        "Outdoor setup"
+      ],
+      "src": "/images/previous-work/mychef-outdoor-shawarma-station-with-sauces-vegetables-and-serving-bowls-149-large.webp",
+      "thumbnail": "/images/previous-work/mychef-outdoor-shawarma-station-with-sauces-vegetables-and-serving-bowls-149-thumb.webp",
+      "originalDimensions": [
+        800,
+        600
+      ]
+    },
+    {
+      "id": "yachts-150",
+      "sourceArchivePath": "myCHEF Second Batch/Yacht Dining and Table Settings/1000358875.jpg",
+      "sourceSha256": "acac0f59cd2aa5a500a9dc76575da9e054c028b6ee68b8dcfb742994c2b35154",
+      "category": "yachts",
+      "alt": "Long dining table set on a yacht deck with coloured lighting.",
+      "tags": [
+        "Yacht dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "yachts-151",
+      "sourceArchivePath": "myCHEF Second Batch/Yacht Dining and Table Settings/1000358881.jpg",
+      "sourceSha256": "d4b760ca31d19dff21bbc3eaa6f78d395a9e51e4a640d0333dcb66886bad04f4",
+      "category": "yachts",
+      "alt": "Close view of a white and gold place setting on a yacht deck.",
+      "tags": [
+        "Yacht dining",
+        "Table settings"
+      ],
+      "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp",
+      "thumbnail": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "yachts-152",
+      "sourceArchivePath": "myCHEF Second Batch/Yacht Dining and Table Settings/1000358885.jpg",
+      "sourceSha256": "7e77023cfbdcca087a6890078b6b30adda95b6a5758b0f5ef516e46808ed5a1d",
+      "category": "yachts",
+      "alt": "Long yacht dining table with gold chargers, flowers and glassware.",
+      "tags": [
+        "Yacht dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp",
+      "thumbnail": "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "yachts-153",
+      "sourceArchivePath": "myCHEF Second Batch/Yacht Dining and Table Settings/1000358889.jpg",
+      "sourceSha256": "c1aa66470f04f808489073fd5a04c03009dfc5a0d2456e816aebaa0b12be4e47",
+      "category": "yachts",
+      "alt": "Yacht deck table set with white chairs and floral centrepieces.",
+      "tags": [
+        "Yacht dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp",
+      "thumbnail": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-thumb.webp",
+      "originalDimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "id": "yachts-154",
+      "sourceArchivePath": "myCHEF Second Batch/Yacht Dining and Table Settings/1000358893.jpg",
+      "sourceSha256": "0de78ceb42db4a682389dad9303570f96e4bb00399f8ea6bbd1454dbbc4e6728",
+      "category": "yachts",
+      "alt": "Yacht dining table with the marina visible beyond the deck.",
+      "tags": [
+        "Yacht dining",
+        "Table settings",
+        "Table styling"
+      ],
+      "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+      "thumbnail": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-thumb.webp",
+      "originalDimensions": [
+        1280,
+        960
+      ]
+    }
+  ]
+}

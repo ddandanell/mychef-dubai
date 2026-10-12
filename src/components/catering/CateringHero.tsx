@@ -3,11 +3,14 @@ import { ArrowUpRight } from 'lucide-react'
 import { pageAuthorityFor } from '@/content/pageAuthority'
 import { cateringDesign } from '@/content/cateringDesign'
 import { cateringImage } from './CateringEditorial'
+import { pageWorkHero } from '@/content/previousWork'
+import WorkImage from '@/components/previous-work/WorkImage'
 
 export default function CateringHero() {
   const { pathname } = useLocation()
   const path = pathname.replace(/\/$/, '')
   const page = cateringDesign[path]
+  const workPhoto = pageWorkHero(path)
   const authority = pageAuthorityFor(path)
   const editorial = authority?.purpose === 'editorial'
   if (!page) return null
@@ -20,7 +23,7 @@ export default function CateringHero() {
         <p className="ct-lead">{page.lead}</p>
         <div className="ct-actions"><Link className="ct-button" to={editorial ? authority!.money_page : "/inquiry"} data-track={editorial ? "service_link" : "inquiry_form"} data-cta-location="hero">{editorial ? "Explore the service" : "Plan with myCHEF"} <ArrowUpRight size={18}/></Link><a className="ct-text-link" href="#catering-planning">Explore the details</a></div>
       </div>
-      <figure className="ct-hero-figure"><img src={cateringImage(path, 800)} srcSet={[480,800,1200,1536].map(w=>`${cateringImage(path,w)} ${w}w`).join(', ')} sizes="(min-width: 1400px) 628px, (min-width: 1001px) calc(50vw - 72px), (min-width: 721px) calc(50vw - 40px), calc(100vw - 40px)" alt={page.alt} width={1536} height={1024} fetchPriority="high" decoding="async"/></figure>
+      <figure className="ct-hero-figure">{workPhoto ? <WorkImage photo={workPhoto} fetchPriority="high" sizes="(min-width: 1400px) 628px, (min-width: 1001px) calc(50vw - 72px), (min-width: 721px) calc(50vw - 40px), calc(100vw - 40px)" /> : <img src={cateringImage(path, 800)} srcSet={[480,800,1200,1536].map(w=>`${cateringImage(path,w)} ${w}w`).join(', ')} sizes="(min-width: 1400px) 628px, (min-width: 1001px) calc(50vw - 72px), (min-width: 721px) calc(50vw - 40px), calc(100vw - 40px)" alt={page.alt} width={1536} height={1024} fetchPriority="high" decoding="async"/>}</figure>
     </div>
   </section>
 }

@@ -166,6 +166,10 @@ const navLinks: NavItem[] = [
     children: MENU_NAV_CHILDREN,
   },
   {
+    label: 'Previous Work',
+    href: '/gallery',
+  },
+  {
     label: 'Contact',
     href: CONTACT_PATHS.contact,
     mega: 'contact',
@@ -178,7 +182,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF, I would like a quote —
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const navLinkClass =
-  'relative whitespace-nowrap font-inter text-[11px] font-medium uppercase tracking-[0.07em] xl:text-[12px] xl:tracking-[0.09em] antialiased text-white/85 transition-colors duration-300 hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100'
+  'relative whitespace-nowrap font-inter text-[11px] font-medium uppercase tracking-[0.07em] 2xl:text-[12px] 2xl:tracking-[0.09em] antialiased text-white/85 transition-colors duration-300 hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100'
 
 function normalizePath(pathname: string) {
   if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '')
@@ -263,7 +267,7 @@ export default function Navbar() {
         className="relative sticky top-0 z-50 flex h-16 min-h-16 w-full max-w-none flex-none justify-start overflow-visible bg-black print:hidden"
       >
         <div
-          className="pointer-events-none absolute inset-0 hidden bg-black/95 backdrop-blur-xl lg:block"
+          className="pointer-events-none absolute inset-0 hidden bg-black/95 backdrop-blur-xl xl:block"
           aria-hidden
         />
         <div className="relative container-custom flex h-16 w-full items-center justify-between gap-4">
@@ -271,7 +275,7 @@ export default function Navbar() {
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="lg:hidden text-gold p-2 -ml-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="xl:hidden text-gold p-2 -ml-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             aria-label="Chat on WhatsApp"
           >
             <Phone size={22} />
@@ -282,7 +286,7 @@ export default function Navbar() {
             <span className="font-playfair text-xl font-semibold text-gold tracking-tight">myCHEF</span>
           </Link>
 
-          <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-3 lg:flex xl:gap-5">
+          <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-2 xl:flex xl:gap-3">
             {navLinks.map((link) => {
               const hasChildren = Boolean(link.children?.length)
               const isActive = itemIsActive(location.pathname, link)
@@ -341,7 +345,7 @@ export default function Navbar() {
             })}
           </NavigationMenuList>
 
-          <div className="hidden lg:flex items-center">
+          <div className="hidden xl:flex items-center">
             {/* Hover mechanic adapted from Magic UI interactive-hover-button: the dot grows into the fill,
                 the resting label slides out, the action label slides in. Pure CSS transforms. */}
             <a
@@ -374,7 +378,7 @@ export default function Navbar() {
 
           <button
             type="button"
-            className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="xl:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => {
               if (itemIsActive(location.pathname, { label: 'Menus', href: '/menus', mega: 'menus' })) setMobileOpenGroup('/menus')
               else if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)

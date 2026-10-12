@@ -1,4 +1,6 @@
 import { Link } from 'react-router';
+import { WORK_PHOTOS } from '@/content/previousWork';
+import WorkImage from '@/components/previous-work/WorkImage';
 import CateringPreviousWork from './CateringPreviousWork';
 import { ArrowRight, ArrowUpRight, Check, Clock3 } from 'lucide-react';
 import FaqAccordion from '@/components/FaqAccordion';
@@ -7,7 +9,7 @@ import { cateringFormat } from '@/content/cateringPricing';
 import { CATERING_INQUIRY_HREF, CATERING_WHATSAPP_LINK } from '@/content/cateringCluster';
 import '@/styles/catering-hub.css';
 import { RESPONSE_PROOF, PRICING_PROOF, RESPONSE_WINDOW } from '@/content/trustProof';
-export const CATERING_HUB_IMAGE = '/images/catering-hub-2026/villa-buffet-service-800.webp';
+export const CATERING_HUB_IMAGE = WORK_PHOTOS.find(photo => photo.id === 'buffets-071')!.src;
 function Photo({
   name,
   alt,
@@ -17,6 +19,9 @@ function Photo({
   alt: string;
   hero?: boolean;
 }) {
+  const workId = ({ 'villa-buffet-service':'buffets-071', 'canape-menu-selection':'canapes-098', 'ready-to-serve-delivery':'boxed-canapes-094' } as Record<string,string>)[name];
+  const workPhoto = WORK_PHOTOS.find(photo => photo.id === workId);
+  if (workPhoto) return <WorkImage photo={workPhoto} loading={hero ? 'eager' : 'lazy'} fetchPriority={hero ? 'high' : undefined} />;
   const source = (width: number) => '/images/catering-hub-2026/' + name + '-' + width + '.webp';
   return <img src={source(800)} srcSet={source(480) + ' 480w, ' + source(800) + ' 800w'} sizes="(min-width: 1440px) 660px, (min-width: 900px) 52vw, 100vw" width={800} height={533} alt={alt} loading={hero ? 'eager' : 'lazy'} fetchPriority={hero ? 'high' : undefined} decoding="async" />;
 }

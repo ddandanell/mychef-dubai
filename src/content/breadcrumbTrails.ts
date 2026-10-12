@@ -1568,11 +1568,7 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Home"
   },
   {
-   "href": "/faq",
-   "label": "FAQ"
-  },
-  {
-   "label": "Gallery"
+   "label": "Previous Work"
   }
  ],
  "/gift-cards": [
@@ -3016,7 +3012,7 @@ export const CHILDREN: Record<string, Crumb[]> = {
   },
   {
    "href": "/gallery",
-   "label": "Gallery"
+   "label": "Previous Work"
   },
   {
    "href": "/how-it-works",

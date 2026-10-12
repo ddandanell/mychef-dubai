@@ -54,6 +54,7 @@ const ROUTES = routes as Record<string, string>
 // not emit a second <title>/<meta> for these paths, or React 19 ends up with two
 // hoisted title nodes.
 export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
+  '/gallery',
   '/about',
   '/afternoon-tea-catering-dubai',
   '/allergy-safe-catering-dubai',

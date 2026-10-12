@@ -359,8 +359,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Meet our chefs in Dubai through named profiles and 25 household cooking styles. Explore cuisines and experience, then discuss a suitable match with myCHEF."
   },
   "/gallery": {
-    "title": "Event Gallery | Previous Work & Dining Inspiration | myCHEF",
-    "description": "Browse dining, household and celebration ideas from myCHEF, with links to our yacht portfolio and services for planning your next occasion in Dubai."
+    "title": "Previous Work | Event & Catering Photo Gallery | myCHEF",
+    "description": "Explore previous myCHEF work: private dining, yacht tables, BBQs, live stations, buffets and festive events. Filter photos and plan your own occasion."
   },
   "/case-studies": {
     "title": "Catering Case Studies Dubai | Previous Work | myCHEF",

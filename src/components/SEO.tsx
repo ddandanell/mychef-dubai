@@ -6,6 +6,7 @@ import { assemblePageGraph } from '@/lib/jsonld'
 import { chefPageImages, chefImage } from '@/content/privateChefDesign'
 import { SEO_AUDIT_OVERRIDES } from '@/content/seoAuditOverrides'
 import { pageAuthorityFor } from '@/content/pageAuthority'
+import { pageWorkHero } from '@/content/previousWork'
 
 interface SEOProps {
   title?: string
@@ -45,6 +46,8 @@ export default function SEO({
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
   if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && pathname !== "/catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
+  const workPhoto = pageWorkHero(pathname)
+  if (workPhoto) { ogImage = workPhoto.src; preloadHero = undefined }
   // Nested cluster pages (e.g. /private-chef-dubai/our-chefs) pass the parent URL as
   // canonicalPath, so a canonicalPath-keyed lookup served them the parent's title and
   // description — the duplicate-title / duplicate-description audit failure. The page's

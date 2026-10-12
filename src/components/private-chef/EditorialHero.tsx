@@ -5,6 +5,8 @@ import { trailFor } from '@/content/breadcrumbTrails'
 import { chefPageImages } from '@/content/privateChefDesign'
 import ServiceImage from './ServiceImage'
 import { blogImageSrcSet } from '@/lib/blogImages'
+import { pageWorkHero } from '@/content/previousWork'
+import WorkImage from '@/components/previous-work/WorkImage'
 
 type Action = { label: string; href: string; external?: boolean; track?: string; ctaLocation?: string }
 export function ChefAction({ action, secondary = false }: { action: Action; secondary?: boolean }) {
@@ -15,6 +17,7 @@ export function ChefAction({ action, secondary = false }: { action: Action; seco
 export default function EditorialHero({ title, eyebrow, subtitle, image, imageAlt, cta, secondaryCta, children }: { title: ReactNode; eyebrow?: string; subtitle?: string; image?: string; imageAlt?: string; cta?: Action; secondaryCta?: Action; children?: ReactNode }) {
   const { pathname } = useLocation()
   const key = chefPageImages[pathname] || 'household'
+  const workPhoto = pageWorkHero(pathname)
   const compact = pathname === '/private-chef-dubai/pricing' || pathname.includes('how-your-plan')
   const trail = trailFor(pathname)
   return <section className={`pc-hero ${compact ? 'pc-hero-compact' : ''}`}>
@@ -27,6 +30,6 @@ export default function EditorialHero({ title, eyebrow, subtitle, image, imageAl
       <p className="pc-hero-note">A personal brief. A suitable chef. A clear written proposal.</p>
       {children}
     </div>
-    <div className="pc-hero-photo">{pathname.startsWith('/blog/') && image ? <img src={image} srcSet={blogImageSrcSet(image)} sizes="(min-width: 900px) 52vw, 100vw" alt={imageAlt || ''} width={1536} height={1024} loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover"/> : <ServiceImage imageKey={key} loading="eager" fetchPriority="high" sizes={key.startsWith('managed-household-') ? '(min-width: 900px) 80vw, 100vw' : '(min-width: 900px) 52vw, 100vw'} />}<span className="pc-photo-mark" aria-hidden="true">Good food.<br/>Your place.</span></div>
+    <div className="pc-hero-photo">{workPhoto ? <span className="pc-image"><WorkImage photo={workPhoto} loading="eager" fetchPriority="high" className="w-full h-full object-cover" /></span> : pathname.startsWith('/blog/') && image ? <img src={image} srcSet={blogImageSrcSet(image)} sizes="(min-width: 900px) 52vw, 100vw" alt={imageAlt || ''} width={1536} height={1024} loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover"/> : <ServiceImage imageKey={key} loading="eager" fetchPriority="high" sizes={key.startsWith('managed-household-') ? '(min-width: 900px) 80vw, 100vw' : '(min-width: 900px) 52vw, 100vw'} />}<span className="pc-photo-mark" aria-hidden="true">Good food.<br/>Your place.</span></div>
   </section>
 }

@@ -26,7 +26,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
   const isCanape = pathname === '/canape-catering-dubai'
-  const hasOwnPlanningLinks = isCanape || pathname === '/catering-dubai'
+  const hasOwnPlanningLinks = isCanape || pathname === '/catering-dubai' || pathname === '/gallery'
   useEffect(() => {
     rememberServicePage(pathname)
   }, [pathname])
@@ -50,15 +50,15 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
+    <div className={`${pathname === '/gallery' ? 'previous-work-page' : ''} flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
-          {!isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
+          {pathname !== '/gallery' && !isChefDesignPage(pathname) && !isCateringDesignPage(pathname) && <SiloTrail />}
           {children}
-          <ClientReviews key={pathname} />
-          <MenuCatalogueLinks key={pathname} />
-          <SupportServiceLink />
+          {pathname !== '/' && <ClientReviews key={pathname} />}
+          {pathname !== '/gallery' && <MenuCatalogueLinks key={pathname} />}
+          {pathname !== '/gallery' && <SupportServiceLink />}
           {!hasOwnPlanningLinks && <BlogPlanningLinks />}
           {!hasOwnPlanningLinks && !isChefDesignPage(pathname) && <SiloChildren />}
         </main>

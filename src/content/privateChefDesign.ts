@@ -74,7 +74,6 @@ export const chefPageImages: Record<string, ChefImageKey> = {
   '/chefs/layla-middle-eastern-chef': 'arabic',
   '/chefs/matteo-pastry-chef': 'dessert',
   '/how-it-works': 'planning',
-  '/gallery': 'villa-evening',
   '/case-studies': 'villa-evening',
   '/quality-guarantee-dubai': 'craft',
 }

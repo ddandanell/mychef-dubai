@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useLocation } from 'react-router'
+import PreviousWorkPreview from './previous-work/PreviousWorkPreview'
 import '@/styles/client-reviews.css'
 
 const WIDGET_ID = 'GxRGAhebMrf6'
@@ -10,6 +11,11 @@ type WidgetRuntime = Window & { GM5ReviewWidget?: new (element: HTMLElement, id:
 let bundle: Promise<void> | undefined
 let prefetched: Promise<Response> | undefined
 function loadWidget(): Promise<void> {
+  if ((window as WidgetRuntime).GM5ReviewWidget) {
+    prefetched ||= fetch(API_URL)
+    prefetched.catch(() => undefined)
+    return Promise.resolve()
+  }
   if (bundle) return bundle
   for (const href of ['https://api.giveme5.ai', 'https://portal.giveme5.ai']) {
     if (!document.querySelector(`link[rel="preconnect"][href="${href}"]`)) {
@@ -43,7 +49,21 @@ function ReviewsSection() {
         if (cancelled || !host.current) return
         const runtime = window as WidgetRuntime
         if (!runtime.GM5ReviewWidget) throw new Error('Review runtime unavailable')
-        runtime.__gm5_prefetch = prefetched!.then(response => response.clone())
+        runtime.__gm5_prefetch = prefetched!.then(async response => {
+          const payload = await response.clone().json()
+          // The provider's looping carousel renders cloned cards. A compact
+          // grid shows each review once, with further reviews available on tap.
+          // Only presentation settings change; ratings and review text stay intact.
+          if (payload.data?.configuration?.layout) {
+            payload.data.widgetType = 'grid'
+            Object.assign(payload.data.configuration.layout, { type:'grid', autoPlay:false, showLoadMore:true, itemsPerPage:window.innerWidth <= 600 ? 1 : 3 })
+            if (payload.data.configuration.header?.title) payload.data.configuration.header.title.text = 'Google reviews from our clients'
+            if (payload.data.configuration.header?.caption) payload.data.configuration.header.caption.text = 'Client feedback on myCHEF food and service.'
+          }
+          const result = new Response(JSON.stringify(payload), {status:response.status, headers:{'Content-Type':'application/json'}})
+          Object.defineProperty(result,'url',{value:API_URL})
+          return result
+        })
         instance = new runtime.GM5ReviewWidget(host.current, WIDGET_ID)
         await instance.init()
         if (cancelled) { instance.destroy(); return }
@@ -56,48 +76,48 @@ function ReviewsSection() {
     observer.observe(section.current)
     return () => { cancelled = true; observer.disconnect(); instance?.destroy() }
   }, [])
-  return <section ref={section} className="mychef-client-reviews" data-mychef-reviews aria-labelledby="mychef-reviews-heading">
+  return <><section ref={section} className="mychef-client-reviews" data-mychef-reviews aria-labelledby="mychef-reviews-heading">
     <div className="mychef-client-reviews-inner"><p className="mychef-reviews-eyebrow">Client reviews</p><h2 id="mychef-reviews-heading" className="sr-only">Client reviews</h2><p className="mychef-reviews-intro">Read our clients’ experiences before you plan your booking.</p><div ref={host} data-mychef-review-host />{unavailable && <p className="mychef-reviews-unavailable" role="status">Reviews are temporarily unavailable. Please try again shortly.</p>}</div>
-  </section>
+  </section><PreviousWorkPreview /></>
 }
 const utility = new Set(['/thank-you','/review','/privacy-policy','/terms','/private-client-booking-terms','/corporate-booking-terms','/site-map'])
-function pricingAnchor(): {element:HTMLElement;before?:boolean}|undefined {
-  const catalogueExtras = document.querySelector<HTMLElement>('.mc-main > #extras')
-  if (catalogueExtras && catalogueExtras.getClientRects().length) return {element:catalogueExtras,before:true}
-  const ids = ['pricing','chef-prices','visit-rates','prices','packages','ct-pricing','ch-pricing','sh-pricing','calculator','budget','budgets','household-pricing','managed-pricing','chef-detail-budget']
-  for (const id of ids) {
-    const section = document.getElementById(id)
-    if (section && section.getClientRects().length && section.matches('section,article') && !section.closest('[data-mychef-reviews]')) return {element:section}
-  }
-  for (const heading of document.querySelectorAll<HTMLElement>('main h2, main h3')) {
-    const text = heading.textContent || ''
-    if (text.length > 140 || !/pricing|prices|\bprice\b|rates|what.{0,25}cost|how much|budget|packages|investment/i.test(text)) continue
-    const section = heading.closest<HTMLElement>('section')
-    if (section && section.getClientRects().length && /AED/.test(section.textContent || '') && !/faq|hero|guide/.test(section.id) && !section.closest('[data-mychef-reviews]')) return {element:section}
-  }
-  return undefined
+function primaryContentAnchor(): HTMLElement | undefined {
+  // The hero and first substantial service section lead. Reviews then become
+  // section three, followed by one photo preview. Ignore card headers, nested
+  // sections and the support modules appended by the site shell.
+  const sections = [...document.querySelectorAll<HTMLElement>('main section, main header')].filter(element => {
+    if (!element.getClientRects().length || !element.querySelector('h1,h2,h3')) return false
+    if (element.closest('[data-mychef-review-placement],[data-mychef-reviews],[data-previous-work-preview]')) return false
+    if (element.parentElement?.closest('section,header')) return false
+    return true
+  })
+  return sections[1]
 }
-/** One review section on every marketing page, moved below its primary prices. */
-export default function ClientReviews() {
+/** One review section on relevant sales/trust pages, after primary service content. */
+export default function ClientReviews({ inline = false }: { inline?: boolean }) {
   const {pathname} = useLocation()
   const [target,setTarget] = useState<HTMLElement|null>(null)
   const disabled = pathname.startsWith('/seo') || utility.has(pathname)
+  const editorial = pathname === '/best-catering-companies-dubai' || pathname === '/blog' || pathname.startsWith('/blog/') || pathname === '/guides' || pathname.startsWith('/guide/') || /guide|checklist|trends|report|private-chef-vs|buffet-vs/.test(pathname)
   useEffect(() => {
-    if (disabled || window.__MYCHEF_PRERENDER__) return
+    if (inline || disabled || editorial) return
     let mount:HTMLDivElement|undefined
     const place = () => {
       if (mount?.isConnected) return
-      const anchor = pricingAnchor()
+      const anchor = primaryContentAnchor()
       if (!anchor) return
-      mount = document.createElement('div'); mount.dataset.mychefReviewPlacement = 'after-pricing'
-      if (anchor.before) anchor.element.before(mount); else anchor.element.after(mount)
+      mount = document.createElement('div'); mount.dataset.mychefReviewPlacement = 'after-primary-content'
+      anchor.after(mount)
       setTarget(mount)
     }
     place()
     const observer = new MutationObserver(place)
     observer.observe(document.querySelector('main') || document.body,{childList:true,subtree:true})
     return () => {observer.disconnect();mount?.remove()}
-  }, [disabled,pathname])
+  }, [disabled,editorial,inline,pathname])
   if (disabled) return null
-  return target ? createPortal(<ReviewsSection/>,target) : <ReviewsSection/>
+  if (editorial) return <PreviousWorkPreview />
+  // Do not initialise a second fallback widget while the route is still loading.
+  if (inline || typeof window === 'undefined') return <ReviewsSection/>
+  return target ? createPortal(<ReviewsSection/>,target) : window.__MYCHEF_PRERENDER__ ? <ReviewsSection/> : null
 }

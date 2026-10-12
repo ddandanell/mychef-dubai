@@ -37,7 +37,7 @@ const guideLinks = [
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Menus', href: '/menus' },
   { label: 'Our Chefs', href: '/our-chefs' },
-  { label: 'Gallery', href: '/gallery' },
+  { label: 'Previous Work', href: '/gallery' },
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
   { label: 'Private Chef Prices', href: '/private-chef-dubai/pricing' },
@@ -63,7 +63,7 @@ const companyLinks = [
   { label: 'Our Chefs', href: '/our-chefs' },
   { label: 'Blog', href: '/blog' },
   { label: 'Case Studies', href: '/case-studies' },
-  { label: 'Gallery', href: '/gallery' },
+  { label: 'Previous Work', href: '/gallery' },
   { label: 'Press & Media', href: '/press' },
   { label: 'Leave a Review', href: '/review' },
 ]

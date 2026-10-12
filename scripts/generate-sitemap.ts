@@ -233,7 +233,7 @@ function buildSitemap(paths: string[]): string {
   ]
 
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
 
   // Any section not named in sectionOrder still has to ship. Without this a new
   // priority rule is dropped from the XML while the run log still counts it.
@@ -245,7 +245,10 @@ function buildSitemap(paths: string[]): string {
     xml += `\n  <!-- ${section} -->\n`
     for (const p of pathsInSection) {
       const rule = getRule(p)
-      xml += `  <url><loc>${DOMAIN}${p}</loc><lastmod>${lastModified(p)}</lastmod><priority>${rule.priority.toFixed(1)}</priority><changefreq>${rule.changefreq}</changefreq></url>\n`
+      const galleryImages = p === '/gallery'
+        ? (JSON.parse(fs.readFileSync(path.resolve(__dirname, '../src/content/previousWorkPhotos.json'), 'utf8')) as {src:string}[]).map(photo => `<image:image><image:loc>${DOMAIN}${photo.src}</image:loc></image:image>`).join('')
+        : ''
+      xml += `  <url><loc>${DOMAIN}${p}</loc><lastmod>${lastModified(p)}</lastmod><priority>${rule.priority.toFixed(1)}</priority><changefreq>${rule.changefreq}</changefreq>${galleryImages}</url>\n`
     }
   }
 

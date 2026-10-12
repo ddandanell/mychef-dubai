@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { buildWhatsAppLink } from '../lib/whatsapp'
+import { pageWorkHero, workPhotoSrcSet } from '@/content/previousWork'
 
 const WHATSAPP_LINK = buildWhatsAppLink(
   "Hi myCHEF, I'd like a quote. My date, guest count and area are:",
@@ -13,6 +14,7 @@ const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
 export default function HeroSection() {
+  const workPhoto = pageWorkHero('/')!
   const sectionRef = useRef<HTMLDivElement>(null)
   const lineRef = useRef<HTMLDivElement>(null)
   const headlineRef = useRef<HTMLHeadingElement>(null)
@@ -188,15 +190,15 @@ export default function HeroSection() {
           */}
           <source
             type="image/webp"
-            srcSet="/images/home-hero.webp 1344w, /images/home-hero.webp 960w, /images/home-hero.webp 640w"
+            srcSet={workPhotoSrcSet(workPhoto)}
             sizes="100vw"
           />
           <img
             ref={imageRef}
-            src="/images/home-hero.webp"
-            alt="Private chef plating a fine-dining course in a Dubai penthouse kitchen with a skyline view"
-            width={1344}
-            height={672}
+            src={workPhoto.src}
+            alt={workPhoto.alt}
+            width={workPhoto.width}
+            height={workPhoto.height}
             loading="eager"
             fetchPriority="high"
             decoding="async"
@@ -204,7 +206,7 @@ export default function HeroSection() {
           />
         </picture>
         {/* Intro video — plays twice, then fades to the poster image above. Lazy-mounted. */}
-        {loadVideo && (
+        {loadVideo && !workPhoto && (
           <video
             ref={videoRef}
             autoPlay

@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { armRevealFailsafe } from '../lib/revealFailsafe'
 import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrollToTop'
 import { scrollToHash } from '../lib/scrollToHash'
+import { useRef } from 'react'
 
 function refreshRegisteredScrollTriggers() {
   // GSAP exposes its registered plugins here; the installed typings omit this
@@ -29,6 +30,7 @@ function refreshRegisteredScrollTriggers() {
  */
 export default function ScrollManager() {
   const { pathname, hash, key } = useLocation()
+  const previousPath = useRef<string | undefined>(undefined)
 
   useLayoutEffect(() => {
     disableScrollRestoration()
@@ -41,6 +43,11 @@ export default function ScrollManager() {
 
   useEffect(() => {
     disableScrollRestoration()
+    // Gallery filters, pagination and lightbox state live in the URL. Keep the
+    // visitor beside the photos when those controls change the query string.
+    const galleryQueryChange = pathname === '/gallery' && previousPath.current === pathname
+    previousPath.current = pathname
+    if (galleryQueryChange && !hash) return
 
     if (hash) {
       const releaseHash = scrollToHash(hash)
