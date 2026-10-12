@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11 04:14",
+ "generated": "2026-10-12 04:20",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "301",
+   "value": "313",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-10-11 04:14",
+  "generated": "2026-10-12 04:20",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-10-11 04:14",
+  "generated": "2026-10-12 04:20",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,11 +2112,12 @@
   "locations": []
  },
  "pages": {
-  "contract": 301,
+  "contract": 313,
   "board": 226,
   "routes": 177,
   "frozen": 263,
   "missing_from_board": [
+   "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
    "/blog/best-arabic-catering-companies-in-dubai",
    "/blog/best-bbq-catering-companies-in-dubai",
    "/blog/best-brunch-catering-services-in-dubai",
@@ -2142,10 +2143,12 @@
    "/blog/best-wedding-catering-companies-in-dubai",
    "/blog/best-yacht-catering-services-in-dubai",
    "/blog/buffet-layout-planning-dubai",
+   "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
    "/blog/canape-reception-planning-dubai",
    "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
    "/blog/catering-for-embassies-in-dubai-complete-guide",
    "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+   "/blog/catering-for-international-schools-in-dubai-complete-guide",
    "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
    "/blog/cateringdubai-ae-alternatives-in",
    "/blog/cateringindubai-alternatives-in",
@@ -2156,12 +2159,19 @@
    "/blog/dinner-party-timeline-dubai",
    "/blog/dish-ae-alternatives-in",
    "/blog/diwali-party-at-home-planning-dubai",
+   "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
    "/blog/household-menu-brief-dubai",
    "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+   "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+   "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+   "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+   "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+   "/blog/is-a-private-chef-worth-it-in-dubai-in",
    "/blog/kids-and-adults-party-menu-dubai",
    "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
    "/blog/mixed-diet-dinner-party-dubai",
    "/blog/monchef-alternatives-in",
+   "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
    "/blog/mychef-vs-cateringindubai-which-is-better-in",
    "/blog/mychef-vs-chef-maison-which-is-better-in",
    "/blog/mychef-vs-dish-ae-which-is-better-in",
@@ -2188,6 +2198,8 @@
    "/blog/topic/private-chef",
    "/blog/topic/seasonal",
    "/blog/wedding-menu-tasting-dubai",
+   "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+   "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
    "/inquiry",
    "/private-chef-dubai/live-in-chef",
    "/private-chef-dubai/live-out-chef",
