@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12 04:20",
+ "generated": "2026-10-13 04:17",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "313",
+   "value": "315",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-10-12 04:20",
+  "generated": "2026-10-13 04:17",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-10-12 04:20",
+  "generated": "2026-10-13 04:17",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,9 +2112,9 @@
   "locations": []
  },
  "pages": {
-  "contract": 313,
+  "contract": 315,
   "board": 226,
-  "routes": 177,
+  "routes": 179,
   "frozen": 263,
   "missing_from_board": [
    "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
@@ -2200,7 +2200,9 @@
    "/blog/wedding-menu-tasting-dubai",
    "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
    "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+   "/corporate/menus-prices",
    "/inquiry",
+   "/luxury-dining-experiences/menus-prices",
    "/private-chef-dubai/live-in-chef",
    "/private-chef-dubai/live-out-chef",
    "/private-chef-dubai/short-term-chef"
