@@ -100,7 +100,7 @@ export function pageWorkHero(pathname: string): WorkPhoto | undefined {
     '/office-catering-dubai': 'breakfast-033', '/business-lunch-catering-dubai': 'buffets-071',
     '/corporate-event-catering-dubai': 'breakfast-030', '/conference-catering-dubai': 'buffets-064',
     '/christmas-catering-dubai': 'christmas-037', '/ramadan-catering-dubai': 'ramadan-077',
-    '/iftar-catering-dubai': 'ramadan-079', '/suhoor-catering-dubai': 'ramadan-076',
+    '/iftar-catering-dubai': 'ramadan-079',
     '/live-cooking-stations-dubai': 'live-cooking-113',
     '/italian-catering-dubai': 'pasta-124', '/indian-catering-dubai': 'chaat-104',
     '/dessert-table-catering-dubai': 'desserts-111',

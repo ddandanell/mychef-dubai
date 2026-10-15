@@ -429,6 +429,45 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Buffet Layout Planning in Dubai: A Practical Guide"
   }
  ],
+ "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How to brief a chef for keto and gluten-free meals"
+  }
+ ],
+ "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Can a private chef serve both Arabic and international dishes?"
+  }
+ ],
+ "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you choose cooking days for a monthly chef plan?"
+  }
+ ],
  "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai": [
   {
    "href": "/",
@@ -440,6 +479,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "One dinner at home: should you brief a chef or caterer?"
+  }
+ ],
+ "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How do you change a scheduled meal-prep chef visit?"
   }
  ],
  "/blog/canape-reception-planning-dubai": [
@@ -571,6 +623,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Diwali Party at Home in Dubai: A Planning Guide"
   }
  ],
+ "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Do private chefs in Dubai bring their own groceries and equipment?"
+  }
+ ],
  "/blog/dubai-school-food-rules-2026": [
   {
    "href": "/",
@@ -644,6 +709,32 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How far in advance to book a caterer"
   }
  ],
+ "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How long does a private chef home visit take in Dubai?"
+  }
+ ],
+ "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "How long does meal prep stay fresh in the fridge?"
+  }
+ ],
  "/blog/how-much-does-private-chef-cost-dubai": [
   {
    "href": "/",
@@ -659,6 +750,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What a private chef costs"
+  }
+ ],
+ "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "What should a weekly meal-prep quote include?"
   }
  ],
  "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": [
@@ -741,6 +845,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Is a private chef worth it in Dubai in 2026?"
+  }
+ ],
+ "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Is it safe to let a private chef cook in my home in Dubai?"
   }
  ],
  "/blog/kids-and-adults-party-menu-dubai": [
@@ -2801,6 +2918,44 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/about",
    "label": "About myCHEF"
+  }
+ ],
+ "/blog": [
+  {
+   "href": "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+   "label": "How to brief a chef for keto and gluten-free meals"
+  },
+  {
+   "href": "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+   "label": "Can a private chef serve both Arabic and international dishes?"
+  },
+  {
+   "href": "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+   "label": "How do you choose cooking days for a monthly chef plan?"
+  },
+  {
+   "href": "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+   "label": "How do you change a scheduled meal-prep chef visit?"
+  },
+  {
+   "href": "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+   "label": "Do private chefs in Dubai bring their own groceries and equipment?"
+  },
+  {
+   "href": "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+   "label": "How long does a private chef home visit take in Dubai?"
+  },
+  {
+   "href": "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+   "label": "How long does meal prep stay fresh in the fridge?"
+  },
+  {
+   "href": "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+   "label": "What should a weekly meal-prep quote include?"
+  },
+  {
+   "href": "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+   "label": "Is it safe to let a private chef cook in my home in Dubai?"
   }
  ],
  "/catering-dubai": [

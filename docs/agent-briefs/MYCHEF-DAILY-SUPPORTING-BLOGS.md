@@ -1,6 +1,6 @@
 # myCHEF daily supporting-blog publishing brief
 
-Owner instruction, 12 October 2026: publish a useful new blog each day, catch up held articles, and use blogs to support the private-chef and catering service pages rather than compete with them. This brief supplements the website copy brief and governs new blog publication and Ryze topic selection.
+Owner instruction, 15 October 2026: publish five useful, reviewed blogs each day, catch up held articles, and use blogs to support the private-chef and catering service pages rather than compete with them. This brief supplements the website copy brief and governs new blog publication and Ryze topic selection.
 
 ## Editorial objective
 
@@ -12,13 +12,13 @@ Before writing, compare all existing article topics and the current `docs/seo/my
 
 ## Daily operation
 
-Use the existing daily Ryze run and native content plan as one coordinated pipeline. Check the native plan, repository, production URLs and today's actual published inventory before acting. Ensure at least one new, non-duplicate, quality-approved article is successfully published each day; if the native pipeline already achieved that today, verify it instead of creating a duplicate. Keep the established business schedule in Asia/Dubai. Do not invent historical missed-day counts. Where a real dated backlog exists, process one additional held article per day after quality review; the twelve warning articles repaired on 12 October are a separate authorized catch-up batch.
+Use the existing daily Ryze run and native content plan as one coordinated pipeline. Check the native plan, repository, production URLs and today's actual published inventory before acting. The daily target is five new, distinct, quality-approved articles in total across this existing pipeline. Count articles actually live today in Asia/Dubai before acting; publish only the remaining number needed to reach five. If five are already live, verify them and stop. This replaces the earlier one-per-day target. Publishing a JSON export or scheduling a task does not count as a live article. Keep the established business schedule in Asia/Dubai. Do not invent historical missed-day counts. Where a real dated backlog exists, quality-reviewed held articles count within the five daily publications; do not add catch-up posts above that total. Do not publish near-duplicate topics to meet the target; report the actual shortfall and cause if five useful articles are not ready.
 
 Publication is authorized by the owner. For an approved new article, update `blog/data/<slug>.json`, the SEO contract, photography and generated route/sitemap projections together. Preserve original publication timestamps on repairs and record the actual modification date. Never mark source published and stop before its URL works. Native Ryze “published” status alone does not prove the website deployed it. Reconcile the current article export with approved editorial assignments so a later import cannot restore conflicting titles or draft status.
 
 ## Ryze preference targets and money-page protection
 
-Owner clarification, 12 October 2026: all blog blocks and publishing automation must support the pages that sell catering, chef services and paid packages. This brief is the repository policy; native Ryze preferences must be read, saved and verified separately.
+Owner clarification, 12 October 2026: all blog blocks and publishing automation must support the pages that sell catering, chef services and paid packages. This brief is the repository policy; native Ryze preferences must be read, saved and verified separately. The owner requires MCP access only, with no email or browser login. A repository policy update is not proof that the native daily-frequency setting or scheduler changed.
 
 - Language: English. Target market: United Arab Emirates, with Dubai-specific customer questions. Tone: practical, accurate and clear. Length: Dynamic; do not add filler to meet a fixed word count.
 - GitHub destination: `ddandanell/mychef-dubai`, branch `main`, folder `blog/data`. Public blog URL and headless override: `https://www.mychef.ae/blog`. Confirm the saved values in Ryze rather than assuming them from published files.

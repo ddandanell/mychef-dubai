@@ -62173,6 +62173,1086 @@
       "keyword_planner": "Checked UAE on 2026-10-12; API returned keywords without volume metrics. No volume inferred.",
       "gsc_evidence": "private dinner catering: 33 impressions; private dinner dubai: 14 impressions (2026-09-10 to 2026-10-09)"
     }
+  },
+  "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+   "absolute_url": "https://www.mychef.ae/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+   "hub": "/blog",
+   "content_source": "blog/data/can-i-pause-or-skip-a-week-of-meal-prep-delivery.json",
+   "intent_owner": {
+    "primary_keyword": "change scheduled meal prep chef visit",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Changing a Meal-Prep Chef Visit: What to Confirm | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How do you change a scheduled meal-prep chef visit?",
+    "h1_count": 1,
+    "meta_description": "Changing a meal-prep chef visit? Confirm dates, groceries, charges and the next appointment in writing before updating your household schedule.",
+    "meta_description_max_chars": 160,
+    "og_title": "Changing a Meal-Prep Chef Visit: What to Confirm | myCHEF",
+    "og_description": "Changing a meal-prep chef visit? Confirm dates, groceries, charges and the next appointment in writing before updating your household schedule.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Changing a Meal-Prep Chef Visit: What to Confirm | myCHEF",
+    "h1": "How do you change a scheduled meal-prep chef visit?",
+    "description": "Changing a meal-prep chef visit? Confirm dates, groceries, charges and the next appointment in writing before updating your household schedule."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+      "anchor": "How do you change a scheduled meal-prep chef visit?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+   "absolute_url": "https://www.mychef.ae/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+   "hub": "/blog",
+   "content_source": "blog/data/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment.json",
+   "intent_owner": {
+    "primary_keyword": "do private chefs bring their own ingredients",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Chef Ingredients & Equipment: What to Agree | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Do private chefs in Dubai bring their own groceries and equipment?",
+    "h1_count": 1,
+    "meta_description": "Agree who buys groceries, which tools the chef brings and what your Dubai kitchen needs. Use this checklist before confirming your cooking visit.",
+    "meta_description_max_chars": 160,
+    "og_title": "Chef Ingredients & Equipment: What to Agree | myCHEF",
+    "og_description": "Agree who buys groceries, which tools the chef brings and what your Dubai kitchen needs. Use this checklist before confirming your cooking visit.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Chef Ingredients & Equipment: What to Agree | myCHEF",
+    "h1": "Do private chefs in Dubai bring their own groceries and equipment?",
+    "description": "Agree who buys groceries, which tools the chef brings and what your Dubai kitchen needs. Use this checklist before confirming your cooking visit."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+      "anchor": "Do private chefs in Dubai bring their own groceries and equipment?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+   "hub": "/blog",
+   "content_source": "blog/data/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai.json",
+   "intent_owner": {
+    "primary_keyword": "is it safe to have a private chef at home",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "A Chef in Your Home: Identity, Hygiene & Access | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Is it safe to let a private chef cook in my home in Dubai?",
+    "h1_count": 1,
+    "meta_description": "Before a chef visits your Dubai home, confirm identity, kitchen hygiene, dietary requirements and access boundaries. Prepare a clear household brief.",
+    "meta_description_max_chars": 160,
+    "og_title": "A Chef in Your Home: Identity, Hygiene & Access | myCHEF",
+    "og_description": "Before a chef visits your Dubai home, confirm identity, kitchen hygiene, dietary requirements and access boundaries. Prepare a clear household brief.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "A Chef in Your Home: Identity, Hygiene & Access | myCHEF",
+    "h1": "Is it safe to let a private chef cook in my home in Dubai?",
+    "description": "Before a chef visits your Dubai home, confirm identity, kitchen hygiene, dietary requirements and access boundaries. Prepare a clear household brief."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+      "anchor": "Is it safe to let a private chef cook in my home in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+   "hub": "/blog",
+   "content_source": "blog/data/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai.json",
+   "intent_owner": {
+    "primary_keyword": "planning keto and gluten free household meals",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Keto & Gluten-Free Meals: Briefing Your Chef | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How to brief a chef for keto and gluten-free meals",
+    "h1_count": 1,
+    "meta_description": "Brief a chef on ingredients, portions, gluten cross-contact and kitchen arrangements. Share any clinician-provided dietary instructions before menu approval.",
+    "meta_description_max_chars": 160,
+    "og_title": "Keto & Gluten-Free Meals: Briefing Your Chef | myCHEF",
+    "og_description": "Brief a chef on ingredients, portions, gluten cross-contact and kitchen arrangements. Share any clinician-provided dietary instructions before menu approval.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Keto & Gluten-Free Meals: Briefing Your Chef | myCHEF",
+    "h1": "How to brief a chef for keto and gluten-free meals",
+    "description": "Brief a chef on ingredients, portions, gluten cross-contact and kitchen arrangements. Share any clinician-provided dietary instructions before menu approval."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+      "anchor": "How to brief a chef for keto and gluten-free meals",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+   "hub": "/blog",
+   "content_source": "blog/data/how-long-does-a-private-chef-home-visit-take-in-dubai.json",
+   "intent_owner": {
+    "primary_keyword": "how long does a private chef visit take",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Chef Visit Timing: Arrival, Cooking & Handover | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How long does a private chef home visit take in Dubai?",
+    "h1_count": 1,
+    "meta_description": "Plan a chef visit around preparation, cooking, serving and handover. Agree arrival, meal-ready time and departure separately for your Dubai home.",
+    "meta_description_max_chars": 160,
+    "og_title": "Chef Visit Timing: Arrival, Cooking & Handover | myCHEF",
+    "og_description": "Plan a chef visit around preparation, cooking, serving and handover. Agree arrival, meal-ready time and departure separately for your Dubai home.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Chef Visit Timing: Arrival, Cooking & Handover | myCHEF",
+    "h1": "How long does a private chef home visit take in Dubai?",
+    "description": "Plan a chef visit around preparation, cooking, serving and handover. Agree arrival, meal-ready time and departure separately for your Dubai home."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+      "anchor": "How long does a private chef home visit take in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+   "absolute_url": "https://www.mychef.ae/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+   "hub": "/blog",
+   "content_source": "blog/data/can-a-private-chef-serve-both-arabic-and-international-dishes.json",
+   "intent_owner": {
+    "primary_keyword": "private chef arabic and international menu",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Arabic & International Dishes: Plan One Menu | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Can a private chef serve both Arabic and international dishes?",
+    "h1_count": 1,
+    "meta_description": "Plan Arabic and international dishes as one meal. Agree the dishes, dietary requirements, serving format and kitchen needs before approving your menu.",
+    "meta_description_max_chars": 160,
+    "og_title": "Arabic & International Dishes: Plan One Menu | myCHEF",
+    "og_description": "Plan Arabic and international dishes as one meal. Agree the dishes, dietary requirements, serving format and kitchen needs before approving your menu.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "title": "Arabic & International Dishes: Plan One Menu | myCHEF",
+    "h1": "Can a private chef serve both Arabic and international dishes?",
+    "description": "Plan Arabic and international dishes as one meal. Agree the dishes, dietary requirements, serving format and kitchen needs before approving your menu."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+      "anchor": "Can a private chef serve both Arabic and international dishes?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/luxury-dining-experiences",
+     "anchor": "private dining experiences in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+   "absolute_url": "https://www.mychef.ae/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+   "hub": "/blog",
+   "content_source": "blog/data/how-long-does-meal-prep-stay-fresh-in-the-fridge.json",
+   "intent_owner": {
+    "primary_keyword": "how long does meal prep last in the fridge",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Meal Prep Storage: Fridge, Freezer & Rice | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How long does meal prep stay fresh in the fridge?",
+    "h1_count": 1,
+    "meta_description": "Plan fridge and freezer portions for cooked meal prep. Check official leftovers guidance, shorter rice storage advice and dish-specific handling instructions.",
+    "meta_description_max_chars": 160,
+    "og_title": "Meal Prep Storage: Fridge, Freezer & Rice | myCHEF",
+    "og_description": "Plan fridge and freezer portions for cooked meal prep. Check official leftovers guidance, shorter rice storage advice and dish-specific handling instructions.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Meal Prep Storage: Fridge, Freezer & Rice | myCHEF",
+    "h1": "How long does meal prep stay fresh in the fridge?",
+    "description": "Plan fridge and freezer portions for cooked meal prep. Check official leftovers guidance, shorter rice storage advice and dish-specific handling instructions."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+      "anchor": "How long does meal prep stay fresh in the fridge?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+   "absolute_url": "https://www.mychef.ae/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+   "hub": "/blog",
+   "content_source": "blog/data/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis.json",
+   "intent_owner": {
+    "primary_keyword": "monthly chef plan cooking days",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Monthly Chef Plans: Choosing Your Cooking Days | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How do you choose cooking days for a monthly chef plan?",
+    "h1_count": 1,
+    "meta_description": "Choose cooking days around meals at home, kitchen access and travel. Separate fresh service from batch preparation before agreeing your monthly chef plan.",
+    "meta_description_max_chars": 160,
+    "og_title": "Monthly Chef Plans: Choosing Your Cooking Days | myCHEF",
+    "og_description": "Choose cooking days around meals at home, kitchen access and travel. Separate fresh service from batch preparation before agreeing your monthly chef plan.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "long-term household chef services in Dubai",
+    "title": "Monthly Chef Plans: Choosing Your Cooking Days | myCHEF",
+    "h1": "How do you choose cooking days for a monthly chef plan?",
+    "description": "Choose cooking days around meals at home, kitchen access and travel. Separate fresh service from batch preparation before agreeing your monthly chef plan."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+      "anchor": "How do you choose cooking days for a monthly chef plan?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/full-time-private-chef-dubai",
+     "anchor": "long-term household chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "long-term household chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
+  },
+  "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in": {
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "is_hub": false,
+   "status": "LOCKED",
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "claims": {
+    "may_name_chefs": [
+     "Ahmed Al-Rashid",
+     "Marco Rossi",
+     "Layla Hassan",
+     "Matteo Moretti"
+    ],
+    "must_not_name": [
+     "Thomas Chen",
+     "Marco Adriano",
+     "Elena Vasquez"
+    ],
+    "must_not_claim_years_of_experience": true,
+    "price_tier": "premium"
+   },
+   "qa_gates": [
+    "Exactly one H1.",
+    "Locked primary is not used as an H2 farm.",
+    "No banned term from invariants.banned_terms.",
+    "No second page's locked primary in title or H1.",
+    "Sibling module matches JSON siblings[] — do not invent cards.",
+    "Read-aloud test: copy sounds like a person talking to a host in Dubai."
+   ],
+   "url": "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+   "absolute_url": "https://www.mychef.ae/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+   "hub": "/blog",
+   "content_source": "blog/data/how-much-does-weekly-meal-prep-cost-in-dubai-in.json",
+   "intent_owner": {
+    "primary_keyword": "weekly meal prep quote inclusions",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Weekly Meal-Prep Quotes: Inclusions to Check | myCHEF",
+    "title_max_chars": 65,
+    "h1": "What should a weekly meal-prep quote include?",
+    "h1_count": 1,
+    "meta_description": "Compare weekly meal-prep quotes by portions, groceries, cooking visits, containers and cleanup. Use the current service page for plans and prices.",
+    "meta_description_max_chars": 160,
+    "og_title": "Weekly Meal-Prep Quotes: Inclusions to Check | myCHEF",
+    "og_description": "Compare weekly meal-prep quotes by portions, groceries, cooking visits, containers and cleanup. Use the current service page for plans and prices.",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Weekly Meal-Prep Quotes: Inclusions to Check | myCHEF",
+    "h1": "What should a weekly meal-prep quote include?",
+    "description": "Compare weekly meal-prep quotes by portions, groceries, cooking visits, containers and cleanup. Use the current service page for plans and prices."
+   },
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+      "anchor": "What should a weekly meal-prep quote include?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   }
   }
  },
  "authority_policy": {

@@ -1,8 +1,12 @@
 import { readdir, readFile, writeFile, mkdir, unlink } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { execFileSync } from 'node:child_process'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+// Check all exports before writing any projections or sitemap entries. Native
+// "published" status cannot bypass editorial ownership and contextual links.
+execFileSync('python3', [path.join(root, 'scripts/verify-blog-ownership.py')], { stdio: 'inherit' })
 const sourceDir = path.join(root, 'blog/data')
 const pageDir = path.join(root, 'src/content/ryze-pages')
 const pathsFile = path.join(root, 'src/content/ryzeBlogPaths.ts')

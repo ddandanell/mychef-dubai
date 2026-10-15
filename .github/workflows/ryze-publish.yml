@@ -1,9 +1,19 @@
 name: Ryze publish
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "blog/data/**"
+      - "scripts/ryze-convert.mjs"
+      - "scripts/verify-blog-ownership.py"
+      - "scripts/test-blog-ownership.py"
+      - "src/content/pageAuthority.json"
+      - "src/content/blogPhotography.json"
+
+concurrency:
+  group: ryze-publish-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -27,7 +37,9 @@ jobs:
         run: npm ci
 
       - name: Convert Ryze articles
-        run: node scripts/ryze-convert.mjs
+        run: |
+          python3 scripts/test-blog-ownership.py
+          node scripts/ryze-convert.mjs
 
       - name: Verify core money-page ownership
         run: python3 scripts/verify-page-authority.py
@@ -36,7 +48,17 @@ jobs:
         run: python3 scripts/verify-sitemap.py
 
       - name: Verify the site builds
-        run: npm run build
+        env:
+          VERCEL: "1"
+        run: |
+          npm run build:prerender
+          python3 scripts/verify-seo-contract.py
+          python3 scripts/verify-keyword-locks.py
+          python3 scripts/verify-page-authority.py --rendered
+          python3 scripts/verify-blog-photography.py --rendered
+          python3 scripts/verify-public-pages.py
+          node scripts/test-site-navigation.mjs
+          node scripts/test-pricing-ui.mjs
 
       - name: Commit generated pages
         run: |

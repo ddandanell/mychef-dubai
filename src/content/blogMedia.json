@@ -347,6 +347,60 @@
         "src": "/images/blog-2026/private-chef-trial-dubai.webp",
         "alt": "Household tasting meal with roast chicken, lentil salad and citrus dessert"
       }
+    },
+    "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+        "alt": "Chef behind an indoor pasta station with ingredients and serving bowls."
+      }
+    },
+    "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp",
+        "alt": "Chef at a live pasta station with pasta varieties and sauces."
+      }
+    },
+    "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp",
+        "alt": "Chef preparing food at a live pasta counter."
+      }
+    },
+    "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp",
+        "alt": "Long indoor dining table set with plates, glasses and chairs."
+      }
+    },
+    "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp",
+        "alt": "Chef serving from a live cooking station at an evening event."
+      }
+    },
+    "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp",
+        "alt": "Long garden tables set for a daytime outdoor celebration."
+      }
+    },
+    "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge": {
+      "hero": {
+        "src": "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp",
+        "alt": "Outdoor pasta buffet with pasta varieties, sauces and herbs."
+      }
+    },
+    "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+        "alt": "Chef behind an indoor pasta station with ingredients and serving bowls."
+      }
+    },
+    "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp",
+        "alt": "Chef at a live pasta station with pasta varieties and sauces."
+      }
     }
   },
   "sources": {
@@ -440,7 +494,18 @@
     "/images/blog-2026/chef-maison-alternatives-in-hero.webp": 1200,
     "/images/blog-2026/best-gluten-free-catering-companies-in-dubai-hero.webp": 1200,
     "/images/blog-2026/cateringindubai-alternatives-in-hero.webp": 1200,
-    "/images/blog-2026/best-private-chefs-in-dubai-for-home-dining-hero.webp": 1200
+    "/images/blog-2026/best-private-chefs-in-dubai-for-home-dining-hero.webp": 1200,
+    "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp": 1280,
+    "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp": 1280,
+    "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-large.webp": 1280,
+    "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp": 1024,
+    "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp": 1024,
+    "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp": 1254,
+    "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp": 960,
+    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp": 1080,
+    "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp": 960,
+    "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp": 960,
+    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": 1024
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1570,6 +1635,50 @@
     "/images/blog-2026/canape-reception-planning-dubai.webp": {
       "width": 1536,
       "height": 1024
+    },
+    "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp": {
+      "width": 1024,
+      "height": 768
+    },
+    "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp": {
+      "width": 1024,
+      "height": 768
+    },
+    "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp": {
+      "width": 1254,
+      "height": 1254
+    },
+    "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp": {
+      "width": 1080,
+      "height": 1080
+    },
+    "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": {
+      "width": 1024,
+      "height": 576
     }
   },
   "srcsets": {
@@ -1789,6 +1898,17 @@
     "/images/blog-2026/birthday-dessert-plating.webp": "/images/blog-2026/birthday-dessert-plating-480.webp 480w, /images/blog-2026/birthday-dessert-plating-800.webp 800w, /images/blog-2026/birthday-dessert-plating-1200.webp 1200w, /images/blog-2026/birthday-dessert-plating.webp 1536w",
     "/images/blog-2026/take-a-chef-alternatives-in-hero.webp": "/images/blog-2026/take-a-chef-alternatives-in-hero-480.webp 480w, /images/blog-2026/take-a-chef-alternatives-in-hero-800.webp 800w, /images/blog-2026/take-a-chef-alternatives-in-hero.webp 1200w",
     "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1.webp": "/images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1-480.webp 480w, /images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1-800.webp 800w, /images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1-1200.webp 1200w, /images/blog-2026/best-desert-dining-catering-companies-in-dubai-body-1.webp 1536w",
-    "/images/blog-2026/canape-reception-planning-dubai.webp": "/images/blog-2026/canape-reception-planning-dubai-480.webp 480w, /images/blog-2026/canape-reception-planning-dubai-800.webp 800w, /images/blog-2026/canape-reception-planning-dubai-1200.webp 1200w, /images/blog-2026/canape-reception-planning-dubai.webp 1536w"
+    "/images/blog-2026/canape-reception-planning-dubai.webp": "/images/blog-2026/canape-reception-planning-dubai-480.webp 480w, /images/blog-2026/canape-reception-planning-dubai-800.webp 800w, /images/blog-2026/canape-reception-planning-dubai-1200.webp 1200w, /images/blog-2026/canape-reception-planning-dubai.webp 1536w",
+    "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-thumb.webp 640w, /images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp 1280w",
+    "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp": "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-thumb.webp 640w, /images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp 1280w",
+    "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-large.webp": "/images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-thumb.webp 640w, /images/previous-work/mychef-salad-buffet-with-colourful-bowls-and-a-floral-centrepiece-081-large.webp 1280w",
+    "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-thumb.webp 640w, /images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp 1024w",
+    "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp": "/images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-thumb.webp 640w, /images/previous-work/mychef-outdoor-pasta-buffet-with-pasta-varieties-sauces-and-herbs-125-large.webp 1024w",
+    "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-thumb.webp 640w, /images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp 1254w",
+    "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-thumb.webp 480w, /images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp 960w",
+    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-thumb.webp 640w, /images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp 1080w",
+    "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-thumb.webp 480w, /images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp 960w",
+    "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp": "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-thumb.webp 480w, /images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp 960w",
+    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-thumb.webp 640w, /images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp 1024w"
   }
 }

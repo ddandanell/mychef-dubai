@@ -55,7 +55,9 @@ try {
     }))
     assert.match(initial.h1, /Private Chef Dubai/)
     assert.equal(initial.overflow, false)
-    assert.equal(initial.links.length, 4)
+    assert.deepEqual(initial.links.map(link => link.href), [
+      '#chef-service-choice', '#menu-inspiration', '#chef-prices', '#chef-faqs', '#chef-enquiry',
+    ])
     assert.ok(initial.links.every(link => link.height >= 44), 'quick links have usable tap targets')
     assert.ok(!initial.scripts.some(file => /^(cateringDesign|CateringHero|ScrollTrigger|useScrollTrigger)-/.test(file)), 'unrelated catering copy and scrolling plugins stay out of the chef page')
     await page.screenshot({ path: path.join(output, `private-chef-${width}.png`) })
@@ -63,7 +65,7 @@ try {
     await page.screenshot({ path: path.join(output, `quick-links-${width}.png`) })
 
     const jumps = []
-    for (const href of ['#chef-prices', '#chef-faqs', '#chef-enquiry', '#chef-service-choice']) {
+    for (const href of ['#chef-prices', '#chef-faqs', '#chef-enquiry', '#menu-inspiration', '#chef-service-choice']) {
       await page.evaluate(fragment => document.querySelector(`.pc-page-nav a[href="${fragment}"]`).click(), href)
       await page.waitForFunction(fragment => {
         const target = document.querySelector(fragment).getBoundingClientRect()
