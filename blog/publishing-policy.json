@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "daily_target": 5,
+  "day_timezone": "Asia/Dubai",
+  "publisher": "Ryze scheduled agent using the reviewed GitHub Actions executor and Vercel deployment",
+  "intake": "Ryze exports without approved contracts are pending_review; review and count them within the same daily five.",
+  "owner_cycle": [
+    "/private-chef-dubai",
+    "/catering-dubai",
+    "/corporate",
+    "/events",
+    "/yachts",
+    "/private-chef-dubai",
+    "/catering-dubai",
+    "/full-time-private-chef-dubai",
+    "/luxury-dining-experiences",
+    "/institutional-catering-dubai"
+  ],
+  "quality_shortfall": "Publish fewer and record the cause if distinct, accurate, useful articles cannot pass review. Never pad or create near-duplicates.",
+  "photos": "At least three distinct owner-approved local photographs per article from previousWorkPhotos.json, with descriptive alt, captions and measured dimensions.",
+  "money_pages": "Keep established commercial intent, content, URLs and indexation rules. Use the existing capped three-card planning-guides module for relevant discovery.",
+  "runbook": "docs/agent-briefs/MYCHEF-DAILY-SUPPORTING-BLOGS.md",
+  "automation_id": "8d040578-0712-40c3-affa-6cf8bcdc7d91",
+  "google_references": [
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://developers.google.com/search/docs/essentials/spam-policies"
+  ],
+  "hub_titles": {
+    "private-chef": "Private Chef Guides",
+    "institutional": "Nurseries, Schools & Canteens",
+    "corporate": "Corporate & Team Catering",
+    "celebrations": "Weddings, Parties & Celebrations",
+    "seasonal": "Ramadan & Seasonal Dining",
+    "outdoor": "Outdoor & Destination Dining",
+    "menus-dietary": "Menus, Brunch & Dietary"
+  },
+  "framework": "docs/seo/MYCHEF-BLOG-FRAMEWORK.md",
+  "archive_page_size": 12,
+  "automation_provider": "Ryze native agent_run",
+  "automation_cron": "0 5 * * *",
+  "automation_timezone": "Asia/Dubai",
+  "executor": ".github/workflows/daily-supporting-blogs.yml"
+}

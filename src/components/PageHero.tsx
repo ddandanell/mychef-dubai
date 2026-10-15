@@ -69,6 +69,8 @@ interface PageHeroProps {
   cta?: HeroCta
   secondaryCta?: HeroCta
   breadcrumb?: { label: string; href?: string }[]
+  /** Article trails may wrap; keep them in flow above the headline. */
+  breadcrumbInFlow?: boolean
   minHeight?: 'full' | 'tall' | 'large' | 'medium' | 'short'
   align?: 'left' | 'center'
   children?: React.ReactNode
@@ -123,6 +125,7 @@ function LegacyPageHero({
   cta,
   secondaryCta,
   breadcrumb,
+  breadcrumbInFlow = false,
   minHeight = 'tall',
   align = 'center',
   children,
@@ -224,7 +227,7 @@ function LegacyPageHero({
   return (
     <section
       ref={sectionRef}
-      className={`relative flex justify-center overflow-hidden -mt-16 ${heightClasses[minHeight]}`}
+      className={`relative flex ${breadcrumbInFlow ? 'flex-col' : 'justify-center'} overflow-hidden -mt-16 ${heightClasses[minHeight]}`}
     >
       {/* Background */}
       {image ? (
@@ -286,7 +289,7 @@ function LegacyPageHero({
 
       {/* Breadcrumb — pinned top-left on every hero, with a readable scrim so it works over any photo */}
       {trail.length > 0 && (
-        <nav aria-label="Breadcrumb" className="absolute top-20 left-0 right-0 z-20">
+        <nav aria-label="Breadcrumb" className={breadcrumbInFlow ? 'relative z-20 pt-24' : 'absolute top-20 left-0 right-0 z-20'}>
           <div className="container-custom">
             <ol className="inline-flex flex-wrap items-center gap-2 font-inter text-caption bg-black/40 backdrop-blur-sm px-3.5 py-1.5 rounded-full ring-1 ring-white/10">
               {trail.map((item, i) => (
@@ -309,7 +312,7 @@ function LegacyPageHero({
       {/* Content */}
       <div
         ref={contentRef}
-        className={`relative z-10 container-custom flex flex-col justify-center pt-24 pb-16 md:pt-28 md:pb-16 ${alignmentClass}`}
+        className={`relative z-10 container-custom flex flex-col justify-center ${breadcrumbInFlow ? 'w-full pt-8' : 'pt-24 md:pt-28'} pb-16 md:pb-16 ${alignmentClass}`}
       >
         {eyebrow && (
           <span

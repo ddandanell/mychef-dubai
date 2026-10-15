@@ -3,13 +3,14 @@ import { Link, useLocation } from 'react-router'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
-import TrustSignalStrip from '../../components/TrustSignalStrip'
 import BlogRelated from '@/components/BlogRelated'
 import { prepareBlogHtml, privateChefBodyLinkCount, PRIVATE_CHEF_PATH } from '@/lib/blogEditorial'
 import media from '@/content/blogMedia.json'
 import { blogImageDimensions, blogImageSrcSet } from '@/lib/blogImages'
 import { articlePhotography, withArticlePhotography } from '@/lib/blogPhotography'
 import { blogServiceFor } from '@/content/blogServiceTargets'
+import { getHub, getPost } from '@/content/blogTaxonomy'
+import { trailFor } from '@/content/breadcrumbTrails'
 
 export interface RyzeArticle {
   slug: string
@@ -33,10 +34,11 @@ function displayDate(value: string | null): string {
   if (!value) return ''
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return ''
-  return new Intl.DateTimeFormat('en', {
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
     month: 'long',
     year: 'numeric',
-    timeZone: 'UTC',
+    timeZone: 'Asia/Dubai',
   }).format(date)
 }
 
@@ -60,13 +62,20 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
   const readingMinutes = Math.max(1, Math.ceil(article.body_html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '').replace(/<[^>]*>/g, ' ').trim().split(/\s+/).length / 220))
   const chefOverviewInBody = serviceHref === PRIVATE_CHEF_PATH && privateChefBodyLinkCount(content.html) > 0
   const published = displayDate(article.published_at)
+  const updated = article.updated_at !== article.published_at ? displayDate(article.updated_at) : ''
+  const hub = getHub(getPost(canonical)?.hub || '')
+  const firstHeading = content.html.search(/<h2\b/i)
+  const intro = firstHeading < 0 ? content.html : content.html.slice(0, firstHeading)
+  const sections = firstHeading < 0 ? '' : content.html.slice(firstHeading)
+  const breadcrumbs = trailFor(canonical)
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.meta_description,
     image: [hero.startsWith('/') ? SITE + hero : hero, ...(photographs?.inline.map(photo => SITE + photo.src) || [])],
-    author: { '@id': `${SITE}/#organization` },
+    author: { '@type': 'Organization', '@id': `${SITE}/#organization`, name: 'myCHEF Dubai', url: `${SITE}/about` },
     publisher: { '@id': `${SITE}/#organization` },
     datePublished: article.published_at || undefined,
     dateModified: article.updated_at || article.published_at || undefined,
@@ -80,13 +89,13 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
         description={article.meta_description || article.excerpt}
         canonicalPath={canonical}
         ogImage={hero}
-        schema={schema}
+        schema={{ '@context': 'https://schema.org', '@graph': [schema, { '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.label, item: SITE + (crumb.href || canonical) })) }] }}
       />
 
       <NonCateringVisual><PageHero
         eyebrow="myCHEF Guide"
         title={article.title}
-        subtitle={article.excerpt}
+        breadcrumbInFlow
         image={hero}
         imageSrcSet={blogImageSrcSet(hero)}
         imageAlt={heroAlt}
@@ -99,33 +108,31 @@ export default function RyzeArticlePage({ article }: { article: RyzeArticle }) {
         ]}
         minHeight="medium"
         overlay="dark"
-      /></NonCateringVisual>
-
-      <TrustSignalStrip />
+      >
+        {published && <p className="mt-6 font-inter text-sm text-white/90" data-blog-byline>
+          By <Link to="/about" className="underline underline-offset-4">myCHEF Dubai</Link>
+          <span className="mx-2" aria-hidden="true">·</span>
+          Published <time dateTime={article.published_at || undefined}>{published}</time>
+          {updated && <><span className="mx-2" aria-hidden="true">·</span>Updated <time dateTime={article.updated_at || undefined}>{updated}</time></>}
+          <span className="mx-2" aria-hidden="true">·</span>{readingMinutes} min read
+        </p>}
+      </PageHero></NonCateringVisual>
 
       <article className="bg-white section-padding">
         <div className="container-custom max-w-[820px]">
-          {published && (
-            <p className="mb-8 font-inter text-sm text-gray-400">
-              By <strong className="font-medium text-black">myCHEF Dubai Team</strong>
-              <span className="mx-3">|</span>
-              <time dateTime={article.published_at || undefined}>{published}</time>
-              <span className="mx-3" aria-hidden="true">·</span>
-              <span>{readingMinutes} min read</span>
-            </p>
-          )}
-
           {article.image?.caption && <p className="mb-6 text-xs font-inter text-gray-500">{article.image.caption}</p>}
-          {!chefOverviewInBody && <aside className="mb-8 border-l-2 border-gold bg-cream p-5 font-inter text-body-sm text-gray-700" data-blog-service-link>
-            Ready to plan your own service? Explore <Link to={serviceHref} className="font-medium text-gold-ink underline underline-offset-4">{service.anchor}</Link> for the options and next steps. When you are ready, <Link to={enquiryHref} className="font-medium text-gold-ink underline underline-offset-4">share your requirements</Link> so we can review your brief and prepare a written proposal.
-          </aside>}
-          {content.headings.length >= 4 && <nav className="blog-article-toc" aria-label="Table of contents">
+          {hub && <p className="mb-6 font-inter text-sm text-gray-600">In <Link to={`/blog/topic/${hub.slug}`} className="underline text-gold-ink">{hub.title}</Link></p>}
+          <div
+            className="blog-rich-body font-inter text-body-lg leading-relaxed text-gray-500 [&_h2]:mt-12 [&_h2]:mb-5 [&_h2]:font-playfair [&_h2]:text-h2 [&_h2]:font-semibold [&_h2]:text-black [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-playfair [&_h3]:text-h3 [&_h3]:text-black [&_h4]:mt-6 [&_h4]:mb-2 [&_h4]:font-playfair [&_h4]:text-h4 [&_h4]:text-black [&_p]:mb-5 [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-4 [&_strong]:font-semibold [&_strong]:text-black [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_blockquote]:my-8 [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:bg-cream [&_blockquote]:p-6 [&_img]:my-8 [&_img]:h-auto [&_img]:w-full [&_img]:rounded-sm [&_table]:my-8 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-gray-200 [&_th]:bg-cream [&_th]:p-3 [&_th]:text-left [&_td]:border [&_td]:border-gray-200 [&_td]:p-3"
+            dangerouslySetInnerHTML={{ __html: intro }}
+          />
+          {content.headings.length >= 2 && <nav className="blog-article-toc" aria-label="Table of contents">
             <p>On this page</p>
             <ol>{content.headings.map(heading => <li key={heading.id}><a href={`#${heading.id}`}>{heading.title}</a></li>)}</ol>
           </nav>}
           <div
             className="blog-rich-body font-inter text-body-lg leading-relaxed text-gray-500 [&_h2]:mt-12 [&_h2]:mb-5 [&_h2]:font-playfair [&_h2]:text-h2 [&_h2]:font-semibold [&_h2]:text-black [&_h3]:mt-8 [&_h3]:mb-3 [&_h3]:font-playfair [&_h3]:text-h3 [&_h3]:text-black [&_h4]:mt-6 [&_h4]:mb-2 [&_h4]:font-playfair [&_h4]:text-h4 [&_h4]:text-black [&_p]:mb-5 [&_a]:text-gold [&_a]:underline [&_a]:underline-offset-4 [&_strong]:font-semibold [&_strong]:text-black [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-6 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_blockquote]:my-8 [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:bg-cream [&_blockquote]:p-6 [&_img]:my-8 [&_img]:h-auto [&_img]:w-full [&_img]:rounded-sm [&_table]:my-8 [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-gray-200 [&_th]:bg-cream [&_th]:p-3 [&_th]:text-left [&_td]:border [&_td]:border-gray-200 [&_td]:p-3"
-            dangerouslySetInnerHTML={{ __html: content.html }}
+            dangerouslySetInnerHTML={{ __html: sections }}
           />
         </div>
       </article>

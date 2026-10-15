@@ -507,6 +507,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Canapé Reception Planning in Dubai"
   }
  ],
+ "/blog/catering-access-without-service-lift": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/menus-dietary",
+   "label": "Menus, Brunch & Dietary"
+  },
+  {
+   "label": "Catering Access When There Is No Service Lift"
+  }
+ ],
  "/blog/catering-for-international-schools-in-dubai-complete-guide": [
   {
    "href": "/",
@@ -647,6 +664,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Dubai School Food Rules 2026"
+  }
+ ],
+ "/blog/family-dinner-staggered-arrivals": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Family Dinner When Everyone Arrives at Different Times"
   }
  ],
  "/blog/grazing-table-vs-buffet-dubai": [
@@ -834,6 +868,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How to hire a private chef"
   }
  ],
+ "/blog/hybrid-workshop-catering-numbers": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/corporate",
+   "label": "Corporate & Team Catering"
+  },
+  {
+   "label": "Catering Numbers for a Hybrid Workshop"
+  }
+ ],
  "/blog/is-a-private-chef-worth-it-in-dubai-in": [
   {
    "href": "/",
@@ -951,6 +1002,110 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Outdoor Villa Catering Kitchen Planning in Dubai"
   }
  ],
+ "/blog/page/2": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 2"
+  }
+ ],
+ "/blog/page/3": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 3"
+  }
+ ],
+ "/blog/page/4": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 4"
+  }
+ ],
+ "/blog/page/5": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 5"
+  }
+ ],
+ "/blog/page/6": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 6"
+  }
+ ],
+ "/blog/page/7": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 7"
+  }
+ ],
+ "/blog/page/8": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 8"
+  }
+ ],
+ "/blog/page/9": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 9"
+  }
+ ],
  "/blog/private-chef-kitchen-preparation-dubai": [
   {
    "href": "/",
@@ -992,6 +1147,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private Chef Trial in Dubai: What to Evaluate"
+  }
+ ],
+ "/blog/surprise-dinner-arrivals-deliveries": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "A Surprise Dinner Plan for Arrivals and Deliveries"
   }
  ],
  "/blog/three-hour-yacht-party-food-timeline-dubai": [
@@ -1061,6 +1233,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What details should you send in a household chef enquiry?"
+  }
+ ],
+ "/blog/yacht-food-handover-without-waiter": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/outdoor",
+   "label": "Outdoor & Destination Dining"
+  },
+  {
+   "label": "A Yacht Food Handover When No Waiter Is Boarding"
   }
  ],
  "/blog/yacht-party-menu-ideas-dubai": [
@@ -2764,6 +2953,7 @@ export const HERO_ROUTES: string[] = [
  "/blog/nursery-meals-vs-packed-lunch-dubai",
  "/blog/nut-free-halal-nursery-meals-dubai",
  "/blog/nye-party-catering-dubai",
+ "/blog/page/:page",
  "/blog/private-chef-date-night-dubai",
  "/blog/private-chef-palm-jumeirah-guide",
  "/blog/private-chef-vs-restaurant-dubai",
@@ -2956,6 +3146,68 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
    "label": "Is it safe to let a private chef cook in my home in Dubai?"
+  },
+  {
+   "href": "/blog/page/2",
+   "label": "Page 2"
+  },
+  {
+   "href": "/blog/page/3",
+   "label": "Page 3"
+  },
+  {
+   "href": "/blog/page/4",
+   "label": "Page 4"
+  },
+  {
+   "href": "/blog/page/5",
+   "label": "Page 5"
+  },
+  {
+   "href": "/blog/page/6",
+   "label": "Page 6"
+  },
+  {
+   "href": "/blog/page/7",
+   "label": "Page 7"
+  },
+  {
+   "href": "/blog/page/8",
+   "label": "Page 8"
+  },
+  {
+   "href": "/blog/page/9",
+   "label": "Page 9"
+  }
+ ],
+ "/blog/topic/celebrations": [
+  {
+   "href": "/blog/surprise-dinner-arrivals-deliveries",
+   "label": "A Surprise Dinner Plan for Arrivals and Deliveries"
+  }
+ ],
+ "/blog/topic/corporate": [
+  {
+   "href": "/blog/hybrid-workshop-catering-numbers",
+   "label": "Catering Numbers for a Hybrid Workshop"
+  }
+ ],
+ "/blog/topic/menus-dietary": [
+  {
+   "href": "/blog/catering-access-without-service-lift",
+   "label": "Catering Access When There Is No Service Lift"
+  }
+ ],
+ "/blog/topic/outdoor": [
+  {
+   "href": "/blog/yacht-food-handover-without-waiter",
+   "label": "A Yacht Food Handover When No Waiter Is Boarding"
+  }
+ ],
+ "/blog/topic/private-chef": [
+  {
+   "href": "/blog/family-dinner-staggered-arrivals",
+   "label": "Family Dinner When Everyone Arrives at Different Times"
   }
  ],
  "/catering-dubai": [

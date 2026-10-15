@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "started_at": "2026-10-15",
+  "baseline_routes": [
+    "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+    "/blog/best-arabic-catering-companies-in-dubai",
+    "/blog/best-bbq-catering-companies-in-dubai",
+    "/blog/best-brunch-catering-services-in-dubai",
+    "/blog/best-cocktail-party-catering-companies-in-dubai",
+    "/blog/best-corporate-event-catering-companies-in-dubai",
+    "/blog/best-corporate-lunch-catering-companies-in-dubai",
+    "/blog/best-cozymeal-alternatives-for-private-dining-in-dubai",
+    "/blog/best-desert-dining-catering-companies-in-dubai",
+    "/blog/best-drop-off-catering-services-in-dubai",
+    "/blog/best-gluten-free-catering-companies-in-dubai",
+    "/blog/best-grazing-table-catering-companies-in-dubai",
+    "/blog/best-halal-catering-companies-in-dubai",
+    "/blog/best-home-catering-services-in-dubai",
+    "/blog/best-kids-birthday-party-caterers-in-dubai",
+    "/blog/best-luxury-private-dining-experiences-in-dubai",
+    "/blog/best-private-chef-birthday-dinner-dubai",
+    "/blog/best-private-chefs-for-villas-in-dubai",
+    "/blog/best-private-chefs-in-dubai-for-home-dining",
+    "/blog/best-private-cooking-class-experiences-in-dubai",
+    "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+    "/blog/best-vegan-catering-services-in-dubai",
+    "/blog/best-wedding-catering-companies-in-dubai",
+    "/blog/best-yacht-catering-services-in-dubai",
+    "/blog/brunch-at-home-dubai",
+    "/blog/buffet-layout-planning-dubai",
+    "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+    "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+    "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+    "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+    "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+    "/blog/canape-reception-planning-dubai",
+    "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+    "/blog/catering-for-embassies-in-dubai-complete-guide",
+    "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+    "/blog/catering-for-international-schools-in-dubai-complete-guide",
+    "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+    "/blog/cateringdubai-ae-alternatives-in",
+    "/blog/cateringindubai-alternatives-in",
+    "/blog/cedar-tree-catering-alternatives-in",
+    "/blog/chef-maison-alternatives-in",
+    "/blog/christmas-lunch-at-home-planning-dubai",
+    "/blog/compare-catering-quotes-dubai",
+    "/blog/corporate-catering-full-service-vs-drop-off",
+    "/blog/corporate-event-catering-ideas-dubai",
+    "/blog/desert-dinner-party-dubai",
+    "/blog/dinner-party-menu-ideas-dubai",
+    "/blog/dinner-party-timeline-dubai",
+    "/blog/dish-ae-alternatives-in",
+    "/blog/diwali-party-at-home-planning-dubai",
+    "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+    "/blog/dubai-school-food-rules-2026",
+    "/blog/grazing-table-vs-buffet-dubai",
+    "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+    "/blog/halal-private-dining-dubai-what-to-ask",
+    "/blog/household-menu-brief-dubai",
+    "/blog/how-far-ahead-book-caterer-dubai",
+    "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+    "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+    "/blog/how-much-does-private-chef-cost-dubai",
+    "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+    "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+    "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+    "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+    "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+    "/blog/how-to-hire-a-private-chef-dubai",
+    "/blog/iftar-at-home-dubai",
+    "/blog/is-a-private-chef-worth-it-in-dubai-in",
+    "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+    "/blog/kids-and-adults-party-menu-dubai",
+    "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+    "/blog/mixed-diet-dinner-party-dubai",
+    "/blog/monchef-alternatives-in",
+    "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+    "/blog/mychef-vs-cateringindubai-which-is-better-in",
+    "/blog/mychef-vs-chef-maison-which-is-better-in",
+    "/blog/mychef-vs-dish-ae-which-is-better-in",
+    "/blog/mychef-vs-monchef-which-is-better-in",
+    "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+    "/blog/mychef-vs-taste-studio-which-is-better-in",
+    "/blog/nursery-meals-vs-packed-lunch-dubai",
+    "/blog/nut-free-halal-nursery-meals-dubai",
+    "/blog/nye-party-catering-dubai",
+    "/blog/office-breakfast-planning-dubai",
+    "/blog/outdoor-villa-catering-kitchen-dubai",
+    "/blog/pinch-gourmet-alternatives-in",
+    "/blog/private-chef-date-night-dubai",
+    "/blog/private-chef-kitchen-preparation-dubai",
+    "/blog/private-chef-palm-jumeirah-guide",
+    "/blog/private-chef-trial-dubai",
+    "/blog/private-chef-vs-restaurant-dubai",
+    "/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+    "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
+    "/blog/private-chefs-for-new-parents-in-dubai-complete-guide",
+    "/blog/ramadan-iftar-catering-trends-2026",
+    "/blog/smart-catering-alternatives-in",
+    "/blog/take-a-chef-alternatives-in",
+    "/blog/taste-studio-alternatives-in",
+    "/blog/three-hour-yacht-party-food-timeline-dubai",
+    "/blog/vegan-catering-dubai-guide",
+    "/blog/wedding-catering-cost-dubai",
+    "/blog/wedding-menu-tasting-dubai",
+    "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+    "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+    "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+    "/blog/yacht-party-menu-ideas-dubai"
+  ],
+  "next_slot": 5,
+  "batches": [
+    {
+      "id": "2026-10-15-1",
+      "date": "2026-10-15",
+      "status": "staged",
+      "staged_at": "2026-10-15T08:31:56Z",
+      "articles": [
+        {
+          "path": "/blog/family-dinner-staggered-arrivals",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "e5ed5dede81f6c29a421f15f99f0070f70c1f40096a9934a0fff6e59ad3deccf",
+          "photo_ids": [
+            "pasta-073",
+            "pasta-072",
+            "pasta-121"
+          ],
+          "review": {
+            "reader_question": "How can a household brief dinner when family members arrive at different times?",
+            "distinct_value": "A two-window dinner decision table, individually allocated portions and an explicit late-arrival handover prevent the first sitting consuming later meals.",
+            "overlap_review": "The household menu brief covers general preferences and weekly schedules. This guide addresses one meal split across separate arrival windows, including who finishes later portions. It does not repeat kitchen preparation or generic meal-storage guidance.",
+            "nearest_existing_url": "/blog/household-menu-brief-dubai",
+            "claims_review": "Practical suggested arrangements and clearly hypothetical examples only; no invented prices, bookings, professional credentials, medical instructions or guaranteed service availability. Photographs are approved owner uploads illustrating context.",
+            "demand_basis": "Observed GSC topic query: home chef dubai (35 impressions on https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining, 2026-07-16 to 2026-10-13). Exact subquestion demand remains unproven; this is an original planning gap within that measured topic, not another page claiming its commercial keyword.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-13",
+              "observed_query": "home chef dubai",
+              "observed_page": "https://www.mychef.ae/blog/best-private-chefs-in-dubai-for-home-dining",
+              "impressions": 35,
+              "clicks": 2,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the relevant service topic. Demand for this precise informational subquestion is unproven; no monthly volume is fabricated."
+            }
+          },
+          "maintenance_reviews": [
+            {
+              "reason": "Initial pre-publication visual review: replace generic hero attribution with a precise, truthful description of the photographed service context.",
+              "at": "2026-10-15T08:49:43+00:00"
+            }
+          ]
+        },
+        {
+          "path": "/blog/catering-access-without-service-lift",
+          "owner": "/catering-dubai",
+          "source_sha256": "49b7ffad951df2dab19708a5d3b69f5b5dcad20f8759330b8b2ccf67029ff822",
+          "photo_ids": [
+            "buffets-057",
+            "buffets-065",
+            "buffets-071"
+          ],
+          "review": {
+            "reader_question": "What should a host tell a caterer if equipment must use stairs or a restricted access route?",
+            "distinct_value": "A route survey, separate inbound/outbound checklist and a decision sequence help hosts resolve equipment access before selecting a service format.",
+            "overlap_review": "Outdoor kitchen and buffet-layout guides cover cooking and guest-facing space. This is specifically about the route from vehicle to service area, including stair-only access and collection; it does not reproduce menu or general setup guidance.",
+            "nearest_existing_url": "/blog/outdoor-villa-catering-kitchen-dubai",
+            "claims_review": "Practical suggested arrangements and clearly hypothetical examples only; no invented prices, bookings, professional credentials, medical instructions or guaranteed service availability. Photographs are approved owner uploads illustrating context.",
+            "demand_basis": "Observed GSC topic query: home catering dubai (142 impressions on https://www.mychef.ae/catering-dubai, 2026-07-16 to 2026-10-13). Exact subquestion demand remains unproven; this is an original planning gap within that measured topic, not another page claiming its commercial keyword.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-13",
+              "observed_query": "home catering dubai",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 142,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the relevant service topic. Demand for this precise informational subquestion is unproven; no monthly volume is fabricated."
+            }
+          },
+          "maintenance_reviews": [
+            {
+              "reason": "Initial pre-publication visual review: replace generic hero attribution with a precise, truthful description of the photographed service context.",
+              "at": "2026-10-15T08:49:43+00:00"
+            }
+          ]
+        },
+        {
+          "path": "/blog/hybrid-workshop-catering-numbers",
+          "owner": "/corporate",
+          "source_sha256": "b3616f529f85909e1dbea789198076f0a811cb7c85aa8184b94fa80cc9f7e4f9",
+          "photo_ids": [
+            "buffets-066",
+            "buffets-059",
+            "buffets-119"
+          ],
+          "review": {
+            "reader_question": "How should an organiser calculate catering numbers when workshop attendance is partly remote and changes by session?",
+            "distinct_value": "A worked hypothetical reconciliation excludes remote participants, adds non-registered facilitators and distinguishes total meals from dietary allocations without double counting.",
+            "overlap_review": "The facilities and office lunch guides cover access, delivery and recurring ownership. This guide focuses on reconciling registrations and attendance across workshop sessions, with a numerical example and change-control table.",
+            "nearest_existing_url": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+            "claims_review": "Practical suggested arrangements and clearly hypothetical examples only; no invented prices, bookings, professional credentials, medical instructions or guaranteed service availability. Photographs are approved owner uploads illustrating context.",
+            "demand_basis": "Observed GSC topic query: best corporate lunch catering (8 impressions on https://www.mychef.ae/blog/best-arabic-catering-companies-in-dubai, 2026-09-16 to 2026-10-13). Exact subquestion demand remains unproven; this is an original planning gap within that measured topic, not another page claiming its commercial keyword.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-16",
+              "end_date": "2026-10-13",
+              "observed_query": "best corporate lunch catering",
+              "observed_page": "https://www.mychef.ae/blog/best-arabic-catering-companies-in-dubai",
+              "impressions": 8,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the relevant service topic. Demand for this precise informational subquestion is unproven; no monthly volume is fabricated."
+            }
+          },
+          "maintenance_reviews": [
+            {
+              "reason": "Initial pre-publication visual review: replace generic hero attribution with a precise, truthful description of the photographed service context.",
+              "at": "2026-10-15T08:49:43+00:00"
+            }
+          ]
+        },
+        {
+          "path": "/blog/surprise-dinner-arrivals-deliveries",
+          "owner": "/events",
+          "source_sha256": "d915378a5c86b2b6d3be20247d6c7d51ae087c5da674dd264a847247bdafd70d",
+          "photo_ids": [
+            "private-dining-138",
+            "private-dining-127",
+            "private-dining-131"
+          ],
+          "review": {
+            "reader_question": "How can a host coordinate catering and guests without spoiling a surprise dinner?",
+            "distinct_value": "A contact and cue system covers delivery visibility, the person accompanying the guest of honour and a fallback when the reveal moves, beyond a normal dinner timeline.",
+            "overlap_review": "Birthday and dinner-timeline guides cover the general occasion and meal sequence. This guide addresses the distinct coordination problem of a surprise reveal, including supplier access and competing arrival messages.",
+            "nearest_existing_url": "/blog/best-private-chef-birthday-dinner-dubai",
+            "claims_review": "Practical suggested arrangements and clearly hypothetical examples only; no invented prices, bookings, professional credentials, medical instructions or guaranteed service availability. Photographs are approved owner uploads illustrating context.",
+            "demand_basis": "Observed GSC topic query: private chef for birthday dinner (3 impressions on https://www.mychef.ae/, 2026-07-16 to 2026-10-13). Exact subquestion demand remains unproven; this is an original planning gap within that measured topic, not another page claiming its commercial keyword.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-13",
+              "observed_query": "private chef for birthday dinner",
+              "observed_page": "https://www.mychef.ae/",
+              "impressions": 3,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the relevant service topic. Demand for this precise informational subquestion is unproven; no monthly volume is fabricated."
+            }
+          },
+          "maintenance_reviews": [
+            {
+              "reason": "Initial pre-publication visual review: replace generic hero attribution with a precise, truthful description of the photographed service context.",
+              "at": "2026-10-15T08:49:43+00:00"
+            }
+          ]
+        },
+        {
+          "path": "/blog/yacht-food-handover-without-waiter",
+          "owner": "/yachts",
+          "source_sha256": "a52aaa25d9c21788b4adf4bf298b106aeeea604fee217854a31761f3856a9d43",
+          "photo_ids": [
+            "yachts-154",
+            "boxed-canapes-093",
+            "boxed-canapes-094"
+          ],
+          "review": {
+            "reader_question": "What must be agreed when yacht food is delivered but no catering waiter travels onboard?",
+            "distinct_value": "A delivery acceptance and responsibility checklist separates vessel-operator approval, receiving food, guest service and returnable equipment; it avoids implying the crew is automatically waiting staff.",
+            "overlap_review": "The galley guide assumes a chef may board and assesses cooking equipment. This guide covers a different arrangement: food handover with no catering waiter sailing, including acceptance, portions and who serves after departure.",
+            "nearest_existing_url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+            "claims_review": "Practical suggested arrangements and clearly hypothetical examples only; no invented prices, bookings, professional credentials, medical instructions or guaranteed service availability. Photographs are approved owner uploads illustrating context.",
+            "demand_basis": "Observed GSC topic query: yacht catering dubai (287 impressions on https://www.mychef.ae/yacht-catering-guide-dubai, 2026-07-16 to 2026-10-13). Exact subquestion demand remains unproven; this is an original planning gap within that measured topic, not another page claiming its commercial keyword.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-13",
+              "observed_query": "yacht catering dubai",
+              "observed_page": "https://www.mychef.ae/yacht-catering-guide-dubai",
+              "impressions": 287,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the relevant service topic. Demand for this precise informational subquestion is unproven; no monthly volume is fabricated."
+            }
+          },
+          "maintenance_reviews": [
+            {
+              "reason": "Initial pre-publication visual review: replace generic hero attribution with a precise, truthful description of the photographed service context.",
+              "at": "2026-10-15T08:49:43+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

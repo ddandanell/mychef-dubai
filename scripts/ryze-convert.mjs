@@ -4,6 +4,10 @@ import { fileURLToPath } from 'node:url'
 import { execFileSync } from 'node:child_process'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+// Ryze is a draft supplier. Only reviewed contracts enter the live publisher.
+execFileSync('python3', [path.join(root, 'scripts/queue-ryze-imports.py')], { stdio: 'inherit' })
+execFileSync('python3', [path.join(root, 'scripts/daily-supporting-blogs.py'), 'verify'], { stdio: 'inherit' })
+execFileSync('python3', [path.join(root, 'scripts/generate-blog-archives.py')], { stdio: 'inherit' })
 // Check all exports before writing any projections or sitemap entries. Native
 // "published" status cannot bypass editorial ownership and contextual links.
 execFileSync('python3', [path.join(root, 'scripts/verify-blog-ownership.py')], { stdio: 'inherit' })
@@ -28,7 +32,7 @@ const xmlEscape = (value) => String(value)
 function formatDate(value) {
   const date = value ? new Date(value) : new Date()
   if (Number.isNaN(date.getTime())) return 'Recent'
-  return new Intl.DateTimeFormat('en', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date)
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Dubai' }).format(date)
 }
 
 function imageFrom(article) {
@@ -122,9 +126,12 @@ for (const article of activeArticles) {
     if (redirectPaths.has(parent)) throw new Error('Redirected supporting page: ' + parent)
     ;(planningLinks[parent] ||= []).push({ url, title: article.title, excerpt: article.excerpt })
   }
+}
+for (const article of activeArticles.slice().reverse()) {
+  const url = '/blog/' + article.slug
   for (const source of article.related_from || []) {
     const links = relatedOverrides[source] ||= []
-    if (!links.includes(url)) links.push(url)
+    if (!links.includes(url)) links.unshift(url)
   }
 }
 for (const [name, data] of Object.entries({ blogPlanningLinks: planningLinks, blogRelatedOverrides: relatedOverrides })) {
@@ -165,3 +172,5 @@ sitemap = sitemap.replace('</urlset>', sitemapBlock + '\n</urlset>')
 await writeFile(sitemapFile, sitemap)
 
 console.log('Converted ' + articles.length + ' published Ryze article(s).')
+
+execFileSync('node', ['--import', 'tsx', path.join(root, 'scripts/generate-blog-inventory.ts')], { cwd: root, stdio: 'inherit' })

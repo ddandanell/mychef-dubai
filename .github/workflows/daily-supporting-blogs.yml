@@ -1,0 +1,129 @@
+name: Reviewed daily supporting blogs
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Publish a reviewed batch, or verify/recover an existing reservation
+        type: choice
+        options: [publish, verify]
+        default: publish
+        required: true
+      batch_json:
+        description: Complete reviewed editorial payload; required for publish
+        type: string
+        required: false
+      batch_date:
+        description: Reserved batch date YYYY-MM-DD; required for verify
+        type: string
+        required: false
+
+permissions:
+  contents: write
+  statuses: read
+
+concurrency:
+  group: reviewed-daily-blogs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Reserve and stage the reviewed articles
+        if: inputs.mode == 'publish'
+        env:
+          REVIEWED_BATCH_JSON: ${{ inputs.batch_json }}
+        run: |
+          python3 scripts/queue-ryze-imports.py
+          python3 - <<'PY'
+          import os, json, tempfile, subprocess
+          batch = json.loads(os.environ['REVIEWED_BATCH_JSON'])
+          with tempfile.NamedTemporaryFile(mode='w', suffix='.json') as file:
+              json.dump(batch, file)
+              file.flush()
+              subprocess.run(['python3', 'scripts/daily-supporting-blogs.py', 'stage', file.name], check=True)
+          PY
+      - name: Install and build the exact reviewed batch
+        if: inputs.mode == 'publish'
+        env:
+          VERCEL: '1'
+        run: |
+          npm ci
+          python3 scripts/generate-page-authority.py
+          python3 scripts/generate-keyword-locks.py
+          python3 scripts/generate-breadcrumbs.py
+          python3 scripts/test-blog-ownership.py
+          python3 scripts/test-daily-supporting-blogs.py
+          npm run build:prerender
+          python3 scripts/verify-seo-contract.py
+          python3 scripts/verify-keyword-locks.py
+          python3 scripts/verify-page-authority.py --rendered
+          python3 scripts/verify-blog-photography.py --rendered
+          python3 scripts/verify-public-pages.py
+          python3 scripts/verify-blog-framework.py --rendered
+          node scripts/test-blog-publishing.mjs
+      - name: Commit the reviewed publication atomically
+        if: inputs.mode == 'publish'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add blog docs/seo/myCHEF-AE-SEO-STANDARD.json src/content/pageAuthority.json src/content/keywordLocks.ts src/content/breadcrumbTrails.ts api/e.ts src/content/blogPhotography.json src/content/blogMedia.json src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts src/content/blogPlanningLinks.json src/content/blogRelatedOverrides.json public/sitemap.xml
+          git diff --cached --quiet && exit 1
+          git commit -m 'Publish reviewed supporting guides'
+          git push origin HEAD:main
+      - name: Wait for the real live article pages and record proof
+        env:
+          BATCH_MODE: ${{ inputs.mode }}
+          RESERVED_DATE: ${{ inputs.batch_date }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, subprocess, time, urllib.request
+          commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          ledger = json.load(open('blog/publishing-ledger.json'))
+          date = os.environ['RESERVED_DATE'] if os.environ['BATCH_MODE'] == 'verify' else ledger['batches'][-1]['date']
+          assert re.fullmatch(r'\d{4}-\d{2}-\d{2}', date), 'Use an existing reserved batch date'
+          subprocess.run(['python3', 'scripts/daily-supporting-blogs.py', 'verify'], check=True)
+          for attempt in range(30):
+              request = urllib.request.Request(f'https://api.github.com/repos/{os.environ["GITHUB_REPOSITORY"]}/commits/{commit}/status',
+                  headers={'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  statuses = json.load(response)['statuses']
+              deployed = any('vercel' in item['context'].lower() and item['state'] == 'success' for item in statuses)
+              if deployed:
+                  result = subprocess.run(['python3', 'scripts/daily-supporting-blogs.py', 'verify-live', '--date', date, '--commit', commit, '--record'])
+                  if result.returncode == 0:
+                      break
+              if attempt == 29:
+                  raise SystemExit('Deployment not verified. Recover this same reservation; do not create a new batch.')
+              time.sleep(20)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write(f'Verified batch {date}, publication source commit {commit}.\n')
+          PY
+      - name: Persist the verified publication ledger
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add blog/publishing-ledger.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Record live supporting-guide verification [skip ci]'
+          git push origin HEAD:main
+      - name: Preserve recoverable work and validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-blog-evidence
+          path: |
+            blog/publishing-ledger.json
+            blog/publishing-checklists.json
+            blog/data
+            docs/seo/myCHEF-AE-SEO-STANDARD.json

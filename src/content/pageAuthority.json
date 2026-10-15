@@ -381,6 +381,15 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
+  "/blog/catering-access-without-service-lift": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Catering Access Without a Service Lift | myCHEF",
+    "h1": "Catering Access When There Is No Service Lift",
+    "description": "Brief catering access before the menu is confirmed: stairs, loading routes, equipment dimensions, setup windows and collection arrangements."
+  },
   "/blog/catering-for-co-working-spaces-in-dubai-complete-guide": {
     "role": "supporting",
     "purpose": "editorial",
@@ -506,6 +515,15 @@
     "money_page": "/institutional-catering-dubai",
     "anchor": "institutional catering in Dubai"
   },
+  "/blog/family-dinner-staggered-arrivals": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "household chef visits in Dubai",
+    "title": "Family Dinners at Different Times | myCHEF",
+    "h1": "Family Dinner When Everyone Arrives at Different Times",
+    "description": "Plan a household dinner around different arrival times: portions, fresh finishing, labelled meals, schedule changes and a clear chef handover."
+  },
   "/blog/grazing-table-vs-buffet-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -616,6 +634,15 @@
     "title": "Questions to Ask Before Choosing a Household Chef | myCHEF",
     "description": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family.",
     "lead": "Before choosing a household chef, write down the meals, schedule and food preferences that matter to your family. Use these questions to assess the match and confirm responsibilities."
+  },
+  "/blog/hybrid-workshop-catering-numbers": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai",
+    "title": "Hybrid Workshop Catering Numbers | myCHEF",
+    "h1": "Catering Numbers for a Hybrid Workshop",
+    "description": "Turn workshop registrations into a practical catering count: on-site attendance, session changes, facilitators, dietary meals and a final sign-off."
   },
   "/blog/iftar-at-home-dubai": {
     "role": "supporting",
@@ -738,6 +765,78 @@
     "money_page": "/luxury-dining-experiences",
     "anchor": "private dining experiences in Dubai"
   },
+  "/blog/page/2": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 2 | myCHEF",
+    "h1": "Blog – Page 2",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/3": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 3 | myCHEF",
+    "h1": "Blog – Page 3",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/4": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 4 | myCHEF",
+    "h1": "Blog – Page 4",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/5": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 5 | myCHEF",
+    "h1": "Blog – Page 5",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/6": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 6 | myCHEF",
+    "h1": "Blog – Page 6",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/7": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 7 | myCHEF",
+    "h1": "Blog – Page 7",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/8": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 8 | myCHEF",
+    "h1": "Blog – Page 8",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/page/9": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 9 | myCHEF",
+    "h1": "Blog – Page 9",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
   "/blog/pinch-gourmet-alternatives-in": {
     "role": "supporting",
     "purpose": "editorial",
@@ -807,6 +906,15 @@
     "purpose": "editorial",
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
+  },
+  "/blog/surprise-dinner-arrivals-deliveries": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "private event catering in Dubai",
+    "title": "Surprise Dinner Arrivals and Deliveries | myCHEF",
+    "h1": "A Surprise Dinner Plan for Arrivals and Deliveries",
+    "description": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
   },
   "/blog/take-a-chef-alternatives-in": {
     "role": "supporting",
@@ -907,6 +1015,15 @@
     "anchor": "private chef services in Dubai",
     "h1": "What details should you send in a household chef enquiry?",
     "title": "Household chef enquiry details checklist: What to send | myCHEF"
+  },
+  "/blog/yacht-food-handover-without-waiter": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering arrangements in Dubai",
+    "title": "Yacht Food Handover Without a Waiter | myCHEF",
+    "h1": "A Yacht Food Handover When No Waiter Is Boarding",
+    "description": "Plan a yacht food delivery without onboard waiting staff: receiving contact, menu suitability, storage instructions, serving responsibility and returns."
   },
   "/blog/yacht-party-menu-ideas-dubai": {
     "role": "supporting",

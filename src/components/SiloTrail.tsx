@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router'
 import { ChevronRight } from 'lucide-react'
 import { hasOwnHeroTrail, trailFor } from '@/content/breadcrumbTrails'
+import { RYZE_BLOG_PATHS } from '@/content/ryzeBlogPaths'
 
 /**
  * The page's place in the silo, drawn once, from the contract.
@@ -15,7 +16,7 @@ import { hasOwnHeroTrail, trailFor } from '@/content/breadcrumbTrails'
 export default function SiloTrail() {
   const { pathname } = useLocation()
   const trail = trailFor(pathname)
-  if (trail.length < 2 || hasOwnHeroTrail(pathname)) return null
+  if (trail.length < 2 || hasOwnHeroTrail(pathname) || RYZE_BLOG_PATHS.includes(pathname)) return null
 
   return (
     <nav aria-label="Breadcrumb" className="pointer-events-none absolute inset-x-0 top-0 z-20">

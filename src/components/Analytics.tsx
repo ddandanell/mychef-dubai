@@ -6,6 +6,7 @@ import { formLabel, placementFromElement } from '../lib/trackVocab'
 import { classifyTrackedCta, conversionParams, ctaTextParam, shouldGenerateLead } from '../lib/conversionEvents'
 import { getAdAttribution } from '../lib/adAttribution'
 import { installContactAttribution } from '../lib/contactAttribution'
+import { pageAuthorityFor } from '@/content/pageAuthority'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -54,6 +55,19 @@ export default function Analytics() {
       const track = a.getAttribute('data-track') || ''
       const placement = placementFromElement(a)
       const ctaLocation = a.getAttribute('data-cta-location') || placement
+
+      // A navigation click is engagement, never a submitted lead or booking.
+      if (pagePath.startsWith('/blog/') && !pagePath.startsWith('/blog/topic/') && !pagePath.startsWith('/blog/page/')) {
+        const destination = new URL(a.href, window.location.origin)
+        const owner = pageAuthorityFor(pagePath)?.money_page
+        if (destination.origin === window.location.origin && destination.pathname === owner) {
+          trackEvent('blog_money_page_click', {
+            blog_path: pagePath, money_page_path: owner,
+            page_path: pagePath, link_url: destination.pathname,
+            cta_location: ctaLocation,
+          })
+        }
+      }
 
       if (track === 'event_card' || track === 'service_card') {
         trackEvent(track === 'service_card' ? 'service_card_click' : 'event_card_click', {

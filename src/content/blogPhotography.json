@@ -1716,5 +1716,120 @@
       }
     ],
     "provenance": "Owner-supplied myCHEF photographs from the October 2026 uploads; existing approved assets reused for editorial illustration."
+  },
+  "/blog/family-dinner-staggered-arrivals": {
+    "hero": {
+      "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+      "alt": "Chef behind an indoor pasta station with ingredients and serving bowls."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp",
+        "alt": "Chef at a live pasta station with pasta varieties and sauces.",
+        "caption": "A clearly organised cooking area helps a chef separate preparation from the final finishing of a meal.",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "src": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp",
+        "alt": "Chef preparing food at a live pasta counter.",
+        "caption": "Finishing a dish is a separate task from preparing its components; agree who will do each part.",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/catering-access-without-service-lift": {
+    "hero": {
+      "src": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp",
+      "alt": "Indoor buffet with salads, bread, warm dishes and stacked plates."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp",
+        "alt": "Buffet table with chafing dishes, plates and a floral arrangement.",
+        "caption": "Serving equipment and stacked plates form part of the access plan, alongside the food.",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp",
+        "alt": "Service team arranging food at a long indoor buffet.",
+        "caption": "Setup and collection need an agreed route as well as an agreed serving time.",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/hybrid-workshop-catering-numbers": {
+    "hero": {
+      "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+      "alt": "Indoor catering buffet with salads, warm dishes and serving plates."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp",
+        "alt": "Service staff preparing a long catered buffet indoors.",
+        "caption": "A workshop brief should distinguish the people attending each meal from the total registration list.",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp",
+        "alt": "Indoor buffet with salads, serving dishes and stacked plates.",
+        "caption": "Define the meal windows before deciding how the buffet will be served and cleared.",
+        "width": 1280,
+        "height": 576
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/surprise-dinner-arrivals-deliveries": {
+    "hero": {
+      "src": "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp",
+      "alt": "Garden dining table with candles, glassware and greenery at night."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp",
+        "alt": "Round dinner tables set in a garden beneath string lights.",
+        "caption": "A prepared dining area gives the host a clear destination for guests after the reveal.",
+        "width": 1160,
+        "height": 868
+      },
+      {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table.",
+        "caption": "Table details can be arranged in advance when venue access and the service plan allow.",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/yacht-food-handover-without-waiter": {
+    "hero": {
+      "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+      "alt": "Yacht dining table with the marina visible beyond the deck."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp",
+        "alt": "Vegetarian canapé selection in a myCHEF presentation box.",
+        "caption": "Boxed presentation can make portions easier to identify; confirm that it suits the boat and agreed menu.",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp",
+        "alt": "Mixed catering platters in branded presentation boxes.",
+        "caption": "Ask which packaging stays onboard and how returnable presentation items will be collected.",
+        "width": 900,
+        "height": 1248
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
   }
 }

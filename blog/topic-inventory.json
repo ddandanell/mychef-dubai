@@ -1,0 +1,1117 @@
+{
+  "source": "Approved SEO contract and current blog catalogue; publication evidence is in publishing-ledger.json.",
+  "money_pages": [
+    {
+      "url": "/private-chef-dubai",
+      "primary": "private chef dubai"
+    },
+    {
+      "url": "/full-time-private-chef-dubai",
+      "primary": "full time private chef dubai"
+    },
+    {
+      "url": "/catering-dubai",
+      "primary": "catering dubai"
+    },
+    {
+      "url": "/events",
+      "primary": "event catering dubai"
+    },
+    {
+      "url": "/corporate",
+      "primary": "corporate catering dubai"
+    },
+    {
+      "url": "/institutional-catering-dubai",
+      "primary": "institutional catering dubai"
+    },
+    {
+      "url": "/luxury-dining-experiences",
+      "primary": "private dining experience dubai"
+    },
+    {
+      "url": "/yachts",
+      "primary": "yacht catering dubai"
+    }
+  ],
+  "hubs": [
+    {
+      "url": "/blog/topic/private-chef",
+      "slug": "private-chef",
+      "title": "Private Chef Guides"
+    },
+    {
+      "url": "/blog/topic/institutional",
+      "slug": "institutional",
+      "title": "Nurseries, Schools & Canteens"
+    },
+    {
+      "url": "/blog/topic/corporate",
+      "slug": "corporate",
+      "title": "Corporate & Team Catering"
+    },
+    {
+      "url": "/blog/topic/celebrations",
+      "slug": "celebrations",
+      "title": "Weddings, Parties & Celebrations"
+    },
+    {
+      "url": "/blog/topic/seasonal",
+      "slug": "seasonal",
+      "title": "Ramadan & Seasonal Dining"
+    },
+    {
+      "url": "/blog/topic/outdoor",
+      "slug": "outdoor",
+      "title": "Outdoor & Destination Dining"
+    },
+    {
+      "url": "/blog/topic/menus-dietary",
+      "slug": "menus-dietary",
+      "title": "Menus, Brunch & Dietary"
+    }
+  ],
+  "posts": [
+    {
+      "url": "/blog/best-private-chef-birthday-dinner-dubai",
+      "title": "How to Plan a Birthday Dinner at Home in Dubai",
+      "primary": "how to plan a birthday dinner at home in dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/brunch-at-home-dubai",
+      "title": "Brunch at Home Dubai: A Hosting Guide",
+      "primary": "brunch at home dubai",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/corporate-catering-full-service-vs-drop-off",
+      "title": "Full Service vs Drop Off Catering Dubai",
+      "primary": "full service vs drop off catering dubai",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/corporate-event-catering-ideas-dubai",
+      "title": "Corporate Event Catering Ideas Dubai",
+      "primary": "corporate event catering ideas dubai",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/desert-dinner-party-dubai",
+      "title": "Desert Dinner Party Dubai: Planning Guide",
+      "primary": "desert dinner party dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/dinner-party-menu-ideas-dubai",
+      "title": "Dinner Party Menu Ideas Dubai",
+      "primary": "dinner party menu ideas dubai",
+      "owner": "/events",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/grazing-table-vs-buffet-dubai",
+      "title": "Grazing Table vs Buffet Dubai: How to Choose",
+      "primary": "grazing table vs buffet dubai",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/halal-private-dining-dubai-what-to-ask",
+      "title": "What to Ask a Halal Caterer Dubai",
+      "primary": "what to ask a halal caterer dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/how-far-ahead-book-caterer-dubai",
+      "title": "How Far in Advance to Book a Caterer Dubai",
+      "primary": "how far in advance to book a caterer dubai",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/how-much-does-private-chef-cost-dubai",
+      "title": "Private Chef Quotes Explained: Time, Food and Service",
+      "primary": "private chef quotes explained: time, food and service",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/how-to-hire-a-private-chef-dubai",
+      "title": "A Household Chef Selection Checklist for Dubai Families",
+      "primary": "a household chef selection checklist for dubai families",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/iftar-at-home-dubai",
+      "title": "Iftar at Home Dubai: Menu and Planning Guide",
+      "primary": "iftar at home dubai",
+      "owner": "/catering-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/nye-party-catering-dubai",
+      "title": "NYE Party Catering Dubai: Planning Guide",
+      "primary": "nye party catering dubai",
+      "owner": "/catering-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/private-chef-date-night-dubai",
+      "title": "Private Chef Date Night Dubai",
+      "primary": "private chef date night dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/private-chef-palm-jumeirah-guide",
+      "title": "Planning a Dinner in Palm Jumeirah: Kitchen and Access Checklist",
+      "primary": "planning a dinner in palm jumeirah: kitchen and access checklist",
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/private-chef-vs-restaurant-dubai",
+      "title": "Private Chef vs Restaurant Dubai",
+      "primary": "private chef vs restaurant dubai",
+      "owner": "/private-chef-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/ramadan-iftar-catering-trends-2026",
+      "title": "Ramadan Catering Trends Dubai 2026",
+      "primary": "ramadan catering trends dubai 2026",
+      "owner": "/catering-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/vegan-catering-dubai-guide",
+      "title": "Vegan Menu Ideas Dubai",
+      "primary": "vegan menu ideas dubai",
+      "owner": "/catering-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/wedding-catering-cost-dubai",
+      "title": "Wedding Catering Cost Dubai: Prices and Planning",
+      "primary": "wedding catering cost dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+      "title": "Meal Prep vs Private Chef Dubai",
+      "primary": "meal prep vs private chef dubai",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": null,
+      "in_archive": false,
+      "indexable": false
+    },
+    {
+      "url": "/blog/yacht-party-menu-ideas-dubai",
+      "title": "Yacht Party Menu Ideas Dubai",
+      "primary": "yacht party menu ideas dubai",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/nut-free-halal-nursery-meals-dubai",
+      "title": "Nut-Free Nursery Meals Dubai",
+      "primary": "nut-free nursery meals dubai",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+      "title": "Nursery Meals vs Packed Lunch Dubai",
+      "primary": "nursery provided meals vs packed lunch dubai",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/dubai-school-food-rules-2026",
+      "title": "Dubai School Food Rules 2026",
+      "primary": "dubai school food rules 2026",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-arabic-catering-companies-in-dubai",
+      "title": "How to Plan an Arabic Menu for a Dubai Gathering",
+      "primary": "how to plan an arabic menu for a dubai gathering",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-bbq-catering-companies-in-dubai",
+      "title": "Planning a BBQ Party in Dubai: Space, Smoke and Service",
+      "primary": "planning a bbq party in dubai: space, smoke and service",
+      "owner": "/catering-dubai",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-brunch-catering-services-in-dubai",
+      "title": "How to Compare Brunch Menus for a Dubai Home Gathering",
+      "primary": "how to compare brunch menus for a dubai home gathering",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-corporate-event-catering-companies-in-dubai",
+      "title": "How to Assess a Corporate Event Catering Proposal",
+      "primary": "how to assess a corporate event catering proposal",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-corporate-lunch-catering-companies-in-dubai",
+      "title": "Planning Office Lunches: Delivery, Diets and Billing",
+      "primary": "planning office lunches: delivery, diets and billing",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-grazing-table-catering-companies-in-dubai",
+      "title": "Planning a Grazing Table: Portions, Space and Setup",
+      "primary": "planning a grazing table: portions, space and setup",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-halal-catering-companies-in-dubai",
+      "title": "What to Ask a Caterer About Halal Ingredients",
+      "primary": "what to ask a caterer about halal ingredients",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-kids-birthday-party-caterers-in-dubai",
+      "title": "Planning Children’s Party Food: Ages, Portions and Timing",
+      "primary": "planning children’s party food: ages, portions and timing",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-luxury-private-dining-experiences-in-dubai",
+      "title": "How to Choose a Private Dinner Format in Dubai",
+      "primary": "how to choose a private dinner format in dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-private-chefs-for-villas-in-dubai",
+      "title": "What to Include in a Dubai Villa Chef Brief",
+      "primary": "what to include in a dubai villa chef brief",
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-private-chefs-in-dubai-for-home-dining",
+      "title": "Household chef or event catering: which arrangement do you need?",
+      "primary": "household chef or event catering",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-private-cooking-class-experiences-in-dubai",
+      "title": "Planning a Cooking Class at Home: Skills, Space and Guests",
+      "primary": "planning a cooking class at home: skills, space and guests",
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-ramadan-iftar-catering-companies-in-dubai",
+      "title": "Planning an Iftar Menu: Timing, Portions and Service",
+      "primary": "planning an iftar menu: timing, portions and service",
+      "owner": "/catering-dubai",
+      "hub": "seasonal",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-vegan-catering-services-in-dubai",
+      "title": "How to Compare Plant-Based Event Menus",
+      "primary": "how to compare plant-based event menus",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-wedding-catering-companies-in-dubai",
+      "title": "Questions to Ask Before Shortlisting a Wedding Caterer",
+      "primary": "questions to ask before shortlisting a wedding caterer",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-yacht-catering-services-in-dubai",
+      "title": "How to Compare Yacht Catering Proposals in Dubai",
+      "primary": "how to compare yacht catering proposals in dubai",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/private-chef-kitchen-preparation-dubai",
+      "title": "Private Chef Kitchen Preparation in Dubai",
+      "primary": "private chef kitchen preparation in dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/private-chef-kitchen-preparation-dubai.json"
+    },
+    {
+      "url": "/blog/private-chef-trial-dubai",
+      "title": "Private Chef Trial in Dubai: What to Evaluate",
+      "primary": "private chef trial in dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/private-chef-trial-dubai.json"
+    },
+    {
+      "url": "/blog/household-menu-brief-dubai",
+      "title": "A Household Menu Brief for Your Dubai Chef",
+      "primary": "household menu brief",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/household-menu-brief-dubai.json"
+    },
+    {
+      "url": "/blog/dinner-party-timeline-dubai",
+      "title": "Dinner Party Timeline in Dubai: A Host’s Guide",
+      "primary": "dinner party timeline in dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/dinner-party-timeline-dubai.json"
+    },
+    {
+      "url": "/blog/office-breakfast-planning-dubai",
+      "title": "Office Breakfast Planning in Dubai",
+      "primary": "office breakfast planning in dubai",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/office-breakfast-planning-dubai.json"
+    },
+    {
+      "url": "/blog/canape-reception-planning-dubai",
+      "title": "Canapé Reception Planning in Dubai",
+      "primary": "canapé reception planning in dubai",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/canape-reception-planning-dubai.json"
+    },
+    {
+      "url": "/blog/three-hour-yacht-party-food-timeline-dubai",
+      "title": "A Yacht Party Food Timeline for Three Hours in Dubai",
+      "primary": "yacht party food timeline",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/three-hour-yacht-party-food-timeline-dubai.json"
+    },
+    {
+      "url": "/blog/buffet-layout-planning-dubai",
+      "title": "Buffet Layout Planning in Dubai: A Practical Guide",
+      "primary": "buffet layout planning in dubai",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/buffet-layout-planning-dubai.json"
+    },
+    {
+      "url": "/blog/kids-and-adults-party-menu-dubai",
+      "title": "Kids and Adults Party Menu Planning in Dubai",
+      "primary": "kids and adults party menu",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/kids-and-adults-party-menu-dubai.json"
+    },
+    {
+      "url": "/blog/christmas-lunch-at-home-planning-dubai",
+      "title": "Christmas Lunch at Home in Dubai: Planning Guide",
+      "primary": "christmas lunch at home in dubai",
+      "owner": "/catering-dubai",
+      "hub": "seasonal",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/christmas-lunch-at-home-planning-dubai.json"
+    },
+    {
+      "url": "/blog/diwali-party-at-home-planning-dubai",
+      "title": "Diwali Party at Home in Dubai: A Planning Guide",
+      "primary": "diwali party at home in dubai",
+      "owner": "/catering-dubai",
+      "hub": "seasonal",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/diwali-party-at-home-planning-dubai.json"
+    },
+    {
+      "url": "/blog/wedding-menu-tasting-dubai",
+      "title": "Wedding Menu Tasting in Dubai: Questions to Ask",
+      "primary": "wedding menu tasting in dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/wedding-menu-tasting-dubai.json"
+    },
+    {
+      "url": "/blog/outdoor-villa-catering-kitchen-dubai",
+      "title": "Outdoor Villa Catering Kitchen Planning in Dubai",
+      "primary": "outdoor villa catering kitchen",
+      "owner": "/luxury-dining-experiences",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/outdoor-villa-catering-kitchen-dubai.json"
+    },
+    {
+      "url": "/blog/compare-catering-quotes-dubai",
+      "title": "How to Compare Catering Quotes in Dubai",
+      "primary": "compare catering quotes in dubai",
+      "owner": "/catering-dubai",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/compare-catering-quotes-dubai.json"
+    },
+    {
+      "url": "/blog/mixed-diet-dinner-party-dubai",
+      "title": "A Mixed-Diet Dinner Party in Dubai: Menu Planning",
+      "primary": "mixed-diet dinner party in dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/mixed-diet-dinner-party-dubai.json"
+    },
+    {
+      "url": "/blog/best-cocktail-party-catering-companies-in-dubai",
+      "title": "Planning Food and Guest Flow for a Standing Reception",
+      "primary": "planning food and guest flow for a standing reception",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-cozymeal-alternatives-for-private-dining-in-dubai",
+      "title": "Best Cozymeal alternatives for private dining in Dubai",
+      "primary": null,
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-desert-dining-catering-companies-in-dubai",
+      "title": "How to Compare Desert Dinner Logistics in Dubai",
+      "primary": "how to compare desert dinner logistics in dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-drop-off-catering-services-in-dubai",
+      "title": "What to Check Before a Drop-Off Catering Delivery",
+      "primary": "what to check before a drop-off catering delivery",
+      "owner": "/catering-dubai",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-gluten-free-catering-companies-in-dubai",
+      "title": "Questions to Ask About a Gluten-Free Event Menu",
+      "primary": "questions to ask about a gluten-free event menu",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/best-home-catering-services-in-dubai",
+      "title": "What equipment should you check before home catering?",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
+      "title": "Co-working event catering: delivery and shared-space checklist",
+      "primary": null,
+      "owner": "/corporate",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/catering-for-embassies-in-dubai-complete-guide",
+      "title": "Embassy event catering: access and service briefing checklist",
+      "primary": null,
+      "owner": "/corporate",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
+      "title": "Film production catering: shifts, access and meal brief",
+      "primary": null,
+      "owner": "/corporate",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/catering-for-real-estate-open-houses-in-dubai-complete-guide",
+      "title": "Real estate open-house catering: guest-flow checklist",
+      "primary": null,
+      "owner": "/corporate",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/cateringdubai-ae-alternatives-in",
+      "title": "CateringDubai.ae alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/cateringindubai-alternatives-in",
+      "title": "CateringInDubai alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/cedar-tree-catering-alternatives-in",
+      "title": "Cedar Tree Catering alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/chef-maison-alternatives-in",
+      "title": "Chef Maison alternatives in 2026",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/dish-ae-alternatives-in",
+      "title": "Dish.ae alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
+      "title": "Meal prep for busy executives: how to plan the cooking week",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/monchef-alternatives-in",
+      "title": "MonChef alternatives in 2026",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-cateringindubai-which-is-better-in",
+      "title": "myCHEF vs CateringInDubai: which is better in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-chef-maison-which-is-better-in",
+      "title": "myCHEF vs Chef Maison: which is better in 2026",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-dish-ae-which-is-better-in",
+      "title": "myCHEF vs Dish.ae: what to check in an event proposal",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-monchef-which-is-better-in",
+      "title": "myCHEF vs MonChef: questions to compare a Dubai booking",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-pinch-gourmet-which-is-better-in",
+      "title": "myCHEF vs Pinch Gourmet: which is better in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/mychef-vs-taste-studio-which-is-better-in",
+      "title": "myCHEF vs Taste Studio: comparing event service scope",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/pinch-gourmet-alternatives-in",
+      "title": "Pinch Gourmet alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/private-chefs-for-elderly-care-in-dubai-complete-guide",
+      "title": "Cooking for older adults: what should a chef brief cover?",
+      "primary": null,
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
+      "title": "Expat family household cooking: what to put in the chef brief",
+      "primary": null,
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/private-chefs-for-new-parents-in-dubai-complete-guide",
+      "title": "Meal support for new parents: a household chef brief",
+      "primary": null,
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/smart-catering-alternatives-in",
+      "title": "Smart Catering alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/take-a-chef-alternatives-in",
+      "title": "Take A Chef alternatives in 2026",
+      "primary": null,
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/taste-studio-alternatives-in",
+      "title": "Taste Studio alternatives in 2026",
+      "primary": null,
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true
+    },
+    {
+      "url": "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low",
+      "title": "How do you manage groceries between weekly chef visits?",
+      "primary": "grocery planning between weekly chef visits",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low.json"
+    },
+    {
+      "url": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+      "title": "One dinner at home: should you brief a chef or caterer?",
+      "primary": "one dinner at home chef catering",
+      "owner": "/luxury-dining-experiences",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai.json"
+    },
+    {
+      "url": "/blog/catering-for-international-schools-in-dubai-complete-guide",
+      "title": "School event catering briefs: access, timing and dietary needs",
+      "primary": "school event catering brief dubai",
+      "owner": "/institutional-catering-dubai",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/catering-for-international-schools-in-dubai-complete-guide.json"
+    },
+    {
+      "url": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+      "title": "How do you build a running order for a plated dinner?",
+      "primary": "plated dinner running order checklist",
+      "owner": "/luxury-dining-experiences",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/guest-list-to-plated-dinner-private-chef-event-workflow.json"
+    },
+    {
+      "url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+      "title": "What galley details does a yacht chef need before boarding?",
+      "primary": "yacht chef galley briefing checklist",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai.json"
+    },
+    {
+      "url": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+      "title": "How should a wedding planner organise a catering tasting?",
+      "primary": "wedding planner catering tasting checklist",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai.json"
+    },
+    {
+      "url": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+      "title": "How should facilities teams coordinate office lunch catering?",
+      "primary": "facilities team office lunch catering checklist",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-connect-office-facilities-management-to-lunch-catering.json"
+    },
+    {
+      "url": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+      "title": "How should a villa concierge coordinate recurring chef visits?",
+      "primary": "villa concierge recurring chef visit checklist",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-connect-villa-concierge-to-recurring-private-chef-visits.json"
+    },
+    {
+      "url": "/blog/is-a-private-chef-worth-it-in-dubai-in",
+      "title": "Is a private chef worth it in Dubai in 2026?",
+      "primary": "is a private chef worth it in dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/is-a-private-chef-worth-it-in-dubai-in.json"
+    },
+    {
+      "url": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+      "title": "How do you review your first month with a household chef?",
+      "primary": "first month household chef review checklist",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/monthly-chef-booking-to-weekly-meal-plan-workflow.json"
+    },
+    {
+      "url": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+      "title": "How do you brief a meal-prep chef on a nutrition plan?",
+      "primary": "meal prep chef nutrition plan brief",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/weekly-meal-prep-to-hitting-your-macros-complete-workflow.json"
+    },
+    {
+      "url": "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+      "title": "What details should you send in a household chef enquiry?",
+      "primary": "household chef enquiry details checklist",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/whatsapp-inquiry-to-booked-private-chef-complete-workflow.json"
+    },
+    {
+      "url": "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
+      "title": "How do you change a scheduled meal-prep chef visit?",
+      "primary": "change scheduled meal prep chef visit",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-i-pause-or-skip-a-week-of-meal-prep-delivery.json"
+    },
+    {
+      "url": "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+      "title": "Do private chefs in Dubai bring their own groceries and equipment?",
+      "primary": "do private chefs bring their own ingredients",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment.json"
+    },
+    {
+      "url": "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
+      "title": "Is it safe to let a private chef cook in my home in Dubai?",
+      "primary": "is it safe to have a private chef at home",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai.json"
+    },
+    {
+      "url": "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+      "title": "How to brief a chef for keto and gluten-free meals",
+      "primary": "planning keto and gluten free household meals",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai.json"
+    },
+    {
+      "url": "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+      "title": "How long does a private chef home visit take in Dubai?",
+      "primary": "how long does a private chef visit take",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-long-does-a-private-chef-home-visit-take-in-dubai.json"
+    },
+    {
+      "url": "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+      "title": "Can a private chef serve both Arabic and international dishes?",
+      "primary": "private chef arabic and international menu",
+      "owner": "/luxury-dining-experiences",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-a-private-chef-serve-both-arabic-and-international-dishes.json"
+    },
+    {
+      "url": "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
+      "title": "How long does meal prep stay fresh in the fridge?",
+      "primary": "how long does meal prep last in the fridge",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-long-does-meal-prep-stay-fresh-in-the-fridge.json"
+    },
+    {
+      "url": "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+      "title": "How do you choose cooking days for a monthly chef plan?",
+      "primary": "monthly chef plan cooking days",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis.json"
+    },
+    {
+      "url": "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+      "title": "What should a weekly meal-prep quote include?",
+      "primary": "weekly meal prep quote inclusions",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-much-does-weekly-meal-prep-cost-in-dubai-in.json"
+    },
+    {
+      "url": "/blog/family-dinner-staggered-arrivals",
+      "title": "Family Dinner When Everyone Arrives at Different Times",
+      "primary": "family dinner staggered arrivals",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/family-dinner-staggered-arrivals.json"
+    },
+    {
+      "url": "/blog/catering-access-without-service-lift",
+      "title": "Catering Access When There Is No Service Lift",
+      "primary": "catering access without service lift",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/catering-access-without-service-lift.json"
+    },
+    {
+      "url": "/blog/hybrid-workshop-catering-numbers",
+      "title": "Catering Numbers for a Hybrid Workshop",
+      "primary": "hybrid workshop catering numbers",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/hybrid-workshop-catering-numbers.json"
+    },
+    {
+      "url": "/blog/surprise-dinner-arrivals-deliveries",
+      "title": "A Surprise Dinner Plan for Arrivals and Deliveries",
+      "primary": "surprise dinner arrivals and deliveries",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/surprise-dinner-arrivals-deliveries.json"
+    },
+    {
+      "url": "/blog/yacht-food-handover-without-waiter",
+      "title": "A Yacht Food Handover When No Waiter Is Boarding",
+      "primary": "yacht food handover without waiter",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/yacht-food-handover-without-waiter.json"
+    }
+  ],
+  "held_imports": []
+}

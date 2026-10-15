@@ -37,7 +37,7 @@ class Page(HTMLParser):
 count=0;image_count=0
 if '--rendered' in sys.argv:
  for path in authority:
-  if not path.startswith('/blog/') or path.startswith('/blog/topic/'):continue
+  if not path.startswith('/blog/') or path.startswith(('/blog/topic/','/blog/page/')):continue
   f=ROOT/'dist'/path.strip('/')/'index.html';check(f.exists(),path+': missing rendered article')
   if not f.exists():continue
   page=Page();page.feed(f.read_text());count+=1;image_count+=len(page.images)

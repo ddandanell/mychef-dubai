@@ -401,6 +401,36 @@
         "src": "/images/previous-work/mychef-chef-at-a-live-pasta-station-with-pasta-varieties-and-sauces-072-large.webp",
         "alt": "Chef at a live pasta station with pasta varieties and sauces."
       }
+    },
+    "/blog/family-dinner-staggered-arrivals": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+        "alt": "Chef behind an indoor pasta station with ingredients and serving bowls."
+      }
+    },
+    "/blog/catering-access-without-service-lift": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp",
+        "alt": "Indoor buffet with salads, bread, warm dishes and stacked plates."
+      }
+    },
+    "/blog/hybrid-workshop-catering-numbers": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+        "alt": "Indoor catering buffet with salads, warm dishes and serving plates."
+      }
+    },
+    "/blog/surprise-dinner-arrivals-deliveries": {
+      "hero": {
+        "src": "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp",
+        "alt": "Garden dining table with candles, glassware and greenery at night."
+      }
+    },
+    "/blog/yacht-food-handover-without-waiter": {
+      "hero": {
+        "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+        "alt": "Yacht dining table with the marina visible beyond the deck."
+      }
     }
   },
   "sources": {
@@ -505,7 +535,18 @@
     "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp": 1080,
     "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp": 960,
     "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp": 960,
-    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": 1024
+    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": 1024,
+    "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp": 1280,
+    "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp": 1280,
+    "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp": 960,
+    "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp": 1280,
+    "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp": 960,
+    "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp": 1280,
+    "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp": 1280,
+    "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp": 1160,
+    "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp": 1280,
+    "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp": 960,
+    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": 900
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1679,6 +1720,50 @@
     "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": {
       "width": 1024,
       "height": 576
+    },
+    "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp": {
+      "width": 1280,
+      "height": 576
+    },
+    "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp": {
+      "width": 1160,
+      "height": 868
+    },
+    "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": {
+      "width": 900,
+      "height": 1248
     }
   },
   "srcsets": {
@@ -1909,6 +1994,17 @@
     "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-thumb.webp 640w, /images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp 1080w",
     "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-thumb.webp 480w, /images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp 960w",
     "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp": "/images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-thumb.webp 480w, /images/previous-work/mychef-chef-preparing-pasta-at-an-outdoor-live-cooking-station-074-large.webp 960w",
-    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-thumb.webp 640w, /images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp 1024w"
+    "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp": "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-thumb.webp 640w, /images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp 1024w",
+    "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-thumb.webp 640w, /images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp 1280w",
+    "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp": "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-thumb.webp 640w, /images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp 1280w",
+    "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp": "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-thumb.webp 480w, /images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp 960w",
+    "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-thumb.webp 640w, /images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp 1280w",
+    "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp": "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-thumb.webp 480w, /images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp 960w",
+    "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp": "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-thumb.webp 640w, /images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp 1280w",
+    "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp": "/images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-thumb.webp 640w, /images/previous-work/mychef-garden-dining-table-with-candles-glassware-and-greenery-at-night-138-large.webp 1280w",
+    "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-thumb.webp 640w, /images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp 1160w",
+    "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-thumb.webp 640w, /images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp 1280w",
+    "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-thumb.webp 480w, /images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp 960w",
+    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-thumb.webp 462w, /images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp 900w"
   }
 }

@@ -8,6 +8,13 @@ on:
       - "scripts/ryze-convert.mjs"
       - "scripts/verify-blog-ownership.py"
       - "scripts/test-blog-ownership.py"
+      - "scripts/queue-ryze-imports.py"
+      - "scripts/daily-supporting-blogs.py"
+      - "scripts/test-daily-supporting-blogs.py"
+      - "scripts/generate-blog-archives.py"
+      - "scripts/verify-blog-framework.py"
+      - "blog/publishing-policy.json"
+      - "blog/publishing-ledger.json"
       - "src/content/pageAuthority.json"
       - "src/content/blogPhotography.json"
 
@@ -39,6 +46,7 @@ jobs:
       - name: Convert Ryze articles
         run: |
           python3 scripts/test-blog-ownership.py
+          python3 scripts/test-daily-supporting-blogs.py
           node scripts/ryze-convert.mjs
 
       - name: Verify core money-page ownership
@@ -57,12 +65,13 @@ jobs:
           python3 scripts/verify-page-authority.py --rendered
           python3 scripts/verify-blog-photography.py --rendered
           python3 scripts/verify-public-pages.py
+          python3 scripts/verify-blog-framework.py --rendered
           node scripts/test-site-navigation.mjs
           node scripts/test-pricing-ui.mjs
 
       - name: Commit generated pages
         run: |
-          git add src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts src/content/blogPlanningLinks.json src/content/blogRelatedOverrides.json public/sitemap.xml
+          git add blog/data docs/seo/myCHEF-AE-SEO-STANDARD.json src/content/pageAuthority.json src/content/keywordLocks.ts src/content/breadcrumbTrails.ts api/e.ts src/content/ryze-pages src/content/ryzeBlogPaths.ts src/content/ryzeBlogPosts.ts src/content/blogPlanningLinks.json src/content/blogRelatedOverrides.json public/sitemap.xml blog/publishing-checklists.json blog/topic-inventory.json
           if git diff --cached --quiet; then
             echo "No generated changes"
             exit 0

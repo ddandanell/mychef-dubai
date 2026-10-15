@@ -291,6 +291,7 @@ export const routes: AppRoute[] = [
   { path: "/diwali-catering-dubai", element: <DiwaliCatering />, preload: DiwaliCatering.preload },
   { path: "/guides", element: <Guides />, preload: Guides.preload },
   { path: "/blog", element: <Blog />, preload: Blog.preload },
+  { path: "/blog/page/:page", element: <Blog />, preload: Blog.preload },
   { path: "/blog/topic/:hub", element: <BlogCategoryHub />, preload: BlogCategoryHub.preload },
   { path: "/blog/ramadan-iftar-catering-trends-2026", element: <RamadanIftarTrends2026 />, preload: RamadanIftarTrends2026.preload },
   { path: "/blog/yacht-party-menu-ideas-dubai", element: <YachtPartyMenuIdeas />, preload: YachtPartyMenuIdeas.preload },

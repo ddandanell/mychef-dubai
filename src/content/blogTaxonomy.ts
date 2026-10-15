@@ -271,7 +271,7 @@ export const BLOG_POSTS: BlogPost[] = [...RYZE_BLOG_POSTS, ...ALL_BLOG_POSTS]
   .filter((post) => {
   const slug = post.slug.startsWith('/') ? post.slug : `/blog/${post.slug}`
   return !isParked(slug)
-})
+}).sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
 export const BLOG_HUBS: BlogHub[] = [
   {
@@ -536,18 +536,28 @@ export function getHub(slug: string): BlogHub | undefined {
   return BLOG_HUBS.find((h) => h.slug === slug)
 }
 
+const HUB_START_HERE: Record<string, string[]> = {
+  'private-chef': ['/blog/how-to-hire-a-private-chef-dubai', '/blog/household-menu-brief-dubai', '/blog/private-chef-trial-dubai'],
+  corporate: ['/blog/best-corporate-event-catering-companies-in-dubai', '/blog/best-corporate-lunch-catering-companies-in-dubai', '/blog/how-to-connect-office-facilities-management-to-lunch-catering'],
+  celebrations: ['/blog/dinner-party-timeline-dubai', '/blog/best-kids-birthday-party-caterers-in-dubai', '/blog/dinner-party-menu-ideas-dubai'],
+  outdoor: ['/blog/three-hour-yacht-party-food-timeline-dubai', '/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai', '/blog/best-desert-dining-catering-companies-in-dubai'],
+  'menus-dietary': ['/blog/compare-catering-quotes-dubai', '/blog/buffet-layout-planning-dubai', '/blog/mixed-diet-dinner-party-dubai'],
+  seasonal: ['/blog/best-ramadan-iftar-catering-companies-in-dubai', '/blog/christmas-lunch-at-home-planning-dubai', '/blog/diwali-party-at-home-planning-dubai'],
+  institutional: ['/blog/dubai-school-food-rules-2026', '/blog/catering-for-international-schools-in-dubai-complete-guide', '/blog/nursery-meals-vs-packed-lunch-dubai'],
+}
+
 export function postsInHub(hubSlug: string): BlogPost[] {
-  return BLOG_POSTS.filter((p) => p.hub === hubSlug)
+  const posts = BLOG_POSTS.filter((p) => p.hub === hubSlug)
+  const pinned = (HUB_START_HERE[hubSlug] || []).map(url => posts.find(p => p.slug === url)).filter((p): p is BlogPost => Boolean(p))
+  return [...pinned, ...posts.filter(p => !pinned.includes(p))]
 }
 
 /** Related posts: same-hub siblings first, then fill from the rest, excluding the current post. */
 export function relatedPosts(slug: string, n = 3): BlogPost[] {
-  const curated = (relatedOverrides as Record<string, string[]>)[slug]
-  if (curated?.length) return curated.map(path => getPost(path)).filter((post): post is BlogPost => Boolean(post) && !isParked(post!.slug)).slice(0, n)
+  const curated = ((relatedOverrides as Record<string, string[]>)[slug] || []).map(path => getPost(path)).filter((post): post is BlogPost => Boolean(post) && post!.slug !== slug && !isParked(post!.slug))
   const current = getPost(slug)
-  const siblings = current ? BLOG_POSTS.filter((p) => p.hub === current.hub && p.slug !== slug) : []
-  const others = BLOG_POSTS.filter((p) => p.slug !== slug && !siblings.includes(p))
-  return [...siblings, ...others].slice(0, n)
+  const siblings = current ? BLOG_POSTS.filter((p) => p.hub === current.hub && p.slug !== slug && !curated.some(c => c.slug === p.slug)) : []
+  return [...curated, ...siblings].slice(0, n)
 }
 
 /** Money-page links for a post: its hub pillar plus any post-specific pillars (deduped). */

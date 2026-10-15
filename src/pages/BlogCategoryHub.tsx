@@ -123,6 +123,7 @@ export default function BlogCategoryHub() {
                   />
                 </div>
                 <div className="p-6">
+                  <p className="font-inter text-xs text-gray-500 mb-2">{post.date}</p>
                   <span className="font-inter text-xs uppercase tracking-wider text-gold font-medium block mb-2">
                     {post.category}
                   </span>

@@ -50,7 +50,7 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   return (
-    <div className={`${pathname === '/gallery' ? 'previous-work-page' : ''} flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') ? 'blog-page' : ''}`}>
+    <div className={`${pathname === '/gallery' ? 'previous-work-page' : ''} flex min-h-[100dvh] flex-col bg-black text-white ${pathname.endsWith('/menus-prices') ? 'menu-catalogue-page' : ''} ${isCanape ? 'canape-design' : ''} ${isChefDesignPage(pathname) ? 'pc-design' : ''} ${isCateringDesignPage(pathname) ? 'ct-design' : ''} ${pathname.startsWith('/blog/') && !pathname.startsWith('/blog/topic/') && !pathname.startsWith('/blog/page/') ? 'blog-page' : ''}`}>
       <Navbar />
       <WhatsAppMessageProvider>
         <main key={pathname} className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">

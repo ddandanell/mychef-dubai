@@ -12,6 +12,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { BLOG_TOPIC_HUB_PATHS } from '../src/content/blogTaxonomy'
 import { RYZE_BLOG_PATHS } from '../src/content/ryzeBlogPaths'
+import { BLOG_ARCHIVE_PATHS } from '../src/content/blogArchive'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
@@ -147,7 +148,7 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
 ]
 
 function parseRoutes(source: string): string[] {
-  const routes: string[] = [...RYZE_BLOG_PATHS]
+  const routes: string[] = [...RYZE_BLOG_PATHS, ...BLOG_ARCHIVE_PATHS]
   // Match route declarations in src/routes.tsx: { path: "/...", ... }
   const routeRegex = /\{\s*path:\s*["']([^"']+)["']/g
   let match: RegExpExecArray | null

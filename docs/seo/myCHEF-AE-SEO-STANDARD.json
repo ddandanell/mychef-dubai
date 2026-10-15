@@ -63253,6 +63253,986 @@
     ],
     "supporting_guides": []
    }
+  },
+  "/blog/family-dinner-staggered-arrivals": {
+   "url": "/blog/family-dinner-staggered-arrivals",
+   "absolute_url": "https://www.mychef.ae/blog/family-dinner-staggered-arrivals",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "family dinner staggered arrivals",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Family Dinners at Different Times | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Family Dinner When Everyone Arrives at Different Times",
+    "h1_count": 1,
+    "meta_description": "Plan a household dinner around different arrival times: portions, fresh finishing, labelled meals, schedule changes and a clear chef handover.",
+    "meta_description_max_chars": 160,
+    "og_title": "Family Dinners at Different Times | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/family-dinner-staggered-arrivals",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/family-dinner-staggered-arrivals",
+      "anchor": "Family Dinner When Everyone Arrives at Different Times",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "household chef visits in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "household chef visits in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/family-dinner-staggered-arrivals.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "household chef visits in Dubai",
+    "title": "Family Dinners at Different Times | myCHEF",
+    "h1": "Family Dinner When Everyone Arrives at Different Times",
+    "description": "Plan a household dinner around different arrival times: portions, fresh finishing, labelled meals, schedule changes and a clear chef handover."
+   }
+  },
+  "/blog/catering-access-without-service-lift": {
+   "url": "/blog/catering-access-without-service-lift",
+   "absolute_url": "https://www.mychef.ae/blog/catering-access-without-service-lift",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/menus-dietary",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "catering access without service lift",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Catering Access Without a Service Lift | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Catering Access When There Is No Service Lift",
+    "h1_count": 1,
+    "meta_description": "Brief catering access before the menu is confirmed: stairs, loading routes, equipment dimensions, setup windows and collection arrangements.",
+    "meta_description_max_chars": 160,
+    "og_title": "Catering Access Without a Service Lift | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/catering-access-without-service-lift",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/menus-dietary",
+      "anchor": "Menus, Brunch & Dietary"
+     },
+     {
+      "url": "/blog/catering-access-without-service-lift",
+      "anchor": "Catering Access When There Is No Service Lift",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/catering-access-without-service-lift.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Catering Access Without a Service Lift | myCHEF",
+    "h1": "Catering Access When There Is No Service Lift",
+    "description": "Brief catering access before the menu is confirmed: stairs, loading routes, equipment dimensions, setup windows and collection arrangements."
+   }
+  },
+  "/blog/hybrid-workshop-catering-numbers": {
+   "url": "/blog/hybrid-workshop-catering-numbers",
+   "absolute_url": "https://www.mychef.ae/blog/hybrid-workshop-catering-numbers",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/corporate",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "hybrid workshop catering numbers",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Hybrid Workshop Catering Numbers | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Catering Numbers for a Hybrid Workshop",
+    "h1_count": 1,
+    "meta_description": "Turn workshop registrations into a practical catering count: on-site attendance, session changes, facilitators, dietary meals and a final sign-off.",
+    "meta_description_max_chars": 160,
+    "og_title": "Hybrid Workshop Catering Numbers | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/hybrid-workshop-catering-numbers",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/corporate",
+      "anchor": "Corporate & Team Catering"
+     },
+     {
+      "url": "/blog/hybrid-workshop-catering-numbers",
+      "anchor": "Catering Numbers for a Hybrid Workshop",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/corporate",
+     "anchor": "corporate catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/corporate",
+      "anchor": "corporate catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/hybrid-workshop-catering-numbers.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering in Dubai",
+    "title": "Hybrid Workshop Catering Numbers | myCHEF",
+    "h1": "Catering Numbers for a Hybrid Workshop",
+    "description": "Turn workshop registrations into a practical catering count: on-site attendance, session changes, facilitators, dietary meals and a final sign-off."
+   }
+  },
+  "/blog/surprise-dinner-arrivals-deliveries": {
+   "url": "/blog/surprise-dinner-arrivals-deliveries",
+   "absolute_url": "https://www.mychef.ae/blog/surprise-dinner-arrivals-deliveries",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "surprise dinner arrivals and deliveries",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Surprise Dinner Arrivals and Deliveries | myCHEF",
+    "title_max_chars": 65,
+    "h1": "A Surprise Dinner Plan for Arrivals and Deliveries",
+    "h1_count": 1,
+    "meta_description": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change.",
+    "meta_description_max_chars": 160,
+    "og_title": "Surprise Dinner Arrivals and Deliveries | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/surprise-dinner-arrivals-deliveries",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/surprise-dinner-arrivals-deliveries",
+      "anchor": "A Surprise Dinner Plan for Arrivals and Deliveries",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/events",
+     "anchor": "private event catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/events",
+      "anchor": "private event catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/surprise-dinner-arrivals-deliveries.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "private event catering in Dubai",
+    "title": "Surprise Dinner Arrivals and Deliveries | myCHEF",
+    "h1": "A Surprise Dinner Plan for Arrivals and Deliveries",
+    "description": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
+   }
+  },
+  "/blog/yacht-food-handover-without-waiter": {
+   "url": "/blog/yacht-food-handover-without-waiter",
+   "absolute_url": "https://www.mychef.ae/blog/yacht-food-handover-without-waiter",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/outdoor",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "yacht food handover without waiter",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Yacht Food Handover Without a Waiter | myCHEF",
+    "title_max_chars": 65,
+    "h1": "A Yacht Food Handover When No Waiter Is Boarding",
+    "h1_count": 1,
+    "meta_description": "Plan a yacht food delivery without onboard waiting staff: receiving contact, menu suitability, storage instructions, serving responsibility and returns.",
+    "meta_description_max_chars": 160,
+    "og_title": "Yacht Food Handover Without a Waiter | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/yacht-food-handover-without-waiter",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/outdoor",
+      "anchor": "Outdoor & Destination Dining"
+     },
+     {
+      "url": "/blog/yacht-food-handover-without-waiter",
+      "anchor": "A Yacht Food Handover When No Waiter Is Boarding",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/yachts",
+     "anchor": "yacht catering arrangements in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/yachts",
+      "anchor": "yacht catering arrangements in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/yacht-food-handover-without-waiter.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering arrangements in Dubai",
+    "title": "Yacht Food Handover Without a Waiter | myCHEF",
+    "h1": "A Yacht Food Handover When No Waiter Is Boarding",
+    "description": "Plan a yacht food delivery without onboard waiting staff: receiving contact, menu suitability, storage instructions, serving responsibility and returns."
+   }
+  },
+  "/blog/page/2": {
+   "url": "/blog/page/2",
+   "absolute_url": "https://www.mychef.ae/blog/page/2",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 2 | myCHEF",
+    "h1": "Blog – Page 2",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/2",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/2",
+      "anchor": "Page 2",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 2 | myCHEF",
+    "h1": "Blog – Page 2",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/3": {
+   "url": "/blog/page/3",
+   "absolute_url": "https://www.mychef.ae/blog/page/3",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 3 | myCHEF",
+    "h1": "Blog – Page 3",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/3",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/3",
+      "anchor": "Page 3",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 3 | myCHEF",
+    "h1": "Blog – Page 3",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/4": {
+   "url": "/blog/page/4",
+   "absolute_url": "https://www.mychef.ae/blog/page/4",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 4 | myCHEF",
+    "h1": "Blog – Page 4",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/4",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/4",
+      "anchor": "Page 4",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 4 | myCHEF",
+    "h1": "Blog – Page 4",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/5": {
+   "url": "/blog/page/5",
+   "absolute_url": "https://www.mychef.ae/blog/page/5",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 5 | myCHEF",
+    "h1": "Blog – Page 5",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/5",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/5",
+      "anchor": "Page 5",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 5 | myCHEF",
+    "h1": "Blog – Page 5",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/6": {
+   "url": "/blog/page/6",
+   "absolute_url": "https://www.mychef.ae/blog/page/6",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 6 | myCHEF",
+    "h1": "Blog – Page 6",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/6",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/6",
+      "anchor": "Page 6",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 6 | myCHEF",
+    "h1": "Blog – Page 6",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/7": {
+   "url": "/blog/page/7",
+   "absolute_url": "https://www.mychef.ae/blog/page/7",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 7 | myCHEF",
+    "h1": "Blog – Page 7",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/7",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/7",
+      "anchor": "Page 7",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 7 | myCHEF",
+    "h1": "Blog – Page 7",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/8": {
+   "url": "/blog/page/8",
+   "absolute_url": "https://www.mychef.ae/blog/page/8",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 8 | myCHEF",
+    "h1": "Blog – Page 8",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/8",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/8",
+      "anchor": "Page 8",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 8 | myCHEF",
+    "h1": "Blog – Page 8",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
+  },
+  "/blog/page/9": {
+   "url": "/blog/page/9",
+   "absolute_url": "https://www.mychef.ae/blog/page/9",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 9 | myCHEF",
+    "h1": "Blog – Page 9",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/9",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/9",
+      "anchor": "Page 9",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 9 | myCHEF",
+    "h1": "Blog – Page 9",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
   }
  },
  "authority_policy": {

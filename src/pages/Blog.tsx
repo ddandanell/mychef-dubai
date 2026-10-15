@@ -5,7 +5,7 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
-import { Link } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -14,13 +14,15 @@ import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import { BLOG_POSTS, BLOG_HUBS, postsInHub } from '../content/blogTaxonomy'
 import { SectionLabel } from '../components/system'
+import BlogPagination from '@/components/BlogPagination'
+import { BLOG_PAGE_COUNT, BLOG_PAGE_SIZE, BLOG_START_HERE, blogPagePath } from '@/content/blogArchive'
+import { blogImageDimensions } from '@/lib/blogImages'
 
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your blog and would like to discuss catering (via mychef.ae/blog)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const posts = BLOG_POSTS
 
 const collectionSchema = {
   '@type': 'CollectionPage',
@@ -44,6 +46,12 @@ const schema = {
 
 export default function Blog() {
   useScrollTrigger()
+  const { page: rawPage } = useParams()
+  const page = rawPage ? Number(rawPage) : 1
+  const valid = Number.isInteger(page) && page >= 1 && page <= BLOG_PAGE_COUNT && (!rawPage || (page > 1 && String(page) === rawPage))
+  const current = valid ? page : 1
+  const archivePath = blogPagePath(current)
+  const posts = BLOG_POSTS.slice((current - 1) * BLOG_PAGE_SIZE, current * BLOG_PAGE_SIZE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -55,21 +63,30 @@ export default function Blog() {
     })
   }, { scope: containerRef })
 
+  if (!valid) return <main className="container-custom py-40 text-black"><SEO title="Blog page not found" canonicalPath="/blog" noindex /><h1>Blog page not found</h1><Link to="/blog">Browse the blog</Link></main>
+
   return (
     <div ref={containerRef}>
       <SEO
-        title="Blog | myCHEF"
+        title={current === 1 ? "Blog | myCHEF" : `Blog – Page ${current} | myCHEF`}
         description="The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
-        canonicalPath="/blog"
+        canonicalPath={archivePath}
         ogImage="/images/mychef-dubai-blog-hero.webp"
         preloadHero="/images/mychef-dubai-blog-hero.webp"
-        schema={schema}
+        schema={current === 1 ? schema : { '@context': 'https://schema.org', '@graph': [
+          { ...collectionSchema, name: `myCHEF Dubai Blog – Page ${current}`, url: `https://www.mychef.ae${archivePath}` },
+          { '@type': 'BreadcrumbList', itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mychef.ae/blog' },
+            { '@type': 'ListItem', position: 3, name: `Page ${current}`, item: `https://www.mychef.ae${archivePath}` },
+          ] },
+        ] }}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="News & Inspiration"
-        title="Blog"
+        title={current === 1 ? "Blog" : `Blog – Page ${current}`}
         subtitle={"Practical advice for hosting in Dubai, covering household chefs, event catering, menus and the details to confirm before you book."}
         image="/images/mychef-dubai-blog-hero.webp"
         imageAlt="Private chef evening in a Dubai villa: the host stays seated with guests while the culinary team finishes service"
@@ -78,7 +95,7 @@ export default function Blog() {
         cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog' }]}
-        minHeight="full"
+        minHeight={current === 1 ? "large" : "medium"}
         overlay="medium"
         imagePosition="center 40%"
       />
@@ -120,6 +137,11 @@ export default function Blog() {
         </div>
       </section>
 
+      {current === 1 && <section className="bg-white pt-12"><div className="container-custom max-w-[1100px]">
+        <h2 className="font-playfair text-h3 text-black mb-5">Start with the essentials</h2>
+        <div className="grid gap-4 md:grid-cols-3">{BLOG_START_HERE.map(path => BLOG_POSTS.find(p => p.slug === path)).filter(Boolean).map(post => <Link key={post!.slug} to={post!.slug} className="border border-gray-200 p-5 text-black hover:border-gold"><h3 className="font-playfair text-h4 mb-3">{post!.title}</h3><p className="text-sm text-gray-600">{post!.excerpt}</p></Link>)}</div>
+      </div></section>}
+
       {/* ═══════════════ Blog Grid ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
@@ -130,7 +152,7 @@ export default function Blog() {
             </h2>
           </div>
 
-          <div className="blog-grid grid md:grid-cols-2 gap-8">
+          <div className="blog-grid grid md:grid-cols-2 gap-8" data-blog-archive>
             {posts.map((post) => (
               <Link
                 key={post.slug}
@@ -142,7 +164,9 @@ export default function Blog() {
                     src={post.image}
                     srcSet={blogImageSrcSet(post.image)}
                     sizes="(min-width: 768px) 530px, calc(100vw - 40px)"
-                    alt={post.title}
+                    alt={(media.pages as Record<string, { hero: { alt: string } }>)[post.slug]?.hero.alt || post.title}
+                    width={blogImageDimensions(post.image)?.width}
+                    height={blogImageDimensions(post.image)?.height}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                     decoding="async"
@@ -169,6 +193,7 @@ export default function Blog() {
               </Link>
             ))}
           </div>
+          <BlogPagination current={current} />
         </div>
       </section>
 
@@ -205,3 +230,5 @@ export default function Blog() {
   )
 }
 import { blogImageSrcSet } from '@/lib/blogImages'
+
+import media from '@/content/blogMedia.json'
