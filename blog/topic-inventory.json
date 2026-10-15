@@ -1113,5 +1113,24 @@
       "source": "blog/data/yacht-food-handover-without-waiter.json"
     }
   ],
-  "held_imports": []
+  "held_imports": [
+    {
+      "slug": "can-meal-prep-portions-be-adjusted-for-kids",
+      "title": "Can meal prep portions be adjusted for kids?",
+      "status": "pending_review",
+      "source": "blog/data/can-meal-prep-portions-be-adjusted-for-kids.json"
+    },
+    {
+      "slug": "how-many-guests-can-a-dubai-caterer-serve-for-one-event",
+      "title": "How many guests can a Dubai caterer serve for one event?",
+      "status": "pending_review",
+      "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
+    },
+    {
+      "slug": "weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans",
+      "title": "Weight loss meal prep in Dubai: chef-cooked vs packaged plans",
+      "status": "pending_review",
+      "source": "blog/data/weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans.json"
+    }
+  ]
 }
