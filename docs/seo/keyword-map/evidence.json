@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15 04:12",
+ "generated": "2026-10-16 04:12",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "315",
+   "value": "337",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-10-15 04:12",
+  "generated": "2026-10-16 04:12",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-10-15 04:12",
+  "generated": "2026-10-16 04:12",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,7 +2112,7 @@
   "locations": []
  },
  "pages": {
-  "contract": 315,
+  "contract": 337,
   "board": 226,
   "routes": 179,
   "frozen": 263,
@@ -2143,8 +2143,13 @@
    "/blog/best-wedding-catering-companies-in-dubai",
    "/blog/best-yacht-catering-services-in-dubai",
    "/blog/buffet-layout-planning-dubai",
+   "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+   "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
+   "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
    "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+   "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
    "/blog/canape-reception-planning-dubai",
+   "/blog/catering-access-without-service-lift",
    "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
    "/blog/catering-for-embassies-in-dubai-complete-guide",
    "/blog/catering-for-film-and-tv-productions-in-dubai-complete-guide",
@@ -2159,14 +2164,21 @@
    "/blog/dinner-party-timeline-dubai",
    "/blog/dish-ae-alternatives-in",
    "/blog/diwali-party-at-home-planning-dubai",
+   "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+   "/blog/family-dinner-staggered-arrivals",
    "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
    "/blog/household-menu-brief-dubai",
+   "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+   "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
    "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
+   "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
    "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
    "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
    "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
    "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+   "/blog/hybrid-workshop-catering-numbers",
    "/blog/is-a-private-chef-worth-it-in-dubai-in",
+   "/blog/is-it-safe-to-let-a-private-chef-cook-in-my-home-in-dubai",
    "/blog/kids-and-adults-party-menu-dubai",
    "/blog/meal-prep-for-busy-executives-in-dubai-complete-guide",
    "/blog/mixed-diet-dinner-party-dubai",
@@ -2180,6 +2192,14 @@
    "/blog/mychef-vs-taste-studio-which-is-better-in",
    "/blog/office-breakfast-planning-dubai",
    "/blog/outdoor-villa-catering-kitchen-dubai",
+   "/blog/page/2",
+   "/blog/page/3",
+   "/blog/page/4",
+   "/blog/page/5",
+   "/blog/page/6",
+   "/blog/page/7",
+   "/blog/page/8",
+   "/blog/page/9",
    "/blog/pinch-gourmet-alternatives-in",
    "/blog/private-chef-kitchen-preparation-dubai",
    "/blog/private-chef-trial-dubai",
@@ -2187,6 +2207,7 @@
    "/blog/private-chefs-for-expat-families-in-dubai-complete-guide",
    "/blog/private-chefs-for-new-parents-in-dubai-complete-guide",
    "/blog/smart-catering-alternatives-in",
+   "/blog/surprise-dinner-arrivals-deliveries",
    "/blog/take-a-chef-alternatives-in",
    "/blog/taste-studio-alternatives-in",
    "/blog/three-hour-yacht-party-food-timeline-dubai",
@@ -2200,6 +2221,7 @@
    "/blog/wedding-menu-tasting-dubai",
    "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
    "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
+   "/blog/yacht-food-handover-without-waiter",
    "/corporate/menus-prices",
    "/inquiry",
    "/luxury-dining-experiences/menus-prices",
