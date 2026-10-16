@@ -422,6 +422,15 @@
     "money_page": "/corporate",
     "anchor": "corporate catering in Dubai"
   },
+  "/blog/catering-leftovers-plan-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering service in Dubai",
+    "title": "Leftover Food After Catered Events: What to Agree | myCHEF",
+    "h1": "What happens to leftover food after a catered event in Dubai?",
+    "description": "Agree who owns leftover food, how it is labelled and what is collected before a catered event. A decision table and host checklist for Dubai parties."
+  },
   "/blog/cateringdubai-ae-alternatives-in": {
     "role": "supporting",
     "purpose": "editorial",
@@ -523,6 +532,15 @@
     "title": "Family Dinners at Different Times | myCHEF",
     "h1": "Family Dinner When Everyone Arrives at Different Times",
     "description": "Plan a household dinner around different arrival times: portions, fresh finishing, labelled meals, schedule changes and a clear chef handover."
+  },
+  "/blog/full-time-private-chef-day-off-cover-plan": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time private chef in Dubai",
+    "title": "Full-Time Private Chef Day Off and Cover Meal Plan | myCHEF",
+    "h1": "Full-time private chef day off: how to plan meals while they rest",
+    "description": "Plan weekly days off, holidays and sick cover for a full-time private chef: batch-cooked meals, a cover table and what to tell the household. Dubai guide."
   },
   "/blog/grazing-table-vs-buffet-dubai": {
     "role": "supporting",
@@ -843,6 +861,15 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
+  "/blog/private-chef-and-household-helper-kitchen-roles": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Private Chef and Household Helper Roles | myCHEF",
+    "h1": "Private chef and household helper: who does what in the kitchen?",
+    "description": "Agree who shops, preps, cooks, clears and cleans when a private chef and your household helper share one kitchen. Role table and handover checklist for Dubai."
+  },
   "/blog/private-chef-date-night-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -895,11 +922,29 @@
     "money_page": "/full-time-private-chef-dubai",
     "anchor": "long-term household chef services in Dubai"
   },
+  "/blog/private-dinner-seating-and-service-flow-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private luxury dining experiences in Dubai",
+    "title": "Private Dinner Seating and Service Flow Checklist | myCHEF",
+    "h1": "How to plan seating and service flow for a private dinner at home",
+    "description": "Plan who sits where, how courses reach each guest and where the chef works at a private dinner for 8 to 12. Table, timings and a host checklist for Dubai."
+  },
   "/blog/ramadan-iftar-catering-trends-2026": {
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
+  },
+  "/blog/school-caterer-backup-plan-missed-delivery": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai",
+    "title": "School Caterer Backup Plan: Questions to Ask | myCHEF",
+    "h1": "What backup plan should a school or nursery ask its caterer for?",
+    "description": "Ask a school or nursery caterer what happens if a delivery is late, a cook is absent or a dietary tray is wrong. Backup-plan table and checklist for Dubai."
   },
   "/blog/smart-catering-alternatives-in": {
     "role": "supporting",

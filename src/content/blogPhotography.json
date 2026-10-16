@@ -1831,5 +1831,120 @@
       }
     ],
     "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/private-chef-and-household-helper-kitchen-roles": {
+    "hero": {
+      "src": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp",
+      "alt": "Long indoor dining table set with plates, glasses and chairs."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-pasta-station-with-dry-pasta-varieties-and-ingredient-bowls-122-large.webp",
+        "alt": "Pasta station with dry pasta varieties and ingredient bowls.",
+        "caption": "A live pasta station from a previous myCHEF event, shown to illustrate chef-led cooking set-up rather than the example household.",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp",
+        "alt": "Live pasta counter with glass stands and sauce ingredients.",
+        "caption": "Sauce ingredients and a pasta counter from a previous myCHEF event; context only.",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/catering-leftovers-plan-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp",
+      "alt": "Buffet table with salads, canapés and fresh floral arrangements."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp",
+        "alt": "Indoor buffet with food displays beside large windows.",
+        "caption": "An indoor buffet beside large windows from a previous myCHEF event; context only, not the example lunch.",
+        "width": 590,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp",
+        "alt": "Styled buffet with a floral centrepiece, salads and serving bowls.",
+        "caption": "A styled buffet with serving bowls from a previous myCHEF event; context only.",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/full-time-private-chef-day-off-cover-plan": {
+    "hero": {
+      "src": "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp",
+      "alt": "Long outdoor dining table with neutral linen and floral arrangements."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp",
+        "alt": "Chef at an evening pasta station in a garden.",
+        "caption": "A chef at an evening pasta station in a garden, from a previous myCHEF event; context only.",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp",
+        "alt": "Private dining table with tall candles and delicate floral details.",
+        "caption": "A private dining table with tall candles and floral details from a previous myCHEF event; context only, not the example household.",
+        "width": 768,
+        "height": 1024
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/private-dinner-seating-and-service-flow-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp",
+      "alt": "Round dinner tables set in a garden beneath string lights."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp",
+        "alt": "Long garden dinner table set with white chairs at night.",
+        "caption": "A long garden dinner table set at night, from a previous myCHEF setting; context only, not the example villa.",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table.",
+        "caption": "A white and gold place setting on a garden table, from a previous myCHEF setting; context only.",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/school-caterer-backup-plan-missed-delivery": {
+    "hero": {
+      "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+      "alt": "Long buffet with salads and warm dishes in an event space."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp",
+        "alt": "Long row of warm buffet dishes with a chef at the far end.",
+        "caption": "A row of warm dishes with a chef at the far end, from a previous myCHEF catering job; context only, not a school kitchen.",
+        "width": 858,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp",
+        "alt": "Long catered buffet with flowers and covered chafing dishes.",
+        "caption": "A long catered buffet with covered chafing dishes, from a previous myCHEF catering job; context only.",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
   }
 }

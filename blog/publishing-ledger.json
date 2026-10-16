@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 5,
+  "next_slot": 10,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -323,6 +323,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-16-2",
+      "date": "2026-10-16",
+      "status": "staged",
+      "staged_at": "2026-10-16T05:48:08Z",
+      "articles": [
+        {
+          "path": "/blog/private-chef-and-household-helper-kitchen-roles",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "bc0fa1fb7084431ca49bc8f1f040d96838973714244d689fd25d4cd5eef225a7",
+          "photo_ids": [
+            "private-dining-136",
+            "pasta-122",
+            "pasta-123"
+          ],
+          "review": {
+            "reader_question": "Who should shop, cook, wash up and clean when a private chef works alongside an existing household helper?",
+            "distinct_value": "A task-by-task ownership table, a briefing sequence and a hypothetical worked evening settle overlaps in a shared kitchen, which the menu-brief and kitchen-preparation guides do not cover.",
+            "nearest_existing_url": "/blog/private-chef-kitchen-preparation-dubai",
+            "overlap_review": "The kitchen-preparation guide covers what a host prepares before the chef arrives and the household menu brief covers preferences. This guide covers dividing duties between the chef and a household helper, so it does not repeat either.",
+            "claims_review": "Suggested arrangements and a clearly hypothetical example only; no prices, bookings, credentials, medical instructions or fixed service rules are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: chef at home dubai (50 impressions, 2 clicks on https://www.mychef.ae/, 2026-07-16 to 2026-10-14). Demand for this exact subquestion is unproven; it is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-14",
+              "observed_query": "chef at home dubai",
+              "observed_page": "https://www.mychef.ae/",
+              "impressions": 50,
+              "clicks": 2,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/catering-leftovers-plan-dubai",
+          "owner": "/catering-dubai",
+          "source_sha256": "865e1684cafc6f1abce91c370301a7bc88b9bda20104fd96cf3754583727e3b7",
+          "photo_ids": [
+            "buffets-060",
+            "buffets-062",
+            "buffets-063"
+          ],
+          "review": {
+            "reader_question": "What should a host agree with a caterer about leftover food, labelling and collection before the event?",
+            "distinct_value": "A food-by-food decision table and host checklist covering end-of-event ownership, which quote-comparison and buffet-layout guides do not address.",
+            "nearest_existing_url": "/blog/buffet-layout-planning-dubai",
+            "overlap_review": "The buffet layout guide covers guest-facing space and the quote guide compares inclusions. Neither covers end-of-event handling of leftover food, so there is no duplicated intent.",
+            "claims_review": "No food-safety limits, prices or guarantees are asserted; readers are directed to the caterer's written guidance and official Dubai guidance. The example is labelled hypothetical. Photographs are owner-approved previous-work images.",
+            "demand_basis": "Observed GSC topic query: home catering dubai (144 impressions, 1 click on https://www.mychef.ae/catering-dubai, 2026-07-16 to 2026-10-14). Exact subquestion demand is unproven; this is an original planning gap in the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-14",
+              "observed_query": "home catering dubai",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 144,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/full-time-private-chef-day-off-cover-plan",
+          "owner": "/full-time-private-chef-dubai",
+          "source_sha256": "31f34c3a4068a62d84dbce4de66630cf34c0b05e002e522313f3802205f5bf6d",
+          "photo_ids": [
+            "private-dining-133",
+            "pasta-124",
+            "private-dining-137"
+          ],
+          "review": {
+            "reader_question": "How should a household plan meals when its full-time private chef has a day off, leave or is unwell?",
+            "distinct_value": "A cover options table, a handover checklist and a hypothetical cook-ahead example give households a method for gaps, which the weekly-meal-prep comparison and monthly-booking guides do not.",
+            "nearest_existing_url": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+            "overlap_review": "The comparison guide weighs weekly meal prep against a full-time chef and the monthly guide covers booking length. This guide covers meal cover during the chef's absence, so it neither repeats the comparison nor targets the service-page keyword.",
+            "claims_review": "No prices, contract terms, legal or employment advice are stated; readers are told to check their own agreement. The example is hypothetical. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: full time private chef dubai (27 impressions, 1 click on https://www.mychef.ae/full-time-private-chef-dubai, 2026-07-16 to 2026-10-14). The service page owns this query; demand for this subquestion is unproven and the guide is a planning supplement.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-14",
+              "observed_query": "full time private chef dubai",
+              "observed_page": "https://www.mychef.ae/full-time-private-chef-dubai",
+              "impressions": 27,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic, owned by the service page. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/private-dinner-seating-and-service-flow-dubai",
+          "owner": "/luxury-dining-experiences",
+          "source_sha256": "1a3dbea0bd013f33c842778807942b2284cc6e759ed74b2f897967755d295977",
+          "photo_ids": [
+            "private-dining-127",
+            "private-dining-130",
+            "private-dining-131"
+          ],
+          "review": {
+            "reader_question": "How should a host arrange seating, the chef's workspace and plate routes for a private dinner of eight to twelve guests at home?",
+            "distinct_value": "A seating and service-flow decision table, a course-timing outline and a hypothetical villa example cover room layout, which the timeline and menu-ideas guides do not.",
+            "nearest_existing_url": "/blog/dinner-party-timeline-dubai",
+            "overlap_review": "The timeline guide sequences the evening and the menu guide suggests dishes. This guide covers physical seating, workspace and plate routes, so it does not repeat either and does not claim the luxury dining commercial keyword.",
+            "claims_review": "Suggested arrangements and a hypothetical example only; no prices, bookings, credentials or service promises are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: private chef for events (75 impressions, 1 click on https://www.mychef.ae/, 2026-07-16 to 2026-10-14). Exact subquestion demand is unproven; this is an original planning gap in the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-14",
+              "observed_query": "private chef for events",
+              "observed_page": "https://www.mychef.ae/",
+              "impressions": 75,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/school-caterer-backup-plan-missed-delivery",
+          "owner": "/institutional-catering-dubai",
+          "source_sha256": "aa982a3e8e2634b79c9b23635deb03530c4aa739a90816ae85ddb0b026930e2f",
+          "photo_ids": [
+            "buffets-061",
+            "buffets-064",
+            "buffets-058"
+          ],
+          "review": {
+            "reader_question": "What backup arrangements should a school or nursery ask a meal caterer to put in writing before signing?",
+            "distinct_value": "A risk-by-risk question table, an administrator checklist and a hypothetical late-delivery example cover contingency planning, which the nursery-meals and allergy guides do not.",
+            "nearest_existing_url": "/blog/nursery-meals-vs-packed-lunch-dubai",
+            "overlap_review": "The nursery-meals guide compares meals with packed lunches and the nut-free guide covers allergy-aware menus. This guide covers failure cases and backup plans, so it neither repeats them nor claims the institutional catering commercial keyword.",
+            "claims_review": "No regulatory requirements, prices, medical advice or service promises are stated; readers are directed to the relevant Dubai authority and to a child's own professional. The example is hypothetical. Photographs are owner-approved previous-work images of catering set-ups, not school kitchens.",
+            "demand_basis": "Observed GSC topic query: school catering dubai (22 impressions, 1 click on https://www.mychef.ae/school-catering-dubai, 2026-07-16 to 2026-10-14). Exact subquestion demand is unproven; this is an original planning gap in the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-07-16",
+              "end_date": "2026-10-14",
+              "observed_query": "school catering dubai",
+              "observed_page": "https://www.mychef.ae/school-catering-dubai",
+              "impressions": 22,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

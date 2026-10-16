@@ -537,6 +537,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "School event catering briefs: access, timing and dietary needs"
   }
  ],
+ "/blog/catering-leftovers-plan-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "What happens to leftover food after a catered event in Dubai?"
+  }
+ ],
  "/blog/christmas-lunch-at-home-planning-dubai": [
   {
    "href": "/",
@@ -681,6 +698,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Family Dinner When Everyone Arrives at Different Times"
+  }
+ ],
+ "/blog/full-time-private-chef-day-off-cover-plan": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Full-time private chef day off: how to plan meals while they rest"
   }
  ],
  "/blog/grazing-table-vs-buffet-dubai": [
@@ -1106,6 +1140,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Page 9"
   }
  ],
+ "/blog/private-chef-and-household-helper-kitchen-roles": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Private chef and household helper: who does what in the kitchen?"
+  }
+ ],
  "/blog/private-chef-kitchen-preparation-dubai": [
   {
    "href": "/",
@@ -1147,6 +1198,40 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private Chef Trial in Dubai: What to Evaluate"
+  }
+ ],
+ "/blog/private-dinner-seating-and-service-flow-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "How to plan seating and service flow for a private dinner at home"
+  }
+ ],
+ "/blog/school-caterer-backup-plan-missed-delivery": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/institutional",
+   "label": "Nurseries, Schools & Canteens"
+  },
+  {
+   "label": "What backup plan should a school or nursery ask its caterer for?"
   }
  ],
  "/blog/surprise-dinner-arrivals-deliveries": [
@@ -3182,6 +3267,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/celebrations": [
   {
+   "href": "/blog/catering-leftovers-plan-dubai",
+   "label": "What happens to leftover food after a catered event in Dubai?"
+  },
+  {
+   "href": "/blog/private-dinner-seating-and-service-flow-dubai",
+   "label": "How to plan seating and service flow for a private dinner at home"
+  },
+  {
    "href": "/blog/surprise-dinner-arrivals-deliveries",
    "label": "A Surprise Dinner Plan for Arrivals and Deliveries"
   }
@@ -3190,6 +3283,12 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/hybrid-workshop-catering-numbers",
    "label": "Catering Numbers for a Hybrid Workshop"
+  }
+ ],
+ "/blog/topic/institutional": [
+  {
+   "href": "/blog/school-caterer-backup-plan-missed-delivery",
+   "label": "What backup plan should a school or nursery ask its caterer for?"
   }
  ],
  "/blog/topic/menus-dietary": [
@@ -3208,6 +3307,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/family-dinner-staggered-arrivals",
    "label": "Family Dinner When Everyone Arrives at Different Times"
+  },
+  {
+   "href": "/blog/full-time-private-chef-day-off-cover-plan",
+   "label": "Full-time private chef day off: how to plan meals while they rest"
+  },
+  {
+   "href": "/blog/private-chef-and-household-helper-kitchen-roles",
+   "label": "Private chef and household helper: who does what in the kitchen?"
   }
  ],
  "/catering-dubai": [

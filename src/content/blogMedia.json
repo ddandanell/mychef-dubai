@@ -431,6 +431,36 @@
         "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
         "alt": "Yacht dining table with the marina visible beyond the deck."
       }
+    },
+    "/blog/private-chef-and-household-helper-kitchen-roles": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp",
+        "alt": "Long indoor dining table set with plates, glasses and chairs."
+      }
+    },
+    "/blog/catering-leftovers-plan-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp",
+        "alt": "Buffet table with salads, canapés and fresh floral arrangements."
+      }
+    },
+    "/blog/full-time-private-chef-day-off-cover-plan": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp",
+        "alt": "Long outdoor dining table with neutral linen and floral arrangements."
+      }
+    },
+    "/blog/private-dinner-seating-and-service-flow-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp",
+        "alt": "Round dinner tables set in a garden beneath string lights."
+      }
+    },
+    "/blog/school-caterer-backup-plan-missed-delivery": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+        "alt": "Long buffet with salads and warm dishes in an event space."
+      }
     }
   },
   "sources": {
@@ -546,7 +576,18 @@
     "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp": 1160,
     "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp": 1280,
     "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp": 960,
-    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": 900
+    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": 900,
+    "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp": 1280,
+    "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp": 960,
+    "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp": 590,
+    "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp": 960,
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp": 1024,
+    "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp": 1280,
+    "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp": 768,
+    "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp": 1280,
+    "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp": 960,
+    "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp": 858,
+    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": 960
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1764,6 +1805,50 @@
     "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": {
       "width": 900,
       "height": 1248
+    },
+    "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp": {
+      "width": 590,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp": {
+      "width": 1024,
+      "height": 768
+    },
+    "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp": {
+      "width": 768,
+      "height": 1024
+    },
+    "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp": {
+      "width": 858,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": {
+      "width": 960,
+      "height": 1280
     }
   },
   "srcsets": {
@@ -2005,6 +2090,17 @@
     "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp": "/images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-thumb.webp 640w, /images/previous-work/mychef-round-dinner-tables-set-in-a-garden-beneath-string-lights-127-large.webp 1160w",
     "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-thumb.webp 640w, /images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp 1280w",
     "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-thumb.webp 480w, /images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp 960w",
-    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-thumb.webp 462w, /images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp 900w"
+    "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp": "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-thumb.webp 462w, /images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp 900w",
+    "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp": "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-thumb.webp 640w, /images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp 1280w",
+    "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp": "/images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-thumb.webp 480w, /images/previous-work/mychef-buffet-table-with-salads-canapes-and-fresh-floral-arrangements-060-large.webp 960w",
+    "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp": "/images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-thumb.webp 295w, /images/previous-work/mychef-indoor-buffet-with-food-displays-beside-large-windows-062-large.webp 590w",
+    "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp": "/images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-thumb.webp 480w, /images/previous-work/mychef-styled-buffet-with-a-floral-centrepiece-salads-and-serving-bowls-063-large.webp 960w",
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp": "/images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-thumb.webp 640w, /images/previous-work/mychef-long-outdoor-dining-table-with-neutral-linen-and-floral-arrangements-133-large.webp 1024w",
+    "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp": "/images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-thumb.webp 640w, /images/previous-work/mychef-chef-at-an-evening-pasta-station-in-a-garden-124-large.webp 1280w",
+    "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-thumb.webp 480w, /images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp 768w",
+    "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp": "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-thumb.webp 640w, /images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp 1280w",
+    "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-thumb.webp 480w, /images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp 960w",
+    "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-thumb.webp 429w, /images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp 858w",
+    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-thumb.webp 480w, /images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp 960w"
   }
 }

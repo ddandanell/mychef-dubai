@@ -1111,6 +1111,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/yacht-food-handover-without-waiter.json"
+    },
+    {
+      "url": "/blog/private-chef-and-household-helper-kitchen-roles",
+      "title": "Private chef and household helper: who does what in the kitchen?",
+      "primary": "private chef and household helper kitchen roles",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/private-chef-and-household-helper-kitchen-roles.json"
+    },
+    {
+      "url": "/blog/catering-leftovers-plan-dubai",
+      "title": "What happens to leftover food after a catered event in Dubai?",
+      "primary": "leftover catering food",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/catering-leftovers-plan-dubai.json"
+    },
+    {
+      "url": "/blog/full-time-private-chef-day-off-cover-plan",
+      "title": "Full-time private chef day off: how to plan meals while they rest",
+      "primary": "full time private chef day off cover",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/full-time-private-chef-day-off-cover-plan.json"
+    },
+    {
+      "url": "/blog/private-dinner-seating-and-service-flow-dubai",
+      "title": "How to plan seating and service flow for a private dinner at home",
+      "primary": "private dinner seating and service flow",
+      "owner": "/luxury-dining-experiences",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/private-dinner-seating-and-service-flow-dubai.json"
+    },
+    {
+      "url": "/blog/school-caterer-backup-plan-missed-delivery",
+      "title": "What backup plan should a school or nursery ask its caterer for?",
+      "primary": "school caterer backup plan",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/school-caterer-backup-plan-missed-delivery.json"
     }
   ],
   "held_imports": [
