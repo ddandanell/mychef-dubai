@@ -1165,6 +1165,18 @@
   ],
   "held_imports": [
     {
+      "slug": "can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+      "title": "Can catering companies in Dubai provide serving staff and cleanup?",
+      "status": "pending_review",
+      "source": "blog/data/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup.json"
+    },
+    {
+      "slug": "can-i-request-a-menu-tasting-before-booking-catering-in-dubai",
+      "title": "Can I request a menu tasting before booking catering in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/can-i-request-a-menu-tasting-before-booking-catering-in-dubai.json"
+    },
+    {
       "slug": "can-meal-prep-portions-be-adjusted-for-kids",
       "title": "Can meal prep portions be adjusted for kids?",
       "status": "pending_review",
@@ -1175,6 +1187,12 @@
       "title": "How many guests can a Dubai caterer serve for one event?",
       "status": "pending_review",
       "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
+    },
+    {
+      "slug": "is-outdoor-catering-possible-during-dubai-s-summer-heat",
+      "title": "Is outdoor catering possible during Dubai's summer heat?",
+      "status": "pending_review",
+      "source": "blog/data/is-outdoor-catering-possible-during-dubai-s-summer-heat.json"
     },
     {
       "slug": "weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans",
