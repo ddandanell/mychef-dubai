@@ -461,6 +461,36 @@
         "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
         "alt": "Long buffet with salads and warm dishes in an event space."
       }
+    },
+    "/blog/can-meal-prep-portions-be-adjusted-for-kids": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+        "alt": "Indoor catering buffet with salads, warm dishes and serving plates."
+      }
+    },
+    "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup": {
+      "hero": {
+        "src": "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp",
+        "alt": "Buffet table with chafing dishes, plates and a floral arrangement."
+      }
+    },
+    "/blog/office-celebration-catering-workday-plan": {
+      "hero": {
+        "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+        "alt": "Close view of savoury canapés topped with cream and herbs."
+      }
+    },
+    "/blog/anniversary-dinner-at-home-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+        "alt": "Monochrome table setting with dark napkins and fresh flowers."
+      }
+    },
+    "/blog/sunset-yacht-trip-food-timing-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp",
+        "alt": "Long dining table set on a yacht deck with coloured lighting."
+      }
     }
   },
   "sources": {
@@ -587,7 +617,16 @@
     "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp": 1280,
     "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp": 960,
     "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp": 858,
-    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": 960
+    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": 960,
+    "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp": 960,
+    "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp": 800,
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp": 1280,
+    "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp": 1280,
+    "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp": 960,
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp": 960,
+    "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp": 960,
+    "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": 960,
+    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": 960
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1849,6 +1888,42 @@
     "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": {
       "width": 960,
       "height": 1280
+    },
+    "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp": {
+      "width": 800,
+      "height": 600
+    },
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp": {
+      "width": 1280,
+      "height": 972
+    },
+    "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp": {
+      "width": 1280,
+      "height": 590
+    },
+    "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": {
+      "width": 960,
+      "height": 1280
     }
   },
   "srcsets": {
@@ -2101,6 +2176,15 @@
     "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp": "/images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-thumb.webp 640w, /images/previous-work/mychef-long-garden-dinner-table-set-with-white-chairs-at-night-130-large.webp 1280w",
     "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-thumb.webp 480w, /images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp 960w",
     "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-thumb.webp 429w, /images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp 858w",
-    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-thumb.webp 480w, /images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp 960w"
+    "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp": "/images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-thumb.webp 480w, /images/previous-work/mychef-long-catered-buffet-with-flowers-and-covered-chafing-dishes-058-large.webp 960w",
+    "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp": "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-thumb.webp 480w, /images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp 960w",
+    "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp": "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-thumb.webp 640w, /images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp 800w",
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-thumb.webp 640w, /images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp 1280w",
+    "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp": "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-thumb.webp 640w, /images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp 1280w",
+    "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-thumb.webp 480w, /images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp 960w",
+    "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp": "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-thumb.webp 480w, /images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp 960w",
+    "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-thumb.webp 480w, /images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp 960w",
+    "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-thumb.webp 480w, /images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp 960w",
+    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-thumb.webp 480w, /images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp 960w"
   }
 }

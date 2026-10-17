@@ -770,6 +770,391 @@
         "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
         "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
       }
+    },
+    {
+      "path": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+      "batch": "2026-10-17-3",
+      "keyword": "meal prep portions for kids",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-19",
+        "end_date": "2026-10-16",
+        "observed_query": "meal prep chef dubai",
+        "observed_page": "https://www.mychef.ae/weekly-meal-prep-dubai",
+        "impressions": 6,
+        "clicks": 2,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+      },
+      "primary_money_page": "/private-chef-dubai",
+      "cluster_hub": "/blog/topic/private-chef",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+        "rationale": "The macros guide covers briefing a fitness nutrition plan and the weekly-meal-prep quote guide covers pricing inclusions. This guide covers adjusting serving quantities and packing for children, so it repeats neither and does not claim the service-page keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 51,
+        "description_characters": 151
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 79,
+        "reader_question": "How should a household brief children's meal-prep portions so the cooking session matches each child's appetite?"
+      },
+      "original_value": "A briefing table, three packing formats and a one-line-per-child review method give households a way to state portions, which the nutrition-plan brief and quote guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-17T03:57:22Z",
+        "modified": "2026-10-17T03:57:22Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+          "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+          "/images/previous-work/mychef-boxed-miniature-sandwiches-and-savoury-rolls-091-large.webp",
+          "/images/previous-work/mychef-garden-catering-display-with-woven-panels-and-food-stations-068-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+      "batch": "2026-10-17-3",
+      "keyword": "catering serving staff and cleanup",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-19",
+        "end_date": "2026-10-16",
+        "observed_query": "home catering dubai",
+        "observed_page": "https://www.mychef.ae/best-catering-companies-dubai",
+        "impressions": 41,
+        "clicks": 1,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+      },
+      "primary_money_page": "/catering-dubai",
+      "cluster_hub": "/blog/topic/celebrations",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/compare-catering-quotes-dubai",
+        "rationale": "The quote guide compares inclusions line by line and the corporate guide compares full service against drop-off at format level; the 16 October leftovers guide covers end-of-event food ownership. This guide covers the complete serving and cleanup scope, including roles, washing-up and the handover stage, so it repeats none of them."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 52,
+        "description_characters": 145
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 63,
+        "reader_question": "What serving and cleanup scope should a host confirm with a Dubai caterer before booking?"
+      },
+      "original_value": "A role-by-role service list, a cleanup inclusion table and a handover sequence let hosts compare proposals on responsibilities rather than menu photos.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-17T03:57:22Z",
+        "modified": "2026-10-17T03:57:22Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/compare-catering-quotes-dubai",
+          "/blog/buffet-layout-planning-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-buffet-table-with-chafing-dishes-plates-and-a-floral-arrangement-065-large.webp",
+          "/images/previous-work/mychef-service-staff-preparing-a-long-catered-buffet-indoors-059-large.webp",
+          "/images/previous-work/mychef-service-team-arranging-food-at-a-long-indoor-buffet-071-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/office-celebration-catering-workday-plan",
+      "batch": "2026-10-17-3",
+      "keyword": "office celebration catering planning",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-18",
+        "observed_query": "business meeting catering",
+        "observed_page": "https://www.mychef.ae/corporate",
+        "impressions": 84,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+      },
+      "primary_money_page": "/corporate",
+      "cluster_hub": "/blog/topic/corporate",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+        "rationale": "The facilities guide covers delivery and access coordination, the breakfast guide covers morning service and the proposal guide covers assessing a vendor. This guide covers the celebration service window, format choice and dietary collection, so it repeats none of them and does not claim the corporate service keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 55,
+        "description_characters": 150
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 65,
+        "reader_question": "How should a company plan catering for an office celebration so the workday is not disrupted?"
+      },
+      "original_value": "A service-window decision table, a format list tied to windows and a workday-protection checklist cover celebration logistics, which the office-lunch, breakfast and proposal-assessment guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-17T03:57:22Z",
+        "modified": "2026-10-17T03:57:22Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/office-breakfast-planning-dubai",
+          "/blog/how-to-connect-office-facilities-management-to-lunch-catering"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+          "/images/previous-work/mychef-mixed-catering-platters-in-branded-presentation-boxes-094-large.webp",
+          "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/anniversary-dinner-at-home-dubai",
+      "batch": "2026-10-17-3",
+      "keyword": "anniversary dinner at home dubai",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-18",
+        "observed_query": "anniversary catering",
+        "observed_page": "https://www.mychef.ae/events",
+        "impressions": 16,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+      },
+      "primary_money_page": "/events",
+      "cluster_hub": "/blog/topic/celebrations",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/dinner-party-timeline-dubai",
+        "rationale": "The timeline guide sequences a general dinner party and the birthday-dinner guide covers that occasion. This guide covers the anniversary's specific decisions — recreated versus new menus, service style for a couple's table and personal details — so it repeats neither."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 57,
+        "description_characters": 144
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 73,
+        "reader_question": "How should a host plan an anniversary dinner at home, from menu tone to timing?"
+      },
+      "original_value": "A tone-decision list, a three-style service table and a personal-details checklist cover the anniversary specifically, which the generic timeline, menu-ideas and cost guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 960,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-17T03:57:22Z",
+        "modified": "2026-10-17T03:57:22Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/dinner-party-timeline-dubai",
+          "/blog/dinner-party-menu-ideas-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+          "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp",
+          "/images/previous-work/mychef-long-garden-tables-set-for-a-daytime-outdoor-celebration-135-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/sunset-yacht-trip-food-timing-dubai",
+      "batch": "2026-10-17-3",
+      "keyword": "sunset yacht trip food timing",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-18",
+        "observed_query": "boat party catering",
+        "observed_page": "https://www.mychef.ae/yachts",
+        "impressions": 88,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+      },
+      "primary_money_page": "/yachts",
+      "cluster_hub": "/blog/topic/outdoor",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/three-hour-yacht-party-food-timeline-dubai",
+        "rationale": "The timeline guide sequences food across a generic three-hour party and the handover guide covers delivery without a waiter. This guide covers timing around the sunset itself — boarding, the sunset stretch and the after-sunset main — so it repeats neither and does not claim the yacht catering commercial keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 47,
+        "description_characters": 140
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 78,
+        "reader_question": "When should the different parts of the food service run on a sunset yacht trip in Dubai?"
+      },
+      "original_value": "A three-window timing table, a season-and-timing list and a pre-boarding checklist cover when food is served, which the menu-ideas, three-hour timeline, proposal-comparison and handover guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 960,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-17T03:57:22Z",
+        "modified": "2026-10-17T03:57:22Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/three-hour-yacht-party-food-timeline-dubai",
+          "/blog/yacht-party-menu-ideas-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp",
+          "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp",
+          "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
     }
   ]
 }

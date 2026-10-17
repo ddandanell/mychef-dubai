@@ -161,6 +161,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Blog"
   }
  ],
+ "/blog/anniversary-dinner-at-home-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "How do you plan an anniversary dinner at home in Dubai?"
+  }
+ ],
  "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low": [
   {
    "href": "/",
@@ -455,6 +472,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Can a private chef serve both Arabic and international dishes?"
   }
  ],
+ "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Can catering companies in Dubai provide serving staff and cleanup?"
+  }
+ ],
  "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis": [
   {
    "href": "/",
@@ -492,6 +526,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "How do you change a scheduled meal-prep chef visit?"
+  }
+ ],
+ "/blog/can-meal-prep-portions-be-adjusted-for-kids": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Can meal prep portions be adjusted for kids?"
   }
  ],
  "/blog/canape-reception-planning-dubai": [
@@ -1023,6 +1074,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Office Breakfast Planning in Dubai"
   }
  ],
+ "/blog/office-celebration-catering-workday-plan": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/corporate",
+   "label": "Corporate & Team Catering"
+  },
+  {
+   "label": "How do you plan catering for an office celebration without disrupting the workday?"
+  }
+ ],
  "/blog/outdoor-villa-catering-kitchen-dubai": [
   {
    "href": "/",
@@ -1034,6 +1102,19 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Outdoor Villa Catering Kitchen Planning in Dubai"
+  }
+ ],
+ "/blog/page/10": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 10"
   }
  ],
  "/blog/page/2": [
@@ -1232,6 +1313,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What backup plan should a school or nursery ask its caterer for?"
+  }
+ ],
+ "/blog/sunset-yacht-trip-food-timing-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/outdoor",
+   "label": "Outdoor & Destination Dining"
+  },
+  {
+   "label": "When should food be served on a sunset yacht trip in Dubai?"
   }
  ],
  "/blog/surprise-dinner-arrivals-deliveries": [
@@ -3233,6 +3331,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Is it safe to let a private chef cook in my home in Dubai?"
   },
   {
+   "href": "/blog/page/10",
+   "label": "Page 10"
+  },
+  {
    "href": "/blog/page/2",
    "label": "Page 2"
   },
@@ -3267,6 +3369,14 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/celebrations": [
   {
+   "href": "/blog/anniversary-dinner-at-home-dubai",
+   "label": "How do you plan an anniversary dinner at home in Dubai?"
+  },
+  {
+   "href": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+   "label": "Can catering companies in Dubai provide serving staff and cleanup?"
+  },
+  {
    "href": "/blog/catering-leftovers-plan-dubai",
    "label": "What happens to leftover food after a catered event in Dubai?"
   },
@@ -3283,6 +3393,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/hybrid-workshop-catering-numbers",
    "label": "Catering Numbers for a Hybrid Workshop"
+  },
+  {
+   "href": "/blog/office-celebration-catering-workday-plan",
+   "label": "How do you plan catering for an office celebration without disrupting the workday?"
   }
  ],
  "/blog/topic/institutional": [
@@ -3299,11 +3413,19 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/outdoor": [
   {
+   "href": "/blog/sunset-yacht-trip-food-timing-dubai",
+   "label": "When should food be served on a sunset yacht trip in Dubai?"
+  },
+  {
    "href": "/blog/yacht-food-handover-without-waiter",
    "label": "A Yacht Food Handover When No Waiter Is Boarding"
   }
  ],
  "/blog/topic/private-chef": [
+  {
+   "href": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+   "label": "Can meal prep portions be adjusted for kids?"
+  },
   {
    "href": "/blog/family-dinner-staggered-arrivals",
    "label": "Family Dinner When Everyone Arrives at Different Times"

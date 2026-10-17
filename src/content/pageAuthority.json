@@ -93,6 +93,15 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
+  "/blog/anniversary-dinner-at-home-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "our event catering team in Dubai",
+    "title": "Anniversary Dinner at Home Dubai: Planning Guide | myCHEF",
+    "h1": "How do you plan an anniversary dinner at home in Dubai?",
+    "description": "Plan an anniversary dinner at home in Dubai: menu tone, service style, evening timing and the details to confirm with your chef before the date."
+  },
   "/blog/automatically-restock-weekly-meal-prep-when-your-kitchen-runs-low": {
     "role": "supporting",
     "purpose": "editorial",
@@ -349,6 +358,15 @@
     "h1": "Can a private chef serve both Arabic and international dishes?",
     "description": "Plan Arabic and international dishes as one meal. Agree the dishes, dietary requirements, serving format and kitchen needs before approving your menu."
   },
+  "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "our Dubai catering team",
+    "title": "Catering Staff and Cleanup: What to Confirm | myCHEF",
+    "h1": "Can catering companies in Dubai provide serving staff and cleanup?",
+    "description": "Serving staff and cleanup can be part of a Dubai catering booking when written into the scope. A role list, cleanup table and handover checklist."
+  },
   "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis": {
     "role": "supporting",
     "purpose": "editorial",
@@ -374,6 +392,15 @@
     "title": "Changing a Meal-Prep Chef Visit: What to Confirm | myCHEF",
     "h1": "How do you change a scheduled meal-prep chef visit?",
     "description": "Changing a meal-prep chef visit? Confirm dates, groceries, charges and the next appointment in writing before updating your household schedule."
+  },
+  "/blog/can-meal-prep-portions-be-adjusted-for-kids": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "our private chef service in Dubai",
+    "title": "Meal Prep Portions for Kids: What to Agree | myCHEF",
+    "h1": "Can meal prep portions be adjusted for kids?",
+    "description": "Yes — agree children's meal-prep portions by appetite and routine, not age. A briefing table, packing options and a review method for Dubai households."
   },
   "/blog/canape-reception-planning-dubai": {
     "role": "supporting",
@@ -777,11 +804,29 @@
     "money_page": "/corporate",
     "anchor": "corporate catering in Dubai"
   },
+  "/blog/office-celebration-catering-workday-plan": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "our corporate catering in Dubai",
+    "title": "Office Celebration Catering Without Disruption | myCHEF",
+    "h1": "How do you plan catering for an office celebration without disrupting the workday?",
+    "description": "Plan an office celebration around the workday: choose the service window first, pick a format that fits the space and brief dietary needs in one pass."
+  },
   "/blog/outdoor-villa-catering-kitchen-dubai": {
     "role": "supporting",
     "purpose": "editorial",
     "money_page": "/luxury-dining-experiences",
     "anchor": "private dining experiences in Dubai"
+  },
+  "/blog/page/10": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 10 | myCHEF",
+    "h1": "Blog – Page 10",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
   },
   "/blog/page/2": {
     "role": "supporting",
@@ -951,6 +996,15 @@
     "purpose": "editorial",
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
+  },
+  "/blog/sunset-yacht-trip-food-timing-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "our yacht catering service",
+    "title": "Sunset Yacht Trip Food Timing in Dubai | myCHEF",
+    "h1": "When should food be served on a sunset yacht trip in Dubai?",
+    "description": "Plan when food is served on a sunset yacht trip in Dubai: a three-window service outline, marina timing and what to confirm before boarding."
   },
   "/blog/surprise-dinner-arrivals-deliveries": {
     "role": "supporting",

@@ -1,5 +1,27 @@
 {
+  "/events": [
+    {
+      "url": "/blog/anniversary-dinner-at-home-dubai",
+      "title": "How do you plan an anniversary dinner at home in Dubai?",
+      "excerpt": "A planning guide for an anniversary dinner at home — menu direction, service style, timing and the questions to settle beforehand."
+    },
+    {
+      "url": "/blog/surprise-dinner-arrivals-deliveries",
+      "title": "A Surprise Dinner Plan for Arrivals and Deliveries",
+      "excerpt": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
+    },
+    {
+      "url": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+      "title": "How should a wedding planner organise a catering tasting?",
+      "excerpt": "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off."
+    }
+  ],
   "/catering-dubai": [
+    {
+      "url": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+      "title": "Can catering companies in Dubai provide serving staff and cleanup?",
+      "excerpt": "What to confirm about servers, washing-up and the final handover before you book catering for a Dubai home or venue."
+    },
     {
       "url": "/blog/catering-leftovers-plan-dubai",
       "title": "What happens to leftover food after a catered event in Dubai?",
@@ -21,24 +43,12 @@
       "excerpt": "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines."
     }
   ],
-  "/full-time-private-chef-dubai": [
-    {
-      "url": "/blog/full-time-private-chef-day-off-cover-plan",
-      "title": "Full-time private chef day off: how to plan meals while they rest",
-      "excerpt": "How to keep a household fed when a full-time private chef is off, with a cover options table and a handover checklist."
-    },
-    {
-      "url": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
-      "title": "How should a villa concierge coordinate recurring chef visits?",
-      "excerpt": "Use a villa concierge recurring chef visit checklist to agree menus, access, shopping and handovers. Keep Dubai household cooking clear from one visit to the next."
-    },
-    {
-      "url": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
-      "title": "How do you review your first month with a household chef?",
-      "excerpt": "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan."
-    }
-  ],
   "/private-chef-dubai": [
+    {
+      "url": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+      "title": "Can meal prep portions be adjusted for kids?",
+      "excerpt": "How to brief children's portions for chef-cooked meal prep: what to agree, how to pack and how to review after the first meals."
+    },
     {
       "url": "/blog/private-chef-and-household-helper-kitchen-roles",
       "title": "Private chef and household helper: who does what in the kitchen?",
@@ -85,6 +95,72 @@
       "excerpt": "Evaluate a household chef trial in Dubai with a practical scorecard covering food, communication, kitchen habits, grocery clarity and useful feedback."
     }
   ],
+  "/corporate": [
+    {
+      "url": "/blog/office-celebration-catering-workday-plan",
+      "title": "How do you plan catering for an office celebration without disrupting the workday?",
+      "excerpt": "A service-window decision table and checklist for catering an office celebration — birthdays, promotions and farewell gatherings — around normal work."
+    },
+    {
+      "url": "/blog/hybrid-workshop-catering-numbers",
+      "title": "Catering Numbers for a Hybrid Workshop",
+      "excerpt": "Turn workshop registrations into a practical catering count: on-site attendance, session changes, facilitators, dietary meals and a final sign-off."
+    },
+    {
+      "url": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+      "title": "How should facilities teams coordinate office lunch catering?",
+      "excerpt": "Use this facilities team office lunch catering checklist to assign owners, confirm dietary needs, plan access and agree service, handover and clearance."
+    },
+    {
+      "url": "/blog/compare-catering-quotes-dubai",
+      "title": "How to Compare Catering Quotes in Dubai",
+      "excerpt": "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines."
+    },
+    {
+      "url": "/blog/office-breakfast-planning-dubai",
+      "title": "Office Breakfast Planning in Dubai",
+      "excerpt": "Plan an office breakfast in Dubai with an arrival-wave calculation, service layout, menu brief, coffee plan, building access checklist and meeting timeline."
+    }
+  ],
+  "/yachts": [
+    {
+      "url": "/blog/sunset-yacht-trip-food-timing-dubai",
+      "title": "When should food be served on a sunset yacht trip in Dubai?",
+      "excerpt": "A service-window guide for sunset yacht trips — boarding, the sunset stretch and the return leg — with the details to confirm beforehand."
+    },
+    {
+      "url": "/blog/yacht-food-handover-without-waiter",
+      "title": "A Yacht Food Handover When No Waiter Is Boarding",
+      "excerpt": "Plan a yacht food delivery without onboard waiting staff: receiving contact, menu suitability, storage instructions, serving responsibility and returns."
+    },
+    {
+      "url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+      "title": "What galley details does a yacht chef need before boarding?",
+      "excerpt": "Use this yacht chef galley briefing checklist to confirm equipment, refrigeration, boarding and service roles before agreeing your Dubai yacht catering menu."
+    },
+    {
+      "url": "/blog/three-hour-yacht-party-food-timeline-dubai",
+      "title": "A Yacht Party Food Timeline for Three Hours in Dubai",
+      "excerpt": "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes."
+    }
+  ],
+  "/full-time-private-chef-dubai": [
+    {
+      "url": "/blog/full-time-private-chef-day-off-cover-plan",
+      "title": "Full-time private chef day off: how to plan meals while they rest",
+      "excerpt": "How to keep a household fed when a full-time private chef is off, with a cover options table and a handover checklist."
+    },
+    {
+      "url": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+      "title": "How should a villa concierge coordinate recurring chef visits?",
+      "excerpt": "Use a villa concierge recurring chef visit checklist to agree menus, access, shopping and handovers. Keep Dubai household cooking clear from one visit to the next."
+    },
+    {
+      "url": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+      "title": "How do you review your first month with a household chef?",
+      "excerpt": "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan."
+    }
+  ],
   "/luxury-dining-experiences": [
     {
       "url": "/blog/private-dinner-seating-and-service-flow-dubai",
@@ -112,57 +188,6 @@
       "url": "/blog/catering-for-international-schools-in-dubai-complete-guide",
       "title": "School event catering briefs: access, timing and dietary needs",
       "excerpt": "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals."
-    }
-  ],
-  "/corporate": [
-    {
-      "url": "/blog/hybrid-workshop-catering-numbers",
-      "title": "Catering Numbers for a Hybrid Workshop",
-      "excerpt": "Turn workshop registrations into a practical catering count: on-site attendance, session changes, facilitators, dietary meals and a final sign-off."
-    },
-    {
-      "url": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
-      "title": "How should facilities teams coordinate office lunch catering?",
-      "excerpt": "Use this facilities team office lunch catering checklist to assign owners, confirm dietary needs, plan access and agree service, handover and clearance."
-    },
-    {
-      "url": "/blog/compare-catering-quotes-dubai",
-      "title": "How to Compare Catering Quotes in Dubai",
-      "excerpt": "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines."
-    },
-    {
-      "url": "/blog/office-breakfast-planning-dubai",
-      "title": "Office Breakfast Planning in Dubai",
-      "excerpt": "Plan an office breakfast in Dubai with an arrival-wave calculation, service layout, menu brief, coffee plan, building access checklist and meeting timeline."
-    }
-  ],
-  "/events": [
-    {
-      "url": "/blog/surprise-dinner-arrivals-deliveries",
-      "title": "A Surprise Dinner Plan for Arrivals and Deliveries",
-      "excerpt": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
-    },
-    {
-      "url": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
-      "title": "How should a wedding planner organise a catering tasting?",
-      "excerpt": "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off."
-    }
-  ],
-  "/yachts": [
-    {
-      "url": "/blog/yacht-food-handover-without-waiter",
-      "title": "A Yacht Food Handover When No Waiter Is Boarding",
-      "excerpt": "Plan a yacht food delivery without onboard waiting staff: receiving contact, menu suitability, storage instructions, serving responsibility and returns."
-    },
-    {
-      "url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
-      "title": "What galley details does a yacht chef need before boarding?",
-      "excerpt": "Use this yacht chef galley briefing checklist to confirm equipment, refrigeration, boarding and service roles before agreeing your Dubai yacht catering menu."
-    },
-    {
-      "url": "/blog/three-hour-yacht-party-food-timeline-dubai",
-      "title": "A Yacht Party Food Timeline for Three Hours in Dubai",
-      "excerpt": "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes."
     }
   ],
   "/buffet-catering-dubai": [

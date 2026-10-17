@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 10,
+  "next_slot": 15,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -506,6 +506,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-17-3",
+      "date": "2026-10-17",
+      "status": "staged",
+      "staged_at": "2026-10-17T03:57:22Z",
+      "articles": [
+        {
+          "path": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "35d15f27c97674ec5cd8b1215421b20614367e229bf4903659cfdc86dae8ef4e",
+          "photo_ids": [
+            "buffets-066",
+            "boxed-canapes-091",
+            "buffets-068"
+          ],
+          "review": {
+            "reader_question": "How should a household brief children's meal-prep portions so the cooking session matches each child's appetite?",
+            "distinct_value": "A briefing table, three packing formats and a one-line-per-child review method give households a way to state portions, which the nutrition-plan brief and quote guides do not.",
+            "nearest_existing_url": "/blog/weekly-meal-prep-to-hitting-your-macros-complete-workflow",
+            "overlap_review": "The macros guide covers briefing a fitness nutrition plan and the weekly-meal-prep quote guide covers pricing inclusions. This guide covers adjusting serving quantities and packing for children, so it repeats neither and does not claim the service-page keyword.",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; allergy and clinical nutrition matters are referred to the child's healthcare professional. No prices, bookings, credentials or guarantees are stated. Reviewed from a held Ryze export and rewritten for the approved photo catalogue; photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: meal prep chef dubai (6 impressions, 2 clicks on https://www.mychef.ae/weekly-meal-prep-dubai, 2026-09-19 to 2026-10-16). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-19",
+              "end_date": "2026-10-16",
+              "observed_query": "meal prep chef dubai",
+              "observed_page": "https://www.mychef.ae/weekly-meal-prep-dubai",
+              "impressions": 6,
+              "clicks": 2,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+          "owner": "/catering-dubai",
+          "source_sha256": "765ed65659266e577de4afd78527842f53f48b8f688c39f02f313816c56faeb5",
+          "photo_ids": [
+            "buffets-065",
+            "buffets-059",
+            "buffets-071"
+          ],
+          "review": {
+            "reader_question": "What serving and cleanup scope should a host confirm with a Dubai caterer before booking?",
+            "distinct_value": "A role-by-role service list, a cleanup inclusion table and a handover sequence let hosts compare proposals on responsibilities rather than menu photos.",
+            "nearest_existing_url": "/blog/compare-catering-quotes-dubai",
+            "overlap_review": "The quote guide compares inclusions line by line and the corporate guide compares full service against drop-off at format level; the 16 October leftovers guide covers end-of-event food ownership. This guide covers the complete serving and cleanup scope, including roles, washing-up and the handover stage, so it repeats none of them.",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no prices, bookings, credentials, medical instructions or guaranteed service availability are stated. Reviewed from a held Ryze export and rewritten for the approved photo catalogue; photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: home catering dubai (41 impressions, 1 click on https://www.mychef.ae/best-catering-companies-dubai, 2026-09-19 to 2026-10-16). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-19",
+              "end_date": "2026-10-16",
+              "observed_query": "home catering dubai",
+              "observed_page": "https://www.mychef.ae/best-catering-companies-dubai",
+              "impressions": 41,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/office-celebration-catering-workday-plan",
+          "owner": "/corporate",
+          "source_sha256": "aa66c6a7d7d6ac08f940ce47bc9b0b1a1c08baa034b023743c3ddac3a87ede69",
+          "photo_ids": [
+            "canapes-096",
+            "boxed-canapes-094",
+            "canapes-098"
+          ],
+          "review": {
+            "reader_question": "How should a company plan catering for an office celebration so the workday is not disrupted?",
+            "distinct_value": "A service-window decision table, a format list tied to windows and a workday-protection checklist cover celebration logistics, which the office-lunch, breakfast and proposal-assessment guides do not.",
+            "nearest_existing_url": "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
+            "overlap_review": "The facilities guide covers delivery and access coordination, the breakfast guide covers morning service and the proposal guide covers assessing a vendor. This guide covers the celebration service window, format choice and dietary collection, so it repeats none of them and does not claim the corporate service keyword.",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no prices, bookings, credentials or service guarantees are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: business meeting catering (84 impressions, 0 clicks on https://www.mychef.ae/corporate, 2026-08-22 to 2026-09-18). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-08-22",
+              "end_date": "2026-09-18",
+              "observed_query": "business meeting catering",
+              "observed_page": "https://www.mychef.ae/corporate",
+              "impressions": 84,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/anniversary-dinner-at-home-dubai",
+          "owner": "/events",
+          "source_sha256": "4d8c19725e5a891719b81392c81c128e96f060196527c46c93a3af5393664587",
+          "photo_ids": [
+            "private-dining-129",
+            "private-dining-128",
+            "private-dining-135"
+          ],
+          "review": {
+            "reader_question": "How should a host plan an anniversary dinner at home, from menu tone to timing?",
+            "distinct_value": "A tone-decision list, a three-style service table and a personal-details checklist cover the anniversary specifically, which the generic timeline, menu-ideas and cost guides do not.",
+            "nearest_existing_url": "/blog/dinner-party-timeline-dubai",
+            "overlap_review": "The timeline guide sequences a general dinner party and the birthday-dinner guide covers that occasion. This guide covers the anniversary's specific decisions — recreated versus new menus, service style for a couple's table and personal details — so it repeats neither.",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no prices, bookings, credentials or service guarantees are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: anniversary catering (16 impressions, 0 clicks on https://www.mychef.ae/events, 2026-08-22 to 2026-09-18). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-08-22",
+              "end_date": "2026-09-18",
+              "observed_query": "anniversary catering",
+              "observed_page": "https://www.mychef.ae/events",
+              "impressions": 16,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/sunset-yacht-trip-food-timing-dubai",
+          "owner": "/yachts",
+          "source_sha256": "1d9cd18f550e7c2f361f18e57575df90350b22cf1bb2b73d9d335e108ba63592",
+          "photo_ids": [
+            "yachts-150",
+            "yachts-152",
+            "yachts-153"
+          ],
+          "review": {
+            "reader_question": "When should the different parts of the food service run on a sunset yacht trip in Dubai?",
+            "distinct_value": "A three-window timing table, a season-and-timing list and a pre-boarding checklist cover when food is served, which the menu-ideas, three-hour timeline, proposal-comparison and handover guides do not.",
+            "nearest_existing_url": "/blog/three-hour-yacht-party-food-timeline-dubai",
+            "overlap_review": "The timeline guide sequences food across a generic three-hour party and the handover guide covers delivery without a waiter. This guide covers timing around the sunset itself — boarding, the sunset stretch and the after-sunset main — so it repeats neither and does not claim the yacht catering commercial keyword.",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no prices, bookings, credentials or service guarantees are stated, and the copy states myCHEF provides food and service only, never the vessel. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: boat party catering (88 impressions, 0 clicks on https://www.mychef.ae/yachts, 2026-08-22 to 2026-09-18). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-08-22",
+              "end_date": "2026-09-18",
+              "observed_query": "boat party catering",
+              "observed_page": "https://www.mychef.ae/yachts",
+              "impressions": 88,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

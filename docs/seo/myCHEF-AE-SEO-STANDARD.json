@@ -64733,6 +64733,566 @@
     "h1": "What backup plan should a school or nursery ask its caterer for?",
     "description": "Ask a school or nursery caterer what happens if a delivery is late, a cook is absent or a dietary tray is wrong. Backup-plan table and checklist for Dubai."
    }
+  },
+  "/blog/can-meal-prep-portions-be-adjusted-for-kids": {
+   "url": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+   "absolute_url": "https://www.mychef.ae/blog/can-meal-prep-portions-be-adjusted-for-kids",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "meal prep portions for kids",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Meal Prep Portions for Kids: What to Agree | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Can meal prep portions be adjusted for kids?",
+    "h1_count": 1,
+    "meta_description": "Yes — agree children's meal-prep portions by appetite and routine, not age. A briefing table, packing options and a review method for Dubai households.",
+    "meta_description_max_chars": 160,
+    "og_title": "Meal Prep Portions for Kids: What to Agree | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-meal-prep-portions-be-adjusted-for-kids",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+      "anchor": "Can meal prep portions be adjusted for kids?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "our private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "our private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/can-meal-prep-portions-be-adjusted-for-kids.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "our private chef service in Dubai",
+    "title": "Meal Prep Portions for Kids: What to Agree | myCHEF",
+    "h1": "Can meal prep portions be adjusted for kids?",
+    "description": "Yes — agree children's meal-prep portions by appetite and routine, not age. A briefing table, packing options and a review method for Dubai households."
+   }
+  },
+  "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup": {
+   "url": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+   "absolute_url": "https://www.mychef.ae/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "catering serving staff and cleanup",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Catering Staff and Cleanup: What to Confirm | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Can catering companies in Dubai provide serving staff and cleanup?",
+    "h1_count": 1,
+    "meta_description": "Serving staff and cleanup can be part of a Dubai catering booking when written into the scope. A role list, cleanup table and handover checklist.",
+    "meta_description_max_chars": 160,
+    "og_title": "Catering Staff and Cleanup: What to Confirm | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
+      "anchor": "Can catering companies in Dubai provide serving staff and cleanup?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "our Dubai catering team",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "our Dubai catering team",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "our Dubai catering team",
+    "title": "Catering Staff and Cleanup: What to Confirm | myCHEF",
+    "h1": "Can catering companies in Dubai provide serving staff and cleanup?",
+    "description": "Serving staff and cleanup can be part of a Dubai catering booking when written into the scope. A role list, cleanup table and handover checklist."
+   }
+  },
+  "/blog/office-celebration-catering-workday-plan": {
+   "url": "/blog/office-celebration-catering-workday-plan",
+   "absolute_url": "https://www.mychef.ae/blog/office-celebration-catering-workday-plan",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/corporate",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "office celebration catering planning",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Office Celebration Catering Without Disruption | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How do you plan catering for an office celebration without disrupting the workday?",
+    "h1_count": 1,
+    "meta_description": "Plan an office celebration around the workday: choose the service window first, pick a format that fits the space and brief dietary needs in one pass.",
+    "meta_description_max_chars": 160,
+    "og_title": "Office Celebration Catering Without Disruption | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/office-celebration-catering-workday-plan",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/corporate",
+      "anchor": "Corporate & Team Catering"
+     },
+     {
+      "url": "/blog/office-celebration-catering-workday-plan",
+      "anchor": "How do you plan catering for an office celebration without disrupting the workday?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/corporate",
+     "anchor": "our corporate catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/corporate",
+      "anchor": "our corporate catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/office-celebration-catering-workday-plan.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "our corporate catering in Dubai",
+    "title": "Office Celebration Catering Without Disruption | myCHEF",
+    "h1": "How do you plan catering for an office celebration without disrupting the workday?",
+    "description": "Plan an office celebration around the workday: choose the service window first, pick a format that fits the space and brief dietary needs in one pass."
+   }
+  },
+  "/blog/anniversary-dinner-at-home-dubai": {
+   "url": "/blog/anniversary-dinner-at-home-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/anniversary-dinner-at-home-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "anniversary dinner at home dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Anniversary Dinner at Home Dubai: Planning Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How do you plan an anniversary dinner at home in Dubai?",
+    "h1_count": 1,
+    "meta_description": "Plan an anniversary dinner at home in Dubai: menu tone, service style, evening timing and the details to confirm with your chef before the date.",
+    "meta_description_max_chars": 160,
+    "og_title": "Anniversary Dinner at Home Dubai: Planning Guide | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/anniversary-dinner-at-home-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/anniversary-dinner-at-home-dubai",
+      "anchor": "How do you plan an anniversary dinner at home in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/events",
+     "anchor": "our event catering team in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/events",
+      "anchor": "our event catering team in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/anniversary-dinner-at-home-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "our event catering team in Dubai",
+    "title": "Anniversary Dinner at Home Dubai: Planning Guide | myCHEF",
+    "h1": "How do you plan an anniversary dinner at home in Dubai?",
+    "description": "Plan an anniversary dinner at home in Dubai: menu tone, service style, evening timing and the details to confirm with your chef before the date."
+   }
+  },
+  "/blog/sunset-yacht-trip-food-timing-dubai": {
+   "url": "/blog/sunset-yacht-trip-food-timing-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/sunset-yacht-trip-food-timing-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/outdoor",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "sunset yacht trip food timing",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Sunset Yacht Trip Food Timing in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "When should food be served on a sunset yacht trip in Dubai?",
+    "h1_count": 1,
+    "meta_description": "Plan when food is served on a sunset yacht trip in Dubai: a three-window service outline, marina timing and what to confirm before boarding.",
+    "meta_description_max_chars": 160,
+    "og_title": "Sunset Yacht Trip Food Timing in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/sunset-yacht-trip-food-timing-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/outdoor",
+      "anchor": "Outdoor & Destination Dining"
+     },
+     {
+      "url": "/blog/sunset-yacht-trip-food-timing-dubai",
+      "anchor": "When should food be served on a sunset yacht trip in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/yachts",
+     "anchor": "our yacht catering service",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/yachts",
+      "anchor": "our yacht catering service",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/sunset-yacht-trip-food-timing-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "our yacht catering service",
+    "title": "Sunset Yacht Trip Food Timing in Dubai | myCHEF",
+    "h1": "When should food be served on a sunset yacht trip in Dubai?",
+    "description": "Plan when food is served on a sunset yacht trip in Dubai: a three-window service outline, marina timing and what to confirm before boarding."
+   }
+  },
+  "/blog/page/10": {
+   "url": "/blog/page/10",
+   "absolute_url": "https://www.mychef.ae/blog/page/10",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 10 | myCHEF",
+    "h1": "Blog – Page 10",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/10",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/10",
+      "anchor": "Page 10",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 10 | myCHEF",
+    "h1": "Blog – Page 10",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
   }
  },
  "authority_policy": {
