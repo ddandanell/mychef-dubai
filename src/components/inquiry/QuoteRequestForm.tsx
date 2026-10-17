@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import HouseholdEnquiryForm from '@/components/household/HouseholdEnquiryForm'
 import { useSearchParams } from 'react-router'
 import { Mail, MessageCircle } from 'lucide-react'
 import { trackConversion } from '@/lib/track'
-import { trackDeliveredQuoteLead } from '@/lib/analytics'
+import { trackDeliveredQuoteLead, trackEvent } from '@/lib/analytics'
 import { CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
 import { lastServicePage, serviceLabelFromSource } from '@/lib/inquiry'
 import { householdBriefFromParams, householdBriefLines } from '@/lib/householdInquiry'
@@ -19,6 +19,23 @@ type Props = {
 }
 
 function StandardQuoteRequestForm({ sourcePage }: Props) {
+  const formStarted = useRef(false)
+  const validationReported = useRef(false)
+  // Diagnostic events never contain the visitor's details or their brief.
+  // They are separate from GA4 enhanced measurement and the delivered-lead goal.
+  const formEvent = (name: string, extra: Record<string, unknown> = {}) => {
+    trackEvent(name, { form_id: 'quote_request', form_variant: 'standard', ...extra })
+  }
+  const onFormFocus = (e: React.FocusEvent<HTMLFormElement>) => {
+    if (formStarted.current || !e.target.matches('input, select, textarea')) return
+    formStarted.current = true
+    formEvent('quote_form_start')
+  }
+  const onFormInvalid = () => {
+    if (validationReported.current) return
+    validationReported.current = true
+    formEvent('quote_form_validation_error')
+  }
   const [params] = useSearchParams()
   const household = householdBriefFromParams(params, sourcePage || lastServicePage() || '')
   const [householdFields, setHouseholdFields] = useState({ arrangement: household.arrangement as string, budget: '', budgetBasis: 'Complete managed service budget', duration: '', schedule: '', preferences: '' })
@@ -76,9 +93,12 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!fields.phone.trim() && !fields.email.trim()) {
+      formEvent('quote_form_error', { failure_type: 'missing_contact' })
       setStatus('error')
       return
     }
+    validationReported.current = false
+    formEvent('quote_form_submit')
     setStatus('sending')
     trackConversion('inquiry_start', 'inquiry_form')
     try {
@@ -113,9 +133,11 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
         trackDeliveredQuoteLead(serviceType)
         setStatus('sent')
       } else {
+        formEvent('quote_form_error', { failure_type: 'http', http_status: res.status })
         setStatus('error')
       }
     } catch {
+      formEvent('quote_form_error', { failure_type: 'network' })
       setStatus('error')
     }
   }
@@ -132,7 +154,7 @@ function StandardQuoteRequestForm({ sourcePage }: Props) {
   }
 
   return (
-    <form id="quote_request" onSubmit={onSubmit} className="grid sm:grid-cols-2 gap-4">
+    <form id="quote_request" onSubmit={onSubmit} onFocusCapture={onFormFocus} onInvalidCapture={onFormInvalid} className="grid sm:grid-cols-2 gap-4">
       {fromParam || (sourcePage && sourcePage !== '/inquiry') ? (
         <p className="sm:col-span-2 font-inter text-body-sm text-gray-600">
           Your enquiry: <span className="text-[#1B2A4A]">{serviceType}</span>. No menu decision is needed yet.
