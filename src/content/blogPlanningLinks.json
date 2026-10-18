@@ -1,22 +1,32 @@
 {
-  "/events": [
+  "/luxury-dining-experiences": [
     {
-      "url": "/blog/anniversary-dinner-at-home-dubai",
-      "title": "How do you plan an anniversary dinner at home in Dubai?",
-      "excerpt": "A planning guide for an anniversary dinner at home — menu direction, service style, timing and the questions to settle beforehand."
+      "url": "/blog/how-many-courses-private-dinner-dubai",
+      "title": "How many courses for a private dinner at home in Dubai?",
+      "excerpt": "Two, three or a tasting sequence: how to choose the course count for a private dinner at home in Dubai, with a worked evening example."
     },
     {
-      "url": "/blog/surprise-dinner-arrivals-deliveries",
-      "title": "A Surprise Dinner Plan for Arrivals and Deliveries",
-      "excerpt": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
+      "url": "/blog/private-dinner-seating-and-service-flow-dubai",
+      "title": "How to plan seating and service flow for a private dinner at home",
+      "excerpt": "A seating and service-flow checklist for a private dinner at home, covering the chef's workspace, plate routes and course timing."
     },
     {
-      "url": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
-      "title": "How should a wedding planner organise a catering tasting?",
-      "excerpt": "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off."
+      "url": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
+      "title": "How do you build a running order for a plated dinner?",
+      "excerpt": "Use this plated dinner running order checklist to connect menus, seating, dietary meals and service cues, with clear roles and checks for a well-planned evening."
+    },
+    {
+      "url": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+      "title": "One dinner at home: should you brief a chef or caterer?",
+      "excerpt": "One dinner at home chef catering: choose by cooking and service needs, not guest count. Compare formats, kitchen needs and what to include in your brief."
     }
   ],
   "/catering-dubai": [
+    {
+      "url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+      "title": "How many guests can a Dubai caterer serve for one event?",
+      "excerpt": "A Dubai caterer's guest capacity is confirmed per event: menu, format, staffing, equipment and venue decide it. What to confirm before booking."
+    },
     {
       "url": "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
       "title": "Can catering companies in Dubai provide serving staff and cleanup?",
@@ -43,7 +53,51 @@
       "excerpt": "Compare catering proposals line by line: menu quantities, staffing hours, hire items, access charges, service scope, tax treatment and change deadlines."
     }
   ],
+  "/full-time-private-chef-dubai": [
+    {
+      "url": "/blog/live-in-or-live-out-full-time-chef-dubai",
+      "title": "Live-in or live-out chef at home in Dubai: what to decide?",
+      "excerpt": "Live-in, live-out or a daily cooking shift: how to choose the arrangement for a full-time private chef at home in Dubai, and what each needs."
+    },
+    {
+      "url": "/blog/full-time-private-chef-day-off-cover-plan",
+      "title": "Full-time private chef day off: how to plan meals while they rest",
+      "excerpt": "How to keep a household fed when a full-time private chef is off, with a cover options table and a handover checklist."
+    },
+    {
+      "url": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
+      "title": "How should a villa concierge coordinate recurring chef visits?",
+      "excerpt": "Use a villa concierge recurring chef visit checklist to agree menus, access, shopping and handovers. Keep Dubai household cooking clear from one visit to the next."
+    },
+    {
+      "url": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
+      "title": "How do you review your first month with a household chef?",
+      "excerpt": "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan."
+    }
+  ],
+  "/institutional-catering-dubai": [
+    {
+      "url": "/blog/switching-school-meal-caterers-dubai",
+      "title": "Switching school meal caterers in Dubai: a handover plan",
+      "excerpt": "A staged handover plan for schools and nurseries changing meal caterers in Dubai: records, dietary lists, delivery changes and parent communication."
+    },
+    {
+      "url": "/blog/school-caterer-backup-plan-missed-delivery",
+      "title": "What backup plan should a school or nursery ask its caterer for?",
+      "excerpt": "A risk table and checklist of backup-plan questions for schools and nurseries to put to a meal caterer."
+    },
+    {
+      "url": "/blog/catering-for-international-schools-in-dubai-complete-guide",
+      "title": "School event catering briefs: access, timing and dietary needs",
+      "excerpt": "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals."
+    }
+  ],
   "/private-chef-dubai": [
+    {
+      "url": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+      "title": "Weight loss meal prep in Dubai: chef or packaged meals?",
+      "excerpt": "Compare chef-cooked weight loss meal prep in Dubai with packaged delivery: portions, nutrition information and practical arrangements before you commit."
+    },
     {
       "url": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
       "title": "Can meal prep portions be adjusted for kids?",
@@ -95,6 +149,23 @@
       "excerpt": "Evaluate a household chef trial in Dubai with a practical scorecard covering food, communication, kitchen habits, grocery clarity and useful feedback."
     }
   ],
+  "/events": [
+    {
+      "url": "/blog/anniversary-dinner-at-home-dubai",
+      "title": "How do you plan an anniversary dinner at home in Dubai?",
+      "excerpt": "A planning guide for an anniversary dinner at home — menu direction, service style, timing and the questions to settle beforehand."
+    },
+    {
+      "url": "/blog/surprise-dinner-arrivals-deliveries",
+      "title": "A Surprise Dinner Plan for Arrivals and Deliveries",
+      "excerpt": "Keep a surprise dinner organised with a named contact, agreed delivery route, guest arrival plan, reveal cue and a practical fallback if timings change."
+    },
+    {
+      "url": "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
+      "title": "How should a wedding planner organise a catering tasting?",
+      "excerpt": "Use this wedding planner catering tasting checklist to approve dishes, dietary needs and service details, with clear steps for venue checks and menu sign-off."
+    }
+  ],
   "/corporate": [
     {
       "url": "/blog/office-celebration-catering-workday-plan",
@@ -142,52 +213,6 @@
       "url": "/blog/three-hour-yacht-party-food-timeline-dubai",
       "title": "A Yacht Party Food Timeline for Three Hours in Dubai",
       "excerpt": "Fit food into a three-hour Dubai yacht charter: boarding bites, cruising service, cake timing, galley handover and realistic weather or departure changes."
-    }
-  ],
-  "/full-time-private-chef-dubai": [
-    {
-      "url": "/blog/full-time-private-chef-day-off-cover-plan",
-      "title": "Full-time private chef day off: how to plan meals while they rest",
-      "excerpt": "How to keep a household fed when a full-time private chef is off, with a cover options table and a handover checklist."
-    },
-    {
-      "url": "/blog/how-to-connect-villa-concierge-to-recurring-private-chef-visits",
-      "title": "How should a villa concierge coordinate recurring chef visits?",
-      "excerpt": "Use a villa concierge recurring chef visit checklist to agree menus, access, shopping and handovers. Keep Dubai household cooking clear from one visit to the next."
-    },
-    {
-      "url": "/blog/monthly-chef-booking-to-weekly-meal-plan-workflow",
-      "title": "How do you review your first month with a household chef?",
-      "excerpt": "Use a first month household chef review checklist to assess meals, portions, timing and kitchen handover, then agree clear changes for your next weekly plan."
-    }
-  ],
-  "/luxury-dining-experiences": [
-    {
-      "url": "/blog/private-dinner-seating-and-service-flow-dubai",
-      "title": "How to plan seating and service flow for a private dinner at home",
-      "excerpt": "A seating and service-flow checklist for a private dinner at home, covering the chef's workspace, plate routes and course timing."
-    },
-    {
-      "url": "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
-      "title": "How do you build a running order for a plated dinner?",
-      "excerpt": "Use this plated dinner running order checklist to connect menus, seating, dietary meals and service cues, with clear roles and checks for a well-planned evening."
-    },
-    {
-      "url": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
-      "title": "One dinner at home: should you brief a chef or caterer?",
-      "excerpt": "One dinner at home chef catering: choose by cooking and service needs, not guest count. Compare formats, kitchen needs and what to include in your brief."
-    }
-  ],
-  "/institutional-catering-dubai": [
-    {
-      "url": "/blog/school-caterer-backup-plan-missed-delivery",
-      "title": "What backup plan should a school or nursery ask its caterer for?",
-      "excerpt": "A risk table and checklist of backup-plan questions for schools and nurseries to put to a meal caterer."
-    },
-    {
-      "url": "/blog/catering-for-international-schools-in-dubai-complete-guide",
-      "title": "School event catering briefs: access, timing and dietary needs",
-      "excerpt": "Build a school event catering brief Dubai caterers can assess. Plan campus access, serving times, dietary needs and staffing before comparing event proposals."
     }
   ],
   "/buffet-catering-dubai": [

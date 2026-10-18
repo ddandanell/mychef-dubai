@@ -65293,6 +65293,506 @@
     "h1": "Blog – Page 10",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
    }
+  },
+  "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged": {
+   "url": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+   "absolute_url": "https://www.mychef.ae/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/menus-dietary",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "weight loss meal prep in dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Weight Loss Meal Prep in Dubai: Chef or Packaged? | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Weight loss meal prep in Dubai: chef or packaged meals?",
+    "h1_count": 1,
+    "meta_description": "Compare weight loss meal prep in Dubai: chef-cooked meals in your kitchen or packaged delivery. Check portions, nutrition information and kitchen access.",
+    "meta_description_max_chars": 160,
+    "og_title": "Weight Loss Meal Prep in Dubai: Chef or Packaged? | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/menus-dietary",
+      "anchor": "Menus, Brunch & Dietary"
+     },
+     {
+      "url": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+      "anchor": "Weight loss meal prep in Dubai: chef or packaged meals?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef services in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef services in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef services in Dubai",
+    "title": "Weight Loss Meal Prep in Dubai: Chef or Packaged? | myCHEF",
+    "h1": "Weight loss meal prep in Dubai: chef or packaged meals?",
+    "description": "Compare weight loss meal prep in Dubai: chef-cooked meals in your kitchen or packaged delivery. Check portions, nutrition information and kitchen access."
+   }
+  },
+  "/blog/how-many-guests-can-a-dubai-caterer-serve": {
+   "url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+   "absolute_url": "https://www.mychef.ae/blog/how-many-guests-can-a-dubai-caterer-serve",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "how many guests can a dubai caterer serve",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "How Many Guests Can a Dubai Caterer Serve? | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How many guests can a Dubai caterer serve for one event?",
+    "h1_count": 1,
+    "meta_description": "A Dubai caterer's guest capacity depends on the menu, venue, service format and timetable. Learn what to confirm about staffing, equipment and headcount.",
+    "meta_description_max_chars": 160,
+    "og_title": "How Many Guests Can a Dubai Caterer Serve? | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-many-guests-can-a-dubai-caterer-serve",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+      "anchor": "How many guests can a Dubai caterer serve for one event?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-many-guests-can-a-dubai-caterer-serve.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering in Dubai",
+    "title": "How Many Guests Can a Dubai Caterer Serve? | myCHEF",
+    "h1": "How many guests can a Dubai caterer serve for one event?",
+    "description": "A Dubai caterer's guest capacity depends on the menu, venue, service format and timetable. Learn what to confirm about staffing, equipment and headcount."
+   }
+  },
+  "/blog/live-in-or-live-out-full-time-chef-dubai": {
+   "url": "/blog/live-in-or-live-out-full-time-chef-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/live-in-or-live-out-full-time-chef-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "live-in or live-out chef at home in dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Live-In or Live-Out Chef at Home in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Live-in or live-out chef at home in Dubai: what to decide?",
+    "h1_count": 1,
+    "meta_description": "Compare live-in, live-out and daily-shift arrangements for a household chef in Dubai. Check duties, privacy, kitchen access and routines before booking.",
+    "meta_description_max_chars": 160,
+    "og_title": "Live-In or Live-Out Chef at Home in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/live-in-or-live-out-full-time-chef-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/live-in-or-live-out-full-time-chef-dubai",
+      "anchor": "Live-in or live-out chef at home in Dubai: what to decide?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/full-time-private-chef-dubai",
+     "anchor": "full-time household chefs",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "full-time household chefs",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/live-in-or-live-out-full-time-chef-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time household chefs",
+    "title": "Live-In or Live-Out Chef at Home in Dubai | myCHEF",
+    "h1": "Live-in or live-out chef at home in Dubai: what to decide?",
+    "description": "Compare live-in, live-out and daily-shift arrangements for a household chef in Dubai. Check duties, privacy, kitchen access and routines before booking."
+   }
+  },
+  "/blog/how-many-courses-private-dinner-dubai": {
+   "url": "/blog/how-many-courses-private-dinner-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/how-many-courses-private-dinner-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/menus-dietary",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "how many courses for a private dinner",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "How Many Courses for a Private Dinner in Dubai? | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How many courses for a private dinner at home in Dubai?",
+    "h1_count": 1,
+    "meta_description": "Choose the number of courses for a private dinner at home in Dubai. Compare two-course, three-course and tasting formats by time, kitchen workload and pace.",
+    "meta_description_max_chars": 160,
+    "og_title": "How Many Courses for a Private Dinner in Dubai? | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-many-courses-private-dinner-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/menus-dietary",
+      "anchor": "Menus, Brunch & Dietary"
+     },
+     {
+      "url": "/blog/how-many-courses-private-dinner-dubai",
+      "anchor": "How many courses for a private dinner at home in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/luxury-dining-experiences",
+     "anchor": "private dining experiences in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-many-courses-private-dinner-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "title": "How Many Courses for a Private Dinner in Dubai? | myCHEF",
+    "h1": "How many courses for a private dinner at home in Dubai?",
+    "description": "Choose the number of courses for a private dinner at home in Dubai. Compare two-course, three-course and tasting formats by time, kitchen workload and pace."
+   }
+  },
+  "/blog/switching-school-meal-caterers-dubai": {
+   "url": "/blog/switching-school-meal-caterers-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/switching-school-meal-caterers-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/institutional",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "switching school meal caterers in dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Switching School Meal Caterers in Dubai: A Plan | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Switching school meal caterers in Dubai: a handover plan",
+    "h1_count": 1,
+    "meta_description": "Plan the handover before switching school meal caterers in Dubai. Confirm records, dietary lists, delivery changes and parent communication for the first term.",
+    "meta_description_max_chars": 160,
+    "og_title": "Switching School Meal Caterers in Dubai: A Plan | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/switching-school-meal-caterers-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/institutional",
+      "anchor": "Nurseries, Schools & Canteens"
+     },
+     {
+      "url": "/blog/switching-school-meal-caterers-dubai",
+      "anchor": "Switching school meal caterers in Dubai: a handover plan",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "institutional catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "institutional catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/switching-school-meal-caterers-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai",
+    "title": "Switching School Meal Caterers in Dubai: A Plan | myCHEF",
+    "h1": "Switching school meal caterers in Dubai: a handover plan",
+    "description": "Plan the handover before switching school meal caterers in Dubai. Confirm records, dietary lists, delivery changes and parent communication for the first term."
+   }
   }
  },
  "authority_policy": {

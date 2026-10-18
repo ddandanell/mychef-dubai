@@ -1211,6 +1211,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/sunset-yacht-trip-food-timing-dubai.json"
+    },
+    {
+      "url": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+      "title": "Weight loss meal prep in Dubai: chef or packaged meals?",
+      "primary": "weight loss meal prep in dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged.json"
+    },
+    {
+      "url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+      "title": "How many guests can a Dubai caterer serve for one event?",
+      "primary": "how many guests can a dubai caterer serve",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve.json"
+    },
+    {
+      "url": "/blog/live-in-or-live-out-full-time-chef-dubai",
+      "title": "Live-in or live-out chef at home in Dubai: what to decide?",
+      "primary": "live-in or live-out chef at home in dubai",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/live-in-or-live-out-full-time-chef-dubai.json"
+    },
+    {
+      "url": "/blog/how-many-courses-private-dinner-dubai",
+      "title": "How many courses for a private dinner at home in Dubai?",
+      "primary": "how many courses for a private dinner",
+      "owner": "/luxury-dining-experiences",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-many-courses-private-dinner-dubai.json"
+    },
+    {
+      "url": "/blog/switching-school-meal-caterers-dubai",
+      "title": "Switching school meal caterers in Dubai: a handover plan",
+      "primary": "switching school meal caterers in dubai",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/switching-school-meal-caterers-dubai.json"
     }
   ],
   "held_imports": [

@@ -854,6 +854,40 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How long does meal prep stay fresh in the fridge?"
   }
  ],
+ "/blog/how-many-courses-private-dinner-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/menus-dietary",
+   "label": "Menus, Brunch & Dietary"
+  },
+  {
+   "label": "How many courses for a private dinner at home in Dubai?"
+  }
+ ],
+ "/blog/how-many-guests-can-a-dubai-caterer-serve": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "How many guests can a Dubai caterer serve for one event?"
+  }
+ ],
  "/blog/how-much-does-private-chef-cost-dubai": [
   {
    "href": "/",
@@ -1007,6 +1041,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Kids and Adults Party Menu Planning in Dubai"
+  }
+ ],
+ "/blog/live-in-or-live-out-full-time-chef-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Live-in or live-out chef at home in Dubai: what to decide?"
   }
  ],
  "/blog/mixed-diet-dinner-party-dubai": [
@@ -1349,6 +1400,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "A Surprise Dinner Plan for Arrivals and Deliveries"
   }
  ],
+ "/blog/switching-school-meal-caterers-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/institutional",
+   "label": "Nurseries, Schools & Canteens"
+  },
+  {
+   "label": "Switching school meal caterers in Dubai: a handover plan"
+  }
+ ],
  "/blog/three-hour-yacht-party-food-timeline-dubai": [
   {
    "href": "/",
@@ -1403,6 +1471,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "How do you brief a meal-prep chef on a nutrition plan?"
+  }
+ ],
+ "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/menus-dietary",
+   "label": "Menus, Brunch & Dietary"
+  },
+  {
+   "label": "Weight loss meal prep in Dubai: chef or packaged meals?"
   }
  ],
  "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow": [
@@ -3381,6 +3466,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "What happens to leftover food after a catered event in Dubai?"
   },
   {
+   "href": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+   "label": "How many guests can a Dubai caterer serve for one event?"
+  },
+  {
    "href": "/blog/private-dinner-seating-and-service-flow-dubai",
    "label": "How to plan seating and service flow for a private dinner at home"
   },
@@ -3403,12 +3492,24 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/school-caterer-backup-plan-missed-delivery",
    "label": "What backup plan should a school or nursery ask its caterer for?"
+  },
+  {
+   "href": "/blog/switching-school-meal-caterers-dubai",
+   "label": "Switching school meal caterers in Dubai: a handover plan"
   }
  ],
  "/blog/topic/menus-dietary": [
   {
    "href": "/blog/catering-access-without-service-lift",
    "label": "Catering Access When There Is No Service Lift"
+  },
+  {
+   "href": "/blog/how-many-courses-private-dinner-dubai",
+   "label": "How many courses for a private dinner at home in Dubai?"
+  },
+  {
+   "href": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+   "label": "Weight loss meal prep in Dubai: chef or packaged meals?"
   }
  ],
  "/blog/topic/outdoor": [
@@ -3433,6 +3534,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/full-time-private-chef-day-off-cover-plan",
    "label": "Full-time private chef day off: how to plan meals while they rest"
+  },
+  {
+   "href": "/blog/live-in-or-live-out-full-time-chef-dubai",
+   "label": "Live-in or live-out chef at home in Dubai: what to decide?"
   },
   {
    "href": "/blog/private-chef-and-household-helper-kitchen-roles",

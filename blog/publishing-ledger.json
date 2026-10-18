@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 15,
+  "next_slot": 20,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -689,6 +689,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-18-4",
+      "date": "2026-10-18",
+      "status": "staged",
+      "staged_at": "2026-10-18T05:01:13Z",
+      "articles": [
+        {
+          "path": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "63a8b3fdc643f01849cd64eba00878a1434ee4a32d3fd866329f0480f19bca97",
+          "photo_ids": [
+            "boxed-canapes-026",
+            "boxed-canapes-022",
+            "buffets-057"
+          ],
+          "review": {
+            "reader_question": "Should a household use chef-cooked meal prep or packaged delivery for weight loss meal prep in Dubai?",
+            "distinct_value": "A format-comparison table, a one-day meal-mapping example and a briefing checklist separate kitchen-based cooking from packaged delivery without prescribing calories or diets.",
+            "overlap_review": "The weekly meal-prep quote guide covers quote inclusions and the macros guide covers briefing a nutrition plan. This guide compares the two preparation formats for a weight-management brief, so it repeats neither and does not claim the service-page keyword.",
+            "nearest_existing_url": "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+            "claims_review": "No calorie targets, medical advice, prices, client results or guarantees are stated; clinical nutrition is referred to the reader's own qualified professional. Examples are labelled hypothetical. Reviewed from a held Ryze export and rewritten for the approved photo catalogue; photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: meal prep chef dubai (6 impressions, 2 clicks on https://www.mychef.ae/weekly-meal-prep-dubai, 2026-09-20 to 2026-10-17). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-20",
+              "end_date": "2026-10-17",
+              "observed_query": "meal prep chef dubai",
+              "observed_page": "https://www.mychef.ae/weekly-meal-prep-dubai",
+              "impressions": 6,
+              "clicks": 2,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+          "owner": "/catering-dubai",
+          "source_sha256": "1cc6ed5134348f2fcd569fb986aafa8df12b447a3031e388ccb0cdbbd085ea7b",
+          "photo_ids": [
+            "buffets-061",
+            "buffets-059",
+            "buffets-065"
+          ],
+          "review": {
+            "reader_question": "How many guests can a Dubai caterer serve for one event?",
+            "distinct_value": "A format-by-format constraint table, a worked capacity-check example and an enquiry checklist show that capacity is confirmed per event rather than being a city-wide maximum.",
+            "overlap_review": "The quote-comparison guide compares proposal lines and the serving-staff guide covers service roles and cleanup. This guide covers guest-count confirmation per event, so it repeats neither.",
+            "nearest_existing_url": "/blog/compare-catering-quotes-dubai",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical worked example only; no capacity figures, prices, bookings, credentials or service guarantees are stated. Reviewed from a held Ryze export and rewritten for the approved photo catalogue; photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: catering for 20 guests (22 impressions on https://www.mychef.ae/catering-dubai, 2026-09-20 to 2026-10-17). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-20",
+              "end_date": "2026-10-17",
+              "observed_query": "catering for 20 guests",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 22,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/live-in-or-live-out-full-time-chef-dubai",
+          "owner": "/full-time-private-chef-dubai",
+          "source_sha256": "9fc7d89f7e5aacb600cc60edc38d3feae7a171f388bf71ca2193ff94b7c05300",
+          "photo_ids": [
+            "pasta-073",
+            "private-dining-136",
+            "private-dining-133"
+          ],
+          "review": {
+            "reader_question": "Should a household choose a live-in, live-out or daily-shift arrangement for a full-time private chef in Dubai?",
+            "distinct_value": "A three-arrangement comparison table, separate home-preparation checklists and a worked evening divide duties, space and routine — which the meal-prep comparison and day-off cover guides do not.",
+            "overlap_review": "The weekly-meal-prep-versus-full-time-chef guide weighs the service formats and the day-off guide covers absence. This guide covers the live-in, live-out and daily-shift arrangements themselves, so it repeats neither and does not claim the service-page keyword.",
+            "nearest_existing_url": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+            "claims_review": "Planning guidance and a clearly hypothetical example only; no prices, contract, employment or legal advice, credentials or service guarantees are stated, and readers are told to rely on their own written agreement. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: full time private chef dubai (30 impressions, 3 clicks on https://www.mychef.ae/full-time-private-chef-dubai, 2026-09-20 to 2026-10-17). The service page owns this query; the subquestion is an original planning supplement.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-20",
+              "end_date": "2026-10-17",
+              "observed_query": "full time private chef dubai",
+              "observed_page": "https://www.mychef.ae/full-time-private-chef-dubai",
+              "impressions": 30,
+              "clicks": 3,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic, owned by the service page. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/how-many-courses-private-dinner-dubai",
+          "owner": "/luxury-dining-experiences",
+          "source_sha256": "916c0bd0a56b988c127a97f76d95e2089836b6232b1f5c9efd5d2ec3359aedf7",
+          "photo_ids": [
+            "private-dining-131",
+            "private-dining-129",
+            "private-dining-137"
+          ],
+          "review": {
+            "reader_question": "How many courses should a private dinner at home in Dubai include?",
+            "distinct_value": "A three-format course table with planning times, a worked three-course evening clock and reduce-or-extend criteria cover course architecture, which the timeline, seating-flow and menu-ideas guides do not.",
+            "overlap_review": "The timeline guide sequences the evening, the seating guide covers room layout and plate routes, and the mixed-diet guide covers alternative plates. This guide covers the course count and pacing itself, so it repeats none of them and does not claim the commercial keyword.",
+            "nearest_existing_url": "/blog/dinner-party-timeline-dubai",
+            "claims_review": "Planning suggestions with clearly hypothetical timings only; no prices, bookings, credentials, dietary or medical claims, or service guarantees are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: private chef for events (16 impressions, 1 click on https://www.mychef.ae/, 2026-09-20 to 2026-10-17). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-20",
+              "end_date": "2026-10-17",
+              "observed_query": "private chef for events",
+              "observed_page": "https://www.mychef.ae/",
+              "impressions": 16,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/switching-school-meal-caterers-dubai",
+          "owner": "/institutional-catering-dubai",
+          "source_sha256": "5cae02739237e36107721bd823a74384292ac03c328bb89f9654e539b365aa39",
+          "photo_ids": [
+            "buffets-066",
+            "buffets-071",
+            "buffets-058"
+          ],
+          "review": {
+            "reader_question": "What should a school or nursery plan before switching to a new meal caterer?",
+            "distinct_value": "A four-stage transition table, a records-request checklist and a worked first-week plan cover the handover between caterers, which the backup-plan and menu-comparison guides do not.",
+            "overlap_review": "The backup-plan guide covers failed deliveries and the nursery guide compares meals with packed lunches. This guide covers the transition between caterers, so it repeats neither and does not claim the institutional catering commercial keyword.",
+            "nearest_existing_url": "/blog/school-caterer-backup-plan-missed-delivery",
+            "claims_review": "Planning guidance and a clearly hypothetical first-week example only; no regulatory requirements, prices, contract interpretation, medical advice or service guarantees are stated, and contract terms are referred to the school's own agreement. Photographs are owner-approved previous-work images of catering set-ups, not school kitchens.",
+            "demand_basis": "Observed GSC topic query: school canteen (5 impressions, 1 click on https://www.mychef.ae/school-catering-dubai, 2026-09-20 to 2026-10-17). Exact subquestion demand is unproven; this is an original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-20",
+              "end_date": "2026-10-17",
+              "observed_query": "school canteen",
+              "observed_page": "https://www.mychef.ae/school-catering-dubai",
+              "impressions": 5,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

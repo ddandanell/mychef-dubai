@@ -491,6 +491,36 @@
         "src": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp",
         "alt": "Long dining table set on a yacht deck with coloured lighting."
       }
+    },
+    "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged": {
+      "hero": {
+        "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp",
+        "alt": "Close view of savoury canapés in individual presentation compartments."
+      }
+    },
+    "/blog/how-many-guests-can-a-dubai-caterer-serve": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+        "alt": "Long buffet with salads and warm dishes in an event space."
+      }
+    },
+    "/blog/live-in-or-live-out-full-time-chef-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-behind-an-indoor-pasta-station-with-ingredients-and-serving-bowls-073-large.webp",
+        "alt": "Chef behind an indoor pasta station with ingredients and serving bowls."
+      }
+    },
+    "/blog/how-many-courses-private-dinner-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table."
+      }
+    },
+    "/blog/switching-school-meal-caterers-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
+        "alt": "Indoor catering buffet with salads, warm dishes and serving plates."
+      }
     }
   },
   "sources": {
@@ -626,7 +656,9 @@
     "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp": 960,
     "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp": 960,
     "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": 960,
-    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": 960
+    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": 960,
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp": 1280,
+    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": 960
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1924,6 +1956,14 @@
     "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": {
       "width": 960,
       "height": 1280
+    },
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": {
+      "width": 960,
+      "height": 1280
     }
   },
   "srcsets": {
@@ -2185,6 +2225,8 @@
     "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp": "/images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-thumb.webp 480w, /images/previous-work/mychef-long-outdoor-dining-table-with-flowers-and-white-chairs-beside-a-villa-128-large.webp 960w",
     "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp": "/images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-thumb.webp 480w, /images/previous-work/mychef-long-dining-table-set-on-a-yacht-deck-with-coloured-lighting-150-large.webp 960w",
     "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-thumb.webp 480w, /images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp 960w",
-    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-thumb.webp 480w, /images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp 960w"
+    "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-thumb.webp 480w, /images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp 960w",
+    "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-thumb.webp 640w, /images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp 1280w",
+    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-thumb.webp 480w, /images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp 960w"
   }
 }
