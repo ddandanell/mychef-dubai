@@ -1265,10 +1265,28 @@
   ],
   "held_imports": [
     {
+      "slug": "can-corporate-catering-in-dubai-handle-same-day-lunch-orders",
+      "title": "What should you confirm before same-day office catering?",
+      "status": "pending_review",
+      "source": "blog/data/can-corporate-catering-in-dubai-handle-same-day-lunch-orders.json"
+    },
+    {
+      "slug": "can-dubai-caterers-accommodate-nut-and-shellfish-allergies",
+      "title": "Can Dubai caterers accommodate nut and shellfish allergies?",
+      "status": "pending_review",
+      "source": "blog/data/can-dubai-caterers-accommodate-nut-and-shellfish-allergies.json"
+    },
+    {
       "slug": "can-i-request-a-menu-tasting-before-booking-catering-in-dubai",
       "title": "Can I request a menu tasting before booking catering in Dubai?",
       "status": "pending_review",
       "source": "blog/data/can-i-request-a-menu-tasting-before-booking-catering-in-dubai.json"
+    },
+    {
+      "slug": "do-dubai-catering-companies-charge-extra-for-last-minute-bookings",
+      "title": "Do Dubai catering companies charge extra for last-minute bookings?",
+      "status": "pending_review",
+      "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
     },
     {
       "slug": "how-many-guests-can-a-dubai-caterer-serve-for-one-event",
