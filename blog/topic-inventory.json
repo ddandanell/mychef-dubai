@@ -1271,6 +1271,12 @@
       "source": "blog/data/can-corporate-catering-in-dubai-handle-same-day-lunch-orders.json"
     },
     {
+      "slug": "can-drop-off-catering-be-reheated-at-the-office",
+      "title": "Can drop-off catering be reheated at the office?",
+      "status": "pending_review",
+      "source": "blog/data/can-drop-off-catering-be-reheated-at-the-office.json"
+    },
+    {
       "slug": "can-dubai-caterers-accommodate-nut-and-shellfish-allergies",
       "title": "Can Dubai caterers accommodate nut and shellfish allergies?",
       "status": "pending_review",
@@ -1283,6 +1289,12 @@
       "source": "blog/data/can-i-request-a-menu-tasting-before-booking-catering-in-dubai.json"
     },
     {
+      "slug": "do-corporate-caterers-in-dubai-provide-invoices-for-expenses",
+      "title": "Do corporate caterers in Dubai provide invoices for expenses?",
+      "status": "pending_review",
+      "source": "blog/data/do-corporate-caterers-in-dubai-provide-invoices-for-expenses.json"
+    },
+    {
       "slug": "do-dubai-catering-companies-charge-extra-for-last-minute-bookings",
       "title": "Do Dubai catering companies charge extra for last-minute bookings?",
       "status": "pending_review",
@@ -1293,6 +1305,12 @@
       "title": "How many guests can a Dubai caterer serve for one event?",
       "status": "pending_review",
       "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
+    },
+    {
+      "slug": "is-drop-off-catering-cheaper-than-full-service-catering-in-dubai",
+      "title": "Is drop-off catering cheaper than full-service catering in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/is-drop-off-catering-cheaper-than-full-service-catering-in-dubai.json"
     },
     {
       "slug": "is-outdoor-catering-possible-during-dubai-s-summer-heat",
