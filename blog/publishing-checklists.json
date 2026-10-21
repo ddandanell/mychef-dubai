@@ -1540,6 +1540,391 @@
         "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
         "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
       }
+    },
+    {
+      "path": "/blog/same-day-private-chef-dinner-dubai",
+      "batch": "2026-10-21-5",
+      "keyword": "same day private chef dubai",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-21",
+        "end_date": "2026-10-18",
+        "observed_query": "chef at home dubai",
+        "observed_page": "https://www.mychef.ae/private-chef-dubai",
+        "impressions": 8,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/private-chef-dubai",
+      "cluster_hub": "/blog/topic/private-chef",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+        "rationale": "The one-dinner guide explains single-occasion chef bookings generally and the hiring guide covers the full selection process. This guide is only about compressing that booking into one day, which neither covers."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 58,
+        "description_characters": 154
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 88,
+        "reader_question": "Can a private chef dinner in Dubai be booked on the same day, and what decides whether it works?"
+      },
+      "original_value": "A realistic same-day timeline, a same-day-versus-tomorrow decision table and a first-message checklist that turn a rushed request into a workable booking.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 960,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-21T03:39:33Z",
+        "modified": "2026-10-21T03:39:33Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+          "/blog/how-to-hire-a-private-chef-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+          "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp",
+          "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/party-food-portions-per-guest-dubai",
+      "batch": "2026-10-21-5",
+      "keyword": "party food portions per guest",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-21",
+        "end_date": "2026-10-18",
+        "observed_query": "birthday party catering",
+        "observed_page": "https://www.mychef.ae/catering-dubai",
+        "impressions": 22,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/catering-dubai",
+      "cluster_hub": "/blog/topic/celebrations",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+        "rationale": "The guest-capacity guide covers how many guests a caterer can serve and the party menu guide covers dish selection. This guide covers portion maths per guest by format, which neither addresses."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 58,
+        "description_characters": 147
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 104,
+        "reader_question": "How much food should be planned per guest for a home party in Dubai, across party formats?"
+      },
+      "original_value": "A portions-by-format table, a variety-versus-quantity rule, a worked 12-guest example including children's covers, and the mistakes that skew orders.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 960,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-21T03:39:33Z",
+        "modified": "2026-10-21T03:39:33Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/how-many-guests-can-a-dubai-caterer-serve",
+          "/blog/kids-and-adults-party-menu-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+          "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp",
+          "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/business-meeting-food-arrival-timing-dubai",
+      "batch": "2026-10-21-5",
+      "keyword": "business meeting catering timing",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-21",
+        "end_date": "2026-10-18",
+        "observed_query": "business meeting catering",
+        "observed_page": "https://www.mychef.ae/corporate",
+        "impressions": 30,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/corporate",
+      "cluster_hub": "/blog/topic/corporate",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/corporate-catering-full-service-vs-drop-off",
+        "rationale": "The full-service versus drop-off guide compares service models and the office breakfast guide covers one occasion. This guide covers timing against a meeting agenda, which neither addresses."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 60,
+        "description_characters": 157
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 87,
+        "reader_question": "When should food arrive and be served for different types of business meetings in Dubai?"
+      },
+      "original_value": "Serve windows by meeting type mapped to the agenda, a worked half-day example with setup and clearance, and the building-access details that decide arrival time.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 871,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-21T03:39:33Z",
+        "modified": "2026-10-21T03:39:33Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/corporate-catering-full-service-vs-drop-off",
+          "/blog/office-breakfast-planning-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp",
+          "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp",
+          "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/engagement-party-food-planning-dubai",
+      "batch": "2026-10-21-5",
+      "keyword": "engagement party food planning dubai",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-21",
+        "end_date": "2026-10-18",
+        "observed_query": "catering for engagement",
+        "observed_page": "https://www.mychef.ae/events",
+        "impressions": 1,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/events",
+      "cluster_hub": "/blog/topic/celebrations",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/canape-reception-planning-dubai",
+        "rationale": "The canapé reception guide covers standing receptions generally and the dinner timeline guide sequences a generic evening. This guide covers the engagement-specific merge of two guest lists and the announcement pause, so it repeats neither and keeps the engagement catering commercial keyword with its money page."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 48,
+        "description_characters": 152
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 77,
+        "reader_question": "How should the food for an engagement party at home in Dubai be planned around two families and an announcement moment?"
+      },
+      "original_value": "A formats-for-two-families table, announcement-anchored timeline logic and a merged dietary briefing checklist specific to engagements, not general parties.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-21T03:39:33Z",
+        "modified": "2026-10-21T03:39:33Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/canape-reception-planning-dubai",
+          "/blog/buffet-layout-planning-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+          "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp",
+          "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/corporate-yacht-catering-charter-dubai",
+      "batch": "2026-10-21-5",
+      "keyword": "corporate yacht catering",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-21",
+        "end_date": "2026-10-18",
+        "observed_query": "corporate yacht catering",
+        "observed_page": "https://www.mychef.ae/yachts",
+        "impressions": 13,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/yachts",
+      "cluster_hub": "/blog/topic/outdoor",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+        "rationale": "The charter-connection guide covers linking a chef to a booking and the three-hour timeline sequences a private party. This guide covers the corporate agenda on a working charter, so it repeats neither and never claims the yacht catering commercial keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 58,
+        "description_characters": 146
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 84,
+        "reader_question": "How should catering for a corporate yacht charter in Dubai be planned around the agenda and the boat's constraints?"
+      },
+      "original_value": "A formats-by-agenda table, timing tied to the charter itinerary rather than the clock, and a boarding confirmation checklist specific to business charters.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-21T03:39:33Z",
+        "modified": "2026-10-21T03:39:33Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+          "/blog/three-hour-yacht-party-food-timeline-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+          "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp",
+          "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
     }
   ]
 }

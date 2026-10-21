@@ -521,6 +521,36 @@
         "src": "/images/previous-work/mychef-indoor-catering-buffet-with-salads-warm-dishes-and-serving-plates-066-large.webp",
         "alt": "Indoor catering buffet with salads, warm dishes and serving plates."
       }
+    },
+    "/blog/same-day-private-chef-dinner-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+        "alt": "Monochrome table setting with dark napkins and fresh flowers."
+      }
+    },
+    "/blog/party-food-portions-per-guest-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+        "alt": "Long buffet with salads and warm dishes in an event space."
+      }
+    },
+    "/blog/business-meeting-food-arrival-timing-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp",
+        "alt": "Assorted boxed canapés with sandwiches and bite-sized dishes."
+      }
+    },
+    "/blog/engagement-party-food-planning-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+        "alt": "Close view of savoury canapés topped with cream and herbs."
+      }
+    },
+    "/blog/corporate-yacht-catering-charter-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+        "alt": "Yacht dining table with the marina visible beyond the deck."
+      }
     }
   },
   "sources": {
@@ -658,7 +688,11 @@
     "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": 960,
     "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": 960,
     "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp": 1280,
-    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": 960
+    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": 960,
+    "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp": 960,
+    "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp": 871,
+    "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp": 1024,
+    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": 1140
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -1964,6 +1998,22 @@
     "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": {
       "width": 960,
       "height": 1280
+    },
+    "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp": {
+      "width": 871,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp": {
+      "width": 1024,
+      "height": 768
+    },
+    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": {
+      "width": 1140,
+      "height": 1280
     }
   },
   "srcsets": {
@@ -2227,6 +2277,10 @@
     "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp": "/images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-thumb.webp 480w, /images/previous-work/mychef-long-yacht-dining-table-with-gold-chargers-flowers-and-glassware-152-large.webp 960w",
     "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp": "/images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-thumb.webp 480w, /images/previous-work/mychef-yacht-deck-table-set-with-white-chairs-and-floral-centrepieces-153-large.webp 960w",
     "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-thumb.webp 640w, /images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp 1280w",
-    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-thumb.webp 480w, /images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp 960w"
+    "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp": "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-thumb.webp 480w, /images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp 960w",
+    "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp": "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-thumb.webp 480w, /images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp 960w",
+    "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-thumb.webp 435w, /images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp 871w",
+    "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp": "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-thumb.webp 640w, /images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp 1024w",
+    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-thumb.webp 570w, /images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp 1140w"
   }
 }

@@ -2176,5 +2176,120 @@
       }
     ],
     "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/same-day-private-chef-dinner-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+      "alt": "Monochrome table setting with dark napkins and fresh flowers."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp",
+        "alt": "Private dining table with tall candles and delicate floral details.",
+        "caption": "A private dinner table set with linen, candles and flowers before guests arrive.",
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table.",
+        "caption": "A white and gold place setting ready for a home dinner service.",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/party-food-portions-per-guest-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-long-buffet-with-salads-and-warm-dishes-in-an-event-space-061-large.webp",
+      "alt": "Long buffet with salads and warm dishes in an event space."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-long-row-of-warm-buffet-dishes-with-a-chef-at-the-far-end-064-large.webp",
+        "alt": "Long row of warm buffet dishes with a chef at the far end.",
+        "caption": "Warm buffet dishes arranged in a long row with a chef at the far end.",
+        "width": 858,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp",
+        "alt": "Styled buffet with a leafy centrepiece and decorative serving stands.",
+        "caption": "A styled buffet with a leafy centrepiece and decorative serving stands.",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/business-meeting-food-arrival-timing-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp",
+      "alt": "Assorted boxed canapés with sandwiches and bite-sized dishes."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-in-individual-presentation-compartments-026-large.webp",
+        "alt": "Close view of savoury canapés in individual presentation compartments.",
+        "caption": "Savoury canapés arranged in individual presentation compartments for a meeting tray.",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp",
+        "alt": "Chef behind a breakfast buffet with juice dispensers and plates.",
+        "caption": "A chef behind a breakfast buffet with juice dispensers and plates.",
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/engagement-party-food-planning-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-close-view-of-savoury-canapes-topped-with-cream-and-herbs-096-large.webp",
+      "alt": "Close view of savoury canapés topped with cream and herbs."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp",
+        "alt": "Dessert buffet with bite-sized sweets, fruit and floral arrangements.",
+        "caption": "Close view of savoury canapés prepared for a standing reception.",
+        "width": 1140,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table.",
+        "caption": "A dessert buffet with bite-sized sweets and floral arrangements set for a celebration.",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
+  },
+  "/blog/corporate-yacht-catering-charter-dubai": {
+    "hero": {
+      "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
+      "alt": "Yacht dining table with the marina visible beyond the deck."
+    },
+    "inline": [
+      {
+        "src": "/images/previous-work/mychef-vegetarian-canape-selection-in-a-mychef-presentation-box-093-large.webp",
+        "alt": "Vegetarian canapé selection in a myCHEF presentation box.",
+        "caption": "A yacht dining table set with the marina visible beyond the deck.",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp",
+        "alt": "Assorted boxed canapés with sandwiches and bite-sized dishes.",
+        "caption": "A vegetarian canapé selection in a presentation box ready for transfer onboard.",
+        "width": 871,
+        "height": 1280
+      }
+    ],
+    "provenance": "Owner-supplied myCHEF previous-work photographs, catalogued source batches. Illustrate service context; not evidence of the hypothetical plan described."
   }
 }

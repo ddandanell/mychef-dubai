@@ -340,6 +340,15 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
+  "/blog/business-meeting-food-arrival-timing-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering",
+    "title": "Business Meeting Catering Timing: When Food Arrives | myCHEF",
+    "h1": "Business meeting catering timing: when should food arrive?",
+    "description": "When should food arrive for a business meeting in Dubai? Serve windows by meeting type, a worked agenda example and the details to confirm with your caterer."
+  },
   "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -506,6 +515,15 @@
     "money_page": "/corporate",
     "anchor": "corporate catering in Dubai"
   },
+  "/blog/corporate-yacht-catering-charter-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai",
+    "title": "Corporate Yacht Catering in Dubai: Planning Guide | myCHEF",
+    "h1": "Corporate yacht catering in Dubai: food for a business charter",
+    "description": "Planning catering for a corporate yacht charter in Dubai? Formats, timing against the itinerary and what to confirm before boarding, in one guide."
+  },
   "/blog/desert-dinner-party-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -550,6 +568,15 @@
     "purpose": "editorial",
     "money_page": "/institutional-catering-dubai",
     "anchor": "institutional catering in Dubai"
+  },
+  "/blog/engagement-party-food-planning-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "catering for events at home",
+    "title": "Engagement Party Food Planning in Dubai | myCHEF",
+    "h1": "Engagement party food planning in Dubai: a guide for two families",
+    "description": "How do you plan the food for an engagement party at home in Dubai? Formats that suit two families, a worked example and the details to agree in advance."
   },
   "/blog/family-dinner-staggered-arrivals": {
     "role": "supporting",
@@ -855,6 +882,15 @@
     "h1": "Blog – Page 10",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
   },
+  "/blog/page/11": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 11 | myCHEF",
+    "h1": "Blog – Page 11",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
   "/blog/page/2": {
     "role": "supporting",
     "purpose": "utility",
@@ -926,6 +962,15 @@
     "title": "Blog – Page 9 | myCHEF",
     "h1": "Blog – Page 9",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/party-food-portions-per-guest-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering in Dubai",
+    "title": "Party Food Portions Per Guest: A Dubai Home Guide | myCHEF",
+    "h1": "Party food portions per guest: planning a home buffet in Dubai",
+    "description": "How much food per guest for a home party in Dubai? Portion rules by party format, a worked 12-guest example and mistakes that skew catering orders."
   },
   "/blog/pinch-gourmet-alternatives-in": {
     "role": "supporting",
@@ -1008,6 +1053,15 @@
     "purpose": "editorial",
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
+  },
+  "/blog/same-day-private-chef-dinner-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Same Day Private Chef Dubai: Booking Dinner Today | myCHEF",
+    "h1": "Same day private chef Dubai: can you book dinner today?",
+    "description": "Can you book a private chef in Dubai on the same day? See what makes a last-minute home dinner work, a realistic timeline and when to wait until tomorrow."
   },
   "/blog/school-caterer-backup-plan-missed-delivery": {
     "role": "supporting",

@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 20,
+  "next_slot": 25,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -872,6 +872,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-21-5",
+      "date": "2026-10-21",
+      "status": "staged",
+      "staged_at": "2026-10-21T03:39:33Z",
+      "articles": [
+        {
+          "path": "/blog/same-day-private-chef-dinner-dubai",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "1263c61358cdc9699447924e1c59a6c17f4e5e739b4dc67e8b0c886f03188e29",
+          "photo_ids": [
+            "private-dining-129",
+            "private-dining-137",
+            "private-dining-131"
+          ],
+          "review": {
+            "reader_question": "Can a private chef dinner in Dubai be booked on the same day, and what decides whether it works?",
+            "distinct_value": "A realistic same-day timeline, a same-day-versus-tomorrow decision table and a first-message checklist that turn a rushed request into a workable booking.",
+            "overlap_review": "The one-dinner guide explains single-occasion chef bookings generally and the hiring guide covers the full selection process. This guide is only about compressing that booking into one day, which neither covers.",
+            "nearest_existing_url": "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no invented prices, reply-time guarantees, bookings, credentials or medical instructions. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: chef at home dubai (8 impressions on https://www.mychef.ae/private-chef-dubai, 2026-09-21 to 2026-10-18). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-18",
+              "observed_query": "chef at home dubai",
+              "observed_page": "https://www.mychef.ae/private-chef-dubai",
+              "impressions": 8,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/party-food-portions-per-guest-dubai",
+          "owner": "/catering-dubai",
+          "source_sha256": "6420cd0c8e54ffb8d8e0592f7314ae3ac54ea582f9b0c50465108c08bb428594",
+          "photo_ids": [
+            "buffets-061",
+            "buffets-064",
+            "buffets-067"
+          ],
+          "review": {
+            "reader_question": "How much food should be planned per guest for a home party in Dubai, across party formats?",
+            "distinct_value": "A portions-by-format table, a variety-versus-quantity rule, a worked 12-guest example including children's covers, and the mistakes that skew orders.",
+            "overlap_review": "The guest-capacity guide covers how many guests a caterer can serve and the party menu guide covers dish selection. This guide covers portion maths per guest by format, which neither addresses.",
+            "nearest_existing_url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+            "claims_review": "Generic planning heuristics clearly framed as starting points, plus one hypothetical example; no invented prices, client experiences or guarantees. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: birthday party catering (22 impressions on https://www.mychef.ae/catering-dubai, 2026-09-21 to 2026-10-18). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-18",
+              "observed_query": "birthday party catering",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 22,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/business-meeting-food-arrival-timing-dubai",
+          "owner": "/corporate",
+          "source_sha256": "050bdf48bf740505eb21d376206a44a8dad8277773d7929ea160e06779b1c5d5",
+          "photo_ids": [
+            "boxed-canapes-025",
+            "boxed-canapes-026",
+            "breakfast-031"
+          ],
+          "review": {
+            "reader_question": "When should food arrive and be served for different types of business meetings in Dubai?",
+            "distinct_value": "Serve windows by meeting type mapped to the agenda, a worked half-day example with setup and clearance, and the building-access details that decide arrival time.",
+            "overlap_review": "The full-service versus drop-off guide compares service models and the office breakfast guide covers one occasion. This guide covers timing against a meeting agenda, which neither addresses.",
+            "nearest_existing_url": "/blog/corporate-catering-full-service-vs-drop-off",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no invented prices, bookings, credentials or guarantees. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: business meeting catering (30 impressions on https://www.mychef.ae/corporate, 2026-09-21 to 2026-10-18). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-18",
+              "observed_query": "business meeting catering",
+              "observed_page": "https://www.mychef.ae/corporate",
+              "impressions": 30,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/engagement-party-food-planning-dubai",
+          "owner": "/events",
+          "source_sha256": "8104de5e1e11741e77529fb6bdb4994a49a4a93937a3f511d926a895dec4dddb",
+          "photo_ids": [
+            "canapes-096",
+            "desserts-047",
+            "private-dining-131"
+          ],
+          "review": {
+            "reader_question": "How should the food for an engagement party at home in Dubai be planned around two families and an announcement moment?",
+            "distinct_value": "A formats-for-two-families table, announcement-anchored timeline logic and a merged dietary briefing checklist specific to engagements, not general parties.",
+            "overlap_review": "The canapé reception guide covers standing receptions generally and the dinner timeline guide sequences a generic evening. This guide covers the engagement-specific merge of two guest lists and the announcement pause, so it repeats neither and keeps the engagement catering commercial keyword with its money page.",
+            "nearest_existing_url": "/blog/canape-reception-planning-dubai",
+            "claims_review": "Practical suggested arrangements and a clearly hypothetical example only; no invented prices, bookings, credentials or guarantees are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: catering for engagement (1 impression on https://www.mychef.ae/events, 2026-09-21 to 2026-10-18). Exact subquestion demand is unproven; original planning gap within the events topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-18",
+              "observed_query": "catering for engagement",
+              "observed_page": "https://www.mychef.ae/events",
+              "impressions": 1,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/corporate-yacht-catering-charter-dubai",
+          "owner": "/yachts",
+          "source_sha256": "22e178aee17e842b46a59649a80ccdb2ad222b83ed40c0945cbcec65b07bc068",
+          "photo_ids": [
+            "yachts-154",
+            "boxed-canapes-093",
+            "boxed-canapes-025"
+          ],
+          "review": {
+            "reader_question": "How should catering for a corporate yacht charter in Dubai be planned around the agenda and the boat's constraints?",
+            "distinct_value": "A formats-by-agenda table, timing tied to the charter itinerary rather than the clock, and a boarding confirmation checklist specific to business charters.",
+            "overlap_review": "The charter-connection guide covers linking a chef to a booking and the three-hour timeline sequences a private party. This guide covers the corporate agenda on a working charter, so it repeats neither and never claims the yacht catering commercial keyword.",
+            "nearest_existing_url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+            "claims_review": "States explicitly that myCHEF provides food and service only, never the vessel; hypothetical example clearly labelled; no invented prices, bookings, credentials or guarantees. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: corporate yacht catering (13 impressions on https://www.mychef.ae/yachts, 2026-09-21 to 2026-10-18). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-18",
+              "observed_query": "corporate yacht catering",
+              "observed_page": "https://www.mychef.ae/yachts",
+              "impressions": 13,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

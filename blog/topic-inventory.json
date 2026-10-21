@@ -1261,6 +1261,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/switching-school-meal-caterers-dubai.json"
+    },
+    {
+      "url": "/blog/same-day-private-chef-dinner-dubai",
+      "title": "Same day private chef Dubai: can you book dinner today?",
+      "primary": "same day private chef dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/same-day-private-chef-dinner-dubai.json"
+    },
+    {
+      "url": "/blog/party-food-portions-per-guest-dubai",
+      "title": "Party food portions per guest: planning a home buffet in Dubai",
+      "primary": "party food portions per guest",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/party-food-portions-per-guest-dubai.json"
+    },
+    {
+      "url": "/blog/business-meeting-food-arrival-timing-dubai",
+      "title": "Business meeting catering timing: when should food arrive?",
+      "primary": "business meeting catering timing",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/business-meeting-food-arrival-timing-dubai.json"
+    },
+    {
+      "url": "/blog/engagement-party-food-planning-dubai",
+      "title": "Engagement party food planning in Dubai: a guide for two families",
+      "primary": "engagement party food planning dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/engagement-party-food-planning-dubai.json"
+    },
+    {
+      "url": "/blog/corporate-yacht-catering-charter-dubai",
+      "title": "Corporate yacht catering in Dubai: food for a business charter",
+      "primary": "corporate yacht catering",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/corporate-yacht-catering-charter-dubai.json"
     }
   ],
   "held_imports": [

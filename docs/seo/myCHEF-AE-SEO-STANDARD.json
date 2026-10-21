@@ -65793,6 +65793,566 @@
     "h1": "Switching school meal caterers in Dubai: a handover plan",
     "description": "Plan the handover before switching school meal caterers in Dubai. Confirm records, dietary lists, delivery changes and parent communication for the first term."
    }
+  },
+  "/blog/same-day-private-chef-dinner-dubai": {
+   "url": "/blog/same-day-private-chef-dinner-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/same-day-private-chef-dinner-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "same day private chef dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Same Day Private Chef Dubai: Booking Dinner Today | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Same day private chef Dubai: can you book dinner today?",
+    "h1_count": 1,
+    "meta_description": "Can you book a private chef in Dubai on the same day? See what makes a last-minute home dinner work, a realistic timeline and when to wait until tomorrow.",
+    "meta_description_max_chars": 160,
+    "og_title": "Same Day Private Chef Dubai: Booking Dinner Today | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/same-day-private-chef-dinner-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/same-day-private-chef-dinner-dubai",
+      "anchor": "Same day private chef Dubai: can you book dinner today?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/same-day-private-chef-dinner-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Same Day Private Chef Dubai: Booking Dinner Today | myCHEF",
+    "h1": "Same day private chef Dubai: can you book dinner today?",
+    "description": "Can you book a private chef in Dubai on the same day? See what makes a last-minute home dinner work, a realistic timeline and when to wait until tomorrow."
+   }
+  },
+  "/blog/party-food-portions-per-guest-dubai": {
+   "url": "/blog/party-food-portions-per-guest-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/party-food-portions-per-guest-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "party food portions per guest",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Party Food Portions Per Guest: A Dubai Home Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Party food portions per guest: planning a home buffet in Dubai",
+    "h1_count": 1,
+    "meta_description": "How much food per guest for a home party in Dubai? Portion rules by party format, a worked 12-guest example and mistakes that skew catering orders.",
+    "meta_description_max_chars": 160,
+    "og_title": "Party Food Portions Per Guest: A Dubai Home Guide | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/party-food-portions-per-guest-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/party-food-portions-per-guest-dubai",
+      "anchor": "Party food portions per guest: planning a home buffet in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/party-food-portions-per-guest-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering in Dubai",
+    "title": "Party Food Portions Per Guest: A Dubai Home Guide | myCHEF",
+    "h1": "Party food portions per guest: planning a home buffet in Dubai",
+    "description": "How much food per guest for a home party in Dubai? Portion rules by party format, a worked 12-guest example and mistakes that skew catering orders."
+   }
+  },
+  "/blog/business-meeting-food-arrival-timing-dubai": {
+   "url": "/blog/business-meeting-food-arrival-timing-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/business-meeting-food-arrival-timing-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/corporate",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "business meeting catering timing",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Business Meeting Catering Timing: When Food Arrives | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Business meeting catering timing: when should food arrive?",
+    "h1_count": 1,
+    "meta_description": "When should food arrive for a business meeting in Dubai? Serve windows by meeting type, a worked agenda example and the details to confirm with your caterer.",
+    "meta_description_max_chars": 160,
+    "og_title": "Business Meeting Catering Timing: When Food Arrives | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/business-meeting-food-arrival-timing-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/corporate",
+      "anchor": "Corporate & Team Catering"
+     },
+     {
+      "url": "/blog/business-meeting-food-arrival-timing-dubai",
+      "anchor": "Business meeting catering timing: when should food arrive?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/corporate",
+     "anchor": "corporate catering",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/corporate",
+      "anchor": "corporate catering",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/business-meeting-food-arrival-timing-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering",
+    "title": "Business Meeting Catering Timing: When Food Arrives | myCHEF",
+    "h1": "Business meeting catering timing: when should food arrive?",
+    "description": "When should food arrive for a business meeting in Dubai? Serve windows by meeting type, a worked agenda example and the details to confirm with your caterer."
+   }
+  },
+  "/blog/engagement-party-food-planning-dubai": {
+   "url": "/blog/engagement-party-food-planning-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/engagement-party-food-planning-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "engagement party food planning dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Engagement Party Food Planning in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Engagement party food planning in Dubai: a guide for two families",
+    "h1_count": 1,
+    "meta_description": "How do you plan the food for an engagement party at home in Dubai? Formats that suit two families, a worked example and the details to agree in advance.",
+    "meta_description_max_chars": 160,
+    "og_title": "Engagement Party Food Planning in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/engagement-party-food-planning-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/engagement-party-food-planning-dubai",
+      "anchor": "Engagement party food planning in Dubai: a guide for two families",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/events",
+     "anchor": "catering for events at home",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/events",
+      "anchor": "catering for events at home",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/engagement-party-food-planning-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "catering for events at home",
+    "title": "Engagement Party Food Planning in Dubai | myCHEF",
+    "h1": "Engagement party food planning in Dubai: a guide for two families",
+    "description": "How do you plan the food for an engagement party at home in Dubai? Formats that suit two families, a worked example and the details to agree in advance."
+   }
+  },
+  "/blog/corporate-yacht-catering-charter-dubai": {
+   "url": "/blog/corporate-yacht-catering-charter-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/corporate-yacht-catering-charter-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/outdoor",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "corporate yacht catering",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Corporate Yacht Catering in Dubai: Planning Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Corporate yacht catering in Dubai: food for a business charter",
+    "h1_count": 1,
+    "meta_description": "Planning catering for a corporate yacht charter in Dubai? Formats, timing against the itinerary and what to confirm before boarding, in one guide.",
+    "meta_description_max_chars": 160,
+    "og_title": "Corporate Yacht Catering in Dubai: Planning Guide | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/corporate-yacht-catering-charter-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/outdoor",
+      "anchor": "Outdoor & Destination Dining"
+     },
+     {
+      "url": "/blog/corporate-yacht-catering-charter-dubai",
+      "anchor": "Corporate yacht catering in Dubai: food for a business charter",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/yachts",
+     "anchor": "yacht catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/yachts",
+      "anchor": "yacht catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/corporate-yacht-catering-charter-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering in Dubai",
+    "title": "Corporate Yacht Catering in Dubai: Planning Guide | myCHEF",
+    "h1": "Corporate yacht catering in Dubai: food for a business charter",
+    "description": "Planning catering for a corporate yacht charter in Dubai? Formats, timing against the itinerary and what to confirm before boarding, in one guide."
+   }
+  },
+  "/blog/page/11": {
+   "url": "/blog/page/11",
+   "absolute_url": "https://www.mychef.ae/blog/page/11",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 11 | myCHEF",
+    "h1": "Blog – Page 11",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/11",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/11",
+      "anchor": "Page 11",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 11 | myCHEF",
+    "h1": "Blog – Page 11",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
   }
  },
  "authority_policy": {

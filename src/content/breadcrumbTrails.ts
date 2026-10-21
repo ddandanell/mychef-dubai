@@ -446,6 +446,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Buffet Layout Planning in Dubai: A Practical Guide"
   }
  ],
+ "/blog/business-meeting-food-arrival-timing-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/corporate",
+   "label": "Corporate & Team Catering"
+  },
+  {
+   "label": "Business meeting catering timing: when should food arrive?"
+  }
+ ],
  "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai": [
   {
    "href": "/",
@@ -665,6 +682,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   }
  ],
+ "/blog/corporate-yacht-catering-charter-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/outdoor",
+   "label": "Outdoor & Destination Dining"
+  },
+  {
+   "label": "Corporate yacht catering in Dubai: food for a business charter"
+  }
+ ],
  "/blog/desert-dinner-party-dubai": [
   {
    "href": "/",
@@ -732,6 +766,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Dubai School Food Rules 2026"
+  }
+ ],
+ "/blog/engagement-party-food-planning-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Engagement party food planning in Dubai: a guide for two families"
   }
  ],
  "/blog/family-dinner-staggered-arrivals": [
@@ -1168,6 +1219,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Page 10"
   }
  ],
+ "/blog/page/11": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 11"
+  }
+ ],
  "/blog/page/2": [
   {
    "href": "/",
@@ -1272,6 +1336,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Page 9"
   }
  ],
+ "/blog/party-food-portions-per-guest-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Party food portions per guest: planning a home buffet in Dubai"
+  }
+ ],
  "/blog/private-chef-and-household-helper-kitchen-roles": [
   {
    "href": "/",
@@ -1347,6 +1428,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "How to plan seating and service flow for a private dinner at home"
+  }
+ ],
+ "/blog/same-day-private-chef-dinner-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Same day private chef Dubai: can you book dinner today?"
   }
  ],
  "/blog/school-caterer-backup-plan-missed-delivery": [
@@ -3420,6 +3518,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Page 10"
   },
   {
+   "href": "/blog/page/11",
+   "label": "Page 11"
+  },
+  {
    "href": "/blog/page/2",
    "label": "Page 2"
   },
@@ -3466,8 +3568,16 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "What happens to leftover food after a catered event in Dubai?"
   },
   {
+   "href": "/blog/engagement-party-food-planning-dubai",
+   "label": "Engagement party food planning in Dubai: a guide for two families"
+  },
+  {
    "href": "/blog/how-many-guests-can-a-dubai-caterer-serve",
    "label": "How many guests can a Dubai caterer serve for one event?"
+  },
+  {
+   "href": "/blog/party-food-portions-per-guest-dubai",
+   "label": "Party food portions per guest: planning a home buffet in Dubai"
   },
   {
    "href": "/blog/private-dinner-seating-and-service-flow-dubai",
@@ -3479,6 +3589,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   }
  ],
  "/blog/topic/corporate": [
+  {
+   "href": "/blog/business-meeting-food-arrival-timing-dubai",
+   "label": "Business meeting catering timing: when should food arrive?"
+  },
   {
    "href": "/blog/hybrid-workshop-catering-numbers",
    "label": "Catering Numbers for a Hybrid Workshop"
@@ -3514,6 +3628,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/outdoor": [
   {
+   "href": "/blog/corporate-yacht-catering-charter-dubai",
+   "label": "Corporate yacht catering in Dubai: food for a business charter"
+  },
+  {
    "href": "/blog/sunset-yacht-trip-food-timing-dubai",
    "label": "When should food be served on a sunset yacht trip in Dubai?"
   },
@@ -3542,6 +3660,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/private-chef-and-household-helper-kitchen-roles",
    "label": "Private chef and household helper: who does what in the kitchen?"
+  },
+  {
+   "href": "/blog/same-day-private-chef-dinner-dubai",
+   "label": "Same day private chef Dubai: can you book dinner today?"
   }
  ],
  "/catering-dubai": [
