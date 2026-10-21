@@ -1315,6 +1315,12 @@
   ],
   "held_imports": [
     {
+      "slug": "can-a-private-chef-cook-for-a-family-with-different-diets",
+      "title": "Can a private chef cook for a family with different diets?",
+      "status": "pending_review",
+      "source": "blog/data/can-a-private-chef-cook-for-a-family-with-different-diets.json"
+    },
+    {
       "slug": "can-corporate-catering-in-dubai-handle-same-day-lunch-orders",
       "title": "What should you confirm before same-day office catering?",
       "status": "pending_review",
@@ -1351,10 +1357,22 @@
       "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
     },
     {
+      "slug": "do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+      "title": "Do private chefs in Dubai clean the kitchen after cooking?",
+      "status": "pending_review",
+      "source": "blog/data/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking.json"
+    },
+    {
       "slug": "how-many-guests-can-a-dubai-caterer-serve-for-one-event",
       "title": "How many guests can a Dubai caterer serve for one event?",
       "status": "pending_review",
       "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
+    },
+    {
+      "slug": "how-much-notice-do-i-need-to-book-a-same-day-private-chef",
+      "title": "What should you confirm for a short-notice chef booking?",
+      "status": "pending_review",
+      "source": "blog/data/how-much-notice-do-i-need-to-book-a-same-day-private-chef.json"
     },
     {
       "slug": "is-drop-off-catering-cheaper-than-full-service-catering-in-dubai",
