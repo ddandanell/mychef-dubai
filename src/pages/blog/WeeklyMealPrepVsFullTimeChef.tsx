@@ -234,7 +234,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
               A dedicated household chef works to agreed days, hours and responsibilities. Your brief can include daily menus, grocery planning, meals served fresh and preparation for later. The right arrangement depends on your household size, entertaining, dietary requirements and the working schedule you can realistically agree.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              With myCHEF Managed Household, the monthly proposal includes the agreed chef service and continuing myCHEF management. We coordinate matching, a paid trial, onboarding and the Learning Month, then stay involved with feedback, the approved Household Food Profile and rematching when needed. Live-in or live-out arrangements and any separate costs are confirmed in writing.
+              With myCHEF Managed Household, the monthly proposal includes the agreed chef service and continuing myCHEF management. We coordinate matching, a paid trial, onboarding and the Learning Month, then stay involved with feedback, the approved Household Food Profile and rematching when needed. Live-in or live-out arrangements and any separate costs are confirmed in writing. Plan the chef’s rest days early too — the <Link to="/blog/full-time-private-chef-day-off-cover-plan" className="text-gold hover:underline">day-off cover planning guide</Link> shows how meals keep running while a full-time chef is off.
             </p>
             <BlogFigure
               image={{
