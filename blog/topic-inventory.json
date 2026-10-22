@@ -1339,10 +1339,22 @@
       "source": "blog/data/can-dubai-caterers-accommodate-nut-and-shellfish-allergies.json"
     },
     {
+      "slug": "can-i-hire-a-private-chef-for-a-cooking-class-at-home",
+      "title": "Can I hire a private chef for a cooking class at home?",
+      "status": "pending_review",
+      "source": "blog/data/can-i-hire-a-private-chef-for-a-cooking-class-at-home.json"
+    },
+    {
       "slug": "can-i-request-a-menu-tasting-before-booking-catering-in-dubai",
       "title": "Can I request a menu tasting before booking catering in Dubai?",
       "status": "pending_review",
       "source": "blog/data/can-i-request-a-menu-tasting-before-booking-catering-in-dubai.json"
+    },
+    {
+      "slug": "can-vegan-and-non-vegan-meals-be-served-at-the-same-event",
+      "title": "Can vegan and non-vegan meals be served at the same event?",
+      "status": "pending_review",
+      "source": "blog/data/can-vegan-and-non-vegan-meals-be-served-at-the-same-event.json"
     },
     {
       "slug": "do-corporate-caterers-in-dubai-provide-invoices-for-expenses",
@@ -1379,6 +1391,12 @@
       "title": "Is drop-off catering cheaper than full-service catering in Dubai?",
       "status": "pending_review",
       "source": "blog/data/is-drop-off-catering-cheaper-than-full-service-catering-in-dubai.json"
+    },
+    {
+      "slug": "is-halal-certification-guaranteed-on-every-catering-menu-in-dubai",
+      "title": "How do you verify halal requirements in a catering proposal?",
+      "status": "pending_review",
+      "source": "blog/data/is-halal-certification-guaranteed-on-every-catering-menu-in-dubai.json"
     },
     {
       "slug": "is-outdoor-catering-possible-during-dubai-s-summer-heat",
