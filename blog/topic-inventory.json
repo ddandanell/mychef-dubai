@@ -1365,10 +1365,22 @@
   ],
   "held_imports": [
     {
+      "slug": "best-canape-catering-companies-in-dubai",
+      "title": "Passed or displayed canapés: which suits your reception?",
+      "status": "pending_review",
+      "source": "blog/data/best-canape-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "can-a-private-chef-cook-for-a-family-with-different-diets",
       "title": "Can a private chef cook for a family with different diets?",
       "status": "pending_review",
       "source": "blog/data/can-a-private-chef-cook-for-a-family-with-different-diets.json"
+    },
+    {
+      "slug": "can-catering-companies-in-dubai-set-up-a-grazing-table-on-site",
+      "title": "Can catering companies in Dubai set up a grazing table on-site?",
+      "status": "pending_review",
+      "source": "blog/data/can-catering-companies-in-dubai-set-up-a-grazing-table-on-site.json"
     },
     {
       "slug": "can-corporate-catering-in-dubai-handle-same-day-lunch-orders",
@@ -1417,6 +1429,12 @@
       "title": "Do Dubai catering companies charge extra for last-minute bookings?",
       "status": "pending_review",
       "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
+    },
+    {
+      "slug": "how-many-chefs-are-needed-to-cater-a-50-guest-dinner-party",
+      "title": "How many chefs are needed to cater a 50-guest dinner party?",
+      "status": "pending_review",
+      "source": "blog/data/how-many-chefs-are-needed-to-cater-a-50-guest-dinner-party.json"
     },
     {
       "slug": "how-many-guests-can-a-dubai-caterer-serve-for-one-event",
