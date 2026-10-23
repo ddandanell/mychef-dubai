@@ -24,6 +24,11 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your blog 
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 
+// Page-2+ descriptions carry the page number so every archive page has a unique
+// meta description (audit: duplicate-description on /blog/page/2–10).
+const pageDescription = (page: number) =>
+  `Page ${page} of the myCHEF Dubai blog: private chef and event catering guides, published prices and the planning detail behind hosting well in Dubai.`
+
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'myCHEF Dubai Blog',
@@ -69,12 +74,12 @@ export default function Blog() {
     <div ref={containerRef}>
       <SEO
         title={current === 1 ? "Blog | myCHEF" : `Blog – Page ${current} | myCHEF`}
-        description="The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+        description={current === 1 ? "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run." : pageDescription(current)}
         canonicalPath={archivePath}
         ogImage="/images/mychef-dubai-blog-hero.webp"
         preloadHero="/images/mychef-dubai-blog-hero.webp"
         schema={current === 1 ? schema : { '@context': 'https://schema.org', '@graph': [
-          { ...collectionSchema, name: `myCHEF Dubai Blog – Page ${current}`, url: `https://www.mychef.ae${archivePath}` },
+          { ...collectionSchema, name: `myCHEF Dubai Blog – Page ${current}`, url: `https://www.mychef.ae${archivePath}`, description: pageDescription(current) },
           { '@type': 'BreadcrumbList', itemListElement: [
             { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
             { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mychef.ae/blog' },
