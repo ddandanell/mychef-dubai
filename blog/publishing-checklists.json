@@ -1925,6 +1925,391 @@
         "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
         "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
       }
+    },
+    {
+      "path": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+      "batch": "2026-10-23-6",
+      "keyword": "do private chefs in dubai clean the kitchen after cooking",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-24",
+        "end_date": "2026-10-21",
+        "observed_query": "home chef dubai",
+        "observed_page": "https://www.mychef.ae/private-chef-dubai",
+        "impressions": 7,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/private-chef-dubai",
+      "cluster_hub": "/blog/topic/private-chef",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/private-chef-kitchen-preparation-dubai",
+        "rationale": "The kitchen-preparation guide covers what a host clears before the chef arrives and the visit-length guide covers timing. This guide covers the after-cooking scope — washing up, surfaces, bins and leftovers — so it repeats neither. The held upstream draft on this exact question was reviewed and rewritten rather than published as-is."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 53,
+        "description_characters": 149
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 121,
+        "reader_question": "Do private chefs in Dubai clean the kitchen after cooking, and what cleaning scope should a host agree before the booking?"
+      },
+      "original_value": "A scope list, an agreement table and a worked evening define the split between the chef's tasks and the household's tasks, which the kitchen-preparation and visit-length guides do not cover.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1254,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-23T01:45:30Z",
+        "modified": "2026-10-23T01:45:30Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/private-chef-kitchen-preparation-dubai",
+          "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp",
+          "/images/previous-work/mychef-live-pasta-counter-with-glass-stands-and-sauce-ingredients-123-large.webp",
+          "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/housewarming-party-food-dubai",
+      "batch": "2026-10-23-6",
+      "keyword": "housewarming party food dubai",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-24",
+        "end_date": "2026-10-21",
+        "observed_query": "birthday party catering dubai",
+        "observed_page": "https://www.mychef.ae/catering-dubai",
+        "impressions": 34,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/catering-dubai",
+      "cluster_hub": "/blog/topic/celebrations",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/canape-reception-planning-dubai",
+        "rationale": "The canapé reception guide covers standing receptions generally and the drop-off guide covers delivery checks. This guide covers the housewarming specifically, including the kitchen that is not yet equipped. The held allergy draft for the catering slot was reviewed and set aside as too close to the existing gluten-free and halal question guides."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 56,
+        "description_characters": 150
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 84,
+        "reader_question": "What food formats work for a housewarming party in a Dubai home that has only just been moved into?"
+      },
+      "original_value": "A four-format decision table tied to kitchen readiness, a kitchen-ready checklist and a moved-in timing example cover the unfinished-kitchen case, which no occasion guide covers.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-23T01:45:30Z",
+        "modified": "2026-10-23T01:45:30Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/canape-reception-planning-dubai",
+          "/blog/best-drop-off-catering-services-in-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp",
+          "/images/previous-work/mychef-boxed-selection-of-individually-presented-savoury-canapes-022-large.webp",
+          "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/household-staff-meals-dubai",
+      "batch": "2026-10-23-6",
+      "keyword": "household staff meals",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-24",
+        "end_date": "2026-10-21",
+        "observed_query": "full time private chef dubai",
+        "observed_page": "https://www.mychef.ae/full-time-private-chef-dubai",
+        "impressions": 30,
+        "clicks": 2,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic, owned by the service page. Exact subquestion demand is unproven and no volume is invented."
+      },
+      "primary_money_page": "/full-time-private-chef-dubai",
+      "cluster_hub": "/blog/topic/private-chef",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/household-menu-brief-dubai",
+        "rationale": "The household menu brief covers the family's preferences and the day-off guide covers absence cover. This guide covers feeding household staff alongside the family — a separate headcount and brief — so it repeats neither and does not claim the service-page keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 60,
+        "description_characters": 149
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 90,
+        "reader_question": "Should a full-time private chef also cook meals for household staff, and how is the arrangement planned and briefed?"
+      },
+      "original_value": "A three-arrangement comparison, a staff-meals brief checklist and a worked week cover a question the menu-brief, day-off and live-in guides do not address.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1280,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-23T01:45:30Z",
+        "modified": "2026-10-23T01:45:30Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/household-menu-brief-dubai",
+          "/blog/full-time-private-chef-day-off-cover-plan"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp",
+          "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp",
+          "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/fine-dining-tableware-home-dubai",
+      "batch": "2026-10-23-6",
+      "keyword": "fine dining tableware at home",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-24",
+        "end_date": "2026-10-21",
+        "observed_query": "private home dining experience",
+        "observed_page": "https://www.mychef.ae/luxury-dining-experiences",
+        "impressions": 9,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/luxury-dining-experiences",
+      "cluster_hub": "/blog/topic/menus-dietary",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/private-chef-kitchen-preparation-dubai",
+        "rationale": "The kitchen-preparation guide covers readying the cooking space, the courses guide sets course counts and the seating guide covers room layout. This guide covers the table itself — plates, cutlery, glassware and platters per guest — so it repeats none of them and does not claim the luxury dining commercial keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 53,
+        "description_characters": 147
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 90,
+        "reader_question": "What plates, glassware and serving pieces does a home need for a fine-dining chef dinner, and when is renting worthwhile?"
+      },
+      "original_value": "A per-guest count, a shortfall table with substitutes and a worked inventory check cover tableware specifically, which the course-count and seating guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 1080,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-23T01:45:30Z",
+        "modified": "2026-10-23T01:45:30Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/how-many-courses-private-dinner-dubai",
+          "/blog/private-dinner-seating-and-service-flow-dubai"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+          "/images/previous-work/mychef-monochrome-table-setting-with-dark-napkins-and-fresh-flowers-129-large.webp",
+          "/images/previous-work/mychef-long-indoor-dining-table-set-with-plates-glasses-and-chairs-136-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
+    },
+    {
+      "path": "/blog/school-menu-changes-parent-communication",
+      "batch": "2026-10-23-6",
+      "keyword": "telling parents about school menu changes",
+      "volume": null,
+      "intent": "informational",
+      "demand_evidence": {
+        "source": "GSC",
+        "site": "https://www.mychef.ae/",
+        "start_date": "2026-09-24",
+        "end_date": "2026-10-21",
+        "observed_query": "school meals catering services in dubai",
+        "observed_page": "https://www.mychef.ae/school-catering-dubai",
+        "impressions": 19,
+        "clicks": 0,
+        "exact_query_demand": false,
+        "volume": null,
+        "intent": "informational",
+        "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+      },
+      "primary_money_page": "/institutional-catering-dubai",
+      "cluster_hub": "/blog/topic/institutional",
+      "topic_overlap": {
+        "status": "reviewed",
+        "closest_existing_page": "/blog/switching-school-meal-caterers-dubai",
+        "rationale": "The switching guide covers the handover between caterers and the rules guide covers Dubai's school food requirements. This guide covers communicating a menu change to parents, so it repeats neither and does not claim the institutional catering commercial keyword."
+      },
+      "title_and_meta": {
+        "status": "pass",
+        "title_characters": 50,
+        "description_characters": 152
+      },
+      "opening_answer": {
+        "status": "editorially reviewed",
+        "words": 95,
+        "reader_question": "How should a school or nursery in Dubai tell parents about menu changes so the change lands once, clearly?"
+      },
+      "original_value": "A five-step communication timeline, a message checklist with an allergy routing rule and a worked nursery example cover change communication, which the switching and rules guides do not.",
+      "photographs": {
+        "status": "pass",
+        "count": 3,
+        "original_owner_uploads": true,
+        "hero_width": 960,
+        "visual_aid": "HTML decision table and/or practical checklist"
+      },
+      "money_page_links": "Early contextual source link; relevant closing enquiry and service CTA. No compulsory repeated mid-post sales block for short guides.",
+      "dates": {
+        "published": "2026-10-23T01:45:30Z",
+        "modified": "2026-10-23T01:45:30Z",
+        "policy": "Only material editorial changes advance modification date."
+      },
+      "rendered_checks": {
+        "status": "pass",
+        "intro_then_toc": true,
+        "linked_company_byline_and_honest_dates": true,
+        "canonical_schema_and_robots": "also checked by full SEO contract and live verifier",
+        "reverse_links": [
+          "/blog/switching-school-meal-caterers-dubai",
+          "/blog/dubai-school-food-rules-2026"
+        ],
+        "images_with_dimensions_alt_and_loading": [
+          "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp",
+          "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp",
+          "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp"
+        ],
+        "article_and_breadcrumb_schema": true
+      },
+      "core_web_vitals": {
+        "status": "field data not yet established for this new URL",
+        "rule": "Do not report field CWV pass from a local desktop build or lab check. Review mobile field data when available."
+      },
+      "measurement": {
+        "engagement_event": "blog_money_page_click",
+        "dimensions": "Built-in pagePath with eventName; blog_path and money_page_path are additional event parameters.",
+        "conversion_limit": "Internal clicks and GA4 key events alone do not establish assisted qualified bookings."
+      }
     }
   ]
 }

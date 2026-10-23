@@ -66353,6 +66353,506 @@
     "h1": "Blog – Page 11",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
    }
+  },
+  "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking": {
+   "url": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+   "absolute_url": "https://www.mychef.ae/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "do private chefs in dubai clean the kitchen after cooking",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Do Private Chefs in Dubai Clean the Kitchen? | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Do private chefs in Dubai clean the kitchen after cooking?",
+    "h1_count": 1,
+    "meta_description": "What cleaning scope to agree with a private chef in Dubai before the visit: washing up, surfaces, bins, leftovers and a checklist to send in advance.",
+    "meta_description_max_chars": 160,
+    "og_title": "Do Private Chefs in Dubai Clean the Kitchen? | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+      "anchor": "Do private chefs in Dubai clean the kitchen after cooking?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Do Private Chefs in Dubai Clean the Kitchen? | myCHEF",
+    "h1": "Do private chefs in Dubai clean the kitchen after cooking?",
+    "description": "What cleaning scope to agree with a private chef in Dubai before the visit: washing up, surfaces, bins, leftovers and a checklist to send in advance."
+   }
+  },
+  "/blog/housewarming-party-food-dubai": {
+   "url": "/blog/housewarming-party-food-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/housewarming-party-food-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "housewarming party food dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Housewarming Party Food Dubai: A Planning Guide | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Housewarming party food Dubai: what works in a new home",
+    "h1_count": 1,
+    "meta_description": "Planning housewarming party food in Dubai? See which formats suit a new home with an unfinished kitchen, plus a ready-for-guests checklist and timing.",
+    "meta_description_max_chars": 160,
+    "og_title": "Housewarming Party Food Dubai: A Planning Guide | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/housewarming-party-food-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/housewarming-party-food-dubai",
+      "anchor": "Housewarming party food Dubai: what works in a new home",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/housewarming-party-food-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering in Dubai",
+    "title": "Housewarming Party Food Dubai: A Planning Guide | myCHEF",
+    "h1": "Housewarming party food Dubai: what works in a new home",
+    "description": "Planning housewarming party food in Dubai? See which formats suit a new home with an unfinished kitchen, plus a ready-for-guests checklist and timing."
+   }
+  },
+  "/blog/household-staff-meals-dubai": {
+   "url": "/blog/household-staff-meals-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/household-staff-meals-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "household staff meals",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Household Staff Meals: What to Agree With Your Chef | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Household staff meals: should your chef cook them too?",
+    "h1_count": 1,
+    "meta_description": "Should a full-time chef in Dubai cook for household staff as well as the family? Compare three arrangements and build a staff-meals brief that works.",
+    "meta_description_max_chars": 160,
+    "og_title": "Household Staff Meals: What to Agree With Your Chef | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/household-staff-meals-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/household-staff-meals-dubai",
+      "anchor": "Household staff meals: should your chef cook them too?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/full-time-private-chef-dubai",
+     "anchor": "full-time private chef service",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "full-time private chef service",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/household-staff-meals-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time private chef service",
+    "title": "Household Staff Meals: What to Agree With Your Chef | myCHEF",
+    "h1": "Household staff meals: should your chef cook them too?",
+    "description": "Should a full-time chef in Dubai cook for household staff as well as the family? Compare three arrangements and build a staff-meals brief that works."
+   }
+  },
+  "/blog/fine-dining-tableware-home-dubai": {
+   "url": "/blog/fine-dining-tableware-home-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/fine-dining-tableware-home-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/menus-dietary",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "fine dining tableware at home",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Fine Dining Tableware at Home: What to Check | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Fine dining tableware at home: what to provide and what to rent",
+    "h1_count": 1,
+    "meta_description": "Hosting a fine-dining dinner at home in Dubai? Check which plates, glassware and serving pieces to prepare, and when renting tableware is worth it.",
+    "meta_description_max_chars": 160,
+    "og_title": "Fine Dining Tableware at Home: What to Check | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/fine-dining-tableware-home-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/menus-dietary",
+      "anchor": "Menus, Brunch & Dietary"
+     },
+     {
+      "url": "/blog/fine-dining-tableware-home-dubai",
+      "anchor": "Fine dining tableware at home: what to provide and what to rent",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/luxury-dining-experiences",
+     "anchor": "private dining experiences in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "private dining experiences in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/fine-dining-tableware-home-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "title": "Fine Dining Tableware at Home: What to Check | myCHEF",
+    "h1": "Fine dining tableware at home: what to provide and what to rent",
+    "description": "Hosting a fine-dining dinner at home in Dubai? Check which plates, glassware and serving pieces to prepare, and when renting tableware is worth it."
+   }
+  },
+  "/blog/school-menu-changes-parent-communication": {
+   "url": "/blog/school-menu-changes-parent-communication",
+   "absolute_url": "https://www.mychef.ae/blog/school-menu-changes-parent-communication",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/institutional",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "telling parents about school menu changes",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Telling Parents About School Menu Changes | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Telling parents about school menu changes in Dubai",
+    "h1_count": 1,
+    "meta_description": "Changing a school or nursery menu in Dubai? A simple timeline and message checklist for telling parents clearly, including allergen and contact details.",
+    "meta_description_max_chars": 160,
+    "og_title": "Telling Parents About School Menu Changes | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/school-menu-changes-parent-communication",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/institutional",
+      "anchor": "Nurseries, Schools & Canteens"
+     },
+     {
+      "url": "/blog/school-menu-changes-parent-communication",
+      "anchor": "Telling parents about school menu changes in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "institutional catering in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "institutional catering in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/school-menu-changes-parent-communication.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai",
+    "title": "Telling Parents About School Menu Changes | myCHEF",
+    "h1": "Telling parents about school menu changes in Dubai",
+    "description": "Changing a school or nursery menu in Dubai? A simple timeline and message checklist for telling parents clearly, including allergen and contact details."
+   }
   }
  },
  "authority_policy": {

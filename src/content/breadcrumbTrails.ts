@@ -755,6 +755,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Do private chefs in Dubai bring their own groceries and equipment?"
   }
  ],
+ "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Do private chefs in Dubai clean the kitchen after cooking?"
+  }
+ ],
  "/blog/dubai-school-food-rules-2026": [
   {
    "href": "/",
@@ -800,6 +817,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Family Dinner When Everyone Arrives at Different Times"
+  }
+ ],
+ "/blog/fine-dining-tableware-home-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/menus-dietary",
+   "label": "Menus, Brunch & Dietary"
+  },
+  {
+   "label": "Fine dining tableware at home: what to provide and what to rent"
   }
  ],
  "/blog/full-time-private-chef-day-off-cover-plan": [
@@ -860,6 +894,40 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "A Household Menu Brief for Your Dubai Chef"
+  }
+ ],
+ "/blog/household-staff-meals-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Household staff meals: should your chef cook them too?"
+  }
+ ],
+ "/blog/housewarming-party-food-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Housewarming party food Dubai: what works in a new home"
   }
  ],
  "/blog/how-far-ahead-book-caterer-dubai": [
@@ -1462,6 +1530,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What backup plan should a school or nursery ask its caterer for?"
+  }
+ ],
+ "/blog/school-menu-changes-parent-communication": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/institutional",
+   "label": "Nurseries, Schools & Canteens"
+  },
+  {
+   "label": "Telling parents about school menu changes in Dubai"
   }
  ],
  "/blog/sunset-yacht-trip-food-timing-dubai": [
@@ -3572,6 +3657,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Engagement party food planning in Dubai: a guide for two families"
   },
   {
+   "href": "/blog/housewarming-party-food-dubai",
+   "label": "Housewarming party food Dubai: what works in a new home"
+  },
+  {
    "href": "/blog/how-many-guests-can-a-dubai-caterer-serve",
    "label": "How many guests can a Dubai caterer serve for one event?"
   },
@@ -3608,6 +3697,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "What backup plan should a school or nursery ask its caterer for?"
   },
   {
+   "href": "/blog/school-menu-changes-parent-communication",
+   "label": "Telling parents about school menu changes in Dubai"
+  },
+  {
    "href": "/blog/switching-school-meal-caterers-dubai",
    "label": "Switching school meal caterers in Dubai: a handover plan"
   }
@@ -3616,6 +3709,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/catering-access-without-service-lift",
    "label": "Catering Access When There Is No Service Lift"
+  },
+  {
+   "href": "/blog/fine-dining-tableware-home-dubai",
+   "label": "Fine dining tableware at home: what to provide and what to rent"
   },
   {
    "href": "/blog/how-many-courses-private-dinner-dubai",
@@ -3646,12 +3743,20 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Can meal prep portions be adjusted for kids?"
   },
   {
+   "href": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+   "label": "Do private chefs in Dubai clean the kitchen after cooking?"
+  },
+  {
    "href": "/blog/family-dinner-staggered-arrivals",
    "label": "Family Dinner When Everyone Arrives at Different Times"
   },
   {
    "href": "/blog/full-time-private-chef-day-off-cover-plan",
    "label": "Full-time private chef day off: how to plan meals while they rest"
+  },
+  {
+   "href": "/blog/household-staff-meals-dubai",
+   "label": "Household staff meals: should your chef cook them too?"
   },
   {
    "href": "/blog/live-in-or-live-out-full-time-chef-dubai",

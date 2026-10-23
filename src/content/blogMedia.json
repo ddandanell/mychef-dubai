@@ -551,6 +551,36 @@
         "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
         "alt": "Yacht dining table with the marina visible beyond the deck."
       }
+    },
+    "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-preparing-food-at-a-live-pasta-counter-121-large.webp",
+        "alt": "Chef preparing food at a live pasta counter."
+      }
+    },
+    "/blog/housewarming-party-food-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-assorted-finger-food-and-canapes-arranged-on-tiered-stands-098-large.webp",
+        "alt": "Assorted finger food and canapés arranged on tiered stands."
+      }
+    },
+    "/blog/household-staff-meals-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-buffet-with-salads-serving-dishes-and-stacked-plates-119-large.webp",
+        "alt": "Indoor buffet with salads, serving dishes and stacked plates."
+      }
+    },
+    "/blog/fine-dining-tableware-home-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-garden-table-131-large.webp",
+        "alt": "Close view of a white and gold place setting on a garden table."
+      }
+    },
+    "/blog/school-menu-changes-parent-communication": {
+      "hero": {
+        "src": "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp",
+        "alt": "Long breakfast buffet with pastries, juices and warm dishes."
+      }
     }
   },
   "sources": {
@@ -692,7 +722,12 @@
     "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp": 960,
     "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp": 871,
     "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp": 1024,
-    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": 1140
+    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": 1140,
+    "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp": 720,
+    "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp": 1280,
+    "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp": 960,
+    "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp": 768,
+    "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp": 717
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -2014,6 +2049,26 @@
     "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": {
       "width": 1140,
       "height": 1280
+    },
+    "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp": {
+      "width": 720,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp": {
+      "width": 1280,
+      "height": 960
+    },
+    "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp": {
+      "width": 768,
+      "height": 1024
+    },
+    "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp": {
+      "width": 717,
+      "height": 1086
     }
   },
   "srcsets": {
@@ -2281,6 +2336,11 @@
     "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp": "/images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-thumb.webp 480w, /images/previous-work/mychef-styled-buffet-with-a-leafy-centrepiece-and-decorative-serving-stands-067-large.webp 960w",
     "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp": "/images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-thumb.webp 435w, /images/previous-work/mychef-assorted-boxed-canapes-with-sandwiches-and-bite-sized-dishes-025-large.webp 871w",
     "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp": "/images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-thumb.webp 640w, /images/previous-work/mychef-chef-behind-a-breakfast-buffet-with-juice-dispensers-and-plates-031-large.webp 1024w",
-    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-thumb.webp 570w, /images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp 1140w"
+    "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp": "/images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-thumb.webp 570w, /images/previous-work/mychef-dessert-buffet-with-bite-sized-sweets-fruit-and-floral-arrangements-047-large.webp 1140w",
+    "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp": "/images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-thumb.webp 360w, /images/previous-work/mychef-canape-and-finger-food-spread-being-shared-around-a-table-097-large.webp 720w",
+    "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp": "/images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-thumb.webp 640w, /images/previous-work/mychef-breakfast-buffet-beside-windows-with-pastries-fruit-and-warm-dishes-030-large.webp 1280w",
+    "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp": "/images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-thumb.webp 480w, /images/previous-work/mychef-long-breakfast-buffet-with-pastries-juices-and-warm-dishes-029-large.webp 960w",
+    "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp": "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-thumb.webp 480w, /images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp 768w",
+    "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp": "/images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-thumb.webp 423w, /images/previous-work/mychef-black-presentation-box-with-assorted-bite-sized-canapes-023-large.webp 717w"
   }
 }

@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 25,
+  "next_slot": 30,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -1055,6 +1055,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-23-6",
+      "date": "2026-10-23",
+      "status": "staged",
+      "staged_at": "2026-10-23T01:45:30Z",
+      "articles": [
+        {
+          "path": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "d0d6dab34db09957b80db343e89f59588b0eeaf0794837905b5fd1a05063c2d7",
+          "photo_ids": [
+            "pasta-121",
+            "pasta-123",
+            "breakfast-031"
+          ],
+          "review": {
+            "reader_question": "Do private chefs in Dubai clean the kitchen after cooking, and what cleaning scope should a host agree before the booking?",
+            "distinct_value": "A scope list, an agreement table and a worked evening define the split between the chef's tasks and the household's tasks, which the kitchen-preparation and visit-length guides do not cover.",
+            "nearest_existing_url": "/blog/private-chef-kitchen-preparation-dubai",
+            "overlap_review": "The kitchen-preparation guide covers what a host clears before the chef arrives and the visit-length guide covers timing. This guide covers the after-cooking scope — washing up, surfaces, bins and leftovers — so it repeats neither. The held upstream draft on this exact question was reviewed and rewritten rather than published as-is.",
+            "claims_review": "No guaranteed service promises, prices, bookings, credentials or safety instructions are stated; cleaning scope is framed as an agreement to confirm with the service. The worked example is labelled hypothetical. Reviewed from a held Ryze export and rewritten for the approved photo catalogue.",
+            "demand_basis": "Observed GSC topic query: home chef dubai (7 impressions on https://www.mychef.ae/private-chef-dubai, 2026-09-24 to 2026-10-21). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-24",
+              "end_date": "2026-10-21",
+              "observed_query": "home chef dubai",
+              "observed_page": "https://www.mychef.ae/private-chef-dubai",
+              "impressions": 7,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/housewarming-party-food-dubai",
+          "owner": "/catering-dubai",
+          "source_sha256": "b9d3d7513daa42baf34dfb4ec80bc51d49c9357567c76db37d7f54e49d1aa3df",
+          "photo_ids": [
+            "canapes-098",
+            "boxed-canapes-022",
+            "canapes-097"
+          ],
+          "review": {
+            "reader_question": "What food formats work for a housewarming party in a Dubai home that has only just been moved into?",
+            "distinct_value": "A four-format decision table tied to kitchen readiness, a kitchen-ready checklist and a moved-in timing example cover the unfinished-kitchen case, which no occasion guide covers.",
+            "nearest_existing_url": "/blog/canape-reception-planning-dubai",
+            "overlap_review": "The canapé reception guide covers standing receptions generally and the drop-off guide covers delivery checks. This guide covers the housewarming specifically, including the kitchen that is not yet equipped. The held allergy draft for the catering slot was reviewed and set aside as too close to the existing gluten-free and halal question guides.",
+            "claims_review": "Planning suggestions and a clearly hypothetical example only; no prices, guest-count promises, bookings, credentials or service guarantees are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: birthday party catering dubai (34 impressions on https://www.mychef.ae/catering-dubai, 2026-09-24 to 2026-10-21). Exact subquestion demand is unproven; occasion planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-24",
+              "end_date": "2026-10-21",
+              "observed_query": "birthday party catering dubai",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 34,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/household-staff-meals-dubai",
+          "owner": "/full-time-private-chef-dubai",
+          "source_sha256": "161b0ae084da646acbdc1bfb41f1c8ceb7f8810f158992e2641e8f2fa5ec0786",
+          "photo_ids": [
+            "buffets-119",
+            "breakfast-030",
+            "boxed-canapes-025"
+          ],
+          "review": {
+            "reader_question": "Should a full-time private chef also cook meals for household staff, and how is the arrangement planned and briefed?",
+            "distinct_value": "A three-arrangement comparison, a staff-meals brief checklist and a worked week cover a question the menu-brief, day-off and live-in guides do not address.",
+            "nearest_existing_url": "/blog/household-menu-brief-dubai",
+            "overlap_review": "The household menu brief covers the family's preferences and the day-off guide covers absence cover. This guide covers feeding household staff alongside the family — a separate headcount and brief — so it repeats neither and does not claim the service-page keyword.",
+            "claims_review": "Planning guidance and a clearly hypothetical week only; no employment, contract or legal advice, no prices and no service guarantees; readers are referred to their own written arrangements. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: full time private chef dubai (30 impressions, 2 clicks on https://www.mychef.ae/full-time-private-chef-dubai, 2026-09-24 to 2026-10-21). The service page owns the query; the subquestion is an original planning supplement.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-24",
+              "end_date": "2026-10-21",
+              "observed_query": "full time private chef dubai",
+              "observed_page": "https://www.mychef.ae/full-time-private-chef-dubai",
+              "impressions": 30,
+              "clicks": 2,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic, owned by the service page. Exact subquestion demand is unproven and no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/fine-dining-tableware-home-dubai",
+          "owner": "/luxury-dining-experiences",
+          "source_sha256": "c6f8fe131d1194e6ff7b2efd3b622d1ba9d4d014f30c8f280ed41f40b006b51c",
+          "photo_ids": [
+            "private-dining-131",
+            "private-dining-129",
+            "private-dining-136"
+          ],
+          "review": {
+            "reader_question": "What plates, glassware and serving pieces does a home need for a fine-dining chef dinner, and when is renting worthwhile?",
+            "distinct_value": "A per-guest count, a shortfall table with substitutes and a worked inventory check cover tableware specifically, which the course-count and seating guides do not.",
+            "nearest_existing_url": "/blog/private-chef-kitchen-preparation-dubai",
+            "overlap_review": "The kitchen-preparation guide covers readying the cooking space, the courses guide sets course counts and the seating guide covers room layout. This guide covers the table itself — plates, cutlery, glassware and platters per guest — so it repeats none of them and does not claim the luxury dining commercial keyword.",
+            "claims_review": "Planning guidance and a clearly hypothetical inventory check only; no prices, rental rates, bookings, credentials or service promises about what any provider brings are stated. Photographs are owner-approved previous-work images used for context.",
+            "demand_basis": "Observed GSC topic query: private home dining experience (9 impressions on https://www.mychef.ae/luxury-dining-experiences, 2026-09-24 to 2026-10-21). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-24",
+              "end_date": "2026-10-21",
+              "observed_query": "private home dining experience",
+              "observed_page": "https://www.mychef.ae/luxury-dining-experiences",
+              "impressions": 9,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/school-menu-changes-parent-communication",
+          "owner": "/institutional-catering-dubai",
+          "source_sha256": "940dfa1adc3b3703b0abed191dcc7dc9b5525eabf73cc1a5efacbd01b8f8812f",
+          "photo_ids": [
+            "breakfast-029",
+            "breakfast-032",
+            "boxed-canapes-023"
+          ],
+          "review": {
+            "reader_question": "How should a school or nursery in Dubai tell parents about menu changes so the change lands once, clearly?",
+            "distinct_value": "A five-step communication timeline, a message checklist with an allergy routing rule and a worked nursery example cover change communication, which the switching and rules guides do not.",
+            "nearest_existing_url": "/blog/switching-school-meal-caterers-dubai",
+            "overlap_review": "The switching guide covers the handover between caterers and the rules guide covers Dubai's school food requirements. This guide covers communicating a menu change to parents, so it repeats neither and does not claim the institutional catering commercial keyword.",
+            "claims_review": "No regulatory requirements, medical or allergy advice, prices or service guarantees are stated; allergy conversations are routed to the school's own process and each child's qualified professional. The example is labelled hypothetical. Photographs are owner-approved previous-work images of catering set-ups, not school kitchens.",
+            "demand_basis": "Observed GSC topic query: school meals catering services in dubai (19 impressions on https://www.mychef.ae/school-catering-dubai, 2026-09-24 to 2026-10-21). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-24",
+              "end_date": "2026-10-21",
+              "observed_query": "school meals catering services in dubai",
+              "observed_page": "https://www.mychef.ae/school-catering-dubai",
+              "impressions": 19,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Demand for this exact subquestion is unproven; no volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

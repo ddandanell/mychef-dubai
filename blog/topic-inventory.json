@@ -1311,6 +1311,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/corporate-yacht-catering-charter-dubai.json"
+    },
+    {
+      "url": "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
+      "title": "Do private chefs in Dubai clean the kitchen after cooking?",
+      "primary": "do private chefs in dubai clean the kitchen after cooking",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking.json"
+    },
+    {
+      "url": "/blog/housewarming-party-food-dubai",
+      "title": "Housewarming party food Dubai: what works in a new home",
+      "primary": "housewarming party food dubai",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/housewarming-party-food-dubai.json"
+    },
+    {
+      "url": "/blog/household-staff-meals-dubai",
+      "title": "Household staff meals: should your chef cook them too?",
+      "primary": "household staff meals",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/household-staff-meals-dubai.json"
+    },
+    {
+      "url": "/blog/fine-dining-tableware-home-dubai",
+      "title": "Fine dining tableware at home: what to provide and what to rent",
+      "primary": "fine dining tableware at home",
+      "owner": "/luxury-dining-experiences",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/fine-dining-tableware-home-dubai.json"
+    },
+    {
+      "url": "/blog/school-menu-changes-parent-communication",
+      "title": "Telling parents about school menu changes in Dubai",
+      "primary": "telling parents about school menu changes",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/school-menu-changes-parent-communication.json"
     }
   ],
   "held_imports": [
@@ -1367,12 +1417,6 @@
       "title": "Do Dubai catering companies charge extra for last-minute bookings?",
       "status": "pending_review",
       "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
-    },
-    {
-      "slug": "do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
-      "title": "Do private chefs in Dubai clean the kitchen after cooking?",
-      "status": "pending_review",
-      "source": "blog/data/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking.json"
     },
     {
       "slug": "how-many-guests-can-a-dubai-caterer-serve-for-one-event",

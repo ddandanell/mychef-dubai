@@ -563,6 +563,15 @@
     "h1": "Do private chefs in Dubai bring their own groceries and equipment?",
     "description": "Agree who buys groceries, which tools the chef brings and what your Dubai kitchen needs. Use this checklist before confirming your cooking visit."
   },
+  "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Do Private Chefs in Dubai Clean the Kitchen? | myCHEF",
+    "h1": "Do private chefs in Dubai clean the kitchen after cooking?",
+    "description": "What cleaning scope to agree with a private chef in Dubai before the visit: washing up, surfaces, bins, leftovers and a checklist to send in advance."
+  },
   "/blog/dubai-school-food-rules-2026": {
     "role": "supporting",
     "purpose": "editorial",
@@ -586,6 +595,15 @@
     "title": "Family Dinners at Different Times | myCHEF",
     "h1": "Family Dinner When Everyone Arrives at Different Times",
     "description": "Plan a household dinner around different arrival times: portions, fresh finishing, labelled meals, schedule changes and a clear chef handover."
+  },
+  "/blog/fine-dining-tableware-home-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "private dining experiences in Dubai",
+    "title": "Fine Dining Tableware at Home: What to Check | myCHEF",
+    "h1": "Fine dining tableware at home: what to provide and what to rent",
+    "description": "Hosting a fine-dining dinner at home in Dubai? Check which plates, glassware and serving pieces to prepare, and when renting tableware is worth it."
   },
   "/blog/full-time-private-chef-day-off-cover-plan": {
     "role": "supporting",
@@ -621,6 +639,24 @@
     "purpose": "editorial",
     "money_page": "/full-time-private-chef-dubai",
     "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/household-staff-meals-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time private chef service",
+    "title": "Household Staff Meals: What to Agree With Your Chef | myCHEF",
+    "h1": "Household staff meals: should your chef cook them too?",
+    "description": "Should a full-time chef in Dubai cook for household staff as well as the family? Compare three arrangements and build a staff-meals brief that works."
+  },
+  "/blog/housewarming-party-food-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering in Dubai",
+    "title": "Housewarming Party Food Dubai: A Planning Guide | myCHEF",
+    "h1": "Housewarming party food Dubai: what works in a new home",
+    "description": "Planning housewarming party food in Dubai? See which formats suit a new home with an unfinished kitchen, plus a ready-for-guests checklist and timing."
   },
   "/blog/how-far-ahead-book-caterer-dubai": {
     "role": "supporting",
@@ -1071,6 +1107,15 @@
     "title": "School Caterer Backup Plan: Questions to Ask | myCHEF",
     "h1": "What backup plan should a school or nursery ask its caterer for?",
     "description": "Ask a school or nursery caterer what happens if a delivery is late, a cook is absent or a dietary tray is wrong. Backup-plan table and checklist for Dubai."
+  },
+  "/blog/school-menu-changes-parent-communication": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering in Dubai",
+    "title": "Telling Parents About School Menu Changes | myCHEF",
+    "h1": "Telling parents about school menu changes in Dubai",
+    "description": "Changing a school or nursery menu in Dubai? A simple timeline and message checklist for telling parents clearly, including allergen and contact details."
   },
   "/blog/smart-catering-alternatives-in": {
     "role": "supporting",
