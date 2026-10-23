@@ -5,7 +5,7 @@ import BlogReadingLink from '@/components/blog/BlogReadingLink'
 import { cateringDesign } from '@/content/cateringDesign'
 
 type Photo = { image: string; alt: string }
-export type CateringDetailPage = { title: string; focus: string; sections: { id: string; title: string; paragraphs: string[] }[]; links: { href: string; label: string }[] }
+export type CateringDetailPage = { title: string; focus: string; sections: { id: string; title: string; paragraphs: string[]; links?: { href: string; label: string }[] }[]; links: { href: string; label: string }[] }
 function SupportingPhoto({photo}: {photo: Photo}) {
   const source = (width: number) => `/images/catering-editorial-2026/${photo.image}-${width}.webp`
   return <figure className="ct-supporting-photo"><img src={source(800)} srcSet={[480,800,1200,1536].map(w=>`${source(w)} ${w}w`).join(', ')} sizes="(min-width: 1100px) 50vw, 100vw" alt={photo.alt} width={1536} height={1024} loading="lazy" decoding="async" /></figure>
@@ -27,7 +27,7 @@ export default function PlanningArticle({page}: {page: CateringDetailPage}) {
   return <BlogProse className="ct-planning" data-catering-expansion id="catering-planning">
     <div className="ct-container ct-planning-grid">
       <aside className="ct-guide-nav"><p className="ct-eyebrow">{operational || flight || production ? 'A considered catering service' : 'A more considered occasion'}</p><h2>{page.title}</h2><p>{page.focus}</p><nav aria-label="Catering planning topics"><ol>{page.sections.map((section,i)=><li key={section.id}><a href={`#catering-detail-${section.id}`}><span>{String(i+1).padStart(2,'0')}</span>{section.title}</a></li>)}</ol></nav></aside>
-      <div className="ct-guide-copy">{page.sections.map((section,i)=><section className="ct-detail" key={section.id} id={`catering-detail-${section.id}`}><p className="ct-eyebrow">{String(i+1).padStart(2,'0')} · Planning with myCHEF</p><h2>{section.title}</h2>{section.paragraphs.map((p,n)=><p key={n}>{p}</p>)}<BlogReadingLink section={`catering-detail-${section.id}`}/>{photoPositions.get(i) && <SupportingPhoto photo={photoPositions.get(i)!}/>}</section>)}
+      <div className="ct-guide-copy">{page.sections.map((section,i)=><section className="ct-detail" key={section.id} id={`catering-detail-${section.id}`}><p className="ct-eyebrow">{String(i+1).padStart(2,'0')} · Planning with myCHEF</p><h2>{section.title}</h2>{section.paragraphs.map((p,n)=><p key={n}>{p}</p>)}{section.links && section.links.length > 0 && <nav className="ct-context-links" aria-label={`${section.title}: related options`}>{section.links.map(link=><Link key={link.href} to={link.href}>{link.label}<ArrowUpRight size={16} aria-hidden="true"/></Link>)}</nav>}<BlogReadingLink section={`catering-detail-${section.id}`}/>{photoPositions.get(i) && <SupportingPhoto photo={photoPositions.get(i)!}/>}</section>)}
         {page.links.length>0 && <nav className="ct-context-links" aria-label="Related planning resources"><p className="ct-eyebrow">Continue planning</p>{page.links.map(link=><Link key={link.href} to={link.href}>{link.label}<ArrowUpRight size={16}/></Link>)}</nav>}
       </div>
     </div>

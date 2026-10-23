@@ -347,8 +347,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Understand your private chef plan in Dubai: scheduling, payments, changes, absences, kitchen access and the responsibilities agreed before service."
   },
   "/private-chef-dubai": {
-    "title": "Private Chef Dubai | Home Cooking & Weekly Visits | myCHEF",
-    "description": "Book a private chef in Dubai for home cooking and weekly visits. Four-hour visits from AED 1,350 before 5% VAT, groceries and transport. Explore plans."
+    "title": "Private Chef Dubai | Chef Visits & Household Plans | myCHEF",
+    "description": "Hire a private chef in Dubai for a cooking visit, weekly meal prep or a household plan. Compare schedules, menus and what is included before you book."
   },
   "/private-chef-dubai/pricing": {
     "title": "Private Chef Dubai Price | Visit & Member Rates | myCHEF",
@@ -371,8 +371,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Part time private chef in Dubai from AED 900 member rate with 4+ prepaid visits per month. Single visits also welcome. Compare cooking options and prices."
   },
   "/catering-dubai": {
-    "description": "Plan home catering in Dubai with delivery, buffets or a chef and service team. Compare menus and prices; delivery from AED 90pp for 10 guests, before VAT.",
-    "title": "Catering Dubai | Home Parties, Buffets & Menus | myCHEF"
+    "description": "Catering in Dubai for home parties, offices and events. Choose delivery, buffets, canapés or a chef and service team. Compare menus and request a clear quote.",
+    "title": "Catering Dubai | Menus for Homes, Offices & Events | myCHEF"
   },
   "/wedding-catering-dubai": {
     "description": "Wedding catering in Dubai for villa, garden and venue receptions. Plan plated menus, buffets, canapés and tastings, with service and equipment clearly quoted.",
