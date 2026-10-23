@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22 04:11",
+ "generated": "2026-10-23 04:12",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "359",
+   "value": "364",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-10-22 04:11",
+  "generated": "2026-10-23 04:12",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-10-22 04:11",
+  "generated": "2026-10-23 04:12",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,7 +2112,7 @@
   "locations": []
  },
  "pages": {
-  "contract": 359,
+  "contract": 364,
   "board": 226,
   "routes": 179,
   "frozen": 263,
@@ -2171,11 +2171,15 @@
    "/blog/dish-ae-alternatives-in",
    "/blog/diwali-party-at-home-planning-dubai",
    "/blog/do-private-chefs-in-dubai-bring-their-own-groceries-and-equipment",
+   "/blog/do-private-chefs-in-dubai-clean-the-kitchen-after-cooking",
    "/blog/engagement-party-food-planning-dubai",
    "/blog/family-dinner-staggered-arrivals",
+   "/blog/fine-dining-tableware-home-dubai",
    "/blog/full-time-private-chef-day-off-cover-plan",
    "/blog/guest-list-to-plated-dinner-private-chef-event-workflow",
    "/blog/household-menu-brief-dubai",
+   "/blog/household-staff-meals-dubai",
+   "/blog/housewarming-party-food-dubai",
    "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
    "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
    "/blog/how-many-courses-private-dinner-dubai",
@@ -2225,6 +2229,7 @@
    "/blog/private-dinner-seating-and-service-flow-dubai",
    "/blog/same-day-private-chef-dinner-dubai",
    "/blog/school-caterer-backup-plan-missed-delivery",
+   "/blog/school-menu-changes-parent-communication",
    "/blog/smart-catering-alternatives-in",
    "/blog/sunset-yacht-trip-food-timing-dubai",
    "/blog/surprise-dinner-arrivals-deliveries",
