@@ -66853,6 +66853,506 @@
     "h1": "Telling parents about school menu changes in Dubai",
     "description": "Changing a school or nursery menu in Dubai? A simple timeline and message checklist for telling parents clearly, including allergen and contact details."
    }
+  },
+  "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai": {
+   "url": "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "meals for home recovery dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Private Chef Recovery Meals at Home | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Can a private chef prepare recovery meals at home in Dubai?",
+    "h1_count": 1,
+    "meta_description": "What to agree when a private chef in Dubai cooks recovery meals at home: the brief, kitchen setup, portioning and packing format to confirm before booking.",
+    "meta_description_max_chars": 160,
+    "og_title": "Private Chef Recovery Meals at Home | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+      "anchor": "Can a private chef prepare recovery meals at home in Dubai?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Private Chef Recovery Meals at Home | myCHEF",
+    "h1": "Can a private chef prepare recovery meals at home in Dubai?",
+    "description": "What to agree when a private chef in Dubai cooks recovery meals at home: the brief, kitchen setup, portioning and packing format to confirm before booking."
+   }
+  },
+  "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai": {
+   "url": "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "indoor or outdoor catering dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Indoor or Outdoor Catering Dubai: How to Choose | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Indoor or outdoor catering in Dubai: how to choose",
+    "h1_count": 1,
+    "meta_description": "Decide between indoor and outdoor catering in Dubai: season, kitchen access, equipment and guest comfort checks to settle before booking a caterer.",
+    "meta_description_max_chars": 160,
+    "og_title": "Indoor or Outdoor Catering Dubai: How to Choose | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+      "anchor": "Indoor or outdoor catering in Dubai: how to choose",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-to-choose-indoor-or-outdoor-catering-in-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering service in Dubai",
+    "title": "Indoor or Outdoor Catering Dubai: How to Choose | myCHEF",
+    "h1": "Indoor or outdoor catering in Dubai: how to choose",
+    "description": "Decide between indoor and outdoor catering in Dubai: season, kitchen access, equipment and guest comfort checks to settle before booking a caterer."
+   }
+  },
+  "/blog/how-far-in-advance-book-corporate-catering-dubai": {
+   "url": "/blog/how-far-in-advance-book-corporate-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/how-far-in-advance-book-corporate-catering-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/corporate",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "corporate catering booking lead time dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "How Far Ahead to Book Corporate Catering | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How far ahead to book corporate catering in Dubai",
+    "h1_count": 1,
+    "meta_description": "Booking lead times for corporate catering in Dubai: what changes for standing office lunches, meetings and larger events, and what to lock in first.",
+    "meta_description_max_chars": 160,
+    "og_title": "How Far Ahead to Book Corporate Catering | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-far-in-advance-book-corporate-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/corporate",
+      "anchor": "Corporate & Team Catering"
+     },
+     {
+      "url": "/blog/how-far-in-advance-book-corporate-catering-dubai",
+      "anchor": "How far ahead to book corporate catering in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/corporate",
+     "anchor": "corporate catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/corporate",
+      "anchor": "corporate catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-far-in-advance-book-corporate-catering-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering service in Dubai",
+    "title": "How Far Ahead to Book Corporate Catering | myCHEF",
+    "h1": "How far ahead to book corporate catering in Dubai",
+    "description": "Booking lead times for corporate catering in Dubai: what changes for standing office lunches, meetings and larger events, and what to lock in first."
+   }
+  },
+  "/blog/can-you-book-bachelor-party-catering-in-dubai": {
+   "url": "/blog/can-you-book-bachelor-party-catering-in-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/can-you-book-bachelor-party-catering-in-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/celebrations",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "bachelor or bachelorette party catering dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Bachelor & Bachelorette Party Catering | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Bachelor and bachelorette party catering in Dubai",
+    "h1_count": 1,
+    "meta_description": "How catering works for a bachelor or bachelorette party in Dubai: formats that move with the night, timing, headcounts and what to confirm before booking.",
+    "meta_description_max_chars": 160,
+    "og_title": "Bachelor & Bachelorette Party Catering | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-you-book-bachelor-party-catering-in-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/celebrations",
+      "anchor": "Weddings, Parties & Celebrations"
+     },
+     {
+      "url": "/blog/can-you-book-bachelor-party-catering-in-dubai",
+      "anchor": "Bachelor and bachelorette party catering in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/events",
+     "anchor": "event catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/events",
+      "anchor": "event catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/can-you-book-bachelor-party-catering-in-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering service in Dubai",
+    "title": "Bachelor & Bachelorette Party Catering | myCHEF",
+    "h1": "Bachelor and bachelorette party catering in Dubai",
+    "description": "How catering works for a bachelor or bachelorette party in Dubai: formats that move with the night, timing, headcounts and what to confirm before booking."
+   }
+  },
+  "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs": {
+   "url": "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+   "absolute_url": "https://www.mychef.ae/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/outdoor",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "yacht catering dietary menu dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Yacht Catering Dietary Menus in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Custom yacht catering menus for dietary needs in Dubai",
+    "h1_count": 1,
+    "meta_description": "How dietary needs are handled in yacht catering in Dubai: briefing allergies, halal and vegetarian requests, and galley limits before departure day.",
+    "meta_description_max_chars": 160,
+    "og_title": "Yacht Catering Dietary Menus in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/outdoor",
+      "anchor": "Outdoor & Destination Dining"
+     },
+     {
+      "url": "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+      "anchor": "Custom yacht catering menus for dietary needs in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/yachts",
+     "anchor": "yacht catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/yachts",
+      "anchor": "yacht catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/can-yacht-catering-menus-be-customised-for-dietary-needs.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering service in Dubai",
+    "title": "Yacht Catering Dietary Menus in Dubai | myCHEF",
+    "h1": "Custom yacht catering menus for dietary needs in Dubai",
+    "description": "How dietary needs are handled in yacht catering in Dubai: briefing allergies, halal and vegetarian requests, and galley limits before departure day."
+   }
   }
  },
  "authority_policy": {

@@ -1361,6 +1361,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/school-menu-changes-parent-communication.json"
+    },
+    {
+      "url": "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+      "title": "Can a private chef prepare recovery meals at home in Dubai?",
+      "primary": "meals for home recovery dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai.json"
+    },
+    {
+      "url": "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+      "title": "Indoor or outdoor catering in Dubai: how to choose",
+      "primary": "indoor or outdoor catering dubai",
+      "owner": "/catering-dubai",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-choose-indoor-or-outdoor-catering-in-dubai.json"
+    },
+    {
+      "url": "/blog/how-far-in-advance-book-corporate-catering-dubai",
+      "title": "How far ahead to book corporate catering in Dubai",
+      "primary": "corporate catering booking lead time dubai",
+      "owner": "/corporate",
+      "hub": "corporate",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-far-in-advance-book-corporate-catering-dubai.json"
+    },
+    {
+      "url": "/blog/can-you-book-bachelor-party-catering-in-dubai",
+      "title": "Bachelor and bachelorette party catering in Dubai",
+      "primary": "bachelor or bachelorette party catering dubai",
+      "owner": "/events",
+      "hub": "celebrations",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-you-book-bachelor-party-catering-in-dubai.json"
+    },
+    {
+      "url": "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+      "title": "Custom yacht catering menus for dietary needs in Dubai",
+      "primary": "yacht catering dietary menu dubai",
+      "owner": "/yachts",
+      "hub": "outdoor",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/can-yacht-catering-menus-be-customised-for-dietary-needs.json"
     }
   ],
   "held_imports": [

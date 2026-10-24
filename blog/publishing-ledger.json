@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 30,
+  "next_slot": 35,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -1238,6 +1238,174 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-24-7",
+      "date": "2026-10-24",
+      "status": "staged",
+      "staged_at": "2026-10-24T03:36:13Z",
+      "articles": [
+        {
+          "path": "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "ceb50ceea1f99bfa42b3172e94f1528d220c2e2dcbaae8caf9cfb4abb891fcc7",
+          "photo_ids": [
+            "boxed-canapes-091",
+            "boxed-canapes-093",
+            "buffets-057"
+          ],
+          "review": {
+            "reader_question": "Can a private chef in Dubai prepare meals for someone recovering at home, and how is the arrangement briefed?",
+            "distinct_value": "A recovery-brief checklist, a pre-visit confirmation table, packing formats and a worked week cover post-illness or post-hospital home meal support, which the new-parents, elderly-care and fridge-life guides do not.",
+            "nearest_existing_url": "/blog/private-chefs-for-new-parents-in-dubai-complete-guide",
+            "overlap_review": "The new-parents guide covers meal support after a birth and the elderly-care guide covers older adults' briefs; the fridge-life guide covers storage time. This guide covers arranging recovery meals around a written medical brief, a distinct question none of them answers, and it keeps the private chef commercial keyword with its money page.",
+            "claims_review": "No medical advice, prices, bookings, credentials or service guarantees are stated; the chef follows the household's written professional guidance only. The worked week is labelled hypothetical. Topic reviewed from a pending Ryze export and rewritten as an original guide for the approved photo catalogue.",
+            "demand_basis": "Observed GSC topic query: private chef dubai monthly (23 impressions, 6 clicks on https://www.mychef.ae/private-chef-dubai, 2026-09-25 to 2026-10-22). The service page owns the recurring-chef topic; demand for this exact subquestion is unproven.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-25",
+              "end_date": "2026-10-22",
+              "observed_query": "private chef dubai monthly",
+              "observed_page": "https://www.mychef.ae/private-chef-dubai",
+              "impressions": 23,
+              "clicks": 6,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+          "owner": "/catering-dubai",
+          "source_sha256": "b908ac48f4e91407e65984cce5a582c4280e974f68208947c7238e7e0aacdf0a",
+          "photo_ids": [
+            "buffets-120",
+            "buffets-057",
+            "bbq-083"
+          ],
+          "review": {
+            "reader_question": "How should a host decide between indoor and outdoor catering for an event in Dubai?",
+            "distinct_value": "A factor-by-factor indoor/outdoor decision table, a season-and-timing section, an equipment comparison and a guest-comfort checklist settle the format choice, which the buffet-layout and BBQ planning guides do not.",
+            "nearest_existing_url": "/blog/buffet-layout-planning-dubai",
+            "overlap_review": "The buffet-layout guide covers guest-facing space and the BBQ guide covers one outdoor format's planning. This guide covers the indoor-versus-outdoor decision itself across all formats, so it repeats neither.",
+            "claims_review": "Seasonal guidance is general climate planning, not a service promise; no prices, bookings or guarantees are stated. The worked example is labelled hypothetical. Topic reviewed from a pending Ryze export and rewritten as an original guide.",
+            "demand_basis": "Observed GSC topic query: indoor catering (1 impression, 1 click on https://www.mychef.ae/catering-dubai, 2026-09-25 to 2026-10-22). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-25",
+              "end_date": "2026-10-22",
+              "observed_query": "indoor catering",
+              "observed_page": "https://www.mychef.ae/catering-dubai",
+              "impressions": 1,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/how-far-in-advance-book-corporate-catering-dubai",
+          "owner": "/corporate",
+          "source_sha256": "4a8f53161e08c7250490005fa8edacd7ed28a9aba46e258b494c06e7d605c712",
+          "photo_ids": [
+            "boxed-canapes-094",
+            "breakfast-034",
+            "buffets-119"
+          ],
+          "review": {
+            "reader_question": "How far ahead should a company book catering for office lunches, meetings and larger events in Dubai?",
+            "distinct_value": "A booking-window table by service format, a lock-in-first checklist and a same-week worked example cover corporate lead times, which the generic booking-window guide does not answer for offices.",
+            "nearest_existing_url": "/blog/how-far-ahead-book-caterer-dubai",
+            "overlap_review": "The generic booking guide covers consumer events' lead times. This guide covers corporate formats — standing lunches, meetings, larger events, board service — and what to lock in first, so it does not repeat the generic answer and keeps the corporate commercial keyword with its money page.",
+            "claims_review": "Windows are framed as planning guidance with availability confirmed at enquiry; no reply-time promises, prices or guarantees are stated. The worked example is labelled hypothetical.",
+            "demand_basis": "Observed GSC topic query: afternoon catering dubai (4 impressions, 0 clicks on https://www.mychef.ae/corporate, 2026-09-25 to 2026-10-22). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-09-25",
+              "end_date": "2026-10-22",
+              "observed_query": "afternoon catering dubai",
+              "observed_page": "https://www.mychef.ae/corporate",
+              "impressions": 4,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/can-you-book-bachelor-party-catering-in-dubai",
+          "owner": "/events",
+          "source_sha256": "d27c15cbf98f30661807935485f6f5a2939e44bf3a2f99cdbc8df6e361e6a35e",
+          "photo_ids": [
+            "canapes-097",
+            "canapes-098",
+            "buffets-067"
+          ],
+          "review": {
+            "reader_question": "Can you book catering for a bachelor or bachelorette party in Dubai, and how is it planned around a night that moves between venues?",
+            "distinct_value": "A formats-for-a-moving-group table, itinerary-based timing, group headcount and dietary collection, and a two-venue worked example cover this occasion, which the canapé and cocktail guides treat generically.",
+            "nearest_existing_url": "/blog/canape-reception-planning-dubai",
+            "overlap_review": "The canapé reception guide covers standing receptions generally and the cocktail guide covers guest flow at one venue. This guide covers the bachelor/bachelorette occasion specifically — the moving itinerary, transportable formats and group logistics — so it repeats neither.",
+            "claims_review": "Practical planning only; no prices, bookings, credentials, cultural claims or guarantees are stated. The worked example is labelled hypothetical. Topic reviewed from a pending Ryze export and rewritten as an original guide.",
+            "demand_basis": "Observed GSC topic query: anniversary catering (16 impressions, 0 clicks on https://www.mychef.ae/events, 2026-08-28 to 2026-09-24). Exact subquestion demand is unproven; original planning gap within the events topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-08-28",
+              "end_date": "2026-09-24",
+              "observed_query": "anniversary catering",
+              "observed_page": "https://www.mychef.ae/events",
+              "impressions": 16,
+              "clicks": 0,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        },
+        {
+          "path": "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+          "owner": "/yachts",
+          "source_sha256": "979c7769ded67cb546420855c966667b19d452da3873989ced9a189ada88b27b",
+          "photo_ids": [
+            "yachts-154",
+            "yachts-151",
+            "yachts-153"
+          ],
+          "review": {
+            "reader_question": "Can yacht catering menus in Dubai be customised for dietary needs, and how does the galley affect the brief?",
+            "distinct_value": "A requirement-type briefing table, a galley-constraint section and a mixed-dietary worked charter example cover dietary customisation onboard, which the galley-logistics and mixed-diet guides do not cover for yachts.",
+            "nearest_existing_url": "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
+            "overlap_review": "The galley guide covers equipment and boarding logistics and the mixed-diet guide covers a land-based dinner party. This guide covers briefing dietary requirements against galley constraints, so it repeats neither and keeps the yacht catering commercial keyword with its money page.",
+            "claims_review": "States myCHEF provides food and service only, never the vessel; no medical advice is given and written professional guidance is the boundary; no prices or guarantees are stated. The example is labelled hypothetical. Topic reviewed from a pending Ryze export and rewritten as an original guide.",
+            "demand_basis": "Observed GSC topic query: yacht catering dubai (122 impressions, 1 click on https://www.mychef.ae/yacht-catering-guide-dubai, 2026-08-28 to 2026-09-24). Exact subquestion demand is unproven; original planning gap within the measured topic.",
+            "demand_evidence": {
+              "source": "GSC",
+              "site": "https://www.mychef.ae/",
+              "start_date": "2026-08-28",
+              "end_date": "2026-09-24",
+              "observed_query": "yacht catering dubai",
+              "observed_page": "https://www.mychef.ae/yacht-catering-guide-dubai",
+              "impressions": 122,
+              "clicks": 1,
+              "exact_query_demand": false,
+              "volume": null,
+              "intent": "informational",
+              "note": "Observed demand is for the service topic. Exact subquestion demand is unproven and no monthly volume is invented."
+            }
+          }
+        }
+      ]
     }
   ]
 }

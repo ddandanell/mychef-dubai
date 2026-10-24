@@ -476,6 +476,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How to brief a chef for keto and gluten-free meals"
   }
  ],
+ "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Can a private chef prepare recovery meals at home in Dubai?"
+  }
+ ],
  "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes": [
   {
    "href": "/",
@@ -560,6 +577,40 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Can meal prep portions be adjusted for kids?"
+  }
+ ],
+ "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/outdoor",
+   "label": "Outdoor & Destination Dining"
+  },
+  {
+   "label": "Custom yacht catering menus for dietary needs in Dubai"
+  }
+ ],
+ "/blog/can-you-book-bachelor-party-catering-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Bachelor and bachelorette party catering in Dubai"
   }
  ],
  "/blog/canape-reception-planning-dubai": [
@@ -947,6 +998,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How far in advance to book a caterer"
   }
  ],
+ "/blog/how-far-in-advance-book-corporate-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/corporate",
+   "label": "Corporate & Team Catering"
+  },
+  {
+   "label": "How far ahead to book corporate catering in Dubai"
+  }
+ ],
  "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai": [
   {
    "href": "/",
@@ -1035,6 +1103,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What should a weekly meal-prep quote include?"
+  }
+ ],
+ "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/celebrations",
+   "label": "Weddings, Parties & Celebrations"
+  },
+  {
+   "label": "Indoor or outdoor catering in Dubai: how to choose"
   }
  ],
  "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": [
@@ -3649,6 +3734,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Can catering companies in Dubai provide serving staff and cleanup?"
   },
   {
+   "href": "/blog/can-you-book-bachelor-party-catering-in-dubai",
+   "label": "Bachelor and bachelorette party catering in Dubai"
+  },
+  {
    "href": "/blog/catering-leftovers-plan-dubai",
    "label": "What happens to leftover food after a catered event in Dubai?"
   },
@@ -3663,6 +3752,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/how-many-guests-can-a-dubai-caterer-serve",
    "label": "How many guests can a Dubai caterer serve for one event?"
+  },
+  {
+   "href": "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
+   "label": "Indoor or outdoor catering in Dubai: how to choose"
   },
   {
    "href": "/blog/party-food-portions-per-guest-dubai",
@@ -3681,6 +3774,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/business-meeting-food-arrival-timing-dubai",
    "label": "Business meeting catering timing: when should food arrive?"
+  },
+  {
+   "href": "/blog/how-far-in-advance-book-corporate-catering-dubai",
+   "label": "How far ahead to book corporate catering in Dubai"
   },
   {
    "href": "/blog/hybrid-workshop-catering-numbers",
@@ -3725,6 +3822,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/outdoor": [
   {
+   "href": "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+   "label": "Custom yacht catering menus for dietary needs in Dubai"
+  },
+  {
    "href": "/blog/corporate-yacht-catering-charter-dubai",
    "label": "Corporate yacht catering in Dubai: food for a business charter"
   },
@@ -3738,6 +3839,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   }
  ],
  "/blog/topic/private-chef": [
+  {
+   "href": "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
+   "label": "Can a private chef prepare recovery meals at home in Dubai?"
+  },
   {
    "href": "/blog/can-meal-prep-portions-be-adjusted-for-kids",
    "label": "Can meal prep portions be adjusted for kids?"

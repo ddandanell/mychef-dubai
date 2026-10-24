@@ -358,6 +358,15 @@
     "h1": "How to brief a chef for keto and gluten-free meals",
     "description": "Brief a chef on ingredients, portions, gluten cross-contact and kitchen arrangements. Share any clinician-provided dietary instructions before menu approval."
   },
+  "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Private Chef Recovery Meals at Home | myCHEF",
+    "h1": "Can a private chef prepare recovery meals at home in Dubai?",
+    "description": "What to agree when a private chef in Dubai cooks recovery meals at home: the brief, kitchen setup, portioning and packing format to confirm before booking."
+  },
   "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes": {
     "role": "supporting",
     "purpose": "editorial",
@@ -410,6 +419,24 @@
     "title": "Meal Prep Portions for Kids: What to Agree | myCHEF",
     "h1": "Can meal prep portions be adjusted for kids?",
     "description": "Yes — agree children's meal-prep portions by appetite and routine, not age. A briefing table, packing options and a review method for Dubai households."
+  },
+  "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/yachts",
+    "anchor": "yacht catering service in Dubai",
+    "title": "Yacht Catering Dietary Menus in Dubai | myCHEF",
+    "h1": "Custom yacht catering menus for dietary needs in Dubai",
+    "description": "How dietary needs are handled in yacht catering in Dubai: briefing allergies, halal and vegetarian requests, and galley limits before departure day."
+  },
+  "/blog/can-you-book-bachelor-party-catering-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/events",
+    "anchor": "event catering service in Dubai",
+    "title": "Bachelor & Bachelorette Party Catering | myCHEF",
+    "h1": "Bachelor and bachelorette party catering in Dubai",
+    "description": "How catering works for a bachelor or bachelorette party in Dubai: formats that move with the night, timing, headcounts and what to confirm before booking."
   },
   "/blog/canape-reception-planning-dubai": {
     "role": "supporting",
@@ -664,6 +691,15 @@
     "money_page": "/catering-dubai",
     "anchor": "catering services in Dubai"
   },
+  "/blog/how-far-in-advance-book-corporate-catering-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/corporate",
+    "anchor": "corporate catering service in Dubai",
+    "title": "How Far Ahead to Book Corporate Catering | myCHEF",
+    "h1": "How far ahead to book corporate catering in Dubai",
+    "description": "Booking lead times for corporate catering in Dubai: what changes for standing office lunches, meetings and larger events, and what to lock in first."
+  },
   "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -718,6 +754,15 @@
     "title": "Weekly Meal-Prep Quotes: Inclusions to Check | myCHEF",
     "h1": "What should a weekly meal-prep quote include?",
     "description": "Compare weekly meal-prep quotes by portions, groceries, cooking visits, containers and cleanup. Use the current service page for plans and prices."
+  },
+  "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering service in Dubai",
+    "title": "Indoor or Outdoor Catering Dubai: How to Choose | myCHEF",
+    "h1": "Indoor or outdoor catering in Dubai: how to choose",
+    "description": "Decide between indoor and outdoor catering in Dubai: season, kitchen access, equipment and guest comfort checks to settle before booking a caterer."
   },
   "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": {
     "role": "supporting",
