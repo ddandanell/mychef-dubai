@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23 04:12",
+ "generated": "2026-10-24 04:11",
  "intro": "Crawl issues from Screaming Frog, CRM numbers from GoHighLevel, and whether every contract URL is still on the board. Drop a new Frog export in docs/seo/frog/inbox and run npm run seo:daily — or fire the GitHub Action — to refresh.",
  "tiles": [
   {
@@ -15,7 +15,7 @@
    "label": "Won opportunities"
   },
   {
-   "value": "364",
+   "value": "369",
    "label": "Contract URLs"
   }
  ],
@@ -27,7 +27,7 @@
   "rule": "A push to main publishes committed JSON. Harvest does not apply copy."
  },
  "frog": {
-  "generated": "2026-10-23 04:12",
+  "generated": "2026-10-24 04:11",
   "site": "https://mychef.ae/",
   "crawled_on": "2026-08-26",
   "previous_crawled_on": "",
@@ -2100,7 +2100,7 @@
    "channels": [],
    "topics": []
   },
-  "generated": "2026-10-23 04:12",
+  "generated": "2026-10-24 04:11",
   "connected": false,
   "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
   "required_scopes": [
@@ -2112,7 +2112,7 @@
   "locations": []
  },
  "pages": {
-  "contract": 364,
+  "contract": 369,
   "board": 226,
   "routes": 179,
   "frozen": 263,
@@ -2146,12 +2146,15 @@
    "/blog/buffet-layout-planning-dubai",
    "/blog/business-meeting-food-arrival-timing-dubai",
    "/blog/can-a-private-chef-cook-keto-or-gluten-free-meals-in-dubai",
+   "/blog/can-a-private-chef-prepare-meals-for-home-recovery-in-dubai",
    "/blog/can-a-private-chef-serve-both-arabic-and-international-dishes",
    "/blog/can-catering-companies-in-dubai-provide-serving-staff-and-cleanup",
    "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
    "/blog/can-i-hire-a-private-chef-for-just-one-dinner-in-dubai",
    "/blog/can-i-pause-or-skip-a-week-of-meal-prep-delivery",
    "/blog/can-meal-prep-portions-be-adjusted-for-kids",
+   "/blog/can-yacht-catering-menus-be-customised-for-dietary-needs",
+   "/blog/can-you-book-bachelor-party-catering-in-dubai",
    "/blog/canape-reception-planning-dubai",
    "/blog/catering-access-without-service-lift",
    "/blog/catering-for-co-working-spaces-in-dubai-complete-guide",
@@ -2180,12 +2183,14 @@
    "/blog/household-menu-brief-dubai",
    "/blog/household-staff-meals-dubai",
    "/blog/housewarming-party-food-dubai",
+   "/blog/how-far-in-advance-book-corporate-catering-dubai",
    "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
    "/blog/how-long-does-meal-prep-stay-fresh-in-the-fridge",
    "/blog/how-many-courses-private-dinner-dubai",
    "/blog/how-many-guests-can-a-dubai-caterer-serve",
    "/blog/how-much-does-a-private-chef-cost-in-dubai-in",
    "/blog/how-much-does-weekly-meal-prep-cost-in-dubai-in",
+   "/blog/how-to-choose-indoor-or-outdoor-catering-in-dubai",
    "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai",
    "/blog/how-to-connect-a-wedding-planner-to-private-chef-tastings-in-dubai",
    "/blog/how-to-connect-office-facilities-management-to-lunch-catering",
