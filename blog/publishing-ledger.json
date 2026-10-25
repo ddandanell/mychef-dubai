@@ -1425,7 +1425,7 @@
     {
       "id": "2026-10-25-8",
       "date": "2026-10-25",
-      "status": "staged",
+      "status": "live",
       "staged_at": "2026-10-25T04:56:09Z",
       "articles": [
         {
@@ -1553,7 +1553,22 @@
             }
           }
         }
-      ]
+      ],
+      "verification": {
+        "publication_day": "2026-10-25",
+        "verified_at": "2026-10-25T05:04:26+00:00",
+        "deployed_commit": "dff81551bace4c94cee884340e92905a437d9007",
+        "checks": [
+          "HTTP 200",
+          "title",
+          "one H1",
+          "self canonical",
+          "indexable robots",
+          "owner link",
+          "three approved photos and HTTP 200 assets",
+          "canonical sitemap"
+        ]
+      }
     }
   ]
 }
