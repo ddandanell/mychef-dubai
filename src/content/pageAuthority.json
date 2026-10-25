@@ -736,6 +736,15 @@
     "h1": "How many guests can a Dubai caterer serve for one event?",
     "description": "A Dubai caterer's guest capacity depends on the menu, venue, service format and timetable. Learn what to confirm about staffing, equipment and headcount."
   },
+  "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Private Chef Meals Per Visit: How Many Fit? | myCHEF",
+    "h1": "How many meals can a private chef cook in one visit?",
+    "description": "How many meals a private chef can prepare in one home visit in Dubai: what changes the count, a worked day plan, and how to brief the kitchen."
+  },
   "/blog/how-much-does-private-chef-cost-dubai": {
     "role": "supporting",
     "purpose": "editorial",
@@ -763,6 +772,15 @@
     "title": "Indoor or Outdoor Catering Dubai: How to Choose | myCHEF",
     "h1": "Indoor or outdoor catering in Dubai: how to choose",
     "description": "Decide between indoor and outdoor catering in Dubai: season, kitchen access, equipment and guest comfort checks to settle before booking a caterer."
+  },
+  "/blog/how-to-choose-school-meals-catering-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering service in Dubai",
+    "title": "Choosing School Meals Catering in Dubai | myCHEF",
+    "h1": "How to choose a school meals catering service in Dubai",
+    "description": "A practical checklist for choosing a school meals catering service in Dubai: menu rotation, halal and allergen handling, service counts and trial tastings."
   },
   "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": {
     "role": "supporting",
@@ -972,6 +990,15 @@
     "h1": "Blog – Page 11",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
   },
+  "/blog/page/12": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 12 | myCHEF",
+    "h1": "Blog – Page 12",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
   "/blog/page/2": {
     "role": "supporting",
     "purpose": "utility",
@@ -1043,6 +1070,15 @@
     "title": "Blog – Page 9 | myCHEF",
     "h1": "Blog – Page 9",
     "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+  },
+  "/blog/part-time-or-full-time-private-chef-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time private chef service in Dubai",
+    "title": "Part-Time vs Full-Time Private Chef in Dubai | myCHEF",
+    "h1": "Part-time or full-time private chef: how many hours?",
+    "description": "Part-time and full-time private chefs in Dubai compared by weekly hours, kitchen use and cost structure, with a decision checklist and a scaling example."
   },
   "/blog/party-food-portions-per-guest-dubai": {
     "role": "supporting",
@@ -1119,6 +1155,15 @@
     "purpose": "editorial",
     "money_page": "/full-time-private-chef-dubai",
     "anchor": "long-term household chef services in Dubai"
+  },
+  "/blog/private-dining-at-home-vs-restaurant-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "luxury dining and private chef page in Dubai",
+    "title": "Home Private Dining vs Private Dining Room Dubai | myCHEF",
+    "h1": "Private dining at home or a private room: which to choose?",
+    "description": "Private dining at home versus a restaurant's private dining room in Dubai: privacy, kitchen freedom, menu control and cost structure compared."
   },
   "/blog/private-dinner-seating-and-service-flow-dubai": {
     "role": "supporting",
@@ -1303,6 +1348,15 @@
     "anchor": "private chef services in Dubai",
     "h1": "What details should you send in a household chef enquiry?",
     "title": "Household chef enquiry details checklist: What to send | myCHEF"
+  },
+  "/blog/when-to-confirm-final-guest-numbers-catering-dubai": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering service in Dubai",
+    "title": "Final Guest Numbers for Catering: Dubai Timing | myCHEF",
+    "h1": "When to confirm final guest numbers for catering",
+    "description": "How early to confirm final guest numbers for catered parties in Dubai: why counts change food, staffing and cost, plus a timeline and late-change rules."
   },
   "/blog/yacht-food-handover-without-waiter": {
     "role": "supporting",

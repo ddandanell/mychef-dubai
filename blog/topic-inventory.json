@@ -1411,6 +1411,56 @@
       "in_archive": true,
       "indexable": true,
       "source": "blog/data/can-yacht-catering-menus-be-customised-for-dietary-needs.json"
+    },
+    {
+      "url": "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+      "title": "How many meals can a private chef cook in one visit?",
+      "primary": "private chef meals per visit dubai",
+      "owner": "/private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-many-meals-can-a-private-chef-cook-in-one-visit.json"
+    },
+    {
+      "url": "/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+      "title": "When to confirm final guest numbers for catering",
+      "primary": "when to confirm final guest numbers catering dubai",
+      "owner": "/catering-dubai",
+      "hub": "menus-dietary",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/when-to-confirm-final-guest-numbers-catering-dubai.json"
+    },
+    {
+      "url": "/blog/part-time-or-full-time-private-chef-dubai",
+      "title": "Part-time or full-time private chef: how many hours?",
+      "primary": "part time or full time private chef dubai",
+      "owner": "/full-time-private-chef-dubai",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/part-time-or-full-time-private-chef-dubai.json"
+    },
+    {
+      "url": "/blog/private-dining-at-home-vs-restaurant-dubai",
+      "title": "Private dining at home or a private room: which to choose?",
+      "primary": "private dining at home vs restaurant dubai",
+      "owner": "/luxury-dining-experiences",
+      "hub": "private-chef",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/private-dining-at-home-vs-restaurant-dubai.json"
+    },
+    {
+      "url": "/blog/how-to-choose-school-meals-catering-dubai",
+      "title": "How to choose a school meals catering service in Dubai",
+      "primary": "choosing a school meals catering service dubai",
+      "owner": "/institutional-catering-dubai",
+      "hub": "institutional",
+      "in_archive": true,
+      "indexable": true,
+      "source": "blog/data/how-to-choose-school-meals-catering-dubai.json"
     }
   ],
   "held_imports": [

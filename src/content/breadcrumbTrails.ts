@@ -1075,6 +1075,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How many guests can a Dubai caterer serve for one event?"
   }
  ],
+ "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "How many meals can a private chef cook in one visit?"
+  }
+ ],
  "/blog/how-much-does-private-chef-cost-dubai": [
   {
    "href": "/",
@@ -1120,6 +1137,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Indoor or outdoor catering in Dubai: how to choose"
+  }
+ ],
+ "/blog/how-to-choose-school-meals-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/institutional",
+   "label": "Nurseries, Schools & Canteens"
+  },
+  {
+   "label": "How to choose a school meals catering service in Dubai"
   }
  ],
  "/blog/how-to-connect-a-private-chef-to-your-yacht-charter-in-dubai": [
@@ -1385,6 +1419,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Page 11"
   }
  ],
+ "/blog/page/12": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "label": "Page 12"
+  }
+ ],
  "/blog/page/2": [
   {
    "href": "/",
@@ -1489,6 +1536,23 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Page 9"
   }
  ],
+ "/blog/part-time-or-full-time-private-chef-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Part-time or full-time private chef: how many hours?"
+  }
+ ],
  "/blog/party-food-portions-per-guest-dubai": [
   {
    "href": "/",
@@ -1564,6 +1628,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private Chef Trial in Dubai: What to Evaluate"
+  }
+ ],
+ "/blog/private-dining-at-home-vs-restaurant-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/private-chef",
+   "label": "Private Chef Guides"
+  },
+  {
+   "label": "Private dining at home or a private room: which to choose?"
   }
  ],
  "/blog/private-dinner-seating-and-service-flow-dubai": [
@@ -1769,6 +1850,23 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "What details should you send in a household chef enquiry?"
+  }
+ ],
+ "/blog/when-to-confirm-final-guest-numbers-catering-dubai": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/blog",
+   "label": "Blog"
+  },
+  {
+   "href": "/blog/topic/menus-dietary",
+   "label": "Menus, Brunch & Dietary"
+  },
+  {
+   "label": "When to confirm final guest numbers for catering"
   }
  ],
  "/blog/yacht-food-handover-without-waiter": [
@@ -3692,6 +3790,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Page 11"
   },
   {
+   "href": "/blog/page/12",
+   "label": "Page 12"
+  },
+  {
    "href": "/blog/page/2",
    "label": "Page 2"
   },
@@ -3790,6 +3892,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/blog/topic/institutional": [
   {
+   "href": "/blog/how-to-choose-school-meals-catering-dubai",
+   "label": "How to choose a school meals catering service in Dubai"
+  },
+  {
    "href": "/blog/school-caterer-backup-plan-missed-delivery",
    "label": "What backup plan should a school or nursery ask its caterer for?"
   },
@@ -3818,6 +3924,10 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/blog/weight-loss-meal-prep-dubai-chef-cooked-vs-packaged",
    "label": "Weight loss meal prep in Dubai: chef or packaged meals?"
+  },
+  {
+   "href": "/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+   "label": "When to confirm final guest numbers for catering"
   }
  ],
  "/blog/topic/outdoor": [
@@ -3864,12 +3974,24 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Household staff meals: should your chef cook them too?"
   },
   {
+   "href": "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+   "label": "How many meals can a private chef cook in one visit?"
+  },
+  {
    "href": "/blog/live-in-or-live-out-full-time-chef-dubai",
    "label": "Live-in or live-out chef at home in Dubai: what to decide?"
   },
   {
+   "href": "/blog/part-time-or-full-time-private-chef-dubai",
+   "label": "Part-time or full-time private chef: how many hours?"
+  },
+  {
    "href": "/blog/private-chef-and-household-helper-kitchen-roles",
    "label": "Private chef and household helper: who does what in the kitchen?"
+  },
+  {
+   "href": "/blog/private-dining-at-home-vs-restaurant-dubai",
+   "label": "Private dining at home or a private room: which to choose?"
   },
   {
    "href": "/blog/same-day-private-chef-dinner-dubai",

@@ -109,7 +109,7 @@
     "/blog/whatsapp-inquiry-to-booked-private-chef-complete-workflow",
     "/blog/yacht-party-menu-ideas-dubai"
   ],
-  "next_slot": 35,
+  "next_slot": 40,
   "batches": [
     {
       "id": "2026-10-15-1",
@@ -1421,6 +1421,139 @@
           "canonical sitemap"
         ]
       }
+    },
+    {
+      "id": "2026-10-25-8",
+      "date": "2026-10-25",
+      "status": "staged",
+      "staged_at": "2026-10-25T04:56:09Z",
+      "articles": [
+        {
+          "path": "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+          "owner": "/private-chef-dubai",
+          "source_sha256": "5d614cddc133ff92ad2e2543c915010f1ab3f76bf819489aa1d6b16146547e78",
+          "photo_ids": [
+            "breakfast-034",
+            "breakfast-035",
+            "pasta-072"
+          ],
+          "review": {
+            "reader_question": "How many finished meals can a private chef prepare in a single home visit in Dubai, and what decides the number?",
+            "distinct_value": "A meal-count planning guide with a timed worked visit plan and a decision table by household situation; the existing home-visit guide covers visit duration, this one covers meal output quantity.",
+            "overlap_review": "Nearest existing guide is how-long-does-a-private-chef-home-visit-take-in-dubai, which answers duration and scheduling rather than meal quantity; the kitchen-cleaning and different-diets guides answer other questions; the topic inventory holds no meal-count article.",
+            "claims_review": "Capacity figures are framed as typical ranges from service practice, not guarantees; the worked plan is labelled hypothetical; only the site-listed starting price (AED 750 before 5% VAT) is cited.",
+            "demand_basis": "GSC 2026-09-27 to 2026-10-24 on /private-chef-dubai: '2 times a day' (1 impression, avg position 8), 'cook for 2 hours' (position 1), 'daily cooks' (13 impressions, 3 clicks, position 3.2), 'chef prepared meals at home' (position 4); GA4 property 543704202: /private-chef-dubai 144 organic sessions last 28d vs 66 prior 28d.",
+            "nearest_existing_url": "/blog/how-long-does-a-private-chef-home-visit-take-in-dubai",
+            "demand_evidence": {
+              "source": "GSC",
+              "observed_query": "2 times a day",
+              "impressions": 1,
+              "exact_query_demand": "No recorded impressions for the exact phrase 'how many meals can a private chef cook' — exact demand unproven; the article targets the observed meal-frequency and daily-cook cluster on the owner page.",
+              "volume": "No third-party keyword volume available or used; the figures cited are measured GSC impressions only."
+            }
+          }
+        },
+        {
+          "path": "/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+          "owner": "/catering-dubai",
+          "source_sha256": "91f804c277f19d0d671dd55f5b723b05bc995edd6ec7e07e82e69ec90c837fa7",
+          "photo_ids": [
+            "buffets-057",
+            "buffets-065",
+            "buffets-066"
+          ],
+          "review": {
+            "reader_question": "How early should final guest numbers be confirmed with a Dubai caterer, and what does the count change?",
+            "distinct_value": "A confirmation-timeline guide linking the guest count to food, staffing, rentals and pricing, with late-change rules; no existing guide covers when to lock the headcount.",
+            "overlap_review": "Nearest existing guide is how-many-guests-can-a-dubai-caterer-serve, which covers caterer capacity rather than the host's confirmation timing; the quote-comparison and booking-lead-time guides cover other decisions; the topic inventory holds no headcount-confirmation article.",
+            "claims_review": "Timeline figures are planning guidance, not service guarantees; the timeline is labelled hypothetical; only the site-listed AED 90 per person food-only starting price is cited.",
+            "demand_basis": "GSC 2026-09-27 to 2026-10-24 on /catering-dubai: '10 people' (position 3), '20 people' (position 9) and 'birthday party catering' (21 impressions, position 2) show guest-count planning demand on the owner page; GA4 property 543704202: /catering-dubai 166 organic sessions last 28d vs 29 prior 28d.",
+            "nearest_existing_url": "/blog/how-many-guests-can-a-dubai-caterer-serve",
+            "demand_evidence": {
+              "source": "GSC",
+              "observed_query": "20 people",
+              "impressions": 1,
+              "exact_query_demand": "No recorded impressions for the exact phrase 'when to confirm final guest numbers' — exact demand unproven; the guest-count queries on the owner page evidence the cluster.",
+              "volume": "No third-party keyword volume used; measured GSC impressions only."
+            }
+          }
+        },
+        {
+          "path": "/blog/part-time-or-full-time-private-chef-dubai",
+          "owner": "/full-time-private-chef-dubai",
+          "source_sha256": "f6117a1943496af95631b5f6308baabce92e9b9a590ea0d95525cea73ffec967",
+          "photo_ids": [
+            "live-cooking-112",
+            "breakfast-029",
+            "breakfast-031"
+          ],
+          "review": {
+            "reader_question": "How does a Dubai household decide between a part-time and a full-time private chef, based on weekly hours?",
+            "distinct_value": "A weekly-hours decision guide with an hours-to-arrangement table, a checklist and a scaling example; no existing guide compares part-time and full-time arrangements by hours.",
+            "overlap_review": "Nearest existing guide is can-i-book-a-private-chef-in-dubai-on-a-monthly-basis, which covers monthly booking mechanics; the day-off-cover guide covers absence planning; the live-in/live-out guide compares living arrangements, not weekly hours; the inventory holds no part-time/full-time article.",
+            "claims_review": "Hours ranges are framed as planning guidance, not guarantees; the scaling example is labelled hypothetical; no prices are cited and no employment or visa claims are made.",
+            "demand_basis": "GSC 2026-09-27 to 2026-10-24 on /full-time-private-chef-dubai: 'full time private chef dubai' (31 impressions, 2 clicks, avg position 6.5), 'full time chef' (position 2), 'full time chef for home' (3 impressions, position 2.7), 'part time private chef' (position 27), 'private chef dubai monthly' (3 impressions, 1 click, position 1); GA4 property 543704202: /full-time-private-chef-dubai 55 organic sessions last 28d vs 4 prior 28d.",
+            "nearest_existing_url": "/blog/can-i-book-a-private-chef-in-dubai-on-a-monthly-basis",
+            "demand_evidence": {
+              "source": "GSC",
+              "observed_query": "full time private chef dubai",
+              "impressions": 31,
+              "exact_query_demand": "The head query shows measured demand on the owner page; no recorded impressions for the exact phrase 'part time or full time private chef' — the comparison angle is unproven as an exact query.",
+              "volume": "No third-party keyword volume used; measured GSC impressions only."
+            }
+          }
+        },
+        {
+          "path": "/blog/private-dining-at-home-vs-restaurant-dubai",
+          "owner": "/luxury-dining-experiences",
+          "source_sha256": "0172cb12aa3b6b7e6c60fc8c0815ba7fb3139da9a1cbd7f080b140b928bb20b1",
+          "photo_ids": [
+            "private-dining-137",
+            "private-dining-131",
+            "private-dining-138"
+          ],
+          "review": {
+            "reader_question": "Should a private dinner in Dubai be held at home with a private chef, or in a restaurant's private dining room?",
+            "distinct_value": "A two-setting comparison table across privacy, menu control, kitchen, timing and cost structure, with a worked dietary-driven example; no existing guide compares home and restaurant private dining.",
+            "overlap_review": "Nearest existing guide is how-many-courses-private-dinner-dubai, which covers course structure; the seating-and-service-flow and tableware guides cover the home setting's mechanics; the inventory holds no home-versus-restaurant comparison.",
+            "claims_review": "The comparison describes settings generally without naming venues or making availability claims; the worked example is labelled hypothetical; only the site-listed starting price (about AED 700 per person) is cited.",
+            "demand_basis": "GSC 2026-09-27 to 2026-10-24 on /luxury-dining-experiences: 'luxury private dining' (position 20), 'dining experience' (2 impressions, position 29.5), 'dinner set menu dubai' (position 4), 'private chef catering at home dubai' (position 65); GA4 property 543704202: /luxury-dining-experiences 4 organic sessions last 28d vs 3 prior 28d.",
+            "nearest_existing_url": "/blog/how-many-courses-private-dinner-dubai",
+            "demand_evidence": {
+              "source": "GSC",
+              "observed_query": "luxury private dining",
+              "impressions": 1,
+              "exact_query_demand": "No recorded impressions for the exact phrase 'private dining at home vs restaurant' — exact demand unproven; the private-dining and at-home queries above evidence the cluster.",
+              "volume": "No third-party keyword volume used; measured GSC impressions only."
+            }
+          }
+        },
+        {
+          "path": "/blog/how-to-choose-school-meals-catering-dubai",
+          "owner": "/institutional-catering-dubai",
+          "source_sha256": "ba345bcd8f6b50a1cf9fe57bf17cecae244800e18a93db20c9be7af4d9bd86dd",
+          "photo_ids": [
+            "breakfast-032",
+            "breakfast-036",
+            "buffets-066"
+          ],
+          "review": {
+            "reader_question": "How should a school or nursery in Dubai evaluate a school meals catering service before signing a contract?",
+            "distinct_value": "A five-check pre-contract evaluation table with the exact questions to ask, a tasting walkthrough and red flags; distinct from the switching guide (leaving a caterer) and the parent-communication guide (menu changes after contract).",
+            "overlap_review": "Nearest existing guide is switching-school-meal-caterers-dubai, which covers changing caterers rather than evaluating them; the international-schools complete guide covers service scope, not a selection checklist; the inventory holds no choose-school-meals article.",
+            "claims_review": "No credentials, client names or contract claims are invented; halal-first is described as the service's standard; red flags are framed as evaluation questions, not accusations about competitors.",
+            "demand_basis": "GSC 2026-09-27 to 2026-10-24 on /institutional-catering-dubai: 'school meals catering services' (8 impressions, avg position 72), 'school meals catering services in dubai' (position 70) and 'lunch catering dubai' (position 30); GA4 property 543704202: /institutional-catering-dubai 1 organic session last 28d vs 2 prior 28d.",
+            "nearest_existing_url": "/blog/switching-school-meal-caterers-dubai",
+            "demand_evidence": {
+              "source": "GSC",
+              "observed_query": "school meals catering services",
+              "impressions": 8,
+              "exact_query_demand": "The head query shows measured impressions but the site ranks around position 70-72 — exact demand is observed while visibility is weak; this guide targets the evaluation intent behind it.",
+              "volume": "No third-party keyword volume used; measured GSC impressions only."
+            }
+          }
+        }
+      ]
     }
   ]
 }

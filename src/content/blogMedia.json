@@ -611,6 +611,36 @@
         "src": "/images/previous-work/mychef-yacht-dining-table-with-the-marina-visible-beyond-the-deck-154-large.webp",
         "alt": "Yacht dining table with the marina visible beyond the deck."
       }
+    },
+    "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit": {
+      "hero": {
+        "src": "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-large.webp",
+        "alt": "Wide view of a breakfast buffet with pastries and juices."
+      }
+    },
+    "/blog/when-to-confirm-final-guest-numbers-catering-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-indoor-buffet-with-salads-bread-warm-dishes-and-stacked-plates-057-large.webp",
+        "alt": "Indoor buffet with salads, bread, warm dishes and stacked plates."
+      }
+    },
+    "/blog/part-time-or-full-time-private-chef-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-chef-serving-from-a-live-cooking-station-at-an-evening-event-112-large.webp",
+        "alt": "Chef serving from a live cooking station at an evening event."
+      }
+    },
+    "/blog/private-dining-at-home-vs-restaurant-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-private-dining-table-with-tall-candles-and-delicate-floral-details-137-large.webp",
+        "alt": "Private dining table with tall candles and delicate floral details."
+      }
+    },
+    "/blog/how-to-choose-school-meals-catering-dubai": {
+      "hero": {
+        "src": "/images/previous-work/mychef-breakfast-display-with-finger-sandwiches-quiches-and-fresh-flowers-032-large.webp",
+        "alt": "Breakfast display with finger sandwiches, quiches and fresh flowers."
+      }
     }
   },
   "sources": {
@@ -761,7 +791,9 @@
     "/images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-large.webp": 576,
     "/images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-large.webp": 1280,
     "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-large.webp": 768,
-    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp": 960
+    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp": 960,
+    "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-large.webp": 960,
+    "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-large.webp": 1280
   },
   "dimensions": {
     "/images/private-chef-guides-2026/pasta-detail-1200.webp": {
@@ -2119,6 +2151,14 @@
     "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp": {
       "width": 960,
       "height": 1280
+    },
+    "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-large.webp": {
+      "width": 960,
+      "height": 1280
+    },
+    "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-large.webp": {
+      "width": 1280,
+      "height": 598
     }
   },
   "srcsets": {
@@ -2395,6 +2435,8 @@
     "/images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-large.webp": "/images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-thumb.webp 288w, /images/previous-work/mychef-outdoor-buffet-tables-set-beside-a-villa-garden-120-large.webp 576w",
     "/images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-large.webp": "/images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-thumb.webp 640w, /images/previous-work/mychef-outdoor-bbq-skewers-displayed-beside-a-chef-in-a-villa-garden-083-large.webp 1280w",
     "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-large.webp": "/images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-thumb.webp 480w, /images/previous-work/mychef-wide-view-of-a-breakfast-buffet-with-pastries-and-juices-034-large.webp 768w",
-    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-thumb.webp 480w, /images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp 960w"
+    "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp": "/images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-thumb.webp 480w, /images/previous-work/mychef-close-view-of-a-white-and-gold-place-setting-on-a-yacht-deck-151-large.webp 960w",
+    "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-large.webp": "/images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-thumb.webp 480w, /images/previous-work/mychef-breakfast-sweets-and-sliced-fruit-on-a-styled-buffet-table-035-large.webp 960w",
+    "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-large.webp": "/images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-thumb.webp 640w, /images/previous-work/mychef-breakfast-pastry-display-with-doughnuts-croissants-and-muffins-036-large.webp 1280w"
   }
 }

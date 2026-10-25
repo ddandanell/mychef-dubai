@@ -67353,6 +67353,566 @@
     "h1": "Custom yacht catering menus for dietary needs in Dubai",
     "description": "How dietary needs are handled in yacht catering in Dubai: briefing allergies, halal and vegetarian requests, and galley limits before departure day."
    }
+  },
+  "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit": {
+   "url": "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+   "absolute_url": "https://www.mychef.ae/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "private chef meals per visit dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Private Chef Meals Per Visit: How Many Fit? | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How many meals can a private chef cook in one visit?",
+    "h1_count": 1,
+    "meta_description": "How many meals a private chef can prepare in one home visit in Dubai: what changes the count, a worked day plan, and how to brief the kitchen.",
+    "meta_description_max_chars": 160,
+    "og_title": "Private Chef Meals Per Visit: How Many Fit? | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/how-many-meals-can-a-private-chef-cook-in-one-visit",
+      "anchor": "How many meals can a private chef cook in one visit?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/private-chef-dubai",
+     "anchor": "private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/private-chef-dubai",
+      "anchor": "private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-many-meals-can-a-private-chef-cook-in-one-visit.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/private-chef-dubai",
+    "anchor": "private chef service in Dubai",
+    "title": "Private Chef Meals Per Visit: How Many Fit? | myCHEF",
+    "h1": "How many meals can a private chef cook in one visit?",
+    "description": "How many meals a private chef can prepare in one home visit in Dubai: what changes the count, a worked day plan, and how to brief the kitchen."
+   }
+  },
+  "/blog/when-to-confirm-final-guest-numbers-catering-dubai": {
+   "url": "/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/menus-dietary",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "when to confirm final guest numbers catering dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Final Guest Numbers for Catering: Dubai Timing | myCHEF",
+    "title_max_chars": 65,
+    "h1": "When to confirm final guest numbers for catering",
+    "h1_count": 1,
+    "meta_description": "How early to confirm final guest numbers for catered parties in Dubai: why counts change food, staffing and cost, plus a timeline and late-change rules.",
+    "meta_description_max_chars": 160,
+    "og_title": "Final Guest Numbers for Catering: Dubai Timing | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/menus-dietary",
+      "anchor": "Menus, Brunch & Dietary"
+     },
+     {
+      "url": "/blog/when-to-confirm-final-guest-numbers-catering-dubai",
+      "anchor": "When to confirm final guest numbers for catering",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/catering-dubai",
+     "anchor": "catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/catering-dubai",
+      "anchor": "catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/when-to-confirm-final-guest-numbers-catering-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/catering-dubai",
+    "anchor": "catering service in Dubai",
+    "title": "Final Guest Numbers for Catering: Dubai Timing | myCHEF",
+    "h1": "When to confirm final guest numbers for catering",
+    "description": "How early to confirm final guest numbers for catered parties in Dubai: why counts change food, staffing and cost, plus a timeline and late-change rules."
+   }
+  },
+  "/blog/part-time-or-full-time-private-chef-dubai": {
+   "url": "/blog/part-time-or-full-time-private-chef-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/part-time-or-full-time-private-chef-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "part time or full time private chef dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Part-Time vs Full-Time Private Chef in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Part-time or full-time private chef: how many hours?",
+    "h1_count": 1,
+    "meta_description": "Part-time and full-time private chefs in Dubai compared by weekly hours, kitchen use and cost structure, with a decision checklist and a scaling example.",
+    "meta_description_max_chars": 160,
+    "og_title": "Part-Time vs Full-Time Private Chef in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/part-time-or-full-time-private-chef-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/part-time-or-full-time-private-chef-dubai",
+      "anchor": "Part-time or full-time private chef: how many hours?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/full-time-private-chef-dubai",
+     "anchor": "full-time private chef service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/full-time-private-chef-dubai",
+      "anchor": "full-time private chef service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/part-time-or-full-time-private-chef-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/full-time-private-chef-dubai",
+    "anchor": "full-time private chef service in Dubai",
+    "title": "Part-Time vs Full-Time Private Chef in Dubai | myCHEF",
+    "h1": "Part-time or full-time private chef: how many hours?",
+    "description": "Part-time and full-time private chefs in Dubai compared by weekly hours, kitchen use and cost structure, with a decision checklist and a scaling example."
+   }
+  },
+  "/blog/private-dining-at-home-vs-restaurant-dubai": {
+   "url": "/blog/private-dining-at-home-vs-restaurant-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/private-dining-at-home-vs-restaurant-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/private-chef",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "private dining at home vs restaurant dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Home Private Dining vs Private Dining Room Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "Private dining at home or a private room: which to choose?",
+    "h1_count": 1,
+    "meta_description": "Private dining at home versus a restaurant's private dining room in Dubai: privacy, kitchen freedom, menu control and cost structure compared.",
+    "meta_description_max_chars": 160,
+    "og_title": "Home Private Dining vs Private Dining Room Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/private-dining-at-home-vs-restaurant-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/private-chef",
+      "anchor": "Private Chef Guides"
+     },
+     {
+      "url": "/blog/private-dining-at-home-vs-restaurant-dubai",
+      "anchor": "Private dining at home or a private room: which to choose?",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/luxury-dining-experiences",
+     "anchor": "luxury dining and private chef page in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/luxury-dining-experiences",
+      "anchor": "luxury dining and private chef page in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/private-dining-at-home-vs-restaurant-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/luxury-dining-experiences",
+    "anchor": "luxury dining and private chef page in Dubai",
+    "title": "Home Private Dining vs Private Dining Room Dubai | myCHEF",
+    "h1": "Private dining at home or a private room: which to choose?",
+    "description": "Private dining at home versus a restaurant's private dining room in Dubai: privacy, kitchen freedom, menu control and cost structure compared."
+   }
+  },
+  "/blog/how-to-choose-school-meals-catering-dubai": {
+   "url": "/blog/how-to-choose-school-meals-catering-dubai",
+   "absolute_url": "https://www.mychef.ae/blog/how-to-choose-school-meals-catering-dubai",
+   "silo": "Blog and Guides",
+   "silo_priority": "P2",
+   "page_type": "Blog post",
+   "hub": "/blog/topic/institutional",
+   "is_hub": false,
+   "status": "LOCKED",
+   "intent_owner": {
+    "primary_keyword": "choosing a school meals catering service dubai",
+    "subkeywords": [],
+    "subkeyword_cap": 8,
+    "primary_may_appear_in": [
+     "title",
+     "h1",
+     "first_100_words",
+     "one_subheading"
+    ],
+    "subkeywords_may_appear_in": [
+     "body_sentences_only"
+    ],
+    "subkeywords_must_not_appear_in": [
+     "h1",
+     "h2",
+     "h3",
+     "title"
+    ],
+    "subkeyword_notes": {}
+   },
+   "on_page": {
+    "title": "Choosing School Meals Catering in Dubai | myCHEF",
+    "title_max_chars": 65,
+    "h1": "How to choose a school meals catering service in Dubai",
+    "h1_count": 1,
+    "meta_description": "A practical checklist for choosing a school meals catering service in Dubai: menu rotation, halal and allergen handling, service counts and trial tastings.",
+    "meta_description_max_chars": 160,
+    "og_title": "Choosing School Meals Catering in Dubai | myCHEF",
+    "og_type": "article"
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/how-to-choose-school-meals-catering-dubai",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "WebPage",
+    "Article",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/topic/institutional",
+      "anchor": "Nurseries, Schools & Canteens"
+     },
+     {
+      "url": "/blog/how-to-choose-school-meals-catering-dubai",
+      "anchor": "How to choose a school meals catering service in Dubai",
+      "current": true
+     }
+    ],
+    "uplink_hub": {
+     "url": "/institutional-catering-dubai",
+     "anchor": "institutional catering service in Dubai",
+     "alt_anchors": []
+    },
+    "siblings": [],
+    "commercial_owners": [
+     {
+      "url": "/institutional-catering-dubai",
+      "anchor": "institutional catering service in Dubai",
+      "alt_anchors": []
+     }
+    ],
+    "supporting_guides": []
+   },
+   "content_source": "blog/data/how-to-choose-school-meals-catering-dubai.json",
+   "authority": {
+    "role": "supporting",
+    "purpose": "editorial",
+    "money_page": "/institutional-catering-dubai",
+    "anchor": "institutional catering service in Dubai",
+    "title": "Choosing School Meals Catering in Dubai | myCHEF",
+    "h1": "How to choose a school meals catering service in Dubai",
+    "description": "A practical checklist for choosing a school meals catering service in Dubai: menu rotation, halal and allergen handling, service counts and trial tastings."
+   }
+  },
+  "/blog/page/12": {
+   "url": "/blog/page/12",
+   "absolute_url": "https://www.mychef.ae/blog/page/12",
+   "page_type": "Blog archive",
+   "silo": "Blog and Guides",
+   "hub": "/blog",
+   "status": "LOCKED",
+   "is_hub": false,
+   "intent_owner": {
+    "primary_keyword": null,
+    "subkeywords": [],
+    "subkeyword_cap": 0
+   },
+   "on_page": {
+    "title": "Blog – Page 12 | myCHEF",
+    "h1": "Blog – Page 12",
+    "h1_count": 1,
+    "meta_description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   },
+   "indexation": {
+    "robots": {
+     "index": true,
+     "follow": true
+    },
+    "canonical": "https://www.mychef.ae/blog/page/12",
+    "redirect_to": null,
+    "in_sitemap": true
+   },
+   "schema": [
+    "CollectionPage",
+    "BreadcrumbList"
+   ],
+   "internal_linking": {
+    "breadcrumb": [
+     {
+      "url": "/",
+      "anchor": "Home"
+     },
+     {
+      "url": "/blog",
+      "anchor": "Blog"
+     },
+     {
+      "url": "/blog/page/12",
+      "anchor": "Page 12",
+      "current": true
+     }
+    ]
+   },
+   "content_source": "src/pages/Blog.tsx",
+   "authority": {
+    "role": "supporting",
+    "purpose": "utility",
+    "money_page": "/catering-dubai",
+    "anchor": "catering services in Dubai",
+    "title": "Blog – Page 12 | myCHEF",
+    "h1": "Blog – Page 12",
+    "description": "The myCHEF Dubai blog: private chef and catering guides, published prices, and how a night is actually run."
+   }
   }
  },
  "authority_policy": {
