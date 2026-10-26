@@ -1465,10 +1465,22 @@
   ],
   "held_imports": [
     {
+      "slug": "best-buffet-catering-companies-in-dubai",
+      "title": "How do you plan buffet replenishment for a Dubai event?",
+      "status": "pending_review",
+      "source": "blog/data/best-buffet-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-canape-catering-companies-in-dubai",
       "title": "Passed or displayed canapés: which suits your reception?",
       "status": "pending_review",
       "source": "blog/data/best-canape-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-romantic-dinner-catering-services-in-dubai",
+      "title": "How do you brief a chef for a romantic dinner at home?",
+      "status": "pending_review",
+      "source": "blog/data/best-romantic-dinner-catering-services-in-dubai.json"
     },
     {
       "slug": "can-a-private-chef-cook-for-a-family-with-different-diets",
@@ -1517,6 +1529,12 @@
       "title": "Can vegan and non-vegan meals be served at the same event?",
       "status": "pending_review",
       "source": "blog/data/can-vegan-and-non-vegan-meals-be-served-at-the-same-event.json"
+    },
+    {
+      "slug": "corporate-holiday-party-catering-in-dubai-what-to-confirm-early",
+      "title": "Corporate holiday party catering in Dubai: what to confirm early",
+      "status": "pending_review",
+      "source": "blog/data/corporate-holiday-party-catering-in-dubai-what-to-confirm-early.json"
     },
     {
       "slug": "do-corporate-caterers-in-dubai-provide-invoices-for-expenses",
