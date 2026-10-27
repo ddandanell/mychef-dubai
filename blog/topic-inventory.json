@@ -1483,6 +1483,12 @@
       "source": "blog/data/best-romantic-dinner-catering-services-in-dubai.json"
     },
     {
+      "slug": "buffestra-alternatives-in",
+      "title": "Buffestra alternatives: how to compare catering scope",
+      "status": "pending_review",
+      "source": "blog/data/buffestra-alternatives-in.json"
+    },
+    {
       "slug": "can-a-private-chef-cook-for-a-family-with-different-diets",
       "title": "Can a private chef cook for a family with different diets?",
       "status": "pending_review",
@@ -1529,6 +1535,12 @@
       "title": "Can vegan and non-vegan meals be served at the same event?",
       "status": "pending_review",
       "source": "blog/data/can-vegan-and-non-vegan-meals-be-served-at-the-same-event.json"
+    },
+    {
+      "slug": "cateringservicedubai-alternatives-in",
+      "title": "CateringServiceDubai alternatives: event proposal checklist",
+      "status": "pending_review",
+      "source": "blog/data/cateringservicedubai-alternatives-in.json"
     },
     {
       "slug": "corporate-holiday-party-catering-in-dubai-what-to-confirm-early",
@@ -1583,6 +1595,12 @@
       "title": "Is outdoor catering possible during Dubai's summer heat?",
       "status": "pending_review",
       "source": "blog/data/is-outdoor-catering-possible-during-dubai-s-summer-heat.json"
+    },
+    {
+      "slug": "mychef-vs-cozymeal-which-is-better-in",
+      "title": "myCHEF vs Cozymeal: what to check before a Dubai dinner",
+      "status": "pending_review",
+      "source": "blog/data/mychef-vs-cozymeal-which-is-better-in.json"
     },
     {
       "slug": "weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans",

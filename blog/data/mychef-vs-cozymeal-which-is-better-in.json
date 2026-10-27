@@ -80,5 +80,9 @@
   },
   "published_at": "2026-10-27T21:22:49.678Z",
   "updated_at": "2026-10-27T21:22:49.678Z",
-  "status": "published"
+  "status": "pending_review",
+  "import_review": {
+    "upstream_status": "published",
+    "reason": "Awaiting approved informational intent, money-page owner, photographs and daily slot."
+  }
 }
