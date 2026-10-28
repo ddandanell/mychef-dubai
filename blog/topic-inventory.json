@@ -1537,6 +1537,12 @@
       "source": "blog/data/can-vegan-and-non-vegan-meals-be-served-at-the-same-event.json"
     },
     {
+      "slug": "catering-for-law-firms-in-dubai-complete-guide",
+      "title": "Law-firm catering briefs: meetings, access and dietary notes",
+      "status": "pending_review",
+      "source": "blog/data/catering-for-law-firms-in-dubai-complete-guide.json"
+    },
+    {
       "slug": "cateringservicedubai-alternatives-in",
       "title": "CateringServiceDubai alternatives: event proposal checklist",
       "status": "pending_review",
@@ -1579,6 +1585,12 @@
       "source": "blog/data/how-much-notice-do-i-need-to-book-a-same-day-private-chef.json"
     },
     {
+      "slug": "how-to-connect-your-personal-assistant-to-recurring-private-chef-bookings",
+      "title": "How should a personal assistant brief a household chef?",
+      "status": "pending_review",
+      "source": "blog/data/how-to-connect-your-personal-assistant-to-recurring-private-chef-bookings.json"
+    },
+    {
       "slug": "is-drop-off-catering-cheaper-than-full-service-catering-in-dubai",
       "title": "Is drop-off catering cheaper than full-service catering in Dubai?",
       "status": "pending_review",
@@ -1601,6 +1613,12 @@
       "title": "myCHEF vs Cozymeal: what to check before a Dubai dinner",
       "status": "pending_review",
       "source": "blog/data/mychef-vs-cozymeal-which-is-better-in.json"
+    },
+    {
+      "slug": "private-chefs-for-professional-athletes-in-dubai-complete-guide",
+      "title": "Athlete meal-prep briefs: portions, schedules and diet guidance",
+      "status": "pending_review",
+      "source": "blog/data/private-chefs-for-professional-athletes-in-dubai-complete-guide.json"
     },
     {
       "slug": "weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans",
