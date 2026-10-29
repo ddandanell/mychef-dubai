@@ -1567,6 +1567,12 @@
       "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
     },
     {
+      "slug": "hotel-guest-to-in-suite-private-chef-dinner-complete-workflow",
+      "title": "Can you arrange a chef-led dinner in a Dubai hotel suite?",
+      "status": "pending_review",
+      "source": "blog/data/hotel-guest-to-in-suite-private-chef-dinner-complete-workflow.json"
+    },
+    {
       "slug": "how-many-chefs-are-needed-to-cater-a-50-guest-dinner-party",
       "title": "How many chefs are needed to cater a 50-guest dinner party?",
       "status": "pending_review",
@@ -1577,6 +1583,12 @@
       "title": "How many guests can a Dubai caterer serve for one event?",
       "status": "pending_review",
       "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
+    },
+    {
+      "slug": "how-much-does-canape-catering-cost-per-person-in-dubai",
+      "title": "What affects a canapé catering quote in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/how-much-does-canape-catering-cost-per-person-in-dubai.json"
     },
     {
       "slug": "how-much-notice-do-i-need-to-book-a-same-day-private-chef",
@@ -1625,6 +1637,12 @@
       "title": "Weight loss meal prep in Dubai: chef-cooked vs packaged plans",
       "status": "pending_review",
       "source": "blog/data/weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans.json"
+    },
+    {
+      "slug": "what-does-private-chef-booking-protection-insurance-cover",
+      "title": "What booking terms should you check before a chef visit?",
+      "status": "pending_review",
+      "source": "blog/data/what-does-private-chef-booking-protection-insurance-cover.json"
     }
   ]
 }
