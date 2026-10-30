@@ -1495,6 +1495,12 @@
       "source": "blog/data/can-a-private-chef-cook-for-a-family-with-different-diets.json"
     },
     {
+      "slug": "can-a-private-chef-prepare-low-fodmap-meals-in-dubai",
+      "title": "Can a private chef prepare low-FODMAP meals in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/can-a-private-chef-prepare-low-fodmap-meals-in-dubai.json"
+    },
+    {
       "slug": "can-catering-companies-in-dubai-set-up-a-grazing-table-on-site",
       "title": "Can catering companies in Dubai set up a grazing table on-site?",
       "status": "pending_review",
@@ -1591,6 +1597,12 @@
       "source": "blog/data/how-much-does-canape-catering-cost-per-person-in-dubai.json"
     },
     {
+      "slug": "how-much-does-it-cost-to-hire-a-cook-by-the-hour-in-dubai",
+      "title": "How do chef visit hours affect a household cooking plan?",
+      "status": "pending_review",
+      "source": "blog/data/how-much-does-it-cost-to-hire-a-cook-by-the-hour-in-dubai.json"
+    },
+    {
       "slug": "how-much-notice-do-i-need-to-book-a-same-day-private-chef",
       "title": "What should you confirm for a short-notice chef booking?",
       "status": "pending_review",
@@ -1601,6 +1613,12 @@
       "title": "How should a personal assistant brief a household chef?",
       "status": "pending_review",
       "source": "blog/data/how-to-connect-your-personal-assistant-to-recurring-private-chef-bookings.json"
+    },
+    {
+      "slug": "is-a-private-chef-cooking-class-suitable-for-couples-in-dubai",
+      "title": "Is a private chef cooking class suitable for couples in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/is-a-private-chef-cooking-class-suitable-for-couples-in-dubai.json"
     },
     {
       "slug": "is-drop-off-catering-cheaper-than-full-service-catering-in-dubai",
