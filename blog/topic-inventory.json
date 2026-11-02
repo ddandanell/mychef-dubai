@@ -1591,6 +1591,12 @@
       "source": "blog/data/how-many-guests-can-a-dubai-caterer-serve-for-one-event.json"
     },
     {
+      "slug": "how-much-does-a-full-time-private-chef-cost-in-dubai",
+      "title": "What should a full-time household chef proposal include?",
+      "status": "pending_review",
+      "source": "blog/data/how-much-does-a-full-time-private-chef-cost-in-dubai.json"
+    },
+    {
       "slug": "how-much-does-canape-catering-cost-per-person-in-dubai",
       "title": "What affects a canapé catering quote in Dubai?",
       "status": "pending_review",
@@ -1607,6 +1613,12 @@
       "title": "What should you confirm for a short-notice chef booking?",
       "status": "pending_review",
       "source": "blog/data/how-much-notice-do-i-need-to-book-a-same-day-private-chef.json"
+    },
+    {
+      "slug": "how-to-choose-a-catering-company-in-dubai",
+      "title": "What should a Dubai catering venue-access brief include?",
+      "status": "pending_review",
+      "source": "blog/data/how-to-choose-a-catering-company-in-dubai.json"
     },
     {
       "slug": "how-to-connect-your-personal-assistant-to-recurring-private-chef-bookings",
@@ -1631,6 +1643,12 @@
       "title": "How do you verify halal requirements in a catering proposal?",
       "status": "pending_review",
       "source": "blog/data/is-halal-certification-guaranteed-on-every-catering-menu-in-dubai.json"
+    },
+    {
+      "slug": "is-home-catering-the-same-as-hiring-a-private-chef-in-dubai",
+      "title": "Is home catering the same as hiring a private chef in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/is-home-catering-the-same-as-hiring-a-private-chef-in-dubai.json"
     },
     {
       "slug": "is-outdoor-catering-possible-during-dubai-s-summer-heat",
