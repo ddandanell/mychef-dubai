@@ -1465,6 +1465,18 @@
   ],
   "held_imports": [
     {
+      "slug": "afternoon-tea-catering-in-dubai-how-to-plan-high-tea-at-home",
+      "title": "Afternoon tea catering in Dubai: how to plan high tea at home",
+      "status": "pending_review",
+      "source": "blog/data/afternoon-tea-catering-in-dubai-how-to-plan-high-tea-at-home.json"
+    },
+    {
+      "slug": "best-breakfast-catering-companies-in-dubai",
+      "title": "Best breakfast catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-breakfast-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-buffet-catering-companies-in-dubai",
       "title": "How do you plan buffet replenishment for a Dubai event?",
       "status": "pending_review",
@@ -1475,6 +1487,12 @@
       "title": "Passed or displayed canapés: which suits your reception?",
       "status": "pending_review",
       "source": "blog/data/best-canape-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-office-catering-companies-in-dubai",
+      "title": "Best office catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-office-catering-companies-in-dubai.json"
     },
     {
       "slug": "best-romantic-dinner-catering-services-in-dubai",
