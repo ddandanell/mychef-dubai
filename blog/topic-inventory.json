@@ -1489,6 +1489,18 @@
       "source": "blog/data/best-canape-catering-companies-in-dubai.json"
     },
     {
+      "slug": "best-indian-catering-companies-in-dubai",
+      "title": "Best Indian catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-indian-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-live-station-catering-companies-in-dubai",
+      "title": "Best live station catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-live-station-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-office-catering-companies-in-dubai",
       "title": "Best office catering companies in Dubai 2026",
       "status": "pending_review",
@@ -1499,6 +1511,12 @@
       "title": "How do you brief a chef for a romantic dinner at home?",
       "status": "pending_review",
       "source": "blog/data/best-romantic-dinner-catering-services-in-dubai.json"
+    },
+    {
+      "slug": "best-small-party-catering-companies-in-dubai",
+      "title": "Best small party catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-small-party-catering-companies-in-dubai.json"
     },
     {
       "slug": "buffestra-alternatives-in",
