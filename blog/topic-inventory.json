@@ -1489,6 +1489,18 @@
       "source": "blog/data/best-canape-catering-companies-in-dubai.json"
     },
     {
+      "slug": "best-christmas-catering-companies-in-dubai",
+      "title": "Best Christmas catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-christmas-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-garden-and-rooftop-catering-companies-in-dubai",
+      "title": "Best garden and rooftop catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-garden-and-rooftop-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-indian-catering-companies-in-dubai",
       "title": "Best Indian catering companies in Dubai 2026",
       "status": "pending_review",
@@ -1499,6 +1511,12 @@
       "title": "Best live station catering companies in Dubai 2026",
       "status": "pending_review",
       "source": "blog/data/best-live-station-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-milestone-birthday-catering-companies-in-dubai",
+      "title": "Best milestone birthday catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-milestone-birthday-catering-companies-in-dubai.json"
     },
     {
       "slug": "best-office-catering-companies-in-dubai",
