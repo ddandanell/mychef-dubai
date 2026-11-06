@@ -20,7 +20,7 @@
   "channels": [],
   "topics": []
  },
- "generated": "2026-11-05 04:08",
+ "generated": "2026-11-06 04:08",
  "connected": false,
  "error": "no GHL_API_KEY in ~/.config/claude-seo/gohighlevel.env",
  "required_scopes": [
