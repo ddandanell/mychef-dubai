@@ -1495,10 +1495,28 @@
       "source": "blog/data/best-christmas-catering-companies-in-dubai.json"
     },
     {
+      "slug": "best-dessert-table-catering-companies-in-dubai",
+      "title": "Best dessert table catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-dessert-table-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-diwali-catering-companies-in-dubai",
+      "title": "Best Diwali catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-diwali-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-garden-and-rooftop-catering-companies-in-dubai",
       "title": "Best garden and rooftop catering companies in Dubai 2026",
       "status": "pending_review",
       "source": "blog/data/best-garden-and-rooftop-catering-companies-in-dubai.json"
+    },
+    {
+      "slug": "best-halloween-catering-companies-in-dubai",
+      "title": "Best Halloween catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-halloween-catering-companies-in-dubai.json"
     },
     {
       "slug": "best-indian-catering-companies-in-dubai",
