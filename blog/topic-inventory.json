@@ -1507,6 +1507,12 @@
       "source": "blog/data/best-diwali-catering-companies-in-dubai.json"
     },
     {
+      "slug": "best-engagement-party-catering-companies-in-dubai",
+      "title": "Best engagement party catering companies in Dubai 2026",
+      "status": "pending_review",
+      "source": "blog/data/best-engagement-party-catering-companies-in-dubai.json"
+    },
+    {
       "slug": "best-garden-and-rooftop-catering-companies-in-dubai",
       "title": "Best garden and rooftop catering companies in Dubai 2026",
       "status": "pending_review",
@@ -1729,10 +1735,22 @@
       "source": "blog/data/is-outdoor-catering-possible-during-dubai-s-summer-heat.json"
     },
     {
+      "slug": "mychef-vs-cedar-tree-catering-which-is-better",
+      "title": "myCHEF vs Cedar Tree Catering: which is better in 2026",
+      "status": "pending_review",
+      "source": "blog/data/mychef-vs-cedar-tree-catering-which-is-better.json"
+    },
+    {
       "slug": "mychef-vs-cozymeal-which-is-better-in",
       "title": "myCHEF vs Cozymeal: what to check before a Dubai dinner",
       "status": "pending_review",
       "source": "blog/data/mychef-vs-cozymeal-which-is-better-in.json"
+    },
+    {
+      "slug": "mychef-vs-take-a-chef-which-is-better",
+      "title": "myCHEF vs Take A Chef: which is better in 2026",
+      "status": "pending_review",
+      "source": "blog/data/mychef-vs-take-a-chef-which-is-better.json"
     },
     {
       "slug": "private-chefs-for-professional-athletes-in-dubai-complete-guide",
