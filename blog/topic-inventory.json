@@ -1633,6 +1633,12 @@
       "source": "blog/data/cateringservicedubai-alternatives-in.json"
     },
     {
+      "slug": "corporate-catering-for-design-studios-a-complete-guide",
+      "title": "Corporate catering for design studios: a complete guide",
+      "status": "pending_review",
+      "source": "blog/data/corporate-catering-for-design-studios-a-complete-guide.json"
+    },
+    {
       "slug": "corporate-holiday-party-catering-in-dubai-what-to-confirm-early",
       "title": "Corporate holiday party catering in Dubai: what to confirm early",
       "status": "pending_review",
@@ -1733,6 +1739,18 @@
       "title": "Is outdoor catering possible during Dubai's summer heat?",
       "status": "pending_review",
       "source": "blog/data/is-outdoor-catering-possible-during-dubai-s-summer-heat.json"
+    },
+    {
+      "slug": "mychef-vs-cateringdubai-ae-which-is-better",
+      "title": "myCHEF vs CateringDubai.ae: which is better in 2026",
+      "status": "pending_review",
+      "source": "blog/data/mychef-vs-cateringdubai-ae-which-is-better.json"
+    },
+    {
+      "slug": "mychef-vs-cateringservicedubai-which-is-better",
+      "title": "myCHEF vs CateringServiceDubai: which is better in 2026",
+      "status": "pending_review",
+      "source": "blog/data/mychef-vs-cateringservicedubai-which-is-better.json"
     },
     {
       "slug": "mychef-vs-cedar-tree-catering-which-is-better",
