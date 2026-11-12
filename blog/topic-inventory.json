@@ -1627,10 +1627,22 @@
       "source": "blog/data/catering-for-law-firms-in-dubai-complete-guide.json"
     },
     {
+      "slug": "catering-for-retail-and-showroom-launches-a-complete-guide",
+      "title": "Catering for retail and showroom launches: a complete guide",
+      "status": "pending_review",
+      "source": "blog/data/catering-for-retail-and-showroom-launches-a-complete-guide.json"
+    },
+    {
       "slug": "cateringservicedubai-alternatives-in",
       "title": "CateringServiceDubai alternatives: event proposal checklist",
       "status": "pending_review",
       "source": "blog/data/cateringservicedubai-alternatives-in.json"
+    },
+    {
+      "slug": "corporate-catering-for-banks-and-finance-firms-a-complete-guide",
+      "title": "Corporate catering for banks and finance firms: a complete guide",
+      "status": "pending_review",
+      "source": "blog/data/corporate-catering-for-banks-and-finance-firms-a-complete-guide.json"
     },
     {
       "slug": "corporate-catering-for-design-studios-a-complete-guide",
@@ -1645,6 +1657,18 @@
       "source": "blog/data/corporate-holiday-party-catering-in-dubai-what-to-confirm-early.json"
     },
     {
+      "slug": "corporate-wellness-meal-programs-for-hr-teams-a-complete-guide",
+      "title": "Corporate wellness meal programs for HR teams: a complete guide",
+      "status": "pending_review",
+      "source": "blog/data/corporate-wellness-meal-programs-for-hr-teams-a-complete-guide.json"
+    },
+    {
+      "slug": "customizable-weekly-meal-plans-dubai-chef-prepared-vs-packaged",
+      "title": "Customizable weekly meal plans in Dubai: chef-prepared vs packaged",
+      "status": "pending_review",
+      "source": "blog/data/customizable-weekly-meal-plans-dubai-chef-prepared-vs-packaged.json"
+    },
+    {
       "slug": "do-corporate-caterers-in-dubai-provide-invoices-for-expenses",
       "title": "Do corporate caterers in Dubai provide invoices for expenses?",
       "status": "pending_review",
@@ -1655,6 +1679,12 @@
       "title": "Do Dubai catering companies charge extra for last-minute bookings?",
       "status": "pending_review",
       "source": "blog/data/do-dubai-catering-companies-charge-extra-for-last-minute-bookings.json"
+    },
+    {
+      "slug": "enquiry-to-confirmed-chef-how-mychef-booking-works",
+      "title": "Enquiry to confirmed chef: how myCHEF booking works",
+      "status": "pending_review",
+      "source": "blog/data/enquiry-to-confirmed-chef-how-mychef-booking-works.json"
     },
     {
       "slug": "hotel-guest-to-in-suite-private-chef-dinner-complete-workflow",
@@ -1769,6 +1799,12 @@
       "title": "myCHEF vs Take A Chef: which is better in 2026",
       "status": "pending_review",
       "source": "blog/data/mychef-vs-take-a-chef-which-is-better.json"
+    },
+    {
+      "slug": "private-chef-services-for-family-offices-a-complete-guide",
+      "title": "Private chef services for family offices: a complete guide",
+      "status": "pending_review",
+      "source": "blog/data/private-chef-services-for-family-offices-a-complete-guide.json"
     },
     {
       "slug": "private-chefs-for-professional-athletes-in-dubai-complete-guide",
