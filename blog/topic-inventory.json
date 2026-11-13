@@ -1669,6 +1669,12 @@
       "source": "blog/data/customizable-weekly-meal-plans-dubai-chef-prepared-vs-packaged.json"
     },
     {
+      "slug": "deposit-to-departure-how-yacht-catering-bookings-are-confirmed",
+      "title": "Deposit to departure: how yacht catering bookings are confirmed",
+      "status": "pending_review",
+      "source": "blog/data/deposit-to-departure-how-yacht-catering-bookings-are-confirmed.json"
+    },
+    {
       "slug": "do-corporate-caterers-in-dubai-provide-invoices-for-expenses",
       "title": "Do corporate caterers in Dubai provide invoices for expenses?",
       "status": "pending_review",
@@ -1811,6 +1817,18 @@
       "title": "Athlete meal-prep briefs: portions, schedules and diet guidance",
       "status": "pending_review",
       "source": "blog/data/private-chefs-for-professional-athletes-in-dubai-complete-guide.json"
+    },
+    {
+      "slug": "quote-to-delivery-day-how-dubai-catering-bookings-are-confirmed",
+      "title": "Quote to delivery day: how Dubai catering bookings are confirmed",
+      "status": "pending_review",
+      "source": "blog/data/quote-to-delivery-day-how-dubai-catering-bookings-are-confirmed.json"
+    },
+    {
+      "slug": "tasting-to-final-headcount-locking-your-catering-order",
+      "title": "Tasting to final headcount: locking your catering order",
+      "status": "pending_review",
+      "source": "blog/data/tasting-to-final-headcount-locking-your-catering-order.json"
     },
     {
       "slug": "weight-loss-meal-prep-in-dubai-chef-cooked-vs-packaged-plans",
