@@ -43,6 +43,7 @@ export function attributeContactHref(href: string, source = contactSource()): st
 export function installContactAttribution(): () => void {
   contactSource()
   const enhance = (anchor: HTMLAnchorElement) => {
+    if (anchor.hasAttribute('data-exact-contact')) return
     const href = anchor.getAttribute('href') || ''
     if (!/^(https?:\/\/(wa\.me|api\.whatsapp\.com|web\.whatsapp\.com)\/|whatsapp:|mailto:)/i.test(href)) return
     const next = attributeContactHref(href)

@@ -47,12 +47,14 @@ async function pageFor(width){
  return page
 }
 async function inspect(page,route,width){
+ const hasChristmasGallery = route === '/christmas-catering-dubai'
  const errors=[];const handler=error=>errors.push(error.message);page.on('pageerror',handler)
  await page.goto(origin+route,{waitUntil:'domcontentloaded'})
  await page.waitForFunction(()=>[...document.querySelectorAll('main h1')].some(element=>element.getClientRects().length),{timeout:12000})
  await page.evaluate(()=>new Promise(resolve=>setTimeout(resolve,450)))
  if(!noReview(route))await page.waitForSelector('[data-mychef-reviews]',{timeout:7000})
- if(!utility.has(route)&&route!=='/gallery')await page.waitForSelector('[data-previous-work-preview]',{timeout:7000})
+ if(hasChristmasGallery) await page.waitForSelector('#christmas-gallery-photos img',{timeout:7000})
+ else if(!utility.has(route)&&route!=='/gallery')await page.waitForSelector('[data-previous-work-preview]',{timeout:7000})
  const data=await page.evaluate(()=>{
   const reviews=[...document.querySelectorAll('[data-mychef-reviews]')],preview=[...document.querySelectorAll('[data-previous-work-preview]')]
   const chapters=[...document.querySelectorAll('main section,main header')].filter(element=>element.getClientRects().length&&element.querySelector('h1,h2,h3')&&!element.parentElement?.closest('section,header'))
@@ -63,8 +65,9 @@ async function inspect(page,route,width){
  assert.equal(data.visibleH1,1,route+' one H1')
  assert.equal(data.reviewCount,noReview(route)?0:1,route+' one relevant review section')
  assert.equal(data.reviewHosts,data.reviewCount,route+' one widget host')
- if(data.reviewCount){assert.ok([2,3].includes(data.reviewPosition),route+' reviews follow service content: '+JSON.stringify(data.chapterHeadings));if(route!=='/gallery')assert.ok(data.previewAfterReviews,route+' Google reviews precede work')}
- if(!utility.has(route)&&route!=='/gallery'){assert.equal(data.previewCount,1,route+' one photo preview');assert.equal(data.previewPhotos,6,route+' six related work photos');data.photoSources.forEach(src=>assert.ok(allowedPhotos.has(src),src))}
+ if(data.reviewCount){assert.ok([2,3].includes(data.reviewPosition),route+' reviews follow service content: '+JSON.stringify(data.chapterHeadings));if(route!=='/gallery'&&!hasChristmasGallery)assert.ok(data.previewAfterReviews,route+' Google reviews precede work')}
+ if(hasChristmasGallery){assert.equal(data.previewCount,0);assert.equal(await page.$$eval('#christmas-gallery-photos img',images=>images.length),9)}
+ else if(!utility.has(route)&&route!=='/gallery'){assert.equal(data.previewCount,1,route+' one photo preview');assert.equal(data.previewPhotos,6,route+' six related work photos');data.photoSources.forEach(src=>assert.ok(allowedPhotos.has(src),src))}
  assert.equal(data.overflow,false,route+' no horizontal overflow at '+width);assert.equal(data.navOverlap,false,route+' navigation labels do not overlap')
  assert.deepEqual(errors,[],route+' no browser errors');page.off('pageerror',handler)
 }

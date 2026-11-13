@@ -80,8 +80,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Italian catering in Dubai with antipasti, pasta and regional dishes. Choose sharing plates, a seated menu or a pasta station for your private event."
   },
   "/christmas-catering-dubai": {
-    "title": "Christmas Catering Dubai | Christmas Dinner at Home | myCHEF",
-    "description": "Christmas catering in Dubai for lunch or dinner at home. Plan roast dishes, seasonal sides and desserts, with private chefs, staff and optional décor quoted."
+    "title": "Christmas Catering Dubai | Christmas Dinner & Turkey | myCHEF",
+    "description": "Compare four Christmas menus in Dubai, book a staffed buffet, request a private-chef quote or order roast turkey delivery. See prices, minimums and extras."
   },
   "/engagement-catering-dubai": {
     "title": "Engagement Catering Dubai | Two Families & a Toast | myCHEF"

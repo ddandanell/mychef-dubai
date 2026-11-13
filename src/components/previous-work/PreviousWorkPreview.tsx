@@ -10,7 +10,7 @@ import '@/styles/previous-work.css'
 export default function PreviousWorkPreview() {
   const { pathname } = useLocation()
   const [selected, setSelected] = useState<WorkPhoto | null>(null)
-  if (pathname === '/gallery') return null
+  if (pathname === '/gallery' || pathname === '/christmas-catering-dubai') return null
   const context = workContextFor(pathname)
   const photos = previewWorkPhotos(pathname)
   return <section className="pw-preview" data-previous-work-preview aria-labelledby="pw-preview-heading">
