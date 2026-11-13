@@ -8,8 +8,8 @@ import type { CateringDetailPage } from './CateringPlanningArticle'
 const images = designIndex as Record<string, string>
 export const isCateringDesignPage = (path: string) => Object.hasOwn(images, path.replace(/\/$/, ''))
 export const cateringImage = (path: string, width = 1200) => `/images/catering-editorial-2026/${images[path.replace(/\/$/, '')]}-${width}.webp`
-const ownHero = new Set(['/yachts', '/canape-catering-dubai', '/catering-dubai'])
-const ownPlanning = new Set(['/canape-catering-dubai', '/catering-dubai'])
+const ownHero = new Set(['/yachts', '/canape-catering-dubai', '/catering-dubai', '/christmas-catering-dubai'])
+const ownPlanning = new Set(['/canape-catering-dubai', '/catering-dubai', '/christmas-catering-dubai'])
 const Hero = lazyPreloadable(() => import('./CateringHero'))
 
 /** Shared legacy templates remain available to other service routes. Catering

@@ -1,0 +1,139 @@
+.christmas-page {
+  --christmas-ink: #231b16;
+  --christmas-paper: #fbf8f1;
+  --christmas-wine: #431e26;
+  --christmas-gold: #e7cc93;
+  --christmas-border: #e4d9c8;
+  background: #fff;
+  color: var(--christmas-ink);
+  font-family: Inter, sans-serif;
+  line-height: 1.62;
+}
+
+.christmas-container {
+  width: min(100% - 40px, 1080px);
+  margin-inline: auto;
+}
+
+.christmas-page h1,
+.christmas-page h2,
+.christmas-page h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.14;
+}
+
+.christmas-page h1 { font-size: clamp(2.7rem, 6vw, 5.4rem); }
+.christmas-page h2 { font-size: clamp(2rem, 4vw, 3.25rem); margin: 0 0 1rem; }
+.christmas-page h3 { font-size: clamp(1.28rem, 2vw, 1.65rem); }
+.christmas-page p { max-width: 68ch; }
+.christmas-page :focus-visible { outline: 3px solid #956015; outline-offset: 3px; }
+.christmas-page figcaption { font-size: .875rem; margin-top: .45rem; color: #5e5148; }
+.christmas-section { padding-block: clamp(3rem, 7vw, 6.25rem); scroll-margin-top: 7rem; }
+.christmas-anchor, .christmas-gallery h2 { scroll-margin-top: 7rem; }
+
+.christmas-hero, .christmas-dark {
+  background: var(--christmas-wine);
+  color: var(--christmas-paper);
+}
+
+.christmas-hero { padding-block: clamp(2.75rem, 6.5vw, 6.5rem); }
+.christmas-hero p { font-size: clamp(1.06rem, 1.7vw, 1.28rem); margin-top: 1rem; }
+.christmas-breadcrumb { display: flex; flex-wrap: wrap; gap: .55rem; margin-bottom: 1.35rem; color: var(--christmas-gold); font-size: .875rem; }
+.christmas-breadcrumb a, .christmas-related a { text-decoration: underline; text-underline-offset: 3px; }
+.christmas-split { display: grid; align-items: center; gap: clamp(1.8rem, 5vw, 4.5rem); }
+
+.christmas-picture, .christmas-picture img { display: block; width: 100%; height: auto; }
+.christmas-hero .christmas-picture { border: 1px solid #d5af7a; }
+
+.christmas-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin-top: 1.4rem;
+}
+
+.christmas-button, .christmas-pagination button {
+  min-height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: .55rem;
+  border: 1px solid var(--christmas-wine);
+  border-radius: .18rem;
+  padding: .6rem 1rem;
+  font-size: .9rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.christmas-button { background: var(--christmas-wine); color: #fff; }
+.christmas-button-outline { background: transparent; color: var(--christmas-wine); }
+.christmas-button:hover, .christmas-pagination button:not(:disabled):hover { background: #652c37; color: #fff; }
+.christmas-actions-dark .christmas-button { border-color: var(--christmas-gold); background: var(--christmas-gold); color: #291e17; }
+.christmas-actions-dark .christmas-button-outline { background: transparent; color: var(--christmas-paper); }
+.christmas-actions-dark .christmas-button:hover { background: #fff0d0; color: #291e17; }
+.christmas-hero :focus-visible, .christmas-dark :focus-visible { outline-color: #fff0d0; }
+.christmas-number { margin-top: .6rem; font-size: .875rem !important; }
+.christmas-text-link { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; text-decoration: underline; text-underline-offset: 4px; font-weight: 650; }
+.christmas-hero .christmas-text-link, .christmas-dark .christmas-text-link { color: var(--christmas-gold); margin-top: .75rem; }
+.christmas-jumps { border-bottom: 1px solid var(--christmas-border); background: var(--christmas-paper); }
+.christmas-jumps > div { display: flex; flex-wrap: wrap; column-gap: 1.5rem; padding-block: .4rem; }
+.christmas-jumps a { display: inline-flex; align-items: center; min-height: 44px; font-size: .9rem; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+
+.christmas-overview, .christmas-gallery, .christmas-menu:nth-of-type(odd) { background: var(--christmas-paper); }
+.christmas-comparison, .christmas-courses { display: grid; gap: 1rem; margin-block: 1.6rem; }
+.christmas-comparison > div { background: #fff; border: 1px solid var(--christmas-border); border-top: 3px solid #946e36; padding: clamp(1rem, 2.7vw, 1.65rem); display: flex; flex-direction: column; align-items: flex-start; }
+.christmas-comparison h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.christmas-comparison h3 + p { margin: .55rem 0 .85rem; }
+.christmas-comparison .christmas-text-link { margin-top: auto; }
+
+.christmas-rates { margin-block: 1rem; }
+.christmas-rates dl { display: flex; flex-wrap: wrap; gap: .6rem 1.45rem; }
+.christmas-rates dt { font-size: .85rem; font-weight: 600; color: #5e5148; }
+.christmas-rates strong { font-size: 1.3em; color: var(--christmas-wine); }
+.christmas-rates dl + p { margin-top: .55rem; font-size: .9rem; }
+.christmas-menu .christmas-rates { background: #f2e8d8; padding: 1rem 1.2rem; }
+.christmas-note { padding-left: 1rem; border-left: 3px solid #946e36; }
+.christmas-menu-banner .christmas-picture img { max-height: clamp(14rem, 43vw, 29rem); object-fit: contain; background: #281f1b; }
+.christmas-menu-banner { margin-top: 1.2rem; }
+.christmas-courses { gap: .85rem 2rem; }
+.christmas-courses > div { padding-block: 1.1rem; border-top: 1px solid var(--christmas-border); }
+.christmas-courses ul, .christmas-terms ul { padding-left: 1.2rem; list-style: disc; margin-top: .65rem; }
+.christmas-courses li + li, .christmas-terms li + li { margin-top: .4rem; }
+.christmas-courses li::marker, .christmas-terms li::marker { color: #8b602b; }
+.christmas-courses p { margin-top: .65rem; }
+.christmas-menu-example { max-width: 33rem; margin-top: 1.8rem; }
+
+.christmas-turkey-photo img { max-height: 35rem; object-fit: contain; background: #281f1b; }
+.christmas-gallery-count { font-size: .9rem; font-weight: 650; margin-block: 1.3rem .65rem; }
+.christmas-gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; }
+.christmas-gallery-grid .christmas-picture { background: #f1e9dc; }
+.christmas-gallery-grid img { width: 100%; aspect-ratio: 4/3; object-fit: contain; }
+.christmas-pagination { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-top: 1.25rem; font-size: .86rem; }
+.christmas-pagination button { color: var(--christmas-wine); padding-inline: .65rem; }
+.christmas-pagination button:disabled { opacity: .5; cursor: default; }
+
+.christmas-narrow { max-width: 760px; }
+.christmas-extras { width: 100%; text-align: left; border-collapse: collapse; margin-block: 1.3rem .85rem; }
+.christmas-extras th, .christmas-extras td { padding: .72rem .55rem; vertical-align: top; border-bottom: 1px solid var(--christmas-border); }
+.christmas-extras tbody th { font-weight: 500; }
+.christmas-extras thead { background: var(--christmas-paper); }
+.christmas-extras td { width: 40%; }
+.christmas-terms h3 { margin-top: 1.6rem; }
+.christmas-terms p { margin-top: .65rem; }
+.christmas-related { margin-top: 1.5rem; }
+.christmas-close { text-align: center; }
+.christmas-close p { margin-inline: auto; }
+.christmas-close .christmas-actions { justify-content: center; }
+.christmas-brand { margin-top: 1.5rem; font-size: .875rem; }
+
+@media (min-width: 700px) {
+  .christmas-split, .christmas-comparison, .christmas-courses { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .christmas-gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 410px) {
+  .christmas-actions { flex-direction: column; align-items: stretch; }
+  .christmas-close .christmas-actions { max-width: 20rem; margin-inline: auto; }
+}

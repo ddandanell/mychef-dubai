@@ -45,7 +45,7 @@ export default function SEO({
   if (designImage && !pathname.startsWith('/blog/')) ogImage = chefImage(designImage)
   // Responsive HTML image owns loading priority; do not preload the superseded hero.
   if (designImage) preloadHero = undefined
-  if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && pathname !== "/catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
+  if (pathname !== "/yachts" && pathname !== "/canape-catering-dubai" && pathname !== "/catering-dubai" && pathname !== "/christmas-catering-dubai" && isCateringDesignPage(pathname)) { ogImage = cateringImage(pathname); preloadHero = undefined }
   const workPhoto = pageWorkHero(pathname)
   if (workPhoto) { ogImage = workPhoto.src; preloadHero = undefined }
   // Nested cluster pages (e.g. /private-chef-dubai/our-chefs) pass the parent URL as
