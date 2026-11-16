@@ -8,6 +8,7 @@ cd "$(dirname "$0")/../../.."
 echo "== search (Search Console)"; python3 docs/seo/keyword-map/harvest-gsc.py || true
 echo "== traffic (Vercel Web Analytics)"; python3 docs/seo/keyword-map/harvest-vercel-analytics.py || true
 echo "== behaviour (first-party)"; python3 docs/seo/keyword-map/harvest-firstparty.py || true
+echo "== crawl (production sitemap)"; python3 docs/seo/keyword-map/harvest-live-crawl.py || true
 echo "== crawl (Screaming Frog inbox)"; python3 docs/seo/keyword-map/harvest-frog.py || true
 echo "== CRM (GoHighLevel)"; python3 docs/seo/keyword-map/harvest-ghl.py || true
 echo "== evidence (/seo/e)"; python3 docs/seo/keyword-map/build-evidence.py || true

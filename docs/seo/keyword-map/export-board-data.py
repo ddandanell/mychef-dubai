@@ -38,6 +38,7 @@ JSON_FILES = [
     "frog.json",
     "ghl.json",
     "evidence.json",
+    "live-crawl.json",
     "voice.json",
     "snippets.json",
     "crm.json",

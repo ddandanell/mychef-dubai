@@ -152,8 +152,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Villa Chef Dubai | Home Dining | myCHEF"
   },
   "/business-lunch-catering-dubai": {
-    "description": "Business lunch catering in Dubai for boardrooms, clients and meetings. Compare delivered platters and served menus, with timing and costs agreed in writing.",
-    "title": "Business Lunch Catering Dubai | Boardroom Menus | myCHEF"
+    "title": "Business Lunch Catering Dubai | Boardroom Lunch | myCHEF",
+    "description": "Book a business lunch for clients, meetings or boardrooms in Dubai. Compare delivered platters and chef-served meals, with service timed to your agenda."
   },
   "/chefs/marco-italian-chef": {
     "description": "Italian private chef Marco Rossi cooks Italian and Mediterranean menus in Dubai villas, yachts and homes."
@@ -240,8 +240,8 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Corporate catering in Dubai for office lunches, meetings and company events. Compare menus, service and itemised quotes. Drop-off from AED 90pp before VAT."
   },
   "/full-time-private-chef-dubai": {
-    "title": "Full Time Private Chef Dubai | Managed Household | myCHEF",
-    "description": "Full time private chef in Dubai with personal matching, a Learning Month and ongoing management. From AED 15,000/month; activation and extras separate."
+    "title": "Full Time Private Chef Dubai | Live-In & Live-Out | myCHEF",
+    "description": "Hire a full-time private chef for your Dubai household. Compare live-in and live-out plans, chef matching and a Learning Month. From AED 15,000/month."
   },
   "/catering-packages-dubai": {
     "title": "Catering Packages Dubai | Prices & Menus | myCHEF",
@@ -379,16 +379,16 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "title": "Wedding Catering Dubai | Menus, Tastings & Service | myCHEF"
   },
   "/corporate-event-catering-dubai": {
-    "title": "Corporate Event Catering Dubai | Receptions & Menus | myCHEF",
-    "description": "Corporate event catering in Dubai for launches, awards and company parties. Canapés from AED 150pp or buffets from AED 120pp, before VAT. Get an itemised quote."
+    "title": "Corporate Event Catering Dubai | Launches & Galas | myCHEF",
+    "description": "Plan catering for Dubai launches, awards nights and company receptions. Compare buffet and canap\u00e9 menus, then get an itemised quote for your venue."
   },
   "/private-party-catering-dubai": {
     "description": "Private party catering in Dubai for parties at home. Dinner party and house-party menus — delivery, canapés, buffets or plated dining, quoted.",
     "title": "Private Party Catering Dubai | Menus for Your Home | myCHEF"
   },
   "/office-catering-dubai": {
-    "title": "Office Catering Dubai | Daily & Weekly Lunches | myCHEF",
-    "description": "Office catering in Dubai for daily and weekly lunches. Rotating menus and agreed delivery windows. From AED 90pp, minimum 10 guests, before VAT. Get a quote."
+    "title": "Office Catering Dubai | Recurring Team Lunches | myCHEF",
+    "description": "Arrange daily or weekly office lunches in Dubai. Get rotating menus, individual meals or shared trays, and agreed delivery windows. From AED 90 per guest."
   },
   "/cocktail-party-catering-dubai": {
     "title": "Cocktail Party Catering Dubai | Canapés & Service | myCHEF",
@@ -535,7 +535,7 @@ export const SEO_AUDIT_OVERRIDES: Record<string, SeoAuditOverride> = {
     "description": "Explore myCHEF Dubai for chef visits, household cooking and event catering. Compare services, menus and prices, then plan your home meals or celebration."
   },
   "/blog/best-private-chefs-in-dubai-for-home-dining": {
-    "title": "Household Chef or Event Catering? Dubai Guide | myCHEF",
-    "description": "Household chef or event catering? Compare weekly cooking, meal preparation and one-off dinners in Dubai, with a brief checklist and links to current prices."
+    "title": "Household Chef or Event Catering? Home Dining Guide | myCHEF",
+    "description": "Which chef service suits your home? Compare weekly cooking, meal prep and a one-off dinner in Dubai, with a checklist for briefing the right team."
   }
 }

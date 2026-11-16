@@ -24,6 +24,16 @@ type FrogIssue = {
   urls?: string[]
 }
 
+type CrawlFinding = { url: string; issues: string[] }
+
+type LiveCrawlFile = {
+  completed_at?: string
+  checked?: number
+  passed?: number
+  fetch_failures?: number
+  findings?: CrawlFinding[]
+}
+
 type EvidenceFile = {
   generated?: string
   intro?: string
@@ -79,6 +89,11 @@ const issueColumns: TableColumn<FrogIssue>[] = [
   { id: "accepted_reason", header: "Policy", accessor: (r) => r.accepted_reason || "" },
 ]
 
+const crawlColumns: TableColumn<CrawlFinding>[] = [
+  { id: "url", header: "Sitemap URL", accessor: (row) => row.url },
+  { id: "issues", header: "Findings", accessor: (row) => row.issues.join(" · ") },
+]
+
 const EMPTY_ISSUES: FrogIssue[] = []
 
 const countColumns: TableColumn<CountRow>[] = [
@@ -88,8 +103,10 @@ const countColumns: TableColumn<CountRow>[] = [
 
 export default function EvidencePage() {
   const { data, error, loading } = useSeoJson<EvidenceFile>("evidence")
-  const [tab, setTab] = useState("issues")
+  const { data: crawl, loading: crawlLoading } = useSeoJson<LiveCrawlFile>("live-crawl")
+  const [tab, setTab] = useState("live")
   const [issue, setIssue] = useState<FrogIssue | null>(null)
+  const [openedAt] = useState(Date.now)
   const issues = data?.frog?.issues ?? EMPTY_ISSUES
   const openIssues = useMemo(
     () => issues.filter((row) => (row.disposition || "open") === "open" && row.change !== "fixed"),
@@ -102,16 +119,18 @@ export default function EvidencePage() {
   const pages = data?.pages
   const crm = data?.crm
   const run = data?.run
+  const crawlDate = Date.parse(crawl?.completed_at || "")
+  const crawlStale = !Number.isFinite(crawlDate) || openedAt - crawlDate > 36 * 60 * 60 * 1000
 
   return (
     <PageFrame
       title="Evidence"
-      description={data?.intro || "Screaming Frog issues, GoHighLevel contacts, and whether every page is still on the board."}
+      description="Technical checks against the live sitemap, the last imported Screaming Frog report, SEO board CRM totals and the contract URL inventory."
       exportName="evidence"
       exportData={data}
       loading={loading}
       error={error}
-      metrics={(data?.tiles ?? []).map((tile) => ({ label: tile.label, value: tile.value }))}
+      metrics={[{ label: "Live sitemap URLs checked", value: fmtNum(crawl?.checked) }, ...(data?.tiles ?? []).filter((tile) => tile.label !== "Open Frog issues")]}
     >
       <div className="flex flex-col gap-6 px-4 lg:px-6">
         {pages && !pages.complete ? (
@@ -129,9 +148,10 @@ export default function EvidencePage() {
 
         {crm && crm.connected === false ? (
           <Alert>
-            <AlertTitle>GoHighLevel is not feeding the board</AlertTitle>
+            <AlertTitle>The SEO board CRM collector is disconnected</AlertTitle>
             <AlertDescription>
               {crm.error || "No CRM snapshot yet. Run npm run seo:daily after the key is in ~/.config/claude-seo/gohighlevel.env."}
+              {" This status is specific to the SEO board collector. Quill and Ryze use separate connections."}
               {crm.required_scopes?.length ? ` Required scopes: ${crm.required_scopes.join(", ")}.` : ""}
             </AlertDescription>
           </Alert>
@@ -139,16 +159,37 @@ export default function EvidencePage() {
 
         <Tabs value={tab} onValueChange={setTab}>
           <TabsList>
-            <TabsTrigger value="issues">Frog issues</TabsTrigger>
+            <TabsTrigger value="live">Live crawl</TabsTrigger>
+            <TabsTrigger value="issues">Frog export</TabsTrigger>
             <TabsTrigger value="accepted">Accepted policy</TabsTrigger>
             <TabsTrigger value="crm">CRM</TabsTrigger>
             <TabsTrigger value="pages">Pages</TabsTrigger>
             <TabsTrigger value="run">Activate a run</TabsTrigger>
           </TabsList>
 
+          <TabsContent value="live" className="flex flex-col gap-4">
+            {!crawlLoading && crawlStale ? (
+              <Alert>
+                <AlertTitle>Live crawl needs refreshing</AlertTitle>
+                <AlertDescription>The latest successful crawl is more than 36 hours old or unavailable.</AlertDescription>
+              </Alert>
+            ) : null}
+            <p className="text-muted-foreground text-sm">
+              {crawl?.completed_at
+                ? `Crawled ${crawl.completed_at} · ${fmtNum(crawl.passed)} of ${fmtNum(crawl.checked)} passed · ${fmtNum(crawl.fetch_failures)} fetch failures`
+                : crawlLoading ? "Loading production crawl…" : "No production crawl has completed."}
+            </p>
+            <p className="text-muted-foreground text-sm">
+              Checks cover HTTP status, redirects, canonical URLs, indexing directives, titles and H1 tags on production sitemap pages. Use Search Console URL Inspection for Google’s indexing status.
+            </p>
+            {crawl?.completed_at ? (
+              <DataTable data={crawl.findings ?? []} columns={crawlColumns} searchPlaceholder="Filter URL or finding…" emptyTitle="All sitemap URL checks passed" />
+            ) : null}
+          </TabsContent>
+
           <TabsContent value="issues" className="flex flex-col gap-4">
             <p className="text-muted-foreground text-sm">
-              {data?.frog?.site || "mychef.ae"} · crawled {data?.frog?.crawled_on || "—"}
+              Last Screaming Frog export · {data?.frog?.site || "mychef.ae"} · crawled {data?.frog?.crawled_on || "—"}
               {data?.frog?.previous_crawled_on ? ` · compared with ${data.frog.previous_crawled_on}` : ""}
             </p>
             <DataTable
@@ -328,7 +369,7 @@ export default function EvidencePage() {
                   <li>
                     <span className="text-muted-foreground">3. GitHub Action · </span>
                     <code>{run?.github}</code>
-                    <p className="text-muted-foreground mt-1">workflow_dispatch, or the daily schedule. A push to main then publishes the JSON.</p>
+                    <p className="text-muted-foreground mt-1">The existing evidence harvest imports the Frog export. The SEO production sitemap crawl workflow checks production daily and records its own timestamp.</p>
                   </li>
                 </ol>
               </CardContent>

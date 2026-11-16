@@ -1,0 +1,35 @@
+name: SEO production sitemap crawl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4 * * *'
+
+concurrency:
+  group: seo-production-crawl
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public sitemap URLs
+        run: python3 docs/seo/keyword-map/harvest-live-crawl.py
+      - name: Commit the public sitemap check
+        run: |
+          git config user.name 'seo-crawl'
+          git config user.email 'seo-crawl@users.noreply.github.com'
+          git add -- docs/seo/keyword-map/live-crawl.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore(seo): record production sitemap checks'
+          git push origin HEAD:main
