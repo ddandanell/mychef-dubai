@@ -1621,6 +1621,12 @@
       "source": "blog/data/can-vegan-and-non-vegan-meals-be-served-at-the-same-event.json"
     },
     {
+      "slug": "can-you-book-a-sushi-chef-for-a-dinner-party-in-dubai",
+      "title": "Can you book a sushi chef for a dinner party in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/can-you-book-a-sushi-chef-for-a-dinner-party-in-dubai.json"
+    },
+    {
       "slug": "catering-for-law-firms-in-dubai-complete-guide",
       "title": "Law-firm catering briefs: meetings, access and dietary notes",
       "status": "pending_review",
@@ -1699,6 +1705,12 @@
       "source": "blog/data/hotel-guest-to-in-suite-private-chef-dinner-complete-workflow.json"
     },
     {
+      "slug": "how-do-schools-set-up-recurring-meal-catering-in-dubai",
+      "title": "How do schools set up recurring meal catering in Dubai?",
+      "status": "pending_review",
+      "source": "blog/data/how-do-schools-set-up-recurring-meal-catering-in-dubai.json"
+    },
+    {
       "slug": "how-many-chefs-are-needed-to-cater-a-50-guest-dinner-party",
       "title": "How many chefs are needed to cater a 50-guest dinner party?",
       "status": "pending_review",
@@ -1745,6 +1757,12 @@
       "title": "How should a personal assistant brief a household chef?",
       "status": "pending_review",
       "source": "blog/data/how-to-connect-your-personal-assistant-to-recurring-private-chef-bookings.json"
+    },
+    {
+      "slug": "is-a-live-in-or-live-out-chef-better-for-your-dubai-home",
+      "title": "Is a live-in or live-out chef better for your Dubai home?",
+      "status": "pending_review",
+      "source": "blog/data/is-a-live-in-or-live-out-chef-better-for-your-dubai-home.json"
     },
     {
       "slug": "is-a-private-chef-cooking-class-suitable-for-couples-in-dubai",
